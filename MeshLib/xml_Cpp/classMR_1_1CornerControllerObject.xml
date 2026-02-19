@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CornerControllerObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::CornerControllerObject</compoundname>
+    <includes refid="MRViewportCornerController_8h" local="no">MRViewportCornerController.h</includes>
+    <innerclass refid="structMR_1_1CornerControllerObject_1_1PickedIds" prot="public">MR::CornerControllerObject::PickedIds</innerclass>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga5fbb06d04684a2ff1114174c66e0a230" kind="variable"><name>rootObj_</name></member>
+      <member refid="group__GeneralGroup_1ga0b73d53fce94f039a4e0f80bac750519" kind="variable"><name>connections_</name></member>
+      <member refid="group__GeneralGroup_1gacd9073a63ee8a95c851e6b99725bc850" kind="variable"><name>pickedId_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gacab9beedac78c53c7193591ae8cfa96a" kind="function"><name>CornerControllerObject</name></member>
+      <member refid="group__GeneralGroup_1ga53eef1ed99457b7fc332ac94c7c13a4b" kind="function"><name>initDefault</name></member>
+      <member refid="group__GeneralGroup_1ga1dc148f82f6c4cf8c532da8859c8cf83" kind="function"><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga86020bdd51121c1ffad08d01b638aeca" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1gabcd0e6b17a43b3a196c9060049f1c574" kind="function"><name>getRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga75d438fb86aebae479782ee45c6caa26" kind="function"><name>resetRedrawFlag</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga6dad3e6da660e28d0eb9cccce5e2c60b" kind="function"><name>pick_</name></member>
+      <member refid="group__GeneralGroup_1ga3f3f08dd23e5fcc2fd188e3780443159" kind="function"><name>hover_</name></member>
+      <member refid="group__GeneralGroup_1gab4ee055c2671c2b13b4a994c812fde5b" kind="function"><name>press_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class that holds and manages corner controller object </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportCornerController.h" bodystart="21" bodyend="54"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0b73d53fce94f039a4e0f80bac750519" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>connections_</name></member>
+      <member refid="group__GeneralGroup_1gacab9beedac78c53c7193591ae8cfa96a" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>CornerControllerObject</name></member>
+      <member refid="group__GeneralGroup_1ga86020bdd51121c1ffad08d01b638aeca" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga1dc148f82f6c4cf8c532da8859c8cf83" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>enable</name></member>
+      <member refid="group__GeneralGroup_1gabcd0e6b17a43b3a196c9060049f1c574" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>getRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga3f3f08dd23e5fcc2fd188e3780443159" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>hover_</name></member>
+      <member refid="group__GeneralGroup_1ga53eef1ed99457b7fc332ac94c7c13a4b" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>initDefault</name></member>
+      <member refid="group__GeneralGroup_1ga6dad3e6da660e28d0eb9cccce5e2c60b" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>pick_</name></member>
+      <member refid="group__GeneralGroup_1gacd9073a63ee8a95c851e6b99725bc850" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>pickedId_</name></member>
+      <member refid="group__GeneralGroup_1gab4ee055c2671c2b13b4a994c812fde5b" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>press_</name></member>
+      <member refid="group__GeneralGroup_1ga75d438fb86aebae479782ee45c6caa26" prot="public" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga5fbb06d04684a2ff1114174c66e0a230" prot="private" virt="non-virtual"><scope>MR::CornerControllerObject</scope><name>rootObj_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

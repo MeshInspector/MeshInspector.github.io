@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SelfIntersections::Settings::Method</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a0e37025e1325bc18d2cd1ca1672149f4" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SelfIntersections.Settings.Method::CutAndFill</definition>
+        <argsstring></argsstring>
+        <name>CutAndFill</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.CutAndFill</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method" kindref="compound">SelfIntersections.Settings.Method</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a98030f6bd006322bd6e3efab6bcb58ec" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SelfIntersections.Settings.Method::Relax</definition>
+        <argsstring></argsstring>
+        <name>Relax</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.Relax</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method" kindref="compound">SelfIntersections.Settings.Method</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51751" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a07ad91c48b272732d9a7c1d6423ea1c0" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SelfIntersections.Settings.Method::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method" kindref="compound">SelfIntersections.Settings.Method</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51752" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1ab01223e3d6b8387e5eb979784328f88e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SelfIntersections.Settings.Method.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51753" bodyend="51754"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a456e16c544dfc022de1ef0106c877b0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SelfIntersections.Settings.Method.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51755" bodyend="51756"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1abe1ad6dbb02ea18c40c5b7753b26d24b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SelfIntersections.Settings.Method.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51757" bodyend="51758"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1afcf8f45e2a9bb4c014ae6024ff219f8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SelfIntersections.Settings.Method.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51759" bodyend="51760"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1ac176009ccfa8ed06b956a3395595edf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SelfIntersections.Settings.Method.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51761" bodyend="51762"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a9f3e02ba012a082b721768ffd4f26f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SelfIntersections.Settings.Method.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51763" bodyend="51764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a2f12abc71c2a545cfdead0a77765dfad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SelfIntersections.Settings.Method.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51765" bodyend="51766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a4b23915cdf9584387989a394d9acde25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SelfIntersections.Settings.Method.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51767" bodyend="51768"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a4c7357a5bb03137c65c7254d0b454e70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SelfIntersections.Settings.Method.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51769" bodyend="51770"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1ab7bc53b51c47e0452503a91735cd9a65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SelfIntersections.Settings.Method.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51771" bodyend="51772"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1ae52826aa2481e99268a41f9027ae4155" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SelfIntersections.Settings.Method.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51774" bodyend="51775"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a193e71a988ce298ff8788c96a331e49f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SelfIntersections.Settings.Method.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.SelfIntersections.Settings.Method.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51777" bodyend="51779"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Relax : Relax mesh around self-intersections
+
+  CutAndFill : Cut and re-fill regions around self-intersections (may fall back to `Relax`)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SelfIntersections.Settings.Method</label>
+        <link refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CutAndFill</edgelabel>
+          <edgelabel>Relax</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51742" bodyend="51778"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1ab01223e3d6b8387e5eb979784328f88e" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a456e16c544dfc022de1ef0106c877b0a" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1abe1ad6dbb02ea18c40c5b7753b26d24b" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1afcf8f45e2a9bb4c014ae6024ff219f8a" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1ac176009ccfa8ed06b956a3395595edf7" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a9f3e02ba012a082b721768ffd4f26f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a07ad91c48b272732d9a7c1d6423ea1c0" prot="private" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a2f12abc71c2a545cfdead0a77765dfad" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a4b23915cdf9584387989a394d9acde25" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a4c7357a5bb03137c65c7254d0b454e70" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1ab7bc53b51c47e0452503a91735cd9a65" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a0e37025e1325bc18d2cd1ca1672149f4" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>CutAndFill</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1ae52826aa2481e99268a41f9027ae4155" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a98030f6bd006322bd6e3efab6bcb58ec" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>Relax</name></member>
+      <member refid="classmrmeshpy_1_1SelfIntersections_1_1Settings_1_1Method_1a193e71a988ce298ff8788c96a331e49f" prot="public" virt="non-virtual"><scope>mrmeshpy::SelfIntersections::Settings::Method</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

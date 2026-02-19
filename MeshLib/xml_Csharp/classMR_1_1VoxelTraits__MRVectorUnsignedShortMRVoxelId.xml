@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId" kind="class" language="C#" prot="public">
+    <compoundname>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1ac32b10be952b0b202b0512b0ed9992fd" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.VoxelTraits_MRVectorUnsignedShortMRVoxelId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name>
+        <qualifiedname>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.VoxelTraits_MRVectorUnsignedShortMRVoxelId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3473" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3473" bodyend="3473"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a52dc862895d7c60032907687e83f8fb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.VoxelTraits_MRVectorUnsignedShortMRVoxelId</definition>
+        <argsstring>()</argsstring>
+        <name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name>
+        <qualifiedname>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.VoxelTraits_MRVectorUnsignedShortMRVoxelId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3478" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3478" bodyend="3483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1aac854af743f76fdf5252dec35b88c614" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.VoxelTraits_MRVectorUnsignedShortMRVoxelId</definition>
+        <argsstring>(MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId _other)</argsstring>
+        <name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name>
+        <qualifiedname>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.VoxelTraits_MRVectorUnsignedShortMRVoxelId</qualifiedname>
+        <param>
+          <type>MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VoxelTraits&lt;MR.Vector&lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;&gt;::VoxelTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3488" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3488" bodyend="3494"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a94aa50789ade5fd4ba4b8bef1c76163c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.VoxelTraits_MRVectorUnsignedShortMRVoxelId</definition>
+        <argsstring>(VoxelTraits_MRVectorUnsignedShortMRVoxelId _other)</argsstring>
+        <name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name>
+        <qualifiedname>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.VoxelTraits_MRVectorUnsignedShortMRVoxelId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId" kindref="compound">VoxelTraits_MRVectorUnsignedShortMRVoxelId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VoxelTraits&lt;MR.Vector&lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;&gt;::VoxelTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3499" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3499" bodyend="3499"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a1610910b6b8a76a0845b6621058cf346" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId" kindref="compound">MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId</ref></type>
+        <definition>unsafe MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.assign</definition>
+        <argsstring>(MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId.assign</qualifiedname>
+        <param>
+          <type>MR.Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VoxelTraits&lt;MR.Vector&lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3504" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3504" bodyend="3511"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.VoxelTraits&lt;MR.Vector&lt;unsigned short, <ref refid="structMR_1_1VoxelId" kindref="compound">MR.VoxelId</ref>&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId</label>
+        <link refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VoxelTraits_MRVectorUnsignedShortMRVoxelId</label>
+        <link refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VoxelTraits_MRVectorUnsignedShortMRVoxelId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3471" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3472" bodyend="3512"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a1610910b6b8a76a0845b6621058cf346" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>assign</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1ac32b10be952b0b202b0512b0ed9992fd" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a52dc862895d7c60032907687e83f8fb8" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1aac854af743f76fdf5252dec35b88c614" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
+      <member refid="classMR_1_1VoxelTraits__MRVectorUnsignedShortMRVoxelId_1a94aa50789ade5fd4ba4b8bef1c76163c" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_MRVectorUnsignedShortMRVoxelId</scope><name>VoxelTraits_MRVectorUnsignedShortMRVoxelId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

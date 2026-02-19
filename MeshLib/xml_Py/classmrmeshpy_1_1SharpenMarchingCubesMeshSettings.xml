@@ -1,0 +1,627 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SharpenMarchingCubesMeshSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1afee7822f3473fd9acb0c7464050d0769" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpenMarchingCubesMeshSettings::_offsetof_maxNewRank2VertDev</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxNewRank2VertDev</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings._offsetof_maxNewRank2VertDev</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52068" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a93f9901ea74eb52b1a7c64420ce4ed9b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpenMarchingCubesMeshSettings::_offsetof_maxNewRank3VertDev</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxNewRank3VertDev</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings._offsetof_maxNewRank3VertDev</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52069" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a8a0c88741a4918d6b22f096b1d2f42ba" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpenMarchingCubesMeshSettings::_offsetof_maxOldVertPosCorrection</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxOldVertPosCorrection</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings._offsetof_maxOldVertPosCorrection</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52070" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a8650b8880d40b4bddc98fbd482b53bfc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpenMarchingCubesMeshSettings::_offsetof_minNewVertDev</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minNewVertDev</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings._offsetof_minNewVertDev</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52071" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ab909d69b9c1365868fa51d9ec6e64d20" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpenMarchingCubesMeshSettings::_offsetof_offset</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offset</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings._offsetof_offset</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52072" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a94b008d5e3a89cb5e9791bcb488fa501" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpenMarchingCubesMeshSettings::_offsetof_outSharpEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outSharpEdges</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings._offsetof_outSharpEdges</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52073" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a8ebc99bce7dfde021d5abfd7c1c393b7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpenMarchingCubesMeshSettings::_offsetof_posSelIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_posSelIters</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings._offsetof_posSelIters</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52074" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ad4c054caafedb18b28c2447f1151a5e1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52077" bodyend="52078"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a7a5e40872bd002f9b77bed1d0ce542a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings" kindref="compound">SharpenMarchingCubesMeshSettings</ref></type>
+        <definition> SharpenMarchingCubesMeshSettings mrmeshpy.SharpenMarchingCubesMeshSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52081" bodyend="52082"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a7a5e40872bd002f9b77bed1d0ce542a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings" kindref="compound">SharpenMarchingCubesMeshSettings</ref></type>
+        <definition> SharpenMarchingCubesMeshSettings mrmeshpy.SharpenMarchingCubesMeshSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52085" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52085" bodyend="52086"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a9188e44763219c386458bec4d8adb5c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52088" bodyend="52089"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ad94fd118830f2241f06f32c9b6608ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.__init__</definition>
+        <argsstring>(self, SharpenMarchingCubesMeshSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings" kindref="compound">SharpenMarchingCubesMeshSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52091" bodyend="52094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ae8aba610d5f5eae7520041afe6d77fa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.__init__</definition>
+        <argsstring>(self, float minNewVertDev, float maxNewRank2VertDev, float maxNewRank3VertDev, float offset, float maxOldVertPosCorrection, int posSelIters, UndirectedEdgeBitSet outSharpEdges)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minNewVertDev</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxNewRank2VertDev</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxNewRank3VertDev</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxOldVertPosCorrection</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>posSelIters</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>outSharpEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52096" bodyend="52099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a3328395be3db3f551233b9c2ac9c6469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SharpenMarchingCubesMeshSettings.maxNewRank2VertDev</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxNewRank2VertDev</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.maxNewRank2VertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes);
+recommended set equal to ( 5 * voxel size )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52101" bodyend="52105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a85b8021b63109495d8bd1859355e21cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.maxNewRank2VertDev</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxNewRank2VertDev</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.maxNewRank2VertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52107" bodyend="52108"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1af6e49f4ba1926072f9e0e1b47723d3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SharpenMarchingCubesMeshSettings.maxNewRank3VertDev</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxNewRank3VertDev</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.maxNewRank3VertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes);
+recommended set equal to ( 2 * voxel size )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52110" bodyend="52114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1afc1144032d4fc1610cab3ac00c78986c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.maxNewRank3VertDev</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxNewRank3VertDev</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.maxNewRank3VertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52116" bodyend="52117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a6ce02097944210fd10f52e8bb1d0d235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SharpenMarchingCubesMeshSettings.maxOldVertPosCorrection</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxOldVertPosCorrection</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.maxOldVertPosCorrection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>correct positions of the input vertices using reference mesh by not more than this distance;
+big correction can be wrong and result from self-intersections in the reference mesh
+recommended set equal to ( voxel size / 2 )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52119" bodyend="52124"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ad19e8e703cd82e5923a3497b67e082e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.maxOldVertPosCorrection</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxOldVertPosCorrection</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.maxOldVertPosCorrection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52126" bodyend="52127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a494c53a81998cddeb33a1b1fcd234978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SharpenMarchingCubesMeshSettings.minNewVertDev</definition>
+        <argsstring>(self)</argsstring>
+        <name>minNewVertDev</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.minNewVertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimal surface deviation to introduce new vertex in a voxel;
+recommended set equal to ( voxel size / 25 )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52129" bodyend="52133"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a93acdb60cb52d55986978b8030eac150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.minNewVertDev</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minNewVertDev</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.minNewVertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52135" bodyend="52136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a427b35255292abbf04e4a45783607bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SharpenMarchingCubesMeshSettings.offset</definition>
+        <argsstring>(self)</argsstring>
+        <name>offset</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.offset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>relative to reference mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52138" bodyend="52141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1af5cd0ffc1cec32c301d2ede1283d9bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.offset</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>offset</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.offset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52143" bodyend="52144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ab7820fa6bd4bac08aadf2c859234ed69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.SharpenMarchingCubesMeshSettings.outSharpEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>outSharpEdges</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.outSharpEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if non-null then created sharp edges will be saved here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52146" bodyend="52149"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1abdd61c2835c2d532f130da1b8b5f8242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.outSharpEdges</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>outSharpEdges</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.outSharpEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52151" bodyend="52152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a7892d709bb4f33ed5eb412bfe7f0c95a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SharpenMarchingCubesMeshSettings.posSelIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>posSelIters</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.posSelIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of iterations to best select positions for new vertices,
+the probability of self-intersections and spikes are higher if posSelIters = 0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52154" bodyend="52158"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1af51d8ce005c19cd0b45c6a50fbee2860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpenMarchingCubesMeshSettings.posSelIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>posSelIters</name>
+        <qualifiedname>mrmeshpy.SharpenMarchingCubesMeshSettings.posSelIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52160" bodyend="52161"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SharpenMarchingCubesMeshSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SharpenMarchingCubesMeshSettings</label>
+        <link refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_maxNewRank2VertDev</edgelabel>
+          <edgelabel>_offsetof_maxNewRank3VertDev</edgelabel>
+          <edgelabel>_offsetof_maxOldVertPosCorrection</edgelabel>
+          <edgelabel>_offsetof_minNewVertDev</edgelabel>
+          <edgelabel>_offsetof_offset</edgelabel>
+          <edgelabel>_offsetof_outSharpEdges</edgelabel>
+          <edgelabel>_offsetof_posSelIters</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52064" bodyend="52161"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ad4c054caafedb18b28c2447f1151a5e1" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a9188e44763219c386458bec4d8adb5c8" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ad94fd118830f2241f06f32c9b6608ce4" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ae8aba610d5f5eae7520041afe6d77fa5" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1afee7822f3473fd9acb0c7464050d0769" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>_offsetof_maxNewRank2VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a93f9901ea74eb52b1a7c64420ce4ed9b" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>_offsetof_maxNewRank3VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a8a0c88741a4918d6b22f096b1d2f42ba" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>_offsetof_maxOldVertPosCorrection</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a8650b8880d40b4bddc98fbd482b53bfc" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>_offsetof_minNewVertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ab909d69b9c1365868fa51d9ec6e64d20" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>_offsetof_offset</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a94b008d5e3a89cb5e9791bcb488fa501" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>_offsetof_outSharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a8ebc99bce7dfde021d5abfd7c1c393b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>_offsetof_posSelIters</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a3328395be3db3f551233b9c2ac9c6469" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>maxNewRank2VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a85b8021b63109495d8bd1859355e21cb" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>maxNewRank2VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1af6e49f4ba1926072f9e0e1b47723d3d4" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>maxNewRank3VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1afc1144032d4fc1610cab3ac00c78986c" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>maxNewRank3VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a6ce02097944210fd10f52e8bb1d0d235" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>maxOldVertPosCorrection</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ad19e8e703cd82e5923a3497b67e082e0" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>maxOldVertPosCorrection</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a494c53a81998cddeb33a1b1fcd234978" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>minNewVertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a93acdb60cb52d55986978b8030eac150" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>minNewVertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a427b35255292abbf04e4a45783607bc7" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>offset</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1af5cd0ffc1cec32c301d2ede1283d9bf4" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>offset</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a7a5e40872bd002f9b77bed1d0ce542a0" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a7a5e40872bd002f9b77bed1d0ce542a0" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1ab7820fa6bd4bac08aadf2c859234ed69" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>outSharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1abdd61c2835c2d532f130da1b8b5f8242" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>outSharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1a7892d709bb4f33ed5eb412bfe7f0c95a" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>posSelIters</name></member>
+      <member refid="classmrmeshpy_1_1SharpenMarchingCubesMeshSettings_1af51d8ce005c19cd0b45c6a50fbee2860" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpenMarchingCubesMeshSettings</scope><name>posSelIters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

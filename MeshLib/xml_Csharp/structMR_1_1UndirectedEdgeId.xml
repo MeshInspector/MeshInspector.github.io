@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UndirectedEdgeId" kind="struct" language="C#" prot="public">
+    <compoundname>MR::UndirectedEdgeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.UndirectedEdgeId &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UndirectedEdgeId_1a3244e7a3b4038ff8c854538ac0f6f72d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR.UndirectedEdgeId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.UndirectedEdgeId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="369" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="369" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a6d423e7bf08942929d34a89cc2e36b71" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.UndirectedEdgeId.operator UndirectedEdgeId</definition>
+        <argsstring>(ConstBox_UndirectedEdgeId other)</argsstring>
+        <name>operator UndirectedEdgeId</name>
+        <qualifiedname>MR.UndirectedEdgeId.operator UndirectedEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__UndirectedEdgeId" kindref="compound">ConstBox_UndirectedEdgeId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="374" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1ab036108e00f9525d91d07a73258a2b70" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.UndirectedEdgeId.operator int</definition>
+        <argsstring>(MR.UndirectedEdgeId _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.UndirectedEdgeId.operator int</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.UndirectedEdgeId.operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="438" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="438" bodyend="443"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1afbb8e67e422b4193df4fdc1f37a9003c" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.UndirectedEdgeId.operator bool</definition>
+        <argsstring>(MR.UndirectedEdgeId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.UndirectedEdgeId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.UndirectedEdgeId.operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="448" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="448" bodyend="453"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a04d3b3fbf1e815f09fda08c69366d53c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.UndirectedEdgeId.operator==</definition>
+        <argsstring>(MR.UndirectedEdgeId _this, MR.UndirectedEdgeId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.UndirectedEdgeId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="484" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="484" bodyend="489"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a7df99c7adcb3f246fa2214476e68306d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.UndirectedEdgeId.operator!=</definition>
+        <argsstring>(MR.UndirectedEdgeId _this, MR.UndirectedEdgeId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.UndirectedEdgeId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="491" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="491" bodyend="494"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a2bba73cc2ed9573f713b35af49368637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UndirectedEdgeId.UndirectedEdgeId</definition>
+        <argsstring>(UndirectedEdgeId _other)</argsstring>
+        <name>UndirectedEdgeId</name>
+        <qualifiedname>MR.UndirectedEdgeId.UndirectedEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="379" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="379" bodyend="379"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1ab1cbe8fea9b9a7b34240eaf0fce2b758" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeId.UndirectedEdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>UndirectedEdgeId</name>
+        <qualifiedname>MR.UndirectedEdgeId.UndirectedEdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="384" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="384" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a87225ffb06a1037e5d9722f695cb926c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeId.UndirectedEdgeId</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>UndirectedEdgeId</name>
+        <qualifiedname>MR.UndirectedEdgeId.UndirectedEdgeId</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1UndirectedEdgeId_1a2bba73cc2ed9573f713b35af49368637" kindref="member">MR.UndirectedEdgeId.UndirectedEdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="394" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="394" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a0f01e601f33e2c1396395ac35c9b8b99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeId.UndirectedEdgeId</definition>
+        <argsstring>(int i)</argsstring>
+        <name>UndirectedEdgeId</name>
+        <qualifiedname>MR.UndirectedEdgeId.UndirectedEdgeId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1UndirectedEdgeId_1a2bba73cc2ed9573f713b35af49368637" kindref="member">MR.UndirectedEdgeId.UndirectedEdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="411" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="411" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a9d37feadb2b63cdad9265ba46a0abf6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeId.UndirectedEdgeId</definition>
+        <argsstring>(ulong i)</argsstring>
+        <name>UndirectedEdgeId</name>
+        <qualifiedname>MR.UndirectedEdgeId.UndirectedEdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1UndirectedEdgeId_1a2bba73cc2ed9573f713b35af49368637" kindref="member">MR.UndirectedEdgeId.UndirectedEdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="428" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="428" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a751ad34caef973ae9e188254c5484a75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.UndirectedEdgeId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.UndirectedEdgeId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1UndirectedEdgeId_1a751ad34caef973ae9e188254c5484a75" kindref="member">MR.UndirectedEdgeId.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="458" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="458" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a3220f15f300285ffa2996f839d0d0653" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.UndirectedEdgeId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.UndirectedEdgeId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1UndirectedEdgeId_1a3220f15f300285ffa2996f839d0d0653" kindref="member">MR.UndirectedEdgeId.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="471" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="471" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a918ab4b52cd240f85121e8fed5635040" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.UndirectedEdgeId.less</definition>
+        <argsstring>(MR.UndirectedEdgeId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.UndirectedEdgeId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator&lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="499" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="499" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a045f910648238fa9667fe14a83252794" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeId.decr</definition>
+        <argsstring>()</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.UndirectedEdgeId.decr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="512" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="512" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a0521b1fe5888e7885117eb82c00db85a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition>unsafe UndirectedEdgeId MR.UndirectedEdgeId.decr</definition>
+        <argsstring>(MR.UndirectedEdgeId _this)</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.UndirectedEdgeId.decr</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="525" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="525" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a20d9da066865777817772950cdcbb4e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeId.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.UndirectedEdgeId.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="537" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="537" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1adc06d8ebc02eba5a1c3fbbdaaf94d613" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition>unsafe UndirectedEdgeId MR.UndirectedEdgeId.incr</definition>
+        <argsstring>(MR.UndirectedEdgeId _this)</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.UndirectedEdgeId.incr</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="550" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="550" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1ae79dea952658381ea016ff4b8d57c2cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe ref MR.UndirectedEdgeId MR.UndirectedEdgeId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.UndirectedEdgeId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="562" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="562" bodyend="570"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1aceacff52af94c3c8da282ed6f8a955d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe ref MR.UndirectedEdgeId MR.UndirectedEdgeId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.UndirectedEdgeId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeId.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="575" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="575" bodyend="583"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1a871f45f4446113ede16e185351538010" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.UndirectedEdgeId.Equals</definition>
+        <argsstring>(MR.UndirectedEdgeId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.UndirectedEdgeId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="587" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="587" bodyend="590"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1UndirectedEdgeId_1acd7e9f2b88e33bebbd6e4455142d5115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.UndirectedEdgeId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.UndirectedEdgeId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="592" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="592" bodyend="599"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;</computeroutput> This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.UndirectedEdgeId</label>
+        <link refid="structMR_1_1UndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.UndirectedEdgeId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.UndirectedEdgeId</label>
+        <link refid="structMR_1_1UndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.UndirectedEdgeId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="366" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="367" bodyend="600"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UndirectedEdgeId_1aceacff52af94c3c8da282ed6f8a955d2" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>addAssign</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a045f910648238fa9667fe14a83252794" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>decr</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a0521b1fe5888e7885117eb82c00db85a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>decr</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a871f45f4446113ede16e185351538010" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1acd7e9f2b88e33bebbd6e4455142d5115" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a3220f15f300285ffa2996f839d0d0653" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>get</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a3244e7a3b4038ff8c854538ac0f6f72d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>id</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a20d9da066865777817772950cdcbb4e3" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>incr</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1adc06d8ebc02eba5a1c3fbbdaaf94d613" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>incr</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a918ab4b52cd240f85121e8fed5635040" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>less</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1afbb8e67e422b4193df4fdc1f37a9003c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1ab036108e00f9525d91d07a73258a2b70" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>operator int</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a6d423e7bf08942929d34a89cc2e36b71" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>operator UndirectedEdgeId</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a7df99c7adcb3f246fa2214476e68306d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a04d3b3fbf1e815f09fda08c69366d53c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>operator==</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1ae79dea952658381ea016ff4b8d57c2cd" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>subAssign</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a2bba73cc2ed9573f713b35af49368637" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>UndirectedEdgeId</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1ab1cbe8fea9b9a7b34240eaf0fce2b758" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>UndirectedEdgeId</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a87225ffb06a1037e5d9722f695cb926c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>UndirectedEdgeId</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a0f01e601f33e2c1396395ac35c9b8b99" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>UndirectedEdgeId</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a9d37feadb2b63cdad9265ba46a0abf6a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>UndirectedEdgeId</name></member>
+      <member refid="structMR_1_1UndirectedEdgeId_1a751ad34caef973ae9e188254c5484a75" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

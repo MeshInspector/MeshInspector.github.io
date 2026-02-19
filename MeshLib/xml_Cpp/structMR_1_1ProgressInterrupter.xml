@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ProgressInterrupter" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ProgressInterrupter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">openvdb::util::NullInterrupter</basecompoundref>
+    <includes refid="MRVDBProgressInterrupter_8h" local="no">MRVDBProgressInterrupter.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga6741a2f239c77c48cc98dcc1be451e75" kind="variable"><name>wasInterrupted_</name></member>
+      <member refid="group__GeneralGroup_1ga0bfad00f21a4543393c77f032c8d42a5" kind="variable"><name>cb_</name></member>
+      <member refid="group__GeneralGroup_1ga92e306ef03effb1a14d27dd4027a65b2" kind="variable"><name>progressThreadId_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gad4f40f015b6a225a963200f8fced9ea8" kind="function"><name>ProgressInterrupter</name></member>
+      <member refid="group__GeneralGroup_1gaa7c319b39d9ff06438f19d5c5306139e" kind="function"><name>wasInterrupted</name></member>
+      <member refid="group__GeneralGroup_1ga448f23c735ae1b223b8b928ff4a2deb3" kind="function"><name>getWasInterrupted</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This class implements OpenVdb interrupter interface and provides ability to use MR::ProgressCallback in some OpenVdb operations. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ProgressInterrupter</label>
+        <link refid="structMR_1_1ProgressInterrupter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>openvdb::util::NullInterrupter</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ProgressInterrupter</label>
+        <link refid="structMR_1_1ProgressInterrupter"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>openvdb::util::NullInterrupter</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBProgressInterrupter.h" bodystart="18" bodyend="35"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0bfad00f21a4543393c77f032c8d42a5" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>cb_</name></member>
+      <member refid="group__GeneralGroup_1ga448f23c735ae1b223b8b928ff4a2deb3" prot="public" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>getWasInterrupted</name></member>
+      <member refid="group__GeneralGroup_1gad4f40f015b6a225a963200f8fced9ea8" prot="public" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>ProgressInterrupter</name></member>
+      <member refid="group__GeneralGroup_1ga92e306ef03effb1a14d27dd4027a65b2" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>progressThreadId_</name></member>
+      <member refid="group__GeneralGroup_1gaa7c319b39d9ff06438f19d5c5306139e" prot="public" virt="virtual"><scope>MR::ProgressInterrupter</scope><name>wasInterrupted</name></member>
+      <member refid="group__GeneralGroup_1ga6741a2f239c77c48cc98dcc1be451e75" prot="private" virt="non-virtual"><scope>MR::ProgressInterrupter</scope><name>wasInterrupted_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

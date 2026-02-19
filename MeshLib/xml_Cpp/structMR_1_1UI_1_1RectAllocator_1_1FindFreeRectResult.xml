@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::RectAllocator::FindFreeRectResult</compoundname>
+    <includes refid="MRUIRectAllocator_8h" local="no">MRUIRectAllocator.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult_1a97ed99b906b672210756ad692b5a3a2a" prot="public" static="no" mutable="no">
+        <type>Box2f</type>
+        <definition>Box2f MR::UI::RectAllocator::FindFreeRectResult::rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <qualifiedname>MR::UI::RectAllocator::FindFreeRectResult::rect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="25" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult_1a7bad8f2ab7400f08c728b644d1b1033e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::UI::RectAllocator::FindFreeRectResult::ok</definition>
+        <argsstring></argsstring>
+        <name>ok</name>
+        <qualifiedname>MR::UI::RectAllocator::FindFreeRectResult::ok</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="26" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult_1a423ad35700fd7a37eae40c7cba627783" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::RectAllocator::FindFreeRectResult::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::UI::RectAllocator::FindFreeRectResult::operator bool</qualifiedname>
+        <briefdescription>
+<para>False if no free space for this rect. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="27" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="24" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult_1a7bad8f2ab7400f08c728b644d1b1033e" prot="public" virt="non-virtual"><scope>MR::UI::RectAllocator::FindFreeRectResult</scope><name>ok</name></member>
+      <member refid="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult_1a423ad35700fd7a37eae40c7cba627783" prot="public" virt="non-virtual"><scope>MR::UI::RectAllocator::FindFreeRectResult</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1UI_1_1RectAllocator_1_1FindFreeRectResult_1a97ed99b906b672210756ad692b5a3a2a" prot="public" virt="non-virtual"><scope>MR::UI::RectAllocator::FindFreeRectResult</scope><name>rect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

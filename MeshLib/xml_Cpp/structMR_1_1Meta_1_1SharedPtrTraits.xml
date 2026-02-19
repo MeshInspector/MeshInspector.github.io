@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Meta_1_1SharedPtrTraits" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Meta::SharedPtrTraits</compoundname>
+    <includes refid="MRMeta_8h" local="no">MRMeta.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1Meta_1_1SharedPtrTraits_1a47fdaa7dfd2dfb549cbc8209d27ec617" prot="public" static="no">
+        <type>T</type>
+        <definition>using MR::Meta::SharedPtrTraits&lt; T &gt;::elemType =  T</definition>
+        <argsstring></argsstring>
+        <name>elemType</name>
+        <qualifiedname>MR::Meta::SharedPtrTraits::elemType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeta.h" line="14" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeta.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1Meta_1_1SharedPtrTraits_1a7f680c0ebb2fa786b5db17323abd010b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::Meta::SharedPtrTraits&lt; T &gt;::isSharedPtr</definition>
+        <argsstring></argsstring>
+        <name>isSharedPtr</name>
+        <qualifiedname>MR::Meta::SharedPtrTraits::isSharedPtr</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeta.h" line="13" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeta.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeta.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeta.h" bodystart="12" bodyend="15"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Meta_1_1SharedPtrTraits_1a47fdaa7dfd2dfb549cbc8209d27ec617" prot="public" virt="non-virtual"><scope>MR::Meta::SharedPtrTraits</scope><name>elemType</name></member>
+      <member refid="structMR_1_1Meta_1_1SharedPtrTraits_1a7f680c0ebb2fa786b5db17323abd010b" prot="public" virt="non-virtual"><scope>MR::Meta::SharedPtrTraits</scope><name>isSharedPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

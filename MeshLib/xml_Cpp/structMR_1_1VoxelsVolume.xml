@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsVolume" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelsVolume</compoundname>
+    <derivedcompoundref refid="structMR_1_1VoxelsVolumeMinMax" prot="public" virt="non-virtual">MR::VoxelsVolumeMinMax&lt; T &gt;</derivedcompoundref>
+    <includes refid="MRVoxelsVolume_8h" local="no">MRVoxelsVolume.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gaf9f77daea56312d1b6f7ac20d2473713" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga6ea81e0ad21fc888dfa262fb957f3c2e" kind="variable"><name>data</name></member>
+      <member refid="group__GeneralGroup_1gaec69290a92637368e463e39fadfea701" kind="variable"><name>dims</name></member>
+      <member refid="group__GeneralGroup_1ga3d40ff5d6e909a58566b67d177842ba0" kind="variable"><name>voxelSize</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga6098927f3eb1a5ae05be948dd3ddf6ea" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>represents a box in 3D space subdivided on voxels stored in T </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::VoxelsVolume&lt; T &gt;</label>
+        <link refid="structMR_1_1VoxelsVolume"/>
+      </node>
+      <node id="2">
+        <label>MR::VoxelsVolumeMinMax&lt; T &gt;</label>
+        <link refid="structMR_1_1VoxelsVolumeMinMax"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" bodystart="51" bodyend="59"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6ea81e0ad21fc888dfa262fb957f3c2e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume</scope><name>data</name></member>
+      <member refid="group__GeneralGroup_1gaec69290a92637368e463e39fadfea701" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume</scope><name>dims</name></member>
+      <member refid="group__GeneralGroup_1ga6098927f3eb1a5ae05be948dd3ddf6ea" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaf9f77daea56312d1b6f7ac20d2473713" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga3d40ff5d6e909a58566b67d177842ba0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolume</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

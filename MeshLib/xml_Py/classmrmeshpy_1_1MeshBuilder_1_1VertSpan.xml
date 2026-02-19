@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshBuilder::VertSpan</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a3f22b2b608273e759115bb9e3d29f0a3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.VertSpan::_offsetof_firstVertex</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_firstVertex</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertSpan._offsetof_firstVertex</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a218c653ec174a8da78ab0c3f5c19aae5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.VertSpan::_offsetof_lastVertex</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lastVertex</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertSpan._offsetof_lastVertex</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31587" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1aa1148de36d6d501e86d540d1295e7203" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertSpan.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertSpan.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31592" bodyend="31593"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a39c6f7ea97e50e62aeaf34a2fd557788" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.MeshBuilder.VertSpan.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertSpan.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31596" bodyend="31597"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a39c6f7ea97e50e62aeaf34a2fd557788" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+        <definition> MeshBuilder.VertSpan mrmeshpy.MeshBuilder.VertSpan.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertSpan.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31600" bodyend="31601"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a6d37cb8376ba5fc84a0d3c89d727fde1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertSpan.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertSpan.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31603" bodyend="31604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a02e6efe989266eeed741fcd3ca553114" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertSpan.__init__</definition>
+        <argsstring>(self, MeshBuilder.VertSpan arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertSpan.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan" kindref="compound">MeshBuilder.VertSpan</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31606" bodyend="31609"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1ab5aeace7c3b233411e10a0a722e113ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertSpan.__init__</definition>
+        <argsstring>(self, int firstVertex, int lastVertex)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertSpan.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>firstVertex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lastVertex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31611" bodyend="31615"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshBuilder::VertSpan
+Aliases:  std_vector_MeshBuilder_VertSpan_const_reference, Vector_MeshBuilder_VertSpan_FaceId.reference, std_vector_MeshBuilder_VertSpan_value_type, Vector_MeshBuilder_VertSpan_FaceId.value_type, Vector_MeshBuilder_VertSpan_FaceId.const_reference, std_vector_MeshBuilder_VertSpan_reference
+
+each face is surrounded by a closed contour of vertices [fistVertex, lastVertex)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshBuilder.VertSpan</label>
+        <link refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_firstVertex</edgelabel>
+          <edgelabel>_offsetof_lastVertex</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31579" bodyend="31614"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1aa1148de36d6d501e86d540d1295e7203" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertSpan</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a6d37cb8376ba5fc84a0d3c89d727fde1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertSpan</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a02e6efe989266eeed741fcd3ca553114" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertSpan</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1ab5aeace7c3b233411e10a0a722e113ff" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertSpan</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a3f22b2b608273e759115bb9e3d29f0a3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertSpan</scope><name>_offsetof_firstVertex</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a218c653ec174a8da78ab0c3f5c19aae5" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertSpan</scope><name>_offsetof_lastVertex</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a39c6f7ea97e50e62aeaf34a2fd557788" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertSpan</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertSpan_1a39c6f7ea97e50e62aeaf34a2fd557788" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertSpan</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

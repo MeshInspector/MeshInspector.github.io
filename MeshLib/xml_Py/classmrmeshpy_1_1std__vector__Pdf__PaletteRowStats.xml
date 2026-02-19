@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_Pdf_PaletteRowStats</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a37aaab5c1dd389f8e2cd3b9429912209" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_Pdf_PaletteRowStats::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.element_type_byte_size</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86267" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a78195b8358a6653a2c293b5794db7aef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_Pdf_PaletteRowStats.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86268" bodyend="86271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a889ad131d6613ccd452f074c0ed7dc91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86273" bodyend="86276"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1acecc66b0d0e5c1c6a3730c0ff962a607" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86278" bodyend="86281"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1acd23deedbb98f7ee778ecfb941eebacc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats" kindref="compound">std_vector_Pdf_PaletteRowStats</ref></type>
+        <definition> std_vector_Pdf_PaletteRowStats mrmeshpy.std_vector_Pdf_PaletteRowStats.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86283" bodyend="86286"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a0cc54aaa996fd9cf549f494e7d052c8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+        <definition> Pdf.PaletteRowStats mrmeshpy.std_vector_Pdf_PaletteRowStats.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86288" bodyend="86289"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1ab12618c881a4cb45b9b089c6924c6148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86291" bodyend="86292"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a839441532cacebedee2f2f93522108a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86294" bodyend="86295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1abf0f707482c8b0f37dd2355358c9a4d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.__init__</definition>
+        <argsstring>(self, std_vector_Pdf_PaletteRowStats arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats" kindref="compound">std_vector_Pdf_PaletteRowStats</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86297" bodyend="86298"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a74be1004c3bea3c23b4287b762a42b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref>]</type>
+        <definition> typing.Iterator[Pdf.PaletteRowStats] mrmeshpy.std_vector_Pdf_PaletteRowStats.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86299" bodyend="86300"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1aa1b73e5b9b048ac4854814630dbe75cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_Pdf_PaletteRowStats.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86301" bodyend="86302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a79b3daa257d78626d87ec22d89b7092e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.__setitem__</definition>
+        <argsstring>(self, int arg0, Pdf.PaletteRowStats arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86304" bodyend="86305"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1abd72de9085e01da25043c88df09d7665" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_Pdf_PaletteRowStats arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats" kindref="compound">std_vector_Pdf_PaletteRowStats</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86307" bodyend="86310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1ab9e84e2135d1c3b713d67a0eaa3742cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.append</definition>
+        <argsstring>(self, Pdf.PaletteRowStats x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86311" bodyend="86314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a7972bdac8224ebdb5a509c14827de118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86315" bodyend="86318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a302edaab2031ae667d0c56eec96aabc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_Pdf_PaletteRowStats.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86319" bodyend="86322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1aaa166bd0562b6a4b901c7f1be49ffe5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_Pdf_PaletteRowStats.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86323" bodyend="86324"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1aca4a03d7cedd565e237ab31367391f27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.extend</definition>
+        <argsstring>(self, std_vector_Pdf_PaletteRowStats L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats" kindref="compound">std_vector_Pdf_PaletteRowStats</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86326" bodyend="86329"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a3e878efc49dc03023f90a9fa49f72075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86331" bodyend="86334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a63e62b06fd52e258c3bb107b9e4bcdf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.insert</definition>
+        <argsstring>(self, int i, Pdf.PaletteRowStats x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86335" bodyend="86338"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a22e274b3c0fd6e91b464a2dfccf37e8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+        <definition> Pdf.PaletteRowStats mrmeshpy.std_vector_Pdf_PaletteRowStats.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86340" bodyend="86343"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1abfdd6f11cf8eed087527ba5adcb267d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+        <definition> Pdf.PaletteRowStats mrmeshpy.std_vector_Pdf_PaletteRowStats.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86345" bodyend="86348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1ab5eef9c6bb361bc0f1e67cca31b4e1b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86350" bodyend="86351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1af214a14c601e61b637a8f3983d6ae606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_Pdf_PaletteRowStats.resize</definition>
+        <argsstring>(self, int arg0, Pdf.PaletteRowStats arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86353" bodyend="86354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a94ea0c60b66cf9ad9d3584c6f3e7ef98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_Pdf_PaletteRowStats.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_Pdf_PaletteRowStats.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86355" bodyend="86356"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_Pdf_PaletteRowStats</label>
+        <link refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="86266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="86266" bodyend="86356"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a78195b8358a6653a2c293b5794db7aef" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a889ad131d6613ccd452f074c0ed7dc91" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1acecc66b0d0e5c1c6a3730c0ff962a607" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1acd23deedbb98f7ee778ecfb941eebacc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a0cc54aaa996fd9cf549f494e7d052c8a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1ab12618c881a4cb45b9b089c6924c6148" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a839441532cacebedee2f2f93522108a3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1abf0f707482c8b0f37dd2355358c9a4d4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a74be1004c3bea3c23b4287b762a42b09" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1aa1b73e5b9b048ac4854814630dbe75cb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a79b3daa257d78626d87ec22d89b7092e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1abd72de9085e01da25043c88df09d7665" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1ab9e84e2135d1c3b713d67a0eaa3742cb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a7972bdac8224ebdb5a509c14827de118" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a302edaab2031ae667d0c56eec96aabc1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a37aaab5c1dd389f8e2cd3b9429912209" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1aaa166bd0562b6a4b901c7f1be49ffe5e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1aca4a03d7cedd565e237ab31367391f27" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a3e878efc49dc03023f90a9fa49f72075" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a63e62b06fd52e258c3bb107b9e4bcdf1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a22e274b3c0fd6e91b464a2dfccf37e8d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1abfdd6f11cf8eed087527ba5adcb267d2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1ab5eef9c6bb361bc0f1e67cca31b4e1b9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1af214a14c601e61b637a8f3983d6ae606" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats_1a94ea0c60b66cf9ad9d3584c6f3e7ef98" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_Pdf_PaletteRowStats</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

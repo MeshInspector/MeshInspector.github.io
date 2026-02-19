@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RigidScaleXf3" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RigidScaleXf3</compoundname>
+    <includes refid="MRRigidScaleXf3_8h" local="no">MRRigidScaleXf3.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga6c4d0f89f0f64deb44bea0f257bbf755" kind="typedef"><name>V</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac7250fbdfd02baf9936e263ed527779e" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1gaab41cf4d5be1d1a224a24a5b484e3a1d" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga89ce25c6f6b3805955c04f054a2fb0a7" kind="variable"><name>s</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga7a23e297ae39af803b4a249aed7ff8b5" kind="function"><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga997f09f418f6e779a0a511288d316a06" kind="function"><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1gacd29039623f95b68b2c1cdce22cdba76" kind="function"><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga26bac944caacddeb8e441b79dfb617b0" kind="function"><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1gadcb2be531582327cfde07191af6837c8" kind="function"><name>rigidScaleXf</name></member>
+      <member refid="group__GeneralGroup_1ga1b5d1cabe9f108d27da6c12f5e5717b5" kind="function"><name>linearXf</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>rigid (with scale) transformation that multiplies all distances on same scale: y = s*A*x + b, where s is a scalar, A is rotation matrix 3x3 stored as 3 angles, and b is shift vector </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidScaleXf3.h" bodystart="15" bodyend="34"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac7250fbdfd02baf9936e263ed527779e" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gaab41cf4d5be1d1a224a24a5b484e3a1d" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga1b5d1cabe9f108d27da6c12f5e5717b5" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>linearXf</name></member>
+      <member refid="group__GeneralGroup_1gadcb2be531582327cfde07191af6837c8" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>rigidScaleXf</name></member>
+      <member refid="group__GeneralGroup_1ga7a23e297ae39af803b4a249aed7ff8b5" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga997f09f418f6e779a0a511288d316a06" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1gacd29039623f95b68b2c1cdce22cdba76" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga26bac944caacddeb8e441b79dfb617b0" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>RigidScaleXf3</name></member>
+      <member refid="group__GeneralGroup_1ga89ce25c6f6b3805955c04f054a2fb0a7" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>s</name></member>
+      <member refid="group__GeneralGroup_1ga6c4d0f89f0f64deb44bea0f257bbf755" prot="public" virt="non-virtual"><scope>MR::RigidScaleXf3</scope><name>V</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

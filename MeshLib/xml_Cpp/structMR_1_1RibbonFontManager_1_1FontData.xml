@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonFontManager_1_1FontData" kind="struct" language="C++" prot="private">
+    <compoundname>MR::RibbonFontManager::FontData</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga9f1d5e3b03d4cb2c9b2224c195e527a8" kind="variable"><name>fontFile</name></member>
+      <member refid="group__GeneralGroup_1gacfc38fa3a885c9eaecf1e1d5161791dc" kind="variable"><name>scaledOffset</name></member>
+      <member refid="group__GeneralGroup_1ga4e4fa0db8b4e8f094eb0bff476d96d9c" kind="variable"><name>fontPtr</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" line="81" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonFontManager.h" bodystart="82" bodyend="86"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga9f1d5e3b03d4cb2c9b2224c195e527a8" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager::FontData</scope><name>fontFile</name></member>
+      <member refid="group__GeneralGroup_1ga4e4fa0db8b4e8f094eb0bff476d96d9c" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager::FontData</scope><name>fontPtr</name></member>
+      <member refid="group__GeneralGroup_1gacfc38fa3a885c9eaecf1e1d5161791dc" prot="public" virt="non-virtual"><scope>MR::RibbonFontManager::FontData</scope><name>scaledOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

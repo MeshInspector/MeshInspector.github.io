@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SystemMemory" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SystemMemory</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SystemMemory_1a10bad573985aa52973190567ef4554d6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SystemMemory::_offsetof_physicalAvailable</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_physicalAvailable</name>
+        <qualifiedname>mrmeshpy.SystemMemory._offsetof_physicalAvailable</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55852" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SystemMemory_1a61774227d4dc95db0766d5f33dee375e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SystemMemory::_offsetof_physicalTotal</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_physicalTotal</name>
+        <qualifiedname>mrmeshpy.SystemMemory._offsetof_physicalTotal</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55853" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1a5b3568bd013ba141432234bc607dcd75" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemMemory.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SystemMemory.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55856" bodyend="55857"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1a498185bd85a2733ffe1b314d58987e26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SystemMemory" kindref="compound">SystemMemory</ref></type>
+        <definition> SystemMemory mrmeshpy.SystemMemory.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SystemMemory.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55860" bodyend="55861"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1a498185bd85a2733ffe1b314d58987e26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SystemMemory" kindref="compound">SystemMemory</ref></type>
+        <definition> SystemMemory mrmeshpy.SystemMemory.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SystemMemory.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55864" bodyend="55865"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1a2e36c332beb05ce27fe0c5e36dd6575c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemMemory.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SystemMemory.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55867" bodyend="55868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1a1657d02fa871c0ca5fdf486bf6b8928f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemMemory.__init__</definition>
+        <argsstring>(self, SystemMemory arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SystemMemory.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SystemMemory" kindref="compound">SystemMemory</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55870" bodyend="55873"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1a1812e51d37952adbb2de323cced10a44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemMemory.__init__</definition>
+        <argsstring>(self, int physicalTotal, int physicalAvailable)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SystemMemory.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>physicalTotal</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>physicalAvailable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55875" bodyend="55878"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1ad98c067406bebcb187ee72f32480ec11" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SystemMemory.physicalAvailable</definition>
+        <argsstring>(self)</argsstring>
+        <name>physicalAvailable</name>
+        <qualifiedname>mrmeshpy.SystemMemory.physicalAvailable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>available amount of physical memory in the system, in bytes (0 if no info)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55880" bodyend="55883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1ac24d4d723acba67496743bb0b8110063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemMemory.physicalAvailable</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>physicalAvailable</name>
+        <qualifiedname>mrmeshpy.SystemMemory.physicalAvailable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55885" bodyend="55886"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1ad287811c8740454266342345dea29959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SystemMemory.physicalTotal</definition>
+        <argsstring>(self)</argsstring>
+        <name>physicalTotal</name>
+        <qualifiedname>mrmeshpy.SystemMemory.physicalTotal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>total amount of physical memory in the system, in bytes (0 if no info)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55888" bodyend="55891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemMemory_1a04113c6bd6673ced5f0c82304a7cbaf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemMemory.physicalTotal</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>physicalTotal</name>
+        <qualifiedname>mrmeshpy.SystemMemory.physicalTotal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55893" bodyend="55894"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SystemMemory
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SystemMemory</label>
+        <link refid="classmrmeshpy_1_1SystemMemory"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_physicalAvailable</edgelabel>
+          <edgelabel>_offsetof_physicalTotal</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55848" bodyend="55894"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SystemMemory_1a5b3568bd013ba141432234bc607dcd75" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1a2e36c332beb05ce27fe0c5e36dd6575c" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1a1657d02fa871c0ca5fdf486bf6b8928f" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1a1812e51d37952adbb2de323cced10a44" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1a10bad573985aa52973190567ef4554d6" prot="protected" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>_offsetof_physicalAvailable</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1a61774227d4dc95db0766d5f33dee375e" prot="protected" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>_offsetof_physicalTotal</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1a498185bd85a2733ffe1b314d58987e26" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1a498185bd85a2733ffe1b314d58987e26" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1ad98c067406bebcb187ee72f32480ec11" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>physicalAvailable</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1ac24d4d723acba67496743bb0b8110063" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>physicalAvailable</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1ad287811c8740454266342345dea29959" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>physicalTotal</name></member>
+      <member refid="classmrmeshpy_1_1SystemMemory_1a04113c6bd6673ced5f0c82304a7cbaf4" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemMemory</scope><name>physicalTotal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

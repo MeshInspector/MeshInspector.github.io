@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1XfBasedCache__Box3f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::XfBasedCache_Box3f</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1XfBasedCache__Box3f_1aa47b2963d9d2d44b3c80b22d641c6fe6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.XfBasedCache_Box3f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.XfBasedCache_Box3f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75044" bodyend="75045"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1XfBasedCache__Box3f_1a15aa9d5cb2cdd5bcfc80b9d21d2bfd47" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1XfBasedCache__Box3f" kindref="compound">XfBasedCache_Box3f</ref></type>
+        <definition> XfBasedCache_Box3f mrmeshpy.XfBasedCache_Box3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.XfBasedCache_Box3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75048" bodyend="75049"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1XfBasedCache__Box3f_1a15aa9d5cb2cdd5bcfc80b9d21d2bfd47" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1XfBasedCache__Box3f" kindref="compound">XfBasedCache_Box3f</ref></type>
+        <definition> XfBasedCache_Box3f mrmeshpy.XfBasedCache_Box3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.XfBasedCache_Box3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75052" bodyend="75053"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1XfBasedCache__Box3f_1a379d05a86f2816deaf7c63f084b6ae0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.XfBasedCache_Box3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.XfBasedCache_Box3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75055" bodyend="75056"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1XfBasedCache__Box3f_1a6bb185563ef260c20963c631d46e3421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.XfBasedCache_Box3f.__init__</definition>
+        <argsstring>(self, XfBasedCache_Box3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.XfBasedCache_Box3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1XfBasedCache__Box3f" kindref="compound">XfBasedCache_Box3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75058" bodyend="75061"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1XfBasedCache__Box3f_1af91b196a0fb1ea92eb6f4e0fb4794d0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__Box__Vector3__float" kindref="compound">std_optional_Box_Vector3_float</ref></type>
+        <definition> std_optional_Box_Vector3_float mrmeshpy.XfBasedCache_Box3f.get</definition>
+        <argsstring>(self, AffineXf3f xf)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.XfBasedCache_Box3f.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns stored object only if requested transformation is the same as stored one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75062" bodyend="75065"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1XfBasedCache__Box3f_1ae5a8d1b5313ab9fb0c19ef99d2ace077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.XfBasedCache_Box3f.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.XfBasedCache_Box3f.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clears stored object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75066" bodyend="75069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1XfBasedCache__Box3f_1a2b222d9d4f72196d4d4a7263666903a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.XfBasedCache_Box3f.set</definition>
+        <argsstring>(self, AffineXf3f xf, Box3f t)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.XfBasedCache_Box3f.set</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets new transformation and the object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75070" bodyend="75073"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::XfBasedCache&lt;MR::Box3f&gt;
+
+optional T-object container, which stores a transformation as well for which the object is valid
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75036" bodyend="75073"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1XfBasedCache__Box3f_1aa47b2963d9d2d44b3c80b22d641c6fe6" prot="public" virt="non-virtual"><scope>mrmeshpy::XfBasedCache_Box3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1XfBasedCache__Box3f_1a379d05a86f2816deaf7c63f084b6ae0b" prot="public" virt="non-virtual"><scope>mrmeshpy::XfBasedCache_Box3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1XfBasedCache__Box3f_1a6bb185563ef260c20963c631d46e3421" prot="public" virt="non-virtual"><scope>mrmeshpy::XfBasedCache_Box3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1XfBasedCache__Box3f_1af91b196a0fb1ea92eb6f4e0fb4794d0a" prot="public" virt="non-virtual"><scope>mrmeshpy::XfBasedCache_Box3f</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1XfBasedCache__Box3f_1a15aa9d5cb2cdd5bcfc80b9d21d2bfd47" prot="public" virt="non-virtual"><scope>mrmeshpy::XfBasedCache_Box3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1XfBasedCache__Box3f_1a15aa9d5cb2cdd5bcfc80b9d21d2bfd47" prot="public" virt="non-virtual"><scope>mrmeshpy::XfBasedCache_Box3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1XfBasedCache__Box3f_1ae5a8d1b5313ab9fb0c19ef99d2ace077" prot="public" virt="non-virtual"><scope>mrmeshpy::XfBasedCache_Box3f</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1XfBasedCache__Box3f_1a2b222d9d4f72196d4d4a7263666903a6" prot="public" virt="non-virtual"><scope>mrmeshpy::XfBasedCache_Box3f</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

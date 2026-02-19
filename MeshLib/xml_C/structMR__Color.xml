@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__Color" kind="struct" language="C++" prot="public">
+    <compoundname>MR_Color</compoundname>
+    <includes refid="MRColor_8h" local="no">MRColor.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__Color_1aa42eb9bb577b955386e4f8b1cc7e1f25" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char MR_Color::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>MR_Color::r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="19" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Color_1a5dea71edd69bdc81ca83d36580a3677b" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char MR_Color::g</definition>
+        <argsstring></argsstring>
+        <name>g</name>
+        <qualifiedname>MR_Color::g</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="20" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Color_1aa750e2f6bf418c8ccc3000069caf5b0a" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char MR_Color::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR_Color::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="21" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Color_1a04e09b02dd7c8077a3425ccfd38f3b07" prot="public" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char MR_Color::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR_Color::a</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="22" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR::Color</computeroutput>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRColor.h" bodystart="18" bodyend="23"/>
+    <listofallmembers>
+      <member refid="structMR__Color_1a04e09b02dd7c8077a3425ccfd38f3b07" prot="public" virt="non-virtual"><scope>MR_Color</scope><name>a</name></member>
+      <member refid="structMR__Color_1aa750e2f6bf418c8ccc3000069caf5b0a" prot="public" virt="non-virtual"><scope>MR_Color</scope><name>b</name></member>
+      <member refid="structMR__Color_1a5dea71edd69bdc81ca83d36580a3677b" prot="public" virt="non-virtual"><scope>MR_Color</scope><name>g</name></member>
+      <member refid="structMR__Color_1aa42eb9bb577b955386e4f8b1cc7e1f25" prot="public" virt="non-virtual"><scope>MR_Color</scope><name>r</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

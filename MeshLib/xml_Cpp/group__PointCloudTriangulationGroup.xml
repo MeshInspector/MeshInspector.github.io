@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__PointCloudTriangulationGroup" kind="group">
+    <compoundname>PointCloudTriangulationGroup</compoundname>
+    <title>PointCloud triangulation overview</title>
+    <innerclass refid="structMR_1_1TriangulationParameters" prot="public">MR::TriangulationParameters</innerclass>
+    <innergroup refid="group__TriangulationHelpersGroup">TriangulationHelpers</innergroup>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__PointCloudTriangulationGroup_1ga9a35a19f982f5409d7939ad87946a479" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::optional&lt; Mesh &gt;</type>
+        <definition>MRMESH_API std::optional&lt; Mesh &gt; MR::triangulatePointCloud</definition>
+        <argsstring>(const PointCloud &amp;pointCloud, const TriangulationParameters &amp;params={}, const ProgressCallback &amp;progressCb={})</argsstring>
+        <name>triangulatePointCloud</name>
+        <qualifiedname>MR::triangulatePointCloud</qualifiedname>
+        <param>
+          <type>const PointCloud &amp;</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>const TriangulationParameters &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>progressCb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Creates mesh from given point cloud according params Returns empty optional if was interrupted by progress bar. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><table rows="1" cols="2"><caption id="group__PointCloudTriangulationGroup_1triangulatePointCloud_examples"></caption>
+<row>
+<entry thead="no"><para><image type="html" name="triangulate_0.png" width="350cm">Before</image>
+ </para>
+</entry><entry thead="no"><para><image type="html" name="triangulate_3.png" width="350cm">After</image>
+  </para>
+</entry></row>
+</table>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" line="86" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulation.h" declline="86" declcolumn="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This chapter represents documentation about <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> triangulation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

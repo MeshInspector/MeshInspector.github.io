@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Box__TextureId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Box_TextureId</compoundname>
+    <basecompoundref refid="classMR_1_1ConstBox__TextureId" prot="public" virt="non-virtual">MR.ConstBox_TextureId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Box__TextureId_1ad56c2cb7da1fc3106e346ac7fad719e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref int</type>
+        <definition>new ref int MR.Box_TextureId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.Box_TextureId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4828" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4828" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1a65bcebf7204880dace3fcb692abd1642" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_TextureId.Box_TextureId</definition>
+        <argsstring>(TextureId other)</argsstring>
+        <name>Box_TextureId</name>
+        <qualifiedname>MR.Box_TextureId.Box_TextureId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1TextureId" kindref="compound">TextureId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4833" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4833" bodyend="4833"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1ad556ed8bc14364038173efbad2ee5b48" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_TextureId.Box_TextureId</definition>
+        <argsstring>(ConstBox_TextureId _other)</argsstring>
+        <name>Box_TextureId</name>
+        <qualifiedname>MR.Box_TextureId.Box_TextureId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__TextureId" kindref="compound">ConstBox_TextureId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4840" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4840" bodyend="4844"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1a7107c0c13b7407ac857d0484e09519a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Box_TextureId.Assign</definition>
+        <argsstring>(ConstBox_TextureId _other)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>MR.Box_TextureId.Assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__TextureId" kindref="compound">ConstBox_TextureId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4849" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4849" bodyend="4849"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1a913b21043fa3d2c73875badf56d07183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_TextureId.Box_TextureId</definition>
+        <argsstring>()</argsstring>
+        <name>Box_TextureId</name>
+        <qualifiedname>MR.Box_TextureId.Box_TextureId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4854" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4854" bodyend="4860"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1a00e2f6cf0f851f7c21ba2474fc5cb9d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_TextureId.Box_TextureId</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Box_TextureId</name>
+        <qualifiedname>MR.Box_TextureId.Box_TextureId</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1TextureId_1a91a810b54ac884d0191fdd7d4f1b927a" kindref="member">MR.TextureId.TextureId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4865" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4865" bodyend="4872"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1a5f9819c33e0bb8415fa19ff970326fcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_TextureId.Box_TextureId</definition>
+        <argsstring>(int i)</argsstring>
+        <name>Box_TextureId</name>
+        <qualifiedname>MR.Box_TextureId.Box_TextureId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1TextureId_1a91a810b54ac884d0191fdd7d4f1b927a" kindref="member">MR.TextureId.TextureId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4884" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4884" bodyend="4890"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1a308546ded3d4d043ffaccb5905dd2983" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.Box_TextureId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.Box_TextureId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1TextureId_1ac2240ce1c5b880507a18479b90bbfab3" kindref="member">MR.TextureId.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4895" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4895" bodyend="4900"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1a469b8c5f7e491f40cdedd76bef70723f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_TextureId.decr</definition>
+        <argsstring>()</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.Box_TextureId.decr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4905" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4905" bodyend="4910"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1aaf42c1e7820a66f8ad1c22a52c4eb022" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_TextureId.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.Box_TextureId.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4915" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4915" bodyend="4920"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1ab5b63e0c16e736c1bbc87366c8b77af7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+        <definition>unsafe ref MR.TextureId MR.Box_TextureId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.Box_TextureId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureId.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4925" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4925" bodyend="4930"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1af1487d9e9f6b6c9c6f9c7dcdbea2002f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></type>
+        <definition>unsafe ref MR.TextureId MR.Box_TextureId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.Box_TextureId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TextureId.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4935" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4935" bodyend="4940"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Box__TextureId_1a8ca16235bae53e0163972a994383d755" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_TextureId.Box_TextureId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Box_TextureId</name>
+        <qualifiedname>MR.Box_TextureId.Box_TextureId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4835" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4835" bodyend="4835"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1TextureId" kindref="compound">MR.TextureId</ref>&gt;</computeroutput> This is the non-const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConstBox_TextureId</label>
+        <link refid="classMR_1_1ConstBox__TextureId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_TextureId</label>
+        <link refid="classMR_1_1Box__TextureId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_TextureId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.TextureId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConstBox_TextureId</label>
+        <link refid="classMR_1_1ConstBox__TextureId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_TextureId</label>
+        <link refid="classMR_1_1Box__TextureId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_TextureId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.TextureId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="4821" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="4822" bodyend="4941"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Box__TextureId_1af1487d9e9f6b6c9c6f9c7dcdbea2002f" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1Box__TextureId_1a7107c0c13b7407ac857d0484e09519a9" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>Assign</name></member>
+      <member refid="classMR_1_1Box__TextureId_1a65bcebf7204880dace3fcb692abd1642" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>Box_TextureId</name></member>
+      <member refid="classMR_1_1Box__TextureId_1a8ca16235bae53e0163972a994383d755" prot="package" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>Box_TextureId</name></member>
+      <member refid="classMR_1_1Box__TextureId_1ad556ed8bc14364038173efbad2ee5b48" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>Box_TextureId</name></member>
+      <member refid="classMR_1_1Box__TextureId_1a913b21043fa3d2c73875badf56d07183" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>Box_TextureId</name></member>
+      <member refid="classMR_1_1Box__TextureId_1a00e2f6cf0f851f7c21ba2474fc5cb9d2" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>Box_TextureId</name></member>
+      <member refid="classMR_1_1Box__TextureId_1a5f9819c33e0bb8415fa19ff970326fcd" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>Box_TextureId</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a0f20c5736a471b7d0f191c838857747b" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>ConstBox_TextureId</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1ab6bb62cbdf606f92a7e27577fb3e5f91" prot="package" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>ConstBox_TextureId</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a3dc93b79dec3cd2e241d91b0276f7a0d" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>ConstBox_TextureId</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a3c85e23e87d7d5377f9cb8e5accda71f" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>ConstBox_TextureId</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a8aa8c0fdb03809e307fd922dece5f77d" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>ConstBox_TextureId</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a32ccc883f7877fe484e73bf25fba95a4" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>ConstBox_TextureId</name></member>
+      <member refid="classMR_1_1Box__TextureId_1a469b8c5f7e491f40cdedd76bef70723f" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>decr</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1aced4833479658cdd35610ebb3cc069b9" prot="protected" virt="virtual"><scope>MR::Box_TextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a5101a2ae10419879922a5cd8042925a6" prot="public" virt="virtual"><scope>MR::Box_TextureId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1ab9472db6e23bf838ff9566fb53c706ca" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1aa8addda9d7ddf3f4d6a5c502ec810d6b" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Box__TextureId_1a308546ded3d4d043ffaccb5905dd2983" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>get</name></member>
+      <member refid="classMR_1_1Box__TextureId_1ad56c2cb7da1fc3106e346ac7fad719e8" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>id</name></member>
+      <member refid="classMR_1_1Box__TextureId_1aaf42c1e7820a66f8ad1c22a52c4eb022" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>incr</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1acec2fd58b3a936e94494ffcc65e74530" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>less</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1afb852b32ef83f5dcb518e61a881673db" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1aa2a09442b50344ce73d657483f2ecb98" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>operator ConstBox_TextureId</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a11185951522e853bc0c7dc8de9280d31" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>operator int</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a095f99439fcbe5ef38ab86d918698897" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a676f959a22f2018f63b2c93e1c96db23" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>operator++</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a91e8777477434bd88be990de0141741a" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>operator--</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a979275c4cba01de50927f537db059157" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Box__TextureId_1ab5b63e0c16e736c1bbc87366c8b77af7" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1ConstBox__TextureId_1a686d7f97edd9b51aeb122409fb1b761a" prot="public" virt="non-virtual"><scope>MR::Box_TextureId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

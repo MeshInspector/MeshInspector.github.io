@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectDistanceMap" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectDistanceMap</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1ObjectMeshHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectMeshHolder</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a7eb9657fa3a50c124c95f2cd27fead99" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectDistanceMap.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39485" bodyend="39486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a847569f216190c0c99a695f4736afbf8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectDistanceMap.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39488" bodyend="39489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1aac2e75a4101f6351238ae41469ad13b7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectDistanceMap.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1ab22531e04f74da2bec22df2bffe492cf">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39491" bodyend="39492"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1aa11c35477076924c1d3101a45d78019c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectDistanceMap.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1abd61dce95267032fba31a6b6b8398cef">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39493" bodyend="39494"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a23e7e645c58a1aca7809974369b1a84a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectDistanceMap.applyScale</definition>
+        <argsstring>(self, float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.applyScale</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1a92dc288e43e0f78c3a665ca38c0a22a8">applyScale</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>scale object size (all point positions)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39495" bodyend="39496"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a34bbc4995ca2e7a029ce01df0773d583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.ObjectDistanceMap.calculateMesh</definition>
+        <argsstring>(self, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>calculateMesh</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.calculateMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a grid for this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39497" bodyend="39500"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a881200f79aca79b5fc872c334cdd718a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectDistanceMap.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39501" bodyend="39502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a94f10096cd09a952f110f1123bc93cc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectDistanceMap.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39503" bodyend="39504"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a1d7c1b9a3a166fde6b983b93affb6942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectDistanceMap.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1a66929bbabbd9ede0679393a802190c59">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39505" bodyend="39506"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1aedec7420f9a9f47c77c54b30849ad46c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+        <definition> DistanceMap mrmeshpy.ObjectDistanceMap.extractDistanceMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>extractDistanceMap</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.extractDistanceMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39507" bodyend="39508"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1ae17141b84d021a55a3bb7b5fb3526cb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+        <definition> DistanceMap mrmeshpy.ObjectDistanceMap.getDistanceMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getDistanceMap</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.getDistanceMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39509" bodyend="39510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1ad443c02a67a280e87d39c752899cc75d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.ObjectDistanceMap.getInfoLines</definition>
+        <argsstring>(self)</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.getInfoLines</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3">getInfoLines</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return several info lines that can better describe the object in the UI
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39511" bodyend="39512"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a0672d0c1744aaaac7b221309c053fa43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.ObjectDistanceMap.getToWorldParameters</definition>
+        <argsstring>(self)</argsstring>
+        <name>getToWorldParameters</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.getToWorldParameters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>unlike the name, actually it is the transformation from distance map in local space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39513" bodyend="39516"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1afc192403311c5dbba7c8d47f5f070259" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectDistanceMap.hasModel</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.hasModel</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1abec49ca4f46abd8fcbd205498598008d">hasModel</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>does the object have any model available (but possibly empty),
+e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39517" bodyend="39518"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a4547e044933fcba7f42179b0d72505e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectDistanceMap.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1aa7e11fd226a248ba7223ac77557677be">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39519" bodyend="39522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a4e76507a680cbb5fae987188a2ad43b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectDistanceMap.resetFrontColor</definition>
+        <argsstring>(self)</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.resetFrontColor</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1a0423908e093c4eca009ce81efa161eae">resetFrontColor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset basic object colors to their default values from the current theme
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39523" bodyend="39526"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1aa78bc3f595345d38d39c99d3ea968cd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectDistanceMap.setDistanceMap</definition>
+        <argsstring>(self, DistanceMap dmap, AffineXf3f dmap2local, bool needUpdateMesh=True, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>setDistanceMap</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.setDistanceMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMap" kindref="compound">DistanceMap</ref></type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>dmap2local</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needUpdateMesh</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>rebuilds the mesh;
+if it is executed in the rendering stream then you can set the needUpdateMesh = true
+otherwise you should set the needUpdateMesh = false and call the function calculateMesh
+and after finishing in the rendering stream, call the function updateMesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39527" bodyend="39533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a270bf3bb4e1d5ebe595bc72c4b192aa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectDistanceMap.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1aa2ca6534ff568a978cd63472c5841437">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39534" bodyend="39535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a728f9c3b70bcc06c8995b5e7208958bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectDistanceMap.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1aa24e5842efc9ba794b8087b11bf64c40">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39536" bodyend="39537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectDistanceMap_1a9e1e2eab4b34336646077a31fb904bb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectDistanceMap.updateMesh</definition>
+        <argsstring>(self, Mesh mesh)</argsstring>
+        <name>updateMesh</name>
+        <qualifiedname>mrmeshpy.ObjectDistanceMap.updateMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates the grid to the current one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39538" bodyend="39541"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectDistanceMap
+
+This class stores information about distance map object
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectDistanceMap</label>
+        <link refid="classmrmeshpy_1_1ObjectDistanceMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ObjectMeshHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectMeshHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectDistanceMap</label>
+        <link refid="classmrmeshpy_1_1ObjectDistanceMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ObjectMeshHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectMeshHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39478" bodyend="39541"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1aa11c35477076924c1d3101a45d78019c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a23e7e645c58a1aca7809974369b1a84a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a34bbc4995ca2e7a029ce01df0773d583" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>calculateMesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a881200f79aca79b5fc872c334cdd718a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a94f10096cd09a952f110f1123bc93cc9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a1d7c1b9a3a166fde6b983b93affb6942" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1aedec7420f9a9f47c77c54b30849ad46c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>extractDistanceMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1ae17141b84d021a55a3bb7b5fb3526cb2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getDistanceMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1ad443c02a67a280e87d39c752899cc75d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a0672d0c1744aaaac7b221309c053fa43" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>getToWorldParameters</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1afc192403311c5dbba7c8d47f5f070259" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a4547e044933fcba7f42179b0d72505e5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a4e76507a680cbb5fae987188a2ad43b4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1aa78bc3f595345d38d39c99d3ea968cd4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>setDistanceMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a270bf3bb4e1d5ebe595bc72c4b192aa3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a7eb9657fa3a50c124c95f2cd27fead99" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a847569f216190c0c99a695f4736afbf8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1aac2e75a4101f6351238ae41469ad13b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a728f9c3b70bcc06c8995b5e7208958bb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectDistanceMap_1a9e1e2eab4b34336646077a31fb904bb2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectDistanceMap</scope><name>updateMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

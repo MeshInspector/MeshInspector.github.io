@@ -11,5 +11,5 @@ var classMR_1_1Box__PixelId =
     [ "get", "classMR_1_1Box__PixelId.html#ac63ef74df385edd35ee38bd8b49beb32", null ],
     [ "incr", "classMR_1_1Box__PixelId.html#a38daf673297e6e0f0c3ddbf739ffe9f0", null ],
     [ "subAssign", "classMR_1_1Box__PixelId.html#a5b54b73a756648f2823853cba9bb7a00", null ],
-    [ "_Ref", "classMR_1_1Box__PixelId.html#ae9eec82df6a97170f70caff5199763d0", null ]
+    [ "id", "classMR_1_1Box__PixelId.html#a09507023242204ceec6042b16949112b", null ]
 ];

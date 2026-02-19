@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CameraOrientation" kind="class" language="C++" prot="public">
+    <compoundname>MR::CameraOrientation</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR::StatePlugin</basecompoundref>
+    <includes refid="MRCameraOrientationPlugin_8h" local="no">MRCameraOrientationPlugin.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga3f152313df98ebb7fffb03fa32928a60" kind="variable"><name>position_</name></member>
+      <member refid="group__GeneralGroup_1ga4bb143b3a4b81b06d8179e39509d78f4" kind="variable"><name>direction_</name></member>
+      <member refid="group__GeneralGroup_1ga7b52da913ea8a6b3924087c175438f9d" kind="variable"><name>upDir_</name></member>
+      <member refid="group__GeneralGroup_1gaf3d5cf08dbe17e2505a95279c9871c31" kind="variable"><name>isAutofit_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga7b825b1fc733e53dfbaab323acabaee3" kind="function"><name>CameraOrientation</name></member>
+      <member refid="group__GeneralGroup_1ga84a6d26e91901eef8efc27aa3a167aef" kind="function"><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gaded26055d65895c92ebe389028088749" kind="function"><name>blocking</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gacb7cb75211af29c82f3846598c3afee9" kind="function"><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga74aef5f0ae8518403793054b02f1b8c1" kind="function"><name>drawCameraPresets_</name></member>
+      <member refid="group__GeneralGroup_1ga8db9dbabafdd09e59c1024801023714d" kind="function"><name>autofit_</name></member>
+      <member refid="group__GeneralGroup_1gab1bda1ad0175c8eb29937d2f0fd37548" kind="function"><name>getCamera_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::CameraOrientation</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::StatePlugin</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::CameraOrientation</label>
+        <link refid="classMR_1_1CameraOrientation"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::StatePlugin</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRCameraOrientationPlugin.h" bodystart="14" bodyend="34"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga8db9dbabafdd09e59c1024801023714d" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>autofit_</name></member>
+      <member refid="group__GeneralGroup_1gaded26055d65895c92ebe389028088749" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga7b825b1fc733e53dfbaab323acabaee3" prot="public" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>CameraOrientation</name></member>
+      <member refid="group__GeneralGroup_1ga4bb143b3a4b81b06d8179e39509d78f4" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>direction_</name></member>
+      <member refid="group__GeneralGroup_1ga74aef5f0ae8518403793054b02f1b8c1" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>drawCameraPresets_</name></member>
+      <member refid="group__GeneralGroup_1ga84a6d26e91901eef8efc27aa3a167aef" prot="public" virt="virtual"><scope>MR::CameraOrientation</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gab1bda1ad0175c8eb29937d2f0fd37548" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>getCamera_</name></member>
+      <member refid="group__GeneralGroup_1gaf3d5cf08dbe17e2505a95279c9871c31" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>isAutofit_</name></member>
+      <member refid="group__GeneralGroup_1gacb7cb75211af29c82f3846598c3afee9" prot="private" virt="virtual"><scope>MR::CameraOrientation</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga3f152313df98ebb7fffb03fa32928a60" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>position_</name></member>
+      <member refid="group__GeneralGroup_1ga7b52da913ea8a6b3924087c175438f9d" prot="private" virt="non-virtual"><scope>MR::CameraOrientation</scope><name>upDir_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

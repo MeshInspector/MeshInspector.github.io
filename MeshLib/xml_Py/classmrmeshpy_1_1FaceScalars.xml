@@ -1,0 +1,1043 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FaceScalars" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FaceScalars</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FaceScalars_1a5d79baec91948060e6ea81398be8df4a" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FaceScalars::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17502" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FaceScalars_1a88ee6e5d8c678e272c928ab9bffb2ce2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FaceScalars::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.FaceScalars._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17503" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a11d0feb7751bcd27bd3f1d514aea9727" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17506" bodyend="17507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a9eb0755bf923494d4dd37d8c12763d79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceScalars" kindref="compound">FaceScalars</ref></type>
+        <definition> FaceScalars mrmeshpy.FaceScalars.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FaceScalars.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17510" bodyend="17511"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a9eb0755bf923494d4dd37d8c12763d79" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceScalars" kindref="compound">FaceScalars</ref></type>
+        <definition> FaceScalars mrmeshpy.FaceScalars.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FaceScalars.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17514" bodyend="17515"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a29277a43abd432052f83789bbcaea04f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FaceScalars.__eq__</definition>
+        <argsstring>(self, FaceScalars b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceScalars" kindref="compound">FaceScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17516" bodyend="17517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1abd86bcc54821424717ceb7e04e2f6dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17519" bodyend="17520"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1abd86bcc54821424717ceb7e04e2f6dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17522" bodyend="17523"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1ad5329c575d7ad53dc70ba21e726466af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17525" bodyend="17528"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1aeda25794e4695eed982c135c979c322a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17530" bodyend="17533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a50c5209e75e59f748423a09024ca3c57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.__init__</definition>
+        <argsstring>(self, int size, float val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17535" bodyend="17538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a3006470628684158268ef25db85cc74b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.__init__</definition>
+        <argsstring>(self, std_vector_float vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17540" bodyend="17543"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a3c881244616d42326e412ad0bb8a0aa5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.__init__</definition>
+        <argsstring>(self, FaceScalars arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceScalars" kindref="compound">FaceScalars</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17545" bodyend="17548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a6e7fed7f1429b6e8b5cef37b4b465b3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[float]</type>
+        <definition> typing.Iterator[float] mrmeshpy.FaceScalars.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17549" bodyend="17550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a2f12b719493d74c3de823902e7e56e2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FaceScalars.__ne__</definition>
+        <argsstring>(self, FaceScalars b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceScalars" kindref="compound">FaceScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17551" bodyend="17552"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a4fe3ed9959a2e2c026bf9b6e370907e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.__setitem__</definition>
+        <argsstring>(self, FaceId arg0, float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.FaceScalars.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17553" bodyend="17554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1ae0be9c37c00437a11b23d4ed53405ba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.autoResizeAt</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.FaceScalars.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17555" bodyend="17558"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a7d8cb4220dd334fa2a60b9f25ef9591f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.autoResizeSet</definition>
+        <argsstring>(self, FaceId pos, int len, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.FaceScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17560" bodyend="17564"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a46b066e0429062bf6112dd9a51be897a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.autoResizeSet</definition>
+        <argsstring>(self, FaceId i, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.FaceScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17566" bodyend="17569"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a64b78e3e339c29f70a927d9866fad797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.FaceScalars.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17571" bodyend="17572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a64b78e3e339c29f70a927d9866fad797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.FaceScalars.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17574" bodyend="17575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a718b8e4bb142f07681069bd8e1844eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.FaceScalars.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.FaceScalars.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17576" bodyend="17579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a745e54c0fe43751a9379c1b5e55ec630" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.FaceScalars.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.FaceScalars.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17580" bodyend="17583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a5f0414140cdfa6d8e6c85a2163a3b84a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FaceScalars.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.FaceScalars.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17584" bodyend="17585"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a03da31848d9e9a241e87998135fe6dd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.FaceScalars.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17586" bodyend="17587"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a81e6ebb65cbd813e514c510e8514b05e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.FaceScalars.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17589" bodyend="17590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a81e6ebb65cbd813e514c510e8514b05e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.FaceScalars.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17592" bodyend="17593"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1abf0e2314e920cd69408008c8f641d7ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.FaceScalars.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17594" bodyend="17595"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1acc500bb4e03cec903b50b9544ac7a800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FaceScalars.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.FaceScalars.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17596" bodyend="17597"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1ad5a5e467efb0f6b575b77549fd1837e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.FaceScalars.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.FaceScalars.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17598" bodyend="17601"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a612c484bb13feb0fb4cd75b15d9abf78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.FaceScalars.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17603" bodyend="17604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a612c484bb13feb0fb4cd75b15d9abf78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FaceScalars.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.FaceScalars.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17606" bodyend="17607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a25a84647842630b9014023246917c04f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FaceScalars.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.FaceScalars.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17608" bodyend="17611"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a67144cb35e39e4d90be6b70969edb5f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.FaceScalars.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17612" bodyend="17613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a75133f39f602b5d015ff19b4da41079e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.push_back</definition>
+        <argsstring>(self, float t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.FaceScalars.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17615" bodyend="17616"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a75133f39f602b5d015ff19b4da41079e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.push_back</definition>
+        <argsstring>(self, float t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.FaceScalars.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17618" bodyend="17619"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a3f70e209d757edf312d84b64ba9722f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.FaceScalars.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17620" bodyend="17621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a7c47de1d540b213ff2589fa02364b73b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.FaceScalars.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17623" bodyend="17624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a7f0e20e7a2e866ba131eb775cebff1ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.resize</definition>
+        <argsstring>(self, int newSize, float t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.FaceScalars.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17626" bodyend="17627"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a64bdb03039b59705877bfd3bb55674da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.FaceScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17629" bodyend="17632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1ad285892ce2b434356befe25bc8591dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, float value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.FaceScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17634" bodyend="17637"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a7536c5ded0a8fc6bd23932eba0d5c46c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FaceScalars.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.FaceScalars.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17638" bodyend="17639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1aa28e2e18463c4ee0516a8dc92402860c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.swap</definition>
+        <argsstring>(self, FaceScalars b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.FaceScalars.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceScalars" kindref="compound">FaceScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17640" bodyend="17641"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1a215efbc0055b471085b1d1fd1dff5c00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+        <definition> std_vector_float mrmeshpy.FaceScalars.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.FaceScalars.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17643" bodyend="17646"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FaceScalars_1afa17b39a1419cc2b78333a19ce9e5cfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FaceScalars.vec_</definition>
+        <argsstring>(self, std_vector_float arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.FaceScalars.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17648" bodyend="17649"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FaceScalars
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FaceScalars</label>
+        <link refid="classmrmeshpy_1_1FaceScalars"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17492" bodyend="17649"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a29277a43abd432052f83789bbcaea04f" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1abd86bcc54821424717ceb7e04e2f6dd3" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1abd86bcc54821424717ceb7e04e2f6dd3" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a5d79baec91948060e6ea81398be8df4a" prot="private" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a11d0feb7751bcd27bd3f1d514aea9727" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1ad5329c575d7ad53dc70ba21e726466af" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1aeda25794e4695eed982c135c979c322a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a50c5209e75e59f748423a09024ca3c57" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a3006470628684158268ef25db85cc74b" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a3c881244616d42326e412ad0bb8a0aa5" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a6e7fed7f1429b6e8b5cef37b4b465b3a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a2f12b719493d74c3de823902e7e56e2e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a4fe3ed9959a2e2c026bf9b6e370907e8" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a88ee6e5d8c678e272c928ab9bffb2ce2" prot="protected" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1ae0be9c37c00437a11b23d4ed53405ba7" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a7d8cb4220dd334fa2a60b9f25ef9591f" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a46b066e0429062bf6112dd9a51be897a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a64b78e3e339c29f70a927d9866fad797" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a64b78e3e339c29f70a927d9866fad797" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a718b8e4bb142f07681069bd8e1844eb5" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a745e54c0fe43751a9379c1b5e55ec630" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a5f0414140cdfa6d8e6c85a2163a3b84a" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a03da31848d9e9a241e87998135fe6dd4" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a81e6ebb65cbd813e514c510e8514b05e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a81e6ebb65cbd813e514c510e8514b05e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1abf0e2314e920cd69408008c8f641d7ea" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1acc500bb4e03cec903b50b9544ac7a800" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1ad5a5e467efb0f6b575b77549fd1837e5" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a612c484bb13feb0fb4cd75b15d9abf78" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a612c484bb13feb0fb4cd75b15d9abf78" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a25a84647842630b9014023246917c04f" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a9eb0755bf923494d4dd37d8c12763d79" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a9eb0755bf923494d4dd37d8c12763d79" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a67144cb35e39e4d90be6b70969edb5f3" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a75133f39f602b5d015ff19b4da41079e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a75133f39f602b5d015ff19b4da41079e" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a3f70e209d757edf312d84b64ba9722f9" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a7c47de1d540b213ff2589fa02364b73b" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a7f0e20e7a2e866ba131eb775cebff1ab" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a64bdb03039b59705877bfd3bb55674da" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1ad285892ce2b434356befe25bc8591dc1" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a7536c5ded0a8fc6bd23932eba0d5c46c" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1aa28e2e18463c4ee0516a8dc92402860c" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1a215efbc0055b471085b1d1fd1dff5c00" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1FaceScalars_1afa17b39a1419cc2b78333a19ce9e5cfc" prot="public" virt="non-virtual"><scope>mrmeshpy::FaceScalars</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

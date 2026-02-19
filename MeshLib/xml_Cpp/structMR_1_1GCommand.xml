@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1GCommand" kind="struct" language="C++" prot="public">
+    <compoundname>MR::GCommand</compoundname>
+    <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaaf3da1692be265b849e66df425724a1b" kind="variable"><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga46bdc412f995f806c9a1cbb17969eb3a" kind="variable"><name>arcPlane</name></member>
+      <member refid="group__GeneralGroup_1gad006b4b0a0cbf74a8cedc89dd7fc1df8" kind="variable"><name>feed</name></member>
+      <member refid="group__GeneralGroup_1ga3f8b88883ebac5b476b7a042edd30d65" kind="variable"><name>x</name></member>
+      <member refid="group__GeneralGroup_1ga153e73394a743e67aaeaeefb04deac21" kind="variable"><name>y</name></member>
+      <member refid="group__GeneralGroup_1gaec5c0f6069885854d6838a98f1bacae3" kind="variable"><name>z</name></member>
+      <member refid="group__GeneralGroup_1gacaf374ee91304204bb3990d59a7d32fc" kind="variable"><name>arcCenter</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="114" bodyend="127"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gacaf374ee91304204bb3990d59a7d32fc" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>arcCenter</name></member>
+      <member refid="group__GeneralGroup_1ga46bdc412f995f806c9a1cbb17969eb3a" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>arcPlane</name></member>
+      <member refid="group__GeneralGroup_1gad006b4b0a0cbf74a8cedc89dd7fc1df8" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>feed</name></member>
+      <member refid="group__GeneralGroup_1gaaf3da1692be265b849e66df425724a1b" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga3f8b88883ebac5b476b7a042edd30d65" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>x</name></member>
+      <member refid="group__GeneralGroup_1ga153e73394a743e67aaeaeefb04deac21" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>y</name></member>
+      <member refid="group__GeneralGroup_1gaec5c0f6069885854d6838a98f1bacae3" prot="public" virt="non-virtual"><scope>MR::GCommand</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

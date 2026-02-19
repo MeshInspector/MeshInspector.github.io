@@ -1,0 +1,744 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_LineSegm_Vector3_float</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a143852fd345365f2d9f9a48e98e7c64c" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_LineSegm_Vector3_float::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84441" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ac6b4df17a009d94ff6f50c81687226bf" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_LineSegm_Vector3_float::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.element_type_byte_size</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84442" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84442" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1affd2415901168bc1b751a78b3d89d950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_LineSegm_Vector3_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84443" bodyend="84446"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a5bd4d3bce5759f09cb6192023f7c5764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_LineSegm_Vector3_float.__contains__</definition>
+        <argsstring>(self, LineSegm3f x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84447" bodyend="84450"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ab0aa8fc34ed101174e55189999f3a126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84452" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84452" bodyend="84455"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ab6c0afcc305e0f97d85a1e3fa6d520fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84457" bodyend="84460"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ad4869855f5fdbbaaa07ca3c4e686547c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_LineSegm_Vector3_float.__eq__</definition>
+        <argsstring>(self, std_vector_LineSegm_Vector3_float arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float" kindref="compound">std_vector_LineSegm_Vector3_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84461" bodyend="84462"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a3965b4e30801993dff772062989334bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float" kindref="compound">std_vector_LineSegm_Vector3_float</ref></type>
+        <definition> std_vector_LineSegm_Vector3_float mrmeshpy.std_vector_LineSegm_Vector3_float.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84464" bodyend="84467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1aac73e93035eca129d0afad80d1ec6fc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+        <definition> LineSegm3f mrmeshpy.std_vector_LineSegm_Vector3_float.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84469" bodyend="84470"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1aad943d113cb00e9c722182d358fed6eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84472" bodyend="84473"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a1461e146dc34ee4ca01093ee2d1f649f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84475" bodyend="84476"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1af31905fb0bb7a3af27a006c1c9fac37c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.__init__</definition>
+        <argsstring>(self, std_vector_LineSegm_Vector3_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float" kindref="compound">std_vector_LineSegm_Vector3_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84478" bodyend="84479"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1aca18fcb1fcf8a95d7abc6b56e5e3f67c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref>]</type>
+        <definition> typing.Iterator[LineSegm3f] mrmeshpy.std_vector_LineSegm_Vector3_float.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84480" bodyend="84481"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ad6727469d3a429618df38a61f2ba6b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_LineSegm_Vector3_float.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84482" bodyend="84483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a8478e4d196a6caebe64aece1bc8187b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_LineSegm_Vector3_float.__ne__</definition>
+        <argsstring>(self, std_vector_LineSegm_Vector3_float arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float" kindref="compound">std_vector_LineSegm_Vector3_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84484" bodyend="84485"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a1c1ceff2d48e506fde0f8ae03b5dce57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.__setitem__</definition>
+        <argsstring>(self, int arg0, LineSegm3f arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84487" bodyend="84488"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a61f009b643d4c6617c8f708529ffacba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_LineSegm_Vector3_float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float" kindref="compound">std_vector_LineSegm_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84490" bodyend="84493"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a64c590e47a5ccbe2f01ee489a77da819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.append</definition>
+        <argsstring>(self, LineSegm3f x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84494" bodyend="84497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1acdffa307e65f5daac4fc62492eff94d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84498" bodyend="84501"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1adb9719dd2ce380b33c101f4785d23cee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_LineSegm_Vector3_float.count</definition>
+        <argsstring>(self, LineSegm3f x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84502" bodyend="84505"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1abbace98fdf7b842df37f673d3108a0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_LineSegm_Vector3_float.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84506" bodyend="84509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a058162816c3b204e0a529654730ec6b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_LineSegm_Vector3_float.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84510" bodyend="84511"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ac9a7676aa5d24114c6339f4babb46aa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.extend</definition>
+        <argsstring>(self, std_vector_LineSegm_Vector3_float L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float" kindref="compound">std_vector_LineSegm_Vector3_float</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84513" bodyend="84516"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ad39d8cd6af28dcde2ea81a41ce6af3b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84518" bodyend="84521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1aca31ea16ed89ea422db6dc0dd8b322f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.insert</definition>
+        <argsstring>(self, int i, LineSegm3f x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84522" bodyend="84525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a22e0a84082fa897295f80c60db9ba4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+        <definition> LineSegm3f mrmeshpy.std_vector_LineSegm_Vector3_float.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84527" bodyend="84530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a0e2e289052f100ea10808a3e9ec6337c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+        <definition> LineSegm3f mrmeshpy.std_vector_LineSegm_Vector3_float.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84532" bodyend="84535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a0fa8c8ad366f99963583ba4292e59e29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.remove</definition>
+        <argsstring>(self, LineSegm3f x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84536" bodyend="84539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a9687f9e105e2758633ade789a8d8dcd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84541" bodyend="84542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1adb62e15c3a4a46d91ec70ba0980cf1db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_LineSegm_Vector3_float.resize</definition>
+        <argsstring>(self, int arg0, LineSegm3f arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineSegm3f" kindref="compound">LineSegm3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84544" bodyend="84545"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a15822cb757a00e8e9fa5da410b940758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_LineSegm_Vector3_float.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_LineSegm_Vector3_float.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84546" bodyend="84547"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_vector_LineSegm3f
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_LineSegm_Vector3_float</label>
+        <link refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84437" bodyend="84547"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1affd2415901168bc1b751a78b3d89d950" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a5bd4d3bce5759f09cb6192023f7c5764" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ab0aa8fc34ed101174e55189999f3a126" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ab6c0afcc305e0f97d85a1e3fa6d520fd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ad4869855f5fdbbaaa07ca3c4e686547c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a3965b4e30801993dff772062989334bc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1aac73e93035eca129d0afad80d1ec6fc1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a143852fd345365f2d9f9a48e98e7c64c" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1aad943d113cb00e9c722182d358fed6eb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a1461e146dc34ee4ca01093ee2d1f649f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1af31905fb0bb7a3af27a006c1c9fac37c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1aca18fcb1fcf8a95d7abc6b56e5e3f67c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ad6727469d3a429618df38a61f2ba6b64" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a8478e4d196a6caebe64aece1bc8187b8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a1c1ceff2d48e506fde0f8ae03b5dce57" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a61f009b643d4c6617c8f708529ffacba" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a64c590e47a5ccbe2f01ee489a77da819" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1acdffa307e65f5daac4fc62492eff94d8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1adb9719dd2ce380b33c101f4785d23cee" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1abbace98fdf7b842df37f673d3108a0e5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ac6b4df17a009d94ff6f50c81687226bf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a058162816c3b204e0a529654730ec6b2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ac9a7676aa5d24114c6339f4babb46aa0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1ad39d8cd6af28dcde2ea81a41ce6af3b1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1aca31ea16ed89ea422db6dc0dd8b322f4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a22e0a84082fa897295f80c60db9ba4ef" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a0e2e289052f100ea10808a3e9ec6337c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a0fa8c8ad366f99963583ba4292e59e29" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a9687f9e105e2758633ade789a8d8dcd7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1adb62e15c3a4a46d91ec70ba0980cf1db" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__LineSegm__Vector3__float_1a15822cb757a00e8e9fa5da410b940758" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_LineSegm_Vector3_float</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

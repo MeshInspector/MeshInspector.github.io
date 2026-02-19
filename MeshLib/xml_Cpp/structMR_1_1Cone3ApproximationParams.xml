@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Cone3ApproximationParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Cone3ApproximationParams</compoundname>
+    <includes refid="MRConeApproximator_8h" local="no">MRConeApproximator.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga6c4848e08b47fefbf24a221b15e00329" kind="variable"><name>levenbergMarquardtMaxIteration</name></member>
+      <member refid="group__GeneralGroup_1ga78abf2b4f9d3845ec382b09ec2c865d3" kind="variable"><name>coneFitterType</name></member>
+      <member refid="group__GeneralGroup_1ga5b47cd0b4ce1e73f079a35fdc80d2850" kind="variable"><name>hemisphereSearchPhiResolution</name></member>
+      <member refid="group__GeneralGroup_1ga0c389ccce5e8616195da9e724505f8c2" kind="variable"><name>hemisphereSearchThetaResolution</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="137" bodyend="142"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga78abf2b4f9d3845ec382b09ec2c865d3" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>coneFitterType</name></member>
+      <member refid="group__GeneralGroup_1ga5b47cd0b4ce1e73f079a35fdc80d2850" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>hemisphereSearchPhiResolution</name></member>
+      <member refid="group__GeneralGroup_1ga0c389ccce5e8616195da9e724505f8c2" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>hemisphereSearchThetaResolution</name></member>
+      <member refid="group__GeneralGroup_1ga6c4848e08b47fefbf24a221b15e00329" prot="public" virt="non-virtual"><scope>MR::Cone3ApproximationParams</scope><name>levenbergMarquardtMaxIteration</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

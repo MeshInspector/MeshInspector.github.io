@@ -150,55 +150,59 @@ $(function(){initNavTree('MRObjectMeshData_8h_source.html',''); initResizable(tr
 <div class="contents">
 <a href="MRObjectMeshData_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRColor_8h.html">MRColor.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRColor_8h.html">MRColor.h</a>&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector_8h.html">MRVector.h</a>&quot;</span></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector2_8h.html">MRVector2.h</a>&quot;</span></div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a>&quot;</span></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="preprocessor">#include &quot;<a class="code" href="MRBitSet_8h.html">MRBitSet.h</a>&quot;</span></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">struct </span>ObjectMeshData</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>{</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    std::shared_ptr&lt;Mesh&gt; mesh;</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <span class="comment">// selection</span></div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    FaceBitSet selectedFaces;</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    UndirectedEdgeBitSet selectedEdges;</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    UndirectedEdgeBitSet creases;</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="comment">// colors</span></div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    VertColors vertColors;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    FaceColors <a class="code hl_propertyRef" href="../Csharp/classMR_1_1ObjectMeshData.html#a9b9270f596c4f8032bedab1827ccc8ff">faceColors</a>;</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="comment">// textures</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    <a class="code hl_variableRef" href="../Py/namespacemrmeshpy.html#a3c3fe8b7846cb7642c7b2cba525f3917">VertUVCoords</a> uvCoordinates; </div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    TexturePerFace texturePerFace;</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
-<div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_functionRef" href="../Csharp/classMR_1_1ObjectMeshData.html#abd69cad24f364a7c28bd7f66b64dd76a">ObjectMeshData</a> clone() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="foldopen" id="foldopen00016" data-start="{" data-end="};">
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structMR_1_1ObjectMeshData.html">   16</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>{</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gab37aa2308b1d163cba441684f134762a">   18</a></span>    std::shared_ptr&lt;Mesh&gt; <a class="code hl_variable" href="group__GeneralGroup.html#gab37aa2308b1d163cba441684f134762a">mesh</a>;</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga3468a5628a794f6eb642ab775f4f4769">   21</a></span>    FaceBitSet <a class="code hl_variable" href="group__GeneralGroup.html#ga3468a5628a794f6eb642ab775f4f4769">selectedFaces</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga9fa8423381196714eb8c09a119d9100a">   22</a></span>    UndirectedEdgeBitSet <a class="code hl_variable" href="group__GeneralGroup.html#ga9fa8423381196714eb8c09a119d9100a">selectedEdges</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga3a3a9e8e30929bf38302f1e9c6176c35">   24</a></span>    UndirectedEdgeBitSet <a class="code hl_variable" href="group__GeneralGroup.html#ga3a3a9e8e30929bf38302f1e9c6176c35">creases</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gadf02aa6045febefa4bf078f43e512ee9">   27</a></span>    VertColors <a class="code hl_variable" href="group__GeneralGroup.html#gadf02aa6045febefa4bf078f43e512ee9">vertColors</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga25ec108c32cc11b19a998c2aab325055">   28</a></span>    FaceColors <a class="code hl_variable" href="group__GeneralGroup.html#ga25ec108c32cc11b19a998c2aab325055">faceColors</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga709805a7a77dd5dbd24c880b043761f9">   31</a></span>    VertUVCoords <a class="code hl_variable" href="group__GeneralGroup.html#ga709805a7a77dd5dbd24c880b043761f9">uvCoordinates</a>; </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaecc56cbf3bf02c4177ba5a773b807776">   32</a></span>    TexturePerFace <a class="code hl_variable" href="group__GeneralGroup.html#gaecc56cbf3bf02c4177ba5a773b807776">texturePerFace</a>;</div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    [[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <span class="keywordtype">size_t</span> heapBytes() <span class="keyword">const</span>;</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>};</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespaceMR.html#a673650f651c7934a570071f72d73ad09">   39</a></span>[[nodiscard]] <a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> <a class="code hl_classRef" href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">UndirectedEdgeBitSet</a> <a class="code hl_function" href="namespaceMR.html#a673650f651c7934a570071f72d73ad09">edgesBetweenDifferentColors</a>( <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology, <span class="keyword">const</span> <a class="code hl_classRef" href="../Csharp/classMR_1_1FaceColors.html">FaceColors</a> &amp; colors );</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gae2138d0f4aa888b995a052230ca48a40">   35</a></span>    [[nodiscard]] MRMESH_API <a class="code hl_struct" href="structMR_1_1ObjectMeshData.html">ObjectMeshData</a> <a class="code hl_function" href="group__GeneralGroup.html#gae2138d0f4aa888b995a052230ca48a40">clone</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga479a0806f9e83ea1a7a1ad5aa4bc28cd">   38</a></span>    [[nodiscard]] MRMESH_API <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__GeneralGroup.html#ga479a0806f9e83ea1a7a1ad5aa4bc28cd">heapBytes</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>};</div>
+</div>
 <div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
-<div class="ttc" id="aMRMesh_2MRBitSet_8h_html"><div class="ttname"><a href="MRMesh_2MRBitSet_8h.html">MRBitSet.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRColor_8h_html"><div class="ttname"><a href="MRMesh_2MRColor_8h.html">MRColor.h</a></div></div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga673650f651c7934a570071f72d73ad09">   42</a></span>[[nodiscard]] MRMESH_API UndirectedEdgeBitSet <a class="code hl_function" href="group__GeneralGroup.html#ga673650f651c7934a570071f72d73ad09">edgesBetweenDifferentColors</a>( <span class="keyword">const</span> <a class="code hl_class" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp; topology, <span class="keyword">const</span> FaceColors &amp; colors );</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>} </div>
+<div class="ttc" id="aMRBitSet_8h_html"><div class="ttname"><a href="MRBitSet_8h.html">MRBitSet.h</a></div></div>
+<div class="ttc" id="aMRColor_8h_html"><div class="ttname"><a href="MRColor_8h.html">MRColor.h</a></div></div>
 <div class="ttc" id="aMRVector2_8h_html"><div class="ttname"><a href="MRVector2_8h.html">MRVector2.h</a></div></div>
 <div class="ttc" id="aMRVector_8h_html"><div class="ttname"><a href="MRVector_8h.html">MRVector.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1FaceColors_html"><div class="ttname"><a href="../Csharp/classMR_1_1FaceColors.html">MR::FaceColors</a></div></div>
-<div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="../Csharp/classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMesh/MRMeshTopology.h:19</div></div>
-<div class="ttc" id="aclassMR_1_1ObjectMeshData_html_a9b9270f596c4f8032bedab1827ccc8ff"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectMeshData.html#a9b9270f596c4f8032bedab1827ccc8ff">MR::ObjectMeshData::faceColors</a></div><div class="ttdeci">new unsafe MR.FaceColors faceColors</div></div>
-<div class="ttc" id="aclassMR_1_1ObjectMeshData_html_abd69cad24f364a7c28bd7f66b64dd76a"><div class="ttname"><a href="../Csharp/classMR_1_1ObjectMeshData.html#abd69cad24f364a7c28bd7f66b64dd76a">MR::ObjectMeshData::ObjectMeshData</a></div><div class="ttdeci">unsafe ObjectMeshData()</div></div>
-<div class="ttc" id="aclassMR_1_1UndirectedEdgeBitSet_html"><div class="ttname"><a href="../Csharp/classMR_1_1UndirectedEdgeBitSet.html">MR::UndirectedEdgeBitSet</a></div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_a673650f651c7934a570071f72d73ad09"><div class="ttname"><a href="namespaceMR.html#a673650f651c7934a570071f72d73ad09">MR::edgesBetweenDifferentColors</a></div><div class="ttdeci">MRMESH_API UndirectedEdgeBitSet edgesBetweenDifferentColors(const MeshTopology &amp;topology, const FaceColors &amp;colors)</div><div class="ttdoc">return all edges separating faces with different colors</div></div>
-<div class="ttc" id="anamespacemrmeshpy_html_a3c3fe8b7846cb7642c7b2cba525f3917"><div class="ttname"><a href="../Py/namespacemrmeshpy.html#a3c3fe8b7846cb7642c7b2cba525f3917">mrmeshpy::VertUVCoords</a></div><div class="ttdeci">VertUVCoords</div></div>
+<div class="ttc" id="aclassMR_1_1MeshTopology_html"><div class="ttname"><a href="classMR_1_1MeshTopology.html">MR::MeshTopology</a></div><div class="ttdef"><b>Definition</b> MRMeshTopology.h:22</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga25ec108c32cc11b19a998c2aab325055"><div class="ttname"><a href="group__GeneralGroup.html#ga25ec108c32cc11b19a998c2aab325055">MR::ObjectMeshData::faceColors</a></div><div class="ttdeci">FaceColors faceColors</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:28</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga3468a5628a794f6eb642ab775f4f4769"><div class="ttname"><a href="group__GeneralGroup.html#ga3468a5628a794f6eb642ab775f4f4769">MR::ObjectMeshData::selectedFaces</a></div><div class="ttdeci">FaceBitSet selectedFaces</div><div class="ttdoc">selection</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:21</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga3a3a9e8e30929bf38302f1e9c6176c35"><div class="ttname"><a href="group__GeneralGroup.html#ga3a3a9e8e30929bf38302f1e9c6176c35">MR::ObjectMeshData::creases</a></div><div class="ttdeci">UndirectedEdgeBitSet creases</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:24</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga479a0806f9e83ea1a7a1ad5aa4bc28cd"><div class="ttname"><a href="group__GeneralGroup.html#ga479a0806f9e83ea1a7a1ad5aa4bc28cd">MR::ObjectMeshData::heapBytes</a></div><div class="ttdeci">MRMESH_API size_t heapBytes() const</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga673650f651c7934a570071f72d73ad09"><div class="ttname"><a href="group__GeneralGroup.html#ga673650f651c7934a570071f72d73ad09">MR::edgesBetweenDifferentColors</a></div><div class="ttdeci">MRMESH_API UndirectedEdgeBitSet edgesBetweenDifferentColors(const MeshTopology &amp;topology, const FaceColors &amp;colors)</div><div class="ttdoc">return all edges separating faces with different colors</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga709805a7a77dd5dbd24c880b043761f9"><div class="ttname"><a href="group__GeneralGroup.html#ga709805a7a77dd5dbd24c880b043761f9">MR::ObjectMeshData::uvCoordinates</a></div><div class="ttdeci">VertUVCoords uvCoordinates</div><div class="ttdoc">textures</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:31</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9fa8423381196714eb8c09a119d9100a"><div class="ttname"><a href="group__GeneralGroup.html#ga9fa8423381196714eb8c09a119d9100a">MR::ObjectMeshData::selectedEdges</a></div><div class="ttdeci">UndirectedEdgeBitSet selectedEdges</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:22</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gab37aa2308b1d163cba441684f134762a"><div class="ttname"><a href="group__GeneralGroup.html#gab37aa2308b1d163cba441684f134762a">MR::ObjectMeshData::mesh</a></div><div class="ttdeci">std::shared_ptr&lt; Mesh &gt; mesh</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:18</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gadf02aa6045febefa4bf078f43e512ee9"><div class="ttname"><a href="group__GeneralGroup.html#gadf02aa6045febefa4bf078f43e512ee9">MR::ObjectMeshData::vertColors</a></div><div class="ttdeci">VertColors vertColors</div><div class="ttdoc">colors</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:27</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gae2138d0f4aa888b995a052230ca48a40"><div class="ttname"><a href="group__GeneralGroup.html#gae2138d0f4aa888b995a052230ca48a40">MR::ObjectMeshData::clone</a></div><div class="ttdeci">MRMESH_API ObjectMeshData clone() const</div><div class="ttdoc">returns copy of this object with mesh cloned</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaecc56cbf3bf02c4177ba5a773b807776"><div class="ttname"><a href="group__GeneralGroup.html#gaecc56cbf3bf02c4177ba5a773b807776">MR::ObjectMeshData::texturePerFace</a></div><div class="ttdeci">TexturePerFace texturePerFace</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:32</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="astructMR_1_1ObjectMeshData_html"><div class="ttname"><a href="structMR_1_1ObjectMeshData.html">MR::ObjectMeshData</a></div><div class="ttdoc">mesh and its per-element attributes for ObjectMeshHolder</div><div class="ttdef"><b>Definition</b> MRObjectMeshData.h:17</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

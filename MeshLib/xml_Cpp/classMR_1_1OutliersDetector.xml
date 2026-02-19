@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1OutliersDetector" kind="class" language="C++" prot="public">
+    <compoundname>MR::OutliersDetector</compoundname>
+    <includes refid="MROutlierPoints_8h" local="no">MROutlierPoints.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga2da9ba04ddef5019481fcc2d63a7ca1d" kind="variable"><name>radius_</name></member>
+      <member refid="group__GeneralGroup_1ga50a91ea29a96bf2fce82693347d41e07" kind="variable"><name>params_</name></member>
+      <member refid="group__GeneralGroup_1ga2a5520df7efe0167a4e19fb79cec716a" kind="variable"><name>unionFindStructure_</name></member>
+      <member refid="group__GeneralGroup_1gacc95dc74fcd8742a81989ea58af1f151" kind="variable"><name>weaklyConnectedStat_</name></member>
+      <member refid="group__GeneralGroup_1ga37ddc98eaa167723aacd134ddaba4962" kind="variable"><name>farSurfaceStat_</name></member>
+      <member refid="group__GeneralGroup_1ga90c249d1580ba89b34a6328de5ebeba1" kind="variable"><name>badNormalStat_</name></member>
+      <member refid="group__GeneralGroup_1ga008584b4aadded42760d997d5b8a1642" kind="variable"><name>maskCached_</name></member>
+      <member refid="group__GeneralGroup_1gad4de2e8bfffda82ce87a4106f185a854" kind="variable"><name>validPoints_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga6becc4c4034355314a33f130bcba2799" kind="function"><name>OutliersDetector</name></member>
+      <member refid="group__GeneralGroup_1ga1154a1b3f20843accd3192e14c23769a" kind="function"><name>prepare</name></member>
+      <member refid="group__GeneralGroup_1gab7b1de4b899eec78ae6014c69084741f" kind="function"><name>setParams</name></member>
+      <member refid="group__GeneralGroup_1ga1df5e62392b1ff49fe78e24b80ec1694" kind="function"><name>getParams</name></member>
+      <member refid="group__GeneralGroup_1ga02666077b16515a2f9576574342f72a0" kind="function"><name>find</name></member>
+      <member refid="group__GeneralGroup_1gad6e34a96f5e02bc6136a11a6d65888ff" kind="function"><name>getWeaklyConnectedStat</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga2d7f38aa5e82855e8811ebb4a501fb94" kind="function"><name>findSmallComponents</name></member>
+      <member refid="group__GeneralGroup_1gacabb081c722644a5c16486a16fe23981" kind="function"><name>findWeaklyConnected</name></member>
+      <member refid="group__GeneralGroup_1ga703046273c10b5dd114b23a3ec93bd23" kind="function"><name>findFarSurface</name></member>
+      <member refid="group__GeneralGroup_1ga8b2e3b40d668d5834e06ca52592e2f8a" kind="function"><name>findAwayNormal</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A class for searching for outliers of points @detail The class caches the prepared search results, which allows to speed up the repeat search (while use same radius) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" line="42" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h" bodystart="43" bodyend="86"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga90c249d1580ba89b34a6328de5ebeba1" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>badNormalStat_</name></member>
+      <member refid="group__GeneralGroup_1ga37ddc98eaa167723aacd134ddaba4962" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>farSurfaceStat_</name></member>
+      <member refid="group__GeneralGroup_1ga02666077b16515a2f9576574342f72a0" prot="public" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>find</name></member>
+      <member refid="group__GeneralGroup_1ga8b2e3b40d668d5834e06ca52592e2f8a" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>findAwayNormal</name></member>
+      <member refid="group__GeneralGroup_1ga703046273c10b5dd114b23a3ec93bd23" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>findFarSurface</name></member>
+      <member refid="group__GeneralGroup_1ga2d7f38aa5e82855e8811ebb4a501fb94" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>findSmallComponents</name></member>
+      <member refid="group__GeneralGroup_1gacabb081c722644a5c16486a16fe23981" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>findWeaklyConnected</name></member>
+      <member refid="group__GeneralGroup_1ga1df5e62392b1ff49fe78e24b80ec1694" prot="public" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>getParams</name></member>
+      <member refid="group__GeneralGroup_1gad6e34a96f5e02bc6136a11a6d65888ff" prot="public" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>getWeaklyConnectedStat</name></member>
+      <member refid="group__GeneralGroup_1ga008584b4aadded42760d997d5b8a1642" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>maskCached_</name></member>
+      <member refid="group__GeneralGroup_1ga6becc4c4034355314a33f130bcba2799" prot="public" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>OutliersDetector</name></member>
+      <member refid="group__GeneralGroup_1ga50a91ea29a96bf2fce82693347d41e07" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>params_</name></member>
+      <member refid="group__GeneralGroup_1ga1154a1b3f20843accd3192e14c23769a" prot="public" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>prepare</name></member>
+      <member refid="group__GeneralGroup_1ga2da9ba04ddef5019481fcc2d63a7ca1d" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>radius_</name></member>
+      <member refid="group__GeneralGroup_1gab7b1de4b899eec78ae6014c69084741f" prot="public" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>setParams</name></member>
+      <member refid="group__GeneralGroup_1ga2a5520df7efe0167a4e19fb79cec716a" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>unionFindStructure_</name></member>
+      <member refid="group__GeneralGroup_1gad4de2e8bfffda82ce87a4106f185a854" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>validPoints_</name></member>
+      <member refid="group__GeneralGroup_1gacc95dc74fcd8742a81989ea58af1f151" prot="private" virt="non-virtual"><scope>MR::OutliersDetector</scope><name>weaklyConnectedStat_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

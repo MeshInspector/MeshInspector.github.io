@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Parallel_1_1CallWithTLSMaker" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Parallel::CallWithTLSMaker</compoundname>
+    <includes refid="MRParallel_8h" local="no">MRParallel.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename L</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga77e7c8ccdc79a06bb1e632af0df93c57" kind="variable"><name>e</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga50441918634a0e7c8376e3c370c3604f" kind="function"><name>operator()</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="35" bodyend="38"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga77e7c8ccdc79a06bb1e632af0df93c57" prot="public" virt="non-virtual"><scope>MR::Parallel::CallWithTLSMaker</scope><name>e</name></member>
+      <member refid="group__GeneralGroup_1ga50441918634a0e7c8376e3c370c3604f" prot="public" virt="non-virtual"><scope>MR::Parallel::CallWithTLSMaker</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

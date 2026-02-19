@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DenseBox" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DenseBox</compoundname>
+    <includes refid="MRDenseBox_8h" local="no">MRDenseBox.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga6086c46946d7a35114b263a9dd4d59e2" kind="variable"><name>box_</name></member>
+      <member refid="group__GeneralGroup_1ga1c3177d2c1f2acad7079fcc81e9bc6de" kind="variable"><name>basisXf_</name></member>
+      <member refid="group__GeneralGroup_1gae54bd88edd9807412b8b7dd6f347fff6" kind="variable"><name>basisXfInv_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga7c79113a97744efd6bcbc544553fe582" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1gad18654ddb91781bc8e4d1417ce19a08e" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga38590d0d422769798b0be5129be63d55" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1gaee07541d158133fc4c85e7170de4d3e7" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1gaac374ad90e2a96d261ba863c1d6f46e2" kind="function"><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga7efc7b0a63b1e8c7737349454066d83f" kind="function"><name>center</name></member>
+      <member refid="group__GeneralGroup_1gae15fa3079fbe1aae94cb52176e59e802" kind="function"><name>corner</name></member>
+      <member refid="group__GeneralGroup_1gad6e0ec24db49e4d651459703603a3e4d" kind="function"><name>contains</name></member>
+      <member refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kind="function"><name>box</name></member>
+      <member refid="group__GeneralGroup_1ga941ca605a35dc828fc9b0e7c5358c7e9" kind="function"><name>basisXf</name></member>
+      <member refid="group__GeneralGroup_1ga1d968d6262ca4a19b4f5610ef49dfdee" kind="function"><name>basisXfInv</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gaee8123ab811e77321069f3d08c790b94" kind="function"><name>init_</name></member>
+      <member refid="group__GeneralGroup_1ga5df205af7e02e059dd8686549f7a1708" kind="function"><name>init_</name></member>
+      <member refid="group__GeneralGroup_1ga719c140bf1ea5e824566ae7a79718287" kind="function"><name>init_</name></member>
+      <member refid="group__GeneralGroup_1ga225c67e0c484f0fde15f39d9782478aa" kind="function"><name>init_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure to hold and work with dense box</para>
+<para>Scalar operations that are not provided in this struct can be called via <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref></computeroutput> For example <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size()</ref></computeroutput>, <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.diagonal()</computeroutput> or <computeroutput><ref refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" kindref="member">box()</ref>.<ref refid="group__GeneralGroup_1ga83e40508b3f05b594da19748c1da2d05" kindref="member">volume()</ref></computeroutput> Non const operations are not allowed for dense box because it can spoil density </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDenseBox.h" bodystart="18" bodyend="60"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga941ca605a35dc828fc9b0e7c5358c7e9" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXf</name></member>
+      <member refid="group__GeneralGroup_1ga1c3177d2c1f2acad7079fcc81e9bc6de" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXf_</name></member>
+      <member refid="group__GeneralGroup_1ga1d968d6262ca4a19b4f5610ef49dfdee" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXfInv</name></member>
+      <member refid="group__GeneralGroup_1gae54bd88edd9807412b8b7dd6f347fff6" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>basisXfInv_</name></member>
+      <member refid="group__GeneralGroup_1ga0ea02f370dc76e349984c62b5a3f6557" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>box</name></member>
+      <member refid="group__GeneralGroup_1ga6086c46946d7a35114b263a9dd4d59e2" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>box_</name></member>
+      <member refid="group__GeneralGroup_1ga7efc7b0a63b1e8c7737349454066d83f" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1gad6e0ec24db49e4d651459703603a3e4d" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>contains</name></member>
+      <member refid="group__GeneralGroup_1gae15fa3079fbe1aae94cb52176e59e802" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>corner</name></member>
+      <member refid="group__GeneralGroup_1ga7c79113a97744efd6bcbc544553fe582" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1gad18654ddb91781bc8e4d1417ce19a08e" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1ga38590d0d422769798b0be5129be63d55" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1gaee07541d158133fc4c85e7170de4d3e7" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1gaac374ad90e2a96d261ba863c1d6f46e2" prot="public" virt="non-virtual"><scope>MR::DenseBox</scope><name>DenseBox</name></member>
+      <member refid="group__GeneralGroup_1gaee8123ab811e77321069f3d08c790b94" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
+      <member refid="group__GeneralGroup_1ga5df205af7e02e059dd8686549f7a1708" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
+      <member refid="group__GeneralGroup_1ga719c140bf1ea5e824566ae7a79718287" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
+      <member refid="group__GeneralGroup_1ga225c67e0c484f0fde15f39d9782478aa" prot="private" virt="non-virtual"><scope>MR::DenseBox</scope><name>init_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

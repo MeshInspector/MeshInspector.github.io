@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RegularMapMesher" kind="class" language="C#" prot="public">
+    <compoundname>MR::RegularMapMesher</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_RegularMapMesher</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a158e3ba5568b5acdde90fa298b27ca4d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RegularMapMesher.RegularMapMesher</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>RegularMapMesher</name>
+        <qualifiedname>MR.RegularMapMesher.RegularMapMesher</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="89" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="89" bodyend="89"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1ab620c4934731dccd4bdee16ff007aca0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RegularMapMesher.RegularMapMesher</definition>
+        <argsstring>()</argsstring>
+        <name>RegularMapMesher</name>
+        <qualifiedname>MR.RegularMapMesher.RegularMapMesher</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="94" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="94" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1adb23c6068fce1fd48aa72d3f572758f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RegularMapMesher.RegularMapMesher</definition>
+        <argsstring>(MR._ByValue_RegularMapMesher _other)</argsstring>
+        <name>RegularMapMesher</name>
+        <qualifiedname>MR.RegularMapMesher.RegularMapMesher</qualifiedname>
+        <param>
+          <type>MR._ByValue_RegularMapMesher</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RegularMapMesher.RegularMapMesher</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="104" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="104" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1ade81f5e74f7af98ac60e83b11ef6da38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.RegularMapMesher.RegularMapMesher</definition>
+        <argsstring>(Const_RegularMapMesher _other)</argsstring>
+        <name>RegularMapMesher</name>
+        <qualifiedname>MR.RegularMapMesher.RegularMapMesher</qualifiedname>
+        <param>
+          <type>Const_RegularMapMesher</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RegularMapMesher.RegularMapMesher</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="115" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a6b9b1a239520752175ea710c5f3585b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.RegularMapMesher.RegularMapMesher</definition>
+        <argsstring>(RegularMapMesher _other)</argsstring>
+        <name>RegularMapMesher</name>
+        <qualifiedname>MR.RegularMapMesher.RegularMapMesher</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RegularMapMesher" kindref="compound">RegularMapMesher</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RegularMapMesher.RegularMapMesher</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="120" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a912a44af7d29290ff78d4b9dda1167f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RegularMapMesher" kindref="compound">MR.RegularMapMesher</ref></type>
+        <definition>unsafe MR.RegularMapMesher MR.RegularMapMesher.assign</definition>
+        <argsstring>(MR._ByValue_RegularMapMesher _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.RegularMapMesher.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_RegularMapMesher</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.RegularMapMesher.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="125" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="125" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1aee5cb36a7a745a1f815f287448400f4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.RegularMapMesher.setSurfacePC</definition>
+        <argsstring>(MR.Const_PointCloud surfacePC)</argsstring>
+        <name>setSurfacePC</name>
+        <qualifiedname>MR.RegularMapMesher.setSurfacePC</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>surfacePC</declname>
+        </param>
+        <briefdescription>
+<para>Sets surface Point Cloud Generated from method <computeroutput><ref refid="classMR_1_1RegularMapMesher_1aee5cb36a7a745a1f815f287448400f4e" kindref="member">MR.RegularMapMesher.setSurfacePC</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="138" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="138" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a2e612b2b042306bfeba0e406f88da1b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.RegularMapMesher.setDirectionsPC</definition>
+        <argsstring>(MR.Const_PointCloud directionsPC)</argsstring>
+        <name>setDirectionsPC</name>
+        <qualifiedname>MR.RegularMapMesher.setDirectionsPC</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>directionsPC</declname>
+        </param>
+        <briefdescription>
+<para>Sets directions Point Cloud Generated from method <computeroutput><ref refid="classMR_1_1RegularMapMesher_1a2e612b2b042306bfeba0e406f88da1b5" kindref="member">MR.RegularMapMesher.setDirectionsPC</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="149" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="149" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1ac5d4f2f720bd58de6174b98fc233a5aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.RegularMapMesher.loadDistances</definition>
+        <argsstring>(int width, int height, string path)</argsstring>
+        <name>loadDistances</name>
+        <qualifiedname>MR.RegularMapMesher.loadDistances</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>Loads distances form distances file (1/distance) Generated from method <computeroutput><ref refid="classMR_1_1RegularMapMesher_1ac5d4f2f720bd58de6174b98fc233a5aa" kindref="member">MR.RegularMapMesher.loadDistances</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="160" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="160" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RegularMapMesher_1a81f29537e2f2c967ee20c2a44783b038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.RegularMapMesher.setDistances</definition>
+        <argsstring>(int width, int height, MR.Std.Const_Vector_Float distances)</argsstring>
+        <name>setDistances</name>
+        <qualifiedname>MR.RegularMapMesher.setDistances</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_Float</type>
+          <declname>distances</declname>
+        </param>
+        <briefdescription>
+<para>Sets distances Generated from method <computeroutput><ref refid="classMR_1_1RegularMapMesher_1a81f29537e2f2c967ee20c2a44783b038" kindref="member">MR.RegularMapMesher.setDistances</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="177" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="177" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for making mesh from regular distance map. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>distance for each lattice of map is defined as point on ray from surface point cloud to direction point cloud, with length equal to 1/distance from distances file (if distance in file == 0 ray had no point) Generated from class <computeroutput><ref refid="classMR_1_1RegularMapMesher" kindref="compound">MR.RegularMapMesher</ref></computeroutput>. This is the non-const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_RegularMapMesher</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.RegularMapMesher</label>
+        <link refid="classMR_1_1RegularMapMesher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_RegularMapMesher &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_RegularMapMesher</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.RegularMapMesher</label>
+        <link refid="classMR_1_1RegularMapMesher"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_RegularMapMesher &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" line="87" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRRegularMapMesher.cs" bodystart="88" bodyend="183"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RegularMapMesher_1a912a44af7d29290ff78d4b9dda1167f1" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>assign</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1ac5d4f2f720bd58de6174b98fc233a5aa" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>loadDistances</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a158e3ba5568b5acdde90fa298b27ca4d" prot="package" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1ab620c4934731dccd4bdee16ff007aca0" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1adb23c6068fce1fd48aa72d3f572758f8" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1ade81f5e74f7af98ac60e83b11ef6da38" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a6b9b1a239520752175ea710c5f3585b3" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>RegularMapMesher</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a2e612b2b042306bfeba0e406f88da1b5" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDirectionsPC</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1a81f29537e2f2c967ee20c2a44783b038" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setDistances</name></member>
+      <member refid="classMR_1_1RegularMapMesher_1aee5cb36a7a745a1f815f287448400f4e" prot="public" virt="non-virtual"><scope>MR::RegularMapMesher</scope><name>setSurfacePC</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

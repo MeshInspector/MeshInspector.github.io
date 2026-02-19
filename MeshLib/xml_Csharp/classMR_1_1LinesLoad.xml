@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1LinesLoad" kind="class" language="C#" prot="public">
+    <compoundname>MR::LinesLoad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1a9e1b300d9380b09f46bae85c38d48730" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromSvg</definition>
+        <argsstring>(string file, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromSvg</name>
+        <qualifiedname>MR.LinesLoad.fromSvg</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads shapes (polylines, paths, etc.) from file in .SVG format Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1a9e1b300d9380b09f46bae85c38d48730" kindref="member">MR.LinesLoad.fromSvg</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRSvg.cs" line="10" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRSvg.cs" bodystart="10" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1a5924849134681d2ef23e19f2703f74e5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromSvg</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromSvg</name>
+        <qualifiedname>MR.LinesLoad.fromSvg</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1a9e1b300d9380b09f46bae85c38d48730" kindref="member">MR.LinesLoad.fromSvg</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRSvg.cs" line="28" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRSvg.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1aa95c823e09c6130104371e987d3742f8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromSvg</definition>
+        <argsstring>(byte? data, ulong size, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromSvg</name>
+        <qualifiedname>MR.LinesLoad.fromSvg</qualifiedname>
+        <param>
+          <type>byte?</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1a9e1b300d9380b09f46bae85c38d48730" kindref="member">MR.LinesLoad.fromSvg</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRSvg.cs" line="42" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRSvg.cs" bodystart="42" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1a26e2b386dbb84ac8d5df9682723e3110" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromMrLines</definition>
+        <argsstring>(string file, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromMrLines</name>
+        <qualifiedname>MR.LinesLoad.fromMrLines</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads polyline from file in internal MeshLib format Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1a26e2b386dbb84ac8d5df9682723e3110" kindref="member">MR.LinesLoad.fromMrLines</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" line="10" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" bodystart="10" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1a0760d05b020a4ba0e450e058d06fc168" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromMrLines</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromMrLines</name>
+        <qualifiedname>MR.LinesLoad.fromMrLines</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads polyline from stream in internal MeshLib format; important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1a26e2b386dbb84ac8d5df9682723e3110" kindref="member">MR.LinesLoad.fromMrLines</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" line="30" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" bodystart="30" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1a8a49b83c3792e93999e55a083d44b534" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromPts</definition>
+        <argsstring>(string file, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromPts</name>
+        <qualifiedname>MR.LinesLoad.fromPts</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads polyline from file in .PTS format Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1a8a49b83c3792e93999e55a083d44b534" kindref="member">MR.LinesLoad.fromPts</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" line="45" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" bodystart="45" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1ae3143f38643fcf8d8753c83d9d8c4238" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromPts</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromPts</name>
+        <qualifiedname>MR.LinesLoad.fromPts</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads polyline from stream in .PTS format Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1a8a49b83c3792e93999e55a083d44b534" kindref="member">MR.LinesLoad.fromPts</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" line="64" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" bodystart="64" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1a0b9702efb941478bc73c3c99e9ec9a61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromPly</definition>
+        <argsstring>(string file, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>MR.LinesLoad.fromPly</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads polyline from file in .PLY format Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1a0b9702efb941478bc73c3c99e9ec9a61" kindref="member">MR.LinesLoad.fromPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" line="79" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" bodystart="79" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1ac1d340f0d3b23a558f46ce576334e6d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromPly</definition>
+        <argsstring>(MR.Std.Istream in_, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>MR.LinesLoad.fromPly</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads polyline from stream in .PLY format; important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1a0b9702efb941478bc73c3c99e9ec9a61" kindref="member">MR.LinesLoad.fromPly</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" line="99" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" bodystart="99" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1ad8a88425db54e0b1d81936ca884b200b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromAnySupportedFormat</definition>
+        <argsstring>(string file, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.LinesLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads polyline from file in the format detected from file extension Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1ad8a88425db54e0b1d81936ca884b200b" kindref="member">MR.LinesLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" line="114" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" bodystart="114" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LinesLoad_1a1d551a44ea9216efbfaf21d4942f5bdb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polyline3" kindref="compound">MR.Polyline3</ref></type>
+        <definition>static unsafe MR.Polyline3 MR.LinesLoad.fromAnySupportedFormat</definition>
+        <argsstring>(MR.Std.Istream in_, string extension, MR.Const_LinesLoadSettings? settings=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.LinesLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type>MR.Const_LinesLoadSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads polyline from stream in the format detected from given extension-string (<computeroutput>*.ext</computeroutput>); important on Windows: in stream must be open in binary mode Generated from function <computeroutput><ref refid="classMR_1_1LinesLoad_1ad8a88425db54e0b1d81936ca884b200b" kindref="member">MR.LinesLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" line="134" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" bodystart="134" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRSvg.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLinesLoad.cs" bodystart="4" bodyend="147"/>
+    <listofallmembers>
+      <member refid="classMR_1_1LinesLoad_1ad8a88425db54e0b1d81936ca884b200b" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1LinesLoad_1a1d551a44ea9216efbfaf21d4942f5bdb" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1LinesLoad_1a26e2b386dbb84ac8d5df9682723e3110" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromMrLines</name></member>
+      <member refid="classMR_1_1LinesLoad_1a0760d05b020a4ba0e450e058d06fc168" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromMrLines</name></member>
+      <member refid="classMR_1_1LinesLoad_1a0b9702efb941478bc73c3c99e9ec9a61" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromPly</name></member>
+      <member refid="classMR_1_1LinesLoad_1ac1d340f0d3b23a558f46ce576334e6d2" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromPly</name></member>
+      <member refid="classMR_1_1LinesLoad_1a8a49b83c3792e93999e55a083d44b534" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromPts</name></member>
+      <member refid="classMR_1_1LinesLoad_1ae3143f38643fcf8d8753c83d9d8c4238" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromPts</name></member>
+      <member refid="classMR_1_1LinesLoad_1a9e1b300d9380b09f46bae85c38d48730" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromSvg</name></member>
+      <member refid="classMR_1_1LinesLoad_1a5924849134681d2ef23e19f2703f74e5" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromSvg</name></member>
+      <member refid="classMR_1_1LinesLoad_1aa95c823e09c6130104371e987d3742f8" prot="public" virt="non-virtual"><scope>MR::LinesLoad</scope><name>fromSvg</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

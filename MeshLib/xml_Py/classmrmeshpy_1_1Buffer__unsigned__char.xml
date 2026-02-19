@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Buffer__unsigned__char" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Buffer_unsigned_char</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1aafe28302a2e8c3ecea7b5368c95ef381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.__getitem__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7239" bodyend="7240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1aafe28302a2e8c3ecea7b5368c95ef381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.__getitem__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7242" bodyend="7243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1a0e0a10fb9442aae25841d56555f19ef5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_unsigned_char.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7245" bodyend="7246"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1a9edb1d9009fcf85f722b1a078516799a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_unsigned_char.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7248" bodyend="7249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1a6545680c3c31daae4df4e388d7d437a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[int]</type>
+        <definition> typing.Iterator[int] mrmeshpy.Buffer_unsigned_char.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7250" bodyend="7251"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1a39215c6aa4b6451006d9663e1dfa7252" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_unsigned_char.__setitem__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7252" bodyend="7253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1ad590a85a73a66c3e612888a9bdb30399" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7254" bodyend="7257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1a250f9bd024c6c1ea5ae9b54b97aa5027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7258" bodyend="7261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1ab1d0a1e8e9f37e78d6222c1aa70c38f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7262" bodyend="7263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1aa1ab25592b89caae01e6e136f7427978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_unsigned_char.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7264" bodyend="7265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1aec770727bb4957d35592a3e17d73bfb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7267" bodyend="7268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1aec770727bb4957d35592a3e17d73bfb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7270" bodyend="7271"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1afa721bfaa37b9048a6d77444cf70aa14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Buffer_unsigned_char.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7272" bodyend="7273"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1adbf74802ea62e23aeeb38dab853b1437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7274" bodyend="7277"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1a8362ece7da79a18d1101552f2fd50e97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7278" bodyend="7281"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1a02178584cbfedd029f24e564a1fdd39c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_unsigned_char.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7282" bodyend="7283"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__unsigned__char_1a6b9215d875bdd5ac873377ddc2ee2e80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_unsigned_char.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Buffer_unsigned_char.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7284" bodyend="7285"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Buffer&lt;unsigned char&gt;
+
+
+ \\brief std::vector&lt;V&gt;-like container that is
+  1) resized without initialization of its elements,
+  2) much simplified: no push_back and many other methods
+ \\tparam V type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7226" bodyend="7285"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1aafe28302a2e8c3ecea7b5368c95ef381" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1aafe28302a2e8c3ecea7b5368c95ef381" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1a0e0a10fb9442aae25841d56555f19ef5" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1a9edb1d9009fcf85f722b1a078516799a" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1a6545680c3c31daae4df4e388d7d437a2" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1a39215c6aa4b6451006d9663e1dfa7252" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1ad590a85a73a66c3e612888a9bdb30399" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1a250f9bd024c6c1ea5ae9b54b97aa5027" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1ab1d0a1e8e9f37e78d6222c1aa70c38f3" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1aa1ab25592b89caae01e6e136f7427978" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1aec770727bb4957d35592a3e17d73bfb7" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1aec770727bb4957d35592a3e17d73bfb7" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1afa721bfaa37b9048a6d77444cf70aa14" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1adbf74802ea62e23aeeb38dab853b1437" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1a8362ece7da79a18d1101552f2fd50e97" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1a02178584cbfedd029f24e564a1fdd39c" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__unsigned__char_1a6b9215d875bdd5ac873377ddc2ee2e80" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_unsigned_char</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

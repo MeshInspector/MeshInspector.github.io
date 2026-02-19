@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SceneObjectsListDrawer_1_1MoveAndScrollData" kind="struct" language="C++" prot="private">
+    <compoundname>MR::SceneObjectsListDrawer::MoveAndScrollData</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga0c8ba2a60d4747b8f0eae8791efd2249" kind="variable"><name>index</name></member>
+      <member refid="group__GeneralGroup_1gaf5e2efafccac2a050712323ed5479603" kind="variable"><name>posY</name></member>
+      <member refid="group__GeneralGroup_1ga5fa4cc6e843bdb6827ddcfde0e1b7709" kind="variable"><name>needScroll</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>struct to auto-scroll after move (arrow up / down) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" line="130" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneObjectsListDrawer.h" bodystart="131" bodyend="135"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0c8ba2a60d4747b8f0eae8791efd2249" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::MoveAndScrollData</scope><name>index</name></member>
+      <member refid="group__GeneralGroup_1ga5fa4cc6e843bdb6827ddcfde0e1b7709" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::MoveAndScrollData</scope><name>needScroll</name></member>
+      <member refid="group__GeneralGroup_1gaf5e2efafccac2a050712323ed5479603" prot="public" virt="non-virtual"><scope>MR::SceneObjectsListDrawer::MoveAndScrollData</scope><name>posY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

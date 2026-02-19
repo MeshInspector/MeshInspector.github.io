@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CloudPartMapping" kind="class" language="C#" prot="public">
+    <compoundname>MR::CloudPartMapping</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_CloudPartMapping</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1CloudPartMapping_1a069aabcb425b4ebfecd39aa867e4a664" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition>new unsafe MR.? VertMap MR.CloudPartMapping.src2tgtVerts</definition>
+        <argsstring></argsstring>
+        <name>src2tgtVerts</name>
+        <qualifiedname>MR.CloudPartMapping.src2tgtVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="136" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="137" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1CloudPartMapping_1a55165fbba68279c43c624618a17caa58" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1VertMap" kindref="compound">VertMap</ref></type>
+        <definition>new unsafe MR.? VertMap MR.CloudPartMapping.tgt2srcVerts</definition>
+        <argsstring></argsstring>
+        <name>tgt2srcVerts</name>
+        <qualifiedname>MR.CloudPartMapping.tgt2srcVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="149" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="150" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1CloudPartMapping_1abb615cfa0565012cea32bbd64093f39f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CloudPartMapping.CloudPartMapping</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CloudPartMapping</name>
+        <qualifiedname>MR.CloudPartMapping.CloudPartMapping</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="163" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="163" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1CloudPartMapping_1a55754082cc4185434fc9adb8633eda4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CloudPartMapping.CloudPartMapping</definition>
+        <argsstring>()</argsstring>
+        <name>CloudPartMapping</name>
+        <qualifiedname>MR.CloudPartMapping.CloudPartMapping</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="173" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="173" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CloudPartMapping_1aebe4a327b85f9d3b28c2b24e0134108b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CloudPartMapping.CloudPartMapping</definition>
+        <argsstring>(MR.VertMap? src2tgtVerts, MR.VertMap? tgt2srcVerts)</argsstring>
+        <name>CloudPartMapping</name>
+        <qualifiedname>MR.CloudPartMapping.CloudPartMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>src2tgtVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>tgt2srcVerts</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CloudPartMapping" kindref="compound">MR.CloudPartMapping</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="184" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="184" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CloudPartMapping_1a8622cc9ad8301b1f4bed603b21b52ecb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CloudPartMapping.CloudPartMapping</definition>
+        <argsstring>(MR.Const_CloudPartMapping _other)</argsstring>
+        <name>CloudPartMapping</name>
+        <qualifiedname>MR.CloudPartMapping.CloudPartMapping</qualifiedname>
+        <param>
+          <type>MR.Const_CloudPartMapping</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CloudPartMapping.CloudPartMapping</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="197" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="197" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CloudPartMapping_1a58eedd1b9f9cd58d15b27d820f25d1eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.CloudPartMapping.CloudPartMapping</definition>
+        <argsstring>(CloudPartMapping _other)</argsstring>
+        <name>CloudPartMapping</name>
+        <qualifiedname>MR.CloudPartMapping.CloudPartMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CloudPartMapping" kindref="compound">CloudPartMapping</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CloudPartMapping.CloudPartMapping</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="209" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="209" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CloudPartMapping_1a0308b6582834199db16ca2186404585a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CloudPartMapping" kindref="compound">MR.CloudPartMapping</ref></type>
+        <definition>unsafe MR.CloudPartMapping MR.CloudPartMapping.assign</definition>
+        <argsstring>(MR.Const_CloudPartMapping _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.CloudPartMapping.assign</qualifiedname>
+        <param>
+          <type>MR.Const_CloudPartMapping</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.CloudPartMapping.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="214" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="214" bodyend="221"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1CloudPartMapping" kindref="compound">MR.CloudPartMapping</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_CloudPartMapping</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CloudPartMapping</label>
+        <link refid="classMR_1_1CloudPartMapping"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CloudPartMapping &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_CloudPartMapping</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CloudPartMapping</label>
+        <link refid="classMR_1_1CloudPartMapping"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CloudPartMapping &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" line="133" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCloudPartMapping.cs" bodystart="134" bodyend="222"/>
+    <listofallmembers>
+      <member refid="classMR_1_1CloudPartMapping_1a0308b6582834199db16ca2186404585a" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>assign</name></member>
+      <member refid="classMR_1_1CloudPartMapping_1abb615cfa0565012cea32bbd64093f39f" prot="package" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
+      <member refid="classMR_1_1CloudPartMapping_1a55754082cc4185434fc9adb8633eda4c" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
+      <member refid="classMR_1_1CloudPartMapping_1aebe4a327b85f9d3b28c2b24e0134108b" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
+      <member refid="classMR_1_1CloudPartMapping_1a8622cc9ad8301b1f4bed603b21b52ecb" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
+      <member refid="classMR_1_1CloudPartMapping_1a58eedd1b9f9cd58d15b27d820f25d1eb" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>CloudPartMapping</name></member>
+      <member refid="classMR_1_1CloudPartMapping_1a069aabcb425b4ebfecd39aa867e4a664" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>src2tgtVerts</name></member>
+      <member refid="classMR_1_1CloudPartMapping_1a55165fbba68279c43c624618a17caa58" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>tgt2srcVerts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

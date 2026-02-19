@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere" kind="class" language="C#" prot="public">
+    <compoundname>MR::ObjKindTraits_MRFeaturesObjectKindSphere</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindSphere</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1a8e8f505a3c6a7bba7270ea844095dea8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjKindTraits_MRFeaturesObjectKindSphere.ObjKindTraits_MRFeaturesObjectKindSphere</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ObjKindTraits_MRFeaturesObjectKindSphere</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindSphere.ObjKindTraits_MRFeaturesObjectKindSphere</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="659" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="659" bodyend="659"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1a96f6be8dc554b0103240fca590a7ce90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjKindTraits_MRFeaturesObjectKindSphere.ObjKindTraits_MRFeaturesObjectKindSphere</definition>
+        <argsstring>()</argsstring>
+        <name>ObjKindTraits_MRFeaturesObjectKindSphere</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindSphere.ObjKindTraits_MRFeaturesObjectKindSphere</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="664" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="664" bodyend="669"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1a900eaeae38240c80a4d4b97081a4be13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjKindTraits_MRFeaturesObjectKindSphere.ObjKindTraits_MRFeaturesObjectKindSphere</definition>
+        <argsstring>(MR.Const_ObjKindTraits_MRFeaturesObjectKindSphere _other)</argsstring>
+        <name>ObjKindTraits_MRFeaturesObjectKindSphere</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindSphere.ObjKindTraits_MRFeaturesObjectKindSphere</qualifiedname>
+        <param>
+          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindSphere</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjKindTraits&lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7ab7095f057db3fefa7325ad93a04e14fd" kindref="member">MR.FeaturesObjectKind.Sphere</ref>&gt;::ObjKindTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="674" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="674" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1add9765f8ca600a3bdbaf9a16a07bda7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjKindTraits_MRFeaturesObjectKindSphere.ObjKindTraits_MRFeaturesObjectKindSphere</definition>
+        <argsstring>(ObjKindTraits_MRFeaturesObjectKindSphere _other)</argsstring>
+        <name>ObjKindTraits_MRFeaturesObjectKindSphere</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindSphere.ObjKindTraits_MRFeaturesObjectKindSphere</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere" kindref="compound">ObjKindTraits_MRFeaturesObjectKindSphere</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjKindTraits&lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7ab7095f057db3fefa7325ad93a04e14fd" kindref="member">MR.FeaturesObjectKind.Sphere</ref>&gt;::ObjKindTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="685" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="685" bodyend="685"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1acbc06dbd6a74962cd47c4929c6fa2e8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere" kindref="compound">MR.ObjKindTraits_MRFeaturesObjectKindSphere</ref></type>
+        <definition>unsafe MR.ObjKindTraits_MRFeaturesObjectKindSphere MR.ObjKindTraits_MRFeaturesObjectKindSphere.assign</definition>
+        <argsstring>(MR.Const_ObjKindTraits_MRFeaturesObjectKindSphere _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindSphere.assign</qualifiedname>
+        <param>
+          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindSphere</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjKindTraits&lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7ab7095f057db3fefa7325ad93a04e14fd" kindref="member">MR.FeaturesObjectKind.Sphere</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="690" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="690" bodyend="697"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.ObjKindTraits&lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7ab7095f057db3fefa7325ad93a04e14fd" kindref="member">MR.FeaturesObjectKind.Sphere</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ObjKindTraits_MRFeaturesObjectKindSphere</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjKindTraits_MRFeaturesObjectKindSphere</label>
+        <link refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ObjKindTraits_MRFeaturesObjectKindSphere &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ObjKindTraits_MRFeaturesObjectKindSphere</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjKindTraits_MRFeaturesObjectKindSphere</label>
+        <link refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ObjKindTraits_MRFeaturesObjectKindSphere &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="657" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="658" bodyend="698"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1acbc06dbd6a74962cd47c4929c6fa2e8c" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindSphere</scope><name>assign</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1a8e8f505a3c6a7bba7270ea844095dea8" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindSphere</scope><name>ObjKindTraits_MRFeaturesObjectKindSphere</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1a96f6be8dc554b0103240fca590a7ce90" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindSphere</scope><name>ObjKindTraits_MRFeaturesObjectKindSphere</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1a900eaeae38240c80a4d4b97081a4be13" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindSphere</scope><name>ObjKindTraits_MRFeaturesObjectKindSphere</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindSphere_1add9765f8ca600a3bdbaf9a16a07bda7b" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindSphere</scope><name>ObjKindTraits_MRFeaturesObjectKindSphere</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

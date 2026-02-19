@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PackMapping" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PackMapping</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PackMapping_1a7025ad3e2274be4daa84665f8983b307" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PackMapping::_offsetof_e</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_e</name>
+        <qualifiedname>mrmeshpy.PackMapping._offsetof_e</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PackMapping_1a9363f9a45939b5a5c80c59e59757c1ee" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PackMapping::_offsetof_f</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_f</name>
+        <qualifiedname>mrmeshpy.PackMapping._offsetof_f</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PackMapping_1ae41cdc3c36953a8fd70f65f0f62ab490" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PackMapping::_offsetof_v</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_v</name>
+        <qualifiedname>mrmeshpy.PackMapping._offsetof_v</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42186" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PackMapping_1aaa2719b8f7c9591d0f0c06a46ae57411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PackMapping.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PackMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42187" bodyend="42188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PackMapping_1a4fcec9819a67ae4f1586f15346a90894" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBMap" kindref="compound">UndirectedEdgeBMap</ref></type>
+        <definition> UndirectedEdgeBMap mrmeshpy.PackMapping.e</definition>
+        <argsstring>(self)</argsstring>
+        <name>e</name>
+        <qualifiedname>mrmeshpy.PackMapping.e</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42190" bodyend="42191"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PackMapping_1a14d4d9a139ce7f3b6b1ae56e227eeaf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBMap" kindref="compound">FaceBMap</ref></type>
+        <definition> FaceBMap mrmeshpy.PackMapping.f</definition>
+        <argsstring>(self)</argsstring>
+        <name>f</name>
+        <qualifiedname>mrmeshpy.PackMapping.f</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42193" bodyend="42194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PackMapping_1a00ad929e7ecfe1edf1c5e5a3c8ec4681" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBMap" kindref="compound">VertBMap</ref></type>
+        <definition> VertBMap mrmeshpy.PackMapping.v</definition>
+        <argsstring>(self)</argsstring>
+        <name>v</name>
+        <qualifiedname>mrmeshpy.PackMapping.v</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42196" bodyend="42197"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PackMapping
+
+mapping of mesh elements: old -&gt; new,
+the mapping is tight (or packing) in the sense that there are no unused new elements within [0, (e/f/v).tsize)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PackMapping</label>
+        <link refid="classmrmeshpy_1_1PackMapping"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_e</edgelabel>
+          <edgelabel>_offsetof_f</edgelabel>
+          <edgelabel>_offsetof_v</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42177" bodyend="42197"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PackMapping_1aaa2719b8f7c9591d0f0c06a46ae57411" prot="public" virt="non-virtual"><scope>mrmeshpy::PackMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PackMapping_1a7025ad3e2274be4daa84665f8983b307" prot="protected" virt="non-virtual"><scope>mrmeshpy::PackMapping</scope><name>_offsetof_e</name></member>
+      <member refid="classmrmeshpy_1_1PackMapping_1a9363f9a45939b5a5c80c59e59757c1ee" prot="protected" virt="non-virtual"><scope>mrmeshpy::PackMapping</scope><name>_offsetof_f</name></member>
+      <member refid="classmrmeshpy_1_1PackMapping_1ae41cdc3c36953a8fd70f65f0f62ab490" prot="protected" virt="non-virtual"><scope>mrmeshpy::PackMapping</scope><name>_offsetof_v</name></member>
+      <member refid="classmrmeshpy_1_1PackMapping_1a4fcec9819a67ae4f1586f15346a90894" prot="public" virt="non-virtual"><scope>mrmeshpy::PackMapping</scope><name>e</name></member>
+      <member refid="classmrmeshpy_1_1PackMapping_1a14d4d9a139ce7f3b6b1ae56e227eeaf1" prot="public" virt="non-virtual"><scope>mrmeshpy::PackMapping</scope><name>f</name></member>
+      <member refid="classmrmeshpy_1_1PackMapping_1a00ad929e7ecfe1edf1c5e5a3c8ec4681" prot="public" virt="non-virtual"><scope>mrmeshpy::PackMapping</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

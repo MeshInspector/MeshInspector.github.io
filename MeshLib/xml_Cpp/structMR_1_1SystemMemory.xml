@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SystemMemory" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SystemMemory</compoundname>
+    <includes refid="MRSystem_8h" local="no">MRSystem.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga3087e60be22adc17e00bcb62da97a040" kind="variable"><name>physicalTotal</name></member>
+      <member refid="group__GeneralGroup_1ga76875970bb84c9474cc9e582162fe351" kind="variable"><name>physicalAvailable</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" line="87" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSystem.h" bodystart="88" bodyend="94"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga76875970bb84c9474cc9e582162fe351" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>physicalAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga3087e60be22adc17e00bcb62da97a040" prot="public" virt="non-virtual"><scope>MR::SystemMemory</scope><name>physicalTotal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

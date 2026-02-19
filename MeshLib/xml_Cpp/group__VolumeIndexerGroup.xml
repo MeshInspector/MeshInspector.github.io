@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__VolumeIndexerGroup" kind="group">
+    <compoundname>VolumeIndexerGroup</compoundname>
+    <title>Volume Indexer</title>
+    <innerclass refid="structMR_1_1VoxelLocation" prot="public">MR::VoxelLocation</innerclass>
+    <innerclass refid="classMR_1_1VolumeIndexer" prot="public">MR::VolumeIndexer</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__VolumeIndexerGroup_1gaa7203f0917dc651aa1261d90d266752e" prot="public" static="no" strong="yes">
+        <type>signed char</type>
+        <name>OutEdge</name>
+        <qualifiedname>MR::OutEdge</qualifiedname>
+        <enumvalue id="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea4bbb8f967da6d1a610596d7257179c2b" prot="public">
+          <name>Invalid</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea59bb9bd5dd05e7aa8aca793a81266bb9" prot="public">
+          <name>PlusZ</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea65661216a3acfdac8c58d97d97fa10cb" prot="public">
+          <name>MinusZ</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea89241a914ba5d59de9168c4416e69c4a" prot="public">
+          <name>PlusY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea9cc816b8a2117db796c073f012e78565" prot="public">
+          <name>MinusY</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752eaac53fa7ccf60e6f59512da11975eb8a7" prot="public">
+          <name>PlusX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752ea6ee0807f5bf1b3e0a4d52919eb298454" prot="public">
+          <name>MinusX</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__VolumeIndexerGroup_1ggaa7203f0917dc651aa1261d90d266752eae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="21" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__VolumeIndexerGroup_1ga2f359b8ca6ad382c364a49777f193ba0" prot="public" static="yes" mutable="no">
+        <type>const std::initializer_list&lt; OutEdge &gt;</type>
+        <definition>const std::initializer_list&lt;OutEdge&gt; MR::all6Edges</definition>
+        <argsstring></argsstring>
+        <name>all6Edges</name>
+        <qualifiedname>MR::all6Edges</qualifiedname>
+        <initializer>= { OutEdge::PlusZ, OutEdge::MinusZ, OutEdge::PlusY, OutEdge::MinusY, OutEdge::PlusX, OutEdge::MinusX }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="34" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VolumeIndexerGroup_1gab35bebc2eedde9b1262043f5242f3ebf" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::OutEdgeCount</definition>
+        <argsstring></argsstring>
+        <name>OutEdgeCount</name>
+        <qualifiedname>MR::OutEdgeCount</qualifiedname>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="42" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VolumeIndexerGroup_1ga91147207103fdc2c344ad18106a8599a" prot="public" static="no" constexpr="yes" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::neiPosDelta[OutEdgeCount]</definition>
+        <argsstring>[OutEdgeCount]</argsstring>
+        <name>neiPosDelta</name>
+        <qualifiedname>MR::neiPosDelta</qualifiedname>
+        <initializer>=
+{
+    { 0, 0, 1 }, 
+    { 0, 0,-1 }, 
+    { 0, 1, 0 }, 
+    { 0,-1, 0 }, 
+    { 1, 0, 0 }, 
+    {-1, 0, 0 }  
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="44" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="44" bodyend="52"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__VolumeIndexerGroup_1ga4e89cddf49bc51a6caa983ba3b84c461" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>OutEdge</type>
+        <definition>OutEdge MR::opposite</definition>
+        <argsstring>(OutEdge e)</argsstring>
+        <name>opposite</name>
+        <qualifiedname>MR::opposite</qualifiedname>
+        <param>
+          <type>OutEdge</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="36" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="36" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VolumeIndexerGroup_1ga2b294cbfdf1d13f5bb7babef620b361a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::expandVoxelsMask</definition>
+        <argsstring>(VoxelBitSet &amp;mask, const VolumeIndexer &amp;indexer, int expansion=1)</argsstring>
+        <name>expandVoxelsMask</name>
+        <qualifiedname>MR::expandVoxelsMask</qualifiedname>
+        <param>
+          <type>VoxelBitSet &amp;</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>const VolumeIndexer &amp;</type>
+          <declname>indexer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>expansion</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>expands VoxelBitSet with given number of steps </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="161" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" declline="161" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VolumeIndexerGroup_1gaae181e34db4d5ebb6f2cc68194b69c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::shrinkVoxelsMask</definition>
+        <argsstring>(VoxelBitSet &amp;mask, const VolumeIndexer &amp;indexer, int shrinkage=1)</argsstring>
+        <name>shrinkVoxelsMask</name>
+        <qualifiedname>MR::shrinkVoxelsMask</qualifiedname>
+        <param>
+          <type>VoxelBitSet &amp;</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>const VolumeIndexer &amp;</type>
+          <declname>indexer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shrinkage</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+<para>shrinks VoxelBitSet with given number of steps </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="164" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" declline="164" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

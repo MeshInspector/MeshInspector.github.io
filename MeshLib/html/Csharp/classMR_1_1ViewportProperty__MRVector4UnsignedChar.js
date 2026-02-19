@@ -2,6 +2,8 @@ var classMR_1_1ViewportProperty__MRVector4UnsignedChar =
 [
     [ "ViewportProperty_MRVector4UnsignedChar", "classMR_1_1ViewportProperty__MRVector4UnsignedChar.html#a4fa499129bfbde5a4297916cf4563814", null ],
     [ "ViewportProperty_MRVector4UnsignedChar", "classMR_1_1ViewportProperty__MRVector4UnsignedChar.html#ac11cbceafd29a4f8f86a2a6032f69707", null ],
+    [ "ViewportProperty_MRVector4UnsignedChar", "classMR_1_1ViewportProperty__MRVector4UnsignedChar.html#a414247b7d7813b2d994c6530c10042b6", null ],
+    [ "ViewportProperty_MRVector4UnsignedChar", "classMR_1_1ViewportProperty__MRVector4UnsignedChar.html#aa7f7ad115cc969b63d41970d270fdb69", null ],
     [ "ViewportProperty_MRVector4UnsignedChar", "classMR_1_1ViewportProperty__MRVector4UnsignedChar.html#a7d616d707d940ebe5a3f4345b497300c", null ],
     [ "assign", "classMR_1_1ViewportProperty__MRVector4UnsignedChar.html#aea7f43fee584b29e817d52e04f8f0757", null ],
     [ "get", "classMR_1_1ViewportProperty__MRVector4UnsignedChar.html#af8a714c8ea679555937920699b2a1e1e", null ],

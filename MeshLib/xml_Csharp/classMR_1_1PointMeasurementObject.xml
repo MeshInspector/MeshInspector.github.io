@@ -1,0 +1,1391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointMeasurementObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointMeasurementObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointMeasurementObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a9677dcf503410e396543611a9465bf71" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PointMeasurementObject.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(PointMeasurementObject self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.PointMeasurementObject.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1008" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1008" bodyend="1013"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a8263670ae548a44b6f46d379344fc706" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PointMeasurementObject.operator MR.Object</definition>
+        <argsstring>(PointMeasurementObject self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.PointMeasurementObject.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1014" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1014" bodyend="1019"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a523e9b93973c8dceaeec1650489c938f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PointMeasurementObject.operator MR.VisualObject</definition>
+        <argsstring>(PointMeasurementObject self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.PointMeasurementObject.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1020" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1020" bodyend="1025"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1adf4a123c7138b9e554141125752b7265" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PointMeasurementObject.operator MR.MeasurementObject</definition>
+        <argsstring>(PointMeasurementObject self)</argsstring>
+        <name>operator MR.MeasurementObject</name>
+        <qualifiedname>MR.PointMeasurementObject.operator MR.MeasurementObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1026" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1026" bodyend="1031"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aeb911f615306acbecf17f21935b8ef0a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PointMeasurementObject.operator MR.ObjectComparableWithReference</definition>
+        <argsstring>(PointMeasurementObject self)</argsstring>
+        <name>operator MR.ObjectComparableWithReference</name>
+        <qualifiedname>MR.PointMeasurementObject.operator MR.ObjectComparableWithReference</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">PointMeasurementObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1032" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1032" bodyend="1037"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ad311ed1332a7a98f6e154feb227c54d7" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.PointMeasurementObject.operator PointMeasurementObject?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator PointMeasurementObject?</name>
+        <qualifiedname>MR.PointMeasurementObject.operator PointMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1040" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1040" bodyend="1047"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a9c3d0a46f31c96bcff31b7e42eb099c6" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.PointMeasurementObject.operator PointMeasurementObject?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator PointMeasurementObject?</name>
+        <qualifiedname>MR.PointMeasurementObject.operator PointMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1048" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1048" bodyend="1055"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a45644e045ac1b52c92a521ddb048740d" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.PointMeasurementObject.operator PointMeasurementObject?</definition>
+        <argsstring>(MR.MeasurementObject parent)</argsstring>
+        <name>operator PointMeasurementObject?</name>
+        <qualifiedname>MR.PointMeasurementObject.operator PointMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1056" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1056" bodyend="1063"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a1cdc81082965bc0ce95c65fe9295d6c8" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.PointMeasurementObject.operator PointMeasurementObject?</definition>
+        <argsstring>(MR.ObjectComparableWithReference parent)</argsstring>
+        <name>operator PointMeasurementObject?</name>
+        <qualifiedname>MR.PointMeasurementObject.operator PointMeasurementObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">MR.ObjectComparableWithReference</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1064" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1064" bodyend="1071"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a31c635ce18d91e8388d60fc843ffe745" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointMeasurementObject.PointMeasurementObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PointMeasurementObject</name>
+        <qualifiedname>MR.PointMeasurementObject.PointMeasurementObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1073" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1073" bodyend="1073"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a027b219f7b0308cf1d2a2804917b937a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointMeasurementObject.PointMeasurementObject</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>PointMeasurementObject</name>
+        <qualifiedname>MR.PointMeasurementObject.PointMeasurementObject</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1075" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1075" bodyend="1075"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a260786763c65b64a2720f10c29446dfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointMeasurementObject.PointMeasurementObject</definition>
+        <argsstring>()</argsstring>
+        <name>PointMeasurementObject</name>
+        <qualifiedname>MR.PointMeasurementObject.PointMeasurementObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1080" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1080" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a54fc9b516dbcbbde5f47c545e1521c84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointMeasurementObject.PointMeasurementObject</definition>
+        <argsstring>(MR._ByValue_PointMeasurementObject _other)</argsstring>
+        <name>PointMeasurementObject</name>
+        <qualifiedname>MR.PointMeasurementObject.PointMeasurementObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_PointMeasurementObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointMeasurementObject.PointMeasurementObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1090" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1090" bodyend="1096"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a6d02c48584132c74fd2d1513155cd42c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointMeasurementObject" kindref="compound">MR.PointMeasurementObject</ref></type>
+        <definition>unsafe MR.PointMeasurementObject MR.PointMeasurementObject.assign</definition>
+        <argsstring>(MR._ByValue_PointMeasurementObject _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PointMeasurementObject.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_PointMeasurementObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PointMeasurementObject.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1101" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1101" bodyend="1111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a2fe5a2560d06a8fbcff2366dd6462c53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setLocalPoint</definition>
+        <argsstring>(in MR.Vector3f point, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setLocalPoint</name>
+        <qualifiedname>MR.PointMeasurementObject.setLocalPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given point Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a2fe5a2560d06a8fbcff2366dd6462c53" kindref="member">MR.PointMeasurementObject.setLocalPoint</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1118" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1118" bodyend="1126"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a774ced6d8faa87799baf72de7c77590c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setWorldPoint</definition>
+        <argsstring>(in MR.Vector3f point, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldPoint</name>
+        <qualifiedname>MR.PointMeasurementObject.setWorldPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a774ced6d8faa87799baf72de7c77590c" kindref="member">MR.PointMeasurementObject.setWorldPoint</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1132" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1132" bodyend="1140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aee0af21054fb00574a0d7bafd476f7b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setComparisonTolerance</definition>
+        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonTolerance? newTolerance)</argsstring>
+        <name>setComparisonTolerance</name>
+        <qualifiedname>MR.PointMeasurementObject.setComparisonTolerance</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ObjectComparableWithReference.Const_ComparisonTolerance?</type>
+          <declname>newTolerance</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aee0af21054fb00574a0d7bafd476f7b6" kindref="member">MR.PointMeasurementObject.setComparisonTolerance</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1145" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1145" bodyend="1150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a7b88401e36192791f28d9f45ec200c08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setComparisonReferenceValue</definition>
+        <argsstring>(ulong i, MR.Std.Const_Variant_Float_MRVector3f? value)</argsstring>
+        <name>setComparisonReferenceValue</name>
+        <qualifiedname>MR.PointMeasurementObject.setComparisonReferenceValue</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Variant_Float_MRVector3f?</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a7b88401e36192791f28d9f45ec200c08" kindref="member">MR.PointMeasurementObject.setComparisonReferenceValue</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1155" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1155" bodyend="1160"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ac253df31468c6e2f3b9f823f4e5c6ccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.PointMeasurementObject.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ac253df31468c6e2f3b9f823f4e5c6ccb" kindref="member">MR.PointMeasurementObject.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1166" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1166" bodyend="1171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a24ffda1512dd6b1e659107889f6f7a45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.PointMeasurementObject.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a24ffda1512dd6b1e659107889f6f7a45" kindref="member">MR.PointMeasurementObject.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1177" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1177" bodyend="1182"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a4c7eeca60200c44d4987ef1082b39fae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.PointMeasurementObject.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a4c7eeca60200c44d4987ef1082b39fae" kindref="member">MR.PointMeasurementObject.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1188" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1188" bodyend="1193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a4be3ac1ef6b47643505c1955b5229bd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.PointMeasurementObject.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a4be3ac1ef6b47643505c1955b5229bd4" kindref="member">MR.PointMeasurementObject.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1199" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1199" bodyend="1204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1adbc9d894efaae94e910892cafa543338" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.PointMeasurementObject.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1adbc9d894efaae94e910892cafa543338" kindref="member">MR.PointMeasurementObject.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1210" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1210" bodyend="1215"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ac0eaa081ff4430f6bab750675071d878" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.PointMeasurementObject.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ac0eaa081ff4430f6bab750675071d878" kindref="member">MR.PointMeasurementObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1222" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1222" bodyend="1227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a5b4de52ce7b1fa584924631fb59c9b8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.PointMeasurementObject.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a5b4de52ce7b1fa584924631fb59c9b8f" kindref="member">MR.PointMeasurementObject.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1234" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1234" bodyend="1242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1acb4431f4cda5e04e36b01634ef675492" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.PointMeasurementObject.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1acb4431f4cda5e04e36b01634ef675492" kindref="member">MR.PointMeasurementObject.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1249" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1249" bodyend="1255"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ac29ccc6a359249df47a5bbdcc0bf55a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.PointMeasurementObject.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ac29ccc6a359249df47a5bbdcc0bf55a2" kindref="member">MR.PointMeasurementObject.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1261" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1261" bodyend="1266"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a4bb1bd23405400496d3eb5e7661b7c56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.PointMeasurementObject.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a4bb1bd23405400496d3eb5e7661b7c56" kindref="member">MR.PointMeasurementObject.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1273" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1273" bodyend="1281"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a627fd5db7b6f239d29c16fe7b1f01718" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.PointMeasurementObject.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a627fd5db7b6f239d29c16fe7b1f01718" kindref="member">MR.PointMeasurementObject.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1288" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1288" bodyend="1293"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a2765d565756ada6529c658a1f6eb05f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.PointMeasurementObject.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a2765d565756ada6529c658a1f6eb05f0" kindref="member">MR.PointMeasurementObject.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1299" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1299" bodyend="1304"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a3683688a410827cdcc71f862f7506694" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.PointMeasurementObject.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets some dirty flags for the object (to force its visual update) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a union of DirtyFlags flags </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>invalidateCaches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to automatically invalidate model caches (pass false here if you manually update the caches) Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a3683688a410827cdcc71f862f7506694" kindref="member">MR.PointMeasurementObject.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1313" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1313" bodyend="1319"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a5b4d72b9958b0f4419b7ce5cfd3b120d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.PointMeasurementObject.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a5b4d72b9958b0f4419b7ce5cfd3b120d" kindref="member">MR.PointMeasurementObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1326" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1326" bodyend="1331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ad7c756cbe100172f8e04075be4c199ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.PointMeasurementObject.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ad7c756cbe100172f8e04075be4c199ad" kindref="member">MR.PointMeasurementObject.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1337" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1337" bodyend="1342"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a5b81747ced731cafff4037eccb48e3c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.PointMeasurementObject.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a5b81747ced731cafff4037eccb48e3c5" kindref="member">MR.PointMeasurementObject.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1348" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1348" bodyend="1353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a4b17e229ea4497399bc58069ee9f2056" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.PointMeasurementObject.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a4b17e229ea4497399bc58069ee9f2056" kindref="member">MR.PointMeasurementObject.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1359" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1359" bodyend="1364"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ab013dd820787733e7b2ae5d24be95f59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.PointMeasurementObject.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ab013dd820787733e7b2ae5d24be95f59" kindref="member">MR.PointMeasurementObject.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1370" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1370" bodyend="1375"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a877da1f2dbf0d0143352f11c70ce17bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.PointMeasurementObject.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a877da1f2dbf0d0143352f11c70ce17bd" kindref="member">MR.PointMeasurementObject.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1382" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1382" bodyend="1387"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aaf7f3596264f3f459659ed182e2ea7ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.PointMeasurementObject.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aaf7f3596264f3f459659ed182e2ea7ae" kindref="member">MR.PointMeasurementObject.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1393" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1393" bodyend="1398"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ab0467fdc78deda56d06727d9adaac5e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.PointMeasurementObject.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ab0467fdc78deda56d06727d9adaac5e2" kindref="member">MR.PointMeasurementObject.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1404" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1404" bodyend="1409"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ae990f5b7c27423742fa4a816c57c0bd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.PointMeasurementObject.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ae990f5b7c27423742fa4a816c57c0bd1" kindref="member">MR.PointMeasurementObject.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1414" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1414" bodyend="1423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a4c0766b00af5568cc3cdf2d3078a9b90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.PointMeasurementObject.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a4c0766b00af5568cc3cdf2d3078a9b90" kindref="member">MR.PointMeasurementObject.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1429" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1429" bodyend="1437"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aa7a07b88fb01acae8b1d12b63aac369f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.PointMeasurementObject.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>forgets specific transform in given viewport (or forgets all specific transforms for {} input) Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aa7a07b88fb01acae8b1d12b63aac369f" kindref="member">MR.PointMeasurementObject.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1444" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1444" bodyend="1449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a99b1d7b175252a2574e7acdb3862d114" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.PointMeasurementObject.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a99b1d7b175252a2574e7acdb3862d114" kindref="member">MR.PointMeasurementObject.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1455" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1455" bodyend="1460"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1adc50b06334782cba5f837fffaed8b37e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.PointMeasurementObject.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1adc50b06334782cba5f837fffaed8b37e" kindref="member">MR.PointMeasurementObject.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1466" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1466" bodyend="1474"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aab97c952c7fcb2a9d82ef269f7703b98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.PointMeasurementObject.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aab97c952c7fcb2a9d82ef269f7703b98" kindref="member">MR.PointMeasurementObject.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1480" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1480" bodyend="1485"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a1f42cba795f60292fc578d6f23a52326" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.PointMeasurementObject.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a1f42cba795f60292fc578d6f23a52326" kindref="member">MR.PointMeasurementObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1492" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1492" bodyend="1497"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1acca89e7dd58154610a35658644e34eb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.PointMeasurementObject.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1acca89e7dd58154610a35658644e34eb8" kindref="member">MR.PointMeasurementObject.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1502" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1502" bodyend="1507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1adbda6f308a3310319174b3314620583c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.PointMeasurementObject.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1adbda6f308a3310319174b3314620583c" kindref="member">MR.PointMeasurementObject.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1512" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1512" bodyend="1517"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1aa1e773aec36a51592b97f13da62fe267" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PointMeasurementObject.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.PointMeasurementObject.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1aa1e773aec36a51592b97f13da62fe267" kindref="member">MR.PointMeasurementObject.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1524" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1524" bodyend="1529"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a4e03a12a3ead8617f8d8e965260b8d81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PointMeasurementObject.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.PointMeasurementObject.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a4e03a12a3ead8617f8d8e965260b8d81" kindref="member">MR.PointMeasurementObject.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1539" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1539" bodyend="1545"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a022fa6be56bf5478b8cb3617016e509f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PointMeasurementObject.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.PointMeasurementObject.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a022fa6be56bf5478b8cb3617016e509f" kindref="member">MR.PointMeasurementObject.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1553" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1553" bodyend="1558"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a6e2100bee82267f293638a4292356a0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.PointMeasurementObject.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a6e2100bee82267f293638a4292356a0f" kindref="member">MR.PointMeasurementObject.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1564" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1564" bodyend="1569"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ab945d4a829047e50f3ed07c105fc75e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.PointMeasurementObject.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ab945d4a829047e50f3ed07c105fc75e3" kindref="member">MR.PointMeasurementObject.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1575" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1575" bodyend="1580"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a1e8897c00d2bbb9e0eee94af876086b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PointMeasurementObject.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.PointMeasurementObject.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a1e8897c00d2bbb9e0eee94af876086b8" kindref="member">MR.PointMeasurementObject.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1586" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1586" bodyend="1591"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a5b013f401d9afb3e7cf0e8e1885aee7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.PointMeasurementObject.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a5b013f401d9afb3e7cf0e8e1885aee7d" kindref="member">MR.PointMeasurementObject.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1598" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1598" bodyend="1603"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a2c452328a07eb37f40e7a4a436e28e98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.PointMeasurementObject.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a2c452328a07eb37f40e7a4a436e28e98" kindref="member">MR.PointMeasurementObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1610" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1610" bodyend="1615"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a6e85702c5af187905f87ea8087dc3fed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.PointMeasurementObject.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a6e85702c5af187905f87ea8087dc3fed" kindref="member">MR.PointMeasurementObject.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1621" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1621" bodyend="1626"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a03413ef882c3bb33b1e1213e196e2527" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.PointMeasurementObject.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a03413ef882c3bb33b1e1213e196e2527" kindref="member">MR.PointMeasurementObject.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1634" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1634" bodyend="1639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1a98a32353dfc0a24de617a11f613f9698" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PointMeasurementObject.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.PointMeasurementObject.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1a98a32353dfc0a24de617a11f613f9698" kindref="member">MR.PointMeasurementObject.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1647" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1647" bodyend="1656"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ae653d3bcea21ee7d81f4600928ebda37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.PointMeasurementObject.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.PointMeasurementObject.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ae653d3bcea21ee7d81f4600928ebda37" kindref="member">MR.PointMeasurementObject.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1663" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1663" bodyend="1672"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointMeasurementObject_1ab93760b3e4afdd3332c4fb0db3d20e29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PointMeasurementObject.setComparisonReferenceVal</definition>
+        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonReferenceValue value)</argsstring>
+        <name>setComparisonReferenceVal</name>
+        <qualifiedname>MR.PointMeasurementObject.setComparisonReferenceVal</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ObjectComparableWithReference.Const_ComparisonReferenceValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1PointMeasurementObject_1ab93760b3e4afdd3332c4fb0db3d20e29" kindref="member">MR.PointMeasurementObject.setComparisonReferenceVal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1677" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1677" bodyend="1682"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">MR.PointMeasurementObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1MeasurementObject" kindref="compound">MR.MeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">MR.ObjectComparableWithReference</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PointMeasurementObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointMeasurementObject</label>
+        <link refid="classMR_1_1PointMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_PointMeasurementObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PointMeasurementObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointMeasurementObject</label>
+        <link refid="classMR_1_1PointMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_PointMeasurementObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" line="1005" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointMeasurementObject.cs" bodystart="1006" bodyend="1683"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointMeasurementObject_1a4e03a12a3ead8617f8d8e965260b8d81" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a022fa6be56bf5478b8cb3617016e509f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a98a32353dfc0a24de617a11f613f9698" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1aab97c952c7fcb2a9d82ef269f7703b98" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a6d02c48584132c74fd2d1513155cd42c" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1adbc9d894efaae94e910892cafa543338" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1aa1e773aec36a51592b97f13da62fe267" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1adf4a123c7138b9e554141125752b7265" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.MeasurementObject</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a8263670ae548a44b6f46d379344fc706" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a9677dcf503410e396543611a9465bf71" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1aeb911f615306acbecf17f21935b8ef0a" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.ObjectComparableWithReference</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a523e9b93973c8dceaeec1650489c938f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ad311ed1332a7a98f6e154feb227c54d7" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator PointMeasurementObject?</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a9c3d0a46f31c96bcff31b7e42eb099c6" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator PointMeasurementObject?</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a45644e045ac1b52c92a521ddb048740d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator PointMeasurementObject?</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a1cdc81082965bc0ce95c65fe9295d6c8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>operator PointMeasurementObject?</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a31c635ce18d91e8388d60fc843ffe745" prot="package" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a027b219f7b0308cf1d2a2804917b937a" prot="package" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a260786763c65b64a2720f10c29446dfc" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a54fc9b516dbcbbde5f47c545e1521c84" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>PointMeasurementObject</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a6e2100bee82267f293638a4292356a0f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ae653d3bcea21ee7d81f4600928ebda37" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ab0467fdc78deda56d06727d9adaac5e2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1aaf7f3596264f3f459659ed182e2ea7ae" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1aa7a07b88fb01acae8b1d12b63aac369f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a1e8897c00d2bbb9e0eee94af876086b8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>select</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a4be3ac1ef6b47643505c1955b5229bd4" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ab013dd820787733e7b2ae5d24be95f59" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a5b013f401d9afb3e7cf0e8e1885aee7d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a4bb1bd23405400496d3eb5e7661b7c56" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ac29ccc6a359249df47a5bbdcc0bf55a2" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ad7c756cbe100172f8e04075be4c199ad" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ab93760b3e4afdd3332c4fb0db3d20e29" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a7b88401e36192791f28d9f45ec200c08" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1aee0af21054fb00574a0d7bafd476f7b6" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setComparisonTolerance</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a3683688a410827cdcc71f862f7506694" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a5b4de52ce7b1fa584924631fb59c9b8f" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1acb4431f4cda5e04e36b01634ef675492" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a627fd5db7b6f239d29c16fe7b1f01718" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a2765d565756ada6529c658a1f6eb05f0" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ac0eaa081ff4430f6bab750675071d878" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a1f42cba795f60292fc578d6f23a52326" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a2fe5a2560d06a8fbcff2366dd6462c53" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setLocalPoint</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1acca89e7dd58154610a35658644e34eb8" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ae990f5b7c27423742fa4a816c57c0bd1" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1adbda6f308a3310319174b3314620583c" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a5b4d72b9958b0f4419b7ce5cfd3b120d" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a5b81747ced731cafff4037eccb48e3c5" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a4b17e229ea4497399bc58069ee9f2056" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a877da1f2dbf0d0143352f11c70ce17bd" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a6e85702c5af187905f87ea8087dc3fed" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a2c452328a07eb37f40e7a4a436e28e98" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ac253df31468c6e2f3b9f823f4e5c6ccb" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a24ffda1512dd6b1e659107889f6f7a45" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a774ced6d8faa87799baf72de7c77590c" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setWorldPoint</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1adc50b06334782cba5f837fffaed8b37e" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a4c0766b00af5568cc3cdf2d3078a9b90" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a99b1d7b175252a2574e7acdb3862d114" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1ab945d4a829047e50f3ed07c105fc75e3" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a03413ef882c3bb33b1e1213e196e2527" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1PointMeasurementObject_1a4c7eeca60200c44d4987ef1082b39fae" prot="public" virt="non-virtual"><scope>MR::PointMeasurementObject</scope><name>toggleVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

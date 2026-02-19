@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IViewerSettingsManager" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::IViewerSettingsManager</compoundname>
+    <derivedcompoundref refid="classMR_1_1ViewerSettingsManager" prot="public" virt="non-virtual">MR::ViewerSettingsManager</derivedcompoundref>
+    <includes refid="MRViewerSettingsManager_8h" local="no">MRViewerSettingsManager.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga5fa6959a71ea16d2cd2ca4e276a04665" kind="function"><name>~IViewerSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1gab9f733189fccd3f42fdaf8a567be0b21" kind="function"><name>loadInt</name></member>
+      <member refid="group__GeneralGroup_1gaf168e749a6c59588feb5c727fbe61f5e" kind="function"><name>saveInt</name></member>
+      <member refid="group__GeneralGroup_1gac98d55ecfa50e04e63dfedf7493bb801" kind="function"><name>loadString</name></member>
+      <member refid="group__GeneralGroup_1ga9102818977eba48ae6d32a50ec265530" kind="function"><name>saveString</name></member>
+      <member refid="group__GeneralGroup_1ga06f9dd76c37cf576cfd31923c38dfcd0" kind="function"><name>loadBool</name></member>
+      <member refid="group__GeneralGroup_1gaa41a37036651e7f0cb04a0d4b65d106d" kind="function"><name>saveBool</name></member>
+      <member refid="group__GeneralGroup_1gaa9efd64388f302d29af0b3f52e02e1b9" kind="function"><name>resetSettings</name></member>
+      <member refid="group__GeneralGroup_1ga7bd0929348c284a027cc6bed035f2b84" kind="function"><name>loadSettings</name></member>
+      <member refid="group__GeneralGroup_1gae67af1a0e658385f3cdc6e77271e8a4d" kind="function"><name>saveSettings</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class manages local user settings of viewer loading it when the app starts and saving it when it ends </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::IViewerSettingsManager</label>
+        <link refid="classMR_1_1IViewerSettingsManager"/>
+      </node>
+      <node id="2">
+        <label>MR::ViewerSettingsManager</label>
+        <link refid="classMR_1_1ViewerSettingsManager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsManager.h" bodystart="16" bodyend="32"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga06f9dd76c37cf576cfd31923c38dfcd0" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>loadBool</name></member>
+      <member refid="group__GeneralGroup_1gab9f733189fccd3f42fdaf8a567be0b21" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>loadInt</name></member>
+      <member refid="group__GeneralGroup_1ga7bd0929348c284a027cc6bed035f2b84" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>loadSettings</name></member>
+      <member refid="group__GeneralGroup_1gac98d55ecfa50e04e63dfedf7493bb801" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>loadString</name></member>
+      <member refid="group__GeneralGroup_1gaa9efd64388f302d29af0b3f52e02e1b9" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>resetSettings</name></member>
+      <member refid="group__GeneralGroup_1gaa41a37036651e7f0cb04a0d4b65d106d" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>saveBool</name></member>
+      <member refid="group__GeneralGroup_1gaf168e749a6c59588feb5c727fbe61f5e" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>saveInt</name></member>
+      <member refid="group__GeneralGroup_1gae67af1a0e658385f3cdc6e77271e8a4d" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>saveSettings</name></member>
+      <member refid="group__GeneralGroup_1ga9102818977eba48ae6d32a50ec265530" prot="public" virt="pure-virtual"><scope>MR::IViewerSettingsManager</scope><name>saveString</name></member>
+      <member refid="group__GeneralGroup_1ga5fa6959a71ea16d2cd2ca4e276a04665" prot="public" virt="virtual"><scope>MR::IViewerSettingsManager</scope><name>~IViewerSettingsManager</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

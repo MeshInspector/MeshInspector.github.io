@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GridSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GridSettings</compoundname>
+    <innerclass refid="classmrmeshpy_1_1GridSettings_1_1EdgeType" prot="public">mrmeshpy::GridSettings::EdgeType</innerclass>
+    <innerclass refid="classmrmeshpy_1_1GridSettings_1_1TriType" prot="public">mrmeshpy::GridSettings::TriType</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridSettings_1aa1ecf83841a3677a9f95cabeb2e3db88" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridSettings::_offsetof_faceIds</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_faceIds</name>
+        <qualifiedname>mrmeshpy.GridSettings._offsetof_faceIds</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridSettings_1aadc943df22c55a872b7b69cb7cf8a263" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridSettings::_offsetof_uedgeIds</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uedgeIds</name>
+        <qualifiedname>mrmeshpy.GridSettings._offsetof_uedgeIds</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22556" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GridSettings_1ad49b7edf135b931172b2265a8f38bb22" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GridSettings::_offsetof_vertIds</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertIds</name>
+        <qualifiedname>mrmeshpy.GridSettings._offsetof_vertIds</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22557" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1a91a052bf15bdccee63148684dcea9183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GridSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22558" bodyend="22559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1aefcf3ebc448451dc853a2ad4b528c2ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.GridSettings.dim</definition>
+        <argsstring>(self)</argsstring>
+        <name>dim</name>
+        <qualifiedname>mrmeshpy.GridSettings.dim</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of cells in X and Y dimensions;
+the number of vertices will be at most (X+1)*(Y+1)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22561" bodyend="22565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1aa0399097ef103b9d7a1036bc042ab06c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GridSettings.dim</definition>
+        <argsstring>(self, Vector2i arg1)</argsstring>
+        <name>dim</name>
+        <qualifiedname>mrmeshpy.GridSettings.dim</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22567" bodyend="22568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1a4e7a42d0e15074c6abdd7224be168c2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BMap__FaceId__unsigned__long" kindref="compound">BMap_FaceId_unsigned_long</ref></type>
+        <definition> BMap_FaceId_unsigned_long mrmeshpy.GridSettings.faceIds</definition>
+        <argsstring>(self)</argsstring>
+        <name>faceIds</name>
+        <qualifiedname>mrmeshpy.GridSettings.faceIds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>grid coordinates of lower-left vertex and triangle-type to faceId;
+all 3 vertices and all 3 edges of valid face must be valid as well;
+index is 2 * ( x + y * settings.dim.x ) + triType
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22570" bodyend="22575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1af2874d459e5f51aa91203c93401c9812" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BMap__UndirectedEdgeId__unsigned__long" kindref="compound">BMap_UndirectedEdgeId_unsigned_long</ref></type>
+        <definition> BMap_UndirectedEdgeId_unsigned_long mrmeshpy.GridSettings.uedgeIds</definition>
+        <argsstring>(self)</argsstring>
+        <name>uedgeIds</name>
+        <qualifiedname>mrmeshpy.GridSettings.uedgeIds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex;
+both vertices of valid edge must be valid as well;
+index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22577" bodyend="22582"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GridSettings_1a015e8ad14ead0887b765aec85f0bb71d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BMap__VertId__unsigned__long" kindref="compound">BMap_VertId_unsigned_long</ref></type>
+        <definition> BMap_VertId_unsigned_long mrmeshpy.GridSettings.vertIds</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertIds</name>
+        <qualifiedname>mrmeshpy.GridSettings.vertIds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid;
+index is x + y * ( settings.dim.x + 1 )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22584" bodyend="22588"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::GridSettings
+
+settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.GridSettings</label>
+        <link refid="classmrmeshpy_1_1GridSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_faceIds</edgelabel>
+          <edgelabel>_offsetof_uedgeIds</edgelabel>
+          <edgelabel>_offsetof_vertIds</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22468" bodyend="22588"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GridSettings_1a91a052bf15bdccee63148684dcea9183" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1aa1ecf83841a3677a9f95cabeb2e3db88" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridSettings</scope><name>_offsetof_faceIds</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1aadc943df22c55a872b7b69cb7cf8a263" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridSettings</scope><name>_offsetof_uedgeIds</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1ad49b7edf135b931172b2265a8f38bb22" prot="protected" virt="non-virtual"><scope>mrmeshpy::GridSettings</scope><name>_offsetof_vertIds</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1aefcf3ebc448451dc853a2ad4b528c2ae" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings</scope><name>dim</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1aa0399097ef103b9d7a1036bc042ab06c" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings</scope><name>dim</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1a4e7a42d0e15074c6abdd7224be168c2c" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings</scope><name>faceIds</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1af2874d459e5f51aa91203c93401c9812" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings</scope><name>uedgeIds</name></member>
+      <member refid="classmrmeshpy_1_1GridSettings_1a015e8ad14ead0887b765aec85f0bb71d" prot="public" virt="non-virtual"><scope>mrmeshpy::GridSettings</scope><name>vertIds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

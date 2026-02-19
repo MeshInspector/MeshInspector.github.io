@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PlanarTriangulation_1_1OutlineParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PlanarTriangulation::OutlineParameters</compoundname>
+    <includes refid="MR2DContoursTriangulation_8h" local="no">MR2DContoursTriangulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad009c4928ad149dd5ce93232c4d495f2" kind="variable"><name>indicesMap</name></member>
+      <member refid="group__GeneralGroup_1ga528577df88b99d1a7703da3953605d11" kind="variable"><name>baseParams</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::PlanarTriangulation::BaseOutlineParameters</label>
+        <link refid="structMR_1_1PlanarTriangulation_1_1BaseOutlineParameters"/>
+      </node>
+      <node id="1">
+        <label>MR::PlanarTriangulation::OutlineParameters</label>
+        <link refid="structMR_1_1PlanarTriangulation_1_1OutlineParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>baseParams</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="71" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="72" bodyend="75"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga528577df88b99d1a7703da3953605d11" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::OutlineParameters</scope><name>baseParams</name></member>
+      <member refid="group__GeneralGroup_1gad009c4928ad149dd5ce93232c4d495f2" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::OutlineParameters</scope><name>indicesMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMath_1_1CompareAll" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ImGuiMath::CompareAll</compoundname>
+    <basecompoundref refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper" prot="public" virt="non-virtual">MR::ImGuiMath::BasicVectorCompareHelper&lt; CompareAll&lt; A &gt;, A, true &gt;</basecompoundref>
+    <includes refid="MRImGuiVectorOperators_8h" local="no">MRImGuiVectorOperators.h</includes>
+    <templateparamlist>
+      <param>
+        <type>detail::VectorOrScalar</type>
+        <declname>A</declname>
+        <defname>A</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ImGuiMath::BasicVectorCompareHelper&lt; CompareAll&lt; A &gt;, A, true &gt;</label>
+        <link refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper"/>
+      </node>
+      <node id="1">
+        <label>MR::ImGuiMath::CompareAll&lt; A &gt;</label>
+        <link refid="structMR_1_1ImGuiMath_1_1CompareAll"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>A</label>
+      </node>
+      <node id="2">
+        <label>MR::ImGuiMath::BasicVectorCompareHelper&lt; CompareAll&lt; A &gt;, A, true &gt;</label>
+        <link refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>value</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ImGuiMath::CompareAll&lt; A &gt;</label>
+        <link refid="structMR_1_1ImGuiMath_1_1CompareAll"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="180" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="181" bodyend="183"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1abdaba674868a5f1afc3921361820ff63" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAll</scope><name>BasicVectorCompareHelper</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1a45f2a7a4631ecb502475eeddcf0947e8" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAll</scope><name>compare</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1a49e819d8fd52f135a5f61dcf9bdd1159" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAll</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1aec7d8146daad69362b5227401e520802" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAll</scope><name>operator&lt;</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1afea42796d1fcb6ca7fe5c89f11710287" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAll</scope><name>operator&lt;=</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1ad90dcc9ff00b5b5d146e090b2052a11a" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAll</scope><name>operator==</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1a7fe49ac9fca25ec3a2b2ea42bd5084c1" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAll</scope><name>operator&gt;</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1a1c450d64b652cb7ba2f84995e30c41d9" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAll</scope><name>operator&gt;=</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper_1aa8ef4870c84aaafe8b7bfa68fcc35c36" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::CompareAll</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

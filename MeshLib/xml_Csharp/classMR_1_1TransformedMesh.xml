@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TransformedMesh" kind="class" language="C#" prot="public">
+    <compoundname>MR::TransformedMesh</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_TransformedMesh</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TransformedMesh_1a9fdf901154aaf2d47280c5be85bb50b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>new unsafe MR.Mesh MR.TransformedMesh.mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR.TransformedMesh.mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="121" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TransformedMesh_1accfef6de6e36d8b828da266f40d6bd87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>new unsafe ref MR.AffineXf3f MR.TransformedMesh.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.TransformedMesh.xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="123" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1aa0d1d15288c3328f306ecb113e78e5ef" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TransformedMesh.TransformedMesh</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TransformedMesh</name>
+        <qualifiedname>MR.TransformedMesh.TransformedMesh</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="142" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="142" bodyend="146"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1acc9155f19c5235e343b0b1ad850a2b4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TransformedMesh.TransformedMesh</definition>
+        <argsstring>()</argsstring>
+        <name>TransformedMesh</name>
+        <qualifiedname>MR.TransformedMesh.TransformedMesh</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1ab7f3f418cd24b602a582156ccfc5b043" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TransformedMesh.TransformedMesh</definition>
+        <argsstring>(MR._ByValue_TransformedMesh _other)</argsstring>
+        <name>TransformedMesh</name>
+        <qualifiedname>MR.TransformedMesh.TransformedMesh</qualifiedname>
+        <param>
+          <type>MR._ByValue_TransformedMesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="163" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="163" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1ad2aad8e15338c3aae1988b6d15240587" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TransformedMesh.TransformedMesh</definition>
+        <argsstring>(Const_TransformedMesh _other)</argsstring>
+        <name>TransformedMesh</name>
+        <qualifiedname>MR.TransformedMesh.TransformedMesh</qualifiedname>
+        <param>
+          <type>Const_TransformedMesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="175" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="175" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1a0287be6e933fd3119bb0bfc8378aa92a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TransformedMesh.TransformedMesh</definition>
+        <argsstring>(TransformedMesh _other)</argsstring>
+        <name>TransformedMesh</name>
+        <qualifiedname>MR.TransformedMesh.TransformedMesh</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="180" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1a7d52a7e1da989b5f210be9c9a0e9e8e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TransformedMesh.TransformedMesh</definition>
+        <argsstring>(MR._ByValue_Mesh mesh, MR.AffineXf3f? xf=null)</argsstring>
+        <name>TransformedMesh</name>
+        <qualifiedname>MR.TransformedMesh.TransformedMesh</qualifiedname>
+        <param>
+          <type>MR._ByValue_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. Parameter <computeroutput>xf</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="186" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="186" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1a5d04c7150fea0ea77af2250b5d28dd85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TransformedMesh" kindref="compound">MR.TransformedMesh</ref></type>
+        <definition>unsafe MR.TransformedMesh MR.TransformedMesh.assign</definition>
+        <argsstring>(MR._ByValue_TransformedMesh _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TransformedMesh.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_TransformedMesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TransformedMesh.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="205" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="205" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1ab8aec3abfb0fb7eaaa3b1bb632b042e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TransformedMesh" kindref="compound">MR.TransformedMesh</ref></type>
+        <definition>unsafe MR.TransformedMesh MR.TransformedMesh.addAssign</definition>
+        <argsstring>(MR.Const_TransformedMesh b)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.TransformedMesh.addAssign</qualifiedname>
+        <param>
+          <type>MR.Const_TransformedMesh</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>union operation on two meshes Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="218" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="218" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1a87a17c179f0b78cc82fcb3d17462a1bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TransformedMesh" kindref="compound">MR.TransformedMesh</ref></type>
+        <definition>unsafe MR.TransformedMesh MR.TransformedMesh.subAssign</definition>
+        <argsstring>(MR.Const_TransformedMesh b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.TransformedMesh.subAssign</qualifiedname>
+        <param>
+          <type>MR.Const_TransformedMesh</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>difference operation on two meshes Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="229" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="229" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1a762b3973ced15acffea985e78356cf41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TransformedMesh" kindref="compound">MR.TransformedMesh</ref></type>
+        <definition>unsafe MR.TransformedMesh MR.TransformedMesh.mulAssign</definition>
+        <argsstring>(MR.Const_TransformedMesh b)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.TransformedMesh.mulAssign</qualifiedname>
+        <param>
+          <type>MR.Const_TransformedMesh</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>intersection operation on two meshes Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="240" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="240" bodyend="245"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1TransformedMesh_1a7706bac607d2a523df534e66b7fa4189" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.TransformedMesh.operator TransformedMesh</definition>
+        <argsstring>(MR._ByValue_Mesh mesh)</argsstring>
+        <name>operator TransformedMesh</name>
+        <qualifiedname>MR.TransformedMesh.operator TransformedMesh</qualifiedname>
+        <param>
+          <type>MR._ByValue_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TransformedMesh.TransformedMesh</computeroutput>. Parameter <computeroutput>xf</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="200" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="200" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>just stores a mesh and its transformation to some fixed reference frame Generated from class <computeroutput><ref refid="classMR_1_1TransformedMesh" kindref="compound">MR.TransformedMesh</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_TransformedMesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TransformedMesh</label>
+        <link refid="classMR_1_1TransformedMesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TransformedMesh &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_TransformedMesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TransformedMesh</label>
+        <link refid="classMR_1_1TransformedMesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TransformedMesh &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" line="119" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBooleanFacade.cs" bodystart="120" bodyend="246"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TransformedMesh_1ab8aec3abfb0fb7eaaa3b1bb632b042e2" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1TransformedMesh_1a5d04c7150fea0ea77af2250b5d28dd85" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>assign</name></member>
+      <member refid="classMR_1_1TransformedMesh_1a9fdf901154aaf2d47280c5be85bb50b1" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>mesh</name></member>
+      <member refid="classMR_1_1TransformedMesh_1a762b3973ced15acffea985e78356cf41" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1TransformedMesh_1a7706bac607d2a523df534e66b7fa4189" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>operator TransformedMesh</name></member>
+      <member refid="classMR_1_1TransformedMesh_1a87a17c179f0b78cc82fcb3d17462a1bd" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1TransformedMesh_1aa0d1d15288c3328f306ecb113e78e5ef" prot="package" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>TransformedMesh</name></member>
+      <member refid="classMR_1_1TransformedMesh_1acc9155f19c5235e343b0b1ad850a2b4e" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>TransformedMesh</name></member>
+      <member refid="classMR_1_1TransformedMesh_1ab7f3f418cd24b602a582156ccfc5b043" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>TransformedMesh</name></member>
+      <member refid="classMR_1_1TransformedMesh_1ad2aad8e15338c3aae1988b6d15240587" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>TransformedMesh</name></member>
+      <member refid="classMR_1_1TransformedMesh_1a0287be6e933fd3119bb0bfc8378aa92a" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>TransformedMesh</name></member>
+      <member refid="classMR_1_1TransformedMesh_1a7d52a7e1da989b5f210be9c9a0e9e8e1" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>TransformedMesh</name></member>
+      <member refid="classMR_1_1TransformedMesh_1accfef6de6e36d8b828da266f40d6bd87" prot="public" virt="non-virtual"><scope>MR::TransformedMesh</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

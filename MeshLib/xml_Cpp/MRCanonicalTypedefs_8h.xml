@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRCanonicalTypedefs_8h" kind="file" language="C++">
+    <compoundname>MRCanonicalTypedefs.h</compoundname>
+    <includes refid="MRMacros_8h" local="yes">MRMesh/MRMacros.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRCanonicalTypedefs.h</label>
+        <link refid="MRCanonicalTypedefs_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMesh/MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MRCanonicalTypedefs_8h_1a011d44bc0918ffa467a5150bc8a81e03" prot="public" static="no">
+        <name>MR_CANONICAL_TYPEDEFS</name>
+        <param><defname>type_</defname></param>
+        <param><defname>name_</defname></param>
+        <param><defname>aliases_</defname></param>
+        <initializer>    <ref refid="MRMacros_8h_1a30c21a4f7f46e470b0c9ba48648699b1" kindref="member">MR_IDENTITY</ref> type_ name_; \
+    <ref refid="MRMacros_8h_1a0fd290c4738dc2f265b144020d97b290" kindref="member">MR_END</ref>(<ref refid="MRCanonicalTypedefs_8h_1a3ef3f2296c0ae0d60a92c9adbf443c9b" kindref="member">DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_A</ref> aliases_) \
+    <ref refid="MRCanonicalTypedefs_8h_1ae898c417c701835f79a846a1af84f2c7" kindref="member">DETAIL_MR_CANONICAL_TYPEDEFS</ref>(type_, name_, aliases_)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This helper macro is used to declare canonical typedefs. For example, if you have this: template &lt;typename T&gt; struct MRMESH_CLASS Vector3; /// <computeroutput>MRMESH_CLASS</computeroutput> isn&apos;t necessary, just to demonstrate that it&apos;s supported. using Vector3f = Vector3&lt;float&gt;; using Vector3i = Vector3&lt;int&gt;; You should rewrite it as following: MR_CANONICAL_TYPEDEFS( (template &lt;typename T&gt; struct MRMESH_CLASS), Vector3, ( Vector3f, Vector3&lt;float&gt; ) ( Vector3i, Vector3&lt;int&gt; ) )</para>
+<para>WHAT THIS ACHIEVES? This macro only has effect on Clang. It primarily affects the error messages, using those typedefs instead of the full type when possible. It also helps when parsing our code with libclang to automatically generate Python bindings.</para>
+<para>NOTE:<itemizedlist>
+<listitem><para>Only non-template <computeroutput>using</computeroutput>s can be declared like this. If you want to add additional templated ones, add them below the macro manually. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" line="23" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="define" id="MRCanonicalTypedefs_8h_1abbdf37435c9fc8f0138b1bd0133c1d17" prot="public" static="no">
+        <name>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_BODY</name>
+        <param><defname>name_</defname></param>
+        <param><defname>...</defname></param>
+        <initializer>using name_ = __VA_ARGS__;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" line="28" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRCanonicalTypedefs_8h_1a3ef3f2296c0ae0d60a92c9adbf443c9b" prot="public" static="no">
+        <name>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_A</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="MRCanonicalTypedefs_8h_1abbdf37435c9fc8f0138b1bd0133c1d17" kindref="member">DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_BODY</ref> <ref refid="MRMacros_8h_1a30c21a4f7f46e470b0c9ba48648699b1" kindref="member">MR_IDENTITY</ref>()(__VA_ARGS__) <ref refid="MRCanonicalTypedefs_8h_1ae44070646e8a5e9428e0719d800a30df" kindref="member">DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_B</ref></initializer>
+        <briefdescription>
+<para><computeroutput>MR_IDENTITY</computeroutput> here keeps the legacy MSVC preprocessor happy. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" line="30" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRCanonicalTypedefs_8h_1ae44070646e8a5e9428e0719d800a30df" prot="public" static="no">
+        <name>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_B</name>
+        <param><defname>...</defname></param>
+        <initializer><ref refid="MRCanonicalTypedefs_8h_1abbdf37435c9fc8f0138b1bd0133c1d17" kindref="member">DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_BODY</ref> <ref refid="MRMacros_8h_1a30c21a4f7f46e470b0c9ba48648699b1" kindref="member">MR_IDENTITY</ref>()(__VA_ARGS__) <ref refid="MRCanonicalTypedefs_8h_1a3ef3f2296c0ae0d60a92c9adbf443c9b" kindref="member">DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_A</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" line="31" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRCanonicalTypedefs_8h_1a2903a0e2c131ffaa26858a7eb32ab7a8" prot="public" static="no">
+        <name>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_A_END</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" line="32" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRCanonicalTypedefs_8h_1addc4eaad729e291000785733b3c6fca4" prot="public" static="no">
+        <name>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_B_END</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" line="33" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRCanonicalTypedefs_8h_1ae898c417c701835f79a846a1af84f2c7" prot="public" static="no">
+        <name>DETAIL_MR_CANONICAL_TYPEDEFS</name>
+        <param><defname>type_</defname></param>
+        <param><defname>name_</defname></param>
+        <param><defname>aliases_</defname></param>
+        <briefdescription>
+<para>no __has_attribute </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" line="74" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMacros_8h" kindref="compound">MRMesh/MRMacros.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRCanonicalTypedefs_8h_1a011d44bc0918ffa467a5150bc8a81e03" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MR_CANONICAL_TYPEDEFS(type_,<sp/>name_,<sp/>aliases_)<sp/>\</highlight></codeline>
+<codeline lineno="24"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>MR_IDENTITY<sp/>type_<sp/>name_;<sp/>\</highlight></codeline>
+<codeline lineno="25"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>MR_END(DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_A<sp/>aliases_)<sp/>\</highlight></codeline>
+<codeline lineno="26"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>DETAIL_MR_CANONICAL_TYPEDEFS(type_,<sp/>name_,<sp/>aliases_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRCanonicalTypedefs_8h_1abbdf37435c9fc8f0138b1bd0133c1d17" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_BODY(name_,<sp/>...)<sp/>using<sp/>name_<sp/>=<sp/>__VA_ARGS__;</highlight></codeline>
+<codeline lineno="30" refid="MRCanonicalTypedefs_8h_1a3ef3f2296c0ae0d60a92c9adbf443c9b" refkind="member"><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_A(...)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_BODY<sp/>MR_IDENTITY()(__VA_ARGS__)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_B</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRCanonicalTypedefs_8h_1ae44070646e8a5e9428e0719d800a30df" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_B(...)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_BODY<sp/>MR_IDENTITY()(__VA_ARGS__)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_A</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRCanonicalTypedefs_8h_1a2903a0e2c131ffaa26858a7eb32ab7a8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_A_END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRCanonicalTypedefs_8h_1addc4eaad729e291000785733b3c6fca4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_USING_B_END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__has_attribute)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>__has_attribute(__preferred_name__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS(type_,<sp/>name_,<sp/>aliases_)<sp/>\</highlight></codeline>
+<codeline lineno="38"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>MR_IDENTITY<sp/>type_<sp/>\</highlight></codeline>
+<codeline lineno="39"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MR_END(DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_A<sp/>aliases_)<sp/>\</highlight></codeline>
+<codeline lineno="40"><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>name_;<sp/>\</highlight></codeline>
+<codeline lineno="41"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>DETAIL_MR_CANONICAL_TYPEDEFS_CLANG_WORKAROUND(aliases_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_BODY(name_,<sp/>...)<sp/>__attribute__((__preferred_name__(name_)))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_A(...)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_BODY(__VA_ARGS__)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_B</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_B(...)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_BODY(__VA_ARGS__)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_A</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_A_END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_ATTR_B_END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__clang__<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_CLANG_WORKAROUND(aliases_)<sp/>\</highlight></codeline>
+<codeline lineno="52"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>MR_END(DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_A<sp/>aliases_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">MR::detail::CanonicalTypedefs</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">&gt;<sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">RegisterType<sp/>{};</highlight></codeline>
+<codeline lineno="57"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_BODY(name_,<sp/>...)<sp/>static_assert((void(::MR::detail::CanonicalTypedefs::RegisterType&lt;__VA_ARGS__&gt;{}),<sp/>true));</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_A(...)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_BODY(__VA_ARGS__)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_B</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_B(...)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_BODY(__VA_ARGS__)<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_A</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_A_END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_LOOP_TOUCH_B_END</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS_CLANG_WORKAROUND(aliases_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS(type_,<sp/>name_,<sp/>aliases_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRCanonicalTypedefs_8h_1ae898c417c701835f79a846a1af84f2c7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_CANONICAL_TYPEDEFS(type_,<sp/>name_,<sp/>aliases_)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCanonicalTypedefs.h"/>
+  </compounddef>
+</doxygen>

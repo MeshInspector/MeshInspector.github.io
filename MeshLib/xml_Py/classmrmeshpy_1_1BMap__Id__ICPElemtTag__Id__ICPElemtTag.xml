@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BMap_Id_ICPElemtTag_Id_ICPElemtTag</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1ad12dbb9672c440e6128ff0910983acbf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag._offsetof_b</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1969" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1a7bcc95bcafffe6c292cd99b08ce387df" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag::_offsetof_tsize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tsize</name>
+        <qualifiedname>mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag._offsetof_tsize</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1970" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1a0d2f20348b136a871f84544fd187a8e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1971" bodyend="1972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1ade59515fd3df2dc05f82041db3fba563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Buffer__Id__ICPElemtTag__Id__ICPElemtTag" kindref="compound">Buffer_Id_ICPElemtTag_Id_ICPElemtTag</ref></type>
+        <definition> Buffer_Id_ICPElemtTag_Id_ICPElemtTag mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1974" bodyend="1975"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1aa3c17f7842f8e8dd85e6e8f9e1b002a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag.tsize</definition>
+        <argsstring>(self)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target size, all values inside b must be less than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1977" bodyend="1980"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1a1b520a66d9a1c706d192b26ca0309ad6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag.tsize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1982" bodyend="1983"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BMap&lt;MR::Id&lt;MR::ICPElemtTag&gt;, MR::Id&lt;MR::ICPElemtTag&gt;&gt;
+Aliases:  BMap_TypedBitSet_Id_ICPElemtTag_IndexType_TypedBitSet_Id_ICPElemtTag_IndexType
+
+flat map: I -&gt; T
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BMap_Id_ICPElemtTag_Id_ICPElemtTag</label>
+        <link refid="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_tsize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1962" bodyend="1983"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1a0d2f20348b136a871f84544fd187a8e6" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1ad12dbb9672c440e6128ff0910983acbf" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1a7bcc95bcafffe6c292cd99b08ce387df" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>_offsetof_tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1ade59515fd3df2dc05f82041db3fba563" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1aa3c17f7842f8e8dd85e6e8f9e1b002a3" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__Id__ICPElemtTag__Id__ICPElemtTag_1a1b520a66d9a1c706d192b26ca0309ad6" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_Id_ICPElemtTag_Id_ICPElemtTag</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

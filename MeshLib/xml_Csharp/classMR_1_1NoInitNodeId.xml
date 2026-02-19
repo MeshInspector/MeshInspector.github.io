@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NoInitNodeId" kind="class" language="C#" prot="public">
+    <compoundname>MR::NoInitNodeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoInitNodeId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1NoInitNodeId_1a6b2a2126bdd377d5fb7028b5fa553dca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.NoInitNodeId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.NoInitNodeId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7074" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7074" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1a70ca4d269c9f26fa6293e80ea1cd13e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.NoInitNodeId.operator MR.Box_NodeId</definition>
+        <argsstring>(NoInitNodeId self)</argsstring>
+        <name>operator MR.Box_NodeId</name>
+        <qualifiedname>MR.NoInitNodeId.operator MR.Box_NodeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoInitNodeId" kindref="compound">NoInitNodeId</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7065" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7065" bodyend="7072"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1a8218d49eaecd147ee9e1978797043104" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.NoInitNodeId.operator NoInitNodeId</definition>
+        <argsstring>(MR.NodeId id)</argsstring>
+        <name>operator NoInitNodeId</name>
+        <qualifiedname>MR.NoInitNodeId.operator NoInitNodeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoInitNodeId.NoInitNodeId</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7127" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7127" bodyend="7127"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1af402f2c7cc126bc6ed73551fd1443b51" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoInitNodeId.NoInitNodeId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NoInitNodeId</name>
+        <qualifiedname>MR.NoInitNodeId.NoInitNodeId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7078" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7078" bodyend="7082"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1a89a93309bf5c9523e01825f29c49c742" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoInitNodeId.NoInitNodeId</definition>
+        <argsstring>()</argsstring>
+        <name>NoInitNodeId</name>
+        <qualifiedname>MR.NoInitNodeId.NoInitNodeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7088" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7088" bodyend="7094"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1a0f8a328e7d460698b46ebeba500e063a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoInitNodeId.NoInitNodeId</definition>
+        <argsstring>(MR.Const_NoInitNodeId _other)</argsstring>
+        <name>NoInitNodeId</name>
+        <qualifiedname>MR.NoInitNodeId.NoInitNodeId</qualifiedname>
+        <param>
+          <type>MR.Const_NoInitNodeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoInitNodeId.NoInitNodeId</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7099" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7099" bodyend="7106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1a685d659db2af1763e7549a490346310b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NoInitNodeId.NoInitNodeId</definition>
+        <argsstring>(NoInitNodeId _other)</argsstring>
+        <name>NoInitNodeId</name>
+        <qualifiedname>MR.NoInitNodeId.NoInitNodeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoInitNodeId" kindref="compound">NoInitNodeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoInitNodeId.NoInitNodeId</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7111" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7111" bodyend="7111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1a5f8b04da588a62cf04d0c54cb58d9ded" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoInitNodeId.NoInitNodeId</definition>
+        <argsstring>(MR.NodeId id)</argsstring>
+        <name>NoInitNodeId</name>
+        <qualifiedname>MR.NoInitNodeId.NoInitNodeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoInitNodeId.NoInitNodeId</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7116" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7116" bodyend="7122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1a9a75150ce104e1a6230944848d2cb1ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NoInitNodeId" kindref="compound">MR.NoInitNodeId</ref></type>
+        <definition>unsafe MR.NoInitNodeId MR.NoInitNodeId.assign</definition>
+        <argsstring>(MR.Const_NoInitNodeId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.NoInitNodeId.assign</qualifiedname>
+        <param>
+          <type>MR.Const_NoInitNodeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoInitNodeId.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7132" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7132" bodyend="7139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1a9316900504bcf54e5dc018e554654113" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.NoInitNodeId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.NoInitNodeId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1NoInitNodeId_1a9316900504bcf54e5dc018e554654113" kindref="member">MR.NoInitNodeId.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7144" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7144" bodyend="7149"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1a1d58da20fbcdf64dbb0ff16d6d419586" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe ref MR.NodeId MR.NoInitNodeId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.NoInitNodeId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoInitNodeId.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7154" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7154" bodyend="7159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoInitNodeId_1ace2e08ee5083db05085fb688eaba7ed5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></type>
+        <definition>unsafe ref MR.NodeId MR.NoInitNodeId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.NoInitNodeId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoInitNodeId.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7164" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7164" bodyend="7169"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1NoInitNodeId" kindref="compound">MR.NoInitNodeId</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1NodeId" kindref="compound">MR.NodeId</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NoInitNodeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoInitNodeId</label>
+        <link refid="classMR_1_1NoInitNodeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoInitNodeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.NodeId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NoInitNodeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoInitNodeId</label>
+        <link refid="classMR_1_1NoInitNodeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoInitNodeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.NodeId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7062" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7063" bodyend="7170"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NoInitNodeId_1ace2e08ee5083db05085fb688eaba7ed5" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a9a75150ce104e1a6230944848d2cb1ba" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a9316900504bcf54e5dc018e554654113" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>get</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a6b2a2126bdd377d5fb7028b5fa553dca" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>id</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1af402f2c7cc126bc6ed73551fd1443b51" prot="package" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>NoInitNodeId</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a89a93309bf5c9523e01825f29c49c742" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>NoInitNodeId</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a0f8a328e7d460698b46ebeba500e063a" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>NoInitNodeId</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a685d659db2af1763e7549a490346310b" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>NoInitNodeId</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a5f8b04da588a62cf04d0c54cb58d9ded" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>NoInitNodeId</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a70ca4d269c9f26fa6293e80ea1cd13e4" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>operator MR.Box_NodeId</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a8218d49eaecd147ee9e1978797043104" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>operator NoInitNodeId</name></member>
+      <member refid="classMR_1_1NoInitNodeId_1a1d58da20fbcdf64dbb0ff16d6d419586" prot="public" virt="non-virtual"><scope>MR::NoInitNodeId</scope><name>subAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

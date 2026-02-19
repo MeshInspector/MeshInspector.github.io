@@ -1,0 +1,1382 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ToolPathParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ToolPathParams</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1ConstantCuspParams" prot="public" virt="non-virtual">mrmeshpy.ConstantCuspParams</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a6d33bfad73245afcecfbe2a64107fb4f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_baseFeed</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_baseFeed</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_baseFeed</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56840" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1ad15925df04fe6a2ab61093c2bef76d76" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_bypassDir</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_bypassDir</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_bypassDir</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a5a0c9b8062829e8b06b6b95932501e29" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_cb</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56842" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a1c7dc3e6c5d55573a176beccbfc9aa2b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_critTransitionLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_critTransitionLength</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_critTransitionLength</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56843" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a4f6de250bdba076b51cfa81684079fe0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_flatTool</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_flatTool</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_flatTool</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56844" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a4b7a17166bd431ebe19024a437a69d25" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_isolines</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isolines</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_isolines</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56845" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1ae956c3ee3020a05b33929ed240db116f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_millRadius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_millRadius</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_millRadius</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56846" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a3809e1b6ef1c07418758143693aa647e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_offsetMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offsetMesh</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_offsetMesh</qualifiedname>
+        <initializer>=  128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56847" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a5b8ba317a68b9fbf230a5b0a876d4b26" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_plungeFeed</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_plungeFeed</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_plungeFeed</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56848" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a150b7056dfb6f52adeea0deef37f475e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_plungeLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_plungeLength</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_plungeLength</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a4568d622c70cc52b67616445ced66c1b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_retractFeed</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_retractFeed</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_retractFeed</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1acd9a9e83dcdd1617ceb2088e4c06da2d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_retractLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_retractLength</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_retractLength</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56851" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a211776686bf76613fd8aeeb9181f76b7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_safeZ</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_safeZ</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_safeZ</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56852" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1aeee56fca8c46098526f97d34179f2107" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_sectionStep</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_sectionStep</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_sectionStep</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56853" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a41a188efafa0f07d8750f326f10e3816" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_startContours</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_startContours</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_startContours</qualifiedname>
+        <initializer>=  112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56854" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a94178e9e727683268425010d074ac837" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_startVertices</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_startVertices</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_startVertices</qualifiedname>
+        <initializer>=  120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1aba67f34a2429ca80f2204c3b86a5e08c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_toolpathExpansion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_toolpathExpansion</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_toolpathExpansion</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a8ad77d3e6924ee3dc7b06f7a73c0a3a8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_voxelSize</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathParams_1a473703d2d00702cdb95b7279d0fccd06" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathParams::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.ToolPathParams._offsetof_xf</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56858" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ac0c30feb67c3410c09dc2928492b1923" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56862" bodyend="56863"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a8e5f03cbf2a187b5a2272e4184af0e34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ToolPathParams" kindref="compound">ToolPathParams</ref></type>
+        <definition> ToolPathParams mrmeshpy.ToolPathParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56866" bodyend="56867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a8e5f03cbf2a187b5a2272e4184af0e34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ToolPathParams" kindref="compound">ToolPathParams</ref></type>
+        <definition> ToolPathParams mrmeshpy.ToolPathParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ae552148267b608cd0c1148e0c44eb0b2">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56870" bodyend="56871"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a2022977d2f7251245444a6c8cfa3f0e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56873" bodyend="56874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ae2d75290502b29ed062aa4c38e5f6b09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.__init__</definition>
+        <argsstring>(self, ToolPathParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ToolPathParams" kindref="compound">ToolPathParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56876" bodyend="56879"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a52a3be29a1315f9925cc41bb58e1625a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.__init__</definition>
+        <argsstring>(self, float millRadius, float voxelSize, float sectionStep, float critTransitionLength, float plungeLength, float retractLength, float plungeFeed, float retractFeed, float baseFeed, float safeZ, BypassDirection bypassDir, AffineXf3f xf, bool flatTool, func_bool_from_float cb, float toolpathExpansion, std_vector_std_vector_Vector3_float isolines, std_vector_std_vector_Vector3_float startContours, std_vector_Vector3_float startVertices, MeshPart offsetMesh)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1a070d85b1ea0e9abb546f78b4a1ecb8c7">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1ad9ec31ce3f7e8f21a871be44a61010f3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConstantCuspParams_1af369e04250172ff9de58dc69d37e7e45">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>millRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sectionStep</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>critTransitionLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>plungeLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>retractLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>plungeFeed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>retractFeed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>baseFeed</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>safeZ</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BypassDirection" kindref="compound">BypassDirection</ref></type>
+          <declname>bypassDir</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>flatTool</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>toolpathExpansion</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector3__float" kindref="compound">std_vector_std_vector_Vector3_float</ref></type>
+          <declname>isolines</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector3__float" kindref="compound">std_vector_std_vector_Vector3_float</ref></type>
+          <declname>startContours</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>startVertices</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>offsetMesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56881" bodyend="56884"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a0a0d9b8803be28f8e10e0e5df907f4dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.baseFeed</definition>
+        <argsstring>(self)</argsstring>
+        <name>baseFeed</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.baseFeed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>speed of regular milling
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56886" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56886" bodyend="56889"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ac7970c73beed870e4ef92f840da4c8b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.baseFeed</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>baseFeed</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.baseFeed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56891" bodyend="56892"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1afd76884deec847f439722a85c8d8e9bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BypassDirection" kindref="compound">BypassDirection</ref></type>
+        <definition> BypassDirection mrmeshpy.ToolPathParams.bypassDir</definition>
+        <argsstring>(self)</argsstring>
+        <name>bypassDir</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.bypassDir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>which direction isolines or sections should be passed in
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56894" bodyend="56897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1aa34ffbc621d8d437eabb5b720f895257" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.bypassDir</definition>
+        <argsstring>(self, BypassDirection arg1)</argsstring>
+        <name>bypassDir</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.bypassDir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BypassDirection" kindref="compound">BypassDirection</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56899" bodyend="56900"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a0c60f0f553b082ff001faa5c61d968a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.ToolPathParams.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback for reporting on progress
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56902" bodyend="56905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a639d778f93203ecc40b72e82d050322c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56907" bodyend="56908"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a6c19b01d95162cc013153c23f5df8669" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.critTransitionLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>critTransitionLength</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.critTransitionLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if distance to the next section is smaller than it, transition will be performed along the surface
+otherwise transition will be through the safe plane
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56910" bodyend="56914"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a75f24bff8e296883824cd21779185479" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.critTransitionLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>critTransitionLength</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.critTransitionLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56916" bodyend="56917"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1aa8889ca678dfb0e3f36323af18dbb173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ToolPathParams.flatTool</definition>
+        <argsstring>(self)</argsstring>
+        <name>flatTool</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.flatTool</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true then a tool path for a flat milling tool will be generated
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56919" bodyend="56922"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1af2d913be4a38b445dd6d4462eb9da8c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.flatTool</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>flatTool</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.flatTool</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56924" bodyend="56925"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1aac48a7a2bbee0dad75c037a52a66a772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector3__float" kindref="compound">std_vector_std_vector_Vector3_float</ref></type>
+        <definition> std_vector_std_vector_Vector3_float mrmeshpy.ToolPathParams.isolines</definition>
+        <argsstring>(self)</argsstring>
+        <name>isolines</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.isolines</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output, stores isolines without transits
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56927" bodyend="56930"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a40e41f971441a27dd14027241b408168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.isolines</definition>
+        <argsstring>(self, std_vector_std_vector_Vector3_float arg1)</argsstring>
+        <name>isolines</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.isolines</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector3__float" kindref="compound">std_vector_std_vector_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56932" bodyend="56933"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ac4a0e8d52eee9597ef3cd88cc7e336bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.millRadius</definition>
+        <argsstring>(self)</argsstring>
+        <name>millRadius</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.millRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>radius of the milling tool
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56935" bodyend="56938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a5e00ff059cc36d2c8355bffcf9f79455" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.millRadius</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>millRadius</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.millRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56940" bodyend="56941"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1af72efd3e8094008630f50c23bde11f29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.plungeFeed</definition>
+        <argsstring>(self)</argsstring>
+        <name>plungeFeed</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.plungeFeed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>speed of slow movement down
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56943" bodyend="56946"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a41496f7ea5f3d56f44fe92bde905cd8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.plungeFeed</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>plungeFeed</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.plungeFeed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56948" bodyend="56949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a15cd75aae45f0abc4640badedea12287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.plungeLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>plungeLength</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.plungeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>when the mill is moving down, it will be slowed down in this distance from mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56951" bodyend="56954"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ad0c3a31e05fd880ac03c39a5021b1f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.plungeLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>plungeLength</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.plungeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56956" bodyend="56957"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a23eb3654f1ef3dae201ab54dc7d795d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.retractFeed</definition>
+        <argsstring>(self)</argsstring>
+        <name>retractFeed</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.retractFeed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>speed of slow movement up
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56959" bodyend="56962"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1af0b068f71897c7216c048934409d19c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.retractFeed</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>retractFeed</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.retractFeed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56964" bodyend="56965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1adc310ac6fc96b2d895f2a6095c99459d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.retractLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>retractLength</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.retractLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>when the mill is moving up, it will be slowed down in this distance from mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56967" bodyend="56970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a58bd87a5aa3fd2a01b63fe8d620adb6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.retractLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>retractLength</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.retractLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56972" bodyend="56973"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a12b9bdd8aad75a66bd5cdd7e134f4320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.safeZ</definition>
+        <argsstring>(self)</argsstring>
+        <name>safeZ</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.safeZ</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>z-coordinate of plane where tool can move in any direction without touching the object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56975" bodyend="56978"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ad0f9f0a8079dc8e262fcfd36980d8aea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.safeZ</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>safeZ</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.safeZ</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56980" bodyend="56981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ae99d21f40f8aaca0c42841492ff78ab7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.sectionStep</definition>
+        <argsstring>(self)</argsstring>
+        <name>sectionStep</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.sectionStep</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>distance between sections built along Z axis
+in Constant Cusp mode sectionStep should be bigger than voxelSize (x1.2 or more is recomended)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56983" bodyend="56987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a7d6245876b384bed6390f7cf824264a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.sectionStep</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>sectionStep</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.sectionStep</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56989" bodyend="56990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a0a94b55274998209dcd6a948d8203975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector3__float" kindref="compound">std_vector_std_vector_Vector3_float</ref></type>
+        <definition> std_vector_std_vector_Vector3_float mrmeshpy.ToolPathParams.startContours</definition>
+        <argsstring>(self)</argsstring>
+        <name>startContours</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.startContours</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output, polyline containing start vertices for isolines
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56992" bodyend="56995"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ab7a8c5a2e6d56eb04ed46ecb62a19827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.startContours</definition>
+        <argsstring>(self, std_vector_std_vector_Vector3_float arg1)</argsstring>
+        <name>startContours</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.startContours</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Vector3__float" kindref="compound">std_vector_std_vector_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56997" bodyend="56998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a1cf15bece43b8bfb8c96fc8501b91b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+        <definition> std_vector_Vector3_float mrmeshpy.ToolPathParams.startVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>startVertices</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.startVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>start vertices on the offset mesh used for calcutating isolines
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57000" bodyend="57003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a51200c0431b550f489183efebf3297e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.startVertices</definition>
+        <argsstring>(self, std_vector_Vector3_float arg1)</argsstring>
+        <name>startVertices</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.startVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57005" bodyend="57006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1af2a65c15ed675d32fb03a60e7e092210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.toolpathExpansion</definition>
+        <argsstring>(self)</argsstring>
+        <name>toolpathExpansion</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.toolpathExpansion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if &gt; 0 - expand the trajectory creation area and create toolpath to mill excess material to make empty areas.
+The area has the shape of a box.
+Lacing specific only.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57008" bodyend="57013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ad931242b84fd87e9436f92f468a74db7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.toolpathExpansion</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>toolpathExpansion</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.toolpathExpansion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57015" bodyend="57016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a0b8110ca8251b2133259be9900961a70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ToolPathParams.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>size of voxel needed to offset mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57018" bodyend="57021"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1a2b48f2a5b13c2d56bf47561f1dbbe255" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57023" bodyend="57024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1ac141d933f8d3559178e496a96a3cab0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.ToolPathParams.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>mesh can be transformed using xf parameter
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57026" bodyend="57029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathParams_1af5c5d768dffc09673a82231b89f19797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathParams.xf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.ToolPathParams.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57031" bodyend="57032"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ToolPathParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ToolPathParams</label>
+        <link refid="classmrmeshpy_1_1ToolPathParams"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ConstantCuspParams</label>
+        <link refid="classmrmeshpy_1_1ConstantCuspParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ToolPathParams</label>
+        <link refid="classmrmeshpy_1_1ToolPathParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_baseFeed</edgelabel>
+          <edgelabel>_offsetof_bypassDir</edgelabel>
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_critTransitionLength</edgelabel>
+          <edgelabel>_offsetof_flatTool</edgelabel>
+          <edgelabel>_offsetof_isolines</edgelabel>
+          <edgelabel>_offsetof_millRadius</edgelabel>
+          <edgelabel>_offsetof_offsetMesh</edgelabel>
+          <edgelabel>_offsetof_plungeFeed</edgelabel>
+          <edgelabel>_offsetof_plungeLength</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56836" bodyend="57032"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ac0c30feb67c3410c09dc2928492b1923" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a2022977d2f7251245444a6c8cfa3f0e9" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ae2d75290502b29ed062aa4c38e5f6b09" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a52a3be29a1315f9925cc41bb58e1625a" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a6d33bfad73245afcecfbe2a64107fb4f" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_baseFeed</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ad15925df04fe6a2ab61093c2bef76d76" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_bypassDir</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a5a0c9b8062829e8b06b6b95932501e29" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a1c7dc3e6c5d55573a176beccbfc9aa2b" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_critTransitionLength</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a4f6de250bdba076b51cfa81684079fe0" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_flatTool</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a4b7a17166bd431ebe19024a437a69d25" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_isolines</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ae956c3ee3020a05b33929ed240db116f" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_millRadius</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a3809e1b6ef1c07418758143693aa647e" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_offsetMesh</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a5b8ba317a68b9fbf230a5b0a876d4b26" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_plungeFeed</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a150b7056dfb6f52adeea0deef37f475e" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_plungeLength</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a4568d622c70cc52b67616445ced66c1b" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_retractFeed</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1acd9a9e83dcdd1617ceb2088e4c06da2d" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_retractLength</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a211776686bf76613fd8aeeb9181f76b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_safeZ</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1aeee56fca8c46098526f97d34179f2107" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_sectionStep</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a41a188efafa0f07d8750f326f10e3816" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_startContours</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a94178e9e727683268425010d074ac837" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_startVertices</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1aba67f34a2429ca80f2204c3b86a5e08c" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_toolpathExpansion</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a8ad77d3e6924ee3dc7b06f7a73c0a3a8" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a473703d2d00702cdb95b7279d0fccd06" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a0a0d9b8803be28f8e10e0e5df907f4dc" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>baseFeed</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ac7970c73beed870e4ef92f840da4c8b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>baseFeed</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1afd76884deec847f439722a85c8d8e9bb" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>bypassDir</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1aa34ffbc621d8d437eabb5b720f895257" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>bypassDir</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a0c60f0f553b082ff001faa5c61d968a6" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a639d778f93203ecc40b72e82d050322c" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a6c19b01d95162cc013153c23f5df8669" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>critTransitionLength</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a75f24bff8e296883824cd21779185479" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>critTransitionLength</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1aa8889ca678dfb0e3f36323af18dbb173" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>flatTool</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1af2d913be4a38b445dd6d4462eb9da8c9" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>flatTool</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1aac48a7a2bbee0dad75c037a52a66a772" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>isolines</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a40e41f971441a27dd14027241b408168" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>isolines</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ac4a0e8d52eee9597ef3cd88cc7e336bc" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>millRadius</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a5e00ff059cc36d2c8355bffcf9f79455" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>millRadius</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a8e5f03cbf2a187b5a2272e4184af0e34" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a8e5f03cbf2a187b5a2272e4184af0e34" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1af72efd3e8094008630f50c23bde11f29" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>plungeFeed</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a41496f7ea5f3d56f44fe92bde905cd8a" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>plungeFeed</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a15cd75aae45f0abc4640badedea12287" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>plungeLength</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ad0c3a31e05fd880ac03c39a5021b1f21" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>plungeLength</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a23eb3654f1ef3dae201ab54dc7d795d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>retractFeed</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1af0b068f71897c7216c048934409d19c8" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>retractFeed</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1adc310ac6fc96b2d895f2a6095c99459d" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>retractLength</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a58bd87a5aa3fd2a01b63fe8d620adb6d" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>retractLength</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a12b9bdd8aad75a66bd5cdd7e134f4320" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>safeZ</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ad0f9f0a8079dc8e262fcfd36980d8aea" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>safeZ</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ae99d21f40f8aaca0c42841492ff78ab7" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>sectionStep</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a7d6245876b384bed6390f7cf824264a8" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>sectionStep</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a0a94b55274998209dcd6a948d8203975" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>startContours</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ab7a8c5a2e6d56eb04ed46ecb62a19827" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>startContours</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a1cf15bece43b8bfb8c96fc8501b91b55" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>startVertices</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a51200c0431b550f489183efebf3297e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>startVertices</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1af2a65c15ed675d32fb03a60e7e092210" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>toolpathExpansion</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ad931242b84fd87e9436f92f468a74db7" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>toolpathExpansion</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a0b8110ca8251b2133259be9900961a70" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1a2b48f2a5b13c2d56bf47561f1dbbe255" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1ac141d933f8d3559178e496a96a3cab0d" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathParams_1af5c5d768dffc09673a82231b89f19797" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathParams</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

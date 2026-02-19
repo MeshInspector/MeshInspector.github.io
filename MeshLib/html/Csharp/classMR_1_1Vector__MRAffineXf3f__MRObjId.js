@@ -2,6 +2,8 @@ var classMR_1_1Vector__MRAffineXf3f__MRObjId =
 [
     [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a84c1576ccf62eb509e003b449444cbf8", null ],
     [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#ac789d6f4d571368d741cbd1888e5298d", null ],
+    [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a6d06c23e080c58bef37ba998019554c8", null ],
+    [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a7ef23bf05c54c6e93cf96925a78ac4f2", null ],
     [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a8a884858feae7d5a0dff17fb585810ae", null ],
     [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#a9ae5d5f0e969baf34100373fa625a3ed", null ],
     [ "Vector_MRAffineXf3f_MRObjId", "classMR_1_1Vector__MRAffineXf3f__MRObjId.html#aa7718dcf7334ad20f734678a1b628337", null ],

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EmbeddedPython_1_1Config" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EmbeddedPython::Config</compoundname>
+    <includes refid="MREmbeddedPython_8h" local="no">MREmbeddedPython.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae17ecbf3ed9c59e47c91c7ddc1b173aa" kind="variable"><name>siteImport</name></member>
+      <member refid="group__GeneralGroup_1ga172af80d129ecab54d4c310e812523a5" kind="variable"><name>home</name></member>
+      <member refid="group__GeneralGroup_1ga6309e26a08ee1df3fe6bb514aa84cf58" kind="variable"><name>argv</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="23" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="24" bodyend="28"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6309e26a08ee1df3fe6bb514aa84cf58" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython::Config</scope><name>argv</name></member>
+      <member refid="group__GeneralGroup_1ga172af80d129ecab54d4c310e812523a5" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython::Config</scope><name>home</name></member>
+      <member refid="group__GeneralGroup_1gae17ecbf3ed9c59e47c91c7ddc1b173aa" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython::Config</scope><name>siteImport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

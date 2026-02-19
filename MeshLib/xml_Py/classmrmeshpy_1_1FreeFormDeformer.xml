@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FreeFormDeformer" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FreeFormDeformer</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1ac304e224d14e475469ce71b93a7afd2b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FreeFormDeformer.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21255" bodyend="21256"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1a5d23668f817802a2159e5bcddaea86d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FreeFormDeformer.__init__</definition>
+        <argsstring>(self, VertCoords coords, VertBitSet valid)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>coords</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>valid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Only set mesh ref
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21258" bodyend="21261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1a9cb66a7ff75e56a31498d4a8d7da751d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FreeFormDeformer.__init__</definition>
+        <argsstring>(self, Mesh mesh, VertBitSet region=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21263" bodyend="21264"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1ac226d7c2981c914e70cde1885c7f61ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FreeFormDeformer.__init__</definition>
+        <argsstring>(self, FreeFormDeformer arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FreeFormDeformer" kindref="compound">FreeFormDeformer</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21266" bodyend="21269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1ac76a53440a72c450331eb5056dab84d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FreeFormDeformer.apply</definition>
+        <argsstring>(self)</argsstring>
+        <name>apply</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.apply</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Apply updated grid to all mesh points in parallel
+ensure updating render object after using it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21270" bodyend="21274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1a095654e018a2e18b9eed357c89cf1ee4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.FreeFormDeformer.applySinglePoint</definition>
+        <argsstring>(self, Vector3f point)</argsstring>
+        <name>applySinglePoint</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.applySinglePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Apply updated grid to given point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21275" bodyend="21278"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1a99805b1064c10d7a2eb4ee7936eb7491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+        <definition> std_vector_Vector3_float mrmeshpy.FreeFormDeformer.getAllRefGridPositions</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllRefGridPositions</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.getAllRefGridPositions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21279" bodyend="21280"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1ab310a38a4b5ddaecdb2fbef08ee245b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.FreeFormDeformer.getCoord</definition>
+        <argsstring>(self, int index)</argsstring>
+        <name>getCoord</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.getCoord</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get grid coord by index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21281" bodyend="21284"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1acb20dd00aca79f5799142d0cd7f786ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FreeFormDeformer.getIndex</definition>
+        <argsstring>(self, Vector3i coordOfPointInGrid)</argsstring>
+        <name>getIndex</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.getIndex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>coordOfPointInGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get one dimension index by grid coord
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21285" bodyend="21288"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1a477f5a81a52f43818d38528017fee548" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.FreeFormDeformer.getRefGridPointPosition</definition>
+        <argsstring>(self, Vector3i coordOfPointInGrid)</argsstring>
+        <name>getRefGridPointPosition</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.getRefGridPointPosition</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>coordOfPointInGrid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Gets ref grid point position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21289" bodyend="21292"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1a37a4ea9d4ce199528ebe1acaa189c3d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.FreeFormDeformer.getResolution</definition>
+        <argsstring>(self)</argsstring>
+        <name>getResolution</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.getResolution</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21293" bodyend="21294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1a8fadf4efb7cd6cd6876dfaa4e25b6076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FreeFormDeformer.init</definition>
+        <argsstring>(self, Vector3i resolution=&apos;Vector3i::diagonal(2)&apos;, Box3f initialBox=&apos;MR::Box3f()&apos;)</argsstring>
+        <name>init</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.init</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>resolution</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1Vector3i_1ab5ded95d8ce306e564eb4008c5df8021" kindref="member">Vector3i::diagonal</ref>(2)&apos;</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+          <declname>initialBox</declname>
+          <defval>&apos;MR::Box3f()&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculates all points&apos; normalized positions in parallel
+sets ref grid by initialBox, if initialBox is invalid uses mesh bounding box instead
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21295" bodyend="21299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1ac9501e4ad43da3edf8c091431bc1cb67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FreeFormDeformer.setAllRefGridPositions</definition>
+        <argsstring>(self, std_vector_Vector3_float refPoints)</argsstring>
+        <name>setAllRefGridPositions</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.setAllRefGridPositions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>refPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21300" bodyend="21301"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FreeFormDeformer_1af33a12dede8ac15e4c1fc3edfc658b56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FreeFormDeformer.setRefGridPointPosition</definition>
+        <argsstring>(self, Vector3i coordOfPointInGrid, Vector3f newPos)</argsstring>
+        <name>setRefGridPointPosition</name>
+        <qualifiedname>mrmeshpy.FreeFormDeformer.setRefGridPointPosition</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>coordOfPointInGrid</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>newPos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Updates ref grid point position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21302" bodyend="21305"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FreeFormDeformer
+
+\\brief Class for deforming mesh using Bernstein interpolation
+\\snippet cpp-examples/FreeFormDeformation.dox.cpp 0
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21246" bodyend="21305"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1ac304e224d14e475469ce71b93a7afd2b" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1a5d23668f817802a2159e5bcddaea86d4" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1a9cb66a7ff75e56a31498d4a8d7da751d" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1ac226d7c2981c914e70cde1885c7f61ce" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1ac76a53440a72c450331eb5056dab84d0" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>apply</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1a095654e018a2e18b9eed357c89cf1ee4" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>applySinglePoint</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1a99805b1064c10d7a2eb4ee7936eb7491" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>getAllRefGridPositions</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1ab310a38a4b5ddaecdb2fbef08ee245b2" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>getCoord</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1acb20dd00aca79f5799142d0cd7f786ad" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>getIndex</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1a477f5a81a52f43818d38528017fee548" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>getRefGridPointPosition</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1a37a4ea9d4ce199528ebe1acaa189c3d5" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>getResolution</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1a8fadf4efb7cd6cd6876dfaa4e25b6076" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>init</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1ac9501e4ad43da3edf8c091431bc1cb67" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>setAllRefGridPositions</name></member>
+      <member refid="classmrmeshpy_1_1FreeFormDeformer_1af33a12dede8ac15e4c1fc3edfc658b56" prot="public" virt="non-virtual"><scope>mrmeshpy::FreeFormDeformer</scope><name>setRefGridPointPosition</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

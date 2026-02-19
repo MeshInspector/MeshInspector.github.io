@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__TriPoint__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_TriPoint_float</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__TriPoint__float_1abc771a3fa1f122ca9724128d52f6b4b8" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_TriPoint_float::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87519" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__TriPoint__float_1ac59c4e27dd91349cf70baf9c4ca6a672" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_TriPoint_float::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.element_type_byte_size</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87520" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a7abfb8b8a791cbb5c3755ce4309903b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TriPoint_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87521" bodyend="87524"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a7a7780e6428c9d04e01b384f1d31285b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TriPoint_float.__contains__</definition>
+        <argsstring>(self, TriPointf x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87525" bodyend="87528"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1ad00b00a3078217776c7018f9bb24f588" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87530" bodyend="87533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a96931a251cf2d84730ebaba732b054de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87535" bodyend="87538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1adbda5fea65f4a901a70b83f31a850e34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TriPoint_float.__eq__</definition>
+        <argsstring>(self, std_vector_TriPoint_float arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TriPoint__float" kindref="compound">std_vector_TriPoint_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87539" bodyend="87540"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a8f3e21385ae8df9b7ec6a0e1fc21e0fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TriPoint__float" kindref="compound">std_vector_TriPoint_float</ref></type>
+        <definition> std_vector_TriPoint_float mrmeshpy.std_vector_TriPoint_float.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87542" bodyend="87545"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a88b24d334f5933435ea51dbb64e527f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+        <definition> TriPointf mrmeshpy.std_vector_TriPoint_float.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87547" bodyend="87548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1ae5f2ab870c2cc00f7dfd6d8cecb469f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87550" bodyend="87551"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a99877162be9ff9d7c7c5fa060cbd90ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87553" bodyend="87554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1aca8879db9f5ce9bc037997224d12badd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.__init__</definition>
+        <argsstring>(self, std_vector_TriPoint_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TriPoint__float" kindref="compound">std_vector_TriPoint_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87556" bodyend="87557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a906017c32d12dc2b497c82aca5d016fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref>]</type>
+        <definition> typing.Iterator[TriPointf] mrmeshpy.std_vector_TriPoint_float.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87558" bodyend="87559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a8eb84cfe9d1f447406941d657e5f5fef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_TriPoint_float.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87560" bodyend="87561"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a9ccf9704b60825647d6b175962dc1594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TriPoint_float.__ne__</definition>
+        <argsstring>(self, std_vector_TriPoint_float arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TriPoint__float" kindref="compound">std_vector_TriPoint_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87562" bodyend="87563"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1aa2745846b0aa42f46aa4283852eda2ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_vector_TriPoint_float.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87564" bodyend="87567"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a597e528c64262311994bebb18c880d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.__setitem__</definition>
+        <argsstring>(self, int arg0, TriPointf arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87569" bodyend="87570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1ad5554a0f87f3c2dcd5d5b943dcd05f97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_TriPoint_float arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TriPoint__float" kindref="compound">std_vector_TriPoint_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87572" bodyend="87575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1af1c30359d6dfd25d86f2a81d526fe59d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.append</definition>
+        <argsstring>(self, TriPointf x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87576" bodyend="87579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a1ab18e7d5dd0114d26626795937a9ce0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87580" bodyend="87583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a3145fecf717ad12edfffd44ab24c46fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_TriPoint_float.count</definition>
+        <argsstring>(self, TriPointf x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87584" bodyend="87587"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a53922949dd47c88eb4738ff1f3752670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_TriPoint_float.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87588" bodyend="87591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1ae64ed9005149e5a1d6bf01443ea90fc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TriPoint_float.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87592" bodyend="87593"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a556d89834e29c240033af53fdb5f1ed4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.extend</definition>
+        <argsstring>(self, std_vector_TriPoint_float L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TriPoint__float" kindref="compound">std_vector_TriPoint_float</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87595" bodyend="87598"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a74883a1f7cb224713bf5659036f06364" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87600" bodyend="87603"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a590a4e8be7928790f1652cb7ebe760a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.insert</definition>
+        <argsstring>(self, int i, TriPointf x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87604" bodyend="87607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a3694a543b109acb3018c5295718580ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+        <definition> TriPointf mrmeshpy.std_vector_TriPoint_float.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87609" bodyend="87612"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1ac9496b3a1dd534b2dbf4dc8aa0adc498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+        <definition> TriPointf mrmeshpy.std_vector_TriPoint_float.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87614" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87614" bodyend="87617"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1ad88378bbe1a1195934c1aaafc2aafb80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.remove</definition>
+        <argsstring>(self, TriPointf x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87618" bodyend="87621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a5b092d73f5a37a681e4b148681af7892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87623" bodyend="87624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a02c3cfb738537b6cebb42938f3a1fa09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TriPoint_float.resize</definition>
+        <argsstring>(self, int arg0, TriPointf arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87626" bodyend="87627"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TriPoint__float_1a516d27f5b770a9d5941b0bf17333dea9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_TriPoint_float.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_TriPoint_float.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87628" bodyend="87629"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_vector_TriPointf
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_TriPoint_float</label>
+        <link refid="classmrmeshpy_1_1std__vector__TriPoint__float"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87515" bodyend="87629"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a7abfb8b8a791cbb5c3755ce4309903b8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a7a7780e6428c9d04e01b384f1d31285b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1ad00b00a3078217776c7018f9bb24f588" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a96931a251cf2d84730ebaba732b054de" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1adbda5fea65f4a901a70b83f31a850e34" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a8f3e21385ae8df9b7ec6a0e1fc21e0fb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a88b24d334f5933435ea51dbb64e527f9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1abc771a3fa1f122ca9724128d52f6b4b8" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1ae5f2ab870c2cc00f7dfd6d8cecb469f5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a99877162be9ff9d7c7c5fa060cbd90ad" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1aca8879db9f5ce9bc037997224d12badd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a906017c32d12dc2b497c82aca5d016fd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a8eb84cfe9d1f447406941d657e5f5fef" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a9ccf9704b60825647d6b175962dc1594" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1aa2745846b0aa42f46aa4283852eda2ae" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a597e528c64262311994bebb18c880d8b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1ad5554a0f87f3c2dcd5d5b943dcd05f97" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1af1c30359d6dfd25d86f2a81d526fe59d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a1ab18e7d5dd0114d26626795937a9ce0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a3145fecf717ad12edfffd44ab24c46fe" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a53922949dd47c88eb4738ff1f3752670" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1ac59c4e27dd91349cf70baf9c4ca6a672" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1ae64ed9005149e5a1d6bf01443ea90fc4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a556d89834e29c240033af53fdb5f1ed4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a74883a1f7cb224713bf5659036f06364" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a590a4e8be7928790f1652cb7ebe760a7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a3694a543b109acb3018c5295718580ea" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1ac9496b3a1dd534b2dbf4dc8aa0adc498" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1ad88378bbe1a1195934c1aaafc2aafb80" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a5b092d73f5a37a681e4b148681af7892" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a02c3cfb738537b6cebb42938f3a1fa09" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TriPoint__float_1a516d27f5b770a9d5941b0bf17333dea9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TriPoint_float</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

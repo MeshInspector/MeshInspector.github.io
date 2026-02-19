@@ -163,8 +163,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a98fced506eacf9ded80b6497e6caed21" id="r_a98fced506eacf9ded80b6497e6caed21"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98fced506eacf9ded80b6497e6caed21">align</a></td></tr>
 <tr class="separator:a98fced506eacf9ded80b6497e6caed21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe94adb4124bcf030097542c1e07c91f" id="r_afe94adb4124bcf030097542c1e07c91f"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe94adb4124bcf030097542c1e07c91f">computedSize</a></td></tr>
+<tr class="memdesc:afe94adb4124bcf030097542c1e07c91f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The computed content size. Read-only. Don't set manually, <code><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a8aa43d24ada469bdbb77f5444b4e6f64">update()</a></code> sets this.  <br /></td></tr>
 <tr class="separator:afe94adb4124bcf030097542c1e07c91f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f9b56c3c57b99d7ca83ffa11d48d205" id="r_a1f9b56c3c57b99d7ca83ffa11d48d205"><td class="memItemLeft" align="right" valign="top">ImVec2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f9b56c3c57b99d7ca83ffa11d48d205">computedSizeWithPadding</a></td></tr>
+<tr class="memdesc:a1f9b56c3c57b99d7ca83ffa11d48d205"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read-only, don't set manually. This is typically <code>max( size, computedSize )</code>, with additional adjustments.  <br /></td></tr>
 <tr class="separator:a1f9b56c3c57b99d7ca83ffa11d48d205"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -179,6 +181,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Alignment. Only makes sense if <code>size</code> is set. [0,0] = top-left, [1,1] = bottom-right. </p>
 
 </div>
 </div>
@@ -202,6 +205,8 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>The computed content size. Read-only. Don't set manually, <code><a class="el" href="structMR_1_1ImGuiMeasurementIndicators_1_1Text.html#a8aa43d24ada469bdbb77f5444b4e6f64">update()</a></code> sets this. </p>
+
 </div>
 </div>
 <a id="a1f9b56c3c57b99d7ca83ffa11d48d205" name="a1f9b56c3c57b99d7ca83ffa11d48d205"></a>
@@ -223,6 +228,8 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Read-only, don't set manually. This is typically <code>max( size, computedSize )</code>, with additional adjustments. </p>
 
 </div>
 </div>
@@ -251,6 +258,7 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>The minimum element size. Has no effect if smaller than <code>computedSize</code>. Here if X is negative, inherits the text width. </p>
 
 </div>
 </div>

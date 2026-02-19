@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AlphaSortGL" kind="class" language="C++" prot="public">
+    <compoundname>MR::AlphaSortGL</compoundname>
+    <includes refid="MRAlphaSortGL_8h" local="no">MRAlphaSortGL.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga29e1a40f8ddae233dc49511e5daa9200" kind="typedef"><name>GLuint</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga0454bd66896c6920f95935a9b912c86c" kind="variable"><name>inited_</name></member>
+      <member refid="group__GeneralGroup_1ga75952c43ce2023a5846fe2c217aade68" kind="variable"><name>width_</name></member>
+      <member refid="group__GeneralGroup_1ga5ed7fc2e1aa975289be84b4edad85900" kind="variable"><name>height_</name></member>
+      <member refid="group__GeneralGroup_1ga52508ec269eec967e59b2b66b21b7064" kind="variable"><name>transparency_quad_vbo</name></member>
+      <member refid="group__GeneralGroup_1gaaa8e6a0cf08119d12bf967037d14b163" kind="variable"><name>transparency_quad_vao</name></member>
+      <member refid="group__GeneralGroup_1gaa1d9663df2593527774931d650f4eb07" kind="variable"><name>transparency_heads_texture_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga22d434ab88fc814c368503391ecbf9ce" kind="variable"><name>transparency_shared_shader_data_vbo</name></member>
+      <member refid="group__GeneralGroup_1gae664db9403426212925c2830af13a450" kind="variable"><name>transparency_atomic_counter_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga092a3e3580628d2319d36f5389f87b26" kind="variable"><name>transparency_static_clean_vbo</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga1dd61ddfaca7ad57995cff3e85436742" kind="function"><name>~AlphaSortGL</name></member>
+      <member refid="group__GeneralGroup_1gaba382f76f34a17ef1f0536debd4b6683" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1gac0008d001179507a880971efa7b03847" kind="function"><name>free</name></member>
+      <member refid="group__GeneralGroup_1gaa3555625f912cb6a3c62641f8cdb5653" kind="function"><name>clearTransparencyTextures</name></member>
+      <member refid="group__GeneralGroup_1ga8ce534a2e3836fdcf88ee61badbb7eac" kind="function"><name>drawTransparencyTextureToScreen</name></member>
+      <member refid="group__GeneralGroup_1gaab9cdfaf33634bcf9bae0eec5a82ebb9" kind="function"><name>updateTransparencyTexturesSize</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" line="9" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAlphaSortGL.h" bodystart="10" bodyend="39"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa3555625f912cb6a3c62641f8cdb5653" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>clearTransparencyTextures</name></member>
+      <member refid="group__GeneralGroup_1ga8ce534a2e3836fdcf88ee61badbb7eac" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>drawTransparencyTextureToScreen</name></member>
+      <member refid="group__GeneralGroup_1gac0008d001179507a880971efa7b03847" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>free</name></member>
+      <member refid="group__GeneralGroup_1ga29e1a40f8ddae233dc49511e5daa9200" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1ga5ed7fc2e1aa975289be84b4edad85900" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>height_</name></member>
+      <member refid="group__GeneralGroup_1gaba382f76f34a17ef1f0536debd4b6683" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga0454bd66896c6920f95935a9b912c86c" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>inited_</name></member>
+      <member refid="group__GeneralGroup_1gae664db9403426212925c2830af13a450" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_atomic_counter_vbo</name></member>
+      <member refid="group__GeneralGroup_1gaa1d9663df2593527774931d650f4eb07" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_heads_texture_vbo</name></member>
+      <member refid="group__GeneralGroup_1gaaa8e6a0cf08119d12bf967037d14b163" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_quad_vao</name></member>
+      <member refid="group__GeneralGroup_1ga52508ec269eec967e59b2b66b21b7064" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_quad_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga22d434ab88fc814c368503391ecbf9ce" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_shared_shader_data_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga092a3e3580628d2319d36f5389f87b26" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>transparency_static_clean_vbo</name></member>
+      <member refid="group__GeneralGroup_1gaab9cdfaf33634bcf9bae0eec5a82ebb9" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>updateTransparencyTexturesSize</name></member>
+      <member refid="group__GeneralGroup_1ga75952c43ce2023a5846fe2c217aade68" prot="private" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>width_</name></member>
+      <member refid="group__GeneralGroup_1ga1dd61ddfaca7ad57995cff3e85436742" prot="public" virt="non-virtual"><scope>MR::AlphaSortGL</scope><name>~AlphaSortGL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

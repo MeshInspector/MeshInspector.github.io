@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CubicBezierCurve" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CubicBezierCurve</compoundname>
+    <includes refid="MRBezier_8h" local="no">MRBezier.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga9a0577357dd243e6ec6075e03d6dcf8b" kind="typedef"><name>VTraits</name></member>
+      <member refid="group__GeneralGroup_1ga6b83dc1d69f50bd387ec3bf5392c92c2" kind="typedef"><name>T</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1gac89e37ab87d7a669e55d9c9ca0f3eb66" kind="variable"><name>elements</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga253c4a44671e701720f11bb8c0078f06" kind="variable"><name>p</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga808273a91fc951f1b82faa9424e6451e" kind="function"><name>getPoint</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga56b8e90a46bbc02fd586b6fc293831a6" kind="function"><name>getWeights</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Cubic Bezier curve. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBezier.h" bodystart="16" bodyend="29"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac89e37ab87d7a669e55d9c9ca0f3eb66" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>elements</name></member>
+      <member refid="group__GeneralGroup_1ga808273a91fc951f1b82faa9424e6451e" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>getPoint</name></member>
+      <member refid="group__GeneralGroup_1ga56b8e90a46bbc02fd586b6fc293831a6" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>getWeights</name></member>
+      <member refid="group__GeneralGroup_1ga253c4a44671e701720f11bb8c0078f06" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>p</name></member>
+      <member refid="group__GeneralGroup_1ga6b83dc1d69f50bd387ec3bf5392c92c2" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>T</name></member>
+      <member refid="group__GeneralGroup_1ga9a0577357dd243e6ec6075e03d6dcf8b" prot="public" virt="non-virtual"><scope>MR::CubicBezierCurve</scope><name>VTraits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

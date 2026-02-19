@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SpaceMouse_1_1Action" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SpaceMouse::Action</compoundname>
+    <includes refid="MRSpaceMouseDevice_8h" local="no">MRSpaceMouseDevice.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SpaceMouse_1_1Action_1a9f738832ba0bcc3dc83935d0197ee0e9" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SpaceMouse::Action::btnStateChanged</definition>
+        <argsstring></argsstring>
+        <name>btnStateChanged</name>
+        <qualifiedname>MR::SpaceMouse::Action::btnStateChanged</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="92" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SpaceMouse_1_1Action_1a1e0813c3c0900b8ea40740c8eadf381a" prot="public" static="no" mutable="no">
+        <type>std::bitset&lt; size_t(<ref refid="namespaceMR_1_1SpaceMouse_1a3c810ff3ab34add56c02318fc27e9191ab0e7d957448dff4b40f0f3a8bddc2325" kindref="member">Buttons::SMB_BUTTON_COUNT</ref>)&gt;</type>
+        <definition>std::bitset&lt;size_t( Buttons::SMB_BUTTON_COUNT )&gt; MR::SpaceMouse::Action::buttons</definition>
+        <argsstring></argsstring>
+        <name>buttons</name>
+        <qualifiedname>MR::SpaceMouse::Action::buttons</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="93" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SpaceMouse_1_1Action_1a7b51eab6ff82e23fface5fb492999ba3" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::SpaceMouse::Action::translate</definition>
+        <argsstring></argsstring>
+        <name>translate</name>
+        <qualifiedname>MR::SpaceMouse::Action::translate</qualifiedname>
+        <initializer>= { 0.0f, 0.0f, 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="94" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SpaceMouse_1_1Action_1a96ec36ec991e2a807c4173907db102f1" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::SpaceMouse::Action::rotate</definition>
+        <argsstring></argsstring>
+        <name>rotate</name>
+        <qualifiedname>MR::SpaceMouse::Action::rotate</qualifiedname>
+        <initializer>= { 0.0f, 0.0f, 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="95" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="95" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" line="91" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseDevice.h" bodystart="91" bodyend="96"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SpaceMouse_1_1Action_1a9f738832ba0bcc3dc83935d0197ee0e9" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Action</scope><name>btnStateChanged</name></member>
+      <member refid="structMR_1_1SpaceMouse_1_1Action_1a1e0813c3c0900b8ea40740c8eadf381a" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Action</scope><name>buttons</name></member>
+      <member refid="structMR_1_1SpaceMouse_1_1Action_1a96ec36ec991e2a807c4173907db102f1" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Action</scope><name>rotate</name></member>
+      <member refid="structMR_1_1SpaceMouse_1_1Action_1a7b51eab6ff82e23fface5fb492999ba3" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Action</scope><name>translate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

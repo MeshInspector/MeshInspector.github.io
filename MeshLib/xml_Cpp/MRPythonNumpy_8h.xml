@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPythonNumpy_8h" kind="file" language="C++">
+    <compoundname>MRPythonNumpy.h</compoundname>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MRPythonNumpy_8h_1ab135bb78166c0f59c9fe34366ab1786d" prot="public" static="no">
+        <name>MRMESHNUMPY_PARENT_MODULE_NAME</name>
+        <initializer>meshlib</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/mrmeshnumpy/MRPythonNumpy.h" line="4" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/mrmeshnumpy/MRPythonNumpy.h" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MRMESHNUMPY_PARENT_MODULE_NAME</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="MRPythonNumpy_8h_1ab135bb78166c0f59c9fe34366ab1786d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MRMESHNUMPY_PARENT_MODULE_NAME<sp/>meshlib</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/mrmeshnumpy/MRPythonNumpy.h"/>
+  </compounddef>
+</doxygen>

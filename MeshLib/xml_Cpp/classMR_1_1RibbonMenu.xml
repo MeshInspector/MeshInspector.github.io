@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonMenu" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonMenu</compoundname>
+    <basecompoundref refid="classMR_1_1ImGuiMenu" prot="public" virt="non-virtual">MR::ImGuiMenu</basecompoundref>
+    <includes refid="MRRibbonMenu_8h" local="no">MRRibbonMenu.h</includes>
+    <innerclass refid="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox" prot="private">MR::RibbonMenu::CustomContextMenuCheckbox</innerclass>
+    <innerclass refid="structMR_1_1RibbonMenu_1_1DialogItemPtr" prot="protected">MR::RibbonMenu::DialogItemPtr</innerclass>
+    <innerclass refid="structMR_1_1RibbonMenu_1_1DrawGroupConfig" prot="protected">MR::RibbonMenu::DrawGroupConfig</innerclass>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1gaf8f659a638712863260fa7636adb4588" kind="enum"><name>CollapseState</name></member>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gad03e656d4344c5a4266fa1ae56827d6c" kind="typedef"><name>TabChangedSignal</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-type">
+      <member refid="group__GeneralGroup_1gad0d582e1904c2ad88eee5f4bfe814f83" kind="typedef"><name>DrawTabConfig</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gafd52ffe86f76c1dcae019262f3722fd3" kind="variable"><name>tabChangedSignal</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <member refid="group__GeneralGroup_1ga2f639a83635dfb22ba89545a6dc9d85e" kind="variable"><name>activeBlockingItem_</name></member>
+      <member refid="group__GeneralGroup_1gacf628a7bb9081d2c4b3d3405e96e85b4" kind="variable"><name>activeNonBlockingItems_</name></member>
+      <member refid="group__GeneralGroup_1ga8d13b702d7c6dad7794328080b6562e0" kind="variable"><name>prevFrameSelectedObjectsCache_</name></member>
+      <member refid="group__GeneralGroup_1gac86c4630adf085f601be813f0d81b827" kind="variable"><name>searcher_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga9de4fc9facc10e4a60cdd6140d8128b6" kind="variable"><name>activeListPos_</name></member>
+      <member refid="group__GeneralGroup_1ga76f7a59ee445cafaae44e63de4b482d0" kind="variable"><name>activeListPressed_</name></member>
+      <member refid="group__GeneralGroup_1ga230fe187c275ff7b61d5ca8f40d2088e" kind="variable"><name>transformClipboardText_</name></member>
+      <member refid="group__GeneralGroup_1ga45da65c950e713ce5c2d7a16d9460091" kind="variable"><name>currentTopPanelHeight_</name></member>
+      <member refid="group__GeneralGroup_1ga529d097846dbeb6b6c920552ed4fdcc8" kind="variable"><name>topPanelOpenedHeight_</name></member>
+      <member refid="group__GeneralGroup_1gab36bd1545f96a4f5df1289ab88be741f" kind="variable"><name>topPanelHiddenHeight_</name></member>
+      <member refid="group__GeneralGroup_1gae386af7889ce33a8c3d0ceb71e1ca81c" kind="variable"><name>sceneSize_</name></member>
+      <member refid="group__GeneralGroup_1gab3558b78d7b0ae1292fb5aee66287285" kind="variable"><name>informationHeight_</name></member>
+      <member refid="group__GeneralGroup_1gadd021abfb6808482ea3aa86a8db32522" kind="variable"><name>transformHeight_</name></member>
+      <member refid="group__GeneralGroup_1ga031dbe6db3d3a3fb49fae05710bc724a" kind="variable"><name>menuUIConfig_</name></member>
+      <member refid="group__GeneralGroup_1ga429be394132a4217f60fe095ef658829" kind="variable"><name>blockingHighlightTimer_</name></member>
+      <member refid="group__GeneralGroup_1ga8bb8f40cba94a969573fe41fd42cc1cb" kind="variable"><name>tabPanelScroll_</name></member>
+      <member refid="group__GeneralGroup_1gad2a4931d55215f901548e8c7a7fabf48" kind="variable"><name>autoCloseBlockingPlugins_</name></member>
+      <member refid="group__GeneralGroup_1ga7490e418a373fbd6573c352908bfdad1" kind="variable"><name>Pinned</name></member>
+      <member refid="group__GeneralGroup_1ga1b9011fe50941846005d4ee62a1b7e1e" kind="variable"><name>openedMaxSecs_</name></member>
+      <member refid="group__GeneralGroup_1ga0a63cb85d39c61c8d5ea0111658976ff" kind="variable"><name>openedTimer_</name></member>
+      <member refid="group__GeneralGroup_1gade2a48eec1124ec87a78f013122f2ba1" kind="variable"><name>activeTabIndex_</name></member>
+      <member refid="group__GeneralGroup_1gaf5677bcbb4776e2670fad996581794b9" kind="variable"><name>fontManager_</name></member>
+      <member refid="group__GeneralGroup_1gaeda8867e04b01d5338a6eda930065060" kind="variable"><name>buttonDrawer_</name></member>
+      <member refid="group__GeneralGroup_1gaef895921e09dfff59ed30263ab3353f0" kind="variable"><name>customCheckBox_</name></member>
+      <member refid="group__GeneralGroup_1ga943f8a972e6fd6e1c85ceed8a570dd03" kind="variable"><name>toolbar_</name></member>
+      <member refid="group__GeneralGroup_1gae3cde2b3ee8000617184405042f8407f" kind="variable"><name>notifier_</name></member>
+      <member refid="group__GeneralGroup_1ga094dbe3390138c463d3267a16e4c4486" kind="variable"><name>asyncRequest_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa34b69e6496e1988fcf4618bd5275b26" kind="function"><name>RibbonMenu</name></member>
+      <member refid="group__GeneralGroup_1ga019c89ffbf679cc555e78b3e56ab52cd" kind="function"><name>~RibbonMenu</name></member>
+      <member refid="group__GeneralGroup_1gae2e7e583583cdbdbb47b0e02f01cabea" kind="function"><name>setCustomContextCheckbox</name></member>
+      <member refid="group__GeneralGroup_1ga75ae516e9ba2cc3916a137c3b723da57" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga304f2add3b4e9221b6accdcf46c2bb68" kind="function"><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gaeb9475e92afc11246ebbc3f39dadebf9" kind="function"><name>openToolbarCustomize</name></member>
+      <member refid="group__GeneralGroup_1ga9bbdaa0865f099c7e385ac1ea6b7bbf3" kind="function"><name>load_font</name></member>
+      <member refid="group__GeneralGroup_1gac60708d073d431fe51934044e473b07c" kind="function"><name>getMenuFontPath</name></member>
+      <member refid="group__GeneralGroup_1gab638723ae879c04abcf7677c3975e255" kind="function"><name>pinTopPanel</name></member>
+      <member refid="group__GeneralGroup_1ga44506d22fa2c6befeaf375791931282e" kind="function"><name>isTopPannelPinned</name></member>
+      <member refid="group__GeneralGroup_1ga079f402544435dce5e38c654ca9c604c" kind="function"><name>getTopPanelOpenedHeight</name></member>
+      <member refid="group__GeneralGroup_1ga527fe41687fdc31790622eff98c59402" kind="function"><name>getTopPanelHiddenHeight</name></member>
+      <member refid="group__GeneralGroup_1gae0972a03e4e4507e77657b90ec8b08fd" kind="function"><name>getTopPanelCurrentHeight</name></member>
+      <member refid="group__GeneralGroup_1ga0b8580dee2b479f1b332f441905c330d" kind="function"><name>setTopPanelMaxOpenedTimer</name></member>
+      <member refid="group__GeneralGroup_1ga97c470b0974a29e162afe5b7393113e3" kind="function"><name>setQuickAccessListVersion</name></member>
+      <member refid="group__GeneralGroup_1gac80823b6e10ba2e99fca77006ffb7dc4" kind="function"><name>readQuickAccessList</name></member>
+      <member refid="group__GeneralGroup_1gaa074446a9a5446cd760d9246633c5045" kind="function"><name>resetQuickAccessList</name></member>
+      <member refid="group__GeneralGroup_1ga5904f7f7bd80695bec495d8079cd9e42" kind="function"><name>getSceneSize</name></member>
+      <member refid="group__GeneralGroup_1gafefdd706402e7ad5daf3433c54ae87dc" kind="function"><name>setSceneSize</name></member>
+      <member refid="group__GeneralGroup_1ga42ad9dbceb71795dfcc7faec3a4fada5" kind="function"><name>hasActiveBlockingItem</name></member>
+      <member refid="group__GeneralGroup_1ga031930c9c0f444b92a9252828cfa3ef4" kind="function"><name>hasAnyActiveItem</name></member>
+      <member refid="group__GeneralGroup_1gafc750c1fa4b01d0cdf604d601194f436" kind="function"><name>updateItemStatus</name></member>
+      <member refid="group__GeneralGroup_1gaf87aa13ddadb0bc96103d7ce892a88b9" kind="function"><name>getActiveTabIndex</name></member>
+      <member refid="group__GeneralGroup_1gaafbb9fbb81efc86a0331f89e181268cb" kind="function"><name>getFontManager</name></member>
+      <member refid="group__GeneralGroup_1gae0840c947fea974de909fbaee8e7829e" kind="function"><name>getRibbonButtonDrawer</name></member>
+      <member refid="group__GeneralGroup_1gaccfa4d95ab6fdfea5313e29cf32417bd" kind="function"><name>getToolbar</name></member>
+      <member refid="group__GeneralGroup_1gab0cfd87f2c0b8073dbdd093be4e7eb2f" kind="function"><name>getRibbonNotifier</name></member>
+      <member refid="group__GeneralGroup_1ga175b4ff452a54f2c42cf45767732d435" kind="function"><name>setActiveListPos</name></member>
+      <member refid="group__GeneralGroup_1ga0fb26215796f94ee53da988ac6bf07e7" kind="function"><name>showActiveList</name></member>
+      <member refid="group__GeneralGroup_1gaed6ba0bf1f0630bcf43a1a070149b088" kind="function"><name>pushNotification</name></member>
+      <member refid="group__GeneralGroup_1ga4cce1421ecc6e05c9d0f5dc3d5a8c74f" kind="function"><name>getAutoCloseBlockingPlugins</name></member>
+      <member refid="group__GeneralGroup_1gaa5c9439e803a30622f7ecfeee5e7091d" kind="function"><name>setAutoCloseBlockingPlugins</name></member>
+      <member refid="group__GeneralGroup_1gae8f7513715e9612b9c4a4e5b9005382c" kind="function"><name>getMenuUIConfig</name></member>
+      <member refid="group__GeneralGroup_1ga1ff3e6eb8d078f9be90f61e18065f9ae" kind="function"><name>setMenuUIConfig</name></member>
+      <member refid="group__GeneralGroup_1ga1cf2af4dc1d82b20087764071b206770" kind="function"><name>drawGroupUngroupButton</name></member>
+      <member refid="group__GeneralGroup_1gabfc163ec42e5bf049a816c152460856e" kind="function"><name>drawSelectSubtreeButton</name></member>
+      <member refid="group__GeneralGroup_1gac152da8bac9875d752a7d081e66ebc44" kind="function"><name>drawCloneButton</name></member>
+      <member refid="group__GeneralGroup_1gaca1d176aa04db7ea2b5d342cb0b102ac" kind="function"><name>drawCustomCheckBox</name></member>
+      <member refid="group__GeneralGroup_1ga18077dcd5d907b01b628b87a176caf7f" kind="function"><name>drawCloneSelectionButton</name></member>
+      <member refid="group__GeneralGroup_1gad91246c3334e9c7beaf92098272f9e4b" kind="function"><name>drawMergeSubtreeButton</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga46a9c1a6ee76ad876cce3d279b8a825f" kind="function"><name>instance</name></member>
+      <member refid="group__GeneralGroup_1ga7c94fe45ae2d51829d9addd732902930" kind="function"><name>cloneTree</name></member>
+      <member refid="group__GeneralGroup_1gab49d948508071def5a525123250da7f8" kind="function"><name>cloneSelectedPart</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga67906df788caa39e03d62d6df651f050" kind="function"><name>drawBigButtonItem_</name></member>
+      <member refid="group__GeneralGroup_1ga3d177f8768aa87645a633f7e5e3dd0ba" kind="function"><name>drawSmallButtonsSet_</name></member>
+      <member refid="group__GeneralGroup_1ga3e0bbf51d01df0169ab4de593b8f3e95" kind="function"><name>setupItemsGroupConfig_</name></member>
+      <member refid="group__GeneralGroup_1gaabaa3a2750696ccfb5e18682b7c7638b" kind="function"><name>setupItemsGroup_</name></member>
+      <member refid="group__GeneralGroup_1gaa55c3fbd9f75acc5b51ecba5402c8fb6" kind="function"><name>drawItemsGroup_</name></member>
+      <member refid="group__GeneralGroup_1ga981b9e4f52d4679a09fbbca4dab08573" kind="function"><name>itemPressed_</name></member>
+      <member refid="group__GeneralGroup_1ga3f2b825159346f39db3cde812e624bfb" kind="function"><name>getRequirements_</name></member>
+      <member refid="group__GeneralGroup_1ga536aa66aca49a47e58d15a786e574cb9" kind="function"><name>drawActiveBlockingDialog_</name></member>
+      <member refid="group__GeneralGroup_1ga2b8f24d719c5b2f849c6a2da6a8e6a05" kind="function"><name>drawActiveNonBlockingDialogs_</name></member>
+      <member refid="group__GeneralGroup_1ga9435ce4367ec159b1b5746aaafcc5652" kind="function"><name>postResize_</name></member>
+      <member refid="group__GeneralGroup_1gad3c1eb063654b601259d343d6644e863" kind="function"><name>postRescale_</name></member>
+      <member refid="group__GeneralGroup_1ga842d003c447ddd1af577f4cb2ffb9021" kind="function"><name>drawItemDialog_</name></member>
+      <member refid="group__GeneralGroup_1gab54d2add039ebbbdb20f83d97b45ab9b" kind="function"><name>drawTopPanel_</name></member>
+      <member refid="group__GeneralGroup_1gae5c7eee292020a3a3252fef4b98278c5" kind="function"><name>drawRibbonSceneList_</name></member>
+      <member refid="group__GeneralGroup_1ga99c15fc2adc0e0b9ec601cedaa53dc4b" kind="function"><name>drawRibbonSceneResizeLine_</name></member>
+      <member refid="group__GeneralGroup_1gafc3d25a8a8f6b8f82503f575646ee430" kind="function"><name>drawRibbonViewportsLabels_</name></member>
+      <member refid="group__GeneralGroup_1ga6fc2094b16a4d78ed17836196ae98439" kind="function"><name>drawRibbonSceneInformation_</name></member>
+      <member refid="group__GeneralGroup_1ga5edd9fcd5ab9a62bbfda2489c6205c9e" kind="function"><name>drawCollapsingHeaderTransform_</name></member>
+      <member refid="group__GeneralGroup_1gaed3d5ce11a8471f66e67bb6997bd6e54" kind="function"><name>drawTransformContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1ga2a3532d56a6f52a63ab5514063fa8875" kind="function"><name>addRibbonItemShortcut_</name></member>
+      <member refid="group__GeneralGroup_1ga1d80aef71da13b99c1360a4180110f25" kind="function"><name>setupShortcuts_</name></member>
+      <member refid="group__GeneralGroup_1ga361cde7981902393e0db66ef54bf937e" kind="function"><name>drawShortcutsWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga566e74703b12f0c2cd8873fe0ca33e50" kind="function"><name>readMenuItemsStructure_</name></member>
+      <member refid="group__GeneralGroup_1ga49282539dbdead7ced3a92ce1409d0c3" kind="function"><name>drawCollapsingHeader_</name></member>
+      <member refid="group__GeneralGroup_1ga49daca6118b0fa3460e5f9c85d2f8070" kind="function"><name>highlightBlocking_</name></member>
+      <member refid="group__GeneralGroup_1ga035dcccea06c6fcf45d34ecb843607f9" kind="function"><name>drawSceneListButtons_</name></member>
+      <member refid="group__GeneralGroup_1gae93d370f0f4950d0cb6c7c7ebbe6a6d9" kind="function"><name>fixViewportsSize_</name></member>
+      <member refid="group__GeneralGroup_1ga6eca8ec42be5e0e43ee29c4e45d12430" kind="function"><name>drawActiveList_</name></member>
+      <member refid="group__GeneralGroup_1ga597bf3251a597e7d18def3c23b156d45" kind="function"><name>drawNotifications_</name></member>
+      <member refid="group__GeneralGroup_1gad83984d816bde0619ef416625513f3e8" kind="function"><name>updateTopPanelSize_</name></member>
+      <member refid="group__GeneralGroup_1gac2d5ada5e234407fedd50acae414feb9" kind="function"><name>drawHeaderQuickAccess_</name></member>
+      <member refid="group__GeneralGroup_1gaf433c2d8c1718241a40ae3b15a5b80c1" kind="function"><name>drawHeaderHelpers_</name></member>
+      <member refid="group__GeneralGroup_1ga74725cc224e9f050790abef346ddba93" kind="function"><name>drawActiveListButton_</name></member>
+      <member refid="group__GeneralGroup_1ga1567084f559553c43c93c235931bfdfa" kind="function"><name>drawSearchButton_</name></member>
+      <member refid="group__GeneralGroup_1ga3a1db6b21c215e078cc28f9410d0345f" kind="function"><name>drawCollapseButton_</name></member>
+      <member refid="group__GeneralGroup_1ga5c662079dee88d267ae6ae55a20fbe29" kind="function"><name>drawHelpButton_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gae0bfe34e5c35fc0de2da68e440ccc904" kind="function"><name>changeTab_</name></member>
+      <member refid="group__GeneralGroup_1ga5ccd24b000bbc0b039ffa0d64d0d58e4" kind="function"><name>sortObjectsRecursive_</name></member>
+      <member refid="group__GeneralGroup_1gac2b0a4ece891ff060bed7ecf57645b01" kind="function"><name>drawHeaderPannel_</name></member>
+      <member refid="group__GeneralGroup_1ga507633033ab9a43b99eadcd8df8aac7e" kind="function"><name>beginTopPanel_</name></member>
+      <member refid="group__GeneralGroup_1gab1c3276976baf58b98027bcd729eb536" kind="function"><name>endTopPanel_</name></member>
+      <member refid="group__GeneralGroup_1ga74de55fb9baffb8d206a32782cf194b2" kind="function"><name>drawTopPanelOpened_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to control and render ribbon-style menu stores menu items, menu structure is provided by <computeroutput>menuItemsStructure.json</computeroutput> file (parsed on init) </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::ImGuiMenu</label>
+        <link refid="classMR_1_1ImGuiMenu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener, PostFocusListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenu</label>
+        <link refid="classMR_1_1RibbonMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::ImGuiMenu</label>
+        <link refid="classMR_1_1ImGuiMenu"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>oldLabelParams_</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>selectedViewport_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>tagEditorState_</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::ImGuiMenu::LabelParams</label>
+        <link refid="structMR_1_1ImGuiMenu_1_1LabelParams"/>
+      </node>
+      <node id="9">
+        <label>MR::ImGuiMenu::TagEditorState</label>
+        <link refid="structMR_1_1ImGuiMenu_1_1TagEditorState"/>
+      </node>
+      <node id="5">
+        <label>MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener, MouseScrollListener, CursorEntranceListener, CharPressedListener, KeyDownListener, KeyUpListener, KeyRepeatListener, SpaceMouseMoveListener, SpaceMouseDownListener, TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener, PostResizeListener, PostRescaleListener, PostFocusListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenu</label>
+        <link refid="classMR_1_1RibbonMenu"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>activeBlockingItem_</edgelabel>
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>searcher_</edgelabel>
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::RibbonMenu::DialogItemPtr</label>
+        <link refid="structMR_1_1RibbonMenu_1_1DialogItemPtr"/>
+      </node>
+      <node id="11">
+        <label>MR::RibbonMenuSearch</label>
+        <link refid="classMR_1_1RibbonMenuSearch"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>onFocusSignal</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>onToolActivateSignal</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="13" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::Signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;)&gt;</label>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="3">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ViewportId</label>
+        <link refid="classMR_1_1ViewportId"/>
+      </node>
+      <node id="13">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="15">
+        <label>boost::signals2::signal&lt; void(std::shared_ptr&lt; MR::RibbonMenuItem &gt;) &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="27" bodyend="312"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2f639a83635dfb22ba89545a6dc9d85e" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeBlockingItem_</name></member>
+      <member refid="group__GeneralGroup_1ga9de4fc9facc10e4a60cdd6140d8128b6" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeListPos_</name></member>
+      <member refid="group__GeneralGroup_1ga76f7a59ee445cafaae44e63de4b482d0" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeListPressed_</name></member>
+      <member refid="group__GeneralGroup_1gacf628a7bb9081d2c4b3d3405e96e85b4" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeNonBlockingItems_</name></member>
+      <member refid="group__GeneralGroup_1gade2a48eec1124ec87a78f013122f2ba1" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>activeTabIndex_</name></member>
+      <member refid="group__GeneralGroup_1ga623682b4c72a120b6972a719f75d4282" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>add_modifier</name></member>
+      <member refid="group__GeneralGroup_1ga2a3532d56a6f52a63ab5514063fa8875" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>addRibbonItemShortcut_</name></member>
+      <member refid="group__GeneralGroup_1ga79fec46acf5000a119ac7c3ce90a3da5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowObjectsRemoval</name></member>
+      <member refid="group__GeneralGroup_1gacdcda8b2bba5f78579846e3596ab3c42" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowRemoval_</name></member>
+      <member refid="group__GeneralGroup_1ga42d36b1b6c1d3d5f973f5bb0b994ba44" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>allowSceneReorder</name></member>
+      <member refid="group__GeneralGroup_1gab5abbf10004a75a69b1704b7af20e5b3" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>anyImGuiWindowIsHovered</name></member>
+      <member refid="group__GeneralGroup_1gad3c1c5744647a6fd39a4296770a420f6" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>anyUiObjectIsHovered</name></member>
+      <member refid="group__GeneralGroup_1ga094dbe3390138c463d3267a16e4c4486" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>asyncRequest_</name></member>
+      <member refid="group__GeneralGroup_1gad2a4931d55215f901548e8c7a7fabf48" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>autoCloseBlockingPlugins_</name></member>
+      <member refid="group__GeneralGroup_1ga507633033ab9a43b99eadcd8df8aac7e" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>beginTopPanel_</name></member>
+      <member refid="group__GeneralGroup_1ga429be394132a4217f60fe095ef658829" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>blockingHighlightTimer_</name></member>
+      <member refid="group__GeneralGroup_1gaeda8867e04b01d5338a6eda930065060" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>buttonDrawer_</name></member>
+      <member refid="group__GeneralGroup_1ga9e71b44d5c09846170d097db09e2750a" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>calcSelectedTypesMask</name></member>
+      <member refid="group__GeneralGroup_1gaf766771b374fc76627721e89e97b0573" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>callback_draw_custom_window</name></member>
+      <member refid="group__GeneralGroup_1ga58d1777909c66022cb848ad4bfd08e6c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>callback_draw_viewer_menu</name></member>
+      <member refid="group__GeneralGroup_1ga48361f3a545ce8d2eea45667c5e25775" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>callback_draw_viewer_window</name></member>
+      <member refid="group__GeneralGroup_1ga70e1b99ed1657729d0a89c8c8bd00e59" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>capturedMouse_</name></member>
+      <member refid="group__GeneralGroup_1gae0bfe34e5c35fc0de2da68e440ccc904" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>changeTab_</name></member>
+      <member refid="group__GeneralGroup_1ga8da06f115c5429d5c17a35ba02da2eb4" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>checkPossibilityObjectRemoval</name></member>
+      <member refid="group__GeneralGroup_1gab49d948508071def5a525123250da7f8" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>cloneSelectedPart</name></member>
+      <member refid="group__GeneralGroup_1ga7c94fe45ae2d51829d9addd732902930" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>cloneTree</name></member>
+      <member refid="group__GeneralGroup_1gaf8f659a638712863260fa7636adb4588" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>CollapseState</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga5211abf1979e6de5356bf10417272d04" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>context_</name></member>
+      <member refid="group__GeneralGroup_1ga2a88aa32db69286a1b09237c0bdadfd6" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>CoordType</name></member>
+      <member refid="group__GeneralGroup_1ga45da65c950e713ce5c2d7a16d9460091" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>currentTopPanelHeight_</name></member>
+      <member refid="group__GeneralGroup_1ga6704f92b807e648f697c3313347d8001" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>cursorEntrance_</name></member>
+      <member refid="group__GeneralGroup_1gaef895921e09dfff59ed30263ab3353f0" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>customCheckBox_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga7d69c77712f963358e34a99c4eb27b8a" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_custom_selection_properties</name></member>
+      <member refid="group__GeneralGroup_1ga0d7ed7302aaadf4457e4e0e381bfaedf" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_custom_window</name></member>
+      <member refid="group__GeneralGroup_1ga06b63d6e0f840a978d53ab48129df966" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_helpers</name></member>
+      <member refid="group__GeneralGroup_1ga0e5fbe43cf10672413ba99ee734efbf6" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_labels_window</name></member>
+      <member refid="group__GeneralGroup_1ga0e6e81174d86126a578915516a77134a" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_menu</name></member>
+      <member refid="group__GeneralGroup_1ga52c9719c16910b21da7ba53e511aa7cc" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_scene_list</name></member>
+      <member refid="group__GeneralGroup_1ga19f8c069859057e2b94e0581392811fd" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_scene_list_content</name></member>
+      <member refid="group__GeneralGroup_1gad8af0b75810e306754f798aa50faec9b" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_selection_properties</name></member>
+      <member refid="group__GeneralGroup_1gaf67d48be36abd965d153cd88aa0f3638" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_selection_properties_content</name></member>
+      <member refid="group__GeneralGroup_1ga8816c5eec0cd0dbf6a48ffb892cacb8e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>draw_text</name></member>
+      <member refid="group__GeneralGroup_1gafa605ceb7d771db8326713487bc76779" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>draw_viewer_window</name></member>
+      <member refid="group__GeneralGroup_1ga536aa66aca49a47e58d15a786e574cb9" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawActiveBlockingDialog_</name></member>
+      <member refid="group__GeneralGroup_1ga6eca8ec42be5e0e43ee29c4e45d12430" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawActiveList_</name></member>
+      <member refid="group__GeneralGroup_1ga74725cc224e9f050790abef346ddba93" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawActiveListButton_</name></member>
+      <member refid="group__GeneralGroup_1ga2b8f24d719c5b2f849c6a2da6a8e6a05" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawActiveNonBlockingDialogs_</name></member>
+      <member refid="group__GeneralGroup_1ga223a369cd0143ab0fd5e6d5577641ab4" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawAdvancedOptions</name></member>
+      <member refid="group__GeneralGroup_1ga67906df788caa39e03d62d6df651f050" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawBigButtonItem_</name></member>
+      <member refid="group__GeneralGroup_1gac152da8bac9875d752a7d081e66ebc44" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawCloneButton</name></member>
+      <member refid="group__GeneralGroup_1ga18077dcd5d907b01b628b87a176caf7f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawCloneSelectionButton</name></member>
+      <member refid="group__GeneralGroup_1ga3a1db6b21c215e078cc28f9410d0345f" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawCollapseButton_</name></member>
+      <member refid="group__GeneralGroup_1ga49282539dbdead7ced3a92ce1409d0c3" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawCollapsingHeader_</name></member>
+      <member refid="group__GeneralGroup_1ga5edd9fcd5ab9a62bbfda2489c6205c9e" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawCollapsingHeaderTransform_</name></member>
+      <member refid="group__GeneralGroup_1gaf76f6326506b7340794051ec1fa60782" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawComparablePropertiesEditor_</name></member>
+      <member refid="group__GeneralGroup_1gaca1d176aa04db7ea2b5d342cb0b102ac" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawCustomCheckBox</name></member>
+      <member refid="group__GeneralGroup_1ga60feeb812f9b38fdb42b0e3aa55b44f3" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawCustomSelectionInformation_</name></member>
+      <member refid="group__GeneralGroup_1ga9af6848400197f4024584b77d9a9dc55" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawDrawOptionsCheckboxes</name></member>
+      <member refid="group__GeneralGroup_1gae222c9e1c96773c161341f616707e6ce" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawDrawOptionsColors</name></member>
+      <member refid="group__GeneralGroup_1ga6454c87e178e7cc91a395fb2ce4b3c10" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawFeaturePropertiesEditor_</name></member>
+      <member refid="group__GeneralGroup_1ga53d8e6df5755a98f1e793f6bc4bf0f89" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawGeneralOptions</name></member>
+      <member refid="group__GeneralGroup_1ga1cf2af4dc1d82b20087764071b206770" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawGroupUngroupButton</name></member>
+      <member refid="group__GeneralGroup_1gaf433c2d8c1718241a40ae3b15a5b80c1" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawHeaderHelpers_</name></member>
+      <member refid="group__GeneralGroup_1gac2b0a4ece891ff060bed7ecf57645b01" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawHeaderPannel_</name></member>
+      <member refid="group__GeneralGroup_1gac2d5ada5e234407fedd50acae414feb9" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawHeaderQuickAccess_</name></member>
+      <member refid="group__GeneralGroup_1ga5c662079dee88d267ae6ae55a20fbe29" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawHelpButton_</name></member>
+      <member refid="group__GeneralGroup_1ga842d003c447ddd1af577f4cb2ffb9021" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawItemDialog_</name></member>
+      <member refid="group__GeneralGroup_1gaa55c3fbd9f75acc5b51ecba5402c8fb6" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawItemsGroup_</name></member>
+      <member refid="group__GeneralGroup_1gad91246c3334e9c7beaf92098272f9e4b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawMergeSubtreeButton</name></member>
+      <member refid="group__GeneralGroup_1ga6a60ab6a3f2d56c380d10b0911d6c7b1" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawModalMessage_</name></member>
+      <member refid="group__GeneralGroup_1ga597bf3251a597e7d18def3c23b156d45" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawNotifications_</name></member>
+      <member refid="group__GeneralGroup_1ga84850cbba56bfddc430ce99e51b91b71" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawRemoveButton</name></member>
+      <member refid="group__GeneralGroup_1ga6fc2094b16a4d78ed17836196ae98439" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawRibbonSceneInformation_</name></member>
+      <member refid="group__GeneralGroup_1gae5c7eee292020a3a3252fef4b98278c5" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawRibbonSceneList_</name></member>
+      <member refid="group__GeneralGroup_1ga99c15fc2adc0e0b9ec601cedaa53dc4b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawRibbonSceneResizeLine_</name></member>
+      <member refid="group__GeneralGroup_1gafc3d25a8a8f6b8f82503f575646ee430" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawRibbonViewportsLabels_</name></member>
+      <member refid="group__GeneralGroup_1ga035dcccea06c6fcf45d34ecb843607f9" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawSceneListButtons_</name></member>
+      <member refid="group__GeneralGroup_1ga942483ecfa0154d8246586de1560c3eb" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>DrawSceneUiSignal</name></member>
+      <member refid="group__GeneralGroup_1gae71e78bd6eb312fb03d4b7931a3d3241" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawSceneUiSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1567084f559553c43c93c235931bfdfa" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawSearchButton_</name></member>
+      <member refid="group__GeneralGroup_1ga99d49a0c86f16f2e917e71c81efe4187" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawSelectionInformation_</name></member>
+      <member refid="group__GeneralGroup_1gabfc163ec42e5bf049a816c152460856e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawSelectSubtreeButton</name></member>
+      <member refid="group__GeneralGroup_1ga361cde7981902393e0db66ef54bf937e" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawShortcutsWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga3d177f8768aa87645a633f7e5e3dd0ba" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawSmallButtonsSet_</name></member>
+      <member refid="group__GeneralGroup_1gad0d582e1904c2ad88eee5f4bfe814f83" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>DrawTabConfig</name></member>
+      <member refid="group__GeneralGroup_1ga0df92b241b5b7ddcc8f855ed329f2eeb" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTagInformation_</name></member>
+      <member refid="group__GeneralGroup_1gab54d2add039ebbbdb20f83d97b45ab9b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawTopPanel_</name></member>
+      <member refid="group__GeneralGroup_1ga74de55fb9baffb8d206a32782cf194b2" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTopPanelOpened_</name></member>
+      <member refid="group__GeneralGroup_1ga318c4a57bcb4a30a7620d3c954668c5a" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>drawTransform_</name></member>
+      <member refid="group__GeneralGroup_1gaed3d5ce11a8471f66e67bb6997bd6e54" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>drawTransformContextMenu_</name></member>
+      <member refid="group__GeneralGroup_1ga9603f5d80ca9f918df4d86d0a40a94ab" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>editedFeatureObject_</name></member>
+      <member refid="group__GeneralGroup_1ga6afa105ae1f7116d82db1d5068aef0ef" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>editedFeatureObjectOldXf_</name></member>
+      <member refid="group__GeneralGroup_1gaa2d17638d5eae8d84052a441927c8e2e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>enableSavedDialogPositions</name></member>
+      <member refid="group__GeneralGroup_1gab1c3276976baf58b98027bcd729eb536" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>endTopPanel_</name></member>
+      <member refid="group__GeneralGroup_1ga8f01e9d7c731a69186508c03397c09f1" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>expandObjectTreeAndScroll</name></member>
+      <member refid="group__GeneralGroup_1gaca84b210ea3b4853487a073ab51ee99e" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>finishFrame</name></member>
+      <member refid="group__GeneralGroup_1gae93d370f0f4950d0cb6c7c7ebbe6a6d9" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>fixViewportsSize_</name></member>
+      <member refid="group__GeneralGroup_1gaf5677bcbb4776e2670fad996581794b9" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>fontManager_</name></member>
+      <member refid="group__GeneralGroup_1ga5ddf7775cb2ef343f9725d01c61e655b" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>frameTimeMillisecThreshold_</name></member>
+      <member refid="group__GeneralGroup_1gaf87aa13ddadb0bc96103d7ce892a88b9" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getActiveTabIndex</name></member>
+      <member refid="group__GeneralGroup_1ga4cce1421ecc6e05c9d0f5dc3d5a8c74f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getAutoCloseBlockingPlugins</name></member>
+      <member refid="group__GeneralGroup_1gae5d94dd8a1dc073888a8e0424f6bdfa5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getCurrentContext</name></member>
+      <member refid="group__GeneralGroup_1gaafbb9fbb81efc86a0331f89e181268cb" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getFontManager</name></member>
+      <member refid="group__GeneralGroup_1gaa42442fae2b45f724400fbfa87716738" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getLastFocusedPlugin</name></member>
+      <member refid="group__GeneralGroup_1gac60708d073d431fe51934044e473b07c" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>getMenuFontPath</name></member>
+      <member refid="group__GeneralGroup_1gae8f7513715e9612b9c4a4e5b9005382c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getMenuUIConfig</name></member>
+      <member refid="group__GeneralGroup_1ga3f2b825159346f39db3cde812e624bfb" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>getRequirements_</name></member>
+      <member refid="group__GeneralGroup_1gae0840c947fea974de909fbaee8e7829e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getRibbonButtonDrawer</name></member>
+      <member refid="group__GeneralGroup_1gab0cfd87f2c0b8073dbdd093be4e7eb2f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getRibbonNotifier</name></member>
+      <member refid="group__GeneralGroup_1ga6991399e6f33fd30c2ddf2482fa849c0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getSceneInfoItemWidth_</name></member>
+      <member refid="group__GeneralGroup_1ga0d3348b637e1e6672669ff2da445a8e8" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getSceneObjectsList</name></member>
+      <member refid="group__GeneralGroup_1ga5904f7f7bd80695bec495d8079cd9e42" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getSceneSize</name></member>
+      <member refid="group__GeneralGroup_1ga6313d10e2b78aadec08af6df6ce0df6b" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getShortcutManager</name></member>
+      <member refid="group__GeneralGroup_1ga71eee39290bad9e423c351d3e5199f06" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getShowShortcuts</name></member>
+      <member refid="group__GeneralGroup_1ga94d45ffa94d1720d85a4120b6e769b55" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getStoredColor_</name></member>
+      <member refid="group__GeneralGroup_1gaccfa4d95ab6fdfea5313e29cf32417bd" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getToolbar</name></member>
+      <member refid="group__GeneralGroup_1gae0972a03e4e4507e77657b90ec8b08fd" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getTopPanelCurrentHeight</name></member>
+      <member refid="group__GeneralGroup_1ga527fe41687fdc31790622eff98c59402" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getTopPanelHiddenHeight</name></member>
+      <member refid="group__GeneralGroup_1ga079f402544435dce5e38c654ca9c604c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getTopPanelOpenedHeight</name></member>
+      <member refid="group__GeneralGroup_1ga12da43f010acf739a8eccfc33ecdeb04" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>getUiRenderManager</name></member>
+      <member refid="group__GeneralGroup_1ga1e1cc9fce0ffe6ffb4bb3920f586cefb" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>getUserScaling</name></member>
+      <member refid="group__GeneralGroup_1ga42ad9dbceb71795dfcc7faec3a4fada5" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hasActiveBlockingItem</name></member>
+      <member refid="group__GeneralGroup_1ga031930c9c0f444b92a9252828cfa3ef4" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hasAnyActiveItem</name></member>
+      <member refid="group__GeneralGroup_1gac28c9493029fa946734f3ed3980b6a68" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hidpi_scaling</name></member>
+      <member refid="group__GeneralGroup_1ga56862fe69e7b443b52c3ec99d13981a0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>hidpi_scaling_</name></member>
+      <member refid="group__GeneralGroup_1ga49daca6118b0fa3460e5f9c85d2f8070" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>highlightBlocking_</name></member>
+      <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217aac4ef274f96fe2180181b165f1a20f43" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Horizontal</name></member>
+      <member refid="group__GeneralGroup_1gab3558b78d7b0ae1292fb5aee66287285" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>informationHeight_</name></member>
+      <member refid="group__GeneralGroup_1ga75ae516e9ba2cc3916a137c3b723da57" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga3425b4fd87149a0b1038c2caf99fb4ab" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>initBackend</name></member>
+      <member refid="group__GeneralGroup_1ga46a9c1a6ee76ad876cce3d279b8a825f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1ga44726097595253c81b8abae8fe5fe91f" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>invertedRotation_</name></member>
+      <member refid="group__GeneralGroup_1ga3af61c19b91ea2126bb2ffdea304cba9" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>isSavedDialogPositionsEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga44506d22fa2c6befeaf375791931282e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>isTopPannelPinned</name></member>
+      <member refid="group__GeneralGroup_1ga981b9e4f52d4679a09fbbca4dab08573" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>itemPressed_</name></member>
+      <member refid="group__GeneralGroup_1gae809764ef8ca8203ef9f26e34abb2c2f" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>lastRenameObj_</name></member>
+      <member refid="group__GeneralGroup_1ga9bbdaa0865f099c7e385ac1ea6b7bbf3" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>load_font</name></member>
+      <member refid="group__GeneralGroup_1ga96f0bc9450fbe39ac5e90abcbc52c36a" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Local</name></member>
+      <member refid="group__GeneralGroup_1gad09d9b751f97c0d1e2ba46c849392a7c" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>mainWindowPos_</name></member>
+      <member refid="group__GeneralGroup_1ga348b708be326f0e5f3a65a9be9f143b9" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>mainWindowSize_</name></member>
+      <member refid="group__GeneralGroup_1ga0e7dfc4d1ce4492b22b5430476500520" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_color_selector</name></member>
+      <member refid="group__GeneralGroup_1ga47c3996c85c24d180bec9f89358e666e" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_light_strength</name></member>
+      <member refid="group__GeneralGroup_1ga344b3a7a1c2340b70efb4c3d5ffa920f" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_points_discretization</name></member>
+      <member refid="group__GeneralGroup_1ga0b9508550f2dc503c7e8bfe4d20c6756" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_slider</name></member>
+      <member refid="group__GeneralGroup_1ga2cde4a8f3fa825bbab90240c16545c1a" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_visualize_checkbox</name></member>
+      <member refid="group__GeneralGroup_1ga2a967e9c0fa0dcd8845ce52d4b5bb065" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>make_width</name></member>
+      <member refid="group__GeneralGroup_1ga6b675470dbdebfb5d03efb515c5e8b63" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menu_scaling</name></member>
+      <member refid="group__GeneralGroup_1ga031dbe6db3d3a3fb49fae05710bc724a" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>menuUIConfig_</name></member>
+      <member refid="group__GeneralGroup_1gafea5ae3d33013ab15abbe5747b71e139" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>modalMessageType_</name></member>
+      <member refid="group__GeneralGroup_1ga870366d79164cd2f0909a5d12d551eea" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>modifiers_</name></member>
+      <member refid="group__GeneralGroup_1ga108b6e7b1762c1e145d04713a3badf63" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>NameTagClickSignal</name></member>
+      <member refid="group__GeneralGroup_1gad64a7ae50d9825e9690b7c2cae8a7cc1" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>nameTagClickSignal</name></member>
+      <member refid="group__GeneralGroup_1gacf12d9bbd08c5c2a1b528461e7294587" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>NameTagSelectionMode</name></member>
+      <member refid="group__GeneralGroup_1ga4e9570d57a509d6e4a02c3893c617fe4" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>needModalBgChange_</name></member>
+      <member refid="group__GeneralGroup_1gae3cde2b3ee8000617184405042f8407f" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>notifier_</name></member>
+      <member refid="group__GeneralGroup_1gaabb7d476614f65f1d63a7135ffb63a18" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>oldLabelParams_</name></member>
+      <member refid="group__GeneralGroup_1ga7906a1932a537af9cea6a47dcc68a00d" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onCharPressed_</name></member>
+      <member refid="group__GeneralGroup_1ga0e858510ba6a8fd6ef7f6a8875c6c36d" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onKeyDown_</name></member>
+      <member refid="group__GeneralGroup_1ga3b05cbee00a414bd0c9184b9563abff0" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onKeyRepeat_</name></member>
+      <member refid="group__GeneralGroup_1ga753fd5393ff4b24834ef25607ca2eaf4" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onKeyUp_</name></member>
+      <member refid="group__GeneralGroup_1ga5b4a5520d05a30f780c06a061325e121" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga6fcea5fac57d33dc003165a9ece2b51b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1ga294419b7fa4605c3e9d701e12368445e" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onMouseScroll_</name></member>
+      <member refid="group__GeneralGroup_1ga4698fb9422936fc36f43f4dcb02fb3d2" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga1b9011fe50941846005d4ee62a1b7e1e" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>openedMaxSecs_</name></member>
+      <member refid="group__GeneralGroup_1ga0a63cb85d39c61c8d5ea0111658976ff" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>openedTimer_</name></member>
+      <member refid="group__GeneralGroup_1gaeb9475e92afc11246ebbc3f39dadebf9" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>openToolbarCustomize</name></member>
+      <member refid="group__GeneralGroup_1ga7490e418a373fbd6573c352908bfdad1" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Pinned</name></member>
+      <member refid="group__GeneralGroup_1gab638723ae879c04abcf7677c3975e255" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>pinTopPanel</name></member>
+      <member refid="group__GeneralGroup_1ga68decea45636d9cf3ddd402a7ed91222" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pixel_ratio</name></member>
+      <member refid="group__GeneralGroup_1ga864fd56e49c33e4847536e2665132196" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pixel_ratio_</name></member>
+      <member refid="group__GeneralGroup_1gad68df6b8216d5bb1c4b0b0d0ed0147c4" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>pollEventsInPreDraw</name></member>
+      <member refid="group__GeneralGroup_1ga43c1faf504ab05faff5dd7aadbf0ce81" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>popUpRenameBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga551ad5455fbfb7e59f498036018a9b1b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>postFocus_</name></member>
+      <member refid="group__GeneralGroup_1gad3c1eb063654b601259d343d6644e863" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>postRescale_</name></member>
+      <member refid="group__GeneralGroup_1ga9435ce4367ec159b1b5746aaafcc5652" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>postResize_</name></member>
+      <member refid="group__GeneralGroup_1gaed028910bb5ce3eedfa0802afa5e040d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>prevFrameFocusPlugin_</name></member>
+      <member refid="group__GeneralGroup_1ga8d13b702d7c6dad7794328080b6562e0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>prevFrameSelectedObjectsCache_</name></member>
+      <member refid="group__GeneralGroup_1gaed6ba0bf1f0630bcf43a1a070149b088" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>pushNotification</name></member>
+      <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217adc0daeba4c8bbd059be0547682073d26" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Quad</name></member>
+      <member refid="group__GeneralGroup_1ga566e74703b12f0c2cd8873fe0ca33e50" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>readMenuItemsStructure_</name></member>
+      <member refid="group__GeneralGroup_1gac80823b6e10ba2e99fca77006ffb7dc4" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>readQuickAccessList</name></member>
+      <member refid="group__GeneralGroup_1ga9859a64886007cc8433d38e0ab48ed66" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>reload_font</name></member>
+      <member refid="group__GeneralGroup_1gae9bb69c3589e2a7be927ce74e0b1f2ac" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>renameBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga76cda98d1dc4caae438ec0501f7bde8f" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>rescaleStyle_</name></member>
+      <member refid="group__GeneralGroup_1gaa074446a9a5446cd760d9246633c5045" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>resetQuickAccessList</name></member>
+      <member refid="group__GeneralGroup_1gaa34b69e6496e1988fcf4618bd5275b26" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>RibbonMenu</name></member>
+      <member refid="group__GeneralGroup_1ga69ba22274265966f6ddc7eabf3eb78a9" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>savedDialogPositionEnabled_</name></member>
+      <member refid="group__GeneralGroup_1ga7d0715a8cba151ac2cf1b9260c778350" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sceneObjectsList_</name></member>
+      <member refid="group__GeneralGroup_1gae386af7889ce33a8c3d0ceb71e1ca81c" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sceneSize_</name></member>
+      <member refid="group__GeneralGroup_1ga503f28da6e0267912172f146e9e5ecea" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sceneWindowPos_</name></member>
+      <member refid="group__GeneralGroup_1ga1995588bf4401620b33e1a4e6ed8c15d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sceneWindowSize_</name></member>
+      <member refid="group__GeneralGroup_1gac86c4630adf085f601be813f0d81b827" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>searcher_</name></member>
+      <member refid="group__GeneralGroup_1ga493d46d4f1ecabb263dc5528086e2660" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>searchPluginsString_</name></member>
+      <member refid="group__GeneralGroup_1ga25d70db427b76e61497c7fe1c62ac778" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectedViewport_</name></member>
+      <member refid="group__GeneralGroup_1gaca4f11387f1bcb127e2e9dfd5eef27fa" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectionChangedToSingleObj_</name></member>
+      <member refid="group__GeneralGroup_1ga53309002abe5f491c36f5ef71490a8e9" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectionLocalBox_</name></member>
+      <member refid="group__GeneralGroup_1gac8a4b5b373c2e5ab3e633a34fd148f12" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>selectionWorldBox_</name></member>
+      <member refid="group__GeneralGroup_1ga175b4ff452a54f2c42cf45767732d435" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setActiveListPos</name></member>
+      <member refid="group__GeneralGroup_1gaa5c9439e803a30622f7ecfeee5e7091d" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setAutoCloseBlockingPlugins</name></member>
+      <member refid="group__GeneralGroup_1gae2e7e583583cdbdbb47b0e02f01cabea" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setCustomContextCheckbox</name></member>
+      <member refid="group__GeneralGroup_1ga6e83c3a2b5060c5372ee9c2bb1157282" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setDrawTimeMillisecThreshold</name></member>
+      <member refid="group__GeneralGroup_1ga1ff3e6eb8d078f9be90f61e18065f9ae" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>setMenuUIConfig</name></member>
+      <member refid="group__GeneralGroup_1ga760f379753472105d9f5cbefaeecc741" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setObjectTreeState</name></member>
+      <member refid="group__GeneralGroup_1ga97c470b0974a29e162afe5b7393113e3" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>setQuickAccessListVersion</name></member>
+      <member refid="group__GeneralGroup_1gafefdd706402e7ad5daf3433c54ae87dc" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setSceneSize</name></member>
+      <member refid="group__GeneralGroup_1ga86b80144e3a19e663a44c52daa73f55d" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setShowShortcuts</name></member>
+      <member refid="group__GeneralGroup_1ga0b8580dee2b479f1b332f441905c330d" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setTopPanelMaxOpenedTimer</name></member>
+      <member refid="group__GeneralGroup_1gaabaa3a2750696ccfb5e18682b7c7638b" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>setupItemsGroup_</name></member>
+      <member refid="group__GeneralGroup_1ga3e0bbf51d01df0169ab4de593b8f3e95" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>setupItemsGroupConfig_</name></member>
+      <member refid="group__GeneralGroup_1ga1d80aef71da13b99c1360a4180110f25" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>setupShortcuts_</name></member>
+      <member refid="group__GeneralGroup_1gae1070bda705ced4859b5b72a381c0432" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>setUserScaling</name></member>
+      <member refid="group__GeneralGroup_1gaf12f28cc32062db2ff2e65a8abeab3ca" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>shortcutManager_</name></member>
+      <member refid="group__GeneralGroup_1ga0fb26215796f94ee53da988ac6bf07e7" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showActiveList</name></member>
+      <member refid="group__GeneralGroup_1gaf0b38f50d2a1f161806e3cdca4a7846c" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showEditTag_</name></member>
+      <member refid="group__GeneralGroup_1ga9d77cd28320ae4333fc7e5b9c5a4d38b" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showInfoModal_</name></member>
+      <member refid="group__GeneralGroup_1ga2a048091853e02ff674893add9adf7e3" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>showModalMessage</name></member>
+      <member refid="group__GeneralGroup_1ga09e144807f360fa5ae2c48aa130a940d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showRenameModal_</name></member>
+      <member refid="group__GeneralGroup_1ga02f96b228edc61b7c42ab06b759d6f5d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showShortcuts_</name></member>
+      <member refid="group__GeneralGroup_1gab14610cb6f67cd8617dd1750924c854f" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>showStatistics_</name></member>
+      <member refid="group__GeneralGroup_1ga304f2add3b4e9221b6accdcf46c2bb68" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1ga95c82c0734872d0f3d937e4653c60574" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>simulateNameTagClick</name></member>
+      <member refid="group__GeneralGroup_1gaa3b2a929f13cffa8c834e72a56c9dc94" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>simulateNameTagClickWithKeyboardModifiers</name></member>
+      <member refid="group__GeneralGroup_1ga4235036156971a18b7ef3ad2e50c0291" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Single</name></member>
+      <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217a16ee997f93f02c6f4f9374faac3d45d2" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Single</name></member>
+      <member refid="group__GeneralGroup_1ga5ccd24b000bbc0b039ffa0d64d0d58e4" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>sortObjectsRecursive_</name></member>
+      <member refid="group__GeneralGroup_1ga4060b3a583e77e5b681d7fb9ecc49846" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>spaceMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1gad16e3a9ef41b44123e96565a98582cda" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>spaceMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1ga917a445993fd54f9097b63dd7377c691" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>startFrame</name></member>
+      <member refid="group__GeneralGroup_1ga42944b2f8a7080c6a06c93633f97cb4c" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>storedColor_</name></member>
+      <member refid="group__GeneralGroup_1ga030eb50192d51050ab5c5aa34e63929d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>storedModalMessage_</name></member>
+      <member refid="group__GeneralGroup_1gad03e656d4344c5a4266fa1ae56827d6c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>TabChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1gafd52ffe86f76c1dcae019262f3722fd3" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tabChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga8bb8f40cba94a969573fe41fd42cc1cb" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tabPanelScroll_</name></member>
+      <member refid="group__GeneralGroup_1gafa4ddd1abc45868c85e00d51ff1bee16" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tagEditorState_</name></member>
+      <member refid="group__GeneralGroup_1ga642eba300ae802eed145b8f3df8eb9c5" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tagNewName_</name></member>
+      <member refid="group__GeneralGroup_1ga943f8a972e6fd6e1c85ceed8a570dd03" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>toolbar_</name></member>
+      <member refid="group__GeneralGroup_1gab36bd1545f96a4f5df1289ab88be741f" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>topPanelHiddenHeight_</name></member>
+      <member refid="group__GeneralGroup_1ga529d097846dbeb6b6c920552ed4fdcc8" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>topPanelOpenedHeight_</name></member>
+      <member refid="group__GeneralGroup_1gae066809443102cbe5292c380ceb24331" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadRotateGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1gab17e611f2f8ceb1096d1ea82e52fa819" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadRotateGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1gad643f6137f4b2d4869a009a40f716346" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadRotateGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga16d62bdb2a3278ade5f315b24ed2477c" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadSwipeGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1gaff463379fb884a74986f40aff951fb64" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadSwipeGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga346d5dfb27bcdd169d5a51702396da40" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadSwipeGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga1065bf25259c52604ca9fb26da03cd6a" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadZoomGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1ga772230273af61c56a22656823bc62403" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadZoomGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga6e66701283ee97b5ff913eb99b22b975" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>touchpadZoomGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga230fe187c275ff7b61d5ca8f40d2088e" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>transformClipboardText_</name></member>
+      <member refid="group__GeneralGroup_1gadd021abfb6808482ea3aa86a8db32522" prot="private" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>transformHeight_</name></member>
+      <member refid="group__GeneralGroup_1ga6695a9712b5cfa0478fc548bb675085a" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>tryRenameSelectedObject</name></member>
+      <member refid="group__GeneralGroup_1gac676c6482bdbd381c6a69ec47774f8eb" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>uiRenderManager_</name></member>
+      <member refid="group__GeneralGroup_1gafd9b841be73749d7e6b9ccbd81ba5afd" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>uniformScale_</name></member>
+      <member refid="group__GeneralGroup_1gafc750c1fa4b01d0cdf604d601194f436" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>updateItemStatus</name></member>
+      <member refid="group__GeneralGroup_1gad83984d816bde0619ef416625513f3e8" prot="protected" virt="virtual"><scope>MR::RibbonMenu</scope><name>updateTopPanelSize_</name></member>
+      <member refid="group__GeneralGroup_1gaa80cfb0d46a306f3db6578f73214759d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>userScaling_</name></member>
+      <member refid="group__GeneralGroup_1gga2fc0e85a12011b7f97ae8de0c9174217a2ab058d39efcb9723ff4e31b061058b0" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>Vertical</name></member>
+      <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>viewer</name></member>
+      <member refid="group__GeneralGroup_1ga2fc0e85a12011b7f97ae8de0c9174217" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>ViewportConfigurations</name></member>
+      <member refid="group__GeneralGroup_1ga22b27718dfcaa0c7a6c683598c89b75d" prot="protected" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>xfHistUpdated_</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1ga019c89ffbf679cc555e78b3e56ab52cd" prot="public" virt="non-virtual"><scope>MR::RibbonMenu</scope><name>~RibbonMenu</name></member>
+      <member refid="group__GeneralGroup_1gad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::RibbonMenu</scope><name>~ViewerPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DividePolylineParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DividePolylineParameters</compoundname>
+    <includes refid="MRPolylineTrimWithPlane_8h" local="no">MRPolylineTrimWithPlane.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga980edf71338a26044da6655e80f5d8bd" kind="variable"><name>onEdgeSplitCallback</name></member>
+      <member refid="group__GeneralGroup_1gaec036aa36c10ac45b9ef07682adb3350" kind="variable"><name>closeLineAfterCut</name></member>
+      <member refid="group__GeneralGroup_1ga0dd7e0ac90d0f63dc7e3903f3107a461" kind="variable"><name>outVmap</name></member>
+      <member refid="group__GeneralGroup_1ga78d5c2ea44136f73fe510d5950043a30" kind="variable"><name>outEmap</name></member>
+      <member refid="group__GeneralGroup_1gafe467eddfbfbcdf62b13cc9947b6eb00" kind="variable"><name>otherPart</name></member>
+      <member refid="group__GeneralGroup_1gac9aa163bbc5ba58ba30ce0dc8ba7a644" kind="variable"><name>otherOutVmap</name></member>
+      <member refid="group__GeneralGroup_1ga60aae2de01f58e5dfacacd1fc3e0f59c" kind="variable"><name>otherOutEmap</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTrimWithPlane.h" bodystart="20" bodyend="36"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaec036aa36c10ac45b9ef07682adb3350" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>closeLineAfterCut</name></member>
+      <member refid="group__GeneralGroup_1ga980edf71338a26044da6655e80f5d8bd" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>onEdgeSplitCallback</name></member>
+      <member refid="group__GeneralGroup_1ga60aae2de01f58e5dfacacd1fc3e0f59c" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherOutEmap</name></member>
+      <member refid="group__GeneralGroup_1gac9aa163bbc5ba58ba30ce0dc8ba7a644" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherOutVmap</name></member>
+      <member refid="group__GeneralGroup_1gafe467eddfbfbcdf62b13cc9947b6eb00" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>otherPart</name></member>
+      <member refid="group__GeneralGroup_1ga78d5c2ea44136f73fe510d5950043a30" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>outEmap</name></member>
+      <member refid="group__GeneralGroup_1ga0dd7e0ac90d0f63dc7e3903f3107a461" prot="public" virt="non-virtual"><scope>MR::DividePolylineParameters</scope><name>outVmap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMeshBuilderTypes_8h" kind="file" language="C++">
+    <compoundname>MRMeshBuilderTypes.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">MRCMisc/std_array_MR_VertId_3.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMeshBuilderTypes.h</label>
+        <link refid="MRMeshBuilderTypes_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="7">
+        <label>MRCMisc/std_array_MR_VertId_3.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMeshBuilderTypes_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
+        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" prot="public" static="no">
+        <type>struct <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref></type>
+        <definition>typedef struct MR_MeshBuilder_Triangle MR_MeshBuilder_Triangle</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshBuilder_Triangle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>mesh triangle represented by its three vertices and by its face ID Generated from class <computeroutput>MR::MeshBuilder::Triangle</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="20" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshBuilderTypes_8h_1ad64e870545f55932379857e2c2d7eafb" prot="public" static="no">
+        <type>struct <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref></type>
+        <definition>typedef struct MR_MeshBuilder_BuildSettings MR_MeshBuilder_BuildSettings</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshBuilder_BuildSettings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="24" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" prot="public" static="no">
+        <type>struct <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref></type>
+        <definition>typedef struct MR_MeshBuilder_VertSpan MR_MeshBuilder_VertSpan</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshBuilder_VertSpan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="29" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a1e6520b2dd436043876e12b9a84ff091" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref> *</type>
+        <definition>MRC_API const MR_std_array_MR_VertId_3 * MR_MeshBuilder_Triangle_Get_v</definition>
+        <argsstring>(const MR_MeshBuilder_Triangle *_this)</argsstring>
+        <name>MR_MeshBuilder_Triangle_Get_v</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="35" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="35" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a0d9929ac835c5be6336665b8738e3631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_Triangle_Set_v</definition>
+        <argsstring>(MR_MeshBuilder_Triangle *_this, MR_std_array_MR_VertId_3 value)</argsstring>
+        <name>MR_MeshBuilder_Triangle_Set_v</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>v</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>v</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5f16e885559ee59bd17de7fafcd780a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref> *</type>
+        <definition>MRC_API MR_std_array_MR_VertId_3 * MR_MeshBuilder_Triangle_GetMutable_v</definition>
+        <argsstring>(MR_MeshBuilder_Triangle *_this)</argsstring>
+        <name>MR_MeshBuilder_Triangle_GetMutable_v</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>v</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="47" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="47" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a4c0f6a9586924a6a5322920b87545c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <definition>MRC_API const MR_FaceId * MR_MeshBuilder_Triangle_Get_f</definition>
+        <argsstring>(const MR_MeshBuilder_Triangle *_this)</argsstring>
+        <name>MR_MeshBuilder_Triangle_Get_f</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="53" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="53" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aea8025f87a1fb9ef0711dbe199361907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_Triangle_Set_f</definition>
+        <argsstring>(MR_MeshBuilder_Triangle *_this, MR_FaceId value)</argsstring>
+        <name>MR_MeshBuilder_Triangle_Set_f</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>f</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>f</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a0a2a9244733fed6cc952b8de142aeec9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_FaceId * MR_MeshBuilder_Triangle_GetMutable_f</definition>
+        <argsstring>(MR_MeshBuilder_Triangle *_this)</argsstring>
+        <name>MR_MeshBuilder_Triangle_GetMutable_f</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::Triangle</computeroutput> named <computeroutput>f</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="65" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="65" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5acc83156b55c5260167dd6b74c22cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_Triangle * MR_MeshBuilder_Triangle_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshBuilder_Triangle_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" kindref="member">MR_MeshBuilder_Triangle_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="69" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="69" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aeac67dc2f8dd8dbb73ec859385b3c822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_Triangle * MR_MeshBuilder_Triangle_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshBuilder_Triangle_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshBuilderTypes_8h_1ae7f8de4ae1d260eb9c7026e9316cd7cc" kindref="member">MR_MeshBuilder_Triangle_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a1f8815a928d6727faeb08061c76892dd" kindref="member">MR_MeshBuilder_Triangle_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshBuilderTypes_8h_1aff3ca670c51b7aed11614bb7d7137a4c" kindref="member">MR_MeshBuilder_Triangle_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="74" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="74" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aff3ca670c51b7aed11614bb7d7137a4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+        <definition>MRC_API const MR_MeshBuilder_Triangle * MR_MeshBuilder_Triangle_OffsetPtr</definition>
+        <argsstring>(const MR_MeshBuilder_Triangle *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_Triangle_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="78" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="78" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a1f8815a928d6727faeb08061c76892dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_Triangle * MR_MeshBuilder_Triangle_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshBuilder_Triangle *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_Triangle_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="82" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="82" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a8a52811677673ee7387795150d21f071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_Triangle * MR_MeshBuilder_Triangle_ConstructFromAnother</definition>
+        <argsstring>(const MR_MeshBuilder_Triangle *_other)</argsstring>
+        <name>MR_MeshBuilder_Triangle_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshBuilder::Triangle::Triangle</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" kindref="member">MR_MeshBuilder_Triangle_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="88" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="88" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a6c011662a6f7aeb138d9e327c44edc0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_Triangle * MR_MeshBuilder_Triangle_Construct</definition>
+        <argsstring>(MR_VertId a, MR_VertId b, MR_VertId c, MR_FaceId f)</argsstring>
+        <name>MR_MeshBuilder_Triangle_Construct</name>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshBuilder::Triangle::Triangle</computeroutput>. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>c</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>f</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" kindref="member">MR_MeshBuilder_Triangle_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="96" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="96" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_Triangle_Destroy</definition>
+        <argsstring>(const MR_MeshBuilder_Triangle *_this)</argsstring>
+        <name>MR_MeshBuilder_Triangle_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_Triangle</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="99" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="99" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ae7f8de4ae1d260eb9c7026e9316cd7cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_Triangle_DestroyArray</definition>
+        <argsstring>(const MR_MeshBuilder_Triangle *_this)</argsstring>
+        <name>MR_MeshBuilder_Triangle_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_Triangle</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="102" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="102" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a43cf3f3189c9c4e31b0efc458cd6e10b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_Triangle * MR_MeshBuilder_Triangle_AssignFromAnother</definition>
+        <argsstring>(MR_MeshBuilder_Triangle *_this, const MR_MeshBuilder_Triangle *_other)</argsstring>
+        <name>MR_MeshBuilder_Triangle_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshBuilder::Triangle::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="110" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="110" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a9bd6baeb09eacd882668e5a3019a0256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_equal_MR_MeshBuilder_Triangle</definition>
+        <argsstring>(const MR_MeshBuilder_Triangle *_this, const MR_MeshBuilder_Triangle *other)</argsstring>
+        <name>MR_equal_MR_MeshBuilder_Triangle</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref> *</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshBuilder::Triangle::operator==</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>other</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="115" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="115" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a75a1141edf3b0e83e4cd786496ba2f04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <definition>MRC_API MR_FaceBitSet *const  * MR_MeshBuilder_BuildSettings_Get_region</definition>
+        <argsstring>(const MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_Get_region</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if region is given then on input it contains the faces to be added, and on output the faces failed to be added Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="122" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="122" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5f0b66ff52b8438665b401ac9b659eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_BuildSettings_Set_region</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *_this, MR_FaceBitSet *value)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_Set_region</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if region is given then on input it contains the faces to be added, and on output the faces failed to be added Modifies a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="129" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a41bc9dc72790ede0966dee326f5be25e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <definition>MRC_API MR_FaceBitSet ** MR_MeshBuilder_BuildSettings_GetMutable_region</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_GetMutable_region</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if region is given then on input it contains the faces to be added, and on output the faces failed to be added Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="136" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="136" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a167ce01b0e22735d7745da4dd0857cb8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_MeshBuilder_BuildSettings_Get_shiftFaceId</definition>
+        <argsstring>(const MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_Get_shiftFaceId</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this value to be added to every faceId before its inclusion in the topology Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>shiftFaceId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="143" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="143" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1acefed392af3face81614d3d0e3954808" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_BuildSettings_Set_shiftFaceId</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *_this, int value)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_Set_shiftFaceId</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this value to be added to every faceId before its inclusion in the topology Modifies a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>shiftFaceId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>shiftFaceId</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="149" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1af1b9c9804f79936fbb1d3dbe7a7a079e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_MeshBuilder_BuildSettings_GetMutable_shiftFaceId</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_GetMutable_shiftFaceId</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this value to be added to every faceId before its inclusion in the topology Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>shiftFaceId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="156" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="156" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a179cf37b07f0c40ced5863b95691567f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_MeshBuilder_BuildSettings_Get_allowNonManifoldEdge</definition>
+        <argsstring>(const MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_Get_allowNonManifoldEdge</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>whether to permit non-manifold edges in the resulting topology Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>allowNonManifoldEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="163" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="163" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a1dc2563769a74ab1a03826ab1834e165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_BuildSettings_Set_allowNonManifoldEdge</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *_this, bool value)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_Set_allowNonManifoldEdge</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>whether to permit non-manifold edges in the resulting topology Modifies a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>allowNonManifoldEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>allowNonManifoldEdge</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="169" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="169" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a7ae8aa23396c9bbbdce93458a8012924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_MeshBuilder_BuildSettings_GetMutable_allowNonManifoldEdge</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_GetMutable_allowNonManifoldEdge</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>whether to permit non-manifold edges in the resulting topology Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>allowNonManifoldEdge</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="176" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="176" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ab6d2bbff4c116caaf4f9e36da69e3b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *const *</type>
+        <definition>MRC_API int *const  * MR_MeshBuilder_BuildSettings_Get_skippedFaceCount</definition>
+        <argsstring>(const MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_Get_skippedFaceCount</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: counter of skipped faces during mesh creation Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="183" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="183" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a72de0d87d625146abf288356f9b7f6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_BuildSettings_Set_skippedFaceCount</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *_this, int *value)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_Set_skippedFaceCount</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: counter of skipped faces during mesh creation Modifies a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>skippedFaceCount</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>skippedFaceCount</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="190" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="190" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a80f12f1f17f207ce8fdbf8db99dfb5a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int **</type>
+        <definition>MRC_API int ** MR_MeshBuilder_BuildSettings_GetMutable_skippedFaceCount</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_GetMutable_skippedFaceCount</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional output: counter of skipped faces during mesh creation Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> named <computeroutput>skippedFaceCount</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="197" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="197" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aa7fe7c7fa51f472d6377cc38866e9754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_BuildSettings * MR_MeshBuilder_BuildSettings_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" kindref="member">MR_MeshBuilder_BuildSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="201" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="201" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ab69eb53d86920ff5984b9445f100856a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_BuildSettings * MR_MeshBuilder_BuildSettings_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a41cadd20aef0228b368fd7564549097b" kindref="member">MR_MeshBuilder_BuildSettings_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a61bd0a8c88a2c98c0ed0b3ac3486cede" kindref="member">MR_MeshBuilder_BuildSettings_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshBuilderTypes_8h_1ac01620d0e594e6aba50e7443d722f5b3" kindref="member">MR_MeshBuilder_BuildSettings_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="206" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="206" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ae98d4bdbd7eb8dea105b85ec24dc416b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_BuildSettings * MR_MeshBuilder_BuildSettings_ConstructFrom</definition>
+        <argsstring>(MR_FaceBitSet *region, int shiftFaceId, bool allowNonManifoldEdge, int *skippedFaceCount)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_ConstructFrom</name>
+        <param>
+          <type><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shiftFaceId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allowNonManifoldEdge</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>skippedFaceCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MeshBuilder::BuildSettings</computeroutput> elementwise. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>skippedFaceCount</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" kindref="member">MR_MeshBuilder_BuildSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="213" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="213" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ac01620d0e594e6aba50e7443d722f5b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+        <definition>MRC_API const MR_MeshBuilder_BuildSettings * MR_MeshBuilder_BuildSettings_OffsetPtr</definition>
+        <argsstring>(const MR_MeshBuilder_BuildSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="217" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="217" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a61bd0a8c88a2c98c0ed0b3ac3486cede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_BuildSettings * MR_MeshBuilder_BuildSettings_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="221" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="221" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a2a2de1c6a40d6cce78d00af1e11e9e54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_BuildSettings * MR_MeshBuilder_BuildSettings_ConstructFromAnother</definition>
+        <argsstring>(const MR_MeshBuilder_BuildSettings *_other)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshBuilder::BuildSettings::BuildSettings</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" kindref="member">MR_MeshBuilder_BuildSettings_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="227" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="227" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_BuildSettings_Destroy</definition>
+        <argsstring>(const MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_BuildSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="230" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="230" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a41cadd20aef0228b368fd7564549097b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_BuildSettings_DestroyArray</definition>
+        <argsstring>(const MR_MeshBuilder_BuildSettings *_this)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_BuildSettings</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="233" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="233" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a2b23e33518480f01fbb05b3b4bea7f44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_BuildSettings * MR_MeshBuilder_BuildSettings_AssignFromAnother</definition>
+        <argsstring>(MR_MeshBuilder_BuildSettings *_this, const MR_MeshBuilder_BuildSettings *_other)</argsstring>
+        <name>MR_MeshBuilder_BuildSettings_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshBuilder::BuildSettings::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="241" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="241" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1acaba1ff71e149e4b7d98d8739b3906a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_MeshBuilder_VertSpan_Get_firstVertex</definition>
+        <argsstring>(const MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_Get_firstVertex</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>firstVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="247" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="247" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a89cef5895e1e8891e59c9bfb9d8fb7c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_VertSpan_Set_firstVertex</definition>
+        <argsstring>(MR_MeshBuilder_VertSpan *_this, int value)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_Set_firstVertex</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>firstVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>firstVertex</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="252" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="252" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ad14b5985366de1919421367a4039cfef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_MeshBuilder_VertSpan_GetMutable_firstVertex</definition>
+        <argsstring>(MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_GetMutable_firstVertex</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>firstVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="258" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="258" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a43bd7faf8e38067bf4c5880de09eecee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_MeshBuilder_VertSpan_Get_lastVertex</definition>
+        <argsstring>(const MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_Get_lastVertex</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>lastVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="264" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="264" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a7fd5ad62104581561ed97119846edc84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_VertSpan_Set_lastVertex</definition>
+        <argsstring>(MR_MeshBuilder_VertSpan *_this, int value)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_Set_lastVertex</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>lastVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>lastVertex</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="269" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="269" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a57049a5d90be88b709766a44928f47ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_MeshBuilder_VertSpan_GetMutable_lastVertex</definition>
+        <argsstring>(MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_GetMutable_lastVertex</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> named <computeroutput>lastVertex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="275" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="275" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a045d8f8d868fe39bb18c71d2e30026e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_MeshBuilder_VertSpan_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" kindref="member">MR_MeshBuilder_VertSpan_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="279" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="279" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ab2981fc05e7f48b12f600ae495a5e5ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_MeshBuilder_VertSpan_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMeshBuilderTypes_8h_1ae78b174b56aaa459bff3ee0e81d13726" kindref="member">MR_MeshBuilder_VertSpan_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a5c1559b6f29eef39fee22bf002395dab" kindref="member">MR_MeshBuilder_VertSpan_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMeshBuilderTypes_8h_1aebcf0fba113ffa6b2408aa5d83e99758" kindref="member">MR_MeshBuilder_VertSpan_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="284" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="284" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1adb2326a1fe1152b8f02f22a05b08c798" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_MeshBuilder_VertSpan_ConstructFrom</definition>
+        <argsstring>(int firstVertex, int lastVertex)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_ConstructFrom</name>
+        <param>
+          <type>int</type>
+          <declname>firstVertex</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lastVertex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MeshBuilder::VertSpan</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" kindref="member">MR_MeshBuilder_VertSpan_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="289" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="289" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1aebcf0fba113ffa6b2408aa5d83e99758" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API const MR_MeshBuilder_VertSpan * MR_MeshBuilder_VertSpan_OffsetPtr</definition>
+        <argsstring>(const MR_MeshBuilder_VertSpan *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="293" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="293" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5c1559b6f29eef39fee22bf002395dab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_MeshBuilder_VertSpan_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshBuilder_VertSpan *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="297" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="297" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a5859fb22b0799e52518d92955e4d4de0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_MeshBuilder_VertSpan_ConstructFromAnother</definition>
+        <argsstring>(const MR_MeshBuilder_VertSpan *_other)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshBuilder::VertSpan::VertSpan</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" kindref="member">MR_MeshBuilder_VertSpan_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="303" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="303" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_VertSpan_Destroy</definition>
+        <argsstring>(const MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshBuilder_VertSpan</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="306" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="306" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1ae78b174b56aaa459bff3ee0e81d13726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshBuilder_VertSpan_DestroyArray</definition>
+        <argsstring>(const MR_MeshBuilder_VertSpan *_this)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshBuilder_VertSpan</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="309" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="309" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMeshBuilderTypes_8h_1a6fa33851637aad59bf1ec69e53f92da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+        <definition>MRC_API MR_MeshBuilder_VertSpan * MR_MeshBuilder_VertSpan_AssignFromAnother</definition>
+        <argsstring>(MR_MeshBuilder_VertSpan *_this, const MR_MeshBuilder_VertSpan *_other)</argsstring>
+        <name>MR_MeshBuilder_VertSpan_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshBuilder::VertSpan::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" line="317" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h" declline="317" declcolumn="33"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/std_array_MR_VertId_3.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRMeshBuilderTypes_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRMeshBuilderTypes_8h_1ad64e870545f55932379857e2c2d7eafb" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>each<sp/>face<sp/>is<sp/>surrounded<sp/>by<sp/>a<sp/>closed<sp/>contour<sp/>of<sp/>vertices<sp/>[fistVertex,<sp/>lastVertex)</highlight></codeline>
+<codeline lineno="29" refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRMeshBuilderTypes_8h_1a1e6520b2dd436043876e12b9a84ff091" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a1e6520b2dd436043876e12b9a84ff091" kindref="member">MR_MeshBuilder_Triangle_Get_v</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRMeshBuilderTypes_8h_1a0d9929ac835c5be6336665b8738e3631" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a0d9929ac835c5be6336665b8738e3631" kindref="member">MR_MeshBuilder_Triangle_Set_v</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRMeshBuilderTypes_8h_1a5f16e885559ee59bd17de7fafcd780a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSeparationPoint_8h_1a93a0c4d7b47d7dae609a79a31bf54018" kindref="member">MR_std_array_MR_VertId_3</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5f16e885559ee59bd17de7fafcd780a7" kindref="member">MR_MeshBuilder_Triangle_GetMutable_v</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRMeshBuilderTypes_8h_1a4c0f6a9586924a6a5322920b87545c02" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a4c0f6a9586924a6a5322920b87545c02" kindref="member">MR_MeshBuilder_Triangle_Get_f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRMeshBuilderTypes_8h_1aea8025f87a1fb9ef0711dbe199361907" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1aea8025f87a1fb9ef0711dbe199361907" kindref="member">MR_MeshBuilder_Triangle_Set_f</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRMeshBuilderTypes_8h_1a0a2a9244733fed6cc952b8de142aeec9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a0a2a9244733fed6cc952b8de142aeec9" kindref="member">MR_MeshBuilder_Triangle_GetMutable_f</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRMeshBuilderTypes_8h_1a5acc83156b55c5260167dd6b74c22cc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5acc83156b55c5260167dd6b74c22cc5" kindref="member">MR_MeshBuilder_Triangle_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRMeshBuilderTypes_8h_1aeac67dc2f8dd8dbb73ec859385b3c822" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aeac67dc2f8dd8dbb73ec859385b3c822" kindref="member">MR_MeshBuilder_Triangle_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRMeshBuilderTypes_8h_1aff3ca670c51b7aed11614bb7d7137a4c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aff3ca670c51b7aed11614bb7d7137a4c" kindref="member">MR_MeshBuilder_Triangle_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRMeshBuilderTypes_8h_1a1f8815a928d6727faeb08061c76892dd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a1f8815a928d6727faeb08061c76892dd" kindref="member">MR_MeshBuilder_Triangle_OffsetMutablePtr</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="MRMeshBuilderTypes_8h_1a8a52811677673ee7387795150d21f071" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a8a52811677673ee7387795150d21f071" kindref="member">MR_MeshBuilder_Triangle_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="MRMeshBuilderTypes_8h_1a6c011662a6f7aeb138d9e327c44edc0d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a6c011662a6f7aeb138d9e327c44edc0d" kindref="member">MR_MeshBuilder_Triangle_Construct</ref>(<ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>a,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>b,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>c,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>f);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a090495a6816d1c12ca3f0d7b8542c0ab" kindref="member">MR_MeshBuilder_Triangle_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRMeshBuilderTypes_8h_1ae7f8de4ae1d260eb9c7026e9316cd7cc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ae7f8de4ae1d260eb9c7026e9316cd7cc" kindref="member">MR_MeshBuilder_Triangle_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRMeshBuilderTypes_8h_1a43cf3f3189c9c4e31b0efc458cd6e10b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a43cf3f3189c9c4e31b0efc458cd6e10b" kindref="member">MR_MeshBuilder_Triangle_AssignFromAnother</ref>(<ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRMeshBuilderTypes_8h_1a9bd6baeb09eacd882668e5a3019a0256" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a9bd6baeb09eacd882668e5a3019a0256" kindref="member">MR_equal_MR_MeshBuilder_Triangle</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a549aa7bc469854fba9bf46cfa9e3f468" kindref="member">MR_MeshBuilder_Triangle</ref><sp/>*other);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRMeshBuilderTypes_8h_1a75a1141edf3b0e83e4cd786496ba2f04" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a75a1141edf3b0e83e4cd786496ba2f04" kindref="member">MR_MeshBuilder_BuildSettings_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRMeshBuilderTypes_8h_1a5f0b66ff52b8438665b401ac9b659eb5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a5f0b66ff52b8438665b401ac9b659eb5" kindref="member">MR_MeshBuilder_BuildSettings_Set_region</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRMeshBuilderTypes_8h_1a41bc9dc72790ede0966dee326f5be25e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRMeshBuilderTypes_8h_1a41bc9dc72790ede0966dee326f5be25e" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_region</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRMeshBuilderTypes_8h_1a167ce01b0e22735d7745da4dd0857cb8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a167ce01b0e22735d7745da4dd0857cb8" kindref="member">MR_MeshBuilder_BuildSettings_Get_shiftFaceId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRMeshBuilderTypes_8h_1acefed392af3face81614d3d0e3954808" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1acefed392af3face81614d3d0e3954808" kindref="member">MR_MeshBuilder_BuildSettings_Set_shiftFaceId</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRMeshBuilderTypes_8h_1af1b9c9804f79936fbb1d3dbe7a7a079e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1af1b9c9804f79936fbb1d3dbe7a7a079e" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_shiftFaceId</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRMeshBuilderTypes_8h_1a179cf37b07f0c40ced5863b95691567f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a179cf37b07f0c40ced5863b95691567f" kindref="member">MR_MeshBuilder_BuildSettings_Get_allowNonManifoldEdge</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRMeshBuilderTypes_8h_1a1dc2563769a74ab1a03826ab1834e165" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a1dc2563769a74ab1a03826ab1834e165" kindref="member">MR_MeshBuilder_BuildSettings_Set_allowNonManifoldEdge</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRMeshBuilderTypes_8h_1a7ae8aa23396c9bbbdce93458a8012924" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a7ae8aa23396c9bbbdce93458a8012924" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_allowNonManifoldEdge</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="MRMeshBuilderTypes_8h_1ab6d2bbff4c116caaf4f9e36da69e3b96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ab6d2bbff4c116caaf4f9e36da69e3b96" kindref="member">MR_MeshBuilder_BuildSettings_Get_skippedFaceCount</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="MRMeshBuilderTypes_8h_1a72de0d87d625146abf288356f9b7f6d3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a72de0d87d625146abf288356f9b7f6d3" kindref="member">MR_MeshBuilder_BuildSettings_Set_skippedFaceCount</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*value);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRMeshBuilderTypes_8h_1a80f12f1f17f207ce8fdbf8db99dfb5a3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<ref refid="MRMeshBuilderTypes_8h_1a80f12f1f17f207ce8fdbf8db99dfb5a3" kindref="member">MR_MeshBuilder_BuildSettings_GetMutable_skippedFaceCount</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="201" refid="MRMeshBuilderTypes_8h_1aa7fe7c7fa51f472d6377cc38866e9754" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aa7fe7c7fa51f472d6377cc38866e9754" kindref="member">MR_MeshBuilder_BuildSettings_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="MRMeshBuilderTypes_8h_1ab69eb53d86920ff5984b9445f100856a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ab69eb53d86920ff5984b9445f100856a" kindref="member">MR_MeshBuilder_BuildSettings_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="MRMeshBuilderTypes_8h_1ae98d4bdbd7eb8dea105b85ec24dc416b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ae98d4bdbd7eb8dea105b85ec24dc416b" kindref="member">MR_MeshBuilder_BuildSettings_ConstructFrom</ref>(<ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>shiftFaceId,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>allowNonManifoldEdge,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*skippedFaceCount);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="217" refid="MRMeshBuilderTypes_8h_1ac01620d0e594e6aba50e7443d722f5b3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ac01620d0e594e6aba50e7443d722f5b3" kindref="member">MR_MeshBuilder_BuildSettings_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRMeshBuilderTypes_8h_1a61bd0a8c88a2c98c0ed0b3ac3486cede" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a61bd0a8c88a2c98c0ed0b3ac3486cede" kindref="member">MR_MeshBuilder_BuildSettings_OffsetMutablePtr</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="MRMeshBuilderTypes_8h_1a2a2de1c6a40d6cce78d00af1e11e9e54" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a2a2de1c6a40d6cce78d00af1e11e9e54" kindref="member">MR_MeshBuilder_BuildSettings_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a521c85d785540fb44fb0e585c8f4099a" kindref="member">MR_MeshBuilder_BuildSettings_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRMeshBuilderTypes_8h_1a41cadd20aef0228b368fd7564549097b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a41cadd20aef0228b368fd7564549097b" kindref="member">MR_MeshBuilder_BuildSettings_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRMeshBuilderTypes_8h_1a2b23e33518480f01fbb05b3b4bea7f44" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a2b23e33518480f01fbb05b3b4bea7f44" kindref="member">MR_MeshBuilder_BuildSettings_AssignFromAnother</ref>(<ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMesh_8h_1ad64e870545f55932379857e2c2d7eafb" kindref="member">MR_MeshBuilder_BuildSettings</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="247" refid="MRMeshBuilderTypes_8h_1acaba1ff71e149e4b7d98d8739b3906a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1acaba1ff71e149e4b7d98d8739b3906a6" kindref="member">MR_MeshBuilder_VertSpan_Get_firstVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252" refid="MRMeshBuilderTypes_8h_1a89cef5895e1e8891e59c9bfb9d8fb7c8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a89cef5895e1e8891e59c9bfb9d8fb7c8" kindref="member">MR_MeshBuilder_VertSpan_Set_firstVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="258" refid="MRMeshBuilderTypes_8h_1ad14b5985366de1919421367a4039cfef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ad14b5985366de1919421367a4039cfef" kindref="member">MR_MeshBuilder_VertSpan_GetMutable_firstVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264" refid="MRMeshBuilderTypes_8h_1a43bd7faf8e38067bf4c5880de09eecee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a43bd7faf8e38067bf4c5880de09eecee" kindref="member">MR_MeshBuilder_VertSpan_Get_lastVertex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="MRMeshBuilderTypes_8h_1a7fd5ad62104581561ed97119846edc84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a7fd5ad62104581561ed97119846edc84" kindref="member">MR_MeshBuilder_VertSpan_Set_lastVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="275" refid="MRMeshBuilderTypes_8h_1a57049a5d90be88b709766a44928f47ab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a57049a5d90be88b709766a44928f47ab" kindref="member">MR_MeshBuilder_VertSpan_GetMutable_lastVertex</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="MRMeshBuilderTypes_8h_1a045d8f8d868fe39bb18c71d2e30026e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a045d8f8d868fe39bb18c71d2e30026e2" kindref="member">MR_MeshBuilder_VertSpan_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRMeshBuilderTypes_8h_1ab2981fc05e7f48b12f600ae495a5e5ed" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1ab2981fc05e7f48b12f600ae495a5e5ed" kindref="member">MR_MeshBuilder_VertSpan_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="MRMeshBuilderTypes_8h_1adb2326a1fe1152b8f02f22a05b08c798" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1adb2326a1fe1152b8f02f22a05b08c798" kindref="member">MR_MeshBuilder_VertSpan_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>firstVertex,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>lastVertex);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="MRMeshBuilderTypes_8h_1aebcf0fba113ffa6b2408aa5d83e99758" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1aebcf0fba113ffa6b2408aa5d83e99758" kindref="member">MR_MeshBuilder_VertSpan_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="MRMeshBuilderTypes_8h_1a5c1559b6f29eef39fee22bf002395dab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5c1559b6f29eef39fee22bf002395dab" kindref="member">MR_MeshBuilder_VertSpan_OffsetMutablePtr</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="MRMeshBuilderTypes_8h_1a5859fb22b0799e52518d92955e4d4de0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a5859fb22b0799e52518d92955e4d4de0" kindref="member">MR_MeshBuilder_VertSpan_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="306" refid="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1a3e7c7ebba3679f420c26b8ec650df124" kindref="member">MR_MeshBuilder_VertSpan_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="309" refid="MRMeshBuilderTypes_8h_1ae78b174b56aaa459bff3ee0e81d13726" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ae78b174b56aaa459bff3ee0e81d13726" kindref="member">MR_MeshBuilder_VertSpan_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="317" refid="MRMeshBuilderTypes_8h_1a6fa33851637aad59bf1ec69e53f92da4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*<ref refid="MRMeshBuilderTypes_8h_1a6fa33851637aad59bf1ec69e53f92da4" kindref="member">MR_MeshBuilder_VertSpan_AssignFromAnother</ref>(<ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshBuilderTypes_8h_1ab9551b9a8e23e47d28f61bc00b226409" kindref="member">MR_MeshBuilder_VertSpan</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="321"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMeshBuilderTypes.h"/>
+  </compounddef>
+</doxygen>

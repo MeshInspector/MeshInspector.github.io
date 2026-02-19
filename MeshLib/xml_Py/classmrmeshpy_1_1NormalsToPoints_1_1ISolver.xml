@@ -1,0 +1,106 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NormalsToPoints_1_1ISolver" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NormalsToPoints::ISolver</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a21bb10db0993c73616a3fcbe0de9ec29" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver" kindref="compound">NormalsToPoints.ISolver</ref></type>
+        <definition> NormalsToPoints.ISolver mrmeshpy.NormalsToPoints.ISolver.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NormalsToPoints.ISolver.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38210" bodyend="38211"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a690dd5d9a754f4d57ed3e58cc464f4da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NormalsToPoints.ISolver.prepare</definition>
+        <argsstring>(self, MeshTopology topology, float guideWeight)</argsstring>
+        <name>prepare</name>
+        <qualifiedname>mrmeshpy.NormalsToPoints.ISolver.prepare</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>guideWeight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38212" bodyend="38213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a10635e8da438aaf831941a320aa07201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NormalsToPoints.ISolver.run</definition>
+        <argsstring>(self, VertCoords guide, FaceNormals normals, VertCoords points, float maxInitialDistSq)</argsstring>
+        <name>run</name>
+        <qualifiedname>mrmeshpy.NormalsToPoints.ISolver.run</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>guide</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceNormals" kindref="compound">FaceNormals</ref></type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxInitialDistSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38214" bodyend="38216"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NormalsToPoints::ISolver
+
+pImpl
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38203" bodyend="38215"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a21bb10db0993c73616a3fcbe0de9ec29" prot="public" virt="non-virtual"><scope>mrmeshpy::NormalsToPoints::ISolver</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a690dd5d9a754f4d57ed3e58cc464f4da" prot="public" virt="non-virtual"><scope>mrmeshpy::NormalsToPoints::ISolver</scope><name>prepare</name></member>
+      <member refid="classmrmeshpy_1_1NormalsToPoints_1_1ISolver_1a10635e8da438aaf831941a320aa07201" prot="public" virt="non-virtual"><scope>mrmeshpy::NormalsToPoints::ISolver</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

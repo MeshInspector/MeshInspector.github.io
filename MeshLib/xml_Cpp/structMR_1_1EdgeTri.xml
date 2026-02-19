@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgeTri" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EdgeTri</compoundname>
+    <includes refid="MRMeshCollidePrecise_8h" local="no">MRMeshCollidePrecise.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" prot="public" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::EdgeTri::edge</definition>
+        <argsstring></argsstring>
+        <name>edge</name>
+        <qualifiedname>MR::EdgeTri::edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="18" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1EdgeTri_1ad73baa8260912b59b30536da0cb50318" prot="public" static="no" mutable="no">
+        <type>FaceId</type>
+        <definition>FaceId MR::EdgeTri::tri</definition>
+        <argsstring></argsstring>
+        <name>tri</name>
+        <qualifiedname>MR::EdgeTri::tri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="19" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1EdgeTri_1abc6f03d4ca7344789c80a99a10605739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::EdgeTri::EdgeTri</definition>
+        <argsstring>()=default</argsstring>
+        <name>EdgeTri</name>
+        <qualifiedname>MR::EdgeTri::EdgeTri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="20" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeTri_1a45de5d714a586bda433f476169bb81ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::EdgeTri::EdgeTri</definition>
+        <argsstring>(EdgeId e, FaceId t)</argsstring>
+        <name>EdgeTri</name>
+        <qualifiedname>MR::EdgeTri::EdgeTri</qualifiedname>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FaceId</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>edge from one mesh and triangle from another mesh </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="17" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structMR_1_1EdgeTri_1a75d3cbfc185bb135fa0ecacfa0eea64e" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>edge</name></member>
+      <member refid="structMR_1_1EdgeTri_1abc6f03d4ca7344789c80a99a10605739" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>EdgeTri</name></member>
+      <member refid="structMR_1_1EdgeTri_1a45de5d714a586bda433f476169bb81ef" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>EdgeTri</name></member>
+      <member refid="structMR_1_1EdgeTri_1ad73baa8260912b59b30536da0cb50318" prot="public" virt="non-virtual"><scope>MR::EdgeTri</scope><name>tri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

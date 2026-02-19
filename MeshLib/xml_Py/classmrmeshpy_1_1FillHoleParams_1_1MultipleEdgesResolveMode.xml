@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a0cd92a9d1de6647d6073e7909b2f6f6e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams.MultipleEdgesResolveMode::None</definition>
+        <argsstring></argsstring>
+        <name>None</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.None</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode" kindref="compound">FillHoleParams.MultipleEdgesResolveMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19391" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1aa4dca083d24402b8b9beed1c3a97a250" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams.MultipleEdgesResolveMode::Simple</definition>
+        <argsstring></argsstring>
+        <name>Simple</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.Simple</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode" kindref="compound">FillHoleParams.MultipleEdgesResolveMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1ab5839db99f32cca12468118eb6bace1d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams.MultipleEdgesResolveMode::Strong</definition>
+        <argsstring></argsstring>
+        <name>Strong</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.Strong</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode" kindref="compound">FillHoleParams.MultipleEdgesResolveMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19393" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a27f8d9b9f13c926a9ba47199b08ed444" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleParams.MultipleEdgesResolveMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode" kindref="compound">FillHoleParams.MultipleEdgesResolveMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19394" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a2d509f1dc27925e2defc4136b3fd9b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19395" bodyend="19396"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a44f28162ca8c4545149ef27b8c75bba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19397" bodyend="19398"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1afff4a2f6c0b94ebca7c5b1f27b5a7c39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19399" bodyend="19400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a257abed4098dfafbe461661ab0b522a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19401" bodyend="19402"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1afaa8e078bd62166a34ad9a5e7fdc774c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a0cd92a9d1de6647d6073e7909b2f6f6e" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19403" bodyend="19404"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1ab335fc8864489ccdad0000784d3b7d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19405" bodyend="19406"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1afc4616343f64cd635e13db66ffbbcb24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19407" bodyend="19408"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a4e138b27cd2858793201c7c5b09e8d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19409" bodyend="19410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a15ae5d57f84e748999963cf07103f855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a0cd92a9d1de6647d6073e7909b2f6f6e" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19411" bodyend="19412"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a5b8c088f39ed0d21457a8ce430cff005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19413" bodyend="19414"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1aee2b0e61e53f4e5f270171e9362b3552" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19416" bodyend="19417"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a9f5437b4d40ad0688330090fbb3282ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19419" bodyend="19421"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  None
+
+  Simple
+
+  Strong
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FillHoleParams.MultipleEdgesResolveMode</label>
+        <link refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>None</edgelabel>
+          <edgelabel>Simple</edgelabel>
+          <edgelabel>Strong</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19381" bodyend="19420"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a2d509f1dc27925e2defc4136b3fd9b16" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a44f28162ca8c4545149ef27b8c75bba2" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1afff4a2f6c0b94ebca7c5b1f27b5a7c39" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a257abed4098dfafbe461661ab0b522a8" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1afaa8e078bd62166a34ad9a5e7fdc774c" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1ab335fc8864489ccdad0000784d3b7d8c" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a27f8d9b9f13c926a9ba47199b08ed444" prot="private" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1afc4616343f64cd635e13db66ffbbcb24" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a4e138b27cd2858793201c7c5b09e8d6a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a15ae5d57f84e748999963cf07103f855" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a5b8c088f39ed0d21457a8ce430cff005" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1aee2b0e61e53f4e5f270171e9362b3552" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a0cd92a9d1de6647d6073e7909b2f6f6e" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>None</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1aa4dca083d24402b8b9beed1c3a97a250" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>Simple</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1ab5839db99f32cca12468118eb6bace1d" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>Strong</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleParams_1_1MultipleEdgesResolveMode_1a9f5437b4d40ad0688330090fbb3282ed" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleParams::MultipleEdgesResolveMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

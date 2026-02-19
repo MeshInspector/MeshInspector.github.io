@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Parallel" kind="namespace" language="C++">
+    <compoundname>MR::Parallel</compoundname>
+    <innerclass refid="structMR_1_1Parallel_1_1CallSimply" prot="public">MR::Parallel::CallSimply</innerclass>
+    <innerclass refid="structMR_1_1Parallel_1_1CallSimplyMaker" prot="public">MR::Parallel::CallSimplyMaker</innerclass>
+    <innerclass refid="structMR_1_1Parallel_1_1CallWithTLS" prot="public">MR::Parallel::CallWithTLS</innerclass>
+    <innerclass refid="structMR_1_1Parallel_1_1CallWithTLSMaker" prot="public">MR::Parallel::CallWithTLSMaker</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="11" column="1"/>
+  </compounddef>
+</doxygen>

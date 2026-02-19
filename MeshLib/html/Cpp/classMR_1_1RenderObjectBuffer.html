@@ -148,78 +148,26 @@ $(function(){initNavTree('classMR_1_1RenderObjectBuffer.html',''); initResizable
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1RenderObjectBuffer-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::RenderObjectBuffer Class Reference</div></div>
+  <div class="headertitle"><div class="title">MR::RenderObjectBuffer Class Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>provides shared buffer for loading different types of data to GL memory  
+ <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRRenderHelpers_8h_source.html">MRRenderHelpers.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aecb1aa9a47f7fb1520033ea260ec7b8b" id="r_aecb1aa9a47f7fb1520033ea260ec7b8b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aecb1aa9a47f7fb1520033ea260ec7b8b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1RenderBufferRef.html">RenderBufferRef</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#aecb1aa9a47f7fb1520033ea260ec7b8b">prepareBuffer</a> (std::size_t glSize, bool dirty=true)</td></tr>
-<tr class="separator:aecb1aa9a47f7fb1520033ea260ec7b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab02cd1ea0027d6d6976037b84fbbbe33" id="r_ab02cd1ea0027d6d6976037b84fbbbe33"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab02cd1ea0027d6d6976037b84fbbbe33">heapBytes</a> () const</td></tr>
-<tr class="separator:ab02cd1ea0027d6d6976037b84fbbbe33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaecb1aa9a47f7fb1520033ea260ec7b8b" id="r_gaecb1aa9a47f7fb1520033ea260ec7b8b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaecb1aa9a47f7fb1520033ea260ec7b8b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classMR_1_1RenderBufferRef.html">RenderBufferRef</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaecb1aa9a47f7fb1520033ea260ec7b8b">prepareBuffer</a> (std::size_t glSize, bool dirty=true)</td></tr>
+<tr class="separator:gaecb1aa9a47f7fb1520033ea260ec7b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab02cd1ea0027d6d6976037b84fbbbe33" id="r_gab02cd1ea0027d6d6976037b84fbbbe33"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab02cd1ea0027d6d6976037b84fbbbe33">heapBytes</a> () const</td></tr>
+<tr class="separator:gab02cd1ea0027d6d6976037b84fbbbe33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab02cd1ea0027d6d6976037b84fbbbe33" name="ab02cd1ea0027d6d6976037b84fbbbe33"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab02cd1ea0027d6d6976037b84fbbbe33">&#9670;&#160;</a></span>heapBytes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">size_t MR::RenderObjectBuffer::heapBytes </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aecb1aa9a47f7fb1520033ea260ec7b8b" name="aecb1aa9a47f7fb1520033ea260ec7b8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecb1aa9a47f7fb1520033ea260ec7b8b">&#9670;&#160;</a></span>prepareBuffer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1RenderBufferRef.html">RenderBufferRef</a>&lt; T &gt; MR::RenderObjectBuffer::prepareBuffer </td>
-          <td>(</td>
-          <td class="paramtype">std::size_t</td>          <td class="paramname"><span class="paramname"><em>glSize</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>dirty</em></span><span class="paramdefsep"> = </span><span class="paramdefval">true</span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>provides shared buffer for loading different types of data to GL memory </p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRRenderHelpers_8h_source.html">MRRenderHelpers.h</a></li>
 </ul>
 </div><!-- contents -->

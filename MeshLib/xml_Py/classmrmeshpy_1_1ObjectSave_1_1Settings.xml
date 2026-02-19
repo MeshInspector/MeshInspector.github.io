@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectSave_1_1Settings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectSave::Settings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1ad87c6c473da8a805d133fe6008673dbd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectSave.Settings::_offsetof_lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lengthUnit</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings._offsetof_lengthUnit</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40605" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1a5377491ff3fccba0b0611c908e7a37a5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectSave.Settings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings._offsetof_progress</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40606" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1ad4bb8046afdbd2ce646aba6350ef5ebd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectSave.Settings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40609" bodyend="40610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1a6ae829dbf3f16f54e324bc2398c05183" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave.Settings</ref></type>
+        <definition> ObjectSave.Settings mrmeshpy.ObjectSave.Settings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40613" bodyend="40614"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1a6ae829dbf3f16f54e324bc2398c05183" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave.Settings</ref></type>
+        <definition> ObjectSave.Settings mrmeshpy.ObjectSave.Settings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40617" bodyend="40618"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1a1575614ad6cd063dd1970dcb74210ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectSave.Settings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40620" bodyend="40621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1aa1e4d992214ce3d7da33c093f96f9874" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectSave.Settings.__init__</definition>
+        <argsstring>(self, ObjectSave.Settings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectSave_1_1Settings" kindref="compound">ObjectSave.Settings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40623" bodyend="40626"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1a242fa94d9c7f0d3dc51b76c0ffa9f421" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectSave.Settings.__init__</definition>
+        <argsstring>(self, std_optional_LengthUnit lengthUnit, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>lengthUnit</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40628" bodyend="40631"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1a3c1584d3bbf5794ce7b1d2e9d90df867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+        <definition> std_optional_LengthUnit mrmeshpy.ObjectSave.Settings.lengthUnit</definition>
+        <argsstring>(self)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>units of input coordinates and transformation, to be serialized if the format supports it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40633" bodyend="40636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1a11093710d2dba6024c54414a5f649e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectSave.Settings.lengthUnit</definition>
+        <argsstring>(self, std_optional_LengthUnit arg1)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40638" bodyend="40639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1a07b187cce08043b1cf55244708629e61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.ObjectSave.Settings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report loading progress and allow the user to cancel it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40641" bodyend="40644"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectSave_1_1Settings_1ab643094e5881c64eb6c83143ebf7534a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectSave.Settings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.ObjectSave.Settings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40646" bodyend="40648"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectSave::Settings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectSave.Settings</label>
+        <link refid="classmrmeshpy_1_1ObjectSave_1_1Settings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_lengthUnit</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40601" bodyend="40647"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1ad4bb8046afdbd2ce646aba6350ef5ebd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a1575614ad6cd063dd1970dcb74210ad0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1aa1e4d992214ce3d7da33c093f96f9874" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a242fa94d9c7f0d3dc51b76c0ffa9f421" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1ad87c6c473da8a805d133fe6008673dbd" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>_offsetof_lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a5377491ff3fccba0b0611c908e7a37a5" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a3c1584d3bbf5794ce7b1d2e9d90df867" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a11093710d2dba6024c54414a5f649e94" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a6ae829dbf3f16f54e324bc2398c05183" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a6ae829dbf3f16f54e324bc2398c05183" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1a07b187cce08043b1cf55244708629e61" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1ObjectSave_1_1Settings_1ab643094e5881c64eb6c83143ebf7534a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectSave::Settings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

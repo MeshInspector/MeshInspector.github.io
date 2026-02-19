@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EdgeWeights" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EdgeWeights</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeWeights_1ac470c739658702d05f90a2bcb925aaf6" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeWeights::Cotan</definition>
+        <argsstring></argsstring>
+        <name>Cotan</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.Cotan</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeWeights_1afadd1eefc53b06dd5cea60e25393df8c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeWeights::Unit</definition>
+        <argsstring></argsstring>
+        <name>Unit</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.Unit</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15769" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1EdgeWeights_1ae50524d485b79ae4213bd775a9b7bd3d" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.EdgeWeights::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1EdgeWeights" kindref="compound">EdgeWeights</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15770" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1a9c649e84f7652f7947fd8560eb4d6d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeWeights.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15771" bodyend="15772"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1a1286433edb65b21529a058cc6eb9087d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.EdgeWeights.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15773" bodyend="15774"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1a6ea6c4c6cc2de7c8064cf6b9648ac66b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.EdgeWeights.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15775" bodyend="15776"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1a853f00619816a588502a10981a50aafd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.EdgeWeights.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15777" bodyend="15778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1a53ae5fdfb7194443938b368bc6b9944e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeWeights.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15779" bodyend="15780"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1a85f3337b0b1d1f1ca456f0c0b01031cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.EdgeWeights.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15781" bodyend="15782"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1abe7ce3879829294e8a9310e7e07ffcea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeWeights.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15783" bodyend="15784"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1a7458bbb34278cb3c30a512433bee36df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.EdgeWeights.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15785" bodyend="15786"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1aa42c59ad20238e86405f4be49058a23d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeWeights.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15787" bodyend="15788"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1ac600ba073d397c7fa3996e290ad542f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.EdgeWeights.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15789" bodyend="15790"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1a2f89c39e83cee8d8046058c66b859557" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.EdgeWeights.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15792" bodyend="15793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeWeights_1a060df8be7d069b37aa4c17fc032b3dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.EdgeWeights.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.EdgeWeights.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15795" bodyend="15796"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Unit : all edges have same weight=1
+
+  Cotan : edge weight depends on local geometry and uses cotangent values
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.EdgeWeights</label>
+        <link refid="classmrmeshpy_1_1EdgeWeights"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Cotan</edgelabel>
+          <edgelabel>Unit</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="15760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="15760" bodyend="15796"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1a9c649e84f7652f7947fd8560eb4d6d5b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1a1286433edb65b21529a058cc6eb9087d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1a6ea6c4c6cc2de7c8064cf6b9648ac66b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1a853f00619816a588502a10981a50aafd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1a53ae5fdfb7194443938b368bc6b9944e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1a85f3337b0b1d1f1ca456f0c0b01031cd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1ae50524d485b79ae4213bd775a9b7bd3d" prot="private" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1abe7ce3879829294e8a9310e7e07ffcea" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1a7458bbb34278cb3c30a512433bee36df" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1aa42c59ad20238e86405f4be49058a23d" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1ac600ba073d397c7fa3996e290ad542f9" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1ac470c739658702d05f90a2bcb925aaf6" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>Cotan</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1a2f89c39e83cee8d8046058c66b859557" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1afadd1eefc53b06dd5cea60e25393df8c" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>Unit</name></member>
+      <member refid="classmrmeshpy_1_1EdgeWeights_1a060df8be7d069b37aa4c17fc032b3dc3" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeWeights</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

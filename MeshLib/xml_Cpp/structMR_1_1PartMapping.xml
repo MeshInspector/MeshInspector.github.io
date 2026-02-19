@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PartMapping" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PartMapping</compoundname>
+    <includes refid="MRPartMapping_8h" local="no">MRPartMapping.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" kind="variable"><name>src2tgtFaces</name></member>
+      <member refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" kind="variable"><name>src2tgtVerts</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" kind="variable"><name>src2tgtEdges</name></member>
+      <member refid="group__GeneralGroup_1gaf69dd39f60abdd4b769bb948a49a0737" kind="variable"><name>tgt2srcFaces</name></member>
+      <member refid="group__GeneralGroup_1ga6061a5bd3cb7c34a5548ea2fd5bb23cc" kind="variable"><name>tgt2srcVerts</name></member>
+      <member refid="group__GeneralGroup_1gad04e1ef358a87463840701926e9856c1" kind="variable"><name>tgt2srcEdges</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga11973c92bf543a36396d98ec83d6ca52" kind="function"><name>clear</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>mapping among elements of source mesh, from which a part is taken, and target mesh </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartMapping.h" bodystart="13" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga11973c92bf543a36396d98ec83d6ca52" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e68b66d8c5359cbbd8724f09c6340" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtEdges</name></member>
+      <member refid="group__GeneralGroup_1ga73600646d6908faffc3c59ca5ad651ea" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtFaces</name></member>
+      <member refid="group__GeneralGroup_1gaf1b1858f450332378241a632d9186e89" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtVerts</name></member>
+      <member refid="group__GeneralGroup_1gad04e1ef358a87463840701926e9856c1" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcEdges</name></member>
+      <member refid="group__GeneralGroup_1gaf69dd39f60abdd4b769bb948a49a0737" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcFaces</name></member>
+      <member refid="group__GeneralGroup_1ga6061a5bd3cb7c34a5548ea2fd5bb23cc" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcVerts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

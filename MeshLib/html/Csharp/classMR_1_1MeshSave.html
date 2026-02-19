@@ -146,127 +146,759 @@ $(function(){initNavTree('classMR_1_1MeshSave.html',''); initResizable(true); })
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1MeshSave-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.MeshSave Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a44ae097f41a9722d0110ffb971ba7ce0" id="r_a44ae097f41a9722d0110ffb971ba7ce0"><td class="memItemLeft" align="right" valign="top"><a id="a44ae097f41a9722d0110ffb971ba7ce0" name="a44ae097f41a9722d0110ffb971ba7ce0"></a>
-typedef Expected&lt; void &gt;(*)(const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;, const std::filesystem::path &amp;, const <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">SaveSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a44ae097f41a9722d0110ffb971ba7ce0">MeshFileSaver</a>)</td></tr>
-<tr class="separator:a44ae097f41a9722d0110ffb971ba7ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e16b086c414a0768e241ea5f21ca9b6" id="r_a7e16b086c414a0768e241ea5f21ca9b6"><td class="memItemLeft" align="right" valign="top"><a id="a7e16b086c414a0768e241ea5f21ca9b6" name="a7e16b086c414a0768e241ea5f21ca9b6"></a>
-typedef Expected&lt; void &gt;(*)(const <a class="elRef" href="../Cpp/structMR_1_1Mesh.html">Mesh</a> &amp;, std::ostream &amp;, const <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html">SaveSettings</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a7e16b086c414a0768e241ea5f21ca9b6">MeshStreamSaver</a>)</td></tr>
-<tr class="separator:a7e16b086c414a0768e241ea5f21ca9b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_ByValue_BinaryStlSaver</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used as a function parameter when the underlying function receives <code><a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html" title="saver in binary .stl format that can write triangles one by one not knowing their number beforehand G...">BinaryStlSaver</a></code> by value. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_ByValue_CtmSaveOptions</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used as a function parameter when the underlying function receives <code><a class="el" href="classMR_1_1MeshSave_1_1CtmSaveOptions.html" title="Generated from class MR.MeshSave.CtmSaveOptions. Base classes: Direct: (non-virtual) MR....">CtmSaveOptions</a></code> by value. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_ByValue_NamedXfMesh</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used as a function parameter when the underlying function receives <code><a class="el" href="classMR_1_1MeshSave_1_1NamedXfMesh.html" title="saves a number of named meshes in .obj file Generated from class MR.MeshSave.NamedXfMesh....">NamedXfMesh</a></code> by value. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptConst_BinaryStlSaver</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html" title="saver in binary .stl format that can write triangles one by one not knowing their number beforehand G...">BinaryStlSaver</a></code> with default arguments. This is only used const parameters. For non-const ones we have <code>_InOptMut_BinaryStlSaver</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptConst_CtmSaveOptions</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1MeshSave_1_1CtmSaveOptions.html" title="Generated from class MR.MeshSave.CtmSaveOptions. Base classes: Direct: (non-virtual) MR....">CtmSaveOptions</a></code> with default arguments. This is only used const parameters. For non-const ones we have <code>_InOptMut_CtmSaveOptions</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptConst_NamedXfMesh</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1MeshSave_1_1NamedXfMesh.html" title="saves a number of named meshes in .obj file Generated from class MR.MeshSave.NamedXfMesh....">NamedXfMesh</a></code> with default arguments. This is only used const parameters. For non-const ones we have <code>_InOptMut_NamedXfMesh</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptMut_BinaryStlSaver</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html" title="saver in binary .stl format that can write triangles one by one not knowing their number beforehand G...">BinaryStlSaver</a></code> with default arguments. This is only used mutable parameters. For const ones we have <code>_InOptConst_BinaryStlSaver</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptMut_CtmSaveOptions</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1MeshSave_1_1CtmSaveOptions.html" title="Generated from class MR.MeshSave.CtmSaveOptions. Base classes: Direct: (non-virtual) MR....">CtmSaveOptions</a></code> with default arguments. This is only used mutable parameters. For const ones we have <code>_InOptConst_CtmSaveOptions</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptMut_NamedXfMesh</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1MeshSave_1_1NamedXfMesh.html" title="saves a number of named meshes in .obj file Generated from class MR.MeshSave.NamedXfMesh....">NamedXfMesh</a></code> with default arguments. This is only used mutable parameters. For const ones we have <code>_InOptConst_NamedXfMesh</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html">BinaryStlSaver</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">saver in binary .stl format that can write triangles one by one not knowing their number beforehand Generated from class <code><a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html" title="saver in binary .stl format that can write triangles one by one not knowing their number beforehand G...">MR.MeshSave.BinaryStlSaver</a></code>. This is the non-const half of the class.  <a href="classMR_1_1MeshSave_1_1BinaryStlSaver.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>Const_BinaryStlSaver</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">saver in binary .stl format that can write triangles one by one not knowing their number beforehand Generated from class <code><a class="el" href="classMR_1_1MeshSave_1_1BinaryStlSaver.html" title="saver in binary .stl format that can write triangles one by one not knowing their number beforehand G...">MR.MeshSave.BinaryStlSaver</a></code>. This is the const half of the class. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>Const_CtmSaveOptions</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="el" href="classMR_1_1MeshSave_1_1CtmSaveOptions.html" title="Generated from class MR.MeshSave.CtmSaveOptions. Base classes: Direct: (non-virtual) MR....">MR.MeshSave.CtmSaveOptions</a></code>. Base classes: Direct: (non-virtual) <code><a class="el" href="classMR_1_1SaveSettings.html" title="determines how to save points/lines/mesh Generated from class MR.SaveSettings. Derived classes: Direc...">MR.SaveSettings</a></code> This is the const half of the class. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>Const_NamedXfMesh</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves a number of named meshes in .obj file Generated from class <code><a class="el" href="classMR_1_1MeshSave_1_1NamedXfMesh.html" title="saves a number of named meshes in .obj file Generated from class MR.MeshSave.NamedXfMesh....">MR.MeshSave.NamedXfMesh</a></code>. This is the const half of the class. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshSave_1_1CtmSaveOptions.html">CtmSaveOptions</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="el" href="classMR_1_1MeshSave_1_1CtmSaveOptions.html" title="Generated from class MR.MeshSave.CtmSaveOptions. Base classes: Direct: (non-virtual) MR....">MR.MeshSave.CtmSaveOptions</a></code>. Base classes: Direct: (non-virtual) <code><a class="el" href="classMR_1_1SaveSettings.html" title="determines how to save points/lines/mesh Generated from class MR.SaveSettings. Derived classes: Direc...">MR.SaveSettings</a></code> This is the non-const half of the class.  <a href="classMR_1_1MeshSave_1_1CtmSaveOptions.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshSave_1_1NamedXfMesh.html">NamedXfMesh</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves a number of named meshes in .obj file Generated from class <code><a class="el" href="classMR_1_1MeshSave_1_1NamedXfMesh.html" title="saves a number of named meshes in .obj file Generated from class MR.MeshSave.NamedXfMesh....">MR.MeshSave.NamedXfMesh</a></code>. This is the non-const half of the class.  <a href="classMR_1_1MeshSave_1_1NamedXfMesh.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a82ad98b2d8570ddfd98a9ada68bedd02" id="r_a82ad98b2d8570ddfd98a9ada68bedd02"><td class="memItemLeft" align="right" valign="top"><a id="a82ad98b2d8570ddfd98a9ada68bedd02" name="a82ad98b2d8570ddfd98a9ada68bedd02"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toCtm</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html">MR.MeshSave.Const_CtmSaveOptions</a> options)</td></tr>
-<tr class="memdesc:a82ad98b2d8570ddfd98a9ada68bedd02"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ctm file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR.MeshSave.toCtm</a></code>. <br /></td></tr>
+<tr class="memitem:a82ad98b2d8570ddfd98a9ada68bedd02" id="r_a82ad98b2d8570ddfd98a9ada68bedd02"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a82ad98b2d8570ddfd98a9ada68bedd02">toCtm</a> (MR.Const_Mesh mesh, string file, MR.MeshSave.Const_CtmSaveOptions options)</td></tr>
+<tr class="memdesc:a82ad98b2d8570ddfd98a9ada68bedd02"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ctm file Generated from function <code><a class="el" href="#a82ad98b2d8570ddfd98a9ada68bedd02" title="saves in .ctm file Generated from function MR.MeshSave.toCtm.">MR.MeshSave.toCtm</a></code>.  <br /></td></tr>
 <tr class="separator:a82ad98b2d8570ddfd98a9ada68bedd02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7988fc2ac6b3ff08bf3d5b057b2dcf3c" id="r_a7988fc2ac6b3ff08bf3d5b057b2dcf3c"><td class="memItemLeft" align="right" valign="top"><a id="a7988fc2ac6b3ff08bf3d5b057b2dcf3c" name="a7988fc2ac6b3ff08bf3d5b057b2dcf3c"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toCtm</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1MeshSave_1_1Const__CtmSaveOptions.html">MR.MeshSave.Const_CtmSaveOptions</a> options)</td></tr>
-<tr class="memdesc:a7988fc2ac6b3ff08bf3d5b057b2dcf3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR.MeshSave.toCtm</a></code>. <br /></td></tr>
+<tr class="memitem:a7988fc2ac6b3ff08bf3d5b057b2dcf3c" id="r_a7988fc2ac6b3ff08bf3d5b057b2dcf3c"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7988fc2ac6b3ff08bf3d5b057b2dcf3c">toCtm</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.MeshSave.Const_CtmSaveOptions options)</td></tr>
+<tr class="memdesc:a7988fc2ac6b3ff08bf3d5b057b2dcf3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a82ad98b2d8570ddfd98a9ada68bedd02" title="saves in .ctm file Generated from function MR.MeshSave.toCtm.">MR.MeshSave.toCtm</a></code>.  <br /></td></tr>
 <tr class="separator:a7988fc2ac6b3ff08bf3d5b057b2dcf3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2479c9649075a3f2cc85dcd9f6a2c76" id="r_ae2479c9649075a3f2cc85dcd9f6a2c76"><td class="memItemLeft" align="right" valign="top"><a id="ae2479c9649075a3f2cc85dcd9f6a2c76" name="ae2479c9649075a3f2cc85dcd9f6a2c76"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toCtm</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:ae2479c9649075a3f2cc85dcd9f6a2c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR.MeshSave.toCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ae2479c9649075a3f2cc85dcd9f6a2c76" id="r_ae2479c9649075a3f2cc85dcd9f6a2c76"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2479c9649075a3f2cc85dcd9f6a2c76">toCtm</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:ae2479c9649075a3f2cc85dcd9f6a2c76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a82ad98b2d8570ddfd98a9ada68bedd02" title="saves in .ctm file Generated from function MR.MeshSave.toCtm.">MR.MeshSave.toCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ae2479c9649075a3f2cc85dcd9f6a2c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ad87e7d784e27d6adc5fb131ce7190f" id="r_a3ad87e7d784e27d6adc5fb131ce7190f"><td class="memItemLeft" align="right" valign="top"><a id="a3ad87e7d784e27d6adc5fb131ce7190f" name="a3ad87e7d784e27d6adc5fb131ce7190f"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toCtm</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a3ad87e7d784e27d6adc5fb131ce7190f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1MeshSave.html#a22395c6fe76cfa33bd45c5498865c20e">MR.MeshSave.toCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a3ad87e7d784e27d6adc5fb131ce7190f" id="r_a3ad87e7d784e27d6adc5fb131ce7190f"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3ad87e7d784e27d6adc5fb131ce7190f">toCtm</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a3ad87e7d784e27d6adc5fb131ce7190f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a82ad98b2d8570ddfd98a9ada68bedd02" title="saves in .ctm file Generated from function MR.MeshSave.toCtm.">MR.MeshSave.toCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a3ad87e7d784e27d6adc5fb131ce7190f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5deda1bdd0e1ae82023c5ec63da83f7c" id="r_a5deda1bdd0e1ae82023c5ec63da83f7c"><td class="memItemLeft" align="right" valign="top"><a id="a5deda1bdd0e1ae82023c5ec63da83f7c" name="a5deda1bdd0e1ae82023c5ec63da83f7c"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toMrmesh</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a5deda1bdd0e1ae82023c5ec63da83f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in internal file format; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = true is ignored Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga62df62b4aee4263089fc3ef0f91c7405">MR.MeshSave.toMrmesh</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a5deda1bdd0e1ae82023c5ec63da83f7c" id="r_a5deda1bdd0e1ae82023c5ec63da83f7c"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5deda1bdd0e1ae82023c5ec63da83f7c">toMrmesh</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a5deda1bdd0e1ae82023c5ec63da83f7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in internal file format; <a class="el" href="classMR_1_1SaveSettings.html#a035062075a5d478d4550b55b8488db94">SaveSettings.onlyValidPoints</a> = true is ignored Generated from function <code><a class="el" href="#a5deda1bdd0e1ae82023c5ec63da83f7c" title="saves in internal file format; SaveSettings.onlyValidPoints = true is ignored Generated from function...">MR.MeshSave.toMrmesh</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a5deda1bdd0e1ae82023c5ec63da83f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2c2b377fe8f0b1af7f12c5a533390a1" id="r_ac2c2b377fe8f0b1af7f12c5a533390a1"><td class="memItemLeft" align="right" valign="top"><a id="ac2c2b377fe8f0b1af7f12c5a533390a1" name="ac2c2b377fe8f0b1af7f12c5a533390a1"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toMrmesh</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:ac2c2b377fe8f0b1af7f12c5a533390a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga62df62b4aee4263089fc3ef0f91c7405">MR.MeshSave.toMrmesh</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ac2c2b377fe8f0b1af7f12c5a533390a1" id="r_ac2c2b377fe8f0b1af7f12c5a533390a1"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2c2b377fe8f0b1af7f12c5a533390a1">toMrmesh</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:ac2c2b377fe8f0b1af7f12c5a533390a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a5deda1bdd0e1ae82023c5ec63da83f7c" title="saves in internal file format; SaveSettings.onlyValidPoints = true is ignored Generated from function...">MR.MeshSave.toMrmesh</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ac2c2b377fe8f0b1af7f12c5a533390a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a045084fbf724cd87a0ec2bf4682e1d14" id="r_a045084fbf724cd87a0ec2bf4682e1d14"><td class="memItemLeft" align="right" valign="top"><a id="a045084fbf724cd87a0ec2bf4682e1d14" name="a045084fbf724cd87a0ec2bf4682e1d14"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toOff</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a045084fbf724cd87a0ec2bf4682e1d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .off file Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga307b06c1c3ead50a2d460fa37bc1b409">MR.MeshSave.toOff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a045084fbf724cd87a0ec2bf4682e1d14" id="r_a045084fbf724cd87a0ec2bf4682e1d14"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a045084fbf724cd87a0ec2bf4682e1d14">toOff</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a045084fbf724cd87a0ec2bf4682e1d14"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .off file Generated from function <code><a class="el" href="#a045084fbf724cd87a0ec2bf4682e1d14" title="saves in .off file Generated from function MR.MeshSave.toOff. Parameter settings defaults to {}...">MR.MeshSave.toOff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a045084fbf724cd87a0ec2bf4682e1d14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fde929e61d1c424328633bb577f653b" id="r_a7fde929e61d1c424328633bb577f653b"><td class="memItemLeft" align="right" valign="top"><a id="a7fde929e61d1c424328633bb577f653b" name="a7fde929e61d1c424328633bb577f653b"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toOff</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a7fde929e61d1c424328633bb577f653b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga307b06c1c3ead50a2d460fa37bc1b409">MR.MeshSave.toOff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a7fde929e61d1c424328633bb577f653b" id="r_a7fde929e61d1c424328633bb577f653b"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7fde929e61d1c424328633bb577f653b">toOff</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a7fde929e61d1c424328633bb577f653b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a045084fbf724cd87a0ec2bf4682e1d14" title="saves in .off file Generated from function MR.MeshSave.toOff. Parameter settings defaults to {}...">MR.MeshSave.toOff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a7fde929e61d1c424328633bb577f653b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f63fa876435f5e2be05def3a8bab696" id="r_a3f63fa876435f5e2be05def3a8bab696"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f63fa876435f5e2be05def3a8bab696">toObj</a> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a> settings, int firstVertId)</td></tr>
+<tr class="memitem:a3f63fa876435f5e2be05def3a8bab696" id="r_a3f63fa876435f5e2be05def3a8bab696"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f63fa876435f5e2be05def3a8bab696">toObj</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings settings, int firstVertId)</td></tr>
 <tr class="memdesc:a3f63fa876435f5e2be05def3a8bab696"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .obj file  <br /></td></tr>
 <tr class="separator:a3f63fa876435f5e2be05def3a8bab696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6c61af05b186988ddbfbf81f9660203" id="r_aa6c61af05b186988ddbfbf81f9660203"><td class="memItemLeft" align="right" valign="top"><a id="aa6c61af05b186988ddbfbf81f9660203" name="aa6c61af05b186988ddbfbf81f9660203"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toObj</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a> settings, int firstVertId)</td></tr>
-<tr class="memdesc:aa6c61af05b186988ddbfbf81f9660203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#gab760df35b57e01e8dcd026dfd57d832c">MR.MeshSave.toObj</a></code>. <br /></td></tr>
+<tr class="memitem:aa6c61af05b186988ddbfbf81f9660203" id="r_aa6c61af05b186988ddbfbf81f9660203"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6c61af05b186988ddbfbf81f9660203">toObj</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings settings, int firstVertId)</td></tr>
+<tr class="memdesc:aa6c61af05b186988ddbfbf81f9660203"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a3f63fa876435f5e2be05def3a8bab696" title="saves in .obj file">MR.MeshSave.toObj</a></code>.  <br /></td></tr>
 <tr class="separator:aa6c61af05b186988ddbfbf81f9660203"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ad6e217bcb00b312977ee1389b07234" id="r_a4ad6e217bcb00b312977ee1389b07234"><td class="memItemLeft" align="right" valign="top"><a id="a4ad6e217bcb00b312977ee1389b07234" name="a4ad6e217bcb00b312977ee1389b07234"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toObj</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a4ad6e217bcb00b312977ee1389b07234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#gab760df35b57e01e8dcd026dfd57d832c">MR.MeshSave.toObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a4ad6e217bcb00b312977ee1389b07234" id="r_a4ad6e217bcb00b312977ee1389b07234"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ad6e217bcb00b312977ee1389b07234">toObj</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a4ad6e217bcb00b312977ee1389b07234"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a3f63fa876435f5e2be05def3a8bab696" title="saves in .obj file">MR.MeshSave.toObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a4ad6e217bcb00b312977ee1389b07234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a619f441ff9310c0d9a2b3898edf3f89f" id="r_a619f441ff9310c0d9a2b3898edf3f89f"><td class="memItemLeft" align="right" valign="top"><a id="a619f441ff9310c0d9a2b3898edf3f89f" name="a619f441ff9310c0d9a2b3898edf3f89f"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toObj</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a619f441ff9310c0d9a2b3898edf3f89f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#gab760df35b57e01e8dcd026dfd57d832c">MR.MeshSave.toObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a619f441ff9310c0d9a2b3898edf3f89f" id="r_a619f441ff9310c0d9a2b3898edf3f89f"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a619f441ff9310c0d9a2b3898edf3f89f">toObj</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a619f441ff9310c0d9a2b3898edf3f89f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a3f63fa876435f5e2be05def3a8bab696" title="saves in .obj file">MR.MeshSave.toObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a619f441ff9310c0d9a2b3898edf3f89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c2051ee3c93474a670223aaaa9f3fca" id="r_a0c2051ee3c93474a670223aaaa9f3fca"><td class="memItemLeft" align="right" valign="top"><a id="a0c2051ee3c93474a670223aaaa9f3fca" name="a0c2051ee3c93474a670223aaaa9f3fca"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toBinaryStl</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a0c2051ee3c93474a670223aaaa9f3fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in binary .stl file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga4ddea26e586be2e647b4043145fc48bf">MR.MeshSave.toBinaryStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a0c2051ee3c93474a670223aaaa9f3fca" id="r_a0c2051ee3c93474a670223aaaa9f3fca"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0c2051ee3c93474a670223aaaa9f3fca">toBinaryStl</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a0c2051ee3c93474a670223aaaa9f3fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in binary .stl file; <a class="el" href="classMR_1_1SaveSettings.html#a035062075a5d478d4550b55b8488db94">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="el" href="#a0c2051ee3c93474a670223aaaa9f3fca" title="saves in binary .stl file; SaveSettings.onlyValidPoints = false is ignored Generated from function MR...">MR.MeshSave.toBinaryStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a0c2051ee3c93474a670223aaaa9f3fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf025a8b9a325d09756a65e4834cc75c" id="r_abf025a8b9a325d09756a65e4834cc75c"><td class="memItemLeft" align="right" valign="top"><a id="abf025a8b9a325d09756a65e4834cc75c" name="abf025a8b9a325d09756a65e4834cc75c"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toBinaryStl</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:abf025a8b9a325d09756a65e4834cc75c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga4ddea26e586be2e647b4043145fc48bf">MR.MeshSave.toBinaryStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:abf025a8b9a325d09756a65e4834cc75c" id="r_abf025a8b9a325d09756a65e4834cc75c"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf025a8b9a325d09756a65e4834cc75c">toBinaryStl</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:abf025a8b9a325d09756a65e4834cc75c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a0c2051ee3c93474a670223aaaa9f3fca" title="saves in binary .stl file; SaveSettings.onlyValidPoints = false is ignored Generated from function MR...">MR.MeshSave.toBinaryStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:abf025a8b9a325d09756a65e4834cc75c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a672e206f199a8e91b384ef0d10be6c84" id="r_a672e206f199a8e91b384ef0d10be6c84"><td class="memItemLeft" align="right" valign="top"><a id="a672e206f199a8e91b384ef0d10be6c84" name="a672e206f199a8e91b384ef0d10be6c84"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toAsciiStl</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a672e206f199a8e91b384ef0d10be6c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in textual .stl file; <a class="elRef" href="../Cpp/structMR_1_1SaveSettings.html#a88539fbafc85e15a6dbc49b2b3144a15">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga276bcc52bbcffca1496916fbadf625d3">MR.MeshSave.toAsciiStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a672e206f199a8e91b384ef0d10be6c84" id="r_a672e206f199a8e91b384ef0d10be6c84"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a672e206f199a8e91b384ef0d10be6c84">toAsciiStl</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a672e206f199a8e91b384ef0d10be6c84"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in textual .stl file; <a class="el" href="classMR_1_1SaveSettings.html#a035062075a5d478d4550b55b8488db94">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="el" href="#a672e206f199a8e91b384ef0d10be6c84" title="saves in textual .stl file; SaveSettings.onlyValidPoints = false is ignored Generated from function M...">MR.MeshSave.toAsciiStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a672e206f199a8e91b384ef0d10be6c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adec3c806f6f93d278b0acd537b9c14f5" id="r_adec3c806f6f93d278b0acd537b9c14f5"><td class="memItemLeft" align="right" valign="top"><a id="adec3c806f6f93d278b0acd537b9c14f5" name="adec3c806f6f93d278b0acd537b9c14f5"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toAsciiStl</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:adec3c806f6f93d278b0acd537b9c14f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga276bcc52bbcffca1496916fbadf625d3">MR.MeshSave.toAsciiStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:adec3c806f6f93d278b0acd537b9c14f5" id="r_adec3c806f6f93d278b0acd537b9c14f5"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adec3c806f6f93d278b0acd537b9c14f5">toAsciiStl</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:adec3c806f6f93d278b0acd537b9c14f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a672e206f199a8e91b384ef0d10be6c84" title="saves in textual .stl file; SaveSettings.onlyValidPoints = false is ignored Generated from function M...">MR.MeshSave.toAsciiStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:adec3c806f6f93d278b0acd537b9c14f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6adf1c3e427154267644d3a2a90a2b84" id="r_a6adf1c3e427154267644d3a2a90a2b84"><td class="memItemLeft" align="right" valign="top"><a id="a6adf1c3e427154267644d3a2a90a2b84" name="a6adf1c3e427154267644d3a2a90a2b84"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toPly</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a6adf1c3e427154267644d3a2a90a2b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ply file Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga9a03e471984e089dcc7bffccaad21232">MR.MeshSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a6adf1c3e427154267644d3a2a90a2b84" id="r_a6adf1c3e427154267644d3a2a90a2b84"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6adf1c3e427154267644d3a2a90a2b84">toPly</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a6adf1c3e427154267644d3a2a90a2b84"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .ply file Generated from function <code><a class="el" href="#a6adf1c3e427154267644d3a2a90a2b84" title="saves in .ply file Generated from function MR.MeshSave.toPly. Parameter settings defaults to {}...">MR.MeshSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a6adf1c3e427154267644d3a2a90a2b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a514066fad470bf952bfed44dd4319730" id="r_a514066fad470bf952bfed44dd4319730"><td class="memItemLeft" align="right" valign="top"><a id="a514066fad470bf952bfed44dd4319730" name="a514066fad470bf952bfed44dd4319730"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toPly</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a514066fad470bf952bfed44dd4319730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga9a03e471984e089dcc7bffccaad21232">MR.MeshSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a514066fad470bf952bfed44dd4319730" id="r_a514066fad470bf952bfed44dd4319730"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a514066fad470bf952bfed44dd4319730">toPly</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a514066fad470bf952bfed44dd4319730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a6adf1c3e427154267644d3a2a90a2b84" title="saves in .ply file Generated from function MR.MeshSave.toPly. Parameter settings defaults to {}...">MR.MeshSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a514066fad470bf952bfed44dd4319730"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa988778d418dea9da20c378a635f5d5a" id="r_aa988778d418dea9da20c378a635f5d5a"><td class="memItemLeft" align="right" valign="top"><a id="aa988778d418dea9da20c378a635f5d5a" name="aa988778d418dea9da20c378a635f5d5a"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toModel3mf</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:aa988778d418dea9da20c378a635f5d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in 3mf .model file Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga2c28b431b51d43f8242e88cff3336d37">MR.MeshSave.toModel3mf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:aa988778d418dea9da20c378a635f5d5a" id="r_aa988778d418dea9da20c378a635f5d5a"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa988778d418dea9da20c378a635f5d5a">toModel3mf</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:aa988778d418dea9da20c378a635f5d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in 3mf .model file Generated from function <code><a class="el" href="#aa988778d418dea9da20c378a635f5d5a" title="saves in 3mf .model file Generated from function MR.MeshSave.toModel3mf. Parameter settings defaults ...">MR.MeshSave.toModel3mf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:aa988778d418dea9da20c378a635f5d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61c969185f711a6e683a9d463fe16bce" id="r_a61c969185f711a6e683a9d463fe16bce"><td class="memItemLeft" align="right" valign="top"><a id="a61c969185f711a6e683a9d463fe16bce" name="a61c969185f711a6e683a9d463fe16bce"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toModel3mf</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a61c969185f711a6e683a9d463fe16bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga2c28b431b51d43f8242e88cff3336d37">MR.MeshSave.toModel3mf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a61c969185f711a6e683a9d463fe16bce" id="r_a61c969185f711a6e683a9d463fe16bce"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61c969185f711a6e683a9d463fe16bce">toModel3mf</a> (MR.Const_Mesh mesh, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a61c969185f711a6e683a9d463fe16bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#aa988778d418dea9da20c378a635f5d5a" title="saves in 3mf .model file Generated from function MR.MeshSave.toModel3mf. Parameter settings defaults ...">MR.MeshSave.toModel3mf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a61c969185f711a6e683a9d463fe16bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86d400df0182cfeb6eed1dc2b42559f4" id="r_a86d400df0182cfeb6eed1dc2b42559f4"><td class="memItemLeft" align="right" valign="top"><a id="a86d400df0182cfeb6eed1dc2b42559f4" name="a86d400df0182cfeb6eed1dc2b42559f4"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>to3mf</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a86d400df0182cfeb6eed1dc2b42559f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .3mf file Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga243e1f662be38defccfbb68793ca9f57">MR.MeshSave.to3mf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a86d400df0182cfeb6eed1dc2b42559f4" id="r_a86d400df0182cfeb6eed1dc2b42559f4"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a86d400df0182cfeb6eed1dc2b42559f4">to3mf</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a86d400df0182cfeb6eed1dc2b42559f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves in .3mf file Generated from function <code><a class="el" href="#a86d400df0182cfeb6eed1dc2b42559f4" title="saves in .3mf file Generated from function MR.MeshSave.to3mf. Parameter settings defaults to {}...">MR.MeshSave.to3mf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a86d400df0182cfeb6eed1dc2b42559f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa009db2d7a6ab5d15d78d0f165207e1a" id="r_aa009db2d7a6ab5d15d78d0f165207e1a"><td class="memItemLeft" align="right" valign="top"><a id="aa009db2d7a6ab5d15d78d0f165207e1a" name="aa009db2d7a6ab5d15d78d0f165207e1a"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toAnySupportedFormat</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string file, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:aa009db2d7a6ab5d15d78d0f165207e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and save mesh to it Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR.MeshSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:aa009db2d7a6ab5d15d78d0f165207e1a" id="r_aa009db2d7a6ab5d15d78d0f165207e1a"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa009db2d7a6ab5d15d78d0f165207e1a">toAnySupportedFormat</a> (MR.Const_Mesh mesh, string file, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:aa009db2d7a6ab5d15d78d0f165207e1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and save mesh to it Generated from function <code><a class="el" href="#aa009db2d7a6ab5d15d78d0f165207e1a" title="detects the format from file extension and save mesh to it Generated from function MR....">MR.MeshSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:aa009db2d7a6ab5d15d78d0f165207e1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e4197c7f5c3e43327eafd82e320b59f" id="r_a5e4197c7f5c3e43327eafd82e320b59f"><td class="memItemLeft" align="right" valign="top"><a id="a5e4197c7f5c3e43327eafd82e320b59f" name="a5e4197c7f5c3e43327eafd82e320b59f"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toAnySupportedFormat</b> (<a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a> mesh, string extension, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a>? settings=null)</td></tr>
-<tr class="memdesc:a5e4197c7f5c3e43327eafd82e320b59f"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9">MR.MeshSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a5e4197c7f5c3e43327eafd82e320b59f" id="r_a5e4197c7f5c3e43327eafd82e320b59f"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5e4197c7f5c3e43327eafd82e320b59f">toAnySupportedFormat</a> (MR.Const_Mesh mesh, string extension, MR.Std.Ostream out_, MR.Const_SaveSettings? settings=null)</td></tr>
+<tr class="memdesc:a5e4197c7f5c3e43327eafd82e320b59f"><td class="mdescLeft">&#160;</td><td class="mdescRight">extension in <code>*.ext</code> format Generated from function <code><a class="el" href="#aa009db2d7a6ab5d15d78d0f165207e1a" title="detects the format from file extension and save mesh to it Generated from function MR....">MR.MeshSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a5e4197c7f5c3e43327eafd82e320b59f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a117c7529099c0cd29ea66b02883be913" id="r_a117c7529099c0cd29ea66b02883be913"><td class="memItemLeft" align="right" valign="top"><a id="a117c7529099c0cd29ea66b02883be913" name="a117c7529099c0cd29ea66b02883be913"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>sceneToObj</b> (<a class="el" href="classMR_1_1Std_1_1Const__Vector__MRMeshSaveNamedXfMesh.html">MR.Std.Const_Vector_MRMeshSaveNamedXfMesh</a> objects, string file, <a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>? colors=null)</td></tr>
-<tr class="memdesc:a117c7529099c0cd29ea66b02883be913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveObjGroup.html#gae3dd1ca3146e809db153793012e27d06">MR.MeshSave.sceneToObj</a></code>. <br /></td></tr>
+<tr class="memitem:a117c7529099c0cd29ea66b02883be913" id="r_a117c7529099c0cd29ea66b02883be913"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a117c7529099c0cd29ea66b02883be913">sceneToObj</a> (MR.Std.Const_Vector_MRMeshSaveNamedXfMesh objects, string file, <a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>? colors=null)</td></tr>
+<tr class="memdesc:a117c7529099c0cd29ea66b02883be913"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a117c7529099c0cd29ea66b02883be913" title="Generated from function MR.MeshSave.sceneToObj.">MR.MeshSave.sceneToObj</a></code>.  <br /></td></tr>
 <tr class="separator:a117c7529099c0cd29ea66b02883be913"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f1d5bbc7487d46b5807ddc77e0f5719" id="r_a5f1d5bbc7487d46b5807ddc77e0f5719"><td class="memItemLeft" align="right" valign="top"><a id="a5f1d5bbc7487d46b5807ddc77e0f5719" name="a5f1d5bbc7487d46b5807ddc77e0f5719"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>sceneToObj</b> (<a class="el" href="classMR_1_1Std_1_1Const__Vector__MRMeshSaveNamedXfMesh.html">MR.Std.Const_Vector_MRMeshSaveNamedXfMesh</a> objects, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>? colors=null)</td></tr>
-<tr class="memdesc:a5f1d5bbc7487d46b5807ddc77e0f5719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveObjGroup.html#gae3dd1ca3146e809db153793012e27d06">MR.MeshSave.sceneToObj</a></code>. <br /></td></tr>
+<tr class="memitem:a5f1d5bbc7487d46b5807ddc77e0f5719" id="r_a5f1d5bbc7487d46b5807ddc77e0f5719"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f1d5bbc7487d46b5807ddc77e0f5719">sceneToObj</a> (MR.Std.Const_Vector_MRMeshSaveNamedXfMesh objects, MR.Std.Ostream out_, <a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>? colors=null)</td></tr>
+<tr class="memdesc:a5f1d5bbc7487d46b5807ddc77e0f5719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a117c7529099c0cd29ea66b02883be913" title="Generated from function MR.MeshSave.sceneToObj.">MR.MeshSave.sceneToObj</a></code>.  <br /></td></tr>
 <tr class="separator:a5f1d5bbc7487d46b5807ddc77e0f5719"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3f63fa876435f5e2be05def3a8bab696" name="a3f63fa876435f5e2be05def3a8bab696"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f63fa876435f5e2be05def3a8bab696">&#9670;&#160;</a></span>toObj()</h2>
+<a id="a5f1d5bbc7487d46b5807ddc77e0f5719" name="a5f1d5bbc7487d46b5807ddc77e0f5719"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f1d5bbc7487d46b5807ddc77e0f5719">&#9670;&#160;</a></span>sceneToObj() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.sceneToObj </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Const_Vector_MRMeshSaveNamedXfMesh</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>?</td>          <td class="paramname"><span class="paramname"><em>colors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a117c7529099c0cd29ea66b02883be913" title="Generated from function MR.MeshSave.sceneToObj.">MR.MeshSave.sceneToObj</a></code>. </p>
+
+</div>
+</div>
+<a id="a117c7529099c0cd29ea66b02883be913" name="a117c7529099c0cd29ea66b02883be913"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117c7529099c0cd29ea66b02883be913">&#9670;&#160;</a></span>sceneToObj() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.sceneToObj </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Const_Vector_MRMeshSaveNamedXfMesh</td>          <td class="paramname"><span class="paramname"><em>objects</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1VertColors.html">MR.VertColors</a>?</td>          <td class="paramname"><span class="paramname"><em>colors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a117c7529099c0cd29ea66b02883be913" title="Generated from function MR.MeshSave.sceneToObj.">MR.MeshSave.sceneToObj</a></code>. </p>
+
+</div>
+</div>
+<a id="a86d400df0182cfeb6eed1dc2b42559f4" name="a86d400df0182cfeb6eed1dc2b42559f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d400df0182cfeb6eed1dc2b42559f4">&#9670;&#160;</a></span>to3mf()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.to3mf </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in .3mf file Generated from function <code><a class="el" href="#a86d400df0182cfeb6eed1dc2b42559f4" title="saves in .3mf file Generated from function MR.MeshSave.to3mf. Parameter settings defaults to {}...">MR.MeshSave.to3mf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a5e4197c7f5c3e43327eafd82e320b59f" name="a5e4197c7f5c3e43327eafd82e320b59f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e4197c7f5c3e43327eafd82e320b59f">&#9670;&#160;</a></span>toAnySupportedFormat() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>extension</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>extension in <code>*.ext</code> format Generated from function <code><a class="el" href="#aa009db2d7a6ab5d15d78d0f165207e1a" title="detects the format from file extension and save mesh to it Generated from function MR....">MR.MeshSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="aa009db2d7a6ab5d15d78d0f165207e1a" name="aa009db2d7a6ab5d15d78d0f165207e1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa009db2d7a6ab5d15d78d0f165207e1a">&#9670;&#160;</a></span>toAnySupportedFormat() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>detects the format from file extension and save mesh to it Generated from function <code><a class="el" href="#aa009db2d7a6ab5d15d78d0f165207e1a" title="detects the format from file extension and save mesh to it Generated from function MR....">MR.MeshSave.toAnySupportedFormat</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="adec3c806f6f93d278b0acd537b9c14f5" name="adec3c806f6f93d278b0acd537b9c14f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adec3c806f6f93d278b0acd537b9c14f5">&#9670;&#160;</a></span>toAsciiStl() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toAsciiStl </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a672e206f199a8e91b384ef0d10be6c84" title="saves in textual .stl file; SaveSettings.onlyValidPoints = false is ignored Generated from function M...">MR.MeshSave.toAsciiStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a672e206f199a8e91b384ef0d10be6c84" name="a672e206f199a8e91b384ef0d10be6c84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a672e206f199a8e91b384ef0d10be6c84">&#9670;&#160;</a></span>toAsciiStl() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toAsciiStl </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in textual .stl file; <a class="el" href="classMR_1_1SaveSettings.html#a035062075a5d478d4550b55b8488db94">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="el" href="#a672e206f199a8e91b384ef0d10be6c84" title="saves in textual .stl file; SaveSettings.onlyValidPoints = false is ignored Generated from function M...">MR.MeshSave.toAsciiStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="abf025a8b9a325d09756a65e4834cc75c" name="abf025a8b9a325d09756a65e4834cc75c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf025a8b9a325d09756a65e4834cc75c">&#9670;&#160;</a></span>toBinaryStl() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toBinaryStl </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a0c2051ee3c93474a670223aaaa9f3fca" title="saves in binary .stl file; SaveSettings.onlyValidPoints = false is ignored Generated from function MR...">MR.MeshSave.toBinaryStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a0c2051ee3c93474a670223aaaa9f3fca" name="a0c2051ee3c93474a670223aaaa9f3fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c2051ee3c93474a670223aaaa9f3fca">&#9670;&#160;</a></span>toBinaryStl() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toBinaryStl </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in binary .stl file; <a class="el" href="classMR_1_1SaveSettings.html#a035062075a5d478d4550b55b8488db94">SaveSettings.onlyValidPoints</a> = false is ignored Generated from function <code><a class="el" href="#a0c2051ee3c93474a670223aaaa9f3fca" title="saves in binary .stl file; SaveSettings.onlyValidPoints = false is ignored Generated from function MR...">MR.MeshSave.toBinaryStl</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a3ad87e7d784e27d6adc5fb131ce7190f" name="a3ad87e7d784e27d6adc5fb131ce7190f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ad87e7d784e27d6adc5fb131ce7190f">&#9670;&#160;</a></span>toCtm() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toCtm </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a82ad98b2d8570ddfd98a9ada68bedd02" title="saves in .ctm file Generated from function MR.MeshSave.toCtm.">MR.MeshSave.toCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a7988fc2ac6b3ff08bf3d5b057b2dcf3c" name="a7988fc2ac6b3ff08bf3d5b057b2dcf3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7988fc2ac6b3ff08bf3d5b057b2dcf3c">&#9670;&#160;</a></span>toCtm() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toCtm </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.MeshSave.Const_CtmSaveOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a82ad98b2d8570ddfd98a9ada68bedd02" title="saves in .ctm file Generated from function MR.MeshSave.toCtm.">MR.MeshSave.toCtm</a></code>. </p>
+
+</div>
+</div>
+<a id="ae2479c9649075a3f2cc85dcd9f6a2c76" name="ae2479c9649075a3f2cc85dcd9f6a2c76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2479c9649075a3f2cc85dcd9f6a2c76">&#9670;&#160;</a></span>toCtm() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toCtm </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a82ad98b2d8570ddfd98a9ada68bedd02" title="saves in .ctm file Generated from function MR.MeshSave.toCtm.">MR.MeshSave.toCtm</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a82ad98b2d8570ddfd98a9ada68bedd02" name="a82ad98b2d8570ddfd98a9ada68bedd02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82ad98b2d8570ddfd98a9ada68bedd02">&#9670;&#160;</a></span>toCtm() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toCtm </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.MeshSave.Const_CtmSaveOptions</td>          <td class="paramname"><span class="paramname"><em>options</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in .ctm file Generated from function <code><a class="el" href="#a82ad98b2d8570ddfd98a9ada68bedd02" title="saves in .ctm file Generated from function MR.MeshSave.toCtm.">MR.MeshSave.toCtm</a></code>. </p>
+
+</div>
+</div>
+<a id="a61c969185f711a6e683a9d463fe16bce" name="a61c969185f711a6e683a9d463fe16bce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61c969185f711a6e683a9d463fe16bce">&#9670;&#160;</a></span>toModel3mf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toModel3mf </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#aa988778d418dea9da20c378a635f5d5a" title="saves in 3mf .model file Generated from function MR.MeshSave.toModel3mf. Parameter settings defaults ...">MR.MeshSave.toModel3mf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="aa988778d418dea9da20c378a635f5d5a" name="aa988778d418dea9da20c378a635f5d5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa988778d418dea9da20c378a635f5d5a">&#9670;&#160;</a></span>toModel3mf() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toModel3mf </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in 3mf .model file Generated from function <code><a class="el" href="#aa988778d418dea9da20c378a635f5d5a" title="saves in 3mf .model file Generated from function MR.MeshSave.toModel3mf. Parameter settings defaults ...">MR.MeshSave.toModel3mf</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="ac2c2b377fe8f0b1af7f12c5a533390a1" name="ac2c2b377fe8f0b1af7f12c5a533390a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2c2b377fe8f0b1af7f12c5a533390a1">&#9670;&#160;</a></span>toMrmesh() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toMrmesh </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a5deda1bdd0e1ae82023c5ec63da83f7c" title="saves in internal file format; SaveSettings.onlyValidPoints = true is ignored Generated from function...">MR.MeshSave.toMrmesh</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a5deda1bdd0e1ae82023c5ec63da83f7c" name="a5deda1bdd0e1ae82023c5ec63da83f7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5deda1bdd0e1ae82023c5ec63da83f7c">&#9670;&#160;</a></span>toMrmesh() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toMrmesh </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in internal file format; <a class="el" href="classMR_1_1SaveSettings.html#a035062075a5d478d4550b55b8488db94">SaveSettings.onlyValidPoints</a> = true is ignored Generated from function <code><a class="el" href="#a5deda1bdd0e1ae82023c5ec63da83f7c" title="saves in internal file format; SaveSettings.onlyValidPoints = true is ignored Generated from function...">MR.MeshSave.toMrmesh</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="aa6c61af05b186988ddbfbf81f9660203" name="aa6c61af05b186988ddbfbf81f9660203"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6c61af05b186988ddbfbf81f9660203">&#9670;&#160;</a></span>toObj() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -277,7 +909,84 @@ static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>sceneTo
         <tr>
           <td class="memname">static unsafe void MR.MeshSave.toObj </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__Mesh.html">MR.Const_Mesh</a></td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>firstVertId</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a3f63fa876435f5e2be05def3a8bab696" title="saves in .obj file">MR.MeshSave.toObj</a></code>. </p>
+
+</div>
+</div>
+<a id="a619f441ff9310c0d9a2b3898edf3f89f" name="a619f441ff9310c0d9a2b3898edf3f89f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619f441ff9310c0d9a2b3898edf3f89f">&#9670;&#160;</a></span>toObj() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toObj </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a3f63fa876435f5e2be05def3a8bab696" title="saves in .obj file">MR.MeshSave.toObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a3f63fa876435f5e2be05def3a8bab696" name="a3f63fa876435f5e2be05def3a8bab696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f63fa876435f5e2be05def3a8bab696">&#9670;&#160;</a></span>toObj() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toObj </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -287,7 +996,7 @@ static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>sceneTo
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Const__SaveSettings.html">MR.Const_SaveSettings</a></td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+          <td class="paramtype">MR.Const_SaveSettings</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -305,17 +1014,197 @@ static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>sceneTo
 <p>saves in .obj file </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">firstVertId</td><td>is the index of first mesh vertex in the output file (if this object is not the first there) Generated from function <code><a class="elRef" href="../Cpp/group__MeshSaveGroup.html#gab760df35b57e01e8dcd026dfd57d832c">MR.MeshSave.toObj</a></code>. </td></tr>
+    <tr><td class="paramname">firstVertId</td><td>is the index of first mesh vertex in the output file (if this object is not the first there) Generated from function <code><a class="el" href="#a3f63fa876435f5e2be05def3a8bab696" title="saves in .obj file">MR.MeshSave.toObj</a></code>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
+<a id="a4ad6e217bcb00b312977ee1389b07234" name="a4ad6e217bcb00b312977ee1389b07234"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ad6e217bcb00b312977ee1389b07234">&#9670;&#160;</a></span>toObj() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toObj </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a3f63fa876435f5e2be05def3a8bab696" title="saves in .obj file">MR.MeshSave.toObj</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a7fde929e61d1c424328633bb577f653b" name="a7fde929e61d1c424328633bb577f653b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fde929e61d1c424328633bb577f653b">&#9670;&#160;</a></span>toOff() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toOff </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a045084fbf724cd87a0ec2bf4682e1d14" title="saves in .off file Generated from function MR.MeshSave.toOff. Parameter settings defaults to {}...">MR.MeshSave.toOff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a045084fbf724cd87a0ec2bf4682e1d14" name="a045084fbf724cd87a0ec2bf4682e1d14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a045084fbf724cd87a0ec2bf4682e1d14">&#9670;&#160;</a></span>toOff() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toOff </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in .off file Generated from function <code><a class="el" href="#a045084fbf724cd87a0ec2bf4682e1d14" title="saves in .off file Generated from function MR.MeshSave.toOff. Parameter settings defaults to {}...">MR.MeshSave.toOff</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a514066fad470bf952bfed44dd4319730" name="a514066fad470bf952bfed44dd4319730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a514066fad470bf952bfed44dd4319730">&#9670;&#160;</a></span>toPly() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toPly </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a6adf1c3e427154267644d3a2a90a2b84" title="saves in .ply file Generated from function MR.MeshSave.toPly. Parameter settings defaults to {}...">MR.MeshSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a6adf1c3e427154267644d3a2a90a2b84" name="a6adf1c3e427154267644d3a2a90a2b84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6adf1c3e427154267644d3a2a90a2b84">&#9670;&#160;</a></span>toPly() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.MeshSave.toPly </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_Mesh</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_SaveSettings?</td>          <td class="paramname"><span class="paramname"><em>settings</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>saves in .ply file Generated from function <code><a class="el" href="#a6adf1c3e427154267644d3a2a90a2b84" title="saves in .ply file Generated from function MR.MeshSave.toPly. Parameter settings defaults to {}...">MR.MeshSave.toPly</a></code>. Parameter <code>settings</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><b>MRCtm.cs</b></li>
-<li><b>MRMeshSave.cs</b></li>
-<li><b>MRMeshSaveObj.cs</b></li>
+<li><a class="el" href="MRCtm_8cs.html">MRCtm.cs</a></li>
+<li><a class="el" href="MRMeshSave_8cs.html">MRMeshSave.cs</a></li>
+<li><a class="el" href="MRMeshSaveObj_8cs.html">MRMeshSaveObj.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -323,7 +1212,7 @@ static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>sceneTo
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1MeshSave.html">MeshSave</a></li>
+    <li class="navelem"><a class="el" href="classMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1MeshSave.html">MeshSave</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

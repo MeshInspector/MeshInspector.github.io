@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Buffer__ObjId__ObjId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Buffer_ObjId_ObjId</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1afa0ba0ab9d2bba1f060b55a78e21d14c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_ObjId_ObjId::T</definition>
+        <argsstring></argsstring>
+        <name>T</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.T</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6597" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a13e1aefbd34c8e91ecb6d61c4a36dcc1" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_ObjId_ObjId::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.const_iterator</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6598" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a0a23f8d4e84a54903e1a94d8b1c8c366" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_ObjId_ObjId::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a13970f30d349b02448afb1959f66bc4e" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_ObjId_ObjId::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.iterator</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6600" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a1b6a103d2134138e4ab921c11fa978b6" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_ObjId_ObjId::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6601" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a1eb778335c3aac52d13881b12ceaa9e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></type>
+        <definition> NoDefInit_ObjId mrmeshpy.Buffer_ObjId_ObjId.__getitem__</definition>
+        <argsstring>(self, ObjId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6603" bodyend="6604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a1eb778335c3aac52d13881b12ceaa9e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></type>
+        <definition> NoDefInit_ObjId mrmeshpy.Buffer_ObjId_ObjId.__getitem__</definition>
+        <argsstring>(self, ObjId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6606" bodyend="6607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1af449ea3c8b498a36e1f417ac603a620e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_ObjId_ObjId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6609" bodyend="6610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a5f8f27083efc2df9b4aa2dfec5f3eb90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_ObjId_ObjId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6612" bodyend="6613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1adb7ebbaf2155a0afa3f9d9b575c5fc32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref>]</type>
+        <definition> typing.Iterator[NoDefInit_ObjId] mrmeshpy.Buffer_ObjId_ObjId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6614" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6614" bodyend="6615"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1ae57566971c0aa0046a5552d1efa0d94c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_ObjId_ObjId.__setitem__</definition>
+        <argsstring>(self, ObjId arg0, NoDefInit_ObjId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6616" bodyend="6617"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a2554b76b18526b1153ed8c26e066966e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+        <definition> ObjId mrmeshpy.Buffer_ObjId_ObjId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6618" bodyend="6621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a0aa78abf153145e2043129e748aa6ce6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+        <definition> ObjId mrmeshpy.Buffer_ObjId_ObjId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6622" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6622" bodyend="6625"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a77479a0369014d7f665b3a5f3df449b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_ObjId_ObjId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6626" bodyend="6627"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a7e99f32b7b630f2305d11db54567357e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_ObjId_ObjId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6628" bodyend="6629"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a4ac95d2e86bec7afdc95359a6ef73abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></type>
+        <definition> NoDefInit_ObjId mrmeshpy.Buffer_ObjId_ObjId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6631" bodyend="6632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a4ac95d2e86bec7afdc95359a6ef73abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__ObjId" kindref="compound">NoDefInit_ObjId</ref></type>
+        <definition> NoDefInit_ObjId mrmeshpy.Buffer_ObjId_ObjId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6634" bodyend="6635"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1af18790817936b3486c82bc632ef30f45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Buffer_ObjId_ObjId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6636" bodyend="6637"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1aaf35693cae9685f1e7a5d8dc0105d8a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+        <definition> ObjId mrmeshpy.Buffer_ObjId_ObjId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6638" bodyend="6641"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a27fe1808299916ecb6ec9246fda3533c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_ObjId_ObjId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6642" bodyend="6645"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1ac131cff26f5150f6fef721340f7711a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_ObjId_ObjId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6646" bodyend="6647"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__ObjId__ObjId_1ab81f56412ea5692382d61e58e2836770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_ObjId_ObjId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Buffer_ObjId_ObjId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6648" bodyend="6649"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Buffer&lt;MR::ObjId, MR::ObjId&gt;
+
+
+ \\brief std::vector&lt;V&gt;-like container that is
+  1) resized without initialization of its elements,
+  2) much simplified: no push_back and many other methods
+ \\tparam V type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6585" bodyend="6649"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a1eb778335c3aac52d13881b12ceaa9e4" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a1eb778335c3aac52d13881b12ceaa9e4" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1af449ea3c8b498a36e1f417ac603a620e" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a5f8f27083efc2df9b4aa2dfec5f3eb90" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1adb7ebbaf2155a0afa3f9d9b575c5fc32" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1ae57566971c0aa0046a5552d1efa0d94c" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a2554b76b18526b1153ed8c26e066966e" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a0aa78abf153145e2043129e748aa6ce6" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a77479a0369014d7f665b3a5f3df449b0" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a7e99f32b7b630f2305d11db54567357e" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a13e1aefbd34c8e91ecb6d61c4a36dcc1" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>const_iterator</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a0a23f8d4e84a54903e1a94d8b1c8c366" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a4ac95d2e86bec7afdc95359a6ef73abe" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a4ac95d2e86bec7afdc95359a6ef73abe" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1af18790817936b3486c82bc632ef30f45" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1aaf35693cae9685f1e7a5d8dc0105d8a5" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a27fe1808299916ecb6ec9246fda3533c" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a13970f30d349b02448afb1959f66bc4e" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>iterator</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1a1b6a103d2134138e4ab921c11fa978b6" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1ac131cff26f5150f6fef721340f7711a0" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1ab81f56412ea5692382d61e58e2836770" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__ObjId__ObjId_1afa0ba0ab9d2bba1f060b55a78e21d14c" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_ObjId_ObjId</scope><name>T</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

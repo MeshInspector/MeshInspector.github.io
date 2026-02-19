@@ -152,7 +152,7 @@ $(function(){initNavTree('MRNormalDenoising_8h.html',''); initResizable(true); }
   <div class="headertitle"><div class="title">MRNormalDenoising.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;MRMeshFwd.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRExpected_8h_source.html">MRExpected.h</a>&quot;</code><br />
 </div>
@@ -160,24 +160,25 @@ $(function(){initNavTree('MRNormalDenoising_8h.html',''); initResizable(true); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a4a2815eda5e04a1da7ec615027b52c86" id="r_a4a2815eda5e04a1da7ec615027b52c86"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4a2815eda5e04a1da7ec615027b52c86">MR::denoiseNormals</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="elRef" href="../Csharp/classMR_1_1FaceNormals.html">FaceNormals</a> &amp;normals, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="elRef" href="../Csharp/structMR_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> &gt; &amp;v, float gamma)</td></tr>
-<tr class="separator:a4a2815eda5e04a1da7ec615027b52c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a786dcca1baeb53c3472aeec3c347aaf0" id="r_a786dcca1baeb53c3472aeec3c347aaf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a786dcca1baeb53c3472aeec3c347aaf0">MR::updateIndicator</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="elRef" href="../Csharp/structMR_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> &gt; &amp;v, const <a class="elRef" href="../Csharp/classMR_1_1FaceNormals.html">FaceNormals</a> &amp;normals, float beta, float gamma)</td></tr>
-<tr class="separator:a786dcca1baeb53c3472aeec3c347aaf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40847df1ce412c4c7085dd392037e050" id="r_a40847df1ce412c4c7085dd392037e050"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a40847df1ce412c4c7085dd392037e050">MR::updateIndicatorFast</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, <a class="elRef" href="../Csharp/structMR_1_1UndirectedEdgeId.html">UndirectedEdgeId</a> &gt; &amp;v, const <a class="elRef" href="../Csharp/classMR_1_1FaceNormals.html">FaceNormals</a> &amp;normals, float beta, float gamma)</td></tr>
-<tr class="separator:a40847df1ce412c4c7085dd392037e050"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bddd9d63512f9dfffb0fa869f249a4d" id="r_a6bddd9d63512f9dfffb0fa869f249a4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> Expected&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6bddd9d63512f9dfffb0fa869f249a4d">MR::meshDenoiseViaNormals</a> (<a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings={})</td></tr>
-<tr class="separator:a6bddd9d63512f9dfffb0fa869f249a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a2815eda5e04a1da7ec615027b52c86" id="r_ga4a2815eda5e04a1da7ec615027b52c86"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4a2815eda5e04a1da7ec615027b52c86">MR::denoiseNormals</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, FaceNormals &amp;normals, const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, float gamma)</td></tr>
+<tr class="separator:ga4a2815eda5e04a1da7ec615027b52c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga786dcca1baeb53c3472aeec3c347aaf0" id="r_ga786dcca1baeb53c3472aeec3c347aaf0"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga786dcca1baeb53c3472aeec3c347aaf0">MR::updateIndicator</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const FaceNormals &amp;normals, float beta, float gamma)</td></tr>
+<tr class="separator:ga786dcca1baeb53c3472aeec3c347aaf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga40847df1ce412c4c7085dd392037e050" id="r_ga40847df1ce412c4c7085dd392037e050"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga40847df1ce412c4c7085dd392037e050">MR::updateIndicatorFast</a> (const <a class="el" href="classMR_1_1MeshTopology.html">MeshTopology</a> &amp;topology, <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; float, UndirectedEdgeId &gt; &amp;v, const FaceNormals &amp;normals, float beta, float gamma)</td></tr>
+<tr class="separator:ga40847df1ce412c4c7085dd392037e050"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6bddd9d63512f9dfffb0fa869f249a4d" id="r_ga6bddd9d63512f9dfffb0fa869f249a4d"><td class="memItemLeft" align="right" valign="top">MRMESH_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; void &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6bddd9d63512f9dfffb0fa869f249a4d">MR::meshDenoiseViaNormals</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1DenoiseViaNormalsSettings.html">DenoiseViaNormalsSettings</a> &amp;settings={})</td></tr>
+<tr class="separator:ga6bddd9d63512f9dfffb0fa869f249a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

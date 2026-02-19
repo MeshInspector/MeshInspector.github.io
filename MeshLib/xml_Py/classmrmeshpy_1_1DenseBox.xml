@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DenseBox" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DenseBox</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1a56e935580db71a5be404be43002e7e52" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenseBox.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenseBox.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12646" bodyend="12647"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1a912215b0566c98c38931a43e19035ab4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DenseBox" kindref="compound">DenseBox</ref></type>
+        <definition> DenseBox mrmeshpy.DenseBox.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DenseBox.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12650" bodyend="12651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1a912215b0566c98c38931a43e19035ab4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DenseBox" kindref="compound">DenseBox</ref></type>
+        <definition> DenseBox mrmeshpy.DenseBox.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DenseBox.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12654" bodyend="12655"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1aae552717f57c730a24493b60d2665680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenseBox.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float points, AffineXf3f xf=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenseBox.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Include given points into this dense box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12657" bodyend="12660"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1afcb93f4795025bfb008313a388e98363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenseBox.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float points, std_vector_float weights, AffineXf3f xf=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenseBox.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>weights</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Include given weighed points into this dense box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12662" bodyend="12665"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1ad2cfb2da8982c798150511722d42b3cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenseBox.__init__</definition>
+        <argsstring>(self, MeshPart meshPart, AffineXf3f xf=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenseBox.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Include mesh part into this dense box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12667" bodyend="12670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1a46e429abe650d480cd96ca396ebcbb5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenseBox.__init__</definition>
+        <argsstring>(self, PointCloud points, AffineXf3f xf=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenseBox.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Include point into this dense box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12672" bodyend="12675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1ae16eb4a14f3cb106516f5f75fd470d1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenseBox.__init__</definition>
+        <argsstring>(self, Polyline3 line, AffineXf3f xf=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenseBox.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Include line into this dense box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12677" bodyend="12680"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1acd9de0d2e979f4214e102f2b48c8f4b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenseBox.__init__</definition>
+        <argsstring>(self, DenseBox arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenseBox.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DenseBox" kindref="compound">DenseBox</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12682" bodyend="12685"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1aae4f6cd29757e92aec52485c71d3a44e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.DenseBox.basisXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>basisXf</name>
+        <qualifiedname>mrmeshpy.DenseBox.basisXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>transform box space to world space 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12686" bodyend="12689"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1ad43075d1d7c6e89d0a530c53dbf8a453" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.DenseBox.basisXfInv</definition>
+        <argsstring>(self)</argsstring>
+        <name>basisXfInv</name>
+        <qualifiedname>mrmeshpy.DenseBox.basisXfInv</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>transform world space to box space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12690" bodyend="12693"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1abe39e1218c16002600ef3d221914a898" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.DenseBox.box</definition>
+        <argsstring>(self)</argsstring>
+        <name>box</name>
+        <qualifiedname>mrmeshpy.DenseBox.box</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return box in its space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12694" bodyend="12697"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1ae1a8a32f6537e991d60cc58c37033708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.DenseBox.center</definition>
+        <argsstring>(self)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.DenseBox.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns center of dense box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12698" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12698" bodyend="12701"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1ae75bb5ea27516f6d860f2eb3a6a0d394" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DenseBox.contains</definition>
+        <argsstring>(self, Vector3f pt)</argsstring>
+        <name>contains</name>
+        <qualifiedname>mrmeshpy.DenseBox.contains</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if dense box contains given point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12702" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12702" bodyend="12705"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenseBox_1a21b6122b4e288ae6e198083acb5a2fa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.DenseBox.corner</definition>
+        <argsstring>(self, Vector3b index)</argsstring>
+        <name>corner</name>
+        <qualifiedname>mrmeshpy.DenseBox.corner</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3b" kindref="compound">Vector3b</ref></type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns corner of dense box, each index value means: false - min, true - max
+example: {false, false, flase} - min point, {true, true, true} - max point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12706" bodyend="12710"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DenseBox
+
+Structure to hold and work with dense box
+\\details Scalar operations that are not provided in this struct can be called via `box()`
+For example `box().size()`, `box().diagonal()` or `box().volume()`
+Non const operations are not allowed for dense box because it can spoil density
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12635" bodyend="12710"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DenseBox_1a56e935580db71a5be404be43002e7e52" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1aae552717f57c730a24493b60d2665680" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1afcb93f4795025bfb008313a388e98363" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1ad2cfb2da8982c798150511722d42b3cd" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1a46e429abe650d480cd96ca396ebcbb5d" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1ae16eb4a14f3cb106516f5f75fd470d1b" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1acd9de0d2e979f4214e102f2b48c8f4b8" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1aae4f6cd29757e92aec52485c71d3a44e" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>basisXf</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1ad43075d1d7c6e89d0a530c53dbf8a453" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>basisXfInv</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1abe39e1218c16002600ef3d221914a898" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>box</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1ae1a8a32f6537e991d60cc58c37033708" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1ae75bb5ea27516f6d860f2eb3a6a0d394" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>contains</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1a21b6122b4e288ae6e198083acb5a2fa2" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>corner</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1a912215b0566c98c38931a43e19035ab4" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DenseBox_1a912215b0566c98c38931a43e19035ab4" prot="public" virt="non-virtual"><scope>mrmeshpy::DenseBox</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

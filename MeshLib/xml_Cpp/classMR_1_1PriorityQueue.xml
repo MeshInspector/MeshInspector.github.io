@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PriorityQueue" kind="class" language="C++" prot="public">
+    <compoundname>MR::PriorityQueue</compoundname>
+    <includes refid="MRPriorityQueue_8h" local="no">MRPriorityQueue.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename P</type>
+        <defval>std::less&lt;T&gt;</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga3b6a5fb6f7530ae66dfec44b04efaf99" kind="typedef"><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1gaeaf2b86418b3f772aaf5c8bc2329d8c2" kind="typedef"><name>Container</name></member>
+      <member refid="group__GeneralGroup_1ga657bf77bb26190bcd1415b93138f77d9" kind="typedef"><name>size_type</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga5f49205aba3f95b0774623effbc87e49" kind="variable"><name>c</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga47b9b9b360a49542db0f23581dd7d26b" kind="variable"><name>pred_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaae44e735cc86835adbb6d48ff4a446ab" kind="function"><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1gaebd81e426914ebd5fa07ba5e4bfa0142" kind="function"><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1ga0a3fa89180c853554002ef654d27fa4b" kind="function"><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1ga10d6af2f304f8f8ce7d09de3b272a283" kind="function"><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gab6d4bc3f087a1d5b9e3acf5c3334f1af" kind="function"><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga3973d3d98fabe3ab995b0773b4594bd4" kind="function"><name>top</name></member>
+      <member refid="group__GeneralGroup_1ga2e187afc12c2e65ace2f15cc047a4347" kind="function"><name>push</name></member>
+      <member refid="group__GeneralGroup_1gaf459afbfa15d0c2d31e4deb76c8c0ba6" kind="function"><name>push</name></member>
+      <member refid="group__GeneralGroup_1ga14e51732a3a52902181ca4b3d1f28374" kind="function"><name>emplace</name></member>
+      <member refid="group__GeneralGroup_1gada44a589fd04a828763560decb38cdf8" kind="function"><name>pop</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gac3768af1b2c1c1f02a594537e7ca9105" kind="function"><name>onPush_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>similar to std::priority_queue, but with ability to access underlying vector to custom modify its elements </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPriorityQueue.h" bodystart="17" bodyend="57"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga5f49205aba3f95b0774623effbc87e49" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>c</name></member>
+      <member refid="group__GeneralGroup_1gaeaf2b86418b3f772aaf5c8bc2329d8c2" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>Container</name></member>
+      <member refid="group__GeneralGroup_1ga14e51732a3a52902181ca4b3d1f28374" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>emplace</name></member>
+      <member refid="group__GeneralGroup_1ga10d6af2f304f8f8ce7d09de3b272a283" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>empty</name></member>
+      <member refid="group__GeneralGroup_1gac3768af1b2c1c1f02a594537e7ca9105" prot="private" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>onPush_</name></member>
+      <member refid="group__GeneralGroup_1gada44a589fd04a828763560decb38cdf8" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>pop</name></member>
+      <member refid="group__GeneralGroup_1ga47b9b9b360a49542db0f23581dd7d26b" prot="private" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>pred_</name></member>
+      <member refid="group__GeneralGroup_1gaae44e735cc86835adbb6d48ff4a446ab" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1gaebd81e426914ebd5fa07ba5e4bfa0142" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1ga0a3fa89180c853554002ef654d27fa4b" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>PriorityQueue</name></member>
+      <member refid="group__GeneralGroup_1ga2e187afc12c2e65ace2f15cc047a4347" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>push</name></member>
+      <member refid="group__GeneralGroup_1gaf459afbfa15d0c2d31e4deb76c8c0ba6" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>push</name></member>
+      <member refid="group__GeneralGroup_1gab6d4bc3f087a1d5b9e3acf5c3334f1af" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga657bf77bb26190bcd1415b93138f77d9" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>size_type</name></member>
+      <member refid="group__GeneralGroup_1ga3973d3d98fabe3ab995b0773b4594bd4" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>top</name></member>
+      <member refid="group__GeneralGroup_1ga3b6a5fb6f7530ae66dfec44b04efaf99" prot="public" virt="non-virtual"><scope>MR::PriorityQueue</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

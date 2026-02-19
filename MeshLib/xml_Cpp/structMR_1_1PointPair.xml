@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointPair" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointPair</compoundname>
+    <basecompoundref refid="structMR_1_1ICPPairData" prot="public" virt="non-virtual">MR::ICPPairData</basecompoundref>
+    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga0be978719b10258123e31ffe3413c532" kind="variable"><name>srcVertId</name></member>
+      <member refid="group__GeneralGroup_1ga6e96779ac71de15fae84c9c1dee17cb7" kind="variable"><name>tgtCloseVert</name></member>
+      <member refid="group__GeneralGroup_1ga087147661647b219169ee6e63da113fd" kind="variable"><name>normalsAngleCos</name></member>
+      <member refid="group__GeneralGroup_1gae8d7edf5f01746179a2eb12b3e66b1d0" kind="variable"><name>tgtOnBd</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga5f761c6549a8d74c43a943993e9f7426" kind="friend"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Stores a pair of points: one samples on the source and the closest to it on the target. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ICPPairData</label>
+        <link refid="structMR_1_1ICPPairData"/>
+      </node>
+      <node id="1">
+        <label>MR::PointPair</label>
+        <link refid="structMR_1_1PointPair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ICPPairData</label>
+        <link refid="structMR_1_1ICPPairData"/>
+      </node>
+      <node id="1">
+        <label>MR::PointPair</label>
+        <link refid="structMR_1_1PointPair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="44" bodyend="59"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafe05b997a712f074a3053f11dab0a7eb" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>distSq</name></member>
+      <member refid="group__GeneralGroup_1ga087147661647b219169ee6e63da113fd" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>normalsAngleCos</name></member>
+      <member refid="group__GeneralGroup_1ga5f761c6549a8d74c43a943993e9f7426" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga26326a83f053dc2e5ea6f564143ac410" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>srcNorm</name></member>
+      <member refid="group__GeneralGroup_1gaf30195d74b2a6994fdfadd8768407c38" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>srcPoint</name></member>
+      <member refid="group__GeneralGroup_1ga0be978719b10258123e31ffe3413c532" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>srcVertId</name></member>
+      <member refid="group__GeneralGroup_1ga6e96779ac71de15fae84c9c1dee17cb7" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtCloseVert</name></member>
+      <member refid="group__GeneralGroup_1ga7f615835e680ec678113e7e2367e3a09" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtNorm</name></member>
+      <member refid="group__GeneralGroup_1gae8d7edf5f01746179a2eb12b3e66b1d0" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtOnBd</name></member>
+      <member refid="group__GeneralGroup_1ga5a8aa18bdc6d6ceb392dafa06cbf3ba7" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtPoint</name></member>
+      <member refid="group__GeneralGroup_1gacade73682f0a4e356ccf90131e1a5fa2" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

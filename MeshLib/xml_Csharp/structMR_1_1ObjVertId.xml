@@ -1,0 +1,222 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjVertId" kind="struct" language="C#" prot="public">
+    <compoundname>MR::ObjVertId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.ObjVertId &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ObjVertId_1ae8532d658a1803844ba574b34381786e" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+        <definition>MR.ObjId MR.ObjVertId.objId</definition>
+        <argsstring></argsstring>
+        <name>objId</name>
+        <qualifiedname>MR.ObjVertId.objId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="458" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="458" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ObjVertId_1a5d06fe3cbd1f4aee00f40385ba0746d5" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>MR.VertId MR.ObjVertId.vId</definition>
+        <argsstring></argsstring>
+        <name>vId</name>
+        <qualifiedname>MR.ObjVertId.vId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="461" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="461" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1ObjVertId_1a49cef0e6c69f02862faf27c838298856" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ObjVertId.operator ObjVertId</definition>
+        <argsstring>(ConstBox_ObjVertId other)</argsstring>
+        <name>operator ObjVertId</name>
+        <qualifiedname>MR.ObjVertId.operator ObjVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__ObjVertId" kindref="compound">ConstBox_ObjVertId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="466" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjVertId_1af5c8337f58444cbb74352f530675359d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ObjVertId.operator==</definition>
+        <argsstring>(MR.ObjVertId _1, MR.ObjVertId _2)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ObjVertId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref></type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="486" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="486" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjVertId_1a533d6ba43c07a263a1c03205308c018a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ObjVertId.operator!=</definition>
+        <argsstring>(MR.ObjVertId _1, MR.ObjVertId _2)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ObjVertId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref></type>
+          <declname>_1</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref></type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="493" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="493" bodyend="496"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ObjVertId_1aa2bf1fdf682e0bc8791d5615d241af37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjVertId.ObjVertId</definition>
+        <argsstring>(ObjVertId _other)</argsstring>
+        <name>ObjVertId</name>
+        <qualifiedname>MR.ObjVertId.ObjVertId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjVertId" kindref="compound">ObjVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="471" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="471" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjVertId_1a0ef62a13b2dea670efc19efcb9366ae8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjVertId.ObjVertId</definition>
+        <argsstring>()</argsstring>
+        <name>ObjVertId</name>
+        <qualifiedname>MR.ObjVertId.ObjVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="476" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="476" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjVertId_1a29a7bb6a9c26cec1e474a66704033989" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ObjVertId.Equals</definition>
+        <argsstring>(MR.ObjVertId _2)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ObjVertId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref></type>
+          <declname>_2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="500" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="500" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ObjVertId_1a13304ee67edaea3025f655d77392929b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ObjVertId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ObjVertId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="505" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="505" bodyend="512"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1ObjVertId" kindref="compound">MR.ObjVertId</ref></computeroutput>. This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ObjVertId</label>
+        <link refid="structMR_1_1ObjVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.ObjVertId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR</label>
+        <link refid="classMR"/>
+      </node>
+      <node id="1">
+        <label>MR.ObjVertId</label>
+        <link refid="structMR_1_1ObjVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>objId</edgelabel>
+          <edgelabel>vId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.ObjVertId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" line="455" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSampling.cs" bodystart="456" bodyend="513"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ObjVertId_1a29a7bb6a9c26cec1e474a66704033989" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1ObjVertId_1a13304ee67edaea3025f655d77392929b" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1ObjVertId_1ae8532d658a1803844ba574b34381786e" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>objId</name></member>
+      <member refid="structMR_1_1ObjVertId_1aa2bf1fdf682e0bc8791d5615d241af37" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>ObjVertId</name></member>
+      <member refid="structMR_1_1ObjVertId_1a0ef62a13b2dea670efc19efcb9366ae8" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>ObjVertId</name></member>
+      <member refid="structMR_1_1ObjVertId_1a49cef0e6c69f02862faf27c838298856" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>operator ObjVertId</name></member>
+      <member refid="structMR_1_1ObjVertId_1a533d6ba43c07a263a1c03205308c018a" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1ObjVertId_1af5c8337f58444cbb74352f530675359d" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>operator==</name></member>
+      <member refid="structMR_1_1ObjVertId_1a5d06fe3cbd1f4aee00f40385ba0746d5" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>vId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

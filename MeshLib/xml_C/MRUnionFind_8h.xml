@@ -1,0 +1,1649 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRUnionFind_8h" kind="file" language="C++">
+    <compoundname>MRUnionFind.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRUnionFind.h</label>
+        <link refid="MRUnionFind_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRUnionFind_8h_1ab809347fd151b45341bc9e7828673eb5" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref></type>
+        <definition>typedef struct MR_FaceMap MR_FaceMap</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="14" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnionFind_8h_1aa4d4fe6a31a96d5b6a3ace7923d8718a" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1aa4d4fe6a31a96d5b6a3ace7923d8718a" kindref="member">MR_UndirectedEdgeMap</ref></type>
+        <definition>typedef struct MR_UndirectedEdgeMap MR_UndirectedEdgeMap</definition>
+        <argsstring></argsstring>
+        <name>MR_UndirectedEdgeMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="15" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnionFind_8h_1a0c1baad62a31685b2dfb5955f3fb8230" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref></type>
+        <definition>typedef struct MR_VertMap MR_VertMap</definition>
+        <argsstring></argsstring>
+        <name>MR_VertMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="16" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnionFind_8h_1a009ad16aadb7e788e4bf77bf31e65e97" prot="public" static="no">
+        <type>struct <ref refid="MRUnionFind_8h_1a009ad16aadb7e788e4bf77bf31e65e97" kindref="member">MR_std_pair_MR_FaceId_bool</ref></type>
+        <definition>typedef struct MR_std_pair_MR_FaceId_bool MR_std_pair_MR_FaceId_bool</definition>
+        <argsstring></argsstring>
+        <name>MR_std_pair_MR_FaceId_bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="17" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnionFind_8h_1a41e3c983ece9c0acc963ddaf69b7a1d9" prot="public" static="no">
+        <type>struct <ref refid="MRUnionFind_8h_1a41e3c983ece9c0acc963ddaf69b7a1d9" kindref="member">MR_std_pair_MR_UndirectedEdgeId_bool</ref></type>
+        <definition>typedef struct MR_std_pair_MR_UndirectedEdgeId_bool MR_std_pair_MR_UndirectedEdgeId_bool</definition>
+        <argsstring></argsstring>
+        <name>MR_std_pair_MR_UndirectedEdgeId_bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="18" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnionFind_8h_1aae9c305f191634d43c991478fc2123ee" prot="public" static="no">
+        <type>struct <ref refid="MRUnionFind_8h_1aae9c305f191634d43c991478fc2123ee" kindref="member">MR_std_pair_MR_VertId_bool</ref></type>
+        <definition>typedef struct MR_std_pair_MR_VertId_bool MR_std_pair_MR_VertId_bool</definition>
+        <argsstring></argsstring>
+        <name>MR_std_pair_MR_VertId_bool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="19" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnionFind_8h_1aae1af1886c1d727925eb39e88e0dfdf9" prot="public" static="no">
+        <type>struct <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref></type>
+        <definition>typedef struct MR_UnionFind_MR_VertId MR_UnionFind_MR_VertId</definition>
+        <argsstring></argsstring>
+        <name>MR_UnionFind_MR_VertId</name>
+        <briefdescription>
+<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the identifier of a set&apos;s element, e.g. FaceId Generated from class <computeroutput>MR::UnionFind&lt;MR::VertId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="32" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnionFind_8h_1ab2619d00f0e1fd789b05b95f2364062d" prot="public" static="no">
+        <type>struct <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref></type>
+        <definition>typedef struct MR_UnionFind_MR_UndirectedEdgeId MR_UnionFind_MR_UndirectedEdgeId</definition>
+        <argsstring></argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId</name>
+        <briefdescription>
+<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the identifier of a set&apos;s element, e.g. FaceId Generated from class <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="44" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnionFind_8h_1a19ac954a946c69321d91442b97cbf857" prot="public" static="no">
+        <type>struct <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref></type>
+        <definition>typedef struct MR_UnionFind_MR_FaceId MR_UnionFind_MR_FaceId</definition>
+        <argsstring></argsstring>
+        <name>MR_UnionFind_MR_FaceId</name>
+        <briefdescription>
+<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the identifier of a set&apos;s element, e.g. FaceId Generated from class <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="56" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRUnionFind_8h_1abf4028f6ba4c81bf69f95bb2aa36080f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_VertId * MR_UnionFind_MR_VertId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_UnionFind_MR_VertId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a2be4e338561c0e94fb1448a58aa59d0a" kindref="member">MR_UnionFind_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="60" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="60" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ac1e8b6249ff1e42597e18e6e1b14c5f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_VertId * MR_UnionFind_MR_VertId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_UnionFind_MR_VertId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRUnionFind_8h_1accb38f7f284a0dd3e4d4bc551da82617" kindref="member">MR_UnionFind_MR_VertId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRUnionFind_8h_1ac5bcf3f72f2f1a6ec6d71f5e8f968c33" kindref="member">MR_UnionFind_MR_VertId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRUnionFind_8h_1aeed40711d809b1b06371ce0b352c578b" kindref="member">MR_UnionFind_MR_VertId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="65" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="65" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1aeed40711d809b1b06371ce0b352c578b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+        <definition>MRC_API const MR_UnionFind_MR_VertId * MR_UnionFind_MR_VertId_OffsetPtr</definition>
+        <argsstring>(const MR_UnionFind_MR_VertId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UnionFind_MR_VertId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="69" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="69" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ac5bcf3f72f2f1a6ec6d71f5e8f968c33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_VertId * MR_UnionFind_MR_VertId_OffsetMutablePtr</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UnionFind_MR_VertId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="73" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="73" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a0dbce5611832d7dee4d7980ecb3d8069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_VertId * MR_UnionFind_MR_VertId_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_UnionFind_MR_VertId *_other)</argsstring>
+        <name>MR_UnionFind_MR_VertId_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::UnionFind</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a2be4e338561c0e94fb1448a58aa59d0a" kindref="member">MR_UnionFind_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="78" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="78" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a9091c19ad729b70ac826b4f4e3696493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_VertId * MR_UnionFind_MR_VertId_Construct</definition>
+        <argsstring>(MR_uint64_t size)</argsstring>
+        <name>MR_UnionFind_MR_VertId_Construct</name>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::UnionFind</computeroutput>. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a2be4e338561c0e94fb1448a58aa59d0a" kindref="member">MR_UnionFind_MR_VertId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="84" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="84" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a2be4e338561c0e94fb1448a58aa59d0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnionFind_MR_VertId_Destroy</definition>
+        <argsstring>(const MR_UnionFind_MR_VertId *_this)</argsstring>
+        <name>MR_UnionFind_MR_VertId_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_UnionFind_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="87" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1accb38f7f284a0dd3e4d4bc551da82617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnionFind_MR_VertId_DestroyArray</definition>
+        <argsstring>(const MR_UnionFind_MR_VertId *_this)</argsstring>
+        <name>MR_UnionFind_MR_VertId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_UnionFind_MR_VertId</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="90" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a3637adc471f4d2f80abf50d5321b8f3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_VertId * MR_UnionFind_MR_VertId_AssignFromAnother</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *_this, MR_PassBy _other_pass_by, MR_UnionFind_MR_VertId *_other)</argsstring>
+        <name>MR_UnionFind_MR_VertId_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="97" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="97" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a984274a65f6a4b9ad347ff3b1246714c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_UnionFind_MR_VertId_size</definition>
+        <argsstring>(const MR_UnionFind_MR_VertId *_this)</argsstring>
+        <name>MR_UnionFind_MR_VertId_size</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of elements in union-find Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="102" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="102" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a39dc1136d8bf1e8bc86ee8f523fbaf24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnionFind_MR_VertId_reset</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *_this, MR_uint64_t size)</argsstring>
+        <name>MR_UnionFind_MR_VertId_reset</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::reset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a1c28d7858ecc751def9a9d17ff58f2e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRUnionFind_8h_1aae9c305f191634d43c991478fc2123ee" kindref="member">MR_std_pair_MR_VertId_bool</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_VertId_bool * MR_UnionFind_MR_VertId_unite</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *_this, MR_VertId first, MR_VertId second)</argsstring>
+        <name>MR_UnionFind_MR_VertId_unite</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>unite two elements, <simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::unite</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_pair_MR_VertId_bool_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="114" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="114" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1af55179657264d227240f254213b8e43e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_UnionFind_MR_VertId_united</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *_this, MR_VertId first, MR_VertId second)</argsstring>
+        <name>MR_UnionFind_MR_VertId_united</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if given two elements are from one set Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::united</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="119" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="119" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1aef4c8955a6f0451995e876fe9963c75e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_UnionFind_MR_VertId_isRoot</definition>
+        <argsstring>(const MR_UnionFind_MR_VertId *_this, MR_VertId a)</argsstring>
+        <name>MR_UnionFind_MR_VertId_isRoot</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if given element is the root of some set Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::isRoot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="124" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="124" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a9d8dda15eac2a5074588f13b977b7933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_UnionFind_MR_VertId_parent</definition>
+        <argsstring>(const MR_UnionFind_MR_VertId *_this, MR_VertId a)</argsstring>
+        <name>MR_UnionFind_MR_VertId_parent</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return parent element of this element, which is equal to given element only for set&apos;s root Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::parent</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="129" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="129" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a159e373a1494e85b53b3cae599e33fb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_UnionFind_MR_VertId_find</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *_this, MR_VertId a)</argsstring>
+        <name>MR_UnionFind_MR_VertId_find</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::find</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="134" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="134" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a9e25632e3924ed34b6f728dbc25649f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+        <definition>MRC_API MR_VertId MR_UnionFind_MR_VertId_findUpdateRange</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *_this, MR_VertId a, MR_VertId begin, MR_VertId end)</argsstring>
+        <name>MR_UnionFind_MR_VertId_findUpdateRange</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::findUpdateRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="139" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="139" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1aad97fc8fbf03b662bf7ab8502eff121e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+        <definition>MRC_API const MR_VertMap * MR_UnionFind_MR_VertId_roots</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *_this)</argsstring>
+        <name>MR_UnionFind_MR_VertId_roots</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::roots</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="145" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="145" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ae5e945d192d6ca3b60e4a65b175ac278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref> *</type>
+        <definition>MRC_API const MR_VertMap * MR_UnionFind_MR_VertId_parents</definition>
+        <argsstring>(const MR_UnionFind_MR_VertId *_this)</argsstring>
+        <name>MR_UnionFind_MR_VertId_parents</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets the parents of all elements as is Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::parents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="151" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="151" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a6f6de9d2b4153747b09a72b82990d2ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int</type>
+        <definition>MRC_API int MR_UnionFind_MR_VertId_sizeOfComp</definition>
+        <argsstring>(MR_UnionFind_MR_VertId *_this, MR_VertId a)</argsstring>
+        <name>MR_UnionFind_MR_VertId_sizeOfComp</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR::UnionFind&lt;MR::VertId&gt;::sizeOfComp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="156" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="156" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a515d52bc1f17f53fa3b31987667856cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_UndirectedEdgeId * MR_UnionFind_MR_UndirectedEdgeId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1ab6a8e3bfea9fcea98682db53c0682c9f" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="160" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="160" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a818ec793fed9655117fd28582af5741e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_UndirectedEdgeId * MR_UnionFind_MR_UndirectedEdgeId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRUnionFind_8h_1a4d931eb6ac91c9580bbe390e85816abe" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRUnionFind_8h_1a9568677a23ec859c28944614ea5ca2d5" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRUnionFind_8h_1a6f3ac3c73143da8bc3fe5c0cad98830f" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="165" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="165" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a6f3ac3c73143da8bc3fe5c0cad98830f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API const MR_UnionFind_MR_UndirectedEdgeId * MR_UnionFind_MR_UndirectedEdgeId_OffsetPtr</definition>
+        <argsstring>(const MR_UnionFind_MR_UndirectedEdgeId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="169" column="48" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="169" declcolumn="48"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a9568677a23ec859c28944614ea5ca2d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_UndirectedEdgeId * MR_UnionFind_MR_UndirectedEdgeId_OffsetMutablePtr</definition>
+        <argsstring>(MR_UnionFind_MR_UndirectedEdgeId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="173" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="173" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1abc2cd3b73bf9e60a4e6d3bd25d562977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_UndirectedEdgeId * MR_UnionFind_MR_UndirectedEdgeId_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_UnionFind_MR_UndirectedEdgeId *_other)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::UnionFind</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1ab6a8e3bfea9fcea98682db53c0682c9f" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="178" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="178" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a123c3b1809fe55ca2f770ee77883447a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_UndirectedEdgeId * MR_UnionFind_MR_UndirectedEdgeId_Construct</definition>
+        <argsstring>(MR_uint64_t size)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_Construct</name>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::UnionFind</computeroutput>. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1ab6a8e3bfea9fcea98682db53c0682c9f" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="184" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="184" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ab6a8e3bfea9fcea98682db53c0682c9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnionFind_MR_UndirectedEdgeId_Destroy</definition>
+        <argsstring>(const MR_UnionFind_MR_UndirectedEdgeId *_this)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_UnionFind_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="187" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="187" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a4d931eb6ac91c9580bbe390e85816abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnionFind_MR_UndirectedEdgeId_DestroyArray</definition>
+        <argsstring>(const MR_UnionFind_MR_UndirectedEdgeId *_this)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_UnionFind_MR_UndirectedEdgeId</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="190" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="190" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a34f890026ae18c47ac125e6489eb9129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_UndirectedEdgeId * MR_UnionFind_MR_UndirectedEdgeId_AssignFromAnother</definition>
+        <argsstring>(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_PassBy _other_pass_by, MR_UnionFind_MR_UndirectedEdgeId *_other)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="197" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="197" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ace185925be5ee1c61c12ccc467484caa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_UnionFind_MR_UndirectedEdgeId_size</definition>
+        <argsstring>(const MR_UnionFind_MR_UndirectedEdgeId *_this)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_size</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of elements in union-find Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="202" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="202" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a79e59e98e9a75a3a8552bc61c3bb72dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnionFind_MR_UndirectedEdgeId_reset</definition>
+        <argsstring>(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_uint64_t size)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_reset</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::reset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="207" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="207" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a6bb3907b7e3c2299df2e0ce2ed5e205b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRUnionFind_8h_1a41e3c983ece9c0acc963ddaf69b7a1d9" kindref="member">MR_std_pair_MR_UndirectedEdgeId_bool</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_UndirectedEdgeId_bool * MR_UnionFind_MR_UndirectedEdgeId_unite</definition>
+        <argsstring>(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_UndirectedEdgeId first, MR_UndirectedEdgeId second)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_unite</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>unite two elements, <simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::unite</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_pair_MR_UndirectedEdgeId_bool_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="214" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="214" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a5fbae2cabf7ae865f6360ec27cdeee5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_UnionFind_MR_UndirectedEdgeId_united</definition>
+        <argsstring>(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_UndirectedEdgeId first, MR_UndirectedEdgeId second)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_united</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if given two elements are from one set Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::united</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="219" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="219" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a0af28880e9abe5f4cce2c7e12a448cb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_UnionFind_MR_UndirectedEdgeId_isRoot</definition>
+        <argsstring>(const MR_UnionFind_MR_UndirectedEdgeId *_this, MR_UndirectedEdgeId a)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_isRoot</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if given element is the root of some set Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::isRoot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="224" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="224" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a24e236ed22da4bd0f16bff65cde7b8c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+        <definition>MRC_API MR_UndirectedEdgeId MR_UnionFind_MR_UndirectedEdgeId_parent</definition>
+        <argsstring>(const MR_UnionFind_MR_UndirectedEdgeId *_this, MR_UndirectedEdgeId a)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_parent</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return parent element of this element, which is equal to given element only for set&apos;s root Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::parent</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="229" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="229" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a2be78420a13cc5423c2b9ba3c2290f2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+        <definition>MRC_API MR_UndirectedEdgeId MR_UnionFind_MR_UndirectedEdgeId_find</definition>
+        <argsstring>(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_UndirectedEdgeId a)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_find</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::find</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="234" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="234" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a336b6a8a56edebc0360640831cebc2d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+        <definition>MRC_API MR_UndirectedEdgeId MR_UnionFind_MR_UndirectedEdgeId_findUpdateRange</definition>
+        <argsstring>(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_UndirectedEdgeId a, MR_UndirectedEdgeId begin, MR_UndirectedEdgeId end)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_findUpdateRange</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::findUpdateRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="239" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="239" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1afa2b77957ae44ea32effff3f04788284" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBitSet_8h_1aa4d4fe6a31a96d5b6a3ace7923d8718a" kindref="member">MR_UndirectedEdgeMap</ref> *</type>
+        <definition>MRC_API const MR_UndirectedEdgeMap * MR_UnionFind_MR_UndirectedEdgeId_roots</definition>
+        <argsstring>(MR_UnionFind_MR_UndirectedEdgeId *_this)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_roots</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::roots</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="245" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="245" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a0f58ae65743d39ea464c2ce8fa8f2d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBitSet_8h_1aa4d4fe6a31a96d5b6a3ace7923d8718a" kindref="member">MR_UndirectedEdgeMap</ref> *</type>
+        <definition>MRC_API const MR_UndirectedEdgeMap * MR_UnionFind_MR_UndirectedEdgeId_parents</definition>
+        <argsstring>(const MR_UnionFind_MR_UndirectedEdgeId *_this)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_parents</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets the parents of all elements as is Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::parents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="251" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="251" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a9a1b9e0f0d63184f1ec3d7604ea362d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int</type>
+        <definition>MRC_API int MR_UnionFind_MR_UndirectedEdgeId_sizeOfComp</definition>
+        <argsstring>(MR_UnionFind_MR_UndirectedEdgeId *_this, MR_UndirectedEdgeId a)</argsstring>
+        <name>MR_UnionFind_MR_UndirectedEdgeId_sizeOfComp</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR::UnionFind&lt;MR::UndirectedEdgeId&gt;::sizeOfComp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="256" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="256" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a60b9545e749e511c0931fae9d3cea120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_UnionFind_MR_FaceId_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" kindref="member">MR_UnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="260" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="260" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a6eb3dd69e9e3ff64120b9c7bc386b51b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_UnionFind_MR_FaceId_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRUnionFind_8h_1a948a269402e04610a9d578ab804f4ab3" kindref="member">MR_UnionFind_MR_FaceId_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRUnionFind_8h_1a6f6c0fbc656eacb82ff5fcc1ecc5dae8" kindref="member">MR_UnionFind_MR_FaceId_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRUnionFind_8h_1afd94db110b5327c549dc115b88dd6c9b" kindref="member">MR_UnionFind_MR_FaceId_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="265" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="265" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1afd94db110b5327c549dc115b88dd6c9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API const MR_UnionFind_MR_FaceId * MR_UnionFind_MR_FaceId_OffsetPtr</definition>
+        <argsstring>(const MR_UnionFind_MR_FaceId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="269" column="38" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="269" declcolumn="38"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a6f6c0fbc656eacb82ff5fcc1ecc5dae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_UnionFind_MR_FaceId_OffsetMutablePtr</definition>
+        <argsstring>(MR_UnionFind_MR_FaceId *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="273" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="273" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ae55a612d5ed117e7151fdcd8379cff4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_UnionFind_MR_FaceId_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_UnionFind_MR_FaceId *_other)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::UnionFind</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" kindref="member">MR_UnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="278" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="278" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a7b81a73edfa885b0ca7c424b2ccbcf47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_UnionFind_MR_FaceId_Construct</definition>
+        <argsstring>(MR_uint64_t size)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_Construct</name>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::UnionFind</computeroutput>. The reference to the parameter <computeroutput>size</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" kindref="member">MR_UnionFind_MR_FaceId_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="284" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="284" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnionFind_MR_FaceId_Destroy</definition>
+        <argsstring>(const MR_UnionFind_MR_FaceId *_this)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_Destroy</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_UnionFind_MR_FaceId</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="287" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="287" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a948a269402e04610a9d578ab804f4ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnionFind_MR_FaceId_DestroyArray</definition>
+        <argsstring>(const MR_UnionFind_MR_FaceId *_this)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_UnionFind_MR_FaceId</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="290" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a7d3bfc51978c69f47f25636ec4fd0aba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+        <definition>MRC_API MR_UnionFind_MR_FaceId * MR_UnionFind_MR_FaceId_AssignFromAnother</definition>
+        <argsstring>(MR_UnionFind_MR_FaceId *_this, MR_PassBy _other_pass_by, MR_UnionFind_MR_FaceId *_other)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="297" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="297" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ac47ff399398c81d635ae35a7c7f298d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_UnionFind_MR_FaceId_size</definition>
+        <argsstring>(const MR_UnionFind_MR_FaceId *_this)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_size</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of elements in union-find Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="302" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="302" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a326ac97b2db4443eb3adee668ff2f0c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnionFind_MR_FaceId_reset</definition>
+        <argsstring>(MR_UnionFind_MR_FaceId *_this, MR_uint64_t size)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_reset</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::reset</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="307" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="307" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a3ee38579f064afe9c87b1f899d3ecf4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRUnionFind_8h_1a009ad16aadb7e788e4bf77bf31e65e97" kindref="member">MR_std_pair_MR_FaceId_bool</ref> *</type>
+        <definition>MRC_API MR_std_pair_MR_FaceId_bool * MR_UnionFind_MR_FaceId_unite</definition>
+        <argsstring>(MR_UnionFind_MR_FaceId *_this, MR_FaceId first, MR_FaceId second)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_unite</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>unite two elements, <simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::unite</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_pair_MR_FaceId_bool_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="314" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="314" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a400fccbde13fc94189626be26968141f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_UnionFind_MR_FaceId_united</definition>
+        <argsstring>(MR_UnionFind_MR_FaceId *_this, MR_FaceId first, MR_FaceId second)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_united</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if given two elements are from one set Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::united</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="319" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="319" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a762804277e928f2da7cf02940bdd0ba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_UnionFind_MR_FaceId_isRoot</definition>
+        <argsstring>(const MR_UnionFind_MR_FaceId *_this, MR_FaceId a)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_isRoot</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if given element is the root of some set Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::isRoot</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="324" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="324" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1aaedd490669ece8307e29e9794b4bbbb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+        <definition>MRC_API MR_FaceId MR_UnionFind_MR_FaceId_parent</definition>
+        <argsstring>(const MR_UnionFind_MR_FaceId *_this, MR_FaceId a)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_parent</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>return parent element of this element, which is equal to given element only for set&apos;s root Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::parent</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="329" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="329" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ae4d369e99e8e613e40cff3f0dfd31a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+        <definition>MRC_API MR_FaceId MR_UnionFind_MR_FaceId_find</definition>
+        <argsstring>(MR_UnionFind_MR_FaceId *_this, MR_FaceId a)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_find</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::find</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="334" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="334" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ae4695f8bcfaa52fb41c7253ee631325f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+        <definition>MRC_API MR_FaceId MR_UnionFind_MR_FaceId_findUpdateRange</definition>
+        <argsstring>(MR_UnionFind_MR_FaceId *_this, MR_FaceId a, MR_FaceId begin, MR_FaceId end)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_findUpdateRange</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::findUpdateRange</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="339" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="339" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ad65c4f2cd7e206df380140554ac656b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref> *</type>
+        <definition>MRC_API const MR_FaceMap * MR_UnionFind_MR_FaceId_roots</definition>
+        <argsstring>(MR_UnionFind_MR_FaceId *_this)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_roots</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::roots</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="345" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="345" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1ae538c4a2d5a5431c927c7f9ceabdcf14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref> *</type>
+        <definition>MRC_API const MR_FaceMap * MR_UnionFind_MR_FaceId_parents</definition>
+        <argsstring>(const MR_UnionFind_MR_FaceId *_this)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_parents</name>
+        <param>
+          <type>const <ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets the parents of all elements as is Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::parents</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="351" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="351" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnionFind_8h_1a895f84e2f24af17ea66808cee0bb932b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int</type>
+        <definition>MRC_API int MR_UnionFind_MR_FaceId_sizeOfComp</definition>
+        <argsstring>(MR_UnionFind_MR_FaceId *_this, MR_FaceId a)</argsstring>
+        <name>MR_UnionFind_MR_FaceId_sizeOfComp</name>
+        <param>
+          <type><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR::UnionFind&lt;MR::FaceId&gt;::sizeOfComp</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" line="356" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h" declline="356" declcolumn="13"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRUnionFind_8h_1ab809347fd151b45341bc9e7828673eb5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRUnionFind_8h_1aa4d4fe6a31a96d5b6a3ace7923d8718a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1aa4d4fe6a31a96d5b6a3ace7923d8718a" kindref="member">MR_UndirectedEdgeMap</ref><sp/><ref refid="MRBitSet_8h_1aa4d4fe6a31a96d5b6a3ace7923d8718a" kindref="member">MR_UndirectedEdgeMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRUnionFind_8h_1a0c1baad62a31685b2dfb5955f3fb8230" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRUnionFind_8h_1a009ad16aadb7e788e4bf77bf31e65e97" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnionFind_8h_1a009ad16aadb7e788e4bf77bf31e65e97" kindref="member">MR_std_pair_MR_FaceId_bool</ref><sp/><ref refid="MRUnionFind_8h_1a009ad16aadb7e788e4bf77bf31e65e97" kindref="member">MR_std_pair_MR_FaceId_bool</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_MR_FaceId_bool.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRUnionFind_8h_1a41e3c983ece9c0acc963ddaf69b7a1d9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnionFind_8h_1a41e3c983ece9c0acc963ddaf69b7a1d9" kindref="member">MR_std_pair_MR_UndirectedEdgeId_bool</ref><sp/><ref refid="MRUnionFind_8h_1a41e3c983ece9c0acc963ddaf69b7a1d9" kindref="member">MR_std_pair_MR_UndirectedEdgeId_bool</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_MR_UndirectedEdgeId_bool.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRUnionFind_8h_1aae9c305f191634d43c991478fc2123ee" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnionFind_8h_1aae9c305f191634d43c991478fc2123ee" kindref="member">MR_std_pair_MR_VertId_bool</ref><sp/><ref refid="MRUnionFind_8h_1aae9c305f191634d43c991478fc2123ee" kindref="member">MR_std_pair_MR_VertId_bool</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_pair_MR_VertId_bool.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="MRUnionFind_8h_1aae1af1886c1d727925eb39e88e0dfdf9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRUnionFind_8h_1ab2619d00f0e1fd789b05b95f2364062d" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref>;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRUnionFind_8h_1a19ac954a946c69321d91442b97cbf857" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref>;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRUnionFind_8h_1abf4028f6ba4c81bf69f95bb2aa36080f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*<ref refid="MRUnionFind_8h_1abf4028f6ba4c81bf69f95bb2aa36080f" kindref="member">MR_UnionFind_MR_VertId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRUnionFind_8h_1ac1e8b6249ff1e42597e18e6e1b14c5f7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*<ref refid="MRUnionFind_8h_1ac1e8b6249ff1e42597e18e6e1b14c5f7" kindref="member">MR_UnionFind_MR_VertId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRUnionFind_8h_1aeed40711d809b1b06371ce0b352c578b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*<ref refid="MRUnionFind_8h_1aeed40711d809b1b06371ce0b352c578b" kindref="member">MR_UnionFind_MR_VertId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRUnionFind_8h_1ac5bcf3f72f2f1a6ec6d71f5e8f968c33" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*<ref refid="MRUnionFind_8h_1ac5bcf3f72f2f1a6ec6d71f5e8f968c33" kindref="member">MR_UnionFind_MR_VertId_OffsetMutablePtr</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRUnionFind_8h_1a0dbce5611832d7dee4d7980ecb3d8069" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*<ref refid="MRUnionFind_8h_1a0dbce5611832d7dee4d7980ecb3d8069" kindref="member">MR_UnionFind_MR_VertId_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRUnionFind_8h_1a9091c19ad729b70ac826b4f4e3696493" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*<ref refid="MRUnionFind_8h_1a9091c19ad729b70ac826b4f4e3696493" kindref="member">MR_UnionFind_MR_VertId_Construct</ref>(MR_uint64_t<sp/>size);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRUnionFind_8h_1a2be4e338561c0e94fb1448a58aa59d0a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a2be4e338561c0e94fb1448a58aa59d0a" kindref="member">MR_UnionFind_MR_VertId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRUnionFind_8h_1accb38f7f284a0dd3e4d4bc551da82617" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1accb38f7f284a0dd3e4d4bc551da82617" kindref="member">MR_UnionFind_MR_VertId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRUnionFind_8h_1a3637adc471f4d2f80abf50d5321b8f3b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*<ref refid="MRUnionFind_8h_1a3637adc471f4d2f80abf50d5321b8f3b" kindref="member">MR_UnionFind_MR_VertId_AssignFromAnother</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRUnionFind_8h_1a984274a65f6a4b9ad347ff3b1246714c" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRUnionFind_8h_1a984274a65f6a4b9ad347ff3b1246714c" kindref="member">MR_UnionFind_MR_VertId_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRUnionFind_8h_1a39dc1136d8bf1e8bc86ee8f523fbaf24" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a39dc1136d8bf1e8bc86ee8f523fbaf24" kindref="member">MR_UnionFind_MR_VertId_reset</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>size);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRUnionFind_8h_1a1c28d7858ecc751def9a9d17ff58f2e2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnionFind_8h_1aae9c305f191634d43c991478fc2123ee" kindref="member">MR_std_pair_MR_VertId_bool</ref><sp/>*<ref refid="MRUnionFind_8h_1a1c28d7858ecc751def9a9d17ff58f2e2" kindref="member">MR_UnionFind_MR_VertId_unite</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>first,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>second);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="MRUnionFind_8h_1af55179657264d227240f254213b8e43e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1af55179657264d227240f254213b8e43e" kindref="member">MR_UnionFind_MR_VertId_united</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>first,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>second);</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRUnionFind_8h_1aef4c8955a6f0451995e876fe9963c75e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1aef4c8955a6f0451995e876fe9963c75e" kindref="member">MR_UnionFind_MR_VertId_isRoot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRUnionFind_8h_1a9d8dda15eac2a5074588f13b977b7933" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRUnionFind_8h_1a9d8dda15eac2a5074588f13b977b7933" kindref="member">MR_UnionFind_MR_VertId_parent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRUnionFind_8h_1a159e373a1494e85b53b3cae599e33fb5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRUnionFind_8h_1a159e373a1494e85b53b3cae599e33fb5" kindref="member">MR_UnionFind_MR_VertId_find</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="MRUnionFind_8h_1a9e25632e3924ed34b6f728dbc25649f4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/><ref refid="MRUnionFind_8h_1a9e25632e3924ed34b6f728dbc25649f4" kindref="member">MR_UnionFind_MR_VertId_findUpdateRange</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>a,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>begin,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>end);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRUnionFind_8h_1aad97fc8fbf03b662bf7ab8502eff121e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*<ref refid="MRUnionFind_8h_1aad97fc8fbf03b662bf7ab8502eff121e" kindref="member">MR_UnionFind_MR_VertId_roots</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRUnionFind_8h_1ae5e945d192d6ca3b60e4a65b175ac278" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1a0c1baad62a31685b2dfb5955f3fb8230" kindref="member">MR_VertMap</ref><sp/>*<ref refid="MRUnionFind_8h_1ae5e945d192d6ca3b60e4a65b175ac278" kindref="member">MR_UnionFind_MR_VertId_parents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRUnionFind_8h_1a6f6de9d2b4153747b09a72b82990d2ba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a6f6de9d2b4153747b09a72b82990d2ba" kindref="member">MR_UnionFind_MR_VertId_sizeOfComp</ref>(<ref refid="MRMeshComponents_8h_1aae1af1886c1d727925eb39e88e0dfdf9" kindref="member">MR_UnionFind_MR_VertId</ref><sp/>*_this,<sp/><ref refid="structMR__VertId" kindref="compound">MR_VertId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRUnionFind_8h_1a515d52bc1f17f53fa3b31987667856cb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRUnionFind_8h_1a515d52bc1f17f53fa3b31987667856cb" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165" refid="MRUnionFind_8h_1a818ec793fed9655117fd28582af5741e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRUnionFind_8h_1a818ec793fed9655117fd28582af5741e" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169" refid="MRUnionFind_8h_1a6f3ac3c73143da8bc3fe5c0cad98830f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRUnionFind_8h_1a6f3ac3c73143da8bc3fe5c0cad98830f" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRUnionFind_8h_1a9568677a23ec859c28944614ea5ca2d5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRUnionFind_8h_1a9568677a23ec859c28944614ea5ca2d5" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_OffsetMutablePtr</ref>(<ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRUnionFind_8h_1abc2cd3b73bf9e60a4e6d3bd25d562977" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRUnionFind_8h_1abc2cd3b73bf9e60a4e6d3bd25d562977" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="MRUnionFind_8h_1a123c3b1809fe55ca2f770ee77883447a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRUnionFind_8h_1a123c3b1809fe55ca2f770ee77883447a" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_Construct</ref>(MR_uint64_t<sp/>size);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRUnionFind_8h_1ab6a8e3bfea9fcea98682db53c0682c9f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1ab6a8e3bfea9fcea98682db53c0682c9f" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="MRUnionFind_8h_1a4d931eb6ac91c9580bbe390e85816abe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a4d931eb6ac91c9580bbe390e85816abe" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRUnionFind_8h_1a34f890026ae18c47ac125e6489eb9129" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*<ref refid="MRUnionFind_8h_1a34f890026ae18c47ac125e6489eb9129" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_AssignFromAnother</ref>(<ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRUnionFind_8h_1ace185925be5ee1c61c12ccc467484caa" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRUnionFind_8h_1ace185925be5ee1c61c12ccc467484caa" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRUnionFind_8h_1a79e59e98e9a75a3a8552bc61c3bb72dd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a79e59e98e9a75a3a8552bc61c3bb72dd" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_reset</ref>(<ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>size);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRUnionFind_8h_1a6bb3907b7e3c2299df2e0ce2ed5e205b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnionFind_8h_1a41e3c983ece9c0acc963ddaf69b7a1d9" kindref="member">MR_std_pair_MR_UndirectedEdgeId_bool</ref><sp/>*<ref refid="MRUnionFind_8h_1a6bb3907b7e3c2299df2e0ce2ed5e205b" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_unite</ref>(<ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>first,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>second);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="MRUnionFind_8h_1a5fbae2cabf7ae865f6360ec27cdeee5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a5fbae2cabf7ae865f6360ec27cdeee5b" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_united</ref>(<ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>first,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>second);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="MRUnionFind_8h_1a0af28880e9abe5f4cce2c7e12a448cb7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a0af28880e9abe5f4cce2c7e12a448cb7" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_isRoot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="229" refid="MRUnionFind_8h_1a24e236ed22da4bd0f16bff65cde7b8c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRUnionFind_8h_1a24e236ed22da4bd0f16bff65cde7b8c3" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_parent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="MRUnionFind_8h_1a2be78420a13cc5423c2b9ba3c2290f2f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRUnionFind_8h_1a2be78420a13cc5423c2b9ba3c2290f2f" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_find</ref>(<ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="239" refid="MRUnionFind_8h_1a336b6a8a56edebc0360640831cebc2d6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/><ref refid="MRUnionFind_8h_1a336b6a8a56edebc0360640831cebc2d6" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_findUpdateRange</ref>(<ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>a,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>begin,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>end);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRUnionFind_8h_1afa2b77957ae44ea32effff3f04788284" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa4d4fe6a31a96d5b6a3ace7923d8718a" kindref="member">MR_UndirectedEdgeMap</ref><sp/>*<ref refid="MRUnionFind_8h_1afa2b77957ae44ea32effff3f04788284" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_roots</ref>(<ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251" refid="MRUnionFind_8h_1a0f58ae65743d39ea464c2ce8fa8f2d38" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1aa4d4fe6a31a96d5b6a3ace7923d8718a" kindref="member">MR_UndirectedEdgeMap</ref><sp/>*<ref refid="MRUnionFind_8h_1a0f58ae65743d39ea464c2ce8fa8f2d38" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_parents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="MRUnionFind_8h_1a9a1b9e0f0d63184f1ec3d7604ea362d6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a9a1b9e0f0d63184f1ec3d7604ea362d6" kindref="member">MR_UnionFind_MR_UndirectedEdgeId_sizeOfComp</ref>(<ref refid="MRMeshComponents_8h_1ab2619d00f0e1fd789b05b95f2364062d" kindref="member">MR_UnionFind_MR_UndirectedEdgeId</ref><sp/>*_this,<sp/><ref refid="structMR__UndirectedEdgeId" kindref="compound">MR_UndirectedEdgeId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260" refid="MRUnionFind_8h_1a60b9545e749e511c0931fae9d3cea120" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRUnionFind_8h_1a60b9545e749e511c0931fae9d3cea120" kindref="member">MR_UnionFind_MR_FaceId_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="MRUnionFind_8h_1a6eb3dd69e9e3ff64120b9c7bc386b51b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRUnionFind_8h_1a6eb3dd69e9e3ff64120b9c7bc386b51b" kindref="member">MR_UnionFind_MR_FaceId_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="MRUnionFind_8h_1afd94db110b5327c549dc115b88dd6c9b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRUnionFind_8h_1afd94db110b5327c549dc115b88dd6c9b" kindref="member">MR_UnionFind_MR_FaceId_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="MRUnionFind_8h_1a6f6c0fbc656eacb82ff5fcc1ecc5dae8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRUnionFind_8h_1a6f6c0fbc656eacb82ff5fcc1ecc5dae8" kindref="member">MR_UnionFind_MR_FaceId_OffsetMutablePtr</ref>(<ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="278" refid="MRUnionFind_8h_1ae55a612d5ed117e7151fdcd8379cff4a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRUnionFind_8h_1ae55a612d5ed117e7151fdcd8379cff4a" kindref="member">MR_UnionFind_MR_FaceId_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRUnionFind_8h_1a7b81a73edfa885b0ca7c424b2ccbcf47" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRUnionFind_8h_1a7b81a73edfa885b0ca7c424b2ccbcf47" kindref="member">MR_UnionFind_MR_FaceId_Construct</ref>(MR_uint64_t<sp/>size);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287" refid="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a25380c1de20d112c353c1106298f2096" kindref="member">MR_UnionFind_MR_FaceId_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRUnionFind_8h_1a948a269402e04610a9d578ab804f4ab3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a948a269402e04610a9d578ab804f4ab3" kindref="member">MR_UnionFind_MR_FaceId_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="MRUnionFind_8h_1a7d3bfc51978c69f47f25636ec4fd0aba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*<ref refid="MRUnionFind_8h_1a7d3bfc51978c69f47f25636ec4fd0aba" kindref="member">MR_UnionFind_MR_FaceId_AssignFromAnother</ref>(<ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302" refid="MRUnionFind_8h_1ac47ff399398c81d635ae35a7c7f298d8" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRUnionFind_8h_1ac47ff399398c81d635ae35a7c7f298d8" kindref="member">MR_UnionFind_MR_FaceId_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="MRUnionFind_8h_1a326ac97b2db4443eb3adee668ff2f0c6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a326ac97b2db4443eb3adee668ff2f0c6" kindref="member">MR_UnionFind_MR_FaceId_reset</ref>(<ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>size);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="MRUnionFind_8h_1a3ee38579f064afe9c87b1f899d3ecf4c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnionFind_8h_1a009ad16aadb7e788e4bf77bf31e65e97" kindref="member">MR_std_pair_MR_FaceId_bool</ref><sp/>*<ref refid="MRUnionFind_8h_1a3ee38579f064afe9c87b1f899d3ecf4c" kindref="member">MR_UnionFind_MR_FaceId_unite</ref>(<ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>first,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>second);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319" refid="MRUnionFind_8h_1a400fccbde13fc94189626be26968141f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a400fccbde13fc94189626be26968141f" kindref="member">MR_UnionFind_MR_FaceId_united</ref>(<ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>first,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>second);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="324" refid="MRUnionFind_8h_1a762804277e928f2da7cf02940bdd0ba4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a762804277e928f2da7cf02940bdd0ba4" kindref="member">MR_UnionFind_MR_FaceId_isRoot</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="MRUnionFind_8h_1aaedd490669ece8307e29e9794b4bbbb2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/><ref refid="MRUnionFind_8h_1aaedd490669ece8307e29e9794b4bbbb2" kindref="member">MR_UnionFind_MR_FaceId_parent</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="334" refid="MRUnionFind_8h_1ae4d369e99e8e613e40cff3f0dfd31a8e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/><ref refid="MRUnionFind_8h_1ae4d369e99e8e613e40cff3f0dfd31a8e" kindref="member">MR_UnionFind_MR_FaceId_find</ref>(<ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339" refid="MRUnionFind_8h_1ae4695f8bcfaa52fb41c7253ee631325f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/><ref refid="MRUnionFind_8h_1ae4695f8bcfaa52fb41c7253ee631325f" kindref="member">MR_UnionFind_MR_FaceId_findUpdateRange</ref>(<ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>begin,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>end);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345" refid="MRUnionFind_8h_1ad65c4f2cd7e206df380140554ac656b1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*<ref refid="MRUnionFind_8h_1ad65c4f2cd7e206df380140554ac656b1" kindref="member">MR_UnionFind_MR_FaceId_roots</ref>(<ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351" refid="MRUnionFind_8h_1ae538c4a2d5a5431c927c7f9ceabdcf14" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBitSet_8h_1ab809347fd151b45341bc9e7828673eb5" kindref="member">MR_FaceMap</ref><sp/>*<ref refid="MRUnionFind_8h_1ae538c4a2d5a5431c927c7f9ceabdcf14" kindref="member">MR_UnionFind_MR_FaceId_parents</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"></highlight></codeline>
+<codeline lineno="356" refid="MRUnionFind_8h_1a895f84e2f24af17ea66808cee0bb932b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="MRUnionFind_8h_1a895f84e2f24af17ea66808cee0bb932b" kindref="member">MR_UnionFind_MR_FaceId_sizeOfComp</ref>(<ref refid="MRMeshComponents_8h_1a19ac954a946c69321d91442b97cbf857" kindref="member">MR_UnionFind_MR_FaceId</ref><sp/>*_this,<sp/><ref refid="structMR__FaceId" kindref="compound">MR_FaceId</ref><sp/>a);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnionFind.h"/>
+  </compounddef>
+</doxygen>

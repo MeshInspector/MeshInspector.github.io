@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TiffParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TiffParameters</compoundname>
+    <basecompoundref refid="structMR_1_1BaseTiffParameters" prot="public" virt="non-virtual">MR::BaseTiffParameters</basecompoundref>
+    <includes refid="MRTiffIO_8h" local="no">MRTiffIO.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaf83e01315d14765d77386039af6d8687" kind="variable"><name>tiled</name></member>
+      <member refid="group__GeneralGroup_1ga0f390427adc09ea9947004b14be21cf0" kind="variable"><name>tileSize</name></member>
+      <member refid="group__GeneralGroup_1ga7e4daa97486cdcdbe24a7e3a607ae1ab" kind="variable"><name>layers</name></member>
+      <member refid="group__GeneralGroup_1gad64f46697aae94f7b2569134b2cbd954" kind="variable"><name>depth</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga67cf9b6f020900773f185c934f3ade7c" kind="function"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BaseTiffParameters</label>
+        <link refid="structMR_1_1BaseTiffParameters"/>
+      </node>
+      <node id="1">
+        <label>MR::TiffParameters</label>
+        <link refid="structMR_1_1TiffParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseTiffParameters</label>
+        <link refid="structMR_1_1BaseTiffParameters"/>
+      </node>
+      <node id="1">
+        <label>MR::TiffParameters</label>
+        <link refid="structMR_1_1TiffParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="44" bodyend="53"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3ff0d181f2553f8714d635e264f383c7" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>bytesPerSample</name></member>
+      <member refid="group__GeneralGroup_1gad64f46697aae94f7b2569134b2cbd954" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>depth</name></member>
+      <member refid="group__GeneralGroup_1gaccde4306e1b219c38e5ff1880b053701" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>imageSize</name></member>
+      <member refid="group__GeneralGroup_1ga7e4daa97486cdcdbe24a7e3a607ae1ab" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>layers</name></member>
+      <member refid="group__GeneralGroup_1ga67cf9b6f020900773f185c934f3ade7c" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga5ed2f87a9ee82e003bd56c8fe6c05185" prot="public" virt="non-virtual" ambiguityscope="MR::BaseTiffParameters::"><scope>MR::TiffParameters</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gaaf63d045d0a43afd72404a7a0d4f862f" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>SampleType</name></member>
+      <member refid="group__GeneralGroup_1gaf83e01315d14765d77386039af6d8687" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>tiled</name></member>
+      <member refid="group__GeneralGroup_1ga0f390427adc09ea9947004b14be21cf0" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>tileSize</name></member>
+      <member refid="group__GeneralGroup_1ga5a3058ad1eccd44efa6030c506332e44" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>Unknown</name></member>
+      <member refid="group__GeneralGroup_1gadc1dce84dde29a56c33ce9d8fd1e0d8d" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>Unknown</name></member>
+      <member refid="group__GeneralGroup_1ga29407caa933d6665768b37358d7733e0" prot="public" virt="non-virtual"><scope>MR::TiffParameters</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

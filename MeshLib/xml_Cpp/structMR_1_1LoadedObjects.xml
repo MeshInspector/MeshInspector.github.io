@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1LoadedObjects" kind="struct" language="C++" prot="public">
+    <compoundname>MR::LoadedObjects</compoundname>
+    <includes refid="MRLoadedObjects_8h" local="no">MRLoadedObjects.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaad900de70ed9e1d66bf895d703b0eb6d" kind="variable"><name>objs</name></member>
+      <member refid="group__GeneralGroup_1ga4a78ecdda3d1b42586d0d6e6e6e6bd0e" kind="variable"><name>warnings</name></member>
+      <member refid="group__GeneralGroup_1ga8c9d69a8ab03118bdd2e9517708f3455" kind="variable"><name>lengthUnit</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>result of loading (e.g. from a file) as a number of objects </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLoadedObjects.h" bodystart="36" bodyend="42"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga8c9d69a8ab03118bdd2e9517708f3455" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>lengthUnit</name></member>
+      <member refid="group__GeneralGroup_1gaad900de70ed9e1d66bf895d703b0eb6d" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>objs</name></member>
+      <member refid="group__GeneralGroup_1ga4a78ecdda3d1b42586d0d6e6e6e6bd0e" prot="public" virt="non-virtual"><scope>MR::LoadedObjects</scope><name>warnings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

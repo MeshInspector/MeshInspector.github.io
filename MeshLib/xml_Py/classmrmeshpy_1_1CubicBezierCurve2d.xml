@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CubicBezierCurve2d" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CubicBezierCurve2d</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CubicBezierCurve2d_1ad43cc85f0ed0f9bf784cd41a79e66040" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CubicBezierCurve2d::_offsetof_p</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_p</name>
+        <qualifiedname>mrmeshpy.CubicBezierCurve2d._offsetof_p</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11013" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CubicBezierCurve2d_1a2d416cdac82e0446355f4a6fd2d97a7f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CubicBezierCurve2d::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>mrmeshpy.CubicBezierCurve2d.elements</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11014" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CubicBezierCurve2d_1ae9ecb6aa13803c643f1bf2a2cc5d7460" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CubicBezierCurve2d.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CubicBezierCurve2d.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11017" bodyend="11018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CubicBezierCurve2d_1a7a5a17550281dcf066f60d6de7ebc77e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__double__4" kindref="compound">std_array_double_4</ref></type>
+        <definition> std_array_double_4 mrmeshpy.CubicBezierCurve2d.getWeights</definition>
+        <argsstring>(float t)</argsstring>
+        <name>getWeights</name>
+        <qualifiedname>mrmeshpy.CubicBezierCurve2d.getWeights</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes weights of every control point for given parameter value, the sum of all weights is equal to 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11020" bodyend="11023"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CubicBezierCurve2d_1a62d95e798be7355b3a97b18cfc8f3690" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CubicBezierCurve2d" kindref="compound">CubicBezierCurve2d</ref></type>
+        <definition> CubicBezierCurve2d mrmeshpy.CubicBezierCurve2d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CubicBezierCurve2d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11026" bodyend="11027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CubicBezierCurve2d_1a62d95e798be7355b3a97b18cfc8f3690" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CubicBezierCurve2d" kindref="compound">CubicBezierCurve2d</ref></type>
+        <definition> CubicBezierCurve2d mrmeshpy.CubicBezierCurve2d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CubicBezierCurve2d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11030" bodyend="11031"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CubicBezierCurve2d_1a761d0d176fea8578f11ae7b53882b55a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CubicBezierCurve2d.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CubicBezierCurve2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11033" bodyend="11034"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CubicBezierCurve2d_1ac25ff6120a7f9d4f3b3723858c8fadb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CubicBezierCurve2d.__init__</definition>
+        <argsstring>(self, CubicBezierCurve2d arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CubicBezierCurve2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CubicBezierCurve2d" kindref="compound">CubicBezierCurve2d</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11036" bodyend="11039"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CubicBezierCurve2d_1aa5373701735f5c7dcdf0f63592824a55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+        <definition> Vector2d mrmeshpy.CubicBezierCurve2d.getPoint</definition>
+        <argsstring>(self, float t)</argsstring>
+        <name>getPoint</name>
+        <qualifiedname>mrmeshpy.CubicBezierCurve2d.getPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes point on the curve from parameter value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11040" bodyend="11043"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CubicBezierCurve2d
+
+Cubic Bezier curve
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CubicBezierCurve2d</label>
+        <link refid="classmrmeshpy_1_1CubicBezierCurve2d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_p</edgelabel>
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11007" bodyend="11043"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CubicBezierCurve2d_1ae9ecb6aa13803c643f1bf2a2cc5d7460" prot="public" virt="non-virtual"><scope>mrmeshpy::CubicBezierCurve2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CubicBezierCurve2d_1a761d0d176fea8578f11ae7b53882b55a" prot="public" virt="non-virtual"><scope>mrmeshpy::CubicBezierCurve2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CubicBezierCurve2d_1ac25ff6120a7f9d4f3b3723858c8fadb0" prot="public" virt="non-virtual"><scope>mrmeshpy::CubicBezierCurve2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CubicBezierCurve2d_1ad43cc85f0ed0f9bf784cd41a79e66040" prot="protected" virt="non-virtual"><scope>mrmeshpy::CubicBezierCurve2d</scope><name>_offsetof_p</name></member>
+      <member refid="classmrmeshpy_1_1CubicBezierCurve2d_1a2d416cdac82e0446355f4a6fd2d97a7f" prot="public" virt="non-virtual"><scope>mrmeshpy::CubicBezierCurve2d</scope><name>elements</name></member>
+      <member refid="classmrmeshpy_1_1CubicBezierCurve2d_1aa5373701735f5c7dcdf0f63592824a55" prot="public" virt="non-virtual"><scope>mrmeshpy::CubicBezierCurve2d</scope><name>getPoint</name></member>
+      <member refid="classmrmeshpy_1_1CubicBezierCurve2d_1a7a5a17550281dcf066f60d6de7ebc77e" prot="public" virt="non-virtual"><scope>mrmeshpy::CubicBezierCurve2d</scope><name>getWeights</name></member>
+      <member refid="classmrmeshpy_1_1CubicBezierCurve2d_1a62d95e798be7355b3a97b18cfc8f3690" prot="public" virt="non-virtual"><scope>mrmeshpy::CubicBezierCurve2d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CubicBezierCurve2d_1a62d95e798be7355b3a97b18cfc8f3690" prot="public" virt="non-virtual"><scope>mrmeshpy::CubicBezierCurve2d</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

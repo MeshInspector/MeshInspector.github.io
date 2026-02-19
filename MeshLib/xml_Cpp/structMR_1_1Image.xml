@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Image" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Image</compoundname>
+    <derivedcompoundref refid="structMR_1_1MeshTexture" prot="public" virt="non-virtual">MR::MeshTexture</derivedcompoundref>
+    <includes refid="MRImage_8h" local="no">MRImage.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac507525682328e3e5fec0b85c131c224" kind="variable"><name>pixels</name></member>
+      <member refid="group__GeneralGroup_1ga39fed2172fc354aeec92cae5942b7151" kind="variable"><name>resolution</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga3b6b9b5bd10ab0b951b4049866cb22fb" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga6ea7fda3271b8069b31c64acfa61c5d4" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gaed3087256e14a389e2e32449eb1233d1" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga872aae100ad383474afd5c9c8468b3d5" kind="function"><name>sampleDiscrete</name></member>
+      <member refid="group__GeneralGroup_1ga14c773bc8dd766e49107c4d5c44c41d8" kind="function"><name>sampleBilinear</name></member>
+      <member refid="group__GeneralGroup_1gaf6176f7d0a558084bda1ff8e2f3f6237" kind="function"><name>sample</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>struct to hold <ref refid="structMR_1_1Image" kindref="compound">Image</ref> data </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="2">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImage.h" bodystart="19" bodyend="42"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaed3087256e14a389e2e32449eb1233d1" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga3b6b9b5bd10ab0b951b4049866cb22fb" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga6ea7fda3271b8069b31c64acfa61c5d4" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gac507525682328e3e5fec0b85c131c224" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>pixels</name></member>
+      <member refid="group__GeneralGroup_1ga39fed2172fc354aeec92cae5942b7151" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>resolution</name></member>
+      <member refid="group__GeneralGroup_1gaf6176f7d0a558084bda1ff8e2f3f6237" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sample</name></member>
+      <member refid="group__GeneralGroup_1ga14c773bc8dd766e49107c4d5c44c41d8" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sampleBilinear</name></member>
+      <member refid="group__GeneralGroup_1ga872aae100ad383474afd5c9c8468b3d5" prot="public" virt="non-virtual"><scope>MR::Image</scope><name>sampleDiscrete</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

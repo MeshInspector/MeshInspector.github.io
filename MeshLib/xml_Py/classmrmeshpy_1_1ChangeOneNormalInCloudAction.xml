@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeOneNormalInCloudAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeOneNormalInCloudAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1a82124515c55a46bf9653bd30675be4ad" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeOneNormalInCloudAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8455" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1ac96ebb9ab554a0c536c2196dd945d4f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeOneNormalInCloudAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8458" bodyend="8459"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1ab83e266cd6c4919138d4ef53c0184766" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeOneNormalInCloudAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8461" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8461" bodyend="8462"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1aa5759b71cbf1ff47d0ecd989938dbf76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction" kindref="compound">ChangeOneNormalInCloudAction</ref></type>
+        <definition> ChangeOneNormalInCloudAction mrmeshpy.ChangeOneNormalInCloudAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8465" bodyend="8466"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1aa5759b71cbf1ff47d0ecd989938dbf76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction" kindref="compound">ChangeOneNormalInCloudAction</ref></type>
+        <definition> ChangeOneNormalInCloudAction mrmeshpy.ChangeOneNormalInCloudAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8469" bodyend="8470"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1aaf80a219ceaf6365885308a4109153aa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeOneNormalInCloudAction.setObjectDirty</definition>
+        <argsstring>(ObjectPoints obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.setObjectDirty</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8472" bodyend="8473"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1a23db3b69f88a93bf3112431023a1d4d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeOneNormalInCloudAction.__init__</definition>
+        <argsstring>(self, str name, ObjectPoints obj, VertId pointId)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>pointId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember point&apos;s normal before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8475" bodyend="8478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1ad8cd635921b56d29fd27c4c4ffbd0721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeOneNormalInCloudAction.__init__</definition>
+        <argsstring>(self, str name, ObjectPoints obj, VertId pointId, Vector3f newNormal)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>pointId</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>newNormal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember point&apos;s normal and immediate set new normal
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8480" bodyend="8483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1a4c5a55fcf748185b9bd74433a1aee3eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeOneNormalInCloudAction.__init__</definition>
+        <argsstring>(self, ChangeOneNormalInCloudAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction" kindref="compound">ChangeOneNormalInCloudAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8485" bodyend="8488"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1ae22bea2716cf1f779cf69aaa705cbdea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeOneNormalInCloudAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8489" bodyend="8490"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1a50da75edcae773ae87fd36b976e25897" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeOneNormalInCloudAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeOneNormalInCloudAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8491" bodyend="8492"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeOneNormalInCloudAction
+
+Undo action that modifies one point&apos;s normal inside ObjectPoints
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeOneNormalInCloudAction</label>
+        <link refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeOneNormalInCloudAction</label>
+        <link refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8449" bodyend="8492"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1ac96ebb9ab554a0c536c2196dd945d4f6" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1a23db3b69f88a93bf3112431023a1d4d6" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1ad8cd635921b56d29fd27c4c4ffbd0721" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1a4c5a55fcf748185b9bd74433a1aee3eb" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1ab83e266cd6c4919138d4ef53c0184766" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1ae22bea2716cf1f779cf69aaa705cbdea" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1a50da75edcae773ae87fd36b976e25897" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1a82124515c55a46bf9653bd30675be4ad" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1aa5759b71cbf1ff47d0ecd989938dbf76" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1aa5759b71cbf1ff47d0ecd989938dbf76" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeOneNormalInCloudAction_1aaf80a219ceaf6365885308a4109153aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeOneNormalInCloudAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

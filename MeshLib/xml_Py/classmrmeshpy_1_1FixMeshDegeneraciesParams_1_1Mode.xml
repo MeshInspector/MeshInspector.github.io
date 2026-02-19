@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FixMeshDegeneraciesParams::Mode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a45f5a933a7840405c3e6dc26d129b758" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams.Mode::Decimate</definition>
+        <argsstring></argsstring>
+        <name>Decimate</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.Decimate</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" kindref="compound">FixMeshDegeneraciesParams.Mode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a525c21be1990bebec586bd76168f64d8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams.Mode::Remesh</definition>
+        <argsstring></argsstring>
+        <name>Remesh</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.Remesh</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" kindref="compound">FixMeshDegeneraciesParams.Mode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20526" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1afd69d0ab441b9de97cb1b0c0565f0edd" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams.Mode::RemeshPatch</definition>
+        <argsstring></argsstring>
+        <name>RemeshPatch</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.RemeshPatch</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" kindref="compound">FixMeshDegeneraciesParams.Mode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20527" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a2123a010b7bba677f25ec510dd8e975a" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams.Mode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" kindref="compound">FixMeshDegeneraciesParams.Mode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20528" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a794fa596f4511ff14eb8c197e45825ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FixMeshDegeneraciesParams.Mode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20529" bodyend="20530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1ade5a103c469fb5a8abcb1dbf638b8983" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FixMeshDegeneraciesParams.Mode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20531" bodyend="20532"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a1ed08f80450ea2240ed6e978b0424256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FixMeshDegeneraciesParams.Mode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20533" bodyend="20534"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a311ede48100a772e0b616a4b4a1a0cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FixMeshDegeneraciesParams.Mode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20535" bodyend="20536"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a6b72addd961147d96179434ea1742781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.Mode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20537" bodyend="20538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1abf61a0e73320a965d44a5667d484a289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FixMeshDegeneraciesParams.Mode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20539" bodyend="20540"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a313fd3801598c56dbc2992c0308592c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FixMeshDegeneraciesParams.Mode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20541" bodyend="20542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1ae71767c7669c5bca8eabb4547940a3bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FixMeshDegeneraciesParams.Mode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20543" bodyend="20544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1ad22c6f06cfe4410cbd842dff4c6afbcd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.Mode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20545" bodyend="20546"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a4233930308255ce5dc4629e474a23cb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FixMeshDegeneraciesParams.Mode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20547" bodyend="20548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a09e14a1fbcd07c4226e7d6aa151cd4af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FixMeshDegeneraciesParams.Mode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20550" bodyend="20551"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1ad7db0deec344e3ef9d724849634fc84f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FixMeshDegeneraciesParams.Mode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.Mode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20553" bodyend="20555"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Decimate : use decimation only to fix degeneracies
+
+  Remesh : if decimation does not succeed, perform subdivision too
+
+  RemeshPatch : if both decimation and subdivision does not succeed, removes degenerate areas and fills occurred holes
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FixMeshDegeneraciesParams.Mode</label>
+        <link refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Decimate</edgelabel>
+          <edgelabel>Remesh</edgelabel>
+          <edgelabel>RemeshPatch</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20515" bodyend="20554"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a794fa596f4511ff14eb8c197e45825ed" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1ade5a103c469fb5a8abcb1dbf638b8983" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a1ed08f80450ea2240ed6e978b0424256" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a311ede48100a772e0b616a4b4a1a0cbe" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a6b72addd961147d96179434ea1742781" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1abf61a0e73320a965d44a5667d484a289" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a2123a010b7bba677f25ec510dd8e975a" prot="private" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a313fd3801598c56dbc2992c0308592c5" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1ae71767c7669c5bca8eabb4547940a3bb" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1ad22c6f06cfe4410cbd842dff4c6afbcd" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a4233930308255ce5dc4629e474a23cb3" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a45f5a933a7840405c3e6dc26d129b758" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>Decimate</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a09e14a1fbcd07c4226e7d6aa151cd4af" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1a525c21be1990bebec586bd76168f64d8" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>Remesh</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1afd69d0ab441b9de97cb1b0c0565f0edd" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>RemeshPatch</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode_1ad7db0deec344e3ef9d724849634fc84f" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams::Mode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

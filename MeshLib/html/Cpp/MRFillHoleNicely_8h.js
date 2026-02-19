@@ -1,5 +1,4 @@
 var MRFillHoleNicely_8h =
 [
-    [ "MR::FillHoleNicelySettings", "../Csharp/classMR_1_1FillHoleNicelySettings.html", "classMR_1_1FillHoleNicelySettings" ],
-    [ "fillHoleNicely", "MRFillHoleNicely_8h.html#a336e1461bdc97f5a14465c6571e7f492", null ]
+    [ "fillHoleNicely", "MRFillHoleNicely_8h.html#ga336e1461bdc97f5a14465c6571e7f492", null ]
 ];

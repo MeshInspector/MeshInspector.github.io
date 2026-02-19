@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BooleanResult" kind="class" language="C#" prot="private">
+    <compoundname>MR::BooleanResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanResult</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1BooleanResult_1a31ec21694667fcf4dafde5f239438515" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>new unsafe MR.Mesh MR.BooleanResult.mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR.BooleanResult.mesh</qualifiedname>
+        <briefdescription>
+<para>Result mesh of boolean operation, if error occurred it would be empty. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="191" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="191" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanResult_1a11cac39df7ddb1118bb5b19b8df941f1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>new unsafe MR.FaceBitSet MR.BooleanResult.meshABadContourFaces</definition>
+        <argsstring></argsstring>
+        <name>meshABadContourFaces</name>
+        <qualifiedname>MR.BooleanResult.meshABadContourFaces</qualifiedname>
+        <briefdescription>
+<para>If input contours have intersections, this face bit set presents faces of mesh <computeroutput>A</computeroutput> on which contours intersect. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="194" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="194" bodyend="194"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanResult_1a2f1240200e294a2c524ce78769a04bb2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+        <definition>new unsafe MR.FaceBitSet MR.BooleanResult.meshBBadContourFaces</definition>
+        <argsstring></argsstring>
+        <name>meshBBadContourFaces</name>
+        <qualifiedname>MR.BooleanResult.meshBBadContourFaces</qualifiedname>
+        <briefdescription>
+<para>If input contours have intersections, this face bit set presents faces of mesh <computeroutput>B</computeroutput> on which contours intersect. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="197" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="197" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanResult_1ab826749e2c635dbe71191b7d2b55f31c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.String</type>
+        <definition>new unsafe MR.Std.String MR.BooleanResult.errorString</definition>
+        <argsstring></argsstring>
+        <name>errorString</name>
+        <qualifiedname>MR.BooleanResult.errorString</qualifiedname>
+        <briefdescription>
+<para>Holds error message, empty if boolean succeed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="200" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="200" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BooleanResult_1aa67289de8535631de4e9d5d8507069e3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanResult.BooleanResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BooleanResult</name>
+        <qualifiedname>MR.BooleanResult.BooleanResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="240" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="240" bodyend="244"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BooleanResult_1a1f996536763db91c3cc8e974bfe5b626" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanResult.BooleanResult</definition>
+        <argsstring>()</argsstring>
+        <name>BooleanResult</name>
+        <qualifiedname>MR.BooleanResult.BooleanResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="250" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="250" bodyend="256"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanResult_1afd8f9bd9f8dd32637467ab2d3ad3cd2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanResult.BooleanResult</definition>
+        <argsstring>(MR._ByValue_Mesh mesh, MR._ByValue_FaceBitSet meshABadContourFaces, MR._ByValue_FaceBitSet meshBBadContourFaces, string errorString)</argsstring>
+        <name>BooleanResult</name>
+        <qualifiedname>MR.BooleanResult.BooleanResult</qualifiedname>
+        <param>
+          <type>MR._ByValue_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_FaceBitSet</type>
+          <declname>meshABadContourFaces</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_FaceBitSet</type>
+          <declname>meshBBadContourFaces</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>errorString</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.BooleanResult</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="261" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="261" bodyend="274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanResult_1ab3e579a78e06614e2f223e3f3fa10926" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanResult.BooleanResult</definition>
+        <argsstring>(MR._ByValue_BooleanResult _other)</argsstring>
+        <name>BooleanResult</name>
+        <qualifiedname>MR.BooleanResult.BooleanResult</qualifiedname>
+        <param>
+          <type>MR._ByValue_BooleanResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BooleanResult.BooleanResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="279" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="279" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanResult_1a1a645dde566da63488902dac7268b154" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BooleanResult.BooleanResult</definition>
+        <argsstring>(Const_BooleanResult _other)</argsstring>
+        <name>BooleanResult</name>
+        <qualifiedname>MR.BooleanResult.BooleanResult</qualifiedname>
+        <param>
+          <type>Const_BooleanResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BooleanResult.BooleanResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="291" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="291" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanResult_1a05a64e7103e627b2ab2eb63d14486fa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BooleanResult.BooleanResult</definition>
+        <argsstring>(BooleanResult _other)</argsstring>
+        <name>BooleanResult</name>
+        <qualifiedname>MR.BooleanResult.BooleanResult</qualifiedname>
+        <param>
+          <type>BooleanResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BooleanResult.BooleanResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="296" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="296" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanResult_1ab43ecd9e430e272172b900fcc01b54af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.BooleanResult</type>
+        <definition>unsafe MR.BooleanResult MR.BooleanResult.assign</definition>
+        <argsstring>(MR._ByValue_BooleanResult _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BooleanResult.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_BooleanResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BooleanResult.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="301" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="301" bodyend="308"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanResult_1a412f8fe7a235d49219868927a8f9a637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>unsafe new MR.Mesh MR.BooleanResult.deref</definition>
+        <argsstring>()</argsstring>
+        <name>deref</name>
+        <qualifiedname>MR.BooleanResult.deref</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BooleanResult.operator*</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="313" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="313" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanResult_1a994a08c8a4c836a85724abc06ebfe385" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>unsafe new MR.? Mesh MR.BooleanResult.arrow</definition>
+        <argsstring>()</argsstring>
+        <name>arrow</name>
+        <qualifiedname>MR.BooleanResult.arrow</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BooleanResult.operator-&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="326" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="326" bodyend="332"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Structure contain boolean result This structure store result mesh of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> or some error info Generated from class <computeroutput>MR.BooleanResult</computeroutput>. This is the const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Structure with parameters for boolean call Generated from class <computeroutput><ref refid="classMR_1_1BooleanParameters" kindref="compound">MR.BooleanParameters</ref></computeroutput>. This is the non-const half of the class.</para>
+<para>Structure with parameters for boolean call Generated from class <computeroutput><ref refid="classMR_1_1BooleanParameters" kindref="compound">MR.BooleanParameters</ref></computeroutput>. This is the const half of the class.</para>
+<para>Structure contain boolean result This structure store result mesh of <ref refid="classMR_1a3230c728518f7979a23f855d6e35ba2b" kindref="member">MR.boolean</ref> or some error info Generated from class <computeroutput>MR.BooleanResult</computeroutput>. This is the non-const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BooleanResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BooleanResult</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BooleanResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BooleanResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BooleanResult</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BooleanResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="188" column="11"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BooleanResult_1a994a08c8a4c836a85724abc06ebfe385" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>arrow</name></member>
+      <member refid="classMR_1_1BooleanResult_1ab43ecd9e430e272172b900fcc01b54af" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1BooleanResult_1aa67289de8535631de4e9d5d8507069e3" prot="package" virt="non-virtual"><scope>MR::BooleanResult</scope><name>BooleanResult</name></member>
+      <member refid="classMR_1_1BooleanResult_1a1f996536763db91c3cc8e974bfe5b626" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>BooleanResult</name></member>
+      <member refid="classMR_1_1BooleanResult_1afd8f9bd9f8dd32637467ab2d3ad3cd2e" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>BooleanResult</name></member>
+      <member refid="classMR_1_1BooleanResult_1ab3e579a78e06614e2f223e3f3fa10926" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>BooleanResult</name></member>
+      <member refid="classMR_1_1BooleanResult_1a1a645dde566da63488902dac7268b154" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>BooleanResult</name></member>
+      <member refid="classMR_1_1BooleanResult_1a05a64e7103e627b2ab2eb63d14486fa5" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>BooleanResult</name></member>
+      <member refid="classMR_1_1BooleanResult_1a412f8fe7a235d49219868927a8f9a637" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>deref</name></member>
+      <member refid="classMR_1_1BooleanResult_1ab826749e2c635dbe71191b7d2b55f31c" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>errorString</name></member>
+      <member refid="classMR_1_1BooleanResult_1a31ec21694667fcf4dafde5f239438515" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>mesh</name></member>
+      <member refid="classMR_1_1BooleanResult_1a11cac39df7ddb1118bb5b19b8df941f1" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>meshABadContourFaces</name></member>
+      <member refid="classMR_1_1BooleanResult_1a2f1240200e294a2c524ce78769a04bb2" prot="public" virt="non-virtual"><scope>MR::BooleanResult</scope><name>meshBBadContourFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

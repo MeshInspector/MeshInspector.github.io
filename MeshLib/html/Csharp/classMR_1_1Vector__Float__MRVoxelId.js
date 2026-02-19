@@ -2,6 +2,8 @@ var classMR_1_1Vector__Float__MRVoxelId =
 [
     [ "Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html#aaca9f920603fedb3702b872451a82a87", null ],
     [ "Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html#a8fdd408a8908d71738e3013cb80b63be", null ],
+    [ "Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html#ab0993c4f76fd608c9f14a157722e424f", null ],
+    [ "Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html#ab15dc8721e69e43a91480c5140207ff1", null ],
     [ "Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html#ad17abe0f5f0c43c2b083ef93949a020c", null ],
     [ "Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html#a383876c3e7df8c0af3febbcf00e035d5", null ],
     [ "Vector_Float_MRVoxelId", "classMR_1_1Vector__Float__MRVoxelId.html#a96c2527af195f81ef1ce9819c2528379", null ],

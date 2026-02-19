@@ -2,6 +2,10 @@ var classMR_1_1Parabolaf =
 [
     [ "Parabolaf", "classMR_1_1Parabolaf.html#a205aa0304480edab7bb9675dd34b1ff5", null ],
     [ "Parabolaf", "classMR_1_1Parabolaf.html#a812b9870b0cc2e5af22ee851839be17d", null ],
+    [ "Parabolaf", "classMR_1_1Parabolaf.html#a2ad263238106aa02f9b1e7e73d03e7a4", null ],
     [ "Parabolaf", "classMR_1_1Parabolaf.html#a08d5f99bbbde31da5f5799a817c1193a", null ],
-    [ "assign", "classMR_1_1Parabolaf.html#aaeb3bfb3a872dc338e20e033dcb2eaf0", null ]
+    [ "assign", "classMR_1_1Parabolaf.html#aaeb3bfb3a872dc338e20e033dcb2eaf0", null ],
+    [ "a", "classMR_1_1Parabolaf.html#a441db5b4933f43c2a540ce87621c9ad0", null ],
+    [ "b", "classMR_1_1Parabolaf.html#af58edd644befad1da27c2b035db48d5a", null ],
+    [ "c", "classMR_1_1Parabolaf.html#a40737aea7f8afc23dbe455336726ccff", null ]
 ];

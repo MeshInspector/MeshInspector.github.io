@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MinMaxArg" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MinMaxArg</compoundname>
+    <includes refid="MRMinMaxArg_8h" local="no">MRMinMaxArg.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename I</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga26258462e8f6cb5ad553b6060188c941" kind="variable"><name>min</name></member>
+      <member refid="group__GeneralGroup_1ga640df22a3e7023f9954a28a221dc244b" kind="variable"><name>max</name></member>
+      <member refid="group__GeneralGroup_1gacac909c03fcaa40453454fb6397ebc68" kind="variable"><name>minArg</name></member>
+      <member refid="group__GeneralGroup_1ga75db557e8a12f05d71ffa11c5ea9919e" kind="variable"><name>maxArg</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga4376b0dda2b3a77015094200d2a9ec49" kind="function"><name>minPair</name></member>
+      <member refid="group__GeneralGroup_1ga047c4d9c19b1241c1b35ae8a93c724bc" kind="function"><name>maxPair</name></member>
+      <member refid="group__GeneralGroup_1gaecc5a502b2649c84a49a95f5429ba1cd" kind="function"><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga3226eda61fc8b635dd6e389d6919fdfc" kind="function"><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga3e1efd0776560a34274a833ea2c92089" kind="function"><name>include</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>minimum and maximum of some elements of type T, and the indices of where minimum and maximum are reached of type I </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="82" bodyend="126"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaecc5a502b2649c84a49a95f5429ba1cd" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga3226eda61fc8b635dd6e389d6919fdfc" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga3e1efd0776560a34274a833ea2c92089" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga640df22a3e7023f9954a28a221dc244b" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>max</name></member>
+      <member refid="group__GeneralGroup_1ga75db557e8a12f05d71ffa11c5ea9919e" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>maxArg</name></member>
+      <member refid="group__GeneralGroup_1ga047c4d9c19b1241c1b35ae8a93c724bc" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>maxPair</name></member>
+      <member refid="group__GeneralGroup_1ga26258462e8f6cb5ad553b6060188c941" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>min</name></member>
+      <member refid="group__GeneralGroup_1gacac909c03fcaa40453454fb6397ebc68" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>minArg</name></member>
+      <member refid="group__GeneralGroup_1ga4376b0dda2b3a77015094200d2a9ec49" prot="public" virt="non-virtual"><scope>MR::MinMaxArg</scope><name>minPair</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

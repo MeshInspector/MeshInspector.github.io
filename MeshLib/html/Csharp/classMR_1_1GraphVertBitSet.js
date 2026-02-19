@@ -2,6 +2,8 @@ var classMR_1_1GraphVertBitSet =
 [
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a1c27aee46b5b6a7f8b99eaef65abc443", null ],
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a340b527ea4abbf4951921f9ac7f06fdc", null ],
+    [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a4fe28eb54792fca4ce7dd22a77f4cc2c", null ],
+    [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a59f02e8529c4fe82c2357064b90cab9c", null ],
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a66fff3d23b7da7257c459e132ed80f7d", null ],
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a28093ce51fa51d117b15367612871085", null ],
     [ "GraphVertBitSet", "classMR_1_1GraphVertBitSet.html#a77b2209a53a267fbf5460cb26fdc6309", null ],
@@ -15,6 +17,7 @@ var classMR_1_1GraphVertBitSet =
     [ "flip", "classMR_1_1GraphVertBitSet.html#a10a701ac5d9f975216c1ea8dffe3c913", null ],
     [ "flip", "classMR_1_1GraphVertBitSet.html#a7f75feb32512109f7a92222d59a21fa3", null ],
     [ "flip", "classMR_1_1GraphVertBitSet.html#a529e19056b619eef4b1a8680e7767c32", null ],
+    [ "operator MR.BitSet", "classMR_1_1GraphVertBitSet.html#abb5029c7a24a2ed025d25da8f79ae425", null ],
     [ "popBack", "classMR_1_1GraphVertBitSet.html#a37340bd572f1da41fa9a40bad60beb11", null ],
     [ "pushBack", "classMR_1_1GraphVertBitSet.html#ace10780e9f152ec23d30572bfadfd900", null ],
     [ "reserve", "classMR_1_1GraphVertBitSet.html#ac0c45dab0d964cd288170298667cf89a", null ],

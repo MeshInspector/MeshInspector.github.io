@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeObjectVisibilityAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeObjectVisibilityAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a148dc916224cd60c68a30643e6f61b51" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeObjectVisibilityAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8411" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a66b8176c65e37b211b0c8975e9126c4d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectVisibilityAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8414" bodyend="8415"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1aa6567e7e069f490efcdf235fce1d5a80" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectVisibilityAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8417" bodyend="8418"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a29e71d691c29c23d7b5472afb6eb14d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeObjectVisibilityAction" kindref="compound">ChangeObjectVisibilityAction</ref></type>
+        <definition> ChangeObjectVisibilityAction mrmeshpy.ChangeObjectVisibilityAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8421" bodyend="8422"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a29e71d691c29c23d7b5472afb6eb14d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeObjectVisibilityAction" kindref="compound">ChangeObjectVisibilityAction</ref></type>
+        <definition> ChangeObjectVisibilityAction mrmeshpy.ChangeObjectVisibilityAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8425" bodyend="8426"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a5b82e550240602558c19b91c521cf8da" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectVisibilityAction.setObjectDirty</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8428" bodyend="8429"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a542c19a06e3a721ade4d201fdea49052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectVisibilityAction.__init__</definition>
+        <argsstring>(self, str name, Object obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s visibility mask before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8431" bodyend="8434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1ac4a536abb0622476ae3ae50cde00581c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectVisibilityAction.__init__</definition>
+        <argsstring>(self, str name, Object obj, ViewportMask newVisibilityMask)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>newVisibilityMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s visibility mask and immediately set new mask
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8436" bodyend="8439"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a4f5de24a002b7a628c908db8f3699796" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeObjectVisibilityAction.__init__</definition>
+        <argsstring>(self, ChangeObjectVisibilityAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeObjectVisibilityAction" kindref="compound">ChangeObjectVisibilityAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8441" bodyend="8444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1ac899ffb9c9da36c1b9556e73bc406e4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeObjectVisibilityAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8445" bodyend="8446"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a12d3fbf83a0120a9213307568c8d6274" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeObjectVisibilityAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeObjectVisibilityAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8447" bodyend="8448"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeObjectVisibilityAction
+
+History action for object visibility
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeObjectVisibilityAction</label>
+        <link refid="classmrmeshpy_1_1ChangeObjectVisibilityAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeObjectVisibilityAction</label>
+        <link refid="classmrmeshpy_1_1ChangeObjectVisibilityAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8405" bodyend="8448"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a66b8176c65e37b211b0c8975e9126c4d" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a542c19a06e3a721ade4d201fdea49052" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1ac4a536abb0622476ae3ae50cde00581c" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a4f5de24a002b7a628c908db8f3699796" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1aa6567e7e069f490efcdf235fce1d5a80" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1ac899ffb9c9da36c1b9556e73bc406e4e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a12d3fbf83a0120a9213307568c8d6274" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a148dc916224cd60c68a30643e6f61b51" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a29e71d691c29c23d7b5472afb6eb14d5" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a29e71d691c29c23d7b5472afb6eb14d5" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeObjectVisibilityAction_1a5b82e550240602558c19b91c521cf8da" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeObjectVisibilityAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

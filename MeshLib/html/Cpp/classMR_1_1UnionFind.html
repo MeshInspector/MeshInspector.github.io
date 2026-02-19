@@ -149,7 +149,7 @@ $(function(){initNavTree('classMR_1_1UnionFind.html',''); initResizable(true); }
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1UnionFind-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::UnionFind&lt; I &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
+  <div class="headertitle"><div class="title">MR::UnionFind&lt; I &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a> &#124; <a class="el" href="group__BasicGroup.html">Basic elements overview</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -160,474 +160,60 @@ $(function(){initNavTree('classMR_1_1UnionFind.html',''); initResizable(true); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ad07cce64defb1fcef686551aecfd55d0" id="r_ad07cce64defb1fcef686551aecfd55d0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad07cce64defb1fcef686551aecfd55d0">SizeType</a> = typename I::ValueType</td></tr>
-<tr class="memdesc:ad07cce64defb1fcef686551aecfd55d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type that can hold the number of elements of the maximal set (e.g. int for <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> and size_t for <a class="elRef" href="../Csharp/structMR_1_1VoxelId.html">VoxelId</a>)  <br /></td></tr>
-<tr class="separator:ad07cce64defb1fcef686551aecfd55d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad07cce64defb1fcef686551aecfd55d0" id="r_gad07cce64defb1fcef686551aecfd55d0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad07cce64defb1fcef686551aecfd55d0">SizeType</a> = typename I::ValueType</td></tr>
+<tr class="memdesc:gad07cce64defb1fcef686551aecfd55d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type that can hold the number of elements of the maximal set (e.g. int for FaceId and size_t for VoxelId)  <br /></td></tr>
+<tr class="separator:gad07cce64defb1fcef686551aecfd55d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a67ccf008e0816480dca10b19c530a7b1" id="r_a67ccf008e0816480dca10b19c530a7b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67ccf008e0816480dca10b19c530a7b1">UnionFind</a> ()=default</td></tr>
-<tr class="separator:a67ccf008e0816480dca10b19c530a7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a661398df57a710beae6f4b7c19ac3006" id="r_a661398df57a710beae6f4b7c19ac3006"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a661398df57a710beae6f4b7c19ac3006">UnionFind</a> (size_t <a class="el" href="#ab0d01d793fad21820791310d7318235e">size</a>)</td></tr>
-<tr class="memdesc:a661398df57a710beae6f4b7c19ac3006"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates union-find with given number of elements, each element is the only one in its disjoint set  <br /></td></tr>
-<tr class="separator:a661398df57a710beae6f4b7c19ac3006"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0d01d793fad21820791310d7318235e" id="r_ab0d01d793fad21820791310d7318235e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0d01d793fad21820791310d7318235e">size</a> () const</td></tr>
-<tr class="memdesc:ab0d01d793fad21820791310d7318235e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of elements in union-find  <br /></td></tr>
-<tr class="separator:ab0d01d793fad21820791310d7318235e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a74089f75f3b88edf1a6fb0beba1e13" id="r_a6a74089f75f3b88edf1a6fb0beba1e13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a74089f75f3b88edf1a6fb0beba1e13">reset</a> (size_t <a class="el" href="#ab0d01d793fad21820791310d7318235e">size</a>)</td></tr>
-<tr class="memdesc:a6a74089f75f3b88edf1a6fb0beba1e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets union-find to represent given number of elements, each element is the only one in its disjoint set  <br /></td></tr>
-<tr class="separator:a6a74089f75f3b88edf1a6fb0beba1e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0739ab9258f8fc25ef45ce06106fffce" id="r_a0739ab9258f8fc25ef45ce06106fffce"><td class="memItemLeft" align="right" valign="top">std::pair&lt; I, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0739ab9258f8fc25ef45ce06106fffce">unite</a> (I first, I second)</td></tr>
-<tr class="separator:a0739ab9258f8fc25ef45ce06106fffce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa570cc6f33bbb51fb5859608b9c68fbc" id="r_aa570cc6f33bbb51fb5859608b9c68fbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa570cc6f33bbb51fb5859608b9c68fbc">united</a> (I first, I second)</td></tr>
-<tr class="memdesc:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given two elements are from one set  <br /></td></tr>
-<tr class="separator:aa570cc6f33bbb51fb5859608b9c68fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a785b1dcdaf9a761a91a1331bfda21900" id="r_a785b1dcdaf9a761a91a1331bfda21900"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a785b1dcdaf9a761a91a1331bfda21900">isRoot</a> (I a) const</td></tr>
-<tr class="memdesc:a785b1dcdaf9a761a91a1331bfda21900"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given element is the root of some set  <br /></td></tr>
-<tr class="separator:a785b1dcdaf9a761a91a1331bfda21900"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa982a275fa599ec51d07ad997c3902d3" id="r_aa982a275fa599ec51d07ad997c3902d3"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa982a275fa599ec51d07ad997c3902d3">parent</a> (I a) const</td></tr>
-<tr class="memdesc:aa982a275fa599ec51d07ad997c3902d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return parent element of this element, which is equal to given element only for set's root  <br /></td></tr>
-<tr class="separator:aa982a275fa599ec51d07ad997c3902d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26e79fd903c0229dbd2f66a80549c75b" id="r_a26e79fd903c0229dbd2f66a80549c75b"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26e79fd903c0229dbd2f66a80549c75b">find</a> (I a)</td></tr>
-<tr class="memdesc:a26e79fd903c0229dbd2f66a80549c75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the root of the set containing given element with optimizing data structure updates  <br /></td></tr>
-<tr class="separator:a26e79fd903c0229dbd2f66a80549c75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf32e7c70e8d67a82d759ad44a5b08c1" id="r_abf32e7c70e8d67a82d759ad44a5b08c1"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abf32e7c70e8d67a82d759ad44a5b08c1">findUpdateRange</a> (I a, I <a class="el" href="group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, I <a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>)</td></tr>
-<tr class="memdesc:abf32e7c70e8d67a82d759ad44a5b08c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the root of the set containing given element with optimizing data structure in the range [begin, end)  <br /></td></tr>
-<tr class="separator:abf32e7c70e8d67a82d759ad44a5b08c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b1ee758f69d77277361f8cbe1e0d77e" id="r_a5b1ee758f69d77277361f8cbe1e0d77e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; I, I &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b1ee758f69d77277361f8cbe1e0d77e">roots</a> ()</td></tr>
-<tr class="memdesc:a5b1ee758f69d77277361f8cbe1e0d77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the root of corresponding set as the parent of each element, then returns the vector  <br /></td></tr>
-<tr class="separator:a5b1ee758f69d77277361f8cbe1e0d77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:addfb36167fbd876c96379b175c755a5b" id="r_addfb36167fbd876c96379b175c755a5b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; I, I &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#addfb36167fbd876c96379b175c755a5b">parents</a> () const</td></tr>
-<tr class="memdesc:addfb36167fbd876c96379b175c755a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the parents of all elements as is  <br /></td></tr>
-<tr class="separator:addfb36167fbd876c96379b175c755a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a009ad612aecca5afb9b91768536c406f" id="r_a009ad612aecca5afb9b91768536c406f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#ad07cce64defb1fcef686551aecfd55d0">SizeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a009ad612aecca5afb9b91768536c406f">sizeOfComp</a> (I a)</td></tr>
-<tr class="memdesc:a009ad612aecca5afb9b91768536c406f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of elements in the set containing given element  <br /></td></tr>
-<tr class="separator:a009ad612aecca5afb9b91768536c406f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga67ccf008e0816480dca10b19c530a7b1" id="r_ga67ccf008e0816480dca10b19c530a7b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga67ccf008e0816480dca10b19c530a7b1">UnionFind</a> ()=default</td></tr>
+<tr class="separator:ga67ccf008e0816480dca10b19c530a7b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga661398df57a710beae6f4b7c19ac3006" id="r_ga661398df57a710beae6f4b7c19ac3006"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga661398df57a710beae6f4b7c19ac3006">UnionFind</a> (size_t <a class="el" href="group__GeneralGroup.html#gab0d01d793fad21820791310d7318235e">size</a>)</td></tr>
+<tr class="memdesc:ga661398df57a710beae6f4b7c19ac3006"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates union-find with given number of elements, each element is the only one in its disjoint set  <br /></td></tr>
+<tr class="separator:ga661398df57a710beae6f4b7c19ac3006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0d01d793fad21820791310d7318235e" id="r_gab0d01d793fad21820791310d7318235e"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab0d01d793fad21820791310d7318235e">size</a> () const</td></tr>
+<tr class="memdesc:gab0d01d793fad21820791310d7318235e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of elements in union-find  <br /></td></tr>
+<tr class="separator:gab0d01d793fad21820791310d7318235e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a74089f75f3b88edf1a6fb0beba1e13" id="r_ga6a74089f75f3b88edf1a6fb0beba1e13"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6a74089f75f3b88edf1a6fb0beba1e13">reset</a> (size_t <a class="el" href="group__GeneralGroup.html#gab0d01d793fad21820791310d7318235e">size</a>)</td></tr>
+<tr class="memdesc:ga6a74089f75f3b88edf1a6fb0beba1e13"><td class="mdescLeft">&#160;</td><td class="mdescRight">resets union-find to represent given number of elements, each element is the only one in its disjoint set  <br /></td></tr>
+<tr class="separator:ga6a74089f75f3b88edf1a6fb0beba1e13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0739ab9258f8fc25ef45ce06106fffce" id="r_ga0739ab9258f8fc25ef45ce06106fffce"><td class="memItemLeft" align="right" valign="top">std::pair&lt; I, bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0739ab9258f8fc25ef45ce06106fffce">unite</a> (I first, I second)</td></tr>
+<tr class="separator:ga0739ab9258f8fc25ef45ce06106fffce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa570cc6f33bbb51fb5859608b9c68fbc" id="r_gaa570cc6f33bbb51fb5859608b9c68fbc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa570cc6f33bbb51fb5859608b9c68fbc">united</a> (I first, I second)</td></tr>
+<tr class="memdesc:gaa570cc6f33bbb51fb5859608b9c68fbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given two elements are from one set  <br /></td></tr>
+<tr class="separator:gaa570cc6f33bbb51fb5859608b9c68fbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga785b1dcdaf9a761a91a1331bfda21900" id="r_ga785b1dcdaf9a761a91a1331bfda21900"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga785b1dcdaf9a761a91a1331bfda21900">isRoot</a> (I a) const</td></tr>
+<tr class="memdesc:ga785b1dcdaf9a761a91a1331bfda21900"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns true if given element is the root of some set  <br /></td></tr>
+<tr class="separator:ga785b1dcdaf9a761a91a1331bfda21900"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa982a275fa599ec51d07ad997c3902d3" id="r_gaa982a275fa599ec51d07ad997c3902d3"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa982a275fa599ec51d07ad997c3902d3">parent</a> (I a) const</td></tr>
+<tr class="memdesc:gaa982a275fa599ec51d07ad997c3902d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">return parent element of this element, which is equal to given element only for set's root  <br /></td></tr>
+<tr class="separator:gaa982a275fa599ec51d07ad997c3902d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga26e79fd903c0229dbd2f66a80549c75b" id="r_ga26e79fd903c0229dbd2f66a80549c75b"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga26e79fd903c0229dbd2f66a80549c75b">find</a> (I a)</td></tr>
+<tr class="memdesc:ga26e79fd903c0229dbd2f66a80549c75b"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the root of the set containing given element with optimizing data structure updates  <br /></td></tr>
+<tr class="separator:ga26e79fd903c0229dbd2f66a80549c75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf32e7c70e8d67a82d759ad44a5b08c1" id="r_gabf32e7c70e8d67a82d759ad44a5b08c1"><td class="memItemLeft" align="right" valign="top">I&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabf32e7c70e8d67a82d759ad44a5b08c1">findUpdateRange</a> (I a, I <a class="el" href="group__BasicGroup.html#gac725b280dc514c891e3e533480ca836e">begin</a>, I <a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>)</td></tr>
+<tr class="memdesc:gabf32e7c70e8d67a82d759ad44a5b08c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">finds the root of the set containing given element with optimizing data structure in the range [begin, end)  <br /></td></tr>
+<tr class="separator:gabf32e7c70e8d67a82d759ad44a5b08c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5b1ee758f69d77277361f8cbe1e0d77e" id="r_ga5b1ee758f69d77277361f8cbe1e0d77e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; I, I &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5b1ee758f69d77277361f8cbe1e0d77e">roots</a> ()</td></tr>
+<tr class="memdesc:ga5b1ee758f69d77277361f8cbe1e0d77e"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the root of corresponding set as the parent of each element, then returns the vector  <br /></td></tr>
+<tr class="separator:ga5b1ee758f69d77277361f8cbe1e0d77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaddfb36167fbd876c96379b175c755a5b" id="r_gaddfb36167fbd876c96379b175c755a5b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; I, I &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaddfb36167fbd876c96379b175c755a5b">parents</a> () const</td></tr>
+<tr class="memdesc:gaddfb36167fbd876c96379b175c755a5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">gets the parents of all elements as is  <br /></td></tr>
+<tr class="separator:gaddfb36167fbd876c96379b175c755a5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga009ad612aecca5afb9b91768536c406f" id="r_ga009ad612aecca5afb9b91768536c406f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gad07cce64defb1fcef686551aecfd55d0">SizeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga009ad612aecca5afb9b91768536c406f">sizeOfComp</a> (I a)</td></tr>
+<tr class="memdesc:ga009ad612aecca5afb9b91768536c406f"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the number of elements in the set containing given element  <br /></td></tr>
+<tr class="separator:ga009ad612aecca5afb9b91768536c406f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;typename I&gt;<br />
 class MR::UnionFind&lt; I &gt;</div><p>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set's element. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
-    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> </td></tr>
+    <tr><td class="paramname">I</td><td>is the identifier of a set's element, e.g. FaceId </td></tr>
   </table>
   </dd>
 </dl>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ad07cce64defb1fcef686551aecfd55d0" name="ad07cce64defb1fcef686551aecfd55d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad07cce64defb1fcef686551aecfd55d0">&#9670;&#160;</a></span>SizeType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::SizeType = typename I::ValueType</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>the type that can hold the number of elements of the maximal set (e.g. int for <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a> and size_t for <a class="elRef" href="../Csharp/structMR_1_1VoxelId.html">VoxelId</a>) </p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a67ccf008e0816480dca10b19c530a7b1" name="a67ccf008e0816480dca10b19c530a7b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67ccf008e0816480dca10b19c530a7b1">&#9670;&#160;</a></span>UnionFind() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::UnionFind </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a661398df57a710beae6f4b7c19ac3006" name="a661398df57a710beae6f4b7c19ac3006"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a661398df57a710beae6f4b7c19ac3006">&#9670;&#160;</a></span>UnionFind() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::UnionFind </td>
-          <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>creates union-find with given number of elements, each element is the only one in its disjoint set </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a26e79fd903c0229dbd2f66a80549c75b" name="a26e79fd903c0229dbd2f66a80549c75b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26e79fd903c0229dbd2f66a80549c75b">&#9670;&#160;</a></span>find()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">I <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::find </td>
-          <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>finds the root of the set containing given element with optimizing data structure updates </p>
-
-</div>
-</div>
-<a id="abf32e7c70e8d67a82d759ad44a5b08c1" name="abf32e7c70e8d67a82d759ad44a5b08c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf32e7c70e8d67a82d759ad44a5b08c1">&#9670;&#160;</a></span>findUpdateRange()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">I <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::findUpdateRange </td>
-          <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>begin</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>end</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>finds the root of the set containing given element with optimizing data structure in the range [begin, end) </p>
-
-</div>
-</div>
-<a id="a785b1dcdaf9a761a91a1331bfda21900" name="a785b1dcdaf9a761a91a1331bfda21900"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a785b1dcdaf9a761a91a1331bfda21900">&#9670;&#160;</a></span>isRoot()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::isRoot </td>
-          <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns true if given element is the root of some set </p>
-
-</div>
-</div>
-<a id="aa982a275fa599ec51d07ad997c3902d3" name="aa982a275fa599ec51d07ad997c3902d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa982a275fa599ec51d07ad997c3902d3">&#9670;&#160;</a></span>parent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">I <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::parent </td>
-          <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>return parent element of this element, which is equal to given element only for set's root </p>
-
-</div>
-</div>
-<a id="addfb36167fbd876c96379b175c755a5b" name="addfb36167fbd876c96379b175c755a5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#addfb36167fbd876c96379b175c755a5b">&#9670;&#160;</a></span>parents()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; I, I &gt; &amp; <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::parents </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>gets the parents of all elements as is </p>
-
-</div>
-</div>
-<a id="a6a74089f75f3b88edf1a6fb0beba1e13" name="a6a74089f75f3b88edf1a6fb0beba1e13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a74089f75f3b88edf1a6fb0beba1e13">&#9670;&#160;</a></span>reset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::reset </td>
-          <td>(</td>
-          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>size</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>resets union-find to represent given number of elements, each element is the only one in its disjoint set </p>
-
-</div>
-</div>
-<a id="a5b1ee758f69d77277361f8cbe1e0d77e" name="a5b1ee758f69d77277361f8cbe1e0d77e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b1ee758f69d77277361f8cbe1e0d77e">&#9670;&#160;</a></span>roots()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; I, I &gt; &amp; <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::roots </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>sets the root of corresponding set as the parent of each element, then returns the vector </p>
-
-</div>
-</div>
-<a id="ab0d01d793fad21820791310d7318235e" name="ab0d01d793fad21820791310d7318235e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0d01d793fad21820791310d7318235e">&#9670;&#160;</a></span>size()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::size </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns the number of elements in union-find </p>
-
-</div>
-</div>
-<a id="a009ad612aecca5afb9b91768536c406f" name="a009ad612aecca5afb9b91768536c406f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a009ad612aecca5afb9b91768536c406f">&#9670;&#160;</a></span>sizeOfComp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ad07cce64defb1fcef686551aecfd55d0">SizeType</a> <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::sizeOfComp </td>
-          <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns the number of elements in the set containing given element </p>
-
-</div>
-</div>
-<a id="a0739ab9258f8fc25ef45ce06106fffce" name="a0739ab9258f8fc25ef45ce06106fffce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0739ab9258f8fc25ef45ce06106fffce">&#9670;&#160;</a></span>unite()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; I, bool &gt; <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::unite </td>
-          <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>second</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>unite two elements, </p><dl class="section return"><dt>Returns</dt><dd>first: new common root, second: true = union was done, false = first and second were already united </dd></dl>
-<p>select root by size for best performance</p>
-
-</div>
-</div>
-<a id="aa570cc6f33bbb51fb5859608b9c68fbc" name="aa570cc6f33bbb51fb5859608b9c68fbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa570cc6f33bbb51fb5859608b9c68fbc">&#9670;&#160;</a></span>united()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename I &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1UnionFind.html">MR::UnionFind</a>&lt; I &gt;::united </td>
-          <td>(</td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>first</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">I</td>          <td class="paramname"><span class="paramname"><em>second</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>returns true if given two elements are from one set </p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li><a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a></li>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRUnionFind_8h_source.html">MRUnionFind.h</a></li>
 </ul>
 </div><!-- contents -->

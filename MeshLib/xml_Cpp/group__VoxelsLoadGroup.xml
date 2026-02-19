@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__VoxelsLoadGroup" kind="group">
+    <compoundname>VoxelsLoadGroup</compoundname>
+    <title>Voxels Load</title>
+    <innerclass refid="structMR_1_1VoxelsLoad_1_1RawParameters" prot="public">MR::VoxelsLoad::RawParameters</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gad3e3783e957919006d682b65886541bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const RawParameters &amp;params, const ProgressCallback &amp;cb={})</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>MR::VoxelsLoad::fromRaw</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const RawParameters &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels from file with provided parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="30" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="30" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga603131e52dfc2ce8aa33d3a0d0028878" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw</definition>
+        <argsstring>(std::istream &amp;in, const RawParameters &amp;params, const ProgressCallback &amp;cb={})</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>MR::VoxelsLoad::fromRaw</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const RawParameters &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="34" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="34" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga8d1d5e8fd4d557ab5cb0501f801e09c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; FloatGrid &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; FloatGrid &gt; MR::VoxelsLoad::gridFromRaw</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const RawParameters &amp;params, const ProgressCallback &amp;cb={})</argsstring>
+        <name>gridFromRaw</name>
+        <qualifiedname>MR::VoxelsLoad::gridFromRaw</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const RawParameters &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels from file with provided parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="38" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="38" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga7f875c47121fc2d63dc69e1376825a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; FloatGrid &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; FloatGrid &gt; MR::VoxelsLoad::gridFromRaw</definition>
+        <argsstring>(std::istream &amp;in, const RawParameters &amp;params, const ProgressCallback &amp;cb={})</argsstring>
+        <name>gridFromRaw</name>
+        <qualifiedname>MR::VoxelsLoad::gridFromRaw</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const RawParameters &amp;</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load raw voxels from stream with provided parameters; important on Windows: in stream must be open in binary mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="43" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="43" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga36e0b89b1624754a51c853b7254c9223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; RawParameters &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; RawParameters &gt; MR::VoxelsLoad::findRawParameters</definition>
+        <argsstring>(std::filesystem::path &amp;file)</argsstring>
+        <name>findRawParameters</name>
+        <qualifiedname>MR::VoxelsLoad::findRawParameters</qualifiedname>
+        <param>
+          <type>std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds raw voxels file and its encoding parameters <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>on input: file name probably without suffix with parameters on output: if success existing file name </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="49" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="49" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gaa5b34db6cedd5a6c229f738a4b953212" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromRaw</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
+        <name>fromRaw</name>
+        <qualifiedname>MR::VoxelsLoad::fromRaw</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels file, parsing parameters from name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="52" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="52" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gaff744634fa4916b622b9c213b3a37243" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; FloatGrid &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; FloatGrid &gt; MR::VoxelsLoad::gridFromRaw</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
+        <name>gridFromRaw</name>
+        <qualifiedname>MR::VoxelsLoad::gridFromRaw</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Load raw voxels file, parsing parameters from name. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="56" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="56" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gae5828d9a431d4b30b9d90a66a7fa0e9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; std::vector&lt; VdbVolume &gt; &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; std::vector&lt; VdbVolume &gt; &gt; MR::VoxelsLoad::fromVdb</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
+        <name>fromVdb</name>
+        <qualifiedname>MR::VoxelsLoad::fromVdb</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Load all voxel volumes from OpenVDB file. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="60" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="60" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga292cb0932a07bdafb7ba56453be65262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt; MR::VoxelsLoad::gridsFromVdb</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
+        <name>gridsFromVdb</name>
+        <qualifiedname>MR::VoxelsLoad::gridsFromVdb</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="63" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="63" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga17380baf5a009298d3c817ed07b4b43f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt; MR::VoxelsLoad::gridsFromVdb</definition>
+        <argsstring>(std::istream &amp;in, const ProgressCallback &amp;cb={})</argsstring>
+        <name>gridsFromVdb</name>
+        <qualifiedname>MR::VoxelsLoad::gridsFromVdb</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="65" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="65" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga3a4b1b8a761fbb02df49c120adf8a866" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromGav</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
+        <name>fromGav</name>
+        <qualifiedname>MR::VoxelsLoad::fromGav</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Load voxel from Gav-file with micro CT reconstruction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="70" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="70" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1gab4eb40aeebde5d9880345caadb3a0ae7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; VdbVolume &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; VdbVolume &gt; MR::VoxelsLoad::fromGav</definition>
+        <argsstring>(std::istream &amp;in, const ProgressCallback &amp;cb={})</argsstring>
+        <name>fromGav</name>
+        <qualifiedname>MR::VoxelsLoad::fromGav</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Load voxel from Gav-stream with micro CT reconstruction. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="72" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="72" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga9c5c70dae47d427c0b4441b8b1df6b17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; std::vector&lt; FloatGrid &gt; &gt; MR::VoxelsLoad::gridsFromAnySupportedFormat</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
+        <name>gridsFromAnySupportedFormat</name>
+        <qualifiedname>MR::VoxelsLoad::gridsFromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Detects the format from file extension and loads voxels from it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="76" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="76" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelsLoadGroup_1ga112e15838444077291559cd2320baedb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; std::vector&lt; VdbVolume &gt; &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; std::vector&lt; VdbVolume &gt; &gt; MR::VoxelsLoad::fromAnySupportedFormat</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const ProgressCallback &amp;cb={})</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR::VoxelsLoad::fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Detects the format from file extension and loads voxels from it. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="80" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" declline="80" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

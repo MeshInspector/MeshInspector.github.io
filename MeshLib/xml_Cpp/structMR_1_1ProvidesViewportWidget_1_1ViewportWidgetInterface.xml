@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::ProvidesViewportWidget::ViewportWidgetInterface</compoundname>
+    <includes refid="MRDrawViewportWidgetsItem_8h" local="no">MRDrawViewportWidgetsItem.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gad627febe7e37f3fde1d2de58f8256a99" kind="function"><name>~ViewportWidgetInterface</name></member>
+      <member refid="group__GeneralGroup_1ga8f2685014b15a95ca7d4909b987de44e" kind="function"><name>viewportId</name></member>
+      <member refid="group__GeneralGroup_1gab677748a84ab64369812ae2caebcf4e6" kind="function"><name>addButton</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Don&apos;t strictly need this, but MSVC warns otherwise. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="26" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" bodystart="27" bodyend="37"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab677748a84ab64369812ae2caebcf4e6" prot="public" virt="pure-virtual"><scope>MR::ProvidesViewportWidget::ViewportWidgetInterface</scope><name>addButton</name></member>
+      <member refid="group__GeneralGroup_1ga8f2685014b15a95ca7d4909b987de44e" prot="public" virt="pure-virtual"><scope>MR::ProvidesViewportWidget::ViewportWidgetInterface</scope><name>viewportId</name></member>
+      <member refid="group__GeneralGroup_1gad627febe7e37f3fde1d2de58f8256a99" prot="public" virt="virtual"><scope>MR::ProvidesViewportWidget::ViewportWidgetInterface</scope><name>~ViewportWidgetInterface</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,5 +1,13 @@
 var classMR_1_1MeshBuilder =
 [
+    [ "BuildSettings", "classMR_1_1MeshBuilder_1_1BuildSettings.html", "classMR_1_1MeshBuilder_1_1BuildSettings" ],
+    [ "EqualVector3f", "classMR_1_1MeshBuilder_1_1EqualVector3f.html", "classMR_1_1MeshBuilder_1_1EqualVector3f" ],
+    [ "MeshPiece", "classMR_1_1MeshBuilder_1_1MeshPiece.html", "classMR_1_1MeshBuilder_1_1MeshPiece" ],
+    [ "Triangle", "classMR_1_1MeshBuilder_1_1Triangle.html", "classMR_1_1MeshBuilder_1_1Triangle" ],
+    [ "UniteCloseParams", "classMR_1_1MeshBuilder_1_1UniteCloseParams.html", "classMR_1_1MeshBuilder_1_1UniteCloseParams" ],
+    [ "VertDuplication", "classMR_1_1MeshBuilder_1_1VertDuplication.html", "classMR_1_1MeshBuilder_1_1VertDuplication" ],
+    [ "VertexIdentifier", "classMR_1_1MeshBuilder_1_1VertexIdentifier.html", "classMR_1_1MeshBuilder_1_1VertexIdentifier" ],
+    [ "VertSpan", "classMR_1_1MeshBuilder_1_1VertSpan.html", "classMR_1_1MeshBuilder_1_1VertSpan" ],
     [ "addTriangles", "classMR_1_1MeshBuilder.html#a3df6156c3f0891edd28bd041f94d692e", null ],
     [ "addTriangles", "classMR_1_1MeshBuilder.html#a8f56c81fc69887e45243cc752e0707e3", null ],
     [ "duplicateNonManifoldVertices", "classMR_1_1MeshBuilder.html#a5bc8d7a3bdf916552aba9f5bc2ce397c", null ],

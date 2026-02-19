@@ -149,9 +149,12 @@ $(function(){initNavTree('classMR_1_1Id.html',''); initResizable(true); });
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classMR_1_1Id-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::Id&lt; T &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">MR::Id&lt; T &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>stores index of some element, it is made as template class to avoid mixing faces, edges and vertices  
+ <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRId.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -162,601 +165,65 @@ $(function(){initNavTree('classMR_1_1Id.html',''); initResizable(true); });
  <div class="center">
   <img src="classMR_1_1Id.png" usemap="#MR::Id_3C_20T_20_3E_map" alt=""/>
   <map id="MR::Id_3C_20T_20_3E_map" name="MR::Id_3C_20T_20_3E_map">
-<area href="classMR_1_1NoInitId.html" alt="MR::NoInitId&lt; T &gt;" shape="rect" coords="0,56,110,80"/>
+<area href="classMR_1_1NoInitId.html" title="Variant of Id&lt;T&gt; with omitted initialization by default. Useful for containers." alt="MR::NoInitId&lt; T &gt;" shape="rect" coords="0,56,110,80"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:ac2e242e118fdd8b3a6309347d48a6c84" id="r_ac2e242e118fdd8b3a6309347d48a6c84"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> = int</td></tr>
-<tr class="separator:ac2e242e118fdd8b3a6309347d48a6c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac2e242e118fdd8b3a6309347d48a6c84" id="r_gac2e242e118fdd8b3a6309347d48a6c84"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> = int</td></tr>
+<tr class="separator:gac2e242e118fdd8b3a6309347d48a6c84"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab0e4ef6dbed8084af5b947ea4f8152e4" id="r_ab0e4ef6dbed8084af5b947ea4f8152e4"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab0e4ef6dbed8084af5b947ea4f8152e4">Id</a> () noexcept</td></tr>
-<tr class="separator:ab0e4ef6dbed8084af5b947ea4f8152e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a626cffc98ec4b785d986aca365ed6ce2" id="r_a626cffc98ec4b785d986aca365ed6ce2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a626cffc98ec4b785d986aca365ed6ce2">Id</a> (<a class="elRef" href="../Csharp/classMR_1_1NoInit.html">NoInit</a>) noexcept</td></tr>
-<tr class="separator:a626cffc98ec4b785d986aca365ed6ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac573497158345a22e16a44734a469638" id="r_ac573497158345a22e16a44734a469638"><td class="memTemplParams" colspan="2">template&lt;typename U  = int, std::enable_if_t&lt; std::is_integral_v&lt; U &gt;, std::nullptr_t &gt;  = nullptr&gt; </td></tr>
-<tr class="memitem:ac573497158345a22e16a44734a469638"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ac573497158345a22e16a44734a469638">Id</a> (U i) noexcept</td></tr>
-<tr class="separator:ac573497158345a22e16a44734a469638"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2934bfe0258901c3de2c82cbfb95649f" id="r_a2934bfe0258901c3de2c82cbfb95649f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2934bfe0258901c3de2c82cbfb95649f">operator ValueType</a> () const</td></tr>
-<tr class="separator:a2934bfe0258901c3de2c82cbfb95649f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a52efda314a702396938241eecfd7c6" id="r_a7a52efda314a702396938241eecfd7c6"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7a52efda314a702396938241eecfd7c6">valid</a> () const</td></tr>
-<tr class="separator:a7a52efda314a702396938241eecfd7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a60520ea485fc36672fcc617904ec8b" id="r_a4a60520ea485fc36672fcc617904ec8b"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a60520ea485fc36672fcc617904ec8b">operator bool</a> () const</td></tr>
-<tr class="separator:a4a60520ea485fc36672fcc617904ec8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba62ab281df54c9782b7668d99d28d1e" id="r_aba62ab281df54c9782b7668d99d28d1e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="#ac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba62ab281df54c9782b7668d99d28d1e">get</a> () noexcept</td></tr>
-<tr class="separator:aba62ab281df54c9782b7668d99d28d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69e71f7eccd4394df5270d18ba65d9fa" id="r_a69e71f7eccd4394df5270d18ba65d9fa"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a69e71f7eccd4394df5270d18ba65d9fa">operator==</a> (<a class="el" href="classMR_1_1Id.html">Id</a> b) const</td></tr>
-<tr class="separator:a69e71f7eccd4394df5270d18ba65d9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4520e77218d93f5eab7d6c96d1063928" id="r_a4520e77218d93f5eab7d6c96d1063928"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4520e77218d93f5eab7d6c96d1063928">operator!=</a> (<a class="el" href="classMR_1_1Id.html">Id</a> b) const</td></tr>
-<tr class="separator:a4520e77218d93f5eab7d6c96d1063928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8ef9b37a66b62f818ad27e9c7254639" id="r_ab8ef9b37a66b62f818ad27e9c7254639"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8ef9b37a66b62f818ad27e9c7254639">operator&lt;</a> (<a class="el" href="classMR_1_1Id.html">Id</a> b) const</td></tr>
-<tr class="separator:ab8ef9b37a66b62f818ad27e9c7254639"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c7043e20a8cf042d1226981a110f20a" id="r_a7c7043e20a8cf042d1226981a110f20a"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:a7c7043e20a8cf042d1226981a110f20a"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a7c7043e20a8cf042d1226981a110f20a">operator==</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt; b) const =delete</td></tr>
-<tr class="separator:a7c7043e20a8cf042d1226981a110f20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7126489241766dc9ca77ef7cee5e59e" id="r_ab7126489241766dc9ca77ef7cee5e59e"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:ab7126489241766dc9ca77ef7cee5e59e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab7126489241766dc9ca77ef7cee5e59e">operator!=</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt; b) const =delete</td></tr>
-<tr class="separator:ab7126489241766dc9ca77ef7cee5e59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37c3298137bb0d2cff18a941a11ccb95" id="r_a37c3298137bb0d2cff18a941a11ccb95"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
-<tr class="memitem:a37c3298137bb0d2cff18a941a11ccb95"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a37c3298137bb0d2cff18a941a11ccb95">operator&lt;</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt; b) const =delete</td></tr>
-<tr class="separator:a37c3298137bb0d2cff18a941a11ccb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa025a93f59608fa768e6c67c2ed2d930" id="r_aa025a93f59608fa768e6c67c2ed2d930"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa025a93f59608fa768e6c67c2ed2d930">operator--</a> ()</td></tr>
-<tr class="separator:aa025a93f59608fa768e6c67c2ed2d930"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a486ff99f7b871f6fabf9e89f788f418d" id="r_a486ff99f7b871f6fabf9e89f788f418d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a486ff99f7b871f6fabf9e89f788f418d">operator++</a> ()</td></tr>
-<tr class="separator:a486ff99f7b871f6fabf9e89f788f418d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae510e5ee2184f084298cf60b0534fa8a" id="r_ae510e5ee2184f084298cf60b0534fa8a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae510e5ee2184f084298cf60b0534fa8a">operator--</a> (int)</td></tr>
-<tr class="separator:ae510e5ee2184f084298cf60b0534fa8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6025e536fd0e2acef2e45acabdd06a8" id="r_ab6025e536fd0e2acef2e45acabdd06a8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6025e536fd0e2acef2e45acabdd06a8">operator++</a> (int)</td></tr>
-<tr class="separator:ab6025e536fd0e2acef2e45acabdd06a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f1c6c1a6ac1dddecdf4bbe06a88e0f6" id="r_a9f1c6c1a6ac1dddecdf4bbe06a88e0f6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9f1c6c1a6ac1dddecdf4bbe06a88e0f6">operator-=</a> (<a class="el" href="#ac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> a)</td></tr>
-<tr class="separator:a9f1c6c1a6ac1dddecdf4bbe06a88e0f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45a07dcbe1b8b9ac4949d19e26fecc99" id="r_a45a07dcbe1b8b9ac4949d19e26fecc99"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a45a07dcbe1b8b9ac4949d19e26fecc99">operator+=</a> (<a class="el" href="#ac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> a)</td></tr>
-<tr class="separator:a45a07dcbe1b8b9ac4949d19e26fecc99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0e4ef6dbed8084af5b947ea4f8152e4" id="r_gab0e4ef6dbed8084af5b947ea4f8152e4"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab0e4ef6dbed8084af5b947ea4f8152e4">Id</a> () noexcept</td></tr>
+<tr class="memdesc:gab0e4ef6dbed8084af5b947ea4f8152e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">the type used for internal representation of <a class="el" href="classMR_1_1Id.html" title="stores index of some element, it is made as template class to avoid mixing faces, edges and vertices">Id</a>  <br /></td></tr>
+<tr class="separator:gab0e4ef6dbed8084af5b947ea4f8152e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga626cffc98ec4b785d986aca365ed6ce2" id="r_ga626cffc98ec4b785d986aca365ed6ce2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga626cffc98ec4b785d986aca365ed6ce2">Id</a> (NoInit) noexcept</td></tr>
+<tr class="separator:ga626cffc98ec4b785d986aca365ed6ce2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac573497158345a22e16a44734a469638" id="r_gac573497158345a22e16a44734a469638"><td class="memTemplParams" colspan="2">template&lt;typename U  = int, std::enable_if_t&lt; std::is_integral_v&lt; U &gt;, std::nullptr_t &gt;  = nullptr&gt; </td></tr>
+<tr class="memitem:gac573497158345a22e16a44734a469638"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac573497158345a22e16a44734a469638">Id</a> (U i) noexcept</td></tr>
+<tr class="separator:gac573497158345a22e16a44734a469638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2934bfe0258901c3de2c82cbfb95649f" id="r_ga2934bfe0258901c3de2c82cbfb95649f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga2934bfe0258901c3de2c82cbfb95649f">operator ValueType</a> () const</td></tr>
+<tr class="separator:ga2934bfe0258901c3de2c82cbfb95649f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7a52efda314a702396938241eecfd7c6" id="r_ga7a52efda314a702396938241eecfd7c6"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7a52efda314a702396938241eecfd7c6">valid</a> () const</td></tr>
+<tr class="separator:ga7a52efda314a702396938241eecfd7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4a60520ea485fc36672fcc617904ec8b" id="r_ga4a60520ea485fc36672fcc617904ec8b"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4a60520ea485fc36672fcc617904ec8b">operator bool</a> () const</td></tr>
+<tr class="separator:ga4a60520ea485fc36672fcc617904ec8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba62ab281df54c9782b7668d99d28d1e" id="r_gaba62ab281df54c9782b7668d99d28d1e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="group__GeneralGroup.html#gac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaba62ab281df54c9782b7668d99d28d1e">get</a> () noexcept</td></tr>
+<tr class="separator:gaba62ab281df54c9782b7668d99d28d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga69e71f7eccd4394df5270d18ba65d9fa" id="r_ga69e71f7eccd4394df5270d18ba65d9fa"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga69e71f7eccd4394df5270d18ba65d9fa">operator==</a> (<a class="el" href="classMR_1_1Id.html">Id</a> b) const</td></tr>
+<tr class="separator:ga69e71f7eccd4394df5270d18ba65d9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4520e77218d93f5eab7d6c96d1063928" id="r_ga4520e77218d93f5eab7d6c96d1063928"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4520e77218d93f5eab7d6c96d1063928">operator!=</a> (<a class="el" href="classMR_1_1Id.html">Id</a> b) const</td></tr>
+<tr class="separator:ga4520e77218d93f5eab7d6c96d1063928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab8ef9b37a66b62f818ad27e9c7254639" id="r_gab8ef9b37a66b62f818ad27e9c7254639"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab8ef9b37a66b62f818ad27e9c7254639">operator&lt;</a> (<a class="el" href="classMR_1_1Id.html">Id</a> b) const</td></tr>
+<tr class="separator:gab8ef9b37a66b62f818ad27e9c7254639"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7c7043e20a8cf042d1226981a110f20a" id="r_ga7c7043e20a8cf042d1226981a110f20a"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:ga7c7043e20a8cf042d1226981a110f20a"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7c7043e20a8cf042d1226981a110f20a">operator==</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt; b) const =delete</td></tr>
+<tr class="separator:ga7c7043e20a8cf042d1226981a110f20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7126489241766dc9ca77ef7cee5e59e" id="r_gab7126489241766dc9ca77ef7cee5e59e"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:gab7126489241766dc9ca77ef7cee5e59e"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab7126489241766dc9ca77ef7cee5e59e">operator!=</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt; b) const =delete</td></tr>
+<tr class="separator:gab7126489241766dc9ca77ef7cee5e59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga37c3298137bb0d2cff18a941a11ccb95" id="r_ga37c3298137bb0d2cff18a941a11ccb95"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
+<tr class="memitem:ga37c3298137bb0d2cff18a941a11ccb95"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga37c3298137bb0d2cff18a941a11ccb95">operator&lt;</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt; b) const =delete</td></tr>
+<tr class="separator:ga37c3298137bb0d2cff18a941a11ccb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa025a93f59608fa768e6c67c2ed2d930" id="r_gaa025a93f59608fa768e6c67c2ed2d930"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa025a93f59608fa768e6c67c2ed2d930">operator--</a> ()</td></tr>
+<tr class="separator:gaa025a93f59608fa768e6c67c2ed2d930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga486ff99f7b871f6fabf9e89f788f418d" id="r_ga486ff99f7b871f6fabf9e89f788f418d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga486ff99f7b871f6fabf9e89f788f418d">operator++</a> ()</td></tr>
+<tr class="separator:ga486ff99f7b871f6fabf9e89f788f418d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae510e5ee2184f084298cf60b0534fa8a" id="r_gae510e5ee2184f084298cf60b0534fa8a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae510e5ee2184f084298cf60b0534fa8a">operator--</a> (int)</td></tr>
+<tr class="separator:gae510e5ee2184f084298cf60b0534fa8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6025e536fd0e2acef2e45acabdd06a8" id="r_gab6025e536fd0e2acef2e45acabdd06a8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab6025e536fd0e2acef2e45acabdd06a8">operator++</a> (int)</td></tr>
+<tr class="separator:gab6025e536fd0e2acef2e45acabdd06a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9f1c6c1a6ac1dddecdf4bbe06a88e0f6" id="r_ga9f1c6c1a6ac1dddecdf4bbe06a88e0f6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9f1c6c1a6ac1dddecdf4bbe06a88e0f6">operator-=</a> (<a class="el" href="group__GeneralGroup.html#gac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> a)</td></tr>
+<tr class="separator:ga9f1c6c1a6ac1dddecdf4bbe06a88e0f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga45a07dcbe1b8b9ac4949d19e26fecc99" id="r_ga45a07dcbe1b8b9ac4949d19e26fecc99"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga45a07dcbe1b8b9ac4949d19e26fecc99">operator+=</a> (<a class="el" href="group__GeneralGroup.html#gac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> a)</td></tr>
+<tr class="separator:ga45a07dcbe1b8b9ac4949d19e26fecc99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ac2e242e118fdd8b3a6309347d48a6c84" name="ac2e242e118fdd8b3a6309347d48a6c84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2e242e118fdd8b3a6309347d48a6c84">&#9670;&#160;</a></span>ValueType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::ValueType = int</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab0e4ef6dbed8084af5b947ea4f8152e4" name="ab0e4ef6dbed8084af5b947ea4f8152e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0e4ef6dbed8084af5b947ea4f8152e4">&#9670;&#160;</a></span>Id() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::Id </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a626cffc98ec4b785d986aca365ed6ce2" name="a626cffc98ec4b785d986aca365ed6ce2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a626cffc98ec4b785d986aca365ed6ce2">&#9670;&#160;</a></span>Id() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::Id </td>
-          <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1NoInit.html">NoInit</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac573497158345a22e16a44734a469638" name="ac573497158345a22e16a44734a469638"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac573497158345a22e16a44734a469638">&#9670;&#160;</a></span>Id() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename U  = int, std::enable_if_t&lt; std::is_integral_v&lt; U &gt;, std::nullptr_t &gt;  = nullptr&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::Id </td>
-          <td>(</td>
-          <td class="paramtype">U</td>          <td class="paramname"><span class="paramname"><em>i</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aba62ab281df54c9782b7668d99d28d1e" name="aba62ab281df54c9782b7668d99d28d1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba62ab281df54c9782b7668d99d28d1e">&#9670;&#160;</a></span>get()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="#ac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::get </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4a60520ea485fc36672fcc617904ec8b" name="a4a60520ea485fc36672fcc617904ec8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a60520ea485fc36672fcc617904ec8b">&#9670;&#160;</a></span>operator bool()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator bool </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2934bfe0258901c3de2c82cbfb95649f" name="a2934bfe0258901c3de2c82cbfb95649f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2934bfe0258901c3de2c82cbfb95649f">&#9670;&#160;</a></span>operator ValueType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator <a class="el" href="#ac2e242e118fdd8b3a6309347d48a6c84">ValueType</a> </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4520e77218d93f5eab7d6c96d1063928" name="a4520e77218d93f5eab7d6c96d1063928"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4520e77218d93f5eab7d6c96d1063928">&#9670;&#160;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator!= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab7126489241766dc9ca77ef7cee5e59e" name="ab7126489241766dc9ca77ef7cee5e59e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7126489241766dc9ca77ef7cee5e59e">&#9670;&#160;</a></span>operator!=() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator!= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a486ff99f7b871f6fabf9e89f788f418d" name="a486ff99f7b871f6fabf9e89f788f418d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a486ff99f7b871f6fabf9e89f788f418d">&#9670;&#160;</a></span>operator++() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator++ </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab6025e536fd0e2acef2e45acabdd06a8" name="ab6025e536fd0e2acef2e45acabdd06a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6025e536fd0e2acef2e45acabdd06a8">&#9670;&#160;</a></span>operator++() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator++ </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a45a07dcbe1b8b9ac4949d19e26fecc99" name="a45a07dcbe1b8b9ac4949d19e26fecc99"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45a07dcbe1b8b9ac4949d19e26fecc99">&#9670;&#160;</a></span>operator+=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator+= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#ac2e242e118fdd8b3a6309347d48a6c84">ValueType</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa025a93f59608fa768e6c67c2ed2d930" name="aa025a93f59608fa768e6c67c2ed2d930"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa025a93f59608fa768e6c67c2ed2d930">&#9670;&#160;</a></span>operator--() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator-- </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae510e5ee2184f084298cf60b0534fa8a" name="ae510e5ee2184f084298cf60b0534fa8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae510e5ee2184f084298cf60b0534fa8a">&#9670;&#160;</a></span>operator--() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator-- </td>
-          <td>(</td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9f1c6c1a6ac1dddecdf4bbe06a88e0f6" name="a9f1c6c1a6ac1dddecdf4bbe06a88e0f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f1c6c1a6ac1dddecdf4bbe06a88e0f6">&#9670;&#160;</a></span>operator-=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classMR_1_1Id.html">Id</a> &amp; <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator-= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="#ac2e242e118fdd8b3a6309347d48a6c84">ValueType</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab8ef9b37a66b62f818ad27e9c7254639" name="ab8ef9b37a66b62f818ad27e9c7254639"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8ef9b37a66b62f818ad27e9c7254639">&#9670;&#160;</a></span>operator&lt;() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator&lt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a37c3298137bb0d2cff18a941a11ccb95" name="a37c3298137bb0d2cff18a941a11ccb95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37c3298137bb0d2cff18a941a11ccb95">&#9670;&#160;</a></span>operator&lt;() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator&lt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a69e71f7eccd4394df5270d18ba65d9fa" name="a69e71f7eccd4394df5270d18ba65d9fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69e71f7eccd4394df5270d18ba65d9fa">&#9670;&#160;</a></span>operator==() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator== </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7c7043e20a8cf042d1226981a110f20a" name="a7c7043e20a8cf042d1226981a110f20a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c7043e20a8cf042d1226981a110f20a">&#9670;&#160;</a></span>operator==() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<div class="memtemplate">
-template&lt;typename U &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::operator== </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classMR_1_1Id.html">Id</a>&lt; U &gt;</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7a52efda314a702396938241eecfd7c6" name="a7a52efda314a702396938241eecfd7c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a52efda314a702396938241eecfd7c6">&#9670;&#160;</a></span>valid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classMR_1_1Id.html">MR::Id</a>&lt; T &gt;::valid </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+class MR::Id&lt; T &gt;</div><p>stores index of some element, it is made as template class to avoid mixing faces, edges and vertices </p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRId_8h_source.html">MRId.h</a></li>
 </ul>
 </div><!-- contents -->

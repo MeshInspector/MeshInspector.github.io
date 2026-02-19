@@ -147,12 +147,14 @@ $(function(){initNavTree('MRSeparationPoint_8h.html',''); initResizable(true); }
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle"><div class="title">MRSeparationPoint.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector3_8h_source.html">MRVector3.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
 <code>#include &quot;MRphmap.h&quot;</code><br />
 <code>#include &lt;array&gt;</code><br />
@@ -161,8 +163,8 @@ $(function(){initNavTree('MRSeparationPoint_8h.html',''); initResizable(true); }
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">storage for points on voxel edges used in Marching Cubes algorithms <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1SeparationPointStorage.html">MR::SeparationPointStorage</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">storage for points on voxel edges used in Marching Cubes algorithms  <a href="classMR_1_1SeparationPointStorage.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SeparationPointStorage_1_1Block.html">MR::SeparationPointStorage::Block</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -170,7 +172,24 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga9818c25296630cb432dbe0d4e068734d" id="r_ga9818c25296630cb432dbe0d4e068734d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9818c25296630cb432dbe0d4e068734d">MR::SeparationPointSet</a> = std::array&lt;VertId, size_t( <a class="el" href="group__GeneralGroup.html#gga280c060609c3f9f4b19b026220db29feae93f994f01c537c4e2f7d8528c3eb5e9">NeighborDir::Count</a> )&gt;</td></tr>
+<tr class="separator:ga9818c25296630cb432dbe0d4e068734d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabe4fc717ac175a150ec372e71e5d0ba1" id="r_gabe4fc717ac175a150ec372e71e5d0ba1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabe4fc717ac175a150ec372e71e5d0ba1">MR::SeparationPointMap</a> = HashMap&lt;size_t, <a class="el" href="group__GeneralGroup.html#ga9818c25296630cb432dbe0d4e068734d">SeparationPointSet</a>&gt;</td></tr>
+<tr class="separator:gabe4fc717ac175a150ec372e71e5d0ba1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga280c060609c3f9f4b19b026220db29fe" id="r_ga280c060609c3f9f4b19b026220db29fe"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga280c060609c3f9f4b19b026220db29fe">MR::NeighborDir</a> { <a class="el" href="group__GeneralGroup.html#gga280c060609c3f9f4b19b026220db29fea02129bb861061d1a052c592e2dc6b383">MR::NeighborDir::X</a>
+, <a class="el" href="group__GeneralGroup.html#gga280c060609c3f9f4b19b026220db29fea57cec4137b614c87cb4e24a3d003a3e0">MR::NeighborDir::Y</a>
+, <a class="el" href="group__GeneralGroup.html#gga280c060609c3f9f4b19b026220db29fea21c2e59531c8710156d34a3c30ac81d5">MR::NeighborDir::Z</a>
+, <a class="el" href="group__GeneralGroup.html#gga280c060609c3f9f4b19b026220db29feae93f994f01c537c4e2f7d8528c3eb5e9">MR::NeighborDir::Count</a>
+ }</td></tr>
+<tr class="separator:ga280c060609c3f9f4b19b026220db29fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

@@ -2,6 +2,8 @@ var classMR_1_1ObjBitSet =
 [
     [ "ObjBitSet", "classMR_1_1ObjBitSet.html#aab9fdf4546c3dcc51f9a6d9a7dbbfcf2", null ],
     [ "ObjBitSet", "classMR_1_1ObjBitSet.html#ad116b63218fe8e5a454bd3875b2f7aef", null ],
+    [ "ObjBitSet", "classMR_1_1ObjBitSet.html#a666a0e72dabba3f4320713d7da6092a1", null ],
+    [ "ObjBitSet", "classMR_1_1ObjBitSet.html#ab6457b3a07bfecdf1437a2e0789972b2", null ],
     [ "ObjBitSet", "classMR_1_1ObjBitSet.html#ae3a89da99a70bc8da27d3d3fe590b5e7", null ],
     [ "ObjBitSet", "classMR_1_1ObjBitSet.html#a2e7818d5574de19dcc45fc9875ffce47", null ],
     [ "ObjBitSet", "classMR_1_1ObjBitSet.html#ad500facccb18bcba1e42b2bbe0ab1fde", null ],
@@ -15,6 +17,7 @@ var classMR_1_1ObjBitSet =
     [ "flip", "classMR_1_1ObjBitSet.html#a1c3485d66e9631b372ff688bc839ed37", null ],
     [ "flip", "classMR_1_1ObjBitSet.html#ad9a2bbb631c560c4cfd93f6a1fbfd830", null ],
     [ "flip", "classMR_1_1ObjBitSet.html#a3e362de4bece597b2dad0e057d9f790c", null ],
+    [ "operator MR.BitSet", "classMR_1_1ObjBitSet.html#ac4f4c7c96010b00db8f810d168e25e53", null ],
     [ "popBack", "classMR_1_1ObjBitSet.html#ac8a2dd71cd47161416d337d68a2f30c9", null ],
     [ "pushBack", "classMR_1_1ObjBitSet.html#a48d94b4f12e65cccaf55060522aca86a", null ],
     [ "reserve", "classMR_1_1ObjBitSet.html#ab488426fa9a41851346adb6442f3b234", null ],

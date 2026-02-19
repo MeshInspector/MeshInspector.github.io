@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ZeroOnMove__unsigned__long" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ZeroOnMove_unsigned_long</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ZeroOnMove__unsigned__long_1a05c5665effa90b71930e7c6df458407e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ZeroOnMove_unsigned_long::_offsetof_val</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_val</name>
+        <qualifiedname>mrmeshpy.ZeroOnMove_unsigned_long._offsetof_val</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75144" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ZeroOnMove__unsigned__long_1a32a98e2ec134926683bd51d3ffb7efb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ZeroOnMove_unsigned_long.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ZeroOnMove_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75146" bodyend="75147"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ZeroOnMove&lt;unsigned long&gt;
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ZeroOnMove_unsigned_long</label>
+        <link refid="classmrmeshpy_1_1ZeroOnMove__unsigned__long"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_val</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75140" bodyend="75147"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ZeroOnMove__unsigned__long_1a32a98e2ec134926683bd51d3ffb7efb9" prot="public" virt="non-virtual"><scope>mrmeshpy::ZeroOnMove_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ZeroOnMove__unsigned__long_1a05c5665effa90b71930e7c6df458407e" prot="protected" virt="non-virtual"><scope>mrmeshpy::ZeroOnMove_unsigned_long</scope><name>_offsetof_val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

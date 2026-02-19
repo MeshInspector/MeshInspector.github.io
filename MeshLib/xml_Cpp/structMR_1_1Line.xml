@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Line" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Line</compoundname>
+    <includes refid="MRLine_8h" local="no">MRLine.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gac37f58d4c89d15f57d79214d25d5bf27" kind="function"><name>transformed</name></member>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga1fe712212ce4ea1421578c647f2fe8be" kind="typedef"><name>T</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" kind="variable"><name>p</name></member>
+      <member refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" kind="variable"><name>d</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga46b55b474c21ce6047ee165c8543e568" kind="function"><name>Line</name></member>
+      <member refid="group__GeneralGroup_1ga47dd14270d81a152f0ddafb8db8c67a9" kind="function"><name>Line</name></member>
+      <member refid="group__GeneralGroup_1ga3e6a2a122b1e2bbfdff25a2c650cdf59" kind="function"><name>Line</name></member>
+      <member refid="group__GeneralGroup_1ga5ef14139402c930f2404b09edf71284a" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga33b2b7a0c2b8520be3e29171461a15d4" kind="function"><name>distanceSq</name></member>
+      <member refid="group__GeneralGroup_1ga3f4a448699ee8bd5922285794b4d64df" kind="function"><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga2f882c3172da6745aba3d98e89629ae9" kind="function"><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1gac585c978cc27553cbfeb69676516a853" kind="function"><name>normalized</name></member>
+      <member refid="group__GeneralGroup_1gad80390a7c278a694e5d5be75f7679025" kind="function"><name>project</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga5dc2100d7d78aa2c5c2326d5f29e3e07" kind="friend"><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga09331d1e71d783057a83633c1da58c96" kind="friend"><name>operator&gt;&gt;</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>2- or 3-dimensional line: cross( x - p, d ) = 0 </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLine.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLine.h" bodystart="16" bodyend="52"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga8b3c7d000e9148d5f14f3c7d0325c95b" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>d</name></member>
+      <member refid="group__GeneralGroup_1ga33b2b7a0c2b8520be3e29171461a15d4" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>distanceSq</name></member>
+      <member refid="group__GeneralGroup_1ga46b55b474c21ce6047ee165c8543e568" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>Line</name></member>
+      <member refid="group__GeneralGroup_1ga47dd14270d81a152f0ddafb8db8c67a9" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>Line</name></member>
+      <member refid="group__GeneralGroup_1ga3e6a2a122b1e2bbfdff25a2c650cdf59" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>Line</name></member>
+      <member refid="group__GeneralGroup_1gac585c978cc27553cbfeb69676516a853" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>normalized</name></member>
+      <member refid="group__GeneralGroup_1ga5ef14139402c930f2404b09edf71284a" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga2f882c3172da6745aba3d98e89629ae9" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1ga3f4a448699ee8bd5922285794b4d64df" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga5dc2100d7d78aa2c5c2326d5f29e3e07" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga09331d1e71d783057a83633c1da58c96" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1gaca04c91be84f9b11da19a3e455b5a28a" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>p</name></member>
+      <member refid="group__GeneralGroup_1gad80390a7c278a694e5d5be75f7679025" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>project</name></member>
+      <member refid="group__GeneralGroup_1ga1fe712212ce4ea1421578c647f2fe8be" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>T</name></member>
+      <member refid="group__GeneralGroup_1gac37f58d4c89d15f57d79214d25d5bf27" prot="public" virt="non-virtual"><scope>MR::Line</scope><name>transformed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

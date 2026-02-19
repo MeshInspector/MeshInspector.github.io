@@ -1,5 +1,8 @@
 var classMR_1_1TriangulationHelpers =
 [
+    [ "FanOptimizerQueueElement", "classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement.html", "classMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" ],
+    [ "Settings", "classMR_1_1TriangulationHelpers_1_1Settings.html", "classMR_1_1TriangulationHelpers_1_1Settings" ],
+    [ "TriangulatedFanData", "classMR_1_1TriangulationHelpers_1_1TriangulatedFanData.html", "classMR_1_1TriangulationHelpers_1_1TriangulatedFanData" ],
     [ "buildLocalTriangulation", "classMR_1_1TriangulationHelpers.html#a067db0d0c4f2cd689c1b22c603788030", null ],
     [ "buildLocalTriangulations", "classMR_1_1TriangulationHelpers.html#aea6cc33ba797605d8ecfeca85eed2393", null ],
     [ "buildUnitedLocalTriangulations", "classMR_1_1TriangulationHelpers.html#a68ea73b86068fdb7b19671ddd3485bbf", null ],

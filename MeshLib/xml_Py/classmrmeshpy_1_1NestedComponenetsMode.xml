@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NestedComponenetsMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NestedComponenetsMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1NestedComponenetsMode_1a8bdf994512e9bd24db62c3a60e66e19a" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NestedComponenetsMode::Merge</definition>
+        <argsstring></argsstring>
+        <name>Merge</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.Merge</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1NestedComponenetsMode" kindref="compound">NestedComponenetsMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36792" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1NestedComponenetsMode_1ac9fbf4bc5ace686acaa1afc74c766def" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NestedComponenetsMode::Remove</definition>
+        <argsstring></argsstring>
+        <name>Remove</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.Remove</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1NestedComponenetsMode" kindref="compound">NestedComponenetsMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36793" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1NestedComponenetsMode_1ac51248cc438f01edfb64cf0a8e7099db" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NestedComponenetsMode::Union</definition>
+        <argsstring></argsstring>
+        <name>Union</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.Union</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1NestedComponenetsMode" kindref="compound">NestedComponenetsMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36794" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1NestedComponenetsMode_1a15057bbc41318ddc9b8000991d979e93" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NestedComponenetsMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1NestedComponenetsMode" kindref="compound">NestedComponenetsMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36795" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1a7ea88745ba8c2504f47b7f4ad0e1b934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.NestedComponenetsMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36796" bodyend="36797"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1a13ac06babe2b784934849f20ce32149a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NestedComponenetsMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36798" bodyend="36799"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1acd00785a1f0f08163e1fa0c9ed18c2cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NestedComponenetsMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36800" bodyend="36801"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1afcfe8d36ba462777af2f868b1fa9c2e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NestedComponenetsMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36802" bodyend="36803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1aedd63c614612eebb7d50f61ffafd8b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NestedComponenetsMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36804" bodyend="36805"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1a10ec445d7c83e872f59068c06a8a6e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NestedComponenetsMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36806" bodyend="36807"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1a0774c042f5337cb799347d98b3cc7251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.NestedComponenetsMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36808" bodyend="36809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1a60bc9b75cffbc36fdeb5afce41d71eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.NestedComponenetsMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36810" bodyend="36811"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1af03a843a63c3aa7ba64d4622ff3e21a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NestedComponenetsMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36812" bodyend="36813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1a1e7b24febc216fc45794ba5104387c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.NestedComponenetsMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36814" bodyend="36815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1a35e258e0e6ee1f3606f42e452d014746" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.NestedComponenetsMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36817" bodyend="36818"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NestedComponenetsMode_1aac1e8b4ef9448561dc98dc658fd19637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NestedComponenetsMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.NestedComponenetsMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36820" bodyend="36821"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Remove : Default: separate nested meshes and remove them, just like union operation should do, use this if input meshes are single component
+
+  Merge : merge nested meshes, useful if input meshes are components of single object
+
+  Union : does not separate components and call union for all input meshes, works slower than Remove and Merge method but returns valid result if input meshes has multiple components
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.NestedComponenetsMode</label>
+        <link refid="classmrmeshpy_1_1NestedComponenetsMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Merge</edgelabel>
+          <edgelabel>Remove</edgelabel>
+          <edgelabel>Union</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36782" bodyend="36821"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1a7ea88745ba8c2504f47b7f4ad0e1b934" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1a13ac06babe2b784934849f20ce32149a" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1acd00785a1f0f08163e1fa0c9ed18c2cb" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1afcfe8d36ba462777af2f868b1fa9c2e1" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1aedd63c614612eebb7d50f61ffafd8b66" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1a10ec445d7c83e872f59068c06a8a6e1f" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1a15057bbc41318ddc9b8000991d979e93" prot="private" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1a0774c042f5337cb799347d98b3cc7251" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1a60bc9b75cffbc36fdeb5afce41d71eb7" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1af03a843a63c3aa7ba64d4622ff3e21a8" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1a1e7b24febc216fc45794ba5104387c55" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1a8bdf994512e9bd24db62c3a60e66e19a" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>Merge</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1a35e258e0e6ee1f3606f42e452d014746" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1ac9fbf4bc5ace686acaa1afc74c766def" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>Remove</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1ac51248cc438f01edfb64cf0a8e7099db" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>Union</name></member>
+      <member refid="classmrmeshpy_1_1NestedComponenetsMode_1aac1e8b4ef9448561dc98dc658fd19637" prot="public" virt="non-virtual"><scope>mrmeshpy::NestedComponenetsMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -7,6 +7,8 @@ var structMR_1_1Vector2f =
     [ "addAssign", "structMR_1_1Vector2f.html#ac9bc3713f59678a745bbc56c8bc5b2af", null ],
     [ "diagonal", "structMR_1_1Vector2f.html#ab267b3f2cc6c731b2ffc1124b727fb57", null ],
     [ "divAssign", "structMR_1_1Vector2f.html#af05b53c616787f289c0a41a299b1406f", null ],
+    [ "Equals", "structMR_1_1Vector2f.html#af0b065269b97e32c6d3093c6a6ae8f36", null ],
+    [ "Equals", "structMR_1_1Vector2f.html#afdc537d8d634ea254bb9b0dd7e6588d7", null ],
     [ "furthestBasisVector", "structMR_1_1Vector2f.html#ace42ead932181a8746bd7f587ce4cd39", null ],
     [ "index", "structMR_1_1Vector2f.html#a1c241f66ecb48b447b3745ad6df631c2", null ],
     [ "isFinite", "structMR_1_1Vector2f.html#a54c1cd58a76ee23f1b915622140f6812", null ],
@@ -17,6 +19,7 @@ var structMR_1_1Vector2f =
     [ "mulAssign", "structMR_1_1Vector2f.html#a7c8c4d402fde16f7dc3e7cf4d95ab9f3", null ],
     [ "normalized", "structMR_1_1Vector2f.html#abb2e56a0b1ef2830b898295e77e73fc9", null ],
     [ "operator Vector2f", "structMR_1_1Vector2f.html#a98c34735771a5d7334e66e8fceeac4ff", null ],
+    [ "operator!=", "structMR_1_1Vector2f.html#adba490156718045e9b38ee8086a75da1", null ],
     [ "operator*", "structMR_1_1Vector2f.html#a0c42f6e238882a019baa79c30db8050b", null ],
     [ "operator*", "structMR_1_1Vector2f.html#ae692ddf048f4ad153d68acc017d8bb0b", null ],
     [ "operator+", "structMR_1_1Vector2f.html#a655104d867b67ebe8127a00396ae80a8", null ],
@@ -29,5 +32,7 @@ var structMR_1_1Vector2f =
     [ "plusX", "structMR_1_1Vector2f.html#add1b5f8fb9dfdb7704e5bb4035226cde", null ],
     [ "plusY", "structMR_1_1Vector2f.html#a9115439040b03f710a28c042ff9da9a9", null ],
     [ "subAssign", "structMR_1_1Vector2f.html#abc116e31bb2a081f4aee2c082b9a0b11", null ],
+    [ "x", "structMR_1_1Vector2f.html#a5064117d509118cbcbb0a8e1bbf0e157", null ],
+    [ "y", "structMR_1_1Vector2f.html#a0282faebd1f51aa0b68026f4b0e2615d", null ],
     [ "this[int e]", "structMR_1_1Vector2f.html#a10d65198a04e2865bd1b7d9cac85601c", null ]
 ];

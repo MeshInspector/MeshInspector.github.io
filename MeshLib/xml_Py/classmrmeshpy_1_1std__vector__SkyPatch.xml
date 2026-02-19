@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__SkyPatch" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_SkyPatch</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__SkyPatch_1a3828b265de448fa38c3681161a186e2e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_SkyPatch::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.element_type_byte_size</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87226" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1ae8f287dd40b7ef52bb01d28079a5c06f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_SkyPatch.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87227" bodyend="87230"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a2fcd2c88e9a7016bba6bc6486784e523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87232" bodyend="87235"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a0d65d804a80d7728a0864b77f9d19627" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87237" bodyend="87240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1afa52069cc91c881aeb563dd606287f8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__SkyPatch" kindref="compound">std_vector_SkyPatch</ref></type>
+        <definition> std_vector_SkyPatch mrmeshpy.std_vector_SkyPatch.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87242" bodyend="87245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a1c593d921265c32e3ad23518109a5016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+        <definition> SkyPatch mrmeshpy.std_vector_SkyPatch.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87247" bodyend="87248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1aa93227852d78976616e6169df1848cb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87250" bodyend="87251"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a5350f61498b73e587d4e126de1a73eef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87253" bodyend="87254"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a11eb828210549ae39585884bc54bc49d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.__init__</definition>
+        <argsstring>(self, std_vector_SkyPatch arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__SkyPatch" kindref="compound">std_vector_SkyPatch</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87256" bodyend="87257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1aba9cb8b9b365d3c5eb9224436109eab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref>]</type>
+        <definition> typing.Iterator[SkyPatch] mrmeshpy.std_vector_SkyPatch.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87258" bodyend="87259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a9af8914e103259f5d43c85eff1b185d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_SkyPatch.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87260" bodyend="87261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a98278a23733ec9534322c35b6aac0f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.__setitem__</definition>
+        <argsstring>(self, int arg0, SkyPatch arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87263" bodyend="87264"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a0623dcff847796ed8f72f3aa0850369b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_SkyPatch arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__SkyPatch" kindref="compound">std_vector_SkyPatch</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87266" bodyend="87269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a0b17cf838ed2a62016c63afb49cad98d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.append</definition>
+        <argsstring>(self, SkyPatch x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87270" bodyend="87273"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a93c30f84a2aa3fa6a9739ad86fa3928b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87274" bodyend="87277"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a72d3dcf4d65d67bfe18afc492a6f0af4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_SkyPatch.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87278" bodyend="87281"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a715263558e9837e333bb8f53de0c13ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_SkyPatch.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87282" bodyend="87283"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a3ad2010bc2f29b08db47fac6fcaee194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.extend</definition>
+        <argsstring>(self, std_vector_SkyPatch L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__SkyPatch" kindref="compound">std_vector_SkyPatch</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87285" bodyend="87288"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a8b21e608a8a5fb56582d7515dc2e7ea6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87290" bodyend="87293"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a483b46774b05ba8f0c7d239ae4fb6e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.insert</definition>
+        <argsstring>(self, int i, SkyPatch x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87294" bodyend="87297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1ab95b704c6aca85190dc5ef60835f2e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+        <definition> SkyPatch mrmeshpy.std_vector_SkyPatch.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87299" bodyend="87302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1ac92cca877e85825728491aec5f86f35c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+        <definition> SkyPatch mrmeshpy.std_vector_SkyPatch.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87304" bodyend="87307"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a0c505bb01d6745a6b173e95b157a39d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87309" bodyend="87310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1ac6512a6b58325da923303712dac5b6df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_SkyPatch.resize</definition>
+        <argsstring>(self, int arg0, SkyPatch arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87312" bodyend="87313"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__SkyPatch_1a16167a7dc701a29387ce01bb93f4628e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_SkyPatch.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_SkyPatch.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87314" bodyend="87315"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_SkyPatch</label>
+        <link refid="classmrmeshpy_1_1std__vector__SkyPatch"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87225" bodyend="87315"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1ae8f287dd40b7ef52bb01d28079a5c06f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a2fcd2c88e9a7016bba6bc6486784e523" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a0d65d804a80d7728a0864b77f9d19627" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1afa52069cc91c881aeb563dd606287f8d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a1c593d921265c32e3ad23518109a5016" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1aa93227852d78976616e6169df1848cb0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a5350f61498b73e587d4e126de1a73eef" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a11eb828210549ae39585884bc54bc49d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1aba9cb8b9b365d3c5eb9224436109eab9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a9af8914e103259f5d43c85eff1b185d2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a98278a23733ec9534322c35b6aac0f99" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a0623dcff847796ed8f72f3aa0850369b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a0b17cf838ed2a62016c63afb49cad98d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a93c30f84a2aa3fa6a9739ad86fa3928b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a72d3dcf4d65d67bfe18afc492a6f0af4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a3828b265de448fa38c3681161a186e2e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a715263558e9837e333bb8f53de0c13ac" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a3ad2010bc2f29b08db47fac6fcaee194" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a8b21e608a8a5fb56582d7515dc2e7ea6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a483b46774b05ba8f0c7d239ae4fb6e41" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1ab95b704c6aca85190dc5ef60835f2e59" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1ac92cca877e85825728491aec5f86f35c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a0c505bb01d6745a6b173e95b157a39d6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1ac6512a6b58325da923303712dac5b6df" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__SkyPatch_1a16167a7dc701a29387ce01bb93f4628e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_SkyPatch</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

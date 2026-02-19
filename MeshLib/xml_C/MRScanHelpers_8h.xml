@@ -1,0 +1,1102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRScanHelpers_8h" kind="file" language="C++">
+    <compoundname>MRScanHelpers.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRScanHelpers.h</label>
+        <link refid="MRScanHelpers_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" prot="public" static="no">
+        <type>struct <ref refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" kindref="member">MR_std_vector_MR_SliceInfo</ref></type>
+        <definition>typedef struct MR_std_vector_MR_SliceInfo MR_std_vector_MR_SliceInfo</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_SliceInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="12" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRScanHelpers_8h_1a4d75e004d098bc7d987ebfcf304f5454" prot="public" static="no">
+        <type>struct <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref></type>
+        <definition>typedef struct MR_std_vector_std_filesystem_path MR_std_vector_std_filesystem_path</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_std_filesystem_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="13" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" prot="public" static="no">
+        <type>struct <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref></type>
+        <definition>typedef struct MR_SliceInfoBase MR_SliceInfoBase</definition>
+        <argsstring></argsstring>
+        <name>MR_SliceInfoBase</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>slice information <simplesect kind="see"><para>SliceInfo Generated from class <computeroutput>MR::SliceInfoBase</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::SliceInfo</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="23" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" prot="public" static="no">
+        <type>struct <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref></type>
+        <definition>typedef struct MR_SliceInfo MR_SliceInfo</definition>
+        <argsstring></argsstring>
+        <name>MR_SliceInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>slice information these fields will be ignored in sorting <simplesect kind="see"><para>SliceInfoBase Generated from class <computeroutput>MR::SliceInfo</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::SliceInfoBase</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="33" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRScanHelpers_8h_1a1773301f9c5408586b29a7a73cb7487c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_SliceInfoBase_Get_instanceNum</definition>
+        <argsstring>(const MR_SliceInfoBase *_this)</argsstring>
+        <name>MR_SliceInfoBase_Get_instanceNum</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>instance number Returns a pointer to a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="40" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="40" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a88042ad7e7a40b37c7b86c175b5fcc48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfoBase_Set_instanceNum</definition>
+        <argsstring>(MR_SliceInfoBase *_this, int value)</argsstring>
+        <name>MR_SliceInfoBase_Set_instanceNum</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>instance number Modifies a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>instanceNum</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="46" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="46" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1aec2a789aa34631c3d6a6df5b19b2e583" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_SliceInfoBase_GetMutable_instanceNum</definition>
+        <argsstring>(MR_SliceInfoBase *_this)</argsstring>
+        <name>MR_SliceInfoBase_GetMutable_instanceNum</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>instance number Returns a mutable pointer to a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="53" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="53" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a06830fcb8c97d86607040d4deca2e208" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_SliceInfoBase_Get_z</definition>
+        <argsstring>(const MR_SliceInfoBase *_this)</argsstring>
+        <name>MR_SliceInfoBase_Get_z</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>layer height Returns a pointer to a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="60" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="60" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1acec54aa70f2e4689c403c93760e24397" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfoBase_Set_z</definition>
+        <argsstring>(MR_SliceInfoBase *_this, double value)</argsstring>
+        <name>MR_SliceInfoBase_Set_z</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>layer height Modifies a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>z</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="66" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a2eeadba49498e09de4979f74ad7c9f57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_SliceInfoBase_GetMutable_z</definition>
+        <argsstring>(MR_SliceInfoBase *_this)</argsstring>
+        <name>MR_SliceInfoBase_GetMutable_z</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>layer height Returns a mutable pointer to a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="73" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="73" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1afc2c5117f334acffa6d9d453b942c1ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_SliceInfoBase_Get_fileNum</definition>
+        <argsstring>(const MR_SliceInfoBase *_this)</argsstring>
+        <name>MR_SliceInfoBase_Get_fileNum</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file index Returns a pointer to a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="80" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="80" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1ac0cb56ce45ec9462dbe5d7cfa506a334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfoBase_Set_fileNum</definition>
+        <argsstring>(MR_SliceInfoBase *_this, int value)</argsstring>
+        <name>MR_SliceInfoBase_Set_fileNum</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file index Modifies a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fileNum</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="86" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="86" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a75e1dc03b116f3ce3d88036f14651cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_SliceInfoBase_GetMutable_fileNum</definition>
+        <argsstring>(MR_SliceInfoBase *_this)</argsstring>
+        <name>MR_SliceInfoBase_GetMutable_fileNum</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file index Returns a mutable pointer to a member variable of class <computeroutput>MR::SliceInfoBase</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="93" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="93" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a778db0d71493c082b68bd58a556cc6ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+        <definition>MRC_API MR_SliceInfoBase * MR_SliceInfoBase_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SliceInfoBase_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRScanHelpers_8h_1ab956e6f2a0a57418d32e6a3a87065f74" kindref="member">MR_SliceInfoBase_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="97" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="97" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1aa95b8cf06e35f65c883f9e8c23fe25a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+        <definition>MRC_API MR_SliceInfoBase * MR_SliceInfoBase_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SliceInfoBase_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRScanHelpers_8h_1a851722175b779567adc09b543ded427f" kindref="member">MR_SliceInfoBase_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRScanHelpers_8h_1ae7aeadd3b94242cae353b3d35b0df0e5" kindref="member">MR_SliceInfoBase_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRScanHelpers_8h_1a9ad825dde7dbe9ce7c411f504f0c0fcb" kindref="member">MR_SliceInfoBase_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="102" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="102" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1aa6669ad018e8560a6fd4458ecee70d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+        <definition>MRC_API MR_SliceInfoBase * MR_SliceInfoBase_ConstructFrom</definition>
+        <argsstring>(int instanceNum, double z, int fileNum)</argsstring>
+        <name>MR_SliceInfoBase_ConstructFrom</name>
+        <param>
+          <type>int</type>
+          <declname>instanceNum</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fileNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::SliceInfoBase</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRScanHelpers_8h_1ab956e6f2a0a57418d32e6a3a87065f74" kindref="member">MR_SliceInfoBase_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="107" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="107" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a9ad825dde7dbe9ce7c411f504f0c0fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+        <definition>MRC_API const MR_SliceInfoBase * MR_SliceInfoBase_OffsetPtr</definition>
+        <argsstring>(const MR_SliceInfoBase *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SliceInfoBase_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="111" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="111" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1ae7aeadd3b94242cae353b3d35b0df0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+        <definition>MRC_API MR_SliceInfoBase * MR_SliceInfoBase_OffsetMutablePtr</definition>
+        <argsstring>(MR_SliceInfoBase *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SliceInfoBase_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="115" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="115" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a4cf9aeb4370b0427c35439f5ab5eb0a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+        <definition>MRC_API const MR_SliceInfo * MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo</definition>
+        <argsstring>(const MR_SliceInfoBase *object)</argsstring>
+        <name>MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SliceInfoBase</computeroutput> to a derived class <computeroutput>MR::SliceInfo</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="121" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="121" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1aee4a7b64f59d81e5b37193ddb5d547f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+        <definition>MRC_API MR_SliceInfo * MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo</definition>
+        <argsstring>(MR_SliceInfoBase *object)</argsstring>
+        <name>MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::SliceInfoBase</computeroutput> to a derived class <computeroutput>MR::SliceInfo</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="126" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="126" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1aa1bfdb2da98ef6f92dc2b68127016481" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+        <definition>MRC_API MR_SliceInfoBase * MR_SliceInfoBase_ConstructFromAnother</definition>
+        <argsstring>(const MR_SliceInfoBase *_other)</argsstring>
+        <name>MR_SliceInfoBase_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SliceInfoBase::SliceInfoBase</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRScanHelpers_8h_1ab956e6f2a0a57418d32e6a3a87065f74" kindref="member">MR_SliceInfoBase_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="132" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="132" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1ab956e6f2a0a57418d32e6a3a87065f74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfoBase_Destroy</definition>
+        <argsstring>(const MR_SliceInfoBase *_this)</argsstring>
+        <name>MR_SliceInfoBase_Destroy</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SliceInfoBase</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="135" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a851722175b779567adc09b543ded427f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfoBase_DestroyArray</definition>
+        <argsstring>(const MR_SliceInfoBase *_this)</argsstring>
+        <name>MR_SliceInfoBase_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SliceInfoBase</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="138" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="138" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a07cab1e1557315b4e19f081fe1795d8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+        <definition>MRC_API MR_SliceInfoBase * MR_SliceInfoBase_AssignFromAnother</definition>
+        <argsstring>(MR_SliceInfoBase *_this, const MR_SliceInfoBase *_other)</argsstring>
+        <name>MR_SliceInfoBase_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SliceInfoBase::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="146" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="146" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1acd6b5c574cd4a0641d986befcd2b088b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_SliceInfo_Get_imagePos</definition>
+        <argsstring>(const MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_Get_imagePos</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>image position Returns a pointer to a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>imagePos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="153" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="153" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a04db92e829095c04ced1440882086f47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfo_Set_imagePos</definition>
+        <argsstring>(MR_SliceInfo *_this, MR_Vector3d value)</argsstring>
+        <name>MR_SliceInfo_Set_imagePos</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>image position Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>imagePos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>imagePos</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>imagePos</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="160" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="160" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1abf9730ed2c4e90b01100cd90c652c2c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_SliceInfo_GetMutable_imagePos</definition>
+        <argsstring>(MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_GetMutable_imagePos</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>image position Returns a mutable pointer to a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>imagePos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="167" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="167" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a521c5d5ebd9de336a9f2045ca32aa0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_SliceInfo_Get_instanceNum</definition>
+        <argsstring>(const MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_Get_instanceNum</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>instance number Returns a pointer to a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="174" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="174" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a4b593c3e0e620476b571a8424e0b5c47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfo_Set_instanceNum</definition>
+        <argsstring>(MR_SliceInfo *_this, int value)</argsstring>
+        <name>MR_SliceInfo_Set_instanceNum</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>instance number Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>instanceNum</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="180" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a53538c38bc7d412d779cd6950f2ebf73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_SliceInfo_GetMutable_instanceNum</definition>
+        <argsstring>(MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_GetMutable_instanceNum</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>instance number Returns a mutable pointer to a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>instanceNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="187" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="187" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1ae5af1264fe9225e8fe4512e291b724d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_SliceInfo_Get_z</definition>
+        <argsstring>(const MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_Get_z</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>layer height Returns a pointer to a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="194" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="194" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1abffce3c02c1652b8e26dbeeffed273b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfo_Set_z</definition>
+        <argsstring>(MR_SliceInfo *_this, double value)</argsstring>
+        <name>MR_SliceInfo_Set_z</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>layer height Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>z</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a6b5e6d6df99cbfb14e8a45f8ff8c5a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_SliceInfo_GetMutable_z</definition>
+        <argsstring>(MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_GetMutable_z</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>layer height Returns a mutable pointer to a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>z</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="207" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="207" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a5b97597b2aedfd2329713dc661c269cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_SliceInfo_Get_fileNum</definition>
+        <argsstring>(const MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_Get_fileNum</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file index Returns a pointer to a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="214" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="214" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1ac6c9c2159d93025235c8bc64d8fa9e70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfo_Set_fileNum</definition>
+        <argsstring>(MR_SliceInfo *_this, int value)</argsstring>
+        <name>MR_SliceInfo_Set_fileNum</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file index Modifies a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>fileNum</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="220" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="220" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a62f816d328087db48b522e2197a4860e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_SliceInfo_GetMutable_fileNum</definition>
+        <argsstring>(MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_GetMutable_fileNum</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>file index Returns a mutable pointer to a member variable of class <computeroutput>MR::SliceInfo</computeroutput> named <computeroutput>fileNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="227" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="227" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a5d9c7ff207e5ddc2447883cae2086611" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+        <definition>MRC_API MR_SliceInfo * MR_SliceInfo_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SliceInfo_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRScanHelpers_8h_1ab0cc8ef27beb1b1bca8488eb9c03b563" kindref="member">MR_SliceInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="231" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="231" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a1a35b5f93a3ffd559ee8fa62191cb789" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+        <definition>MRC_API MR_SliceInfo * MR_SliceInfo_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SliceInfo_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRScanHelpers_8h_1a3c26087d0bfb439895bc086edf7eb0b8" kindref="member">MR_SliceInfo_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRScanHelpers_8h_1ac46bb91aa84b47902fbe87c2b1bc84c2" kindref="member">MR_SliceInfo_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRScanHelpers_8h_1a1ad74c302bce601ef2ea580a76d5ff50" kindref="member">MR_SliceInfo_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="236" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="236" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a1ad74c302bce601ef2ea580a76d5ff50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+        <definition>MRC_API const MR_SliceInfo * MR_SliceInfo_OffsetPtr</definition>
+        <argsstring>(const MR_SliceInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SliceInfo_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="240" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="240" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1ac46bb91aa84b47902fbe87c2b1bc84c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+        <definition>MRC_API MR_SliceInfo * MR_SliceInfo_OffsetMutablePtr</definition>
+        <argsstring>(MR_SliceInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SliceInfo_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="244" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="244" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a56a6e732db4d138975b36c6bde975fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+        <definition>MRC_API const MR_SliceInfoBase * MR_SliceInfo_UpcastTo_MR_SliceInfoBase</definition>
+        <argsstring>(const MR_SliceInfo *object)</argsstring>
+        <name>MR_SliceInfo_UpcastTo_MR_SliceInfoBase</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::SliceInfo</computeroutput> to its base class <computeroutput>MR::SliceInfoBase</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="249" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="249" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a8259067bf1dd1720137b2fcb28b9eff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref> *</type>
+        <definition>MRC_API MR_SliceInfoBase * MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase</definition>
+        <argsstring>(MR_SliceInfo *object)</argsstring>
+        <name>MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::SliceInfo</computeroutput> to its base class <computeroutput>MR::SliceInfoBase</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="253" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="253" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a0193193aadc828e5020f4b779b27f670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+        <definition>MRC_API MR_SliceInfo * MR_SliceInfo_ConstructFromAnother</definition>
+        <argsstring>(const MR_SliceInfo *_other)</argsstring>
+        <name>MR_SliceInfo_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SliceInfo::SliceInfo</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRScanHelpers_8h_1ab0cc8ef27beb1b1bca8488eb9c03b563" kindref="member">MR_SliceInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="259" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="259" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1ab0cc8ef27beb1b1bca8488eb9c03b563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfo_Destroy</definition>
+        <argsstring>(const MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_Destroy</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SliceInfo</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="262" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="262" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a3c26087d0bfb439895bc086edf7eb0b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SliceInfo_DestroyArray</definition>
+        <argsstring>(const MR_SliceInfo *_this)</argsstring>
+        <name>MR_SliceInfo_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SliceInfo</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="265" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="265" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a4d4f812d4295badc4e4e36f754b7ecba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+        <definition>MRC_API MR_SliceInfo * MR_SliceInfo_AssignFromAnother</definition>
+        <argsstring>(MR_SliceInfo *_this, const MR_SliceInfo *_other)</argsstring>
+        <name>MR_SliceInfo_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SliceInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="273" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="273" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a612a3a2244de5d9464e79d6e69a50b03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_sortScansByOrder</definition>
+        <argsstring>(MR_std_vector_std_filesystem_path *scans, MR_std_vector_MR_SliceInfo *zOrder)</argsstring>
+        <name>MR_sortScansByOrder</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+          <declname>scans</declname>
+        </param>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" kindref="member">MR_std_vector_MR_SliceInfo</ref> *</type>
+          <declname>zOrder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sort scan files in given vector by given slice information Generated from function <computeroutput>MR::sortScansByOrder</computeroutput>. Parameter <computeroutput>scans</computeroutput> can not be null. It is a single object. Parameter <computeroutput>zOrder</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="279" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="279" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1abb537722b31d589081be6fa2a6198f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_putScanFileNameInZ</definition>
+        <argsstring>(const MR_std_vector_std_filesystem_path *scans, MR_std_vector_MR_SliceInfo *zOrder)</argsstring>
+        <name>MR_putScanFileNameInZ</name>
+        <param>
+          <type>const <ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+          <declname>scans</declname>
+        </param>
+        <param>
+          <type><ref refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" kindref="member">MR_std_vector_MR_SliceInfo</ref> *</type>
+          <declname>zOrder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Read layer heights from given scan file names Generated from function <computeroutput>MR::putScanFileNameInZ</computeroutput>. Parameter <computeroutput>scans</computeroutput> can not be null. It is a single object. Parameter <computeroutput>zOrder</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="285" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="285" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRScanHelpers_8h_1a774fb9769bd3fd586496af74fe82d048" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_sortScanFilesByName</definition>
+        <argsstring>(MR_std_vector_std_filesystem_path *scans)</argsstring>
+        <name>MR_sortScanFilesByName</name>
+        <param>
+          <type><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref> *</type>
+          <declname>scans</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Sort scan files in given vector by names (respect numbers in it) Generated from function <computeroutput>MR::sortScanFilesByName</computeroutput>. Parameter <computeroutput>scans</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" line="290" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h" declline="290" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" kindref="member">MR_std_vector_MR_SliceInfo</ref><sp/><ref refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" kindref="member">MR_std_vector_MR_SliceInfo</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_SliceInfo.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRScanHelpers_8h_1a4d75e004d098bc7d987ebfcf304f5454" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_std_filesystem_path.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="MRScanHelpers_8h_1a1773301f9c5408586b29a7a73cb7487c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a1773301f9c5408586b29a7a73cb7487c" kindref="member">MR_SliceInfoBase_Get_instanceNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRScanHelpers_8h_1a88042ad7e7a40b37c7b86c175b5fcc48" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a88042ad7e7a40b37c7b86c175b5fcc48" kindref="member">MR_SliceInfoBase_Set_instanceNum</ref>(<ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRScanHelpers_8h_1aec2a789aa34631c3d6a6df5b19b2e583" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1aec2a789aa34631c3d6a6df5b19b2e583" kindref="member">MR_SliceInfoBase_GetMutable_instanceNum</ref>(<ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRScanHelpers_8h_1a06830fcb8c97d86607040d4deca2e208" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a06830fcb8c97d86607040d4deca2e208" kindref="member">MR_SliceInfoBase_Get_z</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRScanHelpers_8h_1acec54aa70f2e4689c403c93760e24397" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1acec54aa70f2e4689c403c93760e24397" kindref="member">MR_SliceInfoBase_Set_z</ref>(<ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRScanHelpers_8h_1a2eeadba49498e09de4979f74ad7c9f57" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a2eeadba49498e09de4979f74ad7c9f57" kindref="member">MR_SliceInfoBase_GetMutable_z</ref>(<ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRScanHelpers_8h_1afc2c5117f334acffa6d9d453b942c1ee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1afc2c5117f334acffa6d9d453b942c1ee" kindref="member">MR_SliceInfoBase_Get_fileNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRScanHelpers_8h_1ac0cb56ce45ec9462dbe5d7cfa506a334" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1ac0cb56ce45ec9462dbe5d7cfa506a334" kindref="member">MR_SliceInfoBase_Set_fileNum</ref>(<ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRScanHelpers_8h_1a75e1dc03b116f3ce3d88036f14651cfe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a75e1dc03b116f3ce3d88036f14651cfe" kindref="member">MR_SliceInfoBase_GetMutable_fileNum</ref>(<ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRScanHelpers_8h_1a778db0d71493c082b68bd58a556cc6ce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*<ref refid="MRScanHelpers_8h_1a778db0d71493c082b68bd58a556cc6ce" kindref="member">MR_SliceInfoBase_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRScanHelpers_8h_1aa95b8cf06e35f65c883f9e8c23fe25a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*<ref refid="MRScanHelpers_8h_1aa95b8cf06e35f65c883f9e8c23fe25a7" kindref="member">MR_SliceInfoBase_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRScanHelpers_8h_1aa6669ad018e8560a6fd4458ecee70d9e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*<ref refid="MRScanHelpers_8h_1aa6669ad018e8560a6fd4458ecee70d9e" kindref="member">MR_SliceInfoBase_ConstructFrom</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>instanceNum,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>z,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fileNum);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRScanHelpers_8h_1a9ad825dde7dbe9ce7c411f504f0c0fcb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*<ref refid="MRScanHelpers_8h_1a9ad825dde7dbe9ce7c411f504f0c0fcb" kindref="member">MR_SliceInfoBase_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRScanHelpers_8h_1ae7aeadd3b94242cae353b3d35b0df0e5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*<ref refid="MRScanHelpers_8h_1ae7aeadd3b94242cae353b3d35b0df0e5" kindref="member">MR_SliceInfoBase_OffsetMutablePtr</ref>(<ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRScanHelpers_8h_1a4cf9aeb4370b0427c35439f5ab5eb0a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*<ref refid="MRScanHelpers_8h_1a4cf9aeb4370b0427c35439f5ab5eb0a6" kindref="member">MR_SliceInfoBase_StaticDowncastTo_MR_SliceInfo</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRScanHelpers_8h_1aee4a7b64f59d81e5b37193ddb5d547f4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*<ref refid="MRScanHelpers_8h_1aee4a7b64f59d81e5b37193ddb5d547f4" kindref="member">MR_SliceInfoBase_MutableStaticDowncastTo_MR_SliceInfo</ref>(<ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRScanHelpers_8h_1aa1bfdb2da98ef6f92dc2b68127016481" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*<ref refid="MRScanHelpers_8h_1aa1bfdb2da98ef6f92dc2b68127016481" kindref="member">MR_SliceInfoBase_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRScanHelpers_8h_1ab956e6f2a0a57418d32e6a3a87065f74" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1ab956e6f2a0a57418d32e6a3a87065f74" kindref="member">MR_SliceInfoBase_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRScanHelpers_8h_1a851722175b779567adc09b543ded427f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a851722175b779567adc09b543ded427f" kindref="member">MR_SliceInfoBase_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRScanHelpers_8h_1a07cab1e1557315b4e19f081fe1795d8b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*<ref refid="MRScanHelpers_8h_1a07cab1e1557315b4e19f081fe1795d8b" kindref="member">MR_SliceInfoBase_AssignFromAnother</ref>(<ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRScanHelpers_8h_1acd6b5c574cd4a0641d986befcd2b088b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRScanHelpers_8h_1acd6b5c574cd4a0641d986befcd2b088b" kindref="member">MR_SliceInfo_Get_imagePos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160" refid="MRScanHelpers_8h_1a04db92e829095c04ced1440882086f47" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a04db92e829095c04ced1440882086f47" kindref="member">MR_SliceInfo_Set_imagePos</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRScanHelpers_8h_1abf9730ed2c4e90b01100cd90c652c2c3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRScanHelpers_8h_1abf9730ed2c4e90b01100cd90c652c2c3" kindref="member">MR_SliceInfo_GetMutable_imagePos</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRScanHelpers_8h_1a521c5d5ebd9de336a9f2045ca32aa0a0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a521c5d5ebd9de336a9f2045ca32aa0a0" kindref="member">MR_SliceInfo_Get_instanceNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRScanHelpers_8h_1a4b593c3e0e620476b571a8424e0b5c47" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4b593c3e0e620476b571a8424e0b5c47" kindref="member">MR_SliceInfo_Set_instanceNum</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="MRScanHelpers_8h_1a53538c38bc7d412d779cd6950f2ebf73" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a53538c38bc7d412d779cd6950f2ebf73" kindref="member">MR_SliceInfo_GetMutable_instanceNum</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRScanHelpers_8h_1ae5af1264fe9225e8fe4512e291b724d0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1ae5af1264fe9225e8fe4512e291b724d0" kindref="member">MR_SliceInfo_Get_z</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRScanHelpers_8h_1abffce3c02c1652b8e26dbeeffed273b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1abffce3c02c1652b8e26dbeeffed273b9" kindref="member">MR_SliceInfo_Set_z</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRScanHelpers_8h_1a6b5e6d6df99cbfb14e8a45f8ff8c5a08" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a6b5e6d6df99cbfb14e8a45f8ff8c5a08" kindref="member">MR_SliceInfo_GetMutable_z</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRScanHelpers_8h_1a5b97597b2aedfd2329713dc661c269cd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a5b97597b2aedfd2329713dc661c269cd" kindref="member">MR_SliceInfo_Get_fileNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="MRScanHelpers_8h_1ac6c9c2159d93025235c8bc64d8fa9e70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1ac6c9c2159d93025235c8bc64d8fa9e70" kindref="member">MR_SliceInfo_Set_fileNum</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="MRScanHelpers_8h_1a62f816d328087db48b522e2197a4860e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRScanHelpers_8h_1a62f816d328087db48b522e2197a4860e" kindref="member">MR_SliceInfo_GetMutable_fileNum</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRScanHelpers_8h_1a5d9c7ff207e5ddc2447883cae2086611" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*<ref refid="MRScanHelpers_8h_1a5d9c7ff207e5ddc2447883cae2086611" kindref="member">MR_SliceInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRScanHelpers_8h_1a1a35b5f93a3ffd559ee8fa62191cb789" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*<ref refid="MRScanHelpers_8h_1a1a35b5f93a3ffd559ee8fa62191cb789" kindref="member">MR_SliceInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRScanHelpers_8h_1a1ad74c302bce601ef2ea580a76d5ff50" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*<ref refid="MRScanHelpers_8h_1a1ad74c302bce601ef2ea580a76d5ff50" kindref="member">MR_SliceInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244" refid="MRScanHelpers_8h_1ac46bb91aa84b47902fbe87c2b1bc84c2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*<ref refid="MRScanHelpers_8h_1ac46bb91aa84b47902fbe87c2b1bc84c2" kindref="member">MR_SliceInfo_OffsetMutablePtr</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="MRScanHelpers_8h_1a56a6e732db4d138975b36c6bde975fea" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*<ref refid="MRScanHelpers_8h_1a56a6e732db4d138975b36c6bde975fea" kindref="member">MR_SliceInfo_UpcastTo_MR_SliceInfoBase</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="MRScanHelpers_8h_1a8259067bf1dd1720137b2fcb28b9eff4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a0799f8fd31a0e8ae5864034af6e44996" kindref="member">MR_SliceInfoBase</ref><sp/>*<ref refid="MRScanHelpers_8h_1a8259067bf1dd1720137b2fcb28b9eff4" kindref="member">MR_SliceInfo_MutableUpcastTo_MR_SliceInfoBase</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight></codeline>
+<codeline lineno="259" refid="MRScanHelpers_8h_1a0193193aadc828e5020f4b779b27f670" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*<ref refid="MRScanHelpers_8h_1a0193193aadc828e5020f4b779b27f670" kindref="member">MR_SliceInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262" refid="MRScanHelpers_8h_1ab0cc8ef27beb1b1bca8488eb9c03b563" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1ab0cc8ef27beb1b1bca8488eb9c03b563" kindref="member">MR_SliceInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="MRScanHelpers_8h_1a3c26087d0bfb439895bc086edf7eb0b8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a3c26087d0bfb439895bc086edf7eb0b8" kindref="member">MR_SliceInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="MRScanHelpers_8h_1a4d4f812d4295badc4e4e36f754b7ecba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*<ref refid="MRScanHelpers_8h_1a4d4f812d4295badc4e4e36f754b7ecba" kindref="member">MR_SliceInfo_AssignFromAnother</ref>(<ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a4a35a18cc382bdf4243ca5b58f8d0942" kindref="member">MR_SliceInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279" refid="MRScanHelpers_8h_1a612a3a2244de5d9464e79d6e69a50b03" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a612a3a2244de5d9464e79d6e69a50b03" kindref="member">MR_sortScansByOrder</ref>(<ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*scans,<sp/><ref refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" kindref="member">MR_std_vector_MR_SliceInfo</ref><sp/>*zOrder);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285" refid="MRScanHelpers_8h_1abb537722b31d589081be6fa2a6198f33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1abb537722b31d589081be6fa2a6198f33" kindref="member">MR_putScanFileNameInZ</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*scans,<sp/><ref refid="MRScanHelpers_8h_1a771ba5022befbb504ac90050d525a465" kindref="member">MR_std_vector_MR_SliceInfo</ref><sp/>*zOrder);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRScanHelpers_8h_1a774fb9769bd3fd586496af74fe82d048" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRScanHelpers_8h_1a774fb9769bd3fd586496af74fe82d048" kindref="member">MR_sortScanFilesByName</ref>(<ref refid="MRSceneLoad_8h_1a4d75e004d098bc7d987ebfcf304f5454" kindref="member">MR_std_vector_std_filesystem_path</ref><sp/>*scans);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="293"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRScanHelpers.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Matrix3" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Matrix3</compoundname>
+    <includes refid="MRMatrix3_8h" local="no">MRMatrix3.h</includes>
+    <innerclass refid="structMR_1_1Matrix3_1_1QR" prot="public">MR::Matrix3::QR</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gab19861b942182b9673b5ed98fdc17a6c" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga02a7e818581b6cd47f887b32c11edc5b" kind="function"><name>outer</name></member>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga09d8a7ceef09453960f965518848f683" kind="typedef"><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga4c4bd12ba0e345719f85975e5e76f7cc" kind="typedef"><name>VectorType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga34220148555a9b57f32f7edb08289ea4" kind="variable"><name>x</name></member>
+      <member refid="group__GeneralGroup_1gaafd25b0c56a5f7a67abb2afa5d652912" kind="variable"><name>y</name></member>
+      <member refid="group__GeneralGroup_1gae0145a330e7ad72bfdb5e8813c7ee37f" kind="variable"><name>z</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1gade0ff1f694a9e9b749005a2e81332928" kind="variable"><name>fromRows</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa9cc66cd3c144819aaa0db89d58dce01" kind="function"><name>Matrix3</name></member>
+      <member refid="group__GeneralGroup_1ga3c622d7c59246f5caab7346ed60faaa7" kind="function"><name>Matrix3</name></member>
+      <member refid="group__GeneralGroup_1ga725232692c9f2ab4ba0d6dd1555e5f81" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga3571bc7afa9d380e1da582750e9e0db2" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga9d62fe6c280333946cbf8be544ccba2e" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga737e1857a45415abf682a6fd530caf44" kind="function"><name>col</name></member>
+      <member refid="group__GeneralGroup_1ga8da74330f294845348d2dee9fdf81eb4" kind="function"><name>trace</name></member>
+      <member refid="group__GeneralGroup_1ga43a273b709ab81c9eff8e7660628ef1c" kind="function"><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1ga728b7efd38a28c6cc4cdbaf3533bdca0" kind="function"><name>norm</name></member>
+      <member refid="group__GeneralGroup_1ga2ee57b23e7f7718f6800a1769ab30df5" kind="function"><name>det</name></member>
+      <member refid="group__GeneralGroup_1ga262ca75726e5a792e23f286bb0d59079" kind="function"><name>transposed</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gab150121e08f70a3229e617a4c06a5d6a" kind="function"><name>zero</name></member>
+      <member refid="group__GeneralGroup_1ga0e1934aed79e8fdf58697daa0947a64e" kind="function"><name>identity</name></member>
+      <member refid="group__GeneralGroup_1ga801fb0b8f2d5fd1d63a1c26d16266181" kind="function"><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga00191595d8bf3137e7641cffc27937de" kind="function"><name>scale</name></member>
+      <member refid="group__GeneralGroup_1gafe639e7002354032842899bbcd3e5d7c" kind="function"><name>scale</name></member>
+      <member refid="group__GeneralGroup_1gaa0bb4e42ff8ffa4626f1e4bc0f06de18" kind="function"><name>fromColumns</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga2c1fcd5e43e0c42d16321aef19e66963" kind="friend"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga9bbc084dbecdc2dc7e3e1c584b9c0282" kind="friend"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gac987960cc94f9b1ab7b4e34453d75fb8" kind="friend"><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1gabbea47af77b6320d329bf98d863f5aee" kind="friend"><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga0e84eccaf5aba97fd20cd00995d5a8f3" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gafbd69a726f404e7b96980134fa0aac34" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gadc37cc77a01c2d094959a7fe4dadc5e3" kind="friend"><name>operator/</name></member>
+      <member refid="group__GeneralGroup_1ga717c6224d9f27ac694ac56c4b7b6423c" kind="friend"><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga399137f2c5527cc001338f801faed436" kind="friend"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga531f11b36a0549140f62477878b570cb" kind="friend"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1gaeb7776c1470012811fed9873a0b842c7" kind="friend"><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga521c08fa8eca01bc1af49076d34d6bd2" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gafd030bba340e7a6e567969357abbe41f" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gac74b8d8aa739a24f0b926d0bac330cb6" kind="friend"><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1gaad3480d39e6afd3c85e447e32a45aa66" kind="friend"><name>operator&gt;&gt;</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>arbitrary 3x3 matrix </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Matrix3&lt; T &gt;</label>
+        <link refid="structMR_1_1Matrix3"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fromRows</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::Matrix3&lt; T &gt;</label>
+        <link refid="structMR_1_1Matrix3"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fromRows</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix3.h" bodystart="24" bodyend="154"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga737e1857a45415abf682a6fd530caf44" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>col</name></member>
+      <member refid="group__GeneralGroup_1ga2ee57b23e7f7718f6800a1769ab30df5" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>det</name></member>
+      <member refid="group__GeneralGroup_1gab19861b942182b9673b5ed98fdc17a6c" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>dot</name></member>
+      <member refid="group__GeneralGroup_1gaa0bb4e42ff8ffa4626f1e4bc0f06de18" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>fromColumns</name></member>
+      <member refid="group__GeneralGroup_1gade0ff1f694a9e9b749005a2e81332928" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>fromRows</name></member>
+      <member refid="group__GeneralGroup_1ga0e1934aed79e8fdf58697daa0947a64e" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>identity</name></member>
+      <member refid="group__GeneralGroup_1gaa9cc66cd3c144819aaa0db89d58dce01" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>Matrix3</name></member>
+      <member refid="group__GeneralGroup_1ga3c622d7c59246f5caab7346ed60faaa7" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>Matrix3</name></member>
+      <member refid="group__GeneralGroup_1ga725232692c9f2ab4ba0d6dd1555e5f81" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga728b7efd38a28c6cc4cdbaf3533bdca0" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>norm</name></member>
+      <member refid="group__GeneralGroup_1ga43a273b709ab81c9eff8e7660628ef1c" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1ga9bbc084dbecdc2dc7e3e1c584b9c0282" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga0e84eccaf5aba97fd20cd00995d5a8f3" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gafbd69a726f404e7b96980134fa0aac34" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga521c08fa8eca01bc1af49076d34d6bd2" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gafd030bba340e7a6e567969357abbe41f" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga531f11b36a0549140f62477878b570cb" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1gac987960cc94f9b1ab7b4e34453d75fb8" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1ga717c6224d9f27ac694ac56c4b7b6423c" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1gabbea47af77b6320d329bf98d863f5aee" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga399137f2c5527cc001338f801faed436" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gadc37cc77a01c2d094959a7fe4dadc5e3" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator/</name></member>
+      <member refid="group__GeneralGroup_1gaeb7776c1470012811fed9873a0b842c7" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1gac74b8d8aa739a24f0b926d0bac330cb6" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga2c1fcd5e43e0c42d16321aef19e66963" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gaad3480d39e6afd3c85e447e32a45aa66" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga3571bc7afa9d380e1da582750e9e0db2" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga9d62fe6c280333946cbf8be544ccba2e" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga02a7e818581b6cd47f887b32c11edc5b" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>outer</name></member>
+      <member refid="group__GeneralGroup_1ga801fb0b8f2d5fd1d63a1c26d16266181" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga00191595d8bf3137e7641cffc27937de" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>scale</name></member>
+      <member refid="group__GeneralGroup_1gafe639e7002354032842899bbcd3e5d7c" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga8da74330f294845348d2dee9fdf81eb4" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>trace</name></member>
+      <member refid="group__GeneralGroup_1ga262ca75726e5a792e23f286bb0d59079" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>transposed</name></member>
+      <member refid="group__GeneralGroup_1ga09d8a7ceef09453960f965518848f683" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga4c4bd12ba0e345719f85975e5e76f7cc" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>VectorType</name></member>
+      <member refid="group__GeneralGroup_1ga34220148555a9b57f32f7edb08289ea4" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>x</name></member>
+      <member refid="group__GeneralGroup_1gaafd25b0c56a5f7a67abb2afa5d652912" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>y</name></member>
+      <member refid="group__GeneralGroup_1gae0145a330e7ad72bfdb5e8813c7ee37f" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>z</name></member>
+      <member refid="group__GeneralGroup_1gab150121e08f70a3229e617a4c06a5d6a" prot="public" virt="non-virtual"><scope>MR::Matrix3</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

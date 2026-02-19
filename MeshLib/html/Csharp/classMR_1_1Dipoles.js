@@ -2,6 +2,8 @@ var classMR_1_1Dipoles =
 [
     [ "Dipoles", "classMR_1_1Dipoles.html#af2c42fcb85f5f1954b960ff95d855284", null ],
     [ "Dipoles", "classMR_1_1Dipoles.html#ab377f6e1a237c0acdaaf59ec68d777a2", null ],
+    [ "Dipoles", "classMR_1_1Dipoles.html#a2873b63df3961321f8d5aec6eeeda17f", null ],
+    [ "Dipoles", "classMR_1_1Dipoles.html#ab9fff43945dbf480b756218004ff2264", null ],
     [ "Dipoles", "classMR_1_1Dipoles.html#a432402ed8acfc39a2eed6911316488d2", null ],
     [ "Dipoles", "classMR_1_1Dipoles.html#a5eab51aaeffed23cec75b9d756c6c779", null ],
     [ "Dipoles", "classMR_1_1Dipoles.html#afd901e1747851db81ccfbc8bf78062cb", null ],

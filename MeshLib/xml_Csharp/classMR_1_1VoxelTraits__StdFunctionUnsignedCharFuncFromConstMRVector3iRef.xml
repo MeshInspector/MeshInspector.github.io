@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef" kind="class" language="C#" prot="public">
+    <compoundname>MR::VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1a31aca20699b2e274fff0d6c0531b4211" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</name>
+        <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3737" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3737" bodyend="3737"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1aa011c40474d3d23439d42badd2d8c75c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</definition>
+        <argsstring>()</argsstring>
+        <name>VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</name>
+        <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3742" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3742" bodyend="3747"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1aca98285231598c67c2c0b59636f5bf81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</definition>
+        <argsstring>(MR.Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef _other)</argsstring>
+        <name>VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</name>
+        <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</qualifiedname>
+        <param>
+          <type>MR.Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VoxelTraits&lt;std.function&lt;unsigned char(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;)&gt;&gt;::VoxelTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3752" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3752" bodyend="3758"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1aab4e572759791fc43b0186179bccb2ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</definition>
+        <argsstring>(VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef _other)</argsstring>
+        <name>VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</name>
+        <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef" kindref="compound">VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VoxelTraits&lt;std.function&lt;unsigned char(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;)&gt;&gt;::VoxelTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3763" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3763" bodyend="3763"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1a12c025f33593bcbc4ff88949b2aee7b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef" kindref="compound">MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</ref></type>
+        <definition>unsafe MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.assign</definition>
+        <argsstring>(MR.Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef.assign</qualifiedname>
+        <param>
+          <type>MR.Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VoxelTraits&lt;std.function&lt;unsigned char(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;)&gt;&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3768" column="87" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3768" bodyend="3775"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.VoxelTraits&lt;std.function&lt;unsigned char(const <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref> &amp;)&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</label>
+        <link refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</label>
+        <link refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="3735" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="3736" bodyend="3776"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1a12c025f33593bcbc4ff88949b2aee7b3" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</scope><name>assign</name></member>
+      <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1a31aca20699b2e274fff0d6c0531b4211" prot="package" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1aa011c40474d3d23439d42badd2d8c75c" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1aca98285231598c67c2c0b59636f5bf81" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</name></member>
+      <member refid="classMR_1_1VoxelTraits__StdFunctionUnsignedCharFuncFromConstMRVector3iRef_1aab4e572759791fc43b0186179bccb2ef" prot="public" virt="non-virtual"><scope>MR::VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</scope><name>VoxelTraits_StdFunctionUnsignedCharFuncFromConstMRVector3iRef</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

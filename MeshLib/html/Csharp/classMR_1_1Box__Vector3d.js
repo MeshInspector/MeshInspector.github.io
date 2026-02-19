@@ -12,6 +12,8 @@ var classMR_1_1Box__Vector3d =
     [ "mulAssign", "classMR_1_1Box__Vector3d.html#a6f972919e8e64274ff61d4a76acf325b", null ],
     [ "subAssign", "classMR_1_1Box__Vector3d.html#a19bb6eee692516ea35cde25a1bb20050", null ],
     [ "unsignZeroValues", "classMR_1_1Box__Vector3d.html#a7cf253ebec7359419340a0fcd530b327", null ],
-    [ "_Ref", "classMR_1_1Box__Vector3d.html#a8532682ba165cfcb223368b2a64a7974", null ],
-    [ "this[int e]", "classMR_1_1Box__Vector3d.html#a3fec8ca1646fd9c04c04e9d9543ff1e1", null ]
+    [ "this[int e]", "classMR_1_1Box__Vector3d.html#a3fec8ca1646fd9c04c04e9d9543ff1e1", null ],
+    [ "x", "classMR_1_1Box__Vector3d.html#a1e96131809cb51841173478d9e6538e4", null ],
+    [ "y", "classMR_1_1Box__Vector3d.html#a5596b2904c87c9985dcc8c3429ce8cab", null ],
+    [ "z", "classMR_1_1Box__Vector3d.html#a227b08cd222191c02bb05f08aef79901", null ]
 ];

@@ -1,0 +1,1005 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SaveSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SaveSettings</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" prot="public" virt="non-virtual">mrmeshpy.MeshSave.CtmSaveOptions</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions" prot="public" virt="non-virtual">mrmeshpy.PointsSave.CtmSavePointsOptions</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1ae35a7ec8495ce94e1fd03b4dceac8b5f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_colors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_colors</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_colors</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50746" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1a8689618a7bd4e0b9bcd1563ec2f220b7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lengthUnit</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_lengthUnit</qualifiedname>
+        <initializer>=  88</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1aa24db8f1e6975b4e80299b0395b5d277" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_materialName</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_materialName</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_materialName</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1af6382673ee79bdbd4ef8eedd3cae6ffb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_onlyValidPoints</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onlyValidPoints</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_onlyValidPoints</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1abb16dd24f03313ac7488a06d561dcf85" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_packPrimitives</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_packPrimitives</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_packPrimitives</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50750" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1a9927f2981c0a4a5de094c3c16dde8189" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_primitiveColors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_primitiveColors</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_primitiveColors</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1ad48354bde4088e2b337e62c9d86b3e1b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_progress</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50752" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1a819623127578de57657b454d96613484" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_saveTriCornerUVCoords</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_saveTriCornerUVCoords</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_saveTriCornerUVCoords</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50753" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1aac63ae0eae5e3bea4e338ebfb82eb2c3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_solidColor</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_solidColor</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_solidColor</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50754" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50754" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1acacfe86c98d114f89fd4c30ba9634ef1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_texture</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_texture</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_texture</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50755" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1ac88cf3cf5ff30969ae1804138eca04d5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_uvMap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uvMap</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_uvMap</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50756" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50756" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SaveSettings_1ae8e98c842cbdd98ba61fd4f582a23e00" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SaveSettings::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.SaveSettings._offsetof_xf</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50757" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a2bae2329a740850835ae124f54bb6d68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SaveSettings.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a02afb32dcac4a6e7d256ad0879f405d9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1ada887856388e6bf689de31100257cafb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a4ffcd52737add347297dbea45059563a">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50760" bodyend="50761"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a3b6aaaa2676c79dccb5de0bcb3abc148" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+        <definition> SaveSettings mrmeshpy.SaveSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SaveSettings.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1adbb3b79816b419ad369721618141185b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1adbb3b79816b419ad369721618141185b">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50764" bodyend="50765"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a3b6aaaa2676c79dccb5de0bcb3abc148" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+        <definition> SaveSettings mrmeshpy.SaveSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SaveSettings.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1adbb3b79816b419ad369721618141185b">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1adbb3b79816b419ad369721618141185b">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50768" bodyend="50769"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1acf92cdef58fceea6660f7be5e47d8093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SaveSettings.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a02afb32dcac4a6e7d256ad0879f405d9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1ada887856388e6bf689de31100257cafb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a4ffcd52737add347297dbea45059563a">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50771" bodyend="50772"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a72283386dd7c2700a272d9ef1c81c29b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.__init__</definition>
+        <argsstring>(self, SaveSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SaveSettings.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a02afb32dcac4a6e7d256ad0879f405d9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1ada887856388e6bf689de31100257cafb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a4ffcd52737add347297dbea45059563a">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SaveSettings" kindref="compound">SaveSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50774" bodyend="50777"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1ab959ed916525652d563be86d30f819c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.__init__</definition>
+        <argsstring>(self, bool onlyValidPoints, bool packPrimitives, VertColors colors, std_vector_Color primitiveColors, VertCoords2 uvMap, bool saveTriCornerUVCoords, MeshTexture texture, str materialName, AffineXf3d xf, std_optional_LengthUnit lengthUnit, std_optional_Color solidColor, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SaveSettings.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a02afb32dcac4a6e7d256ad0879f405d9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1ada887856388e6bf689de31100257cafb">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions_1a4ffcd52737add347297dbea45059563a">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>onlyValidPoints</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>packPrimitives</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
+          <declname>primitiveColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>uvMap</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveTriCornerUVCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>materialName</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>lengthUnit</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Color" kindref="compound">std_optional_Color</ref></type>
+          <declname>solidColor</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50779" bodyend="50782"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a5ec9ce1fa6f90eb7f892b31b2b3ef370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.SaveSettings.colors</definition>
+        <argsstring>(self)</argsstring>
+        <name>colors</name>
+        <qualifiedname>mrmeshpy.SaveSettings.colors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional per-vertex color to save with the geometry
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50784" bodyend="50787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a8aa43c02d17f5a9ee0e26dce9257efbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.colors</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>colors</name>
+        <qualifiedname>mrmeshpy.SaveSettings.colors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50789" bodyend="50790"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1abeb98dbc79164c4ca44a5572bf87ae7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+        <definition> std_optional_LengthUnit mrmeshpy.SaveSettings.lengthUnit</definition>
+        <argsstring>(self)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.SaveSettings.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>units of input coordinates and transformation, to be serialized if the format supports it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50792" bodyend="50795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1ae1c9049be74df3d1d5033225df842d1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.lengthUnit</definition>
+        <argsstring>(self, std_optional_LengthUnit arg1)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.SaveSettings.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50797" bodyend="50798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1ab0308bab262ffed82505833c80b2e3c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SaveSettings.materialName</definition>
+        <argsstring>(self)</argsstring>
+        <name>materialName</name>
+        <qualifiedname>mrmeshpy.SaveSettings.materialName</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the name of file (UTF8 encoded) without extension to save texture in some formats (e.g. .OBJ, .PLY)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50800" bodyend="50803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1af17c4b730c97288805ab8983e82d8704" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.materialName</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>materialName</name>
+        <qualifiedname>mrmeshpy.SaveSettings.materialName</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50805" bodyend="50806"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a699b99fafa9f99d7b5ac668d94846b54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SaveSettings.onlyValidPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>onlyValidPoints</name>
+        <qualifiedname>mrmeshpy.SaveSettings.onlyValidPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>true - save valid points/vertices only (pack them);
+false - save all points/vertices preserving their indices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50808" bodyend="50812"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1aa55f96bf1a4f0fbdf29abebca792cf0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.onlyValidPoints</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>onlyValidPoints</name>
+        <qualifiedname>mrmeshpy.SaveSettings.onlyValidPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50814" bodyend="50815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a2757d2692d68494072f1f487909ffe3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SaveSettings.packPrimitives</definition>
+        <argsstring>(self)</argsstring>
+        <name>packPrimitives</name>
+        <qualifiedname>mrmeshpy.SaveSettings.packPrimitives</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to allow packing or shuffling of primitives (triangles in meshes or edges in polylines);
+if packPrimitives=true, then ids of invalid primitives are reused by valid primitives
+and higher compression (in .ctm format) can be reached if the order of triangles is changed;
+if packPrimitives=false then all primitives maintain their ids, and invalid primitives are saved with all vertex ids equal to zero;
+currently this flag affects the saving in .ctm and .ply formats only
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50817" bodyend="50824"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a5440f2cb435a919c342ecba70d7bcc84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.packPrimitives</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>packPrimitives</name>
+        <qualifiedname>mrmeshpy.SaveSettings.packPrimitives</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50826" bodyend="50827"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a491d341e64709efc64bfb7b06c61cb94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
+        <definition> std_vector_Color mrmeshpy.SaveSettings.primitiveColors</definition>
+        <argsstring>(self)</argsstring>
+        <name>primitiveColors</name>
+        <qualifiedname>mrmeshpy.SaveSettings.primitiveColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>per-face colors for meshes, per-undirected-edge colors for polylines, unused for point clouds and other
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50829" bodyend="50832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1ab923837c094808909182c58c0a176578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.primitiveColors</definition>
+        <argsstring>(self, std_vector_Color arg1)</argsstring>
+        <name>primitiveColors</name>
+        <qualifiedname>mrmeshpy.SaveSettings.primitiveColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Color" kindref="compound">std_vector_Color</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50834" bodyend="50835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1ad2aa92a9933e1da8144093512a63814f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.SaveSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.SaveSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report save progress and cancel saving if user desires
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50837" bodyend="50840"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a1814186f22bbc6e369572926674e3f80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.SaveSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50842" bodyend="50843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1afdec538a28f221bf5f8fd37437261098" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SaveSettings.saveTriCornerUVCoords</definition>
+        <argsstring>(self)</argsstring>
+        <name>saveTriCornerUVCoords</name>
+        <qualifiedname>mrmeshpy.SaveSettings.saveTriCornerUVCoords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if a format supports both per-vertex and per-tri-corner UV-coordinates,
+then prefer the later option (it takes more space but more supported in other software)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50845" bodyend="50849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a065faec4aa15fddb07aeab33ec88d3e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.saveTriCornerUVCoords</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>saveTriCornerUVCoords</name>
+        <qualifiedname>mrmeshpy.SaveSettings.saveTriCornerUVCoords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50851" bodyend="50852"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a1c4405d19328e0f1b917e56fac7f7c8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__Color" kindref="compound">std_optional_Color</ref></type>
+        <definition> std_optional_Color mrmeshpy.SaveSettings.solidColor</definition>
+        <argsstring>(self)</argsstring>
+        <name>solidColor</name>
+        <qualifiedname>mrmeshpy.SaveSettings.solidColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the color of whole object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50854" bodyend="50857"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a6562a7051c49a9ce7d811f217eeeb77e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.solidColor</definition>
+        <argsstring>(self, std_optional_Color arg1)</argsstring>
+        <name>solidColor</name>
+        <qualifiedname>mrmeshpy.SaveSettings.solidColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Color" kindref="compound">std_optional_Color</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50859" bodyend="50860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a60eff520b1c3959b2b96552b61ed69db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+        <definition> MeshTexture mrmeshpy.SaveSettings.texture</definition>
+        <argsstring>(self)</argsstring>
+        <name>texture</name>
+        <qualifiedname>mrmeshpy.SaveSettings.texture</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional texture to save with the geometry
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50862" bodyend="50865"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1aebb954e2bd869408a83b791b34b2196c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.texture</definition>
+        <argsstring>(self, MeshTexture arg1)</argsstring>
+        <name>texture</name>
+        <qualifiedname>mrmeshpy.SaveSettings.texture</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50867" bodyend="50868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a33660f56044f095ceee7e8f4d5aa2f3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+        <definition> VertCoords2 mrmeshpy.SaveSettings.uvMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>uvMap</name>
+        <qualifiedname>mrmeshpy.SaveSettings.uvMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional per-vertex uv coordinate to save with the geometry
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50870" bodyend="50873"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a81771cf4e4023c678647efcd50223e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.uvMap</definition>
+        <argsstring>(self, VertCoords2 arg1)</argsstring>
+        <name>uvMap</name>
+        <qualifiedname>mrmeshpy.SaveSettings.uvMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50875" bodyend="50876"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a254000896cbd0bbab818dc27474361cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+        <definition> AffineXf3d mrmeshpy.SaveSettings.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.SaveSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this transformation can optionally be applied to all vertices (points) of saved object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50878" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50878" bodyend="50881"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SaveSettings_1a68ee31992d19548930e73b7a6d4a1aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SaveSettings.xf</definition>
+        <argsstring>(self, AffineXf3d arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.SaveSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50883" bodyend="50884"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SaveSettings
+
+determines how to save points/lines/mesh
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.SaveSettings</label>
+        <link refid="classmrmeshpy_1_1SaveSettings"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeshSave.CtmSaveOptions</label>
+        <link refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.PointsSave.CtmSavePointsOptions</label>
+        <link refid="classmrmeshpy_1_1PointsSave_1_1CtmSavePointsOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SaveSettings</label>
+        <link refid="classmrmeshpy_1_1SaveSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_colors</edgelabel>
+          <edgelabel>_offsetof_lengthUnit</edgelabel>
+          <edgelabel>_offsetof_materialName</edgelabel>
+          <edgelabel>_offsetof_onlyValidPoints</edgelabel>
+          <edgelabel>_offsetof_packPrimitives</edgelabel>
+          <edgelabel>_offsetof_primitiveColors</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+          <edgelabel>_offsetof_saveTriCornerUVCoords</edgelabel>
+          <edgelabel>_offsetof_solidColor</edgelabel>
+          <edgelabel>_offsetof_texture</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50740" bodyend="50884"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a2bae2329a740850835ae124f54bb6d68" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1acf92cdef58fceea6660f7be5e47d8093" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a72283386dd7c2700a272d9ef1c81c29b" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ab959ed916525652d563be86d30f819c9" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ae35a7ec8495ce94e1fd03b4dceac8b5f" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_colors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a8689618a7bd4e0b9bcd1563ec2f220b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aa24db8f1e6975b4e80299b0395b5d277" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_materialName</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1af6382673ee79bdbd4ef8eedd3cae6ffb" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_onlyValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1abb16dd24f03313ac7488a06d561dcf85" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_packPrimitives</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a9927f2981c0a4a5de094c3c16dde8189" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_primitiveColors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ad48354bde4088e2b337e62c9d86b3e1b" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a819623127578de57657b454d96613484" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_saveTriCornerUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aac63ae0eae5e3bea4e338ebfb82eb2c3" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1acacfe86c98d114f89fd4c30ba9634ef1" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_texture</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ac88cf3cf5ff30969ae1804138eca04d5" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_uvMap</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ae8e98c842cbdd98ba61fd4f582a23e00" prot="protected" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a5ec9ce1fa6f90eb7f892b31b2b3ef370" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a8aa43c02d17f5a9ee0e26dce9257efbd" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1abeb98dbc79164c4ca44a5572bf87ae7c" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ae1c9049be74df3d1d5033225df842d1f" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ab0308bab262ffed82505833c80b2e3c0" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>materialName</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1af17c4b730c97288805ab8983e82d8704" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>materialName</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a699b99fafa9f99d7b5ac668d94846b54" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>onlyValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aa55f96bf1a4f0fbdf29abebca792cf0e" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>onlyValidPoints</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a3b6aaaa2676c79dccb5de0bcb3abc148" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a3b6aaaa2676c79dccb5de0bcb3abc148" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a2757d2692d68494072f1f487909ffe3b" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>packPrimitives</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a5440f2cb435a919c342ecba70d7bcc84" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>packPrimitives</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a491d341e64709efc64bfb7b06c61cb94" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>primitiveColors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ab923837c094808909182c58c0a176578" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>primitiveColors</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1ad2aa92a9933e1da8144093512a63814f" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a1814186f22bbc6e369572926674e3f80" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1afdec538a28f221bf5f8fd37437261098" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a065faec4aa15fddb07aeab33ec88d3e1" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a1c4405d19328e0f1b917e56fac7f7c8f" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a6562a7051c49a9ce7d811f217eeeb77e" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>solidColor</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a60eff520b1c3959b2b96552b61ed69db" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>texture</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1aebb954e2bd869408a83b791b34b2196c" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>texture</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a33660f56044f095ceee7e8f4d5aa2f3b" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>uvMap</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a81771cf4e4023c678647efcd50223e01" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>uvMap</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a254000896cbd0bbab818dc27474361cb" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1SaveSettings_1a68ee31992d19548930e73b7a6d4a1aaa" prot="public" virt="non-virtual"><scope>mrmeshpy::SaveSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

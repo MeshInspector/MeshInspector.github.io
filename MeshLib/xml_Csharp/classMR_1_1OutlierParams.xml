@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1OutlierParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::OutlierParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_OutlierParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1OutlierParams_1af3184d787d43b01c1d66c9e651d211e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.OutlierParams.maxClusterSize</definition>
+        <argsstring></argsstring>
+        <name>maxClusterSize</name>
+        <qualifiedname>MR.OutlierParams.maxClusterSize</qualifiedname>
+        <briefdescription>
+<para>Maximum points in the outlier component. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="131" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OutlierParams_1a7bfa46ba4f09ac1665aac522898cb2b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.OutlierParams.maxNeighbors</definition>
+        <argsstring></argsstring>
+        <name>maxNeighbors</name>
+        <qualifiedname>MR.OutlierParams.maxNeighbors</qualifiedname>
+        <briefdescription>
+<para>Maximum number of adjacent points for an outlier point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="134" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OutlierParams_1a745993883e4d84fb0d11a9b988f83c2e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.OutlierParams.minHeight</definition>
+        <argsstring></argsstring>
+        <name>minHeight</name>
+        <qualifiedname>MR.OutlierParams.minHeight</qualifiedname>
+        <briefdescription>
+<para>Minimum distance (as proportion of search radius) to the approximate surface from outliers point. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="137" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OutlierParams_1a33cfa2f0281c160bd0772363dee0e787" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.OutlierParams.minAngle</definition>
+        <argsstring></argsstring>
+        <name>minAngle</name>
+        <qualifiedname>MR.OutlierParams.minAngle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minimum angle of difference of normal at outlier points <simplesect kind="note"><para>available only if there are normals </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="141" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1OutlierParams_1aa78a7789a5c9cfcf46f183ccccdac5b6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OutlierParams.OutlierParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>OutlierParams</name>
+        <qualifiedname>MR.OutlierParams.OutlierParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="145" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="145" bodyend="149"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1OutlierParams_1afe44a6b9579d7795eb02276eb5936be8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OutlierParams.OutlierParams</definition>
+        <argsstring>()</argsstring>
+        <name>OutlierParams</name>
+        <qualifiedname>MR.OutlierParams.OutlierParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="155" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="155" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OutlierParams_1a4a95a0bf66e78d4d0c71c88e3f35cb9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OutlierParams.OutlierParams</definition>
+        <argsstring>(int maxClusterSize, int maxNeighbors, float minHeight, float minAngle)</argsstring>
+        <name>OutlierParams</name>
+        <qualifiedname>MR.OutlierParams.OutlierParams</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxClusterSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxNeighbors</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minHeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAngle</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1OutlierParams" kindref="compound">MR.OutlierParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="166" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="166" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OutlierParams_1ac3b8b4d4dce7a2deb70fdb380396c8db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OutlierParams.OutlierParams</definition>
+        <argsstring>(MR.Const_OutlierParams _other)</argsstring>
+        <name>OutlierParams</name>
+        <qualifiedname>MR.OutlierParams.OutlierParams</qualifiedname>
+        <param>
+          <type>MR.Const_OutlierParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.OutlierParams.OutlierParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="177" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="177" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OutlierParams_1aad9eacbf1c3a93a5a40214a0837e5f81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.OutlierParams.OutlierParams</definition>
+        <argsstring>(OutlierParams _other)</argsstring>
+        <name>OutlierParams</name>
+        <qualifiedname>MR.OutlierParams.OutlierParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1OutlierParams" kindref="compound">OutlierParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.OutlierParams.OutlierParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="189" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="189" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OutlierParams_1a86138f4dc1b87d05a1a1daffc883047d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1OutlierParams" kindref="compound">MR.OutlierParams</ref></type>
+        <definition>unsafe MR.OutlierParams MR.OutlierParams.assign</definition>
+        <argsstring>(MR.Const_OutlierParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.OutlierParams.assign</qualifiedname>
+        <param>
+          <type>MR.Const_OutlierParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.OutlierParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="194" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="194" bodyend="201"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of various criteria for detecting outlier points Generated from class <computeroutput><ref refid="classMR_1_1OutlierParams" kindref="compound">MR.OutlierParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_OutlierParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.OutlierParams</label>
+        <link refid="classMR_1_1OutlierParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_OutlierParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_OutlierParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.OutlierParams</label>
+        <link refid="classMR_1_1OutlierParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_OutlierParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" line="128" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROutlierPoints.cs" bodystart="129" bodyend="202"/>
+    <listofallmembers>
+      <member refid="classMR_1_1OutlierParams_1a86138f4dc1b87d05a1a1daffc883047d" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1OutlierParams_1af3184d787d43b01c1d66c9e651d211e6" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>maxClusterSize</name></member>
+      <member refid="classMR_1_1OutlierParams_1a7bfa46ba4f09ac1665aac522898cb2b1" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>maxNeighbors</name></member>
+      <member refid="classMR_1_1OutlierParams_1a33cfa2f0281c160bd0772363dee0e787" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>minAngle</name></member>
+      <member refid="classMR_1_1OutlierParams_1a745993883e4d84fb0d11a9b988f83c2e" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>minHeight</name></member>
+      <member refid="classMR_1_1OutlierParams_1aa78a7789a5c9cfcf46f183ccccdac5b6" prot="package" virt="non-virtual"><scope>MR::OutlierParams</scope><name>OutlierParams</name></member>
+      <member refid="classMR_1_1OutlierParams_1afe44a6b9579d7795eb02276eb5936be8" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>OutlierParams</name></member>
+      <member refid="classMR_1_1OutlierParams_1a4a95a0bf66e78d4d0c71c88e3f35cb9d" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>OutlierParams</name></member>
+      <member refid="classMR_1_1OutlierParams_1ac3b8b4d4dce7a2deb70fdb380396c8db" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>OutlierParams</name></member>
+      <member refid="classMR_1_1OutlierParams_1aad9eacbf1c3a93a5a40214a0837e5f81" prot="public" virt="non-virtual"><scope>MR::OutlierParams</scope><name>OutlierParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

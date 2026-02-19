@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1HoleFillPlan" kind="class" language="C#" prot="public">
+    <compoundname>MR::HoleFillPlan</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_HoleFillPlan</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1HoleFillPlan_1aea3d4b461e370e3b086ff883f1ae6855" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRFillHoleItem</type>
+        <definition>new unsafe MR.Std.Vector_MRFillHoleItem MR.HoleFillPlan.items</definition>
+        <argsstring></argsstring>
+        <name>items</name>
+        <qualifiedname>MR.HoleFillPlan.items</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1034" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1034" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1HoleFillPlan_1a34f810739595a6937d1d1f4efc78f268" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.HoleFillPlan.numTris</definition>
+        <argsstring></argsstring>
+        <name>numTris</name>
+        <qualifiedname>MR.HoleFillPlan.numTris</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1037" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1037" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1HoleFillPlan_1a9036e94b820152bf5cea6686bca1d1d6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.HoleFillPlan.HoleFillPlan</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>HoleFillPlan</name>
+        <qualifiedname>MR.HoleFillPlan.HoleFillPlan</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1056" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1056" bodyend="1060"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1HoleFillPlan_1a29d8e66ba2fe6237505716aa89048294" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.HoleFillPlan.HoleFillPlan</definition>
+        <argsstring>()</argsstring>
+        <name>HoleFillPlan</name>
+        <qualifiedname>MR.HoleFillPlan.HoleFillPlan</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1066" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1066" bodyend="1072"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HoleFillPlan_1af23ed8e6d4f9447fefddfd0b5f69e90a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.HoleFillPlan.HoleFillPlan</definition>
+        <argsstring>(MR.Std._ByValue_Vector_MRFillHoleItem items, int numTris)</argsstring>
+        <name>HoleFillPlan</name>
+        <qualifiedname>MR.HoleFillPlan.HoleFillPlan</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Vector_MRFillHoleItem</type>
+          <declname>items</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numTris</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1HoleFillPlan" kindref="compound">MR.HoleFillPlan</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1077" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1077" bodyend="1084"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HoleFillPlan_1ac80deb9d88cce363defdb3837c5414d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.HoleFillPlan.HoleFillPlan</definition>
+        <argsstring>(MR._ByValue_HoleFillPlan _other)</argsstring>
+        <name>HoleFillPlan</name>
+        <qualifiedname>MR.HoleFillPlan.HoleFillPlan</qualifiedname>
+        <param>
+          <type>MR._ByValue_HoleFillPlan</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.HoleFillPlan.HoleFillPlan</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1089" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1089" bodyend="1096"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HoleFillPlan_1aa64344089b17e4dfb1ce5a7ec6ce0340" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.HoleFillPlan.HoleFillPlan</definition>
+        <argsstring>(Const_HoleFillPlan _other)</argsstring>
+        <name>HoleFillPlan</name>
+        <qualifiedname>MR.HoleFillPlan.HoleFillPlan</qualifiedname>
+        <param>
+          <type>Const_HoleFillPlan</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.HoleFillPlan.HoleFillPlan</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1101" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1101" bodyend="1101"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HoleFillPlan_1adc894486478a94dc76b7ec095dbf7763" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.HoleFillPlan.HoleFillPlan</definition>
+        <argsstring>(HoleFillPlan _other)</argsstring>
+        <name>HoleFillPlan</name>
+        <qualifiedname>MR.HoleFillPlan.HoleFillPlan</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HoleFillPlan" kindref="compound">HoleFillPlan</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.HoleFillPlan.HoleFillPlan</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1106" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1106" bodyend="1106"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HoleFillPlan_1a635d6b9767b9151f3b8fb7ad79d1c7b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1HoleFillPlan" kindref="compound">MR.HoleFillPlan</ref></type>
+        <definition>unsafe MR.HoleFillPlan MR.HoleFillPlan.assign</definition>
+        <argsstring>(MR._ByValue_HoleFillPlan _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.HoleFillPlan.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_HoleFillPlan</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.HoleFillPlan.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1111" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1111" bodyend="1118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>concise representation of proposed hole triangulation Generated from class <computeroutput><ref refid="classMR_1_1HoleFillPlan" kindref="compound">MR.HoleFillPlan</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_HoleFillPlan</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.HoleFillPlan</label>
+        <link refid="classMR_1_1HoleFillPlan"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_HoleFillPlan &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_HoleFillPlan</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.HoleFillPlan</label>
+        <link refid="classMR_1_1HoleFillPlan"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_HoleFillPlan &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" line="1032" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFillHole.cs" bodystart="1033" bodyend="1119"/>
+    <listofallmembers>
+      <member refid="classMR_1_1HoleFillPlan_1a635d6b9767b9151f3b8fb7ad79d1c7b6" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>assign</name></member>
+      <member refid="classMR_1_1HoleFillPlan_1a9036e94b820152bf5cea6686bca1d1d6" prot="package" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>HoleFillPlan</name></member>
+      <member refid="classMR_1_1HoleFillPlan_1a29d8e66ba2fe6237505716aa89048294" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>HoleFillPlan</name></member>
+      <member refid="classMR_1_1HoleFillPlan_1af23ed8e6d4f9447fefddfd0b5f69e90a" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>HoleFillPlan</name></member>
+      <member refid="classMR_1_1HoleFillPlan_1ac80deb9d88cce363defdb3837c5414d5" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>HoleFillPlan</name></member>
+      <member refid="classMR_1_1HoleFillPlan_1aa64344089b17e4dfb1ce5a7ec6ce0340" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>HoleFillPlan</name></member>
+      <member refid="classMR_1_1HoleFillPlan_1adc894486478a94dc76b7ec095dbf7763" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>HoleFillPlan</name></member>
+      <member refid="classMR_1_1HoleFillPlan_1aea3d4b461e370e3b086ff883f1ae6855" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>items</name></member>
+      <member refid="classMR_1_1HoleFillPlan_1a34f810739595a6937d1d1f4efc78f268" prot="public" virt="non-virtual"><scope>MR::HoleFillPlan</scope><name>numTris</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

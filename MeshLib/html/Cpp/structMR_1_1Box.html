@@ -160,17 +160,18 @@ $(function(){initNavTree('structMR_1_1Box.html',''); initResizable(true); });
 <p><a class="el" href="structMR_1_1Box.html" title="Box given by its min- and max- corners.">Box</a> given by its min- and max- corners.  
  <a href="#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="MRMesh_2MRBox_8h_source.html">MRBox.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="MRBox_8h_source.html">MRBox.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a72642a4bb313d2774abf257cefe1f2f0" id="r_a72642a4bb313d2774abf257cefe1f2f0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a72642a4bb313d2774abf257cefe1f2f0">VTraits</a> = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;V&gt;</td></tr>
 <tr class="separator:a72642a4bb313d2774abf257cefe1f2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1425948e6f0f9ef6de04c45be07f81fd" id="r_a1425948e6f0f9ef6de04c45be07f81fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1425948e6f0f9ef6de04c45be07f81fd">T</a> = typename <a class="el" href="structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td></tr>
+<tr class="memitem:a1425948e6f0f9ef6de04c45be07f81fd" id="r_a1425948e6f0f9ef6de04c45be07f81fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1425948e6f0f9ef6de04c45be07f81fd">T</a> = typename <a class="el" href="group__GeneralGroup.html#gadbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td></tr>
 <tr class="separator:a1425948e6f0f9ef6de04c45be07f81fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15892e58be32abb87c83d3929500dcfd" id="r_a15892e58be32abb87c83d3929500dcfd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a> = typename VTraits::template ChangeBaseType&lt;bool&gt;</td></tr>
 <tr class="separator:a15892e58be32abb87c83d3929500dcfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30f9aaac8de3e73144319e59e64d5add" id="r_a30f9aaac8de3e73144319e59e64d5add"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30f9aaac8de3e73144319e59e64d5add">VbTraits</a> = <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt;<a class="el" href="#a15892e58be32abb87c83d3929500dcfd">Vb</a>&gt;</td></tr>
+<tr class="memdesc:a30f9aaac8de3e73144319e59e64d5add"><td class="mdescLeft">&#160;</td><td class="mdescRight">if V is Vector3&lt;T&gt; then Vb is Vector3b  <br /></td></tr>
 <tr class="separator:a30f9aaac8de3e73144319e59e64d5add"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
@@ -186,11 +187,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0b1e0b6b95e8b735eda8de2bb06fd987" id="r_a0b1e0b6b95e8b735eda8de2bb06fd987"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0b1e0b6b95e8b735eda8de2bb06fd987">Box</a> (const V &amp;<a class="el" href="#acc1e8e06848f35838481ee10e0308cda">min</a>, const V &amp;<a class="el" href="#a493e21ced874aa010247428e109d524d">max</a>)</td></tr>
 <tr class="separator:a0b1e0b6b95e8b735eda8de2bb06fd987"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8" id="r_af6d43e68039fbfc977b3d70beb1f30c8"><td class="memTemplParams" colspan="2">template&lt;typename VV  = V, typename std::enable_if_t&lt; <a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt; VV &gt;::supportNoInit, int &gt;  = 0&gt; </td></tr>
-<tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af6d43e68039fbfc977b3d70beb1f30c8">Box</a> (<a class="elRef" href="../Csharp/classMR_1_1NoInit.html">NoInit</a>)</td></tr>
+<tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af6d43e68039fbfc977b3d70beb1f30c8">Box</a> (NoInit)</td></tr>
 <tr class="memdesc:af6d43e68039fbfc977b3d70beb1f30c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">skip initialization of min/max  <br /></td></tr>
 <tr class="separator:af6d43e68039fbfc977b3d70beb1f30c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8" id="r_af6d43e68039fbfc977b3d70beb1f30c8"><td class="memTemplParams" colspan="2">template&lt;typename VV  = V, typename std::enable_if_t&lt;!<a class="el" href="structMR_1_1VectorTraits.html">VectorTraits</a>&lt; VV &gt;::supportNoInit, int &gt;  = 0&gt; </td></tr>
-<tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af6d43e68039fbfc977b3d70beb1f30c8">Box</a> (<a class="elRef" href="../Csharp/classMR_1_1NoInit.html">NoInit</a>)</td></tr>
+<tr class="memitem:af6d43e68039fbfc977b3d70beb1f30c8"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af6d43e68039fbfc977b3d70beb1f30c8">Box</a> (NoInit)</td></tr>
 <tr class="separator:af6d43e68039fbfc977b3d70beb1f30c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaa0e8fa0a608290aa2ac4bee9a34a4e" id="r_abaa0e8fa0a608290aa2ac4bee9a34a4e"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:abaa0e8fa0a608290aa2ac4bee9a34a4e"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#abaa0e8fa0a608290aa2ac4bee9a34a4e">MR_REQUIRES_IF_SUPPORTED</a> (!std::is_same_v&lt; V, U &gt;) explicit <a class="el" href="structMR_1_1Box.html">Box</a>(const <a class="el" href="structMR_1_1Box.html">Box</a>&lt; U &gt; &amp;a)</td></tr>
@@ -270,7 +271,7 @@ Public Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:aad57eed448ea8dc0bd7b331055005b4f" id="r_aad57eed448ea8dc0bd7b331055005b4f"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad57eed448ea8dc0bd7b331055005b4f">elements</a> = <a class="el" href="structMR_1_1VectorTraits.html#a63f31635f31a229471ff3cc2990d95ea">VTraits::size</a></td></tr>
+<tr class="memitem:aad57eed448ea8dc0bd7b331055005b4f" id="r_aad57eed448ea8dc0bd7b331055005b4f"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad57eed448ea8dc0bd7b331055005b4f">elements</a> = <a class="el" href="group__GeneralGroup.html#ga63f31635f31a229471ff3cc2990d95ea">VTraits::size</a></td></tr>
 <tr class="separator:aad57eed448ea8dc0bd7b331055005b4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
@@ -293,7 +294,7 @@ struct MR::Box&lt; V &gt;</div><p><a class="el" href="structMR_1_1Box.html" titl
 template&lt;typename V &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::T = typename <a class="el" href="structMR_1_1VectorTraits.html#adbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td>
+          <td class="memname">using <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::T = typename <a class="el" href="group__GeneralGroup.html#gadbadae2704ad269b8d78edbb0f2faa93">VTraits::BaseType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -329,6 +330,8 @@ template&lt;typename V &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>if V is Vector3&lt;T&gt; then Vb is Vector3b </p>
 
 </div>
 </div>
@@ -425,7 +428,7 @@ template&lt;typename VV  = V, typename std::enable_if_t&lt; <a class="el" href="
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::Box </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1NoInit.html">NoInit</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">NoInit</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -456,7 +459,7 @@ template&lt;typename VV  = V, typename std::enable_if_t&lt;!<a class="el" href="
         <tr>
           <td class="memname"><a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::Box </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1NoInit.html">NoInit</a></td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td class="paramtype">NoInit</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1041,6 +1044,7 @@ template&lt;typename U &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Here <code>V == U</code> doesn't seem to cause any issues in the C++ code, but we're still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </p>
 
 </div>
 </div>
@@ -1317,7 +1321,7 @@ template&lt;typename V &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::elements = <a class="el" href="structMR_1_1VectorTraits.html#a63f31635f31a229471ff3cc2990d95ea">VTraits::size</a></td>
+          <td class="memname">int <a class="el" href="structMR_1_1Box.html">MR::Box</a>&lt; V &gt;::elements = <a class="el" href="group__GeneralGroup.html#ga63f31635f31a229471ff3cc2990d95ea">VTraits::size</a></td>
         </tr>
       </table>
   </td>
@@ -1362,7 +1366,7 @@ template&lt;typename V &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li><a class="el" href="MRMesh_2MRBox_8h_source.html">MRMesh/MRBox.h</a></li>
+<li><a class="el" href="MRBox_8h_source.html">MRBox.h</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

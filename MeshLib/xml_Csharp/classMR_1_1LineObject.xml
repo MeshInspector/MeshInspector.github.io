@@ -1,0 +1,1559 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1LineObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::LineObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_LineObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1LineObject_1a53add0f5e824910cd30576cf5ddbe3a7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.LineObject.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(LineObject self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.LineObject.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LineObject" kindref="compound">LineObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1150" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1150" bodyend="1155"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1adbda0b52cff6442a18a677a6de55a11f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.LineObject.operator MR.Object</definition>
+        <argsstring>(LineObject self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.LineObject.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LineObject" kindref="compound">LineObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1156" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1156" bodyend="1161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a6db3718ea8ad2726cf131692f5ca82f6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.LineObject.operator MR.VisualObject</definition>
+        <argsstring>(LineObject self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.LineObject.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LineObject" kindref="compound">LineObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1162" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1162" bodyend="1167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1aea7a1eb5d23953103f411ee8b9d57bfd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.LineObject.operator MR.FeatureObject</definition>
+        <argsstring>(LineObject self)</argsstring>
+        <name>operator MR.FeatureObject</name>
+        <qualifiedname>MR.LineObject.operator MR.FeatureObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1LineObject" kindref="compound">LineObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1168" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1168" bodyend="1173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a6c227f7b150740b241db0b4f186a7468" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.LineObject.operator LineObject?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator LineObject?</name>
+        <qualifiedname>MR.LineObject.operator LineObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1176" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1176" bodyend="1183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ab7d26fb2ed02fe09ca62ae6f2bdc60e1" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.LineObject.operator LineObject?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator LineObject?</name>
+        <qualifiedname>MR.LineObject.operator LineObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1184" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1184" bodyend="1191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a7e25b48d57d5059c734fb9c0ce5f1df6" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.LineObject.operator LineObject?</definition>
+        <argsstring>(MR.FeatureObject parent)</argsstring>
+        <name>operator LineObject?</name>
+        <qualifiedname>MR.LineObject.operator LineObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1192" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1192" bodyend="1199"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a6881902e7f72948c34268fbd1e85d32f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.LineObject.operator LineObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>operator LineObject</name>
+        <qualifiedname>MR.LineObject.operator LineObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best plane to approx given points Generated from constructor <computeroutput>MR.LineObject.LineObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1242" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1242" bodyend="1242"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1LineObject_1a9f2f315a119109afa4b671d1ace4957c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LineObject.LineObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>LineObject</name>
+        <qualifiedname>MR.LineObject.LineObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1201" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1201" bodyend="1201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1aabd2d7f4bb960e94177a0eefdf52b8ce" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LineObject.LineObject</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>LineObject</name>
+        <qualifiedname>MR.LineObject.LineObject</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1203" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1203" bodyend="1203"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1LineObject_1acc5e8e6189820ab92296f285e05637e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LineObject.LineObject</definition>
+        <argsstring>()</argsstring>
+        <name>LineObject</name>
+        <qualifiedname>MR.LineObject.LineObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1208" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1208" bodyend="1213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a9a9e43094606dfba232440877b5cd4fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LineObject.LineObject</definition>
+        <argsstring>(MR._ByValue_LineObject _other)</argsstring>
+        <name>LineObject</name>
+        <qualifiedname>MR.LineObject.LineObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_LineObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.LineObject.LineObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1218" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1218" bodyend="1224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1aeee0da811f7fff42f7a9226faed23611" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.LineObject.LineObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>LineObject</name>
+        <qualifiedname>MR.LineObject.LineObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best plane to approx given points Generated from constructor <computeroutput>MR.LineObject.LineObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1230" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1230" bodyend="1236"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a51146e33dfd42bf63f39994c83e02b49" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1LineObject" kindref="compound">MR.LineObject</ref></type>
+        <definition>unsafe MR.LineObject MR.LineObject.assign</definition>
+        <argsstring>(MR._ByValue_LineObject _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.LineObject.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_LineObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.LineObject.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1247" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1247" bodyend="1257"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ac636a3be8bab3e2b5a1b6264935c06ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setDirection</definition>
+        <argsstring>(in MR.Vector3f normal, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setDirection</name>
+        <qualifiedname>MR.LineObject.setDirection</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given normal Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ac636a3be8bab3e2b5a1b6264935c06ee" kindref="member">MR.LineObject.setDirection</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1264" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1264" bodyend="1272"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a9b4dbf79b123f6167e756f7f29dc5200" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setCenter</definition>
+        <argsstring>(in MR.Vector3f center, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>MR.LineObject.setCenter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given center Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a9b4dbf79b123f6167e756f7f29dc5200" kindref="member">MR.LineObject.setCenter</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1279" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1279" bodyend="1287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a49170dff1ce66d012acf77f0c40ddcc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setLength</definition>
+        <argsstring>(float size, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setLength</name>
+        <qualifiedname>MR.LineObject.setLength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to scale size Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a49170dff1ce66d012acf77f0c40ddcc4" kindref="member">MR.LineObject.setLength</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1294" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1294" bodyend="1299"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ae6bd41893602545faa05b8114d8a03d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.LineObject.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ae6bd41893602545faa05b8114d8a03d9" kindref="member">MR.LineObject.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1305" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1305" bodyend="1313"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1afdf36e1a61709f2ef0c1da8ea0f553e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.LineObject.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1afdf36e1a61709f2ef0c1da8ea0f553e8" kindref="member">MR.LineObject.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1319" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1319" bodyend="1324"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1acf2fcfb28a326a9d5ab4ac3abe53ae47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setDecorationsColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setDecorationsColor</name>
+        <qualifiedname>MR.LineObject.setDecorationsColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1acf2fcfb28a326a9d5ab4ac3abe53ae47" kindref="member">MR.LineObject.setDecorationsColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1330" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1330" bodyend="1338"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a38fbf11f94935ff68d03bc25d9f7d7f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setDecorationsColorForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool selected)</argsstring>
+        <name>setDecorationsColorForAllViewports</name>
+        <qualifiedname>MR.LineObject.setDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a38fbf11f94935ff68d03bc25d9f7d7f1" kindref="member">MR.LineObject.setDecorationsColorForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1343" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1343" bodyend="1348"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1aaae1083c21cef1c36434810b338f683e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setPointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR.LineObject.setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1aaae1083c21cef1c36434810b338f683e" kindref="member">MR.LineObject.setPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1353" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1353" bodyend="1358"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a9f7467e916b38419a0b77bcbf344a350" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>MR.LineObject.setLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a9f7467e916b38419a0b77bcbf344a350" kindref="member">MR.LineObject.setLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1363" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1363" bodyend="1368"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a5a3595a4984405743dd9e4a15b0568e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setSubfeaturePointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setSubfeaturePointSize</name>
+        <qualifiedname>MR.LineObject.setSubfeaturePointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a5a3595a4984405743dd9e4a15b0568e7" kindref="member">MR.LineObject.setSubfeaturePointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1373" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1373" bodyend="1378"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a278559ec4ba667930f95969edcd05160" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setSubfeatureLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setSubfeatureLineWidth</name>
+        <qualifiedname>MR.LineObject.setSubfeatureLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a278559ec4ba667930f95969edcd05160" kindref="member">MR.LineObject.setSubfeatureLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1383" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1383" bodyend="1388"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a8d04f215cf81c3b038174bb0d7b63a51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setMainFeatureAlpha</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setMainFeatureAlpha</name>
+        <qualifiedname>MR.LineObject.setMainFeatureAlpha</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a8d04f215cf81c3b038174bb0d7b63a51" kindref="member">MR.LineObject.setMainFeatureAlpha</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1393" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1393" bodyend="1398"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a33715cc88ea83b94b930c0d0e0679b30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setSubfeatureAlphaPoints</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaPoints</name>
+        <qualifiedname>MR.LineObject.setSubfeatureAlphaPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a33715cc88ea83b94b930c0d0e0679b30" kindref="member">MR.LineObject.setSubfeatureAlphaPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1403" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1403" bodyend="1408"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ac057e745df181cc4c0714846cc229d64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setSubfeatureAlphaLines</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaLines</name>
+        <qualifiedname>MR.LineObject.setSubfeatureAlphaLines</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ac057e745df181cc4c0714846cc229d64" kindref="member">MR.LineObject.setSubfeatureAlphaLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1413" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1413" bodyend="1418"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ae3e7489cbc9d202acf5c3c719d1c8d85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setSubfeatureAlphaMesh</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaMesh</name>
+        <qualifiedname>MR.LineObject.setSubfeatureAlphaMesh</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ae3e7489cbc9d202acf5c3c719d1c8d85" kindref="member">MR.LineObject.setSubfeatureAlphaMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1423" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1423" bodyend="1428"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a133ed9649830646dfa521fb17cc1fb9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.LineObject.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a133ed9649830646dfa521fb17cc1fb9b" kindref="member">MR.LineObject.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1434" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1434" bodyend="1439"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a569cd7e47f04b70f0f0d7778f63cd590" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.LineObject.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a569cd7e47f04b70f0f0d7778f63cd590" kindref="member">MR.LineObject.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1445" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1445" bodyend="1450"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ac8747088fcb476316d79c341670a5ba4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.LineObject.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ac8747088fcb476316d79c341670a5ba4" kindref="member">MR.LineObject.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1456" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1456" bodyend="1461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a76c1667093fc00caa65f6c40921a9e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.LineObject.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a76c1667093fc00caa65f6c40921a9e66" kindref="member">MR.LineObject.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1467" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1467" bodyend="1472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a0752e0903224f382f1c099b77cef65c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.LineObject.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a0752e0903224f382f1c099b77cef65c5" kindref="member">MR.LineObject.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1478" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1478" bodyend="1483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a0b461d0b8fcc814b65efedc2315a7aaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.LineObject.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a0b461d0b8fcc814b65efedc2315a7aaa" kindref="member">MR.LineObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1490" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1490" bodyend="1495"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a6d41bf43031c7e53769cedea053b0be0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.LineObject.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a6d41bf43031c7e53769cedea053b0be0" kindref="member">MR.LineObject.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1502" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1502" bodyend="1510"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a1b87bd039a6d07cb9c45ff4cb47b8b1a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.LineObject.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a1b87bd039a6d07cb9c45ff4cb47b8b1a" kindref="member">MR.LineObject.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1517" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1517" bodyend="1523"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a5923600190b6ac05431552ddf147ea7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.LineObject.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a5923600190b6ac05431552ddf147ea7b" kindref="member">MR.LineObject.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1529" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1529" bodyend="1534"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a4122d7ed2b26e419cf64a975b508ffa5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.LineObject.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a4122d7ed2b26e419cf64a975b508ffa5" kindref="member">MR.LineObject.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1541" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1541" bodyend="1549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a91dfccb9724d68e12451b80789f560e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.LineObject.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a91dfccb9724d68e12451b80789f560e9" kindref="member">MR.LineObject.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1556" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1556" bodyend="1561"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a767624affea58fde7e6c3f3c29894c50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.LineObject.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a767624affea58fde7e6c3f3c29894c50" kindref="member">MR.LineObject.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1567" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1567" bodyend="1572"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ad3db6af8be62c25ef1c2771a99d2bcbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.LineObject.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets some dirty flags for the object (to force its visual update) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a union of DirtyFlags flags </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>invalidateCaches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to automatically invalidate model caches (pass false here if you manually update the caches) Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ad3db6af8be62c25ef1c2771a99d2bcbe" kindref="member">MR.LineObject.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1581" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1581" bodyend="1587"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1af4811eae438babb6936d048bcf752515" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.LineObject.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1af4811eae438babb6936d048bcf752515" kindref="member">MR.LineObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1594" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1594" bodyend="1599"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a8ec991bf81289d6c62f35cf3e5f8960e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.LineObject.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a8ec991bf81289d6c62f35cf3e5f8960e" kindref="member">MR.LineObject.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1605" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1605" bodyend="1610"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1acb150af4ff7f1d197c18c6036f47b0f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.LineObject.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1acb150af4ff7f1d197c18c6036f47b0f9" kindref="member">MR.LineObject.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1616" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1616" bodyend="1621"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a7a1f1d4ba2419adcc702f18ea71520e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.LineObject.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a7a1f1d4ba2419adcc702f18ea71520e2" kindref="member">MR.LineObject.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1627" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1627" bodyend="1632"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a715274723261b485e6c66eda581ec2b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.LineObject.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a715274723261b485e6c66eda581ec2b3" kindref="member">MR.LineObject.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1638" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1638" bodyend="1643"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a672053e409c9aefb8ea98288fb1a0d94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.LineObject.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a672053e409c9aefb8ea98288fb1a0d94" kindref="member">MR.LineObject.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1650" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1650" bodyend="1655"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ad597ab403bc135b4cfdc0b9359ffb16e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.LineObject.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ad597ab403bc135b4cfdc0b9359ffb16e" kindref="member">MR.LineObject.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1661" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1661" bodyend="1666"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a38dc951d065af39840f0a673eff00228" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.LineObject.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a38dc951d065af39840f0a673eff00228" kindref="member">MR.LineObject.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1672" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1672" bodyend="1677"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ab702e350aa84e22c26a5d3fea6e192b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.LineObject.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ab702e350aa84e22c26a5d3fea6e192b1" kindref="member">MR.LineObject.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1682" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1682" bodyend="1691"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a8635e88d13d8fbb602a9bd2395686d4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.LineObject.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a8635e88d13d8fbb602a9bd2395686d4a" kindref="member">MR.LineObject.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1697" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1697" bodyend="1702"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ae4c41af0ce6973e0d8a171a51791b5c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.LineObject.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ae4c41af0ce6973e0d8a171a51791b5c5" kindref="member">MR.LineObject.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1708" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1708" bodyend="1716"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a7a422ce39cdb1d85aaaf9678ca19f933" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.LineObject.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a7a422ce39cdb1d85aaaf9678ca19f933" kindref="member">MR.LineObject.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1722" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1722" bodyend="1727"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ae83e632aefda5b32fe499f9d206827c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.LineObject.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ae83e632aefda5b32fe499f9d206827c0" kindref="member">MR.LineObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1734" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1734" bodyend="1739"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a502b9e0518d2697d40d5d02f1fa52d64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.LineObject.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a502b9e0518d2697d40d5d02f1fa52d64" kindref="member">MR.LineObject.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1744" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1744" bodyend="1749"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1aaf80b1d06c35254cc4bf46f034bec76b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.LineObject.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1aaf80b1d06c35254cc4bf46f034bec76b" kindref="member">MR.LineObject.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1754" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1754" bodyend="1759"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1af7966393dd70e658a1e38e66440e5889" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.LineObject.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.LineObject.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1af7966393dd70e658a1e38e66440e5889" kindref="member">MR.LineObject.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1766" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1766" bodyend="1771"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a6413d7dca28a799f1c32575ef994251a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.LineObject.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.LineObject.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a6413d7dca28a799f1c32575ef994251a" kindref="member">MR.LineObject.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1781" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1781" bodyend="1787"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1adf6b770d163631ed58b45a89835d477f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.LineObject.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.LineObject.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1adf6b770d163631ed58b45a89835d477f" kindref="member">MR.LineObject.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1795" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1795" bodyend="1800"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a9ac8387ccc522fa762523a6dbf5db7b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.LineObject.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a9ac8387ccc522fa762523a6dbf5db7b5" kindref="member">MR.LineObject.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1806" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1806" bodyend="1811"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a13ad767754222ac77bfaafffafe88aef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.LineObject.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a13ad767754222ac77bfaafffafe88aef" kindref="member">MR.LineObject.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1817" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1817" bodyend="1822"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a4f5b17f3779d0f96de3d0c2d1d11bcba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.LineObject.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.LineObject.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a4f5b17f3779d0f96de3d0c2d1d11bcba" kindref="member">MR.LineObject.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1828" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1828" bodyend="1833"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a2685ab168c4db601e5a02df3264d8703" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.LineObject.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a2685ab168c4db601e5a02df3264d8703" kindref="member">MR.LineObject.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1840" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1840" bodyend="1845"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a7fd46f32221d4beeeff2896085ab37cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.LineObject.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a7fd46f32221d4beeeff2896085ab37cb" kindref="member">MR.LineObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1852" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1852" bodyend="1857"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a17812c842056047232a7ea7ecce0a9d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.LineObject.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a17812c842056047232a7ea7ecce0a9d5" kindref="member">MR.LineObject.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1863" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1863" bodyend="1868"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ad5ae200e6a13aeabb4962c4aa61dc97b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.LineObject.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.LineObject.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ad5ae200e6a13aeabb4962c4aa61dc97b" kindref="member">MR.LineObject.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1876" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1876" bodyend="1881"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1a175e396f157a355c023a086f568c33e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.LineObject.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.LineObject.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1a175e396f157a355c023a086f568c33e1" kindref="member">MR.LineObject.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1889" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1889" bodyend="1898"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1LineObject_1ad168d47f152203c805adeb88cd9952cc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.LineObject.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.LineObject.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1LineObject_1ad168d47f152203c805adeb88cd9952cc" kindref="member">MR.LineObject.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1905" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1905" bodyend="1914"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> to show plane feature Generated from class <computeroutput><ref refid="classMR_1_1LineObject" kindref="compound">MR.LineObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_LineObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.LineObject</label>
+        <link refid="classMR_1_1LineObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_LineObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_LineObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.LineObject</label>
+        <link refid="classMR_1_1LineObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_LineObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" line="1147" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRLineObject.cs" bodystart="1148" bodyend="1915"/>
+    <listofallmembers>
+      <member refid="classMR_1_1LineObject_1a6413d7dca28a799f1c32575ef994251a" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1LineObject_1adf6b770d163631ed58b45a89835d477f" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1LineObject_1a175e396f157a355c023a086f568c33e1" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1LineObject_1a7a422ce39cdb1d85aaaf9678ca19f933" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1LineObject_1a51146e33dfd42bf63f39994c83e02b49" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1LineObject_1a0752e0903224f382f1c099b77cef65c5" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1LineObject_1af7966393dd70e658a1e38e66440e5889" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1LineObject_1a9f2f315a119109afa4b671d1ace4957c" prot="package" virt="non-virtual"><scope>MR::LineObject</scope><name>LineObject</name></member>
+      <member refid="classMR_1_1LineObject_1aabd2d7f4bb960e94177a0eefdf52b8ce" prot="package" virt="non-virtual"><scope>MR::LineObject</scope><name>LineObject</name></member>
+      <member refid="classMR_1_1LineObject_1acc5e8e6189820ab92296f285e05637e2" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>LineObject</name></member>
+      <member refid="classMR_1_1LineObject_1a9a9e43094606dfba232440877b5cd4fa" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>LineObject</name></member>
+      <member refid="classMR_1_1LineObject_1aeee0da811f7fff42f7a9226faed23611" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>LineObject</name></member>
+      <member refid="classMR_1_1LineObject_1a6881902e7f72948c34268fbd1e85d32f" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator LineObject</name></member>
+      <member refid="classMR_1_1LineObject_1a6c227f7b150740b241db0b4f186a7468" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator LineObject?</name></member>
+      <member refid="classMR_1_1LineObject_1ab7d26fb2ed02fe09ca62ae6f2bdc60e1" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator LineObject?</name></member>
+      <member refid="classMR_1_1LineObject_1a7e25b48d57d5059c734fb9c0ce5f1df6" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator LineObject?</name></member>
+      <member refid="classMR_1_1LineObject_1aea7a1eb5d23953103f411ee8b9d57bfd" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.FeatureObject</name></member>
+      <member refid="classMR_1_1LineObject_1adbda0b52cff6442a18a677a6de55a11f" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1LineObject_1a53add0f5e824910cd30576cf5ddbe3a7" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1LineObject_1a6db3718ea8ad2726cf131692f5ca82f6" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1LineObject_1a9ac8387ccc522fa762523a6dbf5db7b5" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1LineObject_1ad168d47f152203c805adeb88cd9952cc" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1LineObject_1a38dc951d065af39840f0a673eff00228" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1LineObject_1ad597ab403bc135b4cfdc0b9359ffb16e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1LineObject_1afdf36e1a61709f2ef0c1da8ea0f553e8" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1LineObject_1a4f5b17f3779d0f96de3d0c2d1d11bcba" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>select</name></member>
+      <member refid="classMR_1_1LineObject_1a76c1667093fc00caa65f6c40921a9e66" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1LineObject_1a715274723261b485e6c66eda581ec2b3" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1LineObject_1a2685ab168c4db601e5a02df3264d8703" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1LineObject_1a4122d7ed2b26e419cf64a975b508ffa5" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1LineObject_1a5923600190b6ac05431552ddf147ea7b" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1LineObject_1a9b4dbf79b123f6167e756f7f29dc5200" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setCenter</name></member>
+      <member refid="classMR_1_1LineObject_1a8ec991bf81289d6c62f35cf3e5f8960e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1LineObject_1acf2fcfb28a326a9d5ab4ac3abe53ae47" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setDecorationsColor</name></member>
+      <member refid="classMR_1_1LineObject_1a38fbf11f94935ff68d03bc25d9f7d7f1" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1LineObject_1ac636a3be8bab3e2b5a1b6264935c06ee" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setDirection</name></member>
+      <member refid="classMR_1_1LineObject_1ad3db6af8be62c25ef1c2771a99d2bcbe" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1LineObject_1a6d41bf43031c7e53769cedea053b0be0" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1LineObject_1a1b87bd039a6d07cb9c45ff4cb47b8b1a" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1LineObject_1a91dfccb9724d68e12451b80789f560e9" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1LineObject_1a767624affea58fde7e6c3f3c29894c50" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1LineObject_1a0b461d0b8fcc814b65efedc2315a7aaa" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1LineObject_1ae83e632aefda5b32fe499f9d206827c0" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1LineObject_1a49170dff1ce66d012acf77f0c40ddcc4" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setLength</name></member>
+      <member refid="classMR_1_1LineObject_1a9f7467e916b38419a0b77bcbf344a350" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1LineObject_1a502b9e0518d2697d40d5d02f1fa52d64" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1LineObject_1a8d04f215cf81c3b038174bb0d7b63a51" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1LineObject_1ab702e350aa84e22c26a5d3fea6e192b1" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1LineObject_1aaf80b1d06c35254cc4bf46f034bec76b" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1LineObject_1af4811eae438babb6936d048bcf752515" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1LineObject_1aaae1083c21cef1c36434810b338f683e" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1LineObject_1acb150af4ff7f1d197c18c6036f47b0f9" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1LineObject_1a7a1f1d4ba2419adcc702f18ea71520e2" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1LineObject_1ac057e745df181cc4c0714846cc229d64" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1LineObject_1ae3e7489cbc9d202acf5c3c719d1c8d85" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1LineObject_1a33715cc88ea83b94b930c0d0e0679b30" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1LineObject_1a278559ec4ba667930f95969edcd05160" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1LineObject_1a5a3595a4984405743dd9e4a15b0568e7" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1LineObject_1a672053e409c9aefb8ea98288fb1a0d94" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1LineObject_1a17812c842056047232a7ea7ecce0a9d5" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1LineObject_1a7fd46f32221d4beeeff2896085ab37cb" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1LineObject_1a133ed9649830646dfa521fb17cc1fb9b" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1LineObject_1a569cd7e47f04b70f0f0d7778f63cd590" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1LineObject_1ae4c41af0ce6973e0d8a171a51791b5c5" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1LineObject_1ae6bd41893602545faa05b8114d8a03d9" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1LineObject_1a8635e88d13d8fbb602a9bd2395686d4a" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1LineObject_1a13ad767754222ac77bfaafffafe88aef" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1LineObject_1ad5ae200e6a13aeabb4962c4aa61dc97b" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1LineObject_1ac8747088fcb476316d79c341670a5ba4" prot="public" virt="non-virtual"><scope>MR::LineObject</scope><name>toggleVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

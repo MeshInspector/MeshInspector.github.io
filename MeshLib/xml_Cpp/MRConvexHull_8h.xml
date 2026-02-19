@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRConvexHull_8h" kind="file" language="C++">
+    <compoundname>MRConvexHull.h</compoundname>
+    <includes local="yes">MRMeshFwd.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRConvexHull.h</label>
+        <link refid="MRConvexHull_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" kindref="member">makeConvexHull</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>validPoints<sp/>);</highlight></codeline>
+<codeline lineno="13" refid="group__GeneralGroup_1ga2b1ae8facc8f4e9e09073b91da0f9949" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" kindref="member">makeConvexHull</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>in<sp/>);</highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1gad4f2e7823d67de1684e13a3829315dc2" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/><ref refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" kindref="member">makeConvexHull</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/>&amp;<sp/>in<sp/>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1gadd9e75db45f7b7d636d5f5f70d48c1a5" refkind="member"><highlight class="normal">MRMESH_API<sp/>Contour2f<sp/><ref refid="group__GeneralGroup_1ga914df647c5ed18410f4b85fd4af5f47e" kindref="member">makeConvexHull</ref>(<sp/>Contour2f<sp/>points<sp/>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConvexHull.h"/>
+  </compounddef>
+</doxygen>

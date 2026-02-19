@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsLoad_1_1RawParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelsLoad::RawParameters</compoundname>
+    <includes refid="MRVoxelsLoad_8h" local="no">MRVoxelsLoad.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1RawParameters_1ab1db96ec60477ec788bfe5aeb3596da2" prot="public" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::VoxelsLoad::RawParameters::dimensions</definition>
+        <argsstring></argsstring>
+        <name>dimensions</name>
+        <qualifiedname>MR::VoxelsLoad::RawParameters::dimensions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="24" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1RawParameters_1afd3e66a2e50b601320d9254e884691dd" prot="public" static="no" mutable="no">
+        <type>Vector3f</type>
+        <definition>Vector3f MR::VoxelsLoad::RawParameters::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::VoxelsLoad::RawParameters::voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="25" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1RawParameters_1a5d28afdbdf8874a171bdaa3da9a77db7" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::VoxelsLoad::RawParameters::gridLevelSet</definition>
+        <argsstring></argsstring>
+        <name>gridLevelSet</name>
+        <qualifiedname>MR::VoxelsLoad::RawParameters::gridLevelSet</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>OpenVDB GridClass set as GRID_LEVEL_SET (need to set right surface normals direction) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsLoad_1_1RawParameters_1a69214b3d1697f4864e145aa2b9802cea" prot="public" static="no" mutable="no">
+        <type><ref refid="group__GeneralGroup_1ga5d528348b4d27cfa92a1b565755099c8" kindref="member">ScalarType</ref></type>
+        <definition>ScalarType MR::VoxelsLoad::RawParameters::scalarType</definition>
+        <argsstring></argsstring>
+        <name>scalarType</name>
+        <qualifiedname>MR::VoxelsLoad::RawParameters::scalarType</qualifiedname>
+        <initializer>{ <ref refid="group__GeneralGroup_1gga5d528348b4d27cfa92a1b565755099c8a166495adc0d0f53bee6baecc577f5204" kindref="member">ScalarType::Float32</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="27" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsLoad.h" bodystart="23" bodyend="28"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VoxelsLoad_1_1RawParameters_1ab1db96ec60477ec788bfe5aeb3596da2" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>dimensions</name></member>
+      <member refid="structMR_1_1VoxelsLoad_1_1RawParameters_1a5d28afdbdf8874a171bdaa3da9a77db7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>gridLevelSet</name></member>
+      <member refid="structMR_1_1VoxelsLoad_1_1RawParameters_1a69214b3d1697f4864e145aa2b9802cea" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>scalarType</name></member>
+      <member refid="structMR_1_1VoxelsLoad_1_1RawParameters_1afd3e66a2e50b601320d9254e884691dd" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::RawParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,301 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ContourToDistanceMapParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ContourToDistanceMapParams</compoundname>
+    <includes refid="MRDistanceMapParams_8h" local="no">MRDistanceMapParams.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ContourToDistanceMapParams_1af6e89dcef8c3cd2419a4cd2dbb77015f" prot="public" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::ContourToDistanceMapParams::pixelSize</definition>
+        <argsstring></argsstring>
+        <name>pixelSize</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::pixelSize</qualifiedname>
+        <initializer>{ 1.F, 1.F }</initializer>
+        <briefdescription>
+<para>pixel size </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="128" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="128" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ContourToDistanceMapParams_1a777f64d2a02e161c0c2d62ceb280a2e4" prot="public" static="no" mutable="no">
+        <type>Vector2i</type>
+        <definition>Vector2i MR::ContourToDistanceMapParams::resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::resolution</qualifiedname>
+        <initializer>{ 1, 1 }</initializer>
+        <briefdescription>
+<para>distance map size </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="129" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ContourToDistanceMapParams_1a7a018eb39177bd2bf920601b6a61d8b6" prot="public" static="no" mutable="no">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::ContourToDistanceMapParams::orgPoint</definition>
+        <argsstring></argsstring>
+        <name>orgPoint</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::orgPoint</qualifiedname>
+        <initializer>{ 0.F, 0.F }</initializer>
+        <briefdescription>
+<para>coordinates of origin area corner </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="130" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="130" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ContourToDistanceMapParams_1afe6ef70a540df80fca43fb338ca681ce" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::ContourToDistanceMapParams::withSign</definition>
+        <argsstring></argsstring>
+        <name>withSign</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::withSign</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>allows calculate negative values of distance (inside closed and correctly oriented (CW) contours) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="131" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a8c1e602f4300ada7c5982a184ee864b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
+        <argsstring>()=default</argsstring>
+        <name>ContourToDistanceMapParams</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::ContourToDistanceMapParams</qualifiedname>
+        <briefdescription>
+<para>Default ctor, make sure to fill all fields manually. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="96" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a2259024cb221dfbdaa806a2a0a213bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API</type>
+        <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
+        <argsstring>(const Vector2i &amp;resolution, const Vector2f &amp;oriPoint, const Vector2f &amp;areaSize, bool withSign=false)</argsstring>
+        <name>ContourToDistanceMapParams</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::ContourToDistanceMapParams</qualifiedname>
+        <param>
+          <type>const Vector2i &amp;</type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>oriPoint</declname>
+        </param>
+        <param>
+          <type>const Vector2f &amp;</type>
+          <declname>areaSize</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withSign</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Ctor, calculating pixelSize by areaSize &amp; dmapSize. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="99" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a9e22bbb95e700464aef4f9d5a8809a59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API</type>
+        <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
+        <argsstring>(const Vector2i &amp;resolution, const Box2f &amp;box, bool withSign=false)</argsstring>
+        <name>ContourToDistanceMapParams</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::ContourToDistanceMapParams</qualifiedname>
+        <param>
+          <type>const Vector2i &amp;</type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>const Box2f &amp;</type>
+          <declname>box</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withSign</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Ctor, calculating pixelSize &amp; oriPoint by box parameters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="103" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1acb66f00d43a900ccc08dffcb01c8a275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API</type>
+        <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
+        <argsstring>(const Vector2i &amp;resolution, const Contours2f &amp;contours, float offset, bool withSign=false)</argsstring>
+        <name>ContourToDistanceMapParams</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::ContourToDistanceMapParams</qualifiedname>
+        <param>
+          <type>const Vector2i &amp;</type>
+          <declname>resolution</declname>
+        </param>
+        <param>
+          <type>const Contours2f &amp;</type>
+          <declname>contours</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withSign</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Ctor, calculating pixelSize &amp; oriPoint by contours box + offset. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="106" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a35d5b9755c07b5533beef9aa20da8127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API</type>
+        <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
+        <argsstring>(float pixelSize, const Contours2f &amp;contours, float offset, bool withSign=false)</argsstring>
+        <name>ContourToDistanceMapParams</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::ContourToDistanceMapParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pixelSize</declname>
+        </param>
+        <param>
+          <type>const Contours2f &amp;</type>
+          <declname>contours</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offset</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>withSign</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>Ctor, calculating resolution &amp; oriPoint by contours box + offset. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="110" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1abbd8dedf69e38f74671e46abe6e1ad92" prot="public" static="no" const="no" explicit="yes" inline="no" virt="non-virtual">
+        <type>MRMESH_API</type>
+        <definition>MRMESH_API MR::ContourToDistanceMapParams::ContourToDistanceMapParams</definition>
+        <argsstring>(const DistanceMapToWorld &amp;toWorld)</argsstring>
+        <name>ContourToDistanceMapParams</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::ContourToDistanceMapParams</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref> &amp;</type>
+          <declname>toWorld</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="113" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1aab02976e948f14539479e1305e319e3d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector2f</type>
+        <definition>Vector2f MR::ContourToDistanceMapParams::toWorld</definition>
+        <argsstring>(Vector2f point) const</argsstring>
+        <name>toWorld</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::toWorld</qualifiedname>
+        <param>
+          <type>Vector2f</type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get world 2d coordinate (respects origin point and pixel size) point - coordinate on distance map </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="116" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="116" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1abaa30b78ecde6f6ef4bc8f92ca454a4c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ContourToDistanceMapParams::operator AffineXf3f</definition>
+        <argsstring>() const</argsstring>
+        <name>operator AffineXf3f</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::operator AffineXf3f</qualifiedname>
+        <briefdescription>
+<para>converts in transformation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="122" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="122" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ContourToDistanceMapParams_1a3f4630f18505db408fdc2d6b9417d9e6" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>AffineXf3f</type>
+        <definition>AffineXf3f MR::ContourToDistanceMapParams::xf</definition>
+        <argsstring>() const</argsstring>
+        <name>xf</name>
+        <qualifiedname>MR::ContourToDistanceMapParams::xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="126" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Structure with parameters to generate <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> by Contours. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" line="93" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapParams.h" bodystart="94" bodyend="132"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1a8c1e602f4300ada7c5982a184ee864b7" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1a2259024cb221dfbdaa806a2a0a213bbc" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1a9e22bbb95e700464aef4f9d5a8809a59" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1acb66f00d43a900ccc08dffcb01c8a275" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1a35d5b9755c07b5533beef9aa20da8127" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1abbd8dedf69e38f74671e46abe6e1ad92" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>ContourToDistanceMapParams</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1abaa30b78ecde6f6ef4bc8f92ca454a4c" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>operator AffineXf3f</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1a7a018eb39177bd2bf920601b6a61d8b6" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>orgPoint</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1af6e89dcef8c3cd2419a4cd2dbb77015f" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>pixelSize</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1a777f64d2a02e161c0c2d62ceb280a2e4" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>resolution</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1aab02976e948f14539479e1305e319e3d" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>toWorld</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1afe6ef70a540df80fca43fb338ca681ce" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>withSign</name></member>
+      <member refid="structMR_1_1ContourToDistanceMapParams_1a3f4630f18505db408fdc2d6b9417d9e6" prot="public" virt="non-virtual"><scope>MR::ContourToDistanceMapParams</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

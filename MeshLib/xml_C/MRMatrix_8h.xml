@@ -1,0 +1,753 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMatrix_8h" kind="file" language="C++">
+    <compoundname>MRMatrix.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMatrix.h</label>
+        <link refid="MRMatrix_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRMatrix_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref></type>
+        <definition>typedef struct MR_RectIndexer MR_RectIndexer</definition>
+        <argsstring></argsstring>
+        <name>MR_RectIndexer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="13" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMatrix_8h_1ac9edad53c37cc631c9de4431e0ca2907" prot="public" static="no">
+        <type>struct MR_Vector2i</type>
+        <definition>typedef struct MR_Vector2i MR_Vector2i</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector2i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="14" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMatrix_8h_1aba323e6d596956f5a589a525c6f6adbc" prot="public" static="no">
+        <type>struct <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref></type>
+        <definition>typedef struct MR_std_vector_float MR_std_vector_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="15" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRMatrix_8h_1a7cdde60e20392324b624c6508b359f95" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref></type>
+        <definition>typedef struct MR_Matrix_float MR_Matrix_float</definition>
+        <argsstring></argsstring>
+        <name>MR_Matrix_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Row-major matrix with T values Generated from class <computeroutput>MR::Matrix&lt;float&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::RectIndexer</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="24" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMatrix_8h_1a1de647baa0f1874c609d5f486c42356f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API MR_Matrix_float * MR_Matrix_float_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Matrix_float_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" kindref="member">MR_Matrix_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="28" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="28" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a3a11ebf939e5184bcaf609b664bc4fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API MR_Matrix_float * MR_Matrix_float_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Matrix_float_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRMatrix_8h_1a3c4625714ddac29ebc5fc462ecc9caab" kindref="member">MR_Matrix_float_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRMatrix_8h_1a26a83a7f2392b0e67d00ea1d5a9a85dc" kindref="member">MR_Matrix_float_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRMatrix_8h_1a8c2252f20834d5a3cc645c5310add98b" kindref="member">MR_Matrix_float_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="33" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="33" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a8c2252f20834d5a3cc645c5310add98b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API const MR_Matrix_float * MR_Matrix_float_OffsetPtr</definition>
+        <argsstring>(const MR_Matrix_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Matrix_float_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="37" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="37" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a26a83a7f2392b0e67d00ea1d5a9a85dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API MR_Matrix_float * MR_Matrix_float_OffsetMutablePtr</definition>
+        <argsstring>(MR_Matrix_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Matrix_float_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="41" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="41" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a56d30278dd96f2f8945ed66abe00740b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API const MR_RectIndexer * MR_Matrix_float_UpcastTo_MR_RectIndexer</definition>
+        <argsstring>(const MR_Matrix_float *object)</argsstring>
+        <name>MR_Matrix_float_UpcastTo_MR_RectIndexer</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Matrix&lt;float&gt;</computeroutput> to its base class <computeroutput>MR::RectIndexer</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="46" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="46" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a96fa619f15a039db6d1d0d0882517aef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_RectIndexer * MR_Matrix_float_MutableUpcastTo_MR_RectIndexer</definition>
+        <argsstring>(MR_Matrix_float *object)</argsstring>
+        <name>MR_Matrix_float_MutableUpcastTo_MR_RectIndexer</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::Matrix&lt;float&gt;</computeroutput> to its base class <computeroutput>MR::RectIndexer</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="50" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="50" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a1a3b3d8d1566702c02f327ff76247625" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API MR_Matrix_float * MR_Matrix_float_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_Matrix_float *_other)</argsstring>
+        <name>MR_Matrix_float_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Matrix&lt;float&gt;::Matrix</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" kindref="member">MR_Matrix_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="55" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="55" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a99b486f3cc93f1fe94c1c380b04068b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API MR_Matrix_float * MR_Matrix_float_Construct</definition>
+        <argsstring>(MR_uint64_t numRows, MR_uint64_t numCols)</argsstring>
+        <name>MR_Matrix_float_Construct</name>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>numRows</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>numCols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Matrix&lt;float&gt;::Matrix</computeroutput>. The reference to the parameter <computeroutput>numRows</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>numCols</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" kindref="member">MR_Matrix_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="61" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="61" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Matrix_float_Destroy</definition>
+        <argsstring>(const MR_Matrix_float *_this)</argsstring>
+        <name>MR_Matrix_float_Destroy</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_Matrix_float</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="64" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="64" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a3c4625714ddac29ebc5fc462ecc9caab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Matrix_float_DestroyArray</definition>
+        <argsstring>(const MR_Matrix_float *_this)</argsstring>
+        <name>MR_Matrix_float_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_Matrix_float</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="67" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="67" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a184d491ab3628c761c50f49ce9205588" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API MR_Matrix_float * MR_Matrix_float_AssignFromAnother</definition>
+        <argsstring>(MR_Matrix_float *_this, MR_PassBy _other_pass_by, MR_Matrix_float *_other)</argsstring>
+        <name>MR_Matrix_float_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="74" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="74" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1acb3989655880ba31d59ff8dd4cc6443b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_Matrix_float_call_mut_2</definition>
+        <argsstring>(MR_Matrix_float *_this, MR_uint64_t row, MR_uint64_t col)</argsstring>
+        <name>MR_Matrix_float_call_mut_2</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>main access method Generated from method <computeroutput>MR::Matrix&lt;float&gt;::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="80" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="80" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1aea693b6fc0174d26c9848fa87351f410" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_Matrix_float_call_mut_1</definition>
+        <argsstring>(MR_Matrix_float *_this, MR_uint64_t i)</argsstring>
+        <name>MR_Matrix_float_call_mut_1</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="85" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="85" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a904d35309812f99cc202fe2bcd87a764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_Matrix_float_call_2</definition>
+        <argsstring>(const MR_Matrix_float *_this, MR_uint64_t row, MR_uint64_t col)</argsstring>
+        <name>MR_Matrix_float_call_2</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="90" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="90" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1ad441e718bf0cdd4118ef48c5996f0992" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_Matrix_float_call_1</definition>
+        <argsstring>(const MR_Matrix_float *_this, MR_uint64_t i)</argsstring>
+        <name>MR_Matrix_float_call_1</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::operator()</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="95" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="95" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a182a3cd573e782f165d1cecaed41ec2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API MR_Matrix_float * MR_Matrix_float_getSubMatrix</definition>
+        <argsstring>(MR_Matrix_float *_this, MR_uint64_t startRow, MR_uint64_t nRow, MR_uint64_t startCol, MR_uint64_t nCol)</argsstring>
+        <name>MR_Matrix_float_getSubMatrix</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>startRow</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>nRow</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>startCol</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>nCol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::getSubMatrix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" kindref="member">MR_Matrix_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="100" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="100" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a4c2ba8ef0e3a678815b68d0579500caa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API MR_Matrix_float * MR_Matrix_float_transposed</definition>
+        <argsstring>(const MR_Matrix_float *_this)</argsstring>
+        <name>MR_Matrix_float_transposed</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>computes transposed matrix Generated from method <computeroutput>MR::Matrix&lt;float&gt;::transposed</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" kindref="member">MR_Matrix_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="106" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="106" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a1a6a534b9cf666d2fc5b65deb887a3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Matrix_float_fill</definition>
+        <argsstring>(MR_Matrix_float *_this, float val)</argsstring>
+        <name>MR_Matrix_float_fill</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::fill</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="110" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="110" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a162916d1222b9d03b406314a036923a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Matrix_float_clear</definition>
+        <argsstring>(MR_Matrix_float *_this)</argsstring>
+        <name>MR_Matrix_float_clear</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::clear</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a7b474c4703e0afba1a11607fe0246abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_Matrix_float_getRowsNum</definition>
+        <argsstring>(const MR_Matrix_float *_this)</argsstring>
+        <name>MR_Matrix_float_getRowsNum</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::getRowsNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="118" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="118" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a19e3df0937d990599501401069720a54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_Matrix_float_getColsNum</definition>
+        <argsstring>(const MR_Matrix_float *_this)</argsstring>
+        <name>MR_Matrix_float_getColsNum</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::getColsNum</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="122" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="122" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1af588219103d3c5213254edfa4d1dca33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
+        <definition>MRC_API const MR_std_vector_float * MR_Matrix_float_data</definition>
+        <argsstring>(const MR_Matrix_float *_this)</argsstring>
+        <name>MR_Matrix_float_data</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::data</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="127" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="127" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a563662c80b153e57a9892c87ec7d160c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Matrix_float_resize</definition>
+        <argsstring>(MR_Matrix_float *_this, const MR_Vector2i *dims)</argsstring>
+        <name>MR_Matrix_float_resize</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::resize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="132" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="132" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a537b01eb141221558a33bffa516e7baa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+        <definition>MRC_API const MR_Vector2i * MR_Matrix_float_dims</definition>
+        <argsstring>(const MR_Matrix_float *_this)</argsstring>
+        <name>MR_Matrix_float_dims</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::dims</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="137" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="137" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a27a4269017620e37d9c1b3d2014d225b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_Matrix_float_size</definition>
+        <argsstring>(const MR_Matrix_float *_this)</argsstring>
+        <name>MR_Matrix_float_size</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="141" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="141" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a4c935b1e86fb57f894b5d82576012033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
+        <definition>MRC_API MR_PixelId MR_Matrix_float_toPixelId</definition>
+        <argsstring>(const MR_Matrix_float *_this, const MR_Vector2i *pos)</argsstring>
+        <name>MR_Matrix_float_toPixelId</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::toPixelId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pos</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="146" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="146" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRMatrix_8h_1a5ba007eb272d7693b3d0a0c2f9ba79b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_Matrix_float_toIndex</definition>
+        <argsstring>(const MR_Matrix_float *_this, const MR_Vector2i *pos)</argsstring>
+        <name>MR_Matrix_float_toIndex</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Matrix&lt;float&gt;::toIndex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pos</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" line="151" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h" declline="151" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRMatrix_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRRectIndexer.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRMatrix_8h_1ac9edad53c37cc631c9de4431e0ca2907" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRMatrix_8h_1aba323e6d596956f5a589a525c6f6adbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRMatrix_8h_1a7cdde60e20392324b624c6508b359f95" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRMatrix_8h_1a1de647baa0f1874c609d5f486c42356f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a1de647baa0f1874c609d5f486c42356f" kindref="member">MR_Matrix_float_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRMatrix_8h_1a3a11ebf939e5184bcaf609b664bc4fa0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a3a11ebf939e5184bcaf609b664bc4fa0" kindref="member">MR_Matrix_float_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRMatrix_8h_1a8c2252f20834d5a3cc645c5310add98b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a8c2252f20834d5a3cc645c5310add98b" kindref="member">MR_Matrix_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRMatrix_8h_1a26a83a7f2392b0e67d00ea1d5a9a85dc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a26a83a7f2392b0e67d00ea1d5a9a85dc" kindref="member">MR_Matrix_float_OffsetMutablePtr</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRMatrix_8h_1a56d30278dd96f2f8945ed66abe00740b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRMatrix_8h_1a56d30278dd96f2f8945ed66abe00740b" kindref="member">MR_Matrix_float_UpcastTo_MR_RectIndexer</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRMatrix_8h_1a96fa619f15a039db6d1d0d0882517aef" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRMatrix_8h_1a96fa619f15a039db6d1d0d0882517aef" kindref="member">MR_Matrix_float_MutableUpcastTo_MR_RectIndexer</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRMatrix_8h_1a1a3b3d8d1566702c02f327ff76247625" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a1a3b3d8d1566702c02f327ff76247625" kindref="member">MR_Matrix_float_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRMatrix_8h_1a99b486f3cc93f1fe94c1c380b04068b4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a99b486f3cc93f1fe94c1c380b04068b4" kindref="member">MR_Matrix_float_Construct</ref>(MR_uint64_t<sp/>numRows,<sp/>MR_uint64_t<sp/>numCols);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1a327c1222d222d67120957412d07d74d8" kindref="member">MR_Matrix_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="MRMatrix_8h_1a3c4625714ddac29ebc5fc462ecc9caab" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1a3c4625714ddac29ebc5fc462ecc9caab" kindref="member">MR_Matrix_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRMatrix_8h_1a184d491ab3628c761c50f49ce9205588" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a184d491ab3628c761c50f49ce9205588" kindref="member">MR_Matrix_float_AssignFromAnother</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRMatrix_8h_1acb3989655880ba31d59ff8dd4cc6443b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1acb3989655880ba31d59ff8dd4cc6443b" kindref="member">MR_Matrix_float_call_mut_2</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>row,<sp/>MR_uint64_t<sp/>col);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRMatrix_8h_1aea693b6fc0174d26c9848fa87351f410" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1aea693b6fc0174d26c9848fa87351f410" kindref="member">MR_Matrix_float_call_mut_1</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRMatrix_8h_1a904d35309812f99cc202fe2bcd87a764" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1a904d35309812f99cc202fe2bcd87a764" kindref="member">MR_Matrix_float_call_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>row,<sp/>MR_uint64_t<sp/>col);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRMatrix_8h_1ad441e718bf0cdd4118ef48c5996f0992" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRMatrix_8h_1ad441e718bf0cdd4118ef48c5996f0992" kindref="member">MR_Matrix_float_call_1</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>i);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRMatrix_8h_1a182a3cd573e782f165d1cecaed41ec2a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a182a3cd573e782f165d1cecaed41ec2a" kindref="member">MR_Matrix_float_getSubMatrix</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>startRow,<sp/>MR_uint64_t<sp/>nRow,<sp/>MR_uint64_t<sp/>startCol,<sp/>MR_uint64_t<sp/>nCol);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRMatrix_8h_1a4c2ba8ef0e3a678815b68d0579500caa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRMatrix_8h_1a4c2ba8ef0e3a678815b68d0579500caa" kindref="member">MR_Matrix_float_transposed</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRMatrix_8h_1a1a6a534b9cf666d2fc5b65deb887a3d8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1a1a6a534b9cf666d2fc5b65deb887a3d8" kindref="member">MR_Matrix_float_fill</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>val);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRMatrix_8h_1a162916d1222b9d03b406314a036923a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1a162916d1222b9d03b406314a036923a1" kindref="member">MR_Matrix_float_clear</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRMatrix_8h_1a7b474c4703e0afba1a11607fe0246abc" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRMatrix_8h_1a7b474c4703e0afba1a11607fe0246abc" kindref="member">MR_Matrix_float_getRowsNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRMatrix_8h_1a19e3df0937d990599501401069720a54" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRMatrix_8h_1a19e3df0937d990599501401069720a54" kindref="member">MR_Matrix_float_getColsNum</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="MRMatrix_8h_1af588219103d3c5213254edfa4d1dca33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*<ref refid="MRMatrix_8h_1af588219103d3c5213254edfa4d1dca33" kindref="member">MR_Matrix_float_data</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRMatrix_8h_1a563662c80b153e57a9892c87ec7d160c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRMatrix_8h_1a563662c80b153e57a9892c87ec7d160c" kindref="member">MR_Matrix_float_resize</ref>(<ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*dims);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRMatrix_8h_1a537b01eb141221558a33bffa516e7baa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRMatrix_8h_1a537b01eb141221558a33bffa516e7baa" kindref="member">MR_Matrix_float_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRMatrix_8h_1a27a4269017620e37d9c1b3d2014d225b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRMatrix_8h_1a27a4269017620e37d9c1b3d2014d225b" kindref="member">MR_Matrix_float_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="MRMatrix_8h_1a4c935b1e86fb57f894b5d82576012033" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRMatrix_8h_1a4c935b1e86fb57f894b5d82576012033" kindref="member">MR_Matrix_float_toPixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151" refid="MRMatrix_8h_1a5ba007eb272d7693b3d0a0c2f9ba79b4" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRMatrix_8h_1a5ba007eb272d7693b3d0a0c2f9ba79b4" kindref="member">MR_Matrix_float_toIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix.h"/>
+  </compounddef>
+</doxygen>

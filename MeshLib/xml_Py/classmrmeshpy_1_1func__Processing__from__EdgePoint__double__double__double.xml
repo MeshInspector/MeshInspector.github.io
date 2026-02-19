@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_Processing_from_EdgePoint_double_double_double</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1a87350db8b3af5eea841259b32206b6ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75485" bodyend="75486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1a735390aeee971811bfc5eeab7be6f7f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Processing" kindref="compound">Processing</ref></type>
+        <definition> Processing mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__call__</definition>
+        <argsstring>(self, EdgePoint arg0, float arg1, double_output arg2, double_output arg3)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1double__output" kindref="compound">double_output</ref></type>
+          <declname>arg2</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1double__output" kindref="compound">double_output</ref></type>
+          <declname>arg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75487" bodyend="75488"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1a717ac3e54d742be0e2dadd82fc096b1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75490" bodyend="75491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1a9ba0689b9de55dcaee51b78e5b909c98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75493" bodyend="75494"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1ad50a975d21a810bb558456f4a70df43c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__init__</definition>
+        <argsstring>(self, func_Processing_from_EdgePoint_double_double_double arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double" kindref="compound">func_Processing_from_EdgePoint_double_double_double</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75496" bodyend="75497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1ae7e336430fc9e6765a998fc60cac5680" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__init__</definition>
+        <argsstring>(self, typing.Callable[[EdgePoint, float, double_output, double_output], Processing] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_Processing_from_EdgePoint_double_double_double.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[EdgePoint, float, double_output, double_output]</array>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Processing" kindref="compound">Processing</ref>]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75499" bodyend="75500"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1afe3c7472f7b5674dd2e3a11310618246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_Processing_from_EdgePoint_double_double_double.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_Processing_from_EdgePoint_double_double_double.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75501" bodyend="75504"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1adc695f76290a93303daef173ac3010f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_Processing_from_EdgePoint_double_double_double.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_Processing_from_EdgePoint_double_double_double.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75505" bodyend="75508"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75484" bodyend="75508"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1a87350db8b3af5eea841259b32206b6ff" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Processing_from_EdgePoint_double_double_double</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1a735390aeee971811bfc5eeab7be6f7f3" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Processing_from_EdgePoint_double_double_double</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1a717ac3e54d742be0e2dadd82fc096b1d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Processing_from_EdgePoint_double_double_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1a9ba0689b9de55dcaee51b78e5b909c98" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Processing_from_EdgePoint_double_double_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1ad50a975d21a810bb558456f4a70df43c" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Processing_from_EdgePoint_double_double_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1ae7e336430fc9e6765a998fc60cac5680" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Processing_from_EdgePoint_double_double_double</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1afe3c7472f7b5674dd2e3a11310618246" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Processing_from_EdgePoint_double_double_double</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__Processing__from__EdgePoint__double__double__double_1adc695f76290a93303daef173ac3010f3" prot="public" virt="non-virtual"><scope>mrmeshpy::func_Processing_from_EdgePoint_double_double_double</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

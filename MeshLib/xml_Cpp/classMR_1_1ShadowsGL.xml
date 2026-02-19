@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ShadowsGL" kind="class" language="C++" prot="public">
+    <compoundname>MR::ShadowsGL</compoundname>
+    <includes refid="MRShadowsGL_8h" local="no">MRShadowsGL.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gab98bf8d9ab5f4a8ee99afa09be05ec3f" kind="variable"><name>shadowShift_</name></member>
+      <member refid="group__GeneralGroup_1ga039201a9c846ae2add0583c7e32f5c4b" kind="variable"><name>shadowColor_</name></member>
+      <member refid="group__GeneralGroup_1ga2d537aa3b471f8a601a2eceac4b2cb72" kind="variable"><name>blurRadius_</name></member>
+      <member refid="group__GeneralGroup_1ga28feee6b43b58046c1ed775c8328cddc" kind="variable"><name>quality_</name></member>
+      <member refid="group__GeneralGroup_1ga9d2259da4db9c6e82f47711f9d991ae5" kind="variable"><name>preDrawConnection_</name></member>
+      <member refid="group__GeneralGroup_1ga19d0519418eb5906b09f3fdefbcdb6fe" kind="variable"><name>postDrawConnection_</name></member>
+      <member refid="group__GeneralGroup_1ga90e5033a6bcc4494adbd7421a55ed7e0" kind="variable"><name>postResizeConnection_</name></member>
+      <member refid="group__GeneralGroup_1ga5357282c769752c656bd12228da222ca" kind="variable"><name>sceneSize_</name></member>
+      <member refid="group__GeneralGroup_1gae93de5cb698e8ee6f0e13b2831bb5120" kind="variable"><name>lowSize_</name></member>
+      <member refid="group__GeneralGroup_1ga05d183a9c55ce05998e6b82a207e28d4" kind="variable"><name>quadObject_</name></member>
+      <member refid="group__GeneralGroup_1gacd2e34d99fa9c15561564a2ed9a1abec" kind="variable"><name>sceneFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8a630feed4b5e16e5388d3dff5f6e515" kind="variable"><name>lowSizeFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gac683fcfed794f34445c1eb39ae01b771" kind="variable"><name>convolutionXFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga69f27dbbbbff85cba2122d43489d3621" kind="variable"><name>enabled_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga41c74b52ccad8c211d2b8e3dc639e4aa" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga0fe291e46a58cddf57661fe94f5a2a47" kind="function"><name>~ShadowsGL</name></member>
+      <member refid="group__GeneralGroup_1gaa49107de3327a7c3585b3d42b97fbfb1" kind="function"><name>enable</name></member>
+      <member refid="group__GeneralGroup_1gafbfb18c734f6d41741dcdd84a9031e95" kind="function"><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga37112847b6740a4ff382b4ea87a89fa9" kind="function"><name>getShadowShift</name></member>
+      <member refid="group__GeneralGroup_1ga1f96229c0027acb80974fbeccb9fff4d" kind="function"><name>setShadowShift</name></member>
+      <member refid="group__GeneralGroup_1ga04bd8703025b9a6312dff0a43be1c871" kind="function"><name>getShadowColor</name></member>
+      <member refid="group__GeneralGroup_1ga9d6d931d3b779b456540569abbceb962" kind="function"><name>setShadowColor</name></member>
+      <member refid="group__GeneralGroup_1gaab09524b5ecb1b890bfb298e7ce253ab" kind="function"><name>getBlurRadius</name></member>
+      <member refid="group__GeneralGroup_1ga48bc9b48164b58c3865f8c4b80dfea15" kind="function"><name>setBlurRadius</name></member>
+      <member refid="group__GeneralGroup_1ga0f442b02859f8ff90f016b8bb644095a" kind="function"><name>getQuality</name></member>
+      <member refid="group__GeneralGroup_1gaf9db8ab9dcc3eb53d435f5c2da5425f0" kind="function"><name>setQuality</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga7a9865affab7f33bb5fdcd6147bc2432" kind="function"><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga450bc9a7825ef4cbd4ad5be29ac2ae43" kind="function"><name>postDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga816e9c2e952853be715efb4d64137812" kind="function"><name>postResize_</name></member>
+      <member refid="group__GeneralGroup_1ga7180a41bfe4290617bcd9719714b67a4" kind="function"><name>drawLowSize_</name></member>
+      <member refid="group__GeneralGroup_1gacbacb42835940ad7d977bfdb296757c7" kind="function"><name>convolveX_</name></member>
+      <member refid="group__GeneralGroup_1ga11c673624ff01dac150fbf8f19b9f22e" kind="function"><name>convolveY_</name></member>
+      <member refid="group__GeneralGroup_1gaf19d7d45c062332fae1db2eea0abe889" kind="function"><name>drawShadow_</name></member>
+      <member refid="group__GeneralGroup_1ga4819d4cc62a7f6b5512217ecc0364419" kind="function"><name>drawTexture_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class allows do draw shadows for objects in scene draws scene into texture buffer, than make shadow from: draw shadow and than draw texture with scene </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRShadowsGL.h" bodystart="19" bodyend="74"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2d537aa3b471f8a601a2eceac4b2cb72" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>blurRadius_</name></member>
+      <member refid="group__GeneralGroup_1gac683fcfed794f34445c1eb39ae01b771" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>convolutionXFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gacbacb42835940ad7d977bfdb296757c7" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>convolveX_</name></member>
+      <member refid="group__GeneralGroup_1ga11c673624ff01dac150fbf8f19b9f22e" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>convolveY_</name></member>
+      <member refid="group__GeneralGroup_1ga7180a41bfe4290617bcd9719714b67a4" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>drawLowSize_</name></member>
+      <member refid="group__GeneralGroup_1gaf19d7d45c062332fae1db2eea0abe889" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>drawShadow_</name></member>
+      <member refid="group__GeneralGroup_1ga4819d4cc62a7f6b5512217ecc0364419" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>drawTexture_</name></member>
+      <member refid="group__GeneralGroup_1gaa49107de3327a7c3585b3d42b97fbfb1" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga69f27dbbbbff85cba2122d43489d3621" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>enabled_</name></member>
+      <member refid="group__GeneralGroup_1gaab09524b5ecb1b890bfb298e7ce253ab" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getBlurRadius</name></member>
+      <member refid="group__GeneralGroup_1ga0f442b02859f8ff90f016b8bb644095a" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getQuality</name></member>
+      <member refid="group__GeneralGroup_1ga04bd8703025b9a6312dff0a43be1c871" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getShadowColor</name></member>
+      <member refid="group__GeneralGroup_1ga37112847b6740a4ff382b4ea87a89fa9" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>getShadowShift</name></member>
+      <member refid="group__GeneralGroup_1gafbfb18c734f6d41741dcdd84a9031e95" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1gae93de5cb698e8ee6f0e13b2831bb5120" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>lowSize_</name></member>
+      <member refid="group__GeneralGroup_1ga8a630feed4b5e16e5388d3dff5f6e515" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>lowSizeFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga41c74b52ccad8c211d2b8e3dc639e4aa" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga450bc9a7825ef4cbd4ad5be29ac2ae43" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga19d0519418eb5906b09f3fdefbcdb6fe" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postDrawConnection_</name></member>
+      <member refid="group__GeneralGroup_1ga816e9c2e952853be715efb4d64137812" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postResize_</name></member>
+      <member refid="group__GeneralGroup_1ga90e5033a6bcc4494adbd7421a55ed7e0" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>postResizeConnection_</name></member>
+      <member refid="group__GeneralGroup_1ga7a9865affab7f33bb5fdcd6147bc2432" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga9d2259da4db9c6e82f47711f9d991ae5" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>preDrawConnection_</name></member>
+      <member refid="group__GeneralGroup_1ga05d183a9c55ce05998e6b82a207e28d4" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>quadObject_</name></member>
+      <member refid="group__GeneralGroup_1ga28feee6b43b58046c1ed775c8328cddc" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>quality_</name></member>
+      <member refid="group__GeneralGroup_1gacd2e34d99fa9c15561564a2ed9a1abec" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>sceneFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga5357282c769752c656bd12228da222ca" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>sceneSize_</name></member>
+      <member refid="group__GeneralGroup_1ga48bc9b48164b58c3865f8c4b80dfea15" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setBlurRadius</name></member>
+      <member refid="group__GeneralGroup_1gaf9db8ab9dcc3eb53d435f5c2da5425f0" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setQuality</name></member>
+      <member refid="group__GeneralGroup_1ga9d6d931d3b779b456540569abbceb962" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowColor</name></member>
+      <member refid="group__GeneralGroup_1ga1f96229c0027acb80974fbeccb9fff4d" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>setShadowShift</name></member>
+      <member refid="group__GeneralGroup_1ga039201a9c846ae2add0583c7e32f5c4b" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>shadowColor_</name></member>
+      <member refid="group__GeneralGroup_1gab98bf8d9ab5f4a8ee99afa09be05ec3f" prot="private" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>shadowShift_</name></member>
+      <member refid="group__GeneralGroup_1ga0fe291e46a58cddf57661fe94f5a2a47" prot="public" virt="non-virtual"><scope>MR::ShadowsGL</scope><name>~ShadowsGL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

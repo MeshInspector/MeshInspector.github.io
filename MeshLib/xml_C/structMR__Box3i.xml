@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__Box3i" kind="struct" language="C++" prot="public">
+    <compoundname>MR_Box3i</compoundname>
+    <includes refid="MRBox_8h" local="no">MRBox.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__Box3i_1a77345ca6c823bc80fa431cc59bdc4b66" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref></type>
+        <definition>MR_Vector3i MR_Box3i::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR_Box3i::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="95" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Box3i_1a8fcfbc76210e21f625148cf6d77702d8" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref></type>
+        <definition>MR_Vector3i MR_Box3i::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR_Box3i::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="96" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Box given by its min- and max- corners Generated from class <computeroutput>MR::Box3i</computeroutput>. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR_Box3i</label>
+        <link refid="structMR__Box3i"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>max</edgelabel>
+          <edgelabel>min</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR_Vector3i</label>
+        <link refid="structMR__Vector3i"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="93" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="94" bodyend="97"/>
+    <listofallmembers>
+      <member refid="structMR__Box3i_1a8fcfbc76210e21f625148cf6d77702d8" prot="public" virt="non-virtual"><scope>MR_Box3i</scope><name>max</name></member>
+      <member refid="structMR__Box3i_1a77345ca6c823bc80fa431cc59bdc4b66" prot="public" virt="non-virtual"><scope>MR_Box3i</scope><name>min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

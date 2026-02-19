@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ViewportProperty" kind="class" language="C++" prot="public">
+    <compoundname>MR::ViewportProperty</compoundname>
+    <includes refid="MRViewportProperty_8h" local="no">MRViewportProperty.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ViewportProperty_1af19c9e41557db524a404808e2ff1acc2" prot="private" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::ViewportProperty&lt; T &gt;::def_</definition>
+        <argsstring></argsstring>
+        <name>def_</name>
+        <qualifiedname>MR::ViewportProperty::def_</qualifiedname>
+        <initializer>{}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="77" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1ViewportProperty_1a4059f38c4e90a9041d0eedfaf4ad76da" prot="private" static="no" mutable="no">
+        <type>std::map&lt; <ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref>, T &gt;</type>
+        <definition>std::map&lt;ViewportId, T&gt; MR::ViewportProperty&lt; T &gt;::map_</definition>
+        <argsstring></argsstring>
+        <name>map_</name>
+        <qualifiedname>MR::ViewportProperty::map_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="78" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1a08a3a7775fba5eb3fce855a27cf8d586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::ViewportProperty&lt; T &gt;::ViewportProperty</definition>
+        <argsstring>()=default</argsstring>
+        <name>ViewportProperty</name>
+        <qualifiedname>MR::ViewportProperty::ViewportProperty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="19" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1a2586f5567b0637427c76e0c13b0bfa95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ViewportProperty&lt; T &gt;::ViewportProperty</definition>
+        <argsstring>(const T &amp;def)</argsstring>
+        <name>ViewportProperty</name>
+        <qualifiedname>MR::ViewportProperty::ViewportProperty</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1ad54a5352850df53cbcbd00002e92b00e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewportProperty&lt; T &gt;::set</definition>
+        <argsstring>(T def)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::ViewportProperty::set</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+<para>sets default property value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1a84c311368b6811ab85337014147411cd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::ViewportProperty&lt; T &gt;::get</definition>
+        <argsstring>() const</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::ViewportProperty::get</qualifiedname>
+        <briefdescription>
+<para>gets default property value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="24" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1a2bd23f5da1c45f3e3883a09d930aa408" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; MR::ViewportProperty&lt; T &gt;::get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::ViewportProperty::get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="25" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1a60baa3c068605f833fbcdadd3ad908e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; MR::ViewportProperty&lt; T &gt;::operator[]</definition>
+        <argsstring>(ViewportId id)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::ViewportProperty::operator[]</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>returns direct access to value associated with given viewport (or default value if !id) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="28" column="8" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1a47e346ad25a2c7948afa750f53070d5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ViewportProperty&lt; T &gt;::set</definition>
+        <argsstring>(T v, ViewportId id)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::ViewportProperty::set</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>sets specific property value for given viewport (or default value if !id) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="33" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1aa0bc0587aca60d445e368fe7c746ef01" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::ViewportProperty&lt; T &gt;::get</definition>
+        <argsstring>(ViewportId id, bool *isDef=nullptr) const</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::ViewportProperty::get</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>bool *</type>
+          <declname>isDef</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets property value for given viewport: specific if available otherwise default one; <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>isDef</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receives true if this viewport does not have specific value and default one is returned </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="39" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="39" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1ae8ca1fb6bc59e88d43f1d96bd4c17034" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ViewportProperty&lt; T &gt;::reset</definition>
+        <argsstring>(ViewportId id)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::ViewportProperty::reset</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="57" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="57" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty_1ab7e94f2d0f3a20692500763dc1e160e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ViewportProperty&lt; T &gt;::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::ViewportProperty::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>forgets specific property value for all viewports; returns true if any specific value was removed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="68" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="68" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportProperty.h" bodystart="17" bodyend="79"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ViewportProperty_1af19c9e41557db524a404808e2ff1acc2" prot="private" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>def_</name></member>
+      <member refid="classMR_1_1ViewportProperty_1a84c311368b6811ab85337014147411cd" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>get</name></member>
+      <member refid="classMR_1_1ViewportProperty_1a2bd23f5da1c45f3e3883a09d930aa408" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>get</name></member>
+      <member refid="classMR_1_1ViewportProperty_1aa0bc0587aca60d445e368fe7c746ef01" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>get</name></member>
+      <member refid="classMR_1_1ViewportProperty_1a4059f38c4e90a9041d0eedfaf4ad76da" prot="private" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>map_</name></member>
+      <member refid="classMR_1_1ViewportProperty_1a60baa3c068605f833fbcdadd3ad908e7" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>operator[]</name></member>
+      <member refid="classMR_1_1ViewportProperty_1ae8ca1fb6bc59e88d43f1d96bd4c17034" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>reset</name></member>
+      <member refid="classMR_1_1ViewportProperty_1ab7e94f2d0f3a20692500763dc1e160e2" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>reset</name></member>
+      <member refid="classMR_1_1ViewportProperty_1ad54a5352850df53cbcbd00002e92b00e" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>set</name></member>
+      <member refid="classMR_1_1ViewportProperty_1a47e346ad25a2c7948afa750f53070d5b" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>set</name></member>
+      <member refid="classMR_1_1ViewportProperty_1a08a3a7775fba5eb3fce855a27cf8d586" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>ViewportProperty</name></member>
+      <member refid="classMR_1_1ViewportProperty_1a2586f5567b0637427c76e0c13b0bfa95" prot="public" virt="non-virtual"><scope>MR::ViewportProperty</scope><name>ViewportProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

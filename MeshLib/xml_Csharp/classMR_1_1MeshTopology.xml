@@ -1,0 +1,1178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshTopology" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshTopology</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MeshTopology</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a95618dc2ac98e9689ef094b25c9c3bec" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshTopology.MeshTopology</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeshTopology</name>
+        <qualifiedname>MR.MeshTopology.MeshTopology</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1170" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1170" bodyend="1170"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a2f90be272ebbdabccd5def076f1eda8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshTopology.MeshTopology</definition>
+        <argsstring>()</argsstring>
+        <name>MeshTopology</name>
+        <qualifiedname>MR.MeshTopology.MeshTopology</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1175" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1175" bodyend="1180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ab44610e89641216bf4a3ddbe2da25e6e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshTopology.MeshTopology</definition>
+        <argsstring>(MR._ByValue_MeshTopology _other)</argsstring>
+        <name>MeshTopology</name>
+        <qualifiedname>MR.MeshTopology.MeshTopology</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshTopology</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshTopology.MeshTopology</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1185" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1185" bodyend="1191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a592f473a191f647cd8f7194eacf9bff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshTopology.MeshTopology</definition>
+        <argsstring>(Const_MeshTopology _other)</argsstring>
+        <name>MeshTopology</name>
+        <qualifiedname>MR.MeshTopology.MeshTopology</qualifiedname>
+        <param>
+          <type>Const_MeshTopology</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshTopology.MeshTopology</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1196" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1196" bodyend="1196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a61f7d6f557be0264e5fc2990a6e93dff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshTopology.MeshTopology</definition>
+        <argsstring>(MeshTopology _other)</argsstring>
+        <name>MeshTopology</name>
+        <qualifiedname>MR.MeshTopology.MeshTopology</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshTopology.MeshTopology</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1201" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1201" bodyend="1201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a349c518750c2bda3d9dba761d2c87971" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></type>
+        <definition>unsafe MR.MeshTopology MR.MeshTopology.assign</definition>
+        <argsstring>(MR._ByValue_MeshTopology _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshTopology.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshTopology</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MeshTopology.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1206" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1206" bodyend="1213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1af2ec4ff948c91e5062cc78113e16fc60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.MeshTopology.makeEdge</definition>
+        <argsstring>()</argsstring>
+        <name>makeEdge</name>
+        <qualifiedname>MR.MeshTopology.makeEdge</qualifiedname>
+        <briefdescription>
+<para>creates an edge not associated with any vertex or face Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1af2ec4ff948c91e5062cc78113e16fc60" kindref="member">MR.MeshTopology.makeEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1219" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1219" bodyend="1224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a4953976e89f47ee04ff351eaa8e9d583" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.edgeReserve</definition>
+        <argsstring>(ulong newCapacity)</argsstring>
+        <name>edgeReserve</name>
+        <qualifiedname>MR.MeshTopology.edgeReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newCapacity</declname>
+        </param>
+        <briefdescription>
+<para>sets the capacity of half-edges vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a4953976e89f47ee04ff351eaa8e9d583" kindref="member">MR.MeshTopology.edgeReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1230" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1230" bodyend="1235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a61c0a1cc8ebd1f01b921acf88eb43df7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.shrinkToFit</definition>
+        <argsstring>()</argsstring>
+        <name>shrinkToFit</name>
+        <qualifiedname>MR.MeshTopology.shrinkToFit</qualifiedname>
+        <briefdescription>
+<para>requests the removal of unused capacity Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a61c0a1cc8ebd1f01b921acf88eb43df7" kindref="member">MR.MeshTopology.shrinkToFit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1241" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1241" bodyend="1246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a08126f32bb3b4d9f2a75a8f0e142f0c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.splice</definition>
+        <argsstring>(MR.EdgeId a, MR.EdgeId b)</argsstring>
+        <name>splice</name>
+        <qualifiedname>MR.MeshTopology.splice</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>given two half edges do either of two: 1) if a and b were from distinct rings, puts them in one ring; 2) if a and b were from the same ring, puts them in separate rings; the cut in rings in both cases is made after a and b Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a08126f32bb3b4d9f2a75a8f0e142f0c2" kindref="member">MR.MeshTopology.splice</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1255" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1255" bodyend="1260"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a4ec8e65e49f461f24fff09204cff91b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.MeshTopology.collapseEdge</definition>
+        <argsstring>(MR.EdgeId e, MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeDel)</argsstring>
+        <name>collapseEdge</name>
+        <qualifiedname>MR.MeshTopology.collapseEdge</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <declname>onEdgeDel</declname>
+        </param>
+        <briefdescription>
+<para>collapses given edge in a vertex and deletes 1) faces: left( e ) and right( e ); 2) edges: e, next( e.sym() ), prev( e.sym() ), and optionally next( e ), prev( e ) if their left and right triangles are deleted; 3) all vertices that lost their last edge; calls onEdgeDel for every deleted edge (del) including given (e); if valid (rem) is given then dest( del ) = dest( rem ) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>prev( e ) if it is still valid Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a4ec8e65e49f461f24fff09204cff91b8" kindref="member">MR.MeshTopology.collapseEdge</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1272" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1272" bodyend="1277"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1add9d777e7b522152daa32c58e6ca991b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.setOrg</definition>
+        <argsstring>(MR.EdgeId a, MR.VertId v)</argsstring>
+        <name>setOrg</name>
+        <qualifiedname>MR.MeshTopology.setOrg</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>sets new origin to the full origin ring including this edge; edgePerVertex_ table is updated accordingly Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1add9d777e7b522152daa32c58e6ca991b" kindref="member">MR.MeshTopology.setOrg</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1284" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1284" bodyend="1289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a1fa9107b60d9309ddf3247005a3a4fb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.setLeft</definition>
+        <argsstring>(MR.EdgeId a, MR.FaceId f)</argsstring>
+        <name>setLeft</name>
+        <qualifiedname>MR.MeshTopology.setLeft</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>sets new left face to the full left ring including this edge; edgePerFace_ table is updated accordingly Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a1fa9107b60d9309ddf3247005a3a4fb1" kindref="member">MR.MeshTopology.setLeft</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1296" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1296" bodyend="1301"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1aa909a6bd7c873592dc14277eac2df1d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.MeshTopology.addVertId</definition>
+        <argsstring>()</argsstring>
+        <name>addVertId</name>
+        <qualifiedname>MR.MeshTopology.addVertId</qualifiedname>
+        <briefdescription>
+<para>creates new vert-id not associated with any edge yet Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1aa909a6bd7c873592dc14277eac2df1d6" kindref="member">MR.MeshTopology.addVertId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1307" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1307" bodyend="1312"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a3e0abe440e8a359de8f30cc291828e88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.vertResize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>vertResize</name>
+        <qualifiedname>MR.MeshTopology.vertResize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>explicitly increases the size of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a3e0abe440e8a359de8f30cc291828e88" kindref="member">MR.MeshTopology.vertResize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1318" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1318" bodyend="1323"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a201f3bb1c53b8a1bb6a565c5c4ac7bfc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.vertResizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>vertResizeWithReserve</name>
+        <qualifiedname>MR.MeshTopology.vertResizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>explicitly increases the size of vertices vector, doubling the current capacity if it was not enough Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a201f3bb1c53b8a1bb6a565c5c4ac7bfc" kindref="member">MR.MeshTopology.vertResizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1329" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1329" bodyend="1334"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ac87b85279824b958a2625216ef0ed12d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.vertReserve</definition>
+        <argsstring>(ulong newCapacity)</argsstring>
+        <name>vertReserve</name>
+        <qualifiedname>MR.MeshTopology.vertReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newCapacity</declname>
+        </param>
+        <briefdescription>
+<para>sets the capacity of vertices vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ac87b85279824b958a2625216ef0ed12d" kindref="member">MR.MeshTopology.vertReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1340" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1340" bodyend="1345"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a0cfa07d34a5b833db39b37d46e9ca042" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe MR.FaceId MR.MeshTopology.addFaceId</definition>
+        <argsstring>()</argsstring>
+        <name>addFaceId</name>
+        <qualifiedname>MR.MeshTopology.addFaceId</qualifiedname>
+        <briefdescription>
+<para>creates new face-id not associated with any edge yet Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a0cfa07d34a5b833db39b37d46e9ca042" kindref="member">MR.MeshTopology.addFaceId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1351" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1351" bodyend="1356"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a02ab985393952c324537391d3a95b34b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.deleteFace</definition>
+        <argsstring>(MR.FaceId f, MR.Const_UndirectedEdgeBitSet? keepEdges=null)</argsstring>
+        <name>deleteFace</name>
+        <qualifiedname>MR.MeshTopology.deleteFace</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>keepEdges</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>deletes the face, also deletes its edges and vertices if they were not shared by other faces and not in </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keepFaces</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a02ab985393952c324537391d3a95b34b" kindref="member">MR.MeshTopology.deleteFace</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1362" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1362" bodyend="1367"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a877289bbfc2c5c17342785bfccba71f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.deleteFaces</definition>
+        <argsstring>(MR.Const_FaceBitSet fs, MR.Const_UndirectedEdgeBitSet? keepEdges=null)</argsstring>
+        <name>deleteFaces</name>
+        <qualifiedname>MR.MeshTopology.deleteFaces</qualifiedname>
+        <param>
+          <type>MR.Const_FaceBitSet</type>
+          <declname>fs</declname>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>keepEdges</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>deletes multiple given faces by calling <ref refid="classMR_1_1MeshTopology_1a02ab985393952c324537391d3a95b34b" kindref="member">deleteFace</ref> for each Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a877289bbfc2c5c17342785bfccba71f5" kindref="member">MR.MeshTopology.deleteFaces</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1373" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1373" bodyend="1378"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1af216f8f557054e815ff87e985d4a6cda" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.faceResize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>faceResize</name>
+        <qualifiedname>MR.MeshTopology.faceResize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>explicitly increases the size of faces vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1af216f8f557054e815ff87e985d4a6cda" kindref="member">MR.MeshTopology.faceResize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1384" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1384" bodyend="1389"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a432a0837900bf35ae5232e5e5dbd7800" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.faceResizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>faceResizeWithReserve</name>
+        <qualifiedname>MR.MeshTopology.faceResizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>explicitly increases the size of faces vector, doubling the current capacity if it was not enough Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a432a0837900bf35ae5232e5e5dbd7800" kindref="member">MR.MeshTopology.faceResizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1395" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1395" bodyend="1400"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ace7f834d29b2e7f6c51703089fd52494" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.faceReserve</definition>
+        <argsstring>(ulong newCapacity)</argsstring>
+        <name>faceReserve</name>
+        <qualifiedname>MR.MeshTopology.faceReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newCapacity</declname>
+        </param>
+        <briefdescription>
+<para>sets the capacity of faces vector Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ace7f834d29b2e7f6c51703089fd52494" kindref="member">MR.MeshTopology.faceReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1406" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1406" bodyend="1411"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a25e95a43b3bb1714ad2d8576540387e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.flipEdge</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>flipEdge</name>
+        <qualifiedname>MR.MeshTopology.flipEdge</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>given the edge with left and right triangular faces, which form together a quadrangle, rotates the edge counter-clockwise inside the quadrangle Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a25e95a43b3bb1714ad2d8576540387e6" kindref="member">MR.MeshTopology.flipEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1418" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1418" bodyend="1423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1accac8bee9be72acc01f545bfc8ac80dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.MeshTopology.splitEdge</definition>
+        <argsstring>(MR.EdgeId e, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</argsstring>
+        <name>splitEdge</name>
+        <qualifiedname>MR.MeshTopology.splitEdge</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
+          <declname>new2Old</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>left and right faces of given edge if valid are also subdivided on two parts each; the split edge will keep both face IDs and their degrees, and the new edge will have new face IDs and new faces are triangular; if left or right faces of the original edge were in the region, then include new parts of these faces in the region <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>new2Old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1accac8bee9be72acc01f545bfc8ac80dc" kindref="member">MR.MeshTopology.splitEdge</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1436" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1436" bodyend="1441"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ae265d8dd6027ad38480282b747075ea9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.MeshTopology.splitFace</definition>
+        <argsstring>(MR.FaceId f, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</argsstring>
+        <name>splitFace</name>
+        <qualifiedname>MR.MeshTopology.splitFace</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
+          <declname>new2Old</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>split given triangle on three triangles, introducing new vertex (which is returned) inside original triangle and connecting it to its vertices </para>
+        </briefdescription>
+        <detaileddescription>
+<para>if region is given, then it must include (f) and new faces will be added there as well <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>new2Old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ae265d8dd6027ad38480282b747075ea9" kindref="member">MR.MeshTopology.splitFace</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1449" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1449" bodyend="1454"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1aa8f93500c5a7191443286a5d8bddba59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.flipOrientation</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet? fullComponents=null)</argsstring>
+        <name>flipOrientation</name>
+        <qualifiedname>MR.MeshTopology.flipOrientation</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>fullComponents</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>flip orientation (normals) of </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para>all mesh elements if<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fullComponents</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is nullptr, or</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem><listitem><para>given mesh components in<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fullComponents.</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The behavior is undefined if fullComponents is given but there are connected components with some edges included and not-included there. Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1aa8f93500c5a7191443286a5d8bddba59" kindref="member">MR.MeshTopology.flipOrientation</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1463" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1463" bodyend="1468"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ad4bde8ebc39bc224e43fe0913982be6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.addPart</definition>
+        <argsstring>(MR.Const_MeshTopology from, MR.Const_PartMapping? map=null, bool? rearrangeTriangles=null)</argsstring>
+        <name>addPart</name>
+        <qualifiedname>MR.MeshTopology.addPart</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>MR.Const_PartMapping?</type>
+          <declname>map</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>rearrangeTriangles</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>appends mesh topology (from) in addition to the current topology: creates new edges, faces, verts; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>rearrangeTriangles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then the order of triangles is selected according to the order of their vertices, please call <ref refid="classMR_1_1MeshTopology_1a3003427f4a7585b1541d6859faf20424" kindref="member">rotateTriangles()</ref> first Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ad4bde8ebc39bc224e43fe0913982be6d" kindref="member">MR.MeshTopology.addPart</ref></computeroutput>. Parameter <computeroutput>map</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>rearrangeTriangles</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1478" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1478" bodyend="1484"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1acb6c4e7d1ae3135db2f29441b418fa07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.addPart</definition>
+        <argsstring>(MR.Const_MeshTopology from, MR.FaceMap? outFmap=null, MR.VertMap? outVmap=null, MR.WholeEdgeMap? outEmap=null, bool? rearrangeTriangles=null)</argsstring>
+        <name>addPart</name>
+        <qualifiedname>MR.MeshTopology.addPart</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref>?</type>
+          <declname>outFmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>outVmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1WholeEdgeMap" kindref="compound">MR.WholeEdgeMap</ref>?</type>
+          <declname>outEmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>rearrangeTriangles</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ad4bde8ebc39bc224e43fe0913982be6d" kindref="member">MR.MeshTopology.addPart</ref></computeroutput>. Parameter <computeroutput>rearrangeTriangles</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1490" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1490" bodyend="1496"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a54f5cef00c62307783dec95716482c45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.addPartByMask</definition>
+        <argsstring>(MR.Const_MeshTopology from, MR.Const_FaceBitSet? fromFaces, MR.Const_PartMapping? map=null)</argsstring>
+        <name>addPartByMask</name>
+        <qualifiedname>MR.MeshTopology.addPartByMask</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet?</type>
+          <declname>fromFaces</declname>
+        </param>
+        <param>
+          <type>MR.Const_PartMapping?</type>
+          <declname>map</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>the same but copies only portion of (from) specified by fromFaces, Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a54f5cef00c62307783dec95716482c45" kindref="member">MR.MeshTopology.addPartByMask</ref></computeroutput>. Parameter <computeroutput>map</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1503" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1503" bodyend="1508"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a3c3315ee683280dbd7946a7e10600309" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.addPartByMask</definition>
+        <argsstring>(MR.Const_MeshTopology from, MR.Const_FaceBitSet? fromFaces, bool? flipOrientation=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, MR.Const_PartMapping? map=null)</argsstring>
+        <name>addPartByMask</name>
+        <qualifiedname>MR.MeshTopology.addPartByMask</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceBitSet?</type>
+          <declname>fromFaces</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>flipOrientation</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId?</type>
+          <declname>thisContours</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId?</type>
+          <declname>fromContours</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_PartMapping?</type>
+          <declname>map</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>this version has more parameters </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flipOrientation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then every from triangle is inverted before adding </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thisContours</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contours on this mesh (no left face) that have to be stitched with </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fromContours</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contours on from mesh during addition (no left face if flipOrientation otherwise no right face) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a54f5cef00c62307783dec95716482c45" kindref="member">MR.MeshTopology.addPartByMask</ref></computeroutput>. Parameter <computeroutput>flipOrientation</computeroutput> defaults to <computeroutput>false</computeroutput>. Parameter <computeroutput>thisContours</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fromContours</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>map</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1521" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1521" bodyend="1527"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a3003427f4a7585b1541d6859faf20424" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.rotateTriangles</definition>
+        <argsstring>()</argsstring>
+        <name>rotateTriangles</name>
+        <qualifiedname>MR.MeshTopology.rotateTriangles</qualifiedname>
+        <briefdescription>
+<para>for each triangle selects edgeWithLeft with minimal origin vertex Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a3003427f4a7585b1541d6859faf20424" kindref="member">MR.MeshTopology.rotateTriangles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1533" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1533" bodyend="1538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.pack</definition>
+        <argsstring>(MR.FaceMap? outFmap=null, MR.VertMap? outVmap=null, MR.WholeEdgeMap? outEmap=null, bool? rearrangeTriangles=null)</argsstring>
+        <name>pack</name>
+        <qualifiedname>MR.MeshTopology.pack</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref>?</type>
+          <declname>outFmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>outVmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1WholeEdgeMap" kindref="compound">MR.WholeEdgeMap</ref>?</type>
+          <declname>outEmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>rearrangeTriangles</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>tightly packs all arrays eliminating lone edges and invalid faces and vertices </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outFmap</parametername>
+<parametername>outVmap</parametername>
+<parametername>outEmap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if given returns mappings: old.id -&gt; new.id; </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>rearrangeTriangles</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true then calls <ref refid="classMR_1_1MeshTopology_1a3003427f4a7585b1541d6859faf20424" kindref="member">rotateTriangles()</ref> and selects the order of triangles according to the order of their vertices Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" kindref="member">MR.MeshTopology.pack</ref></computeroutput>. Parameter <computeroutput>rearrangeTriangles</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1548" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1548" bodyend="1554"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a4f699f3cc25b460fdd41052ac17d14a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.pack</definition>
+        <argsstring>(MR.Const_PackMapping map)</argsstring>
+        <name>pack</name>
+        <qualifiedname>MR.MeshTopology.pack</qualifiedname>
+        <param>
+          <type>MR.Const_PackMapping</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" kindref="member">MR.MeshTopology.pack</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1561" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1561" bodyend="1566"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a2278217cc29c59228fc5af61b3a37436" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.packMinMem</definition>
+        <argsstring>(MR.Const_PackMapping map)</argsstring>
+        <name>packMinMem</name>
+        <qualifiedname>MR.MeshTopology.packMinMem</qualifiedname>
+        <param>
+          <type>MR.Const_PackMapping</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>tightly packs all arrays eliminating lone edges and invalid faces and vertices; reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping; unlike <ref refid="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" kindref="member">pack</ref> method, this method allocates minimal amount of memory for its operation but works much slower Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a2278217cc29c59228fc5af61b3a37436" kindref="member">MR.MeshTopology.packMinMem</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1574" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1574" bodyend="1579"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ab96835197fe18ee21eb0617bf12dc86c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.read</definition>
+        <argsstring>(MR.Std.Istream s, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</argsstring>
+        <name>read</name>
+        <qualifiedname>MR.MeshTopology.read</qualifiedname>
+        <param>
+          <type>MR.Std.Istream</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>callback</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>loads from binary stream </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>text of error if any Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ab96835197fe18ee21eb0617bf12dc86c" kindref="member">MR.MeshTopology.read</ref></computeroutput>. Parameter <computeroutput>callback</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1587" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1587" bodyend="1594"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a3e4ac990a63ba5b7431d1c8143f008c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.resizeBeforeParallelAdd</definition>
+        <argsstring>(ulong edgeSize, ulong vertSize, ulong faceSize)</argsstring>
+        <name>resizeBeforeParallelAdd</name>
+        <qualifiedname>MR.MeshTopology.resizeBeforeParallelAdd</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>edgeSize</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>vertSize</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>faceSize</declname>
+        </param>
+        <briefdescription>
+<para>These function are for parallel mesh creation from different threads. If you are not sure, do not use them. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>resizes all internal vectors and sets the numbers of valid elements in preparation for addPackedPart; edges are resized without initialization (so the user must initialize them using addPackedPart) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a3e4ac990a63ba5b7431d1c8143f008c0" kindref="member">MR.MeshTopology.resizeBeforeParallelAdd</ref></computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1602" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1602" bodyend="1607"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1acf3e6e7cbd2868023ae9b09c3e15d381" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.addPackedPart</definition>
+        <argsstring>(MR.Const_MeshTopology from, MR.EdgeId toEdgeId, MR.Const_FaceMap fmap, MR.Const_VertMap vmap)</argsstring>
+        <name>addPackedPart</name>
+        <qualifiedname>MR.MeshTopology.addPackedPart</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTopology</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>toEdgeId</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceMap</type>
+          <declname>fmap</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertMap</type>
+          <declname>vmap</declname>
+        </param>
+        <briefdescription>
+<para>copies topology (from) into this; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>from</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>edges must be tightly packes without any lone edges, and they are mapped [0, from.edges.size()) -&gt; [toEdgeId, toEdgeId + from.edges.size()); </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>fmap</parametername>
+<parametername>vmap</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>mapping of vertices and faces if it is given ( from.id -&gt; this.id ) Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1acf3e6e7cbd2868023ae9b09c3e15d381" kindref="member">MR.MeshTopology.addPackedPart</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1615" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1615" bodyend="1620"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1aa76b3349fea4ac31882ced318c027d43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.MeshTopology.computeValidsFromEdges</definition>
+        <argsstring>(MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>computeValidsFromEdges</name>
+        <qualifiedname>MR.MeshTopology.computeValidsFromEdges</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>compute 1) numValidVerts_ and validVerts_ from edgePerVertex_ 2) numValidFaces_ and validFaces_ from edgePerFace_ and activates their auto-update Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1aa76b3349fea4ac31882ced318c027d43" kindref="member">MR.MeshTopology.computeValidsFromEdges</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1630" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1630" bodyend="1635"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ad936295832388c4a9949f2fb85a0afb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.stopUpdatingValids</definition>
+        <argsstring>()</argsstring>
+        <name>stopUpdatingValids</name>
+        <qualifiedname>MR.MeshTopology.stopUpdatingValids</qualifiedname>
+        <briefdescription>
+<para>stops updating validVerts(), validFaces(), numValidVerts(), numValidFaces() for parallel processing of mesh parts Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ad936295832388c4a9949f2fb85a0afb8" kindref="member">MR.MeshTopology.stopUpdatingValids</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1641" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1641" bodyend="1646"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1ab672fd19e5797ccbe94eed1f4fc47690" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MeshTopology.preferEdges</definition>
+        <argsstring>(MR.Const_UndirectedEdgeBitSet stableEdges)</argsstring>
+        <name>preferEdges</name>
+        <qualifiedname>MR.MeshTopology.preferEdges</qualifiedname>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet</type>
+          <declname>stableEdges</declname>
+        </param>
+        <briefdescription>
+<para>for incident vertices and faces of given edges, remember one of them as edgeWithOrg and edgeWithLeft; this is important in parallel algorithms where other edges may change but stable ones will survive Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1ab672fd19e5797ccbe94eed1f4fc47690" kindref="member">MR.MeshTopology.preferEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1653" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1653" bodyend="1658"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshTopology_1a4d7b0e67841e8fbb5a530ca5a16bdb2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.MeshTopology.buildGridMesh</definition>
+        <argsstring>(MR.Const_GridSettings settings, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>buildGridMesh</name>
+        <qualifiedname>MR.MeshTopology.buildGridMesh</qualifiedname>
+        <param>
+          <type>MR.Const_GridSettings</type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1MeshTopology_1a4d7b0e67841e8fbb5a530ca5a16bdb2d" kindref="member">MR.MeshTopology.buildGridMesh</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1665" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1665" bodyend="1670"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref> Topology Generated from class <computeroutput><ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MeshTopology</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshTopology &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_MeshTopology &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MeshTopology</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshTopology &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_MeshTopology &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" line="1168" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshTopology.cs" bodystart="1169" bodyend="1671"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshTopology_1a0cfa07d34a5b833db39b37d46e9ca042" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addFaceId</name></member>
+      <member refid="classMR_1_1MeshTopology_1acf3e6e7cbd2868023ae9b09c3e15d381" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addPackedPart</name></member>
+      <member refid="classMR_1_1MeshTopology_1ad4bde8ebc39bc224e43fe0913982be6d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addPart</name></member>
+      <member refid="classMR_1_1MeshTopology_1acb6c4e7d1ae3135db2f29441b418fa07" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addPart</name></member>
+      <member refid="classMR_1_1MeshTopology_1a54f5cef00c62307783dec95716482c45" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addPartByMask</name></member>
+      <member refid="classMR_1_1MeshTopology_1a3c3315ee683280dbd7946a7e10600309" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addPartByMask</name></member>
+      <member refid="classMR_1_1MeshTopology_1aa909a6bd7c873592dc14277eac2df1d6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>addVertId</name></member>
+      <member refid="classMR_1_1MeshTopology_1a349c518750c2bda3d9dba761d2c87971" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshTopology_1a4d7b0e67841e8fbb5a530ca5a16bdb2d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>buildGridMesh</name></member>
+      <member refid="classMR_1_1MeshTopology_1a4ec8e65e49f461f24fff09204cff91b8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>collapseEdge</name></member>
+      <member refid="classMR_1_1MeshTopology_1aa76b3349fea4ac31882ced318c027d43" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>computeValidsFromEdges</name></member>
+      <member refid="classMR_1_1MeshTopology_1a02ab985393952c324537391d3a95b34b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFace</name></member>
+      <member refid="classMR_1_1MeshTopology_1a877289bbfc2c5c17342785bfccba71f5" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>deleteFaces</name></member>
+      <member refid="classMR_1_1MeshTopology_1a4953976e89f47ee04ff351eaa8e9d583" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>edgeReserve</name></member>
+      <member refid="classMR_1_1MeshTopology_1ace7f834d29b2e7f6c51703089fd52494" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceReserve</name></member>
+      <member refid="classMR_1_1MeshTopology_1af216f8f557054e815ff87e985d4a6cda" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceResize</name></member>
+      <member refid="classMR_1_1MeshTopology_1a432a0837900bf35ae5232e5e5dbd7800" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>faceResizeWithReserve</name></member>
+      <member refid="classMR_1_1MeshTopology_1a25e95a43b3bb1714ad2d8576540387e6" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>flipEdge</name></member>
+      <member refid="classMR_1_1MeshTopology_1aa8f93500c5a7191443286a5d8bddba59" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>flipOrientation</name></member>
+      <member refid="classMR_1_1MeshTopology_1af2ec4ff948c91e5062cc78113e16fc60" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>makeEdge</name></member>
+      <member refid="classMR_1_1MeshTopology_1a95618dc2ac98e9689ef094b25c9c3bec" prot="package" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
+      <member refid="classMR_1_1MeshTopology_1a2f90be272ebbdabccd5def076f1eda8d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
+      <member refid="classMR_1_1MeshTopology_1ab44610e89641216bf4a3ddbe2da25e6e" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
+      <member refid="classMR_1_1MeshTopology_1a592f473a191f647cd8f7194eacf9bff7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
+      <member refid="classMR_1_1MeshTopology_1a61f7d6f557be0264e5fc2990a6e93dff" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>MeshTopology</name></member>
+      <member refid="classMR_1_1MeshTopology_1af6fdc6f07c1bde76bfed4031e833fb09" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>pack</name></member>
+      <member refid="classMR_1_1MeshTopology_1a4f699f3cc25b460fdd41052ac17d14a8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>pack</name></member>
+      <member refid="classMR_1_1MeshTopology_1a2278217cc29c59228fc5af61b3a37436" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>packMinMem</name></member>
+      <member refid="classMR_1_1MeshTopology_1ab672fd19e5797ccbe94eed1f4fc47690" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>preferEdges</name></member>
+      <member refid="classMR_1_1MeshTopology_1ab96835197fe18ee21eb0617bf12dc86c" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>read</name></member>
+      <member refid="classMR_1_1MeshTopology_1a3e4ac990a63ba5b7431d1c8143f008c0" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>resizeBeforeParallelAdd</name></member>
+      <member refid="classMR_1_1MeshTopology_1a3003427f4a7585b1541d6859faf20424" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>rotateTriangles</name></member>
+      <member refid="classMR_1_1MeshTopology_1a1fa9107b60d9309ddf3247005a3a4fb1" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>setLeft</name></member>
+      <member refid="classMR_1_1MeshTopology_1add9d777e7b522152daa32c58e6ca991b" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>setOrg</name></member>
+      <member refid="classMR_1_1MeshTopology_1a61c0a1cc8ebd1f01b921acf88eb43df7" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1MeshTopology_1a08126f32bb3b4d9f2a75a8f0e142f0c2" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splice</name></member>
+      <member refid="classMR_1_1MeshTopology_1accac8bee9be72acc01f545bfc8ac80dc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitEdge</name></member>
+      <member refid="classMR_1_1MeshTopology_1ae265d8dd6027ad38480282b747075ea9" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>splitFace</name></member>
+      <member refid="classMR_1_1MeshTopology_1ad936295832388c4a9949f2fb85a0afb8" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>stopUpdatingValids</name></member>
+      <member refid="classMR_1_1MeshTopology_1ac87b85279824b958a2625216ef0ed12d" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertReserve</name></member>
+      <member refid="classMR_1_1MeshTopology_1a3e0abe440e8a359de8f30cc291828e88" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertResize</name></member>
+      <member refid="classMR_1_1MeshTopology_1a201f3bb1c53b8a1bb6a565c5c4ac7bfc" prot="public" virt="non-virtual"><scope>MR::MeshTopology</scope><name>vertResizeWithReserve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

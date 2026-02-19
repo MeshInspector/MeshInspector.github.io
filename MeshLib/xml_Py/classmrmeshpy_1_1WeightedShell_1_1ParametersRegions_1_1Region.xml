@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::WeightedShell::ParametersRegions::Region</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1aa5fc6ad764e7e24e4921ab5b7903094e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.WeightedShell.ParametersRegions.Region::_offsetof_verts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_verts</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.Region._offsetof_verts</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74609" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1ab355efd74f93a69f6d14471ab74f41c4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.WeightedShell.ParametersRegions.Region::_offsetof_weight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_weight</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.Region._offsetof_weight</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74610" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a93a0b980564b236dd63ac98a1f0164d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersRegions.Region.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.Region.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74615" bodyend="74616"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a13b0e236db6db79234c042936099e093" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region" kindref="compound">WeightedShell.ParametersRegions.Region</ref></type>
+        <definition> WeightedShell.ParametersRegions.Region mrmeshpy.WeightedShell.ParametersRegions.Region.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.Region.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74619" bodyend="74620"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a13b0e236db6db79234c042936099e093" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region" kindref="compound">WeightedShell.ParametersRegions.Region</ref></type>
+        <definition> WeightedShell.ParametersRegions.Region mrmeshpy.WeightedShell.ParametersRegions.Region.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.Region.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74623" bodyend="74624"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1aaf4a731ff1ce5e37cbe00cea07903318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersRegions.Region.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.Region.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74626" bodyend="74627"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1aa67ed78c38cbd3df119a0a8c9313e270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersRegions.Region.__init__</definition>
+        <argsstring>(self, WeightedShell.ParametersRegions.Region arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.Region.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region" kindref="compound">WeightedShell.ParametersRegions.Region</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74629" bodyend="74632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a89d6ea8b838098fce19a430d35b72fdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.ParametersRegions.Region.__init__</definition>
+        <argsstring>(self, VertBitSet verts, float weight)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.ParametersRegions.Region.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>weight</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74634" bodyend="74638"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::WeightedShell::ParametersRegions::Region
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.WeightedShell.ParametersRegions.Region</label>
+        <link refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_verts</edgelabel>
+          <edgelabel>_offsetof_weight</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74605" bodyend="74637"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a93a0b980564b236dd63ac98a1f0164d9" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions::Region</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1aaf4a731ff1ce5e37cbe00cea07903318" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions::Region</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1aa67ed78c38cbd3df119a0a8c9313e270" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions::Region</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a89d6ea8b838098fce19a430d35b72fdd" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions::Region</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1aa5fc6ad764e7e24e4921ab5b7903094e" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions::Region</scope><name>_offsetof_verts</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1ab355efd74f93a69f6d14471ab74f41c4" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions::Region</scope><name>_offsetof_weight</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a13b0e236db6db79234c042936099e093" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions::Region</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1ParametersRegions_1_1Region_1a13b0e236db6db79234c042936099e093" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::ParametersRegions::Region</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

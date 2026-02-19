@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangePolylineAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangePolylineAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangePolylineAction_1a22b03e8d081c3379eb59836dcd4d0c34" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangePolylineAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectLines" kindref="compound">ObjectLines</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8757" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1a01318ecc323ab394c8231a41c7e20986" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePolylineAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8760" bodyend="8761"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1aff7581c48ea7720f093444fcb4e92488" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePolylineAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8763" bodyend="8764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1a64789cfe64b02b0dffa2606ff3461153" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangePolylineAction" kindref="compound">ChangePolylineAction</ref></type>
+        <definition> ChangePolylineAction mrmeshpy.ChangePolylineAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8767" bodyend="8768"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1a64789cfe64b02b0dffa2606ff3461153" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangePolylineAction" kindref="compound">ChangePolylineAction</ref></type>
+        <definition> ChangePolylineAction mrmeshpy.ChangePolylineAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8771" bodyend="8772"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1a4ab2e3f0b0bf0c5bd54c0e735ccd8789" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePolylineAction.setObjectDirty</definition>
+        <argsstring>(ObjectLines obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.setObjectDirty</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLines" kindref="compound">ObjectLines</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8774" bodyend="8775"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1a61e8e69877a459644b94fff2b250e117" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePolylineAction.__init__</definition>
+        <argsstring>(self, str name, ObjectLines obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLines" kindref="compound">ObjectLines</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s polyline before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8777" bodyend="8780"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1a18b2781c4a7dcb6edf4f1d539a81d9d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePolylineAction.__init__</definition>
+        <argsstring>(self, str name, ObjectLines obj, Polyline3 newPolyline)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLines" kindref="compound">ObjectLines</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>newPolyline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s polyline and immediately set new polyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8782" bodyend="8785"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1aec777957cf070adfc08f5e1ee519ce2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePolylineAction.__init__</definition>
+        <argsstring>(self, ChangePolylineAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangePolylineAction" kindref="compound">ChangePolylineAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8787" bodyend="8790"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1a37fc9d9197ff625af7f20658c576bbf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangePolylineAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8791" bodyend="8792"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePolylineAction_1acaf2e8d428cb2c5234663a056d62bb02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangePolylineAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangePolylineAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8793" bodyend="8794"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangePolylineAction
+
+Undo action for ObjectLines polyline change
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangePolylineAction</label>
+        <link refid="classmrmeshpy_1_1ChangePolylineAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangePolylineAction</label>
+        <link refid="classmrmeshpy_1_1ChangePolylineAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8751" bodyend="8794"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1a01318ecc323ab394c8231a41c7e20986" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1a61e8e69877a459644b94fff2b250e117" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1a18b2781c4a7dcb6edf4f1d539a81d9d2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1aec777957cf070adfc08f5e1ee519ce2f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1aff7581c48ea7720f093444fcb4e92488" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1a37fc9d9197ff625af7f20658c576bbf7" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1acaf2e8d428cb2c5234663a056d62bb02" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1a22b03e8d081c3379eb59836dcd4d0c34" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1a64789cfe64b02b0dffa2606ff3461153" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1a64789cfe64b02b0dffa2606ff3461153" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangePolylineAction_1a4ab2e3f0b0bf0c5bd54c0e735ccd8789" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePolylineAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

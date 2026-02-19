@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GridSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::GridSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_GridSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1GridSettings_1a7ed0fe2ab1ac607fa7e60d4e98a5944c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>new unsafe ref MR.Vector2i MR.GridSettings.dim</definition>
+        <argsstring></argsstring>
+        <name>dim</name>
+        <qualifiedname>MR.GridSettings.dim</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of cells in X and Y dimensions; the number of vertices will be at most (X+1)*(Y+1) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="155" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1GridSettings_1a7816038624f48b1f2241327f296a7def" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1BMap__MRVertId__MRUint64T" kindref="compound">MR.BMap_MRVertId_MRUint64T</ref></type>
+        <definition>new unsafe MR.BMap_MRVertId_MRUint64T MR.GridSettings.vertIds</definition>
+        <argsstring></argsstring>
+        <name>vertIds</name>
+        <qualifiedname>MR.GridSettings.vertIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>grid coordinates to vertex Id; invalid vertex Id means that this vertex is missing in grid; index is x + y * ( settings.dim.x + 1 ) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="159" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="159" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1GridSettings_1aaf3aca14078c7bb490f00e05368a0e7b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1BMap__MRUndirectedEdgeId__MRUint64T" kindref="compound">MR.BMap_MRUndirectedEdgeId_MRUint64T</ref></type>
+        <definition>new unsafe MR.BMap_MRUndirectedEdgeId_MRUint64T MR.GridSettings.uedgeIds</definition>
+        <argsstring></argsstring>
+        <name>uedgeIds</name>
+        <qualifiedname>MR.GridSettings.uedgeIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>grid coordinates of lower-left vertex and edge-type to edgeId with the origin in this vertex; both vertices of valid edge must be valid as well; index is 4 * ( x + y * ( settings.dim.x + 1 ) ) + edgeType </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="164" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="164" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1GridSettings_1ab9edc42ddf5c6bc26286e0f61060a90e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1BMap__MRFaceId__MRUint64T" kindref="compound">MR.BMap_MRFaceId_MRUint64T</ref></type>
+        <definition>new unsafe MR.BMap_MRFaceId_MRUint64T MR.GridSettings.faceIds</definition>
+        <argsstring></argsstring>
+        <name>faceIds</name>
+        <qualifiedname>MR.GridSettings.faceIds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>grid coordinates of lower-left vertex and triangle-type to faceId; all 3 vertices and all 3 edges of valid face must be valid as well; index is 2 * ( x + y * settings.dim.x ) + triType </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="169" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="169" bodyend="169"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1GridSettings_1aef1effa1da603d078a2ebf5a1dd98ed5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GridSettings.GridSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>GridSettings</name>
+        <qualifiedname>MR.GridSettings.GridSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="202" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="202" bodyend="206"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1GridSettings_1a09629deb2da7ea8ff2a9d5024ac5d174" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GridSettings.GridSettings</definition>
+        <argsstring>()</argsstring>
+        <name>GridSettings</name>
+        <qualifiedname>MR.GridSettings.GridSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="212" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="212" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GridSettings_1a118d92cd4a5688d895a96e84a88cff4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GridSettings.GridSettings</definition>
+        <argsstring>(MR.Vector2i dim, MR._ByValue_BMap_MRVertId_MRUint64T vertIds, MR._ByValue_BMap_MRUndirectedEdgeId_MRUint64T uedgeIds, MR._ByValue_BMap_MRFaceId_MRUint64T faceIds)</argsstring>
+        <name>GridSettings</name>
+        <qualifiedname>MR.GridSettings.GridSettings</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>dim</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_BMap_MRVertId_MRUint64T</type>
+          <declname>vertIds</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_BMap_MRUndirectedEdgeId_MRUint64T</type>
+          <declname>uedgeIds</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_BMap_MRFaceId_MRUint64T</type>
+          <declname>faceIds</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1GridSettings" kindref="compound">MR.GridSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="223" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="223" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GridSettings_1a4fda8dbc58d607f18a13cbcc7709693f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GridSettings.GridSettings</definition>
+        <argsstring>(MR._ByValue_GridSettings _other)</argsstring>
+        <name>GridSettings</name>
+        <qualifiedname>MR.GridSettings.GridSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_GridSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.GridSettings.GridSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="237" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="237" bodyend="244"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GridSettings_1a848adfd9dafe74353b736c27b4f9a110" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GridSettings" kindref="compound">MR.GridSettings</ref></type>
+        <definition>unsafe MR.GridSettings MR.GridSettings.assign</definition>
+        <argsstring>(MR._ByValue_GridSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.GridSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_GridSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GridSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="249" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="249" bodyend="256"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways Generated from class <computeroutput><ref refid="classMR_1_1GridSettings" kindref="compound">MR.GridSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_GridSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.GridSettings</label>
+        <link refid="classMR_1_1GridSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_GridSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_GridSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.GridSettings</label>
+        <link refid="classMR_1_1GridSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_GridSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" line="151" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGridSettings.cs" bodystart="152" bodyend="257"/>
+    <listofallmembers>
+      <member refid="classMR_1_1GridSettings_1a848adfd9dafe74353b736c27b4f9a110" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1GridSettings_1a7ed0fe2ab1ac607fa7e60d4e98a5944c" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>dim</name></member>
+      <member refid="classMR_1_1GridSettings_1ab9edc42ddf5c6bc26286e0f61060a90e" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>faceIds</name></member>
+      <member refid="classMR_1_1GridSettings_1aef1effa1da603d078a2ebf5a1dd98ed5" prot="package" virt="non-virtual"><scope>MR::GridSettings</scope><name>GridSettings</name></member>
+      <member refid="classMR_1_1GridSettings_1a09629deb2da7ea8ff2a9d5024ac5d174" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>GridSettings</name></member>
+      <member refid="classMR_1_1GridSettings_1a118d92cd4a5688d895a96e84a88cff4b" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>GridSettings</name></member>
+      <member refid="classMR_1_1GridSettings_1a4fda8dbc58d607f18a13cbcc7709693f" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>GridSettings</name></member>
+      <member refid="classMR_1_1GridSettings_1aaf3aca14078c7bb490f00e05368a0e7b" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>uedgeIds</name></member>
+      <member refid="classMR_1_1GridSettings_1a7816038624f48b1f2241327f296a7def" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>vertIds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

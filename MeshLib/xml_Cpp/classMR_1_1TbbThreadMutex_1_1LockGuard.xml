@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TbbThreadMutex_1_1LockGuard" kind="class" language="C++" prot="public">
+    <compoundname>MR::TbbThreadMutex::LockGuard</compoundname>
+    <includes refid="MRTbbThreadMutex_8h" local="no">MRTbbThreadMutex.h</includes>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" kind="friend"><name>TbbThreadMutex</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga8d59993aea4f0f08617ad7fd2d82ed91" kind="variable"><name>mutex_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gabfcd43a1d03afaa62efadd48d14ba484" kind="function"><name>LockGuard</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga88773482b1410e7fe4a3e0199337191c" kind="function"><name>LockGuard</name></member>
+      <member refid="group__GeneralGroup_1ga36e9e87f64a2355bf7a5421edb986051" kind="function"><name>LockGuard</name></member>
+      <member refid="group__GeneralGroup_1ga2e87f4a3c9426ac9a138859d40f5723e" kind="function"><name>~LockGuard</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>RAII-style lock guard for the mutex; releases it on destruction. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTbbThreadMutex.h" bodystart="43" bodyend="54"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gabfcd43a1d03afaa62efadd48d14ba484" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex::LockGuard</scope><name>LockGuard</name></member>
+      <member refid="group__GeneralGroup_1ga88773482b1410e7fe4a3e0199337191c" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex::LockGuard</scope><name>LockGuard</name></member>
+      <member refid="group__GeneralGroup_1ga36e9e87f64a2355bf7a5421edb986051" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex::LockGuard</scope><name>LockGuard</name></member>
+      <member refid="group__GeneralGroup_1ga8d59993aea4f0f08617ad7fd2d82ed91" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex::LockGuard</scope><name>mutex_</name></member>
+      <member refid="group__GeneralGroup_1ga8c6392ce214f3ae75940276985adb46a" prot="private" virt="non-virtual"><scope>MR::TbbThreadMutex::LockGuard</scope><name>TbbThreadMutex</name></member>
+      <member refid="group__GeneralGroup_1ga2e87f4a3c9426ac9a138859d40f5723e" prot="public" virt="non-virtual"><scope>MR::TbbThreadMutex::LockGuard</scope><name>~LockGuard</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

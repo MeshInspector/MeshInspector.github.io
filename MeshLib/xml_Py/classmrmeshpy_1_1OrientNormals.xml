@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OrientNormals" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OrientNormals</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OrientNormals_1a3028799bf306d412c1b92d3163749240" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OrientNormals::AwayFromOrigin</definition>
+        <argsstring></argsstring>
+        <name>AwayFromOrigin</name>
+        <qualifiedname>mrmeshpy.OrientNormals.AwayFromOrigin</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OrientNormals" kindref="compound">OrientNormals</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OrientNormals_1ab14a2f5f5629471ee8f99f575a6f3a40" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OrientNormals::Smart</definition>
+        <argsstring></argsstring>
+        <name>Smart</name>
+        <qualifiedname>mrmeshpy.OrientNormals.Smart</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OrientNormals" kindref="compound">OrientNormals</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OrientNormals_1a8f619e9ea275dd66f17f0b0976c239a0" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OrientNormals::TowardOrigin</definition>
+        <argsstring></argsstring>
+        <name>TowardOrigin</name>
+        <qualifiedname>mrmeshpy.OrientNormals.TowardOrigin</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OrientNormals" kindref="compound">OrientNormals</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41770" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OrientNormals_1a56b51d27a5f3632b9b7d023bd1d361ea" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OrientNormals::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1OrientNormals" kindref="compound">OrientNormals</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41771" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1af40d75dc479f979fd026a0771c890556" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OrientNormals.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41772" bodyend="41773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1a036ba97ffc5ffed73af460110051f673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OrientNormals.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41774" bodyend="41775"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1a574cf2547ee8f58cffecb2059a1257ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OrientNormals.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41776" bodyend="41777"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1a251297938014b96b387e5f962687b5bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OrientNormals.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41778" bodyend="41779"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1a7f185096d5e91ae44f04d32619b018ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OrientNormals.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41780" bodyend="41781"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1aae2449601e978fc61249c5f1f4b7cc68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OrientNormals.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41782" bodyend="41783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1af9eb7fa1b3c34f30cc5a1ee76189248b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OrientNormals.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41784" bodyend="41785"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1a38a4273c715a9823c738afe1f17229de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OrientNormals.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41786" bodyend="41787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1a3f3f198fc6529a306bce5a065eda1536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OrientNormals.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41788" bodyend="41789"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1a9611a234cbfcbc5840bb976dfc995856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OrientNormals.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.OrientNormals.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41790" bodyend="41791"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1ab98b11d60bdd60a3589bfe55bffb9b32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OrientNormals.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.OrientNormals.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41793" bodyend="41794"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OrientNormals_1a6eebda480068412fc4f8f1a87d9c6f92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OrientNormals.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.OrientNormals.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41796" bodyend="41797"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  TowardOrigin
+
+  AwayFromOrigin
+
+  Smart
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OrientNormals</label>
+        <link refid="classmrmeshpy_1_1OrientNormals"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AwayFromOrigin</edgelabel>
+          <edgelabel>Smart</edgelabel>
+          <edgelabel>TowardOrigin</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41758" bodyend="41797"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OrientNormals_1af40d75dc479f979fd026a0771c890556" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a036ba97ffc5ffed73af460110051f673" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a574cf2547ee8f58cffecb2059a1257ac" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a251297938014b96b387e5f962687b5bd" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a7f185096d5e91ae44f04d32619b018ac" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1aae2449601e978fc61249c5f1f4b7cc68" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a56b51d27a5f3632b9b7d023bd1d361ea" prot="private" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1af9eb7fa1b3c34f30cc5a1ee76189248b" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a38a4273c715a9823c738afe1f17229de" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a3f3f198fc6529a306bce5a065eda1536" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a9611a234cbfcbc5840bb976dfc995856" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a3028799bf306d412c1b92d3163749240" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>AwayFromOrigin</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1ab98b11d60bdd60a3589bfe55bffb9b32" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1ab14a2f5f5629471ee8f99f575a6f3a40" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>Smart</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a8f619e9ea275dd66f17f0b0976c239a0" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>TowardOrigin</name></member>
+      <member refid="classmrmeshpy_1_1OrientNormals_1a6eebda480068412fc4f8f1a87d9c6f92" prot="public" virt="non-virtual"><scope>mrmeshpy::OrientNormals</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ResolveMeshDegenSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ResolveMeshDegenSettings</compoundname>
+    <includes refid="MRMeshDecimate_8h" local="no">MRMeshDecimate.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ResolveMeshDegenSettings_1a1c8ab4ca92a23c0244bcd45ce40afdaa" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ResolveMeshDegenSettings::maxDeviation</definition>
+        <argsstring></argsstring>
+        <name>maxDeviation</name>
+        <qualifiedname>MR::ResolveMeshDegenSettings::maxDeviation</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>maximum permitted deviation from the original surface </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="227" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ResolveMeshDegenSettings_1a662cd36008283eda54cd0986ab6b3b96" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ResolveMeshDegenSettings::tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>MR::ResolveMeshDegenSettings::tinyEdgeLength</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="230" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ResolveMeshDegenSettings_1a109fa850f78fd8bce1db8edf8f434645" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ResolveMeshDegenSettings::maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>MR::ResolveMeshDegenSettings::maxAngleChange</qualifiedname>
+        <initializer>= PI_F / 3</initializer>
+        <briefdescription>
+<para>Permit edge flips if it does not change dihedral angle more than on this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="233" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ResolveMeshDegenSettings_1a24c4323fd4bbfa56d8c69237a847dbf6" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ResolveMeshDegenSettings::criticalAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalAspectRatio</name>
+        <qualifiedname>MR::ResolveMeshDegenSettings::criticalAspectRatio</qualifiedname>
+        <initializer>= 10000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="237" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ResolveMeshDegenSettings_1afc054861d37dd821d8c02677da8774da" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ResolveMeshDegenSettings::stabilizer</definition>
+        <argsstring></argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>MR::ResolveMeshDegenSettings::stabilizer</qualifiedname>
+        <initializer>= 1e-6f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="241" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ResolveMeshDegenSettings_1a1fd9db224a1fdd6e4d55700db57c1ab4" prot="public" static="no" mutable="no">
+        <type>FaceBitSet *</type>
+        <definition>FaceBitSet* MR::ResolveMeshDegenSettings::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::ResolveMeshDegenSettings::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>degenerations will be fixed only in given region, which is updated during the processing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="244" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" line="224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDecimate.h" bodystart="225" bodyend="245"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ResolveMeshDegenSettings_1a24c4323fd4bbfa56d8c69237a847dbf6" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>criticalAspectRatio</name></member>
+      <member refid="structMR_1_1ResolveMeshDegenSettings_1a109fa850f78fd8bce1db8edf8f434645" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>maxAngleChange</name></member>
+      <member refid="structMR_1_1ResolveMeshDegenSettings_1a1c8ab4ca92a23c0244bcd45ce40afdaa" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>maxDeviation</name></member>
+      <member refid="structMR_1_1ResolveMeshDegenSettings_1a1fd9db224a1fdd6e4d55700db57c1ab4" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>region</name></member>
+      <member refid="structMR_1_1ResolveMeshDegenSettings_1afc054861d37dd821d8c02677da8774da" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>stabilizer</name></member>
+      <member refid="structMR_1_1ResolveMeshDegenSettings_1a662cd36008283eda54cd0986ab6b3b96" prot="public" virt="non-virtual"><scope>MR::ResolveMeshDegenSettings</scope><name>tinyEdgeLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

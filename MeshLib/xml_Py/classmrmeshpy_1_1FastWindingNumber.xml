@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FastWindingNumber" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FastWindingNumber</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1IFastWindingNumber" prot="public" virt="non-virtual">mrmeshpy.IFastWindingNumber</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FastWindingNumber_1aa85a21a76fe829f3a9e2a62878a4e4ac" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastWindingNumber.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FastWindingNumber.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17749" bodyend="17750"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FastWindingNumber_1a7ba6dc3984126638f82aa0b41ae1d3dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastWindingNumber.__init__</definition>
+        <argsstring>(self, Mesh mesh)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FastWindingNumber.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs this from AABB tree of given mesh;
+this remains valid only if tree is valid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17752" bodyend="17756"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastWindingNumber_1a67eb4f9f380a5c4b35014233769e5838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastWindingNumber.__init__</definition>
+        <argsstring>(self, FastWindingNumber arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FastWindingNumber.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17758" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17758" bodyend="17761"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastWindingNumber_1a1341c2a7d571acb031383a94d2e879be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastWindingNumber.calcFromGrid</definition>
+        <argsstring>(self, std_vector_float res, Vector3i dims, AffineXf3f gridToMeshXf, float beta, func_bool_from_float cb)</argsstring>
+        <name>calcFromGrid</name>
+        <qualifiedname>mrmeshpy.FastWindingNumber.calcFromGrid</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1IFastWindingNumber_1a5d368442bd4a019e50adacc23099b4ba">calcFromGrid</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>&lt;summary&gt;
+calculates winding numbers in each point from a three-dimensional grid
+&lt;/summary&gt;
+&lt;param name=&quot;res&quot;&gt;resulting winding numbers, will be resized automatically&lt;/param&gt;
+&lt;param name=&quot;dims&quot;&gt;dimensions of the grid&lt;/param&gt;
+&lt;param name=&quot;gridToMeshXf&quot;&gt;transform from integer grid locations to voxel&apos;s centers in mesh reference frame&lt;/param&gt;
+&lt;param name=&quot;beta&quot;&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17762" bodyend="17763"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastWindingNumber_1a8ef6b7c72e518ec149318e10b52c2517" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastWindingNumber.calcFromGridWithDistances</definition>
+        <argsstring>(self, std_vector_float res, Vector3i dims, AffineXf3f gridToMeshXf, DistanceToMeshOptions options, func_bool_from_float cb)</argsstring>
+        <name>calcFromGridWithDistances</name>
+        <qualifiedname>mrmeshpy.FastWindingNumber.calcFromGridWithDistances</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1IFastWindingNumber_1a9abbdfdad45943314155c587e2f9c488">calcFromGridWithDistances</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>&lt;summary&gt;
+calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
+if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point
+&lt;/summary&gt;
+&lt;param name=&quot;res&quot;&gt;resulting signed distances, will be resized automatically&lt;/param&gt;
+&lt;param name=&quot;dims&quot;&gt;dimensions of the grid&lt;/param&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17764" bodyend="17765"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastWindingNumber_1a87c475e7b6d11e7db7a552e728557daf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastWindingNumber.calcFromVector</definition>
+        <argsstring>(self, std_vector_float res, std_vector_Vector3_float points, float beta, FaceId skipFace, func_bool_from_float cb)</argsstring>
+        <name>calcFromVector</name>
+        <qualifiedname>mrmeshpy.FastWindingNumber.calcFromVector</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1IFastWindingNumber_1af8a85c57bc104c36e949eb444c9ca7db">calcFromVector</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>skipFace</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>see methods&apos; descriptions in IFastWindingNumber
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17766" bodyend="17769"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastWindingNumber_1a7985e3bad1020ca466fa56c9ba56ed87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FastWindingNumber.calcSelfIntersections</definition>
+        <argsstring>(self, FaceBitSet res, float beta, func_bool_from_float cb)</argsstring>
+        <name>calcSelfIntersections</name>
+        <qualifiedname>mrmeshpy.FastWindingNumber.calcSelfIntersections</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1IFastWindingNumber_1a898b12e02f113538c5d54bf9af0d7bd9">calcSelfIntersections</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>&lt;summary&gt;
+calculates winding numbers for all centers of mesh&apos;s triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected
+&lt;/summary&gt;
+&lt;param name=&quot;res&quot;&gt;resulting bit set&lt;/param&gt;
+&lt;param name=&quot;beta&quot;&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17770" bodyend="17771"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FastWindingNumber_1a4bf8776d4a5e0e605528916a0705d638" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FastWindingNumber.calcWithDistances</definition>
+        <argsstring>(self, Vector3f p, DistanceToMeshOptions options)</argsstring>
+        <name>calcWithDistances</name>
+        <qualifiedname>mrmeshpy.FastWindingNumber.calcWithDistances</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17772" bodyend="17773"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FastWindingNumber
+
+the class for fast approximate computation of winding number for a mesh (using its AABB tree)
+Note, this used to be `[[nodiscard]]`, but GCC 12 doesn&apos;t understand both `[[...]]` and `__attribute__(...)` on the same class.
+A possible fix is to change `MRMESH_CLASS` globally to `[[__gnu__::__visibility__(&quot;default&quot;)]]`.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.FastWindingNumber</label>
+        <link refid="classmrmeshpy_1_1FastWindingNumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.IFastWindingNumber</label>
+        <link refid="classmrmeshpy_1_1IFastWindingNumber"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FastWindingNumber</label>
+        <link refid="classmrmeshpy_1_1FastWindingNumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.IFastWindingNumber</label>
+        <link refid="classmrmeshpy_1_1IFastWindingNumber"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17739" bodyend="17773"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FastWindingNumber_1aa85a21a76fe829f3a9e2a62878a4e4ac" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FastWindingNumber_1a7ba6dc3984126638f82aa0b41ae1d3dc" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FastWindingNumber_1a67eb4f9f380a5c4b35014233769e5838" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FastWindingNumber_1a1341c2a7d571acb031383a94d2e879be" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>calcFromGrid</name></member>
+      <member refid="classmrmeshpy_1_1FastWindingNumber_1a8ef6b7c72e518ec149318e10b52c2517" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>calcFromGridWithDistances</name></member>
+      <member refid="classmrmeshpy_1_1FastWindingNumber_1a87c475e7b6d11e7db7a552e728557daf" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>calcFromVector</name></member>
+      <member refid="classmrmeshpy_1_1FastWindingNumber_1a7985e3bad1020ca466fa56c9ba56ed87" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>calcSelfIntersections</name></member>
+      <member refid="classmrmeshpy_1_1FastWindingNumber_1a4bf8776d4a5e0e605528916a0705d638" prot="public" virt="non-virtual"><scope>mrmeshpy::FastWindingNumber</scope><name>calcWithDistances</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

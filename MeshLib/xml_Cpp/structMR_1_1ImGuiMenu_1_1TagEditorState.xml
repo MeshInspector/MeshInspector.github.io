@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMenu_1_1TagEditorState" kind="struct" language="C++" prot="protected">
+    <compoundname>MR::ImGuiMenu::TagEditorState</compoundname>
+    <includes refid="ImGuiMenu_8h" local="no">ImGuiMenu.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gabaec0c0a0a46426ec7ec96e959e4f421" kind="variable"><name>initName</name></member>
+      <member refid="group__GeneralGroup_1gac6de01ecc7438107c57d834ed8291c86" kind="variable"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gafb6faf8bc0849a0b80ae509cdf5c4b25" kind="variable"><name>initHasFrontColor</name></member>
+      <member refid="group__GeneralGroup_1gaea360d36502bf0c3741c65d73b499f83" kind="variable"><name>hasFrontColor</name></member>
+      <member refid="group__GeneralGroup_1ga5b721362d61f02d9a0561a2dc185b2be" kind="variable"><name>selectedColor</name></member>
+      <member refid="group__GeneralGroup_1gaf8e9809b70542f1e9563256ecc1ce30a" kind="variable"><name>unselectedColor</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>state for the Edit Tag modal dialog </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" line="157" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiMenu.h" bodystart="158" bodyend="165"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaea360d36502bf0c3741c65d73b499f83" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>hasFrontColor</name></member>
+      <member refid="group__GeneralGroup_1gafb6faf8bc0849a0b80ae509cdf5c4b25" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>initHasFrontColor</name></member>
+      <member refid="group__GeneralGroup_1gabaec0c0a0a46426ec7ec96e959e4f421" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>initName</name></member>
+      <member refid="group__GeneralGroup_1gac6de01ecc7438107c57d834ed8291c86" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga5b721362d61f02d9a0561a2dc185b2be" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>selectedColor</name></member>
+      <member refid="group__GeneralGroup_1gaf8e9809b70542f1e9563256ecc1ce30a" prot="public" virt="non-virtual"><scope>MR::ImGuiMenu::TagEditorState</scope><name>unselectedColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

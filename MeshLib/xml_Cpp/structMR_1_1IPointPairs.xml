@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1IPointPairs" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::IPointPairs</compoundname>
+    <derivedcompoundref refid="structMR_1_1ICPGroupPairs" prot="public" virt="non-virtual">MR::ICPGroupPairs</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PointPairs" prot="public" virt="non-virtual">MR::PointPairs</derivedcompoundref>
+    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" kind="variable"><name>active</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" kind="function"><name>IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1ga3fcd8de5d97b49b84e9c984b494f10dc" kind="function"><name>IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1gabb689ad7795aaeb7236800bec89a0cab" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga995abf137ecf1f8e0771844779cc9405" kind="function"><name>IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1gab45a73b14fac3dc080a3e99e4070de26" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gae584abe0ef15be5d6f3fc244f176751b" kind="function"><name>~IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1ga3dd0343a154cad09f33735a106dcc64b" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gafcac114c6d43447ea0cae96eb9270de8" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga21b4f073206e446af1e8c0c8895e56a8" kind="function"><name>size</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Simple interface for pairs holder. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ICPGroupPairs</label>
+        <link refid="structMR_1_1ICPGroupPairs"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::IPointPairs</label>
+        <link refid="structMR_1_1IPointPairs"/>
+      </node>
+      <node id="3">
+        <label>MR::PointPairs</label>
+        <link refid="structMR_1_1PointPairs"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BitSet</label>
+        <link refid="classMR_1_1BitSet"/>
+      </node>
+      <node id="1">
+        <label>MR::IPointPairs</label>
+        <link refid="structMR_1_1IPointPairs"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>active</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="62" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="63" bodyend="76"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>active</name></member>
+      <member refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1ga3fcd8de5d97b49b84e9c984b494f10dc" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1ga995abf137ecf1f8e0771844779cc9405" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1gabb689ad7795aaeb7236800bec89a0cab" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gab45a73b14fac3dc080a3e99e4070de26" prot="public" virt="non-virtual"><scope>MR::IPointPairs</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga3dd0343a154cad09f33735a106dcc64b" prot="public" virt="pure-virtual"><scope>MR::IPointPairs</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gafcac114c6d43447ea0cae96eb9270de8" prot="public" virt="pure-virtual"><scope>MR::IPointPairs</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga21b4f073206e446af1e8c0c8895e56a8" prot="public" virt="pure-virtual"><scope>MR::IPointPairs</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1gae584abe0ef15be5d6f3fc244f176751b" prot="public" virt="virtual"><scope>MR::IPointPairs</scope><name>~IPointPairs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

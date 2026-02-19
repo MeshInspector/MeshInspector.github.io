@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FreeFormBestFit" kind="class" language="C++" prot="public">
+    <compoundname>MR::FreeFormBestFit</compoundname>
+    <includes refid="MRFreeFormDeformer_8h" local="no">MRFreeFormDeformer.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga8fe1592c31aa91938b8b6d27413b9d12" kind="variable"><name>box_</name></member>
+      <member refid="group__GeneralGroup_1ga30c8326a9b19da3efec6be32f4c5a5fa" kind="variable"><name>resolution_</name></member>
+      <member refid="group__GeneralGroup_1gae328c95cd98518fc96bbb5438d2b000f" kind="variable"><name>resXY_</name></member>
+      <member refid="group__GeneralGroup_1gaca46216270842ddd92a0fdf7f4177c87" kind="variable"><name>size_</name></member>
+      <member refid="group__GeneralGroup_1gab726cae279d2094d6aa7304076a5b9fa" kind="variable"><name>sumWeight_</name></member>
+      <member refid="group__GeneralGroup_1ga3ad349267b23584e4ae70fef20401b78" kind="variable"><name>accumA_</name></member>
+      <member refid="group__GeneralGroup_1gaf5e802137c3b7213a907e03f4e1eafc9" kind="variable"><name>accumB_</name></member>
+      <member refid="group__GeneralGroup_1gaa4f1e30fd09c5a29060634281e3441a1" kind="variable"><name>pascalLineX_</name></member>
+      <member refid="group__GeneralGroup_1ga1f389ae479825dd8ce5be82337e16a92" kind="variable"><name>pascalLineY_</name></member>
+      <member refid="group__GeneralGroup_1ga3c7475b33f41e343f3298b94649cfb54" kind="variable"><name>pascalLineZ_</name></member>
+      <member refid="group__GeneralGroup_1gadba8d74890617571cf1aa0f5d323d890" kind="variable"><name>reverseDiagonal_</name></member>
+      <member refid="group__GeneralGroup_1gad8b84691b2fb21f55408efdae1227f44" kind="variable"><name>stabilizer_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gab4da354aabbcd433f8e592efba7472a7" kind="function"><name>FreeFormBestFit</name></member>
+      <member refid="group__GeneralGroup_1ga11e739e1974c8b474fb6f111f59b9cb8" kind="function"><name>addPair</name></member>
+      <member refid="group__GeneralGroup_1ga5e0c21c2de7ea212b991b59d105e79bd" kind="function"><name>addPair</name></member>
+      <member refid="group__GeneralGroup_1ga92fb64c83b3d706c39e60b22c99bdfd1" kind="function"><name>addOther</name></member>
+      <member refid="group__GeneralGroup_1ga7da32b588679f5a44bb7394b8906ed3c" kind="function"><name>setStabilizer</name></member>
+      <member refid="group__GeneralGroup_1ga74da50410f7eed1cfc466b2a63ba919d" kind="function"><name>getStabilizer</name></member>
+      <member refid="group__GeneralGroup_1ga8ba45d03a34b8ab81b1d6ecbc6893453" kind="function"><name>findBestDeformationReferenceGrid</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga966ec12838011d8891d2ccd03354d44c" kind="function"><name>stabilize_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class to accumulate source and target points for free form alignment Calculates best Free Form transform to fit given source-&gt;target deformation origin ref grid as box corners ( resolution parameter specifies how to divide box ) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFreeFormDeformer.h" line="55" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFreeFormDeformer.h" bodystart="56" bodyend="93"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3ad349267b23584e4ae70fef20401b78" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>accumA_</name></member>
+      <member refid="group__GeneralGroup_1gaf5e802137c3b7213a907e03f4e1eafc9" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>accumB_</name></member>
+      <member refid="group__GeneralGroup_1ga92fb64c83b3d706c39e60b22c99bdfd1" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addOther</name></member>
+      <member refid="group__GeneralGroup_1ga11e739e1974c8b474fb6f111f59b9cb8" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addPair</name></member>
+      <member refid="group__GeneralGroup_1ga5e0c21c2de7ea212b991b59d105e79bd" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>addPair</name></member>
+      <member refid="group__GeneralGroup_1ga8fe1592c31aa91938b8b6d27413b9d12" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>box_</name></member>
+      <member refid="group__GeneralGroup_1ga8ba45d03a34b8ab81b1d6ecbc6893453" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>findBestDeformationReferenceGrid</name></member>
+      <member refid="group__GeneralGroup_1gab4da354aabbcd433f8e592efba7472a7" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>FreeFormBestFit</name></member>
+      <member refid="group__GeneralGroup_1ga74da50410f7eed1cfc466b2a63ba919d" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>getStabilizer</name></member>
+      <member refid="group__GeneralGroup_1gaa4f1e30fd09c5a29060634281e3441a1" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>pascalLineX_</name></member>
+      <member refid="group__GeneralGroup_1ga1f389ae479825dd8ce5be82337e16a92" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>pascalLineY_</name></member>
+      <member refid="group__GeneralGroup_1ga3c7475b33f41e343f3298b94649cfb54" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>pascalLineZ_</name></member>
+      <member refid="group__GeneralGroup_1ga30c8326a9b19da3efec6be32f4c5a5fa" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>resolution_</name></member>
+      <member refid="group__GeneralGroup_1gae328c95cd98518fc96bbb5438d2b000f" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>resXY_</name></member>
+      <member refid="group__GeneralGroup_1gadba8d74890617571cf1aa0f5d323d890" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>reverseDiagonal_</name></member>
+      <member refid="group__GeneralGroup_1ga7da32b588679f5a44bb7394b8906ed3c" prot="public" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>setStabilizer</name></member>
+      <member refid="group__GeneralGroup_1gaca46216270842ddd92a0fdf7f4177c87" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>size_</name></member>
+      <member refid="group__GeneralGroup_1ga966ec12838011d8891d2ccd03354d44c" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>stabilize_</name></member>
+      <member refid="group__GeneralGroup_1gad8b84691b2fb21f55408efdae1227f44" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>stabilizer_</name></member>
+      <member refid="group__GeneralGroup_1gab726cae279d2094d6aa7304076a5b9fa" prot="private" virt="non-virtual"><scope>MR::FreeFormBestFit</scope><name>sumWeight_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

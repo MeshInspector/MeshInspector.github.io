@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointsLoad_1_1E57LoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointsLoad::E57LoadSettings</compoundname>
+    <includes refid="MRE57_8h" local="no">MRE57.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1E57LoadSettings_1a31953063230a5946da3ef8ae3169b629" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::PointsLoad::E57LoadSettings::combineAllObjects</definition>
+        <argsstring></argsstring>
+        <name>combineAllObjects</name>
+        <qualifiedname>MR::PointsLoad::E57LoadSettings::combineAllObjects</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>true =&gt; if input file has more than one cloud, they all will be combined in one </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="23" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1E57LoadSettings_1ae394bef3a4ed47c0fe3ce1dbd6d1252d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::PointsLoad::E57LoadSettings::identityXf</definition>
+        <argsstring></argsstring>
+        <name>identityXf</name>
+        <qualifiedname>MR::PointsLoad::E57LoadSettings::identityXf</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>true =&gt; return only identity transforms, applying them to points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsLoad_1_1E57LoadSettings_1a8b3bf0a577305270989410f28025a672" prot="public" static="no" mutable="no">
+        <type>ProgressCallback</type>
+        <definition>ProgressCallback MR::PointsLoad::E57LoadSettings::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::PointsLoad::E57LoadSettings::progress</qualifiedname>
+        <briefdescription>
+<para>progress report and cancellation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="29" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" bodystart="21" bodyend="30"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PointsLoad_1_1E57LoadSettings_1a31953063230a5946da3ef8ae3169b629" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>combineAllObjects</name></member>
+      <member refid="structMR_1_1PointsLoad_1_1E57LoadSettings_1ae394bef3a4ed47c0fe3ce1dbd6d1252d" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>identityXf</name></member>
+      <member refid="structMR_1_1PointsLoad_1_1E57LoadSettings_1a8b3bf0a577305270989410f28025a672" prot="public" virt="non-virtual"><scope>MR::PointsLoad::E57LoadSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

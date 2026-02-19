@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelMetricParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelMetricParameters</compoundname>
+    <includes refid="MRVoxelPath_8h" local="no">MRVoxelPath.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1ae851669e25fee95a2b98a79736a529cf" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::VoxelMetricParameters::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>MR::VoxelMetricParameters::start</qualifiedname>
+        <briefdescription>
+<para>start voxel index </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="39" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1ab2680e847f9d7f989c60b09700889278" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::VoxelMetricParameters::stop</definition>
+        <argsstring></argsstring>
+        <name>stop</name>
+        <qualifiedname>MR::VoxelMetricParameters::stop</qualifiedname>
+        <briefdescription>
+<para>stop voxel index </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="40" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1a3ae620491a9dd4eff4445eb022a73b7e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::VoxelMetricParameters::maxDistRatio</definition>
+        <argsstring></argsstring>
+        <name>maxDistRatio</name>
+        <qualifiedname>MR::VoxelMetricParameters::maxDistRatio</qualifiedname>
+        <initializer>{1.5f}</initializer>
+        <briefdescription>
+<para>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1a5fae9a4b03e837ee2d487ce8e8dae34e" prot="public" static="no" mutable="no">
+        <type><ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref></type>
+        <definition>SlicePlane MR::VoxelMetricParameters::plane</definition>
+        <argsstring></argsstring>
+        <name>plane</name>
+        <qualifiedname>MR::VoxelMetricParameters::plane</qualifiedname>
+        <initializer>{<ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref>}</initializer>
+        <briefdescription>
+<para>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="42" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelMetricParameters_1a4a39f4473b82dc98d9b380e6c081a438" prot="public" static="no" mutable="no">
+        <type><ref refid="group__VoxelPathGroup_1ga85e60c553cc81b298c4bfeac4a623b79" kindref="member">QuarterBit</ref></type>
+        <definition>QuarterBit MR::VoxelMetricParameters::quatersMask</definition>
+        <argsstring></argsstring>
+        <name>quatersMask</name>
+        <qualifiedname>MR::VoxelMetricParameters::quatersMask</qualifiedname>
+        <initializer>{<ref refid="group__VoxelPathGroup_1gga85e60c553cc81b298c4bfeac4a623b79ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">QuarterBit::All</ref>}</initializer>
+        <briefdescription>
+<para>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="43" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for building metric function. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelPath.h" bodystart="38" bodyend="44"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VoxelMetricParameters_1a3ae620491a9dd4eff4445eb022a73b7e" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>maxDistRatio</name></member>
+      <member refid="structMR_1_1VoxelMetricParameters_1a5fae9a4b03e837ee2d487ce8e8dae34e" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>plane</name></member>
+      <member refid="structMR_1_1VoxelMetricParameters_1a4a39f4473b82dc98d9b380e6c081a438" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>quatersMask</name></member>
+      <member refid="structMR_1_1VoxelMetricParameters_1ae851669e25fee95a2b98a79736a529cf" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>start</name></member>
+      <member refid="structMR_1_1VoxelMetricParameters_1ab2680e847f9d7f989c60b09700889278" prot="public" virt="non-virtual"><scope>MR::VoxelMetricParameters</scope><name>stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

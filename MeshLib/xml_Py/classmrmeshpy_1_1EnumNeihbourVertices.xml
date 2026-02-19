@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EnumNeihbourVertices" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EnumNeihbourVertices</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1ab87b07f60bed08bc205424bfb9091f53" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourVertices.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourVertices.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16256" bodyend="16257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a3341a6273bc916cb50622bf5c1dccd90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EnumNeihbourVertices" kindref="compound">EnumNeihbourVertices</ref></type>
+        <definition> EnumNeihbourVertices mrmeshpy.EnumNeihbourVertices.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourVertices.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16260" bodyend="16261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a3341a6273bc916cb50622bf5c1dccd90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EnumNeihbourVertices" kindref="compound">EnumNeihbourVertices</ref></type>
+        <definition> EnumNeihbourVertices mrmeshpy.EnumNeihbourVertices.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourVertices.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16264" bodyend="16265"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1aa296267d23abf3231d716d259ef05869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourVertices.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourVertices.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16267" bodyend="16268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a57012db765760454218afad71ea9a3ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourVertices.__init__</definition>
+        <argsstring>(self, EnumNeihbourVertices arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourVertices.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EnumNeihbourVertices" kindref="compound">EnumNeihbourVertices</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16270" bodyend="16273"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a434a1f1052855e94c64a64250086c142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourVertices.run</definition>
+        <argsstring>(self, MeshTopology topology, VertId start, func_bool_from_Id_VertTag pred)</argsstring>
+        <name>run</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourVertices.run</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__VertTag" kindref="compound">func_bool_from_Id_VertTag</ref></type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>invokes given predicate for vertices starting from \\param start,
+and continuing to all immediate neighbours in depth-first order until the predicate returns false
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16275" bodyend="16279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EnumNeihbourVertices_1a1ae65412d10653a8db8b2f4e3b8f738a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EnumNeihbourVertices.run</definition>
+        <argsstring>(self, MeshTopology topology, VertBitSet start, func_bool_from_Id_VertTag pred)</argsstring>
+        <name>run</name>
+        <qualifiedname>mrmeshpy.EnumNeihbourVertices.run</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__VertTag" kindref="compound">func_bool_from_Id_VertTag</ref></type>
+          <declname>pred</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16281" bodyend="16282"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EnumNeihbourVertices
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16250" bodyend="16282"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1ab87b07f60bed08bc205424bfb9091f53" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1aa296267d23abf3231d716d259ef05869" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1a57012db765760454218afad71ea9a3ff" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1a3341a6273bc916cb50622bf5c1dccd90" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1a3341a6273bc916cb50622bf5c1dccd90" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1a434a1f1052855e94c64a64250086c142" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>run</name></member>
+      <member refid="classmrmeshpy_1_1EnumNeihbourVertices_1a1ae65412d10653a8db8b2f4e3b8f738a" prot="public" virt="non-virtual"><scope>mrmeshpy::EnumNeihbourVertices</scope><name>run</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

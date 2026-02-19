@@ -7,6 +7,8 @@ var structMR_1_1Vector2i64 =
     [ "addAssign", "structMR_1_1Vector2i64.html#a9110d5224062517fce9279fd310ed42d", null ],
     [ "diagonal", "structMR_1_1Vector2i64.html#a2c1b0229f2aeba6e7dea2f6f871541dc", null ],
     [ "divAssign", "structMR_1_1Vector2i64.html#aebd2e1b29ce299e8db66dc8ae3895c50", null ],
+    [ "Equals", "structMR_1_1Vector2i64.html#ac10e603e0b2b6018804bcc5ba286d8f3", null ],
+    [ "Equals", "structMR_1_1Vector2i64.html#a8b8fcc170b910a2ef0fe0eb5ce7dc32e", null ],
     [ "furthestBasisVector", "structMR_1_1Vector2i64.html#a7841f7a2ccb899fab57720fb8de3e24b", null ],
     [ "index", "structMR_1_1Vector2i64.html#a525c164044fbd655c28da9044ffbdd7e", null ],
     [ "length", "structMR_1_1Vector2i64.html#ae9c206004253cdafd5c6510d52a0c704", null ],
@@ -15,6 +17,7 @@ var structMR_1_1Vector2i64 =
     [ "minusY", "structMR_1_1Vector2i64.html#af42d008ff29a51214f10b6cdf80c3ec2", null ],
     [ "mulAssign", "structMR_1_1Vector2i64.html#a908ddf84e75284797ffb37d2dee60f13", null ],
     [ "operator Vector2i64", "structMR_1_1Vector2i64.html#a5588a3a337cdc6d6c1b3b0463fdaa777", null ],
+    [ "operator!=", "structMR_1_1Vector2i64.html#a99e9876d7e7004e4c5ba4266e9c935ac", null ],
     [ "operator*", "structMR_1_1Vector2i64.html#a6ab16a401d7362cfaf601abc6837f035", null ],
     [ "operator*", "structMR_1_1Vector2i64.html#aff20cf837e6b6c9a96d7c4ecb6f3ef52", null ],
     [ "operator+", "structMR_1_1Vector2i64.html#a29706265d7ec793b96e54b360537351b", null ],
@@ -27,5 +30,7 @@ var structMR_1_1Vector2i64 =
     [ "plusX", "structMR_1_1Vector2i64.html#ad193bc51e6425c421ed6e616efa2b257", null ],
     [ "plusY", "structMR_1_1Vector2i64.html#a2c542e1e9e562be1eb54322f45a1c58f", null ],
     [ "subAssign", "structMR_1_1Vector2i64.html#a5b19f3ee1d3c0b59e9516f52d902459c", null ],
+    [ "x", "structMR_1_1Vector2i64.html#a2fd275ce39a3e8b97ae979826c9413e8", null ],
+    [ "y", "structMR_1_1Vector2i64.html#acd9eaf38d39d989f4ae96ad407a10a0e", null ],
     [ "this[int e]", "structMR_1_1Vector2i64.html#a47ea18bae871e34d08a6a0e1f49c0170", null ]
 ];

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TriMesh" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TriMesh</compoundname>
+    <includes refid="MRTriMesh_8h" local="no">MRTriMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga1063845cc2871f7dcae178304213db81" kind="variable"><name>tris</name></member>
+      <member refid="group__GeneralGroup_1ga2819cf8b07b6ca5bccb45dd61d9d7f9d" kind="variable"><name>points</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>very simple structure for storing mesh of triangles only, without easy navigation between neighbor elements as in <ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMesh.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMesh.h" bodystart="16" bodyend="19"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2819cf8b07b6ca5bccb45dd61d9d7f9d" prot="public" virt="non-virtual"><scope>MR::TriMesh</scope><name>points</name></member>
+      <member refid="group__GeneralGroup_1ga1063845cc2871f7dcae178304213db81" prot="public" virt="non-virtual"><scope>MR::TriMesh</scope><name>tris</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

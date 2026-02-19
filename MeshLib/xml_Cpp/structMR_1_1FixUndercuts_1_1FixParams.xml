@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FixUndercuts_1_1FixParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FixUndercuts::FixParams</compoundname>
+    <includes refid="MRFixUndercuts_8h" local="no">MRFixUndercuts.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gafe6f6f22b57da33fbbf890e866b20af0" kind="variable"><name>findParameters</name></member>
+      <member refid="group__GeneralGroup_1ga6d4290fa46807217ffa96e93f832b506" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga0b82b3ed40ea6b099489b664630a2e27" kind="variable"><name>bottomExtension</name></member>
+      <member refid="group__GeneralGroup_1gaff2c0877c0a9eac16128d033db2d2860" kind="variable"><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga86fb3b02eb0f9d3df9cdeb8e1b66ca22" kind="variable"><name>smooth</name></member>
+      <member refid="group__GeneralGroup_1ga563ee145e303eb2d0a3cd31b71ca7344" kind="variable"><name>cb</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Fix undercuts function parameters. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::FixUndercuts::FindParams</label>
+        <link refid="structMR_1_1FixUndercuts_1_1FindParams"/>
+      </node>
+      <node id="1">
+        <label>MR::FixUndercuts::FixParams</label>
+        <link refid="structMR_1_1FixUndercuts_1_1FixParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>findParameters</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="57" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" bodystart="58" bodyend="75"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0b82b3ed40ea6b099489b664630a2e27" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>bottomExtension</name></member>
+      <member refid="group__GeneralGroup_1ga563ee145e303eb2d0a3cd31b71ca7344" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gafe6f6f22b57da33fbbf890e866b20af0" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>findParameters</name></member>
+      <member refid="group__GeneralGroup_1gaff2c0877c0a9eac16128d033db2d2860" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga86fb3b02eb0f9d3df9cdeb8e1b66ca22" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>smooth</name></member>
+      <member refid="group__GeneralGroup_1ga6d4290fa46807217ffa96e93f832b506" prot="public" virt="non-virtual"><scope>MR::FixUndercuts::FixParams</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

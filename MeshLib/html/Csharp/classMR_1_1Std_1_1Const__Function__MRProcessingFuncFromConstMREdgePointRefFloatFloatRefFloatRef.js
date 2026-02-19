@@ -1,5 +1,0 @@
-var classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef =
-[
-    [ "Const_Function_MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef.html#afe41afe411fc649012490cb38fdea26b", null ],
-    [ "Const_Function_MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef", "classMR_1_1Std_1_1Const__Function__MRProcessingFuncFromConstMREdgePointRefFloatFloatRefFloatRef.html#ad162dceb6d547f84880d064d7f7f00a6", null ]
-];

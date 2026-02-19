@@ -1,0 +1,221 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VarEdgeTri" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VarEdgeTri</compoundname>
+    <includes refid="MRMeshCollidePrecise_8h" local="no">MRMeshCollidePrecise.h</includes>
+    <innerclass refid="structMR_1_1VarEdgeTri_1_1FlaggedTri" prot="public">MR::VarEdgeTri::FlaggedTri</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" prot="public" static="no" mutable="no">
+        <type>EdgeId</type>
+        <definition>EdgeId MR::VarEdgeTri::edge</definition>
+        <argsstring></argsstring>
+        <name>edge</name>
+        <qualifiedname>MR::VarEdgeTri::edge</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="33" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structMR_1_1VarEdgeTri_1_1FlaggedTri" kindref="compound">MR::VarEdgeTri::FlaggedTri</ref></type>
+        <definition>struct MR::VarEdgeTri::FlaggedTri MR::VarEdgeTri::flaggedTri</definition>
+        <argsstring></argsstring>
+        <name>flaggedTri</name>
+        <qualifiedname>MR::VarEdgeTri::flaggedTri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="39" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1VarEdgeTri_1adf3bb4f9a10426c166bd866f89ddf797" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>FaceId</type>
+        <definition>FaceId MR::VarEdgeTri::tri</definition>
+        <argsstring>() const</argsstring>
+        <name>tri</name>
+        <qualifiedname>MR::VarEdgeTri::tri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="41" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::VarEdgeTri::isEdgeATriB</definition>
+        <argsstring>() const</argsstring>
+        <name>isEdgeATriB</name>
+        <qualifiedname>MR::VarEdgeTri::isEdgeATriB</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="42" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1VarEdgeTri_1a2845a94e12c71150e5cc22e2c03a027d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref></type>
+        <definition>EdgeTri MR::VarEdgeTri::edgeTri</definition>
+        <argsstring>() const</argsstring>
+        <name>edgeTri</name>
+        <qualifiedname>MR::VarEdgeTri::edgeTri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="43" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1VarEdgeTri_1a8e7c3895e3226b4e74de73d21cd4c4ad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::VarEdgeTri::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::VarEdgeTri::valid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="45" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="45" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1VarEdgeTri_1a0b24a1fdcebee2cef32bf0884f9625fc" prot="public" static="no" nodiscard="yes" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VarEdgeTri::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::VarEdgeTri::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="46" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="46" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1VarEdgeTri_1a9823b1d64efd1d93070b51f01ffa10c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::VarEdgeTri::VarEdgeTri</definition>
+        <argsstring>()=default</argsstring>
+        <name>VarEdgeTri</name>
+        <qualifiedname>MR::VarEdgeTri::VarEdgeTri</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="48" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1VarEdgeTri_1ab11feb222ecdf219d714ed2b9b058ec6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VarEdgeTri::VarEdgeTri</definition>
+        <argsstring>(bool isEdgeATriB, EdgeId e, FaceId t)</argsstring>
+        <name>VarEdgeTri</name>
+        <qualifiedname>MR::VarEdgeTri::VarEdgeTri</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEdgeATriB</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FaceId</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1VarEdgeTri_1a959f88d5011716b91abacd8e5b6d357c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VarEdgeTri::VarEdgeTri</definition>
+        <argsstring>(bool isEdgeATriB, const EdgeTri &amp;et)</argsstring>
+        <name>VarEdgeTri</name>
+        <qualifiedname>MR::VarEdgeTri::VarEdgeTri</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>isEdgeATriB</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1EdgeTri" kindref="compound">EdgeTri</ref> &amp;</type>
+          <declname>et</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="56" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1VarEdgeTri_1a5f818bf5f96cbe4b5c899d56e9185ce6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::VarEdgeTri::operator==</definition>
+        <argsstring>(const VarEdgeTri &amp;) const =default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::VarEdgeTri::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="58" column="11"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>if <ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB()</ref> == true, then stores edge from mesh A and triangle from mesh B if <ref refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" kindref="member">isEdgeATriB()</ref> == false, then stores edge from mesh B and triangle from mesh A </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::VarEdgeTri</label>
+        <link refid="structMR_1_1VarEdgeTri"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>flaggedTri</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::VarEdgeTri::FlaggedTri</label>
+        <link refid="structMR_1_1VarEdgeTri_1_1FlaggedTri"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshCollidePrecise.h" bodystart="32" bodyend="59"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VarEdgeTri_1a40285e5911c3efc0fdba9474bce8129a" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>edge</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1a2845a94e12c71150e5cc22e2c03a027d" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>edgeTri</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1a9ff04d23bee5568116250292fe986af6" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>flaggedTri</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1a33184180e0f7658211800f7ad3720833" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>isEdgeATriB</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1a0b24a1fdcebee2cef32bf0884f9625fc" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1a5f818bf5f96cbe4b5c899d56e9185ce6" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>operator==</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1adf3bb4f9a10426c166bd866f89ddf797" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>tri</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1a8e7c3895e3226b4e74de73d21cd4c4ad" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>valid</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1a9823b1d64efd1d93070b51f01ffa10c6" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>VarEdgeTri</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1ab11feb222ecdf219d714ed2b9b058ec6" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>VarEdgeTri</name></member>
+      <member refid="structMR_1_1VarEdgeTri_1a959f88d5011716b91abacd8e5b6d357c" prot="public" virt="non-virtual"><scope>MR::VarEdgeTri</scope><name>VarEdgeTri</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

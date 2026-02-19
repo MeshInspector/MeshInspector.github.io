@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__Box2i" kind="struct" language="C++" prot="public">
+    <compoundname>MR_Box2i</compoundname>
+    <includes refid="MRBox_8h" local="no">MRBox.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__Box2i_1aaea1ac8add913d0cc061a52a26278b68" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref></type>
+        <definition>MR_Vector2i MR_Box2i::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR_Box2i::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="63" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Box2i_1ab1d9a27d3f96d258b9696b2694d82b31" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref></type>
+        <definition>MR_Vector2i MR_Box2i::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR_Box2i::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="64" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Box given by its min- and max- corners Generated from class <computeroutput>MR::Box2i</computeroutput>. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR_Box2i</label>
+        <link refid="structMR__Box2i"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>max</edgelabel>
+          <edgelabel>min</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR_Vector2i</label>
+        <link refid="structMR__Vector2i"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRBox.h" bodystart="62" bodyend="65"/>
+    <listofallmembers>
+      <member refid="structMR__Box2i_1ab1d9a27d3f96d258b9696b2694d82b31" prot="public" virt="non-virtual"><scope>MR_Box2i</scope><name>max</name></member>
+      <member refid="structMR__Box2i_1aaea1ac8add913d0cc061a52a26278b68" prot="public" virt="non-virtual"><scope>MR_Box2i</scope><name>min</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

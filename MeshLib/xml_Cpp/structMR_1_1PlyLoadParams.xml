@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PlyLoadParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PlyLoadParams</compoundname>
+    <includes refid="MRPly_8h" local="no">MRPly.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab60b055cffae98b1ce1a1a4466cfe633" kind="variable"><name>tris</name></member>
+      <member refid="group__GeneralGroup_1gae8303df7b41e4693e1bc02050bc121ca" kind="variable"><name>edges</name></member>
+      <member refid="group__GeneralGroup_1ga9ce47c459de54352d5e746497909802c" kind="variable"><name>colors</name></member>
+      <member refid="group__GeneralGroup_1gadfaa1da3233f2b31bd69d1841e863162" kind="variable"><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1gad25eed18572d645b917be81829d73a71" kind="variable"><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1ga2e08ddf614c8b881ce551b6810228501" kind="variable"><name>triCornerUvCoords</name></member>
+      <member refid="group__GeneralGroup_1ga128f81d674912484655b1bf2a62ae58f" kind="variable"><name>normals</name></member>
+      <member refid="group__GeneralGroup_1ga0da01188c983c86875fdd5d0b6471fa5" kind="variable"><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga5084f3891463b6886fc10c57dbce63af" kind="variable"><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gaf97e597d26a385d02c839501ae01a201" kind="variable"><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga9ad593a784aa6436f4c2c6a5ba87b9ca" kind="variable"><name>telemetrySignal</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>optional load artifacts and other setting for PLY file loading </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="2">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::PlyLoadParams</label>
+        <link refid="structMR_1_1PlyLoadParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>texture</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPly.h" bodystart="18" bodyend="31"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf97e597d26a385d02c839501ae01a201" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga9ce47c459de54352d5e746497909802c" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga5084f3891463b6886fc10c57dbce63af" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gae8303df7b41e4693e1bc02050bc121ca" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>edges</name></member>
+      <member refid="group__GeneralGroup_1gadfaa1da3233f2b31bd69d1841e863162" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1ga128f81d674912484655b1bf2a62ae58f" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>normals</name></member>
+      <member refid="group__GeneralGroup_1ga9ad593a784aa6436f4c2c6a5ba87b9ca" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>telemetrySignal</name></member>
+      <member refid="group__GeneralGroup_1ga0da01188c983c86875fdd5d0b6471fa5" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga2e08ddf614c8b881ce551b6810228501" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>triCornerUvCoords</name></member>
+      <member refid="group__GeneralGroup_1gab60b055cffae98b1ce1a1a4466cfe633" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>tris</name></member>
+      <member refid="group__GeneralGroup_1gad25eed18572d645b917be81829d73a71" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>uvCoords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

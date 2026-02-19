@@ -1,0 +1,991 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRTriangleIntersection_8h" kind="file" language="C++">
+    <compoundname>MRTriangleIntersection.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRTriangleIntersection.h</label>
+        <link refid="MRTriangleIntersection_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRTriangleIntersection_8h_1aa232376b9781642f1a6041ef413a6347" prot="public" static="no">
+        <type>struct <ref refid="MRIntersectionPrecomputes_8h_1aa232376b9781642f1a6041ef413a6347" kindref="member">MR_IntersectionPrecomputes_double</ref></type>
+        <definition>typedef struct MR_IntersectionPrecomputes_double MR_IntersectionPrecomputes_double</definition>
+        <argsstring></argsstring>
+        <name>MR_IntersectionPrecomputes_double</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="12" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriangleIntersection_8h_1a87d83329d62d5328563c6e5b3bac7144" prot="public" static="no">
+        <type>struct <ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref></type>
+        <definition>typedef struct MR_IntersectionPrecomputes_float MR_IntersectionPrecomputes_float</definition>
+        <argsstring></argsstring>
+        <name>MR_IntersectionPrecomputes_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="13" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriangleIntersection_8h_1a9b2681646fc37c10c6deec7f555be88c" prot="public" static="no">
+        <type>struct <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref></type>
+        <definition>typedef struct MR_TriPointf MR_TriPointf</definition>
+        <argsstring></argsstring>
+        <name>MR_TriPointf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="14" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriangleIntersection_8h_1a8fbfe75b70658eb6e5580c06bfa2176e" prot="public" static="no">
+        <type>struct MR_Vector2d</type>
+        <definition>typedef struct MR_Vector2d MR_Vector2d</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector2d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="15" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriangleIntersection_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" prot="public" static="no">
+        <type>struct MR_Vector2f</type>
+        <definition>typedef struct MR_Vector2f MR_Vector2f</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector2f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="16" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriangleIntersection_8h_1aa6b35c703a4572c3ccc120ee82723a66" prot="public" static="no">
+        <type>struct MR_Vector3d</type>
+        <definition>typedef struct MR_Vector3d MR_Vector3d</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="17" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriangleIntersection_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
+        <type>struct MR_Vector3f</type>
+        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" prot="public" static="no">
+        <type>struct <ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref></type>
+        <definition>typedef struct MR_std_optional_MR_TriIntersectResult MR_std_optional_MR_TriIntersectResult</definition>
+        <argsstring></argsstring>
+        <name>MR_std_optional_MR_TriIntersectResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="19" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" prot="public" static="no">
+        <type>struct <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref></type>
+        <definition>typedef struct MR_TriIntersectResult MR_TriIntersectResult</definition>
+        <argsstring></argsstring>
+        <name>MR_TriIntersectResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::TriIntersectResult</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="24" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1ae5501fd06f4247851460b45c83f5548b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
+        <definition>MRC_API const MR_TriPointf * MR_TriIntersectResult_Get_bary</definition>
+        <argsstring>(const MR_TriIntersectResult *_this)</argsstring>
+        <name>MR_TriIntersectResult_Get_bary</name>
+        <param>
+          <type>const <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TriIntersectResult</computeroutput> named <computeroutput>bary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="31" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="31" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a97ae47dc38e28ead84d5f81460fc95bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriIntersectResult_Set_bary</definition>
+        <argsstring>(MR_TriIntersectResult *_this, const MR_TriPointf *value)</argsstring>
+        <name>MR_TriIntersectResult_Set_bary</name>
+        <param>
+          <type><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TriIntersectResult</computeroutput> named <computeroutput>bary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>bary</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>bary</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="39" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="39" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1acdf0b1fcc6fc677b1f25958eb84ffac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref> *</type>
+        <definition>MRC_API MR_TriPointf * MR_TriIntersectResult_GetMutable_bary</definition>
+        <argsstring>(MR_TriIntersectResult *_this)</argsstring>
+        <name>MR_TriIntersectResult_GetMutable_bary</name>
+        <param>
+          <type><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TriIntersectResult</computeroutput> named <computeroutput>bary</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="46" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="46" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a580141ad7cad5438d4f3e8028c2f0469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_TriIntersectResult_Get_t</definition>
+        <argsstring>(const MR_TriIntersectResult *_this)</argsstring>
+        <name>MR_TriIntersectResult_Get_t</name>
+        <param>
+          <type>const <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::TriIntersectResult</computeroutput> named <computeroutput>t</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="53" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="53" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1ad9b564fcbd68a0e436760db8a51710a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriIntersectResult_Set_t</definition>
+        <argsstring>(MR_TriIntersectResult *_this, float value)</argsstring>
+        <name>MR_TriIntersectResult_Set_t</name>
+        <param>
+          <type><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::TriIntersectResult</computeroutput> named <computeroutput>t</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>t</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1ac3fd8ecd22a9aedca69849c332e8b0b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_TriIntersectResult_GetMutable_t</definition>
+        <argsstring>(MR_TriIntersectResult *_this)</argsstring>
+        <name>MR_TriIntersectResult_GetMutable_t</name>
+        <param>
+          <type><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::TriIntersectResult</computeroutput> named <computeroutput>t</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="66" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="66" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a529b15fcf38773060a465d48d9a0d972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+        <definition>MRC_API MR_TriIntersectResult * MR_TriIntersectResult_ConstructFromAnother</definition>
+        <argsstring>(const MR_TriIntersectResult *_other)</argsstring>
+        <name>MR_TriIntersectResult_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::TriIntersectResult::TriIntersectResult</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriangleIntersection_8h_1aafa7f85bc4eb73e7226eac58e36be652" kindref="member">MR_TriIntersectResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="72" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="72" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1ac5ff92e1cb2d5b3e9d05b5702b4c8afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+        <definition>MRC_API const MR_TriIntersectResult * MR_TriIntersectResult_OffsetPtr</definition>
+        <argsstring>(const MR_TriIntersectResult *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TriIntersectResult_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="76" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="76" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1af750b34f9dddbefd1b6fead04390b186" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+        <definition>MRC_API MR_TriIntersectResult * MR_TriIntersectResult_OffsetMutablePtr</definition>
+        <argsstring>(MR_TriIntersectResult *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_TriIntersectResult_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="80" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="80" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1ad727a7aec2ee800708811a00863ff3c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+        <definition>MRC_API MR_TriIntersectResult * MR_TriIntersectResult_Construct</definition>
+        <argsstring>(float U, float V, float dist)</argsstring>
+        <name>MR_TriIntersectResult_Construct</name>
+        <param>
+          <type>float</type>
+          <declname>U</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::TriIntersectResult::TriIntersectResult</computeroutput>. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRTriangleIntersection_8h_1aafa7f85bc4eb73e7226eac58e36be652" kindref="member">MR_TriIntersectResult_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="84" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="84" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1aafa7f85bc4eb73e7226eac58e36be652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriIntersectResult_Destroy</definition>
+        <argsstring>(const MR_TriIntersectResult *_this)</argsstring>
+        <name>MR_TriIntersectResult_Destroy</name>
+        <param>
+          <type>const <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_TriIntersectResult</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="87" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="87" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a52bd88d97d06bd168220c81d19a73c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_TriIntersectResult_DestroyArray</definition>
+        <argsstring>(const MR_TriIntersectResult *_this)</argsstring>
+        <name>MR_TriIntersectResult_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_TriIntersectResult</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="90" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a498070ce6d21afd70be291f06c996511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+        <definition>MRC_API MR_TriIntersectResult * MR_TriIntersectResult_AssignFromAnother</definition>
+        <argsstring>(MR_TriIntersectResult *_this, const MR_TriIntersectResult *_other)</argsstring>
+        <name>MR_TriIntersectResult_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::TriIntersectResult::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="98" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="98" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a31871b003c503391cc533a1c6341debd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInPlane_float</definition>
+        <argsstring>(const MR_Vector3f *p, const MR_Vector3f *a, const MR_Vector3f *b, const MR_Vector3f *c)</argsstring>
+        <name>MR_isPointInPlane_float</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if ABC plane contains point P Generated from function <computeroutput>MR::isPointInPlane&lt;float&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="106" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="106" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a415be485a985803d643f834f0d9db235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInPlane_double</definition>
+        <argsstring>(const MR_Vector3d *p, const MR_Vector3d *a, const MR_Vector3d *b, const MR_Vector3d *c)</argsstring>
+        <name>MR_isPointInPlane_double</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if ABC plane contains point P Generated from function <computeroutput>MR::isPointInPlane&lt;double&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="114" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="114" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a62d760c9883be36a9b043811cf45b889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInLine_float</definition>
+        <argsstring>(const MR_Vector3f *p, const MR_Vector3f *a, const MR_Vector3f *b)</argsstring>
+        <name>MR_isPointInLine_float</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if AB line contains point P Generated from function <computeroutput>MR::isPointInLine&lt;float&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="121" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="121" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a52acc2e43ccfbe95e1480127cb21525b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInLine_double</definition>
+        <argsstring>(const MR_Vector3d *p, const MR_Vector3d *a, const MR_Vector3d *b)</argsstring>
+        <name>MR_isPointInLine_double</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if AB line contains point P Generated from function <computeroutput>MR::isPointInLine&lt;double&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="128" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="128" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a3adf45915e8c6afbcfeee0bd0562b052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInSegm_float</definition>
+        <argsstring>(const MR_Vector3f *p, const MR_Vector3f *a, const MR_Vector3f *b)</argsstring>
+        <name>MR_isPointInSegm_float</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if AB segment contains point P Generated from function <computeroutput>MR::isPointInSegm&lt;float&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="135" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a8b1689e4464826d247d53e2f28f7b382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInSegm_double</definition>
+        <argsstring>(const MR_Vector3d *p, const MR_Vector3d *a, const MR_Vector3d *b)</argsstring>
+        <name>MR_isPointInSegm_double</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if AB segment contains point P Generated from function <computeroutput>MR::isPointInSegm&lt;double&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="142" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="142" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a661a18e6a69ba42bf64e956ca0c21f62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInTriangle_float_MR_Vector3f</definition>
+        <argsstring>(const MR_Vector3f *p, const MR_Vector3f *a, const MR_Vector3f *b, const MR_Vector3f *c)</argsstring>
+        <name>MR_isPointInTriangle_float_MR_Vector3f</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if ABC triangle contains point P Generated from function <computeroutput>MR::isPointInTriangle&lt;float&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1aad8f355d1ca82961b5467cae3ed39a43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInTriangle_double_MR_Vector3d</definition>
+        <argsstring>(const MR_Vector3d *p, const MR_Vector3d *a, const MR_Vector3d *b, const MR_Vector3d *c)</argsstring>
+        <name>MR_isPointInTriangle_double_MR_Vector3d</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if ABC triangle contains point P Generated from function <computeroutput>MR::isPointInTriangle&lt;double&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="158" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="158" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1aadfa3846a02b4fbda923e17e5b0d36f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInTriangle_float_MR_Vector2f</definition>
+        <argsstring>(const MR_Vector2f *p, const MR_Vector2f *a, const MR_Vector2f *b, const MR_Vector2f *c)</argsstring>
+        <name>MR_isPointInTriangle_float_MR_Vector2f</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if ABC triangle contains point P Generated from function <computeroutput>MR::isPointInTriangle&lt;float&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a6b785d8fe1ba50aa1f5bff5e3acaba23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_isPointInTriangle_double_MR_Vector2d</definition>
+        <argsstring>(const MR_Vector2d *p, const MR_Vector2d *a, const MR_Vector2d *b, const MR_Vector2d *c)</argsstring>
+        <name>MR_isPointInTriangle_double_MR_Vector2d</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if ABC triangle contains point P Generated from function <computeroutput>MR::isPointInTriangle&lt;double&gt;</computeroutput>. Parameter <computeroutput>p</computeroutput> can not be null. It is a single object. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="174" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="174" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a15f8d5cb4f819286e054202b9fd03f4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect_float_MR_IntersectionPrecomputes_float</definition>
+        <argsstring>(const MR_Vector3f *oriA, const MR_Vector3f *oriB, const MR_Vector3f *oriC, const MR_IntersectionPrecomputes_float *prec)</argsstring>
+        <name>MR_rayTriangleIntersect_float_MR_IntersectionPrecomputes_float</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>oriA</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>oriB</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>oriC</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref> *</type>
+          <declname>prec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::rayTriangleIntersect&lt;float&gt;</computeroutput>. Parameter <computeroutput>oriA</computeroutput> can not be null. It is a single object. Parameter <computeroutput>oriB</computeroutput> can not be null. It is a single object. Parameter <computeroutput>oriC</computeroutput> can not be null. It is a single object. Parameter <computeroutput>prec</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_TriIntersectResult_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="182" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="182" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1aa18db0c86cc1d9235a4659070d740869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect_double_MR_IntersectionPrecomputes_double</definition>
+        <argsstring>(const MR_Vector3d *oriA, const MR_Vector3d *oriB, const MR_Vector3d *oriC, const MR_IntersectionPrecomputes_double *prec)</argsstring>
+        <name>MR_rayTriangleIntersect_double_MR_IntersectionPrecomputes_double</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>oriA</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>oriB</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>oriC</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes_8h_1aa232376b9781642f1a6041ef413a6347" kindref="member">MR_IntersectionPrecomputes_double</ref> *</type>
+          <declname>prec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::rayTriangleIntersect&lt;double&gt;</computeroutput>. Parameter <computeroutput>oriA</computeroutput> can not be null. It is a single object. Parameter <computeroutput>oriB</computeroutput> can not be null. It is a single object. Parameter <computeroutput>oriC</computeroutput> can not be null. It is a single object. Parameter <computeroutput>prec</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_TriIntersectResult_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="190" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="190" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a6223ac8a01c1d64703eac28cef6a9d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect_float_MR_Vector3f</definition>
+        <argsstring>(const MR_Vector3f *oriA, const MR_Vector3f *oriB, const MR_Vector3f *oriC, const MR_Vector3f *dir)</argsstring>
+        <name>MR_rayTriangleIntersect_float_MR_Vector3f</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>oriA</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>oriB</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>oriC</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::rayTriangleIntersect&lt;float&gt;</computeroutput>. Parameter <computeroutput>oriA</computeroutput> can not be null. It is a single object. Parameter <computeroutput>oriB</computeroutput> can not be null. It is a single object. Parameter <computeroutput>oriC</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_TriIntersectResult_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="198" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="198" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a7c2b2c0c30ee3fd4476dc127e1cbe8de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref> *</type>
+        <definition>MRC_API MR_std_optional_MR_TriIntersectResult * MR_rayTriangleIntersect_double_MR_Vector3d</definition>
+        <argsstring>(const MR_Vector3d *oriA, const MR_Vector3d *oriB, const MR_Vector3d *oriC, const MR_Vector3d *dir)</argsstring>
+        <name>MR_rayTriangleIntersect_double_MR_Vector3d</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>oriA</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>oriB</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>oriC</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::rayTriangleIntersect&lt;double&gt;</computeroutput>. Parameter <computeroutput>oriA</computeroutput> can not be null. It is a single object. Parameter <computeroutput>oriB</computeroutput> can not be null. It is a single object. Parameter <computeroutput>oriC</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_optional_MR_TriIntersectResult_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="206" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="206" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1a1733f11135be41138d943fc8ce726bd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_doTrianglesOverlap_float</definition>
+        <argsstring>(const MR_Vector2f *a, const MR_Vector2f *b, const MR_Vector2f *c, const MR_Vector2f *d, const MR_Vector2f *e, const MR_Vector2f *f)</argsstring>
+        <name>MR_doTrianglesOverlap_float</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if ABC and DEF overlaps or touches Generated from function <computeroutput>MR::doTrianglesOverlap&lt;float&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. Parameter <computeroutput>d</computeroutput> can not be null. It is a single object. Parameter <computeroutput>e</computeroutput> can not be null. It is a single object. Parameter <computeroutput>f</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="216" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRTriangleIntersection_8h_1abba177a2e17ae9b99a994beb86beff67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_doTrianglesOverlap_double</definition>
+        <argsstring>(const MR_Vector2d *a, const MR_Vector2d *b, const MR_Vector2d *c, const MR_Vector2d *d, const MR_Vector2d *e, const MR_Vector2d *f)</argsstring>
+        <name>MR_doTrianglesOverlap_double</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if ABC and DEF overlaps or touches Generated from function <computeroutput>MR::doTrianglesOverlap&lt;double&gt;</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. Parameter <computeroutput>c</computeroutput> can not be null. It is a single object. Parameter <computeroutput>d</computeroutput> can not be null. It is a single object. Parameter <computeroutput>e</computeroutput> can not be null. It is a single object. Parameter <computeroutput>f</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" line="226" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h" declline="226" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRTriangleIntersection_8h_1aa232376b9781642f1a6041ef413a6347" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes_8h_1aa232376b9781642f1a6041ef413a6347" kindref="member">MR_IntersectionPrecomputes_double</ref><sp/><ref refid="MRIntersectionPrecomputes_8h_1aa232376b9781642f1a6041ef413a6347" kindref="member">MR_IntersectionPrecomputes_double</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIntersectionPrecomputes.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRTriangleIntersection_8h_1a87d83329d62d5328563c6e5b3bac7144" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref><sp/><ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRIntersectionPrecomputes.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRTriangleIntersection_8h_1a9b2681646fc37c10c6deec7f555be88c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRTriPoint.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRTriangleIntersection_8h_1a8fbfe75b70658eb6e5580c06bfa2176e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRTriangleIntersection_8h_1a72ab0be0b71b29e9f310e7526a8cc57b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector2.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRTriangleIntersection_8h_1aa6b35c703a4572c3ccc120ee82723a66" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRTriangleIntersection_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref><sp/><ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_optional_MR_TriIntersectResult.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>barycentric<sp/>representation</highlight></codeline>
+<codeline lineno="31" refid="MRTriangleIntersection_8h_1ae5501fd06f4247851460b45c83f5548b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1ae5501fd06f4247851460b45c83f5548b" kindref="member">MR_TriIntersectResult_Get_bary</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="comment">//<sp/>barycentric<sp/>representation</highlight></codeline>
+<codeline lineno="39" refid="MRTriangleIntersection_8h_1a97ae47dc38e28ead84d5f81460fc95bd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a97ae47dc38e28ead84d5f81460fc95bd" kindref="member">MR_TriIntersectResult_Set_bary</ref>(<ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>barycentric<sp/>representation</highlight></codeline>
+<codeline lineno="46" refid="MRTriangleIntersection_8h_1acdf0b1fcc6fc677b1f25958eb84ffac2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRMeshTriPoint_8h_1a9b2681646fc37c10c6deec7f555be88c" kindref="member">MR_TriPointf</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1acdf0b1fcc6fc677b1f25958eb84ffac2" kindref="member">MR_TriIntersectResult_GetMutable_bary</ref>(<ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distance<sp/>from<sp/>ray<sp/>origin<sp/>to<sp/>p<sp/>in<sp/>dir<sp/>length<sp/>units</highlight></codeline>
+<codeline lineno="53" refid="MRTriangleIntersection_8h_1a580141ad7cad5438d4f3e8028c2f0469" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTriangleIntersection_8h_1a580141ad7cad5438d4f3e8028c2f0469" kindref="member">MR_TriIntersectResult_Get_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distance<sp/>from<sp/>ray<sp/>origin<sp/>to<sp/>p<sp/>in<sp/>dir<sp/>length<sp/>units</highlight></codeline>
+<codeline lineno="59" refid="MRTriangleIntersection_8h_1ad9b564fcbd68a0e436760db8a51710a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1ad9b564fcbd68a0e436760db8a51710a7" kindref="member">MR_TriIntersectResult_Set_t</ref>(<ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>distance<sp/>from<sp/>ray<sp/>origin<sp/>to<sp/>p<sp/>in<sp/>dir<sp/>length<sp/>units</highlight></codeline>
+<codeline lineno="66" refid="MRTriangleIntersection_8h_1ac3fd8ecd22a9aedca69849c332e8b0b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRTriangleIntersection_8h_1ac3fd8ecd22a9aedca69849c332e8b0b9" kindref="member">MR_TriIntersectResult_GetMutable_t</ref>(<ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRTriangleIntersection_8h_1a529b15fcf38773060a465d48d9a0d972" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1a529b15fcf38773060a465d48d9a0d972" kindref="member">MR_TriIntersectResult_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRTriangleIntersection_8h_1ac5ff92e1cb2d5b3e9d05b5702b4c8afe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1ac5ff92e1cb2d5b3e9d05b5702b4c8afe" kindref="member">MR_TriIntersectResult_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRTriangleIntersection_8h_1af750b34f9dddbefd1b6fead04390b186" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1af750b34f9dddbefd1b6fead04390b186" kindref="member">MR_TriIntersectResult_OffsetMutablePtr</ref>(<ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRTriangleIntersection_8h_1ad727a7aec2ee800708811a00863ff3c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1ad727a7aec2ee800708811a00863ff3c4" kindref="member">MR_TriIntersectResult_Construct</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>U,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>V,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>dist);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="MRTriangleIntersection_8h_1aafa7f85bc4eb73e7226eac58e36be652" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1aafa7f85bc4eb73e7226eac58e36be652" kindref="member">MR_TriIntersectResult_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRTriangleIntersection_8h_1a52bd88d97d06bd168220c81d19a73c5f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a52bd88d97d06bd168220c81d19a73c5f" kindref="member">MR_TriIntersectResult_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRTriangleIntersection_8h_1a498070ce6d21afd70be291f06c996511" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1a498070ce6d21afd70be291f06c996511" kindref="member">MR_TriIntersectResult_AssignFromAnother</ref>(<ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a3155a1e631288d05270693a674f62207" kindref="member">MR_TriIntersectResult</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRTriangleIntersection_8h_1a31871b003c503391cc533a1c6341debd" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a31871b003c503391cc533a1c6341debd" kindref="member">MR_isPointInPlane_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="MRTriangleIntersection_8h_1a415be485a985803d643f834f0d9db235" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a415be485a985803d643f834f0d9db235" kindref="member">MR_isPointInPlane_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRTriangleIntersection_8h_1a62d760c9883be36a9b043811cf45b889" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a62d760c9883be36a9b043811cf45b889" kindref="member">MR_isPointInLine_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRTriangleIntersection_8h_1a52acc2e43ccfbe95e1480127cb21525b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a52acc2e43ccfbe95e1480127cb21525b" kindref="member">MR_isPointInLine_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRTriangleIntersection_8h_1a3adf45915e8c6afbcfeee0bd0562b052" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a3adf45915e8c6afbcfeee0bd0562b052" kindref="member">MR_isPointInSegm_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRTriangleIntersection_8h_1a8b1689e4464826d247d53e2f28f7b382" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a8b1689e4464826d247d53e2f28f7b382" kindref="member">MR_isPointInSegm_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRTriangleIntersection_8h_1a661a18e6a69ba42bf64e956ca0c21f62" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a661a18e6a69ba42bf64e956ca0c21f62" kindref="member">MR_isPointInTriangle_float_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRTriangleIntersection_8h_1aad8f355d1ca82961b5467cae3ed39a43" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1aad8f355d1ca82961b5467cae3ed39a43" kindref="member">MR_isPointInTriangle_double_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRTriangleIntersection_8h_1aadfa3846a02b4fbda923e17e5b0d36f2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1aadfa3846a02b4fbda923e17e5b0d36f2" kindref="member">MR_isPointInTriangle_float_MR_Vector2f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRTriangleIntersection_8h_1a6b785d8fe1ba50aa1f5bff5e3acaba23" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a6b785d8fe1ba50aa1f5bff5e3acaba23" kindref="member">MR_isPointInTriangle_double_MR_Vector2d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*p,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*c);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRTriangleIntersection_8h_1a15f8d5cb4f819286e054202b9fd03f4e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1a15f8d5cb4f819286e054202b9fd03f4e" kindref="member">MR_rayTriangleIntersect_float_MR_IntersectionPrecomputes_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*oriA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*oriB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*oriC,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes_8h_1a87d83329d62d5328563c6e5b3bac7144" kindref="member">MR_IntersectionPrecomputes_float</ref><sp/>*prec);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="MRTriangleIntersection_8h_1aa18db0c86cc1d9235a4659070d740869" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1aa18db0c86cc1d9235a4659070d740869" kindref="member">MR_rayTriangleIntersect_double_MR_IntersectionPrecomputes_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*oriA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*oriB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*oriC,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes_8h_1aa232376b9781642f1a6041ef413a6347" kindref="member">MR_IntersectionPrecomputes_double</ref><sp/>*prec);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="MRTriangleIntersection_8h_1a6223ac8a01c1d64703eac28cef6a9d37" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1a6223ac8a01c1d64703eac28cef6a9d37" kindref="member">MR_rayTriangleIntersect_float_MR_Vector3f</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*oriA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*oriB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*oriC,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*dir);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="MRTriangleIntersection_8h_1a7c2b2c0c30ee3fd4476dc127e1cbe8de" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTriangleIntersection_8h_1a8fb787cfb02cc4a3553f511f4b3b4cd5" kindref="member">MR_std_optional_MR_TriIntersectResult</ref><sp/>*<ref refid="MRTriangleIntersection_8h_1a7c2b2c0c30ee3fd4476dc127e1cbe8de" kindref="member">MR_rayTriangleIntersect_double_MR_Vector3d</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*oriA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*oriB,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*oriC,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*dir);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRTriangleIntersection_8h_1a1733f11135be41138d943fc8ce726bd8" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1a1733f11135be41138d943fc8ce726bd8" kindref="member">MR_doTrianglesOverlap_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*d,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*f);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226" refid="MRTriangleIntersection_8h_1abba177a2e17ae9b99a994beb86beff67" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRTriangleIntersection_8h_1abba177a2e17ae9b99a994beb86beff67" kindref="member">MR_doTrianglesOverlap_double</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*c,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*d,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*e,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*f);</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="229"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRTriangleIntersection.h"/>
+  </compounddef>
+</doxygen>

@@ -1,7 +1,8 @@
 var classMR_1_1MeshSave =
 [
-    [ "MeshFileSaver", "../Cpp/namespaceMR_1_1MeshSave.html#a44ae097f41a9722d0110ffb971ba7ce0", null ],
-    [ "MeshStreamSaver", "../Cpp/namespaceMR_1_1MeshSave.html#a7e16b086c414a0768e241ea5f21ca9b6", null ],
+    [ "BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html", "classMR_1_1MeshSave_1_1BinaryStlSaver" ],
+    [ "CtmSaveOptions", "classMR_1_1MeshSave_1_1CtmSaveOptions.html", "classMR_1_1MeshSave_1_1CtmSaveOptions" ],
+    [ "NamedXfMesh", "classMR_1_1MeshSave_1_1NamedXfMesh.html", "classMR_1_1MeshSave_1_1NamedXfMesh" ],
     [ "sceneToObj", "classMR_1_1MeshSave.html#a5f1d5bbc7487d46b5807ddc77e0f5719", null ],
     [ "sceneToObj", "classMR_1_1MeshSave.html#a117c7529099c0cd29ea66b02883be913", null ],
     [ "to3mf", "classMR_1_1MeshSave.html#a86d400df0182cfeb6eed1dc2b42559f4", null ],

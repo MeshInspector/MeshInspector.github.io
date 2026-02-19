@@ -1,0 +1,558 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FindProjectionOnPointsSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FindProjectionOnPointsSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a944a9c027904e12497629081b32a3ee0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindProjectionOnPointsSettings::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings._offsetof_cb</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20374" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a291b852c13901b7d761ddc81a1a2ccd5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindProjectionOnPointsSettings::_offsetof_loDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_loDistLimitSq</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings._offsetof_loDistLimitSq</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20375" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1ae81dd935b65dd8b09759b49512dac218" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindProjectionOnPointsSettings::_offsetof_skipSameIndex</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_skipSameIndex</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings._offsetof_skipSameIndex</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a3f821d0786b8450e27fbbaf88d1ec60e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindProjectionOnPointsSettings::_offsetof_upDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_upDistLimitSq</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings._offsetof_upDistLimitSq</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20377" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1ab8ffcda5c6cf74af26ba350dd11e050b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindProjectionOnPointsSettings::_offsetof_valid</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_valid</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings._offsetof_valid</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1ac317fa5721b42c08841f5fe356a8ccd6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindProjectionOnPointsSettings::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings._offsetof_xf</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20379" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20379" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a4e512e7e74329745925011cd5730610e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20382" bodyend="20383"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a8c91aa0a3e6c2746d9cb970fef7ac531" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FindProjectionOnPointsSettings" kindref="compound">FindProjectionOnPointsSettings</ref></type>
+        <definition> FindProjectionOnPointsSettings mrmeshpy.FindProjectionOnPointsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20386" bodyend="20387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a8c91aa0a3e6c2746d9cb970fef7ac531" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FindProjectionOnPointsSettings" kindref="compound">FindProjectionOnPointsSettings</ref></type>
+        <definition> FindProjectionOnPointsSettings mrmeshpy.FindProjectionOnPointsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20390" bodyend="20391"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a22eceeb4fcfce6f49f4e6f6a84bb4175" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20393" bodyend="20394"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a83e92c75dc4c599d53c73dcdb9e094b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.__init__</definition>
+        <argsstring>(self, FindProjectionOnPointsSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FindProjectionOnPointsSettings" kindref="compound">FindProjectionOnPointsSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20396" bodyend="20399"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a31cdaa1a02f55f66cc242ad37011fc58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.__init__</definition>
+        <argsstring>(self, BitSet valid, AffineXf3f xf, float upDistLimitSq, float loDistLimitSq, bool skipSameIndex, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>valid</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>loDistLimitSq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>skipSameIndex</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20401" bodyend="20404"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a7880f91b5497a4fbf0fac7b9eb80f2a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.FindProjectionOnPointsSettings.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>progress callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20406" bodyend="20409"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1adf06b936d2328e00a07fe67e12d8670a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20411" bodyend="20412"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a5edd93ab14ee85281b1dc95a39d1b36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FindProjectionOnPointsSettings.loDistLimitSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>loDistLimitSq</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.loDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20414" bodyend="20417"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a88b764ebf4a65c25e2d6bfa103ccd48a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.loDistLimitSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>loDistLimitSq</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.loDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20419" bodyend="20420"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a9ef89ba6e08a65b503f056105c006659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FindProjectionOnPointsSettings.skipSameIndex</definition>
+        <argsstring>(self)</argsstring>
+        <name>skipSameIndex</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.skipSameIndex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true, discards a projection candidate with the same index as the target point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20422" bodyend="20425"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a3a542685fdd645512fc0600397ea0a1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.skipSameIndex</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>skipSameIndex</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.skipSameIndex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20427" bodyend="20428"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a95aeb134c945b25bb918e805091f6490" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FindProjectionOnPointsSettings.upDistLimitSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.upDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20430" bodyend="20433"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a39e73ca4009bf2db72e3e4aa78743b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.upDistLimitSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.upDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20435" bodyend="20436"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a45d81057616cfa850588487899eb200e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+        <definition> BitSet mrmeshpy.FindProjectionOnPointsSettings.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>bitset of valid input points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20438" bodyend="20441"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a266fad8255e0a10a4e165f9e5ea3e9ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.valid</definition>
+        <argsstring>(self, BitSet arg1)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20443" bodyend="20444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a8838b2650c16f552033c7b334583dd51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.FindProjectionOnPointsSettings.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>affine transformation for input points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20446" bodyend="20449"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a32c891544d8da07a8220c0a450693647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindProjectionOnPointsSettings.xf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.FindProjectionOnPointsSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20451" bodyend="20452"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FindProjectionOnPointsSettings
+
+settings for \\ref IPointsProjector::findProjections
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FindProjectionOnPointsSettings</label>
+        <link refid="classmrmeshpy_1_1FindProjectionOnPointsSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_loDistLimitSq</edgelabel>
+          <edgelabel>_offsetof_skipSameIndex</edgelabel>
+          <edgelabel>_offsetof_upDistLimitSq</edgelabel>
+          <edgelabel>_offsetof_valid</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20368" bodyend="20452"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a4e512e7e74329745925011cd5730610e" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a22eceeb4fcfce6f49f4e6f6a84bb4175" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a83e92c75dc4c599d53c73dcdb9e094b8" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a31cdaa1a02f55f66cc242ad37011fc58" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a944a9c027904e12497629081b32a3ee0" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a291b852c13901b7d761ddc81a1a2ccd5" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>_offsetof_loDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1ae81dd935b65dd8b09759b49512dac218" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>_offsetof_skipSameIndex</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a3f821d0786b8450e27fbbaf88d1ec60e" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>_offsetof_upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1ab8ffcda5c6cf74af26ba350dd11e050b" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>_offsetof_valid</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1ac317fa5721b42c08841f5fe356a8ccd6" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a7880f91b5497a4fbf0fac7b9eb80f2a8" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1adf06b936d2328e00a07fe67e12d8670a" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a5edd93ab14ee85281b1dc95a39d1b36d" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>loDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a88b764ebf4a65c25e2d6bfa103ccd48a" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>loDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a8c91aa0a3e6c2746d9cb970fef7ac531" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a8c91aa0a3e6c2746d9cb970fef7ac531" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a9ef89ba6e08a65b503f056105c006659" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>skipSameIndex</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a3a542685fdd645512fc0600397ea0a1f" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>skipSameIndex</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a95aeb134c945b25bb918e805091f6490" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a39e73ca4009bf2db72e3e4aa78743b31" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a45d81057616cfa850588487899eb200e" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>valid</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a266fad8255e0a10a4e165f9e5ea3e9ef" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>valid</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a8838b2650c16f552033c7b334583dd51" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1FindProjectionOnPointsSettings_1a32c891544d8da07a8220c0a450693647" prot="public" virt="non-virtual"><scope>mrmeshpy::FindProjectionOnPointsSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

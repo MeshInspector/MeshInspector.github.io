@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshAttributesToUpdate" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshAttributesToUpdate</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshAttributesToUpdate_1af56c5eb26fc870dd5eed558ae37238a1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshAttributesToUpdate::_offsetof_colorMap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_colorMap</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate._offsetof_colorMap</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshAttributesToUpdate_1a01e8e58926ae2016ef95f5f27b9c8f5f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshAttributesToUpdate::_offsetof_faceColors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_faceColors</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate._offsetof_faceColors</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshAttributesToUpdate_1a9ea655d266518eec8796f186c1da0d8e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshAttributesToUpdate::_offsetof_texturePerFace</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_texturePerFace</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate._offsetof_texturePerFace</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshAttributesToUpdate_1aa6f53d3b43c510d95a57a70d8e9fa109" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshAttributesToUpdate::_offsetof_uvCoords</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uvCoords</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate._offsetof_uvCoords</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31296" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshAttributesToUpdate_1a9a9a12f5e2fd0d328eb3569bc32902bd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshAttributesToUpdate.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31303" bodyend="31304"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshAttributesToUpdate_1a2cd2dfdc06f1251aafeb7cbaa6bf059a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref></type>
+        <definition> MeshAttributesToUpdate mrmeshpy.MeshAttributesToUpdate.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31307" bodyend="31308"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshAttributesToUpdate_1a2cd2dfdc06f1251aafeb7cbaa6bf059a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref></type>
+        <definition> MeshAttributesToUpdate mrmeshpy.MeshAttributesToUpdate.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31311" bodyend="31312"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshAttributesToUpdate_1ab7f664098ff1179ed37379fb7129143f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshAttributesToUpdate.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31314" bodyend="31315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshAttributesToUpdate_1af1109fe0ccfeb0256d900dea711ac55d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshAttributesToUpdate.__init__</definition>
+        <argsstring>(self, MeshAttributesToUpdate arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshAttributesToUpdate" kindref="compound">MeshAttributesToUpdate</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31317" bodyend="31320"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshAttributesToUpdate_1a9c9b14740e3f751058c0142ded64aaae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshAttributesToUpdate.__init__</definition>
+        <argsstring>(self, VertCoords2 uvCoords, VertColors colorMap, TexturePerFace texturePerFace, FaceColors faceColors)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshAttributesToUpdate.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>uvCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>colorMap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TexturePerFace" kindref="compound">TexturePerFace</ref></type>
+          <declname>texturePerFace</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceColors" kindref="compound">FaceColors</ref></type>
+          <declname>faceColors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31322" bodyend="31325"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshAttributesToUpdate
+
+the attribute data of the mesh that needs to be updated
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshAttributesToUpdate</label>
+        <link refid="classmrmeshpy_1_1MeshAttributesToUpdate"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_colorMap</edgelabel>
+          <edgelabel>_offsetof_faceColors</edgelabel>
+          <edgelabel>_offsetof_texturePerFace</edgelabel>
+          <edgelabel>_offsetof_uvCoords</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31287" bodyend="31325"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1a9a9a12f5e2fd0d328eb3569bc32902bd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1ab7f664098ff1179ed37379fb7129143f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1af1109fe0ccfeb0256d900dea711ac55d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1a9c9b14740e3f751058c0142ded64aaae" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1af56c5eb26fc870dd5eed558ae37238a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>_offsetof_colorMap</name></member>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1a01e8e58926ae2016ef95f5f27b9c8f5f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>_offsetof_faceColors</name></member>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1a9ea655d266518eec8796f186c1da0d8e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>_offsetof_texturePerFace</name></member>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1aa6f53d3b43c510d95a57a70d8e9fa109" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>_offsetof_uvCoords</name></member>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1a2cd2dfdc06f1251aafeb7cbaa6bf059a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshAttributesToUpdate_1a2cd2dfdc06f1251aafeb7cbaa6bf059a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshAttributesToUpdate</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

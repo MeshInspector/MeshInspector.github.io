@@ -1,0 +1,202 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ViewportId" kind="class" language="C++" prot="public">
+    <compoundname>MR::ViewportId</compoundname>
+    <includes refid="MRViewportId_8h" local="no">MRViewportId.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1ViewportId_1aa71e71c60f9d878f47cfdd6a56ab1ae3" prot="private" static="no" mutable="no">
+        <type>unsigned</type>
+        <definition>unsigned MR::ViewportId::id_</definition>
+        <argsstring></argsstring>
+        <name>id_</name>
+        <qualifiedname>MR::ViewportId::id_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Allocating IDs on the heap in C is insufferable, so instead we bind them as single-member structs (via <computeroutput>--expose-as-struct</computeroutput>). But since our parser only tracks public members, we have to make it public for C. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="37" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ViewportId_1a2dc04ca2718571d5d0685777467353ab" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ViewportId::ViewportId</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>ViewportId</name>
+        <qualifiedname>MR::ViewportId::ViewportId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="18" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportId_1a15d4db4d1c4f3df25ca2e3b42584cdc5" prot="public" static="no" constexpr="yes" const="no" explicit="yes" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::ViewportId::ViewportId</definition>
+        <argsstring>(unsigned i) noexcept</argsstring>
+        <name>ViewportId</name>
+        <qualifiedname>MR::ViewportId::ViewportId</qualifiedname>
+        <param>
+          <type>unsigned</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="19" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportId_1ab99ee2f5a26f1c0a90438a3628ddc6f2" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsigned</type>
+        <definition>unsigned MR::ViewportId::value</definition>
+        <argsstring>() const</argsstring>
+        <name>value</name>
+        <qualifiedname>MR::ViewportId::value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="21" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportId_1a615a2b1d482575ceedc2ab56c18f76ea" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ViewportId::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::ViewportId::valid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="22" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportId_1aef82f80fd86ebf4743ca7fd46e06f167" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ViewportId::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::ViewportId::operator bool</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="23" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportId_1add1d72585000960f8ebc71f8918c8fe8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ViewportId::operator==</definition>
+        <argsstring>(ViewportId b) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::ViewportId::operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="25" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportId_1a54c8612a503d30a068b86c8331bf8b6b" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ViewportId::operator!=</definition>
+        <argsstring>(ViewportId b) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR::ViewportId::operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportId_1a9acafb652edbb2c91792aa5fec87894f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ViewportId::operator&lt;</definition>
+        <argsstring>(ViewportId b) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>MR::ViewportId::operator&lt;</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportId_1a06112e6b789df5eedf5f0e31a4c21217" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition>ViewportId MR::ViewportId::next</definition>
+        <argsstring>() const</argsstring>
+        <name>next</name>
+        <qualifiedname>MR::ViewportId::next</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="29" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportId_1afa6504fd515c7efdf26552538d25a4a3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition>ViewportId MR::ViewportId::prev</definition>
+        <argsstring>() const</argsstring>
+        <name>prev</name>
+        <qualifiedname>MR::ViewportId::prev</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="30" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>stores unique identifier of a viewport, which is power of two; id=0 has a special meaning of default viewport in some contexts </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="16" bodyend="38"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ViewportId_1aa71e71c60f9d878f47cfdd6a56ab1ae3" prot="private" virt="non-virtual"><scope>MR::ViewportId</scope><name>id_</name></member>
+      <member refid="classMR_1_1ViewportId_1a06112e6b789df5eedf5f0e31a4c21217" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>next</name></member>
+      <member refid="classMR_1_1ViewportId_1aef82f80fd86ebf4743ca7fd46e06f167" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1ViewportId_1a54c8612a503d30a068b86c8331bf8b6b" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ViewportId_1a9acafb652edbb2c91792aa5fec87894f" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>operator&lt;</name></member>
+      <member refid="classMR_1_1ViewportId_1add1d72585000960f8ebc71f8918c8fe8" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1ViewportId_1afa6504fd515c7efdf26552538d25a4a3" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>prev</name></member>
+      <member refid="classMR_1_1ViewportId_1a615a2b1d482575ceedc2ab56c18f76ea" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>valid</name></member>
+      <member refid="classMR_1_1ViewportId_1ab99ee2f5a26f1c0a90438a3628ddc6f2" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>value</name></member>
+      <member refid="classMR_1_1ViewportId_1a2dc04ca2718571d5d0685777467353ab" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>ViewportId</name></member>
+      <member refid="classMR_1_1ViewportId_1a15d4db4d1c4f3df25ca2e3b42584cdc5" prot="public" virt="non-virtual"><scope>MR::ViewportId</scope><name>ViewportId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

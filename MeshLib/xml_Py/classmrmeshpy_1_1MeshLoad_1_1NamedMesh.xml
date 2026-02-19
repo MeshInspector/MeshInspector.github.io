@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshLoad::NamedMesh</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ad7638938dd65f7e5d7a3ae85cf673fcc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_colors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_colors</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_colors</qualifiedname>
+        <initializer>=  328</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32312" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a0fe320f20816e420ce4edf67e8824892" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_diffuseColor</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_diffuseColor</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_diffuseColor</qualifiedname>
+        <initializer>=  400</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32313" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ab308feb6c4163bea39288a556888729b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_duplicatedVertexCount</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_duplicatedVertexCount</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_duplicatedVertexCount</qualifiedname>
+        <initializer>=  460</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32314" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ac917175cd49af18fd1aa886c7afe59ee" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mesh</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_mesh</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a720391e89f5388c67d050caf763099eb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_name</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_name</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_name</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a22964abf8ebee77e930488c33d640d2e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_skippedFaceCount</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_skippedFaceCount</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_skippedFaceCount</qualifiedname>
+        <initializer>=  456</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a69b9afa6cb36c6c1d834b301249ae149" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_textureFiles</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_textureFiles</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_textureFiles</qualifiedname>
+        <initializer>=  352</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32318" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a24964fd2b582ae39c8e5035ea1d42004" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_texturePerFace</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_texturePerFace</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_texturePerFace</qualifiedname>
+        <initializer>=  376</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a7ceae50e8044e275ae221d24f8ba0326" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_uvCoords</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uvCoords</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_uvCoords</qualifiedname>
+        <initializer>=  304</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32320" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a1fa7bb62d841af2ae95d9434b14e77a5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshLoad.NamedMesh::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh._offsetof_xf</qualifiedname>
+        <initializer>=  408</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32321" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1aaa45dc56f28260c3bd37a11faa0f5d3c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.NamedMesh.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32331" bodyend="32332"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a235bdcaa7bc3b421d7aa06ffe61c1dd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh" kindref="compound">MeshLoad.NamedMesh</ref></type>
+        <definition> MeshLoad.NamedMesh mrmeshpy.MeshLoad.NamedMesh.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32335" bodyend="32336"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a235bdcaa7bc3b421d7aa06ffe61c1dd1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh" kindref="compound">MeshLoad.NamedMesh</ref></type>
+        <definition> MeshLoad.NamedMesh mrmeshpy.MeshLoad.NamedMesh.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32339" bodyend="32340"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a424bcaab63205ba108399f5b95c914b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.NamedMesh.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32342" bodyend="32343"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a2dca933081cc7c2e0acb74bff5daa841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.NamedMesh.__init__</definition>
+        <argsstring>(self, MeshLoad.NamedMesh arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh" kindref="compound">MeshLoad.NamedMesh</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32345" bodyend="32348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ac6d23a99cfe7be2d897ac75b12be35c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.NamedMesh.__init__</definition>
+        <argsstring>(self, str name, Mesh mesh, VertCoords2 uvCoords, VertColors colors, Vector_std_filesystem_path_TextureId textureFiles, TexturePerFace texturePerFace, std_optional_Color diffuseColor, AffineXf3f xf, int skippedFaceCount, int duplicatedVertexCount)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>uvCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__filesystem__path__TextureId" kindref="compound">Vector_std_filesystem_path_TextureId</ref></type>
+          <declname>textureFiles</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TexturePerFace" kindref="compound">TexturePerFace</ref></type>
+          <declname>texturePerFace</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Color" kindref="compound">std_optional_Color</ref></type>
+          <declname>diffuseColor</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>skippedFaceCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>duplicatedVertexCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32350" bodyend="32353"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a47f48500939b970e1576cc63ea2da12b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshLoad.NamedMesh.duplicatedVertexCount</definition>
+        <argsstring>(self)</argsstring>
+        <name>duplicatedVertexCount</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.duplicatedVertexCount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>counter of duplicated vertices (that created for resolve non-manifold geometry)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32355" bodyend="32358"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1afb45757ac9dace916e99706aa8cf5c1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.NamedMesh.duplicatedVertexCount</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>duplicatedVertexCount</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.duplicatedVertexCount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32360" bodyend="32361"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ae9aca214dd6221616c1a92ed29dc84ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshLoad.NamedMesh.skippedFaceCount</definition>
+        <argsstring>(self)</argsstring>
+        <name>skippedFaceCount</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.skippedFaceCount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>counter of skipped faces (faces than can&apos;t be created), not zero only if ObjLoadSettings.countSkippedFaces
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32363" bodyend="32366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1aaf0a4abce9cabb08bab45bb745d27f1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.NamedMesh.skippedFaceCount</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>skippedFaceCount</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.skippedFaceCount</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32368" bodyend="32369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a13ecc50b77895b387b011d2b76e7ac7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshLoad.NamedMesh.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>transform of the loaded mesh, not identity only if ObjLoadSettings.customXf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32371" bodyend="32374"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a6bee57bc7e7887b27f48ed9f2d84184e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshLoad.NamedMesh.xf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshLoad.NamedMesh.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32376" bodyend="32378"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshLoad::NamedMesh
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshLoad.NamedMesh</label>
+        <link refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_colors</edgelabel>
+          <edgelabel>_offsetof_diffuseColor</edgelabel>
+          <edgelabel>_offsetof_duplicatedVertexCount</edgelabel>
+          <edgelabel>_offsetof_mesh</edgelabel>
+          <edgelabel>_offsetof_name</edgelabel>
+          <edgelabel>_offsetof_skippedFaceCount</edgelabel>
+          <edgelabel>_offsetof_textureFiles</edgelabel>
+          <edgelabel>_offsetof_texturePerFace</edgelabel>
+          <edgelabel>_offsetof_uvCoords</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32308" bodyend="32377"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1aaa45dc56f28260c3bd37a11faa0f5d3c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a424bcaab63205ba108399f5b95c914b5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a2dca933081cc7c2e0acb74bff5daa841" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ac6d23a99cfe7be2d897ac75b12be35c1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ad7638938dd65f7e5d7a3ae85cf673fcc" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_colors</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a0fe320f20816e420ce4edf67e8824892" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_diffuseColor</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ab308feb6c4163bea39288a556888729b" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_duplicatedVertexCount</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ac917175cd49af18fd1aa886c7afe59ee" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a720391e89f5388c67d050caf763099eb" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_name</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a22964abf8ebee77e930488c33d640d2e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_skippedFaceCount</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a69b9afa6cb36c6c1d834b301249ae149" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_textureFiles</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a24964fd2b582ae39c8e5035ea1d42004" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_texturePerFace</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a7ceae50e8044e275ae221d24f8ba0326" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_uvCoords</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a1fa7bb62d841af2ae95d9434b14e77a5" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a47f48500939b970e1576cc63ea2da12b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>duplicatedVertexCount</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1afb45757ac9dace916e99706aa8cf5c1b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>duplicatedVertexCount</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a235bdcaa7bc3b421d7aa06ffe61c1dd1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a235bdcaa7bc3b421d7aa06ffe61c1dd1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1ae9aca214dd6221616c1a92ed29dc84ea" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>skippedFaceCount</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1aaf0a4abce9cabb08bab45bb745d27f1f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>skippedFaceCount</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a13ecc50b77895b387b011d2b76e7ac7a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh_1a6bee57bc7e7887b27f48ed9f2d84184e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad::NamedMesh</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

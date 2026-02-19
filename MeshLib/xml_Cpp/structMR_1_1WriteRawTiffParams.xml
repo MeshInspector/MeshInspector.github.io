@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WriteRawTiffParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WriteRawTiffParams</compoundname>
+    <includes refid="MRTiffIO_8h" local="no">MRTiffIO.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae3407cfb581b97a1d15af1dcda46f310" kind="variable"><name>baseParams</name></member>
+      <member refid="group__GeneralGroup_1gaaed0d8c11f3aa7212b03821592cd28f0" kind="variable"><name>xf</name></member>
+      <member refid="group__GeneralGroup_1ga1317e078308acc1053202597ce0c7fc5" kind="variable"><name>noData</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseTiffParameters</label>
+        <link refid="structMR_1_1BaseTiffParameters"/>
+      </node>
+      <node id="1">
+        <label>MR::WriteRawTiffParams</label>
+        <link refid="structMR_1_1WriteRawTiffParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>baseParams</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTiffIO.h" bodystart="82" bodyend="88"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae3407cfb581b97a1d15af1dcda46f310" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>baseParams</name></member>
+      <member refid="group__GeneralGroup_1ga1317e078308acc1053202597ce0c7fc5" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>noData</name></member>
+      <member refid="group__GeneralGroup_1gaaed0d8c11f3aa7212b03821592cd28f0" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

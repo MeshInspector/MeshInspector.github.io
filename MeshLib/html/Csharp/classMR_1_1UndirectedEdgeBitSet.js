@@ -2,6 +2,8 @@ var classMR_1_1UndirectedEdgeBitSet =
 [
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#aedab5528715037f8eaa78e1df49bedc3", null ],
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#a2b9d2814771ab6b6d30477dd25f6af46", null ],
+    [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#aee87d70a957a8c06178c0d31d378f665", null ],
+    [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#a57654d71db94fff5f1e5f33c7e16f568", null ],
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#aab63b4bef0e72dd64ba9ec2f24fe72db", null ],
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#a4500c95d65827abaca65d9535719e212", null ],
     [ "UndirectedEdgeBitSet", "classMR_1_1UndirectedEdgeBitSet.html#ab827e68958b7e6bf78c6fe737f6dbd61", null ],
@@ -15,6 +17,7 @@ var classMR_1_1UndirectedEdgeBitSet =
     [ "flip", "classMR_1_1UndirectedEdgeBitSet.html#a8ed44db11642576591c0e27868ba550f", null ],
     [ "flip", "classMR_1_1UndirectedEdgeBitSet.html#a23f37b93418cc1c6677f7b028958d37f", null ],
     [ "flip", "classMR_1_1UndirectedEdgeBitSet.html#a016d87ef640a83900ae3733c5f4b6a6c", null ],
+    [ "operator MR.BitSet", "classMR_1_1UndirectedEdgeBitSet.html#afa8fbf564b358a38ba65ebef43c403f8", null ],
     [ "popBack", "classMR_1_1UndirectedEdgeBitSet.html#a9622dbbcd5dfdcad3892769c4de0aad9", null ],
     [ "pushBack", "classMR_1_1UndirectedEdgeBitSet.html#a35b163b781a8c9b83fda1a8abffdbe41", null ],
     [ "reserve", "classMR_1_1UndirectedEdgeBitSet.html#a7ac6a72908e6a7a3eb804db7b2c09dab", null ],

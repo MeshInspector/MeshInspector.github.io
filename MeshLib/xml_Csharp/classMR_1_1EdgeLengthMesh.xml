@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1EdgeLengthMesh" kind="class" language="C#" prot="public">
+    <compoundname>MR::EdgeLengthMesh</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgeLengthMesh</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1EdgeLengthMesh_1a045debb390ef5dc21b11133a6073bd62" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></type>
+        <definition>new unsafe MR.MeshTopology MR.EdgeLengthMesh.topology</definition>
+        <argsstring></argsstring>
+        <name>topology</name>
+        <qualifiedname>MR.EdgeLengthMesh.topology</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="179" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="179" bodyend="179"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1EdgeLengthMesh_1a69d24808bd69bbcf0f1fd3a9f045bac5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1UndirectedEdgeScalars" kindref="compound">MR.UndirectedEdgeScalars</ref></type>
+        <definition>new unsafe MR.UndirectedEdgeScalars MR.EdgeLengthMesh.edgeLengths</definition>
+        <argsstring></argsstring>
+        <name>edgeLengths</name>
+        <qualifiedname>MR.EdgeLengthMesh.edgeLengths</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="181" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="181" bodyend="181"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1EdgeLengthMesh_1ac0b5852f8e88dd644e74e5a93d2e2a29" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeLengthMesh.EdgeLengthMesh</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>EdgeLengthMesh</name>
+        <qualifiedname>MR.EdgeLengthMesh.EdgeLengthMesh</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="207" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="207" bodyend="211"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1EdgeLengthMesh_1ab55e99ba8a41f51b42eae0df368f7dc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeLengthMesh.EdgeLengthMesh</definition>
+        <argsstring>()</argsstring>
+        <name>EdgeLengthMesh</name>
+        <qualifiedname>MR.EdgeLengthMesh.EdgeLengthMesh</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="217" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="217" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeLengthMesh_1a6838cc3c2aa187e386fd6e4a762418da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeLengthMesh.EdgeLengthMesh</definition>
+        <argsstring>(MR._ByValue_MeshTopology topology, MR._ByValue_UndirectedEdgeScalars edgeLengths)</argsstring>
+        <name>EdgeLengthMesh</name>
+        <qualifiedname>MR.EdgeLengthMesh.EdgeLengthMesh</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeScalars</type>
+          <declname>edgeLengths</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1EdgeLengthMesh" kindref="compound">MR.EdgeLengthMesh</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="228" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="228" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeLengthMesh_1a915461d17320c966d0186c32c99b1428" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeLengthMesh.EdgeLengthMesh</definition>
+        <argsstring>(MR._ByValue_EdgeLengthMesh _other)</argsstring>
+        <name>EdgeLengthMesh</name>
+        <qualifiedname>MR.EdgeLengthMesh.EdgeLengthMesh</qualifiedname>
+        <param>
+          <type>MR._ByValue_EdgeLengthMesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.EdgeLengthMesh.EdgeLengthMesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="241" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="241" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeLengthMesh_1aafde74c38cb9a4983d423f9a8957663c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.EdgeLengthMesh.EdgeLengthMesh</definition>
+        <argsstring>(Const_EdgeLengthMesh _other)</argsstring>
+        <name>EdgeLengthMesh</name>
+        <qualifiedname>MR.EdgeLengthMesh.EdgeLengthMesh</qualifiedname>
+        <param>
+          <type>Const_EdgeLengthMesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.EdgeLengthMesh.EdgeLengthMesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="253" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="253" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeLengthMesh_1a61bd9819b5683c378778a6a7e80d16bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.EdgeLengthMesh.EdgeLengthMesh</definition>
+        <argsstring>(EdgeLengthMesh _other)</argsstring>
+        <name>EdgeLengthMesh</name>
+        <qualifiedname>MR.EdgeLengthMesh.EdgeLengthMesh</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1EdgeLengthMesh" kindref="compound">EdgeLengthMesh</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.EdgeLengthMesh.EdgeLengthMesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="258" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="258" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeLengthMesh_1add454eb6806e41aed595b8efa5588839" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgeLengthMesh" kindref="compound">MR.EdgeLengthMesh</ref></type>
+        <definition>unsafe MR.EdgeLengthMesh MR.EdgeLengthMesh.assign</definition>
+        <argsstring>(MR._ByValue_EdgeLengthMesh _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.EdgeLengthMesh.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_EdgeLengthMesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeLengthMesh.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="263" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="263" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeLengthMesh_1a475440e95dc0242144686642bb22ecad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.EdgeLengthMesh.flipEdge</definition>
+        <argsstring>(MR.EdgeId e)</argsstring>
+        <name>flipEdge</name>
+        <qualifiedname>MR.EdgeLengthMesh.flipEdge</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>given the edge with left and right triangular faces, which form together a quadrangle, rotates the edge counter-clockwise inside the quadrangle; the length of e becomes equal to the length of geodesic line between its new ends on original mesh; does not flip and returns false if the geodesic line does not go fully inside the quadrangle Generated from method <computeroutput><ref refid="classMR_1_1EdgeLengthMesh_1a475440e95dc0242144686642bb22ecad" kindref="member">MR.EdgeLengthMesh.flipEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="279" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="279" bodyend="284"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Unlike the classic mesh that stores coordinates of its vertices, this class stores the lengths of all edges. It can be used for construction of intrinsic Intrinsic Delaunay Triangulations. Generated from class <computeroutput><ref refid="classMR_1_1EdgeLengthMesh" kindref="compound">MR.EdgeLengthMesh</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_EdgeLengthMesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.EdgeLengthMesh</label>
+        <link refid="classMR_1_1EdgeLengthMesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_EdgeLengthMesh &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_EdgeLengthMesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.EdgeLengthMesh</label>
+        <link refid="classMR_1_1EdgeLengthMesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_EdgeLengthMesh &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" line="177" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MREdgeLengthMesh.cs" bodystart="178" bodyend="285"/>
+    <listofallmembers>
+      <member refid="classMR_1_1EdgeLengthMesh_1add454eb6806e41aed595b8efa5588839" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>assign</name></member>
+      <member refid="classMR_1_1EdgeLengthMesh_1ac0b5852f8e88dd644e74e5a93d2e2a29" prot="package" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1EdgeLengthMesh_1ab55e99ba8a41f51b42eae0df368f7dc3" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1EdgeLengthMesh_1a6838cc3c2aa187e386fd6e4a762418da" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1EdgeLengthMesh_1a915461d17320c966d0186c32c99b1428" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1EdgeLengthMesh_1aafde74c38cb9a4983d423f9a8957663c" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1EdgeLengthMesh_1a61bd9819b5683c378778a6a7e80d16bd" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>EdgeLengthMesh</name></member>
+      <member refid="classMR_1_1EdgeLengthMesh_1a69d24808bd69bbcf0f1fd3a9f045bac5" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>edgeLengths</name></member>
+      <member refid="classMR_1_1EdgeLengthMesh_1a475440e95dc0242144686642bb22ecad" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>flipEdge</name></member>
+      <member refid="classMR_1_1EdgeLengthMesh_1a045debb390ef5dc21b11133a6073bd62" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>topology</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

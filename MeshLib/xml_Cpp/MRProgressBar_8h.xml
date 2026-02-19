@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRProgressBar_8h" kind="file" language="C++">
+    <compoundname>MRProgressBar.h</compoundname>
+    <includes local="yes">exports.h</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">string</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRProgressBar.h</label>
+        <link refid="MRProgressBar_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>exports.h</label>
+      </node>
+      <node id="3">
+        <label>functional</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1ProgressBar">MR::ProgressBar</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="namespaceMR_1_1ProgressBar" refkind="compound"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ProgressBar</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga096de280a40715b2c4db2b4ccfeb821d" refkind="member"><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga096de280a40715b2c4db2b4ccfeb821d" kindref="member">TaskWithMainThreadPostProcessing</ref><sp/>=<sp/>std::function&lt;<sp/>std::function&lt;void()&gt;()<sp/>&gt;;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gaa25a776012fb8df34ee05b32461a2157" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa25a776012fb8df34ee05b32461a2157" kindref="member">setup</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga3b821f82af9dc3569878e8352c4c333c" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3b821f82af9dc3569878e8352c4c333c" kindref="member">onFrameEnd</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1gad694eb3ebaed27434a4adc6f85c929e6" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad694eb3ebaed27434a4adc6f85c929e6" kindref="member">order</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">()&gt;&amp;<sp/>task,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>taskCount<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga7d0e6075106a9a6b38e64db60695d5e7" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga7d0e6075106a9a6b38e64db60695d5e7" kindref="member">orderWithMainThreadPostProcessing</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/>name,<sp/><ref refid="group__GeneralGroup_1ga096de280a40715b2c4db2b4ccfeb821d" kindref="member">TaskWithMainThreadPostProcessing</ref><sp/>task,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>taskCount<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1ga839e7d4663be090de8691580d7227c12" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga839e7d4663be090de8691580d7227c12" kindref="member">orderWithManualFinish</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>name,<sp/>std::function&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>()&gt;<sp/>task,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>taskCount<sp/>=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga17865bb846061f43e17a0ad267ca598a" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga17865bb846061f43e17a0ad267ca598a" kindref="member">isCanceled</ref>();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1gabd6ace0900add6a59ee1539dffc5d961" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gabd6ace0900add6a59ee1539dffc5d961" kindref="member">isFinished</ref>();</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1ga2128baeb61b280fe1a9fce7857599070" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2128baeb61b280fe1a9fce7857599070" kindref="member">getProgress</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga5e2f2d57df60a5d91c509ce0f4a65d4d" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5e2f2d57df60a5d91c509ce0f4a65d4d" kindref="member">getLastOperationTime</ref>();</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1gab66618d001f8cbce3e0a07b2b4dde0af" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="group__GeneralGroup_1gab66618d001f8cbce3e0a07b2b4dde0af" kindref="member">getLastOperationTitle</ref>();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1gaa2bbcde88ff779122f16150fa6de08eb" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2bbcde88ff779122f16150fa6de08eb" kindref="member">nextTask</ref>();</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga01e2c488a5c5dea28c7203cfbfbfd0f1" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2bbcde88ff779122f16150fa6de08eb" kindref="member">nextTask</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>s);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="group__GeneralGroup_1gae692760ee83b399be6653c81468172ea" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae692760ee83b399be6653c81468172ea" kindref="member">setTaskCount</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n<sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="group__GeneralGroup_1ga08670326b3d5427ad65c0583c83ff4ee" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga08670326b3d5427ad65c0583c83ff4ee" kindref="member">forceSetTaskName</ref>(<sp/>std::string<sp/>taskName<sp/>);</highlight></codeline>
+<codeline lineno="57" refid="group__GeneralGroup_1gaa2b9b5f5b7a526d0721702a144530d7f" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa2b9b5f5b7a526d0721702a144530d7f" kindref="member">resetTaskName</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1gaf847e27a1f34b2b07a29272ef2fb9e88" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf847e27a1f34b2b07a29272ef2fb9e88" kindref="member">finish</ref>();</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="group__GeneralGroup_1ga88739d4c0d7055aa89a69172041cb925" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga88739d4c0d7055aa89a69172041cb925" kindref="member">isOrdered</ref>();</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1ga1abb6f1a99317df23eca0b7dab5ca9d4" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1abb6f1a99317df23eca0b7dab5ca9d4" kindref="member">setProgress</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1ga2682696e53c15a5fbb804436938b94ef" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2682696e53c15a5fbb804436938b94ef" kindref="member">callBackSetProgress</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p<sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="group__GeneralGroup_1ga481e32fa95706159e765a2da757f57c0" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga481e32fa95706159e765a2da757f57c0" kindref="member">simpleCallBackSetProgress</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>p<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="group__GeneralGroup_1gae694b1e02bb163d667aaca266f472606" refkind="member"><highlight class="normal">MRVIEWER_API<sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae694b1e02bb163d667aaca266f472606" kindref="member">printTimingTree</ref>(<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>minTimeSec<sp/>=<sp/>0.1<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRProgressBar.h"/>
+  </compounddef>
+</doxygen>

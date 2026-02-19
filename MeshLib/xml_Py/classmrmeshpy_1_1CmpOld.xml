@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CmpOld" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CmpOld</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CmpOld_1acb729515dfcd8286890b98b60c4e3153" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CmpOld.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CmpOld.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9466" bodyend="9467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CmpOld_1aa4619cd3191f316f89d7b97403050bde" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CmpOld" kindref="compound">CmpOld</ref></type>
+        <definition> CmpOld mrmeshpy.CmpOld.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CmpOld.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9470" bodyend="9471"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CmpOld_1aa4619cd3191f316f89d7b97403050bde" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CmpOld" kindref="compound">CmpOld</ref></type>
+        <definition> CmpOld mrmeshpy.CmpOld.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CmpOld.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9474" bodyend="9475"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CmpOld_1ac7a5dce510c50fb8c632044e5040d1be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CmpOld.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CmpOld.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9477" bodyend="9478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CmpOld_1a1b609e765b52aaa074ba5f97b887f20c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CmpOld.__init__</definition>
+        <argsstring>(self, CmpOld arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CmpOld.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CmpOld" kindref="compound">CmpOld</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9480" bodyend="9483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CmpOld_1ac7a5dce510c50fb8c632044e5040d1be" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CmpOld.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CmpOld.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9485" bodyend="9488"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CmpOld
+
+argument of this type indicates that the object is already in new state, and the following argument is old state
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9458" bodyend="9488"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CmpOld_1acb729515dfcd8286890b98b60c4e3153" prot="public" virt="non-virtual"><scope>mrmeshpy::CmpOld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CmpOld_1ac7a5dce510c50fb8c632044e5040d1be" prot="public" virt="non-virtual"><scope>mrmeshpy::CmpOld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CmpOld_1a1b609e765b52aaa074ba5f97b887f20c" prot="public" virt="non-virtual"><scope>mrmeshpy::CmpOld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CmpOld_1ac7a5dce510c50fb8c632044e5040d1be" prot="public" virt="non-virtual"><scope>mrmeshpy::CmpOld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CmpOld_1aa4619cd3191f316f89d7b97403050bde" prot="public" virt="non-virtual"><scope>mrmeshpy::CmpOld</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CmpOld_1aa4619cd3191f316f89d7b97403050bde" prot="public" virt="non-virtual"><scope>mrmeshpy::CmpOld</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

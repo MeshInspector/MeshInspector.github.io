@@ -151,8 +151,8 @@ $(function(){initNavTree('MRProgressReadWrite_8h.html',''); initResizable(true);
   <div class="headertitle"><div class="title">MRProgressReadWrite.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;MRCMisc/common.h&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MRProgressReadWrite_8h_source.html">Go to the source code of this file.</a></p>
@@ -168,10 +168,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a89ad8ff1f49745769476cde3c647b493" id="r_a89ad8ff1f49745769476cde3c647b493"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89ad8ff1f49745769476cde3c647b493">MR_writeByBlocks</a> (<a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const char *data, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> dataSize, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback, const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *blockSize)</td></tr>
+<tr class="memitem:a89ad8ff1f49745769476cde3c647b493" id="r_a89ad8ff1f49745769476cde3c647b493"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89ad8ff1f49745769476cde3c647b493">MR_writeByBlocks</a> (<a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *out, const char *data, MR_uint64_t dataSize, MR_PassBy callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback, const MR_uint64_t *blockSize)</td></tr>
 <tr class="memdesc:a89ad8ff1f49745769476cde3c647b493"><td class="mdescLeft">&#160;</td><td class="mdescRight">write dataSize bytes from data to out stream by blocks blockSize bytes  <br /></td></tr>
 <tr class="separator:a89ad8ff1f49745769476cde3c647b493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4751947e02c8323fdad515661414d007" id="r_a4751947e02c8323fdad515661414d007"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4751947e02c8323fdad515661414d007">MR_readByBlocks</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, char *data, <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> dataSize, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback, const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *blockSize)</td></tr>
+<tr class="memitem:a4751947e02c8323fdad515661414d007" id="r_a4751947e02c8323fdad515661414d007"><td class="memItemLeft" align="right" valign="top">MRC_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4751947e02c8323fdad515661414d007">MR_readByBlocks</a> (<a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *in, char *data, MR_uint64_t dataSize, MR_PassBy callback_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *callback, const MR_uint64_t *blockSize)</td></tr>
 <tr class="memdesc:a4751947e02c8323fdad515661414d007"><td class="mdescLeft">&#160;</td><td class="mdescRight">read dataSize bytes from in stream to data by blocks blockSize bytes  <br /></td></tr>
 <tr class="separator:a4751947e02c8323fdad515661414d007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -226,7 +226,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_readByBlocks </td>
+          <td class="memname">MRC_API bool MR_readByBlocks </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#aef22a11476e76208a3f9a5cf2eba4c98">MR_std_istream</a> *</td>          <td class="paramname"><span class="paramname"><em>in</em></span>, </td>
         </tr>
@@ -238,12 +238,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>, </td>
+          <td class="paramtype">MR_uint64_t</td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>callback_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>callback_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -253,13 +253,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
+          <td class="paramtype">const MR_uint64_t *</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>read dataSize bytes from in stream to data by blocks blockSize bytes </p>
-<p>if progress callback is not set, read all data by one block </p><dl class="section return"><dt>Returns</dt><dd>false if process was canceled (callback is set and return false ) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a43da20cc5f0077147d57b1af6226aa53">MR::readByBlocks</a></code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>blockSize</code> has a default argument: <code>(size_t(1)&lt;&lt;16)</code>, pass a null pointer to use it. </dd></dl>
+<p>if progress callback is not set, read all data by one block </p><dl class="section return"><dt>Returns</dt><dd>false if process was canceled (callback is set and return false ) Generated from function <code>MR::readByBlocks</code>. Parameter <code>in</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>blockSize</code> has a default argument: <code>(size_t(1)&lt;&lt;16)</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>
@@ -270,7 +270,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool MR_writeByBlocks </td>
+          <td class="memname">MRC_API bool MR_writeByBlocks </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a933fad1748853c0c595a157b9f6527c6">MR_std_ostream</a> *</td>          <td class="paramname"><span class="paramname"><em>out</em></span>, </td>
         </tr>
@@ -282,12 +282,12 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a></td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>, </td>
+          <td class="paramtype">MR_uint64_t</td>          <td class="paramname"><span class="paramname"><em>dataSize</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>callback_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>callback_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -297,13 +297,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> *</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
+          <td class="paramtype">const MR_uint64_t *</td>          <td class="paramname"><span class="paramname"><em>blockSize</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>write dataSize bytes from data to out stream by blocks blockSize bytes </p>
-<p>if progress callback is not set, write all data by one block </p><dl class="section return"><dt>Returns</dt><dd>false if process was canceled (callback is set and return false ) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a60a133e9f349b9183017b2b4abaf1b9b">MR::writeByBlocks</a></code>. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>blockSize</code> has a default argument: <code>(size_t(1)&lt;&lt;16)</code>, pass a null pointer to use it. </dd></dl>
+<p>if progress callback is not set, write all data by one block </p><dl class="section return"><dt>Returns</dt><dd>false if process was canceled (callback is set and return false ) Generated from function <code>MR::writeByBlocks</code>. Parameter <code>out</code> can not be null. It is a single object. Parameter <code>callback</code> has a default argument: <code>{}</code>, pass <code>MR_PassBy_DefaultArgument</code> and a null pointer to use it. Parameter <code>blockSize</code> has a default argument: <code>(size_t(1)&lt;&lt;16)</code>, pass a null pointer to use it. </dd></dl>
 
 </div>
 </div>

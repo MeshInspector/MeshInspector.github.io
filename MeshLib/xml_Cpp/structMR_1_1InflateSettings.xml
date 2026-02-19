@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1InflateSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::InflateSettings</compoundname>
+    <includes refid="MRPositionVertsSmoothly_8h" local="no">MRPositionVertsSmoothly.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2b56de5e320c04500550d57d852fbb7b" kind="variable"><name>pressure</name></member>
+      <member refid="group__GeneralGroup_1ga81342d048666014aff4d0999d92c9d50" kind="variable"><name>iterations</name></member>
+      <member refid="group__GeneralGroup_1ga0e7308020ddff9486f3d7673bb03a4b5" kind="variable"><name>preSmooth</name></member>
+      <member refid="group__GeneralGroup_1ga01eec1ee9ce09177388ba2eb6097a88a" kind="variable"><name>gradualPressureGrowth</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="71" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="72" bodyend="85"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga01eec1ee9ce09177388ba2eb6097a88a" prot="public" virt="non-virtual"><scope>MR::InflateSettings</scope><name>gradualPressureGrowth</name></member>
+      <member refid="group__GeneralGroup_1ga81342d048666014aff4d0999d92c9d50" prot="public" virt="non-virtual"><scope>MR::InflateSettings</scope><name>iterations</name></member>
+      <member refid="group__GeneralGroup_1ga0e7308020ddff9486f3d7673bb03a4b5" prot="public" virt="non-virtual"><scope>MR::InflateSettings</scope><name>preSmooth</name></member>
+      <member refid="group__GeneralGroup_1ga2b56de5e320c04500550d57d852fbb7b" prot="public" virt="non-virtual"><scope>MR::InflateSettings</scope><name>pressure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

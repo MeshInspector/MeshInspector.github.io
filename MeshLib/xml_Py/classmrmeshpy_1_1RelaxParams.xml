@@ -1,0 +1,609 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RelaxParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RelaxParams</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1MeshRelaxParams" prot="public" virt="non-virtual">mrmeshpy.MeshRelaxParams</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1PointCloudRelaxParams" prot="public" virt="non-virtual">mrmeshpy.PointCloudRelaxParams</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RelaxParams_1a0abc4540e7a1dceca05532f83805798d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RelaxParams::_offsetof_force</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_force</name>
+        <qualifiedname>mrmeshpy.RelaxParams._offsetof_force</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49969" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RelaxParams_1a4dbf7abbad7ece06d51acae2564f3f4d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RelaxParams::_offsetof_iterations</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_iterations</name>
+        <qualifiedname>mrmeshpy.RelaxParams._offsetof_iterations</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49970" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RelaxParams_1af24b5738eccaa7ecbc122678716b8851" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RelaxParams::_offsetof_limitNearInitial</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_limitNearInitial</name>
+        <qualifiedname>mrmeshpy.RelaxParams._offsetof_limitNearInitial</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49971" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RelaxParams_1a0b92ca2a90aaf638d65383b75a82661f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RelaxParams::_offsetof_maxInitialDist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxInitialDist</name>
+        <qualifiedname>mrmeshpy.RelaxParams._offsetof_maxInitialDist</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49972" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RelaxParams_1a880bc11dc81254d52fa31ad35b44fa7e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RelaxParams::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.RelaxParams._offsetof_region</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49973" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RelaxParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RelaxParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1ae8a71231f773b03dfafc220e96a3ceed">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1affa29ba69fd1bf324019147f24aec9b9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1a65c083f5f6f0fb5da35fc4afcf7161ad">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1ad442428ab0d730dafed732399a3cc505">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1ad626119857c15031a005591125ba370f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1aabe8a2ac2f28ef74378cb8520ef0b8ab">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a52a0acb2ff13aee7b196785914958a3c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a4eff4b908520ae705c34b99b52b0daf6">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49976" bodyend="49977"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RelaxParams" kindref="compound">RelaxParams</ref></type>
+        <definition> RelaxParams mrmeshpy.RelaxParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RelaxParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1aa8dfbef0f492404bc83974af3822e085">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1aa8dfbef0f492404bc83974af3822e085">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a29fac2628393dcf393b94c8fee111a8d">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a29fac2628393dcf393b94c8fee111a8d">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49980" bodyend="49981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RelaxParams" kindref="compound">RelaxParams</ref></type>
+        <definition> RelaxParams mrmeshpy.RelaxParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RelaxParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1aa8dfbef0f492404bc83974af3822e085">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1aa8dfbef0f492404bc83974af3822e085">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a29fac2628393dcf393b94c8fee111a8d">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a29fac2628393dcf393b94c8fee111a8d">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49984" bodyend="49985"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1afd31167e135be967a3382800f93ee6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RelaxParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RelaxParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1ae8a71231f773b03dfafc220e96a3ceed">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1affa29ba69fd1bf324019147f24aec9b9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1a65c083f5f6f0fb5da35fc4afcf7161ad">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1ad442428ab0d730dafed732399a3cc505">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1ad626119857c15031a005591125ba370f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1aabe8a2ac2f28ef74378cb8520ef0b8ab">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a52a0acb2ff13aee7b196785914958a3c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a4eff4b908520ae705c34b99b52b0daf6">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49987" bodyend="49988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a386c6a81559a1035881bd09b3edbcc15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RelaxParams.__init__</definition>
+        <argsstring>(self, RelaxParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RelaxParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1ae8a71231f773b03dfafc220e96a3ceed">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1affa29ba69fd1bf324019147f24aec9b9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1a65c083f5f6f0fb5da35fc4afcf7161ad">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1ad442428ab0d730dafed732399a3cc505">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1ad626119857c15031a005591125ba370f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1aabe8a2ac2f28ef74378cb8520ef0b8ab">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a52a0acb2ff13aee7b196785914958a3c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a4eff4b908520ae705c34b99b52b0daf6">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RelaxParams" kindref="compound">RelaxParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49990" bodyend="49993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a38f5ed723e55b8c5e9909b0583218fb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RelaxParams.__init__</definition>
+        <argsstring>(self, int iterations, VertBitSet region, float force, bool limitNearInitial, float maxInitialDist)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RelaxParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1ae8a71231f773b03dfafc220e96a3ceed">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshRelaxParams_1affa29ba69fd1bf324019147f24aec9b9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1a65c083f5f6f0fb5da35fc4afcf7161ad">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1ad442428ab0d730dafed732399a3cc505">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudApproxRelaxParams_1ad626119857c15031a005591125ba370f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1aabe8a2ac2f28ef74378cb8520ef0b8ab">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a52a0acb2ff13aee7b196785914958a3c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointCloudRelaxParams_1a4eff4b908520ae705c34b99b52b0daf6">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>force</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>limitNearInitial</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxInitialDist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49995" bodyend="49998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a50cf8dcf97e972a6edc0d47c1ee1dd3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RelaxParams.force</definition>
+        <argsstring>(self)</argsstring>
+        <name>force</name>
+        <qualifiedname>mrmeshpy.RelaxParams.force</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>speed of relaxing, typical values (0.0, 0.5]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50000" bodyend="50003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a13bf0dd030baeca317670c6d33c74fe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RelaxParams.force</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>force</name>
+        <qualifiedname>mrmeshpy.RelaxParams.force</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50005" bodyend="50006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a68f885712a7a1f4522fddc1eaa0d163c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RelaxParams.iterations</definition>
+        <argsstring>(self)</argsstring>
+        <name>iterations</name>
+        <qualifiedname>mrmeshpy.RelaxParams.iterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>number of iterations
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50008" bodyend="50011"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a35e06939d6f9c2868a2009ba180cdf83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RelaxParams.iterations</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>iterations</name>
+        <qualifiedname>mrmeshpy.RelaxParams.iterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50013" bodyend="50014"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1ab6ff32ad8ff49d4f9e37b09d63a4bbee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RelaxParams.limitNearInitial</definition>
+        <argsstring>(self)</argsstring>
+        <name>limitNearInitial</name>
+        <qualifiedname>mrmeshpy.RelaxParams.limitNearInitial</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true then maximal displacement of each point during denoising will be limited
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50016" bodyend="50019"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a78d217d8e068c4182eaf9a88db99d486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RelaxParams.limitNearInitial</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>limitNearInitial</name>
+        <qualifiedname>mrmeshpy.RelaxParams.limitNearInitial</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50021" bodyend="50022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a9a5588d458a45c4730429d7fa4e1d45e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RelaxParams.maxInitialDist</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxInitialDist</name>
+        <qualifiedname>mrmeshpy.RelaxParams.maxInitialDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50024" bodyend="50027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1abbbd4e47677582624306fbf6d815071e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RelaxParams.maxInitialDist</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxInitialDist</name>
+        <qualifiedname>mrmeshpy.RelaxParams.maxInitialDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50029" bodyend="50030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1a3c50015019e887ebe84ccf46a5eb5526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.RelaxParams.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.RelaxParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>region to relax
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50032" bodyend="50035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RelaxParams_1ada1587f87d7047c2c5ef3bdf29526932" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RelaxParams.region</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.RelaxParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50037" bodyend="50038"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RelaxParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.RelaxParams</label>
+        <link refid="classmrmeshpy_1_1RelaxParams"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.MeshApproxRelaxParams</label>
+        <link refid="classmrmeshpy_1_1MeshApproxRelaxParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.MeshEqualizeTriAreasParams</label>
+        <link refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeshRelaxParams</label>
+        <link refid="classmrmeshpy_1_1MeshRelaxParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.PointCloudApproxRelaxParams</label>
+        <link refid="classmrmeshpy_1_1PointCloudApproxRelaxParams"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.PointCloudRelaxParams</label>
+        <link refid="classmrmeshpy_1_1PointCloudRelaxParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.RelaxParams</label>
+        <link refid="classmrmeshpy_1_1RelaxParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_force</edgelabel>
+          <edgelabel>_offsetof_iterations</edgelabel>
+          <edgelabel>_offsetof_limitNearInitial</edgelabel>
+          <edgelabel>_offsetof_maxInitialDist</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49965" bodyend="50038"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1afd31167e135be967a3382800f93ee6c3" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a386c6a81559a1035881bd09b3edbcc15" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a38f5ed723e55b8c5e9909b0583218fb7" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a0abc4540e7a1dceca05532f83805798d" prot="protected" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>_offsetof_force</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a4dbf7abbad7ece06d51acae2564f3f4d" prot="protected" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>_offsetof_iterations</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1af24b5738eccaa7ecbc122678716b8851" prot="protected" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>_offsetof_limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a0b92ca2a90aaf638d65383b75a82661f" prot="protected" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>_offsetof_maxInitialDist</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a880bc11dc81254d52fa31ad35b44fa7e" prot="protected" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a50cf8dcf97e972a6edc0d47c1ee1dd3e" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>force</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a13bf0dd030baeca317670c6d33c74fe4" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>force</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a68f885712a7a1f4522fddc1eaa0d163c" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a35e06939d6f9c2868a2009ba180cdf83" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>iterations</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1ab6ff32ad8ff49d4f9e37b09d63a4bbee" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a78d217d8e068c4182eaf9a88db99d486" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a9a5588d458a45c4730429d7fa4e1d45e" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>maxInitialDist</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1abbbd4e47677582624306fbf6d815071e" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>maxInitialDist</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1a3c50015019e887ebe84ccf46a5eb5526" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1RelaxParams_1ada1587f87d7047c2c5ef3bdf29526932" prot="public" virt="non-virtual"><scope>mrmeshpy::RelaxParams</scope><name>region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

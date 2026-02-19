@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonMenuItem" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::RibbonMenuItem</compoundname>
+    <basecompoundref refid="classMR_1_1ISceneStateCheck" prot="public" virt="virtual">MR::ISceneStateCheck</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem" prot="public" virt="non-virtual">MR::CaptureScreenshotToClipBoardMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1CaptureUIScreenshotMenuItem" prot="public" virt="non-virtual">MR::CaptureUIScreenshotMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1DrawViewportWidgetsItem" prot="public" virt="non-virtual">MR::DrawViewportWidgetsItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1FitDataMenuItem" prot="public" virt="non-virtual">MR::FitDataMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1FitSelectedObjectsMenuItem" prot="public" virt="non-virtual">MR::FitSelectedObjectsMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1FitSelectedPrimitivesMenuItem" prot="public" virt="non-virtual">MR::FitSelectedPrimitivesMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1LambdaRibbonItem" prot="public" virt="non-virtual">MR::LambdaRibbonItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1MeshModifier" prot="public" virt="non-virtual">MR::MeshModifier</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1OpenDICOMsMenuItem" prot="public" virt="non-virtual">MR::OpenDICOMsMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1OpenDirectoryMenuItem" prot="public" virt="non-virtual">MR::OpenDirectoryMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1OpenFilesMenuItem" prot="public" virt="non-virtual">MR::OpenFilesMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RedoMenuItem" prot="public" virt="non-virtual">MR::RedoMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ResetSceneMenuItem" prot="public" virt="non-virtual">MR::ResetSceneMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneHideAll" prot="public" virt="non-virtual">MR::RibbonSceneHideAll</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneRemoveSelected" prot="public" virt="non-virtual">MR::RibbonSceneRemoveSelected</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneRename" prot="public" virt="non-virtual">MR::RibbonSceneRename</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneSelectAll" prot="public" virt="non-virtual">MR::RibbonSceneSelectAll</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneShowAll" prot="public" virt="non-virtual">MR::RibbonSceneShowAll</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneShowOnlyNext" prot="public" virt="non-virtual">MR::RibbonSceneShowOnlyNext</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneShowOnlyPrev" prot="public" virt="non-virtual">MR::RibbonSceneShowOnlyPrev</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneSortByName" prot="public" virt="non-virtual">MR::RibbonSceneSortByName</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RibbonSceneUnselectAll" prot="public" virt="non-virtual">MR::RibbonSceneUnselectAll</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SaveObjectMenuItem" prot="public" virt="non-virtual">MR::SaveObjectMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SaveSceneAsMenuItem" prot="public" virt="non-virtual">MR::SaveSceneAsMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SaveSelectedMenuItem" prot="public" virt="non-virtual">MR::SaveSelectedMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SetViewPresetMenuItem" prot="public" virt="non-virtual">MR::SetViewPresetMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SetViewportConfigPresetMenuItem" prot="public" virt="non-virtual">MR::SetViewportConfigPresetMenuItem</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1StateBasePlugin" prot="public" virt="non-virtual">MR::StateBasePlugin</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1UndoMenuItem" prot="public" virt="non-virtual">MR::UndoMenuItem</derivedcompoundref>
+    <includes refid="MRRibbonMenuItem_8h" local="no">MRRibbonMenuItem.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" kind="typedef"><name>DropItemsList</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" kind="variable"><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" kind="variable"><name>dropList_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaa2761ae0f93e5eaa003abc2f797fa119" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" kind="function"><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" kind="function"><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" kind="function"><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" kind="function"><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" kind="function"><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" kind="function"><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" kind="function"><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" kind="function"><name>type</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" kind="function"><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" kind="function"><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" kind="function"><name>getDynamicTooltip</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>class to hold menu items some information stored in json (icons path, tab name, subtab name) </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::CaptureScreenshotToClipBoardMenuItem</label>
+        <link refid="classMR_1_1CaptureScreenshotToClipBoardMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::CaptureUIScreenshotMenuItem</label>
+        <link refid="classMR_1_1CaptureUIScreenshotMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::DrawViewportWidgetsItem</label>
+        <link refid="classMR_1_1DrawViewportWidgetsItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::FitDataMenuItem</label>
+        <link refid="classMR_1_1FitDataMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::FitSelectedObjectsMenuItem</label>
+        <link refid="classMR_1_1FitSelectedObjectsMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::FitSelectedPrimitivesMenuItem</label>
+        <link refid="classMR_1_1FitSelectedPrimitivesMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="9">
+        <label>MR::LambdaRibbonItem</label>
+        <link refid="classMR_1_1LambdaRibbonItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::MeshModifier</label>
+        <link refid="classMR_1_1MeshModifier"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MR::MoveObjectByMouse</label>
+        <link refid="classMR_1_1MoveObjectByMouse"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::OpenDICOMsMenuItem</label>
+        <link refid="classMR_1_1OpenDICOMsMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::OpenDirectoryMenuItem</label>
+        <link refid="classMR_1_1OpenDirectoryMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::OpenFilesMenuItem</label>
+        <link refid="classMR_1_1OpenFilesMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::RedoMenuItem</label>
+        <link refid="classMR_1_1RedoMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::ResetSceneMenuItem</label>
+        <link refid="classMR_1_1ResetSceneMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::RibbonSceneHideAll</label>
+        <link refid="classMR_1_1RibbonSceneHideAll"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::RibbonSceneRemoveSelected</label>
+        <link refid="classMR_1_1RibbonSceneRemoveSelected"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::RibbonSceneRename</label>
+        <link refid="classMR_1_1RibbonSceneRename"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MR::RibbonSceneSelectAll</label>
+        <link refid="classMR_1_1RibbonSceneSelectAll"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MR::RibbonSceneShowAll</label>
+        <link refid="classMR_1_1RibbonSceneShowAll"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MR::RibbonSceneShowOnlyNext</label>
+        <link refid="classMR_1_1RibbonSceneShowOnlyNext"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MR::RibbonSceneShowOnlyPrev</label>
+        <link refid="classMR_1_1RibbonSceneShowOnlyPrev"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MR::RibbonSceneSortByName</label>
+        <link refid="classMR_1_1RibbonSceneSortByName"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MR::RibbonSceneUnselectAll</label>
+        <link refid="classMR_1_1RibbonSceneUnselectAll"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MR::SaveObjectMenuItem</label>
+        <link refid="classMR_1_1SaveObjectMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MR::SaveSceneAsMenuItem</label>
+        <link refid="classMR_1_1SaveSceneAsMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MR::SaveSceneMenuItem</label>
+        <link refid="classMR_1_1SaveSceneMenuItem"/>
+        <childnode refid="26" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MR::SaveSelectedMenuItem</label>
+        <link refid="classMR_1_1SaveSelectedMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MR::SelectObjectByClick</label>
+        <link refid="classMR_1_1SelectObjectByClick"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MR::SetViewPresetMenuItem</label>
+        <link refid="classMR_1_1SetViewPresetMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MR::SetViewportConfigPresetMenuItem</label>
+        <link refid="classMR_1_1SetViewportConfigPresetMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MR::UndoMenuItem</label>
+        <link refid="classMR_1_1UndoMenuItem"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuItem.h" bodystart="23" bodyend="69"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga4af847e120965263839d2628cf7dd979" prot="public" virt="pure-virtual"><scope>MR::RibbonMenuItem</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaa2761ae0f93e5eaa003abc2f797fa119" prot="private" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::RibbonMenuItem</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::RibbonMenuItem</scope><name>~RibbonMenuItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,800 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Box" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Box</compoundname>
+    <includes refid="MRBox_8h" local="no">MRBox.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1Box_1a72642a4bb313d2774abf257cefe1f2f0" prot="public" static="no">
+        <type><ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits</ref>&lt; V &gt;</type>
+        <definition>using MR::Box&lt; V &gt;::VTraits =  VectorTraits&lt;V&gt;</definition>
+        <argsstring></argsstring>
+        <name>VTraits</name>
+        <qualifiedname>MR::Box::VTraits</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="29" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" prot="public" static="no">
+        <type>typename <ref refid="group__GeneralGroup_1gadbadae2704ad269b8d78edbb0f2faa93" kindref="member">VTraits::BaseType</ref></type>
+        <definition>using MR::Box&lt; V &gt;::T =  typename VTraits::BaseType</definition>
+        <argsstring></argsstring>
+        <name>T</name>
+        <qualifiedname>MR::Box::T</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" prot="public" static="no">
+        <type>typename VTraits::template ChangeBaseType&lt; bool &gt;</type>
+        <definition>using MR::Box&lt; V &gt;::Vb =  typename VTraits::template ChangeBaseType&lt;bool&gt;</definition>
+        <argsstring></argsstring>
+        <name>Vb</name>
+        <qualifiedname>MR::Box::Vb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="32" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1Box_1a30f9aaac8de3e73144319e59e64d5add" prot="public" static="no">
+        <type><ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits</ref>&lt; <ref refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" kindref="member">Vb</ref> &gt;</type>
+        <definition>using MR::Box&lt; V &gt;::VbTraits =  VectorTraits&lt;Vb&gt;</definition>
+        <argsstring></argsstring>
+        <name>VbTraits</name>
+        <qualifiedname>MR::Box::VbTraits</qualifiedname>
+        <briefdescription>
+<para>if V is Vector3&lt;T&gt; then Vb is Vector3b </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="33" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1Box_1aad57eed448ea8dc0bd7b331055005b4f" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::Box&lt; V &gt;::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>MR::Box::elements</qualifiedname>
+        <initializer>= <ref refid="group__GeneralGroup_1ga63f31635f31a229471ff3cc2990d95ea" kindref="member">VTraits::size</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="31" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Box_1acc1e8e06848f35838481ee10e0308cda" prot="public" static="no" mutable="no">
+        <type>V</type>
+        <definition>V MR::Box&lt; V &gt;::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR::Box::min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="35" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1Box_1a493e21ced874aa010247428e109d524d" prot="public" static="no" mutable="no">
+        <type>V</type>
+        <definition>V MR::Box&lt; V &gt;::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR::Box::max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="35" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Box_1abed683751e55c40fd8fdaf88da2fb35d" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const V &amp;</type>
+        <definition>const V &amp; MR::Box&lt; V &gt;::operator[]</definition>
+        <argsstring>(int e) const</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::Box::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>min/max access by 0/1 index </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="38" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1aba9d01a2283f33ef63e5d1cb49a6b84a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>V &amp;</type>
+        <definition>V &amp; MR::Box&lt; V &gt;::operator[]</definition>
+        <argsstring>(int e)</argsstring>
+        <name>operator[]</name>
+        <qualifiedname>MR::Box::operator[]</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="39" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="39" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1ab72759c3d199697fa09474bba5c5284c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Box&lt; V &gt;::Box</definition>
+        <argsstring>()</argsstring>
+        <name>Box</name>
+        <qualifiedname>MR::Box::Box</qualifiedname>
+        <briefdescription>
+<para>create invalid box by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a0b1e0b6b95e8b735eda8de2bb06fd987" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Box&lt; V &gt;::Box</definition>
+        <argsstring>(const V &amp;min, const V &amp;max)</argsstring>
+        <name>Box</name>
+        <qualifiedname>MR::Box::Box</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>const V &amp;</type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="43" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="43" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1af6d43e68039fbfc977b3d70beb1f30c8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename VV</type>
+            <defval>V</defval>
+          </param>
+          <param>
+            <type>typename std::enable_if_t&lt; <ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits</ref>&lt; VV &gt;::supportNoInit, int &gt;</type>
+            <defval>0</defval>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::Box&lt; V &gt;::Box</definition>
+        <argsstring>(NoInit)</argsstring>
+        <name>Box</name>
+        <qualifiedname>MR::Box::Box</qualifiedname>
+        <param>
+          <type>NoInit</type>
+        </param>
+        <briefdescription>
+<para>skip initialization of min/max </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="53" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1af6d43e68039fbfc977b3d70beb1f30c8" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename VV</type>
+            <defval>V</defval>
+          </param>
+          <param>
+            <type>typename std::enable_if_t&lt;!<ref refid="structMR_1_1VectorTraits" kindref="compound">VectorTraits</ref>&lt; VV &gt;::supportNoInit, int &gt;</type>
+            <defval>0</defval>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::Box&lt; V &gt;::Box</definition>
+        <argsstring>(NoInit)</argsstring>
+        <name>Box</name>
+        <qualifiedname>MR::Box::Box</qualifiedname>
+        <param>
+          <type>NoInit</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="55" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1abaa0e8fa0a608290aa2ac4bee9a34a4e" prot="public" static="no" const="yes" explicit="no" inline="yes" refqual="lvalue" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename U</type>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::Box&lt; V &gt;::MR_REQUIRES_IF_SUPPORTED</definition>
+        <argsstring>(!std::is_same_v&lt; V, U &gt;) explicit Box(const Box&lt; U &gt; &amp;a)</argsstring>
+        <name>MR_REQUIRES_IF_SUPPORTED</name>
+        <qualifiedname>MR::Box::MR_REQUIRES_IF_SUPPORTED</qualifiedname>
+        <param>
+          <type>!std::is_same_v&lt; V, U &gt;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Here <computeroutput>V == U</computeroutput> doesn&apos;t seem to cause any issues in the C++ code, but we&apos;re still disabling it because it somehow gets emitted when generating the bindings, and results in duplicate functions in C#. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="60" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="60" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1ae8181cac57d5ff92d32bfa86bdc5caf3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Box&lt; V &gt;::valid</definition>
+        <argsstring>() const</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR::Box::valid</qualifiedname>
+        <briefdescription>
+<para>true if the box contains at least one point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="66" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="66" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a5edd7e58dce05a67482b2c179f6abc6e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>V</type>
+        <definition>V MR::Box&lt; V &gt;::center</definition>
+        <argsstring>() const</argsstring>
+        <name>center</name>
+        <qualifiedname>MR::Box::center</qualifiedname>
+        <briefdescription>
+<para>computes center of the box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="75" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a58367ea0fa34d4b4d1009044564aded9" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>V</type>
+        <definition>V MR::Box&lt; V &gt;::corner</definition>
+        <argsstring>(const Vb &amp;c) const</argsstring>
+        <name>corner</name>
+        <qualifiedname>MR::Box::corner</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" kindref="member">Vb</ref> &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the corner of this box as specified by given bool-vector: 0 element in (c) means take min&apos;s coordinate, 1 element in (c) means take max&apos;s coordinate </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="80" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="80" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a71c94df372502f935a239c62e591a70c" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>V</type>
+        <definition>V MR::Box&lt; V &gt;::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::Box::size</qualifiedname>
+        <briefdescription>
+<para>computes size of the box in all dimensions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="106" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="106" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a2cfcb26887cd979172fd1831229c8144" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
+        <definition>T MR::Box&lt; V &gt;::diagonal</definition>
+        <argsstring>() const</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>MR::Box::diagonal</qualifiedname>
+        <briefdescription>
+<para>computes length from min to max </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="109" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1aaf8c494ec86f9a6ef904299b78f1cc23" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
+        <definition>T MR::Box&lt; V &gt;::volume</definition>
+        <argsstring>() const</argsstring>
+        <name>volume</name>
+        <qualifiedname>MR::Box::volume</qualifiedname>
+        <briefdescription>
+<para>computes the volume of this box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="112" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="112" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a14ec2de1def8e99ce267fe830e9caa51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Box&lt; V &gt;::include</definition>
+        <argsstring>(const V &amp;pt)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR::Box::include</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>minimally increases the box to include given point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="122" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="122" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a2d9fecc0393e456242b1409f8a6a79f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Box&lt; V &gt;::include</definition>
+        <argsstring>(const Box &amp;b)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR::Box::include</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>minimally increases the box to include another box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="132" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="132" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1ada11cc33b5ba6f38f12211e1ae500598" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Box&lt; V &gt;::contains</definition>
+        <argsstring>(const V &amp;pt) const</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR::Box::contains</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>checks whether given point is inside (including the surface) of this box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="142" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="142" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1ad7f75d672fee1cd837085bd09be3c66e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Box&lt; V &gt;::contains</definition>
+        <argsstring>(const Box &amp;otherbox) const</argsstring>
+        <name>contains</name>
+        <qualifiedname>MR::Box::contains</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
+          <declname>otherbox</declname>
+        </param>
+        <briefdescription>
+<para>checks whether given box is fully inside (the surfaces may touch) of this box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="151" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="151" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a1af67d1761b8fd15fa204b39d5f9bd46" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>V</type>
+        <definition>V MR::Box&lt; V &gt;::getBoxClosestPointTo</definition>
+        <argsstring>(const V &amp;pt) const</argsstring>
+        <name>getBoxClosestPointTo</name>
+        <qualifiedname>MR::Box::getBoxClosestPointTo</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>returns closest point in the box to given point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="160" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="160" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1aacbc2c9aca82714d27d007c9cc6aa696" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Box&lt; V &gt;::intersects</definition>
+        <argsstring>(const Box &amp;b) const</argsstring>
+        <name>intersects</name>
+        <qualifiedname>MR::Box::intersects</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>checks whether this box intersects or touches given box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="170" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="170" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1acd003ee915daffe1dccdfe6bec573abc" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref></type>
+        <definition>Box MR::Box&lt; V &gt;::intersection</definition>
+        <argsstring>(const Box &amp;b) const</argsstring>
+        <name>intersection</name>
+        <qualifiedname>MR::Box::intersection</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>computes intersection between this and other box </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="181" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="181" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1adcbce4d705b1bf09dd04c5023fe58ec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
+        <definition>Box &amp; MR::Box&lt; V &gt;::intersect</definition>
+        <argsstring>(const Box &amp;b)</argsstring>
+        <name>intersect</name>
+        <qualifiedname>MR::Box::intersect</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="191" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="191" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a25efa79c9a3710f2c59fac06fb39ad12" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
+        <definition>T MR::Box&lt; V &gt;::getDistanceSq</definition>
+        <argsstring>(const Box &amp;b) const</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>MR::Box::getDistanceSq</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns squared distance between this box and given one; returns zero if the boxes touch or intersect </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="195" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="195" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a6fa5434776a3bb7b53014edc67295ec8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" kindref="member">T</ref></type>
+        <definition>T MR::Box&lt; V &gt;::getDistanceSq</definition>
+        <argsstring>(const V &amp;pt) const</argsstring>
+        <name>getDistanceSq</name>
+        <qualifiedname>MR::Box::getDistanceSq</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns squared distance between this box and given point; returns zero if the point is inside or on the boundary of the box </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="207" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="207" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a36a72e5786051efa6c3fa7512b00c6c3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>V</type>
+        <definition>V MR::Box&lt; V &gt;::getProjection</definition>
+        <argsstring>(const V &amp;pt) const</argsstring>
+        <name>getProjection</name>
+        <qualifiedname>MR::Box::getProjection</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the closest point on the box to the given point for points outside the box this is equivalent to getBoxClosestPointTo </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="224" column="7" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="224" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a3f06adfa8006bd6000537a4d96e4f66e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref></type>
+        <definition>Box MR::Box&lt; V &gt;::expanded</definition>
+        <argsstring>(const V &amp;expansion) const</argsstring>
+        <name>expanded</name>
+        <qualifiedname>MR::Box::expanded</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>expansion</declname>
+        </param>
+        <briefdescription>
+<para>decreases min and increased max on given value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="253" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="253" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a5221795da9f2f569a0ac9fd9a1a5cba4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref></type>
+        <definition>Box MR::Box&lt; V &gt;::insignificantlyExpanded</definition>
+        <argsstring>() const</argsstring>
+        <name>insignificantlyExpanded</name>
+        <qualifiedname>MR::Box::insignificantlyExpanded</qualifiedname>
+        <briefdescription>
+<para>decreases min and increases max to their closest representable value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="260" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="260" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1af93a3ccd5c9d9d678844e2578807089f" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Box&lt; V &gt;::operator==</definition>
+        <argsstring>(const Box &amp;a) const</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::Box::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="272" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="272" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1ac8eb14ff1a01b09de851695a4a0007d4" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::Box&lt; V &gt;::operator!=</definition>
+        <argsstring>(const Box &amp;a) const</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR::Box::operator!=</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">Box</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="274" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="274" bodyend="275"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1Box_1ab2ec32268e6b124dd96b07c0e4da7fd9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref></type>
+        <definition>static Box MR::Box&lt; V &gt;::fromMinAndSize</definition>
+        <argsstring>(const V &amp;min, const V &amp;size)</argsstring>
+        <name>fromMinAndSize</name>
+        <qualifiedname>MR::Box::fromMinAndSize</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>const V &amp;</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="63" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1aa47072e05e75f449f745364a9bcd91ec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" kindref="member">Vb</ref></type>
+        <definition>static Vb MR::Box&lt; V &gt;::getMinBoxCorner</definition>
+        <argsstring>(const V &amp;n)</argsstring>
+        <name>getMinBoxCorner</name>
+        <qualifiedname>MR::Box::getMinBoxCorner</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is minimal </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="90" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="90" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Box_1a5700cf25abb8325b86fda919b3022e65" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" kindref="member">Vb</ref></type>
+        <definition>static Vb MR::Box&lt; V &gt;::getMaxBoxCorner</definition>
+        <argsstring>(const V &amp;n)</argsstring>
+        <name>getMaxBoxCorner</name>
+        <qualifiedname>MR::Box::getMaxBoxCorner</qualifiedname>
+        <param>
+          <type>const V &amp;</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>considering all planes with given normal and arbitrary shift: dot(n,x) = d finds the box&apos;s corner for which d is maximal </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="100" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="100" bodyend="103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="structMR_1_1Box_1a047eb0e28cab517e74255789df872504" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::ostream &amp;</type>
+        <definition>std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;s, const Box&lt; V &gt; &amp;box)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>MR::Box::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1Box" kindref="compound">Box</ref>&lt; V &gt; &amp;</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="277" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="277" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="friend" id="structMR_1_1Box_1ad11edd7dcd9aece9bebc0a2c388015b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::istream &amp;</type>
+        <definition>std::istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;s, Box&lt; V &gt; &amp;box)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>MR::Box::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Box" kindref="compound">Box</ref>&lt; V &gt; &amp;</type>
+          <declname>box</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="282" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="282" bodyend="285"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="structMR_1_1Box" kindref="compound">Box</ref> given by its min- and max- corners. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBox.h" bodystart="27" bodyend="286"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Box_1ab72759c3d199697fa09474bba5c5284c" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>Box</name></member>
+      <member refid="structMR_1_1Box_1a0b1e0b6b95e8b735eda8de2bb06fd987" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>Box</name></member>
+      <member refid="structMR_1_1Box_1af6d43e68039fbfc977b3d70beb1f30c8" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>Box</name></member>
+      <member refid="structMR_1_1Box_1af6d43e68039fbfc977b3d70beb1f30c8" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>Box</name></member>
+      <member refid="structMR_1_1Box_1a5edd7e58dce05a67482b2c179f6abc6e" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>center</name></member>
+      <member refid="structMR_1_1Box_1ada11cc33b5ba6f38f12211e1ae500598" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>contains</name></member>
+      <member refid="structMR_1_1Box_1ad7f75d672fee1cd837085bd09be3c66e" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>contains</name></member>
+      <member refid="structMR_1_1Box_1a58367ea0fa34d4b4d1009044564aded9" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>corner</name></member>
+      <member refid="structMR_1_1Box_1a2cfcb26887cd979172fd1831229c8144" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>diagonal</name></member>
+      <member refid="structMR_1_1Box_1aad57eed448ea8dc0bd7b331055005b4f" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>elements</name></member>
+      <member refid="structMR_1_1Box_1a3f06adfa8006bd6000537a4d96e4f66e" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>expanded</name></member>
+      <member refid="structMR_1_1Box_1ab2ec32268e6b124dd96b07c0e4da7fd9" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>fromMinAndSize</name></member>
+      <member refid="structMR_1_1Box_1a1af67d1761b8fd15fa204b39d5f9bd46" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="structMR_1_1Box_1a25efa79c9a3710f2c59fac06fb39ad12" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>getDistanceSq</name></member>
+      <member refid="structMR_1_1Box_1a6fa5434776a3bb7b53014edc67295ec8" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>getDistanceSq</name></member>
+      <member refid="structMR_1_1Box_1a5700cf25abb8325b86fda919b3022e65" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>getMaxBoxCorner</name></member>
+      <member refid="structMR_1_1Box_1aa47072e05e75f449f745364a9bcd91ec" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>getMinBoxCorner</name></member>
+      <member refid="structMR_1_1Box_1a36a72e5786051efa6c3fa7512b00c6c3" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>getProjection</name></member>
+      <member refid="structMR_1_1Box_1a14ec2de1def8e99ce267fe830e9caa51" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>include</name></member>
+      <member refid="structMR_1_1Box_1a2d9fecc0393e456242b1409f8a6a79f9" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>include</name></member>
+      <member refid="structMR_1_1Box_1a5221795da9f2f569a0ac9fd9a1a5cba4" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>insignificantlyExpanded</name></member>
+      <member refid="structMR_1_1Box_1adcbce4d705b1bf09dd04c5023fe58ec3" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>intersect</name></member>
+      <member refid="structMR_1_1Box_1acd003ee915daffe1dccdfe6bec573abc" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>intersection</name></member>
+      <member refid="structMR_1_1Box_1aacbc2c9aca82714d27d007c9cc6aa696" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>intersects</name></member>
+      <member refid="structMR_1_1Box_1a493e21ced874aa010247428e109d524d" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>max</name></member>
+      <member refid="structMR_1_1Box_1acc1e8e06848f35838481ee10e0308cda" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>min</name></member>
+      <member refid="structMR_1_1Box_1abaa0e8fa0a608290aa2ac4bee9a34a4e" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="structMR_1_1Box_1ac8eb14ff1a01b09de851695a4a0007d4" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1Box_1a047eb0e28cab517e74255789df872504" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>operator&lt;&lt;</name></member>
+      <member refid="structMR_1_1Box_1af93a3ccd5c9d9d678844e2578807089f" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>operator==</name></member>
+      <member refid="structMR_1_1Box_1ad11edd7dcd9aece9bebc0a2c388015b5" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>operator&gt;&gt;</name></member>
+      <member refid="structMR_1_1Box_1abed683751e55c40fd8fdaf88da2fb35d" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1Box_1aba9d01a2283f33ef63e5d1cb49a6b84a" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>operator[]</name></member>
+      <member refid="structMR_1_1Box_1a71c94df372502f935a239c62e591a70c" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>size</name></member>
+      <member refid="structMR_1_1Box_1a1425948e6f0f9ef6de04c45be07f81fd" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>T</name></member>
+      <member refid="structMR_1_1Box_1ae8181cac57d5ff92d32bfa86bdc5caf3" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>valid</name></member>
+      <member refid="structMR_1_1Box_1a15892e58be32abb87c83d3929500dcfd" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>Vb</name></member>
+      <member refid="structMR_1_1Box_1a30f9aaac8de3e73144319e59e64d5add" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>VbTraits</name></member>
+      <member refid="structMR_1_1Box_1aaf8c494ec86f9a6ef904299b78f1cc23" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>volume</name></member>
+      <member refid="structMR_1_1Box_1a72642a4bb313d2774abf257cefe1f2f0" prot="public" virt="non-virtual"><scope>MR::Box</scope><name>VTraits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

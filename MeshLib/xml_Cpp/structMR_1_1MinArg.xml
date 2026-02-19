@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MinArg" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MinArg</compoundname>
+    <includes refid="MRMinMaxArg_8h" local="no">MRMinMaxArg.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename I</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga539cbb55f4a4e7957683ce73c06d5f59" kind="variable"><name>val</name></member>
+      <member refid="group__GeneralGroup_1ga98309147e2dce0ddfc1339a81e3fb55d" kind="variable"><name>arg</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga390b27154863521ab2f36edc39b42011" kind="function"><name>asPair</name></member>
+      <member refid="group__GeneralGroup_1ga90ff34f715406ed3ab55e23094cb6141" kind="function"><name>include</name></member>
+      <member refid="group__GeneralGroup_1gab87329f332e5428c0f493fbd21be1622" kind="function"><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga731dfaa5ec4094892a6629e4f9c91128" kind="function"><name>include</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>minimum of some elements of type T, and the index of where minimum is reached of type I </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMinMaxArg.h" bodystart="16" bodyend="43"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga98309147e2dce0ddfc1339a81e3fb55d" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>arg</name></member>
+      <member refid="group__GeneralGroup_1ga390b27154863521ab2f36edc39b42011" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>asPair</name></member>
+      <member refid="group__GeneralGroup_1ga90ff34f715406ed3ab55e23094cb6141" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>include</name></member>
+      <member refid="group__GeneralGroup_1gab87329f332e5428c0f493fbd21be1622" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga731dfaa5ec4094892a6629e4f9c91128" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>include</name></member>
+      <member refid="group__GeneralGroup_1ga539cbb55f4a4e7957683ce73c06d5f59" prot="public" virt="non-virtual"><scope>MR::MinArg</scope><name>val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

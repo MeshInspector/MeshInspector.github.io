@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineToDistanceVolumeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolylineToDistanceVolumeParams</compoundname>
+    <includes refid="MRPolylineToVoxels_8h" local="no">MRPolylineToVoxels.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga6960b88843f2b683f6dbca4f21e82e86" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gab8af98052b328483ec0a8dbdb0cedee6" kind="variable"><name>offsetCount</name></member>
+      <member refid="group__GeneralGroup_1ga76602992e23d6f79b59d711bca173a3f" kind="variable"><name>worldXf</name></member>
+      <member refid="group__GeneralGroup_1gab80f4c22db4b7f1c01ea5dcd11adda1c" kind="variable"><name>outXf</name></member>
+      <member refid="group__GeneralGroup_1gacb46281fb4d9a0d9f27091d5ffe5f7b3" kind="variable"><name>cb</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPolylineToVoxels.h" bodystart="17" bodyend="24"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gacb46281fb4d9a0d9f27091d5ffe5f7b3" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gab8af98052b328483ec0a8dbdb0cedee6" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>offsetCount</name></member>
+      <member refid="group__GeneralGroup_1gab80f4c22db4b7f1c01ea5dcd11adda1c" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>outXf</name></member>
+      <member refid="group__GeneralGroup_1ga6960b88843f2b683f6dbca4f21e82e86" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga76602992e23d6f79b59d711bca173a3f" prot="public" virt="non-virtual"><scope>MR::PolylineToDistanceVolumeParams</scope><name>worldXf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

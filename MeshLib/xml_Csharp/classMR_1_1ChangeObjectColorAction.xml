@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeObjectColorAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::ChangeObjectColorAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeObjectColorAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a79bb045fe70a850380905d3aa61ee4cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ChangeObjectColorAction.operator MR.HistoryAction</definition>
+        <argsstring>(ChangeObjectColorAction self)</argsstring>
+        <name>operator MR.HistoryAction</name>
+        <qualifiedname>MR.ChangeObjectColorAction.operator MR.HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeObjectColorAction" kindref="compound">ChangeObjectColorAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="203" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="203" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1af20559ea8deddc2284c81b44426ef56c" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ChangeObjectColorAction.operator ChangeObjectColorAction?</definition>
+        <argsstring>(MR.HistoryAction parent)</argsstring>
+        <name>operator ChangeObjectColorAction?</name>
+        <qualifiedname>MR.ChangeObjectColorAction.operator ChangeObjectColorAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="211" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="211" bodyend="218"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1aa15f6b06337474fca2cbe75c06dee609" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeObjectColorAction.ChangeObjectColorAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ChangeObjectColorAction</name>
+        <qualifiedname>MR.ChangeObjectColorAction.ChangeObjectColorAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="220" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="220" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1ac2207c757b32848622040145c962d588" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeObjectColorAction.ChangeObjectColorAction</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ChangeObjectColorAction</name>
+        <qualifiedname>MR.ChangeObjectColorAction.ChangeObjectColorAction</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="222" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="222" bodyend="222"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a52b89c279f623118bf4fc13e4f082af2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeObjectColorAction.ChangeObjectColorAction</definition>
+        <argsstring>(MR._ByValue_ChangeObjectColorAction _other)</argsstring>
+        <name>ChangeObjectColorAction</name>
+        <qualifiedname>MR.ChangeObjectColorAction.ChangeObjectColorAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeObjectColorAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeObjectColorAction.ChangeObjectColorAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="227" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="227" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a5bb10988283b81fba62af16fa217d5b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeObjectColorAction.ChangeObjectColorAction</definition>
+        <argsstring>(Const_ChangeObjectColorAction _other)</argsstring>
+        <name>ChangeObjectColorAction</name>
+        <qualifiedname>MR.ChangeObjectColorAction.ChangeObjectColorAction</qualifiedname>
+        <param>
+          <type>Const_ChangeObjectColorAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeObjectColorAction.ChangeObjectColorAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="238" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="238" bodyend="238"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a4c7284fa4fbdf8ce9599f39791e4f038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeObjectColorAction.ChangeObjectColorAction</definition>
+        <argsstring>(ChangeObjectColorAction _other)</argsstring>
+        <name>ChangeObjectColorAction</name>
+        <qualifiedname>MR.ChangeObjectColorAction.ChangeObjectColorAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeObjectColorAction" kindref="compound">ChangeObjectColorAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeObjectColorAction.ChangeObjectColorAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="243" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="243" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a4b06705d9701327dfc2a508e5fdd6991" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeObjectColorAction.ChangeObjectColorAction</definition>
+        <argsstring>(string name, MR.Const_VisualObject obj, MR.ChangeObjectColorAction.Type type)</argsstring>
+        <name>ChangeObjectColorAction</name>
+        <qualifiedname>MR.ChangeObjectColorAction.ChangeObjectColorAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>MR.ChangeObjectColorAction.Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Constructed from original obj Generated from constructor <computeroutput>MR.ChangeObjectColorAction.ChangeObjectColorAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="249" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="249" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a38d2b0b98291fe3fc681f50ca5b214ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeObjectColorAction" kindref="compound">MR.ChangeObjectColorAction</ref></type>
+        <definition>unsafe MR.ChangeObjectColorAction MR.ChangeObjectColorAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeObjectColorAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeObjectColorAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeObjectColorAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ChangeObjectColorAction.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="264" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="264" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeObjectColorAction_1a1205b93a463ecbdf48d3b77e2b4e9ddd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ChangeObjectColorAction.action</definition>
+        <argsstring>(MR.HistoryAction.Type _1)</argsstring>
+        <name>action</name>
+        <qualifiedname>MR.ChangeObjectColorAction.action</qualifiedname>
+        <param>
+          <type>MR.HistoryAction.Type</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ChangeObjectColorAction_1a1205b93a463ecbdf48d3b77e2b4e9ddd" kindref="member">MR.ChangeObjectColorAction.action</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="276" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="276" bodyend="281"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>History action for object color palette change To use with setFrontColorsForAllViewports, setBackColorsForAllViewports, setFrontColor, setBackColor Generated from class <computeroutput><ref refid="classMR_1_1ChangeObjectColorAction" kindref="compound">MR.ChangeObjectColorAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ChangeObjectColorAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeObjectColorAction</label>
+        <link refid="classMR_1_1ChangeObjectColorAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeObjectColorAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ChangeObjectColorAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeObjectColorAction</label>
+        <link refid="classMR_1_1ChangeObjectColorAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeObjectColorAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" line="200" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeColoringActions.cs" bodystart="201" bodyend="282"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeObjectColorAction_1a1205b93a463ecbdf48d3b77e2b4e9ddd" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeObjectColorAction_1a38d2b0b98291fe3fc681f50ca5b214ac" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1ChangeObjectColorAction_1aa15f6b06337474fca2cbe75c06dee609" prot="package" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1ChangeObjectColorAction_1ac2207c757b32848622040145c962d588" prot="package" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1ChangeObjectColorAction_1a52b89c279f623118bf4fc13e4f082af2" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1ChangeObjectColorAction_1a5bb10988283b81fba62af16fa217d5b2" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1ChangeObjectColorAction_1a4c7284fa4fbdf8ce9599f39791e4f038" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1ChangeObjectColorAction_1a4b06705d9701327dfc2a508e5fdd6991" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
+      <member refid="classMR_1_1ChangeObjectColorAction_1af20559ea8deddc2284c81b44426ef56c" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>operator ChangeObjectColorAction?</name></member>
+      <member refid="classMR_1_1ChangeObjectColorAction_1a79bb045fe70a850380905d3aa61ee4cc" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>operator MR.HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

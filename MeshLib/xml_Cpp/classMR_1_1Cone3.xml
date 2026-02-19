@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cone3" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cone3</compoundname>
+    <includes refid="MRCone3_8h" local="no">MRCone3.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga18ef80872ba6b6384ae2944f85f8b214" kind="variable"><name>axis</name></member>
+      <member refid="group__GeneralGroup_1ga17cbe4ac01d2a5bacfd1909eeccb9488" kind="variable"><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga1837f049b2e30d91b8cc20a4109d7e87" kind="variable"><name>height</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga3b72d0a9806c94f23088c93a9194c0a6" kind="function"><name>Cone3</name></member>
+      <member refid="group__GeneralGroup_1ga9817b87c594215632a78e6650fa88d0a" kind="function"><name>Cone3</name></member>
+      <member refid="group__GeneralGroup_1ga9d99981f78f15a799d2d967ef61952e9" kind="function"><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga71e24f8cd64c8b295a0728e1fe3cd89b" kind="function"><name>center</name></member>
+      <member refid="group__GeneralGroup_1gaaac517326bd964d483c9f408a07f10c6" kind="function"><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga030ac5683486a3d6996e231d7aca3fc8" kind="function"><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga8cae3c41514d0e93897e1565c8e41c84" kind="function"><name>apex</name></member>
+      <member refid="group__GeneralGroup_1gac3882ccfb731b365aa800f7fd49c51ef" kind="function"><name>apex</name></member>
+      <member refid="group__GeneralGroup_1gac88828ed52ec42c8758c744ff1fdaf20" kind="function"><name>projectPoint</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Base class for cone parameterization. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCone3.h" bodystart="14" bodyend="95"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga17cbe4ac01d2a5bacfd1909eeccb9488" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga8cae3c41514d0e93897e1565c8e41c84" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>apex</name></member>
+      <member refid="group__GeneralGroup_1gac3882ccfb731b365aa800f7fd49c51ef" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>apex</name></member>
+      <member refid="group__GeneralGroup_1ga18ef80872ba6b6384ae2944f85f8b214" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>axis</name></member>
+      <member refid="group__GeneralGroup_1ga9d99981f78f15a799d2d967ef61952e9" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga71e24f8cd64c8b295a0728e1fe3cd89b" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga3b72d0a9806c94f23088c93a9194c0a6" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>Cone3</name></member>
+      <member refid="group__GeneralGroup_1ga9817b87c594215632a78e6650fa88d0a" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>Cone3</name></member>
+      <member refid="group__GeneralGroup_1gaaac517326bd964d483c9f408a07f10c6" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga030ac5683486a3d6996e231d7aca3fc8" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga1837f049b2e30d91b8cc20a4109d7e87" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>height</name></member>
+      <member refid="group__GeneralGroup_1gac88828ed52ec42c8758c744ff1fdaf20" prot="public" virt="non-virtual"><scope>MR::Cone3</scope><name>projectPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

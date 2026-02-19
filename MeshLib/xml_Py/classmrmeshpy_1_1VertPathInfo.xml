@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VertPathInfo" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VertPathInfo</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertPathInfo_1a270ea03c310746dfb3668b76cbf3a282" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertPathInfo::_offsetof_back</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_back</name>
+        <qualifiedname>mrmeshpy.VertPathInfo._offsetof_back</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertPathInfo_1ae69248e3cd867a8b48c8de4850439fc6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertPathInfo::_offsetof_metric</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_metric</name>
+        <qualifiedname>mrmeshpy.VertPathInfo._offsetof_metric</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71172" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1a1e0ec03bfcce38982d7d3ba6b9ce3efd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertPathInfo.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71175" bodyend="71176"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1a79bee018d1180951edd971ff0ab701e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertPathInfo" kindref="compound">VertPathInfo</ref></type>
+        <definition> VertPathInfo mrmeshpy.VertPathInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71179" bodyend="71180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1a79bee018d1180951edd971ff0ab701e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertPathInfo" kindref="compound">VertPathInfo</ref></type>
+        <definition> VertPathInfo mrmeshpy.VertPathInfo.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71183" bodyend="71184"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1a560c0701335fed6420ea35927b9310a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertPathInfo.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71186" bodyend="71187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1a4aad28756053ae8667ae86cc8c13a47e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertPathInfo.__init__</definition>
+        <argsstring>(self, VertPathInfo arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertPathInfo" kindref="compound">VertPathInfo</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71189" bodyend="71192"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1ae77f79dfeb45837a62523165498d8ec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertPathInfo.__init__</definition>
+        <argsstring>(self, EdgeId back, float metric)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>back</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>metric</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71194" bodyend="71197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1af715eefde9cae62627374df008fbdffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertPathInfo.isStart</definition>
+        <argsstring>(self)</argsstring>
+        <name>isStart</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.isStart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71198" bodyend="71199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1ae0caa44f11119590c0aac3777da2ad8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.VertPathInfo.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>edge from this vertex to its predecessor in the forest
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71201" bodyend="71204"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1a01abb6b1f6f47a8fd154d17943413664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertPathInfo.back</definition>
+        <argsstring>(self, EdgeId arg1)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71206" bodyend="71207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1a0010e41ad471b2283bb183b74cfd934d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VertPathInfo.metric</definition>
+        <argsstring>(self)</argsstring>
+        <name>metric</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.metric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>best summed metric to reach this vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71209" bodyend="71212"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertPathInfo_1ae4f9ca76f5fea4c8a8cc36effbb2c8b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertPathInfo.metric</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>metric</name>
+        <qualifiedname>mrmeshpy.VertPathInfo.metric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71214" bodyend="71215"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VertPathInfo
+
+information associated with each vertex by the paths builder
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VertPathInfo</label>
+        <link refid="classmrmeshpy_1_1VertPathInfo"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_back</edgelabel>
+          <edgelabel>_offsetof_metric</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71165" bodyend="71215"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1a1e0ec03bfcce38982d7d3ba6b9ce3efd" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1a560c0701335fed6420ea35927b9310a9" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1a4aad28756053ae8667ae86cc8c13a47e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1ae77f79dfeb45837a62523165498d8ec0" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1a270ea03c310746dfb3668b76cbf3a282" prot="protected" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>_offsetof_back</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1ae69248e3cd867a8b48c8de4850439fc6" prot="protected" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>_offsetof_metric</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1ae0caa44f11119590c0aac3777da2ad8e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1a01abb6b1f6f47a8fd154d17943413664" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1af715eefde9cae62627374df008fbdffc" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>isStart</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1a0010e41ad471b2283bb183b74cfd934d" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>metric</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1ae4f9ca76f5fea4c8a8cc36effbb2c8b9" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>metric</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1a79bee018d1180951edd971ff0ab701e0" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertPathInfo_1a79bee018d1180951edd971ff0ab701e0" prot="public" virt="non-virtual"><scope>mrmeshpy::VertPathInfo</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

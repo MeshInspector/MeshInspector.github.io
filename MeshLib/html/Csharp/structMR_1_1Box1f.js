@@ -9,6 +9,8 @@ var structMR_1_1Box1f =
     [ "contains", "structMR_1_1Box1f.html#a2329f87ed236b9f883e5dbfaedb42a4b", null ],
     [ "corner", "structMR_1_1Box1f.html#ac8d9f5371fefabe19e8bcb7302370a8a", null ],
     [ "diagonal", "structMR_1_1Box1f.html#ac152c5ca3a2f034971e619bf56c232ec", null ],
+    [ "Equals", "structMR_1_1Box1f.html#a9d02a8bc7b803b171a432bb35448151d", null ],
+    [ "Equals", "structMR_1_1Box1f.html#a6f6c8c28a93f46a22faddd8b0912b58e", null ],
     [ "expanded", "structMR_1_1Box1f.html#a0c0e0e500a8fac12dd128045b826f5b3", null ],
     [ "fromMinAndSize", "structMR_1_1Box1f.html#a441f3a9b518312f8183ecbeb781fc18a", null ],
     [ "getBoxClosestPointTo", "structMR_1_1Box1f.html#aec77cc5f3c95cdce98ee120f1b7319ae", null ],
@@ -25,9 +27,12 @@ var structMR_1_1Box1f =
     [ "intersection", "structMR_1_1Box1f.html#ac6c5041f6ca998231f07cd3d87e36289", null ],
     [ "intersects", "structMR_1_1Box1f.html#a90f981ecbd7bded231899de47d588967", null ],
     [ "operator Box1f", "structMR_1_1Box1f.html#aaed87ce2fba281fd495fd5b37036f306", null ],
+    [ "operator!=", "structMR_1_1Box1f.html#ac2e86cbe6bbe2a1e78ca2b69ea799cea", null ],
     [ "operator==", "structMR_1_1Box1f.html#aaeb5dd6612b7b46bc9c3df08c9d1ea84", null ],
     [ "size", "structMR_1_1Box1f.html#a05668469e6ed89842ac47c276d1463f0", null ],
     [ "valid", "structMR_1_1Box1f.html#a00b6573c29443296d9e2b70fadc78bc7", null ],
     [ "volume", "structMR_1_1Box1f.html#a58a29b4f1f9930517861115bdf2760c8", null ],
+    [ "max", "structMR_1_1Box1f.html#a38b37053641b1322eb9517869934c1ed", null ],
+    [ "min", "structMR_1_1Box1f.html#a17e1736ce6635a359a05e7210ecd6ca5", null ],
     [ "this[int e]", "structMR_1_1Box1f.html#a9dd437cd07836ea62f1837e5eb800e2b", null ]
 ];

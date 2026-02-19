@@ -1,0 +1,446 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FeaturesObjectKind" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FeaturesObjectKind</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeaturesObjectKind_1a53d1f3025f78033227d0606e1bf96ca4" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeaturesObjectKind::Circle</definition>
+        <argsstring></argsstring>
+        <name>Circle</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.Circle</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FeaturesObjectKind" kindref="compound">FeaturesObjectKind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18982" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeaturesObjectKind_1a4e7485f3d9fc5cc67506e5fbd5e3ad53" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeaturesObjectKind::Cone</definition>
+        <argsstring></argsstring>
+        <name>Cone</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.Cone</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FeaturesObjectKind" kindref="compound">FeaturesObjectKind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeaturesObjectKind_1aec7cc947a7624d6ebfb778503019a473" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeaturesObjectKind::Cylinder</definition>
+        <argsstring></argsstring>
+        <name>Cylinder</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.Cylinder</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FeaturesObjectKind" kindref="compound">FeaturesObjectKind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18984" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeaturesObjectKind_1aee58545aace5b6d0dc1f2d206dee3cad" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeaturesObjectKind::Line</definition>
+        <argsstring></argsstring>
+        <name>Line</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.Line</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FeaturesObjectKind" kindref="compound">FeaturesObjectKind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18985" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeaturesObjectKind_1a5af350cab291cf142c896cf1ac563d08" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeaturesObjectKind::Plane</definition>
+        <argsstring></argsstring>
+        <name>Plane</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.Plane</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FeaturesObjectKind" kindref="compound">FeaturesObjectKind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18986" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeaturesObjectKind_1a73dd664852fea0aa808dbeb3fdd29429" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeaturesObjectKind::Point</definition>
+        <argsstring></argsstring>
+        <name>Point</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.Point</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FeaturesObjectKind" kindref="compound">FeaturesObjectKind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeaturesObjectKind_1a26ef05c422f209b95ae712cc53202416" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeaturesObjectKind::Sphere</definition>
+        <argsstring></argsstring>
+        <name>Sphere</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.Sphere</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FeaturesObjectKind" kindref="compound">FeaturesObjectKind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18988" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeaturesObjectKind_1a0f4c7e30a0a9e49a7ac46680196f4eef" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeaturesObjectKind::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1FeaturesObjectKind" kindref="compound">FeaturesObjectKind</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18989" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FeaturesObjectKind_1a1c2da30416d63c39f5a67d8210f78916" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FeaturesObjectKind::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FeaturesObjectKind" kindref="compound">FeaturesObjectKind</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18990" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a2e8d57eae979b90f3392c3f69fcbf426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FeaturesObjectKind.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18991" bodyend="18992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a1e4342fe2ee8805a4bb8102572c182a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FeaturesObjectKind.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18993" bodyend="18994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a3c89a1747f247ab5c4e1e6def640b6ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FeaturesObjectKind.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18995" bodyend="18996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a0ea21462f63059870995cfb779ed8dd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FeaturesObjectKind.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18997" bodyend="18998"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1aa064a02dc70e56bba99a65f7ba451d60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeaturesObjectKind.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18999" bodyend="19000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a62002cd5abbfba010c0532cc69947ee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FeaturesObjectKind.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19001" bodyend="19002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a7af5b7660059c7c37d5760499a6a742a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FeaturesObjectKind.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19003" bodyend="19004"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a2e495f911adbd9bf51e9cbce51ad6d8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FeaturesObjectKind.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19005" bodyend="19006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a7a9aeb1ce50b03a555b5ee0c52f17519" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeaturesObjectKind.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19007" bodyend="19008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a4322b708b202f2a17dde380b3c8556a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FeaturesObjectKind.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19009" bodyend="19010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1a960ae7109fe5de160d513b2bbdb37352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FeaturesObjectKind.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19012" bodyend="19013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeaturesObjectKind_1aa095c38f72ef99cf72d522e03281c96a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FeaturesObjectKind.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.FeaturesObjectKind.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19015" bodyend="19016"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Point
+
+  Line
+
+  Plane
+
+  Circle
+
+  Sphere
+
+  Cylinder
+
+  Cone
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FeaturesObjectKind</label>
+        <link refid="classmrmeshpy_1_1FeaturesObjectKind"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Circle</edgelabel>
+          <edgelabel>Cone</edgelabel>
+          <edgelabel>Cylinder</edgelabel>
+          <edgelabel>Line</edgelabel>
+          <edgelabel>Plane</edgelabel>
+          <edgelabel>Point</edgelabel>
+          <edgelabel>Sphere</edgelabel>
+          <edgelabel>_count</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18962" bodyend="19016"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a2e8d57eae979b90f3392c3f69fcbf426" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a1e4342fe2ee8805a4bb8102572c182a8" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a3c89a1747f247ab5c4e1e6def640b6ec" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a0ea21462f63059870995cfb779ed8dd4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1aa064a02dc70e56bba99a65f7ba451d60" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a62002cd5abbfba010c0532cc69947ee5" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a0f4c7e30a0a9e49a7ac46680196f4eef" prot="private" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a7af5b7660059c7c37d5760499a6a742a" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a2e495f911adbd9bf51e9cbce51ad6d8a" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a7a9aeb1ce50b03a555b5ee0c52f17519" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a4322b708b202f2a17dde380b3c8556a6" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a1c2da30416d63c39f5a67d8210f78916" prot="protected" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a53d1f3025f78033227d0606e1bf96ca4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>Circle</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a4e7485f3d9fc5cc67506e5fbd5e3ad53" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>Cone</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1aec7cc947a7624d6ebfb778503019a473" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>Cylinder</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1aee58545aace5b6d0dc1f2d206dee3cad" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>Line</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a960ae7109fe5de160d513b2bbdb37352" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a5af350cab291cf142c896cf1ac563d08" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>Plane</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a73dd664852fea0aa808dbeb3fdd29429" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>Point</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1a26ef05c422f209b95ae712cc53202416" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>Sphere</name></member>
+      <member refid="classmrmeshpy_1_1FeaturesObjectKind_1aa095c38f72ef99cf72d522e03281c96a" prot="public" virt="non-virtual"><scope>mrmeshpy::FeaturesObjectKind</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

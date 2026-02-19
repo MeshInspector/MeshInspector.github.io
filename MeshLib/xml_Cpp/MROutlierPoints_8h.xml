@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MROutlierPoints_8h" kind="file" language="C++">
+    <compoundname>MROutlierPoints.h</compoundname>
+    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MRExpected_8h" local="yes">MRMesh/MRExpected.h</includes>
+    <includes refid="MRUnionFind_8h" local="yes">MRUnionFind.h</includes>
+    <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
+    <includes refid="MRConstants_8h" local="yes">MRConstants.h</includes>
+    <includes refid="MRFlagOperators_8h" local="yes">MRFlagOperators.h</includes>
+    <incdepgraph>
+      <node id="16">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRFlagOperators.h</label>
+        <link refid="MRFlagOperators_8h"/>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="1">
+        <label>MROutlierPoints.h</label>
+        <link refid="MROutlierPoints_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRTimer.h</label>
+        <link refid="MRTimer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRUnionFind.h</label>
+        <link refid="MRUnionFind_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="4">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="5">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="20">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="12">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>chrono</label>
+      </node>
+      <node id="11">
+        <label>concepts</label>
+      </node>
+      <node id="18">
+        <label>cstddef</label>
+      </node>
+      <node id="21">
+        <label>functional</label>
+      </node>
+      <node id="22">
+        <label>iosfwd</label>
+      </node>
+      <node id="23">
+        <label>iterator</label>
+      </node>
+      <node id="6">
+        <label>string</label>
+      </node>
+      <node id="19">
+        <label>type_traits</label>
+      </node>
+      <node id="15">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1OutlierParams" prot="public">MR::OutlierParams</innerclass>
+    <innerclass refid="classMR_1_1OutliersDetector" prot="public">MR::OutliersDetector</innerclass>
+    <innerclass refid="structMR_1_1FindOutliersParams" prot="public">MR::FindOutliersParams</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRExpected_8h" kindref="compound">MRMesh/MRExpected.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRUnionFind_8h" kindref="compound">MRUnionFind.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBitSet_8h" kindref="compound">MRBitSet.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRConstants_8h" kindref="compound">MRConstants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFlagOperators_8h" kindref="compound">MRFlagOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1OutlierParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1OutlierParams" kindref="compound">OutlierParams</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1gae7fcf0f64db2a7e109689f6722285abd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae7fcf0f64db2a7e109689f6722285abd" kindref="member">maxClusterSize</ref><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga9561ff72aba23dad165d0922967bf343" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9561ff72aba23dad165d0922967bf343" kindref="member">maxNeighbors</ref><sp/>=<sp/>7;</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga2e3bfef94b01f500d4471c14cd7e2660" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2e3bfef94b01f500d4471c14cd7e2660" kindref="member">minHeight</ref><sp/>=<sp/>0.3f;</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga77f329cbd855532e38b3482d07260251" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga77f329cbd855532e38b3482d07260251" kindref="member">minAngle</ref><sp/>=<sp/>PI_F<sp/>/<sp/>3.f;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" refkind="member"><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f" kindref="member">SmallComponents</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,<sp/></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066" kindref="member">WeaklyConnected</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40" kindref="member">FarSurface</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584" kindref="member">AwayNormal</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>3,<sp/></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">All</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a614153ed3ac75b632ddf7270a6a87f1f" kindref="member">SmallComponents</ref><sp/>|<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a4d9d1029f8af05810e4083fd45317066" kindref="member">WeaklyConnected</ref><sp/>|<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a6bf77282d5694b0cd278e5e3753e4d40" kindref="member">FarSurface</ref><sp/>|<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146a477bfe07550f78a628456c08c5871584" kindref="member">AwayNormal</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><ref refid="MRFlagOperators_8h_1afbd9348d27fb58bbb0befb3db34fab6a" kindref="member">MR_MAKE_FLAG_OPERATORS</ref>(<sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref><sp/>)</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1OutliersDetector" refkind="compound"><highlight class="normal">class<sp/>MRMESH_CLASS<sp/><ref refid="classMR_1_1OutliersDetector" kindref="compound">OutliersDetector</ref></highlight></codeline>
+<codeline lineno="43"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga6becc4c4034355314a33f130bcba2799" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6becc4c4034355314a33f130bcba2799" kindref="member">OutliersDetector</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1ga1154a1b3f20843accd3192e14c23769a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;void&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga1154a1b3f20843accd3192e14c23769a" kindref="member">prepare</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref><sp/>mask,<sp/>ProgressCallback<sp/>progress<sp/>=<sp/>{}<sp/>);<sp/></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="group__GeneralGroup_1gab7b1de4b899eec78ae6014c69084741f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab7b1de4b899eec78ae6014c69084741f" kindref="member">setParams</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OutlierParams" kindref="compound">OutlierParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1ga1df5e62392b1ff49fe78e24b80ec1694" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1OutlierParams" kindref="compound">OutlierParams</ref>&amp;<sp/><ref refid="group__GeneralGroup_1ga1df5e62392b1ff49fe78e24b80ec1694" kindref="member">getParams</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>params_;<sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga02666077b16515a2f9576574342f72a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga02666077b16515a2f9576574342f72a0" kindref="member">find</ref>(<sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref><sp/>mask,<sp/>ProgressCallback<sp/>progress<sp/>=<sp/>{}<sp/>);<sp/></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1gad6e34a96f5e02bc6136a11a6d65888ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;uint8_t&gt;&amp;<sp/><ref refid="group__GeneralGroup_1gad6e34a96f5e02bc6136a11a6d65888ff" kindref="member">getWeaklyConnectedStat</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>weaklyConnectedStat_;<sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/>findSmallComponents(<sp/>ProgressCallback<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/>findWeaklyConnected(<sp/>ProgressCallback<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/>findFarSurface(<sp/>ProgressCallback<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/>findAwayNormal(<sp/>ProgressCallback<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius_<sp/>=<sp/>1.f;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>OutlierParams<sp/>params_;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>UnionFind&lt;VertId&gt;<sp/>unionFindStructure_;<sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;uint8_t&gt;<sp/>weaklyConnectedStat_;<sp/></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/>farSurfaceStat_;<sp/></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;float&gt;<sp/>badNormalStat_;<sp/></highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref><sp/>maskCached_<sp/>=<sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref>(<sp/>0<sp/>);<sp/></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>VertBitSet<sp/>validPoints_;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="structMR_1_1FindOutliersParams" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FindOutliersParams" kindref="compound">FindOutliersParams</ref></highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91" refid="group__GeneralGroup_1ga946930107905c1323ecdbcab72a87914" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1OutlierParams" kindref="compound">OutlierParams</ref><sp/><ref refid="group__GeneralGroup_1ga946930107905c1323ecdbcab72a87914" kindref="member">finderParams</ref>;<sp/></highlight></codeline>
+<codeline lineno="92" refid="group__GeneralGroup_1ga41cffc0d0bf42f1a2f3131c84385aac0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga41cffc0d0bf42f1a2f3131c84385aac0" kindref="member">radius</ref><sp/>=<sp/>1.f;<sp/></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="group__GeneralGroup_1ga7f72b590f90df23de6d1e5a77a5c1fc5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab8659c12eb8fa6618f154566efce6146" kindref="member">OutlierTypeMask</ref><sp/><ref refid="group__GeneralGroup_1ga7f72b590f90df23de6d1e5a77a5c1fc5" kindref="member">mask</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ggab8659c12eb8fa6618f154566efce6146ab1c94ca2fbc3e78fc30069c8d0f01680" kindref="member">OutlierTypeMask::All</ref>;<sp/></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="group__GeneralGroup_1gaa39f977c4a7b6d7b43bbe8dd59cf8b87" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/><ref refid="group__GeneralGroup_1gaa39f977c4a7b6d7b43bbe8dd59cf8b87" kindref="member">progress</ref><sp/>=<sp/>{};<sp/></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="group__GeneralGroup_1ga83c915f7d70a05ed28c1dbf2186f4b17" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga83c915f7d70a05ed28c1dbf2186f4b17" kindref="member">findOutliers</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FindOutliersParams" kindref="compound">FindOutliersParams</ref>&amp;<sp/>params<sp/>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROutlierPoints.h"/>
+  </compounddef>
+</doxygen>

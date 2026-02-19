@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RenderDimensions_1_1AngleParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RenderDimensions::AngleParams</compoundname>
+    <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae12fd753d7b41f3585a8be7f6267b05c" kind="variable"><name>common</name></member>
+      <member refid="group__GeneralGroup_1gaa85ef6d1b0b31db4da15d765aaa3aaea" kind="variable"><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga3a1739ccf9799082e97640d3942cd5a0" kind="variable"><name>rays</name></member>
+      <member refid="group__GeneralGroup_1gacd45525e6d0f8a47a34a30c3a2596270" kind="variable"><name>isConical</name></member>
+      <member refid="group__GeneralGroup_1gaaace7c14d6dc2100d4e3e7555158c162" kind="variable"><name>shouldVisualizeRay</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderDimensions::AngleParams</label>
+        <link refid="structMR_1_1RenderDimensions_1_1AngleParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>common</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderDimensions::CommonParams</label>
+        <link refid="structMR_1_1RenderDimensions_1_1CommonParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>objectToSelect</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="8">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="12">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="13">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="3">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="11">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="121" bodyend="136"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa85ef6d1b0b31db4da15d765aaa3aaea" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleParams</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1gae12fd753d7b41f3585a8be7f6267b05c" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleParams</scope><name>common</name></member>
+      <member refid="group__GeneralGroup_1gacd45525e6d0f8a47a34a30c3a2596270" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleParams</scope><name>isConical</name></member>
+      <member refid="group__GeneralGroup_1ga3a1739ccf9799082e97640d3942cd5a0" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleParams</scope><name>rays</name></member>
+      <member refid="group__GeneralGroup_1gaaace7c14d6dc2100d4e3e7555158c162" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::AngleParams</scope><name>shouldVisualizeRay</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

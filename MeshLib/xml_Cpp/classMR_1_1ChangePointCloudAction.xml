@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangePointCloudAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangePointCloudAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangePointCloudAction_8h" local="no">MRChangePointCloudAction.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga88fbf81698d29dc3b1de82e6258f3e62" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga230e77bd7b01a9aeecce97b13fe5fd4f" kind="variable"><name>objPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga98c3a77af978a6f75629fd9c90b2936c" kind="variable"><name>clonePointCloud_</name></member>
+      <member refid="group__GeneralGroup_1ga0bb4f083c7d1d612d304252999120b2e" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga36b0016bc6e04bb6c94996e9c8adbea2" kind="function"><name>ChangePointCloudAction</name></member>
+      <member refid="group__GeneralGroup_1ga3d96f0fc00a2d6d30b4807712b3793b6" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga618406d420de41e825205cae3f53c9c6" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaea2ce2e41b3850a18e72e5766ccb86f5" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gaf560354fe849806139d86968d627ad64" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> mesh change </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangePointCloudAction</label>
+        <link refid="classMR_1_1ChangePointCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangePointCloudAction</label>
+        <link refid="classMR_1_1ChangePointCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePointCloudAction.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePointCloudAction.h" bodystart="18" bodyend="58"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga618406d420de41e825205cae3f53c9c6" prot="public" virt="virtual"><scope>MR::ChangePointCloudAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga36b0016bc6e04bb6c94996e9c8adbea2" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudAction</scope><name>ChangePointCloudAction</name></member>
+      <member refid="group__GeneralGroup_1ga98c3a77af978a6f75629fd9c90b2936c" prot="private" virt="non-virtual"><scope>MR::ChangePointCloudAction</scope><name>clonePointCloud_</name></member>
+      <member refid="group__GeneralGroup_1gaea2ce2e41b3850a18e72e5766ccb86f5" prot="public" virt="virtual"><scope>MR::ChangePointCloudAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga3d96f0fc00a2d6d30b4807712b3793b6" prot="public" virt="virtual"><scope>MR::ChangePointCloudAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga0bb4f083c7d1d612d304252999120b2e" prot="private" virt="non-virtual"><scope>MR::ChangePointCloudAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga88fbf81698d29dc3b1de82e6258f3e62" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1ga230e77bd7b01a9aeecce97b13fe5fd4f" prot="private" virt="non-virtual"><scope>MR::ChangePointCloudAction</scope><name>objPoints_</name></member>
+      <member refid="group__GeneralGroup_1gaf560354fe849806139d86968d627ad64" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangePointCloudAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

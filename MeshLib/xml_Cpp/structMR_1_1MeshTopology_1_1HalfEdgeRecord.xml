@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshTopology_1_1HalfEdgeRecord" kind="struct" language="C++" prot="private">
+    <compoundname>MR::MeshTopology::HalfEdgeRecord</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa79948207ce03ac940110fc5b6eeadad" kind="variable"><name>next</name></member>
+      <member refid="group__GeneralGroup_1ga72d923a9f0e2f0b8bf55d43bbd30bc2c" kind="variable"><name>prev</name></member>
+      <member refid="group__GeneralGroup_1ga2408c1ef3fd6c369eebe4355ae4ea4bc" kind="variable"><name>org</name></member>
+      <member refid="group__GeneralGroup_1gab3e0a1e7779d04f8555ba394cd33ca44" kind="variable"><name>left</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga4cce7def49dbe7470ef6d7c0aa86d5ec" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga52461c28c53cb8304e151cdbe8f0f989" kind="function"><name>HalfEdgeRecord</name></member>
+      <member refid="group__GeneralGroup_1ga1d0f48356164a758058b0338d1006522" kind="function"><name>HalfEdgeRecord</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>data of every half-edge, align to put whole record in one cache line </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" line="561" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTopology.h" bodystart="562" bodyend="574"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga52461c28c53cb8304e151cdbe8f0f989" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>HalfEdgeRecord</name></member>
+      <member refid="group__GeneralGroup_1ga1d0f48356164a758058b0338d1006522" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>HalfEdgeRecord</name></member>
+      <member refid="group__GeneralGroup_1gab3e0a1e7779d04f8555ba394cd33ca44" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>left</name></member>
+      <member refid="group__GeneralGroup_1gaa79948207ce03ac940110fc5b6eeadad" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>next</name></member>
+      <member refid="group__GeneralGroup_1ga4cce7def49dbe7470ef6d7c0aa86d5ec" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga2408c1ef3fd6c369eebe4355ae4ea4bc" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>org</name></member>
+      <member refid="group__GeneralGroup_1ga72d923a9f0e2f0b8bf55d43bbd30bc2c" prot="public" virt="non-virtual"><scope>MR::MeshTopology::HalfEdgeRecord</scope><name>prev</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

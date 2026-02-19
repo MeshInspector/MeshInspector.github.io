@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FindOverlappingSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FindOverlappingSettings</compoundname>
+    <includes refid="MROverlappingTris_8h" local="no">MROverlappingTris.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad9c6b8c3584ffef1a49795f794fced8d" kind="variable"><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1gaabcdb20bd37c7191483848d201e24d53" kind="variable"><name>maxNormalDot</name></member>
+      <member refid="group__GeneralGroup_1ga2fb083294a0bd854f423edd314775ad7" kind="variable"><name>minAreaFraction</name></member>
+      <member refid="group__GeneralGroup_1gacb6eb2b7cfbeacc7bb24b58262dcba34" kind="variable"><name>pred</name></member>
+      <member refid="group__GeneralGroup_1gac272f940af3bc9c5f3f0932e466a5f8e" kind="variable"><name>cb</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROverlappingTris.h" bodystart="13" bodyend="31"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac272f940af3bc9c5f3f0932e466a5f8e" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gad9c6b8c3584ffef1a49795f794fced8d" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1gaabcdb20bd37c7191483848d201e24d53" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>maxNormalDot</name></member>
+      <member refid="group__GeneralGroup_1ga2fb083294a0bd854f423edd314775ad7" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>minAreaFraction</name></member>
+      <member refid="group__GeneralGroup_1gacb6eb2b7cfbeacc7bb24b58262dcba34" prot="public" virt="non-virtual"><scope>MR::FindOverlappingSettings</scope><name>pred</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

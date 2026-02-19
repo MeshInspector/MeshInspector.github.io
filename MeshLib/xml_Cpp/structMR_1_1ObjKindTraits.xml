@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjKindTraits" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ObjKindTraits</compoundname>
+    <includes refid="MRFeatureHelpers_8h" local="no">MRFeatureHelpers.h</includes>
+    <templateparamlist>
+      <param>
+        <type><ref refid="group__GeneralGroup_1ga0e2748a930a13a0cacf2a0a2da1b6e0d" kindref="member">FeaturesObjectKind</ref></type>
+        <declname>X</declname>
+        <defname>X</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+<para>Various information about different types of objects. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="34" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="35" bodyend="36"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

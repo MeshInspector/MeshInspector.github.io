@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BooleanPreCutResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BooleanPreCutResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanPreCutResult_1a0e9930e2d4a29cdb0a04d07ba0fce9b3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanPreCutResult::_offsetof_contours</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_contours</name>
+        <qualifiedname>mrmeshpy.BooleanPreCutResult._offsetof_contours</qualifiedname>
+        <initializer>=  272</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3617" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanPreCutResult_1afc69b1ad076d7cfcc5e1c827a7a22234" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanPreCutResult::_offsetof_mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mesh</name>
+        <qualifiedname>mrmeshpy.BooleanPreCutResult._offsetof_mesh</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3618" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanPreCutResult_1ae8493473eb50e7189b41afd546bd510e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanPreCutResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanPreCutResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3623" bodyend="3624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanPreCutResult_1a446b29def2afb1f4c2b05f37f8c8a66a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanPreCutResult" kindref="compound">BooleanPreCutResult</ref></type>
+        <definition> BooleanPreCutResult mrmeshpy.BooleanPreCutResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanPreCutResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3627" bodyend="3628"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanPreCutResult_1a446b29def2afb1f4c2b05f37f8c8a66a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanPreCutResult" kindref="compound">BooleanPreCutResult</ref></type>
+        <definition> BooleanPreCutResult mrmeshpy.BooleanPreCutResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanPreCutResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3631" bodyend="3632"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanPreCutResult_1a414b24d8b6724d528c194f2dc9199ddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanPreCutResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanPreCutResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3634" bodyend="3635"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanPreCutResult_1a6c5bca6c764fe73539c0d2e2eb8e7cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanPreCutResult.__init__</definition>
+        <argsstring>(self, BooleanPreCutResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanPreCutResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanPreCutResult" kindref="compound">BooleanPreCutResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3637" bodyend="3640"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanPreCutResult_1a596dde28b32e73bac1463a720b08d22f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanPreCutResult.__init__</definition>
+        <argsstring>(self, Mesh mesh, std_vector_OneMeshContour contours)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanPreCutResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__OneMeshContour" kindref="compound">std_vector_OneMeshContour</ref></type>
+          <declname>contours</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3642" bodyend="3645"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BooleanPreCutResult
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BooleanPreCutResult</label>
+        <link refid="classmrmeshpy_1_1BooleanPreCutResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_contours</edgelabel>
+          <edgelabel>_offsetof_mesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3613" bodyend="3645"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BooleanPreCutResult_1ae8493473eb50e7189b41afd546bd510e" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanPreCutResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a414b24d8b6724d528c194f2dc9199ddc" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanPreCutResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a6c5bca6c764fe73539c0d2e2eb8e7cf2" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanPreCutResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a596dde28b32e73bac1463a720b08d22f" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanPreCutResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a0e9930e2d4a29cdb0a04d07ba0fce9b3" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanPreCutResult</scope><name>_offsetof_contours</name></member>
+      <member refid="classmrmeshpy_1_1BooleanPreCutResult_1afc69b1ad076d7cfcc5e1c827a7a22234" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanPreCutResult</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a446b29def2afb1f4c2b05f37f8c8a66a" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanPreCutResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BooleanPreCutResult_1a446b29def2afb1f4c2b05f37f8c8a66a" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanPreCutResult</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

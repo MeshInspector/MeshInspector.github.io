@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MultiMeshIntersectionResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::MultiMeshIntersectionResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MultiMeshIntersectionResult</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MultiMeshIntersectionResult_1ac572d4ac53a18a8d702c367369f1e72a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_Mesh</type>
+        <definition>new unsafe MR.? Const_Mesh MR.MultiMeshIntersectionResult.mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.mesh</qualifiedname>
+        <briefdescription>
+<para>the intersection found in this mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="791" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="792" bodyend="801"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MultiMeshIntersectionResult_1a767ccd85eb3e4aa00dec51f1a6ba9e08" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1PointOnFace" kindref="compound">MR.PointOnFace</ref></type>
+        <definition>new unsafe MR.PointOnFace MR.MultiMeshIntersectionResult.proj</definition>
+        <argsstring></argsstring>
+        <name>proj</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.proj</qualifiedname>
+        <briefdescription>
+<para>stores intersected face and global coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="804" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="804" bodyend="804"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MultiMeshIntersectionResult_1a8a63dbc268281e6bd0b8d95648e56063" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
+        <definition>new unsafe MR.MeshTriPoint MR.MultiMeshIntersectionResult.mtp</definition>
+        <argsstring></argsstring>
+        <name>mtp</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.mtp</qualifiedname>
+        <briefdescription>
+<para>stores barycentric coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="807" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="807" bodyend="807"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MultiMeshIntersectionResult_1a404e932c5529de77e8d6659b41fd06d8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.MultiMeshIntersectionResult.distanceAlongLine</definition>
+        <argsstring></argsstring>
+        <name>distanceAlongLine</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.distanceAlongLine</qualifiedname>
+        <briefdescription>
+<para>stores the distance from ray origin to the intersection point in direction units </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="810" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="810" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1MultiMeshIntersectionResult_1a70fd62a68d0bfa3e6b04cb697920363b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.MultiMeshIntersectionResult.operator MR.MeshIntersectionResult</definition>
+        <argsstring>(MultiMeshIntersectionResult self)</argsstring>
+        <name>operator MR.MeshIntersectionResult</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.operator MR.MeshIntersectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MultiMeshIntersectionResult" kindref="compound">MultiMeshIntersectionResult</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="781" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="781" bodyend="788"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MultiMeshIntersectionResult_1abe831d600ca1ffb24aee0099cce1b1e0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MultiMeshIntersectionResult</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="836" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="836" bodyend="840"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MultiMeshIntersectionResult_1a8556c93f26f475a2d57bd1c2dfd7b79c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</definition>
+        <argsstring>()</argsstring>
+        <name>MultiMeshIntersectionResult</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="846" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="846" bodyend="852"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiMeshIntersectionResult_1a06faa4977fda624c0fa671708079480b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</definition>
+        <argsstring>(MR.Const_MultiMeshIntersectionResult _other)</argsstring>
+        <name>MultiMeshIntersectionResult</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</qualifiedname>
+        <param>
+          <type>MR.Const_MultiMeshIntersectionResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="857" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="857" bodyend="864"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiMeshIntersectionResult_1a111baee6b1cf8f1cbf2f0bfce19363af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</definition>
+        <argsstring>(MultiMeshIntersectionResult _other)</argsstring>
+        <name>MultiMeshIntersectionResult</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MultiMeshIntersectionResult" kindref="compound">MultiMeshIntersectionResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MultiMeshIntersectionResult.MultiMeshIntersectionResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="869" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="869" bodyend="869"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MultiMeshIntersectionResult_1abae793fbbd3654e8008eee3ed3ec6893" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MultiMeshIntersectionResult" kindref="compound">MR.MultiMeshIntersectionResult</ref></type>
+        <definition>unsafe MR.MultiMeshIntersectionResult MR.MultiMeshIntersectionResult.assign</definition>
+        <argsstring>(MR.Const_MultiMeshIntersectionResult _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MultiMeshIntersectionResult.assign</qualifiedname>
+        <param>
+          <type>MR.Const_MultiMeshIntersectionResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MultiMeshIntersectionResult.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="874" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="874" bodyend="881"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MultiMeshIntersectionResult" kindref="compound">MR.MultiMeshIntersectionResult</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1MeshIntersectionResult" kindref="compound">MR.MeshIntersectionResult</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MultiMeshIntersectionResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MultiMeshIntersectionResult</label>
+        <link refid="classMR_1_1MultiMeshIntersectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MultiMeshIntersectionResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MultiMeshIntersectionResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MultiMeshIntersectionResult</label>
+        <link refid="classMR_1_1MultiMeshIntersectionResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MultiMeshIntersectionResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" line="778" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshIntersect.cs" bodystart="779" bodyend="882"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1abae793fbbd3654e8008eee3ed3ec6893" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1a404e932c5529de77e8d6659b41fd06d8" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>distanceAlongLine</name></member>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1ac572d4ac53a18a8d702c367369f1e72a" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>mesh</name></member>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1a8a63dbc268281e6bd0b8d95648e56063" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>mtp</name></member>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1abe831d600ca1ffb24aee0099cce1b1e0" prot="package" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>MultiMeshIntersectionResult</name></member>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1a8556c93f26f475a2d57bd1c2dfd7b79c" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>MultiMeshIntersectionResult</name></member>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1a06faa4977fda624c0fa671708079480b" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>MultiMeshIntersectionResult</name></member>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1a111baee6b1cf8f1cbf2f0bfce19363af" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>MultiMeshIntersectionResult</name></member>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1a70fd62a68d0bfa3e6b04cb697920363b" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>operator MR.MeshIntersectionResult</name></member>
+      <member refid="classMR_1_1MultiMeshIntersectionResult_1a767ccd85eb3e4aa00dec51f1a6ba9e08" prot="public" virt="non-virtual"><scope>MR::MultiMeshIntersectionResult</scope><name>proj</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

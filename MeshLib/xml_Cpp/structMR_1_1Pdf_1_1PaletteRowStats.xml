@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Pdf_1_1PaletteRowStats" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Pdf::PaletteRowStats</compoundname>
+    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad16f18f7413f0487a950bb1e6569f3b1" kind="variable"><name>color</name></member>
+      <member refid="group__GeneralGroup_1ga06cbe19e05a2c7b2fb23dc160f2ab510" kind="variable"><name>rangeMin</name></member>
+      <member refid="group__GeneralGroup_1ga26b71623786defb48ca842a2c3e7ac63" kind="variable"><name>rangeMax</name></member>
+      <member refid="group__GeneralGroup_1gaec6ce7577cd6d9f231958302aef384c7" kind="variable"><name>percent</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::Pdf::PaletteRowStats</label>
+        <link refid="structMR_1_1Pdf_1_1PaletteRowStats"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>color</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="119" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="120" bodyend="125"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad16f18f7413f0487a950bb1e6569f3b1" prot="public" virt="non-virtual"><scope>MR::Pdf::PaletteRowStats</scope><name>color</name></member>
+      <member refid="group__GeneralGroup_1gaec6ce7577cd6d9f231958302aef384c7" prot="public" virt="non-virtual"><scope>MR::Pdf::PaletteRowStats</scope><name>percent</name></member>
+      <member refid="group__GeneralGroup_1ga26b71623786defb48ca842a2c3e7ac63" prot="public" virt="non-virtual"><scope>MR::Pdf::PaletteRowStats</scope><name>rangeMax</name></member>
+      <member refid="group__GeneralGroup_1ga06cbe19e05a2c7b2fb23dc160f2ab510" prot="public" virt="non-virtual"><scope>MR::Pdf::PaletteRowStats</scope><name>rangeMin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

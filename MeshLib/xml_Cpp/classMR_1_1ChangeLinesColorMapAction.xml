@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeLinesColorMapAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeLinesColorMapAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeColoringActions_8h" local="no">MRChangeColoringActions.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga55aeaa9aea474f11f11d8cd2d9410499" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga915abef4d3d6b600eaac3e610a066896" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga70840b6d9353e2463882f4b7041790fd" kind="variable"><name>colorMap_</name></member>
+      <member refid="group__GeneralGroup_1ga888d0b802de74964a586260ed9907b66" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga7806259621a23a6b67669e9b3be99e92" kind="function"><name>ChangeLinesColorMapAction</name></member>
+      <member refid="group__GeneralGroup_1gaa8ddee0413ffd1f5443c24e425457f07" kind="function"><name>ChangeLinesColorMapAction</name></member>
+      <member refid="group__GeneralGroup_1ga58c39c7fe8142548916393082fe71741" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga72f12b1fca7e6ed8731a32ca1796e0b2" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga5c000b7f2ed38d70be031166c9529327" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga5bd9b0ff144d3dcf3a721bb938e543c8" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for lines color map change </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeLinesColorMapAction</label>
+        <link refid="classMR_1_1ChangeLinesColorMapAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeLinesColorMapAction</label>
+        <link refid="classMR_1_1ChangeLinesColorMapAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="135" bodyend="187"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga72f12b1fca7e6ed8731a32ca1796e0b2" prot="public" virt="virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga7806259621a23a6b67669e9b3be99e92" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
+      <member refid="group__GeneralGroup_1gaa8ddee0413ffd1f5443c24e425457f07" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>ChangeLinesColorMapAction</name></member>
+      <member refid="group__GeneralGroup_1ga70840b6d9353e2463882f4b7041790fd" prot="private" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>colorMap_</name></member>
+      <member refid="group__GeneralGroup_1ga5c000b7f2ed38d70be031166c9529327" prot="public" virt="virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga58c39c7fe8142548916393082fe71741" prot="public" virt="virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga888d0b802de74964a586260ed9907b66" prot="private" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga55aeaa9aea474f11f11d8cd2d9410499" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1ga915abef4d3d6b600eaac3e610a066896" prot="private" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga5bd9b0ff144d3dcf3a721bb938e543c8" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeLinesColorMapAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

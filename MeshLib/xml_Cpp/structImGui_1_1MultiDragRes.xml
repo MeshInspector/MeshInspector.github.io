@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structImGui_1_1MultiDragRes" kind="struct" language="C++" prot="public">
+    <compoundname>ImGui::MultiDragRes</compoundname>
+    <includes refid="ImGuiHelpers_8h" local="no">ImGuiHelpers.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structImGui_1_1MultiDragRes_1adb7b2a2769c456894115e619b520e720" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ImGui::MultiDragRes::valueChanged</definition>
+        <argsstring></argsstring>
+        <name>valueChanged</name>
+        <qualifiedname>ImGui::MultiDragRes::valueChanged</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="96" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structImGui_1_1MultiDragRes_1a4eedb4fce9de2f5613159499ddda2284" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ImGui::MultiDragRes::itemDeactivatedAfterEdit</definition>
+        <argsstring></argsstring>
+        <name>itemDeactivatedAfterEdit</name>
+        <qualifiedname>ImGui::MultiDragRes::itemDeactivatedAfterEdit</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>any of N </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="97" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structImGui_1_1MultiDragRes_1a2cbca753ea91bb78dd7129cd9d593887" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>ImGui::MultiDragRes::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>ImGui::MultiDragRes::operator bool</qualifiedname>
+        <briefdescription>
+<para>any of N </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="98" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="98" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" line="94" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/ImGuiHelpers.h" bodystart="95" bodyend="99"/>
+    <listofallmembers>
+      <member refid="structImGui_1_1MultiDragRes_1a4eedb4fce9de2f5613159499ddda2284" prot="public" virt="non-virtual"><scope>ImGui::MultiDragRes</scope><name>itemDeactivatedAfterEdit</name></member>
+      <member refid="structImGui_1_1MultiDragRes_1a2cbca753ea91bb78dd7129cd9d593887" prot="public" virt="non-virtual"><scope>ImGui::MultiDragRes</scope><name>operator bool</name></member>
+      <member refid="structImGui_1_1MultiDragRes_1adb7b2a2769c456894115e619b520e720" prot="public" virt="non-virtual"><scope>ImGui::MultiDragRes</scope><name>valueChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

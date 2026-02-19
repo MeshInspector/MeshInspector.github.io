@@ -1,0 +1,444 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UnionFind_UndirectedEdgeId</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ab852e3587edf91b3bbca9641d97b6d2c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_UndirectedEdgeId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59959" bodyend="59960"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ac67d1adb90465796297900fb026c57f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId" kindref="compound">UnionFind_UndirectedEdgeId</ref></type>
+        <definition> UnionFind_UndirectedEdgeId mrmeshpy.UnionFind_UndirectedEdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59963" bodyend="59964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ac67d1adb90465796297900fb026c57f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId" kindref="compound">UnionFind_UndirectedEdgeId</ref></type>
+        <definition> UnionFind_UndirectedEdgeId mrmeshpy.UnionFind_UndirectedEdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59967" bodyend="59968"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a6f4c53bcddd1c65c32b87cbdbedd4439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_UndirectedEdgeId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59970" bodyend="59971"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a089e281e578d08f53a5ccb1c2b9c2e40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_UndirectedEdgeId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates union-find with given number of elements, each element is the only one in its disjoint set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59973" bodyend="59976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a8e1c35aa9438e3c5b765d7b588fa4844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_UndirectedEdgeId.__init__</definition>
+        <argsstring>(self, UnionFind_UndirectedEdgeId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId" kindref="compound">UnionFind_UndirectedEdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59978" bodyend="59981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1aa78b7fb7f2a47c5ee05a7c78292645c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UnionFind_UndirectedEdgeId.find</definition>
+        <argsstring>(self, UndirectedEdgeId a)</argsstring>
+        <name>find</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.find</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the root of the set containing given element with optimizing data structure updates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59982" bodyend="59985"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1aea764e8cdd33829ea0780343a940b327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UnionFind_UndirectedEdgeId.findUpdateRange</definition>
+        <argsstring>(self, UndirectedEdgeId a, UndirectedEdgeId begin, UndirectedEdgeId end)</argsstring>
+        <name>findUpdateRange</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.findUpdateRange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the root of the set containing given element with optimizing data structure in the range [begin, end)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59986" bodyend="59989"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a375c3c98441aab693c15c6edf67cbd3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UnionFind_UndirectedEdgeId.isRoot</definition>
+        <argsstring>(self, UndirectedEdgeId a)</argsstring>
+        <name>isRoot</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.isRoot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given element is the root of some set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59990" bodyend="59993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1aa1eac1169e3f304c73d25f5bef33aee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UnionFind_UndirectedEdgeId.parent</definition>
+        <argsstring>(self, UndirectedEdgeId a)</argsstring>
+        <name>parent</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.parent</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return parent element of this element, which is equal to given element only for set&apos;s root
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59994" bodyend="59997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1aad30adc842637e0598e82c7e81b889fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeMap" kindref="compound">UndirectedEdgeMap</ref></type>
+        <definition> UndirectedEdgeMap mrmeshpy.UnionFind_UndirectedEdgeId.parents</definition>
+        <argsstring>(self)</argsstring>
+        <name>parents</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.parents</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets the parents of all elements as is
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59998" bodyend="60001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1afa6f65831580149f0b5fad1526c42129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnionFind_UndirectedEdgeId.reset</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resets union-find to represent given number of elements, each element is the only one in its disjoint set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60002" bodyend="60005"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a63bde6485cdd3666c6751b62acf6ac27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeMap" kindref="compound">UndirectedEdgeMap</ref></type>
+        <definition> UndirectedEdgeMap mrmeshpy.UnionFind_UndirectedEdgeId.roots</definition>
+        <argsstring>(self)</argsstring>
+        <name>roots</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.roots</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the root of corresponding set as the parent of each element, then returns the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60006" bodyend="60009"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a0b876af1631b5486d93c23f9508ec34b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UnionFind_UndirectedEdgeId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of elements in union-find
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60010" bodyend="60013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a2e7b70cbde476074a05e0f498bb6bedc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UnionFind_UndirectedEdgeId.sizeOfComp</definition>
+        <argsstring>(self, UndirectedEdgeId a)</argsstring>
+        <name>sizeOfComp</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.sizeOfComp</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of elements in the set containing given element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60014" bodyend="60017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a259181fbbc024754b6954793a04f0acc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>tuple[<ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref>, bool]</type>
+        <definition> tuple[UndirectedEdgeId, bool] mrmeshpy.UnionFind_UndirectedEdgeId.unite</definition>
+        <argsstring>(self, UndirectedEdgeId first, UndirectedEdgeId second)</argsstring>
+        <name>unite</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.unite</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>unite two elements,
+\\return first: new common root, second: true = union was done, false = first and second were already united
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60018" bodyend="60022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a976e5b9cab41d4f7819a63e037055265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UnionFind_UndirectedEdgeId.united</definition>
+        <argsstring>(self, UndirectedEdgeId first, UndirectedEdgeId second)</argsstring>
+        <name>united</name>
+        <qualifiedname>mrmeshpy.UnionFind_UndirectedEdgeId.united</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given two elements are from one set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60023" bodyend="60026"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UnionFind&lt;MR::UndirectedEdgeId&gt;
+
+
+\\brief Union-find data structure for representing disjoin sets of elements with few very quick operations:
+1) union of two sets in one,
+2) checking whether two elements pertain to the same set,
+3) finding representative element (root) of each set by any set&apos;s element
+\\tparam I is the identifier of a set&apos;s element, e.g. FaceId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59946" bodyend="60026"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ab852e3587edf91b3bbca9641d97b6d2c" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a6f4c53bcddd1c65c32b87cbdbedd4439" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a089e281e578d08f53a5ccb1c2b9c2e40" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a8e1c35aa9438e3c5b765d7b588fa4844" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1aa78b7fb7f2a47c5ee05a7c78292645c8" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>find</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1aea764e8cdd33829ea0780343a940b327" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>findUpdateRange</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a375c3c98441aab693c15c6edf67cbd3c" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>isRoot</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ac67d1adb90465796297900fb026c57f0" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1ac67d1adb90465796297900fb026c57f0" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1aa1eac1169e3f304c73d25f5bef33aee2" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>parent</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1aad30adc842637e0598e82c7e81b889fc" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>parents</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1afa6f65831580149f0b5fad1526c42129" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a63bde6485cdd3666c6751b62acf6ac27" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>roots</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a0b876af1631b5486d93c23f9508ec34b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a2e7b70cbde476074a05e0f498bb6bedc" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>sizeOfComp</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a259181fbbc024754b6954793a04f0acc" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>unite</name></member>
+      <member refid="classmrmeshpy_1_1UnionFind__UndirectedEdgeId_1a976e5b9cab41d4f7819a63e037055265" prot="public" virt="non-virtual"><scope>mrmeshpy::UnionFind_UndirectedEdgeId</scope><name>united</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

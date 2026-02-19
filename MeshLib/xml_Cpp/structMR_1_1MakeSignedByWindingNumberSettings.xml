@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MakeSignedByWindingNumberSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MakeSignedByWindingNumberSettings</compoundname>
+    <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab01c8a645415c29410190fe405773c8a" kind="variable"><name>meshToGridXf</name></member>
+      <member refid="group__GeneralGroup_1ga94b1baa91b7a7f5cc08e84e5505680c2" kind="variable"><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1ga76fda89f388f379a843c11dfccabb73f" kind="variable"><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1ga9b227c497a7784f70a4f48631fe8a1f4" kind="variable"><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1ga3a33c885904d5b4053c358046cb72e88" kind="variable"><name>progress</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="136" bodyend="152"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga94b1baa91b7a7f5cc08e84e5505680c2" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1gab01c8a645415c29410190fe405773c8a" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>meshToGridXf</name></member>
+      <member refid="group__GeneralGroup_1ga3a33c885904d5b4053c358046cb72e88" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>progress</name></member>
+      <member refid="group__GeneralGroup_1ga9b227c497a7784f70a4f48631fe8a1f4" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1ga76fda89f388f379a843c11dfccabb73f" prot="public" virt="non-virtual"><scope>MR::MakeSignedByWindingNumberSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

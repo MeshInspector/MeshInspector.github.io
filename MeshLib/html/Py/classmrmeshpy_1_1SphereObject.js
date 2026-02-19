@@ -6,11 +6,11 @@ var classmrmeshpy_1_1SphereObject =
     [ "classNameInPlural", "classmrmeshpy_1_1SphereObject.html#a9c7ddd5d62180a36d6237376aa2836b3", null ],
     [ "clone", "classmrmeshpy_1_1SphereObject.html#adbdf2840f4922ff77b1792811ae1e1a8", null ],
     [ "getAllSharedProperties", "classmrmeshpy_1_1SphereObject.html#a015523fdf63712d91b81ea84400d6cc4", null ],
-    [ "getCenter", "classmrmeshpy_1_1SphereObject.html#a739479681525ab8500e854d93594c201", null ],
-    [ "getRadius", "classmrmeshpy_1_1SphereObject.html#aacc51f74c25dcc869a3d15bd3ff26663", null ],
-    [ "projectPoint", "classmrmeshpy_1_1SphereObject.html#a9fe7f7082017460a16715f681aeb9dd6", null ],
-    [ "setCenter", "classmrmeshpy_1_1SphereObject.html#ad74a8c37b86b94c326518b08d55dc725", null ],
-    [ "setRadius", "classmrmeshpy_1_1SphereObject.html#a2d4fc5b4cf9a882937dda1e11c65651c", null ],
+    [ "getCenter", "classmrmeshpy_1_1SphereObject.html#a68df382e445510b58dbc22a7a1c12845", null ],
+    [ "getRadius", "classmrmeshpy_1_1SphereObject.html#a93d6d5c477d01e6fbc5471d66217a709", null ],
+    [ "projectPoint", "classmrmeshpy_1_1SphereObject.html#a667cb23b63e6580ea57890890a6994d3", null ],
+    [ "setCenter", "classmrmeshpy_1_1SphereObject.html#aae97492ca5b99af848788ab831b4ba20", null ],
+    [ "setRadius", "classmrmeshpy_1_1SphereObject.html#a06c40f0a1fe3697ffdb39aa62348582c", null ],
     [ "shallowClone", "classmrmeshpy_1_1SphereObject.html#a174d6d17b7a911b0d5ef16b5b5bd830b", null ],
     [ "typeName", "classmrmeshpy_1_1SphereObject.html#aeae2fa1c3017cf8e8ae4cfcc10ed28cc", null ]
 ];

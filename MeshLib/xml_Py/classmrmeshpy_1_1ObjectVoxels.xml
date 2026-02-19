@@ -1,0 +1,1590 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectVoxels" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectVoxels</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1ObjectMeshHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectMeshHolder</basecompoundref>
+    <innerclass refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams" prot="public">mrmeshpy::ObjectVoxels::VolumeRenderingParams</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a2177343685c78ae11840c5dff26e1954" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40952" bodyend="40953"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a8fe31de87fa8c9df4b6254322e107ed6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40955" bodyend="40956"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a40f06def825d6aad76caacf36c545772" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1ab22531e04f74da2bec22df2bffe492cf">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40958" bodyend="40959"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a88addf3f7eac5ac0fecfa218fa66c699" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1abd61dce95267032fba31a6b6b8398cef">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40960" bodyend="40961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a674a01d8ec7241ec85dd8040acda711b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectVoxels.activeVoxels</definition>
+        <argsstring>(self)</argsstring>
+        <name>activeVoxels</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.activeVoxels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached information about the number of active voxels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40962" bodyend="40965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0f2396ca6aa5443528ecc9dc38fa9461" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.applyScale</definition>
+        <argsstring>(self, float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.applyScale</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1a92dc288e43e0f78c3a665ca38c0a22a8">applyScale</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>scale object size (all point positions)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40966" bodyend="40967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aed7318962783f119a0f3b64b332e100f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40968" bodyend="40969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a81a7e0cc86cefe516b274f32ecfd6abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40970" bodyend="40971"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a33891c9758158a7a075824c1dbfbe3b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectVoxels.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1a66929bbabbd9ede0679393a802190c59">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40972" bodyend="40973"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a40e4d745a52f013f7c38d1c11ead3f0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.construct</definition>
+        <argsstring>(self, SimpleVolume simpleVolume, std_optional_Vector2_float minmax=..., func_bool_from_float cb=&apos;{}&apos;, bool normalPlusGrad=False)</argsstring>
+        <name>construct</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.construct</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector2__float" kindref="compound">std_optional_Vector2_float</ref></type>
+          <declname>minmax</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>normalPlusGrad</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clears all internal data and then creates grid and calculates histogram (surface is not built, call \\ref updateHistogramAndSurface)
+\\param normalPlusGrad true means that iso-surface normals will be along gradient, false means opposite direction
+\\param minmax optional data about known min and max values
+set a new background for the VdbVolume, if normalPlusGrad = true, use the maximum value, otherwise the minimum value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40975" bodyend="40981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0f15d1a774f12aa6cde41f58e50cd012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.construct</definition>
+        <argsstring>(self, SimpleVolumeMinMax simpleVolumeMinMax, func_bool_from_float cb=&apos;{}&apos;, bool normalPlusGrad=False)</argsstring>
+        <name>construct</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.construct</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+          <declname>simpleVolumeMinMax</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>normalPlusGrad</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clears all internal data and then creates grid and calculates histogram (surface is not built, call \\ref updateHistogramAndSurface)
+\\param normalPlusGrad true means that iso-surface normals will be along gradient, false means opposite direction
+set a new background for the VdbVolume, if normalPlusGrad = true, use the maximum value, otherwise the minimum value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40983" bodyend="40988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a478fb24e3825f0bccb78d7a001269192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.construct</definition>
+        <argsstring>(self, FloatGrid grid, Vector3f voxelSize, std_optional_Vector2_float minmax=...)</argsstring>
+        <name>construct</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.construct</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector2__float" kindref="compound">std_optional_Vector2_float</ref></type>
+          <declname>minmax</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clears all internal data and then remembers grid and calculates histogram (surface is not built, call \\ref updateHistogramAndSurface)
+\\param minmax optional data about known min and max values
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40990" bodyend="40994"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a1e500fdaaba366480ce116e2447f3546" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.construct</definition>
+        <argsstring>(self, VdbVolume vdbVolume)</argsstring>
+        <name>construct</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.construct</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clears all internal data and then creates grid and calculates histogram (surface is not built, call \\ref updateHistogramAndSurface)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40996" bodyend="40999"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aaebbdf755e414acc63f084cb8b9c2b13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.ObjectVoxels.dimensions</definition>
+        <argsstring>(self)</argsstring>
+        <name>dimensions</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.dimensions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns dimensions of voxel objects
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41000" bodyend="41003"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1af3a43c6302da37bf07c07d781c4b2dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.enableVolumeRendering</definition>
+        <argsstring>(self, bool on)</argsstring>
+        <name>enableVolumeRendering</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.enableVolumeRendering</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this function should only be called from GUI thread because it changes rendering object,
+it can take some time to prepare data, so you can prepare data with progress callback
+by calling `prepareDataForVolumeRendering(cb)` function before calling this one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41004" bodyend="41009"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a899ff27173bf3ada1d47460e836273b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+        <definition> VdbVolume mrmeshpy.ObjectVoxels.extractVoxels</definition>
+        <argsstring>(self)</argsstring>
+        <name>extractVoxels</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.extractVoxels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return VdbVolume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41010" bodyend="41013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1abb1303f149ea689fe2f9960e009cf121" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3i" kindref="compound">Box3i</ref></type>
+        <definition> Box3i mrmeshpy.ObjectVoxels.getActiveBounds</definition>
+        <argsstring>(self)</argsstring>
+        <name>getActiveBounds</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getActiveBounds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns active bounds (max excluded)
+active bounds is box in voxel coordinates, note that voxels under (0,0,0) and voxels over (dimensions) are empty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41014" bodyend="41018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a112bdf85eeb3c6b8e13b4ee316edac16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.ObjectVoxels.getCoordinateByVoxelId</definition>
+        <argsstring>(self, VoxelId id)</argsstring>
+        <name>getCoordinateByVoxelId</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getCoordinateByVoxelId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41019" bodyend="41020"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aa471d990dbd0cd65d8b0b7960f53e269" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectVoxels.getDualMarchingCubes</definition>
+        <argsstring>(self)</argsstring>
+        <name>getDualMarchingCubes</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getDualMarchingCubes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if the iso-surface is built using Dual Marching Cubes algorithm or false if using Standard Marching Cubes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41021" bodyend="41024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a1048607d1fdffea151db58ed963fdeb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.ObjectVoxels.getInfoLines</definition>
+        <argsstring>(self)</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getInfoLines</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3">getInfoLines</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return several info lines that can better describe the object in the UI
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41025" bodyend="41026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a29ef3ac749f25f57b99c9f5ec17b1a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectVoxels.getIsoValue</definition>
+        <argsstring>(self)</argsstring>
+        <name>getIsoValue</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getIsoValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns current iso value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41027" bodyend="41030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ae9e65d68da99e7d839f73b7e14e41a62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectVoxels.getMaxSurfaceVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMaxSurfaceVertices</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getMaxSurfaceVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets top limit on the number of vertices in the iso-surface
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41031" bodyend="41034"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ac2ceba763c7b2f76a0a16199f6158d12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.ObjectVoxels.getSelectedVoxels</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSelectedVoxels</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getSelectedVoxels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41035" bodyend="41036"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0d306ac3073967b0d6c47ce5989b9d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref></type>
+        <definition> VolumeIndexer mrmeshpy.ObjectVoxels.getVolumeIndexer</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVolumeIndexer</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getVolumeIndexer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns indexer with more options
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41037" bodyend="41040"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0c0161279d6a5a0cb96d513007efc08e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+        <definition> VoxelBitSet mrmeshpy.ObjectVoxels.getVolumeRenderActiveVoxels</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVolumeRenderActiveVoxels</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getVolumeRenderActiveVoxels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get active (visible) voxels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41041" bodyend="41044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a8c35478e1a6fe0e2cce6bf6ffd1a7eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
+        <definition> SimpleVolume mrmeshpy.ObjectVoxels.getVolumeRenderingData</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVolumeRenderingData</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getVolumeRenderingData</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>move volume rendering data to caller: basically used in RenderVolumeObject
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41045" bodyend="41048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a714e68deb6ca3231bf4bdeb08258db96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams" kindref="compound">ObjectVoxels.VolumeRenderingParams</ref></type>
+        <definition> ObjectVoxels.VolumeRenderingParams mrmeshpy.ObjectVoxels.getVolumeRenderingParams</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVolumeRenderingParams</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getVolumeRenderingParams</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41049" bodyend="41050"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a2bf1b2d121fe80ef846158c0f7e3a7b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.ObjectVoxels.getVoxelIdByCoordinate</definition>
+        <argsstring>(self, Vector3i coord)</argsstring>
+        <name>getVoxelIdByCoordinate</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getVoxelIdByCoordinate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>coord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>VoxelId is numerical representation of voxel
+Coordinate is {x,y,z} indices of voxels in box (base dimensions space, NOT active dimensions)
+Point is local space coordinate of point in scene
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41051" bodyend="41056"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ae987a48e32bc5bb337696dc390b92aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.ObjectVoxels.getVoxelIdByPoint</definition>
+        <argsstring>(self, Vector3f point)</argsstring>
+        <name>getVoxelIdByPoint</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.getVoxelIdByPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41057" bodyend="41058"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ad443d1c04d73ed6c7c61b408c63370a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+        <definition> FloatGrid mrmeshpy.ObjectVoxels.grid</definition>
+        <argsstring>(self)</argsstring>
+        <name>grid</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.grid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns Float grid which contains voxels data, see more on openvdb::FloatGrid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41059" bodyend="41062"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ab794eb87da9c38a0a25c2048c867f168" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectVoxels.hasModel</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.hasModel</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1abec49ca4f46abd8fcbd205498598008d">hasModel</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>does the object have any model available (but possibly empty),
+e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41063" bodyend="41064"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a51cce1601560dc73a82ef96b46bc345a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectVoxels.hasVisualRepresentation</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.hasVisualRepresentation</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1ab27fdb98b5878ebabf7300b8f2affb45">hasVisualRepresentation</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>mesh object can be seen if the mesh has at least one edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41065" bodyend="41066"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ad732d380377bfa366752ac8594fdf05e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectVoxels.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1aa7e11fd226a248ba7223ac77557677be">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41067" bodyend="41070"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a60af8005a3ea45eecef1613136778dc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
+        <definition> Histogram mrmeshpy.ObjectVoxels.histogram</definition>
+        <argsstring>(self)</argsstring>
+        <name>histogram</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.histogram</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns histogram
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41071" bodyend="41074"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a4660f3d648930fd2fced9a1056885793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.invalidateActiveBoundsCaches</definition>
+        <argsstring>(self)</argsstring>
+        <name>invalidateActiveBoundsCaches</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.invalidateActiveBoundsCaches</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Call this function in main thread post processing if you call setActiveBounds from progress bar thread
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41075" bodyend="41078"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a32ea4c97ee96a6492966fd7893eb21a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectVoxels.isVolumeRenderingEnabled</definition>
+        <argsstring>(self)</argsstring>
+        <name>isVolumeRenderingEnabled</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.isVolumeRenderingEnabled</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41079" bodyend="41080"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a3a0e2e2923e93d8d2030de3612c311c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectVoxels.prepareDataForVolumeRendering</definition>
+        <argsstring>(self, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>prepareDataForVolumeRendering</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.prepareDataForVolumeRendering</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>prepare data for volume rendering
+returns false if canceled or voxel data is empty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41081" bodyend="41085"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ac7b4bfe6d1b1aa1851433bc0869a2f63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
+        <definition> Histogram mrmeshpy.ObjectVoxels.recalculateHistogram</definition>
+        <argsstring>(self, std_optional_Vector2_float minmax, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>recalculateHistogram</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.recalculateHistogram</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector2__float" kindref="compound">std_optional_Vector2_float</ref></type>
+          <declname>minmax</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculates and returns new histogram
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41086" bodyend="41089"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ae863dd0927e1b8b2f5401f871bd2af7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.ObjectVoxels.recalculateIsoSurface</definition>
+        <argsstring>(self, float iso, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>recalculateIsoSurface</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.recalculateIsoSurface</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>iso</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calculates and return new mesh or error message
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41091" bodyend="41094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a737f8dd2bf46757c574cf276eab2f467" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.ObjectVoxels.recalculateIsoSurface</definition>
+        <argsstring>(self, VdbVolume volume, float iso, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>recalculateIsoSurface</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.recalculateIsoSurface</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>iso</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Same as above, but takes external volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41096" bodyend="41099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1adc91e90b684c0f6223e1de9a53e21652" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.resetFrontColor</definition>
+        <argsstring>(self)</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.resetFrontColor</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1a0423908e093c4eca009ce81efa161eae">resetFrontColor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset basic object colors to their default values from the current theme
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41100" bodyend="41103"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a05413873faa6dc46040440dc4e249a67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.selectVoxels</definition>
+        <argsstring>(self, VoxelBitSet selectedVoxels)</argsstring>
+        <name>selectVoxels</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.selectVoxels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>selectedVoxels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41104" bodyend="41105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aa5ad4c12a35f573b76781d382667c058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.serializeFormat</definition>
+        <argsstring>(self)</argsstring>
+        <name>serializeFormat</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.serializeFormat</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1ad3fabcee6943ae65a1e80d88ecb26dc0">serializeFormat</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns overriden file extension used to serialize voxels inside this object, nullptr means defaultSerializeVoxelsFormat()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41106" bodyend="41109"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aa0d21fe40c3500260b2c73c657d871b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.setActiveBounds</definition>
+        <argsstring>(self, Box3i activeBox, func_bool_from_float cb=&apos;{}&apos;, bool updateSurface=True)</argsstring>
+        <name>setActiveBounds</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.setActiveBounds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box3i" kindref="compound">Box3i</ref></type>
+          <declname>activeBox</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateSurface</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets active bounds for some simplifications (max excluded)
+active bounds is box in voxel coordinates, note that voxels under (0,0,0) and voxels over (dimensions) are empty
+NOTE: don&apos;t forget to call `invalidateActiveBoundsCaches` if you call this function from progress bar thread
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41110" bodyend="41115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a8e8ef94c4dc4dfb918f87e8c45d88a56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.setDirtyFlags</definition>
+        <argsstring>(self, int mask, bool invalidateCaches=True)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.setDirtyFlags</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1a90370e23c214c82c98540543e9c6f38d">setDirtyFlags</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invalidateCaches</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets some dirty flags for the object (to force its visual update)
+\\param mask is a union of DirtyFlags flags
+\\param invalidateCaches whether to automatically invalidate model caches (pass false here if you manually update the caches)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41116" bodyend="41117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a49fd3a53f8cacf4577f758515a7486c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.setDualMarchingCubes</definition>
+        <argsstring>(self, bool on, bool updateSurface=True, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>setDualMarchingCubes</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.setDualMarchingCubes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateSurface</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets whether to use Dual Marching Cubes algorithm for visualization (true) or Standard Marching Cubes (false);
+\\param updateSurface forces immediate update
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41118" bodyend="41122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a6f87ab49ae801c942e13e0af1afde15e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectVoxels.setIsoValue</definition>
+        <argsstring>(self, float iso, func_bool_from_float cb=&apos;{}&apos;, bool updateSurface=True)</argsstring>
+        <name>setIsoValue</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.setIsoValue</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>iso</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>updateSurface</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets iso value and updates iso-surfaces if needed:
+Returns true if iso-value was updated, false - otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41123" bodyend="41127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ae374bd2d2956de578615389c86c9ddc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.setMaxSurfaceVertices</definition>
+        <argsstring>(self, int maxVerts)</argsstring>
+        <name>setMaxSurfaceVertices</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.setMaxSurfaceVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxVerts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets top limit on the number of vertices in the iso-surface
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41128" bodyend="41131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1abc61affef50552d5c392d773998011ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.setSerializeFormat</definition>
+        <argsstring>(self, str newFormat)</argsstring>
+        <name>setSerializeFormat</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.setSerializeFormat</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1a8659d3ca6569f9ba35b2da7aa09a744a">setSerializeFormat</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>newFormat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>overrides file extension used to serialize voxels inside this object: must start from &apos;.&apos;,
+nullptr means serialize in defaultSerializeVoxelsFormat()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41132" bodyend="41136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a13aec97b4f0f41ce055cdb5adc121cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.setVolumeRenderActiveVoxels</definition>
+        <argsstring>(self, VoxelBitSet activeVoxels)</argsstring>
+        <name>setVolumeRenderActiveVoxels</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.setVolumeRenderActiveVoxels</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>activeVoxels</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set active (visible) voxels (using only in Volume Rendering mode)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41137" bodyend="41140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aa25a73432cb63ccf01905a0cb9214437" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.setVolumeRenderingParams</definition>
+        <argsstring>(self, ObjectVoxels.VolumeRenderingParams params)</argsstring>
+        <name>setVolumeRenderingParams</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.setVolumeRenderingParams</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels_1_1VolumeRenderingParams" kindref="compound">ObjectVoxels.VolumeRenderingParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41141" bodyend="41142"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0788224930c7bab69cc7d959f41221bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.setVoxelPointPositioner</definition>
+        <argsstring>(self, func_Vector3_float_from_Vector3_float_Vector3_float_float_float_float positioner)</argsstring>
+        <name>setVoxelPointPositioner</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.setVoxelPointPositioner</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Vector3__float__from__Vector3__float__Vector3__float__float__float__float" kindref="compound">func_Vector3_float_from_Vector3_float_Vector3_float_float_float_float</ref></type>
+          <declname>positioner</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set voxel point positioner for Marching Cubes (only for Standard Marching Cubes)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41143" bodyend="41146"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a5cfa1bacbd798378476393ac06694d38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectVoxels.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1aa2ca6534ff568a978cd63472c5841437">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41147" bodyend="41148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ad89439ac6197bf94b97754eea706b0c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.ObjectVoxels.surface</definition>
+        <argsstring>(self)</argsstring>
+        <name>surface</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.surface</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns iso surface, empty if iso value is not set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41149" bodyend="41152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ab65e6996367638adce659172a1a49a27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectVoxels.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectMeshHolder_1aa24e5842efc9ba794b8087b11bf64c40">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41153" bodyend="41154"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a0686644f794743ea4e8a36720647c63d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
+        <definition> Histogram mrmeshpy.ObjectVoxels.updateHistogram</definition>
+        <argsstring>(self, Histogram histogram)</argsstring>
+        <name>updateHistogram</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.updateHistogram</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Histogram" kindref="compound">Histogram</ref></type>
+          <declname>histogram</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets external histogram for this object
+and returns back previous histogram of this
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41155" bodyend="41159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1ad138a3220012614e3d5d68bbb90c48d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectVoxels.updateHistogramAndSurface</definition>
+        <argsstring>(self, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>updateHistogramAndSurface</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.updateHistogramAndSurface</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Updates histogram, by stored grid (evals min and max values from grid)
+rebuild iso surface if it is present
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41160" bodyend="41164"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a9ce26a587627b58473c3596c03b511f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.ObjectVoxels.updateIsoSurface</definition>
+        <argsstring>(self, Mesh mesh)</argsstring>
+        <name>updateIsoSurface</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.updateIsoSurface</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets external surface mesh for this object
+and returns back previous mesh of this
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41165" bodyend="41169"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1aae9b0f22f467492f229e22e0ec33eeda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+        <definition> VdbVolume mrmeshpy.ObjectVoxels.updateVdbVolume</definition>
+        <argsstring>(self, VdbVolume vdbVolume)</argsstring>
+        <name>updateVdbVolume</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.updateVdbVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets external vdb volume for this object
+and returns back previous vdb volume of this
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41170" bodyend="41174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a55bdd62c85b168f94b4b40901027fa2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+        <definition> VdbVolume mrmeshpy.ObjectVoxels.varVdbVolume</definition>
+        <argsstring>(self)</argsstring>
+        <name>varVdbVolume</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.varVdbVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41175" bodyend="41176"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a1ed8c0980293cf6314cd80523849ae48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+        <definition> VdbVolume mrmeshpy.ObjectVoxels.vdbVolume</definition>
+        <argsstring>(self)</argsstring>
+        <name>vdbVolume</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.vdbVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return VdbVolume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41177" bodyend="41180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectVoxels_1a216c065adb25e61c36f5ee00b3814183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.ObjectVoxels.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.ObjectVoxels.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41181" bodyend="41182"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectVoxels
+Aliases:  ChangeSurfaceAction.Obj, ChangeIsoAction.Obj, ChangeGridAction.Obj, ChangeActiveBoxAction.Obj, std_shared_ptr_ChangeActiveBoxAction_Obj, ChangeDualMarchingCubesAction.Obj, std_shared_ptr_ChangVoxelSelectionAction_Obj, std_shared_ptr_ChangeSurfaceAction_Obj, std_shared_ptr_ChangeDualMarchingCubesAction_Obj, std_shared_ptr_ObjectVoxels, std_shared_ptr_ChangeIsoAction_Obj, std_shared_ptr_ChangeGridAction_Obj, ChangVoxelSelectionAction.Obj
+
+This class stores information about voxels object
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectVoxels</label>
+        <link refid="classmrmeshpy_1_1ObjectVoxels"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ObjectMeshHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectMeshHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectVoxels</label>
+        <link refid="classmrmeshpy_1_1ObjectVoxels"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ObjectMeshHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectMeshHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40735" bodyend="41182"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a88addf3f7eac5ac0fecfa218fa66c699" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a674a01d8ec7241ec85dd8040acda711b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>activeVoxels</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a0f2396ca6aa5443528ecc9dc38fa9461" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1aed7318962783f119a0f3b64b332e100f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a81a7e0cc86cefe516b274f32ecfd6abb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a33891c9758158a7a075824c1dbfbe3b0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a40e4d745a52f013f7c38d1c11ead3f0f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a0f15d1a774f12aa6cde41f58e50cd012" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a478fb24e3825f0bccb78d7a001269192" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a1e500fdaaba366480ce116e2447f3546" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1aaebbdf755e414acc63f084cb8b9c2b13" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>dimensions</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1af3a43c6302da37bf07c07d781c4b2dbc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>enableVolumeRendering</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a899ff27173bf3ada1d47460e836273b6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>extractVoxels</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1abb1303f149ea689fe2f9960e009cf121" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getActiveBounds</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a112bdf85eeb3c6b8e13b4ee316edac16" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getCoordinateByVoxelId</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1aa471d990dbd0cd65d8b0b7960f53e269" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getDualMarchingCubes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a1048607d1fdffea151db58ed963fdeb0" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a29ef3ac749f25f57b99c9f5ec17b1a2a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getIsoValue</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ae9e65d68da99e7d839f73b7e14e41a62" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getMaxSurfaceVertices</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ac2ceba763c7b2f76a0a16199f6158d12" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getSelectedVoxels</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a0d306ac3073967b0d6c47ce5989b9d38" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVolumeIndexer</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a0c0161279d6a5a0cb96d513007efc08e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVolumeRenderActiveVoxels</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a8c35478e1a6fe0e2cce6bf6ffd1a7eee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVolumeRenderingData</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a714e68deb6ca3231bf4bdeb08258db96" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVolumeRenderingParams</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a2bf1b2d121fe80ef846158c0f7e3a7b4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVoxelIdByCoordinate</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ae987a48e32bc5bb337696dc390b92aa2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>getVoxelIdByPoint</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ad443d1c04d73ed6c7c61b408c63370a4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>grid</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ab794eb87da9c38a0a25c2048c867f168" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a51cce1601560dc73a82ef96b46bc345a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ad732d380377bfa366752ac8594fdf05e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a60af8005a3ea45eecef1613136778dc1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>histogram</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a4660f3d648930fd2fced9a1056885793" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>invalidateActiveBoundsCaches</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a32ea4c97ee96a6492966fd7893eb21a3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>isVolumeRenderingEnabled</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a3a0e2e2923e93d8d2030de3612c311c2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>prepareDataForVolumeRendering</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ac7b4bfe6d1b1aa1851433bc0869a2f63" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>recalculateHistogram</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ae863dd0927e1b8b2f5401f871bd2af7e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a737f8dd2bf46757c574cf276eab2f467" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>recalculateIsoSurface</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1adc91e90b684c0f6223e1de9a53e21652" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a05413873faa6dc46040440dc4e249a67" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>selectVoxels</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1aa5ad4c12a35f573b76781d382667c058" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>serializeFormat</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1aa0d21fe40c3500260b2c73c657d871b7" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setActiveBounds</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a8e8ef94c4dc4dfb918f87e8c45d88a56" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a49fd3a53f8cacf4577f758515a7486c5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setDualMarchingCubes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a6f87ab49ae801c942e13e0af1afde15e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setIsoValue</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ae374bd2d2956de578615389c86c9ddc3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setMaxSurfaceVertices</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1abc61affef50552d5c392d773998011ec" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setSerializeFormat</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a13aec97b4f0f41ce055cdb5adc121cbf" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVolumeRenderActiveVoxels</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1aa25a73432cb63ccf01905a0cb9214437" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVolumeRenderingParams</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a0788224930c7bab69cc7d959f41221bb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>setVoxelPointPositioner</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a5cfa1bacbd798378476393ac06694d38" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a2177343685c78ae11840c5dff26e1954" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a8fe31de87fa8c9df4b6254322e107ed6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a40f06def825d6aad76caacf36c545772" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ad89439ac6197bf94b97754eea706b0c9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>surface</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ab65e6996367638adce659172a1a49a27" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a0686644f794743ea4e8a36720647c63d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateHistogram</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1ad138a3220012614e3d5d68bbb90c48d9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateHistogramAndSurface</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a9ce26a587627b58473c3596c03b511f6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateIsoSurface</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1aae9b0f22f467492f229e22e0ec33eeda" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>updateVdbVolume</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a55bdd62c85b168f94b4b40901027fa2b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>varVdbVolume</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a1ed8c0980293cf6314cd80523849ae48" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>vdbVolume</name></member>
+      <member refid="classmrmeshpy_1_1ObjectVoxels_1a216c065adb25e61c36f5ee00b3814183" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectVoxels</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

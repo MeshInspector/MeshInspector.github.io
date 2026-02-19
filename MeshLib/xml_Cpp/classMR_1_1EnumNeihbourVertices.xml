@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1EnumNeihbourVertices" kind="class" language="C++" prot="public">
+    <compoundname>MR::EnumNeihbourVertices</compoundname>
+    <includes refid="MREnumNeighbours_8h" local="no">MREnumNeighbours.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga55eae3546ffa50bb88a01b153bea8459" kind="variable"><name>visited_</name></member>
+      <member refid="group__GeneralGroup_1gafcc2be59d6d5a7f757d8641b760958d5" kind="variable"><name>bd_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa6216d158e1f9f47eb52c1e8662e8ce7" kind="function"><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga82eaa1eebaf7fc188b2c9ab048fc745a" kind="function"><name>run</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga7aa6ab8dfde5a3646a3ae177a35432ed" kind="function"><name>run_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="13" bodyend="23"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafcc2be59d6d5a7f757d8641b760958d5" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>bd_</name></member>
+      <member refid="group__GeneralGroup_1gaa6216d158e1f9f47eb52c1e8662e8ce7" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga82eaa1eebaf7fc188b2c9ab048fc745a" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga7aa6ab8dfde5a3646a3ae177a35432ed" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>run_</name></member>
+      <member refid="group__GeneralGroup_1ga55eae3546ffa50bb88a01b153bea8459" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourVertices</scope><name>visited_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

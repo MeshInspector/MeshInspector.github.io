@@ -158,12 +158,13 @@ $(function(){initNavTree('structMR_1_1UI_1_1TestEngine_1_1Entry.html',''); initR
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:abb71bca53888829df56285ca657ddb72" id="r_abb71bca53888829df56285ca657ddb72"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb71bca53888829df56285ca657ddb72">getKindName</a> () const</td></tr>
+<tr class="memdesc:abb71bca53888829df56285ca657ddb72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a string describing the type currently stored in <code>value</code>, which is <code>T::kindName</code>.  <br /></td></tr>
 <tr class="separator:abb71bca53888829df56285ca657ddb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af990d8e37018eb62dd57a502b644717c" id="r_af990d8e37018eb62dd57a502b644717c"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:af990d8e37018eb62dd57a502b644717c"><td class="memTemplItemLeft" align="right" valign="top">Expected&lt; T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af990d8e37018eb62dd57a502b644717c">getAs</a> (std::string_view selfName={})</td></tr>
+<tr class="memitem:af990d8e37018eb62dd57a502b644717c"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#af990d8e37018eb62dd57a502b644717c">getAs</a> (std::string_view selfName={})</td></tr>
 <tr class="separator:af990d8e37018eb62dd57a502b644717c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab746b066f53a20f78e0fb97a552fb166" id="r_ab746b066f53a20f78e0fb97a552fb166"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ab746b066f53a20f78e0fb97a552fb166"><td class="memTemplItemLeft" align="right" valign="top">Expected&lt; const T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab746b066f53a20f78e0fb97a552fb166">getAs</a> (std::string_view selfName={}) const</td></tr>
+<tr class="memitem:ab746b066f53a20f78e0fb97a552fb166"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; const T * &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab746b066f53a20f78e0fb97a552fb166">getAs</a> (std::string_view selfName={}) const</td></tr>
 <tr class="separator:ab746b066f53a20f78e0fb97a552fb166"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
@@ -186,7 +187,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Expected&lt; T * &gt; MR::UI::TestEngine::Entry::getAs </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; T * &gt; MR::UI::TestEngine::Entry::getAs </td>
           <td>(</td>
           <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>selfName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
           <td></td>
@@ -198,6 +199,7 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Calls <code>std::get&lt;T&gt;(value)</code>, returns a user-friendly error on failure. The returned pointer is never null. If <code>selfName</code> is specified, it's added to the error message as the name of this entry. </p>
 
 </div>
 </div>
@@ -213,7 +215,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Expected&lt; const T * &gt; MR::UI::TestEngine::Entry::getAs </td>
+          <td class="memname"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; const T * &gt; MR::UI::TestEngine::Entry::getAs </td>
           <td>(</td>
           <td class="paramtype">std::string_view</td>          <td class="paramname"><span class="paramname"><em>selfName</em></span><span class="paramdefsep"> = </span><span class="paramdefval">{}</span></td><td>)</td>
           <td> const</td>
@@ -251,6 +253,8 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Returns a string describing the type currently stored in <code>value</code>, which is <code>T::kindName</code>. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -279,6 +283,7 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Mostly for internal use. If this is false, the entry will be removed on the next frame. </p>
 
 </div>
 </div>

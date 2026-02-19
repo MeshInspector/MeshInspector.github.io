@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1MeshBuilder" kind="namespace" language="C++">
+    <compoundname>MR::MeshBuilder</compoundname>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1BuildSettings" prot="public">MR::MeshBuilder::BuildSettings</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1equalVector3f" prot="public">MR::MeshBuilder::equalVector3f</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1MeshPiece" prot="public">MR::MeshBuilder::MeshPiece</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1Triangle" prot="public">MR::MeshBuilder::Triangle</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1UniteCloseParams" prot="public">MR::MeshBuilder::UniteCloseParams</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1VertDuplication" prot="public">MR::MeshBuilder::VertDuplication</innerclass>
+    <innerclass refid="classMR_1_1MeshBuilder_1_1VertexIdentifier" prot="public">MR::MeshBuilder::VertexIdentifier</innerclass>
+    <innerclass refid="structMR_1_1MeshBuilder_1_1VertSpan" prot="public">MR::MeshBuilder::VertSpan</innerclass>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1gad94b16318381f04c306f214d07b59c3d" kind="function"><name>fromTriangles</name></member>
+      <member refid="group__GeneralGroup_1ga66c0589162941f3fb069c0c629d26137" kind="function"><name>duplicateNonManifoldVertices</name></member>
+      <member refid="group__GeneralGroup_1gaa308a697fa44ab178932733fdab79f16" kind="function"><name>fromTrianglesDuplicatingNonManifoldVertices</name></member>
+      <member refid="group__GeneralGroup_1ga787b6d63581b071cba69cde55f211cdf" kind="function"><name>fromPointTriples</name></member>
+      <member refid="group__GeneralGroup_1gac89608a8862a7f497172398df6ccaf30" kind="function"><name>fromDisjointMeshPieces</name></member>
+      <member refid="group__GeneralGroup_1ga338de61ac0a911470d50fe0f14af05d5" kind="function"><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1gaffd71ea7a77ed4c02be34778c0923804" kind="function"><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1gab4643e01cde45551cee54cc59f539e61" kind="function"><name>fromFaceSoup</name></member>
+      <member refid="group__GeneralGroup_1gadbca7caa523fcdb27f944a48e8ed220a" kind="function"><name>uniteCloseVertices</name></member>
+      <member refid="group__GeneralGroup_1gaa50e77069b62348920b62f3484a265a3" kind="function"><name>uniteCloseVertices</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Building topologies by triangles. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This namespace provides API for building meshes.</para>
+<para>Simple example with key steps <programlisting><codeline><highlight class="normal">MR::Triangulation<sp/>t;</highlight></codeline>
+<codeline><highlight class="normal">t.push_back({0_v,1_v,2_v});<sp/></highlight></codeline>
+<codeline><highlight class="normal">t.push_back({2_v,1_v,3_v});<sp/></highlight></codeline>
+<codeline><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>topology<sp/>=<sp/><ref refid="group__GeneralGroup_1gad94b16318381f04c306f214d07b59c3d" kindref="member">MR::MeshBuilder::fromTriangles</ref>(t);</highlight></codeline>
+</programlisting></para>
+<para><simplesect kind="warning"><para>Vertices of triangles should have consistent bypass direction</para>
+</simplesect>
+<simplesect kind="note"><para>It is better to store topology directly in mesh</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PlanarTriangulation_1_1IntersectionInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PlanarTriangulation::IntersectionInfo</compoundname>
+    <includes refid="MR2DContoursTriangulation_8h" local="no">MR2DContoursTriangulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2fa82e2dbbf17f35ba932bcd731f08c6" kind="variable"><name>lOrg</name></member>
+      <member refid="group__GeneralGroup_1ga1ba150196ca38c47b298c26615eab80e" kind="variable"><name>lDest</name></member>
+      <member refid="group__GeneralGroup_1ga8b5c188731f0cecbac0ccc0fd4a6bfb7" kind="variable"><name>uOrg</name></member>
+      <member refid="group__GeneralGroup_1ga317063d55c098c2ef928c24f84e7d072" kind="variable"><name>uDest</name></member>
+      <member refid="group__GeneralGroup_1ga71da63d690481e338c26321212fbdb4b" kind="variable"><name>lRatio</name></member>
+      <member refid="group__GeneralGroup_1ga486648a6478caadcce4b7e8b5ccfe262" kind="variable"><name>uRatio</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" kind="function"><name>isIntersection</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Info about intersection point for mapping. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="31" bodyend="46"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3ed890ec3241e636e8fd100f7ed41f04" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>isIntersection</name></member>
+      <member refid="group__GeneralGroup_1ga1ba150196ca38c47b298c26615eab80e" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>lDest</name></member>
+      <member refid="group__GeneralGroup_1ga2fa82e2dbbf17f35ba932bcd731f08c6" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>lOrg</name></member>
+      <member refid="group__GeneralGroup_1ga71da63d690481e338c26321212fbdb4b" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>lRatio</name></member>
+      <member refid="group__GeneralGroup_1ga317063d55c098c2ef928c24f84e7d072" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>uDest</name></member>
+      <member refid="group__GeneralGroup_1ga8b5c188731f0cecbac0ccc0fd4a6bfb7" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>uOrg</name></member>
+      <member refid="group__GeneralGroup_1ga486648a6478caadcce4b7e8b5ccfe262" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionInfo</scope><name>uRatio</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

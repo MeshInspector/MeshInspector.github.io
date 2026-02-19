@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SimpleVolumeU16" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SimpleVolumeU16</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16" prot="public" virt="non-virtual">mrmeshpy.SimpleVolumeMinMaxU16</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SimpleVolumeU16_1ae9dd102a84bd37aa52c903a877bf3bad" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SimpleVolumeU16::_offsetof_data</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_data</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16._offsetof_data</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52584" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SimpleVolumeU16_1a3b6645971344f96026f0b12ca3658fb0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SimpleVolumeU16::_offsetof_dims</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dims</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16._offsetof_dims</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52585" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SimpleVolumeU16_1a9ddcf698e0c2ed65c06baa5de53125f5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SimpleVolumeU16::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16._offsetof_voxelSize</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52586" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleVolumeU16_1a0385af34c511d441f93a31e53976ad34" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SimpleVolumeU16.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52592" bodyend="52593"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleVolumeU16_1a120f2845b6d85cd0bed4637627fa1d90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SimpleVolumeU16" kindref="compound">SimpleVolumeU16</ref></type>
+        <definition> SimpleVolumeU16 mrmeshpy.SimpleVolumeU16.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a2cdbd78fab2df801716322521aa5b52e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a2cdbd78fab2df801716322521aa5b52e">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52596" bodyend="52597"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleVolumeU16_1a120f2845b6d85cd0bed4637627fa1d90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SimpleVolumeU16" kindref="compound">SimpleVolumeU16</ref></type>
+        <definition> SimpleVolumeU16 mrmeshpy.SimpleVolumeU16.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a2cdbd78fab2df801716322521aa5b52e">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a2cdbd78fab2df801716322521aa5b52e">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52600" bodyend="52601"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleVolumeU16_1a93d4ad21dc73c8014c9dc30cd9ce944f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SimpleVolumeU16.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52603" bodyend="52604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleVolumeU16_1ad3941b6b9e619f709f5b3a054b95aeb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SimpleVolumeU16.__init__</definition>
+        <argsstring>(self, SimpleVolumeU16 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolumeU16" kindref="compound">SimpleVolumeU16</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52606" bodyend="52609"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleVolumeU16_1a61db6fb81336bd03ba834f0b7fa75261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SimpleVolumeU16.__init__</definition>
+        <argsstring>(self, Vector_unsigned_short_VoxelId data, Vector3i dims, Vector3f voxelSize)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a14186ac1b02edf4b6d0b198770a82591">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1a59d79b6b79229dcc1b9832ef5e13012c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16_1aae1ceaf26cd3d0fa7d8f55c247e78ba7">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__unsigned__short__VoxelId" kindref="compound">Vector_unsigned_short_VoxelId</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52611" bodyend="52614"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleVolumeU16_1a292d0239390e6aa47dc594102de85ede" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SimpleVolumeU16.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.SimpleVolumeU16.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52615" bodyend="52616"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SimpleVolumeU16
+
+represents a box in 3D space subdivided on voxels stored in T
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.SimpleVolumeU16</label>
+        <link refid="classmrmeshpy_1_1SimpleVolumeU16"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SimpleVolumeMinMaxU16</label>
+        <link refid="classmrmeshpy_1_1SimpleVolumeMinMaxU16"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SimpleVolumeU16</label>
+        <link refid="classmrmeshpy_1_1SimpleVolumeU16"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_data</edgelabel>
+          <edgelabel>_offsetof_dims</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52578" bodyend="52616"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1a0385af34c511d441f93a31e53976ad34" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1a93d4ad21dc73c8014c9dc30cd9ce944f" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1ad3941b6b9e619f709f5b3a054b95aeb9" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1a61db6fb81336bd03ba834f0b7fa75261" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1ae9dd102a84bd37aa52c903a877bf3bad" prot="protected" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>_offsetof_data</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1a3b6645971344f96026f0b12ca3658fb0" prot="protected" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>_offsetof_dims</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1a9ddcf698e0c2ed65c06baa5de53125f5" prot="protected" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1a292d0239390e6aa47dc594102de85ede" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1a120f2845b6d85cd0bed4637627fa1d90" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SimpleVolumeU16_1a120f2845b6d85cd0bed4637627fa1d90" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleVolumeU16</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

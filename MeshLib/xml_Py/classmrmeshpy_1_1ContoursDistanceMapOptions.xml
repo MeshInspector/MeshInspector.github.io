@@ -1,0 +1,531 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ContoursDistanceMapOptions" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ContoursDistanceMapOptions</compoundname>
+    <innerclass refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod" prot="public">mrmeshpy::ContoursDistanceMapOptions::SignedDetectionMethod</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a3bf2897a0b89eb169495df3354eab89c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ContoursDistanceMapOptions::_offsetof_minDist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minDist</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions._offsetof_minDist</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10779" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a5d55bf2246f91b73884d5b3fe2ae2256" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ContoursDistanceMapOptions::_offsetof_offsetParameters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offsetParameters</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions._offsetof_offsetParameters</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10780" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a5eb936cad800466f07474f1a5df3a895" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ContoursDistanceMapOptions::_offsetof_outClosestEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outClosestEdges</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions._offsetof_outClosestEdges</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10781" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1ae9796402a8387afb7dd99e2912f2f542" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ContoursDistanceMapOptions::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions._offsetof_region</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10782" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1ab390b5e325b6266cd42c0ae97cccae5b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ContoursDistanceMapOptions::_offsetof_signMethod</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_signMethod</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions._offsetof_signMethod</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10783" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a056e70c4afd25a0ed0179ab55c045519" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1ContoursDistanceMapOptions" kindref="compound">ContoursDistanceMapOptions</ref></type>
+        <definition>ContoursDistanceMapOptions mrmeshpy.ContoursDistanceMapOptions::signMethod</definition>
+        <argsstring></argsstring>
+        <name>signMethod</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.signMethod</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod" kindref="compound">SignedDetectionMethod</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10784" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a9da756f2b7f7b93c644dab7defc1afe1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContoursDistanceMapOptions.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10787" bodyend="10788"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a14266be3abb9eea8051ff02313cc639a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ContoursDistanceMapOptions" kindref="compound">ContoursDistanceMapOptions</ref></type>
+        <definition> ContoursDistanceMapOptions mrmeshpy.ContoursDistanceMapOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10791" bodyend="10792"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a14266be3abb9eea8051ff02313cc639a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ContoursDistanceMapOptions" kindref="compound">ContoursDistanceMapOptions</ref></type>
+        <definition> ContoursDistanceMapOptions mrmeshpy.ContoursDistanceMapOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10795" bodyend="10796"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a21de5411a919c47cb379f125afa2146e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContoursDistanceMapOptions.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10798" bodyend="10799"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a225820dbd2b83579f1f2cda4e58291f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContoursDistanceMapOptions.__init__</definition>
+        <argsstring>(self, ContoursDistanceMapOptions arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ContoursDistanceMapOptions" kindref="compound">ContoursDistanceMapOptions</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10801" bodyend="10804"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1ad0467c16d71d7d5a0264571f8346d952" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContoursDistanceMapOptions.__init__</definition>
+        <argsstring>(self, ContoursDistanceMapOptions.SignedDetectionMethod signMethod, ContoursDistanceMapOffset offsetParameters, PixelBitSet region, std_vector_Id_UndirectedEdgeTag outClosestEdges, float minDist, float maxDist)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1_1SignedDetectionMethod" kindref="compound">ContoursDistanceMapOptions.SignedDetectionMethod</ref></type>
+          <declname>signMethod</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ContoursDistanceMapOffset" kindref="compound">ContoursDistanceMapOffset</ref></type>
+          <declname>offsetParameters</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+          <declname>outClosestEdges</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minDist</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10806" bodyend="10809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a8d138906b8baead32744e85ed09797c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ContoursDistanceMapOptions.maxDist</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDist</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.maxDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (larger values cannot be present)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10811" bodyend="10814"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a96ccdd993d1e8daada52a0acd6b54a87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContoursDistanceMapOptions.maxDist</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxDist</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.maxDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10816" bodyend="10817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a9fe13c5c248555f5a3ef31bc07102fe6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ContoursDistanceMapOptions.minDist</definition>
+        <argsstring>(self)</argsstring>
+        <name>minDist</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.minDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimum value (or absolute value if offsetParameters == nullptr) in a pixel of distance map (lower values can be present but they are not precise)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10819" bodyend="10822"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1aaa06e5168239d96b9a5d369ce751b2b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContoursDistanceMapOptions.minDist</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minDist</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.minDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10824" bodyend="10825"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a0ddd2bead142c17e13f64bbea6292442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ContoursDistanceMapOffset" kindref="compound">ContoursDistanceMapOffset</ref></type>
+        <definition> ContoursDistanceMapOffset mrmeshpy.ContoursDistanceMapOptions.offsetParameters</definition>
+        <argsstring>(self)</argsstring>
+        <name>offsetParameters</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.offsetParameters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional input offset for each edges of polyline, find more on `ContoursDistanceMapOffset` structure description
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10827" bodyend="10830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1ad3732d7130c31a48ad67c95ce3882141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContoursDistanceMapOptions.offsetParameters</definition>
+        <argsstring>(self, ContoursDistanceMapOffset arg1)</argsstring>
+        <name>offsetParameters</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.offsetParameters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ContoursDistanceMapOffset" kindref="compound">ContoursDistanceMapOffset</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10832" bodyend="10833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a96fb5a9412672afa24b2d3e69b5a349f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+        <definition> std_vector_Id_UndirectedEdgeTag mrmeshpy.ContoursDistanceMapOptions.outClosestEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>outClosestEdges</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.outClosestEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output vector of closest polyline edge per each pixel of distance map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10835" bodyend="10838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1a046be53d0ebdf587a6c57cc80830e5a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContoursDistanceMapOptions.outClosestEdges</definition>
+        <argsstring>(self, std_vector_Id_UndirectedEdgeTag arg1)</argsstring>
+        <name>outClosestEdges</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.outClosestEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__UndirectedEdgeTag" kindref="compound">std_vector_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10840" bodyend="10841"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1ae6090ad113bdb490c358a62bb1f00343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.ContoursDistanceMapOptions.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if pointer is valid, then only these pixels will be filled
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10843" bodyend="10846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ContoursDistanceMapOptions_1ae77f16cddd0c8a4d53fbd1ae99a6c11e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ContoursDistanceMapOptions.region</definition>
+        <argsstring>(self, PixelBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.ContoursDistanceMapOptions.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10848" bodyend="10849"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ContoursDistanceMapOptions
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ContoursDistanceMapOptions</label>
+        <link refid="classmrmeshpy_1_1ContoursDistanceMapOptions"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_minDist</edgelabel>
+          <edgelabel>_offsetof_offsetParameters</edgelabel>
+          <edgelabel>_offsetof_outClosestEdges</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_signMethod</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>signMethod</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.ContoursDistanceMapOptions</label>
+        <link refid="classmrmeshpy_1_1ContoursDistanceMapOptions"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_minDist</edgelabel>
+          <edgelabel>_offsetof_offsetParameters</edgelabel>
+          <edgelabel>_offsetof_outClosestEdges</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_signMethod</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>signMethod</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10734" bodyend="10849"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a9da756f2b7f7b93c644dab7defc1afe1" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a21de5411a919c47cb379f125afa2146e" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a225820dbd2b83579f1f2cda4e58291f0" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1ad0467c16d71d7d5a0264571f8346d952" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a3bf2897a0b89eb169495df3354eab89c" prot="protected" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>_offsetof_minDist</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a5d55bf2246f91b73884d5b3fe2ae2256" prot="protected" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>_offsetof_offsetParameters</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a5eb936cad800466f07474f1a5df3a895" prot="protected" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>_offsetof_outClosestEdges</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1ae9796402a8387afb7dd99e2912f2f542" prot="protected" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1ab390b5e325b6266cd42c0ae97cccae5b" prot="protected" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>_offsetof_signMethod</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a8d138906b8baead32744e85ed09797c4" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>maxDist</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a96ccdd993d1e8daada52a0acd6b54a87" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>maxDist</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a9fe13c5c248555f5a3ef31bc07102fe6" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>minDist</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1aaa06e5168239d96b9a5d369ce751b2b3" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>minDist</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a0ddd2bead142c17e13f64bbea6292442" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>offsetParameters</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1ad3732d7130c31a48ad67c95ce3882141" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>offsetParameters</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a14266be3abb9eea8051ff02313cc639a" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a14266be3abb9eea8051ff02313cc639a" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a96fb5a9412672afa24b2d3e69b5a349f" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>outClosestEdges</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a046be53d0ebdf587a6c57cc80830e5a0" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>outClosestEdges</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1ae6090ad113bdb490c358a62bb1f00343" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1ae77f16cddd0c8a4d53fbd1ae99a6c11e" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1ContoursDistanceMapOptions_1a056e70c4afd25a0ed0179ab55c045519" prot="public" virt="non-virtual"><scope>mrmeshpy::ContoursDistanceMapOptions</scope><name>signMethod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

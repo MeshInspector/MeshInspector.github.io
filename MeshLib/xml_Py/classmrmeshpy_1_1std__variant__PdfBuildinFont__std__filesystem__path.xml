@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_variant_PdfBuildinFont_std_filesystem_path</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a2420066f7d7153279e95764051a68835" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79005" bodyend="79006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a89883140c0f88f70bef1a22533911f26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.__init__</definition>
+        <argsstring>(self, std_variant_PdfBuildinFont_std_filesystem_path arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path" kindref="compound">std_variant_PdfBuildinFont_std_filesystem_path</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79008" bodyend="79009"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a7040f080b5ca2d10a937b371cf877c7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.__init__</definition>
+        <argsstring>(self, PdfBuildinFont arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79011" bodyend="79012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a0177fc8d4ec754681bc2dad3a049ea6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.__init__</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79014" bodyend="79015"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1af2a578d22f6f30f2b1c28dbc1da5333c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.current_type</definition>
+        <argsstring>(self)</argsstring>
+        <name>current_type</name>
+        <qualifiedname>mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.current_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the current type name as a string. Call `get_&lt;TypeName&gt;()` to get the value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79016" bodyend="79019"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a65447f5dde7a100200cd4767654ac626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PdfBuildinFont" kindref="compound">PdfBuildinFont</ref></type>
+        <definition> PdfBuildinFont mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.get_PdfBuildinFont</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_PdfBuildinFont</name>
+        <qualifiedname>mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.get_PdfBuildinFont</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79020" bodyend="79023"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1ad4409f4a6e0c9170c9b216c426e328e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.get_std_filesystem_path</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_std_filesystem_path</name>
+        <qualifiedname>mrmeshpy.std_variant_PdfBuildinFont_std_filesystem_path.get_std_filesystem_path</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79024" bodyend="79027"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  PdfGeneralFont
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79000" bodyend="79027"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a2420066f7d7153279e95764051a68835" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_PdfBuildinFont_std_filesystem_path</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a89883140c0f88f70bef1a22533911f26" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_PdfBuildinFont_std_filesystem_path</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a7040f080b5ca2d10a937b371cf877c7c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_PdfBuildinFont_std_filesystem_path</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a0177fc8d4ec754681bc2dad3a049ea6e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_PdfBuildinFont_std_filesystem_path</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1af2a578d22f6f30f2b1c28dbc1da5333c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_PdfBuildinFont_std_filesystem_path</scope><name>current_type</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1a65447f5dde7a100200cd4767654ac626" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_PdfBuildinFont_std_filesystem_path</scope><name>get_PdfBuildinFont</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__PdfBuildinFont__std__filesystem__path_1ad4409f4a6e0c9170c9b216c426e328e9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_PdfBuildinFont_std_filesystem_path</scope><name>get_std_filesystem_path</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

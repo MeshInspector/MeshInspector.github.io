@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Quaternionf" kind="class" language="C#" prot="public">
+    <compoundname>MR::Quaternionf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Quaternionf</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Quaternionf_1a1c8eb5a31f7c3065dbae7281fa403fac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Quaternionf.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR.Quaternionf.a</qualifiedname>
+        <briefdescription>
+<para>&lt; real part of the quaternion </para>
+        </briefdescription>
+        <detaileddescription>
+<para>imaginary part: b*i + c*j + d*k </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="379" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Quaternionf_1aa3b5180256e698ab23cbbe1108db7608" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Quaternionf.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR.Quaternionf.b</qualifiedname>
+        <briefdescription>
+<para>imaginary part: b*i + c*j + d*k </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="382" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Quaternionf_1ab1a919c14244077ed44ac7b458ae5060" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Quaternionf.c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <qualifiedname>MR.Quaternionf.c</qualifiedname>
+        <briefdescription>
+<para>imaginary part: b*i + c*j + d*k </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="385" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Quaternionf_1ab8292b981d0b4697b9cbc6d5e44b604a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Quaternionf.d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>MR.Quaternionf.d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="388" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="388" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a60bb1eb1d86c3f37ddd2bae0b30b8723" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Quaternionf.Quaternionf</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="392" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="392" bodyend="396"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a7e353f8d18f2672c96a412a8667cc258" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Quaternionf.Quaternionf</definition>
+        <argsstring>()</argsstring>
+        <name>Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="402" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="402" bodyend="408"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1abb24a7c6daaab950f7e699df2dcd7a9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Quaternionf.Quaternionf</definition>
+        <argsstring>(MR.Const_Quaternionf _other)</argsstring>
+        <name>Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
+        <param>
+          <type>MR.Const_Quaternionf</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Quaternionf.Quaternionf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="413" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="413" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a733dc7c51429998b18bda3783c0f5720" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Quaternionf.Quaternionf</definition>
+        <argsstring>(Quaternionf _other)</argsstring>
+        <name>Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Quaternionf" kindref="compound">Quaternionf</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Quaternionf.Quaternionf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="425" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="425" bodyend="425"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1aeb0668f153bcba1c234c288279a86bff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Quaternionf.Quaternionf</definition>
+        <argsstring>(float a, float b, float c, float d)</argsstring>
+        <name>Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Quaternionf.Quaternionf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="430" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="430" bodyend="436"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1aaa82bd5bb0a317e941b5b6cd292b17f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Quaternionf.Quaternionf</definition>
+        <argsstring>(float real, in MR.Vector3f im)</argsstring>
+        <name>Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>real</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>im</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Quaternionf.Quaternionf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="456" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="456" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a1400ed3736d1f675bde151d8c624d310" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Quaternionf.Quaternionf</definition>
+        <argsstring>(in MR.Matrix3f m)</argsstring>
+        <name>Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Quaternionf.Quaternionf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="470" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="470" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a89d5d6557140c2bfbe647bb7687daf1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Quaternionf.Quaternionf</definition>
+        <argsstring>(in MR.Vector3f from, in MR.Vector3f to)</argsstring>
+        <name>Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>to</declname>
+        </param>
+        <briefdescription>
+<para>finds shorter arc rotation quaternion from one vector to another Generated from constructor <computeroutput>MR.Quaternionf.Quaternionf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="490" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="490" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a3eac6b68243a34c8a66e0e1d3ed461f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Quaternionf" kindref="compound">MR.Quaternionf</ref></type>
+        <definition>unsafe MR.Quaternionf MR.Quaternionf.assign</definition>
+        <argsstring>(MR.Const_Quaternionf _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Quaternionf.assign</qualifiedname>
+        <param>
+          <type>MR.Const_Quaternionf</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Quaternionf.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="507" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="507" bodyend="514"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a685d834b77effa06517b9c7364bb156e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Quaternionf.normalize</definition>
+        <argsstring>()</argsstring>
+        <name>normalize</name>
+        <qualifiedname>MR.Quaternionf.normalize</qualifiedname>
+        <briefdescription>
+<para>scales this quaternion to make its norm unit Generated from method <computeroutput><ref refid="classMR_1_1Quaternionf_1a685d834b77effa06517b9c7364bb156e" kindref="member">MR.Quaternionf.normalize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="520" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="520" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a14e55dab896e3c214bf9f93a2bb17aec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Quaternionf" kindref="compound">MR.Quaternionf</ref></type>
+        <definition>unsafe MR.Quaternionf MR.Quaternionf.mulAssign</definition>
+        <argsstring>(float s)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.Quaternionf.mulAssign</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Quaternionf.operator*=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="530" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="530" bodyend="538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a4bdcbddd11f2cdd7a3c2cc06ca4ce545" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Quaternionf" kindref="compound">MR.Quaternionf</ref></type>
+        <definition>unsafe MR.Quaternionf MR.Quaternionf.divAssign</definition>
+        <argsstring>(float s)</argsstring>
+        <name>divAssign</name>
+        <qualifiedname>MR.Quaternionf.divAssign</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Quaternionf.operator/=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="543" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="543" bodyend="551"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="related">
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1a1c71ef6bdee5037714588390f70a211a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe Quaternionf</definition>
+        <argsstring>(in MR.Vector3f axis, float angle)</argsstring>
+        <name>Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.Quaternionf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>axis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Quaternionf.Quaternionf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="442" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="442" bodyend="451"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Quaternionf_1acd01d9ad3e9dbc50322ad641251d11c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Quaternionf.operator Quaternionf</definition>
+        <argsstring>(in MR.Matrix3f m)</argsstring>
+        <name>operator Quaternionf</name>
+        <qualifiedname>MR.Quaternionf.operator Quaternionf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3f" kindref="compound">MR.Matrix3f</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Quaternionf.Quaternionf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="484" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="484" bodyend="484"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents a quaternion following the notations from <ulink url="https://en.wikipedia.org/wiki/Quaternion">https://en.wikipedia.org/wiki/Quaternion</ulink> Generated from class <computeroutput><ref refid="classMR_1_1Quaternionf" kindref="compound">MR.Quaternionf</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Quaternionf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Quaternionf</label>
+        <link refid="classMR_1_1Quaternionf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Quaternionf &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Quaternionf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Quaternionf</label>
+        <link refid="classMR_1_1Quaternionf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Quaternionf &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" line="376" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRQuaternion.cs" bodystart="377" bodyend="552"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Quaternionf_1a1c8eb5a31f7c3065dbae7281fa403fac" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>a</name></member>
+      <member refid="classMR_1_1Quaternionf_1a3eac6b68243a34c8a66e0e1d3ed461f1" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>assign</name></member>
+      <member refid="classMR_1_1Quaternionf_1aa3b5180256e698ab23cbbe1108db7608" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>b</name></member>
+      <member refid="classMR_1_1Quaternionf_1ab1a919c14244077ed44ac7b458ae5060" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>c</name></member>
+      <member refid="classMR_1_1Quaternionf_1ab8292b981d0b4697b9cbc6d5e44b604a" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>d</name></member>
+      <member refid="classMR_1_1Quaternionf_1a4bdcbddd11f2cdd7a3c2cc06ca4ce545" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1Quaternionf_1a14e55dab896e3c214bf9f93a2bb17aec" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1Quaternionf_1a685d834b77effa06517b9c7364bb156e" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>normalize</name></member>
+      <member refid="classMR_1_1Quaternionf_1acd01d9ad3e9dbc50322ad641251d11c0" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>operator Quaternionf</name></member>
+      <member refid="classMR_1_1Quaternionf_1a60bb1eb1d86c3f37ddd2bae0b30b8723" prot="package" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+      <member refid="classMR_1_1Quaternionf_1a7e353f8d18f2672c96a412a8667cc258" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+      <member refid="classMR_1_1Quaternionf_1abb24a7c6daaab950f7e699df2dcd7a9c" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+      <member refid="classMR_1_1Quaternionf_1a733dc7c51429998b18bda3783c0f5720" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+      <member refid="classMR_1_1Quaternionf_1aeb0668f153bcba1c234c288279a86bff" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+      <member refid="classMR_1_1Quaternionf_1a1c71ef6bdee5037714588390f70a211a" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+      <member refid="classMR_1_1Quaternionf_1aaa82bd5bb0a317e941b5b6cd292b17f2" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+      <member refid="classMR_1_1Quaternionf_1a1400ed3736d1f675bde151d8c624d310" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+      <member refid="classMR_1_1Quaternionf_1a89d5d6557140c2bfbe647bb7687daf1f" prot="public" virt="non-virtual"><scope>MR::Quaternionf</scope><name>Quaternionf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

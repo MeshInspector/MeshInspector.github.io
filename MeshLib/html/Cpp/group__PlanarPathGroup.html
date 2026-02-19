@@ -162,9 +162,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gaf1dd390e537cb9342ced1b65ad2b29d6" id="r_gaf1dd390e537cb9342ced1b65ad2b29d6"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:gaf1dd390e537cb9342ced1b65ad2b29d6"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaf1dd390e537cb9342ced1b65ad2b29d6">MR::isUnfoldQuadrangleConvex</a> (const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;a, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;b, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;c, const <a class="el" href="structMR_1_1Vector3.html">Vector3</a>&lt; T &gt; &amp;d)</td></tr>
 <tr class="separator:gaf1dd390e537cb9342ced1b65ad2b29d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga64d6263ac2b571832be0c1a3e8114cfb" id="r_ga64d6263ac2b571832be0c1a3e8114cfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga64d6263ac2b571832be0c1a3e8114cfb">MR::reducePathViaVertex</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a> v, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, SurfacePath &amp;outPath, std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &gt; &amp;tmp, SurfacePath &amp;cachePath)</td></tr>
+<tr class="memitem:ga64d6263ac2b571832be0c1a3e8114cfb" id="r_ga64d6263ac2b571832be0c1a3e8114cfb"><td class="memItemLeft" align="right" valign="top">MRMESH_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga64d6263ac2b571832be0c1a3e8114cfb">MR::reducePathViaVertex</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, VertId v, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>, SurfacePath &amp;outPath, std::vector&lt; Vector2f &gt; &amp;tmp, SurfacePath &amp;cachePath)</td></tr>
 <tr class="separator:ga64d6263ac2b571832be0c1a3e8114cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga453514d922da4d7c4a02c78ca0b4eabe" id="r_ga453514d922da4d7c4a02c78ca0b4eabe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga453514d922da4d7c4a02c78ca0b4eabe">MR::reducePath</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, SurfacePath &amp;path, const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, int maxIter=5)</td></tr>
+<tr class="memitem:ga453514d922da4d7c4a02c78ca0b4eabe" id="r_ga453514d922da4d7c4a02c78ca0b4eabe"><td class="memItemLeft" align="right" valign="top">MRMESH_API int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga453514d922da4d7c4a02c78ca0b4eabe">MR::reducePath</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;start, SurfacePath &amp;path, const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;<a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>, int maxIter=5)</td></tr>
 <tr class="separator:ga453514d922da4d7c4a02c78ca0b4eabe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -199,7 +199,10 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRReducePath_8h.html">MRReducePath.h</a>&gt;</code></p>
 <p>given two 3D triangles ABC and ACD with shared edge AC, returns true if after unfolding into plane they form a convex quadrangle </p>
+<p>if path goes via vertices A or C then the quadrangle is concave or degenerated to triangle</p>
 
 </div>
 </div>
@@ -210,14 +213,14 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> int MR::reducePath </td>
+          <td class="memname">MRMESH_API int MR::reducePath </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -227,7 +230,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -236,6 +239,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRReducePath_8h.html">MRReducePath.h</a>&gt;</code></p>
 <p>converts any input surface path into geodesic path (so reduces its length): start-path-end; returns actual number of iterations performed </p>
 
 </div>
@@ -247,24 +252,24 @@ template&lt;typename T &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> bool MR::reducePathViaVertex </td>
+          <td class="memname">MRMESH_API bool MR::reducePathViaVertex </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>start</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a></td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
+          <td class="paramtype">VertId</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MeshTriPoint.html">MeshTriPoint</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>end</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -274,7 +279,7 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector2f.html">Vector2f</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tmp</em></span>, </td>
+          <td class="paramtype">std::vector&lt; Vector2f &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>tmp</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -283,6 +288,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRReducePath_8h.html">MRReducePath.h</a>&gt;</code></p>
 <p>given path s-v-e, tries to decrease its length by moving away from v </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">outPath</td><td>intermediate locations between s and e will be added here </td></tr>
@@ -324,6 +331,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRReducePath_8h.html">MRReducePath.h</a>&gt;</code></p>
 <p>given two 3D triangles ABC and ACD with shared edge AC, returns the relative position x in [0,1] on edge AC (x=0 means A and x=1 means C), where the shortest path from B to D crosses edge AC </p>
 
 </div>
@@ -358,6 +367,8 @@ template&lt;typename T &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRReducePath_8h.html">MRReducePath.h</a>&gt;</code></p>
 <p>given triangle 0bc in 3D and line segment 0d in 2D, and |0b|=|0d|; finds e, such that triangle 0bc is equal to 0de; returns (0,0) if |0b|=0 </p>
 
 </div>

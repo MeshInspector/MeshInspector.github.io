@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Unsigned" kind="namespace" language="C++">
+    <compoundname>MR::Unsigned</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1Unsigned_1a297e05c1691001d7ce0261fa2e9c3dc4" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+          <param>
+            <type>std::enable_if_t&lt; std::is_unsigned_v&lt; T &gt;, std::nullptr_t &gt;</type>
+            <defval>nullptr</defval>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::Unsigned::abs</definition>
+        <argsstring>(T value)</argsstring>
+        <name>abs</name>
+        <qualifiedname>MR::Unsigned::abs</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Only callable on unsigned types. Returns the value unchanged. The intended usage of this in templates is like this: using std::abs; using <ref refid="namespaceMR_1_1Unsigned_1a297e05c1691001d7ce0261fa2e9c3dc4" kindref="member">Unsigned::abs</ref>; /// Or <computeroutput>using namespace <ref refid="namespaceMR_1_1Unsigned" kindref="compound">Unsigned</ref>;</computeroutput>. abs(x); Doing it this way ensures that you can handle both signed and unsigned standard types, and additionally any classes that provide <computeroutput><ref refid="namespaceMR_1_1Unsigned_1a297e05c1691001d7ce0261fa2e9c3dc4" kindref="member">abs()</ref></computeroutput> via ADL. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnsigned.h" line="18" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnsigned.h" bodystart="18" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Additional support for unsigned types. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnsigned.h" line="8" column="1"/>
+  </compounddef>
+</doxygen>

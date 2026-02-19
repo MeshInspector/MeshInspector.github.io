@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TeethMaskToDirectionVolumeConvertor" kind="class" language="C++" prot="public">
+    <compoundname>MR::TeethMaskToDirectionVolumeConvertor</compoundname>
+    <includes refid="MRTeethMaskToDirectionVolume_8h" local="no">MRTeethMaskToDirectionVolume.h</includes>
+    <innerclass refid="structMR_1_1TeethMaskToDirectionVolumeConvertor_1_1ProcessResult" prot="public">MR::TeethMaskToDirectionVolumeConvertor::ProcessResult</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga4aa7048d9cefc5a963d3583190bea7e1" kind="typedef"><name>DirectionVolume</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaacad268e9bf8e8ba39c90b3c5bc3abc8" kind="variable"><name>presentObjects_</name></member>
+      <member refid="group__GeneralGroup_1ga76056b4faced31578233512b4c392ad2" kind="variable"><name>mask_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga89983e40e7eb6539ae2adb1b772a2129" kind="function"><name>create</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac57c7c628359932902a4d1ae228e64c8" kind="function"><name>getObjectBounds</name></member>
+      <member refid="group__GeneralGroup_1ga71a87f86afb3191c2524b393470a6619" kind="function"><name>convertObject</name></member>
+      <member refid="group__GeneralGroup_1ga73d08553d48acf30d322b43f3de7d4a3" kind="function"><name>convertAll</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga6d2961b3158c87646fceee50df62ed31" kind="function"><name>TeethMaskToDirectionVolumeConvertor</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is an alternative to directly invoking <ref refid="group__GeneralGroup_1ga7cfd6d2c7fdde75ec5577e2e10511787" kindref="member">meshToDirectionVolume</ref> for the mesh retrieved from the teeth mask. It is better because when a single mesh is created from mask, some neighboring teeth might fuse together, creating incorrect mask. This class invokes meshing for each teeth separately, thus eliminating this problem. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" line="70" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRTeethMaskToDirectionVolume.h" bodystart="71" bodyend="100"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga73d08553d48acf30d322b43f3de7d4a3" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>convertAll</name></member>
+      <member refid="group__GeneralGroup_1ga71a87f86afb3191c2524b393470a6619" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>convertObject</name></member>
+      <member refid="group__GeneralGroup_1ga89983e40e7eb6539ae2adb1b772a2129" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga4aa7048d9cefc5a963d3583190bea7e1" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>DirectionVolume</name></member>
+      <member refid="group__GeneralGroup_1gac57c7c628359932902a4d1ae228e64c8" prot="public" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>getObjectBounds</name></member>
+      <member refid="group__GeneralGroup_1ga76056b4faced31578233512b4c392ad2" prot="private" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>mask_</name></member>
+      <member refid="group__GeneralGroup_1gaacad268e9bf8e8ba39c90b3c5bc3abc8" prot="private" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>presentObjects_</name></member>
+      <member refid="group__GeneralGroup_1ga6d2961b3158c87646fceee50df62ed31" prot="private" virt="non-virtual"><scope>MR::TeethMaskToDirectionVolumeConvertor</scope><name>TeethMaskToDirectionVolumeConvertor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

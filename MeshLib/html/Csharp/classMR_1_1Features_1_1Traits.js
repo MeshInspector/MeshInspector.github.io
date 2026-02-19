@@ -1,0 +1,12 @@
+var classMR_1_1Features_1_1Traits =
+[
+    [ "Binary_MRFeaturesPrimitivesConeSegment_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment.html", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRFeaturesPrimitivesConeSegment" ],
+    [ "Binary_MRFeaturesPrimitivesConeSegment_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f.html", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesConeSegment__MRSphere3f" ],
+    [ "Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment.html", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesConeSegment" ],
+    [ "Binary_MRFeaturesPrimitivesPlane_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane.html", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRFeaturesPrimitivesPlane" ],
+    [ "Binary_MRFeaturesPrimitivesPlane_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f.html", "classMR_1_1Features_1_1Traits_1_1Binary__MRFeaturesPrimitivesPlane__MRSphere3f" ],
+    [ "Binary_MRSphere3f_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f.html", "classMR_1_1Features_1_1Traits_1_1Binary__MRSphere3f__MRSphere3f" ],
+    [ "Unary_MRFeaturesPrimitivesConeSegment", "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment.html", "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesConeSegment" ],
+    [ "Unary_MRFeaturesPrimitivesPlane", "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane.html", "classMR_1_1Features_1_1Traits_1_1Unary__MRFeaturesPrimitivesPlane" ],
+    [ "Unary_MRSphere3f", "classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f.html", "classMR_1_1Features_1_1Traits_1_1Unary__MRSphere3f" ]
+];

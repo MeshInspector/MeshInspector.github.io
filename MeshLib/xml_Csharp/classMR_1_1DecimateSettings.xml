@@ -1,0 +1,822 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DecimateSettings" kind="class" language="C#" prot="private">
+    <compoundname>MR::DecimateSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_DecimateSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a7d0f6cbf05458bab4e5eb3e750801de4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1add28113e16217d08b03c89236a144146" kindref="member">MR.DecimateStrategy</ref></type>
+        <definition>new unsafe ref MR.DecimateStrategy MR.DecimateSettings.strategy</definition>
+        <argsstring></argsstring>
+        <name>strategy</name>
+        <qualifiedname>MR.DecimateSettings.strategy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="549" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a040958d62d8f9cf6d834297c179c458a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DecimateSettings.maxError</definition>
+        <argsstring></argsstring>
+        <name>maxError</name>
+        <qualifiedname>MR.DecimateSettings.maxError</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for <ref refid="classMR_1add28113e16217d08b03c89236a144146a67b5bfba24e72d549786f512b318c243" kindref="member">DecimateStrategy.MinimizeError</ref>: stop the decimation as soon as the estimated distance deviation from the original mesh is more than this value for <ref refid="classMR_1add28113e16217d08b03c89236a144146afcd194b53ddb9ce57f34ac17a11dff8b" kindref="member">DecimateStrategy.ShortestEdgeFirst</ref> only: stop the decimation as soon as the shortest edge in the mesh is greater than this value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="555" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="555" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a3aaf8b1370e2f9ecdcbaba611b7a9fb9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DecimateSettings.maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>MR.DecimateSettings.maxEdgeLen</qualifiedname>
+        <briefdescription>
+<para>Maximal possible edge length created during decimation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="558" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a193a618670d11e983f53b8bbb475dc82" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DecimateSettings.maxBdShift</definition>
+        <argsstring></argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>MR.DecimateSettings.maxBdShift</qualifiedname>
+        <briefdescription>
+<para>Maximal shift of a boundary during one edge collapse. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="561" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a7c571da61f8e47c5b445e4a1cdcb37cd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DecimateSettings.maxTriangleAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxTriangleAspectRatio</name>
+        <qualifiedname>MR.DecimateSettings.maxTriangleAspectRatio</qualifiedname>
+        <briefdescription>
+<para>Maximal possible aspect ratio of a triangle introduced during decimation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="564" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="564" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1aa3e405ad22a6d187b84173b2be3f3956" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DecimateSettings.criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>MR.DecimateSettings.criticalTriAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value; and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="568" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="568" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a5e9863ef259f30192b2acbc1b3a78ec6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DecimateSettings.tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>MR.DecimateSettings.tinyEdgeLength</qualifiedname>
+        <briefdescription>
+<para>edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="571" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a0c8618241fb4ab98e199e480d5808066" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DecimateSettings.stabilizer</definition>
+        <argsstring></argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>MR.DecimateSettings.stabilizer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Small stabilizer is important to achieve good results on completely planar mesh parts, if your mesh is not-planer everywhere, then you can set it to zero </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="575" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a1f59a8f451281096bee895e0f09f083d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DecimateSettings.angleWeightedDistToPlane</definition>
+        <argsstring></argsstring>
+        <name>angleWeightedDistToPlane</name>
+        <qualifiedname>MR.DecimateSettings.angleWeightedDistToPlane</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if false, then quadratic error metric is equal to the sum of distances to the planes of original mesh triangles; if true, then the sum is weighted, and the weight is equal to the angle of adjacent triangle at the vertex divided on PI (to get one after summing all 3 vertices of the triangle) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="579" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a985ead442862b3d46f24f171f0a4a431" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DecimateSettings.optimizeVertexPos</definition>
+        <argsstring></argsstring>
+        <name>optimizeVertexPos</name>
+        <qualifiedname>MR.DecimateSettings.optimizeVertexPos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then after each edge collapse the position of remaining vertex is optimized to minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="583" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="583" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1af76fae333b756d5f57ed2fb77c44c0bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.DecimateSettings.maxDeletedVertices</definition>
+        <argsstring></argsstring>
+        <name>maxDeletedVertices</name>
+        <qualifiedname>MR.DecimateSettings.maxDeletedVertices</qualifiedname>
+        <briefdescription>
+<para>Limit on the number of deleted vertices. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="586" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a64b662015397234cf4f4f4813befbeca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.DecimateSettings.maxDeletedFaces</definition>
+        <argsstring></argsstring>
+        <name>maxDeletedFaces</name>
+        <qualifiedname>MR.DecimateSettings.maxDeletedFaces</qualifiedname>
+        <briefdescription>
+<para>Limit on the number of deleted faces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="589" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="589" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a9aa16e7824c46218171c37ffb38efebe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>new unsafe MR.? FaceBitSet MR.DecimateSettings.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.DecimateSettings.region</qualifiedname>
+        <briefdescription>
+<para>Region on mesh to be decimated, it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="592" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="593" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a16b4d617cafe84f89524e6812152959f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>new unsafe MR.? UndirectedEdgeBitSet MR.DecimateSettings.notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR.DecimateSettings.notFlippable</qualifiedname>
+        <briefdescription>
+<para><ref refid="classMR_1_1Edges" kindref="compound">Edges</ref> specified by this bit-set will never be flipped, but they can be collapsed or replaced during collapse of nearby edges so it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="605" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="606" bodyend="615"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a1895e45baef40c594f71539eee3ef9fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DecimateSettings.collapseNearNotFlippable</definition>
+        <argsstring></argsstring>
+        <name>collapseNearNotFlippable</name>
+        <qualifiedname>MR.DecimateSettings.collapseNearNotFlippable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Whether to allow collapse of edges incident to notFlippable edges, which can move vertices of notFlippable edges unless they are fixed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="619" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="619" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1ac33a8689299b6b4568f76139ac5787b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>new unsafe MR.? UndirectedEdgeBitSet MR.DecimateSettings.edgesToCollapse</definition>
+        <argsstring></argsstring>
+        <name>edgesToCollapse</name>
+        <qualifiedname>MR.DecimateSettings.edgesToCollapse</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If pointer is not null, then only edges from here can be collapsed (and some nearby edges can disappear); the algorithm updates this map during collapses, removing or replacing elements </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="623" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="624" bodyend="633"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a19366c7241619dce5318daee1720b2a2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Phmap.? FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId</type>
+        <definition>new unsafe MR.Phmap.? FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId MR.DecimateSettings.twinMap</definition>
+        <argsstring></argsstring>
+        <name>twinMap</name>
+        <qualifiedname>MR.DecimateSettings.twinMap</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if an edge present as a key in this map is flipped or collapsed, then same happens to the value-edge (with same collapse position); the algorithm updates this map during collapses, removing or replacing elements </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="637" column="84" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="638" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a07b555009b336d2c01e32bff7b384259" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DecimateSettings.touchNearBdEdges</definition>
+        <argsstring></argsstring>
+        <name>touchNearBdEdges</name>
+        <qualifiedname>MR.DecimateSettings.touchNearBdEdges</qualifiedname>
+        <briefdescription>
+<para>Whether to allow collapsing or flipping edges having at least one vertex on (region) boundary. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="650" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="650" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a24e37817f6c0a3ec00b7241e98ae75a3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DecimateSettings.touchBdVerts</definition>
+        <argsstring></argsstring>
+        <name>touchBdVerts</name>
+        <qualifiedname>MR.DecimateSettings.touchBdVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>touchBdVerts=true: allow moving and eliminating boundary vertices during edge collapses; touchBdVerts=false: allow only collapsing an edge having only one boundary vertex in that vertex, so position and count of boundary vertices do not change; this setting is ignored if touchNearBdEdges=false </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="655" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a96181a148739b28e5931bc9d6fd64e3b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition>new unsafe MR.? VertBitSet MR.DecimateSettings.bdVerts</definition>
+        <argsstring></argsstring>
+        <name>bdVerts</name>
+        <qualifiedname>MR.DecimateSettings.bdVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if touchNearBdEdges=false or touchBdVerts=false then the algorithm needs to know about all boundary vertices; if the pointer is not null then boundary vertices detection is replaced with testing values in this bit-set; the algorithm updates this set if it packs the mesh </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="660" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="661" bodyend="670"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1aaf4fbc4bc34e1c036bf7a246dc9a0223" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DecimateSettings.maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>MR.DecimateSettings.maxAngleChange</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Permit edge flips (in addition to collapsing) to improve Delone quality of the mesh if it does not change dihedral angle more than on this value (negative value prohibits any edge flips) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="674" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a8f2d44b1632593b1b41db537a89b32f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromMREdgeIdConstMRVector3fRef</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromMREdgeIdConstMRVector3fRef MR.DecimateSettings.preCollapse</definition>
+        <argsstring></argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>MR.DecimateSettings.preCollapse</qualifiedname>
+        <briefdescription>
+<para>The user can provide this optional callback that is invoked immediately before edge collapse;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="682" column="80" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="682" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1ab5b98954494f3550158f62392a984a04" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef</type>
+        <definition>new unsafe MR.Std.Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef MR.DecimateSettings.adjustCollapse</definition>
+        <argsstring></argsstring>
+        <name>adjustCollapse</name>
+        <qualifiedname>MR.DecimateSettings.adjustCollapse</qualifiedname>
+        <briefdescription>
+<para>The user can provide this optional callback for adjusting error introduced by this edge collapse and the collapse position. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>On input the callback gets the squared error and position computed by standard means, and callback can modify any of them. The larger the error, the later this edge will be collapsed. This callback can be called from many threads in parallel and must be thread-safe. This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="692" column="93" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="692" bodyend="692"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1aebbc337eb3158f97f7c2fc652e893fd4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId</type>
+        <definition>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId MR.DecimateSettings.onEdgeDel</definition>
+        <argsstring></argsstring>
+        <name>onEdgeDel</name>
+        <qualifiedname>MR.DecimateSettings.onEdgeDel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this function is called each time edge (del) is deleted; if valid (rem) is given then dest(del) = dest(rem) and their origins are in different ends of collapsing edge, (rem) shall take the place of (del) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="696" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="696" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a2e6ecb0db6897dc915a800fc726f449a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId" kindref="compound">Vector_MRQuadraticForm3f_MRVertId</ref></type>
+        <definition>new unsafe MR.? Vector_MRQuadraticForm3f_MRVertId MR.DecimateSettings.vertForms</definition>
+        <argsstring></argsstring>
+        <name>vertForms</name>
+        <qualifiedname>MR.DecimateSettings.vertForms</qualifiedname>
+        <briefdescription>
+<para>If not null, then vertex quadratic forms are stored there; if on input the vector is not empty then initialization is skipped in favor of values from there; on output: quadratic form for each remaining vertex is returned there. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="703" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="704" bodyend="713"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a9967784a45ec0ed10eae8055d3868d67" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DecimateSettings.packMesh</definition>
+        <argsstring></argsstring>
+        <name>packMesh</name>
+        <qualifiedname>MR.DecimateSettings.packMesh</qualifiedname>
+        <briefdescription>
+<para>whether to pack mesh at the end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="716" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a001c061206c2b49e52f2aca6829e166c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.DecimateSettings.progressCallback</definition>
+        <argsstring></argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>MR.DecimateSettings.progressCallback</qualifiedname>
+        <briefdescription>
+<para>callback to report algorithm progress and cancel it by user request </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="719" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="719" bodyend="719"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a051e26d6cd8669e3ea6efd9397bd3f4d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.DecimateSettings.subdivideParts</definition>
+        <argsstring></argsstring>
+        <name>subdivideParts</name>
+        <qualifiedname>MR.DecimateSettings.subdivideParts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this value is more than 1, then virtually subdivides the mesh on given number of parts to process them in parallel (using many threads); IMPORTANT: please call mesh.packOptimally() before calling decimating with subdivideParts &gt; 1, otherwise performance will be bad </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="723" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a06306ed033b5ccfa3237dab3fb1c3a61" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DecimateSettings.decimateBetweenParts</definition>
+        <argsstring></argsstring>
+        <name>decimateBetweenParts</name>
+        <qualifiedname>MR.DecimateSettings.decimateBetweenParts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>After parallel decimation of all mesh parts is done, whether to perform final decimation of whole mesh region to eliminate small edges near the border of individual parts </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="727" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a492c1ffd1bc957984b1d0f955ad47706" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Std.? Vector_MRFaceBitSet</type>
+        <definition>new unsafe MR.Std.? Vector_MRFaceBitSet MR.DecimateSettings.partFaces</definition>
+        <argsstring></argsstring>
+        <name>partFaces</name>
+        <qualifiedname>MR.DecimateSettings.partFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not null, then it contains the faces of each subdivision part on input, which must not overlap, and after decimation of all parts, the region inside each part is put here; decimateBetweenParts=true or packMesh=true are not compatible with this option </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="732" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="733" bodyend="742"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DecimateSettings_1a112b89ae894d191a8da473e6372dc580" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.DecimateSettings.minFacesInPart</definition>
+        <argsstring></argsstring>
+        <name>minFacesInPart</name>
+        <qualifiedname>MR.DecimateSettings.minFacesInPart</qualifiedname>
+        <briefdescription>
+<para>minimum number of faces in one subdivision part for ( subdivideParts &gt; 1 ) mode </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="745" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="745" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1a29c5319a7e8deee2d7f4a7ae75c69233" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DecimateSettings.DecimateSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>DecimateSettings</name>
+        <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="785" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="785" bodyend="789"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1ab67032cee10cf045f9a4cee048756b24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DecimateSettings.DecimateSettings</definition>
+        <argsstring>()</argsstring>
+        <name>DecimateSettings</name>
+        <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="795" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="795" bodyend="801"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1aa56e196e71352498aecc43522f18a8b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DecimateSettings.DecimateSettings</definition>
+        <argsstring>(MR.DecimateStrategy strategy, float maxError, float maxEdgeLen, float maxBdShift, float maxTriangleAspectRatio, float criticalTriAspectRatio, float tinyEdgeLength, float stabilizer, bool angleWeightedDistToPlane, bool optimizeVertexPos, int maxDeletedVertices, int maxDeletedFaces, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool collapseNearNotFlippable, MR.UndirectedEdgeBitSet? edgesToCollapse, MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId? twinMap, bool touchNearBdEdges, bool touchBdVerts, MR.VertBitSet? bdVerts, float maxAngleChange, MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef adjustCollapse, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeDel, MR.Vector_MRQuadraticForm3f_MRVertId? vertForms, bool packMesh, MR.Std._ByValue_Function_BoolFuncFromFloat progressCallback, int subdivideParts, bool decimateBetweenParts, MR.Std.Vector_MRFaceBitSet? partFaces, int minFacesInPart)</argsstring>
+        <name>DecimateSettings</name>
+        <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1add28113e16217d08b03c89236a144146" kindref="member">MR.DecimateStrategy</ref></type>
+          <declname>strategy</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxError</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxEdgeLen</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxBdShift</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxTriangleAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tinyEdgeLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>angleWeightedDistToPlane</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>optimizeVertexPos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxDeletedVertices</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxDeletedFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>collapseNearNotFlippable</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
+          <declname>edgesToCollapse</declname>
+        </param>
+        <param>
+          <type>MR.Phmap.FlatHashMap_MRUndirectedEdgeId_MRUndirectedEdgeId?</type>
+          <declname>twinMap</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>touchNearBdEdges</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>touchBdVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref>?</type>
+          <declname>bdVerts</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChange</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef</type>
+          <declname>preCollapse</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_VoidFuncFromMRUndirectedEdgeIdFloatRefMRVector3fRef</type>
+          <declname>adjustCollapse</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <declname>onEdgeDel</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRQuadraticForm3f__MRVertId" kindref="compound">MR.Vector_MRQuadraticForm3f_MRVertId</ref>?</type>
+          <declname>vertForms</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>packMesh</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>progressCallback</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>subdivideParts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>decimateBetweenParts</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRFaceBitSet?</type>
+          <declname>partFaces</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minFacesInPart</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.DecimateSettings</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="806" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="806" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1a99a889cfdc331349b8e18b3b2fc5d088" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DecimateSettings.DecimateSettings</definition>
+        <argsstring>(MR._ByValue_DecimateSettings _other)</argsstring>
+        <name>DecimateSettings</name>
+        <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_DecimateSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DecimateSettings.DecimateSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="828" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="828" bodyend="835"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1aa705d47a48108e8562a3cd9a12128b6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.DecimateSettings.DecimateSettings</definition>
+        <argsstring>(Const_DecimateSettings _other)</argsstring>
+        <name>DecimateSettings</name>
+        <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
+        <param>
+          <type>Const_DecimateSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DecimateSettings.DecimateSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="840" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="840" bodyend="840"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1a07505c08c620c736e4f5041c08418e2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.DecimateSettings.DecimateSettings</definition>
+        <argsstring>(DecimateSettings _other)</argsstring>
+        <name>DecimateSettings</name>
+        <qualifiedname>MR.DecimateSettings.DecimateSettings</qualifiedname>
+        <param>
+          <type>DecimateSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DecimateSettings.DecimateSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="845" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="845" bodyend="845"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DecimateSettings_1a41a5f86701c05809d1d01a45254b2185" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.DecimateSettings</type>
+        <definition>unsafe MR.DecimateSettings MR.DecimateSettings.assign</definition>
+        <argsstring>(MR._ByValue_DecimateSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.DecimateSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_DecimateSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.DecimateSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="850" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="850" bodyend="857"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for <ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">MR.decimateMesh</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">decimateMesh</ref> Generated from class <computeroutput>MR.DecimateSettings</computeroutput>. This is the const half of the class.</para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="classMR_1a5acec4e437ef0a28be3ff53f86661858" kindref="member">decimateMesh</ref> Generated from class <computeroutput>MR.DecimateSettings</computeroutput>. This is the non-const half of the class. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_DecimateSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DecimateSettings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DecimateSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_DecimateSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DecimateSettings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DecimateSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="547" column="11"/>
+    <listofallmembers>
+      <member refid="classMR_1_1DecimateSettings_1ab5b98954494f3550158f62392a984a04" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>adjustCollapse</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a1f59a8f451281096bee895e0f09f083d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>angleWeightedDistToPlane</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a41a5f86701c05809d1d01a45254b2185" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a96181a148739b28e5931bc9d6fd64e3b" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>bdVerts</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a1895e45baef40c594f71539eee3ef9fb" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>collapseNearNotFlippable</name></member>
+      <member refid="classMR_1_1DecimateSettings_1aa3e405ad22a6d187b84173b2be3f3956" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a06306ed033b5ccfa3237dab3fb1c3a61" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>decimateBetweenParts</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a29c5319a7e8deee2d7f4a7ae75c69233" prot="package" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1DecimateSettings_1ab67032cee10cf045f9a4cee048756b24" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1DecimateSettings_1aa56e196e71352498aecc43522f18a8b3" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a99a889cfdc331349b8e18b3b2fc5d088" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1DecimateSettings_1aa705d47a48108e8562a3cd9a12128b6d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a07505c08c620c736e4f5041c08418e2d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>DecimateSettings</name></member>
+      <member refid="classMR_1_1DecimateSettings_1ac33a8689299b6b4568f76139ac5787b4" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>edgesToCollapse</name></member>
+      <member refid="classMR_1_1DecimateSettings_1aaf4fbc4bc34e1c036bf7a246dc9a0223" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxAngleChange</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a193a618670d11e983f53b8bbb475dc82" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxBdShift</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a64b662015397234cf4f4f4813befbeca" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxDeletedFaces</name></member>
+      <member refid="classMR_1_1DecimateSettings_1af76fae333b756d5f57ed2fb77c44c0bb" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxDeletedVertices</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a3aaf8b1370e2f9ecdcbaba611b7a9fb9" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a040958d62d8f9cf6d834297c179c458a" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxError</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a7c571da61f8e47c5b445e4a1cdcb37cd" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>maxTriangleAspectRatio</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a112b89ae894d191a8da473e6372dc580" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>minFacesInPart</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a16b4d617cafe84f89524e6812152959f" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>notFlippable</name></member>
+      <member refid="classMR_1_1DecimateSettings_1aebbc337eb3158f97f7c2fc652e893fd4" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>onEdgeDel</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a985ead442862b3d46f24f171f0a4a431" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>optimizeVertexPos</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a9967784a45ec0ed10eae8055d3868d67" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>packMesh</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a492c1ffd1bc957984b1d0f955ad47706" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>partFaces</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a8f2d44b1632593b1b41db537a89b32f5" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>preCollapse</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a001c061206c2b49e52f2aca6829e166c" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>progressCallback</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a9aa16e7824c46218171c37ffb38efebe" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>region</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a0c8618241fb4ab98e199e480d5808066" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>stabilizer</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a7d0f6cbf05458bab4e5eb3e750801de4" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>strategy</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a051e26d6cd8669e3ea6efd9397bd3f4d" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>subdivideParts</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a5e9863ef259f30192b2acbc1b3a78ec6" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a24e37817f6c0a3ec00b7241e98ae75a3" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>touchBdVerts</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a07b555009b336d2c01e32bff7b384259" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>touchNearBdEdges</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a19366c7241619dce5318daee1720b2a2" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>twinMap</name></member>
+      <member refid="classMR_1_1DecimateSettings_1a2e6ecb0db6897dc915a800fc726f449a" prot="public" virt="non-virtual"><scope>MR::DecimateSettings</scope><name>vertForms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

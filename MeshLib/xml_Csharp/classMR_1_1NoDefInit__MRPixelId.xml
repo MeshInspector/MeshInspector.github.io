@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NoDefInit__MRPixelId" kind="class" language="C#" prot="public">
+    <compoundname>MR::NoDefInit_MRPixelId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRPixelId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1NoDefInit__MRPixelId_1a571b1fe2f4bf769b21457f5e5059a311" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.NoDefInit_MRPixelId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2613" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2613" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRPixelId_1a0fcd47c8f7722aab6a58e6b0a264bfe4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.NoDefInit_MRPixelId.operator MR.Box_PixelId</definition>
+        <argsstring>(NoDefInit_MRPixelId self)</argsstring>
+        <name>operator MR.Box_PixelId</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.operator MR.Box_PixelId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRPixelId" kindref="compound">NoDefInit_MRPixelId</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2604" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2604" bodyend="2611"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRPixelId_1ac22f4cbacf49a068202c4cae06a14c5f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRPixelId.NoDefInit_MRPixelId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NoDefInit_MRPixelId</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.NoDefInit_MRPixelId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2617" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2617" bodyend="2621"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRPixelId_1a02b3049e8659fc97d7c2540b0870e743" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRPixelId.NoDefInit_MRPixelId</definition>
+        <argsstring>()</argsstring>
+        <name>NoDefInit_MRPixelId</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.NoDefInit_MRPixelId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2627" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2627" bodyend="2633"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRPixelId_1ac1949f06202a6bbf0ca3368102385f8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRPixelId.NoDefInit_MRPixelId</definition>
+        <argsstring>(MR.Const_NoDefInit_MRPixelId _other)</argsstring>
+        <name>NoDefInit_MRPixelId</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.NoDefInit_MRPixelId</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRPixelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2638" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2638" bodyend="2645"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRPixelId_1a1759a6c92e977d68cc04f66500cd28ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NoDefInit_MRPixelId.NoDefInit_MRPixelId</definition>
+        <argsstring>(NoDefInit_MRPixelId _other)</argsstring>
+        <name>NoDefInit_MRPixelId</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.NoDefInit_MRPixelId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRPixelId" kindref="compound">NoDefInit_MRPixelId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2650" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2650" bodyend="2650"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRPixelId_1ae48021066474eca64e7d7b2483208b58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NoDefInit__MRPixelId" kindref="compound">MR.NoDefInit_MRPixelId</ref></type>
+        <definition>unsafe MR.NoDefInit_MRPixelId MR.NoDefInit_MRPixelId.assign</definition>
+        <argsstring>(MR.Const_NoDefInit_MRPixelId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.assign</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRPixelId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2655" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2655" bodyend="2662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRPixelId_1a26a2f8c73d28b586445e904619768670" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.NoDefInit_MRPixelId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;::get</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2667" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2667" bodyend="2672"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRPixelId_1a9137a2fb291b9a23bed2905d64171f91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+        <definition>unsafe ref MR.PixelId MR.NoDefInit_MRPixelId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;::operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2677" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2677" bodyend="2682"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRPixelId_1a9c1772eaed7dd8a2e6a761224b119942" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+        <definition>unsafe ref MR.PixelId MR.NoDefInit_MRPixelId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.NoDefInit_MRPixelId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;::operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2687" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2687" bodyend="2692"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRPixelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRPixelId</label>
+        <link refid="classMR_1_1NoDefInit__MRPixelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRPixelId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.PixelId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRPixelId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRPixelId</label>
+        <link refid="classMR_1_1NoDefInit__MRPixelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRPixelId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.PixelId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="2601" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="2602" bodyend="2693"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1a9c1772eaed7dd8a2e6a761224b119942" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1ae48021066474eca64e7d7b2483208b58" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>assign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1a26a2f8c73d28b586445e904619768670" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>get</name></member>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1a571b1fe2f4bf769b21457f5e5059a311" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>id</name></member>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1ac22f4cbacf49a068202c4cae06a14c5f" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>NoDefInit_MRPixelId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1a02b3049e8659fc97d7c2540b0870e743" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>NoDefInit_MRPixelId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1ac1949f06202a6bbf0ca3368102385f8d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>NoDefInit_MRPixelId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1a1759a6c92e977d68cc04f66500cd28ae" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>NoDefInit_MRPixelId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1a0fcd47c8f7722aab6a58e6b0a264bfe4" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>operator MR.Box_PixelId</name></member>
+      <member refid="classMR_1_1NoDefInit__MRPixelId_1a9137a2fb291b9a23bed2905d64171f91" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRPixelId</scope><name>subAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

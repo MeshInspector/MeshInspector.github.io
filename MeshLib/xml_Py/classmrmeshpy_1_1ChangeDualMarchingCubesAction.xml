@@ -1,0 +1,313 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeDualMarchingCubesAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeDualMarchingCubesAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1aee6d34cee1c24f790f68cb44f4a1870c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeDualMarchingCubesAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7561" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a884a9ff45a90d9739f93cde346c0665a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeDualMarchingCubesAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7564" bodyend="7565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a7f674294bfc6e68a1082382b855b647d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeDualMarchingCubesAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7567" bodyend="7568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a4752fee091730465a92c32db29c72cdf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction" kindref="compound">ChangeDualMarchingCubesAction</ref></type>
+        <definition> ChangeDualMarchingCubesAction mrmeshpy.ChangeDualMarchingCubesAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7571" bodyend="7572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a4752fee091730465a92c32db29c72cdf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction" kindref="compound">ChangeDualMarchingCubesAction</ref></type>
+        <definition> ChangeDualMarchingCubesAction mrmeshpy.ChangeDualMarchingCubesAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7575" bodyend="7576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1aea42cce6ccfc6da0fc582427142cfe28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeDualMarchingCubesAction.setObjectDirty</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7578" bodyend="7579"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1af96731d4ba0f59f3839926863d0438e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeDualMarchingCubesAction.__init__</definition>
+        <argsstring>(self, str name, ObjectVoxels obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s dual-value before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7581" bodyend="7584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1adc59e2b92ba8c61234835f349701d0b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeDualMarchingCubesAction.__init__</definition>
+        <argsstring>(self, str name, ObjectVoxels obj, bool storeDual)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>storeDual</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember given dual-value (and not the current value in the object)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7586" bodyend="7589"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1adc2959916525486f5df3cdbd1427a332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeDualMarchingCubesAction.__init__</definition>
+        <argsstring>(self, ChangeDualMarchingCubesAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction" kindref="compound">ChangeDualMarchingCubesAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7591" bodyend="7594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1ab253cc2b06e5221d8452070c2d6a296f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeDualMarchingCubesAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7595" bodyend="7596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a2e0555e589709401de514f3ec9165564" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeDualMarchingCubesAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeDualMarchingCubesAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7597" bodyend="7598"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeDualMarchingCubesAction
+
+Undo action for ObjectVoxels dual/standard marching cubes change
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeDualMarchingCubesAction</label>
+        <link refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeDualMarchingCubesAction</label>
+        <link refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7555" bodyend="7598"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a884a9ff45a90d9739f93cde346c0665a" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1af96731d4ba0f59f3839926863d0438e2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1adc59e2b92ba8c61234835f349701d0b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1adc2959916525486f5df3cdbd1427a332" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a7f674294bfc6e68a1082382b855b647d" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1ab253cc2b06e5221d8452070c2d6a296f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a2e0555e589709401de514f3ec9165564" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1aee6d34cee1c24f790f68cb44f4a1870c" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a4752fee091730465a92c32db29c72cdf" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1a4752fee091730465a92c32db29c72cdf" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeDualMarchingCubesAction_1aea42cce6ccfc6da0fc582427142cfe28" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeDualMarchingCubesAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MatrixGroup" kind="group">
+    <compoundname>MatrixGroup</compoundname>
+    <title>Matrix</title>
+    <innerclass refid="structMR_1_1Matrix" prot="public">MR::Matrix</innerclass>
+    <innerclass refid="structMR_1_1Matrix2" prot="public">MR::Matrix2</innerclass>
+    <innerclass refid="structMR_1_1Matrix3" prot="public">MR::Matrix3</innerclass>
+    <innerclass refid="structMR_1_1Matrix4" prot="public">MR::Matrix4</innerclass>
+    <innerclass refid="structMR_1_1SymMatrix2" prot="public">MR::SymMatrix2</innerclass>
+    <innerclass refid="structMR_1_1SymMatrix3" prot="public">MR::SymMatrix3</innerclass>
+    <innerclass refid="structMR_1_1SymMatrix4" prot="public">MR::SymMatrix4</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneLoad" kind="class" language="C#" prot="public">
+    <compoundname>MR::SceneLoad</compoundname>
+    <innerclass refid="classMR_1_1SceneLoad_1_1Result" prot="public">MR::SceneLoad::Result</innerclass>
+    <innerclass refid="classMR_1_1SceneLoad_1_1Settings" prot="public">MR::SceneLoad::Settings</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1SceneLoad_1a6454c7eeb30ea3233839662323f54406" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SceneLoad_1_1Result" kindref="compound">MR.SceneLoad.Result</ref></type>
+        <definition>static unsafe MR.SceneLoad.Result MR.SceneLoad.fromAnySupportedFormat</definition>
+        <argsstring>(MR.Std.Const_Vector_StdFilesystemPath files, MR.SceneLoad.Const_Settings? settings=null)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR.SceneLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdFilesystemPath</type>
+          <declname>files</declname>
+        </param>
+        <param>
+          <type>MR.SceneLoad.Const_Settings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Load scene from file; if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects Generated from function <computeroutput><ref refid="classMR_1_1SceneLoad_1a6454c7eeb30ea3233839662323f54406" kindref="member">MR.SceneLoad.fromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="630" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="630" bodyend="635"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SceneLoad_1ad6435fed9e0649b9bed9095860303cb6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.SceneLoad.asyncFromAnySupportedFormat</definition>
+        <argsstring>(MR.Std.Const_Vector_StdFilesystemPath files, MR.Std.Const_Function_VoidFuncFromMRSceneLoadResult postLoadCallback, MR.SceneLoad.Const_Settings? settings=null)</argsstring>
+        <name>asyncFromAnySupportedFormat</name>
+        <qualifiedname>MR.SceneLoad.asyncFromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdFilesystemPath</type>
+          <declname>files</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_VoidFuncFromMRSceneLoadResult</type>
+          <declname>postLoadCallback</declname>
+        </param>
+        <param>
+          <type>MR.SceneLoad.Const_Settings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1SceneLoad_1ad6435fed9e0649b9bed9095860303cb6" kindref="member">MR.SceneLoad.asyncFromAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="641" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="641" bodyend="646"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSceneLoad.cs" bodystart="4" bodyend="647"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SceneLoad_1ad6435fed9e0649b9bed9095860303cb6" prot="public" virt="non-virtual"><scope>MR::SceneLoad</scope><name>asyncFromAnySupportedFormat</name></member>
+      <member refid="classMR_1_1SceneLoad_1a6454c7eeb30ea3233839662323f54406" prot="public" virt="non-virtual"><scope>MR::SceneLoad</scope><name>fromAnySupportedFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RenderDimensions_1_1PointParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RenderDimensions::PointParams</compoundname>
+    <includes refid="MRRenderDimensions_8h" local="no">MRRenderDimensions.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaea6f31dfb7d778a350dfcabd1315dbce" kind="variable"><name>common</name></member>
+      <member refid="group__GeneralGroup_1gac96e5a8845f39132130d9eddc3454385" kind="variable"><name>point</name></member>
+      <member refid="group__GeneralGroup_1gac542eb79cceb0b5afb0d5017b72cd552" kind="variable"><name>align</name></member>
+      <member refid="group__GeneralGroup_1ga6ab7fef3f21c5bd1bd25a4c95f645e13" kind="variable"><name>referencePoint</name></member>
+      <member refid="group__GeneralGroup_1gaba30935609c38d5f95567ac57c0c404f" kind="variable"><name>referenceNormal</name></member>
+      <member refid="group__GeneralGroup_1ga3f121ad1c8bf6dae5c94c8fd8db92f3b" kind="variable"><name>tolerance</name></member>
+      <member refid="group__GeneralGroup_1ga7e497a083e2528f951bf48ea00473a3f" kind="variable"><name>capIsVisible</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="8" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderDimensions::CommonParams</label>
+        <link refid="structMR_1_1RenderDimensions_1_1CommonParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>objectToSelect</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderDimensions::PointParams</label>
+        <link refid="structMR_1_1RenderDimensions_1_1PointParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>common</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="8">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="12">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="13">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="3">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="12" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="11">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" line="38" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderDimensions.h" bodystart="39" bodyend="62"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac542eb79cceb0b5afb0d5017b72cd552" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>align</name></member>
+      <member refid="group__GeneralGroup_1ga7e497a083e2528f951bf48ea00473a3f" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>capIsVisible</name></member>
+      <member refid="group__GeneralGroup_1gaea6f31dfb7d778a350dfcabd1315dbce" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>common</name></member>
+      <member refid="group__GeneralGroup_1gac96e5a8845f39132130d9eddc3454385" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>point</name></member>
+      <member refid="group__GeneralGroup_1gaba30935609c38d5f95567ac57c0c404f" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>referenceNormal</name></member>
+      <member refid="group__GeneralGroup_1ga6ab7fef3f21c5bd1bd25a4c95f645e13" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>referencePoint</name></member>
+      <member refid="group__GeneralGroup_1ga3f121ad1c8bf6dae5c94c8fd8db92f3b" prot="public" virt="non-virtual"><scope>MR::RenderDimensions::PointParams</scope><name>tolerance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

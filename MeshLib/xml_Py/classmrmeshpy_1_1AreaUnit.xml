@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AreaUnit" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AreaUnit</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaUnit_1a8b606425b4f563f8e5b2cddb7aaeb78c" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaUnit::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1AreaUnit" kindref="compound">AreaUnit</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1822" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaUnit_1ac0dc874bd0c2f826f15660c010855fe6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaUnit::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.AreaUnit._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaUnit" kindref="compound">AreaUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1823" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaUnit_1ad2199467c678f2807a4ddd333d0aa68f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaUnit::centimeters2</definition>
+        <argsstring></argsstring>
+        <name>centimeters2</name>
+        <qualifiedname>mrmeshpy.AreaUnit.centimeters2</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaUnit" kindref="compound">AreaUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaUnit_1a89cd861aadb55204ff187440ca2b1768" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaUnit::feet2</definition>
+        <argsstring></argsstring>
+        <name>feet2</name>
+        <qualifiedname>mrmeshpy.AreaUnit.feet2</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaUnit" kindref="compound">AreaUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaUnit_1a59493df89cccea5c7ee855df83f1d39b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaUnit::inches2</definition>
+        <argsstring></argsstring>
+        <name>inches2</name>
+        <qualifiedname>mrmeshpy.AreaUnit.inches2</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaUnit" kindref="compound">AreaUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaUnit_1a2074e046a0955969f3ba3e90113b5108" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaUnit::meters2</definition>
+        <argsstring></argsstring>
+        <name>meters2</name>
+        <qualifiedname>mrmeshpy.AreaUnit.meters2</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaUnit" kindref="compound">AreaUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaUnit_1ac574a29ffd4725e660c699a6007fc35c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaUnit::microns2</definition>
+        <argsstring></argsstring>
+        <name>microns2</name>
+        <qualifiedname>mrmeshpy.AreaUnit.microns2</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaUnit" kindref="compound">AreaUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AreaUnit_1a9e3536ad294c6408220f9afcf8319846" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AreaUnit::millimeters2</definition>
+        <argsstring></argsstring>
+        <name>millimeters2</name>
+        <qualifiedname>mrmeshpy.AreaUnit.millimeters2</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AreaUnit" kindref="compound">AreaUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1829" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1a5b42ba0924ed317aa0c6d1486169177f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AreaUnit.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1830" bodyend="1831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1a4887ecdf90e7124af82ba89015ec595a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaUnit.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1832" bodyend="1833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1a73ef80c355cec7e113487e347ce962a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaUnit.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1834" bodyend="1835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1a22665b02c191ea2d2c3c6789c00d1651" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaUnit.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1836" bodyend="1837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1acffeed7adea24dd088d1e543deb5fa75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AreaUnit.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1838" bodyend="1839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1ada3d5e3ea77e04950b458eff51069c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaUnit.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1840" bodyend="1841"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1a3150fddc6d64e3dec30b6a71f8d84c55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AreaUnit.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1842" bodyend="1843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1a0e8af9ec7557cb11597bfa277ca96b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AreaUnit.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1844" bodyend="1845"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1a23c9cabd93dc1283ec3b9c5e8a2e3648" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AreaUnit.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1846" bodyend="1847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1aa6bbf3f3b3f0edd6e2f5002b3872ac4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AreaUnit.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.AreaUnit.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1848" bodyend="1849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1a8ce4b6c397b8a166c6b19b0704928797" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AreaUnit.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.AreaUnit.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1851" bodyend="1852"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AreaUnit_1a0d4684cbd321ef05e167c7830c7abfaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AreaUnit.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.AreaUnit.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1854" bodyend="1855"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  microns2
+
+  millimeters2
+
+  centimeters2
+
+  meters2
+
+  inches2
+
+  feet2
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AreaUnit</label>
+        <link refid="classmrmeshpy_1_1AreaUnit"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_count</edgelabel>
+          <edgelabel>centimeters2</edgelabel>
+          <edgelabel>feet2</edgelabel>
+          <edgelabel>inches2</edgelabel>
+          <edgelabel>meters2</edgelabel>
+          <edgelabel>microns2</edgelabel>
+          <edgelabel>millimeters2</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1804" bodyend="1855"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a5b42ba0924ed317aa0c6d1486169177f" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a4887ecdf90e7124af82ba89015ec595a" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a73ef80c355cec7e113487e347ce962a4" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a22665b02c191ea2d2c3c6789c00d1651" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1acffeed7adea24dd088d1e543deb5fa75" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1ada3d5e3ea77e04950b458eff51069c58" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a8b606425b4f563f8e5b2cddb7aaeb78c" prot="private" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a3150fddc6d64e3dec30b6a71f8d84c55" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a0e8af9ec7557cb11597bfa277ca96b96" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a23c9cabd93dc1283ec3b9c5e8a2e3648" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1aa6bbf3f3b3f0edd6e2f5002b3872ac4d" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1ac0dc874bd0c2f826f15660c010855fe6" prot="protected" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1ad2199467c678f2807a4ddd333d0aa68f" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>centimeters2</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a89cd861aadb55204ff187440ca2b1768" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>feet2</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a59493df89cccea5c7ee855df83f1d39b" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>inches2</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a2074e046a0955969f3ba3e90113b5108" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>meters2</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1ac574a29ffd4725e660c699a6007fc35c" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>microns2</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a9e3536ad294c6408220f9afcf8319846" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>millimeters2</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a8ce4b6c397b8a166c6b19b0704928797" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1AreaUnit_1a0d4684cbd321ef05e167c7830c7abfaa" prot="public" virt="non-virtual"><scope>mrmeshpy::AreaUnit</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

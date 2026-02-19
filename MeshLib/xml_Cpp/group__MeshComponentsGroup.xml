@@ -1,0 +1,1242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshComponentsGroup" kind="group">
+    <compoundname>MeshComponentsGroup</compoundname>
+    <title>MeshComponents</title>
+    <innerclass refid="structMR_1_1MeshComponents_1_1ExpandToComponentsParams" prot="public">MR::MeshComponents::ExpandToComponentsParams</innerclass>
+    <innerclass refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" prot="public">MR::MeshComponents::LargeByAreaComponentsSettings</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="group__MeshComponentsGroup_1ga7489c91178e90fdd4200bbb0074e025f" prot="public" static="no" strong="no">
+        <type></type>
+        <name>FaceIncidence</name>
+        <qualifiedname>MR::MeshComponents::FaceIncidence</qualifiedname>
+        <enumvalue id="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fad5a052032e0c5896a96256e1483648dc" prot="public">
+          <name>PerEdge</name>
+          <briefdescription>
+<para>face can have neighbor only via edge </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="group__MeshComponentsGroup_1gga7489c91178e90fdd4200bbb0074e025fa2e9713a46619599c9d68465178a81a4c" prot="public">
+          <name>PerVertex</name>
+          <briefdescription>
+<para>face can have neighbor via vertex </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Face incidence type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gae323fa14adee0d37e4e3f4162b02cec4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getComponent</definition>
+        <argsstring>(const MeshPart &amp;meshPart, FaceId id, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getComponent</name>
+        <qualifiedname>MR::MeshComponents::getComponent</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>FaceId</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns one connected component containing given face, not effective to call more than once, if several components are needed use getAllComponents </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="26" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="26" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga21483f6451c3d64c44217ec15be4f110" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API VertBitSet</type>
+        <definition>MRMESH_API VertBitSet MR::MeshComponents::getComponentVerts</definition>
+        <argsstring>(const Mesh &amp;mesh, VertId id, const VertBitSet *region=nullptr)</argsstring>
+        <name>getComponentVerts</name>
+        <qualifiedname>MR::MeshComponents::getComponentVerts</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns one connected component containing given vertex, not effective to call more than once, if several components are needed use getAllComponentsVerts </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="31" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="31" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga7e21cd646141fd510e181ca8be259013" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API VertBitSet</type>
+        <definition>MRMESH_API VertBitSet MR::MeshComponents::getLargestComponentVerts</definition>
+        <argsstring>(const Mesh &amp;mesh, const VertBitSet *region=nullptr)</argsstring>
+        <name>getLargestComponentVerts</name>
+        <qualifiedname>MR::MeshComponents::getLargestComponentVerts</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>returns the largest by number of elements component </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="34" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="34" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gae06989e422b7f72d02f514e959af0951" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API VertBitSet</type>
+        <definition>MRMESH_API VertBitSet MR::MeshComponents::getLargeComponentVerts</definition>
+        <argsstring>(const Mesh &amp;mesh, int minVerts, const VertBitSet *region=nullptr)</argsstring>
+        <name>getLargeComponentVerts</name>
+        <qualifiedname>MR::MeshComponents::getLargeComponentVerts</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minVerts</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>returns the union of vertex connected components, each having at least </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vertices </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="37" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="37" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gad4fc1494175cf23d40b88e84ff7aaf10" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getLargestComponent</definition>
+        <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={}, float minArea=0, int *numSmallerComponents=nullptr)</argsstring>
+        <name>getLargestComponent</name>
+        <qualifiedname>MR::MeshComponents::getLargestComponent</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>numSmallerComponents</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>returns the largest by surface area component or empty set if its area is smaller than </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minArea</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional output: the number of components in addition to returned one </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="41" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="41" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga7ddf49eb92204fc207139407ae3bd40b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getComponents</definition>
+        <argsstring>(const MeshPart &amp;meshPart, const FaceBitSet &amp;seeds, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getComponents</name>
+        <qualifiedname>MR::MeshComponents::getComponents</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>returns union of connected components, each of which contains at least one seed face </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="46" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="46" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga66b96824c77d512f0808874d7ab1cccd" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getComponents</definition>
+        <argsstring>(const MeshTopology &amp;topology, const FaceBitSet &amp;seeds, const FaceBitSet *region=nullptr, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getComponents</name>
+        <qualifiedname>MR::MeshComponents::getComponents</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="48" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="48" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga2c1a5bdd9924f310ad8cc32808c28c81" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getLargeByAreaComponents</definition>
+        <argsstring>(const MeshPart &amp;meshPart, float minArea, const UndirectedEdgeBitSet *isCompBd)</argsstring>
+        <name>getLargeByAreaComponents</name>
+        <qualifiedname>MR::MeshComponents::getLargeByAreaComponents</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+        </param>
+        <briefdescription>
+<para>returns the union of connected components, each having at least given area </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="52" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="52" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gab667645725f8c74c78000972ab0e75a3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getLargeByAreaComponents</definition>
+        <argsstring>(const MeshPart &amp;meshPart, UnionFind&lt; FaceId &gt; &amp;unionFind, float minArea, UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps=nullptr)</argsstring>
+        <name>getLargeByAreaComponents</name>
+        <qualifiedname>MR::MeshComponents::getLargeByAreaComponents</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>UnionFind&lt; FaceId &gt; &amp;</type>
+          <declname>unionFind</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+        </param>
+        <param>
+          <type>UndirectedEdgeBitSet *</type>
+          <declname>outBdEdgesBetweenLargeComps</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>given prepared union-find structure returns the union of connected components, each having at least given area </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="55" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="55" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaf0219dbc9312e96572e354d4a8ef45c5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
+        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::MeshComponents::expandToComponents</definition>
+        <argsstring>(const MeshPart &amp;mp, const FaceBitSet &amp;seeds, const ExpandToComponentsParams &amp;params={})</argsstring>
+        <name>expandToComponents</name>
+        <qualifiedname>MR::MeshComponents::expandToComponents</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type>const ExpandToComponentsParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>expands given seeds to whole components </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="77" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="77" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga605347dc67b8e8d516df2782b68a805d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; FaceBitSet &gt;</type>
+        <definition>MRMESH_API std::vector&lt; FaceBitSet &gt; MR::MeshComponents::getNLargeByAreaComponents</definition>
+        <argsstring>(const MeshPart &amp;meshPart, const LargeByAreaComponentsSettings &amp;settings)</argsstring>
+        <name>getNLargeByAreaComponents</name>
+        <qualifiedname>MR::MeshComponents::getNLargeByAreaComponents</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>const LargeByAreaComponentsSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>returns requested number of largest by area connected components in descending by area order </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="95" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="95" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gab9901c9bddcd57e5616458bb61414654" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::MeshComponents::getLargeByAreaSmoothComponents</definition>
+        <argsstring>(const MeshPart &amp;meshPart, float minArea, float angleFromPlanar, UndirectedEdgeBitSet *outBdEdgesBetweenLargeComps=nullptr)</argsstring>
+        <name>getLargeByAreaSmoothComponents</name>
+        <qualifiedname>MR::MeshComponents::getLargeByAreaSmoothComponents</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angleFromPlanar</declname>
+        </param>
+        <param>
+          <type>UndirectedEdgeBitSet *</type>
+          <declname>outBdEdgesBetweenLargeComps</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the union of connected components, each having at least given area, and any two faces in a connected component have a path along the surface across the edges, where surface does not deviate from plane more than on given angle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="99" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="99" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gae360882572a82620a889fa7315e143f9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API VertBitSet</type>
+        <definition>MRMESH_API VertBitSet MR::MeshComponents::getComponentsVerts</definition>
+        <argsstring>(const Mesh &amp;mesh, const VertBitSet &amp;seeds, const VertBitSet *region=nullptr)</argsstring>
+        <name>getComponentsVerts</name>
+        <qualifiedname>MR::MeshComponents::getComponentsVerts</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>seeds</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>returns union of connected components, each of which contains at least one seed vert </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="103" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="103" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga32700de033e86d62c6191e9e36d38900" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API size_t</type>
+        <definition>MRMESH_API size_t MR::MeshComponents::getNumComponents</definition>
+        <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getNumComponents</name>
+        <qualifiedname>MR::MeshComponents::getNumComponents</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>returns the number of connected components in mesh part </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="107" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="107" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga180f187a1a42a74bc04780f4108b79f0" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; FaceBitSet &gt;</type>
+        <definition>MRMESH_API std::vector&lt; FaceBitSet &gt; MR::MeshComponents::getAllComponents</definition>
+        <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR::MeshComponents::getAllComponents</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all connected components of mesh part <simplesect kind="note"><para>be careful, if mesh is large enough and has many components, the memory overflow will occur </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="112" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="112" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga127ab85dbcf9d5eb4d0cbe544f600220" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt;</type>
+        <definition>MRMESH_API std::pair&lt; std::vector&lt; FaceBitSet &gt;, int &gt; MR::MeshComponents::getAllComponents</definition>
+        <argsstring>(const MeshPart &amp;meshPart, int maxComponentCount, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR::MeshComponents::getAllComponents</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all connected components of mesh part \detail if components number more than the maxComponentCount, they will be combined into groups of the same size <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="119" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="119" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga4cf74d4564ff134bb6415bbcfe4feb42" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; FaceBitSet &gt;</type>
+        <definition>MRMESH_API std::vector&lt; FaceBitSet &gt; MR::MeshComponents::getAllComponents</definition>
+        <argsstring>(Face2RegionMap &amp;componentsMap, int componentsCount, const FaceBitSet &amp;region, int maxComponentCount)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR::MeshComponents::getAllComponents</qualifiedname>
+        <param>
+          <type>Face2RegionMap &amp;</type>
+          <declname>componentsMap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>componentsCount</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all connected components from components map ( FaceId =&gt; RegionId ) \detail if components number more than the maxComponentCount, they will be combined into groups of the same size (this similarly changes componentsMap) <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>components bitsets vector </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="126" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="126" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gad3a06dae127c3ec8a96a7753bb54f38d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::pair&lt; Face2RegionMap, int &gt;</type>
+        <definition>MRMESH_API std::pair&lt; Face2RegionMap, int &gt; MR::MeshComponents::getAllComponentsMap</definition>
+        <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getAllComponentsMap</name>
+        <qualifiedname>MR::MeshComponents::getAllComponentsMap</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all connected components of mesh part as<orderedlist>
+<listitem><para>the mapping: FaceId -&gt; Component ID in [0, 1, 2, ...)</para>
+</listitem><listitem><para>the total number of components </para>
+</listitem></orderedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="132" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="132" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga4fed6b1a7dee671512d111e0c2afa504" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Vector&lt; double, RegionId &gt;</type>
+        <definition>MRMESH_API Vector&lt; double, RegionId &gt; MR::MeshComponents::getRegionAreas</definition>
+        <argsstring>(const MeshPart &amp;meshPart, const Face2RegionMap &amp;regionMap, int numRegions)</argsstring>
+        <name>getRegionAreas</name>
+        <qualifiedname>MR::MeshComponents::getRegionAreas</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>const Face2RegionMap &amp;</type>
+          <declname>regionMap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numRegions</declname>
+        </param>
+        <briefdescription>
+<para>computes the area of each region given via the map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="136" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="136" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gac1a5db55dea6e15effad7c7ba1df9ed3" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::pair&lt; FaceBitSet, int &gt;</type>
+        <definition>MRMESH_API std::pair&lt; FaceBitSet, int &gt; MR::MeshComponents::getLargeByAreaRegions</definition>
+        <argsstring>(const MeshPart &amp;meshPart, const Face2RegionMap &amp;regionMap, int numRegions, float minArea)</argsstring>
+        <name>getLargeByAreaRegions</name>
+        <qualifiedname>MR::MeshComponents::getLargeByAreaRegions</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>const Face2RegionMap &amp;</type>
+          <declname>regionMap</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numRegions</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minArea</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns<orderedlist>
+<listitem><para>the union of all regions with area &gt;= minArea</para>
+</listitem><listitem><para>the number of such regions </para>
+</listitem></orderedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="142" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="142" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gacf901304f8dae140ebe581b9fefcf3e8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; VertBitSet &gt;</type>
+        <definition>MRMESH_API std::vector&lt; VertBitSet &gt; MR::MeshComponents::getAllComponentsVerts</definition>
+        <argsstring>(const Mesh &amp;mesh, const VertBitSet *region=nullptr)</argsstring>
+        <name>getAllComponentsVerts</name>
+        <qualifiedname>MR::MeshComponents::getAllComponentsVerts</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>gets all connected components of mesh part </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="146" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="146" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga2b1d2f430d5544f3129616e7909e2210" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; VertBitSet &gt;</type>
+        <definition>MRMESH_API std::vector&lt; VertBitSet &gt; MR::MeshComponents::getAllComponentsVertsSeparatedByPath</definition>
+        <argsstring>(const Mesh &amp;mesh, const SurfacePath &amp;path)</argsstring>
+        <name>getAllComponentsVertsSeparatedByPath</name>
+        <qualifiedname>MR::MeshComponents::getAllComponentsVertsSeparatedByPath</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const SurfacePath &amp;</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+<para>gets all connected components, separating vertices by given path (either closed or from boundary to boundary) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="149" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="149" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga04428c18d364e05a14deea6fa9537514" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; VertBitSet &gt;</type>
+        <definition>MRMESH_API std::vector&lt; VertBitSet &gt; MR::MeshComponents::getAllComponentsVertsSeparatedByPaths</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; SurfacePath &gt; &amp;paths)</argsstring>
+        <name>getAllComponentsVertsSeparatedByPaths</name>
+        <qualifiedname>MR::MeshComponents::getAllComponentsVertsSeparatedByPaths</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; SurfacePath &gt; &amp;</type>
+          <declname>paths</declname>
+        </param>
+        <briefdescription>
+<para>gets all connected components, separating vertices by given paths (either closed or from boundary to boundary) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="152" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="152" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga7becc9588891fae069b72605a081462e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; EdgeBitSet &gt;</type>
+        <definition>MRMESH_API std::vector&lt; EdgeBitSet &gt; MR::MeshComponents::getAllComponentsEdges</definition>
+        <argsstring>(const Mesh &amp;mesh, const EdgeBitSet &amp;edges)</argsstring>
+        <name>getAllComponentsEdges</name>
+        <qualifiedname>MR::MeshComponents::getAllComponentsEdges</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const EdgeBitSet &amp;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>subdivides given edges on connected components </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="155" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="155" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaa2a0c5fb3196196acd144c6fa53c0fec" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; UndirectedEdgeBitSet &gt;</type>
+        <definition>MRMESH_API std::vector&lt; UndirectedEdgeBitSet &gt; MR::MeshComponents::getAllComponentsUndirectedEdges</definition>
+        <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;edges)</argsstring>
+        <name>getAllComponentsUndirectedEdges</name>
+        <qualifiedname>MR::MeshComponents::getAllComponentsUndirectedEdges</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet &amp;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>subdivides given edges on connected components </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="158" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="158" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gac4401b9655de3a844caf1234d8f453cf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::MeshComponents::hasFullySelectedComponent</definition>
+        <argsstring>(const Mesh &amp;mesh, const VertBitSet &amp;selection)</argsstring>
+        <name>hasFullySelectedComponent</name>
+        <qualifiedname>MR::MeshComponents::hasFullySelectedComponent</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+<para>returns true if all vertices of a mesh connected component are present in selection </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="161" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="161" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gae10aa0366634495e852266e756441a82" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::MeshComponents::hasFullySelectedComponent</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertBitSet &amp;selection)</argsstring>
+        <name>hasFullySelectedComponent</name>
+        <qualifiedname>MR::MeshComponents::hasFullySelectedComponent</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="162" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="162" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gad556a5b5ed5f6001f378455d5b5a822c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::MeshComponents::excludeFullySelectedComponents</definition>
+        <argsstring>(const Mesh &amp;mesh, VertBitSet &amp;selection)</argsstring>
+        <name>excludeFullySelectedComponents</name>
+        <qualifiedname>MR::MeshComponents::excludeFullySelectedComponents</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>VertBitSet &amp;</type>
+          <declname>selection</declname>
+        </param>
+        <briefdescription>
+<para>if all vertices of a mesh connected component are present in selection, excludes these vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="165" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="165" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gac10c907d8a075e150d83213c07b5a200" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; FaceId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
+        <argsstring>(const MeshPart &amp;meshPart, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getUnionFindStructureFaces</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureFaces</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for faces with different options of face-connectivity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="168" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="168" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga12885a556aa2c72c212aa5a7b1ea3906" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; FaceId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFaces</definition>
+        <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr, FaceIncidence incidence=FaceIncidence::PerEdge, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getUnionFindStructureFaces</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureFaces</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>FaceIncidence</type>
+          <declname>incidence</declname>
+          <defval>FaceIncidence::PerEdge</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="169" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="169" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga03aa19f1555050b3ad3cadd0034b94e8" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; FaceId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
+        <argsstring>(const MeshPart &amp;meshPart, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getUnionFindStructureFacesPerEdge</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureFacesPerEdge</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>meshPart</declname>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets union-find structure for faces with connectivity by shared edge, and optional edge predicate whether to skip uniting components over it it is guaranteed that isCompBd is invoked in a thread-safe manner (that left and right face are always processed by one thread) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="173" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="173" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga08009215f08ce1a3fbe9ff82cdf1b110" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; FaceId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; FaceId &gt; MR::MeshComponents::getUnionFindStructureFacesPerEdge</definition>
+        <argsstring>(const MeshTopology &amp;topology, const FaceBitSet *region=nullptr, const UndirectedEdgeBitSet *isCompBd={})</argsstring>
+        <name>getUnionFindStructureFacesPerEdge</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureFacesPerEdge</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet *</type>
+          <declname>isCompBd</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="174" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="174" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga0c25b3e3697cc2efad3f13c664fc87ec" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
+        <argsstring>(const Mesh &amp;mesh, const VertBitSet *region=nullptr)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="177" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="177" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga157f0c78514aec4479ff1a3466741381" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
+        <argsstring>(const MeshTopology &amp;topology, const VertBitSet *region=nullptr)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="178" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="178" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga03c8c808b4ba34501215afe74c09330f" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
+        <argsstring>(const Mesh &amp;mesh, const EdgeBitSet &amp;edges)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const EdgeBitSet &amp;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices, considering connections by given edges only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="181" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="181" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaa753927490e5b30c4541fd6c06084f0c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVerts</definition>
+        <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;edges)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet &amp;</type>
+          <declname>edges</declname>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices, considering connections by given undirected edges only </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="184" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="184" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gace26e67d5d5067fe90238bc336ac1101" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVertsEx</definition>
+        <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;ignoreEdges)</argsstring>
+        <name>getUnionFindStructureVertsEx</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureVertsEx</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet &amp;</type>
+          <declname>ignoreEdges</declname>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices, considering connections by all edges excluding given ones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="187" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="187" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga397973d9e4d6ee73a9d3ceaeb494102a" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath</definition>
+        <argsstring>(const Mesh &amp;mesh, const SurfacePath &amp;path, VertBitSet *outPathVerts=nullptr)</argsstring>
+        <name>getUnionFindStructureVertsSeparatedByPath</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureVertsSeparatedByPath</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const SurfacePath &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>VertBitSet *</type>
+          <declname>outPathVerts</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for vertices, separating vertices by given path (either closed or from boundary to boundary) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outPathVerts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this set receives all vertices passed by the path </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="194" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="194" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gaeea1d750f9fa547cc54e67ea7ed92bfb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; VertId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; VertId &gt; MR::MeshComponents::getUnionFindStructureVertsSeparatedByPaths</definition>
+        <argsstring>(const Mesh &amp;mesh, const std::vector&lt; SurfacePath &gt; &amp;paths, VertBitSet *outPathVerts=nullptr)</argsstring>
+        <name>getUnionFindStructureVertsSeparatedByPaths</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureVertsSeparatedByPaths</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; SurfacePath &gt; &amp;</type>
+          <declname>paths</declname>
+        </param>
+        <param>
+          <type>VertBitSet *</type>
+          <declname>outPathVerts</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="197" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="197" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1gae57265eee73c6542d4d0fd525fd84dd5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; UndirectedEdgeId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; UndirectedEdgeId &gt; MR::MeshComponents::getUnionFindStructureUndirectedEdges</definition>
+        <argsstring>(const Mesh &amp;mesh, bool allPointToRoots=false)</argsstring>
+        <name>getUnionFindStructureUndirectedEdges</name>
+        <qualifiedname>MR::MeshComponents::getUnionFindStructureUndirectedEdges</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allPointToRoots</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets union-find structure for all undirected edges in<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mesh</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>allPointToRoots</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if true, then every element in the structure will point directly to the root of its respective component </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="202" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="202" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshComponentsGroup_1ga459f3f630779f6450c9139dc3f6b8cc1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UndirectedEdgeBitSet</type>
+        <definition>MRMESH_API UndirectedEdgeBitSet MR::MeshComponents::getComponentsUndirectedEdges</definition>
+        <argsstring>(const Mesh &amp;mesh, const UndirectedEdgeBitSet &amp;seeds)</argsstring>
+        <name>getComponentsUndirectedEdges</name>
+        <qualifiedname>MR::MeshComponents::getComponentsUndirectedEdges</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const UndirectedEdgeBitSet &amp;</type>
+          <declname>seeds</declname>
+        </param>
+        <briefdescription>
+<para>returns union of connected components, each of which contains at least one seed edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="205" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" declline="205" declcolumn="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

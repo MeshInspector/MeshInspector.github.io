@@ -1,0 +1,856 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjBitSet" kind="class" language="C#" prot="public">
+    <compoundname>MR::ObjBitSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjBitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ac4f4c7c96010b00db8f810d168e25e53" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjBitSet.operator MR.BitSet</definition>
+        <argsstring>(ObjBitSet self)</argsstring>
+        <name>operator MR.BitSet</name>
+        <qualifiedname>MR.ObjBitSet.operator MR.BitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjBitSet" kindref="compound">ObjBitSet</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8234" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8234" bodyend="8241"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ad1fa18f0e665bdf3cb03dfba3959f843" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjBitSet.ObjBitSet</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ObjBitSet</name>
+        <qualifiedname>MR.ObjBitSet.ObjBitSet</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8243" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8243" bodyend="8243"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1aab9fdf4546c3dcc51f9a6d9a7dbbfcf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjBitSet.ObjBitSet</definition>
+        <argsstring>()</argsstring>
+        <name>ObjBitSet</name>
+        <qualifiedname>MR.ObjBitSet.ObjBitSet</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8248" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8248" bodyend="8253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ad116b63218fe8e5a454bd3875b2f7aef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjBitSet.ObjBitSet</definition>
+        <argsstring>(MR._ByValue_ObjBitSet _other)</argsstring>
+        <name>ObjBitSet</name>
+        <qualifiedname>MR.ObjBitSet.ObjBitSet</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjBitSet.ObjBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8258" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8258" bodyend="8264"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a666a0e72dabba3f4320713d7da6092a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjBitSet.ObjBitSet</definition>
+        <argsstring>(Const_ObjBitSet _other)</argsstring>
+        <name>ObjBitSet</name>
+        <qualifiedname>MR.ObjBitSet.ObjBitSet</qualifiedname>
+        <param>
+          <type>Const_ObjBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjBitSet.ObjBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8269" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8269" bodyend="8269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ab6457b3a07bfecdf1437a2e0789972b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjBitSet.ObjBitSet</definition>
+        <argsstring>(ObjBitSet _other)</argsstring>
+        <name>ObjBitSet</name>
+        <qualifiedname>MR.ObjBitSet.ObjBitSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjBitSet" kindref="compound">ObjBitSet</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjBitSet.ObjBitSet</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8274" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8274" bodyend="8274"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ae3a89da99a70bc8da27d3d3fe590b5e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjBitSet.ObjBitSet</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>ObjBitSet</name>
+        <qualifiedname>MR.ObjBitSet.ObjBitSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>creates bitset of given size filled with given value Generated from constructor <computeroutput>MR.ObjBitSet.ObjBitSet</computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8281" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8281" bodyend="8287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a2e7818d5574de19dcc45fc9875ffce47" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjBitSet.ObjBitSet</definition>
+        <argsstring>(MR.Const_BitSet src)</argsstring>
+        <name>ObjBitSet</name>
+        <qualifiedname>MR.ObjBitSet.ObjBitSet</qualifiedname>
+        <param>
+          <type>MR.Const_BitSet</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>copies all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.ObjBitSet.ObjBitSet</computeroutput>. </underline></para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8293" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8293" bodyend="8299"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ad500facccb18bcba1e42b2bbe0ab1fde" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjBitSet.ObjBitSet</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.BitSet &gt; src)</argsstring>
+        <name>ObjBitSet</name>
+        <qualifiedname>MR.ObjBitSet.ObjBitSet</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref> &gt;</type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+<para>moves all bits from another <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> (or a descending class, e.g. TypedBitSet<underline>) Generated from constructor <computeroutput>MR.ObjBitSet.ObjBitSet</computeroutput>. </underline></para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8305" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8305" bodyend="8311"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a8fd4c7999aaa1ca0342377d61e5037b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.assign</definition>
+        <argsstring>(MR._ByValue_ObjBitSet _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ObjBitSet.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjBitSet</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjBitSet.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8316" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8316" bodyend="8323"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a294e1a0b85ac5cc50dd6d2adf967c0e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.set</definition>
+        <argsstring>(MR.ObjId n, ulong len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.ObjBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a294e1a0b85ac5cc50dd6d2adf967c0e5" kindref="member">MR.ObjBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8328" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8328" bodyend="8333"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a7675c74ba149d44a7b9ba36fc6aef4fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.set</definition>
+        <argsstring>(MR.ObjId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.ObjBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a294e1a0b85ac5cc50dd6d2adf967c0e5" kindref="member">MR.ObjBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8338" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8338" bodyend="8343"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1aef3301cf9535d139215cffc22ccd0bbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.set</definition>
+        <argsstring>(MR.ObjId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.ObjBitSet.set</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a294e1a0b85ac5cc50dd6d2adf967c0e5" kindref="member">MR.ObjBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8348" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8348" bodyend="8353"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a5377151aff5932e25d54f41b658b71ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.set</definition>
+        <argsstring>()</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.ObjBitSet.set</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a294e1a0b85ac5cc50dd6d2adf967c0e5" kindref="member">MR.ObjBitSet.set</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8358" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8358" bodyend="8363"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a9886831e4ef0b0a86e643c15a99f63b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.reset</definition>
+        <argsstring>(MR.ObjId n, ulong len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.ObjBitSet.reset</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a9886831e4ef0b0a86e643c15a99f63b7" kindref="member">MR.ObjBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8368" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8368" bodyend="8373"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a2d712dadeabe7d20c0a364497f98b832" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.reset</definition>
+        <argsstring>(MR.ObjId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.ObjBitSet.reset</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a9886831e4ef0b0a86e643c15a99f63b7" kindref="member">MR.ObjBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8378" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8378" bodyend="8383"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a24a5cb43f99bf4461b3ffa14bedf209c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.ObjBitSet.reset</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a9886831e4ef0b0a86e643c15a99f63b7" kindref="member">MR.ObjBitSet.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8388" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8388" bodyend="8393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a3e362de4bece597b2dad0e057d9f790c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.flip</definition>
+        <argsstring>(MR.ObjId n, ulong len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.ObjBitSet.flip</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a3e362de4bece597b2dad0e057d9f790c" kindref="member">MR.ObjBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8398" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8398" bodyend="8403"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ad9a2bbb631c560c4cfd93f6a1fbfd830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.flip</definition>
+        <argsstring>(MR.ObjId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.ObjBitSet.flip</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a3e362de4bece597b2dad0e057d9f790c" kindref="member">MR.ObjBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8408" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8408" bodyend="8413"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a1c3485d66e9631b372ff688bc839ed37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.flip</definition>
+        <argsstring>()</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR.ObjBitSet.flip</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a3e362de4bece597b2dad0e057d9f790c" kindref="member">MR.ObjBitSet.flip</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8418" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8418" bodyend="8423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a0c79262f87b6ed1535b8ca725fcb126d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjBitSet.testSet</definition>
+        <argsstring>(MR.ObjId n, bool? val=null)</argsstring>
+        <name>testSet</name>
+        <qualifiedname>MR.ObjBitSet.testSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjBitSet.test_set</computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8429" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8429" bodyend="8435"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a12978e6baa97a15e0912df926e092fa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.bitandAssign</definition>
+        <argsstring>(MR.Const_ObjBitSet b)</argsstring>
+        <name>bitandAssign</name>
+        <qualifiedname>MR.ObjBitSet.bitandAssign</qualifiedname>
+        <param>
+          <type>MR.Const_ObjBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjBitSet.operator&amp;=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8440" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8440" bodyend="8448"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1aab1226d05cf5cb8d193a15a2846d146b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.bitorAssign</definition>
+        <argsstring>(MR.Const_ObjBitSet b)</argsstring>
+        <name>bitorAssign</name>
+        <qualifiedname>MR.ObjBitSet.bitorAssign</qualifiedname>
+        <param>
+          <type>MR.Const_ObjBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjBitSet.operator|=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8453" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8453" bodyend="8461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a397369b54375b9dd3da28899b87db718" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.xorAssign</definition>
+        <argsstring>(MR.Const_ObjBitSet b)</argsstring>
+        <name>xorAssign</name>
+        <qualifiedname>MR.ObjBitSet.xorAssign</qualifiedname>
+        <param>
+          <type>MR.Const_ObjBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjBitSet.operator^=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8466" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8466" bodyend="8474"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a2c3d5fe8263adcf131e48e4b797fe166" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.subAssign</definition>
+        <argsstring>(MR.Const_ObjBitSet b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.ObjBitSet.subAssign</qualifiedname>
+        <param>
+          <type>MR.Const_ObjBitSet</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjBitSet.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8479" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8479" bodyend="8487"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1af807daaa5b27ad4f847428fe98723b20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></type>
+        <definition>unsafe MR.ObjBitSet MR.ObjBitSet.subtract</definition>
+        <argsstring>(MR.Const_ObjBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>MR.ObjBitSet.subtract</qualifiedname>
+        <param>
+          <type>MR.Const_ObjBitSet</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+<para>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1af807daaa5b27ad4f847428fe98723b20" kindref="member">MR.ObjBitSet.subtract</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8493" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8493" bodyend="8498"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a886378ca4a5ae6c5b8ed221227a3f7e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.autoResizeSet</definition>
+        <argsstring>(MR.ObjId pos, ulong len, bool? val=null)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.ObjBitSet.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a886378ca4a5ae6c5b8ed221227a3f7e9" kindref="member">MR.ObjBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8504" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8504" bodyend="8510"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a901373e61eea711e229f782760979db3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.autoResizeSet</definition>
+        <argsstring>(MR.ObjId pos, bool? val=null)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.ObjBitSet.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a886378ca4a5ae6c5b8ed221227a3f7e9" kindref="member">MR.ObjBitSet.autoResizeSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8516" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8516" bodyend="8522"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ad2ad3c2a66acf6f13a723affb602ae88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjBitSet.autoResizeTestSet</definition>
+        <argsstring>(MR.ObjId pos, bool? val=null)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>MR.ObjBitSet.autoResizeTestSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ObjId" kindref="compound">MR.ObjId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1ad2ad3c2a66acf6f13a723affb602ae88" kindref="member">MR.ObjBitSet.autoResizeTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8528" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8528" bodyend="8534"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ab488426fa9a41851346adb6442f3b234" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.reserve</definition>
+        <argsstring>(ulong numBits)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.ObjBitSet.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1ab488426fa9a41851346adb6442f3b234" kindref="member">MR.ObjBitSet.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8539" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8539" bodyend="8544"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a3205b7b7a1d31b39f72a6b4f46848ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.resize</definition>
+        <argsstring>(ulong numBits, bool? fillValue=null)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.ObjBitSet.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>fillValue</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a3205b7b7a1d31b39f72a6b4f46848ead" kindref="member">MR.ObjBitSet.resize</ref></computeroutput>. Parameter <computeroutput>fillValue</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8550" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8550" bodyend="8556"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1af5d676598c18b95c525c5f42dceae639" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.ObjBitSet.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1af5d676598c18b95c525c5f42dceae639" kindref="member">MR.ObjBitSet.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8561" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8561" bodyend="8566"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a3270c992c4fcae08166981da63dffeb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.shrinkToFit</definition>
+        <argsstring>()</argsstring>
+        <name>shrinkToFit</name>
+        <qualifiedname>MR.ObjBitSet.shrinkToFit</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjBitSet.shrink_to_fit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8571" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8571" bodyend="8576"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a19a4d52fccaccc2b7a5c3cbbb2f6c1c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjBitSet.uncheckedTestSet</definition>
+        <argsstring>(ulong n, bool? val=null)</argsstring>
+        <name>uncheckedTestSet</name>
+        <qualifiedname>MR.ObjBitSet.uncheckedTestSet</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>val</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1a19a4d52fccaccc2b7a5c3cbbb2f6c1c2" kindref="member">MR.ObjBitSet.uncheckedTestSet</ref></computeroutput>. Parameter <computeroutput>val</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8582" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8582" bodyend="8588"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ae310d1b3f025691806e23f9b7132d6dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.reverse</definition>
+        <argsstring>()</argsstring>
+        <name>reverse</name>
+        <qualifiedname>MR.ObjBitSet.reverse</qualifiedname>
+        <briefdescription>
+<para>changes the order of bits on the opposite Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1ae310d1b3f025691806e23f9b7132d6dd" kindref="member">MR.ObjBitSet.reverse</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8594" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8594" bodyend="8599"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1a48d94b4f12e65cccaf55060522aca86a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.pushBack</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.ObjBitSet.pushBack</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>adds one more bit with the given value in the container, increasing its size on 1 Generated from method <computeroutput>MR.ObjBitSet.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8605" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8605" bodyend="8610"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1ac8a2dd71cd47161416d337d68a2f30c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.ObjBitSet.popBack</qualifiedname>
+        <briefdescription>
+<para>removes last bit from the container, decreasing its size on 1 Generated from method <computeroutput>MR.ObjBitSet.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8616" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8616" bodyend="8621"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjBitSet_1aaa63587ce7f8de580be58e6a0730db73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjBitSet.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.ObjBitSet.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1ObjBitSet_1aaa63587ce7f8de580be58e6a0730db73" kindref="member">MR.ObjBitSet.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8627" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8627" bodyend="8632"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type) with all bits after size() considered off during testing Generated from class <computeroutput><ref refid="classMR_1_1ObjBitSet" kindref="compound">MR.ObjBitSet</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1BitSet" kindref="compound">MR.BitSet</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ObjBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjBitSet</label>
+        <link refid="classMR_1_1ObjBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ObjBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ObjBitSet</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjBitSet</label>
+        <link refid="classMR_1_1ObjBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ObjBitSet &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" line="8231" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBitSet.cs" bodystart="8232" bodyend="8633"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjBitSet_1a8fd4c7999aaa1ca0342377d61e5037b8" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>assign</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a886378ca4a5ae6c5b8ed221227a3f7e9" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a901373e61eea711e229f782760979db3" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ad2ad3c2a66acf6f13a723affb602ae88" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a12978e6baa97a15e0912df926e092fa4" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>bitandAssign</name></member>
+      <member refid="classMR_1_1ObjBitSet_1aab1226d05cf5cb8d193a15a2846d146b" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>bitorAssign</name></member>
+      <member refid="classMR_1_1ObjBitSet_1af5d676598c18b95c525c5f42dceae639" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>clear</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a3e362de4bece597b2dad0e057d9f790c" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ad9a2bbb631c560c4cfd93f6a1fbfd830" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a1c3485d66e9631b372ff688bc839ed37" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ad1fa18f0e665bdf3cb03dfba3959f843" prot="package" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>ObjBitSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1aab9fdf4546c3dcc51f9a6d9a7dbbfcf2" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>ObjBitSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ad116b63218fe8e5a454bd3875b2f7aef" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>ObjBitSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a666a0e72dabba3f4320713d7da6092a1" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>ObjBitSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ab6457b3a07bfecdf1437a2e0789972b2" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>ObjBitSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ae3a89da99a70bc8da27d3d3fe590b5e7" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>ObjBitSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a2e7818d5574de19dcc45fc9875ffce47" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>ObjBitSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ad500facccb18bcba1e42b2bbe0ab1fde" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>ObjBitSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ac4f4c7c96010b00db8f810d168e25e53" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>operator MR.BitSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ac8a2dd71cd47161416d337d68a2f30c9" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>popBack</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a48d94b4f12e65cccaf55060522aca86a" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ab488426fa9a41851346adb6442f3b234" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>reserve</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a9886831e4ef0b0a86e643c15a99f63b7" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a2d712dadeabe7d20c0a364497f98b832" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a24a5cb43f99bf4461b3ffa14bedf209c" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a3205b7b7a1d31b39f72a6b4f46848ead" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>resize</name></member>
+      <member refid="classMR_1_1ObjBitSet_1aaa63587ce7f8de580be58e6a0730db73" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1ObjBitSet_1ae310d1b3f025691806e23f9b7132d6dd" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>reverse</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a294e1a0b85ac5cc50dd6d2adf967c0e5" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a7675c74ba149d44a7b9ba36fc6aef4fa" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1ObjBitSet_1aef3301cf9535d139215cffc22ccd0bbf" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a5377151aff5932e25d54f41b658b71ee" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a3270c992c4fcae08166981da63dffeb7" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a2c3d5fe8263adcf131e48e4b797fe166" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1ObjBitSet_1af807daaa5b27ad4f847428fe98723b20" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>subtract</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a0c79262f87b6ed1535b8ca725fcb126d" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>testSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a19a4d52fccaccc2b7a5c3cbbb2f6c1c2" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>uncheckedTestSet</name></member>
+      <member refid="classMR_1_1ObjBitSet_1a397369b54375b9dd3da28899b87db718" prot="public" virt="non-virtual"><scope>MR::ObjBitSet</scope><name>xorAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

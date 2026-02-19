@@ -148,11 +148,12 @@ $(function(){initNavTree('MRGridSampling_8h.html',''); initResizable(true); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRGridSampling.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;MRMeshFwd.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRId_8h_source.html">MRId.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPointCloudPart_8h_source.html">MRPointCloudPart.h</a>&quot;</code><br />
@@ -163,25 +164,31 @@ $(function(){initNavTree('MRGridSampling_8h.html',''); initResizable(true); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1ModelPointsData.html">MR::ModelPointsData</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure to contain pointers to model data <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ModelPointsData.html">MR::ModelPointsData</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">structure to contain pointers to model data  <a href="structMR_1_1ModelPointsData.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/structMR_1_1ObjVertId.html">MR::ObjVertId</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ObjVertId.html">MR::ObjVertId</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:gaad6ac9cd0268793575ae31767169ad0e" id="r_gaad6ac9cd0268793575ae31767169ad0e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaad6ac9cd0268793575ae31767169ad0e">MR::MultiObjsSamples</a> = std::vector&lt;<a class="el" href="structMR_1_1ObjVertId.html">ObjVertId</a>&gt;</td></tr>
+<tr class="separator:gaad6ac9cd0268793575ae31767169ad0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1f09dea53bc42dd20b0c49da65f93de4" id="r_a1f09dea53bc42dd20b0c49da65f93de4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1f09dea53bc42dd20b0c49da65f93de4">MR::verticesGridSampling</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, float voxelSize, const ProgressCallback &amp;cb={})</td></tr>
-<tr class="separator:a1f09dea53bc42dd20b0c49da65f93de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a298468d2102ba7a9ee0eb901c723fb05" id="r_a298468d2102ba7a9ee0eb901c723fb05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a298468d2102ba7a9ee0eb901c723fb05">MR::pointGridSampling</a> (const <a class="elRef" href="../Csharp/classMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp, float voxelSize, const ProgressCallback &amp;cb={})</td></tr>
-<tr class="separator:a298468d2102ba7a9ee0eb901c723fb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329c2a88771e4750d1a363a45246add3" id="r_a329c2a88771e4750d1a363a45246add3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; MultiObjsSamples &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a329c2a88771e4750d1a363a45246add3">MR::multiModelGridSampling</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="elRef" href="../Csharp/classMR_1_1ModelPointsData.html">ModelPointsData</a>, <a class="elRef" href="../Csharp/structMR_1_1ObjId.html">ObjId</a> &gt; &amp;models, float voxelSize, const ProgressCallback &amp;cb={})</td></tr>
-<tr class="separator:a329c2a88771e4750d1a363a45246add3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1f09dea53bc42dd20b0c49da65f93de4" id="r_ga1f09dea53bc42dd20b0c49da65f93de4"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::optional&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1f09dea53bc42dd20b0c49da65f93de4">MR::verticesGridSampling</a> (const MeshPart &amp;mp, float voxelSize, const ProgressCallback &amp;cb={})</td></tr>
+<tr class="separator:ga1f09dea53bc42dd20b0c49da65f93de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga298468d2102ba7a9ee0eb901c723fb05" id="r_ga298468d2102ba7a9ee0eb901c723fb05"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::optional&lt; VertBitSet &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga298468d2102ba7a9ee0eb901c723fb05">MR::pointGridSampling</a> (const <a class="el" href="structMR_1_1PointCloudPart.html">PointCloudPart</a> &amp;pcp, float voxelSize, const ProgressCallback &amp;cb={})</td></tr>
+<tr class="separator:ga298468d2102ba7a9ee0eb901c723fb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga329c2a88771e4750d1a363a45246add3" id="r_ga329c2a88771e4750d1a363a45246add3"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::optional&lt; <a class="el" href="group__GeneralGroup.html#gaad6ac9cd0268793575ae31767169ad0e">MultiObjsSamples</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga329c2a88771e4750d1a363a45246add3">MR::multiModelGridSampling</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; <a class="el" href="structMR_1_1ModelPointsData.html">ModelPointsData</a>, ObjId &gt; &amp;models, float voxelSize, const ProgressCallback &amp;cb={})</td></tr>
+<tr class="separator:ga329c2a88771e4750d1a363a45246add3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

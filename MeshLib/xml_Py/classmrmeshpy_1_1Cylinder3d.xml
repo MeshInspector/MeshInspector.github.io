@@ -1,0 +1,341 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Cylinder3d" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Cylinder3d</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cylinder3d_1ae01e35dff89f510cb1e3afc832a80d6d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cylinder3d::_offsetof_length</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_length</name>
+        <qualifiedname>mrmeshpy.Cylinder3d._offsetof_length</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11471" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11471" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cylinder3d_1ab87a71ef2fd40468a7707c7c93df5d1e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cylinder3d::_offsetof_mainAxis</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mainAxis</name>
+        <qualifiedname>mrmeshpy.Cylinder3d._offsetof_mainAxis</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11472" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Cylinder3d_1a6b5b002e6c9f044b62c1b5e0652e3af7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Cylinder3d::_offsetof_radius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_radius</name>
+        <qualifiedname>mrmeshpy.Cylinder3d._offsetof_radius</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11473" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1a2ea035678de20bf07db42d986a7ecc50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cylinder3d.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11479" bodyend="11480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1aec89a846fa34898c8f95bfc22cc78657" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Cylinder3d" kindref="compound">Cylinder3d</ref></type>
+        <definition> Cylinder3d mrmeshpy.Cylinder3d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11483" bodyend="11484"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1aec89a846fa34898c8f95bfc22cc78657" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Cylinder3d" kindref="compound">Cylinder3d</ref></type>
+        <definition> Cylinder3d mrmeshpy.Cylinder3d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11487" bodyend="11488"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1ad1dbc7e55bb4d8811f3adc7f1bb9cdfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cylinder3d.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11490" bodyend="11491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1ae93d871c83ce3151c04052172af16eaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cylinder3d.__init__</definition>
+        <argsstring>(self, Vector3d inCenter, Vector3d inDirectoin, float inRadius, float inLength)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>inCenter</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>inDirectoin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11493" bodyend="11494"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1ad06472badda5c6770d303aae0bb7f9ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cylinder3d.__init__</definition>
+        <argsstring>(self, Line3d inAxis, float inRadius, float inLength)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+          <declname>inAxis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11496" bodyend="11497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1a9cec0c580b21bad56e88c18042830b8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Cylinder3d.__init__</definition>
+        <argsstring>(self, Cylinder3d arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Cylinder3d" kindref="compound">Cylinder3d</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11499" bodyend="11502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1ad0f8b7d6f92910eb802e52fdc6bffcd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cylinder3d.center</definition>
+        <argsstring>(self)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11504" bodyend="11505"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1ad0f8b7d6f92910eb802e52fdc6bffcd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cylinder3d.center</definition>
+        <argsstring>(self)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11507" bodyend="11508"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1a4d9b64c4a2a0396e08ce45c71e351c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cylinder3d.direction</definition>
+        <argsstring>(self)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11510" bodyend="11511"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Cylinder3d_1a4d9b64c4a2a0396e08ce45c71e351c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Cylinder3d.direction</definition>
+        <argsstring>(self)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.Cylinder3d.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11513" bodyend="11514"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Cylinder3d
+
+A class describing a cylinder as a mathematical object.A cylinder is represented by a centerline, a radius, and a length.template &lt;typename T&gt;
+TODO: Cylinder3 could be infinite. For example for infinite Cylinder3 we could use negative length or length = -1
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Cylinder3d</label>
+        <link refid="classmrmeshpy_1_1Cylinder3d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_length</edgelabel>
+          <edgelabel>_offsetof_mainAxis</edgelabel>
+          <edgelabel>_offsetof_radius</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11464" bodyend="11514"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1a2ea035678de20bf07db42d986a7ecc50" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1ad1dbc7e55bb4d8811f3adc7f1bb9cdfc" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1ae93d871c83ce3151c04052172af16eaf" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1ad06472badda5c6770d303aae0bb7f9ac" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1a9cec0c580b21bad56e88c18042830b8e" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1ae01e35dff89f510cb1e3afc832a80d6d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>_offsetof_length</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1ab87a71ef2fd40468a7707c7c93df5d1e" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>_offsetof_mainAxis</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1a6b5b002e6c9f044b62c1b5e0652e3af7" prot="protected" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>_offsetof_radius</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1ad0f8b7d6f92910eb802e52fdc6bffcd9" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1ad0f8b7d6f92910eb802e52fdc6bffcd9" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1a4d9b64c4a2a0396e08ce45c71e351c80" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1a4d9b64c4a2a0396e08ce45c71e351c80" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1aec89a846fa34898c8f95bfc22cc78657" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Cylinder3d_1aec89a846fa34898c8f95bfc22cc78657" prot="public" virt="non-virtual"><scope>mrmeshpy::Cylinder3d</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

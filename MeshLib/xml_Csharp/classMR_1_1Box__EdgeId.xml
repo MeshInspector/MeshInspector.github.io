@@ -1,0 +1,430 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Box__EdgeId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Box_EdgeId</compoundname>
+    <basecompoundref refid="classMR_1_1ConstBox__EdgeId" prot="public" virt="non-virtual">MR.ConstBox_EdgeId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Box__EdgeId_1aa6e1ccfb0f5ad30b141b740b735237f5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref int</type>
+        <definition>new ref int MR.Box_EdgeId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.Box_EdgeId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7530" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7530" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a861a646e2be8e891fd6a9d32164b9687" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
+        <argsstring>(EdgeId other)</argsstring>
+        <name>Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7535" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7535" bodyend="7535"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a5ddda22d9fb9b4b3150a4f52fa45aab0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
+        <argsstring>(ConstBox_EdgeId _other)</argsstring>
+        <name>Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__EdgeId" kindref="compound">ConstBox_EdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7542" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7542" bodyend="7546"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a9ff04ed22d37304bca96687ac456dab2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Box_EdgeId.Assign</definition>
+        <argsstring>(ConstBox_EdgeId _other)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>MR.Box_EdgeId.Assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__EdgeId" kindref="compound">ConstBox_EdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7551" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7551" bodyend="7551"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a189ef79875c4b1bc89810d1f798ac16e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7556" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7556" bodyend="7562"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a27d89329dcfb5271064d8ae9e5a7661d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7567" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7567" bodyend="7574"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a46d159a68633da40f22d21583338b051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
+        <argsstring>(MR.UndirectedEdgeId u)</argsstring>
+        <name>Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7579" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7579" bodyend="7585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1ab6265027f23d9b126cbf5952c6ec317c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
+        <argsstring>(int i)</argsstring>
+        <name>Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7595" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7595" bodyend="7601"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a12714fbbe1405e878e120e2e0400867f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
+        <argsstring>(uint i)</argsstring>
+        <name>Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7606" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7606" bodyend="7612"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1ace4707f17f5e513feadfcc069b2d1eb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
+        <argsstring>(ulong i)</argsstring>
+        <name>Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7617" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7617" bodyend="7623"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1aea1d82fb0299060e06c5babbb7dd54aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.Box_EdgeId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.Box_EdgeId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1EdgeId_1a659916df0dad675207264ff86f53fa90" kindref="member">MR.EdgeId.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7628" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7628" bodyend="7633"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a0c7be580e8887b560efa13bfd75be4c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_EdgeId.decr</definition>
+        <argsstring>()</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.Box_EdgeId.decr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7638" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7638" bodyend="7643"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a650a5839f4f885385976e287f6817cfa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_EdgeId.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.Box_EdgeId.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7648" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7648" bodyend="7653"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a530aec11dd788f91ab96d00796df78a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref MR.EdgeId MR.Box_EdgeId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.Box_EdgeId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7658" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7658" bodyend="7663"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1a16e1e52ec94b614179d0110353a87274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref MR.EdgeId MR.Box_EdgeId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.Box_EdgeId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7668" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7668" bodyend="7673"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1aeb4b8df86b35023ba8a346af06b540b7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_EdgeId.Box_EdgeId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.Box_EdgeId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7537" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7537" bodyend="7537"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Box__EdgeId_1adcd9e5ece6e8ac61ca204e04593b88e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Box_EdgeId.operator Box_EdgeId</definition>
+        <argsstring>(MR.UndirectedEdgeId u)</argsstring>
+        <name>operator Box_EdgeId</name>
+        <qualifiedname>MR.Box_EdgeId.operator Box_EdgeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7590" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7590" bodyend="7590"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;</computeroutput> This is the non-const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConstBox_EdgeId</label>
+        <link refid="classMR_1_1ConstBox__EdgeId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_EdgeId</label>
+        <link refid="classMR_1_1Box__EdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_EdgeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.EdgeId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConstBox_EdgeId</label>
+        <link refid="classMR_1_1ConstBox__EdgeId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_EdgeId</label>
+        <link refid="classMR_1_1Box__EdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_EdgeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.EdgeId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7523" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7524" bodyend="7674"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Box__EdgeId_1a16e1e52ec94b614179d0110353a87274" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a9ff04ed22d37304bca96687ac456dab2" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Assign</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a861a646e2be8e891fd6a9d32164b9687" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1aeb4b8df86b35023ba8a346af06b540b7" prot="package" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a5ddda22d9fb9b4b3150a4f52fa45aab0" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a189ef79875c4b1bc89810d1f798ac16e" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a27d89329dcfb5271064d8ae9e5a7661d" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a46d159a68633da40f22d21583338b051" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1ab6265027f23d9b126cbf5952c6ec317c" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a12714fbbe1405e878e120e2e0400867f" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1ace4707f17f5e513feadfcc069b2d1eb8" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Box_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a80fae0c1d0eefd890876b5d5b6523574" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a72610a3de175c110144e6c780fca2a9f" prot="package" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a7b876c6d9d685ea607cdf356c25cde88" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1aa9b85b15978080e0d9228edd1d57dd76" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a408fdf8657fa0b4b4223bcfd1d4331c9" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1af04bc278f04a00780ee579312833a2d2" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a00b4c376c89313ec90235916552c4e7c" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a1271f33637d481913d958b02725eb100" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a36620e134d9f1a0858fb3749e7b00b9c" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a0c7be580e8887b560efa13bfd75be4c3" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>decr</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a97c7d59eab2bee4752116480bb92a5f3" prot="protected" virt="virtual"><scope>MR::Box_EdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a8f531ddbe6dc431562883ee4c9058915" prot="public" virt="virtual"><scope>MR::Box_EdgeId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1ad5a922338f5ef0cdc6bd21a6e746ade6" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1ad90ab51fabbaa1a0d52a794c5423d2ab" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a80afb10c3a89403171965b8f7213aa3d" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>even</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1aea1d82fb0299060e06c5babbb7dd54aa" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>get</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1aa6e1ccfb0f5ad30b141b740b735237f5" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>id</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a650a5839f4f885385976e287f6817cfa" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>incr</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a1aadc99cee8e80ad0381d8c1e8ebbfdf" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>less</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1aa3772386b3cd54d576361f5a2ab06e81" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>odd</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1acfd11c8362d83af0585cc05922b64043" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1adcd9e5ece6e8ac61ca204e04593b88e1" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator Box_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a6ff5bfa6f7c07a3a57b7dc416729021b" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a16002ac78e387d1871a0f0a334d7066a" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator ConstBox_EdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1aa868440e58b4c1069c74ce5c51f8bfd1" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator int</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a561ba77c78f1da3b3b9e1b0dad42fc53" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator MR.UndirectedEdgeId</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a67993898e5de16a9ef7170fcc92f2385" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a5284c5856ca8ed912cd422fbc2ecedf7" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a97ca5b4e4048cd98b7d4a2f96fa0cb54" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a2d3a8560f949c39aa04475e9d4cc8d28" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a9bd1eb890549549520e9e700981d7561" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator++</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1aad7fcb5fdcb2d5ebb8f6503832f3fa4c" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator--</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a833a25f61f5cfc9f6bb78b1cc0c43a20" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Box__EdgeId_1a530aec11dd788f91ab96d00796df78a1" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a8e4e4c02c116294c4ee56173cd71bfaf" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>sym</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a350fae2d6caf35b173953454049f15ae" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>undirected</name></member>
+      <member refid="classMR_1_1ConstBox__EdgeId_1a7b2ff2b189471b92f1ef41cf566e790c" prot="public" virt="non-virtual"><scope>MR::Box_EdgeId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

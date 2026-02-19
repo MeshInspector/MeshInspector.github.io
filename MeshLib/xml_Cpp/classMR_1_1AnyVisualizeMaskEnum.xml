@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AnyVisualizeMaskEnum" kind="class" language="C++" prot="public">
+    <compoundname>MR::AnyVisualizeMaskEnum</compoundname>
+    <includes refid="MRVisualObject_8h" local="no">MRVisualObject.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1AnyVisualizeMaskEnum_1adddcf37a8a4db7909899a2f8ab5b6ecc" prot="private" static="no" mutable="no">
+        <type>std::type_index</type>
+        <definition>std::type_index MR::AnyVisualizeMaskEnum::type_</definition>
+        <argsstring></argsstring>
+        <name>type_</name>
+        <qualifiedname>MR::AnyVisualizeMaskEnum::type_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="55" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1AnyVisualizeMaskEnum_1a5d78fee9bf1b220ebacd205d911927bd" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::AnyVisualizeMaskEnum::value_</definition>
+        <argsstring></argsstring>
+        <name>value_</name>
+        <qualifiedname>MR::AnyVisualizeMaskEnum::value_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="56" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AnyVisualizeMaskEnum_1a8e693a1846e9d510a78d65efd9217d03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>AnyVisualizeMaskEnumType</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::AnyVisualizeMaskEnum::AnyVisualizeMaskEnum</definition>
+        <argsstring>(T value)</argsstring>
+        <name>AnyVisualizeMaskEnum</name>
+        <qualifiedname>MR::AnyVisualizeMaskEnum::AnyVisualizeMaskEnum</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="60" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AnyVisualizeMaskEnum_1ad6bb8706f3ee4d236f7d26ca5e4432dd" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>AnyVisualizeMaskEnumType</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; T &gt;</type>
+        <definition>std::optional&lt; T &gt; MR::AnyVisualizeMaskEnum::tryGet</definition>
+        <argsstring>() const</argsstring>
+        <name>tryGet</name>
+        <qualifiedname>MR::AnyVisualizeMaskEnum::tryGet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="63" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="63" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Stores a <computeroutput>VisualizeMaskType</computeroutput> or any other enum that extends it (i.e. which specializes <computeroutput><ref refid="structMR_1_1IsVisualizeMaskEnum" kindref="compound">IsVisualizeMaskEnum</ref></computeroutput>). To extract the value, do this: if ( auto value = x.tryGet&lt;MyEnum&gt;() ) { switch ( *value ) { case MyEnum::foo: ... case MyEnum::bar: ... } } else /// forward to the parent class </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="53" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="54" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AnyVisualizeMaskEnum_1a8e693a1846e9d510a78d65efd9217d03" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>AnyVisualizeMaskEnum</name></member>
+      <member refid="classMR_1_1AnyVisualizeMaskEnum_1ad6bb8706f3ee4d236f7d26ca5e4432dd" prot="public" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>tryGet</name></member>
+      <member refid="classMR_1_1AnyVisualizeMaskEnum_1adddcf37a8a4db7909899a2f8ab5b6ecc" prot="private" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>type_</name></member>
+      <member refid="classMR_1_1AnyVisualizeMaskEnum_1a5d78fee9bf1b220ebacd205d911927bd" prot="private" virt="non-virtual"><scope>MR::AnyVisualizeMaskEnum</scope><name>value_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

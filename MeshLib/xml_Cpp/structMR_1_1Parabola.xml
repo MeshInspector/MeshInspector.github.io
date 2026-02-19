@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Parabola" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Parabola</compoundname>
+    <includes refid="MRParabola_8h" local="no">MRParabola.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga34d2109107ef4c428253a8755305114b" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga9753dfacf3e0613b37e554a7f4b63f8a" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga87d6da7f3dba1aa3504784c26b407da3" kind="variable"><name>c</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga0cdfe97a6580c1aaa9b873a6320f0793" kind="function"><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1gaa24552a8fee4499ec38064ef05db41ac" kind="function"><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1ga35b32607bcb14a8f5c89da76ea131304" kind="function"><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1ga45bf9f53f24483c850f914def539451e" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga34d2a9ae743816f3e62667dd396479a3" kind="function"><name>extremArg</name></member>
+      <member refid="group__GeneralGroup_1ga3244e04984e6a61cd9243af2af6e178d" kind="function"><name>extremVal</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Represents quadratic function f(x) = a*x*x + b*x + c. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParabola.h" bodystart="14" bodyend="32"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga34d2109107ef4c428253a8755305114b" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga9753dfacf3e0613b37e554a7f4b63f8a" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga87d6da7f3dba1aa3504784c26b407da3" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>c</name></member>
+      <member refid="group__GeneralGroup_1ga34d2a9ae743816f3e62667dd396479a3" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>extremArg</name></member>
+      <member refid="group__GeneralGroup_1ga3244e04984e6a61cd9243af2af6e178d" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>extremVal</name></member>
+      <member refid="group__GeneralGroup_1ga45bf9f53f24483c850f914def539451e" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga0cdfe97a6580c1aaa9b873a6320f0793" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1gaa24552a8fee4499ec38064ef05db41ac" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>Parabola</name></member>
+      <member refid="group__GeneralGroup_1ga35b32607bcb14a8f5c89da76ea131304" prot="public" virt="non-virtual"><scope>MR::Parabola</scope><name>Parabola</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

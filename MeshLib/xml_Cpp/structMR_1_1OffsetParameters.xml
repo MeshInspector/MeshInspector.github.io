@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OffsetParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OffsetParameters</compoundname>
+    <basecompoundref refid="structMR_1_1BaseShellParameters" prot="public" virt="non-virtual">MR::BaseShellParameters</basecompoundref>
+    <derivedcompoundref refid="structMR_1_1SharpOffsetParameters" prot="public" virt="non-virtual">MR::SharpOffsetParameters</derivedcompoundref>
+    <includes refid="MROffset_8h" local="no">MROffset.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa411170d1cc5cc475f3caeab0a525e26" kind="variable"><name>signDetectionMode</name></member>
+      <member refid="group__GeneralGroup_1ga17a5a45fd3d4de2eba7280f9071ac737" kind="variable"><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1gaa99164027d422577e04d9f14f605b51c" kind="variable"><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1gad18e4a01d5b80daf7231296013920c10" kind="variable"><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1ga6599d762d28d8ca7118f3b4dba6602d2" kind="variable"><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1gabd9bbd0481fadc99967608720c11fee4" kind="variable"><name>memoryEfficient</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BaseShellParameters</label>
+        <link refid="structMR_1_1BaseShellParameters"/>
+      </node>
+      <node id="4">
+        <label>MR::GeneralOffsetParameters</label>
+        <link refid="structMR_1_1GeneralOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::OffsetParameters</label>
+        <link refid="structMR_1_1OffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::SharpOffsetParameters</label>
+        <link refid="structMR_1_1SharpOffsetParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseShellParameters</label>
+        <link refid="structMR_1_1BaseShellParameters"/>
+      </node>
+      <node id="1">
+        <label>MR::OffsetParameters</label>
+        <link refid="structMR_1_1OffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROffset.h" bodystart="32" bodyend="61"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga21a919475b5c9882d80ab9a26dd60d50" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>callBack</name></member>
+      <member refid="group__GeneralGroup_1ga17a5a45fd3d4de2eba7280f9071ac737" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga6599d762d28d8ca7118f3b4dba6602d2" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1gabd9bbd0481fadc99967608720c11fee4" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>memoryEfficient</name></member>
+      <member refid="group__GeneralGroup_1gaa411170d1cc5cc475f3caeab0a525e26" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>signDetectionMode</name></member>
+      <member refid="group__GeneralGroup_1ga0496e82daf37476561be7bd450c6fb48" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gad18e4a01d5b80daf7231296013920c10" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1gaa99164027d422577e04d9f14f605b51c" prot="public" virt="non-virtual"><scope>MR::OffsetParameters</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

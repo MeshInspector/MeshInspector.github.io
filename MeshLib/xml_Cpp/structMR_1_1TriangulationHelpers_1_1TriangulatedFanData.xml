@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TriangulationHelpers::TriangulatedFanData</compoundname>
+    <includes refid="MRPointCloudTriangulationHelpers_8h" local="no">MRPointCloudTriangulationHelpers.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ae773b54dc10496afde5414733e1c8d6a" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; VertId &gt;</type>
+        <definition>std::vector&lt;VertId&gt; MR::TriangulationHelpers::TriangulatedFanData::neighbors</definition>
+        <argsstring></argsstring>
+        <name>neighbors</name>
+        <qualifiedname>MR::TriangulationHelpers::TriangulatedFanData::neighbors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>clockwise points around center point in (optimized) triangle fan, each pair of points (as well as back()-front() pair) together with the center form a fan triangle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="86" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a80c3874decf9d019fab965c28d7a767b" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::pair&lt; double, int &gt; &gt;</type>
+        <definition>std::vector&lt;std::pair&lt;double, int&gt; &gt; MR::TriangulationHelpers::TriangulatedFanData::cacheAngleOrder</definition>
+        <argsstring></argsstring>
+        <name>cacheAngleOrder</name>
+        <qualifiedname>MR::TriangulationHelpers::TriangulatedFanData::cacheAngleOrder</qualifiedname>
+        <briefdescription>
+<para>temporary reusable storage to avoid allocations for each point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="89" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a611f524a057ce6442f48a01faef5cc19" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::TriangulationHelpers::TriangulatedFanData::border</definition>
+        <argsstring></argsstring>
+        <name>border</name>
+        <qualifiedname>MR::TriangulationHelpers::TriangulatedFanData::border</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>first border edge (invalid if the center point is not on the boundary) triangle associated with this point is absent </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="93" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a5415b188e466c2295bb082600f25f64b" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1FewSmallest" kindref="compound">FewSmallest</ref>&lt; <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref> &gt;</type>
+        <definition>FewSmallest&lt;PointsProjectionResult&gt; MR::TriangulationHelpers::TriangulatedFanData::nearesetPoints</definition>
+        <argsstring></argsstring>
+        <name>nearesetPoints</name>
+        <qualifiedname>MR::TriangulationHelpers::TriangulatedFanData::nearesetPoints</qualifiedname>
+        <briefdescription>
+<para>the storage to collect n-nearest neighbours, here to avoid allocations for each point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="96" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ac92e70e1a5084a5ab9f62287e8041e95" prot="public" static="no" mutable="no">
+        <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> std::priority_queue&lt; <ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref> &gt;</type>
+        <definition>MR_BIND_IGNORE std::priority_queue&lt;FanOptimizerQueueElement&gt; MR::TriangulationHelpers::TriangulatedFanData::queue</definition>
+        <argsstring></argsstring>
+        <name>queue</name>
+        <qualifiedname>MR::TriangulationHelpers::TriangulatedFanData::queue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the queue to optimize local triangulation, here to avoid allocations for each point Removed from the bindings because we don&apos;t have bindings for <computeroutput>std::priority_queue</computeroutput> at the moment. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="100" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Data with caches for optimizing fan triangulation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::FewSmallest&lt; MR::PointsProjectionResult &gt;</label>
+        <link refid="classMR_1_1FewSmallest"/>
+      </node>
+      <node id="1">
+        <label>MR::TriangulationHelpers::TriangulatedFanData</label>
+        <link refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>nearesetPoints</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="82" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="83" bodyend="101"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a611f524a057ce6442f48a01faef5cc19" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>border</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a80c3874decf9d019fab965c28d7a767b" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>cacheAngleOrder</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1a5415b188e466c2295bb082600f25f64b" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>nearesetPoints</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ae773b54dc10496afde5414733e1c8d6a" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>neighbors</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1TriangulatedFanData_1ac92e70e1a5084a5ab9f62287e8041e95" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::TriangulatedFanData</scope><name>queue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

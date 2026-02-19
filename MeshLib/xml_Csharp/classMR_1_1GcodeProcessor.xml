@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GcodeProcessor" kind="class" language="C#" prot="public">
+    <compoundname>MR::GcodeProcessor</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_GcodeProcessor</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1aa3e02e33c081105a6ecc878abac68009" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GcodeProcessor.GcodeProcessor</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>GcodeProcessor</name>
+        <qualifiedname>MR.GcodeProcessor.GcodeProcessor</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1108" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1108" bodyend="1108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a7cea7464f75a10c5ad7574323d255f27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GcodeProcessor.GcodeProcessor</definition>
+        <argsstring>()</argsstring>
+        <name>GcodeProcessor</name>
+        <qualifiedname>MR.GcodeProcessor.GcodeProcessor</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1113" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1113" bodyend="1118"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a6205fb03c66cae8029ba225847086740" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.GcodeProcessor.GcodeProcessor</definition>
+        <argsstring>(MR._ByValue_GcodeProcessor _other)</argsstring>
+        <name>GcodeProcessor</name>
+        <qualifiedname>MR.GcodeProcessor.GcodeProcessor</qualifiedname>
+        <param>
+          <type>MR._ByValue_GcodeProcessor</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.GcodeProcessor.GcodeProcessor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1123" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1123" bodyend="1129"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1aa43ad6e1996958dc51c4ac7238801c02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.GcodeProcessor.GcodeProcessor</definition>
+        <argsstring>(Const_GcodeProcessor _other)</argsstring>
+        <name>GcodeProcessor</name>
+        <qualifiedname>MR.GcodeProcessor.GcodeProcessor</qualifiedname>
+        <param>
+          <type>Const_GcodeProcessor</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.GcodeProcessor.GcodeProcessor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1134" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1134" bodyend="1134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a1981fb0d38c61b0cfe5f932acb337d68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.GcodeProcessor.GcodeProcessor</definition>
+        <argsstring>(GcodeProcessor _other)</argsstring>
+        <name>GcodeProcessor</name>
+        <qualifiedname>MR.GcodeProcessor.GcodeProcessor</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1GcodeProcessor" kindref="compound">GcodeProcessor</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.GcodeProcessor.GcodeProcessor</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1139" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1139" bodyend="1139"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a028b26e379c9ac9ec8a8469fe1376c18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1GcodeProcessor" kindref="compound">MR.GcodeProcessor</ref></type>
+        <definition>unsafe MR.GcodeProcessor MR.GcodeProcessor.assign</definition>
+        <argsstring>(MR._ByValue_GcodeProcessor _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.GcodeProcessor.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_GcodeProcessor</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.GcodeProcessor.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1144" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1144" bodyend="1151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a7fb5dbc00deba46a6aa0bb7d7f1660c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GcodeProcessor.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.GcodeProcessor.reset</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GcodeProcessor_1a7fb5dbc00deba46a6aa0bb7d7f1660c2" kindref="member">MR.GcodeProcessor.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1157" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1157" bodyend="1162"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a70322c2f851219016153f202ee3b5b63" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GcodeProcessor.setGcodeSource</definition>
+        <argsstring>(MR.Std.Const_Vector_StdString gcodeSource)</argsstring>
+        <name>setGcodeSource</name>
+        <qualifiedname>MR.GcodeProcessor.setGcodeSource</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdString</type>
+          <declname>gcodeSource</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GcodeProcessor_1a70322c2f851219016153f202ee3b5b63" kindref="member">MR.GcodeProcessor.setGcodeSource</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1168" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1168" bodyend="1173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a12c95d639d31d6f22c0fe0088e9d64f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRGcodeProcessorMoveAction</type>
+        <definition>unsafe MR.Std.Vector_MRGcodeProcessorMoveAction MR.GcodeProcessor.processSource</definition>
+        <argsstring>()</argsstring>
+        <name>processSource</name>
+        <qualifiedname>MR.GcodeProcessor.processSource</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GcodeProcessor_1a12c95d639d31d6f22c0fe0088e9d64f6" kindref="member">MR.GcodeProcessor.processSource</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1179" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1179" bodyend="1184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a10e195dabf46d85414f3d33a55f4f3cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.GcodeProcessor.MoveAction</type>
+        <definition>unsafe MR.GcodeProcessor.MoveAction MR.GcodeProcessor.processLine</definition>
+        <argsstring>(string line, MR.Std.Vector_MRGcodeProcessorCommand externalStorage)</argsstring>
+        <name>processLine</name>
+        <qualifiedname>MR.GcodeProcessor.processLine</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_MRGcodeProcessorCommand</type>
+          <declname>externalStorage</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GcodeProcessor_1a10e195dabf46d85414f3d33a55f4f3cd" kindref="member">MR.GcodeProcessor.processLine</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1191" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1191" bodyend="1200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1a3bceee0ebdb0e283f5dc1755fe4ce7ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.GcodeProcessor.setCNCMachineSettings</definition>
+        <argsstring>(MR.Const_CNCMachineSettings settings)</argsstring>
+        <name>setCNCMachineSettings</name>
+        <qualifiedname>MR.GcodeProcessor.setCNCMachineSettings</qualifiedname>
+        <param>
+          <type>MR.Const_CNCMachineSettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GcodeProcessor_1a3bceee0ebdb0e283f5dc1755fe4ce7ec" kindref="member">MR.GcodeProcessor.setCNCMachineSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1206" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1206" bodyend="1211"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1GcodeProcessor_1ab1974efa77013a98d129e57c13b173e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Const_CNCMachineSettings</type>
+        <definition>unsafe MR.Const_CNCMachineSettings MR.GcodeProcessor.getCNCMachineSettings</definition>
+        <argsstring>()</argsstring>
+        <name>getCNCMachineSettings</name>
+        <qualifiedname>MR.GcodeProcessor.getCNCMachineSettings</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1GcodeProcessor_1ab1974efa77013a98d129e57c13b173e7" kindref="member">MR.GcodeProcessor.getCNCMachineSettings</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1216" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1216" bodyend="1221"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1GcodeProcessor" kindref="compound">MR.GcodeProcessor</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_GcodeProcessor</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.GcodeProcessor</label>
+        <link refid="classMR_1_1GcodeProcessor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_GcodeProcessor &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_GcodeProcessor</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.GcodeProcessor</label>
+        <link refid="classMR_1_1GcodeProcessor"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_GcodeProcessor &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" line="1106" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRGcodeProcessor.cs" bodystart="1107" bodyend="1222"/>
+    <listofallmembers>
+      <member refid="classMR_1_1GcodeProcessor_1a028b26e379c9ac9ec8a8469fe1376c18" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>assign</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1aa3e02e33c081105a6ecc878abac68009" prot="package" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>GcodeProcessor</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1a7cea7464f75a10c5ad7574323d255f27" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>GcodeProcessor</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1a6205fb03c66cae8029ba225847086740" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>GcodeProcessor</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1aa43ad6e1996958dc51c4ac7238801c02" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>GcodeProcessor</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1a1981fb0d38c61b0cfe5f932acb337d68" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>GcodeProcessor</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1ab1974efa77013a98d129e57c13b173e7" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getCNCMachineSettings</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1a10e195dabf46d85414f3d33a55f4f3cd" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processLine</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1a12c95d639d31d6f22c0fe0088e9d64f6" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processSource</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1a7fb5dbc00deba46a6aa0bb7d7f1660c2" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>reset</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1a3bceee0ebdb0e283f5dc1755fe4ce7ec" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setCNCMachineSettings</name></member>
+      <member refid="classMR_1_1GcodeProcessor_1a70322c2f851219016153f202ee3b5b63" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setGcodeSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

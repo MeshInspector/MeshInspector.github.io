@@ -1,0 +1,574 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VertId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VertId</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__VertId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_VertId</derivedcompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertId_1af3c464de3f0944c3075d672524a0525e" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertId::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.VertId.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70920" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1aea51d13185ea0127d634242555579ccd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a65026ca9d64b988f8e6647fd09758844">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1ac61180161415dbae909481ab6e2bc979">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a79d7f8ef3ee9ae12b5d5599ae7542617">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70923" bodyend="70924"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1aea51d13185ea0127d634242555579ccd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a65026ca9d64b988f8e6647fd09758844">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1ac61180161415dbae909481ab6e2bc979">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a79d7f8ef3ee9ae12b5d5599ae7542617">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70927" bodyend="70928"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1af46d55cdda51be23dbe44d3fc7311298" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70931" bodyend="70932"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1af46d55cdda51be23dbe44d3fc7311298" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70935" bodyend="70936"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1af46d55cdda51be23dbe44d3fc7311298" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70939" bodyend="70940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a3ac2cb4494601a4563f244292f96d315" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertId.operatorminusminus</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operatorminusminus</name>
+        <qualifiedname>mrmeshpy.VertId.operatorminusminus</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70943" bodyend="70944"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1aaf8a64bb2d693bbb5b89412c7b3129d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertId.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.VertId.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70945" bodyend="70946"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a380ce2ef5984a745dd126efb9168c610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertId.__eq__</definition>
+        <argsstring>(self, VertId b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.VertId.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70947" bodyend="70948"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a2adc9ea3ac695cb8fa03188ed82ae4bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertId.__iadd__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.VertId.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70949" bodyend="70950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1af5d619953d18f25010ed701358ebb515" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a65026ca9d64b988f8e6647fd09758844">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1ac61180161415dbae909481ab6e2bc979">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a79d7f8ef3ee9ae12b5d5599ae7542617">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70952" bodyend="70953"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a744db58167c39b5b94a1c2eaf8ca86ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertId.__init__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a65026ca9d64b988f8e6647fd09758844">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1ac61180161415dbae909481ab6e2bc979">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a79d7f8ef3ee9ae12b5d5599ae7542617">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Allow constructing from `int` and other integral types.
+This constructor is written like this instead of a plain `Id(int)`, because we also wish to disable construction
+  from other unrelated `Id&lt;U&gt;` specializations, which themselves have implicit conversions to `int`.
+We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
+  for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
+  but `UndirectedEdgeId x(EdgeId{});` doesn&apos;t. So to allow both forms, this constructor must be written this way, as a template.
+The `= int` is there only to make the bindings emit this constructor, I don&apos;t think it affects anything else.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70955" bodyend="70964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a744db58167c39b5b94a1c2eaf8ca86ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertId.__init__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a65026ca9d64b988f8e6647fd09758844">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1ac61180161415dbae909481ab6e2bc979">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a79d7f8ef3ee9ae12b5d5599ae7542617">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Allow constructing from `int` and other integral types.
+This constructor is written like this instead of a plain `Id(int)`, because we also wish to disable construction
+  from other unrelated `Id&lt;U&gt;` specializations, which themselves have implicit conversions to `int`.
+We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
+  for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
+  but `UndirectedEdgeId x(EdgeId{});` doesn&apos;t. So to allow both forms, this constructor must be written this way, as a template.
+The `= int` is there only to make the bindings emit this constructor, I don&apos;t think it affects anything else.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70966" bodyend="70975"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a94290454602c18e0bff9618ef6edd6fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertId.__init__</definition>
+        <argsstring>(self, VertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a65026ca9d64b988f8e6647fd09758844">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1ac61180161415dbae909481ab6e2bc979">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a79d7f8ef3ee9ae12b5d5599ae7542617">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70977" bodyend="70980"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a7e772bd93c4e4d1989e28ccc5091518a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertId.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.VertId.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70981" bodyend="70982"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a918adb1fc7f1fd7a3535c7ad0a19d77a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertId.__isub__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.VertId.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70983" bodyend="70984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a99be56b76213cf134eac8fe31ff795b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertId.__ne__</definition>
+        <argsstring>(self, VertId b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.VertId.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70985" bodyend="70986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1ad1518ed7967dde07a6541c48f1de90f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VertId.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.VertId.__repr__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a3da6400d75b656c65ef4b08737fe919b">__repr__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70987" bodyend="70988"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1a40eec90d50498908a29d4c1ec34fc4d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertId.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.VertId.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70989" bodyend="70990"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1aab84656490bfd93dc0bf54c0bac0339b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertId.operator</definition>
+        <argsstring>(self, VertId b)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70992" bodyend="70993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1afe9676786aa0b17bddad429d77a8542b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertId.operator</definition>
+        <argsstring>(self)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__VertId_1a46497da1e5479561d38825efb3e629fd">operator</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70995" bodyend="70996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1aa914cac6fc4ccda730d0a8fcd5fb5949" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertId.operatorminusminus</definition>
+        <argsstring>(self)</argsstring>
+        <name>operatorminusminus</name>
+        <qualifiedname>mrmeshpy.VertId.operatorminusminus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70998" bodyend="70999"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertId_1ab1e305ac048fc82e2606c253f315c584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertId.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.VertId.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71000" bodyend="71001"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VertId
+Aliases:  Vector_VertId_VertId_const_reference, Vector_VertId_Id_EdgeTag_const_reference, Vector_VertId_VertId_value_type, Vector_VertId_Id_EdgeTag_value_type, TypedBitSet_VertId_IndexType, Vector_VertId_Id_EdgeTag_reference, Vector_VertId_VertId_reference
+
+stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.VertId</label>
+        <link refid="classmrmeshpy_1_1VertId"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.NoDefInit_VertId</label>
+        <link refid="classmrmeshpy_1_1NoDefInit__VertId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70913" bodyend="71001"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VertId_1aaf8a64bb2d693bbb5b89412c7b3129d9" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a380ce2ef5984a745dd126efb9168c610" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1af3c464de3f0944c3075d672524a0525e" prot="private" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a2adc9ea3ac695cb8fa03188ed82ae4bd" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1aea51d13185ea0127d634242555579ccd" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1aea51d13185ea0127d634242555579ccd" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1af5d619953d18f25010ed701358ebb515" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a744db58167c39b5b94a1c2eaf8ca86ae" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a744db58167c39b5b94a1c2eaf8ca86ae" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a94290454602c18e0bff9618ef6edd6fc" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a7e772bd93c4e4d1989e28ccc5091518a" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a918adb1fc7f1fd7a3535c7ad0a19d77a" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a99be56b76213cf134eac8fe31ff795b4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1ad1518ed7967dde07a6541c48f1de90f5" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a40eec90d50498908a29d4c1ec34fc4d2" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1af46d55cdda51be23dbe44d3fc7311298" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1af46d55cdda51be23dbe44d3fc7311298" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1af46d55cdda51be23dbe44d3fc7311298" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1aab84656490bfd93dc0bf54c0bac0339b" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1afe9676786aa0b17bddad429d77a8542b" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1a3ac2cb4494601a4563f244292f96d315" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1aa914cac6fc4ccda730d0a8fcd5fb5949" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1VertId_1ab1e305ac048fc82e2606c253f315c584" prot="public" virt="non-virtual"><scope>mrmeshpy::VertId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

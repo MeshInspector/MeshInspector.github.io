@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UnifiedPythonStream" kind="class" language="C++" prot="public">
+    <compoundname>MR::UnifiedPythonStream</compoundname>
+    <includes refid="MRUnifiedPythonStream_8h" local="no">MRUnifiedPythonStream.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga48bfc7a1a906f39be367f4a2e29e6df8" kind="variable"><name>ss_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga68a97ff9c823539594b0ebedef0ba8b1" kind="function"><name>get</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga027365ce9ca6cb0529432c21459e824d" kind="function"><name>UnifiedPythonStream</name></member>
+      <member refid="group__GeneralGroup_1ga1abd5a6bc074686b6153ea05774f3db7" kind="function"><name>~UnifiedPythonStream</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>python output duplicated to this stream needed to be able to separate python output from all other logs </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRUnifiedPythonStream.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRUnifiedPythonStream.h" bodystart="13" bodyend="21"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga68a97ff9c823539594b0ebedef0ba8b1" prot="public" virt="non-virtual"><scope>MR::UnifiedPythonStream</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga48bfc7a1a906f39be367f4a2e29e6df8" prot="private" virt="non-virtual"><scope>MR::UnifiedPythonStream</scope><name>ss_</name></member>
+      <member refid="group__GeneralGroup_1ga027365ce9ca6cb0529432c21459e824d" prot="private" virt="non-virtual"><scope>MR::UnifiedPythonStream</scope><name>UnifiedPythonStream</name></member>
+      <member refid="group__GeneralGroup_1ga1abd5a6bc074686b6153ea05774f3db7" prot="private" virt="non-virtual"><scope>MR::UnifiedPythonStream</scope><name>~UnifiedPythonStream</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

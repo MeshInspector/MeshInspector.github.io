@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DistanceFromWeightedPointsComputeParams</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams" prot="public" virt="non-virtual">mrmeshpy.DistanceFromWeightedPointsParams</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ad66cee50c873b9c05853022517da9f93" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceFromWeightedPointsComputeParams::_offsetof_maxBidirDist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxBidirDist</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams._offsetof_maxBidirDist</qualifiedname>
+        <initializer>=  52</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a68f3d61facb4f619ffb599143da48f90" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceFromWeightedPointsComputeParams::_offsetof_minBidirDist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minBidirDist</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams._offsetof_minBidirDist</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13287" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac508e9006f5f12136d2efcb6c52d99d6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceFromWeightedPointsComputeParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a6607148095004b3ec7c9f7233247c94a">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13290" bodyend="13291"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a901c9e8e8819fd18c6d679b10fb2f317" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref></type>
+        <definition> DistanceFromWeightedPointsComputeParams mrmeshpy.DistanceFromWeightedPointsComputeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1ace947eb1725ef4b4e31898c60cab206e">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13294" bodyend="13295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a901c9e8e8819fd18c6d679b10fb2f317" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref></type>
+        <definition> DistanceFromWeightedPointsComputeParams mrmeshpy.DistanceFromWeightedPointsComputeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1ace947eb1725ef4b4e31898c60cab206e">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13298" bodyend="13299"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aff19f85195ae8d9353e3cb358e459df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceFromWeightedPointsComputeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a6607148095004b3ec7c9f7233247c94a">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13301" bodyend="13302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aaa2feced824d25149ad7b8551aabdb2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceFromWeightedPointsComputeParams.__init__</definition>
+        <argsstring>(self, DistanceFromWeightedPointsComputeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams_1a6607148095004b3ec7c9f7233247c94a">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13304" bodyend="13307"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a4f48943fca1f949303742a2d0940224b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DistanceFromWeightedPointsComputeParams.maxBidirDist</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxBidirDist</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.maxBidirDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>find the closest point only if weighted bidirectional distance to it is less than given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13309" bodyend="13312"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a471afe60108bd380ce0a777ed09c1e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceFromWeightedPointsComputeParams.maxBidirDist</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxBidirDist</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.maxBidirDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13314" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13314" bodyend="13315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a7c3ac99a5600eed2276cb1b290e6e5fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DistanceFromWeightedPointsComputeParams.minBidirDist</definition>
+        <argsstring>(self)</argsstring>
+        <name>minBidirDist</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.minBidirDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>default 0 here does not work for negative distances
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13317" bodyend="13320"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac84b9cff09e33c3b602c90e6a23a1722" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceFromWeightedPointsComputeParams.minBidirDist</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minBidirDist</name>
+        <qualifiedname>mrmeshpy.DistanceFromWeightedPointsComputeParams.minBidirDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13322" bodyend="13323"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DistanceFromWeightedPointsComputeParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.DistanceFromWeightedPointsComputeParams</label>
+        <link refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.DistanceFromWeightedPointsParams</label>
+        <link refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DistanceFromWeightedPointsComputeParams</label>
+        <link refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_maxBidirDist</edgelabel>
+          <edgelabel>_offsetof_minBidirDist</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.DistanceFromWeightedPointsParams</label>
+        <link refid="classmrmeshpy_1_1DistanceFromWeightedPointsParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_bidirectionalMode</edgelabel>
+          <edgelabel>_offsetof_maxWeight</edgelabel>
+          <edgelabel>_offsetof_maxWeightGrad</edgelabel>
+          <edgelabel>_offsetof_minWeight</edgelabel>
+          <edgelabel>_offsetof_pointWeight</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13282" bodyend="13323"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac508e9006f5f12136d2efcb6c52d99d6" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aff19f85195ae8d9353e3cb358e459df5" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1aaa2feced824d25149ad7b8551aabdb2a" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ad66cee50c873b9c05853022517da9f93" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>_offsetof_maxBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a68f3d61facb4f619ffb599143da48f90" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>_offsetof_minBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a4f48943fca1f949303742a2d0940224b" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>maxBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a471afe60108bd380ce0a777ed09c1e10" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>maxBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a7c3ac99a5600eed2276cb1b290e6e5fd" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>minBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1ac84b9cff09e33c3b602c90e6a23a1722" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>minBidirDist</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a901c9e8e8819fd18c6d679b10fb2f317" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams_1a901c9e8e8819fd18c6d679b10fb2f317" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceFromWeightedPointsComputeParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

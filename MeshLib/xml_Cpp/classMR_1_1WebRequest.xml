@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1WebRequest" kind="class" language="C++" prot="public">
+    <compoundname>MR::WebRequest</compoundname>
+    <includes refid="MRWebRequest_8h" local="no">MRWebRequest.h</includes>
+    <innerclass refid="structMR_1_1WebRequest_1_1FormData" prot="public">MR::WebRequest::FormData</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gace710e20f931b5a3da04f21f16c5ab0c" kind="enum"><name>Method</name></member>
+      <member refid="group__GeneralGroup_1ga26a56c4ab553b8e362db5721851b02bc" kind="typedef"><name>ResponseCallback</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gae45d61146852b3dc695ba297720e7691" kind="variable"><name>method_</name></member>
+      <member refid="group__GeneralGroup_1ga8fe4053fad70e775edc36d6691d7c2f2" kind="variable"><name>url_</name></member>
+      <member refid="group__GeneralGroup_1ga53d62674facfd469a02ae489f74a1fda" kind="variable"><name>logName_</name></member>
+      <member refid="group__GeneralGroup_1gac176f357f82b22e35e269317878dfc13" kind="variable"><name>async_</name></member>
+      <member refid="group__GeneralGroup_1ga62c1d0c9a6cd118efc8453518d31e0a0" kind="variable"><name>timeout_</name></member>
+      <member refid="group__GeneralGroup_1ga436b41e30962036918169f537d317165" kind="variable"><name>params_</name></member>
+      <member refid="group__GeneralGroup_1ga88de6d080ea7d558fa2dd79e13d013cf" kind="variable"><name>headers_</name></member>
+      <member refid="group__GeneralGroup_1gab7785b922656beff9ab2852a2603942f" kind="variable"><name>inputPath_</name></member>
+      <member refid="group__GeneralGroup_1gae460be574545991dca383de3f3f26b0b" kind="variable"><name>formData_</name></member>
+      <member refid="group__GeneralGroup_1ga2d98bf2716e159aef994e183d95baf59" kind="variable"><name>body_</name></member>
+      <member refid="group__GeneralGroup_1ga5522375ef5674fc4d32f3563626e03f1" kind="variable"><name>outputPath_</name></member>
+      <member refid="group__GeneralGroup_1ga20c6fe826782385c624f2ffb55a9b0e7" kind="variable"><name>uploadCallback_</name></member>
+      <member refid="group__GeneralGroup_1gaa77c5ffed19386637e60404850a96152" kind="variable"><name>downloadCallback_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga127ff4863cb6f49573d3d843b9dbcf60" kind="function"><name>WebRequest</name></member>
+      <member refid="group__GeneralGroup_1gab4d57c13325f023fb4d010282ff4f41e" kind="function"><name>WebRequest</name></member>
+      <member refid="group__GeneralGroup_1ga164ae32208b6cc621bf6881e2460d19f" kind="function"><name>clear</name></member>
+      <member refid="group__GeneralGroup_1gacabf84df9e987c06b342463a6bfc80ec" kind="function"><name>setMethod</name></member>
+      <member refid="group__GeneralGroup_1gafcc60aef690f05cb016167a91d6e5fb7" kind="function"><name>setTimeout</name></member>
+      <member refid="group__GeneralGroup_1gaf5d208e5912e2a8a359a8bae954eccbf" kind="function"><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1gad0f3209556e4b15dbf2729308648b8b8" kind="function"><name>setHeaders</name></member>
+      <member refid="group__GeneralGroup_1ga73f0f27be8b530e2119eb428ebecd61b" kind="function"><name>setInputPath</name></member>
+      <member refid="group__GeneralGroup_1ga911c13b636af362593bd7afc91cefc85" kind="function"><name>setUploadProgressCallback</name></member>
+      <member refid="group__GeneralGroup_1ga55e8283c14b690c8e84baeb5065f8194" kind="function"><name>setFormData</name></member>
+      <member refid="group__GeneralGroup_1ga76fb676d9920639dca6fef5b1e7d5626" kind="function"><name>setBody</name></member>
+      <member refid="group__GeneralGroup_1ga5cd216b69ba927545f4d31d7394df935" kind="function"><name>setOutputPath</name></member>
+      <member refid="group__GeneralGroup_1gae1aaf67bec2db03e0160d57bb24325f4" kind="function"><name>setDownloadProgressCallback</name></member>
+      <member refid="group__GeneralGroup_1ga0d3236e9c137c50abba068fb721d8b6a" kind="function"><name>setAsync</name></member>
+      <member refid="group__GeneralGroup_1gad228e2cb058eb73c228cb77bdd7cbbf5" kind="function"><name>setLogName</name></member>
+      <member refid="group__GeneralGroup_1gaca7588f1b4f75f253182607482270e49" kind="function"><name>send</name></member>
+      <member refid="group__GeneralGroup_1ga156f2336044553b04244d55aa0275975" kind="function"><name>send</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gadcc966402e0ae0928e781cf39e467037" kind="function"><name>waitRemainingAsync</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>this class is needed to unify cpp and wasm requests </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRWebRequest.h" bodystart="21" bodyend="108"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac176f357f82b22e35e269317878dfc13" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>async_</name></member>
+      <member refid="group__GeneralGroup_1ga2d98bf2716e159aef994e183d95baf59" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>body_</name></member>
+      <member refid="group__GeneralGroup_1ga164ae32208b6cc621bf6881e2460d19f" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1gaa77c5ffed19386637e60404850a96152" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>downloadCallback_</name></member>
+      <member refid="group__GeneralGroup_1gae460be574545991dca383de3f3f26b0b" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>formData_</name></member>
+      <member refid="group__GeneralGroup_1ga88de6d080ea7d558fa2dd79e13d013cf" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>headers_</name></member>
+      <member refid="group__GeneralGroup_1gab7785b922656beff9ab2852a2603942f" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>inputPath_</name></member>
+      <member refid="group__GeneralGroup_1ga53d62674facfd469a02ae489f74a1fda" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>logName_</name></member>
+      <member refid="group__GeneralGroup_1gace710e20f931b5a3da04f21f16c5ab0c" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>Method</name></member>
+      <member refid="group__GeneralGroup_1gae45d61146852b3dc695ba297720e7691" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>method_</name></member>
+      <member refid="group__GeneralGroup_1ga5522375ef5674fc4d32f3563626e03f1" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>outputPath_</name></member>
+      <member refid="group__GeneralGroup_1ga436b41e30962036918169f537d317165" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>params_</name></member>
+      <member refid="group__GeneralGroup_1ga26a56c4ab553b8e362db5721851b02bc" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>ResponseCallback</name></member>
+      <member refid="group__GeneralGroup_1gaca7588f1b4f75f253182607482270e49" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>send</name></member>
+      <member refid="group__GeneralGroup_1ga156f2336044553b04244d55aa0275975" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>send</name></member>
+      <member refid="group__GeneralGroup_1ga0d3236e9c137c50abba068fb721d8b6a" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setAsync</name></member>
+      <member refid="group__GeneralGroup_1ga76fb676d9920639dca6fef5b1e7d5626" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setBody</name></member>
+      <member refid="group__GeneralGroup_1gae1aaf67bec2db03e0160d57bb24325f4" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setDownloadProgressCallback</name></member>
+      <member refid="group__GeneralGroup_1ga55e8283c14b690c8e84baeb5065f8194" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setFormData</name></member>
+      <member refid="group__GeneralGroup_1gad0f3209556e4b15dbf2729308648b8b8" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setHeaders</name></member>
+      <member refid="group__GeneralGroup_1ga73f0f27be8b530e2119eb428ebecd61b" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setInputPath</name></member>
+      <member refid="group__GeneralGroup_1gad228e2cb058eb73c228cb77bdd7cbbf5" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setLogName</name></member>
+      <member refid="group__GeneralGroup_1gacabf84df9e987c06b342463a6bfc80ec" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setMethod</name></member>
+      <member refid="group__GeneralGroup_1ga5cd216b69ba927545f4d31d7394df935" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setOutputPath</name></member>
+      <member refid="group__GeneralGroup_1gaf5d208e5912e2a8a359a8bae954eccbf" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1gafcc60aef690f05cb016167a91d6e5fb7" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setTimeout</name></member>
+      <member refid="group__GeneralGroup_1ga911c13b636af362593bd7afc91cefc85" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>setUploadProgressCallback</name></member>
+      <member refid="group__GeneralGroup_1ga62c1d0c9a6cd118efc8453518d31e0a0" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>timeout_</name></member>
+      <member refid="group__GeneralGroup_1ga20c6fe826782385c624f2ffb55a9b0e7" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>uploadCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga8fe4053fad70e775edc36d6691d7c2f2" prot="private" virt="non-virtual"><scope>MR::WebRequest</scope><name>url_</name></member>
+      <member refid="group__GeneralGroup_1gadcc966402e0ae0928e781cf39e467037" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>waitRemainingAsync</name></member>
+      <member refid="group__GeneralGroup_1ga127ff4863cb6f49573d3d843b9dbcf60" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>WebRequest</name></member>
+      <member refid="group__GeneralGroup_1gab4d57c13325f023fb4d010282ff4f41e" prot="public" virt="non-virtual"><scope>MR::WebRequest</scope><name>WebRequest</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

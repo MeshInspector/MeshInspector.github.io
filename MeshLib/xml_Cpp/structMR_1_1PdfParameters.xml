@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PdfParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PdfParameters</compoundname>
+    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga5bbd653c0d1a0fb7db070974d90a791e" kind="variable"><name>titleSize</name></member>
+      <member refid="group__GeneralGroup_1ga7e22b490f619a059c622635844a59e4b" kind="variable"><name>textSize</name></member>
+      <member refid="group__GeneralGroup_1ga7fb7f545bd61a5042cdee1e61f97db3b" kind="variable"><name>defaultFont</name></member>
+      <member refid="group__GeneralGroup_1ga82fb3310291f6dec673c248905b9f0dc" kind="variable"><name>defaultFontBold</name></member>
+      <member refid="group__GeneralGroup_1gaafdf0267b27a923d80ab96f114d2fcfe" kind="variable"><name>tableFont</name></member>
+      <member refid="group__GeneralGroup_1gabd6876673f453aef907357a9eceb4996" kind="variable"><name>tableFontBold</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of document style. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="51" bodyend="65"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7fb7f545bd61a5042cdee1e61f97db3b" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>defaultFont</name></member>
+      <member refid="group__GeneralGroup_1ga82fb3310291f6dec673c248905b9f0dc" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>defaultFontBold</name></member>
+      <member refid="group__GeneralGroup_1gaafdf0267b27a923d80ab96f114d2fcfe" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>tableFont</name></member>
+      <member refid="group__GeneralGroup_1gabd6876673f453aef907357a9eceb4996" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>tableFontBold</name></member>
+      <member refid="group__GeneralGroup_1ga7e22b490f619a059c622635844a59e4b" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>textSize</name></member>
+      <member refid="group__GeneralGroup_1ga5bbd653c0d1a0fb7db070974d90a791e" prot="public" virt="non-virtual"><scope>MR::PdfParameters</scope><name>titleSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRRibbonMenuUIConfig_8h" kind="file" language="C++">
+    <compoundname>MRRibbonMenuUIConfig.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="MRRibbonLayoutConfig_8h" local="yes">MRRibbonLayoutConfig.h</includedby>
+    <includedby refid="MRRibbonMenu_8h" local="yes">MRRibbonMenu.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MRRibbonMenuUIConfig.h</label>
+        <link refid="MRRibbonMenuUIConfig_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRRibbonLayoutConfig.h</label>
+        <link refid="MRRibbonLayoutConfig_8h"/>
+      </node>
+      <node id="3">
+        <label>MRRibbonMenu.h</label>
+        <link refid="MRRibbonMenu_8h"/>
+      </node>
+      <node id="1">
+        <label>MRRibbonMenuUIConfig.h</label>
+        <link refid="MRRibbonMenuUIConfig_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1RibbonMenuUIConfig" prot="public">MR::RibbonMenuUIConfig</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="group__GeneralGroup_1ga22296ecc4055b81ffe5ec6f0a8ad79d7" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga22296ecc4055b81ffe5ec6f0a8ad79d7" kindref="member">RibbonTopPanelLayoutMode</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__VoxelPathGroup_1gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" kindref="member">None</ref>,<sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga22296ecc4055b81ffe5ec6f0a8ad79d7aacb400c35a93a397ad5d54a1aa3b117d" kindref="member">RibbonNoTabs</ref>,<sp/></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga22296ecc4055b81ffe5ec6f0a8ad79d7a9a8369bcaa71173baa02f88bbf53b8fc" kindref="member">RibbonWithTabs</ref><sp/></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1RibbonMenuUIConfig" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1RibbonMenuUIConfig" kindref="compound">RibbonMenuUIConfig</ref></highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga596b3cd3ab9f14700dc1c54b3d7cdac3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga22296ecc4055b81ffe5ec6f0a8ad79d7" kindref="member">RibbonTopPanelLayoutMode</ref><sp/><ref refid="group__GeneralGroup_1ga596b3cd3ab9f14700dc1c54b3d7cdac3" kindref="member">topLayout</ref>{<sp/><ref refid="group__GeneralGroup_1gga22296ecc4055b81ffe5ec6f0a8ad79d7a9a8369bcaa71173baa02f88bbf53b8fc" kindref="member">RibbonTopPanelLayoutMode::RibbonWithTabs</ref><sp/>};<sp/></highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga859a05b1d76e85de81ee694b3b0dd341" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga859a05b1d76e85de81ee694b3b0dd341" kindref="member">centerRibbonItems</ref>{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gada3dc6fefe89d1d4909cbf31a7aae2ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gada3dc6fefe89d1d4909cbf31a7aae2ce" kindref="member">drawScenePanel</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1gad18443e86e7f3e8dee09d47d835657d6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad18443e86e7f3e8dee09d47d835657d6" kindref="member">drawToolbar</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1gad25116ab1883c906d084fc3b87abde3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad25116ab1883c906d084fc3b87abde3a" kindref="member">drawViewportTags</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga6ef8462bce49279a9ec938eb5cc74d8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6ef8462bce49279a9ec938eb5cc74d8e" kindref="member">drawNotifications</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gae6822db982eca1e5929cebbf20f784a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae6822db982eca1e5929cebbf20f784a9" kindref="member">drawSearchBar</ref>{<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga03e35b23d40e46fa4358fad1f6745421" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga03e35b23d40e46fa4358fad1f6745421" kindref="member">helpLink</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;https:///<sp/>meshinspector.com/inapphelp/&quot;</highlight><highlight class="normal">;<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gab79facceed1e2c0b1f3a9daddcb6548e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab79facceed1e2c0b1f3a9daddcb6548e" kindref="member">operator==</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1RibbonMenuUIConfig" kindref="compound">RibbonMenuUIConfig</ref>&amp;<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenuUIConfig.h"/>
+  </compounddef>
+</doxygen>

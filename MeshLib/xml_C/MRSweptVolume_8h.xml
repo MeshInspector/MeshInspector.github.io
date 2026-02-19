@@ -1,0 +1,1080 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRSweptVolume_8h" kind="file" language="C++">
+    <compoundname>MRSweptVolume.h</compoundname>
+    <includes refid="MRBox_8h" local="no">MRCMesh/MRBox.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRSweptVolume.h</label>
+        <link refid="MRSweptVolume_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="5">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="6">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1afb9772e287e6b9050531d23886e426c0" prot="public" static="no">
+        <type>struct <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref></type>
+        <definition>typedef struct MR_EndMillTool MR_EndMillTool</definition>
+        <argsstring></argsstring>
+        <name>MR_EndMillTool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="13" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref></type>
+        <definition>typedef struct MR_MeshPart MR_MeshPart</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshPart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="14" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1ac19d267fe4a2399b21a578c74213dfd2" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref></type>
+        <definition>typedef struct MR_Polyline2 MR_Polyline2</definition>
+        <argsstring></argsstring>
+        <name>MR_Polyline2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="15" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref></type>
+        <definition>typedef struct MR_Polyline3 MR_Polyline3</definition>
+        <argsstring></argsstring>
+        <name>MR_Polyline3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="16" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1a6bf133eda1ec95be202b77c33412bc8e" prot="public" static="no">
+        <type>struct MR_Vector3f</type>
+        <definition>typedef struct MR_Vector3f MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="17" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1ad55ca9af0874ffb89877bad65ae2859d" prot="public" static="no">
+        <type>struct MR_Vector3i</type>
+        <definition>typedef struct MR_Vector3i MR_Vector3i</definition>
+        <argsstring></argsstring>
+        <name>MR_Vector3i</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="18" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1a0d97154d4aed695055160a4688c04a3d" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_Mesh_std_string MR_expected_MR_Mesh_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_Mesh_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="19" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" prot="public" static="no">
+        <type>struct <ref refid="MRSweptVolume_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref></type>
+        <definition>typedef struct MR_expected_MR_Vector3i_std_string MR_expected_MR_Vector3i_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_MR_Vector3i_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="20" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
+        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_void_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="21" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="22" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1aba323e6d596956f5a589a525c6f6adbc" prot="public" static="no">
+        <type>struct <ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref></type>
+        <definition>typedef struct MR_std_vector_float MR_std_vector_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="23" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" prot="public" static="no">
+        <type>struct <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref></type>
+        <definition>typedef struct MR_ComputeSweptVolumeParameters MR_ComputeSweptVolumeParameters</definition>
+        <argsstring></argsstring>
+        <name>MR_ComputeSweptVolumeParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parameters for computeSweptVolume* functions Generated from class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="29" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" prot="public" static="no">
+        <type>struct <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref></type>
+        <definition>typedef struct MR_IComputeToolDistance MR_IComputeToolDistance</definition>
+        <argsstring></argsstring>
+        <name>MR_IComputeToolDistance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Interface for custom tool distance computation implementations Generated from class <computeroutput>MR::IComputeToolDistance</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="33" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRSweptVolume_8h_1a0bf426c293ef97f9b96d232e439c8fda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref></type>
+        <definition>MRC_API MR_Box3f MR_computeWorkArea</definition>
+        <argsstring>(const MR_Polyline3 *toolpath, const MR_MeshPart *tool)</argsstring>
+        <name>MR_computeWorkArea</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>tool</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute bounding box for swept volume for given tool and toolpath Generated from function <computeroutput>MR::computeWorkArea</computeroutput>. Parameter <computeroutput>toolpath</computeroutput> can not be null. It is a single object. Parameter <computeroutput>tool</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="39" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="39" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1acdee4ff61b6249ad7ae236fc9d671330" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref></type>
+        <definition>MRC_API MR_Box3i MR_computeGridBox</definition>
+        <argsstring>(const MR_Box3f *workArea, float voxelSize)</argsstring>
+        <name>MR_computeGridBox</name>
+        <param>
+          <type>const <ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref> *</type>
+          <declname>workArea</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute required voxel volume&apos;s dimensions for given work area Generated from function <computeroutput>MR::computeGridBox</computeroutput>. Parameter <computeroutput>workArea</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="44" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="44" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a6920804c7be27db11a702fe3fb8ed905" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+        <definition>MRC_API const MR_Polyline3 * MR_ComputeSweptVolumeParameters_Get_path</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Get_path</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>toolpath Returns a pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>path</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="51" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="51" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a3ba8edcc29c800b55d49ae33e9d4c6a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+        <definition>MRC_API const MR_MeshPart * MR_ComputeSweptVolumeParameters_Get_toolMesh</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Get_toolMesh</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tool mesh Returns a pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>toolMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="58" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="58" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1ac6a3f4de6173eb2f4d0499795437b244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+        <definition>MRC_API MR_MeshPart * MR_ComputeSweptVolumeParameters_GetMutable_toolMesh</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_GetMutable_toolMesh</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tool mesh Returns a mutable pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>toolMesh</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="65" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="65" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1aa393632c6761d3bb3935b586eb99722f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *const *</type>
+        <definition>MRC_API const MR_EndMillTool *const  * MR_ComputeSweptVolumeParameters_Get_toolSpec</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Get_toolSpec</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tool specifications, can be used for more precise computations the tool spec and the tool mesh are expected to relate to the same tool if omitted, tool mesh is used Returns a pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>toolSpec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="74" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="74" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a64ca5d281b91d26d5ecf6887e387a189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ComputeSweptVolumeParameters_Set_toolSpec</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *_this, const MR_EndMillTool *value)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Set_toolSpec</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tool specifications, can be used for more precise computations the tool spec and the tool mesh are expected to relate to the same tool if omitted, tool mesh is used Modifies a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>toolSpec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>toolSpec</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>toolSpec</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="83" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="83" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1afec37d18957eabab10b302f5e4b52141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> **</type>
+        <definition>MRC_API const MR_EndMillTool ** MR_ComputeSweptVolumeParameters_GetMutable_toolSpec</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_GetMutable_toolSpec</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>tool specifications, can be used for more precise computations the tool spec and the tool mesh are expected to relate to the same tool if omitted, tool mesh is used Returns a mutable pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>toolSpec</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="92" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="92" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1ab9b7fce5d5bc468aeb5280602a4042fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_ComputeSweptVolumeParameters_Get_voxelSize</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Get_voxelSize</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>voxel size for internal voxel volumes </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="100" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="100" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a4878f5f6edc27cea32dac85ec1cbc766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ComputeSweptVolumeParameters_Set_voxelSize</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *_this, float value)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Set_voxelSize</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>voxel size for internal voxel volumes </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>voxelSize</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="107" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="107" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1aba7a21b4f1b9122b7deb723174a72308" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_ComputeSweptVolumeParameters_GetMutable_voxelSize</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_GetMutable_voxelSize</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>voxel size for internal voxel volumes </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>voxelSize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="115" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="115" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1adc6c7d7b89b4bee4029475d52e352d95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const MR_uint64_t *</type>
+        <definition>MRC_API const MR_uint64_t * MR_ComputeSweptVolumeParameters_Get_memoryLimit</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Get_memoryLimit</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(distance volume) max memory amount used for the distance volume, zero for no limits Returns a pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>memoryLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="122" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="122" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1aa55c8766f56358cdf0b96fd0694385e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ComputeSweptVolumeParameters_Set_memoryLimit</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *_this, MR_uint64_t value)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Set_memoryLimit</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(distance volume) max memory amount used for the distance volume, zero for no limits Modifies a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>memoryLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>memoryLimit</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>memoryLimit</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="129" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="129" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a4082a76f422e4aa36192c9805abca631" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t *</type>
+        <definition>MRC_API MR_uint64_t * MR_ComputeSweptVolumeParameters_GetMutable_memoryLimit</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_GetMutable_memoryLimit</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>(distance volume) max memory amount used for the distance volume, zero for no limits Returns a mutable pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>memoryLimit</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="136" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="136" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a46d62557d9ef43899e253bbae15849f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_ComputeSweptVolumeParameters_Get_cb</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Get_cb</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>progress callback Returns a pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="143" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="143" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a10c1a229714bf62a06be1e3306236633" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ComputeSweptVolumeParameters_Set_cb</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Set_cb</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>progress callback Modifies a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>cb</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>cb</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="150" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="150" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1af3f58f07d17b3c1c82dac1a8f57fa3d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_ComputeSweptVolumeParameters_GetMutable_cb</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_GetMutable_cb</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>progress callback Returns a mutable pointer to a member variable of class <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> named <computeroutput>cb</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="157" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="157" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a0fedff5b1524275c33a8e16ba97c4689" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+        <definition>MRC_API MR_ComputeSweptVolumeParameters * MR_ComputeSweptVolumeParameters_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_ComputeSweptVolumeParameters *_other)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ComputeSweptVolumeParameters::ComputeSweptVolumeParameters</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSweptVolume_8h_1addce2c4e8b59ae5220c23f75834e8b2d" kindref="member">MR_ComputeSweptVolumeParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="162" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="162" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1aebcf76f489edd3b91dd86660da2e23df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+        <definition>MRC_API MR_ComputeSweptVolumeParameters * MR_ComputeSweptVolumeParameters_ConstructFrom</definition>
+        <argsstring>(const MR_Polyline3 *path, const MR_MeshPart *toolMesh, const MR_EndMillTool *toolSpec, float voxelSize, MR_uint64_t memoryLimit, MR_PassBy cb_pass_by, MR_std_function_bool_from_float *cb)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_ConstructFrom</name>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref> *</type>
+          <declname>toolMesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>toolSpec</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>memoryLimit</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>cb_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::ComputeSweptVolumeParameters</computeroutput> elementwise. Parameter <computeroutput>path</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>path</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>toolMesh</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>toolMesh</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>toolSpec</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>memoryLimit</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>cb</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSweptVolume_8h_1addce2c4e8b59ae5220c23f75834e8b2d" kindref="member">MR_ComputeSweptVolumeParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="174" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="174" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1ae1bcbed8a13eba4c523041d2d011ddba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+        <definition>MRC_API const MR_ComputeSweptVolumeParameters * MR_ComputeSweptVolumeParameters_OffsetPtr</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="178" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="178" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a3e1d327f35e75d0c49d41393a54ee2bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+        <definition>MRC_API MR_ComputeSweptVolumeParameters * MR_ComputeSweptVolumeParameters_OffsetMutablePtr</definition>
+        <argsstring>(MR_ComputeSweptVolumeParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="182" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="182" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1addce2c4e8b59ae5220c23f75834e8b2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ComputeSweptVolumeParameters_Destroy</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ComputeSweptVolumeParameters</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="185" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="185" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a7b47614ca6e183fcc44d948a1db6875a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ComputeSweptVolumeParameters_DestroyArray</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *_this)</argsstring>
+        <name>MR_ComputeSweptVolumeParameters_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ComputeSweptVolumeParameters</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="188" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="188" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a12dc478e9164163cceba0a5d5c972d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_computeSweptVolumeWithMeshMovement</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *params)</argsstring>
+        <name>MR_computeSweptVolumeWithMeshMovement</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute swept volume for given toolpath and tool Builds mesh for each tool movement and joins them using voxel boolean Generated from function <computeroutput>MR::computeSweptVolumeWithMeshMovement</computeroutput>. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="195" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="195" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a25ba9dfdf305100acf48fab4bf5b665c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_computeSweptVolumeWithDistanceVolume</definition>
+        <argsstring>(const MR_ComputeSweptVolumeParameters *params)</argsstring>
+        <name>MR_computeSweptVolumeWithDistanceVolume</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute swept volume for given toolpath and tool Creates a distance-to-tool volume and converts it to mesh using the marching cubes algorithm Generated from function <computeroutput>MR::computeSweptVolumeWithDistanceVolume</computeroutput>. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="202" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="202" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1ab514042fe1a1eef6256390c716a35606" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IComputeToolDistance_Destroy</definition>
+        <argsstring>(const MR_IComputeToolDistance *_this)</argsstring>
+        <name>MR_IComputeToolDistance_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_IComputeToolDistance</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="205" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="205" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a79a44c28caf773ec0c9aa799736513bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IComputeToolDistance_DestroyArray</definition>
+        <argsstring>(const MR_IComputeToolDistance *_this)</argsstring>
+        <name>MR_IComputeToolDistance_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_IComputeToolDistance</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="208" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="208" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a6130167cef708b4bfb5616a5131ce527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSweptVolume_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Vector3i_std_string * MR_IComputeToolDistance_prepare_MR_EndMillTool</definition>
+        <argsstring>(MR_IComputeToolDistance *_this, const MR_Vector3i *dims, const MR_Polyline3 *toolpath, const MR_EndMillTool *toolSpec)</argsstring>
+        <name>MR_IComputeToolDistance_prepare_MR_EndMillTool</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref> *</type>
+          <declname>toolSpec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepare for a voxel grid of given dims and copy tool path and tool spec data <simplesect kind="return"><para>Maximum dimensions that can be processed at once (e.g. due to memory limits) Generated from method <computeroutput>MR::IComputeToolDistance::prepare</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>toolpath</computeroutput> can not be null. It is a single object. Parameter <computeroutput>toolSpec</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Vector3i_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="218" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="218" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a8338904035c10ce7dd659df28e5f4df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSweptVolume_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Vector3i_std_string * MR_IComputeToolDistance_prepare_MR_Polyline2</definition>
+        <argsstring>(MR_IComputeToolDistance *_this, const MR_Vector3i *dims, const MR_Polyline3 *toolpath, const MR_Polyline2 *toolProfile)</argsstring>
+        <name>MR_IComputeToolDistance_prepare_MR_Polyline2</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref> *</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref> *</type>
+          <declname>toolProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepare for a voxel grid of given dims and copy tool path and tool spec data <simplesect kind="return"><para>Maximum dimensions that can be processed at once (e.g. due to memory limits) Generated from method <computeroutput>MR::IComputeToolDistance::prepare</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>toolpath</computeroutput> can not be null. It is a single object. Parameter <computeroutput>toolProfile</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Vector3i_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="228" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="228" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a1665f84626f30cf9f57e77b47736c959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_IComputeToolDistance_computeToolDistance</definition>
+        <argsstring>(const MR_IComputeToolDistance *_this, MR_std_vector_float *output, const MR_Vector3i *dims, float voxelSize, const MR_Vector3f *origin, float padding)</argsstring>
+        <name>MR_IComputeToolDistance_computeToolDistance</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref> *</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>padding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute tool distance Generated from method <computeroutput>MR::IComputeToolDistance::computeToolDistance</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>output</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. Parameter <computeroutput>origin</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="237" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="237" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a211555f7c973443d0705a1b9b71219db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+        <definition>MRC_API const MR_IComputeToolDistance * MR_IComputeToolDistance_OffsetPtr</definition>
+        <argsstring>(const MR_IComputeToolDistance *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IComputeToolDistance_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="241" column="39" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="241" declcolumn="39"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a374c5b53dbaf93e25aee28954bff434b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+        <definition>MRC_API MR_IComputeToolDistance * MR_IComputeToolDistance_OffsetMutablePtr</definition>
+        <argsstring>(MR_IComputeToolDistance *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IComputeToolDistance_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="245" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="245" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSweptVolume_8h_1a2ba09265ef20527019d579e7e28f70a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_MR_Mesh_std_string * MR_computeSweptVolumeWithCustomToolDistance</definition>
+        <argsstring>(MR_IComputeToolDistance *comp, const MR_ComputeSweptVolumeParameters *params)</argsstring>
+        <name>MR_computeSweptVolumeWithCustomToolDistance</name>
+        <param>
+          <type><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref> *</type>
+          <declname>comp</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Compute swept volume for given toolpath and tool Creates a distance-to-tool volume using custom tool distance computation object and converts it to mesh using the marching cubes algorithm Generated from function <computeroutput>MR::computeSweptVolumeWithCustomToolDistance</computeroutput>. Parameter <computeroutput>comp</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_MR_Mesh_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" line="254" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h" declline="254" declcolumn="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRBox_8h" kindref="compound">MRCMesh/MRBox.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRSweptVolume_8h_1afb9772e287e6b9050531d23886e426c0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MREndMill.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRSweptVolume_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMeshPart.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRSweptVolume_8h_1ac19d267fe4a2399b21a578c74213dfd2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRSweptVolume_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRPolyline.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRSweptVolume_8h_1a6bf133eda1ec95be202b77c33412bc8e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRSweptVolume_8h_1ad55ca9af0874ffb89877bad65ae2859d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector3.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="MRSweptVolume_8h_1a0d97154d4aed695055160a4688c04a3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Mesh_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRSweptVolume_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSweptVolume_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref><sp/><ref refid="MRSweptVolume_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_MR_Vector3i_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRSweptVolume_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRSweptVolume_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRSweptVolume_8h_1aba323e6d596956f5a589a525c6f6adbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRSweptVolume_8h_1a0bf426c293ef97f9b96d232e439c8fda" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/><ref refid="MRSweptVolume_8h_1a0bf426c293ef97f9b96d232e439c8fda" kindref="member">MR_computeWorkArea</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*toolpath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*tool);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRSweptVolume_8h_1acdee4ff61b6249ad7ae236fc9d671330" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Box3i" kindref="compound">MR_Box3i</ref><sp/><ref refid="MRSweptVolume_8h_1acdee4ff61b6249ad7ae236fc9d671330" kindref="member">MR_computeGridBox</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Box3f" kindref="compound">MR_Box3f</ref><sp/>*workArea,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRSweptVolume_8h_1a6920804c7be27db11a702fe3fb8ed905" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*<ref refid="MRSweptVolume_8h_1a6920804c7be27db11a702fe3fb8ed905" kindref="member">MR_ComputeSweptVolumeParameters_Get_path</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRSweptVolume_8h_1a3ba8edcc29c800b55d49ae33e9d4c6a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRSweptVolume_8h_1a3ba8edcc29c800b55d49ae33e9d4c6a1" kindref="member">MR_ComputeSweptVolumeParameters_Get_toolMesh</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRSweptVolume_8h_1ac6a3f4de6173eb2f4d0499795437b244" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*<ref refid="MRSweptVolume_8h_1ac6a3f4de6173eb2f4d0499795437b244" kindref="member">MR_ComputeSweptVolumeParameters_GetMutable_toolMesh</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRSweptVolume_8h_1aa393632c6761d3bb3935b586eb99722f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRSweptVolume_8h_1aa393632c6761d3bb3935b586eb99722f" kindref="member">MR_ComputeSweptVolumeParameters_Get_toolSpec</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRSweptVolume_8h_1a64ca5d281b91d26d5ecf6887e387a189" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1a64ca5d281b91d26d5ecf6887e387a189" kindref="member">MR_ComputeSweptVolumeParameters_Set_toolSpec</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRSweptVolume_8h_1afec37d18957eabab10b302f5e4b52141" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>**<ref refid="MRSweptVolume_8h_1afec37d18957eabab10b302f5e4b52141" kindref="member">MR_ComputeSweptVolumeParameters_GetMutable_toolSpec</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="comment">//<sp/>TODO:<sp/>replace<sp/>with<sp/>tolerance<sp/>and<sp/>make<sp/>the<sp/>voxel<sp/>size<sp/>implementation-specific</highlight></codeline>
+<codeline lineno="100" refid="MRSweptVolume_8h_1ab9b7fce5d5bc468aeb5280602a4042fc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSweptVolume_8h_1ab9b7fce5d5bc468aeb5280602a4042fc" kindref="member">MR_ComputeSweptVolumeParameters_Get_voxelSize</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="comment">//<sp/>TODO:<sp/>replace<sp/>with<sp/>tolerance<sp/>and<sp/>make<sp/>the<sp/>voxel<sp/>size<sp/>implementation-specific</highlight></codeline>
+<codeline lineno="107" refid="MRSweptVolume_8h_1a4878f5f6edc27cea32dac85ec1cbc766" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1a4878f5f6edc27cea32dac85ec1cbc766" kindref="member">MR_ComputeSweptVolumeParameters_Set_voxelSize</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="comment">//<sp/>TODO:<sp/>replace<sp/>with<sp/>tolerance<sp/>and<sp/>make<sp/>the<sp/>voxel<sp/>size<sp/>implementation-specific</highlight></codeline>
+<codeline lineno="115" refid="MRSweptVolume_8h_1aba7a21b4f1b9122b7deb723174a72308" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRSweptVolume_8h_1aba7a21b4f1b9122b7deb723174a72308" kindref="member">MR_ComputeSweptVolumeParameters_GetMutable_voxelSize</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="MRSweptVolume_8h_1adc6c7d7b89b4bee4029475d52e352d95" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>MR_uint64_t<sp/>*<ref refid="MRSweptVolume_8h_1adc6c7d7b89b4bee4029475d52e352d95" kindref="member">MR_ComputeSweptVolumeParameters_Get_memoryLimit</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="MRSweptVolume_8h_1aa55c8766f56358cdf0b96fd0694385e5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aa55c8766f56358cdf0b96fd0694385e5" kindref="member">MR_ComputeSweptVolumeParameters_Set_memoryLimit</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>value);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="MRSweptVolume_8h_1a4082a76f422e4aa36192c9805abca631" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/>*<ref refid="MRSweptVolume_8h_1a4082a76f422e4aa36192c9805abca631" kindref="member">MR_ComputeSweptVolumeParameters_GetMutable_memoryLimit</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRSweptVolume_8h_1a46d62557d9ef43899e253bbae15849f3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRSweptVolume_8h_1a46d62557d9ef43899e253bbae15849f3" kindref="member">MR_ComputeSweptVolumeParameters_Get_cb</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRSweptVolume_8h_1a10c1a229714bf62a06be1e3306236633" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1a10c1a229714bf62a06be1e3306236633" kindref="member">MR_ComputeSweptVolumeParameters_Set_cb</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRSweptVolume_8h_1af3f58f07d17b3c1c82dac1a8f57fa3d5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRSweptVolume_8h_1af3f58f07d17b3c1c82dac1a8f57fa3d5" kindref="member">MR_ComputeSweptVolumeParameters_GetMutable_cb</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRSweptVolume_8h_1a0fedff5b1524275c33a8e16ba97c4689" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*<ref refid="MRSweptVolume_8h_1a0fedff5b1524275c33a8e16ba97c4689" kindref="member">MR_ComputeSweptVolumeParameters_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRSweptVolume_8h_1aebcf76f489edd3b91dd86660da2e23df" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*<ref refid="MRSweptVolume_8h_1aebcf76f489edd3b91dd86660da2e23df" kindref="member">MR_ComputeSweptVolumeParameters_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*path,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1af1ba30a3fa8a895c1f72e182f3e73e17" kindref="member">MR_MeshPart</ref><sp/>*toolMesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*toolSpec,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/>MR_uint64_t<sp/>memoryLimit,<sp/>MR_PassBy<sp/>cb_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*cb);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178" refid="MRSweptVolume_8h_1ae1bcbed8a13eba4c523041d2d011ddba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*<ref refid="MRSweptVolume_8h_1ae1bcbed8a13eba4c523041d2d011ddba" kindref="member">MR_ComputeSweptVolumeParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRSweptVolume_8h_1a3e1d327f35e75d0c49d41393a54ee2bb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*<ref refid="MRSweptVolume_8h_1a3e1d327f35e75d0c49d41393a54ee2bb" kindref="member">MR_ComputeSweptVolumeParameters_OffsetMutablePtr</ref>(<ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="MRSweptVolume_8h_1addce2c4e8b59ae5220c23f75834e8b2d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1addce2c4e8b59ae5220c23f75834e8b2d" kindref="member">MR_ComputeSweptVolumeParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRSweptVolume_8h_1a7b47614ca6e183fcc44d948a1db6875a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1a7b47614ca6e183fcc44d948a1db6875a" kindref="member">MR_ComputeSweptVolumeParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195" refid="MRSweptVolume_8h_1a12dc478e9164163cceba0a5d5c972d16" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRSweptVolume_8h_1a12dc478e9164163cceba0a5d5c972d16" kindref="member">MR_computeSweptVolumeWithMeshMovement</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRSweptVolume_8h_1a25ba9dfdf305100acf48fab4bf5b665c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRSweptVolume_8h_1a25ba9dfdf305100acf48fab4bf5b665c" kindref="member">MR_computeSweptVolumeWithDistanceVolume</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRSweptVolume_8h_1ab514042fe1a1eef6256390c716a35606" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ab514042fe1a1eef6256390c716a35606" kindref="member">MR_IComputeToolDistance_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRSweptVolume_8h_1a79a44c28caf773ec0c9aa799736513bc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1a79a44c28caf773ec0c9aa799736513bc" kindref="member">MR_IComputeToolDistance_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRSweptVolume_8h_1a6130167cef708b4bfb5616a5131ce527" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSweptVolume_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref><sp/>*<ref refid="MRSweptVolume_8h_1a6130167cef708b4bfb5616a5131ce527" kindref="member">MR_IComputeToolDistance_prepare_MR_EndMillTool</ref>(<ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*toolpath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MREndMill_8h_1afb9772e287e6b9050531d23886e426c0" kindref="member">MR_EndMillTool</ref><sp/>*toolSpec);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRSweptVolume_8h_1a8338904035c10ce7dd659df28e5f4df3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSweptVolume_8h_1afd3cfb5cb6fb29f4132e291d2f5ec78a" kindref="member">MR_expected_MR_Vector3i_std_string</ref><sp/>*<ref refid="MRSweptVolume_8h_1a8338904035c10ce7dd659df28e5f4df3" kindref="member">MR_IComputeToolDistance_prepare_MR_Polyline2</ref>(<ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1a6075b2f3b7dec92f779f4f58c28f7e1b" kindref="member">MR_Polyline3</ref><sp/>*toolpath,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePolyline_8h_1ac19d267fe4a2399b21a578c74213dfd2" kindref="member">MR_Polyline2</ref><sp/>*toolProfile);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="237" refid="MRSweptVolume_8h_1a1665f84626f30cf9f57e77b47736c959" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRSweptVolume_8h_1a1665f84626f30cf9f57e77b47736c959" kindref="member">MR_IComputeToolDistance_computeToolDistance</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*_this,<sp/><ref refid="MRPdf_8h_1aba323e6d596956f5a589a525c6f6adbc" kindref="member">MR_std_vector_float</ref><sp/>*output,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3i" kindref="compound">MR_Vector3i</ref><sp/>*dims,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*origin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>padding);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241" refid="MRSweptVolume_8h_1a211555f7c973443d0705a1b9b71219db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*<ref refid="MRSweptVolume_8h_1a211555f7c973443d0705a1b9b71219db" kindref="member">MR_IComputeToolDistance_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="MRSweptVolume_8h_1a374c5b53dbaf93e25aee28954bff434b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*<ref refid="MRSweptVolume_8h_1a374c5b53dbaf93e25aee28954bff434b" kindref="member">MR_IComputeToolDistance_OffsetMutablePtr</ref>(<ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254" refid="MRSweptVolume_8h_1a2ba09265ef20527019d579e7e28f70a7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a0d97154d4aed695055160a4688c04a3d" kindref="member">MR_expected_MR_Mesh_std_string</ref><sp/>*<ref refid="MRSweptVolume_8h_1a2ba09265ef20527019d579e7e28f70a7" kindref="member">MR_computeSweptVolumeWithCustomToolDistance</ref>(<ref refid="MRSweptVolume_8h_1aff42432999e160e7f7f45b5f2160caf7" kindref="member">MR_IComputeToolDistance</ref><sp/>*comp,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSweptVolume_8h_1ae366d65098a22096322a7b20b18485a3" kindref="member">MR_ComputeSweptVolumeParameters</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCVoxels/MRSweptVolume.h"/>
+  </compounddef>
+</doxygen>

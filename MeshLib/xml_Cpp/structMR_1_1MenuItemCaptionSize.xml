@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MenuItemCaptionSize" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MenuItemCaptionSize</compoundname>
+    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa2ee9d954b2e6fafdc20ad74c59602db" kind="variable"><name>baseSize</name></member>
+      <member refid="group__GeneralGroup_1ga6c9273ccf3e41bf654cf3667bc985c0e" kind="variable"><name>splitInfo</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="22" bodyend="25"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa2ee9d954b2e6fafdc20ad74c59602db" prot="public" virt="non-virtual"><scope>MR::MenuItemCaptionSize</scope><name>baseSize</name></member>
+      <member refid="group__GeneralGroup_1ga6c9273ccf3e41bf654cf3667bc985c0e" prot="public" virt="non-virtual"><scope>MR::MenuItemCaptionSize</scope><name>splitInfo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

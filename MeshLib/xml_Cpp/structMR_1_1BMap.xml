@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BMap" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BMap</compoundname>
+    <includes refid="MRBuffer_8h" local="no">MRBuffer.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename I</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga092cf8a0fd74634e6e4d50b8cfc9956d" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga82445cec627eb947404a79b0b670c515" kind="variable"><name>tsize</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>flat map: I -&gt; T </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::BMap&lt; T, I &gt;</label>
+        <link refid="structMR_1_1BMap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Buffer&lt; T, I &gt;</label>
+        <link refid="classMR_1_1Buffer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" line="146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBuffer.h" bodystart="147" bodyend="150"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga092cf8a0fd74634e6e4d50b8cfc9956d" prot="public" virt="non-virtual"><scope>MR::BMap</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga82445cec627eb947404a79b0b670c515" prot="public" virt="non-virtual"><scope>MR::BMap</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

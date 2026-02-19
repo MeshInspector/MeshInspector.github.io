@@ -12,5 +12,5 @@ var classMR_1_1Box__UndirectedEdgeId =
     [ "get", "classMR_1_1Box__UndirectedEdgeId.html#a5bef009921073bbae085a2c986e068e1", null ],
     [ "incr", "classMR_1_1Box__UndirectedEdgeId.html#a566cfa2d0eafa31b053417f31799dd91", null ],
     [ "subAssign", "classMR_1_1Box__UndirectedEdgeId.html#afd57ae664dea2c57979bc5ff0957333d", null ],
-    [ "_Ref", "classMR_1_1Box__UndirectedEdgeId.html#a5272988d07a35d92e605266e84c62803", null ]
+    [ "id", "classMR_1_1Box__UndirectedEdgeId.html#a451ca1d0e799f6a0ace9208fa89d2d8e", null ]
 ];

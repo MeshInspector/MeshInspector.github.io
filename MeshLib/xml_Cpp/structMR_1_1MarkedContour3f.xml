@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MarkedContour3f" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MarkedContour3f</compoundname>
+    <includes refid="MRMarkedContour_8h" local="no">MRMarkedContour.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga78abdca0c2ecab9e15c2bfc6583dea1c" kind="variable"><name>contour</name></member>
+      <member refid="group__GeneralGroup_1gaf4a0eb3a1b2a34ed0c90d37d6e36baa2" kind="variable"><name>marks</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BitSet</label>
+        <link refid="classMR_1_1BitSet"/>
+      </node>
+      <node id="1">
+        <label>MR::MarkedContour3f</label>
+        <link refid="structMR_1_1MarkedContour3f"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>marks</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMarkedContour.h" bodystart="14" bodyend="17"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga78abdca0c2ecab9e15c2bfc6583dea1c" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>contour</name></member>
+      <member refid="group__GeneralGroup_1gaf4a0eb3a1b2a34ed0c90d37d6e36baa2" prot="public" virt="non-virtual"><scope>MR::MarkedContour3f</scope><name>marks</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

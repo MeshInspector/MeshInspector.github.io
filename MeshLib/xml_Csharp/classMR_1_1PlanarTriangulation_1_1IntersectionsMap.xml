@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::PlanarTriangulation::IntersectionsMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.PlanarTriangulation.Const_IntersectionsMap</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1abd34c31ad96b09ba4aa3db45da7ca5f3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref ulong</type>
+        <definition>new unsafe ref ulong MR.PlanarTriangulation.IntersectionsMap.shift</definition>
+        <argsstring></argsstring>
+        <name>shift</name>
+        <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.shift</qualifiedname>
+        <briefdescription>
+<para>shift of index </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="407" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a988dc4514238f93fedb65cdb2c902fc7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRPlanarTriangulationIntersectionInfo</type>
+        <definition>new unsafe MR.Std.Vector_MRPlanarTriangulationIntersectionInfo MR.PlanarTriangulation.IntersectionsMap.map</definition>
+        <argsstring></argsstring>
+        <name>map</name>
+        <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.map</qualifiedname>
+        <briefdescription>
+<para>map[id-shift] = {lower intersection edge, upper intersection edge} </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="410" column="81" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="410" bodyend="410"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1acbe9cfe40b7ad2f21d3092f4834dbe60" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>IntersectionsMap</name>
+        <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="429" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="429" bodyend="433"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1ac98ee8077f33d05b2a127f0d794e03a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</definition>
+        <argsstring>()</argsstring>
+        <name>IntersectionsMap</name>
+        <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="439" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="439" bodyend="445"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1aeda84e233bd888a510da5fe81c9160b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</definition>
+        <argsstring>(ulong shift, MR.Std._ByValue_Vector_MRPlanarTriangulationIntersectionInfo map)</argsstring>
+        <name>IntersectionsMap</name>
+        <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>shift</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_MRPlanarTriangulationIntersectionInfo</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">MR.PlanarTriangulation.IntersectionsMap</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="450" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="450" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a3b7730c1c3f4cc36ea11c9c5ebaa38ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</definition>
+        <argsstring>(MR.PlanarTriangulation._ByValue_IntersectionsMap _other)</argsstring>
+        <name>IntersectionsMap</name>
+        <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</qualifiedname>
+        <param>
+          <type>MR.PlanarTriangulation._ByValue_IntersectionsMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="462" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="462" bodyend="469"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a4cc08efb4387f3c45fd6b8defcac8830" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</definition>
+        <argsstring>(Const_IntersectionsMap _other)</argsstring>
+        <name>IntersectionsMap</name>
+        <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</qualifiedname>
+        <param>
+          <type>Const_IntersectionsMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="474" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="474" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a867df19fcfb0669fa00c298737946488" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</definition>
+        <argsstring>(IntersectionsMap _other)</argsstring>
+        <name>IntersectionsMap</name>
+        <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">IntersectionsMap</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PlanarTriangulation.IntersectionsMap.IntersectionsMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="479" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="479" bodyend="479"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1acb8b30368aa83f26882ce807356e4b42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">MR.PlanarTriangulation.IntersectionsMap</ref></type>
+        <definition>unsafe MR.PlanarTriangulation.IntersectionsMap MR.PlanarTriangulation.IntersectionsMap.assign</definition>
+        <argsstring>(MR.PlanarTriangulation._ByValue_IntersectionsMap _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PlanarTriangulation.IntersectionsMap.assign</qualifiedname>
+        <param>
+          <type>MR.PlanarTriangulation._ByValue_IntersectionsMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PlanarTriangulation.IntersectionsMap.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="484" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="484" bodyend="491"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>struct to map new vertices (only appear on intersections) of the outline to it&apos;s edges Generated from class <computeroutput><ref refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap" kindref="compound">MR.PlanarTriangulation.IntersectionsMap</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_IntersectionsMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PlanarTriangulation.IntersectionsMap</label>
+        <link refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_IntersectionsMap &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_IntersectionsMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PlanarTriangulation.IntersectionsMap</label>
+        <link refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_IntersectionsMap &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" line="404" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MR2DContoursTriangulation.cs" bodystart="405" bodyend="492"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1acb8b30368aa83f26882ce807356e4b42" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>assign</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1acbe9cfe40b7ad2f21d3092f4834dbe60" prot="package" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1ac98ee8077f33d05b2a127f0d794e03a1" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1aeda84e233bd888a510da5fe81c9160b7" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a3b7730c1c3f4cc36ea11c9c5ebaa38ed" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a4cc08efb4387f3c45fd6b8defcac8830" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a867df19fcfb0669fa00c298737946488" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>IntersectionsMap</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1a988dc4514238f93fedb65cdb2c902fc7" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>map</name></member>
+      <member refid="classMR_1_1PlanarTriangulation_1_1IntersectionsMap_1abd34c31ad96b09ba4aa3db45da7ca5f3" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>shift</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

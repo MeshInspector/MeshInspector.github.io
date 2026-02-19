@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PreciseVertCoords" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PreciseVertCoords</compoundname>
+    <includes refid="MRPrecisePredicates3_8h" local="no">MRPrecisePredicates3.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaee4e7653cf187ba47b0eceff8088e6a5" kind="variable"><name>id</name></member>
+      <member refid="group__GeneralGroup_1ga0c89d0a0e8bdc63b8bd4559e3761df3c" kind="variable"><name>pt</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" bodystart="27" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaee4e7653cf187ba47b0eceff8088e6a5" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoords</scope><name>id</name></member>
+      <member refid="group__GeneralGroup_1ga0c89d0a0e8bdc63b8bd4559e3761df3c" prot="public" virt="non-virtual"><scope>MR::PreciseVertCoords</scope><name>pt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

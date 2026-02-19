@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Features_1_1MeasureResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Features::MeasureResult</compoundname>
+    <innerclass refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" prot="public">mrmeshpy::Features::MeasureResult::Angle</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public">mrmeshpy::Features::MeasureResult::BasicPart</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance" prot="public">mrmeshpy::Features::MeasureResult::Distance</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Status" prot="public">mrmeshpy::Features::MeasureResult::Status</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a817d9091b5e043e9de283b8f1f0d8420" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult::_offsetof_centerDistance</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_centerDistance</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult._offsetof_centerDistance</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a8028ebc4212ed747ec91a8111615de5d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult::_offsetof_distance</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distance</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult._offsetof_distance</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18257" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a0619935797efb125d13f72d690b159ad" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.MeasureResult::_offsetof_intersections</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_intersections</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult._offsetof_intersections</qualifiedname>
+        <initializer>=  120</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18258" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a03927fff38cebf5d19ce22ffe853e1a6" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1Features" kindref="compound">Features</ref></type>
+        <definition>Features mrmeshpy.Features.MeasureResult::angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.angle</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" kindref="compound">MeasureResult.Angle</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18259" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a8a8d6632f0bc580d54e962f7b07b0c60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18262" bodyend="18263"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a961f1f789df0a83281d1c5d5cd9d7ef4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult" kindref="compound">Features.MeasureResult</ref></type>
+        <definition> Features.MeasureResult mrmeshpy.Features.MeasureResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18266" bodyend="18267"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a961f1f789df0a83281d1c5d5cd9d7ef4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult" kindref="compound">Features.MeasureResult</ref></type>
+        <definition> Features.MeasureResult mrmeshpy.Features.MeasureResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18270" bodyend="18271"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a4f6d74fc302d7852c474514e6f3cbf75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18273" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18273" bodyend="18274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1afa9c5022a80e96cc58b1eebc59d0fb69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.__init__</definition>
+        <argsstring>(self, Features.MeasureResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult" kindref="compound">Features.MeasureResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18276" bodyend="18279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a52dc7100c8a349797d8151ae3ef34b06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.__init__</definition>
+        <argsstring>(self, Features.MeasureResult.Distance distance, Features.MeasureResult.Distance centerDistance, Features.MeasureResult.Angle angle, std_vector_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane intersections)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Features.MeasureResult.Distance</ref></type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Features.MeasureResult.Distance</ref></type>
+          <declname>centerDistance</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Angle" kindref="compound">Features.MeasureResult.Angle</ref></type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193" kindref="compound">std_vector_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+          <declname>intersections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18281" bodyend="18284"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a436cc58866442880d0bd96ae26cf26cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.swapObjects</definition>
+        <argsstring>(self)</argsstring>
+        <name>swapObjects</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.swapObjects</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Modifies the object to swap A and B;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18285" bodyend="18288"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1aef93fc59c66d831d635811b4c589b471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Features.MeasureResult.Distance</ref></type>
+        <definition> Features.MeasureResult.Distance mrmeshpy.Features.MeasureResult.centerDistance</definition>
+        <argsstring>(self)</argsstring>
+        <name>centerDistance</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.centerDistance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Some approximation of the distance.
+For planes and lines, this expects them to be mostly parallel. For everything else, it just takes the feature center.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18290" bodyend="18294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a45cddbd8a2a9bf3d9760bda7f4ed20c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.centerDistance</definition>
+        <argsstring>(self, Features.MeasureResult.Distance arg1)</argsstring>
+        <name>centerDistance</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.centerDistance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Features.MeasureResult.Distance</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18296" bodyend="18297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a0d08cf2e2af5e7ba17d819441684665f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Features.MeasureResult.Distance</ref></type>
+        <definition> Features.MeasureResult.Distance mrmeshpy.Features.MeasureResult.distance</definition>
+        <argsstring>(self)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Exact distance.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18299" bodyend="18302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a52d7ae1abc7c0826266b52a0e592cd02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.distance</definition>
+        <argsstring>(self, Features.MeasureResult.Distance arg1)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1MeasureResult_1_1Distance" kindref="compound">Features.MeasureResult.Distance</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18304" bodyend="18305"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a552401574206527128d9f1e7c2e31eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193" kindref="compound">std_vector_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+        <definition> std_vector_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane mrmeshpy.Features.MeasureResult.intersections</definition>
+        <argsstring>(self)</argsstring>
+        <name>intersections</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.intersections</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The primitives obtained from intersecting those two.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18307" bodyend="18310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1MeasureResult_1a3a4c218410da74d30c220ec072693a57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.MeasureResult.intersections</definition>
+        <argsstring>(self, std_vector_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane arg1)</argsstring>
+        <name>intersections</name>
+        <qualifiedname>mrmeshpy.Features.MeasureResult.intersections</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__variant__Sphere__Vector3__float__Features__Primitives__ConeSe36744d36d6e8968ccd9e2b2f97409193" kindref="compound">std_vector_std_variant_Sphere_Vector3_float_Features_Primitives_ConeSegment_Features_Primitives_Plane</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18312" bodyend="18314"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Features::MeasureResult
+
+Stores the results of measuring two objects relative to one another.
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Features.MeasureResult</label>
+        <link refid="classmrmeshpy_1_1Features_1_1MeasureResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_centerDistance</edgelabel>
+          <edgelabel>_offsetof_distance</edgelabel>
+          <edgelabel>_offsetof_intersections</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>angle</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Features</label>
+        <link refid="classmrmeshpy_1_1Features"/>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18055" bodyend="18313"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a8a8d6632f0bc580d54e962f7b07b0c60" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a4f6d74fc302d7852c474514e6f3cbf75" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1afa9c5022a80e96cc58b1eebc59d0fb69" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a52dc7100c8a349797d8151ae3ef34b06" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a817d9091b5e043e9de283b8f1f0d8420" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>_offsetof_centerDistance</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a8028ebc4212ed747ec91a8111615de5d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>_offsetof_distance</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a0619935797efb125d13f72d690b159ad" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>_offsetof_intersections</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a03927fff38cebf5d19ce22ffe853e1a6" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>angle</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1aef93fc59c66d831d635811b4c589b471" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>centerDistance</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a45cddbd8a2a9bf3d9760bda7f4ed20c0" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>centerDistance</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a0d08cf2e2af5e7ba17d819441684665f" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a52d7ae1abc7c0826266b52a0e592cd02" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a552401574206527128d9f1e7c2e31eb5" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>intersections</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a3a4c218410da74d30c220ec072693a57" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>intersections</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a961f1f789df0a83281d1c5d5cd9d7ef4" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a961f1f789df0a83281d1c5d5cd9d7ef4" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1MeasureResult_1a436cc58866442880d0bd96ae26cf26cd" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::MeasureResult</scope><name>swapObjects</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

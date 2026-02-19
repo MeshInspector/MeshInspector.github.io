@@ -1,8 +1,6 @@
 var classMR_1_1PointsToMeshProjector =
 [
-    [ "PointsToMeshProjector", "../Csharp/classMR_1_1PointsToMeshProjector.html#ab2ca13a372a9a86bd4c96302a3fbb314", null ],
-    [ "PointsToMeshProjector", "../Csharp/classMR_1_1PointsToMeshProjector.html#a0af5d32bde4db88d396b14d034a34f90", null ],
-    [ "assign", "../Csharp/classMR_1_1PointsToMeshProjector.html#a2729f1c4ba34ebee45dc2ccf5cd3ea8c", null ],
-    [ "findProjections", "../Csharp/classMR_1_1PointsToMeshProjector.html#a29369000efd674585234824e3bf04f44", null ],
-    [ "updateMeshData", "../Csharp/classMR_1_1PointsToMeshProjector.html#a2df58658050abb7b4ee0857112ea8139", null ]
+    [ "findProjections", "group__GeneralGroup.html#gae194bedca304ad2f71754636df131baa", null ],
+    [ "projectionsHeapBytes", "group__GeneralGroup.html#ga3bf37be2e7fcb673d711ca176b94d282", null ],
+    [ "updateMeshData", "group__GeneralGroup.html#gafed176c7dbfe208569b144bdc9098406", null ]
 ];

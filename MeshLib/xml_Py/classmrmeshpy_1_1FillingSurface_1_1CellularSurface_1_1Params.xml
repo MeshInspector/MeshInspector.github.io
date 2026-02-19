@@ -1,0 +1,561 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillingSurface::CellularSurface::Params</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a099122b8c95697b12876b5f6daf0f8f0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.CellularSurface.Params::_offsetof_highRes</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_highRes</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params._offsetof_highRes</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19565" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1af2ea75c4bc0c41863d3df166bdc4db11" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.CellularSurface.Params::_offsetof_period</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_period</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params._offsetof_period</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19566" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a7285bc35833c5fa7bc4b140466f4db23" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.CellularSurface.Params::_offsetof_preserveTips</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_preserveTips</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params._offsetof_preserveTips</qualifiedname>
+        <initializer>=  33</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19567" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1ace48265bfd3c17532db764ec72e0d500" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.CellularSurface.Params::_offsetof_r</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_r</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params._offsetof_r</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19568" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a2734fea00f137bc7a695b72e2ba86f15" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.CellularSurface.Params::_offsetof_type</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_type</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params._offsetof_type</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19569" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1ab529e7286e1ed51fe8cbd3ae620ba8dd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillingSurface.CellularSurface.Params::_offsetof_width</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_width</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params._offsetof_width</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19570" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a1eb067678e12e51cace4a3321a335475" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19573" bodyend="19574"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a7fcd2791817b2b89f13149b09a5933f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">FillingSurface.CellularSurface.Params</ref></type>
+        <definition> FillingSurface.CellularSurface.Params mrmeshpy.FillingSurface.CellularSurface.Params.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19577" bodyend="19578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a7fcd2791817b2b89f13149b09a5933f5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">FillingSurface.CellularSurface.Params</ref></type>
+        <definition> FillingSurface.CellularSurface.Params mrmeshpy.FillingSurface.CellularSurface.Params.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19581" bodyend="19582"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1aae688de36aed01f827c10e96e5f67bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19584" bodyend="19585"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1ac0c23393093786aaf35453f9cb1936d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.__init__</definition>
+        <argsstring>(self, FillingSurface.CellularSurface.Params arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">FillingSurface.CellularSurface.Params</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19587" bodyend="19590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a9a5b0af772dd8415edbfda41bbef5167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.__init__</definition>
+        <argsstring>(self, FillingSurface.CellularSurface.Type type, Vector3f period, Vector3f width, float r, bool highRes, bool preserveTips)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Type" kindref="compound">FillingSurface.CellularSurface.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>period</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>highRes</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preserveTips</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19592" bodyend="19595"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a4f0a8d974ac88e2c0ef9ab6b3dade30e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillingSurface.CellularSurface.Params.highRes</definition>
+        <argsstring>(self)</argsstring>
+        <name>highRes</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.highRes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>used in tests in order to make surfaces close to their analytical expression
+recommended to be false for real usage for better performance
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19597" bodyend="19601"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a608269d6ecf2ee67b761f51f66a67029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.highRes</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>highRes</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.highRes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19603" bodyend="19604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a4210e5e34925ce1e2b9de7199751d7a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.FillingSurface.CellularSurface.Params.period</definition>
+        <argsstring>(self)</argsstring>
+        <name>period</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.period</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the distance between consecutive cylinders in each direction
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19606" bodyend="19609"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a105862c6c5026c9f9f1715cbe8ece667" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.period</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>period</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.period</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19611" bodyend="19612"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a42b02942abc77f875216148613c204cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FillingSurface.CellularSurface.Params.preserveTips</definition>
+        <argsstring>(self)</argsstring>
+        <name>preserveTips</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.preserveTips</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Used in tests for roughly the same purpose: the computations of density estimation are made under the assumption of an infinite surface.
+Thus, we must impose &quot;boundary conditions&quot; that inflict the &quot;tips&quot; of the bars (cylinders or cubes) to be preserved on the boundary of the
+generated filling surface. However, for the aesthetic reasons, it was requested that the tips must be cut in the UI. And here comes this flag.
+Note that for the estimation of density in UI the influence of &quot;tips&quot; is not significant (it tends to zero with growing size), however
+we cannot afford to run tests on too big surfaces as it takes too long.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19614" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19614" bodyend="19621"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a51325c38646c0b886ff04f9c51469ac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.preserveTips</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>preserveTips</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.preserveTips</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19623" bodyend="19624"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a9a47197bc35e3aea09602fe9913a9013" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FillingSurface.CellularSurface.Params.r</definition>
+        <argsstring>(self)</argsstring>
+        <name>r</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.r</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the radius of uniting spheres
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19626" bodyend="19629"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a080ab6a967b3cbfe3306f87d0e6f1339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.r</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>r</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.r</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19631" bodyend="19632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a776c6e06f894b78e784f04fd76bb2d42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Type" kindref="compound">FillingSurface.CellularSurface.Type</ref></type>
+        <definition> FillingSurface.CellularSurface.Type mrmeshpy.FillingSurface.CellularSurface.Params.type</definition>
+        <argsstring>(self)</argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the type of the base element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19634" bodyend="19637"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a34bc526b0d27b619884182105ea5aa59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.type</definition>
+        <argsstring>(self, FillingSurface.CellularSurface.Type arg1)</argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Type" kindref="compound">FillingSurface.CellularSurface.Type</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19639" bodyend="19640"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a2e9b1019b2264c34a62eb96b71d2d0c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.FillingSurface.CellularSurface.Params.width</definition>
+        <argsstring>(self)</argsstring>
+        <name>width</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.width</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the width of cylinders in each direction
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19642" bodyend="19645"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a268dbd0513f3bf683479d3717369f141" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillingSurface.CellularSurface.Params.width</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>width</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.Params.width</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19647" bodyend="19649"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FillingSurface::CellularSurface::Params
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FillingSurface.CellularSurface.Params</label>
+        <link refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_highRes</edgelabel>
+          <edgelabel>_offsetof_period</edgelabel>
+          <edgelabel>_offsetof_preserveTips</edgelabel>
+          <edgelabel>_offsetof_r</edgelabel>
+          <edgelabel>_offsetof_type</edgelabel>
+          <edgelabel>_offsetof_width</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19561" bodyend="19648"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a1eb067678e12e51cace4a3321a335475" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1aae688de36aed01f827c10e96e5f67bd0" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1ac0c23393093786aaf35453f9cb1936d6" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a9a5b0af772dd8415edbfda41bbef5167" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a099122b8c95697b12876b5f6daf0f8f0" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>_offsetof_highRes</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1af2ea75c4bc0c41863d3df166bdc4db11" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>_offsetof_period</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a7285bc35833c5fa7bc4b140466f4db23" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>_offsetof_preserveTips</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1ace48265bfd3c17532db764ec72e0d500" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>_offsetof_r</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a2734fea00f137bc7a695b72e2ba86f15" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>_offsetof_type</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1ab529e7286e1ed51fe8cbd3ae620ba8dd" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>_offsetof_width</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a4f0a8d974ac88e2c0ef9ab6b3dade30e" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>highRes</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a608269d6ecf2ee67b761f51f66a67029" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>highRes</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a7fcd2791817b2b89f13149b09a5933f5" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a7fcd2791817b2b89f13149b09a5933f5" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a4210e5e34925ce1e2b9de7199751d7a6" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>period</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a105862c6c5026c9f9f1715cbe8ece667" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>period</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a42b02942abc77f875216148613c204cc" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>preserveTips</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a51325c38646c0b886ff04f9c51469ac6" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>preserveTips</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a9a47197bc35e3aea09602fe9913a9013" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>r</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a080ab6a967b3cbfe3306f87d0e6f1339" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>r</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a776c6e06f894b78e784f04fd76bb2d42" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>type</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a34bc526b0d27b619884182105ea5aa59" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>type</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a2e9b1019b2264c34a62eb96b71d2d0c0" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>width</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params_1a268dbd0513f3bf683479d3717369f141" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface::Params</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

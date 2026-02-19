@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1LoadedObjectT__ObjectLines" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::LoadedObjectT_ObjectLines</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ab3ecf844776356aefe8d9f0dfeaf320e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LoadedObjectT_ObjectLines::_offsetof_lengthUnit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lengthUnit</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines._offsetof_lengthUnit</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26439" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a9ffcfcf37e3168e40a875dd30c6e3b05" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LoadedObjectT_ObjectLines::_offsetof_obj</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_obj</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines._offsetof_obj</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26440" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1abc491468487faaec928f90de94a72333" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LoadedObjectT_ObjectLines::_offsetof_warnings</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_warnings</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines._offsetof_warnings</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26441" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a7c14ac94197f2d17f587a165972c1b0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectLines.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26445" bodyend="26446"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a92780484a876357585b719532a2aa472" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines" kindref="compound">LoadedObjectT_ObjectLines</ref></type>
+        <definition> LoadedObjectT_ObjectLines mrmeshpy.LoadedObjectT_ObjectLines.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26449" bodyend="26450"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a92780484a876357585b719532a2aa472" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines" kindref="compound">LoadedObjectT_ObjectLines</ref></type>
+        <definition> LoadedObjectT_ObjectLines mrmeshpy.LoadedObjectT_ObjectLines.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26453" bodyend="26454"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ab66a4120cdd6d76ed1b06684cf198775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectLines.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26456" bodyend="26457"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ab246fe9ce5694679ab35adaa5e94507f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectLines.__init__</definition>
+        <argsstring>(self, LoadedObjectT_ObjectLines arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines" kindref="compound">LoadedObjectT_ObjectLines</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26459" bodyend="26462"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ac0a8da29c196c205b6fbc48291d5f420" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectLines.__init__</definition>
+        <argsstring>(self, ObjectLines obj, str warnings, std_optional_LengthUnit lengthUnit)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLines" kindref="compound">ObjectLines</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>warnings</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>lengthUnit</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26464" bodyend="26467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a375c4bd0e75d650a9937466631a73898" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+        <definition> std_optional_LengthUnit mrmeshpy.LoadedObjectT_ObjectLines.lengthUnit</definition>
+        <argsstring>(self)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>units of object coordinates and transformations (if known)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26469" bodyend="26472"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a395f292d3770792e1b11eee569865868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectLines.lengthUnit</definition>
+        <argsstring>(self, std_optional_LengthUnit arg1)</argsstring>
+        <name>lengthUnit</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.lengthUnit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__LengthUnit" kindref="compound">std_optional_LengthUnit</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26474" bodyend="26475"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ab6c90ce537e153dc158f8fd7cddefac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LoadedObjectT_ObjectLines.warnings</definition>
+        <argsstring>(self)</argsstring>
+        <name>warnings</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.warnings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>either empty or ends with &apos;\\n&apos;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26477" bodyend="26480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a2e5bdaa75b707a4d320a03fa3d8b4bc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LoadedObjectT_ObjectLines.warnings</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>warnings</name>
+        <qualifiedname>mrmeshpy.LoadedObjectT_ObjectLines.warnings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26482" bodyend="26483"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::LoadedObjectT&lt;MR::ObjectLines&gt;
+Aliases:  LoadedObjectLines
+
+result of loading (e.g. from a file) as one object (with possible subobjects)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.LoadedObjectT_ObjectLines</label>
+        <link refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_lengthUnit</edgelabel>
+          <edgelabel>_offsetof_obj</edgelabel>
+          <edgelabel>_offsetof_warnings</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26432" bodyend="26483"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a7c14ac94197f2d17f587a165972c1b0f" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ab66a4120cdd6d76ed1b06684cf198775" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ab246fe9ce5694679ab35adaa5e94507f" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ac0a8da29c196c205b6fbc48291d5f420" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ab3ecf844776356aefe8d9f0dfeaf320e" prot="protected" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>_offsetof_lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a9ffcfcf37e3168e40a875dd30c6e3b05" prot="protected" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>_offsetof_obj</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1abc491468487faaec928f90de94a72333" prot="protected" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>_offsetof_warnings</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a375c4bd0e75d650a9937466631a73898" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a395f292d3770792e1b11eee569865868" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>lengthUnit</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a92780484a876357585b719532a2aa472" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a92780484a876357585b719532a2aa472" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1ab6c90ce537e153dc158f8fd7cddefac3" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>warnings</name></member>
+      <member refid="classmrmeshpy_1_1LoadedObjectT__ObjectLines_1a2e5bdaa75b707a4d320a03fa3d8b4bc1" prot="public" virt="non-virtual"><scope>mrmeshpy::LoadedObjectT_ObjectLines</scope><name>warnings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,875 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MathGroup" kind="group">
+    <compoundname>MathGroup</compoundname>
+    <title>Math group</title>
+    <innerclass refid="structMR_1_1AffineXf" prot="public">MR::AffineXf</innerclass>
+    <innerclass refid="classMR_1_1QuadricApprox" prot="public">MR::QuadricApprox</innerclass>
+    <innerclass refid="structMR_1_1DenseBox" prot="public">MR::DenseBox</innerclass>
+    <innerclass refid="classMR_1_1Histogram" prot="public">MR::Histogram</innerclass>
+    <innerclass refid="structMR_1_1Line" prot="public">MR::Line</innerclass>
+    <innerclass refid="structMR_1_1Plane3" prot="public">MR::Plane3</innerclass>
+    <innerclass refid="structMR_1_1PreciseVertCoord" prot="public">MR::PreciseVertCoord</innerclass>
+    <innerclass refid="structMR_1_1QuadraticForm" prot="public">MR::QuadraticForm</innerclass>
+    <innerclass refid="structMR_1_1Quaternion" prot="public">MR::Quaternion</innerclass>
+    <innerclass refid="structMR_1_1SegmPoint" prot="public">MR::SegmPoint</innerclass>
+    <innerclass refid="structMR_1_1Sphere" prot="public">MR::Sphere</innerclass>
+    <innerclass refid="structMR_1_1TriPoint" prot="public">MR::TriPoint</innerclass>
+    <innergroup refid="group__ConversionBetween2and3dimGroup">2d &lt;-&gt; 3d conversion</innergroup>
+    <innergroup refid="group__BestFitGroup">BestFit</innergroup>
+    <innergroup refid="group__BoxGroup">Box</innergroup>
+    <innergroup refid="group__ConstantsGroup">Constants</innergroup>
+    <innergroup refid="group__ContourGroup">Contour</innergroup>
+    <innergroup refid="group__HighPrecisionGroup">High Precision</innergroup>
+    <innergroup refid="group__IntersectionGroup">Intersection</innergroup>
+    <innergroup refid="group__MatrixGroup">Matrix</innergroup>
+    <innergroup refid="group__AligningTransformGroup">Aligning Transform</innergroup>
+    <innergroup refid="group__RayBoxIntersectionGroup">Ray Box Intersection</innergroup>
+    <innergroup refid="group__TriangleIntersectionGroup">Triangle intersection</innergroup>
+    <innergroup refid="group__TupleBindingsGroup">Tuple Bindings</innergroup>
+    <innergroup refid="group__VectorGroup">Vector</innergroup>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="group__GeneralGroup_1gaf33aff000dfb310f8d4e2b79698c3373" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::orient3d</definition>
+        <argsstring>(const Vector3i &amp;a, const Vector3i &amp;b, const Vector3i &amp;c)</argsstring>
+        <name>orient3d</name>
+        <qualifiedname>MR::orient3d</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if the plane with orientated triangle ABC has 0 point at the left; uses simulation-of-simplicity to avoid &quot;0 is exactly on plane&quot; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="19" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" declline="19" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="user-defined">
+      <memberdef kind="function" id="group__MathGroup_1ga3f97fcf1b362e9c60d8a596aa8d1de68" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Vector2&lt; T &gt;</type>
+        <definition>Vector2&lt; T &gt; MR::fromEigen</definition>
+        <argsstring>(const Eigen::Matrix&lt; T, 2, 1 &gt; &amp;ev)</argsstring>
+        <name>fromEigen</name>
+        <qualifiedname>MR::fromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::Matrix&lt; T, 2, 1 &gt; &amp;</type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="25" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gac1420892e3e154a187396a8dd5e65291" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 2, 1 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 2, 1 &gt; MR::toEigen</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;v)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="31" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga57c0e085976ff3667bcc12e402216d6e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 2, 2 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 2, 2 &gt; MR::toEigen</definition>
+        <argsstring>(const SymMatrix2&lt; T &gt; &amp;m)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const SymMatrix2&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="37" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="37" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga8888d3eb79b0414fbc4855426d85cf9c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 2, 2 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 2, 2 &gt; MR::toEigen</definition>
+        <argsstring>(const Matrix2&lt; T &gt; &amp;m)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const Matrix2&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="46" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="46" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga49129aa06221938faa98e6295f0d790b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Matrix2&lt; T &gt;</type>
+        <definition>Matrix2&lt; T &gt; MR::fromEigen</definition>
+        <argsstring>(const Eigen::Matrix&lt; T, 2, 2 &gt; &amp;m)</argsstring>
+        <name>fromEigen</name>
+        <qualifiedname>MR::fromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::Matrix&lt; T, 2, 2 &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="55" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="55" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga2723ebec7d989320e407d70f0e8c00d4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Vector3&lt; T &gt;</type>
+        <definition>Vector3&lt; T &gt; MR::fromEigen</definition>
+        <argsstring>(const Eigen::Matrix&lt; T, 3, 1 &gt; &amp;ev)</argsstring>
+        <name>fromEigen</name>
+        <qualifiedname>MR::fromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::Matrix&lt; T, 3, 1 &gt; &amp;</type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="64" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga73ee1ad324c6bb082a748395b3802916" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 3, 1 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 3, 1 &gt; MR::toEigen</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;v)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="70" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga20b5ff1415d774bc26055b5734f9b306" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 3, 3 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 3, 3 &gt; MR::toEigen</definition>
+        <argsstring>(const SymMatrix3&lt; T &gt; &amp;m)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const SymMatrix3&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="76" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="76" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gabd50a577d1934b0c0a0aca008de7d541" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 3, 3 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 3, 3 &gt; MR::toEigen</definition>
+        <argsstring>(const Matrix3&lt; T &gt; &amp;m)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const Matrix3&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="86" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="86" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga4374661114398aca454e07dc09a7036c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Matrix3&lt; T &gt;</type>
+        <definition>Matrix3&lt; T &gt; MR::fromEigen</definition>
+        <argsstring>(const Eigen::Matrix&lt; T, 3, 3 &gt; &amp;m)</argsstring>
+        <name>fromEigen</name>
+        <qualifiedname>MR::fromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::Matrix&lt; T, 3, 3 &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="96" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="96" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gad38e7e445e2b0faa925e3df9c0ee75a6" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 4, 4 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 4, 4 &gt; MR::toEigen</definition>
+        <argsstring>(const SymMatrix4&lt; T &gt; &amp;m)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const SymMatrix4&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="106" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="106" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga4d999217b3e42b5726808b25c5c988cc" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 4, 4 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 4, 4 &gt; MR::toEigen</definition>
+        <argsstring>(const Matrix4&lt; T &gt; &amp;m)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const Matrix4&lt; T &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="117" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="117" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga3a19f42616def07ddf8bbf9e7dfff991" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Matrix4&lt; T &gt;</type>
+        <definition>Matrix4&lt; T &gt; MR::fromEigen</definition>
+        <argsstring>(const Eigen::Matrix&lt; T, 4, 4 &gt; &amp;m)</argsstring>
+        <name>fromEigen</name>
+        <qualifiedname>MR::fromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::Matrix&lt; T, 4, 4 &gt; &amp;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="128" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="128" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gad9b8ea723d950187f862ce89900a7534" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Vector4&lt; T &gt;</type>
+        <definition>Vector4&lt; T &gt; MR::fromEigen</definition>
+        <argsstring>(const Eigen::Matrix&lt; T, 4, 1 &gt; &amp;ev)</argsstring>
+        <name>fromEigen</name>
+        <qualifiedname>MR::fromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::Matrix&lt; T, 4, 1 &gt; &amp;</type>
+          <declname>ev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="139" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="139" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gab555a6f9afad6842444fcec85d56aded" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 4, 1 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 4, 1 &gt; MR::toEigen</definition>
+        <argsstring>(const Vector4&lt; T &gt; &amp;v)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const Vector4&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="145" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaacaca15888bdddf50a5db746c7955ca7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Matrix&lt; T, 4, 1 &gt;</type>
+        <definition>Eigen::Matrix&lt; T, 4, 1 &gt; MR::toEigen</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;v, T w)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="151" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="151" bodyend="154"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga628c148ec917a4f0bf1398a814476dde" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Quaternion&lt; T &gt;</type>
+        <definition>Quaternion&lt; T &gt; MR::fromEigen</definition>
+        <argsstring>(const Eigen::Quaternion&lt; T &gt; &amp;eq)</argsstring>
+        <name>fromEigen</name>
+        <qualifiedname>MR::fromEigen</qualifiedname>
+        <param>
+          <type>const Eigen::Quaternion&lt; T &gt; &amp;</type>
+          <declname>eq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="157" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="157" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gad703c1d9a93f5cf4e177808cbfef4deb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Eigen::Quaternion&lt; T &gt;</type>
+        <definition>Eigen::Quaternion&lt; T &gt; MR::toEigen</definition>
+        <argsstring>(const Quaternion&lt; T &gt; &amp;q)</argsstring>
+        <name>toEigen</name>
+        <qualifiedname>MR::toEigen</qualifiedname>
+        <param>
+          <type>const Quaternion&lt; T &gt; &amp;</type>
+          <declname>q</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" line="163" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRToFromEigen.h" bodystart="163" bodyend="166"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MathGroup_1ga9ae923a2855ed035b5d5f74b3162c0da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>AffineXf3&lt; T &gt;</type>
+        <definition>AffineXf3&lt; T &gt; MR::lookAt</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;center, const Vector3&lt; T &gt; &amp;eye, const Vector3&lt; T &gt; &amp;up)</argsstring>
+        <name>lookAt</name>
+        <qualifiedname>MR::lookAt</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>eye</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+<para>computes rigid transformation xf </para>
+        </briefdescription>
+        <detaileddescription>
+<para>xf.z - directed from center to eye <linebreak/>
+xf.x - directed orthogonal to up and xf.z <linebreak/>
+xf.y - directed orthogonal to xf.z and xf.x <linebreak/>
+xf(eye) = 0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf3.h" line="21" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf3.h" bodystart="21" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga3b002e846a245cb69384c1d444ea65a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>Box&lt; V &gt;</type>
+        <definition>Box&lt; V &gt; MR::computeBoundingBox</definition>
+        <argsstring>(const Vector&lt; V, VertId &gt; &amp;points, VertId firstVert, VertId lastVert, const VertBitSet *region=nullptr, const AffineXf&lt; V &gt; *toWorld=nullptr)</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>MR::computeBoundingBox</qualifiedname>
+        <param>
+          <type>const Vector&lt; V, VertId &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>firstVert</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>lastVert</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const AffineXf&lt; V &gt; *</type>
+          <declname>toWorld</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>passes through all region points 1) in the range [firstVert, lastVert) 2) corresponding to set bits in region (if provided) and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" line="19" column="5" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" declline="19" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga560ffd3d317d3bb18df9db6aae8c2d02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>Box&lt; V &gt;</type>
+        <definition>Box&lt; V &gt; MR::computeBoundingBox</definition>
+        <argsstring>(const Vector&lt; V, VertId &gt; &amp;points, const VertBitSet *region=nullptr, const AffineXf&lt; V &gt; *toWorld=nullptr)</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>MR::computeBoundingBox</qualifiedname>
+        <param>
+          <type>const Vector&lt; V, VertId &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <param>
+          <type>const AffineXf&lt; V &gt; *</type>
+          <declname>toWorld</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>passes through all region points corresponding to set bits in region (if provided) and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" line="26" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gac591d793fa5ee868f8255a94350e1aef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>Box&lt; V &gt;</type>
+        <definition>Box&lt; V &gt; MR::computeBoundingBox</definition>
+        <argsstring>(const Vector&lt; V, VertId &gt; &amp;points, const VertBitSet &amp;region, const AffineXf&lt; V &gt; *toWorld=nullptr)</argsstring>
+        <name>computeBoundingBox</name>
+        <qualifiedname>MR::computeBoundingBox</qualifiedname>
+        <param>
+          <type>const Vector&lt; V, VertId &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>const AffineXf&lt; V &gt; *</type>
+          <declname>toWorld</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>passes through all region points corresponding to set bits in region and finds the minimal bounding box containing all of them; if toWorld transformation is given then returns minimal bounding box in world space </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" line="36" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRComputeBoundingBox.h" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaf420bd1285dda4239d2ac0fac2eff1f9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API AffineXf3d</type>
+        <definition>MRMESH_API AffineXf3d MR::makeRigidXf</definition>
+        <argsstring>(const MeshPart &amp;mp, const AffineXf3d &amp;meshXf)</argsstring>
+        <name>makeRigidXf</name>
+        <qualifiedname>MR::makeRigidXf</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>const AffineXf3d &amp;</type>
+          <declname>meshXf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given a mesh part and its arbitrary transformation, computes and returns the rigid transformation that best approximates meshXf </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeRigidXf.h" line="14" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMakeRigidXf.h" declline="14" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga97b0c226492f4561c1a2c13831433bed" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::circumcircleDiameterSq</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>circumcircleDiameterSq</name>
+        <qualifiedname>MR::circumcircleDiameterSq</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the squared diameter of the triangle&apos;s ABC circumcircle; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="21" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="21" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaba44f8d705d9bc1b98f635bdabe488ae" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::circumcircleDiameter</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>circumcircleDiameter</name>
+        <qualifiedname>MR::circumcircleDiameter</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the diameter of the triangle&apos;s ABC circumcircle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="41" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaf5af7058ce54bba6fc77a344d28b9826" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::minTriangleAngleSin</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>minTriangleAngleSin</name>
+        <qualifiedname>MR::minTriangleAngleSin</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes sine of minimal angle in ABC triangle, which is equal to ratio of minimal edge length to circumcircle diameter </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="95" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="95" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga2fbcc5b76ec7e12da86bc99895ac6fc9" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::triangleAspectRatio</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>triangleAspectRatio</name>
+        <qualifiedname>MR::triangleAspectRatio</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Aspect ratio of a triangle is the ratio of the circum-radius to twice its in-radius </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="115" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="115" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga92b796fca017138671758654b2838d56" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::dihedralAngleSin</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;leftNorm, const Vector3&lt; T &gt; &amp;rightNorm, const Vector3&lt; T &gt; &amp;edgeVec)</argsstring>
+        <name>dihedralAngleSin</name>
+        <qualifiedname>MR::dihedralAngleSin</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>leftNorm</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>rightNorm</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>edgeVec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given an edge direction between two faces with given normals, computes sine of dihedral angle between the faces: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="257" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="257" bodyend="261"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1gaa45975718eae0ae8c5500147ee8c27d1" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::dihedralAngleCos</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;leftNorm, const Vector3&lt; T &gt; &amp;rightNorm)</argsstring>
+        <name>dihedralAngleCos</name>
+        <qualifiedname>MR::dihedralAngleCos</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>leftNorm</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>rightNorm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given two face normals, computes cosine of dihedral angle between the faces: 1 if both faces are in the same plane, 0 if the surface makes right angle turn at the edge, -1 if the faces overlap one another </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="269" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="269" bodyend="272"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MathGroup_1ga84b1b2dc1c73856fecb9b8617c174b04" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::dihedralAngle</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;leftNorm, const Vector3&lt; T &gt; &amp;rightNorm, const Vector3&lt; T &gt; &amp;edgeVec)</argsstring>
+        <name>dihedralAngle</name>
+        <qualifiedname>MR::dihedralAngle</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>leftNorm</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>rightNorm</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>edgeVec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given an edge direction between two faces with given normals (not necessary of unit length), computes the dihedral angle between the faces: 0 if both faces are in the same plane, positive if the faces form convex surface, negative if the faces form concave surface; please consider the usage of faster dihedralAngleSin(e) and dihedralAngleCos(e) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" line="281" column="4" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriMath.h" bodystart="281" bodyend="286"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

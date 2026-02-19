@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BinaryOperations" kind="class" language="C++" prot="public">
+    <compoundname>MR::BinaryOperations</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">StatePlugin</basecompoundref>
+    <basecompoundref refid="classMR_1_1SceneStateExactCheck" prot="public" virt="non-virtual">MR::SceneStateExactCheck&lt; 2, ObjectVoxels &gt;</basecompoundref>
+    <basecompoundref refid="classMR_1_1PluginCloseOnSelectedObjectRemove" prot="public" virt="non-virtual">MR::PluginCloseOnSelectedObjectRemove</basecompoundref>
+    <includes refid="MRBinaryOperationsPlugin_8h" local="no">MRBinaryOperationsPlugin.h</includes>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1ga96ac8ef99c2fe0087044f6e56cc06570" kind="enum"><name>Operation</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga19598aba58399ca4a10dcb1b6ad866c5" kind="variable"><name>obj1_</name></member>
+      <member refid="group__GeneralGroup_1ga231244084d8780912abe37387a0d00d8" kind="variable"><name>obj2_</name></member>
+      <member refid="group__GeneralGroup_1ga81c2291cce9aae1284a419d58a435045" kind="variable"><name>conn1_</name></member>
+      <member refid="group__GeneralGroup_1ga6f2dfa4622acc1c58543ed3d048e4267" kind="variable"><name>conn2_</name></member>
+      <member refid="group__GeneralGroup_1gab12e71396f11f239161ac82dec485849" kind="variable"><name>enabledOps_</name></member>
+      <member refid="group__GeneralGroup_1ga70f7b78ffd9a9b51bab87f1023fd0251" kind="variable"><name>enabledOpsTooltips_</name></member>
+      <member refid="group__GeneralGroup_1ga08181ac6ddca4ba3e1f08d480babca34" kind="variable"><name>previewRes_</name></member>
+      <member refid="group__GeneralGroup_1gad6d4e43dc2ab0df4440bbdb7e132080f" kind="variable"><name>previewMode_</name></member>
+      <member refid="group__GeneralGroup_1gadc2ed9338c4d8225aa3d5ead92edde00" kind="variable"><name>operation_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga24b375764095f9afbc2c745c8242f877" kind="function"><name>BinaryOperations</name></member>
+      <member refid="group__GeneralGroup_1ga4f95cb89a4264a9f31a3acf0fe27003f" kind="function"><name>drawDialog</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga1bbd341fda7ffa2756396b7558bd9a5a" kind="function"><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga46f705084eaeb59669db6a08444a55a0" kind="function"><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga7ac0b5d91f18f8d363fcc5720f20316b" kind="function"><name>doOperation_</name></member>
+      <member refid="group__GeneralGroup_1ga1f577d2bc1efdf37a75d13a8b029ceb9" kind="function"><name>onTransformChange</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::BinaryOperations</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="4">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="5">
+        <label>MR::PluginCloseOnSelectedObjectRemove</label>
+        <link refid="classMR_1_1PluginCloseOnSelectedObjectRemove"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::SceneStateExactCheck&lt; 2, ObjectVoxels &gt;</label>
+        <link refid="classMR_1_1SceneStateExactCheck"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StatePlugin</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::BinaryOperations</label>
+        <link refid="classMR_1_1BinaryOperations"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="4">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="5">
+        <label>MR::PluginCloseOnSelectedObjectRemove</label>
+        <link refid="classMR_1_1PluginCloseOnSelectedObjectRemove"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::SceneStateExactCheck&lt; 2, ObjectVoxels &gt;</label>
+        <link refid="classMR_1_1SceneStateExactCheck"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StatePlugin</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Voxels/MRBinaryOperationsPlugin.h" bodystart="18" bodyend="56"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga24b375764095f9afbc2c745c8242f877" prot="public" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>BinaryOperations</name></member>
+      <member refid="group__GeneralGroup_1ga81c2291cce9aae1284a419d58a435045" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>conn1_</name></member>
+      <member refid="group__GeneralGroup_1ga6f2dfa4622acc1c58543ed3d048e4267" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>conn2_</name></member>
+      <member refid="group__GeneralGroup_1ga7ac0b5d91f18f8d363fcc5720f20316b" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>doOperation_</name></member>
+      <member refid="group__GeneralGroup_1ga4f95cb89a4264a9f31a3acf0fe27003f" prot="public" virt="virtual"><scope>MR::BinaryOperations</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gab12e71396f11f239161ac82dec485849" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>enabledOps_</name></member>
+      <member refid="group__GeneralGroup_1ga70f7b78ffd9a9b51bab87f1023fd0251" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>enabledOpsTooltips_</name></member>
+      <member refid="group__GeneralGroup_1gabcdaa2e32bc223876a3043e83eb591e8" prot="public" virt="virtual"><scope>MR::BinaryOperations</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga19598aba58399ca4a10dcb1b6ad866c5" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>obj1_</name></member>
+      <member refid="group__GeneralGroup_1ga231244084d8780912abe37387a0d00d8" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>obj2_</name></member>
+      <member refid="group__GeneralGroup_1ga46f705084eaeb59669db6a08444a55a0" prot="private" virt="virtual"><scope>MR::BinaryOperations</scope><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga1bbd341fda7ffa2756396b7558bd9a5a" prot="private" virt="virtual"><scope>MR::BinaryOperations</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga3692cfee7d26f636f2487f01cfa6afc8" prot="protected" virt="virtual"><scope>MR::BinaryOperations</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga4be1eca9d7909ac4a5cbe2b48ceee2f2" prot="protected" virt="virtual"><scope>MR::BinaryOperations</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga1f577d2bc1efdf37a75d13a8b029ceb9" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>onTransformChange</name></member>
+      <member refid="group__GeneralGroup_1ga96ac8ef99c2fe0087044f6e56cc06570" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>Operation</name></member>
+      <member refid="group__GeneralGroup_1gadc2ed9338c4d8225aa3d5ead92edde00" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>operation_</name></member>
+      <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::BinaryOperations</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1gad6d4e43dc2ab0df4440bbdb7e132080f" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>previewMode_</name></member>
+      <member refid="group__GeneralGroup_1ga08181ac6ddca4ba3e1f08d480babca34" prot="private" virt="non-virtual"><scope>MR::BinaryOperations</scope><name>previewRes_</name></member>
+      <member refid="group__GeneralGroup_1ga174d0cc22e4a0b69220109e026efaf7f" prot="protected" virt="virtual"><scope>MR::BinaryOperations</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::BinaryOperations</scope><name>~IPluginUpdate</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::BinaryOperations</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga1e1b5cbd3ebad0cb3495f2ebb2100b84" prot="public" virt="virtual"><scope>MR::BinaryOperations</scope><name>~SceneStateExactCheck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshProjectionParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshProjectionParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshProjectionParameters_1a5ad9831065ad029119aca9815b89b90e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshProjectionParameters::_offsetof_loDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_loDistLimitSq</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters._offsetof_loDistLimitSq</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33963" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshProjectionParameters_1a5fef8af31b5237801d82a1cff8bed21e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshProjectionParameters::_offsetof_refXf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_refXf</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters._offsetof_refXf</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33964" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshProjectionParameters_1aba5e31aa861f692659d084cac833ec28" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshProjectionParameters::_offsetof_upDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_upDistLimitSq</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters._offsetof_upDistLimitSq</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33965" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshProjectionParameters_1a1b53c6445ae081269ba2b784b430a106" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshProjectionParameters::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters._offsetof_xf</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33966" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1af3f3e1a595947028ef9db285a58c5b4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshProjectionParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33969" bodyend="33970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1abcb818b8c0135dc419ad1c420c6ba0c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshProjectionParameters" kindref="compound">MeshProjectionParameters</ref></type>
+        <definition> MeshProjectionParameters mrmeshpy.MeshProjectionParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33973" bodyend="33974"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1abcb818b8c0135dc419ad1c420c6ba0c7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshProjectionParameters" kindref="compound">MeshProjectionParameters</ref></type>
+        <definition> MeshProjectionParameters mrmeshpy.MeshProjectionParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33977" bodyend="33978"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1ade77b7d309a3b8a5bf4dc203c319d708" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshProjectionParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33980" bodyend="33981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1a2659a82ec5ac46a8436c4bee3d69cf89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshProjectionParameters.__init__</definition>
+        <argsstring>(self, MeshProjectionParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshProjectionParameters" kindref="compound">MeshProjectionParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33983" bodyend="33986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1a270d0ee15c931bfc53157f175601750a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshProjectionParameters.__init__</definition>
+        <argsstring>(self, float loDistLimitSq, float upDistLimitSq, AffineXf3f refXf, AffineXf3f xf)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>loDistLimitSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>refXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33988" bodyend="33991"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1afbf6cf1408c58b02fa4ae62fcf692a45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshProjectionParameters.loDistLimitSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>loDistLimitSq</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.loDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimum squared distance from a test point to mesh to be computed precisely,
+if a mesh point is found within this distance then it is immediately returned without searching for a closer one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33993" bodyend="33997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1a1526a2d788daa1701273e22407498555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshProjectionParameters.loDistLimitSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>loDistLimitSq</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.loDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33999" bodyend="34000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1a74f2f495a12b8cf44e166190d187db9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshProjectionParameters.refXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>refXf</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.refXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional reference mesh to world transformation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34002" bodyend="34005"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1a0be29b7e2ef2478af9fa73ce1cc0dfe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshProjectionParameters.refXf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>refXf</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.refXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34007" bodyend="34008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1a017dbe99230c468f07f327980de2efcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshProjectionParameters.upDistLimitSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.upDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum squared distance from a test point to mesh to be computed precisely,
+if actual distance is larger than upDistLimit will be returned with not-trusted sign
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34010" bodyend="34014"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1a20069d28a6e51e1b0e5191ee1a0bfb29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshProjectionParameters.upDistLimitSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.upDistLimitSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34016" bodyend="34017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1a05cee59412c896f7b16bb6735dcdbe07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MeshProjectionParameters.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional test points to world transformation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34019" bodyend="34022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshProjectionParameters_1a573509a03e0cdb1c1d19164f260d9ce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshProjectionParameters.xf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.MeshProjectionParameters.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34024" bodyend="34025"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshProjectionParameters
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshProjectionParameters</label>
+        <link refid="classmrmeshpy_1_1MeshProjectionParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_loDistLimitSq</edgelabel>
+          <edgelabel>_offsetof_refXf</edgelabel>
+          <edgelabel>_offsetof_upDistLimitSq</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33959" bodyend="34025"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1af3f3e1a595947028ef9db285a58c5b4c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1ade77b7d309a3b8a5bf4dc203c319d708" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a2659a82ec5ac46a8436c4bee3d69cf89" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a270d0ee15c931bfc53157f175601750a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a5ad9831065ad029119aca9815b89b90e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>_offsetof_loDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a5fef8af31b5237801d82a1cff8bed21e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>_offsetof_refXf</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1aba5e31aa861f692659d084cac833ec28" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>_offsetof_upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a1b53c6445ae081269ba2b784b430a106" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1afbf6cf1408c58b02fa4ae62fcf692a45" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>loDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a1526a2d788daa1701273e22407498555" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>loDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1abcb818b8c0135dc419ad1c420c6ba0c7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1abcb818b8c0135dc419ad1c420c6ba0c7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a74f2f495a12b8cf44e166190d187db9b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>refXf</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a0be29b7e2ef2478af9fa73ce1cc0dfe0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>refXf</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a017dbe99230c468f07f327980de2efcc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a20069d28a6e51e1b0e5191ee1a0bfb29" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>upDistLimitSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a05cee59412c896f7b16bb6735dcdbe07" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1MeshProjectionParameters_1a573509a03e0cdb1c1d19164f260d9ce7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshProjectionParameters</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

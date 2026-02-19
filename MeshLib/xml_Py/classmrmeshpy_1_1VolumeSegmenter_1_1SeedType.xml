@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VolumeSegmenter::SeedType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a6deb0133a56e834901ee6704885c91a0" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeSegmenter.SeedType::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" kindref="compound">VolumeSegmenter.SeedType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a63026e6c144659bdf9123d36f4e28e0b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeSegmenter.SeedType::Inside</definition>
+        <argsstring></argsstring>
+        <name>Inside</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.Inside</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" kindref="compound">VolumeSegmenter.SeedType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72532" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ae8aaddea35c2d8870fde351e97ba3757" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeSegmenter.SeedType::Outside</definition>
+        <argsstring></argsstring>
+        <name>Outside</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.Outside</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" kindref="compound">VolumeSegmenter.SeedType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72533" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ac3f6bdda14d589fcdfe68f7f3047263a" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VolumeSegmenter.SeedType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType" kindref="compound">VolumeSegmenter.SeedType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72534" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a431c61e2a0d38b16f370c3ca4b95b394" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VolumeSegmenter.SeedType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72535" bodyend="72536"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a1e088a9379b699608fb28aca16792748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeSegmenter.SeedType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72537" bodyend="72538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a72f102c6299a7fd24c34c151bc03e09b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeSegmenter.SeedType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72539" bodyend="72540"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a6f594fc179804fa03a7044b66f09799f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeSegmenter.SeedType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72541" bodyend="72542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1acb8ba26972efd680464a5181a8435ce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmenter.SeedType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72543" bodyend="72544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1aaa7de7addf94cf6d1172abbc44905bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeSegmenter.SeedType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72545" bodyend="72546"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ad842efae70a88549ead69d37e749cd7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VolumeSegmenter.SeedType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72547" bodyend="72548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ae83424679d7a3cb4a7cf71cd43e9f0a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VolumeSegmenter.SeedType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72549" bodyend="72550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ae0a32ad5c18ac48720992393d92c6575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeSegmenter.SeedType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72551" bodyend="72552"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a6af6f157d75e5f1aeb7e26ace4fb9458" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VolumeSegmenter.SeedType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72553" bodyend="72554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a4fb6f3cacba723a6a5360dd98ccde000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VolumeSegmenter.SeedType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72556" bodyend="72557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ad30e2631ceed8fd28d5cd778796e1f52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeSegmenter.SeedType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.VolumeSegmenter.SeedType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72559" bodyend="72561"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Inside
+
+  Outside
+
+  Count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VolumeSegmenter.SeedType</label>
+        <link refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Count</edgelabel>
+          <edgelabel>Inside</edgelabel>
+          <edgelabel>Outside</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72521" bodyend="72560"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a431c61e2a0d38b16f370c3ca4b95b394" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a1e088a9379b699608fb28aca16792748" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a72f102c6299a7fd24c34c151bc03e09b" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a6f594fc179804fa03a7044b66f09799f" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1acb8ba26972efd680464a5181a8435ce1" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1aaa7de7addf94cf6d1172abbc44905bca" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ac3f6bdda14d589fcdfe68f7f3047263a" prot="private" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ad842efae70a88549ead69d37e749cd7a" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ae83424679d7a3cb4a7cf71cd43e9f0a3" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ae0a32ad5c18ac48720992393d92c6575" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a6af6f157d75e5f1aeb7e26ace4fb9458" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a6deb0133a56e834901ee6704885c91a0" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a63026e6c144659bdf9123d36f4e28e0b" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>Inside</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1a4fb6f3cacba723a6a5360dd98ccde000" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ae8aaddea35c2d8870fde351e97ba3757" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>Outside</name></member>
+      <member refid="classmrmeshpy_1_1VolumeSegmenter_1_1SeedType_1ad30e2631ceed8fd28d5cd778796e1f52" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeSegmenter::SeedType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

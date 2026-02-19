@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1ButtonCustomizationParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::ButtonCustomizationParams</compoundname>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga535ce8036fde0db76e18417ab476bf53" kind="variable"><name>enabled</name></member>
+      <member refid="group__GeneralGroup_1ga4f1e3048ba6230a8535ee31a43944921" kind="variable"><name>flags</name></member>
+      <member refid="group__GeneralGroup_1ga39f7611697c3b8dca64336b3cc48a7cc" kind="variable"><name>customTexture</name></member>
+      <member refid="group__GeneralGroup_1gaa156c6a89d078c902ee22cbfb09bfc42" kind="variable"><name>forceImGuiBackground</name></member>
+      <member refid="group__GeneralGroup_1ga28dc0364454bce82687aec5e5773623b" kind="variable"><name>forceImguiTextColor</name></member>
+      <member refid="group__GeneralGroup_1ga44e7a1e13298276ebd757d7e318111a0" kind="variable"><name>border</name></member>
+      <member refid="group__GeneralGroup_1gaa05d1e76244fb6b4afc1122ad02e1d5e" kind="variable"><name>underlineFirstLetter</name></member>
+      <member refid="group__GeneralGroup_1gace10f316495c9cf052464a0154fee1c5" kind="variable"><name>enableTestEngine</name></member>
+      <member refid="group__GeneralGroup_1ga95c7d0696bf82bdb91773e3df15adce1" kind="variable"><name>testEngineName</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>parameters to customize buttonEx </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ImGuiImage</label>
+        <link refid="classMR_1_1ImGuiImage"/>
+      </node>
+      <node id="1">
+        <label>MR::UI::ButtonCustomizationParams</label>
+        <link refid="structMR_1_1UI_1_1ButtonCustomizationParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>customTexture</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="65" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="66" bodyend="94"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga44e7a1e13298276ebd757d7e318111a0" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>border</name></member>
+      <member refid="group__GeneralGroup_1ga39f7611697c3b8dca64336b3cc48a7cc" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>customTexture</name></member>
+      <member refid="group__GeneralGroup_1ga535ce8036fde0db76e18417ab476bf53" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>enabled</name></member>
+      <member refid="group__GeneralGroup_1gace10f316495c9cf052464a0154fee1c5" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>enableTestEngine</name></member>
+      <member refid="group__GeneralGroup_1ga4f1e3048ba6230a8535ee31a43944921" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>flags</name></member>
+      <member refid="group__GeneralGroup_1gaa156c6a89d078c902ee22cbfb09bfc42" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>forceImGuiBackground</name></member>
+      <member refid="group__GeneralGroup_1ga28dc0364454bce82687aec5e5773623b" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>forceImguiTextColor</name></member>
+      <member refid="group__GeneralGroup_1ga95c7d0696bf82bdb91773e3df15adce1" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>testEngineName</name></member>
+      <member refid="group__GeneralGroup_1gaa05d1e76244fb6b4afc1122ad02e1d5e" prot="public" virt="non-virtual"><scope>MR::UI::ButtonCustomizationParams</scope><name>underlineFirstLetter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

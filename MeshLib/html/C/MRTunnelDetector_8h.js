@@ -10,6 +10,7 @@ var MRTunnelDetector_8h =
     [ "MR_std_function_bool_from_float", "MRTunnelDetector_8h.html#adb03ce28cacfff1e499d75d512dc4a84", null ],
     [ "MR_std_function_float_from_MR_EdgeId", "MRTunnelDetector_8h.html#abe08d8d5c70c2a7fb9600f5a1dfd1687", null ],
     [ "MR_std_vector_MR_EdgeId", "MRTunnelDetector_8h.html#aa2cb99914308eb7429fd11738cf79483", null ],
+    [ "MR_std_vector_std_vector_MR_EdgeId", "MRTunnelDetector_8h.html#ab5de264b6065dbf84f6b3fa0f6530592", null ],
     [ "MR_detectBasisTunnels", "MRTunnelDetector_8h.html#a3b79bba0199bbbcb1eb8ac8340e40d90", null ],
     [ "MR_detectTunnelFaces", "MRTunnelDetector_8h.html#a1ab3a3b417424770b909ef7ac3611c94", null ],
     [ "MR_DetectTunnelSettings_AssignFromAnother", "MRTunnelDetector_8h.html#aac5a4d8be3ed226e37cbbcd056d7df34", null ],
@@ -40,5 +41,7 @@ var MRTunnelDetector_8h =
     [ "MR_DetectTunnelSettings_Set_metric", "MRTunnelDetector_8h.html#afd3fc575adea56c6e315220126442739", null ],
     [ "MR_DetectTunnelSettings_Set_progress", "MRTunnelDetector_8h.html#a0da7f2e8a48e5f00a4d90c982e7da6ec", null ],
     [ "MR_findShortestCoLoop", "MRTunnelDetector_8h.html#aa1eb7e94c86e5dd20f717918805ad185", null ],
-    [ "MR_findSmallestMetricCoLoop", "MRTunnelDetector_8h.html#a1164232423f7ea43c12239f68751120d", null ]
+    [ "MR_findShortestEquivalentLoops", "MRTunnelDetector_8h.html#a882085d7d896daf49a4f01589227bd1e", null ],
+    [ "MR_findSmallestMetricCoLoop", "MRTunnelDetector_8h.html#a1164232423f7ea43c12239f68751120d", null ],
+    [ "MR_findSmallestMetricEquivalentLoops", "MRTunnelDetector_8h.html#a69c51f1b2e49fad5c89d56d966597de5", null ]
 ];

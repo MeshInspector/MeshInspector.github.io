@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PartialChangeMeshDataAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::PartialChangeMeshDataAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeMeshDataAction_8h" local="no">MRChangeMeshDataAction.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1PartialChangeMeshDataAction_1a0d23198d4fe1b60970b70ff825ff8a8d" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; <ref refid="classMR_1_1CombinedHistoryAction" kindref="compound">CombinedHistoryAction</ref> &gt;</type>
+        <definition>std::unique_ptr&lt;CombinedHistoryAction&gt; MR::PartialChangeMeshDataAction::combinedAction_</definition>
+        <argsstring></argsstring>
+        <name>combinedAction_</name>
+        <qualifiedname>MR::PartialChangeMeshDataAction::combinedAction_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="108" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a599df9d6ebfab0e276d415c75438e2de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API</type>
+        <definition>MRMESH_API MR::PartialChangeMeshDataAction::PartialChangeMeshDataAction</definition>
+        <argsstring>(std::string name, const std::shared_ptr&lt; ObjectMesh &gt; &amp;obj, ObjectMeshData &amp;&amp;newData)</argsstring>
+        <name>PartialChangeMeshDataAction</name>
+        <qualifiedname>MR::PartialChangeMeshDataAction::PartialChangeMeshDataAction</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt; &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> &amp;&amp;</type>
+          <declname>newData</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s data and immediately set new data </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="83" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::PartialChangeMeshDataAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::PartialChangeMeshDataAction::name</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="85" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="85" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a846fb0d5a0466f922b3fd7fca3c1b516" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::PartialChangeMeshDataAction::action</definition>
+        <argsstring>(HistoryAction::Type type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::PartialChangeMeshDataAction::action</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="93" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshDataAction_1a0506227ed109f9b28b74220235172ddc" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::PartialChangeMeshDataAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::PartialChangeMeshDataAction::heapBytes</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="99" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="99" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for <ref refid="structMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> change partially. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::PartialChangeMeshDataAction</label>
+        <link refid="classMR_1_1PartialChangeMeshDataAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::PartialChangeMeshDataAction</label>
+        <link refid="classMR_1_1PartialChangeMeshDataAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" line="79" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeMeshDataAction.h" bodystart="80" bodyend="109"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PartialChangeMeshDataAction_1a846fb0d5a0466f922b3fd7fca3c1b516" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>action</name></member>
+      <member refid="classMR_1_1PartialChangeMeshDataAction_1a0d23198d4fe1b60970b70ff825ff8a8d" prot="private" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>combinedAction_</name></member>
+      <member refid="classMR_1_1PartialChangeMeshDataAction_1a0506227ed109f9b28b74220235172ddc" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1PartialChangeMeshDataAction_1a86738a241e4ba1a61752fd26623c61e3" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>name</name></member>
+      <member refid="classMR_1_1PartialChangeMeshDataAction_1a599df9d6ebfab0e276d415c75438e2de" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>PartialChangeMeshDataAction</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::PartialChangeMeshDataAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

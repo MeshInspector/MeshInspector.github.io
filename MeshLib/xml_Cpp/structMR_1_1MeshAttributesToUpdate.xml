@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshAttributesToUpdate" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshAttributesToUpdate</compoundname>
+    <includes refid="MRMeshAttributesToUpdate_8h" local="no">MRMeshAttributesToUpdate.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaca8eecaf6d18987308450e4834bb50cd" kind="variable"><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1ga161c46fbd4edb96386ef840eb0fe9fc7" kind="variable"><name>colorMap</name></member>
+      <member refid="group__GeneralGroup_1gaee9a5a30ffb7f9f758de6307f4916794" kind="variable"><name>texturePerFace</name></member>
+      <member refid="group__GeneralGroup_1ga7b265a7a8c17525854733647c2bf3363" kind="variable"><name>faceColors</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>the attribute data of the mesh that needs to be updated </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshAttributesToUpdate.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshAttributesToUpdate.h" bodystart="13" bodyend="19"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga161c46fbd4edb96386ef840eb0fe9fc7" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>colorMap</name></member>
+      <member refid="group__GeneralGroup_1ga7b265a7a8c17525854733647c2bf3363" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1gaee9a5a30ffb7f9f758de6307f4916794" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>texturePerFace</name></member>
+      <member refid="group__GeneralGroup_1gaca8eecaf6d18987308450e4834bb50cd" prot="public" virt="non-virtual"><scope>MR::MeshAttributesToUpdate</scope><name>uvCoords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

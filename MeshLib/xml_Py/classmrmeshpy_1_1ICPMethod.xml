@@ -1,0 +1,355 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ICPMethod" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ICPMethod</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ICPMethod_1ae709a0c816285035e0aa76d406e3c019" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ICPMethod::Combined</definition>
+        <argsstring></argsstring>
+        <name>Combined</name>
+        <qualifiedname>mrmeshpy.ICPMethod.Combined</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ICPMethod" kindref="compound">ICPMethod</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ICPMethod_1adc158d83f7e8038ec45f5e067d86eb36" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ICPMethod::PointToPlane</definition>
+        <argsstring></argsstring>
+        <name>PointToPlane</name>
+        <qualifiedname>mrmeshpy.ICPMethod.PointToPlane</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ICPMethod" kindref="compound">ICPMethod</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ICPMethod_1a9e3919abeb6d284fb49bb6f8c6ea102d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ICPMethod::PointToPoint</definition>
+        <argsstring></argsstring>
+        <name>PointToPoint</name>
+        <qualifiedname>mrmeshpy.ICPMethod.PointToPoint</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ICPMethod" kindref="compound">ICPMethod</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23200" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ICPMethod_1a8ce08ccea8e4cbf01de729ef7b6c3dbd" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ICPMethod::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1ICPMethod" kindref="compound">ICPMethod</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23201" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1ab7034d9c177bd30d800054e286cf9cc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ICPMethod.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23202" bodyend="23203"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1a0362014da7fcdcf1389e44df01a397b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ICPMethod.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23204" bodyend="23205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1ac2d04531ceb4cedab24d8abd7e016343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ICPMethod.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23206" bodyend="23207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1a3b0e44b1dd7538d263a9f23385700218" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ICPMethod.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23208" bodyend="23209"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1a802b99ad3d83e072276231d9c2d1b2eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ICPMethod.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23210" bodyend="23211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1a05bceab9be673a53a992082c8f9d1958" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ICPMethod.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23212" bodyend="23213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1aaf510bad530739b5dfdf1b595fff1fe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ICPMethod.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23214" bodyend="23215"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1ac11bce40432ace8d924592e20987e730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ICPMethod.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23216" bodyend="23217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1a11def047018a8f9a391b5911f354317e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ICPMethod.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23218" bodyend="23219"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1a928d572710c62ae12cfaa8e010b78aba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ICPMethod.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.ICPMethod.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23220" bodyend="23221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1a9a37869c1689d1b4d71d0b8eef4e4273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ICPMethod.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ICPMethod.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23223" bodyend="23224"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ICPMethod_1aa5af4150149916ce301c320bc81b7401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ICPMethod.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.ICPMethod.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23226" bodyend="23227"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Combined : PointToPoint for the first 2 iterations, and PointToPlane for the remaining iterations
+
+  PointToPoint : select transformation that minimizes mean squared distance between two points in each pair,
+it is the safest approach but can converge slowly
+
+  PointToPlane : select transformation that minimizes mean squared distance between a point and a plane via the other point in each pair,
+converge much faster than PointToPoint in case of many good (with not all points/normals in one plane) pairs
+This mode only works correctly if the object that points are being projected onto has normals information (is not a point clouds without normals).
+By default both objects are projected onto each other, so at least one of them must have normals, unless you change the settings
+to only project one way (using `MR::ICP::setFltSamples()` or `MR::ICP::setRefSamples()`), in which case the object being projected onto
+must have normals.
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ICPMethod</label>
+        <link refid="classmrmeshpy_1_1ICPMethod"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Combined</edgelabel>
+          <edgelabel>PointToPlane</edgelabel>
+          <edgelabel>PointToPoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23182" bodyend="23227"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ICPMethod_1ab7034d9c177bd30d800054e286cf9cc8" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1a0362014da7fcdcf1389e44df01a397b2" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1ac2d04531ceb4cedab24d8abd7e016343" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1a3b0e44b1dd7538d263a9f23385700218" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1a802b99ad3d83e072276231d9c2d1b2eb" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1a05bceab9be673a53a992082c8f9d1958" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1a8ce08ccea8e4cbf01de729ef7b6c3dbd" prot="private" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1aaf510bad530739b5dfdf1b595fff1fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1ac11bce40432ace8d924592e20987e730" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1a11def047018a8f9a391b5911f354317e" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1a928d572710c62ae12cfaa8e010b78aba" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1ae709a0c816285035e0aa76d406e3c019" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>Combined</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1a9a37869c1689d1b4d71d0b8eef4e4273" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1adc158d83f7e8038ec45f5e067d86eb36" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>PointToPlane</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1a9e3919abeb6d284fb49bb6f8c6ea102d" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>PointToPoint</name></member>
+      <member refid="classmrmeshpy_1_1ICPMethod_1aa5af4150149916ce301c320bc81b7401" prot="public" virt="non-virtual"><scope>mrmeshpy::ICPMethod</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

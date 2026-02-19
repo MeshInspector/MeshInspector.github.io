@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UndirectedEdgeIterator" kind="class" language="C++" prot="public">
+    <compoundname>MR::UndirectedEdgeIterator</compoundname>
+    <includes refid="MREdgeIterator_8h" local="no">MREdgeIterator.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga14b6e326990c49dd287dac693682485e" kind="typedef"><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1gafd61e3c0df7e5d0f0b23e76f6f0ca42e" kind="typedef"><name>value_type</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gad213a7293f0731e71a72f9baf3db5d67" kind="variable"><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1ga502040275695ad7cdb51a568c7018fa2" kind="variable"><name>edge_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga909a01b0735f738d785b0d1688d8b7d6" kind="function"><name>UndirectedEdgeIterator</name></member>
+      <member refid="group__GeneralGroup_1gac2f62dff10799ac6dca52798a4b22a9f" kind="function"><name>UndirectedEdgeIterator</name></member>
+      <member refid="group__GeneralGroup_1ga852c488fe7af6f3a37c24b9756e470f4" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gafb9397abf0ea6c1ab579232a1d3d527e" kind="function"><name>operator*</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>The iterator to find all not-lone undirected edges in the mesh. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeIterator.h" bodystart="15" bodyend="53"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga502040275695ad7cdb51a568c7018fa2" prot="private" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>edge_</name></member>
+      <member refid="group__GeneralGroup_1ga14b6e326990c49dd287dac693682485e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1gafb9397abf0ea6c1ab579232a1d3d527e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga852c488fe7af6f3a37c24b9756e470f4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gad213a7293f0731e71a72f9baf3db5d67" prot="private" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1ga909a01b0735f738d785b0d1688d8b7d6" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>UndirectedEdgeIterator</name></member>
+      <member refid="group__GeneralGroup_1gac2f62dff10799ac6dca52798a4b22a9f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>UndirectedEdgeIterator</name></member>
+      <member refid="group__GeneralGroup_1gafd61e3c0df7e5d0f0b23e76f6f0ca42e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeIterator</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

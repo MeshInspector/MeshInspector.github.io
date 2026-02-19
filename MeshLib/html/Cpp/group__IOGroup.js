@@ -17,11 +17,11 @@ var group__IOGroup =
     [ "Points Save", "group__PointsSaveGroup.html", "group__PointsSaveGroup" ],
     [ "Serializer", "group__SerializerGroup.html", "group__SerializerGroup" ],
     [ "Voxels Load", "group__VoxelsLoadGroup.html", "group__VoxelsLoadGroup" ],
-    [ "MR::VoxelsSave::SavingSettings", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html", [
-      [ "SavingSettings", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html#addc73467fa8c5d45998b2523031205cf", null ],
-      [ "SavingSettings", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html#ab3ab677d03242ed05312d7c7a1df8493", null ],
-      [ "SavingSettings", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html#ae211ac06c46860c4303e9529b49d2695", null ],
-      [ "assign", "../Csharp/classMR_1_1VoxelsSave_1_1SavingSettings.html#a72f0aa885190cb5164d09439ef3943a1", null ]
+    [ "MR::VoxelsSave::SavingSettings", "structMR_1_1VoxelsSave_1_1SavingSettings.html", [
+      [ "cb", "structMR_1_1VoxelsSave_1_1SavingSettings.html#a61495391ee95acbc5462893baceab323", null ],
+      [ "format", "structMR_1_1VoxelsSave_1_1SavingSettings.html#abc7da521abdd392c79be9602cde3dc64", null ],
+      [ "path", "structMR_1_1VoxelsSave_1_1SavingSettings.html#a8415f6dc84ccf8061fd256e2420cd4fd", null ],
+      [ "slicePlane", "structMR_1_1VoxelsSave_1_1SavingSettings.html#a8194c36117ac4d7ace9f1070ce398953", null ]
     ] ],
     [ "MR::PointsLoad::fromAnySupportedFormat", "group__IOGroup.html#gab0f629849bb97f655fcf29a1b3afd9fa", null ],
     [ "MR::PointsLoad::fromAnySupportedFormat", "group__IOGroup.html#ga9a63511b8cba2da2a8c8373fefc0a384", null ],
@@ -42,6 +42,7 @@ var group__IOGroup =
     [ "MR::VoxelsSave::gridToVdb", "group__IOGroup.html#ga8e29fc2e07717e64d35c1baafabcb446", null ],
     [ "MR::VoxelsSave::saveAllSlicesToImage", "group__IOGroup.html#ga369d03f6b945767a7f3fff153969a695", null ],
     [ "MR::VoxelsSave::saveSliceToImage", "group__IOGroup.html#ga71f97bec2215ef7c561b5de6d82dfe53", null ],
+    [ "MR::PointsLoad::telemetryLogSize", "group__IOGroup.html#ga7f50d8551f5f8f8aaa9a7175d5f639cc", null ],
     [ "MR::VoxelsSave::toAnySupportedFormat", "group__IOGroup.html#ga479f7166483b9a6ae878a9eaaaf3b2c2", null ],
     [ "MR::VoxelsSave::toGav", "group__IOGroup.html#gad119eb5a04825967c784f81d0add0afe", null ],
     [ "MR::VoxelsSave::toGav", "group__IOGroup.html#ga3fc609b9748c17d4d66dba1569809141", null ],

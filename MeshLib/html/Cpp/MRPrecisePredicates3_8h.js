@@ -1,8 +1,7 @@
 var MRPrecisePredicates3_8h =
 [
-    [ "MR::PreciseVertCoords", "../Csharp/classMR_1_1PreciseVertCoords.html", "classMR_1_1PreciseVertCoords" ],
-    [ "MR::TriangleSegmentIntersectResult", "../Csharp/classMR_1_1TriangleSegmentIntersectResult.html", "classMR_1_1TriangleSegmentIntersectResult" ],
-    [ "MR::CoordinateConverters", "../Csharp/classMR_1_1CoordinateConverters.html", "classMR_1_1CoordinateConverters" ],
+    [ "ConvertToFloatVector", "MRPrecisePredicates3_8h.html#ga55867f88ac3e3a329e67a208b4634d96", null ],
+    [ "ConvertToIntVector", "MRPrecisePredicates3_8h.html#gab81d3ad87ff9cd57deee77336ddf83e1", null ],
     [ "doTriangleSegmentIntersect", "MRPrecisePredicates3_8h.html#ga1786b102734c05b43aec639689904eba", null ],
     [ "findTriangleSegmentIntersectionPrecise", "MRPrecisePredicates3_8h.html#ga6f4d593d1b9ff1f262a583bf72f384f8", null ],
     [ "findTwoSegmentsIntersection", "MRPrecisePredicates3_8h.html#gab44344e6fdff4411490db5446baa0245", null ],

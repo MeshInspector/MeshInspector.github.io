@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ICPProperties" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ICPProperties</compoundname>
+    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" kind="variable"><name>method</name></member>
+      <member refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" kind="variable"><name>p2plAngleLimit</name></member>
+      <member refid="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" kind="variable"><name>p2plScaleLimit</name></member>
+      <member refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" kind="variable"><name>cosThreshold</name></member>
+      <member refid="group__GeneralGroup_1ga43460c0d16c0f302226c8e09b6b98811" kind="variable"><name>distThresholdSq</name></member>
+      <member refid="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" kind="variable"><name>farDistFactor</name></member>
+      <member refid="group__GeneralGroup_1ga77f672ea419da2fb458fb981c25d5be2" kind="variable"><name>icpMode</name></member>
+      <member refid="group__GeneralGroup_1ga1fe34b378f38697c828575c8204e7b57" kind="variable"><name>fixedRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1ga4b5daff61d36ce0e211995eee0f2507f" kind="variable"><name>iterLimit</name></member>
+      <member refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" kind="variable"><name>badIterStopCount</name></member>
+      <member refid="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" kind="variable"><name>exitVal</name></member>
+      <member refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" kind="variable"><name>mutualClosest</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>parameters of <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> algorithm </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="125" bodyend="175"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga242dd3555fcbbe8a0857210ed77ff1fe" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>badIterStopCount</name></member>
+      <member refid="group__GeneralGroup_1ga108845995db78805f41524217e474500" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>cosThreshold</name></member>
+      <member refid="group__GeneralGroup_1ga43460c0d16c0f302226c8e09b6b98811" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>distThresholdSq</name></member>
+      <member refid="group__GeneralGroup_1gafe075e9e4944999f30c142f357d071d7" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>exitVal</name></member>
+      <member refid="group__GeneralGroup_1gaa4083e706852873ed258324b8d2b6626" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>farDistFactor</name></member>
+      <member refid="group__GeneralGroup_1ga1fe34b378f38697c828575c8204e7b57" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>fixedRotationAxis</name></member>
+      <member refid="group__GeneralGroup_1ga77f672ea419da2fb458fb981c25d5be2" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>icpMode</name></member>
+      <member refid="group__GeneralGroup_1ga4b5daff61d36ce0e211995eee0f2507f" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>iterLimit</name></member>
+      <member refid="group__GeneralGroup_1gaaebab641b9a81a0d03d0a64d155ea22f" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>method</name></member>
+      <member refid="group__GeneralGroup_1ga229d248012276b39cb1c7102f4184f4c" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>mutualClosest</name></member>
+      <member refid="group__GeneralGroup_1gaea1145693fe2129927a24c786165f31f" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plAngleLimit</name></member>
+      <member refid="group__GeneralGroup_1gaf5cb06bed691cb37cc63ad3e96ebc6f2" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plScaleLimit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

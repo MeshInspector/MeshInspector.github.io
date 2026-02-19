@@ -1,0 +1,426 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointOnFace" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointOnFace</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointOnFace_1ababf64220dbf7d72a87c78d3d9e35a4f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointOnFace::_offsetof_face</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_face</name>
+        <qualifiedname>mrmeshpy.PointOnFace._offsetof_face</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44812" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointOnFace_1a188e33c09f210053f0ad8a04f72a01ee" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointOnFace::_offsetof_point</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_point</name>
+        <qualifiedname>mrmeshpy.PointOnFace._offsetof_point</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44813" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a771bc46d8e0d94867c895e53164a33eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnFace.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointOnFace.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44816" bodyend="44817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a909cd4cdb95a57360884b418407cb696" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+        <definition> PointOnFace mrmeshpy.PointOnFace.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointOnFace.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44820" bodyend="44821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a909cd4cdb95a57360884b418407cb696" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+        <definition> PointOnFace mrmeshpy.PointOnFace.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointOnFace.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44824" bodyend="44825"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a40d422bc6b9821f8f3e6b2989f91ca1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointOnFace.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.PointOnFace.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44826" bodyend="44827"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a07a1cda15ef1a56f8b0424aa5076a757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnFace.__init__</definition>
+        <argsstring>(self, PointOnObject arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointOnFace.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointOnObject" kindref="compound">PointOnObject</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44829" bodyend="44830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1ab9c76ff1f32a4dd09598fb87a35ba945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnFace.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointOnFace.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44832" bodyend="44833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a67907c03a839f4e217033208e62c18cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnFace.__init__</definition>
+        <argsstring>(self, PointOnFace arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointOnFace.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointOnFace" kindref="compound">PointOnFace</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44835" bodyend="44838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1aab121fd8db855e315b272e84fad14213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnFace.__init__</definition>
+        <argsstring>(self, FaceId face, Vector3f point)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointOnFace.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>face</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44840" bodyend="44843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1ab5d1adfb9d49f3e3958a7e5da92c1bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointOnFace.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.PointOnFace.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44844" bodyend="44845"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1aff09ad37c6a4ee1d48ee44507e5afaf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.PointOnFace.__rlshift__</definition>
+        <argsstring>(self, typing.Any pof)</argsstring>
+        <name>__rlshift__</name>
+        <qualifiedname>mrmeshpy.PointOnFace.__rlshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>pof</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44846" bodyend="44847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a0d5c9906fd4886cf1a4d35f0655f055f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.PointOnFace.__rrshift__</definition>
+        <argsstring>(self, typing.Any pof)</argsstring>
+        <name>__rrshift__</name>
+        <qualifiedname>mrmeshpy.PointOnFace.__rrshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>pof</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44848" bodyend="44849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a4421a1c174b3dcc1db35dfc2cc326799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointOnFace.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.PointOnFace.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>check for validity, otherwise the point is not defined
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44850" bodyend="44853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1acc7983ccee71142670e8ff738c172539" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.PointOnFace.face</definition>
+        <argsstring>(self)</argsstring>
+        <name>face</name>
+        <qualifiedname>mrmeshpy.PointOnFace.face</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>mesh&apos;s face containing the point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44855" bodyend="44858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a5ca5b5ed7a82b6dd826239d39e3595e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnFace.face</definition>
+        <argsstring>(self, FaceId arg1)</argsstring>
+        <name>face</name>
+        <qualifiedname>mrmeshpy.PointOnFace.face</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44860" bodyend="44861"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1aa6b58d3278ec1c60d105cfbd9feac7b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PointOnFace.point</definition>
+        <argsstring>(self)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.PointOnFace.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>a point of the mesh&apos;s face
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44863" bodyend="44866"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointOnFace_1a01c8904505e205431b01bea09613cbae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointOnFace.point</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.PointOnFace.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44868" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44868" bodyend="44869"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointOnFace
+
+a point located on some mesh&apos;s face
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointOnFace</label>
+        <link refid="classmrmeshpy_1_1PointOnFace"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_face</edgelabel>
+          <edgelabel>_offsetof_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44806" bodyend="44869"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a40d422bc6b9821f8f3e6b2989f91ca1a" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a771bc46d8e0d94867c895e53164a33eb" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a07a1cda15ef1a56f8b0424aa5076a757" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1ab9c76ff1f32a4dd09598fb87a35ba945" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a67907c03a839f4e217033208e62c18cb" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1aab121fd8db855e315b272e84fad14213" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1ab5d1adfb9d49f3e3958a7e5da92c1bca" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1aff09ad37c6a4ee1d48ee44507e5afaf3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a0d5c9906fd4886cf1a4d35f0655f055f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>__rrshift__</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1ababf64220dbf7d72a87c78d3d9e35a4f" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>_offsetof_face</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a188e33c09f210053f0ad8a04f72a01ee" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>_offsetof_point</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1acc7983ccee71142670e8ff738c172539" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>face</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a5ca5b5ed7a82b6dd826239d39e3595e2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>face</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a909cd4cdb95a57360884b418407cb696" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a909cd4cdb95a57360884b418407cb696" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1aa6b58d3278ec1c60d105cfbd9feac7b9" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a01c8904505e205431b01bea09613cbae" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1PointOnFace_1a4421a1c174b3dcc1db35dfc2cc326799" prot="public" virt="non-virtual"><scope>mrmeshpy::PointOnFace</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

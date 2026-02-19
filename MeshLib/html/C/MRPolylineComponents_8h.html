@@ -152,13 +152,18 @@ $(function(){initNavTree('MRPolylineComponents_8h.html',''); initResizable(true)
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="MRId_8h_source.html">MRCMesh/MRId.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<code>#include &lt;MRCMisc/common.h&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
+<code>#include &lt;stddef.h&gt;</code><br />
 </div>
 <p><a href="MRPolylineComponents_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:ac19d267fe4a2399b21a578c74213dfd2" id="r_ac19d267fe4a2399b21a578c74213dfd2"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a></td></tr>
+<tr class="separator:ac19d267fe4a2399b21a578c74213dfd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6075b2f3b7dec92f779f4f58c28f7e1b" id="r_a6075b2f3b7dec92f779f4f58c28f7e1b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a></td></tr>
+<tr class="separator:a6075b2f3b7dec92f779f4f58c28f7e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a02d1fe1568aa3e29e692594602ba76bd" id="r_a02d1fe1568aa3e29e692594602ba76bd"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a></td></tr>
 <tr class="separator:a02d1fe1568aa3e29e692594602ba76bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7f59a6736b29701d7e619412b6e2890" id="r_ac7f59a6736b29701d7e619412b6e2890"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a></td></tr>
@@ -169,21 +174,112 @@ Typedefs</h2></td></tr>
 <tr class="separator:ae4a70f65018c3942c21f0c66710e54d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dc8885d6b62886c37f07eec1cd9ad2e" id="r_a4dc8885d6b62886c37f07eec1cd9ad2e"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a></td></tr>
 <tr class="separator:a4dc8885d6b62886c37f07eec1cd9ad2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c59f260ca6dedef065bad88209f364b" id="r_a7c59f260ca6dedef065bad88209f364b"><td class="memItemLeft" align="right" valign="top">typedef struct <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a></td></tr>
+<tr class="separator:a7c59f260ca6dedef065bad88209f364b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab7aebc5565c5c5651f359d4f88353d32" id="r_ab7aebc5565c5c5651f359d4f88353d32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7aebc5565c5c5651f359d4f88353d32">MR_PolylineComponents_getNumComponents</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
+<tr class="memitem:ab7aebc5565c5c5651f359d4f88353d32" id="r_ab7aebc5565c5c5651f359d4f88353d32"><td class="memItemLeft" align="right" valign="top">MRC_API MR_uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab7aebc5565c5c5651f359d4f88353d32">MR_PolylineComponents_getNumComponents</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
 <tr class="separator:ab7aebc5565c5c5651f359d4f88353d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71c65b3d8a9877f368a5b8e0ffd954b1" id="r_a71c65b3d8a9877f368a5b8e0ffd954b1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c65b3d8a9877f368a5b8e0ffd954b1">MR_PolylineComponents_getComponent</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> id)</td></tr>
+<tr class="memitem:a71c65b3d8a9877f368a5b8e0ffd954b1" id="r_a71c65b3d8a9877f368a5b8e0ffd954b1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a71c65b3d8a9877f368a5b8e0ffd954b1">MR_PolylineComponents_getComponent</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, <a class="el" href="structMR__UndirectedEdgeId.html">MR_UndirectedEdgeId</a> id)</td></tr>
 <tr class="separator:a71c65b3d8a9877f368a5b8e0ffd954b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a593b6767c2a25b151672012fccdbd3ac" id="r_a593b6767c2a25b151672012fccdbd3ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593b6767c2a25b151672012fccdbd3ac">MR_PolylineComponents_getAllComponents_1</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
+<tr class="memitem:a593b6767c2a25b151672012fccdbd3ac" id="r_a593b6767c2a25b151672012fccdbd3ac"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a593b6767c2a25b151672012fccdbd3ac">MR_PolylineComponents_getAllComponents_1</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
 <tr class="separator:a593b6767c2a25b151672012fccdbd3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6beb5d289540e14f999a5b29b17844b9" id="r_a6beb5d289540e14f999a5b29b17844b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4a70f65018c3942c21f0c66710e54d7">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6beb5d289540e14f999a5b29b17844b9">MR_PolylineComponents_getAllComponents_2</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, int maxComponentCount)</td></tr>
+<tr class="memitem:a6beb5d289540e14f999a5b29b17844b9" id="r_a6beb5d289540e14f999a5b29b17844b9"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#ae4a70f65018c3942c21f0c66710e54d7">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6beb5d289540e14f999a5b29b17844b9">MR_PolylineComponents_getAllComponents_2</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology, int maxComponentCount)</td></tr>
 <tr class="separator:a6beb5d289540e14f999a5b29b17844b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59e9a38ea898e08f2d879d72d4fbd68d" id="r_a59e9a38ea898e08f2d879d72d4fbd68d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e9a38ea898e08f2d879d72d4fbd68d">MR_PolylineComponents_getUnionFindStructure</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
+<tr class="memitem:aff309b97257bed1d41107db0ee6b4d85" id="r_aff309b97257bed1d41107db0ee6b4d85"><td class="memItemLeft" align="right" valign="top">MRC_API const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff309b97257bed1d41107db0ee6b4d85">MR_PolylineComponents_LargeByLengthComponentsSettings_Get_maxLargeComponents</a> (const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this)</td></tr>
+<tr class="separator:aff309b97257bed1d41107db0ee6b4d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41cc33c60d7fd8fdef8a79feb601da95" id="r_a41cc33c60d7fd8fdef8a79feb601da95"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41cc33c60d7fd8fdef8a79feb601da95">MR_PolylineComponents_LargeByLengthComponentsSettings_Set_maxLargeComponents</a> (<a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this, int value)</td></tr>
+<tr class="separator:a41cc33c60d7fd8fdef8a79feb601da95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d18ad9135dd2ee81680ee1d48331dac" id="r_a9d18ad9135dd2ee81680ee1d48331dac"><td class="memItemLeft" align="right" valign="top">MRC_API int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9d18ad9135dd2ee81680ee1d48331dac">MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_maxLargeComponents</a> (<a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this)</td></tr>
+<tr class="separator:a9d18ad9135dd2ee81680ee1d48331dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a079545ca863e461a470374792a2ddda3" id="r_a079545ca863e461a470374792a2ddda3"><td class="memItemLeft" align="right" valign="top">MRC_API int *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a079545ca863e461a470374792a2ddda3">MR_PolylineComponents_LargeByLengthComponentsSettings_Get_numSmallerComponents</a> (const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this)</td></tr>
+<tr class="separator:a079545ca863e461a470374792a2ddda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57c666b8b8a33969862e0e1261b9751f" id="r_a57c666b8b8a33969862e0e1261b9751f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a57c666b8b8a33969862e0e1261b9751f">MR_PolylineComponents_LargeByLengthComponentsSettings_Set_numSmallerComponents</a> (<a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this, int *value)</td></tr>
+<tr class="separator:a57c666b8b8a33969862e0e1261b9751f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac71161fd8b0b8471f52ee24f1ab95f7f" id="r_ac71161fd8b0b8471f52ee24f1ab95f7f"><td class="memItemLeft" align="right" valign="top">MRC_API int **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac71161fd8b0b8471f52ee24f1ab95f7f">MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_numSmallerComponents</a> (<a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this)</td></tr>
+<tr class="separator:ac71161fd8b0b8471f52ee24f1ab95f7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b6580a5117a930780dc54764d244a3" id="r_ac4b6580a5117a930780dc54764d244a3"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4b6580a5117a930780dc54764d244a3">MR_PolylineComponents_LargeByLengthComponentsSettings_Get_minLength</a> (const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this)</td></tr>
+<tr class="separator:ac4b6580a5117a930780dc54764d244a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92999bbc56d8852fb16968183191599c" id="r_a92999bbc56d8852fb16968183191599c"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92999bbc56d8852fb16968183191599c">MR_PolylineComponents_LargeByLengthComponentsSettings_Set_minLength</a> (<a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this, float value)</td></tr>
+<tr class="separator:a92999bbc56d8852fb16968183191599c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c5aea7c56ec2daf0cdf05311c8b63f2" id="r_a1c5aea7c56ec2daf0cdf05311c8b63f2"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c5aea7c56ec2daf0cdf05311c8b63f2">MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_minLength</a> (<a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this)</td></tr>
+<tr class="separator:a1c5aea7c56ec2daf0cdf05311c8b63f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59a442267619797719b5dd5fd3367241" id="r_a59a442267619797719b5dd5fd3367241"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59a442267619797719b5dd5fd3367241">MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="separator:a59a442267619797719b5dd5fd3367241"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6b5f2378cb405be3160ca54e61b2617" id="r_af6b5f2378cb405be3160ca54e61b2617"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6b5f2378cb405be3160ca54e61b2617">MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="separator:af6b5f2378cb405be3160ca54e61b2617"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9601e368db0a47df19536fedb6255363" id="r_a9601e368db0a47df19536fedb6255363"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9601e368db0a47df19536fedb6255363">MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFrom</a> (int maxLargeComponents, int *numSmallerComponents, float minLength)</td></tr>
+<tr class="separator:a9601e368db0a47df19536fedb6255363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76f935c1086a5942632f022a3a2ebbb1" id="r_a76f935c1086a5942632f022a3a2ebbb1"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a76f935c1086a5942632f022a3a2ebbb1">MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetPtr</a> (const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:a76f935c1086a5942632f022a3a2ebbb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31bbdea92b1e012b6a3a2f198ed76287" id="r_a31bbdea92b1e012b6a3a2f198ed76287"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a31bbdea92b1e012b6a3a2f198ed76287">MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetMutablePtr</a> (<a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="separator:a31bbdea92b1e012b6a3a2f198ed76287"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a12162e3bb7d9822d5fdaae6b33b2d1" id="r_a4a12162e3bb7d9822d5fdaae6b33b2d1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a12162e3bb7d9822d5fdaae6b33b2d1">MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFromAnother</a> (const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_other)</td></tr>
+<tr class="separator:a4a12162e3bb7d9822d5fdaae6b33b2d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cf4d93b5c1bc774c385b91a7130a511" id="r_a9cf4d93b5c1bc774c385b91a7130a511"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cf4d93b5c1bc774c385b91a7130a511">MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy</a> (const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this)</td></tr>
+<tr class="memdesc:a9cf4d93b5c1bc774c385b91a7130a511"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_PolylineComponents_LargeByLengthComponentsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a9cf4d93b5c1bc774c385b91a7130a511"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a578dfeb0a8074d81a7bb8837d3199a74" id="r_a578dfeb0a8074d81a7bb8837d3199a74"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a578dfeb0a8074d81a7bb8837d3199a74">MR_PolylineComponents_LargeByLengthComponentsSettings_DestroyArray</a> (const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this)</td></tr>
+<tr class="memdesc:a578dfeb0a8074d81a7bb8837d3199a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_PolylineComponents_LargeByLengthComponentsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
+<tr class="separator:a578dfeb0a8074d81a7bb8837d3199a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e9e19137dfd351ec708e4443dc6eb00" id="r_a2e9e19137dfd351ec708e4443dc6eb00"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e9e19137dfd351ec708e4443dc6eb00">MR_PolylineComponents_LargeByLengthComponentsSettings_AssignFromAnother</a> (<a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_this, const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *_other)</td></tr>
+<tr class="separator:a2e9e19137dfd351ec708e4443dc6eb00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae285a807c061e6a3376d20260e5c2015" id="r_ae285a807c061e6a3376d20260e5c2015"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae285a807c061e6a3376d20260e5c2015">MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector2f</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *settings)</td></tr>
+<tr class="separator:ae285a807c061e6a3376d20260e5c2015"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae02822fd85c05d30ba2d0aa384c434ce" id="r_ae02822fd85c05d30ba2d0aa384c434ce"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae02822fd85c05d30ba2d0aa384c434ce">MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector3f</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *polyline, const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *settings)</td></tr>
+<tr class="separator:ae02822fd85c05d30ba2d0aa384c434ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59e9a38ea898e08f2d879d72d4fbd68d" id="r_a59e9a38ea898e08f2d879d72d4fbd68d"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRMeshComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59e9a38ea898e08f2d879d72d4fbd68d">MR_PolylineComponents_getUnionFindStructure</a> (const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *topology)</td></tr>
 <tr class="separator:a59e9a38ea898e08f2d879d72d4fbd68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb5804599978d3bd7d2752407b4cbeec" id="r_abb5804599978d3bd7d2752407b4cbeec"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb5804599978d3bd7d2752407b4cbeec">MR_PolylineComponents_getLargestComponent_MR_Vector2f</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *polyline, const float *minLength, int *numSmallerComponents)</td></tr>
+<tr class="separator:abb5804599978d3bd7d2752407b4cbeec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac25dbffb348b1f5fd6f200da02ef14d0" id="r_ac25dbffb348b1f5fd6f200da02ef14d0"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac25dbffb348b1f5fd6f200da02ef14d0">MR_PolylineComponents_getLargestComponent_MR_Vector3f</a> (const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *polyline, const float *minLength, int *numSmallerComponents)</td></tr>
+<tr class="separator:ac25dbffb348b1f5fd6f200da02ef14d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="ac19d267fe4a2399b21a578c74213dfd2" name="ac19d267fe4a2399b21a578c74213dfd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac19d267fe4a2399b21a578c74213dfd2">&#9670;&#160;</a></span>MR_Polyline2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6075b2f3b7dec92f779f4f58c28f7e1b" name="a6075b2f3b7dec92f779f4f58c28f7e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6075b2f3b7dec92f779f4f58c28f7e1b">&#9670;&#160;</a></span>MR_Polyline3</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7c59f260ca6dedef065bad88209f364b" name="a7c59f260ca6dedef065bad88209f364b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c59f260ca6dedef065bad88209f364b">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef struct <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+
+</div>
+</div>
 <a id="a02d1fe1568aa3e29e692594602ba76bd" name="a02d1fe1568aa3e29e692594602ba76bd"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a02d1fe1568aa3e29e692594602ba76bd">&#9670;&#160;</a></span>MR_PolylineTopology</h2>
 
@@ -262,14 +358,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getAllComponents_1 </td>
+          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getAllComponents_1 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>gets all connected components of polyline topology </p><dl class="section note"><dt>Note</dt><dd>be careful, if mesh is large enough and has many components, the memory overflow will occur Generated from function <code><a class="elRef" href="../Cpp/group__ComponentsGroup.html#ga80e95c2ddcd2a35b79f66a0540d4a152">MR::PolylineComponents::getAllComponents</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__vector__MR__UndirectedEdgeBitSet_8h.html#a4e87bd6bc73a883ab26f62e4141e2bd8" title="Destroys a heap-allocated instance of MR_std_vector_MR_UndirectedEdgeBitSet. Does nothing if the poin...">MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<p>gets all connected components of polyline topology </p><dl class="section note"><dt>Note</dt><dd>be careful, if mesh is large enough and has many components, the memory overflow will occur Generated from function <code>MR::PolylineComponents::getAllComponents</code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -280,7 +376,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#ae4a70f65018c3942c21f0c66710e54d7">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</a> * MR_PolylineComponents_getAllComponents_2 </td>
+          <td class="memname">MRC_API <a class="el" href="#ae4a70f65018c3942c21f0c66710e54d7">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int</a> * MR_PolylineComponents_getAllComponents_2 </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -297,7 +393,7 @@ Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>pair components bitsets vector and number components in one group if components number more than maxComponentCount Generated from function <code><a class="elRef" href="../Cpp/group__ComponentsGroup.html#ga80e95c2ddcd2a35b79f66a0540d4a152">MR::PolylineComponents::getAllComponents</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="std__pair__std__vector__MR__UndirectedEdgeBitSet__int_8h.html#a4de05746960d988506554f6398c29a1e" title="Destroys a heap-allocated instance of MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int....">MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Destroy()</a></code> to free it when you're done using it. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>pair components bitsets vector and number components in one group if components number more than maxComponentCount Generated from function <code>MR::PolylineComponents::getAllComponents</code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_pair_std_vector_MR_UndirectedEdgeBitSet_int_Destroy()</code> to free it when you're done using it. </dd></dl>
 
 </div>
 </div>
@@ -308,7 +404,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getComponent </td>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getComponent </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -319,7 +415,105 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns one connected component containing given undirected edge id, not effective to call more than once, if several components are needed use getAllComponents Generated from function <code><a class="elRef" href="../Cpp/group__ComponentsGroup.html#gaf31a9bdb0fcd7f0b1ae5f69a4b83415d">MR::PolylineComponents::getComponent</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>returns one connected component containing given undirected edge id, not effective to call more than once, if several components are needed use getAllComponents Generated from function <code>MR::PolylineComponents::getComponent</code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="abb5804599978d3bd7d2752407b4cbeec" name="abb5804599978d3bd7d2752407b4cbeec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb5804599978d3bd7d2752407b4cbeec">&#9670;&#160;</a></span>MR_PolylineComponents_getLargestComponent_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getLargestComponent_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>minLength</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns largest by length component Generated from function <code>MR::PolylineComponents::getLargestComponent&lt;MR::Vector2f&gt;</code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>minLength</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>numSmallerComponents</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ac25dbffb348b1f5fd6f200da02ef14d0" name="ac25dbffb348b1f5fd6f200da02ef14d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac25dbffb348b1f5fd6f200da02ef14d0">&#9670;&#160;</a></span>MR_PolylineComponents_getLargestComponent_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getLargestComponent_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const float *</td>          <td class="paramname"><span class="paramname"><em>minLength</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns largest by length component Generated from function <code>MR::PolylineComponents::getLargestComponent&lt;MR::Vector3f&gt;</code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>minLength</code> has a default argument: <code>0</code>, pass a null pointer to use it. Parameter <code>numSmallerComponents</code> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a5f5b1d2e5d4d71fe8be1eddbe649ca16" title="Destroys a heap-allocated instance of MR_UndirectedEdgeBitSet. Does nothing if the pointer is null.">MR_UndirectedEdgeBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae285a807c061e6a3376d20260e5c2015" name="ae285a807c061e6a3376d20260e5c2015"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae285a807c061e6a3376d20260e5c2015">&#9670;&#160;</a></span>MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector2f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector2f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#ac19d267fe4a2399b21a578c74213dfd2">MR_Polyline2</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns requested number of largest by length connected components in descending by length order Generated from function <code>MR::PolylineComponents::getNLargeByLengthComponents&lt;MR::Vector2f&gt;</code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="ae02822fd85c05d30ba2d0aa384c434ce" name="ae02822fd85c05d30ba2d0aa384c434ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae02822fd85c05d30ba2d0aa384c434ce">&#9670;&#160;</a></span>MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector3f()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#a4dc8885d6b62886c37f07eec1cd9ad2e">MR_std_vector_MR_UndirectedEdgeBitSet</a> * MR_PolylineComponents_getNLargeByLengthComponents_MR_Vector3f </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="MRAABBTreePolyline_8h.html#a6075b2f3b7dec92f779f4f58c28f7e1b">MR_Polyline3</a> *</td>          <td class="paramname"><span class="paramname"><em>polyline</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>returns requested number of largest by length connected components in descending by length order Generated from function <code>MR::PolylineComponents::getNLargeByLengthComponents&lt;MR::Vector3f&gt;</code>. Parameter <code>polyline</code> can not be null. It is a single object. Parameter <code>settings</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_std_vector_MR_UndirectedEdgeBitSet_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -330,14 +524,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="common_8h.html#aefc0b2fe2e376b1b34a189af81dc8a49">MR_uint64_t</a> MR_PolylineComponents_getNumComponents </td>
+          <td class="memname">MRC_API MR_uint64_t MR_PolylineComponents_getNumComponents </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>returns the number of connected components in polyline Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1PolylineComponents.html#a7b49dea5ec0f482893a31e642b0118b6">MR::PolylineComponents::getNumComponents</a></code>. Parameter <code>topology</code> can not be null. It is a single object. </p>
+<p>returns the number of connected components in polyline Generated from function <code>MR::PolylineComponents::getNumComponents</code>. Parameter <code>topology</code> can not be null. It is a single object. </p>
 
 </div>
 </div>
@@ -348,14 +542,373 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRMeshComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a> * MR_PolylineComponents_getUnionFindStructure </td>
+          <td class="memname">MRC_API <a class="el" href="MRMeshComponents_8h.html#ab2619d00f0e1fd789b05b95f2364062d">MR_UnionFind_MR_UndirectedEdgeId</a> * MR_PolylineComponents_getUnionFindStructure </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MREdgePoint_8h.html#a02d1fe1568aa3e29e692594602ba76bd">MR_PolylineTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>gets union-find structure for given polyline Generated from function <code><a class="elRef" href="../Cpp/group__ComponentsGroup.html#ga4e45c9f9a413927f7c08c3cd1062d8b3">MR::PolylineComponents::getUnionFindStructure</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRUnionFind_8h.html#ab6a8e3bfea9fcea98682db53c0682c9f" title="Destroys a heap-allocated instance of MR_UnionFind_MR_UndirectedEdgeId. Does nothing if the pointer i...">MR_UnionFind_MR_UndirectedEdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+<p>gets union-find structure for given polyline Generated from function <code>MR::PolylineComponents::getUnionFindStructure</code>. Parameter <code>topology</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRUnionFind_8h.html#ab6a8e3bfea9fcea98682db53c0682c9f" title="Destroys a heap-allocated instance of MR_UnionFind_MR_UndirectedEdgeId. Does nothing if the pointer i...">MR_UnionFind_MR_UndirectedEdgeId_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a2e9e19137dfd351ec708e4443dc6eb00" name="a2e9e19137dfd351ec708e4443dc6eb00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e9e19137dfd351ec708e4443dc6eb00">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_AssignFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> * MR_PolylineComponents_LargeByLengthComponentsSettings_AssignFromAnother </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from method <code>MR::PolylineComponents::LargeByLengthComponentsSettings::operator=</code>. Parameter <code>_this</code> can not be null. It is a single object. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </p>
+
+</div>
+</div>
+<a id="a9601e368db0a47df19536fedb6255363" name="a9601e368db0a47df19536fedb6255363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9601e368db0a47df19536fedb6255363">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> * MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFrom </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>maxLargeComponents</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>numSmallerComponents</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>minLength</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> elementwise. The reference to the parameter <code>numSmallerComponents</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9cf4d93b5c1bc774c385b91a7130a511" title="Destroys a heap-allocated instance of MR_PolylineComponents_LargeByLengthComponentsSettings....">MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+
+</div>
+</div>
+<a id="a4a12162e3bb7d9822d5fdaae6b33b2d1" name="a4a12162e3bb7d9822d5fdaae6b33b2d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a12162e3bb7d9822d5fdaae6b33b2d1">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFromAnother()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> * MR_PolylineComponents_LargeByLengthComponentsSettings_ConstructFromAnother </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Generated from constructor <code>MR::PolylineComponents::LargeByLengthComponentsSettings::LargeByLengthComponentsSettings</code>. Parameter <code>_other</code> can not be null. It is a single object. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9cf4d93b5c1bc774c385b91a7130a511" title="Destroys a heap-allocated instance of MR_PolylineComponents_LargeByLengthComponentsSettings....">MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="a59a442267619797719b5dd5fd3367241" name="a59a442267619797719b5dd5fd3367241"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59a442267619797719b5dd5fd3367241">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstruct()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> * MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstruct </td>
+          <td>(</td>
+          <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#a9cf4d93b5c1bc774c385b91a7130a511" title="Destroys a heap-allocated instance of MR_PolylineComponents_LargeByLengthComponentsSettings....">MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+
+</div>
+</div>
+<a id="af6b5f2378cb405be3160ca54e61b2617" name="af6b5f2378cb405be3160ca54e61b2617"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6b5f2378cb405be3160ca54e61b2617">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstructArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> * MR_PolylineComponents_LargeByLengthComponentsSettings_DefaultConstructArray </td>
+          <td>(</td>
+          <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <code><a class="el" href="#a578dfeb0a8074d81a7bb8837d3199a74" title="Destroys a heap-allocated array of MR_PolylineComponents_LargeByLengthComponentsSettings....">MR_PolylineComponents_LargeByLengthComponentsSettings_DestroyArray()</a></code>. Use <code><a class="el" href="#a31bbdea92b1e012b6a3a2f198ed76287">MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetMutablePtr()</a></code> and <code><a class="el" href="#a76f935c1086a5942632f022a3a2ebbb1">MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetPtr()</a></code> to access the array elements. </p>
+
+</div>
+</div>
+<a id="a9cf4d93b5c1bc774c385b91a7130a511" name="a9cf4d93b5c1bc774c385b91a7130a511"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cf4d93b5c1bc774c385b91a7130a511">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_Destroy </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated instance of <code>MR_PolylineComponents_LargeByLengthComponentsSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="a578dfeb0a8074d81a7bb8837d3199a74" name="a578dfeb0a8074d81a7bb8837d3199a74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a578dfeb0a8074d81a7bb8837d3199a74">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_DestroyArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_DestroyArray </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys a heap-allocated array of <code>MR_PolylineComponents_LargeByLengthComponentsSettings</code>. Does nothing if the pointer is null. </p>
+
+</div>
+</div>
+<a id="aff309b97257bed1d41107db0ee6b4d85" name="aff309b97257bed1d41107db0ee6b4d85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff309b97257bed1d41107db0ee6b4d85">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_Get_maxLargeComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const int * MR_PolylineComponents_LargeByLengthComponentsSettings_Get_maxLargeComponents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return at most given number of largest by length connected components Returns a pointer to a member variable of class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> named <code>maxLargeComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ac4b6580a5117a930780dc54764d244a3" name="ac4b6580a5117a930780dc54764d244a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4b6580a5117a930780dc54764d244a3">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_Get_minLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const float * MR_PolylineComponents_LargeByLengthComponentsSettings_Get_minLength </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>do not consider a component large if its length is below this value Returns a pointer to a member variable of class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> named <code>minLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a079545ca863e461a470374792a2ddda3" name="a079545ca863e461a470374792a2ddda3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a079545ca863e461a470374792a2ddda3">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_Get_numSmallerComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int *const  * MR_PolylineComponents_LargeByLengthComponentsSettings_Get_numSmallerComponents </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional output: the number of components in addition to returned ones Returns a pointer to a member variable of class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> named <code>numSmallerComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a9d18ad9135dd2ee81680ee1d48331dac" name="a9d18ad9135dd2ee81680ee1d48331dac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d18ad9135dd2ee81680ee1d48331dac">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_maxLargeComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int * MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_maxLargeComponents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return at most given number of largest by length connected components Returns a mutable pointer to a member variable of class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> named <code>maxLargeComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a1c5aea7c56ec2daf0cdf05311c8b63f2" name="a1c5aea7c56ec2daf0cdf05311c8b63f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c5aea7c56ec2daf0cdf05311c8b63f2">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_minLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API float * MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_minLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>do not consider a component large if its length is below this value Returns a mutable pointer to a member variable of class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> named <code>minLength</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="ac71161fd8b0b8471f52ee24f1ab95f7f" name="ac71161fd8b0b8471f52ee24f1ab95f7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac71161fd8b0b8471f52ee24f1ab95f7f">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_numSmallerComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API int ** MR_PolylineComponents_LargeByLengthComponentsSettings_GetMutable_numSmallerComponents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional output: the number of components in addition to returned ones Returns a mutable pointer to a member variable of class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> named <code>numSmallerComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
+
+</div>
+</div>
+<a id="a31bbdea92b1e012b6a3a2f198ed76287" name="a31bbdea92b1e012b6a3a2f198ed76287"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31bbdea92b1e012b6a3a2f198ed76287">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetMutablePtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> * MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetMutablePtr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <code>ptr</code> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a76f935c1086a5942632f022a3a2ebbb1" name="a76f935c1086a5942632f022a3a2ebbb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76f935c1086a5942632f022a3a2ebbb1">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetPtr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> * MR_PolylineComponents_LargeByLengthComponentsSettings_OffsetPtr </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ptrdiff_t</td>          <td class="paramname"><span class="paramname"><em>i</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Offsets a pointer to an array element by <code>i</code> positions (not bytes). Use only if you're certain that the pointer points to an array element. The reference to the parameter <code>ptr</code> might be preserved in the return value. </p>
+
+</div>
+</div>
+<a id="a41cc33c60d7fd8fdef8a79feb601da95" name="a41cc33c60d7fd8fdef8a79feb601da95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41cc33c60d7fd8fdef8a79feb601da95">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_Set_maxLargeComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_Set_maxLargeComponents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>return at most given number of largest by length connected components Modifies a member variable of class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> named <code>maxLargeComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxLargeComponents</code>. </p>
+
+</div>
+</div>
+<a id="a92999bbc56d8852fb16968183191599c" name="a92999bbc56d8852fb16968183191599c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92999bbc56d8852fb16968183191599c">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_Set_minLength()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_Set_minLength </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>do not consider a component large if its length is below this value Modifies a member variable of class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> named <code>minLength</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>minLength</code>. </p>
+
+</div>
+</div>
+<a id="a57c666b8b8a33969862e0e1261b9751f" name="a57c666b8b8a33969862e0e1261b9751f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57c666b8b8a33969862e0e1261b9751f">&#9670;&#160;</a></span>MR_PolylineComponents_LargeByLengthComponentsSettings_Set_numSmallerComponents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MRC_API void MR_PolylineComponents_LargeByLengthComponentsSettings_Set_numSmallerComponents </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="#a7c59f260ca6dedef065bad88209f364b">MR_PolylineComponents_LargeByLengthComponentsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int *</td>          <td class="paramname"><span class="paramname"><em>value</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>optional output: the number of components in addition to returned ones Modifies a member variable of class <code>MR::PolylineComponents::LargeByLengthComponentsSettings</code> named <code>numSmallerComponents</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>numSmallerComponents</code>. When this function is called, this object will drop object references it had previously in <code>numSmallerComponents</code>. </p>
 
 </div>
 </div>

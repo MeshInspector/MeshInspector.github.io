@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OffsetContoursOrigins" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OffsetContoursOrigins</compoundname>
+    <includes refid="MROffsetContours_8h" local="no">MROffsetContours.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad5f2ee568aa0c645e5784e53f1ae0e72" kind="variable"><name>lOrg</name></member>
+      <member refid="group__GeneralGroup_1gab76af177457e5c7d897c84971b38bc83" kind="variable"><name>lDest</name></member>
+      <member refid="group__GeneralGroup_1ga8e421292af478ab293a9e62952548df9" kind="variable"><name>uOrg</name></member>
+      <member refid="group__GeneralGroup_1ga4ffc0647f40dc8059aaceaa657ec9511" kind="variable"><name>uDest</name></member>
+      <member refid="group__GeneralGroup_1ga1633716ab89e852055090daa8b6eb2ab" kind="variable"><name>lRatio</name></member>
+      <member refid="group__GeneralGroup_1gabafa00798fb1314aef0b80b10f1db15e" kind="variable"><name>uRatio</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaaf61c67899c9c542304ca52c98efd6aa" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1gad2a2ed17dca73e3016e3cd9df4d02b02" kind="function"><name>isIntersection</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::OffsetContourIndex</label>
+        <link refid="structMR_1_1OffsetContourIndex"/>
+      </node>
+      <node id="1">
+        <label>MR::OffsetContoursOrigins</label>
+        <link refid="structMR_1_1OffsetContoursOrigins"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>lDest</edgelabel>
+          <edgelabel>lOrg</edgelabel>
+          <edgelabel>uDest</edgelabel>
+          <edgelabel>uOrg</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="24" bodyend="46"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad2a2ed17dca73e3016e3cd9df4d02b02" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>isIntersection</name></member>
+      <member refid="group__GeneralGroup_1gab76af177457e5c7d897c84971b38bc83" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lDest</name></member>
+      <member refid="group__GeneralGroup_1gad5f2ee568aa0c645e5784e53f1ae0e72" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lOrg</name></member>
+      <member refid="group__GeneralGroup_1ga1633716ab89e852055090daa8b6eb2ab" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lRatio</name></member>
+      <member refid="group__GeneralGroup_1ga4ffc0647f40dc8059aaceaa657ec9511" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uDest</name></member>
+      <member refid="group__GeneralGroup_1ga8e421292af478ab293a9e62952548df9" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uOrg</name></member>
+      <member refid="group__GeneralGroup_1gabafa00798fb1314aef0b80b10f1db15e" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uRatio</name></member>
+      <member refid="group__GeneralGroup_1gaaf61c67899c9c542304ca52c98efd6aa" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PickPointManager_1_1ObjectState" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PickPointManager::ObjectState</compoundname>
+    <includes refid="MRPickPointManager_8h" local="no">MRPickPointManager.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaf4c22ebf57c9cc7c0fe199923143bb51" kind="variable"><name>objPtr</name></member>
+      <member refid="group__GeneralGroup_1ga75ec25d887eb5b52814323a6d4f0b012" kind="variable"><name>pickedPoints</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" line="147" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPickPointManager.h" bodystart="148" bodyend="151"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf4c22ebf57c9cc7c0fe199923143bb51" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ObjectState</scope><name>objPtr</name></member>
+      <member refid="group__GeneralGroup_1ga75ec25d887eb5b52814323a6d4f0b012" prot="public" virt="non-virtual"><scope>MR::PickPointManager::ObjectState</scope><name>pickedPoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

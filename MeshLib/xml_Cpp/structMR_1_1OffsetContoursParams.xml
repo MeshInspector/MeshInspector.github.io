@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OffsetContoursParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OffsetContoursParams</compoundname>
+    <includes refid="MROffsetContours_8h" local="no">MROffsetContours.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gaf7ce0ff6c24247a435c6742c785db972" kind="enum"><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga1edd2d4e6c07ebdd654ef43eeb7d3da8" kind="enum"><name>EndType</name></member>
+      <member refid="group__GeneralGroup_1ga7211722e3debbfaa5ad3c7b9dfa090a4" kind="enum"><name>CornerType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaaa59d5575d36ccf9d5237292d79740c8" kind="variable"><name>Offset</name></member>
+      <member refid="group__GeneralGroup_1gaf426f64ab272d3866b6bfa747959ae49" kind="variable"><name>Round</name></member>
+      <member refid="group__GeneralGroup_1ga11a811849fd3702f4abc2c898b1fe5dc" kind="variable"><name>Round</name></member>
+      <member refid="group__GeneralGroup_1ga52ea8121bcdb1c1f7d2c638a77f9b9d9" kind="variable"><name>minAnglePrecision</name></member>
+      <member refid="group__GeneralGroup_1ga54d1e9aa48ca8acba1b89d63455ab630" kind="variable"><name>maxSharpAngle</name></member>
+      <member refid="group__GeneralGroup_1ga8f22257eec663355f415c139933b24e3" kind="variable"><name>indicesMap</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROffsetContours.h" bodystart="51" bodyend="80"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7211722e3debbfaa5ad3c7b9dfa090a4" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>CornerType</name></member>
+      <member refid="group__GeneralGroup_1ga1edd2d4e6c07ebdd654ef43eeb7d3da8" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>EndType</name></member>
+      <member refid="group__GeneralGroup_1ga8f22257eec663355f415c139933b24e3" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>indicesMap</name></member>
+      <member refid="group__GeneralGroup_1ga54d1e9aa48ca8acba1b89d63455ab630" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>maxSharpAngle</name></member>
+      <member refid="group__GeneralGroup_1ga52ea8121bcdb1c1f7d2c638a77f9b9d9" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>minAnglePrecision</name></member>
+      <member refid="group__GeneralGroup_1gaaa59d5575d36ccf9d5237292d79740c8" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Offset</name></member>
+      <member refid="group__GeneralGroup_1gaf426f64ab272d3866b6bfa747959ae49" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Round</name></member>
+      <member refid="group__GeneralGroup_1ga11a811849fd3702f4abc2c898b1fe5dc" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Round</name></member>
+      <member refid="group__GeneralGroup_1gaf7ce0ff6c24247a435c6742c785db972" prot="public" virt="non-virtual"><scope>MR::OffsetContoursParams</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cone3Approximation" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cone3Approximation</compoundname>
+    <includes refid="MRConeApproximator_8h" local="no">MRConeApproximator.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga4f3109da8ed6b25d890b8bfc1f89094b" kind="variable"><name>params_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga9d2c7bacbeba26d79da0394635646651" kind="function"><name>Cone3Approximation</name></member>
+      <member refid="group__GeneralGroup_1ga7c6a542eabe69884f78ec5044ab1df50" kind="function"><name>solve</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga3c513067ff953bd8f92e83a7d348f9d2" kind="function"><name>solveFixedAxis_</name></member>
+      <member refid="group__GeneralGroup_1ga2fa9475cf33503ccff5f3a8f82d7735c" kind="function"><name>solveApproximationPCM_</name></member>
+      <member refid="group__GeneralGroup_1gac8c3efd06f653881f8192df119edcd84" kind="function"><name>solveSpecificAxisFit_</name></member>
+      <member refid="group__GeneralGroup_1gac59c616cf8debcc13993e583f4d64efa" kind="function"><name>solveHemisphereSearchFit_</name></member>
+      <member refid="group__GeneralGroup_1ga534ae47637caf18b75d741f2a9936ca1" kind="function"><name>calculateConeHeight_</name></member>
+      <member refid="group__GeneralGroup_1gaa94e0199d51f662c4f78b558a302894b" kind="function"><name>getApproximationRMS_</name></member>
+      <member refid="group__GeneralGroup_1gaad362142860c8f5aeeee579fdb9c6a35" kind="function"><name>computeCenter_</name></member>
+      <member refid="group__GeneralGroup_1ga406543b70850f573820436acb7e7f80d" kind="function"><name>computeCenterAndNormal_</name></member>
+      <member refid="group__GeneralGroup_1gab151a5fb5fc67e8ba6ba82a1dcf3445d" kind="function"><name>computeInitialCone_</name></member>
+      <member refid="group__GeneralGroup_1ga43ac810d08c41553a6981d566dda8cb0" kind="function"><name>findBestFitLine_</name></member>
+      <member refid="group__GeneralGroup_1ga8fb802af54e05d993846ffdab567d8a4" kind="function"><name>fitParamsToCone_</name></member>
+      <member refid="group__GeneralGroup_1gad54d2c4d217ddd10bdf15b7c4e3455ec" kind="function"><name>coneToFitParams_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class for approximation cloud point by cone. We will calculate the initial approximation of the cone and then use a minimizer to refine the parameters. minimizer is LevenbergMarquardt now. TODO: Possible we could add GaussNewton in future. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" line="149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeApproximator.h" bodystart="150" bodyend="491"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga534ae47637caf18b75d741f2a9936ca1" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>calculateConeHeight_</name></member>
+      <member refid="group__GeneralGroup_1gaad362142860c8f5aeeee579fdb9c6a35" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>computeCenter_</name></member>
+      <member refid="group__GeneralGroup_1ga406543b70850f573820436acb7e7f80d" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>computeCenterAndNormal_</name></member>
+      <member refid="group__GeneralGroup_1gab151a5fb5fc67e8ba6ba82a1dcf3445d" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>computeInitialCone_</name></member>
+      <member refid="group__GeneralGroup_1ga9d2c7bacbeba26d79da0394635646651" prot="public" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>Cone3Approximation</name></member>
+      <member refid="group__GeneralGroup_1gad54d2c4d217ddd10bdf15b7c4e3455ec" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>coneToFitParams_</name></member>
+      <member refid="group__GeneralGroup_1ga43ac810d08c41553a6981d566dda8cb0" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>findBestFitLine_</name></member>
+      <member refid="group__GeneralGroup_1ga8fb802af54e05d993846ffdab567d8a4" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>fitParamsToCone_</name></member>
+      <member refid="group__GeneralGroup_1gaa94e0199d51f662c4f78b558a302894b" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>getApproximationRMS_</name></member>
+      <member refid="group__GeneralGroup_1ga4f3109da8ed6b25d890b8bfc1f89094b" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>params_</name></member>
+      <member refid="group__GeneralGroup_1ga7c6a542eabe69884f78ec5044ab1df50" prot="public" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solve</name></member>
+      <member refid="group__GeneralGroup_1ga2fa9475cf33503ccff5f3a8f82d7735c" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solveApproximationPCM_</name></member>
+      <member refid="group__GeneralGroup_1ga3c513067ff953bd8f92e83a7d348f9d2" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solveFixedAxis_</name></member>
+      <member refid="group__GeneralGroup_1gac59c616cf8debcc13993e583f4d64efa" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solveHemisphereSearchFit_</name></member>
+      <member refid="group__GeneralGroup_1gac8c3efd06f653881f8192df119edcd84" prot="private" virt="non-virtual"><scope>MR::Cone3Approximation</scope><name>solveSpecificAxisFit_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

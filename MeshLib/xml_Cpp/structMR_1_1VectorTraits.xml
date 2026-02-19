@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VectorTraits" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VectorTraits</compoundname>
+    <includes refid="MRMesh_2MRVectorTraits_8h" local="no">MRVectorTraits.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gadbadae2704ad269b8d78edbb0f2faa93" kind="typedef"><name>BaseType</name></member>
+      <member refid="group__GeneralGroup_1ga42bb0645b55adab533c9287aeff02ad0" kind="typedef"><name>ChangeBaseType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1ga63f31635f31a229471ff3cc2990d95ea" kind="variable"><name>size</name></member>
+      <member refid="group__GeneralGroup_1gaa5e702680428edc0cf72ab5aef479db3" kind="variable"><name>supportNoInit</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga84c0eb7852585d942140caa62556f3c0" kind="function"><name>getElem</name></member>
+      <member refid="group__GeneralGroup_1ga077d473eb75ceae296f9149573954110" kind="function"><name>diagonal</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Common traits for (mathematical) vectors. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVectorTraits.h" bodystart="18" bodyend="36"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gadbadae2704ad269b8d78edbb0f2faa93" prot="public" virt="non-virtual"><scope>MR::VectorTraits</scope><name>BaseType</name></member>
+      <member refid="group__GeneralGroup_1ga42bb0645b55adab533c9287aeff02ad0" prot="public" virt="non-virtual"><scope>MR::VectorTraits</scope><name>ChangeBaseType</name></member>
+      <member refid="group__GeneralGroup_1ga077d473eb75ceae296f9149573954110" prot="public" virt="non-virtual"><scope>MR::VectorTraits</scope><name>diagonal</name></member>
+      <member refid="group__GeneralGroup_1ga84c0eb7852585d942140caa62556f3c0" prot="public" virt="non-virtual"><scope>MR::VectorTraits</scope><name>getElem</name></member>
+      <member refid="group__GeneralGroup_1ga63f31635f31a229471ff3cc2990d95ea" prot="public" virt="non-virtual"><scope>MR::VectorTraits</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1gaa5e702680428edc0cf72ab5aef479db3" prot="public" virt="non-virtual"><scope>MR::VectorTraits</scope><name>supportNoInit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

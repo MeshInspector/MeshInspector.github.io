@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeLabelAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeLabelAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeLabelAction_8h" local="no">MRChangeLabelAction.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gade696594ef0460a576d12fa40786e07f" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gaeeb92dd69cba4af2a95a119081f4b2fc" kind="variable"><name>label_</name></member>
+      <member refid="group__GeneralGroup_1ga85fe025f3bc930b00adbf2841a426557" kind="variable"><name>pivotPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga7913a22564fb04f5f8ab563053d59753" kind="variable"><name>actionName_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga21a4e3c00216db2abbbfb9ce47014c81" kind="function"><name>ChangeLabelAction</name></member>
+      <member refid="group__GeneralGroup_1ga49b7949dc2497e15510dbf8c51c83e61" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gab1fc1b5e85ebdd6e6737c7e8301d6239" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga44cff8296d6419da98913c39fdbd8050" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeLabelAction</label>
+        <link refid="classMR_1_1ChangeLabelAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeLabelAction</label>
+        <link refid="classMR_1_1ChangeLabelAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRChangeLabelAction.h" bodystart="17" bodyend="55"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab1fc1b5e85ebdd6e6737c7e8301d6239" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga7913a22564fb04f5f8ab563053d59753" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>actionName_</name></member>
+      <member refid="group__GeneralGroup_1ga21a4e3c00216db2abbbfb9ce47014c81" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>ChangeLabelAction</name></member>
+      <member refid="group__GeneralGroup_1ga44cff8296d6419da98913c39fdbd8050" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaeeb92dd69cba4af2a95a119081f4b2fc" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>label_</name></member>
+      <member refid="group__GeneralGroup_1ga49b7949dc2497e15510dbf8c51c83e61" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gade696594ef0460a576d12fa40786e07f" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga85fe025f3bc930b00adbf2841a426557" prot="private" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>pivotPoint_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeLabelAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeLabelAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

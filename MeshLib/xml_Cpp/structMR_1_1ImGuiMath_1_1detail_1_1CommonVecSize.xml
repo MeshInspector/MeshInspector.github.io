@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ImGuiMath::detail::CommonVecSize</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">std::integral_constant&lt; int, 1 &gt;</basecompoundref>
+    <includes refid="MRImGuiVectorOperators_8h" local="no">MRImGuiVectorOperators.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>P</declname>
+        <defname>P</defname>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Returns the common vector size between <computeroutput>P...</computeroutput> (cvref-qualifiers are ignored). If there are no vectors in the list, returns <computeroutput>1</computeroutput>. If there are some vectors, returns their size. If the vectors have different sizes, returns -1 to indicate failure. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ImGuiMath::detail::CommonVecSize&lt; P &gt;</label>
+        <link refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::integral_constant&lt; int, 1 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ImGuiMath::detail::CommonVecSize&lt; P &gt;</label>
+        <link refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>std::integral_constant&lt; int, 1 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="37" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="37" bodyend="37"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Sphere" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Sphere</compoundname>
+    <includes refid="MRSphere_8h" local="no">MRSphere.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" kind="typedef"><name>T</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" kind="variable"><name>center</name></member>
+      <member refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" kind="variable"><name>radius</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" kind="function"><name>Sphere</name></member>
+      <member refid="group__GeneralGroup_1gadd65b61b54645bbb73e26a98f44d9c12" kind="function"><name>Sphere</name></member>
+      <member refid="group__GeneralGroup_1gac468ec719d271b81a0272c541f98c940" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga7be349cb025864bef77e267cefdccd28" kind="function"><name>project</name></member>
+      <member refid="group__GeneralGroup_1ga3bcdf3d7bbfda09b3708d12b755ac6f0" kind="function"><name>distance</name></member>
+      <member refid="group__GeneralGroup_1gac6fe7dcb9fbe192141cde72e7f9a3551" kind="function"><name>distanceSq</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga0254f6c6d3b7fbc30e5cb028767d85cf" kind="friend"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSphere.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSphere.h" bodystart="14" bodyend="39"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac761a3c59ab76b111bb301d71558d5a7" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga3bcdf3d7bbfda09b3708d12b755ac6f0" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>distance</name></member>
+      <member refid="group__GeneralGroup_1gac6fe7dcb9fbe192141cde72e7f9a3551" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>distanceSq</name></member>
+      <member refid="group__GeneralGroup_1gac468ec719d271b81a0272c541f98c940" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga0254f6c6d3b7fbc30e5cb028767d85cf" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga7be349cb025864bef77e267cefdccd28" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>project</name></member>
+      <member refid="group__GeneralGroup_1gac91793706fe6273028dbecc98e540b1b" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga0146c86fafdf02efca98966d2ff841ef" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>Sphere</name></member>
+      <member refid="group__GeneralGroup_1gadd65b61b54645bbb73e26a98f44d9c12" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>Sphere</name></member>
+      <member refid="group__GeneralGroup_1gab3dcbfdadbd1e9018e22a979ea25c6f9" prot="public" virt="non-virtual"><scope>MR::Sphere</scope><name>T</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1AffineXf" kind="struct" language="C++" prot="public">
+    <compoundname>MR::AffineXf</compoundname>
+    <includes refid="MRAffineXf_8h" local="no">MRAffineXf.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga122798f44f02f88d6fceeddd3f296c0c" kind="typedef"><name>T</name></member>
+      <member refid="group__GeneralGroup_1ga60960f9da874c4087c143336fbbd23ee" kind="typedef"><name>M</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac50d0dfa0b11a916ac644165073713ca" kind="variable"><name>A</name></member>
+      <member refid="group__GeneralGroup_1gabc589d85e328480de8c5972558bd7b3c" kind="variable"><name>b</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gab3b595e5fd83370d9417a0d1e93cf2c1" kind="function"><name>AffineXf</name></member>
+      <member refid="group__GeneralGroup_1ga4f40e964b7034f2c0121f71a30bdf36e" kind="function"><name>AffineXf</name></member>
+      <member refid="group__GeneralGroup_1gae517524526f50cd77be825b78a88708b" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga5be41c92ebfbb340e9651f0efd210fcb" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gaed36bec4a9d093011a85c99f21ced5f3" kind="function"><name>linearOnly</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gae6f0d93485c6f6bab711487d42b04a96" kind="function"><name>translation</name></member>
+      <member refid="group__GeneralGroup_1ga28ed741d0efefc5b6087bc89a5b6cd85" kind="function"><name>linear</name></member>
+      <member refid="group__GeneralGroup_1ga55cf315823a39d0647333ca27a0b8e98" kind="function"><name>xfAround</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga0e644a181cac1fa700946f98a47b8595" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga55d01857e172a9cbf746957013009926" kind="friend"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga186afe85bf17b3cb6a52b55f5af080bc" kind="friend"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gafe3a9bf9c2593c948de620a660aa6ccd" kind="friend"><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga7220240eb64c738d214bd96bbe993b7d" kind="friend"><name>operator&gt;&gt;</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>affine transformation: y = A*x + b, where A in VxV, and b in V </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" line="25" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAffineXf.h" bodystart="26" bodyend="82"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac50d0dfa0b11a916ac644165073713ca" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>A</name></member>
+      <member refid="group__GeneralGroup_1gab3b595e5fd83370d9417a0d1e93cf2c1" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>AffineXf</name></member>
+      <member refid="group__GeneralGroup_1ga4f40e964b7034f2c0121f71a30bdf36e" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>AffineXf</name></member>
+      <member refid="group__GeneralGroup_1gabc589d85e328480de8c5972558bd7b3c" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga28ed741d0efefc5b6087bc89a5b6cd85" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>linear</name></member>
+      <member refid="group__GeneralGroup_1gaed36bec4a9d093011a85c99f21ced5f3" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>linearOnly</name></member>
+      <member refid="group__GeneralGroup_1ga60960f9da874c4087c143336fbbd23ee" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>M</name></member>
+      <member refid="group__GeneralGroup_1gae517524526f50cd77be825b78a88708b" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga186afe85bf17b3cb6a52b55f5af080bc" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga5be41c92ebfbb340e9651f0efd210fcb" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga0e644a181cac1fa700946f98a47b8595" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gafe3a9bf9c2593c948de620a660aa6ccd" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga55d01857e172a9cbf746957013009926" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga7220240eb64c738d214bd96bbe993b7d" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga122798f44f02f88d6fceeddd3f296c0c" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>T</name></member>
+      <member refid="group__GeneralGroup_1gae6f0d93485c6f6bab711487d42b04a96" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>translation</name></member>
+      <member refid="group__GeneralGroup_1ga55cf315823a39d0647333ca27a0b8e98" prot="public" virt="non-virtual"><scope>MR::AffineXf</scope><name>xfAround</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshAlgorithmGroup" kind="group">
+    <compoundname>MeshAlgorithmGroup</compoundname>
+    <title>Mesh Algorithm</title>
+    <innerclass refid="classMR_1_1MeshDiff" prot="public">MR::MeshDiff</innerclass>
+    <innerclass refid="structMR_1_1MeshRegion" prot="public">MR::MeshRegion</innerclass>
+    <innerclass refid="classMR_1_1MeshTopologyDiff" prot="public">MR::MeshTopologyDiff</innerclass>
+    <innerclass refid="classMR_1_1VertCoordsDiff" prot="public">MR::VertCoordsDiff</innerclass>
+    <innergroup refid="group__MeshDeleteGroup">Mesh Delete</innergroup>
+    <innergroup refid="group__MeshDeloneGroup">Mesh Delone</innergroup>
+    <innergroup refid="group__MeshEigenGroup">Mesh Eigen</innergroup>
+    <innergroup refid="group__FillHoleGroup">Fill/Stitch Holes overview</innergroup>
+    <innergroup refid="group__MeshFixerGroup">Mesh Fixer</innergroup>
+    <innergroup refid="group__MeshNormalsGroup">Mesh Normals</innergroup>
+    <innergroup refid="group__MeshRelaxGroup">Mesh Relax</innergroup>
+    <innergroup refid="group__MeshSubdivideGroup">Mesh Subdivide</innergroup>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshAlgorithmGroup_1gabd2f9988108fabef913d835c6c1385cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::straightenBoundary</definition>
+        <argsstring>(Mesh &amp;mesh, EdgeId bd, float minNeiNormalsDot, float maxTriAspectRatio, FaceBitSet *newFaces=nullptr)</argsstring>
+        <name>straightenBoundary</name>
+        <qualifiedname>MR::straightenBoundary</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>bd</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minNeiNormalsDot</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>FaceBitSet *</type>
+          <declname>newFaces</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>adds triangles along the boundary to straighten it;</para>
+<para>new triangle is added only if 1) aspect ratio of the new triangle is at most maxTriAspectRatio, 2) dot product of its normal with neighbor triangles is at least minNeiNormalsDot. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" line="15" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoundary.h" declline="15" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshAlgorithmGroup_1gac05a6a40f6f3f078e9ceb0870a399516" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API PointCloud</type>
+        <definition>MRMESH_API PointCloud MR::meshToPointCloud</definition>
+        <argsstring>(const Mesh &amp;mesh, bool saveNormals=true, const VertBitSet *verts=nullptr)</argsstring>
+        <name>meshToPointCloud</name>
+        <qualifiedname>MR::meshToPointCloud</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>saveNormals</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>verts</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> to <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" line="13" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshToPointCloud.h" declline="13" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

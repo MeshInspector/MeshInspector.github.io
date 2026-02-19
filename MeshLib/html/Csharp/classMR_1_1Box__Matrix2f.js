@@ -9,7 +9,7 @@ var classMR_1_1Box__Matrix2f =
     [ "divAssign", "classMR_1_1Box__Matrix2f.html#a4873aa3ccc0c1bf085f7fa6250272b47", null ],
     [ "mulAssign", "classMR_1_1Box__Matrix2f.html#accb0c1ec47e560a494ba107fc8422777", null ],
     [ "subAssign", "classMR_1_1Box__Matrix2f.html#a5142dac022ff86fe22ffe27a22276c3f", null ],
-    [ "_Ref", "classMR_1_1Box__Matrix2f.html#a5ace2ed020cbe5b8976cad4545cc770e", null ],
     [ "this[int row]", "classMR_1_1Box__Matrix2f.html#a44df62aa1e906f18a15b6f3e48f567c3", null ],
-    [ "x", "classMR_1_1Box__Matrix2f.html#aa89623d839ad1e8f4e3af0657f384134", null ]
+    [ "x", "classMR_1_1Box__Matrix2f.html#aa89623d839ad1e8f4e3af0657f384134", null ],
+    [ "y", "classMR_1_1Box__Matrix2f.html#a6e1feddc24d527e52c1d636c4dae6254", null ]
 ];

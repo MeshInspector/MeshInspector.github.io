@@ -1,0 +1,778 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshLoad" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshLoad</compoundname>
+    <innerclass refid="classmrmeshpy_1_1MeshLoad_1_1NamedMesh" prot="public">mrmeshpy::MeshLoad::NamedMesh</innerclass>
+    <innerclass refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings" prot="public">mrmeshpy::MeshLoad::ObjLoadSettings</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a51b05c0c99cb73ea73bac7262c58ce8c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromASCIIStl</definition>
+        <argsstring>(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</argsstring>
+        <name>fromASCIIStl</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromASCIIStl</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from file in textual .STL format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32445" bodyend="32448"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1af610689af713f74fe7f5bace7bf36b68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromASCIIStl</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromASCIIStl</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromASCIIStl</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from stream in textual .STL format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32451" bodyend="32454"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1abffaec42b2a5329f44c9f34ee0ffca30" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromAnyStl</definition>
+        <argsstring>(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</argsstring>
+        <name>fromAnyStl</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromAnyStl</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from file in any .STL format: both binary and ASCII
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32457" bodyend="32460"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a28b29921d877acf6a119cc5f80441052" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromAnyStl</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromAnyStl</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromAnyStl</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from stream in any .STL format: both binary and ASCII;
+important on Windows: in stream must be open in binary mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32463" bodyend="32467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1ad42a678031c9663e1e50d12deef0ff19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromAnySupportedFormat</definition>
+        <argsstring>(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from file in the format detected from file extension
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32470" bodyend="32473"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a4c25480088d718aac7c436af41d21147" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromAnySupportedFormat</definition>
+        <argsstring>(typing.Any in_, str extension, MeshLoadSettings settings=...)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from stream in the format detected from given extension-string (`*.ext`);
+important on Windows: in stream must be open in binary mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32476" bodyend="32480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1aa0bc566f1041f51e72910dfb99dca1c1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromBinaryStl</definition>
+        <argsstring>(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</argsstring>
+        <name>fromBinaryStl</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromBinaryStl</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from file in binary .STL format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32483" bodyend="32486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1acadc838d9aa7b56a7109884ed701c2d8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromBinaryStl</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromBinaryStl</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromBinaryStl</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from stream in binary .STL format;
+important on Windows: in stream must be open in binary mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32489" bodyend="32493"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a6132777a53cf1b570b0ccd4d21e1acc7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromCtm</definition>
+        <argsstring>(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</argsstring>
+        <name>fromCtm</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromCtm</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .ctm file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32496" bodyend="32499"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a2e7259e0122d393bdc85d25321453f08" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromCtm</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromCtm</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromCtm</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32502" bodyend="32503"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a089c68aa902e43c79006fc296e9496dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromDxf</definition>
+        <argsstring>(os.PathLike|str|bytes path, MeshLoadSettings settings=...)</argsstring>
+        <name>fromDxf</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromDxf</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from file in .DXF format;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32506" bodyend="32509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1ad0eadd0f59701877d527209c9f6506de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromDxf</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromDxf</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromDxf</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from stream in .DXF format;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32512" bodyend="32515"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a3ed7c639cb0da6a7cd5a922cd6904ca5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromMrmesh</definition>
+        <argsstring>(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</argsstring>
+        <name>fromMrmesh</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromMrmesh</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from file in internal MeshLib format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32518" bodyend="32521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a8735d8f51b74748b1f28e10279f25f3d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromMrmesh</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromMrmesh</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromMrmesh</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from stream in internal MeshLib format;
+important on Windows: in stream must be open in binary mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32524" bodyend="32528"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a97f47393e0b65a3239bcc395e48444e6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromObj</definition>
+        <argsstring>(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</argsstring>
+        <name>fromObj</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromObj</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from file in .OBJ format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32531" bodyend="32534"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1ae1a833c72f1d538ee53714cb840d1fb4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromObj</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromObj</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromObj</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from stream in .OBJ format;
+important on Windows: in stream must be open in binary mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32537" bodyend="32541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1aa310c6405bc26b68ef056dca7817ea63" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromOff</definition>
+        <argsstring>(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</argsstring>
+        <name>fromOff</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromOff</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from file in .OFF format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32544" bodyend="32547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1ae607b8fa878d06cbed98865eb7ec00de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromOff</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromOff</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromOff</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from stream in .OFF format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32550" bodyend="32553"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a52f65a7c3f35e4fa71a4918db1bf91e8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromPly</definition>
+        <argsstring>(os.PathLike|str|bytes file, MeshLoadSettings settings=...)</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromPly</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from file in .PLY format;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32556" bodyend="32559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a3fd6d5f438d166bed0ed43dd8960bb54" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromPly</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromPly</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromPly</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads mesh from stream in .PLY format;
+important on Windows: in stream must be open in binary mode
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32562" bodyend="32566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a90944c08f29cb2af7db9b66b1cce0d7e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
+        <definition> std_vector_MeshLoad_NamedMesh mrmeshpy.MeshLoad.fromSceneObjFile</definition>
+        <argsstring>(os.PathLike|str|bytes file, bool combineAllObjects, MeshLoad.ObjLoadSettings settings=...)</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromSceneObjFile</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings" kindref="compound">MeshLoad.ObjLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads meshes from .obj file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32569" bodyend="32572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a3d3183ae68bebe86bfb635c28b3a614a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
+        <definition> std_vector_MeshLoad_NamedMesh mrmeshpy.MeshLoad.fromSceneObjFile</definition>
+        <argsstring>(str data, int size, bool combineAllObjects, os.PathLike|str|bytes dir, MeshLoad.ObjLoadSettings settings=...)</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromSceneObjFile</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings" kindref="compound">MeshLoad.ObjLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads meshes from memory array with .obj file contents
+\\param dir working directory where materials and textures are located
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32575" bodyend="32579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1abe2511ea871a1b54921944b1d14a5259" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__MeshLoad__NamedMesh" kindref="compound">std_vector_MeshLoad_NamedMesh</ref></type>
+        <definition> std_vector_MeshLoad_NamedMesh mrmeshpy.MeshLoad.fromSceneObjFile</definition>
+        <argsstring>(typing.Any in_, bool combineAllObjects, os.PathLike|str|bytes dir, MeshLoad.ObjLoadSettings settings=...)</argsstring>
+        <name>fromSceneObjFile</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromSceneObjFile</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>combineAllObjects</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoad_1_1ObjLoadSettings" kindref="compound">MeshLoad.ObjLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads meshes from a stream with .obj file contents
+important on Windows: in stream must be open in binary mode
+\\param dir working directory where materials and textures are located
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32582" bodyend="32587"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a88917fac1c89a4c0e51521ef615307ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.MeshLoad.fromSceneStepFile</definition>
+        <argsstring>(os.PathLike|str|bytes path, MeshLoadSettings settings=...)</argsstring>
+        <name>fromSceneStepFile</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromSceneStepFile</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>load scene from STEP file using OpenCASCADE
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32590" bodyend="32593"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a432c80e27f4d3110d78eef215de5ecbc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.MeshLoad.fromSceneStepFile</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromSceneStepFile</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromSceneStepFile</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32596" bodyend="32597"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a4cb3312e2f31c6876fdc0e5eaabceacc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromStep</definition>
+        <argsstring>(os.PathLike|str|bytes path, MeshLoadSettings settings=...)</argsstring>
+        <name>fromStep</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromStep</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>load mesh data from STEP file using OpenCASCADE
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32600" bodyend="32603"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1a660649e196a6a7f0675a75eb14cfde1d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshLoad.fromStep</definition>
+        <argsstring>(typing.Any in_, MeshLoadSettings settings=...)</argsstring>
+        <name>fromStep</name>
+        <qualifiedname>mrmeshpy.MeshLoad.fromStep</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshLoadSettings" kindref="compound">MeshLoadSettings</ref></type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32606" bodyend="32607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshLoad_1acb90b4cd446e11e90f1edfb0f44735f6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LoadedObjects" kindref="compound">LoadedObjects</ref></type>
+        <definition> LoadedObjects mrmeshpy.MeshLoad.loadObjectFromObj</definition>
+        <argsstring>(os.PathLike|str|bytes file, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>loadObjectFromObj</name>
+        <qualifiedname>mrmeshpy.MeshLoad.loadObjectFromObj</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reads all objects from .OBJ file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32609" bodyend="32612"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32304" bodyend="32612"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshLoad_1abffaec42b2a5329f44c9f34ee0ffca30" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromAnyStl</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a28b29921d877acf6a119cc5f80441052" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromAnyStl</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1ad42a678031c9663e1e50d12deef0ff19" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a4c25480088d718aac7c436af41d21147" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a51b05c0c99cb73ea73bac7262c58ce8c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromASCIIStl</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1af610689af713f74fe7f5bace7bf36b68" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromASCIIStl</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1aa0bc566f1041f51e72910dfb99dca1c1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromBinaryStl</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1acadc838d9aa7b56a7109884ed701c2d8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromBinaryStl</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a6132777a53cf1b570b0ccd4d21e1acc7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromCtm</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a2e7259e0122d393bdc85d25321453f08" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromCtm</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a089c68aa902e43c79006fc296e9496dd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromDxf</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1ad0eadd0f59701877d527209c9f6506de" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromDxf</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a3ed7c639cb0da6a7cd5a922cd6904ca5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromMrmesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a8735d8f51b74748b1f28e10279f25f3d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromMrmesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a97f47393e0b65a3239bcc395e48444e6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromObj</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1ae1a833c72f1d538ee53714cb840d1fb4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromObj</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1aa310c6405bc26b68ef056dca7817ea63" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromOff</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1ae607b8fa878d06cbed98865eb7ec00de" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromOff</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a52f65a7c3f35e4fa71a4918db1bf91e8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromPly</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a3fd6d5f438d166bed0ed43dd8960bb54" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromPly</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a90944c08f29cb2af7db9b66b1cce0d7e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a3d3183ae68bebe86bfb635c28b3a614a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1abe2511ea871a1b54921944b1d14a5259" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneObjFile</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a88917fac1c89a4c0e51521ef615307ec" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneStepFile</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a432c80e27f4d3110d78eef215de5ecbc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromSceneStepFile</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a4cb3312e2f31c6876fdc0e5eaabceacc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromStep</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1a660649e196a6a7f0675a75eb14cfde1d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>fromStep</name></member>
+      <member refid="classmrmeshpy_1_1MeshLoad_1acb90b4cd446e11e90f1edfb0f44735f6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshLoad</scope><name>loadObjectFromObj</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

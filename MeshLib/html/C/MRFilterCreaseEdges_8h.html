@@ -151,7 +151,7 @@ $(function(){initNavTree('MRFilterCreaseEdges_8h.html',''); initResizable(true);
   <div class="headertitle"><div class="title">MRFilterCreaseEdges.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 </div>
 <p><a href="MRFilterCreaseEdges_8h_source.html">Go to the source code of this file.</a></p>
@@ -165,7 +165,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a462faaaad36bd4b689f91601d2c35ddd" id="r_a462faaaad36bd4b689f91601d2c35ddd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a462faaaad36bd4b689f91601d2c35ddd">MR_filterCreaseEdges</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *creaseEdges, float critLength, const bool *filterComponents, const bool *filterBranches)</td></tr>
+<tr class="memitem:a462faaaad36bd4b689f91601d2c35ddd" id="r_a462faaaad36bd4b689f91601d2c35ddd"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a462faaaad36bd4b689f91601d2c35ddd">MR_filterCreaseEdges</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *creaseEdges, float critLength, const bool *filterComponents, const bool *filterBranches)</td></tr>
 <tr class="separator:a462faaaad36bd4b689f91601d2c35ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -205,7 +205,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_filterCreaseEdges </td>
+          <td class="memname">MRC_API void MR_filterCreaseEdges </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -236,7 +236,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">filterComponents</td><td>is true then connected components with summary length of their edges less than</td></tr>
     <tr><td class="paramname">critLength</td><td>will be excluded if</td></tr>
     <tr><td class="paramname">filterBranches</td><td>is true then branches shorter than</td></tr>
-    <tr><td class="paramname">critLength</td><td>will be excluded Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#af323676e5a2bf779fb0700037ad648da">MR::filterCreaseEdges</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>creaseEdges</code> can not be null. It is a single object. Parameter <code>filterComponents</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>filterBranches</code> has a default argument: <code>false</code>, pass a null pointer to use it. </td></tr>
+    <tr><td class="paramname">critLength</td><td>will be excluded Generated from function <code>MR::filterCreaseEdges</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>creaseEdges</code> can not be null. It is a single object. Parameter <code>filterComponents</code> has a default argument: <code>true</code>, pass a null pointer to use it. Parameter <code>filterBranches</code> has a default argument: <code>false</code>, pass a null pointer to use it. </td></tr>
   </table>
   </dd>
 </dl>

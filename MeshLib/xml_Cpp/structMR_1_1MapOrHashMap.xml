@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MapOrHashMap" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MapOrHashMap</compoundname>
+    <includes refid="MRMapOrHashMap_8h" local="no">MRMapOrHashMap.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename K</type>
+      </param>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" kind="typedef"><name>Dense</name></member>
+      <member refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" kind="typedef"><name>Hash</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" kind="variable"><name>var</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga2f5d8d5d984f6fbc7736118c4803e703" kind="function"><name>createMap</name></member>
+      <member refid="group__GeneralGroup_1gaf367d90b270a0bb9def39834f2a0e686" kind="function"><name>createHashMap</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga00c1a5cbe4993ea2fe7958753f256c2d" kind="function"><name>setMap</name></member>
+      <member refid="group__GeneralGroup_1gaed9c7dee115bec118b5c146c71feeead" kind="function"><name>setHashMap</name></member>
+      <member refid="group__GeneralGroup_1ga7a15020a8ce32845565aeffab264051d" kind="function"><name>resizeReserve</name></member>
+      <member refid="group__GeneralGroup_1ga581685c400655d0cf9441498a051e38a" kind="function"><name>pushBack</name></member>
+      <member refid="group__GeneralGroup_1ga99f74cd2edd6dab050ffad6466cdf191" kind="function"><name>forEach</name></member>
+      <member refid="group__GeneralGroup_1ga60c491f3b471bedb23f0615dc24f0fc5" kind="function"><name>getMap</name></member>
+      <member refid="group__GeneralGroup_1gabfe1d6849d40b95fb756affcd2a49f49" kind="function"><name>getMap</name></member>
+      <member refid="group__GeneralGroup_1gad24c7a779069c7e074b47d8e3d3400ae" kind="function"><name>getHashMap</name></member>
+      <member refid="group__GeneralGroup_1ga0c1e6a6e4c0590ec6918e29c93d59b8e" kind="function"><name>getHashMap</name></member>
+      <member refid="group__GeneralGroup_1gab6a52148cc818bc6c42e287a95ef61b8" kind="function"><name>clear</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMapOrHashMap.h" bodystart="19" bodyend="50"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab6a52148cc818bc6c42e287a95ef61b8" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>clear</name></member>
+      <member refid="group__GeneralGroup_1gaf367d90b270a0bb9def39834f2a0e686" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>createHashMap</name></member>
+      <member refid="group__GeneralGroup_1ga2f5d8d5d984f6fbc7736118c4803e703" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>createMap</name></member>
+      <member refid="group__GeneralGroup_1gac2b84418d93cdedba84fe87ce2595e2e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>Dense</name></member>
+      <member refid="group__GeneralGroup_1ga99f74cd2edd6dab050ffad6466cdf191" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>forEach</name></member>
+      <member refid="group__GeneralGroup_1gad24c7a779069c7e074b47d8e3d3400ae" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getHashMap</name></member>
+      <member refid="group__GeneralGroup_1ga0c1e6a6e4c0590ec6918e29c93d59b8e" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getHashMap</name></member>
+      <member refid="group__GeneralGroup_1ga60c491f3b471bedb23f0615dc24f0fc5" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getMap</name></member>
+      <member refid="group__GeneralGroup_1gabfe1d6849d40b95fb756affcd2a49f49" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>getMap</name></member>
+      <member refid="group__GeneralGroup_1ga9b9b3bd19e1e1187943ce7850bcf6ee0" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>Hash</name></member>
+      <member refid="group__GeneralGroup_1ga581685c400655d0cf9441498a051e38a" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>pushBack</name></member>
+      <member refid="group__GeneralGroup_1ga7a15020a8ce32845565aeffab264051d" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>resizeReserve</name></member>
+      <member refid="group__GeneralGroup_1gaed9c7dee115bec118b5c146c71feeead" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>setHashMap</name></member>
+      <member refid="group__GeneralGroup_1ga00c1a5cbe4993ea2fe7958753f256c2d" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>setMap</name></member>
+      <member refid="group__GeneralGroup_1ga2406ff7e1c972a394a1b2375af1feb33" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

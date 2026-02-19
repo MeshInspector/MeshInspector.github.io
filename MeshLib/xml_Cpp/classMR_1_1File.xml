@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1File" kind="class" language="C++" prot="public">
+    <compoundname>MR::File</compoundname>
+    <includes refid="MRFile_8h" local="no">MRFile.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaee2e9cc3c9bd652293c52707b1f68f18" kind="variable"><name>handle_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gae5ad252a0ab97ff1ee3a263e11199315" kind="function"><name>File</name></member>
+      <member refid="group__GeneralGroup_1ga2e42a0a77bdbaa0ff18b660ff364628a" kind="function"><name>File</name></member>
+      <member refid="group__GeneralGroup_1gafa9f220f484070486fb77824fd5ec1e5" kind="function"><name>File</name></member>
+      <member refid="group__GeneralGroup_1gaddeda448870bf1838a2e6d53d2629d36" kind="function"><name>File</name></member>
+      <member refid="group__GeneralGroup_1ga7b134234363eeb5577036a78da07975c" kind="function"><name>~File</name></member>
+      <member refid="group__GeneralGroup_1ga0e75b59b59d0598284793e8509995bfe" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga9ca34a6881807130cc132c87a37daf12" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga94af7ee95f2e3b7d2f88bbdc71df69a3" kind="function"><name>operator FILE *</name></member>
+      <member refid="group__GeneralGroup_1ga20254d5bbf7df8159f1c75a0de21f819" kind="function"><name>open</name></member>
+      <member refid="group__GeneralGroup_1ga94bc33654229a7cd797fe79baac1faaa" kind="function"><name>close</name></member>
+      <member refid="group__GeneralGroup_1ga46f305b6331088acfe8c1f8bc4076837" kind="function"><name>detach</name></member>
+      <member refid="group__GeneralGroup_1ga1da05c5461ae76cfb46367697be9f18e" kind="function"><name>attach</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>the class to open C FILE handle and automatically close it in the destructor </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFile.h" bodystart="19" bodyend="42"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1da05c5461ae76cfb46367697be9f18e" prot="public" virt="non-virtual"><scope>MR::File</scope><name>attach</name></member>
+      <member refid="group__GeneralGroup_1ga94bc33654229a7cd797fe79baac1faaa" prot="public" virt="non-virtual"><scope>MR::File</scope><name>close</name></member>
+      <member refid="group__GeneralGroup_1ga46f305b6331088acfe8c1f8bc4076837" prot="public" virt="non-virtual"><scope>MR::File</scope><name>detach</name></member>
+      <member refid="group__GeneralGroup_1gae5ad252a0ab97ff1ee3a263e11199315" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
+      <member refid="group__GeneralGroup_1ga2e42a0a77bdbaa0ff18b660ff364628a" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
+      <member refid="group__GeneralGroup_1gafa9f220f484070486fb77824fd5ec1e5" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
+      <member refid="group__GeneralGroup_1gaddeda448870bf1838a2e6d53d2629d36" prot="public" virt="non-virtual"><scope>MR::File</scope><name>File</name></member>
+      <member refid="group__GeneralGroup_1gaee2e9cc3c9bd652293c52707b1f68f18" prot="private" virt="non-virtual"><scope>MR::File</scope><name>handle_</name></member>
+      <member refid="group__GeneralGroup_1ga20254d5bbf7df8159f1c75a0de21f819" prot="public" virt="non-virtual"><scope>MR::File</scope><name>open</name></member>
+      <member refid="group__GeneralGroup_1ga94af7ee95f2e3b7d2f88bbdc71df69a3" prot="public" virt="non-virtual"><scope>MR::File</scope><name>operator FILE *</name></member>
+      <member refid="group__GeneralGroup_1ga0e75b59b59d0598284793e8509995bfe" prot="public" virt="non-virtual"><scope>MR::File</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga9ca34a6881807130cc132c87a37daf12" prot="public" virt="non-virtual"><scope>MR::File</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga7b134234363eeb5577036a78da07975c" prot="public" virt="non-virtual"><scope>MR::File</scope><name>~File</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrviewerpy_1_1Viewer" kind="class" language="Python" prot="public">
+    <compoundname>mrviewerpy::Viewer</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1a1c020e866f8141a1664924407ae4c9fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrviewerpy.Viewer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="201" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="201" bodyend="202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1a3e52ba6ee6800cfd900832f9511f5869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.captureScreenShot</definition>
+        <argsstring>(self, str path)</argsstring>
+        <name>captureScreenShot</name>
+        <qualifiedname>mrviewerpy.Viewer.captureScreenShot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Captures part of window (redraw 3d scene over UI (without redrawing UI))
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="203" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1aab90b1173bbd8f268990a363817078cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.captureUIScreenShot</definition>
+        <argsstring>(self, str path)</argsstring>
+        <name>captureUIScreenShot</name>
+        <qualifiedname>mrviewerpy.Viewer.captureUIScreenShot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Captures full window screenshot with UI
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="207" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1af589978c833603eb4a95bab3e2d16f98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.Vector2f</type>
+        <definition> meshlib.mrmeshpy.Vector2f mrviewerpy.Viewer.getMousePos</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMousePos</name>
+        <qualifiedname>mrviewerpy.Viewer.getMousePos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get the current mouse position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="211" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1aecfd05e024c397cc4b21f2f3d60987ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.incrementForceRedrawFrames</definition>
+        <argsstring>(self, int num=1, bool swapOnLastOnly=False)</argsstring>
+        <name>incrementForceRedrawFrames</name>
+        <qualifiedname>mrviewerpy.Viewer.incrementForceRedrawFrames</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num</declname>
+          <defval>1</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>swapOnLastOnly</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Increment number of forced frames to redraw in event loop
+if `swapOnLastOnly` only last forced frame will be present on screen and all previous will not
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="215" bodyend="219"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1abcb12b9129b8f6a1324c555b5cbce6ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.mouseDown</definition>
+        <argsstring>(self, MouseButton button, KeyMod modifier=...)</argsstring>
+        <name>mouseDown</name>
+        <qualifiedname>mrviewerpy.Viewer.mouseDown</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrviewerpy_1_1MouseButton" kindref="compound">MouseButton</ref></type>
+          <declname>button</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrviewerpy_1_1KeyMod" kindref="compound">KeyMod</ref></type>
+          <declname>modifier</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Simulate mouse down event.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1ac150d6740c2bcdac6bd930c7d314e547" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.mouseMove</definition>
+        <argsstring>(self, int x, int y)</argsstring>
+        <name>mouseMove</name>
+        <qualifiedname>mrviewerpy.Viewer.mouseMove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Simulate mouse move event.
+NOTE: Some plugins need at least TWO `mouseMove()`s in a row (possibly with the same position). If you&apos;re having issues, try sending two events.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="224" bodyend="228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1ac0260b73bc9b46e1fe08612553d6e9b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.mouseUp</definition>
+        <argsstring>(self, MouseButton button, KeyMod modifier=...)</argsstring>
+        <name>mouseUp</name>
+        <qualifiedname>mrviewerpy.Viewer.mouseUp</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrviewerpy_1_1MouseButton" kindref="compound">MouseButton</ref></type>
+          <declname>button</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrviewerpy_1_1KeyMod" kindref="compound">KeyMod</ref></type>
+          <declname>modifier</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Simulate mouse up event.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="229" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1a730f9ae2d9580f5715274f72068df9e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.preciseFitDataViewport</definition>
+        <argsstring>(self, meshlib.mrmeshpy.ViewportMask vpList=..., ViewportFitDataParams params=...)</argsstring>
+        <name>preciseFitDataViewport</name>
+        <qualifiedname>mrviewerpy.Viewer.preciseFitDataViewport</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.ViewportMask</type>
+          <declname>vpList</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrviewerpy_1_1ViewportFitDataParams" kindref="compound">ViewportFitDataParams</ref></type>
+          <declname>params</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Calls fitData and change FOV to match the screen size then
+params - params fit data
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="233" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1a90d029ac75c94841747bb951a4473e47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.showSceneTree</definition>
+        <argsstring>(self, bool show)</argsstring>
+        <name>showSceneTree</name>
+        <qualifiedname>mrviewerpy.Viewer.showSceneTree</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>show</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Shows or hide scene tree
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="238" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1a57b409f65dbd238d9b62f8e759dddfa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.shutdown</definition>
+        <argsstring>(self)</argsstring>
+        <name>shutdown</name>
+        <qualifiedname>mrviewerpy.Viewer.shutdown</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets stop event loop flag (this flag is glfwShouldWindowClose equivalent)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="242" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1ac2f35c7bfcda30c6a8d8bc57755f7039" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewer.skipFrames</definition>
+        <argsstring>(self, int frames)</argsstring>
+        <name>skipFrames</name>
+        <qualifiedname>mrviewerpy.Viewer.skipFrames</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frames</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="246" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1a71e1baaf8deab7b37fed0b3d5e741f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrviewerpy_1_1Viewport" kindref="compound">Viewport</ref></type>
+        <definition> Viewport mrviewerpy.Viewer.viewport</definition>
+        <argsstring>(self, meshlib.mrmeshpy.ViewportId viewportId=...)</argsstring>
+        <name>viewport</name>
+        <qualifiedname>mrviewerpy.Viewer.viewport</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the current viewport, or the viewport corresponding to a given unique identifier
+    viewportId - unique identifier corresponding to the desired viewport (current viewport if 0)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="248" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewer_1a4a666c97d674b522e05582ead580d28b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.Vector3f</type>
+        <definition> meshlib.mrmeshpy.Vector3f mrviewerpy.Viewer.viewportToScreen</definition>
+        <argsstring>(self, meshlib.mrmeshpy.Vector3f arg0, meshlib.mrmeshpy.ViewportId arg1)</argsstring>
+        <name>viewportToScreen</name>
+        <qualifiedname>mrviewerpy.Viewer.viewportToScreen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3f</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.ViewportId</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Convert viewport coordinates to to screen coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="253" bodyend="256"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>GLFW-based mesh viewer
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="197" bodyend="256"/>
+    <listofallmembers>
+      <member refid="classmrviewerpy_1_1Viewer_1a1c020e866f8141a1664924407ae4c9fc" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>__init__</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1a3e52ba6ee6800cfd900832f9511f5869" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>captureScreenShot</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1aab90b1173bbd8f268990a363817078cd" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>captureUIScreenShot</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1af589978c833603eb4a95bab3e2d16f98" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>getMousePos</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1aecfd05e024c397cc4b21f2f3d60987ae" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>incrementForceRedrawFrames</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1abcb12b9129b8f6a1324c555b5cbce6ba" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>mouseDown</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1ac150d6740c2bcdac6bd930c7d314e547" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>mouseMove</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1ac0260b73bc9b46e1fe08612553d6e9b4" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>mouseUp</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1a730f9ae2d9580f5715274f72068df9e3" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>preciseFitDataViewport</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1a90d029ac75c94841747bb951a4473e47" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>showSceneTree</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1a57b409f65dbd238d9b62f8e759dddfa4" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>shutdown</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1ac2f35c7bfcda30c6a8d8bc57755f7039" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>skipFrames</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1a71e1baaf8deab7b37fed0b3d5e741f4f" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>viewport</name></member>
+      <member refid="classmrviewerpy_1_1Viewer_1a4a666c97d674b522e05582ead580d28b" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewer</scope><name>viewportToScreen</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

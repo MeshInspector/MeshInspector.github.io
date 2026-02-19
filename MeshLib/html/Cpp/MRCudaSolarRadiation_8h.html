@@ -153,7 +153,7 @@ $(function(){initNavTree('MRCudaSolarRadiation_8h.html',''); initResizable(true)
 <div class="contents">
 <div class="textblock"><code>#include &quot;exports.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRFastWindingNumber_8h_source.html">MRMesh/MRFastWindingNumber.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRMesh_8h_source.html">MRMesh/MRMesh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMesh_8h_source.html">MRMesh/MRMesh.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRSolarRadiation_8h_source.html">MRMesh/MRSolarRadiation.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMeshIntersect_8h_source.html">MRMesh/MRMeshIntersect.h</a>&quot;</code><br />
 </div>
@@ -162,16 +162,17 @@ $(function(){initNavTree('MRCudaSolarRadiation_8h.html',''); initResizable(true)
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html">MR::Cuda</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab5f9490f820c7e7eb708e516e58d6e5a" id="r_ab5f9490f820c7e7eb708e516e58d6e5a"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="elRef" href="../Csharp/classMR_1_1VertScalars.html">VertScalars</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#ab5f9490f820c7e7eb708e516e58d6e5a">MR::Cuda::computeSkyViewFactor</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;terrain, const <a class="elRef" href="../Csharp/classMR_1_1VertCoords.html">VertCoords</a> &amp;samples, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;validSamples, const std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, <a class="elRef" href="../Csharp/classMR_1_1BitSet.html">BitSet</a> *outSkyRays=nullptr, std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
-<tr class="separator:ab5f9490f820c7e7eb708e516e58d6e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af763aea7896baa102ab7715278d93231" id="r_af763aea7896baa102ab7715278d93231"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="elRef" href="../Csharp/classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Cuda.html#af763aea7896baa102ab7715278d93231">MR::Cuda::findSkyRays</a> (const <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;terrain, const <a class="elRef" href="../Csharp/classMR_1_1VertCoords.html">VertCoords</a> &amp;samples, const <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &amp;validSamples, const std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, std::vector&lt; <a class="elRef" href="../Csharp/classMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
-<tr class="separator:af763aea7896baa102ab7715278d93231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab5f9490f820c7e7eb708e516e58d6e5a" id="r_gab5f9490f820c7e7eb708e516e58d6e5a"><td class="memItemLeft" align="right" valign="top">MRCUDA_API VertScalars&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab5f9490f820c7e7eb708e516e58d6e5a">MR::Cuda::computeSkyViewFactor</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, <a class="el" href="classMR_1_1BitSet.html">BitSet</a> *outSkyRays=nullptr, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
+<tr class="separator:gab5f9490f820c7e7eb708e516e58d6e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf763aea7896baa102ab7715278d93231" id="r_gaf763aea7896baa102ab7715278d93231"><td class="memItemLeft" align="right" valign="top">MRCUDA_API <a class="el" href="classMR_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaf763aea7896baa102ab7715278d93231">MR::Cuda::findSkyRays</a> (const <a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;terrain, const VertCoords &amp;samples, const VertBitSet &amp;validSamples, const std::vector&lt; <a class="el" href="structMR_1_1SkyPatch.html">MR::SkyPatch</a> &gt; &amp;skyPatches, std::vector&lt; <a class="el" href="structMR_1_1MeshIntersectionResult.html">MR::MeshIntersectionResult</a> &gt; *outIntersections=nullptr)</td></tr>
+<tr class="separator:gaf763aea7896baa102ab7715278d93231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

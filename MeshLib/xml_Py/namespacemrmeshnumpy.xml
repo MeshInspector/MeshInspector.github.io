@@ -1,0 +1,457 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespacemrmeshnumpy" kind="namespace" language="Python">
+    <compoundname>mrmeshnumpy</compoundname>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemrmeshnumpy_1a8e8e47650184d24fb7a11395f14fe8b1" prot="private" static="no" mutable="no">
+        <type>list</type>
+        <definition>list mrmeshnumpy.__all__</definition>
+        <argsstring></argsstring>
+        <name>__all__</name>
+        <qualifiedname>mrmeshnumpy.__all__</qualifiedname>
+        <initializer>=  [&apos;<ref refid="namespacemrmeshnumpy_1a4c856fa3511daab45f4c4996e4d48f62" kindref="member">edgeBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a0eb7da152334eb8272d6ddf545189b6a" kindref="member">faceBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a436f15df78cab87872b198370b097c0e" kindref="member">fromNumpyArray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a30039e3551018d198a5a42bd480744cd" kindref="member">getNumpy3Darray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a99acb9582fb6b8f20b4c8352a9943d6b" kindref="member">getNumpyBitSet</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a4ff4013d8f081b6e4ad1c3c9a4631fa2" kindref="member">getNumpyCurvature</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a6c6a7732d2ef76e8fbcb88033a0b80ec" kindref="member">getNumpyFaces</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a112c46ee48d636b11e53698db53119e3" kindref="member">getNumpyGaussianCurvature</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a0fb0ed1e250c69e589c8cc7f710a82e7" kindref="member">getNumpyMeanCurvature</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a1246f4777bd0e0fa1f5a7f7ed9ae4fd6" kindref="member">getNumpyVerts</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a77b8867a49668ef48883a85a9113df81" kindref="member">meshFromFacesVerts</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a17cf7f7527475e90734b1c6033d7b439" kindref="member">meshFromUVPoints</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a67c605242104534bf522a0f72ef88db5" kindref="member">pointCloudFromPoints</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1ad12b61da2fba2209c9f70ec5a2e44911" kindref="member">polyline2FromPoints</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1ac6224bbc57901b29cec13de697c190f3" kindref="member">simpleVolumeFrom3Darray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a8c5b5395e60350c4ed44f27494f41ad5" kindref="member">toNumpyArray</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a0e13b8c54dc10e601ebf8258e1b97da1" kindref="member">undirectedEdgeBitSetFromBools</ref>&apos;, &apos;<ref refid="namespacemrmeshnumpy_1a31711773ee51c2175497e8f31b786ad0" kindref="member">vertBitSetFromBools</ref>&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="6" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="6" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a4c856fa3511daab45f4c4996e4d48f62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.EdgeBitSet</type>
+        <definition> meshlib.mrmeshpy.EdgeBitSet mrmeshnumpy.edgeBitSetFromBools</definition>
+        <argsstring>(typing_extensions.Buffer boolArray)</argsstring>
+        <name>edgeBitSetFromBools</name>
+        <qualifiedname>mrmeshnumpy.edgeBitSetFromBools</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>boolArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns EdgeBitSet from numpy array with bools
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="7" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="7" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a0eb7da152334eb8272d6ddf545189b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.FaceBitSet</type>
+        <definition> meshlib.mrmeshpy.FaceBitSet mrmeshnumpy.faceBitSetFromBools</definition>
+        <argsstring>(typing_extensions.Buffer boolArray)</argsstring>
+        <name>faceBitSetFromBools</name>
+        <qualifiedname>mrmeshnumpy.faceBitSetFromBools</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>boolArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns FaceBitSet from numpy array with bools
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a436f15df78cab87872b198370b097c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_Vector3_float</type>
+        <definition> meshlib.mrmeshpy.std_vector_Vector3_float mrmeshnumpy.fromNumpyArray</definition>
+        <argsstring>(typing_extensions.Buffer coords)</argsstring>
+        <name>fromNumpyArray</name>
+        <qualifiedname>mrmeshnumpy.fromNumpyArray</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs mrmeshpy.vectorVector3f from numpy ndarray with shape (n,3)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a30039e3551018d198a5a42bd480744cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[numpy.float64]</type>
+        <definition> numpy.ndarray[numpy.float64] mrmeshnumpy.getNumpy3Darray</definition>
+        <argsstring>(meshlib.mrmeshpy.SimpleVolume simpleVolume)</argsstring>
+        <name>getNumpy3Darray</name>
+        <qualifiedname>mrmeshnumpy.getNumpy3Darray</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.SimpleVolume</type>
+          <declname>simpleVolume</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Convert SimpleVolume to numpy 3D array
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a99acb9582fb6b8f20b4c8352a9943d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[bool]</type>
+        <definition> numpy.ndarray[bool] mrmeshnumpy.getNumpyBitSet</definition>
+        <argsstring>(meshlib.mrmeshpy.BitSet bitset)</argsstring>
+        <name>getNumpyBitSet</name>
+        <qualifiedname>mrmeshnumpy.getNumpyBitSet</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.BitSet</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns numpy array with bools for each bit of given bitset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a4ff4013d8f081b6e4ad1c3c9a4631fa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[numpy.float64]</type>
+        <definition> numpy.ndarray[numpy.float64] mrmeshnumpy.getNumpyCurvature</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh mesh)</argsstring>
+        <name>getNumpyCurvature</name>
+        <qualifiedname>mrmeshnumpy.getNumpyCurvature</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>retunrs numpy array with discrete mean curvature for each vertex of a mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a6c6a7732d2ef76e8fbcb88033a0b80ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[numpy.int32]</type>
+        <definition> numpy.ndarray[numpy.int32] mrmeshnumpy.getNumpyFaces</definition>
+        <argsstring>(meshlib.mrmeshpy.MeshTopology topology)</argsstring>
+        <name>getNumpyFaces</name>
+        <qualifiedname>mrmeshnumpy.getNumpyFaces</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.MeshTopology</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns numpy array shapes [num faces,3] which represents vertices of mesh valid faces 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="31" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a112c46ee48d636b11e53698db53119e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[numpy.float64]</type>
+        <definition> numpy.ndarray[numpy.float64] mrmeshnumpy.getNumpyGaussianCurvature</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh mesh)</argsstring>
+        <name>getNumpyGaussianCurvature</name>
+        <qualifiedname>mrmeshnumpy.getNumpyGaussianCurvature</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>retunrs numpy array with discrete Gaussian curvature for each vertex of a mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="35" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a0fb0ed1e250c69e589c8cc7f710a82e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[numpy.float64]</type>
+        <definition> numpy.ndarray[numpy.float64] mrmeshnumpy.getNumpyMeanCurvature</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh mesh)</argsstring>
+        <name>getNumpyMeanCurvature</name>
+        <qualifiedname>mrmeshnumpy.getNumpyMeanCurvature</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>retunrs numpy array with discrete mean curvature for each vertex of a mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a1246f4777bd0e0fa1f5a7f7ed9ae4fd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[numpy.float64]</type>
+        <definition> numpy.ndarray[numpy.float64] mrmeshnumpy.getNumpyVerts</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh mesh)</argsstring>
+        <name>getNumpyVerts</name>
+        <qualifiedname>mrmeshnumpy.getNumpyVerts</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns numpy array shapes [num verts,3] which represents coordinates of all mesh points (including invalid ones)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a77b8867a49668ef48883a85a9113df81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.Mesh</type>
+        <definition> meshlib.mrmeshpy.Mesh mrmeshnumpy.meshFromFacesVerts</definition>
+        <argsstring>(typing_extensions.Buffer faces, typing_extensions.Buffer verts, meshlib.mrmeshpy.MeshBuilder.BuildSettings settings=..., bool duplicateNonManifoldVertices=True)</argsstring>
+        <name>meshFromFacesVerts</name>
+        <qualifiedname>mrmeshnumpy.meshFromFacesVerts</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>faces</declname>
+        </param>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>verts</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.MeshBuilder.BuildSettings</type>
+          <declname>settings</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>duplicateNonManifoldVertices</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs mesh from given numpy ndarrays of faces (N VertId x3, FaceId x1), verts (M vec3 x3)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="47" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a17cf7f7527475e90734b1c6033d7b439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.Mesh</type>
+        <definition> meshlib.mrmeshpy.Mesh mrmeshnumpy.meshFromUVPoints</definition>
+        <argsstring>(typing_extensions.Buffer xArray, typing_extensions.Buffer yArray, typing_extensions.Buffer zArray)</argsstring>
+        <name>meshFromUVPoints</name>
+        <qualifiedname>mrmeshnumpy.meshFromUVPoints</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>xArray</declname>
+        </param>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>yArray</declname>
+        </param>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>zArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs mesh from three 2d numpy ndarrays with x,y,z positions of mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="51" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="51" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a67c605242104534bf522a0f72ef88db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.PointCloud</type>
+        <definition> meshlib.mrmeshpy.PointCloud mrmeshnumpy.pointCloudFromPoints</definition>
+        <argsstring>(typing_extensions.Buffer points, typing_extensions.Buffer normals=...)</argsstring>
+        <name>pointCloudFromPoints</name>
+        <qualifiedname>mrmeshnumpy.pointCloudFromPoints</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>normals</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates point cloud object from numpy arrays, first arg - points, second optional arg - normals
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="55" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="55" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1ad12b61da2fba2209c9f70ec5a2e44911" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.Polyline2</type>
+        <definition> meshlib.mrmeshpy.Polyline2 mrmeshnumpy.polyline2FromPoints</definition>
+        <argsstring>(typing_extensions.Buffer points)</argsstring>
+        <name>polyline2FromPoints</name>
+        <qualifiedname>mrmeshnumpy.polyline2FromPoints</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>points</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates polyline2 object from numpy array
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="59" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="59" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1ac6224bbc57901b29cec13de697c190f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.SimpleVolumeMinMax</type>
+        <definition> meshlib.mrmeshpy.SimpleVolumeMinMax mrmeshnumpy.simpleVolumeFrom3Darray</definition>
+        <argsstring>(typing_extensions.Buffer DvoxelsArray)</argsstring>
+        <name>simpleVolumeFrom3Darray</name>
+        <qualifiedname>mrmeshnumpy.simpleVolumeFrom3Darray</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>DvoxelsArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Convert numpy 3D array to SimpleVolume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="63" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="63" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a8c5b5395e60350c4ed44f27494f41ad5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[numpy.float64]</type>
+        <definition> numpy.ndarray[numpy.float64] mrmeshnumpy.toNumpyArray</definition>
+        <argsstring>(meshlib.mrmeshpy.VertCoords coords)</argsstring>
+        <name>toNumpyArray</name>
+        <qualifiedname>mrmeshnumpy.toNumpyArray</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.VertCoords</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns numpy array shapes [num coords,3] which represents coordinates from given vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="68" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="68" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a1c3d6c72018281ed51f66dc03c8da6bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[numpy.float64]</type>
+        <definition> numpy.ndarray[numpy.float64] mrmeshnumpy.toNumpyArray</definition>
+        <argsstring>(meshlib.mrmeshpy.FaceNormals coords)</argsstring>
+        <name>toNumpyArray</name>
+        <qualifiedname>mrmeshnumpy.toNumpyArray</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.FaceNormals</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns numpy array shapes [num coords,3] which represents coordinates from given vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="73" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a4ecdf081b92fedf910fcd4fecfe617c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>numpy.ndarray[numpy.float64]</type>
+        <definition> numpy.ndarray[numpy.float64] mrmeshnumpy.toNumpyArray</definition>
+        <argsstring>(meshlib.mrmeshpy.std_vector_Vector3_float coords)</argsstring>
+        <name>toNumpyArray</name>
+        <qualifiedname>mrmeshnumpy.toNumpyArray</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_Vector3_float</type>
+          <declname>coords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns numpy array shapes [num coords,3] which represents coordinates from given vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="78" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a0e13b8c54dc10e601ebf8258e1b97da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.UndirectedEdgeBitSet</type>
+        <definition> meshlib.mrmeshpy.UndirectedEdgeBitSet mrmeshnumpy.undirectedEdgeBitSetFromBools</definition>
+        <argsstring>(typing_extensions.Buffer boolArray)</argsstring>
+        <name>undirectedEdgeBitSetFromBools</name>
+        <qualifiedname>mrmeshnumpy.undirectedEdgeBitSetFromBools</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>boolArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns UndirectedEdgeBitSet from numpy array with bools
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="82" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="82" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrmeshnumpy_1a31711773ee51c2175497e8f31b786ad0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.VertBitSet</type>
+        <definition> meshlib.mrmeshpy.VertBitSet mrmeshnumpy.vertBitSetFromBools</definition>
+        <argsstring>(typing_extensions.Buffer boolArray)</argsstring>
+        <name>vertBitSetFromBools</name>
+        <qualifiedname>mrmeshnumpy.vertBitSetFromBools</qualifiedname>
+        <param>
+          <type>typing_extensions.Buffer</type>
+          <declname>boolArray</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns VertBitSet from numpy array with bools
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="86" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" bodystart="86" bodyend="90"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshnumpy.pyi" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1InSphereSearchSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::InSphereSearchSettings</compoundname>
+    <includes refid="MRMeshThickness_8h" local="no">MRMeshThickness.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga11df62ec99464c382a22fd4b2be79d72" kind="variable"><name>insideAndOutside</name></member>
+      <member refid="group__GeneralGroup_1ga5454ee36cf1aaf8137df2df59f4a4e53" kind="variable"><name>maxRadius</name></member>
+      <member refid="group__GeneralGroup_1ga1de8bbe0d4cdab4fc7b43e8797368154" kind="variable"><name>maxIters</name></member>
+      <member refid="group__GeneralGroup_1ga4cada7cafcfc301fc90315554648f1cd" kind="variable"><name>minShrinkage</name></member>
+      <member refid="group__GeneralGroup_1gac17cedea371781d54bc00fa84b7b0125" kind="variable"><name>minAngleCos</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>controls the finding of maximal inscribed sphere in mesh </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Shrinking sphere: A parallel algorithm for computing the thickness of 3D objects <ulink url="https:///">https:///</ulink> www.cad-journal.net/files/vol_13/CAD_13(2)_2016_199-207.pdf </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="38" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" bodystart="39" bodyend="61"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga11df62ec99464c382a22fd4b2be79d72" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>insideAndOutside</name></member>
+      <member refid="group__GeneralGroup_1ga1de8bbe0d4cdab4fc7b43e8797368154" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>maxIters</name></member>
+      <member refid="group__GeneralGroup_1ga5454ee36cf1aaf8137df2df59f4a4e53" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>maxRadius</name></member>
+      <member refid="group__GeneralGroup_1gac17cedea371781d54bc00fa84b7b0125" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>minAngleCos</name></member>
+      <member refid="group__GeneralGroup_1ga4cada7cafcfc301fc90315554648f1cd" prot="public" virt="non-virtual"><scope>MR::InSphereSearchSettings</scope><name>minShrinkage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

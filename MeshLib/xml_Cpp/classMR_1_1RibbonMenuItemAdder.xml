@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonMenuItemAdder" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonMenuItemAdder</compoundname>
+    <derivedcompoundref refid="classMR_1_1RibbonMenuItemAdderT" prot="private" virt="non-virtual">MR::RibbonMenuItemAdderT&lt; T &gt;</derivedcompoundref>
+    <includes refid="MRRibbonRegisterItem_8h" local="no">MRRibbonRegisterItem.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga40d3cf074ff76d776f29b02f712d7dbd" kind="variable"><name>item_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga066247d3ea9deaf7a27cfee6eb61b67a" kind="function"><name>RibbonMenuItemAdder</name></member>
+      <member refid="group__GeneralGroup_1ga32c339321144b8c626e6564eb83c3b3e" kind="function"><name>~RibbonMenuItemAdder</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::RibbonMenuItemAdder</label>
+        <link refid="classMR_1_1RibbonMenuItemAdder"/>
+      </node>
+      <node id="2">
+        <label>MR::RibbonMenuItemAdderT&lt; T &gt;</label>
+        <link refid="classMR_1_1RibbonMenuItemAdderT"/>
+        <childnode refid="1" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga40d3cf074ff76d776f29b02f712d7dbd" prot="private" virt="non-virtual"><scope>MR::RibbonMenuItemAdder</scope><name>item_</name></member>
+      <member refid="group__GeneralGroup_1ga066247d3ea9deaf7a27cfee6eb61b67a" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItemAdder</scope><name>RibbonMenuItemAdder</name></member>
+      <member refid="group__GeneralGroup_1ga32c339321144b8c626e6564eb83c3b3e" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItemAdder</scope><name>~RibbonMenuItemAdder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

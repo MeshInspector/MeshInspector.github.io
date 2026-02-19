@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SetBitIteratorT" kind="class" language="C++" prot="public">
+    <compoundname>MR::SetBitIteratorT</compoundname>
+    <includes refid="MRBitSet_8h" local="no">MRBitSet.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" prot="public" static="no">
+        <type>typename T::IndexType</type>
+        <definition>using MR::SetBitIteratorT&lt; T &gt;::IndexType =  typename T::IndexType</definition>
+        <argsstring></argsstring>
+        <name>IndexType</name>
+        <qualifiedname>MR::SetBitIteratorT::IndexType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="357" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1a3ead9e2691fedc1c67d1212721d3a157" prot="public" static="no">
+        <type>std::forward_iterator_tag</type>
+        <definition>using MR::SetBitIteratorT&lt; T &gt;::iterator_category =  std::forward_iterator_tag</definition>
+        <argsstring></argsstring>
+        <name>iterator_category</name>
+        <qualifiedname>MR::SetBitIteratorT::iterator_category</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="359" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1a65326d51ccb6cea126d404534ea2a329" prot="public" static="no">
+        <type><ref refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kindref="member">IndexType</ref></type>
+        <definition>using MR::SetBitIteratorT&lt; T &gt;::value_type =  IndexType</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>MR::SetBitIteratorT::value_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="360" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1af520ca8fde7b2302d963bb596a4e326b" prot="public" static="no">
+        <type>std::ptrdiff_t</type>
+        <definition>using MR::SetBitIteratorT&lt; T &gt;::difference_type =  std::ptrdiff_t</definition>
+        <argsstring></argsstring>
+        <name>difference_type</name>
+        <qualifiedname>MR::SetBitIteratorT::difference_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="361" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1aced05ebc6333620dcadd87af14a3f610" prot="public" static="no">
+        <type><ref refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kindref="member">IndexType</ref></type>
+        <definition>using MR::SetBitIteratorT&lt; T &gt;::reference =  IndexType</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>MR::SetBitIteratorT::reference</qualifiedname>
+        <briefdescription>
+<para>intentionally not a reference </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="362" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1SetBitIteratorT_1a22e03a8a13140a2e652009346c41c0ba" prot="public" static="no">
+        <type>const <ref refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kindref="member">IndexType</ref> *</type>
+        <definition>using MR::SetBitIteratorT&lt; T &gt;::pointer =  const IndexType *</definition>
+        <argsstring></argsstring>
+        <name>pointer</name>
+        <qualifiedname>MR::SetBitIteratorT::pointer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="363" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="363" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1SetBitIteratorT_1a2ff5d3c64ad7c473b2c2edd0fa67ea55" prot="private" static="no" mutable="no">
+        <type>const T *</type>
+        <definition>const T* MR::SetBitIteratorT&lt; T &gt;::bitset_</definition>
+        <argsstring></argsstring>
+        <name>bitset_</name>
+        <qualifiedname>MR::SetBitIteratorT::bitset_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="390" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SetBitIteratorT_1ae5f73e4d6a549f48f71c4a59ee714b6a" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kindref="member">IndexType</ref></type>
+        <definition>IndexType MR::SetBitIteratorT&lt; T &gt;::index_</definition>
+        <argsstring></argsstring>
+        <name>index_</name>
+        <qualifiedname>MR::SetBitIteratorT::index_</qualifiedname>
+        <initializer>= <ref refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" kindref="member">IndexType</ref>( ~size_t( 0 ) )</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="391" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="391" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1a38daf11addb75bcfab304e51d62ba9f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::SetBitIteratorT&lt; T &gt;::SetBitIteratorT</definition>
+        <argsstring>()=default</argsstring>
+        <name>SetBitIteratorT</name>
+        <qualifiedname>MR::SetBitIteratorT::SetBitIteratorT</qualifiedname>
+        <briefdescription>
+<para>constructs end iterator </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="366" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1ab6e4b92cd100336048e5869d8fadc6ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::SetBitIteratorT&lt; T &gt;::SetBitIteratorT</definition>
+        <argsstring>(const T &amp;bitset)</argsstring>
+        <name>SetBitIteratorT</name>
+        <qualifiedname>MR::SetBitIteratorT::SetBitIteratorT</qualifiedname>
+        <param>
+          <type>const T &amp;</type>
+          <declname>bitset</declname>
+        </param>
+        <briefdescription>
+<para>constructs begin iterator </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="368" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="368" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1aad821003890f84db390e9a4011c8d37d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1SetBitIteratorT" kindref="compound">SetBitIteratorT</ref> &amp;</type>
+        <definition>SetBitIteratorT &amp; MR::SetBitIteratorT&lt; T &gt;::operator++</definition>
+        <argsstring>()</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR::SetBitIteratorT::operator++</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="372" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="372" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1a18f2206478b0e1495f2ebbd017d41ff2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1SetBitIteratorT" kindref="compound">SetBitIteratorT</ref></type>
+        <definition>SetBitIteratorT MR::SetBitIteratorT&lt; T &gt;::operator++</definition>
+        <argsstring>(int)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR::SetBitIteratorT::operator++</qualifiedname>
+        <param>
+          <type>int</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="377" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="377" bodyend="382"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1a4462188d7adb7134739834723a0e405e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const T *</type>
+        <definition>const T * MR::SetBitIteratorT&lt; T &gt;::bitset</definition>
+        <argsstring>() const</argsstring>
+        <name>bitset</name>
+        <qualifiedname>MR::SetBitIteratorT::bitset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="384" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="384" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetBitIteratorT_1aa231d32ed4abe7e732adfff36d5e267b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1SetBitIteratorT_1aced05ebc6333620dcadd87af14a3f610" kindref="member">reference</ref></type>
+        <definition>reference MR::SetBitIteratorT&lt; T &gt;::operator*</definition>
+        <argsstring>() const</argsstring>
+        <name>operator*</name>
+        <qualifiedname>MR::SetBitIteratorT::operator*</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="385" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="385" bodyend="385"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMR_1_1SetBitIteratorT_1afae6d6e117aafc177ad2feb727a277ea" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const SetBitIteratorT&lt; T &gt; &amp;a, const SetBitIteratorT&lt; T &gt; &amp;b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::SetBitIteratorT::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1SetBitIteratorT" kindref="compound">SetBitIteratorT</ref>&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1SetBitIteratorT" kindref="compound">SetBitIteratorT</ref>&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="387" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="387" bodyend="387"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>iterator to enumerate all indices with set bits in <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> class or its derivatives </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="355" bodyend="392"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SetBitIteratorT_1a4462188d7adb7134739834723a0e405e" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>bitset</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1a2ff5d3c64ad7c473b2c2edd0fa67ea55" prot="private" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>bitset_</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1af520ca8fde7b2302d963bb596a4e326b" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>difference_type</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1ae5f73e4d6a549f48f71c4a59ee714b6a" prot="private" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>index_</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1a819b9dc59c1187b38e0a0793779bb8b0" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>IndexType</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1a3ead9e2691fedc1c67d1212721d3a157" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>iterator_category</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1aa231d32ed4abe7e732adfff36d5e267b" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>operator*</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1aad821003890f84db390e9a4011c8d37d" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>operator++</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1a18f2206478b0e1495f2ebbd017d41ff2" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>operator++</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1afae6d6e117aafc177ad2feb727a277ea" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>operator==</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1a22e03a8a13140a2e652009346c41c0ba" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>pointer</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1aced05ebc6333620dcadd87af14a3f610" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>reference</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1a38daf11addb75bcfab304e51d62ba9f8" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>SetBitIteratorT</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1ab6e4b92cd100336048e5869d8fadc6ca" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>SetBitIteratorT</name></member>
+      <member refid="classMR_1_1SetBitIteratorT_1a65326d51ccb6cea126d404534ea2a329" prot="public" virt="non-virtual"><scope>MR::SetBitIteratorT</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PolylineUndirectedEdgeIterator" kind="class" language="C++" prot="public">
+    <compoundname>MR::PolylineUndirectedEdgeIterator</compoundname>
+    <includes refid="MRPolylineEdgeIterator_8h" local="no">MRPolylineEdgeIterator.h</includes>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gaa10debad27ce2b86f238db3d967a2c22" kind="function"><name>operator==</name></member>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gab5a25215895e3294bb18f87556136edc" kind="typedef"><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1gae13501f43ea74a3e5ac234f3811e9241" kind="typedef"><name>value_type</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gac74dafb90bb559dc10041dd3f9bd6443" kind="variable"><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1ga06f0dc6b4e0019df7b067454d0b40150" kind="variable"><name>edge_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga96c120505ea08821c57b4ed64dee6cda" kind="function"><name>PolylineUndirectedEdgeIterator</name></member>
+      <member refid="group__GeneralGroup_1gaceb9e42371e4e109bae6cfd91baa5ec1" kind="function"><name>PolylineUndirectedEdgeIterator</name></member>
+      <member refid="group__GeneralGroup_1ga00b9bc17163f0618fd55aa774580ed91" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gac7b41ca64df520fa1cceaefa6adf9cde" kind="function"><name>operator*</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The iterator to find all not-lone undirected edges in the polyline topology </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineEdgeIterator.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineEdgeIterator.h" bodystart="16" bodyend="54"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga06f0dc6b4e0019df7b067454d0b40150" prot="private" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>edge_</name></member>
+      <member refid="group__GeneralGroup_1gab5a25215895e3294bb18f87556136edc" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1gac7b41ca64df520fa1cceaefa6adf9cde" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga00b9bc17163f0618fd55aa774580ed91" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gaa10debad27ce2b86f238db3d967a2c22" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga96c120505ea08821c57b4ed64dee6cda" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>PolylineUndirectedEdgeIterator</name></member>
+      <member refid="group__GeneralGroup_1gaceb9e42371e4e109bae6cfd91baa5ec1" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>PolylineUndirectedEdgeIterator</name></member>
+      <member refid="group__GeneralGroup_1gac74dafb90bb559dc10041dd3f9bd6443" prot="private" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1gae13501f43ea74a3e5ac234f3811e9241" prot="public" virt="non-virtual"><scope>MR::PolylineUndirectedEdgeIterator</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

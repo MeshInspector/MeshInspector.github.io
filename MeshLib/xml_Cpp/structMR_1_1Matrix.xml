@@ -1,0 +1,345 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Matrix" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Matrix</compoundname>
+    <basecompoundref refid="classMR_1_1RectIndexer" prot="public" virt="non-virtual">MR::RectIndexer</basecompoundref>
+    <includes refid="MRMatrix_8h" local="no">MRMatrix.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1Matrix_1a969b7d6345630cad2fa560cfc8f69965" prot="public" static="no">
+        <type>T</type>
+        <definition>using MR::Matrix&lt; T &gt;::ValueType =  T</definition>
+        <argsstring></argsstring>
+        <name>ValueType</name>
+        <qualifiedname>MR::Matrix::ValueType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="structMR_1_1Matrix_1a843d386b94c30ba24909e60828395bc1" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; T &gt;</type>
+        <definition>std::vector&lt;T&gt; MR::Matrix&lt; T &gt;::data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>MR::Matrix::data_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="89" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Matrix_1a2ad7f900e6b01f0617767997c6b9b640" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>constexpr</type>
+        <definition>MR::Matrix&lt; T &gt;::Matrix</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>Matrix</name>
+        <qualifiedname>MR::Matrix::Matrix</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="19" column="15"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1a76e03ab6e259da469989ca91e6c1dd3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Matrix&lt; T &gt;::Matrix</definition>
+        <argsstring>(size_t numRows, size_t numCols)</argsstring>
+        <name>Matrix</name>
+        <qualifiedname>MR::Matrix::Matrix</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>numRows</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>numCols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="21" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1a9732eb2252ae08face0de86a534e7102" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; MR::Matrix&lt; T &gt;::operator()</definition>
+        <argsstring>(size_t row, size_t col) noexcept</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::Matrix::operator()</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>main access method </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="27" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1ab4dd30aee86567790c1f73778509456d" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>T &amp;</type>
+        <definition>T &amp; MR::Matrix&lt; T &gt;::operator()</definition>
+        <argsstring>(size_t i) noexcept</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::Matrix::operator()</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="28" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1ab08a4a3c3eebfc38135fb65061fa927c" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::Matrix&lt; T &gt;::operator()</definition>
+        <argsstring>(size_t row, size_t col) const noexcept</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::Matrix::operator()</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="29" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1ab3a6654e368fa2ab1dbb1fc6f37ac4e3" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>const T &amp;</type>
+        <definition>const T &amp; MR::Matrix&lt; T &gt;::operator()</definition>
+        <argsstring>(size_t i) const noexcept</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::Matrix::operator()</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="30" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1a806891030ce95bf1c8f30915a0068e98" prot="public" static="no" constexpr="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix MR::Matrix&lt; T &gt;::getSubMatrix</definition>
+        <argsstring>(size_t startRow, size_t nRow, size_t startCol, size_t nCol)</argsstring>
+        <name>getSubMatrix</name>
+        <qualifiedname>MR::Matrix::getSubMatrix</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>startRow</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nRow</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>startCol</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>nCol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="32" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1a354da291fab3037516b4802e24177529" prot="public" static="no" constexpr="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Matrix" kindref="compound">Matrix</ref></type>
+        <definition>Matrix MR::Matrix&lt; T &gt;::transposed</definition>
+        <argsstring>() const</argsstring>
+        <name>transposed</name>
+        <qualifiedname>MR::Matrix::transposed</qualifiedname>
+        <briefdescription>
+<para>computes transposed matrix </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="46" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="46" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1afcec7ff199943212099a907797f41293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Matrix&lt; T &gt;::fill</definition>
+        <argsstring>(T val)</argsstring>
+        <name>fill</name>
+        <qualifiedname>MR::Matrix::fill</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="59" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="59" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1a9eb1e62339fab559b2cdea38de18d03a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::Matrix&lt; T &gt;::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR::Matrix::clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="67" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="67" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1aaf278a69da3b6609b3a56d61f89f989e" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::Matrix&lt; T &gt;::getRowsNum</definition>
+        <argsstring>() const</argsstring>
+        <name>getRowsNum</name>
+        <qualifiedname>MR::Matrix::getRowsNum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="73" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1aa5793f31905b29875d11cc1de6d948d5" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::Matrix&lt; T &gt;::getColsNum</definition>
+        <argsstring>() const</argsstring>
+        <name>getColsNum</name>
+        <qualifiedname>MR::Matrix::getColsNum</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="78" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="78" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Matrix_1a72f839037b43011a56b0f8624c2df0dd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const std::vector&lt; T &gt; &amp;</type>
+        <definition>const std::vector&lt; T &gt; &amp; MR::Matrix&lt; T &gt;::data</definition>
+        <argsstring>() const</argsstring>
+        <name>data</name>
+        <qualifiedname>MR::Matrix::data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="83" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="83" bodyend="86"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Row-major matrix with T values </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::Matrix&lt; T &gt;</label>
+        <link refid="structMR_1_1Matrix"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RectIndexer</label>
+        <link refid="classMR_1_1RectIndexer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Matrix&lt; T &gt;</label>
+        <link refid="structMR_1_1Matrix"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RectIndexer</label>
+        <link refid="classMR_1_1RectIndexer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix.h" bodystart="16" bodyend="90"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RectIndexer_1a581238851bf8cb545d729d3957100372" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>areNeigbors</name></member>
+      <member refid="classMR_1_1RectIndexer_1a95b4e703046a8706888f15f3bd4b7c3a" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>areNeigbors</name></member>
+      <member refid="structMR_1_1Matrix_1a9eb1e62339fab559b2cdea38de18d03a" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>clear</name></member>
+      <member refid="structMR_1_1Matrix_1a72f839037b43011a56b0f8624c2df0dd" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>data</name></member>
+      <member refid="structMR_1_1Matrix_1a843d386b94c30ba24909e60828395bc1" prot="private" virt="non-virtual"><scope>MR::Matrix</scope><name>data_</name></member>
+      <member refid="classMR_1_1RectIndexer_1a3ad518f3ebe31196088da356bd7646cb" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>dims</name></member>
+      <member refid="classMR_1_1RectIndexer_1ab4a6c53f72e0260996768505672d9052" prot="protected" virt="non-virtual"><scope>MR::Matrix</scope><name>dims_</name></member>
+      <member refid="structMR_1_1Matrix_1afcec7ff199943212099a907797f41293" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>fill</name></member>
+      <member refid="structMR_1_1Matrix_1aa5793f31905b29875d11cc1de6d948d5" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>getColsNum</name></member>
+      <member refid="classMR_1_1RectIndexer_1a3405e1ad7d3f9cb6d72845e41f3232bc" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>getNeighbor</name></member>
+      <member refid="classMR_1_1RectIndexer_1ac517f36a12430a41779b1e7fd847684b" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>getNeighbor</name></member>
+      <member refid="structMR_1_1Matrix_1aaf278a69da3b6609b3a56d61f89f989e" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>getRowsNum</name></member>
+      <member refid="structMR_1_1Matrix_1a806891030ce95bf1c8f30915a0068e98" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>getSubMatrix</name></member>
+      <member refid="structMR_1_1Matrix_1a2ad7f900e6b01f0617767997c6b9b640" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>Matrix</name></member>
+      <member refid="structMR_1_1Matrix_1a76e03ab6e259da469989ca91e6c1dd3d" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>Matrix</name></member>
+      <member refid="structMR_1_1Matrix_1a9732eb2252ae08face0de86a534e7102" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>operator()</name></member>
+      <member refid="structMR_1_1Matrix_1ab4dd30aee86567790c1f73778509456d" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>operator()</name></member>
+      <member refid="structMR_1_1Matrix_1ab08a4a3c3eebfc38135fb65061fa927c" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>operator()</name></member>
+      <member refid="structMR_1_1Matrix_1ab3a6654e368fa2ab1dbb1fc6f37ac4e3" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>operator()</name></member>
+      <member refid="classMR_1_1RectIndexer_1a801b588e260d6fa3432f296855de6f29" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>RectIndexer</name></member>
+      <member refid="group__DistanceMapGroup_1ga239b9939936c38ad89df91dd649ab13d" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>RectIndexer</name></member>
+      <member refid="group__DistanceMapGroup_1ga901329f8c2956e6baeb440b154c9907f" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>resize</name></member>
+      <member refid="classMR_1_1RectIndexer_1abd5035619b34370c067840c03ffb5b82" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>size</name></member>
+      <member refid="classMR_1_1RectIndexer_1af3cae594fa09e2f9517846460b7ab08a" prot="protected" virt="non-virtual"><scope>MR::Matrix</scope><name>size_</name></member>
+      <member refid="group__DistanceMapGroup_1gacf16438d65e6771b0a308b2e232e86b1" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>toIndex</name></member>
+      <member refid="classMR_1_1RectIndexer_1a8b0ec43cbc6a8f0c9030fef34d620699" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>toPixelId</name></member>
+      <member refid="classMR_1_1RectIndexer_1aa496c121195d5bad75ebb417cfb8c884" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>toPos</name></member>
+      <member refid="group__DistanceMapGroup_1ga920d5e2ba75ebd9fe641aae7d50cce9f" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>toPos</name></member>
+      <member refid="structMR_1_1Matrix_1a354da291fab3037516b4802e24177529" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>transposed</name></member>
+      <member refid="structMR_1_1Matrix_1a969b7d6345630cad2fa560cfc8f69965" prot="public" virt="non-virtual"><scope>MR::Matrix</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

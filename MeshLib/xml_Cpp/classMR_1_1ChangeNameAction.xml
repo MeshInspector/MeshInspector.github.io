@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeNameAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeNameAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeNameAction_8h" local="no">MRChangeNameAction.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaf184503abf962f89b4a5ebc2773f6004" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga90449ad7d1096a0ea0bdae7f9fea5a24" kind="variable"><name>objName_</name></member>
+      <member refid="group__GeneralGroup_1ga52d8a533de22d0df9cca6ac5c713d318" kind="variable"><name>actionName_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga8461f96378d4084fbd74bbdbf8d70ed3" kind="function"><name>ChangeNameAction</name></member>
+      <member refid="group__GeneralGroup_1gaf3abbe2d5970984c94bc836781925582" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga198059bf4924aae700a459e93da3d953" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga78f9dfad757f976bb7af6f93bbfd2e74" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This action to undo/redo the change of object name </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeNameAction</label>
+        <link refid="classMR_1_1ChangeNameAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeNameAction</label>
+        <link refid="classMR_1_1ChangeNameAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeNameAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeNameAction.h" bodystart="17" bodyend="52"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga198059bf4924aae700a459e93da3d953" prot="public" virt="virtual"><scope>MR::ChangeNameAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga52d8a533de22d0df9cca6ac5c713d318" prot="private" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>actionName_</name></member>
+      <member refid="group__GeneralGroup_1ga8461f96378d4084fbd74bbdbf8d70ed3" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>ChangeNameAction</name></member>
+      <member refid="group__GeneralGroup_1ga78f9dfad757f976bb7af6f93bbfd2e74" prot="public" virt="virtual"><scope>MR::ChangeNameAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaf3abbe2d5970984c94bc836781925582" prot="public" virt="virtual"><scope>MR::ChangeNameAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaf184503abf962f89b4a5ebc2773f6004" prot="private" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga90449ad7d1096a0ea0bdae7f9fea5a24" prot="private" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>objName_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeNameAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeNameAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

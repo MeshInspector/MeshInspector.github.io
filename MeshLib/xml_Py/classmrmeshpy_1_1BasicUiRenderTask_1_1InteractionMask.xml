@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BasicUiRenderTask::InteractionMask</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1ad10bbc5cef5b0ef2570d49fd3815d219" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BasicUiRenderTask.InteractionMask::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2794" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a0d5429335a00823a8f80cc69be352b50" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BasicUiRenderTask.InteractionMask::mouseHover</definition>
+        <argsstring></argsstring>
+        <name>mouseHover</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.mouseHover</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2795" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a5fea76fcedf0145a8cd2e59549776d3a" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BasicUiRenderTask.InteractionMask::mouseScroll</definition>
+        <argsstring></argsstring>
+        <name>mouseScroll</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.mouseScroll</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2796" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a643d41e8a5410f17871ba4c85d4b09cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+        <definition> BasicUiRenderTask.InteractionMask mrmeshpy.BasicUiRenderTask.InteractionMask.__and__</definition>
+        <argsstring>(self, BasicUiRenderTask.InteractionMask b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__and__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2797" bodyend="2798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a29e8ff2c1e17defe1357a7e81945d68f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BasicUiRenderTask.InteractionMask.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2799" bodyend="2800"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a15b99b1603f8be27591e8e596a7c76bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BasicUiRenderTask.InteractionMask.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2801" bodyend="2802"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a6fadef667ca2cec3128b6de3f77a6a69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BasicUiRenderTask.InteractionMask.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2803" bodyend="2804"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1ae555e2cd74e65b0c5657ae62564c50dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+        <definition> BasicUiRenderTask.InteractionMask mrmeshpy.BasicUiRenderTask.InteractionMask.__iand__</definition>
+        <argsstring>(self, BasicUiRenderTask.InteractionMask b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__iand__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2805" bodyend="2806"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a4a7aff4957e1895c387be25ac4f133e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+        <definition> BasicUiRenderTask.InteractionMask mrmeshpy.BasicUiRenderTask.InteractionMask.__imatmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2807" bodyend="2808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a636195b76788ba4e3d8e9f60fb663e3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BasicUiRenderTask.InteractionMask.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2809" bodyend="2810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a50e6d886d0a438176c258da955309c69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BasicUiRenderTask.InteractionMask.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2811" bodyend="2812"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a2ba07c40e795965b0cf2280cc6ae256b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BasicUiRenderTask.InteractionMask.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2813" bodyend="2814"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a08eb846be805c13c2848f5ce548070f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+        <definition> BasicUiRenderTask.InteractionMask mrmeshpy.BasicUiRenderTask.InteractionMask.__invert__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__invert__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__invert__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2815" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2815" bodyend="2816"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a21885a7075d98dd564f8319814f3f5d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+        <definition> BasicUiRenderTask.InteractionMask mrmeshpy.BasicUiRenderTask.InteractionMask.__ior__</definition>
+        <argsstring>(self, BasicUiRenderTask.InteractionMask b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__ior__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2817" bodyend="2818"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a47f46a9774dc1158a59b493d1a2dc937" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+        <definition> BasicUiRenderTask.InteractionMask mrmeshpy.BasicUiRenderTask.InteractionMask.__mul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2819" bodyend="2820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a3d6daa0ea9bb362e4ca101f9eaf799d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BasicUiRenderTask.InteractionMask.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2821" bodyend="2822"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1aa0b116026618662cb2ddc49e688a8781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+        <definition> BasicUiRenderTask.InteractionMask mrmeshpy.BasicUiRenderTask.InteractionMask.__or__</definition>
+        <argsstring>(self, BasicUiRenderTask.InteractionMask b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__or__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2823" bodyend="2824"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a523713bebb850225e765788ff6324cef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.BasicUiRenderTask.InteractionMask.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2825" bodyend="2826"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1aa4578a2858696721f90e5a555cb63fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask" kindref="compound">BasicUiRenderTask.InteractionMask</ref></type>
+        <definition> BasicUiRenderTask.InteractionMask mrmeshpy.BasicUiRenderTask.InteractionMask.__rmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2827" bodyend="2828"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a8af6dfcc47c0108d88e4ee06bccbb9b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BasicUiRenderTask.InteractionMask.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2829" bodyend="2830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a173c35bdddf6ca2915d6cec07b784cbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.BasicUiRenderTask.InteractionMask.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2831" bodyend="2832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a3cd6e610c1cc7996e3c6b568afb06425" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.BasicUiRenderTask.InteractionMask.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2834" bodyend="2835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1ab8cd43381d341cc7e5aafd768db263ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BasicUiRenderTask.InteractionMask.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.BasicUiRenderTask.InteractionMask.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2837" bodyend="2839"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  mouseHover
+
+  mouseScroll
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BasicUiRenderTask.InteractionMask</label>
+        <link refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mouseHover</edgelabel>
+          <edgelabel>mouseScroll</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2786" bodyend="2838"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a643d41e8a5410f17871ba4c85d4b09cf" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a29e8ff2c1e17defe1357a7e81945d68f" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a15b99b1603f8be27591e8e596a7c76bb" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a6fadef667ca2cec3128b6de3f77a6a69" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1ae555e2cd74e65b0c5657ae62564c50dd" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a4a7aff4957e1895c387be25ac4f133e3" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a636195b76788ba4e3d8e9f60fb663e3b" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a50e6d886d0a438176c258da955309c69" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a2ba07c40e795965b0cf2280cc6ae256b" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a08eb846be805c13c2848f5ce548070f1" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__invert__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a21885a7075d98dd564f8319814f3f5d8" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1ad10bbc5cef5b0ef2570d49fd3815d219" prot="private" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a47f46a9774dc1158a59b493d1a2dc937" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a3d6daa0ea9bb362e4ca101f9eaf799d1" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1aa0b116026618662cb2ddc49e688a8781" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a523713bebb850225e765788ff6324cef" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1aa4578a2858696721f90e5a555cb63fa7" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__rmul__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a8af6dfcc47c0108d88e4ee06bccbb9b8" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a173c35bdddf6ca2915d6cec07b784cbf" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a0d5429335a00823a8f80cc69be352b50" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>mouseHover</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a5fea76fcedf0145a8cd2e59549776d3a" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>mouseScroll</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1a3cd6e610c1cc7996e3c6b568afb06425" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1BasicUiRenderTask_1_1InteractionMask_1ab8cd43381d341cc7e5aafd768db263ff" prot="public" virt="non-virtual"><scope>mrmeshpy::BasicUiRenderTask::InteractionMask</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

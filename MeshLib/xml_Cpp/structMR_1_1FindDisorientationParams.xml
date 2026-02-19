@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FindDisorientationParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FindDisorientationParams</compoundname>
+    <includes refid="MRMeshFixer_8h" local="no">MRMeshFixer.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structMR_1_1FindDisorientationParams_1a23535bbf01f9f93ec428fbbf204b389d" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>RayMode</name>
+        <qualifiedname>MR::FindDisorientationParams::RayMode</qualifiedname>
+        <enumvalue id="structMR_1_1FindDisorientationParams_1a23535bbf01f9f93ec428fbbf204b389da3289297424e01eda5b788c083bbf3147" prot="public">
+          <name>Positive</name>
+          <briefdescription>
+<para>positive (normal) direction of face should have even number of intersections </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1FindDisorientationParams_1a23535bbf01f9f93ec428fbbf204b389daa16249848fdc15d3bd637c5a13101cdb" prot="public">
+          <name>Shallowest</name>
+          <briefdescription>
+<para>positive or negative (normal or -normal) direction (the one with lowest number of intersections) should have even/odd number of intersections </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1FindDisorientationParams_1a23535bbf01f9f93ec428fbbf204b389da130c5b3473c57faa76e2a1c54e26f88e" prot="public">
+          <name>Both</name>
+          <briefdescription>
+<para>both direction should have correct number of intersections (positive - even; negative - odd) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Mode of detecting disoriented face. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="137" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="138" bodyend="142"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FindDisorientationParams_1a66e41167bc8d6713f7b3c8d46c29d247" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structMR_1_1FindDisorientationParams_1a23535bbf01f9f93ec428fbbf204b389d" kindref="member">MR::FindDisorientationParams::RayMode</ref></type>
+        <definition>enum MR::FindDisorientationParams::RayMode MR::FindDisorientationParams::Shallowest</definition>
+        <argsstring></argsstring>
+        <name>Shallowest</name>
+        <qualifiedname>MR::FindDisorientationParams::Shallowest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="142" column="29"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FindDisorientationParams_1a8d3d371ac19975e796450c4a8bbb2d44" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::FindDisorientationParams::virtualFillHoles</definition>
+        <argsstring></argsstring>
+        <name>virtualFillHoles</name>
+        <qualifiedname>MR::FindDisorientationParams::virtualFillHoles</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>if set - copy mesh, and fills holes for better quality in case of ray going out through hole </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="145" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="145" bodyend="145"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FindDisorientationParams_1a0c40bf2320287e58137728520c03765e" prot="public" static="no" mutable="no">
+        <type>ProgressCallback</type>
+        <definition>ProgressCallback MR::FindDisorientationParams::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::FindDisorientationParams::cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="147" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="147" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for <computeroutput>findDisorientedFaces</computeroutput> function. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="135" bodyend="148"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FindDisorientationParams_1a0c40bf2320287e58137728520c03765e" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>cb</name></member>
+      <member refid="structMR_1_1FindDisorientationParams_1a23535bbf01f9f93ec428fbbf204b389d" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>RayMode</name></member>
+      <member refid="structMR_1_1FindDisorientationParams_1a66e41167bc8d6713f7b3c8d46c29d247" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>Shallowest</name></member>
+      <member refid="structMR_1_1FindDisorientationParams_1a8d3d371ac19975e796450c4a8bbb2d44" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>virtualFillHoles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

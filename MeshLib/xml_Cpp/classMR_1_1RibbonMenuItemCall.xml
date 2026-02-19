@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonMenuItemCall" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonMenuItemCall</compoundname>
+    <includes refid="MRRibbonSchema_8h" local="no">MRRibbonSchema.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaa73376ef4077cd475ec055bb4abe9927" kind="variable"><name>plugin_</name></member>
+      <member refid="group__GeneralGroup_1ga89129e3af2f75b7d65dd2ae6307023b1" kind="variable"><name>g_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga8b802da7db541f512179ff3c432ac662" kind="function"><name>RibbonMenuItemCall</name></member>
+      <member refid="group__GeneralGroup_1gaab9fa332237b77530d49e4712f168e4f" kind="function"><name>~RibbonMenuItemCall</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" line="162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSchema.h" bodystart="163" bodyend="187"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga89129e3af2f75b7d65dd2ae6307023b1" prot="private" virt="non-virtual"><scope>MR::RibbonMenuItemCall</scope><name>g_</name></member>
+      <member refid="group__GeneralGroup_1gaa73376ef4077cd475ec055bb4abe9927" prot="private" virt="non-virtual"><scope>MR::RibbonMenuItemCall</scope><name>plugin_</name></member>
+      <member refid="group__GeneralGroup_1ga8b802da7db541f512179ff3c432ac662" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItemCall</scope><name>RibbonMenuItemCall</name></member>
+      <member refid="group__GeneralGroup_1gaab9fa332237b77530d49e4712f168e4f" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItemCall</scope><name>~RibbonMenuItemCall</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

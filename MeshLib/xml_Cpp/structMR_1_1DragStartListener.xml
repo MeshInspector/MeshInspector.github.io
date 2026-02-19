@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DragStartListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::DragStartListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac6a6bacd8b05323ffb25b84889e75752" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga0e1547956da2a8144aa7d7e9a5d2a699" kind="function"><name>~DragStartListener</name></member>
+      <member refid="group__GeneralGroup_1ga98c332040cb92fd08b5cad7223f9f97e" kind="function"><name>connect</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1gade7bc14ccb341a505dccf4150a046bb3" kind="function"><name>onDragStart_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::DragStartListener</label>
+        <link refid="structMR_1_1DragStartListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::DragStartListener</label>
+        <link refid="structMR_1_1DragStartListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="98" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="99" bodyend="105"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga98c332040cb92fd08b5cad7223f9f97e" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::DragStartListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gac6a6bacd8b05323ffb25b84889e75752" prot="public" virt="non-virtual"><scope>MR::DragStartListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gade7bc14ccb341a505dccf4150a046bb3" prot="protected" virt="pure-virtual"><scope>MR::DragStartListener</scope><name>onDragStart_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga0e1547956da2a8144aa7d7e9a5d2a699" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>~DragStartListener</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::DragStartListener</scope><name>~IConnectable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

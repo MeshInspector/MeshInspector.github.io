@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1ImageTransform" kind="namespace" language="C++">
+    <compoundname>MR::ImageTransform</compoundname>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1ImageTransform_1a6ad75371c87cc667908650a89456bd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="structMR_1_1Image" kindref="compound">Image</ref></type>
+        <definition>MRMESH_API Image MR::ImageTransform::rotateClockwise90</definition>
+        <argsstring>(const Image &amp;image)</argsstring>
+        <name>rotateClockwise90</name>
+        <qualifiedname>MR::ImageTransform::rotateClockwise90</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &amp;</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+<para>creates an image rotated 90 degrees clockwise </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageTransform.h" line="9" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageTransform.h" declline="9" declcolumn="18"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRImageTransform.h" line="5" column="1"/>
+  </compounddef>
+</doxygen>

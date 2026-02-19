@@ -146,55 +146,254 @@ $(function(){initNavTree('classMR_1_1ImageLoad.html',''); initResizable(true); }
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1ImageLoad-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.ImageLoad Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a13d83aa7ec99dc7a9ae166be69ecac53" id="r_a13d83aa7ec99dc7a9ae166be69ecac53"><td class="memItemLeft" align="right" valign="top"><a id="a13d83aa7ec99dc7a9ae166be69ecac53" name="a13d83aa7ec99dc7a9ae166be69ecac53"></a>
-typedef Expected&lt; <a class="elRef" href="../Cpp/structMR_1_1Image.html">Image</a> &gt;(*)(const std::filesystem::path &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#a13d83aa7ec99dc7a9ae166be69ecac53">ImageLoader</a>)</td></tr>
-<tr class="separator:a13d83aa7ec99dc7a9ae166be69ecac53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a02c53b2115186cd167b0d93d2bca636c" id="r_a02c53b2115186cd167b0d93d2bca636c"><td class="memItemLeft" align="right" valign="top"><a id="a02c53b2115186cd167b0d93d2bca636c" name="a02c53b2115186cd167b0d93d2bca636c"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromJpeg</b> (string path)</td></tr>
-<tr class="memdesc:a02c53b2115186cd167b0d93d2bca636c"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .jpg format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#a5cdd31b79d826482bc85d2d5a353bb77">MR.ImageLoad.fromJpeg</a></code>. <br /></td></tr>
-<tr class="separator:a02c53b2115186cd167b0d93d2bca636c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3ca04d3ae3cbfb2d0ecbeb42a8efbc60" id="r_a3ca04d3ae3cbfb2d0ecbeb42a8efbc60"><td class="memItemLeft" align="right" valign="top"><a id="a3ca04d3ae3cbfb2d0ecbeb42a8efbc60" name="a3ca04d3ae3cbfb2d0ecbeb42a8efbc60"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromJpeg</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_)</td></tr>
-<tr class="memdesc:a3ca04d3ae3cbfb2d0ecbeb42a8efbc60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#a5cdd31b79d826482bc85d2d5a353bb77">MR.ImageLoad.fromJpeg</a></code>. <br /></td></tr>
-<tr class="separator:a3ca04d3ae3cbfb2d0ecbeb42a8efbc60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6294b5614fb4cdcd07f85458fac2a5db" id="r_a6294b5614fb4cdcd07f85458fac2a5db"><td class="memItemLeft" align="right" valign="top"><a id="a6294b5614fb4cdcd07f85458fac2a5db" name="a6294b5614fb4cdcd07f85458fac2a5db"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromJpeg</b> (byte? data, ulong <a class="elRef" href="../Cpp/namespaceMR.html#a306ff1f62992b3eb33c446913b64188a">size</a>)</td></tr>
-<tr class="memdesc:a6294b5614fb4cdcd07f85458fac2a5db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#a5cdd31b79d826482bc85d2d5a353bb77">MR.ImageLoad.fromJpeg</a></code>. <br /></td></tr>
-<tr class="separator:a6294b5614fb4cdcd07f85458fac2a5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7cb8d2013ef28608cca6f70b1fd0f771" id="r_a7cb8d2013ef28608cca6f70b1fd0f771"><td class="memItemLeft" align="right" valign="top"><a id="a7cb8d2013ef28608cca6f70b1fd0f771" name="a7cb8d2013ef28608cca6f70b1fd0f771"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromPng</b> (string path)</td></tr>
-<tr class="memdesc:a7cb8d2013ef28608cca6f70b1fd0f771"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .png format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#af27fe391469ee464adae9aeb0019ac28">MR.ImageLoad.fromPng</a></code>. <br /></td></tr>
+<tr class="memitem:aad3cc3de4bda02076d924d20b4700216" id="r_aad3cc3de4bda02076d924d20b4700216"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad3cc3de4bda02076d924d20b4700216">fromJpeg</a> (string path, bool? ignoreDecompressErrors=null)</td></tr>
+<tr class="memdesc:aad3cc3de4bda02076d924d20b4700216"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .jpg format  <br /></td></tr>
+<tr class="separator:aad3cc3de4bda02076d924d20b4700216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a117630cca65d923dd7e238a3f96f06b5" id="r_a117630cca65d923dd7e238a3f96f06b5"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a117630cca65d923dd7e238a3f96f06b5">fromJpeg</a> (MR.Std.Istream in_, bool? ignoreDecompressErrors=null)</td></tr>
+<tr class="memdesc:a117630cca65d923dd7e238a3f96f06b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#aad3cc3de4bda02076d924d20b4700216" title="loads from .jpg format">MR.ImageLoad.fromJpeg</a></code>. Parameter <code>ignoreDecompressErrors</code> defaults to <code>false</code>.  <br /></td></tr>
+<tr class="separator:a117630cca65d923dd7e238a3f96f06b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65e9088b1260fec65a15e8fbfa453e66" id="r_a65e9088b1260fec65a15e8fbfa453e66"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a65e9088b1260fec65a15e8fbfa453e66">fromJpeg</a> (byte? data, ulong size, bool? ignoreDecompressErrors=null)</td></tr>
+<tr class="memdesc:a65e9088b1260fec65a15e8fbfa453e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#aad3cc3de4bda02076d924d20b4700216" title="loads from .jpg format">MR.ImageLoad.fromJpeg</a></code>. Parameter <code>ignoreDecompressErrors</code> defaults to <code>false</code>.  <br /></td></tr>
+<tr class="separator:a65e9088b1260fec65a15e8fbfa453e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cb8d2013ef28608cca6f70b1fd0f771" id="r_a7cb8d2013ef28608cca6f70b1fd0f771"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7cb8d2013ef28608cca6f70b1fd0f771">fromPng</a> (string path)</td></tr>
+<tr class="memdesc:a7cb8d2013ef28608cca6f70b1fd0f771"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .png format Generated from function <code><a class="el" href="#a7cb8d2013ef28608cca6f70b1fd0f771" title="loads from .png format Generated from function MR.ImageLoad.fromPng.">MR.ImageLoad.fromPng</a></code>.  <br /></td></tr>
 <tr class="separator:a7cb8d2013ef28608cca6f70b1fd0f771"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77661532c50b71c965e3bdf7960dce7b" id="r_a77661532c50b71c965e3bdf7960dce7b"><td class="memItemLeft" align="right" valign="top"><a id="a77661532c50b71c965e3bdf7960dce7b" name="a77661532c50b71c965e3bdf7960dce7b"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromPng</b> (<a class="el" href="classMR_1_1Std_1_1Istream.html">MR.Std.Istream</a> in_)</td></tr>
-<tr class="memdesc:a77661532c50b71c965e3bdf7960dce7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#af27fe391469ee464adae9aeb0019ac28">MR.ImageLoad.fromPng</a></code>. <br /></td></tr>
+<tr class="memitem:a77661532c50b71c965e3bdf7960dce7b" id="r_a77661532c50b71c965e3bdf7960dce7b"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a77661532c50b71c965e3bdf7960dce7b">fromPng</a> (MR.Std.Istream in_)</td></tr>
+<tr class="memdesc:a77661532c50b71c965e3bdf7960dce7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a7cb8d2013ef28608cca6f70b1fd0f771" title="loads from .png format Generated from function MR.ImageLoad.fromPng.">MR.ImageLoad.fromPng</a></code>.  <br /></td></tr>
 <tr class="separator:a77661532c50b71c965e3bdf7960dce7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74c98160927bc8cc7f5d5b065db7b147" id="r_a74c98160927bc8cc7f5d5b065db7b147"><td class="memItemLeft" align="right" valign="top"><a id="a74c98160927bc8cc7f5d5b065db7b147" name="a74c98160927bc8cc7f5d5b065db7b147"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromTiff</b> (string path)</td></tr>
-<tr class="memdesc:a74c98160927bc8cc7f5d5b065db7b147"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .tiff format Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1ImageLoad.html#a81b47ff32b023a8954f6ccf9cd62595e">MR.ImageLoad.fromTiff</a></code>. <br /></td></tr>
+<tr class="memitem:a74c98160927bc8cc7f5d5b065db7b147" id="r_a74c98160927bc8cc7f5d5b065db7b147"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a74c98160927bc8cc7f5d5b065db7b147">fromTiff</a> (string path)</td></tr>
+<tr class="memdesc:a74c98160927bc8cc7f5d5b065db7b147"><td class="mdescLeft">&#160;</td><td class="mdescRight">loads from .tiff format Generated from function <code><a class="el" href="#a74c98160927bc8cc7f5d5b065db7b147" title="loads from .tiff format Generated from function MR.ImageLoad.fromTiff.">MR.ImageLoad.fromTiff</a></code>.  <br /></td></tr>
 <tr class="separator:a74c98160927bc8cc7f5d5b065db7b147"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1494ca8b7d8a6d0c11896779b7b6bfa" id="r_ad1494ca8b7d8a6d0c11896779b7b6bfa"><td class="memItemLeft" align="right" valign="top"><a id="ad1494ca8b7d8a6d0c11896779b7b6bfa" name="ad1494ca8b7d8a6d0c11896779b7b6bfa"></a>
-static unsafe <a class="elRef" href="../Cpp/structMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><b>fromAnySupportedFormat</b> (string path)</td></tr>
-<tr class="memdesc:ad1494ca8b7d8a6d0c11896779b7b6bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads image from it Generated from function <code><a class="elRef" href="../Cpp/group__ImageLoadGroup.html#gad0427ed61cb0d0f0200d126cac01cc2b">MR.ImageLoad.fromAnySupportedFormat</a></code>. <br /></td></tr>
+<tr class="memitem:ad1494ca8b7d8a6d0c11896779b7b6bfa" id="r_ad1494ca8b7d8a6d0c11896779b7b6bfa"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad1494ca8b7d8a6d0c11896779b7b6bfa">fromAnySupportedFormat</a> (string path)</td></tr>
+<tr class="memdesc:ad1494ca8b7d8a6d0c11896779b7b6bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">detects the format from file extension and loads image from it Generated from function <code><a class="el" href="#ad1494ca8b7d8a6d0c11896779b7b6bfa" title="detects the format from file extension and loads image from it Generated from function MR....">MR.ImageLoad.fromAnySupportedFormat</a></code>.  <br /></td></tr>
 <tr class="separator:ad1494ca8b7d8a6d0c11896779b7b6bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad1494ca8b7d8a6d0c11896779b7b6bfa" name="ad1494ca8b7d8a6d0c11896779b7b6bfa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1494ca8b7d8a6d0c11896779b7b6bfa">&#9670;&#160;</a></span>fromAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a> MR.ImageLoad.fromAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>detects the format from file extension and loads image from it Generated from function <code><a class="el" href="#ad1494ca8b7d8a6d0c11896779b7b6bfa" title="detects the format from file extension and loads image from it Generated from function MR....">MR.ImageLoad.fromAnySupportedFormat</a></code>. </p>
+
+</div>
+</div>
+<a id="a65e9088b1260fec65a15e8fbfa453e66" name="a65e9088b1260fec65a15e8fbfa453e66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65e9088b1260fec65a15e8fbfa453e66">&#9670;&#160;</a></span>fromJpeg() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a> MR.ImageLoad.fromJpeg </td>
+          <td>(</td>
+          <td class="paramtype">byte?</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ulong</td>          <td class="paramname"><span class="paramname"><em>size</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>ignoreDecompressErrors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#aad3cc3de4bda02076d924d20b4700216" title="loads from .jpg format">MR.ImageLoad.fromJpeg</a></code>. Parameter <code>ignoreDecompressErrors</code> defaults to <code>false</code>. </p>
+
+</div>
+</div>
+<a id="a117630cca65d923dd7e238a3f96f06b5" name="a117630cca65d923dd7e238a3f96f06b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a117630cca65d923dd7e238a3f96f06b5">&#9670;&#160;</a></span>fromJpeg() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a> MR.ImageLoad.fromJpeg </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>ignoreDecompressErrors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#aad3cc3de4bda02076d924d20b4700216" title="loads from .jpg format">MR.ImageLoad.fromJpeg</a></code>. Parameter <code>ignoreDecompressErrors</code> defaults to <code>false</code>. </p>
+
+</div>
+</div>
+<a id="aad3cc3de4bda02076d924d20b4700216" name="aad3cc3de4bda02076d924d20b4700216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad3cc3de4bda02076d924d20b4700216">&#9670;&#160;</a></span>fromJpeg() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a> MR.ImageLoad.fromJpeg </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool?</td>          <td class="paramname"><span class="paramname"><em>ignoreDecompressErrors</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from .jpg format </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ignoreDecompressErrors</td><td>if true do not return decompression error if the header was read sucessfully Generated from function <code><a class="el" href="#aad3cc3de4bda02076d924d20b4700216" title="loads from .jpg format">MR.ImageLoad.fromJpeg</a></code>. Parameter <code>ignoreDecompressErrors</code> defaults to <code>false</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a77661532c50b71c965e3bdf7960dce7b" name="a77661532c50b71c965e3bdf7960dce7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77661532c50b71c965e3bdf7960dce7b">&#9670;&#160;</a></span>fromPng() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a> MR.ImageLoad.fromPng </td>
+          <td>(</td>
+          <td class="paramtype">MR.Std.Istream</td>          <td class="paramname"><span class="paramname"><em>in_</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a7cb8d2013ef28608cca6f70b1fd0f771" title="loads from .png format Generated from function MR.ImageLoad.fromPng.">MR.ImageLoad.fromPng</a></code>. </p>
+
+</div>
+</div>
+<a id="a7cb8d2013ef28608cca6f70b1fd0f771" name="a7cb8d2013ef28608cca6f70b1fd0f771"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cb8d2013ef28608cca6f70b1fd0f771">&#9670;&#160;</a></span>fromPng() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a> MR.ImageLoad.fromPng </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from .png format Generated from function <code><a class="el" href="#a7cb8d2013ef28608cca6f70b1fd0f771" title="loads from .png format Generated from function MR.ImageLoad.fromPng.">MR.ImageLoad.fromPng</a></code>. </p>
+
+</div>
+</div>
+<a id="a74c98160927bc8cc7f5d5b065db7b147" name="a74c98160927bc8cc7f5d5b065db7b147"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74c98160927bc8cc7f5d5b065db7b147">&#9670;&#160;</a></span>fromTiff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="classMR_1_1Image.html">MR.Image</a> MR.ImageLoad.fromTiff </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>loads from .tiff format Generated from function <code><a class="el" href="#a74c98160927bc8cc7f5d5b065db7b147" title="loads from .tiff format Generated from function MR.ImageLoad.fromTiff.">MR.ImageLoad.fromTiff</a></code>. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><b>MRJpeg.cs</b></li>
-<li><b>MRPng.cs</b></li>
-<li><b>MRTiff.cs</b></li>
-<li><b>MRImageLoad.cs</b></li>
+<li><a class="el" href="MRJpeg_8cs.html">MRJpeg.cs</a></li>
+<li><a class="el" href="MRPng_8cs.html">MRPng.cs</a></li>
+<li><a class="el" href="MRTiff_8cs.html">MRTiff.cs</a></li>
+<li><a class="el" href="MRImageLoad_8cs.html">MRImageLoad.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -202,7 +401,7 @@ static unsafe <a class="elRef" href="../Cpp/structMR_1_1Image.html">MR.Image</a>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1ImageLoad.html">ImageLoad</a></li>
+    <li class="navelem"><a class="el" href="classMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1ImageLoad.html">ImageLoad</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

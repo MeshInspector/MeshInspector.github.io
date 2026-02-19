@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::TestEngine::ValueEntry::Value</compoundname>
+    <includes refid="MRUITestEngine_8h" local="no">MRUITestEngine.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1aaa2f88e1c672ce3881f126bcb168693b" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>MR::UI::TestEngine::ValueEntry::Value::value</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The current value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="120" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1ad03470ce1d0b8fc32529eae1388ddcdd" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR::UI::TestEngine::ValueEntry::Value::min</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Min/max bounds, INCLUSIVE. If none, those are set to the min/max values representable in this type. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="123" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1aa7bef794128e145f7ef27bb57872e2de" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR::UI::TestEngine::ValueEntry::Value::max</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="124" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1af8d7643677c8aeeef29e018e4fe509bd" prot="public" static="no" mutable="yes">
+        <type>std::optional&lt; T &gt;</type>
+        <definition>std::optional&lt;T&gt; MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::simulatedValue</definition>
+        <argsstring></argsstring>
+        <name>simulatedValue</name>
+        <qualifiedname>MR::UI::TestEngine::ValueEntry::Value::simulatedValue</qualifiedname>
+        <briefdescription>
+<para>Set to override the value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="127" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1a0c53df5fe946d2f3a130df1ba36cc8dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::UI::TestEngine::ValueEntry::Value&lt; T &gt;::Value</definition>
+        <argsstring>()</argsstring>
+        <name>Value</name>
+        <qualifiedname>MR::UI::TestEngine::ValueEntry::Value::Value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="129" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="117" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="118" bodyend="130"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1aa7bef794128e145f7ef27bb57872e2de" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ValueEntry::Value</scope><name>max</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1ad03470ce1d0b8fc32529eae1388ddcdd" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ValueEntry::Value</scope><name>min</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1af8d7643677c8aeeef29e018e4fe509bd" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ValueEntry::Value</scope><name>simulatedValue</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1a0c53df5fe946d2f3a130df1ba36cc8dc" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ValueEntry::Value</scope><name>Value</name></member>
+      <member refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry_1_1Value_1aaa2f88e1c672ce3881f126bcb168693b" prot="public" virt="non-virtual"><scope>MR::UI::TestEngine::ValueEntry::Value</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

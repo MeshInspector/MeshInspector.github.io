@@ -148,11 +148,12 @@ $(function(){initNavTree('MRExpected_8h.html',''); initResizable(true); });
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRExpected.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;MRMeshFwd.h&quot;</code><br />
 <code>#include &quot;MRPch/MRBindingMacros.h&quot;</code><br />
 <code>#include &quot;MRPch/MRExpected.h&quot;</code><br />
 <code>#include &lt;string&gt;</code><br />
@@ -162,60 +163,48 @@ $(function(){initNavTree('MRExpected_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:acceb51312ffcedf923f69bfea9ab9770" id="r_acceb51312ffcedf923f69bfea9ab9770"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acceb51312ffcedf923f69bfea9ab9770">MR_RETURN_IF_UNEXPECTED</a>(expr)</td></tr>
-<tr class="memdesc:acceb51312ffcedf923f69bfea9ab9770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exits the current function with an error if the given expression contains an error.  <br /></td></tr>
-<tr class="separator:acceb51312ffcedf923f69bfea9ab9770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacceb51312ffcedf923f69bfea9ab9770" id="r_gacceb51312ffcedf923f69bfea9ab9770"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gacceb51312ffcedf923f69bfea9ab9770">MR_RETURN_IF_UNEXPECTED</a>(expr)</td></tr>
+<tr class="memdesc:gacceb51312ffcedf923f69bfea9ab9770"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exits the current function with an error if the given expression contains an error.  <br /></td></tr>
+<tr class="separator:gacceb51312ffcedf923f69bfea9ab9770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga6d7483b6adbc485e9c9b52eb09cb7735" id="r_ga6d7483b6adbc485e9c9b52eb09cb7735"><td class="memTemplParams" colspan="2">template&lt;class T , class E  = std::string&gt; </td></tr>
+<tr class="memitem:ga6d7483b6adbc485e9c9b52eb09cb7735"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a> = tl::expected&lt;T, E&gt;</td></tr>
+<tr class="separator:ga6d7483b6adbc485e9c9b52eb09cb7735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7c86003c754649f6ef52d71fcfb9d382" id="r_ga7c86003c754649f6ef52d71fcfb9d382"><td class="memTemplParams" colspan="2">template&lt;class E  = std::string&gt; </td></tr>
+<tr class="memitem:ga7c86003c754649f6ef52d71fcfb9d382"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7c86003c754649f6ef52d71fcfb9d382">MR::Unexpected</a> = tl::unexpected&lt;E&gt;</td></tr>
+<tr class="separator:ga7c86003c754649f6ef52d71fcfb9d382"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a35384d6fca989aa5fd419f6c6d730022" id="r_a35384d6fca989aa5fd419f6c6d730022"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
-<tr class="memitem:a35384d6fca989aa5fd419f6c6d730022"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a35384d6fca989aa5fd419f6c6d730022">MR::unexpected</a> (E &amp;&amp;e)</td></tr>
-<tr class="separator:a35384d6fca989aa5fd419f6c6d730022"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adaeda128e3a2e131a28e25934de4203c" id="r_adaeda128e3a2e131a28e25934de4203c"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c">MR::stringOperationCanceled</a> ()</td></tr>
-<tr class="memdesc:adaeda128e3a2e131a28e25934de4203c"><td class="mdescLeft">&#160;</td><td class="mdescRight">common message about user termination of an operation  <br /></td></tr>
-<tr class="separator:adaeda128e3a2e131a28e25934de4203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78cf002f660ab73123553df1f3ab3bc1" id="r_a78cf002f660ab73123553df1f3ab3bc1"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a78cf002f660ab73123553df1f3ab3bc1">MR::unexpectedOperationCanceled</a> ()</td></tr>
-<tr class="memdesc:a78cf002f660ab73123553df1f3ab3bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Expected error with <code><a class="el" href="namespaceMR.html#adaeda128e3a2e131a28e25934de4203c" title="common message about user termination of an operation">stringOperationCanceled()</a></code>  <br /></td></tr>
-<tr class="separator:a78cf002f660ab73123553df1f3ab3bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1544b69f030c536c35a2d00c154caaf6" id="r_a1544b69f030c536c35a2d00c154caaf6"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6">MR::stringUnsupportedFileExtension</a> ()</td></tr>
-<tr class="memdesc:a1544b69f030c536c35a2d00c154caaf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">common message about unknown file extension  <br /></td></tr>
-<tr class="separator:a1544b69f030c536c35a2d00c154caaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7114fa1fb5a55cb47db1db69eb04634b" id="r_a7114fa1fb5a55cb47db1db69eb04634b"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7114fa1fb5a55cb47db1db69eb04634b">MR::unexpectedUnsupportedFileExtension</a> ()</td></tr>
-<tr class="memdesc:a7114fa1fb5a55cb47db1db69eb04634b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Expected error with <code><a class="el" href="namespaceMR.html#a1544b69f030c536c35a2d00c154caaf6" title="common message about unknown file extension">stringUnsupportedFileExtension()</a></code>  <br /></td></tr>
-<tr class="separator:a7114fa1fb5a55cb47db1db69eb04634b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd228750b50910e1a44551691fae645c" id="r_acd228750b50910e1a44551691fae645c"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acd228750b50910e1a44551691fae645c">MR::stringUnsupportedFileFormat</a> ()</td></tr>
-<tr class="memdesc:acd228750b50910e1a44551691fae645c"><td class="mdescLeft">&#160;</td><td class="mdescRight">common message prefix about unsupported file format  <br /></td></tr>
-<tr class="separator:acd228750b50910e1a44551691fae645c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7796256a5a4fab6b3ed356ab0d490ef8" id="r_a7796256a5a4fab6b3ed356ab0d490ef8"><td class="memItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a7796256a5a4fab6b3ed356ab0d490ef8">MR::unexpectedUnsupportedFileFormat</a> ()</td></tr>
-<tr class="memdesc:a7796256a5a4fab6b3ed356ab0d490ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Expected error with <code><a class="el" href="namespaceMR.html#acd228750b50910e1a44551691fae645c" title="common message prefix about unsupported file format">stringUnsupportedFileFormat()</a></code>  <br /></td></tr>
-<tr class="separator:a7796256a5a4fab6b3ed356ab0d490ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga35384d6fca989aa5fd419f6c6d730022" id="r_ga35384d6fca989aa5fd419f6c6d730022"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:ga35384d6fca989aa5fd419f6c6d730022"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga35384d6fca989aa5fd419f6c6d730022">MR::unexpected</a> (E &amp;&amp;e)</td></tr>
+<tr class="separator:ga35384d6fca989aa5fd419f6c6d730022"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadaeda128e3a2e131a28e25934de4203c" id="r_gadaeda128e3a2e131a28e25934de4203c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gadaeda128e3a2e131a28e25934de4203c">MR::stringOperationCanceled</a> ()</td></tr>
+<tr class="memdesc:gadaeda128e3a2e131a28e25934de4203c"><td class="mdescLeft">&#160;</td><td class="mdescRight">common message about user termination of an operation  <br /></td></tr>
+<tr class="separator:gadaeda128e3a2e131a28e25934de4203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga78cf002f660ab73123553df1f3ab3bc1" id="r_ga78cf002f660ab73123553df1f3ab3bc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga78cf002f660ab73123553df1f3ab3bc1">MR::unexpectedOperationCanceled</a> ()</td></tr>
+<tr class="memdesc:ga78cf002f660ab73123553df1f3ab3bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Expected error with <code><a class="el" href="group__GeneralGroup.html#gadaeda128e3a2e131a28e25934de4203c" title="common message about user termination of an operation">stringOperationCanceled()</a></code>  <br /></td></tr>
+<tr class="separator:ga78cf002f660ab73123553df1f3ab3bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1544b69f030c536c35a2d00c154caaf6" id="r_ga1544b69f030c536c35a2d00c154caaf6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1544b69f030c536c35a2d00c154caaf6">MR::stringUnsupportedFileExtension</a> ()</td></tr>
+<tr class="memdesc:ga1544b69f030c536c35a2d00c154caaf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">common message about unknown file extension  <br /></td></tr>
+<tr class="separator:ga1544b69f030c536c35a2d00c154caaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7114fa1fb5a55cb47db1db69eb04634b" id="r_ga7114fa1fb5a55cb47db1db69eb04634b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7114fa1fb5a55cb47db1db69eb04634b">MR::unexpectedUnsupportedFileExtension</a> ()</td></tr>
+<tr class="memdesc:ga7114fa1fb5a55cb47db1db69eb04634b"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Expected error with <code><a class="el" href="group__GeneralGroup.html#ga1544b69f030c536c35a2d00c154caaf6" title="common message about unknown file extension">stringUnsupportedFileExtension()</a></code>  <br /></td></tr>
+<tr class="separator:ga7114fa1fb5a55cb47db1db69eb04634b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacd228750b50910e1a44551691fae645c" id="r_gacd228750b50910e1a44551691fae645c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gacd228750b50910e1a44551691fae645c">MR::stringUnsupportedFileFormat</a> ()</td></tr>
+<tr class="memdesc:gacd228750b50910e1a44551691fae645c"><td class="mdescLeft">&#160;</td><td class="mdescRight">common message prefix about unsupported file format  <br /></td></tr>
+<tr class="separator:gacd228750b50910e1a44551691fae645c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga7796256a5a4fab6b3ed356ab0d490ef8" id="r_ga7796256a5a4fab6b3ed356ab0d490ef8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__GeneralGroup.html#gac8d05498d66775361b0d0d2996604348">MR_BIND_IGNORE</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga7796256a5a4fab6b3ed356ab0d490ef8">MR::unexpectedUnsupportedFileFormat</a> ()</td></tr>
+<tr class="memdesc:ga7796256a5a4fab6b3ed356ab0d490ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns Expected error with <code><a class="el" href="group__GeneralGroup.html#gacd228750b50910e1a44551691fae645c" title="common message prefix about unsupported file format">stringUnsupportedFileFormat()</a></code>  <br /></td></tr>
+<tr class="separator:ga7796256a5a4fab6b3ed356ab0d490ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="acceb51312ffcedf923f69bfea9ab9770" name="acceb51312ffcedf923f69bfea9ab9770"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acceb51312ffcedf923f69bfea9ab9770">&#9670;&#160;</a></span>MR_RETURN_IF_UNEXPECTED</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MR_RETURN_IF_UNEXPECTED</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>expr</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">    <span class="keywordflow">if</span> ( <span class="keyword">auto</span>&amp;&amp; res = ( expr ); !res ) \</div>
-<div class="line">        <span class="keywordflow">return</span> unexpected( std::move( res.error() ) );</div>
-</div><!-- fragment -->
-<p>Exits the current function with an error if the given expression contains an error. </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1aa2d424235da8dcf99f6c3e11303cc9a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79194" bodyend="79195"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a5b257c7d3671067fadeccab27a9e36f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.__init__</definition>
+        <argsstring>(self, std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79197" bodyend="79198"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a023fbb2df099d17a5304eab5c5a384d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.__init__</definition>
+        <argsstring>(self, EdgeMap arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79200" bodyend="79201"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1af4b9d27d5a9a2181231f7366444284c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79203" bodyend="79204"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a7411eebebd378396c9eb386ec6bb25e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.current_type</definition>
+        <argsstring>(self)</argsstring>
+        <name>current_type</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.current_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the current type name as a string. Call `get_&lt;TypeName&gt;()` to get the value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79205" bodyend="79208"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a9390ef026fe0585f9c9f578dc9facb9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+        <definition> EdgeMap mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.get_Vector_Id_EdgeTag_Id_EdgeTag</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_Vector_Id_EdgeTag_Id_EdgeTag</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.get_Vector_Id_EdgeTag_Id_EdgeTag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79209" bodyend="79212"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a1d697ab52997582854306127c06ed1e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.get_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag.get_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79213" bodyend="79216"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_variant_EdgeMap_phmap_flat_hash_map_EdgeId_EdgeId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79189" bodyend="79216"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1aa2d424235da8dcf99f6c3e11303cc9a4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a5b257c7d3671067fadeccab27a9e36f0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a023fbb2df099d17a5304eab5c5a384d4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1af4b9d27d5a9a2181231f7366444284c4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a7411eebebd378396c9eb386ec6bb25e4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</scope><name>current_type</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a1d697ab52997582854306127c06ed1e2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</scope><name>get_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__EdgeTag__phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag_1a9390ef026fe0585f9c9f578dc9facb9e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_EdgeTag_Id_EdgeTag_phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</scope><name>get_Vector_Id_EdgeTag_Id_EdgeTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

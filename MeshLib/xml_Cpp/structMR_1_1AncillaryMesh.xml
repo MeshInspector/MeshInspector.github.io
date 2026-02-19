@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1AncillaryMesh" kind="struct" language="C++" prot="public">
+    <compoundname>MR::AncillaryMesh</compoundname>
+    <includes refid="MRAncillaryMesh_8h" local="no">MRAncillaryMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gadbf02a47e5a8e457c68acbf971e2a32e" kind="variable"><name>obj</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga6b419d58ac8ef363f12d96be28c48637" kind="function"><name>AncillaryMesh</name></member>
+      <member refid="group__GeneralGroup_1ga9e31f265784a03606af67d96f726c35c" kind="function"><name>AncillaryMesh</name></member>
+      <member refid="group__GeneralGroup_1ga1ca43fe7d75b0248f913382d597ca50c" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga8a528306a33323e01e042183dae875de" kind="function"><name>AncillaryMesh</name></member>
+      <member refid="group__GeneralGroup_1ga2a6863cc813c77827137f29a5688b80a" kind="function"><name>make</name></member>
+      <member refid="group__GeneralGroup_1gabaf618a5c330ee1013fdd1c572982be0" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga777bcc1bb0ce9a0d628c6c36b727b767" kind="function"><name>~AncillaryMesh</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Helper class to manage ancillary visual mesh used by plugins. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryMesh.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAncillaryMesh.h" bodystart="15" bodyend="35"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6b419d58ac8ef363f12d96be28c48637" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>AncillaryMesh</name></member>
+      <member refid="group__GeneralGroup_1ga9e31f265784a03606af67d96f726c35c" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>AncillaryMesh</name></member>
+      <member refid="group__GeneralGroup_1ga8a528306a33323e01e042183dae875de" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>AncillaryMesh</name></member>
+      <member refid="group__GeneralGroup_1ga2a6863cc813c77827137f29a5688b80a" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>make</name></member>
+      <member refid="group__GeneralGroup_1gadbf02a47e5a8e457c68acbf971e2a32e" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga1ca43fe7d75b0248f913382d597ca50c" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gabaf618a5c330ee1013fdd1c572982be0" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga777bcc1bb0ce9a0d628c6c36b727b767" prot="public" virt="non-virtual"><scope>MR::AncillaryMesh</scope><name>~AncillaryMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

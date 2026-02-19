@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectMeshMergeOptions" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectMeshMergeOptions</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectMeshMergeOptions_1a9acda463111ea41f769ba911e0cd3f28" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectMeshMergeOptions::_offsetof_overrideXfs</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_overrideXfs</name>
+        <qualifiedname>mrmeshpy.ObjectMeshMergeOptions._offsetof_overrideXfs</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40356" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshMergeOptions_1ac47286d82f3d4c5a8729afe7e16e3795" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshMergeOptions.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectMeshMergeOptions.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40359" bodyend="40360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshMergeOptions_1a8d5e0e229efe3e88f3108292e874a52e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectMeshMergeOptions" kindref="compound">ObjectMeshMergeOptions</ref></type>
+        <definition> ObjectMeshMergeOptions mrmeshpy.ObjectMeshMergeOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectMeshMergeOptions.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40363" bodyend="40364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshMergeOptions_1a8d5e0e229efe3e88f3108292e874a52e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectMeshMergeOptions" kindref="compound">ObjectMeshMergeOptions</ref></type>
+        <definition> ObjectMeshMergeOptions mrmeshpy.ObjectMeshMergeOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectMeshMergeOptions.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40367" bodyend="40368"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshMergeOptions_1a9ce9b675a0a7ceef3e46fa207f488077" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshMergeOptions.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectMeshMergeOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40370" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40370" bodyend="40371"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshMergeOptions_1a1ef4cb07478b45362f4fe23d5a293bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshMergeOptions.__init__</definition>
+        <argsstring>(self, ObjectMeshMergeOptions arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectMeshMergeOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshMergeOptions" kindref="compound">ObjectMeshMergeOptions</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40373" bodyend="40376"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshMergeOptions_1a54c788828862f7c2e06a93eea364781b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshMergeOptions.__init__</definition>
+        <argsstring>(self, std_vector_AffineXf_Vector3_float overrideXfs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectMeshMergeOptions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__AffineXf__Vector3__float" kindref="compound">std_vector_AffineXf_Vector3_float</ref></type>
+          <declname>overrideXfs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40378" bodyend="40381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshMergeOptions_1aaa62aa145d18ae97c3edfacf75a0c17c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__AffineXf__Vector3__float" kindref="compound">std_vector_AffineXf_Vector3_float</ref></type>
+        <definition> std_vector_AffineXf_Vector3_float mrmeshpy.ObjectMeshMergeOptions.overrideXfs</definition>
+        <argsstring>(self)</argsstring>
+        <name>overrideXfs</name>
+        <qualifiedname>mrmeshpy.ObjectMeshMergeOptions.overrideXfs</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not nullptr: merged object will take overridden transform for each object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40383" bodyend="40386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshMergeOptions_1a39f2f923bc941dfb725c39103ffc0be1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshMergeOptions.overrideXfs</definition>
+        <argsstring>(self, std_vector_AffineXf_Vector3_float arg1)</argsstring>
+        <name>overrideXfs</name>
+        <qualifiedname>mrmeshpy.ObjectMeshMergeOptions.overrideXfs</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__AffineXf__Vector3__float" kindref="compound">std_vector_AffineXf_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40388" bodyend="40389"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectMeshMergeOptions
+
+options to better control MR::merge function
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectMeshMergeOptions</label>
+        <link refid="classmrmeshpy_1_1ObjectMeshMergeOptions"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_overrideXfs</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40350" bodyend="40389"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectMeshMergeOptions_1ac47286d82f3d4c5a8729afe7e16e3795" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshMergeOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshMergeOptions_1a9ce9b675a0a7ceef3e46fa207f488077" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshMergeOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshMergeOptions_1a1ef4cb07478b45362f4fe23d5a293bde" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshMergeOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshMergeOptions_1a54c788828862f7c2e06a93eea364781b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshMergeOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshMergeOptions_1a9acda463111ea41f769ba911e0cd3f28" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectMeshMergeOptions</scope><name>_offsetof_overrideXfs</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshMergeOptions_1a8d5e0e229efe3e88f3108292e874a52e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshMergeOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshMergeOptions_1a8d5e0e229efe3e88f3108292e874a52e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshMergeOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshMergeOptions_1aaa62aa145d18ae97c3edfacf75a0c17c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshMergeOptions</scope><name>overrideXfs</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshMergeOptions_1a39f2f923bc941dfb725c39103ffc0be1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshMergeOptions</scope><name>overrideXfs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

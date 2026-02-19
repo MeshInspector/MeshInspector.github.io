@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OutlierTypeMask" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OutlierTypeMask</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierTypeMask_1a9d3907c6b3ae6802f8eda3692cff9de9" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierTypeMask::All</definition>
+        <argsstring></argsstring>
+        <name>All</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.All</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42019" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierTypeMask_1a96a094248e5a0650c304e615a99d5411" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierTypeMask::AwayNormal</definition>
+        <argsstring></argsstring>
+        <name>AwayNormal</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.AwayNormal</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42020" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierTypeMask_1afccbe07a671f74f7be45ee871c4c4228" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierTypeMask::FarSurface</definition>
+        <argsstring></argsstring>
+        <name>FarSurface</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.FarSurface</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42021" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierTypeMask_1a1e89c5950ae8b601f7412b2fc2d37530" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierTypeMask::SmallComponents</definition>
+        <argsstring></argsstring>
+        <name>SmallComponents</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.SmallComponents</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42022" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierTypeMask_1a30896089361aa421486f6ea14875860e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierTypeMask::WeaklyConnected</definition>
+        <argsstring></argsstring>
+        <name>WeaklyConnected</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.WeaklyConnected</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42023" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierTypeMask_1afc8bb97763b65395672f717d9de23bb4" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierTypeMask::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42024" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1ae225ba2efeb48703a71c12564c6924d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+        <definition> OutlierTypeMask mrmeshpy.OutlierTypeMask.__and__</definition>
+        <argsstring>(self, OutlierTypeMask b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__and__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42025" bodyend="42026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a5a0c5d65616a45710131647cf5765d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OutlierTypeMask.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42027" bodyend="42028"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a862ddc2386dc63ef20eff0300dce4b33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutlierTypeMask.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42029" bodyend="42030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1ad939a0f049c107ef86d1202de4b918ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutlierTypeMask.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42031" bodyend="42032"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a15c1442b09b4e9de843f48439658137c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+        <definition> OutlierTypeMask mrmeshpy.OutlierTypeMask.__iand__</definition>
+        <argsstring>(self, OutlierTypeMask b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__iand__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42033" bodyend="42034"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a6ec5b750d4620055bf19821d2610352f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+        <definition> OutlierTypeMask mrmeshpy.OutlierTypeMask.__imatmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42035" bodyend="42036"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a2436f0f5e56198990cf0723f3a108146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutlierTypeMask.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42037" bodyend="42038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a5fdf06399009d588cee7ea1add4bf0b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierTypeMask.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42039" bodyend="42040"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a1c9268e5b557bb56e6bc7e9d3aa0fd4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutlierTypeMask.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42041" bodyend="42042"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1ac19a40a00daf3f6f84044f1202d25844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+        <definition> OutlierTypeMask mrmeshpy.OutlierTypeMask.__invert__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__invert__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__invert__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42043" bodyend="42044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a9627b62c6bf6d70138f595ccbb75051c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+        <definition> OutlierTypeMask mrmeshpy.OutlierTypeMask.__ior__</definition>
+        <argsstring>(self, OutlierTypeMask b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__ior__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42045" bodyend="42046"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a4b664d7364d13e7d170ec56a4c4190b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+        <definition> OutlierTypeMask mrmeshpy.OutlierTypeMask.__mul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42047" bodyend="42048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a01afcaa4884b0b87402885d90b3cbbd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OutlierTypeMask.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42049" bodyend="42050"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a0ee83b4b3a14fb498ebd8c473198540d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+        <definition> OutlierTypeMask mrmeshpy.OutlierTypeMask.__or__</definition>
+        <argsstring>(self, OutlierTypeMask b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__or__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42051" bodyend="42052"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a723bf45adc7ef344ebfbd54862fb00d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OutlierTypeMask.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42053" bodyend="42054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a3ebfb73f4bb007a59d988a33a9691d79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierTypeMask" kindref="compound">OutlierTypeMask</ref></type>
+        <definition> OutlierTypeMask mrmeshpy.OutlierTypeMask.__rmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42055" bodyend="42056"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a73671adc8c8584fa52fe574711927a17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierTypeMask.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42057" bodyend="42058"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1ab956adca63f979eea905f3975d8d985d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OutlierTypeMask.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42059" bodyend="42060"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1a775ab5fcca006517db1aa4f683e0228c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OutlierTypeMask.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42062" bodyend="42063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierTypeMask_1af70a635c5651e92615f9c78debaf39ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutlierTypeMask.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.OutlierTypeMask.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42065" bodyend="42066"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  SmallComponents : Small groups of points that are far from the rest
+
+  WeaklyConnected : Points that have too few neighbors within the radius
+
+  FarSurface : Points far from the surface approximating the nearest points
+
+  AwayNormal : Points whose normals differ from the average norm of their nearest neighbors
+
+  All
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OutlierTypeMask</label>
+        <link refid="classmrmeshpy_1_1OutlierTypeMask"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>All</edgelabel>
+          <edgelabel>AwayNormal</edgelabel>
+          <edgelabel>FarSurface</edgelabel>
+          <edgelabel>SmallComponents</edgelabel>
+          <edgelabel>WeaklyConnected</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42005" bodyend="42066"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1ae225ba2efeb48703a71c12564c6924d7" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a5a0c5d65616a45710131647cf5765d2d" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a862ddc2386dc63ef20eff0300dce4b33" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1ad939a0f049c107ef86d1202de4b918ba" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a15c1442b09b4e9de843f48439658137c" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a6ec5b750d4620055bf19821d2610352f" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a2436f0f5e56198990cf0723f3a108146" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a5fdf06399009d588cee7ea1add4bf0b7" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a1c9268e5b557bb56e6bc7e9d3aa0fd4c" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1ac19a40a00daf3f6f84044f1202d25844" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__invert__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a9627b62c6bf6d70138f595ccbb75051c" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1afc8bb97763b65395672f717d9de23bb4" prot="private" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a4b664d7364d13e7d170ec56a4c4190b4" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a01afcaa4884b0b87402885d90b3cbbd6" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a0ee83b4b3a14fb498ebd8c473198540d" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a723bf45adc7ef344ebfbd54862fb00d3" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a3ebfb73f4bb007a59d988a33a9691d79" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__rmul__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a73671adc8c8584fa52fe574711927a17" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1ab956adca63f979eea905f3975d8d985d" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a9d3907c6b3ae6802f8eda3692cff9de9" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>All</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a96a094248e5a0650c304e615a99d5411" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>AwayNormal</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1afccbe07a671f74f7be45ee871c4c4228" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>FarSurface</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a775ab5fcca006517db1aa4f683e0228c" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a1e89c5950ae8b601f7412b2fc2d37530" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>SmallComponents</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1af70a635c5651e92615f9c78debaf39ef" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>value</name></member>
+      <member refid="classmrmeshpy_1_1OutlierTypeMask_1a30896089361aa421486f6ea14875860e" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierTypeMask</scope><name>WeaklyConnected</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

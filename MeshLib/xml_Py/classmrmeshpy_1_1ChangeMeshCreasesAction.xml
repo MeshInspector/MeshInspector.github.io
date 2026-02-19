@@ -1,0 +1,334 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeMeshCreasesAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeMeshCreasesAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1a2dc857fee501e7d30e9312c60206d2ab" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeMeshCreasesAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7845" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1a77dbd22faca92ce9c6e9424267e3ec75" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshCreasesAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7848" bodyend="7849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1a4af2952e365f17c05e3322ed5121a2a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshCreasesAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7851" bodyend="7852"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1ad7de1a213ed07741be12ee45968b4151" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeMeshCreasesAction" kindref="compound">ChangeMeshCreasesAction</ref></type>
+        <definition> ChangeMeshCreasesAction mrmeshpy.ChangeMeshCreasesAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7855" bodyend="7856"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1ad7de1a213ed07741be12ee45968b4151" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeMeshCreasesAction" kindref="compound">ChangeMeshCreasesAction</ref></type>
+        <definition> ChangeMeshCreasesAction mrmeshpy.ChangeMeshCreasesAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7859" bodyend="7860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1a6ef8e68b7f8c74139313ccb5091cfe88" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshCreasesAction.setObjectDirty</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>empty because set dirty is inside setCreases
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7862" bodyend="7865"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1af10b7e19469455b159080005dd082045" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshCreasesAction.__init__</definition>
+        <argsstring>(self, str name, ObjectMesh objMesh)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></type>
+          <declname>objMesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s creases before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7867" bodyend="7870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1ae6a84d2a115f3fe83e64c579875e96e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshCreasesAction.__init__</definition>
+        <argsstring>(self, str name, ObjectMesh objMesh, UndirectedEdgeBitSet newCreases)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMesh" kindref="compound">ObjectMesh</ref></type>
+          <declname>objMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>newCreases</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s current creases and immediate set new creases
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7872" bodyend="7875"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1a82d2acc2a9a751754d66fd6fb15d16fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeMeshCreasesAction.__init__</definition>
+        <argsstring>(self, ChangeMeshCreasesAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeMeshCreasesAction" kindref="compound">ChangeMeshCreasesAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7877" bodyend="7880"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1a1913e2cc7f0cc675c51db5666823d194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.ChangeMeshCreasesAction.creases</definition>
+        <argsstring>(self)</argsstring>
+        <name>creases</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.creases</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7881" bodyend="7882"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1a60af2afdf200a6e02435d75034462d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeMeshCreasesAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7883" bodyend="7884"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeMeshCreasesAction_1a0bd703219aac55f23619cbc63ae23a32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeMeshCreasesAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeMeshCreasesAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7885" bodyend="7886"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeMeshCreasesAction
+
+Undo action for ObjectMesh creases
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeMeshCreasesAction</label>
+        <link refid="classmrmeshpy_1_1ChangeMeshCreasesAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeMeshCreasesAction</label>
+        <link refid="classmrmeshpy_1_1ChangeMeshCreasesAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7839" bodyend="7886"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1a77dbd22faca92ce9c6e9424267e3ec75" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1af10b7e19469455b159080005dd082045" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1ae6a84d2a115f3fe83e64c579875e96e0" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1a82d2acc2a9a751754d66fd6fb15d16fd" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1a4af2952e365f17c05e3322ed5121a2a1" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1a1913e2cc7f0cc675c51db5666823d194" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>creases</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1a60af2afdf200a6e02435d75034462d6e" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1a0bd703219aac55f23619cbc63ae23a32" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1a2dc857fee501e7d30e9312c60206d2ab" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1ad7de1a213ed07741be12ee45968b4151" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1ad7de1a213ed07741be12ee45968b4151" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeMeshCreasesAction_1a6ef8e68b7f8c74139313ccb5091cfe88" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeMeshCreasesAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

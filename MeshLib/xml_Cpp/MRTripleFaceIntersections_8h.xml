@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRTripleFaceIntersections_8h" kind="file" language="C++">
+    <compoundname>MRTripleFaceIntersections.h</compoundname>
+    <includes refid="MRIntersectionContour_8h" local="yes">MRIntersectionContour.h</includes>
+    <includes local="no">compare</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="4">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRIntersectionContour.h</label>
+        <link refid="MRIntersectionContour_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMeshCollidePrecise.h</label>
+        <link refid="MRMeshCollidePrecise_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRMeshPart.h</label>
+        <link refid="MRMeshPart_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRPrecisePredicates3.h</label>
+        <link refid="MRPrecisePredicates3_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRTripleFaceIntersections.h</label>
+        <link refid="MRTripleFaceIntersections_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="16">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="21">
+        <label>array</label>
+      </node>
+      <node id="7">
+        <label>cassert</label>
+      </node>
+      <node id="18">
+        <label>cmath</label>
+      </node>
+      <node id="24">
+        <label>compare</label>
+      </node>
+      <node id="8">
+        <label>cstddef</label>
+      </node>
+      <node id="19">
+        <label>cstring</label>
+      </node>
+      <node id="23">
+        <label>functional</label>
+      </node>
+      <node id="20">
+        <label>iosfwd</label>
+      </node>
+      <node id="22">
+        <label>optional</label>
+      </node>
+      <node id="9">
+        <label>type_traits</label>
+      </node>
+      <node id="10">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1FaceFaceFace" prot="public">MR::FaceFaceFace</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRIntersectionContour_8h" kindref="compound">MRIntersectionContour.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;compare&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="structMR_1_1FaceFaceFace" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1FaceFaceFace" kindref="compound">FaceFaceFace</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15" refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" kindref="member">aFace</ref>;</highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga39681be0c7ab1dc1c15c832197986024" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="group__GeneralGroup_1ga39681be0c7ab1dc1c15c832197986024" kindref="member">bFace</ref>;</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga9c0b3b8d9c8e17c12f60f7feec45c757" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FaceId<sp/><ref refid="group__GeneralGroup_1ga9c0b3b8d9c8e17c12f60f7feec45c757" kindref="member">cFace</ref>;</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga0e5733dffb431d23e489ffb540237689" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga0e5733dffb431d23e489ffb540237689" kindref="member">FaceFaceFace</ref>(<sp/>FaceId<sp/>a,<sp/>FaceId<sp/>b,<sp/>FaceId<sp/>c<sp/>)<sp/>:<sp/><ref refid="group__GeneralGroup_1gacd551d9c00ebe29729a816dec419d8b3" kindref="member">aFace</ref>(<sp/>a<sp/>),<sp/><ref refid="group__GeneralGroup_1ga39681be0c7ab1dc1c15c832197986024" kindref="member">bFace</ref>(<sp/>b<sp/>),<sp/><ref refid="group__GeneralGroup_1ga9c0b3b8d9c8e17c12f60f7feec45c757" kindref="member">cFace</ref>(<sp/>c<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga8a49e27d2dc2b97960798a2ff0ab1dc0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga8a49e27d2dc2b97960798a2ff0ab1dc0" kindref="member">FaceFaceFace</ref>()<sp/>{};</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gae8b8ea6a8fe4113e5a65704d378e0720" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae8b8ea6a8fe4113e5a65704d378e0720" kindref="member">operator&lt;=&gt;</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1FaceFaceFace" kindref="compound">FaceFaceFace</ref>&amp;<sp/>rhs<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga968e503140f4eea930b1c7c63a2777e1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::vector&lt;FaceFaceFace&gt;<sp/><ref refid="group__GeneralGroup_1ga968e503140f4eea930b1c7c63a2777e1" kindref="member">findTripleFaceIntersections</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9f26ad2470dbd62255be7fc1cab2b503" kindref="member">ContinuousContours</ref>&amp;<sp/>selfContours<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTripleFaceIntersections.h"/>
+  </compounddef>
+</doxygen>

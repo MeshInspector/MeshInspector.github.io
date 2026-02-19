@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MoveMeshToVoxelMaxDerivSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MoveMeshToVoxelMaxDerivSettings</compoundname>
+    <includes refid="MRMoveMeshToVoxelMaxDeriv_8h" local="no">MRMoveMeshToVoxelMaxDeriv.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b0d4d2ec2b2868f18da16624979032f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MoveMeshToVoxelMaxDerivSettings::iters</definition>
+        <argsstring></argsstring>
+        <name>iters</name>
+        <qualifiedname>MR::MoveMeshToVoxelMaxDerivSettings::iters</qualifiedname>
+        <initializer>= 30</initializer>
+        <briefdescription>
+<para>number of iterations. Each iteration moves vertex only slightly and smooths the vector field of shifts. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="84" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b3c5026793485f6071bb44a681e1461" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MoveMeshToVoxelMaxDerivSettings::samplePoints</definition>
+        <argsstring></argsstring>
+        <name>samplePoints</name>
+        <qualifiedname>MR::MoveMeshToVoxelMaxDerivSettings::samplePoints</qualifiedname>
+        <initializer>= 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>number of points to sample for each vertex. Samples are used to get the picewice-linear function of density and estimate the derivative based on it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="88" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1ad4bdf9eb1e55187c89fd477134219680" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MoveMeshToVoxelMaxDerivSettings::degree</definition>
+        <argsstring></argsstring>
+        <name>degree</name>
+        <qualifiedname>MR::MoveMeshToVoxelMaxDerivSettings::degree</qualifiedname>
+        <initializer>= 3</initializer>
+        <briefdescription>
+<para>degree of the polynomial used to fit sampled points. Must be in range [3; 6] </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="91" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a8e7aa7e5a8d5ad0d936565bfac19539e" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MoveMeshToVoxelMaxDerivSettings::outlierThreshold</definition>
+        <argsstring></argsstring>
+        <name>outlierThreshold</name>
+        <qualifiedname>MR::MoveMeshToVoxelMaxDerivSettings::outlierThreshold</qualifiedname>
+        <initializer>= 1.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for each iteration, if target position of the vertex is greater than this threshold, it is disregarded. For small degrees, this value should be small, for large degrees it may be larger. Measured in number of voxels. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="96" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a13090f3a2bfe03345bd7100d2c634d7f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MoveMeshToVoxelMaxDerivSettings::intermediateSmoothForce</definition>
+        <argsstring></argsstring>
+        <name>intermediateSmoothForce</name>
+        <qualifiedname>MR::MoveMeshToVoxelMaxDerivSettings::intermediateSmoothForce</qualifiedname>
+        <initializer>= 0.3f</initializer>
+        <briefdescription>
+<para>force of the smoothing (relaxation) of vector field of shifts on each iteration </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="99" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a33ab7a3bb2d0ed46b1856e4ba276357c" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MoveMeshToVoxelMaxDerivSettings::preparationSmoothForce</definition>
+        <argsstring></argsstring>
+        <name>preparationSmoothForce</name>
+        <qualifiedname>MR::MoveMeshToVoxelMaxDerivSettings::preparationSmoothForce</qualifiedname>
+        <initializer>= 0.1f</initializer>
+        <briefdescription>
+<para>force of initial smoothing of vertices, before applying the algorithm </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="102" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" line="81" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h" bodystart="82" bodyend="103"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1ad4bdf9eb1e55187c89fd477134219680" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>degree</name></member>
+      <member refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a13090f3a2bfe03345bd7100d2c634d7f" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>intermediateSmoothForce</name></member>
+      <member refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b0d4d2ec2b2868f18da16624979032f" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>iters</name></member>
+      <member refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a8e7aa7e5a8d5ad0d936565bfac19539e" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>outlierThreshold</name></member>
+      <member refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a33ab7a3bb2d0ed46b1856e4ba276357c" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>preparationSmoothForce</name></member>
+      <member refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b3c5026793485f6071bb44a681e1461" prot="public" virt="non-virtual"><scope>MR::MoveMeshToVoxelMaxDerivSettings</scope><name>samplePoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

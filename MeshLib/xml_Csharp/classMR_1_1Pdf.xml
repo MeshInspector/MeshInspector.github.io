@@ -1,0 +1,644 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Pdf" kind="class" language="C#" prot="public">
+    <compoundname>MR::Pdf</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Pdf</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Pdf_1ae4ff0069affbf578e21e736f94878fe4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Pdf.Pdf</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Pdf</name>
+        <qualifiedname>MR.Pdf.Pdf</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2333" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2333" bodyend="2333"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Pdf.Pdf</definition>
+        <argsstring>(MR.Const_PdfParameters? params_=null)</argsstring>
+        <name>Pdf</name>
+        <qualifiedname>MR.Pdf.Pdf</qualifiedname>
+        <param>
+          <type>MR.Const_PdfParameters?</type>
+          <declname>params_</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput>MR.Pdf.Pdf</computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2340" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2340" bodyend="2346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a16bbcf439a61f0280ca4b75d794091db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Pdf.Pdf</definition>
+        <argsstring>(MR._ByValue_Pdf other)</argsstring>
+        <name>Pdf</name>
+        <qualifiedname>MR.Pdf.Pdf</qualifiedname>
+        <param>
+          <type>MR._ByValue_Pdf</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Pdf.Pdf</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2358" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2358" bodyend="2364"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a30cd1126694beefcfc9027481c111963" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Pdf" kindref="compound">MR.Pdf</ref></type>
+        <definition>unsafe MR.Pdf MR.Pdf.assign</definition>
+        <argsstring>(MR._ByValue_Pdf other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Pdf.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Pdf</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Pdf.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2369" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2369" bodyend="2379"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a6d388008158fb5091b6bea938a4af4dc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.addText</definition>
+        <argsstring>(string text, bool? isTitle=null)</argsstring>
+        <name>addText</name>
+        <qualifiedname>MR.Pdf.addText</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>isTitle</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Add text block in current cursor position. Move cursor. Box horizontal size is page width without offset. Box vertical size is automatically for text. horAlignment = left if isTitle - horAlignment = center, use titleFontSize Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a6d388008158fb5091b6bea938a4af4dc" kindref="member">MR.Pdf.addText</ref></computeroutput>. Parameter <computeroutput>isTitle</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2391" bodyend="2401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a0e55d08257fc54de21002b38fef87f57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.addText</definition>
+        <argsstring>(string text, MR.Pdf.Const_TextParams params_)</argsstring>
+        <name>addText</name>
+        <qualifiedname>MR.Pdf.addText</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>MR.Pdf.Const_TextParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a6d388008158fb5091b6bea938a4af4dc" kindref="member">MR.Pdf.addText</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2406" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2406" bodyend="2415"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a61f1c8f403e455399795e7fc82a1505d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Pdf.getTextWidth</definition>
+        <argsstring>(string text, MR.Pdf.Const_TextParams params_)</argsstring>
+        <name>getTextWidth</name>
+        <qualifiedname>MR.Pdf.getTextWidth</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>MR.Pdf.Const_TextParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>return text width Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a61f1c8f403e455399795e7fc82a1505d" kindref="member">MR.Pdf.getTextWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2421" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2421" bodyend="2430"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1abefb7ac91c7bea3bd376d4d516050f97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.addTable</definition>
+        <argsstring>(MR.Std.Const_Vector_StdPairStdStringFloat table)</argsstring>
+        <name>addTable</name>
+        <qualifiedname>MR.Pdf.addTable</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdPairStdStringFloat</type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+<para>Add set of pair string - value in current cursor position. Move cursor. Box horizontal size is page width without offset. Box vertical size is automatically for text. Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1abefb7ac91c7bea3bd376d4d516050f97" kindref="member">MR.Pdf.addTable</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2439" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2439" bodyend="2444"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a6748467c364fceaea8d791644777e014" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.addPaletteStatsTable</definition>
+        <argsstring>(MR.Std.Const_Vector_MRPdfPaletteRowStats paletteStats)</argsstring>
+        <name>addPaletteStatsTable</name>
+        <qualifiedname>MR.Pdf.addPaletteStatsTable</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRPdfPaletteRowStats</type>
+          <declname>paletteStats</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a6748467c364fceaea8d791644777e014" kindref="member">MR.Pdf.addPaletteStatsTable</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2449" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2449" bodyend="2454"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a85f14c4da256660377f19fecac7f7594" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.addImageFromFile</definition>
+        <argsstring>(string imagePath, MR.Pdf.Const_ImageParams params_)</argsstring>
+        <name>addImageFromFile</name>
+        <qualifiedname>MR.Pdf.addImageFromFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>imagePath</declname>
+        </param>
+        <param>
+          <type>MR.Pdf.Const_ImageParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Add image from file in current cursor position. If image bigger than page size, autoscale image to page size. Move cursor. Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a85f14c4da256660377f19fecac7f7594" kindref="member">MR.Pdf.addImageFromFile</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2462" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2462" bodyend="2471"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ac2acb25dfb9a3e24e5967b1ae33d5170" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.addImage</definition>
+        <argsstring>(MR.Const_Image image, MR.Pdf.Const_ImageParams params_)</argsstring>
+        <name>addImage</name>
+        <qualifiedname>MR.Pdf.addImage</qualifiedname>
+        <param>
+          <type>MR.Const_Image</type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>MR.Pdf.Const_ImageParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1ac2acb25dfb9a3e24e5967b1ae33d5170" kindref="member">MR.Pdf.addImage</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2476" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2476" bodyend="2481"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.newPage</definition>
+        <argsstring>()</argsstring>
+        <name>newPage</name>
+        <qualifiedname>MR.Pdf.newPage</qualifiedname>
+        <briefdescription>
+<para>Add new pageand move cursor on it Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">MR.Pdf.newPage</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2487" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2487" bodyend="2492"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1aa1444104fb141136e12cd5d8a78b9906" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.setNewPageAction</definition>
+        <argsstring>(MR.Std._ByValue_Function_VoidFuncFromMRPdfRef action)</argsstring>
+        <name>setNewPageAction</name>
+        <qualifiedname>MR.Pdf.setNewPageAction</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_VoidFuncFromMRPdfRef</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+<para>set function to customize new page after creation Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1aa1444104fb141136e12cd5d8a78b9906" kindref="member">MR.Pdf.setNewPageAction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2498" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2498" bodyend="2503"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a2555484e4a9c5f7af9953cf4f9654ff9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.saveToFile</definition>
+        <argsstring>(string documentPath)</argsstring>
+        <name>saveToFile</name>
+        <qualifiedname>MR.Pdf.saveToFile</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>documentPath</declname>
+        </param>
+        <briefdescription>
+<para>Save document to file Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a2555484e4a9c5f7af9953cf4f9654ff9" kindref="member">MR.Pdf.saveToFile</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2509" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2509" bodyend="2518"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a51a4723334e0f898d86529510e497398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.setCursorPosX</definition>
+        <argsstring>(float posX)</argsstring>
+        <name>setCursorPosX</name>
+        <qualifiedname>MR.Pdf.setCursorPosX</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a51a4723334e0f898d86529510e497398" kindref="member">MR.Pdf.setCursorPosX</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2523" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2523" bodyend="2528"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a4fad0bc269b79679f87134abb1153da7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.setCursorPosY</definition>
+        <argsstring>(float posY)</argsstring>
+        <name>setCursorPosY</name>
+        <qualifiedname>MR.Pdf.setCursorPosY</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a4fad0bc269b79679f87134abb1153da7" kindref="member">MR.Pdf.setCursorPosY</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2533" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2533" bodyend="2538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1aa38099f7c803af1342913d11211e4dd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.newTable</definition>
+        <argsstring>(int columnCount)</argsstring>
+        <name>newTable</name>
+        <qualifiedname>MR.Pdf.newTable</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>columnCount</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1aa38099f7c803af1342913d11211e4dd6" kindref="member">MR.Pdf.newTable</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2544" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2544" bodyend="2549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ae4d317d6077128773c47585a9ed4eec9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.setTableColumnWidths</definition>
+        <argsstring>(MR.Std.Const_Vector_Float widths)</argsstring>
+        <name>setTableColumnWidths</name>
+        <qualifiedname>MR.Pdf.setTableColumnWidths</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_Float</type>
+          <declname>widths</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1ae4d317d6077128773c47585a9ed4eec9" kindref="member">MR.Pdf.setTableColumnWidths</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2555" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2555" bodyend="2562"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ae680de1d38dd6f0141a9b34618841d3d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.addTableTitles</definition>
+        <argsstring>(MR.Std.Const_Vector_StdString titles)</argsstring>
+        <name>addTableTitles</name>
+        <qualifiedname>MR.Pdf.addTableTitles</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdString</type>
+          <declname>titles</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1ae680de1d38dd6f0141a9b34618841d3d" kindref="member">MR.Pdf.addTableTitles</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2568" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2568" bodyend="2575"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1ac931f08e01533327142426ef99808a3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.setColumnValuesFormat</definition>
+        <argsstring>(MR.Std.Const_Vector_StdString formats)</argsstring>
+        <name>setColumnValuesFormat</name>
+        <qualifiedname>MR.Pdf.setColumnValuesFormat</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdString</type>
+          <declname>formats</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1ac931f08e01533327142426ef99808a3a" kindref="member">MR.Pdf.setColumnValuesFormat</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2581" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2581" bodyend="2588"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a135901363aebd555e24072143161d3a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.addRow</definition>
+        <argsstring>(MR.Std.Const_Vector_MRPdfCell cells)</argsstring>
+        <name>addRow</name>
+        <qualifiedname>MR.Pdf.addRow</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRPdfCell</type>
+          <declname>cells</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a135901363aebd555e24072143161d3a2" kindref="member">MR.Pdf.addRow</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2594" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2594" bodyend="2601"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a29aff82df6a9dd81c9b1a01c29f69fb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe float</type>
+        <definition>unsafe float MR.Pdf.getTableTextWidth</definition>
+        <argsstring>(string text)</argsstring>
+        <name>getTableTextWidth</name>
+        <qualifiedname>MR.Pdf.getTableTextWidth</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a29aff82df6a9dd81c9b1a01c29f69fb0" kindref="member">MR.Pdf.getTableTextWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2608" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2608" bodyend="2617"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a0daf769118ccd6ca5debdb21db5ed213" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.setTableCustomRule</definition>
+        <argsstring>(MR.Std._ByValue_Function_MRPdfCellCustomParamsFuncFromIntIntConstStdStringRef rule)</argsstring>
+        <name>setTableCustomRule</name>
+        <qualifiedname>MR.Pdf.setTableCustomRule</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_MRPdfCellCustomParamsFuncFromIntIntConstStdStringRef</type>
+          <declname>rule</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a0daf769118ccd6ca5debdb21db5ed213" kindref="member">MR.Pdf.setTableCustomRule</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2623" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2623" bodyend="2628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1adb91f52efb4d8ab4c12121541b81ab5c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.drawTextInRect</definition>
+        <argsstring>(string text, in MR.Box2f rect, MR.Pdf.Const_TextParams params_)</argsstring>
+        <name>drawTextInRect</name>
+        <qualifiedname>MR.Pdf.drawTextInRect</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref></type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>MR.Pdf.Const_TextParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1adb91f52efb4d8ab4c12121541b81ab5c" kindref="member">MR.Pdf.drawTextInRect</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2635" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2635" bodyend="2647"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1a99a915764e302676099d57196383d025" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.drawTextCell</definition>
+        <argsstring>(string text, MR.Pdf.Const_TextCellParams params_)</argsstring>
+        <name>drawTextCell</name>
+        <qualifiedname>MR.Pdf.drawTextCell</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>MR.Pdf.Const_TextCellParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1a99a915764e302676099d57196383d025" kindref="member">MR.Pdf.drawTextCell</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2652" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2652" bodyend="2661"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Pdf_1afecf91141f31312b5f3cfccbe066506e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Pdf.drawRect</definition>
+        <argsstring>(in MR.Box2f rect, in MR.Color fillColor, in MR.Color strokeColor)</argsstring>
+        <name>drawRect</name>
+        <qualifiedname>MR.Pdf.drawRect</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box2f" kindref="compound">MR.Box2f</ref></type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>fillColor</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>strokeColor</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Pdf_1afecf91141f31312b5f3cfccbe066506e" kindref="member">MR.Pdf.drawRect</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2667" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2667" bodyend="2681"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Pdf_1ac1fd2992167532033fb3f9daf6c8dc5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.Pdf.operator Pdf</definition>
+        <argsstring>(MR.Const_PdfParameters? params_)</argsstring>
+        <name>operator Pdf</name>
+        <qualifiedname>MR.Pdf.operator Pdf</qualifiedname>
+        <param>
+          <type>MR.Const_PdfParameters?</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Ctor. Create a document, but not a page. To create a new page use <ref refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" kindref="member">newPage()</ref> method Generated from constructor <computeroutput>MR.Pdf.Pdf</computeroutput>. Parameter <computeroutput>params_</computeroutput> defaults to <computeroutput><ref refid="classMR_1_1PdfParameters" kindref="compound">MR.PdfParameters()</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2353" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2353" bodyend="2353"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for simple creation pdf. Generated from class <computeroutput><ref refid="classMR_1_1Pdf" kindref="compound">MR.Pdf</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Pdf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Pdf</label>
+        <link refid="classMR_1_1Pdf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Pdf &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Pdf</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Pdf</label>
+        <link refid="classMR_1_1Pdf"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Pdf &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" line="2331" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRPdf.cs" bodystart="2332" bodyend="2682"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Pdf_1ac2acb25dfb9a3e24e5967b1ae33d5170" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImage</name></member>
+      <member refid="classMR_1_1Pdf_1a85f14c4da256660377f19fecac7f7594" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addImageFromFile</name></member>
+      <member refid="classMR_1_1Pdf_1a6748467c364fceaea8d791644777e014" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addPaletteStatsTable</name></member>
+      <member refid="classMR_1_1Pdf_1a135901363aebd555e24072143161d3a2" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addRow</name></member>
+      <member refid="classMR_1_1Pdf_1abefb7ac91c7bea3bd376d4d516050f97" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addTable</name></member>
+      <member refid="classMR_1_1Pdf_1ae680de1d38dd6f0141a9b34618841d3d" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addTableTitles</name></member>
+      <member refid="classMR_1_1Pdf_1a6d388008158fb5091b6bea938a4af4dc" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
+      <member refid="classMR_1_1Pdf_1a0e55d08257fc54de21002b38fef87f57" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>addText</name></member>
+      <member refid="classMR_1_1Pdf_1a30cd1126694beefcfc9027481c111963" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>assign</name></member>
+      <member refid="classMR_1_1Pdf_1afecf91141f31312b5f3cfccbe066506e" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawRect</name></member>
+      <member refid="classMR_1_1Pdf_1a99a915764e302676099d57196383d025" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextCell</name></member>
+      <member refid="classMR_1_1Pdf_1adb91f52efb4d8ab4c12121541b81ab5c" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>drawTextInRect</name></member>
+      <member refid="classMR_1_1Pdf_1a29aff82df6a9dd81c9b1a01c29f69fb0" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTableTextWidth</name></member>
+      <member refid="classMR_1_1Pdf_1a61f1c8f403e455399795e7fc82a1505d" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>getTextWidth</name></member>
+      <member refid="classMR_1_1Pdf_1a4489f29258f8bafb9aa1da75de9b32cb" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newPage</name></member>
+      <member refid="classMR_1_1Pdf_1aa38099f7c803af1342913d11211e4dd6" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>newTable</name></member>
+      <member refid="classMR_1_1Pdf_1ac1fd2992167532033fb3f9daf6c8dc5a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>operator Pdf</name></member>
+      <member refid="classMR_1_1Pdf_1ae4ff0069affbf578e21e736f94878fe4" prot="package" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
+      <member refid="classMR_1_1Pdf_1a81627f8cf190934a1d2f01ca463f13c0" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
+      <member refid="classMR_1_1Pdf_1a16bbcf439a61f0280ca4b75d794091db" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>Pdf</name></member>
+      <member refid="classMR_1_1Pdf_1a2555484e4a9c5f7af9953cf4f9654ff9" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>saveToFile</name></member>
+      <member refid="classMR_1_1Pdf_1ac931f08e01533327142426ef99808a3a" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setColumnValuesFormat</name></member>
+      <member refid="classMR_1_1Pdf_1a51a4723334e0f898d86529510e497398" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setCursorPosX</name></member>
+      <member refid="classMR_1_1Pdf_1a4fad0bc269b79679f87134abb1153da7" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setCursorPosY</name></member>
+      <member refid="classMR_1_1Pdf_1aa1444104fb141136e12cd5d8a78b9906" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setNewPageAction</name></member>
+      <member refid="classMR_1_1Pdf_1ae4d317d6077128773c47585a9ed4eec9" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableColumnWidths</name></member>
+      <member refid="classMR_1_1Pdf_1a0daf769118ccd6ca5debdb21db5ed213" prot="public" virt="non-virtual"><scope>MR::Pdf</scope><name>setTableCustomRule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

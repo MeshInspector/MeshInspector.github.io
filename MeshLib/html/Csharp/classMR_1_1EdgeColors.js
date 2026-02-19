@@ -2,6 +2,8 @@ var classMR_1_1EdgeColors =
 [
     [ "EdgeColors", "classMR_1_1EdgeColors.html#a9a0fdcd78ca8099b9e78ba7cd7ae6c3c", null ],
     [ "EdgeColors", "classMR_1_1EdgeColors.html#aa7af840d67bd9d6fbef08bf0211f099a", null ],
+    [ "EdgeColors", "classMR_1_1EdgeColors.html#aa9dbf471f0eddeaceb33a564a39a3ab0", null ],
+    [ "EdgeColors", "classMR_1_1EdgeColors.html#a5f36dc94a1d06a7214d5e61891729f58", null ],
     [ "EdgeColors", "classMR_1_1EdgeColors.html#a7c1f599fc5112eb9e479dd778965c353", null ],
     [ "EdgeColors", "classMR_1_1EdgeColors.html#a0f06b0a4864ac16b8510867ba66b4620", null ],
     [ "EdgeColors", "classMR_1_1EdgeColors.html#a099a1321da8ce2dc5744074ec37dde9f", null ],

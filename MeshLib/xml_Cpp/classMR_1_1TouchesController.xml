@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TouchesController" kind="class" language="C++" prot="public">
+    <compoundname>MR::TouchesController</compoundname>
+    <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; TouchStartListener, TouchMoveListener, TouchEndListener &gt;</basecompoundref>
+    <includes refid="MRTouchesController_8h" local="no">MRTouchesController.h</includes>
+    <innerclass refid="structMR_1_1TouchesController_1_1Info" prot="private">MR::TouchesController::Info</innerclass>
+    <innerclass refid="classMR_1_1TouchesController_1_1MultiInfo" prot="private">MR::TouchesController::MultiInfo</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gafa01f29213896e910998623cb3c2f884" kind="enum"><name>ModeBit</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaa14de58ad54ee9ac2933520b260a12d5" kind="variable"><name>multiInfo_</name></member>
+      <member refid="group__GeneralGroup_1ga186e96ca954f312ca43aa993cf91f632" kind="variable"><name>multiPrevInfo_</name></member>
+      <member refid="group__GeneralGroup_1gaec605f6691b458542b92916350e64896" kind="variable"><name>mouseMode_</name></member>
+      <member refid="group__GeneralGroup_1gaf92b3ee38ba7b0ac136fefb28f9e4fc7" kind="variable"><name>touchModeMask_</name></member>
+      <member refid="group__GeneralGroup_1ga296f7136de3fe5f7d08fe5ff6ef5ec69" kind="variable"><name>transformModifierCb_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa1d3c155ace8377d9a8faa1234a0eee0" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gae56f9f544af1474b71a68848efdbe18c" kind="function"><name>setTrasformModifierCb</name></member>
+      <member refid="group__GeneralGroup_1gaefb417e9acab3735ac002007e8954373" kind="function"><name>getModeMask</name></member>
+      <member refid="group__GeneralGroup_1gaa4f3c5903b7b8dc026b21c9233c34f43" kind="function"><name>setModeMask</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gaeb87ca5a672d67d4b28135a70ff7e9c5" kind="function"><name>onTouchStart_</name></member>
+      <member refid="group__GeneralGroup_1ga17e37a8d5553968379ae7d1aa9bbb429" kind="function"><name>onTouchMove_</name></member>
+      <member refid="group__GeneralGroup_1gac097df27634c3343c088c2ceceb1e90c" kind="function"><name>onTouchEnd_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>class to operate with touches only overrides signals </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::MultiListener&lt; TouchStartListener, TouchMoveListener, TouchEndListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::TouchesController</label>
+        <link refid="classMR_1_1TouchesController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::MultiListener&lt; TouchStartListener, TouchMoveListener, TouchEndListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::TouchesController</label>
+        <link refid="classMR_1_1TouchesController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="20" bodyend="76"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gaefb417e9acab3735ac002007e8954373" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>getModeMask</name></member>
+      <member refid="group__GeneralGroup_1gafa01f29213896e910998623cb3c2f884" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>ModeBit</name></member>
+      <member refid="group__GeneralGroup_1gaec605f6691b458542b92916350e64896" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>mouseMode_</name></member>
+      <member refid="group__GeneralGroup_1gaa1d3c155ace8377d9a8faa1234a0eee0" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gaa14de58ad54ee9ac2933520b260a12d5" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>multiInfo_</name></member>
+      <member refid="group__GeneralGroup_1ga186e96ca954f312ca43aa993cf91f632" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>multiPrevInfo_</name></member>
+      <member refid="group__GeneralGroup_1gac097df27634c3343c088c2ceceb1e90c" prot="private" virt="virtual"><scope>MR::TouchesController</scope><name>onTouchEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga17e37a8d5553968379ae7d1aa9bbb429" prot="private" virt="virtual"><scope>MR::TouchesController</scope><name>onTouchMove_</name></member>
+      <member refid="group__GeneralGroup_1gaeb87ca5a672d67d4b28135a70ff7e9c5" prot="private" virt="virtual"><scope>MR::TouchesController</scope><name>onTouchStart_</name></member>
+      <member refid="group__GeneralGroup_1gaa4f3c5903b7b8dc026b21c9233c34f43" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>setModeMask</name></member>
+      <member refid="group__GeneralGroup_1gae56f9f544af1474b71a68848efdbe18c" prot="public" virt="non-virtual"><scope>MR::TouchesController</scope><name>setTrasformModifierCb</name></member>
+      <member refid="group__GeneralGroup_1gaf92b3ee38ba7b0ac136fefb28f9e4fc7" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>touchModeMask_</name></member>
+      <member refid="group__GeneralGroup_1ga296f7136de3fe5f7d08fe5ff6ef5ec69" prot="private" virt="non-virtual"><scope>MR::TouchesController</scope><name>transformModifierCb_</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::TouchesController</scope><name>~MultiListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

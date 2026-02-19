@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SceneReorder" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SceneReorder</compoundname>
+    <includes refid="MRSceneReorder_8h" local="no">MRSceneReorder.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad02567fbc39d8a94b4870c8b0f55a01a" kind="variable"><name>who</name></member>
+      <member refid="group__GeneralGroup_1gabacbb4958924f1ae24622120a956b43f" kind="variable"><name>to</name></member>
+      <member refid="group__GeneralGroup_1gab39a433324beece46d83541e3d195aa1" kind="variable"><name>before</name></member>
+      <member refid="group__GeneralGroup_1ga1c8fd0f37268e8e1bf9729aff0c21300" kind="variable"><name>historyName</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SceneReorder</label>
+        <link refid="structMR_1_1SceneReorder"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>to</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="6">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="5">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneReorder.h" bodystart="13" bodyend="26"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab39a433324beece46d83541e3d195aa1" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>before</name></member>
+      <member refid="group__GeneralGroup_1ga1c8fd0f37268e8e1bf9729aff0c21300" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>historyName</name></member>
+      <member refid="group__GeneralGroup_1gabacbb4958924f1ae24622120a956b43f" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>to</name></member>
+      <member refid="group__GeneralGroup_1gad02567fbc39d8a94b4870c8b0f55a01a" prot="public" virt="non-virtual"><scope>MR::SceneReorder</scope><name>who</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RecentFilesStore" kind="class" language="C++" prot="public">
+    <compoundname>MR::RecentFilesStore</compoundname>
+    <includes refid="MRRecentFilesStore_8h" local="no">MRRecentFilesStore.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga79680c946de4a22ddf9715faff78e150" kind="variable"><name>appName_</name></member>
+      <member refid="group__GeneralGroup_1gad4ad64e7a274e03c22c321fe80f77f9c" kind="variable"><name>capacity_</name></member>
+      <member refid="group__GeneralGroup_1ga9f9d1fe969fc9cbdac378c46228936d8" kind="variable"><name>updateSignal_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" kind="function"><name>RecentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1ga230eadaf39638e9cec8fb6d95f662964" kind="function"><name>RecentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1ga91c0cee2c949bedab99c902e62d77a9f" kind="function"><name>storeFile</name></member>
+      <member refid="group__GeneralGroup_1ga8eb2308612fd7822086319b3609a28cf" kind="function"><name>getStoredFiles</name></member>
+      <member refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" kind="function"><name>getCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga1875cd68c58a0a3c20766750d0768342" kind="function"><name>onUpdate</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class exists to store and load recently opened files from system storage (registry for Windows) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRecentFilesStore.h" bodystart="20" bodyend="45"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga79680c946de4a22ddf9715faff78e150" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>appName_</name></member>
+      <member refid="group__GeneralGroup_1gad4ad64e7a274e03c22c321fe80f77f9c" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>capacity_</name></member>
+      <member refid="group__GeneralGroup_1ga1f48973b157bca4ee2c0e34407310654" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>getCapacity</name></member>
+      <member refid="group__GeneralGroup_1ga8eb2308612fd7822086319b3609a28cf" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>getStoredFiles</name></member>
+      <member refid="group__GeneralGroup_1ga1875cd68c58a0a3c20766750d0768342" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>onUpdate</name></member>
+      <member refid="group__GeneralGroup_1gab3bdf57745bbf11b5ac6fd1b27edcb68" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>RecentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1ga230eadaf39638e9cec8fb6d95f662964" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>RecentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1ga91c0cee2c949bedab99c902e62d77a9f" prot="public" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>storeFile</name></member>
+      <member refid="group__GeneralGroup_1ga9f9d1fe969fc9cbdac378c46228936d8" prot="private" virt="non-virtual"><scope>MR::RecentFilesStore</scope><name>updateSignal_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

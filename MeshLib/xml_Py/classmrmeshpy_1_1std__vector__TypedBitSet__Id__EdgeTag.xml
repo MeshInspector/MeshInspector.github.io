@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a992f2dda655fc52730a8e9287a61e47e" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87634" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a4512377bfec7bff009949f7e7c6358d4" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.element_type_byte_size</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87635" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a85ad5ea4c0f69a6398d3c8e639f3122f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87636" bodyend="87639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a912eb27acf44bb886822b9e02e1221a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__contains__</definition>
+        <argsstring>(self, EdgeBitSet x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87640" bodyend="87643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a4a4ff5201d03e0f2663bbab99ab80eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87645" bodyend="87648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1afb4f52d241be887e5e963344fe338c25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87650" bodyend="87653"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a3058edd47169b054a03cdb0599e86037" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__eq__</definition>
+        <argsstring>(self, std_vector_TypedBitSet_Id_EdgeTag arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag" kindref="compound">std_vector_TypedBitSet_Id_EdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87654" bodyend="87655"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ae2a414641c94486267a7858892bc3c3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag" kindref="compound">std_vector_TypedBitSet_Id_EdgeTag</ref></type>
+        <definition> std_vector_TypedBitSet_Id_EdgeTag mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87657" bodyend="87660"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ae9532dbc42485561f6c88a6f4ab68ae9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87662" bodyend="87663"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a5894f91701b1da3f713003dfe45df426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87665" bodyend="87666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a503a5ebae68ee684c572c345815c9dde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87668" bodyend="87669"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1aee797cebd03f8cfc9e35c3d6b58fc522" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__init__</definition>
+        <argsstring>(self, std_vector_TypedBitSet_Id_EdgeTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag" kindref="compound">std_vector_TypedBitSet_Id_EdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87671" bodyend="87672"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a3763b7a91bddc5742846e0e588ec2ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref>]</type>
+        <definition> typing.Iterator[EdgeBitSet] mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87673" bodyend="87674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1aacd5d99eb206ec2ab3af47cf94a2e371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87675" bodyend="87676"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ae3ba603628ff807e26e5677d75190f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__ne__</definition>
+        <argsstring>(self, std_vector_TypedBitSet_Id_EdgeTag arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag" kindref="compound">std_vector_TypedBitSet_Id_EdgeTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87677" bodyend="87678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a4a134bffc8bb646ac283382bb8114005" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87679" bodyend="87682"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a8a1c503c179f71fded24385818b2a036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__setitem__</definition>
+        <argsstring>(self, int arg0, EdgeBitSet arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87684" bodyend="87685"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a7bc2a085a6be7788d500e888724f76ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_TypedBitSet_Id_EdgeTag arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag" kindref="compound">std_vector_TypedBitSet_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87687" bodyend="87690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ad090a33322bf051da95131f9ca62d337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.append</definition>
+        <argsstring>(self, EdgeBitSet x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87691" bodyend="87694"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a87d9f9eea432af607c9c1c49b9e124d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87695" bodyend="87698"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1af7e1242fb63a8b4263e6aa2c1afb4d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.count</definition>
+        <argsstring>(self, EdgeBitSet x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87699" bodyend="87702"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ae7ea08a393e6dd95140f9f76860c1892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87703" bodyend="87706"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a7ffd09921125b29359b3c7e2ca826acd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87707" bodyend="87708"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a0b27bc35f1908398a5fbcfb0facbd2da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.extend</definition>
+        <argsstring>(self, std_vector_TypedBitSet_Id_EdgeTag L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag" kindref="compound">std_vector_TypedBitSet_Id_EdgeTag</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87710" bodyend="87713"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a06f969697e24e9ade4ae5fdc43608f81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87715" bodyend="87718"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a6c363143db1c8d6f97e37abdf5cc38da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.insert</definition>
+        <argsstring>(self, int i, EdgeBitSet x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87719" bodyend="87722"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a8444abbdf21b3f44b977c3e9321408cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87724" bodyend="87727"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ab4a452f4ad576bf25a9c8c3b166c1c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87729" bodyend="87732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a7a7a3c4fa2b423bbab25ed921dadd730" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.remove</definition>
+        <argsstring>(self, EdgeBitSet x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87733" bodyend="87736"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ab6273671994db614dad12e9a514cf6d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87738" bodyend="87739"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ac68d4964f19089d8709708ea807eba2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.resize</definition>
+        <argsstring>(self, int arg0, EdgeBitSet arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87741" bodyend="87742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a1b12fda81736b70d72ae7a892fb84f6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87743" bodyend="87744"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_vector_EdgeBitSet
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_TypedBitSet_Id_EdgeTag</label>
+        <link refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="87630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="87630" bodyend="87744"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a85ad5ea4c0f69a6398d3c8e639f3122f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a912eb27acf44bb886822b9e02e1221a3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a4a4ff5201d03e0f2663bbab99ab80eee" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1afb4f52d241be887e5e963344fe338c25" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a3058edd47169b054a03cdb0599e86037" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ae2a414641c94486267a7858892bc3c3b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ae9532dbc42485561f6c88a6f4ab68ae9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a992f2dda655fc52730a8e9287a61e47e" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a5894f91701b1da3f713003dfe45df426" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a503a5ebae68ee684c572c345815c9dde" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1aee797cebd03f8cfc9e35c3d6b58fc522" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a3763b7a91bddc5742846e0e588ec2ef7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1aacd5d99eb206ec2ab3af47cf94a2e371" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ae3ba603628ff807e26e5677d75190f02" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a4a134bffc8bb646ac283382bb8114005" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a8a1c503c179f71fded24385818b2a036" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a7bc2a085a6be7788d500e888724f76ce" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ad090a33322bf051da95131f9ca62d337" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a87d9f9eea432af607c9c1c49b9e124d3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1af7e1242fb63a8b4263e6aa2c1afb4d94" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ae7ea08a393e6dd95140f9f76860c1892" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a4512377bfec7bff009949f7e7c6358d4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a7ffd09921125b29359b3c7e2ca826acd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a0b27bc35f1908398a5fbcfb0facbd2da" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a06f969697e24e9ade4ae5fdc43608f81" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a6c363143db1c8d6f97e37abdf5cc38da" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a8444abbdf21b3f44b977c3e9321408cf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ab4a452f4ad576bf25a9c8c3b166c1c9a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a7a7a3c4fa2b423bbab25ed921dadd730" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ab6273671994db614dad12e9a514cf6d5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1ac68d4964f19089d8709708ea807eba2d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__TypedBitSet__Id__EdgeTag_1a1b12fda81736b70d72ae7a892fb84f6c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_TypedBitSet_Id_EdgeTag</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

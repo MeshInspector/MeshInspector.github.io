@@ -1,0 +1,703 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__TriangleIntersectionGroup" kind="group">
+    <compoundname>TriangleIntersectionGroup</compoundname>
+    <title>Triangle intersection</title>
+    <innerclass refid="structMR_1_1TriIntersectResult" prot="public">MR::TriIntersectResult</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1ga356b1104c8bddd98afba39fcbe5ee803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::doTrianglesIntersect</definition>
+        <argsstring>(Vector3&lt; T &gt; a, Vector3&lt; T &gt; b, Vector3&lt; T &gt; c, Vector3&lt; T &gt; d, Vector3&lt; T &gt; e, Vector3&lt; T &gt; f)</argsstring>
+        <name>doTrianglesIntersect</name>
+        <qualifiedname>MR::doTrianglesIntersect</qualifiedname>
+        <param>
+          <type>Vector3&lt; T &gt;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>Vector3&lt; T &gt;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>Vector3&lt; T &gt;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>Vector3&lt; T &gt;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>Vector3&lt; T &gt;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>Vector3&lt; T &gt;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks whether triangles ABC and DEF intersect returns false if ABC and DEF are coplanar </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>segment DE is located at one side of the plane ABC</para>
+<para>segment FD is located at one side of the plane ABC</para>
+<para>triangle DEF is located at one side of the plane ABC</para>
+<para>segment AB is located at one side of the plane DEF</para>
+<para>segment CA is located at one side of the plane DEF</para>
+<para>triangle ABC is located at one side of the plane DEF</para>
+<para>now segments DE and FD are crossed by the plane ABC: D at one side and EF at the other</para>
+<para>now segments AB and CA are crossed by the plane DEF: A at one side and BC at the other</para>
+<para>AB segment penetrates triangle DEF since points E and F are at distinct sides of ABD</para>
+<para>DE segment penetrates triangle ABC since points B and C are at distinct sides of ADE</para>
+<para>AB and DF segments are in the same plane, and AC and DE segments are in other same plane =&gt; triangles intersect, but no edge intersect the interior of other triangle</para>
+<para>AC segment penetrates triangle DEF since points E and F are at distinct sides of ACD</para>
+<para>DF segment penetrates triangle ABC since points B and C are at distinct sides of ADF</para>
+<para>AB and DE segments are in the same plane, and AC and DF segments are in other same plane =&gt; triangles intersect, but no edge intersect the interior of other triangle</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="33" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="33" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1ga12874ed96dd226c86c9f430e0845eae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::isPointInPlane</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>isPointInPlane</name>
+        <qualifiedname>MR::isPointInPlane</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>returns true if ABC plane contains point P </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="98" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="98" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1gaeed5ed30fa651d9e8908b1c86b1a77b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::isPointInLine</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>isPointInLine</name>
+        <qualifiedname>MR::isPointInLine</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns true if AB line contains point P </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="108" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1gaa3ee6790b4ece0bf6f6e65a72fb472f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::isPointInLine</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;p, const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
+        <name>isPointInLine</name>
+        <qualifiedname>MR::isPointInLine</qualifiedname>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns true if AB line contains point P </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="115" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="115" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1gaffaaca67b2b029641abd64350b3c1959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::isPointInSegm</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b)</argsstring>
+        <name>isPointInSegm</name>
+        <qualifiedname>MR::isPointInSegm</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns true if AB segment contains point P </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="122" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="122" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1ga6a43e195d7ec620f7660643c28e4ea5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::isPointInSegm</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;p, const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b)</argsstring>
+        <name>isPointInSegm</name>
+        <qualifiedname>MR::isPointInSegm</qualifiedname>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>returns true if AB segment contains point P </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="132" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="132" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1ga746d797c724c3644c060dec600b7a05a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::isPointInTriangle</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;p, const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c)</argsstring>
+        <name>isPointInTriangle</name>
+        <qualifiedname>MR::isPointInTriangle</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>returns true if ABC triangle contains point P </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>ab parallel ac</para>
+<para>fully degenerated</para>
+<para>ab ac looking in the opposite directions so check BC segm</para>
+<para>ab ac looking in the same direction and AB is longer so check AB segm</para>
+<para>ab ac looking in the same direction and AC is longer so check AC segm</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="147" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="147" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1ga604a5fdfb1c7fb0f6a4c7f10868d25da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::isPointInTriangle</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;p, const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b, const Vector2&lt; T &gt; &amp;c)</argsstring>
+        <name>isPointInTriangle</name>
+        <qualifiedname>MR::isPointInTriangle</qualifiedname>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+<para>returns true if ABC triangle contains point P </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>ab parallel ac</para>
+<para>fully degenerated</para>
+<para>ab ac looking in the opposite directions so check BC segm</para>
+<para>ab ac looking in the same direction and AB is longer so check AB segm</para>
+<para>ab ac looking in the same direction and AC is longer so check AC segm</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="176" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="176" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1ga56e080b75b029cd99c5de48a2ae1c305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::doesEdgeXySeparate</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;x, const Vector3&lt; T &gt; &amp;y, const Vector3&lt; T &gt; &amp;z, const Vector3&lt; T &gt; &amp;u, const Vector3&lt; T &gt; &amp;v, const Vector3&lt; T &gt; &amp;w, Vector3&lt; T &gt; d)</argsstring>
+        <name>doesEdgeXySeparate</name>
+        <qualifiedname>MR::doesEdgeXySeparate</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>u</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>w</declname>
+        </param>
+        <param>
+          <type>Vector3&lt; T &gt;</type>
+          <declname>d</declname>
+          <briefdescription><para>approximate normal of the plane </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>returns true if a plane containing edge XY separates point Z from triangle UVW </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>now d is orthogonal to xy</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="208" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="208" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1gad2f32d1f571dde6434e36df0a4357290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::doTrianglesIntersectExt</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, const Vector3&lt; T &gt; &amp;d, const Vector3&lt; T &gt; &amp;e, const Vector3&lt; T &gt; &amp;f)</argsstring>
+        <name>doTrianglesIntersectExt</name>
+        <qualifiedname>MR::doTrianglesIntersectExt</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>checks whether triangles ABC and DEF intersect; performs more checks to avoid false positives of simple doTrianglesIntersect </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>direction from center to center</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="227" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="227" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1gab7bfc61216e86c7e985c25378fcc7bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::doTriangleLineIntersect</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, const Vector3&lt; T &gt; &amp;d, const Vector3&lt; T &gt; &amp;e)</argsstring>
+        <name>doTriangleLineIntersect</name>
+        <qualifiedname>MR::doTriangleLineIntersect</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>checks whether triangle ABC and infinite line DE intersect </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>segment AC is located at one side of the plane DEB</para>
+<para>segment AB is located at one side of the plane DEC</para>
+<para>segment BC is located at one side of the plane DEA</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="249" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="249" bodyend="267"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1gacaf1c69550575145e170779a5d620b42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::doTriangleSegmentIntersect</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, const Vector3&lt; T &gt; &amp;d, const Vector3&lt; T &gt; &amp;e)</argsstring>
+        <name>doTriangleSegmentIntersect</name>
+        <qualifiedname>MR::doTriangleSegmentIntersect</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>checks whether triangle ABC and segment DE intersect </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>segment DE is located at one side of the plane ABC</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="271" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="271" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1gabd389cf6a5e3a2723def05e2d19fac73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Vector3&lt; T &gt;</type>
+        <definition>Vector3&lt; T &gt; MR::findTriangleSegmentIntersection</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, const Vector3&lt; T &gt; &amp;d, const Vector3&lt; T &gt; &amp;e)</argsstring>
+        <name>findTriangleSegmentIntersection</name>
+        <qualifiedname>MR::findTriangleSegmentIntersection</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>this function input should have intersection </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="285" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="285" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1ga07dcacdb0aa89291cef5c6fa101029a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; Vector3&lt; T &gt; &gt;</type>
+        <definition>std::optional&lt; Vector3&lt; T &gt; &gt; MR::findTriangleTriangleIntersection</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, const Vector3&lt; T &gt; &amp;d, const Vector3&lt; T &gt; &amp;e, const Vector3&lt; T &gt; &amp;f)</argsstring>
+        <name>findTriangleTriangleIntersection</name>
+        <qualifiedname>MR::findTriangleTriangleIntersection</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns any intersection point of triangle ABC and triangle DEF, if they intersects returns nullopt if they do not intersect (also might return nullopt in degenerated cases) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="299" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="299" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1ga3835ac264c4e97d644c22d7412117309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; TriIntersectResult &gt;</type>
+        <definition>std::optional&lt; TriIntersectResult &gt; MR::rayTriangleIntersect</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;oriA, const Vector3&lt; T &gt; &amp;oriB, const Vector3&lt; T &gt; &amp;oriC, const IntersectionPrecomputes&lt; T &gt; &amp;prec)</argsstring>
+        <name>rayTriangleIntersect</name>
+        <qualifiedname>MR::rayTriangleIntersect</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>oriA</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>oriB</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>oriC</declname>
+        </param>
+        <param>
+          <type>const IntersectionPrecomputes&lt; T &gt; &amp;</type>
+          <declname>prec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>due to fused multiply-add (FMA): (A*B-A*B) can be different from zero, so we need epsilon</para>
+<para>U,V,W have clearly different signs, so the ray misses the triangle</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="320" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="320" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1gaf5c17228b0533759ec08bc5a2c3e45ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; TriIntersectResult &gt;</type>
+        <definition>std::optional&lt; TriIntersectResult &gt; MR::rayTriangleIntersect</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;oriA, const Vector3&lt; T &gt; &amp;oriB, const Vector3&lt; T &gt; &amp;oriC, const Vector3&lt; T &gt; &amp;dir)</argsstring>
+        <name>rayTriangleIntersect</name>
+        <qualifiedname>MR::rayTriangleIntersect</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>oriA</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>oriB</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>oriC</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="365" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="365" bodyend="370"/>
+      </memberdef>
+      <memberdef kind="function" id="group__TriangleIntersectionGroup_1gae2d884d3111355ff558c2b7f34c314d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::doTrianglesOverlap</definition>
+        <argsstring>(const Vector2&lt; T &gt; &amp;a, const Vector2&lt; T &gt; &amp;b, const Vector2&lt; T &gt; &amp;c, const Vector2&lt; T &gt; &amp;d, const Vector2&lt; T &gt; &amp;e, const Vector2&lt; T &gt; &amp;f)</argsstring>
+        <name>doTrianglesOverlap</name>
+        <qualifiedname>MR::doTrianglesOverlap</qualifiedname>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>returns true if ABC and DEF overlaps or touches </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>TODO: probably some of the checks are excessive?</para>
+<para>check if AB intersects any of DEF sides</para>
+<para>check if AC intersects any of DEF sides</para>
+<para>check if BC intersects any of DEF sides</para>
+<para>no sides intersection: either ABC fully inside DEF or vice versa</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" line="377" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriangleIntersection.h" bodystart="377" bodyend="413"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

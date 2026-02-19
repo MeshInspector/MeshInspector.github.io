@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsVolumeInterpolatedAccessor_1_1IndexAndPos" kind="struct" language="C++" prot="private">
+    <compoundname>MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaac3f312d34d510fa2cb505e772301f9d" kind="variable"><name>index</name></member>
+      <member refid="group__GeneralGroup_1gab7f6394c8ea8c754ddd40ee5b1be5b5d" kind="variable"><name>pos</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" line="65" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" bodystart="66" bodyend="69"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaac3f312d34d510fa2cb505e772301f9d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos</scope><name>index</name></member>
+      <member refid="group__GeneralGroup_1gab7f6394c8ea8c754ddd40ee5b1be5b5d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos</scope><name>pos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

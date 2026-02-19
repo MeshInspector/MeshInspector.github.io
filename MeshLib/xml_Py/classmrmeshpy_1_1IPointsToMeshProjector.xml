@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1IPointsToMeshProjector" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::IPointsToMeshProjector</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1PointsToMeshProjector" prot="public" virt="non-virtual">mrmeshpy.PointsToMeshProjector</derivedcompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IPointsToMeshProjector_1a9a7b36581ca660d1e6c69c2f6a5547f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IPointsToMeshProjector" kindref="compound">IPointsToMeshProjector</ref></type>
+        <definition> IPointsToMeshProjector mrmeshpy.IPointsToMeshProjector.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IPointsToMeshProjector.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToMeshProjector_1a3da43163300b6d9c7c813f71dadac519">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToMeshProjector_1a3da43163300b6d9c7c813f71dadac519">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23736" bodyend="23737"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IPointsToMeshProjector_1abde909341f45cefaf5a8e331819186b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IPointsToMeshProjector.findProjections</definition>
+        <argsstring>(self, std_vector_MeshProjectionResult result, std_vector_Vector3_float points, AffineXf3f worldXf=None, AffineXf3f worldRefXf=None, float upDistLimitSq=3.4028234663852886e+38, float loDistLimitSq=0.0)</argsstring>
+        <name>findProjections</name>
+        <qualifiedname>mrmeshpy.IPointsToMeshProjector.findProjections</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToMeshProjector_1afcbbf3f879f29430a90ba32c9d220ed5">findProjections</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshProjectionResult" kindref="compound">std_vector_MeshProjectionResult</ref></type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>worldXf</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>worldRefXf</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+          <defval>3.4028234663852886e+38</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>loDistLimitSq</declname>
+          <defval>0.0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Computes the closest point on mesh to each of given points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23738" bodyend="23741"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IPointsToMeshProjector_1a183a14af5ae991355ca023b734c99f12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.IPointsToMeshProjector.projectionsHeapBytes</definition>
+        <argsstring>(self, int numProjections)</argsstring>
+        <name>projectionsHeapBytes</name>
+        <qualifiedname>mrmeshpy.IPointsToMeshProjector.projectionsHeapBytes</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToMeshProjector_1a1db672bd6d6d71063be5778bdd9d51a8">projectionsHeapBytes</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numProjections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns amount of memory needed to compute projections
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23742" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23742" bodyend="23745"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IPointsToMeshProjector_1aaf02b6f2d268f959073790823847b960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IPointsToMeshProjector.updateMeshData</definition>
+        <argsstring>(self, Mesh mesh)</argsstring>
+        <name>updateMeshData</name>
+        <qualifiedname>mrmeshpy.IPointsToMeshProjector.updateMeshData</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToMeshProjector_1aad49862b70b7ab73d5a70574f7c68a48">updateMeshData</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Updates all data related to the referencing mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23746" bodyend="23749"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::IPointsToMeshProjector
+
+Abstract class, computes the closest point on mesh to each of given points. Pure virtual functions must be implemented
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.IPointsToMeshProjector</label>
+        <link refid="classmrmeshpy_1_1IPointsToMeshProjector"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.PointsToMeshProjector</label>
+        <link refid="classmrmeshpy_1_1PointsToMeshProjector"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23729" bodyend="23749"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1abde909341f45cefaf5a8e331819186b4" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsToMeshProjector</scope><name>findProjections</name></member>
+      <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1a9a7b36581ca660d1e6c69c2f6a5547f9" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsToMeshProjector</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1a183a14af5ae991355ca023b734c99f12" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsToMeshProjector</scope><name>projectionsHeapBytes</name></member>
+      <member refid="classmrmeshpy_1_1IPointsToMeshProjector_1aaf02b6f2d268f959073790823847b960" prot="public" virt="non-virtual"><scope>mrmeshpy::IPointsToMeshProjector</scope><name>updateMeshData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

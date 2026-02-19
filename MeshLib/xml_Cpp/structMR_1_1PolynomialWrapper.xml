@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolynomialWrapper" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolynomialWrapper</compoundname>
+    <includes refid="MRBestFitPolynomial_8h" local="no">MRBestFitPolynomial.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae0ebee6b847c1068f7f9a612844c6043" kind="variable"><name>poly</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gabe4466e0d13a4b608b0de2bfa541792a" kind="function"><name>PolynomialWrapper</name></member>
+      <member refid="group__GeneralGroup_1gaf0d6206aca2da0368e96f793d2b14219" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gacdd3cc2e21021c7f7efe573ec76a3ad9" kind="function"><name>deriv</name></member>
+      <member refid="group__GeneralGroup_1gaeb39bb3ae145bc05890641bb1bef0cc0" kind="function"><name>intervalMin</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This is a unifying interface for a polynomial of some degree, known only in runtime. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" line="76" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBestFitPolynomial.h" bodystart="77" bodyend="90"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gacdd3cc2e21021c7f7efe573ec76a3ad9" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>deriv</name></member>
+      <member refid="group__GeneralGroup_1gaeb39bb3ae145bc05890641bb1bef0cc0" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>intervalMin</name></member>
+      <member refid="group__GeneralGroup_1gaf0d6206aca2da0368e96f793d2b14219" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gae0ebee6b847c1068f7f9a612844c6043" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>poly</name></member>
+      <member refid="group__GeneralGroup_1gabe4466e0d13a4b608b0de2bfa541792a" prot="public" virt="non-virtual"><scope>MR::PolynomialWrapper</scope><name>PolynomialWrapper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

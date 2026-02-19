@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DefaultSplashWindow" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MR::DefaultSplashWindow</compoundname>
+    <basecompoundref refid="classMR_1_1SplashWindow" prot="public" virt="non-virtual">MR::SplashWindow</basecompoundref>
+    <includes refid="MRSplashWindow_8h" local="no">MRSplashWindow.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga482ffe5896336284305c020e08aaad7b" kind="variable"><name>splashImage_</name></member>
+      <member refid="group__GeneralGroup_1ga12c2f6b183c98063e35f956bd0c7dc2e" kind="variable"><name>versionStr_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga1603070b83b67e1cb87b26b980e19cf6" kind="function"><name>DefaultSplashWindow</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gacd99f81771c85244b10fc70b79566cc0" kind="function"><name>setup_</name></member>
+      <member refid="group__GeneralGroup_1gac2a2378a135afa449e4230a8717049ed" kind="function"><name>postInit_</name></member>
+      <member refid="group__GeneralGroup_1ga3b7ff249a93cc3e154d20c0f98607adb" kind="function"><name>positioning_</name></member>
+      <member refid="group__GeneralGroup_1ga22e07408d81a301aa222bda50f95601e" kind="function"><name>reloadFont_</name></member>
+      <member refid="group__GeneralGroup_1ga953ff1190ff60fc2904411b3edd7c189" kind="function"><name>frame_</name></member>
+      <member refid="group__GeneralGroup_1gadfb66ad05c281fed2a7b4e25cd6d9a0f" kind="function"><name>preDestruct_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::DefaultSplashWindow</label>
+        <link refid="classMR_1_1DefaultSplashWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SplashWindow</label>
+        <link refid="classMR_1_1SplashWindow"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::DefaultSplashWindow</label>
+        <link refid="classMR_1_1DefaultSplashWindow"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SplashWindow</label>
+        <link refid="classMR_1_1SplashWindow"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" line="71" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSplashWindow.h" bodystart="72" bodyend="85"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1603070b83b67e1cb87b26b980e19cf6" prot="public" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>DefaultSplashWindow</name></member>
+      <member refid="group__GeneralGroup_1ga953ff1190ff60fc2904411b3edd7c189" prot="private" virt="virtual"><scope>MR::DefaultSplashWindow</scope><name>frame_</name></member>
+      <member refid="group__GeneralGroup_1ga8e1b0c94c0dec969c8476897de435fdb" prot="protected" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>guiContext_</name></member>
+      <member refid="group__GeneralGroup_1ga017a42c7599e421ba51d913f9c9c0a5c" prot="public" virt="virtual"><scope>MR::DefaultSplashWindow</scope><name>minimumTimeSec</name></member>
+      <member refid="group__GeneralGroup_1ga79107d23834b7d624c70558d9acfcd38" prot="protected" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga3b7ff249a93cc3e154d20c0f98607adb" prot="private" virt="virtual"><scope>MR::DefaultSplashWindow</scope><name>positioning_</name></member>
+      <member refid="group__GeneralGroup_1gac2a2378a135afa449e4230a8717049ed" prot="private" virt="virtual"><scope>MR::DefaultSplashWindow</scope><name>postInit_</name></member>
+      <member refid="group__GeneralGroup_1gadfb66ad05c281fed2a7b4e25cd6d9a0f" prot="private" virt="virtual"><scope>MR::DefaultSplashWindow</scope><name>preDestruct_</name></member>
+      <member refid="group__GeneralGroup_1ga22e07408d81a301aa222bda50f95601e" prot="private" virt="virtual"><scope>MR::DefaultSplashWindow</scope><name>reloadFont_</name></member>
+      <member refid="group__GeneralGroup_1gacd99f81771c85244b10fc70b79566cc0" prot="private" virt="virtual"><scope>MR::DefaultSplashWindow</scope><name>setup_</name></member>
+      <member refid="group__GeneralGroup_1ga482ffe5896336284305c020e08aaad7b" prot="private" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>splashImage_</name></member>
+      <member refid="group__GeneralGroup_1ga339e38c56c4709ed12f877a0b026a659" prot="public" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>SplashWindow</name></member>
+      <member refid="group__GeneralGroup_1gaf0ce424272b846ce5f6cf1f9116f1742" prot="public" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>start</name></member>
+      <member refid="group__GeneralGroup_1ga12f3e91e4d3acf7a279458baf304721a" prot="public" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>stop</name></member>
+      <member refid="group__GeneralGroup_1ga302e1b3310c1ee684e3de1d7a239e964" prot="protected" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>terminate_</name></member>
+      <member refid="group__GeneralGroup_1ga12c2f6b183c98063e35f956bd0c7dc2e" prot="private" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>versionStr_</name></member>
+      <member refid="group__GeneralGroup_1ga4e6ed4ee9950dc53818813544070379e" prot="protected" virt="non-virtual"><scope>MR::DefaultSplashWindow</scope><name>window_</name></member>
+      <member refid="group__GeneralGroup_1gaa8219c57ea7f0cab0fb236ab58fbcb5f" prot="public" virt="virtual"><scope>MR::DefaultSplashWindow</scope><name>~SplashWindow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

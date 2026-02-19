@@ -1,0 +1,308 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PartMapping" kind="class" language="C#" prot="public">
+    <compoundname>MR::PartMapping</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PartMapping</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PartMapping_1a389f80cff21a01e9b11cfc21df6e912b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">MapOrHashMap_MRFaceId_MRFaceId</ref></type>
+        <definition>new unsafe MR.? MapOrHashMap_MRFaceId_MRFaceId MR.PartMapping.src2tgtFaces</definition>
+        <argsstring></argsstring>
+        <name>src2tgtFaces</name>
+        <qualifiedname>MR.PartMapping.src2tgtFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="231" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="232" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PartMapping_1a9b8d068d2dc282add31eeffb2567020a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId" kindref="compound">MapOrHashMap_MRVertId_MRVertId</ref></type>
+        <definition>new unsafe MR.? MapOrHashMap_MRVertId_MRVertId MR.PartMapping.src2tgtVerts</definition>
+        <argsstring></argsstring>
+        <name>src2tgtVerts</name>
+        <qualifiedname>MR.PartMapping.src2tgtVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="243" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="244" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PartMapping_1ad29f7ec697ebbcb670f88bce9ffd77b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kindref="compound">MapOrHashMap_MRUndirectedEdgeId_MREdgeId</ref></type>
+        <definition>new unsafe MR.? MapOrHashMap_MRUndirectedEdgeId_MREdgeId MR.PartMapping.src2tgtEdges</definition>
+        <argsstring></argsstring>
+        <name>src2tgtEdges</name>
+        <qualifiedname>MR.PartMapping.src2tgtEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="255" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="256" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PartMapping_1a3467c522e713b639ee7fa153c1857a20" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">MapOrHashMap_MRFaceId_MRFaceId</ref></type>
+        <definition>new unsafe MR.? MapOrHashMap_MRFaceId_MRFaceId MR.PartMapping.tgt2srcFaces</definition>
+        <argsstring></argsstring>
+        <name>tgt2srcFaces</name>
+        <qualifiedname>MR.PartMapping.tgt2srcFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="269" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="270" bodyend="279"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PartMapping_1a3d4398cf207164f77c8a5b59f30106d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId" kindref="compound">MapOrHashMap_MRVertId_MRVertId</ref></type>
+        <definition>new unsafe MR.? MapOrHashMap_MRVertId_MRVertId MR.PartMapping.tgt2srcVerts</definition>
+        <argsstring></argsstring>
+        <name>tgt2srcVerts</name>
+        <qualifiedname>MR.PartMapping.tgt2srcVerts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="281" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="282" bodyend="291"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PartMapping_1aa90d338ea333a6f42175b73d2881cec0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kindref="compound">MapOrHashMap_MRUndirectedEdgeId_MREdgeId</ref></type>
+        <definition>new unsafe MR.? MapOrHashMap_MRUndirectedEdgeId_MREdgeId MR.PartMapping.tgt2srcEdges</definition>
+        <argsstring></argsstring>
+        <name>tgt2srcEdges</name>
+        <qualifiedname>MR.PartMapping.tgt2srcEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="293" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="294" bodyend="303"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PartMapping_1ae5d73a849396bbcc18842cca85fccb43" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PartMapping.PartMapping</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PartMapping</name>
+        <qualifiedname>MR.PartMapping.PartMapping</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="307" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="307" bodyend="311"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PartMapping_1a410ecb83fa36078e19f302b4da9d1c68" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PartMapping.PartMapping</definition>
+        <argsstring>()</argsstring>
+        <name>PartMapping</name>
+        <qualifiedname>MR.PartMapping.PartMapping</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="317" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="317" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartMapping_1ac924df683753d1fb3ac7253ee9e77ba5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PartMapping.PartMapping</definition>
+        <argsstring>(MR.MapOrHashMap_MRFaceId_MRFaceId? src2tgtFaces, MR.MapOrHashMap_MRVertId_MRVertId? src2tgtVerts, MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId? src2tgtEdges, MR.MapOrHashMap_MRFaceId_MRFaceId? tgt2srcFaces, MR.MapOrHashMap_MRVertId_MRVertId? tgt2srcVerts, MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId? tgt2srcEdges)</argsstring>
+        <name>PartMapping</name>
+        <qualifiedname>MR.PartMapping.PartMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">MR.MapOrHashMap_MRFaceId_MRFaceId</ref>?</type>
+          <declname>src2tgtFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId" kindref="compound">MR.MapOrHashMap_MRVertId_MRVertId</ref>?</type>
+          <declname>src2tgtVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kindref="compound">MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</ref>?</type>
+          <declname>src2tgtEdges</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">MR.MapOrHashMap_MRFaceId_MRFaceId</ref>?</type>
+          <declname>tgt2srcFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MapOrHashMap__MRVertId__MRVertId" kindref="compound">MR.MapOrHashMap_MRVertId_MRVertId</ref>?</type>
+          <declname>tgt2srcVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MapOrHashMap__MRUndirectedEdgeId__MREdgeId" kindref="compound">MR.MapOrHashMap_MRUndirectedEdgeId_MREdgeId</ref>?</type>
+          <declname>tgt2srcEdges</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PartMapping" kindref="compound">MR.PartMapping</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="328" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="328" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartMapping_1abd58ec7154eb45358ab2809b60d3a5fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PartMapping.PartMapping</definition>
+        <argsstring>(MR.Const_PartMapping _other)</argsstring>
+        <name>PartMapping</name>
+        <qualifiedname>MR.PartMapping.PartMapping</qualifiedname>
+        <param>
+          <type>MR.Const_PartMapping</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PartMapping.PartMapping</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="345" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="345" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartMapping_1a4f45a1f225e4b8de8bd4ceb42eeef9ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PartMapping.PartMapping</definition>
+        <argsstring>(PartMapping _other)</argsstring>
+        <name>PartMapping</name>
+        <qualifiedname>MR.PartMapping.PartMapping</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PartMapping.PartMapping</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="357" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="357" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartMapping_1a15337a2e784ae69953b3507e77ec18c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PartMapping" kindref="compound">MR.PartMapping</ref></type>
+        <definition>unsafe MR.PartMapping MR.PartMapping.assign</definition>
+        <argsstring>(MR.Const_PartMapping _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PartMapping.assign</qualifiedname>
+        <param>
+          <type>MR.Const_PartMapping</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PartMapping.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="362" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="362" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartMapping_1a60b244018f6eea2bd210b60c38e873e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PartMapping.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.PartMapping.clear</qualifiedname>
+        <briefdescription>
+<para>clears all member maps Generated from method <computeroutput><ref refid="classMR_1_1PartMapping_1a60b244018f6eea2bd210b60c38e873e0" kindref="member">MR.PartMapping.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="375" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="375" bodyend="380"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>mapping among elements of source mesh, from which a part is taken, and target mesh Generated from class <computeroutput><ref refid="classMR_1_1PartMapping" kindref="compound">MR.PartMapping</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PartMapping</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PartMapping</label>
+        <link refid="classMR_1_1PartMapping"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PartMapping &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PartMapping</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PartMapping</label>
+        <link refid="classMR_1_1PartMapping"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PartMapping &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" line="225" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartMapping.cs" bodystart="226" bodyend="381"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PartMapping_1a15337a2e784ae69953b3507e77ec18c0" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>assign</name></member>
+      <member refid="classMR_1_1PartMapping_1a60b244018f6eea2bd210b60c38e873e0" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>clear</name></member>
+      <member refid="classMR_1_1PartMapping_1ae5d73a849396bbcc18842cca85fccb43" prot="package" virt="non-virtual"><scope>MR::PartMapping</scope><name>PartMapping</name></member>
+      <member refid="classMR_1_1PartMapping_1a410ecb83fa36078e19f302b4da9d1c68" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>PartMapping</name></member>
+      <member refid="classMR_1_1PartMapping_1ac924df683753d1fb3ac7253ee9e77ba5" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>PartMapping</name></member>
+      <member refid="classMR_1_1PartMapping_1abd58ec7154eb45358ab2809b60d3a5fa" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>PartMapping</name></member>
+      <member refid="classMR_1_1PartMapping_1a4f45a1f225e4b8de8bd4ceb42eeef9ac" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>PartMapping</name></member>
+      <member refid="classMR_1_1PartMapping_1ad29f7ec697ebbcb670f88bce9ffd77b3" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtEdges</name></member>
+      <member refid="classMR_1_1PartMapping_1a389f80cff21a01e9b11cfc21df6e912b" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtFaces</name></member>
+      <member refid="classMR_1_1PartMapping_1a9b8d068d2dc282add31eeffb2567020a" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>src2tgtVerts</name></member>
+      <member refid="classMR_1_1PartMapping_1aa90d338ea333a6f42175b73d2881cec0" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcEdges</name></member>
+      <member refid="classMR_1_1PartMapping_1a3467c522e713b639ee7fa153c1857a20" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcFaces</name></member>
+      <member refid="classMR_1_1PartMapping_1a3d4398cf207164f77c8a5b59f30106d0" prot="public" virt="non-virtual"><scope>MR::PartMapping</scope><name>tgt2srcVerts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</compoundname>
+    <includes refid="MRVoxelsVolumeAccess_8h" local="no">MRVoxelsVolumeAccess.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga4f55b3b83d93fcd3c8bcfeb48d2e7545" kind="typedef"><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1ga6c1caa3832a33e6477c2eb7f3a1d0b1d" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1gac1b5f38c0dabf4ae3571cfafc40f43f8" kind="variable"><name>cacheEffective</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga83fb106ead5f0415c13fa66c799010e8" kind="variable"><name>accessor_</name></member>
+      <member refid="group__GeneralGroup_1gabfb3d8607cf11c84fa072d6d81850427" kind="variable"><name>minCoord_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga91df927a856d2b8c93854a7d1e25b522" kind="function"><name>VoxelsVolumeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga7dcd7da9538cdabf19f8ba7df37407d8" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga0110b47db298ab6d8434751e3dcc795d" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga3df011766c40c1643253a7c4c1871135" kind="function"><name>minCoord</name></member>
+      <member refid="group__GeneralGroup_1ga67dfdaf568c4844e1435a42bec259460" kind="function"><name>shift</name></member>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1VoxelsVolumeAccessor" kindref="compound">VoxelsVolumeAccessor</ref> specialization for VDB volume. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="22" bodyend="54"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga83fb106ead5f0415c13fa66c799010e8" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>accessor_</name></member>
+      <member refid="group__GeneralGroup_1gac1b5f38c0dabf4ae3571cfafc40f43f8" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>cacheEffective</name></member>
+      <member refid="group__GeneralGroup_1ga7dcd7da9538cdabf19f8ba7df37407d8" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga0110b47db298ab6d8434751e3dcc795d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga3df011766c40c1643253a7c4c1871135" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>minCoord</name></member>
+      <member refid="group__GeneralGroup_1gabfb3d8607cf11c84fa072d6d81850427" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>minCoord_</name></member>
+      <member refid="group__GeneralGroup_1ga67dfdaf568c4844e1435a42bec259460" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>shift</name></member>
+      <member refid="group__GeneralGroup_1ga6c1caa3832a33e6477c2eb7f3a1d0b1d" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga4f55b3b83d93fcd3c8bcfeb48d2e7545" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1ga91df927a856d2b8c93854a7d1e25b522" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VdbVolume &gt;</scope><name>VoxelsVolumeAccessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

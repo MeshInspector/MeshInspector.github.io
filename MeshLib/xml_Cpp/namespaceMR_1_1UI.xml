@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1UI" kind="namespace" language="C++">
+    <compoundname>MR::UI</compoundname>
+    <innerclass refid="structMR_1_1UI_1_1ButtonCustomizationParams" prot="public">MR::UI::ButtonCustomizationParams</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1ButtonIconCustomizationParams" prot="public">MR::UI::ButtonIconCustomizationParams</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1CachedTextSize" prot="public">MR::UI::CachedTextSize</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1CheckboxOrModifierState" prot="public">MR::UI::CheckboxOrModifierState</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1CustomConfigModalSettings" prot="public">MR::UI::CustomConfigModalSettings</innerclass>
+    <innerclass refid="classMR_1_1UI_1_1Disabler" prot="public">MR::UI::Disabler</innerclass>
+    <innerclass refid="classMR_1_1UI_1_1LabelRectAllocator" prot="public">MR::UI::LabelRectAllocator</innerclass>
+    <innerclass refid="classMR_1_1UI_1_1LineAntialiasingDisabler" prot="public">MR::UI::LineAntialiasingDisabler</innerclass>
+    <innerclass refid="classMR_1_1UI_1_1NonOverlappingLabelTask" prot="public">MR::UI::NonOverlappingLabelTask</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1PlotAxis" prot="public">MR::UI::PlotAxis</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1RadioButtonOrModifierState" prot="public">MR::UI::RadioButtonOrModifierState</innerclass>
+    <innerclass refid="classMR_1_1UI_1_1RectAllocator" prot="public">MR::UI::RectAllocator</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1SaveChangesPopupSettings" prot="public">MR::UI::SaveChangesPopupSettings</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1SeparatorParams" prot="public">MR::UI::SeparatorParams</innerclass>
+    <innerclass refid="classMR_1_1UI_1_1WindowRectAllocator" prot="public">MR::UI::WindowRectAllocator</innerclass>
+    <innernamespace refid="namespaceMR_1_1UI_1_1detail">MR::UI::detail</innernamespace>
+    <innernamespace refid="namespaceMR_1_1UI_1_1StateStorage">MR::UI::StateStorage</innernamespace>
+    <innernamespace refid="namespaceMR_1_1UI_1_1TestEngine">MR::UI::TestEngine</innernamespace>
+    <sectiondef kind="enum">
+      <member refid="group__GeneralGroup_1ga0a816a5d6ff63a4668d7a9b26bb0aaf6" kind="enum"><name>TextureType</name></member>
+    </sectiondef>
+    <sectiondef kind="var">
+      <member refid="group__GeneralGroup_1ga7ce97f5be533c3522d66cb2fbfaf250f" kind="variable"><name>defaultSliderFlags</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1UI_1a50698dfeecb0a68a2ddfc71eae08a0c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UI::nonOverlappingLabel</definition>
+        <argsstring>()</argsstring>
+        <name>nonOverlappingLabel</name>
+        <qualifiedname>MR::UI::nonOverlappingLabel</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws a label on top of the viewport area. <computeroutput>id</computeroutput> should be a unique ID persistent across frames. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="43" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" declline="43" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1a5caf1537f165f3557d3f718bfb47a032" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1UI_1_1WindowRectAllocator" kindref="compound">WindowRectAllocator</ref> &amp;</type>
+        <definition>MRVIEWER_API WindowRectAllocator &amp; MR::UI::getDefaultWindowRectAllocator</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultWindowRectAllocator</name>
+        <qualifiedname>MR::UI::getDefaultWindowRectAllocator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="95" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" declline="95" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1a8782e9cded23844b3ae2138d6287b99c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1UI_1_1LabelRectAllocator" kindref="compound">LabelRectAllocator</ref> &amp;</type>
+        <definition>MRVIEWER_API LabelRectAllocator &amp; MR::UI::getDefaultLabelRectAllocator</definition>
+        <argsstring>()</argsstring>
+        <name>getDefaultLabelRectAllocator</name>
+        <qualifiedname>MR::UI::getDefaultLabelRectAllocator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="118" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" declline="118" declcolumn="34"/>
+      </memberdef>
+      <member refid="group__GeneralGroup_1gaf1937d08c3cb699681eeb7fd4dde005e" kind="function"><name>saveChangesPopup</name></member>
+      <member refid="group__GeneralGroup_1ga5d2fd1d58ef16bcced4cfefc67d2c023" kind="function"><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga1e1ec7c96ccb4a9963415c5d53b50081" kind="function"><name>isItemActive</name></member>
+      <member refid="group__GeneralGroup_1ga0d337a1adf7e16aaa08b683a6b65e886" kind="function"><name>getTexture</name></member>
+      <member refid="group__GeneralGroup_1ga986e400ed59dea0ae3e54284d9b8d110" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1gad5f5d8b8b0e1a7192c658352c6b0a4a2" kind="function"><name>getImGuiModPrimaryCtrl</name></member>
+      <member refid="group__GeneralGroup_1gaef6aee6b25d8ef46fa79ca793724ce57" kind="function"><name>getImGuiPrimaryCtrlName</name></member>
+      <member refid="group__GeneralGroup_1ga6d5300d4685c08883eebec83b277c71a" kind="function"><name>checkKey</name></member>
+      <member refid="group__GeneralGroup_1ga8e2e5a94838570d15a333a1f11ebea6d" kind="function"><name>buttonEx</name></member>
+      <member refid="group__GeneralGroup_1gad36410efe7dec5964b4857d7d6978975" kind="function"><name>buttonEx</name></member>
+      <member refid="group__GeneralGroup_1gae14306471133180f84a3a02650ced599" kind="function"><name>button</name></member>
+      <member refid="group__GeneralGroup_1gad13b9be4aa5cae65c61e91ac1ab04ecd" kind="function"><name>button</name></member>
+      <member refid="group__GeneralGroup_1gaffdd9ce8585853bc545f4f60bda2611f" kind="function"><name>buttonCommonSize</name></member>
+      <member refid="group__GeneralGroup_1gaca27e412cdac5850b5894de3b19321b9" kind="function"><name>buttonUnique</name></member>
+      <member refid="group__GeneralGroup_1gab942eba103eec750f809a30b78753bcc" kind="function"><name>drawPoltHorizontalAxis</name></member>
+      <member refid="group__GeneralGroup_1gabd0b046581a9cea311efcbb11a16b2ff" kind="function"><name>drawPoltVerticalAxis</name></member>
+      <member refid="group__GeneralGroup_1gab53314e24f68de52f675b6881591b212" kind="function"><name>buttonIconEx</name></member>
+      <member refid="group__GeneralGroup_1ga336fa6393e7abeefe2f5d4e8f29d75a6" kind="function"><name>buttonIcon</name></member>
+      <member refid="group__GeneralGroup_1ga4e984c41bbd6d1102d9a05c16ad0ebb1" kind="function"><name>buttonIconFlatBG</name></member>
+      <member refid="group__GeneralGroup_1gaabff9f0c939748442c1095fa471e389b" kind="function"><name>buttonUniqueIcon</name></member>
+      <member refid="group__GeneralGroup_1gaf1d819a7e036a6af0d93441966c462c4" kind="function"><name>toggle</name></member>
+      <member refid="group__GeneralGroup_1ga53a8b0ecd1302a3bda2f1df01ef818a8" kind="function"><name>checkbox</name></member>
+      <member refid="group__GeneralGroup_1ga9b2e8bbfe90af034977fca967163a4d4" kind="function"><name>checkboxOrFixedValue</name></member>
+      <member refid="group__GeneralGroup_1ga877e7bd4fbef2de7e95cee03dc0f71b3" kind="function"><name>checkboxValid</name></member>
+      <member refid="group__GeneralGroup_1gab4909c09a4671c9b042825346cf6f637" kind="function"><name>checkboxMixed</name></member>
+      <member refid="group__GeneralGroup_1ga9542cf007c0f98d41fea874268894222" kind="function"><name>checkbox</name></member>
+      <member refid="group__GeneralGroup_1ga5ac8bec4cccdbdcba62669312b5cefca" kind="function"><name>checkboxValid</name></member>
+      <member refid="group__GeneralGroup_1gaba6c7c72b70351ba42eae4e3a2e0df4b" kind="function"><name>checkboxFlags</name></member>
+      <member refid="group__GeneralGroup_1ga0c37be14d527eafdf4f327608985ab9e" kind="function"><name>checkboxOrModifier</name></member>
+      <member refid="group__GeneralGroup_1ga8475dd1f1a29f5bb0edc0fcd7c53d115" kind="function"><name>radioButton</name></member>
+      <member refid="group__GeneralGroup_1gaf6f24e8f5454ee5851179f720cd07eb4" kind="function"><name>radioButtonOrFixedValue</name></member>
+      <member refid="group__GeneralGroup_1ga106b8bc31fb0bf822e4d25da72a41ead" kind="function"><name>radioButtonOrModifier</name></member>
+      <member refid="group__GeneralGroup_1gaaa136c1366383c9c03db4f4b7520c2a6" kind="function"><name>colorEdit4</name></member>
+      <member refid="group__GeneralGroup_1gacb0c4c1be185e69b6f58108b3471f882" kind="function"><name>colorEdit4</name></member>
+      <member refid="group__GeneralGroup_1ga820aa2a94b65ad7536194e8527f89a12" kind="function"><name>combo</name></member>
+      <member refid="group__GeneralGroup_1ga72b7457df4d4b5353fc89751ef8d9501" kind="function"><name>beginCombo</name></member>
+      <member refid="group__GeneralGroup_1ga8cffb4ab7998318c522df73a1d12a4f9" kind="function"><name>endCombo</name></member>
+      <member refid="group__GeneralGroup_1gaf81d056e2ca2afaceec0e67e12ed9afb" kind="function"><name>inputText</name></member>
+      <member refid="group__GeneralGroup_1ga8e4c6b5d376e0b7733631a2901b86d4b" kind="function"><name>inputTextIntoArray</name></member>
+      <member refid="group__GeneralGroup_1gab4275e67335731ec2250b16795f2e4a1" kind="function"><name>inputTextMultiline</name></member>
+      <member refid="group__GeneralGroup_1ga31bf75f2c49957b473bd51d2aeb25ec8" kind="function"><name>inputTextIntoArrayMultiline</name></member>
+      <member refid="group__GeneralGroup_1ga0e4fcd89c72f4be1967ab7ba90d92c1b" kind="function"><name>inputTextMultilineFullyScrollable</name></member>
+      <member refid="group__GeneralGroup_1ga5e2b43c7fc21e6665c27724211ffb039" kind="function"><name>inputTextIntoArrayMultilineFullyScrollable</name></member>
+      <member refid="group__GeneralGroup_1gafc1009af05439b78707e8372d21f9a87" kind="function"><name>inputTextCentered</name></member>
+      <member refid="group__GeneralGroup_1ga5e2ab9c1b7ae397ac4ef58403551d17c" kind="function"><name>inputTextCenteredReadOnly</name></member>
+      <member refid="group__GeneralGroup_1ga73b24c79591c799e7d48900fbeb29f28" kind="function"><name>getDefaultDragSpeed</name></member>
+      <member refid="group__GeneralGroup_1ga34c3f1871780efe66e47bcc052cefd3d" kind="function"><name>getDefaultStep</name></member>
+      <member refid="group__GeneralGroup_1ga7ede0f8f76cc959c7be6cb81ee9174f8" kind="function"><name>slider</name></member>
+      <member refid="group__GeneralGroup_1ga7164936f126dc1678e8ee461b926adec" kind="function"><name>drag</name></member>
+      <member refid="group__GeneralGroup_1gabbed04ca5643f08d7b41e56fec98ee8b" kind="function"><name>input</name></member>
+      <member refid="group__GeneralGroup_1gaa1fd1e704f1ff98b82cc4c98e452f57a" kind="function"><name>readOnlyValue</name></member>
+      <member refid="group__GeneralGroup_1ga7e2c992cf1725ac8f53f110fdb0f5541" kind="function"><name>plusMinusGeneric</name></member>
+      <member refid="group__GeneralGroup_1ga59568041afcf5034cb6871916598a340" kind="function"><name>dragPlusMinus</name></member>
+      <member refid="group__GeneralGroup_1ga2d696a4ba7ed6899c61e4f297218a530" kind="function"><name>inputPlusMinus</name></member>
+      <member refid="group__GeneralGroup_1ga8383efc65d62e5b793a5e660ecd07c1e" kind="function"><name>notificationChar</name></member>
+      <member refid="group__GeneralGroup_1ga86829359873813f479f46ac25fb54708" kind="function"><name>mouseControlHint</name></member>
+      <member refid="group__GeneralGroup_1ga94309985ed89c89e0d6199e0c6a2e333" kind="function"><name>transparentText</name></member>
+      <member refid="group__GeneralGroup_1ga2e82aeb6c8dcd97dab6e1f0e68d4fed4" kind="function"><name>transparentTextWrapped</name></member>
+      <member refid="group__GeneralGroup_1ga48b16082f6b002090c0a1170ed6c5eab" kind="function"><name>notificationFrame</name></member>
+      <member refid="group__GeneralGroup_1gacc1b0768c46020da319d0cd47c499308" kind="function"><name>setTooltipIfHovered</name></member>
+      <member refid="group__GeneralGroup_1ga66d0089d8a8616f6c454c5bce46731a0" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1ga489ca486b23bdee5ee17ba7afcb6a8d6" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1gab9c07e6962a54926b13596b7ecbbdae0" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1ga878027b7be9898c79a8e079b56ccc99c" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1gac1aee2cb41aa2e487c0cca2604c28e31" kind="function"><name>separator</name></member>
+      <member refid="group__GeneralGroup_1gafacb65ecd8ca9e640f01ffc1b7963245" kind="function"><name>progressBar</name></member>
+      <member refid="group__GeneralGroup_1gab5dcf6cb9ab83cbd7fd1a8ff6659136f" kind="function"><name>beginTabBar</name></member>
+      <member refid="group__GeneralGroup_1ga1b2f7496c5cc2c04acdc85d6ad564a63" kind="function"><name>endTabBar</name></member>
+      <member refid="group__GeneralGroup_1gafbf63021d04e94c878b093fd86fef43f" kind="function"><name>beginTabItem</name></member>
+      <member refid="group__GeneralGroup_1ga321f93b24c9b7d723ce8aec45fe75374" kind="function"><name>endTabItem</name></member>
+      <member refid="group__GeneralGroup_1gafadef8b878371dc0bc9aa07df5dec003" kind="function"><name>alignTextToFramePadding</name></member>
+      <member refid="group__GeneralGroup_1ga66dc61c68cc74e41c52ec9552380924e" kind="function"><name>alignTextToControl</name></member>
+      <member refid="group__GeneralGroup_1ga88497709249abe39b1a8945f1da37c1d" kind="function"><name>alignTextToRadioButton</name></member>
+      <member refid="group__GeneralGroup_1ga3502094462c7bea898971f68600afd5d" kind="function"><name>alignTextToCheckBox</name></member>
+      <member refid="group__GeneralGroup_1ga349b19917b34be8d0e7c991e3ea1b747" kind="function"><name>alignTextToButton</name></member>
+      <member refid="group__GeneralGroup_1ga5abc6e37a08e8c040cded2ae7ccd147b" kind="function"><name>highlightWindowArea</name></member>
+      <member refid="group__GeneralGroup_1gac87e004a565fe8b0a9d822499a594fb7" kind="function"><name>saveCustomConfigModal</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUINonOverlappingLabels.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

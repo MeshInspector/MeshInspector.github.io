@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OutputFlows" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OutputFlows</compoundname>
+    <includes refid="MRAggregateFlow_8h" local="no">MRAggregateFlow.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab696447c7c75c2271af326e9df613cd7" kind="variable"><name>pPolyline</name></member>
+      <member refid="group__GeneralGroup_1ga72f9e10ced291a77b3b93815e416e700" kind="variable"><name>pFlowPerEdge</name></member>
+      <member refid="group__GeneralGroup_1ga269ce938dc53ce1c582db0ce91e12693" kind="variable"><name>amountGreaterThan</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="23" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga269ce938dc53ce1c582db0ce91e12693" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>amountGreaterThan</name></member>
+      <member refid="group__GeneralGroup_1ga72f9e10ced291a77b3b93815e416e700" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>pFlowPerEdge</name></member>
+      <member refid="group__GeneralGroup_1gab696447c7c75c2271af326e9df613cd7" prot="public" virt="non-virtual"><scope>MR::OutputFlows</scope><name>pPolyline</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

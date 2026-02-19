@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ISceneSelectionChange" kind="class" language="C++" prot="public">
+    <compoundname>MR::ISceneSelectionChange</compoundname>
+    <derivedcompoundref refid="classMR_1_1SceneSelectionChangeClose" prot="public" virt="virtual">MR::SceneSelectionChangeClose</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SceneSelectionChangeRestart" prot="public" virt="virtual">MR::SceneSelectionChangeRestart</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1StateBasePlugin" prot="public" virt="virtual">MR::StateBasePlugin</derivedcompoundref>
+    <includes refid="MRSceneSelectionChange_8h" local="no">MRSceneSelectionChange.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga46ed29a0c79bdfb7de53ea802fee042c" kind="function"><name>~ISceneSelectionChange</name></member>
+      <member refid="group__GeneralGroup_1ga0e5a18c4e15ba23a7536d1511cb823b6" kind="function"><name>updateSelection</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Interface for processing scene state change in RibbonItems. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="6">
+        <label>MR::MoveObjectByMouse</label>
+        <link refid="classMR_1_1MoveObjectByMouse"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SceneSelectionChangeClose</label>
+        <link refid="classMR_1_1SceneSelectionChangeClose"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::SceneSelectionChangeRestart</label>
+        <link refid="classMR_1_1SceneSelectionChangeRestart"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::SelectObjectByClick</label>
+        <link refid="classMR_1_1SelectObjectByClick"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::ISceneSelectionChange</scope><name>updateSelection</name></member>
+      <member refid="group__GeneralGroup_1ga46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::ISceneSelectionChange</scope><name>~ISceneSelectionChange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

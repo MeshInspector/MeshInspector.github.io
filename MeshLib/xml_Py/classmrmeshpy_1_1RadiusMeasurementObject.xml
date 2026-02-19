@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RadiusMeasurementObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RadiusMeasurementObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1MeasurementObject" prot="public" virt="non-virtual">mrmeshpy.MeasurementObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1ab5309127bc965134eeaeb640ac037c61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RadiusMeasurementObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49115" bodyend="49116"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1af26d310c4cc77b4a19347427313cfb7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RadiusMeasurementObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49118" bodyend="49119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a0451927b627cd46a3c39240e734095e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RadiusMeasurementObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2fc458fce133a9ff45056ce820e23234">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49121" bodyend="49122"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a6dbbbc0852325c729144d57e5cc184c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RadiusMeasurementObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The xf encodes the radius: the origin is the center point, and (1,0,0) is the end point.
+For non-spherical radiuses, (0,0,1) is the circle normal.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49123" bodyend="49127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1af61fd14aa104d63d47a4e75a1d16f845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RadiusMeasurementObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49128" bodyend="49129"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a2883dd2265758ed85ed5bc582b150728" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RadiusMeasurementObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49130" bodyend="49131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1aed4eb8fd11e08f1930d2d70ce491b43a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.RadiusMeasurementObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49132" bodyend="49133"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a9cb50526e55a711ca956dd80a793e7b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RadiusMeasurementObject.computeRadiusOrDiameter</definition>
+        <argsstring>(self)</argsstring>
+        <name>computeRadiusOrDiameter</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.computeRadiusOrDiameter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Computes the radius/diameter value, as if by `getLocalRadiusAsVector()`, possibly multiplied by two if `getDrawAsDiameter()`.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49134" bodyend="49137"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a1e00a9fcd193765d7026602130c76bf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RadiusMeasurementObject.getDrawAsDiameter</definition>
+        <argsstring>(self)</argsstring>
+        <name>getDrawAsDiameter</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getDrawAsDiameter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Whether we should draw this as a diameter instead of a radius.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49138" bodyend="49141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1adae46eaf8cc2e1361ccca3dc81e335ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.RadiusMeasurementObject.getInfoLines</definition>
+        <argsstring>(self)</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getInfoLines</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3">getInfoLines</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return several info lines that can better describe the object in the UI
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49142" bodyend="49143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a1a82f06e7565904d0baa3af9fb694ade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RadiusMeasurementObject.getIsSpherical</definition>
+        <argsstring>(self)</argsstring>
+        <name>getIsSpherical</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getIsSpherical</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Whether this is a sphere radius, as opposed to circle/cylinder radius.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49144" bodyend="49147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a6e13b96e9c88880832695f85324bf664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.RadiusMeasurementObject.getLocalCenter</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLocalCenter</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getLocalCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get the center in local coordinates.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49148" bodyend="49151"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1acd4e11dc0ec1eda8b9cf089af787434c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.RadiusMeasurementObject.getLocalNormal</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLocalNormal</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getLocalNormal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49152" bodyend="49153"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a8336bdc48c54c398882fa9424116656b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.RadiusMeasurementObject.getLocalRadiusAsVector</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLocalRadiusAsVector</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getLocalRadiusAsVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49154" bodyend="49155"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1ae405a26373f6fac69dc2793461056226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RadiusMeasurementObject.getVisualLengthMultiplier</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVisualLengthMultiplier</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getVisualLengthMultiplier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The visual leader line length multiplier, relative to the radius.
+You&apos;re recommended to set a min absolute value for the resulting length when rendering.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49156" bodyend="49160"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a3dbb243b8144549656e3cbfa9fb2c670" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.RadiusMeasurementObject.getWorldCenter</definition>
+        <argsstring>(self)</argsstring>
+        <name>getWorldCenter</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getWorldCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get the center in world coordinates.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49161" bodyend="49164"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1ab841613636d358f71b3ca8c993d42c22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.RadiusMeasurementObject.getWorldNormal</definition>
+        <argsstring>(self)</argsstring>
+        <name>getWorldNormal</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getWorldNormal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The preferred radius normal, for non-spherical radiuses.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49165" bodyend="49168"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a0849dafcff3012aa6e3d05be9e13ea98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.RadiusMeasurementObject.getWorldRadiusAsVector</definition>
+        <argsstring>(self)</argsstring>
+        <name>getWorldRadiusAsVector</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.getWorldRadiusAsVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The length of this vector is the radius, and the direction is the preferred line drawing direction.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49169" bodyend="49172"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a805b95f4fdf36bd89babf47d765a2d6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RadiusMeasurementObject.setDrawAsDiameter</definition>
+        <argsstring>(self, bool value)</argsstring>
+        <name>setDrawAsDiameter</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.setDrawAsDiameter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49173" bodyend="49174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a9d010eee6ebeba6f84333799197d795f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RadiusMeasurementObject.setIsSpherical</definition>
+        <argsstring>(self, bool value)</argsstring>
+        <name>setIsSpherical</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.setIsSpherical</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49175" bodyend="49176"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1acc3c7ed746c4ac45bb832eb4abf02120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RadiusMeasurementObject.setLocalCenter</definition>
+        <argsstring>(self, Vector3f center)</argsstring>
+        <name>setLocalCenter</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.setLocalCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49177" bodyend="49178"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1ad3f29300a3cf183c01d88b2398f979bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RadiusMeasurementObject.setLocalRadiusAsVector</definition>
+        <argsstring>(self, Vector3f radiusVec, Vector3f normal)</argsstring>
+        <name>setLocalRadiusAsVector</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.setLocalRadiusAsVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>radiusVec</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets the local radius vector (the length of which is the radius value),
+  and also the radius normal (which is ignored for spherical radiuses).
+The normal is automatically normalized and made perpendicular to the `radiusVec`.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49180" bodyend="49185"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a081513917fb41062285958c17b385213" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RadiusMeasurementObject.setLocalRadiusAsVector</definition>
+        <argsstring>(self, Vector3f radiusVec)</argsstring>
+        <name>setLocalRadiusAsVector</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.setLocalRadiusAsVector</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>radiusVec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Same, but without a preferred normal.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49187" bodyend="49190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a5be60db33e04f50a12e04cdb21705bf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RadiusMeasurementObject.setVisualLengthMultiplier</definition>
+        <argsstring>(self, float value)</argsstring>
+        <name>setVisualLengthMultiplier</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.setVisualLengthMultiplier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49191" bodyend="49192"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1a7047545b95b7b31ac712919f2413247b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.RadiusMeasurementObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49193" bodyend="49194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RadiusMeasurementObject_1ae02f20519ba91f58be69767f6e06f3c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RadiusMeasurementObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.RadiusMeasurementObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a0e188ed95f73756841030840741720e9">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49195" bodyend="49196"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RadiusMeasurementObject
+
+Represents a radius measurement.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.RadiusMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1RadiusMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeasurementObject</label>
+        <link refid="classmrmeshpy_1_1MeasurementObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.RadiusMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1RadiusMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeasurementObject</label>
+        <link refid="classmrmeshpy_1_1MeasurementObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49108" bodyend="49196"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a6dbbbc0852325c729144d57e5cc184c6" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1af61fd14aa104d63d47a4e75a1d16f845" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a2883dd2265758ed85ed5bc582b150728" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1aed4eb8fd11e08f1930d2d70ce491b43a" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a9cb50526e55a711ca956dd80a793e7b3" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>computeRadiusOrDiameter</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a1e00a9fcd193765d7026602130c76bf6" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getDrawAsDiameter</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1adae46eaf8cc2e1361ccca3dc81e335ea" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a1a82f06e7565904d0baa3af9fb694ade" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getIsSpherical</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a6e13b96e9c88880832695f85324bf664" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getLocalCenter</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1acd4e11dc0ec1eda8b9cf089af787434c" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getLocalNormal</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a8336bdc48c54c398882fa9424116656b" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getLocalRadiusAsVector</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1ae405a26373f6fac69dc2793461056226" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getVisualLengthMultiplier</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a3dbb243b8144549656e3cbfa9fb2c670" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getWorldCenter</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1ab841613636d358f71b3ca8c993d42c22" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getWorldNormal</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a0849dafcff3012aa6e3d05be9e13ea98" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>getWorldRadiusAsVector</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a805b95f4fdf36bd89babf47d765a2d6e" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>setDrawAsDiameter</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a9d010eee6ebeba6f84333799197d795f" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>setIsSpherical</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1acc3c7ed746c4ac45bb832eb4abf02120" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>setLocalCenter</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1ad3f29300a3cf183c01d88b2398f979bd" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>setLocalRadiusAsVector</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a081513917fb41062285958c17b385213" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>setLocalRadiusAsVector</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a5be60db33e04f50a12e04cdb21705bf8" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>setVisualLengthMultiplier</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a7047545b95b7b31ac712919f2413247b" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1ab5309127bc965134eeaeb640ac037c61" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1af26d310c4cc77b4a19347427313cfb7c" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1a0451927b627cd46a3c39240e734095e7" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1RadiusMeasurementObject_1ae02f20519ba91f58be69767f6e06f3c4" prot="public" virt="non-virtual"><scope>mrmeshpy::RadiusMeasurementObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

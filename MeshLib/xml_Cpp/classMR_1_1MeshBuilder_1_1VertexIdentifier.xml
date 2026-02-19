@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshBuilder_1_1VertexIdentifier" kind="class" language="C++" prot="public">
+    <compoundname>MR::MeshBuilder::VertexIdentifier</compoundname>
+    <includes refid="MRIdentifyVertices_8h" local="no">MRIdentifyVertices.h</includes>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1gabf81457ecb4749041d37e22ac5a9267b" kind="typedef"><name>VertInHMap</name></member>
+      <member refid="group__GeneralGroup_1ga6a194174e9880bf4cdec8da7458b8a29" kind="typedef"><name>HMap</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaeb14f09c9cf5f0dc4b79a5d06163a43c" kind="variable"><name>vertsInHMap_</name></member>
+      <member refid="group__GeneralGroup_1ga2dbc8f97579ed9310d17d07af07fa541" kind="variable"><name>hmap_</name></member>
+      <member refid="group__GeneralGroup_1ga7ac4a8bbe3ab426d093ac7d87dd3ce76" kind="variable"><name>t_</name></member>
+      <member refid="group__GeneralGroup_1ga2f62ff4b3532137f4e57ca966f9e1cb5" kind="variable"><name>points_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa4fad50a7e105fa74961ca6cc97e2818" kind="function"><name>reserve</name></member>
+      <member refid="group__GeneralGroup_1ga14d6f8f8c30e4503c535f588649b8c2b" kind="function"><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1gaa5e3191cd4ff080dc3f960e8763c0069" kind="function"><name>numTris</name></member>
+      <member refid="group__GeneralGroup_1ga2e2e54026ad94fbd2e7c0b98270a01e3" kind="function"><name>takeTriangulation</name></member>
+      <member refid="group__GeneralGroup_1gaa1211b739708344bd0dba3542ec58a27" kind="function"><name>takePoints</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>this class is responsible for giving a unique id to each vertex with distinct coordinates NOTE: the points are considered non-identical if they have the same values but have zero values with different signs (e.g. (0; 0; 1) and (-0; 0; 1)) use <computeroutput><ref refid="group__GeneralGroup_1ga08dc1dd8f81a858ba4f2a61519fd8add" kindref="member">Vector3::unsignZeroValues</ref></computeroutput> method to get rid of signed zero values if you&apos;re unsure of their absence </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIdentifyVertices.h" bodystart="36" bodyend="56"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga14d6f8f8c30e4503c535f588649b8c2b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>addTriangles</name></member>
+      <member refid="group__GeneralGroup_1ga6a194174e9880bf4cdec8da7458b8a29" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>HMap</name></member>
+      <member refid="group__GeneralGroup_1ga2dbc8f97579ed9310d17d07af07fa541" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>hmap_</name></member>
+      <member refid="group__GeneralGroup_1gaa5e3191cd4ff080dc3f960e8763c0069" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>numTris</name></member>
+      <member refid="group__GeneralGroup_1ga2f62ff4b3532137f4e57ca966f9e1cb5" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>points_</name></member>
+      <member refid="group__GeneralGroup_1gaa4fad50a7e105fa74961ca6cc97e2818" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>reserve</name></member>
+      <member refid="group__GeneralGroup_1ga7ac4a8bbe3ab426d093ac7d87dd3ce76" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>t_</name></member>
+      <member refid="group__GeneralGroup_1gaa1211b739708344bd0dba3542ec58a27" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takePoints</name></member>
+      <member refid="group__GeneralGroup_1ga2e2e54026ad94fbd2e7c0b98270a01e3" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>takeTriangulation</name></member>
+      <member refid="group__GeneralGroup_1gabf81457ecb4749041d37e22ac5a9267b" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>VertInHMap</name></member>
+      <member refid="group__GeneralGroup_1gaeb14f09c9cf5f0dc4b79a5d06163a43c" prot="private" virt="non-virtual"><scope>MR::MeshBuilder::VertexIdentifier</scope><name>vertsInHMap_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CommandLoop_1_1Command" kind="struct" language="C++" prot="private">
+    <compoundname>MR::CommandLoop::Command</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga495828361402419df380d32dc7480fed" kind="variable"><name>func</name></member>
+      <member refid="group__GeneralGroup_1ga739535ad2c8198dd5cdc5b804b4d20c2" kind="variable"><name>state</name></member>
+      <member refid="group__GeneralGroup_1ga96d0ef6ef458d983f1ba035f68ebf6d1" kind="variable"><name>callerThreadCV</name></member>
+      <member refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" kind="variable"><name>threadId</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" line="64" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h" bodystart="65" bodyend="70"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga96d0ef6ef458d983f1ba035f68ebf6d1" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>callerThreadCV</name></member>
+      <member refid="group__GeneralGroup_1ga495828361402419df380d32dc7480fed" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>func</name></member>
+      <member refid="group__GeneralGroup_1ga739535ad2c8198dd5cdc5b804b4d20c2" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>state</name></member>
+      <member refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" prot="public" virt="non-virtual"><scope>MR::CommandLoop::Command</scope><name>threadId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshLoadSettings</compoundname>
+    <includes refid="MRMeshLoadSettings_8h" local="no">MRMeshLoadSettings.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" kind="variable"><name>edges</name></member>
+      <member refid="group__GeneralGroup_1ga3d2dec2482a716804af51ed748ebcebc" kind="variable"><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga7dbfff2eb5c5cb545df805be2ba90d72" kind="variable"><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1ga230e016c84aafc3886deeb6fd2b33455" kind="variable"><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1gaeb2eb22ddf375f8cac7a36b6ec756c94" kind="variable"><name>normals</name></member>
+      <member refid="group__GeneralGroup_1gaea5bd8460c5fbf0c62840a46e0eb2011" kind="variable"><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga6fdcf8fdd76f70d7403ea886ed944019" kind="variable"><name>skippedFaceCount</name></member>
+      <member refid="group__GeneralGroup_1ga1fdd9db8e441e5ff1bcee3e9d4b664a7" kind="variable"><name>duplicatedVertexCount</name></member>
+      <member refid="group__GeneralGroup_1gae3778a9ff6574570228d2a4ae6b546c0" kind="variable"><name>xf</name></member>
+      <member refid="group__GeneralGroup_1ga60b5f4bc63d35b0ef8261da4de65917d" kind="variable"><name>callback</name></member>
+      <member refid="group__GeneralGroup_1gadf9210a3db4a2bdb4ccfb7e14f428246" kind="variable"><name>telemetrySignal</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>setting for mesh loading from external format, and locations of optional output data </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="1">
+        <label>MR::MeshLoadSettings</label>
+        <link refid="structMR_1_1MeshLoadSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshLoadSettings.h" bodystart="14" bodyend="26"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga60b5f4bc63d35b0ef8261da4de65917d" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga3d2dec2482a716804af51ed748ebcebc" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga1fdd9db8e441e5ff1bcee3e9d4b664a7" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>duplicatedVertexCount</name></member>
+      <member refid="group__GeneralGroup_1ga49a42dcc4e94c7c1824987b168d150b9" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>edges</name></member>
+      <member refid="group__GeneralGroup_1ga7dbfff2eb5c5cb545df805be2ba90d72" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1gaeb2eb22ddf375f8cac7a36b6ec756c94" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>normals</name></member>
+      <member refid="group__GeneralGroup_1ga6fdcf8fdd76f70d7403ea886ed944019" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>skippedFaceCount</name></member>
+      <member refid="group__GeneralGroup_1gadf9210a3db4a2bdb4ccfb7e14f428246" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>telemetrySignal</name></member>
+      <member refid="group__GeneralGroup_1gaea5bd8460c5fbf0c62840a46e0eb2011" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga230e016c84aafc3886deeb6fd2b33455" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1gae3778a9ff6574570228d2a4ae6b546c0" prot="public" virt="non-virtual"><scope>MR::MeshLoadSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

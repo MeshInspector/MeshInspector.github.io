@@ -1,10 +1,10 @@
 var group__MeshSaveGroup =
 [
-    [ "MR::MeshSave::BinaryStlSaver", "../Csharp/classMR_1_1MeshSave_1_1BinaryStlSaver.html", [
-      [ "BinaryStlSaver", "../Csharp/classMR_1_1MeshSave_1_1BinaryStlSaver.html#a7b4004d0c9cb75188128c7cdbfac7beb", null ],
-      [ "BinaryStlSaver", "../Csharp/classMR_1_1MeshSave_1_1BinaryStlSaver.html#afb1ae9e7eae84678ceb526d37b656e2f", null ],
-      [ "updateHeadCounter", "../Csharp/classMR_1_1MeshSave_1_1BinaryStlSaver.html#a7565913818af81d7c0a7ed534e3d883d", null ],
-      [ "writeTri", "../Csharp/classMR_1_1MeshSave_1_1BinaryStlSaver.html#a04b80283ae7292e086d073df47dee1b6", null ]
+    [ "MR::MeshSave::BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html", [
+      [ "BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#a8b13be4885e5257ed1d9da8dd8f89ade", null ],
+      [ "~BinaryStlSaver", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#a9b84e4f2ca3d6bc68c060051d858bbb7", null ],
+      [ "updateHeadCounter", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#a43fa5d1112624a0d82e4f10c1f88d3ec", null ],
+      [ "writeTri", "classMR_1_1MeshSave_1_1BinaryStlSaver.html#aecf57a5dbf8536ae33209046c0311c7a", null ]
     ] ],
     [ "MR::MeshSave::to3mf", "group__MeshSaveGroup.html#ga243e1f662be38defccfbb68793ca9f57", null ],
     [ "MR::MeshSave::toAnySupportedFormat", "group__MeshSaveGroup.html#ga6f98b4f73676fa32a7e3573939cb76b9", null ],

@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OutputFlows" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OutputFlows</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutputFlows_1aba11cb00f1ea5f21fbaca746a4d6c941" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutputFlows::_offsetof_amountGreaterThan</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_amountGreaterThan</name>
+        <qualifiedname>mrmeshpy.OutputFlows._offsetof_amountGreaterThan</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutputFlows_1afa349d44150663e2f17e96d849c828c6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutputFlows::_offsetof_pFlowPerEdge</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pFlowPerEdge</name>
+        <qualifiedname>mrmeshpy.OutputFlows._offsetof_pFlowPerEdge</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutputFlows_1a3c35f5aa5613cf054167751b7d5d1d4c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutputFlows::_offsetof_pPolyline</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pPolyline</name>
+        <qualifiedname>mrmeshpy.OutputFlows._offsetof_pPolyline</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42127" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1ab0dc63f0ccbf6ebd811e21cb86c9d4f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutputFlows.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutputFlows.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42130" bodyend="42131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1a8531eae3c42756f5a240099a9ba147ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutputFlows" kindref="compound">OutputFlows</ref></type>
+        <definition> OutputFlows mrmeshpy.OutputFlows.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OutputFlows.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42134" bodyend="42135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1a8531eae3c42756f5a240099a9ba147ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutputFlows" kindref="compound">OutputFlows</ref></type>
+        <definition> OutputFlows mrmeshpy.OutputFlows.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OutputFlows.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42138" bodyend="42139"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1af546890625b15c8ecfee5d0b9f5eaff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutputFlows.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutputFlows.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42141" bodyend="42142"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1a22e87687fbb3e5de2ad75f869be9e8aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutputFlows.__init__</definition>
+        <argsstring>(self, OutputFlows arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutputFlows.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutputFlows" kindref="compound">OutputFlows</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42144" bodyend="42147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1a4bd21b916e6bd22c03c2d65661880382" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutputFlows.__init__</definition>
+        <argsstring>(self, Polyline3 pPolyline, UndirectedEdgeScalars pFlowPerEdge, float amountGreaterThan)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutputFlows.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>pPolyline</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeScalars" kindref="compound">UndirectedEdgeScalars</ref></type>
+          <declname>pFlowPerEdge</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amountGreaterThan</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42149" bodyend="42152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1af9cb62f42e08d1ba264644d5be1a0419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.OutputFlows.amountGreaterThan</definition>
+        <argsstring>(self)</argsstring>
+        <name>amountGreaterThan</name>
+        <qualifiedname>mrmeshpy.OutputFlows.amountGreaterThan</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>output in outPolyline only the flows with the amount greater than
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42154" bodyend="42157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1ace2f16f0ac132143a667b5a2432643c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutputFlows.amountGreaterThan</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>amountGreaterThan</name>
+        <qualifiedname>mrmeshpy.OutputFlows.amountGreaterThan</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42159" bodyend="42160"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1a02ee88fb8f55f1aefd12913a4ebd1f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeScalars" kindref="compound">UndirectedEdgeScalars</ref></type>
+        <definition> UndirectedEdgeScalars mrmeshpy.OutputFlows.pFlowPerEdge</definition>
+        <argsstring>(self)</argsstring>
+        <name>pFlowPerEdge</name>
+        <qualifiedname>mrmeshpy.OutputFlows.pFlowPerEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: flow in each line of outPolyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42162" bodyend="42165"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1a08355fc3456119f6cc988697f7575c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutputFlows.pFlowPerEdge</definition>
+        <argsstring>(self, UndirectedEdgeScalars arg1)</argsstring>
+        <name>pFlowPerEdge</name>
+        <qualifiedname>mrmeshpy.OutputFlows.pFlowPerEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeScalars" kindref="compound">UndirectedEdgeScalars</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42167" bodyend="42168"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1a856c69ae90b85d9249a118211644229c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+        <definition> Polyline3 mrmeshpy.OutputFlows.pPolyline</definition>
+        <argsstring>(self)</argsstring>
+        <name>pPolyline</name>
+        <qualifiedname>mrmeshpy.OutputFlows.pPolyline</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: lines of all flows
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42170" bodyend="42173"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutputFlows_1aff7a8301d5119967d6456d699abcb5a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutputFlows.pPolyline</definition>
+        <argsstring>(self, Polyline3 arg1)</argsstring>
+        <name>pPolyline</name>
+        <qualifiedname>mrmeshpy.OutputFlows.pPolyline</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42175" bodyend="42176"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OutputFlows
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OutputFlows</label>
+        <link refid="classmrmeshpy_1_1OutputFlows"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_amountGreaterThan</edgelabel>
+          <edgelabel>_offsetof_pFlowPerEdge</edgelabel>
+          <edgelabel>_offsetof_pPolyline</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42121" bodyend="42176"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OutputFlows_1ab0dc63f0ccbf6ebd811e21cb86c9d4f9" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1af546890625b15c8ecfee5d0b9f5eaff3" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1a22e87687fbb3e5de2ad75f869be9e8aa" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1a4bd21b916e6bd22c03c2d65661880382" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1aba11cb00f1ea5f21fbaca746a4d6c941" prot="protected" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>_offsetof_amountGreaterThan</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1afa349d44150663e2f17e96d849c828c6" prot="protected" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>_offsetof_pFlowPerEdge</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1a3c35f5aa5613cf054167751b7d5d1d4c" prot="protected" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>_offsetof_pPolyline</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1af9cb62f42e08d1ba264644d5be1a0419" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>amountGreaterThan</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1ace2f16f0ac132143a667b5a2432643c1" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>amountGreaterThan</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1a8531eae3c42756f5a240099a9ba147ec" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1a8531eae3c42756f5a240099a9ba147ec" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1a02ee88fb8f55f1aefd12913a4ebd1f65" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>pFlowPerEdge</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1a08355fc3456119f6cc988697f7575c19" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>pFlowPerEdge</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1a856c69ae90b85d9249a118211644229c" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>pPolyline</name></member>
+      <member refid="classmrmeshpy_1_1OutputFlows_1aff7a8301d5119967d6456d699abcb5a1" prot="public" virt="non-virtual"><scope>mrmeshpy::OutputFlows</scope><name>pPolyline</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

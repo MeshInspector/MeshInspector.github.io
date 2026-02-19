@@ -1,4 +1,0 @@
-var classMR_1_1Std_1_1Const__Vector__MROffsetContoursOrigins_1_1__InOptConst__ConstIterator =
-[
-    [ "operator _InOptConst_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MROffsetContoursOrigins_1_1__InOptConst__ConstIterator.html#aa60ed952948fecaad17302678fc157d1", null ]
-];

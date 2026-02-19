@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SkyPatch" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SkyPatch</compoundname>
+    <includes refid="MRSolarRadiation_8h" local="no">MRSolarRadiation.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab2ea86c9173f3228c1adec10b4b8c48a" kind="variable"><name>dir</name></member>
+      <member refid="group__GeneralGroup_1ga511b8b1d8245fb415755ea6881577867" kind="variable"><name>radiation</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>this class represents a portion of the sky, and its radiation </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSolarRadiation.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSolarRadiation.h" bodystart="17" bodyend="22"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab2ea86c9173f3228c1adec10b4b8c48a" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>dir</name></member>
+      <member refid="group__GeneralGroup_1ga511b8b1d8245fb415755ea6881577867" prot="public" virt="non-virtual"><scope>MR::SkyPatch</scope><name>radiation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

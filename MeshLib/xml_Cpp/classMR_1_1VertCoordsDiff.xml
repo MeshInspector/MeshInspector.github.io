@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VertCoordsDiff" kind="class" language="C++" prot="public">
+    <compoundname>MR::VertCoordsDiff</compoundname>
+    <includes refid="MRVertCoordsDiff_8h" local="no">MRVertCoordsDiff.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gadb23bddb4886131109da4625a8f4fc49" kind="variable"><name>toPointsSize_</name></member>
+      <member refid="group__GeneralGroup_1gaaa74de1f0ea8b101a368ab46e93136b4" kind="variable"><name>changedPoints_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gafa80c539d783f275a194ae8f5202647e" kind="function"><name>VertCoordsDiff</name></member>
+      <member refid="group__GeneralGroup_1gab6cb02c630ddd3015cb11dde6673f889" kind="function"><name>VertCoordsDiff</name></member>
+      <member refid="group__GeneralGroup_1gacd8d214b41c3bbf6d29b72f1a3d03e2b" kind="function"><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1ga5f175f350625d742580210d6aeda32e8" kind="function"><name>any</name></member>
+      <member refid="group__GeneralGroup_1ga91f5877a46b424d1a68ecb23025a2a27" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>this object stores a difference between two vectors with 3D coordinates</para>
+<para>if the vectors are similar then this object is small, if the vectors are very distinct then this object will be even larger than one vector itself </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVertCoordsDiff.h" bodystart="15" bodyend="38"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga5f175f350625d742580210d6aeda32e8" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>any</name></member>
+      <member refid="group__GeneralGroup_1gacd8d214b41c3bbf6d29b72f1a3d03e2b" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>applyAndSwap</name></member>
+      <member refid="group__GeneralGroup_1gaaa74de1f0ea8b101a368ab46e93136b4" prot="private" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>changedPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga91f5877a46b424d1a68ecb23025a2a27" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gadb23bddb4886131109da4625a8f4fc49" prot="private" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>toPointsSize_</name></member>
+      <member refid="group__GeneralGroup_1gafa80c539d783f275a194ae8f5202647e" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>VertCoordsDiff</name></member>
+      <member refid="group__GeneralGroup_1gab6cb02c630ddd3015cb11dde6673f889" prot="public" virt="non-virtual"><scope>MR::VertCoordsDiff</scope><name>VertCoordsDiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

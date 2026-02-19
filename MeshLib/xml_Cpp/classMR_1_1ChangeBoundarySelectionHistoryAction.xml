@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeBoundarySelectionHistoryAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeBoundarySelectionHistoryAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRMeshBoundarySelectionWidget_8h" local="no">MRMeshBoundarySelectionWidget.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaeab5e009a950591d4004c74d8a38b2d1" kind="variable"><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga5780218115e938759c21ee8472c84ae2" kind="variable"><name>widget_</name></member>
+      <member refid="group__GeneralGroup_1ga964349d34d1fa3b4003c62f031195e8a" kind="variable"><name>prevSelectedHoleObject_</name></member>
+      <member refid="group__GeneralGroup_1gaea0d4d195b739777c19523bb91780ba0" kind="variable"><name>nextSelectedHoleObject_</name></member>
+      <member refid="group__GeneralGroup_1gae26b3535b72d82fa01ecff56b0eb3f0e" kind="variable"><name>prevSelectedHoleIndex_</name></member>
+      <member refid="group__GeneralGroup_1ga2a13c46ae8b35f24e4d21f52b9015143" kind="variable"><name>nextSelectedHoleIndex_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gab6b0066b48e0db5030ebf1cdeeec5d4f" kind="function"><name>ChangeBoundarySelectionHistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga87cb69e6e43f31608ba18d1577ce6303" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga7d6c878105bdd69d6bbb3524c5fc8243" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gafaf2a1dbc8066a04913ea855a9488ca1" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeBoundarySelectionHistoryAction</label>
+        <link refid="classMR_1_1ChangeBoundarySelectionHistoryAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeBoundarySelectionHistoryAction</label>
+        <link refid="classMR_1_1ChangeBoundarySelectionHistoryAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" line="145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshBoundarySelectionWidget.h" bodystart="146" bodyend="165"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7d6c878105bdd69d6bbb3524c5fc8243" prot="public" virt="virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gab6b0066b48e0db5030ebf1cdeeec5d4f" prot="public" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>ChangeBoundarySelectionHistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gafaf2a1dbc8066a04913ea855a9488ca1" prot="public" virt="virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga87cb69e6e43f31608ba18d1577ce6303" prot="public" virt="virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaeab5e009a950591d4004c74d8a38b2d1" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga2a13c46ae8b35f24e4d21f52b9015143" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>nextSelectedHoleIndex_</name></member>
+      <member refid="group__GeneralGroup_1gaea0d4d195b739777c19523bb91780ba0" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>nextSelectedHoleObject_</name></member>
+      <member refid="group__GeneralGroup_1gae26b3535b72d82fa01ecff56b0eb3f0e" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>prevSelectedHoleIndex_</name></member>
+      <member refid="group__GeneralGroup_1ga964349d34d1fa3b4003c62f031195e8a" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>prevSelectedHoleObject_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga5780218115e938759c21ee8472c84ae2" prot="private" virt="non-virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>widget_</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeBoundarySelectionHistoryAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -146,23 +146,40 @@ $(function(){initNavTree('classMR_1_1Features_1_1Primitives.html',''); initResiz
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
-<a href="classMR_1_1Features_1_1Primitives-members.html">List of all members</a>  </div>
+<a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle"><div class="title">MR.Features.Primitives Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a37df2f34cbcd3fec213859b3ca57d3b6" id="r_a37df2f34cbcd3fec213859b3ca57d3b6"><td class="memItemLeft" align="right" valign="top"><a id="a37df2f34cbcd3fec213859b3ca57d3b6" name="a37df2f34cbcd3fec213859b3ca57d3b6"></a>
-typedef Sphere3&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1Features_1_1Primitives.html#a37df2f34cbcd3fec213859b3ca57d3b6">Sphere</a></td></tr>
-<tr class="separator:a37df2f34cbcd3fec213859b3ca57d3b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a955a7f843d9b5df0f393ec7699ada624" id="r_a955a7f843d9b5df0f393ec7699ada624"><td class="memItemLeft" align="right" valign="top"><a id="a955a7f843d9b5df0f393ec7699ada624" name="a955a7f843d9b5df0f393ec7699ada624"></a>
-typedef std::variant&lt; <a class="elRef" href="../Cpp/namespaceMR_1_1Features_1_1Primitives.html#a37df2f34cbcd3fec213859b3ca57d3b6">Sphere</a>, ConeSegment, Plane &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1Features_1_1Primitives.html#a955a7f843d9b5df0f393ec7699ada624">Variant</a></td></tr>
-<tr class="separator:a955a7f843d9b5df0f393ec7699ada624"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptConst_ConeSegment</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1Features_1_1Primitives_1_1ConeSegment.html" title="Can have infinite length in one or two directions. The top and/or bottom can be flat or pointy....">ConeSegment</a></code> with default arguments. This is only used const parameters. For non-const ones we have <code>_InOptMut_ConeSegment</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptConst_Plane</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1Features_1_1Primitives_1_1Plane.html" title="Generated from class MR.Features.Primitives.Plane. This is the non-const half of the class.">Plane</a></code> with default arguments. This is only used const parameters. For non-const ones we have <code>_InOptMut_Plane</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptMut_ConeSegment</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1Features_1_1Primitives_1_1ConeSegment.html" title="Can have infinite length in one or two directions. The top and/or bottom can be flat or pointy....">ConeSegment</a></code> with default arguments. This is only used mutable parameters. For const ones we have <code>_InOptConst_ConeSegment</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptMut_Plane</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1Features_1_1Primitives_1_1Plane.html" title="Generated from class MR.Features.Primitives.Plane. This is the non-const half of the class.">Plane</a></code> with default arguments. This is only used mutable parameters. For const ones we have <code>_InOptConst_Plane</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Features_1_1Primitives_1_1ConeSegment.html">ConeSegment</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can have infinite length in one or two directions. The top and/or bottom can be flat or pointy. Doubles as a cylinder, line (finite or infinite), and a circle. Generated from class <code><a class="el" href="classMR_1_1Features_1_1Primitives_1_1ConeSegment.html" title="Can have infinite length in one or two directions. The top and/or bottom can be flat or pointy....">MR.Features.Primitives.ConeSegment</a></code>. This is the non-const half of the class.  <a href="classMR_1_1Features_1_1Primitives_1_1ConeSegment.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>Const_ConeSegment</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Can have infinite length in one or two directions. The top and/or bottom can be flat or pointy. Doubles as a cylinder, line (finite or infinite), and a circle. Generated from class <code><a class="el" href="classMR_1_1Features_1_1Primitives_1_1ConeSegment.html" title="Can have infinite length in one or two directions. The top and/or bottom can be flat or pointy....">MR.Features.Primitives.ConeSegment</a></code>. This is the const half of the class. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>Const_Plane</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="el" href="classMR_1_1Features_1_1Primitives_1_1Plane.html" title="Generated from class MR.Features.Primitives.Plane. This is the non-const half of the class.">MR.Features.Primitives.Plane</a></code>. This is the const half of the class. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Features_1_1Primitives_1_1Plane.html">Plane</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="el" href="classMR_1_1Features_1_1Primitives_1_1Plane.html" title="Generated from class MR.Features.Primitives.Plane. This is the non-const half of the class.">MR.Features.Primitives.Plane</a></code>. This is the non-const half of the class.  <a href="classMR_1_1Features_1_1Primitives_1_1Plane.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li><b>MRFeatures.cs</b></li>
+<li><a class="el" href="MRFeatures_8cs.html">MRFeatures.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -170,7 +187,7 @@ typedef std::variant&lt; <a class="elRef" href="../Cpp/namespaceMR_1_1Features_1
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><b>Features</b></li><li class="navelem"><a class="el" href="classMR_1_1Features_1_1Primitives.html">Primitives</a></li>
+    <li class="navelem"><a class="el" href="classMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1Features.html">Features</a></li><li class="navelem"><a class="el" href="classMR_1_1Features_1_1Primitives.html">Primitives</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

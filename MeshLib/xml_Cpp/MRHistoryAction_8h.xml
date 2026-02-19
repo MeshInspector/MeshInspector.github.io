@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRHistoryAction_8h" kind="file" language="C++">
+    <compoundname>MRHistoryAction.h</compoundname>
+    <includes local="yes">MRMeshFwd.h</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">string</includes>
+    <includedby refid="MRAppendHistory_8h" local="no">MRAppendHistory.h</includedby>
+    <includedby refid="MRChangeColoringActions_8h" local="yes">MRChangeColoringActions.h</includedby>
+    <includedby refid="MRChangeColoringType_8h" local="yes">MRChangeColoringType.h</includedby>
+    <includedby refid="MRChangeLabelAction_8h" local="yes">MRChangeLabelAction.h</includedby>
+    <includedby refid="MRChangeMeshAction_8h" local="yes">MRChangeMeshAction.h</includedby>
+    <includedby refid="MRChangeNameAction_8h" local="yes">MRChangeNameAction.h</includedby>
+    <includedby refid="MRChangeObjectAction_8h" local="yes">MRChangeObjectAction.h</includedby>
+    <includedby refid="MRChangeObjectFields_8h" local="yes">MRChangeObjectFields.h</includedby>
+    <includedby refid="MRChangePointCloudAction_8h" local="yes">MRChangePointCloudAction.h</includedby>
+    <includedby refid="MRChangePointCloudNormalsAction_8h" local="yes">MRChangePointCloudNormalsAction.h</includedby>
+    <includedby refid="MRChangePolylineAction_8h" local="yes">MRChangePolylineAction.h</includedby>
+    <includedby refid="MRChangeScaleAction_8h" local="yes">MRChangeScaleAction.h</includedby>
+    <includedby refid="MRChangeSceneAction_8h" local="yes">MRChangeSceneAction.h</includedby>
+    <includedby refid="MRChangeSceneObjectsOrder_8h" local="yes">MRChangeSceneObjectsOrder.h</includedby>
+    <includedby refid="MRChangeSelectionAction_8h" local="yes">MRChangeSelectionAction.h</includedby>
+    <includedby refid="MRChangeValue_8h" local="yes">MRChangeValue.h</includedby>
+    <includedby refid="MRChangeVertsColorMapAction_8h" local="yes">MRChangeVertsColorMapAction.h</includedby>
+    <includedby refid="MRChangeVoxelSelectionAction_8h" local="yes">MRChangeVoxelSelectionAction.h</includedby>
+    <includedby refid="MRChangeVoxelsAction_8h" local="yes">MRChangeVoxelsAction.h</includedby>
+    <includedby refid="MRChangeXfAction_8h" local="yes">MRChangeXfAction.h</includedby>
+    <includedby refid="MRCombinedHistoryAction_8h" local="yes">MRCombinedHistoryAction.h</includedby>
+    <includedby refid="MRHistoryStore_8h" local="yes">MRHistoryStore.h</includedby>
+    <includedby refid="MRObjectTransformWidget_8h" local="yes">MRObjectTransformWidget.h</includedby>
+    <includedby refid="MRPartialChangeMeshAction_8h" local="yes">MRPartialChangeMeshAction.h</includedby>
+    <includedby refid="MRSwapRootAction_8h" local="yes">MRSwapRootAction.h</includedby>
+    <includedby refid="MRViewportParametersAction_8h" local="no">MRViewportParametersAction.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MRHistoryAction.h</label>
+        <link refid="MRHistoryAction_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="3">
+        <label>functional</label>
+      </node>
+      <node id="4">
+        <label>string</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="28">
+        <label>MRSceneControlMenuItems.h</label>
+        <link refid="MRCommonPlugins_2ViewerButtons_2MRSceneControlMenuItems_8h"/>
+      </node>
+      <node id="3">
+        <label>MRChangeColoringActions.h</label>
+        <link refid="MRChangeColoringActions_8h"/>
+      </node>
+      <node id="4">
+        <label>MRChangeColoringType.h</label>
+        <link refid="MRChangeColoringType_8h"/>
+      </node>
+      <node id="6">
+        <label>MRChangeMeshAction.h</label>
+        <link refid="MRChangeMeshAction_8h"/>
+      </node>
+      <node id="24">
+        <label>MRChangeMeshDataAction.h</label>
+        <link refid="MRChangeMeshDataAction_8h"/>
+      </node>
+      <node id="7">
+        <label>MRChangeNameAction.h</label>
+        <link refid="MRChangeNameAction_8h"/>
+      </node>
+      <node id="8">
+        <label>MRChangeObjectAction.h</label>
+        <link refid="MRChangeObjectAction_8h"/>
+      </node>
+      <node id="9">
+        <label>MRChangeObjectFields.h</label>
+        <link refid="MRChangeObjectFields_8h"/>
+      </node>
+      <node id="10">
+        <label>MRChangePointCloudAction.h</label>
+        <link refid="MRChangePointCloudAction_8h"/>
+      </node>
+      <node id="11">
+        <label>MRChangePointCloudNormalsAction.h</label>
+        <link refid="MRChangePointCloudNormalsAction_8h"/>
+      </node>
+      <node id="12">
+        <label>MRChangePolylineAction.h</label>
+        <link refid="MRChangePolylineAction_8h"/>
+      </node>
+      <node id="13">
+        <label>MRChangeScaleAction.h</label>
+        <link refid="MRChangeScaleAction_8h"/>
+      </node>
+      <node id="14">
+        <label>MRChangeSceneAction.h</label>
+        <link refid="MRChangeSceneAction_8h"/>
+      </node>
+      <node id="15">
+        <label>MRChangeSceneObjectsOrder.h</label>
+        <link refid="MRChangeSceneObjectsOrder_8h"/>
+      </node>
+      <node id="16">
+        <label>MRChangeSelectionAction.h</label>
+        <link refid="MRChangeSelectionAction_8h"/>
+      </node>
+      <node id="17">
+        <label>MRChangeValue.h</label>
+        <link refid="MRChangeValue_8h"/>
+      </node>
+      <node id="18">
+        <label>MRChangeVertsColorMapAction.h</label>
+        <link refid="MRChangeVertsColorMapAction_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRChangeXfAction.h</label>
+        <link refid="MRChangeXfAction_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MRCombinedHistoryAction.h</label>
+        <link refid="MRCombinedHistoryAction_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRHistoryAction.h</label>
+        <link refid="MRHistoryAction_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MRPartialChangeMeshAction.h</label>
+        <link refid="MRPartialChangeMeshAction_8h"/>
+      </node>
+      <node id="5">
+        <label>MRChangeLabelAction.h</label>
+        <link refid="MRChangeLabelAction_8h"/>
+      </node>
+      <node id="2">
+        <label>MRAppendHistory.h</label>
+        <link refid="MRAppendHistory_8h"/>
+      </node>
+      <node id="22">
+        <label>MRDirectionWidget.h</label>
+        <link refid="MRDirectionWidget_8h"/>
+      </node>
+      <node id="25">
+        <label>MRHistoryStore.h</label>
+        <link refid="MRHistoryStore_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MRMeshBoundarySelectionWidget.h</label>
+        <link refid="MRMeshBoundarySelectionWidget_8h"/>
+      </node>
+      <node id="30">
+        <label>MRObjectTransformWidget.h</label>
+        <link refid="MRObjectTransformWidget_8h"/>
+      </node>
+      <node id="27">
+        <label>MRPickPointManager.h</label>
+        <link refid="MRPickPointManager_8h"/>
+      </node>
+      <node id="29">
+        <label>MRSceneControlMenuItems.h</label>
+        <link refid="MRViewer_2MRSceneControlMenuItems_8h"/>
+      </node>
+      <node id="32">
+        <label>MRSwapRootAction.h</label>
+        <link refid="MRSwapRootAction_8h"/>
+      </node>
+      <node id="33">
+        <label>MRViewportParametersAction.h</label>
+        <link refid="MRViewportParametersAction_8h"/>
+      </node>
+      <node id="19">
+        <label>MRChangeVoxelSelectionAction.h</label>
+        <link refid="MRChangeVoxelSelectionAction_8h"/>
+      </node>
+      <node id="20">
+        <label>MRChangeVoxelsAction.h</label>
+        <link refid="MRChangeVoxelsAction_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMR_1_1HistoryAction" prot="public">MR::HistoryAction</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1HistoryAction" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="17" refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" kindref="member">~HistoryAction</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce" kindref="member">name</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">Type</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119" kindref="member">Undo</ref>,</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ggac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6" kindref="member">Redo</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb" kindref="member">action</ref>(<sp/><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">Type</ref><sp/>actionType<sp/>)<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de" kindref="member">heapBytes</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kindref="member">HistoryStackFilter</ref><sp/>=<sp/>std::function&lt;bool(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::shared_ptr&lt;HistoryAction&gt;&amp;<sp/>)&gt;;</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref><sp/>=<sp/>std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="group__GeneralGroup_1gabde0e5a6e5cf5e3e9648a38740dd9804" refkind="member"><highlight class="normal">MRMESH_API<sp/>std::pair&lt;bool,<sp/>int&gt;<sp/><ref refid="group__GeneralGroup_1gabde0e5a6e5cf5e3e9648a38740dd9804" kindref="member">filterHistoryActionsVector</ref>(<sp/><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref>&amp;<sp/>historyVector,</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kindref="member">HistoryStackFilter</ref><sp/>filteringCondition,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>firstRedoIndex<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>deepFiltering<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h"/>
+  </compounddef>
+</doxygen>

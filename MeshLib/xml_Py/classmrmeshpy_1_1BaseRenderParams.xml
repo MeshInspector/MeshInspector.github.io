@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BaseRenderParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BaseRenderParams</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1ModelBaseRenderParams" prot="public" virt="non-virtual">mrmeshpy.ModelBaseRenderParams</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1UiRenderParams" prot="public" virt="non-virtual">mrmeshpy.UiRenderParams</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BaseRenderParams_1af7997e808b6568af2a49c55a235c3857" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BaseRenderParams::_offsetof_projMatrix</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_projMatrix</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams._offsetof_projMatrix</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2508" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BaseRenderParams_1ac31eb9426e51e8bdf9345f89b6011c35" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BaseRenderParams::_offsetof_viewMatrix</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_viewMatrix</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams._offsetof_viewMatrix</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BaseRenderParams_1a568dec1e206b4f44ccdc0aa769c26fc4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BaseRenderParams::_offsetof_viewport</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_viewport</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams._offsetof_viewport</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2510" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BaseRenderParams_1a640000a5d2d184e97188790f3ec5c3d2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BaseRenderParams::_offsetof_viewportId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_viewportId</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams._offsetof_viewportId</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2511" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseRenderParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1a999864f6a58fafd7a98ffbb4b122bffa">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1ae533bf8ecb374ac7d9dbdfd867553db2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1a7a4b085ddcea2ecb7630fc93037e91e6">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2514" bodyend="2515"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseRenderParams_1a8b8cddc25c93c7224167d107b23ba511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseRenderParams.__init__</definition>
+        <argsstring>(self, BaseRenderParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1a999864f6a58fafd7a98ffbb4b122bffa">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1ae533bf8ecb374ac7d9dbdfd867553db2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1a7a4b085ddcea2ecb7630fc93037e91e6">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BaseRenderParams" kindref="compound">BaseRenderParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2517" bodyend="2520"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseRenderParams_1a9f51be4c8559c7ea0fbd9a82af48ba01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseRenderParams.__init__</definition>
+        <argsstring>(self, Matrix4f viewMatrix, Matrix4f projMatrix, ViewportId viewportId, Vector4i viewport)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1abddf105506057ff3c27bafbb9578d93c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelBaseRenderParams_1a999864f6a58fafd7a98ffbb4b122bffa">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1a2b7734995407ac6f20d01446e50012ee">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ModelRenderParams_1aaf30e04f51f3ccc4ce105d68db95719f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1ae533bf8ecb374ac7d9dbdfd867553db2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1UiRenderParams_1a7a4b085ddcea2ecb7630fc93037e91e6">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix4f" kindref="compound">Matrix4f</ref></type>
+          <declname>viewMatrix</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix4f" kindref="compound">Matrix4f</ref></type>
+          <declname>projMatrix</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2522" bodyend="2525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseRenderParams_1a66148c04dc295e2bdf7b7b622bf44ff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix4f" kindref="compound">Matrix4f</ref></type>
+        <definition> Matrix4f mrmeshpy.BaseRenderParams.projMatrix</definition>
+        <argsstring>(self)</argsstring>
+        <name>projMatrix</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams.projMatrix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2527" bodyend="2528"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseRenderParams_1a06a24f78b01ee76af109eec7fdd8a6e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix4f" kindref="compound">Matrix4f</ref></type>
+        <definition> Matrix4f mrmeshpy.BaseRenderParams.viewMatrix</definition>
+        <argsstring>(self)</argsstring>
+        <name>viewMatrix</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams.viewMatrix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2530" bodyend="2531"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseRenderParams_1a3151a01c38d5c2e60e7030dc94614922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+        <definition> Vector4i mrmeshpy.BaseRenderParams.viewport</definition>
+        <argsstring>(self)</argsstring>
+        <name>viewport</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams.viewport</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>viewport x0, y0, width, height
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2533" bodyend="2536"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseRenderParams_1a6d55411a0fd13023b9bb7f1c0af1de4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseRenderParams.viewport</definition>
+        <argsstring>(self, Vector4i arg1)</argsstring>
+        <name>viewport</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams.viewport</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2538" bodyend="2539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseRenderParams_1af45fd7caab5cc62075d65f1168bd1300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+        <definition> ViewportId mrmeshpy.BaseRenderParams.viewportId</definition>
+        <argsstring>(self)</argsstring>
+        <name>viewportId</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams.viewportId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>id of the viewport
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2541" bodyend="2544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseRenderParams_1a44585bc0b0c20ddbf9fb174fe454473c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseRenderParams.viewportId</definition>
+        <argsstring>(self, ViewportId arg1)</argsstring>
+        <name>viewportId</name>
+        <qualifiedname>mrmeshpy.BaseRenderParams.viewportId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2546" bodyend="2547"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BaseRenderParams
+
+Common rendering parameters for meshes and UI.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.BaseRenderParams</label>
+        <link refid="classmrmeshpy_1_1BaseRenderParams"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.ModelBaseRenderParams</label>
+        <link refid="classmrmeshpy_1_1ModelBaseRenderParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.ModelRenderParams</label>
+        <link refid="classmrmeshpy_1_1ModelRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.UiRenderParams</label>
+        <link refid="classmrmeshpy_1_1UiRenderParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BaseRenderParams</label>
+        <link refid="classmrmeshpy_1_1BaseRenderParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_projMatrix</edgelabel>
+          <edgelabel>_offsetof_viewMatrix</edgelabel>
+          <edgelabel>_offsetof_viewport</edgelabel>
+          <edgelabel>_offsetof_viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2502" bodyend="2547"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a3a9c45fbddb33998f5c5f967807197d9" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a8b8cddc25c93c7224167d107b23ba511" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a9f51be4c8559c7ea0fbd9a82af48ba01" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1af7997e808b6568af2a49c55a235c3857" prot="protected" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>_offsetof_projMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1ac31eb9426e51e8bdf9345f89b6011c35" prot="protected" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>_offsetof_viewMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a568dec1e206b4f44ccdc0aa769c26fc4" prot="protected" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>_offsetof_viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a640000a5d2d184e97188790f3ec5c3d2" prot="protected" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>_offsetof_viewportId</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a66148c04dc295e2bdf7b7b622bf44ff2" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>projMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a06a24f78b01ee76af109eec7fdd8a6e6" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a3151a01c38d5c2e60e7030dc94614922" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a6d55411a0fd13023b9bb7f1c0af1de4d" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>viewport</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1af45fd7caab5cc62075d65f1168bd1300" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>viewportId</name></member>
+      <member refid="classmrmeshpy_1_1BaseRenderParams_1a44585bc0b0c20ddbf9fb174fe454473c" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseRenderParams</scope><name>viewportId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -6,9 +6,14 @@ var classMR_1_1ConstBox__Vector3b =
     [ "ConstBox_Vector3b", "classMR_1_1ConstBox__Vector3b.html#a25bf81d6b3336c5210a1061efc0f73c1", null ],
     [ "ConstBox_Vector3b", "classMR_1_1ConstBox__Vector3b.html#ace5460470ef847070dea7cd73d33422f", null ],
     [ "diagonal", "classMR_1_1ConstBox__Vector3b.html#aa8b8378bf1f623b86fb6118560765f94", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Vector3b.html#a873d62c3196bbcccb4f71aa24f1a2c34", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Vector3b.html#ab4329bc7d20311f9182f05edcd777578", null ],
+    [ "Equals", "classMR_1_1ConstBox__Vector3b.html#adbd8bb9e2c37b2bebbd66ab3b9195aa3", null ],
+    [ "Equals", "classMR_1_1ConstBox__Vector3b.html#a52e8ca82139197ecb2869b094f244258", null ],
     [ "length", "classMR_1_1ConstBox__Vector3b.html#a5c6eceb861400b65c88aa749c272f66b", null ],
     [ "lengthSq", "classMR_1_1ConstBox__Vector3b.html#a47f633d52879a7391dae4db5760766f8", null ],
     [ "operator ConstBox_Vector3b", "classMR_1_1ConstBox__Vector3b.html#ae4b7e79b3797084da4abe0951185cda0", null ],
+    [ "operator!=", "classMR_1_1ConstBox__Vector3b.html#a379bac31bac782adb14cb138d45e8abb", null ],
     [ "operator*", "classMR_1_1ConstBox__Vector3b.html#a2e9e58eeebbe9a160e135e58b26a61b0", null ],
     [ "operator*", "classMR_1_1ConstBox__Vector3b.html#a6f141b000b1eb30b2e9c31522b75c385", null ],
     [ "operator+", "classMR_1_1ConstBox__Vector3b.html#afa226388ee4bc4166dcccd054db9ee5c", null ],
@@ -20,6 +25,10 @@ var classMR_1_1ConstBox__Vector3b =
     [ "plusX", "classMR_1_1ConstBox__Vector3b.html#a2f078ad2f8040916c698b8f65f37181f", null ],
     [ "plusY", "classMR_1_1ConstBox__Vector3b.html#a04aff28e4d644a1bc756ee2e03f021cd", null ],
     [ "plusZ", "classMR_1_1ConstBox__Vector3b.html#a4c2e564022f380baa4dedecce0aae090", null ],
-    [ "_Ref", "classMR_1_1ConstBox__Vector3b.html#a240bd457bc51017d94ce4d9068edc679", null ],
-    [ "this[int e]", "classMR_1_1ConstBox__Vector3b.html#a626a37baf54a1c101cb9cdb87caa8b39", null ]
+    [ "__ref_storage_Elements", "classMR_1_1ConstBox__Vector3b.html#abd882c62a795a3bf1ccc881aed8fb19d", null ],
+    [ "Elements", "classMR_1_1ConstBox__Vector3b.html#a43fb36179f675e35199db88cc51a34b8", null ],
+    [ "this[int e]", "classMR_1_1ConstBox__Vector3b.html#a626a37baf54a1c101cb9cdb87caa8b39", null ],
+    [ "x", "classMR_1_1ConstBox__Vector3b.html#a2eb26eb8ceb32ab7e1812dbf3f9000be", null ],
+    [ "y", "classMR_1_1ConstBox__Vector3b.html#aec2cbd41debdd6a14668a552a20846fc", null ],
+    [ "z", "classMR_1_1ConstBox__Vector3b.html#aca7cf1ad1a669bce01b2c3807516ff80", null ]
 ];

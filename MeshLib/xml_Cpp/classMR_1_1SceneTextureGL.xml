@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneTextureGL" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneTextureGL</compoundname>
+    <includes refid="MRSceneTextureGL_8h" local="no">MRSceneTextureGL.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga88afc12b62f09fe49e1b2ee38e75d398" kind="variable"><name>fd_</name></member>
+      <member refid="group__GeneralGroup_1gaa8ce07dded0be50374ce3906aebccb92" kind="variable"><name>qt_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaf29aa94c5d0f28fabf5baa5aeefd075e" kind="function"><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga980051db961ed739c8b5ef5a4a470058" kind="function"><name>unbind</name></member>
+      <member refid="group__GeneralGroup_1ga7c04619df20d551fd4e79257bcf83a31" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga81ce2688f5c1199861bcbd627db71b78" kind="function"><name>copyTexture</name></member>
+      <member refid="group__GeneralGroup_1gad3c55cbc78f657dbba1f5ce06e0183b4" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1gafada1d5c821061119918954bebf336b7" kind="function"><name>isBound</name></member>
+      <member refid="group__GeneralGroup_1ga836d98d945612682a4e3d1b6455cf766" kind="function"><name>getFramebuffer</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Class for rendering 3d scene into texture. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneTextureGL.h" bodystart="11" bodyend="33"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf29aa94c5d0f28fabf5baa5aeefd075e" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga81ce2688f5c1199861bcbd627db71b78" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>copyTexture</name></member>
+      <member refid="group__GeneralGroup_1gad3c55cbc78f657dbba1f5ce06e0183b4" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga88afc12b62f09fe49e1b2ee38e75d398" prot="private" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>fd_</name></member>
+      <member refid="group__GeneralGroup_1ga836d98d945612682a4e3d1b6455cf766" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>getFramebuffer</name></member>
+      <member refid="group__GeneralGroup_1gafada1d5c821061119918954bebf336b7" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>isBound</name></member>
+      <member refid="group__GeneralGroup_1gaa8ce07dded0be50374ce3906aebccb92" prot="private" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>qt_</name></member>
+      <member refid="group__GeneralGroup_1ga7c04619df20d551fd4e79257bcf83a31" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga980051db961ed739c8b5ef5a4a470058" prot="public" virt="non-virtual"><scope>MR::SceneTextureGL</scope><name>unbind</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

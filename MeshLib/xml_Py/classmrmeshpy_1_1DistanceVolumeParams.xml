@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DistanceVolumeParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DistanceVolumeParams</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1PointsToDistanceVolumeParams" prot="public" virt="non-virtual">mrmeshpy.PointsToDistanceVolumeParams</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceVolumeParams_1a5ac1b2022a3b4f47aa023daf4a58fce5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceVolumeParams::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams._offsetof_cb</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14087" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceVolumeParams_1a2facc16ef2da57941e87526e1a7e6155" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceVolumeParams::_offsetof_dimensions</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dimensions</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams._offsetof_dimensions</qualifiedname>
+        <initializer>=  60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14088" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceVolumeParams_1acbc5b4956ed705005db7cc9f71daadec" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceVolumeParams::_offsetof_origin</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_origin</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams._offsetof_origin</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14089" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceVolumeParams_1a4b7f24137f5fe0fa0db1b8f03ce221b5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceVolumeParams::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams._offsetof_voxelSize</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14090" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1ad878e199a0bc07fa4050e8ef2cb51e8f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceVolumeParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1ac0d5cb93be8591e969d9485f93805c61">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a6cad2cc1e7abff51117b5e98e6f0722b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aea6a486974cbd2089d2d755323de720f">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14093" bodyend="14094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1aaf9a259daf1154fdd1abded4a0cbde2d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+        <definition> DistanceVolumeParams mrmeshpy.DistanceVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1af863bc95508667a821e73b4dd0dc6f60">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1af863bc95508667a821e73b4dd0dc6f60">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14097" bodyend="14098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1aaf9a259daf1154fdd1abded4a0cbde2d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+        <definition> DistanceVolumeParams mrmeshpy.DistanceVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1af863bc95508667a821e73b4dd0dc6f60">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1af863bc95508667a821e73b4dd0dc6f60">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14101" bodyend="14102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1a801ce93d0335580484fba7db8d16a7dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceVolumeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1ac0d5cb93be8591e969d9485f93805c61">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a6cad2cc1e7abff51117b5e98e6f0722b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aea6a486974cbd2089d2d755323de720f">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14104" bodyend="14105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1a9dcf3a929ba42040250b1411b949e621" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceVolumeParams.__init__</definition>
+        <argsstring>(self, DistanceVolumeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1ac0d5cb93be8591e969d9485f93805c61">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a6cad2cc1e7abff51117b5e98e6f0722b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aea6a486974cbd2089d2d755323de720f">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14107" bodyend="14110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1a48d02a7fc2985193b63c3401dd61d0a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceVolumeParams.__init__</definition>
+        <argsstring>(self, Vector3f origin, func_bool_from_float cb, Vector3f voxelSize, Vector3i dimensions)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1ac0d5cb93be8591e969d9485f93805c61">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1a6cad2cc1e7abff51117b5e98e6f0722b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointsToDistanceVolumeParams_1aea6a486974cbd2089d2d755323de720f">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dimensions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14112" bodyend="14115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1a6526721e35585ade7e4849b4ed258444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.DistanceVolumeParams.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>progress callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14117" bodyend="14120"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1ae24934ac1813aad02cf2e584aaa69c4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceVolumeParams.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14122" bodyend="14123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1a6703073864e0c2ad85ed35ab83035bdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.DistanceVolumeParams.dimensions</definition>
+        <argsstring>(self)</argsstring>
+        <name>dimensions</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.dimensions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>num voxels along each axis
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14125" bodyend="14128"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1a34eed0e412dbb7ed925f879a054caec6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceVolumeParams.dimensions</definition>
+        <argsstring>(self, Vector3i arg1)</argsstring>
+        <name>dimensions</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.dimensions</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14130" bodyend="14131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1a5d31c422a54b6e80fbd611364ae847cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.DistanceVolumeParams.origin</definition>
+        <argsstring>(self)</argsstring>
+        <name>origin</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.origin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>origin point of voxels box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14133" bodyend="14136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1a74ae0c8dee23d66279a17c11e8e76e6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceVolumeParams.origin</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>origin</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.origin</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14138" bodyend="14139"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1ae3a8d525744439cb087452a9e2f54dbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.DistanceVolumeParams.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>size of voxel on each axis
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14141" bodyend="14144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceVolumeParams_1a74ffcc80a803bc40786ac4fe3250ddbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceVolumeParams.voxelSize</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.DistanceVolumeParams.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14146" bodyend="14147"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DistanceVolumeParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.DistanceVolumeParams</label>
+        <link refid="classmrmeshpy_1_1DistanceVolumeParams"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.PointsToDistanceVolumeParams</label>
+        <link refid="classmrmeshpy_1_1PointsToDistanceVolumeParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DistanceVolumeParams</label>
+        <link refid="classmrmeshpy_1_1DistanceVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_dimensions</edgelabel>
+          <edgelabel>_offsetof_origin</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14083" bodyend="14147"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1ad878e199a0bc07fa4050e8ef2cb51e8f" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a801ce93d0335580484fba7db8d16a7dc" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a9dcf3a929ba42040250b1411b949e621" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a48d02a7fc2985193b63c3401dd61d0a2" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a5ac1b2022a3b4f47aa023daf4a58fce5" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a2facc16ef2da57941e87526e1a7e6155" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>_offsetof_dimensions</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1acbc5b4956ed705005db7cc9f71daadec" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>_offsetof_origin</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a4b7f24137f5fe0fa0db1b8f03ce221b5" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a6526721e35585ade7e4849b4ed258444" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1ae24934ac1813aad02cf2e584aaa69c4c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a6703073864e0c2ad85ed35ab83035bdf" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>dimensions</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a34eed0e412dbb7ed925f879a054caec6" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>dimensions</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1aaf9a259daf1154fdd1abded4a0cbde2d" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1aaf9a259daf1154fdd1abded4a0cbde2d" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a5d31c422a54b6e80fbd611364ae847cf" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>origin</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a74ae0c8dee23d66279a17c11e8e76e6c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>origin</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1ae3a8d525744439cb087452a9e2f54dbe" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1DistanceVolumeParams_1a74ffcc80a803bc40786ac4fe3250ddbb" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceVolumeParams</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

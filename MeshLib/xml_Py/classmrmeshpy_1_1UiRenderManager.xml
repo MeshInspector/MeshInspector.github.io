@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UiRenderManager" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UiRenderManager</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a20c9940aa19600e35e262371e624cd98" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UiRenderManager.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UiRenderManager.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58670" bodyend="58671"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a815b676679879a13b76f760a76fbfad3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UiRenderManager" kindref="compound">UiRenderManager</ref></type>
+        <definition> UiRenderManager mrmeshpy.UiRenderManager.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UiRenderManager.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58673" bodyend="58674"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1ac551d7294dc660267221d297938b75ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UiRenderManager.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UiRenderManager.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58676" bodyend="58677"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a459c4282d56438938801ba9439a6e2c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UiRenderManager.__init__</definition>
+        <argsstring>(self, UiRenderManager arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UiRenderManager.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UiRenderManager" kindref="compound">UiRenderManager</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58679" bodyend="58682"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1af59ee051a0989de9f79805bbc176e585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask.BackwardPassParams</ref></type>
+        <definition> BasicUiRenderTask.BackwardPassParams mrmeshpy.UiRenderManager.beginBackwardPass</definition>
+        <argsstring>(self, ViewportId viewport, std_vector_std_shared_ptr_BasicUiRenderTask tasks)</argsstring>
+        <name>beginBackwardPass</name>
+        <qualifiedname>mrmeshpy.UiRenderManager.beginBackwardPass</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__BasicUiRenderTask" kindref="compound">std_vector_std_shared_ptr_BasicUiRenderTask</ref></type>
+          <declname>tasks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the parameters for the `IRenderObject::earlyBackwardPass()`.
+This will be called exactly once per viewport, each time the UI in it is rendered.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58683" bodyend="58687"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1afda41d16e224514c07953d1ec83c8617" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UiRenderManager.finishBackwardPass</definition>
+        <argsstring>(self, ViewportId viewport, BasicUiRenderTask.BackwardPassParams params)</argsstring>
+        <name>finishBackwardPass</name>
+        <qualifiedname>mrmeshpy.UiRenderManager.finishBackwardPass</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BasicUiRenderTask_1_1BackwardPassParams" kindref="compound">BasicUiRenderTask.BackwardPassParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>After the backward pass is performed, the parameters should be passed back into this function.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58688" bodyend="58691"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a067bb7f77a40d0e5d9635a3fc9db7fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UiRenderManager.postRenderViewport</definition>
+        <argsstring>(self, ViewportId viewport)</argsstring>
+        <name>postRenderViewport</name>
+        <qualifiedname>mrmeshpy.UiRenderManager.postRenderViewport</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is called after doing `IRenderObject::renderUi()` on even object in a viewport. Each viewport is rendered separately.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58692" bodyend="58695"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UiRenderManager_1a6b9cb12f1d8db7f2f9d7094b0571a0c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UiRenderManager.preRenderViewport</definition>
+        <argsstring>(self, ViewportId viewport)</argsstring>
+        <name>preRenderViewport</name>
+        <qualifiedname>mrmeshpy.UiRenderManager.preRenderViewport</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewport</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This is called before doing `IRenderObject::renderUi()` on even object in a viewport. Each viewport is rendered separately.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58696" bodyend="58699"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UiRenderManager
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58664" bodyend="58699"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UiRenderManager_1a20c9940aa19600e35e262371e624cd98" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderManager_1ac551d7294dc660267221d297938b75ac" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderManager_1a459c4282d56438938801ba9439a6e2c5" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderManager_1af59ee051a0989de9f79805bbc176e585" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>beginBackwardPass</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderManager_1afda41d16e224514c07953d1ec83c8617" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>finishBackwardPass</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderManager_1a815b676679879a13b76f760a76fbfad3" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderManager_1a067bb7f77a40d0e5d9635a3fc9db7fd8" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>postRenderViewport</name></member>
+      <member refid="classmrmeshpy_1_1UiRenderManager_1a6b9cb12f1d8db7f2f9d7094b0571a0c1" prot="public" virt="non-virtual"><scope>mrmeshpy::UiRenderManager</scope><name>preRenderViewport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Palette" kind="class" language="C++" prot="public">
+    <compoundname>MR::Palette</compoundname>
+    <includes refid="MRPalette_8h" local="no">MRPalette.h</includes>
+    <innerclass refid="structMR_1_1Palette_1_1Label" prot="public">MR::Palette::Label</innerclass>
+    <innerclass refid="structMR_1_1Palette_1_1Parameters" prot="public">MR::Palette::Parameters</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1gaaa660bef4a51b8a0247fa7eafccfcfba" kind="variable"><name>DefaultColors</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga543277b2ce6f8d3148cfdd076ea9ff08" kind="variable"><name>drawDelayFrames_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gac69f97944a537d356ce690f83e509f65" kind="function"><name>BlueGreenRedColors</name></member>
+      <member refid="group__GeneralGroup_1ga50926dd1bf08562983f3b26d745c961b" kind="function"><name>GreenRedColors</name></member>
+      <member refid="group__GeneralGroup_1gacc92fd7c8a6d16880c0bfcd6e76ab536" kind="function"><name>predFromBitSet</name></member>
+      <member refid="group__GeneralGroup_1ga1e4aa8e46a3709d8d7d4a228cde69c11" kind="function"><name>resizeCallback_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga16b8a71ea5f75f665b1fa1c24368dba3" kind="function"><name>Palette</name></member>
+      <member refid="group__GeneralGroup_1gaee6fa3cea3a5b3449207a8a888addd49" kind="function"><name>setBaseColors</name></member>
+      <member refid="group__GeneralGroup_1ga7d6dd19e47f31c6e502113f4b413ff77" kind="function"><name>setRangeMinMax</name></member>
+      <member refid="group__GeneralGroup_1gaa4516e9a134ac39f12c28ba08bc1b7e8" kind="function"><name>setRangeMinMaxNegPos</name></member>
+      <member refid="group__GeneralGroup_1ga95993f62dda52bd555e9902cb0663a68" kind="function"><name>setDiscretizationNumber</name></member>
+      <member refid="group__GeneralGroup_1ga1db62c44796f0e849665e352c9d02f61" kind="function"><name>setFilterType</name></member>
+      <member refid="group__GeneralGroup_1ga0e327c983c4976ba67d475ce981b76c8" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga342d665441236e2eced9976b08c7e025" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga41bdb34995dc77edd7d35db3036db6c4" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1gac45bdaf4d2808a25a9b6aa7739030f56" kind="function"><name>resetLabels</name></member>
+      <member refid="group__GeneralGroup_1ga50944144ea783bb242d09a0601738ace" kind="function"><name>setCustomLabels</name></member>
+      <member refid="group__GeneralGroup_1gade857d7d072e37d2311598da53b2ae73" kind="function"><name>setLabelsVisible</name></member>
+      <member refid="group__GeneralGroup_1ga1a549aec745f16e9336ae7fcf4271d88" kind="function"><name>loadFromJson</name></member>
+      <member refid="group__GeneralGroup_1ga79ec1bbcff59caf42691d6cea60db1b7" kind="function"><name>saveCurrentToJson</name></member>
+      <member refid="group__GeneralGroup_1ga993b22e2c8c190cfe6473013283f6c04" kind="function"><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1gae4429356ab627f21dea626ec383a24fa" kind="function"><name>getInvalidColor</name></member>
+      <member refid="group__GeneralGroup_1gae63655ed30c3149a56edf240748a9f4e" kind="function"><name>getVertColors</name></member>
+      <member refid="group__GeneralGroup_1ga10dfbdae3b19c43baa0235a41667e4a4" kind="function"><name>getTexture</name></member>
+      <member refid="group__GeneralGroup_1ga0713134025e93fe779411c27b522ce50" kind="function"><name>getRelativePos</name></member>
+      <member refid="group__GeneralGroup_1gadccdea8021d31637354ec45f848bb7a3" kind="function"><name>getUVcoord</name></member>
+      <member refid="group__GeneralGroup_1ga4e8533e0a7c440a59618e0d78262570e" kind="function"><name>getUVcoords</name></member>
+      <member refid="group__GeneralGroup_1gab242ee951ea58ca0e4a9312253bf3184" kind="function"><name>getUVcoords</name></member>
+      <member refid="group__GeneralGroup_1ga3cad2a58f4942e33d68b162a1f7fd2d5" kind="function"><name>getParameters</name></member>
+      <member refid="group__GeneralGroup_1ga6c9a23975c5ee94598c7710c0812415b" kind="function"><name>getRangeMin</name></member>
+      <member refid="group__GeneralGroup_1gac4e7906af8dbc34bddc17c0e1e7878a9" kind="function"><name>getRangeMax</name></member>
+      <member refid="group__GeneralGroup_1ga0f6bd2b1af38efa4b6e8ef7206071a6f" kind="function"><name>getRangeSq</name></member>
+      <member refid="group__GeneralGroup_1gaeb6af41eb56a4e97b810798d655510dc" kind="function"><name>getStringValue</name></member>
+      <member refid="group__GeneralGroup_1ga10a9188c6a6137b814291dc2e1d2073a" kind="function"><name>getMaxLabelCount</name></member>
+      <member refid="group__GeneralGroup_1ga72d1c43c3aad43836eb3c088ae61e428" kind="function"><name>setMaxLabelCount</name></member>
+      <member refid="group__GeneralGroup_1ga55fe096aec459b2721c9b619f977f4b2" kind="function"><name>setLegendLimits</name></member>
+      <member refid="group__GeneralGroup_1ga6df9cc35fb5487a429976faa9595db65" kind="function"><name>isHistogramEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga17a77a955a9bb1de3a362b7d9867afb4" kind="function"><name>getNumHistogramBuckets</name></member>
+      <member refid="group__GeneralGroup_1ga7896773ea69981587644c20af439a0f4" kind="function"><name>setNumHistogramBuckets</name></member>
+      <member refid="group__GeneralGroup_1ga9118290947382258ebf670ae4ed5db23" kind="function"><name>getDefaultNumHistogramBuckets</name></member>
+      <member refid="group__GeneralGroup_1ga4d11ef17d4e0570ebe96390df4509bd2" kind="function"><name>isDiscretizationPercentagesEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga70655aa3bd1218427ca2534cb2fc1ddc" kind="function"><name>enableDiscretizationPercentages</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Class to hold one dimension texture with value to UV mapping. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Discrete mode will draw rectangle for each color Continuous mode will draw interpolated color </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" line="29" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRPalette.h" bodystart="30" bodyend="316"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac69f97944a537d356ce690f83e509f65" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>BlueGreenRedColors</name></member>
+      <member refid="group__GeneralGroup_1gaaa660bef4a51b8a0247fa7eafccfcfba" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>DefaultColors</name></member>
+      <member refid="group__GeneralGroup_1ga0e327c983c4976ba67d475ce981b76c8" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga342d665441236e2eced9976b08c7e025" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga41bdb34995dc77edd7d35db3036db6c4" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga543277b2ce6f8d3148cfdd076ea9ff08" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>drawDelayFrames_</name></member>
+      <member refid="group__GeneralGroup_1ga70655aa3bd1218427ca2534cb2fc1ddc" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>enableDiscretizationPercentages</name></member>
+      <member refid="group__GeneralGroup_1ga993b22e2c8c190cfe6473013283f6c04" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1ga9118290947382258ebf670ae4ed5db23" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getDefaultNumHistogramBuckets</name></member>
+      <member refid="group__GeneralGroup_1gae4429356ab627f21dea626ec383a24fa" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getInvalidColor</name></member>
+      <member refid="group__GeneralGroup_1ga10a9188c6a6137b814291dc2e1d2073a" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getMaxLabelCount</name></member>
+      <member refid="group__GeneralGroup_1ga17a77a955a9bb1de3a362b7d9867afb4" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getNumHistogramBuckets</name></member>
+      <member refid="group__GeneralGroup_1ga3cad2a58f4942e33d68b162a1f7fd2d5" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getParameters</name></member>
+      <member refid="group__GeneralGroup_1gac4e7906af8dbc34bddc17c0e1e7878a9" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getRangeMax</name></member>
+      <member refid="group__GeneralGroup_1ga6c9a23975c5ee94598c7710c0812415b" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getRangeMin</name></member>
+      <member refid="group__GeneralGroup_1ga0f6bd2b1af38efa4b6e8ef7206071a6f" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getRangeSq</name></member>
+      <member refid="group__GeneralGroup_1ga0713134025e93fe779411c27b522ce50" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getRelativePos</name></member>
+      <member refid="group__GeneralGroup_1gaeb6af41eb56a4e97b810798d655510dc" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getStringValue</name></member>
+      <member refid="group__GeneralGroup_1ga10dfbdae3b19c43baa0235a41667e4a4" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getTexture</name></member>
+      <member refid="group__GeneralGroup_1gadccdea8021d31637354ec45f848bb7a3" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getUVcoord</name></member>
+      <member refid="group__GeneralGroup_1ga4e8533e0a7c440a59618e0d78262570e" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getUVcoords</name></member>
+      <member refid="group__GeneralGroup_1gab242ee951ea58ca0e4a9312253bf3184" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getUVcoords</name></member>
+      <member refid="group__GeneralGroup_1gae63655ed30c3149a56edf240748a9f4e" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>getVertColors</name></member>
+      <member refid="group__GeneralGroup_1ga50926dd1bf08562983f3b26d745c961b" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>GreenRedColors</name></member>
+      <member refid="group__GeneralGroup_1ga4d11ef17d4e0570ebe96390df4509bd2" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>isDiscretizationPercentagesEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga6df9cc35fb5487a429976faa9595db65" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>isHistogramEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga1a549aec745f16e9336ae7fcf4271d88" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>loadFromJson</name></member>
+      <member refid="group__GeneralGroup_1ga16b8a71ea5f75f665b1fa1c24368dba3" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>Palette</name></member>
+      <member refid="group__GeneralGroup_1gacc92fd7c8a6d16880c0bfcd6e76ab536" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>predFromBitSet</name></member>
+      <member refid="group__GeneralGroup_1gac45bdaf4d2808a25a9b6aa7739030f56" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>resetLabels</name></member>
+      <member refid="group__GeneralGroup_1ga1e4aa8e46a3709d8d7d4a228cde69c11" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>resizeCallback_</name></member>
+      <member refid="group__GeneralGroup_1ga79ec1bbcff59caf42691d6cea60db1b7" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>saveCurrentToJson</name></member>
+      <member refid="group__GeneralGroup_1gaee6fa3cea3a5b3449207a8a888addd49" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setBaseColors</name></member>
+      <member refid="group__GeneralGroup_1ga50944144ea783bb242d09a0601738ace" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setCustomLabels</name></member>
+      <member refid="group__GeneralGroup_1ga95993f62dda52bd555e9902cb0663a68" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setDiscretizationNumber</name></member>
+      <member refid="group__GeneralGroup_1ga1db62c44796f0e849665e352c9d02f61" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setFilterType</name></member>
+      <member refid="group__GeneralGroup_1gade857d7d072e37d2311598da53b2ae73" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setLabelsVisible</name></member>
+      <member refid="group__GeneralGroup_1ga55fe096aec459b2721c9b619f977f4b2" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setLegendLimits</name></member>
+      <member refid="group__GeneralGroup_1ga72d1c43c3aad43836eb3c088ae61e428" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setMaxLabelCount</name></member>
+      <member refid="group__GeneralGroup_1ga7896773ea69981587644c20af439a0f4" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setNumHistogramBuckets</name></member>
+      <member refid="group__GeneralGroup_1ga7d6dd19e47f31c6e502113f4b413ff77" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setRangeMinMax</name></member>
+      <member refid="group__GeneralGroup_1gaa4516e9a134ac39f12c28ba08bc1b7e8" prot="public" virt="non-virtual"><scope>MR::Palette</scope><name>setRangeMinMaxNegPos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

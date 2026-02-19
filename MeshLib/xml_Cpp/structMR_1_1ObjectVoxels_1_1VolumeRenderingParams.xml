@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ObjectVoxels::VolumeRenderingParams</compoundname>
+    <includes refid="MRObjectVoxels_8h" local="no">MRObjectVoxels.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga0b40e31d1a019aab3cc599a4440216cf" kind="enum"><name>ShadingType</name></member>
+      <member refid="group__GeneralGroup_1gac2eccd63ca988ff87e0d09c1729effd5" kind="enum"><name>LutType</name></member>
+      <member refid="group__GeneralGroup_1gafeb3f512bbe9f60f21c71753b179adc2" kind="enum"><name>AlphaType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa2018932b0f46e90f13ac5b75b7eaed9" kind="variable"><name>volumeFilterType</name></member>
+      <member refid="group__GeneralGroup_1ga4d3b64c3be4b9df2a9728e5a097c8ad9" kind="variable"><name>None</name></member>
+      <member refid="group__GeneralGroup_1ga13e9afd17c798286cf4e6db027d0ecf9" kind="variable"><name>Rainbow</name></member>
+      <member refid="group__GeneralGroup_1gae94f3eb91aef633aa6d0552e48b597a9" kind="variable"><name>oneColor</name></member>
+      <member refid="group__GeneralGroup_1gaa82f2dbcab6b825daff1c52d575ca2fa" kind="variable"><name>min</name></member>
+      <member refid="group__GeneralGroup_1ga0b2551180d44dd12a9dd8b6f79cbd010" kind="variable"><name>max</name></member>
+      <member refid="group__GeneralGroup_1gad2b689ae32e79618fd422fa0fa7a80e9" kind="variable"><name>samplingStep</name></member>
+      <member refid="group__GeneralGroup_1gad8187266986121c9568f668fe785fbc5" kind="variable"><name>Constant</name></member>
+      <member refid="group__GeneralGroup_1ga3020a0b0e97313d239308d5d16c7f9f3" kind="variable"><name>alphaLimit</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gab5aeef5b1c53656f8816af392af3ec46" kind="function"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>struct to control volume rendering texture </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::ObjectVoxels::VolumeRenderingParams</label>
+        <link refid="structMR_1_1ObjectVoxels_1_1VolumeRenderingParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>oneColor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" line="157" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRObjectVoxels.h" bodystart="158" bodyend="193"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3020a0b0e97313d239308d5d16c7f9f3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>alphaLimit</name></member>
+      <member refid="group__GeneralGroup_1gafeb3f512bbe9f60f21c71753b179adc2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>AlphaType</name></member>
+      <member refid="group__GeneralGroup_1gad8187266986121c9568f668fe785fbc5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>Constant</name></member>
+      <member refid="group__GeneralGroup_1gac2eccd63ca988ff87e0d09c1729effd5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>LutType</name></member>
+      <member refid="group__GeneralGroup_1ga0b2551180d44dd12a9dd8b6f79cbd010" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>max</name></member>
+      <member refid="group__GeneralGroup_1gaa82f2dbcab6b825daff1c52d575ca2fa" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>min</name></member>
+      <member refid="group__GeneralGroup_1ga4d3b64c3be4b9df2a9728e5a097c8ad9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>None</name></member>
+      <member refid="group__GeneralGroup_1gae94f3eb91aef633aa6d0552e48b597a9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>oneColor</name></member>
+      <member refid="group__GeneralGroup_1gab5aeef5b1c53656f8816af392af3ec46" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga13e9afd17c798286cf4e6db027d0ecf9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>Rainbow</name></member>
+      <member refid="group__GeneralGroup_1gad2b689ae32e79618fd422fa0fa7a80e9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>samplingStep</name></member>
+      <member refid="group__GeneralGroup_1ga0b40e31d1a019aab3cc599a4440216cf" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>ShadingType</name></member>
+      <member refid="group__GeneralGroup_1gaa2018932b0f46e90f13ac5b75b7eaed9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels::VolumeRenderingParams</scope><name>volumeFilterType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,528 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DistanceMapToWorld" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DistanceMapToWorld</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceMapToWorld_1a03944bb96c72df3edfee548ed8d46443" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceMapToWorld::_offsetof_direction</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_direction</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld._offsetof_direction</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13773" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceMapToWorld_1a92eefba706275a3380ce5a3c4b6b4a1b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceMapToWorld::_offsetof_orgPoint</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_orgPoint</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld._offsetof_orgPoint</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13774" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceMapToWorld_1a51d6f13cfddf6daa6f425430c3555c69" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceMapToWorld::_offsetof_pixelXVec</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pixelXVec</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld._offsetof_pixelXVec</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13775" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceMapToWorld_1a82e704d5ae5d6b1cc3b4f13c872813cc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceMapToWorld::_offsetof_pixelYVec</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pixelYVec</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld._offsetof_pixelYVec</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13776" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a02a8a6be39dafab053bab80de63a6eda" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13779" bodyend="13780"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a32dfc053f8917f571115e83336c8c020" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
+        <definition> DistanceMapToWorld mrmeshpy.DistanceMapToWorld.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13783" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13783" bodyend="13784"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a32dfc053f8917f571115e83336c8c020" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
+        <definition> DistanceMapToWorld mrmeshpy.DistanceMapToWorld.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13787" bodyend="13788"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a17ea48f987b34f17e709befddfd04dee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Default ctor init all fields with zeros, make sure to fill them manually
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13790" bodyend="13793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a4f64b671f3f0a0d42097e81d8aed2998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.__init__</definition>
+        <argsstring>(self, MeshToDistanceMapParams params)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshToDistanceMapParams" kindref="compound">MeshToDistanceMapParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Init fields by `MeshToDistanceMapParams` struct
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13795" bodyend="13798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a20b934a3ee1c414cb9b2db8929e07b82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.__init__</definition>
+        <argsstring>(self, ContourToDistanceMapParams params)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ContourToDistanceMapParams" kindref="compound">ContourToDistanceMapParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Init fields by `ContourToDistanceMapParams` struct
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13800" bodyend="13803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1ad43385fb799f6eda298769af6b5a0069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.__init__</definition>
+        <argsstring>(self, AffineXf3f xf)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Converts from AffineXf3f
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13805" bodyend="13808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1aac1f19447e955ab7637ae4271a3dfff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.__init__</definition>
+        <argsstring>(self, DistanceMapToWorld arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13810" bodyend="13813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a1131a92ef0b4b1b3c294548bb43ba8f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.DistanceMapToWorld.toWorld</definition>
+        <argsstring>(self, float x, float y, float depth)</argsstring>
+        <name>toWorld</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.toWorld</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get world coordinate by depth map info
+x - float X coordinate of depth map: (0.0f - left corner of pixel 0, 1.0 - right corner of pixel 0 and left corner of pixel 1)
+y - float Y coordinate of depth map: (0.0f - left corner of pixel 0, 1.0 - right corner of pixel 0 and left corner of pixel 1)
+float depth value (value in distance map, represent depth in world)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13814" bodyend="13820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a3e3256415bd9d4d9fde76639fb0647e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.DistanceMapToWorld.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13821" bodyend="13822"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1aa812cd5e303e71fbe7c82ce75268199e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.DistanceMapToWorld.direction</definition>
+        <argsstring>(self)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>vector of depth direction
+\\note typically it should be normalized and orthogonal to `pixelXVec` `pixelYVec` plane
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13824" bodyend="13828"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a0a90107066520cad0a0e45db9f149fc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.direction</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>direction</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.direction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13830" bodyend="13831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1ab68d2a499fd1be26ca6b5ea0e6167cde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.DistanceMapToWorld.orgPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>orgPoint</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.orgPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>world coordinates of distance map origin corner
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13833" bodyend="13836"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1af816fb88c53c35f06717376146211b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.orgPoint</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>orgPoint</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.orgPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13838" bodyend="13839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a9f60026ddafc5983053ea2a978abf16d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.DistanceMapToWorld.pixelXVec</definition>
+        <argsstring>(self)</argsstring>
+        <name>pixelXVec</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.pixelXVec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>vector in world space of pixel x positive direction
+length is equal to pixel size
+\\note typically it should be orthogonal to `pixelYVec`
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13841" bodyend="13846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1ac55f8ad318a8ec4a60f7e199511649cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.pixelXVec</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>pixelXVec</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.pixelXVec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13848" bodyend="13849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a4a1e7b13ae29b3b01c778c1fc20b5309" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.DistanceMapToWorld.pixelYVec</definition>
+        <argsstring>(self)</argsstring>
+        <name>pixelYVec</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.pixelYVec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>vector in world space of pixel y positive direction
+length is equal to pixel size
+\\note typically it should be orthogonal to `pixelXVec`
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13851" bodyend="13856"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapToWorld_1a4000bab6b33344317c3ea6e41aa4ab4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapToWorld.pixelYVec</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>pixelYVec</name>
+        <qualifiedname>mrmeshpy.DistanceMapToWorld.pixelYVec</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13858" bodyend="13859"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DistanceMapToWorld
+
+This structure store data to transform distance map to world coordinates
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DistanceMapToWorld</label>
+        <link refid="classmrmeshpy_1_1DistanceMapToWorld"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_direction</edgelabel>
+          <edgelabel>_offsetof_orgPoint</edgelabel>
+          <edgelabel>_offsetof_pixelXVec</edgelabel>
+          <edgelabel>_offsetof_pixelYVec</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13767" bodyend="13859"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a02a8a6be39dafab053bab80de63a6eda" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a17ea48f987b34f17e709befddfd04dee" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a4f64b671f3f0a0d42097e81d8aed2998" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a20b934a3ee1c414cb9b2db8929e07b82" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1ad43385fb799f6eda298769af6b5a0069" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1aac1f19447e955ab7637ae4271a3dfff2" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a03944bb96c72df3edfee548ed8d46443" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>_offsetof_direction</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a92eefba706275a3380ce5a3c4b6b4a1b" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>_offsetof_orgPoint</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a51d6f13cfddf6daa6f425430c3555c69" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>_offsetof_pixelXVec</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a82e704d5ae5d6b1cc3b4f13c872813cc" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>_offsetof_pixelYVec</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1aa812cd5e303e71fbe7c82ce75268199e" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a0a90107066520cad0a0e45db9f149fc5" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>direction</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a32dfc053f8917f571115e83336c8c020" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a32dfc053f8917f571115e83336c8c020" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1ab68d2a499fd1be26ca6b5ea0e6167cde" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>orgPoint</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1af816fb88c53c35f06717376146211b16" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>orgPoint</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a9f60026ddafc5983053ea2a978abf16d" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>pixelXVec</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1ac55f8ad318a8ec4a60f7e199511649cf" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>pixelXVec</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a4a1e7b13ae29b3b01c778c1fc20b5309" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>pixelYVec</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a4000bab6b33344317c3ea6e41aa4ab4c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>pixelYVec</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a1131a92ef0b4b1b3c294548bb43ba8f8" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>toWorld</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapToWorld_1a3e3256415bd9d4d9fde76639fb0647e9" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapToWorld</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

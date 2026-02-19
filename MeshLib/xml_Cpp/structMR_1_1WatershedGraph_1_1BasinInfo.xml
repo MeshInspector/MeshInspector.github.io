@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WatershedGraph_1_1BasinInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WatershedGraph::BasinInfo</compoundname>
+    <includes refid="MRWatershedGraph_8h" local="no">MRWatershedGraph.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" kind="variable"><name>lowestVert</name></member>
+      <member refid="group__GeneralGroup_1gab2cb4ea433e1e7448b0b1d3bafa8c2f2" kind="variable"><name>lowestLevel</name></member>
+      <member refid="group__GeneralGroup_1ga890dc5714dfd53c95b4678e7afd830d0" kind="variable"><name>area</name></member>
+      <member refid="group__GeneralGroup_1ga01068990cefec48cd1195061d70f5b9a" kind="variable"><name>lowestBdLevel</name></member>
+      <member refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kind="variable"><name>maxVolume</name></member>
+      <member refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" kind="variable"><name>accVolume</name></member>
+      <member refid="group__GeneralGroup_1gaf87b0b720148b1f8a07ced0557424191" kind="variable"><name>lastUpdateAmount</name></member>
+      <member refid="group__GeneralGroup_1gac517049cbab38022a0ae418971403ec9" kind="variable"><name>lastMergeLevel</name></member>
+      <member refid="group__GeneralGroup_1ga52315365a6d8090680080cd9e1d62360" kind="variable"><name>lastMergeVolume</name></member>
+      <member refid="group__GeneralGroup_1gad87c8f736d8d1dea1c3085b690ddbab3" kind="variable"><name>overflowVia</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga6505f36f6b37f2d51d0564a3de4b98e0" kind="function"><name>BasinInfo</name></member>
+      <member refid="group__GeneralGroup_1ga8a9b12285fe8639813ace28a93ef0f29" kind="function"><name>amountTillOverflow</name></member>
+      <member refid="group__GeneralGroup_1gadf005a578ca2b6fe35277c7ea358737e" kind="function"><name>approxLevel</name></member>
+      <member refid="group__GeneralGroup_1ga0b1a50cc94b8a8eb3779ca22881e63d3" kind="function"><name>updateAccVolume</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>associated with each vertex in graph </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="19" bodyend="64"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>accVolume</name></member>
+      <member refid="group__GeneralGroup_1ga8a9b12285fe8639813ace28a93ef0f29" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>amountTillOverflow</name></member>
+      <member refid="group__GeneralGroup_1gadf005a578ca2b6fe35277c7ea358737e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>approxLevel</name></member>
+      <member refid="group__GeneralGroup_1ga890dc5714dfd53c95b4678e7afd830d0" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>area</name></member>
+      <member refid="group__GeneralGroup_1ga6505f36f6b37f2d51d0564a3de4b98e0" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>BasinInfo</name></member>
+      <member refid="group__GeneralGroup_1gac517049cbab38022a0ae418971403ec9" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lastMergeLevel</name></member>
+      <member refid="group__GeneralGroup_1ga52315365a6d8090680080cd9e1d62360" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lastMergeVolume</name></member>
+      <member refid="group__GeneralGroup_1gaf87b0b720148b1f8a07ced0557424191" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lastUpdateAmount</name></member>
+      <member refid="group__GeneralGroup_1ga01068990cefec48cd1195061d70f5b9a" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lowestBdLevel</name></member>
+      <member refid="group__GeneralGroup_1gab2cb4ea433e1e7448b0b1d3bafa8c2f2" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lowestLevel</name></member>
+      <member refid="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>lowestVert</name></member>
+      <member refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>maxVolume</name></member>
+      <member refid="group__GeneralGroup_1gad87c8f736d8d1dea1c3085b690ddbab3" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>overflowVia</name></member>
+      <member refid="group__GeneralGroup_1ga0b1a50cc94b8a8eb3779ca22881e63d3" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::BasinInfo</scope><name>updateAccVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

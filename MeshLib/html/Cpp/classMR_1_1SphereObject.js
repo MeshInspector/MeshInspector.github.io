@@ -1,0 +1,25 @@
+var classMR_1_1SphereObject =
+[
+    [ "SphereObject", "group__GeneralGroup.html#gad99bcf65ca008b2ce0ff6c2df4adf74f", null ],
+    [ "SphereObject", "group__GeneralGroup.html#ga5a281f4cd06f74f10aadc4874cd4cef5", null ],
+    [ "SphereObject", "group__GeneralGroup.html#ga61b3b53e478f087679a2177013f202a7", null ],
+    [ "SphereObject", "group__GeneralGroup.html#gabe849f3566bfb24aa76698ffb6060b74", null ],
+    [ "SphereObject", "group__GeneralGroup.html#ga0756a482bc3f5e18d1e16940c05b1545", null ],
+    [ "className", "group__GeneralGroup.html#gad57d28fe2b4725637d8d33cf7e113f18", null ],
+    [ "classNameInPlural", "group__GeneralGroup.html#ga097e487aba59a6996fc2b21658af0fd2", null ],
+    [ "clone", "group__GeneralGroup.html#ga0f12c8dd3509baa2cb33bf45e476124a", null ],
+    [ "deserializeModel_", "group__GeneralGroup.html#ga6526999666312eb4878184209c5f4284", null ],
+    [ "getAllSharedProperties", "group__GeneralGroup.html#gacce34bc20a869d63c5301aec1204533e", null ],
+    [ "getCenter", "group__GeneralGroup.html#ga763e668b75bc85716242eb33adb6f5c8", null ],
+    [ "getRadius", "group__GeneralGroup.html#gaf04d3d5d57a38da6df94e3c775c5ecec", null ],
+    [ "operator=", "group__GeneralGroup.html#gafc914c440e4c94f219e3d213905b1edb", null ],
+    [ "projectPoint", "group__GeneralGroup.html#ga6855908d00df90d26fda3844b6a422df", null ],
+    [ "serializeFields_", "group__GeneralGroup.html#gaad300c4270da25b21556235725b4b8c3", null ],
+    [ "serializeModel_", "group__GeneralGroup.html#gace4163b1d52950147e9fac4b263d2005", null ],
+    [ "setCenter", "group__GeneralGroup.html#ga6c0aeca2da2dadcdb0d53868a712fd4a", null ],
+    [ "setRadius", "group__GeneralGroup.html#ga4a1be24cee773621f3f68630079dce06", null ],
+    [ "setupRenderObject_", "group__GeneralGroup.html#gab747a95226189b8c1e074510daa0bc78", null ],
+    [ "shallowClone", "group__GeneralGroup.html#gae8924769b4847b515a97481b5ac24215", null ],
+    [ "swapBase_", "group__GeneralGroup.html#gab073c7dd40fc01a69a3484338c65f9e0", null ],
+    [ "typeName", "group__GeneralGroup.html#ga3fe2e258e75828338f7c6f90cd70b09e", null ]
+];

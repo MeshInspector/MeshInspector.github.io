@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SceneCache_1_1VectorHolder" kind="struct" language="C++" prot="private">
+    <compoundname>MR::SceneCache::VectorHolder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR::SceneCache::BasicVectorHolder</basecompoundref>
+    <templateparamlist>
+      <param>
+        <type>typename ObjectType</type>
+      </param>
+      <param>
+        <type>ObjectSelectivityType</type>
+        <declname>SelectivityType</declname>
+        <defname>SelectivityType</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga298b1987dbe5d8d598ab8a165c6c6e61" kind="variable"><name>value</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::SceneCache::BasicVectorHolder</label>
+      </node>
+      <node id="1">
+        <label>MR::SceneCache::VectorHolder&lt; ObjectType, SelectivityType &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::SceneCache::BasicVectorHolder</label>
+      </node>
+      <node id="1">
+        <label>MR::SceneCache::VectorHolder&lt; ObjectType, SelectivityType &gt;</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="42" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="43" bodyend="45"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga51511322a9bddec9642def76493870ca" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1gaf4d86ad80c963f4417cfbc39e70101be" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1gabc41b1d52dc166a328a71e832dfc8bc4" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>BasicVectorHolder</name></member>
+      <member refid="group__GeneralGroup_1ga298b1987dbe5d8d598ab8a165c6c6e61" prot="public" virt="non-virtual"><scope>MR::SceneCache::VectorHolder</scope><name>value</name></member>
+      <member refid="group__GeneralGroup_1ga078475b1e162429a1e0c92ffe8c7cdc1" prot="public" virt="virtual"><scope>MR::SceneCache::VectorHolder</scope><name>~BasicVectorHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

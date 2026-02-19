@@ -1,0 +1,531 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshOrPoints::ProjectionResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a5e9b39ed379f590f6121d1b03676c3a1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshOrPoints.ProjectionResult::_offsetof_closestVert</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_closestVert</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult._offsetof_closestVert</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33483" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1af190bf053c295ae57a172bb6c2e5685f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshOrPoints.ProjectionResult::_offsetof_distSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distSq</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult._offsetof_distSq</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33484" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a793c40a6d263e514713e3638177ea9b0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshOrPoints.ProjectionResult::_offsetof_isBd</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isBd</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult._offsetof_isBd</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33485" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1af7ce3913d9280ce42eb80087641acdd5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshOrPoints.ProjectionResult::_offsetof_normal</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normal</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult._offsetof_normal</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33486" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1abe5bd316f9cc34c3170ec93a40b77506" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshOrPoints.ProjectionResult::_offsetof_point</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_point</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult._offsetof_point</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33487" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa7f5bdd54846fcd4563f63c6a01dead0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPoints.ProjectionResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33490" bodyend="33491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa3efb44befb8ae96f7132e09016277c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints.ProjectionResult</ref></type>
+        <definition> MeshOrPoints.ProjectionResult mrmeshpy.MeshOrPoints.ProjectionResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33494" bodyend="33495"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa3efb44befb8ae96f7132e09016277c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints.ProjectionResult</ref></type>
+        <definition> MeshOrPoints.ProjectionResult mrmeshpy.MeshOrPoints.ProjectionResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33498" bodyend="33499"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a5d9000c5888328e9bb9919f4439ff390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshOrPoints.ProjectionResult.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33500" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33500" bodyend="33501"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa34f3220aa67e0f7aa487d07b16a14b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPoints.ProjectionResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33503" bodyend="33504"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1adc642a813e26cea48bc83eb13fe3f8ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPoints.ProjectionResult.__init__</definition>
+        <argsstring>(self, MeshOrPoints.ProjectionResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints.ProjectionResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33506" bodyend="33509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa2c9006e8d30159f789465ef0d435f67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPoints.ProjectionResult.__init__</definition>
+        <argsstring>(self, Vector3f point, std_optional_Vector3_float normal, bool isBd, float distSq, VertId closestVert)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector3__float" kindref="compound">std_optional_Vector3_float</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isBd</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSq</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>closestVert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33511" bodyend="33514"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1adc9c861fd1262c0b8420ac7f43260632" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshOrPoints.ProjectionResult.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33515" bodyend="33516"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1ac7d0f6552a3de96eadc7e29c22c20622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.MeshOrPoints.ProjectionResult.closestVert</definition>
+        <argsstring>(self)</argsstring>
+        <name>closestVert</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.closestVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for point clouds it is the closest vertex,
+for meshes it is the closest vertex of the triangle with the closest point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33518" bodyend="33522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1af28008e8316263825078bc5724a1da38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPoints.ProjectionResult.closestVert</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>closestVert</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.closestVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33524" bodyend="33525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1ab1913a18c579948161e045a9afb64fed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshOrPoints.ProjectionResult.distSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>distSq</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.distSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>squared distance from query point to the closest point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33527" bodyend="33530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a4271ea47b399e842df2ed337c022531a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPoints.ProjectionResult.distSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>distSq</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.distSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33532" bodyend="33533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1ab826cba8d48d81d9902f468d55c3f5bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshOrPoints.ProjectionResult.isBd</definition>
+        <argsstring>(self)</argsstring>
+        <name>isBd</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.isBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>can be true only for meshes, if the closest point is located on the boundary of the mesh (or the current region)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33535" bodyend="33538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a58bfb683776cef09fbdb4f0ae7903995" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPoints.ProjectionResult.isBd</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>isBd</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.isBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33540" bodyend="33541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aff5b87f47260cd040ae94c71aebee0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__Vector3__float" kindref="compound">std_optional_Vector3_float</ref></type>
+        <definition> std_optional_Vector3_float mrmeshpy.MeshOrPoints.ProjectionResult.normal</definition>
+        <argsstring>(self)</argsstring>
+        <name>normal</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.normal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>normal at the closest point;
+for meshes it will be pseudonormal with the differentiation depending on closest point location (face/edge/vertex)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33543" bodyend="33547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1ad0d4aabebdf20a9e733fa0a20c461a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPoints.ProjectionResult.normal</definition>
+        <argsstring>(self, std_optional_Vector3_float arg1)</argsstring>
+        <name>normal</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.normal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector3__float" kindref="compound">std_optional_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33549" bodyend="33550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa56b55c62579bc542eac7567ba0d47b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.MeshOrPoints.ProjectionResult.point</definition>
+        <argsstring>(self)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>found closest point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33552" bodyend="33555"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa35ff66a3c586cf2ce436000d5f938e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshOrPoints.ProjectionResult.point</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.MeshOrPoints.ProjectionResult.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33557" bodyend="33559"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshOrPoints::ProjectionResult
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshOrPoints.ProjectionResult</label>
+        <link refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_closestVert</edgelabel>
+          <edgelabel>_offsetof_distSq</edgelabel>
+          <edgelabel>_offsetof_isBd</edgelabel>
+          <edgelabel>_offsetof_normal</edgelabel>
+          <edgelabel>_offsetof_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33479" bodyend="33558"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a5d9000c5888328e9bb9919f4439ff390" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa7f5bdd54846fcd4563f63c6a01dead0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa34f3220aa67e0f7aa487d07b16a14b8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1adc642a813e26cea48bc83eb13fe3f8ed" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa2c9006e8d30159f789465ef0d435f67" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a5e9b39ed379f590f6121d1b03676c3a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>_offsetof_closestVert</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1af190bf053c295ae57a172bb6c2e5685f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>_offsetof_distSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a793c40a6d263e514713e3638177ea9b0" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>_offsetof_isBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1af7ce3913d9280ce42eb80087641acdd5" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>_offsetof_normal</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1abe5bd316f9cc34c3170ec93a40b77506" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>_offsetof_point</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1ac7d0f6552a3de96eadc7e29c22c20622" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>closestVert</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1af28008e8316263825078bc5724a1da38" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>closestVert</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1ab1913a18c579948161e045a9afb64fed" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a4271ea47b399e842df2ed337c022531a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1ab826cba8d48d81d9902f468d55c3f5bf" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>isBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1a58bfb683776cef09fbdb4f0ae7903995" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>isBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aff5b87f47260cd040ae94c71aebee0e5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>normal</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1ad0d4aabebdf20a9e733fa0a20c461a12" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>normal</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa3efb44befb8ae96f7132e09016277c2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa3efb44befb8ae96f7132e09016277c2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa56b55c62579bc542eac7567ba0d47b7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1aa35ff66a3c586cf2ce436000d5f938e0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult_1adc9c861fd1262c0b8420ac7f43260632" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshOrPoints::ProjectionResult</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

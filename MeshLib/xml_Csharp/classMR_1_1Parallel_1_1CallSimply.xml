@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Parallel_1_1CallSimply" kind="class" language="C#" prot="public">
+    <compoundname>MR::Parallel::CallSimply</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Parallel.Const_CallSimply</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimply_1a4e1e4293394b888187fd7f47a6b9b5f6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Parallel.CallSimply.CallSimply</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CallSimply</name>
+        <qualifiedname>MR.Parallel.CallSimply.CallSimply</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="62" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimply_1a573f9b62dba481f60d1e1b45cc790f15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Parallel.CallSimply.CallSimply</definition>
+        <argsstring>()</argsstring>
+        <name>CallSimply</name>
+        <qualifiedname>MR.Parallel.CallSimply.CallSimply</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="67" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="67" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimply_1ad73250759aa3f3aedf9e6bffe2f4f8e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Parallel.CallSimply.CallSimply</definition>
+        <argsstring>(MR.Parallel.Const_CallSimply _other)</argsstring>
+        <name>CallSimply</name>
+        <qualifiedname>MR.Parallel.CallSimply.CallSimply</qualifiedname>
+        <param>
+          <type>MR.Parallel.Const_CallSimply</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Parallel.CallSimply.CallSimply</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="77" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="77" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimply_1ab8df1c943258af96d8b69d08a9f919b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Parallel.CallSimply.CallSimply</definition>
+        <argsstring>(CallSimply _other)</argsstring>
+        <name>CallSimply</name>
+        <qualifiedname>MR.Parallel.CallSimply.CallSimply</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Parallel_1_1CallSimply" kindref="compound">CallSimply</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Parallel.CallSimply.CallSimply</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="88" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Parallel_1_1CallSimply_1ac48ece1173b5a5d8811b223d3d4151ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Parallel_1_1CallSimply" kindref="compound">MR.Parallel.CallSimply</ref></type>
+        <definition>unsafe MR.Parallel.CallSimply MR.Parallel.CallSimply.assign</definition>
+        <argsstring>(MR.Parallel.Const_CallSimply _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Parallel.CallSimply.assign</qualifiedname>
+        <param>
+          <type>MR.Parallel.Const_CallSimply</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Parallel.CallSimply.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="93" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="93" bodyend="100"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Parallel_1_1CallSimply" kindref="compound">MR.Parallel.CallSimply</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_CallSimply</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Parallel.CallSimply</label>
+        <link refid="classMR_1_1Parallel_1_1CallSimply"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CallSimply &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_CallSimply</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Parallel.CallSimply</label>
+        <link refid="classMR_1_1Parallel_1_1CallSimply"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CallSimply &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" line="60" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRParallel.cs" bodystart="61" bodyend="101"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Parallel_1_1CallSimply_1ac48ece1173b5a5d8811b223d3d4151ed" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>assign</name></member>
+      <member refid="classMR_1_1Parallel_1_1CallSimply_1a4e1e4293394b888187fd7f47a6b9b5f6" prot="package" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>CallSimply</name></member>
+      <member refid="classMR_1_1Parallel_1_1CallSimply_1a573f9b62dba481f60d1e1b45cc790f15" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>CallSimply</name></member>
+      <member refid="classMR_1_1Parallel_1_1CallSimply_1ad73250759aa3f3aedf9e6bffe2f4f8e9" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>CallSimply</name></member>
+      <member refid="classMR_1_1Parallel_1_1CallSimply_1ab8df1c943258af96d8b69d08a9f919b2" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>CallSimply</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

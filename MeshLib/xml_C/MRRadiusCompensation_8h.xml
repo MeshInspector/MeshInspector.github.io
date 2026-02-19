@@ -1,0 +1,919 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRRadiusCompensation_8h" kind="file" language="C++">
+    <compoundname>MRRadiusCompensation.h</compoundname>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRRadiusCompensation.h</label>
+        <link refid="MRRadiusCompensation_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRRadiusCompensation_8h_1aba7bc6ac732c34fd4721c543fa3445ea" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref></type>
+        <definition>typedef struct MR_FaceBitSet MR_FaceBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_FaceBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="13" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRRadiusCompensation_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="14" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRRadiusCompensation_8h_1a077b8debfae88f9cf2267ad2db95c006" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref></type>
+        <definition>typedef struct MR_expected_void_std_string MR_expected_void_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_expected_void_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="15" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRRadiusCompensation_8h_1adb03ce28cacfff1e499d75d512dc4a84" prot="public" static="no">
+        <type>struct <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref></type>
+        <definition>typedef struct MR_std_function_bool_from_float MR_std_function_bool_from_float</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_bool_from_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="16" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" prot="public" static="no">
+        <type>struct <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref></type>
+        <definition>typedef struct MR_CompensateRadiusParams MR_CompensateRadiusParams</definition>
+        <argsstring></argsstring>
+        <name>MR_CompensateRadiusParams</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>structure with parameters for <computeroutput>compensateRadius</computeroutput> function Generated from class <computeroutput>MR::CompensateRadiusParams</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="22" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a0f975ead5394e91a6c0ec941f31b5ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_CompensateRadiusParams_Get_direction</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_Get_direction</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Z direction of milling tool Returns a pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="29" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="29" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a22077e0758f0294dade6e801893c55c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_Set_direction</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this, MR_Vector3f value)</argsstring>
+        <name>MR_CompensateRadiusParams_Set_direction</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Z direction of milling tool Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>direction</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>direction</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="36" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="36" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a84d36d28c8524b5b56d77dee626dc287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_CompensateRadiusParams_GetMutable_direction</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_GetMutable_direction</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Z direction of milling tool Returns a mutable pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>direction</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="43" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="43" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a15683c92307658932d10bbb21930c6a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_CompensateRadiusParams_Get_toolRadius</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_Get_toolRadius</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius of spherical tool Returns a pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>toolRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="50" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="50" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1aa66c4ef94a775004bab6d4396121dadb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_Set_toolRadius</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this, float value)</argsstring>
+        <name>MR_CompensateRadiusParams_Set_toolRadius</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius of spherical tool Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>toolRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>toolRadius</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="56" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="56" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1adbad906e46513063fbe6b55794b59afc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_CompensateRadiusParams_GetMutable_toolRadius</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_GetMutable_toolRadius</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>radius of spherical tool Returns a mutable pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>toolRadius</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="63" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="63" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a9ca209bc23a4b4db898f67043a2d770f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *const *</type>
+        <definition>MRC_API const MR_FaceBitSet *const  * MR_CompensateRadiusParams_Get_region</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_Get_region</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed Returns a pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="72" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="72" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a8cb7a197abd6c34c5cb5a75b4e988b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_Set_region</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this, const MR_FaceBitSet *value)</argsstring>
+        <name>MR_CompensateRadiusParams_Set_region</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>region</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>region</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="81" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1ae028150010178e4b0f1637331b132772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> **</type>
+        <definition>MRC_API const MR_FaceBitSet ** MR_CompensateRadiusParams_GetMutable_region</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_GetMutable_region</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>region of the mesh that will be compensated it should not contain closed components also please note that boundaries of the region are fixed Returns a mutable pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>region</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="90" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="90" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a864aa0c07b10dbea166fceef5314e13c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_CompensateRadiusParams_Get_maxIterations</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_Get_maxIterations</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum iteration of applying algorithm (each iteration improves result a little bit) Returns a pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="97" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="97" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a79c052bf278ccdcaf8fd465e5b856414" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_Set_maxIterations</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this, int value)</argsstring>
+        <name>MR_CompensateRadiusParams_Set_maxIterations</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum iteration of applying algorithm (each iteration improves result a little bit) Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxIterations</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="103" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a189a27456d517b9eca92ee42bce47d9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_CompensateRadiusParams_GetMutable_maxIterations</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_GetMutable_maxIterations</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum iteration of applying algorithm (each iteration improves result a little bit) Returns a mutable pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>maxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="110" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="110" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a39231f4e3a8bee9762c3c48bb9432ce9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_CompensateRadiusParams_Get_relaxExpansion</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_Get_relaxExpansion</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how many hops to expand around each moved vertex for relaxation Returns a pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="117" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="117" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a01b282b79321ea4f2dea31a8e2ad5f17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_Set_relaxExpansion</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this, int value)</argsstring>
+        <name>MR_CompensateRadiusParams_Set_relaxExpansion</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how many hops to expand around each moved vertex for relaxation Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>relaxExpansion</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="123" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1ad0a8320a0e34ace12b7aafd9de971400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_CompensateRadiusParams_GetMutable_relaxExpansion</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_GetMutable_relaxExpansion</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how many hops to expand around each moved vertex for relaxation Returns a mutable pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxExpansion</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="130" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="130" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a8149671bd031d7224850fb71d7163aee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_CompensateRadiusParams_Get_relaxIterations</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_Get_relaxIterations</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how many iterations of relax is applied on each compensation iteration Returns a pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="137" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="137" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1ab8b91e4a115d0a2080c6a59588cb92ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_Set_relaxIterations</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this, int value)</argsstring>
+        <name>MR_CompensateRadiusParams_Set_relaxIterations</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how many iterations of relax is applied on each compensation iteration Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>relaxIterations</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a25488b229eb8ae8a808dfaa2b890c3fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_CompensateRadiusParams_GetMutable_relaxIterations</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_GetMutable_relaxIterations</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>how many iterations of relax is applied on each compensation iteration Returns a mutable pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxIterations</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="150" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="150" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a04c7db6ddea378b5b02550641843a286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_CompensateRadiusParams_Get_relaxForce</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_Get_relaxForce</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>force of relaxations on each compensation iteration Returns a pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxForce</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="157" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="157" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1ad10707d99675ccb2a513a05b742d17eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_Set_relaxForce</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this, float value)</argsstring>
+        <name>MR_CompensateRadiusParams_Set_relaxForce</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>force of relaxations on each compensation iteration Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxForce</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>relaxForce</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="163" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="163" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1acde55b2f734861afd0d155b5c23707a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_CompensateRadiusParams_GetMutable_relaxForce</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_GetMutable_relaxForce</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>force of relaxations on each compensation iteration Returns a mutable pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>relaxForce</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="170" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="170" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a4d3036eb084827f27c545a1760edbf21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API const MR_std_function_bool_from_float * MR_CompensateRadiusParams_Get_callback</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_Get_callback</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="176" column="47" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="176" declcolumn="47"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a6f7c44ec0223f9bc18e65f1aa46aa239" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_Set_callback</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this, MR_PassBy value_pass_by, MR_std_function_bool_from_float *value)</argsstring>
+        <name>MR_CompensateRadiusParams_Set_callback</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>callback</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>callback</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="182" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="182" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a5d3b6adfa3bb52dc4f94aa9a7f6a5cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+        <definition>MRC_API MR_std_function_bool_from_float * MR_CompensateRadiusParams_GetMutable_callback</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_GetMutable_callback</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::CompensateRadiusParams</computeroutput> named <computeroutput>callback</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="188" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="188" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a5889d31cfa62e4ffaaef32241f992863" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+        <definition>MRC_API MR_CompensateRadiusParams * MR_CompensateRadiusParams_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_CompensateRadiusParams_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRadiusCompensation_8h_1a5fd74c7e139e189cf6d1869989756b59" kindref="member">MR_CompensateRadiusParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="192" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="192" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a623946d6879b52bd8fd7854511fce1aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+        <definition>MRC_API MR_CompensateRadiusParams * MR_CompensateRadiusParams_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_CompensateRadiusParams_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRRadiusCompensation_8h_1af8fa5a2fa65e1cb759684a6523df8480" kindref="member">MR_CompensateRadiusParams_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRRadiusCompensation_8h_1a742a7366a206803849be73cdee95316b" kindref="member">MR_CompensateRadiusParams_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRRadiusCompensation_8h_1a19e5b1e09032bf491a0547274399a4ef" kindref="member">MR_CompensateRadiusParams_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="197" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="197" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1aa15869816b7e17408ed68152c5347138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+        <definition>MRC_API MR_CompensateRadiusParams * MR_CompensateRadiusParams_ConstructFrom</definition>
+        <argsstring>(MR_Vector3f direction, float toolRadius, const MR_FaceBitSet *region, int maxIterations, int relaxExpansion, int relaxIterations, float relaxForce, MR_PassBy callback_pass_by, MR_std_function_bool_from_float *callback)</argsstring>
+        <name>MR_CompensateRadiusParams_ConstructFrom</name>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>toolRadius</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref> *</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIterations</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>relaxExpansion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>relaxIterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>relaxForce</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>callback_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref> *</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::CompensateRadiusParams</computeroutput> elementwise. The reference to the parameter <computeroutput>direction</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>region</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>callback</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRadiusCompensation_8h_1a5fd74c7e139e189cf6d1869989756b59" kindref="member">MR_CompensateRadiusParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="205" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="205" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a19e5b1e09032bf491a0547274399a4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+        <definition>MRC_API const MR_CompensateRadiusParams * MR_CompensateRadiusParams_OffsetPtr</definition>
+        <argsstring>(const MR_CompensateRadiusParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CompensateRadiusParams_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="209" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="209" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a742a7366a206803849be73cdee95316b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+        <definition>MRC_API MR_CompensateRadiusParams * MR_CompensateRadiusParams_OffsetMutablePtr</definition>
+        <argsstring>(MR_CompensateRadiusParams *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_CompensateRadiusParams_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="213" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="213" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a382419cb69b1e484f39aa5f583918d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+        <definition>MRC_API MR_CompensateRadiusParams * MR_CompensateRadiusParams_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_CompensateRadiusParams *_other)</argsstring>
+        <name>MR_CompensateRadiusParams_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::CompensateRadiusParams::CompensateRadiusParams</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRadiusCompensation_8h_1a5fd74c7e139e189cf6d1869989756b59" kindref="member">MR_CompensateRadiusParams_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="218" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="218" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a5fd74c7e139e189cf6d1869989756b59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_Destroy</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_Destroy</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_CompensateRadiusParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="221" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="221" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1af8fa5a2fa65e1cb759684a6523df8480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_CompensateRadiusParams_DestroyArray</definition>
+        <argsstring>(const MR_CompensateRadiusParams *_this)</argsstring>
+        <name>MR_CompensateRadiusParams_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_CompensateRadiusParams</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="224" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="224" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a718575733a85c68f343c7d1f073064bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+        <definition>MRC_API MR_CompensateRadiusParams * MR_CompensateRadiusParams_AssignFromAnother</definition>
+        <argsstring>(MR_CompensateRadiusParams *_this, MR_PassBy _other_pass_by, MR_CompensateRadiusParams *_other)</argsstring>
+        <name>MR_CompensateRadiusParams_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::CompensateRadiusParams::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="231" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="231" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRadiusCompensation_8h_1a69a3555547e0b6393f243edbfe0d205e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref> *</type>
+        <definition>MRC_API MR_expected_void_std_string * MR_compensateRadius</definition>
+        <argsstring>(MR_Mesh *mesh, const MR_CompensateRadiusParams *params)</argsstring>
+        <name>MR_compensateRadius</name>
+        <param>
+          <type><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>compensate spherical milling tool radius in given mesh region making it possible to mill it note that tool milling outer surface of the mesh also please note that boundaries of the region are fixed Generated from function <computeroutput>MR::compensateRadius</computeroutput>. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_expected_void_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" line="240" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h" declline="240" declcolumn="37"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRRadiusCompensation_8h_1aba7bc6ac732c34fd4721c543fa3445ea" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRRadiusCompensation_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRRadiusCompensation_8h_1a077b8debfae88f9cf2267ad2db95c006" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/expected_void_std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRRadiusCompensation_8h_1adb03ce28cacfff1e499d75d512dc4a84" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_bool_from_float.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRRadiusCompensation_8h_1a0f975ead5394e91a6c0ec941f31b5ebc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a0f975ead5394e91a6c0ec941f31b5ebc" kindref="member">MR_CompensateRadiusParams_Get_direction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="MRRadiusCompensation_8h_1a22077e0758f0294dade6e801893c55c9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a22077e0758f0294dade6e801893c55c9" kindref="member">MR_CompensateRadiusParams_Set_direction</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRRadiusCompensation_8h_1a84d36d28c8524b5b56d77dee626dc287" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a84d36d28c8524b5b56d77dee626dc287" kindref="member">MR_CompensateRadiusParams_GetMutable_direction</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRRadiusCompensation_8h_1a15683c92307658932d10bbb21930c6a1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1a15683c92307658932d10bbb21930c6a1" kindref="member">MR_CompensateRadiusParams_Get_toolRadius</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRRadiusCompensation_8h_1aa66c4ef94a775004bab6d4396121dadb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1aa66c4ef94a775004bab6d4396121dadb" kindref="member">MR_CompensateRadiusParams_Set_toolRadius</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRRadiusCompensation_8h_1adbad906e46513063fbe6b55794b59afc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1adbad906e46513063fbe6b55794b59afc" kindref="member">MR_CompensateRadiusParams_GetMutable_toolRadius</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="MRRadiusCompensation_8h_1a9ca209bc23a4b4db898f67043a2d770f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1a9ca209bc23a4b4db898f67043a2d770f" kindref="member">MR_CompensateRadiusParams_Get_region</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRRadiusCompensation_8h_1a8cb7a197abd6c34c5cb5a75b4e988b6a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a8cb7a197abd6c34c5cb5a75b4e988b6a" kindref="member">MR_CompensateRadiusParams_Set_region</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRRadiusCompensation_8h_1ae028150010178e4b0f1637331b132772" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>**<ref refid="MRRadiusCompensation_8h_1ae028150010178e4b0f1637331b132772" kindref="member">MR_CompensateRadiusParams_GetMutable_region</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRRadiusCompensation_8h_1a864aa0c07b10dbea166fceef5314e13c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1a864aa0c07b10dbea166fceef5314e13c" kindref="member">MR_CompensateRadiusParams_Get_maxIterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRRadiusCompensation_8h_1a79c052bf278ccdcaf8fd465e5b856414" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a79c052bf278ccdcaf8fd465e5b856414" kindref="member">MR_CompensateRadiusParams_Set_maxIterations</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRRadiusCompensation_8h_1a189a27456d517b9eca92ee42bce47d9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1a189a27456d517b9eca92ee42bce47d9e" kindref="member">MR_CompensateRadiusParams_GetMutable_maxIterations</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRRadiusCompensation_8h_1a39231f4e3a8bee9762c3c48bb9432ce9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1a39231f4e3a8bee9762c3c48bb9432ce9" kindref="member">MR_CompensateRadiusParams_Get_relaxExpansion</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRRadiusCompensation_8h_1a01b282b79321ea4f2dea31a8e2ad5f17" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a01b282b79321ea4f2dea31a8e2ad5f17" kindref="member">MR_CompensateRadiusParams_Set_relaxExpansion</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="MRRadiusCompensation_8h_1ad0a8320a0e34ace12b7aafd9de971400" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1ad0a8320a0e34ace12b7aafd9de971400" kindref="member">MR_CompensateRadiusParams_GetMutable_relaxExpansion</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="MRRadiusCompensation_8h_1a8149671bd031d7224850fb71d7163aee" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1a8149671bd031d7224850fb71d7163aee" kindref="member">MR_CompensateRadiusParams_Get_relaxIterations</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRRadiusCompensation_8h_1ab8b91e4a115d0a2080c6a59588cb92ef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1ab8b91e4a115d0a2080c6a59588cb92ef" kindref="member">MR_CompensateRadiusParams_Set_relaxIterations</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="MRRadiusCompensation_8h_1a25488b229eb8ae8a808dfaa2b890c3fa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1a25488b229eb8ae8a808dfaa2b890c3fa" kindref="member">MR_CompensateRadiusParams_GetMutable_relaxIterations</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="MRRadiusCompensation_8h_1a04c7db6ddea378b5b02550641843a286" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1a04c7db6ddea378b5b02550641843a286" kindref="member">MR_CompensateRadiusParams_Get_relaxForce</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRRadiusCompensation_8h_1ad10707d99675ccb2a513a05b742d17eb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1ad10707d99675ccb2a513a05b742d17eb" kindref="member">MR_CompensateRadiusParams_Set_relaxForce</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRRadiusCompensation_8h_1acde55b2f734861afd0d155b5c23707a5" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRRadiusCompensation_8h_1acde55b2f734861afd0d155b5c23707a5" kindref="member">MR_CompensateRadiusParams_GetMutable_relaxForce</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRRadiusCompensation_8h_1a4d3036eb084827f27c545a1760edbf21" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a4d3036eb084827f27c545a1760edbf21" kindref="member">MR_CompensateRadiusParams_Get_callback</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRRadiusCompensation_8h_1a6f7c44ec0223f9bc18e65f1aa46aa239" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a6f7c44ec0223f9bc18e65f1aa46aa239" kindref="member">MR_CompensateRadiusParams_Set_callback</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRRadiusCompensation_8h_1a5d3b6adfa3bb52dc4f94aa9a7f6a5cd6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a5d3b6adfa3bb52dc4f94aa9a7f6a5cd6" kindref="member">MR_CompensateRadiusParams_GetMutable_callback</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="MRRadiusCompensation_8h_1a5889d31cfa62e4ffaaef32241f992863" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a5889d31cfa62e4ffaaef32241f992863" kindref="member">MR_CompensateRadiusParams_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRRadiusCompensation_8h_1a623946d6879b52bd8fd7854511fce1aa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a623946d6879b52bd8fd7854511fce1aa" kindref="member">MR_CompensateRadiusParams_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRRadiusCompensation_8h_1aa15869816b7e17408ed68152c5347138" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1aa15869816b7e17408ed68152c5347138" kindref="member">MR_CompensateRadiusParams_ConstructFrom</ref>(<ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>direction,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>toolRadius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1aba7bc6ac732c34fd4721c543fa3445ea" kindref="member">MR_FaceBitSet</ref><sp/>*region,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>maxIterations,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>relaxExpansion,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>relaxIterations,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>relaxForce,<sp/>MR_PassBy<sp/>callback_pass_by,<sp/><ref refid="MR3mf_8h_1adb03ce28cacfff1e499d75d512dc4a84" kindref="member">MR_std_function_bool_from_float</ref><sp/>*callback);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRRadiusCompensation_8h_1a19e5b1e09032bf491a0547274399a4ef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a19e5b1e09032bf491a0547274399a4ef" kindref="member">MR_CompensateRadiusParams_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="MRRadiusCompensation_8h_1a742a7366a206803849be73cdee95316b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a742a7366a206803849be73cdee95316b" kindref="member">MR_CompensateRadiusParams_OffsetMutablePtr</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRRadiusCompensation_8h_1a382419cb69b1e484f39aa5f583918d92" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a382419cb69b1e484f39aa5f583918d92" kindref="member">MR_CompensateRadiusParams_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221" refid="MRRadiusCompensation_8h_1a5fd74c7e139e189cf6d1869989756b59" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a5fd74c7e139e189cf6d1869989756b59" kindref="member">MR_CompensateRadiusParams_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="224" refid="MRRadiusCompensation_8h_1af8fa5a2fa65e1cb759684a6523df8480" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1af8fa5a2fa65e1cb759684a6523df8480" kindref="member">MR_CompensateRadiusParams_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRRadiusCompensation_8h_1a718575733a85c68f343c7d1f073064bd" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a718575733a85c68f343c7d1f073064bd" kindref="member">MR_CompensateRadiusParams_AssignFromAnother</ref>(<ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240" refid="MRRadiusCompensation_8h_1a69a3555547e0b6393f243edbfe0d205e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a077b8debfae88f9cf2267ad2db95c006" kindref="member">MR_expected_void_std_string</ref><sp/>*<ref refid="MRRadiusCompensation_8h_1a69a3555547e0b6393f243edbfe0d205e" kindref="member">MR_compensateRadius</ref>(<ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRadiusCompensation_8h_1a9bda45c6401321692836dd31bd72f413" kindref="member">MR_CompensateRadiusParams</ref><sp/>*params);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="243"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRadiusCompensation.h"/>
+  </compounddef>
+</doxygen>

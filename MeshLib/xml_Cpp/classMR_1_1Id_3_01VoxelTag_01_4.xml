@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Id_3_01VoxelTag_01_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::Id&lt; VoxelTag &gt;</compoundname>
+    <includes refid="MRId_8h" local="no">MRId.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga1721126059b434bd3be9c75a5283e1b2" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga86b74d257df4c8b17fffdc32bc9cd18f" kind="variable"><name>id_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga3c7dc9263d4fa1895f1bdc1568b408e4" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gaa0f2905eb6c86da47cae08b4571ad3d4" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gab6f6eb294209c3e8fdb41d4323718929" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gaa73485ddda48371c1efda62f67d4ead0" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gac4a05ca05d4a4bf296fb419cadc9e68d" kind="function"><name>operator ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga102a63cb1cdbb7460fb946408538feec" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1gacc60bd8db38d83fd7f7990dbae92e25b" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga28778e6e35ce6250d0ad0afbb71b84e4" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1gafea41fde734a9a4e69e5b8e0e0d3d808" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga332f7eebf20e314acdf5eec64e74bed5" kind="function"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gac0ba0e1d4145809b51e9d13111bc1824" kind="function"><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga84bef924a029cea716f7678bd08f9458" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gafbea823c755094f64670fea673e7d40a" kind="function"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga2acecd5b3dcf9c9786b896b6dee59846" kind="function"><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1gacf38499c87cb5ece6ede0adcdc30508a" kind="function"><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1ga495c288ee5ad04d057a50d5bd02593c7" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gadb08381f033bcf64b9bb0f11a3d3b60b" kind="function"><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1gacfd4a0f3e13840ab26b617b8373f6ed0" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gad1a1576baced2b8e58a25e981d287cba" kind="function"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gadb51a18dba8809f1bec78ac608393a68" kind="function"><name>operator+=</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="142" bodyend="181"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga28778e6e35ce6250d0ad0afbb71b84e4" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga3c7dc9263d4fa1895f1bdc1568b408e4" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gaa0f2905eb6c86da47cae08b4571ad3d4" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gab6f6eb294209c3e8fdb41d4323718929" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gaa73485ddda48371c1efda62f67d4ead0" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga86b74d257df4c8b17fffdc32bc9cd18f" prot="private" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>id_</name></member>
+      <member refid="group__GeneralGroup_1gacc60bd8db38d83fd7f7990dbae92e25b" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1gac4a05ca05d4a4bf296fb419cadc9e68d" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga332f7eebf20e314acdf5eec64e74bed5" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gafbea823c755094f64670fea673e7d40a" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga495c288ee5ad04d057a50d5bd02593c7" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gacfd4a0f3e13840ab26b617b8373f6ed0" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gadb51a18dba8809f1bec78ac608393a68" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1gacf38499c87cb5ece6ede0adcdc30508a" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1gadb08381f033bcf64b9bb0f11a3d3b60b" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1gad1a1576baced2b8e58a25e981d287cba" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gac0ba0e1d4145809b51e9d13111bc1824" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga2acecd5b3dcf9c9786b896b6dee59846" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1gafea41fde734a9a4e69e5b8e0e0d3d808" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga84bef924a029cea716f7678bd08f9458" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga102a63cb1cdbb7460fb946408538feec" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga1721126059b434bd3be9c75a5283e1b2" prot="public" virt="non-virtual"><scope>MR::Id&lt; VoxelTag &gt;</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

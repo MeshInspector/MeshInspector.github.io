@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MultiListener" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MultiListener</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Connectables...</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Connectables</declname>
+        <defname>Connectables</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" kind="function"><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" kind="function"><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" kind="function"><name>disconnect</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::MultiListener&lt; Connectables &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::MultiListener&lt; Connectables &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="32" bodyend="51"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::MultiListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::MultiListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::MultiListener</scope><name>~MultiListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

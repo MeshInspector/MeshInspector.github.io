@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgeLengthMesh" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EdgeLengthMesh</compoundname>
+    <includes refid="MREdgeLengthMesh_8h" local="no">MREdgeLengthMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga8354d05ed17b358631b7af8e742c2773" kind="variable"><name>topology</name></member>
+      <member refid="group__GeneralGroup_1gae600eca420be35f1622258bf5830453c" kind="variable"><name>edgeLengths</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gabf01cf2eeeb414bf371f5d2ba5d8d880" kind="function"><name>fromMesh</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gabdc61c2dae8f243c3682e0dfc637f536" kind="function"><name>leftCotan</name></member>
+      <member refid="group__GeneralGroup_1ga3b8d293f6ee11394128c078fc11bead8" kind="function"><name>cotan</name></member>
+      <member refid="group__GeneralGroup_1ga73fbab03758bfea01536569e133dd307" kind="function"><name>isDelone</name></member>
+      <member refid="group__GeneralGroup_1ga167ce08d19e1c861f1c9a08360456195" kind="function"><name>edgeLengthAfterFlip</name></member>
+      <member refid="group__GeneralGroup_1ga1b96a29808fed26956890232f3996c95" kind="function"><name>flipEdge</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Unlike the classic mesh that stores coordinates of its vertices, this class stores the lengths of all edges. It can be used for construction of intrinsic Intrinsic Delaunay Triangulations. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::EdgeLengthMesh</label>
+        <link refid="structMR_1_1EdgeLengthMesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgeLengthMesh.h" bodystart="16" bodyend="46"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3b8d293f6ee11394128c078fc11bead8" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>cotan</name></member>
+      <member refid="group__GeneralGroup_1ga167ce08d19e1c861f1c9a08360456195" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>edgeLengthAfterFlip</name></member>
+      <member refid="group__GeneralGroup_1gae600eca420be35f1622258bf5830453c" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>edgeLengths</name></member>
+      <member refid="group__GeneralGroup_1ga1b96a29808fed26956890232f3996c95" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>flipEdge</name></member>
+      <member refid="group__GeneralGroup_1gabf01cf2eeeb414bf371f5d2ba5d8d880" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>fromMesh</name></member>
+      <member refid="group__GeneralGroup_1ga73fbab03758bfea01536569e133dd307" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>isDelone</name></member>
+      <member refid="group__GeneralGroup_1gabdc61c2dae8f243c3682e0dfc637f536" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>leftCotan</name></member>
+      <member refid="group__GeneralGroup_1ga8354d05ed17b358631b7af8e742c2773" prot="public" virt="non-virtual"><scope>MR::EdgeLengthMesh</scope><name>topology</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EndMillCutter" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EndMillCutter</compoundname>
+    <includes refid="MREndMill_8h" local="no">MREndMill.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gab507809dfb8f5d7c74c8629fbb94d518" kind="enum"><name>Type</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga345bf16216bfaccfd158af74e386acbc" kind="variable"><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga70c992b2d214834d246a23811425f9d8" kind="variable"><name>cornerRadius</name></member>
+      <member refid="group__GeneralGroup_1ga81eafe021d71d7fb7b20c845dc847c94" kind="variable"><name>cuttingAngle</name></member>
+      <member refid="group__GeneralGroup_1gac48d5c8fc78e3aaa89d3614f193fbfd7" kind="variable"><name>endDiameter</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>end mill cutter specifications </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREndMill.h" bodystart="16" bodyend="38"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga70c992b2d214834d246a23811425f9d8" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>cornerRadius</name></member>
+      <member refid="group__GeneralGroup_1ga81eafe021d71d7fb7b20c845dc847c94" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>cuttingAngle</name></member>
+      <member refid="group__GeneralGroup_1gac48d5c8fc78e3aaa89d3614f193fbfd7" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>endDiameter</name></member>
+      <member refid="group__GeneralGroup_1gab507809dfb8f5d7c74c8629fbb94d518" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga345bf16216bfaccfd158af74e386acbc" prot="public" virt="non-virtual"><scope>MR::EndMillCutter</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

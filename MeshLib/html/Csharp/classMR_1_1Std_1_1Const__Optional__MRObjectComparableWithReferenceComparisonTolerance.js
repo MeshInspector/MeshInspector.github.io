@@ -1,8 +1,0 @@
-var classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparisonTolerance =
-[
-    [ "Const_Optional_MRObjectComparableWithReferenceComparisonTolerance", "classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparisonTolerance.html#a2391f88ed38475b3790d36446499e453", null ],
-    [ "Const_Optional_MRObjectComparableWithReferenceComparisonTolerance", "classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparisonTolerance.html#a089b7af13e431581fc3fe9a2224330be", null ],
-    [ "Const_Optional_MRObjectComparableWithReferenceComparisonTolerance", "classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparisonTolerance.html#a9d616a5bbdfc9e6be0e79df3b72ca78f", null ],
-    [ "operator Const_Optional_MRObjectComparableWithReferenceComparisonTolerance", "classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparisonTolerance.html#a2f57e690554a3815beed0e052289a2a9", null ],
-    [ "value", "classMR_1_1Std_1_1Const__Optional__MRObjectComparableWithReferenceComparisonTolerance.html#a99873816ef45b2c39142b7bc08bc81b2", null ]
-];

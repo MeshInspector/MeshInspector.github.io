@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1ae250ab240b6997d3cf6961ab9f16fc89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76085" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76085" bodyend="76086"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1ad585d27ed6ea20beb0de3a8bdb887f9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__call__</definition>
+        <argsstring>(self, Vector3f arg0, MeshOrPoints.ProjectionResult arg1)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshOrPoints_1_1ProjectionResult" kindref="compound">MeshOrPoints.ProjectionResult</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76087" bodyend="76088"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1ad91f81d876911bd2043bf44608c40558" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76090" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76090" bodyend="76091"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1a87e317a1a5ee9d86187dccfb9616e3fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76093" bodyend="76094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1a1bb5f8ee7f1538e369c81c1c43c822ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__init__</definition>
+        <argsstring>(self, func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult" kindref="compound">func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76096" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76096" bodyend="76097"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1abfaff1e8ae6fa7bec7cc5d8f0279291c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__init__</definition>
+        <argsstring>(self, typing.Callable[[Vector3f, MeshOrPoints.ProjectionResult], bool] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[Vector3f, MeshOrPoints.ProjectionResult]</array>
+        </param>
+        <param>
+          <type>bool]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76099" bodyend="76100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1a22f7d2655d01539ed9376f74a281acc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76101" bodyend="76104"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1a39d0354d4684e3c320d1e0a3fe67ccd2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76105" bodyend="76108"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76084" bodyend="76108"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1ae250ab240b6997d3cf6961ab9f16fc89" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1ad585d27ed6ea20beb0de3a8bdb887f9d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1ad91f81d876911bd2043bf44608c40558" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1a87e317a1a5ee9d86187dccfb9616e3fe" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1a1bb5f8ee7f1538e369c81c1c43c822ac" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1abfaff1e8ae6fa7bec7cc5d8f0279291c" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1a22f7d2655d01539ed9376f74a281acc6" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__Vector3__float__MeshOrPoints__ProjectionResult_1a39d0354d4684e3c320d1e0a3fe67ccd2" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_Vector3_float_MeshOrPoints_ProjectionResult</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

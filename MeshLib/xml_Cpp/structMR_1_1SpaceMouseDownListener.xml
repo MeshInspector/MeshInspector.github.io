@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SpaceMouseDownListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::SpaceMouseDownListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga62ddb5d37af81e7ed90affcdddcbe0e8" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga05b541f48e7534ed7df5e11043b82bca" kind="function"><name>~SpaceMouseDownListener</name></member>
+      <member refid="group__GeneralGroup_1ga4eeccec353b642dd28cf7b99fa08135d" kind="function"><name>connect</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga395df26bbdf613370b0ad0b4af252f1f" kind="function"><name>spaceMouseDown_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class to subscribe on SpaceMouseDownSgnal </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::SpaceMouseDownListener</label>
+        <link refid="structMR_1_1SpaceMouseDownListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::SpaceMouseDownListener</label>
+        <link refid="structMR_1_1SpaceMouseDownListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="290" bodyend="296"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga4eeccec353b642dd28cf7b99fa08135d" prot="public" virt="virtual"><scope>MR::SpaceMouseDownListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::SpaceMouseDownListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::SpaceMouseDownListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga62ddb5d37af81e7ed90affcdddcbe0e8" prot="public" virt="non-virtual"><scope>MR::SpaceMouseDownListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga395df26bbdf613370b0ad0b4af252f1f" prot="protected" virt="pure-virtual"><scope>MR::SpaceMouseDownListener</scope><name>spaceMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::SpaceMouseDownListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::SpaceMouseDownListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga05b541f48e7534ed7df5e11043b82bca" prot="public" virt="virtual"><scope>MR::SpaceMouseDownListener</scope><name>~SpaceMouseDownListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

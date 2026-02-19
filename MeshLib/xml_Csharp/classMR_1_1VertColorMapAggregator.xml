@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VertColorMapAggregator" kind="class" language="C#" prot="public">
+    <compoundname>MR::VertColorMapAggregator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertColorMapAggregator</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a0397423d8d759b95ea805ae9a98416c3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertColorMapAggregator.VertColorMapAggregator</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VertColorMapAggregator</name>
+        <qualifiedname>MR.VertColorMapAggregator.VertColorMapAggregator</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="345" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="345" bodyend="345"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1af28eb88db5572db895fdf30f1ed2d5f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertColorMapAggregator.VertColorMapAggregator</definition>
+        <argsstring>()</argsstring>
+        <name>VertColorMapAggregator</name>
+        <qualifiedname>MR.VertColorMapAggregator.VertColorMapAggregator</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="350" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="350" bodyend="355"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1aed14ab3e8e01ab22ae053764c07aabf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertColorMapAggregator.VertColorMapAggregator</definition>
+        <argsstring>(MR._ByValue_VertColorMapAggregator _other)</argsstring>
+        <name>VertColorMapAggregator</name>
+        <qualifiedname>MR.VertColorMapAggregator.VertColorMapAggregator</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertColorMapAggregator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertColorMapAggregator.VertColorMapAggregator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="360" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="360" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1ad37b78df508fd0490475d2c5e19b0b62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VertColorMapAggregator.VertColorMapAggregator</definition>
+        <argsstring>(Const_VertColorMapAggregator _other)</argsstring>
+        <name>VertColorMapAggregator</name>
+        <qualifiedname>MR.VertColorMapAggregator.VertColorMapAggregator</qualifiedname>
+        <param>
+          <type>Const_VertColorMapAggregator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertColorMapAggregator.VertColorMapAggregator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="371" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="371" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a67bffe0ab2ee44dbd7d3943559c4e554" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VertColorMapAggregator.VertColorMapAggregator</definition>
+        <argsstring>(VertColorMapAggregator _other)</argsstring>
+        <name>VertColorMapAggregator</name>
+        <qualifiedname>MR.VertColorMapAggregator.VertColorMapAggregator</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertColorMapAggregator" kindref="compound">VertColorMapAggregator</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertColorMapAggregator.VertColorMapAggregator</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="376" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="376" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1aa4ea7dfb4303767befbee737f2bf5d5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertColorMapAggregator" kindref="compound">MR.VertColorMapAggregator</ref></type>
+        <definition>unsafe MR.VertColorMapAggregator MR.VertColorMapAggregator.assign</definition>
+        <argsstring>(MR._ByValue_VertColorMapAggregator _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VertColorMapAggregator.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertColorMapAggregator</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertColorMapAggregator.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="381" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="381" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1aea004db0c67e9e9c2cb3891d0793489e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertColorMapAggregator.setDefaultColor</definition>
+        <argsstring>(in MR.Color color)</argsstring>
+        <name>setDefaultColor</name>
+        <qualifiedname>MR.VertColorMapAggregator.setDefaultColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <briefdescription>
+<para>set default (background) color Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1aea004db0c67e9e9c2cb3891d0793489e" kindref="member">MR.VertColorMapAggregator.setDefaultColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="394" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="394" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a9220e066e32296ab827c719ec2c6f283" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertColorMapAggregator.pushBack</definition>
+        <argsstring>(MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap partitialColorMap)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.VertColorMapAggregator.pushBack</qualifiedname>
+        <param>
+          <type>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+<para>add color map after all (more priority) Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1a9220e066e32296ab827c719ec2c6f283" kindref="member">MR.VertColorMapAggregator.pushBack</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="408" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="408" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a8c989d3ea8d91eabe696cefe5d0d6430" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertColorMapAggregator.insert</definition>
+        <argsstring>(int i, MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap partitialColorMap)</argsstring>
+        <name>insert</name>
+        <qualifiedname>MR.VertColorMapAggregator.insert</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+<para>insert color map before element #i (0 - minimum priority) Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1a8c989d3ea8d91eabe696cefe5d0d6430" kindref="member">MR.VertColorMapAggregator.insert</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="419" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="419" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a613707b4dfd8cb911957861f8184925b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertColorMapAggregator.replace</definition>
+        <argsstring>(int i, MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap partitialColorMap)</argsstring>
+        <name>replace</name>
+        <qualifiedname>MR.VertColorMapAggregator.replace</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</type>
+          <declname>partitialColorMap</declname>
+        </param>
+        <briefdescription>
+<para>replace color map in #i position Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1a613707b4dfd8cb911957861f8184925b" kindref="member">MR.VertColorMapAggregator.replace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="430" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="430" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a674c9bca51f3b15790f8b0dfc318a4bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertColorMapAggregator.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.VertColorMapAggregator.reset</qualifiedname>
+        <briefdescription>
+<para>reset all accumulated color map Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1a674c9bca51f3b15790f8b0dfc318a4bb" kindref="member">MR.VertColorMapAggregator.reset</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="441" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="441" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1ac494042add60feacab61086a403a42f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>unsafe ulong MR.VertColorMapAggregator.getColorMapNumber</definition>
+        <argsstring>()</argsstring>
+        <name>getColorMapNumber</name>
+        <qualifiedname>MR.VertColorMapAggregator.getColorMapNumber</qualifiedname>
+        <briefdescription>
+<para>get number of accumulated color maps Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1ac494042add60feacab61086a403a42f3" kindref="member">MR.VertColorMapAggregator.getColorMapNumber</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="452" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="452" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1a7d5867ad680a643ff7ce78948538285b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap</type>
+        <definition>unsafe MR.ColorMapAggregator_MRVertTag.Const_PartialColorMap MR.VertColorMapAggregator.getPartialColorMap</definition>
+        <argsstring>(int i)</argsstring>
+        <name>getPartialColorMap</name>
+        <qualifiedname>MR.VertColorMapAggregator.getPartialColorMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>get partial color map map by index Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1a7d5867ad680a643ff7ce78948538285b" kindref="member">MR.VertColorMapAggregator.getPartialColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="463" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="463" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1afa26691c4311e5a67507895186441af2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertColorMapAggregator.erase</definition>
+        <argsstring>(int i, int? n=null)</argsstring>
+        <name>erase</name>
+        <qualifiedname>MR.VertColorMapAggregator.erase</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>n</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>erase n color map from #i Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1afa26691c4311e5a67507895186441af2" kindref="member">MR.VertColorMapAggregator.erase</ref></computeroutput>. Parameter <computeroutput>n</computeroutput> defaults to <computeroutput>1</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="475" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="475" bodyend="481"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1aaaa7adb03fceffec9967545fff7c792c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertColorMapAggregator.setMode</definition>
+        <argsstring>(MR.ColorMapAggregator_MRVertTag.AggregateMode mode)</argsstring>
+        <name>setMode</name>
+        <qualifiedname>MR.VertColorMapAggregator.setMode</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ColorMapAggregator__MRVertTag_1a7845fa3cb26a19f858d7d78307774467" kindref="member">MR.ColorMapAggregator_MRVertTag.AggregateMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>set color map aggregating mode Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1aaaa7adb03fceffec9967545fff7c792c" kindref="member">MR.VertColorMapAggregator.setMode</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="487" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="487" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertColorMapAggregator_1abf0154a96061e480547ad1c02b2e8c60" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref></type>
+        <definition>unsafe MR.VertColors MR.VertColorMapAggregator.aggregate</definition>
+        <argsstring>(MR.Const_VertBitSet elementBitSet)</argsstring>
+        <name>aggregate</name>
+        <qualifiedname>MR.VertColorMapAggregator.aggregate</qualifiedname>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>elementBitSet</declname>
+        </param>
+        <briefdescription>
+<para>get aggregated color map for active elements Generated from method <computeroutput><ref refid="classMR_1_1VertColorMapAggregator_1abf0154a96061e480547ad1c02b2e8c60" kindref="member">MR.VertColorMapAggregator.aggregate</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="498" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="498" bodyend="503"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Class for aggregate several color map in one <ref refid="structMR_1_1Color" kindref="compound">Color</ref> maps are aggregated according order Generated from class <computeroutput><ref refid="classMR_1_1VertColorMapAggregator" kindref="compound">MR.VertColorMapAggregator</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_VertColorMapAggregator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VertColorMapAggregator</label>
+        <link refid="classMR_1_1VertColorMapAggregator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VertColorMapAggregator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_VertColorMapAggregator</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VertColorMapAggregator</label>
+        <link refid="classMR_1_1VertColorMapAggregator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VertColorMapAggregator &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" line="343" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRColorMapAggregator.cs" bodystart="344" bodyend="504"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VertColorMapAggregator_1abf0154a96061e480547ad1c02b2e8c60" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>aggregate</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1aa4ea7dfb4303767befbee737f2bf5d5f" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>assign</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1afa26691c4311e5a67507895186441af2" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>erase</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1ac494042add60feacab61086a403a42f3" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>getColorMapNumber</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1a7d5867ad680a643ff7ce78948538285b" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>getPartialColorMap</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1a8c989d3ea8d91eabe696cefe5d0d6430" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>insert</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1a9220e066e32296ab827c719ec2c6f283" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1a613707b4dfd8cb911957861f8184925b" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>replace</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1a674c9bca51f3b15790f8b0dfc318a4bb" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>reset</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1aea004db0c67e9e9c2cb3891d0793489e" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>setDefaultColor</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1aaaa7adb03fceffec9967545fff7c792c" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>setMode</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1a0397423d8d759b95ea805ae9a98416c3" prot="package" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>VertColorMapAggregator</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1af28eb88db5572db895fdf30f1ed2d5f8" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>VertColorMapAggregator</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1aed14ab3e8e01ab22ae053764c07aabf6" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>VertColorMapAggregator</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1ad37b78df508fd0490475d2c5e19b0b62" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>VertColorMapAggregator</name></member>
+      <member refid="classMR_1_1VertColorMapAggregator_1a67bffe0ab2ee44dbd7d3943559c4e554" prot="public" virt="non-virtual"><scope>MR::VertColorMapAggregator</scope><name>VertColorMapAggregator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

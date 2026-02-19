@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillHolesWithExtraPointsParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillHolesWithExtraPointsParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1af41ebc0776cace2dd3b6d952cdaa2fca" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHolesWithExtraPointsParams::_offsetof_modifyBdVertices</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_modifyBdVertices</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams._offsetof_modifyBdVertices</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a340b79e3c27808137bacaf088825b013" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHolesWithExtraPointsParams::_offsetof_triangulation</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_triangulation</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams._offsetof_triangulation</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19517" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1ae0b956c13558d07a4daa026b965c1caa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHolesWithExtraPointsParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19521" bodyend="19522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a3a6f23b8051108e481f9debb1eefb5a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams" kindref="compound">FillHolesWithExtraPointsParams</ref></type>
+        <definition> FillHolesWithExtraPointsParams mrmeshpy.FillHolesWithExtraPointsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19525" bodyend="19526"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a3a6f23b8051108e481f9debb1eefb5a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams" kindref="compound">FillHolesWithExtraPointsParams</ref></type>
+        <definition> FillHolesWithExtraPointsParams mrmeshpy.FillHolesWithExtraPointsParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19529" bodyend="19530"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a42d9405bd865a787ed31f1ce63a83712" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHolesWithExtraPointsParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19532" bodyend="19533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a359aec1280c76644d5a95d07ca6e50a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHolesWithExtraPointsParams.__init__</definition>
+        <argsstring>(self, FillHolesWithExtraPointsParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams" kindref="compound">FillHolesWithExtraPointsParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19535" bodyend="19538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a7d89eacf05b2c0b2db4460a2e3356a84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHolesWithExtraPointsParams.__init__</definition>
+        <argsstring>(self, TriangulationParameters triangulation, VertBitSet modifyBdVertices)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref></type>
+          <declname>triangulation</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>modifyBdVertices</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19540" bodyend="19543"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a13fcf8879396b0e9498944c8f6a5ab91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.FillHolesWithExtraPointsParams.modifyBdVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>modifyBdVertices</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams.modifyBdVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if nullptr, then any boundary vertex of input mesh can get new triangles;
+otherwise only vertices from modifyBdVertices can get new triangles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19545" bodyend="19549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a14332e7eb5fe569085b6849469c6ddc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHolesWithExtraPointsParams.modifyBdVertices</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>modifyBdVertices</name>
+        <qualifiedname>mrmeshpy.FillHolesWithExtraPointsParams.modifyBdVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19551" bodyend="19552"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FillHolesWithExtraPointsParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FillHolesWithExtraPointsParams</label>
+        <link refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_modifyBdVertices</edgelabel>
+          <edgelabel>_offsetof_triangulation</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19512" bodyend="19552"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1ae0b956c13558d07a4daa026b965c1caa" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a42d9405bd865a787ed31f1ce63a83712" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a359aec1280c76644d5a95d07ca6e50a3" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a7d89eacf05b2c0b2db4460a2e3356a84" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1af41ebc0776cace2dd3b6d952cdaa2fca" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>_offsetof_modifyBdVertices</name></member>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a340b79e3c27808137bacaf088825b013" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>_offsetof_triangulation</name></member>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a13fcf8879396b0e9498944c8f6a5ab91" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>modifyBdVertices</name></member>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a14332e7eb5fe569085b6849469c6ddc7" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>modifyBdVertices</name></member>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a3a6f23b8051108e481f9debb1eefb5a4" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillHolesWithExtraPointsParams_1a3a6f23b8051108e481f9debb1eefb5a4" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHolesWithExtraPointsParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

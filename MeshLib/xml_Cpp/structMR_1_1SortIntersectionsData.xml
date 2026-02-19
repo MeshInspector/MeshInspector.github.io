@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SortIntersectionsData" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SortIntersectionsData</compoundname>
+    <includes refid="MROneMeshContours_8h" local="no">MROneMeshContours.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac190f44f37a1e2b9ece5d869fe02015d" kind="variable"><name>otherMesh</name></member>
+      <member refid="group__GeneralGroup_1ga3e022423fc25738632598f90c2caf5b1" kind="variable"><name>contours</name></member>
+      <member refid="group__GeneralGroup_1ga4799d62c8691f94b44fc3c7f3a77bbe4" kind="variable"><name>converter</name></member>
+      <member refid="group__GeneralGroup_1ga24cce95182673d88059c5d9a38905fc0" kind="variable"><name>rigidB2A</name></member>
+      <member refid="group__GeneralGroup_1ga4ffc178d247321fb6150846084fd616a" kind="variable"><name>meshAVertsNum</name></member>
+      <member refid="group__GeneralGroup_1ga64cd77d679e163bbff985d79336ae2c4" kind="variable"><name>isOtherA</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Special data to sort intersections more accurate. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+      <node id="1">
+        <label>MR::SortIntersectionsData</label>
+        <link refid="structMR_1_1SortIntersectionsData"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>otherMesh</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROneMeshContours.h" bodystart="17" bodyend="24"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3e022423fc25738632598f90c2caf5b1" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>contours</name></member>
+      <member refid="group__GeneralGroup_1ga4799d62c8691f94b44fc3c7f3a77bbe4" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>converter</name></member>
+      <member refid="group__GeneralGroup_1ga64cd77d679e163bbff985d79336ae2c4" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>isOtherA</name></member>
+      <member refid="group__GeneralGroup_1ga4ffc178d247321fb6150846084fd616a" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>meshAVertsNum</name></member>
+      <member refid="group__GeneralGroup_1gac190f44f37a1e2b9ece5d869fe02015d" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>otherMesh</name></member>
+      <member refid="group__GeneralGroup_1ga24cce95182673d88059c5d9a38905fc0" prot="public" virt="non-virtual"><scope>MR::SortIntersectionsData</scope><name>rigidB2A</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

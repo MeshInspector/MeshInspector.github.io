@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrviewerpy_1_1ViewportFitMode" kind="class" language="Python" prot="public">
+    <compoundname>mrviewerpy::ViewportFitMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrviewerpy_1_1ViewportFitMode_1a1be6b68c4b56814516758448adee265b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrviewerpy.ViewportFitMode::SelectedObjects</definition>
+        <argsstring></argsstring>
+        <name>SelectedObjects</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.SelectedObjects</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrviewerpy_1_1ViewportFitMode" kindref="compound">ViewportFitMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrviewerpy_1_1ViewportFitMode_1abf83a39e9fbbd1b46b75535fe6a4548d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrviewerpy.ViewportFitMode::SelectedPrimitives</definition>
+        <argsstring></argsstring>
+        <name>SelectedPrimitives</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.SelectedPrimitives</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrviewerpy_1_1ViewportFitMode" kindref="compound">ViewportFitMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrviewerpy_1_1ViewportFitMode_1aee7d353bbfcf4223551c10038e2d14d8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrviewerpy.ViewportFitMode::Visible</definition>
+        <argsstring></argsstring>
+        <name>Visible</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.Visible</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrviewerpy_1_1ViewportFitMode" kindref="compound">ViewportFitMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="411" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrviewerpy_1_1ViewportFitMode_1aee6d386112fea4cd46cd8b87524f0398" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrviewerpy.ViewportFitMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrviewerpy_1_1ViewportFitMode" kindref="compound">ViewportFitMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="412" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1ad46aa62e401a73ef6b430857f49f6369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrviewerpy.ViewportFitMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="413" bodyend="414"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1a22d0431d1f2197d3d5e12e7f856d1f2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.ViewportFitMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="415" bodyend="416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1a1437642b98d6cea1eac5397d00e6421b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.ViewportFitMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="417" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1a920ec160a74b8cd440a4c0ac8fe07e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.ViewportFitMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="419" bodyend="420"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1ac442830d0c7384190633a20a91b30649" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.ViewportFitMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="421" bodyend="422"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1a20adbb0f22782ff6c8b2718f706f145b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.ViewportFitMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="423" bodyend="424"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1a4ee67889251cafa4965efa15c1aa3458" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrviewerpy.ViewportFitMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="425" bodyend="426"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1a501d4ded405dc738fe6b7c46f56415a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.ViewportFitMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="427" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1ac011b257e7615832933645e53f2df154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.ViewportFitMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="429" bodyend="430"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1a669945071b6f70d5d62f21df2870b803" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.ViewportFitMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="431" bodyend="432"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1a72d9c31c83a4a1cfa38c5b71ae22ee81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.ViewportFitMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="434" bodyend="435"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewportFitMode_1accf311d8d79050101d711387cd93bedb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.ViewportFitMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrviewerpy.ViewportFitMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="437" bodyend="438"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Fit mode ( types of objects for which the fit is applied )
+
+Members:
+
+  Visible : fit all visible objects
+
+  SelectedObjects : fit only selected objects
+
+  SelectedPrimitives : fit only selected primitives
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrviewerpy.ViewportFitMode</label>
+        <link refid="classmrviewerpy_1_1ViewportFitMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>SelectedObjects</edgelabel>
+          <edgelabel>SelectedPrimitives</edgelabel>
+          <edgelabel>Visible</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="397" bodyend="438"/>
+    <listofallmembers>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1ad46aa62e401a73ef6b430857f49f6369" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__eq__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1a22d0431d1f2197d3d5e12e7f856d1f2e" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__getstate__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1a1437642b98d6cea1eac5397d00e6421b" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__hash__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1a920ec160a74b8cd440a4c0ac8fe07e37" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__index__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1ac442830d0c7384190633a20a91b30649" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__init__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1a20adbb0f22782ff6c8b2718f706f145b" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__int__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1aee6d386112fea4cd46cd8b87524f0398" prot="private" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__members__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1a4ee67889251cafa4965efa15c1aa3458" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__ne__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1a501d4ded405dc738fe6b7c46f56415a8" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__repr__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1ac011b257e7615832933645e53f2df154" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__setstate__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1a669945071b6f70d5d62f21df2870b803" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>__str__</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1a72d9c31c83a4a1cfa38c5b71ae22ee81" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>name</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1a1be6b68c4b56814516758448adee265b" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>SelectedObjects</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1abf83a39e9fbbd1b46b75535fe6a4548d" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>SelectedPrimitives</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1accf311d8d79050101d711387cd93bedb" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>value</name></member>
+      <member refid="classmrviewerpy_1_1ViewportFitMode_1aee7d353bbfcf4223551c10038e2d14d8" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewportFitMode</scope><name>Visible</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

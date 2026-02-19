@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SearchPathSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SearchPathSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SearchPathSettings_1a8b00d974e60f42c13f1de6789e17fdc2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SearchPathSettings::_offsetof_geodesicPathApprox</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_geodesicPathApprox</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings._offsetof_geodesicPathApprox</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51516" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SearchPathSettings_1aa7685bcbea57aaca694a755eb7cd5b10" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SearchPathSettings::_offsetof_maxReduceIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxReduceIters</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings._offsetof_maxReduceIters</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51517" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1a5d4fa23d1f4e2ee3b9407c51efe5f4f7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SearchPathSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51520" bodyend="51521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1aab05297aca803fd40b9148196a0c07a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref></type>
+        <definition> SearchPathSettings mrmeshpy.SearchPathSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51524" bodyend="51525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1aab05297aca803fd40b9148196a0c07a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref></type>
+        <definition> SearchPathSettings mrmeshpy.SearchPathSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51528" bodyend="51529"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1a0671cb33429d6b816a0831deedfd51c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SearchPathSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51531" bodyend="51532"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1a8ac90c4028d005565d5e6c0a22e2d92a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SearchPathSettings.__init__</definition>
+        <argsstring>(self, SearchPathSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SearchPathSettings" kindref="compound">SearchPathSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51534" bodyend="51537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1a1d05f91ff54f0b11630ab3dd0ca7fb26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SearchPathSettings.__init__</definition>
+        <argsstring>(self, GeodesicPathApprox geodesicPathApprox, int maxReduceIters)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GeodesicPathApprox" kindref="compound">GeodesicPathApprox</ref></type>
+          <declname>geodesicPathApprox</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxReduceIters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51539" bodyend="51542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1aa1b6fc8633877c070110e8bfe79841fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GeodesicPathApprox" kindref="compound">GeodesicPathApprox</ref></type>
+        <definition> GeodesicPathApprox mrmeshpy.SearchPathSettings.geodesicPathApprox</definition>
+        <argsstring>(self)</argsstring>
+        <name>geodesicPathApprox</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.geodesicPathApprox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the algorithm to compute approximately geodesic path
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51544" bodyend="51547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1a8bbbe27f185c48ed89adc78a80c352eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SearchPathSettings.geodesicPathApprox</definition>
+        <argsstring>(self, GeodesicPathApprox arg1)</argsstring>
+        <name>geodesicPathApprox</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.geodesicPathApprox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GeodesicPathApprox" kindref="compound">GeodesicPathApprox</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51549" bodyend="51550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1a725961fe78cac92cf5601834c523199c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SearchPathSettings.maxReduceIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxReduceIters</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.maxReduceIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the maximum number of iterations to reduce approximate path length and convert it in geodesic path
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51552" bodyend="51555"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SearchPathSettings_1a8fd4c8ae8efda10230fb39249c8a28ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SearchPathSettings.maxReduceIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxReduceIters</name>
+        <qualifiedname>mrmeshpy.SearchPathSettings.maxReduceIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51557" bodyend="51558"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SearchPathSettings
+
+Geo path search settings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SearchPathSettings</label>
+        <link refid="classmrmeshpy_1_1SearchPathSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_geodesicPathApprox</edgelabel>
+          <edgelabel>_offsetof_maxReduceIters</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51510" bodyend="51558"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1a5d4fa23d1f4e2ee3b9407c51efe5f4f7" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1a0671cb33429d6b816a0831deedfd51c4" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1a8ac90c4028d005565d5e6c0a22e2d92a" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1a1d05f91ff54f0b11630ab3dd0ca7fb26" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1a8b00d974e60f42c13f1de6789e17fdc2" prot="protected" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>_offsetof_geodesicPathApprox</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1aa7685bcbea57aaca694a755eb7cd5b10" prot="protected" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>_offsetof_maxReduceIters</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1aa1b6fc8633877c070110e8bfe79841fa" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>geodesicPathApprox</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1a8bbbe27f185c48ed89adc78a80c352eb" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>geodesicPathApprox</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1a725961fe78cac92cf5601834c523199c" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>maxReduceIters</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1a8fd4c8ae8efda10230fb39249c8a28ca" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>maxReduceIters</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1aab05297aca803fd40b9148196a0c07a2" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SearchPathSettings_1aab05297aca803fd40b9148196a0c07a2" prot="public" virt="non-virtual"><scope>mrmeshpy::SearchPathSettings</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PixelSizeUnit" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PixelSizeUnit</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PixelSizeUnit_1aceb80b2092e7131cfc4b8426baaa691d" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PixelSizeUnit::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1PixelSizeUnit" kindref="compound">PixelSizeUnit</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43494" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PixelSizeUnit_1a714eb420141f2f78b353ae40d2ad0205" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PixelSizeUnit::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PixelSizeUnit" kindref="compound">PixelSizeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43495" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PixelSizeUnit_1a90b6837e1943f2dc0fd82c4bd6c56e9e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PixelSizeUnit::pixels</definition>
+        <argsstring></argsstring>
+        <name>pixels</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.pixels</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PixelSizeUnit" kindref="compound">PixelSizeUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43496" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1a09533bfe2380347e22d0aeafea6f30f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PixelSizeUnit.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43497" bodyend="43498"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1ae0c948a943f4d4b7f8a4cc6e7d9fc8cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PixelSizeUnit.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43499" bodyend="43500"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1ae42c7b900b7ff842fee5a935788476e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PixelSizeUnit.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43501" bodyend="43502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1a51745663f0823e2e68990f477beff189" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PixelSizeUnit.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43503" bodyend="43504"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1a832f8c6c919589bc50a9e217f0db3955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelSizeUnit.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43505" bodyend="43506"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1ad1640af4c0f360894754cb5c6c57a1a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PixelSizeUnit.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43507" bodyend="43508"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1abdbb11ff0ac0fd1e6a6d879fb6e0dd5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PixelSizeUnit.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43509" bodyend="43510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1ad8aa671308c87cdebb37692bb3bf1d49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PixelSizeUnit.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43511" bodyend="43512"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1a5acef4a9faa2d113ce405e8953a595e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelSizeUnit.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43513" bodyend="43514"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1a4cd73d55d929cdb0718d5935cc6f6716" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PixelSizeUnit.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43515" bodyend="43516"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1aee1270b2309971f4203ba99c6bdba10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PixelSizeUnit.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43518" bodyend="43519"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelSizeUnit_1abfbc86fa1a5fca60bba000f19a658111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PixelSizeUnit.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.PixelSizeUnit.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43521" bodyend="43522"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  pixels
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PixelSizeUnit</label>
+        <link refid="classmrmeshpy_1_1PixelSizeUnit"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_count</edgelabel>
+          <edgelabel>pixels</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43486" bodyend="43522"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1a09533bfe2380347e22d0aeafea6f30f8" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1ae0c948a943f4d4b7f8a4cc6e7d9fc8cc" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1ae42c7b900b7ff842fee5a935788476e0" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1a51745663f0823e2e68990f477beff189" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1a832f8c6c919589bc50a9e217f0db3955" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1ad1640af4c0f360894754cb5c6c57a1a1" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1aceb80b2092e7131cfc4b8426baaa691d" prot="private" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1abdbb11ff0ac0fd1e6a6d879fb6e0dd5f" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1ad8aa671308c87cdebb37692bb3bf1d49" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1a5acef4a9faa2d113ce405e8953a595e6" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1a4cd73d55d929cdb0718d5935cc6f6716" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1a714eb420141f2f78b353ae40d2ad0205" prot="protected" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1aee1270b2309971f4203ba99c6bdba10d" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1a90b6837e1943f2dc0fd82c4bd6c56e9e" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>pixels</name></member>
+      <member refid="classmrmeshpy_1_1PixelSizeUnit_1abfbc86fa1a5fca60bba000f19a658111" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelSizeUnit</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

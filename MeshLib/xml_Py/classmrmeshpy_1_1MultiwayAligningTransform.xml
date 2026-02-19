@@ -1,0 +1,344 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MultiwayAligningTransform" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MultiwayAligningTransform</compoundname>
+    <innerclass refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer" prot="public">mrmeshpy::MultiwayAligningTransform::Stabilizer</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1a2db343f946a5b354781a0f30a6581534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36479" bodyend="36480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1a8c6e4084649c4b0472c23f43666a6c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.__init__</definition>
+        <argsstring>(self, int numObjs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numObjs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>initializes internal data to start registering given number of objects
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36482" bodyend="36485"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1ab224475675855739431f7747ca691553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.add</definition>
+        <argsstring>(self, int objA, Vector3d pA, int objB, Vector3d pB, float w=1)</argsstring>
+        <name>add</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.add</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>objA</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>pA</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>objB</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends a 3D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB)
+with link penalty equal to weight (w) times squared distance between two points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36487" bodyend="36491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1a05b5f27e3d0e4cba6f6a0bf1e5e6b035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.add</definition>
+        <argsstring>(self, int objA, Vector3f pA, int objB, Vector3f pB, float w=1)</argsstring>
+        <name>add</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.add</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>objA</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pA</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>objB</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends a 3D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB)
+with link penalty equal to weight (w) times squared distance between two points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36493" bodyend="36497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1a69a6c2e01e612aac5dde805871616e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.add</definition>
+        <argsstring>(self, int objA, Vector3d pA, int objB, Vector3d pB, Vector3d n, float w=1)</argsstring>
+        <name>add</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.add</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>objA</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>pA</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>objB</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends a 1D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB)
+with link penalty equal to weight (w) times squared distance between their projections on given direction (n);
+for a point on last fixed object, it is equivalent to point-to-plane link with the plane through that fixed point with normal (n)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36499" bodyend="36504"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1a4f7172fda936c9789ec7f605a72e39f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.add</definition>
+        <argsstring>(self, int objA, Vector3f pA, int objB, Vector3f pB, Vector3f n, float w=1)</argsstring>
+        <name>add</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.add</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>objA</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pA</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>objB</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>pB</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends a 1D link into consideration: one point (pA) from (objA), and the other point (pB) from (objB)
+with link penalty equal to weight (w) times squared distance between their projections on given direction (n);
+for a point on last fixed object, it is equivalent to point-to-plane link with the plane through that fixed point with normal (n)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36506" bodyend="36511"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1a8c1b01e022ca074cd53ec698621bfbd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.add</definition>
+        <argsstring>(self, MultiwayAligningTransform r)</argsstring>
+        <name>add</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.add</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MultiwayAligningTransform" kindref="compound">MultiwayAligningTransform</ref></type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends links accumulated in (r) into this
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36513" bodyend="36516"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1a7e84e9c065bdbee8f9a370aeb57547f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.reset</definition>
+        <argsstring>(self, int numObjs)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numObjs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reinitializes internal data to start registering given number of objects
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36517" bodyend="36520"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1a6b6243aade4dfa986d35b65bc8d92d1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__RigidXf3__double" kindref="compound">std_vector_RigidXf3_double</ref></type>
+        <definition> std_vector_RigidXf3_double mrmeshpy.MultiwayAligningTransform.solve</definition>
+        <argsstring>(self, MultiwayAligningTransform.Stabilizer stab)</argsstring>
+        <name>solve</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.solve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer" kindref="compound">MultiwayAligningTransform.Stabilizer</ref></type>
+          <declname>stab</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the solution consisting of all objects transformations (numObj),
+that minimizes the summed weighted squared distance among accumulated links;
+the transform of the last object is always identity (it is fixed)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36522" bodyend="36527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1a4a84d364392ffbfc62a812f368fe365b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__RigidXf3__double" kindref="compound">std_vector_RigidXf3_double</ref></type>
+        <definition> std_vector_RigidXf3_double mrmeshpy.MultiwayAligningTransform.solve</definition>
+        <argsstring>(self)</argsstring>
+        <name>solve</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.solve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36529" bodyend="36530"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MultiwayAligningTransform
+
+This class can be used to solve the problem of multiple 3D objects alignment,
+by first collecting weighted links between pairs of points from different objects,
+and then solving for transformations minimizing weighted average of link penalties
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36420" bodyend="36530"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1a2db343f946a5b354781a0f30a6581534" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1a8c6e4084649c4b0472c23f43666a6c88" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1ab224475675855739431f7747ca691553" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>add</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1a05b5f27e3d0e4cba6f6a0bf1e5e6b035" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>add</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1a69a6c2e01e612aac5dde805871616e7d" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>add</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1a4f7172fda936c9789ec7f605a72e39f4" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>add</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1a8c1b01e022ca074cd53ec698621bfbd7" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>add</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1a7e84e9c065bdbee8f9a370aeb57547f9" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1a6b6243aade4dfa986d35b65bc8d92d1c" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>solve</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1a4a84d364392ffbfc62a812f368fe365b" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform</scope><name>solve</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

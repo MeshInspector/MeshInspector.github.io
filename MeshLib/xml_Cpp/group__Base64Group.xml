@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__Base64Group" kind="group">
+    <compoundname>Base64Group</compoundname>
+    <title>Base64</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__Base64Group_1gabd2c1022cef53452d3ad25131091a323" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::string</type>
+        <definition>MRMESH_API std::string MR::encode64</definition>
+        <argsstring>(const std::uint8_t *data, size_t size)</argsstring>
+        <name>encode64</name>
+        <qualifiedname>MR::encode64</qualifiedname>
+        <param>
+          <type>const std::uint8_t *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>encodes binary data into textual Base64 format </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBase64.h" line="19" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBase64.h" declline="19" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__Base64Group_1ga1e8a53884a01d95c7779f5f0983fa343" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; std::uint8_t &gt;</type>
+        <definition>MRMESH_API std::vector&lt; std::uint8_t &gt; MR::decode64</definition>
+        <argsstring>(const std::string &amp;val)</argsstring>
+        <name>decode64</name>
+        <qualifiedname>MR::decode64</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>decodes Base64 format into binary data </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBase64.h" line="22" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBase64.h" declline="22" declcolumn="24"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

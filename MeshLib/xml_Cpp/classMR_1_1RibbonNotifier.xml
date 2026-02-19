@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonNotifier" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonNotifier</compoundname>
+    <includes refid="MRRibbonNotification_8h" local="no">MRRibbonNotification.h</includes>
+    <innerclass refid="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings" prot="private">MR::RibbonNotifier::DrawNotificationSettings</innerclass>
+    <innerclass refid="structMR_1_1RibbonNotifier_1_1NotificationWithTimer" prot="private">MR::RibbonNotifier::NotificationWithTimer</innerclass>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab63838c73f526f97b5d11fd8d3c7237d" kind="variable"><name>defaultNotificationLifeTimeSeconds</name></member>
+      <member refid="group__GeneralGroup_1ga548d212115b7460a9bf8f321f79d7029" kind="variable"><name>allowedTagMask</name></member>
+      <member refid="group__GeneralGroup_1ga581e82760738b4f3ce80e1a6f9665cd0" kind="variable"><name>cornerPosition</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga95ca012d8580322841b0aef05dbadb97" kind="variable"><name>notifications_</name></member>
+      <member refid="group__GeneralGroup_1ga8ccd510b77d8bc07cb2d29398702640c" kind="variable"><name>notificationsHistory_</name></member>
+      <member refid="group__GeneralGroup_1gab30e08803d4a632872c4d2410742632b" kind="variable"><name>requestRedraw_</name></member>
+      <member refid="group__GeneralGroup_1ga3fcec3c2e05e33b401e3395e19cff967" kind="variable"><name>historyMode_</name></member>
+      <member refid="group__GeneralGroup_1ga5a849aeed9f8899310a2b1b820e3e794" kind="variable"><name>showHistoryBtnMaxTime_</name></member>
+      <member refid="group__GeneralGroup_1ga8b751e8093d0afa541af607d82293337" kind="variable"><name>currentHistoryBtnTimer_</name></member>
+      <member refid="group__GeneralGroup_1gaa62ac001cd4b9753e730f11b49fa4cac" kind="variable"><name>requestedTime_</name></member>
+      <member refid="group__GeneralGroup_1ga62264c11201bbf30ec6692ac5bd2cf41" kind="variable"><name>asyncRequest_</name></member>
+      <member refid="group__GeneralGroup_1ga950949307dff073f1d583a724cf4a9d9" kind="variable"><name>scrollDownNeeded_</name></member>
+      <member refid="group__GeneralGroup_1ga851dbfa58387244b2a60432dda61dfba" kind="variable"><name>prevHistoryScrollMax_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga18fcad081432948484875c94f55a1be4" kind="function"><name>pushNotification</name></member>
+      <member refid="group__GeneralGroup_1ga9ad21c6f39e840287d5a196a7a39eaa0" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga08ebfe15ec08fb70c287c3b983e94869" kind="function"><name>setHitoryButtonMaxLifeTime</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga1cacddeebbcbe7b2c4599eb1bc767a94" kind="function"><name>drawHistoryButton_</name></member>
+      <member refid="group__GeneralGroup_1ga57020a7441b1d13c726ed5ffb36ed9cc" kind="function"><name>drawHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga459d1e5a36d76dbdeb792b047f162e9c" kind="function"><name>drawFloating_</name></member>
+      <member refid="group__GeneralGroup_1ga9a3159f528ecb4878fd1a3f37e457d8c" kind="function"><name>drawNotification_</name></member>
+      <member refid="group__GeneralGroup_1ga10f41c894f273d775094be49b9a5c340" kind="function"><name>addNotification_</name></member>
+      <member refid="group__GeneralGroup_1ga095d8bd3e3d87456bd761c98723fc811" kind="function"><name>filterInvalid_</name></member>
+      <member refid="group__GeneralGroup_1ga0749cea79ec8aeae480ed782f0cb746b" kind="function"><name>requestClosestRedraw_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class to hold and operate with notifications </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="66" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="67" bodyend="130"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga10f41c894f273d775094be49b9a5c340" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>addNotification_</name></member>
+      <member refid="group__GeneralGroup_1ga548d212115b7460a9bf8f321f79d7029" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>allowedTagMask</name></member>
+      <member refid="group__GeneralGroup_1ga62264c11201bbf30ec6692ac5bd2cf41" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>asyncRequest_</name></member>
+      <member refid="group__GeneralGroup_1ga581e82760738b4f3ce80e1a6f9665cd0" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>cornerPosition</name></member>
+      <member refid="group__GeneralGroup_1ga8b751e8093d0afa541af607d82293337" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>currentHistoryBtnTimer_</name></member>
+      <member refid="group__GeneralGroup_1gab63838c73f526f97b5d11fd8d3c7237d" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>defaultNotificationLifeTimeSeconds</name></member>
+      <member refid="group__GeneralGroup_1ga9ad21c6f39e840287d5a196a7a39eaa0" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga459d1e5a36d76dbdeb792b047f162e9c" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawFloating_</name></member>
+      <member refid="group__GeneralGroup_1ga57020a7441b1d13c726ed5ffb36ed9cc" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga1cacddeebbcbe7b2c4599eb1bc767a94" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawHistoryButton_</name></member>
+      <member refid="group__GeneralGroup_1ga9a3159f528ecb4878fd1a3f37e457d8c" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>drawNotification_</name></member>
+      <member refid="group__GeneralGroup_1ga095d8bd3e3d87456bd761c98723fc811" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>filterInvalid_</name></member>
+      <member refid="group__GeneralGroup_1ga3fcec3c2e05e33b401e3395e19cff967" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>historyMode_</name></member>
+      <member refid="group__GeneralGroup_1ga95ca012d8580322841b0aef05dbadb97" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>notifications_</name></member>
+      <member refid="group__GeneralGroup_1ga8ccd510b77d8bc07cb2d29398702640c" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>notificationsHistory_</name></member>
+      <member refid="group__GeneralGroup_1ga851dbfa58387244b2a60432dda61dfba" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>prevHistoryScrollMax_</name></member>
+      <member refid="group__GeneralGroup_1ga18fcad081432948484875c94f55a1be4" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>pushNotification</name></member>
+      <member refid="group__GeneralGroup_1ga0749cea79ec8aeae480ed782f0cb746b" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>requestClosestRedraw_</name></member>
+      <member refid="group__GeneralGroup_1gaa62ac001cd4b9753e730f11b49fa4cac" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>requestedTime_</name></member>
+      <member refid="group__GeneralGroup_1gab30e08803d4a632872c4d2410742632b" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>requestRedraw_</name></member>
+      <member refid="group__GeneralGroup_1ga950949307dff073f1d583a724cf4a9d9" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>scrollDownNeeded_</name></member>
+      <member refid="group__GeneralGroup_1ga08ebfe15ec08fb70c287c3b983e94869" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>setHitoryButtonMaxLifeTime</name></member>
+      <member refid="group__GeneralGroup_1ga5a849aeed9f8899310a2b1b820e3e794" prot="private" virt="non-virtual"><scope>MR::RibbonNotifier</scope><name>showHistoryBtnMaxTime_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,668 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UndirectedEdgeScalars" kind="class" language="C#" prot="public">
+    <compoundname>MR::UndirectedEdgeScalars</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_UndirectedEdgeScalars</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1UndirectedEdgeScalars_1ab0bd941faa7e993bcc565ff2abd66fcb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_Float</type>
+        <definition>new unsafe MR.Std.Vector_Float MR.UndirectedEdgeScalars.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16884" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16884" bodyend="16884"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1UndirectedEdgeScalars_1aaaab3ecdde26ac3dc81d2bfbd6c7d0bd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.UndirectedEdgeScalars.this[MR.UndirectedEdgeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.UndirectedEdgeId i]</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.this[MR.UndirectedEdgeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeScalars.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17041" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17042" bodyend="17049"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a7f91a20805df3318c29cb4d630d6aa2d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeScalars.UndirectedEdgeScalars</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UndirectedEdgeScalars</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16903" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16903" bodyend="16907"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1ab9025d751a8112846cc0dbe327b0fa7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeScalars.UndirectedEdgeScalars</definition>
+        <argsstring>()</argsstring>
+        <name>UndirectedEdgeScalars</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16913" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16913" bodyend="16919"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a3d8e93d46b3c766d949c1ed1fe4f82c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeScalars.UndirectedEdgeScalars</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeScalars _other)</argsstring>
+        <name>UndirectedEdgeScalars</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeScalars</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16924" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16924" bodyend="16931"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1ada79c039330fc7f1ae073285df6a9708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</definition>
+        <argsstring>(Const_UndirectedEdgeScalars _other)</argsstring>
+        <name>UndirectedEdgeScalars</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</qualifiedname>
+        <param>
+          <type>Const_UndirectedEdgeScalars</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16936" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16936" bodyend="16936"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1aa98b1bbad4bd812a6aefbecbc5dd6e2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</definition>
+        <argsstring>(UndirectedEdgeScalars _other)</argsstring>
+        <name>UndirectedEdgeScalars</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeScalars" kindref="compound">UndirectedEdgeScalars</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16941" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16941" bodyend="16941"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a4676e1c53734346f5035b62215f37a89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeScalars.UndirectedEdgeScalars</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>UndirectedEdgeScalars</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16947" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16947" bodyend="16953"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1ade3a293609510fd792f0021422c36d4a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeScalars.UndirectedEdgeScalars</definition>
+        <argsstring>(ulong size, float val)</argsstring>
+        <name>UndirectedEdgeScalars</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16959" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16959" bodyend="16965"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1acffbc8061851b994dd234aa2f316ef2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UndirectedEdgeScalars.UndirectedEdgeScalars</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
+        <name>UndirectedEdgeScalars</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16971" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16971" bodyend="16978"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a6ea2433cc2b79d00af2174ebb5bf56fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeScalars" kindref="compound">MR.UndirectedEdgeScalars</ref></type>
+        <definition>unsafe MR.UndirectedEdgeScalars MR.UndirectedEdgeScalars.assign</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeScalars _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeScalars</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeScalars.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16989" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16989" bodyend="16996"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a77c39662b2a218710a978067e81ec8e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1a77c39662b2a218710a978067e81ec8e4" kindref="member">MR.UndirectedEdgeScalars.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17001" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17001" bodyend="17006"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a658b33bf2189d0abb734130ee4b79996" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1a658b33bf2189d0abb734130ee4b79996" kindref="member">MR.UndirectedEdgeScalars.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17011" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17011" bodyend="17016"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1af8553004ead8a5df4b14d4df3b83268d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.resize</definition>
+        <argsstring>(ulong newSize, float t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1a658b33bf2189d0abb734130ee4b79996" kindref="member">MR.UndirectedEdgeScalars.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17021" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17021" bodyend="17026"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a2263405c20d65539581140d27953d1fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1a2263405c20d65539581140d27953d1fd" kindref="member">MR.UndirectedEdgeScalars.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17031" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17031" bodyend="17036"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1aec1aa26e954b0e22f74bb95c854996e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1aec1aa26e954b0e22f74bb95c854996e6" kindref="member">MR.UndirectedEdgeScalars.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17055" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17055" bodyend="17060"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a625d13956db2f30e4cb9aa2990318072" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, float value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1aec1aa26e954b0e22f74bb95c854996e6" kindref="member">MR.UndirectedEdgeScalars.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17066" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17066" bodyend="17071"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1ae1b1cbbca1ecc993f1f07f8b13c95976" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.autoResizeSet</definition>
+        <argsstring>(MR.UndirectedEdgeId pos, ulong len, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1ae1b1cbbca1ecc993f1f07f8b13c95976" kindref="member">MR.UndirectedEdgeScalars.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17078" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17078" bodyend="17083"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1ad2cd34c237207d1a920883f01b8e0005" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.autoResizeSet</definition>
+        <argsstring>(MR.UndirectedEdgeId i, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1ae1b1cbbca1ecc993f1f07f8b13c95976" kindref="member">MR.UndirectedEdgeScalars.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17089" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17089" bodyend="17094"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a72c33a6f096ab78de0c36414c473a326" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref float</type>
+        <definition>unsafe ref float MR.UndirectedEdgeScalars.autoResizeAt</definition>
+        <argsstring>(MR.UndirectedEdgeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1a72c33a6f096ab78de0c36414c473a326" kindref="member">MR.UndirectedEdgeScalars.autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17100" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17100" bodyend="17105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a5e28164c1a57cbdabef179b3ff62c1e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.pushBack</definition>
+        <argsstring>(float t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.pushBack</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeScalars.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17110" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17110" bodyend="17115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1ac054c1b1eb5bc7513dc7a2d7a333b36e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, float t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeScalars.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17120" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17120" bodyend="17125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1ab1b77ab23dc311ee84c2dac24515ea7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeScalars.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17130" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17130" bodyend="17135"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a72b10f93c65c6373a3e44f1e5d2f57ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref float</type>
+        <definition>unsafe ref float MR.UndirectedEdgeScalars.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UndirectedEdgeScalars.emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17140" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17140" bodyend="17145"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1af75ca527e81666b3d178e589c3b5df05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.UndirectedEdgeScalars.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1af75ca527e81666b3d178e589c3b5df05" kindref="member">MR.UndirectedEdgeScalars.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17150" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17150" bodyend="17155"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1ae0b22a645808cf18da30281d5d934289" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.UndirectedEdgeScalars.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1ae0b22a645808cf18da30281d5d934289" kindref="member">MR.UndirectedEdgeScalars.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17160" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17160" bodyend="17165"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1af0227b877324ac7710fa1b31dd3c3018" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; float &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; float &gt; MR.UndirectedEdgeScalars.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1af0227b877324ac7710fa1b31dd3c3018" kindref="member">MR.UndirectedEdgeScalars.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17170" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17170" bodyend="17176"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1a05386dc65aefb36a235688fb610b3038" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UndirectedEdgeScalars.swap</definition>
+        <argsstring>(MR.UndirectedEdgeScalars b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeScalars" kindref="compound">MR.UndirectedEdgeScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars_1a05386dc65aefb36a235688fb610b3038" kindref="member">MR.UndirectedEdgeScalars.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="17181" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="17181" bodyend="17186"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1UndirectedEdgeScalars_1aa6efeb93aa9bc7a34fe53d83f175fbf1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.UndirectedEdgeScalars.operator UndirectedEdgeScalars</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
+        <name>operator UndirectedEdgeScalars</name>
+        <qualifiedname>MR.UndirectedEdgeScalars.operator UndirectedEdgeScalars</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.UndirectedEdgeScalars.UndirectedEdgeScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16984" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16984" bodyend="16984"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1UndirectedEdgeScalars" kindref="compound">MR.UndirectedEdgeScalars</ref></computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_UndirectedEdgeScalars</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UndirectedEdgeScalars</label>
+        <link refid="classMR_1_1UndirectedEdgeScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UndirectedEdgeScalars &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_UndirectedEdgeScalars &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_UndirectedEdgeScalars</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UndirectedEdgeScalars</label>
+        <link refid="classMR_1_1UndirectedEdgeScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UndirectedEdgeScalars &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_UndirectedEdgeScalars &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="16881" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="16882" bodyend="17187"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a6ea2433cc2b79d00af2174ebb5bf56fd" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>assign</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a72c33a6f096ab78de0c36414c473a326" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1ae1b1cbbca1ecc993f1f07f8b13c95976" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1ad2cd34c237207d1a920883f01b8e0005" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1ae0b22a645808cf18da30281d5d934289" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>back</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a77c39662b2a218710a978067e81ec8e4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>clear</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1af0227b877324ac7710fa1b31dd3c3018" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>data</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a72b10f93c65c6373a3e44f1e5d2f57ce" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1af75ca527e81666b3d178e589c3b5df05" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>front</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1aa6efeb93aa9bc7a34fe53d83f175fbf1" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>operator UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1ab1b77ab23dc311ee84c2dac24515ea7a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>popBack</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a5e28164c1a57cbdabef179b3ff62c1e8" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1ac054c1b1eb5bc7513dc7a2d7a333b36e" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a2263405c20d65539581140d27953d1fd" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>reserve</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a658b33bf2189d0abb734130ee4b79996" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>resize</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1af8553004ead8a5df4b14d4df3b83268d" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>resize</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1aec1aa26e954b0e22f74bb95c854996e6" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a625d13956db2f30e4cb9aa2990318072" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a05386dc65aefb36a235688fb610b3038" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>swap</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1aaaab3ecdde26ac3dc81d2bfbd6c7d0bd" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>this[MR.UndirectedEdgeId i]</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a7f91a20805df3318c29cb4d630d6aa2d" prot="package" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1ab9025d751a8112846cc0dbe327b0fa7f" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a3d8e93d46b3c766d949c1ed1fe4f82c4" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1ada79c039330fc7f1ae073285df6a9708" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1aa98b1bbad4bd812a6aefbecbc5dd6e2b" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1a4676e1c53734346f5035b62215f37a89" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1ade3a293609510fd792f0021422c36d4a" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1acffbc8061851b994dd234aa2f316ef2c" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>UndirectedEdgeScalars</name></member>
+      <member refid="classMR_1_1UndirectedEdgeScalars_1ab0bd941faa7e993bcc565ff2abd66fcb" prot="public" virt="non-virtual"><scope>MR::UndirectedEdgeScalars</scope><name>vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

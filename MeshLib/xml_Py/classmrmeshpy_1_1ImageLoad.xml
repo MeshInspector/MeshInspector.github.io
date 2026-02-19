@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ImageLoad" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ImageLoad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageLoad_1ade3c4f76b211e510b795e4a363b57316" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+        <definition> Image mrmeshpy.ImageLoad.fromAnySupportedFormat</definition>
+        <argsstring>(os.PathLike|str|bytes path)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.ImageLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>detects the format from file extension and loads image from it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23929" bodyend="23932"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageLoad_1a6679bc870711602f502329fc42c40638" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+        <definition> Image mrmeshpy.ImageLoad.fromJpeg</definition>
+        <argsstring>(os.PathLike|str|bytes path, bool ignoreDecompressErrors=False)</argsstring>
+        <name>fromJpeg</name>
+        <qualifiedname>mrmeshpy.ImageLoad.fromJpeg</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreDecompressErrors</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .jpg format
+\\param ignoreDecompressErrors if true do not return decompression error if the header was read sucessfully
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23935" bodyend="23939"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageLoad_1adf3a80726136fe18143640a57650c38b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+        <definition> Image mrmeshpy.ImageLoad.fromJpeg</definition>
+        <argsstring>(str data, int size, bool ignoreDecompressErrors=False)</argsstring>
+        <name>fromJpeg</name>
+        <qualifiedname>mrmeshpy.ImageLoad.fromJpeg</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreDecompressErrors</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23942" bodyend="23943"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageLoad_1a8181584178875998477093182205f287" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+        <definition> Image mrmeshpy.ImageLoad.fromJpeg</definition>
+        <argsstring>(typing.Any in_, bool ignoreDecompressErrors=False)</argsstring>
+        <name>fromJpeg</name>
+        <qualifiedname>mrmeshpy.ImageLoad.fromJpeg</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>ignoreDecompressErrors</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23946" bodyend="23947"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageLoad_1a3133b1ee3733e87250adef6957c451cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+        <definition> Image mrmeshpy.ImageLoad.fromPng</definition>
+        <argsstring>(os.PathLike|str|bytes path)</argsstring>
+        <name>fromPng</name>
+        <qualifiedname>mrmeshpy.ImageLoad.fromPng</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .png format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23950" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23950" bodyend="23953"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageLoad_1af2b896167399a361569148ac4ca4823d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+        <definition> Image mrmeshpy.ImageLoad.fromPng</definition>
+        <argsstring>(typing.Any in_)</argsstring>
+        <name>fromPng</name>
+        <qualifiedname>mrmeshpy.ImageLoad.fromPng</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23956" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23956" bodyend="23957"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageLoad_1a560338db41efa83ccc52a12ad3a1b7c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+        <definition> Image mrmeshpy.ImageLoad.fromTiff</definition>
+        <argsstring>(os.PathLike|str|bytes path)</argsstring>
+        <name>fromTiff</name>
+        <qualifiedname>mrmeshpy.ImageLoad.fromTiff</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from .tiff format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23959" bodyend="23962"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23924" bodyend="23962"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ImageLoad_1ade3c4f76b211e510b795e4a363b57316" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1ImageLoad_1a6679bc870711602f502329fc42c40638" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageLoad</scope><name>fromJpeg</name></member>
+      <member refid="classmrmeshpy_1_1ImageLoad_1adf3a80726136fe18143640a57650c38b" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageLoad</scope><name>fromJpeg</name></member>
+      <member refid="classmrmeshpy_1_1ImageLoad_1a8181584178875998477093182205f287" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageLoad</scope><name>fromJpeg</name></member>
+      <member refid="classmrmeshpy_1_1ImageLoad_1a3133b1ee3733e87250adef6957c451cc" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageLoad</scope><name>fromPng</name></member>
+      <member refid="classmrmeshpy_1_1ImageLoad_1af2b896167399a361569148ac4ca4823d" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageLoad</scope><name>fromPng</name></member>
+      <member refid="classmrmeshpy_1_1ImageLoad_1a560338db41efa83ccc52a12ad3a1b7c5" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageLoad</scope><name>fromTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

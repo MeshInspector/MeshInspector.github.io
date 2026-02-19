@@ -7,6 +7,8 @@ var structMR_1_1GraphVertId =
     [ "addAssign", "structMR_1_1GraphVertId.html#a4f346c09158b0037a1918757189e0146", null ],
     [ "decr", "structMR_1_1GraphVertId.html#ae49f3c8ab6135e8741239cc655d28ddf", null ],
     [ "decr", "structMR_1_1GraphVertId.html#af107a6f3a0340d5e3bbbe6db4ab85ca6", null ],
+    [ "Equals", "structMR_1_1GraphVertId.html#a54d8e82e3588e96c37511728678afc26", null ],
+    [ "Equals", "structMR_1_1GraphVertId.html#af10312375509a3114c434e7a0ac0e063", null ],
     [ "get", "structMR_1_1GraphVertId.html#a9da20466c194cf01298a75a42b099c7b", null ],
     [ "incr", "structMR_1_1GraphVertId.html#a40c2cb46a142170b2df1eabd1820527d", null ],
     [ "incr", "structMR_1_1GraphVertId.html#a09b9ab771723bc266385f5ef5c384a4f", null ],
@@ -14,7 +16,9 @@ var structMR_1_1GraphVertId =
     [ "operator bool", "structMR_1_1GraphVertId.html#a04e27e68dceabef85c477e5035bce1ed", null ],
     [ "operator GraphVertId", "structMR_1_1GraphVertId.html#ad0457358051e61fda9eb9526ae853e86", null ],
     [ "operator int", "structMR_1_1GraphVertId.html#a24fa9f725f9da357b7f6caf5774d0aff", null ],
+    [ "operator!=", "structMR_1_1GraphVertId.html#a853b7dfc4704b54aa9eeebbfd5053c85", null ],
     [ "operator==", "structMR_1_1GraphVertId.html#a9eb24ba73912efd7e1436316eb5658b2", null ],
     [ "subAssign", "structMR_1_1GraphVertId.html#ad31ffc1f32bcd5afba98fd56338fae39", null ],
-    [ "valid", "structMR_1_1GraphVertId.html#a3c77d30671603ed78a5492fd91b856fb", null ]
+    [ "valid", "structMR_1_1GraphVertId.html#a3c77d30671603ed78a5492fd91b856fb", null ],
+    [ "id", "structMR_1_1GraphVertId.html#a194b2da56d5a49019b558837c7998bc7", null ]
 ];

@@ -1,0 +1,2102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectDistanceMap" kind="class" language="C#" prot="public">
+    <compoundname>MR::ObjectDistanceMap</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectDistanceMap</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1af0ea4db10446a26239c3b91c263e853a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectDistanceMap.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(ObjectDistanceMap self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.ObjectDistanceMap.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">ObjectDistanceMap</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1360" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1360" bodyend="1365"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ab7aa1bf02edbf2c6abd7f6c3b471c85d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectDistanceMap.operator MR.Object</definition>
+        <argsstring>(ObjectDistanceMap self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.ObjectDistanceMap.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">ObjectDistanceMap</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1366" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1366" bodyend="1371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a30c8e6a483b9bb6aaa041599361dadd7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectDistanceMap.operator MR.VisualObject</definition>
+        <argsstring>(ObjectDistanceMap self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.ObjectDistanceMap.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">ObjectDistanceMap</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1372" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1372" bodyend="1377"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a8155eb9dbe94fb4888e4f342a89917d5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectDistanceMap.operator MR.ObjectMeshHolder</definition>
+        <argsstring>(ObjectDistanceMap self)</argsstring>
+        <name>operator MR.ObjectMeshHolder</name>
+        <qualifiedname>MR.ObjectDistanceMap.operator MR.ObjectMeshHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">ObjectDistanceMap</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1378" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1378" bodyend="1383"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ae66060b086afae1d13cb264b343c30de" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ObjectDistanceMap.operator ObjectDistanceMap?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator ObjectDistanceMap?</name>
+        <qualifiedname>MR.ObjectDistanceMap.operator ObjectDistanceMap?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1386" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1386" bodyend="1393"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a87b8958b81c4905a55f6c47a8b3d44ff" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ObjectDistanceMap.operator ObjectDistanceMap?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator ObjectDistanceMap?</name>
+        <qualifiedname>MR.ObjectDistanceMap.operator ObjectDistanceMap?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1394" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1394" bodyend="1401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ac0f9472f7d0c9e463a12b931ce4b5def" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ObjectDistanceMap.operator ObjectDistanceMap?</definition>
+        <argsstring>(MR.ObjectMeshHolder parent)</argsstring>
+        <name>operator ObjectDistanceMap?</name>
+        <qualifiedname>MR.ObjectDistanceMap.operator ObjectDistanceMap?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1402" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1402" bodyend="1409"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a99d117e62d237d4d84ebeeda440f1ae3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectDistanceMap.ObjectDistanceMap</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ObjectDistanceMap</name>
+        <qualifiedname>MR.ObjectDistanceMap.ObjectDistanceMap</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1411" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1411" bodyend="1411"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1adf3e9b9e8c56c42aae1c90413bb36ca4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectDistanceMap.ObjectDistanceMap</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ObjectDistanceMap</name>
+        <qualifiedname>MR.ObjectDistanceMap.ObjectDistanceMap</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1413" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1413" bodyend="1413"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a8c59e6596027c48b0131557895a5c706" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectDistanceMap.ObjectDistanceMap</definition>
+        <argsstring>()</argsstring>
+        <name>ObjectDistanceMap</name>
+        <qualifiedname>MR.ObjectDistanceMap.ObjectDistanceMap</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1418" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1418" bodyend="1423"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a27ebf4425f46b9ccc820f7bb0f2568ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectDistanceMap.ObjectDistanceMap</definition>
+        <argsstring>(MR._ByValue_ObjectDistanceMap _other)</argsstring>
+        <name>ObjectDistanceMap</name>
+        <qualifiedname>MR.ObjectDistanceMap.ObjectDistanceMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectDistanceMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjectDistanceMap.ObjectDistanceMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1428" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1428" bodyend="1434"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a0a373a02011ff51cfb7c6887909f0ac1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref></type>
+        <definition>unsafe MR.ObjectDistanceMap MR.ObjectDistanceMap.assign</definition>
+        <argsstring>(MR._ByValue_ObjectDistanceMap _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ObjectDistanceMap.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectDistanceMap</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjectDistanceMap.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1439" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1439" bodyend="1449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1af977c7ed500f3a841d4ecd825480b088" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.ObjectDistanceMap.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1af977c7ed500f3a841d4ecd825480b088" kindref="member">MR.ObjectDistanceMap.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1454" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1454" bodyend="1459"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ae25f5f9d634855da15652489e7c8cee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectDistanceMap.setDistanceMap</definition>
+        <argsstring>(MR.Const_DistanceMap dmap, in MR.AffineXf3f dmap2local, bool? needUpdateMesh=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>setDistanceMap</name>
+        <qualifiedname>MR.ObjectDistanceMap.setDistanceMap</qualifiedname>
+        <param>
+          <type>MR.Const_DistanceMap</type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>dmap2local</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>needUpdateMesh</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>rebuilds the mesh; if it is executed in the rendering stream then you can set the needUpdateMesh = true otherwise you should set the needUpdateMesh = false and call the function calculateMesh and after finishing in the rendering stream, call the function updateMesh Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ae25f5f9d634855da15652489e7c8cee3" kindref="member">MR.ObjectDistanceMap.setDistanceMap</ref></computeroutput>. Parameter <computeroutput>needUpdateMesh</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1470" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1470" bodyend="1479"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a88fc1eb276a275a3cd21887ded8aa821" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.updateMesh</definition>
+        <argsstring>(MR.Const_Mesh mesh)</argsstring>
+        <name>updateMesh</name>
+        <qualifiedname>MR.ObjectDistanceMap.updateMesh</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>updates the grid to the current one Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a88fc1eb276a275a3cd21887ded8aa821" kindref="member">MR.ObjectDistanceMap.updateMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1485" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1485" bodyend="1490"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1adc5a126cf94576a0810f56e7b8807431" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.ObjectDistanceMap.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1adc5a126cf94576a0810f56e7b8807431" kindref="member">MR.ObjectDistanceMap.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1496" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1496" bodyend="1501"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a2a8971aeb875fd9db514041714fba593" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.ObjectDistanceMap.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a2a8971aeb875fd9db514041714fba593" kindref="member">MR.ObjectDistanceMap.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1507" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1507" bodyend="1513"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aff1e543e44c79ee7ebc2deb89a484081" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setDirtyFlagsFast</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>setDirtyFlagsFast</name>
+        <qualifiedname>MR.ObjectDistanceMap.setDirtyFlagsFast</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>this is a faster version of <ref refid="classMR_1_1ObjectDistanceMap_1a2a8971aeb875fd9db514041714fba593" kindref="member">setDirtyFlags()</ref>, which does not invalidate metrics cache (area, volume, ...); the user is responsible for calling invalidateMetricsCache( mask ) or setDirtyFlags( mask ) at the end of mesh editing; DANGER: all cached values returned until then can be outdated Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aff1e543e44c79ee7ebc2deb89a484081" kindref="member">MR.ObjectDistanceMap.setDirtyFlagsFast</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1521" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1521" bodyend="1526"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a48141dbc02dd38710a472c81d873613a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.invalidateMetricsCache</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>invalidateMetricsCache</name>
+        <qualifiedname>MR.ObjectDistanceMap.invalidateMetricsCache</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask ) Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a48141dbc02dd38710a472c81d873613a" kindref="member">MR.ObjectDistanceMap.invalidateMetricsCache</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1532" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1532" bodyend="1537"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aeb4dd84b066d70c118b0d2009877994e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.selectFaces</definition>
+        <argsstring>(MR._ByValue_FaceBitSet newSelection)</argsstring>
+        <name>selectFaces</name>
+        <qualifiedname>MR.ObjectDistanceMap.selectFaces</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceBitSet</type>
+          <declname>newSelection</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aeb4dd84b066d70c118b0d2009877994e" kindref="member">MR.ObjectDistanceMap.selectFaces</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1542" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1542" bodyend="1547"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ac9494386928415337176f310e62bb7e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setSelectedFacesColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setSelectedFacesColor</name>
+        <qualifiedname>MR.ObjectDistanceMap.setSelectedFacesColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets colors of selected triangles Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ac9494386928415337176f310e62bb7e0" kindref="member">MR.ObjectDistanceMap.setSelectedFacesColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1554" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1554" bodyend="1562"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a2a25b0e3951ca73c194fb18971e5bb3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.selectEdges</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeBitSet newSelection)</argsstring>
+        <name>selectEdges</name>
+        <qualifiedname>MR.ObjectDistanceMap.selectEdges</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>newSelection</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a2a25b0e3951ca73c194fb18971e5bb3b" kindref="member">MR.ObjectDistanceMap.selectEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1567" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1567" bodyend="1572"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a015e6afa8e2cb1627d4676c8958c1e59" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setSelectedEdgesColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setSelectedEdgesColor</name>
+        <qualifiedname>MR.ObjectDistanceMap.setSelectedEdgesColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets colors of selected edges Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a015e6afa8e2cb1627d4676c8958c1e59" kindref="member">MR.ObjectDistanceMap.setSelectedEdgesColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1579" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1579" bodyend="1587"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a549582b20884e76018aaf33ab95e195c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setSelectedEdgesColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setSelectedEdgesColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectDistanceMap.setSelectedEdgesColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a549582b20884e76018aaf33ab95e195c" kindref="member">MR.ObjectDistanceMap.setSelectedEdgesColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1592" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1592" bodyend="1597"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aa1fcb670f5caa42a1653e1fc759df347" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setSelectedFacesColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setSelectedFacesColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectDistanceMap.setSelectedFacesColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aa1fcb670f5caa42a1653e1fc759df347" kindref="member">MR.ObjectDistanceMap.setSelectedFacesColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1602" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1602" bodyend="1607"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ae34beccbf0f8e6dbef95620ca772ed41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setEdgesColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setEdgesColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectDistanceMap.setEdgesColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ae34beccbf0f8e6dbef95620ca772ed41" kindref="member">MR.ObjectDistanceMap.setEdgesColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1612" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1612" bodyend="1617"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a10341142c17914d890b2e57c527b781c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setPointsColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setPointsColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectDistanceMap.setPointsColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a10341142c17914d890b2e57c527b781c" kindref="member">MR.ObjectDistanceMap.setPointsColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1622" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1622" bodyend="1627"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ab1babf2a52ecb28988a844dc630f2c9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setBordersColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBordersColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectDistanceMap.setBordersColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ab1babf2a52ecb28988a844dc630f2c9c" kindref="member">MR.ObjectDistanceMap.setBordersColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1632" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1632" bodyend="1637"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ae58484545a00c75793b27b3d475952d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_ObjectMeshHolder other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.ObjectDistanceMap.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_ObjectMeshHolder</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ae58484545a00c75793b27b3d475952d7" kindref="member">MR.ObjectDistanceMap.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1643" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1643" bodyend="1648"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a89aea4e460fc49a2097e40bacb56b115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setCreases</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeBitSet creases)</argsstring>
+        <name>setCreases</name>
+        <qualifiedname>MR.ObjectDistanceMap.setCreases</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>creases</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a89aea4e460fc49a2097e40bacb56b115" kindref="member">MR.ObjectDistanceMap.setCreases</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1653" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1653" bodyend="1658"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a7a70e957b88226d97e84efeaf85f1b5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setFlatShading</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setFlatShading</name>
+        <qualifiedname>MR.ObjectDistanceMap.setFlatShading</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>sets flat (true) or smooth (false) shading Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a7a70e957b88226d97e84efeaf85f1b5f" kindref="member">MR.ObjectDistanceMap.setFlatShading</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1664" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1664" bodyend="1669"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a429857be19097f043b1de7dc00758e0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setData</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.ObjectMeshData &gt; data)</argsstring>
+        <name>setData</name>
+        <qualifiedname>MR.ObjectDistanceMap.setData</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1ObjectMeshData" kindref="compound">MR.ObjectMeshData</ref> &gt;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>sets whole new <ref refid="classMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a429857be19097f043b1de7dc00758e0b" kindref="member">MR.ObjectDistanceMap.setData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1675" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1675" bodyend="1680"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aa87a9b7baf7792d1f5cff01801e7136d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.updateData</definition>
+        <argsstring>(MR.ObjectMeshData data)</argsstring>
+        <name>updateData</name>
+        <qualifiedname>MR.ObjectDistanceMap.updateData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectMeshData" kindref="compound">MR.ObjectMeshData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>swaps whole <ref refid="classMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aa87a9b7baf7792d1f5cff01801e7136d" kindref="member">MR.ObjectDistanceMap.updateData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1686" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1686" bodyend="1691"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a655f72a48c8f3c2d90d6313fa051348a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setVertsColorMap</definition>
+        <argsstring>(MR._ByValue_VertColors vertsColorMap)</argsstring>
+        <name>setVertsColorMap</name>
+        <qualifiedname>MR.ObjectDistanceMap.setVertsColorMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertColors</type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+<para>sets per-vertex colors of the object Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a655f72a48c8f3c2d90d6313fa051348a" kindref="member">MR.ObjectDistanceMap.setVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1697" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1697" bodyend="1702"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ac9eb3803635a294323bd1b519166f83d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.updateVertsColorMap</definition>
+        <argsstring>(MR.VertColors vertsColorMap)</argsstring>
+        <name>updateVertsColorMap</name>
+        <qualifiedname>MR.ObjectDistanceMap.updateVertsColorMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref></type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+<para>swaps per-vertex colors of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ac9eb3803635a294323bd1b519166f83d" kindref="member">MR.ObjectDistanceMap.updateVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1708" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1708" bodyend="1713"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1abd4bf41a4fbfe3151e6037675261a2ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setFacesColorMap</definition>
+        <argsstring>(MR._ByValue_FaceColors facesColorMap)</argsstring>
+        <name>setFacesColorMap</name>
+        <qualifiedname>MR.ObjectDistanceMap.setFacesColorMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceColors</type>
+          <declname>facesColorMap</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1abd4bf41a4fbfe3151e6037675261a2ff" kindref="member">MR.ObjectDistanceMap.setFacesColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1718" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1718" bodyend="1723"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ac0c980ffaae06cd2bb69895180e4994c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.updateFacesColorMap</definition>
+        <argsstring>(MR.FaceColors updated)</argsstring>
+        <name>updateFacesColorMap</name>
+        <qualifiedname>MR.ObjectDistanceMap.updateFacesColorMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ac0c980ffaae06cd2bb69895180e4994c" kindref="member">MR.ObjectDistanceMap.updateFacesColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1728" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1728" bodyend="1733"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a65f2508fb6d45747610cfc8b060a5903" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setEdgeWidth</definition>
+        <argsstring>(float edgeWidth)</argsstring>
+        <name>setEdgeWidth</name>
+        <qualifiedname>MR.ObjectDistanceMap.setEdgeWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>edgeWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a65f2508fb6d45747610cfc8b060a5903" kindref="member">MR.ObjectDistanceMap.setEdgeWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1738" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1738" bodyend="1743"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ac9d04d3e1dcf6ae871072a8fbc09dc94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setPointSize</definition>
+        <argsstring>(float size)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR.ObjectDistanceMap.setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ac9d04d3e1dcf6ae871072a8fbc09dc94" kindref="member">MR.ObjectDistanceMap.setPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1748" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1748" bodyend="1753"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a4237f96e07795d4af54d6d399d4f818b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setEdgesColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setEdgesColor</name>
+        <qualifiedname>MR.ObjectDistanceMap.setEdgesColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a4237f96e07795d4af54d6d399d4f818b" kindref="member">MR.ObjectDistanceMap.setEdgesColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1759" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1759" bodyend="1767"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a25eafe3ed310ab8120f69a4e89e8bfb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setPointsColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setPointsColor</name>
+        <qualifiedname>MR.ObjectDistanceMap.setPointsColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a25eafe3ed310ab8120f69a4e89e8bfb8" kindref="member">MR.ObjectDistanceMap.setPointsColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1773" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1773" bodyend="1781"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ad163748bbe8875f3e2b31b7ebb4950d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setBordersColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setBordersColor</name>
+        <qualifiedname>MR.ObjectDistanceMap.setBordersColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ad163748bbe8875f3e2b31b7ebb4950d4" kindref="member">MR.ObjectDistanceMap.setBordersColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1787" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1787" bodyend="1795"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aaf244464424801882fc483dd0dbf2ddd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setTextures</definition>
+        <argsstring>(MR._ByValue_Vector_MRMeshTexture_MRTextureId texture)</argsstring>
+        <name>setTextures</name>
+        <qualifiedname>MR.ObjectDistanceMap.setTextures</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRMeshTexture_MRTextureId</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aaf244464424801882fc483dd0dbf2ddd" kindref="member">MR.ObjectDistanceMap.setTextures</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1800" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1800" bodyend="1805"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a644a7b0663d932828acda2201e1dbced" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.updateTextures</definition>
+        <argsstring>(MR.Vector_MRMeshTexture_MRTextureId updated)</argsstring>
+        <name>updateTextures</name>
+        <qualifiedname>MR.ObjectDistanceMap.updateTextures</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Vector_MRMeshTexture_MRTextureId</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a644a7b0663d932828acda2201e1dbced" kindref="member">MR.ObjectDistanceMap.updateTextures</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1810" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1810" bodyend="1815"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aec75947ef6c04377ee8c6e94902a893b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setTexturePerFace</definition>
+        <argsstring>(MR._ByValue_TexturePerFace texturePerFace)</argsstring>
+        <name>setTexturePerFace</name>
+        <qualifiedname>MR.ObjectDistanceMap.setTexturePerFace</qualifiedname>
+        <param>
+          <type>MR._ByValue_TexturePerFace</type>
+          <declname>texturePerFace</declname>
+        </param>
+        <briefdescription>
+<para>the texture ids for the faces if more than one texture is used to texture the object texture coordinates (data_.uvCoordinates) at a point can belong to different textures, depending on which face the point belongs to Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aec75947ef6c04377ee8c6e94902a893b" kindref="member">MR.ObjectDistanceMap.setTexturePerFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1822" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1822" bodyend="1827"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a1f85d3ad3ff4ca0a37f5d6b5a9af1538" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.updateTexturePerFace</definition>
+        <argsstring>(MR.TexturePerFace texturePerFace)</argsstring>
+        <name>updateTexturePerFace</name>
+        <qualifiedname>MR.ObjectDistanceMap.updateTexturePerFace</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TexturePerFace" kindref="compound">MR.TexturePerFace</ref></type>
+          <declname>texturePerFace</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a1f85d3ad3ff4ca0a37f5d6b5a9af1538" kindref="member">MR.ObjectDistanceMap.updateTexturePerFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1832" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1832" bodyend="1837"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1abf7aa1dbf38884496702be974fed1d9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.addTexture</definition>
+        <argsstring>(MR._ByValue_MeshTexture texture)</argsstring>
+        <name>addTexture</name>
+        <qualifiedname>MR.ObjectDistanceMap.addTexture</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshTexture</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1abf7aa1dbf38884496702be974fed1d9e" kindref="member">MR.ObjectDistanceMap.addTexture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1842" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1842" bodyend="1847"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a3045ac6f1f2ae19454df252f230a78bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setUVCoords</definition>
+        <argsstring>(MR._ByValue_VertCoords2 uvCoordinates)</argsstring>
+        <name>setUVCoords</name>
+        <qualifiedname>MR.ObjectDistanceMap.setUVCoords</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoords2</type>
+          <declname>uvCoordinates</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a3045ac6f1f2ae19454df252f230a78bb" kindref="member">MR.ObjectDistanceMap.setUVCoords</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1852" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1852" bodyend="1857"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1adf95205409da41e8ba58428c8a1e9c74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.updateUVCoords</definition>
+        <argsstring>(MR.VertCoords2 updated)</argsstring>
+        <name>updateUVCoords</name>
+        <qualifiedname>MR.ObjectDistanceMap.updateUVCoords</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1adf95205409da41e8ba58428c8a1e9c74" kindref="member">MR.ObjectDistanceMap.updateUVCoords</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1862" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1862" bodyend="1867"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ae39c6425b8150d93129387c01c70a057" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.copyTextureAndColors</definition>
+        <argsstring>(MR.Const_ObjectMeshHolder src, MR.Const_VertMap thisToSrc, MR.Const_FaceMap? thisToSrcFaces=null)</argsstring>
+        <name>copyTextureAndColors</name>
+        <qualifiedname>MR.ObjectDistanceMap.copyTextureAndColors</qualifiedname>
+        <param>
+          <type>MR.Const_ObjectMeshHolder</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertMap</type>
+          <declname>thisToSrc</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceMap?</type>
+          <declname>thisToSrcFaces</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>copies texture, UV-coordinates and vertex colors from given source object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>using given map</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thisToSrc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ae39c6425b8150d93129387c01c70a057" kindref="member">MR.ObjectDistanceMap.copyTextureAndColors</ref></computeroutput>. Parameter <computeroutput>thisToSrcFaces</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1874" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1874" bodyend="1879"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a17980b3a3efe5b76fcfadbd6f9f7401f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.copyColors</definition>
+        <argsstring>(MR.Const_ObjectMeshHolder src, MR.Const_VertMap thisToSrc, MR.Const_FaceMap? thisToSrcFaces=null)</argsstring>
+        <name>copyColors</name>
+        <qualifiedname>MR.ObjectDistanceMap.copyColors</qualifiedname>
+        <param>
+          <type>MR.Const_ObjectMeshHolder</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertMap</type>
+          <declname>thisToSrc</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceMap?</type>
+          <declname>thisToSrcFaces</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>copies vertex colors from given source object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>using given map</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thisToSrc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a17980b3a3efe5b76fcfadbd6f9f7401f" kindref="member">MR.ObjectDistanceMap.copyColors</ref></computeroutput>. Parameter <computeroutput>thisToSrcFaces</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1886" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1886" bodyend="1891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ae294796472874c218865ed2040782eb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setAncillaryTexture</definition>
+        <argsstring>(MR._ByValue_MeshTexture texture)</argsstring>
+        <name>setAncillaryTexture</name>
+        <qualifiedname>MR.ObjectDistanceMap.setAncillaryTexture</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshTexture</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ae294796472874c218865ed2040782eb9" kindref="member">MR.ObjectDistanceMap.setAncillaryTexture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1896" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1896" bodyend="1901"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a9d1ba1ebce2f88787868bbecdd96834a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setAncillaryUVCoords</definition>
+        <argsstring>(MR._ByValue_VertCoords2 uvCoordinates)</argsstring>
+        <name>setAncillaryUVCoords</name>
+        <qualifiedname>MR.ObjectDistanceMap.setAncillaryUVCoords</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoords2</type>
+          <declname>uvCoordinates</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a9d1ba1ebce2f88787868bbecdd96834a" kindref="member">MR.ObjectDistanceMap.setAncillaryUVCoords</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1906" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1906" bodyend="1911"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1afd1db42af65e0d2693f57c197ab39451" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.updateAncillaryUVCoords</definition>
+        <argsstring>(MR.VertCoords2 updated)</argsstring>
+        <name>updateAncillaryUVCoords</name>
+        <qualifiedname>MR.ObjectDistanceMap.updateAncillaryUVCoords</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1afd1db42af65e0d2693f57c197ab39451" kindref="member">MR.ObjectDistanceMap.updateAncillaryUVCoords</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1916" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1916" bodyend="1921"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a543db60df579c3b66b760ba7961c41a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.clearAncillaryTexture</definition>
+        <argsstring>()</argsstring>
+        <name>clearAncillaryTexture</name>
+        <qualifiedname>MR.ObjectDistanceMap.clearAncillaryTexture</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a543db60df579c3b66b760ba7961c41a6" kindref="member">MR.ObjectDistanceMap.clearAncillaryTexture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1926" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1926" bodyend="1931"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a2a2e011162f5fec3c054f227132711c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setSerializeFormat</definition>
+        <argsstring>(byte? newFormat)</argsstring>
+        <name>setSerializeFormat</name>
+        <qualifiedname>MR.ObjectDistanceMap.setSerializeFormat</qualifiedname>
+        <param>
+          <type>byte?</type>
+          <declname>newFormat</declname>
+        </param>
+        <briefdescription>
+<para>overrides file extension used to serialize mesh inside this object: must start from &apos;.&apos;, nullptr means serialize in <ref refid="classMR_1a6e35f563f3a1ec0489286ea6543c0ee3" kindref="member">defaultSerializeMeshFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a2a2e011162f5fec3c054f227132711c7" kindref="member">MR.ObjectDistanceMap.setSerializeFormat</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1938" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1938" bodyend="1944"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a262adcaa5c45c38abc8ce8844876e927" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.ObjectDistanceMap.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a262adcaa5c45c38abc8ce8844876e927" kindref="member">MR.ObjectDistanceMap.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1950" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1950" bodyend="1955"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a97132032b5ac6b4a3c97684a7d1a9c01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.ObjectDistanceMap.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a97132032b5ac6b4a3c97684a7d1a9c01" kindref="member">MR.ObjectDistanceMap.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1961" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1961" bodyend="1966"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a4716dcccf8e8f35805dc4f911e4c98df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.ObjectDistanceMap.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a4716dcccf8e8f35805dc4f911e4c98df" kindref="member">MR.ObjectDistanceMap.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1972" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1972" bodyend="1977"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aafe1d205fc13b617267fcd6f07f843f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.ObjectDistanceMap.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aafe1d205fc13b617267fcd6f07f843f4" kindref="member">MR.ObjectDistanceMap.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1983" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1983" bodyend="1988"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ac85d94a620a777971c32a36d999a3014" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.ObjectDistanceMap.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ac85d94a620a777971c32a36d999a3014" kindref="member">MR.ObjectDistanceMap.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1994" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1994" bodyend="1999"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a54eac39f6cd12dd6463dcc99c02b5c9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.ObjectDistanceMap.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a54eac39f6cd12dd6463dcc99c02b5c9f" kindref="member">MR.ObjectDistanceMap.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2006" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2006" bodyend="2011"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ad717812d1c5c559206061de0ae6a8911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.ObjectDistanceMap.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ad717812d1c5c559206061de0ae6a8911" kindref="member">MR.ObjectDistanceMap.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2018" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2018" bodyend="2026"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ad4fb7a4cae96348b76098130c3611854" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectDistanceMap.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ad4fb7a4cae96348b76098130c3611854" kindref="member">MR.ObjectDistanceMap.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2033" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2033" bodyend="2039"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aa010b25b9bba8ae633e340bcbc278398" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectDistanceMap.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aa010b25b9bba8ae633e340bcbc278398" kindref="member">MR.ObjectDistanceMap.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2045" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2045" bodyend="2050"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a8065a78555d66841b2dc432b82f6d4df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.ObjectDistanceMap.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a8065a78555d66841b2dc432b82f6d4df" kindref="member">MR.ObjectDistanceMap.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2057" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2057" bodyend="2065"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aec09d05bf7651900d3833db0eacbe019" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.ObjectDistanceMap.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aec09d05bf7651900d3833db0eacbe019" kindref="member">MR.ObjectDistanceMap.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2072" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2072" bodyend="2077"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a3bcc8b9d824115af88f59db0213f5e29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.ObjectDistanceMap.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a3bcc8b9d824115af88f59db0213f5e29" kindref="member">MR.ObjectDistanceMap.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2083" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2083" bodyend="2088"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ab02e7e7a0421122823218d3758270f6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.ObjectDistanceMap.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ab02e7e7a0421122823218d3758270f6d" kindref="member">MR.ObjectDistanceMap.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2095" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2095" bodyend="2100"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a3f4c10545f2aead77019a2fa4efd2b26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.ObjectDistanceMap.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a3f4c10545f2aead77019a2fa4efd2b26" kindref="member">MR.ObjectDistanceMap.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2106" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2106" bodyend="2111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aff15a16ca27cb7fded983b6e009e28e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.ObjectDistanceMap.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aff15a16ca27cb7fded983b6e009e28e3" kindref="member">MR.ObjectDistanceMap.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2117" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2117" bodyend="2122"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ac821a7e1c029e4180f3f99f268738dd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.ObjectDistanceMap.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ac821a7e1c029e4180f3f99f268738dd4" kindref="member">MR.ObjectDistanceMap.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2128" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2128" bodyend="2133"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a585546d3a1546d0a23a275af9c19dc42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.ObjectDistanceMap.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a585546d3a1546d0a23a275af9c19dc42" kindref="member">MR.ObjectDistanceMap.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2139" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2139" bodyend="2144"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aca2feaa47b9c81119da90afca0ed7146" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.ObjectDistanceMap.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aca2feaa47b9c81119da90afca0ed7146" kindref="member">MR.ObjectDistanceMap.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2151" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2151" bodyend="2156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ac1e6888a94c7760a42ca4a38e0822584" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.ObjectDistanceMap.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ac1e6888a94c7760a42ca4a38e0822584" kindref="member">MR.ObjectDistanceMap.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2161" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2161" bodyend="2170"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a00d6b40776d67e7c33784891445bea9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.ObjectDistanceMap.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a00d6b40776d67e7c33784891445bea9b" kindref="member">MR.ObjectDistanceMap.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2176" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2176" bodyend="2184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a2ecd97e43812d497eda0c77996403be7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.ObjectDistanceMap.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>forgets specific transform in given viewport (or forgets all specific transforms for {} input) Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a2ecd97e43812d497eda0c77996403be7" kindref="member">MR.ObjectDistanceMap.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2191" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2191" bodyend="2196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a567ed0d85e51eaa72e72aeb3037b875d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.ObjectDistanceMap.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a567ed0d85e51eaa72e72aeb3037b875d" kindref="member">MR.ObjectDistanceMap.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2202" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2202" bodyend="2207"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1abd8134cabc58eb53f997e7fd20b24080" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.ObjectDistanceMap.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1abd8134cabc58eb53f997e7fd20b24080" kindref="member">MR.ObjectDistanceMap.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2213" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2213" bodyend="2221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a2be41ec82f0823e81ee06590965073a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.ObjectDistanceMap.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a2be41ec82f0823e81ee06590965073a1" kindref="member">MR.ObjectDistanceMap.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2228" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2228" bodyend="2233"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a8e2466101f953c95327cb6efaa4a5a6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.ObjectDistanceMap.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a8e2466101f953c95327cb6efaa4a5a6f" kindref="member">MR.ObjectDistanceMap.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2238" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2238" bodyend="2243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a9e4498697c7e3c999c36c8b6b57c596e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.ObjectDistanceMap.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a9e4498697c7e3c999c36c8b6b57c596e" kindref="member">MR.ObjectDistanceMap.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2248" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2248" bodyend="2253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a99c020a3df1105f37a3b9b54f571916f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectDistanceMap.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.ObjectDistanceMap.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a99c020a3df1105f37a3b9b54f571916f" kindref="member">MR.ObjectDistanceMap.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2260" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2260" bodyend="2265"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1acd8fea19c4ff5c5d816255c890e9958d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectDistanceMap.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.ObjectDistanceMap.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1acd8fea19c4ff5c5d816255c890e9958d" kindref="member">MR.ObjectDistanceMap.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2275" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2275" bodyend="2281"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a735605b1a70375a1595e277dd9c56918" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectDistanceMap.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.ObjectDistanceMap.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a735605b1a70375a1595e277dd9c56918" kindref="member">MR.ObjectDistanceMap.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2289" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2289" bodyend="2294"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ac1d2b5d0b9505bc51345a734c3f005d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.ObjectDistanceMap.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ac1d2b5d0b9505bc51345a734c3f005d2" kindref="member">MR.ObjectDistanceMap.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2300" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2300" bodyend="2305"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1ad0e2a6f57444d27da8ceb285b91f0045" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.ObjectDistanceMap.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1ad0e2a6f57444d27da8ceb285b91f0045" kindref="member">MR.ObjectDistanceMap.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2311" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2311" bodyend="2316"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a1196e141bc146f171edabab51d274fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectDistanceMap.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.ObjectDistanceMap.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a1196e141bc146f171edabab51d274fe7" kindref="member">MR.ObjectDistanceMap.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2322" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2322" bodyend="2327"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1af347ef95f922c61f3b3cd30381ae1ecc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.ObjectDistanceMap.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1af347ef95f922c61f3b3cd30381ae1ecc" kindref="member">MR.ObjectDistanceMap.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2334" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2334" bodyend="2339"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1af3b48680544907dfebdeba05957f6231" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.ObjectDistanceMap.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1af3b48680544907dfebdeba05957f6231" kindref="member">MR.ObjectDistanceMap.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2346" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2346" bodyend="2351"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1aa375bb87f4a5167dd2c5d3d48e9f0191" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.ObjectDistanceMap.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1aa375bb87f4a5167dd2c5d3d48e9f0191" kindref="member">MR.ObjectDistanceMap.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2357" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2357" bodyend="2362"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a7ac157f6d7099b0a790fdcafbbd114a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectDistanceMap.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.ObjectDistanceMap.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a7ac157f6d7099b0a790fdcafbbd114a1" kindref="member">MR.ObjectDistanceMap.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2370" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2370" bodyend="2375"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a7dfb1e012d002aaf7130c3ed5b1f4478" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectDistanceMap.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.ObjectDistanceMap.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a7dfb1e012d002aaf7130c3ed5b1f4478" kindref="member">MR.ObjectDistanceMap.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2383" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2383" bodyend="2392"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectDistanceMap_1a0e8870df3b96eb7788ad999b2cbe9172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectDistanceMap.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.ObjectDistanceMap.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1ObjectDistanceMap_1a0e8870df3b96eb7788ad999b2cbe9172" kindref="member">MR.ObjectDistanceMap.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="2399" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="2399" bodyend="2408"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class stores information about distance map object Generated from class <computeroutput><ref refid="classMR_1_1ObjectDistanceMap" kindref="compound">MR.ObjectDistanceMap</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ObjectDistanceMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectDistanceMap</label>
+        <link refid="classMR_1_1ObjectDistanceMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ObjectDistanceMap &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ObjectDistanceMap</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectDistanceMap</label>
+        <link refid="classMR_1_1ObjectDistanceMap"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ObjectDistanceMap &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" line="1357" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectDistanceMap.cs" bodystart="1358" bodyend="2409"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjectDistanceMap_1acd8fea19c4ff5c5d816255c890e9958d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>addChild</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a735605b1a70375a1595e277dd9c56918" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a7dfb1e012d002aaf7130c3ed5b1f4478" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>addTag</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1abf7aa1dbf38884496702be974fed1d9e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>addTexture</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1af977c7ed500f3a841d4ecd825480b088" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a0a373a02011ff51cfb7c6887909f0ac1" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>assign</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a543db60df579c3b66b760ba7961c41a6" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>clearAncillaryTexture</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ae58484545a00c75793b27b3d475952d7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a17980b3a3efe5b76fcfadbd6f9f7401f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>copyColors</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ae39c6425b8150d93129387c01c70a057" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>copyTextureAndColors</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a99c020a3df1105f37a3b9b54f571916f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a48141dbc02dd38710a472c81d873613a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a99d117e62d237d4d84ebeeda440f1ae3" prot="package" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1adf3e9b9e8c56c42aae1c90413bb36ca4" prot="package" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a8c59e6596027c48b0131557895a5c706" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a27ebf4425f46b9ccc820f7bb0f2568ea" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>ObjectDistanceMap</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ab7aa1bf02edbf2c6abd7f6c3b471c85d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1af0ea4db10446a26239c3b91c263e853a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a8155eb9dbe94fb4888e4f342a89917d5" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.ObjectMeshHolder</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a30c8e6a483b9bb6aaa041599361dadd7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ae66060b086afae1d13cb264b343c30de" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator ObjectDistanceMap?</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a87b8958b81c4905a55f6c47a8b3d44ff" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator ObjectDistanceMap?</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ac0f9472f7d0c9e463a12b931ce4b5def" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>operator ObjectDistanceMap?</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ac1d2b5d0b9505bc51345a734c3f005d2" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a0e8870df3b96eb7788ad999b2cbe9172" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a262adcaa5c45c38abc8ce8844876e927" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1adc5a126cf94576a0810f56e7b8807431" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a2ecd97e43812d497eda0c77996403be7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a1196e141bc146f171edabab51d274fe7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>select</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a2a25b0e3951ca73c194fb18971e5bb3b" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>selectEdges</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aeb4dd84b066d70c118b0d2009877994e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>selectFaces</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ac85d94a620a777971c32a36d999a3014" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a585546d3a1546d0a23a275af9c19dc42" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1af347ef95f922c61f3b3cd30381ae1ecc" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ae294796472874c218865ed2040782eb9" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setAncillaryTexture</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a9d1ba1ebce2f88787868bbecdd96834a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setAncillaryUVCoords</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a8065a78555d66841b2dc432b82f6d4df" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aa010b25b9bba8ae633e340bcbc278398" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ad163748bbe8875f3e2b31b7ebb4950d4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setBordersColor</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ab1babf2a52ecb28988a844dc630f2c9c" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setBordersColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a3f4c10545f2aead77019a2fa4efd2b26" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a89aea4e460fc49a2097e40bacb56b115" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setCreases</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a429857be19097f043b1de7dc00758e0b" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setData</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a2a8971aeb875fd9db514041714fba593" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aff1e543e44c79ee7ebc2deb89a484081" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setDirtyFlagsFast</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ae25f5f9d634855da15652489e7c8cee3" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setDistanceMap</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a4237f96e07795d4af54d6d399d4f818b" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setEdgesColor</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ae34beccbf0f8e6dbef95620ca772ed41" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a65f2508fb6d45747610cfc8b060a5903" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setEdgeWidth</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1abd4bf41a4fbfe3151e6037675261a2ff" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setFacesColorMap</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a7a70e957b88226d97e84efeaf85f1b5f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setFlatShading</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ad717812d1c5c559206061de0ae6a8911" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ad4fb7a4cae96348b76098130c3611854" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aec09d05bf7651900d3833db0eacbe019" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a3bcc8b9d824115af88f59db0213f5e29" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a54eac39f6cd12dd6463dcc99c02b5c9f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a2be41ec82f0823e81ee06590965073a1" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a8e2466101f953c95327cb6efaa4a5a6f" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ac1e6888a94c7760a42ca4a38e0822584" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setName</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a9e4498697c7e3c999c36c8b6b57c596e" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ab02e7e7a0421122823218d3758270f6d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a25eafe3ed310ab8120f69a4e89e8bfb8" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setPointsColor</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a10341142c17914d890b2e57c527b781c" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setPointsColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ac9d04d3e1dcf6ae871072a8fbc09dc94" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a015e6afa8e2cb1627d4676c8958c1e59" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setSelectedEdgesColor</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a549582b20884e76018aaf33ab95e195c" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ac9494386928415337176f310e62bb7e0" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setSelectedFacesColor</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aa1fcb670f5caa42a1653e1fc759df347" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setSelectedFacesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a2a2e011162f5fec3c054f227132711c7" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setSerializeFormat</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aff15a16ca27cb7fded983b6e009e28e3" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ac821a7e1c029e4180f3f99f268738dd4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aec75947ef6c04377ee8c6e94902a893b" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setTexturePerFace</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aaf244464424801882fc483dd0dbf2ddd" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setTextures</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aca2feaa47b9c81119da90afca0ed7146" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a3045ac6f1f2ae19454df252f230a78bb" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setUVCoords</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a655f72a48c8f3c2d90d6313fa051348a" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setVertsColorMap</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aa375bb87f4a5167dd2c5d3d48e9f0191" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1af3b48680544907dfebdeba05957f6231" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a97132032b5ac6b4a3c97684a7d1a9c01" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a4716dcccf8e8f35805dc4f911e4c98df" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1abd8134cabc58eb53f997e7fd20b24080" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a00d6b40776d67e7c33784891445bea9b" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setXf</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a567ed0d85e51eaa72e72aeb3037b875d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ad0e2a6f57444d27da8ceb285b91f0045" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a7ac157f6d7099b0a790fdcafbbd114a1" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>swap</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aafe1d205fc13b617267fcd6f07f843f4" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1afd1db42af65e0d2693f57c197ab39451" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateAncillaryUVCoords</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1aa87a9b7baf7792d1f5cff01801e7136d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateData</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ac0c980ffaae06cd2bb69895180e4994c" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateFacesColorMap</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a88fc1eb276a275a3cd21887ded8aa821" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateMesh</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a1f85d3ad3ff4ca0a37f5d6b5a9af1538" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateTexturePerFace</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1a644a7b0663d932828acda2201e1dbced" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateTextures</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1adf95205409da41e8ba58428c8a1e9c74" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateUVCoords</name></member>
+      <member refid="classMR_1_1ObjectDistanceMap_1ac9eb3803635a294323bd1b519166f83d" prot="public" virt="non-virtual"><scope>MR::ObjectDistanceMap</scope><name>updateVertsColorMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

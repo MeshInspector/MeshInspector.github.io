@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1FileDialog" kind="namespace" language="C++">
+    <compoundname>MR::FileDialog</compoundname>
+    <innerclass refid="structMR_1_1FileDialog_1_1Parameters" prot="public">MR::FileDialog::Parameters</innerclass>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1ga6236a401964ba52cc8c681800b9016b6" kind="function"><name>getLastUsedDir</name></member>
+      <member refid="group__GeneralGroup_1gaff1ca147e48327b0475511d0b7b84957" kind="function"><name>setLastUsedDir</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" line="85" column="1"/>
+  </compounddef>
+</doxygen>

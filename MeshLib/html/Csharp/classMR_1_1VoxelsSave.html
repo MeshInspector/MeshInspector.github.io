@@ -146,109 +146,882 @@ $(function(){initNavTree('classMR_1_1VoxelsSave.html',''); initResizable(true); 
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classMR_1_1VoxelsSave-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.VoxelsSave Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a5289196c605171ac3410bbe845a26176" id="r_a5289196c605171ac3410bbe845a26176"><td class="memItemLeft" align="right" valign="top"><a id="a5289196c605171ac3410bbe845a26176" name="a5289196c605171ac3410bbe845a26176"></a>
-typedef Expected&lt; void &gt;(*)(const <a class="el" href="classMR_1_1VdbVolume.html">VdbVolume</a> &amp;, const std::filesystem::path &amp;, ProgressCallback&#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Cpp/namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176">VoxelsSaver</a>)</td></tr>
-<tr class="separator:a5289196c605171ac3410bbe845a26176"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_ByValue_SavingSettings</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used as a function parameter when the underlying function receives <code><a class="el" href="classMR_1_1VoxelsSave_1_1SavingSettings.html" title="Generated from class MR.VoxelsSave.SavingSettings. This is the non-const half of the class.">SavingSettings</a></code> by value. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptConst_SavingSettings</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1VoxelsSave_1_1SavingSettings.html" title="Generated from class MR.VoxelsSave.SavingSettings. This is the non-const half of the class.">SavingSettings</a></code> with default arguments. This is only used const parameters. For non-const ones we have <code>_InOptMut_SavingSettings</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>_InOptMut_SavingSettings</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is used for optional parameters of class <code><a class="el" href="classMR_1_1VoxelsSave_1_1SavingSettings.html" title="Generated from class MR.VoxelsSave.SavingSettings. This is the non-const half of the class.">SavingSettings</a></code> with default arguments. This is only used mutable parameters. For const ones we have <code>_InOptConst_SavingSettings</code>. Usage: <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><b>Const_SavingSettings</b></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="el" href="classMR_1_1VoxelsSave_1_1SavingSettings.html" title="Generated from class MR.VoxelsSave.SavingSettings. This is the non-const half of the class.">MR.VoxelsSave.SavingSettings</a></code>. This is the const half of the class. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1VoxelsSave_1_1SavingSettings.html">SavingSettings</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from class <code><a class="el" href="classMR_1_1VoxelsSave_1_1SavingSettings.html" title="Generated from class MR.VoxelsSave.SavingSettings. This is the non-const half of the class.">MR.VoxelsSave.SavingSettings</a></code>. This is the non-const half of the class.  <a href="classMR_1_1VoxelsSave_1_1SavingSettings.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a6c6921e445751acc40c054ff9d25dfe2" id="r_a6c6921e445751acc40c054ff9d25dfe2"><td class="memItemLeft" align="right" valign="top"><a id="a6c6921e445751acc40c054ff9d25dfe2" name="a6c6921e445751acc40c054ff9d25dfe2"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toDicom</b> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, string path, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? cb=null)</td></tr>
-<tr class="memdesc:a6c6921e445751acc40c054ff9d25dfe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save voxels object to a single 3d DICOM file Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6">MR.VoxelsSave.toDicom</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a6c6921e445751acc40c054ff9d25dfe2" id="r_a6c6921e445751acc40c054ff9d25dfe2"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c6921e445751acc40c054ff9d25dfe2">toDicom</a> (MR.Const_VdbVolume vdbVolume, string path, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</td></tr>
+<tr class="memdesc:a6c6921e445751acc40c054ff9d25dfe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save voxels object to a single 3d DICOM file Generated from function <code><a class="el" href="#a6c6921e445751acc40c054ff9d25dfe2" title="Save voxels object to a single 3d DICOM file Generated from function MR.VoxelsSave....">MR.VoxelsSave.toDicom</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a6c6921e445751acc40c054ff9d25dfe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23d89fb99c8fdc9d2f2e3d2981f40a8d" id="r_a23d89fb99c8fdc9d2f2e3d2981f40a8d"><td class="memItemLeft" align="right" valign="top"><a id="a23d89fb99c8fdc9d2f2e3d2981f40a8d" name="a23d89fb99c8fdc9d2f2e3d2981f40a8d"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toDicom</b> (<a class="el" href="classMR_1_1Const__SimpleVolumeU16.html">MR.Const_SimpleVolumeU16</a> <a class="elRef" href="../Cpp/namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, string path, <a class="el" href="classMR_1_1Std_1_1Const__Optional__MRBox1f.html">MR.Std.Const_Optional_MRBox1f</a>? sourceScale=null, <a class="el" href="classMR_1_1Std_1_1Const__Function__BoolFuncFromFloat.html">MR.Std.Const_Function_BoolFuncFromFloat</a>? cb=null)</td></tr>
-<tr class="memdesc:a23d89fb99c8fdc9d2f2e3d2981f40a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves object to a single 3d DICOM file. <code>sourceScale</code> specifies the true scale of the voxel data which will be saved with "slope" and "intercept" parameters of the output dicom. Generated from function <code><a class="elRef" href="../Cpp/namespaceMR_1_1VoxelsSave.html#a8b7a3d30f9b81594b08a8a90828dd8e6">MR.VoxelsSave.toDicom</a>&lt;unsigned short&gt;</code>. Parameter <code>sourceScale</code> defaults to <code>{}</code>. Parameter <code>cb</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a23d89fb99c8fdc9d2f2e3d2981f40a8d" id="r_a23d89fb99c8fdc9d2f2e3d2981f40a8d"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23d89fb99c8fdc9d2f2e3d2981f40a8d">toDicom</a> (MR.Const_SimpleVolumeU16 <a class="el" href="classMR.html#a9746e4d2c8c0e87376f83e20494d4bfc">volume</a>, string path, MR.Std.Const_Optional_MRBox1f? sourceScale=null, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</td></tr>
+<tr class="memdesc:a23d89fb99c8fdc9d2f2e3d2981f40a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves object to a single 3d DICOM file. <code>sourceScale</code> specifies the true scale of the voxel data which will be saved with "slope" and "intercept" parameters of the output dicom. Generated from function <code><a class="el" href="#a6c6921e445751acc40c054ff9d25dfe2" title="Save voxels object to a single 3d DICOM file Generated from function MR.VoxelsSave....">MR.VoxelsSave.toDicom</a>&lt;unsigned short&gt;</code>. Parameter <code>sourceScale</code> defaults to <code>{}</code>. Parameter <code>cb</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a23d89fb99c8fdc9d2f2e3d2981f40a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cac18be1e6f88ceb2f05d50b3e1af73" id="r_a9cac18be1e6f88ceb2f05d50b3e1af73"><td class="memItemLeft" align="right" valign="top"><a id="a9cac18be1e6f88ceb2f05d50b3e1af73" name="a9cac18be1e6f88ceb2f05d50b3e1af73"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toRawAutoname</b> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a9cac18be1e6f88ceb2f05d50b3e1af73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save raw voxels file, writing parameters in file name Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaba5fa9d2b1947f916a3629cde580c30f">MR.VoxelsSave.toRawAutoname</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a9cac18be1e6f88ceb2f05d50b3e1af73" id="r_a9cac18be1e6f88ceb2f05d50b3e1af73"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9cac18be1e6f88ceb2f05d50b3e1af73">toRawAutoname</a> (MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a9cac18be1e6f88ceb2f05d50b3e1af73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save raw voxels file, writing parameters in file name Generated from function <code><a class="el" href="#a9cac18be1e6f88ceb2f05d50b3e1af73" title="Save raw voxels file, writing parameters in file name Generated from function MR.VoxelsSave....">MR.VoxelsSave.toRawAutoname</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a9cac18be1e6f88ceb2f05d50b3e1af73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af31ef9e217e1cc80e0eb4de5ebbb2a3e" id="r_af31ef9e217e1cc80e0eb4de5ebbb2a3e"><td class="memItemLeft" align="right" valign="top"><a id="af31ef9e217e1cc80e0eb4de5ebbb2a3e" name="af31ef9e217e1cc80e0eb4de5ebbb2a3e"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toRawAutoname</b> (<a class="el" href="classMR_1_1Const__SimpleVolume.html">MR.Const_SimpleVolume</a> simpleVolume, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:af31ef9e217e1cc80e0eb4de5ebbb2a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaba5fa9d2b1947f916a3629cde580c30f">MR.VoxelsSave.toRawAutoname</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:af31ef9e217e1cc80e0eb4de5ebbb2a3e" id="r_af31ef9e217e1cc80e0eb4de5ebbb2a3e"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af31ef9e217e1cc80e0eb4de5ebbb2a3e">toRawAutoname</a> (MR.Const_SimpleVolume simpleVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:af31ef9e217e1cc80e0eb4de5ebbb2a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a9cac18be1e6f88ceb2f05d50b3e1af73" title="Save raw voxels file, writing parameters in file name Generated from function MR.VoxelsSave....">MR.VoxelsSave.toRawAutoname</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:af31ef9e217e1cc80e0eb4de5ebbb2a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0be9c0e9d104e38b4f8a49f2d2122d17" id="r_a0be9c0e9d104e38b4f8a49f2d2122d17"><td class="memItemLeft" align="right" valign="top"><a id="a0be9c0e9d104e38b4f8a49f2d2122d17" name="a0be9c0e9d104e38b4f8a49f2d2122d17"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>gridToRawAutoname</b> (<a class="el" href="classMR_1_1Const__FloatGrid.html">MR.Const_FloatGrid</a> grid, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a0be9c0e9d104e38b4f8a49f2d2122d17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gaf3e337da226cefb117434f836e5305cc">MR.VoxelsSave.gridToRawAutoname</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a0be9c0e9d104e38b4f8a49f2d2122d17" id="r_a0be9c0e9d104e38b4f8a49f2d2122d17"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0be9c0e9d104e38b4f8a49f2d2122d17">gridToRawAutoname</a> (MR.Const_FloatGrid grid, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a0be9c0e9d104e38b4f8a49f2d2122d17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a0be9c0e9d104e38b4f8a49f2d2122d17" title="Generated from function MR.VoxelsSave.gridToRawAutoname. Parameter callback defaults to {}...">MR.VoxelsSave.gridToRawAutoname</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a0be9c0e9d104e38b4f8a49f2d2122d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a756f407097d79b64c293ed7bf92ccd" id="r_a4a756f407097d79b64c293ed7bf92ccd"><td class="memItemLeft" align="right" valign="top"><a id="a4a756f407097d79b64c293ed7bf92ccd" name="a4a756f407097d79b64c293ed7bf92ccd"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>gridToRawFloat</b> (<a class="el" href="classMR_1_1Const__FloatGrid.html">MR.Const_FloatGrid</a> grid, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a4a756f407097d79b64c293ed7bf92ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save voxels in raw format with each value as 32-bit float in given binary stream Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga4d10a99aa49d2b8f2ef88692d30d10cd">MR.VoxelsSave.gridToRawFloat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a4a756f407097d79b64c293ed7bf92ccd" id="r_a4a756f407097d79b64c293ed7bf92ccd"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a756f407097d79b64c293ed7bf92ccd">gridToRawFloat</a> (MR.Const_FloatGrid grid, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a4a756f407097d79b64c293ed7bf92ccd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save voxels in raw format with each value as 32-bit float in given binary stream Generated from function <code><a class="el" href="#a4a756f407097d79b64c293ed7bf92ccd" title="Save voxels in raw format with each value as 32-bit float in given binary stream Generated from funct...">MR.VoxelsSave.gridToRawFloat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a4a756f407097d79b64c293ed7bf92ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0f8be4fc2ad72364b988027e0aae2c1" id="r_ac0f8be4fc2ad72364b988027e0aae2c1"><td class="memItemLeft" align="right" valign="top"><a id="ac0f8be4fc2ad72364b988027e0aae2c1" name="ac0f8be4fc2ad72364b988027e0aae2c1"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toRawFloat</b> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:ac0f8be4fc2ad72364b988027e0aae2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga12d518250bd2612433a450a1a4d1edca">MR.VoxelsSave.toRawFloat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ac0f8be4fc2ad72364b988027e0aae2c1" id="r_ac0f8be4fc2ad72364b988027e0aae2c1"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac0f8be4fc2ad72364b988027e0aae2c1">toRawFloat</a> (MR.Const_VdbVolume vdbVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:ac0f8be4fc2ad72364b988027e0aae2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#ac0f8be4fc2ad72364b988027e0aae2c1" title="Generated from function MR.VoxelsSave.toRawFloat. Parameter callback defaults to {}...">MR.VoxelsSave.toRawFloat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ac0f8be4fc2ad72364b988027e0aae2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af07874e74b05490640ee2e8a9124e652" id="r_af07874e74b05490640ee2e8a9124e652"><td class="memItemLeft" align="right" valign="top"><a id="af07874e74b05490640ee2e8a9124e652" name="af07874e74b05490640ee2e8a9124e652"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toRawFloat</b> (<a class="el" href="classMR_1_1Const__SimpleVolume.html">MR.Const_SimpleVolume</a> simpleVolume, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:af07874e74b05490640ee2e8a9124e652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga12d518250bd2612433a450a1a4d1edca">MR.VoxelsSave.toRawFloat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:af07874e74b05490640ee2e8a9124e652" id="r_af07874e74b05490640ee2e8a9124e652"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af07874e74b05490640ee2e8a9124e652">toRawFloat</a> (MR.Const_SimpleVolume simpleVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:af07874e74b05490640ee2e8a9124e652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#ac0f8be4fc2ad72364b988027e0aae2c1" title="Generated from function MR.VoxelsSave.toRawFloat. Parameter callback defaults to {}...">MR.VoxelsSave.toRawFloat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:af07874e74b05490640ee2e8a9124e652"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a290a80182f4938af7df0000590db56bb" id="r_a290a80182f4938af7df0000590db56bb"><td class="memItemLeft" align="right" valign="top"><a id="a290a80182f4938af7df0000590db56bb" name="a290a80182f4938af7df0000590db56bb"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toGav</b> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a290a80182f4938af7df0000590db56bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save voxels in Gav-format in given destination Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a290a80182f4938af7df0000590db56bb" id="r_a290a80182f4938af7df0000590db56bb"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a290a80182f4938af7df0000590db56bb">toGav</a> (MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a290a80182f4938af7df0000590db56bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save voxels in Gav-format in given destination Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a290a80182f4938af7df0000590db56bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb37e85d0078e1294029fe57f4bf8335" id="r_adb37e85d0078e1294029fe57f4bf8335"><td class="memItemLeft" align="right" valign="top"><a id="adb37e85d0078e1294029fe57f4bf8335" name="adb37e85d0078e1294029fe57f4bf8335"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toGav</b> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:adb37e85d0078e1294029fe57f4bf8335"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:adb37e85d0078e1294029fe57f4bf8335" id="r_adb37e85d0078e1294029fe57f4bf8335"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adb37e85d0078e1294029fe57f4bf8335">toGav</a> (MR.Const_VdbVolume vdbVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:adb37e85d0078e1294029fe57f4bf8335"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:adb37e85d0078e1294029fe57f4bf8335"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae11273e46998c8b4b338b7e768ac1206" id="r_ae11273e46998c8b4b338b7e768ac1206"><td class="memItemLeft" align="right" valign="top"><a id="ae11273e46998c8b4b338b7e768ac1206" name="ae11273e46998c8b4b338b7e768ac1206"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toGav</b> (<a class="el" href="classMR_1_1Const__SimpleVolumeMinMax.html">MR.Const_SimpleVolumeMinMax</a> simpleVolumeMinMax, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:ae11273e46998c8b4b338b7e768ac1206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ae11273e46998c8b4b338b7e768ac1206" id="r_ae11273e46998c8b4b338b7e768ac1206"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae11273e46998c8b4b338b7e768ac1206">toGav</a> (MR.Const_SimpleVolumeMinMax simpleVolumeMinMax, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:ae11273e46998c8b4b338b7e768ac1206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ae11273e46998c8b4b338b7e768ac1206"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e" id="r_a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e"><td class="memItemLeft" align="right" valign="top"><a id="a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e" name="a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toGav</b> (<a class="el" href="classMR_1_1Const__SimpleVolumeMinMax.html">MR.Const_SimpleVolumeMinMax</a> simpleVolumeMinMax, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e" id="r_a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e">toGav</a> (MR.Const_SimpleVolumeMinMax simpleVolumeMinMax, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03716929055448a0a7eccbd8af3c80f1" id="r_a03716929055448a0a7eccbd8af3c80f1"><td class="memItemLeft" align="right" valign="top"><a id="a03716929055448a0a7eccbd8af3c80f1" name="a03716929055448a0a7eccbd8af3c80f1"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toGav</b> (<a class="el" href="classMR_1_1Const__SimpleVolume.html">MR.Const_SimpleVolume</a> simpleVolume, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a03716929055448a0a7eccbd8af3c80f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a03716929055448a0a7eccbd8af3c80f1" id="r_a03716929055448a0a7eccbd8af3c80f1"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a03716929055448a0a7eccbd8af3c80f1">toGav</a> (MR.Const_SimpleVolume simpleVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a03716929055448a0a7eccbd8af3c80f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a03716929055448a0a7eccbd8af3c80f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d577dd8122884f5efde439d0890e8a7" id="r_a3d577dd8122884f5efde439d0890e8a7"><td class="memItemLeft" align="right" valign="top"><a id="a3d577dd8122884f5efde439d0890e8a7" name="a3d577dd8122884f5efde439d0890e8a7"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toGav</b> (<a class="el" href="classMR_1_1Const__SimpleVolume.html">MR.Const_SimpleVolume</a> simpleVolume, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a3d577dd8122884f5efde439d0890e8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga07fcb9dbce1e084feea3f4bc9a997d05">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a3d577dd8122884f5efde439d0890e8a7" id="r_a3d577dd8122884f5efde439d0890e8a7"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3d577dd8122884f5efde439d0890e8a7">toGav</a> (MR.Const_SimpleVolume simpleVolume, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a3d577dd8122884f5efde439d0890e8a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a3d577dd8122884f5efde439d0890e8a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade9d534451d92b171376e12f5ad36ac1" id="r_ade9d534451d92b171376e12f5ad36ac1"><td class="memItemLeft" align="right" valign="top"><a id="ade9d534451d92b171376e12f5ad36ac1" name="ade9d534451d92b171376e12f5ad36ac1"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>gridToVdb</b> (<a class="el" href="classMR_1_1Const__FloatGrid.html">MR.Const_FloatGrid</a> grid, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:ade9d534451d92b171376e12f5ad36ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save voxels file in OpenVDB format Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gae95da72600888100f789f35d3c34dcfb">MR.VoxelsSave.gridToVdb</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ade9d534451d92b171376e12f5ad36ac1" id="r_ade9d534451d92b171376e12f5ad36ac1"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade9d534451d92b171376e12f5ad36ac1">gridToVdb</a> (MR.Const_FloatGrid grid, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:ade9d534451d92b171376e12f5ad36ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save voxels file in OpenVDB format Generated from function <code><a class="el" href="#ade9d534451d92b171376e12f5ad36ac1" title="Save voxels file in OpenVDB format Generated from function MR.VoxelsSave.gridToVdb....">MR.VoxelsSave.gridToVdb</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ade9d534451d92b171376e12f5ad36ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90139acf573c437a73c2390d048b7fa4" id="r_a90139acf573c437a73c2390d048b7fa4"><td class="memItemLeft" align="right" valign="top"><a id="a90139acf573c437a73c2390d048b7fa4" name="a90139acf573c437a73c2390d048b7fa4"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>gridToVdb</b> (<a class="el" href="classMR_1_1Const__FloatGrid.html">MR.Const_FloatGrid</a> grid, <a class="el" href="classMR_1_1Std_1_1Ostream.html">MR.Std.Ostream</a> out_, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a90139acf573c437a73c2390d048b7fa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gae95da72600888100f789f35d3c34dcfb">MR.VoxelsSave.gridToVdb</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a90139acf573c437a73c2390d048b7fa4" id="r_a90139acf573c437a73c2390d048b7fa4"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a90139acf573c437a73c2390d048b7fa4">gridToVdb</a> (MR.Const_FloatGrid grid, MR.Std.Ostream out_, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a90139acf573c437a73c2390d048b7fa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#ade9d534451d92b171376e12f5ad36ac1" title="Save voxels file in OpenVDB format Generated from function MR.VoxelsSave.gridToVdb....">MR.VoxelsSave.gridToVdb</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a90139acf573c437a73c2390d048b7fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15288de4fc39da73d605bccadb9d7481" id="r_a15288de4fc39da73d605bccadb9d7481"><td class="memItemLeft" align="right" valign="top"><a id="a15288de4fc39da73d605bccadb9d7481" name="a15288de4fc39da73d605bccadb9d7481"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toVdb</b> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a15288de4fc39da73d605bccadb9d7481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#gae7e67df258eb2d97e1ddf1d1cb4917f5">MR.VoxelsSave.toVdb</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a15288de4fc39da73d605bccadb9d7481" id="r_a15288de4fc39da73d605bccadb9d7481"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15288de4fc39da73d605bccadb9d7481">toVdb</a> (MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a15288de4fc39da73d605bccadb9d7481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a15288de4fc39da73d605bccadb9d7481" title="Generated from function MR.VoxelsSave.toVdb. Parameter callback defaults to {}.">MR.VoxelsSave.toVdb</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a15288de4fc39da73d605bccadb9d7481"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61d164e695f8a35d7ef40d92b503ac2e" id="r_a61d164e695f8a35d7ef40d92b503ac2e"><td class="memItemLeft" align="right" valign="top"><a id="a61d164e695f8a35d7ef40d92b503ac2e" name="a61d164e695f8a35d7ef40d92b503ac2e"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>gridToAnySupportedFormat</b> (<a class="el" href="classMR_1_1Const__FloatGrid.html">MR.Const_FloatGrid</a> grid, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> <a class="elRef" href="../Cpp/group__VoxelGroup.html#ga242530ea0c7771c807c769bcb292f37f">dims</a>, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a61d164e695f8a35d7ef40d92b503ac2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves voxels in a file, detecting the format from file extension Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga9dcafbf81e0cc08b00b5f3cc6c42f9e6">MR.VoxelsSave.gridToAnySupportedFormat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a61d164e695f8a35d7ef40d92b503ac2e" id="r_a61d164e695f8a35d7ef40d92b503ac2e"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a61d164e695f8a35d7ef40d92b503ac2e">gridToAnySupportedFormat</a> (MR.Const_FloatGrid grid, in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a> dims, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a61d164e695f8a35d7ef40d92b503ac2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves voxels in a file, detecting the format from file extension Generated from function <code><a class="el" href="#a61d164e695f8a35d7ef40d92b503ac2e" title="Saves voxels in a file, detecting the format from file extension Generated from function MR....">MR.VoxelsSave.gridToAnySupportedFormat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a61d164e695f8a35d7ef40d92b503ac2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81f68ce09e87d7e547c4c9f4862c2a89" id="r_a81f68ce09e87d7e547c4c9f4862c2a89"><td class="memItemLeft" align="right" valign="top"><a id="a81f68ce09e87d7e547c4c9f4862c2a89" name="a81f68ce09e87d7e547c4c9f4862c2a89"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>toAnySupportedFormat</b> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, string file, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:a81f68ce09e87d7e547c4c9f4862c2a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga479f7166483b9a6ae878a9eaaaf3b2c2">MR.VoxelsSave.toAnySupportedFormat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:a81f68ce09e87d7e547c4c9f4862c2a89" id="r_a81f68ce09e87d7e547c4c9f4862c2a89"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a81f68ce09e87d7e547c4c9f4862c2a89">toAnySupportedFormat</a> (MR.Const_VdbVolume vdbVolume, string file, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:a81f68ce09e87d7e547c4c9f4862c2a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="el" href="#a81f68ce09e87d7e547c4c9f4862c2a89" title="Generated from function MR.VoxelsSave.toAnySupportedFormat. Parameter callback defaults to {}...">MR.VoxelsSave.toAnySupportedFormat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:a81f68ce09e87d7e547c4c9f4862c2a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae174243e90561c32d2a42c58bee25a1a" id="r_ae174243e90561c32d2a42c58bee25a1a"><td class="memItemLeft" align="right" valign="top"><a id="ae174243e90561c32d2a42c58bee25a1a" name="ae174243e90561c32d2a42c58bee25a1a"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>saveSliceToImage</b> (string path, <a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, MR.SlicePlane slicePlain, int sliceNumber, <a class="el" href="classMR_1_1Std_1_1__ByValue__Function__BoolFuncFromFloat.html">MR.Std._ByValue_Function_BoolFuncFromFloat</a>? callback=null)</td></tr>
-<tr class="memdesc:ae174243e90561c32d2a42c58bee25a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the slice by the active plane through the sliceNumber to an image file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga71f97bec2215ef7c561b5de6d82dfe53">MR.VoxelsSave.saveSliceToImage</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. <br /></td></tr>
+<tr class="memitem:ae174243e90561c32d2a42c58bee25a1a" id="r_ae174243e90561c32d2a42c58bee25a1a"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae174243e90561c32d2a42c58bee25a1a">saveSliceToImage</a> (string path, MR.Const_VdbVolume vdbVolume, <a class="el" href="classMR.html#a2f6d997fab8518c579b67d420b8dea94">MR.SlicePlane</a> slicePlain, int sliceNumber, MR.Std._ByValue_Function_BoolFuncFromFloat? callback=null)</td></tr>
+<tr class="memdesc:ae174243e90561c32d2a42c58bee25a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the slice by the active plane through the sliceNumber to an image file Generated from function <code><a class="el" href="#ae174243e90561c32d2a42c58bee25a1a" title="save the slice by the active plane through the sliceNumber to an image file Generated from function M...">MR.VoxelsSave.saveSliceToImage</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>.  <br /></td></tr>
 <tr class="separator:ae174243e90561c32d2a42c58bee25a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1183900514fb84082b997eae6f87608a" id="r_a1183900514fb84082b997eae6f87608a"><td class="memItemLeft" align="right" valign="top"><a id="a1183900514fb84082b997eae6f87608a" name="a1183900514fb84082b997eae6f87608a"></a>
-static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>saveAllSlicesToImage</b> (<a class="el" href="classMR_1_1Const__VdbVolume.html">MR.Const_VdbVolume</a> vdbVolume, <a class="el" href="classMR_1_1VoxelsSave_1_1Const__SavingSettings.html">MR.VoxelsSave.Const_SavingSettings</a> settings)</td></tr>
-<tr class="memdesc:a1183900514fb84082b997eae6f87608a"><td class="mdescLeft">&#160;</td><td class="mdescRight">save all slices by the active plane through all voxel planes along the active axis to an image file Generated from function <code><a class="elRef" href="../Cpp/group__IOGroup.html#ga369d03f6b945767a7f3fff153969a695">MR.VoxelsSave.saveAllSlicesToImage</a></code>. <br /></td></tr>
+<tr class="memitem:a1183900514fb84082b997eae6f87608a" id="r_a1183900514fb84082b997eae6f87608a"><td class="memItemLeft" align="right" valign="top">static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1183900514fb84082b997eae6f87608a">saveAllSlicesToImage</a> (MR.Const_VdbVolume vdbVolume, MR.VoxelsSave.Const_SavingSettings settings)</td></tr>
+<tr class="memdesc:a1183900514fb84082b997eae6f87608a"><td class="mdescLeft">&#160;</td><td class="mdescRight">save all slices by the active plane through all voxel planes along the active axis to an image file Generated from function <code><a class="el" href="#a1183900514fb84082b997eae6f87608a" title="save all slices by the active plane through all voxel planes along the active axis to an image file G...">MR.VoxelsSave.saveAllSlicesToImage</a></code>.  <br /></td></tr>
 <tr class="separator:a1183900514fb84082b997eae6f87608a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a61d164e695f8a35d7ef40d92b503ac2e" name="a61d164e695f8a35d7ef40d92b503ac2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61d164e695f8a35d7ef40d92b503ac2e">&#9670;&#160;</a></span>gridToAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.gridToAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_FloatGrid</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves voxels in a file, detecting the format from file extension Generated from function <code><a class="el" href="#a61d164e695f8a35d7ef40d92b503ac2e" title="Saves voxels in a file, detecting the format from file extension Generated from function MR....">MR.VoxelsSave.gridToAnySupportedFormat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a0be9c0e9d104e38b4f8a49f2d2122d17" name="a0be9c0e9d104e38b4f8a49f2d2122d17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0be9c0e9d104e38b4f8a49f2d2122d17">&#9670;&#160;</a></span>gridToRawAutoname()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.gridToRawAutoname </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_FloatGrid</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a0be9c0e9d104e38b4f8a49f2d2122d17" title="Generated from function MR.VoxelsSave.gridToRawAutoname. Parameter callback defaults to {}...">MR.VoxelsSave.gridToRawAutoname</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a4a756f407097d79b64c293ed7bf92ccd" name="a4a756f407097d79b64c293ed7bf92ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a756f407097d79b64c293ed7bf92ccd">&#9670;&#160;</a></span>gridToRawFloat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.gridToRawFloat </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_FloatGrid</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector3i.html">MR.Vector3i</a></td>          <td class="paramname"><span class="paramname"><em>dims</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save voxels in raw format with each value as 32-bit float in given binary stream Generated from function <code><a class="el" href="#a4a756f407097d79b64c293ed7bf92ccd" title="Save voxels in raw format with each value as 32-bit float in given binary stream Generated from funct...">MR.VoxelsSave.gridToRawFloat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a90139acf573c437a73c2390d048b7fa4" name="a90139acf573c437a73c2390d048b7fa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90139acf573c437a73c2390d048b7fa4">&#9670;&#160;</a></span>gridToVdb() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.gridToVdb </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_FloatGrid</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#ade9d534451d92b171376e12f5ad36ac1" title="Save voxels file in OpenVDB format Generated from function MR.VoxelsSave.gridToVdb....">MR.VoxelsSave.gridToVdb</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="ade9d534451d92b171376e12f5ad36ac1" name="ade9d534451d92b171376e12f5ad36ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade9d534451d92b171376e12f5ad36ac1">&#9670;&#160;</a></span>gridToVdb() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.gridToVdb </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_FloatGrid</td>          <td class="paramname"><span class="paramname"><em>grid</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save voxels file in OpenVDB format Generated from function <code><a class="el" href="#ade9d534451d92b171376e12f5ad36ac1" title="Save voxels file in OpenVDB format Generated from function MR.VoxelsSave.gridToVdb....">MR.VoxelsSave.gridToVdb</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a1183900514fb84082b997eae6f87608a" name="a1183900514fb84082b997eae6f87608a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1183900514fb84082b997eae6f87608a">&#9670;&#160;</a></span>saveAllSlicesToImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.saveAllSlicesToImage </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_VdbVolume</td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.VoxelsSave.Const_SavingSettings</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save all slices by the active plane through all voxel planes along the active axis to an image file Generated from function <code><a class="el" href="#a1183900514fb84082b997eae6f87608a" title="save all slices by the active plane through all voxel planes along the active axis to an image file G...">MR.VoxelsSave.saveAllSlicesToImage</a></code>. </p>
+
+</div>
+</div>
+<a id="ae174243e90561c32d2a42c58bee25a1a" name="ae174243e90561c32d2a42c58bee25a1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae174243e90561c32d2a42c58bee25a1a">&#9670;&#160;</a></span>saveSliceToImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.saveSliceToImage </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Const_VdbVolume</td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR.html#a2f6d997fab8518c579b67d420b8dea94">MR.SlicePlane</a></td>          <td class="paramname"><span class="paramname"><em>slicePlain</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>sliceNumber</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>save the slice by the active plane through the sliceNumber to an image file Generated from function <code><a class="el" href="#ae174243e90561c32d2a42c58bee25a1a" title="save the slice by the active plane through the sliceNumber to an image file Generated from function M...">MR.VoxelsSave.saveSliceToImage</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a81f68ce09e87d7e547c4c9f4862c2a89" name="a81f68ce09e87d7e547c4c9f4862c2a89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81f68ce09e87d7e547c4c9f4862c2a89">&#9670;&#160;</a></span>toAnySupportedFormat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toAnySupportedFormat </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_VdbVolume</td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a81f68ce09e87d7e547c4c9f4862c2a89" title="Generated from function MR.VoxelsSave.toAnySupportedFormat. Parameter callback defaults to {}...">MR.VoxelsSave.toAnySupportedFormat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a23d89fb99c8fdc9d2f2e3d2981f40a8d" name="a23d89fb99c8fdc9d2f2e3d2981f40a8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23d89fb99c8fdc9d2f2e3d2981f40a8d">&#9670;&#160;</a></span>toDicom() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toDicom </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_SimpleVolumeU16</td>          <td class="paramname"><span class="paramname"><em>volume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Optional_MRBox1f?</td>          <td class="paramname"><span class="paramname"><em>sourceScale</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Const_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Saves object to a single 3d DICOM file. <code>sourceScale</code> specifies the true scale of the voxel data which will be saved with "slope" and "intercept" parameters of the output dicom. Generated from function <code><a class="el" href="#a6c6921e445751acc40c054ff9d25dfe2" title="Save voxels object to a single 3d DICOM file Generated from function MR.VoxelsSave....">MR.VoxelsSave.toDicom</a>&lt;unsigned short&gt;</code>. Parameter <code>sourceScale</code> defaults to <code>{}</code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a6c6921e445751acc40c054ff9d25dfe2" name="a6c6921e445751acc40c054ff9d25dfe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c6921e445751acc40c054ff9d25dfe2">&#9670;&#160;</a></span>toDicom() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toDicom </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_VdbVolume</td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>path</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>cb</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save voxels object to a single 3d DICOM file Generated from function <code><a class="el" href="#a6c6921e445751acc40c054ff9d25dfe2" title="Save voxels object to a single 3d DICOM file Generated from function MR.VoxelsSave....">MR.VoxelsSave.toDicom</a></code>. Parameter <code>cb</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a3d577dd8122884f5efde439d0890e8a7" name="a3d577dd8122884f5efde439d0890e8a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d577dd8122884f5efde439d0890e8a7">&#9670;&#160;</a></span>toGav() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_SimpleVolume</td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a03716929055448a0a7eccbd8af3c80f1" name="a03716929055448a0a7eccbd8af3c80f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03716929055448a0a7eccbd8af3c80f1">&#9670;&#160;</a></span>toGav() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_SimpleVolume</td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e" name="a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eaf14eeb1ecaa59e5ed7e48d9cb8b5e">&#9670;&#160;</a></span>toGav() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_SimpleVolumeMinMax</td>          <td class="paramname"><span class="paramname"><em>simpleVolumeMinMax</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="ae11273e46998c8b4b338b7e768ac1206" name="ae11273e46998c8b4b338b7e768ac1206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae11273e46998c8b4b338b7e768ac1206">&#9670;&#160;</a></span>toGav() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_SimpleVolumeMinMax</td>          <td class="paramname"><span class="paramname"><em>simpleVolumeMinMax</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="adb37e85d0078e1294029fe57f4bf8335" name="adb37e85d0078e1294029fe57f4bf8335"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb37e85d0078e1294029fe57f4bf8335">&#9670;&#160;</a></span>toGav() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_VdbVolume</td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a290a80182f4938af7df0000590db56bb" name="a290a80182f4938af7df0000590db56bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290a80182f4938af7df0000590db56bb">&#9670;&#160;</a></span>toGav() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toGav </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_VdbVolume</td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save voxels in Gav-format in given destination Generated from function <code><a class="el" href="#a290a80182f4938af7df0000590db56bb" title="Save voxels in Gav-format in given destination Generated from function MR.VoxelsSave....">MR.VoxelsSave.toGav</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="af31ef9e217e1cc80e0eb4de5ebbb2a3e" name="af31ef9e217e1cc80e0eb4de5ebbb2a3e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af31ef9e217e1cc80e0eb4de5ebbb2a3e">&#9670;&#160;</a></span>toRawAutoname() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toRawAutoname </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_SimpleVolume</td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a9cac18be1e6f88ceb2f05d50b3e1af73" title="Save raw voxels file, writing parameters in file name Generated from function MR.VoxelsSave....">MR.VoxelsSave.toRawAutoname</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a9cac18be1e6f88ceb2f05d50b3e1af73" name="a9cac18be1e6f88ceb2f05d50b3e1af73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9cac18be1e6f88ceb2f05d50b3e1af73">&#9670;&#160;</a></span>toRawAutoname() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toRawAutoname </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_VdbVolume</td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save raw voxels file, writing parameters in file name Generated from function <code><a class="el" href="#a9cac18be1e6f88ceb2f05d50b3e1af73" title="Save raw voxels file, writing parameters in file name Generated from function MR.VoxelsSave....">MR.VoxelsSave.toRawAutoname</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="af07874e74b05490640ee2e8a9124e652" name="af07874e74b05490640ee2e8a9124e652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af07874e74b05490640ee2e8a9124e652">&#9670;&#160;</a></span>toRawFloat() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toRawFloat </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_SimpleVolume</td>          <td class="paramname"><span class="paramname"><em>simpleVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#ac0f8be4fc2ad72364b988027e0aae2c1" title="Generated from function MR.VoxelsSave.toRawFloat. Parameter callback defaults to {}...">MR.VoxelsSave.toRawFloat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="ac0f8be4fc2ad72364b988027e0aae2c1" name="ac0f8be4fc2ad72364b988027e0aae2c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0f8be4fc2ad72364b988027e0aae2c1">&#9670;&#160;</a></span>toRawFloat() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toRawFloat </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_VdbVolume</td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std.Ostream</td>          <td class="paramname"><span class="paramname"><em>out_</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#ac0f8be4fc2ad72364b988027e0aae2c1" title="Generated from function MR.VoxelsSave.toRawFloat. Parameter callback defaults to {}...">MR.VoxelsSave.toRawFloat</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
+<a id="a15288de4fc39da73d605bccadb9d7481" name="a15288de4fc39da73d605bccadb9d7481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15288de4fc39da73d605bccadb9d7481">&#9670;&#160;</a></span>toVdb()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe void MR.VoxelsSave.toVdb </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_VdbVolume</td>          <td class="paramname"><span class="paramname"><em>vdbVolume</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>file</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">MR.Std._ByValue_Function_BoolFuncFromFloat?</td>          <td class="paramname"><span class="paramname"><em>callback</em></span><span class="paramdefsep"> = </span><span class="paramdefval">null</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code><a class="el" href="#a15288de4fc39da73d605bccadb9d7481" title="Generated from function MR.VoxelsSave.toVdb. Parameter callback defaults to {}.">MR.VoxelsSave.toVdb</a></code>. Parameter <code>callback</code> defaults to <code>{}</code>. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li><b>MRDicom.cs</b></li>
-<li><b>MRVoxelsSave.cs</b></li>
+<li><a class="el" href="MRDicom_8cs.html">MRDicom.cs</a></li>
+<li><a class="el" href="MRVoxelsSave_8cs.html">MRVoxelsSave.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -256,7 +1029,7 @@ static unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>saveAll
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1VoxelsSave.html">VoxelsSave</a></li>
+    <li class="navelem"><a class="el" href="classMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1VoxelsSave.html">VoxelsSave</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

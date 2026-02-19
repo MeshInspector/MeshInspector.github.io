@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1LabelRectAllocator_1_1Entry" kind="struct" language="C++" prot="private">
+    <compoundname>MR::UI::LabelRectAllocator::Entry</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1LabelRectAllocator_1_1Entry_1ae4dd4a8ae8c0a291dd689babddadf647" prot="public" static="no" mutable="no">
+        <type>Box2f</type>
+        <definition>Box2f MR::UI::LabelRectAllocator::Entry::box</definition>
+        <argsstring></argsstring>
+        <name>box</name>
+        <qualifiedname>MR::UI::LabelRectAllocator::Entry::box</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="112" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1UI_1_1LabelRectAllocator_1_1Entry_1ae60964c285775cdd5a32002f2623f706" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::UI::LabelRectAllocator::Entry::visitedThisFrame</definition>
+        <argsstring></argsstring>
+        <name>visitedThisFrame</name>
+        <qualifiedname>MR::UI::LabelRectAllocator::Entry::visitedThisFrame</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="113" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="110" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="111" bodyend="114"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1LabelRectAllocator_1_1Entry_1ae4dd4a8ae8c0a291dd689babddadf647" prot="public" virt="non-virtual"><scope>MR::UI::LabelRectAllocator::Entry</scope><name>box</name></member>
+      <member refid="structMR_1_1UI_1_1LabelRectAllocator_1_1Entry_1ae60964c285775cdd5a32002f2623f706" prot="public" virt="non-virtual"><scope>MR::UI::LabelRectAllocator::Entry</scope><name>visitedThisFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__MeshIntersectionResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_MeshIntersectionResult</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1acdf61d7ad6d762a99c295f7f8ab8bf36" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_MeshIntersectionResult::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.element_type_byte_size</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84930" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84930" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a2ebe2aa70bc309bfb08d05b2f8254de1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_MeshIntersectionResult.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84931" bodyend="84934"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a55e8086aab56c39b7f15429490656c4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84936" bodyend="84939"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a9a135be8ee49734c52918f3983779056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84941" bodyend="84944"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a396bfc25695c2542feef563753aca1c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult" kindref="compound">std_vector_MeshIntersectionResult</ref></type>
+        <definition> std_vector_MeshIntersectionResult mrmeshpy.std_vector_MeshIntersectionResult.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84946" bodyend="84949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a85746c12203d342e08939237ad511194" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+        <definition> MeshIntersectionResult mrmeshpy.std_vector_MeshIntersectionResult.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84951" bodyend="84952"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a3b0b3fe5322ff392c74c7dc40a1c1d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84954" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84954" bodyend="84955"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1ad5888753bb03b7a9af7d725fd21c2877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84957" bodyend="84958"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1aca99f57cab06b47f555d65fca53b2d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.__init__</definition>
+        <argsstring>(self, std_vector_MeshIntersectionResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult" kindref="compound">std_vector_MeshIntersectionResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84960" bodyend="84961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a3db24a9ba392a94930320d6afba111bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref>]</type>
+        <definition> typing.Iterator[MeshIntersectionResult] mrmeshpy.std_vector_MeshIntersectionResult.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84962" bodyend="84963"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1af2c757e811f03b32dfaf82301c17d775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_MeshIntersectionResult.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84964" bodyend="84965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a24553a8067c8981f248515b215ca414b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.__setitem__</definition>
+        <argsstring>(self, int arg0, MeshIntersectionResult arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84967" bodyend="84968"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a53636c8e56dc377e108d7125b16942cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_MeshIntersectionResult arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult" kindref="compound">std_vector_MeshIntersectionResult</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84970" bodyend="84973"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a63f550e80ebee54042a6baffa66cf2b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.append</definition>
+        <argsstring>(self, MeshIntersectionResult x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84974" bodyend="84977"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1ab36603f54bf7cc2e3aefefce652ad811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84978" bodyend="84981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1af8633cc67aae30950f008306cac6f3ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_MeshIntersectionResult.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84982" bodyend="84985"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a7620af3b5b1ec6979eebc656a3bcebd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_MeshIntersectionResult.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84986" bodyend="84987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a062eb489d7885c514fa94eec95b0d811" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.extend</definition>
+        <argsstring>(self, std_vector_MeshIntersectionResult L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult" kindref="compound">std_vector_MeshIntersectionResult</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84989" bodyend="84992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a465d215abb19b2e8e55a02ae3f51d83b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84994" bodyend="84997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1ae4b71ebb79ce2d3fe771487a73dd2bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.insert</definition>
+        <argsstring>(self, int i, MeshIntersectionResult x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84998" bodyend="85001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1aec9ec883dc43612f28374f8329098ab4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+        <definition> MeshIntersectionResult mrmeshpy.std_vector_MeshIntersectionResult.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="85003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="85003" bodyend="85006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1ae0d85331b05f78c3393d3ff52cdc139c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+        <definition> MeshIntersectionResult mrmeshpy.std_vector_MeshIntersectionResult.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="85008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="85008" bodyend="85011"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a582c55423d03dbff8c8734f5ddc41983" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="85013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="85013" bodyend="85014"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a3addac065e52f9e93db7199e0c42b51b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_MeshIntersectionResult.resize</definition>
+        <argsstring>(self, int arg0, MeshIntersectionResult arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshIntersectionResult" kindref="compound">MeshIntersectionResult</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="85016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="85016" bodyend="85017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a983be49633428fcd6a98c313c883880c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_MeshIntersectionResult.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_MeshIntersectionResult.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="85018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="85018" bodyend="85019"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_MeshIntersectionResult</label>
+        <link refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="84929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="84929" bodyend="85019"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a2ebe2aa70bc309bfb08d05b2f8254de1" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a55e8086aab56c39b7f15429490656c4b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a9a135be8ee49734c52918f3983779056" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a396bfc25695c2542feef563753aca1c5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a85746c12203d342e08939237ad511194" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a3b0b3fe5322ff392c74c7dc40a1c1d64" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1ad5888753bb03b7a9af7d725fd21c2877" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1aca99f57cab06b47f555d65fca53b2d4f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a3db24a9ba392a94930320d6afba111bc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1af2c757e811f03b32dfaf82301c17d775" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a24553a8067c8981f248515b215ca414b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a53636c8e56dc377e108d7125b16942cf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a63f550e80ebee54042a6baffa66cf2b0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1ab36603f54bf7cc2e3aefefce652ad811" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1af8633cc67aae30950f008306cac6f3ba" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1acdf61d7ad6d762a99c295f7f8ab8bf36" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a7620af3b5b1ec6979eebc656a3bcebd9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a062eb489d7885c514fa94eec95b0d811" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a465d215abb19b2e8e55a02ae3f51d83b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1ae4b71ebb79ce2d3fe771487a73dd2bdb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1aec9ec883dc43612f28374f8329098ab4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1ae0d85331b05f78c3393d3ff52cdc139c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a582c55423d03dbff8c8734f5ddc41983" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a3addac065e52f9e93db7199e0c42b51b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__MeshIntersectionResult_1a983be49633428fcd6a98c313c883880c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_MeshIntersectionResult</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

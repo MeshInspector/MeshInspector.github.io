@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UniformSamplingSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UniformSamplingSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniformSamplingSettings_1a5abc3a5bdc1346389cc87f42b694c4ae" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniformSamplingSettings::_offsetof_distance</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distance</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings._offsetof_distance</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59791" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniformSamplingSettings_1a3a78b319a0b4705682e2114417497b57" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniformSamplingSettings::_offsetof_lexicographicalOrder</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_lexicographicalOrder</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings._offsetof_lexicographicalOrder</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59792" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniformSamplingSettings_1a6a2e03b7643420759fb66ad951404551" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniformSamplingSettings::_offsetof_minNormalDot</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minNormalDot</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings._offsetof_minNormalDot</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59793" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniformSamplingSettings_1a29ec7842b984882ed1ddec51d248858a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniformSamplingSettings::_offsetof_pNormals</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pNormals</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings._offsetof_pNormals</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59794" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1UniformSamplingSettings_1acf2cb7fd786989f404ee12196b35364d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UniformSamplingSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings._offsetof_progress</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59795" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a85a89c854f24243514652979a8d9dbce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniformSamplingSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59798" bodyend="59799"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a4a29af5de938483ed23ce70873b66669" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UniformSamplingSettings" kindref="compound">UniformSamplingSettings</ref></type>
+        <definition> UniformSamplingSettings mrmeshpy.UniformSamplingSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59802" bodyend="59803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a4a29af5de938483ed23ce70873b66669" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UniformSamplingSettings" kindref="compound">UniformSamplingSettings</ref></type>
+        <definition> UniformSamplingSettings mrmeshpy.UniformSamplingSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59806" bodyend="59807"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1aa03dc8eb800c97a2bcbd69a1d2c8a8a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniformSamplingSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59809" bodyend="59810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1aae2232b588499a6b1891206b3509a4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniformSamplingSettings.__init__</definition>
+        <argsstring>(self, UniformSamplingSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UniformSamplingSettings" kindref="compound">UniformSamplingSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59812" bodyend="59815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a014cacc388325791df951302ce8747e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniformSamplingSettings.__init__</definition>
+        <argsstring>(self, float distance, float minNormalDot, bool lexicographicalOrder, VertCoords pNormals, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minNormalDot</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>lexicographicalOrder</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>pNormals</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59817" bodyend="59820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1ade6b6811f1592b85cb1facad976585f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.UniformSamplingSettings.distance</definition>
+        <argsstring>(self)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimal distance between samples
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59822" bodyend="59825"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a5f450a54cfe259bc7d69298eaf8e71ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniformSamplingSettings.distance</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59827" bodyend="59828"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a1cb1d1c7a9fef08102b0ffd6833fc74c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UniformSamplingSettings.lexicographicalOrder</definition>
+        <argsstring>(self)</argsstring>
+        <name>lexicographicalOrder</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.lexicographicalOrder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true process the points in lexicographical order, which gives tighter and more uniform samples;
+if false process the points according to their ids, which is faster
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59830" bodyend="59834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1af7ce976698e9971ce6162648d7bcfb37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniformSamplingSettings.lexicographicalOrder</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>lexicographicalOrder</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.lexicographicalOrder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59836" bodyend="59837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a3dce5fe7218bdb14fa190d84eb51bd7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.UniformSamplingSettings.minNormalDot</definition>
+        <argsstring>(self)</argsstring>
+        <name>minNormalDot</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.minNormalDot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if point cloud has normals then automatically decreases local distance to make sure that all points inside have absolute normal dot product not less than this value;
+this is to make sampling denser in the regions of high curvature;
+value &lt;=0 means ignore normals;
+value &gt;=1 means select all points (practically useless)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59839" bodyend="59845"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1ac71204b875ff3b80ff67df015d5e5166" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniformSamplingSettings.minNormalDot</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minNormalDot</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.minNormalDot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59847" bodyend="59848"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a9394da7f287dc9eb4417b70f9007ec6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition> VertCoords mrmeshpy.UniformSamplingSettings.pNormals</definition>
+        <argsstring>(self)</argsstring>
+        <name>pNormals</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.pNormals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not nullptr then these normals will be used during sampling instead of normals in the cloud itself
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59850" bodyend="59853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a02e85f45fb9266f95bc01968a878abda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniformSamplingSettings.pNormals</definition>
+        <argsstring>(self, VertCoords arg1)</argsstring>
+        <name>pNormals</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.pNormals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59855" bodyend="59856"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1a2945404c0fd53be88dba78a6edb5deb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.UniformSamplingSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report progress and cancel processing
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59858" bodyend="59861"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniformSamplingSettings_1aaf2a38c47a574dbde22ae99fbf8d9340" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniformSamplingSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.UniformSamplingSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59863" bodyend="59864"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UniformSamplingSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.UniformSamplingSettings</label>
+        <link refid="classmrmeshpy_1_1UniformSamplingSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_distance</edgelabel>
+          <edgelabel>_offsetof_lexicographicalOrder</edgelabel>
+          <edgelabel>_offsetof_minNormalDot</edgelabel>
+          <edgelabel>_offsetof_pNormals</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59787" bodyend="59864"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a85a89c854f24243514652979a8d9dbce" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1aa03dc8eb800c97a2bcbd69a1d2c8a8a7" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1aae2232b588499a6b1891206b3509a4ac" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a014cacc388325791df951302ce8747e2" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a5abc3a5bdc1346389cc87f42b694c4ae" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>_offsetof_distance</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a3a78b319a0b4705682e2114417497b57" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>_offsetof_lexicographicalOrder</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a6a2e03b7643420759fb66ad951404551" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>_offsetof_minNormalDot</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a29ec7842b984882ed1ddec51d248858a" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>_offsetof_pNormals</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1acf2cb7fd786989f404ee12196b35364d" prot="protected" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1ade6b6811f1592b85cb1facad976585f5" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a5f450a54cfe259bc7d69298eaf8e71ec" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a1cb1d1c7a9fef08102b0ffd6833fc74c" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>lexicographicalOrder</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1af7ce976698e9971ce6162648d7bcfb37" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>lexicographicalOrder</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a3dce5fe7218bdb14fa190d84eb51bd7e" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>minNormalDot</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1ac71204b875ff3b80ff67df015d5e5166" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>minNormalDot</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a4a29af5de938483ed23ce70873b66669" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a4a29af5de938483ed23ce70873b66669" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a9394da7f287dc9eb4417b70f9007ec6e" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>pNormals</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a02e85f45fb9266f95bc01968a878abda" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>pNormals</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1a2945404c0fd53be88dba78a6edb5deb4" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1UniformSamplingSettings_1aaf2a38c47a574dbde22ae99fbf8d9340" prot="public" virt="non-virtual"><scope>mrmeshpy::UniformSamplingSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

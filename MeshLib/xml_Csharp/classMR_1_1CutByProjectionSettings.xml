@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CutByProjectionSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::CutByProjectionSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_CutByProjectionSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1CutByProjectionSettings_1af4530181b0b21c811a0cca7106f3c0e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.CutByProjectionSettings.direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <qualifiedname>MR.CutByProjectionSettings.direction</qualifiedname>
+        <briefdescription>
+<para>direction of projection (in mesh space) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="987" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1CutByProjectionSettings_1a920e5c5498135589ee86466cc9f5d9fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? ConstBox_AffineXf3f MR.CutByProjectionSettings.cont2mesh</definition>
+        <argsstring></argsstring>
+        <name>cont2mesh</name>
+        <qualifiedname>MR.CutByProjectionSettings.cont2mesh</qualifiedname>
+        <briefdescription>
+<para>if set - used to transform contours form its local space to mesh local space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="990" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="991" bodyend="1000"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1CutByProjectionSettings_1af5f842bb846210138bbb83f7e41a7d83" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CutByProjectionSettings.CutByProjectionSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CutByProjectionSettings</name>
+        <qualifiedname>MR.CutByProjectionSettings.CutByProjectionSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1004" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1004" bodyend="1008"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1CutByProjectionSettings_1adbaa4f1db2e1aceaad4f152052bfe642" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CutByProjectionSettings.CutByProjectionSettings</definition>
+        <argsstring>()</argsstring>
+        <name>CutByProjectionSettings</name>
+        <qualifiedname>MR.CutByProjectionSettings.CutByProjectionSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1014" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1014" bodyend="1020"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CutByProjectionSettings_1a14858ddeebe2727a7f0e0e49d64c1c65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CutByProjectionSettings.CutByProjectionSettings</definition>
+        <argsstring>(MR.Vector3f direction, MR.AffineXf3f? cont2mesh)</argsstring>
+        <name>CutByProjectionSettings</name>
+        <qualifiedname>MR.CutByProjectionSettings.CutByProjectionSettings</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>direction</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>cont2mesh</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CutByProjectionSettings" kindref="compound">MR.CutByProjectionSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1025" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1025" bodyend="1032"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CutByProjectionSettings_1aeb6c52ddc7105374ea595db9469cb578" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CutByProjectionSettings.CutByProjectionSettings</definition>
+        <argsstring>(MR.Const_CutByProjectionSettings _other)</argsstring>
+        <name>CutByProjectionSettings</name>
+        <qualifiedname>MR.CutByProjectionSettings.CutByProjectionSettings</qualifiedname>
+        <param>
+          <type>MR.Const_CutByProjectionSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CutByProjectionSettings.CutByProjectionSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1037" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1037" bodyend="1044"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CutByProjectionSettings_1a0d626dd400c35c53305223b0a56d0d30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.CutByProjectionSettings.CutByProjectionSettings</definition>
+        <argsstring>(CutByProjectionSettings _other)</argsstring>
+        <name>CutByProjectionSettings</name>
+        <qualifiedname>MR.CutByProjectionSettings.CutByProjectionSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CutByProjectionSettings" kindref="compound">CutByProjectionSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CutByProjectionSettings.CutByProjectionSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1049" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1049" bodyend="1049"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CutByProjectionSettings_1a3bd08216256da6a551fec6ca357b88a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CutByProjectionSettings" kindref="compound">MR.CutByProjectionSettings</ref></type>
+        <definition>unsafe MR.CutByProjectionSettings MR.CutByProjectionSettings.assign</definition>
+        <argsstring>(MR.Const_CutByProjectionSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.CutByProjectionSettings.assign</qualifiedname>
+        <param>
+          <type>MR.Const_CutByProjectionSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.CutByProjectionSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="1054" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="1054" bodyend="1061"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Settings structurer for cutMeshByProjection function Generated from class <computeroutput><ref refid="classMR_1_1CutByProjectionSettings" kindref="compound">MR.CutByProjectionSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_CutByProjectionSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CutByProjectionSettings</label>
+        <link refid="classMR_1_1CutByProjectionSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CutByProjectionSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_CutByProjectionSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CutByProjectionSettings</label>
+        <link refid="classMR_1_1CutByProjectionSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CutByProjectionSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" line="984" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRContoursCut.cs" bodystart="985" bodyend="1062"/>
+    <listofallmembers>
+      <member refid="classMR_1_1CutByProjectionSettings_1a3bd08216256da6a551fec6ca357b88a2" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1CutByProjectionSettings_1a920e5c5498135589ee86466cc9f5d9fb" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>cont2mesh</name></member>
+      <member refid="classMR_1_1CutByProjectionSettings_1af5f842bb846210138bbb83f7e41a7d83" prot="package" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
+      <member refid="classMR_1_1CutByProjectionSettings_1adbaa4f1db2e1aceaad4f152052bfe642" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
+      <member refid="classMR_1_1CutByProjectionSettings_1a14858ddeebe2727a7f0e0e49d64c1c65" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
+      <member refid="classMR_1_1CutByProjectionSettings_1aeb6c52ddc7105374ea595db9469cb578" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
+      <member refid="classMR_1_1CutByProjectionSettings_1a0d626dd400c35c53305223b0a56d0d30" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>CutByProjectionSettings</name></member>
+      <member refid="classMR_1_1CutByProjectionSettings_1af4530181b0b21c811a0cca7106f3c0e1" prot="public" virt="non-virtual"><scope>MR::CutByProjectionSettings</scope><name>direction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

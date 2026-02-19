@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Laplacian_1_1Solver" kind="class" language="C++" prot="private" abstract="yes">
+    <compoundname>MR::Laplacian::Solver</compoundname>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga763eccd90d676a04208c718e89afbf18" kind="function"><name>~Solver</name></member>
+      <member refid="group__GeneralGroup_1ga32171f867c3530ef5b8dbbe13cacd86a" kind="function"><name>compute</name></member>
+      <member refid="group__GeneralGroup_1ga45582af69f6c747bd0d8dab89d918663" kind="function"><name>solve</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>interface needed to hide implementation headers </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="119" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="120" bodyend="125"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga32171f867c3530ef5b8dbbe13cacd86a" prot="public" virt="pure-virtual"><scope>MR::Laplacian::Solver</scope><name>compute</name></member>
+      <member refid="group__GeneralGroup_1ga45582af69f6c747bd0d8dab89d918663" prot="public" virt="pure-virtual"><scope>MR::Laplacian::Solver</scope><name>solve</name></member>
+      <member refid="group__GeneralGroup_1ga763eccd90d676a04208c718e89afbf18" prot="public" virt="virtual"><scope>MR::Laplacian::Solver</scope><name>~Solver</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

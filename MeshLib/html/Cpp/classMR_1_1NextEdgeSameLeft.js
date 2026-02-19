@@ -1,6 +1,5 @@
 var classMR_1_1NextEdgeSameLeft =
 [
-    [ "NextEdgeSameLeft", "../Csharp/classMR_1_1NextEdgeSameLeft.html#a0bf1a26c5ea35574406b64dc71774fcc", null ],
-    [ "NextEdgeSameLeft", "../Csharp/classMR_1_1NextEdgeSameLeft.html#a79a0d1d589798b694a1431ccff9d30c1", null ],
-    [ "assign", "../Csharp/classMR_1_1NextEdgeSameLeft.html#af8c55d5e238aa808a7fa623aadc7ad64", null ]
+    [ "NextEdgeSameLeft", "group__GeneralGroup.html#ga7cd53c8ae9e36043c2dc5e9750efcce3", null ],
+    [ "next", "group__GeneralGroup.html#ga0d76f45cd46c08d651d08d28d0570524", null ]
 ];

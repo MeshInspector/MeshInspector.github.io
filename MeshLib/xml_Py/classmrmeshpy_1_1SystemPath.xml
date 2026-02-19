@@ -1,0 +1,305 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SystemPath" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SystemPath</compoundname>
+    <innerclass refid="classmrmeshpy_1_1SystemPath_1_1Directory" prot="public">mrmeshpy::SystemPath::Directory</innerclass>
+    <innerclass refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType" prot="public">mrmeshpy::SystemPath::SystemFontType</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SystemPath_1a84d866912ceb2c5a7e5c3071df723d9f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.SystemPath::SystemFontPaths</definition>
+        <argsstring></argsstring>
+        <name>SystemFontPaths</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontPaths</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55993" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a386d04ccca3f04482f4ff5b409d35382" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemPath.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SystemPath.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55996" bodyend="55997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a650e884de348d327bd771762bf6346c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.SystemPath.getDirectory</definition>
+        <argsstring>(SystemPath.Directory dir)</argsstring>
+        <name>getDirectory</name>
+        <qualifiedname>mrmeshpy.SystemPath.getDirectory</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SystemPath_1_1Directory" kindref="compound">SystemPath.Directory</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get the directory path for specified category
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55999" bodyend="56002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1aa098f88ec8fff10e1e154215f6871ac4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.SystemPath.getFontsDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getFontsDirectory</name>
+        <qualifiedname>mrmeshpy.SystemPath.getFontsDirectory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get the font files&apos; directory path
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56004" bodyend="56007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1af67aeda9757dad1b9764e386ead5c174" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.SystemPath.getPluginsDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getPluginsDirectory</name>
+        <qualifiedname>mrmeshpy.SystemPath.getPluginsDirectory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get the plugin binaries&apos; directory path
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56009" bodyend="56012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a679d61bf974b1c7b45fbcbe1a5413d52" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.SystemPath.getPythonModulesDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getPythonModulesDirectory</name>
+        <qualifiedname>mrmeshpy.SystemPath.getPythonModulesDirectory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get the Python modules&apos; binaries&apos; directory path
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56014" bodyend="56017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1adc0ff8d7d72ce060fea7d3d8dc6978e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.SystemPath.getResourcesDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>getResourcesDirectory</name>
+        <qualifiedname>mrmeshpy.SystemPath.getResourcesDirectory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get the resource files&apos; directory path
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56019" bodyend="56022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a7507569bdf52dfc2ae13008b97d8d2a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__array__std__filesystem__path__4ul" kindref="compound">std_vector_std_array_std_filesystem_path_4ul</ref></type>
+        <definition> std_vector_std_array_std_filesystem_path_4ul mrmeshpy.SystemPath.getSystemFonts</definition>
+        <argsstring>()</argsstring>
+        <name>getSystemFonts</name>
+        <qualifiedname>mrmeshpy.SystemPath.getSystemFonts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get name all system fonts that have italics, bold, bold italics
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56024" bodyend="56027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a33b094e3658d9c438d169b815161e46c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SystemPath" kindref="compound">SystemPath</ref></type>
+        <definition> SystemPath mrmeshpy.SystemPath.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SystemPath.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56030" bodyend="56031"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a33b094e3658d9c438d169b815161e46c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SystemPath" kindref="compound">SystemPath</ref></type>
+        <definition> SystemPath mrmeshpy.SystemPath.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SystemPath.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56034" bodyend="56035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a11a215dd82734695fd0a59c2815fd1e6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemPath.overrideDirectory</definition>
+        <argsstring>(SystemPath.Directory dir, os.PathLike|str|bytes path)</argsstring>
+        <name>overrideDirectory</name>
+        <qualifiedname>mrmeshpy.SystemPath.overrideDirectory</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SystemPath_1_1Directory" kindref="compound">SystemPath.Directory</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>override the directory path for specified category, useful for custom configurations
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56037" bodyend="56040"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a169d3fc6af0b9f414fe3c48b590c1e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemPath.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SystemPath.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56042" bodyend="56043"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a80ae0fe1debd361f49ab27466e440673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemPath.__init__</definition>
+        <argsstring>(self, SystemPath arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SystemPath.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SystemPath" kindref="compound">SystemPath</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56045" bodyend="56048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1a169d3fc6af0b9f414fe3c48b590c1e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemPath.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SystemPath.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56050" bodyend="56053"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SystemPath
+
+system directory path manager
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55895" bodyend="56053"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SystemPath_1a386d04ccca3f04482f4ff5b409d35382" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a169d3fc6af0b9f414fe3c48b590c1e32" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a80ae0fe1debd361f49ab27466e440673" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a169d3fc6af0b9f414fe3c48b590c1e32" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a650e884de348d327bd771762bf6346c4" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>getDirectory</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1aa098f88ec8fff10e1e154215f6871ac4" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>getFontsDirectory</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1af67aeda9757dad1b9764e386ead5c174" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>getPluginsDirectory</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a679d61bf974b1c7b45fbcbe1a5413d52" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>getPythonModulesDirectory</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1adc0ff8d7d72ce060fea7d3d8dc6978e4" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>getResourcesDirectory</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a7507569bdf52dfc2ae13008b97d8d2a9" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>getSystemFonts</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a33b094e3658d9c438d169b815161e46c" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a33b094e3658d9c438d169b815161e46c" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a11a215dd82734695fd0a59c2815fd1e6" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>overrideDirectory</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1a84d866912ceb2c5a7e5c3071df723d9f" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath</scope><name>SystemFontPaths</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

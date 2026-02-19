@@ -1,9 +1,26 @@
 var MRFillingSurface_8h =
 [
-    [ "MR::FillingSurface::TPMS::VolumeParams", "../Csharp/classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html", "classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" ],
-    [ "MR::FillingSurface::TPMS::MeshParams", "../Csharp/classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", "classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" ],
-    [ "MR::FillingSurface::CellularSurface::Params", "../Csharp/classMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html", "classMR_1_1FillingSurface_1_1CellularSurface_1_1Params" ],
+    [ "MR::FillingSurface::TPMS::VolumeParams", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" ],
+    [ "MR::FillingSurface::TPMS::MeshParams", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams.html", "structMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" ],
+    [ "MR::FillingSurface::CellularSurface::Params", "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params.html", "structMR_1_1FillingSurface_1_1CellularSurface_1_1Params" ],
     [ "MR::FillingSurface::ParamsFacade< T >", "structMR_1_1FillingSurface_1_1ParamsFacade.html", "structMR_1_1FillingSurface_1_1ParamsFacade" ],
+    [ "ConstMeshParamsRef", "MRFillingSurface_8h.html#a2b60c026ebb4f4454921f21246c78f79", null ],
+    [ "MeshParamsRef", "MRFillingSurface_8h.html#ad93875bd1b990822d6daf1713b791372", null ],
+    [ "Kind", "MRFillingSurface_8h.html#a3ff060a54d2569204983c0341bc857d8", [
+      [ "TPMS", "MRFillingSurface_8h.html#a3ff060a54d2569204983c0341bc857d8ae02916974bfd1ce96e2d39b83612ad92", null ],
+      [ "Cellular", "MRFillingSurface_8h.html#a3ff060a54d2569204983c0341bc857d8a71e49f0a64aa14c31736b028670cacf3", null ]
+    ] ],
+    [ "Type", "MRFillingSurface_8h.html#af4d9ef943b24a672c1140baa211a3819", [
+      [ "Cylinder", "MRFillingSurface_8h.html#af4d9ef943b24a672c1140baa211a3819a2ec2c2961c7ce5a114d969c1f562a563", null ],
+      [ "Rect", "MRFillingSurface_8h.html#af4d9ef943b24a672c1140baa211a3819a69ad58d91eec91b5c152d21ca117dc81", null ]
+    ] ],
+    [ "Type", "MRFillingSurface_8h.html#aa0042e4e52a341abae2d86e3f384c63f", [
+      [ "SchwartzP", "MRFillingSurface_8h.html#aa0042e4e52a341abae2d86e3f384c63fac5a9b2c32efbe37da8a1e10009be8b77", null ],
+      [ "ThickSchwartzP", "MRFillingSurface_8h.html#aa0042e4e52a341abae2d86e3f384c63fa33d268fa4f51c6af6e70dc55335e76aa", null ],
+      [ "DoubleGyroid", "MRFillingSurface_8h.html#aa0042e4e52a341abae2d86e3f384c63fa5ac1f3e35d09d52b4e556936581cef44", null ],
+      [ "ThickGyroid", "MRFillingSurface_8h.html#aa0042e4e52a341abae2d86e3f384c63fa9e3f153bc66d4e5028f2843a44894038", null ],
+      [ "Count", "MRFillingSurface_8h.html#aa0042e4e52a341abae2d86e3f384c63fae93f994f01c537c4e2f7d8528c3eb5e9", null ]
+    ] ],
     [ "build", "MRFillingSurface_8h.html#ad9b3bec5316cc054606a4c30507e3ef3", null ],
     [ "build", "MRFillingSurface_8h.html#a9a644fd0f543b423a3e722bf3a17fe14", null ],
     [ "build", "MRFillingSurface_8h.html#ac279f46943c72b996f09709527a23b94", null ],

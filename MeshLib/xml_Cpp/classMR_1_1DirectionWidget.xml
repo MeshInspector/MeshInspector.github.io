@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DirectionWidget" kind="class" language="C++" prot="public">
+    <compoundname>MR::DirectionWidget</compoundname>
+    <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener &gt;</basecompoundref>
+    <includes refid="MRDirectionWidget_8h" local="no">MRDirectionWidget.h</includes>
+    <innerclass refid="structMR_1_1DirectionWidget_1_1Arrow" prot="public">MR::DirectionWidget::Arrow</innerclass>
+    <innerclass refid="classMR_1_1DirectionWidget_1_1ChangeDirAction" prot="public">MR::DirectionWidget::ChangeDirAction</innerclass>
+    <innerclass refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction" prot="public">MR::DirectionWidget::ChangeVisibleAction</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gaa01b946f8079c3f2095a1fb5b019e275" kind="typedef"><name>OnDirectionChangedCallback</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga21524fd1f8265a977c973d2d725dcb9e" kind="variable"><name>directionObj_</name></member>
+      <member refid="group__GeneralGroup_1ga778ed833b12c7f939665d2427ef2b88d" kind="variable"><name>blockedMouse_</name></member>
+      <member refid="group__GeneralGroup_1gae94165854f6c9c3d4d486278510d09b6" kind="variable"><name>mousePressed_</name></member>
+      <member refid="group__GeneralGroup_1ga14739e5e04fc594327c33f3572d492f4" kind="variable"><name>draggingViewportStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga7d96de56ad47dba58f7fc2764335c4a3" kind="variable"><name>draggingViewportStartPointOffset_</name></member>
+      <member refid="group__GeneralGroup_1ga18784e5894cca44ff94c0b8b0ff7d9b9" kind="variable"><name>onDirectionChanged_</name></member>
+      <member refid="group__GeneralGroup_1ga6386dfd3a4e972bffca30a255e7d766a" kind="variable"><name>color_</name></member>
+      <member refid="group__GeneralGroup_1gab335a4ffbba77fbdebad1716dac29988" kind="variable"><name>needToSaveHistory_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga813b4f3a2dcff8fe39f206573393d7d2" kind="function"><name>clear_</name></member>
+      <member refid="group__GeneralGroup_1ga8f9de5bbc85644bbee58e5c02075670d" kind="function"><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga8b9df3956f5d5dd7d3d30499a47bfef8" kind="function"><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga2d728bac9ed55803b75e5e90e11eb3a8" kind="function"><name>onMouseMove_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa7c48300967c5c63844c26bab44fbb2f" kind="function"><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga71d4351e8ab58f288d52351d11efb325" kind="function"><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga5a2acfb8fd29d43fee23934a66211193" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga67a12d304a83009a1db343a406e4f46e" kind="function"><name>setOnDirectionChangedCallback</name></member>
+      <member refid="group__GeneralGroup_1gae541308fd431b72330eecbe49bd76a59" kind="function"><name>updateArrow</name></member>
+      <member refid="group__GeneralGroup_1ga255140a32cc6331fc4ab0919d6f4ef48" kind="function"><name>updateLocalArrow</name></member>
+      <member refid="group__GeneralGroup_1ga29827ac67baeb7b760b6387c4656a046" kind="function"><name>updateDirection</name></member>
+      <member refid="group__GeneralGroup_1ga801060d204bb001111c96202a5d9fb2a" kind="function"><name>updateLocalDirection</name></member>
+      <member refid="group__GeneralGroup_1ga0b215c94ee35a19ee1fc4beb14824c54" kind="function"><name>updateBase</name></member>
+      <member refid="group__GeneralGroup_1ga3ca40bd9656bf70367d8bac77cc29209" kind="function"><name>updateLocalBase</name></member>
+      <member refid="group__GeneralGroup_1ga919a4e2843ebcd0667b6572ba9d03caa" kind="function"><name>updateLength</name></member>
+      <member refid="group__GeneralGroup_1ga8cf9aef0efe734dfcf237307de21f988" kind="function"><name>updateLocalLength</name></member>
+      <member refid="group__GeneralGroup_1gaa6740ac9480b8cb2330ae4e01ff0b534" kind="function"><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga2f9a3921002f4bf6b9fccd0e978e48c9" kind="function"><name>setVisible</name></member>
+      <member refid="group__GeneralGroup_1ga46d8141ed9672c79a97e527372067a9d" kind="function"><name>isVisible</name></member>
+      <member refid="group__GeneralGroup_1ga332d85c9b4078c99b321602470690461" kind="function"><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1ga167c6b1a7f459b928ff38d1a1136b2cb" kind="function"><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1ga547334a4d09070805be994c2dcb47824" kind="function"><name>getArrow</name></member>
+      <member refid="group__GeneralGroup_1ga7b1457c3dbaa0ebd7923ba303d3d1a98" kind="function"><name>getLocalArrow</name></member>
+      <member refid="group__GeneralGroup_1gadc4086befe1e92d69c93eff26a25ddf0" kind="function"><name>getBase</name></member>
+      <member refid="group__GeneralGroup_1gafc07bd243ff36b48f7763c6ec96932d4" kind="function"><name>getLocalBase</name></member>
+      <member refid="group__GeneralGroup_1ga41bd393b48b79941e8901ccceef4639a" kind="function"><name>getDirection</name></member>
+      <member refid="group__GeneralGroup_1gaf084f5d0be5faa483beedcd8e0efeb60" kind="function"><name>getLocalDirection</name></member>
+      <member refid="group__GeneralGroup_1ga0128153cf5d0c06d9fdfd105c8255ba5" kind="function"><name>getLength</name></member>
+      <member refid="group__GeneralGroup_1gabda6f36244742f23c84a5e38c2d13d1b" kind="function"><name>getLocalLength</name></member>
+      <member refid="group__GeneralGroup_1ga4aba9720112d3e1c3b3b3e824211c962" kind="function"><name>getParentPtr</name></member>
+      <member refid="group__GeneralGroup_1ga11e755a24b227cd14672ec94bfcd5028" kind="function"><name>isMouseBlocked</name></member>
+      <member refid="group__GeneralGroup_1gaaacce6a74f1585b599a10bda3b361f5e" kind="function"><name>setMouseBlocked</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Widget for visualizing the direction. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::DirectionWidget</label>
+        <link refid="classMR_1_1DirectionWidget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::DirectionWidget</label>
+        <link refid="classMR_1_1DirectionWidget"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MultiListener&lt; MouseDownListener, MouseMoveListener, MouseUpListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="18" bodyend="179"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga778ed833b12c7f939665d2427ef2b88d" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>blockedMouse_</name></member>
+      <member refid="group__GeneralGroup_1ga813b4f3a2dcff8fe39f206573393d7d2" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>clear_</name></member>
+      <member refid="group__GeneralGroup_1ga6386dfd3a4e972bffca30a255e7d766a" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>color_</name></member>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::DirectionWidget</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gaa7c48300967c5c63844c26bab44fbb2f" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga71d4351e8ab58f288d52351d11efb325" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>create</name></member>
+      <member refid="group__GeneralGroup_1ga21524fd1f8265a977c973d2d725dcb9e" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>directionObj_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::DirectionWidget</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga14739e5e04fc594327c33f3572d492f4" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>draggingViewportStartPoint_</name></member>
+      <member refid="group__GeneralGroup_1ga7d96de56ad47dba58f7fc2764335c4a3" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>draggingViewportStartPointOffset_</name></member>
+      <member refid="group__GeneralGroup_1ga547334a4d09070805be994c2dcb47824" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getArrow</name></member>
+      <member refid="group__GeneralGroup_1gadc4086befe1e92d69c93eff26a25ddf0" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getBase</name></member>
+      <member refid="group__GeneralGroup_1ga167c6b1a7f459b928ff38d1a1136b2cb" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1ga41bd393b48b79941e8901ccceef4639a" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getDirection</name></member>
+      <member refid="group__GeneralGroup_1ga0128153cf5d0c06d9fdfd105c8255ba5" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLength</name></member>
+      <member refid="group__GeneralGroup_1ga7b1457c3dbaa0ebd7923ba303d3d1a98" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalArrow</name></member>
+      <member refid="group__GeneralGroup_1gafc07bd243ff36b48f7763c6ec96932d4" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalBase</name></member>
+      <member refid="group__GeneralGroup_1gaf084f5d0be5faa483beedcd8e0efeb60" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalDirection</name></member>
+      <member refid="group__GeneralGroup_1gabda6f36244742f23c84a5e38c2d13d1b" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getLocalLength</name></member>
+      <member refid="group__GeneralGroup_1ga4aba9720112d3e1c3b3b3e824211c962" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>getParentPtr</name></member>
+      <member refid="group__GeneralGroup_1ga11e755a24b227cd14672ec94bfcd5028" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>isMouseBlocked</name></member>
+      <member refid="group__GeneralGroup_1ga46d8141ed9672c79a97e527372067a9d" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>isVisible</name></member>
+      <member refid="group__GeneralGroup_1gae94165854f6c9c3d4d486278510d09b6" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>mousePressed_</name></member>
+      <member refid="group__GeneralGroup_1gab335a4ffbba77fbdebad1716dac29988" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>needToSaveHistory_</name></member>
+      <member refid="group__GeneralGroup_1gaa6740ac9480b8cb2330ae4e01ff0b534" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga18784e5894cca44ff94c0b8b0ff7d9b9" prot="private" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>onDirectionChanged_</name></member>
+      <member refid="group__GeneralGroup_1gaa01b946f8079c3f2095a1fb5b019e275" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>OnDirectionChangedCallback</name></member>
+      <member refid="group__GeneralGroup_1ga8f9de5bbc85644bbee58e5c02075670d" prot="private" virt="virtual"><scope>MR::DirectionWidget</scope><name>onMouseDown_</name></member>
+      <member refid="group__GeneralGroup_1ga2d728bac9ed55803b75e5e90e11eb3a8" prot="private" virt="virtual"><scope>MR::DirectionWidget</scope><name>onMouseMove_</name></member>
+      <member refid="group__GeneralGroup_1ga8b9df3956f5d5dd7d3d30499a47bfef8" prot="private" virt="virtual"><scope>MR::DirectionWidget</scope><name>onMouseUp_</name></member>
+      <member refid="group__GeneralGroup_1ga5a2acfb8fd29d43fee23934a66211193" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga332d85c9b4078c99b321602470690461" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1gaaacce6a74f1585b599a10bda3b361f5e" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setMouseBlocked</name></member>
+      <member refid="group__GeneralGroup_1ga67a12d304a83009a1db343a406e4f46e" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setOnDirectionChangedCallback</name></member>
+      <member refid="group__GeneralGroup_1ga2f9a3921002f4bf6b9fccd0e978e48c9" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>setVisible</name></member>
+      <member refid="group__GeneralGroup_1gae541308fd431b72330eecbe49bd76a59" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateArrow</name></member>
+      <member refid="group__GeneralGroup_1ga0b215c94ee35a19ee1fc4beb14824c54" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateBase</name></member>
+      <member refid="group__GeneralGroup_1ga29827ac67baeb7b760b6387c4656a046" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateDirection</name></member>
+      <member refid="group__GeneralGroup_1ga919a4e2843ebcd0667b6572ba9d03caa" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLength</name></member>
+      <member refid="group__GeneralGroup_1ga255140a32cc6331fc4ab0919d6f4ef48" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalArrow</name></member>
+      <member refid="group__GeneralGroup_1ga3ca40bd9656bf70367d8bac77cc29209" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalBase</name></member>
+      <member refid="group__GeneralGroup_1ga801060d204bb001111c96202a5d9fb2a" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalDirection</name></member>
+      <member refid="group__GeneralGroup_1ga8cf9aef0efe734dfcf237307de21f988" prot="public" virt="non-virtual"><scope>MR::DirectionWidget</scope><name>updateLocalLength</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::DirectionWidget</scope><name>~MultiListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1WeightedShell" kind="class" language="C#" prot="public">
+    <compoundname>MR::WeightedShell</compoundname>
+    <innerclass refid="classMR_1_1WeightedShell_1_1DistanceVolumeCreationParams" prot="public">MR::WeightedShell::DistanceVolumeCreationParams</innerclass>
+    <innerclass refid="classMR_1_1WeightedShell_1_1ParametersBase" prot="public">MR::WeightedShell::ParametersBase</innerclass>
+    <innerclass refid="classMR_1_1WeightedShell_1_1ParametersMetric" prot="public">MR::WeightedShell::ParametersMetric</innerclass>
+    <innerclass refid="classMR_1_1WeightedShell_1_1ParametersRegions" prot="public">MR::WeightedShell::ParametersRegions</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1ab49f78a785d0670be3517d4052aff824" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref></type>
+        <definition>static unsafe MR.FunctionVolume MR.WeightedShell.pointsToDistanceVolume</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.WeightedShell.Const_DistanceVolumeCreationParams params_)</argsstring>
+        <name>pointsToDistanceVolume</name>
+        <qualifiedname>MR.WeightedShell.pointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>MR.WeightedShell.Const_DistanceVolumeCreationParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>makes <ref refid="classMR_1_1FunctionVolume" kindref="compound">FunctionVolume</ref> representing minimal distance to weighted points Generated from function <computeroutput><ref refid="classMR_1_1WeightedShell_1ab49f78a785d0670be3517d4052aff824" kindref="member">MR.WeightedShell.pointsToDistanceVolume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1438" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1438" bodyend="1443"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1ad8babcfcf4a060f9f9099d5063f06462" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref></type>
+        <definition>static unsafe MR.FunctionVolume MR.WeightedShell.meshToDistanceVolume</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.WeightedShell.Const_DistanceVolumeCreationParams params_)</argsstring>
+        <name>meshToDistanceVolume</name>
+        <qualifiedname>MR.WeightedShell.meshToDistanceVolume</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.WeightedShell.Const_DistanceVolumeCreationParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>makes <ref refid="classMR_1_1FunctionVolume" kindref="compound">FunctionVolume</ref> representing minimal distance to mesh with weighted vertices Generated from function <computeroutput><ref refid="classMR_1_1WeightedShell_1ad8babcfcf4a060f9f9099d5063f06462" kindref="member">MR.WeightedShell.meshToDistanceVolume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1449" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1449" bodyend="1454"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1acea209e9f19afa7cdac2593429765dd3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.WeightedShell.pointsShell</definition>
+        <argsstring>(MR.Const_PointCloud cloud, MR.Const_VertScalars pointWeights, MR.WeightedShell.Const_ParametersMetric params_)</argsstring>
+        <name>pointsShell</name>
+        <qualifiedname>MR.WeightedShell.pointsShell</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertScalars</type>
+          <declname>pointWeights</declname>
+        </param>
+        <param>
+          <type>MR.WeightedShell.Const_ParametersMetric</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>consider a point cloud where each point has additive weight (taken from pointWeights and not from params), and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes Generated from function <computeroutput><ref refid="classMR_1_1WeightedShell_1acea209e9f19afa7cdac2593429765dd3" kindref="member">MR.WeightedShell.pointsShell</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1462" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1462" bodyend="1470"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1a8760db9d0c498327bdb200da4b78de33" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.WeightedShell.meshShell</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Const_VertScalars vertWeights, MR.WeightedShell.Const_ParametersMetric params_)</argsstring>
+        <name>meshShell</name>
+        <qualifiedname>MR.WeightedShell.meshShell</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertScalars</type>
+          <declname>vertWeights</declname>
+        </param>
+        <param>
+          <type>MR.WeightedShell.Const_ParametersMetric</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>consider a mesh where each vertex has additive weight (taken from vertWeights and not from params), and this weight is linearly interpolated in mesh triangles, and the distance to a point is considered equal to (euclidean distance - weight), constructs iso-surface of such distance field corresponding to params.offset value using marching cubes Generated from function <computeroutput><ref refid="classMR_1_1WeightedShell_1a8760db9d0c498327bdb200da4b78de33" kindref="member">MR.WeightedShell.meshShell</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1478" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1478" bodyend="1486"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1a763a6fe685b45f4558b004904cd284eb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
+        <definition>static unsafe MR.VertScalars MR.WeightedShell.calculateShellWeightsFromRegions</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.Std.Const_Vector_MRWeightedShellParametersRegionsRegion regions, float interpolationDist)</argsstring>
+        <name>calculateShellWeightsFromRegions</name>
+        <qualifiedname>MR.WeightedShell.calculateShellWeightsFromRegions</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRWeightedShellParametersRegionsRegion</type>
+          <declname>regions</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>interpolationDist</declname>
+        </param>
+        <briefdescription>
+<para>interpolate set of regions and assign weight to each vertex of the mesh Generated from function <computeroutput><ref refid="classMR_1_1WeightedShell_1a763a6fe685b45f4558b004904cd284eb" kindref="member">MR.WeightedShell.calculateShellWeightsFromRegions</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1492" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1492" bodyend="1497"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1a06e94717e57a00157fcde0c34721f6dc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.WeightedShell.meshShell</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.WeightedShell.Const_ParametersRegions params_)</argsstring>
+        <name>meshShell</name>
+        <qualifiedname>MR.WeightedShell.meshShell</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.WeightedShell.Const_ParametersRegions</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>this overload supports linear interpolation between the regions with different weight Generated from function <computeroutput><ref refid="classMR_1_1WeightedShell_1a8760db9d0c498327bdb200da4b78de33" kindref="member">MR.WeightedShell.meshShell</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1503" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1503" bodyend="1511"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WeightedShell_1ae3595b4bcd950272f4aa52f03f698052" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.WeightedShell.meshShell</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.WeightedShell.Const_ParametersRegions params_, MR.Std._ByValue_Function_MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef volumeBuilder)</argsstring>
+        <name>meshShell</name>
+        <qualifiedname>MR.WeightedShell.meshShell</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.WeightedShell.Const_ParametersRegions</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_MRFunctionVolumeFuncFromConstMRMeshRefConstMRWeightedShellDistanceVolumeCreationParamsRef</type>
+          <declname>volumeBuilder</declname>
+        </param>
+        <briefdescription>
+<para>this overload allows to control how distance volume is build during the offset Generated from function <computeroutput><ref refid="classMR_1_1WeightedShell_1a8760db9d0c498327bdb200da4b78de33" kindref="member">MR.WeightedShell.meshShell</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="1517" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="1517" bodyend="1525"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRWeightedPointsShell.cs" bodystart="4" bodyend="1526"/>
+    <listofallmembers>
+      <member refid="classMR_1_1WeightedShell_1a763a6fe685b45f4558b004904cd284eb" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>calculateShellWeightsFromRegions</name></member>
+      <member refid="classMR_1_1WeightedShell_1a8760db9d0c498327bdb200da4b78de33" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>meshShell</name></member>
+      <member refid="classMR_1_1WeightedShell_1a06e94717e57a00157fcde0c34721f6dc" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>meshShell</name></member>
+      <member refid="classMR_1_1WeightedShell_1ae3595b4bcd950272f4aa52f03f698052" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>meshShell</name></member>
+      <member refid="classMR_1_1WeightedShell_1ad8babcfcf4a060f9f9099d5063f06462" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>meshToDistanceVolume</name></member>
+      <member refid="classMR_1_1WeightedShell_1acea209e9f19afa7cdac2593429765dd3" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>pointsShell</name></member>
+      <member refid="classMR_1_1WeightedShell_1ab49f78a785d0670be3517d4052aff824" prot="public" virt="non-virtual"><scope>MR::WeightedShell</scope><name>pointsToDistanceVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

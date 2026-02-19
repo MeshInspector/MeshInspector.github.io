@@ -151,7 +151,7 @@ $(function(){initNavTree('MRMeshDoubleLayer_8h.html',''); initResizable(true); }
   <div class="headertitle"><div class="title">MRMeshDoubleLayer.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
 </div>
 <p><a href="MRMeshDoubleLayer_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -164,7 +164,7 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a89b5ca067b07d8f111303397d0f78048" id="r_a89b5ca067b07d8f111303397d0f78048"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89b5ca067b07d8f111303397d0f78048">MR_findOuterLayer</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
+<tr class="memitem:a89b5ca067b07d8f111303397d0f78048" id="r_a89b5ca067b07d8f111303397d0f78048"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89b5ca067b07d8f111303397d0f78048">MR_findOuterLayer</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh)</td></tr>
 <tr class="separator:a89b5ca067b07d8f111303397d0f78048"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -204,14 +204,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_findOuterLayer </td>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTree_8h.html#aba7bc6ac732c34fd4721c543fa3445ea">MR_FaceBitSet</a> * MR_findOuterLayer </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>given a double-layer mesh with one layer having normals outside and the other layer - inside, finds all faces of the outer layer; the algorithm first detects some seed faces of each layer by casting a ray from triangle's center in both directions along the normal; then remaining faces are redistributed toward the closest seed face Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a3b1faa32d9a4c0eadfb8a76023c56a0b">MR::findOuterLayer</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
+<p>given a double-layer mesh with one layer having normals outside and the other layer - inside, finds all faces of the outer layer; the algorithm first detects some seed faces of each layer by casting a ray from triangle's center in both directions along the normal; then remaining faces are redistributed toward the closest seed face Generated from function <code>MR::findOuterLayer</code>. Parameter <code>mesh</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="MRBitSet_8h.html#a4ebdc52390d331e5313d029ce55682ab" title="Destroys a heap-allocated instance of MR_FaceBitSet. Does nothing if the pointer is null.">MR_FaceBitSet_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>

@@ -1,5 +1,8 @@
 var MRPolylineProject_8h =
 [
+    [ "FoundEdgeCallback", "MRPolylineProject_8h.html#gac2b944209dd41b786a30b1d537639470", null ],
+    [ "FoundEdgeCallback2", "MRPolylineProject_8h.html#ga5e0d9af4be57927671a26f2c4588a515", null ],
+    [ "FoundEdgeCallback3", "MRPolylineProject_8h.html#ga865abfe228b7d60d582d2c6ce24ffb19", null ],
     [ "findEdgesInBall", "MRPolylineProject_8h.html#ga5ce436376c8036ec99459d3ccea88788", null ],
     [ "findEdgesInBall", "MRPolylineProject_8h.html#ga799578a1ff64417ca5aa5c72fa15bb2f", null ],
     [ "findMaxProjectionOnPolyline", "MRPolylineProject_8h.html#ga491ccc452b2d068da6ce82aaebcd5372", null ],

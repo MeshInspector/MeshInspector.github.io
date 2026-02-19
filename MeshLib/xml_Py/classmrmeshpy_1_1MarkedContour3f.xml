@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MarkedContour3f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MarkedContour3f</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarkedContour3f_1aae96a08c115b353d635229f095c1a66e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarkedContour3f::_offsetof_contour</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_contour</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f._offsetof_contour</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MarkedContour3f_1aa35603d1f6c1b3730c2cb214eda1c6db" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MarkedContour3f::_offsetof_marks</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_marks</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f._offsetof_marks</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27471" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27471" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MarkedContour3f_1a64b2e384a30daa9bc1b6144c6292ee13" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarkedContour3f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27475" bodyend="27476"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarkedContour3f_1aabe3fa4cd440824af2a6af94d9b4e187" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref></type>
+        <definition> MarkedContour3f mrmeshpy.MarkedContour3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27479" bodyend="27480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarkedContour3f_1aabe3fa4cd440824af2a6af94d9b4e187" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref></type>
+        <definition> MarkedContour3f mrmeshpy.MarkedContour3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27483" bodyend="27484"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MarkedContour3f_1af76fda638fbfe118c660a41ba80685f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarkedContour3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27486" bodyend="27487"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarkedContour3f_1aa6ba2d0b2360d0c0ac75238d8fbf6d75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarkedContour3f.__init__</definition>
+        <argsstring>(self, MarkedContour3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MarkedContour3f" kindref="compound">MarkedContour3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27489" bodyend="27492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarkedContour3f_1ace1e5c795beb26b5305a7e23f6028f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarkedContour3f.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float contour, BitSet marks)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>contour</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>marks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27494" bodyend="27497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarkedContour3f_1a66ef7934d57c3a25110459ee0a58af1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+        <definition> BitSet mrmeshpy.MarkedContour3f.marks</definition>
+        <argsstring>(self)</argsstring>
+        <name>marks</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f.marks</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>indices of control (marked) points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27499" bodyend="27502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarkedContour3f_1a4f63e4d5860dbe2ba48b1d87d0666525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarkedContour3f.marks</definition>
+        <argsstring>(self, BitSet arg1)</argsstring>
+        <name>marks</name>
+        <qualifiedname>mrmeshpy.MarkedContour3f.marks</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27504" bodyend="27505"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MarkedContour3f
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MarkedContour3f</label>
+        <link refid="classmrmeshpy_1_1MarkedContour3f"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_contour</edgelabel>
+          <edgelabel>_offsetof_marks</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27466" bodyend="27505"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1a64b2e384a30daa9bc1b6144c6292ee13" prot="public" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1af76fda638fbfe118c660a41ba80685f3" prot="public" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1aa6ba2d0b2360d0c0ac75238d8fbf6d75" prot="public" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1ace1e5c795beb26b5305a7e23f6028f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1aae96a08c115b353d635229f095c1a66e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>_offsetof_contour</name></member>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1aa35603d1f6c1b3730c2cb214eda1c6db" prot="protected" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>_offsetof_marks</name></member>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1a66ef7934d57c3a25110459ee0a58af1a" prot="public" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>marks</name></member>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1a4f63e4d5860dbe2ba48b1d87d0666525" prot="public" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>marks</name></member>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1aabe3fa4cd440824af2a6af94d9b4e187" prot="public" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MarkedContour3f_1aabe3fa4cd440824af2a6af94d9b4e187" prot="public" virt="non-virtual"><scope>mrmeshpy::MarkedContour3f</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

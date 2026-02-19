@@ -1,0 +1,499 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Box__Matrix4i64" kind="class" language="C#" prot="public">
+    <compoundname>MR::Box_Matrix4i64</compoundname>
+    <basecompoundref refid="classMR_1_1ConstBox__Matrix4i64" prot="public" virt="non-virtual">MR.ConstBox_Matrix4i64</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Box__Matrix4i64_1a69b85ab71b282c2b56fb279f66182864" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector4i64" kindref="compound">MR.Vector4i64</ref></type>
+        <definition>new ref MR.Vector4i64 MR.Box_Matrix4i64.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR.Box_Matrix4i64.x</qualifiedname>
+        <briefdescription>
+<para>rows, identity matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2794" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2794" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Matrix4i64_1a0c6c97a3fda625f06f8f831431fd34e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector4i64" kindref="compound">MR.Vector4i64</ref></type>
+        <definition>new ref MR.Vector4i64 MR.Box_Matrix4i64.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR.Box_Matrix4i64.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2796" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2796" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Matrix4i64_1a49743da73fde24c05cbc2e347607d0d2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector4i64" kindref="compound">MR.Vector4i64</ref></type>
+        <definition>new ref MR.Vector4i64 MR.Box_Matrix4i64.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR.Box_Matrix4i64.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2798" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2798" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Matrix4i64_1a305e6865f13b14405347d465d467f3ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector4i64" kindref="compound">MR.Vector4i64</ref></type>
+        <definition>new ref MR.Vector4i64 MR.Box_Matrix4i64.w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>MR.Box_Matrix4i64.w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2800" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2800" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Matrix4i64_1af770f249c025a2cee565ff6f626d8c30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref <ref refid="structMR_1_1Vector4i64" kindref="compound">MR.Vector4i64</ref></type>
+        <definition>unsafe new ref MR.Vector4i64 MR.Box_Matrix4i64.this[int row]</definition>
+        <argsstring></argsstring>
+        <name>this[int row]</name>
+        <qualifiedname>MR.Box_Matrix4i64.this[int row]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Matrix4i64.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2889" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2890" bodyend="2897"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1ac8e114555ff1447b20b7337495937126" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix4i64.Box_Matrix4i64</definition>
+        <argsstring>(Matrix4i64 other)</argsstring>
+        <name>Box_Matrix4i64</name>
+        <qualifiedname>MR.Box_Matrix4i64.Box_Matrix4i64</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix4i64" kindref="compound">Matrix4i64</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2805" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2805" bodyend="2805"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1a1e30e059b1567bf9fd167cb890ba7985" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix4i64.Box_Matrix4i64</definition>
+        <argsstring>(ConstBox_Matrix4i64 _other)</argsstring>
+        <name>Box_Matrix4i64</name>
+        <qualifiedname>MR.Box_Matrix4i64.Box_Matrix4i64</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4i64" kindref="compound">ConstBox_Matrix4i64</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2812" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2812" bodyend="2816"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1a097e46ce3716e29cc8c50abbee42b893" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Box_Matrix4i64.Assign</definition>
+        <argsstring>(ConstBox_Matrix4i64 _other)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>MR.Box_Matrix4i64.Assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix4i64" kindref="compound">ConstBox_Matrix4i64</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2821" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2821" bodyend="2821"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1ae53c85ac76514c62a1e62960ade69391" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix4i64.Box_Matrix4i64</definition>
+        <argsstring>()</argsstring>
+        <name>Box_Matrix4i64</name>
+        <qualifiedname>MR.Box_Matrix4i64.Box_Matrix4i64</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2826" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2826" bodyend="2832"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1ad55a247d18d0074159e85e0ccb05b18a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix4i64.Box_Matrix4i64</definition>
+        <argsstring>(in MR.Vector4i64 x, in MR.Vector4i64 y, in MR.Vector4i64 z, in MR.Vector4i64 w)</argsstring>
+        <name>Box_Matrix4i64</name>
+        <qualifiedname>MR.Box_Matrix4i64.Box_Matrix4i64</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector4i64" kindref="compound">MR.Vector4i64</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector4i64" kindref="compound">MR.Vector4i64</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector4i64" kindref="compound">MR.Vector4i64</ref></type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector4i64" kindref="compound">MR.Vector4i64</ref></type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+<para>initializes matrix from 4 row-vectors Generated from constructor <computeroutput><ref refid="structMR_1_1Matrix4i64_1a837e1fe85bd09c384c03fe0bd3f1659a" kindref="member">MR.Matrix4i64.Matrix4i64</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2838" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2838" bodyend="2856"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1ac3008c6a5b78fb586613f9ece27e22c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix4i64.Box_Matrix4i64</definition>
+        <argsstring>(in MR.Matrix3i64 r, in MR.Vector3i64 t)</argsstring>
+        <name>Box_Matrix4i64</name>
+        <qualifiedname>MR.Box_Matrix4i64.Box_Matrix4i64</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>construct from rotation matrix and translation vector Generated from constructor <computeroutput><ref refid="structMR_1_1Matrix4i64_1a837e1fe85bd09c384c03fe0bd3f1659a" kindref="member">MR.Matrix4i64.Matrix4i64</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2862" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2862" bodyend="2874"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1acd2a14ef8a98fbade83833d593e5bcab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref long</type>
+        <definition>unsafe new ref long MR.Box_Matrix4i64.call</definition>
+        <argsstring>(int row, int col)</argsstring>
+        <name>call</name>
+        <qualifiedname>MR.Box_Matrix4i64.call</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Matrix4i64.operator()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2879" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2879" bodyend="2884"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1a376956d9a58c2fdcb93175c65c7cc11a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_Matrix4i64.setRotation</definition>
+        <argsstring>(in MR.Matrix3i64 rot)</argsstring>
+        <name>setRotation</name>
+        <qualifiedname>MR.Box_Matrix4i64.setRotation</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3i64" kindref="compound">MR.Matrix3i64</ref></type>
+          <declname>rot</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix4i64_1a5fa468987a92b7e560010991e5c07df8" kindref="member">MR.Matrix4i64.setRotation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2902" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2902" bodyend="2910"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1a13763d2513d7e2bb8cbd8b1fb1f7485a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_Matrix4i64.setTranslation</definition>
+        <argsstring>(in MR.Vector3i64 t)</argsstring>
+        <name>setTranslation</name>
+        <qualifiedname>MR.Box_Matrix4i64.setTranslation</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i64" kindref="compound">MR.Vector3i64</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix4i64_1aeb232aa250fd9f08aafee9f7ffe85c39" kindref="member">MR.Matrix4i64.setTranslation</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2915" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2915" bodyend="2923"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1aa6118d8b0ebd9387b4ed3cd94b14e6e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; long &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; long &gt; MR.Box_Matrix4i64.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.Box_Matrix4i64.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Matrix4i64_1a00340a681e6d4fedc374fb657d7210ba" kindref="member">MR.Matrix4i64.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2928" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2928" bodyend="2934"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1a5947bc1b321bc1df23390dca0d5a1818" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Matrix4i64" kindref="compound">MR.Matrix4i64</ref></type>
+        <definition>unsafe ref MR.Matrix4i64 MR.Box_Matrix4i64.addAssign</definition>
+        <argsstring>(in MR.Matrix4i64 b)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.Box_Matrix4i64.addAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix4i64" kindref="compound">MR.Matrix4i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2939" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2939" bodyend="2947"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1a006a166ad70ad2479316cd865e0d42da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Matrix4i64" kindref="compound">MR.Matrix4i64</ref></type>
+        <definition>unsafe ref MR.Matrix4i64 MR.Box_Matrix4i64.subAssign</definition>
+        <argsstring>(in MR.Matrix4i64 b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.Box_Matrix4i64.subAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix4i64" kindref="compound">MR.Matrix4i64</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2952" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2952" bodyend="2960"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1a7314654e1735b0963074b03e99adbdd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Matrix4i64" kindref="compound">MR.Matrix4i64</ref></type>
+        <definition>unsafe ref MR.Matrix4i64 MR.Box_Matrix4i64.mulAssign</definition>
+        <argsstring>(long b)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.Box_Matrix4i64.mulAssign</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2965" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2965" bodyend="2970"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1a27756c234edea1ac49817a1f0d644307" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Matrix4i64" kindref="compound">MR.Matrix4i64</ref></type>
+        <definition>unsafe ref MR.Matrix4i64 MR.Box_Matrix4i64.divAssign</definition>
+        <argsstring>(long b)</argsstring>
+        <name>divAssign</name>
+        <qualifiedname>MR.Box_Matrix4i64.divAssign</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator/=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2975" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2975" bodyend="2980"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Box__Matrix4i64_1a832591dc472b86fb6925798bd3932c54" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix4i64.Box_Matrix4i64</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Box_Matrix4i64</name>
+        <qualifiedname>MR.Box_Matrix4i64.Box_Matrix4i64</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2807" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2807" bodyend="2807"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>arbitrary 4x4 matrix Generated from class <computeroutput><ref refid="structMR_1_1Matrix4i64" kindref="compound">MR.Matrix4i64</ref></computeroutput>. This is the non-const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConstBox_Matrix4i64</label>
+        <link refid="classMR_1_1ConstBox__Matrix4i64"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_Matrix4i64</label>
+        <link refid="classMR_1_1Box__Matrix4i64"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_Matrix4i64 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_Matrix4i64 &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConstBox_Matrix4i64</label>
+        <link refid="classMR_1_1ConstBox__Matrix4i64"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_Matrix4i64</label>
+        <link refid="classMR_1_1Box__Matrix4i64"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_Matrix4i64 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_Matrix4i64 &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" line="2786" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix4.cs" bodystart="2787" bodyend="2981"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Box__Matrix4i64_1a5947bc1b321bc1df23390dca0d5a1818" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a097e46ce3716e29cc8c50abbee42b893" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>Assign</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1ac8e114555ff1447b20b7337495937126" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>Box_Matrix4i64</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a832591dc472b86fb6925798bd3932c54" prot="package" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>Box_Matrix4i64</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a1e30e059b1567bf9fd167cb890ba7985" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>Box_Matrix4i64</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1ae53c85ac76514c62a1e62960ade69391" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>Box_Matrix4i64</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1ad55a247d18d0074159e85e0ccb05b18a" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>Box_Matrix4i64</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1ac3008c6a5b78fb586613f9ece27e22c4" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>Box_Matrix4i64</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1acd2a14ef8a98fbade83833d593e5bcab" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>call</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a63d26306284803952eabb1e83d138d55" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>col</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1ad1987e0e0238979aaa695042246f2377" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>ConstBox_Matrix4i64</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a3330e40aa6c733a732e8e2c9d8a51096" prot="package" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>ConstBox_Matrix4i64</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a3b4a0e704f6324513e93b22032c05376" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>ConstBox_Matrix4i64</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a63d18418e26e6f28d17663117a3e7a43" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>ConstBox_Matrix4i64</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a1906467046a6e7405d727b9e0ec7c5cc" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>ConstBox_Matrix4i64</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a44d0985799032eced6ea43b9ccec2372" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>ConstBox_Matrix4i64</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1aa6118d8b0ebd9387b4ed3cd94b14e6e5" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>data</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1ab8941be5c3783259a7680cf9c77dee78" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>det</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a89bdc5d7d7acedd13b8ac33be67010d9" prot="protected" virt="virtual"><scope>MR::Box_Matrix4i64</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1ae2eda8a7ab918a1c3a162b2a40db2f71" prot="public" virt="virtual"><scope>MR::Box_Matrix4i64</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a27756c234edea1ac49817a1f0d644307" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1aab0e3e0355b897fe83b8c4ee96418b67" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a08935449d684c63d015cdb35285937ce" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1adafd05709e653c9595ad28fbfd99d2e1" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>getRotation</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1aac9ba109a666130fdfa206971c35500c" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>getTranslation</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a9e5386985c2858d40de69765f012186b" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>identity</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a7314654e1735b0963074b03e99adbdd4" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a894477a0f1aabe6b2ce2f47fd0155601" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>norm</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a3559443dfd278f9d3acec57071f52daf" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>normSq</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1ae253c62c114a7785cf46db6681ac7527" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator ConstBox_Matrix4i64</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1ad644a81c6d8ea7f862839d6903a2c600" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1af83f7003e1cec96a5e117470e10ddbfe" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1ab3ecef57ffd95d06e7ef09f4e59067ed" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a4e4602eca545638b0b472cc6c6360473" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a6685e682e7a824b639521ac114a15f0b" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1ac5f0a7fea4a69d641d086505cffdea0e" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a730f303da01d7f84aeaece551cc001a2" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator-</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a6f190c9aaa7b5009bfc3adc57d3533b5" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator/</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a7da5817a0c0230184ff195b6f048b116" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>operator==</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1ad2d56e6c8bde309c7bc8da25c7fd3c1a" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>scale</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a376956d9a58c2fdcb93175c65c7cc11a" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>setRotation</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a13763d2513d7e2bb8cbd8b1fb1f7485a" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>setTranslation</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a006a166ad70ad2479316cd865e0d42da" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1acbb17b183e53da3762285788f75eb206" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>submatrix3</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1af770f249c025a2cee565ff6f626d8c30" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>this[int row]</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a02bcb7185465267bb80bfa7d5bfaa2ba" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>trace</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1af63eb991b8222bc07655737a94243e3c" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>transposed</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a305e6865f13b14405347d465d467f3ac" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>w</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a69b85ab71b282c2b56fb279f66182864" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>x</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a0c6c97a3fda625f06f8f831431fd34e8" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>y</name></member>
+      <member refid="classMR_1_1Box__Matrix4i64_1a49743da73fde24c05cbc2e347607d0d2" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>z</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix4i64_1a33581f7e06e93c1ef991128bf13719bc" prot="public" virt="non-virtual"><scope>MR::Box_Matrix4i64</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

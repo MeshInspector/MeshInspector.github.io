@@ -1,0 +1,893 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Features::Primitives::ConeSegment</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a702c28bebfcff4964748edd90211334d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.Primitives.ConeSegment::_offsetof_dir</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dir</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment._offsetof_dir</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18326" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a5fa02f617639b77453b3e563aeca9019" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.Primitives.ConeSegment::_offsetof_hollow</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_hollow</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment._offsetof_hollow</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18327" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18327" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a132de0e2d440abc9ce47dae6b9965bcb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.Primitives.ConeSegment::_offsetof_negativeLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_negativeLength</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment._offsetof_negativeLength</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1aa714df3324945b608699a439bf9a1f91" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.Primitives.ConeSegment::_offsetof_negativeSideRadius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_negativeSideRadius</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment._offsetof_negativeSideRadius</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18329" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a61d031825c73b7e0fab9c3c6b84424df" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.Primitives.ConeSegment::_offsetof_positiveLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_positiveLength</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment._offsetof_positiveLength</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18330" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ae0eba19be1e014d64e4ec813075a167d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.Primitives.ConeSegment::_offsetof_positiveSideRadius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_positiveSideRadius</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment._offsetof_positiveSideRadius</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a2bede43c90dbe4394d3b2b2068963e5c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Features.Primitives.ConeSegment::_offsetof_referencePoint</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_referencePoint</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment._offsetof_referencePoint</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18332" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18332" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a916d0a63aa72bb5856c1c04c1e3ee3e7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.Primitives.ConeSegment.__eq__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.__eq__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18334" bodyend="18335"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ac6a37bc6143805dd90b554e099e7a9f0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18338" bodyend="18339"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a9f4c6c1f57ec5e96a64a9e575456e895" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.Primitives.ConeSegment.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18342" bodyend="18343"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a9f4c6c1f57ec5e96a64a9e575456e895" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.Primitives.ConeSegment.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18346" bodyend="18347"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ae6f00ffc215903e551bd5adc1b9199e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18349" bodyend="18350"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ad221350b2021977bd1bff83be9e997fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.__init__</definition>
+        <argsstring>(self, Features.Primitives.ConeSegment arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18352" bodyend="18355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a79e5594096b6386d3fc696717e49ece9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.__init__</definition>
+        <argsstring>(self, Vector3f referencePoint, Vector3f dir, float positiveSideRadius, float negativeSideRadius, float positiveLength, float negativeLength, bool hollow)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>referencePoint</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>positiveSideRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>negativeSideRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>positiveLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>negativeLength</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>hollow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18357" bodyend="18360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a9b06df6d784ee1ad498771213592534c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.Primitives.ConeSegment.axis</definition>
+        <argsstring>(self)</argsstring>
+        <name>axis</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.axis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns a finite axis. For circles, you might want to immediately `extendToInfinity()` it.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18361" bodyend="18364"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a4435406a0643787466194e74bcc7280e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.Primitives.ConeSegment.baseCircle</definition>
+        <argsstring>(self, bool negative)</argsstring>
+        <name>baseCircle</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.baseCircle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>negative</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns one of the two base circles.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18365" bodyend="18368"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a43830eb94a4d211e7f9c1b49cd973fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1Plane" kindref="compound">Features.Primitives.Plane</ref></type>
+        <definition> Features.Primitives.Plane mrmeshpy.Features.Primitives.ConeSegment.basePlane</definition>
+        <argsstring>(self, bool negative)</argsstring>
+        <name>basePlane</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.basePlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>negative</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns one of the two base planes.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18369" bodyend="18372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a18bc15bc869416abae2d8478c38278e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+        <definition> Sphere3f mrmeshpy.Features.Primitives.ConeSegment.basePoint</definition>
+        <argsstring>(self, bool negative)</argsstring>
+        <name>basePoint</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.basePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>negative</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns a center of one of the two base circles.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18373" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18373" bodyend="18376"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a422657003593a3a0c3a6d743d8534ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+        <definition> Sphere3f mrmeshpy.Features.Primitives.ConeSegment.centerPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>centerPoint</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.centerPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the center point (unlike `referencePoint`, which can actually be off-center).
+For half-infinite objects, returns the finite end.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18377" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18377" bodyend="18381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1aa9fe4b926d1bdb22c0f7e64fc898e219" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.Primitives.ConeSegment.extendToInfinity</definition>
+        <argsstring>(self, bool negative)</argsstring>
+        <name>extendToInfinity</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.extendToInfinity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>negative</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extends the object to infinity in one direction. The radius in the extended direction becomes equal to the radius in the opposite direction.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18383" bodyend="18386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a373a0d9b2fbda23862f75fb9909468d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.Primitives.ConeSegment.extendToInfinity</definition>
+        <argsstring>(self)</argsstring>
+        <name>extendToInfinity</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.extendToInfinity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extends the object to infinity in both directions. This is equivalent to `.extendToInfinity(false).extendToInfinity(true)`,
+except that calling it with `positiveSideRadius != negativeSideRadius` is illegal and triggers an assertion.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18388" bodyend="18392"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a515ebf89998d78a493ab74962de9dd32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.Primitives.ConeSegment.isCircle</definition>
+        <argsstring>(self)</argsstring>
+        <name>isCircle</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.isCircle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18393" bodyend="18394"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a930b9a07239a6e036d262e51bd368c46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.Primitives.ConeSegment.isZeroRadius</definition>
+        <argsstring>(self)</argsstring>
+        <name>isZeroRadius</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.isZeroRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18395" bodyend="18396"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a2ee720876c0345b4d1922c1fddd0260a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Features.Primitives.ConeSegment.length</definition>
+        <argsstring>(self)</argsstring>
+        <name>length</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.length</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the length. Can be infinite.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18397" bodyend="18400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ad6c6a03f11c8944c3f0645356264ef3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment" kindref="compound">Features.Primitives.ConeSegment</ref></type>
+        <definition> Features.Primitives.ConeSegment mrmeshpy.Features.Primitives.ConeSegment.untruncateCone</definition>
+        <argsstring>(self)</argsstring>
+        <name>untruncateCone</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.untruncateCone</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Untruncates a truncated cone. If it&apos;s not a cone at all, returns the object unchanged and triggers an assertion.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18401" bodyend="18404"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a2330ed62c78b2ed1a053726fa432c291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Features.Primitives.ConeSegment.dir</definition>
+        <argsstring>(self)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The axis direction. Must be normalized.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18406" bodyend="18409"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a3ca0fb9e1375b99324df447f28b31ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.dir</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18411" bodyend="18412"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a80658e9d5562e0e40264b20da5628d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Features.Primitives.ConeSegment.hollow</definition>
+        <argsstring>(self)</argsstring>
+        <name>hollow</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.hollow</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If true, the cone has no caps and no volume, and all distances (to the conical surface, that is) are positive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18414" bodyend="18417"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a016f7e451f48d88f22f3577b754d5c57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.hollow</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>hollow</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.hollow</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18419" bodyend="18420"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1aaac24112432ebe52f4328dd27f81985e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Features.Primitives.ConeSegment.negativeLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>negativeLength</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.negativeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Distance from the `center` to the cap in the direction opposite to `dir`.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18422" bodyend="18425"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a97663dd88ff21ee43deaed5b37cd48c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.negativeLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>negativeLength</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.negativeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18427" bodyend="18428"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a6350aaafc00925eaf4110be0ecf8e827" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Features.Primitives.ConeSegment.negativeSideRadius</definition>
+        <argsstring>(self)</argsstring>
+        <name>negativeSideRadius</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.negativeSideRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Cap radius in the direction opposite to `dir`.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18430" bodyend="18433"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1abf0a75b1955e81e18b31534cdd858026" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.negativeSideRadius</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>negativeSideRadius</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.negativeSideRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18435" bodyend="18436"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ac7ad44f84f2d8ef599fe7c9fb42b6625" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Features.Primitives.ConeSegment.positiveLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>positiveLength</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.positiveLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Distance from the `center` to the cap in the `dir` direction.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18438" bodyend="18441"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a3abcba8386b6d32c6a444f59026127a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.positiveLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>positiveLength</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.positiveLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18443" bodyend="18444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1acd2792021adf28784b1d2e5fedd87ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Features.Primitives.ConeSegment.positiveSideRadius</definition>
+        <argsstring>(self)</argsstring>
+        <name>positiveSideRadius</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.positiveSideRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Cap radius in the `dir` direction.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18446" bodyend="18449"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1aef74ead632958e26950acc734d34adbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.positiveSideRadius</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>positiveSideRadius</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.positiveSideRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18451" bodyend="18452"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a5e3e38b67272d156e7935779f45f85fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Features.Primitives.ConeSegment.referencePoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>referencePoint</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.referencePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Some point on the axis, but not necessarily the true center point. Use `centerPoint()` for that.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18454" bodyend="18457"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a9f257077d0377725586e875af5f962a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Features.Primitives.ConeSegment.referencePoint</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>referencePoint</name>
+        <qualifiedname>mrmeshpy.Features.Primitives.ConeSegment.referencePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18459" bodyend="18461"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Features::Primitives::ConeSegment
+
+Can have infinite length in one or two directions.
+The top and/or bottom can be flat or pointy.
+Doubles as a cylinder, line (finite or infinite), and a circle.
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Features.Primitives.ConeSegment</label>
+        <link refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dir</edgelabel>
+          <edgelabel>_offsetof_hollow</edgelabel>
+          <edgelabel>_offsetof_negativeLength</edgelabel>
+          <edgelabel>_offsetof_negativeSideRadius</edgelabel>
+          <edgelabel>_offsetof_positiveLength</edgelabel>
+          <edgelabel>_offsetof_positiveSideRadius</edgelabel>
+          <edgelabel>_offsetof_referencePoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="18318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="18318" bodyend="18460"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a916d0a63aa72bb5856c1c04c1e3ee3e7" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ac6a37bc6143805dd90b554e099e7a9f0" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ae6f00ffc215903e551bd5adc1b9199e4" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ad221350b2021977bd1bff83be9e997fd" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a79e5594096b6386d3fc696717e49ece9" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a702c28bebfcff4964748edd90211334d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>_offsetof_dir</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a5fa02f617639b77453b3e563aeca9019" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>_offsetof_hollow</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a132de0e2d440abc9ce47dae6b9965bcb" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>_offsetof_negativeLength</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1aa714df3324945b608699a439bf9a1f91" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>_offsetof_negativeSideRadius</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a61d031825c73b7e0fab9c3c6b84424df" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>_offsetof_positiveLength</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ae0eba19be1e014d64e4ec813075a167d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>_offsetof_positiveSideRadius</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a2bede43c90dbe4394d3b2b2068963e5c" prot="protected" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>_offsetof_referencePoint</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a9b06df6d784ee1ad498771213592534c" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>axis</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a4435406a0643787466194e74bcc7280e" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>baseCircle</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a43830eb94a4d211e7f9c1b49cd973fa0" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>basePlane</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a18bc15bc869416abae2d8478c38278e2" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>basePoint</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a422657003593a3a0c3a6d743d8534ab0" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>centerPoint</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a2330ed62c78b2ed1a053726fa432c291" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a3ca0fb9e1375b99324df447f28b31ada" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1aa9fe4b926d1bdb22c0f7e64fc898e219" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a373a0d9b2fbda23862f75fb9909468d3" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>extendToInfinity</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a80658e9d5562e0e40264b20da5628d5b" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>hollow</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a016f7e451f48d88f22f3577b754d5c57" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>hollow</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a515ebf89998d78a493ab74962de9dd32" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>isCircle</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a930b9a07239a6e036d262e51bd368c46" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>isZeroRadius</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a2ee720876c0345b4d1922c1fddd0260a" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>length</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1aaac24112432ebe52f4328dd27f81985e" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>negativeLength</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a97663dd88ff21ee43deaed5b37cd48c7" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>negativeLength</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a6350aaafc00925eaf4110be0ecf8e827" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>negativeSideRadius</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1abf0a75b1955e81e18b31534cdd858026" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>negativeSideRadius</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a9f4c6c1f57ec5e96a64a9e575456e895" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a9f4c6c1f57ec5e96a64a9e575456e895" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ac7ad44f84f2d8ef599fe7c9fb42b6625" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>positiveLength</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a3abcba8386b6d32c6a444f59026127a5" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>positiveLength</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1acd2792021adf28784b1d2e5fedd87ee1" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>positiveSideRadius</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1aef74ead632958e26950acc734d34adbb" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>positiveSideRadius</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a5e3e38b67272d156e7935779f45f85fd" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>referencePoint</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1a9f257077d0377725586e875af5f962a2" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>referencePoint</name></member>
+      <member refid="classmrmeshpy_1_1Features_1_1Primitives_1_1ConeSegment_1ad6c6a03f11c8944c3f0645356264ef3d" prot="public" virt="non-virtual"><scope>mrmeshpy::Features::Primitives::ConeSegment</scope><name>untruncateCone</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

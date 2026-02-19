@@ -1,5 +1,6 @@
 var MRVoxelsSave_8h =
 [
+    [ "VoxelsSaver", "MRVoxelsSave_8h.html#a5289196c605171ac3410bbe845a26176", null ],
     [ "gridToAnySupportedFormat", "MRVoxelsSave_8h.html#ga9dcafbf81e0cc08b00b5f3cc6c42f9e6", null ],
     [ "gridToRawAutoname", "MRVoxelsSave_8h.html#gaf3e337da226cefb117434f836e5305cc", null ],
     [ "gridToRawFloat", "MRVoxelsSave_8h.html#ga4d10a99aa49d2b8f2ef88692d30d10cd", null ],

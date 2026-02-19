@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ShaderWarning" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ShaderWarning</compoundname>
+    <includes refid="MRCreateShader_8h" local="no">MRCreateShader.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gabb95321aeb350840573cff7f04e36f33" kind="variable"><name>number</name></member>
+      <member refid="group__GeneralGroup_1ga930eaa6dc15670480191448c07138e81" kind="variable"><name>line</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCreateShader.h" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga930eaa6dc15670480191448c07138e81" prot="public" virt="non-virtual"><scope>MR::ShaderWarning</scope><name>line</name></member>
+      <member refid="group__GeneralGroup_1gabb95321aeb350840573cff7f04e36f33" prot="public" virt="non-virtual"><scope>MR::ShaderWarning</scope><name>number</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

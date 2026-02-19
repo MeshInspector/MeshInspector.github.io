@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Pdf_1_1TextParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Pdf::TextParams</compoundname>
+    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae37577c1d2cc7fb3e4455bb283a8e4b1" kind="variable"><name>fontName</name></member>
+      <member refid="group__GeneralGroup_1ga1aadfe2a66b4a923bc30460ceb9619c7" kind="variable"><name>fontSize</name></member>
+      <member refid="group__GeneralGroup_1gadfd5808f6da074893b078d1ad9e386e5" kind="variable"><name>alignment</name></member>
+      <member refid="group__GeneralGroup_1ga4af1de87818d3fbdfa3bbc486b6291ec" kind="variable"><name>colorText</name></member>
+      <member refid="group__GeneralGroup_1ga7d18ee945388f340f174e73ce3ff798a" kind="variable"><name>underline</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>parameters to drawing text </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::Pdf::TextParams</label>
+        <link refid="structMR_1_1Pdf_1_1TextParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>colorText</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="88" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="89" bodyend="97"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gadfd5808f6da074893b078d1ad9e386e5" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>alignment</name></member>
+      <member refid="group__GeneralGroup_1ga4af1de87818d3fbdfa3bbc486b6291ec" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>colorText</name></member>
+      <member refid="group__GeneralGroup_1gae37577c1d2cc7fb3e4455bb283a8e4b1" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>fontName</name></member>
+      <member refid="group__GeneralGroup_1ga1aadfe2a66b4a923bc30460ceb9619c7" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>fontSize</name></member>
+      <member refid="group__GeneralGroup_1ga7d18ee945388f340f174e73ce3ff798a" prot="public" virt="non-virtual"><scope>MR::Pdf::TextParams</scope><name>underline</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

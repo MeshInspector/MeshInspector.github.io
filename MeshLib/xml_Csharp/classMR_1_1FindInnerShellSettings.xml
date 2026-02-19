@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FindInnerShellSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::FindInnerShellSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindInnerShellSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FindInnerShellSettings_1abe4a0691ca6a9530ffad0b6fe1ebc761" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" kindref="member">MR.Side</ref></type>
+        <definition>new unsafe ref MR.Side MR.FindInnerShellSettings.side</definition>
+        <argsstring></argsstring>
+        <name>side</name>
+        <qualifiedname>MR.FindInnerShellSettings.side</qualifiedname>
+        <briefdescription>
+<para>specifies which side of shell is of interest: negative or positive relative to mesh normals </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="146" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindInnerShellSettings_1aa254671229619255334480365985d604" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FindInnerShellSettings.maxDistSq</definition>
+        <argsstring></argsstring>
+        <name>maxDistSq</name>
+        <qualifiedname>MR.FindInnerShellSettings.maxDistSq</qualifiedname>
+        <briefdescription>
+<para>specifies maximum squared distance from shell parts of interest to source mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="149" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindInnerShellSettings_1a91aa049ee710841d7404984e2a55a72d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.FindInnerShellSettings.useWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>useWindingNumber</name>
+        <qualifiedname>MR.FindInnerShellSettings.useWindingNumber</qualifiedname>
+        <briefdescription>
+<para>if true, a slower algorithm is activated that is more robust in the presence of self-intersections on mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="152" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindInnerShellSettings_1a07ef823825c6c4eca9db5b4d818150e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FindInnerShellSettings.windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>MR.FindInnerShellSettings.windingNumberThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>positive side if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="156" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindInnerShellSettings_1a3052b97372e1317ee5929314d62052fa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.FindInnerShellSettings.minVertsInComp</definition>
+        <argsstring></argsstring>
+        <name>minVertsInComp</name>
+        <qualifiedname>MR.FindInnerShellSettings.minVertsInComp</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>components of proper side with smaller number of vertices than this value will be removed from the result; components of wrong side with smaller number of vertices than this value will be added to the result </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="160" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FindInnerShellSettings_1aff0fac2a124c189c5e167e0610b38cbc" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindInnerShellSettings.FindInnerShellSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FindInnerShellSettings</name>
+        <qualifiedname>MR.FindInnerShellSettings.FindInnerShellSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="164" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="164" bodyend="168"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FindInnerShellSettings_1aafb04edc1a56f609d663c5fbac54dfce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindInnerShellSettings.FindInnerShellSettings</definition>
+        <argsstring>()</argsstring>
+        <name>FindInnerShellSettings</name>
+        <qualifiedname>MR.FindInnerShellSettings.FindInnerShellSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="174" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="174" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindInnerShellSettings_1a63620d6533e113115ecd8948b9a0e2f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindInnerShellSettings.FindInnerShellSettings</definition>
+        <argsstring>(MR.Side side, float maxDistSq, bool useWindingNumber, float windingNumberThreshold, int minVertsInComp)</argsstring>
+        <name>FindInnerShellSettings</name>
+        <qualifiedname>MR.FindInnerShellSettings.FindInnerShellSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a29dcb3e30c1418225ff5c8f1bdc4193b" kindref="member">MR.Side</ref></type>
+          <declname>side</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDistSq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useWindingNumber</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberThreshold</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minVertsInComp</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FindInnerShellSettings" kindref="compound">MR.FindInnerShellSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="185" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="185" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindInnerShellSettings_1a7b69cfd5bd812ac047f80bcfe23704b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindInnerShellSettings.FindInnerShellSettings</definition>
+        <argsstring>(MR.Const_FindInnerShellSettings _other)</argsstring>
+        <name>FindInnerShellSettings</name>
+        <qualifiedname>MR.FindInnerShellSettings.FindInnerShellSettings</qualifiedname>
+        <param>
+          <type>MR.Const_FindInnerShellSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindInnerShellSettings.FindInnerShellSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="196" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="196" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindInnerShellSettings_1a60e1e2d621969d5fc5d74f3b1a267595" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FindInnerShellSettings.FindInnerShellSettings</definition>
+        <argsstring>(FindInnerShellSettings _other)</argsstring>
+        <name>FindInnerShellSettings</name>
+        <qualifiedname>MR.FindInnerShellSettings.FindInnerShellSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FindInnerShellSettings" kindref="compound">FindInnerShellSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindInnerShellSettings.FindInnerShellSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="208" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="208" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindInnerShellSettings_1a262a4bbd5a8f519de828467caa1deb62" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FindInnerShellSettings" kindref="compound">MR.FindInnerShellSettings</ref></type>
+        <definition>unsafe MR.FindInnerShellSettings MR.FindInnerShellSettings.assign</definition>
+        <argsstring>(MR.Const_FindInnerShellSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FindInnerShellSettings.assign</qualifiedname>
+        <param>
+          <type>MR.Const_FindInnerShellSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FindInnerShellSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="213" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="213" bodyend="220"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1FindInnerShellSettings" kindref="compound">MR.FindInnerShellSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FindInnerShellSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindInnerShellSettings</label>
+        <link refid="classMR_1_1FindInnerShellSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindInnerShellSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FindInnerShellSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindInnerShellSettings</label>
+        <link refid="classMR_1_1FindInnerShellSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindInnerShellSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" line="143" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRInnerShell.cs" bodystart="144" bodyend="221"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FindInnerShellSettings_1a262a4bbd5a8f519de828467caa1deb62" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1aff0fac2a124c189c5e167e0610b38cbc" prot="package" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1aafb04edc1a56f609d663c5fbac54dfce" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1a63620d6533e113115ecd8948b9a0e2f3" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1a7b69cfd5bd812ac047f80bcfe23704b8" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1a60e1e2d621969d5fc5d74f3b1a267595" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>FindInnerShellSettings</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1aa254671229619255334480365985d604" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>maxDistSq</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1a3052b97372e1317ee5929314d62052fa" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>minVertsInComp</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1abe4a0691ca6a9530ffad0b6fe1ebc761" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>side</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1a91aa049ee710841d7404984e2a55a72d" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>useWindingNumber</name></member>
+      <member refid="classMR_1_1FindInnerShellSettings_1a07ef823825c6c4eca9db5b4d818150e3" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

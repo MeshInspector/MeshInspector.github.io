@@ -1,0 +1,17 @@
+var classMR_1_1CNCMachineSettings =
+[
+    [ "CNCMachineSettings", "classMR_1_1CNCMachineSettings.html#ab3f97403c8937617189408cad25573d3", null ],
+    [ "CNCMachineSettings", "classMR_1_1CNCMachineSettings.html#a132a8bff9228105157d3173e487f921c", null ],
+    [ "CNCMachineSettings", "classMR_1_1CNCMachineSettings.html#a71343f7e63e5ab7e071e81df9a0b10ee", null ],
+    [ "CNCMachineSettings", "classMR_1_1CNCMachineSettings.html#a9cf4aba6b7bc597e704fd3b8624dbe4a", null ],
+    [ "assign", "classMR_1_1CNCMachineSettings.html#a8cd76680b53ba086d3293c7ca02ac46e", null ],
+    [ "Equals", "classMR_1_1CNCMachineSettings.html#a49a5713cd05b825f45bd113702303424", null ],
+    [ "Equals", "classMR_1_1CNCMachineSettings.html#a171d75b6d259c0b4818c8a7410e75cf0", null ],
+    [ "operator!=", "classMR_1_1CNCMachineSettings.html#ad9107ddb6c62812ccad2bb4b16018c59", null ],
+    [ "operator==", "classMR_1_1CNCMachineSettings.html#a4dd9282030f1490657fde831d167695b", null ],
+    [ "setFeedrateIdle", "classMR_1_1CNCMachineSettings.html#a7c5a3d8b7e6f235b34f24802618d9164", null ],
+    [ "setHomePosition", "classMR_1_1CNCMachineSettings.html#a79d26578bb84a72e098ced3fca4517ab", null ],
+    [ "setRotationAxis", "classMR_1_1CNCMachineSettings.html#aa751b0b116d67b9cb83085125cb1efd2", null ],
+    [ "setRotationLimits", "classMR_1_1CNCMachineSettings.html#aecded64948d296460945405eb18b1f9e", null ],
+    [ "setRotationOrder", "classMR_1_1CNCMachineSettings.html#aa3e5d82cbca168f43e18a41de2099a42", null ]
+];

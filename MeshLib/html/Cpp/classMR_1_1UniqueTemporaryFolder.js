@@ -1,6 +1,7 @@
 var classMR_1_1UniqueTemporaryFolder =
 [
-    [ "UniqueTemporaryFolder", "../Csharp/classMR_1_1UniqueTemporaryFolder.html#ad4ae98591233a1cc8925ed28c24f10ee", null ],
-    [ "UniqueTemporaryFolder", "../Csharp/classMR_1_1UniqueTemporaryFolder.html#a97ef160de3a43bd4677c0710925d54dc", null ],
-    [ "assign", "../Csharp/classMR_1_1UniqueTemporaryFolder.html#add65510f7815b59eccc5b6debcbaf55f", null ]
+    [ "UniqueTemporaryFolder", "group__GeneralGroup.html#gace9464c8f12cf5ffa4258eff7b5114e5", null ],
+    [ "~UniqueTemporaryFolder", "group__GeneralGroup.html#ga175a2246818aaee34d1f1be05f2d3256", null ],
+    [ "operator bool", "group__GeneralGroup.html#ga8ec198312afe50720d7c5ab8ef8cfc46", null ],
+    [ "operator/", "group__GeneralGroup.html#ga990b724a34e3cff31ff265fee8ab84b5", null ]
 ];

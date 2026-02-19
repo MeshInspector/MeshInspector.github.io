@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FlatTree" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FlatTree</compoundname>
+    <includes refid="MRSceneOperations_8h" local="no">MRSceneOperations.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga91ce578b57c3afcd001373ff561404a9" kind="variable"><name>root</name></member>
+      <member refid="group__GeneralGroup_1gac658a0431f66b43b4735d82b4ce30504" kind="variable"><name>subobjects</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>flat representation of an object tree useful for caching </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneOperations.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneOperations.h" bodystart="14" bodyend="17"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga91ce578b57c3afcd001373ff561404a9" prot="public" virt="non-virtual"><scope>MR::FlatTree</scope><name>root</name></member>
+      <member refid="group__GeneralGroup_1gac658a0431f66b43b4735d82b4ce30504" prot="public" virt="non-virtual"><scope>MR::FlatTree</scope><name>subobjects</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

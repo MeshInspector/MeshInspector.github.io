@@ -1,10 +1,8 @@
 var classMR_1_1MeshBuilder_1_1VertexIdentifier =
 [
-    [ "VertexIdentifier", "../Csharp/classMR_1_1MeshBuilder_1_1VertexIdentifier.html#a4c519eaa68335f29802d9619bc48d537", null ],
-    [ "VertexIdentifier", "../Csharp/classMR_1_1MeshBuilder_1_1VertexIdentifier.html#a5e252c66b9ec41049ba0aeb0a07b3bb8", null ],
-    [ "addTriangles", "../Csharp/classMR_1_1MeshBuilder_1_1VertexIdentifier.html#a6938bfc9f11fcf8b3aae9e995b13d1a6", null ],
-    [ "assign", "../Csharp/classMR_1_1MeshBuilder_1_1VertexIdentifier.html#a3039ce8a0860d776c7a6b6acee947952", null ],
-    [ "reserve", "../Csharp/classMR_1_1MeshBuilder_1_1VertexIdentifier.html#a6f333f2e4922a7a10f5cc9e58bb6a47a", null ],
-    [ "takePoints", "../Csharp/classMR_1_1MeshBuilder_1_1VertexIdentifier.html#a7daca68125d31b593103152db775dab8", null ],
-    [ "takeTriangulation", "../Csharp/classMR_1_1MeshBuilder_1_1VertexIdentifier.html#a2984dbc5d27027103097a354a4132e6d", null ]
+    [ "addTriangles", "group__GeneralGroup.html#ga14d6f8f8c30e4503c535f588649b8c2b", null ],
+    [ "numTris", "group__GeneralGroup.html#gaa5e3191cd4ff080dc3f960e8763c0069", null ],
+    [ "reserve", "group__GeneralGroup.html#gaa4fad50a7e105fa74961ca6cc97e2818", null ],
+    [ "takePoints", "group__GeneralGroup.html#gaa1211b739708344bd0dba3542ec58a27", null ],
+    [ "takeTriangulation", "group__GeneralGroup.html#ga2e2e54026ad94fbd2e7c0b98270a01e3", null ]
 ];

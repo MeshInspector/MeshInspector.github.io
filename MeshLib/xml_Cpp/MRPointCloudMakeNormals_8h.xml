@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPointCloudMakeNormals_8h" kind="file" language="C++">
+    <compoundname>MRPointCloudMakeNormals.h</compoundname>
+    <includes local="yes">MRMeshFwd.h</includes>
+    <includes refid="MREnums_8h" local="yes">MREnums.h</includes>
+    <includes local="no">optional</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRPointCloudMakeNormals.h</label>
+        <link refid="MRPointCloudMakeNormals_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="4">
+        <label>optional</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MREnums_8h" kindref="compound">MREnums.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="group__PointCloudGroup_1gacc81cfcb469766869e22075807c018db" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertNormals&gt;<sp/><ref refid="group__PointCloudGroup_1gacc81cfcb469766869e22075807c018db" kindref="member">makeUnorientedNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{},<sp/><ref refid="group__GeneralGroup_1gaf24a4564a6b209f61d84fd30c8c71a8b" kindref="member">OrientNormals</ref><sp/>orient<sp/>=<sp/><ref refid="group__GeneralGroup_1ggaf24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666" kindref="member">OrientNormals::Smart</ref><sp/>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="group__PointCloudGroup_1ga7448439cf7b5f0ec6ed3d9488bef703a" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertNormals&gt;<sp/><ref refid="group__PointCloudGroup_1gacc81cfcb469766869e22075807c018db" kindref="member">makeUnorientedNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AllLocalTriangulations" kindref="compound">AllLocalTriangulations</ref>&amp;<sp/>triangs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{},<sp/><ref refid="group__GeneralGroup_1gaf24a4564a6b209f61d84fd30c8c71a8b" kindref="member">OrientNormals</ref><sp/>orient<sp/>=<sp/><ref refid="group__GeneralGroup_1ggaf24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666" kindref="member">OrientNormals::Smart</ref><sp/>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="group__PointCloudGroup_1gae615385e5a3c6640f53b2afd04658838" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertNormals&gt;<sp/><ref refid="group__PointCloudGroup_1gacc81cfcb469766869e22075807c018db" kindref="member">makeUnorientedNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Buffer" kindref="compound">Buffer&lt;VertId&gt;</ref><sp/>&amp;<sp/>closeVerts,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numNei,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{},<sp/><ref refid="group__GeneralGroup_1gaf24a4564a6b209f61d84fd30c8c71a8b" kindref="member">OrientNormals</ref><sp/>orient<sp/>=<sp/><ref refid="group__GeneralGroup_1ggaf24a4564a6b209f61d84fd30c8c71a8baacd381e68b92357896c0856efebb3666" kindref="member">OrientNormals::Smart</ref><sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="group__PointCloudGroup_1gac088f8a5d90a98ec6f18e97caca298f2" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__PointCloudGroup_1gac088f8a5d90a98ec6f18e97caca298f2" kindref="member">orientNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/>VertNormals&amp;<sp/>normals,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="group__PointCloudGroup_1gaa8f205918af032263bddf663cd5e03f0" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__PointCloudGroup_1gac088f8a5d90a98ec6f18e97caca298f2" kindref="member">orientNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/>VertNormals&amp;<sp/>normals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AllLocalTriangulations" kindref="compound">AllLocalTriangulations</ref>&amp;<sp/>triangs,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="group__PointCloudGroup_1ga450ad031ccac1e86e9a4f076d1aabd3a" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__PointCloudGroup_1gac088f8a5d90a98ec6f18e97caca298f2" kindref="member">orientNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/>VertNormals&amp;<sp/>normals,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Buffer" kindref="compound">Buffer&lt;VertId&gt;</ref><sp/>&amp;<sp/>closeVerts,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numNei,</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="group__PointCloudGroup_1ga40da78b08c082b4012d578e9b68e0c69" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertNormals&gt;<sp/><ref refid="group__PointCloudGroup_1ga40da78b08c082b4012d578e9b68e0c69" kindref="member">makeOrientedNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>radius,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="group__PointCloudGroup_1gab197779cd5dda18a937f178ef98ceb27" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertNormals&gt;<sp/><ref refid="group__PointCloudGroup_1ga40da78b08c082b4012d578e9b68e0c69" kindref="member">makeOrientedNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1AllLocalTriangulations" kindref="compound">AllLocalTriangulations</ref>&amp;<sp/>triangs,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>ProgressCallback<sp/>&amp;<sp/>progress<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="group__PointCloudGroup_1ga6d1b190105546ec214cc4ab692ece60e" refkind="member"><highlight class="normal">MRMESH_API<sp/>VertNormals<sp/><ref refid="group__PointCloudGroup_1ga6d1b190105546ec214cc4ab692ece60e" kindref="member">makeNormals</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>avgNeighborhoodSize<sp/>=<sp/>48<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudMakeNormals.h"/>
+  </compounddef>
+</doxygen>

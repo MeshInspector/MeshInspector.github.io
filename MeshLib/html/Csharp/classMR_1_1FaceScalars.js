@@ -2,6 +2,8 @@ var classMR_1_1FaceScalars =
 [
     [ "FaceScalars", "classMR_1_1FaceScalars.html#ad7b9129509e24d9b954eb3b44a24ab30", null ],
     [ "FaceScalars", "classMR_1_1FaceScalars.html#a973851cdec86d274e2f1ea420466ebfc", null ],
+    [ "FaceScalars", "classMR_1_1FaceScalars.html#a6f28268a985ed6924672e6bb6943ddd5", null ],
+    [ "FaceScalars", "classMR_1_1FaceScalars.html#acf9802538d3ff21b83b6cfa57fa9a50c", null ],
     [ "FaceScalars", "classMR_1_1FaceScalars.html#a2b7570ea7f5055329d556dd20467164d", null ],
     [ "FaceScalars", "classMR_1_1FaceScalars.html#a21dfa50ae6e961ab985172e332c2db19", null ],
     [ "FaceScalars", "classMR_1_1FaceScalars.html#a8cdd33f5a1189fdcd850e66b27a80de3", null ],

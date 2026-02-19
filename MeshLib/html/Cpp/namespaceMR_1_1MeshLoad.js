@@ -1,6 +1,10 @@
 var namespaceMR_1_1MeshLoad =
 [
     [ "MeshLoader", "structMR_1_1MeshLoad_1_1MeshLoader.html", "structMR_1_1MeshLoad_1_1MeshLoader" ],
+    [ "NamedMesh", "structMR_1_1MeshLoad_1_1NamedMesh.html", "structMR_1_1MeshLoad_1_1NamedMesh" ],
+    [ "ObjLoadSettings", "structMR_1_1MeshLoad_1_1ObjLoadSettings.html", "structMR_1_1MeshLoad_1_1ObjLoadSettings" ],
+    [ "MeshFileLoader", "group__IOFormatsRegistryGroup.html#gaf573976800f135f2ae1cc5430be86fb0", null ],
+    [ "MeshStreamLoader", "group__IOFormatsRegistryGroup.html#ga485ea6956850ab0f801b945739a8a9d3", null ],
     [ "fromAnyStl", "group__MeshLoadGroup.html#ga1b2267cc39cb8d9f8cc2942df5a0b12b", null ],
     [ "fromAnyStl", "group__MeshLoadGroup.html#ga49f8924ac46a8d5087ce59fb9be4ecfe", null ],
     [ "fromAnySupportedFormat", "group__MeshLoadGroup.html#gac9118492a6cd095ff8e563c0987fc477", null ],
@@ -9,8 +13,8 @@ var namespaceMR_1_1MeshLoad =
     [ "fromASCIIStl", "group__MeshLoadGroup.html#ga48e8ba7fe63a7dd81cac9f267a869133", null ],
     [ "fromBinaryStl", "group__MeshLoadGroup.html#ga800a25cbcfacd411f62b7c5f66035242", null ],
     [ "fromBinaryStl", "group__MeshLoadGroup.html#ga08e50aacade413e567cd3bc388b51163", null ],
-    [ "fromCtm", "namespaceMR_1_1MeshLoad.html#ab8244b145886f1cf25efcd9d04e05901", null ],
-    [ "fromCtm", "namespaceMR_1_1MeshLoad.html#a529ea8e184e964d8d3d75f866acbbfd5", null ],
+    [ "fromCtm", "group__GeneralGroup.html#gab8244b145886f1cf25efcd9d04e05901", null ],
+    [ "fromCtm", "group__GeneralGroup.html#ga529ea8e184e964d8d3d75f866acbbfd5", null ],
     [ "fromDxf", "group__MeshLoadGroup.html#ga1335c7ebd417b7e14d4a7fbec71b1e16", null ],
     [ "fromDxf", "group__MeshLoadGroup.html#ga6c226ac764bb215351691358c90e3eef", null ],
     [ "fromMrmesh", "group__MeshLoadGroup.html#ga0230084d7f2168e0171883198494ca0a", null ],

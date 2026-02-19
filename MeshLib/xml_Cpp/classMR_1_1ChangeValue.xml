@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeValue" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeValue</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeValue_8h" local="no">MRChangeValue.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaf64336b69c67fa157f60699a6807cc72" kind="variable"><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga882c6ca4a5e68d65ab532e5ba0b02403" kind="variable"><name>currentValue_</name></member>
+      <member refid="group__GeneralGroup_1ga30a6d37fa99c40e665dca69563219739" kind="variable"><name>oldValue_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga3c7d78b1f71f742ade3d4d065d0a09c1" kind="function"><name>ChangeValue</name></member>
+      <member refid="group__GeneralGroup_1ga1ebe31dbc55d650d0de83ae16bfe2e52" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga0cdf8d0a543743f5f83872b03ff33891" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga49b7b6012fb8adf78381f77cf6a1b9b1" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is an action to undo/redo a change in the value of a variable in the case of temporary objects, it is necessary to delete the history. this module should not exist anymore than the object that was passed to it. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeValue&lt; T &gt;</label>
+        <link refid="classMR_1_1ChangeValue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeValue&lt; T &gt;</label>
+        <link refid="classMR_1_1ChangeValue"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeValue.h" bodystart="19" bodyend="49"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0cdf8d0a543743f5f83872b03ff33891" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga3c7d78b1f71f742ade3d4d065d0a09c1" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>ChangeValue</name></member>
+      <member refid="group__GeneralGroup_1ga882c6ca4a5e68d65ab532e5ba0b02403" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>currentValue_</name></member>
+      <member refid="group__GeneralGroup_1ga49b7b6012fb8adf78381f77cf6a1b9b1" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga1ebe31dbc55d650d0de83ae16bfe2e52" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaf64336b69c67fa157f60699a6807cc72" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga30a6d37fa99c40e665dca69563219739" prot="private" virt="non-virtual"><scope>MR::ChangeValue</scope><name>oldValue_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeValue</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeValue</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

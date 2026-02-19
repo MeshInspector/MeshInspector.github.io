@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsLoad_1_1DicomStatus" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelsLoad::DicomStatus</compoundname>
+    <includes refid="MRDicom_8h" local="no">MRDicom.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga69fabaf9380693815d99277fda43022f" kind="variable"><name>status</name></member>
+      <member refid="group__GeneralGroup_1ga397021c2f11cc76a8178e525bd2bed86" kind="variable"><name>reason</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga780a5ecc96a3b09773f7fc297c5c4958" kind="function"><name>DicomStatus</name></member>
+      <member refid="group__GeneralGroup_1ga8152065aa9150e9c3a5dd1e0ce064abb" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga9d58008a01c9a02bc872fb06b4dfe30f" kind="function"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="32" bodyend="47"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga780a5ecc96a3b09773f7fc297c5c4958" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>DicomStatus</name></member>
+      <member refid="group__GeneralGroup_1ga8152065aa9150e9c3a5dd1e0ce064abb" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga9d58008a01c9a02bc872fb06b4dfe30f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga397021c2f11cc76a8178e525bd2bed86" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>reason</name></member>
+      <member refid="group__GeneralGroup_1ga69fabaf9380693815d99277fda43022f" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomStatus</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

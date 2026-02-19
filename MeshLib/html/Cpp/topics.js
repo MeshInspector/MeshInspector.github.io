@@ -20,5 +20,6 @@ var topics =
     [ "Voxel", "group__VoxelGroup.html", "group__VoxelGroup" ],
     [ "Basic Structures", "group__BasicStructuresGroup.html", "group__BasicStructuresGroup" ],
     [ "Components", "group__ComponentsGroup.html", "group__ComponentsGroup" ],
+    [ "GeneralGroup", "group__GeneralGroup.html", "group__GeneralGroup" ],
     [ "Points Load", "group__PointsLoadGroup.html", null ]
 ];

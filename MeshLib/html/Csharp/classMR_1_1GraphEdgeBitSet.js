@@ -2,6 +2,8 @@ var classMR_1_1GraphEdgeBitSet =
 [
     [ "GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html#a9982678446b39c4fb864a8829e0d79f9", null ],
     [ "GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html#a23f365ebf98239da895373812ad7dd67", null ],
+    [ "GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html#ae420e90a68d56cc13d3a4cbef427577b", null ],
+    [ "GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html#a0816f965b1cb69a4596d49004ec755e0", null ],
     [ "GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html#a269c18f81eb12bbc76500ba8b4e8adfd", null ],
     [ "GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html#af1b6da1ee614e018f33a14f9b564309f", null ],
     [ "GraphEdgeBitSet", "classMR_1_1GraphEdgeBitSet.html#a563a91b964edbb1ac7a4613ca95ee9f8", null ],
@@ -15,6 +17,7 @@ var classMR_1_1GraphEdgeBitSet =
     [ "flip", "classMR_1_1GraphEdgeBitSet.html#a5e5477cde4da3fc83b3d76e8b0b08236", null ],
     [ "flip", "classMR_1_1GraphEdgeBitSet.html#ad65852477fc0107712d51d326b998ece", null ],
     [ "flip", "classMR_1_1GraphEdgeBitSet.html#afafa2b34fc971bd77c5c7369b43a6977", null ],
+    [ "operator MR.BitSet", "classMR_1_1GraphEdgeBitSet.html#a7f261174cb2ae1f3abf487c3ea9ee1d0", null ],
     [ "popBack", "classMR_1_1GraphEdgeBitSet.html#a3c91724ab7453d3e8592a62a1d3dfa96", null ],
     [ "pushBack", "classMR_1_1GraphEdgeBitSet.html#af9a55ed0ad2bf185bcf5a1b1d0fe947b", null ],
     [ "reserve", "classMR_1_1GraphEdgeBitSet.html#a0c62b20a6fca167bd9edb41da6284fd6", null ],

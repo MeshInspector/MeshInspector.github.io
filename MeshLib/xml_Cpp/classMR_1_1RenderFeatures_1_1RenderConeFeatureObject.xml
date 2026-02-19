@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderFeatures::RenderConeFeatureObject</compoundname>
+    <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderFeatureMeshComponent&lt; true &gt;, RenderFeatureLinesComponent&lt; false &gt;, RenderFeaturePointsComponent&lt; false &gt;, RenderResetDirtyComponent &gt;</basecompoundref>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a41a10c6fb4f6dd86bfc10b2076f66310" prot="private" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> *</type>
+        <definition>const VisualObject* MR::RenderFeatures::RenderConeFeatureObject::object_</definition>
+        <argsstring></argsstring>
+        <name>object_</name>
+        <qualifiedname>MR::RenderFeatures::RenderConeFeatureObject::object_</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="288" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a078eb9cde1be0fdb83b5a321e3ceab85" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderDimensions_1_1RadiusTask" kindref="compound">RenderDimensions::RadiusTask</ref></type>
+        <definition>RenderDimensions::RadiusTask MR::RenderFeatures::RenderConeFeatureObject::radiusTask_</definition>
+        <argsstring></argsstring>
+        <name>radiusTask_</name>
+        <qualifiedname>MR::RenderFeatures::RenderConeFeatureObject::radiusTask_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="289" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a4f954c84dd97196fba82e841567f89ec" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderDimensions_1_1AngleTask" kindref="compound">RenderDimensions::AngleTask</ref></type>
+        <definition>RenderDimensions::AngleTask MR::RenderFeatures::RenderConeFeatureObject::angleTask_</definition>
+        <argsstring></argsstring>
+        <name>angleTask_</name>
+        <qualifiedname>MR::RenderFeatures::RenderConeFeatureObject::angleTask_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="290" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a47798323f9d642c035903722df8725e6" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1RenderDimensions_1_1LengthTask" kindref="compound">RenderDimensions::LengthTask</ref></type>
+        <definition>RenderDimensions::LengthTask MR::RenderFeatures::RenderConeFeatureObject::lengthTask_</definition>
+        <argsstring></argsstring>
+        <name>lengthTask_</name>
+        <qualifiedname>MR::RenderFeatures::RenderConeFeatureObject::lengthTask_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="291" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1ad655b05975ceda7d952b5547c22bd733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API</type>
+        <definition>MRVIEWER_API MR::RenderFeatures::RenderConeFeatureObject::RenderConeFeatureObject</definition>
+        <argsstring>(const VisualObject &amp;object)</argsstring>
+        <name>RenderConeFeatureObject</name>
+        <qualifiedname>MR::RenderFeatures::RenderConeFeatureObject::RenderConeFeatureObject</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1VisualObject" kindref="compound">VisualObject</ref> &amp;</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="293" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1aac5a73e456343b3de77158b5858cc64e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::RenderFeatures::RenderConeFeatureObject::renderUi</definition>
+        <argsstring>(const UiRenderParams &amp;params) override</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR::RenderFeatures::RenderConeFeatureObject::renderUi</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1UiRenderParams" kindref="compound">UiRenderParams</ref> &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="294" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::RenderConeFeatureObject</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderFeatureMeshComponent&lt; true &gt;, RenderFeatureLinesComponent&lt; false &gt;, RenderFeaturePointsComponent&lt; false &gt;, RenderResetDirtyComponent &gt;</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::RenderConeFeatureObject</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderFeatureMeshComponent&lt; true &gt;, RenderFeatureLinesComponent&lt; false &gt;, RenderFeaturePointsComponent&lt; false &gt;, RenderResetDirtyComponent &gt;</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="287" bodyend="295"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a4f954c84dd97196fba82e841567f89ec" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>angleTask_</name></member>
+      <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a47798323f9d642c035903722df8725e6" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>lengthTask_</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a41a10c6fb4f6dd86bfc10b2076f66310" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>object_</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1a078eb9cde1be0fdb83b5a321e3ceab85" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>radiusTask_</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1ad655b05975ceda7d952b5547c22bd733" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>RenderConeFeatureObject</name></member>
+      <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>RenderObjectCombinator</name></member>
+      <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject_1aac5a73e456343b3de77158b5858cc64e" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderConeFeatureObject</scope><name>renderUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

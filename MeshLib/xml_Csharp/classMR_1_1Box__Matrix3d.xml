@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Box__Matrix3d" kind="class" language="C#" prot="public">
+    <compoundname>MR::Box_Matrix3d</compoundname>
+    <basecompoundref refid="classMR_1_1ConstBox__Matrix3d" prot="public" virt="non-virtual">MR.ConstBox_Matrix3d</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Box__Matrix3d_1ab9fc76dfd37155614bd3fd622247a24a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new ref MR.Vector3d MR.Box_Matrix3d.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR.Box_Matrix3d.x</qualifiedname>
+        <briefdescription>
+<para>rows, identity matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5862" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5862" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Matrix3d_1aa35216f4c005781522838c830af0f241" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new ref MR.Vector3d MR.Box_Matrix3d.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR.Box_Matrix3d.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5864" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5864" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Matrix3d_1ac6cc8fbf9ce68ac07e480eb1b6b705a9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new ref MR.Vector3d MR.Box_Matrix3d.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR.Box_Matrix3d.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5866" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5866" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Matrix3d_1ae98be7f3c860d06dc47a8bd17457e903" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>unsafe new ref MR.Vector3d MR.Box_Matrix3d.this[int row]</definition>
+        <argsstring></argsstring>
+        <name>this[int row]</name>
+        <qualifiedname>MR.Box_Matrix3d.this[int row]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Matrix3d.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5924" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5925" bodyend="5932"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1a9e229b3b602632b49b3e51527db4807d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix3d.Box_Matrix3d</definition>
+        <argsstring>(Matrix3d other)</argsstring>
+        <name>Box_Matrix3d</name>
+        <qualifiedname>MR.Box_Matrix3d.Box_Matrix3d</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Matrix3d" kindref="compound">Matrix3d</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5871" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5871" bodyend="5871"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1af60c802b5ae1ab8db1c9366e468c9028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix3d.Box_Matrix3d</definition>
+        <argsstring>(ConstBox_Matrix3d _other)</argsstring>
+        <name>Box_Matrix3d</name>
+        <qualifiedname>MR.Box_Matrix3d.Box_Matrix3d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix3d" kindref="compound">ConstBox_Matrix3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5878" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5878" bodyend="5882"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1ae76943eb4b23aecea0ecaa471f2bef1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Box_Matrix3d.Assign</definition>
+        <argsstring>(ConstBox_Matrix3d _other)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>MR.Box_Matrix3d.Assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Matrix3d" kindref="compound">ConstBox_Matrix3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5887" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5887" bodyend="5887"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1a485b3c33c2027f71f46fbbe964953ed0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix3d.Box_Matrix3d</definition>
+        <argsstring>()</argsstring>
+        <name>Box_Matrix3d</name>
+        <qualifiedname>MR.Box_Matrix3d.Box_Matrix3d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5892" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5892" bodyend="5898"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1acbb116c7c614946c21e813c9ef50d713" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix3d.Box_Matrix3d</definition>
+        <argsstring>(in MR.Vector3d x, in MR.Vector3d y, in MR.Vector3d z)</argsstring>
+        <name>Box_Matrix3d</name>
+        <qualifiedname>MR.Box_Matrix3d.Box_Matrix3d</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>z</declname>
+        </param>
+        <briefdescription>
+<para>initializes matrix from its 3 rows Generated from constructor <computeroutput><ref refid="structMR_1_1Matrix3d_1a1a27a6011a3bebc9296f3415dafae475" kindref="member">MR.Matrix3d.Matrix3d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5904" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5904" bodyend="5919"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1a823e46be81aa91ce95da48d90dd1558e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+        <definition>unsafe ref MR.Matrix3d MR.Box_Matrix3d.addAssign</definition>
+        <argsstring>(in MR.Matrix3d b)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.Box_Matrix3d.addAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5937" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5937" bodyend="5945"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1ab77b2b529a216cabe38b8053ecf7a702" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+        <definition>unsafe ref MR.Matrix3d MR.Box_Matrix3d.subAssign</definition>
+        <argsstring>(in MR.Matrix3d b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.Box_Matrix3d.subAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5950" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5950" bodyend="5958"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1a46143f22254c50e2374577c3c304b4a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+        <definition>unsafe ref MR.Matrix3d MR.Box_Matrix3d.mulAssign</definition>
+        <argsstring>(double b)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.Box_Matrix3d.mulAssign</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5963" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5963" bodyend="5968"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1ab8b4a496258919ae4c9aad93eb040c36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></type>
+        <definition>unsafe ref MR.Matrix3d MR.Box_Matrix3d.divAssign</definition>
+        <argsstring>(double b)</argsstring>
+        <name>divAssign</name>
+        <qualifiedname>MR.Box_Matrix3d.divAssign</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator/=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5973" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5973" bodyend="5978"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Box__Matrix3d_1aa9f0754c973cbbbd108e1d86ab7370a6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Matrix3d.Box_Matrix3d</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Box_Matrix3d</name>
+        <qualifiedname>MR.Box_Matrix3d.Box_Matrix3d</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5873" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5873" bodyend="5873"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>arbitrary 3x3 matrix Generated from class <computeroutput><ref refid="structMR_1_1Matrix3d" kindref="compound">MR.Matrix3d</ref></computeroutput>. This is the non-const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConstBox_Matrix3d</label>
+        <link refid="classMR_1_1ConstBox__Matrix3d"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_Matrix3d</label>
+        <link refid="classMR_1_1Box__Matrix3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_Matrix3d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_Matrix3d &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConstBox_Matrix3d</label>
+        <link refid="classMR_1_1ConstBox__Matrix3d"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_Matrix3d</label>
+        <link refid="classMR_1_1Box__Matrix3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_Matrix3d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_Matrix3d &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" line="5854" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMatrix3.cs" bodystart="5855" bodyend="5979"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Box__Matrix3d_1a823e46be81aa91ce95da48d90dd1558e" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1ad058f54e566d1598f2677803d429143b" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>approximateLinearRotationMatrixFromEuler</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1ae76943eb4b23aecea0ecaa471f2bef1f" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>Assign</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1a9e229b3b602632b49b3e51527db4807d" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>Box_Matrix3d</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1aa9f0754c973cbbbd108e1d86ab7370a6" prot="package" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>Box_Matrix3d</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1af60c802b5ae1ab8db1c9366e468c9028" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>Box_Matrix3d</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1a485b3c33c2027f71f46fbbe964953ed0" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>Box_Matrix3d</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1acbb116c7c614946c21e813c9ef50d713" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>Box_Matrix3d</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1abba33464a94b0918a7aeaebd0ebfb111" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>col</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a3a6604b18073092999fd2586681e4f37" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>ConstBox_Matrix3d</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a0edb156393c5f9f1d630d918ba32f129" prot="package" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>ConstBox_Matrix3d</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a216c46f7396960ce779f277dbbcbabe3" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>ConstBox_Matrix3d</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1adf657d5315d2fc5c90255091885c69fc" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>ConstBox_Matrix3d</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a6dc740c2919b0c9d7422d75cd345ed1e" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>ConstBox_Matrix3d</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1ac059e3699cf8b693ed9277da9e81a8d0" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>det</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1aae20990b7bde4257d774d5bfe80003b9" prot="protected" virt="virtual"><scope>MR::Box_Matrix3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a4091f5f2b6649f91dec187484b9ba290" prot="public" virt="virtual"><scope>MR::Box_Matrix3d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1ab8b4a496258919ae4c9aad93eb040c36" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a87ec3910dada328fd558f393446070a5" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1adc245a6d2e1d5116fed9154dc02d6349" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a157fe4eae2400b3254b1ee0986871f67" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>fromColumns</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1aec9303d2a41169cd7349b8ddbe2d20e9" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>fromRows</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a119d99991d36c6dbbdd5fbfe98fbaaf6" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>identity</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1af3a5279589412184bfdb40c14a8be0b6" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>inverse</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1a46143f22254c50e2374577c3c304b4a7" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a537d552903f359d324e53679d9afa649" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>norm</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1aede2f9e2d5f5691d214f97b992b4b32a" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>normSq</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a924fd9d50e64f07052f08528289cf8e9" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator ConstBox_Matrix3d</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1ad342fc08eef68f5fe673507db9530e9c" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a820bca35e32871e27adfbe77dc78ac90" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1af235ecd8bbbadeb12245fe50dac9b941" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a2fd1b98c0f390dbbf28f245c42d944a8" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a4d9de71b14d421c2439808b16eb86557" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a3a3422e5e1178436896f853ee024b208" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a70e7a44596c2026d3d140e14c2e47936" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator-</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a9f5bee1fc0f17d6daad142b74013a127" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator/</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1abf89c9aef16ea76563996b541692802c" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>operator==</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a383ff7e76783e4213bacfb054faac9c7" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>qr</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a953a9c0438f181adf22ddb18dd48c0f7" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>rotation</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a7331004a6cc219fd03a62e32cf287e30" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>rotation</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a8a84ad9afa35befbb230d10d6f1e849f" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>rotationFromEuler</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a82f36181f3b7fc58bb25dcbfc2e5179e" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>scale</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a00072401d39a5145f01ea15e2afa2857" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>scale</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a3b730f0bbecb01dc8e95859bac43a74f" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>scale</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1ab77b2b529a216cabe38b8053ecf7a702" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1ae98be7f3c860d06dc47a8bd17457e903" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>this[int row]</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1afb5adba0fea889f0dec6a3d8043d045a" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>toEulerAngles</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1ac2de6155a12d6e191c99460f0dfc95bb" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>trace</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a9060b9f66152086a9bdcbdab62f35b53" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>transposed</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1ab9fc76dfd37155614bd3fd622247a24a" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>x</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1aa35216f4c005781522838c830af0f241" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>y</name></member>
+      <member refid="classMR_1_1Box__Matrix3d_1ac6cc8fbf9ce68ac07e480eb1b6b705a9" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>z</name></member>
+      <member refid="classMR_1_1ConstBox__Matrix3d_1a994fcfc41fa618f97cd334e83b2913ba" prot="public" virt="non-virtual"><scope>MR::Box_Matrix3d</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

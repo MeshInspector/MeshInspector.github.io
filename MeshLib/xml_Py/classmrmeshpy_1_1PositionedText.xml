@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PositionedText" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PositionedText</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PositionedText_1a26016abf65370c476519ccc7fecc12cc" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PositionedText::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.PositionedText.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48074" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PositionedText_1a26ed4b5918f90fedcdcd8fe280cef8d6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PositionedText::_offsetof_position</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_position</name>
+        <qualifiedname>mrmeshpy.PositionedText._offsetof_position</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48075" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48075" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PositionedText_1a46111d04b5c2cede8f44011cf1ccbe1f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PositionedText::_offsetof_text</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_text</name>
+        <qualifiedname>mrmeshpy.PositionedText._offsetof_text</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48076" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionedText_1a9df83dcb65a637bae9d367b90216a624" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PositionedText.__eq__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.PositionedText.__eq__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48080" bodyend="48081"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionedText_1a31fd687c92823d9d2e4e39ae9faef9fc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionedText.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PositionedText.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48084" bodyend="48085"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionedText_1a3a55f777db70743f112e176d5491e1cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PositionedText" kindref="compound">PositionedText</ref></type>
+        <definition> PositionedText mrmeshpy.PositionedText.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PositionedText.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48088" bodyend="48089"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionedText_1a3a55f777db70743f112e176d5491e1cc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PositionedText" kindref="compound">PositionedText</ref></type>
+        <definition> PositionedText mrmeshpy.PositionedText.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PositionedText.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48092" bodyend="48093"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionedText_1ae4aa54d4ff6238cf83b0a4939aea6267" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionedText.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PositionedText.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48095" bodyend="48096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionedText_1adc826106d87240e25caa5595edcabc83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionedText.__init__</definition>
+        <argsstring>(self, str text, Vector3f position)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PositionedText.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48098" bodyend="48099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PositionedText_1aee7283a048dca12527a6c59ec82793fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PositionedText.__init__</definition>
+        <argsstring>(self, PositionedText arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PositionedText.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PositionedText" kindref="compound">PositionedText</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48101" bodyend="48104"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PositionedText
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PositionedText</label>
+        <link refid="classmrmeshpy_1_1PositionedText"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_position</edgelabel>
+          <edgelabel>_offsetof_text</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48070" bodyend="48104"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PositionedText_1a9df83dcb65a637bae9d367b90216a624" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1PositionedText_1a26016abf65370c476519ccc7fecc12cc" prot="private" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1PositionedText_1a31fd687c92823d9d2e4e39ae9faef9fc" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PositionedText_1ae4aa54d4ff6238cf83b0a4939aea6267" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PositionedText_1adc826106d87240e25caa5595edcabc83" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PositionedText_1aee7283a048dca12527a6c59ec82793fc" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PositionedText_1a26ed4b5918f90fedcdcd8fe280cef8d6" prot="protected" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>_offsetof_position</name></member>
+      <member refid="classmrmeshpy_1_1PositionedText_1a46111d04b5c2cede8f44011cf1ccbe1f" prot="protected" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>_offsetof_text</name></member>
+      <member refid="classmrmeshpy_1_1PositionedText_1a3a55f777db70743f112e176d5491e1cc" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PositionedText_1a3a55f777db70743f112e176d5491e1cc" prot="public" virt="non-virtual"><scope>mrmeshpy::PositionedText</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

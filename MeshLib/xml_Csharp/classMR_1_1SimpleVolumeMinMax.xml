@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SimpleVolumeMinMax" kind="class" language="C#" prot="public">
+    <compoundname>MR::SimpleVolumeMinMax</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SimpleVolumeMinMax</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1SimpleVolumeMinMax_1a020af3e0157de6ab3f2b42f2491e139e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Vector__Float__MRVoxelId" kindref="compound">MR.Vector_Float_MRVoxelId</ref></type>
+        <definition>new unsafe MR.Vector_Float_MRVoxelId MR.SimpleVolumeMinMax.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="405" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="405" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SimpleVolumeMinMax_1a1d715afbd7b2e289d7a5f25a8c080e4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>new unsafe ref MR.Vector3i MR.SimpleVolumeMinMax.dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="407" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SimpleVolumeMinMax_1a7257fe2dd5b4f34afbaa0a757957f604" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.SimpleVolumeMinMax.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="409" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SimpleVolumeMinMax_1a328ae87e15f99470c262ca8292fd4b52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SimpleVolumeMinMax.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="411" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SimpleVolumeMinMax_1a42c2b6f5e28a5989e4d0fc4272980814" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SimpleVolumeMinMax.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="413" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="413" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1SimpleVolumeMinMax_1a7d23100be34e54522523bb6f38fa5507" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.SimpleVolumeMinMax.operator MR.SimpleVolume</definition>
+        <argsstring>(SimpleVolumeMinMax self)</argsstring>
+        <name>operator MR.SimpleVolume</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.operator MR.SimpleVolume</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="388" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="388" bodyend="395"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleVolumeMinMax_1a80511b3be1bfb2705c43727c32ea296f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.SimpleVolumeMinMax.operator MR.Box_Box1f</definition>
+        <argsstring>(SimpleVolumeMinMax self)</argsstring>
+        <name>operator MR.Box_Box1f</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.operator MR.Box_Box1f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="396" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="396" bodyend="403"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SimpleVolumeMinMax_1af39774abe3c86c12bb422bd4dd738f4a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SimpleVolumeMinMax.SimpleVolumeMinMax</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SimpleVolumeMinMax</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="432" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="432" bodyend="436"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SimpleVolumeMinMax_1a4819acbe631bef3605a2dc431ce71907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SimpleVolumeMinMax.SimpleVolumeMinMax</definition>
+        <argsstring>()</argsstring>
+        <name>SimpleVolumeMinMax</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="442" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="442" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleVolumeMinMax_1ab1d2c24213584ca0b2ea6545309ea911" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SimpleVolumeMinMax.SimpleVolumeMinMax</definition>
+        <argsstring>(MR._ByValue_SimpleVolumeMinMax _other)</argsstring>
+        <name>SimpleVolumeMinMax</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</qualifiedname>
+        <param>
+          <type>MR._ByValue_SimpleVolumeMinMax</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="453" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="453" bodyend="460"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleVolumeMinMax_1abb5c0e54b95410100866cf76a58476c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</definition>
+        <argsstring>(Const_SimpleVolumeMinMax _other)</argsstring>
+        <name>SimpleVolumeMinMax</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</qualifiedname>
+        <param>
+          <type>Const_SimpleVolumeMinMax</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="465" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="465" bodyend="465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleVolumeMinMax_1ab8565ab63a6e3ea603fbe1449275e4ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</definition>
+        <argsstring>(SimpleVolumeMinMax _other)</argsstring>
+        <name>SimpleVolumeMinMax</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SimpleVolumeMinMax.SimpleVolumeMinMax</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="470" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="470" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleVolumeMinMax_1a57b9395845a5c83fe7c50fe54cf89a72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref></type>
+        <definition>unsafe MR.SimpleVolumeMinMax MR.SimpleVolumeMinMax.assign</definition>
+        <argsstring>(MR._ByValue_SimpleVolumeMinMax _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_SimpleVolumeMinMax</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SimpleVolumeMinMax.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="475" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="475" bodyend="482"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleVolumeMinMax_1af9aeac3aa596ff28935aed59c300976c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></type>
+        <definition>unsafe ref MR.Box1f MR.SimpleVolumeMinMax.intersect</definition>
+        <argsstring>(in MR.Box1f b)</argsstring>
+        <name>intersect</name>
+        <qualifiedname>MR.SimpleVolumeMinMax.intersect</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1SimpleVolumeMinMax_1af9aeac3aa596ff28935aed59c300976c" kindref="member">MR.SimpleVolumeMinMax.intersect</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="487" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="487" bodyend="495"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels Generated from class <computeroutput><ref refid="classMR_1_1SimpleVolumeMinMax" kindref="compound">MR.SimpleVolumeMinMax</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1SimpleVolume" kindref="compound">MR.SimpleVolume</ref></computeroutput> <computeroutput><ref refid="structMR_1_1Box1f" kindref="compound">MR.Box1f</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SimpleVolumeMinMax</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SimpleVolumeMinMax</label>
+        <link refid="classMR_1_1SimpleVolumeMinMax"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SimpleVolumeMinMax &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Box1f &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SimpleVolumeMinMax</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SimpleVolumeMinMax</label>
+        <link refid="classMR_1_1SimpleVolumeMinMax"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SimpleVolumeMinMax &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Box1f &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="385" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="386" bodyend="496"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1a57b9395845a5c83fe7c50fe54cf89a72" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>assign</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1a020af3e0157de6ab3f2b42f2491e139e" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>data</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1a1d715afbd7b2e289d7a5f25a8c080e4c" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>dims</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1af9aeac3aa596ff28935aed59c300976c" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>intersect</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1a42c2b6f5e28a5989e4d0fc4272980814" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>max</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1a328ae87e15f99470c262ca8292fd4b52" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>min</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1a80511b3be1bfb2705c43727c32ea296f" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>operator MR.Box_Box1f</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1a7d23100be34e54522523bb6f38fa5507" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>operator MR.SimpleVolume</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1af39774abe3c86c12bb422bd4dd738f4a" prot="package" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>SimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1a4819acbe631bef3605a2dc431ce71907" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>SimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1ab1d2c24213584ca0b2ea6545309ea911" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>SimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1abb5c0e54b95410100866cf76a58476c0" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>SimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1ab8565ab63a6e3ea603fbe1449275e4ed" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>SimpleVolumeMinMax</name></member>
+      <member refid="classMR_1_1SimpleVolumeMinMax_1a7257fe2dd5b4f34afbaa0a757957f604" prot="public" virt="non-virtual"><scope>MR::SimpleVolumeMinMax</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

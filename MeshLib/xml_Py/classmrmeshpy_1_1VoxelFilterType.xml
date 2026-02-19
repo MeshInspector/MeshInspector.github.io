@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelFilterType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelFilterType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelFilterType_1aa9596b06bdea8c509609c6363cf87327" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelFilterType::Gaussian</definition>
+        <argsstring></argsstring>
+        <name>Gaussian</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.Gaussian</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VoxelFilterType" kindref="compound">VoxelFilterType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72879" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelFilterType_1a325c31e3ed621127332c6249cfbd37c4" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelFilterType::Mean</definition>
+        <argsstring></argsstring>
+        <name>Mean</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.Mean</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VoxelFilterType" kindref="compound">VoxelFilterType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72880" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelFilterType_1a36fde6b1fdb9df3aeeeff554e3d5e359" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelFilterType::Median</definition>
+        <argsstring></argsstring>
+        <name>Median</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.Median</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VoxelFilterType" kindref="compound">VoxelFilterType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72881" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelFilterType_1a8ef734a53f00678ae69785e5ff36c5e7" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelFilterType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1VoxelFilterType" kindref="compound">VoxelFilterType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72882" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1a377c4fe0548bb718f67cef3d0cc1382d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelFilterType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72883" bodyend="72884"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1a807a0c28f36d685323771f5f24ef1d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelFilterType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72885" bodyend="72886"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1a76aa3f478f09e8d87cc517c58bc189e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelFilterType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72887" bodyend="72888"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1a5dd38766f7f788dd343a8ee7f3eda40c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelFilterType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72889" bodyend="72890"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1ab35c3c8601c2b8f6989972a4a56dd696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelFilterType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72891" bodyend="72892"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1ab2958e1ccea46c13ed30f5fbc3c9d0ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelFilterType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72893" bodyend="72894"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1aa6cdb100254a9ccfd1b3d3b8ba19d00f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VoxelFilterType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72895" bodyend="72896"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1a45eb7fe8097a331fdca6dd3f6961a365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VoxelFilterType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72897" bodyend="72898"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1acff8314e595c8e380f915d37f0247d37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelFilterType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72899" bodyend="72900"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1a27ce04260c27d7b98969f1d97d9543b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VoxelFilterType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72901" bodyend="72902"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1a41d218acd9470f46e4cda717b079c19f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VoxelFilterType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72904" bodyend="72905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelFilterType_1a07514afed911a544f0729c865d79771d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelFilterType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.VoxelFilterType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72907" bodyend="72908"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Median
+
+  Mean
+
+  Gaussian
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelFilterType</label>
+        <link refid="classmrmeshpy_1_1VoxelFilterType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Gaussian</edgelabel>
+          <edgelabel>Mean</edgelabel>
+          <edgelabel>Median</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72869" bodyend="72908"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a377c4fe0548bb718f67cef3d0cc1382d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a807a0c28f36d685323771f5f24ef1d00" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a76aa3f478f09e8d87cc517c58bc189e9" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a5dd38766f7f788dd343a8ee7f3eda40c" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1ab35c3c8601c2b8f6989972a4a56dd696" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1ab2958e1ccea46c13ed30f5fbc3c9d0ab" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a8ef734a53f00678ae69785e5ff36c5e7" prot="private" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1aa6cdb100254a9ccfd1b3d3b8ba19d00f" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a45eb7fe8097a331fdca6dd3f6961a365" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1acff8314e595c8e380f915d37f0247d37" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a27ce04260c27d7b98969f1d97d9543b6" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1aa9596b06bdea8c509609c6363cf87327" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>Gaussian</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a325c31e3ed621127332c6249cfbd37c4" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>Mean</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a36fde6b1fdb9df3aeeeff554e3d5e359" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>Median</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a41d218acd9470f46e4cda717b079c19f" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1VoxelFilterType_1a07514afed911a544f0729c865d79771d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelFilterType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

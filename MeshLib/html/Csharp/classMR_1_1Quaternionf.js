@@ -2,6 +2,7 @@ var classMR_1_1Quaternionf =
 [
     [ "Quaternionf", "classMR_1_1Quaternionf.html#a7e353f8d18f2672c96a412a8667cc258", null ],
     [ "Quaternionf", "classMR_1_1Quaternionf.html#abb24a7c6daaab950f7e699df2dcd7a9c", null ],
+    [ "Quaternionf", "classMR_1_1Quaternionf.html#a733dc7c51429998b18bda3783c0f5720", null ],
     [ "Quaternionf", "classMR_1_1Quaternionf.html#aeb0668f153bcba1c234c288279a86bff", null ],
     [ "Quaternionf", "classMR_1_1Quaternionf.html#aaa82bd5bb0a317e941b5b6cd292b17f2", null ],
     [ "Quaternionf", "classMR_1_1Quaternionf.html#a1400ed3736d1f675bde151d8c624d310", null ],
@@ -14,5 +15,6 @@ var classMR_1_1Quaternionf =
     [ "Quaternionf", "classMR_1_1Quaternionf.html#a1c71ef6bdee5037714588390f70a211a", null ],
     [ "a", "classMR_1_1Quaternionf.html#a1c8eb5a31f7c3065dbae7281fa403fac", null ],
     [ "b", "classMR_1_1Quaternionf.html#aa3b5180256e698ab23cbbe1108db7608", null ],
-    [ "c", "classMR_1_1Quaternionf.html#ab1a919c14244077ed44ac7b458ae5060", null ]
+    [ "c", "classMR_1_1Quaternionf.html#ab1a919c14244077ed44ac7b458ae5060", null ],
+    [ "d", "classMR_1_1Quaternionf.html#ab8292b981d0b4697b9cbc6d5e44b604a", null ]
 ];

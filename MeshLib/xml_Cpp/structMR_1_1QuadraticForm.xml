@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1QuadraticForm" kind="struct" language="C++" prot="public">
+    <compoundname>MR::QuadraticForm</compoundname>
+    <includes refid="MRQuadraticForm_8h" local="no">MRQuadraticForm.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga040faabf3a0fafc7f0a8afadd3108d2a" kind="typedef"><name>T</name></member>
+      <member refid="group__GeneralGroup_1gadea6aa750372ae79cb7d305a5f939f50" kind="typedef"><name>SM</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaaa0e315bd432a25ff55c9f30b926ffda" kind="variable"><name>A</name></member>
+      <member refid="group__GeneralGroup_1ga0b59f3e15f491ff0d64f1121a8b0a463" kind="variable"><name>c</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gab0c3bc061463b886469241c7c3b17cd2" kind="function"><name>eval</name></member>
+      <member refid="group__GeneralGroup_1ga4612e1bf2a83cf9f8c04bcffd05b8be0" kind="function"><name>addDistToOrigin</name></member>
+      <member refid="group__GeneralGroup_1gabd84de324207ec889e01f594968dd8a1" kind="function"><name>addDistToPlane</name></member>
+      <member refid="group__GeneralGroup_1gafacdc7d86d21e277ea2c254a90c29b61" kind="function"><name>addDistToPlane</name></member>
+      <member refid="group__GeneralGroup_1gaa22182ab842edbfd36369edae2063b3c" kind="function"><name>addDistToLine</name></member>
+      <member refid="group__GeneralGroup_1ga6aa8242b430ea2a8b0c65ac776f01e69" kind="function"><name>addDistToLine</name></member>
+    </sectiondef>
+    <sectiondef kind="related">
+      <member refid="group__GeneralGroup_1ga613642585592285c402e51d9af48651a" kind="function"><name>sum</name></member>
+      <member refid="group__GeneralGroup_1gae2db52d249d73990155ac0aee19ecdf7" kind="function"><name>sumAt</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>quadratic form: f = x^T A x + c </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuadraticForm.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuadraticForm.h" bodystart="16" bodyend="36"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaaa0e315bd432a25ff55c9f30b926ffda" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>A</name></member>
+      <member refid="group__GeneralGroup_1gaa22182ab842edbfd36369edae2063b3c" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>addDistToLine</name></member>
+      <member refid="group__GeneralGroup_1ga6aa8242b430ea2a8b0c65ac776f01e69" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>addDistToLine</name></member>
+      <member refid="group__GeneralGroup_1ga4612e1bf2a83cf9f8c04bcffd05b8be0" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>addDistToOrigin</name></member>
+      <member refid="group__GeneralGroup_1gabd84de324207ec889e01f594968dd8a1" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>addDistToPlane</name></member>
+      <member refid="group__GeneralGroup_1gafacdc7d86d21e277ea2c254a90c29b61" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>addDistToPlane</name></member>
+      <member refid="group__GeneralGroup_1ga0b59f3e15f491ff0d64f1121a8b0a463" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>c</name></member>
+      <member refid="group__GeneralGroup_1gab0c3bc061463b886469241c7c3b17cd2" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>eval</name></member>
+      <member refid="group__GeneralGroup_1gadea6aa750372ae79cb7d305a5f939f50" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>SM</name></member>
+      <member refid="group__GeneralGroup_1ga613642585592285c402e51d9af48651a" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>sum</name></member>
+      <member refid="group__GeneralGroup_1gae2db52d249d73990155ac0aee19ecdf7" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>sumAt</name></member>
+      <member refid="group__GeneralGroup_1ga040faabf3a0fafc7f0a8afadd3108d2a" prot="public" virt="non-virtual"><scope>MR::QuadraticForm</scope><name>T</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

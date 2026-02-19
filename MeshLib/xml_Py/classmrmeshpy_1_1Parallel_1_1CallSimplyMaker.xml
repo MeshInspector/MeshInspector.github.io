@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Parallel::CallSimplyMaker</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a2d8f9a7ca96eb1cc269fecce0dd9494b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Parallel.CallSimplyMaker.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Parallel.CallSimplyMaker.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42331" bodyend="42332"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1aa717102b149209825f820469de336a37" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker" kindref="compound">Parallel.CallSimplyMaker</ref></type>
+        <definition> Parallel.CallSimplyMaker mrmeshpy.Parallel.CallSimplyMaker.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Parallel.CallSimplyMaker.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42335" bodyend="42336"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1aa717102b149209825f820469de336a37" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker" kindref="compound">Parallel.CallSimplyMaker</ref></type>
+        <definition> Parallel.CallSimplyMaker mrmeshpy.Parallel.CallSimplyMaker.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Parallel.CallSimplyMaker.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42339" bodyend="42340"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a30834b30bd288b1594d860b339105d25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Parallel_1_1CallSimply" kindref="compound">Parallel.CallSimply</ref></type>
+        <definition> Parallel.CallSimply mrmeshpy.Parallel.CallSimplyMaker.__call__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.Parallel.CallSimplyMaker.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42341" bodyend="42342"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a10e90f3d3cd159a121af70c2b1d53b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Parallel.CallSimplyMaker.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Parallel.CallSimplyMaker.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42344" bodyend="42345"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a4a6b959193ee98483737600396e0bfcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Parallel.CallSimplyMaker.__init__</definition>
+        <argsstring>(self, Parallel.CallSimplyMaker arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Parallel.CallSimplyMaker.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker" kindref="compound">Parallel.CallSimplyMaker</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42347" bodyend="42350"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a10e90f3d3cd159a121af70c2b1d53b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Parallel.CallSimplyMaker.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Parallel.CallSimplyMaker.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42352" bodyend="42355"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Parallel::CallSimplyMaker
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42325" bodyend="42355"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a30834b30bd288b1594d860b339105d25" prot="public" virt="non-virtual"><scope>mrmeshpy::Parallel::CallSimplyMaker</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a2d8f9a7ca96eb1cc269fecce0dd9494b" prot="public" virt="non-virtual"><scope>mrmeshpy::Parallel::CallSimplyMaker</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a10e90f3d3cd159a121af70c2b1d53b35" prot="public" virt="non-virtual"><scope>mrmeshpy::Parallel::CallSimplyMaker</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a4a6b959193ee98483737600396e0bfcf" prot="public" virt="non-virtual"><scope>mrmeshpy::Parallel::CallSimplyMaker</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1a10e90f3d3cd159a121af70c2b1d53b35" prot="public" virt="non-virtual"><scope>mrmeshpy::Parallel::CallSimplyMaker</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1aa717102b149209825f820469de336a37" prot="public" virt="non-virtual"><scope>mrmeshpy::Parallel::CallSimplyMaker</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Parallel_1_1CallSimplyMaker_1aa717102b149209825f820469de336a37" prot="public" virt="non-virtual"><scope>mrmeshpy::Parallel::CallSimplyMaker</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

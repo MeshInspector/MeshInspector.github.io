@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsVolumeInterpolatedAccessor" kind="class" language="C++" prot="public">
+    <compoundname>MR::VoxelsVolumeInterpolatedAccessor</compoundname>
+    <includes refid="MRVolumeInterpolation_8h" local="no">MRVolumeInterpolation.h</includes>
+    <innerclass refid="structMR_1_1VoxelsVolumeInterpolatedAccessor_1_1IndexAndPos" prot="private">MR::VoxelsVolumeInterpolatedAccessor::IndexAndPos</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename Accessor</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gab8d79139c35fd5b34335c70d5386092b" kind="typedef"><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1gacebd7576c606ef11e6aef5d6c22f32f2" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gad02ea1dd14a101ea344b0c6fdd35b894" kind="variable"><name>volume_</name></member>
+      <member refid="group__GeneralGroup_1ga9c4ab57d855d2931b1f65aa6f6ef216e" kind="variable"><name>accessor_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga965961c945f7d3afefa9fb6cddbb33bf" kind="function"><name>VoxelsVolumeInterpolatedAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga7ea20698a29d677a3d786e93534d057e" kind="function"><name>VoxelsVolumeInterpolatedAccessor</name></member>
+      <member refid="group__GeneralGroup_1gadb692ad74a5bd93073dd795e695edf60" kind="function"><name>VoxelsVolumeInterpolatedAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga831f5621f04fe15b891a1d7a2dc755d6" kind="function"><name>get</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga7f9928bd6448b2755ad2844a82832d3b" kind="function"><name>getIndexAndPos</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>helper class for generalized access to voxel volume data with trilinear interpolation coordinate: 0 voxelSize | | I<mdash/>*<mdash/>I<mdash/>*<mdash/>I<mdash/> | | | value: [0] [1] [2] ... note: this class is as thread-safe as the underlying Accessor e.g. <ref refid="classMR_1_1VoxelsVolumeAccessor_3_01VdbVolume_01_4" kindref="compound">VoxelsVolumeAccessor&lt;VdbVolume&gt;</ref> is not thread-safe (but several instances on same volume is thread-safe) </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVolumeInterpolation.h" bodystart="21" bodyend="88"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga9c4ab57d855d2931b1f65aa6f6ef216e" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>accessor_</name></member>
+      <member refid="group__GeneralGroup_1ga831f5621f04fe15b891a1d7a2dc755d6" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga7f9928bd6448b2755ad2844a82832d3b" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>getIndexAndPos</name></member>
+      <member refid="group__GeneralGroup_1gacebd7576c606ef11e6aef5d6c22f32f2" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1gad02ea1dd14a101ea344b0c6fdd35b894" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>volume_</name></member>
+      <member refid="group__GeneralGroup_1gab8d79139c35fd5b34335c70d5386092b" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1ga965961c945f7d3afefa9fb6cddbb33bf" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>VoxelsVolumeInterpolatedAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga7ea20698a29d677a3d786e93534d057e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>VoxelsVolumeInterpolatedAccessor</name></member>
+      <member refid="group__GeneralGroup_1gadb692ad74a5bd93073dd795e695edf60" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeInterpolatedAccessor</scope><name>VoxelsVolumeInterpolatedAccessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

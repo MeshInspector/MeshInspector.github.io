@@ -1,8 +1,19 @@
 var classMR_1_1VoxelsLoad =
 [
-    [ "VoxelsLoader", "../Cpp/namespaceMR_1_1VoxelsLoad.html#ac95950f875729ac15c011d99d4624d96", null ],
-    [ "DicomStatusEnum", "../Cpp/namespaceMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6", null ],
-    [ "GridType", "../Cpp/namespaceMR_1_1VoxelsLoad.html#a5a3e4b96e9ddb9678f554fe8a8d56a19", null ],
+    [ "DicomStatus", "classMR_1_1VoxelsLoad_1_1DicomStatus.html", "classMR_1_1VoxelsLoad_1_1DicomStatus" ],
+    [ "DicomVolume", "classMR_1_1VoxelsLoad_1_1DicomVolume.html", "classMR_1_1VoxelsLoad_1_1DicomVolume" ],
+    [ "DicomVolumeAsVdb", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb.html", "classMR_1_1VoxelsLoad_1_1DicomVolumeAsVdb" ],
+    [ "LoadingTiffSettings", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings.html", "classMR_1_1VoxelsLoad_1_1LoadingTiffSettings" ],
+    [ "RawParameters", "classMR_1_1VoxelsLoad_1_1RawParameters.html", "classMR_1_1VoxelsLoad_1_1RawParameters" ],
+    [ "DicomStatusEnum", "classMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6", [
+      [ "Ok", "classMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6aa60852f204ed8028c1c58808b746d115", null ],
+      [ "Invalid", "classMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6a4bbb8f967da6d1a610596d7257179c2b", null ],
+      [ "Unsupported", "classMR_1_1VoxelsLoad.html#a4877b5ea79a241234ef88b527edc08e6ab4080bdf74febf04d578ff105cce9d3f", null ]
+    ] ],
+    [ "GridType", "classMR_1_1VoxelsLoad.html#af64deb00cdf3c350831376933237e335", [
+      [ "DenseGrid", "classMR_1_1VoxelsLoad.html#af64deb00cdf3c350831376933237e335add8e62e5509837aab18087d15bd5b8c7", null ],
+      [ "LevelSet", "classMR_1_1VoxelsLoad.html#af64deb00cdf3c350831376933237e335af75f97f8f1058acd62c93bf29de9f49e", null ]
+    ] ],
     [ "createObjectVoxels", "classMR_1_1VoxelsLoad.html#a622c95726333ec68a788191e4f69b3b5", null ],
     [ "findDicomFoldersRecursively", "classMR_1_1VoxelsLoad.html#a4712b0e40fa9832c74bff26290225549", null ],
     [ "findRawParameters", "classMR_1_1VoxelsLoad.html#a73061b630e4a1d31327cc2fe1b42f7bd", null ],

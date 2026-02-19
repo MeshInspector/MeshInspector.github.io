@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1LinesLoad_1_1LinesLoader" kind="struct" language="C++" prot="public">
+    <compoundname>MR::LinesLoad::LinesLoader</compoundname>
+    <includes refid="MRIOFormatsRegistry_8h" local="no">MRIOFormatsRegistry.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1LinesLoad_1_1LinesLoader_1a6a9ab889c0e193730868448ce28334e3" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1LinesLoad_1a90da90447771026ea69eb4b7e8a2c5af" kindref="member">LinesFileLoader</ref></type>
+        <definition>LinesFileLoader MR::LinesLoad::LinesLoader::fileLoad</definition>
+        <argsstring></argsstring>
+        <name>fileLoad</name>
+        <qualifiedname>MR::LinesLoad::LinesLoader::fileLoad</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="207" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="207" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1LinesLoad_1_1LinesLoader_1a826687e61ead645d166e147717449224" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1LinesLoad_1a8ba03f82b986b90262ac83290496a441" kindref="member">LinesStreamLoader</ref></type>
+        <definition>LinesStreamLoader MR::LinesLoad::LinesLoader::streamLoad</definition>
+        <argsstring></argsstring>
+        <name>streamLoad</name>
+        <qualifiedname>MR::LinesLoad::LinesLoader::streamLoad</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="208" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="208" bodyend="208"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::LinesLoad::LinesLoader</label>
+        <link refid="structMR_1_1LinesLoad_1_1LinesLoader"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fileLoad</edgelabel>
+          <edgelabel>streamLoad</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::LinesLoadSettings</label>
+        <link refid="structMR_1_1LinesLoadSettings"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="206" bodyend="209"/>
+    <listofallmembers>
+      <member refid="structMR_1_1LinesLoad_1_1LinesLoader_1a6a9ab889c0e193730868448ce28334e3" prot="public" virt="non-virtual"><scope>MR::LinesLoad::LinesLoader</scope><name>fileLoad</name></member>
+      <member refid="structMR_1_1LinesLoad_1_1LinesLoader_1a826687e61ead645d166e147717449224" prot="public" virt="non-virtual"><scope>MR::LinesLoad::LinesLoader</scope><name>streamLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

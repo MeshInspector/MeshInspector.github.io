@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PolylineIntersectionResult2" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PolylineIntersectionResult2</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineIntersectionResult2_1aed3f96b0e5c361baf593fc278b8f2ad9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineIntersectionResult2::_offsetof_distanceAlongLine</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distanceAlongLine</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2._offsetof_distanceAlongLine</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46505" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineIntersectionResult2_1a2bdda116280bae2ae14f1c3a94f97f28" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineIntersectionResult2::_offsetof_edgePoint</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgePoint</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2._offsetof_edgePoint</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46506" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1a32e55e207101d2b8d514b8bfb55944ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineIntersectionResult2.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46509" bodyend="46510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1a726102f5357b843bd00ae70c7ca89c49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineIntersectionResult2" kindref="compound">PolylineIntersectionResult2</ref></type>
+        <definition> PolylineIntersectionResult2 mrmeshpy.PolylineIntersectionResult2.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46513" bodyend="46514"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1a726102f5357b843bd00ae70c7ca89c49" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineIntersectionResult2" kindref="compound">PolylineIntersectionResult2</ref></type>
+        <definition> PolylineIntersectionResult2 mrmeshpy.PolylineIntersectionResult2.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46517" bodyend="46518"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1a3cd0e5dbae9be5bc408c038bc1a7de47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineIntersectionResult2.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46520" bodyend="46521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1ada1b29ddae40bd7cfe558a81f881a347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineIntersectionResult2.__init__</definition>
+        <argsstring>(self, PolylineIntersectionResult2 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineIntersectionResult2" kindref="compound">PolylineIntersectionResult2</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46523" bodyend="46526"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1a376c6d39f073e73d8ed4e4ddb4e3bcf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineIntersectionResult2.__init__</definition>
+        <argsstring>(self, EdgePoint edgePoint, float distanceAlongLine)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>edgePoint</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distanceAlongLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46528" bodyend="46531"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1ace7ec59f05530912987475e29a6236db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PolylineIntersectionResult2.distanceAlongLine</definition>
+        <argsstring>(self)</argsstring>
+        <name>distanceAlongLine</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.distanceAlongLine</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>stores the distance from ray origin to the intersection point in direction units
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46533" bodyend="46536"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1ad465299235b4d28aa7fb6a9a0eb1792c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineIntersectionResult2.distanceAlongLine</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>distanceAlongLine</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.distanceAlongLine</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46538" bodyend="46539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1a5e0242ce369caf481e34b0c7a326f34e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition> EdgePoint mrmeshpy.PolylineIntersectionResult2.edgePoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.edgePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>intersection point in polyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46541" bodyend="46544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineIntersectionResult2_1a5b847509bd68758e9d8acbed7091e868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineIntersectionResult2.edgePoint</definition>
+        <argsstring>(self, EdgePoint arg1)</argsstring>
+        <name>edgePoint</name>
+        <qualifiedname>mrmeshpy.PolylineIntersectionResult2.edgePoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46546" bodyend="46547"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PolylineIntersectionResult2
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PolylineIntersectionResult2</label>
+        <link refid="classmrmeshpy_1_1PolylineIntersectionResult2"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_distanceAlongLine</edgelabel>
+          <edgelabel>_offsetof_edgePoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46501" bodyend="46547"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1a32e55e207101d2b8d514b8bfb55944ab" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1a3cd0e5dbae9be5bc408c038bc1a7de47" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1ada1b29ddae40bd7cfe558a81f881a347" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1a376c6d39f073e73d8ed4e4ddb4e3bcf2" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1aed3f96b0e5c361baf593fc278b8f2ad9" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>_offsetof_distanceAlongLine</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1a2bdda116280bae2ae14f1c3a94f97f28" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>_offsetof_edgePoint</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1ace7ec59f05530912987475e29a6236db" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>distanceAlongLine</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1ad465299235b4d28aa7fb6a9a0eb1792c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>distanceAlongLine</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1a5e0242ce369caf481e34b0c7a326f34e" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>edgePoint</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1a5b847509bd68758e9d8acbed7091e868" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>edgePoint</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1a726102f5357b843bd00ae70c7ca89c49" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineIntersectionResult2_1a726102f5357b843bd00ae70c7ca89c49" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineIntersectionResult2</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__ViewportGroup" kind="group">
+    <compoundname>ViewportGroup</compoundname>
+    <title>Viewport group</title>
+    <innerclass refid="classMR_1_1ViewportId" prot="public">MR::ViewportId</innerclass>
+    <innerclass refid="classMR_1_1ViewportMask" prot="public">MR::ViewportMask</innerclass>
+    <innerclass refid="classMR_1_1ViewportIterator" prot="public">MR::ViewportIterator</innerclass>
+    <innerclass refid="classMR_1_1ViewportProperty" prot="public">MR::ViewportProperty</innerclass>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__ViewportGroup_1gaab3f3280e9df3ad6b0ae88ee01f28286" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ViewportMask</type>
+        <definition>ViewportMask MR::operator&amp;</definition>
+        <argsstring>(ViewportMask a, ViewportMask b)</argsstring>
+        <name>operator&amp;</name>
+        <qualifiedname>MR::operator&amp;</qualifiedname>
+        <param>
+          <type>ViewportMask</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>ViewportMask</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="76" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="76" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ViewportGroup_1gabc80e75ed1756980334b13665ea42344" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ViewportMask</type>
+        <definition>ViewportMask MR::operator|</definition>
+        <argsstring>(ViewportMask a, ViewportMask b)</argsstring>
+        <name>operator|</name>
+        <qualifiedname>MR::operator|</qualifiedname>
+        <param>
+          <type>ViewportMask</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>ViewportMask</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="77" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ViewportGroup_1gaefee0d59ab69eba812d054ae095e3d80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ViewportMask</type>
+        <definition>ViewportMask MR::operator^</definition>
+        <argsstring>(ViewportMask a, ViewportMask b)</argsstring>
+        <name>operator^</name>
+        <qualifiedname>MR::operator^</qualifiedname>
+        <param>
+          <type>ViewportMask</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>ViewportMask</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="78" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="78" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ViewportGroup_1gad7fc835e45667ebc9f94383d5f5965c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::operator==</definition>
+        <argsstring>(const ViewportIterator &amp;a, const ViewportIterator &amp;b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::operator==</qualifiedname>
+        <param>
+          <type>const ViewportIterator &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const ViewportIterator &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="119" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="119" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ViewportGroup_1ga9ae1fa58375f92080d1a1546f2c43660" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::begin</definition>
+        <argsstring>(ViewportMask mask)</argsstring>
+        <name>begin</name>
+        <qualifiedname>MR::begin</qualifiedname>
+        <param>
+          <type>ViewportMask</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="122" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="122" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ViewportGroup_1gab1b9c0765f511f096bad80c6f11d728d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::end</definition>
+        <argsstring>(ViewportMask)</argsstring>
+        <name>end</name>
+        <qualifiedname>MR::end</qualifiedname>
+        <param>
+          <type>ViewportMask</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" line="124" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRViewportId.h" bodystart="124" bodyend="125"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

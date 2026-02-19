@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ImGuiMeasurementIndicators::Text</compoundname>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" prot="public">MR::ImGuiMeasurementIndicators::Text::DrawResult</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" prot="public">MR::ImGuiMeasurementIndicators::Text::Elem</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" prot="public">MR::ImGuiMeasurementIndicators::Text::Line</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae831e755d5fa4e114cf8d2eaef532bdc" prot="public" static="no">
+        <type>std::variant&lt; std::string, <ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ada21c38059140ab54d2c729c198e39f4" kindref="member">TextIcon</ref>, <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" kindref="compound">TextColor</ref>, <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" kindref="compound">TextFont</ref> &gt;</type>
+        <definition>using MR::ImGuiMeasurementIndicators::Text::ElemVar =  std::variant&lt;std::string, TextIcon, TextColor, TextFont&gt;</definition>
+        <argsstring></argsstring>
+        <name>ElemVar</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::ElemVar</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="134" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" prot="public" static="no">
+        <type>std::function&lt; FontAndSize()&gt;</type>
+        <definition>using MR::ImGuiMeasurementIndicators::Text::FontFunc =  std::function&lt;FontAndSize()&gt;</definition>
+        <argsstring></argsstring>
+        <name>FontFunc</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::FontFunc</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="192" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="192" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a99ca3155588713524843ad362ebdf8c4" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" kindref="compound">Line</ref> &gt;</type>
+        <definition>std::vector&lt;Line&gt; MR::ImGuiMeasurementIndicators::Text::lines</definition>
+        <argsstring></argsstring>
+        <name>lines</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::lines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="183" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa7fcd623acda48ca1c6a59341f2fdaae" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMeasurementIndicators::Text::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The text size for alignment. Unlike <computeroutput>size</computeroutput> in other elements below, this isn&apos;t the minimum size. If this is zero, <computeroutput>align</computeroutput> will pivot the text around a point, as opposed to in a box (the math for this just happens to work automatically). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="187" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="187" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1af8b5e638410d87130b72445eb3a009cd" prot="public" static="no" mutable="no">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMeasurementIndicators::Text::align</definition>
+        <argsstring></argsstring>
+        <name>align</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::align</qualifiedname>
+        <briefdescription>
+<para>Alignment. [0,0] = top-left, [1,1] = bottom-right. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="190" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" prot="public" static="no" mutable="no">
+        <type>FontAndSize</type>
+        <definition>FontAndSize MR::ImGuiMeasurementIndicators::Text::defaultFont</definition>
+        <argsstring></argsstring>
+        <name>defaultFont</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::defaultFont</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" kindref="member">getStaticDefaultFontFunc</ref>()()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If null, uses the current font. Currently this defaults to a monospaced font. This is here because <computeroutput><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a8aa43d24ada469bdbb77f5444b4e6f64" kindref="member">update()</ref></computeroutput> needs to know the font too. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="199" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="199" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ada8abd512f2564b6e933ba4332bdce0c" prot="public" static="no" mutable="yes">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMeasurementIndicators::Text::computedSize</definition>
+        <argsstring></argsstring>
+        <name>computedSize</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::computedSize</qualifiedname>
+        <briefdescription>
+<para>The computed content size. Read-only. Don&apos;t set manually, <computeroutput><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a8aa43d24ada469bdbb77f5444b4e6f64" kindref="member">update()</ref></computeroutput> sets this. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="202" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="202" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ad91ba5b259552f2af641bf94826eeea1" prot="public" static="no" mutable="yes">
+        <type>bool</type>
+        <definition>bool MR::ImGuiMeasurementIndicators::Text::dirty</definition>
+        <argsstring></argsstring>
+        <name>dirty</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::dirty</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>No <computeroutput>computedSizeWithPadding</computeroutput>, because for the entire <computeroutput><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kindref="compound">Text</ref></computeroutput> we use <computeroutput>size</computeroutput> exactly, without <computeroutput>max( size, computedSize )</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="206" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="206" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" kindref="member">FontFunc</ref> &amp;</type>
+        <definition>static MRVIEWER_API const FontFunc &amp; MR::ImGuiMeasurementIndicators::Text::getStaticDefaultFontFunc</definition>
+        <argsstring>()</argsstring>
+        <name>getStaticDefaultFontFunc</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::getStaticDefaultFontFunc</qualifiedname>
+        <briefdescription>
+<para>Get the default value for <computeroutput>.defaultFont</computeroutput>. This can be null to default to null, which means the current font. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="194" column="41"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa9520cc4aa1cb7fd1b95f885bedd6ce9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>static MRVIEWER_API void MR::ImGuiMeasurementIndicators::Text::setStaticDefaultFontFunc</definition>
+        <argsstring>(FontFunc func)</argsstring>
+        <name>setStaticDefaultFontFunc</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::setStaticDefaultFontFunc</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" kindref="member">FontFunc</ref></type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="195" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a58f5f1024004e4faebc6f17c3c1ef67f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ImGuiMeasurementIndicators::Text::Text</definition>
+        <argsstring>()</argsstring>
+        <name>Text</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::Text</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="208" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="208" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe015e8f2eefbaf7c0afec0d91912ec8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ImGuiMeasurementIndicators::Text::Text</definition>
+        <argsstring>(const std::string &amp;text)</argsstring>
+        <name>Text</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::Text</qualifiedname>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="209" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="209" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a629379b7e42a90a23d538c774cd11c2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ImGuiMeasurementIndicators::Text::Text</definition>
+        <argsstring>(std::string_view text)</argsstring>
+        <name>Text</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::Text</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="210" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="210" bodyend="210"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ab1361eb667fc891d6ee87e93a3ff37e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::ImGuiMeasurementIndicators::Text::Text</definition>
+        <argsstring>(const char *text)</argsstring>
+        <name>Text</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::Text</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="211" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="211" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1acc827ec3aa0ec6711b73aaca7693bc19" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::ImGuiMeasurementIndicators::Text::isEmpty</definition>
+        <argsstring>() const</argsstring>
+        <name>isEmpty</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::isEmpty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="213" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="213" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a9f1e9dff1758efb4b2feb981f5c49862" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ImGuiMeasurementIndicators::Text::addLine</definition>
+        <argsstring>()</argsstring>
+        <name>addLine</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::addLine</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Add an empty string to force some vertical size on empty lines.</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="215" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="215" bodyend="220"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a16a77f943f36900d87a81cd083b8b160" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ImGuiMeasurementIndicators::Text::addText</definition>
+        <argsstring>(std::string_view text)</argsstring>
+        <name>addText</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::addText</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+<para>Adds some string to the text. Automatically splits by newlines. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="223" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a2336292a36c4f80334c9d987104aa00a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ImGuiMeasurementIndicators::Text::addElem</definition>
+        <argsstring>(Elem elem)</argsstring>
+        <name>addElem</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::addElem</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" kindref="compound">Elem</ref></type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A low-level function for adding layout elements. For strings prefer <computeroutput><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a16a77f943f36900d87a81cd083b8b160" kindref="member">addText()</ref></computeroutput>. This function doesn&apos;t automatically split them by newlines, and so on. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="227" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="227" bodyend="233"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe8531c1f5fdb8d1d8d3a8d69a64d2b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::ImGuiMeasurementIndicators::Text::add</definition>
+        <argsstring>(auto &amp;&amp;elem)</argsstring>
+        <name>add</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::add</qualifiedname>
+        <param>
+          <type>auto &amp;&amp;</type>
+          <declname>elem</declname>
+        </param>
+        <briefdescription>
+<para>Adds any element type of <computeroutput>ElemVar</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="236" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="236" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a8aa43d24ada469bdbb77f5444b4e6f64" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::ImGuiMeasurementIndicators::Text::update</definition>
+        <argsstring>(bool force=false) const</argsstring>
+        <name>update</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::update</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>force</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Recalculate <computeroutput>computedSize</computeroutput> in various places in this class. If <computeroutput>force == false</computeroutput>, only acts if <computeroutput>dirty == true</computeroutput>. In any case, resets the dirty flag. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="243" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6dedcdba15318604b248ac2919340473" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" kindref="compound">DrawResult</ref></type>
+        <definition>MRVIEWER_API DrawResult MR::ImGuiMeasurementIndicators::Text::draw</definition>
+        <argsstring>(ImDrawList &amp;list, ImVec2 pos, const TextColor &amp;defaultTextColor={}) const</argsstring>
+        <name>draw</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Text::draw</qualifiedname>
+        <param>
+          <type>ImDrawList &amp;</type>
+          <declname>list</declname>
+        </param>
+        <param>
+          <type>ImVec2</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" kindref="compound">TextColor</ref> &amp;</type>
+          <declname>defaultTextColor</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Draws the text to the specified draw list. Automatically calls <computeroutput><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a8aa43d24ada469bdbb77f5444b4e6f64" kindref="member">update()</ref></computeroutput>. If <computeroutput>defaultTextColor</computeroutput> is not specified, takes it from <ref refid="namespaceImGui" kindref="compound">ImGui</ref>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="253" column="29"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Represents an arbitrary block of text, possibly with icons, colors, etc. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="133" bodyend="254"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe8531c1f5fdb8d1d8d3a8d69a64d2b5" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>add</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a2336292a36c4f80334c9d987104aa00a" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>addElem</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a9f1e9dff1758efb4b2feb981f5c49862" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>addLine</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a16a77f943f36900d87a81cd083b8b160" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>addText</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1af8b5e638410d87130b72445eb3a009cd" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>align</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ada8abd512f2564b6e933ba4332bdce0c" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>computedSize</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>defaultFont</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ad91ba5b259552f2af641bf94826eeea1" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>dirty</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6dedcdba15318604b248ac2919340473" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>draw</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae831e755d5fa4e114cf8d2eaef532bdc" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>ElemVar</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>FontFunc</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>getStaticDefaultFontFunc</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1acc827ec3aa0ec6711b73aaca7693bc19" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>isEmpty</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a99ca3155588713524843ad362ebdf8c4" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>lines</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa9520cc4aa1cb7fd1b95f885bedd6ce9" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>setStaticDefaultFontFunc</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa7fcd623acda48ca1c6a59341f2fdaae" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>size</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a58f5f1024004e4faebc6f17c3c1ef67f" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>Text</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe015e8f2eefbaf7c0afec0d91912ec8" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>Text</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a629379b7e42a90a23d538c774cd11c2b" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>Text</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ab1361eb667fc891d6ee87e93a3ff37e9" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>Text</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a8aa43d24ada469bdbb77f5444b4e6f64" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Text</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

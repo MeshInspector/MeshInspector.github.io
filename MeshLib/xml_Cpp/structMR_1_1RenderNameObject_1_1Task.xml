@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RenderNameObject_1_1Task" kind="struct" language="C++" prot="private">
+    <compoundname>MR::RenderNameObject::Task</compoundname>
+    <basecompoundref refid="classMR_1_1BasicClickableRectUiRenderTask" prot="public" virt="non-virtual">MR::BasicClickableRectUiRenderTask</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad0dded6f176c6edf2711fabdeb217a5d" kind="variable"><name>object</name></member>
+      <member refid="group__GeneralGroup_1ga5549735766833f3928cb969df8aff806" kind="variable"><name>params</name></member>
+      <member refid="group__GeneralGroup_1ga7bcbbabe3659dea6e3ae51bd43e4aee4" kind="variable"><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga3000f727b32a23379d6c293f059be327" kind="variable"><name>point2</name></member>
+      <member refid="group__GeneralGroup_1gaf8502e3838f3524f69674c49a793cb9a" kind="variable"><name>textCenter</name></member>
+      <member refid="group__GeneralGroup_1ga77e2a37679634cb49bd045efd0ab64d0" kind="variable"><name>text</name></member>
+      <member refid="group__GeneralGroup_1gaad69a66d944583d4c0dfa59ecd5ff583" kind="variable"><name>textPos</name></member>
+      <member refid="group__GeneralGroup_1ga760ca30fd51a54481c7ff9f32ab09a61" kind="variable"><name>paddingA</name></member>
+      <member refid="group__GeneralGroup_1gad601eee7f18d7b7a34a2301940c7382d" kind="variable"><name>paddingB</name></member>
+      <member refid="group__GeneralGroup_1gaf3ac576c4c89f1dbd632ab4cfe1e3dd1" kind="variable"><name>textExtra</name></member>
+      <member refid="group__GeneralGroup_1gaada3c28db71274d822834a3645128f64" kind="variable"><name>textToExtraTextSpacing</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga226d37af8e339442720d4ed212593803" kind="function"><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1ga54a33b1b8786f39a98b4ae98ff04e9ba" kind="function"><name>onClick</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BasicClickableRectUiRenderTask</label>
+        <link refid="classMR_1_1BasicClickableRectUiRenderTask"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::BasicUiRenderTask</label>
+        <link refid="structMR_1_1BasicUiRenderTask"/>
+      </node>
+      <node id="1">
+        <label>MR::RenderNameObject::Task</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="16">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+        <childnode refid="17" relation="usage">
+          <edgelabel>viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::BasicClickableRectUiRenderTask</label>
+        <link refid="classMR_1_1BasicClickableRectUiRenderTask"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::BasicUiRenderTask</label>
+        <link refid="structMR_1_1BasicUiRenderTask"/>
+      </node>
+      <node id="18">
+        <label>MR::ImGuiMeasurementIndicators::Text</label>
+        <link refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text"/>
+      </node>
+      <node id="5">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderNameObject::Task</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>object</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>params</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>text</edgelabel>
+          <edgelabel>textExtra</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::UiRenderParams</label>
+        <link refid="structMR_1_1UiRenderParams"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::ViewportId</label>
+        <link refid="classMR_1_1ViewportId"/>
+      </node>
+      <node id="10">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="9">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="13">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="14">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="4">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="12">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderNameObject.h" line="20" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderNameObject.h" bodystart="21" bodyend="42"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga399c5f6acb8eeb36add889e1bd4cef99" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>BasicClickableRectUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga7d2604474a74167ceaa7eb132072b9c4" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>BasicClickableRectUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga25c71025ea06023cb9d2007b8d3908a3" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga7a289817074d4a9c546aca337082d21b" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga3f269328b594b62b2356a95a95cdeedd" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>clickableCornerA</name></member>
+      <member refid="group__GeneralGroup_1ga8135d7c948f4c4712f0fc3c82fd3a0b4" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>clickableCornerB</name></member>
+      <member refid="group__GeneralGroup_1ga59897da65259f4cb8c6018ac88fa97fb" prot="public" virt="virtual"><scope>MR::RenderNameObject::Task</scope><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1ga8b878fe507e8be18b19469d53e7e10ef" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>enabled</name></member>
+      <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>InteractionMask</name></member>
+      <member refid="group__GeneralGroup_1ga75630bde88b307b104f2456a516af5db" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1ga816f2a94a5b1508d2fb4fa3d3eeb2a48" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>isHovered</name></member>
+      <member refid="group__GeneralGroup_1gad0dded6f176c6edf2711fabdeb217a5d" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>object</name></member>
+      <member refid="group__GeneralGroup_1ga54a33b1b8786f39a98b4ae98ff04e9ba" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>onClick</name></member>
+      <member refid="group__GeneralGroup_1gae4cd26a146e8e880ab41c0d4a04df064" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderNameObject::Task</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual" ambiguityscope="MR::BasicUiRenderTask::"><scope>MR::RenderNameObject::Task</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga760ca30fd51a54481c7ff9f32ab09a61" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>paddingA</name></member>
+      <member refid="group__GeneralGroup_1gad601eee7f18d7b7a34a2301940c7382d" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>paddingB</name></member>
+      <member refid="group__GeneralGroup_1ga5549735766833f3928cb969df8aff806" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>params</name></member>
+      <member refid="group__GeneralGroup_1ga7bcbbabe3659dea6e3ae51bd43e4aee4" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga3000f727b32a23379d6c293f059be327" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>point2</name></member>
+      <member refid="group__GeneralGroup_1ga226d37af8e339442720d4ed212593803" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1ga381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>renderTaskDepth</name></member>
+      <member refid="group__GeneralGroup_1ga77e2a37679634cb49bd045efd0ab64d0" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>text</name></member>
+      <member refid="group__GeneralGroup_1gaf8502e3838f3524f69674c49a793cb9a" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>textCenter</name></member>
+      <member refid="group__GeneralGroup_1gaf3ac576c4c89f1dbd632ab4cfe1e3dd1" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>textExtra</name></member>
+      <member refid="group__GeneralGroup_1gaad69a66d944583d4c0dfa59ecd5ff583" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>textPos</name></member>
+      <member refid="group__GeneralGroup_1gaada3c28db71274d822834a3645128f64" prot="public" virt="non-virtual"><scope>MR::RenderNameObject::Task</scope><name>textToExtraTextSpacing</name></member>
+      <member refid="group__GeneralGroup_1ga7945d284200ce4786772e175d14fc85a" prot="public" virt="virtual"><scope>MR::RenderNameObject::Task</scope><name>~BasicClickableRectUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1gaa45e39c8e875d9033360ff63d3f750f4" prot="public" virt="virtual"><scope>MR::RenderNameObject::Task</scope><name>~BasicUiRenderTask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

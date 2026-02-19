@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointsLoadSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointsLoadSettings</compoundname>
+    <includes refid="MRPointsLoadSettings_8h" local="no">MRPointsLoadSettings.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga3f2fb1f45d3a7811958bf75b4e75ed0c" kind="variable"><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga5b5b7847b53c3638190037e6bdcbb97d" kind="variable"><name>outXf</name></member>
+      <member refid="group__GeneralGroup_1ga5e37a095f995393cb75628848220a000" kind="variable"><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga1dce73fcc836e6bf67b9078a0dbc0e50" kind="variable"><name>telemetrySignal</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>structure with settings and side output parameters for loading point cloud </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsLoadSettings.h" bodystart="13" bodyend="18"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga5e37a095f995393cb75628848220a000" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga3f2fb1f45d3a7811958bf75b4e75ed0c" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga5b5b7847b53c3638190037e6bdcbb97d" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>outXf</name></member>
+      <member refid="group__GeneralGroup_1ga1dce73fcc836e6bf67b9078a0dbc0e50" prot="public" virt="non-virtual"><scope>MR::PointsLoadSettings</scope><name>telemetrySignal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

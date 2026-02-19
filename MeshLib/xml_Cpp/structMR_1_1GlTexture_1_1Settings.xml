@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1GlTexture_1_1Settings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::GlTexture::Settings</compoundname>
+    <includes refid="MRGLTexture_8h" local="no">MRGLTexture.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gafac6caf438f2fe584e2e968364cfbd8a" kind="variable"><name>resolution</name></member>
+      <member refid="group__GeneralGroup_1ga3b834f386d4f814d5f03b43e229d4adb" kind="variable"><name>internalFormat</name></member>
+      <member refid="group__GeneralGroup_1ga43504dbf4a7fab179ae9e99940385273" kind="variable"><name>format</name></member>
+      <member refid="group__GeneralGroup_1gad39830e427a6b30fbd800ad366bd89f4" kind="variable"><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga622af16b47b77e020bec6dced9f55f65" kind="variable"><name>wrap</name></member>
+      <member refid="group__GeneralGroup_1ga877a27fbb560e4c2b894f410f8d07eaf" kind="variable"><name>filter</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga3943dc4f528bc49722114379614e4c2e" kind="function"><name>size</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" line="50" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLTexture.h" bodystart="51" bodyend="67"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga877a27fbb560e4c2b894f410f8d07eaf" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>filter</name></member>
+      <member refid="group__GeneralGroup_1ga43504dbf4a7fab179ae9e99940385273" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>format</name></member>
+      <member refid="group__GeneralGroup_1ga3b834f386d4f814d5f03b43e229d4adb" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>internalFormat</name></member>
+      <member refid="group__GeneralGroup_1gafac6caf438f2fe584e2e968364cfbd8a" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>resolution</name></member>
+      <member refid="group__GeneralGroup_1ga3943dc4f528bc49722114379614e4c2e" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1gad39830e427a6b30fbd800ad366bd89f4" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga622af16b47b77e020bec6dced9f55f65" prot="public" virt="non-virtual"><scope>MR::GlTexture::Settings</scope><name>wrap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

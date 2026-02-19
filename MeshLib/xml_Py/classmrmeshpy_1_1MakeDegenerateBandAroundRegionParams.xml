@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MakeDegenerateBandAroundRegionParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a46a3202acc0a98ffb051b8075917724c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeDegenerateBandAroundRegionParams::_offsetof_maxEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxEdgeLength</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams._offsetof_maxEdgeLength</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26759" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a3be6271df3581858825595066aa1619e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeDegenerateBandAroundRegionParams::_offsetof_new2OldMap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_new2OldMap</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams._offsetof_new2OldMap</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26760" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a9f2351bd3f8a809c6b994df887b70417" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeDegenerateBandAroundRegionParams::_offsetof_outExtrudedEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outExtrudedEdges</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams._offsetof_outExtrudedEdges</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26761" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a564238f88c275981b7d7b47b9c916e9e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeDegenerateBandAroundRegionParams::_offsetof_outNewFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outNewFaces</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams._offsetof_outNewFaces</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26762" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1ad6a84223c9f55d7fe4612df5a6cac36b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeDegenerateBandAroundRegionParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26765" bodyend="26766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a626f743650acb90e53983e83c560f304" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams" kindref="compound">MakeDegenerateBandAroundRegionParams</ref></type>
+        <definition> MakeDegenerateBandAroundRegionParams mrmeshpy.MakeDegenerateBandAroundRegionParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26769" bodyend="26770"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a626f743650acb90e53983e83c560f304" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams" kindref="compound">MakeDegenerateBandAroundRegionParams</ref></type>
+        <definition> MakeDegenerateBandAroundRegionParams mrmeshpy.MakeDegenerateBandAroundRegionParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26773" bodyend="26774"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a23cdc0487458aafb6c116e07a11369ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeDegenerateBandAroundRegionParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26776" bodyend="26777"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1ae730127e04c2f9b5bd87f7d26fc49e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeDegenerateBandAroundRegionParams.__init__</definition>
+        <argsstring>(self, MakeDegenerateBandAroundRegionParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams" kindref="compound">MakeDegenerateBandAroundRegionParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26779" bodyend="26782"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1abc9543613a057b3b915873c77b4332b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeDegenerateBandAroundRegionParams.__init__</definition>
+        <argsstring>(self, FaceBitSet outNewFaces, UndirectedEdgeBitSet outExtrudedEdges, float_output maxEdgeLength, phmap_flat_hash_map_Id_VertTag_Id_VertTag new2OldMap)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>outNewFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>outExtrudedEdges</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1float__output" kindref="compound">float_output</ref></type>
+          <declname>maxEdgeLength</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
+          <declname>new2OldMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26784" bodyend="26787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1ae49a6062e2a6d241c2c034b10666edc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MakeDegenerateBandAroundRegionParams.maxEdgeLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxEdgeLength</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.maxEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>(optional) return legth of the longest edges from the boundary of the region
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26789" bodyend="26792"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1afc4ba455679448436a4ef84ef10ddb6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeDegenerateBandAroundRegionParams.maxEdgeLength</definition>
+        <argsstring>(self, float_output arg1)</argsstring>
+        <name>maxEdgeLength</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.maxEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1float__output" kindref="compound">float_output</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26794" bodyend="26795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a8952d8c15cfdc11fe6040ca1847c7e60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_VertTag_Id_VertTag mrmeshpy.MakeDegenerateBandAroundRegionParams.new2OldMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>new2OldMap</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.new2OldMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>(optional) map of new vertices to old ones
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26797" bodyend="26800"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1abac9fe11f08c664a5b562cdac583172d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeDegenerateBandAroundRegionParams.new2OldMap</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_VertTag_Id_VertTag arg1)</argsstring>
+        <name>new2OldMap</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.new2OldMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__VertTag__Id__VertTag" kindref="compound">phmap_flat_hash_map_Id_VertTag_Id_VertTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26802" bodyend="26803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a683b6de8618ab1c5b5c051b33f0fb733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.MakeDegenerateBandAroundRegionParams.outExtrudedEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>outExtrudedEdges</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.outExtrudedEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>(optional) output edges orthogonal to the boundary
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26805" bodyend="26808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a3901fe86021f82d9006a8e29105edad1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeDegenerateBandAroundRegionParams.outExtrudedEdges</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>outExtrudedEdges</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.outExtrudedEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26810" bodyend="26811"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1aded0d9a36e376fa943383af7a6e3783c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.MakeDegenerateBandAroundRegionParams.outNewFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>outNewFaces</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.outNewFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>(optional) output newly generated faces
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26813" bodyend="26816"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a6d44ef07f3cad0af9544c28af323bb2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeDegenerateBandAroundRegionParams.outNewFaces</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>outNewFaces</name>
+        <qualifiedname>mrmeshpy.MakeDegenerateBandAroundRegionParams.outNewFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26818" bodyend="26819"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MakeDegenerateBandAroundRegionParams
+
+holds together settings for makeDegenerateBandAroundRegion
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MakeDegenerateBandAroundRegionParams</label>
+        <link refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_maxEdgeLength</edgelabel>
+          <edgelabel>_offsetof_new2OldMap</edgelabel>
+          <edgelabel>_offsetof_outExtrudedEdges</edgelabel>
+          <edgelabel>_offsetof_outNewFaces</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26753" bodyend="26819"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1ad6a84223c9f55d7fe4612df5a6cac36b" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a23cdc0487458aafb6c116e07a11369ad" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1ae730127e04c2f9b5bd87f7d26fc49e6b" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1abc9543613a057b3b915873c77b4332b0" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a46a3202acc0a98ffb051b8075917724c" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>_offsetof_maxEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a3be6271df3581858825595066aa1619e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>_offsetof_new2OldMap</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a9f2351bd3f8a809c6b994df887b70417" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>_offsetof_outExtrudedEdges</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a564238f88c275981b7d7b47b9c916e9e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>_offsetof_outNewFaces</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1ae49a6062e2a6d241c2c034b10666edc7" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>maxEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1afc4ba455679448436a4ef84ef10ddb6d" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>maxEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a8952d8c15cfdc11fe6040ca1847c7e60" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>new2OldMap</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1abac9fe11f08c664a5b562cdac583172d" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>new2OldMap</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a626f743650acb90e53983e83c560f304" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a626f743650acb90e53983e83c560f304" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a683b6de8618ab1c5b5c051b33f0fb733" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>outExtrudedEdges</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a3901fe86021f82d9006a8e29105edad1" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>outExtrudedEdges</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1aded0d9a36e376fa943383af7a6e3783c" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>outNewFaces</name></member>
+      <member refid="classmrmeshpy_1_1MakeDegenerateBandAroundRegionParams_1a6d44ef07f3cad0af9544c28af323bb2c" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeDegenerateBandAroundRegionParams</scope><name>outNewFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

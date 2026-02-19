@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1EdgeColors" kind="class" language="C#" prot="public">
+    <compoundname>MR::EdgeColors</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_EdgeColors</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1EdgeColors_1ad74efbb79eac881f6cd36a6f9d79040f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_MRColor</type>
+        <definition>new unsafe MR.Std.Vector_MRColor MR.EdgeColors.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.EdgeColors.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13469" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13469" bodyend="13469"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1EdgeColors_1a305fd63df92ce9db6cbf38d092e93717" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe new ref MR.Color MR.EdgeColors.this[MR.EdgeId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.EdgeId i]</name>
+        <qualifiedname>MR.EdgeColors.this[MR.EdgeId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeColors.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13643" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13644" bodyend="13651"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a8ec0557cf3010b111c5da1ace12f964b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeColors.EdgeColors</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>EdgeColors</name>
+        <qualifiedname>MR.EdgeColors.EdgeColors</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13488" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13488" bodyend="13492"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeColors.EdgeColors</definition>
+        <argsstring>()</argsstring>
+        <name>EdgeColors</name>
+        <qualifiedname>MR.EdgeColors.EdgeColors</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13498" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13498" bodyend="13504"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1aa7af840d67bd9d6fbef08bf0211f099a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeColors.EdgeColors</definition>
+        <argsstring>(MR._ByValue_EdgeColors _other)</argsstring>
+        <name>EdgeColors</name>
+        <qualifiedname>MR.EdgeColors.EdgeColors</qualifiedname>
+        <param>
+          <type>MR._ByValue_EdgeColors</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.EdgeColors.EdgeColors</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13509" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13509" bodyend="13516"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1aa9dbf471f0eddeaceb33a564a39a3ab0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.EdgeColors.EdgeColors</definition>
+        <argsstring>(Const_EdgeColors _other)</argsstring>
+        <name>EdgeColors</name>
+        <qualifiedname>MR.EdgeColors.EdgeColors</qualifiedname>
+        <param>
+          <type>Const_EdgeColors</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.EdgeColors.EdgeColors</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13521" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13521" bodyend="13521"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a5f36dc94a1d06a7214d5e61891729f58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.EdgeColors.EdgeColors</definition>
+        <argsstring>(EdgeColors _other)</argsstring>
+        <name>EdgeColors</name>
+        <qualifiedname>MR.EdgeColors.EdgeColors</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1EdgeColors" kindref="compound">EdgeColors</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.EdgeColors.EdgeColors</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13526" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13526" bodyend="13526"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a7c1f599fc5112eb9e479dd778965c353" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeColors.EdgeColors</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>EdgeColors</name>
+        <qualifiedname>MR.EdgeColors.EdgeColors</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.EdgeColors.EdgeColors</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13532" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13532" bodyend="13538"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a0f06b0a4864ac16b8510867ba66b4620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeColors.EdgeColors</definition>
+        <argsstring>(ulong size, in MR.Color val)</argsstring>
+        <name>EdgeColors</name>
+        <qualifiedname>MR.EdgeColors.EdgeColors</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.EdgeColors.EdgeColors</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13544" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13544" bodyend="13553"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a099a1321da8ce2dc5744074ec37dde9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeColors.EdgeColors</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; vec)</argsstring>
+        <name>EdgeColors</name>
+        <qualifiedname>MR.EdgeColors.EdgeColors</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.EdgeColors.EdgeColors</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13559" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13559" bodyend="13566"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1ad48de439f751767acf4bb72cbcbbb0e5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1EdgeColors" kindref="compound">MR.EdgeColors</ref></type>
+        <definition>unsafe MR.EdgeColors MR.EdgeColors.assign</definition>
+        <argsstring>(MR._ByValue_EdgeColors _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.EdgeColors.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_EdgeColors</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeColors.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13577" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13577" bodyend="13584"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a7731be13f0982ea3b326c51fa53a23d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.EdgeColors.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1a7731be13f0982ea3b326c51fa53a23d4" kindref="member">MR.EdgeColors.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13589" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13589" bodyend="13594"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a9708aafbff2d19178b9911662828b77a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.EdgeColors.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1a9708aafbff2d19178b9911662828b77a" kindref="member">MR.EdgeColors.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13599" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13599" bodyend="13604"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a5f714df743251a862a080d0aed995d99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.resize</definition>
+        <argsstring>(ulong newSize, in MR.Color t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.EdgeColors.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1a9708aafbff2d19178b9911662828b77a" kindref="member">MR.EdgeColors.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13609" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13609" bodyend="13617"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a1a44c3baeb5b58cc93a17eae97655844" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.resizeNoInit</definition>
+        <argsstring>(ulong targetSize)</argsstring>
+        <name>resizeNoInit</name>
+        <qualifiedname>MR.EdgeColors.resizeNoInit</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>targetSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1a1a44c3baeb5b58cc93a17eae97655844" kindref="member">MR.EdgeColors.resizeNoInit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13623" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13623" bodyend="13628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1af38de4b25ae01c8de50ab4996bbd769e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.EdgeColors.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1af38de4b25ae01c8de50ab4996bbd769e" kindref="member">MR.EdgeColors.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13633" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13633" bodyend="13638"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a3a34d963bd200aef26fd95bd0b2a035b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.EdgeColors.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1a3a34d963bd200aef26fd95bd0b2a035b" kindref="member">MR.EdgeColors.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13657" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13657" bodyend="13662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1ac1d8c42ba52304d1aee1c34d2725c825" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, in MR.Color value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.EdgeColors.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1a3a34d963bd200aef26fd95bd0b2a035b" kindref="member">MR.EdgeColors.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13668" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13668" bodyend="13676"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1abd3bcb37c2867b7978c380d97494e6a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.autoResizeSet</definition>
+        <argsstring>(MR.EdgeId pos, ulong len, MR.Color val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.EdgeColors.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1abd3bcb37c2867b7978c380d97494e6a6" kindref="member">MR.EdgeColors.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13683" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13683" bodyend="13688"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a37bc80844820ad0a58e1ff65a7fc99ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.autoResizeSet</definition>
+        <argsstring>(MR.EdgeId i, MR.Color val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.EdgeColors.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1abd3bcb37c2867b7978c380d97494e6a6" kindref="member">MR.EdgeColors.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13694" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13694" bodyend="13699"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a5c1ad0686b164a1be7f202977ecbcf2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref MR.Color MR.EdgeColors.autoResizeAt</definition>
+        <argsstring>(MR.EdgeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.EdgeColors.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1a5c1ad0686b164a1be7f202977ecbcf2b" kindref="member">MR.EdgeColors.autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13705" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13705" bodyend="13710"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a85bec026b4b12131d60410eb8408daab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.pushBack</definition>
+        <argsstring>(in MR.Color t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.EdgeColors.pushBack</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeColors.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13715" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13715" bodyend="13723"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a637e3840c1ac48bc914787a21f1e1e8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, in MR.Color t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.EdgeColors.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeColors.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13728" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13728" bodyend="13736"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1aba1eba42ff6dfc723b97b20dbc7df412" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.EdgeColors.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeColors.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13741" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13741" bodyend="13746"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a47177a41edab19c1fbff81cdc711e358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe ref MR.Color MR.EdgeColors.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.EdgeColors.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeColors.emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13751" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13751" bodyend="13756"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1ae11de232dd8fc5db2fe7b68d6fa756b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe new ref MR.Color MR.EdgeColors.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.EdgeColors.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1ae11de232dd8fc5db2fe7b68d6fa756b5" kindref="member">MR.EdgeColors.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13761" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13761" bodyend="13766"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a3c4043d26e8af27f8f17ff83e213e785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+        <definition>unsafe new ref MR.Color MR.EdgeColors.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.EdgeColors.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1a3c4043d26e8af27f8f17ff83e213e785" kindref="member">MR.EdgeColors.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13771" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13771" bodyend="13776"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a180f37dbf39836dced21dd74158d486f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref> &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; MR.Color &gt; MR.EdgeColors.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.EdgeColors.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1a180f37dbf39836dced21dd74158d486f" kindref="member">MR.EdgeColors.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13781" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13781" bodyend="13787"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1aae91d1a2298f0b834a450954da5764c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeColors.swap</definition>
+        <argsstring>(MR.EdgeColors b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.EdgeColors.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1EdgeColors" kindref="compound">MR.EdgeColors</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1EdgeColors_1aae91d1a2298f0b834a450954da5764c1" kindref="member">MR.EdgeColors.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13792" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13792" bodyend="13797"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1EdgeColors_1a208b147c82a688ad6c9a12cc61411cf0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.EdgeColors.operator EdgeColors</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt; vec)</argsstring>
+        <name>operator EdgeColors</name>
+        <qualifiedname>MR.EdgeColors.operator EdgeColors</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_MRColor &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.EdgeColors.EdgeColors</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13572" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13572" bodyend="13572"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1EdgeColors" kindref="compound">MR.EdgeColors</ref></computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_EdgeColors</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.EdgeColors</label>
+        <link refid="classMR_1_1EdgeColors"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_EdgeColors &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_EdgeColors &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_EdgeColors</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.EdgeColors</label>
+        <link refid="classMR_1_1EdgeColors"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_EdgeColors &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_EdgeColors &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="13466" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="13467" bodyend="13798"/>
+    <listofallmembers>
+      <member refid="classMR_1_1EdgeColors_1ad48de439f751767acf4bb72cbcbbb0e5" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>assign</name></member>
+      <member refid="classMR_1_1EdgeColors_1a5c1ad0686b164a1be7f202977ecbcf2b" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1EdgeColors_1abd3bcb37c2867b7978c380d97494e6a6" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1EdgeColors_1a37bc80844820ad0a58e1ff65a7fc99ef" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1EdgeColors_1a3c4043d26e8af27f8f17ff83e213e785" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>back</name></member>
+      <member refid="classMR_1_1EdgeColors_1a7731be13f0982ea3b326c51fa53a23d4" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>clear</name></member>
+      <member refid="classMR_1_1EdgeColors_1a180f37dbf39836dced21dd74158d486f" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>data</name></member>
+      <member refid="classMR_1_1EdgeColors_1a8ec0557cf3010b111c5da1ace12f964b" prot="package" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1a9a0fdcd78ca8099b9e78ba7cd7ae6c3c" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1aa7af840d67bd9d6fbef08bf0211f099a" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1aa9dbf471f0eddeaceb33a564a39a3ab0" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1a5f36dc94a1d06a7214d5e61891729f58" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1a7c1f599fc5112eb9e479dd778965c353" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1a0f06b0a4864ac16b8510867ba66b4620" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1a099a1321da8ce2dc5744074ec37dde9f" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1a47177a41edab19c1fbff81cdc711e358" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1EdgeColors_1ae11de232dd8fc5db2fe7b68d6fa756b5" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>front</name></member>
+      <member refid="classMR_1_1EdgeColors_1a208b147c82a688ad6c9a12cc61411cf0" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>operator EdgeColors</name></member>
+      <member refid="classMR_1_1EdgeColors_1aba1eba42ff6dfc723b97b20dbc7df412" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>popBack</name></member>
+      <member refid="classMR_1_1EdgeColors_1a85bec026b4b12131d60410eb8408daab" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1EdgeColors_1a637e3840c1ac48bc914787a21f1e1e8a" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1EdgeColors_1af38de4b25ae01c8de50ab4996bbd769e" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>reserve</name></member>
+      <member refid="classMR_1_1EdgeColors_1a9708aafbff2d19178b9911662828b77a" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>resize</name></member>
+      <member refid="classMR_1_1EdgeColors_1a5f714df743251a862a080d0aed995d99" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>resize</name></member>
+      <member refid="classMR_1_1EdgeColors_1a1a44c3baeb5b58cc93a17eae97655844" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>resizeNoInit</name></member>
+      <member refid="classMR_1_1EdgeColors_1a3a34d963bd200aef26fd95bd0b2a035b" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1EdgeColors_1ac1d8c42ba52304d1aee1c34d2725c825" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1EdgeColors_1aae91d1a2298f0b834a450954da5764c1" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>swap</name></member>
+      <member refid="classMR_1_1EdgeColors_1a305fd63df92ce9db6cbf38d092e93717" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>this[MR.EdgeId i]</name></member>
+      <member refid="classMR_1_1EdgeColors_1ad74efbb79eac881f6cd36a6f9d79040f" prot="public" virt="non-virtual"><scope>MR::EdgeColors</scope><name>vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

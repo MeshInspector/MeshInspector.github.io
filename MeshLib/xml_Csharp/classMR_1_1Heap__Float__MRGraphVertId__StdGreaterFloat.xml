@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat" kind="class" language="C#" prot="public">
+    <compoundname>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Heap_Float_MRGraphVertId_StdGreaterFloat</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a3fbe114684f1ff3daf06ff5f31077e42" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Heap_Float_MRGraphVertId_StdGreaterFloat</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="325" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="325" bodyend="325"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ab7cece5cd109109e1dd8b498a7f331d7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</definition>
+        <argsstring>(MR._ByValue_Heap_Float_MRGraphVertId_StdGreaterFloat _other)</argsstring>
+        <name>Heap_Float_MRGraphVertId_StdGreaterFloat</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</qualifiedname>
+        <param>
+          <type>MR._ByValue_Heap_Float_MRGraphVertId_StdGreaterFloat</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::Heap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="330" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="330" bodyend="336"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a73bac387d7bef105473f71ccabb45d6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</definition>
+        <argsstring>(Const_Heap_Float_MRGraphVertId_StdGreaterFloat _other)</argsstring>
+        <name>Heap_Float_MRGraphVertId_StdGreaterFloat</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</qualifiedname>
+        <param>
+          <type>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::Heap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="341" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="341" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1aed450093e07c9c1c8df7a0cba6a93c6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</definition>
+        <argsstring>(Heap_Float_MRGraphVertId_StdGreaterFloat _other)</argsstring>
+        <name>Heap_Float_MRGraphVertId_StdGreaterFloat</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat" kindref="compound">Heap_Float_MRGraphVertId_StdGreaterFloat</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::Heap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="346" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="346" bodyend="346"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ad887920bbef44731c61aaaf0287128b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</definition>
+        <argsstring>(ulong size, float? def=null, MR.Std.Greater_Float pred=default)</argsstring>
+        <name>Heap_Float_MRGraphVertId_StdGreaterFloat</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>def</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Greater_Float</type>
+          <declname>pred</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>constructs heap for given number of elements, assigning given default value to each element Generated from constructor <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::Heap</computeroutput>. Parameter <computeroutput>def</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="353" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="353" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a1b1edd51b751dd94363c7f90f103051a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</definition>
+        <argsstring>(MR.Std._ByValue_Vector_MRHeapFloatMRGraphVertIdStdGreaterFloatElement elms, MR.Std.Greater_Float pred=default)</argsstring>
+        <name>Heap_Float_MRGraphVertId_StdGreaterFloat</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Heap_Float_MRGraphVertId_StdGreaterFloat</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Vector_MRHeapFloatMRGraphVertIdStdGreaterFloatElement</type>
+          <declname>elms</declname>
+        </param>
+        <param>
+          <type>MR.Std.Greater_Float</type>
+          <declname>pred</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>constructs heap from given elements (id&apos;s shall not repeat and have spaces, but can be arbitrary shuffled) Generated from constructor <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::Heap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="365" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="365" bodyend="371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a1bf79a3e6fdb5d1bab89764e02ff3e94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat" kindref="compound">MR.Heap_Float_MRGraphVertId_StdGreaterFloat</ref></type>
+        <definition>unsafe MR.Heap_Float_MRGraphVertId_StdGreaterFloat MR.Heap_Float_MRGraphVertId_StdGreaterFloat.assign</definition>
+        <argsstring>(MR._ByValue_Heap_Float_MRGraphVertId_StdGreaterFloat _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Heap_Float_MRGraphVertId_StdGreaterFloat</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="376" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="376" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ae0aad12bc2fc461ffd72e0616fc3d1c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Heap_Float_MRGraphVertId_StdGreaterFloat.resize</definition>
+        <argsstring>(ulong size, float? def=null)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>def</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>increases the size of the heap by adding elements at the end Generated from method <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::resize</computeroutput>. Parameter <computeroutput>def</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="390" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="390" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a2f15fddffebfcabd5d14d0365bbf70f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Heap_Float_MRGraphVertId_StdGreaterFloat.setValue</definition>
+        <argsstring>(MR.GraphVertId elemId, float newVal)</argsstring>
+        <name>setValue</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.setValue</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>elemId</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>newVal</declname>
+        </param>
+        <briefdescription>
+<para>sets new value to given element Generated from method <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::setValue</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="402" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="402" bodyend="407"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a008d083ebc2a143e0de24d0270059851" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Heap_Float_MRGraphVertId_StdGreaterFloat.setLargerValue</definition>
+        <argsstring>(MR.GraphVertId elemId, float newVal)</argsstring>
+        <name>setLargerValue</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.setLargerValue</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>elemId</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>newVal</declname>
+        </param>
+        <briefdescription>
+<para>sets new value to given element, which shall be larger/smaller than the current value Generated from method <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::setLargerValue</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="413" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="413" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a8fd04c9800747aca8fcfc44e649bb837" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Heap_Float_MRGraphVertId_StdGreaterFloat.setSmallerValue</definition>
+        <argsstring>(MR.GraphVertId elemId, float newVal)</argsstring>
+        <name>setSmallerValue</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.setSmallerValue</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref></type>
+          <declname>elemId</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>newVal</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::setSmallerValue</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="423" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="423" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ac7f401c8f7877773be0370c1062b0278" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Element</type>
+        <definition>unsafe MR.Heap_Float_MRGraphVertId_StdGreaterFloat.Element MR.Heap_Float_MRGraphVertId_StdGreaterFloat.setTopValue</definition>
+        <argsstring>(float newVal)</argsstring>
+        <name>setTopValue</name>
+        <qualifiedname>MR.Heap_Float_MRGraphVertId_StdGreaterFloat.setTopValue</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>newVal</declname>
+        </param>
+        <briefdescription>
+<para>sets new value to the current top element, returning its previous value Generated from method <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;::setTopValue</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="434" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="434" bodyend="439"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores map from element id in[0, size) to T; </para>
+    </briefdescription>
+    <detaileddescription>
+<para>provides two operations: 1) change the value of any element; 2) find the element with the largest value Generated from class <computeroutput>MR.Heap&lt;float, <ref refid="structMR_1_1GraphVertId" kindref="compound">MR.GraphVertId</ref>, std.greater&lt;float&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Heap_Float_MRGraphVertId_StdGreaterFloat</label>
+        <link refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Heap_Float_MRGraphVertId_StdGreaterFloat &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Heap_Float_MRGraphVertId_StdGreaterFloat</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Heap_Float_MRGraphVertId_StdGreaterFloat</label>
+        <link refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Heap_Float_MRGraphVertId_StdGreaterFloat &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" line="323" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRHeap.cs" bodystart="324" bodyend="440"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a1bf79a3e6fdb5d1bab89764e02ff3e94" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>assign</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a3fbe114684f1ff3daf06ff5f31077e42" prot="package" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ab7cece5cd109109e1dd8b498a7f331d7" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a73bac387d7bef105473f71ccabb45d6f" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1aed450093e07c9c1c8df7a0cba6a93c6f" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ad887920bbef44731c61aaaf0287128b2" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a1b1edd51b751dd94363c7f90f103051a" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>Heap_Float_MRGraphVertId_StdGreaterFloat</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ae0aad12bc2fc461ffd72e0616fc3d1c1" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>resize</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a008d083ebc2a143e0de24d0270059851" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>setLargerValue</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a8fd04c9800747aca8fcfc44e649bb837" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>setSmallerValue</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1ac7f401c8f7877773be0370c1062b0278" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>setTopValue</name></member>
+      <member refid="classMR_1_1Heap__Float__MRGraphVertId__StdGreaterFloat_1a2f15fddffebfcabd5d14d0365bbf70f4" prot="public" virt="non-virtual"><scope>MR::Heap_Float_MRGraphVertId_StdGreaterFloat</scope><name>setValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

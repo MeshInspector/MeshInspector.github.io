@@ -1,0 +1,2533 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectVoxels" kind="class" language="C#" prot="public">
+    <compoundname>MR::ObjectVoxels</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectVoxels</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a04254ba4d1416f0c839ff5f49b2fde76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectVoxels.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(ObjectVoxels self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.ObjectVoxels.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1953" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1953" bodyend="1958"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a7aacdadc87c97cd327afce32e7f70d4e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectVoxels.operator MR.Object</definition>
+        <argsstring>(ObjectVoxels self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.ObjectVoxels.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1959" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1959" bodyend="1964"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a94283b7979dd21ddef59aa765d04a780" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectVoxels.operator MR.VisualObject</definition>
+        <argsstring>(ObjectVoxels self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.ObjectVoxels.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1965" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1965" bodyend="1970"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aa7e56143065a81873b971c1ad739a32c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ObjectVoxels.operator MR.ObjectMeshHolder</definition>
+        <argsstring>(ObjectVoxels self)</argsstring>
+        <name>operator MR.ObjectMeshHolder</name>
+        <qualifiedname>MR.ObjectVoxels.operator MR.ObjectMeshHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1971" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1971" bodyend="1976"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a29dc260e42b59297c39ee016416e3153" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ObjectVoxels.operator ObjectVoxels?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator ObjectVoxels?</name>
+        <qualifiedname>MR.ObjectVoxels.operator ObjectVoxels?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1979" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1979" bodyend="1986"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a04e32467f447495cfc3cec1d66c1a53c" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ObjectVoxels.operator ObjectVoxels?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator ObjectVoxels?</name>
+        <qualifiedname>MR.ObjectVoxels.operator ObjectVoxels?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1987" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1987" bodyend="1994"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a5fa72d338a7eec1b512d2e10292b5504" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ObjectVoxels.operator ObjectVoxels?</definition>
+        <argsstring>(MR.ObjectMeshHolder parent)</argsstring>
+        <name>operator ObjectVoxels?</name>
+        <qualifiedname>MR.ObjectVoxels.operator ObjectVoxels?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1995" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1995" bodyend="2002"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3cce1e5d39401d2cc9daf313d18ed2c5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectVoxels.ObjectVoxels</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ObjectVoxels</name>
+        <qualifiedname>MR.ObjectVoxels.ObjectVoxels</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2004" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2004" bodyend="2004"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a7c7583c36dabeb5da3ab1a6a18aa23a2" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectVoxels.ObjectVoxels</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ObjectVoxels</name>
+        <qualifiedname>MR.ObjectVoxels.ObjectVoxels</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2006" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2006" bodyend="2006"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aaffde9073b1525816d720b3b6eac47ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectVoxels.ObjectVoxels</definition>
+        <argsstring>()</argsstring>
+        <name>ObjectVoxels</name>
+        <qualifiedname>MR.ObjectVoxels.ObjectVoxels</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2011" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2011" bodyend="2016"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a07dd6e48bc647186fd900dbb21c76e00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectVoxels.ObjectVoxels</definition>
+        <argsstring>(MR._ByValue_ObjectVoxels _other)</argsstring>
+        <name>ObjectVoxels</name>
+        <qualifiedname>MR.ObjectVoxels.ObjectVoxels</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectVoxels</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjectVoxels.ObjectVoxels</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2021" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2021" bodyend="2027"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a7d7ba1490d733ab1c422364744826086" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref></type>
+        <definition>unsafe MR.ObjectVoxels MR.ObjectVoxels.assign</definition>
+        <argsstring>(MR._ByValue_ObjectVoxels _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ObjectVoxels.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ObjectVoxels</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjectVoxels.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2032" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2032" bodyend="2042"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a13e160ed71d95f8d98dbbe266004a355" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.ObjectVoxels.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a13e160ed71d95f8d98dbbe266004a355" kindref="member">MR.ObjectVoxels.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2047" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2047" bodyend="2052"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a2bbb4b410c9830b2a52346c1d73a504d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
+        <definition>unsafe MR.VdbVolume MR.ObjectVoxels.varVdbVolume</definition>
+        <argsstring>()</argsstring>
+        <name>varVdbVolume</name>
+        <qualifiedname>MR.ObjectVoxels.varVdbVolume</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a2bbb4b410c9830b2a52346c1d73a504d" kindref="member">MR.ObjectVoxels.varVdbVolume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2057" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2057" bodyend="2062"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.construct</definition>
+        <argsstring>(MR.Const_SimpleVolume simpleVolume, MR.Std.Const_Optional_MRVector2f? minmax=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, bool? normalPlusGrad=null)</argsstring>
+        <name>construct</name>
+        <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
+        <param>
+          <type>MR.Const_SimpleVolume</type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Optional_MRVector2f?</type>
+          <declname>minmax</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>normalPlusGrad</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Clears all internal data and then creates grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">updateHistogramAndSurface</ref>) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>normalPlusGrad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true means that iso-surface normals will be along gradient, false means opposite direction </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minmax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional data about known min and max values set a new background for the <ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>, if normalPlusGrad = true, use the maximum value, otherwise the minimum value Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. Parameter <computeroutput>minmax</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>normalPlusGrad</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2074" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2074" bodyend="2080"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a8ede9abe426bc91d70f35385bbe613bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.construct</definition>
+        <argsstring>(MR.Const_SimpleVolumeMinMax simpleVolumeMinMax, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, bool? normalPlusGrad=null)</argsstring>
+        <name>construct</name>
+        <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
+        <param>
+          <type>MR.Const_SimpleVolumeMinMax</type>
+          <declname>simpleVolumeMinMax</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>normalPlusGrad</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Clears all internal data and then creates grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">updateHistogramAndSurface</ref>) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>normalPlusGrad</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true means that iso-surface normals will be along gradient, false means opposite direction set a new background for the <ref refid="classMR_1_1VdbVolume" kindref="compound">VdbVolume</ref>, if normalPlusGrad = true, use the maximum value, otherwise the minimum value Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>normalPlusGrad</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2090" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2090" bodyend="2096"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a432cb2f602b4ce1e2e5f74f20eb60a3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.construct</definition>
+        <argsstring>(MR.Const_FloatGrid grid, in MR.Vector3f voxelSize, MR.Std.Const_Optional_MRVector2f? minmax=null)</argsstring>
+        <name>construct</name>
+        <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
+        <param>
+          <type>MR.Const_FloatGrid</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Optional_MRVector2f?</type>
+          <declname>minmax</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Clears all internal data and then remembers grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">updateHistogramAndSurface</ref>) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minmax</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>optional data about known min and max values Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. Parameter <computeroutput>minmax</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2104" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2104" bodyend="2112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a2d03a7d3b51d428ff08fa88c1ae48ba8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.construct</definition>
+        <argsstring>(MR.Const_VdbVolume vdbVolume)</argsstring>
+        <name>construct</name>
+        <qualifiedname>MR.ObjectVoxels.construct</qualifiedname>
+        <param>
+          <type>MR.Const_VdbVolume</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <briefdescription>
+<para>Clears all internal data and then creates grid and calculates histogram (surface is not built, call <ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">updateHistogramAndSurface</ref>) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" kindref="member">MR.ObjectVoxels.construct</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2118" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2118" bodyend="2123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.updateHistogramAndSurface</definition>
+        <argsstring>(MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>updateHistogramAndSurface</name>
+        <qualifiedname>MR.ObjectVoxels.updateHistogramAndSurface</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Updates histogram, by stored grid (evals min and max values from grid) rebuild iso surface if it is present Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" kindref="member">MR.ObjectVoxels.updateHistogramAndSurface</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2131" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2131" bodyend="2136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aaf9a032157efafec4dcf89e0f8efcc30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectVoxels.setIsoValue</definition>
+        <argsstring>(float iso, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, bool? updateSurface=null)</argsstring>
+        <name>setIsoValue</name>
+        <qualifiedname>MR.ObjectVoxels.setIsoValue</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>iso</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>updateSurface</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Sets iso value and updates iso-surfaces if needed: Returns true if iso-value was updated, false - otherwise Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aaf9a032157efafec4dcf89e0f8efcc30" kindref="member">MR.ObjectVoxels.setIsoValue</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2145" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2145" bodyend="2154"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3672167203089e0e9130009669bfafc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>unsafe MR.Mesh MR.ObjectVoxels.updateIsoSurface</definition>
+        <argsstring>(MR._ByValueShared_Mesh mesh)</argsstring>
+        <name>updateIsoSurface</name>
+        <qualifiedname>MR.ObjectVoxels.updateIsoSurface</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>Sets external surface mesh for this object and returns back previous mesh of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a3672167203089e0e9130009669bfafc8" kindref="member">MR.ObjectVoxels.updateIsoSurface</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2161" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2161" bodyend="2166"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a74ad8d0d142b91680e4dd5d74124a293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VdbVolume" kindref="compound">MR.VdbVolume</ref></type>
+        <definition>unsafe MR.VdbVolume MR.ObjectVoxels.updateVdbVolume</definition>
+        <argsstring>(MR._ByValue_VdbVolume vdbVolume)</argsstring>
+        <name>updateVdbVolume</name>
+        <qualifiedname>MR.ObjectVoxels.updateVdbVolume</qualifiedname>
+        <param>
+          <type>MR._ByValue_VdbVolume</type>
+          <declname>vdbVolume</declname>
+        </param>
+        <briefdescription>
+<para>Sets external vdb volume for this object and returns back previous vdb volume of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a74ad8d0d142b91680e4dd5d74124a293" kindref="member">MR.ObjectVoxels.updateVdbVolume</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2173" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2173" bodyend="2178"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a523887b6548d75c307b30cea16a53afa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Histogram" kindref="compound">MR.Histogram</ref></type>
+        <definition>unsafe MR.Histogram MR.ObjectVoxels.updateHistogram</definition>
+        <argsstring>(MR._ByValue_Histogram histogram)</argsstring>
+        <name>updateHistogram</name>
+        <qualifiedname>MR.ObjectVoxels.updateHistogram</qualifiedname>
+        <param>
+          <type>MR._ByValue_Histogram</type>
+          <declname>histogram</declname>
+        </param>
+        <briefdescription>
+<para>Sets external histogram for this object and returns back previous histogram of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a523887b6548d75c307b30cea16a53afa" kindref="member">MR.ObjectVoxels.updateHistogram</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2185" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2185" bodyend="2190"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0cec88291cd7bbccbf094c2e1313a6e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setDualMarchingCubes</definition>
+        <argsstring>(bool on, bool? updateSurface=null, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>setDualMarchingCubes</name>
+        <qualifiedname>MR.ObjectVoxels.setDualMarchingCubes</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>updateSurface</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets whether to use Dual Marching Cubes algorithm for visualization (true) or Standard Marching Cubes (false); </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>updateSurface</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>forces immediate update Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a0cec88291cd7bbccbf094c2e1313a6e7" kindref="member">MR.ObjectVoxels.setDualMarchingCubes</ref></computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2199" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2199" bodyend="2205"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac995d8f7d863649da26f69e6525f6296" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setVoxelPointPositioner</definition>
+        <argsstring>(MR.Std._ByValue_Function_MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat positioner)</argsstring>
+        <name>setVoxelPointPositioner</name>
+        <qualifiedname>MR.ObjectVoxels.setVoxelPointPositioner</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Function_MRVector3fFuncFromConstMRVector3fRefConstMRVector3fRefFloatFloatFloat</type>
+          <declname>positioner</declname>
+        </param>
+        <briefdescription>
+<para>set voxel point positioner for Marching Cubes (only for Standard Marching Cubes) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ac995d8f7d863649da26f69e6525f6296" kindref="member">MR.ObjectVoxels.setVoxelPointPositioner</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2211" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2211" bodyend="2216"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aab5f864a62bf795173e25d87f8989a39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setActiveBounds</definition>
+        <argsstring>(in MR.Box3i activeBox, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null, bool? updateSurface=null)</argsstring>
+        <name>setActiveBounds</name>
+        <qualifiedname>MR.ObjectVoxels.setActiveBounds</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box3i" kindref="compound">MR.Box3i</ref></type>
+          <declname>activeBox</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>updateSurface</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Sets active bounds for some simplifications (max excluded) active bounds is box in voxel coordinates, note that voxels under (0,0,0) and voxels over (dimensions) are empty NOTE: don&apos;t forget to call <computeroutput>invalidateActiveBoundsCaches</computeroutput> if you call this function from progress bar thread Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aab5f864a62bf795173e25d87f8989a39" kindref="member">MR.ObjectVoxels.setActiveBounds</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>updateSurface</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2226" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2226" bodyend="2235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a1f19f2df8cc3c036103b8200569053ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.invalidateActiveBoundsCaches</definition>
+        <argsstring>()</argsstring>
+        <name>invalidateActiveBoundsCaches</name>
+        <qualifiedname>MR.ObjectVoxels.invalidateActiveBoundsCaches</qualifiedname>
+        <briefdescription>
+<para>Call this function in main thread post processing if you call setActiveBounds from progress bar thread Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a1f19f2df8cc3c036103b8200569053ff" kindref="member">MR.ObjectVoxels.invalidateActiveBoundsCaches</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2241" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2241" bodyend="2246"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a39b3ed431e1187aaf40908330a936c7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.selectVoxels</definition>
+        <argsstring>(MR.Const_VoxelBitSet selectedVoxels)</argsstring>
+        <name>selectVoxels</name>
+        <qualifiedname>MR.ObjectVoxels.selectVoxels</qualifiedname>
+        <param>
+          <type>MR.Const_VoxelBitSet</type>
+          <declname>selectedVoxels</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a39b3ed431e1187aaf40908330a936c7f" kindref="member">MR.ObjectVoxels.selectVoxels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2251" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2251" bodyend="2256"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac24e41d9f665448d7977a773932f36f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setVolumeRenderActiveVoxels</definition>
+        <argsstring>(MR.Const_VoxelBitSet activeVoxels)</argsstring>
+        <name>setVolumeRenderActiveVoxels</name>
+        <qualifiedname>MR.ObjectVoxels.setVolumeRenderActiveVoxels</qualifiedname>
+        <param>
+          <type>MR.Const_VoxelBitSet</type>
+          <declname>activeVoxels</declname>
+        </param>
+        <briefdescription>
+<para>set active (visible) voxels (using only in Volume Rendering mode) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ac24e41d9f665448d7977a773932f36f4" kindref="member">MR.ObjectVoxels.setVolumeRenderActiveVoxels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2262" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2262" bodyend="2267"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a69651423cd342bf1b0bd7c394c0fae70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.enableVolumeRendering</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>enableVolumeRendering</name>
+        <qualifiedname>MR.ObjectVoxels.enableVolumeRendering</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a69651423cd342bf1b0bd7c394c0fae70" kindref="member">MR.ObjectVoxels.enableVolumeRendering</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2275" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2275" bodyend="2280"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aceca829fc191d565de8981dd3da80036" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setVolumeRenderingParams</definition>
+        <argsstring>(MR.ObjectVoxels.Const_VolumeRenderingParams params_)</argsstring>
+        <name>setVolumeRenderingParams</name>
+        <qualifiedname>MR.ObjectVoxels.setVolumeRenderingParams</qualifiedname>
+        <param>
+          <type>MR.ObjectVoxels.Const_VolumeRenderingParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aceca829fc191d565de8981dd3da80036" kindref="member">MR.ObjectVoxels.setVolumeRenderingParams</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2285" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2285" bodyend="2290"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a9c30dbd5a90c724c1a9b104b4297dd92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setMaxSurfaceVertices</definition>
+        <argsstring>(int maxVerts)</argsstring>
+        <name>setMaxSurfaceVertices</name>
+        <qualifiedname>MR.ObjectVoxels.setMaxSurfaceVertices</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>maxVerts</declname>
+        </param>
+        <briefdescription>
+<para>sets top limit on the number of vertices in the iso-surface Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a9c30dbd5a90c724c1a9b104b4297dd92" kindref="member">MR.ObjectVoxels.setMaxSurfaceVertices</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2296" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2296" bodyend="2301"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ab8ca35f2f513042ac78c7560340df81c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.ObjectVoxels.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ab8ca35f2f513042ac78c7560340df81c" kindref="member">MR.ObjectVoxels.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2307" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2307" bodyend="2313"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a845d10d378d025ee43f715f3e0b4641a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setSerializeFormat</definition>
+        <argsstring>(byte? newFormat)</argsstring>
+        <name>setSerializeFormat</name>
+        <qualifiedname>MR.ObjectVoxels.setSerializeFormat</qualifiedname>
+        <param>
+          <type>byte?</type>
+          <declname>newFormat</declname>
+        </param>
+        <briefdescription>
+<para>overrides file extension used to serialize voxels inside this object: must start from &apos;.&apos;, nullptr means serialize in <ref refid="classMR_1a20ce6dc9e83f0b6c131eaf3c17a512da" kindref="member">defaultSerializeVoxelsFormat()</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a845d10d378d025ee43f715f3e0b4641a" kindref="member">MR.ObjectVoxels.setSerializeFormat</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2320" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2320" bodyend="2326"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae61b9ad30ebad708e1da65eca94f33ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.ObjectVoxels.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ae61b9ad30ebad708e1da65eca94f33ae" kindref="member">MR.ObjectVoxels.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2332" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2332" bodyend="2337"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac32ead35108a81fb27835011e87aa120" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setDirtyFlagsFast</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>setDirtyFlagsFast</name>
+        <qualifiedname>MR.ObjectVoxels.setDirtyFlagsFast</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>this is a faster version of <ref refid="classMR_1_1ObjectVoxels_1ab8ca35f2f513042ac78c7560340df81c" kindref="member">setDirtyFlags()</ref>, which does not invalidate metrics cache (area, volume, ...); the user is responsible for calling invalidateMetricsCache( mask ) or setDirtyFlags( mask ) at the end of mesh editing; DANGER: all cached values returned until then can be outdated Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ac32ead35108a81fb27835011e87aa120" kindref="member">MR.ObjectVoxels.setDirtyFlagsFast</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2345" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2345" bodyend="2350"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3b509b88c08e225192ccb158929e3024" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.invalidateMetricsCache</definition>
+        <argsstring>(uint mask)</argsstring>
+        <name>invalidateMetricsCache</name>
+        <qualifiedname>MR.ObjectVoxels.invalidateMetricsCache</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+<para>invalidates same caches with mesh metrics (area, volume, ...) as by setDirtyFlags( mask ) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a3b509b88c08e225192ccb158929e3024" kindref="member">MR.ObjectVoxels.invalidateMetricsCache</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2356" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2356" bodyend="2361"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ab5a47ddcf157ad1b85e01f3777915d20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.selectFaces</definition>
+        <argsstring>(MR._ByValue_FaceBitSet newSelection)</argsstring>
+        <name>selectFaces</name>
+        <qualifiedname>MR.ObjectVoxels.selectFaces</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceBitSet</type>
+          <declname>newSelection</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ab5a47ddcf157ad1b85e01f3777915d20" kindref="member">MR.ObjectVoxels.selectFaces</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2366" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2366" bodyend="2371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aec0180bfbe70e0151adbb047a8d82b61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setSelectedFacesColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setSelectedFacesColor</name>
+        <qualifiedname>MR.ObjectVoxels.setSelectedFacesColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets colors of selected triangles Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aec0180bfbe70e0151adbb047a8d82b61" kindref="member">MR.ObjectVoxels.setSelectedFacesColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2378" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2378" bodyend="2386"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae0f5652cee6e98e704d4bab0f2b949fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.selectEdges</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeBitSet newSelection)</argsstring>
+        <name>selectEdges</name>
+        <qualifiedname>MR.ObjectVoxels.selectEdges</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>newSelection</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ae0f5652cee6e98e704d4bab0f2b949fd" kindref="member">MR.ObjectVoxels.selectEdges</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2391" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2391" bodyend="2396"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a78aaa9e33b6cc0e3813891abba16e568" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setSelectedEdgesColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setSelectedEdgesColor</name>
+        <qualifiedname>MR.ObjectVoxels.setSelectedEdgesColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets colors of selected edges Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a78aaa9e33b6cc0e3813891abba16e568" kindref="member">MR.ObjectVoxels.setSelectedEdgesColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2403" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2403" bodyend="2411"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aa4a251ebbc07e1ac62fe389439e2c785" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setSelectedEdgesColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setSelectedEdgesColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectVoxels.setSelectedEdgesColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aa4a251ebbc07e1ac62fe389439e2c785" kindref="member">MR.ObjectVoxels.setSelectedEdgesColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2416" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2416" bodyend="2421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1af2a50ddce711b977999b66394b7f7f0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setSelectedFacesColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setSelectedFacesColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectVoxels.setSelectedFacesColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1af2a50ddce711b977999b66394b7f7f0d" kindref="member">MR.ObjectVoxels.setSelectedFacesColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2426" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2426" bodyend="2431"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a099422db020209fffd63f32648fbf489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setEdgesColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setEdgesColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectVoxels.setEdgesColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a099422db020209fffd63f32648fbf489" kindref="member">MR.ObjectVoxels.setEdgesColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2436" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2436" bodyend="2441"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae96292afa96d303f2f532c9bb7e65622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setPointsColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setPointsColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectVoxels.setPointsColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ae96292afa96d303f2f532c9bb7e65622" kindref="member">MR.ObjectVoxels.setPointsColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2446" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2446" bodyend="2451"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ad8264c34986482ee1459b29211c8da20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setBordersColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBordersColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectVoxels.setBordersColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ad8264c34986482ee1459b29211c8da20" kindref="member">MR.ObjectVoxels.setBordersColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2456" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2456" bodyend="2461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1abdffc516a5cc8605bc75a2549680d544" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_ObjectMeshHolder other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.ObjectVoxels.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_ObjectMeshHolder</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1abdffc516a5cc8605bc75a2549680d544" kindref="member">MR.ObjectVoxels.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2467" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2467" bodyend="2472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a43f7761e12c8d7a428e14356de77aac2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setCreases</definition>
+        <argsstring>(MR._ByValue_UndirectedEdgeBitSet creases)</argsstring>
+        <name>setCreases</name>
+        <qualifiedname>MR.ObjectVoxels.setCreases</qualifiedname>
+        <param>
+          <type>MR._ByValue_UndirectedEdgeBitSet</type>
+          <declname>creases</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a43f7761e12c8d7a428e14356de77aac2" kindref="member">MR.ObjectVoxels.setCreases</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2477" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2477" bodyend="2482"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3d3a6e71c4bd867a3362ae7fccc72bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setFlatShading</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setFlatShading</name>
+        <qualifiedname>MR.ObjectVoxels.setFlatShading</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>sets flat (true) or smooth (false) shading Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a3d3a6e71c4bd867a3362ae7fccc72bf3" kindref="member">MR.ObjectVoxels.setFlatShading</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2488" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2488" bodyend="2493"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae32511d490f54444a7d38e4e4a8408e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setData</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.ObjectMeshData &gt; data)</argsstring>
+        <name>setData</name>
+        <qualifiedname>MR.ObjectVoxels.setData</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1ObjectMeshData" kindref="compound">MR.ObjectMeshData</ref> &gt;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>sets whole new <ref refid="classMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ae32511d490f54444a7d38e4e4a8408e1" kindref="member">MR.ObjectVoxels.setData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2499" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2499" bodyend="2504"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a2538d3726615879122d5cf7136c88102" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.updateData</definition>
+        <argsstring>(MR.ObjectMeshData data)</argsstring>
+        <name>updateData</name>
+        <qualifiedname>MR.ObjectVoxels.updateData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjectMeshData" kindref="compound">MR.ObjectMeshData</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>swaps whole <ref refid="classMR_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref> with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a2538d3726615879122d5cf7136c88102" kindref="member">MR.ObjectVoxels.updateData</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2510" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2510" bodyend="2515"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a50e56f1f49e082b93a5631a1eae041eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setVertsColorMap</definition>
+        <argsstring>(MR._ByValue_VertColors vertsColorMap)</argsstring>
+        <name>setVertsColorMap</name>
+        <qualifiedname>MR.ObjectVoxels.setVertsColorMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertColors</type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+<para>sets per-vertex colors of the object Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a50e56f1f49e082b93a5631a1eae041eb" kindref="member">MR.ObjectVoxels.setVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2521" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2521" bodyend="2526"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1abae5239a38f1d110b89c27800d7bd525" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.updateVertsColorMap</definition>
+        <argsstring>(MR.VertColors vertsColorMap)</argsstring>
+        <name>updateVertsColorMap</name>
+        <qualifiedname>MR.ObjectVoxels.updateVertsColorMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref></type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+<para>swaps per-vertex colors of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1abae5239a38f1d110b89c27800d7bd525" kindref="member">MR.ObjectVoxels.updateVertsColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2532" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2532" bodyend="2537"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ae52512d8d5f2c163cba84632994eb0ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setFacesColorMap</definition>
+        <argsstring>(MR._ByValue_FaceColors facesColorMap)</argsstring>
+        <name>setFacesColorMap</name>
+        <qualifiedname>MR.ObjectVoxels.setFacesColorMap</qualifiedname>
+        <param>
+          <type>MR._ByValue_FaceColors</type>
+          <declname>facesColorMap</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ae52512d8d5f2c163cba84632994eb0ae" kindref="member">MR.ObjectVoxels.setFacesColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2542" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2542" bodyend="2547"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a4e12ee42228f2186aefe99fc9998edf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.updateFacesColorMap</definition>
+        <argsstring>(MR.FaceColors updated)</argsstring>
+        <name>updateFacesColorMap</name>
+        <qualifiedname>MR.ObjectVoxels.updateFacesColorMap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a4e12ee42228f2186aefe99fc9998edf3" kindref="member">MR.ObjectVoxels.updateFacesColorMap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2552" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2552" bodyend="2557"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a4ff3f999e6ea27f1faf51eb024283006" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setEdgeWidth</definition>
+        <argsstring>(float edgeWidth)</argsstring>
+        <name>setEdgeWidth</name>
+        <qualifiedname>MR.ObjectVoxels.setEdgeWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>edgeWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a4ff3f999e6ea27f1faf51eb024283006" kindref="member">MR.ObjectVoxels.setEdgeWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2562" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2562" bodyend="2567"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1adf8bfc1fa52ab8cd140cf94ab6186056" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setPointSize</definition>
+        <argsstring>(float size)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR.ObjectVoxels.setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1adf8bfc1fa52ab8cd140cf94ab6186056" kindref="member">MR.ObjectVoxels.setPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2572" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2572" bodyend="2577"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a50bfebe6148c0efaa7d9a4ab4ce398b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setEdgesColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setEdgesColor</name>
+        <qualifiedname>MR.ObjectVoxels.setEdgesColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a50bfebe6148c0efaa7d9a4ab4ce398b9" kindref="member">MR.ObjectVoxels.setEdgesColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2583" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2583" bodyend="2591"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1abc704627b5fd96183aea9a61ef51c732" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setPointsColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setPointsColor</name>
+        <qualifiedname>MR.ObjectVoxels.setPointsColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1abc704627b5fd96183aea9a61ef51c732" kindref="member">MR.ObjectVoxels.setPointsColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2597" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2597" bodyend="2605"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a022ecb7e995892b60d3fd4fafeff60be" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setBordersColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setBordersColor</name>
+        <qualifiedname>MR.ObjectVoxels.setBordersColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a022ecb7e995892b60d3fd4fafeff60be" kindref="member">MR.ObjectVoxels.setBordersColor</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2611" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2611" bodyend="2619"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ad26747878c315ea7a716779a2baf5fe7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setTextures</definition>
+        <argsstring>(MR._ByValue_Vector_MRMeshTexture_MRTextureId texture)</argsstring>
+        <name>setTextures</name>
+        <qualifiedname>MR.ObjectVoxels.setTextures</qualifiedname>
+        <param>
+          <type>MR._ByValue_Vector_MRMeshTexture_MRTextureId</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ad26747878c315ea7a716779a2baf5fe7" kindref="member">MR.ObjectVoxels.setTextures</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2624" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2624" bodyend="2629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a25d0cb6d4caf17ff5381a1bc742259d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.updateTextures</definition>
+        <argsstring>(MR.Vector_MRMeshTexture_MRTextureId updated)</argsstring>
+        <name>updateTextures</name>
+        <qualifiedname>MR.ObjectVoxels.updateTextures</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Vector__MRMeshTexture__MRTextureId" kindref="compound">MR.Vector_MRMeshTexture_MRTextureId</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a25d0cb6d4caf17ff5381a1bc742259d0" kindref="member">MR.ObjectVoxels.updateTextures</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2634" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2634" bodyend="2639"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3c5195897c54dd28f298e91fc7e35e66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setTexturePerFace</definition>
+        <argsstring>(MR._ByValue_TexturePerFace texturePerFace)</argsstring>
+        <name>setTexturePerFace</name>
+        <qualifiedname>MR.ObjectVoxels.setTexturePerFace</qualifiedname>
+        <param>
+          <type>MR._ByValue_TexturePerFace</type>
+          <declname>texturePerFace</declname>
+        </param>
+        <briefdescription>
+<para>the texture ids for the faces if more than one texture is used to texture the object texture coordinates (data_.uvCoordinates) at a point can belong to different textures, depending on which face the point belongs to Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a3c5195897c54dd28f298e91fc7e35e66" kindref="member">MR.ObjectVoxels.setTexturePerFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2646" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2646" bodyend="2651"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1abd1b03136e67cd244c359393e6439c20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.updateTexturePerFace</definition>
+        <argsstring>(MR.TexturePerFace texturePerFace)</argsstring>
+        <name>updateTexturePerFace</name>
+        <qualifiedname>MR.ObjectVoxels.updateTexturePerFace</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TexturePerFace" kindref="compound">MR.TexturePerFace</ref></type>
+          <declname>texturePerFace</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1abd1b03136e67cd244c359393e6439c20" kindref="member">MR.ObjectVoxels.updateTexturePerFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2656" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2656" bodyend="2661"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0f5a2003f87d55b7ab2d5dad9085dd07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.addTexture</definition>
+        <argsstring>(MR._ByValue_MeshTexture texture)</argsstring>
+        <name>addTexture</name>
+        <qualifiedname>MR.ObjectVoxels.addTexture</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshTexture</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a0f5a2003f87d55b7ab2d5dad9085dd07" kindref="member">MR.ObjectVoxels.addTexture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2666" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2666" bodyend="2671"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a823b828c56d4e6c6ac9454eb6ff97c34" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setUVCoords</definition>
+        <argsstring>(MR._ByValue_VertCoords2 uvCoordinates)</argsstring>
+        <name>setUVCoords</name>
+        <qualifiedname>MR.ObjectVoxels.setUVCoords</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoords2</type>
+          <declname>uvCoordinates</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a823b828c56d4e6c6ac9454eb6ff97c34" kindref="member">MR.ObjectVoxels.setUVCoords</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2676" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2676" bodyend="2681"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac11a41431b8da1282d7cc871f20e248a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.updateUVCoords</definition>
+        <argsstring>(MR.VertCoords2 updated)</argsstring>
+        <name>updateUVCoords</name>
+        <qualifiedname>MR.ObjectVoxels.updateUVCoords</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ac11a41431b8da1282d7cc871f20e248a" kindref="member">MR.ObjectVoxels.updateUVCoords</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2686" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2686" bodyend="2691"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ada93b7af26b76187488a18c73ab75e57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.copyTextureAndColors</definition>
+        <argsstring>(MR.Const_ObjectMeshHolder src, MR.Const_VertMap thisToSrc, MR.Const_FaceMap? thisToSrcFaces=null)</argsstring>
+        <name>copyTextureAndColors</name>
+        <qualifiedname>MR.ObjectVoxels.copyTextureAndColors</qualifiedname>
+        <param>
+          <type>MR.Const_ObjectMeshHolder</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertMap</type>
+          <declname>thisToSrc</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceMap?</type>
+          <declname>thisToSrcFaces</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>copies texture, UV-coordinates and vertex colors from given source object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>using given map</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thisToSrc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ada93b7af26b76187488a18c73ab75e57" kindref="member">MR.ObjectVoxels.copyTextureAndColors</ref></computeroutput>. Parameter <computeroutput>thisToSrcFaces</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2698" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2698" bodyend="2703"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a9598c1ff7708b5e5e56e0a418ba3d7c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.copyColors</definition>
+        <argsstring>(MR.Const_ObjectMeshHolder src, MR.Const_VertMap thisToSrc, MR.Const_FaceMap? thisToSrcFaces=null)</argsstring>
+        <name>copyColors</name>
+        <qualifiedname>MR.ObjectVoxels.copyColors</qualifiedname>
+        <param>
+          <type>MR.Const_ObjectMeshHolder</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertMap</type>
+          <declname>thisToSrc</declname>
+        </param>
+        <param>
+          <type>MR.Const_FaceMap?</type>
+          <declname>thisToSrcFaces</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>copies vertex colors from given source object </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>using given map</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>thisToSrc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a9598c1ff7708b5e5e56e0a418ba3d7c6" kindref="member">MR.ObjectVoxels.copyColors</ref></computeroutput>. Parameter <computeroutput>thisToSrcFaces</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2710" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2710" bodyend="2715"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aaeffa471dabd2e5970abccba45133ccb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setAncillaryTexture</definition>
+        <argsstring>(MR._ByValue_MeshTexture texture)</argsstring>
+        <name>setAncillaryTexture</name>
+        <qualifiedname>MR.ObjectVoxels.setAncillaryTexture</qualifiedname>
+        <param>
+          <type>MR._ByValue_MeshTexture</type>
+          <declname>texture</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aaeffa471dabd2e5970abccba45133ccb" kindref="member">MR.ObjectVoxels.setAncillaryTexture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2720" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2720" bodyend="2725"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a70d74f2d772948cdc9c23d0014dcfef3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setAncillaryUVCoords</definition>
+        <argsstring>(MR._ByValue_VertCoords2 uvCoordinates)</argsstring>
+        <name>setAncillaryUVCoords</name>
+        <qualifiedname>MR.ObjectVoxels.setAncillaryUVCoords</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertCoords2</type>
+          <declname>uvCoordinates</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a70d74f2d772948cdc9c23d0014dcfef3" kindref="member">MR.ObjectVoxels.setAncillaryUVCoords</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2730" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2730" bodyend="2735"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0a0d0b6bfc42bd0015e8291381034abe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.updateAncillaryUVCoords</definition>
+        <argsstring>(MR.VertCoords2 updated)</argsstring>
+        <name>updateAncillaryUVCoords</name>
+        <qualifiedname>MR.ObjectVoxels.updateAncillaryUVCoords</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a0a0d0b6bfc42bd0015e8291381034abe" kindref="member">MR.ObjectVoxels.updateAncillaryUVCoords</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2740" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2740" bodyend="2745"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a4fd43601ab313a7d1e487b6e193459d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.clearAncillaryTexture</definition>
+        <argsstring>()</argsstring>
+        <name>clearAncillaryTexture</name>
+        <qualifiedname>MR.ObjectVoxels.clearAncillaryTexture</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a4fd43601ab313a7d1e487b6e193459d6" kindref="member">MR.ObjectVoxels.clearAncillaryTexture</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2750" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2750" bodyend="2755"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1afddf11116477cc018edceb7140ac57d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.ObjectVoxels.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1afddf11116477cc018edceb7140ac57d3" kindref="member">MR.ObjectVoxels.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2761" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2761" bodyend="2766"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a6208254e55362da4f4651c19c92bb9b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.ObjectVoxels.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a6208254e55362da4f4651c19c92bb9b1" kindref="member">MR.ObjectVoxels.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2772" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2772" bodyend="2777"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a89c150d0fab3afd1a4d670a3da097ead" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.ObjectVoxels.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a89c150d0fab3afd1a4d670a3da097ead" kindref="member">MR.ObjectVoxels.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2783" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2783" bodyend="2788"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a223cbad1bbc7117a8cf23a4c01951e31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.ObjectVoxels.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a223cbad1bbc7117a8cf23a4c01951e31" kindref="member">MR.ObjectVoxels.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2794" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2794" bodyend="2799"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0ae554c8b7aa3eebf18de52e3051bbbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.ObjectVoxels.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a0ae554c8b7aa3eebf18de52e3051bbbc" kindref="member">MR.ObjectVoxels.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2805" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2805" bodyend="2810"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a5301487737def832e4f44919e3afc584" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.ObjectVoxels.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a5301487737def832e4f44919e3afc584" kindref="member">MR.ObjectVoxels.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2817" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2817" bodyend="2822"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aa3c216019ecaf6421a57c0b7e24c1c1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.ObjectVoxels.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aa3c216019ecaf6421a57c0b7e24c1c1b" kindref="member">MR.ObjectVoxels.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2829" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2829" bodyend="2837"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a6dee6dde816c2625310fce3a0047d0b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectVoxels.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a6dee6dde816c2625310fce3a0047d0b5" kindref="member">MR.ObjectVoxels.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2844" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2844" bodyend="2850"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a23dc04602cc8d1e1f957cebfdf70e1f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.ObjectVoxels.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a23dc04602cc8d1e1f957cebfdf70e1f0" kindref="member">MR.ObjectVoxels.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2856" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2856" bodyend="2861"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a652a66d1babe10aa4339d4408318d303" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.ObjectVoxels.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a652a66d1babe10aa4339d4408318d303" kindref="member">MR.ObjectVoxels.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2868" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2868" bodyend="2876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a0a8fef194fd3d2a518dbb18b51ce9d9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.ObjectVoxels.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a0a8fef194fd3d2a518dbb18b51ce9d9e" kindref="member">MR.ObjectVoxels.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2883" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2883" bodyend="2888"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a9c873dde4e686986bb9adeda5769a801" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.ObjectVoxels.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a9c873dde4e686986bb9adeda5769a801" kindref="member">MR.ObjectVoxels.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2894" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2894" bodyend="2899"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aa80855eff28beb98abf76a5bfc7bf2c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.ObjectVoxels.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aa80855eff28beb98abf76a5bfc7bf2c5" kindref="member">MR.ObjectVoxels.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2906" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2906" bodyend="2911"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a33010f1b60af0f4d374b315c2d48a4e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.ObjectVoxels.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a33010f1b60af0f4d374b315c2d48a4e8" kindref="member">MR.ObjectVoxels.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2917" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2917" bodyend="2922"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a35de1d089b1b064ebfc7b1fa6a45e321" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.ObjectVoxels.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a35de1d089b1b064ebfc7b1fa6a45e321" kindref="member">MR.ObjectVoxels.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2928" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2928" bodyend="2933"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a376d8c0abb86e5b3f7b2a4cee1a1e469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.ObjectVoxels.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a376d8c0abb86e5b3f7b2a4cee1a1e469" kindref="member">MR.ObjectVoxels.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2939" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2939" bodyend="2944"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a88d40fae4d1e6d5cf795c08d5d7d7cd0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.ObjectVoxels.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a88d40fae4d1e6d5cf795c08d5d7d7cd0" kindref="member">MR.ObjectVoxels.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2950" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2950" bodyend="2955"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a1b273ea0ad484619657e5f5761d46f07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.ObjectVoxels.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a1b273ea0ad484619657e5f5761d46f07" kindref="member">MR.ObjectVoxels.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2962" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2962" bodyend="2967"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a99c0d498f63fb293a8492f42596f1760" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.ObjectVoxels.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a99c0d498f63fb293a8492f42596f1760" kindref="member">MR.ObjectVoxels.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2972" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2972" bodyend="2981"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a30497797a77587b6df745ceea11ab625" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.ObjectVoxels.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a30497797a77587b6df745ceea11ab625" kindref="member">MR.ObjectVoxels.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="2987" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="2987" bodyend="2995"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a255c2a0f107fabe493b338a76c3c2078" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.ObjectVoxels.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>forgets specific transform in given viewport (or forgets all specific transforms for {} input) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a255c2a0f107fabe493b338a76c3c2078" kindref="member">MR.ObjectVoxels.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3002" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3002" bodyend="3007"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a9a4b4b3ac79c82fdce42d3994a9898ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.ObjectVoxels.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a9a4b4b3ac79c82fdce42d3994a9898ac" kindref="member">MR.ObjectVoxels.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3013" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3013" bodyend="3018"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a4792e8aa7d89ed99718199c8707afea9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.ObjectVoxels.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a4792e8aa7d89ed99718199c8707afea9" kindref="member">MR.ObjectVoxels.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3024" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3024" bodyend="3032"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ab7a3af94f6bfeff877b6a4794c246e22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.ObjectVoxels.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ab7a3af94f6bfeff877b6a4794c246e22" kindref="member">MR.ObjectVoxels.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3039" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3039" bodyend="3044"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a59944cb8de8c874094e23173b9e169da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.ObjectVoxels.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a59944cb8de8c874094e23173b9e169da" kindref="member">MR.ObjectVoxels.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3049" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3049" bodyend="3054"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3b87fba2fc9b9ae696fc9c1f8dbe198e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.ObjectVoxels.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a3b87fba2fc9b9ae696fc9c1f8dbe198e" kindref="member">MR.ObjectVoxels.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3059" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3059" bodyend="3064"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a69e74434e82e352a54715acd0c61b027" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectVoxels.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.ObjectVoxels.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a69e74434e82e352a54715acd0c61b027" kindref="member">MR.ObjectVoxels.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3071" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3071" bodyend="3076"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a5b02e07fb2ece1c406c45437d4f0ee91" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectVoxels.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.ObjectVoxels.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a5b02e07fb2ece1c406c45437d4f0ee91" kindref="member">MR.ObjectVoxels.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3086" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3086" bodyend="3092"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a93ee13ab550208620fa6269afc890b86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectVoxels.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.ObjectVoxels.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a93ee13ab550208620fa6269afc890b86" kindref="member">MR.ObjectVoxels.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3100" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3100" bodyend="3105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1aeaafa8c8ea2f27134d71700dc0dd00f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.ObjectVoxels.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1aeaafa8c8ea2f27134d71700dc0dd00f2" kindref="member">MR.ObjectVoxels.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3111" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3111" bodyend="3116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a6e850d28f74138091f772ae34ce6bdec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.ObjectVoxels.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a6e850d28f74138091f772ae34ce6bdec" kindref="member">MR.ObjectVoxels.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3122" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3122" bodyend="3127"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ad3f241f6c10faa181f332e2f632d7696" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectVoxels.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.ObjectVoxels.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ad3f241f6c10faa181f332e2f632d7696" kindref="member">MR.ObjectVoxels.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3133" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3133" bodyend="3138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a00ae5c8b25dec05562a32aff4805b73e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.ObjectVoxels.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a00ae5c8b25dec05562a32aff4805b73e" kindref="member">MR.ObjectVoxels.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3145" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3145" bodyend="3150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a816b545f7de0f30577db39f9d506d0ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.ObjectVoxels.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a816b545f7de0f30577db39f9d506d0ea" kindref="member">MR.ObjectVoxels.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3157" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3157" bodyend="3162"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac8d4967fe5f6298cd85dccca5442bd78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.ObjectVoxels.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ac8d4967fe5f6298cd85dccca5442bd78" kindref="member">MR.ObjectVoxels.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3168" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3168" bodyend="3173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ac7cb23fc3cc0ea9956ad694f5bb322db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectVoxels.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.ObjectVoxels.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ac7cb23fc3cc0ea9956ad694f5bb322db" kindref="member">MR.ObjectVoxels.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3181" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3181" bodyend="3186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1ab091d9c6e0e632c52151d0a6456467b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectVoxels.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.ObjectVoxels.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1ab091d9c6e0e632c52151d0a6456467b1" kindref="member">MR.ObjectVoxels.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3194" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3194" bodyend="3203"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectVoxels_1a3d12765d367de3e10827e420696e6bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ObjectVoxels.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.ObjectVoxels.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1ObjectVoxels_1a3d12765d367de3e10827e420696e6bc5" kindref="member">MR.ObjectVoxels.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="3210" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="3210" bodyend="3219"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class stores information about voxels object Generated from class <computeroutput><ref refid="classMR_1_1ObjectVoxels" kindref="compound">MR.ObjectVoxels</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">MR.ObjectMeshHolder</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ObjectVoxels</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectVoxels</label>
+        <link refid="classMR_1_1ObjectVoxels"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ObjectVoxels &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ObjectVoxels</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectVoxels</label>
+        <link refid="classMR_1_1ObjectVoxels"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ObjectVoxels &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" line="1950" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRObjectVoxels.cs" bodystart="1951" bodyend="3220"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjectVoxels_1a5b02e07fb2ece1c406c45437d4f0ee91" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChild</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a93ee13ab550208620fa6269afc890b86" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ab091d9c6e0e632c52151d0a6456467b1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addTag</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a0f5a2003f87d55b7ab2d5dad9085dd07" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>addTexture</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a13e160ed71d95f8d98dbbe266004a355" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a7d7ba1490d733ab1c422364744826086" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>assign</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a4fd43601ab313a7d1e487b6e193459d6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>clearAncillaryTexture</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a691f07006cedaa178722194d03ce9127" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a8ede9abe426bc91d70f35385bbe613bf" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a432cb2f602b4ce1e2e5f74f20eb60a3a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a2d03a7d3b51d428ff08fa88c1ae48ba8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>construct</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1abdffc516a5cc8605bc75a2549680d544" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a9598c1ff7708b5e5e56e0a418ba3d7c6" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>copyColors</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ada93b7af26b76187488a18c73ab75e57" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>copyTextureAndColors</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a69e74434e82e352a54715acd0c61b027" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a69651423cd342bf1b0bd7c394c0fae70" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>enableVolumeRendering</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a1f19f2df8cc3c036103b8200569053ff" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateActiveBoundsCaches</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a3b509b88c08e225192ccb158929e3024" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>invalidateMetricsCache</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a3cce1e5d39401d2cc9daf313d18ed2c5" prot="package" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a7c7583c36dabeb5da3ab1a6a18aa23a2" prot="package" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aaffde9073b1525816d720b3b6eac47ca" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a07dd6e48bc647186fd900dbb21c76e00" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>ObjectVoxels</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a7aacdadc87c97cd327afce32e7f70d4e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a04254ba4d1416f0c839ff5f49b2fde76" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aa7e56143065a81873b971c1ad739a32c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.ObjectMeshHolder</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a94283b7979dd21ddef59aa765d04a780" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a29dc260e42b59297c39ee016416e3153" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator ObjectVoxels?</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a04e32467f447495cfc3cec1d66c1a53c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator ObjectVoxels?</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a5fa72d338a7eec1b512d2e10292b5504" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>operator ObjectVoxels?</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aeaafa8c8ea2f27134d71700dc0dd00f2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a3d12765d367de3e10827e420696e6bc5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1afddf11116477cc018edceb7140ac57d3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ae61b9ad30ebad708e1da65eca94f33ae" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a255c2a0f107fabe493b338a76c3c2078" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ad3f241f6c10faa181f332e2f632d7696" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>select</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ae0f5652cee6e98e704d4bab0f2b949fd" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectEdges</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ab5a47ddcf157ad1b85e01f3777915d20" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectFaces</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a39b3ed431e1187aaf40908330a936c7f" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>selectVoxels</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aab5f864a62bf795173e25d87f8989a39" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setActiveBounds</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a0ae554c8b7aa3eebf18de52e3051bbbc" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a88d40fae4d1e6d5cf795c08d5d7d7cd0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a00ae5c8b25dec05562a32aff4805b73e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aaeffa471dabd2e5970abccba45133ccb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAncillaryTexture</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a70d74f2d772948cdc9c23d0014dcfef3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setAncillaryUVCoords</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a652a66d1babe10aa4339d4408318d303" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a23dc04602cc8d1e1f957cebfdf70e1f0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a022ecb7e995892b60d3fd4fafeff60be" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setBordersColor</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ad8264c34986482ee1459b29211c8da20" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setBordersColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a33010f1b60af0f4d374b315c2d48a4e8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a43f7761e12c8d7a428e14356de77aac2" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setCreases</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ae32511d490f54444a7d38e4e4a8408e1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setData</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ab8ca35f2f513042ac78c7560340df81c" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ac32ead35108a81fb27835011e87aa120" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDirtyFlagsFast</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a0cec88291cd7bbccbf094c2e1313a6e7" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setDualMarchingCubes</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a50bfebe6148c0efaa7d9a4ab4ce398b9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setEdgesColor</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a099422db020209fffd63f32648fbf489" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a4ff3f999e6ea27f1faf51eb024283006" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setEdgeWidth</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ae52512d8d5f2c163cba84632994eb0ae" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setFacesColorMap</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a3d3a6e71c4bd867a3362ae7fccc72bf3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setFlatShading</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aa3c216019ecaf6421a57c0b7e24c1c1b" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a6dee6dde816c2625310fce3a0047d0b5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a0a8fef194fd3d2a518dbb18b51ce9d9e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a9c873dde4e686986bb9adeda5769a801" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a5301487737def832e4f44919e3afc584" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ab7a3af94f6bfeff877b6a4794c246e22" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aaf9a032157efafec4dcf89e0f8efcc30" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setIsoValue</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a59944cb8de8c874094e23173b9e169da" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a9c30dbd5a90c724c1a9b104b4297dd92" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setMaxSurfaceVertices</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a99c0d498f63fb293a8492f42596f1760" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setName</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a3b87fba2fc9b9ae696fc9c1f8dbe198e" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aa80855eff28beb98abf76a5bfc7bf2c5" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1abc704627b5fd96183aea9a61ef51c732" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setPointsColor</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ae96292afa96d303f2f532c9bb7e65622" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setPointsColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1adf8bfc1fa52ab8cd140cf94ab6186056" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a78aaa9e33b6cc0e3813891abba16e568" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedEdgesColor</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aa4a251ebbc07e1ac62fe389439e2c785" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedEdgesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aec0180bfbe70e0151adbb047a8d82b61" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedFacesColor</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1af2a50ddce711b977999b66394b7f7f0d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setSelectedFacesColorsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a845d10d378d025ee43f715f3e0b4641a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setSerializeFormat</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a35de1d089b1b064ebfc7b1fa6a45e321" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a376d8c0abb86e5b3f7b2a4cee1a1e469" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a3c5195897c54dd28f298e91fc7e35e66" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setTexturePerFace</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ad26747878c315ea7a716779a2baf5fe7" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setTextures</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a1b273ea0ad484619657e5f5761d46f07" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a823b828c56d4e6c6ac9454eb6ff97c34" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setUVCoords</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a50e56f1f49e082b93a5631a1eae041eb" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVertsColorMap</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ac8d4967fe5f6298cd85dccca5442bd78" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a816b545f7de0f30577db39f9d506d0ea" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a6208254e55362da4f4651c19c92bb9b1" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a89c150d0fab3afd1a4d670a3da097ead" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ac24e41d9f665448d7977a773932f36f4" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVolumeRenderActiveVoxels</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1aceca829fc191d565de8981dd3da80036" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVolumeRenderingParams</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ac995d8f7d863649da26f69e6525f6296" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setVoxelPointPositioner</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a4792e8aa7d89ed99718199c8707afea9" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a30497797a77587b6df745ceea11ab625" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setXf</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a9a4b4b3ac79c82fdce42d3994a9898ac" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a6e850d28f74138091f772ae34ce6bdec" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ac7cb23fc3cc0ea9956ad694f5bb322db" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>swap</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a223cbad1bbc7117a8cf23a4c01951e31" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a0a0d0b6bfc42bd0015e8291381034abe" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateAncillaryUVCoords</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a2538d3726615879122d5cf7136c88102" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateData</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a4e12ee42228f2186aefe99fc9998edf3" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateFacesColorMap</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a523887b6548d75c307b30cea16a53afa" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogram</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ac8cb84bac4c55951f056eb38d0209a7d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateHistogramAndSurface</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a3672167203089e0e9130009669bfafc8" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateIsoSurface</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1abd1b03136e67cd244c359393e6439c20" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateTexturePerFace</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a25d0cb6d4caf17ff5381a1bc742259d0" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateTextures</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1ac11a41431b8da1282d7cc871f20e248a" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateUVCoords</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a74ad8d0d142b91680e4dd5d74124a293" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateVdbVolume</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1abae5239a38f1d110b89c27800d7bd525" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>updateVertsColorMap</name></member>
+      <member refid="classMR_1_1ObjectVoxels_1a2bbb4b410c9830b2a52346c1d73a504d" prot="public" virt="non-virtual"><scope>MR::ObjectVoxels</scope><name>varVdbVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

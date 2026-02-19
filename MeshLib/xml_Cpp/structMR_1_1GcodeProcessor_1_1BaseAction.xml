@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1GcodeProcessor_1_1BaseAction" kind="struct" language="C++" prot="public">
+    <compoundname>MR::GcodeProcessor::BaseAction</compoundname>
+    <includes refid="MRGcodeProcessor_8h" local="no">MRGcodeProcessor.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Vec</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga3c7b474aeb8051a9fb1afb927f011f45" kind="variable"><name>path</name></member>
+      <member refid="group__GeneralGroup_1ga9270868b501d221ffbe92fc1d7c8916e" kind="variable"><name>warning</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="24" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="25" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3c7b474aeb8051a9fb1afb927f011f45" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor::BaseAction</scope><name>path</name></member>
+      <member refid="group__GeneralGroup_1ga9270868b501d221ffbe92fc1d7c8916e" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor::BaseAction</scope><name>warning</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

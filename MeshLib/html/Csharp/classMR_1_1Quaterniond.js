@@ -2,6 +2,7 @@ var classMR_1_1Quaterniond =
 [
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a351d46d3c7ce97a351f87ea1a579daed", null ],
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a2da06180ec69fc220e7e4b0d8eb64ea5", null ],
+    [ "Quaterniond", "classMR_1_1Quaterniond.html#abaeb60dcd9b929258b50cf6fead25a9b", null ],
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a836ed72e35726cdde38eedde5a13391d", null ],
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a7896ec3ceebb8b82e456d2708d835d12", null ],
     [ "Quaterniond", "classMR_1_1Quaterniond.html#a02008d4f1a2ee92758c4053c915f80e9", null ],
@@ -14,5 +15,6 @@ var classMR_1_1Quaterniond =
     [ "Quaterniond", "classMR_1_1Quaterniond.html#acfb3e3e4a5b71f9823f40b7471bf97ad", null ],
     [ "a", "classMR_1_1Quaterniond.html#a1c64166123220a4f90de022d08706841", null ],
     [ "b", "classMR_1_1Quaterniond.html#a76b150a8535276fc0833a2aa260636c9", null ],
-    [ "c", "classMR_1_1Quaterniond.html#ae16549e53f8aa016b3d78fef21fa0489", null ]
+    [ "c", "classMR_1_1Quaterniond.html#ae16549e53f8aa016b3d78fef21fa0489", null ],
+    [ "d", "classMR_1_1Quaterniond.html#a2009d331332f84dfca779867929d7ea0", null ]
 ];

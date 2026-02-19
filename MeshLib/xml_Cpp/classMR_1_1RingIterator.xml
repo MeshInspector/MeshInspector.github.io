@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RingIterator" kind="class" language="C++" prot="public">
+    <compoundname>MR::RingIterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">N</basecompoundref>
+    <includes refid="MRRingIterator_8h" local="no">MRRingIterator.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename N</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga32bbf998350ceb82ee238640a29ad585" kind="typedef"><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1gaaccd4999a06a4556d2a8728ed4ae5b15" kind="typedef"><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1ga6a1ef2de2a1f13787a3b231f9ce3b4a4" kind="typedef"><name>difference_type</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga6de13f447b24f9581605e81b8daee05b" kind="variable"><name>edge_</name></member>
+      <member refid="group__GeneralGroup_1ga2243e486dd07ef408ecae6edc971fdbf" kind="variable"><name>first_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gafd5883037f52daf8dec8e4a1dcfd6c41" kind="function"><name>RingIterator</name></member>
+      <member refid="group__GeneralGroup_1ga2ecba1d3bf80da5ada6460e97e3cc5f5" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga63558101e2ac4ecae79ac6fc9cca48bb" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gadd7fd5a21509ef4dc57c7943b3da9920" kind="function"><name>first</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1gae39ba74351f8aebd9c6861a4d5782a6c" kind="friend"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga77a9c15fd7e493319cb7e3dbfaa8ff85" kind="friend"><name>operator!=</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>The iterator to find all edges in a ring of edges (e.g. all edges with same origin or all edges with same left face) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::RingIterator&lt; N &gt;</label>
+        <link refid="classMR_1_1RingIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>N</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::RingIterator&lt; N &gt;</label>
+        <link refid="classMR_1_1RingIterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>N</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="16" bodyend="41"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6a1ef2de2a1f13787a3b231f9ce3b4a4" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>difference_type</name></member>
+      <member refid="group__GeneralGroup_1ga6de13f447b24f9581605e81b8daee05b" prot="private" virt="non-virtual"><scope>MR::RingIterator</scope><name>edge_</name></member>
+      <member refid="group__GeneralGroup_1gadd7fd5a21509ef4dc57c7943b3da9920" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>first</name></member>
+      <member refid="group__GeneralGroup_1ga2243e486dd07ef408ecae6edc971fdbf" prot="private" virt="non-virtual"><scope>MR::RingIterator</scope><name>first_</name></member>
+      <member refid="group__GeneralGroup_1ga32bbf998350ceb82ee238640a29ad585" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1ga77a9c15fd7e493319cb7e3dbfaa8ff85" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga63558101e2ac4ecae79ac6fc9cca48bb" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga2ecba1d3bf80da5ada6460e97e3cc5f5" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gae39ba74351f8aebd9c6861a4d5782a6c" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gafd5883037f52daf8dec8e4a1dcfd6c41" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>RingIterator</name></member>
+      <member refid="group__GeneralGroup_1gaaccd4999a06a4556d2a8728ed4ae5b15" prot="public" virt="non-virtual"><scope>MR::RingIterator</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

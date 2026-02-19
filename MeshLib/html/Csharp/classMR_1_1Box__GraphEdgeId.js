@@ -11,5 +11,5 @@ var classMR_1_1Box__GraphEdgeId =
     [ "get", "classMR_1_1Box__GraphEdgeId.html#afb464d522e164af186ffe0ca992ddbc9", null ],
     [ "incr", "classMR_1_1Box__GraphEdgeId.html#a334ffa7ede2cfd8a5ab4ef9f0f319e96", null ],
     [ "subAssign", "classMR_1_1Box__GraphEdgeId.html#a1f4951cbccf286d03a8a69a1d4858337", null ],
-    [ "_Ref", "classMR_1_1Box__GraphEdgeId.html#aca88f8ff5b1f5abea76ee7a24d2f5dad", null ]
+    [ "id", "classMR_1_1Box__GraphEdgeId.html#aee2b7b860434b41cb282f92370e52319", null ]
 ];

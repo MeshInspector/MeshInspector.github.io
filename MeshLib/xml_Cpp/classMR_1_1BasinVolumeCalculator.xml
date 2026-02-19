@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BasinVolumeCalculator" kind="class" language="C++" prot="public">
+    <compoundname>MR::BasinVolumeCalculator</compoundname>
+    <includes refid="MRBasinVolume_8h" local="no">MRBasinVolume.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga875e1b0b5335b4276b04e6ed2aa93274" kind="variable"><name>sum_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga9b99b97f9c008057ea3281d4f9461d89" kind="function"><name>addTerrainTri</name></member>
+      <member refid="group__GeneralGroup_1gac7233d0978a844b09ce6707086caf51c" kind="function"><name>getVolume</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>the class to compute the volume of water some basin can accumulate, considering that water upper surface has constant z-level </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBasinVolume.h" bodystart="14" bodyend="25"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga9b99b97f9c008057ea3281d4f9461d89" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>addTerrainTri</name></member>
+      <member refid="group__GeneralGroup_1gac7233d0978a844b09ce6707086caf51c" prot="public" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>getVolume</name></member>
+      <member refid="group__GeneralGroup_1ga875e1b0b5335b4276b04e6ed2aa93274" prot="private" virt="non-virtual"><scope>MR::BasinVolumeCalculator</scope><name>sum_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

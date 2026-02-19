@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BaseShellParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::BaseShellParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_BaseShellParameters</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1BaseShellParameters_1ac584187fdf8b38b5b3b562c87dda82ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.BaseShellParameters.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.BaseShellParameters.voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="128" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BaseShellParameters_1aa9dfb65b8ba3d190b4b05f7f336937f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.BaseShellParameters.callBack</definition>
+        <argsstring></argsstring>
+        <name>callBack</name>
+        <qualifiedname>MR.BaseShellParameters.callBack</qualifiedname>
+        <briefdescription>
+<para>Progress callback. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="131" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="131" bodyend="131"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a83dd5aac969b067fc635f3e7956b4f8e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BaseShellParameters.BaseShellParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BaseShellParameters</name>
+        <qualifiedname>MR.BaseShellParameters.BaseShellParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="150" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="150" bodyend="154"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1acc9c2f01782d8623b620c73b988b29ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BaseShellParameters.BaseShellParameters</definition>
+        <argsstring>()</argsstring>
+        <name>BaseShellParameters</name>
+        <qualifiedname>MR.BaseShellParameters.BaseShellParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="160" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="160" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1afa579d7940801df5c21d06f6b74d90ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BaseShellParameters.BaseShellParameters</definition>
+        <argsstring>(float voxelSize, MR.Std._ByValue_Function_BoolFuncFromFloat callBack)</argsstring>
+        <name>BaseShellParameters</name>
+        <qualifiedname>MR.BaseShellParameters.BaseShellParameters</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>callBack</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1BaseShellParameters" kindref="compound">MR.BaseShellParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="171" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="171" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a9b1b0517c195047c0ebdb8eee7b87553" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BaseShellParameters.BaseShellParameters</definition>
+        <argsstring>(MR._ByValue_BaseShellParameters _other)</argsstring>
+        <name>BaseShellParameters</name>
+        <qualifiedname>MR.BaseShellParameters.BaseShellParameters</qualifiedname>
+        <param>
+          <type>MR._ByValue_BaseShellParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BaseShellParameters.BaseShellParameters</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="183" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="183" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a8fa47c1084037d2a12e260b647d70408" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BaseShellParameters.BaseShellParameters</definition>
+        <argsstring>(Const_BaseShellParameters _other)</argsstring>
+        <name>BaseShellParameters</name>
+        <qualifiedname>MR.BaseShellParameters.BaseShellParameters</qualifiedname>
+        <param>
+          <type>Const_BaseShellParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BaseShellParameters.BaseShellParameters</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="195" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="195" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1a6596f06f73ea940d7ef9aa895e7f5371" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BaseShellParameters.BaseShellParameters</definition>
+        <argsstring>(BaseShellParameters _other)</argsstring>
+        <name>BaseShellParameters</name>
+        <qualifiedname>MR.BaseShellParameters.BaseShellParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BaseShellParameters" kindref="compound">BaseShellParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BaseShellParameters.BaseShellParameters</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="200" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="200" bodyend="200"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BaseShellParameters_1ac648f6b557eb23825cd17ce101329683" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BaseShellParameters" kindref="compound">MR.BaseShellParameters</ref></type>
+        <definition>unsafe MR.BaseShellParameters MR.BaseShellParameters.assign</definition>
+        <argsstring>(MR._ByValue_BaseShellParameters _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BaseShellParameters.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_BaseShellParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BaseShellParameters.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="205" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="205" bodyend="212"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1BaseShellParameters" kindref="compound">MR.BaseShellParameters</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1OffsetParameters" kindref="compound">MR.OffsetParameters</ref></computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1GeneralOffsetParameters" kindref="compound">MR.GeneralOffsetParameters</ref></computeroutput> <computeroutput><ref refid="classMR_1_1SharpOffsetParameters" kindref="compound">MR.SharpOffsetParameters</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BaseShellParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BaseShellParameters</label>
+        <link refid="classMR_1_1BaseShellParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BaseShellParameters &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BaseShellParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BaseShellParameters</label>
+        <link refid="classMR_1_1BaseShellParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BaseShellParameters &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" line="124" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MROffset.cs" bodystart="125" bodyend="213"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BaseShellParameters_1ac648f6b557eb23825cd17ce101329683" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>assign</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1a83dd5aac969b067fc635f3e7956b4f8e" prot="package" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1acc9c2f01782d8623b620c73b988b29ff" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1afa579d7940801df5c21d06f6b74d90ad" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1a9b1b0517c195047c0ebdb8eee7b87553" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1a8fa47c1084037d2a12e260b647d70408" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1a6596f06f73ea940d7ef9aa895e7f5371" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>BaseShellParameters</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1aa9dfb65b8ba3d190b4b05f7f336937f2" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>callBack</name></member>
+      <member refid="classMR_1_1BaseShellParameters_1ac584187fdf8b38b5b3b562c87dda82ed" prot="public" virt="non-virtual"><scope>MR::BaseShellParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,10 @@
+var classMR_1_1PolylineUndirectedEdgeIterator =
+[
+    [ "iterator_category", "group__GeneralGroup.html#gab5a25215895e3294bb18f87556136edc", null ],
+    [ "value_type", "group__GeneralGroup.html#gae13501f43ea74a3e5ac234f3811e9241", null ],
+    [ "PolylineUndirectedEdgeIterator", "group__GeneralGroup.html#ga96c120505ea08821c57b4ed64dee6cda", null ],
+    [ "PolylineUndirectedEdgeIterator", "group__GeneralGroup.html#gaceb9e42371e4e109bae6cfd91baa5ec1", null ],
+    [ "operator*", "group__GeneralGroup.html#gac7b41ca64df520fa1cceaefa6adf9cde", null ],
+    [ "operator++", "group__GeneralGroup.html#ga00b9bc17163f0618fd55aa774580ed91", null ],
+    [ "operator==", "group__GeneralGroup.html#gaa10debad27ce2b86f238db3d967a2c22", null ]
+];

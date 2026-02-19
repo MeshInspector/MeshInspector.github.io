@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjKindTraits_3_01FeaturesObjectKind_1_1Cylinder_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;</compoundname>
+    <includes refid="MRFeatureHelpers_8h" local="no">MRFeatureHelpers.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gaae1ec7a21db6e2c624a1e93117a86ec5" kind="typedef"><name>type</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1ga5fb393cfdc8d6023ef41e801c5b62859" kind="variable"><name>name</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" line="62" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatureHelpers.h" bodystart="63" bodyend="66"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga5fb393cfdc8d6023ef41e801c5b62859" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaae1ec7a21db6e2c624a1e93117a86ec5" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits&lt; FeaturesObjectKind::Cylinder &gt;</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

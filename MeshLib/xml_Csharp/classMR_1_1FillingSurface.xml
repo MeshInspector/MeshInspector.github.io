@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FillingSurface" kind="class" language="C#" prot="public">
+    <compoundname>MR::FillingSurface</compoundname>
+    <innerclass refid="classMR_1_1FillingSurface_1_1CellularSurface" prot="public">MR::FillingSurface::CellularSurface</innerclass>
+    <innerclass refid="classMR_1_1FillingSurface_1_1TPMS" prot="public">MR::FillingSurface::TPMS</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1FillingSurface_1a3ff060a54d2569204983c0341bc857d8" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>Kind</name>
+        <qualifiedname>MR.FillingSurface.Kind</qualifiedname>
+        <enumvalue id="classMR_1_1FillingSurface_1a3ff060a54d2569204983c0341bc857d8ae02916974bfd1ce96e2d39b83612ad92" prot="public">
+          <name>TPMS</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1FillingSurface_1a3ff060a54d2569204983c0341bc857d8a71e49f0a64aa14c31736b028670cacf3" prot="public">
+          <name>Cellular</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="768" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="769" bodyend="772"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1adbd95fa02fd120f9d82ecd82b000bce0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>static unsafe MR.Std.Vector_StdString MR.FillingSurface.getKindNames</definition>
+        <argsstring>()</argsstring>
+        <name>getKindNames</name>
+        <qualifiedname>MR.FillingSurface.getKindNames</qualifiedname>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1adbd95fa02fd120f9d82ecd82b000bce0" kindref="member">MR.FillingSurface.getKindNames</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="995" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="995" bodyend="1000"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="4" bodyend="1001"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FillingSurface_1adbd95fa02fd120f9d82ecd82b000bce0" prot="public" virt="non-virtual"><scope>MR::FillingSurface</scope><name>getKindNames</name></member>
+      <member refid="classMR_1_1FillingSurface_1a3ff060a54d2569204983c0341bc857d8" prot="public" virt="non-virtual"><scope>MR::FillingSurface</scope><name>Kind</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

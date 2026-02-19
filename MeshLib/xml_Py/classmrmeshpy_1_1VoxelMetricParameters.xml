@@ -1,0 +1,493 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelMetricParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelMetricParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelMetricParameters_1ab398c3908c547d47a651cbfc2845f716" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelMetricParameters::_offsetof_maxDistRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxDistRatio</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters._offsetof_maxDistRatio</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73040" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelMetricParameters_1a79fd7068349f93b95d83eef9739effe6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelMetricParameters::_offsetof_plane</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_plane</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters._offsetof_plane</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73041" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelMetricParameters_1a1ee4ad5bc37142333c8d0a9730eeb406" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelMetricParameters::_offsetof_quatersMask</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_quatersMask</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters._offsetof_quatersMask</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73042" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelMetricParameters_1aff3f2295cfb361b6a07b42b059a0737b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelMetricParameters::_offsetof_start</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_start</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters._offsetof_start</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VoxelMetricParameters_1ad3b6629eef65942d9cd12dfad051a8b0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VoxelMetricParameters::_offsetof_stop</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stop</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters._offsetof_stop</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73044" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1ac443001fee4638897cc9fc7507fab2f7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelMetricParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73047" bodyend="73048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1aa7326232d528459f248ae84fb213bd26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref></type>
+        <definition> VoxelMetricParameters mrmeshpy.VoxelMetricParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73051" bodyend="73052"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1aa7326232d528459f248ae84fb213bd26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref></type>
+        <definition> VoxelMetricParameters mrmeshpy.VoxelMetricParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73055" bodyend="73056"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1ab75228d7aba13006a35b787f8cf045cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelMetricParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73058" bodyend="73059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1ada9bd62c971635a3c74e659f86ba1f2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelMetricParameters.__init__</definition>
+        <argsstring>(self, VoxelMetricParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelMetricParameters" kindref="compound">VoxelMetricParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73061" bodyend="73064"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1aa92f9238f1b93dca7e78440103761c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelMetricParameters.__init__</definition>
+        <argsstring>(self, int start, int stop, float maxDistRatio, SlicePlane plane, QuarterBit quatersMask)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stop</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDistRatio</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SlicePlane" kindref="compound">SlicePlane</ref></type>
+          <declname>plane</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+          <declname>quatersMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73066" bodyend="73069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1a6be4c37bbd85c0da3e5d697961ac4471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VoxelMetricParameters.maxDistRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDistRatio</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.maxDistRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>max distance ratio: if (dist^2(next,start) + dist^2(next,stop) &gt; maxDistRatio^2*dist^2(start,stop)) - candidate is not processed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73071" bodyend="73074"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1a29aa87c2cf1699a2599585bdb308ba66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelMetricParameters.maxDistRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxDistRatio</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.maxDistRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73076" bodyend="73077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1a040c165746ea62626691c7829bd60222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SlicePlane" kindref="compound">SlicePlane</ref></type>
+        <definition> SlicePlane mrmeshpy.VoxelMetricParameters.plane</definition>
+        <argsstring>(self)</argsstring>
+        <name>plane</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.plane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not None - builds path in one slice of voxels (make sure start and stop has same main axis coordinate)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73079" bodyend="73082"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1a6f40d9e2612b4df01bba975a6d396337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelMetricParameters.plane</definition>
+        <argsstring>(self, SlicePlane arg1)</argsstring>
+        <name>plane</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.plane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SlicePlane" kindref="compound">SlicePlane</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73084" bodyend="73085"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1a5820a09f6b2209d897e0381b7d1a22ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+        <definition> QuarterBit mrmeshpy.VoxelMetricParameters.quatersMask</definition>
+        <argsstring>(self)</argsstring>
+        <name>quatersMask</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.quatersMask</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>quarter of building path, if plane is selected, it should be (LeftLeft | LeftRigth) or (RigthLeft | RightRight) or All
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73087" bodyend="73090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1aaafaaa6e8391db85081cf8f65df01f65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelMetricParameters.quatersMask</definition>
+        <argsstring>(self, QuarterBit arg1)</argsstring>
+        <name>quatersMask</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.quatersMask</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73092" bodyend="73093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1a2ad9686f5f844d2b865c3e65d8e8c5fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelMetricParameters.start</definition>
+        <argsstring>(self)</argsstring>
+        <name>start</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.start</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>start voxel index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73095" bodyend="73098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1a20717bb0afdb7f72ad856774439bcee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelMetricParameters.start</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>start</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.start</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73100" bodyend="73101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1a63471281d7c0f7c1b6230cf35abf8b1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VoxelMetricParameters.stop</definition>
+        <argsstring>(self)</argsstring>
+        <name>stop</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.stop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>stop voxel index
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73103" bodyend="73106"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelMetricParameters_1af99468fb6aa27a32869b4e9b63721204" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelMetricParameters.stop</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>stop</name>
+        <qualifiedname>mrmeshpy.VoxelMetricParameters.stop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73108" bodyend="73109"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VoxelMetricParameters
+
+Parameters for building metric function
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VoxelMetricParameters</label>
+        <link refid="classmrmeshpy_1_1VoxelMetricParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_maxDistRatio</edgelabel>
+          <edgelabel>_offsetof_plane</edgelabel>
+          <edgelabel>_offsetof_quatersMask</edgelabel>
+          <edgelabel>_offsetof_start</edgelabel>
+          <edgelabel>_offsetof_stop</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73034" bodyend="73109"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1ac443001fee4638897cc9fc7507fab2f7" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1ab75228d7aba13006a35b787f8cf045cb" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1ada9bd62c971635a3c74e659f86ba1f2a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1aa92f9238f1b93dca7e78440103761c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1ab398c3908c547d47a651cbfc2845f716" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>_offsetof_maxDistRatio</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a79fd7068349f93b95d83eef9739effe6" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>_offsetof_plane</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a1ee4ad5bc37142333c8d0a9730eeb406" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>_offsetof_quatersMask</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1aff3f2295cfb361b6a07b42b059a0737b" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>_offsetof_start</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1ad3b6629eef65942d9cd12dfad051a8b0" prot="protected" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>_offsetof_stop</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a6be4c37bbd85c0da3e5d697961ac4471" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>maxDistRatio</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a29aa87c2cf1699a2599585bdb308ba66" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>maxDistRatio</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1aa7326232d528459f248ae84fb213bd26" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1aa7326232d528459f248ae84fb213bd26" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a040c165746ea62626691c7829bd60222" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>plane</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a6f40d9e2612b4df01bba975a6d396337" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>plane</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a5820a09f6b2209d897e0381b7d1a22ab" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>quatersMask</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1aaafaaa6e8391db85081cf8f65df01f65" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>quatersMask</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a2ad9686f5f844d2b865c3e65d8e8c5fc" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>start</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a20717bb0afdb7f72ad856774439bcee0" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>start</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1a63471281d7c0f7c1b6230cf35abf8b1d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>stop</name></member>
+      <member refid="classmrmeshpy_1_1VoxelMetricParameters_1af99468fb6aa27a32869b4e9b63721204" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelMetricParameters</scope><name>stop</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

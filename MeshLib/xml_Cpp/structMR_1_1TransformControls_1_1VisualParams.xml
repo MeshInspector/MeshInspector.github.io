@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TransformControls_1_1VisualParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TransformControls::VisualParams</compoundname>
+    <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gac5bfae9a55e1ae115c09b2b2364ca037" kind="enum"><name>SizeType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga1e0d693cf0129f26df13421c207495df" kind="variable"><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga04d8b2be8f4de0ff07797799a68c1697" kind="variable"><name>width</name></member>
+      <member refid="group__GeneralGroup_1gaad87dab677434851f0fe31bcfb20840d" kind="variable"><name>sizeType</name></member>
+      <member refid="group__GeneralGroup_1gacd8740b7982dd1a382270b6374aee8b8" kind="variable"><name>coneRadiusFactor</name></member>
+      <member refid="group__GeneralGroup_1gae43b3a461c666eefa1a0f948bd1b4070" kind="variable"><name>coneSizeFactor</name></member>
+      <member refid="group__GeneralGroup_1ga2000340dcc4b3b42415a4a5113590373" kind="variable"><name>negativeLineExtension</name></member>
+      <member refid="group__GeneralGroup_1gab232521ec4f30e4a605bf3081a838aab" kind="variable"><name>positiveLineExtension</name></member>
+      <member refid="group__GeneralGroup_1ga73b98ea29d5b5bd3e934357536430ea4" kind="variable"><name>rotationColors</name></member>
+      <member refid="group__GeneralGroup_1ga263e10cb84fcd843581cc2aeea08d6a2" kind="variable"><name>translationColors</name></member>
+      <member refid="group__GeneralGroup_1ga5de0577e4227b12317f5bd798b77fbec" kind="variable"><name>helperLineColor</name></member>
+      <member refid="group__GeneralGroup_1ga45ae30c1c11cd9efdb0c1ffb4e90c2f7" kind="variable"><name>activeLineColor</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga4d1df5643f784225a03cc558c03d81cf" kind="function"><name>update</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::TransformControls::VisualParams</label>
+        <link refid="structMR_1_1TransformControls_1_1VisualParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>activeLineColor</edgelabel>
+          <edgelabel>helperLineColor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="136" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="137" bodyend="169"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga45ae30c1c11cd9efdb0c1ffb4e90c2f7" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>activeLineColor</name></member>
+      <member refid="group__GeneralGroup_1gacd8740b7982dd1a382270b6374aee8b8" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>coneRadiusFactor</name></member>
+      <member refid="group__GeneralGroup_1gae43b3a461c666eefa1a0f948bd1b4070" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>coneSizeFactor</name></member>
+      <member refid="group__GeneralGroup_1ga5de0577e4227b12317f5bd798b77fbec" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>helperLineColor</name></member>
+      <member refid="group__GeneralGroup_1ga2000340dcc4b3b42415a4a5113590373" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>negativeLineExtension</name></member>
+      <member refid="group__GeneralGroup_1gab232521ec4f30e4a605bf3081a838aab" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>positiveLineExtension</name></member>
+      <member refid="group__GeneralGroup_1ga1e0d693cf0129f26df13421c207495df" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga73b98ea29d5b5bd3e934357536430ea4" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>rotationColors</name></member>
+      <member refid="group__GeneralGroup_1gac5bfae9a55e1ae115c09b2b2364ca037" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>SizeType</name></member>
+      <member refid="group__GeneralGroup_1gaad87dab677434851f0fe31bcfb20840d" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>sizeType</name></member>
+      <member refid="group__GeneralGroup_1ga263e10cb84fcd843581cc2aeea08d6a2" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>translationColors</name></member>
+      <member refid="group__GeneralGroup_1ga4d1df5643f784225a03cc558c03d81cf" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>update</name></member>
+      <member refid="group__GeneralGroup_1ga04d8b2be8f4de0ff07797799a68c1697" prot="public" virt="non-virtual"><scope>MR::TransformControls::VisualParams</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

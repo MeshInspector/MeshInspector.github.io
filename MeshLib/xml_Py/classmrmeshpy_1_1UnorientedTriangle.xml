@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UnorientedTriangle" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UnorientedTriangle</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UnorientedTriangle_1a9a6648436b57ea020946d23d4dd9efd6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.UnorientedTriangle::_offsetof_verts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_verts</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle._offsetof_verts</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60400" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1a58ad3373867cfa3eebe049f2e3dfc273" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnorientedTriangle.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60404" bodyend="60405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1ab999fb5f5565ca396250e4d09bdc4f28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref></type>
+        <definition> UnorientedTriangle mrmeshpy.UnorientedTriangle.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60408" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60408" bodyend="60409"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1ab999fb5f5565ca396250e4d09bdc4f28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref></type>
+        <definition> UnorientedTriangle mrmeshpy.UnorientedTriangle.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60412" bodyend="60413"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1a7f63766c1b07f99cc9fd15fc66f883f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UnorientedTriangle.__eq__</definition>
+        <argsstring>(self, UnorientedTriangle b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60414" bodyend="60415"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1aa8f32c40569d9679657b380af4db7273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.UnorientedTriangle.__getitem__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60417" bodyend="60418"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1aa8f32c40569d9679657b380af4db7273" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.UnorientedTriangle.__getitem__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60420" bodyend="60421"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1adea8c915bec38ba2133be2b7d7c882a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnorientedTriangle.__init__</definition>
+        <argsstring>(self, std_array_Id_VertTag_3 inVs, bool_output outFlipped=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+          <declname>inVs</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>outFlipped</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60423" bodyend="60424"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1a456b7aa6ca2a994433c3914793c85abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnorientedTriangle.__init__</definition>
+        <argsstring>(self, UnorientedTriangle arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60426" bodyend="60429"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1a94c246b77750990cb56b8f1495945e07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UnorientedTriangle.__setitem__</definition>
+        <argsstring>(self, int arg0, VertId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60430" bodyend="60431"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1a3b20826cc2cacdc5ea4de35a03303d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.UnorientedTriangle.convert_to_ThreeVertIds</definition>
+        <argsstring>(self)</argsstring>
+        <name>convert_to_ThreeVertIds</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.convert_to_ThreeVertIds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60432" bodyend="60433"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1abb7b1cbae95f49f946f9290d7033646f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.UnorientedTriangle.convert_to_const_ThreeVertIds</definition>
+        <argsstring>(self)</argsstring>
+        <name>convert_to_const_ThreeVertIds</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.convert_to_const_ThreeVertIds</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60434" bodyend="60435"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UnorientedTriangle_1aa551dd2855223c3d438b9bb547c8337e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__Id__VertTag__3" kindref="compound">std_array_Id_VertTag_3</ref></type>
+        <definition> std_array_Id_VertTag_3 mrmeshpy.UnorientedTriangle.getFlipped</definition>
+        <argsstring>(self)</argsstring>
+        <name>getFlipped</name>
+        <qualifiedname>mrmeshpy.UnorientedTriangle.getFlipped</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns this triangle with the opposite orientation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60436" bodyend="60439"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UnorientedTriangle
+
+describes a triangle as three vertex IDs sorted in a way to quickly find same triangles
+irrespective of vertex order (clockwise or counterclockwise)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.UnorientedTriangle</label>
+        <link refid="classmrmeshpy_1_1UnorientedTriangle"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_verts</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60393" bodyend="60439"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1a7f63766c1b07f99cc9fd15fc66f883f3" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1aa8f32c40569d9679657b380af4db7273" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1aa8f32c40569d9679657b380af4db7273" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1a58ad3373867cfa3eebe049f2e3dfc273" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1adea8c915bec38ba2133be2b7d7c882a4" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1a456b7aa6ca2a994433c3914793c85abe" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1a94c246b77750990cb56b8f1495945e07" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1a9a6648436b57ea020946d23d4dd9efd6" prot="protected" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>_offsetof_verts</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1abb7b1cbae95f49f946f9290d7033646f" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>convert_to_const_ThreeVertIds</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1a3b20826cc2cacdc5ea4de35a03303d5b" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>convert_to_ThreeVertIds</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1aa551dd2855223c3d438b9bb547c8337e" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>getFlipped</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1ab999fb5f5565ca396250e4d09bdc4f28" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UnorientedTriangle_1ab999fb5f5565ca396250e4d09bdc4f28" prot="public" virt="non-virtual"><scope>mrmeshpy::UnorientedTriangle</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonSceneObjectsListDrawer_1_1LastDepthInfo" kind="struct" language="C++" prot="private">
+    <compoundname>MR::RibbonSceneObjectsListDrawer::LastDepthInfo</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga0cf6b1772ccdf0e8c6cfd76182bd2182" kind="variable"><name>screenPosY</name></member>
+      <member refid="group__GeneralGroup_1gad780242bd07f5443e169a2dd593d1187" kind="variable"><name>id</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" line="48" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonSceneObjectsListDrawer.h" bodystart="49" bodyend="52"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad780242bd07f5443e169a2dd593d1187" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer::LastDepthInfo</scope><name>id</name></member>
+      <member refid="group__GeneralGroup_1ga0cf6b1772ccdf0e8c6cfd76182bd2182" prot="public" virt="non-virtual"><scope>MR::RibbonSceneObjectsListDrawer::LastDepthInfo</scope><name>screenPosY</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

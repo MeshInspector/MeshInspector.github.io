@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PolylineComponents" kind="class" language="C#" prot="public">
+    <compoundname>MR::PolylineComponents</compoundname>
+    <innerclass refid="classMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" prot="public">MR::PolylineComponents::LargeByLengthComponentsSettings</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1aac8aa12d2aeaf6ac06db04990399c766" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.PolylineComponents.getNumComponents</definition>
+        <argsstring>(MR.Const_PolylineTopology topology)</argsstring>
+        <name>getNumComponents</name>
+        <qualifiedname>MR.PolylineComponents.getNumComponents</qualifiedname>
+        <param>
+          <type>MR.Const_PolylineTopology</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>returns the number of connected components in polyline Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1aac8aa12d2aeaf6ac06db04990399c766" kindref="member">MR.PolylineComponents.getNumComponents</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="253" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="253" bodyend="258"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1ac1bd7fa0df0c3b8ce0847388b914bc4c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>static unsafe MR.UndirectedEdgeBitSet MR.PolylineComponents.getComponent</definition>
+        <argsstring>(MR.Const_PolylineTopology topology, MR.UndirectedEdgeId id)</argsstring>
+        <name>getComponent</name>
+        <qualifiedname>MR.PolylineComponents.getComponent</qualifiedname>
+        <param>
+          <type>MR.Const_PolylineTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>returns one connected component containing given undirected edge id, not effective to call more than once, if several components are needed use getAllComponents Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1ac1bd7fa0df0c3b8ce0847388b914bc4c" kindref="member">MR.PolylineComponents.getComponent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="265" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="265" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1a2931ec5e8038519199dfc4935ae7a483" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRUndirectedEdgeBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRUndirectedEdgeBitSet MR.PolylineComponents.getAllComponents</definition>
+        <argsstring>(MR.Const_PolylineTopology topology)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR.PolylineComponents.getAllComponents</qualifiedname>
+        <param>
+          <type>MR.Const_PolylineTopology</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>gets all connected components of polyline topology </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>be careful, if mesh is large enough and has many components, the memory overflow will occur Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a2931ec5e8038519199dfc4935ae7a483" kindref="member">MR.PolylineComponents.getAllComponents</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="277" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="277" bodyend="282"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1a6813394e3bf30b7a6b26b4bffdde9160" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_StdVectorMRUndirectedEdgeBitSet_Int</type>
+        <definition>static unsafe MR.Std.Pair_StdVectorMRUndirectedEdgeBitSet_Int MR.PolylineComponents.getAllComponents</definition>
+        <argsstring>(MR.Const_PolylineTopology topology, int maxComponentCount)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR.PolylineComponents.getAllComponents</qualifiedname>
+        <param>
+          <type>MR.Const_PolylineTopology</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <briefdescription>
+<para>gets all connected components of polyline topology \detail if components number more than the maxComponentCount, they will be combined into groups of the same size </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a2931ec5e8038519199dfc4935ae7a483" kindref="member">MR.PolylineComponents.getAllComponents</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="291" column="76" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="291" bodyend="296"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRUndirectedEdgeBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRUndirectedEdgeBitSet MR.PolylineComponents.getNLargeByLengthComponents</definition>
+        <argsstring>(MR.Const_Polyline2 polyline, MR.PolylineComponents.Const_LargeByLengthComponentsSettings settings)</argsstring>
+        <name>getNLargeByLengthComponents</name>
+        <qualifiedname>MR.PolylineComponents.getNLargeByLengthComponents</qualifiedname>
+        <param>
+          <type>MR.Const_Polyline2</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>MR.PolylineComponents.Const_LargeByLengthComponentsSettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="302" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="302" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1ad37824b60abf4a0b56c1752d519a22db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRUndirectedEdgeBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRUndirectedEdgeBitSet MR.PolylineComponents.getNLargeByLengthComponents</definition>
+        <argsstring>(MR.Const_Polyline3 polyline, MR.PolylineComponents.Const_LargeByLengthComponentsSettings settings)</argsstring>
+        <name>getNLargeByLengthComponents</name>
+        <qualifiedname>MR.PolylineComponents.getNLargeByLengthComponents</qualifiedname>
+        <param>
+          <type>MR.Const_Polyline3</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>MR.PolylineComponents.Const_LargeByLengthComponentsSettings</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>returns requested number of largest by length connected components in descending by length order Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" kindref="member">MR.PolylineComponents.getNLargeByLengthComponents</ref>&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="313" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="313" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1a8927ee4c0860d653321c273dd1a94bbb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRUndirectedEdgeId" kindref="compound">MR.UnionFind_MRUndirectedEdgeId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRUndirectedEdgeId MR.PolylineComponents.getUnionFindStructure</definition>
+        <argsstring>(MR.Const_PolylineTopology topology)</argsstring>
+        <name>getUnionFindStructure</name>
+        <qualifiedname>MR.PolylineComponents.getUnionFindStructure</qualifiedname>
+        <param>
+          <type>MR.Const_PolylineTopology</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>gets union-find structure for given polyline Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a8927ee4c0860d653321c273dd1a94bbb" kindref="member">MR.PolylineComponents.getUnionFindStructure</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="324" column="61" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="324" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>static unsafe MR.UndirectedEdgeBitSet MR.PolylineComponents.getLargestComponent</definition>
+        <argsstring>(MR.Const_Polyline2 polyline, float? minLength=null, MR.Misc.InOut&lt; int &gt;? numSmallerComponents=null)</argsstring>
+        <name>getLargestComponent</name>
+        <qualifiedname>MR.PolylineComponents.getLargestComponent</qualifiedname>
+        <param>
+          <type>MR.Const_Polyline2</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>minLength</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; int &gt;?</type>
+          <declname>numSmallerComponents</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&lt;<ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref>&gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="336" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="336" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineComponents_1a68127128d29f574351571d70ee451b3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref></type>
+        <definition>static unsafe MR.UndirectedEdgeBitSet MR.PolylineComponents.getLargestComponent</definition>
+        <argsstring>(MR.Const_Polyline3 polyline, float? minLength=null, MR.Misc.InOut&lt; int &gt;? numSmallerComponents=null)</argsstring>
+        <name>getLargestComponent</name>
+        <qualifiedname>MR.PolylineComponents.getLargestComponent</qualifiedname>
+        <param>
+          <type>MR.Const_Polyline3</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>float?</type>
+          <declname>minLength</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; int &gt;?</type>
+          <declname>numSmallerComponents</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns largest by length component Generated from function <computeroutput><ref refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" kindref="member">MR.PolylineComponents.getLargestComponent</ref>&lt;<ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref>&gt;</computeroutput>. Parameter <computeroutput>minLength</computeroutput> defaults to <computeroutput>0</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="352" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="352" bodyend="361"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineComponents.cs" bodystart="4" bodyend="362"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PolylineComponents_1a2931ec5e8038519199dfc4935ae7a483" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getAllComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1a6813394e3bf30b7a6b26b4bffdde9160" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getAllComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1ac1bd7fa0df0c3b8ce0847388b914bc4c" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getComponent</name></member>
+      <member refid="classMR_1_1PolylineComponents_1a9da51d55fa09d7e80f9b80bfc83fdcaa" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getLargestComponent</name></member>
+      <member refid="classMR_1_1PolylineComponents_1a68127128d29f574351571d70ee451b3d" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getLargestComponent</name></member>
+      <member refid="classMR_1_1PolylineComponents_1af2132aa8545ff1dca82d24706b64f11d" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getNLargeByLengthComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1ad37824b60abf4a0b56c1752d519a22db" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getNLargeByLengthComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1aac8aa12d2aeaf6ac06db04990399c766" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getNumComponents</name></member>
+      <member refid="classMR_1_1PolylineComponents_1a8927ee4c0860d653321c273dd1a94bbb" prot="public" virt="non-virtual"><scope>MR::PolylineComponents</scope><name>getUnionFindStructure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

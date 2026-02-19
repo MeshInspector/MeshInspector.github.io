@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FindInnerShellSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FindInnerShellSettings</compoundname>
+    <includes refid="MRInnerShell_8h" local="no">MRInnerShell.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga39404f52d441394b9b7ca203201d7899" kind="variable"><name>side</name></member>
+      <member refid="group__GeneralGroup_1gab289320eeea5440ea6355342f4b16099" kind="variable"><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1gac15bd082d7f22aa7db37b1263fb2f8e4" kind="variable"><name>useWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga5e16efa54e3c7e27d31e800475109fcb" kind="variable"><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1ga376bbe83d190953bcff30be0a55cac6c" kind="variable"><name>minVertsInComp</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="19" bodyend="36"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab289320eeea5440ea6355342f4b16099" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>maxDistSq</name></member>
+      <member refid="group__GeneralGroup_1ga376bbe83d190953bcff30be0a55cac6c" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>minVertsInComp</name></member>
+      <member refid="group__GeneralGroup_1ga39404f52d441394b9b7ca203201d7899" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>side</name></member>
+      <member refid="group__GeneralGroup_1gac15bd082d7f22aa7db37b1263fb2f8e4" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>useWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga5e16efa54e3c7e27d31e800475109fcb" prot="public" virt="non-virtual"><scope>MR::FindInnerShellSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

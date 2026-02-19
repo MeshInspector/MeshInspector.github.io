@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneStateAndCheck" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneStateAndCheck</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Checks...</basecompoundref>
+    <includes refid="MRSceneStateCheck_8h" local="no">MRSceneStateCheck.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Checks</declname>
+        <defname>Checks</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaeeef0efbedfc98eea8fe606f14398bc2" kind="function"><name>~SceneStateAndCheck</name></member>
+      <member refid="group__GeneralGroup_1ga24f4c50b741150585aac2dfc9451c763" kind="function"><name>isAvailable</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>checks that all of argument checks are true </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Checks...</label>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateAndCheck&lt; Checks &gt;</label>
+        <link refid="classMR_1_1SceneStateAndCheck"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Checks...</label>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateAndCheck&lt; Checks &gt;</label>
+        <link refid="classMR_1_1SceneStateAndCheck"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="187" bodyend="210"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga24f4c50b741150585aac2dfc9451c763" prot="public" virt="virtual"><scope>MR::SceneStateAndCheck</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gaeeef0efbedfc98eea8fe606f14398bc2" prot="public" virt="virtual"><scope>MR::SceneStateAndCheck</scope><name>~SceneStateAndCheck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

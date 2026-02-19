@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ICPGroupPairs" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ICPGroupPairs</compoundname>
+    <basecompoundref refid="structMR_1_1IPointPairs" prot="public" virt="non-virtual">MR::IPointPairs</basecompoundref>
+    <includes refid="MRMultiwayICP_8h" local="no">MRMultiwayICP.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga6d040d69ff557db2395159717b51b08d" kind="variable"><name>vec</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga191ed6b48bd26dd077d33ea6eb50bd21" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gaf65b16a9e3eb716ade27a46bde4dac29" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga1e4223327adb1bcde9e327c4234ec950" kind="function"><name>size</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ICPGroupPairs</label>
+        <link refid="structMR_1_1ICPGroupPairs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IPointPairs</label>
+        <link refid="structMR_1_1IPointPairs"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::BitSet</label>
+        <link refid="classMR_1_1BitSet"/>
+      </node>
+      <node id="1">
+        <label>MR::ICPGroupPairs</label>
+        <link refid="structMR_1_1ICPGroupPairs"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IPointPairs</label>
+        <link refid="structMR_1_1IPointPairs"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>active</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="23" bodyend="28"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab838ce7cceeb506514a4124c9587f032" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>active</name></member>
+      <member refid="group__GeneralGroup_1gadbe70eca8faa13ce9fa22e4f15cb2d5a" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1ga3fcd8de5d97b49b84e9c984b494f10dc" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1ga995abf137ecf1f8e0771844779cc9405" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>IPointPairs</name></member>
+      <member refid="group__GeneralGroup_1gabb689ad7795aaeb7236800bec89a0cab" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gab45a73b14fac3dc080a3e99e4070de26" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga191ed6b48bd26dd077d33ea6eb50bd21" prot="public" virt="virtual"><scope>MR::ICPGroupPairs</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gaf65b16a9e3eb716ade27a46bde4dac29" prot="public" virt="virtual"><scope>MR::ICPGroupPairs</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga1e4223327adb1bcde9e327c4234ec950" prot="public" virt="virtual"><scope>MR::ICPGroupPairs</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga6d040d69ff557db2395159717b51b08d" prot="public" virt="non-virtual"><scope>MR::ICPGroupPairs</scope><name>vec</name></member>
+      <member refid="group__GeneralGroup_1gae584abe0ef15be5d6f3fc244f176751b" prot="public" virt="virtual"><scope>MR::ICPGroupPairs</scope><name>~IPointPairs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

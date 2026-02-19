@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ConnectionHolder" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ConnectionHolder</compoundname>
+    <basecompoundref refid="structMR_1_1IConnectable" prot="public" virt="virtual">MR::IConnectable</basecompoundref>
+    <derivedcompoundref refid="structMR_1_1CharPressedListener" prot="public" virt="non-virtual">MR::CharPressedListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1CursorEntranceListener" prot="public" virt="non-virtual">MR::CursorEntranceListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1DragDropListener" prot="public" virt="non-virtual">MR::DragDropListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1DragEndListener" prot="public" virt="non-virtual">MR::DragEndListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1DragEntranceListener" prot="public" virt="non-virtual">MR::DragEntranceListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1DragListener" prot="public" virt="non-virtual">MR::DragListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1DragOverListener" prot="public" virt="non-virtual">MR::DragOverListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1DragStartListener" prot="public" virt="non-virtual">MR::DragStartListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1DrawListener" prot="public" virt="non-virtual">MR::DrawListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1DrawSceneUiListener" prot="public" virt="non-virtual">MR::DrawSceneUiListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1InterruptCloseListener" prot="public" virt="non-virtual">MR::InterruptCloseListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1KeyDownListener" prot="public" virt="non-virtual">MR::KeyDownListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1KeyRepeatListener" prot="public" virt="non-virtual">MR::KeyRepeatListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1KeyUpListener" prot="public" virt="non-virtual">MR::KeyUpListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1MouseClickListener" prot="public" virt="non-virtual">MR::MouseClickListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1MouseDownListener" prot="public" virt="non-virtual">MR::MouseDownListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1MouseMoveListener" prot="public" virt="non-virtual">MR::MouseMoveListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1MouseScrollListener" prot="public" virt="non-virtual">MR::MouseScrollListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1MouseUpListener" prot="public" virt="non-virtual">MR::MouseUpListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1NameTagClickListener" prot="public" virt="non-virtual">MR::NameTagClickListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PostDrawListener" prot="public" virt="non-virtual">MR::PostDrawListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PostFocusListener" prot="public" virt="non-virtual">MR::PostFocusListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PostRescaleListener" prot="public" virt="non-virtual">MR::PostRescaleListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PostResizeListener" prot="public" virt="non-virtual">MR::PostResizeListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PreDrawListener" prot="public" virt="non-virtual">MR::PreDrawListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PreSetupViewListener" prot="public" virt="non-virtual">MR::PreSetupViewListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1SpaceMouseDownListener" prot="public" virt="non-virtual">MR::SpaceMouseDownListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1SpaceMouseMoveListener" prot="public" virt="non-virtual">MR::SpaceMouseMoveListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1SpaceMouseUpListener" prot="public" virt="non-virtual">MR::SpaceMouseUpListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchEndListener" prot="public" virt="non-virtual">MR::TouchEndListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchMoveListener" prot="public" virt="non-virtual">MR::TouchMoveListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchStartListener" prot="public" virt="non-virtual">MR::TouchStartListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchpadRotateGestureBeginListener" prot="public" virt="non-virtual">MR::TouchpadRotateGestureBeginListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchpadRotateGestureEndListener" prot="public" virt="non-virtual">MR::TouchpadRotateGestureEndListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchpadRotateGestureUpdateListener" prot="public" virt="non-virtual">MR::TouchpadRotateGestureUpdateListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchpadSwipeGestureBeginListener" prot="public" virt="non-virtual">MR::TouchpadSwipeGestureBeginListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchpadSwipeGestureEndListener" prot="public" virt="non-virtual">MR::TouchpadSwipeGestureEndListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchpadSwipeGestureUpdateListener" prot="public" virt="non-virtual">MR::TouchpadSwipeGestureUpdateListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchpadZoomGestureBeginListener" prot="public" virt="non-virtual">MR::TouchpadZoomGestureBeginListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchpadZoomGestureEndListener" prot="public" virt="non-virtual">MR::TouchpadZoomGestureEndListener</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1TouchpadZoomGestureUpdateListener" prot="public" virt="non-virtual">MR::TouchpadZoomGestureUpdateListener</derivedcompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="protected-attrib">
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" kind="variable"><name>connection_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" kind="function"><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" kind="function"><name>disconnect</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="29">
+        <label>MR::AncillaryImGuiLabel</label>
+        <link refid="classMR_1_1AncillaryImGuiLabel"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::CharPressedListener</label>
+        <link refid="structMR_1_1CharPressedListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::CursorEntranceListener</label>
+        <link refid="structMR_1_1CursorEntranceListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::DragDropListener</label>
+        <link refid="structMR_1_1DragDropListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::DragEndListener</label>
+        <link refid="structMR_1_1DragEndListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::DragEntranceListener</label>
+        <link refid="structMR_1_1DragEntranceListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::DragListener</label>
+        <link refid="structMR_1_1DragListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::DragOverListener</label>
+        <link refid="structMR_1_1DragOverListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::DragStartListener</label>
+        <link refid="structMR_1_1DragStartListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::DrawListener</label>
+        <link refid="structMR_1_1DrawListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::DrawSceneUiListener</label>
+        <link refid="structMR_1_1DrawSceneUiListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="13">
+        <label>MR::InterruptCloseListener</label>
+        <link refid="structMR_1_1InterruptCloseListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::KeyDownListener</label>
+        <link refid="structMR_1_1KeyDownListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::KeyRepeatListener</label>
+        <link refid="structMR_1_1KeyRepeatListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::KeyUpListener</label>
+        <link refid="structMR_1_1KeyUpListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::MouseClickListener</label>
+        <link refid="structMR_1_1MouseClickListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::MouseDownListener</label>
+        <link refid="structMR_1_1MouseDownListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MR::MouseMoveListener</label>
+        <link refid="structMR_1_1MouseMoveListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MR::MouseScrollListener</label>
+        <link refid="structMR_1_1MouseScrollListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MR::MouseUpListener</label>
+        <link refid="structMR_1_1MouseUpListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MR::NameTagClickListener</label>
+        <link refid="structMR_1_1NameTagClickListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MR::PostDrawListener</label>
+        <link refid="structMR_1_1PostDrawListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MR::PostFocusListener</label>
+        <link refid="structMR_1_1PostFocusListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MR::PostRescaleListener</label>
+        <link refid="structMR_1_1PostRescaleListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MR::PostResizeListener</label>
+        <link refid="structMR_1_1PostResizeListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MR::PreDrawListener</label>
+        <link refid="structMR_1_1PreDrawListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MR::PreSetupViewListener</label>
+        <link refid="structMR_1_1PreSetupViewListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MR::SpaceMouse::HandlerHidapi</label>
+        <link refid="classMR_1_1SpaceMouse_1_1HandlerHidapi"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MR::SpaceMouseDownListener</label>
+        <link refid="structMR_1_1SpaceMouseDownListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MR::SpaceMouseMoveListener</label>
+        <link refid="structMR_1_1SpaceMouseMoveListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MR::SpaceMouseUpListener</label>
+        <link refid="structMR_1_1SpaceMouseUpListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MR::TouchEndListener</label>
+        <link refid="structMR_1_1TouchEndListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MR::TouchMoveListener</label>
+        <link refid="structMR_1_1TouchMoveListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MR::TouchStartListener</label>
+        <link refid="structMR_1_1TouchStartListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MR::TouchpadRotateGestureBeginListener</label>
+        <link refid="structMR_1_1TouchpadRotateGestureBeginListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MR::TouchpadRotateGestureEndListener</label>
+        <link refid="structMR_1_1TouchpadRotateGestureEndListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MR::TouchpadRotateGestureUpdateListener</label>
+        <link refid="structMR_1_1TouchpadRotateGestureUpdateListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MR::TouchpadSwipeGestureBeginListener</label>
+        <link refid="structMR_1_1TouchpadSwipeGestureBeginListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>MR::TouchpadSwipeGestureEndListener</label>
+        <link refid="structMR_1_1TouchpadSwipeGestureEndListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MR::TouchpadSwipeGestureUpdateListener</label>
+        <link refid="structMR_1_1TouchpadSwipeGestureUpdateListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MR::TouchpadZoomGestureBeginListener</label>
+        <link refid="structMR_1_1TouchpadZoomGestureBeginListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MR::TouchpadZoomGestureEndListener</label>
+        <link refid="structMR_1_1TouchpadZoomGestureEndListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>MR::TouchpadZoomGestureUpdateListener</label>
+        <link refid="structMR_1_1TouchpadZoomGestureUpdateListener"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="23" bodyend="28"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2212095d3996892cff578320ac2ce746" prot="public" virt="pure-virtual"><scope>MR::ConnectionHolder</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::ConnectionHolder</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::ConnectionHolder</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::ConnectionHolder</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::ConnectionHolder</scope><name>~IConnectable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

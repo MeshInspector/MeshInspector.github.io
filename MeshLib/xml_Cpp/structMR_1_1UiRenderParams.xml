@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UiRenderParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UiRenderParams</compoundname>
+    <basecompoundref refid="structMR_1_1BaseRenderParams" prot="public" virt="non-virtual">MR::BaseRenderParams</basecompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" kind="typedef"><name>UiTaskList</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga5f69c0eb3c0590c0bd49dbcdddbc0eca" kind="variable"><name>tasks</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+      </node>
+      <node id="1">
+        <label>MR::UiRenderParams</label>
+        <link refid="structMR_1_1UiRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::UiRenderParams</label>
+        <link refid="structMR_1_1UiRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ViewportId</label>
+        <link refid="classMR_1_1ViewportId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="110" bodyend="115"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>projMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga5f69c0eb3c0590c0bd49dbcdddbc0eca" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>tasks</name></member>
+      <member refid="group__GeneralGroup_1ga7db0595bba979c4028be5875ef3e067d" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>UiTaskList</name></member>
+      <member refid="group__GeneralGroup_1ga564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="group__GeneralGroup_1gaabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewport</name></member>
+      <member refid="group__GeneralGroup_1gadf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::UiRenderParams</scope><name>viewportId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

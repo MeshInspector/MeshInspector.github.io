@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kind="class" language="C#" prot="public">
+    <compoundname>MR::MapOrHashMap_MRFaceId_MRFaceId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MapOrHashMap_MRFaceId_MRFaceId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae3bd65964d28050e8198af728bb8e318" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId</type>
+        <definition>new unsafe MR.Std.Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId MR.MapOrHashMap_MRFaceId_MRFaceId.var</definition>
+        <argsstring></argsstring>
+        <name>var</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.var</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="162" column="83" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ac4f5f7b4c1a7d101b1f291d7ebef60d0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MapOrHashMap_MRFaceId_MRFaceId</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="181" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="181" bodyend="185"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aeb7dfbc97078a4a7246c9925f44f8dc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</definition>
+        <argsstring>()</argsstring>
+        <name>MapOrHashMap_MRFaceId_MRFaceId</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="191" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="191" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aab00c89ee90f8ddb124b883f4aac4a26" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</definition>
+        <argsstring>(MR.Std._ByValue_Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId var)</argsstring>
+        <name>MapOrHashMap_MRFaceId_MRFaceId</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</qualifiedname>
+        <param>
+          <type>MR.Std._ByValue_Variant_MRFaceMap_PhmapFlatHashMapMRFaceIdMRFaceId</type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="202" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="202" bodyend="209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a0de51cb52b99280136137c7b90e652e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</definition>
+        <argsstring>(MR._ByValue_MapOrHashMap_MRFaceId_MRFaceId _other)</argsstring>
+        <name>MapOrHashMap_MRFaceId_MRFaceId</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</qualifiedname>
+        <param>
+          <type>MR._ByValue_MapOrHashMap_MRFaceId_MRFaceId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::MapOrHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="214" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="214" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aed4d374a07362e6a5f718c8abe4719fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</definition>
+        <argsstring>(Const_MapOrHashMap_MRFaceId_MRFaceId _other)</argsstring>
+        <name>MapOrHashMap_MRFaceId_MRFaceId</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</qualifiedname>
+        <param>
+          <type>Const_MapOrHashMap_MRFaceId_MRFaceId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::MapOrHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="226" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="226" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aa8d0d87949af5518abaaccb035b0f4bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</definition>
+        <argsstring>(MapOrHashMap_MRFaceId_MRFaceId _other)</argsstring>
+        <name>MapOrHashMap_MRFaceId_MRFaceId</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.MapOrHashMap_MRFaceId_MRFaceId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">MapOrHashMap_MRFaceId_MRFaceId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::MapOrHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="231" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="231" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ac0ed9a72a0224c16a3ab3e5b3a0cca0b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId" kindref="compound">MR.MapOrHashMap_MRFaceId_MRFaceId</ref></type>
+        <definition>unsafe MR.MapOrHashMap_MRFaceId_MRFaceId MR.MapOrHashMap_MRFaceId_MRFaceId.assign</definition>
+        <argsstring>(MR._ByValue_MapOrHashMap_MRFaceId_MRFaceId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_MapOrHashMap_MRFaceId_MRFaceId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="236" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="236" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a72cbe7bedda9afdc46aa7b1730c90656" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRFaceId_MRFaceId.setMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.FaceMap &gt; m)</argsstring>
+        <name>setMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.setMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref> &gt;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::setMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="248" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="248" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a13edc53ee2d7308e539373c150f3d030" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRFaceId_MRFaceId.setHashMap</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Phmap.FlatHashMap_MRFaceId_MRFaceId &gt; m)</argsstring>
+        <name>setHashMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.setHashMap</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Phmap.FlatHashMap_MRFaceId_MRFaceId &gt;</type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::setHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="259" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="259" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a8d75c92dab98bd08861a534d7718c83c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRFaceId_MRFaceId.resizeReserve</definition>
+        <argsstring>(ulong denseTotalSize, ulong hashAdditionalCapacity)</argsstring>
+        <name>resizeReserve</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.resizeReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>denseTotalSize</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>hashAdditionalCapacity</declname>
+        </param>
+        <briefdescription>
+<para>if this stores dense map then resizes it to denseTotalSize; if this stores hash map then sets its capacity to size()+hashAdditionalCapacity Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::resizeReserve</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="272" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="272" bodyend="277"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a95e854475a956c5d98e2618f5c4e2c6f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRFaceId_MRFaceId.pushBack</definition>
+        <argsstring>(MR.FaceId key, MR.FaceId val)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.pushBack</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>appends one element in the map, in case of dense map, key must be equal to vector.endId() Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::pushBack</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="284" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="284" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a6b7b958c87c7c834ed459fc99c710364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.? <ref refid="classMR_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+        <definition>unsafe new MR.? FaceMap MR.MapOrHashMap_MRFaceId_MRFaceId.getMap</definition>
+        <argsstring>()</argsstring>
+        <name>getMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.getMap</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::getMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="294" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="294" bodyend="303"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae36b29639a3413d1bd552400f3ed683c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId</type>
+        <definition>unsafe new MR.Phmap.? FlatHashMap_MRFaceId_MRFaceId MR.MapOrHashMap_MRFaceId_MRFaceId.getHashMap</definition>
+        <argsstring>()</argsstring>
+        <name>getHashMap</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.getHashMap</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::getHashMap</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="308" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="308" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a148a635ebc1077c1e09c57eecb780152" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MapOrHashMap_MRFaceId_MRFaceId.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.MapOrHashMap_MRFaceId_MRFaceId.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;::clear</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="322" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="322" bodyend="327"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores a mapping from keys K to values V in one of two forms: 1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey) 2) as hash map preferable when valid keys are a small subset of the range Generated from class <computeroutput>MR.MapOrHashMap&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>, <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MapOrHashMap_MRFaceId_MRFaceId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MapOrHashMap_MRFaceId_MRFaceId</label>
+        <link refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MapOrHashMap_MRFaceId_MRFaceId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MapOrHashMap_MRFaceId_MRFaceId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MapOrHashMap_MRFaceId_MRFaceId</label>
+        <link refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MapOrHashMap_MRFaceId_MRFaceId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" line="159" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMapOrHashMap.cs" bodystart="160" bodyend="328"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ac0ed9a72a0224c16a3ab3e5b3a0cca0b" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>assign</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a148a635ebc1077c1e09c57eecb780152" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>clear</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae36b29639a3413d1bd552400f3ed683c" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>getHashMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a6b7b958c87c7c834ed459fc99c710364" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>getMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ac4f5f7b4c1a7d101b1f291d7ebef60d0" prot="package" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aeb7dfbc97078a4a7246c9925f44f8dc8" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aab00c89ee90f8ddb124b883f4aac4a26" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a0de51cb52b99280136137c7b90e652e6" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aed4d374a07362e6a5f718c8abe4719fc" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1aa8d0d87949af5518abaaccb035b0f4bb" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>MapOrHashMap_MRFaceId_MRFaceId</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a95e854475a956c5d98e2618f5c4e2c6f" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a8d75c92dab98bd08861a534d7718c83c" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>resizeReserve</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a13edc53ee2d7308e539373c150f3d030" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>setHashMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1a72cbe7bedda9afdc46aa7b1730c90656" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>setMap</name></member>
+      <member refid="classMR_1_1MapOrHashMap__MRFaceId__MRFaceId_1ae3bd65964d28050e8198af728bb8e318" prot="public" virt="non-virtual"><scope>MR::MapOrHashMap_MRFaceId_MRFaceId</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

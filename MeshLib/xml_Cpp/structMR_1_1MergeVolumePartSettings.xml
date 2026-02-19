@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MergeVolumePartSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MergeVolumePartSettings</compoundname>
+    <includes refid="MRVoxelsConversionsByParts_8h" local="no">MRVoxelsConversionsByParts.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga577e60ec177ee1ce4be553f79fc09a89" kind="typedef"><name>PreCutCallback</name></member>
+      <member refid="group__GeneralGroup_1ga58b526091c2efa7486833edd93420975" kind="typedef"><name>PostCutCallback</name></member>
+      <member refid="group__GeneralGroup_1ga49ad4e693c6a08af856dd55e575f702f" kind="typedef"><name>PostMergeCallback</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga4a4414df6198c1615c8f9d37c3692f87" kind="variable"><name>preCut</name></member>
+      <member refid="group__GeneralGroup_1ga31e09c078de0ae4f9b5512e3b099e29b" kind="variable"><name>postCut</name></member>
+      <member refid="group__GeneralGroup_1gafd642c0d879285bf9cfb4e609c2cd816" kind="variable"><name>postMerge</name></member>
+      <member refid="group__GeneralGroup_1ga196c2f60b539ef9d242a51bcd49833d3" kind="variable"><name>mapping</name></member>
+      <member refid="group__GeneralGroup_1ga46d9c425aefa56ee9d112c6cb81a1415" kind="variable"><name>origin</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters&apos; structure for <ref refid="group__GeneralGroup_1ga9145e1b055b88e54edf784e6f3b050fc" kindref="member">MR::mergeVolumePart</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="group__GeneralGroup_1ga9145e1b055b88e54edf784e6f3b050fc" kindref="member">mergeVolumePart</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::MergeVolumePartSettings</label>
+        <link refid="structMR_1_1MergeVolumePartSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mapping</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::PartMapping</label>
+        <link refid="structMR_1_1PartMapping"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsConversionsByParts.h" line="22" column="1"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga196c2f60b539ef9d242a51bcd49833d3" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>mapping</name></member>
+      <member refid="group__GeneralGroup_1ga46d9c425aefa56ee9d112c6cb81a1415" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>origin</name></member>
+      <member refid="group__GeneralGroup_1ga31e09c078de0ae4f9b5512e3b099e29b" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>postCut</name></member>
+      <member refid="group__GeneralGroup_1ga58b526091c2efa7486833edd93420975" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>PostCutCallback</name></member>
+      <member refid="group__GeneralGroup_1gafd642c0d879285bf9cfb4e609c2cd816" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>postMerge</name></member>
+      <member refid="group__GeneralGroup_1ga49ad4e693c6a08af856dd55e575f702f" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>PostMergeCallback</name></member>
+      <member refid="group__GeneralGroup_1ga4a4414df6198c1615c8f9d37c3692f87" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>preCut</name></member>
+      <member refid="group__GeneralGroup_1ga577e60ec177ee1ce4be553f79fc09a89" prot="public" virt="non-virtual"><scope>MR::MergeVolumePartSettings</scope><name>PreCutCallback</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

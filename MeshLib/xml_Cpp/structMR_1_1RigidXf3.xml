@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RigidXf3" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RigidXf3</compoundname>
+    <includes refid="MRRigidXf3_8h" local="no">MRRigidXf3.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga68f57db94c4696c100a2c8272465e168" kind="typedef"><name>V</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad344bdee6f6f01c79ad1f21d6ee2e283" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga1c18eb2cefaafa045ec3e26dc9948f71" kind="variable"><name>b</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga9edc388896551e5189ba1d9e7b60003e" kind="function"><name>RigidXf3</name></member>
+      <member refid="group__GeneralGroup_1gac4754dc93c2a2dc463811b28d41e34a2" kind="function"><name>RigidXf3</name></member>
+      <member refid="group__GeneralGroup_1ga56b789bccaa90a67f3bae243ba05810e" kind="function"><name>RigidXf3</name></member>
+      <member refid="group__GeneralGroup_1gafeb57cb12b3d557aeb536b1f9f858550" kind="function"><name>rigidXf</name></member>
+      <member refid="group__GeneralGroup_1gad36335768adf3c0ffb40b10e3fc37d39" kind="function"><name>linearXf</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>rigid transformation preserving all distances: y = A*x + b, where A is rotation matrix 3x3 stored as 3 angles, and b is shift vector </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidXf3.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRigidXf3.h" bodystart="16" bodyend="32"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad344bdee6f6f01c79ad1f21d6ee2e283" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga1c18eb2cefaafa045ec3e26dc9948f71" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1gad36335768adf3c0ffb40b10e3fc37d39" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>linearXf</name></member>
+      <member refid="group__GeneralGroup_1gafeb57cb12b3d557aeb536b1f9f858550" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>rigidXf</name></member>
+      <member refid="group__GeneralGroup_1ga9edc388896551e5189ba1d9e7b60003e" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>RigidXf3</name></member>
+      <member refid="group__GeneralGroup_1gac4754dc93c2a2dc463811b28d41e34a2" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>RigidXf3</name></member>
+      <member refid="group__GeneralGroup_1ga56b789bccaa90a67f3bae243ba05810e" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>RigidXf3</name></member>
+      <member refid="group__GeneralGroup_1ga68f57db94c4696c100a2c8272465e168" prot="public" virt="non-virtual"><scope>MR::RigidXf3</scope><name>V</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

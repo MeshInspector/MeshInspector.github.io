@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OffsetContoursRestoreZParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OffsetContoursRestoreZParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a14b1c3c22f7edf1d5487d2dfcf63f651" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursRestoreZParams::_offsetof_relaxIterations</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_relaxIterations</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams._offsetof_relaxIterations</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41503" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1af4c0b33e90c93e8bd37237d8852f33bb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetContoursRestoreZParams::_offsetof_zCallback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_zCallback</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams._offsetof_zCallback</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41504" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a9253e4abf6761a43b83d2910f6593cc9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursRestoreZParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41508" bodyend="41509"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a75707e0357b0838a403cb5096ddb9228" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContoursRestoreZParams" kindref="compound">OffsetContoursRestoreZParams</ref></type>
+        <definition> OffsetContoursRestoreZParams mrmeshpy.OffsetContoursRestoreZParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41512" bodyend="41513"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a75707e0357b0838a403cb5096ddb9228" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OffsetContoursRestoreZParams" kindref="compound">OffsetContoursRestoreZParams</ref></type>
+        <definition> OffsetContoursRestoreZParams mrmeshpy.OffsetContoursRestoreZParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41516" bodyend="41517"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a30cc6ed7413825135cf971d4762d5664" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursRestoreZParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41519" bodyend="41520"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a2c3ba88eec0ec911081e38b3fb0e6f2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursRestoreZParams.__init__</definition>
+        <argsstring>(self, OffsetContoursRestoreZParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetContoursRestoreZParams" kindref="compound">OffsetContoursRestoreZParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41522" bodyend="41525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a3547fa860395b68152a6ceca8ad60391" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursRestoreZParams.__init__</definition>
+        <argsstring>(self, func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins zCallback, int relaxIterations)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__float__from__std__vector__std__vector__Vector2__float__OffsetContourIndex__OffsetContoursOrigins" kindref="compound">func_float_from_std_vector_std_vector_Vector2_float_OffsetContourIndex_OffsetContoursOrigins</ref></type>
+          <declname>zCallback</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>relaxIterations</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41527" bodyend="41530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a1a16914442f6a75ecba8fa4efd5e39ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetContoursRestoreZParams.relaxIterations</definition>
+        <argsstring>(self)</argsstring>
+        <name>relaxIterations</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams.relaxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if &gt; 0 z coordinate will be relaxed this many iterations
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41532" bodyend="41535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a35d44cdbaf4491ccc8d2a6861319efc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetContoursRestoreZParams.relaxIterations</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>relaxIterations</name>
+        <qualifiedname>mrmeshpy.OffsetContoursRestoreZParams.relaxIterations</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41537" bodyend="41538"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OffsetContoursRestoreZParams
+
+Parameters of restoring Z coordinate of XY offset 3d contours
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OffsetContoursRestoreZParams</label>
+        <link refid="classmrmeshpy_1_1OffsetContoursRestoreZParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_relaxIterations</edgelabel>
+          <edgelabel>_offsetof_zCallback</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41497" bodyend="41538"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a9253e4abf6761a43b83d2910f6593cc9" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a30cc6ed7413825135cf971d4762d5664" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a2c3ba88eec0ec911081e38b3fb0e6f2c" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a3547fa860395b68152a6ceca8ad60391" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a14b1c3c22f7edf1d5487d2dfcf63f651" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>_offsetof_relaxIterations</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1af4c0b33e90c93e8bd37237d8852f33bb" prot="protected" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>_offsetof_zCallback</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a75707e0357b0838a403cb5096ddb9228" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a75707e0357b0838a403cb5096ddb9228" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a1a16914442f6a75ecba8fa4efd5e39ac" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>relaxIterations</name></member>
+      <member refid="classmrmeshpy_1_1OffsetContoursRestoreZParams_1a35d44cdbaf4491ccc8d2a6861319efc6" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetContoursRestoreZParams</scope><name>relaxIterations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

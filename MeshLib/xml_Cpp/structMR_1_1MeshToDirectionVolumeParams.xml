@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshToDirectionVolumeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshToDirectionVolumeParams</compoundname>
+    <includes refid="MRMeshToDistanceVolume_8h" local="no">MRMeshToDistanceVolume.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gabc2ad86ead41f3e878ed25f71acf4882" kind="variable"><name>vol</name></member>
+      <member refid="group__GeneralGroup_1gae40d1d140cfa8187507172fe40598193" kind="variable"><name>dist</name></member>
+      <member refid="group__GeneralGroup_1gabe274cb37fde7b021b46a400ec6ce767" kind="variable"><name>projector</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::DistanceToMeshOptions</label>
+        <link refid="structMR_1_1DistanceToMeshOptions"/>
+      </node>
+      <node id="2">
+        <label>MR::DistanceVolumeParams</label>
+        <link refid="structMR_1_1DistanceVolumeParams"/>
+      </node>
+      <node id="1">
+        <label>MR::MeshToDirectionVolumeParams</label>
+        <link refid="structMR_1_1MeshToDirectionVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vol</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>dist</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="51" bodyend="55"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae40d1d140cfa8187507172fe40598193" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>dist</name></member>
+      <member refid="group__GeneralGroup_1gabe274cb37fde7b021b46a400ec6ce767" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>projector</name></member>
+      <member refid="group__GeneralGroup_1gabc2ad86ead41f3e878ed25f71acf4882" prot="public" virt="non-virtual"><scope>MR::MeshToDirectionVolumeParams</scope><name>vol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

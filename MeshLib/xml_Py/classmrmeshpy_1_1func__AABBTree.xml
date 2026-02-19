@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__AABBTree" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_AABBTree</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__AABBTree_1a77ab699ff3b78689a3ef9e425d1bd7ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_AABBTree.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_AABBTree.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75310" bodyend="75311"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__AABBTree_1a13b35adf4a5b6342ba8dad8fb18eb428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTree" kindref="compound">AABBTree</ref></type>
+        <definition> AABBTree mrmeshpy.func_AABBTree.__call__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_AABBTree.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75312" bodyend="75313"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__AABBTree_1aa1dd274235095447825e3b342545a1f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_AABBTree.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_AABBTree.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75315" bodyend="75316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__AABBTree_1a03715678b585132a3f2f24dd56eb6d2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_AABBTree.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_AABBTree.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75318" bodyend="75319"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__AABBTree_1aaa194a2776f19702bd5a990326defd6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_AABBTree.__init__</definition>
+        <argsstring>(self, func_AABBTree arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_AABBTree.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__AABBTree" kindref="compound">func_AABBTree</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75321" bodyend="75322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__AABBTree_1a09cf9aa4abc44f135db40949efcba265" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_AABBTree.__init__</definition>
+        <argsstring>(self, typing.Callable[[], AABBTree] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_AABBTree.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[]</array>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTree" kindref="compound">AABBTree</ref>]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75324" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75324" bodyend="75325"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__AABBTree_1a7826848e5a7baab58a95a38fe7feb6c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_AABBTree.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_AABBTree.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75326" bodyend="75329"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__AABBTree_1a08274fef3b2893f5a43c8ca8975aac45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_AABBTree.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_AABBTree.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75330" bodyend="75333"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75309" bodyend="75333"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__AABBTree_1a77ab699ff3b78689a3ef9e425d1bd7ea" prot="public" virt="non-virtual"><scope>mrmeshpy::func_AABBTree</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__AABBTree_1a13b35adf4a5b6342ba8dad8fb18eb428" prot="public" virt="non-virtual"><scope>mrmeshpy::func_AABBTree</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__AABBTree_1aa1dd274235095447825e3b342545a1f1" prot="public" virt="non-virtual"><scope>mrmeshpy::func_AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__AABBTree_1a03715678b585132a3f2f24dd56eb6d2f" prot="public" virt="non-virtual"><scope>mrmeshpy::func_AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__AABBTree_1aaa194a2776f19702bd5a990326defd6c" prot="public" virt="non-virtual"><scope>mrmeshpy::func_AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__AABBTree_1a09cf9aa4abc44f135db40949efcba265" prot="public" virt="non-virtual"><scope>mrmeshpy::func_AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__AABBTree_1a7826848e5a7baab58a95a38fe7feb6c5" prot="public" virt="non-virtual"><scope>mrmeshpy::func_AABBTree</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__AABBTree_1a08274fef3b2893f5a43c8ca8975aac45" prot="public" virt="non-virtual"><scope>mrmeshpy::func_AABBTree</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

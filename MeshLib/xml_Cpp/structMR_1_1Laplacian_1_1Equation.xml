@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Laplacian_1_1Equation" kind="struct" language="C++" prot="private">
+    <compoundname>MR::Laplacian::Equation</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac49676256c0a075cbcbda2e7a6a20a80" kind="variable"><name>rhs</name></member>
+      <member refid="group__GeneralGroup_1ga80ea927affaa2c1249bf4cab2cccf794" kind="variable"><name>centerCoeff</name></member>
+      <member refid="group__GeneralGroup_1ga2e8fa73a7fb3e83c7ce12823130c0e80" kind="variable"><name>firstElem</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>for all vertices in the region </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" line="92" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRLaplacian.h" bodystart="93" bodyend="97"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga80ea927affaa2c1249bf4cab2cccf794" prot="public" virt="non-virtual"><scope>MR::Laplacian::Equation</scope><name>centerCoeff</name></member>
+      <member refid="group__GeneralGroup_1ga2e8fa73a7fb3e83c7ce12823130c0e80" prot="public" virt="non-virtual"><scope>MR::Laplacian::Equation</scope><name>firstElem</name></member>
+      <member refid="group__GeneralGroup_1gac49676256c0a075cbcbda2e7a6a20a80" prot="public" virt="non-virtual"><scope>MR::Laplacian::Equation</scope><name>rhs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

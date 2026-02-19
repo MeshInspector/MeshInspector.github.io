@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1GeodesicPath" kind="struct" language="C++" prot="public">
+    <compoundname>MR::GeodesicPath</compoundname>
+    <includes refid="MRSurfacePath_8h" local="no">MRSurfacePath.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1GeodesicPath_1a0a5eaad44164e2e97b2ce0685dc1a53d" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition>MeshTriPoint MR::GeodesicPath::start</definition>
+        <argsstring></argsstring>
+        <name>start</name>
+        <qualifiedname>MR::GeodesicPath::start</qualifiedname>
+        <briefdescription>
+<para>can be invalid, then the path starts in mids.front() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="21" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GeodesicPath_1af134007969afd8d9e0854c05ab72e99b" prot="public" static="no" mutable="no">
+        <type>SurfacePath</type>
+        <definition>SurfacePath MR::GeodesicPath::mids</definition>
+        <argsstring></argsstring>
+        <name>mids</name>
+        <qualifiedname>MR::GeodesicPath::mids</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="22" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1GeodesicPath_1a8890c95d8a90898ea2d0898884bfa474" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition>MeshTriPoint MR::GeodesicPath::end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>MR::GeodesicPath::end</qualifiedname>
+        <briefdescription>
+<para>can be invalid, then the path ends in mids.back() </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="23" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1GeodesicPath_1a500cd0125a04fdafa54081b9392409e4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::GeodesicPath::numVertices</definition>
+        <argsstring>() const</argsstring>
+        <name>numVertices</name>
+        <qualifiedname>MR::GeodesicPath::numVertices</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="25" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>in the most general form, geodesic path can start in any mesh location (<ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>), then pass triangles along straight lines, making turns on edges (MeshEdgePoint), and finish in any mesh location (<ref refid="structMR_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>) </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::GeodesicPath</label>
+        <link refid="structMR_1_1GeodesicPath"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>end</edgelabel>
+          <edgelabel>start</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshTriPoint</label>
+        <link refid="structMR_1_1MeshTriPoint"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurfacePath.h" bodystart="20" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structMR_1_1GeodesicPath_1a8890c95d8a90898ea2d0898884bfa474" prot="public" virt="non-virtual"><scope>MR::GeodesicPath</scope><name>end</name></member>
+      <member refid="structMR_1_1GeodesicPath_1af134007969afd8d9e0854c05ab72e99b" prot="public" virt="non-virtual"><scope>MR::GeodesicPath</scope><name>mids</name></member>
+      <member refid="structMR_1_1GeodesicPath_1a500cd0125a04fdafa54081b9392409e4" prot="public" virt="non-virtual"><scope>MR::GeodesicPath</scope><name>numVertices</name></member>
+      <member refid="structMR_1_1GeodesicPath_1a0a5eaad44164e2e97b2ce0685dc1a53d" prot="public" virt="non-virtual"><scope>MR::GeodesicPath</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

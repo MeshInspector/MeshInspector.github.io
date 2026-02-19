@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsVolumeMinMax" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelsVolumeMinMax</compoundname>
+    <basecompoundref refid="structMR_1_1VoxelsVolume" prot="public" virt="non-virtual">MR::VoxelsVolume&lt; T &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">MinMax&lt; VoxelsVolume&lt; T &gt;::ValueType &gt;</basecompoundref>
+    <includes refid="MRVoxelsVolume_8h" local="no">MRVoxelsVolume.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>represents a box in 3D space subdivided on voxels stored in T; and stores minimum and maximum values among all valid voxels </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::VoxelsVolume&lt; T &gt;</label>
+        <link refid="structMR_1_1VoxelsVolume"/>
+      </node>
+      <node id="1">
+        <label>MR::VoxelsVolumeMinMax&lt; T &gt;</label>
+        <link refid="structMR_1_1VoxelsVolumeMinMax"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MinMax&lt; VoxelsVolume&lt; T &gt;::ValueType &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::VoxelsVolume&lt; T &gt;</label>
+        <link refid="structMR_1_1VoxelsVolume"/>
+      </node>
+      <node id="1">
+        <label>MR::VoxelsVolumeMinMax&lt; T &gt;</label>
+        <link refid="structMR_1_1VoxelsVolumeMinMax"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MinMax&lt; VoxelsVolume&lt; T &gt;::ValueType &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolume.h" bodystart="65" bodyend="71"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6ea81e0ad21fc888dfa262fb957f3c2e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>data</name></member>
+      <member refid="group__GeneralGroup_1gaec69290a92637368e463e39fadfea701" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>dims</name></member>
+      <member refid="group__GeneralGroup_1ga6098927f3eb1a5ae05be948dd3ddf6ea" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaf9f77daea56312d1b6f7ac20d2473713" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga3d40ff5d6e909a58566b67d177842ba0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeMinMax</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1LinesSave_1_1LinesSaver" kind="struct" language="C++" prot="public">
+    <compoundname>MR::LinesSave::LinesSaver</compoundname>
+    <includes refid="MRIOFormatsRegistry_8h" local="no">MRIOFormatsRegistry.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1LinesSave_1_1LinesSaver_1ad73141f50545fb8920f07f75132ec6ec" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1LinesSave_1af60c53a3373b70b68b166f03994a8894" kindref="member">LinesFileSaver</ref></type>
+        <definition>LinesFileSaver MR::LinesSave::LinesSaver::fileSave</definition>
+        <argsstring></argsstring>
+        <name>fileSave</name>
+        <qualifiedname>MR::LinesSave::LinesSaver::fileSave</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="229" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="229" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1LinesSave_1_1LinesSaver_1a735f5d3f3d96af8932f3ed31b33b2054" prot="public" static="no" mutable="no">
+        <type><ref refid="namespaceMR_1_1LinesSave_1a268aa90e5a330542295cca4a34787a08" kindref="member">LinesStreamSaver</ref></type>
+        <definition>LinesStreamSaver MR::LinesSave::LinesSaver::streamSave</definition>
+        <argsstring></argsstring>
+        <name>streamSave</name>
+        <qualifiedname>MR::LinesSave::LinesSaver::streamSave</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="230" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="230" bodyend="230"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="1">
+        <label>MR::LinesSave::LinesSaver</label>
+        <link refid="structMR_1_1LinesSave_1_1LinesSaver"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fileSave</edgelabel>
+          <edgelabel>streamSave</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SaveSettings</label>
+        <link refid="structMR_1_1SaveSettings"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>texture</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="228" bodyend="231"/>
+    <listofallmembers>
+      <member refid="structMR_1_1LinesSave_1_1LinesSaver_1ad73141f50545fb8920f07f75132ec6ec" prot="public" virt="non-virtual"><scope>MR::LinesSave::LinesSaver</scope><name>fileSave</name></member>
+      <member refid="structMR_1_1LinesSave_1_1LinesSaver_1a735f5d3f3d96af8932f3ed31b33b2054" prot="public" virt="non-virtual"><scope>MR::LinesSave::LinesSaver</scope><name>streamSave</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

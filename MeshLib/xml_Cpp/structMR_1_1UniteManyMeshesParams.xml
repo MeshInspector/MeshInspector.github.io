@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UniteManyMeshesParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UniteManyMeshesParams</compoundname>
+    <includes refid="MRUniteManyMeshes_8h" local="no">MRUniteManyMeshes.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad905aa665d2879e62cb41d03eb580eab" kind="variable"><name>useRandomShifts</name></member>
+      <member refid="group__GeneralGroup_1ga28505f79efacbde9b70d5d98148c26e4" kind="variable"><name>fixDegenerations</name></member>
+      <member refid="group__GeneralGroup_1ga87d0c6c71297df5ccba6efb599d35f57" kind="variable"><name>maxAllowedError</name></member>
+      <member refid="group__GeneralGroup_1ga3a9dfe0c8c99c3913373200d1cb1ddfc" kind="variable"><name>randomShiftsSeed</name></member>
+      <member refid="group__GeneralGroup_1gae80b58ee38488a2b5e0cd954e32231b4" kind="variable"><name>newFaces</name></member>
+      <member refid="group__GeneralGroup_1ga28a4b396128672937ced813919301558" kind="variable"><name>nestedComponentsMode</name></member>
+      <member refid="group__GeneralGroup_1ga37fc9fd84323ac5579854222ba3453c8" kind="variable"><name>mergeOnFail</name></member>
+      <member refid="group__GeneralGroup_1gac647b8fce386278e1b3407f1b5f314e5" kind="variable"><name>forceCut</name></member>
+      <member refid="group__GeneralGroup_1gab9881bd75997eb09cd8e02b82b95bfd1" kind="variable"><name>progressCb</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for uniteManyMeshes function. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniteManyMeshes.h" bodystart="22" bodyend="54"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga28505f79efacbde9b70d5d98148c26e4" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>fixDegenerations</name></member>
+      <member refid="group__GeneralGroup_1gac647b8fce386278e1b3407f1b5f314e5" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>forceCut</name></member>
+      <member refid="group__GeneralGroup_1ga87d0c6c71297df5ccba6efb599d35f57" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>maxAllowedError</name></member>
+      <member refid="group__GeneralGroup_1ga37fc9fd84323ac5579854222ba3453c8" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>mergeOnFail</name></member>
+      <member refid="group__GeneralGroup_1ga28a4b396128672937ced813919301558" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>nestedComponentsMode</name></member>
+      <member refid="group__GeneralGroup_1gae80b58ee38488a2b5e0cd954e32231b4" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>newFaces</name></member>
+      <member refid="group__GeneralGroup_1gab9881bd75997eb09cd8e02b82b95bfd1" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>progressCb</name></member>
+      <member refid="group__GeneralGroup_1ga3a9dfe0c8c99c3913373200d1cb1ddfc" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>randomShiftsSeed</name></member>
+      <member refid="group__GeneralGroup_1gad905aa665d2879e62cb41d03eb580eab" prot="public" virt="non-virtual"><scope>MR::UniteManyMeshesParams</scope><name>useRandomShifts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

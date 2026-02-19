@@ -1,0 +1,284 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TransformedMesh" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TransformedMesh</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TransformedMesh_1ac9b4d2bd13c6cb31ea193a1a30115a97" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TransformedMesh::_offsetof_mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mesh</name>
+        <qualifiedname>mrmeshpy.TransformedMesh._offsetof_mesh</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TransformedMesh_1a0b4fdec1451a575a5c238bf655adb847" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TransformedMesh::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.TransformedMesh._offsetof_xf</qualifiedname>
+        <initializer>=  272</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57129" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformedMesh_1a6f70b0f667420738e56b9af33493a1d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransformedMesh.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransformedMesh.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57134" bodyend="57135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformedMesh_1ab55622b6d0aaf508888a919555bc3241" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+        <definition> TransformedMesh mrmeshpy.TransformedMesh.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TransformedMesh.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57138" bodyend="57139"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformedMesh_1ab55622b6d0aaf508888a919555bc3241" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+        <definition> TransformedMesh mrmeshpy.TransformedMesh.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TransformedMesh.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57142" bodyend="57143"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformedMesh_1a9a09b21db9c46c4a95d142f74fd17fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+        <definition> TransformedMesh mrmeshpy.TransformedMesh.__iadd__</definition>
+        <argsstring>(self, TransformedMesh b)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.TransformedMesh.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>union operation on two meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57144" bodyend="57147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformedMesh_1abe240112388a396a0d94e43506ea7a44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+        <definition> TransformedMesh mrmeshpy.TransformedMesh.__imatmul__</definition>
+        <argsstring>(self, TransformedMesh b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.TransformedMesh.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>intersection operation on two meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57148" bodyend="57151"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformedMesh_1a2faa08f9bd673b57a5be60e5db65f830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransformedMesh.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransformedMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57153" bodyend="57154"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformedMesh_1a6c1cfe2580424b5f6af2481c820a37e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransformedMesh.__init__</definition>
+        <argsstring>(self, Mesh mesh, AffineXf3f xf=...)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransformedMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57156" bodyend="57157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformedMesh_1ad3cda368b9d0f2d6cca41b102b55a0b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransformedMesh.__init__</definition>
+        <argsstring>(self, TransformedMesh arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransformedMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57159" bodyend="57162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformedMesh_1a67a715e4b8edb92e7055b2131b347fa8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+        <definition> TransformedMesh mrmeshpy.TransformedMesh.__isub__</definition>
+        <argsstring>(self, TransformedMesh b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.TransformedMesh.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TransformedMesh" kindref="compound">TransformedMesh</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>difference operation on two meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57163" bodyend="57166"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TransformedMesh
+
+just stores a mesh and its transformation to some fixed reference frame
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TransformedMesh</label>
+        <link refid="classmrmeshpy_1_1TransformedMesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_mesh</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57122" bodyend="57166"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1a9a09b21db9c46c4a95d142f74fd17fd8" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1abe240112388a396a0d94e43506ea7a44" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1a6f70b0f667420738e56b9af33493a1d4" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1a2faa08f9bd673b57a5be60e5db65f830" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1a6c1cfe2580424b5f6af2481c820a37e1" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1ad3cda368b9d0f2d6cca41b102b55a0b5" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1a67a715e4b8edb92e7055b2131b347fa8" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1ac9b4d2bd13c6cb31ea193a1a30115a97" prot="protected" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1a0b4fdec1451a575a5c238bf655adb847" prot="protected" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1ab55622b6d0aaf508888a919555bc3241" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TransformedMesh_1ab55622b6d0aaf508888a919555bc3241" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformedMesh</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

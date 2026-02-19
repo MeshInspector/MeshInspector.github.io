@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillingSurface::CellularSurface</compoundname>
+    <innerclass refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" prot="public">mrmeshpy::FillingSurface::CellularSurface::Params</innerclass>
+    <innerclass refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Type" prot="public">mrmeshpy::FillingSurface::CellularSurface::Type</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1aad220e23608daf78212722fc70ab734a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.FillingSurface.CellularSurface.build</definition>
+        <argsstring>(Vector3f size, FillingSurface.CellularSurface.Params params, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>build</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.build</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">FillingSurface.CellularSurface.Params</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Build a cellular surface of size \\p size
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19687" bodyend="19690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1a2ea6145c7b7e113bc16e311ba7afd710" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FillingSurface.CellularSurface.estimateDensity</definition>
+        <argsstring>(float period, float width, float r)</argsstring>
+        <name>estimateDensity</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.estimateDensity</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>period</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Estimate the density of the cellular surface
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19692" bodyend="19695"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1a5e4916681c4bc544da7f77f25121cda9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FillingSurface.CellularSurface.estimateWidth</definition>
+        <argsstring>(float period, float r, float targetDensity)</argsstring>
+        <name>estimateWidth</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.estimateWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>period</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetDensity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Estimate the width that is needed to attain the \\p targetDensity. Inverse of \\ref estimateDensity.
+\\note The width is not unique in general, no guarantees are made about which value among possible will be returned.
+  Due to the simplification of the formula (sphere must either fully contain the intersection of cylinders or be inside it), solution not always exists.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19697" bodyend="19702"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1acd0f2275792d633b92831b0b1733020c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.FillingSurface.CellularSurface.fill</definition>
+        <argsstring>(Mesh mesh, FillingSurface.CellularSurface.Params params, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>fill</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.fill</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">FillingSurface.CellularSurface.Params</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Fill given mesh with a cellular surface
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19704" bodyend="19707"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1a5ae240cbe4bbaf43bba84a3cc0cb2e15" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.FillingSurface.CellularSurface.getTypeNames</definition>
+        <argsstring>()</argsstring>
+        <name>getTypeNames</name>
+        <qualifiedname>mrmeshpy.FillingSurface.CellularSurface.getTypeNames</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the names for each type of filling
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19709" bodyend="19713"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19557" bodyend="19712"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1aad220e23608daf78212722fc70ab734a" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface</scope><name>build</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1a2ea6145c7b7e113bc16e311ba7afd710" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface</scope><name>estimateDensity</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1a5e4916681c4bc544da7f77f25121cda9" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface</scope><name>estimateWidth</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1acd0f2275792d633b92831b0b1733020c" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface</scope><name>fill</name></member>
+      <member refid="classmrmeshpy_1_1FillingSurface_1_1CellularSurface_1a5ae240cbe4bbaf43bba84a3cc0cb2e15" prot="public" virt="non-virtual"><scope>mrmeshpy::FillingSurface::CellularSurface</scope><name>getTypeNames</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cuda_1_1Polyline3DataHolder" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cuda::Polyline3DataHolder</compoundname>
+    <includes refid="MRCudaPolyline_8h" local="no">MRCudaPolyline.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1Polyline3DataHolder_1ad527eecd06cd4e56278248d13746c393" prot="private" static="no" mutable="no">
+        <type>DynamicArray&lt; Node3 &gt;</type>
+        <definition>DynamicArray&lt;Node3&gt; MR::Cuda::Polyline3DataHolder::nodes_</definition>
+        <argsstring></argsstring>
+        <name>nodes_</name>
+        <qualifiedname>MR::Cuda::Polyline3DataHolder::nodes_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="58" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1Polyline3DataHolder_1a8770899441f0ccbdcafb9d4d7f7bd5d5" prot="private" static="no" mutable="no">
+        <type>DynamicArray&lt; float3 &gt;</type>
+        <definition>DynamicArray&lt;float3&gt; MR::Cuda::Polyline3DataHolder::points_</definition>
+        <argsstring></argsstring>
+        <name>points_</name>
+        <qualifiedname>MR::Cuda::Polyline3DataHolder::points_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="59" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1Polyline3DataHolder_1ab058cc4d0979cb767771fd7415f98b97" prot="private" static="no" mutable="no">
+        <type>DynamicArray&lt; int &gt;</type>
+        <definition>DynamicArray&lt;int&gt; MR::Cuda::Polyline3DataHolder::orgs_</definition>
+        <argsstring></argsstring>
+        <name>orgs_</name>
+        <qualifiedname>MR::Cuda::Polyline3DataHolder::orgs_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="60" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Polyline3DataHolder_1a809a8c50767809df58a829b7d57f812c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1Cuda_1_1Polyline3DataHolder" kindref="compound">Polyline3DataHolder</ref> &gt;</type>
+        <definition>static MRCUDA_API Expected&lt; Polyline3DataHolder &gt; MR::Cuda::Polyline3DataHolder::fromLines</definition>
+        <argsstring>(const Polyline3 &amp;polyline)</argsstring>
+        <name>fromLines</name>
+        <qualifiedname>MR::Cuda::Polyline3DataHolder::fromLines</qualifiedname>
+        <param>
+          <type>const Polyline3 &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Allocates data buffers in the GPU memory and copies data to it. Returns error if the CUDA runtime couldn&apos;t allocate memory or copy host data. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="45" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Polyline3DataHolder_1a6823174716e4e444ea25154ae8ca9b0a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API size_t</type>
+        <definition>static MRCUDA_API size_t MR::Cuda::Polyline3DataHolder::heapBytes</definition>
+        <argsstring>(const Polyline3 &amp;polyline)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::Cuda::Polyline3DataHolder::heapBytes</qualifiedname>
+        <param>
+          <type>const Polyline3 &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <briefdescription>
+<para>Computes the GPU memory amount required to allocate data for the polyline. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="55" column="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Polyline3DataHolder_1a04f15619513a940e7cacfbe557fc1e33" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API Polyline3Data</type>
+        <definition>MRCUDA_API Polyline3Data MR::Cuda::Polyline3DataHolder::data</definition>
+        <argsstring>() const</argsstring>
+        <name>data</name>
+        <qualifiedname>MR::Cuda::Polyline3DataHolder::data</qualifiedname>
+        <briefdescription>
+<para>Returns data buffers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="48" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Polyline3DataHolder_1adc41414a7dc000e8e67b69071b46b5be" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Cuda::Polyline3DataHolder::operator Polyline3Data</definition>
+        <argsstring>() const</argsstring>
+        <name>operator Polyline3Data</name>
+        <qualifiedname>MR::Cuda::Polyline3DataHolder::operator Polyline3Data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="49" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1Polyline3DataHolder_1aecfc59333194330bf7ae00e311c04315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API void</type>
+        <definition>MRCUDA_API void MR::Cuda::Polyline3DataHolder::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::Cuda::Polyline3DataHolder::reset</qualifiedname>
+        <briefdescription>
+<para>Resets data buffers. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="52" column="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Helper class to manage the GPU memory-backed buffers for Polyline3 data. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPolyline.h" bodystart="41" bodyend="61"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1a04f15619513a940e7cacfbe557fc1e33" prot="public" virt="non-virtual"><scope>MR::Cuda::Polyline3DataHolder</scope><name>data</name></member>
+      <member refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1a809a8c50767809df58a829b7d57f812c" prot="public" virt="non-virtual"><scope>MR::Cuda::Polyline3DataHolder</scope><name>fromLines</name></member>
+      <member refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1a6823174716e4e444ea25154ae8ca9b0a" prot="public" virt="non-virtual"><scope>MR::Cuda::Polyline3DataHolder</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1ad527eecd06cd4e56278248d13746c393" prot="private" virt="non-virtual"><scope>MR::Cuda::Polyline3DataHolder</scope><name>nodes_</name></member>
+      <member refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1adc41414a7dc000e8e67b69071b46b5be" prot="public" virt="non-virtual"><scope>MR::Cuda::Polyline3DataHolder</scope><name>operator Polyline3Data</name></member>
+      <member refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1ab058cc4d0979cb767771fd7415f98b97" prot="private" virt="non-virtual"><scope>MR::Cuda::Polyline3DataHolder</scope><name>orgs_</name></member>
+      <member refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1a8770899441f0ccbdcafb9d4d7f7bd5d5" prot="private" virt="non-virtual"><scope>MR::Cuda::Polyline3DataHolder</scope><name>points_</name></member>
+      <member refid="classMR_1_1Cuda_1_1Polyline3DataHolder_1aecfc59333194330bf7ae00e311c04315" prot="public" virt="non-virtual"><scope>MR::Cuda::Polyline3DataHolder</scope><name>reset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

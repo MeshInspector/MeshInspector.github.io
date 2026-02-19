@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Features_1_1MeasureResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::Features::MeasureResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Features.Const_MeasureResult</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Features_1_1MeasureResult_1a7027dfd79bf0a398033af5eac9dcc84d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Features.MeasureResult.Distance</type>
+        <definition>new unsafe MR.Features.MeasureResult.Distance MR.Features.MeasureResult.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <qualifiedname>MR.Features.MeasureResult.distance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1641" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1641" bodyend="1641"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1MeasureResult_1aa57d8bc84c4b9da26eac7ecbc5e0ab4c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Features.MeasureResult.Distance</type>
+        <definition>new unsafe MR.Features.MeasureResult.Distance MR.Features.MeasureResult.centerDistance</definition>
+        <argsstring></argsstring>
+        <name>centerDistance</name>
+        <qualifiedname>MR.Features.MeasureResult.centerDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1645" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1645" bodyend="1645"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1MeasureResult_1aa55aa3b426196e51b9fee270baedca62" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Features.MeasureResult.Angle</type>
+        <definition>new unsafe MR.Features.MeasureResult.Angle MR.Features.MeasureResult.angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <qualifiedname>MR.Features.MeasureResult.angle</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1647" column="60" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1647" bodyend="1647"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Features_1_1MeasureResult_1a54a339d72923dd8001dd82639801a476" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane</type>
+        <definition>new unsafe MR.Std.Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane MR.Features.MeasureResult.intersections</definition>
+        <argsstring></argsstring>
+        <name>intersections</name>
+        <qualifiedname>MR.Features.MeasureResult.intersections</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1650" column="120" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1650" bodyend="1650"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1MeasureResult_1a6fa5f72fc8de8c3a9f2ed5cf2a9abeff" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.MeasureResult.MeasureResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeasureResult</name>
+        <qualifiedname>MR.Features.MeasureResult.MeasureResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1690" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1690" bodyend="1694"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Features_1_1MeasureResult_1ab50793ce5541e8365e0f216b26d43a42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.MeasureResult.MeasureResult</definition>
+        <argsstring>()</argsstring>
+        <name>MeasureResult</name>
+        <qualifiedname>MR.Features.MeasureResult.MeasureResult</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1700" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1700" bodyend="1706"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1MeasureResult_1a0e32e221f8df0f3546b2a8f9adba40ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.MeasureResult.MeasureResult</definition>
+        <argsstring>(MR.Features.MeasureResult.Const_Distance distance, MR.Features.MeasureResult.Const_Distance centerDistance, MR.Features.MeasureResult.Const_Angle angle, MR.Std._ByValue_Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane intersections)</argsstring>
+        <name>MeasureResult</name>
+        <qualifiedname>MR.Features.MeasureResult.MeasureResult</qualifiedname>
+        <param>
+          <type>MR.Features.MeasureResult.Const_Distance</type>
+          <declname>distance</declname>
+        </param>
+        <param>
+          <type>MR.Features.MeasureResult.Const_Distance</type>
+          <declname>centerDistance</declname>
+        </param>
+        <param>
+          <type>MR.Features.MeasureResult.Const_Angle</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Vector_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane</type>
+          <declname>intersections</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Features_1_1MeasureResult" kindref="compound">MR.Features.MeasureResult</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1711" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1711" bodyend="1721"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1MeasureResult_1a14fbca9407cfdecdaf63b12985bd09d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Features.MeasureResult.MeasureResult</definition>
+        <argsstring>(MR.Features._ByValue_MeasureResult _other)</argsstring>
+        <name>MeasureResult</name>
+        <qualifiedname>MR.Features.MeasureResult.MeasureResult</qualifiedname>
+        <param>
+          <type>MR.Features._ByValue_MeasureResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Features.MeasureResult.MeasureResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1726" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1726" bodyend="1733"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1MeasureResult_1ad29540a2fa2c0b2a538d2bc9fbbc151d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Features.MeasureResult.MeasureResult</definition>
+        <argsstring>(Const_MeasureResult _other)</argsstring>
+        <name>MeasureResult</name>
+        <qualifiedname>MR.Features.MeasureResult.MeasureResult</qualifiedname>
+        <param>
+          <type>Const_MeasureResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Features.MeasureResult.MeasureResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1738" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1738" bodyend="1738"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1MeasureResult_1a37ab5aa5eacb6c1ec09e06f24d18df66" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Features.MeasureResult.MeasureResult</definition>
+        <argsstring>(MeasureResult _other)</argsstring>
+        <name>MeasureResult</name>
+        <qualifiedname>MR.Features.MeasureResult.MeasureResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Features_1_1MeasureResult" kindref="compound">MeasureResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Features.MeasureResult.MeasureResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1743" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1743" bodyend="1743"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1MeasureResult_1a3ab4f155d2c90179cc0fd37fffcb07c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Features_1_1MeasureResult" kindref="compound">MR.Features.MeasureResult</ref></type>
+        <definition>unsafe MR.Features.MeasureResult MR.Features.MeasureResult.assign</definition>
+        <argsstring>(MR.Features._ByValue_MeasureResult _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Features.MeasureResult.assign</qualifiedname>
+        <param>
+          <type>MR.Features._ByValue_MeasureResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Features.MeasureResult.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1748" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1748" bodyend="1755"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Features_1_1MeasureResult_1ae92b40a434d849657013993a2519c131" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Features.MeasureResult.swapObjects</definition>
+        <argsstring>()</argsstring>
+        <name>swapObjects</name>
+        <qualifiedname>MR.Features.MeasureResult.swapObjects</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Features_1_1MeasureResult_1ae92b40a434d849657013993a2519c131" kindref="member">MR.Features.MeasureResult.swapObjects</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1761" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1761" bodyend="1766"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Stores the results of measuring two objects relative to one another. Generated from class <computeroutput><ref refid="classMR_1_1Features_1_1MeasureResult" kindref="compound">MR.Features.MeasureResult</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MeasureResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Features.MeasureResult</label>
+        <link refid="classMR_1_1Features_1_1MeasureResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeasureResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MeasureResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Features.MeasureResult</label>
+        <link refid="classMR_1_1Features_1_1MeasureResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeasureResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" line="1638" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatures.cs" bodystart="1639" bodyend="1767"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1aa55aa3b426196e51b9fee270baedca62" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>angle</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1a3ab4f155d2c90179cc0fd37fffcb07c3" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1aa57d8bc84c4b9da26eac7ecbc5e0ab4c" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>centerDistance</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1a7027dfd79bf0a398033af5eac9dcc84d" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>distance</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1a54a339d72923dd8001dd82639801a476" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>intersections</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1a6fa5f72fc8de8c3a9f2ed5cf2a9abeff" prot="package" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1ab50793ce5541e8365e0f216b26d43a42" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1a0e32e221f8df0f3546b2a8f9adba40ec" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1a14fbca9407cfdecdaf63b12985bd09d3" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1ad29540a2fa2c0b2a538d2bc9fbbc151d" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1a37ab5aa5eacb6c1ec09e06f24d18df66" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>MeasureResult</name></member>
+      <member refid="classMR_1_1Features_1_1MeasureResult_1ae92b40a434d849657013993a2519c131" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult</scope><name>swapObjects</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

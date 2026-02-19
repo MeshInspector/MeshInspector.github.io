@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DetectTunnelSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::DetectTunnelSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_DetectTunnelSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1a98dbdacb703cc7a992cbe17953669c9e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.DetectTunnelSettings.maxTunnelLength</definition>
+        <argsstring></argsstring>
+        <name>maxTunnelLength</name>
+        <qualifiedname>MR.DetectTunnelSettings.maxTunnelLength</qualifiedname>
+        <briefdescription>
+<para>maximal euclidean length of tunnel loops to detect </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="161" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1adc555b54ed2e8763296a62b1572e7a81" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.DetectTunnelSettings.maxIters</definition>
+        <argsstring></argsstring>
+        <name>maxIters</name>
+        <qualifiedname>MR.DetectTunnelSettings.maxIters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximal number of iterations to detect all tunnels; on a big mesh with many tunnels even one iteration can take a while </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="165" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1a0b8b5c85abf9db87e7e2ad0e89b21e9f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_FloatFuncFromMREdgeId</type>
+        <definition>new unsafe MR.Std.Function_FloatFuncFromMREdgeId MR.DetectTunnelSettings.metric</definition>
+        <argsstring></argsstring>
+        <name>metric</name>
+        <qualifiedname>MR.DetectTunnelSettings.metric</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>edge metric that will be used in optimizations, if co-loops are enabled then this metric must be not-negative, if no metric is given then either discreteMinusAbsMeanCurvatureMetric (if buildCoLoops = false) or edgeLengthMetric (if buildCoLoops = true) will be used, using caching via edgeTableSymMetric function can improve the performance, especially in buildCoLoops = true mode </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="171" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="171" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1ab53170b70a40416d5373a5b135d2febe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DetectTunnelSettings.buildCoLoops</definition>
+        <argsstring></argsstring>
+        <name>buildCoLoops</name>
+        <qualifiedname>MR.DetectTunnelSettings.buildCoLoops</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true then for every basis loop, findSmallestMetricCoLoop will be called; it typically results in shorter tunnels found, but requires more time per iteration, and more iterations to find all tunnels </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="175" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1a68b007c4eb80865d90ec5a5cdc284098" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.DetectTunnelSettings.filterEquivalentCoLoops</definition>
+        <argsstring></argsstring>
+        <name>filterEquivalentCoLoops</name>
+        <qualifiedname>MR.DetectTunnelSettings.filterEquivalentCoLoops</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if ( buildCoLoops ) then some tunnel loops can be equivalent (e.g. they cut the same handle twice), this option activates their filtering out, but it is very slow </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="179" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1DetectTunnelSettings_1a894196449b15605733a65f2f2ca90eec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.DetectTunnelSettings.progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR.DetectTunnelSettings.progress</qualifiedname>
+        <briefdescription>
+<para>to report algorithm progress and cancel from outside </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="182" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="182" bodyend="182"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1DetectTunnelSettings_1aa649750de9bf5092ec161cf3dd6988d6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DetectTunnelSettings.DetectTunnelSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>DetectTunnelSettings</name>
+        <qualifiedname>MR.DetectTunnelSettings.DetectTunnelSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="208" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="208" bodyend="212"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1DetectTunnelSettings_1a4eb9d16445155cd8a7d77dd01d2d1655" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DetectTunnelSettings.DetectTunnelSettings</definition>
+        <argsstring>()</argsstring>
+        <name>DetectTunnelSettings</name>
+        <qualifiedname>MR.DetectTunnelSettings.DetectTunnelSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="218" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="218" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DetectTunnelSettings_1a6a6a66a8b10c0a546b005e3d79ef3b8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DetectTunnelSettings.DetectTunnelSettings</definition>
+        <argsstring>(float maxTunnelLength, int maxIters, MR.Std._ByValue_Function_FloatFuncFromMREdgeId metric, bool buildCoLoops, bool filterEquivalentCoLoops, MR.Std._ByValue_Function_BoolFuncFromFloat progress)</argsstring>
+        <name>DetectTunnelSettings</name>
+        <qualifiedname>MR.DetectTunnelSettings.DetectTunnelSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>maxTunnelLength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIters</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_FloatFuncFromMREdgeId</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>buildCoLoops</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>filterEquivalentCoLoops</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1DetectTunnelSettings" kindref="compound">MR.DetectTunnelSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="229" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="229" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DetectTunnelSettings_1a467dc1cbc289ea1265d84dffbf2c55df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.DetectTunnelSettings.DetectTunnelSettings</definition>
+        <argsstring>(MR._ByValue_DetectTunnelSettings _other)</argsstring>
+        <name>DetectTunnelSettings</name>
+        <qualifiedname>MR.DetectTunnelSettings.DetectTunnelSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_DetectTunnelSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DetectTunnelSettings.DetectTunnelSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="242" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="242" bodyend="249"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DetectTunnelSettings_1abbf27ef540bc596c47dfe83b9e461e61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.DetectTunnelSettings.DetectTunnelSettings</definition>
+        <argsstring>(Const_DetectTunnelSettings _other)</argsstring>
+        <name>DetectTunnelSettings</name>
+        <qualifiedname>MR.DetectTunnelSettings.DetectTunnelSettings</qualifiedname>
+        <param>
+          <type>Const_DetectTunnelSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DetectTunnelSettings.DetectTunnelSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="254" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="254" bodyend="254"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DetectTunnelSettings_1aba83cb19b184c573ebceb9f84063547a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.DetectTunnelSettings.DetectTunnelSettings</definition>
+        <argsstring>(DetectTunnelSettings _other)</argsstring>
+        <name>DetectTunnelSettings</name>
+        <qualifiedname>MR.DetectTunnelSettings.DetectTunnelSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1DetectTunnelSettings" kindref="compound">DetectTunnelSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.DetectTunnelSettings.DetectTunnelSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="259" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="259" bodyend="259"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DetectTunnelSettings_1a24c5dc43275e330226c7422927cd463f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1DetectTunnelSettings" kindref="compound">MR.DetectTunnelSettings</ref></type>
+        <definition>unsafe MR.DetectTunnelSettings MR.DetectTunnelSettings.assign</definition>
+        <argsstring>(MR._ByValue_DetectTunnelSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.DetectTunnelSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_DetectTunnelSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.DetectTunnelSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="264" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="264" bodyend="271"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1DetectTunnelSettings" kindref="compound">MR.DetectTunnelSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_DetectTunnelSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DetectTunnelSettings</label>
+        <link refid="classMR_1_1DetectTunnelSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DetectTunnelSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_DetectTunnelSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.DetectTunnelSettings</label>
+        <link refid="classMR_1_1DetectTunnelSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_DetectTunnelSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" line="158" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTunnelDetector.cs" bodystart="159" bodyend="272"/>
+    <listofallmembers>
+      <member refid="classMR_1_1DetectTunnelSettings_1a24c5dc43275e330226c7422927cd463f" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1ab53170b70a40416d5373a5b135d2febe" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>buildCoLoops</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1aa649750de9bf5092ec161cf3dd6988d6" prot="package" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1a4eb9d16445155cd8a7d77dd01d2d1655" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1a6a6a66a8b10c0a546b005e3d79ef3b8d" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1a467dc1cbc289ea1265d84dffbf2c55df" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1abbf27ef540bc596c47dfe83b9e461e61" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1aba83cb19b184c573ebceb9f84063547a" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>DetectTunnelSettings</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1a68b007c4eb80865d90ec5a5cdc284098" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>filterEquivalentCoLoops</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1adc555b54ed2e8763296a62b1572e7a81" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>maxIters</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1a98dbdacb703cc7a992cbe17953669c9e" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>maxTunnelLength</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1a0b8b5c85abf9db87e7e2ad0e89b21e9f" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>metric</name></member>
+      <member refid="classMR_1_1DetectTunnelSettings_1a894196449b15605733a65f2f2ca90eec" prot="public" virt="non-virtual"><scope>MR::DetectTunnelSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

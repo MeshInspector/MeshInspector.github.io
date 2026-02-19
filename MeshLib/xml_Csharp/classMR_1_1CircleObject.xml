@@ -1,0 +1,1597 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CircleObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::CircleObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_CircleObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a380406195800329293c0d96f613eb02c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CircleObject.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(CircleObject self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.CircleObject.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CircleObject" kindref="compound">CircleObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1129" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1129" bodyend="1134"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1aeddaceddcf477cedc36d755f71f4ede1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CircleObject.operator MR.Object</definition>
+        <argsstring>(CircleObject self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.CircleObject.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CircleObject" kindref="compound">CircleObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1135" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1135" bodyend="1140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a6843c11c3d697ae01de824f85e7a87a3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CircleObject.operator MR.VisualObject</definition>
+        <argsstring>(CircleObject self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.CircleObject.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CircleObject" kindref="compound">CircleObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1141" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1141" bodyend="1146"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a6492ad72310b15859b4e950a66fe8821" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CircleObject.operator MR.FeatureObject</definition>
+        <argsstring>(CircleObject self)</argsstring>
+        <name>operator MR.FeatureObject</name>
+        <qualifiedname>MR.CircleObject.operator MR.FeatureObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CircleObject" kindref="compound">CircleObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1147" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1147" bodyend="1152"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ae028ff5c18aadd0988a1264686cece06" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CircleObject.operator MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</definition>
+        <argsstring>(CircleObject self)</argsstring>
+        <name>operator MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</name>
+        <qualifiedname>MR.CircleObject.operator MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CircleObject" kindref="compound">CircleObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1153" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1153" bodyend="1158"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ad21a5b5970291c52715b9e6966a6d6bf" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.CircleObject.operator CircleObject?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator CircleObject?</name>
+        <qualifiedname>MR.CircleObject.operator CircleObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1161" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1161" bodyend="1168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ac3b5bc0ab8419da81405098448c9de4d" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.CircleObject.operator CircleObject?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator CircleObject?</name>
+        <qualifiedname>MR.CircleObject.operator CircleObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1169" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1169" bodyend="1176"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ae78448d04ad6052289fc5e1edd692545" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.CircleObject.operator CircleObject?</definition>
+        <argsstring>(MR.FeatureObject parent)</argsstring>
+        <name>operator CircleObject?</name>
+        <qualifiedname>MR.CircleObject.operator CircleObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1177" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1177" bodyend="1184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1af967bcc7dd8e8ed999cdc855b06be9c8" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.CircleObject.operator CircleObject?</definition>
+        <argsstring>(MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter parent)</argsstring>
+        <name>operator CircleObject?</name>
+        <qualifiedname>MR.CircleObject.operator CircleObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter" kindref="compound">MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1185" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1185" bodyend="1192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a24b6619928a37063274e8180c3eaebe1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CircleObject.operator CircleObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>operator CircleObject</name>
+        <qualifiedname>MR.CircleObject.operator CircleObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best sphere to approx given points Generated from constructor <computeroutput>MR.CircleObject.CircleObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1235" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1235" bodyend="1235"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1CircleObject_1adc9714c98244aee529b412884c085ba3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CircleObject.CircleObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CircleObject</name>
+        <qualifiedname>MR.CircleObject.CircleObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1194" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1194" bodyend="1194"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1affcdd9e483a0d22524a8d58696c716b6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CircleObject.CircleObject</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>CircleObject</name>
+        <qualifiedname>MR.CircleObject.CircleObject</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1196" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1196" bodyend="1196"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a766161eb249c0247b1298fc1714c4759" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CircleObject.CircleObject</definition>
+        <argsstring>()</argsstring>
+        <name>CircleObject</name>
+        <qualifiedname>MR.CircleObject.CircleObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1201" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1201" bodyend="1206"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1acca5745142b1d3abbcffaabbc7ef40a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CircleObject.CircleObject</definition>
+        <argsstring>(MR._ByValue_CircleObject _other)</argsstring>
+        <name>CircleObject</name>
+        <qualifiedname>MR.CircleObject.CircleObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_CircleObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CircleObject.CircleObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1211" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1211" bodyend="1217"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a40b1f976f7226c8c91a10e66531949c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CircleObject.CircleObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>CircleObject</name>
+        <qualifiedname>MR.CircleObject.CircleObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best sphere to approx given points Generated from constructor <computeroutput>MR.CircleObject.CircleObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1223" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1223" bodyend="1229"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1adb591fe58b805ac63b1091e2e6510b53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CircleObject" kindref="compound">MR.CircleObject</ref></type>
+        <definition>unsafe MR.CircleObject MR.CircleObject.assign</definition>
+        <argsstring>(MR._ByValue_CircleObject _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.CircleObject.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_CircleObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.CircleObject.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1240" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1240" bodyend="1250"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ae715a20a0b4b088299a76f143cc0aad8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setRadius</definition>
+        <argsstring>(float radius, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setRadius</name>
+        <qualifiedname>MR.CircleObject.setRadius</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given radius Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ae715a20a0b4b088299a76f143cc0aad8" kindref="member">MR.CircleObject.setRadius</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1257" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1257" bodyend="1262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ae1f2d7784c8b1685b7330a96f1bc186b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setCenter</definition>
+        <argsstring>(in MR.Vector3f center, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>MR.CircleObject.setCenter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given center Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ae1f2d7784c8b1685b7330a96f1bc186b" kindref="member">MR.CircleObject.setCenter</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1269" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1269" bodyend="1277"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a723e8b86022c778ff8d1a42bfe6b6909" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setNormal</definition>
+        <argsstring>(in MR.Vector3f normal, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setNormal</name>
+        <qualifiedname>MR.CircleObject.setNormal</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given normal Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a723e8b86022c778ff8d1a42bfe6b6909" kindref="member">MR.CircleObject.setNormal</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1284" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1284" bodyend="1292"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1af2dfcca49191249ede5a52d48667b4d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.CircleObject.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1af2dfcca49191249ede5a52d48667b4d8" kindref="member">MR.CircleObject.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1298" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1298" bodyend="1306"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a5b711212631c3461c4e17e7ddb58a927" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.CircleObject.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a5b711212631c3461c4e17e7ddb58a927" kindref="member">MR.CircleObject.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1312" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1312" bodyend="1317"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a70fb2198a58781ff6a353a889754c469" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setDecorationsColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setDecorationsColor</name>
+        <qualifiedname>MR.CircleObject.setDecorationsColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a70fb2198a58781ff6a353a889754c469" kindref="member">MR.CircleObject.setDecorationsColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1323" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1323" bodyend="1331"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a6382ddab699939ce0172ea9e874ed0cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setDecorationsColorForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool selected)</argsstring>
+        <name>setDecorationsColorForAllViewports</name>
+        <qualifiedname>MR.CircleObject.setDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a6382ddab699939ce0172ea9e874ed0cd" kindref="member">MR.CircleObject.setDecorationsColorForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1336" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1336" bodyend="1341"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a6fb7517bfbd11e4e42e9c8f21470344a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setPointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR.CircleObject.setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a6fb7517bfbd11e4e42e9c8f21470344a" kindref="member">MR.CircleObject.setPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1346" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1346" bodyend="1351"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ae9003b0f4328ad35f655e3a33d1f5c5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>MR.CircleObject.setLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ae9003b0f4328ad35f655e3a33d1f5c5a" kindref="member">MR.CircleObject.setLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1356" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1356" bodyend="1361"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a017f7698e351617036f9cdae6d9c5c85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setSubfeaturePointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setSubfeaturePointSize</name>
+        <qualifiedname>MR.CircleObject.setSubfeaturePointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a017f7698e351617036f9cdae6d9c5c85" kindref="member">MR.CircleObject.setSubfeaturePointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1366" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1366" bodyend="1371"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a1ab62ec16879208a4a5a5a036564dacd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setSubfeatureLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setSubfeatureLineWidth</name>
+        <qualifiedname>MR.CircleObject.setSubfeatureLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a1ab62ec16879208a4a5a5a036564dacd" kindref="member">MR.CircleObject.setSubfeatureLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1376" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1376" bodyend="1381"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a7cb504f3d3787ea08d7fbb0fb280bd7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setMainFeatureAlpha</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setMainFeatureAlpha</name>
+        <qualifiedname>MR.CircleObject.setMainFeatureAlpha</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a7cb504f3d3787ea08d7fbb0fb280bd7f" kindref="member">MR.CircleObject.setMainFeatureAlpha</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1386" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1386" bodyend="1391"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1afd71bc2651fb5aea7b617390defbab2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setSubfeatureAlphaPoints</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaPoints</name>
+        <qualifiedname>MR.CircleObject.setSubfeatureAlphaPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1afd71bc2651fb5aea7b617390defbab2e" kindref="member">MR.CircleObject.setSubfeatureAlphaPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1396" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1396" bodyend="1401"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a16b0d1f2e588dd56d9b1f0d696cf491c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setSubfeatureAlphaLines</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaLines</name>
+        <qualifiedname>MR.CircleObject.setSubfeatureAlphaLines</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a16b0d1f2e588dd56d9b1f0d696cf491c" kindref="member">MR.CircleObject.setSubfeatureAlphaLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1406" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1406" bodyend="1411"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1aa5c011a752be3f83533bda3e0c308888" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setSubfeatureAlphaMesh</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaMesh</name>
+        <qualifiedname>MR.CircleObject.setSubfeatureAlphaMesh</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1aa5c011a752be3f83533bda3e0c308888" kindref="member">MR.CircleObject.setSubfeatureAlphaMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1416" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1416" bodyend="1421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a8d99158a1d51779f5da34339c276c4cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.CircleObject.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a8d99158a1d51779f5da34339c276c4cd" kindref="member">MR.CircleObject.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1427" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1427" bodyend="1432"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ae91e816b3670c8acc81f9abf9319fa70" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.CircleObject.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ae91e816b3670c8acc81f9abf9319fa70" kindref="member">MR.CircleObject.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1438" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1438" bodyend="1443"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1afb739d886db4850e8c0d45ac83418fc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.CircleObject.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1afb739d886db4850e8c0d45ac83418fc6" kindref="member">MR.CircleObject.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1449" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1449" bodyend="1454"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a9e7a99e7d8ff2c5599330f9484f19e4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.CircleObject.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a9e7a99e7d8ff2c5599330f9484f19e4b" kindref="member">MR.CircleObject.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1460" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1460" bodyend="1465"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a332dd4566e2debd9df96c7c048217d13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.CircleObject.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a332dd4566e2debd9df96c7c048217d13" kindref="member">MR.CircleObject.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1471" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1471" bodyend="1476"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ad4d3e66496ed0eeb1ed3d3f2a79c108d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.CircleObject.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ad4d3e66496ed0eeb1ed3d3f2a79c108d" kindref="member">MR.CircleObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1483" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1483" bodyend="1488"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1aa1fc496827af314c80cebe7165255d99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.CircleObject.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1aa1fc496827af314c80cebe7165255d99" kindref="member">MR.CircleObject.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1495" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1495" bodyend="1503"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a9fb6b111b4f70268b94cd9701fd197ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.CircleObject.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a9fb6b111b4f70268b94cd9701fd197ff" kindref="member">MR.CircleObject.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1510" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1510" bodyend="1516"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a4fd48248d1c66d8aacfea0ebb0a4c143" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.CircleObject.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a4fd48248d1c66d8aacfea0ebb0a4c143" kindref="member">MR.CircleObject.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1522" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1522" bodyend="1527"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1aac625f049a9e0bed787efcd454a3360d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.CircleObject.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1aac625f049a9e0bed787efcd454a3360d" kindref="member">MR.CircleObject.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1534" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1534" bodyend="1542"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ae7abbb7f602eaaa002f868e113e3f5cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.CircleObject.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ae7abbb7f602eaaa002f868e113e3f5cf" kindref="member">MR.CircleObject.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1549" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1549" bodyend="1554"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a6fbf6a79cf8e2873973e3fca7ecbf0fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.CircleObject.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a6fbf6a79cf8e2873973e3fca7ecbf0fd" kindref="member">MR.CircleObject.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1560" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1560" bodyend="1565"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1afc1ce0d660ef9932af88839f8a949b5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.CircleObject.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets some dirty flags for the object (to force its visual update) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a union of DirtyFlags flags </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>invalidateCaches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to automatically invalidate model caches (pass false here if you manually update the caches) Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1afc1ce0d660ef9932af88839f8a949b5f" kindref="member">MR.CircleObject.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1574" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1574" bodyend="1580"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ac5ae2541a38dd09a6f492da73848797b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.CircleObject.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ac5ae2541a38dd09a6f492da73848797b" kindref="member">MR.CircleObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1587" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1587" bodyend="1592"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a8c36ce7bfafd529a04149506da36ae24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.CircleObject.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a8c36ce7bfafd529a04149506da36ae24" kindref="member">MR.CircleObject.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1598" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1598" bodyend="1603"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a66407974f2fade69088d497d1d0c67a7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.CircleObject.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a66407974f2fade69088d497d1d0c67a7" kindref="member">MR.CircleObject.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1609" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1609" bodyend="1614"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a5e40499d3c6e75a10f76b574333ed80e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.CircleObject.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a5e40499d3c6e75a10f76b574333ed80e" kindref="member">MR.CircleObject.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1620" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1620" bodyend="1625"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a45902a8f3c4e3aae63d5154dbc7d253c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.CircleObject.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a45902a8f3c4e3aae63d5154dbc7d253c" kindref="member">MR.CircleObject.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1631" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1631" bodyend="1636"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ab0c372a52e07ddcad3817d9774650d1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.CircleObject.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ab0c372a52e07ddcad3817d9774650d1e" kindref="member">MR.CircleObject.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1643" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1643" bodyend="1648"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a9034616cd2cf72311a8ea966c2b5059f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.CircleObject.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a9034616cd2cf72311a8ea966c2b5059f" kindref="member">MR.CircleObject.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1654" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1654" bodyend="1659"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a95505dab223300b585e7e4eb3fb8c6c5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.CircleObject.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a95505dab223300b585e7e4eb3fb8c6c5" kindref="member">MR.CircleObject.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1665" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1665" bodyend="1670"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a03db679e2882af849e9e73fef761f6d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.CircleObject.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a03db679e2882af849e9e73fef761f6d6" kindref="member">MR.CircleObject.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1675" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1675" bodyend="1684"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ab24a1827ee84b5b9e1557188d058b24a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.CircleObject.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ab24a1827ee84b5b9e1557188d058b24a" kindref="member">MR.CircleObject.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1690" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1690" bodyend="1695"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a243dd9684a2332975f78de02ab0afa8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.CircleObject.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a243dd9684a2332975f78de02ab0afa8f" kindref="member">MR.CircleObject.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1701" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1701" bodyend="1709"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ae368e36c2b5414188c9a2b60fcd7c91f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.CircleObject.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ae368e36c2b5414188c9a2b60fcd7c91f" kindref="member">MR.CircleObject.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1715" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1715" bodyend="1720"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1aa29992fd90543ba9681f90c5023238ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.CircleObject.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1aa29992fd90543ba9681f90c5023238ab" kindref="member">MR.CircleObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1727" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1727" bodyend="1732"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ac9b9913fa30a959d3f8d14e1f4bbd81b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.CircleObject.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ac9b9913fa30a959d3f8d14e1f4bbd81b" kindref="member">MR.CircleObject.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1737" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1737" bodyend="1742"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a66322c695380988815471aa53784249f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.CircleObject.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a66322c695380988815471aa53784249f" kindref="member">MR.CircleObject.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1747" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1747" bodyend="1752"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a043759275dd4be2c8babbfd81e2fc1bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CircleObject.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.CircleObject.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a043759275dd4be2c8babbfd81e2fc1bf" kindref="member">MR.CircleObject.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1759" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1759" bodyend="1764"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a4a344ee11c2293ad4c1f25bc101793e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CircleObject.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.CircleObject.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a4a344ee11c2293ad4c1f25bc101793e1" kindref="member">MR.CircleObject.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1774" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1774" bodyend="1780"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a1dc0c763d86a420d20fa6d3d6c895e2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CircleObject.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.CircleObject.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a1dc0c763d86a420d20fa6d3d6c895e2e" kindref="member">MR.CircleObject.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1788" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1788" bodyend="1793"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a11f6bfe0c3300847e6a0fe3465acf853" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.CircleObject.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a11f6bfe0c3300847e6a0fe3465acf853" kindref="member">MR.CircleObject.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1799" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1799" bodyend="1804"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a0771e50b5f42223ae0df4a1cb9e05a0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.CircleObject.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a0771e50b5f42223ae0df4a1cb9e05a0c" kindref="member">MR.CircleObject.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1810" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1810" bodyend="1815"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ab66c5615b72c7f76eec5378f19791fbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CircleObject.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.CircleObject.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ab66c5615b72c7f76eec5378f19791fbb" kindref="member">MR.CircleObject.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1821" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1821" bodyend="1826"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a6c2bea5a42d3c3c6b665549059b6e21f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.CircleObject.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a6c2bea5a42d3c3c6b665549059b6e21f" kindref="member">MR.CircleObject.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1833" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1833" bodyend="1838"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1ac268ce915f0a663a58d4c24ad961bcc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.CircleObject.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1ac268ce915f0a663a58d4c24ad961bcc2" kindref="member">MR.CircleObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1845" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1845" bodyend="1850"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1aaa84300a48af6d64da25686164c96b72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.CircleObject.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1aaa84300a48af6d64da25686164c96b72" kindref="member">MR.CircleObject.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1856" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1856" bodyend="1861"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a0ad3d16230055c00421826a7dc0ca293" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CircleObject.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.CircleObject.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a0ad3d16230055c00421826a7dc0ca293" kindref="member">MR.CircleObject.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1869" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1869" bodyend="1874"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a03a20ed4c23cbe2f92fa47488f4f5294" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CircleObject.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.CircleObject.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a03a20ed4c23cbe2f92fa47488f4f5294" kindref="member">MR.CircleObject.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1882" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1882" bodyend="1891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CircleObject_1a192e021c7ba5f4bbaeb315115ebae535" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CircleObject.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.CircleObject.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1CircleObject_1a192e021c7ba5f4bbaeb315115ebae535" kindref="member">MR.CircleObject.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1898" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1898" bodyend="1907"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> to show sphere feature, position and radius are controlled by xf Generated from class <computeroutput><ref refid="classMR_1_1CircleObject" kindref="compound">MR.CircleObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter&gt;</computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_CircleObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CircleObject</label>
+        <link refid="classMR_1_1CircleObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_CircleObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_CircleObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CircleObject</label>
+        <link refid="classMR_1_1CircleObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_CircleObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" line="1126" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCircleObject.cs" bodystart="1127" bodyend="1908"/>
+    <listofallmembers>
+      <member refid="classMR_1_1CircleObject_1a4a344ee11c2293ad4c1f25bc101793e1" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1CircleObject_1a1dc0c763d86a420d20fa6d3d6c895e2e" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1CircleObject_1a03a20ed4c23cbe2f92fa47488f4f5294" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1CircleObject_1ae368e36c2b5414188c9a2b60fcd7c91f" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1CircleObject_1adb591fe58b805ac63b1091e2e6510b53" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1CircleObject_1adc9714c98244aee529b412884c085ba3" prot="package" virt="non-virtual"><scope>MR::CircleObject</scope><name>CircleObject</name></member>
+      <member refid="classMR_1_1CircleObject_1affcdd9e483a0d22524a8d58696c716b6" prot="package" virt="non-virtual"><scope>MR::CircleObject</scope><name>CircleObject</name></member>
+      <member refid="classMR_1_1CircleObject_1a766161eb249c0247b1298fc1714c4759" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>CircleObject</name></member>
+      <member refid="classMR_1_1CircleObject_1acca5745142b1d3abbcffaabbc7ef40a4" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>CircleObject</name></member>
+      <member refid="classMR_1_1CircleObject_1a40b1f976f7226c8c91a10e66531949c7" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>CircleObject</name></member>
+      <member refid="classMR_1_1CircleObject_1a332dd4566e2debd9df96c7c048217d13" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1CircleObject_1a043759275dd4be2c8babbfd81e2fc1bf" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1CircleObject_1a24b6619928a37063274e8180c3eaebe1" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator CircleObject</name></member>
+      <member refid="classMR_1_1CircleObject_1ad21a5b5970291c52715b9e6966a6d6bf" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator CircleObject?</name></member>
+      <member refid="classMR_1_1CircleObject_1ac3b5bc0ab8419da81405098448c9de4d" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator CircleObject?</name></member>
+      <member refid="classMR_1_1CircleObject_1ae78448d04ad6052289fc5e1edd692545" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator CircleObject?</name></member>
+      <member refid="classMR_1_1CircleObject_1af967bcc7dd8e8ed999cdc855b06be9c8" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator CircleObject?</name></member>
+      <member refid="classMR_1_1CircleObject_1ae028ff5c18aadd0988a1264686cece06" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter</name></member>
+      <member refid="classMR_1_1CircleObject_1a6492ad72310b15859b4e950a66fe8821" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator MR.FeatureObject</name></member>
+      <member refid="classMR_1_1CircleObject_1aeddaceddcf477cedc36d755f71f4ede1" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1CircleObject_1a380406195800329293c0d96f613eb02c" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1CircleObject_1a6843c11c3d697ae01de824f85e7a87a3" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1CircleObject_1a11f6bfe0c3300847e6a0fe3465acf853" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1CircleObject_1a192e021c7ba5f4bbaeb315115ebae535" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1CircleObject_1a95505dab223300b585e7e4eb3fb8c6c5" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1CircleObject_1a9034616cd2cf72311a8ea966c2b5059f" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1CircleObject_1a5b711212631c3461c4e17e7ddb58a927" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1CircleObject_1ab66c5615b72c7f76eec5378f19791fbb" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>select</name></member>
+      <member refid="classMR_1_1CircleObject_1a9e7a99e7d8ff2c5599330f9484f19e4b" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1CircleObject_1a45902a8f3c4e3aae63d5154dbc7d253c" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1CircleObject_1a6c2bea5a42d3c3c6b665549059b6e21f" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1CircleObject_1aac625f049a9e0bed787efcd454a3360d" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1CircleObject_1a4fd48248d1c66d8aacfea0ebb0a4c143" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1CircleObject_1ae1f2d7784c8b1685b7330a96f1bc186b" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setCenter</name></member>
+      <member refid="classMR_1_1CircleObject_1a8c36ce7bfafd529a04149506da36ae24" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1CircleObject_1a70fb2198a58781ff6a353a889754c469" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setDecorationsColor</name></member>
+      <member refid="classMR_1_1CircleObject_1a6382ddab699939ce0172ea9e874ed0cd" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1CircleObject_1afc1ce0d660ef9932af88839f8a949b5f" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1CircleObject_1aa1fc496827af314c80cebe7165255d99" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1CircleObject_1a9fb6b111b4f70268b94cd9701fd197ff" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1CircleObject_1ae7abbb7f602eaaa002f868e113e3f5cf" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1CircleObject_1a6fbf6a79cf8e2873973e3fca7ecbf0fd" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1CircleObject_1ad4d3e66496ed0eeb1ed3d3f2a79c108d" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1CircleObject_1aa29992fd90543ba9681f90c5023238ab" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1CircleObject_1ae9003b0f4328ad35f655e3a33d1f5c5a" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1CircleObject_1ac9b9913fa30a959d3f8d14e1f4bbd81b" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1CircleObject_1a7cb504f3d3787ea08d7fbb0fb280bd7f" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1CircleObject_1a03db679e2882af849e9e73fef761f6d6" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1CircleObject_1a723e8b86022c778ff8d1a42bfe6b6909" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setNormal</name></member>
+      <member refid="classMR_1_1CircleObject_1a66322c695380988815471aa53784249f" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1CircleObject_1ac5ae2541a38dd09a6f492da73848797b" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1CircleObject_1a6fb7517bfbd11e4e42e9c8f21470344a" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1CircleObject_1ae715a20a0b4b088299a76f143cc0aad8" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setRadius</name></member>
+      <member refid="classMR_1_1CircleObject_1a66407974f2fade69088d497d1d0c67a7" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1CircleObject_1a5e40499d3c6e75a10f76b574333ed80e" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1CircleObject_1a16b0d1f2e588dd56d9b1f0d696cf491c" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1CircleObject_1aa5c011a752be3f83533bda3e0c308888" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1CircleObject_1afd71bc2651fb5aea7b617390defbab2e" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1CircleObject_1a1ab62ec16879208a4a5a5a036564dacd" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1CircleObject_1a017f7698e351617036f9cdae6d9c5c85" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1CircleObject_1ab0c372a52e07ddcad3817d9774650d1e" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1CircleObject_1aaa84300a48af6d64da25686164c96b72" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1CircleObject_1ac268ce915f0a663a58d4c24ad961bcc2" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1CircleObject_1a8d99158a1d51779f5da34339c276c4cd" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1CircleObject_1ae91e816b3670c8acc81f9abf9319fa70" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1CircleObject_1a243dd9684a2332975f78de02ab0afa8f" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1CircleObject_1af2dfcca49191249ede5a52d48667b4d8" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1CircleObject_1ab24a1827ee84b5b9e1557188d058b24a" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1CircleObject_1a0771e50b5f42223ae0df4a1cb9e05a0c" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1CircleObject_1a0ad3d16230055c00421826a7dc0ca293" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1CircleObject_1afb739d886db4850e8c0d45ac83418fc6" prot="public" virt="non-virtual"><scope>MR::CircleObject</scope><name>toggleVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

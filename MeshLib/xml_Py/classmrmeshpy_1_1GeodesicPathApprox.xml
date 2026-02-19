@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GeodesicPathApprox" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GeodesicPathApprox</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GeodesicPathApprox_1a4625c5bd0a97ff69eace42c1442a58a2" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GeodesicPathApprox::DijkstraAStar</definition>
+        <argsstring></argsstring>
+        <name>DijkstraAStar</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.DijkstraAStar</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1GeodesicPathApprox" kindref="compound">GeodesicPathApprox</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GeodesicPathApprox_1aa182b5a33bdc8d318cbc7e2e1cd00588" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GeodesicPathApprox::DijkstraBiDir</definition>
+        <argsstring></argsstring>
+        <name>DijkstraBiDir</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.DijkstraBiDir</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1GeodesicPathApprox" kindref="compound">GeodesicPathApprox</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GeodesicPathApprox_1a3e6aab154d0290c38fa96a41b0cc757c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GeodesicPathApprox::FastMarching</definition>
+        <argsstring></argsstring>
+        <name>FastMarching</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.FastMarching</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1GeodesicPathApprox" kindref="compound">GeodesicPathApprox</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21826" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GeodesicPathApprox_1a30be5b89a93b4e2cf4e7686f177448d8" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GeodesicPathApprox::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1GeodesicPathApprox" kindref="compound">GeodesicPathApprox</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21827" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a14a45ff5273c3be0ffa3a09360f45696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GeodesicPathApprox.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21828" bodyend="21829"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a8079f3b26b4883ca0e0440dcc83b34c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GeodesicPathApprox.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21830" bodyend="21831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a4ab1cd6e031be7ab2473c6824d659d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GeodesicPathApprox.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21832" bodyend="21833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a901a5844f1e5440c721eb93775155637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GeodesicPathApprox.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21834" bodyend="21835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a7f15eafb48dd0bc853f0d957761bb672" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeodesicPathApprox.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21836" bodyend="21837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1ac0c41582e2d37a94046f02bbe2177597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GeodesicPathApprox.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21838" bodyend="21839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a88c4aa3ab1c949faec916164dfe0ae3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GeodesicPathApprox.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21840" bodyend="21841"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a6ec46e36b4058ccc479252cfc358ac3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.GeodesicPathApprox.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21842" bodyend="21843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a4a0df07eac9d7c468cfbb03f10efc311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GeodesicPathApprox.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21844" bodyend="21845"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a5e083c1b3a900b52b0600b2ff26bb870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.GeodesicPathApprox.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21846" bodyend="21847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1a7ae3d048279bd3ab2550c5df441c00b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.GeodesicPathApprox.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21849" bodyend="21850"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GeodesicPathApprox_1acc6c7cbf9184e2500aedd9e6b9d3350a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.GeodesicPathApprox.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.GeodesicPathApprox.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21852" bodyend="21853"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  DijkstraBiDir : compute edge-only path by building it from start and end simultaneously
+
+  DijkstraAStar : compute edge-only path using A*-search algorithm
+
+  FastMarching : use Fast Marching algorithm
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.GeodesicPathApprox</label>
+        <link refid="classmrmeshpy_1_1GeodesicPathApprox"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>DijkstraAStar</edgelabel>
+          <edgelabel>DijkstraBiDir</edgelabel>
+          <edgelabel>FastMarching</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21814" bodyend="21853"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a14a45ff5273c3be0ffa3a09360f45696" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a8079f3b26b4883ca0e0440dcc83b34c7" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a4ab1cd6e031be7ab2473c6824d659d98" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a901a5844f1e5440c721eb93775155637" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a7f15eafb48dd0bc853f0d957761bb672" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1ac0c41582e2d37a94046f02bbe2177597" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a30be5b89a93b4e2cf4e7686f177448d8" prot="private" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a88c4aa3ab1c949faec916164dfe0ae3e" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a6ec46e36b4058ccc479252cfc358ac3a" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a4a0df07eac9d7c468cfbb03f10efc311" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a5e083c1b3a900b52b0600b2ff26bb870" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a4625c5bd0a97ff69eace42c1442a58a2" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>DijkstraAStar</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1aa182b5a33bdc8d318cbc7e2e1cd00588" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>DijkstraBiDir</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a3e6aab154d0290c38fa96a41b0cc757c" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>FastMarching</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1a7ae3d048279bd3ab2550c5df441c00b6" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1GeodesicPathApprox_1acc6c7cbf9184e2500aedd9e6b9d3350a" prot="public" virt="non-virtual"><scope>mrmeshpy::GeodesicPathApprox</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

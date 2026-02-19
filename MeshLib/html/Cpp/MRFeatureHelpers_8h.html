@@ -149,11 +149,12 @@ $(function(){initNavTree('MRFeatureHelpers_8h.html',''); initResizable(true); })
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#concepts">Concepts</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRFeatureHelpers.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;MRMeshFwd.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRFeatureObject_8h_source.html">MRFeatureObject.h</a>&quot;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
 <code>#include &lt;unordered_set&gt;</code><br />
@@ -183,6 +184,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
@@ -192,28 +194,48 @@ Concepts</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1HasGetDirectionMethod.html">MR::HasGetDirectionMethod</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga0e2748a930a13a0cacf2a0a2da1b6e0d" id="r_ga0e2748a930a13a0cacf2a0a2da1b6e0d"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0e2748a930a13a0cacf2a0a2da1b6e0d">MR::FeaturesObjectKind</a> { <br />
+&#160;&#160;<a class="el" href="group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0da2a3cd5946cfd317eb99c3d32e35e2d4c">MR::FeaturesObjectKind::Point</a>
+, <a class="el" href="group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0da4803e6b9e63dabf04de980788d6a13c4">MR::FeaturesObjectKind::Line</a>
+, <a class="el" href="group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0da0d3adee051531c15b3509b4d4d75ce7b">MR::FeaturesObjectKind::Plane</a>
+, <a class="el" href="group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0da30954d90085f6eaaf5817917fc5fecb3">MR::FeaturesObjectKind::Circle</a>
+, <br />
+&#160;&#160;<a class="el" href="group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0dab7095f057db3fefa7325ad93a04e14fd">MR::FeaturesObjectKind::Sphere</a>
+, <a class="el" href="group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0da2ec2c2961c7ce5a114d969c1f562a563">MR::FeaturesObjectKind::Cylinder</a>
+, <a class="el" href="group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0dacd2c8bc6e5f1ea17c918ccaf89660104">MR::FeaturesObjectKind::Cone</a>
+, <a class="el" href="group__GeneralGroup.html#gga0e2748a930a13a0cacf2a0a2da1b6e0dad69186af02738a9b3ced1bc5b652ba55">MR::FeaturesObjectKind::_count</a>
+<br />
+ }</td></tr>
+<tr class="separator:ga0e2748a930a13a0cacf2a0a2da1b6e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5c9fd829c3ac9510359b4250c4afa70b" id="r_a5c9fd829c3ac9510359b4250c4afa70b"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:a5c9fd829c3ac9510359b4250c4afa70b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5c9fd829c3ac9510359b4250c4afa70b">MR::forEachObjectKind</a> (F &amp;&amp;func)</td></tr>
-<tr class="memdesc:a5c9fd829c3ac9510359b4250c4afa70b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <code>func</code>, which is <code>( auto kind ) -&gt; bool</code>, for each known object kind. If it returns true, stops immediately and also returns true.  <br /></td></tr>
-<tr class="separator:a5c9fd829c3ac9510359b4250c4afa70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa21f89f30d57138088912b6cf0d2215e" id="r_aa21f89f30d57138088912b6cf0d2215e"><td class="memTemplParams" colspan="2">template&lt;typename ... P&gt; </td></tr>
-<tr class="memitem:aa21f89f30d57138088912b6cf0d2215e"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa21f89f30d57138088912b6cf0d2215e">MR::makeObjectFromEnum</a> (FeaturesObjectKind kind, P &amp;&amp;... params)</td></tr>
-<tr class="memdesc:aa21f89f30d57138088912b6cf0d2215e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates an object of type <code>kind</code>, passing <code>params...</code> to its constructor.  <br /></td></tr>
-<tr class="separator:aa21f89f30d57138088912b6cf0d2215e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae69d6d886eeae936d8c70e983d245cd5" id="r_ae69d6d886eeae936d8c70e983d245cd5"><td class="memTemplParams" colspan="2">template&lt;typename ... P&gt; </td></tr>
-<tr class="memitem:ae69d6d886eeae936d8c70e983d245cd5"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="elRef" href="../Csharp/classMR_1_1VisualObject.html">VisualObject</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ae69d6d886eeae936d8c70e983d245cd5">MR::makeObjectFromClassName</a> (std::string className, P &amp;&amp;... params)</td></tr>
-<tr class="memdesc:ae69d6d886eeae936d8c70e983d245cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates an object of type <code>kind</code>, passing <code>params...</code> to its constructor.  <br /></td></tr>
-<tr class="separator:ae69d6d886eeae936d8c70e983d245cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a161bbd3a2147b79505e87110d929c90f" id="r_a161bbd3a2147b79505e87110d929c90f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a161bbd3a2147b79505e87110d929c90f">MR::getFeatureNormal</a> (<a class="elRef" href="../Csharp/classMR_1_1FeatureObject.html">FeatureObject</a> *feature)</td></tr>
-<tr class="separator:a161bbd3a2147b79505e87110d929c90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04713a302796cba586c7e4caa99b88a3" id="r_a04713a302796cba586c7e4caa99b88a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a04713a302796cba586c7e4caa99b88a3">MR::getFeatureDirection</a> (<a class="elRef" href="../Csharp/classMR_1_1FeatureObject.html">FeatureObject</a> *feature)</td></tr>
-<tr class="separator:a04713a302796cba586c7e4caa99b88a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c700488babfd327228e53e26abd88e2" id="r_a9c700488babfd327228e53e26abd88e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9c700488babfd327228e53e26abd88e2">MR::getFeaturesTypeWithNormals</a> ()</td></tr>
-<tr class="separator:a9c700488babfd327228e53e26abd88e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cea967678dc1380181a3337893ebf96" id="r_a1cea967678dc1380181a3337893ebf96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1cea967678dc1380181a3337893ebf96">MR::getFeaturesTypeWithDirections</a> ()</td></tr>
-<tr class="separator:a1cea967678dc1380181a3337893ebf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5c9fd829c3ac9510359b4250c4afa70b" id="r_ga5c9fd829c3ac9510359b4250c4afa70b"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:ga5c9fd829c3ac9510359b4250c4afa70b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5c9fd829c3ac9510359b4250c4afa70b">MR::forEachObjectKind</a> (F &amp;&amp;func)</td></tr>
+<tr class="memdesc:ga5c9fd829c3ac9510359b4250c4afa70b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <code>func</code>, which is <code>( auto kind ) -&gt; bool</code>, for each known object kind. If it returns true, stops immediately and also returns true.  <br /></td></tr>
+<tr class="separator:ga5c9fd829c3ac9510359b4250c4afa70b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa21f89f30d57138088912b6cf0d2215e" id="r_gaa21f89f30d57138088912b6cf0d2215e"><td class="memTemplParams" colspan="2">template&lt;typename ... P&gt; </td></tr>
+<tr class="memitem:gaa21f89f30d57138088912b6cf0d2215e"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa21f89f30d57138088912b6cf0d2215e">MR::makeObjectFromEnum</a> (<a class="el" href="group__GeneralGroup.html#ga0e2748a930a13a0cacf2a0a2da1b6e0d">FeaturesObjectKind</a> kind, P &amp;&amp;... params)</td></tr>
+<tr class="memdesc:gaa21f89f30d57138088912b6cf0d2215e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates an object of type <code>kind</code>, passing <code>params...</code> to its constructor.  <br /></td></tr>
+<tr class="separator:gaa21f89f30d57138088912b6cf0d2215e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae69d6d886eeae936d8c70e983d245cd5" id="r_gae69d6d886eeae936d8c70e983d245cd5"><td class="memTemplParams" colspan="2">template&lt;typename ... P&gt; </td></tr>
+<tr class="memitem:gae69d6d886eeae936d8c70e983d245cd5"><td class="memTemplItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classMR_1_1VisualObject.html">VisualObject</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gae69d6d886eeae936d8c70e983d245cd5">MR::makeObjectFromClassName</a> (std::string className, P &amp;&amp;... params)</td></tr>
+<tr class="memdesc:gae69d6d886eeae936d8c70e983d245cd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allocates an object of type <code>kind</code>, passing <code>params...</code> to its constructor.  <br /></td></tr>
+<tr class="separator:gae69d6d886eeae936d8c70e983d245cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga161bbd3a2147b79505e87110d929c90f" id="r_ga161bbd3a2147b79505e87110d929c90f"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga161bbd3a2147b79505e87110d929c90f">MR::getFeatureNormal</a> (<a class="el" href="classMR_1_1FeatureObject.html">FeatureObject</a> *feature)</td></tr>
+<tr class="memdesc:ga161bbd3a2147b79505e87110d929c90f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using forEachObjectKind the template collects a list of features for which the method ...-&gt;getNormal() is available.  <br /></td></tr>
+<tr class="separator:ga161bbd3a2147b79505e87110d929c90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga04713a302796cba586c7e4caa99b88a3" id="r_ga04713a302796cba586c7e4caa99b88a3"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::optional&lt; Vector3f &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga04713a302796cba586c7e4caa99b88a3">MR::getFeatureDirection</a> (<a class="el" href="classMR_1_1FeatureObject.html">FeatureObject</a> *feature)</td></tr>
+<tr class="memdesc:ga04713a302796cba586c7e4caa99b88a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Using forEachObjectKind the template collects a list of features for which the method ...-&gt;getDirection() is available.  <br /></td></tr>
+<tr class="separator:ga04713a302796cba586c7e4caa99b88a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9c700488babfd327228e53e26abd88e2" id="r_ga9c700488babfd327228e53e26abd88e2"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9c700488babfd327228e53e26abd88e2">MR::getFeaturesTypeWithNormals</a> ()</td></tr>
+<tr class="memdesc:ga9c700488babfd327228e53e26abd88e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to getNormal from specific feature using forEachObjectKind template. Returns nullopt is ...-&gt;getNormal() is not available for given feature type.  <br /></td></tr>
+<tr class="separator:ga9c700488babfd327228e53e26abd88e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1cea967678dc1380181a3337893ebf96" id="r_ga1cea967678dc1380181a3337893ebf96"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::unordered_set&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1cea967678dc1380181a3337893ebf96">MR::getFeaturesTypeWithDirections</a> ()</td></tr>
+<tr class="memdesc:ga1cea967678dc1380181a3337893ebf96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Try to getDirection from specific feature using forEachObjectKind template. Returns nullopt is ...-&gt;getDirection() is not available for given feature type.  <br /></td></tr>
+<tr class="separator:ga1cea967678dc1380181a3337893ebf96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

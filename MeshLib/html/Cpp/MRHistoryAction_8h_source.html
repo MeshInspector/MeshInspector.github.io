@@ -149,42 +149,54 @@ $(function(){initNavTree('MRHistoryAction_8h_source.html',''); initResizable(tru
 </div><!--header-->
 <div class="contents">
 <a href="MRHistoryAction_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
-<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;functional&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="keyword">class </span>HistoryAction</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>{</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <span class="keyword">virtual</span> ~HistoryAction() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keyword">virtual</span> std::string name() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keyword">enum class</span> Type</div>
-<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>        Undo,</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        Redo</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    };</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_functionRef" href="../Csharp/classMR_1_1HistoryAction.html#a4fa0656138f24560d866d1a306a4f8fc">action</a>( Type actionType ) = 0;</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> heapBytes() <span class="keyword">const</span> = 0;</div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>};</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span><span class="keyword">using </span>HistoryStackFilter = std::function&lt;bool( <span class="keyword">const</span> std::shared_ptr&lt;HistoryAction&gt;&amp; )&gt;;</div>
-<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span><span class="keyword">using </span>HistoryActionsVector = std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classMR_1_1HistoryAction.html">   14</a></span><span class="keyword">class </span><a class="code hl_class" href="classMR_1_1HistoryAction.html">HistoryAction</a></div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>{</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga97370459d3645a1169ed426ef4896e5c">   17</a></span>    <span class="keyword">virtual</span> <a class="code hl_function" href="group__GeneralGroup.html#ga97370459d3645a1169ed426ef4896e5c">~HistoryAction</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga9daa0b79de161f676f6283e3804dc8ce">   19</a></span>    <span class="keyword">virtual</span> std::string <a class="code hl_function" href="group__GeneralGroup.html#ga9daa0b79de161f676f6283e3804dc8ce">name</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span> </div>
+<div class="foldopen" id="foldopen00021" data-start="{" data-end="};">
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7">   21</a></span>    <span class="keyword">enum class</span> <a class="code hl_enumeration" href="group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7">Type</a></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    {</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>        <a class="code hl_enumvalue" href="group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119">Undo</a>,</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>        <a class="code hl_enumvalue" href="group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6">Redo</a></div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    };</div>
+</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaecfce349736beaf17a23a6817c86f3bb">   27</a></span>    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code hl_function" href="group__GeneralGroup.html#gaecfce349736beaf17a23a6817c86f3bb">action</a>( <a class="code hl_enumeration" href="group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7">Type</a> actionType ) = 0;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gad6df54da6a63ed83f15053507e8569de">   30</a></span>    [[nodiscard]] <span class="keyword">virtual</span> <span class="keywordtype">size_t</span> <a class="code hl_function" href="group__GeneralGroup.html#gad6df54da6a63ed83f15053507e8569de">heapBytes</a>() <span class="keyword">const</span> = 0;</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>};</div>
+</div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span> </div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno"><a class="line" href="namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804">   39</a></span><a class="code hl_define" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::pair&lt;bool, int&gt; <a class="code hl_function" href="namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804">filterHistoryActionsVector</a>( HistoryActionsVector&amp; historyVector,</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    HistoryStackFilter filteringCondition, <span class="keywordtype">size_t</span> firstRedoIndex = 0, <span class="keywordtype">bool</span> deepFiltering = <span class="keyword">true</span> );</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aMRMeshFwd_8h_html_a08ff09fd7e75c029b08cc255b0734300"><div class="ttname"><a href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a></div><div class="ttdeci">#define MRMESH_API</div><div class="ttdef"><b>Definition</b> MRMeshFwd.h:80</div></div>
-<div class="ttc" id="aclassMR_1_1HistoryAction_html_a4fa0656138f24560d866d1a306a4f8fc"><div class="ttname"><a href="../Csharp/classMR_1_1HistoryAction.html#a4fa0656138f24560d866d1a306a4f8fc">MR::HistoryAction::action</a></div><div class="ttdeci">unsafe void action(MR.HistoryAction.Type actionType)</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
-<div class="ttc" id="anamespaceMR_html_abde0e5a6e5cf5e3e9648a38740dd9804"><div class="ttname"><a href="namespaceMR.html#abde0e5a6e5cf5e3e9648a38740dd9804">MR::filterHistoryActionsVector</a></div><div class="ttdeci">MRMESH_API std::pair&lt; bool, int &gt; filterHistoryActionsVector(HistoryActionsVector &amp;historyVector, HistoryStackFilter filteringCondition, size_t firstRedoIndex=0, bool deepFiltering=true)</div><div class="ttdoc">Remove actions from history actions vector that match the condition.</div></div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga85276508657eac277a84365d3e41c118">   33</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#ga85276508657eac277a84365d3e41c118">HistoryStackFilter</a> = std::function&lt;bool( <span class="keyword">const</span> std::shared_ptr&lt;HistoryAction&gt;&amp; )&gt;;</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga951264a40637210aff82d6b0e375446f">   34</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#ga951264a40637210aff82d6b0e375446f">HistoryActionsVector</a> = std::vector&lt;std::shared_ptr&lt;HistoryAction&gt;&gt;;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span> </div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gabde0e5a6e5cf5e3e9648a38740dd9804">   42</a></span>MRMESH_API std::pair&lt;bool, int&gt; <a class="code hl_function" href="group__GeneralGroup.html#gabde0e5a6e5cf5e3e9648a38740dd9804">filterHistoryActionsVector</a>( <a class="code hl_typedef" href="group__GeneralGroup.html#ga951264a40637210aff82d6b0e375446f">HistoryActionsVector</a>&amp; historyVector,</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_typedef" href="group__GeneralGroup.html#ga85276508657eac277a84365d3e41c118">HistoryStackFilter</a> filteringCondition, <span class="keywordtype">size_t</span> firstRedoIndex = 0, <span class="keywordtype">bool</span> deepFiltering = <span class="keyword">true</span> );</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span> </div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>} </div>
+<div class="ttc" id="aclassMR_1_1HistoryAction_html"><div class="ttname"><a href="classMR_1_1HistoryAction.html">MR::HistoryAction</a></div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:15</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga85276508657eac277a84365d3e41c118"><div class="ttname"><a href="group__GeneralGroup.html#ga85276508657eac277a84365d3e41c118">MR::HistoryStackFilter</a></div><div class="ttdeci">std::function&lt; bool(const std::shared_ptr&lt; HistoryAction &gt; &amp;)&gt; HistoryStackFilter</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:33</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga951264a40637210aff82d6b0e375446f"><div class="ttname"><a href="group__GeneralGroup.html#ga951264a40637210aff82d6b0e375446f">MR::HistoryActionsVector</a></div><div class="ttdeci">std::vector&lt; std::shared_ptr&lt; HistoryAction &gt; &gt; HistoryActionsVector</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:34</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga97370459d3645a1169ed426ef4896e5c"><div class="ttname"><a href="group__GeneralGroup.html#ga97370459d3645a1169ed426ef4896e5c">MR::HistoryAction::~HistoryAction</a></div><div class="ttdeci">virtual ~HistoryAction()=default</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9daa0b79de161f676f6283e3804dc8ce"><div class="ttname"><a href="group__GeneralGroup.html#ga9daa0b79de161f676f6283e3804dc8ce">MR::HistoryAction::name</a></div><div class="ttdeci">virtual std::string name() const =0</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gabde0e5a6e5cf5e3e9648a38740dd9804"><div class="ttname"><a href="group__GeneralGroup.html#gabde0e5a6e5cf5e3e9648a38740dd9804">MR::filterHistoryActionsVector</a></div><div class="ttdeci">MRMESH_API std::pair&lt; bool, int &gt; filterHistoryActionsVector(HistoryActionsVector &amp;historyVector, HistoryStackFilter filteringCondition, size_t firstRedoIndex=0, bool deepFiltering=true)</div><div class="ttdoc">Remove actions from history actions vector that match the condition.</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gac16eb31dd26d35cfc18bac8a05983aa7"><div class="ttname"><a href="group__GeneralGroup.html#gac16eb31dd26d35cfc18bac8a05983aa7">MR::HistoryAction::Type</a></div><div class="ttdeci">Type</div><div class="ttdef"><b>Definition</b> MRHistoryAction.h:22</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gad6df54da6a63ed83f15053507e8569de"><div class="ttname"><a href="group__GeneralGroup.html#gad6df54da6a63ed83f15053507e8569de">MR::HistoryAction::heapBytes</a></div><div class="ttdeci">virtual size_t heapBytes() const =0</div><div class="ttdoc">returns the amount of memory this object occupies on heap</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaecfce349736beaf17a23a6817c86f3bb"><div class="ttname"><a href="group__GeneralGroup.html#gaecfce349736beaf17a23a6817c86f3bb">MR::HistoryAction::action</a></div><div class="ttdeci">virtual void action(Type actionType)=0</div><div class="ttdoc">This function is called on history action (undo, redo, etc.)</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ggac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119"><div class="ttname"><a href="group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a1cdc076b28f70afac5fcedadf99fa119">MR::HistoryAction::Type::Undo</a></div><div class="ttdeci">@ Undo</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ggac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6"><div class="ttname"><a href="group__GeneralGroup.html#ggac16eb31dd26d35cfc18bac8a05983aa7a5afeaba074ef570dc720caaa855d49f6">MR::HistoryAction::Type::Redo</a></div><div class="ttdeci">@ Redo</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

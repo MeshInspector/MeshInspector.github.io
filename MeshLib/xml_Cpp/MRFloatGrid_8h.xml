@@ -1,0 +1,282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRFloatGrid_8h" kind="file" language="C++">
+    <compoundname>MRFloatGrid.h</compoundname>
+    <includes local="yes">MRVoxelsFwd.h</includes>
+    <includes refid="MRProgressCallback_8h" local="yes">MRMesh/MRProgressCallback.h</includes>
+    <includedby refid="MRBoolean_8h" local="yes">MRBoolean.h</includedby>
+    <includedby refid="MRChangeVoxelsAction_8h" local="yes">MRChangeVoxelsAction.h</includedby>
+    <includedby refid="MRMarkedVoxelSlice_8h" local="no">MRMarkedVoxelSlice.h</includedby>
+    <includedby refid="MRVDBFloatGrid_8h" local="yes">MRVDBFloatGrid.h</includedby>
+    <includedby refid="MRVoxelsVolume_8h" local="yes">MRVoxelsVolume.h</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>MRMesh/MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRFloatGrid.h</label>
+        <link refid="MRFloatGrid_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="2">
+        <label>MRVoxelsFwd.h</label>
+      </node>
+      <node id="5">
+        <label>cassert</label>
+      </node>
+      <node id="6">
+        <label>cmath</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="15">
+        <label>MRBinaryOperationsPlugin.h</label>
+        <link refid="MRBinaryOperationsPlugin_8h"/>
+      </node>
+      <node id="23">
+        <label>MROpenRawVoxelsPlugin.h</label>
+        <link refid="MROpenRawVoxelsPlugin_8h"/>
+      </node>
+      <node id="11">
+        <label>MRCudaPointsToDistanceVolume.h</label>
+        <link refid="MRCudaPointsToDistanceVolume_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMarkedVoxelSlice.h</label>
+        <link refid="MRMarkedVoxelSlice_8h"/>
+      </node>
+      <node id="2">
+        <label>MRBoolean.h</label>
+        <link refid="MRBoolean_8h"/>
+      </node>
+      <node id="16">
+        <label>MRChangeVoxelSelectionAction.h</label>
+        <link refid="MRChangeVoxelSelectionAction_8h"/>
+      </node>
+      <node id="3">
+        <label>MRChangeVoxelsAction.h</label>
+        <link refid="MRChangeVoxelsAction_8h"/>
+      </node>
+      <node id="12">
+        <label>MRDicom.h</label>
+        <link refid="MRDicom_8h"/>
+      </node>
+      <node id="1">
+        <label>MRFloatGrid.h</label>
+        <link refid="MRFloatGrid_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MRMarchingCubes.h</label>
+        <link refid="MRMarchingCubes_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRMeshToDistanceVolume.h</label>
+        <link refid="MRMeshToDistanceVolume_8h"/>
+      </node>
+      <node id="7">
+        <label>MRMoveMeshToVoxelMaxDeriv.h</label>
+        <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
+      </node>
+      <node id="14">
+        <label>MRObjectVoxels.h</label>
+        <link refid="MRObjectVoxels_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRTeethMaskToDirectionVolume.h</label>
+        <link refid="MRTeethMaskToDirectionVolume_8h"/>
+      </node>
+      <node id="5">
+        <label>MRVDBFloatGrid.h</label>
+        <link refid="MRVDBFloatGrid_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRVolumeInterpolation.h</label>
+        <link refid="MRVolumeInterpolation_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRVolumeSegment.h</label>
+        <link refid="MRVolumeSegment_8h"/>
+      </node>
+      <node id="21">
+        <label>MRVoxelsApplyTransform.h</label>
+        <link refid="MRVoxelsApplyTransform_8h"/>
+      </node>
+      <node id="22">
+        <label>MRVoxelsLoad.h</label>
+        <link refid="MRVoxelsLoad_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRVoxelsSave.h</label>
+        <link refid="MRVoxelsSave_8h"/>
+      </node>
+      <node id="10">
+        <label>MRVoxelsVolume.h</label>
+        <link refid="MRVoxelsVolume_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRVoxelsVolumeAccess.h</label>
+        <link refid="MRVoxelsVolumeAccess_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRVoxelsVolumeCachingAccessor.h</label>
+        <link refid="MRVoxelsVolumeCachingAccessor_8h"/>
+      </node>
+      <node id="17">
+        <label>MRWeightedPointsShell.h</label>
+        <link refid="MRWeightedPointsShell_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMR_1_1FloatGrid" prot="public">MR::FloatGrid</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRVoxelsFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRMesh/MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="group__BasicStructuresGroup_1gaaa4989f3d8e88d20b6cbebc9f51db434" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">MRVOXELS_CLASS<sp/><ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="classMR_1_1FloatGrid" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVOXELS_CLASS<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="23" refid="classMR_1_1FloatGrid_1ad7614c2c6c361b7de54e6b4f36b10f40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid_1ad7614c2c6c361b7de54e6b4f36b10f40" kindref="member">FloatGrid</ref>();</highlight></codeline>
+<codeline lineno="24" refid="classMR_1_1FloatGrid_1acb513b32df646142474fac7a91ffd442" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid_1acb513b32df646142474fac7a91ffd442" kindref="member">FloatGrid</ref>(<sp/>std::shared_ptr&lt;OpenVdbFloatGrid&gt;<sp/>ptr<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="classMR_1_1FloatGrid_1a4245c1e58d5a40d85bcfe90b3dc68fd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid_1a4245c1e58d5a40d85bcfe90b3dc68fd2" kindref="member">reset</ref>()<sp/>noexcept;</highlight></codeline>
+<codeline lineno="27" refid="classMR_1_1FloatGrid_1a253b72f1e0f6df406df512ee0886b1ab" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>swap(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>other<sp/>)<sp/>noexcept;</highlight></codeline>
+<codeline lineno="28" refid="classMR_1_1FloatGrid_1ad47060aef21f627a7bb261420a4be73a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>static<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>deepCopy(<sp/>const<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>other<sp/>)<sp/>noexcept;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="classMR_1_1FloatGrid_1aee4b8a5066709b06d3f00038f22253fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/><ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref>*<sp/>get()<sp/>const<sp/>noexcept;</highlight></codeline>
+<codeline lineno="31" refid="classMR_1_1FloatGrid_1aa05a3eb00a5aa39594fef0ff19773034" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/><ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref>&amp;<sp/>operator<sp/>*()<sp/>const<sp/>noexcept;</highlight></codeline>
+<codeline lineno="32" refid="classMR_1_1FloatGrid_1a5cad3b44aaafdb7694c854056f42f486" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/><ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref>*<sp/>operator<sp/>-&gt;()<sp/>const<sp/>noexcept;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="classMR_1_1FloatGrid_1aaa076c4d8c658769c89b78fcb7f4ec10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>explicit<sp/>operator<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">()<sp/>const<sp/>noexcept;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="classMR_1_1FloatGrid_1a48d8eeff117d61bbfdedc5db8f17ff74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>std::shared_ptr&lt;<ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref>&gt;<sp/>toVdb()<sp/>const<sp/>noexcept;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">private:</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>std::shared_ptr&lt;<ref refid="structMR_1_1OpenVdbFloatGrid" kindref="compound">OpenVdbFloatGrid</ref>&gt;<sp/>ptr_;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="group__BasicStructuresGroup_1ga0f1e6296451691269fc538aad8088557" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>heapBytes(<sp/>const<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid<sp/>);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="group__BasicStructuresGroup_1ga1ca037d5840cb55f43edc7af7164ee53" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>resampled(<sp/>const<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelScale,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="group__BasicStructuresGroup_1ga7d757a1fbd48e0e4c6268f3637ba631c" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="group__BasicStructuresGroup_1ga1ca037d5840cb55f43edc7af7164ee53" kindref="member">resampled</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>voxelScale,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="group__BasicStructuresGroup_1gaaa65eb4d7a6f3cf6b9682a32de1e0915" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="group__BasicStructuresGroup_1gaaa65eb4d7a6f3cf6b9682a32de1e0915" kindref="member">cropped</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Box3i&amp;<sp/>box,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="group__BasicStructuresGroup_1ga770032fe42da0bb15fcc90bf40d219a1" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga770032fe42da0bb15fcc90bf40d219a1" kindref="member">countVoxelsWithValuePred</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::function&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal">(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>)&gt;&amp;<sp/>pred<sp/>);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="group__BasicStructuresGroup_1gac9943628cd64b8a75e368ce9d38efd82" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1gac9943628cd64b8a75e368ce9d38efd82" kindref="member">countVoxelsWithValueLess</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="group__BasicStructuresGroup_1ga5712e78d9d4422fcdcd7dfed32c2c17e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga5712e78d9d4422fcdcd7dfed32c2c17e" kindref="member">countVoxelsWithValueGreater</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value<sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="group__BasicStructuresGroup_1ga5124238a8f9f74cadab3bc8dcc4438e6" refkind="member"><highlight class="normal">MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga5124238a8f9f74cadab3bc8dcc4438e6" kindref="member">gaussianFilter</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iters,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="65" refid="group__BasicStructuresGroup_1gafc2d64e9f6eb7deafd50ee83fd764989" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="group__BasicStructuresGroup_1gafc2d64e9f6eb7deafd50ee83fd764989" kindref="member">gaussianFiltered</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>width,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>iters,<sp/>ProgressCallback<sp/>cb<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="group__BasicStructuresGroup_1ga4de97d8976ba9d3103b0d84d94214861" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga4de97d8976ba9d3103b0d84d94214861" kindref="member">getValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i<sp/>&amp;<sp/>p<sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="group__BasicStructuresGroup_1ga28830151316f69a9dfd4e1fa94ccf465" refkind="member"><highlight class="normal">MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga28830151316f69a9dfd4e1fa94ccf465" kindref="member">setValue</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3i&amp;<sp/>p,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value<sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="group__BasicStructuresGroup_1gac5781724903abd08d021ac04b898a862" refkind="member"><highlight class="normal">MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga28830151316f69a9dfd4e1fa94ccf465" kindref="member">setValue</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VoxelBitSet&amp;<sp/>region,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value<sp/>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="group__BasicStructuresGroup_1ga4396f48fae80f4ac64117dec83d0de9b" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRVOXELS_API<sp/>Box3i<sp/><ref refid="group__BasicStructuresGroup_1ga4396f48fae80f4ac64117dec83d0de9b" kindref="member">findActiveBounds</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="group__BasicStructuresGroup_1ga81533ed0f1aef464f77c39b18acf4956" refkind="member"><highlight class="normal">MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga81533ed0f1aef464f77c39b18acf4956" kindref="member">setValues</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>grid,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VoxelBitSet&amp;<sp/>region,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;&amp;<sp/>values<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="group__BasicStructuresGroup_1ga87e6e60c5605c5450f4bd815128674c9" refkind="member"><highlight class="normal">MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__BasicStructuresGroup_1ga87e6e60c5605c5450f4bd815128674c9" kindref="member">setLevelSetType</ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>&amp;<sp/>grid<sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="group__BasicStructuresGroup_1gaf5d37fb097aca732b859a5d55970fd2a" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1ac908840be602197b44593f88841d62fc" kindref="member">operator += </ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>&amp;<sp/>a,<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="group__BasicStructuresGroup_1ga2773336d5184520990f578bafed5d06b" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1a8556ebd3ff55421b41967bfbdc1e3aba" kindref="member">operator -= </ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>&amp;<sp/>a,<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="group__BasicStructuresGroup_1ga38ae01a5dcb7ca4579b8a5bedc1a87af" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1a0425e1276bc89216995e7248830eb39a" kindref="member">operator *= </ref>(<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/>&amp;<sp/>a,<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="group__BasicStructuresGroup_1ga27aa276f1eb4382e060c5c2f4b9549d6" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1a57c6b7abb0d440f81d2e0e563f66c947" kindref="member">operator + </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="group__BasicStructuresGroup_1ga29aa00cf3d9e6271529f5e91d41a0c40" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1a1bb63ebefff7965e722fdab681030eda" kindref="member">operator - </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="group__BasicStructuresGroup_1gad706177987608a6f19bc71c513db2ff8" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref><sp/><ref refid="MRImGuiVectorOperators_8h_1a6bfc05fae3fc578b2825f581c6f5407f" kindref="member">operator * </ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1FloatGrid" kindref="compound">FloatGrid</ref>&amp;<sp/>b<sp/>);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGrid.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AngleUnit" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AngleUnit</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AngleUnit_1a9a367dad41152f99ac185f95d052fbb2" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AngleUnit::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1AngleUnit" kindref="compound">AngleUnit</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1631" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AngleUnit_1a03ef370ba9d8cc2946a2082a30ede083" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AngleUnit::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.AngleUnit._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AngleUnit" kindref="compound">AngleUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1632" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AngleUnit_1a706ba279783d5c1f6d1de4fa115f6f31" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AngleUnit::degrees</definition>
+        <argsstring></argsstring>
+        <name>degrees</name>
+        <qualifiedname>mrmeshpy.AngleUnit.degrees</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AngleUnit" kindref="compound">AngleUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1633" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AngleUnit_1a0ba447ddfa9a22e17fcfd0530146bdc8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AngleUnit::radians</definition>
+        <argsstring></argsstring>
+        <name>radians</name>
+        <qualifiedname>mrmeshpy.AngleUnit.radians</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1AngleUnit" kindref="compound">AngleUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1634" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1a782937f2fea1855b99e9e6ae151beb0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AngleUnit.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1635" bodyend="1636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1abd50180b8cad8e56f429716ba3982842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AngleUnit.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1637" bodyend="1638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1a9a234c80e3343bd32bd1357ebb708a58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AngleUnit.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1639" bodyend="1640"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1ab395f590d101dbcadf3087624078cb28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AngleUnit.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1641" bodyend="1642"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1a4ea13711de9fa81ff5554ba46d1922a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AngleUnit.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1643" bodyend="1644"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1adfea28161c6961617a9e9a1b6b6d4495" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AngleUnit.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1645" bodyend="1646"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1a134cd376750fa7c543b71f7ffdfe6807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AngleUnit.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1647" bodyend="1648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1a0f0c248225e41926bdb054e7495d22dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AngleUnit.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1649" bodyend="1650"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1a699d9a0b5c5c90d313365af5b71825f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AngleUnit.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1651" bodyend="1652"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1ab22fcda90e10c6b71322ba97852e8879" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AngleUnit.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.AngleUnit.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1653" bodyend="1654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1a1b09deb52da19d5ab1aa74862766d000" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AngleUnit.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.AngleUnit.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1656" bodyend="1657"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleUnit_1a92b61c50c3e2073635f88eba50faa0fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AngleUnit.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.AngleUnit.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1659" bodyend="1660"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  radians
+
+  degrees
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AngleUnit</label>
+        <link refid="classmrmeshpy_1_1AngleUnit"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_count</edgelabel>
+          <edgelabel>degrees</edgelabel>
+          <edgelabel>radians</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1621" bodyend="1660"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a782937f2fea1855b99e9e6ae151beb0d" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1abd50180b8cad8e56f429716ba3982842" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a9a234c80e3343bd32bd1357ebb708a58" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1ab395f590d101dbcadf3087624078cb28" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a4ea13711de9fa81ff5554ba46d1922a3" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1adfea28161c6961617a9e9a1b6b6d4495" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a9a367dad41152f99ac185f95d052fbb2" prot="private" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a134cd376750fa7c543b71f7ffdfe6807" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a0f0c248225e41926bdb054e7495d22dd" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a699d9a0b5c5c90d313365af5b71825f0" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1ab22fcda90e10c6b71322ba97852e8879" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a03ef370ba9d8cc2946a2082a30ede083" prot="protected" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a706ba279783d5c1f6d1de4fa115f6f31" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>degrees</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a1b09deb52da19d5ab1aa74862766d000" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a0ba447ddfa9a22e17fcfd0530146bdc8" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>radians</name></member>
+      <member refid="classmrmeshpy_1_1AngleUnit_1a92b61c50c3e2073635f88eba50faa0fb" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleUnit</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

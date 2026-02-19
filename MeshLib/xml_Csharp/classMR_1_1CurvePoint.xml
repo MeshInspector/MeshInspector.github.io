@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CurvePoint" kind="class" language="C#" prot="public">
+    <compoundname>MR::CurvePoint</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_CurvePoint</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1CurvePoint_1a45b8678968b4f32c5ef09165484491c8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.CurvePoint.pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <qualifiedname>MR.CurvePoint.pos</qualifiedname>
+        <briefdescription>
+<para>&lt; position on the curve </para>
+        </briefdescription>
+        <detaileddescription>
+<para>direction along the curve </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="118" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1CurvePoint_1ae8b151e635f60413a2b2013806dee6ee" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.CurvePoint.dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>MR.CurvePoint.dir</qualifiedname>
+        <briefdescription>
+<para>the normal of the surface where the curve is located </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="121" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1CurvePoint_1abe5f5bc4b80d9f661f955bd654248385" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.CurvePoint.snorm</definition>
+        <argsstring></argsstring>
+        <name>snorm</name>
+        <qualifiedname>MR.CurvePoint.snorm</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="124" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1CurvePoint_1a505930f161a84c64e7bda09cb0ab12e8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CurvePoint.CurvePoint</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CurvePoint</name>
+        <qualifiedname>MR.CurvePoint.CurvePoint</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="128" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="128" bodyend="132"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1CurvePoint_1ad569f15df5721b593df349939e36c133" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CurvePoint.CurvePoint</definition>
+        <argsstring>()</argsstring>
+        <name>CurvePoint</name>
+        <qualifiedname>MR.CurvePoint.CurvePoint</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="138" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="138" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CurvePoint_1ac76028738980ccff0fdb9f228d80a6d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CurvePoint.CurvePoint</definition>
+        <argsstring>(MR.Vector3f pos, MR.Vector3f dir, MR.Vector3f snorm)</argsstring>
+        <name>CurvePoint</name>
+        <qualifiedname>MR.CurvePoint.CurvePoint</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>snorm</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1CurvePoint" kindref="compound">MR.CurvePoint</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="149" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="149" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CurvePoint_1a86952cbd5695483c7bd4bff38fd69855" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CurvePoint.CurvePoint</definition>
+        <argsstring>(MR.Const_CurvePoint _other)</argsstring>
+        <name>CurvePoint</name>
+        <qualifiedname>MR.CurvePoint.CurvePoint</qualifiedname>
+        <param>
+          <type>MR.Const_CurvePoint</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CurvePoint.CurvePoint</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="160" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="160" bodyend="167"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CurvePoint_1af069b8675cdef463b4703a6f538d3128" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.CurvePoint.CurvePoint</definition>
+        <argsstring>(CurvePoint _other)</argsstring>
+        <name>CurvePoint</name>
+        <qualifiedname>MR.CurvePoint.CurvePoint</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CurvePoint.CurvePoint</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="172" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CurvePoint_1a20f725a7d7da530992ff0444db50c739" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CurvePoint" kindref="compound">MR.CurvePoint</ref></type>
+        <definition>unsafe MR.CurvePoint MR.CurvePoint.assign</definition>
+        <argsstring>(MR.Const_CurvePoint _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.CurvePoint.assign</qualifiedname>
+        <param>
+          <type>MR.Const_CurvePoint</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.CurvePoint.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="177" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="177" bodyend="184"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1CurvePoint" kindref="compound">MR.CurvePoint</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_CurvePoint</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CurvePoint</label>
+        <link refid="classMR_1_1CurvePoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CurvePoint &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_CurvePoint</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CurvePoint</label>
+        <link refid="classMR_1_1CurvePoint"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_CurvePoint &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" line="115" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCurve.cs" bodystart="116" bodyend="185"/>
+    <listofallmembers>
+      <member refid="classMR_1_1CurvePoint_1a20f725a7d7da530992ff0444db50c739" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>assign</name></member>
+      <member refid="classMR_1_1CurvePoint_1a505930f161a84c64e7bda09cb0ab12e8" prot="package" virt="non-virtual"><scope>MR::CurvePoint</scope><name>CurvePoint</name></member>
+      <member refid="classMR_1_1CurvePoint_1ad569f15df5721b593df349939e36c133" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>CurvePoint</name></member>
+      <member refid="classMR_1_1CurvePoint_1ac76028738980ccff0fdb9f228d80a6d6" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>CurvePoint</name></member>
+      <member refid="classMR_1_1CurvePoint_1a86952cbd5695483c7bd4bff38fd69855" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>CurvePoint</name></member>
+      <member refid="classMR_1_1CurvePoint_1af069b8675cdef463b4703a6f538d3128" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>CurvePoint</name></member>
+      <member refid="classMR_1_1CurvePoint_1ae8b151e635f60413a2b2013806dee6ee" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>dir</name></member>
+      <member refid="classMR_1_1CurvePoint_1a45b8678968b4f32c5ef09165484491c8" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>pos</name></member>
+      <member refid="classMR_1_1CurvePoint_1abe5f5bc4b80d9f661f955bd654248385" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>snorm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

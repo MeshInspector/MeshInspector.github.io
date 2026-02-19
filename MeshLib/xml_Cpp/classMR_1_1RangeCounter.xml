@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RangeCounter" kind="class" language="C++" prot="public">
+    <compoundname>MR::RangeCounter</compoundname>
+    <includes refid="MROpenVDBHelper_8h" local="no">MROpenVDBHelper.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename TreeT</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gaa8f668ef1c57d1b754807bd662c72f66" kind="typedef"><name>ValueT</name></member>
+      <member refid="group__GeneralGroup_1ga6348660687ee746c78a3e76ef7565eb8" kind="typedef"><name>TreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga2843b3697415f694e48b3921d0b244d8" kind="typedef"><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga310cccaba672fdf60cd4fd64f7718b2e" kind="typedef"><name>TileIterT</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gafc61426864c7a39dd91df50524681102" kind="variable"><name>size</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga9dc75f4140f86f912151eb28d6ed87c1" kind="function"><name>RangeCounter</name></member>
+      <member refid="group__GeneralGroup_1gadda3a272ca4a16dd6c2c1a4effefa578" kind="function"><name>RangeCounter</name></member>
+      <member refid="group__GeneralGroup_1gaaa6a0d48919ef234d36534532b95eb6a" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga75a111eb51abd100715ed2283d094687" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gad2fbbfb496bbf63f5db4608cd5c1ee61" kind="function"><name>join</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>functor to calculate tile and leaf valid nodes count </para>
+    </briefdescription>
+    <detaileddescription>
+<para>valid node - the node where the action is performed. it is necessary to calculate the progress in real action </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::RangeCounter&lt; TreeT &gt;</label>
+        <link refid="classMR_1_1RangeCounter"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RangeSize</label>
+        <link refid="structMR_1_1RangeSize"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="368" bodyend="398"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaaa6a0d48919ef234d36534532b95eb6a" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga75a111eb51abd100715ed2283d094687" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gad2fbbfb496bbf63f5db4608cd5c1ee61" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>join</name></member>
+      <member refid="group__GeneralGroup_1ga2843b3697415f694e48b3921d0b244d8" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga9dc75f4140f86f912151eb28d6ed87c1" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>RangeCounter</name></member>
+      <member refid="group__GeneralGroup_1gadda3a272ca4a16dd6c2c1a4effefa578" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>RangeCounter</name></member>
+      <member refid="group__GeneralGroup_1gafc61426864c7a39dd91df50524681102" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga310cccaba672fdf60cd4fd64f7718b2e" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>TileIterT</name></member>
+      <member refid="group__GeneralGroup_1ga6348660687ee746c78a3e76ef7565eb8" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>TreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1gaa8f668ef1c57d1b754807bd662c72f66" prot="public" virt="non-virtual"><scope>MR::RangeCounter</scope><name>ValueT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

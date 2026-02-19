@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshOrPointsObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::MeshOrPointsObject</compoundname>
+    <includes refid="MRMeshOrPointsObject_8h" local="no">MRMeshOrPointsObject.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaf9aa4d4c9090c0bf06c81836cb73cd67" kind="variable"><name>var_</name></member>
+      <member refid="group__GeneralGroup_1ga5ab21fa3ee379ea01ec8ed0b61417e75" kind="variable"><name>visualObject_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac8508f73963cbf0f41996e64e54b0024" kind="function"><name>MeshOrPointsObject</name></member>
+      <member refid="group__GeneralGroup_1gab22b562641023d5b2592738bf0480984" kind="function"><name>MeshOrPointsObject</name></member>
+      <member refid="group__GeneralGroup_1ga9beccad2400ae701a8c18c40c5447852" kind="function"><name>MeshOrPointsObject</name></member>
+      <member refid="group__GeneralGroup_1gaf56c4211ae251d9b95a7c29819faf571" kind="function"><name>MeshOrPointsObject</name></member>
+      <member refid="group__GeneralGroup_1ga0505cbf8b2c451d7d7f6f9c0f61da8e2" kind="function"><name>set</name></member>
+      <member refid="group__GeneralGroup_1gaecab05340fb5d8f04a295dc8567a3d2b" kind="function"><name>asObjectMesh</name></member>
+      <member refid="group__GeneralGroup_1ga78cd109414fa5e7350904aef325773a0" kind="function"><name>set</name></member>
+      <member refid="group__GeneralGroup_1gafb102f7701f621951520af1a0b248d95" kind="function"><name>asObjectPoints</name></member>
+      <member refid="group__GeneralGroup_1gabcbc6506c74c783ee36216d1ce536bed" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gad5721ae1649791db63412d697972ad67" kind="function"><name>operator-&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga85885b5e86610e53fe93aea07accd2b7" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1gadfeb28e41ada77721a8b726e820733aa" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gacfaf7828131d41c6e9e01fc4618ff5b4" kind="function"><name>meshOrPoints</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class can hold either <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> or ObjectPoint It is used for convenient storage and operation with any of them </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPointsObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPointsObject.h" bodystart="14" bodyend="43"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaecab05340fb5d8f04a295dc8567a3d2b" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>asObjectMesh</name></member>
+      <member refid="group__GeneralGroup_1gafb102f7701f621951520af1a0b248d95" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>asObjectPoints</name></member>
+      <member refid="group__GeneralGroup_1ga85885b5e86610e53fe93aea07accd2b7" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1gacfaf7828131d41c6e9e01fc4618ff5b4" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>meshOrPoints</name></member>
+      <member refid="group__GeneralGroup_1gac8508f73963cbf0f41996e64e54b0024" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
+      <member refid="group__GeneralGroup_1gab22b562641023d5b2592738bf0480984" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
+      <member refid="group__GeneralGroup_1ga9beccad2400ae701a8c18c40c5447852" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
+      <member refid="group__GeneralGroup_1gaf56c4211ae251d9b95a7c29819faf571" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>MeshOrPointsObject</name></member>
+      <member refid="group__GeneralGroup_1gad5721ae1649791db63412d697972ad67" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator-&gt;</name></member>
+      <member refid="group__GeneralGroup_1gadfeb28e41ada77721a8b726e820733aa" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gabcbc6506c74c783ee36216d1ce536bed" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga0505cbf8b2c451d7d7f6f9c0f61da8e2" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>set</name></member>
+      <member refid="group__GeneralGroup_1ga78cd109414fa5e7350904aef325773a0" prot="public" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>set</name></member>
+      <member refid="group__GeneralGroup_1gaf9aa4d4c9090c0bf06c81836cb73cd67" prot="private" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>var_</name></member>
+      <member refid="group__GeneralGroup_1ga5ab21fa3ee379ea01ec8ed0b61417e75" prot="private" virt="non-virtual"><scope>MR::MeshOrPointsObject</scope><name>visualObject_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

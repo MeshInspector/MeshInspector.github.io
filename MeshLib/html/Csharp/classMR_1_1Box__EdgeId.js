@@ -15,5 +15,5 @@ var classMR_1_1Box__EdgeId =
     [ "incr", "classMR_1_1Box__EdgeId.html#a650a5839f4f885385976e287f6817cfa", null ],
     [ "operator Box_EdgeId", "classMR_1_1Box__EdgeId.html#adcd9e5ece6e8ac61ca204e04593b88e1", null ],
     [ "subAssign", "classMR_1_1Box__EdgeId.html#a530aec11dd788f91ab96d00796df78a1", null ],
-    [ "_Ref", "classMR_1_1Box__EdgeId.html#ac4c63e073b1a9f0603dbe51d1f5ef527", null ]
+    [ "id", "classMR_1_1Box__EdgeId.html#aa6e1ccfb0f5ad30b141b740b735237f5", null ]
 ];

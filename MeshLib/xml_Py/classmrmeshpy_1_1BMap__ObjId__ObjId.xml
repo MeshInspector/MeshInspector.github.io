@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BMap__ObjId__ObjId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BMap_ObjId_ObjId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__ObjId__ObjId_1a720cf1970c9887bc8480234e0bc16083" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_ObjId_ObjId::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.BMap_ObjId_ObjId._offsetof_b</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2012" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__ObjId__ObjId_1a3845229cf4aa8eaf90022046c4ccfedd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_ObjId_ObjId::_offsetof_tsize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tsize</name>
+        <qualifiedname>mrmeshpy.BMap_ObjId_ObjId._offsetof_tsize</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2013" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__ObjId__ObjId_1a62ec1fafc1b588168c7d20ba9f5e36b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_ObjId_ObjId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BMap_ObjId_ObjId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2014" bodyend="2015"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__ObjId__ObjId_1a660eabb937dca049ae628bc1e9118260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Buffer__ObjId__ObjId" kindref="compound">Buffer_ObjId_ObjId</ref></type>
+        <definition> Buffer_ObjId_ObjId mrmeshpy.BMap_ObjId_ObjId.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.BMap_ObjId_ObjId.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2017" bodyend="2018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__ObjId__ObjId_1a1d06fcf0a2f5f662ba6ff49f7d6bc787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BMap_ObjId_ObjId.tsize</definition>
+        <argsstring>(self)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_ObjId_ObjId.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target size, all values inside b must be less than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2020" bodyend="2023"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__ObjId__ObjId_1a91287eade6bbb7bac7f7b591334b3eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_ObjId_ObjId.tsize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_ObjId_ObjId.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2025" bodyend="2026"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BMap&lt;MR::ObjId, MR::ObjId&gt;
+Aliases:  AABBTreeBase_ObjTreeTraits.LeafBMap
+
+flat map: I -&gt; T
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BMap_ObjId_ObjId</label>
+        <link refid="classmrmeshpy_1_1BMap__ObjId__ObjId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_tsize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2005" bodyend="2026"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BMap__ObjId__ObjId_1a62ec1fafc1b588168c7d20ba9f5e36b3" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_ObjId_ObjId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BMap__ObjId__ObjId_1a720cf1970c9887bc8480234e0bc16083" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_ObjId_ObjId</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__ObjId__ObjId_1a3845229cf4aa8eaf90022046c4ccfedd" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_ObjId_ObjId</scope><name>_offsetof_tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__ObjId__ObjId_1a660eabb937dca049ae628bc1e9118260" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_ObjId_ObjId</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__ObjId__ObjId_1a1d06fcf0a2f5f662ba6ff49f7d6bc787" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_ObjId_ObjId</scope><name>tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__ObjId__ObjId_1a91287eade6bbb7bac7f7b591334b3eb7" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_ObjId_ObjId</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

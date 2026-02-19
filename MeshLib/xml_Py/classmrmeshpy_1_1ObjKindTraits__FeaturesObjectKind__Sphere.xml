@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Sphere</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1ab0aa8e789fa94ffd233f36e20c17e3f2" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.name</qualifiedname>
+        <initializer>=  &apos;Sphere&apos;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a773cf725f98201395028c924e52f0934" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1SphereObject" kindref="compound">SphereObject</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38701" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1ac3ee8a1c04d9c318c2c69bc1589f9742" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38704" bodyend="38705"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a604a890e6be5ed9dff1b4504c3162a97" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere" kindref="compound">ObjKindTraits_FeaturesObjectKind_Sphere</ref></type>
+        <definition> ObjKindTraits_FeaturesObjectKind_Sphere mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38708" bodyend="38709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a604a890e6be5ed9dff1b4504c3162a97" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere" kindref="compound">ObjKindTraits_FeaturesObjectKind_Sphere</ref></type>
+        <definition> ObjKindTraits_FeaturesObjectKind_Sphere mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38712" bodyend="38713"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a33ead78e387059d92f11ef82e01b47c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38715" bodyend="38716"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a3d92045444422dda4c5808d7e14dea81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.__init__</definition>
+        <argsstring>(self, ObjKindTraits_FeaturesObjectKind_Sphere arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere" kindref="compound">ObjKindTraits_FeaturesObjectKind_Sphere</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38718" bodyend="38721"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a33ead78e387059d92f11ef82e01b47c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38723" bodyend="38726"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjKindTraits&lt;MR::FeaturesObjectKind::Sphere&gt;
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjKindTraits_FeaturesObjectKind_Sphere</label>
+        <link refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>name</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38696" bodyend="38726"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1ac3ee8a1c04d9c318c2c69bc1589f9742" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Sphere</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a33ead78e387059d92f11ef82e01b47c3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Sphere</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a3d92045444422dda4c5808d7e14dea81" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Sphere</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a33ead78e387059d92f11ef82e01b47c3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Sphere</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1ab0aa8e789fa94ffd233f36e20c17e3f2" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Sphere</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a604a890e6be5ed9dff1b4504c3162a97" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Sphere</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a604a890e6be5ed9dff1b4504c3162a97" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Sphere</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjKindTraits__FeaturesObjectKind__Sphere_1a773cf725f98201395028c924e52f0934" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjKindTraits_FeaturesObjectKind_Sphere</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

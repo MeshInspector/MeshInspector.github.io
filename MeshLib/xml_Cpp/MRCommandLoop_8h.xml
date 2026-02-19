@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRCommandLoop_8h" kind="file" language="C++">
+    <compoundname>MRCommandLoop.h</compoundname>
+    <includes local="yes">exports.h</includes>
+    <includes local="no">queue</includes>
+    <includes local="no">functional</includes>
+    <includes local="no">condition_variable</includes>
+    <includes local="no">mutex</includes>
+    <includes local="no">thread</includes>
+    <includedby refid="MRPythonAppendCommand_8h" local="yes">MRPythonAppendCommand.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MRCommandLoop.h</label>
+        <link refid="MRCommandLoop_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>condition_variable</label>
+      </node>
+      <node id="2">
+        <label>exports.h</label>
+      </node>
+      <node id="4">
+        <label>functional</label>
+      </node>
+      <node id="6">
+        <label>mutex</label>
+      </node>
+      <node id="3">
+        <label>queue</label>
+      </node>
+      <node id="7">
+        <label>thread</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRCommandLoop.h</label>
+        <link refid="MRCommandLoop_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRPythonAppendCommand.h</label>
+        <link refid="MRPythonAppendCommand_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMR_1_1CommandLoop" prot="public">MR::CommandLoop</innerclass>
+    <innerclass refid="structMR_1_1CommandLoop_1_1Command" prot="private">MR::CommandLoop::Command</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;queue&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;functional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;condition_variable&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;mutex&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;thread&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="classMR_1_1CommandLoop" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1CommandLoop" kindref="compound">CommandLoop</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" kindref="member">CommandFunc</ref><sp/>=<sp/>std::function&lt;void()&gt;;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c" kindref="member">AfterWindowInit</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39aefac199d2823f9d78123a8ffb79b7b42" kindref="member">AfterSplashAppear</ref>,<sp/><sp/></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39a06431eb0f93d82e51c38a39e608780a0" kindref="member">AfterPluginInit</ref>,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba" kindref="member">BeforeWindowAppear</ref>,<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39a626474288d65a719abc0bb3d279c2d7a" kindref="member">AfterWindowAppear</ref><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1ga6ae7e4c5020652a1dda97dc3664b2bbf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6ae7e4c5020652a1dda97dc3664b2bbf" kindref="member">setMainThreadId</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::thread::id&amp;<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1gaa3d66df8666058e293e9daa4b8f68928" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>std::thread::id<sp/><ref refid="group__GeneralGroup_1gaa3d66df8666058e293e9daa4b8f68928" kindref="member">getMainThreadId</ref>();</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga90822eccec894fc827de4d60e5b6285b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga90822eccec894fc827de4d60e5b6285b" kindref="member">setState</ref>(<sp/><ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref><sp/>state<sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1gac2c51a1238c31d646cfb988bb335188b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac2c51a1238c31d646cfb988bb335188b" kindref="member">appendCommand</ref>(<sp/><ref refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" kindref="member">CommandFunc</ref><sp/>func,<sp/><ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref><sp/>state<sp/>=<sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba" kindref="member">StartPosition::BeforeWindowAppear</ref><sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="group__GeneralGroup_1ga10e006b28fa9dbd3572e3b43c8037640" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga10e006b28fa9dbd3572e3b43c8037640" kindref="member">runCommandFromGUIThread</ref>(<sp/><ref refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" kindref="member">CommandFunc</ref><sp/>func<sp/>);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1ga2f948b137288b0e6e94ca32809166869" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2f948b137288b0e6e94ca32809166869" kindref="member">processCommands</ref>();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga49b2698f52cf9c94be1af74fa75bf354" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga49b2698f52cf9c94be1af74fa75bf354" kindref="member">empty</ref>();</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1gaf9d0a6f381407e79b5ee8eac0cd2fda2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf9d0a6f381407e79b5ee8eac0cd2fda2" kindref="member">removeCommands</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>closeLoop<sp/>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1CommandLoop" kindref="compound">CommandLoop</ref>()<sp/>=<sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1CommandLoop" kindref="compound">~CommandLoop</ref>();</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1CommandLoop" kindref="compound">CommandLoop</ref>&amp;<sp/>instance_();</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>addCommand_(<sp/><ref refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" kindref="member">CommandFunc</ref><sp/>func,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>blockThread,<sp/><ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref><sp/>state<sp/>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">Command</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1ga495828361402419df380d32dc7480fed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga517bdd4c876165f0896a0780d5fea918" kindref="member">CommandFunc</ref><sp/><ref refid="group__GeneralGroup_1ga495828361402419df380d32dc7480fed" kindref="member">func</ref>;</highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1ga739535ad2c8198dd5cdc5b804b4d20c2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref><sp/><ref refid="group__GeneralGroup_1ga739535ad2c8198dd5cdc5b804b4d20c2" kindref="member">state</ref>{<sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39a336fdcdf66db98b7bcd1fd9c7c2dbeba" kindref="member">StartPosition::BeforeWindowAppear</ref><sp/>};</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1ga96d0ef6ef458d983f1ba035f68ebf6d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::condition_variable<sp/><ref refid="group__GeneralGroup_1ga96d0ef6ef458d983f1ba035f68ebf6d1" kindref="member">callerThreadCV</ref>;</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::thread::id<sp/><ref refid="group__GeneralGroup_1ga47ada2edb409f0b00f3de9839c8cade1" kindref="member">threadId</ref>;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga2e4318196fd48b27b617c07eb35bbe39" kindref="member">StartPosition</ref><sp/>state_{<sp/><ref refid="group__GeneralGroup_1gga2e4318196fd48b27b617c07eb35bbe39af86d54fce93fffda37739a9dbfc37c4c" kindref="member">StartPosition::AfterWindowInit</ref><sp/>};</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>queueClosed_{<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>};<sp/></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>std::thread::id<sp/>mainThreadId_;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>std::queue&lt;std::shared_ptr&lt;Command&gt;&gt;<sp/>commands_;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>std::mutex<sp/>mutex_;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRCommandLoop.h"/>
+  </compounddef>
+</doxygen>

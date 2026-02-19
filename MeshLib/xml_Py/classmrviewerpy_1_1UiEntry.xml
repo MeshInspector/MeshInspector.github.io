@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrviewerpy_1_1UiEntry" kind="class" language="Python" prot="public">
+    <compoundname>mrviewerpy::UiEntry</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrviewerpy_1_1UiEntry_1a339ffa1c03cb90632e3e73ef791d94d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.UiEntry.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrviewerpy.UiEntry.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="98" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="98" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1UiEntry_1a1467e0e2eabb67df9d978e167464cc86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.UiEntry.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrviewerpy.UiEntry.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="101" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1UiEntry_1a90c564ce79faf100620c0b22fcaebed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrviewerpy_1_1UiEntryType" kindref="compound">UiEntryType</ref></type>
+        <definition> UiEntryType mrviewerpy.UiEntry.type</definition>
+        <argsstring>(self)</argsstring>
+        <name>type</name>
+        <qualifiedname>mrviewerpy.UiEntry.type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="104" bodyend="105"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="97" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="97" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classmrviewerpy_1_1UiEntry_1a339ffa1c03cb90632e3e73ef791d94d0" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntry</scope><name>__repr__</name></member>
+      <member refid="classmrviewerpy_1_1UiEntry_1a1467e0e2eabb67df9d978e167464cc86" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntry</scope><name>name</name></member>
+      <member refid="classmrviewerpy_1_1UiEntry_1a90c564ce79faf100620c0b22fcaebed0" prot="public" virt="non-virtual"><scope>mrviewerpy::UiEntry</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

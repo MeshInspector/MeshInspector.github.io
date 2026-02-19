@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TouchpadParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TouchpadParameters</compoundname>
+    <includes refid="MRTouchpadParameters_8h" local="no">MRTouchpadParameters.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga5fa77fceab21954148047b9057cdadce" kind="enum"><name>SwipeMode</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga9ae8b021b03e91d547e512ba94391092" kind="variable"><name>ignoreKineticMoves</name></member>
+      <member refid="group__GeneralGroup_1gaddabc579478d3071f3b5a951ab574251" kind="variable"><name>cancellable</name></member>
+      <member refid="group__GeneralGroup_1ga4c54fd86bf3e610a33c76ea0e5b8c508" kind="variable"><name>swipeMode</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadParameters.h" bodystart="12" bodyend="23"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaddabc579478d3071f3b5a951ab574251" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>cancellable</name></member>
+      <member refid="group__GeneralGroup_1ga9ae8b021b03e91d547e512ba94391092" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>ignoreKineticMoves</name></member>
+      <member refid="group__GeneralGroup_1ga5fa77fceab21954148047b9057cdadce" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>SwipeMode</name></member>
+      <member refid="group__GeneralGroup_1ga4c54fd86bf3e610a33c76ea0e5b8c508" prot="public" virt="non-virtual"><scope>MR::TouchpadParameters</scope><name>swipeMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

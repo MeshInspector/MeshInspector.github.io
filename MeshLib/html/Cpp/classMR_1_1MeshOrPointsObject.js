@@ -1,12 +1,16 @@
 var classMR_1_1MeshOrPointsObject =
 [
-    [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a7c10ee09237da9a9a973cd5ffed69253", null ],
-    [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a581fe35f1da2142116491bda1deba7a3", null ],
-    [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a0879bb5048fcc6d1801b4ea72c1ca200", null ],
-    [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a36e05fb879e93d25e47edbdecc0abd9b", null ],
-    [ "MeshOrPointsObject", "../Csharp/classMR_1_1MeshOrPointsObject.html#a7053ae16c6a505e6f11bad8b3b59e995", null ],
-    [ "assign", "../Csharp/classMR_1_1MeshOrPointsObject.html#a3f46095816f2121dc1d6146b3a3d5ea4", null ],
-    [ "reset", "../Csharp/classMR_1_1MeshOrPointsObject.html#ae934c991645373a2f9a5eec77cf33d3e", null ],
-    [ "set", "../Csharp/classMR_1_1MeshOrPointsObject.html#abf37c85a2e0ff7029e0f1bd6c08671ca", null ],
-    [ "set", "../Csharp/classMR_1_1MeshOrPointsObject.html#aeb2cb68cb8219f0f7aca694097fcd13c", null ]
+    [ "MeshOrPointsObject", "group__GeneralGroup.html#gac8508f73963cbf0f41996e64e54b0024", null ],
+    [ "MeshOrPointsObject", "group__GeneralGroup.html#gab22b562641023d5b2592738bf0480984", null ],
+    [ "MeshOrPointsObject", "group__GeneralGroup.html#ga9beccad2400ae701a8c18c40c5447852", null ],
+    [ "MeshOrPointsObject", "group__GeneralGroup.html#gaf56c4211ae251d9b95a7c29819faf571", null ],
+    [ "asObjectMesh", "group__GeneralGroup.html#gaecab05340fb5d8f04a295dc8567a3d2b", null ],
+    [ "asObjectPoints", "group__GeneralGroup.html#gafb102f7701f621951520af1a0b248d95", null ],
+    [ "get", "group__GeneralGroup.html#ga85885b5e86610e53fe93aea07accd2b7", null ],
+    [ "meshOrPoints", "group__GeneralGroup.html#gacfaf7828131d41c6e9e01fc4618ff5b4", null ],
+    [ "operator->", "group__GeneralGroup.html#gad5721ae1649791db63412d697972ad67", null ],
+    [ "operator==", "group__GeneralGroup.html#gadfeb28e41ada77721a8b726e820733aa", null ],
+    [ "reset", "group__GeneralGroup.html#gabcbc6506c74c783ee36216d1ce536bed", null ],
+    [ "set", "group__GeneralGroup.html#ga0505cbf8b2c451d7d7f6f9c0f61da8e2", null ],
+    [ "set", "group__GeneralGroup.html#ga78cd109414fa5e7350904aef325773a0", null ]
 ];

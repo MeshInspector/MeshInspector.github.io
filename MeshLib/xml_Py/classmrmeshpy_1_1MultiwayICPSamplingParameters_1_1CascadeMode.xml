@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ad96ef49525a93b0a6de883d803600018" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiwayICPSamplingParameters.CascadeMode::AABBTreeBased</definition>
+        <argsstring></argsstring>
+        <name>AABBTreeBased</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.AABBTreeBased</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode" kindref="compound">MultiwayICPSamplingParameters.CascadeMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36626" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36626" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ab8fe2c483cd7a5a72ff1ee3ef79edd5a" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiwayICPSamplingParameters.CascadeMode::Sequential</definition>
+        <argsstring></argsstring>
+        <name>Sequential</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.Sequential</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode" kindref="compound">MultiwayICPSamplingParameters.CascadeMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36627" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a1143fda2b1edb8217a01374956174299" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiwayICPSamplingParameters.CascadeMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode" kindref="compound">MultiwayICPSamplingParameters.CascadeMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36628" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ac440f54bdefda7e4922602d45ff96aa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36629" bodyend="36630"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1abfe26857c84d84e238169735711ed8c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36631" bodyend="36632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1abcad638d9ae639280fe06bb4fcd10fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36633" bodyend="36634"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1acdf48c5ccb6ed014e0c26c0fb95a7284" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36635" bodyend="36636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a9c86fcf02d89f2e1e155f1910b9f1818" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36637" bodyend="36638"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a9423d057bc1356a4c94a2a099c733251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36639" bodyend="36640"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a020fa2b3bbab07ac7e4b2777d52b6bdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36641" bodyend="36642"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1aefe6f2232e248892043d2927591b10ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36643" bodyend="36644"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1abbc20e7087630491697b98df4dec6405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36645" bodyend="36646"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a402222c1e797cf2d751a168b3c1fdfac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36647" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36647" bodyend="36648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ad47ee7a8ee78dbcd9d9ba3e8e77e5f3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36650" bodyend="36651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ae6c54ac741da81f0ed8241a556f61c0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36653" bodyend="36655"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Sequential
+
+  AABBTreeBased : separates objects on groups based on their index in ICPObjects (good if all objects about the size of all objects together)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MultiwayICPSamplingParameters.CascadeMode</label>
+        <link refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>AABBTreeBased</edgelabel>
+          <edgelabel>Sequential</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36618" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36618" bodyend="36654"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ac440f54bdefda7e4922602d45ff96aa7" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1abfe26857c84d84e238169735711ed8c7" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1abcad638d9ae639280fe06bb4fcd10fc9" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1acdf48c5ccb6ed014e0c26c0fb95a7284" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a9c86fcf02d89f2e1e155f1910b9f1818" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a9423d057bc1356a4c94a2a099c733251" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a1143fda2b1edb8217a01374956174299" prot="private" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a020fa2b3bbab07ac7e4b2777d52b6bdb" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1aefe6f2232e248892043d2927591b10ef" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1abbc20e7087630491697b98df4dec6405" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1a402222c1e797cf2d751a168b3c1fdfac" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ad96ef49525a93b0a6de883d803600018" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>AABBTreeBased</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ad47ee7a8ee78dbcd9d9ba3e8e77e5f3e" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ab8fe2c483cd7a5a72ff1ee3ef79edd5a" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>Sequential</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayICPSamplingParameters_1_1CascadeMode_1ae6c54ac741da81f0ed8241a556f61c0b" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayICPSamplingParameters::CascadeMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

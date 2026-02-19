@@ -1,7 +1,7 @@
 var classMR_1_1ChangeLabelAction =
 [
-    [ "ChangeLabelAction", "../Csharp/classMR_1_1ChangeLabelAction.html#acb09239d2d1b86147ba645498909c8e1", null ],
-    [ "ChangeLabelAction", "../Csharp/classMR_1_1ChangeLabelAction.html#acf356a1a2121e46d6b46f2b8244f0086", null ],
-    [ "action", "../Csharp/classMR_1_1ChangeLabelAction.html#a23b22e4e6a934fba23781f57343526ea", null ],
-    [ "assign", "../Csharp/classMR_1_1ChangeLabelAction.html#afa5c857fa2e12626ab75d71291999cca", null ]
+    [ "ChangeLabelAction", "group__GeneralGroup.html#ga21a4e3c00216db2abbbfb9ce47014c81", null ],
+    [ "action", "group__GeneralGroup.html#gab1fc1b5e85ebdd6e6737c7e8301d6239", null ],
+    [ "heapBytes", "group__GeneralGroup.html#ga44cff8296d6419da98913c39fdbd8050", null ],
+    [ "name", "group__GeneralGroup.html#ga49b7949dc2497e15510dbf8c51c83e61", null ]
 ];

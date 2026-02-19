@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SpaceMouse_1_1Controller" kind="class" language="C++" prot="public">
+    <compoundname>MR::SpaceMouse::Controller</compoundname>
+    <includes refid="MRSpaceMouseController_8h" local="no">MRSpaceMouseController.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Controller_1a8db4a6ae176774087bcf5d305486fe6f" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SpaceMouse::Controller::lockRotate_</definition>
+        <argsstring></argsstring>
+        <name>lockRotate_</name>
+        <qualifiedname>MR::SpaceMouse::Controller::lockRotate_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="26" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Controller_1a06f8f10af06f1c087a574a6a1c0a1873" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SpaceMouse::Controller::showKeyDebug_</definition>
+        <argsstring></argsstring>
+        <name>showKeyDebug_</name>
+        <qualifiedname>MR::SpaceMouse::Controller::showKeyDebug_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="27" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1SpaceMouse_1_1Controller_1a2ba869133feb5ddcf1b72855a14f9bb5" prot="private" static="no" mutable="no">
+        <type><ref refid="structMR_1_1SpaceMouse_1_1Parameters" kindref="compound">Parameters</ref></type>
+        <definition>Parameters MR::SpaceMouse::Controller::params_</definition>
+        <argsstring></argsstring>
+        <name>params_</name>
+        <qualifiedname>MR::SpaceMouse::Controller::params_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="29" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Controller_1ae8826c26d7999552582481a659b7eed7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>MR::SpaceMouse::Controller::MR_ADD_CTOR_DELETE_MOVE</definition>
+        <argsstring>(Controller)</argsstring>
+        <name>MR_ADD_CTOR_DELETE_MOVE</name>
+        <qualifiedname>MR::SpaceMouse::Controller::MR_ADD_CTOR_DELETE_MOVE</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SpaceMouse_1_1Controller" kindref="compound">Controller</ref></type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="13" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Controller_1a681fa85509ccb8cb010bf04d0b33a2a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SpaceMouse::Controller::connect</definition>
+        <argsstring>()</argsstring>
+        <name>connect</name>
+        <qualifiedname>MR::SpaceMouse::Controller::connect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="14" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Controller_1a5d0877131419a2bd47589b86fd17469a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::SpaceMouse::Controller::setParameters</definition>
+        <argsstring>(const Parameters &amp;newParams)</argsstring>
+        <name>setParameters</name>
+        <qualifiedname>MR::SpaceMouse::Controller::setParameters</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1SpaceMouse_1_1Parameters" kindref="compound">Parameters</ref> &amp;</type>
+          <declname>newParams</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="16" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Controller_1a0e27e79e9975613b8ab23632f131dde1" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="structMR_1_1SpaceMouse_1_1Parameters" kindref="compound">Parameters</ref> &amp;</type>
+        <definition>const Parameters &amp; MR::SpaceMouse::Controller::getParameters</definition>
+        <argsstring>() const</argsstring>
+        <name>getParameters</name>
+        <qualifiedname>MR::SpaceMouse::Controller::getParameters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="17" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Controller_1aaa34dd39dfd69309293fc8871f7378b1" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SpaceMouse::Controller::canDriverSendScroll</definition>
+        <argsstring>() const</argsstring>
+        <name>canDriverSendScroll</name>
+        <qualifiedname>MR::SpaceMouse::Controller::canDriverSendScroll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if there is a device connected with raw handler while installed driver can send excessive scroll events </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="21" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Controller_1aec5065424fcabf3ae33d44f7603c1231" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SpaceMouse::Controller::spaceMouseMove_</definition>
+        <argsstring>(const Vector3f &amp;translate, const Vector3f &amp;rotate)</argsstring>
+        <name>spaceMouseMove_</name>
+        <qualifiedname>MR::SpaceMouse::Controller::spaceMouseMove_</qualifiedname>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>translate</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>rotate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="23" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpaceMouse_1_1Controller_1aeadf4d861b9aa7e821df2fc728c40029" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::SpaceMouse::Controller::spaceMouseDown_</definition>
+        <argsstring>(int key)</argsstring>
+        <name>spaceMouseDown_</name>
+        <qualifiedname>MR::SpaceMouse::Controller::spaceMouseDown_</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="24" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this class stores maps spacemouse event - program action </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSpaceMouseController.h" bodystart="11" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1aaa34dd39dfd69309293fc8871f7378b1" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>canDriverSendScroll</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1a681fa85509ccb8cb010bf04d0b33a2a0" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>connect</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1a0e27e79e9975613b8ab23632f131dde1" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>getParameters</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1a8db4a6ae176774087bcf5d305486fe6f" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>lockRotate_</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1ae8826c26d7999552582481a659b7eed7" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1a2ba869133feb5ddcf1b72855a14f9bb5" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>params_</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1a5d0877131419a2bd47589b86fd17469a" prot="public" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>setParameters</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1a06f8f10af06f1c087a574a6a1c0a1873" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>showKeyDebug_</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1aeadf4d861b9aa7e821df2fc728c40029" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>spaceMouseDown_</name></member>
+      <member refid="classMR_1_1SpaceMouse_1_1Controller_1aec5065424fcabf3ae33d44f7603c1231" prot="private" virt="non-virtual"><scope>MR::SpaceMouse::Controller</scope><name>spaceMouseMove_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -2,6 +2,8 @@ var classMR_1_1TexturePerFace =
 [
     [ "TexturePerFace", "classMR_1_1TexturePerFace.html#ac6f7f3429fc913d4f574436660e2947d", null ],
     [ "TexturePerFace", "classMR_1_1TexturePerFace.html#a4cfd7da00e4974180573c6e33ad527d5", null ],
+    [ "TexturePerFace", "classMR_1_1TexturePerFace.html#a204c13fc97ba773c3e03fe15ed9b91f6", null ],
+    [ "TexturePerFace", "classMR_1_1TexturePerFace.html#a85348a5151a263d63e14711f290aa9dc", null ],
     [ "TexturePerFace", "classMR_1_1TexturePerFace.html#aa364e5d64a2296299d44d2ad3de250f2", null ],
     [ "TexturePerFace", "classMR_1_1TexturePerFace.html#a2e62046e312e2ae64097e36bf7cc1ed0", null ],
     [ "TexturePerFace", "classMR_1_1TexturePerFace.html#a4328d4f4cc179e3f878cb9469f769fcc", null ],

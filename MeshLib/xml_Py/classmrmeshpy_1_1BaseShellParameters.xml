@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BaseShellParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BaseShellParameters</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1OffsetParameters" prot="public" virt="non-virtual">mrmeshpy.OffsetParameters</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BaseShellParameters_1a76b8978fab3bc13f7203fa9af1586316" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BaseShellParameters::_offsetof_callBack</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_callBack</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters._offsetof_callBack</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2552" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BaseShellParameters_1a89640fcd0e48fe01a81050a8cc0d721b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BaseShellParameters::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters._offsetof_voxelSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2553" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1ae0dcbca1ee041375228735631415006d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseShellParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a1509a118ec67b80ca282a42454b5f889">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1acf815a59c9178133fcc0c7ce1c59a8bf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2556" bodyend="2557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1a2d2f427e4c06d9866bc7a6806ed49c3c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BaseShellParameters" kindref="compound">BaseShellParameters</ref></type>
+        <definition> BaseShellParameters mrmeshpy.BaseShellParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2560" bodyend="2561"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1a2d2f427e4c06d9866bc7a6806ed49c3c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BaseShellParameters" kindref="compound">BaseShellParameters</ref></type>
+        <definition> BaseShellParameters mrmeshpy.BaseShellParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2564" bodyend="2565"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1ad3986ffb99b13d8050e9833e419021bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseShellParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a1509a118ec67b80ca282a42454b5f889">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1acf815a59c9178133fcc0c7ce1c59a8bf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2567" bodyend="2568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1ab9d1c9e7392188b2bc3705c1235df5cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseShellParameters.__init__</definition>
+        <argsstring>(self, BaseShellParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a1509a118ec67b80ca282a42454b5f889">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1acf815a59c9178133fcc0c7ce1c59a8bf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BaseShellParameters" kindref="compound">BaseShellParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2570" bodyend="2573"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1a231ff50dd2102cfee8141bd0fde19841" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseShellParameters.__init__</definition>
+        <argsstring>(self, float voxelSize, func_bool_from_float callBack)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1a1509a118ec67b80ca282a42454b5f889">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1OffsetParameters_1acf815a59c9178133fcc0c7ce1c59a8bf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callBack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2575" bodyend="2578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1a0b638bc3153aba65d5ec3e8927e70a76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.BaseShellParameters.callBack</definition>
+        <argsstring>(self)</argsstring>
+        <name>callBack</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.callBack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Progress callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2580" bodyend="2583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1a37737e0dd982b59929fcd7d4fcea63c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseShellParameters.callBack</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>callBack</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.callBack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2585" bodyend="2586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1a67be211158058a002b8e263fd53038d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.BaseShellParameters.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Size of voxel in grid conversions;
+The user is responsible for setting some positive value here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2588" bodyend="2592"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BaseShellParameters_1a6c2e21914be98804f037991d69241e80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BaseShellParameters.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.BaseShellParameters.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2594" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2594" bodyend="2595"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BaseShellParameters
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.BaseShellParameters</label>
+        <link refid="classmrmeshpy_1_1BaseShellParameters"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.GeneralOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1GeneralOffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.OffsetParameters</label>
+        <link refid="classmrmeshpy_1_1OffsetParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.SharpOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1SharpOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BaseShellParameters</label>
+        <link refid="classmrmeshpy_1_1BaseShellParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_callBack</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2548" bodyend="2595"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1ae0dcbca1ee041375228735631415006d" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1ad3986ffb99b13d8050e9833e419021bc" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1ab9d1c9e7392188b2bc3705c1235df5cd" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a231ff50dd2102cfee8141bd0fde19841" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a76b8978fab3bc13f7203fa9af1586316" prot="protected" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>_offsetof_callBack</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a89640fcd0e48fe01a81050a8cc0d721b" prot="protected" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a0b638bc3153aba65d5ec3e8927e70a76" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>callBack</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a37737e0dd982b59929fcd7d4fcea63c6" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>callBack</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a2d2f427e4c06d9866bc7a6806ed49c3c" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a2d2f427e4c06d9866bc7a6806ed49c3c" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a67be211158058a002b8e263fd53038d7" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1BaseShellParameters_1a6c2e21914be98804f037991d69241e80" prot="public" virt="non-virtual"><scope>mrmeshpy::BaseShellParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

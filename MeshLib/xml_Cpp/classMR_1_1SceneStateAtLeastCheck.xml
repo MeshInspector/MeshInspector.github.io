@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneStateAtLeastCheck" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneStateAtLeastCheck</compoundname>
+    <basecompoundref refid="classMR_1_1ISceneStateCheck" prot="public" virt="virtual">MR::ISceneStateCheck</basecompoundref>
+    <includes refid="MRSceneStateCheck_8h" local="no">MRSceneStateCheck.h</includes>
+    <templateparamlist>
+      <param>
+        <type>unsigned</type>
+        <declname>N</declname>
+        <defname>N</defname>
+      </param>
+      <param>
+        <type>typename ObjectT</type>
+      </param>
+      <param>
+        <type>typename</type>
+        <defval>void</defval>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaba4af468f0b66ad5618bb28ec7515f03" kind="function"><name>~SceneStateAtLeastCheck</name></member>
+      <member refid="group__GeneralGroup_1ga86c6e5277a77801a52a1051b0439ab0b" kind="function"><name>isAvailable</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>checks that given vector has at least N objects if type ObjectT </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, typename &gt;</label>
+        <link refid="classMR_1_1SceneStateAtLeastCheck"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneStateAtLeastCheck&lt; N, ObjectT, typename &gt;</label>
+        <link refid="classMR_1_1SceneStateAtLeastCheck"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" line="124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneStateCheck.h" bodystart="125" bodyend="132"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga86c6e5277a77801a52a1051b0439ab0b" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gaba4af468f0b66ad5618bb28ec7515f03" prot="public" virt="virtual"><scope>MR::SceneStateAtLeastCheck</scope><name>~SceneStateAtLeastCheck</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

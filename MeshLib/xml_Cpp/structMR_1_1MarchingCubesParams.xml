@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MarchingCubesParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MarchingCubesParams</compoundname>
+    <includes refid="MRMarchingCubes_8h" local="no">MRMarchingCubes.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gad2534810fa0b1d6ede8c56229226770d" kind="enum"><name>CachingMode</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga0c0cb7da0bce61553dc890c0ae4e44fd" kind="variable"><name>origin</name></member>
+      <member refid="group__GeneralGroup_1gadaced6444a2abeec7b4469778f8ace75" kind="variable"><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gaf22e28b54f1377a8a75efda6cf460c62" kind="variable"><name>iso</name></member>
+      <member refid="group__GeneralGroup_1gae07876a5272040c1fd50016127294f07" kind="variable"><name>lessInside</name></member>
+      <member refid="group__GeneralGroup_1gaf89d2fd3445045a9e4e4387b69f8d786" kind="variable"><name>outVoxelPerFaceMap</name></member>
+      <member refid="group__GeneralGroup_1gad2aa80147c810b8b84221bd763c2d1bc" kind="variable"><name>positioner</name></member>
+      <member refid="group__GeneralGroup_1ga5475f37dd7043df6b20d4e93fd65792a" kind="variable"><name>maxVertices</name></member>
+      <member refid="group__GeneralGroup_1gac8f6405c0c8d2ba48016836b657b6469" kind="variable"><name>cachingMode</name></member>
+      <member refid="group__GeneralGroup_1ga0013d7ada21c45455c0bcddddde6e242" kind="variable"><name>freeVolume</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::MarchingCubesParams</label>
+        <link refid="structMR_1_1MarchingCubesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>outVoxelPerFaceMap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; VoxelId, FaceId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMarchingCubes.h" bodystart="22" bodyend="64"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad2534810fa0b1d6ede8c56229226770d" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>CachingMode</name></member>
+      <member refid="group__GeneralGroup_1gac8f6405c0c8d2ba48016836b657b6469" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>cachingMode</name></member>
+      <member refid="group__GeneralGroup_1gadaced6444a2abeec7b4469778f8ace75" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga0013d7ada21c45455c0bcddddde6e242" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>freeVolume</name></member>
+      <member refid="group__GeneralGroup_1gaf22e28b54f1377a8a75efda6cf460c62" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>iso</name></member>
+      <member refid="group__GeneralGroup_1gae07876a5272040c1fd50016127294f07" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>lessInside</name></member>
+      <member refid="group__GeneralGroup_1ga5475f37dd7043df6b20d4e93fd65792a" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>maxVertices</name></member>
+      <member refid="group__GeneralGroup_1ga0c0cb7da0bce61553dc890c0ae4e44fd" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>origin</name></member>
+      <member refid="group__GeneralGroup_1gaf89d2fd3445045a9e4e4387b69f8d786" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>outVoxelPerFaceMap</name></member>
+      <member refid="group__GeneralGroup_1gad2aa80147c810b8b84221bd763c2d1bc" prot="public" virt="non-virtual"><scope>MR::MarchingCubesParams</scope><name>positioner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

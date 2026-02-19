@@ -1,0 +1,428 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointsLoadSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointsLoadSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoadSettings_1a284a018dc5bc303e1f2eb8adebdc8e68" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoadSettings::_offsetof_callback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_callback</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings._offsetof_callback</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45393" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoadSettings_1a283efb3b208ede8d1eeeadc6ca2f7e37" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoadSettings::_offsetof_colors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_colors</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings._offsetof_colors</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45394" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoadSettings_1aa65a0df82e337ef410198396aa5af12d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoadSettings::_offsetof_outXf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outXf</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings._offsetof_outXf</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointsLoadSettings_1ade2402b9eb1a658a692de1fdb66367f6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointsLoadSettings::_offsetof_telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_telemetrySignal</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings._offsetof_telemetrySignal</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45396" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a0fb6aa6a8dc1dfbb41f8e5f9dd4e4719" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoadSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45399" bodyend="45400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a406060b2168093983530ffd2f37eb056" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+        <definition> PointsLoadSettings mrmeshpy.PointsLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45403" bodyend="45404"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a406060b2168093983530ffd2f37eb056" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+        <definition> PointsLoadSettings mrmeshpy.PointsLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45407" bodyend="45408"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a1e661a7f23c82c66c970360e7516f58a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoadSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45410" bodyend="45411"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a987b95691fbd49730f8de2fc7b8fb4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoadSettings.__init__</definition>
+        <argsstring>(self, PointsLoadSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45413" bodyend="45416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a92688709040bd347c25b525a6b234e69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoadSettings.__init__</definition>
+        <argsstring>(self, VertColors colors, AffineXf3f outXf, func_bool_from_float callback, bool telemetrySignal)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>outXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>telemetrySignal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45418" bodyend="45421"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a2699a7b2205db63167df97170dcd4148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.PointsLoadSettings.callback</definition>
+        <argsstring>(self)</argsstring>
+        <name>callback</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback for set progress and stop process
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45423" bodyend="45426"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a1f27373a6f6ad7ad2a8349a3ee4523d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoadSettings.callback</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>callback</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45428" bodyend="45429"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1addc765a9a70d21dbf82e28eaa631cb07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.PointsLoadSettings.colors</definition>
+        <argsstring>(self)</argsstring>
+        <name>colors</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.colors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>points where to load point color map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45431" bodyend="45434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1aceea537c4a29b3f60745c39ef91af12e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoadSettings.colors</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>colors</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.colors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45436" bodyend="45437"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a3bad1af2005a3d0064cbaab526d39339" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.PointsLoadSettings.outXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>outXf</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.outXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>transform for the loaded point cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45439" bodyend="45442"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1a778cd679844db77ab639d1593ade1def" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoadSettings.outXf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>outXf</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.outXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45444" bodyend="45445"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1add4fefa844666043d367c12c3b587a7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointsLoadSettings.telemetrySignal</definition>
+        <argsstring>(self)</argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.telemetrySignal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>permit telemetry signal about loading
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45447" bodyend="45450"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointsLoadSettings_1aa656a7c5c32aaececf0f0eb22f45c0f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointsLoadSettings.telemetrySignal</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>mrmeshpy.PointsLoadSettings.telemetrySignal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45452" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45452" bodyend="45453"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointsLoadSettings
+
+structure with settings and side output parameters for loading point cloud
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointsLoadSettings</label>
+        <link refid="classmrmeshpy_1_1PointsLoadSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_callback</edgelabel>
+          <edgelabel>_offsetof_colors</edgelabel>
+          <edgelabel>_offsetof_outXf</edgelabel>
+          <edgelabel>_offsetof_telemetrySignal</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45387" bodyend="45453"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a0fb6aa6a8dc1dfbb41f8e5f9dd4e4719" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a1e661a7f23c82c66c970360e7516f58a" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a987b95691fbd49730f8de2fc7b8fb4ac" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a92688709040bd347c25b525a6b234e69" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a284a018dc5bc303e1f2eb8adebdc8e68" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>_offsetof_callback</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a283efb3b208ede8d1eeeadc6ca2f7e37" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>_offsetof_colors</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1aa65a0df82e337ef410198396aa5af12d" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>_offsetof_outXf</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1ade2402b9eb1a658a692de1fdb66367f6" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>_offsetof_telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a2699a7b2205db63167df97170dcd4148" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>callback</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a1f27373a6f6ad7ad2a8349a3ee4523d4" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>callback</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1addc765a9a70d21dbf82e28eaa631cb07" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1aceea537c4a29b3f60745c39ef91af12e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a406060b2168093983530ffd2f37eb056" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a406060b2168093983530ffd2f37eb056" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a3bad1af2005a3d0064cbaab526d39339" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>outXf</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1a778cd679844db77ab639d1593ade1def" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>outXf</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1add4fefa844666043d367c12c3b587a7b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1PointsLoadSettings_1aa656a7c5c32aaececf0f0eb22f45c0f3" prot="public" virt="non-virtual"><scope>mrmeshpy::PointsLoadSettings</scope><name>telemetrySignal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

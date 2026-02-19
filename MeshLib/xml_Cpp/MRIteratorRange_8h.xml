@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRIteratorRange_8h" kind="file" language="C++">
+    <compoundname>MRIteratorRange.h</compoundname>
+    <includedby refid="MRChunkIterator_8h" local="yes">MRChunkIterator.h</includedby>
+    <includedby refid="MREdgeIterator_8h" local="yes">MREdgeIterator.h</includedby>
+    <includedby refid="MRPolylineEdgeIterator_8h" local="yes">MRPolylineEdgeIterator.h</includedby>
+    <includedby refid="MRRingIterator_8h" local="yes">MRRingIterator.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRChunkIterator.h</label>
+        <link refid="MRChunkIterator_8h"/>
+      </node>
+      <node id="3">
+        <label>MREdgeIterator.h</label>
+        <link refid="MREdgeIterator_8h"/>
+      </node>
+      <node id="6">
+        <label>MREdgePathsBuilder.h</label>
+        <link refid="MREdgePathsBuilder_8h"/>
+      </node>
+      <node id="1">
+        <label>MRIteratorRange.h</label>
+        <link refid="MRIteratorRange_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRPolylineEdgeIterator.h</label>
+        <link refid="MRPolylineEdgeIterator_8h"/>
+      </node>
+      <node id="5">
+        <label>MRRingIterator.h</label>
+        <link refid="MRRingIterator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMeshBoundarySelectionWidget.h</label>
+        <link refid="MRMeshBoundarySelectionWidget_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1IteratorRange" prot="public">MR::IteratorRange</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>I&gt;</highlight></codeline>
+<codeline lineno="12" refid="structMR_1_1IteratorRange" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange</ref></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14" refid="structMR_1_1IteratorRange_1a6dc3025499872ade8eaf5f1768b10aa3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>I<sp/><ref refid="structMR_1_1IteratorRange_1a6dc3025499872ade8eaf5f1768b10aa3" kindref="member">begin_</ref>,<sp/><ref refid="structMR_1_1IteratorRange_1af62765e0ec5f90f3aaafe5a6fd50938a" kindref="member">end_</ref>;</highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1IteratorRange_1ac08ae5922c624c9f08c65c8ecbb4bd61" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1IteratorRange_1ac08ae5922c624c9f08c65c8ecbb4bd61" kindref="member">IteratorRange</ref>(<sp/>I<sp/><ref refid="structMR_1_1IteratorRange_1a2cbe8082c7fec924d06a467c19260390" kindref="member">begin</ref>,<sp/>I<sp/><ref refid="structMR_1_1IteratorRange_1ae2c10b110d46799c0579751f41c9fcd5" kindref="member">end</ref><sp/>)<sp/>:<sp/><ref refid="structMR_1_1IteratorRange_1a6dc3025499872ade8eaf5f1768b10aa3" kindref="member">begin_</ref>(<sp/><ref refid="structMR_1_1IteratorRange_1a2cbe8082c7fec924d06a467c19260390" kindref="member">begin</ref><sp/>),<sp/><ref refid="structMR_1_1IteratorRange_1af62765e0ec5f90f3aaafe5a6fd50938a" kindref="member">end_</ref>(<sp/><ref refid="structMR_1_1IteratorRange_1ae2c10b110d46799c0579751f41c9fcd5" kindref="member">end</ref><sp/>)<sp/>{<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="structMR_1_1IteratorRange_1a2cbe8082c7fec924d06a467c19260390" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>I<sp/><ref refid="structMR_1_1IteratorRange_1a2cbe8082c7fec924d06a467c19260390" kindref="member">begin</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange&lt;I&gt;</ref><sp/>&amp;<sp/>range<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>range.<ref refid="structMR_1_1IteratorRange_1a6dc3025499872ade8eaf5f1768b10aa3" kindref="member">begin_</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1IteratorRange_1ae2c10b110d46799c0579751f41c9fcd5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/>I<sp/><ref refid="structMR_1_1IteratorRange_1ae2c10b110d46799c0579751f41c9fcd5" kindref="member">end</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IteratorRange" kindref="compound">IteratorRange&lt;I&gt;</ref><sp/>&amp;<sp/>range<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>range.<ref refid="structMR_1_1IteratorRange_1af62765e0ec5f90f3aaafe5a6fd50938a" kindref="member">end_</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIteratorRange.h"/>
+  </compounddef>
+</doxygen>

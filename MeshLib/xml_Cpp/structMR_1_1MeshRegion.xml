@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshRegion" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshRegion</compoundname>
+    <includes refid="MRMeshPart_8h" local="no">MRMeshPart.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename RegionTag</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad1bf8f740e649b73d3a93bd0eba5e609" kind="variable"><name>mesh</name></member>
+      <member refid="group__GeneralGroup_1ga020e8c1bd5c2c3c5186ff4680d8004b0" kind="variable"><name>region</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga35b39c1790f734aa2ed34e68281a8a04" kind="function"><name>MeshRegion</name></member>
+      <member refid="group__GeneralGroup_1gae376220ccfe757dc78e7edd18501521e" kind="function"><name>MeshRegion</name></member>
+      <member refid="group__GeneralGroup_1ga8fbe26bcbe7891c7be47fb330920e3b4" kind="function"><name>operator=</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>stores reference on whole mesh (if region is nullptr) or on its part (if region pointer is valid) </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::MeshRegion&lt; RegionTag &gt;</label>
+        <link refid="structMR_1_1MeshRegion"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshPart.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshPart.h" bodystart="15" bodyend="34"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad1bf8f740e649b73d3a93bd0eba5e609" prot="public" virt="non-virtual"><scope>MR::MeshRegion</scope><name>mesh</name></member>
+      <member refid="group__GeneralGroup_1ga35b39c1790f734aa2ed34e68281a8a04" prot="public" virt="non-virtual"><scope>MR::MeshRegion</scope><name>MeshRegion</name></member>
+      <member refid="group__GeneralGroup_1gae376220ccfe757dc78e7edd18501521e" prot="public" virt="non-virtual"><scope>MR::MeshRegion</scope><name>MeshRegion</name></member>
+      <member refid="group__GeneralGroup_1ga8fbe26bcbe7891c7be47fb330920e3b4" prot="public" virt="non-virtual"><scope>MR::MeshRegion</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga020e8c1bd5c2c3c5186ff4680d8004b0" prot="public" virt="non-virtual"><scope>MR::MeshRegion</scope><name>region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

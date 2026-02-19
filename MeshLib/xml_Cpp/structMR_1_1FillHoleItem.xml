@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FillHoleItem" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FillHoleItem</compoundname>
+    <includes refid="MRMeshFillHole_8h" local="no">MRMeshFillHole.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1FillHoleItem_1a93e897d7d608458643fa5ba8a08d2ea2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::FillHoleItem::edgeCode1</definition>
+        <argsstring></argsstring>
+        <name>edgeCode1</name>
+        <qualifiedname>MR::FillHoleItem::edgeCode1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if not-negative number then it is edgeid; otherwise it refers to the edge created recently </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="160" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1FillHoleItem_1a56124e5a79e5cbe2b1b617d2e142aaa1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::FillHoleItem::edgeCode2</definition>
+        <argsstring></argsstring>
+        <name>edgeCode2</name>
+        <qualifiedname>MR::FillHoleItem::edgeCode2</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="160" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="160" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" line="156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFillHole.h" bodystart="157" bodyend="161"/>
+    <listofallmembers>
+      <member refid="structMR_1_1FillHoleItem_1a93e897d7d608458643fa5ba8a08d2ea2" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode1</name></member>
+      <member refid="structMR_1_1FillHoleItem_1a56124e5a79e5cbe2b1b617d2e142aaa1" prot="public" virt="non-virtual"><scope>MR::FillHoleItem</scope><name>edgeCode2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

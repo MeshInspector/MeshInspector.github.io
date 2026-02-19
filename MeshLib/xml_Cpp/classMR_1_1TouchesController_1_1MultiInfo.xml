@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TouchesController_1_1MultiInfo" kind="class" language="C++" prot="private">
+    <compoundname>MR::TouchesController::MultiInfo</compoundname>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gad95ec3590677f5afd0f6674057b203a7" kind="enum"><name>Finger</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga079d0fbdec472822e80b2f05d3c195ff" kind="variable"><name>info_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga5d8a10dcf681e3011b7057ab3782dfd3" kind="function"><name>update</name></member>
+      <member refid="group__GeneralGroup_1ga2b91fec05b7357790177b622f99fa9f3" kind="function"><name>getPosition</name></member>
+      <member refid="group__GeneralGroup_1gafc5ff6d02bf3172cd6751d84141a6136" kind="function"><name>getPosition</name></member>
+      <member refid="group__GeneralGroup_1ga1b9c7af06580db35681b3d42eb3c8901" kind="function"><name>getFingerById</name></member>
+      <member refid="group__GeneralGroup_1gab96951ae6504447e29dfe43519d814f9" kind="function"><name>getIdByFinger</name></member>
+      <member refid="group__GeneralGroup_1ga59b5523f0199404f0b9642e0dec5b46b" kind="function"><name>getNumPressed</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="52" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="53" bodyend="68"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad95ec3590677f5afd0f6674057b203a7" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>Finger</name></member>
+      <member refid="group__GeneralGroup_1ga1b9c7af06580db35681b3d42eb3c8901" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getFingerById</name></member>
+      <member refid="group__GeneralGroup_1gab96951ae6504447e29dfe43519d814f9" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getIdByFinger</name></member>
+      <member refid="group__GeneralGroup_1ga59b5523f0199404f0b9642e0dec5b46b" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getNumPressed</name></member>
+      <member refid="group__GeneralGroup_1ga2b91fec05b7357790177b622f99fa9f3" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getPosition</name></member>
+      <member refid="group__GeneralGroup_1gafc5ff6d02bf3172cd6751d84141a6136" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>getPosition</name></member>
+      <member refid="group__GeneralGroup_1ga079d0fbdec472822e80b2f05d3c195ff" prot="private" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>info_</name></member>
+      <member refid="group__GeneralGroup_1ga5d8a10dcf681e3011b7057ab3782dfd3" prot="public" virt="non-virtual"><scope>MR::TouchesController::MultiInfo</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

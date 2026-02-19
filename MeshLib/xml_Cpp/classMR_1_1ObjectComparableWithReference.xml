@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectComparableWithReference" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::ObjectComparableWithReference</compoundname>
+    <derivedcompoundref refid="classMR_1_1DistanceMeasurementObject" prot="public" virt="non-virtual">MR::DistanceMeasurementObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PointMeasurementObject" prot="public" virt="non-virtual">MR::PointMeasurementObject</derivedcompoundref>
+    <includes refid="MRObjectComparableWithReference_8h" local="no">MRObjectComparableWithReference.h</includes>
+    <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparableProperty" prot="public">MR::ObjectComparableWithReference::ComparableProperty</innerclass>
+    <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" prot="public">MR::ObjectComparableWithReference::ComparisonReferenceValue</innerclass>
+    <innerclass refid="structMR_1_1ObjectComparableWithReference_1_1ComparisonTolerance" prot="public">MR::ObjectComparableWithReference::ComparisonTolerance</innerclass>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga83e6e08749efd393e0a34bdf6804bc2e" kind="function"><name>~ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1ga39179dbfa89d894ecf784f2398c9c78b" kind="function"><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gae825a8e0a74fc989c2bcd3147ff8bed2" kind="function"><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gaab13b511da066b66c07235be25abce0b" kind="function"><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gad1905b7160fa76212ab3913f59d132ce" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga6079e4aac0a4e04a8055a9f639264096" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga7308ba05352b5ce9d88d9dd0510db0a8" kind="function"><name>numComparableProperties</name></member>
+      <member refid="group__GeneralGroup_1gadf521b4333a73a595da64ed48a3a7076" kind="function"><name>getComparablePropertyName</name></member>
+      <member refid="group__GeneralGroup_1ga329df4e0165f775043393c15f51db899" kind="function"><name>computeComparableProperty</name></member>
+      <member refid="group__GeneralGroup_1gae22bf9ebca049eed0868db359a75e855" kind="function"><name>getComparisonTolerence</name></member>
+      <member refid="group__GeneralGroup_1ga7df2402af378c17572454d7492ba7eec" kind="function"><name>setComparisonTolerance</name></member>
+      <member refid="group__GeneralGroup_1gac27662b0d2266f41b4dfab6844dba1e4" kind="function"><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="group__GeneralGroup_1ga7e386df110c9d0fa3c799cf002cbc845" kind="function"><name>numComparisonReferenceValues</name></member>
+      <member refid="group__GeneralGroup_1gac3f2255c124f60526c36eb2cc32be9f9" kind="function"><name>getComparisonReferenceValueName</name></member>
+      <member refid="group__GeneralGroup_1ga0fe95bc93503759817b9966ccebc4b0e" kind="function"><name>getComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1gacb98cc0c1aa80731b206a983e8e79b0a" kind="function"><name>setComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1ga09b21bda8f6435e0b9c520c31f2607ed" kind="function"><name>setComparisonReferenceVal</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>A base class for a data-model object that is a feature/measurement that can be compared between two models. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::DistanceMeasurementObject</label>
+        <link refid="classMR_1_1DistanceMeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ObjectComparableWithReference</label>
+        <link refid="classMR_1_1ObjectComparableWithReference"/>
+      </node>
+      <node id="3">
+        <label>MR::PointMeasurementObject</label>
+        <link refid="classMR_1_1PointMeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectComparableWithReference.h" bodystart="17" bodyend="115"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac27662b0d2266f41b4dfab6844dba1e4" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="group__GeneralGroup_1ga329df4e0165f775043393c15f51db899" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>computeComparableProperty</name></member>
+      <member refid="group__GeneralGroup_1gadf521b4333a73a595da64ed48a3a7076" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparablePropertyName</name></member>
+      <member refid="group__GeneralGroup_1ga0fe95bc93503759817b9966ccebc4b0e" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1gac3f2255c124f60526c36eb2cc32be9f9" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="group__GeneralGroup_1gae22bf9ebca049eed0868db359a75e855" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>getComparisonTolerence</name></member>
+      <member refid="group__GeneralGroup_1ga7308ba05352b5ce9d88d9dd0510db0a8" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>numComparableProperties</name></member>
+      <member refid="group__GeneralGroup_1ga7e386df110c9d0fa3c799cf002cbc845" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="group__GeneralGroup_1ga39179dbfa89d894ecf784f2398c9c78b" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gae825a8e0a74fc989c2bcd3147ff8bed2" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gaab13b511da066b66c07235be25abce0b" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="group__GeneralGroup_1gad1905b7160fa76212ab3913f59d132ce" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga6079e4aac0a4e04a8055a9f639264096" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga09b21bda8f6435e0b9c520c31f2607ed" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="group__GeneralGroup_1gacb98cc0c1aa80731b206a983e8e79b0a" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="group__GeneralGroup_1ga7df2402af378c17572454d7492ba7eec" prot="public" virt="pure-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonTolerance</name></member>
+      <member refid="group__GeneralGroup_1ga83e6e08749efd393e0a34bdf6804bc2e" prot="public" virt="virtual"><scope>MR::ObjectComparableWithReference</scope><name>~ObjectComparableWithReference</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

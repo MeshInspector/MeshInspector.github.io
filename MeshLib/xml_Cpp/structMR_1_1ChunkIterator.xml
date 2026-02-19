@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ChunkIterator" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ChunkIterator</compoundname>
+    <includes refid="MRChunkIterator_8h" local="no">MRChunkIterator.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga97b66824787d4e3a2921761974cca10d" kind="typedef"><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1gad816264908bdaf06f5629a4d163c16f6" kind="typedef"><name>value_type</name></member>
+      <member refid="group__GeneralGroup_1gad58d2cd0f8108c9f1c0e00cc2d750508" kind="typedef"><name>difference_type</name></member>
+      <member refid="group__GeneralGroup_1ga71077fda29daec0ad1dfb91af33ab1d9" kind="typedef"><name>pointer</name></member>
+      <member refid="group__GeneralGroup_1gaf99ba138aa910783abd6301c80706164" kind="typedef"><name>reference</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad9459060feb2b5f7111c02781e75879c" kind="variable"><name>totalSize</name></member>
+      <member refid="group__GeneralGroup_1gaf4366e6dfa9d07ea87cbe5b372afe36e" kind="variable"><name>chunkSize</name></member>
+      <member refid="group__GeneralGroup_1gae873581e7d1361e2837dad74512411f0" kind="variable"><name>overlap</name></member>
+      <member refid="group__GeneralGroup_1ga987331c567ec798d896b77adaf490fc0" kind="variable"><name>index</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac0f52b399269d4be6c5c051272d0db86" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga90190d9b325f64a0253ca83d44cb6361" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gad8208e10b106ed35392e4b212e98c87d" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gad126dd050bd11d03d34d56437f52debd" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga3d81344e7c7048e9e13514de12883555" kind="function"><name>operator-&gt;</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>iterator class for array chunks </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChunkIterator.h" bodystart="25" bodyend="44"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf4366e6dfa9d07ea87cbe5b372afe36e" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>chunkSize</name></member>
+      <member refid="group__GeneralGroup_1gad58d2cd0f8108c9f1c0e00cc2d750508" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>difference_type</name></member>
+      <member refid="group__GeneralGroup_1ga987331c567ec798d896b77adaf490fc0" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>index</name></member>
+      <member refid="group__GeneralGroup_1ga97b66824787d4e3a2921761974cca10d" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>iterator_category</name></member>
+      <member refid="group__GeneralGroup_1gad126dd050bd11d03d34d56437f52debd" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga90190d9b325f64a0253ca83d44cb6361" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1gad8208e10b106ed35392e4b212e98c87d" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga3d81344e7c7048e9e13514de12883555" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator-&gt;</name></member>
+      <member refid="group__GeneralGroup_1gac0f52b399269d4be6c5c051272d0db86" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gae873581e7d1361e2837dad74512411f0" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>overlap</name></member>
+      <member refid="group__GeneralGroup_1ga71077fda29daec0ad1dfb91af33ab1d9" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>pointer</name></member>
+      <member refid="group__GeneralGroup_1gaf99ba138aa910783abd6301c80706164" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>reference</name></member>
+      <member refid="group__GeneralGroup_1gad9459060feb2b5f7111c02781e75879c" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>totalSize</name></member>
+      <member refid="group__GeneralGroup_1gad816264908bdaf06f5629a4d163c16f6" prot="public" virt="non-virtual"><scope>MR::ChunkIterator</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

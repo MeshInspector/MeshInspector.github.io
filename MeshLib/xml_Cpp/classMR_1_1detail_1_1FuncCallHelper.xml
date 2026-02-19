@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1detail_1_1FuncCallHelper" kind="class" language="C++" prot="public">
+    <compoundname>MR::detail::FuncCallHelper</compoundname>
+    <includes refid="MROnInit_8h" local="no">MROnInit.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1detail_1_1FuncCallHelper_1afe1dbda75ba4a449979c56513aa52ce4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename Func</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::detail::FuncCallHelper::operator-&gt;*</definition>
+        <argsstring>(Func &amp;&amp;func)</argsstring>
+        <name>operator-&gt;*</name>
+        <qualifiedname>MR::detail::FuncCallHelper::operator-&gt;*</qualifiedname>
+        <param>
+          <type>Func &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROnInit.h" line="15" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROnInit.h" bodystart="15" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROnInit.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MROnInit.h" bodystart="12" bodyend="20"/>
+    <listofallmembers>
+      <member refid="classMR_1_1detail_1_1FuncCallHelper_1afe1dbda75ba4a449979c56513aa52ce4" prot="public" virt="non-virtual"><scope>MR::detail::FuncCallHelper</scope><name>operator-&gt;*</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

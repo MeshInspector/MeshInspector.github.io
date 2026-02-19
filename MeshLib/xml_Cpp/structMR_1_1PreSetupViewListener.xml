@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PreSetupViewListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::PreSetupViewListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga0ab1caf014d2c4bd9b8f43a6354d2d41" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga84c47d648781465812aefa34cae8ba31" kind="function"><name>~PreSetupViewListener</name></member>
+      <member refid="group__GeneralGroup_1gad47789e0dd8e317fdc341572b2d6fa7c" kind="function"><name>connect</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga848566b9073e54f07fd5f2cfb2807e1a" kind="function"><name>preSetupView_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::PreSetupViewListener</label>
+        <link refid="structMR_1_1PreSetupViewListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::PreSetupViewListener</label>
+        <link refid="structMR_1_1PreSetupViewListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="162" bodyend="168"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad47789e0dd8e317fdc341572b2d6fa7c" prot="public" virt="virtual"><scope>MR::PreSetupViewListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::PreSetupViewListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::PreSetupViewListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga0ab1caf014d2c4bd9b8f43a6354d2d41" prot="public" virt="non-virtual"><scope>MR::PreSetupViewListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga848566b9073e54f07fd5f2cfb2807e1a" prot="protected" virt="pure-virtual"><scope>MR::PreSetupViewListener</scope><name>preSetupView_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::PreSetupViewListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::PreSetupViewListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga84c47d648781465812aefa34cae8ba31" prot="public" virt="virtual"><scope>MR::PreSetupViewListener</scope><name>~PreSetupViewListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,6 +1,0 @@
-var classMR_1_1Std_1_1Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef =
-[
-    [ "Function_MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef", "classMR_1_1Std_1_1Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef.html#a6eb8fe6ba4bc53b21090719e86251e83", null ],
-    [ "Function_MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef", "classMR_1_1Std_1_1Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef.html#abd4a7e7cfcaed8e1f3f90775a2a9c174", null ],
-    [ "assign", "classMR_1_1Std_1_1Function__MRProcessingFuncFromConstMREdgePointRefDoubleDoubleRefDoubleRef.html#aa4a616146784c52f5f597f0801f07955", null ]
-];

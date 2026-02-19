@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeVisualizePropertyAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeVisualizePropertyAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a3cb793b580dbc9f23c1bca9bb42154f4" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangeVisualizePropertyAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1VisualObject" kindref="compound">VisualObject</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9103" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a2f92b3b2d970a3d3a7b731afb3823dfd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeVisualizePropertyAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9106" bodyend="9107"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a221103260216c97c8bcb47e510d30d57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeVisualizePropertyAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9109" bodyend="9110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a8f12e290be7d50b0762ef10db90e4820" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeVisualizePropertyAction" kindref="compound">ChangeVisualizePropertyAction</ref></type>
+        <definition> ChangeVisualizePropertyAction mrmeshpy.ChangeVisualizePropertyAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9113" bodyend="9114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a8f12e290be7d50b0762ef10db90e4820" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeVisualizePropertyAction" kindref="compound">ChangeVisualizePropertyAction</ref></type>
+        <definition> ChangeVisualizePropertyAction mrmeshpy.ChangeVisualizePropertyAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9117" bodyend="9118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a35696891118bb7cfdaacec194c261fe2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeVisualizePropertyAction.setObjectDirty</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.setObjectDirty</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9120" bodyend="9121"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a7285d1da3b537d7148d9be7d2534f409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeVisualizePropertyAction.__init__</definition>
+        <argsstring>(self, str name, VisualObject obj, AnyVisualizeMaskEnum visualizeMaskType)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VisualObject" kindref="compound">VisualObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>visualizeMaskType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s visualize property mask before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9123" bodyend="9126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1af214f491353ea84a645d1ab189169b58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeVisualizePropertyAction.__init__</definition>
+        <argsstring>(self, str name, VisualObject obj, AnyVisualizeMaskEnum visualizeMaskType, ViewportMask newMask)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VisualObject" kindref="compound">VisualObject</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>visualizeMaskType</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>newMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s visualize property mask and immediately set new value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9128" bodyend="9131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1ab22393cec8b8b2f702522ff2a818dc80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeVisualizePropertyAction.__init__</definition>
+        <argsstring>(self, ChangeVisualizePropertyAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeVisualizePropertyAction" kindref="compound">ChangeVisualizePropertyAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9133" bodyend="9136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a76211eb2e23f2f7833b1da8a58a148c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeVisualizePropertyAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9137" bodyend="9138"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a72d7e29866ea7366d2c9a06ab305d426" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeVisualizePropertyAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeVisualizePropertyAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9139" bodyend="9140"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeVisualizePropertyAction
+
+History action for visualizeMaskType change
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeVisualizePropertyAction</label>
+        <link refid="classmrmeshpy_1_1ChangeVisualizePropertyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeVisualizePropertyAction</label>
+        <link refid="classmrmeshpy_1_1ChangeVisualizePropertyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="9097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="9097" bodyend="9140"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a2f92b3b2d970a3d3a7b731afb3823dfd" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a7285d1da3b537d7148d9be7d2534f409" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1af214f491353ea84a645d1ab189169b58" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1ab22393cec8b8b2f702522ff2a818dc80" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a221103260216c97c8bcb47e510d30d57" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a76211eb2e23f2f7833b1da8a58a148c9" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a72d7e29866ea7366d2c9a06ab305d426" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a3cb793b580dbc9f23c1bca9bb42154f4" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a8f12e290be7d50b0762ef10db90e4820" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a8f12e290be7d50b0762ef10db90e4820" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeVisualizePropertyAction_1a35696891118bb7cfdaacec194c261fe2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeVisualizePropertyAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

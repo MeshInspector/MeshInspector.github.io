@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IFastWindingNumber" kind="class" language="C#" prot="public">
+    <compoundname>MR::IFastWindingNumber</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_IFastWindingNumber</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1IFastWindingNumber_1a7234c0f89d78a1236b3a4482360e6491" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IFastWindingNumber.IFastWindingNumber</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>IFastWindingNumber</name>
+        <qualifiedname>MR.IFastWindingNumber.IFastWindingNumber</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="108" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="108" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IFastWindingNumber_1af7734769eec9e2fca95209682db4e588" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IFastWindingNumber.IFastWindingNumber</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>IFastWindingNumber</name>
+        <qualifiedname>MR.IFastWindingNumber.IFastWindingNumber</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="110" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="110" bodyend="110"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1IFastWindingNumber_1ad303d0d5ce9f9720b255f8227c53fa11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.IFastWindingNumber.calcFromVector</definition>
+        <argsstring>(MR.Std.Vector_Float res, MR.Std.Const_Vector_MRVector3f points, float beta, MR._InOpt_FaceId skipFace=default, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>calcFromVector</name>
+        <qualifiedname>MR.IFastWindingNumber.calcFromVector</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_Float</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_FaceId</type>
+          <declname>skipFace</declname>
+          <defval>default</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>calculates winding numbers in the points from given vector </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resulting winding numbers, will be resized automatically</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>points</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>incoming points</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>skipFace</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>this triangle (if it is close to <computeroutput>q</computeroutput>) will be skipped from summation</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1ad303d0d5ce9f9720b255f8227c53fa11" kindref="member">MR.IFastWindingNumber.calcFromVector</ref></computeroutput>. Parameter <computeroutput>skipFace</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="124" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="124" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IFastWindingNumber_1a35bf527fbd60a14cfcff602e8030a2cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.IFastWindingNumber.calcSelfIntersections</definition>
+        <argsstring>(MR.FaceBitSet res, float beta, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>calcSelfIntersections</name>
+        <qualifiedname>MR.IFastWindingNumber.calcSelfIntersections</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>calculates winding numbers for all centers of mesh&apos;s triangles. if winding number is less than 0 or greater then 1, that face is marked as self-intersected </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resulting bit set</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1a35bf527fbd60a14cfcff602e8030a2cd" kindref="member">MR.IFastWindingNumber.calcSelfIntersections</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="142" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="142" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IFastWindingNumber_1a8c8eaa1d923c9751190563795afdea3e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.IFastWindingNumber.calcFromGrid</definition>
+        <argsstring>(MR.Std.Vector_Float res, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, float beta, MR.Std.Const_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>calcFromGrid</name>
+        <qualifiedname>MR.IFastWindingNumber.calcFromGrid</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_Float</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>calculates winding numbers in each point from a three-dimensional grid </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resulting winding numbers, will be resized automatically</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dims</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dimensions of the grid</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>gridToMeshXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transform from integer grid locations to voxel&apos;s centers in mesh reference frame</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>beta</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>determines the precision of the approximation: the more the better, recommended value 2 or more</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1a8c8eaa1d923c9751190563795afdea3e" kindref="member">MR.IFastWindingNumber.calcFromGrid</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="162" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="162" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IFastWindingNumber_1aa3a528367bf75b600e2d61d9b09e065c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.IFastWindingNumber.calcFromGridWithDistances</definition>
+        <argsstring>(MR.Std.Vector_Float res, in MR.Vector3i dims, in MR.AffineXf3f gridToMeshXf, MR.Const_DistanceToMeshOptions options, MR.Std.Const_Function_BoolFuncFromFloat cb)</argsstring>
+        <name>calcFromGridWithDistances</name>
+        <qualifiedname>MR.IFastWindingNumber.calcFromGridWithDistances</qualifiedname>
+        <param>
+          <type>MR.Std.Vector_Float</type>
+          <declname>res</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceToMeshOptions</type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_BoolFuncFromFloat</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid; if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>res</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>resulting signed distances, will be resized automatically</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dims</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>dimensions of the grid</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Generated from method <computeroutput><ref refid="classMR_1_1IFastWindingNumber_1aa3a528367bf75b600e2d61d9b09e065c" kindref="member">MR.IFastWindingNumber.calcFromGridWithDistances</ref></computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="186" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="186" bodyend="199"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Abstract class for fast approximate computation of generalized winding number for a mesh (using its AABB tree) Generated from class <computeroutput><ref refid="classMR_1_1IFastWindingNumber" kindref="compound">MR.IFastWindingNumber</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1FastWindingNumber" kindref="compound">MR.FastWindingNumber</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_IFastWindingNumber</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.IFastWindingNumber</label>
+        <link refid="classMR_1_1IFastWindingNumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_IFastWindingNumber &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_IFastWindingNumber</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.IFastWindingNumber</label>
+        <link refid="classMR_1_1IFastWindingNumber"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_IFastWindingNumber &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" line="106" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFastWindingNumber.cs" bodystart="107" bodyend="200"/>
+    <listofallmembers>
+      <member refid="classMR_1_1IFastWindingNumber_1a8c8eaa1d923c9751190563795afdea3e" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromGrid</name></member>
+      <member refid="classMR_1_1IFastWindingNumber_1aa3a528367bf75b600e2d61d9b09e065c" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromGridWithDistances</name></member>
+      <member refid="classMR_1_1IFastWindingNumber_1ad303d0d5ce9f9720b255f8227c53fa11" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>calcFromVector</name></member>
+      <member refid="classMR_1_1IFastWindingNumber_1a35bf527fbd60a14cfcff602e8030a2cd" prot="public" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>calcSelfIntersections</name></member>
+      <member refid="classMR_1_1IFastWindingNumber_1a7234c0f89d78a1236b3a4482360e6491" prot="package" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>IFastWindingNumber</name></member>
+      <member refid="classMR_1_1IFastWindingNumber_1af7734769eec9e2fca95209682db4e588" prot="package" virt="non-virtual"><scope>MR::IFastWindingNumber</scope><name>IFastWindingNumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

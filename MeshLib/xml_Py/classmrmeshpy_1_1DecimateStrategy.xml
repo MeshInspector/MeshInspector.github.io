@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DecimateStrategy" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DecimateStrategy</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateStrategy_1a3b78133d8ea604e637fb1f1f194394bf" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateStrategy::MinimizeError</definition>
+        <argsstring></argsstring>
+        <name>MinimizeError</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.MinimizeError</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DecimateStrategy" kindref="compound">DecimateStrategy</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12403" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateStrategy_1a667e92312fb4753c5b9b33847c53c9c1" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateStrategy::ShortestEdgeFirst</definition>
+        <argsstring></argsstring>
+        <name>ShortestEdgeFirst</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.ShortestEdgeFirst</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DecimateStrategy" kindref="compound">DecimateStrategy</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12404" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateStrategy_1af7bf9eee0058936a6b978bbb4e55f830" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateStrategy::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1DecimateStrategy" kindref="compound">DecimateStrategy</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12405" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1a2ce1a0b8bf0f164cb011c2af74e27eca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateStrategy.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12406" bodyend="12407"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1aa264ca15aea56218b35d2bc1869ce690" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateStrategy.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12408" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12408" bodyend="12409"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1ae1d597166e66c26622c619221ad8c5fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateStrategy.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12410" bodyend="12411"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1a800a72eea71dbcdacd4070aa713208dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateStrategy.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12412" bodyend="12413"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1a2dd8804b70bc3ca2b6495388be96dd9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateStrategy.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12414" bodyend="12415"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1a253ae05369590af56a649fbfdb65a5e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateStrategy.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12416" bodyend="12417"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1a19373a9bd1a465a19c9b3a99c3c44b56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateStrategy.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12418" bodyend="12419"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1ac81761f918bb65c6c8b51a17831cc489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DecimateStrategy.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12420" bodyend="12421"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1ad1447d1ec92e5453ace53f17fc9d5328" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateStrategy.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12422" bodyend="12423"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1a85e2e5385235d4666288f5999482db75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DecimateStrategy.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12424" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12424" bodyend="12425"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1aac510aabef01290e23805334432adfaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DecimateStrategy.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12427" bodyend="12428"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateStrategy_1ae5a0fe3ad51689e808bd33d08449214e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateStrategy.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.DecimateStrategy.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12430" bodyend="12431"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  MinimizeError : the next edge to collapse will be the one that introduced minimal error to the surface
+
+  ShortestEdgeFirst : the next edge to collapse will be the shortest one
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DecimateStrategy</label>
+        <link refid="classmrmeshpy_1_1DecimateStrategy"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>MinimizeError</edgelabel>
+          <edgelabel>ShortestEdgeFirst</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12395" bodyend="12431"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1a2ce1a0b8bf0f164cb011c2af74e27eca" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1aa264ca15aea56218b35d2bc1869ce690" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1ae1d597166e66c26622c619221ad8c5fe" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1a800a72eea71dbcdacd4070aa713208dd" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1a2dd8804b70bc3ca2b6495388be96dd9f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1a253ae05369590af56a649fbfdb65a5e3" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1af7bf9eee0058936a6b978bbb4e55f830" prot="private" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1a19373a9bd1a465a19c9b3a99c3c44b56" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1ac81761f918bb65c6c8b51a17831cc489" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1ad1447d1ec92e5453ace53f17fc9d5328" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1a85e2e5385235d4666288f5999482db75" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1a3b78133d8ea604e637fb1f1f194394bf" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>MinimizeError</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1aac510aabef01290e23805334432adfaf" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1a667e92312fb4753c5b9b33847c53c9c1" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>ShortestEdgeFirst</name></member>
+      <member refid="classmrmeshpy_1_1DecimateStrategy_1ae5a0fe3ad51689e808bd33d08449214e" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateStrategy</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SelfIntersections_1_1Settings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SelfIntersections::Settings</compoundname>
+    <includes refid="MRFixSelfIntersections_8h" local="no">MRFixSelfIntersections.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga89959b4882d33598d9220db080145bc5" kind="enum"><name>Method</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae5606c4ebbd1f6f3acf27a76862219b0" kind="variable"><name>touchIsIntersection</name></member>
+      <member refid="group__GeneralGroup_1gaface1dd6cc60f50dd76186b73d130994" kind="variable"><name>method</name></member>
+      <member refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" kind="variable"><name>relaxIterations</name></member>
+      <member refid="group__GeneralGroup_1ga7798ca5ce166d10f94b4f994252918f8" kind="variable"><name>maxExpand</name></member>
+      <member refid="group__GeneralGroup_1ga27581dba0d20048070937e95346b4224" kind="variable"><name>subdivideEdgeLen</name></member>
+      <member refid="group__GeneralGroup_1gad3d19d62f4659d2ff0a0415ffecba3c4" kind="variable"><name>callback</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Setting set for mesh self-intersections fix. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFixSelfIntersections.h" bodystart="17" bodyend="38"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad3d19d62f4659d2ff0a0415ffecba3c4" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga7798ca5ce166d10f94b4f994252918f8" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>maxExpand</name></member>
+      <member refid="group__GeneralGroup_1ga89959b4882d33598d9220db080145bc5" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>Method</name></member>
+      <member refid="group__GeneralGroup_1gaface1dd6cc60f50dd76186b73d130994" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>method</name></member>
+      <member refid="group__GeneralGroup_1gaca7a5619c15bc97f529b69737ac12bb6" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>relaxIterations</name></member>
+      <member refid="group__GeneralGroup_1ga27581dba0d20048070937e95346b4224" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>subdivideEdgeLen</name></member>
+      <member refid="group__GeneralGroup_1gae5606c4ebbd1f6f3acf27a76862219b0" prot="public" virt="non-virtual"><scope>MR::SelfIntersections::Settings</scope><name>touchIsIntersection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

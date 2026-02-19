@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WeightedShell_1_1ParametersBase" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WeightedShell::ParametersBase</compoundname>
+    <derivedcompoundref refid="structMR_1_1WeightedShell_1_1ParametersMetric" prot="public" virt="non-virtual">MR::WeightedShell::ParametersMetric</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1WeightedShell_1_1ParametersRegions" prot="public" virt="non-virtual">MR::WeightedShell::ParametersRegions</derivedcompoundref>
+    <includes refid="MRWeightedPointsShell_8h" local="no">MRWeightedPointsShell.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersBase_1ae7fb4b6344a163878220ad932dc4dec8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WeightedShell::ParametersBase::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <qualifiedname>MR::WeightedShell::ParametersBase::offset</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>build iso-surface of minimal distance to points corresponding to this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="33" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersBase_1af8d85417b99b631e7f2c01ba2d039443" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WeightedShell::ParametersBase::voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR::WeightedShell::ParametersBase::voxelSize</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Size of voxel in grid conversions; The user is responsible for setting some positive value here </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="37" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersBase_1a349cbda27e2015a526f1b28c6b47d81d" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WeightedShell::ParametersBase::numLayers</definition>
+        <argsstring></argsstring>
+        <name>numLayers</name>
+        <qualifiedname>MR::WeightedShell::ParametersBase::numLayers</qualifiedname>
+        <initializer>= 1.001f</initializer>
+        <briefdescription>
+<para>number of voxels to compute near the offset (should be left default unless used for debugging) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="40" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersBase_1accba4965ab6c2a4b2f28903261bce706" prot="public" static="no" mutable="no">
+        <type>ProgressCallback</type>
+        <definition>ProgressCallback MR::WeightedShell::ParametersBase::progress</definition>
+        <argsstring></argsstring>
+        <name>progress</name>
+        <qualifiedname>MR::WeightedShell::ParametersBase::progress</qualifiedname>
+        <briefdescription>
+<para>Progress callback. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="43" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::WeightedShell::ParametersBase</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersBase"/>
+      </node>
+      <node id="2">
+        <label>MR::WeightedShell::ParametersMetric</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersMetric"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::WeightedShell::ParametersRegions</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersRegions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="31" bodyend="48"/>
+    <listofallmembers>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1a349cbda27e2015a526f1b28c6b47d81d" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>numLayers</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1ae7fb4b6344a163878220ad932dc4dec8" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>offset</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1accba4965ab6c2a4b2f28903261bce706" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>progress</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1af8d85417b99b631e7f2c01ba2d039443" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersBase</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

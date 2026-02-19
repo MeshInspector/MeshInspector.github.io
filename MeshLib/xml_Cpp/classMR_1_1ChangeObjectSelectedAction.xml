@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeObjectSelectedAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeObjectSelectedAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeObjectFields_8h" local="no">MRChangeObjectFields.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga937d04b50120a0a1c237ab976bf7f0d7" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga931b41831fc1114c3f239a626ab884c2" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gae9366b82532b9a58d52fa26eb2553dde" kind="variable"><name>selected_</name></member>
+      <member refid="group__GeneralGroup_1ga300d4fcfb582294732bd34e1dc059074" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa52b1585ac548e84db85dd7223403ca9" kind="function"><name>ChangeObjectSelectedAction</name></member>
+      <member refid="group__GeneralGroup_1ga1f6eeb88304ee19cffcc8662646ee76f" kind="function"><name>ChangeObjectSelectedAction</name></member>
+      <member refid="group__GeneralGroup_1gae709358ae5d269b3ef15942ba7ccea30" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaace3c2763b5625fb8eea898a21f5fc26" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga3755cc9192950a33d25ab548bc24ccc9" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga0e4345611526b79dadfda82096257f79" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for object selected state </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeObjectSelectedAction</label>
+        <link refid="classMR_1_1ChangeObjectSelectedAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeObjectSelectedAction</label>
+        <link refid="classMR_1_1ChangeObjectSelectedAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="72" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="73" bodyend="124"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaace3c2763b5625fb8eea898a21f5fc26" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaa52b1585ac548e84db85dd7223403ca9" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>ChangeObjectSelectedAction</name></member>
+      <member refid="group__GeneralGroup_1ga1f6eeb88304ee19cffcc8662646ee76f" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>ChangeObjectSelectedAction</name></member>
+      <member refid="group__GeneralGroup_1ga3755cc9192950a33d25ab548bc24ccc9" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gae709358ae5d269b3ef15942ba7ccea30" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga300d4fcfb582294732bd34e1dc059074" prot="private" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga937d04b50120a0a1c237ab976bf7f0d7" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1ga931b41831fc1114c3f239a626ab884c2" prot="private" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gae9366b82532b9a58d52fa26eb2553dde" prot="private" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>selected_</name></member>
+      <member refid="group__GeneralGroup_1ga0e4345611526b79dadfda82096257f79" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeObjectSelectedAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

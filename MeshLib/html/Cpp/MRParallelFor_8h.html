@@ -151,10 +151,11 @@ $(function(){initNavTree('MRParallelFor_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRParallelFor.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRFunctional_8h_source.html">MRFunctional.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRParallel_8h_source.html">MRParallel.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRProgressCallback_8h_source.html">MRProgressCallback.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRTbbThreadMutex_8h_source.html">MRTbbThreadMutex.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRVector_8h_source.html">MRVector.h</a>&quot;</code><br />
 <code>#include &lt;atomic&gt;</code><br />
 </div>
 <p><a href="MRParallelFor_8h_source.html">Go to the source code of this file.</a></p>
@@ -162,30 +163,32 @@ $(function(){initNavTree('MRParallelFor_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Parallel.html">MR::Parallel</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aad589ea7e78a0c2b2111bdc06e2e1c03" id="r_aad589ea7e78a0c2b2111bdc06e2e1c03"><td class="memTemplParams" colspan="2">template&lt;typename I , typename CM , typename F &gt; </td></tr>
-<tr class="memitem:aad589ea7e78a0c2b2111bdc06e2e1c03"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Parallel.html#aad589ea7e78a0c2b2111bdc06e2e1c03">MR::Parallel::For</a> (I <a class="el" href="group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, I <a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, const CM &amp;callMaker, F &amp;&amp;f)</td></tr>
-<tr class="separator:aad589ea7e78a0c2b2111bdc06e2e1c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af87e94d9960d05b0cb39eb6cf90bad47" id="r_af87e94d9960d05b0cb39eb6cf90bad47"><td class="memTemplParams" colspan="2">template&lt;typename I , typename CM , typename F &gt; </td></tr>
-<tr class="memitem:af87e94d9960d05b0cb39eb6cf90bad47"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR_1_1Parallel.html#af87e94d9960d05b0cb39eb6cf90bad47">MR::Parallel::For</a> (I <a class="el" href="group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, I <a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, const CM &amp;callMaker, F &amp;&amp;f, ProgressCallback cb, size_t reportProgressEvery=1024)</td></tr>
-<tr class="separator:af87e94d9960d05b0cb39eb6cf90bad47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gacebe01b37f86a061aec73665e5458155" id="r_gacebe01b37f86a061aec73665e5458155"><td class="memTemplParams" colspan="2">template&lt;typename I , typename ... F&gt; </td></tr>
-<tr class="memitem:gacebe01b37f86a061aec73665e5458155"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gacebe01b37f86a061aec73665e5458155">MR::ParallelFor</a> (I <a class="el" href="group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, I <a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, F &amp;&amp;... f)</td></tr>
-<tr class="separator:gacebe01b37f86a061aec73665e5458155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b" id="r_ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplParams" colspan="2">template&lt;typename I , typename L , typename ... F&gt; </td></tr>
-<tr class="memitem:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga9ad21bab650271b14fe5e8c2c5eb6d5b">MR::ParallelFor</a> (I <a class="el" href="group__BasicGroup.html#ga130a7b2de56f57ba4b13111c6e3a31ef">begin</a>, I <a class="el" href="group__BasicGroup.html#gab900ba901f90bfe11c4580814af4fbf6">end</a>, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;... f)</td></tr>
-<tr class="separator:ga9ad21bab650271b14fe5e8c2c5eb6d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga524978bc8b442f91e2d32e481686ebc3" id="r_ga524978bc8b442f91e2d32e481686ebc3"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga524978bc8b442f91e2d32e481686ebc3">MR::parallelFor</a> (size_t <a class="el" href="group__BasicGroup.html#gac725b280dc514c891e3e533480ca836e">begin</a>, size_t <a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t)&gt; f)</td></tr>
+<tr class="separator:ga524978bc8b442f91e2d32e481686ebc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafbd597dd2d6ae3edeef89aefdd4ed15c" id="r_gafbd597dd2d6ae3edeef89aefdd4ed15c"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gafbd597dd2d6ae3edeef89aefdd4ed15c">MR::parallelFor</a> (size_t <a class="el" href="group__BasicGroup.html#gac725b280dc514c891e3e533480ca836e">begin</a>, size_t <a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, void *)&gt; f, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void *()&gt; ctx)</td></tr>
+<tr class="separator:gafbd597dd2d6ae3edeef89aefdd4ed15c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaed81ac05489c909fead54deea0cf7d3a" id="r_gaed81ac05489c909fead54deea0cf7d3a"><td class="memItemLeft" align="right" valign="top">MRMESH_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaed81ac05489c909fead54deea0cf7d3a">MR::parallelFor</a> (size_t <a class="el" href="group__BasicGroup.html#gac725b280dc514c891e3e533480ca836e">begin</a>, size_t <a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void(size_t, void *)&gt; f, <a class="el" href="classMR_1_1FunctionRef.html">FunctionRef</a>&lt; void *()&gt; ctx, ProgressCallback cb, size_t reportProgressEvery=1024)</td></tr>
+<tr class="separator:gaed81ac05489c909fead54deea0cf7d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf184f372f735726148d7a07cbbbb29af" id="r_gaf184f372f735726148d7a07cbbbb29af"><td class="memTemplParams" colspan="2">template&lt;typename I , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:gaf184f372f735726148d7a07cbbbb29af"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaf184f372f735726148d7a07cbbbb29af">MR::ParallelFor</a> (I <a class="el" href="group__BasicGroup.html#gac725b280dc514c891e3e533480ca836e">begin</a>, I <a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:gaf184f372f735726148d7a07cbbbb29af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0c614e9741ba95e4cce86eb98d9d64b6" id="r_ga0c614e9741ba95e4cce86eb98d9d64b6"><td class="memTemplParams" colspan="2">template&lt;typename I , typename L , typename F , typename ... Cb&gt; </td></tr>
+<tr class="memitem:ga0c614e9741ba95e4cce86eb98d9d64b6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga0c614e9741ba95e4cce86eb98d9d64b6">MR::ParallelFor</a> (I <a class="el" href="group__BasicGroup.html#gac725b280dc514c891e3e533480ca836e">begin</a>, I <a class="el" href="group__BasicGroup.html#gaa162c3dc2622716a0b52d777abfe137a">end</a>, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</td></tr>
+<tr class="separator:ga0c614e9741ba95e4cce86eb98d9d64b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6" id="r_ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename ... F&gt; </td></tr>
 <tr class="memitem:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga97e8749c8a61bfc6c81edcebdcebbdd6">MR::ParallelFor</a> (const std::vector&lt; T &gt; &amp;v, F &amp;&amp;... f)</td></tr>
 <tr class="separator:ga97e8749c8a61bfc6c81edcebdcebbdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6" id="r_ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I , typename ... F&gt; </td></tr>
 <tr class="memitem:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#ga465ce65b82d1fa8749312b1b6de8ede6">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;v, F &amp;&amp;... f)</td></tr>
 <tr class="separator:ga465ce65b82d1fa8749312b1b6de8ede6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa664be0d4a143c7d20d57678d5903669" id="r_gaa664be0d4a143c7d20d57678d5903669"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I , typename ... F&gt; </td></tr>
+<tr class="memitem:gaa664be0d4a143c7d20d57678d5903669"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__BasicGroup.html#gaa664be0d4a143c7d20d57678d5903669">MR::ParallelFor</a> (const <a class="el" href="classMR_1_1Buffer.html">Buffer</a>&lt; T, I &gt; &amp;buf, F &amp;&amp;... f)</td></tr>
+<tr class="separator:gaa664be0d4a143c7d20d57678d5903669"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

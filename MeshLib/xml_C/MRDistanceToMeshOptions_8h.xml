@@ -1,0 +1,1260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRDistanceToMeshOptions_8h" kind="file" language="C++">
+    <compoundname>MRDistanceToMeshOptions.h</compoundname>
+    <includes refid="MRSignDetectionMode_8h" local="no">MRCMesh/MRSignDetectionMode.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRDistanceToMeshOptions.h</label>
+        <link refid="MRDistanceToMeshOptions_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRSignDetectionMode.h</label>
+        <link refid="MRSignDetectionMode_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref></type>
+        <definition>typedef struct MR_DistanceToMeshOptions MR_DistanceToMeshOptions</definition>
+        <argsstring></argsstring>
+        <name>MR_DistanceToMeshOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>options determining computation of distance from a point to a mesh Generated from class <computeroutput>MR::DistanceToMeshOptions</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="20" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref></type>
+        <definition>typedef struct MR_SignedDistanceToMeshOptions MR_SignedDistanceToMeshOptions</definition>
+        <argsstring></argsstring>
+        <name>MR_SignedDistanceToMeshOptions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>options determining computation of signed distance from a point to a mesh Generated from class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::DistanceToMeshOptions</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="28" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a64ad53b2ea1ee83b8371c0c65156d31f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_DistanceToMeshOptions_Get_minDistSq</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_Get_minDistSq</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="35" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="35" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a644d90e98132e9d459bff188fefb0ae3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DistanceToMeshOptions_Set_minDistSq</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this, float value)</argsstring>
+        <name>MR_DistanceToMeshOptions_Set_minDistSq</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minDistSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a8ece6b475e0677eaca5b4a21ef206d22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_DistanceToMeshOptions_GetMutable_minDistSq</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_GetMutable_minDistSq</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="48" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="48" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1adbfd8b10dda4ba036d5110b6fa91ae7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_DistanceToMeshOptions_Get_maxDistSq</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_Get_maxDistSq</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="55" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="55" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aaa621dddaf0a2fb1ef9884a3e86b2017" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DistanceToMeshOptions_Set_maxDistSq</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this, float value)</argsstring>
+        <name>MR_DistanceToMeshOptions_Set_maxDistSq</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDistSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="61" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="61" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a9c01441bfcb03668acf0ff83dcd9e13e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_DistanceToMeshOptions_GetMutable_maxDistSq</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_GetMutable_maxDistSq</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="68" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="68" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a9289338cd053cc19e0afc814f83a6700" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_DistanceToMeshOptions_Get_nullOutsideMinMax</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_Get_nullOutsideMinMax</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="79" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="79" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aeea5c914eec5dfc955c57f84ce55d08c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DistanceToMeshOptions_Set_nullOutsideMinMax</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this, bool value)</argsstring>
+        <name>MR_DistanceToMeshOptions_Set_nullOutsideMinMax</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>nullOutsideMinMax</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="89" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="89" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aa5aec80df8d65f3cee318db0d66127e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_DistanceToMeshOptions_GetMutable_nullOutsideMinMax</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_GetMutable_nullOutsideMinMax</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a mutable pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="100" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="100" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a703c974ab64bc8557a8b10c6aaf8863c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_DistanceToMeshOptions_Get_windingNumberThreshold</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_Get_windingNumberThreshold</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="109" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="109" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1af3b1ff8b1b7d6436a90f3aa6f604c329" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DistanceToMeshOptions_Set_windingNumberThreshold</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this, float value)</argsstring>
+        <name>MR_DistanceToMeshOptions_Set_windingNumberThreshold</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="117" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="117" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a89abf7f2603c8068961fcaa9fb1882ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_DistanceToMeshOptions_GetMutable_windingNumberThreshold</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_GetMutable_windingNumberThreshold</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="126" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="126" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aa7de2d0c236bd25f0e81480f6db3441b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_DistanceToMeshOptions_Get_windingNumberBeta</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_Get_windingNumberBeta</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="134" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="134" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1afff328baab1a7899d49a7636b171b929" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DistanceToMeshOptions_Set_windingNumberBeta</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this, float value)</argsstring>
+        <name>MR_DistanceToMeshOptions_Set_windingNumberBeta</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="141" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a8e8459eafda076beba3509b305258da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_DistanceToMeshOptions_GetMutable_windingNumberBeta</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_GetMutable_windingNumberBeta</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a mutable pointer to a member variable of class <computeroutput>MR::DistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="149" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="149" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1ae08cd3409d55afac2bfe0353a5e8af22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_DistanceToMeshOptions * MR_DistanceToMeshOptions_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_DistanceToMeshOptions_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" kindref="member">MR_DistanceToMeshOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="153" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="153" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a31e87ccf76572b3372e8283c7cb775ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_DistanceToMeshOptions * MR_DistanceToMeshOptions_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_DistanceToMeshOptions_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a9c7854db5634fc6a02e98be1e5a4f058" kindref="member">MR_DistanceToMeshOptions_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1aec2f26b4c7a4e73c8330aa1dbbb34edc" kindref="member">MR_DistanceToMeshOptions_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a92e0adc1b58e704a919f1783cdab82fb" kindref="member">MR_DistanceToMeshOptions_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="158" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="158" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a5f65ae910d716c68b09e3fc223a28e2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_DistanceToMeshOptions * MR_DistanceToMeshOptions_ConstructFrom</definition>
+        <argsstring>(float minDistSq, float maxDistSq, bool nullOutsideMinMax, float windingNumberThreshold, float windingNumberBeta)</argsstring>
+        <name>MR_DistanceToMeshOptions_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>minDistSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDistSq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>nullOutsideMinMax</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberBeta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::DistanceToMeshOptions</computeroutput> elementwise. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" kindref="member">MR_DistanceToMeshOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="163" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="163" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a92e0adc1b58e704a919f1783cdab82fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API const MR_DistanceToMeshOptions * MR_DistanceToMeshOptions_OffsetPtr</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_DistanceToMeshOptions_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="167" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="167" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aec2f26b4c7a4e73c8330aa1dbbb34edc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_DistanceToMeshOptions * MR_DistanceToMeshOptions_OffsetMutablePtr</definition>
+        <argsstring>(MR_DistanceToMeshOptions *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_DistanceToMeshOptions_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="171" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="171" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a0ff5b95f3a0d7d1df640a986841faf10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API const MR_SignedDistanceToMeshOptions * MR_DistanceToMeshOptions_StaticDowncastTo_MR_SignedDistanceToMeshOptions</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *object)</argsstring>
+        <name>MR_DistanceToMeshOptions_StaticDowncastTo_MR_SignedDistanceToMeshOptions</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::DistanceToMeshOptions</computeroutput> to a derived class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="177" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="177" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a29c9a6863d3ec1e73e80d0732704ee75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_SignedDistanceToMeshOptions * MR_DistanceToMeshOptions_MutableStaticDowncastTo_MR_SignedDistanceToMeshOptions</definition>
+        <argsstring>(MR_DistanceToMeshOptions *object)</argsstring>
+        <name>MR_DistanceToMeshOptions_MutableStaticDowncastTo_MR_SignedDistanceToMeshOptions</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::DistanceToMeshOptions</computeroutput> to a derived class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="182" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="182" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1ab8859e10220b4a36484864ad461e2db8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_DistanceToMeshOptions * MR_DistanceToMeshOptions_ConstructFromAnother</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *_other)</argsstring>
+        <name>MR_DistanceToMeshOptions_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::DistanceToMeshOptions::DistanceToMeshOptions</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" kindref="member">MR_DistanceToMeshOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="188" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="188" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DistanceToMeshOptions_Destroy</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_Destroy</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_DistanceToMeshOptions</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="191" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="191" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a9c7854db5634fc6a02e98be1e5a4f058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_DistanceToMeshOptions_DestroyArray</definition>
+        <argsstring>(const MR_DistanceToMeshOptions *_this)</argsstring>
+        <name>MR_DistanceToMeshOptions_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_DistanceToMeshOptions</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="194" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="194" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a5cc48dd34fe2af561995c0422c4f1cce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_DistanceToMeshOptions * MR_DistanceToMeshOptions_AssignFromAnother</definition>
+        <argsstring>(MR_DistanceToMeshOptions *_this, const MR_DistanceToMeshOptions *_other)</argsstring>
+        <name>MR_DistanceToMeshOptions_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::DistanceToMeshOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="202" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="202" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aa69edea2e64fdb1665d0289db2542eeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref> *</type>
+        <definition>MRC_API const MR_SignDetectionMode * MR_SignedDistanceToMeshOptions_Get_signMode</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Get_signMode</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the method to compute distance sign Returns a pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>signMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="209" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="209" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1ad0fd65eac25784c27e4e4710d63f9f19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SignedDistanceToMeshOptions_Set_signMode</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this, MR_SignDetectionMode value)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Set_signMode</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the method to compute distance sign Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>signMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>signMode</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>signMode</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="216" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="216" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a332d7076949b13f11728fbfa7bfe5734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref> *</type>
+        <definition>MRC_API MR_SignDetectionMode * MR_SignedDistanceToMeshOptions_GetMutable_signMode</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_GetMutable_signMode</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the method to compute distance sign Returns a mutable pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>signMode</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="223" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="223" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a38d4942233cb7a5e054346716b956dde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SignedDistanceToMeshOptions_Get_minDistSq</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Get_minDistSq</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="230" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="230" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a27357dc4532fc11fcb9e7d60e37a0424" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SignedDistanceToMeshOptions_Set_minDistSq</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this, float value)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Set_minDistSq</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>minDistSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="236" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="236" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a0e305da8f79d32d31e5ed0fd2d082af2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SignedDistanceToMeshOptions_GetMutable_minDistSq</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_GetMutable_minDistSq</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>minDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="243" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="243" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a1f8b808a6a0957c45856d8fe3dae25bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SignedDistanceToMeshOptions_Get_maxDistSq</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Get_maxDistSq</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a point to mesh to be computed precisely Returns a pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="250" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="250" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a04d5854811bf4501cb214cde78579c0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SignedDistanceToMeshOptions_Set_maxDistSq</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this, float value)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Set_maxDistSq</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a point to mesh to be computed precisely Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDistSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="256" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="256" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aa058306c07cb4c29d403d393791f6666" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SignedDistanceToMeshOptions_GetMutable_maxDistSq</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_GetMutable_maxDistSq</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a point to mesh to be computed precisely Returns a mutable pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>maxDistSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="263" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="263" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a3a62927296066a3dc7338ff0ad39318b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_SignedDistanceToMeshOptions_Get_nullOutsideMinMax</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Get_nullOutsideMinMax</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="274" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="274" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aa05fcebc8653ef6c7fb670f8426fa6db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SignedDistanceToMeshOptions_Set_nullOutsideMinMax</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this, bool value)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Set_nullOutsideMinMax</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>nullOutsideMinMax</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="284" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="284" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a3fc3cb8e0c6cba15d3e9af5ebe37c88b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_SignedDistanceToMeshOptions_GetMutable_nullOutsideMinMax</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_GetMutable_nullOutsideMinMax</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>what to do if actual distance is outside [min, max) range: true - return std::nullopt for std::optional&lt;float&gt; or NaN for float, false - return approximate value of the distance (with correct sign in case of SignDetectionMode::HoleWindingRule); please note that in HoleWindingRule the sign can change even for too small or too large distances, so if you would like to get closed mesh from marching cubes, set false here Returns a mutable pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>nullOutsideMinMax</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="295" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="295" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a786df03ca46071766382fee3d3465869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SignedDistanceToMeshOptions_Get_windingNumberThreshold</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Get_windingNumberThreshold</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="304" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="304" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1adce110634728f587916b3c151a8d57ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SignedDistanceToMeshOptions_Set_windingNumberThreshold</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this, float value)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Set_windingNumberThreshold</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberThreshold</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="312" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="312" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1ae29a04f487f39c1fbfb17711341c5172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SignedDistanceToMeshOptions_GetMutable_windingNumberThreshold</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_GetMutable_windingNumberThreshold</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: positive distance if winding number below or equal this threshold; ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes Returns a mutable pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberThreshold</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="321" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="321" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a6e99f7b31c691c021e03ffe162e4aaca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_SignedDistanceToMeshOptions_Get_windingNumberBeta</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Get_windingNumberBeta</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="329" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="329" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a48060a5179321d4b7b530cae9dcf72a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SignedDistanceToMeshOptions_Set_windingNumberBeta</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this, float value)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Set_windingNumberBeta</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Modifies a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>windingNumberBeta</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="336" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="336" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1af8977b4921ec34b5c5478a26bef3c02a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_SignedDistanceToMeshOptions_GetMutable_windingNumberBeta</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_GetMutable_windingNumberBeta</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>only for SignDetectionMode::HoleWindingRule: determines the precision of fast approximation: the more the better, minimum value is 1 Returns a mutable pointer to a member variable of class <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> named <computeroutput>windingNumberBeta</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="344" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="344" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a7f2f4a08c5b9cc001bdf93c37c135c28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_SignedDistanceToMeshOptions * MR_SignedDistanceToMeshOptions_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a4b4db7483fdc34f654f6257f8e0c8cc7" kindref="member">MR_SignedDistanceToMeshOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="348" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="348" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a7947060f897060f226210cb68e4eeafa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_SignedDistanceToMeshOptions * MR_SignedDistanceToMeshOptions_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1af6c8b3afcb2f6c2bea38b49ef7968474" kindref="member">MR_SignedDistanceToMeshOptions_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a5da185f0ade34b001741c343497de51f" kindref="member">MR_SignedDistanceToMeshOptions_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a67d947e7aee134fcf84ee33d4ff041f6" kindref="member">MR_SignedDistanceToMeshOptions_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="353" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="353" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a67d947e7aee134fcf84ee33d4ff041f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API const MR_SignedDistanceToMeshOptions * MR_SignedDistanceToMeshOptions_OffsetPtr</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="357" column="46" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="357" declcolumn="46"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a5da185f0ade34b001741c343497de51f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_SignedDistanceToMeshOptions * MR_SignedDistanceToMeshOptions_OffsetMutablePtr</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="361" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="361" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1ab24458e952212b36dcefd28a22554103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API const MR_DistanceToMeshOptions * MR_SignedDistanceToMeshOptions_UpcastTo_MR_DistanceToMeshOptions</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *object)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_UpcastTo_MR_DistanceToMeshOptions</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> to its base class <computeroutput>MR::DistanceToMeshOptions</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="366" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="366" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a22a261d911dd00217ff8232e453ea502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_DistanceToMeshOptions * MR_SignedDistanceToMeshOptions_MutableUpcastTo_MR_DistanceToMeshOptions</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *object)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_MutableUpcastTo_MR_DistanceToMeshOptions</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::SignedDistanceToMeshOptions</computeroutput> to its base class <computeroutput>MR::DistanceToMeshOptions</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="370" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="370" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1aaa6924366a6fa2f7a72907f1005c4661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_SignedDistanceToMeshOptions * MR_SignedDistanceToMeshOptions_ConstructFromAnother</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *_other)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::SignedDistanceToMeshOptions::SignedDistanceToMeshOptions</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRDistanceToMeshOptions_8h_1a4b4db7483fdc34f654f6257f8e0c8cc7" kindref="member">MR_SignedDistanceToMeshOptions_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="376" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="376" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a4b4db7483fdc34f654f6257f8e0c8cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SignedDistanceToMeshOptions_Destroy</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_Destroy</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_SignedDistanceToMeshOptions</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="379" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="379" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1af6c8b3afcb2f6c2bea38b49ef7968474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_SignedDistanceToMeshOptions_DestroyArray</definition>
+        <argsstring>(const MR_SignedDistanceToMeshOptions *_this)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_SignedDistanceToMeshOptions</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="382" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="382" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRDistanceToMeshOptions_8h_1a284b42296c6e31503d536280b00d0e0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+        <definition>MRC_API MR_SignedDistanceToMeshOptions * MR_SignedDistanceToMeshOptions_AssignFromAnother</definition>
+        <argsstring>(MR_SignedDistanceToMeshOptions *_this, const MR_SignedDistanceToMeshOptions *_other)</argsstring>
+        <name>MR_SignedDistanceToMeshOptions_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::SignedDistanceToMeshOptions::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" line="390" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h" declline="390" declcolumn="40"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRSignDetectionMode_8h" kindref="compound">MRCMesh/MRSignDetectionMode.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRDistanceToMeshOptions_8h_1a64ad53b2ea1ee83b8371c0c65156d31f" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a64ad53b2ea1ee83b8371c0c65156d31f" kindref="member">MR_DistanceToMeshOptions_Get_minDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRDistanceToMeshOptions_8h_1a644d90e98132e9d459bff188fefb0ae3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a644d90e98132e9d459bff188fefb0ae3" kindref="member">MR_DistanceToMeshOptions_Set_minDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRDistanceToMeshOptions_8h_1a8ece6b475e0677eaca5b4a21ef206d22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a8ece6b475e0677eaca5b4a21ef206d22" kindref="member">MR_DistanceToMeshOptions_GetMutable_minDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="MRDistanceToMeshOptions_8h_1adbfd8b10dda4ba036d5110b6fa91ae7c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1adbfd8b10dda4ba036d5110b6fa91ae7c" kindref="member">MR_DistanceToMeshOptions_Get_maxDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="MRDistanceToMeshOptions_8h_1aaa621dddaf0a2fb1ef9884a3e86b2017" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1aaa621dddaf0a2fb1ef9884a3e86b2017" kindref="member">MR_DistanceToMeshOptions_Set_maxDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRDistanceToMeshOptions_8h_1a9c01441bfcb03668acf0ff83dcd9e13e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a9c01441bfcb03668acf0ff83dcd9e13e" kindref="member">MR_DistanceToMeshOptions_GetMutable_maxDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRDistanceToMeshOptions_8h_1a9289338cd053cc19e0afc814f83a6700" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a9289338cd053cc19e0afc814f83a6700" kindref="member">MR_DistanceToMeshOptions_Get_nullOutsideMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRDistanceToMeshOptions_8h_1aeea5c914eec5dfc955c57f84ce55d08c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1aeea5c914eec5dfc955c57f84ce55d08c" kindref="member">MR_DistanceToMeshOptions_Set_nullOutsideMinMax</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRDistanceToMeshOptions_8h_1aa5aec80df8d65f3cee318db0d66127e3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aa5aec80df8d65f3cee318db0d66127e3" kindref="member">MR_DistanceToMeshOptions_GetMutable_nullOutsideMinMax</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="MRDistanceToMeshOptions_8h_1a703c974ab64bc8557a8b10c6aaf8863c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a703c974ab64bc8557a8b10c6aaf8863c" kindref="member">MR_DistanceToMeshOptions_Get_windingNumberThreshold</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="MRDistanceToMeshOptions_8h_1af3b1ff8b1b7d6436a90f3aa6f604c329" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1af3b1ff8b1b7d6436a90f3aa6f604c329" kindref="member">MR_DistanceToMeshOptions_Set_windingNumberThreshold</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRDistanceToMeshOptions_8h_1a89abf7f2603c8068961fcaa9fb1882ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a89abf7f2603c8068961fcaa9fb1882ff" kindref="member">MR_DistanceToMeshOptions_GetMutable_windingNumberThreshold</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="MRDistanceToMeshOptions_8h_1aa7de2d0c236bd25f0e81480f6db3441b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aa7de2d0c236bd25f0e81480f6db3441b" kindref="member">MR_DistanceToMeshOptions_Get_windingNumberBeta</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRDistanceToMeshOptions_8h_1afff328baab1a7899d49a7636b171b929" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1afff328baab1a7899d49a7636b171b929" kindref="member">MR_DistanceToMeshOptions_Set_windingNumberBeta</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRDistanceToMeshOptions_8h_1a8e8459eafda076beba3509b305258da1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a8e8459eafda076beba3509b305258da1" kindref="member">MR_DistanceToMeshOptions_GetMutable_windingNumberBeta</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRDistanceToMeshOptions_8h_1ae08cd3409d55afac2bfe0353a5e8af22" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ae08cd3409d55afac2bfe0353a5e8af22" kindref="member">MR_DistanceToMeshOptions_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRDistanceToMeshOptions_8h_1a31e87ccf76572b3372e8283c7cb775ea" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a31e87ccf76572b3372e8283c7cb775ea" kindref="member">MR_DistanceToMeshOptions_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRDistanceToMeshOptions_8h_1a5f65ae910d716c68b09e3fc223a28e2d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a5f65ae910d716c68b09e3fc223a28e2d" kindref="member">MR_DistanceToMeshOptions_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>minDistSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>maxDistSq,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>nullOutsideMinMax,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>windingNumberThreshold,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>windingNumberBeta);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRDistanceToMeshOptions_8h_1a92e0adc1b58e704a919f1783cdab82fb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a92e0adc1b58e704a919f1783cdab82fb" kindref="member">MR_DistanceToMeshOptions_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171" refid="MRDistanceToMeshOptions_8h_1aec2f26b4c7a4e73c8330aa1dbbb34edc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aec2f26b4c7a4e73c8330aa1dbbb34edc" kindref="member">MR_DistanceToMeshOptions_OffsetMutablePtr</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRDistanceToMeshOptions_8h_1a0ff5b95f3a0d7d1df640a986841faf10" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a0ff5b95f3a0d7d1df640a986841faf10" kindref="member">MR_DistanceToMeshOptions_StaticDowncastTo_MR_SignedDistanceToMeshOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182" refid="MRDistanceToMeshOptions_8h_1a29c9a6863d3ec1e73e80d0732704ee75" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a29c9a6863d3ec1e73e80d0732704ee75" kindref="member">MR_DistanceToMeshOptions_MutableStaticDowncastTo_MR_SignedDistanceToMeshOptions</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRDistanceToMeshOptions_8h_1ab8859e10220b4a36484864ad461e2db8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ab8859e10220b4a36484864ad461e2db8" kindref="member">MR_DistanceToMeshOptions_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a944767f720421ed6f300bf23a96bdb4d" kindref="member">MR_DistanceToMeshOptions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRDistanceToMeshOptions_8h_1a9c7854db5634fc6a02e98be1e5a4f058" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a9c7854db5634fc6a02e98be1e5a4f058" kindref="member">MR_DistanceToMeshOptions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRDistanceToMeshOptions_8h_1a5cc48dd34fe2af561995c0422c4f1cce" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a5cc48dd34fe2af561995c0422c4f1cce" kindref="member">MR_DistanceToMeshOptions_AssignFromAnother</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRDistanceToMeshOptions_8h_1aa69edea2e64fdb1665d0289db2542eeb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aa69edea2e64fdb1665d0289db2542eeb" kindref="member">MR_SignedDistanceToMeshOptions_Get_signMode</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216" refid="MRDistanceToMeshOptions_8h_1ad0fd65eac25784c27e4e4710d63f9f19" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1ad0fd65eac25784c27e4e4710d63f9f19" kindref="member">MR_SignedDistanceToMeshOptions_Set_signMode</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>value);</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="MRDistanceToMeshOptions_8h_1a332d7076949b13f11728fbfa7bfe5734" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSignDetectionMode_8h_1ad947acaab65b108b9b20a683b2d1c571" kindref="member">MR_SignDetectionMode</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a332d7076949b13f11728fbfa7bfe5734" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_signMode</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="MRDistanceToMeshOptions_8h_1a38d4942233cb7a5e054346716b956dde" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a38d4942233cb7a5e054346716b956dde" kindref="member">MR_SignedDistanceToMeshOptions_Get_minDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="MRDistanceToMeshOptions_8h_1a27357dc4532fc11fcb9e7d60e37a0424" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a27357dc4532fc11fcb9e7d60e37a0424" kindref="member">MR_SignedDistanceToMeshOptions_Set_minDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="MRDistanceToMeshOptions_8h_1a0e305da8f79d32d31e5ed0fd2d082af2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a0e305da8f79d32d31e5ed0fd2d082af2" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_minDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="250" refid="MRDistanceToMeshOptions_8h_1a1f8b808a6a0957c45856d8fe3dae25bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a1f8b808a6a0957c45856d8fe3dae25bf" kindref="member">MR_SignedDistanceToMeshOptions_Get_maxDistSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="MRDistanceToMeshOptions_8h_1a04d5854811bf4501cb214cde78579c0e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a04d5854811bf4501cb214cde78579c0e" kindref="member">MR_SignedDistanceToMeshOptions_Set_maxDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRDistanceToMeshOptions_8h_1aa058306c07cb4c29d403d393791f6666" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aa058306c07cb4c29d403d393791f6666" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_maxDistSq</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="274" refid="MRDistanceToMeshOptions_8h_1a3a62927296066a3dc7338ff0ad39318b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a3a62927296066a3dc7338ff0ad39318b" kindref="member">MR_SignedDistanceToMeshOptions_Get_nullOutsideMinMax</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRDistanceToMeshOptions_8h_1aa05fcebc8653ef6c7fb670f8426fa6db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1aa05fcebc8653ef6c7fb670f8426fa6db" kindref="member">MR_SignedDistanceToMeshOptions_Set_nullOutsideMinMax</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295" refid="MRDistanceToMeshOptions_8h_1a3fc3cb8e0c6cba15d3e9af5ebe37c88b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a3fc3cb8e0c6cba15d3e9af5ebe37c88b" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_nullOutsideMinMax</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="MRDistanceToMeshOptions_8h_1a786df03ca46071766382fee3d3465869" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a786df03ca46071766382fee3d3465869" kindref="member">MR_SignedDistanceToMeshOptions_Get_windingNumberThreshold</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="312" refid="MRDistanceToMeshOptions_8h_1adce110634728f587916b3c151a8d57ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1adce110634728f587916b3c151a8d57ed" kindref="member">MR_SignedDistanceToMeshOptions_Set_windingNumberThreshold</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"></highlight></codeline>
+<codeline lineno="321" refid="MRDistanceToMeshOptions_8h_1ae29a04f487f39c1fbfb17711341c5172" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ae29a04f487f39c1fbfb17711341c5172" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_windingNumberThreshold</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="MRDistanceToMeshOptions_8h_1a6e99f7b31c691c021e03ffe162e4aaca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a6e99f7b31c691c021e03ffe162e4aaca" kindref="member">MR_SignedDistanceToMeshOptions_Get_windingNumberBeta</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336" refid="MRDistanceToMeshOptions_8h_1a48060a5179321d4b7b530cae9dcf72a6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a48060a5179321d4b7b530cae9dcf72a6" kindref="member">MR_SignedDistanceToMeshOptions_Set_windingNumberBeta</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="344" refid="MRDistanceToMeshOptions_8h_1af8977b4921ec34b5c5478a26bef3c02a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1af8977b4921ec34b5c5478a26bef3c02a" kindref="member">MR_SignedDistanceToMeshOptions_GetMutable_windingNumberBeta</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="MRDistanceToMeshOptions_8h_1a7f2f4a08c5b9cc001bdf93c37c135c28" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a7f2f4a08c5b9cc001bdf93c37c135c28" kindref="member">MR_SignedDistanceToMeshOptions_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="MRDistanceToMeshOptions_8h_1a7947060f897060f226210cb68e4eeafa" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a7947060f897060f226210cb68e4eeafa" kindref="member">MR_SignedDistanceToMeshOptions_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357" refid="MRDistanceToMeshOptions_8h_1a67d947e7aee134fcf84ee33d4ff041f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a67d947e7aee134fcf84ee33d4ff041f6" kindref="member">MR_SignedDistanceToMeshOptions_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="361" refid="MRDistanceToMeshOptions_8h_1a5da185f0ade34b001741c343497de51f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a5da185f0ade34b001741c343497de51f" kindref="member">MR_SignedDistanceToMeshOptions_OffsetMutablePtr</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366" refid="MRDistanceToMeshOptions_8h_1ab24458e952212b36dcefd28a22554103" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1ab24458e952212b36dcefd28a22554103" kindref="member">MR_SignedDistanceToMeshOptions_UpcastTo_MR_DistanceToMeshOptions</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="MRDistanceToMeshOptions_8h_1a22a261d911dd00217ff8232e453ea502" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a89c8051ab9f8ef3cd2f86752938a9e07" kindref="member">MR_DistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a22a261d911dd00217ff8232e453ea502" kindref="member">MR_SignedDistanceToMeshOptions_MutableUpcastTo_MR_DistanceToMeshOptions</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="MRDistanceToMeshOptions_8h_1aaa6924366a6fa2f7a72907f1005c4661" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1aaa6924366a6fa2f7a72907f1005c4661" kindref="member">MR_SignedDistanceToMeshOptions_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379" refid="MRDistanceToMeshOptions_8h_1a4b4db7483fdc34f654f6257f8e0c8cc7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a4b4db7483fdc34f654f6257f8e0c8cc7" kindref="member">MR_SignedDistanceToMeshOptions_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"></highlight></codeline>
+<codeline lineno="382" refid="MRDistanceToMeshOptions_8h_1af6c8b3afcb2f6c2bea38b49ef7968474" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1af6c8b3afcb2f6c2bea38b49ef7968474" kindref="member">MR_SignedDistanceToMeshOptions_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"></highlight></codeline>
+<codeline lineno="390" refid="MRDistanceToMeshOptions_8h_1a284b42296c6e31503d536280b00d0e0c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*<ref refid="MRDistanceToMeshOptions_8h_1a284b42296c6e31503d536280b00d0e0c" kindref="member">MR_SignedDistanceToMeshOptions_AssignFromAnother</ref>(<ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceToMeshOptions_8h_1a6b93dbd7a6e09a951ab6ce3a94906586" kindref="member">MR_SignedDistanceToMeshOptions</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="393"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRDistanceToMeshOptions.h"/>
+  </compounddef>
+</doxygen>

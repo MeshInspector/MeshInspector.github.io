@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRChangeColoringType_8h" kind="file" language="C++">
+    <compoundname>MRChangeColoringType.h</compoundname>
+    <includes refid="MREnums_8h" local="no">MRCMesh/MREnums.h</includes>
+    <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRChangeColoringType.h</label>
+        <link refid="MRChangeColoringType_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMesh/MRHistoryAction.h</label>
+        <link refid="MRHistoryAction_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="7">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRChangeColoringType_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
+        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
+        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
+        <argsstring></argsstring>
+        <name>MR_HistoryAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="14" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeColoringType_8h_1aa4b9828f4113d20d85483568f977c8ff" prot="public" static="no">
+        <type>struct <ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_VisualObject MR_std_shared_ptr_MR_VisualObject</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_VisualObject</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="15" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeColoringType_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
+        <definition>typedef struct MR_std_string MR_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="16" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" prot="public" static="no">
+        <type>struct <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref></type>
+        <definition>typedef struct MR_ChangeColoringType MR_ChangeColoringType</definition>
+        <argsstring></argsstring>
+        <name>MR_ChangeColoringType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>History action for ColoringType change Generated from class <computeroutput>MR::ChangeColoringType</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="25" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRChangeColoringType_8h_1a822f530aaf38dc596720f0dfe35dbf9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+        <definition>MRC_API MR_ChangeColoringType * MR_ChangeColoringType_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_ChangeColoringType *_other)</argsstring>
+        <name>MR_ChangeColoringType_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ChangeColoringType::ChangeColoringType</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangeColoringType_8h_1af2960a6406cc2b54afc49f3c9a749480" kindref="member">MR_ChangeColoringType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="30" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="30" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1a7a74c8412a669c4ca4ea597d528d6111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+        <definition>MRC_API const MR_ChangeColoringType * MR_ChangeColoringType_OffsetPtr</definition>
+        <argsstring>(const MR_ChangeColoringType *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangeColoringType_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="34" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="34" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1a58c803fd23b8448e4a8e31ca6005826b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+        <definition>MRC_API MR_ChangeColoringType * MR_ChangeColoringType_OffsetMutablePtr</definition>
+        <argsstring>(MR_ChangeColoringType *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangeColoringType_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="38" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="38" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1a4cd92d210ddbc9ad1275291338678faa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API const MR_HistoryAction * MR_ChangeColoringType_UpcastTo_MR_HistoryAction</definition>
+        <argsstring>(const MR_ChangeColoringType *object)</argsstring>
+        <name>MR_ChangeColoringType_UpcastTo_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeColoringType</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="43" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="43" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1a692462b697ae62b50e5ba0047e13520d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API MR_HistoryAction * MR_ChangeColoringType_MutableUpcastTo_MR_HistoryAction</definition>
+        <argsstring>(MR_ChangeColoringType *object)</argsstring>
+        <name>MR_ChangeColoringType_MutableUpcastTo_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeColoringType</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="47" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="47" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1aac9bfd72137c6a34724ce87c44f68ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+        <definition>MRC_API MR_ChangeColoringType * MR_ChangeColoringType_Construct_2</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_VisualObject *obj)</argsstring>
+        <name>MR_ChangeColoringType_Construct_2</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor to remember object&apos;s coloring type before making any changes in it Generated from constructor <computeroutput>MR::ChangeColoringType::ChangeColoringType</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangeColoringType_8h_1af2960a6406cc2b54afc49f3c9a749480" kindref="member">MR_ChangeColoringType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="57" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="57" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1ae060967729ec75c68f5fb703777d98ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+        <definition>MRC_API MR_ChangeColoringType * MR_ChangeColoringType_Construct_3</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_VisualObject *obj, MR_ColoringType newType)</argsstring>
+        <name>MR_ChangeColoringType_Construct_3</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="MREnums_8h_1a8a407448d970199f75e1b40627cfe95d" kindref="member">MR_ColoringType</ref></type>
+          <declname>newType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor to remember object&apos;s coloring type and immediate set new value Generated from constructor <computeroutput>MR::ChangeColoringType::ChangeColoringType</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>newType</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangeColoringType_8h_1af2960a6406cc2b54afc49f3c9a749480" kindref="member">MR_ChangeColoringType_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="68" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="68" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1af2960a6406cc2b54afc49f3c9a749480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeColoringType_Destroy</definition>
+        <argsstring>(const MR_ChangeColoringType *_this)</argsstring>
+        <name>MR_ChangeColoringType_Destroy</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeColoringType</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="71" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="71" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1a7cf4cd8b9c63981d1862bc10422b3794" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeColoringType_DestroyArray</definition>
+        <argsstring>(const MR_ChangeColoringType *_this)</argsstring>
+        <name>MR_ChangeColoringType_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeColoringType</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="74" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="74" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1ad4649cf3b2d320af0bb873cc0df9aa05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+        <definition>MRC_API MR_ChangeColoringType * MR_ChangeColoringType_AssignFromAnother</definition>
+        <argsstring>(MR_ChangeColoringType *_this, MR_PassBy _other_pass_by, MR_ChangeColoringType *_other)</argsstring>
+        <name>MR_ChangeColoringType_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeColoringType::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="81" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="81" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1af3eb36e4fc82a67e6c00894fdb5631b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_ChangeColoringType_name</definition>
+        <argsstring>(const MR_ChangeColoringType *_this)</argsstring>
+        <name>MR_ChangeColoringType_name</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeColoringType::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="86" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="86" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1aca4dc01ff9d00e2caac119559af108de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeColoringType_action</definition>
+        <argsstring>(MR_ChangeColoringType *_this, MR_HistoryAction_Type _1)</argsstring>
+        <name>MR_ChangeColoringType_action</name>
+        <param>
+          <type><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeColoringType::action</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="90" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="90" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1a8951fff58e10d1dbfa4d98494d1fa775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeColoringType_setObjectDirty</definition>
+        <argsstring>(const MR_std_shared_ptr_MR_VisualObject *obj)</argsstring>
+        <name>MR_ChangeColoringType_setObjectDirty</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeColoringType::setObjectDirty</computeroutput>. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="94" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="94" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeColoringType_8h_1a1c0d25cc3bc363b5837dced42674c18c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_ChangeColoringType_heapBytes</definition>
+        <argsstring>(const MR_ChangeColoringType *_this)</argsstring>
+        <name>MR_ChangeColoringType_heapBytes</name>
+        <param>
+          <type>const <ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeColoringType::heapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" line="98" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h" declline="98" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MREnums_8h" kindref="compound">MRCMesh/MREnums.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRHistoryAction_8h" kindref="compound">MRCMesh/MRHistoryAction.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRChangeColoringType_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRChangeColoringType_8h_1aa4b9828f4113d20d85483568f977c8ff" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_VisualObject.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRChangeColoringType_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRChangeColoringType_8h_1a822f530aaf38dc596720f0dfe35dbf9b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*<ref refid="MRChangeColoringType_8h_1a822f530aaf38dc596720f0dfe35dbf9b" kindref="member">MR_ChangeColoringType_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="MRChangeColoringType_8h_1a7a74c8412a669c4ca4ea597d528d6111" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*<ref refid="MRChangeColoringType_8h_1a7a74c8412a669c4ca4ea597d528d6111" kindref="member">MR_ChangeColoringType_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRChangeColoringType_8h_1a58c803fd23b8448e4a8e31ca6005826b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*<ref refid="MRChangeColoringType_8h_1a58c803fd23b8448e4a8e31ca6005826b" kindref="member">MR_ChangeColoringType_OffsetMutablePtr</ref>(<ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRChangeColoringType_8h_1a4cd92d210ddbc9ad1275291338678faa" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeColoringType_8h_1a4cd92d210ddbc9ad1275291338678faa" kindref="member">MR_ChangeColoringType_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="MRChangeColoringType_8h_1a692462b697ae62b50e5ba0047e13520d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeColoringType_8h_1a692462b697ae62b50e5ba0047e13520d" kindref="member">MR_ChangeColoringType_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="MRChangeColoringType_8h_1aac9bfd72137c6a34724ce87c44f68ebc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*<ref refid="MRChangeColoringType_8h_1aac9bfd72137c6a34724ce87c44f68ebc" kindref="member">MR_ChangeColoringType_Construct_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="MRChangeColoringType_8h_1ae060967729ec75c68f5fb703777d98ab" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*<ref refid="MRChangeColoringType_8h_1ae060967729ec75c68f5fb703777d98ab" kindref="member">MR_ChangeColoringType_Construct_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*obj,<sp/><ref refid="MREnums_8h_1a8a407448d970199f75e1b40627cfe95d" kindref="member">MR_ColoringType</ref><sp/>newType);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="MRChangeColoringType_8h_1af2960a6406cc2b54afc49f3c9a749480" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1af2960a6406cc2b54afc49f3c9a749480" kindref="member">MR_ChangeColoringType_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRChangeColoringType_8h_1a7cf4cd8b9c63981d1862bc10422b3794" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a7cf4cd8b9c63981d1862bc10422b3794" kindref="member">MR_ChangeColoringType_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRChangeColoringType_8h_1ad4649cf3b2d320af0bb873cc0df9aa05" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*<ref refid="MRChangeColoringType_8h_1ad4649cf3b2d320af0bb873cc0df9aa05" kindref="member">MR_ChangeColoringType_AssignFromAnother</ref>(<ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRChangeColoringType_8h_1af3eb36e4fc82a67e6c00894fdb5631b0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeColoringType_8h_1af3eb36e4fc82a67e6c00894fdb5631b0" kindref="member">MR_ChangeColoringType_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRChangeColoringType_8h_1aca4dc01ff9d00e2caac119559af108de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1aca4dc01ff9d00e2caac119559af108de" kindref="member">MR_ChangeColoringType_action</ref>(<ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="MRChangeColoringType_8h_1a8951fff58e10d1dbfa4d98494d1fa775" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a8951fff58e10d1dbfa4d98494d1fa775" kindref="member">MR_ChangeColoringType_setObjectDirty</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1aa4b9828f4113d20d85483568f977c8ff" kindref="member">MR_std_shared_ptr_MR_VisualObject</ref><sp/>*obj);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRChangeColoringType_8h_1a1c0d25cc3bc363b5837dced42674c18c" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeColoringType_8h_1a1c0d25cc3bc363b5837dced42674c18c" kindref="member">MR_ChangeColoringType_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringType_8h_1a39d00a70b6ff4dda255d4fe1d3b6d8a9" kindref="member">MR_ChangeColoringType</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeColoringType.h"/>
+  </compounddef>
+</doxygen>

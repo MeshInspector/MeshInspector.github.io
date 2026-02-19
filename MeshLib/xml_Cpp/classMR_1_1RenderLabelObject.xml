@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderLabelObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderLabelObject</compoundname>
+    <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
+    <includes refid="MRRenderLabelObject_8h" local="no">MRRenderLabelObject.h</includes>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1ga21cdcd557c2e9af90d6972f8a1b5f783" kind="typedef"><name>GLuint</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaf367c8c57e3225549e7fdeee6ffa1284" kind="variable"><name>objLabel_</name></member>
+      <member refid="group__GeneralGroup_1ga17e5b2389e624f10a6e94ce3f2eac9b7" kind="variable"><name>faceIndicesSize_</name></member>
+      <member refid="group__GeneralGroup_1ga0bdda487c2197b9d275c037e0da0b8c6" kind="variable"><name>labelArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga40ce2b4f12b8058162d83a614e452e17" kind="variable"><name>vertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga14743ca3b33982d43c999b650effa896" kind="variable"><name>facesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga37e11d414455529dff71adef5e79e33a" kind="variable"><name>srcArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1gae233999752885c1e6064f242f920264b" kind="variable"><name>srcVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga999ede68bfbb53b3d8d33a3187999aeb" kind="variable"><name>srcIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8d320b371b432821c9922b705e59b41a" kind="variable"><name>srcIndicesSelectionTex_</name></member>
+      <member refid="group__GeneralGroup_1ga8bf264bd49bec36c4791914ce5486a89" kind="variable"><name>bgArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga6d18a7b07b367ab0183b8529b4fee68f" kind="variable"><name>bgVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga46601e7260bf8be84f69b98681df7020" kind="variable"><name>bgFacesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga5ef7218aace2d6e1ec8f6cd5017c815e" kind="variable"><name>llineArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1gad4281c4c56572220a99a7cadb4de1820" kind="variable"><name>llineVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga0917ed1b4857d8e5d9eff5dca09661a4" kind="variable"><name>llineEdgesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga71c5d385fd4d332db218456992d7423b" kind="variable"><name>dirty_</name></member>
+      <member refid="group__GeneralGroup_1gac9bbad2eaf64de9c559e884c97eaf756" kind="variable"><name>dirtySrc_</name></member>
+      <member refid="group__GeneralGroup_1gaaed660dbeab2020c33bf1c527f5d2dbb" kind="variable"><name>dirtyBg_</name></member>
+      <member refid="group__GeneralGroup_1gaa2dda100329bca05d495f6aba8c3f920" kind="variable"><name>dirtyLLine_</name></member>
+      <member refid="group__GeneralGroup_1ga1ddb97b001e6fdf706dca435eed5cdea" kind="variable"><name>positionState_</name></member>
+      <member refid="group__GeneralGroup_1ga723786028af904ad54d60566e40ed00f" kind="variable"><name>pivotPointState_</name></member>
+      <member refid="group__GeneralGroup_1gac18e8cb60f8fae22cb8c87366dc9051b" kind="variable"><name>backgroundPaddingState_</name></member>
+      <member refid="group__GeneralGroup_1ga951cbfbe6edf204dd584532150209c18" kind="variable"><name>meshBox_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa76564d2e214675e31f418d5b062416b" kind="function"><name>RenderLabelObject</name></member>
+      <member refid="group__GeneralGroup_1ga3b10286cdce57b0d311f6922b18105d6" kind="function"><name>~RenderLabelObject</name></member>
+      <member refid="group__GeneralGroup_1gaf0dc873eb933a19cda016279a133a693" kind="function"><name>render</name></member>
+      <member refid="group__GeneralGroup_1gabf815848468cddcca8a409e99aa33102" kind="function"><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1gabc3ff595096e62f558025d61d5f30506" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga83bff8c78051dfccfd12631663bea7d9" kind="function"><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga047c9120d6951049a5d669c2b8a10e43" kind="function"><name>forceBindAll</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gad64b5a19b21a65a9f31e2bc4839ade12" kind="function"><name>loadFaceIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gad8a4afbbbe7784f7a5165766a31e0b18" kind="function"><name>renderSourcePoint_</name></member>
+      <member refid="group__GeneralGroup_1ga5753b3e9d36bb252bc3b7f63f5659a50" kind="function"><name>renderBackground_</name></member>
+      <member refid="group__GeneralGroup_1ga6c9159c130f078a3c661a07d9c502791" kind="function"><name>renderLeaderLine_</name></member>
+      <member refid="group__GeneralGroup_1ga50b67902c9057c13cb4e9bf985662a20" kind="function"><name>bindLabel_</name></member>
+      <member refid="group__GeneralGroup_1ga92208579178766689ffb7845e9830044" kind="function"><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1gaa5853c1cb554783f9e488d4e656dea56" kind="function"><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga1477184d061a2aac5b9f72f97008437c" kind="function"><name>update_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="1">
+        <label>MR::RenderLabelObject</label>
+        <link refid="classMR_1_1RenderLabelObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="1">
+        <label>MR::RenderLabelObject</label>
+        <link refid="classMR_1_1RenderLabelObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderLabelObject.h" bodystart="14" bodyend="76"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac18e8cb60f8fae22cb8c87366dc9051b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>backgroundPaddingState_</name></member>
+      <member refid="group__GeneralGroup_1ga8bf264bd49bec36c4791914ce5486a89" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga46601e7260bf8be84f69b98681df7020" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgFacesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga6d18a7b07b367ab0183b8529b4fee68f" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bgVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga50b67902c9057c13cb4e9bf985662a20" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>bindLabel_</name></member>
+      <member refid="group__GeneralGroup_1ga71c5d385fd4d332db218456992d7423b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirty_</name></member>
+      <member refid="group__GeneralGroup_1gaaed660dbeab2020c33bf1c527f5d2dbb" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirtyBg_</name></member>
+      <member refid="group__GeneralGroup_1gaa2dda100329bca05d495f6aba8c3f920" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirtyLLine_</name></member>
+      <member refid="group__GeneralGroup_1gac9bbad2eaf64de9c559e884c97eaf756" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>dirtySrc_</name></member>
+      <member refid="group__GeneralGroup_1ga17e5b2389e624f10a6e94ce3f2eac9b7" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>faceIndicesSize_</name></member>
+      <member refid="group__GeneralGroup_1ga14743ca3b33982d43c999b650effa896" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>facesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga047c9120d6951049a5d669c2b8a10e43" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1gaa5853c1cb554783f9e488d4e656dea56" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga83bff8c78051dfccfd12631663bea7d9" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga21cdcd557c2e9af90d6972f8a1b5f783" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1gabc3ff595096e62f558025d61d5f30506" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga92208579178766689ffb7845e9830044" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga0bdda487c2197b9d275c037e0da0b8c6" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>labelArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga5ef7218aace2d6e1ec8f6cd5017c815e" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>llineArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga0917ed1b4857d8e5d9eff5dca09661a4" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>llineEdgesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gad4281c4c56572220a99a7cadb4de1820" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>llineVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gad64b5a19b21a65a9f31e2bc4839ade12" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>loadFaceIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga951cbfbe6edf204dd584532150209c18" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>meshBox_</name></member>
+      <member refid="group__GeneralGroup_1gaf367c8c57e3225549e7fdeee6ffa1284" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>objLabel_</name></member>
+      <member refid="group__GeneralGroup_1ga723786028af904ad54d60566e40ed00f" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>pivotPointState_</name></member>
+      <member refid="group__GeneralGroup_1ga1ddb97b001e6fdf706dca435eed5cdea" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>positionState_</name></member>
+      <member refid="group__GeneralGroup_1gaf0dc873eb933a19cda016279a133a693" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga5753b3e9d36bb252bc3b7f63f5659a50" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>renderBackground_</name></member>
+      <member refid="group__GeneralGroup_1gaa76564d2e214675e31f418d5b062416b" prot="public" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>RenderLabelObject</name></member>
+      <member refid="group__GeneralGroup_1ga6c9159c130f078a3c661a07d9c502791" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>renderLeaderLine_</name></member>
+      <member refid="group__GeneralGroup_1gabf815848468cddcca8a409e99aa33102" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1gad8a4afbbbe7784f7a5165766a31e0b18" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>renderSourcePoint_</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga37e11d414455529dff71adef5e79e33a" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga999ede68bfbb53b3d8d33a3187999aeb" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8d320b371b432821c9922b705e59b41a" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcIndicesSelectionTex_</name></member>
+      <member refid="group__GeneralGroup_1gae233999752885c1e6064f242f920264b" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>srcVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga1477184d061a2aac5b9f72f97008437c" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>update_</name></member>
+      <member refid="group__GeneralGroup_1ga40ce2b4f12b8058162d83a614e452e17" prot="private" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>vertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderLabelObject</scope><name>~IRenderObject</name></member>
+      <member refid="group__GeneralGroup_1ga3b10286cdce57b0d311f6922b18105d6" prot="public" virt="non-virtual"><scope>MR::RenderLabelObject</scope><name>~RenderLabelObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

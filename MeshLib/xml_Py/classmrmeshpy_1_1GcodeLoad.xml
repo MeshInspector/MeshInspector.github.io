@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GcodeLoad" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GcodeLoad</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeLoad_1aacb9312aaf4e10ddcef7b6e0c5a1e131" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.GcodeLoad.fromAnySupportedFormat</definition>
+        <argsstring>(os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.GcodeLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>detects the format from file extension and loads mesh from it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21469" bodyend="21472"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeLoad_1a80639521f0186c05f9227e97c9e29b51" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.GcodeLoad.fromAnySupportedFormat</definition>
+        <argsstring>(typing.Any in_, str extension, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.GcodeLoad.fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>extension</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>extension in `*.ext` format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21475" bodyend="21478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeLoad_1a57fa116b1b0bc26fe8c3096e637a4310" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.GcodeLoad.fromGcode</definition>
+        <argsstring>(os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>fromGcode</name>
+        <qualifiedname>mrmeshpy.GcodeLoad.fromGcode</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>loads from *.gcode file (or any text file)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21481" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21481" bodyend="21484"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeLoad_1a72836881f62c76516506898ffd36e51d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.GcodeLoad.fromGcode</definition>
+        <argsstring>(typing.Any in_, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>fromGcode</name>
+        <qualifiedname>mrmeshpy.GcodeLoad.fromGcode</qualifiedname>
+        <param>
+          <type>typing.Any</type>
+          <declname>in_</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21487" bodyend="21488"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21463" bodyend="21488"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GcodeLoad_1aacb9312aaf4e10ddcef7b6e0c5a1e131" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1GcodeLoad_1a80639521f0186c05f9227e97c9e29b51" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeLoad</scope><name>fromAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1GcodeLoad_1a57fa116b1b0bc26fe8c3096e637a4310" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeLoad</scope><name>fromGcode</name></member>
+      <member refid="classmrmeshpy_1_1GcodeLoad_1a72836881f62c76516506898ffd36e51d" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeLoad</scope><name>fromGcode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

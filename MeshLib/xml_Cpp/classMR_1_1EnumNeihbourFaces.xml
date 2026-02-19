@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1EnumNeihbourFaces" kind="class" language="C++" prot="public">
+    <compoundname>MR::EnumNeihbourFaces</compoundname>
+    <includes refid="MREnumNeighbours_8h" local="no">MREnumNeighbours.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga79203f31763f7bc8c5334f9eefa76d4d" kind="variable"><name>visited_</name></member>
+      <member refid="group__GeneralGroup_1ga8577a817df5ed16cbf0b6fef9e9cb16b" kind="variable"><name>bd_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga85f07106265d0d9ea1a93a7fd8ba1973" kind="function"><name>run</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREnumNeighbours.h" bodystart="35" bodyend="44"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga8577a817df5ed16cbf0b6fef9e9cb16b" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>bd_</name></member>
+      <member refid="group__GeneralGroup_1ga85f07106265d0d9ea1a93a7fd8ba1973" prot="public" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>run</name></member>
+      <member refid="group__GeneralGroup_1ga79203f31763f7bc8c5334f9eefa76d4d" prot="private" virt="non-virtual"><scope>MR::EnumNeihbourFaces</scope><name>visited_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

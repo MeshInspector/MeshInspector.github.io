@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SceneLoad_1_1Result" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SceneLoad::Result</compoundname>
+    <includes refid="MRSceneLoad_8h" local="no">MRSceneLoad.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SceneLoad_1_1Result_1aae5ebe12ef215f5866a7b1e6e8d59818" prot="public" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1SceneRootObject" kindref="compound">SceneRootObject</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;SceneRootObject&gt; MR::SceneLoad::Result::scene</definition>
+        <argsstring></argsstring>
+        <name>scene</name>
+        <qualifiedname>MR::SceneLoad::Result::scene</qualifiedname>
+        <briefdescription>
+<para>The loaded scene or empty object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="29" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SceneLoad_1_1Result_1a0dcfb794202c73cf1889f44eaed89d0d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SceneLoad::Result::isSceneConstructed</definition>
+        <argsstring></argsstring>
+        <name>isSceneConstructed</name>
+        <qualifiedname>MR::SceneLoad::Result::isSceneConstructed</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>Marks whether the scene was loaded from a single file (false) or was built from scratch (true) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="31" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SceneLoad_1_1Result_1a57fd04706f9c25567280def68b08031c" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; std::filesystem::path &gt;</type>
+        <definition>std::vector&lt;std::filesystem::path&gt; MR::SceneLoad::Result::loadedFiles</definition>
+        <argsstring></argsstring>
+        <name>loadedFiles</name>
+        <qualifiedname>MR::SceneLoad::Result::loadedFiles</qualifiedname>
+        <briefdescription>
+<para>List of successfully loaded files. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="33" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SceneLoad_1_1Result_1a409add35c10dc29848facd011e0eadd4" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::SceneLoad::Result::errorSummary</definition>
+        <argsstring></argsstring>
+        <name>errorSummary</name>
+        <qualifiedname>MR::SceneLoad::Result::errorSummary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Error summary text TODO: user-defined error format </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="36" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SceneLoad_1_1Result_1aa7891207519da19a19494389126e28db" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::SceneLoad::Result::warningSummary</definition>
+        <argsstring></argsstring>
+        <name>warningSummary</name>
+        <qualifiedname>MR::SceneLoad::Result::warningSummary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Warning summary text TODO: user-defined warning format </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="39" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Scene loading result. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" bodystart="27" bodyend="40"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SceneLoad_1_1Result_1a409add35c10dc29848facd011e0eadd4" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>errorSummary</name></member>
+      <member refid="structMR_1_1SceneLoad_1_1Result_1a0dcfb794202c73cf1889f44eaed89d0d" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>isSceneConstructed</name></member>
+      <member refid="structMR_1_1SceneLoad_1_1Result_1a57fd04706f9c25567280def68b08031c" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>loadedFiles</name></member>
+      <member refid="structMR_1_1SceneLoad_1_1Result_1aae5ebe12ef215f5866a7b1e6e8d59818" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>scene</name></member>
+      <member refid="structMR_1_1SceneLoad_1_1Result_1aa7891207519da19a19494389126e28db" prot="public" virt="non-virtual"><scope>MR::SceneLoad::Result</scope><name>warningSummary</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DenoiseViaNormalsSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DenoiseViaNormalsSettings</compoundname>
+    <includes refid="MRNormalDenoising_8h" local="no">MRNormalDenoising.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad6004983564c77dbe469d819de9b1100" kind="variable"><name>fastIndicatorComputation</name></member>
+      <member refid="group__GeneralGroup_1gaa7cab391c3f837a22f2d158c7647315a" kind="variable"><name>beta</name></member>
+      <member refid="group__GeneralGroup_1gad5c55319dff328b55475f07390acd505" kind="variable"><name>gamma</name></member>
+      <member refid="group__GeneralGroup_1ga0020d91ac083f2d70a466e4f209e12b9" kind="variable"><name>normalIters</name></member>
+      <member refid="group__GeneralGroup_1ga82e9e950294e56f0bed7e0ad545b68e9" kind="variable"><name>pointIters</name></member>
+      <member refid="group__GeneralGroup_1ga6852271fa1efbc4da52e0fb5b851810f" kind="variable"><name>guideWeight</name></member>
+      <member refid="group__GeneralGroup_1gaefcab784c5b10d3504130c0306359d5d" kind="variable"><name>limitNearInitial</name></member>
+      <member refid="group__GeneralGroup_1gab298fec8f17af7398ab708ce69c2af2d" kind="variable"><name>maxInitialDist</name></member>
+      <member refid="group__GeneralGroup_1gad7f7b82ea225f8e0f9a358b607d7fead" kind="variable"><name>outCreases</name></member>
+      <member refid="group__GeneralGroup_1ga63ddf357508ffd766addcbe0684a1619" kind="variable"><name>cb</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" line="36" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNormalDenoising.h" bodystart="37" bodyend="67"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa7cab391c3f837a22f2d158c7647315a" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>beta</name></member>
+      <member refid="group__GeneralGroup_1ga63ddf357508ffd766addcbe0684a1619" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gad6004983564c77dbe469d819de9b1100" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>fastIndicatorComputation</name></member>
+      <member refid="group__GeneralGroup_1gad5c55319dff328b55475f07390acd505" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>gamma</name></member>
+      <member refid="group__GeneralGroup_1ga6852271fa1efbc4da52e0fb5b851810f" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>guideWeight</name></member>
+      <member refid="group__GeneralGroup_1gaefcab784c5b10d3504130c0306359d5d" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>limitNearInitial</name></member>
+      <member refid="group__GeneralGroup_1gab298fec8f17af7398ab708ce69c2af2d" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>maxInitialDist</name></member>
+      <member refid="group__GeneralGroup_1ga0020d91ac083f2d70a466e4f209e12b9" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>normalIters</name></member>
+      <member refid="group__GeneralGroup_1gad7f7b82ea225f8e0f9a358b607d7fead" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>outCreases</name></member>
+      <member refid="group__GeneralGroup_1ga82e9e950294e56f0bed7e0ad545b68e9" prot="public" virt="non-virtual"><scope>MR::DenoiseViaNormalsSettings</scope><name>pointIters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

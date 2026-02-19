@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1ImGuiMath_1_1detail" kind="namespace" language="C++">
+    <compoundname>MR::ImGuiMath::detail</compoundname>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize" prot="public">MR::ImGuiMath::detail::CommonVecSize</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4" prot="public">MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize" prot="public">MR::ImGuiMath::detail::VecFromSize</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_012_01_4" prot="public">MR::ImGuiMath::detail::VecFromSize&lt; 2 &gt;</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize_3_014_01_4" prot="public">MR::ImGuiMath::detail::VecFromSize&lt; 4 &gt;</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1detail_1_1VecSize" prot="public">MR::ImGuiMath::detail::VecSize</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec2_01_4" prot="public">MR::ImGuiMath::detail::VecSize&lt; ImVec2 &gt;</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1detail_1_1VecSize_3_01ImVec4_01_4" prot="public">MR::ImGuiMath::detail::VecSize&lt; ImVec4 &gt;</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="11" column="5"/>
+  </compounddef>
+</doxygen>

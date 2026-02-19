@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ShellVertexInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ShellVertexInfo</compoundname>
+    <includes refid="MRInnerShell_8h" local="no">MRInnerShell.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2a6da8b3af021f4593c78e7b6717f573" kind="variable"><name>inRange</name></member>
+      <member refid="group__GeneralGroup_1ga6a812bb14fc2863c4b0f30cc834ddd55" kind="variable"><name>projOnBd</name></member>
+      <member refid="group__GeneralGroup_1ga4ad2a701c8676bd3a94338e7564f1a3c" kind="variable"><name>rightSide</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga8cae5aeb17ea9eba3d65c5cb39acbe29" kind="function"><name>valid</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>information about shell vertex </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" line="39" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInnerShell.h" bodystart="40" bodyend="52"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2a6da8b3af021f4593c78e7b6717f573" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>inRange</name></member>
+      <member refid="group__GeneralGroup_1ga6a812bb14fc2863c4b0f30cc834ddd55" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>projOnBd</name></member>
+      <member refid="group__GeneralGroup_1ga4ad2a701c8676bd3a94338e7564f1a3c" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>rightSide</name></member>
+      <member refid="group__GeneralGroup_1ga8cae5aeb17ea9eba3d65c5cb39acbe29" prot="public" virt="non-virtual"><scope>MR::ShellVertexInfo</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

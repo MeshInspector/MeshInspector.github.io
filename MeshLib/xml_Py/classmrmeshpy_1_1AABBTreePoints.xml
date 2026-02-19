@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AABBTreePoints" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AABBTreePoints</compoundname>
+    <innerclass refid="classmrmeshpy_1_1AABBTreePoints_1_1Node" prot="public">mrmeshpy::AABBTreePoints::Node</innerclass>
+    <innerclass refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" prot="public">mrmeshpy::AABBTreePoints::NodeBitSet</innerclass>
+    <innerclass refid="classmrmeshpy_1_1AABBTreePoints_1_1Point" prot="public">mrmeshpy::AABBTreePoints::Point</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AABBTreePoints_1a683133e200f9eaecb089dae111a198c9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.AABBTreePoints::NodeVec</definition>
+        <argsstring></argsstring>
+        <name>NodeVec</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeVec</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId" kindref="compound">Vector_AABBTreePoints_Node_NodeId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="940" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1a7399708d41bca1cd8397a751745ef5a3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.rootNodeId</definition>
+        <argsstring>()</argsstring>
+        <name>rootNodeId</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.rootNodeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="942" bodyend="943"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1ad56e7c7e033786ddc912991e5ee78d9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1Node" kindref="compound">AABBTreePoints.Node</ref></type>
+        <definition> AABBTreePoints.Node mrmeshpy.AABBTreePoints.__getitem__</definition>
+        <argsstring>(self, NodeId nid)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>nid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="944" bodyend="945"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1a131df0118cd0d47f2b31354d503ea817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.__init__</definition>
+        <argsstring>(self, PointCloud pointCloud)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>pointCloud</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates tree for given point cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="947" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1a03fe770eeedb6815aaca23d624c14f13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.__init__</definition>
+        <argsstring>(self, Mesh mesh)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates tree for vertices of given mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="952" bodyend="955"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1ad842e72d968d3a94db1de758c5e17d52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.__init__</definition>
+        <argsstring>(self, VertCoords points, VertBitSet validPoints=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>validPoints</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates tree from given valid points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="957" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1a06666448e4d7f01c93f62e331cfbb945" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.AABBTreePoints.getBoundingBox</definition>
+        <argsstring>(self)</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.getBoundingBox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the root node bounding box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="961" bodyend="964"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1afd55e1f9a326c38c8b61cecd6b9bfc39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.getLeafOrder</definition>
+        <argsstring>(self, VertBMap vertMap)</argsstring>
+        <name>getLeafOrder</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.getLeafOrder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBMap" kindref="compound">VertBMap</ref></type>
+          <declname>vertMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the mapping original VertId to new id following the points order in the tree;
+buffer in vertMap must be resized before the call, and caller is responsible for filling missing vertex elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="965" bodyend="969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1a35f47f1b7f8b7da044520aaf3708ee60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.getLeafOrderAndReset</definition>
+        <argsstring>(self, VertBMap vertMap)</argsstring>
+        <name>getLeafOrderAndReset</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.getLeafOrderAndReset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBMap" kindref="compound">VertBMap</ref></type>
+          <declname>vertMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the mapping original VertId to new id following the points order in the tree;
+then resets leaf order as if the points were renumberd following the mapping;
+buffer in vertMap must be resized before the call, and caller is responsible for filling missing vertex elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="970" bodyend="975"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1a28df1f0806b175fdae04f387d46b00e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AABBTreePoints.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="976" bodyend="979"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1aa253eb1337ee8e2cf5ce22d00fd1f7fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__AABBTreePoints__Node__NodeId" kindref="compound">Vector_AABBTreePoints_Node_NodeId</ref></type>
+        <definition> Vector_AABBTreePoints_Node_NodeId mrmeshpy.AABBTreePoints.nodes</definition>
+        <argsstring>(self)</argsstring>
+        <name>nodes</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.nodes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="980" bodyend="981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1a3120f027a2299167ba950b6c28527cfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__AABBTreePoints__Point" kindref="compound">std_vector_AABBTreePoints_Point</ref></type>
+        <definition> std_vector_AABBTreePoints_Point mrmeshpy.AABBTreePoints.orderedPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>orderedPoints</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.orderedPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="982" bodyend="983"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1ad7b5bf7a90cbafd1a8fa961287a8bb75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.refit</definition>
+        <argsstring>(self, VertCoords newCoords, VertBitSet changedVerts)</argsstring>
+        <name>refit</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.refit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>newCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>changedVerts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates bounding boxes of the nodes containing changed vertices;
+this is a faster alternative to full tree rebuild (but the tree after refit might be less efficient)
+\\param newCoords coordinates of all vertices including changed ones;
+\\param changedVerts vertex ids with modified coordinates (since tree construction or last refit)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="984" bodyend="990"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AABBTreePoints
+
+bounding volume hierarchy for point cloud structure
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="672" bodyend="990"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1ad56e7c7e033786ddc912991e5ee78d9f" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1a131df0118cd0d47f2b31354d503ea817" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1a03fe770eeedb6815aaca23d624c14f13" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1ad842e72d968d3a94db1de758c5e17d52" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1a06666448e4d7f01c93f62e331cfbb945" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1afd55e1f9a326c38c8b61cecd6b9bfc39" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>getLeafOrder</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1a35f47f1b7f8b7da044520aaf3708ee60" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1a28df1f0806b175fdae04f387d46b00e0" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1aa253eb1337ee8e2cf5ce22d00fd1f7fc" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>nodes</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1a683133e200f9eaecb089dae111a198c9" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>NodeVec</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1a3120f027a2299167ba950b6c28527cfd" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>orderedPoints</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1ad7b5bf7a90cbafd1a8fa961287a8bb75" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>refit</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1a7399708d41bca1cd8397a751745ef5a3" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints</scope><name>rootNodeId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

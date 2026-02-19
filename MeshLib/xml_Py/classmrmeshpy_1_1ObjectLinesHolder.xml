@@ -1,0 +1,865 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectLinesHolder" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectLinesHolder</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1VisualObject" prot="public" virt="non-virtual">mrmeshpy.VisualObject</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1ObjectGcode" prot="public" virt="non-virtual">mrmeshpy.ObjectGcode</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1ObjectLines" prot="public" virt="non-virtual">mrmeshpy.ObjectLines</derivedcompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1aa497a195c8086c0b64e0739b83741135" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectLinesHolder.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2fc458fce133a9ff45056ce820e23234">StaticTypeName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a8af251dc40ca4f08784d632bdc99ed82">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1af11498db2ee39361857b833ffbca18fd">StaticTypeName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39820" bodyend="39821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a54596b7e6cf3d95356455b1646909346" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.ObjectLinesHolder.getWorldBox</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.getWorldBox</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e">getWorldBox</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached bounding box of this point object in world coordinates;
+if you need bounding box in local coordinates please call getBoundingBox()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39823" bodyend="39827"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1ae89c55eb14c80dcca14c9e11137e09fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1aeeee8765f9cedaf64cb20f3385a745d3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a24f2e6fd3d90352d42be66772b68adc0">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39828" bodyend="39829"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1acb205f054024051149f4102cd445e788" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.applyScale</definition>
+        <argsstring>(self, float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.applyScale</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a1db3f0240dda415f1f066fed72225e16">applyScale</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>scale object size (all point positions)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39830" bodyend="39831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a63154f43549ab27f62446810817169fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectLinesHolder.avgEdgeLen</definition>
+        <argsstring>(self)</argsstring>
+        <name>avgEdgeLen</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.avgEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached average edge length
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39832" bodyend="39835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a0ce5f0f36cb7ebc31e410e151c5775c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectLinesHolder.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a69d90eb39a7c8f555722df8156f69463">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a83edefef20d75676d641281be9ae8a81">clone</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39836" bodyend="39837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1adb4c956a11a4aa8fdb7b1445ac00f633" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.copyColors</definition>
+        <argsstring>(self, ObjectLinesHolder src, VertMap thisToSrc)</argsstring>
+        <name>copyColors</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.copyColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectLinesHolder" kindref="compound">ObjectLinesHolder</ref></type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>thisToSrc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies vertex colors from given source object \\param src using given map \\param thisToSrc
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39838" bodyend="39841"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a994cad33d6a8028132f72cdd9b0dca98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
+        <definition> std_vector_ViewportMask mrmeshpy.ObjectLinesHolder.getAllVisualizeProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.getAllVisualizeProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a99a68c12bda4b4c07f5ba725b2b2af59">getAllVisualizeProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get all visualize properties masks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39842" bodyend="39845"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1af249e57b24df8f736013ff87ce16fc67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.ObjectLinesHolder.getDashPattern</definition>
+        <argsstring>(self, ViewportId vpId=..., bool_output isDef=None)</argsstring>
+        <name>getDashPattern</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.getDashPattern</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>vpId</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>isDef</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39846" bodyend="39847"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1ac7b63e5eee394d637f7bce100638ac78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectLinesHolder.getLineWidth</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLineWidth</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.getLineWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39848" bodyend="39849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a933eec1123ee3897a437afcd8f694693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+        <definition> UndirectedEdgeColors mrmeshpy.ObjectLinesHolder.getLinesColorMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLinesColorMap</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.getLinesColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39850" bodyend="39851"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a30a24514e82b96357d67bf065276be68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectLinesHolder.getPointSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.getPointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39852" bodyend="39853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a863f6ff5544c790dbf9a95bca6cea4ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.ObjectLinesHolder.getVertsColorMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVertsColorMap</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.getVertsColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns per-vertex colors of the object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39854" bodyend="39857"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1ab13e38aeb0c31e09015e40caedd7df43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition> ViewportMask mrmeshpy.ObjectLinesHolder.getVisualizePropertyMask</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.getVisualizePropertyMask</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a936f4ea388564c3dc033b5abb39993f4">getVisualizePropertyMask</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns mask of viewports where given property is set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39858" bodyend="39861"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1acfea5d3c47d06fd269b4f67584db0300" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectLinesHolder.hasModel</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasModel</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.hasModel</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a3270abd9924fa3f784d3105824979f0b">hasModel</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>does the object have any model available (but possibly empty),
+e.g. ObjectMesh has valid mesh() or ObjectPoints has valid pointCloud()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39862" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39862" bodyend="39863"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1acf9de6509d7769c04d816fce4614089c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectLinesHolder.hasVisualRepresentation</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.hasVisualRepresentation</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a21510ca05f3888f5db9ff0aae662c9d1">hasVisualRepresentation</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39864" bodyend="39865"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a66a9da044d1ff0dafad25ee62ec981cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectLinesHolder.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1a571d9d02df9a2a9dd723f6a71ce398">heapBytes</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a79b7b19a9c02de20a815b6c85930b32f">heapBytes</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39866" bodyend="39869"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a2b1a6a7bd1e518c46da8429a841f873b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectLinesHolder.numComponents</definition>
+        <argsstring>(self)</argsstring>
+        <name>numComponents</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.numComponents</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached information about the number of components in the polyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39870" bodyend="39873"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a9c8bef0028808244b470495c2c937844" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectLinesHolder.numUndirectedEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>numUndirectedEdges</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.numUndirectedEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached information about the number of undirected edges in the polyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39874" bodyend="39877"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a6ae665bceaf15ddd1db70c553f88ef8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Polyline3" kindref="compound">Polyline3</ref></type>
+        <definition> Polyline3 mrmeshpy.ObjectLinesHolder.polyline</definition>
+        <argsstring>(self)</argsstring>
+        <name>polyline</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.polyline</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39878" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39878" bodyend="39879"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a2b6ccbafe3df2faed6e745abad21486f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.resetFrontColor</definition>
+        <argsstring>(self)</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.resetFrontColor</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a69ef0caef1ec3fa51cab56ad9959bb22">resetFrontColor</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset basic object colors to their default values from the current theme
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39880" bodyend="39883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1abb5283114195f89d27d3aa6df20b216a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.setDashPattern</definition>
+        <argsstring>(self, Vector4_unsigned_char pattern, ViewportId vpId=...)</argsstring>
+        <name>setDashPattern</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.setDashPattern</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>pattern</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>vpId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>specify dash pattern in pixels
+[0] - dash
+[1] - space
+[2] - dash
+[3] - space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39884" bodyend="39891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1ae2cf69c6b8bbc437fac219147a738433" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.setDirtyFlags</definition>
+        <argsstring>(self, int mask, bool invalidateCaches=True)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.setDirtyFlags</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a883cdf9eb84b10488087440af6534a26">setDirtyFlags</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a9420d89f0e9d81ef7990811e0db5c691">setDirtyFlags</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invalidateCaches</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets some dirty flags for the object (to force its visual update)
+\\param mask is a union of DirtyFlags flags
+\\param invalidateCaches whether to automatically invalidate model caches (pass false here if you manually update the caches)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39892" bodyend="39893"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a4654badc49423f7a1fb0854b5ae7703f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.setLineWidth</definition>
+        <argsstring>(self, float width)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.setLineWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39894" bodyend="39895"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1acebcd884d454d5c6138f9087f1b80387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.setLinesColorMap</definition>
+        <argsstring>(self, UndirectedEdgeColors linesColorMap)</argsstring>
+        <name>setLinesColorMap</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.setLinesColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+          <declname>linesColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39896" bodyend="39897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a4ec2b14d39277e0418d98923d9766295" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.setPointSize</definition>
+        <argsstring>(self, float size)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.setPointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39898" bodyend="39899"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a7c7099eb166b12f37f7ca8f6f8ef929a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.setVertsColorMap</definition>
+        <argsstring>(self, VertColors vertsColorMap)</argsstring>
+        <name>setVertsColorMap</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.setVertsColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets per-vertex colors of the object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39900" bodyend="39903"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1aa4fb859df3557e279340755c13cad777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectLinesHolder.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a880506f01e0ee9219a5b770e47966083">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a8d33c4e7cb486c5b6ee8423373d416f6">shallowClone</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39904" bodyend="39905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a3da9a9950b496f5f6239dddeb246887b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectLinesHolder.supportsVisualizeProperty</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.supportsVisualizeProperty</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1af397dd03ebfb70c972d3c4b39e52fc51">supportsVisualizeProperty</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if this class supports the property `type`. Otherwise passing it to the functions below is illegal.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39906" bodyend="39907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a9e0cd657b957e0b8c333177c01ab1f04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectLinesHolder.totalLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>totalLength</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.totalLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return cached total length
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39908" bodyend="39911"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a3d74f153344e45ee25a3ab78a883ba4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectLinesHolder.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a0e188ed95f73756841030840741720e9">typeName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a1a21c672f5f041a5f57deafc67794e3f">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a64022fd1c53b41a5116e1f9b62016c48">typeName</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39912" bodyend="39913"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1a0882af5e3f185e6fe9863b2b29e59559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.updateLinesColorMap</definition>
+        <argsstring>(self, UndirectedEdgeColors updated)</argsstring>
+        <name>updateLinesColorMap</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.updateLinesColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeColors" kindref="compound">UndirectedEdgeColors</ref></type>
+          <declname>updated</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39914" bodyend="39915"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLinesHolder_1af3e21cbc79b8e070d567c38eb8e25445" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLinesHolder.updateVertsColorMap</definition>
+        <argsstring>(self, VertColors vertsColorMap)</argsstring>
+        <name>updateVertsColorMap</name>
+        <qualifiedname>mrmeshpy.ObjectLinesHolder.updateVertsColorMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>vertsColorMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>swaps per-vertex colors of the object with given argument
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39916" bodyend="39919"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectLinesHolder
+Aliases:  std_shared_ptr_ObjectLinesHolder, ChangeLinesColorMapAction.Obj
+
+an object that stores a lines
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectLinesHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectLinesHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectGcode</label>
+        <link refid="classmrmeshpy_1_1ObjectGcode"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectLines</label>
+        <link refid="classmrmeshpy_1_1ObjectLines"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectLinesHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectLinesHolder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39812" bodyend="39919"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1ae89c55eb14c80dcca14c9e11137e09fa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1acb205f054024051149f4102cd445e788" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a63154f43549ab27f62446810817169fa" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>avgEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a0ce5f0f36cb7ebc31e410e151c5775c3" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1adb4c956a11a4aa8fdb7b1445ac00f633" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>copyColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a994cad33d6a8028132f72cdd9b0dca98" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1af249e57b24df8f736013ff87ce16fc67" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>getDashPattern</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a933eec1123ee3897a437afcd8f694693" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>getLinesColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1ac7b63e5eee394d637f7bce100638ac78" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>getLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a30a24514e82b96357d67bf065276be68" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>getPointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a863f6ff5544c790dbf9a95bca6cea4ee" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>getVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1ab13e38aeb0c31e09015e40caedd7df43" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a54596b7e6cf3d95356455b1646909346" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>getWorldBox</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1acfea5d3c47d06fd269b4f67584db0300" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>hasModel</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1acf9de6509d7769c04d816fce4614089c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a66a9da044d1ff0dafad25ee62ec981cb" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a2b1a6a7bd1e518c46da8429a841f873b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>numComponents</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a9c8bef0028808244b470495c2c937844" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>numUndirectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a6ae665bceaf15ddd1db70c553f88ef8f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>polyline</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a2b6ccbafe3df2faed6e745abad21486f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1abb5283114195f89d27d3aa6df20b216a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>setDashPattern</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1ae2cf69c6b8bbc437fac219147a738433" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1acebcd884d454d5c6138f9087f1b80387" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>setLinesColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a4654badc49423f7a1fb0854b5ae7703f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>setLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a4ec2b14d39277e0418d98923d9766295" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>setPointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a7c7099eb166b12f37f7ca8f6f8ef929a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>setVertsColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1aa4fb859df3557e279340755c13cad777" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1aa497a195c8086c0b64e0739b83741135" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a3da9a9950b496f5f6239dddeb246887b" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a9e0cd657b957e0b8c333177c01ab1f04" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>totalLength</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a3d74f153344e45ee25a3ab78a883ba4a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1a0882af5e3f185e6fe9863b2b29e59559" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>updateLinesColorMap</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLinesHolder_1af3e21cbc79b8e070d567c38eb8e25445" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLinesHolder</scope><name>updateVertsColorMap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

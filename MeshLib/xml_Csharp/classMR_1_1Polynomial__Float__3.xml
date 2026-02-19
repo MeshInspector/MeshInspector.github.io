@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Polynomial__Float__3" kind="class" language="C#" prot="public">
+    <compoundname>MR::Polynomial_Float_3</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Polynomial_Float_3</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__3_1aada4323e70577e590be1eb488a30323c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Polynomial_Float_3.Polynomial_Float_3</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Polynomial_Float_3</name>
+        <qualifiedname>MR.Polynomial_Float_3.Polynomial_Float_3</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="670" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="670" bodyend="670"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__3_1a1d5c38f6bdfd4a61086a2d4b96f8655c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Polynomial_Float_3.Polynomial_Float_3</definition>
+        <argsstring>()</argsstring>
+        <name>Polynomial_Float_3</name>
+        <qualifiedname>MR.Polynomial_Float_3.Polynomial_Float_3</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="675" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="675" bodyend="680"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__3_1a6e37c618635db26839ff6ecbdfd47252" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Polynomial_Float_3.Polynomial_Float_3</definition>
+        <argsstring>(MR.Const_Polynomial_Float_3 _other)</argsstring>
+        <name>Polynomial_Float_3</name>
+        <qualifiedname>MR.Polynomial_Float_3.Polynomial_Float_3</qualifiedname>
+        <param>
+          <type>MR.Const_Polynomial_Float_3</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Polynomial&lt;float, 3&gt;::Polynomial</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="685" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="685" bodyend="691"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__3_1a7d9bdc969e0f95b983a25e7a18a91320" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Polynomial_Float_3.Polynomial_Float_3</definition>
+        <argsstring>(Polynomial_Float_3 _other)</argsstring>
+        <name>Polynomial_Float_3</name>
+        <qualifiedname>MR.Polynomial_Float_3.Polynomial_Float_3</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Polynomial__Float__3" kindref="compound">Polynomial_Float_3</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Polynomial&lt;float, 3&gt;::Polynomial</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="696" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="696" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__3_1a5faa0534866993bbf193739c9eb0ac99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polynomial__Float__3" kindref="compound">MR.Polynomial_Float_3</ref></type>
+        <definition>unsafe MR.Polynomial_Float_3 MR.Polynomial_Float_3.assign</definition>
+        <argsstring>(MR.Const_Polynomial_Float_3 _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Polynomial_Float_3.assign</qualifiedname>
+        <param>
+          <type>MR.Const_Polynomial_Float_3</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Polynomial&lt;float, 3&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="701" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="701" bodyend="708"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.Polynomial&lt;float, 3&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Polynomial_Float_3</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Polynomial_Float_3</label>
+        <link refid="classMR_1_1Polynomial__Float__3"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Polynomial_Float_3 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Polynomial_Float_3</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Polynomial_Float_3</label>
+        <link refid="classMR_1_1Polynomial__Float__3"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Polynomial_Float_3 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="668" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="669" bodyend="709"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Polynomial__Float__3_1a5faa0534866993bbf193739c9eb0ac99" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_3</scope><name>assign</name></member>
+      <member refid="classMR_1_1Polynomial__Float__3_1aada4323e70577e590be1eb488a30323c" prot="package" virt="non-virtual"><scope>MR::Polynomial_Float_3</scope><name>Polynomial_Float_3</name></member>
+      <member refid="classMR_1_1Polynomial__Float__3_1a1d5c38f6bdfd4a61086a2d4b96f8655c" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_3</scope><name>Polynomial_Float_3</name></member>
+      <member refid="classMR_1_1Polynomial__Float__3_1a6e37c618635db26839ff6ecbdfd47252" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_3</scope><name>Polynomial_Float_3</name></member>
+      <member refid="classMR_1_1Polynomial__Float__3_1a7d9bdc969e0f95b983a25e7a18a91320" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_3</scope><name>Polynomial_Float_3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

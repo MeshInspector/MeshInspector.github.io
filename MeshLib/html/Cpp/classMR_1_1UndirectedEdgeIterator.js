@@ -1,8 +1,9 @@
 var classMR_1_1UndirectedEdgeIterator =
 [
-    [ "UndirectedEdgeIterator", "../Csharp/classMR_1_1UndirectedEdgeIterator.html#a9e1f81ee6baf3189b15421033f6930f1", null ],
-    [ "UndirectedEdgeIterator", "../Csharp/classMR_1_1UndirectedEdgeIterator.html#a05a9f011a5b5d804d8572bda5eb4f9a1", null ],
-    [ "UndirectedEdgeIterator", "../Csharp/classMR_1_1UndirectedEdgeIterator.html#ad1ac3fd4dcd0948ce2c62ed878e6e15e", null ],
-    [ "assign", "../Csharp/classMR_1_1UndirectedEdgeIterator.html#a168f1a55364f062dd2cd5e122ff6309c", null ],
-    [ "incr", "../Csharp/classMR_1_1UndirectedEdgeIterator.html#a10332c483375f3dbf7b2c5fbcd8bb93b", null ]
+    [ "iterator_category", "group__GeneralGroup.html#ga14b6e326990c49dd287dac693682485e", null ],
+    [ "value_type", "group__GeneralGroup.html#gafd61e3c0df7e5d0f0b23e76f6f0ca42e", null ],
+    [ "UndirectedEdgeIterator", "group__GeneralGroup.html#ga909a01b0735f738d785b0d1688d8b7d6", null ],
+    [ "UndirectedEdgeIterator", "group__GeneralGroup.html#gac2f62dff10799ac6dca52798a4b22a9f", null ],
+    [ "operator*", "group__GeneralGroup.html#gafb9397abf0ea6c1ab579232a1d3d527e", null ],
+    [ "operator++", "group__GeneralGroup.html#ga852c488fe7af6f3a37c24b9756e470f4", null ]
 ];

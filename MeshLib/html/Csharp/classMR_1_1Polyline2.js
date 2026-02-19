@@ -2,6 +2,8 @@ var classMR_1_1Polyline2 =
 [
     [ "Polyline2", "classMR_1_1Polyline2.html#a7f9fd7c58138e969e9d33573eb56139d", null ],
     [ "Polyline2", "classMR_1_1Polyline2.html#a677bdd45ae24a9ad121304b49547cc38", null ],
+    [ "Polyline2", "classMR_1_1Polyline2.html#a4671b13d226b629449e8f9402f0c12b7", null ],
+    [ "Polyline2", "classMR_1_1Polyline2.html#a0c287189e906a5069f46891de1d0d624", null ],
     [ "Polyline2", "classMR_1_1Polyline2.html#a253b924f39af5a851ced54ac8b55be1f", null ],
     [ "Polyline2", "classMR_1_1Polyline2.html#a0c11cfa4e4951105f7957583f72bc555", null ],
     [ "Polyline2", "classMR_1_1Polyline2.html#af186a27466c1bce310a8cc139bce3c01", null ],
@@ -19,5 +21,7 @@ var classMR_1_1Polyline2 =
     [ "pack", "classMR_1_1Polyline2.html#a31388521b351a304f6e9fa9b584564fd", null ],
     [ "splitEdge", "classMR_1_1Polyline2.html#a276e2327b62d8a8d780494459cba6228", null ],
     [ "splitEdge", "classMR_1_1Polyline2.html#a612547f8f4260560f117f537b9454cb0", null ],
-    [ "transform", "classMR_1_1Polyline2.html#a53085936c2c9f12cf26fa2b4051f1232", null ]
+    [ "transform", "classMR_1_1Polyline2.html#a53085936c2c9f12cf26fa2b4051f1232", null ],
+    [ "points", "classMR_1_1Polyline2.html#a89bcfd98b68973c6be897541eb95ee63", null ],
+    [ "topology", "classMR_1_1Polyline2.html#a9d6c96b4b8f6bdad3169c12e10bd2f8e", null ]
 ];

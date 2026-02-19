@@ -2,6 +2,8 @@ var classMR_1_1Face2RegionMap =
 [
     [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#a1ce5c94b9a97f9292c74e87c4c083833", null ],
     [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#a77a2a0c86e5e051a74981a43d45126d9", null ],
+    [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#a6a25e0dbb71fdca89418364c71569279", null ],
+    [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#adc9a0125444ffb570e2e44c2dba23dfa", null ],
     [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#a33eab4683061ce441890cabc90979c0b", null ],
     [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#ae19ca389055776f2d012b820cef471ae", null ],
     [ "Face2RegionMap", "classMR_1_1Face2RegionMap.html#a211d6b45f396a7d0acfb34e1ffd6150a", null ],

@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RangeProcessor" kind="class" language="C++" prot="public">
+    <compoundname>MR::RangeProcessor</compoundname>
+    <includes refid="MROpenVDBHelper_8h" local="no">MROpenVDBHelper.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class TreeT</type>
+      </param>
+      <param>
+        <type>typename Transformer</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gaa315166f6f42d40bb94f5fc8380fca08" kind="typedef"><name>InterruptFunc</name></member>
+      <member refid="group__GeneralGroup_1ga38d89572060f7a396489aa5de0d40b45" kind="typedef"><name>ValueT</name></member>
+      <member refid="group__GeneralGroup_1ga27433ecb4e5aa6a2663efbfd38500f73" kind="typedef"><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga992a8a190daef18cd5ee2c4fe6ecb004" kind="typedef"><name>TileIterT</name></member>
+      <member refid="group__GeneralGroup_1ga905bd220d552b994aaa85fd00c4de321" kind="typedef"><name>LeafRange</name></member>
+      <member refid="group__GeneralGroup_1gaacabc4dd991973de630296736bc8cf00" kind="typedef"><name>TileRange</name></member>
+      <member refid="group__GeneralGroup_1ga582a15e9341e8c6590b44125765256eb" kind="typedef"><name>InTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1gaa118f22b54abade12d29be0674365ddb" kind="typedef"><name>OutTreeAccessor</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga5bf2197f2d041af1be92b6f643abd8a0" kind="variable"><name>mIsRoot</name></member>
+      <member refid="group__GeneralGroup_1ga6884ec6e034dd4c916f095a5b37e3eec" kind="variable"><name>mXform</name></member>
+      <member refid="group__GeneralGroup_1gab459757772a24a30d9860a8087b1a0fb" kind="variable"><name>mBBox</name></member>
+      <member refid="group__GeneralGroup_1ga40720bd760b668db168af53eacb35e06" kind="variable"><name>mInTree</name></member>
+      <member refid="group__GeneralGroup_1ga1734d9fdf7f2cb2ceb464b278b3a3c37" kind="variable"><name>mOutTree</name></member>
+      <member refid="group__GeneralGroup_1ga3b35f9c3e2f2bd1bfdcac908f7c47cb0" kind="variable"><name>mInAcc</name></member>
+      <member refid="group__GeneralGroup_1gaaafb09b4e5163ce8cce6646834b99955" kind="variable"><name>mOutAcc</name></member>
+      <member refid="group__GeneralGroup_1ga97c8733272575c067e9f7604f0c96ac3" kind="variable"><name>mInterrupt</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaed071231ed6be0d204432f731c462517" kind="function"><name>RangeProcessor</name></member>
+      <member refid="group__GeneralGroup_1gaadae15698177152b2848d22ede76670b" kind="function"><name>RangeProcessor</name></member>
+      <member refid="group__GeneralGroup_1gaa1b6af30870ebe7291f172482a42b7b5" kind="function"><name>~RangeProcessor</name></member>
+      <member refid="group__GeneralGroup_1ga575e7717da2c9424f1c8e3c6bfcaf2e8" kind="function"><name>RangeProcessor</name></member>
+      <member refid="group__GeneralGroup_1ga1432b399331e9db2525b5c7b6b79a360" kind="function"><name>setInterrupt</name></member>
+      <member refid="group__GeneralGroup_1gae9524032175e7503af1f3c23a7d5b962" kind="function"><name>operator()</name></member>
+      <memberdef kind="function" id="classMR_1_1RangeProcessor_1gae9524032175e7503af1f3c23a7d5b962" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RangeProcessor&lt; TreeT, Transformer &gt;::operator()</definition>
+        <argsstring>(const TileRange &amp;rCRef)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::RangeProcessor::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="group__GeneralGroup_1gaacabc4dd991973de630296736bc8cf00" kindref="member">TileRange</ref> &amp;</type>
+          <declname>rCRef</declname>
+        </param>
+        <briefdescription>
+<para>Transform each non-background tile in the given range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Skip voxels and background tiles.</para>
+<para>Intersect the tile&apos;s bounding box with mBBox.</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="101" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="101" bodyend="130"/>
+      </memberdef>
+      <member refid="group__GeneralGroup_1ga6a0210e315715506b9c1ccfa4ad468c4" kind="function"><name>join</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga8c0d12758fb8d2a7c27b6bfe64435e0a" kind="function"><name>interrupt</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Class to use in tbb::parallel_reduce for openvdb::tree transformation. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>similar to openvdb::RangeProcessor <parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TreeT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tree type </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Transformer</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>functor to transform tree </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="33" bodyend="149"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga8c0d12758fb8d2a7c27b6bfe64435e0a" prot="private" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>interrupt</name></member>
+      <member refid="group__GeneralGroup_1gaa315166f6f42d40bb94f5fc8380fca08" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>InterruptFunc</name></member>
+      <member refid="group__GeneralGroup_1ga582a15e9341e8c6590b44125765256eb" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>InTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga6a0210e315715506b9c1ccfa4ad468c4" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>join</name></member>
+      <member refid="group__GeneralGroup_1ga27433ecb4e5aa6a2663efbfd38500f73" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga905bd220d552b994aaa85fd00c4de321" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>LeafRange</name></member>
+      <member refid="group__GeneralGroup_1gab459757772a24a30d9860a8087b1a0fb" prot="private" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>mBBox</name></member>
+      <member refid="group__GeneralGroup_1ga3b35f9c3e2f2bd1bfdcac908f7c47cb0" prot="private" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>mInAcc</name></member>
+      <member refid="group__GeneralGroup_1ga97c8733272575c067e9f7604f0c96ac3" prot="private" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>mInterrupt</name></member>
+      <member refid="group__GeneralGroup_1ga40720bd760b668db168af53eacb35e06" prot="private" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>mInTree</name></member>
+      <member refid="group__GeneralGroup_1ga5bf2197f2d041af1be92b6f643abd8a0" prot="private" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>mIsRoot</name></member>
+      <member refid="group__GeneralGroup_1gaaafb09b4e5163ce8cce6646834b99955" prot="private" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>mOutAcc</name></member>
+      <member refid="group__GeneralGroup_1ga1734d9fdf7f2cb2ceb464b278b3a3c37" prot="private" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>mOutTree</name></member>
+      <member refid="group__GeneralGroup_1ga6884ec6e034dd4c916f095a5b37e3eec" prot="private" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>mXform</name></member>
+      <member refid="group__GeneralGroup_1gae9524032175e7503af1f3c23a7d5b962" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>operator()</name></member>
+      <member refid="classMR_1_1RangeProcessor_1gae9524032175e7503af1f3c23a7d5b962" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gaa118f22b54abade12d29be0674365ddb" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>OutTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1gaed071231ed6be0d204432f731c462517" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>RangeProcessor</name></member>
+      <member refid="group__GeneralGroup_1gaadae15698177152b2848d22ede76670b" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>RangeProcessor</name></member>
+      <member refid="group__GeneralGroup_1ga575e7717da2c9424f1c8e3c6bfcaf2e8" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>RangeProcessor</name></member>
+      <member refid="group__GeneralGroup_1ga1432b399331e9db2525b5c7b6b79a360" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>setInterrupt</name></member>
+      <member refid="group__GeneralGroup_1ga992a8a190daef18cd5ee2c4fe6ecb004" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>TileIterT</name></member>
+      <member refid="group__GeneralGroup_1gaacabc4dd991973de630296736bc8cf00" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>TileRange</name></member>
+      <member refid="group__GeneralGroup_1ga38d89572060f7a396489aa5de0d40b45" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>ValueT</name></member>
+      <member refid="group__GeneralGroup_1gaa1b6af30870ebe7291f172482a42b7b5" prot="public" virt="non-virtual"><scope>MR::RangeProcessor</scope><name>~RangeProcessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

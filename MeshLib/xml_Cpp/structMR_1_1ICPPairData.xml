@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ICPPairData" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ICPPairData</compoundname>
+    <derivedcompoundref refid="structMR_1_1ICPGroupPair" prot="public" virt="non-virtual">MR::ICPGroupPair</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PointPair" prot="public" virt="non-virtual">MR::PointPair</derivedcompoundref>
+    <includes refid="MRICP_8h" local="no">MRICP.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaf30195d74b2a6994fdfadd8768407c38" kind="variable"><name>srcPoint</name></member>
+      <member refid="group__GeneralGroup_1ga26326a83f053dc2e5ea6f564143ac410" kind="variable"><name>srcNorm</name></member>
+      <member refid="group__GeneralGroup_1ga5a8aa18bdc6d6ceb392dafa06cbf3ba7" kind="variable"><name>tgtPoint</name></member>
+      <member refid="group__GeneralGroup_1ga7f615835e680ec678113e7e2367e3a09" kind="variable"><name>tgtNorm</name></member>
+      <member refid="group__GeneralGroup_1gafe05b997a712f074a3053f11dab0a7eb" kind="variable"><name>distSq</name></member>
+      <member refid="group__GeneralGroup_1gacade73682f0a4e356ccf90131e1a5fa2" kind="variable"><name>weight</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga0769d0c92668ab4c85a05584e5a73b24" kind="friend"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ICPGroupPair</label>
+        <link refid="structMR_1_1ICPGroupPair"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ICPPairData</label>
+        <link refid="structMR_1_1ICPPairData"/>
+      </node>
+      <node id="3">
+        <label>MR::PointPair</label>
+        <link refid="structMR_1_1PointPair"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRICP.h" bodystart="20" bodyend="40"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafe05b997a712f074a3053f11dab0a7eb" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>distSq</name></member>
+      <member refid="group__GeneralGroup_1ga0769d0c92668ab4c85a05584e5a73b24" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga26326a83f053dc2e5ea6f564143ac410" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>srcNorm</name></member>
+      <member refid="group__GeneralGroup_1gaf30195d74b2a6994fdfadd8768407c38" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>srcPoint</name></member>
+      <member refid="group__GeneralGroup_1ga7f615835e680ec678113e7e2367e3a09" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>tgtNorm</name></member>
+      <member refid="group__GeneralGroup_1ga5a8aa18bdc6d6ceb392dafa06cbf3ba7" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>tgtPoint</name></member>
+      <member refid="group__GeneralGroup_1gacade73682f0a4e356ccf90131e1a5fa2" prot="public" virt="non-virtual"><scope>MR::ICPPairData</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

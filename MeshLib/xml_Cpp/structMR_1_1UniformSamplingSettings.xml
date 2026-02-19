@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UniformSamplingSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UniformSamplingSettings</compoundname>
+    <includes refid="MRUniformSampling_8h" local="no">MRUniformSampling.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga010165bed75fd690071dbe15b50f8c58" kind="variable"><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga4952e332cfe108e00f967d412a6aba88" kind="variable"><name>minNormalDot</name></member>
+      <member refid="group__GeneralGroup_1ga7c7a861d6d96b26592bb64ac801d6f43" kind="variable"><name>lexicographicalOrder</name></member>
+      <member refid="group__GeneralGroup_1ga1d523113f6c1fed152ce4ac0ca682b22" kind="variable"><name>pNormals</name></member>
+      <member refid="group__GeneralGroup_1ga5bc23c2e461b80a4516732d0e5add3a5" kind="variable"><name>progress</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUniformSampling.h" bodystart="15" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga010165bed75fd690071dbe15b50f8c58" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga7c7a861d6d96b26592bb64ac801d6f43" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>lexicographicalOrder</name></member>
+      <member refid="group__GeneralGroup_1ga4952e332cfe108e00f967d412a6aba88" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>minNormalDot</name></member>
+      <member refid="group__GeneralGroup_1ga1d523113f6c1fed152ce4ac0ca682b22" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>pNormals</name></member>
+      <member refid="group__GeneralGroup_1ga5bc23c2e461b80a4516732d0e5add3a5" prot="public" virt="non-virtual"><scope>MR::UniformSamplingSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

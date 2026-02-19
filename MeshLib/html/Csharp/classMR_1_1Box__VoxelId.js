@@ -11,5 +11,5 @@ var classMR_1_1Box__VoxelId =
     [ "get", "classMR_1_1Box__VoxelId.html#a30ef4224a0adb0febf8a8c1c12ba72f8", null ],
     [ "incr", "classMR_1_1Box__VoxelId.html#a0c410a2d8f21f36eae7a1b276d3a2777", null ],
     [ "subAssign", "classMR_1_1Box__VoxelId.html#ac16affaba5ce290122aee955d0289ff4", null ],
-    [ "_Ref", "classMR_1_1Box__VoxelId.html#a27199055c029cddd5bb2bc48db3b81cd", null ]
+    [ "id", "classMR_1_1Box__VoxelId.html#acd526c82f11e3de65a2ae1f5ed17d09c", null ]
 ];

@@ -156,8 +156,8 @@ $(function(){initNavTree('group__VoxelPathGroup.html',''); initResizable(true); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1VoxelMetricParameters.html">MR::VoxelMetricParameters</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for building metric function. <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VoxelMetricParameters.html">MR::VoxelMetricParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for building metric function.  <a href="structMR_1_1VoxelMetricParameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -177,19 +177,23 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:ga85e60c553cc81b298c4bfeac4a623b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga4412ea17fd4bcca4ad23e987f61c20ab" id="r_ga4412ea17fd4bcca4ad23e987f61c20ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4412ea17fd4bcca4ad23e987f61c20ab">MR::SlicePlane</a> </td></tr>
+<tr class="memitem:ga4412ea17fd4bcca4ad23e987f61c20ab" id="r_ga4412ea17fd4bcca4ad23e987f61c20ab"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga4412ea17fd4bcca4ad23e987f61c20ab">MR::SlicePlane</a> { <a class="el" href="#gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74">MR::YZ</a>
+, <a class="el" href="#gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9">MR::ZX</a>
+, <a class="el" href="#gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9">MR::XY</a>
+, <a class="el" href="#gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4">MR::None</a>
+ }</td></tr>
 <tr class="memdesc:ga4412ea17fd4bcca4ad23e987f61c20ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Plane of slice in which to find path.  <a href="#ga4412ea17fd4bcca4ad23e987f61c20ab">More...</a><br /></td></tr>
 <tr class="separator:ga4412ea17fd4bcca4ad23e987f61c20ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga149abd6a892e1284e051e285396c94c6" id="r_ga149abd6a892e1284e051e285396c94c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga149abd6a892e1284e051e285396c94c6">MR::voxelsExponentMetric</a> (const <a class="elRef" href="../Csharp/classMR_1_1VdbVolume.html">VdbVolume</a> &amp;voxels, const <a class="elRef" href="../Csharp/classMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters, float modifier=-1.0f)</td></tr>
+<tr class="memitem:ga149abd6a892e1284e051e285396c94c6" id="r_ga149abd6a892e1284e051e285396c94c6"><td class="memItemLeft" align="right" valign="top">MRVOXELS_API <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga149abd6a892e1284e051e285396c94c6">MR::voxelsExponentMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters, float modifier=-1.0f)</td></tr>
 <tr class="memdesc:ga149abd6a892e1284e051e285396c94c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">e^(modifier*(dens1+dens2))  <br /></td></tr>
 <tr class="separator:ga149abd6a892e1284e051e285396c94c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaffc0e3988ac89d7c4ed030de11be4b80" id="r_gaffc0e3988ac89d7c4ed030de11be4b80"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaffc0e3988ac89d7c4ed030de11be4b80">MR::voxelsSumDiffsMetric</a> (const <a class="elRef" href="../Csharp/classMR_1_1VdbVolume.html">VdbVolume</a> &amp;voxels, const <a class="elRef" href="../Csharp/classMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters)</td></tr>
+<tr class="memitem:gaffc0e3988ac89d7c4ed030de11be4b80" id="r_gaffc0e3988ac89d7c4ed030de11be4b80"><td class="memItemLeft" align="right" valign="top">MRVOXELS_API <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gaffc0e3988ac89d7c4ed030de11be4b80">MR::voxelsSumDiffsMetric</a> (const VdbVolume &amp;voxels, const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;parameters)</td></tr>
 <tr class="memdesc:gaffc0e3988ac89d7c4ed030de11be4b80"><td class="mdescLeft">&#160;</td><td class="mdescRight">sum of dense differences with start and stop voxels  <br /></td></tr>
 <tr class="separator:gaffc0e3988ac89d7c4ed030de11be4b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad1772070c201609ff1aac3958e6b9005" id="r_gad1772070c201609ff1aac3958e6b9005"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1772070c201609ff1aac3958e6b9005">MR::buildSmallestMetricPath</a> (const <a class="elRef" href="../Csharp/classMR_1_1VdbVolume.html">VdbVolume</a> &amp;voxels, const <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> &amp;metric, size_t start, size_t finish, ProgressCallback cb={})</td></tr>
+<tr class="memitem:gad1772070c201609ff1aac3958e6b9005" id="r_gad1772070c201609ff1aac3958e6b9005"><td class="memItemLeft" align="right" valign="top">MRVOXELS_API std::vector&lt; size_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gad1772070c201609ff1aac3958e6b9005">MR::buildSmallestMetricPath</a> (const VdbVolume &amp;voxels, const <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> &amp;metric, size_t start, size_t finish, ProgressCallback cb={})</td></tr>
 <tr class="memdesc:gad1772070c201609ff1aac3958e6b9005"><td class="mdescLeft">&#160;</td><td class="mdescRight">builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned  <br /></td></tr>
 <tr class="separator:gad1772070c201609ff1aac3958e6b9005"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -202,10 +206,12 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using MR::VoxelsMetric = std::function&lt;float( size_t from, size_t to )&gt;</td>
+          <td class="memname">using <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">MR::VoxelsMetric</a> = std::function&lt;float( size_t from, size_t to )&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVoxelPath_8h.html">MRVoxelPath.h</a>&gt;</code></p>
 
 </div>
 </div>
@@ -220,7 +226,7 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">enum class MR::QuarterBit : char</td>
+          <td class="memname">enum class <a class="el" href="#ga85e60c553cc81b298c4bfeac4a623b79">MR::QuarterBit</a> : char</td>
         </tr>
       </table>
   </td>
@@ -229,6 +235,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVoxelPath_8h.html">MRVoxelPath.h</a>&gt;</code></p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a" name="gga85e60c553cc81b298c4bfeac4a623b79aa149c1d1da2ae1c94f1ae91f4919625a"></a>LeftLeft&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4" name="gga85e60c553cc81b298c4bfeac4a623b79a955322c98b1fc571e8b6b688ae7d9ee4"></a>LeftRight&#160;</td><td class="fielddoc"></td></tr>
@@ -246,12 +254,24 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum MR::SlicePlane</td>
+          <td class="memname">enum <a class="el" href="#ga4412ea17fd4bcca4ad23e987f61c20ab">MR::SlicePlane</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p><code>#include &lt;<a class="el" href="MRVoxelPath_8h.html">MRVoxelPath.h</a>&gt;</code></p>
+
 <p>Plane of slice in which to find path. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74" name="gga4412ea17fd4bcca4ad23e987f61c20aba848c5fe5a26f3330bcbedda94181fc74"></a>YZ&#160;</td><td class="fielddoc"><p>= 0 cause main axis is x - [0] </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9" name="gga4412ea17fd4bcca4ad23e987f61c20aba24b4db35f35f7ebe4a15436010a070d9"></a>ZX&#160;</td><td class="fielddoc"><p>= 1 cause main axis is y - [1] </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9" name="gga4412ea17fd4bcca4ad23e987f61c20aba3629e4a37a6ff95437939d8664d158e9"></a>XY&#160;</td><td class="fielddoc"><p>= 2 cause main axis is z - [2] </p>
+</td></tr>
+<tr><td class="fieldname"><a id="gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4" name="gga4412ea17fd4bcca4ad23e987f61c20abaa1f9f6e1b4f1f951f67ebeb0c69e1dd4"></a>None&#160;</td><td class="fielddoc"><p>special value not to limit path in one slice </p>
+</td></tr>
+</table>
 
 </div>
 </div>
@@ -266,9 +286,9 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> std::vector&lt; size_t &gt; MR::buildSmallestMetricPath </td>
+          <td class="memname">MRVOXELS_API std::vector&lt; size_t &gt; MR::buildSmallestMetricPath </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VdbVolume.html">VdbVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
+          <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -298,6 +318,8 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p><code>#include &lt;<a class="el" href="MRVoxelPath_8h.html">MRVoxelPath.h</a>&gt;</code></p>
+
 <p>builds shortest path in given metric from start to finish voxels; if no path can be found then empty path is returned </p>
 
 </div>
@@ -312,14 +334,14 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsExponentMetric </td>
+          <td class="memname">MRVOXELS_API <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsExponentMetric </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VdbVolume.html">VdbVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
+          <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parameters</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parameters</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -333,6 +355,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVoxelPath_8h.html">MRVoxelPath.h</a>&gt;</code></p>
 
 <p>e^(modifier*(dens1+dens2)) </p>
 
@@ -348,14 +372,14 @@ Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsSumDiffsMetric </td>
+          <td class="memname">MRVOXELS_API <a class="el" href="#ga803e99bc9c6b6b6afa785b1395881cce">VoxelsMetric</a> MR::voxelsSumDiffsMetric </td>
           <td>(</td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VdbVolume.html">VdbVolume</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
+          <td class="paramtype">const VdbVolume &amp;</td>          <td class="paramname"><span class="paramname"><em>voxels</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parameters</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1VoxelMetricParameters.html">VoxelMetricParameters</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>parameters</em></span>&#160;)</td>
         </tr>
       </table>
   </td>
@@ -364,6 +388,8 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRVoxelPath_8h.html">MRVoxelPath.h</a>&gt;</code></p>
 
 <p>sum of dense differences with start and stop voxels </p>
 

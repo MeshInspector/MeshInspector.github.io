@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GcodeProcessor" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GcodeProcessor</compoundname>
+    <innerclass refid="classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector2f" prot="public">mrmeshpy::GcodeProcessor::BaseAction_Vector2f</innerclass>
+    <innerclass refid="classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector3f" prot="public">mrmeshpy::GcodeProcessor::BaseAction_Vector3f</innerclass>
+    <innerclass refid="classmrmeshpy_1_1GcodeProcessor_1_1Command" prot="public">mrmeshpy::GcodeProcessor::Command</innerclass>
+    <innerclass refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction" prot="public">mrmeshpy::GcodeProcessor::MoveAction</innerclass>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GcodeProcessor_1a3ffa15c3fb07cd7e6f95fc36dd93e2a7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.GcodeProcessor::BaseAction2f</definition>
+        <argsstring></argsstring>
+        <name>BaseAction2f</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.BaseAction2f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21685" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GcodeProcessor_1a1657cf6c991fc41029eee3630215802b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.GcodeProcessor::BaseAction3f</definition>
+        <argsstring></argsstring>
+        <name>BaseAction3f</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.BaseAction3f</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector3f" kindref="compound">GcodeProcessor.BaseAction_Vector3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21686" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1aa7a36e5d969dc46b554bff1bec116166" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21689" bodyend="21690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1a59eb38547d40d7ec294bd74361d5c198" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GcodeProcessor" kindref="compound">GcodeProcessor</ref></type>
+        <definition> GcodeProcessor mrmeshpy.GcodeProcessor.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21693" bodyend="21694"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1a59eb38547d40d7ec294bd74361d5c198" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GcodeProcessor" kindref="compound">GcodeProcessor</ref></type>
+        <definition> GcodeProcessor mrmeshpy.GcodeProcessor.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21697" bodyend="21698"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1ab816e88711e9a634e5cdc3aa2a03cc0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21700" bodyend="21701"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1a2cd6928176837a56c3cfa5dfb848efad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.__init__</definition>
+        <argsstring>(self, GcodeProcessor arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GcodeProcessor" kindref="compound">GcodeProcessor</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21703" bodyend="21706"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1accbe507a40401eefa8f347281323a035" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></type>
+        <definition> CNCMachineSettings mrmeshpy.GcodeProcessor.getCNCMachineSettings</definition>
+        <argsstring>(self)</argsstring>
+        <name>getCNCMachineSettings</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.getCNCMachineSettings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21707" bodyend="21708"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1a83e62814520b045ad3cb9c0ff2c1fb34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction" kindref="compound">GcodeProcessor.MoveAction</ref></type>
+        <definition> GcodeProcessor.MoveAction mrmeshpy.GcodeProcessor.processLine</definition>
+        <argsstring>(self, str line, std_vector_GcodeProcessor_Command externalStorage)</argsstring>
+        <name>processLine</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.processLine</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__GcodeProcessor__Command" kindref="compound">std_vector_GcodeProcessor_Command</ref></type>
+          <declname>externalStorage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>process all commands from one line g-code source and generate corresponding move action;
+\\param externalStorage to avoid memory allocation on each line
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21709" bodyend="21713"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1a61060e096102b2eb04bd9c17676c013a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__GcodeProcessor__MoveAction" kindref="compound">std_vector_GcodeProcessor_MoveAction</ref></type>
+        <definition> std_vector_GcodeProcessor_MoveAction mrmeshpy.GcodeProcessor.processSource</definition>
+        <argsstring>(self)</argsstring>
+        <name>processSource</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.processSource</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>process all lines g-code source and generate corresponding move actions
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21714" bodyend="21717"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1a855c0ba49c18b7d5bd1f7d3d0282ef54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset internal states
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21718" bodyend="21721"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1a556c5b1b44cd997a4b05dbc2ebab6807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.setCNCMachineSettings</definition>
+        <argsstring>(self, CNCMachineSettings settings)</argsstring>
+        <name>setCNCMachineSettings</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.setCNCMachineSettings</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CNCMachineSettings" kindref="compound">CNCMachineSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>settings
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21722" bodyend="21725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1a83d5af4a4968c00f936c2951c8ac7815" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.setGcodeSource</definition>
+        <argsstring>(self, std_vector_std_string gcodeSource)</argsstring>
+        <name>setGcodeSource</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.setGcodeSource</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+          <declname>gcodeSource</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set g-code source
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21726" bodyend="21729"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::GcodeProcessor
+
+class to process g-code source and generate toolpath
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21489" bodyend="21729"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1aa7a36e5d969dc46b554bff1bec116166" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1ab816e88711e9a634e5cdc3aa2a03cc0e" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a2cd6928176837a56c3cfa5dfb848efad" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a3ffa15c3fb07cd7e6f95fc36dd93e2a7" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>BaseAction2f</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a1657cf6c991fc41029eee3630215802b" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>BaseAction3f</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1accbe507a40401eefa8f347281323a035" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>getCNCMachineSettings</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a59eb38547d40d7ec294bd74361d5c198" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a59eb38547d40d7ec294bd74361d5c198" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a83e62814520b045ad3cb9c0ff2c1fb34" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>processLine</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a61060e096102b2eb04bd9c17676c013a" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>processSource</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a855c0ba49c18b7d5bd1f7d3d0282ef54" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a556c5b1b44cd997a4b05dbc2ebab6807" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>setCNCMachineSettings</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1a83d5af4a4968c00f936c2951c8ac7815" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor</scope><name>setGcodeSource</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

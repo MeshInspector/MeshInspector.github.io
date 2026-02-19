@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Pdf::PaletteRowStats</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a884624354fbed7c69d5969f7c51c0eab" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Pdf.PaletteRowStats::_offsetof_color</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_color</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats._offsetof_color</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42896" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1ad67bcccaccbe645db1f394855342679f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Pdf.PaletteRowStats::_offsetof_percent</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_percent</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats._offsetof_percent</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42897" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42897" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1adce195aa89ad46bcc0c78ea53d33398a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Pdf.PaletteRowStats::_offsetof_rangeMax</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_rangeMax</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats._offsetof_rangeMax</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42898" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a078fdfd75e0a31f017fcd5e796cdc2ee" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Pdf.PaletteRowStats::_offsetof_rangeMin</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_rangeMin</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats._offsetof_rangeMin</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42899" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1ac85ddfad08e8943ff1a20912a7892dd5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.PaletteRowStats.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42906" bodyend="42907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a4cb46a3f89b036c14d9ca59df0dc635c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+        <definition> Pdf.PaletteRowStats mrmeshpy.Pdf.PaletteRowStats.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42910" bodyend="42911"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a4cb46a3f89b036c14d9ca59df0dc635c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+        <definition> Pdf.PaletteRowStats mrmeshpy.Pdf.PaletteRowStats.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42914" bodyend="42915"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1ac8406ce32e7e56ad29bf179534870e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.PaletteRowStats.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42917" bodyend="42918"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a08fa8371f5953fca741a89e2c3c5395e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.PaletteRowStats.__init__</definition>
+        <argsstring>(self, Pdf.PaletteRowStats arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" kindref="compound">Pdf.PaletteRowStats</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42920" bodyend="42923"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a633d989bb58e176c8d8f4d477162964c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.PaletteRowStats.__init__</definition>
+        <argsstring>(self, Color color, str rangeMin, str rangeMax, str percent)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Pdf.PaletteRowStats.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>rangeMin</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>rangeMax</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>percent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42925" bodyend="42929"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Pdf::PaletteRowStats
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Pdf.PaletteRowStats</label>
+        <link refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_color</edgelabel>
+          <edgelabel>_offsetof_percent</edgelabel>
+          <edgelabel>_offsetof_rangeMax</edgelabel>
+          <edgelabel>_offsetof_rangeMin</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42892" bodyend="42928"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1ac85ddfad08e8943ff1a20912a7892dd5" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1ac8406ce32e7e56ad29bf179534870e01" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a08fa8371f5953fca741a89e2c3c5395e" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a633d989bb58e176c8d8f4d477162964c" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a884624354fbed7c69d5969f7c51c0eab" prot="protected" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>_offsetof_color</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1ad67bcccaccbe645db1f394855342679f" prot="protected" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>_offsetof_percent</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1adce195aa89ad46bcc0c78ea53d33398a" prot="protected" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>_offsetof_rangeMax</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a078fdfd75e0a31f017fcd5e796cdc2ee" prot="protected" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>_offsetof_rangeMin</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a4cb46a3f89b036c14d9ca59df0dc635c" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats_1a4cb46a3f89b036c14d9ca59df0dc635c" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf::PaletteRowStats</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

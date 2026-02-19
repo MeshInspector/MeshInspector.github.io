@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UnitInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UnitInfo</compoundname>
+    <includes refid="MRUnitInfo_8h" local="no">MRUnitInfo.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga817300ad70b64d411504a08283c57df8" kind="variable"><name>conversionFactor</name></member>
+      <member refid="group__GeneralGroup_1ga531dd608ed4d751acebfe96a4ce966ef" kind="variable"><name>prettyName</name></member>
+      <member refid="group__GeneralGroup_1ga51e42890c307d870cd98616e9336cc4f" kind="variable"><name>unitSuffix</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Information about a single measurement unit. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><hruler/>
+ </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnitInfo.h" line="135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRUnitInfo.h" bodystart="136" bodyend="146"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga817300ad70b64d411504a08283c57df8" prot="public" virt="non-virtual"><scope>MR::UnitInfo</scope><name>conversionFactor</name></member>
+      <member refid="group__GeneralGroup_1ga531dd608ed4d751acebfe96a4ce966ef" prot="public" virt="non-virtual"><scope>MR::UnitInfo</scope><name>prettyName</name></member>
+      <member refid="group__GeneralGroup_1ga51e42890c307d870cd98616e9336cc4f" prot="public" virt="non-virtual"><scope>MR::UnitInfo</scope><name>unitSuffix</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

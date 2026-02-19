@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeMeshUVCoordsAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::ChangeMeshUVCoordsAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshUVCoordsAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1ab179ac14008a5865732c45abacb170d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ChangeMeshUVCoordsAction.operator MR.HistoryAction</definition>
+        <argsstring>(ChangeMeshUVCoordsAction self)</argsstring>
+        <name>operator MR.HistoryAction</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.operator MR.HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeMeshUVCoordsAction" kindref="compound">ChangeMeshUVCoordsAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="589" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="589" bodyend="594"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1adc211f3c084a4903355cec1a2b7e6034" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ChangeMeshUVCoordsAction.operator ChangeMeshUVCoordsAction?</definition>
+        <argsstring>(MR.HistoryAction parent)</argsstring>
+        <name>operator ChangeMeshUVCoordsAction?</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.operator ChangeMeshUVCoordsAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="597" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="597" bodyend="604"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1acf2d842598187dc2c1966498d838001b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ChangeMeshUVCoordsAction</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="606" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="606" bodyend="606"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1aebfaaad2734f928210217c55b7b138b4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ChangeMeshUVCoordsAction</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="608" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="608" bodyend="608"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1a778f40b72009d52faf061f0edb5e2d85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</definition>
+        <argsstring>(MR._ByValue_ChangeMeshUVCoordsAction _other)</argsstring>
+        <name>ChangeMeshUVCoordsAction</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeMeshUVCoordsAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="613" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="613" bodyend="619"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1ab90c1939f1f910e5b5144beda8c6540f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</definition>
+        <argsstring>(Const_ChangeMeshUVCoordsAction _other)</argsstring>
+        <name>ChangeMeshUVCoordsAction</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</qualifiedname>
+        <param>
+          <type>Const_ChangeMeshUVCoordsAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="624" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="624" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1a24eca79c9d55b92020b6900a78bedfa3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</definition>
+        <argsstring>(ChangeMeshUVCoordsAction _other)</argsstring>
+        <name>ChangeMeshUVCoordsAction</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeMeshUVCoordsAction" kindref="compound">ChangeMeshUVCoordsAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="629" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="629" bodyend="629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1a82f0d8024e59e071029998e351aeb58d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</definition>
+        <argsstring>(string name, MR.Const_ObjectMeshHolder obj)</argsstring>
+        <name>ChangeMeshUVCoordsAction</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectMeshHolder</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s uv-coordinates before making any changes in them Generated from constructor <computeroutput>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="635" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="635" bodyend="645"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1a5221d19d7afae29376f23e783522938f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</definition>
+        <argsstring>(string name, MR.Const_ObjectMeshHolder obj, MR.Misc._Moved&lt; MR.VertCoords2 &gt; newUvCoords)</argsstring>
+        <name>ChangeMeshUVCoordsAction</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectMeshHolder</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref> &gt;</type>
+          <declname>newUvCoords</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s uv-coordinates and immediate set new value Generated from constructor <computeroutput>MR.ChangeMeshUVCoordsAction.ChangeMeshUVCoordsAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="651" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="651" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1ab2624ffac8c077cea030cd105e7f9129" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeMeshUVCoordsAction" kindref="compound">MR.ChangeMeshUVCoordsAction</ref></type>
+        <definition>unsafe MR.ChangeMeshUVCoordsAction MR.ChangeMeshUVCoordsAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeMeshUVCoordsAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeMeshUVCoordsAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ChangeMeshUVCoordsAction.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="667" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="667" bodyend="674"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshUVCoordsAction_1a034c3649d41d6209ba2996eda8ab09fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ChangeMeshUVCoordsAction.action</definition>
+        <argsstring>(MR.HistoryAction.Type _1)</argsstring>
+        <name>action</name>
+        <qualifiedname>MR.ChangeMeshUVCoordsAction.action</qualifiedname>
+        <param>
+          <type>MR.HistoryAction.Type</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ChangeMeshUVCoordsAction_1a034c3649d41d6209ba2996eda8ab09fe" kindref="member">MR.ChangeMeshUVCoordsAction.action</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="679" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="679" bodyend="684"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectMeshHolder" kindref="compound">ObjectMeshHolder</ref> uvCoords change Generated from class <computeroutput><ref refid="classMR_1_1ChangeMeshUVCoordsAction" kindref="compound">MR.ChangeMeshUVCoordsAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ChangeMeshUVCoordsAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeMeshUVCoordsAction</label>
+        <link refid="classMR_1_1ChangeMeshUVCoordsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshUVCoordsAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ChangeMeshUVCoordsAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeMeshUVCoordsAction</label>
+        <link refid="classMR_1_1ChangeMeshUVCoordsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshUVCoordsAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" line="586" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeMeshAction.cs" bodystart="587" bodyend="685"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1a034c3649d41d6209ba2996eda8ab09fe" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1ab2624ffac8c077cea030cd105e7f9129" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1acf2d842598187dc2c1966498d838001b" prot="package" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1aebfaaad2734f928210217c55b7b138b4" prot="package" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1a778f40b72009d52faf061f0edb5e2d85" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1ab90c1939f1f910e5b5144beda8c6540f" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1a24eca79c9d55b92020b6900a78bedfa3" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1a82f0d8024e59e071029998e351aeb58d" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1a5221d19d7afae29376f23e783522938f" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>ChangeMeshUVCoordsAction</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1adc211f3c084a4903355cec1a2b7e6034" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>operator ChangeMeshUVCoordsAction?</name></member>
+      <member refid="classMR_1_1ChangeMeshUVCoordsAction_1ab179ac14008a5865732c45abacb170d2" prot="public" virt="non-virtual"><scope>MR::ChangeMeshUVCoordsAction</scope><name>operator MR.HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

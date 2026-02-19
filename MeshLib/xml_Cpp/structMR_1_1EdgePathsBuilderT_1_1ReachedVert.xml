@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgePathsBuilderT_1_1ReachedVert" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EdgePathsBuilderT::ReachedVert</compoundname>
+    <includes refid="MREdgePathsBuilder_8h" local="no">MREdgePathsBuilder.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad5e8720a5c82f4ea7340efebb072d1cd" kind="variable"><name>v</name></member>
+      <member refid="group__GeneralGroup_1ga4c276cfcbefefc36c49ded5ed151d1f4" kind="variable"><name>backward</name></member>
+      <member refid="group__GeneralGroup_1ga0e59111b442fc3dcfc4cfc089a0972ec" kind="variable"><name>penalty</name></member>
+      <member refid="group__GeneralGroup_1ga86bbb1910bc530c8f88287ede3605c5f" kind="variable"><name>metric</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>information about just reached vertex (with final metric value) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="52" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="53" bodyend="65"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga4c276cfcbefefc36c49ded5ed151d1f4" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT::ReachedVert</scope><name>backward</name></member>
+      <member refid="group__GeneralGroup_1ga86bbb1910bc530c8f88287ede3605c5f" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT::ReachedVert</scope><name>metric</name></member>
+      <member refid="group__GeneralGroup_1ga0e59111b442fc3dcfc4cfc089a0972ec" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT::ReachedVert</scope><name>penalty</name></member>
+      <member refid="group__GeneralGroup_1gad5e8720a5c82f4ea7340efebb072d1cd" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT::ReachedVert</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

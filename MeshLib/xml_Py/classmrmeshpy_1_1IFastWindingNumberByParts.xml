@@ -1,0 +1,148 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1IFastWindingNumberByParts" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::IFastWindingNumberByParts</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumberByParts_1aa3a867bfef83468c92d43b36fa46d22b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IFastWindingNumberByParts" kindref="compound">IFastWindingNumberByParts</ref></type>
+        <definition> IFastWindingNumberByParts mrmeshpy.IFastWindingNumberByParts.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.IFastWindingNumberByParts.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23582" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23582" bodyend="23583"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumberByParts_1a06c36db0cc9c770091c7467806bc9859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IFastWindingNumberByParts.calcFromGridByParts</definition>
+        <argsstring>(self, func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int resFunc, Vector3i dims, AffineXf3f gridToMeshXf, float beta, int layerOverlap, func_bool_from_float cb)</argsstring>
+        <name>calcFromGridByParts</name>
+        <qualifiedname>mrmeshpy.IFastWindingNumberByParts.calcFromGridByParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int" kindref="compound">func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</ref></type>
+          <declname>resFunc</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>&lt;summary&gt;
+calculates winding numbers in each point from a three-dimensional grid
+&lt;/summary&gt;
+&lt;param name=&quot;resFunc&quot;&gt;callback that gets a block of resulting winding numbers&lt;/param&gt;
+&lt;param name=&quot;dims&quot;&gt;dimensions of the grid&lt;/param&gt;
+&lt;param name=&quot;gridToMeshXf&quot;&gt;transform from integer grid locations to voxel&apos;s centers in mesh reference frame&lt;/param&gt;
+&lt;param name=&quot;beta&quot;&gt;determines the precision of the approximation: the more the better, recommended value 2 or more&lt;/param&gt;
+&lt;param name=&quot;layerOverlap&quot;&gt;overlap between two blocks of the grid, set as XY layer count&lt;/param&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23584" bodyend="23594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1IFastWindingNumberByParts_1a32085adb36386105b107f1cb9b693645" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.IFastWindingNumberByParts.calcFromGridWithDistancesByParts</definition>
+        <argsstring>(self, func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int resFunc, Vector3i dims, AffineXf3f gridToMeshXf, DistanceToMeshOptions options, int layerOverlap, func_bool_from_float cb)</argsstring>
+        <name>calcFromGridWithDistancesByParts</name>
+        <qualifiedname>mrmeshpy.IFastWindingNumberByParts.calcFromGridWithDistancesByParts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__tl__expected__void__std__string__from__std__vector__float__Vector3__int__int" kindref="compound">func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int</ref></type>
+          <declname>resFunc</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>gridToMeshXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+          <declname>options</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>&lt;summary&gt;
+calculates distances with the sign obtained from generalized winding number in each point from a three-dimensional grid;
+if sqr(res) &lt; minDistSq or sqr(res) &gt;= maxDistSq, then NaN is returned for such point
+&lt;/summary&gt;
+&lt;param name=&quot;resFunc&quot;&gt;callback that gets a block of resulting winding numbers&lt;/param&gt;
+&lt;param name=&quot;dims&quot;&gt;dimensions of the grid&lt;/param&gt;
+&lt;param name=&quot;gridToMeshXf&quot;&gt;transform from integer grid locations to voxel&apos;s centers in mesh reference frame&lt;/param&gt;
+&lt;param name=&quot;layerOverlap&quot;&gt;overlap between two blocks of the grid, set as XY layer count&lt;/param&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23595" bodyend="23605"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::IFastWindingNumberByParts
+
+Abstract class that complements \\ref IFastWindingNumber with chunked processing variants of its methods
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23575" bodyend="23605"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a06c36db0cc9c770091c7467806bc9859" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridByParts</name></member>
+      <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1a32085adb36386105b107f1cb9b693645" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>calcFromGridWithDistancesByParts</name></member>
+      <member refid="classmrmeshpy_1_1IFastWindingNumberByParts_1aa3a867bfef83468c92d43b36fa46d22b" prot="public" virt="non-virtual"><scope>mrmeshpy::IFastWindingNumberByParts</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

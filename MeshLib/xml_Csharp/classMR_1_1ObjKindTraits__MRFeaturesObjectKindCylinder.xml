@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder" kind="class" language="C#" prot="public">
+    <compoundname>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1ab3e15d1988cb4994d8372f3fe8f1a549" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCylinder.ObjKindTraits_MRFeaturesObjectKindCylinder</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ObjKindTraits_MRFeaturesObjectKindCylinder</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCylinder.ObjKindTraits_MRFeaturesObjectKindCylinder</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="802" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="802" bodyend="802"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1af353218fda0131ffdc592cdd04083c4c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCylinder.ObjKindTraits_MRFeaturesObjectKindCylinder</definition>
+        <argsstring>()</argsstring>
+        <name>ObjKindTraits_MRFeaturesObjectKindCylinder</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCylinder.ObjKindTraits_MRFeaturesObjectKindCylinder</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="807" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="807" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1a39edc53c45e537b17e01b966a094a58a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCylinder.ObjKindTraits_MRFeaturesObjectKindCylinder</definition>
+        <argsstring>(MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder _other)</argsstring>
+        <name>ObjKindTraits_MRFeaturesObjectKindCylinder</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCylinder.ObjKindTraits_MRFeaturesObjectKindCylinder</qualifiedname>
+        <param>
+          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjKindTraits&lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2ec2c2961c7ce5a114d969c1f562a563" kindref="member">MR.FeaturesObjectKind.Cylinder</ref>&gt;::ObjKindTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="817" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="817" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1a1660d3d5ca7214287efaa15e4ddbc089" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ObjKindTraits_MRFeaturesObjectKindCylinder.ObjKindTraits_MRFeaturesObjectKindCylinder</definition>
+        <argsstring>(ObjKindTraits_MRFeaturesObjectKindCylinder _other)</argsstring>
+        <name>ObjKindTraits_MRFeaturesObjectKindCylinder</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCylinder.ObjKindTraits_MRFeaturesObjectKindCylinder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder" kindref="compound">ObjKindTraits_MRFeaturesObjectKindCylinder</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ObjKindTraits&lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2ec2c2961c7ce5a114d969c1f562a563" kindref="member">MR.FeaturesObjectKind.Cylinder</ref>&gt;::ObjKindTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="828" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="828" bodyend="828"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1a62c0a9c689bcc51d9a32d12cabd52cb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder" kindref="compound">MR.ObjKindTraits_MRFeaturesObjectKindCylinder</ref></type>
+        <definition>unsafe MR.ObjKindTraits_MRFeaturesObjectKindCylinder MR.ObjKindTraits_MRFeaturesObjectKindCylinder.assign</definition>
+        <argsstring>(MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ObjKindTraits_MRFeaturesObjectKindCylinder.assign</qualifiedname>
+        <param>
+          <type>MR.Const_ObjKindTraits_MRFeaturesObjectKindCylinder</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ObjKindTraits&lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2ec2c2961c7ce5a114d969c1f562a563" kindref="member">MR.FeaturesObjectKind.Cylinder</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="833" column="68" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="833" bodyend="840"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.ObjKindTraits&lt;<ref refid="classMR_1ae320f7cd2796cef03d0db13f6d36c2b7a2ec2c2961c7ce5a114d969c1f562a563" kindref="member">MR.FeaturesObjectKind.Cylinder</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ObjKindTraits_MRFeaturesObjectKindCylinder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjKindTraits_MRFeaturesObjectKindCylinder</label>
+        <link refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ObjKindTraits_MRFeaturesObjectKindCylinder &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ObjKindTraits_MRFeaturesObjectKindCylinder</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjKindTraits_MRFeaturesObjectKindCylinder</label>
+        <link refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ObjKindTraits_MRFeaturesObjectKindCylinder &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" line="800" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRFeatureHelpers.cs" bodystart="801" bodyend="841"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1a62c0a9c689bcc51d9a32d12cabd52cb0" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>assign</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1ab3e15d1988cb4994d8372f3fe8f1a549" prot="package" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1af353218fda0131ffdc592cdd04083c4c" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1a39edc53c45e537b17e01b966a094a58a" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
+      <member refid="classMR_1_1ObjKindTraits__MRFeaturesObjectKindCylinder_1a1660d3d5ca7214287efaa15e4ddbc089" prot="public" virt="non-virtual"><scope>MR::ObjKindTraits_MRFeaturesObjectKindCylinder</scope><name>ObjKindTraits_MRFeaturesObjectKindCylinder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

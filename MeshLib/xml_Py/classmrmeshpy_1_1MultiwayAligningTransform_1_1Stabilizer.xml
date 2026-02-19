@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MultiwayAligningTransform::Stabilizer</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ac638108b2c8392d167d6d1f7443d3286" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiwayAligningTransform.Stabilizer::_offsetof_rot</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_rot</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer._offsetof_rot</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36435" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1af046f6b352edef42352a4d50162bf847" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiwayAligningTransform.Stabilizer::_offsetof_shift</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_shift</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer._offsetof_shift</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36436" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ab82b9271f649bf4c2d478b2bbb0f1c77" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.Stabilizer.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36439" bodyend="36440"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ae781afba008e9a18d3145877cc3f3530" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer" kindref="compound">MultiwayAligningTransform.Stabilizer</ref></type>
+        <definition> MultiwayAligningTransform.Stabilizer mrmeshpy.MultiwayAligningTransform.Stabilizer.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36443" bodyend="36444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ae781afba008e9a18d3145877cc3f3530" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer" kindref="compound">MultiwayAligningTransform.Stabilizer</ref></type>
+        <definition> MultiwayAligningTransform.Stabilizer mrmeshpy.MultiwayAligningTransform.Stabilizer.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36447" bodyend="36448"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1aaa8555da63d86eaee8df06c5dafa7d70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.Stabilizer.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36450" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36450" bodyend="36451"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a0bea86709af19382756c4cde939e5c2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.Stabilizer.__init__</definition>
+        <argsstring>(self, MultiwayAligningTransform.Stabilizer arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer" kindref="compound">MultiwayAligningTransform.Stabilizer</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36453" bodyend="36456"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ae1100da104f92d4aff669ffb87d3326f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.Stabilizer.__init__</definition>
+        <argsstring>(self, float rot, float shift)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rot</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>shift</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36458" bodyend="36461"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a9666dc61940f86b7c3a0b37e307e0fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MultiwayAligningTransform.Stabilizer.rot</definition>
+        <argsstring>(self)</argsstring>
+        <name>rot</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.rot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>length units
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36463" bodyend="36466"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a40bf0d2304300d0bc756d099ed3cdf63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.Stabilizer.rot</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>rot</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.rot</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36468" bodyend="36469"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a04cba48fefc79451ea785240f4c3bf49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MultiwayAligningTransform.Stabilizer.shift</definition>
+        <argsstring>(self)</argsstring>
+        <name>shift</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.shift</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>dimensionless
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36471" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36471" bodyend="36474"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a3b8df7595fea980d8ae363700a2e7d6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiwayAligningTransform.Stabilizer.shift</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>shift</name>
+        <qualifiedname>mrmeshpy.MultiwayAligningTransform.Stabilizer.shift</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36476" bodyend="36478"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MultiwayAligningTransform::Stabilizer
+
+small stabilizer allows one to convert the linear system from under-determined to determined (e.g. too few linearly independent pairs for some object);
+large stabilizer results in suboptimal found transformations (huge stabilizier =&gt; zero transforamtions)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MultiwayAligningTransform.Stabilizer</label>
+        <link refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_rot</edgelabel>
+          <edgelabel>_offsetof_shift</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36428" bodyend="36477"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ab82b9271f649bf4c2d478b2bbb0f1c77" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1aaa8555da63d86eaee8df06c5dafa7d70" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a0bea86709af19382756c4cde939e5c2e" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ae1100da104f92d4aff669ffb87d3326f" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ac638108b2c8392d167d6d1f7443d3286" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>_offsetof_rot</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1af046f6b352edef42352a4d50162bf847" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>_offsetof_shift</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ae781afba008e9a18d3145877cc3f3530" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1ae781afba008e9a18d3145877cc3f3530" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a9666dc61940f86b7c3a0b37e307e0fa7" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>rot</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a40bf0d2304300d0bc756d099ed3cdf63" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>rot</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a04cba48fefc79451ea785240f4c3bf49" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>shift</name></member>
+      <member refid="classmrmeshpy_1_1MultiwayAligningTransform_1_1Stabilizer_1a3b8df7595fea980d8ae363700a2e7d6f" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiwayAligningTransform::Stabilizer</scope><name>shift</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

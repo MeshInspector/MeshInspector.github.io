@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VertexMass" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VertexMass</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertexMass_1a0fb915b8a77a03995ad9798208f81b5e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertexMass::NeiArea</definition>
+        <argsstring></argsstring>
+        <name>NeiArea</name>
+        <qualifiedname>mrmeshpy.VertexMass.NeiArea</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertexMass_1adbc5fb8f5b08837bd2e7640876531753" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertexMass::Unit</definition>
+        <argsstring></argsstring>
+        <name>Unit</name>
+        <qualifiedname>mrmeshpy.VertexMass.Unit</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71429" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertexMass_1aa7d320a551756142a18a9a4c86e66473" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertexMass::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1VertexMass" kindref="compound">VertexMass</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71430" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1acd23ffdc49e1dab20d362333fbfa1fce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertexMass.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71431" bodyend="71432"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1a5545d6987264f9588460b8c94aef0c18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertexMass.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71433" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71433" bodyend="71434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1aee96ffafbcc7784ea6822b5195bf22cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertexMass.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71435" bodyend="71436"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1aa9f60bbfbdf4b2e4270c747d5a5529a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertexMass.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71437" bodyend="71438"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1a8ff325131aef2666ce4e00890d4de0ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertexMass.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71439" bodyend="71440"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1a1d1d09b85ff397b7316216d64fd96c40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertexMass.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71441" bodyend="71442"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1ae130d903119d3306ead5eca218eeaff8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VertexMass.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71443" bodyend="71444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1ac7219f05f84cd0c76205bc71a37492ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VertexMass.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71445" bodyend="71446"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1af62c26044f87b4477568219b0ea973dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertexMass.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71447" bodyend="71448"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1aa83f684228e15f6d093227e0875f9a8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VertexMass.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.VertexMass.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71449" bodyend="71450"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1a6b81ac26593a0b9539a47a383781e5d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VertexMass.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.VertexMass.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71452" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71452" bodyend="71453"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertexMass_1a567070d60cdb74647a1f7c95e3cff9e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VertexMass.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.VertexMass.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71455" bodyend="71456"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Unit : all vertices have same mass=1
+
+  NeiArea : vertex mass depends on local geometry and proportional to the area of first-ring triangles
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VertexMass</label>
+        <link refid="classmrmeshpy_1_1VertexMass"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>NeiArea</edgelabel>
+          <edgelabel>Unit</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71420" bodyend="71456"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VertexMass_1acd23ffdc49e1dab20d362333fbfa1fce" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1a5545d6987264f9588460b8c94aef0c18" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1aee96ffafbcc7784ea6822b5195bf22cc" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1aa9f60bbfbdf4b2e4270c747d5a5529a4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1a8ff325131aef2666ce4e00890d4de0ee" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1a1d1d09b85ff397b7316216d64fd96c40" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1aa7d320a551756142a18a9a4c86e66473" prot="private" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1ae130d903119d3306ead5eca218eeaff8" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1ac7219f05f84cd0c76205bc71a37492ee" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1af62c26044f87b4477568219b0ea973dd" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1aa83f684228e15f6d093227e0875f9a8e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1a6b81ac26593a0b9539a47a383781e5d0" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1a0fb915b8a77a03995ad9798208f81b5e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>NeiArea</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1adbc5fb8f5b08837bd2e7640876531753" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>Unit</name></member>
+      <member refid="classmrmeshpy_1_1VertexMass_1a567070d60cdb74647a1f7c95e3cff9e4" prot="public" virt="non-virtual"><scope>mrmeshpy::VertexMass</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

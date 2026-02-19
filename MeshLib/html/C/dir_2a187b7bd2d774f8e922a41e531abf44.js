@@ -10,6 +10,7 @@ var dir_2a187b7bd2d774f8e922a41e531abf44 =
     [ "MRPdf.h", "MRPdf_8h.html", "MRPdf_8h" ],
     [ "MRPng.h", "MRPng_8h.html", "MRPng_8h" ],
     [ "MRStep.h", "MRStep_8h.html", "MRStep_8h" ],
+    [ "MRSvg.h", "MRSvg_8h.html", "MRSvg_8h" ],
     [ "MRTiff.h", "MRTiff_8h.html", "MRTiff_8h" ],
     [ "MRZlib.h", "MRZlib_8h.html", "MRZlib_8h" ]
 ];

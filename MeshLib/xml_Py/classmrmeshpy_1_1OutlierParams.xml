@@ -1,0 +1,429 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OutlierParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OutlierParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierParams_1ada9dba5f224107f4781fce53ddd37c68" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierParams::_offsetof_maxClusterSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxClusterSize</name>
+        <qualifiedname>mrmeshpy.OutlierParams._offsetof_maxClusterSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41943" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierParams_1aea33b3784ad0ff9d8d04d94175b141e6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierParams::_offsetof_maxNeighbors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxNeighbors</name>
+        <qualifiedname>mrmeshpy.OutlierParams._offsetof_maxNeighbors</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41944" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierParams_1a246659e26ec317c135af30ea922773c6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierParams::_offsetof_minAngle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minAngle</name>
+        <qualifiedname>mrmeshpy.OutlierParams._offsetof_minAngle</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41945" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OutlierParams_1a0e8e0e1750de1f8d969528e839215503" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OutlierParams::_offsetof_minHeight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minHeight</name>
+        <qualifiedname>mrmeshpy.OutlierParams._offsetof_minHeight</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41946" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1a8cb1641cec517d64cf407a4318d1bffc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutlierParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41949" bodyend="41950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1a0e0b728e701dd927891e399a49e00761" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierParams" kindref="compound">OutlierParams</ref></type>
+        <definition> OutlierParams mrmeshpy.OutlierParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OutlierParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41953" bodyend="41954"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1a0e0b728e701dd927891e399a49e00761" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OutlierParams" kindref="compound">OutlierParams</ref></type>
+        <definition> OutlierParams mrmeshpy.OutlierParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OutlierParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41957" bodyend="41958"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1a1592c8cdeb5f15a067028fa1f2ca2fbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutlierParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41960" bodyend="41961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1aefaa2698f7bbdf1a41467e907e0ac94f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierParams.__init__</definition>
+        <argsstring>(self, OutlierParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutlierParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutlierParams" kindref="compound">OutlierParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41963" bodyend="41966"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1ab9b97c4eac34ad91f94be25b86f52afe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierParams.__init__</definition>
+        <argsstring>(self, int maxClusterSize, int maxNeighbors, float minHeight, float minAngle)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OutlierParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxClusterSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxNeighbors</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minHeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAngle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41968" bodyend="41971"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1a72ab913166f23ce4f1ef2b70e9f413f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutlierParams.maxClusterSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxClusterSize</name>
+        <qualifiedname>mrmeshpy.OutlierParams.maxClusterSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximum points in the outlier component
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41973" bodyend="41976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1abbdd1c25fd6b8c3e15572768c7f8b146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierParams.maxClusterSize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxClusterSize</name>
+        <qualifiedname>mrmeshpy.OutlierParams.maxClusterSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41978" bodyend="41979"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1ae926bf6577dd6242f81134c2f1d9321a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OutlierParams.maxNeighbors</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxNeighbors</name>
+        <qualifiedname>mrmeshpy.OutlierParams.maxNeighbors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximum number of adjacent points for an outlier point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41981" bodyend="41984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1a21151f8f7874f1bf6da797d0813115db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierParams.maxNeighbors</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxNeighbors</name>
+        <qualifiedname>mrmeshpy.OutlierParams.maxNeighbors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41986" bodyend="41987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1aaf11bb7a0d13872283b039e3b03d384e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.OutlierParams.minAngle</definition>
+        <argsstring>(self)</argsstring>
+        <name>minAngle</name>
+        <qualifiedname>mrmeshpy.OutlierParams.minAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Minimum angle of difference of normal at outlier points
+@note available only if there are normals
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41989" bodyend="41993"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1ad01a6f9ea9de17dceb634f84a3362c56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierParams.minAngle</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minAngle</name>
+        <qualifiedname>mrmeshpy.OutlierParams.minAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41995" bodyend="41996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1a21ec11ae12bda81f6e871231237c3c2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.OutlierParams.minHeight</definition>
+        <argsstring>(self)</argsstring>
+        <name>minHeight</name>
+        <qualifiedname>mrmeshpy.OutlierParams.minHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Minimum distance (as proportion of search radius) to the approximate surface from outliers point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41998" bodyend="42001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OutlierParams_1a238f0ae17ddde4dc27f1b0e34eaad786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OutlierParams.minHeight</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minHeight</name>
+        <qualifiedname>mrmeshpy.OutlierParams.minHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42003" bodyend="42004"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OutlierParams
+
+Parameters of various criteria for detecting outlier points
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OutlierParams</label>
+        <link refid="classmrmeshpy_1_1OutlierParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_maxClusterSize</edgelabel>
+          <edgelabel>_offsetof_maxNeighbors</edgelabel>
+          <edgelabel>_offsetof_minAngle</edgelabel>
+          <edgelabel>_offsetof_minHeight</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41937" bodyend="42004"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a8cb1641cec517d64cf407a4318d1bffc" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a1592c8cdeb5f15a067028fa1f2ca2fbc" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1aefaa2698f7bbdf1a41467e907e0ac94f" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1ab9b97c4eac34ad91f94be25b86f52afe" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1ada9dba5f224107f4781fce53ddd37c68" prot="protected" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>_offsetof_maxClusterSize</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1aea33b3784ad0ff9d8d04d94175b141e6" prot="protected" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>_offsetof_maxNeighbors</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a246659e26ec317c135af30ea922773c6" prot="protected" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>_offsetof_minAngle</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a0e8e0e1750de1f8d969528e839215503" prot="protected" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>_offsetof_minHeight</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a72ab913166f23ce4f1ef2b70e9f413f9" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>maxClusterSize</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1abbdd1c25fd6b8c3e15572768c7f8b146" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>maxClusterSize</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1ae926bf6577dd6242f81134c2f1d9321a" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>maxNeighbors</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a21151f8f7874f1bf6da797d0813115db" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>maxNeighbors</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1aaf11bb7a0d13872283b039e3b03d384e" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>minAngle</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1ad01a6f9ea9de17dceb634f84a3362c56" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>minAngle</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a21ec11ae12bda81f6e871231237c3c2d" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>minHeight</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a238f0ae17ddde4dc27f1b0e34eaad786" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>minHeight</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a0e0b728e701dd927891e399a49e00761" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OutlierParams_1a0e0b728e701dd927891e399a49e00761" prot="public" virt="non-virtual"><scope>mrmeshpy::OutlierParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

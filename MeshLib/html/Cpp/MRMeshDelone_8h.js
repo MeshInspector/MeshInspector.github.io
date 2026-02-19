@@ -1,6 +1,11 @@
 var MRMeshDelone_8h =
 [
-    [ "MR::DeloneSettings", "../Csharp/classMR_1_1DeloneSettings.html", "classMR_1_1DeloneSettings" ],
+    [ "MR::DeloneSettings", "structMR_1_1DeloneSettings.html", "structMR_1_1DeloneSettings" ],
+    [ "FlipEdge", "MRMeshDelone_8h.html#gaa3ebc28a0c17a0a5fc0c9b90a97bfc95", [
+      [ "Can", "MRMeshDelone_8h.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ad677b410373bc790d9a8ec2e68090839", null ],
+      [ "Cannot", "MRMeshDelone_8h.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95a540db3cc7e3c40ec046c3a290f1523ba", null ],
+      [ "Must", "MRMeshDelone_8h.html#ggaa3ebc28a0c17a0a5fc0c9b90a97bfc95ab2b39f251bc6784f2d44d4dd72a663be", null ]
+    ] ],
     [ "bestQuadrangleDiagonal", "MRMeshDelone_8h.html#ga752afc6c65fff0dbc954d78ec58e4f2f", null ],
     [ "canFlipEdge", "MRMeshDelone_8h.html#ga17ac0bdda11a0bdfc51faab5936fa9b3", null ],
     [ "checkDeloneQuadrangle", "MRMeshDelone_8h.html#ga4d58a8dd7b19c7d5a403b4329ce793c7", null ],

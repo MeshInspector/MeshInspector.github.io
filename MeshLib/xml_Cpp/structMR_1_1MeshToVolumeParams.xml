@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshToVolumeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshToVolumeParams</compoundname>
+    <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga47dacbc5ca80bd9591ffea69c43b022e" kind="enum"><name>Type</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" kind="variable"><name>Unsigned</name></member>
+      <member refid="group__GeneralGroup_1ga9453e71b6c68cba5c643d8c233b4e12e" kind="variable"><name>surfaceOffset</name></member>
+      <member refid="group__GeneralGroup_1ga51905e2ab88ac1c4d53c11ed65896ce9" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga160d9c2171039308aa5a181a76575967" kind="variable"><name>worldXf</name></member>
+      <member refid="group__GeneralGroup_1ga216b138081139f4900c546a416a39e0c" kind="variable"><name>outXf</name></member>
+      <member refid="group__GeneralGroup_1gad2911735fdf5e6da1f6bfb93f285f6a8" kind="variable"><name>cb</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for meshToVolume function. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="36" bodyend="48"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad2911735fdf5e6da1f6bfb93f285f6a8" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga216b138081139f4900c546a416a39e0c" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>outXf</name></member>
+      <member refid="group__GeneralGroup_1ga9453e71b6c68cba5c643d8c233b4e12e" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>surfaceOffset</name></member>
+      <member refid="group__GeneralGroup_1ga47dacbc5ca80bd9591ffea69c43b022e" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga7eb94a27012d5cf106c21b228b6c8c2a" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>Unsigned</name></member>
+      <member refid="group__GeneralGroup_1ga51905e2ab88ac1c4d53c11ed65896ce9" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga160d9c2171039308aa5a181a76575967" prot="public" virt="non-virtual"><scope>MR::MeshToVolumeParams</scope><name>worldXf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

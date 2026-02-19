@@ -1,0 +1,755 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Pdf" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Pdf</compoundname>
+    <innerclass refid="classmrmeshpy_1_1Pdf_1_1AlignmentHorizontal" prot="public">mrmeshpy::Pdf::AlignmentHorizontal</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Pdf_1_1Cell" prot="public">mrmeshpy::Pdf::Cell</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Pdf_1_1CellCustomParams" prot="public">mrmeshpy::Pdf::CellCustomParams</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Pdf_1_1ImageParams" prot="public">mrmeshpy::Pdf::ImageParams</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Pdf_1_1PaletteRowStats" prot="public">mrmeshpy::Pdf::PaletteRowStats</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Pdf_1_1TextCellParams" prot="public">mrmeshpy::Pdf::TextCellParams</innerclass>
+    <innerclass refid="classmrmeshpy_1_1Pdf_1_1TextParams" prot="public">mrmeshpy::Pdf::TextParams</innerclass>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a40a6eea69478be94bcdf0f8e35f09172" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Pdf.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.Pdf.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Checking the ability to work with a document
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43007" bodyend="43010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a9d71ed873d4849d4890d6ee5f6777674" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.__init__</definition>
+        <argsstring>(self, PdfParameters params=&apos;MR::PdfParameters()&apos;)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Pdf.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PdfParameters" kindref="compound">PdfParameters</ref></type>
+          <declname>params</declname>
+          <defval>&apos;MR::PdfParameters()&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Ctor. Create a document, but not a page. To create a new page use newPage() method
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43011" bodyend="43014"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1ad3a53512d47466724d34d6a124805d61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Pdf.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Pdf.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43015" bodyend="43016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a442264ed224a5fe9ad818b623a84d757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.addImage</definition>
+        <argsstring>(self, Image image, Pdf.ImageParams params)</argsstring>
+        <name>addImage</name>
+        <qualifiedname>mrmeshpy.Pdf.addImage</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1ImageParams" kindref="compound">Pdf.ImageParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43017" bodyend="43018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a878ae81b78f655d6150c3080945fc5ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.addImageFromFile</definition>
+        <argsstring>(self, os.PathLike|str|bytes imagePath, Pdf.ImageParams params)</argsstring>
+        <name>addImageFromFile</name>
+        <qualifiedname>mrmeshpy.Pdf.addImageFromFile</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>imagePath</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1ImageParams" kindref="compound">Pdf.ImageParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> @brief Add image from file in current cursor position.
+ If image bigger than page size, autoscale image to page size.
+ Move cursor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43019" bodyend="43024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1af06934f050b86f2171a900f35534092a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.addPaletteStatsTable</definition>
+        <argsstring>(self, std_vector_Pdf_PaletteRowStats paletteStats)</argsstring>
+        <name>addPaletteStatsTable</name>
+        <qualifiedname>mrmeshpy.Pdf.addPaletteStatsTable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Pdf__PaletteRowStats" kindref="compound">std_vector_Pdf_PaletteRowStats</ref></type>
+          <declname>paletteStats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43025" bodyend="43026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a83277819becefd776265a99eeb6f3305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.addRow</definition>
+        <argsstring>(self, std_vector_Pdf_Cell cells)</argsstring>
+        <name>addRow</name>
+        <qualifiedname>mrmeshpy.Pdf.addRow</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Pdf__Cell" kindref="compound">std_vector_Pdf_Cell</ref></type>
+          <declname>cells</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>add in pdf table row with values
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43027" bodyend="43030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1ae991a90a1adc58ad36df8c9d51d6d469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.addTable</definition>
+        <argsstring>(self, std_vector_std_pair_std_string_float table)</argsstring>
+        <name>addTable</name>
+        <qualifiedname>mrmeshpy.Pdf.addTable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__pair__std__string__float" kindref="compound">std_vector_std_pair_std_string_float</ref></type>
+          <declname>table</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Add set of pair string - value in current cursor position.
+ Move cursor.
+ Box horizontal size is page width without offset.
+ Box vertical size is automatically for text.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43031" bodyend="43037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1aefa32a7d51604f5033595dc7666e96c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.addTableTitles</definition>
+        <argsstring>(self, std_vector_std_string titles)</argsstring>
+        <name>addTableTitles</name>
+        <qualifiedname>mrmeshpy.Pdf.addTableTitles</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+          <declname>titles</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>add in pdf table row with titles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43038" bodyend="43041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a305ba9004bc385fc5d8e5c9cd8761773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.addText</definition>
+        <argsstring>(self, str text, bool isTitle=False)</argsstring>
+        <name>addText</name>
+        <qualifiedname>mrmeshpy.Pdf.addText</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isTitle</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Add text block in current cursor position.
+ Move cursor.
+ Box horizontal size is page width without offset.
+ Box vertical size is automatically for text.
+ horAlignment = left
+ if isTitle - horAlignment = center, use titleFontSize
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43043" bodyend="43051"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a89a0a7876979f5436aeec5752e3850f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.addText</definition>
+        <argsstring>(self, str text, Pdf.TextParams params)</argsstring>
+        <name>addText</name>
+        <qualifiedname>mrmeshpy.Pdf.addText</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1TextParams" kindref="compound">Pdf.TextParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43053" bodyend="43054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1ade8afd6693e798c992540eb11b7a2d17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.drawRect</definition>
+        <argsstring>(self, Box2f rect, Color fillColor, Color strokeColor)</argsstring>
+        <name>drawRect</name>
+        <qualifiedname>mrmeshpy.Pdf.drawRect</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box2f" kindref="compound">Box2f</ref></type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>fillColor</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>strokeColor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>draw rect (filled with border)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43055" bodyend="43058"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1ab5f1e989d4f74b189005d1c9f7f32a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.drawTextCell</definition>
+        <argsstring>(self, str text, Pdf.TextCellParams params)</argsstring>
+        <name>drawTextCell</name>
+        <qualifiedname>mrmeshpy.Pdf.drawTextCell</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1TextCellParams" kindref="compound">Pdf.TextCellParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43059" bodyend="43060"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a17ae498c696d5de6c007b2daf8446ee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.drawTextInRect</definition>
+        <argsstring>(self, str text, Box2f rect, Pdf.TextParams params)</argsstring>
+        <name>drawTextInRect</name>
+        <qualifiedname>mrmeshpy.Pdf.drawTextInRect</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Box2f" kindref="compound">Box2f</ref></type>
+          <declname>rect</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1TextParams" kindref="compound">Pdf.TextParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>draw text in specific rect on page
+text will be cropped by rect
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43061" bodyend="43065"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a51465290b9fc58b363ca969c939ca83a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Pdf.getCursorPosX</definition>
+        <argsstring>(self)</argsstring>
+        <name>getCursorPosX</name>
+        <qualifiedname>mrmeshpy.Pdf.getCursorPosX</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43066" bodyend="43067"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1af7fa552ce73f3de10f238365873fd942" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Pdf.getCursorPosY</definition>
+        <argsstring>(self)</argsstring>
+        <name>getCursorPosY</name>
+        <qualifiedname>mrmeshpy.Pdf.getCursorPosY</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43068" bodyend="43069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a3b999a1026f0e80c32bbcf4ff128093b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.Pdf.getPageSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>getPageSize</name>
+        <qualifiedname>mrmeshpy.Pdf.getPageSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43070" bodyend="43071"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1ae719a32aab205480e494f2db0e3df787" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box2f" kindref="compound">Box2f</ref></type>
+        <definition> Box2f mrmeshpy.Pdf.getPageWorkArea</definition>
+        <argsstring>(self)</argsstring>
+        <name>getPageWorkArea</name>
+        <qualifiedname>mrmeshpy.Pdf.getPageWorkArea</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43072" bodyend="43073"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a32193b69a57d65e2b49c6dca29031215" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Pdf.getTableTextWidth</definition>
+        <argsstring>(self, str text)</argsstring>
+        <name>getTableTextWidth</name>
+        <qualifiedname>mrmeshpy.Pdf.getTableTextWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>parameters to customization table cell
+return text width (for table font parameters)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43074" bodyend="43078"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1ad9c66480b7e5ae029ec1599b3d595b20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Pdf.getTextWidth</definition>
+        <argsstring>(self, str text, Pdf.TextParams params)</argsstring>
+        <name>getTextWidth</name>
+        <qualifiedname>mrmeshpy.Pdf.getTextWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Pdf_1_1TextParams" kindref="compound">Pdf.TextParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return text width
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43079" bodyend="43082"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1ad43822f498e4e7227ab64215a09bcb1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.newPage</definition>
+        <argsstring>(self)</argsstring>
+        <name>newPage</name>
+        <qualifiedname>mrmeshpy.Pdf.newPage</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add new pageand move cursor on it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43083" bodyend="43086"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a2593c706281ffff41d51b845d46309f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.newTable</definition>
+        <argsstring>(self, int columnCount)</argsstring>
+        <name>newTable</name>
+        <qualifiedname>mrmeshpy.Pdf.newTable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>columnCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set up new table (clear table customization, reset parameters to default values)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43087" bodyend="43090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1aefa553251b3108a9f252c82fe7e5421c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.saveToFile</definition>
+        <argsstring>(self, os.PathLike|str|bytes documentPath)</argsstring>
+        <name>saveToFile</name>
+        <qualifiedname>mrmeshpy.Pdf.saveToFile</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>documentPath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Save document to file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43091" bodyend="43094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1afc026fdbf0e82b49ad18e189378e2777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.setColumnValuesFormat</definition>
+        <argsstring>(self, std_vector_std_string formats)</argsstring>
+        <name>setColumnValuesFormat</name>
+        <qualifiedname>mrmeshpy.Pdf.setColumnValuesFormat</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+          <declname>formats</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set format for conversion values to string for each column
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43095" bodyend="43098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a686eeef34847933b5a1b10ff61bea26e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.setCursorPosX</definition>
+        <argsstring>(self, float posX)</argsstring>
+        <name>setCursorPosX</name>
+        <qualifiedname>mrmeshpy.Pdf.setCursorPosX</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posX</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43099" bodyend="43100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1acd02be45110227755d4aadb62b54792b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.setCursorPosY</definition>
+        <argsstring>(self, float posY)</argsstring>
+        <name>setCursorPosY</name>
+        <qualifiedname>mrmeshpy.Pdf.setCursorPosY</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>posY</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43101" bodyend="43102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1aac1426ad439b29e5fdbb6799c4cd05ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.setNewPageAction</definition>
+        <argsstring>(self, func_void_from_Pdf action)</argsstring>
+        <name>setNewPageAction</name>
+        <qualifiedname>mrmeshpy.Pdf.setNewPageAction</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Pdf" kindref="compound">func_void_from_Pdf</ref></type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set function to customize new page after creation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43103" bodyend="43106"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1a24ffc751976a1bcf9d5041e022b7e3f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.setTableColumnWidths</definition>
+        <argsstring>(self, std_vector_float widths)</argsstring>
+        <name>setTableColumnWidths</name>
+        <qualifiedname>mrmeshpy.Pdf.setTableColumnWidths</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>widths</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set table column widths
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43107" bodyend="43110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Pdf_1aaa28e810e52fb78dd6718a5f70e04cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Pdf.setTableCustomRule</definition>
+        <argsstring>(self, func_Pdf_CellCustomParams_from_int_int_std_string rule)</argsstring>
+        <name>setTableCustomRule</name>
+        <qualifiedname>mrmeshpy.Pdf.setTableCustomRule</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Pdf__CellCustomParams__from__int__int__std__string" kindref="compound">func_Pdf_CellCustomParams_from_int_int_std_string</ref></type>
+          <declname>rule</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>add rule to customize table cells
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43111" bodyend="43114"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Pdf
+
+
+ Class for simple creation pdf.</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42603" bodyend="43114"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Pdf_1a40a6eea69478be94bcdf0f8e35f09172" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a9d71ed873d4849d4890d6ee5f6777674" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1ad3a53512d47466724d34d6a124805d61" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a442264ed224a5fe9ad818b623a84d757" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>addImage</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a878ae81b78f655d6150c3080945fc5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>addImageFromFile</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1af06934f050b86f2171a900f35534092a" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>addPaletteStatsTable</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a83277819becefd776265a99eeb6f3305" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>addRow</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1ae991a90a1adc58ad36df8c9d51d6d469" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>addTable</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1aefa32a7d51604f5033595dc7666e96c7" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>addTableTitles</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a305ba9004bc385fc5d8e5c9cd8761773" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>addText</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a89a0a7876979f5436aeec5752e3850f8" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>addText</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1ade8afd6693e798c992540eb11b7a2d17" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>drawRect</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1ab5f1e989d4f74b189005d1c9f7f32a0e" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>drawTextCell</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a17ae498c696d5de6c007b2daf8446ee9" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>drawTextInRect</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a51465290b9fc58b363ca969c939ca83a" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>getCursorPosX</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1af7fa552ce73f3de10f238365873fd942" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>getCursorPosY</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a3b999a1026f0e80c32bbcf4ff128093b" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>getPageSize</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1ae719a32aab205480e494f2db0e3df787" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>getPageWorkArea</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a32193b69a57d65e2b49c6dca29031215" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>getTableTextWidth</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1ad9c66480b7e5ae029ec1599b3d595b20" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>getTextWidth</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1ad43822f498e4e7227ab64215a09bcb1f" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>newPage</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a2593c706281ffff41d51b845d46309f1" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>newTable</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1aefa553251b3108a9f252c82fe7e5421c" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>saveToFile</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1afc026fdbf0e82b49ad18e189378e2777" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>setColumnValuesFormat</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a686eeef34847933b5a1b10ff61bea26e" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>setCursorPosX</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1acd02be45110227755d4aadb62b54792b" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>setCursorPosY</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1aac1426ad439b29e5fdbb6799c4cd05ba" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>setNewPageAction</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1a24ffc751976a1bcf9d5041e022b7e3f9" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>setTableColumnWidths</name></member>
+      <member refid="classmrmeshpy_1_1Pdf_1aaa28e810e52fb78dd6718a5f70e04cd0" prot="public" virt="non-virtual"><scope>mrmeshpy::Pdf</scope><name>setTableCustomRule</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

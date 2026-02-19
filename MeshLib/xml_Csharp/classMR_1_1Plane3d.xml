@@ -1,0 +1,236 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Plane3d" kind="class" language="C#" prot="public">
+    <compoundname>MR::Plane3d</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Plane3d</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Plane3d_1a487aa7d548bac74acbaf86d3ddda5213" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new unsafe ref MR.Vector3d MR.Plane3d.n</definition>
+        <argsstring></argsstring>
+        <name>n</name>
+        <qualifiedname>MR.Plane3d.n</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="515" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="515" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Plane3d_1aa5e7a093ccf15301812011bf38b9b88a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref double</type>
+        <definition>new unsafe ref double MR.Plane3d.d</definition>
+        <argsstring></argsstring>
+        <name>d</name>
+        <qualifiedname>MR.Plane3d.d</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="517" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="517" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Plane3d_1aca12ab74016b2eae689a69ba80386386" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Plane3d.Plane3d</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Plane3d</name>
+        <qualifiedname>MR.Plane3d.Plane3d</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="521" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="521" bodyend="525"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Plane3d_1a9dc8210ce9d68fd29f1b42a2bf907cb3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Plane3d.Plane3d</definition>
+        <argsstring>()</argsstring>
+        <name>Plane3d</name>
+        <qualifiedname>MR.Plane3d.Plane3d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="531" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="531" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Plane3d_1a3b05d2bb03d8d5be7db2c4b0102028bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Plane3d.Plane3d</definition>
+        <argsstring>(MR.Const_Plane3d _other)</argsstring>
+        <name>Plane3d</name>
+        <qualifiedname>MR.Plane3d.Plane3d</qualifiedname>
+        <param>
+          <type>MR.Const_Plane3d</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Plane3d.Plane3d</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="542" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="542" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Plane3d_1a3603a69c85815d28336a47d1481a1915" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Plane3d.Plane3d</definition>
+        <argsstring>(Plane3d _other)</argsstring>
+        <name>Plane3d</name>
+        <qualifiedname>MR.Plane3d.Plane3d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Plane3d" kindref="compound">Plane3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Plane3d.Plane3d</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="554" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="554" bodyend="554"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Plane3d_1a8ac30f7241743c2acf4a9826566be6cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Plane3d.Plane3d</definition>
+        <argsstring>(in MR.Vector3d n, double d)</argsstring>
+        <name>Plane3d</name>
+        <qualifiedname>MR.Plane3d.Plane3d</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Plane3d.Plane3d</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="559" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="559" bodyend="568"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Plane3d_1a34805d001881389e66a27fc2f829e6f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Plane3d.Plane3d</definition>
+        <argsstring>(MR.Const_Plane3f p)</argsstring>
+        <name>Plane3d</name>
+        <qualifiedname>MR.Plane3d.Plane3d</qualifiedname>
+        <param>
+          <type>MR.Const_Plane3f</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Plane3d.Plane3d</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="575" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="575" bodyend="582"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Plane3d_1a3d83507c435e86a7a841949b31bae136" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Plane3d" kindref="compound">MR.Plane3d</ref></type>
+        <definition>unsafe MR.Plane3d MR.Plane3d.assign</definition>
+        <argsstring>(MR.Const_Plane3d _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Plane3d.assign</qualifiedname>
+        <param>
+          <type>MR.Const_Plane3d</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Plane3d.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="587" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="587" bodyend="594"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>3-dimensional plane: dot(n,x) - d = 0 Generated from class <computeroutput><ref refid="classMR_1_1Plane3d" kindref="compound">MR.Plane3d</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Plane3d</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Plane3d</label>
+        <link refid="classMR_1_1Plane3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Plane3d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Plane3d</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Plane3d</label>
+        <link refid="classMR_1_1Plane3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Plane3d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" line="513" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPlane3.cs" bodystart="514" bodyend="595"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Plane3d_1a3d83507c435e86a7a841949b31bae136" prot="public" virt="non-virtual"><scope>MR::Plane3d</scope><name>assign</name></member>
+      <member refid="classMR_1_1Plane3d_1aa5e7a093ccf15301812011bf38b9b88a" prot="public" virt="non-virtual"><scope>MR::Plane3d</scope><name>d</name></member>
+      <member refid="classMR_1_1Plane3d_1a487aa7d548bac74acbaf86d3ddda5213" prot="public" virt="non-virtual"><scope>MR::Plane3d</scope><name>n</name></member>
+      <member refid="classMR_1_1Plane3d_1aca12ab74016b2eae689a69ba80386386" prot="package" virt="non-virtual"><scope>MR::Plane3d</scope><name>Plane3d</name></member>
+      <member refid="classMR_1_1Plane3d_1a9dc8210ce9d68fd29f1b42a2bf907cb3" prot="public" virt="non-virtual"><scope>MR::Plane3d</scope><name>Plane3d</name></member>
+      <member refid="classMR_1_1Plane3d_1a3b05d2bb03d8d5be7db2c4b0102028bd" prot="public" virt="non-virtual"><scope>MR::Plane3d</scope><name>Plane3d</name></member>
+      <member refid="classMR_1_1Plane3d_1a3603a69c85815d28336a47d1481a1915" prot="public" virt="non-virtual"><scope>MR::Plane3d</scope><name>Plane3d</name></member>
+      <member refid="classMR_1_1Plane3d_1a8ac30f7241743c2acf4a9826566be6cd" prot="public" virt="non-virtual"><scope>MR::Plane3d</scope><name>Plane3d</name></member>
+      <member refid="classMR_1_1Plane3d_1a34805d001881389e66a27fc2f829e6f5" prot="public" virt="non-virtual"><scope>MR::Plane3d</scope><name>Plane3d</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

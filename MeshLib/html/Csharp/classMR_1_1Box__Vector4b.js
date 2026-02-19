@@ -10,6 +10,9 @@ var classMR_1_1Box__Vector4b =
     [ "divAssign", "classMR_1_1Box__Vector4b.html#a95f8a0f3f1b618e693a008056312b6ad", null ],
     [ "mulAssign", "classMR_1_1Box__Vector4b.html#a575f3ba25e161a5200a4ee4c4acd9458", null ],
     [ "subAssign", "classMR_1_1Box__Vector4b.html#a97c3cd5f00ccc2723a182df27c6cade7", null ],
-    [ "_Ref", "classMR_1_1Box__Vector4b.html#a160f5f09ed5238811670dd7c002b950e", null ],
-    [ "this[int e]", "classMR_1_1Box__Vector4b.html#a057b8adb2c081c50fcad9468a3245597", null ]
+    [ "this[int e]", "classMR_1_1Box__Vector4b.html#a057b8adb2c081c50fcad9468a3245597", null ],
+    [ "w", "classMR_1_1Box__Vector4b.html#aad94fed5a89231afa6876dfb83615b78", null ],
+    [ "x", "classMR_1_1Box__Vector4b.html#af91414a89abc162c7282a8a33b33d0c3", null ],
+    [ "y", "classMR_1_1Box__Vector4b.html#af42d773d218ff39b7eebdcb234694ef8", null ],
+    [ "z", "classMR_1_1Box__Vector4b.html#af391750dee8bfc066170ebd9f16ea317", null ]
 ];

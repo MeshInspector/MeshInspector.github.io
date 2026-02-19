@@ -7,6 +7,8 @@ var structMR_1_1Matrix3i64 =
     [ "col", "structMR_1_1Matrix3i64.html#a6a9d984721191790c967a7b7d0312829", null ],
     [ "det", "structMR_1_1Matrix3i64.html#a1455fafc5e275001dd0a70240aa94dd4", null ],
     [ "divAssign", "structMR_1_1Matrix3i64.html#a739601ecdf833027d4fd740e76f9b1ee", null ],
+    [ "Equals", "structMR_1_1Matrix3i64.html#a7ca93be896ccfa1d0d71ba8f5bf3949e", null ],
+    [ "Equals", "structMR_1_1Matrix3i64.html#a071f0b4c106238f3ec436d6fa103033f", null ],
     [ "fromColumns", "structMR_1_1Matrix3i64.html#a55d08f5b4435a9e27e86fd68a744e7db", null ],
     [ "fromRows", "structMR_1_1Matrix3i64.html#a71b3c1df04971f62298c9a21a207f493", null ],
     [ "identity", "structMR_1_1Matrix3i64.html#a51a324a2ebc7daff90d9925839cb5b7b", null ],
@@ -15,6 +17,7 @@ var structMR_1_1Matrix3i64 =
     [ "norm", "structMR_1_1Matrix3i64.html#a2c83d30534db10761caf968de6e2af54", null ],
     [ "normSq", "structMR_1_1Matrix3i64.html#a73915e7760cb7d7e8bd5cb3fe4bbd34f", null ],
     [ "operator Matrix3i64", "structMR_1_1Matrix3i64.html#af1875854361707dbd04fe6f1c717d0d3", null ],
+    [ "operator!=", "structMR_1_1Matrix3i64.html#a1d12919f5de41afecb607803b7ab06dd", null ],
     [ "operator*", "structMR_1_1Matrix3i64.html#ab6abb4eebc7b7a8e6fca3cdd0c784777", null ],
     [ "operator*", "structMR_1_1Matrix3i64.html#a55dbad94ee293a788b895db6fc4f09e3", null ],
     [ "operator*", "structMR_1_1Matrix3i64.html#a830d24b81d031135da43b2e33e07188c", null ],
@@ -31,5 +34,7 @@ var structMR_1_1Matrix3i64 =
     [ "transposed", "structMR_1_1Matrix3i64.html#a81c796340e4c7bb540630489afa4f8b0", null ],
     [ "zero", "structMR_1_1Matrix3i64.html#a3dcdc791464ad4adcbe5ec6143cf3420", null ],
     [ "x", "structMR_1_1Matrix3i64.html#a4d12cd15487f63f9e4e62c037ddbccc6", null ],
+    [ "y", "structMR_1_1Matrix3i64.html#a04475f9a01d3b498eff7f1c02d09ca43", null ],
+    [ "z", "structMR_1_1Matrix3i64.html#a98a262de59e400e4ccb9a9dc3fb2c91c", null ],
     [ "this[int row]", "structMR_1_1Matrix3i64.html#ab9d384ac63b7c8a6e8518805aa6cdcf3", null ]
 ];

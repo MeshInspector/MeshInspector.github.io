@@ -1,0 +1,742 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__EdgeSegment" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_EdgeSegment</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__EdgeSegment_1aec59627f3665314f72d11f60473c163c" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_EdgeSegment::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80883" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__EdgeSegment_1acf5a6c877015cffb2342160de3fcff65" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_EdgeSegment::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.element_type_byte_size</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80884" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a2ec9299c7be6b2d8cdc6d8f0dd40788d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_EdgeSegment.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80885" bodyend="80888"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1aa3800a1e25d0ceac3a5c6725fe3e5298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_EdgeSegment.__contains__</definition>
+        <argsstring>(self, EdgeSegment x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80889" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80889" bodyend="80892"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a6cb1731b9483b4b57039fe702313c69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80894" bodyend="80897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a2859581c687e4db4ee9d6eef1568fd5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80899" bodyend="80902"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a6befacd19eecb8e855a76b72d65cc4f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_EdgeSegment.__eq__</definition>
+        <argsstring>(self, std_vector_EdgeSegment arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgeSegment" kindref="compound">std_vector_EdgeSegment</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80903" bodyend="80904"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1aac533a3a8d1e09daa4f50d6b8334252f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__EdgeSegment" kindref="compound">std_vector_EdgeSegment</ref></type>
+        <definition> std_vector_EdgeSegment mrmeshpy.std_vector_EdgeSegment.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80906" bodyend="80909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1afb532195b08630140c9a56543354a739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+        <definition> EdgeSegment mrmeshpy.std_vector_EdgeSegment.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80911" bodyend="80912"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a644919f47f89c0af0d9e544b24f6c290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80914" bodyend="80915"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a41130895285e5de68d581ea3a35679a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80917" bodyend="80918"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1aed9826bbb1a97bf613dcd6944eeaa0e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.__init__</definition>
+        <argsstring>(self, std_vector_EdgeSegment arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgeSegment" kindref="compound">std_vector_EdgeSegment</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80920" bodyend="80921"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1aae6b330390c2f3f232746e242dd19a78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref>]</type>
+        <definition> typing.Iterator[EdgeSegment] mrmeshpy.std_vector_EdgeSegment.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80922" bodyend="80923"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a56e64571a298a8b68f08bd4398c3383d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_EdgeSegment.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80924" bodyend="80925"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a88640fc0bb68fff5d84a2108ea207a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_EdgeSegment.__ne__</definition>
+        <argsstring>(self, std_vector_EdgeSegment arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgeSegment" kindref="compound">std_vector_EdgeSegment</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80926" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80926" bodyend="80927"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a51accd1a282f96b2c5b5f7d54f37aabd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.__setitem__</definition>
+        <argsstring>(self, int arg0, EdgeSegment arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80929" bodyend="80930"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1aadc43532d9a60cf322704f2e7120893c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_EdgeSegment arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgeSegment" kindref="compound">std_vector_EdgeSegment</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80932" bodyend="80935"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1aeb690b0792884de4bcf966c579916706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.append</definition>
+        <argsstring>(self, EdgeSegment x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80936" bodyend="80939"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a5ad464ebb5d9fcca356643d3e1228c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80940" bodyend="80943"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a86c46d46ec0b11c5ce7c505030e4d15c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_EdgeSegment.count</definition>
+        <argsstring>(self, EdgeSegment x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80944" bodyend="80947"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a31ee3c7ac8248b66d197fadf896a2d7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_EdgeSegment.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80948" bodyend="80951"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1aa4270e37d11e7dfb07667eed712b8269" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_EdgeSegment.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80952" bodyend="80953"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a3d9013495a4719786b2880152503be36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.extend</definition>
+        <argsstring>(self, std_vector_EdgeSegment L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__EdgeSegment" kindref="compound">std_vector_EdgeSegment</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80955" bodyend="80958"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1aa21a03f916ebf3398a8f8c7feb96e8d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80960" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80960" bodyend="80963"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1ab8b40dde851cade1d8d35252a63ead94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.insert</definition>
+        <argsstring>(self, int i, EdgeSegment x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80964" bodyend="80967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a85db393424dd179962c54cb1bd7d2e36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+        <definition> EdgeSegment mrmeshpy.std_vector_EdgeSegment.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80969" bodyend="80972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1ada970702a342017cea3f2de70dc9c41d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+        <definition> EdgeSegment mrmeshpy.std_vector_EdgeSegment.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80974" bodyend="80977"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a38da65f9fbede370b944edd321c734bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.remove</definition>
+        <argsstring>(self, EdgeSegment x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80978" bodyend="80981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1add2965914f246165ae73fd2b10e965a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80983" bodyend="80984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a14b5b710879bf1ce3675c3bac86fd64f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_EdgeSegment.resize</definition>
+        <argsstring>(self, int arg0, EdgeSegment arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeSegment" kindref="compound">EdgeSegment</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80986" bodyend="80987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__EdgeSegment_1a0ec347f99c29e60a933a429a26f4738e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_EdgeSegment.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_EdgeSegment.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80988" bodyend="80989"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_EdgeSegment</label>
+        <link refid="classmrmeshpy_1_1std__vector__EdgeSegment"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80882" bodyend="80989"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a2ec9299c7be6b2d8cdc6d8f0dd40788d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1aa3800a1e25d0ceac3a5c6725fe3e5298" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a6cb1731b9483b4b57039fe702313c69c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a2859581c687e4db4ee9d6eef1568fd5e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a6befacd19eecb8e855a76b72d65cc4f7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1aac533a3a8d1e09daa4f50d6b8334252f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1afb532195b08630140c9a56543354a739" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1aec59627f3665314f72d11f60473c163c" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a644919f47f89c0af0d9e544b24f6c290" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a41130895285e5de68d581ea3a35679a6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1aed9826bbb1a97bf613dcd6944eeaa0e3" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1aae6b330390c2f3f232746e242dd19a78" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a56e64571a298a8b68f08bd4398c3383d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a88640fc0bb68fff5d84a2108ea207a12" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a51accd1a282f96b2c5b5f7d54f37aabd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1aadc43532d9a60cf322704f2e7120893c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1aeb690b0792884de4bcf966c579916706" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a5ad464ebb5d9fcca356643d3e1228c2b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a86c46d46ec0b11c5ce7c505030e4d15c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a31ee3c7ac8248b66d197fadf896a2d7b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1acf5a6c877015cffb2342160de3fcff65" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1aa4270e37d11e7dfb07667eed712b8269" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a3d9013495a4719786b2880152503be36" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1aa21a03f916ebf3398a8f8c7feb96e8d5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1ab8b40dde851cade1d8d35252a63ead94" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a85db393424dd179962c54cb1bd7d2e36" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1ada970702a342017cea3f2de70dc9c41d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a38da65f9fbede370b944edd321c734bc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1add2965914f246165ae73fd2b10e965a4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a14b5b710879bf1ce3675c3bac86fd64f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__EdgeSegment_1a0ec347f99c29e60a933a429a26f4738e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_EdgeSegment</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

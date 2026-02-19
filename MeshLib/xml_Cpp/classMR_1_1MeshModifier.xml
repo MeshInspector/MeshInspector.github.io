@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshModifier" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::MeshModifier</compoundname>
+    <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
+    <includes refid="MRMeshModifier_8h" local="no">MRMeshModifier.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaa035865ba9e71b7abc1e75a605a9e5c0" kind="variable"><name>tab_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga0338449c5ee61d0a4f201d678002cfbc" kind="function"><name>MeshModifier</name></member>
+      <member refid="group__GeneralGroup_1ga78b84722bd2aef0d182ee5eb2fa81686" kind="function"><name>~MeshModifier</name></member>
+      <member refid="group__GeneralGroup_1gab75122cf4d5edf460bca35ebaae7f1a4" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga25063bfbb8ac3ff3be0fecab4e38500f" kind="function"><name>modify</name></member>
+      <member refid="group__GeneralGroup_1gadfd5e0484ece07523b45d53bcfa6eefd" kind="function"><name>getTab</name></member>
+      <member refid="group__GeneralGroup_1ga138bfdaa7e05a5e4e1f42d6ebe501a2a" kind="function"><name>checkStringMask</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gab8db168c608826b36c54262b8c48e687" kind="function"><name>modify_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="1">
+        <label>MR::MeshModifier</label>
+        <link refid="classMR_1_1MeshModifier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="1">
+        <label>MR::MeshModifier</label>
+        <link refid="classMR_1_1MeshModifier"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshModifier.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMeshModifier.h" bodystart="14" bodyend="32"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab75122cf4d5edf460bca35ebaae7f1a4" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gac9fd2cbdcf5356c6fbb093464568afdc" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga138bfdaa7e05a5e4e1f42d6ebe501a2a" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>checkStringMask</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::MeshModifier</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1gadfd5e0484ece07523b45d53bcfa6eefd" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>getTab</name></member>
+      <member refid="group__GeneralGroup_1ga3b30bb82fe11901e3d971d3b761f5bf2" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga0338449c5ee61d0a4f201d678002cfbc" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>MeshModifier</name></member>
+      <member refid="group__GeneralGroup_1ga25063bfbb8ac3ff3be0fecab4e38500f" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>modify</name></member>
+      <member refid="group__GeneralGroup_1gab8db168c608826b36c54262b8c48e687" prot="private" virt="pure-virtual"><scope>MR::MeshModifier</scope><name>modify_</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::MeshModifier</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1gaa035865ba9e71b7abc1e75a605a9e5c0" prot="private" virt="non-virtual"><scope>MR::MeshModifier</scope><name>tab_</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::MeshModifier</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga327958b76ec3d044202620beafe67c93" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1ga78b84722bd2aef0d182ee5eb2fa81686" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>~MeshModifier</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::MeshModifier</scope><name>~RibbonMenuItem</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrviewerpy_1_1ViewerLaunchParams" kind="class" language="Python" prot="public">
+    <compoundname>mrviewerpy::ViewerLaunchParams</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewerLaunchParams_1a00f7fa5bb8a9ab05dedfcc75055343e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.ViewerLaunchParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrviewerpy.ViewerLaunchParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="264" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewerLaunchParams_1a6e06e4cb800929f65745ffd4dcad622e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.ViewerLaunchParams.animationMaxFps</definition>
+        <argsstring>(self)</argsstring>
+        <name>animationMaxFps</name>
+        <qualifiedname>mrviewerpy.ViewerLaunchParams.animationMaxFps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>max fps if animating
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="267" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewerLaunchParams_1ac85d1075719ae30155e0debcaec812cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.ViewerLaunchParams.animationMaxFps</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>animationMaxFps</name>
+        <qualifiedname>mrviewerpy.ViewerLaunchParams.animationMaxFps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="272" bodyend="273"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewerLaunchParams_1aaa77419e86035da0c85013175ca8882d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrviewerpy.ViewerLaunchParams.fullscreen</definition>
+        <argsstring>(self)</argsstring>
+        <name>fullscreen</name>
+        <qualifiedname>mrviewerpy.ViewerLaunchParams.fullscreen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true starts fullscreen
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="275" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewerLaunchParams_1a067b5697f12ce78ad79a9966ffa974b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.ViewerLaunchParams.fullscreen</definition>
+        <argsstring>(self, bool arg0)</argsstring>
+        <name>fullscreen</name>
+        <qualifiedname>mrviewerpy.ViewerLaunchParams.fullscreen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="280" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewerLaunchParams_1abf9e5b0e82ab4618b7604b5f46da85d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrviewerpy.ViewerLaunchParams.isAnimating</definition>
+        <argsstring>(self)</argsstring>
+        <name>isAnimating</name>
+        <qualifiedname>mrviewerpy.ViewerLaunchParams.isAnimating</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true - calls render without system events
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="283" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewerLaunchParams_1a933c4835dfa0346ce551634c36eab8dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.ViewerLaunchParams.isAnimating</definition>
+        <argsstring>(self, bool arg0)</argsstring>
+        <name>isAnimating</name>
+        <qualifiedname>mrviewerpy.ViewerLaunchParams.isAnimating</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="288" bodyend="289"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewerLaunchParams_1aeaa2c927b045fab47219bc2a2286f688" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrviewerpy.ViewerLaunchParams.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrviewerpy.ViewerLaunchParams.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Window name
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="291" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1ViewerLaunchParams_1a6afd01f2112aa5489d4d34af52a99407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.ViewerLaunchParams.name</definition>
+        <argsstring>(self, str arg0)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrviewerpy.ViewerLaunchParams.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="296" bodyend="297"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This struct contains rules for viewer launch
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="257" bodyend="297"/>
+    <listofallmembers>
+      <member refid="classmrviewerpy_1_1ViewerLaunchParams_1a00f7fa5bb8a9ab05dedfcc75055343e9" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParams</scope><name>__init__</name></member>
+      <member refid="classmrviewerpy_1_1ViewerLaunchParams_1a6e06e4cb800929f65745ffd4dcad622e" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParams</scope><name>animationMaxFps</name></member>
+      <member refid="classmrviewerpy_1_1ViewerLaunchParams_1ac85d1075719ae30155e0debcaec812cb" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParams</scope><name>animationMaxFps</name></member>
+      <member refid="classmrviewerpy_1_1ViewerLaunchParams_1aaa77419e86035da0c85013175ca8882d" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParams</scope><name>fullscreen</name></member>
+      <member refid="classmrviewerpy_1_1ViewerLaunchParams_1a067b5697f12ce78ad79a9966ffa974b6" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParams</scope><name>fullscreen</name></member>
+      <member refid="classmrviewerpy_1_1ViewerLaunchParams_1abf9e5b0e82ab4618b7604b5f46da85d8" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParams</scope><name>isAnimating</name></member>
+      <member refid="classmrviewerpy_1_1ViewerLaunchParams_1a933c4835dfa0346ce551634c36eab8dd" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParams</scope><name>isAnimating</name></member>
+      <member refid="classmrviewerpy_1_1ViewerLaunchParams_1aeaa2c927b045fab47219bc2a2286f688" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParams</scope><name>name</name></member>
+      <member refid="classmrviewerpy_1_1ViewerLaunchParams_1a6afd01f2112aa5489d4d34af52a99407" prot="public" virt="non-virtual"><scope>mrviewerpy::ViewerLaunchParams</scope><name>name</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

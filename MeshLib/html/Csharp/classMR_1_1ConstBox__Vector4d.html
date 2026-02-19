@@ -150,6 +150,7 @@ $(function(){initNavTree('classMR_1_1ConstBox__Vector4d.html',''); initResizable
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#properties">Properties</a> &#124;
 <a href="classMR_1_1ConstBox__Vector4d-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">MR.ConstBox_Vector4d Class Reference</div></div>
@@ -166,7 +167,6 @@ $(function(){initNavTree('classMR_1_1ConstBox__Vector4d.html',''); initResizable
  <div class="center">
   <img src="classMR_1_1ConstBox__Vector4d.png" usemap="#MR.ConstBox_5FVector4d_map" alt=""/>
   <map id="MR.ConstBox_5FVector4d_map" name="MR.ConstBox_5FVector4d_map">
-<area href="classMR_1_1Misc_1_1Object.html" alt="MR.Misc.Object&lt; ConstBox_Vector4d &gt;" shape="rect" coords="0,0,275,24"/>
 <area href="classMR_1_1Box__Vector4d.html" title="four-dimensional vector Generated from class MR.Vector4d. This is the non-const reference to the stru..." alt="MR.Box_Vector4d" shape="rect" coords="285,112,560,136"/>
   </map>
 </div></div>
@@ -178,150 +178,975 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ade8e66de359d62665489da7da09b6d97" id="r_ade8e66de359d62665489da7da09b6d97"><td class="memItemLeft" align="right" valign="top"><a id="ade8e66de359d62665489da7da09b6d97" name="ade8e66de359d62665489da7da09b6d97"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>ConstBox_Vector4d</b> (<a class="el" href="structMR_1_1Vector4d.html">Vector4d</a> other)</td></tr>
-<tr class="memdesc:ade8e66de359d62665489da7da09b6d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a copy of a struct. (Even though we initially pass <code>is_owning: false</code>, we then use the copy constructor to produce an owning instance.) <br /></td></tr>
-<tr class="separator:ade8e66de359d62665489da7da09b6d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19bca6cd3aa01e32d18e5886899a97a8" id="r_a19bca6cd3aa01e32d18e5886899a97a8"><td class="memItemLeft" align="right" valign="top"><a id="a19bca6cd3aa01e32d18e5886899a97a8" name="a19bca6cd3aa01e32d18e5886899a97a8"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> ()</td></tr>
+<tr class="memitem:a19bca6cd3aa01e32d18e5886899a97a8" id="r_a19bca6cd3aa01e32d18e5886899a97a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a19bca6cd3aa01e32d18e5886899a97a8">Dispose</a> ()</td></tr>
 <tr class="separator:a19bca6cd3aa01e32d18e5886899a97a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58d1470db15a25646a7b672f69946b9b" id="r_a58d1470db15a25646a7b672f69946b9b"><td class="memItemLeft" align="right" valign="top"><a id="a58d1470db15a25646a7b672f69946b9b" name="a58d1470db15a25646a7b672f69946b9b"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>ConstBox_Vector4d</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">ConstBox_Vector4d</a> _other)</td></tr>
-<tr class="memdesc:a58d1470db15a25646a7b672f69946b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated copy constructor. <br /></td></tr>
+<tr class="memitem:ade8e66de359d62665489da7da09b6d97" id="r_ade8e66de359d62665489da7da09b6d97"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ade8e66de359d62665489da7da09b6d97">ConstBox_Vector4d</a> (<a class="el" href="structMR_1_1Vector4d.html">Vector4d</a> other)</td></tr>
+<tr class="memdesc:ade8e66de359d62665489da7da09b6d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make a copy of a struct. (Even though we initially pass <code>is_owning: false</code>, we then use the copy constructor to produce an owning instance.)  <br /></td></tr>
+<tr class="separator:ade8e66de359d62665489da7da09b6d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58d1470db15a25646a7b672f69946b9b" id="r_a58d1470db15a25646a7b672f69946b9b"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a58d1470db15a25646a7b672f69946b9b">ConstBox_Vector4d</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">ConstBox_Vector4d</a> _other)</td></tr>
+<tr class="memdesc:a58d1470db15a25646a7b672f69946b9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated copy constructor.  <br /></td></tr>
 <tr class="separator:a58d1470db15a25646a7b672f69946b9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0dd8b40e7ff0695ad8b3d5462c24899f" id="r_a0dd8b40e7ff0695ad8b3d5462c24899f"><td class="memItemLeft" align="right" valign="top"><a id="a0dd8b40e7ff0695ad8b3d5462c24899f" name="a0dd8b40e7ff0695ad8b3d5462c24899f"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>ConstBox_Vector4d</b> ()</td></tr>
-<tr class="memdesc:a0dd8b40e7ff0695ad8b3d5462c24899f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance. <br /></td></tr>
+<tr class="memitem:a0dd8b40e7ff0695ad8b3d5462c24899f" id="r_a0dd8b40e7ff0695ad8b3d5462c24899f"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0dd8b40e7ff0695ad8b3d5462c24899f">ConstBox_Vector4d</a> ()</td></tr>
+<tr class="memdesc:a0dd8b40e7ff0695ad8b3d5462c24899f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an empty (default-constructed) instance.  <br /></td></tr>
 <tr class="separator:a0dd8b40e7ff0695ad8b3d5462c24899f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1de44b6a1a8d16691cafc3e85f0652c6" id="r_a1de44b6a1a8d16691cafc3e85f0652c6"><td class="memItemLeft" align="right" valign="top"><a id="a1de44b6a1a8d16691cafc3e85f0652c6" name="a1de44b6a1a8d16691cafc3e85f0652c6"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>ConstBox_Vector4d</b> (<a class="el" href="classMR_1_1Const__NoInit.html">MR.Const_NoInit</a> _1)</td></tr>
-<tr class="memdesc:a1de44b6a1a8d16691cafc3e85f0652c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <code><a class="el" href="structMR_1_1Vector4d.html#a6d3ad955d65862856bb5adb590678154" title="Generated copy constructor.">MR.Vector4d.Vector4d</a></code>. <br /></td></tr>
+<tr class="memitem:a1de44b6a1a8d16691cafc3e85f0652c6" id="r_a1de44b6a1a8d16691cafc3e85f0652c6"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1de44b6a1a8d16691cafc3e85f0652c6">ConstBox_Vector4d</a> (MR.Const_NoInit _1)</td></tr>
+<tr class="memdesc:a1de44b6a1a8d16691cafc3e85f0652c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <code><a class="el" href="structMR_1_1Vector4d.html#a6d3ad955d65862856bb5adb590678154" title="Generated copy constructor.">MR.Vector4d.Vector4d</a></code>.  <br /></td></tr>
 <tr class="separator:a1de44b6a1a8d16691cafc3e85f0652c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e7962323e75389d3230be22e5544039" id="r_a9e7962323e75389d3230be22e5544039"><td class="memItemLeft" align="right" valign="top"><a id="a9e7962323e75389d3230be22e5544039" name="a9e7962323e75389d3230be22e5544039"></a>
-unsafe&#160;</td><td class="memItemRight" valign="bottom"><b>ConstBox_Vector4d</b> (double x, double y, double z, double w)</td></tr>
-<tr class="memdesc:a9e7962323e75389d3230be22e5544039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <code><a class="el" href="structMR_1_1Vector4d.html#a6d3ad955d65862856bb5adb590678154" title="Generated copy constructor.">MR.Vector4d.Vector4d</a></code>. <br /></td></tr>
+<tr class="memitem:a9e7962323e75389d3230be22e5544039" id="r_a9e7962323e75389d3230be22e5544039"><td class="memItemLeft" align="right" valign="top">unsafe&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9e7962323e75389d3230be22e5544039">ConstBox_Vector4d</a> (double <a class="el" href="#ad258ea7f67590501ce4dddad1d9a932e">x</a>, double <a class="el" href="#ab88f008eedcd5c07d18b60d4221c4fa8">y</a>, double <a class="el" href="#a2b20887b3e2022626a4eb49978de818f">z</a>, double <a class="el" href="#a4eb90b2d92aecdaa379e02b4d3f56e7d">w</a>)</td></tr>
+<tr class="memdesc:a9e7962323e75389d3230be22e5544039"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from constructor <code><a class="el" href="structMR_1_1Vector4d.html#a6d3ad955d65862856bb5adb590678154" title="Generated copy constructor.">MR.Vector4d.Vector4d</a></code>.  <br /></td></tr>
 <tr class="separator:a9e7962323e75389d3230be22e5544039"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e9142f244f34b5042c66d4de74202f7" id="r_a6e9142f244f34b5042c66d4de74202f7"><td class="memItemLeft" align="right" valign="top"><a id="a6e9142f244f34b5042c66d4de74202f7" name="a6e9142f244f34b5042c66d4de74202f7"></a>
-unsafe double&#160;</td><td class="memItemRight" valign="bottom"><b>lengthSq</b> ()</td></tr>
-<tr class="memdesc:a6e9142f244f34b5042c66d4de74202f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#a4e4c4180b1f8bdab7972f9e92e4dbf79" title="Generated from method MR.Vector4d.lengthSq.">MR.Vector4d.lengthSq</a></code>. <br /></td></tr>
+<tr class="memitem:a6e9142f244f34b5042c66d4de74202f7" id="r_a6e9142f244f34b5042c66d4de74202f7"><td class="memItemLeft" align="right" valign="top">unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6e9142f244f34b5042c66d4de74202f7">lengthSq</a> ()</td></tr>
+<tr class="memdesc:a6e9142f244f34b5042c66d4de74202f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#a4e4c4180b1f8bdab7972f9e92e4dbf79" title="Generated from method MR.Vector4d.lengthSq.">MR.Vector4d.lengthSq</a></code>.  <br /></td></tr>
 <tr class="separator:a6e9142f244f34b5042c66d4de74202f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a130673c2be84701087c4e610ab9321ca" id="r_a130673c2be84701087c4e610ab9321ca"><td class="memItemLeft" align="right" valign="top"><a id="a130673c2be84701087c4e610ab9321ca" name="a130673c2be84701087c4e610ab9321ca"></a>
-unsafe double&#160;</td><td class="memItemRight" valign="bottom"><b>length</b> ()</td></tr>
-<tr class="memdesc:a130673c2be84701087c4e610ab9321ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#a2fba2fdb6f40c7d758ad10de9f2eafdc" title="Generated from method MR.Vector4d.length.">MR.Vector4d.length</a></code>. <br /></td></tr>
+<tr class="memitem:a130673c2be84701087c4e610ab9321ca" id="r_a130673c2be84701087c4e610ab9321ca"><td class="memItemLeft" align="right" valign="top">unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a130673c2be84701087c4e610ab9321ca">length</a> ()</td></tr>
+<tr class="memdesc:a130673c2be84701087c4e610ab9321ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#a2fba2fdb6f40c7d758ad10de9f2eafdc" title="Generated from method MR.Vector4d.length.">MR.Vector4d.length</a></code>.  <br /></td></tr>
 <tr class="separator:a130673c2be84701087c4e610ab9321ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9392e0e20a0a87a4311449f34558d5a4" id="r_a9392e0e20a0a87a4311449f34558d5a4"><td class="memItemLeft" align="right" valign="top"><a id="a9392e0e20a0a87a4311449f34558d5a4" name="a9392e0e20a0a87a4311449f34558d5a4"></a>
-unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>normalized</b> ()</td></tr>
-<tr class="memdesc:a9392e0e20a0a87a4311449f34558d5a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#ab94fd5ae9452b628863121083fa2397f" title="Generated from method MR.Vector4d.normalized.">MR.Vector4d.normalized</a></code>. <br /></td></tr>
+<tr class="memitem:a9392e0e20a0a87a4311449f34558d5a4" id="r_a9392e0e20a0a87a4311449f34558d5a4"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9392e0e20a0a87a4311449f34558d5a4">normalized</a> ()</td></tr>
+<tr class="memdesc:a9392e0e20a0a87a4311449f34558d5a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#ab94fd5ae9452b628863121083fa2397f" title="Generated from method MR.Vector4d.normalized.">MR.Vector4d.normalized</a></code>.  <br /></td></tr>
 <tr class="separator:a9392e0e20a0a87a4311449f34558d5a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87b4e8510c0571f04b342fd530975b46" id="r_a87b4e8510c0571f04b342fd530975b46"><td class="memItemLeft" align="right" valign="top"><a id="a87b4e8510c0571f04b342fd530975b46" name="a87b4e8510c0571f04b342fd530975b46"></a>
-unsafe <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>proj3d</b> ()</td></tr>
-<tr class="memdesc:a87b4e8510c0571f04b342fd530975b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">assuming this is a point represented in homogeneous 4D coordinates, returns the point as 3D-vector Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#aa1cc554778ee8a739e4bda9942198413" title="assuming this is a point represented in homogeneous 4D coordinates, returns the point as 3D-vector Ge...">MR.Vector4d.proj3d</a></code>. <br /></td></tr>
+<tr class="memitem:a87b4e8510c0571f04b342fd530975b46" id="r_a87b4e8510c0571f04b342fd530975b46"><td class="memItemLeft" align="right" valign="top">unsafe <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a87b4e8510c0571f04b342fd530975b46">proj3d</a> ()</td></tr>
+<tr class="memdesc:a87b4e8510c0571f04b342fd530975b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">assuming this is a point represented in homogeneous 4D coordinates, returns the point as 3D-vector Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#aa1cc554778ee8a739e4bda9942198413" title="assuming this is a point represented in homogeneous 4D coordinates, returns the point as 3D-vector Ge...">MR.Vector4d.proj3d</a></code>.  <br /></td></tr>
 <tr class="separator:a87b4e8510c0571f04b342fd530975b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a344d982b5e96046347dcae9503783d3d" id="r_a344d982b5e96046347dcae9503783d3d"><td class="memItemLeft" align="right" valign="top"><a id="a344d982b5e96046347dcae9503783d3d" name="a344d982b5e96046347dcae9503783d3d"></a>
-unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>isFinite</b> ()</td></tr>
-<tr class="memdesc:a344d982b5e96046347dcae9503783d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#a240330348f934b8d7fe6eb61f7fe7e1e" title="Generated from method MR.Vector4d.isFinite.">MR.Vector4d.isFinite</a></code>. <br /></td></tr>
+<tr class="memitem:a344d982b5e96046347dcae9503783d3d" id="r_a344d982b5e96046347dcae9503783d3d"><td class="memItemLeft" align="right" valign="top">unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a344d982b5e96046347dcae9503783d3d">isFinite</a> ()</td></tr>
+<tr class="memdesc:a344d982b5e96046347dcae9503783d3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#a240330348f934b8d7fe6eb61f7fe7e1e" title="Generated from method MR.Vector4d.isFinite.">MR.Vector4d.isFinite</a></code>.  <br /></td></tr>
 <tr class="separator:a344d982b5e96046347dcae9503783d3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afff2b0787b08eec758933a4352a9ad0d" id="r_afff2b0787b08eec758933a4352a9ad0d"><td class="memItemLeft" align="right" valign="top"><a id="afff2b0787b08eec758933a4352a9ad0d" name="afff2b0787b08eec758933a4352a9ad0d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>Equals</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a>? b)</td></tr>
+<tr class="memitem:afff2b0787b08eec758933a4352a9ad0d" id="r_afff2b0787b08eec758933a4352a9ad0d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afff2b0787b08eec758933a4352a9ad0d">Equals</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a>? b)</td></tr>
 <tr class="separator:afff2b0787b08eec758933a4352a9ad0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab95fc5c4c6de850c0dc4d5430046506e" id="r_ab95fc5c4c6de850c0dc4d5430046506e"><td class="memItemLeft" align="right" valign="top"><a id="ab95fc5c4c6de850c0dc4d5430046506e" name="ab95fc5c4c6de850c0dc4d5430046506e"></a>
-override bool&#160;</td><td class="memItemRight" valign="bottom"><b>Equals</b> (object? other)</td></tr>
+<tr class="memitem:ab95fc5c4c6de850c0dc4d5430046506e" id="r_ab95fc5c4c6de850c0dc4d5430046506e"><td class="memItemLeft" align="right" valign="top">override bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab95fc5c4c6de850c0dc4d5430046506e">Equals</a> (object? other)</td></tr>
 <tr class="separator:ab95fc5c4c6de850c0dc4d5430046506e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a67877fbfb7f991b0a8fc8d4e48c3bff0" id="r_a67877fbfb7f991b0a8fc8d4e48c3bff0"><td class="memItemLeft" align="right" valign="top"><a id="a67877fbfb7f991b0a8fc8d4e48c3bff0" name="a67877fbfb7f991b0a8fc8d4e48c3bff0"></a>
-static implicit&#160;</td><td class="memItemRight" valign="bottom"><b>operator ConstBox_Vector4d</b> (<a class="el" href="structMR_1_1Vector4d.html">Vector4d</a> other)</td></tr>
-<tr class="memdesc:a67877fbfb7f991b0a8fc8d4e48c3bff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from a struct by copying it. Note that only <code><a class="el" href="classMR_1_1ConstBox__Vector4d.html" title="four-dimensional vector Generated from class MR.Vector4d. This is the const reference to the struct.">ConstBox_Vector4d</a></code> has this conversion, <code><a class="el" href="classMR_1_1Box__Vector4d.html" title="four-dimensional vector Generated from class MR.Vector4d. This is the non-const reference to the stru...">Box_Vector4d</a></code> intentionally doesn't. <br /></td></tr>
+<tr class="memitem:a67877fbfb7f991b0a8fc8d4e48c3bff0" id="r_a67877fbfb7f991b0a8fc8d4e48c3bff0"><td class="memItemLeft" align="right" valign="top">static implicit&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67877fbfb7f991b0a8fc8d4e48c3bff0">operator ConstBox_Vector4d</a> (<a class="el" href="structMR_1_1Vector4d.html">Vector4d</a> other)</td></tr>
+<tr class="memdesc:a67877fbfb7f991b0a8fc8d4e48c3bff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert from a struct by copying it. Note that only <code><a class="el" href="classMR_1_1ConstBox__Vector4d.html" title="four-dimensional vector Generated from class MR.Vector4d. This is the const reference to the struct.">ConstBox_Vector4d</a></code> has this conversion, <code><a class="el" href="classMR_1_1Box__Vector4d.html" title="four-dimensional vector Generated from class MR.Vector4d. This is the non-const reference to the stru...">Box_Vector4d</a></code> intentionally doesn't.  <br /></td></tr>
 <tr class="separator:a67877fbfb7f991b0a8fc8d4e48c3bff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a412e1b89fd8794c779c241ff3a387741" id="r_a412e1b89fd8794c779c241ff3a387741"><td class="memItemLeft" align="right" valign="top"><a id="a412e1b89fd8794c779c241ff3a387741" name="a412e1b89fd8794c779c241ff3a387741"></a>
-static <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>diagonal</b> (double a)</td></tr>
-<tr class="memdesc:a412e1b89fd8794c779c241ff3a387741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#aa7f166d1ecb27dc9f9332784acbb4dc2" title="Generated from method MR.Vector4d.diagonal.">MR.Vector4d.diagonal</a></code>. <br /></td></tr>
+<tr class="memitem:a412e1b89fd8794c779c241ff3a387741" id="r_a412e1b89fd8794c779c241ff3a387741"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a412e1b89fd8794c779c241ff3a387741">diagonal</a> (double a)</td></tr>
+<tr class="memdesc:a412e1b89fd8794c779c241ff3a387741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#aa7f166d1ecb27dc9f9332784acbb4dc2" title="Generated from method MR.Vector4d.diagonal.">MR.Vector4d.diagonal</a></code>.  <br /></td></tr>
 <tr class="separator:a412e1b89fd8794c779c241ff3a387741"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dadf379e70cf21e9afa5e2c800b2eaa" id="r_a9dadf379e70cf21e9afa5e2c800b2eaa"><td class="memItemLeft" align="right" valign="top"><a id="a9dadf379e70cf21e9afa5e2c800b2eaa" name="a9dadf379e70cf21e9afa5e2c800b2eaa"></a>
-static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator==</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a, <a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> b)</td></tr>
-<tr class="memdesc:a9dadf379e70cf21e9afa5e2c800b2eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga300a438da6440ee7d2e92933bcfa6018">MR.operator==</a></code>. <br /></td></tr>
+<tr class="memitem:a9dadf379e70cf21e9afa5e2c800b2eaa" id="r_a9dadf379e70cf21e9afa5e2c800b2eaa"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9dadf379e70cf21e9afa5e2c800b2eaa">operator==</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a, <a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> b)</td></tr>
+<tr class="memdesc:a9dadf379e70cf21e9afa5e2c800b2eaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator==</code>.  <br /></td></tr>
 <tr class="separator:a9dadf379e70cf21e9afa5e2c800b2eaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab686569f68d1d11a4a015af2367cc1b8" id="r_ab686569f68d1d11a4a015af2367cc1b8"><td class="memItemLeft" align="right" valign="top"><a id="ab686569f68d1d11a4a015af2367cc1b8" name="ab686569f68d1d11a4a015af2367cc1b8"></a>
-static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><b>operator!=</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a, <a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> b)</td></tr>
+<tr class="memitem:ab686569f68d1d11a4a015af2367cc1b8" id="r_ab686569f68d1d11a4a015af2367cc1b8"><td class="memItemLeft" align="right" valign="top">static unsafe bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab686569f68d1d11a4a015af2367cc1b8">operator!=</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a, <a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> b)</td></tr>
 <tr class="separator:ab686569f68d1d11a4a015af2367cc1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeafc1e9235ae7df24b7844379f4785b7" id="r_aeafc1e9235ae7df24b7844379f4785b7"><td class="memItemLeft" align="right" valign="top"><a id="aeafc1e9235ae7df24b7844379f4785b7" name="aeafc1e9235ae7df24b7844379f4785b7"></a>
-static unsafe <a class="el" href="classMR_1_1Misc_1_1ConstRef.html">MR.Misc.ConstRef</a>&lt; <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a)</td></tr>
-<tr class="memdesc:aeafc1e9235ae7df24b7844379f4785b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#af9a5c1118c2c4b0cda030dff8d11ce03">MR.operator+</a></code>. <br /></td></tr>
+<tr class="memitem:aeafc1e9235ae7df24b7844379f4785b7" id="r_aeafc1e9235ae7df24b7844379f4785b7"><td class="memItemLeft" align="right" valign="top">static unsafe MR.Misc.ConstRef&lt; <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeafc1e9235ae7df24b7844379f4785b7">operator+</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a)</td></tr>
+<tr class="memdesc:aeafc1e9235ae7df24b7844379f4785b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator+</code>.  <br /></td></tr>
 <tr class="separator:aeafc1e9235ae7df24b7844379f4785b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a586d2437112ce888ba6924c7fad14b32" id="r_a586d2437112ce888ba6924c7fad14b32"><td class="memItemLeft" align="right" valign="top"><a id="a586d2437112ce888ba6924c7fad14b32" name="a586d2437112ce888ba6924c7fad14b32"></a>
-static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator-</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a)</td></tr>
-<tr class="memdesc:a586d2437112ce888ba6924c7fad14b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga042aeb0c2011b3bc175a13e96a447a5f">MR.operator-</a></code>. <br /></td></tr>
+<tr class="memitem:a586d2437112ce888ba6924c7fad14b32" id="r_a586d2437112ce888ba6924c7fad14b32"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a586d2437112ce888ba6924c7fad14b32">operator-</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a)</td></tr>
+<tr class="memdesc:a586d2437112ce888ba6924c7fad14b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator-</code>.  <br /></td></tr>
 <tr class="separator:a586d2437112ce888ba6924c7fad14b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f86e8c30bbe6ff5bdef956c317f77a0" id="r_a3f86e8c30bbe6ff5bdef956c317f77a0"><td class="memItemLeft" align="right" valign="top"><a id="a3f86e8c30bbe6ff5bdef956c317f77a0" name="a3f86e8c30bbe6ff5bdef956c317f77a0"></a>
-static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator+</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a, in <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> b)</td></tr>
-<tr class="memdesc:a3f86e8c30bbe6ff5bdef956c317f77a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#af9a5c1118c2c4b0cda030dff8d11ce03">MR.operator+</a></code>. <br /></td></tr>
+<tr class="memitem:a3f86e8c30bbe6ff5bdef956c317f77a0" id="r_a3f86e8c30bbe6ff5bdef956c317f77a0"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3f86e8c30bbe6ff5bdef956c317f77a0">operator+</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a, in <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> b)</td></tr>
+<tr class="memdesc:a3f86e8c30bbe6ff5bdef956c317f77a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator+</code>.  <br /></td></tr>
 <tr class="separator:a3f86e8c30bbe6ff5bdef956c317f77a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d025a0e242429f316538e1073e3515a" id="r_a6d025a0e242429f316538e1073e3515a"><td class="memItemLeft" align="right" valign="top"><a id="a6d025a0e242429f316538e1073e3515a" name="a6d025a0e242429f316538e1073e3515a"></a>
-static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator-</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a, in <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> b)</td></tr>
-<tr class="memdesc:a6d025a0e242429f316538e1073e3515a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/group__BasicGroup.html#ga042aeb0c2011b3bc175a13e96a447a5f">MR.operator-</a></code>. <br /></td></tr>
+<tr class="memitem:a6d025a0e242429f316538e1073e3515a" id="r_a6d025a0e242429f316538e1073e3515a"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6d025a0e242429f316538e1073e3515a">operator-</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> a, in <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> b)</td></tr>
+<tr class="memdesc:a6d025a0e242429f316538e1073e3515a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator-</code>.  <br /></td></tr>
 <tr class="separator:a6d025a0e242429f316538e1073e3515a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa436f9fa9041d694467cf84621690476" id="r_aa436f9fa9041d694467cf84621690476"><td class="memItemLeft" align="right" valign="top"><a id="aa436f9fa9041d694467cf84621690476" name="aa436f9fa9041d694467cf84621690476"></a>
-static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> (double a, <a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> b)</td></tr>
-<tr class="memdesc:aa436f9fa9041d694467cf84621690476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a74faa3fac803f77476aefb0300f66b51">MR.operator*</a></code>. <br /></td></tr>
+<tr class="memitem:aa436f9fa9041d694467cf84621690476" id="r_aa436f9fa9041d694467cf84621690476"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa436f9fa9041d694467cf84621690476">operator*</a> (double a, <a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> b)</td></tr>
+<tr class="memdesc:aa436f9fa9041d694467cf84621690476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator*</code>.  <br /></td></tr>
 <tr class="separator:aa436f9fa9041d694467cf84621690476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fd95e3c4eda59cfbb98a64344432a01" id="r_a3fd95e3c4eda59cfbb98a64344432a01"><td class="memItemLeft" align="right" valign="top"><a id="a3fd95e3c4eda59cfbb98a64344432a01" name="a3fd95e3c4eda59cfbb98a64344432a01"></a>
-static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator*</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> b, double a)</td></tr>
-<tr class="memdesc:a3fd95e3c4eda59cfbb98a64344432a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a74faa3fac803f77476aefb0300f66b51">MR.operator*</a></code>. <br /></td></tr>
+<tr class="memitem:a3fd95e3c4eda59cfbb98a64344432a01" id="r_a3fd95e3c4eda59cfbb98a64344432a01"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3fd95e3c4eda59cfbb98a64344432a01">operator*</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a> b, double a)</td></tr>
+<tr class="memdesc:a3fd95e3c4eda59cfbb98a64344432a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator*</code>.  <br /></td></tr>
 <tr class="separator:a3fd95e3c4eda59cfbb98a64344432a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac49e2930ac3d76d0386ed8466c4dce98" id="r_ac49e2930ac3d76d0386ed8466c4dce98"><td class="memItemLeft" align="right" valign="top"><a id="ac49e2930ac3d76d0386ed8466c4dce98" name="ac49e2930ac3d76d0386ed8466c4dce98"></a>
-static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>operator/</b> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">ConstBox_Vector4d</a> b, double a)</td></tr>
-<tr class="memdesc:ac49e2930ac3d76d0386ed8466c4dce98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a653c6d940d9780dba354cf0820ade180">MR.operator/</a></code>. <br /></td></tr>
+<tr class="memitem:ac49e2930ac3d76d0386ed8466c4dce98" id="r_ac49e2930ac3d76d0386ed8466c4dce98"><td class="memItemLeft" align="right" valign="top">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac49e2930ac3d76d0386ed8466c4dce98">operator/</a> (<a class="el" href="classMR_1_1ConstBox__Vector4d.html">ConstBox_Vector4d</a> b, double a)</td></tr>
+<tr class="memdesc:ac49e2930ac3d76d0386ed8466c4dce98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from function <code>MR.operator/</code>.  <br /></td></tr>
 <tr class="separator:ac49e2930ac3d76d0386ed8466c4dce98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a3b557b98cc7d9c7f51b57d1dd8c04820" id="r_a3b557b98cc7d9c7f51b57d1dd8c04820"><td class="memItemLeft" align="right" valign="top"><a id="a3b557b98cc7d9c7f51b57d1dd8c04820" name="a3b557b98cc7d9c7f51b57d1dd8c04820"></a>
-virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
+<tr class="memitem:a3b557b98cc7d9c7f51b57d1dd8c04820" id="r_a3b557b98cc7d9c7f51b57d1dd8c04820"><td class="memItemLeft" align="right" valign="top">virtual unsafe void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b557b98cc7d9c7f51b57d1dd8c04820">Dispose</a> (bool disposing)</td></tr>
 <tr class="separator:a3b557b98cc7d9c7f51b57d1dd8c04820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-static-attribs" name="pro-static-attribs"></a>
+Static Protected Attributes</h2></td></tr>
+<tr class="memitem:a773dc40997046fcf601bb119aff73acb" id="r_a773dc40997046fcf601bb119aff73acb"><td class="memItemLeft" align="right" valign="top">static unsafe int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a773dc40997046fcf601bb119aff73acb">__ref_storage_Elements</a></td></tr>
+<tr class="separator:a773dc40997046fcf601bb119aff73acb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="properties" name="properties"></a>
 Properties</h2></td></tr>
-<tr class="memitem:a52d59fa88580e94d9f07162d6d10d1be" id="r_a52d59fa88580e94d9f07162d6d10d1be"><td class="memItemLeft" align="right" valign="top"><a id="a52d59fa88580e94d9f07162d6d10d1be" name="a52d59fa88580e94d9f07162d6d10d1be"></a>
-unsafe ref readonly <a class="el" href="structMR_1_1Vector4d.html">Vector4d</a>&#160;</td><td class="memItemRight" valign="bottom"><b>_Ref</b><code> [get]</code></td></tr>
-<tr class="memdesc:a52d59fa88580e94d9f07162d6d10d1be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the underlying struct. <br /></td></tr>
-<tr class="separator:a52d59fa88580e94d9f07162d6d10d1be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad258ea7f67590501ce4dddad1d9a932e" id="r_ad258ea7f67590501ce4dddad1d9a932e"><td class="memItemLeft" align="right" valign="top"><a id="ad258ea7f67590501ce4dddad1d9a932e" name="ad258ea7f67590501ce4dddad1d9a932e"></a>
-ref readonly double&#160;</td><td class="memItemRight" valign="bottom"><b>x</b><code> [get]</code></td></tr>
+<tr class="memitem:ad258ea7f67590501ce4dddad1d9a932e" id="r_ad258ea7f67590501ce4dddad1d9a932e"><td class="memItemLeft" align="right" valign="top">ref readonly double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad258ea7f67590501ce4dddad1d9a932e">x</a><code> [get]</code></td></tr>
 <tr class="separator:ad258ea7f67590501ce4dddad1d9a932e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab88f008eedcd5c07d18b60d4221c4fa8" id="r_ab88f008eedcd5c07d18b60d4221c4fa8"><td class="memItemLeft" align="right" valign="top"><a id="ab88f008eedcd5c07d18b60d4221c4fa8" name="ab88f008eedcd5c07d18b60d4221c4fa8"></a>
-ref readonly double&#160;</td><td class="memItemRight" valign="bottom"><b>y</b><code> [get]</code></td></tr>
+<tr class="memitem:ab88f008eedcd5c07d18b60d4221c4fa8" id="r_ab88f008eedcd5c07d18b60d4221c4fa8"><td class="memItemLeft" align="right" valign="top">ref readonly double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab88f008eedcd5c07d18b60d4221c4fa8">y</a><code> [get]</code></td></tr>
 <tr class="separator:ab88f008eedcd5c07d18b60d4221c4fa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b20887b3e2022626a4eb49978de818f" id="r_a2b20887b3e2022626a4eb49978de818f"><td class="memItemLeft" align="right" valign="top"><a id="a2b20887b3e2022626a4eb49978de818f" name="a2b20887b3e2022626a4eb49978de818f"></a>
-ref readonly double&#160;</td><td class="memItemRight" valign="bottom"><b>z</b><code> [get]</code></td></tr>
+<tr class="memitem:a2b20887b3e2022626a4eb49978de818f" id="r_a2b20887b3e2022626a4eb49978de818f"><td class="memItemLeft" align="right" valign="top">ref readonly double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b20887b3e2022626a4eb49978de818f">z</a><code> [get]</code></td></tr>
 <tr class="separator:a2b20887b3e2022626a4eb49978de818f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4eb90b2d92aecdaa379e02b4d3f56e7d" id="r_a4eb90b2d92aecdaa379e02b4d3f56e7d"><td class="memItemLeft" align="right" valign="top"><a id="a4eb90b2d92aecdaa379e02b4d3f56e7d" name="a4eb90b2d92aecdaa379e02b4d3f56e7d"></a>
-ref readonly double&#160;</td><td class="memItemRight" valign="bottom"><b>w</b><code> [get]</code></td></tr>
+<tr class="memitem:a4eb90b2d92aecdaa379e02b4d3f56e7d" id="r_a4eb90b2d92aecdaa379e02b4d3f56e7d"><td class="memItemLeft" align="right" valign="top">ref readonly double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4eb90b2d92aecdaa379e02b4d3f56e7d">w</a><code> [get]</code></td></tr>
 <tr class="separator:a4eb90b2d92aecdaa379e02b4d3f56e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff85ad5edad2b8f1c64a80f97cfaa696" id="r_aff85ad5edad2b8f1c64a80f97cfaa696"><td class="memItemLeft" align="right" valign="top"><a id="aff85ad5edad2b8f1c64a80f97cfaa696" name="aff85ad5edad2b8f1c64a80f97cfaa696"></a>
-static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><b>Elements</b><code> [get]</code></td></tr>
+<tr class="memitem:aff85ad5edad2b8f1c64a80f97cfaa696" id="r_aff85ad5edad2b8f1c64a80f97cfaa696"><td class="memItemLeft" align="right" valign="top">static unsafe int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff85ad5edad2b8f1c64a80f97cfaa696">Elements</a><code> [get]</code></td></tr>
 <tr class="separator:aff85ad5edad2b8f1c64a80f97cfaa696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4a90f29494e769baf69a9c5f88b585a" id="r_ab4a90f29494e769baf69a9c5f88b585a"><td class="memItemLeft" align="right" valign="top"><a id="ab4a90f29494e769baf69a9c5f88b585a" name="ab4a90f29494e769baf69a9c5f88b585a"></a>
-unsafe double&#160;</td><td class="memItemRight" valign="bottom"><b>this[int e]</b><code> [get]</code></td></tr>
-<tr class="memdesc:ab4a90f29494e769baf69a9c5f88b585a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code>MR.Vector4d.operator[]</code>. <br /></td></tr>
+<tr class="memitem:ab4a90f29494e769baf69a9c5f88b585a" id="r_ab4a90f29494e769baf69a9c5f88b585a"><td class="memItemLeft" align="right" valign="top">unsafe double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab4a90f29494e769baf69a9c5f88b585a">this[int e]</a><code> [get]</code></td></tr>
+<tr class="memdesc:ab4a90f29494e769baf69a9c5f88b585a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generated from method <code>MR.Vector4d.operator[]</code>.  <br /></td></tr>
 <tr class="separator:ab4a90f29494e769baf69a9c5f88b585a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header properties_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('properties_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Properties inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; ConstBox_Vector4d &gt;</a></td></tr>
-<tr class="memitem:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object" id="r_a4ba8e4178c1dc86ea8037d127dcac158"><td class="memItemLeft" align="right" valign="top">
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwning</b><code> [get]</code></td></tr>
-<tr class="memdesc:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is an owning instance, and when disposed, will destroy the underlying C++ instance. If false, we assume that the underlying C++ instance will live long enough. <br /></td></tr>
-<tr class="separator:a4ba8e4178c1dc86ea8037d127dcac158 inherit properties_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_classMR_1_1Misc_1_1Object"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pro_attribs_classMR_1_1Misc_1_1Object')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classMR_1_1Misc_1_1Object.html">MR.Misc.Object&lt; ConstBox_Vector4d &gt;</a></td></tr>
-<tr class="memitem:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object" id="r_adb2798eb463f3851040c59467ab7344c"><td class="memItemLeft" align="right" valign="top">
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td></tr>
-<tr class="separator:adb2798eb463f3851040c59467ab7344c inherit pro_attribs_classMR_1_1Misc_1_1Object"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>four-dimensional vector Generated from class <code><a class="el" href="structMR_1_1Vector4d.html" title="four-dimensional vector Generated from class MR.Vector4d. This is the by-value version of the struct.">MR.Vector4d</a></code>. This is the const reference to the struct. </p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li><b>MRVector4.cs</b></li>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ade8e66de359d62665489da7da09b6d97" name="ade8e66de359d62665489da7da09b6d97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade8e66de359d62665489da7da09b6d97">&#9670;&#160;</a></span>ConstBox_Vector4d() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.ConstBox_Vector4d.ConstBox_Vector4d </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Vector4d.html">Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Make a copy of a struct. (Even though we initially pass <code>is_owning: false</code>, we then use the copy constructor to produce an owning instance.) </p>
+
+</div>
+</div>
+<a id="a58d1470db15a25646a7b672f69946b9b" name="a58d1470db15a25646a7b672f69946b9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d1470db15a25646a7b672f69946b9b">&#9670;&#160;</a></span>ConstBox_Vector4d() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.ConstBox_Vector4d.ConstBox_Vector4d </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>_other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated copy constructor. </p>
+
+</div>
+</div>
+<a id="a0dd8b40e7ff0695ad8b3d5462c24899f" name="a0dd8b40e7ff0695ad8b3d5462c24899f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dd8b40e7ff0695ad8b3d5462c24899f">&#9670;&#160;</a></span>ConstBox_Vector4d() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.ConstBox_Vector4d.ConstBox_Vector4d </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs an empty (default-constructed) instance. </p>
+
+</div>
+</div>
+<a id="a1de44b6a1a8d16691cafc3e85f0652c6" name="a1de44b6a1a8d16691cafc3e85f0652c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1de44b6a1a8d16691cafc3e85f0652c6">&#9670;&#160;</a></span>ConstBox_Vector4d() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.ConstBox_Vector4d.ConstBox_Vector4d </td>
+          <td>(</td>
+          <td class="paramtype">MR.Const_NoInit</td>          <td class="paramname"><span class="paramname"><em>_1</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from constructor <code><a class="el" href="structMR_1_1Vector4d.html#a6d3ad955d65862856bb5adb590678154" title="Generated copy constructor.">MR.Vector4d.Vector4d</a></code>. </p>
+
+</div>
+</div>
+<a id="a9e7962323e75389d3230be22e5544039" name="a9e7962323e75389d3230be22e5544039"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7962323e75389d3230be22e5544039">&#9670;&#160;</a></span>ConstBox_Vector4d() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe MR.ConstBox_Vector4d.ConstBox_Vector4d </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>y</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>z</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>w</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from constructor <code><a class="el" href="structMR_1_1Vector4d.html#a6d3ad955d65862856bb5adb590678154" title="Generated copy constructor.">MR.Vector4d.Vector4d</a></code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a412e1b89fd8794c779c241ff3a387741" name="a412e1b89fd8794c779c241ff3a387741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a412e1b89fd8794c779c241ff3a387741">&#9670;&#160;</a></span>diagonal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> MR.ConstBox_Vector4d.diagonal </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#aa7f166d1ecb27dc9f9332784acbb4dc2" title="Generated from method MR.Vector4d.diagonal.">MR.Vector4d.diagonal</a></code>. </p>
+
+</div>
+</div>
+<a id="a19bca6cd3aa01e32d18e5886899a97a8" name="a19bca6cd3aa01e32d18e5886899a97a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19bca6cd3aa01e32d18e5886899a97a8">&#9670;&#160;</a></span>Dispose() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void MR.ConstBox_Vector4d.Dispose </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3b557b98cc7d9c7f51b57d1dd8c04820" name="a3b557b98cc7d9c7f51b57d1dd8c04820"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b557b98cc7d9c7f51b57d1dd8c04820">&#9670;&#160;</a></span>Dispose() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual unsafe void MR.ConstBox_Vector4d.Dispose </td>
+          <td>(</td>
+          <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>disposing</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afff2b0787b08eec758933a4352a9ad0d" name="afff2b0787b08eec758933a4352a9ad0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afff2b0787b08eec758933a4352a9ad0d">&#9670;&#160;</a></span>Equals() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool MR.ConstBox_Vector4d.Equals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a>?</td>          <td class="paramname"><span class="paramname"><em>b</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab95fc5c4c6de850c0dc4d5430046506e" name="ab95fc5c4c6de850c0dc4d5430046506e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab95fc5c4c6de850c0dc4d5430046506e">&#9670;&#160;</a></span>Equals() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override bool MR.ConstBox_Vector4d.Equals </td>
+          <td>(</td>
+          <td class="paramtype">object?</td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a344d982b5e96046347dcae9503783d3d" name="a344d982b5e96046347dcae9503783d3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a344d982b5e96046347dcae9503783d3d">&#9670;&#160;</a></span>isFinite()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe bool MR.ConstBox_Vector4d.isFinite </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#a240330348f934b8d7fe6eb61f7fe7e1e" title="Generated from method MR.Vector4d.isFinite.">MR.Vector4d.isFinite</a></code>. </p>
+
+</div>
+</div>
+<a id="a130673c2be84701087c4e610ab9321ca" name="a130673c2be84701087c4e610ab9321ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a130673c2be84701087c4e610ab9321ca">&#9670;&#160;</a></span>length()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe double MR.ConstBox_Vector4d.length </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#a2fba2fdb6f40c7d758ad10de9f2eafdc" title="Generated from method MR.Vector4d.length.">MR.Vector4d.length</a></code>. </p>
+
+</div>
+</div>
+<a id="a6e9142f244f34b5042c66d4de74202f7" name="a6e9142f244f34b5042c66d4de74202f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e9142f244f34b5042c66d4de74202f7">&#9670;&#160;</a></span>lengthSq()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe double MR.ConstBox_Vector4d.lengthSq </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#a4e4c4180b1f8bdab7972f9e92e4dbf79" title="Generated from method MR.Vector4d.lengthSq.">MR.Vector4d.lengthSq</a></code>. </p>
+
+</div>
+</div>
+<a id="a9392e0e20a0a87a4311449f34558d5a4" name="a9392e0e20a0a87a4311449f34558d5a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9392e0e20a0a87a4311449f34558d5a4">&#9670;&#160;</a></span>normalized()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> MR.ConstBox_Vector4d.normalized </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#ab94fd5ae9452b628863121083fa2397f" title="Generated from method MR.Vector4d.normalized.">MR.Vector4d.normalized</a></code>. </p>
+
+</div>
+</div>
+<a id="a67877fbfb7f991b0a8fc8d4e48c3bff0" name="a67877fbfb7f991b0a8fc8d4e48c3bff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67877fbfb7f991b0a8fc8d4e48c3bff0">&#9670;&#160;</a></span>operator ConstBox_Vector4d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static implicit MR.ConstBox_Vector4d.operator <a class="el" href="classMR_1_1ConstBox__Vector4d.html">ConstBox_Vector4d</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Vector4d.html">Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>other</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert from a struct by copying it. Note that only <code><a class="el" href="classMR_1_1ConstBox__Vector4d.html" title="four-dimensional vector Generated from class MR.Vector4d. This is the const reference to the struct.">ConstBox_Vector4d</a></code> has this conversion, <code><a class="el" href="classMR_1_1Box__Vector4d.html" title="four-dimensional vector Generated from class MR.Vector4d. This is the non-const reference to the stru...">Box_Vector4d</a></code> intentionally doesn't. </p>
+
+</div>
+</div>
+<a id="ab686569f68d1d11a4a015af2367cc1b8" name="ab686569f68d1d11a4a015af2367cc1b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab686569f68d1d11a4a015af2367cc1b8">&#9670;&#160;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe bool MR.ConstBox_Vector4d.operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa436f9fa9041d694467cf84621690476" name="aa436f9fa9041d694467cf84621690476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa436f9fa9041d694467cf84621690476">&#9670;&#160;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> MR.ConstBox_Vector4d.operator* </td>
+          <td>(</td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code>MR.operator*</code>. </p>
+
+</div>
+</div>
+<a id="a3fd95e3c4eda59cfbb98a64344432a01" name="a3fd95e3c4eda59cfbb98a64344432a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fd95e3c4eda59cfbb98a64344432a01">&#9670;&#160;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> MR.ConstBox_Vector4d.operator* </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code>MR.operator*</code>. </p>
+
+</div>
+</div>
+<a id="aeafc1e9235ae7df24b7844379f4785b7" name="aeafc1e9235ae7df24b7844379f4785b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeafc1e9235ae7df24b7844379f4785b7">&#9670;&#160;</a></span>operator+() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe MR.Misc.ConstRef&lt; <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> &gt; MR.ConstBox_Vector4d.operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code>MR.operator+</code>. </p>
+
+</div>
+</div>
+<a id="a3f86e8c30bbe6ff5bdef956c317f77a0" name="a3f86e8c30bbe6ff5bdef956c317f77a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f86e8c30bbe6ff5bdef956c317f77a0">&#9670;&#160;</a></span>operator+() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> MR.ConstBox_Vector4d.operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code>MR.operator+</code>. </p>
+
+</div>
+</div>
+<a id="a586d2437112ce888ba6924c7fad14b32" name="a586d2437112ce888ba6924c7fad14b32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a586d2437112ce888ba6924c7fad14b32">&#9670;&#160;</a></span>operator-() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> MR.ConstBox_Vector4d.operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code>MR.operator-</code>. </p>
+
+</div>
+</div>
+<a id="a6d025a0e242429f316538e1073e3515a" name="a6d025a0e242429f316538e1073e3515a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d025a0e242429f316538e1073e3515a">&#9670;&#160;</a></span>operator-() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> MR.ConstBox_Vector4d.operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">in <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code>MR.operator-</code>. </p>
+
+</div>
+</div>
+<a id="ac49e2930ac3d76d0386ed8466c4dce98" name="ac49e2930ac3d76d0386ed8466c4dce98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac49e2930ac3d76d0386ed8466c4dce98">&#9670;&#160;</a></span>operator/()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe <a class="el" href="structMR_1_1Vector4d.html">MR.Vector4d</a> MR.ConstBox_Vector4d.operator/ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double</td>          <td class="paramname"><span class="paramname"><em>a</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code>MR.operator/</code>. </p>
+
+</div>
+</div>
+<a id="a9dadf379e70cf21e9afa5e2c800b2eaa" name="a9dadf379e70cf21e9afa5e2c800b2eaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dadf379e70cf21e9afa5e2c800b2eaa">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static unsafe bool MR.ConstBox_Vector4d.operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>a</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">MR.ConstBox_Vector4d</a></td>          <td class="paramname"><span class="paramname"><em>b</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from function <code>MR.operator==</code>. </p>
+
+</div>
+</div>
+<a id="a87b4e8510c0571f04b342fd530975b46" name="a87b4e8510c0571f04b342fd530975b46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87b4e8510c0571f04b342fd530975b46">&#9670;&#160;</a></span>proj3d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe <a class="el" href="structMR_1_1Vector3d.html">MR.Vector3d</a> MR.ConstBox_Vector4d.proj3d </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>assuming this is a point represented in homogeneous 4D coordinates, returns the point as 3D-vector Generated from method <code><a class="el" href="structMR_1_1Vector4d.html#aa1cc554778ee8a739e4bda9942198413" title="assuming this is a point represented in homogeneous 4D coordinates, returns the point as 3D-vector Ge...">MR.Vector4d.proj3d</a></code>. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a773dc40997046fcf601bb119aff73acb" name="a773dc40997046fcf601bb119aff73acb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a773dc40997046fcf601bb119aff73acb">&#9670;&#160;</a></span>__ref_storage_Elements</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int* MR.ConstBox_Vector4d.__ref_storage_Elements</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Property Documentation</h2>
+<a id="aff85ad5edad2b8f1c64a80f97cfaa696" name="aff85ad5edad2b8f1c64a80f97cfaa696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff85ad5edad2b8f1c64a80f97cfaa696">&#9670;&#160;</a></span>Elements</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe int MR.ConstBox_Vector4d.Elements</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab4a90f29494e769baf69a9c5f88b585a" name="ab4a90f29494e769baf69a9c5f88b585a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4a90f29494e769baf69a9c5f88b585a">&#9670;&#160;</a></span>this[int e]</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsafe double MR.ConstBox_Vector4d.this[int e]</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generated from method <code>MR.Vector4d.operator[]</code>. </p>
+
+</div>
+</div>
+<a id="a4eb90b2d92aecdaa379e02b4d3f56e7d" name="a4eb90b2d92aecdaa379e02b4d3f56e7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eb90b2d92aecdaa379e02b4d3f56e7d">&#9670;&#160;</a></span>w</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ref readonly double MR.ConstBox_Vector4d.w</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad258ea7f67590501ce4dddad1d9a932e" name="ad258ea7f67590501ce4dddad1d9a932e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad258ea7f67590501ce4dddad1d9a932e">&#9670;&#160;</a></span>x</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ref readonly double MR.ConstBox_Vector4d.x</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab88f008eedcd5c07d18b60d4221c4fa8" name="ab88f008eedcd5c07d18b60d4221c4fa8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab88f008eedcd5c07d18b60d4221c4fa8">&#9670;&#160;</a></span>y</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ref readonly double MR.ConstBox_Vector4d.y</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b20887b3e2022626a4eb49978de818f" name="a2b20887b3e2022626a4eb49978de818f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b20887b3e2022626a4eb49978de818f">&#9670;&#160;</a></span>z</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ref readonly double MR.ConstBox_Vector4d.z</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
+<li><a class="el" href="MRVector4_8cs.html">MRVector4.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -329,7 +1154,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_IsOwningVal</b></td>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><b>MR</b></li><li class="navelem"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">ConstBox_Vector4d</a></li>
+    <li class="navelem"><a class="el" href="classMR.html">MR</a></li><li class="navelem"><a class="el" href="classMR_1_1ConstBox__Vector4d.html">ConstBox_Vector4d</a></li>
     <li class="footer">Generated by <a rel="nofollow" href="https://www.doxygen.nl/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>

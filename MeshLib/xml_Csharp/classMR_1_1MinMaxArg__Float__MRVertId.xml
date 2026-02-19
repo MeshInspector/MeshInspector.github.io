@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MinMaxArg__Float__MRVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::MinMaxArg_Float_MRVertId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_MinMaxArg_Float_MRVertId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.MinMaxArg_Float_MRVertId.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="147" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.MinMaxArg_Float_MRVertId.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="149" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MinMaxArg__Float__MRVertId_1a880bc299710dc5fa00b7edb99c7a0f57" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>new unsafe ref MR.VertId MR.MinMaxArg_Float_MRVertId.minArg</definition>
+        <argsstring></argsstring>
+        <name>minArg</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.minArg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="151" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MinMaxArg__Float__MRVertId_1ad518fbaf3c139531504a785f7bf66afb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>new unsafe ref MR.VertId MR.MinMaxArg_Float_MRVertId.maxArg</definition>
+        <argsstring></argsstring>
+        <name>maxArg</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.maxArg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="153" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MinMaxArg__Float__MRVertId_1a667f421893a6272743cf87429d93b314" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MinMaxArg_Float_MRVertId</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="157" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="157" bodyend="161"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MinMaxArg__Float__MRVertId_1a593ae0df341b3e23f88c0290df4bf5b5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>MinMaxArg_Float_MRVertId</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="167" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="167" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MinMaxArg__Float__MRVertId_1abb40813da45ba405964f4b6988413d44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</definition>
+        <argsstring>(float min, float max, MR.VertId minArg, MR.VertId maxArg)</argsstring>
+        <name>MinMaxArg_Float_MRVertId</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>minArg</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>maxArg</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="178" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="178" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MinMaxArg__Float__MRVertId_1a2da7f9810e91055e5f18787db81d918f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</definition>
+        <argsstring>(MR.Const_MinMaxArg_Float_MRVertId _other)</argsstring>
+        <name>MinMaxArg_Float_MRVertId</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</qualifiedname>
+        <param>
+          <type>MR.Const_MinMaxArg_Float_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::MinMaxArg</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="189" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="189" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MinMaxArg__Float__MRVertId_1a525b200de9e5d33448df1363ea306937" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</definition>
+        <argsstring>(MinMaxArg_Float_MRVertId _other)</argsstring>
+        <name>MinMaxArg_Float_MRVertId</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.MinMaxArg_Float_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MinMaxArg__Float__MRVertId" kindref="compound">MinMaxArg_Float_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::MinMaxArg</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="201" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="201" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MinMaxArg__Float__MRVertId_1a8b1b65991ba3cd5eb183814f45427d51" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MinMaxArg__Float__MRVertId" kindref="compound">MR.MinMaxArg_Float_MRVertId</ref></type>
+        <definition>unsafe MR.MinMaxArg_Float_MRVertId MR.MinMaxArg_Float_MRVertId.assign</definition>
+        <argsstring>(MR.Const_MinMaxArg_Float_MRVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.assign</qualifiedname>
+        <param>
+          <type>MR.Const_MinMaxArg_Float_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="206" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="206" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MinMaxArg__Float__MRVertId_1a793fc535623cb7c09b0daac2d7b4072e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MinMaxArg_Float_MRVertId.include</definition>
+        <argsstring>(MR.Std.Const_Pair_Float_MRVertId p)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.include</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Pair_Float_MRVertId</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>changes <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" kindref="member">min(Arg)</ref> and <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" kindref="member">max(Arg)</ref> if necessary to include given point Generated from method <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::include</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="219" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="219" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MinMaxArg__Float__MRVertId_1a71856a548ad8abf1fd99f178bdd1443a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MinMaxArg_Float_MRVertId.include</definition>
+        <argsstring>(float v, MR.VertId arg)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.include</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>arg</declname>
+        </param>
+        <briefdescription>
+<para>changes <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" kindref="member">min(Arg)</ref> and <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" kindref="member">max(Arg)</ref> if necessary to include given point Generated from method <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::include</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="230" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="230" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MinMaxArg__Float__MRVertId_1a949fb183b749fffd24840bd3133fd1f7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.MinMaxArg_Float_MRVertId.include</definition>
+        <argsstring>(MR.Const_MinMaxArg_Float_MRVertId s)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR.MinMaxArg_Float_MRVertId.include</qualifiedname>
+        <param>
+          <type>MR.Const_MinMaxArg_Float_MRVertId</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+<para>changes <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" kindref="member">min(Arg)</ref> and <ref refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" kindref="member">max(Arg)</ref> if necessary to include given segment Generated from method <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::include</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="241" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="241" bodyend="246"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>minimum and maximum of some elements of type T, and the indices of where minimum and maximum are reached of type I Generated from class <computeroutput>MR.MinMaxArg&lt;float, <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MinMaxArg_Float_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MinMaxArg_Float_MRVertId</label>
+        <link refid="classMR_1_1MinMaxArg__Float__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MinMaxArg_Float_MRVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MinMaxArg_Float_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MinMaxArg_Float_MRVertId</label>
+        <link refid="classMR_1_1MinMaxArg__Float__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MinMaxArg_Float_MRVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" line="145" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMinMaxArg.cs" bodystart="146" bodyend="247"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8b1b65991ba3cd5eb183814f45427d51" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a793fc535623cb7c09b0daac2d7b4072e" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>include</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a71856a548ad8abf1fd99f178bdd1443a" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>include</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a949fb183b749fffd24840bd3133fd1f7" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>include</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a8ba0fa645893067e242862e3bf046b6d" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>max</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1ad518fbaf3c139531504a785f7bf66afb" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>maxArg</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a18ee707d0a21ffbf6ae19c9929a7621d" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>min</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a880bc299710dc5fa00b7edb99c7a0f57" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>minArg</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a667f421893a6272743cf87429d93b314" prot="package" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a593ae0df341b3e23f88c0290df4bf5b5" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1abb40813da45ba405964f4b6988413d44" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a2da7f9810e91055e5f18787db81d918f" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>MinMaxArg_Float_MRVertId</name></member>
+      <member refid="classMR_1_1MinMaxArg__Float__MRVertId_1a525b200de9e5d33448df1363ea306937" prot="public" virt="non-virtual"><scope>MR::MinMaxArg_Float_MRVertId</scope><name>MinMaxArg_Float_MRVertId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,597 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VolumeIndexer" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VolumeIndexer</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a7c82f8f2cee6cf99634aea67782f8fb3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeIndexer.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72364" bodyend="72365"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a41f3c1b2af84a9570488d6fe181d2323" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref></type>
+        <definition> VolumeIndexer mrmeshpy.VolumeIndexer.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72368" bodyend="72369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a41f3c1b2af84a9570488d6fe181d2323" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref></type>
+        <definition> VolumeIndexer mrmeshpy.VolumeIndexer.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72372" bodyend="72373"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a79cadf2f92f6110af67d8722acf8715d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeIndexer.__init__</definition>
+        <argsstring>(self, Vector3i dims)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72375" bodyend="72376"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a3c1125afb0f09b71ee8d9f5f9c56fe8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VolumeIndexer.__init__</definition>
+        <argsstring>(self, VolumeIndexer arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VolumeIndexer" kindref="compound">VolumeIndexer</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72378" bodyend="72381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1ad4da5334bc7f5b675c432c15d0f8a19b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VolumeIndexer.areNeigbors</definition>
+        <argsstring>(self, VoxelId v0, VoxelId v1)</argsstring>
+        <name>areNeigbors</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.areNeigbors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if v1 is within at most 6 neighbors of v0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72383" bodyend="72386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a61107622223c9d5a817b4b14d448bd19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VolumeIndexer.areNeigbors</definition>
+        <argsstring>(self, Vector3i pos0, Vector3i pos1)</argsstring>
+        <name>areNeigbors</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.areNeigbors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72388" bodyend="72389"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1afabf9705c1b6d7911634a5bc1d536485" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.VolumeIndexer.dims</definition>
+        <argsstring>(self)</argsstring>
+        <name>dims</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.dims</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72390" bodyend="72391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1ad294f7b10374b3a5af9088cfed027fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VolumeIndexer.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the last plus one voxel Id for defining iteration range
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72392" bodyend="72395"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a82137cdd5d805d72974516175ca5c9c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VolumeIndexer.getExistingNeighbor</definition>
+        <argsstring>(self, VoxelId v, OutEdge toNei)</argsstring>
+        <name>getExistingNeighbor</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.getExistingNeighbor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns id of v&apos;s neighbor specified by the edge, which is known to exist (so skipping a lot of checks)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72396" bodyend="72399"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a65cbc4f95ffc7de6b8d31bc2a0301bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VolumeIndexer.getNeighbor</definition>
+        <argsstring>(self, VoxelId v, OutEdge toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns id of v&apos;s neighbor specified by the edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72401" bodyend="72404"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1adc8559fcc96610e700d3c34830a1fe6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VolumeIndexer.getNeighbor</definition>
+        <argsstring>(self, VoxelId v, Vector3i pos, OutEdge toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72406" bodyend="72407"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1aaec79578ede05e01e9d013ae63adb30f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelLocation" kindref="compound">VoxelLocation</ref></type>
+        <definition> VoxelLocation mrmeshpy.VolumeIndexer.getNeighbor</definition>
+        <argsstring>(self, VoxelLocation loc, OutEdge toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelLocation" kindref="compound">VoxelLocation</ref></type>
+          <declname>loc</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given existing voxel at (loc), returns its neighbor specified by the edge (toNei);
+if the neighbour does not exist (loc is on boundary), returns invalid VoxelLocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72409" bodyend="72413"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a7c9cec0de5b43f326560e74a8ea2382c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VolumeIndexer.getNeighbor</definition>
+        <argsstring>(self, VoxelId v, Vector3i pos, bool bdPos, OutEdge toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bdPos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72415" bodyend="72416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1ae1440d01ec5512f6e2f54cefe35c6a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VolumeIndexer.hasNeighbour</definition>
+        <argsstring>(self, Vector3i pos, OutEdge toNei)</argsstring>
+        <name>hasNeighbour</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.hasNeighbour</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutEdge" kindref="compound">OutEdge</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>given existing voxel at (pos), returns whether it has valid neighbor specified by the edge (toNei)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72417" bodyend="72420"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1aecf126e5ead305f4117f199f09131a1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VolumeIndexer.isBdVoxel</definition>
+        <argsstring>(self, Vector3i pos)</argsstring>
+        <name>isBdVoxel</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.isBdVoxel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if this voxel is on the boundary of the volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72421" bodyend="72424"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1aa4c92fc65aaee46249491a8e33ad0b0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VolumeIndexer.isInDims</definition>
+        <argsstring>(self, Vector3i pos)</argsstring>
+        <name>isInDims</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.isInDims</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if this voxel is within dimensions
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72425" bodyend="72428"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a63effda0babaa3d4d0c9aa7355be7cc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeIndexer.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the total number of voxels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72429" bodyend="72432"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a248716c8f08af83988fe67a0e881b8f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VolumeIndexer.sizeXY</definition>
+        <argsstring>(self)</argsstring>
+        <name>sizeXY</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.sizeXY</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72433" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72433" bodyend="72434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a1685991f2a3a0f29ddd030ea24c1329e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelLocation" kindref="compound">VoxelLocation</ref></type>
+        <definition> VoxelLocation mrmeshpy.VolumeIndexer.toLoc</definition>
+        <argsstring>(self, VoxelId id)</argsstring>
+        <name>toLoc</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.toLoc</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72436" bodyend="72437"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a0bab3c154527214f99784a2c458afa96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelLocation" kindref="compound">VoxelLocation</ref></type>
+        <definition> VoxelLocation mrmeshpy.VolumeIndexer.toLoc</definition>
+        <argsstring>(self, Vector3i pos)</argsstring>
+        <name>toLoc</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.toLoc</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72439" bodyend="72440"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1a2c2aa0eba5ee7cb3705abe51c4c5a4bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.VolumeIndexer.toPos</definition>
+        <argsstring>(self, VoxelId id)</argsstring>
+        <name>toPos</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.toPos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72441" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72441" bodyend="72442"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VolumeIndexer_1af822cad2f45ce27a1d069b4b9e6bfb46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.VolumeIndexer.toVoxelId</definition>
+        <argsstring>(self, Vector3i pos)</argsstring>
+        <name>toVoxelId</name>
+        <qualifiedname>mrmeshpy.VolumeIndexer.toVoxelId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72443" bodyend="72444"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VolumeIndexer
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72358" bodyend="72444"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a7c82f8f2cee6cf99634aea67782f8fb3" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a79cadf2f92f6110af67d8722acf8715d" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a3c1125afb0f09b71ee8d9f5f9c56fe8c" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1ad4da5334bc7f5b675c432c15d0f8a19b" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>areNeigbors</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a61107622223c9d5a817b4b14d448bd19" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>areNeigbors</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1afabf9705c1b6d7911634a5bc1d536485" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>dims</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1ad294f7b10374b3a5af9088cfed027fbf" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a82137cdd5d805d72974516175ca5c9c3" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>getExistingNeighbor</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a65cbc4f95ffc7de6b8d31bc2a0301bef" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1adc8559fcc96610e700d3c34830a1fe6e" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1aaec79578ede05e01e9d013ae63adb30f" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a7c9cec0de5b43f326560e74a8ea2382c" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1ae1440d01ec5512f6e2f54cefe35c6a4d" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>hasNeighbour</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1aecf126e5ead305f4117f199f09131a1c" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>isBdVoxel</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1aa4c92fc65aaee46249491a8e33ad0b0a" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>isInDims</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a41f3c1b2af84a9570488d6fe181d2323" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a41f3c1b2af84a9570488d6fe181d2323" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a63effda0babaa3d4d0c9aa7355be7cc3" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a248716c8f08af83988fe67a0e881b8f9" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>sizeXY</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a1685991f2a3a0f29ddd030ea24c1329e" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>toLoc</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a0bab3c154527214f99784a2c458afa96" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>toLoc</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1a2c2aa0eba5ee7cb3705abe51c4c5a4bc" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>toPos</name></member>
+      <member refid="classmrmeshpy_1_1VolumeIndexer_1af822cad2f45ce27a1d069b4b9e6bfb46" prot="public" virt="non-virtual"><scope>mrmeshpy::VolumeIndexer</scope><name>toVoxelId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

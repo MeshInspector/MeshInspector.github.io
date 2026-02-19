@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRTextureColors_8h" kind="file" language="C++">
+    <compoundname>MRTextureColors.h</compoundname>
+    <includes local="yes">MRMeshFwd.h</includes>
+    <includes local="no">optional</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRTextureColors.h</label>
+        <link refid="MRTextureColors_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="3">
+        <label>optional</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="group__GeneralGroup_1ga228fd3f15dfd62cae2cd96578e019c9d" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;UVCoord&gt;<sp/><ref refid="group__GeneralGroup_1ga228fd3f15dfd62cae2cd96578e019c9d" kindref="member">findVertexUV</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TriCornerUVCoords&amp;<sp/>triCornerUvCoords<sp/>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga66d4d2959eb1a39fea41beb266bc070f" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;VertUVCoords&gt;<sp/><ref refid="group__GeneralGroup_1ga66d4d2959eb1a39fea41beb266bc070f" kindref="member">findVertexUVs</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref>&amp;<sp/>topology,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TriCornerUVCoords&amp;<sp/>triCornerUvCoords<sp/>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gaec77a6bfc580adda65939479fe650ed3" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="group__GeneralGroup_1gaec77a6bfc580adda65939479fe650ed3" kindref="member">sampleVertexColor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/>VertId<sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref>&amp;<sp/>tex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TriCornerUVCoords&amp;<sp/>triCornerUvCoords<sp/>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gabcc85ae5479c89af9d661cb1b69408b2" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>VertColors<sp/><ref refid="group__GeneralGroup_1gabcc85ae5479c89af9d661cb1b69408b2" kindref="member">sampleVertexColors</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MeshTexture" kindref="compound">MeshTexture</ref>&amp;<sp/>tex,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>TriCornerUVCoords&amp;<sp/>triCornerUvCoords<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTextureColors.h"/>
+  </compounddef>
+</doxygen>

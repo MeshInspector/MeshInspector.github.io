@@ -1,0 +1,535 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespacemrcudapy" kind="namespace" language="Python">
+    <compoundname>mrcudapy</compoundname>
+    <innerclass refid="classmrcudapy_1_1ComputeToolDistance" prot="public">mrcudapy::ComputeToolDistance</innerclass>
+    <innerclass refid="classmrcudapy_1_1FastWindingNumber" prot="public">mrcudapy::FastWindingNumber</innerclass>
+    <innerclass refid="classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int" prot="public">mrcudapy::func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int</innerclass>
+    <innerclass refid="classmrcudapy_1_1PointsProjector" prot="public">mrcudapy::PointsProjector</innerclass>
+    <innerclass refid="classmrcudapy_1_1PointsToMeshProjector" prot="public">mrcudapy::PointsToMeshProjector</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemrcudapy_1a18c28b9159d5f6f7633098816c307ec1" prot="private" static="no" mutable="no">
+        <type>list</type>
+        <definition>list mrcudapy.__all__</definition>
+        <argsstring></argsstring>
+        <name>__all__</name>
+        <qualifiedname>mrcudapy.__all__</qualifiedname>
+        <initializer>=  [&apos;<ref refid="classmrcudapy_1_1ComputeToolDistance" kindref="compound">ComputeToolDistance</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1FastWindingNumber" kindref="compound">FastWindingNumber</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1PointsProjector" kindref="compound">PointsProjector</ref>&apos;, &apos;<ref refid="classmrcudapy_1_1PointsToMeshProjector" kindref="compound">PointsToMeshProjector</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1afb6959a79e7044add2174d0f636bbce7" kindref="member">computeDistanceMap</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1af293abec06c54894a7f9650efd31e859" kindref="member">computeDistanceMapHeapBytes</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1acd91e89fc658222b8fe9768b542f21bd" kindref="member">computeSkyViewFactor</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a9279d8b3b9636326c4f24d472afdff1d" kindref="member">distanceMapFromContours</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1aa2b49002b37ad8f472a8719e6159e44b" kindref="member">distanceMapFromContoursHeapBytes</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a59989212e13f232a4b791e381d5a15a0" kindref="member">findProjectionOnPoints</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a09d73a60abca6c21fb5ef173a46f3158" kindref="member">findProjectionOnPointsHeapBytes</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a331da1fe9e3cbd4669da50a822548ca3" kindref="member">findSkyRays</ref>&apos;, &apos;func_bool_from_float&apos;, &apos;<ref refid="classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int" kindref="compound">func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int</ref>&apos;, &apos;func_tl_expected_void_std_string_from_std_vector_float_Vector3_int_int&apos;, &apos;<ref refid="namespacemrcudapy_1aa0b99ba36260a5a8fb0925f8dc79d28a" kindref="member">getCudaAvailableMemory</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a8a9ec4e4e7f0e927968c4198510a4d27" kindref="member">getCudaSafeMemoryLimit</ref>&apos;, &apos;int_output&apos;, &apos;<ref refid="namespacemrcudapy_1ac887b4b7e6c7b2f7fa04dbdabfe3729e" kindref="member">isCudaAvailable</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a7eeb8fdf5c4a0f5fd36f5fdbcac52750" kindref="member">loadMRCudaDll</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a0f3d742e597ab7ff194ad31849af50ad" kindref="member">maxBufferSize</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a2da59a8bdd79841ce316551f4a414e92" kindref="member">maxBufferSizeAlignedByBlock</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1ac3163db5e369a9de3b776b9110700924" kindref="member">negatePicture</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1abacc3f1ddc84e70bb38d8d75c6595bd3" kindref="member">pointsToDistanceVolume</ref>&apos;, &apos;<ref refid="namespacemrcudapy_1a1517d1e5cac8d356c12190982d458964" kindref="member">pointsToDistanceVolumeByParts</ref>&apos;, &apos;std_vector_MeshIntersectionResult&apos;, &apos;std_vector_MeshProjectionResult&apos;, &apos;std_vector_MeshTriPoint&apos;, &apos;std_vector_PointsProjectionResult&apos;, &apos;std_vector_SkyPatch&apos;, &apos;std_vector_Vector3_float&apos;, &apos;std_vector_Vector3f&apos;, &apos;std_vector_float&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacemrcudapy_1afb6959a79e7044add2174d0f636bbce7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.DistanceMap</type>
+        <definition> meshlib.mrmeshpy.DistanceMap mrcudapy.computeDistanceMap</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh mesh, meshlib.mrmeshpy.MeshToDistanceMapParams params, meshlib.mrmeshpy.func_bool_from_float cb=&apos;{}&apos;, meshlib.mrmeshpy.std_vector_MeshTriPoint outSamples=None)</argsstring>
+        <name>computeDistanceMap</name>
+        <qualifiedname>mrcudapy.computeDistanceMap</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.MeshToDistanceMapParams</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.func_bool_from_float</type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_MeshTriPoint</type>
+          <declname>outSamples</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes distance (height) map for given projection parameters
+using float-precision for finding ray-mesh intersections, which is faster but less reliable
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="174" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1af293abec06c54894a7f9650efd31e859" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.computeDistanceMapHeapBytes</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh mesh, meshlib.mrmeshpy.MeshToDistanceMapParams params, bool needOutSamples=False)</argsstring>
+        <name>computeDistanceMapHeapBytes</name>
+        <qualifiedname>mrcudapy.computeDistanceMapHeapBytes</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.MeshToDistanceMapParams</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>needOutSamples</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Computes memory consumption of computeDistanceMap function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1acd91e89fc658222b8fe9768b542f21bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.VertScalars</type>
+        <definition> meshlib.mrmeshpy.VertScalars mrcudapy.computeSkyViewFactor</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh terrain, meshlib.mrmeshpy.VertCoords samples, meshlib.mrmeshpy.VertBitSet validSamples, meshlib.mrmeshpy.std_vector_SkyPatch skyPatches, meshlib.mrmeshpy.BitSet outSkyRays=None, meshlib.mrmeshpy.std_vector_MeshIntersectionResult outIntersections=None)</argsstring>
+        <name>computeSkyViewFactor</name>
+        <qualifiedname>mrcudapy.computeSkyViewFactor</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>terrain</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.VertCoords</type>
+          <declname>samples</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.VertBitSet</type>
+          <declname>validSamples</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_SkyPatch</type>
+          <declname>skyPatches</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.BitSet</type>
+          <declname>outSkyRays</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_MeshIntersectionResult</type>
+          <declname>outIntersections</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes relative radiation in each valid sample point by emitting rays from that point in the sky:
+the radiation is 1.0f if all rays reach the sky not hitting the terrain;
+the radiation is 0.0f if all rays do not reach the sky because they are intercepted by the terrain;
+\\param outSkyRays - optional output bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches),
+                    0s for occluded rays (hitting the terrain) and 1s for the ones which don&apos;t hit anything and reach the sky
+\\param outIntersections - optional output vector of MeshIntersectionResult for every valid sample point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="183" bodyend="191"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1a9279d8b3b9636326c4f24d472afdff1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.DistanceMap</type>
+        <definition> meshlib.mrmeshpy.DistanceMap mrcudapy.distanceMapFromContours</definition>
+        <argsstring>(meshlib.mrmeshpy.Polyline2 polyline, meshlib.mrmeshpy.ContourToDistanceMapParams params)</argsstring>
+        <name>distanceMapFromContours</name>
+        <qualifiedname>mrcudapy.distanceMapFromContours</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Polyline2</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.ContourToDistanceMapParams</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Computes distance of 2d contours according to ContourToDistanceMapParams (works correctly only when withSign==false)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="192" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1aa2b49002b37ad8f472a8719e6159e44b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.distanceMapFromContoursHeapBytes</definition>
+        <argsstring>(meshlib.mrmeshpy.Polyline2 polyline, meshlib.mrmeshpy.ContourToDistanceMapParams params)</argsstring>
+        <name>distanceMapFromContoursHeapBytes</name>
+        <qualifiedname>mrcudapy.distanceMapFromContoursHeapBytes</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Polyline2</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.ContourToDistanceMapParams</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Computes memory consumption of distanceMapFromContours function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="196" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1a59989212e13f232a4b791e381d5a15a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_PointsProjectionResult</type>
+        <definition> meshlib.mrmeshpy.std_vector_PointsProjectionResult mrcudapy.findProjectionOnPoints</definition>
+        <argsstring>(meshlib.mrmeshpy.PointCloud pointCloud, meshlib.mrmeshpy.std_vector_Vector3_float points, meshlib.mrmeshpy.FindProjectionOnPointsSettings settings=&apos;{}&apos;)</argsstring>
+        <name>findProjectionOnPoints</name>
+        <qualifiedname>mrcudapy.findProjectionOnPoints</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_Vector3_float</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.FindProjectionOnPointsSettings</type>
+          <declname>settings</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes the closest points on point cloud to given points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="200" bodyend="203"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1a09d73a60abca6c21fb5ef173a46f3158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.findProjectionOnPointsHeapBytes</definition>
+        <argsstring>(meshlib.mrmeshpy.PointCloud pointCloud, int pointsCount)</argsstring>
+        <name>findProjectionOnPointsHeapBytes</name>
+        <qualifiedname>mrcudapy.findProjectionOnPointsHeapBytes</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointsCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the minimal amount of free GPU memory required for \\ref MR::Cuda::findProjectionOnPoints
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="204" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1a331da1fe9e3cbd4669da50a822548ca3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.BitSet</type>
+        <definition> meshlib.mrmeshpy.BitSet mrcudapy.findSkyRays</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh terrain, meshlib.mrmeshpy.VertCoords samples, meshlib.mrmeshpy.VertBitSet validSamples, meshlib.mrmeshpy.std_vector_SkyPatch skyPatches, meshlib.mrmeshpy.std_vector_MeshIntersectionResult outIntersections=None)</argsstring>
+        <name>findSkyRays</name>
+        <qualifiedname>mrcudapy.findSkyRays</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>terrain</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.VertCoords</type>
+          <declname>samples</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.VertBitSet</type>
+          <declname>validSamples</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_SkyPatch</type>
+          <declname>skyPatches</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_MeshIntersectionResult</type>
+          <declname>outIntersections</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>In each valid sample point tests the rays from that point in the sky;
+\\return bitset where for every valid sample #i its rays are stored at indices [i*numPatches; (i+1)*numPatches),
+        0s for occluded rays (hitting the terrain) and 1s for the ones which don&apos;t hit anything and reach the sky
+\\param outIntersections - optional output vector of MeshIntersectionResult for every valid sample point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="208" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1aa0b99ba36260a5a8fb0925f8dc79d28a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.getCudaAvailableMemory</definition>
+        <argsstring>()</argsstring>
+        <name>getCudaAvailableMemory</name>
+        <qualifiedname>mrcudapy.getCudaAvailableMemory</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns available GPU memory in bytes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="215" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="215" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1a8a9ec4e4e7f0e927968c4198510a4d27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.getCudaSafeMemoryLimit</definition>
+        <argsstring>()</argsstring>
+        <name>getCudaSafeMemoryLimit</name>
+        <qualifiedname>mrcudapy.getCudaSafeMemoryLimit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns maximum safe amount of free GPU memory that will be used for dynamic-sized buffers
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="219" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1ac887b4b7e6c7b2f7fa04dbdabfe3729e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrcudapy.isCudaAvailable</definition>
+        <argsstring>(meshlib.mrmeshpy.int_output driverVersion=None, meshlib.mrmeshpy.int_output runtimeVersion=None, meshlib.mrmeshpy.int_output computeMajor=None, meshlib.mrmeshpy.int_output computeMinor=None)</argsstring>
+        <name>isCudaAvailable</name>
+        <qualifiedname>mrcudapy.isCudaAvailable</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.int_output</type>
+          <declname>driverVersion</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.int_output</type>
+          <declname>runtimeVersion</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.int_output</type>
+          <declname>computeMajor</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.int_output</type>
+          <declname>computeMinor</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if Cuda is present on this GPU
+optional out maximum driver supported version
+optional out current runtime version
+optional out compute capability major version
+optional out compute capability minor version
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="223" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1a7eeb8fdf5c4a0f5fd36f5fdbcac52750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.loadMRCudaDll</definition>
+        <argsstring>()</argsstring>
+        <name>loadMRCudaDll</name>
+        <qualifiedname>mrcudapy.loadMRCudaDll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>call this function to load MRCuda shared library
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="231" bodyend="234"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1a0f3d742e597ab7ff194ad31849af50ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.maxBufferSize</definition>
+        <argsstring>(int availableBytes, int elementCount, int elementBytes)</argsstring>
+        <name>maxBufferSize</name>
+        <qualifiedname>mrcudapy.maxBufferSize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>availableBytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>elementCount</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>elementBytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns maximum buffer size in elements that can be allocated with given memory limit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="235" bodyend="239"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1a2da59a8bdd79841ce316551f4a414e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.maxBufferSizeAlignedByBlock</definition>
+        <argsstring>(int availableBytes, meshlib.mrmeshpy.Vector2i blockDims, int elementBytes)</argsstring>
+        <name>maxBufferSizeAlignedByBlock</name>
+        <qualifiedname>mrcudapy.maxBufferSizeAlignedByBlock</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>availableBytes</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector2i</type>
+          <declname>blockDims</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>elementBytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns maximum buffer size in elements that can be allocated with given memory limit
+The size is aligned to the block dimensions
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="240" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1aab9adabccec4346ca61b1e628d692a35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrcudapy.maxBufferSizeAlignedByBlock</definition>
+        <argsstring>(int availableBytes, meshlib.mrmeshpy.Vector3i blockDims, int elementBytes)</argsstring>
+        <name>maxBufferSizeAlignedByBlock</name>
+        <qualifiedname>mrcudapy.maxBufferSizeAlignedByBlock</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>availableBytes</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3i</type>
+          <declname>blockDims</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>elementBytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="246" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1ac3163db5e369a9de3b776b9110700924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.negatePicture</definition>
+        <argsstring>(meshlib.mrmeshpy.Image image)</argsstring>
+        <name>negatePicture</name>
+        <qualifiedname>mrcudapy.negatePicture</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Image</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function inverts Color value (255 - value in each channel except alpha) 
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="248" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1abacc3f1ddc84e70bb38d8d75c6595bd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.SimpleVolumeMinMax</type>
+        <definition> meshlib.mrmeshpy.SimpleVolumeMinMax mrcudapy.pointsToDistanceVolume</definition>
+        <argsstring>(meshlib.mrmeshpy.PointCloud cloud, meshlib.mrmeshpy.PointsToDistanceVolumeParams params)</argsstring>
+        <name>pointsToDistanceVolume</name>
+        <qualifiedname>mrcudapy.pointsToDistanceVolume</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.PointsToDistanceVolumeParams</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>makes SimpleVolume filled with signed distances to points with normals
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="252" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrcudapy_1a1517d1e5cac8d356c12190982d458964" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.pointsToDistanceVolumeByParts</definition>
+        <argsstring>(meshlib.mrmeshpy.PointCloud cloud, meshlib.mrmeshpy.PointsToDistanceVolumeParams params, func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int addPart, int layerOverlap)</argsstring>
+        <name>pointsToDistanceVolumeByParts</name>
+        <qualifiedname>mrcudapy.pointsToDistanceVolumeByParts</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.PointsToDistanceVolumeParams</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrcudapy_1_1func__tl__expected__void__std__string__from__VoxelsVolumeMinMax__Vector__float__Id__VoxelTag__int" kindref="compound">func_tl_expected_void_std_string_from_VoxelsVolumeMinMax_Vector_float_Id_VoxelTag_int</ref></type>
+          <declname>addPart</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layerOverlap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>makes SimpleVolume filled with signed distances to points with normals
+populate the volume by parts to the given callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="256" bodyend="261"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="1" column="1"/>
+  </compounddef>
+</doxygen>

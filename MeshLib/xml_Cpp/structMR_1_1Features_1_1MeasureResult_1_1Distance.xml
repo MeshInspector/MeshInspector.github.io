@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Features_1_1MeasureResult_1_1Distance" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Features::MeasureResult::Distance</compoundname>
+    <basecompoundref refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart" prot="public" virt="non-virtual">MR::Features::MeasureResult::BasicPart</basecompoundref>
+    <includes refid="MRFeatures_8h" local="no">MRFeatures.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gabc2ecf316c1affc7c259c7b438753dbb" kind="variable"><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga63df7d9b2bc70ecaf640167b54487acc" kind="variable"><name>closestPointA</name></member>
+      <member refid="group__GeneralGroup_1gaac200a7d9f4713275d0ceb4ed127773b" kind="variable"><name>closestPointB</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga8670c18dcc3043de2c9724f9e7412b45" kind="function"><name>closestPointFor</name></member>
+      <member refid="group__GeneralGroup_1ga332150131bda07c1cc0ccb728695b123" kind="function"><name>distanceAlongAxis</name></member>
+      <member refid="group__GeneralGroup_1gaa226d42d5a35c9f64e1e15313df72d2c" kind="function"><name>distanceAlongAxisAbs</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::Features::MeasureResult::BasicPart</label>
+        <link refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart"/>
+      </node>
+      <node id="1">
+        <label>MR::Features::MeasureResult::Distance</label>
+        <link refid="structMR_1_1Features_1_1MeasureResult_1_1Distance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Features::MeasureResult::BasicPart</label>
+        <link refid="structMR_1_1Features_1_1MeasureResult_1_1BasicPart"/>
+      </node>
+      <node id="1">
+        <label>MR::Features::MeasureResult::Distance</label>
+        <link refid="structMR_1_1Features_1_1MeasureResult_1_1Distance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="190" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" bodystart="191" bodyend="202"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga63df7d9b2bc70ecaf640167b54487acc" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>closestPointA</name></member>
+      <member refid="group__GeneralGroup_1gaac200a7d9f4713275d0ceb4ed127773b" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>closestPointB</name></member>
+      <member refid="group__GeneralGroup_1ga8670c18dcc3043de2c9724f9e7412b45" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>closestPointFor</name></member>
+      <member refid="group__GeneralGroup_1gabc2ecf316c1affc7c259c7b438753dbb" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>distance</name></member>
+      <member refid="group__GeneralGroup_1ga332150131bda07c1cc0ccb728695b123" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>distanceAlongAxis</name></member>
+      <member refid="group__GeneralGroup_1gaa226d42d5a35c9f64e1e15313df72d2c" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>distanceAlongAxisAbs</name></member>
+      <member refid="group__GeneralGroup_1ga7985af9aca32411b60aec8f8e6178e92" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga86193b4dbe9a464e56ff2fe272c46486" prot="public" virt="non-virtual"><scope>MR::Features::MeasureResult::Distance</scope><name>status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

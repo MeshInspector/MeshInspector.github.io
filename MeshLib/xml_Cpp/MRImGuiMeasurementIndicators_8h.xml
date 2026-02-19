@@ -1,0 +1,529 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRImGuiMeasurementIndicators_8h" kind="file" language="C++">
+    <compoundname>MRImGuiMeasurementIndicators.h</compoundname>
+    <includes refid="MRFlagOperators_8h" local="yes">MRMesh/MRFlagOperators.h</includes>
+    <includes local="yes">MRViewer/exports.h</includes>
+    <includes local="yes">MRViewer/MRViewerFwd.h</includes>
+    <includes refid="MRImGuiVectorOperators_8h" local="yes">MRViewer/MRImGuiVectorOperators.h</includes>
+    <includes local="no">imgui.h</includes>
+    <includes local="no">cassert</includes>
+    <includes local="no">optional</includes>
+    <includes local="no">span</includes>
+    <includes local="no">variant</includes>
+    <includedby refid="MRAncillaryLabels_8h" local="yes">MRAncillaryLabels.h</includedby>
+    <includedby refid="MRRenderNameObject_8h" local="yes">MRRenderNameObject.h</includedby>
+    <includedby refid="MRUINonOverlappingLabels_8h" local="yes">MRUINonOverlappingLabels.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>MRMesh/MRFlagOperators.h</label>
+        <link refid="MRFlagOperators_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRViewer/MRImGui.h</label>
+        <link refid="MRImGui_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRImGuiMeasurementIndicators.h</label>
+        <link refid="MRImGuiMeasurementIndicators_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRViewer/MRImGuiVectorOperators.h</label>
+        <link refid="MRImGuiVectorOperators_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRPch/MRSuppressWarning.h</label>
+      </node>
+      <node id="5">
+        <label>MRViewer/MRViewerFwd.h</label>
+      </node>
+      <node id="4">
+        <label>MRViewer/exports.h</label>
+      </node>
+      <node id="11">
+        <label>cassert</label>
+      </node>
+      <node id="10">
+        <label>concepts</label>
+      </node>
+      <node id="9">
+        <label>imgui.h</label>
+      </node>
+      <node id="12">
+        <label>optional</label>
+      </node>
+      <node id="13">
+        <label>span</label>
+      </node>
+      <node id="3">
+        <label>type_traits</label>
+      </node>
+      <node id="14">
+        <label>variant</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRAncillaryLabels.h</label>
+        <link refid="MRAncillaryLabels_8h"/>
+      </node>
+      <node id="1">
+        <label>MRImGuiMeasurementIndicators.h</label>
+        <link refid="MRImGuiMeasurementIndicators_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRRenderDefaultObjects.h</label>
+        <link refid="MRRenderDefaultObjects_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRRenderFeatureObjects.h</label>
+        <link refid="MRRenderFeatureObjects_8h"/>
+      </node>
+      <node id="6">
+        <label>MRRenderImGuiLabelObject.h</label>
+        <link refid="MRRenderImGuiLabelObject_8h"/>
+      </node>
+      <node id="7">
+        <label>MRRenderMeasurementObjects.h</label>
+        <link refid="MRRenderMeasurementObjects_8h"/>
+      </node>
+      <node id="3">
+        <label>MRRenderNameObject.h</label>
+        <link refid="MRRenderNameObject_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRUINonOverlappingLabels.h</label>
+        <link refid="MRUINonOverlappingLabels_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" prot="public">MR::ImGuiMeasurementIndicators::Stipple</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment" prot="public">MR::ImGuiMeasurementIndicators::Stipple::Segment</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" prot="public">MR::ImGuiMeasurementIndicators::Params</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" prot="public">MR::ImGuiMeasurementIndicators::TextColor</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" prot="public">MR::ImGuiMeasurementIndicators::TextFont</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" prot="public">MR::ImGuiMeasurementIndicators::Text</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" prot="public">MR::ImGuiMeasurementIndicators::Text::Elem</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" prot="public">MR::ImGuiMeasurementIndicators::Text::Line</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" prot="public">MR::ImGuiMeasurementIndicators::Text::DrawResult</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams" prot="public">MR::ImGuiMeasurementIndicators::LineBodyParams</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" prot="public">MR::ImGuiMeasurementIndicators::TextParams</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line" prot="public">MR::ImGuiMeasurementIndicators::TextParams::Line</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" prot="public">MR::ImGuiMeasurementIndicators::TextResult</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" prot="public">MR::ImGuiMeasurementIndicators::LineCap</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" prot="public">MR::ImGuiMeasurementIndicators::LineParams</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" prot="public">MR::ImGuiMeasurementIndicators::LineResult</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams" prot="public">MR::ImGuiMeasurementIndicators::DistanceParams</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" prot="public">MR::ImGuiMeasurementIndicators::DistanceResult</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams" prot="public">MR::ImGuiMeasurementIndicators::CurveParams</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" prot="public">MR::ImGuiMeasurementIndicators::PreparedCurve</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1ImGuiMeasurementIndicators">MR::ImGuiMeasurementIndicators</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFlagOperators_8h" kindref="compound">MRMesh/MRFlagOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewer/exports.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRViewer/MRViewerFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRImGuiVectorOperators_8h" kindref="compound">MRViewer/MRImGuiVectorOperators.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;imgui.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cassert&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;span&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;variant&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespaceMR_1_1ImGuiMeasurementIndicators" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators" kindref="compound">MR::ImGuiMeasurementIndicators</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" kindref="compound">Stipple</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1a275878227f6987b781fd73d3741d8a6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1a275878227f6987b781fd73d3741d8a6d" kindref="member">patternLength</ref><sp/>=<sp/>16;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment" kindref="compound">Segment</ref></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a5dd25c864ad33b95fc71a3f2143422b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a5dd25c864ad33b95fc71a3f2143422b2" kindref="member">a</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="32" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a4bffbd994362942f69eb09e7e455e883" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a4bffbd994362942f69eb09e7e455e883" kindref="member">b</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a84ce838af9b949725c6d6a069c819a8c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a84ce838af9b949725c6d6a069c819a8c" kindref="member">get</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>?<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a4bffbd994362942f69eb09e7e455e883" kindref="member">b</ref><sp/>:<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a5dd25c864ad33b95fc71a3f2143422b2" kindref="member">a</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="36" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1ae57c16098d513998573613bc01be95d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::span&lt;const<sp/>Segment&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1ae57c16098d513998573613bc01be95d3" kindref="member">segments</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" kindref="compound">Params</ref></highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a9fc5ad01833510331469add7eb13a194" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImDrawList*<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a9fc5ad01833510331469add7eb13a194" kindref="member">list</ref><sp/>=<sp/>ImGui::GetBackgroundDrawList();</highlight></codeline>
+<codeline lineno="42" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a703f1cacbe40720cc5c75886cf2d20e3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a703f1cacbe40720cc5c75886cf2d20e3" kindref="member">colorMain</ref>;</highlight></codeline>
+<codeline lineno="43" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a5f1af9cc5c63622d29e7355891087dc1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a5f1af9cc5c63622d29e7355891087dc1" kindref="member">colorOutline</ref>;</highlight></codeline>
+<codeline lineno="44" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ab89fa021b4ebfccf2f62b61807167289" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ab89fa021b4ebfccf2f62b61807167289" kindref="member">colorText</ref>;</highlight></codeline>
+<codeline lineno="45" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a71c5fbbf63729c0ca109e02507b73f7c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a71c5fbbf63729c0ca109e02507b73f7c" kindref="member">colorTextOutline</ref>;</highlight></codeline>
+<codeline lineno="46" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a1cf0d10de380a1426ddb2c0887c09fa8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a1cf0d10de380a1426ddb2c0887c09fa8" kindref="member">colorTextOutlineHovered</ref>;</highlight></codeline>
+<codeline lineno="47" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a07cda3bf338976041c1a33d4192edc2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a07cda3bf338976041c1a33d4192edc2a" kindref="member">colorTextOutlineActive</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a96b0074c622147da725720e6028cd5e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a96b0074c622147da725720e6028cd5e2" kindref="member">pointDiameter</ref><sp/>=<sp/>6;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a0a1278a05c920fa5388ad95ecba19945" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a0a1278a05c920fa5388ad95ecba19945" kindref="member">width</ref><sp/>=<sp/>1.5f;</highlight></codeline>
+<codeline lineno="52" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a0bf2a98fd40dd55c53c03eff0ef22f9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a0bf2a98fd40dd55c53c03eff0ef22f9d" kindref="member">smallWidth</ref><sp/>=<sp/>0.75f;</highlight></codeline>
+<codeline lineno="53" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ac3054d46cfaedba6b0a499eb9384d17a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ac3054d46cfaedba6b0a499eb9384d17a" kindref="member">outlineWidth</ref><sp/>=<sp/>1.5f;</highlight></codeline>
+<codeline lineno="54" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a4eafe647658b794d1c77e649b424ffda" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a4eafe647658b794d1c77e649b424ffda" kindref="member">textOutlineWidth</ref><sp/>=<sp/>4.f;</highlight></codeline>
+<codeline lineno="55" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1af359c4c5fd8028e39166af8ee8b23736" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1af359c4c5fd8028e39166af8ee8b23736" kindref="member">textOutlineRounding</ref><sp/>=<sp/>3.f;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a7d12a250d3482201dab55d16f5b3e96c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a7d12a250d3482201dab55d16f5b3e96c" kindref="member">clickableLabelLineWidth</ref><sp/>=<sp/>1.f;</highlight></codeline>
+<codeline lineno="58" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ad04c636cdbdb7063ebc7ef960c282848" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ad04c636cdbdb7063ebc7ef960c282848" kindref="member">clickableLabelLineWidthSelected</ref><sp/>=<sp/>2.f;</highlight></codeline>
+<codeline lineno="59" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ab335f87ba8ba25ad3cbdcd1390319f4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ab335f87ba8ba25ad3cbdcd1390319f4c" kindref="member">clickableLabelOutlineWidth</ref><sp/>=<sp/>1.f;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a21883ccd688b28487ed257c67162946e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a21883ccd688b28487ed257c67162946e" kindref="member">arrowLen</ref><sp/>=<sp/>12;</highlight></codeline>
+<codeline lineno="62" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a1de83d675e9cc8f326bca68a76eb52c3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a1de83d675e9cc8f326bca68a76eb52c3" kindref="member">arrowHalfWidth</ref><sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="66" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a6649a0eb2b642371baa9647ad499ecae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a6649a0eb2b642371baa9647ad499ecae" kindref="member">arrowTipBackwardOffset</ref><sp/>=<sp/>2.5f;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ac173b81667fc1830f91171c481c03b2e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1ac173b81667fc1830f91171c481c03b2e" kindref="member">textToLineSpacingA</ref><sp/>=<sp/>ImVec2(<sp/>0,<sp/>0<sp/>);<sp/></highlight></codeline>
+<codeline lineno="70" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a8a1c146ca3e43adede8f2fb9c453dbe9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a8a1c146ca3e43adede8f2fb9c453dbe9" kindref="member">textToLineSpacingB</ref><sp/>=<sp/>ImVec2(<sp/>0,<sp/>0<sp/>);<sp/></highlight></codeline>
+<codeline lineno="72" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a3c33808729b011c55c757f4aec823465" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a3c33808729b011c55c757f4aec823465" kindref="member">textToLineSpacingRadius</ref><sp/>=<sp/>8;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a0eadf7819b37ebaad2aa7beed0b9899c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a0eadf7819b37ebaad2aa7beed0b9899c" kindref="member">totalLenThreshold</ref><sp/>=<sp/>48;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1af0499c1167b1f999c50abcda597a5133" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1af0499c1167b1f999c50abcda597a5133" kindref="member">invertedOverhang</ref><sp/>=<sp/>24;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a4f640dcd1790684176b42fd2521e69ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a4f640dcd1790684176b42fd2521e69ff" kindref="member">leaderLineLen</ref><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a3cdfa3eaf63c23dbb300d2b66cd90930" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a3cdfa3eaf63c23dbb300d2b66cd90930" kindref="member">notchHalfLen</ref><sp/>=<sp/>8;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"></codeline>
+<codeline lineno="91" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a0ce71acf2dfa183f8f1ac48a132d2978" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple" kindref="compound">Stipple</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a0ce71acf2dfa183f8f1ac48a132d2978" kindref="member">stippleDashed</ref>;</highlight></codeline>
+<codeline lineno="93"></codeline>
+<codeline lineno="95" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a1c17acc07cc2fb3c28fb03c5dc38a9fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params_1a1c17acc07cc2fb3c28fb03c5dc38a9fc" kindref="member">Params</ref>();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898" kindref="member">Element</ref></highlight></codeline>
+<codeline lineno="99"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898afad58de7366495db4650cfefac2fcd61" kindref="member">main</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898a1a18f19535b3b1edd5de7f535141f476" kindref="member">outline</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898af6cb3e816496528d4187db53bc66567f" kindref="member">both</ref><sp/>=<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898afad58de7366495db4650cfefac2fcd61" kindref="member">main</ref><sp/>|<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898a1a18f19535b3b1edd5de7f535141f476" kindref="member">outline</ref>,<sp/></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><ref refid="MRFlagOperators_8h_1afbd9348d27fb58bbb0befb3db34fab6a" kindref="member">MR_MAKE_FLAG_OPERATORS</ref>(<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898" kindref="member">Element</ref><sp/>)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad36daa50d771e787011f42e1d74ef4fe" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9" kindref="member">point</ref>(<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898" kindref="member">Element</ref><sp/>elem,<sp/>const<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" kindref="compound">Params</ref>&amp;<sp/>params,<sp/>ImVec2<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9" kindref="member">point</ref><sp/>);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ada21c38059140ab54d2c729c198e39f4" refkind="member"><highlight class="normal">enum<sp/>class<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ada21c38059140ab54d2c729c198e39f4" kindref="member">TextIcon</ref></highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ada21c38059140ab54d2c729c198e39f4a35f16dc084a53860f5cb3962107d5378" kindref="member">diameter</ref>,</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" kindref="compound">TextColor</ref></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="117" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a9e3d5ac123e9d4946e2528d2e39fc91b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;ImU32&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a9e3d5ac123e9d4946e2528d2e39fc91b" kindref="member">color</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a6fa66d705cd65bc5dd8e745435221e52" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a6fa66d705cd65bc5dd8e745435221e52" kindref="member">TextColor</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="120" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1ae345223a87d4417bf78dfd0a28df08bb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1ae345223a87d4417bf78dfd0a28df08bb" kindref="member">TextColor</ref>(<sp/>ImVec4<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a9e3d5ac123e9d4946e2528d2e39fc91b" kindref="member">color</ref><sp/>)<sp/>:<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a9e3d5ac123e9d4946e2528d2e39fc91b" kindref="member">color</ref>(<sp/><ref refid="namespaceImGui" kindref="compound">ImGui</ref>::ColorConvertFloat4ToU32(<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a9e3d5ac123e9d4946e2528d2e39fc91b" kindref="member">color</ref><sp/>)<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="121" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a3ec9519a874594345d17324a079237aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a3ec9519a874594345d17324a079237aa" kindref="member">TextColor</ref>(<sp/>ImU32<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a9e3d5ac123e9d4946e2528d2e39fc91b" kindref="member">color</ref><sp/>)<sp/>:<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a9e3d5ac123e9d4946e2528d2e39fc91b" kindref="member">color</ref>(<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor_1a9e3d5ac123e9d4946e2528d2e39fc91b" kindref="member">color</ref><sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont" kindref="compound">TextFont</ref></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="127" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont_1a47b6424fbecbea19cd78a5e947b9b944" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImFont*<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont_1a47b6424fbecbea19cd78a5e947b9b944" kindref="member">font</ref><sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="128" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont_1a5a7d4f1938b9ff815a4cdf0ab7a0493b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextFont_1a5a7d4f1938b9ff815a4cdf0ab7a0493b" kindref="member">size</ref><sp/>=<sp/>0.f;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kindref="compound">Text</ref></highlight></codeline>
+<codeline lineno="133"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae831e755d5fa4e114cf8d2eaef532bdc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae831e755d5fa4e114cf8d2eaef532bdc" kindref="member">ElemVar</ref><sp/>=<sp/>std::variant&lt;std::string,<sp/>TextIcon,<sp/>TextColor,<sp/>TextFont&gt;;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" kindref="compound">Elem</ref></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a2a82331b336fe5a2fc8e7f5a209c07e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae831e755d5fa4e114cf8d2eaef532bdc" kindref="member">ElemVar</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a2a82331b336fe5a2fc8e7f5a209c07e1" kindref="member">var</ref>;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a2a5ed27f2a108a9b941bb2672a552ec6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a2a5ed27f2a108a9b941bb2672a552ec6" kindref="member">size</ref><sp/>=<sp/>ImVec2(<sp/>0,<sp/>-1<sp/>);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1ad87040dbc57933ec415d89e0feff15be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1ad87040dbc57933ec415d89e0feff15be" kindref="member">align</ref>;</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a30668d188aa89e39c19a9360ebcb62f1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a30668d188aa89e39c19a9360ebcb62f1" kindref="member">columnId</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a23c806d42e41fad352f5eb6862a3505a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a23c806d42e41fad352f5eb6862a3505a" kindref="member">computedSize</ref>;</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1abfeb6efd5bdf621269261c95bde32f02" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1abfeb6efd5bdf621269261c95bde32f02" kindref="member">computedSizeWithPadding</ref>;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a17831741c05ccdf8eb71b79f1239dd82" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a17831741c05ccdf8eb71b79f1239dd82" kindref="member">hasDefaultParams</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="159"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a2a5ed27f2a108a9b941bb2672a552ec6" kindref="member">size</ref><sp/>==<sp/>ImVec2(<sp/>0,<sp/>-1<sp/>)<sp/>&amp;&amp;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1ad87040dbc57933ec415d89e0feff15be" kindref="member">align</ref><sp/>==<sp/>ImVec2()<sp/>&amp;&amp;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem_1a30668d188aa89e39c19a9360ebcb62f1" kindref="member">columnId</ref><sp/>==<sp/>-1;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line" kindref="compound">Line</ref></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="166" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1acd9bfcf665d2d28338f5b05410ff74ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::vector&lt;Elem&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1acd9bfcf665d2d28338f5b05410ff74ac" kindref="member">elems</ref>;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1aac1e5fc1a4852b760eada1d33248608e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1aac1e5fc1a4852b760eada1d33248608e" kindref="member">size</ref><sp/>=<sp/>ImVec2(<sp/>-1,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1a98fced506eacf9ded80b6497e6caed21" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1a98fced506eacf9ded80b6497e6caed21" kindref="member">align</ref>;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1afe94adb4124bcf030097542c1e07c91f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1afe94adb4124bcf030097542c1e07c91f" kindref="member">computedSize</ref>;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1a1f9b56c3c57b99d7ca83ffa11d48d205" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Line_1a1f9b56c3c57b99d7ca83ffa11d48d205" kindref="member">computedSizeWithPadding</ref>;</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="183" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a99ca3155588713524843ad362ebdf8c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;Line&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a99ca3155588713524843ad362ebdf8c4" kindref="member">lines</ref>;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa7fcd623acda48ca1c6a59341f2fdaae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa7fcd623acda48ca1c6a59341f2fdaae" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1af8b5e638410d87130b72445eb3a009cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1af8b5e638410d87130b72445eb3a009cd" kindref="member">align</ref>;</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" kindref="member">FontFunc</ref><sp/>=<sp/>std::function&lt;FontAndSize()&gt;;</highlight></codeline>
+<codeline lineno="194" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" kindref="member">FontFunc</ref>&amp;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" kindref="member">getStaticDefaultFontFunc</ref>();</highlight></codeline>
+<codeline lineno="195" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa9520cc4aa1cb7fd1b95f885bedd6ce9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1aa9520cc4aa1cb7fd1b95f885bedd6ce9" kindref="member">setStaticDefaultFontFunc</ref>(<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a65617319e0c1b767525aede65d4607b5" kindref="member">FontFunc</ref><sp/>func<sp/>);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>FontAndSize<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6147eeaff8e86f187d95660dc8cdc339" kindref="member">defaultFont</ref><sp/>=<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ae4cadaf3ea1172a0c335e927b4e6951c" kindref="member">getStaticDefaultFontFunc</ref>()();</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ada8abd512f2564b6e933ba4332bdce0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ada8abd512f2564b6e933ba4332bdce0c" kindref="member">computedSize</ref>;</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205"><highlight class="normal"></highlight></codeline>
+<codeline lineno="206" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ad91ba5b259552f2af641bf94826eeea1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">mutable</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ad91ba5b259552f2af641bf94826eeea1" kindref="member">dirty</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a58f5f1024004e4faebc6f17c3c1ef67f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a58f5f1024004e4faebc6f17c3c1ef67f" kindref="member">Text</ref>()<sp/>{}</highlight></codeline>
+<codeline lineno="209" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe015e8f2eefbaf7c0afec0d91912ec8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe015e8f2eefbaf7c0afec0d91912ec8" kindref="member">Text</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string&amp;<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref><sp/>)<sp/>{<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a16a77f943f36900d87a81cd083b8b160" kindref="member">addText</ref>(<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="210" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a629379b7e42a90a23d538c774cd11c2b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a629379b7e42a90a23d538c774cd11c2b" kindref="member">Text</ref>(<sp/>std::string_view<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref><sp/>)<sp/>{<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a16a77f943f36900d87a81cd083b8b160" kindref="member">addText</ref>(<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="211" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ab1361eb667fc891d6ee87e93a3ff37e9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ab1361eb667fc891d6ee87e93a3ff37e9" kindref="member">Text</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref><sp/>)<sp/>{<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a16a77f943f36900d87a81cd083b8b160" kindref="member">addText</ref>(<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref><sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1acc827ec3aa0ec6711b73aaca7693bc19" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1acc827ec3aa0ec6711b73aaca7693bc19" kindref="member">isEmpty</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a99ca3155588713524843ad362ebdf8c4" kindref="member">lines</ref>.empty();<sp/>}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a9f1e9dff1758efb4b2feb981f5c49862" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a9f1e9dff1758efb4b2feb981f5c49862" kindref="member">addLine</ref>()</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ad91ba5b259552f2af641bf94826eeea1" kindref="member">dirty</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a99ca3155588713524843ad362ebdf8c4" kindref="member">lines</ref>.emplace_back();</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a99ca3155588713524843ad362ebdf8c4" kindref="member">lines</ref>.back().elems.emplace_back().var<sp/>=<sp/>std::string();<sp/></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight></codeline>
+<codeline lineno="223" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a16a77f943f36900d87a81cd083b8b160" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a16a77f943f36900d87a81cd083b8b160" kindref="member">addText</ref>(<sp/>std::string_view<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref><sp/>);</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a2336292a36c4f80334c9d987104aa00a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a2336292a36c4f80334c9d987104aa00a" kindref="member">addElem</ref>(<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1Elem" kindref="compound">Elem</ref><sp/>elem<sp/>)</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1ad91ba5b259552f2af641bf94826eeea1" kindref="member">dirty</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a99ca3155588713524843ad362ebdf8c4" kindref="member">lines</ref>.empty()<sp/>)</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a9f1e9dff1758efb4b2feb981f5c49862" kindref="member">addLine</ref>();</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a99ca3155588713524843ad362ebdf8c4" kindref="member">lines</ref>.back().elems.emplace_back(<sp/>std::move(<sp/>elem<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe8531c1f5fdb8d1d8d3a8d69a64d2b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1abe8531c1f5fdb8d1d8d3a8d69a64d2b5" kindref="member">add</ref>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;&amp;<sp/>elem<sp/>)</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a2336292a36c4f80334c9d987104aa00a" kindref="member">addElem</ref>(<sp/>{<sp/>.var<sp/>=<sp/></highlight><highlight class="keyword">decltype</highlight><highlight class="normal">(elem)(elem)<sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a8aa43d24ada469bdbb77f5444b4e6f64" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a8aa43d24ada469bdbb77f5444b4e6f64" kindref="member">update</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>force<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="245" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" kindref="compound">DrawResult</ref></highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="247" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult_1a4e2480a0595f86ed76d23eaf54937085" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult_1a4e2480a0595f86ed76d23eaf54937085" kindref="member">cornerA</ref>;</highlight></codeline>
+<codeline lineno="248" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult_1abef55d08e12e74ed849345c2dc54cf34" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult_1abef55d08e12e74ed849345c2dc54cf34" kindref="member">cornerB</ref>;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6dedcdba15318604b248ac2919340473" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVIEWER_API<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1_1DrawResult" kindref="compound">DrawResult</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text_1a6dedcdba15318604b248ac2919340473" kindref="member">draw</ref>(<sp/>ImDrawList&amp;<sp/>list,<sp/>ImVec2<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextColor" kindref="compound">TextColor</ref>&amp;<sp/>defaultTextColor<sp/>=<sp/>{}<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6a" kindref="member">LineCapDecoration</ref></highlight></codeline>
+<codeline lineno="257"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6aa334c4a4c42fdb79d7ebc3e73b517e6f8" kindref="member">none</ref>,</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6aae3ce6f35dccfb7791bc311b81504efe9" kindref="member">noOutline</ref>,<sp/></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6aae0a91e6db6ff1103171559559f2d9698" kindref="member">extend</ref>,<sp/></highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6aa9022a153e6190f10d9b57aa4232b8aea" kindref="member">arrow</ref>,</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9" kindref="member">point</ref>,<sp/></highlight></codeline>
+<codeline lineno="263"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="265" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1aaf160e58360dc1e2c715f0b72dba162d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum<sp/>class</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1aaf160e58360dc1e2c715f0b72dba162d" kindref="member">LineFlags</ref></highlight></codeline>
+<codeline lineno="266"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1aaf160e58360dc1e2c715f0b72dba162da06a224da9e61bee19ec9eef88b95f934" kindref="member">narrow</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>0,</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1aaf160e58360dc1e2c715f0b72dba162da5c4562eb35560ecfac0098dbf8cb3a74" kindref="member">noBackwardArrowTipOffset</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>1,<sp/></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1aaf160e58360dc1e2c715f0b72dba162da5927c315d864270693959758800d99d7" kindref="member">onlyOutline</ref><sp/>=<sp/>1<sp/>&lt;&lt;<sp/>2,<sp/></highlight></codeline>
+<codeline lineno="270"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><ref refid="MRFlagOperators_8h_1afbd9348d27fb58bbb0befb3db34fab6a" kindref="member">MR_MAKE_FLAG_OPERATORS</ref>(<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1aaf160e58360dc1e2c715f0b72dba162d" kindref="member">LineFlags</ref><sp/>)</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams" refkind="compound"><highlight class="normal">struct<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams" kindref="compound">LineBodyParams</ref></highlight></codeline>
+<codeline lineno="274"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="275" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams_1a64963bd2f3582a91eab34d7a28323d5f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1aaf160e58360dc1e2c715f0b72dba162d" kindref="member">LineFlags</ref><sp/>flags{};</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams_1aea62b88f0b395d2c8a051864f80e62f9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Color&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams_1aea62b88f0b395d2c8a051864f80e62f9" kindref="member">colorOverride</ref>;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams_1a4c52dc063bae4dcacd4b598c59cc3be2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Stipple&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams_1a4c52dc063bae4dcacd4b598c59cc3be2" kindref="member">stipple</ref>;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" kindref="compound">TextParams</ref></highlight></codeline>
+<codeline lineno="284"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="287" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a0488824dd2e0c5d0496391ffc6bfec38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a0488824dd2e0c5d0496391ffc6bfec38" kindref="member">borderColor</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga059a69f5238fa686b0c063d87ebecf40" kindref="member">Color::transparent</ref>();</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line" kindref="compound">Line</ref></highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="291" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1a5cb62d069491278c2397eb5c0a8d94fa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1a5cb62d069491278c2397eb5c0a8d94fa" kindref="member">point</ref>;</highlight></codeline>
+<codeline lineno="292" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1a3915b7762c2b88313bdf93ba00b51475" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6a" kindref="member">LineCapDecoration</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1a3915b7762c2b88313bdf93ba00b51475" kindref="member">capDecoration</ref>{};</highlight></codeline>
+<codeline lineno="293" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1ad3b9bd4bb1b58ac3d681a5ee86935825" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams" kindref="compound">LineBodyParams</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1_1Line_1ad3b9bd4bb1b58ac3d681a5ee86935825" kindref="member">body</ref>;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="296" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a970d4a8634d4cca0de8e512e0ba92fb4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;Line&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a970d4a8634d4cca0de8e512e0ba92fb4" kindref="member">line</ref>;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"></highlight></codeline>
+<codeline lineno="299" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a5ac7777ca9e66b4056a2ecb88153b5ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a5ac7777ca9e66b4056a2ecb88153b5ea" kindref="member">isHovered</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="301" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1af838c4e58173e3c9d3464ff2aa9941f6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1af838c4e58173e3c9d3464ff2aa9941f6" kindref="member">isActive</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a3ddcb12e9e357887d1e2769769196eed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams_1a3ddcb12e9e357887d1e2769769196eed" kindref="member">isSelected</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="305"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"></highlight></codeline>
+<codeline lineno="307" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult" kindref="compound">TextResult</ref></highlight></codeline>
+<codeline lineno="308"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="309" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1aedf388b3b7cae8fc76288a5c9a3a2989" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1aedf388b3b7cae8fc76288a5c9a3a2989" kindref="member">textCornerA</ref>;<sp/></highlight></codeline>
+<codeline lineno="310" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a94e287dc6994cec0b2e49f8d3d2d87fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a94e287dc6994cec0b2e49f8d3d2d87fe" kindref="member">textCornerB</ref>;</highlight></codeline>
+<codeline lineno="311" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a5f94555831e1f94892d9ff939f618dd9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a5f94555831e1f94892d9ff939f618dd9" kindref="member">bgCornerA</ref>;<sp/></highlight></codeline>
+<codeline lineno="312" refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a3db8a74d097eec16f3625ff3865dea29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextResult_1a3db8a74d097eec16f3625ff3865dea29" kindref="member">bgCornerB</ref>;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::optional&lt;TextResult&gt;<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref>(</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898" kindref="member">Element</ref><sp/>elem,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" kindref="compound">Params</ref>&amp;<sp/>params,<sp/>ImVec2<sp/>pos,</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kindref="compound">Text</ref>&amp;<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" kindref="compound">TextParams</ref>&amp;<sp/>textParams<sp/>=<sp/>{},</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/>push<sp/>=<sp/>{},<sp/>ImVec2<sp/>pivot<sp/>=<sp/>{<sp/>0.5f,<sp/>0.5f<sp/>}</highlight></codeline>
+<codeline lineno="324"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a8c5e10a09f814d534e98407570061530" refkind="member"><highlight class="normal">MRVIEWER_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a8c5e10a09f814d534e98407570061530" kindref="member">arrowTriangle</ref>(<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898" kindref="member">Element</ref><sp/>elem,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" kindref="compound">Params</ref>&amp;<sp/>params,<sp/>ImVec2<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6aa78ee54aa8f813885fe2fe20d232518b9" kindref="member">point</ref>,<sp/>ImVec2<sp/>dir<sp/>);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" kindref="compound">LineCap</ref></highlight></codeline>
+<codeline lineno="330"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="331" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1ac337c328d1e23a188ffa5660266acf20" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a57d1104a2e78b1f148bbd864c7d7cd6a" kindref="member">LineCapDecoration</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1ac337c328d1e23a188ffa5660266acf20" kindref="member">decoration</ref>{};</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1aea63e8c86e90a9f540bdce73fd2def7a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kindref="compound">Text</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1aea63e8c86e90a9f540bdce73fd2def7a" kindref="member">text</ref>;</highlight></codeline>
+<codeline lineno="334" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1a410882924f1531864aeae4b56402feca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" kindref="compound">TextParams</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap_1a410882924f1531864aeae4b56402feca" kindref="member">textParams</ref>;</highlight></codeline>
+<codeline lineno="335"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" kindref="compound">LineParams</ref></highlight></codeline>
+<codeline lineno="338"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="339" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams_1a3e5d9aec94bcefc9114f7d79bb08f798" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineBodyParams" kindref="compound">LineBodyParams</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams_1a3e5d9aec94bcefc9114f7d79bb08f798" kindref="member">body</ref>;</highlight></codeline>
+<codeline lineno="340" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams_1a13bf25d17b0cd12e3c276a80d170fa5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" kindref="compound">LineCap</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams_1a13bf25d17b0cd12e3c276a80d170fa5b" kindref="member">capA</ref>{};</highlight></codeline>
+<codeline lineno="341" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams_1ae5a6e80b6daf5b70eef380922553c871" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineCap" kindref="compound">LineCap</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams_1ae5a6e80b6daf5b70eef380922553c871" kindref="member">capB</ref>{};</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams_1adc065c4e3c818063a10bda461010f5e1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::span&lt;const<sp/>ImVec2&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams_1adc065c4e3c818063a10bda461010f5e1" kindref="member">midPoints</ref>;</highlight></codeline>
+<codeline lineno="344"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult" kindref="compound">LineResult</ref></highlight></codeline>
+<codeline lineno="347"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="348" refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult_1a400a2b9d56be1cc23d10368dd6ef6e36" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;TextResult&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult_1a400a2b9d56be1cc23d10368dd6ef6e36" kindref="member">capA</ref>,<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineResult_1a566c4f5f3c467669b8f6870230f68f64" kindref="member">capB</ref>;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a5eeca0f9dda534003c2bd14f598dd27c" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::optional&lt;LineResult&gt;<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1a5eeca0f9dda534003c2bd14f598dd27c" kindref="member">line</ref>(<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898" kindref="member">Element</ref><sp/>elem,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" kindref="compound">Params</ref>&amp;<sp/>params,<sp/>ImVec2<sp/>a,<sp/>ImVec2<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1LineParams" kindref="compound">LineParams</ref>&amp;<sp/>lineParams<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="354" refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams" kindref="compound">DistanceParams</ref></highlight></codeline>
+<codeline lineno="355"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="357" refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams_1a3d5c40490eaf4234be2239ce7055eae5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;bool&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams_1a3d5c40490eaf4234be2239ce7055eae5" kindref="member">moveTextToLineEndIndex</ref>;</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams_1aa8200aa3ad605ff04ee257334721e45f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1TextParams" kindref="compound">TextParams</ref><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams_1aa8200aa3ad605ff04ee257334721e45f" kindref="member">textParams</ref>;</highlight></codeline>
+<codeline lineno="360"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult" kindref="compound">DistanceResult</ref></highlight></codeline>
+<codeline lineno="363"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="364" refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult_1a1e95c8b54a2ebd5b21a285d50c85255c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;LineResult&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult_1a1e95c8b54a2ebd5b21a285d50c85255c" kindref="member">line</ref>;</highlight></codeline>
+<codeline lineno="365" refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult_1a1c78e55a9990e6cbd07c33abe73a74ea" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::optional&lt;TextResult&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceResult_1a1c78e55a9990e6cbd07c33abe73a74ea" kindref="member">text</ref>;</highlight></codeline>
+<codeline lineno="366"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1adde528adacd6500e6e542902d77f3690" refkind="member"><highlight class="normal">MRVIEWER_API<sp/>std::optional&lt;DistanceResult&gt;<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1adde528adacd6500e6e542902d77f3690" kindref="member">distance</ref>(<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ab3d1526afb0782fa9501df90cb1b2898" kindref="member">Element</ref><sp/>elem,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Params" kindref="compound">Params</ref>&amp;<sp/>params,<sp/>ImVec2<sp/>a,<sp/>ImVec2<sp/>b,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1Text" kindref="compound">Text</ref>&amp;<sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1ad06ab5868363731bf9b8a19d146e0d0b" kindref="member">text</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1DistanceParams" kindref="compound">DistanceParams</ref>&amp;<sp/>distanceParams<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"></highlight></codeline>
+<codeline lineno="372" refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams" kindref="compound">CurveParams</ref></highlight></codeline>
+<codeline lineno="373"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="375" refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1a70593a72a82e65c0669e7eeaea91274e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1a70593a72a82e65c0669e7eeaea91274e" kindref="member">maxSubdivisionDepth</ref><sp/>=<sp/>10;</highlight></codeline>
+<codeline lineno="377" refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1abac2cff41f1bc2c17f07184162976b9f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1abac2cff41f1bc2c17f07184162976b9f" kindref="member">minSubdivisionDepth</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="380" refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1aa3013a0de4fe197926b96f4683065a23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1aa3013a0de4fe197926b96f4683065a23" kindref="member">subdivisionStepPixels</ref><sp/>=<sp/>4;</highlight></codeline>
+<codeline lineno="381"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383" refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" kindref="compound">PreparedCurve</ref></highlight></codeline>
+<codeline lineno="384"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="385" refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a3816885bcfec02afae90a2eb378332a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a3816885bcfec02afae90a2eb378332a9" kindref="member">a</ref>;<sp/></highlight></codeline>
+<codeline lineno="386" refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a82c49f908474da383b54cab422513525" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a82c49f908474da383b54cab422513525" kindref="member">b</ref>;<sp/></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"></highlight></codeline>
+<codeline lineno="388" refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1af8b700f89714d976e55426b9ae9a67b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>ImVec2<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1af8b700f89714d976e55426b9ae9a67b9" kindref="member">endPoint</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>second<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>second<sp/>?<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a82c49f908474da383b54cab422513525" kindref="member">b</ref><sp/>:<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a3816885bcfec02afae90a2eb378332a9" kindref="member">a</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="390" refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1adc882bf59a1455b3ac5391416ed0c55b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>std::span&lt;ImVec2&gt;<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1adc882bf59a1455b3ac5391416ed0c55b" kindref="member">midPoints</ref>;<sp/></highlight></codeline>
+<codeline lineno="391"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>A,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>B,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>G,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>H<sp/>=<sp/>std::</highlight><highlight class="keywordtype">nullptr</highlight><highlight class="normal">_t&gt;</highlight></codeline>
+<codeline lineno="407" refid="namespaceMR_1_1ImGuiMeasurementIndicators_1aa8511657c2ed1cc63ff209a6ede1c0f9" refkind="member"><highlight class="normal">[[nodiscard]]<sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" kindref="compound">PreparedCurve</ref><sp/><ref refid="namespaceMR_1_1ImGuiMeasurementIndicators_1aa8511657c2ed1cc63ff209a6ede1c0f9" kindref="member">prepareCurve</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams" kindref="compound">CurveParams</ref>&amp;<sp/>curveParams,<sp/>std::vector&lt;ImVec2&gt;&amp;<sp/>pointBuffer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>A&amp;<sp/>stateA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>B&amp;<sp/>stateB,</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"><sp/><sp/><sp/><sp/>F&amp;&amp;<sp/>stateToPoint,<sp/>G&amp;&amp;<sp/>bisectState,<sp/>H&amp;&amp;<sp/>onInsertPoint<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal">)</highlight></codeline>
+<codeline lineno="410"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pixelStepSq<sp/>=<sp/>curveParams.<ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1aa3013a0de4fe197926b96f4683065a23" kindref="member">subdivisionStepPixels</ref><sp/>*<sp/>curveParams.<ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1aa3013a0de4fe197926b96f4683065a23" kindref="member">subdivisionStepPixels</ref>;</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="413"><highlight class="normal"><sp/><sp/><sp/><sp/>std::size_t<sp/>firstIndex<sp/>=<sp/>pointBuffer.size();</highlight></codeline>
+<codeline lineno="414"><highlight class="normal"></highlight></codeline>
+<codeline lineno="415"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>makeCurve<sp/>=<sp/>[&amp;](<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>makeCurve,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__BoxGroup_1ga7f9739369c171b50d576ee7cc726996f" kindref="member">depth</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>stateA,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;<sp/>stateB,<sp/>ImVec2<sp/>pointA,<sp/>ImVec2<sp/>pointB<sp/>)<sp/>-&gt;<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="416"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="418"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__BoxGroup_1ga7f9739369c171b50d576ee7cc726996f" kindref="member">depth</ref><sp/>&lt;<sp/>curveParams.<ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1a70593a72a82e65c0669e7eeaea91274e" kindref="member">maxSubdivisionDepth</ref><sp/>&amp;&amp;<sp/>(<sp/><ref refid="group__BoxGroup_1ga7f9739369c171b50d576ee7cc726996f" kindref="member">depth</ref><sp/>&lt;<sp/>curveParams.<ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1CurveParams_1abac2cff41f1bc2c17f07184162976b9f" kindref="member">minSubdivisionDepth</ref><sp/>||<sp/><ref refid="namespaceMR_1_1ImGuiMath_1a9b787db1b3551a333f5fae1addb214bd" kindref="member">ImGuiMath::lengthSq</ref>(<sp/>pointB<sp/>-<sp/>pointA<sp/>)<sp/>&gt;<sp/>pixelStepSq<sp/>)<sp/>)</highlight></codeline>
+<codeline lineno="419"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="421"><highlight class="normal"></highlight></codeline>
+<codeline lineno="422"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>midState<sp/>=<sp/>bisectState(<sp/>stateA,<sp/>stateB,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">(<sp/><ref refid="group__BoxGroup_1ga7f9739369c171b50d576ee7cc726996f" kindref="member">depth</ref><sp/>)<sp/>);<sp/></highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ImVec2<sp/>midPoint<sp/>=<sp/>stateToPoint(<sp/>midState<sp/>);</highlight></codeline>
+<codeline lineno="424"><highlight class="normal"></highlight></codeline>
+<codeline lineno="425"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCurve(<sp/>makeCurve,<sp/><ref refid="group__BoxGroup_1ga7f9739369c171b50d576ee7cc726996f" kindref="member">depth</ref><sp/>+<sp/>1,<sp/>stateA,<sp/>midState,<sp/>pointA,<sp/>midPoint<sp/>);</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>makeCurve(<sp/>makeCurve,<sp/><ref refid="group__BoxGroup_1ga7f9739369c171b50d576ee7cc726996f" kindref="member">depth</ref><sp/>+<sp/>1,<sp/>midState,<sp/>stateB,<sp/>midPoint,<sp/>pointB<sp/>);</highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="431"><highlight class="normal"></highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>onInsertPoint(<sp/>pointB,<sp/>stateB<sp/>);</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pointBuffer.push_back(<sp/>pointB<sp/>);</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"></highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/>ImVec2<sp/>firstPoint<sp/>=<sp/>stateToPoint(<sp/>stateA<sp/>);</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/>makeCurve(<sp/>makeCurve,<sp/>0,<sp/>stateA,<sp/>stateB,<sp/>firstPoint,<sp/>stateToPoint(<sp/>stateB<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"></highlight></codeline>
+<codeline lineno="440"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve" kindref="compound">PreparedCurve</ref><sp/>ret{<sp/>.<ref refid="structMR_1_1ImGuiMeasurementIndicators_1_1PreparedCurve_1a3816885bcfec02afae90a2eb378332a9" kindref="member">a</ref><sp/>=<sp/>firstPoint,<sp/>.b<sp/>=<sp/>pointBuffer.back()<sp/>};</highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/>pointBuffer.pop_back();</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"><sp/><sp/><sp/><sp/>ret.midPoints<sp/>=<sp/>{<sp/>pointBuffer.data()<sp/>+<sp/>firstIndex,<sp/>pointBuffer.data()<sp/>+<sp/>pointBuffer.size()<sp/>};</highlight></codeline>
+<codeline lineno="443"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>ret;</highlight></codeline>
+<codeline lineno="444"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="445"><highlight class="normal"></highlight></codeline>
+<codeline lineno="446"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h"/>
+  </compounddef>
+</doxygen>

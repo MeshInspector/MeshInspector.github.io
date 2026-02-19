@@ -1,0 +1,664 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ConeObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ConeObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55" prot="public" virt="non-virtual">mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_angle_DimensionsVisualizePropertyType_length</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a76efd87cab10d8328311f597e0cd68b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ConeObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.ConeObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10466" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10466" bodyend="10467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1ac8a01614df85e65f2f3a287d49a5e22b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ConeObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.ConeObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10469" bodyend="10470"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a4781119ce13de18fa2db2836142196e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ConeObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.ConeObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10472" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10472" bodyend="10473"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1ac22997ccae1372440154b18b40bcc096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConeObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConeObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates simple Cone object with center in zero and radius - 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10475" bodyend="10478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1aee3c9c6013b2f9ea032ae48cf2f136cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConeObject.__init__</definition>
+        <argsstring>(self, std_vector_Vector3_float pointsToApprox)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConeObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Finds best Cone to approx given points
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10480" bodyend="10483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1aaed3f9c36b6441de16feb796b6a64e04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ConeObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.ConeObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10484" bodyend="10485"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a125bc76883261bbaad97ca7c51a0dd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ConeObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.ConeObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10486" bodyend="10487"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1aa87ba2fdb68b1b2541c9963af8a5dcec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ConeObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.ConeObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10488" bodyend="10489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a45efb7b2a7a9d66ae8c2a32a43a440d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+        <definition> std_vector_FeatureObjectSharedProperty mrmeshpy.ConeObject.getAllSharedProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>mrmeshpy.ConeObject.getAllSharedProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5">getAllSharedProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into UI.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10490" bodyend="10491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a86f80a1e80593bf89e006f30d6615dab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ConeObject.getAngle</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getAngle</name>
+        <qualifiedname>mrmeshpy.ConeObject.getAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates cone angle from xf. It is an angle betweeh main axis and side.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10492" bodyend="10495"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a253c2ec336c01356a6f9bfc8cf6eefd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.ConeObject.getBasePoint</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getBasePoint</name>
+        <qualifiedname>mrmeshpy.ConeObject.getBasePoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a9bd28c315bbee7dcf28bf18da8c115bc">getBasePoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns point considered as base for the feature
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10496" bodyend="10499"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1aae2ec222e7cc1200cbec542163cf209a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ConeObject.getBaseRadius</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getBaseRadius</name>
+        <qualifiedname>mrmeshpy.ConeObject.getBaseRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Computes the base base radius from the xf.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10500" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10500" bodyend="10503"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a23d2d997b3e44e16e9e6cd9fb0c0cf53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.ConeObject.getCenter</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getCenter</name>
+        <qualifiedname>mrmeshpy.ConeObject.getCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates center from xf. Center is the apex of the cone.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10504" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10504" bodyend="10507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a17cef5c63758d4352e7655fa288feab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.ConeObject.getDirection</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getDirection</name>
+        <qualifiedname>mrmeshpy.ConeObject.getDirection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates main axis direction from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10508" bodyend="10511"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a3a5c786a9d3fab30e046e85ef558887d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ConeObject.getHeight</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getHeight</name>
+        <qualifiedname>mrmeshpy.ConeObject.getHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates cone height from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10512" bodyend="10515"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a46d36112f4cca9508db84e7f1bf06207" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.ConeObject.projectPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>mrmeshpy.ConeObject.projectPoint</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4">projectPoint</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Since a point on an abstract feature is difficult to uniquely parameterize,
+the projection function simultaneously returns the normal to the surface at the projection point.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10516" bodyend="10517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a0151afc2076ac331650816442ea76f17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConeObject.setAngle</definition>
+        <argsstring>(self, float angle, ViewportId id=...)</argsstring>
+        <name>setAngle</name>
+        <qualifiedname>mrmeshpy.ConeObject.setAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given cone angle.  It is an angle betweeh main axis and side
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10518" bodyend="10521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a57412f51715a982d7d0f26d0415355a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConeObject.setBaseRadius</definition>
+        <argsstring>(self, float radius, ViewportId id=...)</argsstring>
+        <name>setBaseRadius</name>
+        <qualifiedname>mrmeshpy.ConeObject.setBaseRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Updates the xf for the new base radius.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10522" bodyend="10525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a8f9e6a8fe9bd4c9f949af5dbabd2666a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConeObject.setCenter</definition>
+        <argsstring>(self, Vector3f center, ViewportId id=...)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>mrmeshpy.ConeObject.setCenter</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given center.  Center is the apex of the cone.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10526" bodyend="10529"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a7a7ee9572621a4fdc116ec38c1e2c98e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConeObject.setDirection</definition>
+        <argsstring>(self, Vector3f normal, ViewportId id=...)</argsstring>
+        <name>setDirection</name>
+        <qualifiedname>mrmeshpy.ConeObject.setDirection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit main axis
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10530" bodyend="10533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a0dd9ab0e927574c68579d9017372751b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConeObject.setHeight</definition>
+        <argsstring>(self, float height, ViewportId id=...)</argsstring>
+        <name>setHeight</name>
+        <qualifiedname>mrmeshpy.ConeObject.setHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit cone height
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10534" bodyend="10537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1a017a2fa27d467a7e3113450b3e76bfc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ConeObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.ConeObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10538" bodyend="10539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeObject_1ae6d15b14c42b71b272fa0e39a73c23d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ConeObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.ConeObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10540" bodyend="10541"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ConeObject
+Aliases:  ObjKindTraits_FeaturesObjectKind_Cone.type
+
+Object to show Cone feature, position and radius are controlled by xf
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ConeObject</label>
+        <link refid="classmrmeshpy_1_1ConeObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_angle_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ConeObject</label>
+        <link refid="classmrmeshpy_1_1ConeObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_angle_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10458" bodyend="10541"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ConeObject_1ac22997ccae1372440154b18b40bcc096" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1aee3c9c6013b2f9ea032ae48cf2f136cd" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1aaed3f9c36b6441de16feb796b6a64e04" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a125bc76883261bbaad97ca7c51a0dd2a" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1aa87ba2fdb68b1b2541c9963af8a5dcec" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a45efb7b2a7a9d66ae8c2a32a43a440d9" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a86f80a1e80593bf89e006f30d6615dab" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>getAngle</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a253c2ec336c01356a6f9bfc8cf6eefd1" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>getBasePoint</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1aae2ec222e7cc1200cbec542163cf209a" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>getBaseRadius</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a23d2d997b3e44e16e9e6cd9fb0c0cf53" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>getCenter</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a17cef5c63758d4352e7655fa288feab0" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>getDirection</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a3a5c786a9d3fab30e046e85ef558887d" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>getHeight</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a46d36112f4cca9508db84e7f1bf06207" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a0151afc2076ac331650816442ea76f17" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>setAngle</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a57412f51715a982d7d0f26d0415355a9" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>setBaseRadius</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a8f9e6a8fe9bd4c9f949af5dbabd2666a" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>setCenter</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a7a7ee9572621a4fdc116ec38c1e2c98e" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>setDirection</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a0dd9ab0e927574c68579d9017372751b" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>setHeight</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a017a2fa27d467a7e3113450b3e76bfc4" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a76efd87cab10d8328311f597e0cd68b8" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1ac8a01614df85e65f2f3a287d49a5e22b" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1a4781119ce13de18fa2db2836142196e4" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ConeObject_1ae6d15b14c42b71b272fa0e39a73c23d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

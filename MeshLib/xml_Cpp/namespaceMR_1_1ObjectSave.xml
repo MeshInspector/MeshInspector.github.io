@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1ObjectSave" kind="namespace" language="C++">
+    <compoundname>MR::ObjectSave</compoundname>
+    <innerclass refid="structMR_1_1ObjectSave_1_1Settings" prot="public">MR::ObjectSave::Settings</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1ObjectSave_1a04cd611d4176bd7db5a7ca47e17c8f91" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;(*)(const <ref refid="classMR_1_1Object" kindref="compound">Object</ref> &amp;, const std::filesystem::path &amp;, const <ref refid="structMR_1_1ObjectSave_1_1Settings" kindref="compound">Settings</ref> &amp;)</type>
+        <definition>using MR::ObjectSave::ObjectSaver =  Expected&lt;void&gt;( * )( const Object&amp;, const std::filesystem::path&amp;, const Settings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>ObjectSaver</name>
+        <qualifiedname>MR::ObjectSave::ObjectSaver</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="326" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1ga69e0def5ecc5e5bf5dc89d3a4fe892ff" kind="function"><name>toAnySupportedSceneFormat</name></member>
+      <member refid="group__GeneralGroup_1gadd2495742f624ca0843f8ace8045dce5" kind="function"><name>toAnySupportedFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1ObjectLoad" kindref="compound">ObjectLoad</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="323" column="1"/>
+  </compounddef>
+</doxygen>

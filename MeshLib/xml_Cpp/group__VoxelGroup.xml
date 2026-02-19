@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__VoxelGroup" kind="group">
+    <compoundname>VoxelGroup</compoundname>
+    <title>Voxel</title>
+    <innerclass refid="structMR_1_1MergeVolumePartSettings" prot="public">MR::MergeVolumePartSettings</innerclass>
+    <innerclass refid="structMR_1_1VolumeToMeshByPartsSettings" prot="public">MR::VolumeToMeshByPartsSettings</innerclass>
+    <innergroup refid="group__VolumeIndexerGroup">Volume Indexer</innergroup>
+    <innergroup refid="group__SubvoxelMeshCorrection">Subvoxel Mesh Correction</innergroup>
+    <innergroup refid="group__VolumeSegmentationGroup">Volume (Voxel) Segmentation</innergroup>
+    <innergroup refid="group__VoxelPathGroup">Voxel Path</innergroup>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__VoxelGroup_1ga3d9a9d7ddd2fe60f1d8f4e1f0f538d2e" prot="public" static="no" mutable="no">
+        <type>VoxelId</type>
+        <definition>VoxelId MR::VoxelLocation::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR::VoxelLocation::id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="57" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelGroup_1gada259ed5ae07b6f5138fb6e8212f7531" prot="public" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::VoxelLocation::pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <qualifiedname>MR::VoxelLocation::pos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="58" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelGroup_1gaa1c0e0f0f1418ecbd002c094e0d42e13" prot="protected" static="no" mutable="no">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::VolumeIndexer::dims_</definition>
+        <argsstring></argsstring>
+        <name>dims_</name>
+        <qualifiedname>MR::VolumeIndexer::dims_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="112" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelGroup_1ga4640c0c164372ff567a458ce590c241b" prot="protected" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::VolumeIndexer::sizeXY_</definition>
+        <argsstring></argsstring>
+        <name>sizeXY_</name>
+        <qualifiedname>MR::VolumeIndexer::sizeXY_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>= dims_.x * dims_.y </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="113" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelGroup_1ga8e13ff7ca749a229d273701ff2b833c0" prot="protected" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::VolumeIndexer::size_</definition>
+        <argsstring></argsstring>
+        <name>size_</name>
+        <qualifiedname>MR::VolumeIndexer::size_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>= dims_.x * dims_.y * dims_.z </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="114" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__VoxelGroup_1gaa969e84361224c40ebdaea70a2942ea6" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::VolumeIndexer::neiInc_[OutEdgeCount]</definition>
+        <argsstring>[OutEdgeCount]</argsstring>
+        <name>neiInc_</name>
+        <qualifiedname>MR::VolumeIndexer::neiInc_</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="115" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__VoxelGroup_1ga3f90dd1eb37b8e96421048a44936a299" prot="public" static="no" const="yes" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VoxelLocation::operator bool</definition>
+        <argsstring>() const</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR::VoxelLocation::operator bool</qualifiedname>
+        <briefdescription>
+<para>check for validity </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="61" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1gad64c0feac5a4c85334c9de7dda628dfb" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::VolumeIndexer::VolumeIndexer</definition>
+        <argsstring>(const Vector3i &amp;dims)</argsstring>
+        <name>VolumeIndexer</name>
+        <qualifiedname>MR::VolumeIndexer::VolumeIndexer</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="67" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="118" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga242530ea0c7771c807c769bcb292f37f" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const Vector3i &amp;</type>
+        <definition>const Vector3i &amp; MR::VolumeIndexer::dims</definition>
+        <argsstring>() const</argsstring>
+        <name>dims</name>
+        <qualifiedname>MR::VolumeIndexer::dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="69" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="69" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga1a728fc2d1e7dd47e0f137af620f6985" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::VolumeIndexer::size</definition>
+        <argsstring>() const</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::VolumeIndexer::size</qualifiedname>
+        <briefdescription>
+<para>returns the total number of voxels </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="72" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="72" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga926edbe131f216c52d55d31a98f33aaf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoxelId</type>
+        <definition>VoxelId MR::VolumeIndexer::endId</definition>
+        <argsstring>() const</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR::VolumeIndexer::endId</qualifiedname>
+        <briefdescription>
+<para>returns the last plus one voxel <ref refid="classMR_1_1Id" kindref="compound">Id</ref> for defining iteration range </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="75" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1gaf0d94fe95fbc290e175743a06ad3d1c6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::VolumeIndexer::sizeXY</definition>
+        <argsstring>() const</argsstring>
+        <name>sizeXY</name>
+        <qualifiedname>MR::VolumeIndexer::sizeXY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="77" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="77" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1gaf972ceaa48b72a552781412be0e49eb6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>Vector3i</type>
+        <definition>Vector3i MR::VolumeIndexer::toPos</definition>
+        <argsstring>(VoxelId id) const</argsstring>
+        <name>toPos</name>
+        <qualifiedname>MR::VolumeIndexer::toPos</qualifiedname>
+        <param>
+          <type>VoxelId</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="79" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="131" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga1e9ca6412f80a5ce4751fb16cad4ce2c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoxelId</type>
+        <definition>VoxelId MR::VolumeIndexer::toVoxelId</definition>
+        <argsstring>(const Vector3i &amp;pos) const</argsstring>
+        <name>toVoxelId</name>
+        <qualifiedname>MR::VolumeIndexer::toVoxelId</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="81" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga381737dfbef1fd95586ae4f44b63b468" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoxelLocation</type>
+        <definition>VoxelLocation MR::VolumeIndexer::toLoc</definition>
+        <argsstring>(VoxelId id) const</argsstring>
+        <name>toLoc</name>
+        <qualifiedname>MR::VolumeIndexer::toLoc</qualifiedname>
+        <param>
+          <type>VoxelId</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="83" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="83" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga5bad9caa6f1298325759d64a72cca3b9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoxelLocation</type>
+        <definition>VoxelLocation MR::VolumeIndexer::toLoc</definition>
+        <argsstring>(const Vector3i &amp;pos) const</argsstring>
+        <name>toLoc</name>
+        <qualifiedname>MR::VolumeIndexer::toLoc</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="84" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga1d7ef8146c7e01018cfd181e0967ac35" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::VolumeIndexer::isInDims</definition>
+        <argsstring>(const Vector3i &amp;pos) const</argsstring>
+        <name>isInDims</name>
+        <qualifiedname>MR::VolumeIndexer::isInDims</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>returns true if this voxel is within dimensions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="87" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga6e3749e3a300fa4eda0a5dc1eb875a4a" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::VolumeIndexer::isBdVoxel</definition>
+        <argsstring>(const Vector3i &amp;pos) const</argsstring>
+        <name>isBdVoxel</name>
+        <qualifiedname>MR::VolumeIndexer::isBdVoxel</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>returns true if this voxel is on the boundary of the volume </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="90" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1gad83baf7155c4c4be0ffa42c4de418e6b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::VolumeIndexer::areNeigbors</definition>
+        <argsstring>(VoxelId v0, VoxelId v1) const</argsstring>
+        <name>areNeigbors</name>
+        <qualifiedname>MR::VolumeIndexer::areNeigbors</qualifiedname>
+        <param>
+          <type>VoxelId</type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type>VoxelId</type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+<para>returns true if v1 is within at most 6 neighbors of v0 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="93" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga991a1f3d21cb03e21402be655ba7c06c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::VolumeIndexer::areNeigbors</definition>
+        <argsstring>(const Vector3i &amp;pos0, const Vector3i &amp;pos1) const</argsstring>
+        <name>areNeigbors</name>
+        <qualifiedname>MR::VolumeIndexer::areNeigbors</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>pos0</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>pos1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="94" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="94" bodyend="94"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1gae847dbed512fd911819dbc766c0dc9bf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::VolumeIndexer::hasNeighbour</definition>
+        <argsstring>(const Vector3i &amp;pos, OutEdge toNei) const</argsstring>
+        <name>hasNeighbour</name>
+        <qualifiedname>MR::VolumeIndexer::hasNeighbour</qualifiedname>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>OutEdge</type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+<para>given existing voxel at (pos), returns whether it has valid neighbor specified by the edge (toNei) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="97" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga70480624af713d6c33abe8a12d5fa6ef" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoxelId</type>
+        <definition>VoxelId MR::VolumeIndexer::getNeighbor</definition>
+        <argsstring>(VoxelId v, OutEdge toNei) const</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>MR::VolumeIndexer::getNeighbor</qualifiedname>
+        <param>
+          <type>VoxelId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>OutEdge</type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+<para>returns id of v&apos;s neighbor specified by the edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="100" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="100" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1gafe8987c6754acf0b39a5d12c2a7d0da9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoxelId</type>
+        <definition>VoxelId MR::VolumeIndexer::getNeighbor</definition>
+        <argsstring>(VoxelId v, const Vector3i &amp;pos, OutEdge toNei) const</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>MR::VolumeIndexer::getNeighbor</qualifiedname>
+        <param>
+          <type>VoxelId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>OutEdge</type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="101" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="101" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1gafa9df4ffd5452e505b8a11ca3d01f7b4" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoxelLocation</type>
+        <definition>VoxelLocation MR::VolumeIndexer::getNeighbor</definition>
+        <argsstring>(const VoxelLocation &amp;loc, OutEdge toNei) const</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>MR::VolumeIndexer::getNeighbor</qualifiedname>
+        <param>
+          <type>const VoxelLocation &amp;</type>
+          <declname>loc</declname>
+        </param>
+        <param>
+          <type>OutEdge</type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given existing voxel at (loc), returns its neighbor specified by the edge (toNei); if the neighbour does not exist (loc is on boundary), returns invalid <ref refid="structMR_1_1VoxelLocation" kindref="compound">VoxelLocation</ref> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="105" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="152" bodyend="158"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1ga9278508392604ed5b02779e63a573555" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoxelId</type>
+        <definition>VoxelId MR::VolumeIndexer::getExistingNeighbor</definition>
+        <argsstring>(VoxelId v, OutEdge toNei) const</argsstring>
+        <name>getExistingNeighbor</name>
+        <qualifiedname>MR::VolumeIndexer::getExistingNeighbor</qualifiedname>
+        <param>
+          <type>VoxelId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>OutEdge</type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+<para>returns id of v&apos;s neighbor specified by the edge, which is known to exist (so skipping a lot of checks) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="108" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="146" bodyend="150"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1gacc3f28e9566b6b9fb9fe666e09034075" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>VoxelId</type>
+        <definition>VoxelId MR::VolumeIndexer::getNeighbor</definition>
+        <argsstring>(VoxelId v, const Vector3i &amp;pos, bool bdPos, OutEdge toNei) const</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>MR::VolumeIndexer::getNeighbor</qualifiedname>
+        <param>
+          <type>VoxelId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>bdPos</declname>
+        </param>
+        <param>
+          <type>OutEdge</type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" line="109" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVolumeIndexer.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="group__VoxelGroup_1gaaaebc49a422252db86351ce55dc91bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API Expected&lt; VoxelBitSet &gt;</type>
+        <definition>MRVOXELS_API Expected&lt; VoxelBitSet &gt; MR::segmentVolumeByGraphCut</definition>
+        <argsstring>(const SimpleVolume &amp;densityVolume, float k, const VoxelBitSet &amp;sourceSeeds, const VoxelBitSet &amp;sinkSeeds, ProgressCallback cb={})</argsstring>
+        <name>segmentVolumeByGraphCut</name>
+        <qualifiedname>MR::segmentVolumeByGraphCut</qualifiedname>
+        <param>
+          <type>const SimpleVolume &amp;</type>
+          <declname>densityVolume</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>const VoxelBitSet &amp;</type>
+          <declname>sourceSeeds</declname>
+        </param>
+        <param>
+          <type>const VoxelBitSet &amp;</type>
+          <declname>sinkSeeds</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Segment voxels of given volume on two sets using graph-cut, returning source set. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>k</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- coefficient in the exponent of the metric affecting edge capacity:<linebreak/>
+ increasing k you force to find a higher steps in the density on the boundary, decreasing k you ask for smoother boundary </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sourceSeeds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- these voxels will be included in the result </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sinkSeeds</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- these voxels will be excluded from the result</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="see"><para><ref refid="classMR_1_1VolumeSegmenter" kindref="compound">VolumeSegmenter</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelGraphCut.h" line="23" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelGraphCut.h" declline="23" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This chapter represents documentation about Volume (Voxel) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

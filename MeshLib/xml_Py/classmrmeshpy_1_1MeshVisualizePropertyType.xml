@@ -1,0 +1,521 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshVisualizePropertyType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshVisualizePropertyType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a0e7356fd2a1fdaa79474036c578cf821" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::BordersHighlight</definition>
+        <argsstring></argsstring>
+        <name>BordersHighlight</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.BordersHighlight</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35670" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1ab48aede3a4047e5c762fb702aa2c41d2" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::Edges</definition>
+        <argsstring></argsstring>
+        <name>Edges</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.Edges</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35671" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a527f212cb882def0780b87122a60021f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::EnableShading</definition>
+        <argsstring></argsstring>
+        <name>EnableShading</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.EnableShading</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35672" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a23521b76bf517b96bb7c8b2d43766e08" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::Faces</definition>
+        <argsstring></argsstring>
+        <name>Faces</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.Faces</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35673" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1aae965309e33ca4b1bb3cd7f66a5f803d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::FlatShading</definition>
+        <argsstring></argsstring>
+        <name>FlatShading</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.FlatShading</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35674" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35674" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a6bb5781ee6d7bb320773515e9dbc9136" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::OnlyOddFragments</definition>
+        <argsstring></argsstring>
+        <name>OnlyOddFragments</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.OnlyOddFragments</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35675" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a85f74c4a16e9ceddaa4fcbc3ba6a55c1" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::Points</definition>
+        <argsstring></argsstring>
+        <name>Points</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.Points</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35676" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1ac72561d634c822e696d2653d2f94d5ad" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::PolygonOffsetFromCamera</definition>
+        <argsstring></argsstring>
+        <name>PolygonOffsetFromCamera</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.PolygonOffsetFromCamera</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35677" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1ae74186b6d5d29a19da92c492a8d1bed2" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::SelectedEdges</definition>
+        <argsstring></argsstring>
+        <name>SelectedEdges</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.SelectedEdges</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35678" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a81bcd2a50aee3157430a2226d691b797" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::SelectedFaces</definition>
+        <argsstring></argsstring>
+        <name>SelectedFaces</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.SelectedFaces</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35679" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a3ba55377edf21cf2029cea0d16c1814d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::Texture</definition>
+        <argsstring></argsstring>
+        <name>Texture</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.Texture</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35680" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a0af41c50d6f7c083afe36764a87df010" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35681" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshVisualizePropertyType_1ad67a36df1625e895333d16c1745bd85f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshVisualizePropertyType::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshVisualizePropertyType" kindref="compound">MeshVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35682" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a047f335e6b2f99a6fd7798a2add0683a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshVisualizePropertyType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35683" bodyend="35684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a6c3abd9346bb55f9b48d7f6d03a20444" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshVisualizePropertyType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35685" bodyend="35686"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1ae594a5e7af31d1be38098d65167e01fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshVisualizePropertyType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35687" bodyend="35688"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a50720aa227797c7093e5b72986de8876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshVisualizePropertyType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35689" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35689" bodyend="35690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a8d925f3c9f73e72835b3680f8d549653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVisualizePropertyType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35691" bodyend="35692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a5b3e79c7c17a7d4f1740a38a2e68126b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshVisualizePropertyType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35693" bodyend="35694"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a7b12faa11b7443d9cd498be8683f006d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshVisualizePropertyType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35695" bodyend="35696"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1ab44a6fd41b73b28c03a4eea55bdb7ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshVisualizePropertyType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35697" bodyend="35698"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a0fcdd4260451ab14943938fd3ad4aac3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshVisualizePropertyType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35699" bodyend="35700"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1ae47d9f8f949c635da8a25d274576212a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshVisualizePropertyType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35701" bodyend="35702"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1a5346d796595826e443a4138c44b22401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshVisualizePropertyType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35704" bodyend="35705"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshVisualizePropertyType_1aa73650f3c547eb2f266cd74656c8d066" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshVisualizePropertyType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.MeshVisualizePropertyType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35707" bodyend="35708"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Faces
+
+  Texture
+
+  Edges
+
+  Points
+
+  SelectedFaces
+
+  SelectedEdges
+
+  EnableShading
+
+  FlatShading
+
+  OnlyOddFragments
+
+  BordersHighlight
+
+  PolygonOffsetFromCamera : recommended for drawing edges on top of mesh
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshVisualizePropertyType</label>
+        <link refid="classmrmeshpy_1_1MeshVisualizePropertyType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>BordersHighlight</edgelabel>
+          <edgelabel>Edges</edgelabel>
+          <edgelabel>EnableShading</edgelabel>
+          <edgelabel>Faces</edgelabel>
+          <edgelabel>FlatShading</edgelabel>
+          <edgelabel>OnlyOddFragments</edgelabel>
+          <edgelabel>Points</edgelabel>
+          <edgelabel>PolygonOffsetFromCamera</edgelabel>
+          <edgelabel>SelectedEdges</edgelabel>
+          <edgelabel>SelectedFaces</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35642" bodyend="35708"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a047f335e6b2f99a6fd7798a2add0683a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a6c3abd9346bb55f9b48d7f6d03a20444" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1ae594a5e7af31d1be38098d65167e01fa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a50720aa227797c7093e5b72986de8876" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a8d925f3c9f73e72835b3680f8d549653" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a5b3e79c7c17a7d4f1740a38a2e68126b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a0af41c50d6f7c083afe36764a87df010" prot="private" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a7b12faa11b7443d9cd498be8683f006d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1ab44a6fd41b73b28c03a4eea55bdb7ed1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a0fcdd4260451ab14943938fd3ad4aac3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1ae47d9f8f949c635da8a25d274576212a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1ad67a36df1625e895333d16c1745bd85f" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a0e7356fd2a1fdaa79474036c578cf821" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>BordersHighlight</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1ab48aede3a4047e5c762fb702aa2c41d2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>Edges</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a527f212cb882def0780b87122a60021f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>EnableShading</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a23521b76bf517b96bb7c8b2d43766e08" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>Faces</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1aae965309e33ca4b1bb3cd7f66a5f803d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>FlatShading</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a5346d796595826e443a4138c44b22401" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a6bb5781ee6d7bb320773515e9dbc9136" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>OnlyOddFragments</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a85f74c4a16e9ceddaa4fcbc3ba6a55c1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>Points</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1ac72561d634c822e696d2653d2f94d5ad" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>PolygonOffsetFromCamera</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1ae74186b6d5d29a19da92c492a8d1bed2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>SelectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a81bcd2a50aee3157430a2226d691b797" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>SelectedFaces</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1a3ba55377edf21cf2029cea0d16c1814d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>Texture</name></member>
+      <member refid="classmrmeshpy_1_1MeshVisualizePropertyType_1aa73650f3c547eb2f266cd74656c8d066" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshVisualizePropertyType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

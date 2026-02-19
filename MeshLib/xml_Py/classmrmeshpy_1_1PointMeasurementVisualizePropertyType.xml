@@ -1,0 +1,332 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointMeasurementVisualizePropertyType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a77d9fecfedff8c2f88e1603c070cdca2" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointMeasurementVisualizePropertyType::CapVisibility</definition>
+        <argsstring></argsstring>
+        <name>CapVisibility</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.CapVisibility</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType" kindref="compound">PointMeasurementVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44728" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44728" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a4d605cf01a98b82759c076a6e8250dca" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointMeasurementVisualizePropertyType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType" kindref="compound">PointMeasurementVisualizePropertyType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44729" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1aae12e8bad79c99b43ff615eebc411e52" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PointMeasurementVisualizePropertyType::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType" kindref="compound">PointMeasurementVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44730" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44730" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a6d0b4355a9163e15babf69fd3bd9788b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointMeasurementVisualizePropertyType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44731" bodyend="44732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a2e8dcabcfb1861fb2c5b69585ddd2120" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PointMeasurementVisualizePropertyType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44733" bodyend="44734"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a42742de14e1b07ab3de3861f89656f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PointMeasurementVisualizePropertyType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44735" bodyend="44736"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1afe539f3d7acc44b75316eac046a37566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PointMeasurementVisualizePropertyType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44737" bodyend="44738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1aa32584602d5d046146d7c236884a1c1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointMeasurementVisualizePropertyType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44739" bodyend="44740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a537d2c1cea3ce329c60d6085a3929db1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PointMeasurementVisualizePropertyType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44741" bodyend="44742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1aa710d3c4e2a90b53fe4ab20f1b2c9a2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointMeasurementVisualizePropertyType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44743" bodyend="44744"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a3b117f261f50bac49bafe90c53d56278" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementVisualizePropertyType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44745" bodyend="44746"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a371e2aa638e5f308793ff39a71295920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointMeasurementVisualizePropertyType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44747" bodyend="44748"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a031b100a1b41e3c0b6d61535da63f748" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementVisualizePropertyType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44749" bodyend="44750"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a3801e17f6291bfcc23be179125815cd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementVisualizePropertyType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44752" bodyend="44753"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a08605ea038e690f8978d191ad204b58f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PointMeasurementVisualizePropertyType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.PointMeasurementVisualizePropertyType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44755" bodyend="44756"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  CapVisibility
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointMeasurementVisualizePropertyType</label>
+        <link refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>CapVisibility</edgelabel>
+          <edgelabel>_count</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44720" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44720" bodyend="44756"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a6d0b4355a9163e15babf69fd3bd9788b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a2e8dcabcfb1861fb2c5b69585ddd2120" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a42742de14e1b07ab3de3861f89656f20" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1afe539f3d7acc44b75316eac046a37566" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1aa32584602d5d046146d7c236884a1c1e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a537d2c1cea3ce329c60d6085a3929db1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a4d605cf01a98b82759c076a6e8250dca" prot="private" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1aa710d3c4e2a90b53fe4ab20f1b2c9a2b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a3b117f261f50bac49bafe90c53d56278" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a371e2aa638e5f308793ff39a71295920" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a031b100a1b41e3c0b6d61535da63f748" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1aae12e8bad79c99b43ff615eebc411e52" prot="protected" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a77d9fecfedff8c2f88e1603c070cdca2" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>CapVisibility</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a3801e17f6291bfcc23be179125815cd7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementVisualizePropertyType_1a08605ea038e690f8978d191ad204b58f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementVisualizePropertyType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

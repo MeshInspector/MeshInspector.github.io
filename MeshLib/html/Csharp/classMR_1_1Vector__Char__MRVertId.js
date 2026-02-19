@@ -2,6 +2,8 @@ var classMR_1_1Vector__Char__MRVertId =
 [
     [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#ac1db05ee9916b4669663c9727c076ad7", null ],
     [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#a487c6af3ff91dc2c469f6a0c3ef10084", null ],
+    [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#acd97410e9b0b9b7563e8e516d0fc0385", null ],
+    [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#a28d5e954227aa4950e3740e0c35bb8ca", null ],
     [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#af721c580d83d11a76eebd48c1ff62383", null ],
     [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#a0dab58b64c6a00fe29361ca03fb1e82f", null ],
     [ "Vector_Char_MRVertId", "classMR_1_1Vector__Char__MRVertId.html#a3e451124c1d77cd40f6da6c90e56e9ba", null ],

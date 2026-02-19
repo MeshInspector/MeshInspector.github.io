@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WeightedShell_1_1ParametersRegions" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WeightedShell::ParametersRegions</compoundname>
+    <basecompoundref refid="structMR_1_1WeightedShell_1_1ParametersBase" prot="public" virt="non-virtual">MR::WeightedShell::ParametersBase</basecompoundref>
+    <includes refid="MRWeightedPointsShell_8h" local="no">MRWeightedPointsShell.h</includes>
+    <innerclass refid="structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region" prot="public">MR::WeightedShell::ParametersRegions::Region</innerclass>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersRegions_1aaff8fb35b9b4819f8dce8e6cf191e461" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="structMR_1_1WeightedShell_1_1ParametersRegions_1_1Region" kindref="compound">Region</ref> &gt;</type>
+        <definition>std::vector&lt;Region&gt; MR::WeightedShell::ParametersRegions::regions</definition>
+        <argsstring></argsstring>
+        <name>regions</name>
+        <qualifiedname>MR::WeightedShell::ParametersRegions::regions</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>list of regions (overlappings are allowed) with corresponding offsets the additional offset in overlaps is set to the average of the regions </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="66" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersRegions_1a0ccbe22729b0decc1c75be935bdffa2b" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::WeightedShell::ParametersRegions::interpolationDist</definition>
+        <argsstring></argsstring>
+        <name>interpolationDist</name>
+        <qualifiedname>MR::WeightedShell::ParametersRegions::interpolationDist</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>interpolation distance between the weights of the regions determines the sharpness of transitions between different regions </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="70" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersRegions_1aa3520ca7fb6d7d6bcfa86577f199a2d8" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::WeightedShell::ParametersRegions::bidirectionalMode</definition>
+        <argsstring></argsstring>
+        <name>bidirectionalMode</name>
+        <qualifiedname>MR::WeightedShell::ParametersRegions::bidirectionalMode</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true the distances grow in both directions from each triangle, reaching minimum in the triangle; if false the distances grow to infinity in the direction of triangle&apos;s normals, and decrease to minus infinity in the opposite direction </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="74" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::WeightedShell::ParametersBase</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersBase"/>
+      </node>
+      <node id="1">
+        <label>MR::WeightedShell::ParametersRegions</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersRegions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::WeightedShell::ParametersBase</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersBase"/>
+      </node>
+      <node id="1">
+        <label>MR::WeightedShell::ParametersRegions</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersRegions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="56" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="57" bodyend="75"/>
+    <listofallmembers>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersRegions_1aa3520ca7fb6d7d6bcfa86577f199a2d8" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>bidirectionalMode</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersRegions_1a0ccbe22729b0decc1c75be935bdffa2b" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>interpolationDist</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1a349cbda27e2015a526f1b28c6b47d81d" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>numLayers</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1ae7fb4b6344a163878220ad932dc4dec8" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>offset</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1accba4965ab6c2a4b2f28903261bce706" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>progress</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersRegions_1aaff8fb35b9b4819f8dce8e6cf191e461" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>regions</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1af8d85417b99b631e7f2c01ba2d039443" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersRegions</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

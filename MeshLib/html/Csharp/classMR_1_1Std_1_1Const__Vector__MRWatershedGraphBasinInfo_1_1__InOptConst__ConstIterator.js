@@ -1,4 +1,0 @@
-var classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBasinInfo_1_1__InOptConst__ConstIterator =
-[
-    [ "operator _InOptConst_ConstIterator", "classMR_1_1Std_1_1Const__Vector__MRWatershedGraphBasinInfo_1_1__InOptConst__ConstIterator.html#a1ce4460dc263383a74305bacc4c32bbd", null ]
-];

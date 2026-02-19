@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SetNew" kind="class" language="C#" prot="public">
+    <compoundname>MR::SetNew</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SetNew</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SetNew_1ac128d2eedaa3047b848384416694346a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetNew.SetNew</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SetNew</name>
+        <qualifiedname>MR.SetNew.SetNew</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="196" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="196" bodyend="196"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SetNew_1ae08f8d7caec2c64f01c1ea85707c06df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetNew.SetNew</definition>
+        <argsstring>()</argsstring>
+        <name>SetNew</name>
+        <qualifiedname>MR.SetNew.SetNew</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="201" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="201" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetNew_1afce5f6bb6bbbd0222b6aea6e7714a5d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SetNew.SetNew</definition>
+        <argsstring>(MR.Const_SetNew _other)</argsstring>
+        <name>SetNew</name>
+        <qualifiedname>MR.SetNew.SetNew</qualifiedname>
+        <param>
+          <type>MR.Const_SetNew</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SetNew.SetNew</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="211" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="211" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetNew_1ae731f5c384bc10b57be6dd845f966245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SetNew.SetNew</definition>
+        <argsstring>(SetNew _other)</argsstring>
+        <name>SetNew</name>
+        <qualifiedname>MR.SetNew.SetNew</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SetNew" kindref="compound">SetNew</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SetNew.SetNew</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="222" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="222" bodyend="222"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SetNew_1a84cd19e7b2373576caf4ae7c62514947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SetNew" kindref="compound">MR.SetNew</ref></type>
+        <definition>unsafe MR.SetNew MR.SetNew.assign</definition>
+        <argsstring>(MR.Const_SetNew _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SetNew.assign</qualifiedname>
+        <param>
+          <type>MR.Const_SetNew</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SetNew.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="227" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="227" bodyend="234"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>argument of this type indicates that the object is in old state, and the following argument is new state to be set Generated from class <computeroutput><ref refid="classMR_1_1SetNew" kindref="compound">MR.SetNew</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SetNew</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SetNew</label>
+        <link refid="classMR_1_1SetNew"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SetNew &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SetNew</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SetNew</label>
+        <link refid="classMR_1_1SetNew"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SetNew &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" line="194" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPartialChangeMeshAction.cs" bodystart="195" bodyend="235"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SetNew_1a84cd19e7b2373576caf4ae7c62514947" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>assign</name></member>
+      <member refid="classMR_1_1SetNew_1ac128d2eedaa3047b848384416694346a" prot="package" virt="non-virtual"><scope>MR::SetNew</scope><name>SetNew</name></member>
+      <member refid="classMR_1_1SetNew_1ae08f8d7caec2c64f01c1ea85707c06df" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>SetNew</name></member>
+      <member refid="classMR_1_1SetNew_1afce5f6bb6bbbd0222b6aea6e7714a5d8" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>SetNew</name></member>
+      <member refid="classMR_1_1SetNew_1ae731f5c384bc10b57be6dd845f966245" prot="public" virt="non-virtual"><scope>MR::SetNew</scope><name>SetNew</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

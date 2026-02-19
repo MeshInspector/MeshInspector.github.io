@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RayOrigin" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RayOrigin</compoundname>
+    <includes refid="MRRayBoxIntersection_8h" local="no">MRRayBoxIntersection.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1RayOrigin_1ac04a9fc6f4e6573fb74ba782ee0db113" prot="public" static="no" mutable="no">
+        <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref> <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt;</type>
+        <definition>MR_BIND_IGNORE Vector3&lt;T&gt; MR::RayOrigin&lt; T &gt;::p</definition>
+        <argsstring></argsstring>
+        <name>p</name>
+        <qualifiedname>MR::RayOrigin::p</qualifiedname>
+        <briefdescription>
+<para>This is hidden to match the specialization below. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRayBoxIntersection.h" line="18" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRayBoxIntersection.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1RayOrigin_1a8502e2d024f3f9f3b84ad9f25f659eb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::RayOrigin&lt; T &gt;::RayOrigin</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;ro)</argsstring>
+        <name>RayOrigin</name>
+        <qualifiedname>MR::RayOrigin::RayOrigin</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Vector3" kindref="compound">Vector3</ref>&lt; T &gt; &amp;</type>
+          <declname>ro</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRayBoxIntersection.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRayBoxIntersection.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRayBoxIntersection.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRayBoxIntersection.h" bodystart="16" bodyend="20"/>
+    <listofallmembers>
+      <member refid="structMR_1_1RayOrigin_1ac04a9fc6f4e6573fb74ba782ee0db113" prot="public" virt="non-virtual"><scope>MR::RayOrigin</scope><name>p</name></member>
+      <member refid="structMR_1_1RayOrigin_1a8502e2d024f3f9f3b84ad9f25f659eb7" prot="public" virt="non-virtual"><scope>MR::RayOrigin</scope><name>RayOrigin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

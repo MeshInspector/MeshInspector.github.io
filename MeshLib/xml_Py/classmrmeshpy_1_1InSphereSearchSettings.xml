@@ -1,0 +1,500 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1InSphereSearchSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::InSphereSearchSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereSearchSettings_1a1303b108ea0dd5e255d77dea7e01e82c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereSearchSettings::_offsetof_insideAndOutside</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_insideAndOutside</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings._offsetof_insideAndOutside</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereSearchSettings_1afe836fd1b532f3410187db0977cb9693" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereSearchSettings::_offsetof_maxIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxIters</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings._offsetof_maxIters</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereSearchSettings_1a091490f1908c567cad9898ea490ef48f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereSearchSettings::_offsetof_maxRadius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxRadius</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings._offsetof_maxRadius</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereSearchSettings_1ab166cb472fbf8d5d05309bb03942c0b8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereSearchSettings::_offsetof_minAngleCos</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minAngleCos</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings._offsetof_minAngleCos</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphereSearchSettings_1a6292bfa949c68571c48309188ad5d2c1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphereSearchSettings::_offsetof_minShrinkage</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minShrinkage</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings._offsetof_minShrinkage</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24162" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a37b724c5f3a16d2cb01ac88ab0ee5150" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereSearchSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24165" bodyend="24166"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a95ccdae783ba5d78ee538d57014ae3d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1InSphereSearchSettings" kindref="compound">InSphereSearchSettings</ref></type>
+        <definition> InSphereSearchSettings mrmeshpy.InSphereSearchSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24169" bodyend="24170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a95ccdae783ba5d78ee538d57014ae3d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1InSphereSearchSettings" kindref="compound">InSphereSearchSettings</ref></type>
+        <definition> InSphereSearchSettings mrmeshpy.InSphereSearchSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24173" bodyend="24174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a3f0e7622ee44d9207319b3c585391fd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereSearchSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24176" bodyend="24177"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a1a8fa1b3bcec86c2f87f96d71505640b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereSearchSettings.__init__</definition>
+        <argsstring>(self, InSphereSearchSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1InSphereSearchSettings" kindref="compound">InSphereSearchSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24179" bodyend="24182"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a6f8bb0eec3f2cfd8dd6d8070b69c7405" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereSearchSettings.__init__</definition>
+        <argsstring>(self, bool insideAndOutside, float maxRadius, int maxIters, float minShrinkage, float minAngleCos)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>insideAndOutside</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxRadius</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIters</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minShrinkage</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAngleCos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24184" bodyend="24187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a43e18f120551a90286eb010911b4bf82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.InSphereSearchSettings.insideAndOutside</definition>
+        <argsstring>(self)</argsstring>
+        <name>insideAndOutside</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.insideAndOutside</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if false then searches for the maximal inscribed sphere in mesh;
+if true then searches for both a) maximal inscribed sphere, and b) maximal sphere outside the mesh touching it at two points;
+             and returns the smaller of two, and if it is b) then with minus sign
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24189" bodyend="24194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a0b1d48e74aaad8aa3e05a714ceb9bf47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereSearchSettings.insideAndOutside</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>insideAndOutside</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.insideAndOutside</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24196" bodyend="24197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a72d462082b3107d22cf7e18b0aa33ade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.InSphereSearchSettings.maxIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxIters</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.maxIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum number of shrinking iterations for one triangle
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24199" bodyend="24202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a89c67b4beaefad94df738dd4eae68de2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereSearchSettings.maxIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxIters</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.maxIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24204" bodyend="24205"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a0bc9dfc185d8a52438a1683aa14203d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.InSphereSearchSettings.maxRadius</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxRadius</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.maxRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum allowed radius of the sphere;
+for almost closed meshes the article recommends maxRadius = 0.5f * std::min( { boxSize.x, boxSize.y, boxSize.z } )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24207" bodyend="24211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a4a744f1ca6fc9779e6798c018e06490e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereSearchSettings.maxRadius</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxRadius</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.maxRadius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24213" bodyend="24214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1ac7a5abaa75e96e0dd92325224a105b68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.InSphereSearchSettings.minAngleCos</definition>
+        <argsstring>(self)</argsstring>
+        <name>minAngleCos</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.minAngleCos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimum cosine of the angle between two unit directions:
+1) search unit direction (m.inDir),
+2) unit direction from sphere&apos;s center to the other found touch point;
+-1 value means no filtering by this angle;
+the increase of this value helps avoiding too small spheres on noisy surfaces
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24216" bodyend="24223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1ad611bdd900cdba3a1649947a32aedc87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereSearchSettings.minAngleCos</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minAngleCos</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.minAngleCos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24225" bodyend="24226"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1af9bbe4cee5f7424c133413c36f6b8f3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.InSphereSearchSettings.minShrinkage</definition>
+        <argsstring>(self)</argsstring>
+        <name>minShrinkage</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.minShrinkage</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>iterations stop if next radius is larger than minShrinkage times previous radius
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24228" bodyend="24231"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphereSearchSettings_1a79b87dbc090803245424d4d145a4650d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphereSearchSettings.minShrinkage</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minShrinkage</name>
+        <qualifiedname>mrmeshpy.InSphereSearchSettings.minShrinkage</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24233" bodyend="24234"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::InSphereSearchSettings
+
+controls the finding of maximal inscribed sphere in mesh
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.InSphereSearchSettings</label>
+        <link refid="classmrmeshpy_1_1InSphereSearchSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_insideAndOutside</edgelabel>
+          <edgelabel>_offsetof_maxIters</edgelabel>
+          <edgelabel>_offsetof_maxRadius</edgelabel>
+          <edgelabel>_offsetof_minAngleCos</edgelabel>
+          <edgelabel>_offsetof_minShrinkage</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24152" bodyend="24234"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a37b724c5f3a16d2cb01ac88ab0ee5150" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a3f0e7622ee44d9207319b3c585391fd7" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a1a8fa1b3bcec86c2f87f96d71505640b" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a6f8bb0eec3f2cfd8dd6d8070b69c7405" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a1303b108ea0dd5e255d77dea7e01e82c" prot="protected" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>_offsetof_insideAndOutside</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1afe836fd1b532f3410187db0977cb9693" prot="protected" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>_offsetof_maxIters</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a091490f1908c567cad9898ea490ef48f" prot="protected" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>_offsetof_maxRadius</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1ab166cb472fbf8d5d05309bb03942c0b8" prot="protected" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>_offsetof_minAngleCos</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a6292bfa949c68571c48309188ad5d2c1" prot="protected" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>_offsetof_minShrinkage</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a43e18f120551a90286eb010911b4bf82" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>insideAndOutside</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a0b1d48e74aaad8aa3e05a714ceb9bf47" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>insideAndOutside</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a72d462082b3107d22cf7e18b0aa33ade" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>maxIters</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a89c67b4beaefad94df738dd4eae68de2" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>maxIters</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a0bc9dfc185d8a52438a1683aa14203d0" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>maxRadius</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a4a744f1ca6fc9779e6798c018e06490e" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>maxRadius</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1ac7a5abaa75e96e0dd92325224a105b68" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>minAngleCos</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1ad611bdd900cdba3a1649947a32aedc87" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>minAngleCos</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1af9bbe4cee5f7424c133413c36f6b8f3a" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>minShrinkage</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a79b87dbc090803245424d4d145a4650d" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>minShrinkage</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a95ccdae783ba5d78ee538d57014ae3d5" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1InSphereSearchSettings_1a95ccdae783ba5d78ee538d57014ae3d5" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphereSearchSettings</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

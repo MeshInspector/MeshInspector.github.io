@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SpacingSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::SpacingSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SpacingSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1SpacingSettings_1a1b3ceb254bcb302d37da13387844bac5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_VertBitSet</type>
+        <definition>new unsafe MR.? Const_VertBitSet MR.SpacingSettings.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.SpacingSettings.region</qualifiedname>
+        <briefdescription>
+<para>vertices to be moved by the algorithm, nullptr means all valid vertices </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="518" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="519" bodyend="528"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SpacingSettings_1a2c15ade1c05aabea65b0a15264fc4def" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_FloatFuncFromMRUndirectedEdgeId</type>
+        <definition>new unsafe MR.Std.Function_FloatFuncFromMRUndirectedEdgeId MR.SpacingSettings.dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR.SpacingSettings.dist</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="531" column="73" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="531" bodyend="531"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SpacingSettings_1a9ce0b719921fc07ac722861daea365c3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.SpacingSettings.numIters</definition>
+        <argsstring></argsstring>
+        <name>numIters</name>
+        <qualifiedname>MR.SpacingSettings.numIters</qualifiedname>
+        <briefdescription>
+<para>the algorithm is iterative, the more iterations the closer result to exact solution </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="534" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="534" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SpacingSettings_1a4f9a38bc7e4600736a7af3c8c152e91b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SpacingSettings.stabilizer</definition>
+        <argsstring></argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>MR.SpacingSettings.stabilizer</qualifiedname>
+        <briefdescription>
+<para>too small number here can lead to instability, too large - to slow convergence </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="537" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SpacingSettings_1a9e46f46fcdae4f443818731ed2a06186" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.SpacingSettings.maxSumNegW</definition>
+        <argsstring></argsstring>
+        <name>maxSumNegW</name>
+        <qualifiedname>MR.SpacingSettings.maxSumNegW</qualifiedname>
+        <briefdescription>
+<para>maximum sum of minus negative weights, if it is exceeded then stabilizer is increased automatically </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="540" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="540" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SpacingSettings_1a4954aa0f7e6c705d0b219dd8d6762d02" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromMRFaceId</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromMRFaceId MR.SpacingSettings.isInverted</definition>
+        <argsstring></argsstring>
+        <name>isInverted</name>
+        <qualifiedname>MR.SpacingSettings.isInverted</qualifiedname>
+        <briefdescription>
+<para>if this predicated is given, then all inverted faces will be converted in degenerate faces at the end of each iteration </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="543" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="543" bodyend="543"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SpacingSettings_1ae7c0820dcd8844d3ff60caf7bd937014" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SpacingSettings.SpacingSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SpacingSettings</name>
+        <qualifiedname>MR.SpacingSettings.SpacingSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="569" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="569" bodyend="573"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SpacingSettings_1adeaea458c53836029d5d007afafb52a1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SpacingSettings.SpacingSettings</definition>
+        <argsstring>()</argsstring>
+        <name>SpacingSettings</name>
+        <qualifiedname>MR.SpacingSettings.SpacingSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="579" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="579" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpacingSettings_1a109761900efcc7d725943149f8378bf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SpacingSettings.SpacingSettings</definition>
+        <argsstring>(MR.Const_VertBitSet? region, MR.Std._ByValue_Function_FloatFuncFromMRUndirectedEdgeId dist, int numIters, float stabilizer, float maxSumNegW, MR.Std._ByValue_Function_BoolFuncFromMRFaceId isInverted)</argsstring>
+        <name>SpacingSettings</name>
+        <qualifiedname>MR.SpacingSettings.SpacingSettings</qualifiedname>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_FloatFuncFromMRUndirectedEdgeId</type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numIters</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSumNegW</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromMRFaceId</type>
+          <declname>isInverted</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SpacingSettings" kindref="compound">MR.SpacingSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="590" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="590" bodyend="599"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpacingSettings_1ae38a0a964f52696e4a8a8c661101fc11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SpacingSettings.SpacingSettings</definition>
+        <argsstring>(MR._ByValue_SpacingSettings _other)</argsstring>
+        <name>SpacingSettings</name>
+        <qualifiedname>MR.SpacingSettings.SpacingSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_SpacingSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SpacingSettings.SpacingSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="604" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="604" bodyend="611"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpacingSettings_1aea8f32294eeca4cec2af9b05cb73931b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SpacingSettings.SpacingSettings</definition>
+        <argsstring>(Const_SpacingSettings _other)</argsstring>
+        <name>SpacingSettings</name>
+        <qualifiedname>MR.SpacingSettings.SpacingSettings</qualifiedname>
+        <param>
+          <type>Const_SpacingSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SpacingSettings.SpacingSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="616" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="616" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpacingSettings_1a72bf1e5e37e7950f931a9829b2e0adfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SpacingSettings.SpacingSettings</definition>
+        <argsstring>(SpacingSettings _other)</argsstring>
+        <name>SpacingSettings</name>
+        <qualifiedname>MR.SpacingSettings.SpacingSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SpacingSettings" kindref="compound">SpacingSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SpacingSettings.SpacingSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="621" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="621" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SpacingSettings_1abd3c7f927bd0d40e95a754a4dd015035" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SpacingSettings" kindref="compound">MR.SpacingSettings</ref></type>
+        <definition>unsafe MR.SpacingSettings MR.SpacingSettings.assign</definition>
+        <argsstring>(MR._ByValue_SpacingSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SpacingSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_SpacingSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SpacingSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="626" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="626" bodyend="633"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1SpacingSettings" kindref="compound">MR.SpacingSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SpacingSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SpacingSettings</label>
+        <link refid="classMR_1_1SpacingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SpacingSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SpacingSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SpacingSettings</label>
+        <link refid="classMR_1_1SpacingSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SpacingSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" line="515" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPositionVertsSmoothly.cs" bodystart="516" bodyend="634"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SpacingSettings_1abd3c7f927bd0d40e95a754a4dd015035" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1SpacingSettings_1a2c15ade1c05aabea65b0a15264fc4def" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>dist</name></member>
+      <member refid="classMR_1_1SpacingSettings_1a4954aa0f7e6c705d0b219dd8d6762d02" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>isInverted</name></member>
+      <member refid="classMR_1_1SpacingSettings_1a9e46f46fcdae4f443818731ed2a06186" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>maxSumNegW</name></member>
+      <member refid="classMR_1_1SpacingSettings_1a9ce0b719921fc07ac722861daea365c3" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>numIters</name></member>
+      <member refid="classMR_1_1SpacingSettings_1a1b3ceb254bcb302d37da13387844bac5" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>region</name></member>
+      <member refid="classMR_1_1SpacingSettings_1ae7c0820dcd8844d3ff60caf7bd937014" prot="package" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
+      <member refid="classMR_1_1SpacingSettings_1adeaea458c53836029d5d007afafb52a1" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
+      <member refid="classMR_1_1SpacingSettings_1a109761900efcc7d725943149f8378bf3" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
+      <member refid="classMR_1_1SpacingSettings_1ae38a0a964f52696e4a8a8c661101fc11" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
+      <member refid="classMR_1_1SpacingSettings_1aea8f32294eeca4cec2af9b05cb73931b" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
+      <member refid="classMR_1_1SpacingSettings_1a72bf1e5e37e7950f931a9829b2e0adfd" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>SpacingSettings</name></member>
+      <member refid="classMR_1_1SpacingSettings_1a4f9a38bc7e4600736a7af3c8c152e91b" prot="public" virt="non-virtual"><scope>MR::SpacingSettings</scope><name>stabilizer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FixUndercuts" kind="class" language="C#" prot="public">
+    <compoundname>MR::FixUndercuts</compoundname>
+    <innerclass refid="classMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" prot="public">MR::FixUndercuts::DistMapImproveDirectionParameters</innerclass>
+    <innerclass refid="classMR_1_1FixUndercuts_1_1FindParams" prot="public">MR::FixUndercuts::FindParams</innerclass>
+    <innerclass refid="classMR_1_1FixUndercuts_1_1FixParams" prot="public">MR::FixUndercuts::FixParams</innerclass>
+    <innerclass refid="classMR_1_1FixUndercuts_1_1ImproveDirectionParameters" prot="public">MR::FixUndercuts::ImproveDirectionParameters</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1abba43d841c90eddd085e1e43f3d772c9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.FixUndercuts.fix</definition>
+        <argsstring>(MR.Mesh mesh, MR.FixUndercuts.Const_FixParams params_)</argsstring>
+        <name>fix</name>
+        <qualifiedname>MR.FixUndercuts.fix</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.FixUndercuts.Const_FixParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Fixes undercut areas by building vertical walls under it, algorithm is performed in voxel space, so the mesh is completely rebuilt after this operation Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1abba43d841c90eddd085e1e43f3d772c9" kindref="member">MR.FixUndercuts.fix</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="1045" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="1045" bodyend="1052"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1adf937fa7d334303b69f97cabdbdabbe2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef</type>
+        <definition>static unsafe MR.Std.Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef MR.FixUndercuts.getUndercutAreaMetric</definition>
+        <argsstring>(MR.Const_Mesh mesh)</argsstring>
+        <name>getUndercutAreaMetric</name>
+        <qualifiedname>MR.FixUndercuts.getUndercutAreaMetric</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>returns the metric that computes total area of undercut faces Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1adf937fa7d334303b69f97cabdbdabbe2" kindref="member">MR.FixUndercuts.getUndercutAreaMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="1058" column="111" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="1058" bodyend="1063"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1a94f7387d5252e5409cafb01e0930ee61" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef</type>
+        <definition>static unsafe MR.Std.Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef MR.FixUndercuts.getUndercutAreaProjectionMetric</definition>
+        <argsstring>(MR.Const_Mesh mesh)</argsstring>
+        <name>getUndercutAreaProjectionMetric</name>
+        <qualifiedname>MR.FixUndercuts.getUndercutAreaProjectionMetric</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>returns the metric that computes summed absolute projected area of undercut Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1a94f7387d5252e5409cafb01e0930ee61" kindref="member">MR.FixUndercuts.getUndercutAreaProjectionMetric</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="1069" column="111" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="1069" bodyend="1074"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1a19361a65fe7c8618513552f75da3649c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.FixUndercuts.find</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.FixUndercuts.Const_FindParams params_, MR.FaceBitSet outUndercuts, MR.Std.Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef? metric=null)</argsstring>
+        <name>find</name>
+        <qualifiedname>MR.FixUndercuts.find</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.FixUndercuts.Const_FindParams</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref></type>
+          <declname>outUndercuts</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef?</type>
+          <declname>metric</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Adds undercuts to. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outUndercuts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if metric is set returns metric of found undercuts, otherwise returns DBL_MAX Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1a19361a65fe7c8618513552f75da3649c" kindref="member">MR.FixUndercuts.find</ref></computeroutput>. Parameter <computeroutput>metric</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="1082" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="1082" bodyend="1087"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1a92bd929ec1b2758b5bc393293ad091e4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.FixUndercuts.find</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.FixUndercuts.Const_FindParams params_, MR.VertBitSet outUndercuts)</argsstring>
+        <name>find</name>
+        <qualifiedname>MR.FixUndercuts.find</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.FixUndercuts.Const_FindParams</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+          <declname>outUndercuts</declname>
+        </param>
+        <briefdescription>
+<para>Adds undercuts to. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outUndercuts</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1a19361a65fe7c8618513552f75da3649c" kindref="member">MR.FixUndercuts.find</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="1093" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="1093" bodyend="1098"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1a03f89284419536e97869d997556244d8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe double</type>
+        <definition>static unsafe double MR.FixUndercuts.scoreUndercuts</definition>
+        <argsstring>(MR.Const_Mesh mesh, in MR.Vector3f upDirection, in MR.Vector2i resolution)</argsstring>
+        <name>scoreUndercuts</name>
+        <qualifiedname>MR.FixUndercuts.scoreUndercuts</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>upDirection</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+<para>Fast score undercuts projected area via distance map with given resolution lower resolution means lower precision, but faster work. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>does not support wallAngle yet Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1a03f89284419536e97869d997556244d8" kindref="member">MR.FixUndercuts.scoreUndercuts</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="1106" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="1106" bodyend="1117"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1ab776f5f50ca596851e827fcdf047ad1f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.FixUndercuts.improveDirection</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.FixUndercuts.Const_ImproveDirectionParameters params_, MR.Std.Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef metric)</argsstring>
+        <name>improveDirection</name>
+        <qualifiedname>MR.FixUndercuts.improveDirection</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.FixUndercuts.Const_ImproveDirectionParameters</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Function_DoubleFuncFromConstMRFaceBitSetRefConstMRFixUndercutsFindParamsRef</type>
+          <declname>metric</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>does not support wallAngle yet <hruler/>
+ Top view: / __/ -----&gt; maximum radial line Side view: | / _/ / / \/ \ \ | / _/ - maxBaseAngle |<ndash/>|---<mdash/>|<ndash/>| | / _/ difference between two angles is baseAngleStep \ _/_/ / | / _/ __/____/ |/_/ This picture shows polarAngle = 60 deg Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1ab776f5f50ca596851e827fcdf047ad1f" kindref="member">MR.FixUndercuts.improveDirection</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="1131" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="1131" bodyend="1136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FixUndercuts_1a3298ccc305ef370df07890656513eb12" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>static unsafe MR.Vector3f MR.FixUndercuts.distMapImproveDirection</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.FixUndercuts.Const_DistMapImproveDirectionParameters params_)</argsstring>
+        <name>distMapImproveDirection</name>
+        <qualifiedname>MR.FixUndercuts.distMapImproveDirection</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.FixUndercuts.Const_DistMapImproveDirectionParameters</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Score candidates with distance maps, lower resolution -&gt; faster score. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>does not support wallAngle yet Generated from function <computeroutput><ref refid="classMR_1_1FixUndercuts_1a3298ccc305ef370df07890656513eb12" kindref="member">MR.FixUndercuts.distMapImproveDirection</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="1143" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="1143" bodyend="1148"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFixUndercuts.cs" bodystart="4" bodyend="1149"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FixUndercuts_1a3298ccc305ef370df07890656513eb12" prot="public" virt="non-virtual"><scope>MR::FixUndercuts</scope><name>distMapImproveDirection</name></member>
+      <member refid="classMR_1_1FixUndercuts_1a19361a65fe7c8618513552f75da3649c" prot="public" virt="non-virtual"><scope>MR::FixUndercuts</scope><name>find</name></member>
+      <member refid="classMR_1_1FixUndercuts_1a92bd929ec1b2758b5bc393293ad091e4" prot="public" virt="non-virtual"><scope>MR::FixUndercuts</scope><name>find</name></member>
+      <member refid="classMR_1_1FixUndercuts_1abba43d841c90eddd085e1e43f3d772c9" prot="public" virt="non-virtual"><scope>MR::FixUndercuts</scope><name>fix</name></member>
+      <member refid="classMR_1_1FixUndercuts_1adf937fa7d334303b69f97cabdbdabbe2" prot="public" virt="non-virtual"><scope>MR::FixUndercuts</scope><name>getUndercutAreaMetric</name></member>
+      <member refid="classMR_1_1FixUndercuts_1a94f7387d5252e5409cafb01e0930ee61" prot="public" virt="non-virtual"><scope>MR::FixUndercuts</scope><name>getUndercutAreaProjectionMetric</name></member>
+      <member refid="classMR_1_1FixUndercuts_1ab776f5f50ca596851e827fcdf047ad1f" prot="public" virt="non-virtual"><scope>MR::FixUndercuts</scope><name>improveDirection</name></member>
+      <member refid="classMR_1_1FixUndercuts_1a03f89284419536e97869d997556244d8" prot="public" virt="non-virtual"><scope>MR::FixUndercuts</scope><name>scoreUndercuts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

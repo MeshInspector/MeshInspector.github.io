@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeOnePointInCloudAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeOnePointInCloudAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangePointCloudAction_8h" local="no">MRChangePointCloudAction.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga53daa4ab4948e49bce8cf3efb71982cb" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga5f403a08a401e2cec7b532ee91cefd95" kind="variable"><name>objPoints_</name></member>
+      <member refid="group__GeneralGroup_1gaa04211bc68aec125d898e8b793689811" kind="variable"><name>pointId_</name></member>
+      <member refid="group__GeneralGroup_1ga9368243ef608387dc27b733315783f3a" kind="variable"><name>safeCoords_</name></member>
+      <member refid="group__GeneralGroup_1gace62787dd54f2d7fb92b614319239b78" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga2a95838eed1970b6d1b9fe6009128d7f" kind="function"><name>ChangeOnePointInCloudAction</name></member>
+      <member refid="group__GeneralGroup_1ga6dae80316417b70ee98f67ecf0477677" kind="function"><name>ChangeOnePointInCloudAction</name></member>
+      <member refid="group__GeneralGroup_1ga12d6cf9879dfc2c296fa9440b96442e3" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gadbe79dc8bbe3a4158e22e912c78dfcd8" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga90c1e3a545b13734142bde8638b3ee63" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga6cd319bedaca54eedc938510e9832227" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Undo action that modifies one point&apos;s coordinates inside <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeOnePointInCloudAction</label>
+        <link refid="classMR_1_1ChangeOnePointInCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeOnePointInCloudAction</label>
+        <link refid="classMR_1_1ChangeOnePointInCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePointCloudAction.h" line="125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePointCloudAction.h" bodystart="126" bodyend="191"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gadbe79dc8bbe3a4158e22e912c78dfcd8" prot="public" virt="virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga2a95838eed1970b6d1b9fe6009128d7f" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>ChangeOnePointInCloudAction</name></member>
+      <member refid="group__GeneralGroup_1ga6dae80316417b70ee98f67ecf0477677" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>ChangeOnePointInCloudAction</name></member>
+      <member refid="group__GeneralGroup_1ga90c1e3a545b13734142bde8638b3ee63" prot="public" virt="virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga12d6cf9879dfc2c296fa9440b96442e3" prot="public" virt="virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gace62787dd54f2d7fb92b614319239b78" prot="private" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga53daa4ab4948e49bce8cf3efb71982cb" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1ga5f403a08a401e2cec7b532ee91cefd95" prot="private" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>objPoints_</name></member>
+      <member refid="group__GeneralGroup_1gaa04211bc68aec125d898e8b793689811" prot="private" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>pointId_</name></member>
+      <member refid="group__GeneralGroup_1ga9368243ef608387dc27b733315783f3a" prot="private" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>safeCoords_</name></member>
+      <member refid="group__GeneralGroup_1ga6cd319bedaca54eedc938510e9832227" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeOnePointInCloudAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

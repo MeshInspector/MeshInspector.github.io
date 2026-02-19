@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRTriDist_8h" kind="file" language="C++">
+    <compoundname>MRTriDist.h</compoundname>
+    <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
+    <incdepgraph>
+      <node id="8">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="3">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="1">
+        <label>MRTriDist.h</label>
+        <link refid="MRTriDist_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>algorithm</label>
+      </node>
+      <node id="11">
+        <label>cmath</label>
+      </node>
+      <node id="5">
+        <label>cstddef</label>
+      </node>
+      <node id="12">
+        <label>cstring</label>
+      </node>
+      <node id="13">
+        <label>iosfwd</label>
+      </node>
+      <node id="6">
+        <label>type_traits</label>
+      </node>
+      <node id="14">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">/*************************************************************************\</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"></highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/>Copyright<sp/>1999<sp/>The<sp/>University<sp/>of<sp/>North<sp/>Carolina<sp/>at<sp/>Chapel<sp/>Hill.</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/>All<sp/>Rights<sp/>Reserved.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/>Permission<sp/>to<sp/>use,<sp/>copy,<sp/>modify<sp/>and<sp/>distribute<sp/>this<sp/>software<sp/>and<sp/>its</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/>documentation<sp/>for<sp/>educational,<sp/>research<sp/>and<sp/>non-profit<sp/>purposes,<sp/>without</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/>fee,<sp/>and<sp/>without<sp/>a<sp/>written<sp/>agreement<sp/>is<sp/>hereby<sp/>granted,<sp/>provided<sp/>that<sp/>the</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/>above<sp/>copyright<sp/>notice<sp/>and<sp/>the<sp/>following<sp/>three<sp/>paragraphs<sp/>appear<sp/>in<sp/>all</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/>copies.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"></highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>UNIVERSITY<sp/>OF<sp/>NORTH<sp/>CAROLINA<sp/>AT<sp/>CHAPEL<sp/>HILL<sp/>BE</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/>LIABLE<sp/>TO<sp/>ANY<sp/>PARTY<sp/>FOR<sp/>DIRECT,<sp/>INDIRECT,<sp/>SPECIAL,<sp/>INCIDENTAL,<sp/>OR</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/>CONSEQUENTIAL<sp/>DAMAGES,<sp/>INCLUDING<sp/>LOST<sp/>PROFITS,<sp/>ARISING<sp/>OUT<sp/>OF<sp/>THE</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE<sp/>AND<sp/>ITS<sp/>DOCUMENTATION,<sp/>EVEN<sp/>IF<sp/>THE<sp/>UNIVERSITY</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/>OF<sp/>NORTH<sp/>CAROLINA<sp/>HAVE<sp/>BEEN<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/><sp/>DAMAGES.</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"></highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/><sp/>THE<sp/>UNIVERSITY<sp/>OF<sp/>NORTH<sp/>CAROLINA<sp/>SPECIFICALLY<sp/>DISCLAIM<sp/>ANY</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/><sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES<sp/>OF</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/><sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR<sp/>PURPOSE.<sp/><sp/>THE<sp/>SOFTWARE</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/><sp/>PROVIDED<sp/>HEREUNDER<sp/>IS<sp/>ON<sp/>AN<sp/>&quot;AS<sp/>IS&quot;<sp/>BASIS,<sp/>AND<sp/>THE<sp/>UNIVERSITY<sp/>OF</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/><sp/>NORTH<sp/>CAROLINA<sp/>HAS<sp/>NO<sp/>OBLIGATIONS<sp/>TO<sp/>PROVIDE<sp/>MAINTENANCE,<sp/>SUPPORT,</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/>UPDATES,<sp/>ENHANCEMENTS,<sp/>OR<sp/>MODIFICATIONS.</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"></highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/>The<sp/>authors<sp/>may<sp/>be<sp/>contacted<sp/>via:</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"></highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/>US<sp/>Mail:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>E.<sp/>Larsen</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Department<sp/>of<sp/>Computer<sp/>Science</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sitterson<sp/>Hall,<sp/>CB<sp/>#3175</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>University<sp/>of<sp/>N.<sp/>Carolina</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Chapel<sp/>Hill,<sp/>NC<sp/>27599-3175</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"></highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/>Phone:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(919)962-1749</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"></highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/>EMail:<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>geom@cs.unc.edu</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"></highlight></codeline>
+<codeline lineno="42"><highlight class="comment"></highlight></codeline>
+<codeline lineno="43"><highlight class="comment">\**************************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga33ec3255300c2f2575cf39c46bd8f578" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33ec3255300c2f2575cf39c46bd8f578" kindref="member">triDist</ref>(<sp/>Vector3f<sp/>&amp;<sp/>p,<sp/>Vector3f<sp/>&amp;<sp/>q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>s[3],<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>t[3]<sp/>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="group__GeneralGroup_1gac1bad3906fe116bb8f0ecdd2cb9063bf" refkind="member"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33ec3255300c2f2575cf39c46bd8f578" kindref="member">triDist</ref>(<sp/>Vector3f<sp/>&amp;<sp/>p,<sp/>Vector3f<sp/>&amp;<sp/>q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;Vector3f,<sp/>3&gt;<sp/>&amp;<sp/>s,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::array&lt;Vector3f,<sp/>3&gt;<sp/>&amp;<sp/>t<sp/>)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga33ec3255300c2f2575cf39c46bd8f578" kindref="member">triDist</ref>(<sp/>p,<sp/>q,<sp/>s.data(),<sp/>t.data()<sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="group__GeneralGroup_1ga5a67f76a82c38c8966aceae2506683e7" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5a67f76a82c38c8966aceae2506683e7" kindref="member">segPoints</ref>(</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/>&amp;<sp/>VEC,</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a02129bb861061d1a052c592e2dc6b383" kindref="member">X</ref>,<sp/>Vector3f<sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gga05195fdcf0d1d90b73a5d24b11150005a57cec4137b614c87cb4e24a3d003a3e0" kindref="member">Y</ref>,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>P,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>A,<sp/></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>Q,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;<sp/>B);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRTriDist.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VarEdgeTri" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VarEdgeTri</compoundname>
+    <innerclass refid="classmrmeshpy_1_1VarEdgeTri_1_1FlaggedTri" prot="public">mrmeshpy::VarEdgeTri::FlaggedTri</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VarEdgeTri_1a84c23eced3197c22e141180bbd498822" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VarEdgeTri::_offsetof_edge</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edge</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri._offsetof_edge</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VarEdgeTri_1a30dc7509566ea77881508a9836bae391" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VarEdgeTri::_offsetof_flaggedTri</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_flaggedTri</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri._offsetof_flaggedTri</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60522" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VarEdgeTri_1ae186e93d21c9553088b4502f9adfc0e4" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref></type>
+        <definition>VarEdgeTri mrmeshpy.VarEdgeTri::flaggedTri</definition>
+        <argsstring></argsstring>
+        <name>flaggedTri</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.flaggedTri</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1VarEdgeTri_1_1FlaggedTri" kindref="compound">FlaggedTri</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60524" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1ae05b1da5b498edcdccee636017679d60" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VarEdgeTri.__eq__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.__eq__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60526" bodyend="60527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1a1df973901e89d1d8a9120a6841745c18" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VarEdgeTri.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60530" bodyend="60531"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1ae49c364f4c179b64dbeef2c9bc013cb2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref></type>
+        <definition> VarEdgeTri mrmeshpy.VarEdgeTri.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60534" bodyend="60535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1ae49c364f4c179b64dbeef2c9bc013cb2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref></type>
+        <definition> VarEdgeTri mrmeshpy.VarEdgeTri.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60538" bodyend="60539"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1a7ee582253b5bbc558492f39558d0f94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VarEdgeTri.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60540" bodyend="60541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1a93709b90d3238788a71e91c068c9507f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VarEdgeTri.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60543" bodyend="60544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1a6899e38327d0c13b00d1c9558f4d4be2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VarEdgeTri.__init__</definition>
+        <argsstring>(self, bool isEdgeATriB, EdgeId e, FaceId t)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isEdgeATriB</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60546" bodyend="60547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1aea0fa4738c512e73f35defc36d3e8521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VarEdgeTri.__init__</definition>
+        <argsstring>(self, bool isEdgeATriB, EdgeTri et)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isEdgeATriB</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeTri" kindref="compound">EdgeTri</ref></type>
+          <declname>et</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60549" bodyend="60550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1a8c4af5aaf4089d399c07e708b7adf528" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VarEdgeTri.__init__</definition>
+        <argsstring>(self, VarEdgeTri arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VarEdgeTri" kindref="compound">VarEdgeTri</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60552" bodyend="60555"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1a983a63826882bedac59ae1bd1292fb65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeTri" kindref="compound">EdgeTri</ref></type>
+        <definition> EdgeTri mrmeshpy.VarEdgeTri.edgeTri</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeTri</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.edgeTri</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60556" bodyend="60557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1a10c2425babf7c46876fe236d3557dee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VarEdgeTri.isEdgeATriB</definition>
+        <argsstring>(self)</argsstring>
+        <name>isEdgeATriB</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.isEdgeATriB</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60558" bodyend="60559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1aac2cd4de6262dc12b00137a10770e1c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.VarEdgeTri.tri</definition>
+        <argsstring>(self)</argsstring>
+        <name>tri</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.tri</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60560" bodyend="60561"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VarEdgeTri_1ac32f0575a7f95e1331012b04c2d76a4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VarEdgeTri.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.VarEdgeTri.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60562" bodyend="60563"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VarEdgeTri
+
+if isEdgeATriB() == true,  then stores edge from mesh A and triangle from mesh B
+if isEdgeATriB() == false, then stores edge from mesh B and triangle from mesh A
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VarEdgeTri</label>
+        <link refid="classmrmeshpy_1_1VarEdgeTri"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_edge</edgelabel>
+          <edgelabel>_offsetof_flaggedTri</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>flaggedTri</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VarEdgeTri</label>
+        <link refid="classmrmeshpy_1_1VarEdgeTri"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_edge</edgelabel>
+          <edgelabel>_offsetof_flaggedTri</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>flaggedTri</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60480" bodyend="60563"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1a7ee582253b5bbc558492f39558d0f94d" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1ae05b1da5b498edcdccee636017679d60" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1a1df973901e89d1d8a9120a6841745c18" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1a93709b90d3238788a71e91c068c9507f" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1a6899e38327d0c13b00d1c9558f4d4be2" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1aea0fa4738c512e73f35defc36d3e8521" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1a8c4af5aaf4089d399c07e708b7adf528" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1a84c23eced3197c22e141180bbd498822" prot="protected" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>_offsetof_edge</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1a30dc7509566ea77881508a9836bae391" prot="protected" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>_offsetof_flaggedTri</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1a983a63826882bedac59ae1bd1292fb65" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>edgeTri</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1ae186e93d21c9553088b4502f9adfc0e4" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>flaggedTri</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1a10c2425babf7c46876fe236d3557dee8" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>isEdgeATriB</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1ae49c364f4c179b64dbeef2c9bc013cb2" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1ae49c364f4c179b64dbeef2c9bc013cb2" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1aac2cd4de6262dc12b00137a10770e1c3" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>tri</name></member>
+      <member refid="classmrmeshpy_1_1VarEdgeTri_1ac32f0575a7f95e1331012b04c2d76a4d" prot="public" virt="non-virtual"><scope>mrmeshpy::VarEdgeTri</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

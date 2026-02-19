@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Line3d" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Line3d</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Line3d_1a36a556a5dce077284756afd3200206c9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Line3d::_offsetof_d</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_d</name>
+        <qualifiedname>mrmeshpy.Line3d._offsetof_d</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25700" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Line3d_1aad9834c0e254b1896cc772531804098f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Line3d::_offsetof_p</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_p</name>
+        <qualifiedname>mrmeshpy.Line3d._offsetof_p</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25701" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a54607578f5d281b36328a76ea3de9f19" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3d.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Line3d.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25706" bodyend="25707"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a176d4f8856aa21062c1ad22128ada44d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+        <definition> Line3d mrmeshpy.Line3d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Line3d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25710" bodyend="25711"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a176d4f8856aa21062c1ad22128ada44d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+        <definition> Line3d mrmeshpy.Line3d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Line3d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25714" bodyend="25715"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1ab2737a02b21bfe6cf0719e3aa67dcc55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Line3d.__call__</definition>
+        <argsstring>(self, float param)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.Line3d.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns point on the line, where param=0 returns p and param=1 returns p+d
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25716" bodyend="25719"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1ab3be08ff96df256b8c7f026ce56ff118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3d.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Line3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25721" bodyend="25722"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1ad04120f553461f2f477756df6af8d917" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3d.__init__</definition>
+        <argsstring>(self, Vector3d p, Vector3d d)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Line3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25724" bodyend="25725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a7f237d20c1aa373e1e138890597fe2e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Line3d.__init__</definition>
+        <argsstring>(self, Line3d arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Line3d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25727" bodyend="25730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a8655a8ace33ca8e60f11dc86e9ca478c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+        <definition> Line3d mrmeshpy.Line3d.__neg__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__neg__</name>
+        <qualifiedname>mrmeshpy.Line3d.__neg__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns same line represented with flipped direction of d-vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25731" bodyend="25734"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a1996ed1a6377589128d4fdc564213ac4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+        <definition> Line3d mrmeshpy.Line3d.__pos__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__pos__</name>
+        <qualifiedname>mrmeshpy.Line3d.__pos__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns same representation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25735" bodyend="25738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1ac9d4980501e63e4d343a800da36b4cf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Line3d.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Line3d.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25739" bodyend="25740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a948fe7b5256bc6250f9a785cd587547f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Line3d.__rlshift__</definition>
+        <argsstring>(self, typing.Any l)</argsstring>
+        <name>__rlshift__</name>
+        <qualifiedname>mrmeshpy.Line3d.__rlshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25741" bodyend="25742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a72c781da2e21cf0fb73bd77c00e5b3e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Line3d.__rrshift__</definition>
+        <argsstring>(self, typing.Any l)</argsstring>
+        <name>__rrshift__</name>
+        <qualifiedname>mrmeshpy.Line3d.__rrshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>l</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25743" bodyend="25744"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a3d600a5451411ad4ef9cd0005c93ec48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Line3d.distanceSq</definition>
+        <argsstring>(self, Vector3d x)</argsstring>
+        <name>distanceSq</name>
+        <qualifiedname>mrmeshpy.Line3d.distanceSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns squared distance from given point to this line
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25745" bodyend="25748"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1a6a908a42e8f6cb10517c68243bf1dc6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Line3d" kindref="compound">Line3d</ref></type>
+        <definition> Line3d mrmeshpy.Line3d.normalized</definition>
+        <argsstring>(self)</argsstring>
+        <name>normalized</name>
+        <qualifiedname>mrmeshpy.Line3d.normalized</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns same line represented with unit d-vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25749" bodyend="25752"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Line3d_1aee02b302b746fb9e9704b7a4e35ff885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.Line3d.project</definition>
+        <argsstring>(self, Vector3d x)</argsstring>
+        <name>project</name>
+        <qualifiedname>mrmeshpy.Line3d.project</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the closest point on line
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25753" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25753" bodyend="25756"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Line3d
+
+2- or 3-dimensional line: cross( x - p, d ) = 0
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Line3d</label>
+        <link refid="classmrmeshpy_1_1Line3d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_d</edgelabel>
+          <edgelabel>_offsetof_p</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25694" bodyend="25756"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Line3d_1ab2737a02b21bfe6cf0719e3aa67dcc55" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a54607578f5d281b36328a76ea3de9f19" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1ab3be08ff96df256b8c7f026ce56ff118" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1ad04120f553461f2f477756df6af8d917" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a7f237d20c1aa373e1e138890597fe2e3" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a8655a8ace33ca8e60f11dc86e9ca478c" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__neg__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a1996ed1a6377589128d4fdc564213ac4" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__pos__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1ac9d4980501e63e4d343a800da36b4cf0" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a948fe7b5256bc6250f9a785cd587547f" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a72c781da2e21cf0fb73bd77c00e5b3e3" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>__rrshift__</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a36a556a5dce077284756afd3200206c9" prot="protected" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>_offsetof_d</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1aad9834c0e254b1896cc772531804098f" prot="protected" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>_offsetof_p</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a3d600a5451411ad4ef9cd0005c93ec48" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>distanceSq</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a6a908a42e8f6cb10517c68243bf1dc6e" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>normalized</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a176d4f8856aa21062c1ad22128ada44d" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1a176d4f8856aa21062c1ad22128ada44d" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Line3d_1aee02b302b746fb9e9704b7a4e35ff885" prot="public" virt="non-virtual"><scope>mrmeshpy::Line3d</scope><name>project</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

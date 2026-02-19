@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Box__Box2i" kind="class" language="C#" prot="public">
+    <compoundname>MR::Box_Box2i</compoundname>
+    <basecompoundref refid="classMR_1_1ConstBox__Box2i" prot="public" virt="non-virtual">MR.ConstBox_Box2i</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Box__Box2i_1a66a80e6961c4bec9f6b40046b0365d2e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>new ref MR.Vector2i MR.Box_Box2i.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <qualifiedname>MR.Box_Box2i.min</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4464" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4464" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Box2i_1a83eeffac31e943b59eaf674b7da0dce1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>new ref MR.Vector2i MR.Box_Box2i.max</definition>
+        <argsstring></argsstring>
+        <name>max</name>
+        <qualifiedname>MR.Box_Box2i.max</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4466" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Box2i_1a764870393916afaa1c31f1429e862bdf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+        <definition>unsafe new ref MR.Vector2i MR.Box_Box2i.this[int e]</definition>
+        <argsstring></argsstring>
+        <name>this[int e]</name>
+        <qualifiedname>MR.Box_Box2i.this[int e]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Box2i.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4534" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4535" bodyend="4542"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1a677dc9f6a3ef41548d9bb79575c1b3c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Box2i.Box_Box2i</definition>
+        <argsstring>(Box2i other)</argsstring>
+        <name>Box_Box2i</name>
+        <qualifiedname>MR.Box_Box2i.Box_Box2i</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Box2i" kindref="compound">Box2i</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4471" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4471" bodyend="4471"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1a47605c51fc2b524cf033703a5dc72e06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Box2i.Box_Box2i</definition>
+        <argsstring>(ConstBox_Box2i _other)</argsstring>
+        <name>Box_Box2i</name>
+        <qualifiedname>MR.Box_Box2i.Box_Box2i</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Box2i" kindref="compound">ConstBox_Box2i</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4478" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4478" bodyend="4482"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1aab43141f2716f53c52354fe4bb626e9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Box_Box2i.Assign</definition>
+        <argsstring>(ConstBox_Box2i _other)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>MR.Box_Box2i.Assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Box2i" kindref="compound">ConstBox_Box2i</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4487" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4487" bodyend="4487"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1a86cf05a728cff04f995a807ce2bd768c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Box2i.Box_Box2i</definition>
+        <argsstring>()</argsstring>
+        <name>Box_Box2i</name>
+        <qualifiedname>MR.Box_Box2i.Box_Box2i</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4492" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4492" bodyend="4498"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1a41e31da9e886b6dc10f6b3a4fa557336" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Box2i.Box_Box2i</definition>
+        <argsstring>(in MR.Vector2i min, in MR.Vector2i max)</argsstring>
+        <name>Box_Box2i</name>
+        <qualifiedname>MR.Box_Box2i.Box_Box2i</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Box2i_1a04bc6eb8605a08f4a2ec2c464028682f" kindref="member">MR.Box2i.Box2i</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4503" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4503" bodyend="4515"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1abf9b8016b5a4d6136f9d9b20f6d9c9ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Box2i.Box_Box2i</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Box_Box2i</name>
+        <qualifiedname>MR.Box_Box2i.Box_Box2i</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Box2i_1a04bc6eb8605a08f4a2ec2c464028682f" kindref="member">MR.Box2i.Box2i</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4522" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4522" bodyend="4529"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1a57b6500e7cee36d41fd953cabe1eaae1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_Box2i.include</definition>
+        <argsstring>(in MR.Vector2i pt)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR.Box_Box2i.include</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2i" kindref="compound">MR.Vector2i</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+<para>minimally increases the box to include given point Generated from method <computeroutput><ref refid="structMR_1_1Box2i_1a660a6f38855880a045d091094cbd7706" kindref="member">MR.Box2i.include</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4548" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4548" bodyend="4556"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1af7e89f1bd1f1bc45ee9e5afd657b2c83" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_Box2i.include</definition>
+        <argsstring>(in MR.Box2i b)</argsstring>
+        <name>include</name>
+        <qualifiedname>MR.Box_Box2i.include</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box2i" kindref="compound">MR.Box2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>minimally increases the box to include another box Generated from method <computeroutput><ref refid="structMR_1_1Box2i_1a660a6f38855880a045d091094cbd7706" kindref="member">MR.Box2i.include</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4562" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4562" bodyend="4570"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1a3e0b35c58c3f720eac04ce8c320ead92" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Box2i" kindref="compound">MR.Box2i</ref></type>
+        <definition>unsafe ref MR.Box2i MR.Box_Box2i.intersect</definition>
+        <argsstring>(in MR.Box2i b)</argsstring>
+        <name>intersect</name>
+        <qualifiedname>MR.Box_Box2i.intersect</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Box2i" kindref="compound">MR.Box2i</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1Box2i_1af5dd653bc7285f4b6c56c491744a7302" kindref="member">MR.Box2i.intersect</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4575" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4575" bodyend="4583"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Box__Box2i_1a0d465184a9b148a7efc00998e2940ec5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Box2i.Box_Box2i</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Box_Box2i</name>
+        <qualifiedname>MR.Box_Box2i.Box_Box2i</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4473" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4473" bodyend="4473"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Box given by its min- and max- corners Generated from class <computeroutput><ref refid="structMR_1_1Box2i" kindref="compound">MR.Box2i</ref></computeroutput>. This is the non-const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConstBox_Box2i</label>
+        <link refid="classMR_1_1ConstBox__Box2i"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_Box2i</label>
+        <link refid="classMR_1_1Box__Box2i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_Box2i &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_Box2i &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConstBox_Box2i</label>
+        <link refid="classMR_1_1ConstBox__Box2i"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_Box2i</label>
+        <link refid="classMR_1_1Box__Box2i"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_Box2i &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_Box2i &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" line="4457" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBox.cs" bodystart="4458" bodyend="4584"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ConstBox__Box2i_1a8a5f2f8f64523cac07cd92221dde1e46" prot="protected" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Box__Box2i_1aab43141f2716f53c52354fe4bb626e9e" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Assign</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a677dc9f6a3ef41548d9bb79575c1b3c9" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Box_Box2i</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a0d465184a9b148a7efc00998e2940ec5" prot="package" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Box_Box2i</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a47605c51fc2b524cf033703a5dc72e06" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Box_Box2i</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a86cf05a728cff04f995a807ce2bd768c" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Box_Box2i</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a41e31da9e886b6dc10f6b3a4fa557336" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Box_Box2i</name></member>
+      <member refid="classMR_1_1Box__Box2i_1abf9b8016b5a4d6136f9d9b20f6d9c9ac" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Box_Box2i</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a6c8a02dc242a9b3350097a53c09d3da6" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>center</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a1a96ccde3502262390ba96927f9c7322" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>ConstBox_Box2i</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a448d31efc7926463dffba7e0f7f17208" prot="package" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>ConstBox_Box2i</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1adb3163e86eb41c32f417459f1677fd1b" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>ConstBox_Box2i</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a4ebae885bd057a933085c580440af887" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>ConstBox_Box2i</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a3917d20608347f8b9f92fccfc95409c3" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>ConstBox_Box2i</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a87bfcda87e14dfe1918ff6d7b088c4fd" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>ConstBox_Box2i</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a6583eb5e717e14fbfceb7fc370884da8" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>contains</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a86fda108cfd4a4e2f40b7093ae3b1d4a" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>contains</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a25f750bd973db28fde22db3a640a9a1f" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>corner</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a7c08000c68ffaea34ddfa47b091b6da6" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>diagonal</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a92411d76060eca8bb41f84a3bc4999a2" prot="protected" virt="virtual"><scope>MR::Box_Box2i</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1afb507d1f43239d361768fa15124bb924" prot="public" virt="virtual"><scope>MR::Box_Box2i</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a8059ecbfeb430300c3013066cceef553" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Elements</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1ab788a1c4cf2eb7fbeab08105e0d27dad" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1ad8d819c02dead0d416eb8b57543a107c" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1aa363f3722d755e93da8fb2aa98d8c5f9" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>expanded</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a8b3ec64207444d63c8146ff43e067294" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>fromMinAndSize</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1ab6ee981f47064b97553e1c925528670e" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>getBoxClosestPointTo</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a3394b4b8466daad94c902a834d9de3ce" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>getDistanceSq</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a18334cd340733591bfeacfec7caa79fc" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>getDistanceSq</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1add8e09773b7510bc4539fc8bec91e2d4" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>getMaxBoxCorner</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a265729f5084f6fa45cbc98b7c52318f6" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>getMinBoxCorner</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a53b2aa12063bee370546e1d7fb493e93" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>getProjection</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a57b6500e7cee36d41fd953cabe1eaae1" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>include</name></member>
+      <member refid="classMR_1_1Box__Box2i_1af7e89f1bd1f1bc45ee9e5afd657b2c83" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>include</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1abcbdabc01683cb3f1222b79c24e48c83" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>insignificantlyExpanded</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a3e0b35c58c3f720eac04ce8c320ead92" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>intersect</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a6ba9b2aabd32d264721e5765bef42cd1" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>intersection</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a8131274634b8fb7e01df2c3f25bad455" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>intersects</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a83eeffac31e943b59eaf674b7da0dce1" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>max</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a66a80e6961c4bec9f6b40046b0365d2e" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>min</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1aed2a1a40d45d1bbe87786262171778d8" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>operator ConstBox_Box2i</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a764ed4b887d61289151cf1b5a55e08ba" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a0ed0dc699d04ba850958c67e45539c3c" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>operator==</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1ad29786789e7bf2731e299280c254cdd5" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>size</name></member>
+      <member refid="classMR_1_1Box__Box2i_1a764870393916afaa1c31f1429e862bdf" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>this[int e]</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a00c3863a1288784789c464906c0dd8b1" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>valid</name></member>
+      <member refid="classMR_1_1ConstBox__Box2i_1a0b2a4469f85e78a11f818baecdfd5bde" prot="public" virt="non-virtual"><scope>MR::Box_Box2i</scope><name>volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

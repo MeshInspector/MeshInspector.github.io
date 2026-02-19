@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TriangleSegmentIntersectResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TriangleSegmentIntersectResult</compoundname>
+    <includes refid="MRPrecisePredicates3_8h" local="no">MRPrecisePredicates3.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga8676a2019b59ed30aa2204aef62a8ff8" kind="variable"><name>doIntersect</name></member>
+      <member refid="group__GeneralGroup_1gad6af3b8ab26b46c4d6592c534e9b59c8" kind="variable"><name>dIsLeftFromABC</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga44ebc6eac0ba7a7421c713970a69f480" kind="function"><name>operator bool</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" line="36" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates3.h" bodystart="37" bodyend="42"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad6af3b8ab26b46c4d6592c534e9b59c8" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>dIsLeftFromABC</name></member>
+      <member refid="group__GeneralGroup_1ga8676a2019b59ed30aa2204aef62a8ff8" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>doIntersect</name></member>
+      <member refid="group__GeneralGroup_1ga44ebc6eac0ba7a7421c713970a69f480" prot="public" virt="non-virtual"><scope>MR::TriangleSegmentIntersectResult</scope><name>operator bool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

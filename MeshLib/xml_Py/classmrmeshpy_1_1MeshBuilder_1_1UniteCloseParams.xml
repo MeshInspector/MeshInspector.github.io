@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshBuilder::UniteCloseParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1ad50aab10ec55b261341a3ece85efc9d0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.UniteCloseParams::_offsetof_closeDist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_closeDist</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams._offsetof_closeDist</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31495" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1adf644a3d9d4b34f1a2f5e7231d0446ab" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.UniteCloseParams::_offsetof_duplicateNonManifold</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_duplicateNonManifold</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams._offsetof_duplicateNonManifold</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31496" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31496" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a09923d0f5ddf9094af274b2af473ef24" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.UniteCloseParams::_offsetof_optionalDuplications</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_optionalDuplications</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams._offsetof_optionalDuplications</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31497" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a928f6b75e9b9fb325b30ac4a034afef8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.UniteCloseParams::_offsetof_optionalVertOldToNew</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_optionalVertOldToNew</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams._offsetof_optionalVertOldToNew</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a41e8c001ec11828bbf3b059817f6f1a1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.UniteCloseParams::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams._offsetof_region</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a93a56a215f29aaa0ff0d168be44faa1d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.UniteCloseParams::_offsetof_uniteOnlyBd</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uniteOnlyBd</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams._offsetof_uniteOnlyBd</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31500" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31500" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a13730bd5cb5b7b97834b535c07f873eb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.UniteCloseParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31509" bodyend="31510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a42718266120436b02163cce854db73fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams" kindref="compound">MeshBuilder.UniteCloseParams</ref></type>
+        <definition> MeshBuilder.UniteCloseParams mrmeshpy.MeshBuilder.UniteCloseParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31513" bodyend="31514"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a42718266120436b02163cce854db73fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams" kindref="compound">MeshBuilder.UniteCloseParams</ref></type>
+        <definition> MeshBuilder.UniteCloseParams mrmeshpy.MeshBuilder.UniteCloseParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31517" bodyend="31518"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a219b86159ce59fdf866d87e3b07d68f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.UniteCloseParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31520" bodyend="31521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a3d2aacb807db9740c43b13a221f178b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.UniteCloseParams.__init__</definition>
+        <argsstring>(self, MeshBuilder.UniteCloseParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams" kindref="compound">MeshBuilder.UniteCloseParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31523" bodyend="31526"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a8736529fcec425ab501a0b7a6f85f439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.UniteCloseParams.__init__</definition>
+        <argsstring>(self, float closeDist, bool uniteOnlyBd, VertBitSet region, bool duplicateNonManifold, VertMap optionalVertOldToNew, std_vector_MeshBuilder_VertDuplication optionalDuplications)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.UniteCloseParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>closeDist</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>uniteOnlyBd</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>duplicateNonManifold</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertMap" kindref="compound">VertMap</ref></type>
+          <declname>optionalVertOldToNew</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__MeshBuilder__VertDuplication" kindref="compound">std_vector_MeshBuilder_VertDuplication</ref></type>
+          <declname>optionalDuplications</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31528" bodyend="31532"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshBuilder::UniteCloseParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshBuilder.UniteCloseParams</label>
+        <link refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_closeDist</edgelabel>
+          <edgelabel>_offsetof_duplicateNonManifold</edgelabel>
+          <edgelabel>_offsetof_optionalDuplications</edgelabel>
+          <edgelabel>_offsetof_optionalVertOldToNew</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_uniteOnlyBd</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31491" bodyend="31531"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a13730bd5cb5b7b97834b535c07f873eb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a219b86159ce59fdf866d87e3b07d68f4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a3d2aacb807db9740c43b13a221f178b2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a8736529fcec425ab501a0b7a6f85f439" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1ad50aab10ec55b261341a3ece85efc9d0" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>_offsetof_closeDist</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1adf644a3d9d4b34f1a2f5e7231d0446ab" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>_offsetof_duplicateNonManifold</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a09923d0f5ddf9094af274b2af473ef24" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>_offsetof_optionalDuplications</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a928f6b75e9b9fb325b30ac4a034afef8" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>_offsetof_optionalVertOldToNew</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a41e8c001ec11828bbf3b059817f6f1a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a93a56a215f29aaa0ff0d168be44faa1d" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>_offsetof_uniteOnlyBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a42718266120436b02163cce854db73fe" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1UniteCloseParams_1a42718266120436b02163cce854db73fe" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::UniteCloseParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

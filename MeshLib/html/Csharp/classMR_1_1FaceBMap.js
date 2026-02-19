@@ -4,5 +4,6 @@ var classMR_1_1FaceBMap =
     [ "FaceBMap", "classMR_1_1FaceBMap.html#a408c44e522334d2c9ca63d2393277a24", null ],
     [ "FaceBMap", "classMR_1_1FaceBMap.html#a217bf349d030022aea7ea3f7102b438e", null ],
     [ "assign", "classMR_1_1FaceBMap.html#ad3388fd18746672b6db42b3dbdb64f0f", null ],
-    [ "b", "classMR_1_1FaceBMap.html#af658984e113ea976da2427fb0243f33e", null ]
+    [ "b", "classMR_1_1FaceBMap.html#af658984e113ea976da2427fb0243f33e", null ],
+    [ "tsize", "classMR_1_1FaceBMap.html#afb7b6f8410f586c6dbe5aa71bbc60f44", null ]
 ];

@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FileDialog_1_1Parameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FileDialog::Parameters</compoundname>
+    <basecompoundref refid="structMR_1_1FileParameters" prot="public" virt="non-virtual">MR::FileParameters</basecompoundref>
+    <includes refid="MRFileDialog_8h" local="no">MRFileDialog.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gacb4f09069a5538c14fe2e0553c3569d1" kind="variable"><name>folderDialog</name></member>
+      <member refid="group__GeneralGroup_1ga3b16808165abc1930db418e488d58225" kind="variable"><name>multiselect</name></member>
+      <member refid="group__GeneralGroup_1ga5957d3b8f636e18b3629def114de4b46" kind="variable"><name>saveDialog</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::FileDialog::Parameters</label>
+        <link refid="structMR_1_1FileDialog_1_1Parameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::FileParameters</label>
+        <link refid="structMR_1_1FileParameters"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::FileDialog::Parameters</label>
+        <link refid="structMR_1_1FileDialog_1_1Parameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::FileParameters</label>
+        <link refid="structMR_1_1FileParameters"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" line="88" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRFileDialog.h" bodystart="89" bodyend="93"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga4712ec5afb78d48f6b26fd4813a720e7" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>baseFolder</name></member>
+      <member refid="group__GeneralGroup_1ga136b19b9c9c5b93c2788ccacc848e219" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>fileName</name></member>
+      <member refid="group__GeneralGroup_1gaf94f67fb7131833e77aa1c32e60f68d1" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>filters</name></member>
+      <member refid="group__GeneralGroup_1gacb4f09069a5538c14fe2e0553c3569d1" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>folderDialog</name></member>
+      <member refid="group__GeneralGroup_1ga3b16808165abc1930db418e488d58225" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>multiselect</name></member>
+      <member refid="group__GeneralGroup_1ga5957d3b8f636e18b3629def114de4b46" prot="public" virt="non-virtual"><scope>MR::FileDialog::Parameters</scope><name>saveDialog</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

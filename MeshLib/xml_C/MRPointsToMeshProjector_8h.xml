@@ -1,0 +1,1391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPointsToMeshProjector_8h" kind="file" language="C++">
+    <compoundname>MRPointsToMeshProjector.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRPointsToMeshProjector.h</label>
+        <link refid="MRPointsToMeshProjector_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1a88a1df6fb138786a55241b1d77a4b0cc" prot="public" static="no">
+        <type>struct MR_AffineXf3f</type>
+        <definition>typedef struct MR_AffineXf3f MR_AffineXf3f</definition>
+        <argsstring></argsstring>
+        <name>MR_AffineXf3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="12" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1a31b172f68efca6438544d56eb86d6f40" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref></type>
+        <definition>typedef struct MR_Mesh MR_Mesh</definition>
+        <argsstring></argsstring>
+        <name>MR_Mesh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="13" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1a3df50e76b078a1626dd994e1df803764" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref></type>
+        <definition>typedef struct MR_VertBitSet MR_VertBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_VertBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="14" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1a249fd9254c0c3395567807936ad32641" prot="public" static="no">
+        <type>struct <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref></type>
+        <definition>typedef struct MR_VertCoords MR_VertCoords</definition>
+        <argsstring></argsstring>
+        <name>MR_VertCoords</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" prot="public" static="no">
+        <type>struct <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref></type>
+        <definition>typedef struct MR_VertScalars MR_VertScalars</definition>
+        <argsstring></argsstring>
+        <name>MR_VertScalars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="16" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" prot="public" static="no">
+        <type>struct <ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref></type>
+        <definition>typedef struct MR_std_vector_MR_MeshProjectionResult MR_std_vector_MR_MeshProjectionResult</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_MeshProjectionResult</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="17" column="52" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1aefed148a09a0ae55edbd22814638b462" prot="public" static="no">
+        <type>struct <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref></type>
+        <definition>typedef struct MR_std_vector_MR_Vector3f MR_std_vector_MR_Vector3f</definition>
+        <argsstring></argsstring>
+        <name>MR_std_vector_MR_Vector3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="18" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" prot="public" static="no">
+        <type>struct <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref></type>
+        <definition>typedef struct MR_IPointsToMeshProjector MR_IPointsToMeshProjector</definition>
+        <argsstring></argsstring>
+        <name>MR_IPointsToMeshProjector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Abstract class, computes the closest point on mesh to each of given points. Pure virtual functions must be implemented Generated from class <computeroutput>MR::IPointsToMeshProjector</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::PointsToMeshProjector</computeroutput> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="26" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" prot="public" static="no">
+        <type>struct <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref></type>
+        <definition>typedef struct MR_MeshProjectionParameters MR_MeshProjectionParameters</definition>
+        <argsstring></argsstring>
+        <name>MR_MeshProjectionParameters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::MeshProjectionParameters</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="30" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" prot="public" static="no">
+        <type>struct <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref></type>
+        <definition>typedef struct MR_PointsToMeshProjector MR_PointsToMeshProjector</definition>
+        <argsstring></argsstring>
+        <name>MR_PointsToMeshProjector</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the closest point on mesh to each of given points on CPU Generated from class <computeroutput>MR::PointsToMeshProjector</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::IPointsToMeshProjector</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="38" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a2a5088044848ec455716db598f152e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IPointsToMeshProjector_Destroy</definition>
+        <argsstring>(const MR_IPointsToMeshProjector *_this)</argsstring>
+        <name>MR_IPointsToMeshProjector_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_IPointsToMeshProjector</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="41" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="41" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a6fdb5256b04fd153d80c290c7d1b6bef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IPointsToMeshProjector_DestroyArray</definition>
+        <argsstring>(const MR_IPointsToMeshProjector *_this)</argsstring>
+        <name>MR_IPointsToMeshProjector_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_IPointsToMeshProjector</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="44" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="44" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a7382108615ea1583d446ff2623db7a37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IPointsToMeshProjector_updateMeshData</definition>
+        <argsstring>(MR_IPointsToMeshProjector *_this, const MR_Mesh *mesh)</argsstring>
+        <name>MR_IPointsToMeshProjector_updateMeshData</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Updates all data related to the referencing mesh Generated from method <computeroutput>MR::IPointsToMeshProjector::updateMeshData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="49" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="49" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1afb6dc53bdd0b027020b65c86fa378c17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IPointsToMeshProjector_findProjections</definition>
+        <argsstring>(MR_IPointsToMeshProjector *_this, MR_std_vector_MR_MeshProjectionResult *result, const MR_std_vector_MR_Vector3f *points, const MR_AffineXf3f *worldXf, const MR_AffineXf3f *worldRefXf, const float *upDistLimitSq, const float *loDistLimitSq)</argsstring>
+        <name>MR_IPointsToMeshProjector_findProjections</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref> *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>worldXf</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>worldRefXf</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>upDistLimitSq</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>loDistLimitSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes the closest point on mesh to each of given points Generated from method <computeroutput>MR::IPointsToMeshProjector::findProjections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>result</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. Parameter <computeroutput>worldXf</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>worldRefXf</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>upDistLimitSq</computeroutput> has a default argument: <computeroutput>3.40282347e38f</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>loDistLimitSq</computeroutput> has a default argument: <computeroutput>0.0f</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="60" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="60" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1ad806aa3f70243576478217c977c5566d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_IPointsToMeshProjector_projectionsHeapBytes</definition>
+        <argsstring>(const MR_IPointsToMeshProjector *_this, MR_uint64_t numProjections)</argsstring>
+        <name>MR_IPointsToMeshProjector_projectionsHeapBytes</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>numProjections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns amount of memory needed to compute projections Generated from method <computeroutput>MR::IPointsToMeshProjector::projectionsHeapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="65" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="65" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a0049e057e050de61fa36314d7ead4a71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+        <definition>MRC_API const MR_IPointsToMeshProjector * MR_IPointsToMeshProjector_OffsetPtr</definition>
+        <argsstring>(const MR_IPointsToMeshProjector *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IPointsToMeshProjector_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="69" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="69" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a2655161ae6961ded56211981a17303d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_IPointsToMeshProjector * MR_IPointsToMeshProjector_OffsetMutablePtr</definition>
+        <argsstring>(MR_IPointsToMeshProjector *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IPointsToMeshProjector_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="73" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="73" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a3f7911021b2836ed37c6402ae6b39a15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API const MR_PointsToMeshProjector * MR_IPointsToMeshProjector_StaticDowncastTo_MR_PointsToMeshProjector</definition>
+        <argsstring>(const MR_IPointsToMeshProjector *object)</argsstring>
+        <name>MR_IPointsToMeshProjector_StaticDowncastTo_MR_PointsToMeshProjector</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsToMeshProjector</computeroutput> to a derived class <computeroutput>MR::PointsToMeshProjector</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="79" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="79" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a2a6e12152251d7ac791b878c7686c386" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_PointsToMeshProjector * MR_IPointsToMeshProjector_MutableStaticDowncastTo_MR_PointsToMeshProjector</definition>
+        <argsstring>(MR_IPointsToMeshProjector *object)</argsstring>
+        <name>MR_IPointsToMeshProjector_MutableStaticDowncastTo_MR_PointsToMeshProjector</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsToMeshProjector</computeroutput> to a derived class <computeroutput>MR::PointsToMeshProjector</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="84" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="84" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a2a992f88ec8fc0db3d6d6e637916ae69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API const MR_PointsToMeshProjector * MR_IPointsToMeshProjector_DynamicDowncastTo_MR_PointsToMeshProjector</definition>
+        <argsstring>(const MR_IPointsToMeshProjector *object)</argsstring>
+        <name>MR_IPointsToMeshProjector_DynamicDowncastTo_MR_PointsToMeshProjector</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsToMeshProjector</computeroutput> to a derived class <computeroutput>MR::PointsToMeshProjector</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="90" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="90" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1af79b4fd5f8f23da29d1a7187adda68f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_PointsToMeshProjector * MR_IPointsToMeshProjector_MutableDynamicDowncastTo_MR_PointsToMeshProjector</definition>
+        <argsstring>(MR_IPointsToMeshProjector *object)</argsstring>
+        <name>MR_IPointsToMeshProjector_MutableDynamicDowncastTo_MR_PointsToMeshProjector</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsToMeshProjector</computeroutput> to a derived class <computeroutput>MR::PointsToMeshProjector</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will return zero if the target type is wrong. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="95" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="95" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1afd5053ccea3cbae7526a973dc00f1c5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API const MR_PointsToMeshProjector * MR_IPointsToMeshProjector_DynamicDowncastToOrFail_MR_PointsToMeshProjector</definition>
+        <argsstring>(const MR_IPointsToMeshProjector *object)</argsstring>
+        <name>MR_IPointsToMeshProjector_DynamicDowncastToOrFail_MR_PointsToMeshProjector</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsToMeshProjector</computeroutput> to a derived class <computeroutput>MR::PointsToMeshProjector</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. This version is acting on mutable pointers. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="103" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="103" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a858778514eb20ff4775b6d2a4e9dca39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_PointsToMeshProjector * MR_IPointsToMeshProjector_MutableDynamicDowncastToOrFail_MR_PointsToMeshProjector</definition>
+        <argsstring>(MR_IPointsToMeshProjector *object)</argsstring>
+        <name>MR_IPointsToMeshProjector_MutableDynamicDowncastToOrFail_MR_PointsToMeshProjector</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::IPointsToMeshProjector</computeroutput> to a derived class <computeroutput>MR::PointsToMeshProjector</computeroutput>. This is a dynamic downcast, it checks the type before casting. This version will throw if the target type is wrong. Parameter <computeroutput>object</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="110" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="110" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1aa1458f8f1aebc867199511162528c0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_MeshProjectionParameters_Get_loDistLimitSq</definition>
+        <argsstring>(const MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_Get_loDistLimitSq</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one Returns a pointer to a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="118" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="118" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1aa6de41bcbae639784d77d30c55b8f55c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshProjectionParameters_Set_loDistLimitSq</definition>
+        <argsstring>(MR_MeshProjectionParameters *_this, float value)</argsstring>
+        <name>MR_MeshProjectionParameters_Set_loDistLimitSq</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>loDistLimitSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="125" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="125" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a01ee7ed5da819085c3b43b98c93add9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_MeshProjectionParameters_GetMutable_loDistLimitSq</definition>
+        <argsstring>(MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_GetMutable_loDistLimitSq</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>minimum squared distance from a test point to mesh to be computed precisely, if a mesh point is found within this distance then it is immediately returned without searching for a closer one Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>loDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="133" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="133" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1ad59ee1edbae4cf38f0bdc877b79e6f2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_MeshProjectionParameters_Get_upDistLimitSq</definition>
+        <argsstring>(const MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_Get_upDistLimitSq</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign Returns a pointer to a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="141" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="141" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a6471c2fed0a3d59004c95e844bf1f354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshProjectionParameters_Set_upDistLimitSq</definition>
+        <argsstring>(MR_MeshProjectionParameters *_this, float value)</argsstring>
+        <name>MR_MeshProjectionParameters_Set_upDistLimitSq</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>upDistLimitSq</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="148" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="148" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a8355fb27447a3381ecca47030d3917c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_MeshProjectionParameters_GetMutable_upDistLimitSq</definition>
+        <argsstring>(MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_GetMutable_upDistLimitSq</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>maximum squared distance from a test point to mesh to be computed precisely, if actual distance is larger than upDistLimit will be returned with not-trusted sign Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>upDistLimitSq</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="156" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="156" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a31252c6c05577d8920861b78111e9cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
+        <definition>MRC_API const MR_AffineXf3f *const  * MR_MeshProjectionParameters_Get_refXf</definition>
+        <argsstring>(const MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_Get_refXf</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional reference mesh to world transformation Returns a pointer to a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>refXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="163" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="163" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a7df181286e26b1c625407efd16f9e4e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshProjectionParameters_Set_refXf</definition>
+        <argsstring>(MR_MeshProjectionParameters *_this, const MR_AffineXf3f *value)</argsstring>
+        <name>MR_MeshProjectionParameters_Set_refXf</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional reference mesh to world transformation Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>refXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>refXf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>refXf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="170" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="170" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a0a1fe61d41b213c356749153c21e88a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
+        <definition>MRC_API const MR_AffineXf3f ** MR_MeshProjectionParameters_GetMutable_refXf</definition>
+        <argsstring>(MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_GetMutable_refXf</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional reference mesh to world transformation Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>refXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="177" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="177" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a72ebb89ed50eb9277effd76a9172acf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *const *</type>
+        <definition>MRC_API const MR_AffineXf3f *const  * MR_MeshProjectionParameters_Get_xf</definition>
+        <argsstring>(const MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_Get_xf</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional test points to world transformation Returns a pointer to a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="184" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="184" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a61c7781ac152fe4e7196e256d0e757f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshProjectionParameters_Set_xf</definition>
+        <argsstring>(MR_MeshProjectionParameters *_this, const MR_AffineXf3f *value)</argsstring>
+        <name>MR_MeshProjectionParameters_Set_xf</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional test points to world transformation Modifies a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>xf</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>xf</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="191" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="191" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a8795b6d6809cc648a47650f716781a49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> **</type>
+        <definition>MRC_API const MR_AffineXf3f ** MR_MeshProjectionParameters_GetMutable_xf</definition>
+        <argsstring>(MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_GetMutable_xf</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>optional test points to world transformation Returns a mutable pointer to a member variable of class <computeroutput>MR::MeshProjectionParameters</computeroutput> named <computeroutput>xf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="198" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="198" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a3e65e025458ee037577db784f8b75e92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+        <definition>MRC_API MR_MeshProjectionParameters * MR_MeshProjectionParameters_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_MeshProjectionParameters_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsToMeshProjector_8h_1a21fd4848f3fbf486241426dc944c862e" kindref="member">MR_MeshProjectionParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="202" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="202" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1abc4327b53753991cc4dffbd3bf54894c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+        <definition>MRC_API MR_MeshProjectionParameters * MR_MeshProjectionParameters_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_MeshProjectionParameters_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPointsToMeshProjector_8h_1acc2a761242a2c164a0a167473fffa984" kindref="member">MR_MeshProjectionParameters_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPointsToMeshProjector_8h_1a039d95211240c1950fd753239f2f7226" kindref="member">MR_MeshProjectionParameters_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPointsToMeshProjector_8h_1afb835fe1e2040fe69fb6e44b15a1efc6" kindref="member">MR_MeshProjectionParameters_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="207" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="207" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a0c0f5cc1e483f0439aeac3d178a45975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+        <definition>MRC_API MR_MeshProjectionParameters * MR_MeshProjectionParameters_ConstructFrom</definition>
+        <argsstring>(float loDistLimitSq, float upDistLimitSq, const MR_AffineXf3f *refXf, const MR_AffineXf3f *xf)</argsstring>
+        <name>MR_MeshProjectionParameters_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>loDistLimitSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>refXf</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::MeshProjectionParameters</computeroutput> elementwise. The reference to the parameter <computeroutput>refXf</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>xf</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsToMeshProjector_8h_1a21fd4848f3fbf486241426dc944c862e" kindref="member">MR_MeshProjectionParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="214" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="214" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1afb835fe1e2040fe69fb6e44b15a1efc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+        <definition>MRC_API const MR_MeshProjectionParameters * MR_MeshProjectionParameters_OffsetPtr</definition>
+        <argsstring>(const MR_MeshProjectionParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshProjectionParameters_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="218" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="218" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a039d95211240c1950fd753239f2f7226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+        <definition>MRC_API MR_MeshProjectionParameters * MR_MeshProjectionParameters_OffsetMutablePtr</definition>
+        <argsstring>(MR_MeshProjectionParameters *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_MeshProjectionParameters_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="222" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="222" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a00e519503e7ccd4f7c99ae8de216d33e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+        <definition>MRC_API MR_MeshProjectionParameters * MR_MeshProjectionParameters_ConstructFromAnother</definition>
+        <argsstring>(const MR_MeshProjectionParameters *_other)</argsstring>
+        <name>MR_MeshProjectionParameters_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::MeshProjectionParameters::MeshProjectionParameters</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsToMeshProjector_8h_1a21fd4848f3fbf486241426dc944c862e" kindref="member">MR_MeshProjectionParameters_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="228" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="228" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a21fd4848f3fbf486241426dc944c862e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshProjectionParameters_Destroy</definition>
+        <argsstring>(const MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_MeshProjectionParameters</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="231" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="231" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1acc2a761242a2c164a0a167473fffa984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_MeshProjectionParameters_DestroyArray</definition>
+        <argsstring>(const MR_MeshProjectionParameters *_this)</argsstring>
+        <name>MR_MeshProjectionParameters_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_MeshProjectionParameters</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="234" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="234" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a5da7ff300a620778a77fcc2dba2d8a1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+        <definition>MRC_API MR_MeshProjectionParameters * MR_MeshProjectionParameters_AssignFromAnother</definition>
+        <argsstring>(MR_MeshProjectionParameters *_this, const MR_MeshProjectionParameters *_other)</argsstring>
+        <name>MR_MeshProjectionParameters_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::MeshProjectionParameters::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="242" column="37" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="242" declcolumn="37"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a8a27d99822628b786222cce9dcfdd220" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref> *</type>
+        <definition>MRC_API MR_VertScalars * MR_findSignedDistances_5</definition>
+        <argsstring>(const MR_Mesh *refMesh, const MR_VertCoords *testPoints, const MR_VertBitSet *validTestPoints, const MR_MeshProjectionParameters *params, MR_IPointsToMeshProjector *projector)</argsstring>
+        <name>MR_findSignedDistances_5</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>refMesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref> *</type>
+          <declname>testPoints</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref> *</type>
+          <declname>validTestPoints</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>projector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes signed distances from given test points to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh Generated from function <computeroutput>MR::findSignedDistances</computeroutput>. Parameter <computeroutput>refMesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>testPoints</computeroutput> can not be null. It is a single object. Parameter <computeroutput>validTestPoints</computeroutput> defaults to a null pointer in C++. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>projector</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1a83a57f50db4b03b5b3ab957541afdd1f" kindref="member">MR_VertScalars_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="255" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="255" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a203c0e594df87a7126b147ad8b41ace0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref> *</type>
+        <definition>MRC_API MR_VertScalars * MR_findSignedDistances_4</definition>
+        <argsstring>(const MR_Mesh *refMesh, const MR_Mesh *mesh, const MR_MeshProjectionParameters *params, MR_IPointsToMeshProjector *projector)</argsstring>
+        <name>MR_findSignedDistances_4</name>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>refMesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref> *</type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+          <declname>projector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Computes signed distances from valid vertices of test mesh to the closest point on the reference mesh: positive value - outside reference mesh, negative - inside reference mesh; this method can return wrong sign if the closest point is located on self-intersecting part of the mesh Generated from function <computeroutput>MR::findSignedDistances</computeroutput>. Parameter <computeroutput>refMesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>mesh</computeroutput> can not be null. It is a single object. Parameter <computeroutput>params</computeroutput> is a single object. Parameter <computeroutput>params</computeroutput> has a default argument: <computeroutput>{}</computeroutput>, pass a null pointer to use it. Parameter <computeroutput>projector</computeroutput> defaults to a null pointer in C++. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRVector_8h_1a83a57f50db4b03b5b3ab957541afdd1f" kindref="member">MR_VertScalars_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="267" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="267" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1adc48ec91e2159f6ec1813f76efb6a727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_PointsToMeshProjector * MR_PointsToMeshProjector_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_PointsToMeshProjector_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsToMeshProjector_8h_1ae3637aa059c9ce75ae106ae6799a744a" kindref="member">MR_PointsToMeshProjector_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="271" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="271" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1aee858488f991194d632ebf47bc350d10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_PointsToMeshProjector * MR_PointsToMeshProjector_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_PointsToMeshProjector_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRPointsToMeshProjector_8h_1ab9c692127de502a4a65453964036a693" kindref="member">MR_PointsToMeshProjector_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRPointsToMeshProjector_8h_1a2e4444f339fffed788cdb3adef757b88" kindref="member">MR_PointsToMeshProjector_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRPointsToMeshProjector_8h_1a0cc1f78a0535f281a199b3e791daa764" kindref="member">MR_PointsToMeshProjector_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="276" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="276" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a0cc1f78a0535f281a199b3e791daa764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API const MR_PointsToMeshProjector * MR_PointsToMeshProjector_OffsetPtr</definition>
+        <argsstring>(const MR_PointsToMeshProjector *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PointsToMeshProjector_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="280" column="40" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="280" declcolumn="40"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a2e4444f339fffed788cdb3adef757b88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_PointsToMeshProjector * MR_PointsToMeshProjector_OffsetMutablePtr</definition>
+        <argsstring>(MR_PointsToMeshProjector *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_PointsToMeshProjector_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="284" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="284" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a78f41777979821e973a22bbca24f4ab6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+        <definition>MRC_API const MR_IPointsToMeshProjector * MR_PointsToMeshProjector_UpcastTo_MR_IPointsToMeshProjector</definition>
+        <argsstring>(const MR_PointsToMeshProjector *object)</argsstring>
+        <name>MR_PointsToMeshProjector_UpcastTo_MR_IPointsToMeshProjector</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::PointsToMeshProjector</computeroutput> to its base class <computeroutput>MR::IPointsToMeshProjector</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="289" column="41" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="289" declcolumn="41"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a6a71fdbc2b85cd4b48ab55adb3b752a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_IPointsToMeshProjector * MR_PointsToMeshProjector_MutableUpcastTo_MR_IPointsToMeshProjector</definition>
+        <argsstring>(MR_PointsToMeshProjector *object)</argsstring>
+        <name>MR_PointsToMeshProjector_MutableUpcastTo_MR_IPointsToMeshProjector</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::PointsToMeshProjector</computeroutput> to its base class <computeroutput>MR::IPointsToMeshProjector</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="293" column="35" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="293" declcolumn="35"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1ab970c9c3455e0b1da74032e4eea5dacf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_PointsToMeshProjector * MR_PointsToMeshProjector_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_PointsToMeshProjector *_other)</argsstring>
+        <name>MR_PointsToMeshProjector_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::PointsToMeshProjector::PointsToMeshProjector</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRPointsToMeshProjector_8h_1ae3637aa059c9ce75ae106ae6799a744a" kindref="member">MR_PointsToMeshProjector_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="298" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="298" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1ae3637aa059c9ce75ae106ae6799a744a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointsToMeshProjector_Destroy</definition>
+        <argsstring>(const MR_PointsToMeshProjector *_this)</argsstring>
+        <name>MR_PointsToMeshProjector_Destroy</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_PointsToMeshProjector</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="301" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="301" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1ab9c692127de502a4a65453964036a693" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointsToMeshProjector_DestroyArray</definition>
+        <argsstring>(const MR_PointsToMeshProjector *_this)</argsstring>
+        <name>MR_PointsToMeshProjector_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_PointsToMeshProjector</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="304" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="304" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a39f8febdb63c545eee8abc3b20b12122" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+        <definition>MRC_API MR_PointsToMeshProjector * MR_PointsToMeshProjector_AssignFromAnother</definition>
+        <argsstring>(MR_PointsToMeshProjector *_this, MR_PassBy _other_pass_by, MR_PointsToMeshProjector *_other)</argsstring>
+        <name>MR_PointsToMeshProjector_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::PointsToMeshProjector::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="311" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="311" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1ab5421556ff66c471791e7c429d16c7c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointsToMeshProjector_updateMeshData</definition>
+        <argsstring>(MR_PointsToMeshProjector *_this, const MR_Mesh *mesh)</argsstring>
+        <name>MR_PointsToMeshProjector_updateMeshData</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref> *</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>update all data related to the referencing mesh Generated from method <computeroutput>MR::PointsToMeshProjector::updateMeshData</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="316" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="316" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a916ffab0a0020668741408d720afcb0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_PointsToMeshProjector_findProjections</definition>
+        <argsstring>(MR_PointsToMeshProjector *_this, MR_std_vector_MR_MeshProjectionResult *result, const MR_std_vector_MR_Vector3f *points, const MR_AffineXf3f *objXf, const MR_AffineXf3f *refObjXf, float upDistLimitSq, float loDistLimitSq)</argsstring>
+        <name>MR_PointsToMeshProjector_findProjections</name>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref> *</type>
+          <declname>result</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref> *</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>objXf</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref> *</type>
+          <declname>refObjXf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>loDistLimitSq</declname>
+        </param>
+        <briefdescription>
+<para>Computes the closest point on mesh to each of given points. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>result</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector pf projections</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>points</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>vector of points to project</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>objXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transform applied to points</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>refObjXf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>transform applied to referencing mesh</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>upDistLimitSq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>maximal squared distance from point to mesh</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>loDistLimitSq</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>minimal squared distance from point to mesh</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+Generated from method <computeroutput>MR::PointsToMeshProjector::findProjections</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>result</computeroutput> can not be null. It is a single object. Parameter <computeroutput>points</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="331" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="331" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRPointsToMeshProjector_8h_1a4d7af596abfc855d6647b9868a082cf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_PointsToMeshProjector_projectionsHeapBytes</definition>
+        <argsstring>(const MR_PointsToMeshProjector *_this, MR_uint64_t numProjections)</argsstring>
+        <name>MR_PointsToMeshProjector_projectionsHeapBytes</name>
+        <param>
+          <type>const <ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>numProjections</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns amount of additional memory needed to compute projections Generated from method <computeroutput>MR::PointsToMeshProjector::projectionsHeapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" line="336" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h" declline="336" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="MRPointsToMeshProjector_8h_1a88a1df6fb138786a55241b1d77a4b0cc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRAffineXf.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRPointsToMeshProjector_8h_1a31b172f68efca6438544d56eb86d6f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMesh.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRPointsToMeshProjector_8h_1a3df50e76b078a1626dd994e1df803764" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRPointsToMeshProjector_8h_1a249fd9254c0c3395567807936ad32641" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRPointsToMeshProjector_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRVector.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref><sp/><ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_MeshProjectionResult.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRPointsToMeshProjector_8h_1aefed148a09a0ae55edbd22814638b462" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_vector_MR_Vector3f.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRPointsToMeshProjector_8h_1a2a5088044848ec455716db598f152e25" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a2a5088044848ec455716db598f152e25" kindref="member">MR_IPointsToMeshProjector_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="MRPointsToMeshProjector_8h_1a6fdb5256b04fd153d80c290c7d1b6bef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a6fdb5256b04fd153d80c290c7d1b6bef" kindref="member">MR_IPointsToMeshProjector_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="MRPointsToMeshProjector_8h_1a7382108615ea1583d446ff2623db7a37" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a7382108615ea1583d446ff2623db7a37" kindref="member">MR_IPointsToMeshProjector_updateMeshData</ref>(<ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="MRPointsToMeshProjector_8h_1afb6dc53bdd0b027020b65c86fa378c17" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1afb6dc53bdd0b027020b65c86fa378c17" kindref="member">MR_IPointsToMeshProjector_findProjections</ref>(<ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*_this,<sp/><ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*worldXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*worldRefXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*upDistLimitSq,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*loDistLimitSq);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="MRPointsToMeshProjector_8h_1ad806aa3f70243576478217c977c5566d" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRPointsToMeshProjector_8h_1ad806aa3f70243576478217c977c5566d" kindref="member">MR_IPointsToMeshProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>numProjections);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRPointsToMeshProjector_8h_1a0049e057e050de61fa36314d7ead4a71" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a0049e057e050de61fa36314d7ead4a71" kindref="member">MR_IPointsToMeshProjector_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRPointsToMeshProjector_8h_1a2655161ae6961ded56211981a17303d3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a2655161ae6961ded56211981a17303d3" kindref="member">MR_IPointsToMeshProjector_OffsetMutablePtr</ref>(<ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRPointsToMeshProjector_8h_1a3f7911021b2836ed37c6402ae6b39a15" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a3f7911021b2836ed37c6402ae6b39a15" kindref="member">MR_IPointsToMeshProjector_StaticDowncastTo_MR_PointsToMeshProjector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRPointsToMeshProjector_8h_1a2a6e12152251d7ac791b878c7686c386" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a2a6e12152251d7ac791b878c7686c386" kindref="member">MR_IPointsToMeshProjector_MutableStaticDowncastTo_MR_PointsToMeshProjector</ref>(<ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRPointsToMeshProjector_8h_1a2a992f88ec8fc0db3d6d6e637916ae69" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a2a992f88ec8fc0db3d6d6e637916ae69" kindref="member">MR_IPointsToMeshProjector_DynamicDowncastTo_MR_PointsToMeshProjector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRPointsToMeshProjector_8h_1af79b4fd5f8f23da29d1a7187adda68f5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1af79b4fd5f8f23da29d1a7187adda68f5" kindref="member">MR_IPointsToMeshProjector_MutableDynamicDowncastTo_MR_PointsToMeshProjector</ref>(<ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRPointsToMeshProjector_8h_1afd5053ccea3cbae7526a973dc00f1c5d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1afd5053ccea3cbae7526a973dc00f1c5d" kindref="member">MR_IPointsToMeshProjector_DynamicDowncastToOrFail_MR_PointsToMeshProjector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="MRPointsToMeshProjector_8h_1a858778514eb20ff4775b6d2a4e9dca39" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a858778514eb20ff4775b6d2a4e9dca39" kindref="member">MR_IPointsToMeshProjector_MutableDynamicDowncastToOrFail_MR_PointsToMeshProjector</ref>(<ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRPointsToMeshProjector_8h_1aa1458f8f1aebc867199511162528c0a0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshProjector_8h_1aa1458f8f1aebc867199511162528c0a0" kindref="member">MR_MeshProjectionParameters_Get_loDistLimitSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRPointsToMeshProjector_8h_1aa6de41bcbae639784d77d30c55b8f55c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1aa6de41bcbae639784d77d30c55b8f55c" kindref="member">MR_MeshProjectionParameters_Set_loDistLimitSq</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRPointsToMeshProjector_8h_1a01ee7ed5da819085c3b43b98c93add9e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a01ee7ed5da819085c3b43b98c93add9e" kindref="member">MR_MeshProjectionParameters_GetMutable_loDistLimitSq</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141" refid="MRPointsToMeshProjector_8h_1ad59ee1edbae4cf38f0bdc877b79e6f2d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshProjector_8h_1ad59ee1edbae4cf38f0bdc877b79e6f2d" kindref="member">MR_MeshProjectionParameters_Get_upDistLimitSq</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148" refid="MRPointsToMeshProjector_8h_1a6471c2fed0a3d59004c95e844bf1f354" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a6471c2fed0a3d59004c95e844bf1f354" kindref="member">MR_MeshProjectionParameters_Set_upDistLimitSq</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRPointsToMeshProjector_8h_1a8355fb27447a3381ecca47030d3917c0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a8355fb27447a3381ecca47030d3917c0" kindref="member">MR_MeshProjectionParameters_GetMutable_upDistLimitSq</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRPointsToMeshProjector_8h_1a31252c6c05577d8920861b78111e9cfe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a31252c6c05577d8920861b78111e9cfe" kindref="member">MR_MeshProjectionParameters_Get_refXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="MRPointsToMeshProjector_8h_1a7df181286e26b1c625407efd16f9e4e2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a7df181286e26b1c625407efd16f9e4e2" kindref="member">MR_MeshProjectionParameters_Set_refXf</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRPointsToMeshProjector_8h_1a0a1fe61d41b213c356749153c21e88a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRPointsToMeshProjector_8h_1a0a1fe61d41b213c356749153c21e88a2" kindref="member">MR_MeshProjectionParameters_GetMutable_refXf</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="MRPointsToMeshProjector_8h_1a72ebb89ed50eb9277effd76a9172acf3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a72ebb89ed50eb9277effd76a9172acf3" kindref="member">MR_MeshProjectionParameters_Get_xf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191" refid="MRPointsToMeshProjector_8h_1a61c7781ac152fe4e7196e256d0e757f7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a61c7781ac152fe4e7196e256d0e757f7" kindref="member">MR_MeshProjectionParameters_Set_xf</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198" refid="MRPointsToMeshProjector_8h_1a8795b6d6809cc648a47650f716781a49" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>**<ref refid="MRPointsToMeshProjector_8h_1a8795b6d6809cc648a47650f716781a49" kindref="member">MR_MeshProjectionParameters_GetMutable_xf</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202" refid="MRPointsToMeshProjector_8h_1a3e65e025458ee037577db784f8b75e92" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a3e65e025458ee037577db784f8b75e92" kindref="member">MR_MeshProjectionParameters_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="207" refid="MRPointsToMeshProjector_8h_1abc4327b53753991cc4dffbd3bf54894c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1abc4327b53753991cc4dffbd3bf54894c" kindref="member">MR_MeshProjectionParameters_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214" refid="MRPointsToMeshProjector_8h_1a0c0f5cc1e483f0439aeac3d178a45975" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a0c0f5cc1e483f0439aeac3d178a45975" kindref="member">MR_MeshProjectionParameters_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*xf);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRPointsToMeshProjector_8h_1afb835fe1e2040fe69fb6e44b15a1efc6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1afb835fe1e2040fe69fb6e44b15a1efc6" kindref="member">MR_MeshProjectionParameters_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRPointsToMeshProjector_8h_1a039d95211240c1950fd753239f2f7226" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a039d95211240c1950fd753239f2f7226" kindref="member">MR_MeshProjectionParameters_OffsetMutablePtr</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="228" refid="MRPointsToMeshProjector_8h_1a00e519503e7ccd4f7c99ae8de216d33e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a00e519503e7ccd4f7c99ae8de216d33e" kindref="member">MR_MeshProjectionParameters_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="231" refid="MRPointsToMeshProjector_8h_1a21fd4848f3fbf486241426dc944c862e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a21fd4848f3fbf486241426dc944c862e" kindref="member">MR_MeshProjectionParameters_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234" refid="MRPointsToMeshProjector_8h_1acc2a761242a2c164a0a167473fffa984" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1acc2a761242a2c164a0a167473fffa984" kindref="member">MR_MeshProjectionParameters_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight></codeline>
+<codeline lineno="242" refid="MRPointsToMeshProjector_8h_1a5da7ff300a620778a77fcc2dba2d8a1b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a5da7ff300a620778a77fcc2dba2d8a1b" kindref="member">MR_MeshProjectionParameters_AssignFromAnother</ref>(<ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255" refid="MRPointsToMeshProjector_8h_1a8a27d99822628b786222cce9dcfdd220" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a8a27d99822628b786222cce9dcfdd220" kindref="member">MR_findSignedDistances_5</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*refMesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTreePoints_8h_1a249fd9254c0c3395567807936ad32641" kindref="member">MR_VertCoords</ref><sp/>*testPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAABBTree_8h_1a3df50e76b078a1626dd994e1df803764" kindref="member">MR_VertBitSet</ref><sp/>*validTestPoints,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*params,<sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*projector);</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="267" refid="MRPointsToMeshProjector_8h_1a203c0e594df87a7126b147ad8b41ace0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRAggregateFlow_8h_1a6e4bb5e8943c9b1f5d438198404d0bd4" kindref="member">MR_VertScalars</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a203c0e594df87a7126b147ad8b41ace0" kindref="member">MR_findSignedDistances_4</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*refMesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1adfb5e8d830414785377108637ef2a030" kindref="member">MR_MeshProjectionParameters</ref><sp/>*params,<sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*projector);</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"></highlight></codeline>
+<codeline lineno="271" refid="MRPointsToMeshProjector_8h_1adc48ec91e2159f6ec1813f76efb6a727" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1adc48ec91e2159f6ec1813f76efb6a727" kindref="member">MR_PointsToMeshProjector_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276" refid="MRPointsToMeshProjector_8h_1aee858488f991194d632ebf47bc350d10" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1aee858488f991194d632ebf47bc350d10" kindref="member">MR_PointsToMeshProjector_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280" refid="MRPointsToMeshProjector_8h_1a0cc1f78a0535f281a199b3e791daa764" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a0cc1f78a0535f281a199b3e791daa764" kindref="member">MR_PointsToMeshProjector_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="284" refid="MRPointsToMeshProjector_8h_1a2e4444f339fffed788cdb3adef757b88" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a2e4444f339fffed788cdb3adef757b88" kindref="member">MR_PointsToMeshProjector_OffsetMutablePtr</ref>(<ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"></highlight></codeline>
+<codeline lineno="289" refid="MRPointsToMeshProjector_8h_1a78f41777979821e973a22bbca24f4ab6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a78f41777979821e973a22bbca24f4ab6" kindref="member">MR_PointsToMeshProjector_UpcastTo_MR_IPointsToMeshProjector</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"></highlight></codeline>
+<codeline lineno="293" refid="MRPointsToMeshProjector_8h_1a6a71fdbc2b85cd4b48ab55adb3b752a3" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a13728835bad064fbe79769d853105e4c" kindref="member">MR_IPointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a6a71fdbc2b85cd4b48ab55adb3b752a3" kindref="member">MR_PointsToMeshProjector_MutableUpcastTo_MR_IPointsToMeshProjector</ref>(<ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="298" refid="MRPointsToMeshProjector_8h_1ab970c9c3455e0b1da74032e4eea5dacf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1ab970c9c3455e0b1da74032e4eea5dacf" kindref="member">MR_PointsToMeshProjector_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="301" refid="MRPointsToMeshProjector_8h_1ae3637aa059c9ce75ae106ae6799a744a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1ae3637aa059c9ce75ae106ae6799a744a" kindref="member">MR_PointsToMeshProjector_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight></codeline>
+<codeline lineno="304" refid="MRPointsToMeshProjector_8h_1ab9c692127de502a4a65453964036a693" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1ab9c692127de502a4a65453964036a693" kindref="member">MR_PointsToMeshProjector_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311" refid="MRPointsToMeshProjector_8h_1a39f8febdb63c545eee8abc3b20b12122" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*<ref refid="MRPointsToMeshProjector_8h_1a39f8febdb63c545eee8abc3b20b12122" kindref="member">MR_PointsToMeshProjector_AssignFromAnother</ref>(<ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316" refid="MRPointsToMeshProjector_8h_1ab5421556ff66c471791e7c429d16c7c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1ab5421556ff66c471791e7c429d16c7c1" kindref="member">MR_PointsToMeshProjector_updateMeshData</ref>(<ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRCtm_8h_1a31b172f68efca6438544d56eb86d6f40" kindref="member">MR_Mesh</ref><sp/>*mesh);</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="MRPointsToMeshProjector_8h_1a916ffab0a0020668741408d720afcb0e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a916ffab0a0020668741408d720afcb0e" kindref="member">MR_PointsToMeshProjector_findProjections</ref>(<ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*_this,<sp/><ref refid="MRPointsToMeshProjector_8h_1a6948b441655a1b3976257e0a61a5a4ba" kindref="member">MR_std_vector_MR_MeshProjectionResult</ref><sp/>*result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRBestFit_8h_1aefed148a09a0ae55edbd22814638b462" kindref="member">MR_std_vector_MR_Vector3f</ref><sp/>*points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*objXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/>*refObjXf,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>upDistLimitSq,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>loDistLimitSq);</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="336" refid="MRPointsToMeshProjector_8h_1a4d7af596abfc855d6647b9868a082cf0" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRPointsToMeshProjector_8h_1a4d7af596abfc855d6647b9868a082cf0" kindref="member">MR_PointsToMeshProjector_projectionsHeapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRPointsToMeshProjector_8h_1a3088c8efb7d025084121005502134519" kindref="member">MR_PointsToMeshProjector</ref><sp/>*_this,<sp/>MR_uint64_t<sp/>numProjections);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="339"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRPointsToMeshProjector.h"/>
+  </compounddef>
+</doxygen>

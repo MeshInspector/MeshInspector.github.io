@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FindProjectionOnPointsSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::FindProjectionOnPointsSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindProjectionOnPointsSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FindProjectionOnPointsSettings_1abef84fb0f410d26d99d8a886d1c0a0b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? Const_BitSet</type>
+        <definition>new unsafe MR.? Const_BitSet MR.FindProjectionOnPointsSettings.valid</definition>
+        <argsstring></argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.valid</qualifiedname>
+        <briefdescription>
+<para>bitset of valid input points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="387" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="388" bodyend="397"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindProjectionOnPointsSettings_1a53543fd7e5c4199e8a688b1b4f5ac0e3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? ConstBox_AffineXf3f MR.FindProjectionOnPointsSettings.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.xf</qualifiedname>
+        <briefdescription>
+<para>affine transformation for input points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="400" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="401" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindProjectionOnPointsSettings_1a623b816a5bf7bfe5fcbbfb992f0013ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FindProjectionOnPointsSettings.upDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>upDistLimitSq</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.upDistLimitSq</qualifiedname>
+        <briefdescription>
+<para>upper limit on the distance in question, if the real distance is larger than the function exits returning upDistLimitSq and no valid point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="413" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindProjectionOnPointsSettings_1a1e180c4868011c58860dd2b901fa3938" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FindProjectionOnPointsSettings.loDistLimitSq</definition>
+        <argsstring></argsstring>
+        <name>loDistLimitSq</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.loDistLimitSq</qualifiedname>
+        <briefdescription>
+<para>low limit on the distance in question, if a point is found within this distance then it is immediately returned without searching for a closer one </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="416" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindProjectionOnPointsSettings_1a3b4b688a4c5f65212c06abb32d98df6e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.FindProjectionOnPointsSettings.skipSameIndex</definition>
+        <argsstring></argsstring>
+        <name>skipSameIndex</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.skipSameIndex</qualifiedname>
+        <briefdescription>
+<para>if true, discards a projection candidate with the same index as the target point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="419" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindProjectionOnPointsSettings_1a42d37560700fcb28b87f3cdf6c449f4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.FindProjectionOnPointsSettings.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.cb</qualifiedname>
+        <briefdescription>
+<para>progress callback </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="422" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="422" bodyend="422"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FindProjectionOnPointsSettings_1a9834066b76b6cffd2a1d95aeabfe35c7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FindProjectionOnPointsSettings</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="441" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="441" bodyend="445"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FindProjectionOnPointsSettings_1a8e4de168dc26fe7e4710894323b55cb8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</definition>
+        <argsstring>()</argsstring>
+        <name>FindProjectionOnPointsSettings</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="451" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="451" bodyend="457"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindProjectionOnPointsSettings_1a99dc2a7d9a715f087c42a8baa67491fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</definition>
+        <argsstring>(MR.Const_BitSet? valid, MR.AffineXf3f? xf, float upDistLimitSq, float loDistLimitSq, bool skipSameIndex, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <name>FindProjectionOnPointsSettings</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</qualifiedname>
+        <param>
+          <type>MR.Const_BitSet?</type>
+          <declname>valid</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>loDistLimitSq</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>skipSameIndex</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FindProjectionOnPointsSettings" kindref="compound">MR.FindProjectionOnPointsSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="462" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="462" bodyend="471"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindProjectionOnPointsSettings_1ae3192751bc405bc750438702ff6d3f85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</definition>
+        <argsstring>(MR._ByValue_FindProjectionOnPointsSettings _other)</argsstring>
+        <name>FindProjectionOnPointsSettings</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_FindProjectionOnPointsSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="476" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="476" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindProjectionOnPointsSettings_1a7836daddb0ae8a4e7912b77e26f7afe8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</definition>
+        <argsstring>(Const_FindProjectionOnPointsSettings _other)</argsstring>
+        <name>FindProjectionOnPointsSettings</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</qualifiedname>
+        <param>
+          <type>Const_FindProjectionOnPointsSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="488" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="488" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindProjectionOnPointsSettings_1ae7e68ebe84cce6921c62907010ceda5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</definition>
+        <argsstring>(FindProjectionOnPointsSettings _other)</argsstring>
+        <name>FindProjectionOnPointsSettings</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FindProjectionOnPointsSettings" kindref="compound">FindProjectionOnPointsSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindProjectionOnPointsSettings.FindProjectionOnPointsSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="493" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="493" bodyend="493"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindProjectionOnPointsSettings_1aaefefdbe5255b54029b22a1788375642" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FindProjectionOnPointsSettings" kindref="compound">MR.FindProjectionOnPointsSettings</ref></type>
+        <definition>unsafe MR.FindProjectionOnPointsSettings MR.FindProjectionOnPointsSettings.assign</definition>
+        <argsstring>(MR._ByValue_FindProjectionOnPointsSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FindProjectionOnPointsSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FindProjectionOnPointsSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FindProjectionOnPointsSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="498" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="498" bodyend="505"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>settings for IPointsProjector.findProjections Generated from class <computeroutput><ref refid="classMR_1_1FindProjectionOnPointsSettings" kindref="compound">MR.FindProjectionOnPointsSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FindProjectionOnPointsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindProjectionOnPointsSettings</label>
+        <link refid="classMR_1_1FindProjectionOnPointsSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindProjectionOnPointsSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FindProjectionOnPointsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindProjectionOnPointsSettings</label>
+        <link refid="classMR_1_1FindProjectionOnPointsSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindProjectionOnPointsSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" line="384" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsProject.cs" bodystart="385" bodyend="506"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1aaefefdbe5255b54029b22a1788375642" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a42d37560700fcb28b87f3cdf6c449f4b" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>cb</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a9834066b76b6cffd2a1d95aeabfe35c7" prot="package" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a8e4de168dc26fe7e4710894323b55cb8" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a99dc2a7d9a715f087c42a8baa67491fc" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1ae3192751bc405bc750438702ff6d3f85" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a7836daddb0ae8a4e7912b77e26f7afe8" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1ae7e68ebe84cce6921c62907010ceda5a" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>FindProjectionOnPointsSettings</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a1e180c4868011c58860dd2b901fa3938" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>loDistLimitSq</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a3b4b688a4c5f65212c06abb32d98df6e" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>skipSameIndex</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a623b816a5bf7bfe5fcbbfb992f0013ac" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>upDistLimitSq</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1abef84fb0f410d26d99d8a886d1c0a0b3" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>valid</name></member>
+      <member refid="classMR_1_1FindProjectionOnPointsSettings_1a53543fd7e5c4199e8a688b1b4f5ac0e3" prot="public" virt="non-virtual"><scope>MR::FindProjectionOnPointsSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

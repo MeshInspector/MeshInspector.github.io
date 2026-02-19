@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WeightedVertex" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WeightedVertex</compoundname>
+    <includes refid="MRMeshTriPoint_8h" local="no">MRMeshTriPoint.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2f8953ff5552fb2b6756a483ef480790" kind="variable"><name>v</name></member>
+      <member refid="group__GeneralGroup_1ga1208b58be6e320fd52f5e5a18d6c5760" kind="variable"><name>weight</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshTriPoint.h" bodystart="14" bodyend="17"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2f8953ff5552fb2b6756a483ef480790" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>v</name></member>
+      <member refid="group__GeneralGroup_1ga1208b58be6e320fd52f5e5a18d6c5760" prot="public" virt="non-virtual"><scope>MR::WeightedVertex</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

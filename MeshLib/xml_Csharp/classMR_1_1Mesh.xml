@@ -1,0 +1,934 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Mesh" kind="class" language="C#" prot="public">
+    <compoundname>MR::Mesh</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Mesh</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Mesh_1a504c6630e7c1492cbe741522640f0d95" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1MeshTopology" kindref="compound">MR.MeshTopology</ref></type>
+        <definition>new unsafe MR.MeshTopology MR.Mesh.topology</definition>
+        <argsstring></argsstring>
+        <name>topology</name>
+        <qualifiedname>MR.Mesh.topology</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1396" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1396" bodyend="1396"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Mesh_1aaabc8bb44cded098e13d1d424ef42241" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref></type>
+        <definition>new unsafe MR.VertCoords MR.Mesh.points</definition>
+        <argsstring></argsstring>
+        <name>points</name>
+        <qualifiedname>MR.Mesh.points</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1398" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1398" bodyend="1398"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Mesh_1afc3021ccea255639170cfc4a194d2abe" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Mesh.Mesh</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Mesh</name>
+        <qualifiedname>MR.Mesh.Mesh</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1424" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1424" bodyend="1428"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a76ae7fcf67737b98c9ee7615e7d1c439" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Mesh.Mesh</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>Mesh</name>
+        <qualifiedname>MR.Mesh.Mesh</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1433" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1433" bodyend="1437"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Mesh_1aa1db14cda63104c807171c5607fdba89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Mesh.Mesh</definition>
+        <argsstring>()</argsstring>
+        <name>Mesh</name>
+        <qualifiedname>MR.Mesh.Mesh</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1443" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1443" bodyend="1449"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1adc900de18679f1054d88ce16cf318121" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Mesh.Mesh</definition>
+        <argsstring>(MR._ByValue_Mesh _other)</argsstring>
+        <name>Mesh</name>
+        <qualifiedname>MR.Mesh.Mesh</qualifiedname>
+        <param>
+          <type>MR._ByValue_Mesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Mesh.Mesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1454" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1454" bodyend="1461"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a8d314af2acc0ebf8bb876bfa059e87a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Mesh.Mesh</definition>
+        <argsstring>(Const_Mesh _other)</argsstring>
+        <name>Mesh</name>
+        <qualifiedname>MR.Mesh.Mesh</qualifiedname>
+        <param>
+          <type>Const_Mesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Mesh.Mesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1466" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1466" bodyend="1466"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a9fa5ba08a3fa3ba8aa227fe2de1caad5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Mesh.Mesh</definition>
+        <argsstring>(Mesh _other)</argsstring>
+        <name>Mesh</name>
+        <qualifiedname>MR.Mesh.Mesh</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Mesh.Mesh</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1471" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1471" bodyend="1471"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a3632624cd519de9bd01603d0ecb509f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>unsafe MR.Mesh MR.Mesh.assign</definition>
+        <argsstring>(MR._ByValue_Mesh _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Mesh.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_Mesh</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Mesh.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1476" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1476" bodyend="1483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1af8b0fa03a2c37a7cf1f7e4b66e2aba06" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.zeroUnusedPoints</definition>
+        <argsstring>()</argsstring>
+        <name>zeroUnusedPoints</name>
+        <qualifiedname>MR.Mesh.zeroUnusedPoints</qualifiedname>
+        <briefdescription>
+<para>for all points not in topology.getValidVerts() sets coordinates to (0,0,0) Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1af8b0fa03a2c37a7cf1f7e4b66e2aba06" kindref="member">MR.Mesh.zeroUnusedPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1489" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1489" bodyend="1494"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a6ea37e2c3415fdc14f7fdbc23ba80fd5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.transform</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR.Const_VertBitSet? region=null)</argsstring>
+        <name>transform</name>
+        <qualifiedname>MR.Mesh.transform</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>applies given transformation to specified vertices if region is nullptr, all valid mesh vertices are used </para>
+        </briefdescription>
+        <detaileddescription>
+<para><programlisting filename="cpp-examples/MeshModification.dox.cpp"></programlisting> Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a6ea37e2c3415fdc14f7fdbc23ba80fd5" kindref="member">MR.Mesh.transform</ref></computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1502" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1502" bodyend="1510"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1ad9bd8ff20c7b992d8b6d93a87b3cc15d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Mesh.addPoint</definition>
+        <argsstring>(in MR.Vector3f pos)</argsstring>
+        <name>addPoint</name>
+        <qualifiedname>MR.Mesh.addPoint</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>creates new point and assigns given position to it Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1ad9bd8ff20c7b992d8b6d93a87b3cc15d" kindref="member">MR.Mesh.addPoint</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1516" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1516" bodyend="1524"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1ab102f823bf76119efe98b2a7cbb17c3f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Mesh.addSeparateEdgeLoop</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f contourPoints)</argsstring>
+        <name>addSeparateEdgeLoop</name>
+        <qualifiedname>MR.Mesh.addSeparateEdgeLoop</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>contourPoints</declname>
+        </param>
+        <briefdescription>
+<para>append points to mesh and connect them as closed edge loop returns first <ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref> of new edges Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1ab102f823bf76119efe98b2a7cbb17c3f" kindref="member">MR.Mesh.addSeparateEdgeLoop</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1531" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1531" bodyend="1536"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1abab1969d565f8218414497a28b157274" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Mesh.addSeparateContours</definition>
+        <argsstring>(MR.Std.Const_Vector_StdVectorMRVector3f contours, MR.AffineXf3f? xf=null)</argsstring>
+        <name>addSeparateContours</name>
+        <qualifiedname>MR.Mesh.addSeparateContours</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMRVector3f</type>
+          <declname>contours</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>append points to mesh and connect them returns first <ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref> of new edges Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1abab1969d565f8218414497a28b157274" kindref="member">MR.Mesh.addSeparateContours</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1543" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1543" bodyend="1549"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1ac0eeaab921700a0bb69e1e9f9ac81072" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.attachEdgeLoopPart</definition>
+        <argsstring>(MR.EdgeId first, MR.EdgeId last, MR.Std.Const_Vector_MRVector3f contourPoints)</argsstring>
+        <name>attachEdgeLoopPart</name>
+        <qualifiedname>MR.Mesh.attachEdgeLoopPart</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>last</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>contourPoints</declname>
+        </param>
+        <briefdescription>
+<para>append points to mesh and connect them to given edges making edge loop first point connects with first edge dest last point connects with last edge org note that first and last edge should have no left face Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1ac0eeaab921700a0bb69e1e9f9ac81072" kindref="member">MR.Mesh.attachEdgeLoopPart</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1558" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1558" bodyend="1563"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a6c3397a5f9b167c21f2ef11cdc2714bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Mesh.splitEdge</definition>
+        <argsstring>(MR.EdgeId e, in MR.Vector3f newVertPos, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</argsstring>
+        <name>splitEdge</name>
+        <qualifiedname>MR.Mesh.splitEdge</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>newVertPos</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
+          <declname>new2Old</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>split given edge on two parts: dest(returned-edge) = org(e) - newly created vertex, org(returned-edge) = org(e-before-split), dest(e) = dest(e-before-split) </para>
+        </briefdescription>
+        <detaileddescription>
+<para>left and right faces of given edge if valid are also subdivided on two parts each; the split edge will keep both face IDs and their degrees, and the new edge will have new face IDs and new faces are triangular; if left or right faces of the original edge were in the region, then include new parts of these faces in the region <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>new2Old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a6c3397a5f9b167c21f2ef11cdc2714bb" kindref="member">MR.Mesh.splitEdge</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1576" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1576" bodyend="1584"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a8a2afbc970a0f369fc1ce22ecda09d99" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.Mesh.splitEdge</definition>
+        <argsstring>(MR.EdgeId e, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</argsstring>
+        <name>splitEdge</name>
+        <qualifiedname>MR.Mesh.splitEdge</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
+          <declname>new2Old</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a6c3397a5f9b167c21f2ef11cdc2714bb" kindref="member">MR.Mesh.splitEdge</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1590" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1590" bodyend="1595"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a7047e329fbec57254356a66c56e303a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Mesh.splitFace</definition>
+        <argsstring>(MR.FaceId f, in MR.Vector3f newVertPos, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</argsstring>
+        <name>splitFace</name>
+        <qualifiedname>MR.Mesh.splitFace</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>newVertPos</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
+          <declname>new2Old</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>split given triangle on three triangles, introducing new vertex with given coordinates and connecting it to original triangle vertices; if region is given, then it must include (f) and new faces will be added there as well </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>new2Old</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>receive mapping from newly appeared triangle to its original triangle (part to full) Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a7047e329fbec57254356a66c56e303a5" kindref="member">MR.Mesh.splitFace</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1603" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1603" bodyend="1611"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1afbb50d9e289a891a10226c90dd906a37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.Mesh.splitFace</definition>
+        <argsstring>(MR.FaceId f, MR.FaceBitSet? region=null, MR.Phmap.FlatHashMap_MRFaceId_MRFaceId? new2Old=null)</argsstring>
+        <name>splitFace</name>
+        <qualifiedname>MR.Mesh.splitFace</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Phmap.FlatHashMap_MRFaceId_MRFaceId?</type>
+          <declname>new2Old</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a7047e329fbec57254356a66c56e303a5" kindref="member">MR.Mesh.splitFace</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1617" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1617" bodyend="1622"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a466f6cad2b51436a361e61648f2fb865" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.addMesh</definition>
+        <argsstring>(MR.Const_Mesh from, MR.Const_PartMapping? map=null, bool? rearrangeTriangles=null)</argsstring>
+        <name>addMesh</name>
+        <qualifiedname>MR.Mesh.addMesh</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>MR.Const_PartMapping?</type>
+          <declname>map</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>rearrangeTriangles</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>appends another mesh as separate connected component(s) to this Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a466f6cad2b51436a361e61648f2fb865" kindref="member">MR.Mesh.addMesh</ref></computeroutput>. Parameter <computeroutput>map</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>rearrangeTriangles</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1630" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1630" bodyend="1636"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1af28122d6c3bcc15f02f009974fe84bf6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.addMesh</definition>
+        <argsstring>(MR.Const_Mesh from, MR.FaceMap? outFmap, MR.VertMap? outVmap=null, MR.WholeEdgeMap? outEmap=null, bool? rearrangeTriangles=null)</argsstring>
+        <name>addMesh</name>
+        <qualifiedname>MR.Mesh.addMesh</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref>?</type>
+          <declname>outFmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>outVmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1WholeEdgeMap" kindref="compound">MR.WholeEdgeMap</ref>?</type>
+          <declname>outEmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>rearrangeTriangles</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a466f6cad2b51436a361e61648f2fb865" kindref="member">MR.Mesh.addMesh</ref></computeroutput>. Parameter <computeroutput>rearrangeTriangles</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1642" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1642" bodyend="1648"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1acd28688dac05c65cad4efc93ecd79fc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.addMeshPart</definition>
+        <argsstring>(MR.Const_MeshPart from, MR.Const_PartMapping map)</argsstring>
+        <name>addMeshPart</name>
+        <qualifiedname>MR.Mesh.addMeshPart</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>MR.Const_PartMapping</type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+<para>appends whole or part of another mesh as separate connected component(s) to this Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1acd28688dac05c65cad4efc93ecd79fc7" kindref="member">MR.Mesh.addMeshPart</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1654" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1654" bodyend="1659"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a3be7f8e43fc91a77b3b8f0d3dc89f15c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.addMeshPart</definition>
+        <argsstring>(MR.Const_MeshPart from, bool? flipOrientation=null, MR.Std.Const_Vector_StdVectorMREdgeId? thisContours=null, MR.Std.Const_Vector_StdVectorMREdgeId? fromContours=null, MR.Const_PartMapping? map=null)</argsstring>
+        <name>addMeshPart</name>
+        <qualifiedname>MR.Mesh.addMeshPart</qualifiedname>
+        <param>
+          <type>MR.Const_MeshPart</type>
+          <declname>from</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>flipOrientation</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId?</type>
+          <declname>thisContours</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std.Const_Vector_StdVectorMREdgeId?</type>
+          <declname>fromContours</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Const_PartMapping?</type>
+          <declname>map</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>appends whole or part of another mesh to this joining added faces with existed ones along given contours </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>flipOrientation</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true means that every (from) triangle is inverted before adding Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1acd28688dac05c65cad4efc93ecd79fc7" kindref="member">MR.Mesh.addMeshPart</ref></computeroutput>. Parameter <computeroutput>flipOrientation</computeroutput> defaults to <computeroutput>false</computeroutput>. Parameter <computeroutput>thisContours</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>fromContours</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>map</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1670" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1670" bodyend="1676"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a8ca1dbf25d04ac66213956966250b872" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.pack</definition>
+        <argsstring>(MR.Const_PartMapping? map=null, bool? rearrangeTriangles=null)</argsstring>
+        <name>pack</name>
+        <qualifiedname>MR.Mesh.pack</qualifiedname>
+        <param>
+          <type>MR.Const_PartMapping?</type>
+          <declname>map</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>rearrangeTriangles</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>tightly packs all arrays eliminating lone edges and invalid faces, vertices and points Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a8ca1dbf25d04ac66213956966250b872" kindref="member">MR.Mesh.pack</ref></computeroutput>. Parameter <computeroutput>map</computeroutput> defaults to <computeroutput>{}</computeroutput>. Parameter <computeroutput>rearrangeTriangles</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1684" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1684" bodyend="1690"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a3ca5fa30b57fdada6bfe0aecb9868a7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.pack</definition>
+        <argsstring>(MR.FaceMap? outFmap, MR.VertMap? outVmap=null, MR.WholeEdgeMap? outEmap=null, bool? rearrangeTriangles=null)</argsstring>
+        <name>pack</name>
+        <qualifiedname>MR.Mesh.pack</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceMap" kindref="compound">MR.FaceMap</ref>?</type>
+          <declname>outFmap</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertMap" kindref="compound">MR.VertMap</ref>?</type>
+          <declname>outVmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1WholeEdgeMap" kindref="compound">MR.WholeEdgeMap</ref>?</type>
+          <declname>outEmap</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>rearrangeTriangles</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a8ca1dbf25d04ac66213956966250b872" kindref="member">MR.Mesh.pack</ref></computeroutput>. Parameter <computeroutput>rearrangeTriangles</computeroutput> defaults to <computeroutput>false</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1696" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1696" bodyend="1702"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1ae55e1a3c16fa48401ba616aae8753cca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.pack</definition>
+        <argsstring>(MR.Const_PackMapping map, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>pack</name>
+        <qualifiedname>MR.Mesh.pack</qualifiedname>
+        <param>
+          <type>MR.Const_PackMapping</type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>tightly packs all arrays eliminating lone edges and invalid faces, vertices and points, reorder all faces, vertices and edges according to given maps, each containing old id -&gt; new id mapping Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a8ca1dbf25d04ac66213956966250b872" kindref="member">MR.Mesh.pack</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1710" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1710" bodyend="1717"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a57a1d23b8ef40eeaf0069cb2e09db3e6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PackMapping" kindref="compound">MR.PackMapping</ref></type>
+        <definition>unsafe MR.PackMapping MR.Mesh.packOptimally</definition>
+        <argsstring>(bool? preserveAABBTree=null)</argsstring>
+        <name>packOptimally</name>
+        <qualifiedname>MR.Mesh.packOptimally</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>preserveAABBTree</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>packs tightly and rearranges vertices, triangles and edges to put close in space elements in close indices </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>preserveAABBTree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to keep valid mesh&apos;s AABB tree after return (it will take longer to compute and it will occupy more memory) Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a57a1d23b8ef40eeaf0069cb2e09db3e6" kindref="member">MR.Mesh.packOptimally</ref></computeroutput>. Parameter <computeroutput>preserveAABBTree</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1725" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1725" bodyend="1731"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a829af41e430fcf8d723002812830657f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PackMapping" kindref="compound">MR.PackMapping</ref></type>
+        <definition>unsafe MR.PackMapping MR.Mesh.packOptimally</definition>
+        <argsstring>(bool preserveAABBTree, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <name>packOptimally</name>
+        <qualifiedname>MR.Mesh.packOptimally</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>preserveAABBTree</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a57a1d23b8ef40eeaf0069cb2e09db3e6" kindref="member">MR.Mesh.packOptimally</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1736" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1736" bodyend="1744"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1aabb94b993864e79fad870695416a38af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.deleteFaces</definition>
+        <argsstring>(MR.Const_FaceBitSet fs, MR.Const_UndirectedEdgeBitSet? keepEdges=null)</argsstring>
+        <name>deleteFaces</name>
+        <qualifiedname>MR.Mesh.deleteFaces</qualifiedname>
+        <param>
+          <type>MR.Const_FaceBitSet</type>
+          <declname>fs</declname>
+        </param>
+        <param>
+          <type>MR.Const_UndirectedEdgeBitSet?</type>
+          <declname>keepEdges</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>deletes multiple given faces, also deletes adjacent edges and vertices if they were not shared by remaining faces and not in </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keepEdges</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1aabb94b993864e79fad870695416a38af" kindref="member">MR.Mesh.deleteFaces</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1750" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1750" bodyend="1755"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a2456faa5acbeb85adca2cf5b496df684" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.invalidateCaches</definition>
+        <argsstring>(bool? pointsChanged=null)</argsstring>
+        <name>invalidateCaches</name>
+        <qualifiedname>MR.Mesh.invalidateCaches</qualifiedname>
+        <param>
+          <type>bool?</type>
+          <declname>pointsChanged</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>invalidates caches (aabb-trees) after any change in mesh geometry or topology </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pointsChanged</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>specifies whether points have changed (otherwise only topology has changed) Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a2456faa5acbeb85adca2cf5b496df684" kindref="member">MR.Mesh.invalidateCaches</ref></computeroutput>. Parameter <computeroutput>pointsChanged</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1763" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1763" bodyend="1769"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1aa840c13d73b18aa3014201e05ffaf46e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.updateCaches</definition>
+        <argsstring>(MR.Const_VertBitSet changedVerts)</argsstring>
+        <name>updateCaches</name>
+        <qualifiedname>MR.Mesh.updateCaches</qualifiedname>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>changedVerts</declname>
+        </param>
+        <briefdescription>
+<para>updates existing caches in case of few vertices were changed insignificantly, and topology remained unchanged; it shall be considered as a faster alternative to <ref refid="classMR_1_1Mesh_1a2456faa5acbeb85adca2cf5b496df684" kindref="member">invalidateCaches()</ref> and following rebuild of trees Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1aa840c13d73b18aa3014201e05ffaf46e" kindref="member">MR.Mesh.updateCaches</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1777" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1777" bodyend="1782"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a9a5bddf03c626d877f81537eb854307d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.shrinkToFit</definition>
+        <argsstring>()</argsstring>
+        <name>shrinkToFit</name>
+        <qualifiedname>MR.Mesh.shrinkToFit</qualifiedname>
+        <briefdescription>
+<para>requests the removal of unused capacity Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a9a5bddf03c626d877f81537eb854307d" kindref="member">MR.Mesh.shrinkToFit</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1788" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1788" bodyend="1793"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Mesh_1a2716bdfac62a94a52023c065250ba246" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Mesh.mirror</definition>
+        <argsstring>(MR.Const_Plane3f plane)</argsstring>
+        <name>mirror</name>
+        <qualifiedname>MR.Mesh.mirror</qualifiedname>
+        <param>
+          <type>MR.Const_Plane3f</type>
+          <declname>plane</declname>
+        </param>
+        <briefdescription>
+<para>reflects the mesh from a given plane Generated from method <computeroutput><ref refid="classMR_1_1Mesh_1a2716bdfac62a94a52023c065250ba246" kindref="member">MR.Mesh.mirror</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1799" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1799" bodyend="1804"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class represents a mesh, including topology (connectivity) information and point coordinates, as well as some caches to accelerate search algorithms Generated from class <computeroutput><ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Mesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Mesh</label>
+        <link refid="classMR_1_1Mesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_Mesh &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_Mesh &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Mesh</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Mesh</label>
+        <link refid="classMR_1_1Mesh"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_Mesh &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_Mesh &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" line="1394" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMesh.cs" bodystart="1395" bodyend="1805"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Mesh_1a466f6cad2b51436a361e61648f2fb865" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMesh</name></member>
+      <member refid="classMR_1_1Mesh_1af28122d6c3bcc15f02f009974fe84bf6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMesh</name></member>
+      <member refid="classMR_1_1Mesh_1acd28688dac05c65cad4efc93ecd79fc7" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMeshPart</name></member>
+      <member refid="classMR_1_1Mesh_1a3be7f8e43fc91a77b3b8f0d3dc89f15c" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addMeshPart</name></member>
+      <member refid="classMR_1_1Mesh_1ad9bd8ff20c7b992d8b6d93a87b3cc15d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addPoint</name></member>
+      <member refid="classMR_1_1Mesh_1abab1969d565f8218414497a28b157274" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateContours</name></member>
+      <member refid="classMR_1_1Mesh_1ab102f823bf76119efe98b2a7cbb17c3f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>addSeparateEdgeLoop</name></member>
+      <member refid="classMR_1_1Mesh_1a3632624cd519de9bd01603d0ecb509f6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>assign</name></member>
+      <member refid="classMR_1_1Mesh_1ac0eeaab921700a0bb69e1e9f9ac81072" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>attachEdgeLoopPart</name></member>
+      <member refid="classMR_1_1Mesh_1aabb94b993864e79fad870695416a38af" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>deleteFaces</name></member>
+      <member refid="classMR_1_1Mesh_1a2456faa5acbeb85adca2cf5b496df684" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>invalidateCaches</name></member>
+      <member refid="classMR_1_1Mesh_1afc3021ccea255639170cfc4a194d2abe" prot="package" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
+      <member refid="classMR_1_1Mesh_1a76ae7fcf67737b98c9ee7615e7d1c439" prot="package" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
+      <member refid="classMR_1_1Mesh_1aa1db14cda63104c807171c5607fdba89" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
+      <member refid="classMR_1_1Mesh_1adc900de18679f1054d88ce16cf318121" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
+      <member refid="classMR_1_1Mesh_1a8d314af2acc0ebf8bb876bfa059e87a8" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
+      <member refid="classMR_1_1Mesh_1a9fa5ba08a3fa3ba8aa227fe2de1caad5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>Mesh</name></member>
+      <member refid="classMR_1_1Mesh_1a2716bdfac62a94a52023c065250ba246" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>mirror</name></member>
+      <member refid="classMR_1_1Mesh_1a8ca1dbf25d04ac66213956966250b872" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
+      <member refid="classMR_1_1Mesh_1a3ca5fa30b57fdada6bfe0aecb9868a7f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
+      <member refid="classMR_1_1Mesh_1ae55e1a3c16fa48401ba616aae8753cca" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>pack</name></member>
+      <member refid="classMR_1_1Mesh_1a57a1d23b8ef40eeaf0069cb2e09db3e6" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>packOptimally</name></member>
+      <member refid="classMR_1_1Mesh_1a829af41e430fcf8d723002812830657f" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>packOptimally</name></member>
+      <member refid="classMR_1_1Mesh_1aaabc8bb44cded098e13d1d424ef42241" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>points</name></member>
+      <member refid="classMR_1_1Mesh_1a9a5bddf03c626d877f81537eb854307d" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>shrinkToFit</name></member>
+      <member refid="classMR_1_1Mesh_1a6c3397a5f9b167c21f2ef11cdc2714bb" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitEdge</name></member>
+      <member refid="classMR_1_1Mesh_1a8a2afbc970a0f369fc1ce22ecda09d99" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitEdge</name></member>
+      <member refid="classMR_1_1Mesh_1a7047e329fbec57254356a66c56e303a5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitFace</name></member>
+      <member refid="classMR_1_1Mesh_1afbb50d9e289a891a10226c90dd906a37" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>splitFace</name></member>
+      <member refid="classMR_1_1Mesh_1a504c6630e7c1492cbe741522640f0d95" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>topology</name></member>
+      <member refid="classMR_1_1Mesh_1a6ea37e2c3415fdc14f7fdbc23ba80fd5" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>transform</name></member>
+      <member refid="classMR_1_1Mesh_1aa840c13d73b18aa3014201e05ffaf46e" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>updateCaches</name></member>
+      <member refid="classMR_1_1Mesh_1af8b0fa03a2c37a7cf1f7e4b66e2aba06" prot="public" virt="non-virtual"><scope>MR::Mesh</scope><name>zeroUnusedPoints</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

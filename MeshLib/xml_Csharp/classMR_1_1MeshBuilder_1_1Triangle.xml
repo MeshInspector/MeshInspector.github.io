@@ -1,0 +1,234 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshBuilder_1_1Triangle" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshBuilder::Triangle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.MeshBuilder.Const_Triangle</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Triangle_1abf4ddcfcec5822124e234eb43f2a5cba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref MR.Std.Array_MRVertId_3</type>
+        <definition>new unsafe ref MR.Std.Array_MRVertId_3 MR.MeshBuilder.Triangle.v</definition>
+        <argsstring></argsstring>
+        <name>v</name>
+        <qualifiedname>MR.MeshBuilder.Triangle.v</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="142" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1Triangle_1a876e2211a37fca9e551ce1de5195855b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>new unsafe ref MR.FaceId MR.MeshBuilder.Triangle.f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <qualifiedname>MR.MeshBuilder.Triangle.f</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="144" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Triangle_1a6774125a18e7f2b2c0ed88ada50f220d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.Triangle.Triangle</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Triangle</name>
+        <qualifiedname>MR.MeshBuilder.Triangle.Triangle</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="148" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="148" bodyend="152"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Triangle_1a504123c86663628d55f0a704dbf7b05e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.Triangle.Triangle</definition>
+        <argsstring>()</argsstring>
+        <name>Triangle</name>
+        <qualifiedname>MR.MeshBuilder.Triangle.Triangle</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="158" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="158" bodyend="164"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Triangle_1ad86c2980ea276d1598664375a625137d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.Triangle.Triangle</definition>
+        <argsstring>(MR.MeshBuilder.Const_Triangle _other)</argsstring>
+        <name>Triangle</name>
+        <qualifiedname>MR.MeshBuilder.Triangle.Triangle</qualifiedname>
+        <param>
+          <type>MR.MeshBuilder.Const_Triangle</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshBuilder.Triangle.Triangle</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="169" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="169" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Triangle_1a4f68806d36983442099aed453f9b8e11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshBuilder.Triangle.Triangle</definition>
+        <argsstring>(Triangle _other)</argsstring>
+        <name>Triangle</name>
+        <qualifiedname>MR.MeshBuilder.Triangle.Triangle</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1Triangle" kindref="compound">Triangle</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshBuilder.Triangle.Triangle</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="181" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="181" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Triangle_1ac309dc4812040c437cb59063c0de06fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.Triangle.Triangle</definition>
+        <argsstring>(MR.VertId a, MR.VertId b, MR.VertId c, MR.FaceId f)</argsstring>
+        <name>Triangle</name>
+        <qualifiedname>MR.MeshBuilder.Triangle.Triangle</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshBuilder.Triangle.Triangle</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="186" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="186" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1Triangle_1a09f6d4d2c2c690a789ee7dc987c2a5f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshBuilder_1_1Triangle" kindref="compound">MR.MeshBuilder.Triangle</ref></type>
+        <definition>unsafe MR.MeshBuilder.Triangle MR.MeshBuilder.Triangle.assign</definition>
+        <argsstring>(MR.MeshBuilder.Const_Triangle _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshBuilder.Triangle.assign</qualifiedname>
+        <param>
+          <type>MR.MeshBuilder.Const_Triangle</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MeshBuilder.Triangle.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="197" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="197" bodyend="204"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>mesh triangle represented by its three vertices and by its face ID Generated from class <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1Triangle" kindref="compound">MR.MeshBuilder.Triangle</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Triangle</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshBuilder.Triangle</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Triangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Triangle &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.MeshBuilder.Const_Triangle &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Triangle</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshBuilder.Triangle</label>
+        <link refid="classMR_1_1MeshBuilder_1_1Triangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Triangle &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.MeshBuilder.Const_Triangle &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="140" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="141" bodyend="205"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshBuilder_1_1Triangle_1a09f6d4d2c2c690a789ee7dc987c2a5f0" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Triangle_1a876e2211a37fca9e551ce1de5195855b" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>f</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Triangle_1a6774125a18e7f2b2c0ed88ada50f220d" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Triangle_1a504123c86663628d55f0a704dbf7b05e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Triangle_1ad86c2980ea276d1598664375a625137d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Triangle_1a4f68806d36983442099aed453f9b8e11" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Triangle_1ac309dc4812040c437cb59063c0de06fc" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>Triangle</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1Triangle_1abf4ddcfcec5822124e234eb43f2a5cba" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::Triangle</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

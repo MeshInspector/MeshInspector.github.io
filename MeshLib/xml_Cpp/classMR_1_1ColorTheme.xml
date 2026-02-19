@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ColorTheme" kind="class" language="C++" prot="public">
+    <compoundname>MR::ColorTheme</compoundname>
+    <includes refid="MRColorTheme_8h" local="no">MRColorTheme.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gabbecc6afa53db91ada45757b845b5514" kind="enum"><name>Preset</name></member>
+      <member refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" kind="enum"><name>Type</name></member>
+      <member refid="group__GeneralGroup_1gaeb576da7973c6ccabb036634b3d878b0" kind="enum"><name>RibbonColorsType</name></member>
+      <member refid="group__GeneralGroup_1ga91b6b928ca7f490fdd396c347347bcdc" kind="enum"><name>ViewportColorsType</name></member>
+    </sectiondef>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1gaebb0e1b2863220ca5271077fca2d07dc" kind="typedef"><name>ChangedSignal</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga644773951f2511fc0195fac4e0a85c84" kind="variable"><name>isInitialized_</name></member>
+      <member refid="group__GeneralGroup_1ga439a4379a5c0549d285228b3dd6930f9" kind="variable"><name>themePreset_</name></member>
+      <member refid="group__GeneralGroup_1gace5f4a52028a066c42d9484afcd0a806" kind="variable"><name>newUIColors_</name></member>
+      <member refid="group__GeneralGroup_1gadb0b16d80ff2bb2f6e8d61dd285e645d" kind="variable"><name>viewportColors_</name></member>
+      <member refid="group__GeneralGroup_1ga39f0487f39ddf3d7cdc17940491260e4" kind="variable"><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga192203c7e5f40ab67931db4169559cb1" kind="variable"><name>themeName_</name></member>
+      <member refid="group__GeneralGroup_1ga59712f631f3addccb0eb50444a674726" kind="variable"><name>foundUserThemes_</name></member>
+      <member refid="group__GeneralGroup_1ga2c35b457413ba1c7e068a17e56592abf" kind="variable"><name>changedSignal_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga15699e42dc7a6e8fc8c45c6adbe410cb" kind="function"><name>instance</name></member>
+      <member refid="group__GeneralGroup_1ga7256014620791ee160d6f0dfc56dde4f" kind="function"><name>getPreset</name></member>
+      <member refid="group__GeneralGroup_1ga20dfec58a706676b5c0efb946051c854" kind="function"><name>getPresetName</name></member>
+      <member refid="group__GeneralGroup_1gadf6e7e1ab1712a295b5b94453300fde5" kind="function"><name>getThemeType</name></member>
+      <member refid="group__GeneralGroup_1gafa765bafc3ea475fe65fc3383607cd63" kind="function"><name>getThemeName</name></member>
+      <member refid="group__GeneralGroup_1ga6c591711ec8a5d41cd5e3c037a795c24" kind="function"><name>setupByTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga8be757d1ce64f10a822aea16eadb333b" kind="function"><name>setupDefaultDark</name></member>
+      <member refid="group__GeneralGroup_1ga801d15e2c46b79b721809d41123aeda5" kind="function"><name>setupDefaultLight</name></member>
+      <member refid="group__GeneralGroup_1ga0e971a3744071e72a002685d2666487d" kind="function"><name>setupUserTheme</name></member>
+      <member refid="group__GeneralGroup_1ga31bee87bf2d160eb687a1d047770e390" kind="function"><name>setupFromFile</name></member>
+      <member refid="group__GeneralGroup_1ga19709b0e383ad59e4f3913cfd8035d09" kind="function"><name>setupFromJson</name></member>
+      <member refid="group__GeneralGroup_1gaae306524f7db4b80fc4b4c2a39ccda41" kind="function"><name>serializeCurrentToFile</name></member>
+      <member refid="group__GeneralGroup_1gaf097c5985c3dcb124375d6767d34f764" kind="function"><name>serializeCurrentToJson</name></member>
+      <member refid="group__GeneralGroup_1ga1506f82ec73be1eb299f6c390dce1fd0" kind="function"><name>isInitialized</name></member>
+      <member refid="group__GeneralGroup_1ga339d8efd1037cbee5aa77d9d68e07c16" kind="function"><name>setRibbonColor</name></member>
+      <member refid="group__GeneralGroup_1gab578b08c1af51e65c8871b6df209b260" kind="function"><name>getRibbonColor</name></member>
+      <member refid="group__GeneralGroup_1ga2aa0fd83cf8b28513b77491e1f5f5a09" kind="function"><name>getRibbonColorTypeName</name></member>
+      <member refid="group__GeneralGroup_1gab9d7ae71db1952c73d2acf507830b877" kind="function"><name>setViewportColor</name></member>
+      <member refid="group__GeneralGroup_1gac188190a8deffab5d8289ed5e6a007c4" kind="function"><name>getViewportColor</name></member>
+      <member refid="group__GeneralGroup_1ga97174ab0c04fadd2cc5c150048f3e0b4" kind="function"><name>getViewportColorTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga3e7d39643b4603246f85f52e6014466d" kind="function"><name>getUserThemesDirectory</name></member>
+      <member refid="group__GeneralGroup_1ga0bcb053091eb10e1e15d24b17d15d379" kind="function"><name>updateUserThemesList</name></member>
+      <member refid="group__GeneralGroup_1ga569785effc8f8f3c1c78f9ea3ab25c23" kind="function"><name>foundUserThemes</name></member>
+      <member refid="group__GeneralGroup_1gaf27347c90aa80168a890bdb58f2d0423" kind="function"><name>resetImGuiStyle</name></member>
+      <member refid="group__GeneralGroup_1ga1b86b0353c7e246e58746a652441cbda" kind="function"><name>onChanged</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga3aa384e9447431bbd8a1765810847f49" kind="function"><name>ColorTheme</name></member>
+      <member refid="group__GeneralGroup_1ga3e9d0aada9f780b23a6cbcf79922fdf0" kind="function"><name>~ColorTheme</name></member>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <member refid="group__GeneralGroup_1gac3b668a5116fa0aa8c8871f9c3173cda" kind="function"><name>apply_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This singleton is born to manage color-themes loading and saving, and apply it to app It can handle scene colors (default mesh colors, etc.) and Dear <ref refid="namespaceImGui" kindref="compound">ImGui</ref> colors </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRColorTheme.h" bodystart="19" bodyend="200"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac3b668a5116fa0aa8c8871f9c3173cda" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>apply_</name></member>
+      <member refid="group__GeneralGroup_1gaebb0e1b2863220ca5271077fca2d07dc" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>ChangedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2c35b457413ba1c7e068a17e56592abf" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>changedSignal_</name></member>
+      <member refid="group__GeneralGroup_1ga3aa384e9447431bbd8a1765810847f49" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>ColorTheme</name></member>
+      <member refid="group__GeneralGroup_1ga569785effc8f8f3c1c78f9ea3ab25c23" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>foundUserThemes</name></member>
+      <member refid="group__GeneralGroup_1ga59712f631f3addccb0eb50444a674726" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>foundUserThemes_</name></member>
+      <member refid="group__GeneralGroup_1ga7256014620791ee160d6f0dfc56dde4f" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getPreset</name></member>
+      <member refid="group__GeneralGroup_1ga20dfec58a706676b5c0efb946051c854" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getPresetName</name></member>
+      <member refid="group__GeneralGroup_1gab578b08c1af51e65c8871b6df209b260" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getRibbonColor</name></member>
+      <member refid="group__GeneralGroup_1ga2aa0fd83cf8b28513b77491e1f5f5a09" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getRibbonColorTypeName</name></member>
+      <member refid="group__GeneralGroup_1gafa765bafc3ea475fe65fc3383607cd63" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getThemeName</name></member>
+      <member refid="group__GeneralGroup_1gadf6e7e1ab1712a295b5b94453300fde5" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getThemeType</name></member>
+      <member refid="group__GeneralGroup_1ga3e7d39643b4603246f85f52e6014466d" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getUserThemesDirectory</name></member>
+      <member refid="group__GeneralGroup_1gac188190a8deffab5d8289ed5e6a007c4" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getViewportColor</name></member>
+      <member refid="group__GeneralGroup_1ga97174ab0c04fadd2cc5c150048f3e0b4" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>getViewportColorTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga15699e42dc7a6e8fc8c45c6adbe410cb" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1ga1506f82ec73be1eb299f6c390dce1fd0" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>isInitialized</name></member>
+      <member refid="group__GeneralGroup_1ga644773951f2511fc0195fac4e0a85c84" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>isInitialized_</name></member>
+      <member refid="group__GeneralGroup_1gace5f4a52028a066c42d9484afcd0a806" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>newUIColors_</name></member>
+      <member refid="group__GeneralGroup_1ga1b86b0353c7e246e58746a652441cbda" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>onChanged</name></member>
+      <member refid="group__GeneralGroup_1gabbecc6afa53db91ada45757b845b5514" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>Preset</name></member>
+      <member refid="group__GeneralGroup_1gaf27347c90aa80168a890bdb58f2d0423" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>resetImGuiStyle</name></member>
+      <member refid="group__GeneralGroup_1gaeb576da7973c6ccabb036634b3d878b0" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>RibbonColorsType</name></member>
+      <member refid="group__GeneralGroup_1gaae306524f7db4b80fc4b4c2a39ccda41" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>serializeCurrentToFile</name></member>
+      <member refid="group__GeneralGroup_1gaf097c5985c3dcb124375d6767d34f764" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>serializeCurrentToJson</name></member>
+      <member refid="group__GeneralGroup_1ga339d8efd1037cbee5aa77d9d68e07c16" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setRibbonColor</name></member>
+      <member refid="group__GeneralGroup_1ga6c591711ec8a5d41cd5e3c037a795c24" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupByTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga8be757d1ce64f10a822aea16eadb333b" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupDefaultDark</name></member>
+      <member refid="group__GeneralGroup_1ga801d15e2c46b79b721809d41123aeda5" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupDefaultLight</name></member>
+      <member refid="group__GeneralGroup_1ga31bee87bf2d160eb687a1d047770e390" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupFromFile</name></member>
+      <member refid="group__GeneralGroup_1ga19709b0e383ad59e4f3913cfd8035d09" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupFromJson</name></member>
+      <member refid="group__GeneralGroup_1ga0e971a3744071e72a002685d2666487d" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setupUserTheme</name></member>
+      <member refid="group__GeneralGroup_1gab9d7ae71db1952c73d2acf507830b877" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>setViewportColor</name></member>
+      <member refid="group__GeneralGroup_1ga192203c7e5f40ab67931db4169559cb1" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>themeName_</name></member>
+      <member refid="group__GeneralGroup_1ga439a4379a5c0549d285228b3dd6930f9" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>themePreset_</name></member>
+      <member refid="group__GeneralGroup_1gad14d75ef685e439c80487ba1d4c41eca" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga39f0487f39ddf3d7cdc17940491260e4" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga0bcb053091eb10e1e15d24b17d15d379" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>updateUserThemesList</name></member>
+      <member refid="group__GeneralGroup_1gadb0b16d80ff2bb2f6e8d61dd285e645d" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>viewportColors_</name></member>
+      <member refid="group__GeneralGroup_1ga91b6b928ca7f490fdd396c347347bcdc" prot="public" virt="non-virtual"><scope>MR::ColorTheme</scope><name>ViewportColorsType</name></member>
+      <member refid="group__GeneralGroup_1ga3e9d0aada9f780b23a6cbcf79922fdf0" prot="private" virt="non-virtual"><scope>MR::ColorTheme</scope><name>~ColorTheme</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

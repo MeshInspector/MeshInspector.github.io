@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin" kind="class" language="C#" prot="public">
+    <compoundname>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a92442fac5eda76a7e3e6cb64ac9ad8af" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1RingIterator__MRNextEdgeSameOrigin" kindref="compound">MR.RingIterator_MRNextEdgeSameOrigin</ref></type>
+        <definition>new unsafe MR.RingIterator_MRNextEdgeSameOrigin MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.begin</definition>
+        <argsstring></argsstring>
+        <name>begin</name>
+        <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.begin</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="162" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="162" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a68af47724bd99ec19dbe82dd51bee342" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1RingIterator__MRNextEdgeSameOrigin" kindref="compound">MR.RingIterator_MRNextEdgeSameOrigin</ref></type>
+        <definition>new unsafe MR.RingIterator_MRNextEdgeSameOrigin MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="164" column="63" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="164" bodyend="164"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1abbd282383145191bd61c2006310816cb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name>
+        <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="190" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="190" bodyend="194"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1afaa1e7b1edbb4e03f3508eda4248f188" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</definition>
+        <argsstring>(MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin _other)</argsstring>
+        <name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name>
+        <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</qualifiedname>
+        <param>
+          <type>MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&gt;&gt;::IteratorRange</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="200" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="200" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a132c9de23f0a1dbdc6ff7e14e98d223c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</definition>
+        <argsstring>(IteratorRange_MRRingIteratorMRNextEdgeSameOrigin _other)</argsstring>
+        <name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name>
+        <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin" kindref="compound">IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&gt;&gt;::IteratorRange</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="212" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="212" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a1d12d32537eb15985d82fde53c45532d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</definition>
+        <argsstring>(MR.Const_RingIterator_MRNextEdgeSameOrigin begin, MR.Const_RingIterator_MRNextEdgeSameOrigin end)</argsstring>
+        <name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name>
+        <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</qualifiedname>
+        <param>
+          <type>MR.Const_RingIterator_MRNextEdgeSameOrigin</type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type>MR.Const_RingIterator_MRNextEdgeSameOrigin</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&gt;&gt;::IteratorRange</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="217" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="217" bodyend="225"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1ac4a12f33e8cee330cf2bff7c574c7d0d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin" kindref="compound">MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</ref></type>
+        <definition>unsafe MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.assign</definition>
+        <argsstring>(MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin.assign</qualifiedname>
+        <param>
+          <type>MR.Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&gt;&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="230" column="74" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="230" bodyend="237"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>simple alternative to boost/iterator_range Generated from class <computeroutput>MR.IteratorRange&lt;MR.RingIterator&lt;<ref refid="classMR_1_1NextEdgeSameOrigin" kindref="compound">MR.NextEdgeSameOrigin</ref>&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IEnumerable&lt; MR.EdgeId &gt;</label>
+      </node>
+      <node id="1">
+        <label>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</label>
+        <link refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>IEnumerable&lt; MR.EdgeId &gt;</label>
+      </node>
+      <node id="1">
+        <label>MR.IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</label>
+        <link refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_IteratorRange_MRRingIteratorMRNextEdgeSameOrigin &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIteratorRange.cs" bodystart="161" bodyend="238"/>
+    <listofallmembers>
+      <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1ac4a12f33e8cee330cf2bff7c574c7d0d" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>assign</name></member>
+      <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a92442fac5eda76a7e3e6cb64ac9ad8af" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>begin</name></member>
+      <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a68af47724bd99ec19dbe82dd51bee342" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>end</name></member>
+      <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1abbd282383145191bd61c2006310816cb" prot="package" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1afaa1e7b1edbb4e03f3508eda4248f188" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a132c9de23f0a1dbdc6ff7e14e98d223c" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
+      <member refid="classMR_1_1IteratorRange__MRRingIteratorMRNextEdgeSameOrigin_1a1d12d32537eb15985d82fde53c45532d" prot="public" virt="non-virtual"><scope>MR::IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</scope><name>IteratorRange_MRRingIteratorMRNextEdgeSameOrigin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

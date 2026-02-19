@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DistanceMapLoadSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DistanceMapLoadSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceMapLoadSettings_1a94626c14624e56be23ddc859bd25f1bf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceMapLoadSettings::_offsetof_distanceMapToWorld</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distanceMapToWorld</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings._offsetof_distanceMapToWorld</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DistanceMapLoadSettings_1aff3d8aa03f430d90ca8ec023133bb02c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DistanceMapLoadSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings._offsetof_progress</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13653" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1ac6f33e120634d41e5b0d2d3b2e3fbe76" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapLoadSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13656" bodyend="13657"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1a101e87a1956a1cdcb925e1e0a9bc80e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceMapLoadSettings" kindref="compound">DistanceMapLoadSettings</ref></type>
+        <definition> DistanceMapLoadSettings mrmeshpy.DistanceMapLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13660" bodyend="13661"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1a101e87a1956a1cdcb925e1e0a9bc80e2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceMapLoadSettings" kindref="compound">DistanceMapLoadSettings</ref></type>
+        <definition> DistanceMapLoadSettings mrmeshpy.DistanceMapLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13664" bodyend="13665"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1a9a504eea795e6ef14f5dba5d4a04516c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapLoadSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13667" bodyend="13668"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1a858198d658ce0104b49d482455862206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapLoadSettings.__init__</definition>
+        <argsstring>(self, DistanceMapLoadSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapLoadSettings" kindref="compound">DistanceMapLoadSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13670" bodyend="13673"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1afd3e9520858d2e671de49dd0e1da5fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapLoadSettings.__init__</definition>
+        <argsstring>(self, DistanceMapToWorld distanceMapToWorld, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
+          <declname>distanceMapToWorld</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13675" bodyend="13678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1aebcc526bddb7ec35e531faefe17541c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
+        <definition> DistanceMapToWorld mrmeshpy.DistanceMapLoadSettings.distanceMapToWorld</definition>
+        <argsstring>(self)</argsstring>
+        <name>distanceMapToWorld</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.distanceMapToWorld</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional output: distance map to world transform
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13680" bodyend="13683"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1acd4c0359efdf18a7cf2a322ad6082fdb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapLoadSettings.distanceMapToWorld</definition>
+        <argsstring>(self, DistanceMapToWorld arg1)</argsstring>
+        <name>distanceMapToWorld</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.distanceMapToWorld</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceMapToWorld" kindref="compound">DistanceMapToWorld</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13685" bodyend="13686"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1a1d20d6b52874cb2dd780c5f7dfa381cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.DistanceMapLoadSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report load progress and cancel loading if user desires
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13688" bodyend="13691"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DistanceMapLoadSettings_1a0951fbc209e69bfaa61d8d9d11786dd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DistanceMapLoadSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.DistanceMapLoadSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13693" bodyend="13694"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DistanceMapLoadSettings
+
+settings for loading distance maps from external formats
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DistanceMapLoadSettings</label>
+        <link refid="classmrmeshpy_1_1DistanceMapLoadSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_distanceMapToWorld</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13646" bodyend="13694"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1ac6f33e120634d41e5b0d2d3b2e3fbe76" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1a9a504eea795e6ef14f5dba5d4a04516c" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1a858198d658ce0104b49d482455862206" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1afd3e9520858d2e671de49dd0e1da5fd4" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1a94626c14624e56be23ddc859bd25f1bf" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>_offsetof_distanceMapToWorld</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1aff3d8aa03f430d90ca8ec023133bb02c" prot="protected" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1aebcc526bddb7ec35e531faefe17541c2" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>distanceMapToWorld</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1acd4c0359efdf18a7cf2a322ad6082fdb" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>distanceMapToWorld</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1a101e87a1956a1cdcb925e1e0a9bc80e2" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1a101e87a1956a1cdcb925e1e0a9bc80e2" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1a1d20d6b52874cb2dd780c5f7dfa381cb" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1DistanceMapLoadSettings_1a0951fbc209e69bfaa61d8d9d11786dd9" prot="public" virt="non-virtual"><scope>mrmeshpy::DistanceMapLoadSettings</scope><name>progress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

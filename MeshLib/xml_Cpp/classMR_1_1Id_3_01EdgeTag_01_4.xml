@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Id_3_01EdgeTag_01_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::Id&lt; EdgeTag &gt;</compoundname>
+    <includes refid="MRId_8h" local="no">MRId.h</includes>
+    <templateparamlist>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga509c057fae5c553d16a4e96dd80cbed8" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga19801b2e2d0e826b58ca9669f7dac65b" kind="variable"><name>id_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac0140b6e8a97bcc17487801e892a6003" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga77df19a8a2e03823ee055e0db7fbe356" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga840cf2a8cf28a0165be6397be158f260" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga9ecd864ebabe41d630495953386477a0" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gac5356dd4d6dde8ef2c1d226fdbef9cee" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gabf4b4e956fdabe2163fa73c7badbca33" kind="function"><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga8cc7f74c2b79e63aa44cdb7db510ae42" kind="function"><name>operator ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga43ac9ad72d19e4b6f5675b8b96c652a0" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga13312efb8f446fa9444259e04b4cffed" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1gad1f14bb94fff614d875bbb57566a723d" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga5c6be27b7a94189ed4c2a57703d12aaf" kind="function"><name>sym</name></member>
+      <member refid="group__GeneralGroup_1gadb7992572d96f0023ada021c504bd740" kind="function"><name>even</name></member>
+      <member refid="group__GeneralGroup_1ga03f26c6b5582be6b7d5bf3f6cbad03fe" kind="function"><name>odd</name></member>
+      <member refid="group__GeneralGroup_1gaf896dd5985669fa799c9a67731de9f4a" kind="function"><name>undirected</name></member>
+      <member refid="group__GeneralGroup_1ga3f7a223ecb166a3824a973d1110973c0" kind="function"><name>operator UndirectedEdgeId</name></member>
+      <member refid="group__GeneralGroup_1ga71461e35e7e20a3b626172c335f26d1c" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga80a085a4a6880d693cf33a92b683e701" kind="function"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gabd42b3dbd3597aa66ab534d948f4ea0a" kind="function"><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga1c0ffa168bd2e0628fd177f7d0282dd1" kind="function"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gab0b2924c1a39cdbd51b9e6ba15071b96" kind="function"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga195838433072ab04864a419ca78e4759" kind="function"><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga1376d0927886735bd5653f5cedc93ca3" kind="function"><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1ga89bead284bc8be429fec5a0a89956ffd" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga3deafe993dc4fbdebf1a90a3c34a52c6" kind="function"><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1ga6c442b69f926a20fdcbc22d94bc6fb5a" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga065314585ee8844ced1f5f546fe545d1" kind="function"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga337b0c21aac551ab640f040502beb1e2" kind="function"><name>operator+=</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" line="87" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRId.h" bodystart="88" bodyend="138"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gadb7992572d96f0023ada021c504bd740" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>even</name></member>
+      <member refid="group__GeneralGroup_1gad1f14bb94fff614d875bbb57566a723d" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1gac0140b6e8a97bcc17487801e892a6003" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga77df19a8a2e03823ee055e0db7fbe356" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga840cf2a8cf28a0165be6397be158f260" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga9ecd864ebabe41d630495953386477a0" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gac5356dd4d6dde8ef2c1d226fdbef9cee" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1gabf4b4e956fdabe2163fa73c7badbca33" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>Id</name></member>
+      <member refid="group__GeneralGroup_1ga19801b2e2d0e826b58ca9669f7dac65b" prot="private" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>id_</name></member>
+      <member refid="group__GeneralGroup_1ga03f26c6b5582be6b7d5bf3f6cbad03fe" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>odd</name></member>
+      <member refid="group__GeneralGroup_1ga13312efb8f446fa9444259e04b4cffed" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga3f7a223ecb166a3824a973d1110973c0" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator UndirectedEdgeId</name></member>
+      <member refid="group__GeneralGroup_1ga8cc7f74c2b79e63aa44cdb7db510ae42" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga80a085a4a6880d693cf33a92b683e701" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gab0b2924c1a39cdbd51b9e6ba15071b96" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga89bead284bc8be429fec5a0a89956ffd" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga6c442b69f926a20fdcbc22d94bc6fb5a" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga337b0c21aac551ab640f040502beb1e2" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga1376d0927886735bd5653f5cedc93ca3" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1ga3deafe993dc4fbdebf1a90a3c34a52c6" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator--</name></member>
+      <member refid="group__GeneralGroup_1ga065314585ee8844ced1f5f546fe545d1" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gabd42b3dbd3597aa66ab534d948f4ea0a" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga195838433072ab04864a419ca78e4759" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga71461e35e7e20a3b626172c335f26d1c" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga1c0ffa168bd2e0628fd177f7d0282dd1" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga5c6be27b7a94189ed4c2a57703d12aaf" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>sym</name></member>
+      <member refid="group__GeneralGroup_1gaf896dd5985669fa799c9a67731de9f4a" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>undirected</name></member>
+      <member refid="group__GeneralGroup_1ga43ac9ad72d19e4b6f5675b8b96c652a0" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga509c057fae5c553d16a4e96dd80cbed8" prot="public" virt="non-virtual"><scope>MR::Id&lt; EdgeTag &gt;</scope><name>ValueType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

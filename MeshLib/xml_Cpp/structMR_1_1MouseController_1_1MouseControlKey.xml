@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MouseController_1_1MouseControlKey" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MouseController::MouseControlKey</compoundname>
+    <includes refid="MRMouseController_8h" local="no">MRMouseController.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga13a368ef25048dff50e694ce949484e6" kind="variable"><name>btn</name></member>
+      <member refid="group__GeneralGroup_1ga647bc43b34bf75a34af675e69cd0f10b" kind="variable"><name>mod</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" line="27" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMouseController.h" bodystart="28" bodyend="31"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga13a368ef25048dff50e694ce949484e6" prot="public" virt="non-virtual"><scope>MR::MouseController::MouseControlKey</scope><name>btn</name></member>
+      <member refid="group__GeneralGroup_1ga647bc43b34bf75a34af675e69cd0f10b" prot="public" virt="non-virtual"><scope>MR::MouseController::MouseControlKey</scope><name>mod</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

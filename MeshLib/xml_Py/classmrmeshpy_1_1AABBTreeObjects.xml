@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AABBTreeObjects" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AABBTreeObjects</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits" prot="public" virt="non-virtual">mrmeshpy.AABBTreeBase_ObjTreeTraits</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1ac920103c45a43123e6e931da4abd83d9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreeObjects.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits_1a714ea2769efdbfd04ba4cc52893e3064">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="631" bodyend="632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1a50c57c6fb62f0721ab51f6c41a747ac9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeObjects" kindref="compound">AABBTreeObjects</ref></type>
+        <definition> AABBTreeObjects mrmeshpy.AABBTreeObjects.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits_1aba1b518dcdd7e4fc96371dc15af07aab">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="635" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1a50c57c6fb62f0721ab51f6c41a747ac9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeObjects" kindref="compound">AABBTreeObjects</ref></type>
+        <definition> AABBTreeObjects mrmeshpy.AABBTreeObjects.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits_1aba1b518dcdd7e4fc96371dc15af07aab">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="639" bodyend="640"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1ac168a4c4f22ba17055e5b8d362f5953a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreeObjects.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits_1a714ea2769efdbfd04ba4cc52893e3064">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="642" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="642" bodyend="643"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1afe3838dda5077ff51003501adb2064ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreeObjects.__init__</definition>
+        <argsstring>(self, Vector_MeshOrPointsXf_ObjId objs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits_1a714ea2769efdbfd04ba4cc52893e3064">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__MeshOrPointsXf__ObjId" kindref="compound">Vector_MeshOrPointsXf_ObjId</ref></type>
+          <declname>objs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates tree for given set of objects each with its own transformation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="645" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="645" bodyend="648"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1a25789b4c40280c570eb8084a7971de1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreeObjects.__init__</definition>
+        <argsstring>(self, AABBTreeObjects arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits_1a714ea2769efdbfd04ba4cc52893e3064">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeObjects" kindref="compound">AABBTreeObjects</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="650" bodyend="653"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1aeb662569a6795d0dbd9a701317a90fdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshOrPoints" kindref="compound">MeshOrPoints</ref></type>
+        <definition> MeshOrPoints mrmeshpy.AABBTreeObjects.obj</definition>
+        <argsstring>(self, ObjId oi)</argsstring>
+        <name>obj</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.obj</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>oi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets object by its id
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="654" bodyend="657"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1a603d0639b01f81447e1f6047979e1822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.AABBTreeObjects.toLocal</definition>
+        <argsstring>(self, ObjId oi)</argsstring>
+        <name>toLocal</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.toLocal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>oi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets transformation from world space to local space of given object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="659" bodyend="662"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1a3ebb3a71fc3337d138be9f41b0810c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__AffineXf3f__ObjId" kindref="compound">Vector_AffineXf3f_ObjId</ref></type>
+        <definition> Vector_AffineXf3f_ObjId mrmeshpy.AABBTreeObjects.toLocal</definition>
+        <argsstring>(self)</argsstring>
+        <name>toLocal</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.toLocal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets mapping: objId -&gt; its transformation from world space to local space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="664" bodyend="667"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeObjects_1a112b93355570184f6e8395cb63ad9cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.AABBTreeObjects.toWorld</definition>
+        <argsstring>(self, ObjId oi)</argsstring>
+        <name>toWorld</name>
+        <qualifiedname>mrmeshpy.AABBTreeObjects.toWorld</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjId" kindref="compound">ObjId</ref></type>
+          <declname>oi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets transformation from local space of given object to world space
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="668" bodyend="671"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AABBTreeObjects
+
+tree containing world bounding boxes of individual objects having individual local-to-world transformations
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.AABBTreeObjects</label>
+        <link refid="classmrmeshpy_1_1AABBTreeObjects"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AABBTreeBase_ObjTreeTraits</label>
+        <link refid="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AABBTreeObjects</label>
+        <link refid="classmrmeshpy_1_1AABBTreeObjects"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AABBTreeBase_ObjTreeTraits</label>
+        <link refid="classmrmeshpy_1_1AABBTreeBase__ObjTreeTraits"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="623" bodyend="671"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1ac920103c45a43123e6e931da4abd83d9" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1ac168a4c4f22ba17055e5b8d362f5953a" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1afe3838dda5077ff51003501adb2064ec" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1a25789b4c40280c570eb8084a7971de1c" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1aeb662569a6795d0dbd9a701317a90fdc" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>obj</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1a50c57c6fb62f0721ab51f6c41a747ac9" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1a50c57c6fb62f0721ab51f6c41a747ac9" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1a603d0639b01f81447e1f6047979e1822" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>toLocal</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1a3ebb3a71fc3337d138be9f41b0810c67" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>toLocal</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeObjects_1a112b93355570184f6e8395cb63ad9cc1" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeObjects</scope><name>toWorld</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

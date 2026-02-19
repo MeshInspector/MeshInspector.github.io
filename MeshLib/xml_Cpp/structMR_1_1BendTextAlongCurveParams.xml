@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BendTextAlongCurveParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BendTextAlongCurveParams</compoundname>
+    <includes refid="MRAlignTextToMesh_8h" local="no">MRAlignTextToMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga4a9a6eb9636e1af0ef610b64713efa22" kind="variable"><name>symbolMesh</name></member>
+      <member refid="group__GeneralGroup_1ga89e409e3deb6eecf6b00364ed3232f32" kind="variable"><name>pivotCurveTime</name></member>
+      <member refid="group__GeneralGroup_1ga11ae334627b1839f30cdfb81d2eb2122" kind="variable"><name>pivotBoxPoint</name></member>
+      <member refid="group__GeneralGroup_1ga467c8429ca87dff767c0ef4ca53a56b9" kind="variable"><name>fontHeight</name></member>
+      <member refid="group__GeneralGroup_1gaa25769e7e2993d6ab9f2a0d7d974c78e" kind="variable"><name>surfaceOffset</name></member>
+      <member refid="group__GeneralGroup_1ga150d2432577e3c10550d8ac37280d360" kind="variable"><name>fontBasedSizeCalc</name></member>
+      <member refid="group__GeneralGroup_1gafc50976c15668b5a83ec1be8ed42e136" kind="variable"><name>periodicCurve</name></member>
+      <member refid="group__GeneralGroup_1gac50633d84a0a9324663aa20af82f4c61" kind="variable"><name>stretch</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::BendTextAlongCurveParams</label>
+        <link refid="structMR_1_1BendTextAlongCurveParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>symbolMesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SymbolMeshParams</label>
+        <link refid="structMR_1_1SymbolMeshParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRAlignTextToMesh.h" bodystart="50" bodyend="75"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga150d2432577e3c10550d8ac37280d360" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>fontBasedSizeCalc</name></member>
+      <member refid="group__GeneralGroup_1ga467c8429ca87dff767c0ef4ca53a56b9" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>fontHeight</name></member>
+      <member refid="group__GeneralGroup_1gafc50976c15668b5a83ec1be8ed42e136" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="group__GeneralGroup_1ga11ae334627b1839f30cdfb81d2eb2122" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="group__GeneralGroup_1ga89e409e3deb6eecf6b00364ed3232f32" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="group__GeneralGroup_1gac50633d84a0a9324663aa20af82f4c61" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>stretch</name></member>
+      <member refid="group__GeneralGroup_1gaa25769e7e2993d6ab9f2a0d7d974c78e" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>surfaceOffset</name></member>
+      <member refid="group__GeneralGroup_1ga4a9a6eb9636e1af0ef610b64713efa22" prot="public" virt="non-virtual"><scope>MR::BendTextAlongCurveParams</scope><name>symbolMesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

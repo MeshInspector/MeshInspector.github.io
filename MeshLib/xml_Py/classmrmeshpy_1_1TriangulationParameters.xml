@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TriangulationParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TriangulationParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationParameters_1a25d6f14410461c95c47fb61ae0c2bec6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationParameters::_offsetof_automaticRadiusIncrease</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_automaticRadiusIncrease</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters._offsetof_automaticRadiusIncrease</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58180" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationParameters_1abc5b00b250ba51030e1b801e8de0c0f4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationParameters::_offsetof_boundaryAngle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_boundaryAngle</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters._offsetof_boundaryAngle</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58181" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58181" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationParameters_1af67a99d7fe48de134d79ba9907adc299" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationParameters::_offsetof_critAngle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_critAngle</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters._offsetof_critAngle</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58182" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58182" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationParameters_1a1b78dc4a3cc2d789c5aa9af64f38bb18" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationParameters::_offsetof_critHoleLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_critHoleLength</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters._offsetof_critHoleLength</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58183" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationParameters_1aca4192f33f42356ca847e1bf2455d036" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationParameters::_offsetof_numNeighbours</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_numNeighbours</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters._offsetof_numNeighbours</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationParameters_1aef2f3a3c8a08c225a45778e90bf6ffa3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationParameters::_offsetof_radius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_radius</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters._offsetof_radius</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58185" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58185" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TriangulationParameters_1a3d35a7759b2247e01d708de88f033938" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TriangulationParameters::_offsetof_searchNeighbors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_searchNeighbors</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters._offsetof_searchNeighbors</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58186" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58186" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a4dcdc9f85635969b7a331680d5c960a8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58189" bodyend="58190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1af35643f1be717f196db675e8a3d7d7be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref></type>
+        <definition> TriangulationParameters mrmeshpy.TriangulationParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58193" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58193" bodyend="58194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1af35643f1be717f196db675e8a3d7d7be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref></type>
+        <definition> TriangulationParameters mrmeshpy.TriangulationParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58197" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58197" bodyend="58198"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1ad08d8276b35d17bd863d0795b40b0379" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58200" bodyend="58201"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a256d204c76f19b95504089c8f8c84efc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.__init__</definition>
+        <argsstring>(self, TriangulationParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationParameters" kindref="compound">TriangulationParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58203" bodyend="58206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a2fbf15f62e32428ed397f38a7690ab3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.__init__</definition>
+        <argsstring>(self, int numNeighbours, float radius, float critAngle, float boundaryAngle, float critHoleLength, bool automaticRadiusIncrease, PointCloud searchNeighbors)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numNeighbours</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>critAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>boundaryAngle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>critHoleLength</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>automaticRadiusIncrease</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>searchNeighbors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58208" bodyend="58211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1aea23d88ebae21d164056e37d057ce103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriangulationParameters.automaticRadiusIncrease</definition>
+        <argsstring>(self)</argsstring>
+        <name>automaticRadiusIncrease</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.automaticRadiusIncrease</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>automatic increase of the radius if points outside can make triangles from original radius not-Delone
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58213" bodyend="58216"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1aedd0399a45316cf403cd061b2cbdd47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.automaticRadiusIncrease</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>automaticRadiusIncrease</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.automaticRadiusIncrease</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58218" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58218" bodyend="58219"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1acda74d13dbfd8167a97ad8a278c5bb1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TriangulationParameters.boundaryAngle</definition>
+        <argsstring>(self)</argsstring>
+        <name>boundaryAngle</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.boundaryAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the vertex is considered as boundary if its neighbor ring has angle more than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58221" bodyend="58224"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1af2a6263c012d08bfdeff89d4cfe778d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.boundaryAngle</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>boundaryAngle</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.boundaryAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58226" bodyend="58227"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a350079c356905f6523896c82879db677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TriangulationParameters.critAngle</definition>
+        <argsstring>(self)</argsstring>
+        <name>critAngle</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.critAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief Critical angle of triangles in local triangulation (angle between triangles in fan should be less then this value)
+
+        &lt;table border=0&gt;
+            &lt;caption id=&quot;TriangulationParameters::critAngle_examples&quot;&gt;&lt;/caption&gt;
+            &lt;tr&gt;
+                &lt;td&gt; \\image html triangulate/triangulate_3.png &quot;Good&quot; width = 350cm &lt;/td&gt;
+                &lt;td&gt; \\image html triangulate/triangulate_4.png &quot;Too small value&quot; width = 350cm &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58229" bodyend="58240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1aab06faf25fb84d0f4a8dc725a7b07ece" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.critAngle</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>critAngle</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.critAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58242" bodyend="58243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a6cf9cb8054d6fb66d7b4f8c4db5be4e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TriangulationParameters.critHoleLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>critHoleLength</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.critHoleLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief Critical length of hole (all holes with length less then this value will be filled)
+ \\details If value is subzero it is set automaticly to 0.7*bbox.diagonal()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58245" bodyend="58249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a00d2a459d341b21e4734a6eb06b37e16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.critHoleLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>critHoleLength</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.critHoleLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58251" bodyend="58252"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a374c28b6ad89f0985e1e3864606a2a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.TriangulationParameters.numNeighbours</definition>
+        <argsstring>(self)</argsstring>
+        <name>numNeighbours</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.numNeighbours</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief The number of nearest neighbor points to use for building of local triangulation
+ \\note Too small value can make not optimal triangulation and additional holes\\n
+ Too big value increases difficulty of optimization and decreases performance
+
+        &lt;table border=0&gt;
+            &lt;caption id=&quot;TriangulationParameters::numNeighbours_examples&quot;&gt;&lt;/caption&gt;
+            &lt;tr&gt;
+                &lt;td&gt; \\image html triangulate/triangulate_3.png &quot;Good&quot; width = 350cm &lt;/td&gt;
+                &lt;td&gt; \\image html triangulate/triangulate_2.png &quot;Too small value&quot; width = 350cm &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58254" bodyend="58267"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a4bbf434c6adb7a65c0bb2d3ba0c7dffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.numNeighbours</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>numNeighbours</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.numNeighbours</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58269" bodyend="58270"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a0a17faa1ab3ca7a672416ed4bf0c7f67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TriangulationParameters.radius</definition>
+        <argsstring>(self)</argsstring>
+        <name>radius</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.radius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> Radius of neighborhood around each point to consider for building local triangulation.
+ This is an alternative to numNeighbours parameter.
+ Please set to positive value only one of them.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58272" bodyend="58277"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1a5cb7bcd61b6ae381d177676ff298316f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.radius</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>radius</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.radius</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58279" bodyend="58280"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1ad6040bf3125424f96e112a5061a05917" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+        <definition> PointCloud mrmeshpy.TriangulationParameters.searchNeighbors</definition>
+        <argsstring>(self)</argsstring>
+        <name>searchNeighbors</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.searchNeighbors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional: if provided this cloud will be used for searching of neighbors (so it must have same validPoints)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58282" bodyend="58285"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationParameters_1aa2223ccca70f71fcca4cc4f332814ce3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationParameters.searchNeighbors</definition>
+        <argsstring>(self, PointCloud arg1)</argsstring>
+        <name>searchNeighbors</name>
+        <qualifiedname>mrmeshpy.TriangulationParameters.searchNeighbors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58287" bodyend="58288"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TriangulationParameters
+
+
+ \\brief Parameters of point cloud triangulation
+
+ \\sa \\ref triangulatePointCloud</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TriangulationParameters</label>
+        <link refid="classmrmeshpy_1_1TriangulationParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_automaticRadiusIncrease</edgelabel>
+          <edgelabel>_offsetof_boundaryAngle</edgelabel>
+          <edgelabel>_offsetof_critAngle</edgelabel>
+          <edgelabel>_offsetof_critHoleLength</edgelabel>
+          <edgelabel>_offsetof_numNeighbours</edgelabel>
+          <edgelabel>_offsetof_radius</edgelabel>
+          <edgelabel>_offsetof_searchNeighbors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58170" bodyend="58288"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a4dcdc9f85635969b7a331680d5c960a8" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1ad08d8276b35d17bd863d0795b40b0379" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a256d204c76f19b95504089c8f8c84efc" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a2fbf15f62e32428ed397f38a7690ab3a" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a25d6f14410461c95c47fb61ae0c2bec6" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>_offsetof_automaticRadiusIncrease</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1abc5b00b250ba51030e1b801e8de0c0f4" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>_offsetof_boundaryAngle</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1af67a99d7fe48de134d79ba9907adc299" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>_offsetof_critAngle</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a1b78dc4a3cc2d789c5aa9af64f38bb18" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>_offsetof_critHoleLength</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1aca4192f33f42356ca847e1bf2455d036" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>_offsetof_numNeighbours</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1aef2f3a3c8a08c225a45778e90bf6ffa3" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>_offsetof_radius</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a3d35a7759b2247e01d708de88f033938" prot="protected" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>_offsetof_searchNeighbors</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1aea23d88ebae21d164056e37d057ce103" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>automaticRadiusIncrease</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1aedd0399a45316cf403cd061b2cbdd47c" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>automaticRadiusIncrease</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1acda74d13dbfd8167a97ad8a278c5bb1e" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>boundaryAngle</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1af2a6263c012d08bfdeff89d4cfe778d2" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>boundaryAngle</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a350079c356905f6523896c82879db677" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>critAngle</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1aab06faf25fb84d0f4a8dc725a7b07ece" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>critAngle</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a6cf9cb8054d6fb66d7b4f8c4db5be4e6" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>critHoleLength</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a00d2a459d341b21e4734a6eb06b37e16" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>critHoleLength</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a374c28b6ad89f0985e1e3864606a2a5b" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>numNeighbours</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a4bbf434c6adb7a65c0bb2d3ba0c7dffc" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>numNeighbours</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1af35643f1be717f196db675e8a3d7d7be" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1af35643f1be717f196db675e8a3d7d7be" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a0a17faa1ab3ca7a672416ed4bf0c7f67" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>radius</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1a5cb7bcd61b6ae381d177676ff298316f" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>radius</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1ad6040bf3125424f96e112a5061a05917" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>searchNeighbors</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationParameters_1aa2223ccca70f71fcca4cc4f332814ce3" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationParameters</scope><name>searchNeighbors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

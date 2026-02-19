@@ -1,0 +1,492 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MakeSignedByWindingNumberSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1aceda2e36e98200e196c87a1f585ad9b7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeSignedByWindingNumberSettings::_offsetof_fwn</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fwn</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings._offsetof_fwn</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a81906439fd7a73bfa23dd8a51546e883" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeSignedByWindingNumberSettings::_offsetof_meshToGridXf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_meshToGridXf</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings._offsetof_meshToGridXf</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26825" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a00a3fe8975b76758f2e8158d9c1ecc10" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeSignedByWindingNumberSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings._offsetof_progress</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a33a2a2c7db01396d332895ff83ce0f4d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeSignedByWindingNumberSettings::_offsetof_windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings._offsetof_windingNumberBeta</qualifiedname>
+        <initializer>=  68</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1afed65068e0dd6fc85be17dc6a0ede791" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MakeSignedByWindingNumberSettings::_offsetof_windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings._offsetof_windingNumberThreshold</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26828" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a7700b4fd03a52a869c8886c4bf2f06de" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeSignedByWindingNumberSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26831" bodyend="26832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ac8f4a1ccff61ddddfbc2cf2f0969cc0b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings" kindref="compound">MakeSignedByWindingNumberSettings</ref></type>
+        <definition> MakeSignedByWindingNumberSettings mrmeshpy.MakeSignedByWindingNumberSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26835" bodyend="26836"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ac8f4a1ccff61ddddfbc2cf2f0969cc0b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings" kindref="compound">MakeSignedByWindingNumberSettings</ref></type>
+        <definition> MakeSignedByWindingNumberSettings mrmeshpy.MakeSignedByWindingNumberSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26839" bodyend="26840"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a9ccfab58f7d8a756c7a21a68def7f8d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeSignedByWindingNumberSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26842" bodyend="26843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ab189609b41b31eb4fe1a0e21b5453433" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeSignedByWindingNumberSettings.__init__</definition>
+        <argsstring>(self, MakeSignedByWindingNumberSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings" kindref="compound">MakeSignedByWindingNumberSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26845" bodyend="26848"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a5b047b73d409b1c81efb7f6b1e8e99f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeSignedByWindingNumberSettings.__init__</definition>
+        <argsstring>(self, AffineXf3f meshToGridXf, IFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>meshToGridXf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+          <declname>fwn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberBeta</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26850" bodyend="26853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1adcddfedc59758f271d7cbaa89a82ecfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+        <definition> IFastWindingNumber mrmeshpy.MakeSignedByWindingNumberSettings.fwn</definition>
+        <argsstring>(self)</argsstring>
+        <name>fwn</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.fwn</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26855" bodyend="26858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a88f32da2a45d05842834a584e2bf5e59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeSignedByWindingNumberSettings.fwn</definition>
+        <argsstring>(self, IFastWindingNumber arg1)</argsstring>
+        <name>fwn</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.fwn</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26860" bodyend="26861"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1aaa1bfb235faaaf5670b4dabee9c27081" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.MakeSignedByWindingNumberSettings.meshToGridXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>meshToGridXf</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.meshToGridXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>defines the mapping from mesh reference from to grid reference frame
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26863" bodyend="26866"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ab91fd75763c85954d435510f9516ed33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeSignedByWindingNumberSettings.meshToGridXf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>meshToGridXf</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.meshToGridXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26868" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26868" bodyend="26869"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ac83cb7aa9a55db761f4da48c417db9da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.MakeSignedByWindingNumberSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report algorithm&apos;s progress and to cancel it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26871" bodyend="26874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ac8c00448dc82cc91e6d1785d883607fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeSignedByWindingNumberSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26876" bodyend="26877"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ad49c8639a787397bf2fe29090a9210b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MakeSignedByWindingNumberSettings.windingNumberBeta</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>determines the precision of fast approximation: the more the better, minimum value is 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26879" bodyend="26882"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a75ce39f3ca5b2f41c8089840739a1a9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeSignedByWindingNumberSettings.windingNumberBeta</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26884" bodyend="26885"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1af72afe147c4ba5d8e4982e88fb461e25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MakeSignedByWindingNumberSettings.windingNumberThreshold</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>positive distance if winding number below or equal this threshold;
+ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26887" bodyend="26891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a01f2f981932f2c886eca6a6faec52b7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MakeSignedByWindingNumberSettings.windingNumberThreshold</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.MakeSignedByWindingNumberSettings.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26893" bodyend="26894"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MakeSignedByWindingNumberSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MakeSignedByWindingNumberSettings</label>
+        <link refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_fwn</edgelabel>
+          <edgelabel>_offsetof_meshToGridXf</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+          <edgelabel>_offsetof_windingNumberBeta</edgelabel>
+          <edgelabel>_offsetof_windingNumberThreshold</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26820" bodyend="26894"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a7700b4fd03a52a869c8886c4bf2f06de" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a9ccfab58f7d8a756c7a21a68def7f8d6" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ab189609b41b31eb4fe1a0e21b5453433" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a5b047b73d409b1c81efb7f6b1e8e99f0" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1aceda2e36e98200e196c87a1f585ad9b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>_offsetof_fwn</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a81906439fd7a73bfa23dd8a51546e883" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>_offsetof_meshToGridXf</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a00a3fe8975b76758f2e8158d9c1ecc10" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a33a2a2c7db01396d332895ff83ce0f4d" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>_offsetof_windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1afed65068e0dd6fc85be17dc6a0ede791" prot="protected" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>_offsetof_windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1adcddfedc59758f271d7cbaa89a82ecfa" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>fwn</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a88f32da2a45d05842834a584e2bf5e59" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>fwn</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1aaa1bfb235faaaf5670b4dabee9c27081" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>meshToGridXf</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ab91fd75763c85954d435510f9516ed33" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>meshToGridXf</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ac8f4a1ccff61ddddfbc2cf2f0969cc0b" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ac8f4a1ccff61ddddfbc2cf2f0969cc0b" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ac83cb7aa9a55db761f4da48c417db9da" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ac8c00448dc82cc91e6d1785d883607fb" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1ad49c8639a787397bf2fe29090a9210b0" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a75ce39f3ca5b2f41c8089840739a1a9c" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1af72afe147c4ba5d8e4982e88fb461e25" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1MakeSignedByWindingNumberSettings_1a01f2f981932f2c886eca6a6faec52b7a" prot="public" virt="non-virtual"><scope>mrmeshpy::MakeSignedByWindingNumberSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

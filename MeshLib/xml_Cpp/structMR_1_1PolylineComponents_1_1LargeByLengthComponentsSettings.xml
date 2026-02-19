@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineComponents_1_1LargeByLengthComponentsSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolylineComponents::LargeByLengthComponentsSettings</compoundname>
+    <includes refid="MRPolylineComponents_8h" local="no">MRPolylineComponents.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab156e4253bbd59fe13340074cbd665c9" kind="variable"><name>maxLargeComponents</name></member>
+      <member refid="group__GeneralGroup_1ga5f82c05aa96cc5f5e952e7fc9ed1cf7d" kind="variable"><name>numSmallerComponents</name></member>
+      <member refid="group__GeneralGroup_1gabc19be05235214b2db88c9ce8fa747b0" kind="variable"><name>minLength</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="35" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" bodystart="36" bodyend="45"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab156e4253bbd59fe13340074cbd665c9" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::LargeByLengthComponentsSettings</scope><name>maxLargeComponents</name></member>
+      <member refid="group__GeneralGroup_1gabc19be05235214b2db88c9ce8fa747b0" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::LargeByLengthComponentsSettings</scope><name>minLength</name></member>
+      <member refid="group__GeneralGroup_1ga5f82c05aa96cc5f5e952e7fc9ed1cf7d" prot="public" virt="non-virtual"><scope>MR::PolylineComponents::LargeByLengthComponentsSettings</scope><name>numSmallerComponents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

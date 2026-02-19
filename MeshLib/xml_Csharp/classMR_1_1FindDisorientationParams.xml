@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FindDisorientationParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::FindDisorientationParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindDisorientationParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FindDisorientationParams_1a9af2894afb52c9416aa585d6799d627c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref MR.FindDisorientationParams.RayMode</type>
+        <definition>new unsafe ref MR.FindDisorientationParams.RayMode MR.FindDisorientationParams.mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>MR.FindDisorientationParams.mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="720" column="65" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindDisorientationParams_1a7c8b77fe078d4351170c27bde91cf33d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.FindDisorientationParams.virtualFillHoles</definition>
+        <argsstring></argsstring>
+        <name>virtualFillHoles</name>
+        <qualifiedname>MR.FindDisorientationParams.virtualFillHoles</qualifiedname>
+        <briefdescription>
+<para>if set - copy mesh, and fills holes for better quality in case of ray going out through hole </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="723" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindDisorientationParams_1a78e8b02ae29293063ceb4c1a897dad2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.FindDisorientationParams.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.FindDisorientationParams.cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="725" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="725" bodyend="725"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FindDisorientationParams_1ab89e2f734f1895495b516484c881e99e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindDisorientationParams.FindDisorientationParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FindDisorientationParams</name>
+        <qualifiedname>MR.FindDisorientationParams.FindDisorientationParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="744" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="744" bodyend="748"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FindDisorientationParams_1a5a8334df1e9ecf84c6bea4f4d2180f2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindDisorientationParams.FindDisorientationParams</definition>
+        <argsstring>()</argsstring>
+        <name>FindDisorientationParams</name>
+        <qualifiedname>MR.FindDisorientationParams.FindDisorientationParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="754" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="754" bodyend="760"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindDisorientationParams_1a6ecc07dc16e1798c642a31533aabe1f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindDisorientationParams.FindDisorientationParams</definition>
+        <argsstring>(MR.FindDisorientationParams.RayMode mode, bool virtualFillHoles, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <name>FindDisorientationParams</name>
+        <qualifiedname>MR.FindDisorientationParams.FindDisorientationParams</qualifiedname>
+        <param>
+          <type>MR.FindDisorientationParams.RayMode</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>virtualFillHoles</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FindDisorientationParams" kindref="compound">MR.FindDisorientationParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="765" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="765" bodyend="772"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindDisorientationParams_1ad2b59bbf468b95b034491daeed513270" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindDisorientationParams.FindDisorientationParams</definition>
+        <argsstring>(MR._ByValue_FindDisorientationParams _other)</argsstring>
+        <name>FindDisorientationParams</name>
+        <qualifiedname>MR.FindDisorientationParams.FindDisorientationParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_FindDisorientationParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindDisorientationParams.FindDisorientationParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="777" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="777" bodyend="784"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindDisorientationParams_1aec5c92f69d4cc5f579fd7a7c46ae4ba5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FindDisorientationParams.FindDisorientationParams</definition>
+        <argsstring>(Const_FindDisorientationParams _other)</argsstring>
+        <name>FindDisorientationParams</name>
+        <qualifiedname>MR.FindDisorientationParams.FindDisorientationParams</qualifiedname>
+        <param>
+          <type>Const_FindDisorientationParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindDisorientationParams.FindDisorientationParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="789" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="789" bodyend="789"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindDisorientationParams_1a6706010e3fdf4bceda30e36a3cd017ea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FindDisorientationParams.FindDisorientationParams</definition>
+        <argsstring>(FindDisorientationParams _other)</argsstring>
+        <name>FindDisorientationParams</name>
+        <qualifiedname>MR.FindDisorientationParams.FindDisorientationParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FindDisorientationParams" kindref="compound">FindDisorientationParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindDisorientationParams.FindDisorientationParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="794" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="794" bodyend="794"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindDisorientationParams_1a22f525f95365f524c74f821d3f2d946a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FindDisorientationParams" kindref="compound">MR.FindDisorientationParams</ref></type>
+        <definition>unsafe MR.FindDisorientationParams MR.FindDisorientationParams.assign</definition>
+        <argsstring>(MR._ByValue_FindDisorientationParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FindDisorientationParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FindDisorientationParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FindDisorientationParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="799" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="799" bodyend="806"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for <computeroutput>findDisorientedFaces</computeroutput> function Generated from class <computeroutput><ref refid="classMR_1_1FindDisorientationParams" kindref="compound">MR.FindDisorientationParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FindDisorientationParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindDisorientationParams</label>
+        <link refid="classMR_1_1FindDisorientationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindDisorientationParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FindDisorientationParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindDisorientationParams</label>
+        <link refid="classMR_1_1FindDisorientationParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindDisorientationParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" line="718" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshFixer.cs" bodystart="719" bodyend="807"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FindDisorientationParams_1a22f525f95365f524c74f821d3f2d946a" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1FindDisorientationParams_1a78e8b02ae29293063ceb4c1a897dad2c" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>cb</name></member>
+      <member refid="classMR_1_1FindDisorientationParams_1ab89e2f734f1895495b516484c881e99e" prot="package" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>FindDisorientationParams</name></member>
+      <member refid="classMR_1_1FindDisorientationParams_1a5a8334df1e9ecf84c6bea4f4d2180f2e" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>FindDisorientationParams</name></member>
+      <member refid="classMR_1_1FindDisorientationParams_1a6ecc07dc16e1798c642a31533aabe1f0" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>FindDisorientationParams</name></member>
+      <member refid="classMR_1_1FindDisorientationParams_1ad2b59bbf468b95b034491daeed513270" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>FindDisorientationParams</name></member>
+      <member refid="classMR_1_1FindDisorientationParams_1aec5c92f69d4cc5f579fd7a7c46ae4ba5" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>FindDisorientationParams</name></member>
+      <member refid="classMR_1_1FindDisorientationParams_1a6706010e3fdf4bceda30e36a3cd017ea" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>FindDisorientationParams</name></member>
+      <member refid="classMR_1_1FindDisorientationParams_1a9af2894afb52c9416aa585d6799d627c" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>mode</name></member>
+      <member refid="classMR_1_1FindDisorientationParams_1a7c8b77fe078d4351170c27bde91cf33d" prot="public" virt="non-virtual"><scope>MR::FindDisorientationParams</scope><name>virtualFillHoles</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

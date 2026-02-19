@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MultiRayMeshIntersectResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MultiRayMeshIntersectResult</compoundname>
+    <includes refid="MRMeshIntersect_8h" local="no">MRMeshIntersect.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MultiRayMeshIntersectResult_1a71a0fa75e778ec8d7c6e2a3f6b0a8090" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> *</type>
+        <definition>BitSet* MR::MultiRayMeshIntersectResult::intersectingRays</definition>
+        <argsstring></argsstring>
+        <name>intersectingRays</name>
+        <qualifiedname>MR::MultiRayMeshIntersectResult::intersectingRays</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>outputs (each one if optional) for every ray: </para>
+        </briefdescription>
+        <detaileddescription>
+<para>true if the ray has intersection with mesh part, false otherwise </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="55" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MultiRayMeshIntersectResult_1a9a3654ac0ded1bdf4d07ac43e5c5e085" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; float &gt; *</type>
+        <definition>std::vector&lt;float&gt;* MR::MultiRayMeshIntersectResult::rayDistances</definition>
+        <argsstring></argsstring>
+        <name>rayDistances</name>
+        <qualifiedname>MR::MultiRayMeshIntersectResult::rayDistances</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>distance along each ray till the intersection point or NaN if no intersection </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="56" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MultiRayMeshIntersectResult_1ab49b37818f779af102184978ebe758fc" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; FaceId &gt; *</type>
+        <definition>std::vector&lt;FaceId&gt;* MR::MultiRayMeshIntersectResult::isectFaces</definition>
+        <argsstring></argsstring>
+        <name>isectFaces</name>
+        <qualifiedname>MR::MultiRayMeshIntersectResult::isectFaces</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>intersected triangles from mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="57" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MultiRayMeshIntersectResult_1abe24325f915016d19bbaa021b7acdf15" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; TriPointf &gt; *</type>
+        <definition>std::vector&lt;TriPointf&gt;* MR::MultiRayMeshIntersectResult::isectBary</definition>
+        <argsstring></argsstring>
+        <name>isectBary</name>
+        <qualifiedname>MR::MultiRayMeshIntersectResult::isectBary</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="58" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MultiRayMeshIntersectResult_1a7455a93722a7e3da39f0baacdfb67c00" prot="public" static="no" mutable="no">
+        <type>std::vector&lt; Vector3f &gt; *</type>
+        <definition>std::vector&lt;Vector3f&gt;* MR::MultiRayMeshIntersectResult::isectPts</definition>
+        <argsstring></argsstring>
+        <name>isectPts</name>
+        <qualifiedname>MR::MultiRayMeshIntersectResult::isectPts</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>intersection points or NaNs if no intersection </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="59" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::BitSet</label>
+        <link refid="classMR_1_1BitSet"/>
+      </node>
+      <node id="1">
+        <label>MR::MultiRayMeshIntersectResult</label>
+        <link refid="structMR_1_1MultiRayMeshIntersectResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>intersectingRays</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" line="52" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshIntersect.h" bodystart="53" bodyend="60"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MultiRayMeshIntersectResult_1a71a0fa75e778ec8d7c6e2a3f6b0a8090" prot="public" virt="non-virtual"><scope>MR::MultiRayMeshIntersectResult</scope><name>intersectingRays</name></member>
+      <member refid="structMR_1_1MultiRayMeshIntersectResult_1abe24325f915016d19bbaa021b7acdf15" prot="public" virt="non-virtual"><scope>MR::MultiRayMeshIntersectResult</scope><name>isectBary</name></member>
+      <member refid="structMR_1_1MultiRayMeshIntersectResult_1ab49b37818f779af102184978ebe758fc" prot="public" virt="non-virtual"><scope>MR::MultiRayMeshIntersectResult</scope><name>isectFaces</name></member>
+      <member refid="structMR_1_1MultiRayMeshIntersectResult_1a7455a93722a7e3da39f0baacdfb67c00" prot="public" virt="non-virtual"><scope>MR::MultiRayMeshIntersectResult</scope><name>isectPts</name></member>
+      <member refid="structMR_1_1MultiRayMeshIntersectResult_1a9a3654ac0ded1bdf4d07ac43e5c5e085" prot="public" virt="non-virtual"><scope>MR::MultiRayMeshIntersectResult</scope><name>rayDistances</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -182,6 +182,7 @@ Enumerations</h2></td></tr>
 <tr class="memitem:a265e606cad7268f09dacbeeb9b6be3d5" id="r_a265e606cad7268f09dacbeeb9b6be3d5"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a265e606cad7268f09dacbeeb9b6be3d5">PlaneWidgetFlags</a> { <a class="el" href="#a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754">None</a> = 0
 , <a class="el" href="#a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac">DisableVisibility</a> = 1
  }</td></tr>
+<tr class="memdesc:a265e606cad7268f09dacbeeb9b6be3d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters for the <code>Plane( <a class="el" href="classMR_1_1PlaneWidget.html">MR::PlaneWidget</a>&amp; ... )</code> function.  <a href="#a265e606cad7268f09dacbeeb9b6be3d5">More...</a><br /></td></tr>
 <tr class="separator:a265e606cad7268f09dacbeeb9b6be3d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
@@ -211,6 +212,7 @@ Functions</h2></td></tr>
 <tr class="separator:a4e3833bf7761da4ac20ca9397fbdbc16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01e8908c9ff42e3510168251a97f1d48" id="r_a01e8908c9ff42e3510168251a97f1d48"><td class="memTemplParams" colspan="2">template&lt;typename Getter , typename Setter &gt; </td></tr>
 <tr class="memitem:a01e8908c9ff42e3510168251a97f1d48"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#a01e8908c9ff42e3510168251a97f1d48">Checkbox</a> (const char *label, Getter get, Setter set)</td></tr>
+<tr class="memdesc:a01e8908c9ff42e3510168251a97f1d48"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw check-box that takes initial value from Getter and then saves the final value in Setter  <br /></td></tr>
 <tr class="separator:a01e8908c9ff42e3510168251a97f1d48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab9ea83bb6bf2bc7f7bb8d0c582bd9a9" id="r_aab9ea83bb6bf2bc7f7bb8d0c582bd9a9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aab9ea83bb6bf2bc7f7bb8d0c582bd9a9">PlotCustomHistogram</a> (const char *str_id, std::function&lt; float(int idx)&gt; values_getter, std::function&lt; void(int idx)&gt; tooltip, std::function&lt; void(int idx)&gt; on_click, int values_count, int values_offset=0, float scale_min=FLT_MAX, float scale_max=FLT_MAX, ImVec2 frame_size=ImVec2(0, 0), int selectedBarId=-1, int hoveredBarId=-1, const std::vector&lt; <a class="el" href="structImGui_1_1HistogramGridLine.html">HistogramGridLine</a> &gt; &amp;gridIndexes={}, const std::vector&lt; <a class="el" href="structImGui_1_1HistogramGridLine.html">HistogramGridLine</a> &gt; &amp;gridValues={})</td></tr>
 <tr class="separator:aab9ea83bb6bf2bc7f7bb8d0c582bd9a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,13 +242,13 @@ Functions</h2></td></tr>
 <tr class="memitem:a959274b0c45550ab3c50db7f9fbb2628" id="r_a959274b0c45550ab3c50db7f9fbb2628"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a959274b0c45550ab3c50db7f9fbb2628">BeginModalNoAnimation</a> (const char *label, bool *open=nullptr, ImGuiWindowFlags flags=0)</td></tr>
 <tr class="memdesc:a959274b0c45550ab3c50db7f9fbb2628"><td class="mdescLeft">&#160;</td><td class="mdescRight">starts modal window with no animation for background  <br /></td></tr>
 <tr class="separator:a959274b0c45550ab3c50db7f9fbb2628"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd8cc938250148aa8872b289ee37a885" id="r_acd8cc938250148aa8872b289ee37a885"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd8cc938250148aa8872b289ee37a885">InputIntBitSet</a> (const char *label, int *v, const <a class="elRef" href="../Csharp/classMR_1_1BitSet.html">MR::BitSet</a> &amp;bs, int step=1, int step_fast=100, ImGuiInputTextFlags flags=0)</td></tr>
+<tr class="memitem:acd8cc938250148aa8872b289ee37a885" id="r_acd8cc938250148aa8872b289ee37a885"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd8cc938250148aa8872b289ee37a885">InputIntBitSet</a> (const char *label, int *v, const <a class="el" href="classMR_1_1BitSet.html">MR::BitSet</a> &amp;bs, int step=1, int step_fast=100, ImGuiInputTextFlags flags=0)</td></tr>
 <tr class="memdesc:acd8cc938250148aa8872b289ee37a885"><td class="mdescLeft">&#160;</td><td class="mdescRight">same as ImGui::InputInt  <br /></td></tr>
 <tr class="separator:acd8cc938250148aa8872b289ee37a885"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e673d54604370c06cb076d0449831a3" id="r_a2e673d54604370c06cb076d0449831a3"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e673d54604370c06cb076d0449831a3">DragInputInt</a> (const char *label, int *value, float speed=1, int min=std::numeric_limits&lt; int &gt;::lowest(), int max=std::numeric_limits&lt; int &gt;::max(), const char *format=&quot;%d&quot;, ImGuiSliderFlags flags=ImGuiSliderFlags_None)</td></tr>
 <tr class="memdesc:a2e673d54604370c06cb076d0449831a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combine of ImGui::DragInt and ImGui::InputInt.  <br /></td></tr>
 <tr class="separator:a2e673d54604370c06cb076d0449831a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabb908deed7006b50c7ad6ec124126a7" id="r_aabb908deed7006b50c7ad6ec124126a7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabb908deed7006b50c7ad6ec124126a7">Link</a> (const char *label, uint32_t color=<a class="elRef" href="../Csharp/structMR_1_1Color.html">MR::Color</a>(60, 120, 255).getUInt32())</td></tr>
+<tr class="memitem:aabb908deed7006b50c7ad6ec124126a7" id="r_aabb908deed7006b50c7ad6ec124126a7"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabb908deed7006b50c7ad6ec124126a7">Link</a> (const char *label, uint32_t color=<a class="el" href="structMR_1_1Color.html">MR::Color</a>(60, 120, 255).getUInt32())</td></tr>
 <tr class="memdesc:aabb908deed7006b50c7ad6ec124126a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw text as link, calls callback on click.  <br /></td></tr>
 <tr class="separator:aabb908deed7006b50c7ad6ec124126a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c130223f0795222ba5a4445f8c9e917" id="r_a9c130223f0795222ba5a4445f8c9e917"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="el" href="#a27ee05a9e60f4c26c369f0331134f682">PaletteChanges</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9c130223f0795222ba5a4445f8c9e917">Palette</a> (const char *label, <a class="el" href="classMR_1_1Palette.html">MR::Palette</a> &amp;palette, std::string &amp;presetName, float width, bool *fixZero=nullptr, float speed=1.0f, float min=std::numeric_limits&lt; float &gt;::lowest(), float max=std::numeric_limits&lt; float &gt;::max())</td></tr>
@@ -255,12 +257,12 @@ Functions</h2></td></tr>
 <tr class="separator:a1ff64ab0bea9537c8755a84b4226dde0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8258976ae8bdfc2882e10e03831be422" id="r_a8258976ae8bdfc2882e10e03831be422"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8258976ae8bdfc2882e10e03831be422">Direction</a> (<a class="el" href="classMR_1_1DirectionWidget.html">MR::DirectionWidget</a> &amp;dirWidget, bool &amp;editDragging, const std::string &amp;historyName)</td></tr>
 <tr class="separator:a8258976ae8bdfc2882e10e03831be422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35ab4450ec9a2caa24b029e5c5c11ecb" id="r_a35ab4450ec9a2caa24b029e5c5c11ecb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ab4450ec9a2caa24b029e5c5c11ecb">Image</a> (const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;image, const ImVec2 &amp;size, const <a class="elRef" href="../Csharp/structMR_1_1Color.html">MR::Color</a> &amp;multColor)</td></tr>
+<tr class="memitem:a35ab4450ec9a2caa24b029e5c5c11ecb" id="r_a35ab4450ec9a2caa24b029e5c5c11ecb"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a35ab4450ec9a2caa24b029e5c5c11ecb">Image</a> (const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;image, const ImVec2 &amp;size, const <a class="el" href="structMR_1_1Color.html">MR::Color</a> &amp;multColor)</td></tr>
 <tr class="memdesc:a35ab4450ec9a2caa24b029e5c5c11ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">draw image with Y-direction inversed up-down  <br /></td></tr>
 <tr class="separator:a35ab4450ec9a2caa24b029e5c5c11ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad271bb43979f12d68480619505b2900f" id="r_ad271bb43979f12d68480619505b2900f"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad271bb43979f12d68480619505b2900f">Image</a> (const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;image, const ImVec2 &amp;size, const ImVec4 &amp;multColor={ 1, 1, 1, 1 })</td></tr>
 <tr class="separator:ad271bb43979f12d68480619505b2900f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fb7653d1377ce1f2dd7a8f9d1057615" id="r_a1fb7653d1377ce1f2dd7a8f9d1057615"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector2i.html">MR::Vector2i</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fb7653d1377ce1f2dd7a8f9d1057615">GetImagePointerCoord</a> (const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;image, const ImVec2 &amp;size, const ImVec2 &amp;imagePos)</td></tr>
+<tr class="memitem:a1fb7653d1377ce1f2dd7a8f9d1057615" id="r_a1fb7653d1377ce1f2dd7a8f9d1057615"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API MR::Vector2i&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fb7653d1377ce1f2dd7a8f9d1057615">GetImagePointerCoord</a> (const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;image, const ImVec2 &amp;size, const ImVec2 &amp;imagePos)</td></tr>
 <tr class="memdesc:a1fb7653d1377ce1f2dd7a8f9d1057615"><td class="mdescLeft">&#160;</td><td class="mdescRight">get image coordinates under cursor considering Y-direction flipping  <br /></td></tr>
 <tr class="separator:a1fb7653d1377ce1f2dd7a8f9d1057615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd01e3d0c0bcd6ca3f831a2e16d7bdd4" id="r_abd01e3d0c0bcd6ca3f831a2e16d7bdd4"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd01e3d0c0bcd6ca3f831a2e16d7bdd4">Spinner</a> (float radius)</td></tr>
@@ -282,7 +284,10 @@ Functions</h2></td></tr>
 <tr class="memdesc:a57f161b33d858badb4201fbedd7b3163"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true if <a class="el" href="namespaceImGui.html">ImGui</a> Multi Viewport enabled  <br /></td></tr>
 <tr class="separator:a57f161b33d858badb4201fbedd7b3163"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Extend <a class="el" href="namespaceImGui.html">ImGui</a> by populating its namespace directly</p>
+<p>Code snippets taken from there: <a href="https:///">https:///</a> eliasdaler.github.io/using-imgui-with-sfml-pt2/ </p>
+</div><h2 class="groupheader">Enumeration Type Documentation</h2>
 <a id="a27ee05a9e60f4c26c369f0331134f682" name="a27ee05a9e60f4c26c369f0331134f682"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a27ee05a9e60f4c26c369f0331134f682">&#9670;&#160;</a></span>PaletteChanges</h2>
 
@@ -307,9 +312,12 @@ values are bits </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754" name="a27ee05a9e60f4c26c369f0331134f682a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d" name="a27ee05a9e60f4c26c369f0331134f682a526d688f37a86d3c3f27d0c5016eb71d"></a>Reset&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" name="a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b"></a>Texture&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" name="a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258"></a>Ranges&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680" name="a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" name="a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b"></a>Texture&#160;</td><td class="fielddoc"><p>reset palette </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" name="a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258"></a>Ranges&#160;</td><td class="fielddoc"><p>texture and legend must be updated </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680" name="a27ee05a9e60f4c26c369f0331134f682ab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"><p>uv-coordinates must be recomputed for the same values </p>
+</td></tr>
 </table>
 
 </div>
@@ -333,9 +341,12 @@ values are bits </p>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Parameters for the <code>Plane( <a class="el" href="classMR_1_1PlaneWidget.html">MR::PlaneWidget</a>&amp; ... )</code> function. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754" name="a265e606cad7268f09dacbeeb9b6be3d5a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac" name="a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac"></a>DisableVisibility&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac" name="a265e606cad7268f09dacbeeb9b6be3d5a34b1ae6edf2999f3e5089ef71bd49dac"></a>DisableVisibility&#160;</td><td class="fielddoc"><p>Default setup. </p>
+</td></tr>
 </table>
 
 </div>
@@ -485,6 +496,8 @@ template&lt;typename Getter , typename Setter &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>draw check-box that takes initial value from Getter and then saves the final value in Setter </p>
 
 </div>
 </div>
@@ -987,7 +1000,7 @@ template&lt;typename Getter , typename Setter &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">MRVIEWER_API <a class="elRef" href="../Csharp/structMR_1_1Vector2i.html">MR::Vector2i</a> ImGui::GetImagePointerCoord </td>
+          <td class="memname">MRVIEWER_API MR::Vector2i ImGui::GetImagePointerCoord </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classMR_1_1ImGuiImage.html">MR::ImGuiImage</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>image</em></span>, </td>
         </tr>
@@ -1099,7 +1112,7 @@ template&lt;typename Getter , typename Setter &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1Color.html">MR::Color</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>multColor</em></span>&#160;)</td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1Color.html">MR::Color</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>multColor</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1127,7 +1140,7 @@ template&lt;typename Getter , typename Setter &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1BitSet.html">MR::BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="classMR_1_1BitSet.html">MR::BitSet</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>bs</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1197,6 +1210,7 @@ value can't be changed if bs has no any valid value </dd></dl>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>similar to ImGui::InputInt but 1) value on output is forced to be in [min,max] range; 2) tooltip about valid range is shown when the item is active </p>
 
 </div>
 </div>
@@ -1277,7 +1291,7 @@ value can't be changed if bs has no any valid value </dd></dl>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>color</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="elRef" href="../Csharp/structMR_1_1Color.html">MR::Color</a>(60,&#160;120,&#160;255).getUInt32()</span>&#160;)</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>color</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="structMR_1_1Color.html">MR::Color</a>(60,&#160;120,&#160;255).getUInt32()</span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1482,7 +1496,7 @@ can load and save palette preset. </p><dl class="params"><dt>Parameters</dt><dd>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>mask of changes, if it has <a class="el" href="#a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b">PaletteChanges::Texture</a> bit - object requires texture update, if it has <a class="el" href="#a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258">PaletteChanges::Ranges</a> uv coordinates should be recalculated and updated in object </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>mask of changes, if it has <a class="el" href="#a27ee05a9e60f4c26c369f0331134f682aa3e8ae43188ae76d38f414b2bdb0077b" title="reset palette">PaletteChanges::Texture</a> bit - object requires texture update, if it has <a class="el" href="#a27ee05a9e60f4c26c369f0331134f682a92711ef5b0215a076fef4a3abbfc2258" title="texture and legend must be updated">PaletteChanges::Ranges</a> uv coordinates should be recalculated and updated in object </dd></dl>
 
 </div>
 </div>

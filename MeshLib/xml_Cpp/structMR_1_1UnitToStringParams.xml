@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UnitToStringParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UnitToStringParams</compoundname>
+    <includes refid="MRUnits_8h" local="no">MRUnits.h</includes>
+    <templateparamlist>
+      <param>
+        <type>UnitEnum</type>
+        <declname>E</declname>
+        <defname>E</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga7154a0976d68f4cf955516bbd1e8c3db" kind="variable"><name>decorationFormatString</name></member>
+      <member refid="group__GeneralGroup_1ga484658a85c5d115a7ced9935b886f6f6" kind="variable"><name>sourceUnit</name></member>
+      <member refid="group__GeneralGroup_1gac1da9d705a2210ae748df1e41d865a2a" kind="variable"><name>targetUnit</name></member>
+      <member refid="group__GeneralGroup_1ga946e3167ad791810a532295b6ac6ef8c" kind="variable"><name>unitSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga3df844b2da042b64d299fefa1b4dd1e9" kind="variable"><name>style</name></member>
+      <member refid="group__GeneralGroup_1ga0f9d2ff9175ae13c5b2fb39d68ec515d" kind="variable"><name>precision</name></member>
+      <member refid="group__GeneralGroup_1gaf0658fb5d00066d0553cabc7a7979e8c" kind="variable"><name>plusSign</name></member>
+      <member refid="group__GeneralGroup_1ga6ecdb60e898b38b2adfcc70f54678543" kind="variable"><name>zeroMode</name></member>
+      <member refid="group__GeneralGroup_1gaf5c03b75a184cdc31e4591f61fddedf9" kind="variable"><name>unicodeMinusSign</name></member>
+      <member refid="group__GeneralGroup_1ga8d8034b7086f9f2abcfdbbcfbc6c8f80" kind="variable"><name>thousandsSeparator</name></member>
+      <member refid="group__GeneralGroup_1gac05c469a00e9e986895d9f12d7ffd44b" kind="variable"><name>thousandsSeparatorFrac</name></member>
+      <member refid="group__GeneralGroup_1ga09eebb06769bb4dc52058f79fae207bd" kind="variable"><name>leadingZero</name></member>
+      <member refid="group__GeneralGroup_1gae7b05ea81d83729b2b8510464247942c" kind="variable"><name>stripTrailingZeroes</name></member>
+      <member refid="group__GeneralGroup_1ga2d95d4ba6210441527d210b9e677228f" kind="variable"><name>degreesMode</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1gae183c6cb52762dc16f91e61c2be6df24" kind="friend"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Controls how a value with a unit is converted to a string. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUnits.h" bodystart="71" bodyend="122"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7154a0976d68f4cf955516bbd1e8c3db" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>decorationFormatString</name></member>
+      <member refid="group__GeneralGroup_1ga2d95d4ba6210441527d210b9e677228f" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>degreesMode</name></member>
+      <member refid="group__GeneralGroup_1ga09eebb06769bb4dc52058f79fae207bd" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>leadingZero</name></member>
+      <member refid="group__GeneralGroup_1gae183c6cb52762dc16f91e61c2be6df24" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gaf0658fb5d00066d0553cabc7a7979e8c" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>plusSign</name></member>
+      <member refid="group__GeneralGroup_1ga0f9d2ff9175ae13c5b2fb39d68ec515d" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>precision</name></member>
+      <member refid="group__GeneralGroup_1ga484658a85c5d115a7ced9935b886f6f6" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>sourceUnit</name></member>
+      <member refid="group__GeneralGroup_1gae7b05ea81d83729b2b8510464247942c" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>stripTrailingZeroes</name></member>
+      <member refid="group__GeneralGroup_1ga3df844b2da042b64d299fefa1b4dd1e9" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>style</name></member>
+      <member refid="group__GeneralGroup_1gac1da9d705a2210ae748df1e41d865a2a" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>targetUnit</name></member>
+      <member refid="group__GeneralGroup_1ga8d8034b7086f9f2abcfdbbcfbc6c8f80" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>thousandsSeparator</name></member>
+      <member refid="group__GeneralGroup_1gac05c469a00e9e986895d9f12d7ffd44b" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>thousandsSeparatorFrac</name></member>
+      <member refid="group__GeneralGroup_1gaf5c03b75a184cdc31e4591f61fddedf9" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>unicodeMinusSign</name></member>
+      <member refid="group__GeneralGroup_1ga946e3167ad791810a532295b6ac6ef8c" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>unitSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga6ecdb60e898b38b2adfcc70f54678543" prot="public" virt="non-virtual"><scope>MR::UnitToStringParams</scope><name>zeroMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

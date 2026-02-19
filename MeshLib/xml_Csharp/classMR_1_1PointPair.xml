@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointPair" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointPair</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PointPair</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PointPair_1ab4e09ee32e9c8d2040ae7bdb55b27bdc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>new unsafe ref MR.VertId MR.PointPair.srcVertId</definition>
+        <argsstring></argsstring>
+        <name>srcVertId</name>
+        <qualifiedname>MR.PointPair.srcVertId</qualifiedname>
+        <briefdescription>
+<para>id of the source point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="537" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointPair_1aaa32ee7e65dde012da5ef1d0a4d4d67a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>new unsafe ref MR.VertId MR.PointPair.tgtCloseVert</definition>
+        <argsstring></argsstring>
+        <name>tgtCloseVert</name>
+        <qualifiedname>MR.PointPair.tgtCloseVert</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>for point clouds it is the closest vertex on target, for meshes it is the closest vertex of the triangle with the closest point on target </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="541" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="541" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointPair_1a8cb638bd82e19d47e4073283c7f7a429" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.PointPair.normalsAngleCos</definition>
+        <argsstring></argsstring>
+        <name>normalsAngleCos</name>
+        <qualifiedname>MR.PointPair.normalsAngleCos</qualifiedname>
+        <briefdescription>
+<para>cosine between normals in source and target points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="544" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="544" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointPair_1a659b3212bec5787bbf9b2a13852a5b32" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.PointPair.tgtOnBd</definition>
+        <argsstring></argsstring>
+        <name>tgtOnBd</name>
+        <qualifiedname>MR.PointPair.tgtOnBd</qualifiedname>
+        <briefdescription>
+<para>true if if the closest point on target is located on the boundary (only for meshes) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="547" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="547" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointPair_1a24c51f83f1fd45c837c74cf7915e1922" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.PointPair.srcPoint</definition>
+        <argsstring></argsstring>
+        <name>srcPoint</name>
+        <qualifiedname>MR.PointPair.srcPoint</qualifiedname>
+        <briefdescription>
+<para>coordinates of the source point after transforming in world space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="550" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointPair_1a3f3d58146be17ca89c32ee2412cc2413" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.PointPair.srcNorm</definition>
+        <argsstring></argsstring>
+        <name>srcNorm</name>
+        <qualifiedname>MR.PointPair.srcNorm</qualifiedname>
+        <briefdescription>
+<para>normal in source point after transforming in world space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="553" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="553" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointPair_1aa5d5f82c024ce6ef0560f0a1939c9436" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.PointPair.tgtPoint</definition>
+        <argsstring></argsstring>
+        <name>tgtPoint</name>
+        <qualifiedname>MR.PointPair.tgtPoint</qualifiedname>
+        <briefdescription>
+<para>coordinates of the closest point on target after transforming in world space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="556" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="556" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointPair_1aae4bda63adba02ce21acb19eb98d4802" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.PointPair.tgtNorm</definition>
+        <argsstring></argsstring>
+        <name>tgtNorm</name>
+        <qualifiedname>MR.PointPair.tgtNorm</qualifiedname>
+        <briefdescription>
+<para>normal in the target point after transforming in world space </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="559" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="559" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointPair_1a54f402ca78a997127d51332dc5671793" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.PointPair.distSq</definition>
+        <argsstring></argsstring>
+        <name>distSq</name>
+        <qualifiedname>MR.PointPair.distSq</qualifiedname>
+        <briefdescription>
+<para>squared distance between source and target points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="562" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="562" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointPair_1a91920482714ffc7ff297781f7548690f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.PointPair.weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <qualifiedname>MR.PointPair.weight</qualifiedname>
+        <briefdescription>
+<para>weight of the pair (to prioritize over other pairs) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="565" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="565" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PointPair_1ad4c7e4f3d4b6011fc0fd482d7191438c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PointPair.operator MR.ICPPairData</definition>
+        <argsstring>(PointPair self)</argsstring>
+        <name>operator MR.ICPPairData</name>
+        <qualifiedname>MR.PointPair.operator MR.ICPPairData</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointPair" kindref="compound">PointPair</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="527" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="527" bodyend="534"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointPair_1a19245595d8d898978705f1073708b412" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointPair.PointPair</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PointPair</name>
+        <qualifiedname>MR.PointPair.PointPair</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="569" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="569" bodyend="573"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointPair_1a8d5639dafb1aa43a724aa79db25108d0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointPair.PointPair</definition>
+        <argsstring>()</argsstring>
+        <name>PointPair</name>
+        <qualifiedname>MR.PointPair.PointPair</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="579" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="579" bodyend="585"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointPair_1a0960fc5693b452782da3df8798477c9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointPair.PointPair</definition>
+        <argsstring>(MR.Const_PointPair _other)</argsstring>
+        <name>PointPair</name>
+        <qualifiedname>MR.PointPair.PointPair</qualifiedname>
+        <param>
+          <type>MR.Const_PointPair</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointPair.PointPair</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="590" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="590" bodyend="597"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointPair_1a744ddaac49feba398e8f4b1fd0dc7682" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointPair.PointPair</definition>
+        <argsstring>(PointPair _other)</argsstring>
+        <name>PointPair</name>
+        <qualifiedname>MR.PointPair.PointPair</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointPair" kindref="compound">PointPair</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointPair.PointPair</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="602" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="602" bodyend="602"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointPair_1af1f65c72527757ec9d342b663c6955df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointPair" kindref="compound">MR.PointPair</ref></type>
+        <definition>unsafe MR.PointPair MR.PointPair.assign</definition>
+        <argsstring>(MR.Const_PointPair _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PointPair.assign</qualifiedname>
+        <param>
+          <type>MR.Const_PointPair</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PointPair.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="607" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="607" bodyend="614"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Stores a pair of points: one samples on the source and the closest to it on the target Generated from class <computeroutput><ref refid="classMR_1_1PointPair" kindref="compound">MR.PointPair</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1ICPPairData" kindref="compound">MR.ICPPairData</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PointPair</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointPair</label>
+        <link refid="classMR_1_1PointPair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointPair &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_PointPair &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PointPair</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointPair</label>
+        <link refid="classMR_1_1PointPair"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PointPair &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_PointPair &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="524" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="525" bodyend="615"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointPair_1af1f65c72527757ec9d342b663c6955df" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>assign</name></member>
+      <member refid="classMR_1_1PointPair_1a54f402ca78a997127d51332dc5671793" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>distSq</name></member>
+      <member refid="classMR_1_1PointPair_1a8cb638bd82e19d47e4073283c7f7a429" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>normalsAngleCos</name></member>
+      <member refid="classMR_1_1PointPair_1ad4c7e4f3d4b6011fc0fd482d7191438c" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>operator MR.ICPPairData</name></member>
+      <member refid="classMR_1_1PointPair_1a19245595d8d898978705f1073708b412" prot="package" virt="non-virtual"><scope>MR::PointPair</scope><name>PointPair</name></member>
+      <member refid="classMR_1_1PointPair_1a8d5639dafb1aa43a724aa79db25108d0" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>PointPair</name></member>
+      <member refid="classMR_1_1PointPair_1a0960fc5693b452782da3df8798477c9c" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>PointPair</name></member>
+      <member refid="classMR_1_1PointPair_1a744ddaac49feba398e8f4b1fd0dc7682" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>PointPair</name></member>
+      <member refid="classMR_1_1PointPair_1a3f3d58146be17ca89c32ee2412cc2413" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>srcNorm</name></member>
+      <member refid="classMR_1_1PointPair_1a24c51f83f1fd45c837c74cf7915e1922" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>srcPoint</name></member>
+      <member refid="classMR_1_1PointPair_1ab4e09ee32e9c8d2040ae7bdb55b27bdc" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>srcVertId</name></member>
+      <member refid="classMR_1_1PointPair_1aaa32ee7e65dde012da5ef1d0a4d4d67a" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtCloseVert</name></member>
+      <member refid="classMR_1_1PointPair_1aae4bda63adba02ce21acb19eb98d4802" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtNorm</name></member>
+      <member refid="classMR_1_1PointPair_1a659b3212bec5787bbf9b2a13852a5b32" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtOnBd</name></member>
+      <member refid="classMR_1_1PointPair_1aa5d5f82c024ce6ef0560f0a1939c9436" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>tgtPoint</name></member>
+      <member refid="classMR_1_1PointPair_1a91920482714ffc7ff297781f7548690f" prot="public" virt="non-virtual"><scope>MR::PointPair</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

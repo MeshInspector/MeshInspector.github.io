@@ -238,10 +238,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9f71200c981f11d2ec5f7c797de269e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac9c41ec6addef5012e587e850a8d006" id="r_aac9c41ec6addef5012e587e850a8d006"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac9c41ec6addef5012e587e850a8d006">find_first</a> (self)</td></tr>
 <tr class="separator:aac9c41ec6addef5012e587e850a8d006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e32e17fea4f662f8a0f55fd1bcd0b6" id="r_a15e32e17fea4f662f8a0f55fd1bcd0b6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15e32e17fea4f662f8a0f55fd1bcd0b6">find_first_not_set</a> (self)</td></tr>
+<tr class="separator:a15e32e17fea4f662f8a0f55fd1bcd0b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ab474551b7e0e4e7daab1c8b5eefa77" id="r_a4ab474551b7e0e4e7daab1c8b5eefa77"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</a> (self)</td></tr>
 <tr class="separator:a4ab474551b7e0e4e7daab1c8b5eefa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa50056294318a1e11be2d832bdbd6329" id="r_aa50056294318a1e11be2d832bdbd6329"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa50056294318a1e11be2d832bdbd6329">find_last_not_set</a> (self)</td></tr>
+<tr class="separator:aa50056294318a1e11be2d832bdbd6329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd501b4c783e055396bf0665ead0566f" id="r_acd501b4c783e055396bf0665ead0566f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acd501b4c783e055396bf0665ead0566f">find_next</a> (self, int n)</td></tr>
 <tr class="separator:acd501b4c783e055396bf0665ead0566f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedde9c4ef90198acb1ddb7874ed1d491" id="r_aedde9c4ef90198acb1ddb7874ed1d491"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aedde9c4ef90198acb1ddb7874ed1d491">find_next_not_set</a> (self, int n)</td></tr>
+<tr class="separator:aedde9c4ef90198acb1ddb7874ed1d491"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa40c92a91b8d1c7040d794c24ad648f2" id="r_aa40c92a91b8d1c7040d794c24ad648f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa40c92a91b8d1c7040d794c24ad648f2">flip</a> (self, int n, int len)</td></tr>
 <tr class="separator:aa40c92a91b8d1c7040d794c24ad648f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa21f9794df710b7916cb4a61465c926f" id="r_aa21f9794df710b7916cb4a61465c926f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1BitSet.html">BitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa21f9794df710b7916cb4a61465c926f">flip</a> (self, int n)</td></tr>
@@ -323,7 +329,7 @@ Static Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><pre class="fragment">Generated from:  MR::BitSet
-Aliases:  TypedBitSet_VertId_base, TypedBitSet_UndirectedEdgeId_base, TypedBitSet_RegionId_base, TypedBitSet_PixelId_base, TypedBitSet_NodeId_base, TypedBitSet_Id_ICPElemtTag.base, TypedBitSet_Id_EdgeTag_base, TypedBitSet_TextureId_base, TypedBitSet_GraphVertId_base, TypedBitSet_GraphEdgeId_base, TypedBitSet_ObjId_base, TypedBitSet_FaceId_base, TypedBitSet_Id_VoxelTag_base
+Aliases:  TypedBitSet_VertId_base, TypedBitSet_UndirectedEdgeId_base, TypedBitSet_RegionId_base, TypedBitSet_ObjId_base, TypedBitSet_Id_VoxelTag_base, TypedBitSet_Id_ICPElemtTag.base, TypedBitSet_Id_EdgeTag_base, TypedBitSet_GraphVertId_base, TypedBitSet_FaceId_base, TypedBitSet_TextureId_base, TypedBitSet_NodeId_base, TypedBitSet_PixelId_base, TypedBitSet_GraphEdgeId_base
 
 std::vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type)
 with all bits after size() considered off during testing
@@ -1022,6 +1028,26 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
+<a id="a15e32e17fea4f662f8a0f55fd1bcd0b6" name="a15e32e17fea4f662f8a0f55fd1bcd0b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15e32e17fea4f662f8a0f55fd1bcd0b6">&#9670;&#160;</a></span>find_first_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.BitSet.find_first_not_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.
+</pre> 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#aa7a698399b07cfdfea66fcfac26128c5">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#a95d582222ce006e74451031fb5c33747">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#a33f9efbad7e33682bd52b276f5d681da">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a6f387f17c70ce9a0012596836bc1592b">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#a099ed91453d7776ce12ab92894ff25e1">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#a239889fa52e004bafeeb00089897e834">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#ad1e9d85db7a7ac046c93b2ac78f8b695">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#a15cb7493599383990b38804dd11061ed">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#a8a3e2fe4fee615c10f045703528ffc4e">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#ab4e37ff0bc7c2dc8bc6d8611889f4d20">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#aa0a8b017c729715b5dddfb08af590b6b">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#a3c8e127ded43321cfa7948e30aa92909">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#ac916f7c5d428b672a2882e348ab0104e">mrmeshpy.VertBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#acab64ac597359b36fde48930796510e1">mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
 <a id="a4ab474551b7e0e4e7daab1c8b5eefa77" name="a4ab474551b7e0e4e7daab1c8b5eefa77"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ab474551b7e0e4e7daab1c8b5eefa77">&#9670;&#160;</a></span>find_last()</h2>
 
@@ -1039,6 +1065,26 @@ with all bits after size() considered off during testing
 <pre class="fragment">return the highest index i such that bit i is set, or npos if *this has no on bits.
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ad359c19c1f12a9e9e9c8fbb0bd6d3167">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#afb8f921efb75226404e1b892fc0e43c0">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#aa83ac1b1692331b568641a319933503c">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a8edd547225e693382746b0299aef9388">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#a7a92107f11a2b0e7b0d12974f9fb53c8">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#ad61a251c87e3505ef479a64eb7717bf1">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#a42b3b083b9308fa806d675b9fe7bcfa4">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#aad4483588a17bac79e535127f61cf858">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#adf402872183efd9c4c820c114c5c6f10">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a571502dc19850d5c31a328eef68e03dc">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#acc94baee8652ea8a8a7de33127227dd6">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#a4f288a402a0b5ec5712b095bfc7fb7c0">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#a671d974e3917cbd35d21d166c5ef3a41">mrmeshpy.VertBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#af7b90fd322ab453457965f3d6fb4ee3e">mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="aa50056294318a1e11be2d832bdbd6329" name="aa50056294318a1e11be2d832bdbd6329"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa50056294318a1e11be2d832bdbd6329">&#9670;&#160;</a></span>find_last_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.BitSet.find_last_not_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the highest index i such that bit i is NOT set, or npos if *this has no off bits.
+</pre> 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ac7579e3e22721adaf74d8afc518c80e6">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#a823b660dad6a9a86be0748a4fb16b8c5">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#a7879496e5e51cd78b4b379167043229b">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a85ad329887df12196c2ab6e3c0d758e3">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#a948ddf1da0df67feab78d7f8ff784ec8">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#adf6934eae39416c49bcdd098e92a79fd">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#ad840ade9c170cfa8ccb354e68609ae43">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#abeec9e1de85bb3fd0ecd7787b88458b4">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#a3171b0ec7e57778181ae4bbf81059940">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a13010249fb1e6b145e303fbf48c20f00">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#a19ee18a1a8a6cce4427ba1fd7f9fd8b8">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#a724037bed7394235c789ca5eef62f3bb">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#a169bba1ee3147cab63d3d2d057756ec5">mrmeshpy.VertBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#a32025a9a357b3de1cdcd85e3d0586f93">mrmeshpy.VoxelBitSet</a>.</p>
 
 </div>
 </div>
@@ -1063,6 +1109,30 @@ with all bits after size() considered off during testing
 <pre class="fragment">return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
 </pre> 
 <p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#a0359bb848048126c91635b9309d8930e">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#afde3b1c767b3b0e1479d6aaecd46f476">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#a781a209eb157323a9f2a2249d5d33fd2">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#a9878d6692e41f37978220ed9fa10ef9f">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#abcdb32afecad1a99cc336bffd68cb22c">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#a1f6bb3ec166a5bcd6456136b07c6b0f8">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#addc06e184fcdcf2d484652ab96eaa896">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#ae22ca0ecd8871e4bd47ee960d324a4c2">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#abca5ffcd03be461170f51aa406295386">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a030744dec45f9c89270cfbe2ca9b69ed">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#afbbed3df55e9097bba234b4cec07d26e">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#abffcb4f22ada0bc5604e1f5605a61c1f">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#acdf8c8b798c4ca1df71ddf3ef059f89c">mrmeshpy.VertBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#a50a588ed9584751381443629ee9afbeb">mrmeshpy.VoxelBitSet</a>.</p>
+
+</div>
+</div>
+<a id="aedde9c4ef90198acb1ddb7874ed1d491" name="aedde9c4ef90198acb1ddb7874ed1d491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedde9c4ef90198acb1ddb7874ed1d491">&#9670;&#160;</a></span>find_next_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> int mrmeshpy.BitSet.find_next_not_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.
+</pre> 
+<p>Reimplemented in <a class="el" href="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet.html#ad7f96da04bb501dc7804a779210ac104">mrmeshpy.AABBTreePoints.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1EdgeBitSet.html#ac461c21b7ff8ca492e862444617d86a1">mrmeshpy.EdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1FaceBitSet.html#a9b58c9ff3bc0d8243a47dc1e4a2293c1">mrmeshpy.FaceBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphEdgeBitSet.html#ae7a682d8744a980d567533397d2b2aaf">mrmeshpy.GraphEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1GraphVertBitSet.html#a8195abf86c018c447975e234129e57f1">mrmeshpy.GraphVertBitSet</a>, <a class="el" href="classmrmeshpy_1_1NodeBitSet.html#ab06219635d165d28fb8cefad351738fb">mrmeshpy.NodeBitSet</a>, <a class="el" href="classmrmeshpy_1_1ObjBitSet.html#ab972764816f073d8d5435aa5b7d8644b">mrmeshpy.ObjBitSet</a>, <a class="el" href="classmrmeshpy_1_1PixelBitSet.html#a869a8a27cd4b318ea62de1a65906b29b">mrmeshpy.PixelBitSet</a>, <a class="el" href="classmrmeshpy_1_1RegionBitSet.html#a60f5ae876a44bf2f8e94ccd8b3252d0b">mrmeshpy.RegionBitSet</a>, <a class="el" href="classmrmeshpy_1_1TextureBitSet.html#a110f217485b5b44983b74dd7423432c8">mrmeshpy.TextureBitSet</a>, <a class="el" href="classmrmeshpy_1_1TypedBitSet__Id__ICPElemtTag.html#ac71600f0c7b2bab43587a960b7cf94ec">mrmeshpy.TypedBitSet_Id_ICPElemtTag</a>, <a class="el" href="classmrmeshpy_1_1UndirectedEdgeBitSet.html#ac625bd7e1db890a1044f776017a6debf">mrmeshpy.UndirectedEdgeBitSet</a>, <a class="el" href="classmrmeshpy_1_1VertBitSet.html#a6839e52fa239b37b920076176e97624a">mrmeshpy.VertBitSet</a>, and <a class="el" href="classmrmeshpy_1_1VoxelBitSet.html#a19dca89f77dfc0e56adbde98e6a7c0ed">mrmeshpy.VoxelBitSet</a>.</p>
 
 </div>
 </div>

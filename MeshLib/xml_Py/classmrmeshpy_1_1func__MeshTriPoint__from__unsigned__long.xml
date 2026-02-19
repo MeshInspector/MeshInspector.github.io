@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_MeshTriPoint_from_unsigned_long</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a464e45c704cb5633db9f12d6b5a44892" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_MeshTriPoint_from_unsigned_long.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_MeshTriPoint_from_unsigned_long.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75410" bodyend="75411"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a137a3c69fe77ab299ad3374d33a30bfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.func_MeshTriPoint_from_unsigned_long.__call__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_MeshTriPoint_from_unsigned_long.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75412" bodyend="75413"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a34662cba94ba873353d7597420e7d731" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_MeshTriPoint_from_unsigned_long.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_MeshTriPoint_from_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75415" bodyend="75416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1ac6e71b760b423a3b4dc5cab6afca7c0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_MeshTriPoint_from_unsigned_long.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_MeshTriPoint_from_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75418" bodyend="75419"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a30c2efb7d43262ecf28ca3db03d9c7c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_MeshTriPoint_from_unsigned_long.__init__</definition>
+        <argsstring>(self, func_MeshTriPoint_from_unsigned_long arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_MeshTriPoint_from_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long" kindref="compound">func_MeshTriPoint_from_unsigned_long</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75421" bodyend="75422"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a1705e7fd4309972e3f051429b8792320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_MeshTriPoint_from_unsigned_long.__init__</definition>
+        <argsstring>(self, typing.Callable[[int], MeshTriPoint] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_MeshTriPoint_from_unsigned_long.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[int]</array>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref>]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75424" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75424" bodyend="75425"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1ac5581ec437c6e708be61420ff32d9581" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_MeshTriPoint_from_unsigned_long.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_MeshTriPoint_from_unsigned_long.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75426" bodyend="75429"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1ac63b1f1e32f2ff08635449c3d0ad2229" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_MeshTriPoint_from_unsigned_long.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_MeshTriPoint_from_unsigned_long.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75430" bodyend="75433"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75409" bodyend="75433"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a464e45c704cb5633db9f12d6b5a44892" prot="public" virt="non-virtual"><scope>mrmeshpy::func_MeshTriPoint_from_unsigned_long</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a137a3c69fe77ab299ad3374d33a30bfd" prot="public" virt="non-virtual"><scope>mrmeshpy::func_MeshTriPoint_from_unsigned_long</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a34662cba94ba873353d7597420e7d731" prot="public" virt="non-virtual"><scope>mrmeshpy::func_MeshTriPoint_from_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1ac6e71b760b423a3b4dc5cab6afca7c0d" prot="public" virt="non-virtual"><scope>mrmeshpy::func_MeshTriPoint_from_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a30c2efb7d43262ecf28ca3db03d9c7c2" prot="public" virt="non-virtual"><scope>mrmeshpy::func_MeshTriPoint_from_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1a1705e7fd4309972e3f051429b8792320" prot="public" virt="non-virtual"><scope>mrmeshpy::func_MeshTriPoint_from_unsigned_long</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1ac5581ec437c6e708be61420ff32d9581" prot="public" virt="non-virtual"><scope>mrmeshpy::func_MeshTriPoint_from_unsigned_long</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__MeshTriPoint__from__unsigned__long_1ac63b1f1e32f2ff08635449c3d0ad2229" prot="public" virt="non-virtual"><scope>mrmeshpy::func_MeshTriPoint_from_unsigned_long</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

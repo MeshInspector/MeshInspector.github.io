@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Polynomial__Float__5" kind="class" language="C#" prot="public">
+    <compoundname>MR::Polynomial_Float_5</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Polynomial_Float_5</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__5_1a4d46b0b5cb5bff65fa61eb3a4d983e1e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Polynomial_Float_5.Polynomial_Float_5</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Polynomial_Float_5</name>
+        <qualifiedname>MR.Polynomial_Float_5.Polynomial_Float_5</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1036" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1036" bodyend="1036"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__5_1a5a0dde0bdabca9d5706a0d36423ecc31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Polynomial_Float_5.Polynomial_Float_5</definition>
+        <argsstring>()</argsstring>
+        <name>Polynomial_Float_5</name>
+        <qualifiedname>MR.Polynomial_Float_5.Polynomial_Float_5</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1041" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1041" bodyend="1046"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__5_1ad1c387397e8dab6140f5291c828376f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Polynomial_Float_5.Polynomial_Float_5</definition>
+        <argsstring>(MR.Const_Polynomial_Float_5 _other)</argsstring>
+        <name>Polynomial_Float_5</name>
+        <qualifiedname>MR.Polynomial_Float_5.Polynomial_Float_5</qualifiedname>
+        <param>
+          <type>MR.Const_Polynomial_Float_5</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Polynomial&lt;float, 5&gt;::Polynomial</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1051" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1051" bodyend="1057"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__5_1a38ece2adab648f79b9b95714982a6079" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Polynomial_Float_5.Polynomial_Float_5</definition>
+        <argsstring>(Polynomial_Float_5 _other)</argsstring>
+        <name>Polynomial_Float_5</name>
+        <qualifiedname>MR.Polynomial_Float_5.Polynomial_Float_5</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Polynomial__Float__5" kindref="compound">Polynomial_Float_5</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Polynomial&lt;float, 5&gt;::Polynomial</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1062" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1062" bodyend="1062"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Polynomial__Float__5_1abc2f082f8398631a22ddee373c19f48a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Polynomial__Float__5" kindref="compound">MR.Polynomial_Float_5</ref></type>
+        <definition>unsafe MR.Polynomial_Float_5 MR.Polynomial_Float_5.assign</definition>
+        <argsstring>(MR.Const_Polynomial_Float_5 _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Polynomial_Float_5.assign</qualifiedname>
+        <param>
+          <type>MR.Const_Polynomial_Float_5</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Polynomial&lt;float, 5&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1067" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1067" bodyend="1074"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.Polynomial&lt;float, 5&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Polynomial_Float_5</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Polynomial_Float_5</label>
+        <link refid="classMR_1_1Polynomial__Float__5"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Polynomial_Float_5 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Polynomial_Float_5</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Polynomial_Float_5</label>
+        <link refid="classMR_1_1Polynomial__Float__5"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Polynomial_Float_5 &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" line="1034" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBestFitPolynomial.cs" bodystart="1035" bodyend="1075"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Polynomial__Float__5_1abc2f082f8398631a22ddee373c19f48a" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_5</scope><name>assign</name></member>
+      <member refid="classMR_1_1Polynomial__Float__5_1a4d46b0b5cb5bff65fa61eb3a4d983e1e" prot="package" virt="non-virtual"><scope>MR::Polynomial_Float_5</scope><name>Polynomial_Float_5</name></member>
+      <member refid="classMR_1_1Polynomial__Float__5_1a5a0dde0bdabca9d5706a0d36423ecc31" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_5</scope><name>Polynomial_Float_5</name></member>
+      <member refid="classMR_1_1Polynomial__Float__5_1ad1c387397e8dab6140f5291c828376f0" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_5</scope><name>Polynomial_Float_5</name></member>
+      <member refid="classMR_1_1Polynomial__Float__5_1a38ece2adab648f79b9b95714982a6079" prot="public" virt="non-virtual"><scope>MR::Polynomial_Float_5</scope><name>Polynomial_Float_5</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

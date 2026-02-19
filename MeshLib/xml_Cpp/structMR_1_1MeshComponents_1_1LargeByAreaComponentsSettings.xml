@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshComponents::LargeByAreaComponentsSettings</compoundname>
+    <includes refid="MRMeshComponents_8h" local="no">MRMeshComponents.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a37b0bf2cf4c042ffe4a78515e1678539" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::MeshComponents::LargeByAreaComponentsSettings::maxLargeComponents</definition>
+        <argsstring></argsstring>
+        <name>maxLargeComponents</name>
+        <qualifiedname>MR::MeshComponents::LargeByAreaComponentsSettings::maxLargeComponents</qualifiedname>
+        <initializer>= 2</initializer>
+        <briefdescription>
+<para>return at most given number of largest by area connected components </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="82" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1aeaa75229a5b3cb60dc76ff1032f4c655" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* MR::MeshComponents::LargeByAreaComponentsSettings::numSmallerComponents</definition>
+        <argsstring></argsstring>
+        <name>numSmallerComponents</name>
+        <qualifiedname>MR::MeshComponents::LargeByAreaComponentsSettings::numSmallerComponents</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional output: the number of components in addition to returned ones </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="85" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a636d67f78f166efbfe9ac18cc9d0d530" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::MeshComponents::LargeByAreaComponentsSettings::minArea</definition>
+        <argsstring></argsstring>
+        <name>minArea</name>
+        <qualifiedname>MR::MeshComponents::LargeByAreaComponentsSettings::minArea</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>do not consider a component large if its area is below this value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="88" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a2c590ad8afff69eb55abe07326d00edf" prot="public" static="no" mutable="no">
+        <type>const UndirectedEdgeBitSet *</type>
+        <definition>const UndirectedEdgeBitSet* MR::MeshComponents::LargeByAreaComponentsSettings::isCompBd</definition>
+        <argsstring></argsstring>
+        <name>isCompBd</name>
+        <qualifiedname>MR::MeshComponents::LargeByAreaComponentsSettings::isCompBd</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>optional predicate of boundaries between components </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="91" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" line="79" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshComponents.h" bodystart="80" bodyend="92"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a2c590ad8afff69eb55abe07326d00edf" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>isCompBd</name></member>
+      <member refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a37b0bf2cf4c042ffe4a78515e1678539" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>maxLargeComponents</name></member>
+      <member refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1a636d67f78f166efbfe9ac18cc9d0d530" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>minArea</name></member>
+      <member refid="structMR_1_1MeshComponents_1_1LargeByAreaComponentsSettings_1aeaa75229a5b3cb60dc76ff1032f4c655" prot="public" virt="non-virtual"><scope>MR::MeshComponents::LargeByAreaComponentsSettings</scope><name>numSmallerComponents</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

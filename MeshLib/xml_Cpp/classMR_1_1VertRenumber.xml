@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VertRenumber" kind="class" language="C++" prot="public">
+    <compoundname>MR::VertRenumber</compoundname>
+    <includes refid="MRSaveSettings_8h" local="no">MRSaveSettings.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gabdf80f030d8484369854ab50eba8c9cf" kind="variable"><name>vert2packed_</name></member>
+      <member refid="group__GeneralGroup_1ga9b0d4fbbd62e01d4b16227197b081191" kind="variable"><name>sizeVerts_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga081d0a8f3933dd73ee062863c3644aa1" kind="function"><name>VertRenumber</name></member>
+      <member refid="group__GeneralGroup_1ga5ee74de7f5fdfc7a5230e3326b122644" kind="function"><name>saveValidOnly</name></member>
+      <member refid="group__GeneralGroup_1ga1804a1dca0466765918892c65d9436f0" kind="function"><name>sizeVerts</name></member>
+      <member refid="group__GeneralGroup_1ga4180132d13f552ef422f73a2ad0c6bdc" kind="function"><name>operator()</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>maps valid points to packed sequential indices </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="91" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="92" bodyend="112"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga4180132d13f552ef422f73a2ad0c6bdc" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga5ee74de7f5fdfc7a5230e3326b122644" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>saveValidOnly</name></member>
+      <member refid="group__GeneralGroup_1ga1804a1dca0466765918892c65d9436f0" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>sizeVerts</name></member>
+      <member refid="group__GeneralGroup_1ga9b0d4fbbd62e01d4b16227197b081191" prot="private" virt="non-virtual"><scope>MR::VertRenumber</scope><name>sizeVerts_</name></member>
+      <member refid="group__GeneralGroup_1gabdf80f030d8484369854ab50eba8c9cf" prot="private" virt="non-virtual"><scope>MR::VertRenumber</scope><name>vert2packed_</name></member>
+      <member refid="group__GeneralGroup_1ga081d0a8f3933dd73ee062863c3644aa1" prot="public" virt="non-virtual"><scope>MR::VertRenumber</scope><name>VertRenumber</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

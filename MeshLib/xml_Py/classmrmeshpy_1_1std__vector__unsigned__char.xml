@@ -1,0 +1,765 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__unsigned__char" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_unsigned_char</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__unsigned__char_1a26819adbb2a8c9e10225ff6a0f6d7b04" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_unsigned_char::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95054" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__unsigned__char_1acf581dd783a31e50c114f1526d8e097d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_unsigned_char::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.element_type_byte_size</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95055" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ac03c86df0235761ad6b7ba3183a90773" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_unsigned_char.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95056" bodyend="95059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1aea6c6299467f7ddc65ae9f18499cd741" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_unsigned_char.__contains__</definition>
+        <argsstring>(self, int x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95060" bodyend="95063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ab21eddbb5a504bb3b94cb64715a05c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95065" bodyend="95068"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a6a528bc05fdef54412997bf68a40f362" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95070" bodyend="95073"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a5cc2b10e6ce7ddac9c45daae6ee59b40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_unsigned_char.__eq__</definition>
+        <argsstring>(self, std_vector_unsigned_char arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95074" bodyend="95075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a38d1c360f9bd688f3bed1316035272fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+        <definition> std_vector_unsigned_char mrmeshpy.std_vector_unsigned_char.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95077" bodyend="95080"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ac7c61fff671e95d69b22783bd86129c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_unsigned_char.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95082" bodyend="95083"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ae371825da33e34ba3a7c291b64b4eb0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95085" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95085" bodyend="95086"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a182f32a75176dd64179e3c04e6b56fe5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95088" bodyend="95089"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ad7c0dc6f7747c9046000a6cfeb791632" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.__init__</definition>
+        <argsstring>(self, std_vector_unsigned_char arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95091" bodyend="95092"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ad0c64352309f3ba5c052bd43d2a2cb6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[int]</type>
+        <definition> typing.Iterator[int] mrmeshpy.std_vector_unsigned_char.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95093" bodyend="95094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a5377eb4f866f6e31850be1e31bef950c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_unsigned_char.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95095" bodyend="95096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a2516e80cd00ac4082dec77c1f8b9b69e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_unsigned_char.__ne__</definition>
+        <argsstring>(self, std_vector_unsigned_char arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95097" bodyend="95098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1aaf64492f00cc7829a45ac08065251ff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_vector_unsigned_char.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95099" bodyend="95102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a714f3d46e9e3a62994a1a28eefcadd18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.__setitem__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95104" bodyend="95105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a55d524ce9ae2b6882d83c1bc58250069" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_unsigned_char arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95107" bodyend="95110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ad619d450c813b40b1a9e7dc5309f5e18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.append</definition>
+        <argsstring>(self, int x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95111" bodyend="95114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a8db97e15b26db36083a04779d48b911d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95115" bodyend="95118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ab731e5264efde6f788f9b6139911cbb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_unsigned_char.count</definition>
+        <argsstring>(self, int x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95119" bodyend="95122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ae058d60e3e39cb26f96776b7a0fbc94d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_unsigned_char.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95123" bodyend="95126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ab1aa094aac99d09dbe4afb5fa80f9c78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_unsigned_char.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95127" bodyend="95128"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a8c26c26775aa3dcebd147c88b87ca8dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.extend</definition>
+        <argsstring>(self, std_vector_unsigned_char L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__unsigned__char" kindref="compound">std_vector_unsigned_char</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95130" bodyend="95133"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a28ca24f773bd0d8d0eceea92b60729f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95135" bodyend="95138"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a5891e053477d8b8d331e0a0dcdea0b67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.insert</definition>
+        <argsstring>(self, int i, int x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95139" bodyend="95142"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a4226c481850f377021e0c219591e133d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_unsigned_char.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95144" bodyend="95147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ac1c1bbbc7965f4f4ea6226a19af8615f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_unsigned_char.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95149" bodyend="95152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1aa0a95fadee796b6954f72b613b850c9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.remove</definition>
+        <argsstring>(self, int x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95153" bodyend="95156"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a818bd454921678659b2996a7bd85cdcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95158" bodyend="95159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1ad2c33600ebb29a4fbed12147630296c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_unsigned_char.resize</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95161" bodyend="95162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__unsigned__char_1a33cb8c1aeb9626d9426a01b2acac79cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_unsigned_char.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_unsigned_char.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95163" bodyend="95164"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_vector_uint8_t, std_vector_uint8_t
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_unsigned_char</label>
+        <link refid="classmrmeshpy_1_1std__vector__unsigned__char"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="95050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="95050" bodyend="95164"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ac03c86df0235761ad6b7ba3183a90773" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1aea6c6299467f7ddc65ae9f18499cd741" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ab21eddbb5a504bb3b94cb64715a05c6a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a6a528bc05fdef54412997bf68a40f362" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a5cc2b10e6ce7ddac9c45daae6ee59b40" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a38d1c360f9bd688f3bed1316035272fc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ac7c61fff671e95d69b22783bd86129c4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a26819adbb2a8c9e10225ff6a0f6d7b04" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ae371825da33e34ba3a7c291b64b4eb0a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a182f32a75176dd64179e3c04e6b56fe5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ad7c0dc6f7747c9046000a6cfeb791632" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ad0c64352309f3ba5c052bd43d2a2cb6c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a5377eb4f866f6e31850be1e31bef950c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a2516e80cd00ac4082dec77c1f8b9b69e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1aaf64492f00cc7829a45ac08065251ff4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a714f3d46e9e3a62994a1a28eefcadd18" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a55d524ce9ae2b6882d83c1bc58250069" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ad619d450c813b40b1a9e7dc5309f5e18" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a8db97e15b26db36083a04779d48b911d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ab731e5264efde6f788f9b6139911cbb4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ae058d60e3e39cb26f96776b7a0fbc94d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1acf581dd783a31e50c114f1526d8e097d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ab1aa094aac99d09dbe4afb5fa80f9c78" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a8c26c26775aa3dcebd147c88b87ca8dd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a28ca24f773bd0d8d0eceea92b60729f9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a5891e053477d8b8d331e0a0dcdea0b67" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a4226c481850f377021e0c219591e133d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ac1c1bbbc7965f4f4ea6226a19af8615f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1aa0a95fadee796b6954f72b613b850c9a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a818bd454921678659b2996a7bd85cdcf" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1ad2c33600ebb29a4fbed12147630296c4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__unsigned__char_1a33cb8c1aeb9626d9426a01b2acac79cd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_unsigned_char</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

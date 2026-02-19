@@ -13,6 +13,6 @@ var classmrmeshpy_1_1PointToPlaneAligningTransform =
     [ "findBestRigidXf", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#aaf46fd7ab8ab6fa0018cc36ab09d965f", null ],
     [ "findBestRigidXfFixedRotationAxis", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a0bfc7aa4f1f1960f9921baf1853e2d4f", null ],
     [ "findBestRigidXfOrthogonalRotationAxis", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a5037f0578da6cb55634b90dc272d214a", null ],
-    [ "findBestTranslation", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#ad75c6d55085f44e1584b7b50681203d2", null ],
+    [ "findBestTranslation", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#a04bd70a8289cbba92842fcdf19fc56ed", null ],
     [ "prepare", "classmrmeshpy_1_1PointToPlaneAligningTransform.html#ac7e556070b0858e2726569e3e212e09c", null ]
 ];

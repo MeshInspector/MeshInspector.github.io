@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ExtremeEdgeType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ExtremeEdgeType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ExtremeEdgeType_1ac70dcf3c5289455ee8188bc2790600d6" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ExtremeEdgeType::Gorge</definition>
+        <argsstring></argsstring>
+        <name>Gorge</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.Gorge</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ExtremeEdgeType" kindref="compound">ExtremeEdgeType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ExtremeEdgeType_1afe4402c4dcd37ba4396fa169bdde5f92" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ExtremeEdgeType::Ridge</definition>
+        <argsstring></argsstring>
+        <name>Ridge</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.Ridge</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ExtremeEdgeType" kindref="compound">ExtremeEdgeType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16292" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ExtremeEdgeType_1af0260d8166709f0eeb52ff13b3427665" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ExtremeEdgeType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1ExtremeEdgeType" kindref="compound">ExtremeEdgeType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16293" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1a59635c19c46782a2da4b9b1b6c18961f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ExtremeEdgeType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16294" bodyend="16295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1a92ce79d937fdbeb02c31632167e3d416" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ExtremeEdgeType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16296" bodyend="16297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1a57152590313a1dc1d2ee2d54c7b87f32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ExtremeEdgeType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16298" bodyend="16299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1a0dad09717ed3ff20c857f4fb5770d16f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ExtremeEdgeType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16300" bodyend="16301"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1a61f99364986b53b378004a05e6f3bd2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ExtremeEdgeType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16302" bodyend="16303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1af0b5e786b5398311998ad26a0a406f17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ExtremeEdgeType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16304" bodyend="16305"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1a3425c7dab22143be6d725ff82e71db9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ExtremeEdgeType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16306" bodyend="16307"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1ad1b9283c17bc7dc7d41c6f90242cadff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ExtremeEdgeType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16308" bodyend="16309"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1abca4c4123eeb94fdd531f22d243cb53e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ExtremeEdgeType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16310" bodyend="16311"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1a45f7770dfd6f23cfc463beef606ee64e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ExtremeEdgeType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16312" bodyend="16313"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1a6e4bce16adc73703bf59bafffacc5cfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ExtremeEdgeType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16315" bodyend="16316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ExtremeEdgeType_1a7dbff1fa146049220a20ade1373784ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ExtremeEdgeType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.ExtremeEdgeType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16318" bodyend="16319"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Ridge : where the field not-increases both in left and right triangles
+
+  Gorge : where the field not-decreases both in left and right triangles
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ExtremeEdgeType</label>
+        <link refid="classmrmeshpy_1_1ExtremeEdgeType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Gorge</edgelabel>
+          <edgelabel>Ridge</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="16283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="16283" bodyend="16319"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1a59635c19c46782a2da4b9b1b6c18961f" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1a92ce79d937fdbeb02c31632167e3d416" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1a57152590313a1dc1d2ee2d54c7b87f32" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1a0dad09717ed3ff20c857f4fb5770d16f" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1a61f99364986b53b378004a05e6f3bd2b" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1af0b5e786b5398311998ad26a0a406f17" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1af0260d8166709f0eeb52ff13b3427665" prot="private" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1a3425c7dab22143be6d725ff82e71db9c" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1ad1b9283c17bc7dc7d41c6f90242cadff" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1abca4c4123eeb94fdd531f22d243cb53e" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1a45f7770dfd6f23cfc463beef606ee64e" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1ac70dcf3c5289455ee8188bc2790600d6" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>Gorge</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1a6e4bce16adc73703bf59bafffacc5cfe" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1afe4402c4dcd37ba4396fa169bdde5f92" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>Ridge</name></member>
+      <member refid="classmrmeshpy_1_1ExtremeEdgeType_1a7dbff1fa146049220a20ade1373784ab" prot="public" virt="non-virtual"><scope>mrmeshpy::ExtremeEdgeType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

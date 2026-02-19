@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CoordinateConverters2" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CoordinateConverters2</compoundname>
+    <includes refid="MRPrecisePredicates2_8h" local="no">MRPrecisePredicates2.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaec74867bf6fa21b7d48dfabf36194f8c" kind="variable"><name>toInt</name></member>
+      <member refid="group__GeneralGroup_1ga7914d773b759411e23efd36b3c2fcc46" kind="variable"><name>toFloat</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>this struct contains coordinate converters float-int-float </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" line="83" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPrecisePredicates2.h" bodystart="84" bodyend="87"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7914d773b759411e23efd36b3c2fcc46" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toFloat</name></member>
+      <member refid="group__GeneralGroup_1gaec74867bf6fa21b7d48dfabf36194f8c" prot="public" virt="non-virtual"><scope>MR::CoordinateConverters2</scope><name>toInt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

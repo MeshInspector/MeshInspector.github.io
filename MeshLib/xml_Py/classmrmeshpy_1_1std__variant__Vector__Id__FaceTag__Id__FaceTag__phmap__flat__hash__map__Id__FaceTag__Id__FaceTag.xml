@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a89a7a564d50a6fef96c1cc0bb38b1381" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79250" bodyend="79251"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1aae86c0facfe631ed0bf43ec4915f64bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.__init__</definition>
+        <argsstring>(self, std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79253" bodyend="79254"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a13fda09ae9bdcd3e35a7e44dd54eec53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.__init__</definition>
+        <argsstring>(self, FaceMap arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79256" bodyend="79257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a8c75c0bc97204af12344686f465b10d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.__init__</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_FaceTag_Id_FaceTag arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79259" bodyend="79260"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a936eceff3fc54b2e590f8715862ab927" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.current_type</definition>
+        <argsstring>(self)</argsstring>
+        <name>current_type</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.current_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the current type name as a string. Call `get_&lt;TypeName&gt;()` to get the value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79261" bodyend="79264"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a963c76466773e603c9826b2e019fbdb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceMap" kindref="compound">FaceMap</ref></type>
+        <definition> FaceMap mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.get_Vector_Id_FaceTag_Id_FaceTag</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_Vector_Id_FaceTag_Id_FaceTag</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.get_Vector_Id_FaceTag_Id_FaceTag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79265" bodyend="79268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a5b5b93770b6b6fec0cdbacf2de37078d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__FaceTag__Id__FaceTag" kindref="compound">phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_FaceTag_Id_FaceTag mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.get_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</name>
+        <qualifiedname>mrmeshpy.std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag.get_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79269" bodyend="79272"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_variant_FaceMap_phmap_flat_hash_map_FaceId_FaceId
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79245" bodyend="79272"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a89a7a564d50a6fef96c1cc0bb38b1381" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1aae86c0facfe631ed0bf43ec4915f64bd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a13fda09ae9bdcd3e35a7e44dd54eec53" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a8c75c0bc97204af12344686f465b10d8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a936eceff3fc54b2e590f8715862ab927" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</scope><name>current_type</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a5b5b93770b6b6fec0cdbacf2de37078d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</scope><name>get_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__Vector__Id__FaceTag__Id__FaceTag__phmap__flat__hash__map__Id__FaceTag__Id__FaceTag_1a963c76466773e603c9826b2e019fbdb5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_Vector_Id_FaceTag_Id_FaceTag_phmap_flat_hash_map_Id_FaceTag_Id_FaceTag</scope><name>get_Vector_Id_FaceTag_Id_FaceTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

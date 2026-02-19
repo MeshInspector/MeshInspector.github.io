@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointToPointAligningTransform" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointToPointAligningTransform</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1a9e76a3b8fa548f254abc5ad98417f0d1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointToPointAligningTransform.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45121" bodyend="45122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1ab85363035be72ec57628bac4cf1d0585" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointToPointAligningTransform" kindref="compound">PointToPointAligningTransform</ref></type>
+        <definition> PointToPointAligningTransform mrmeshpy.PointToPointAligningTransform.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45125" bodyend="45126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1ab85363035be72ec57628bac4cf1d0585" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PointToPointAligningTransform" kindref="compound">PointToPointAligningTransform</ref></type>
+        <definition> PointToPointAligningTransform mrmeshpy.PointToPointAligningTransform.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45129" bodyend="45130"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1aefc8cd26b42a002f00d377e3782dfd36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointToPointAligningTransform.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45132" bodyend="45133"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1acd8ca40f2984539da64f075b8df2ced7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointToPointAligningTransform.__init__</definition>
+        <argsstring>(self, PointToPointAligningTransform arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointToPointAligningTransform" kindref="compound">PointToPointAligningTransform</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45135" bodyend="45138"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1a2f7672f353a33d7dc062b6a7ff3a42d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointToPointAligningTransform.add</definition>
+        <argsstring>(self, Vector3d p1, Vector3d p2, float w=1)</argsstring>
+        <name>add</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.add</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add one pair of points in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45140" bodyend="45143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1a86aca32140f4b9131b96438aa438257f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointToPointAligningTransform.add</definition>
+        <argsstring>(self, Vector3f p1, Vector3f p2, float w=1)</argsstring>
+        <name>add</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.add</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>p2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>w</declname>
+          <defval>1</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add one pair of points in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45145" bodyend="45148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1a99ef5a6899ef9ef3f62f43812523b674" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointToPointAligningTransform.add</definition>
+        <argsstring>(self, PointToPointAligningTransform other)</argsstring>
+        <name>add</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.add</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointToPointAligningTransform" kindref="compound">PointToPointAligningTransform</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add another two sets of points.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45150" bodyend="45153"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1a06f5228ec7537ed1f99c07f2a42f1cd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.PointToPointAligningTransform.centroid1</definition>
+        <argsstring>(self)</argsstring>
+        <name>centroid1</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.centroid1</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns weighted centroid of points p1 accumulated so far
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45154" bodyend="45157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1add80e5b98bc65a7e553832a793d9d043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.PointToPointAligningTransform.centroid2</definition>
+        <argsstring>(self)</argsstring>
+        <name>centroid2</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.centroid2</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns weighted centroid of points p2 accumulated so far
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45158" bodyend="45161"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1af7ecc47ed4f45dbafcb3a97290fe5608" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointToPointAligningTransform.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear sets.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45162" bodyend="45165"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1ae5844d95a13818a56208cc43467ef5a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+        <definition> AffineXf3d mrmeshpy.PointToPointAligningTransform.findBestRigidScaleXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>findBestRigidScaleXf</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.findBestRigidScaleXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this version searches for best rigid body transformation with uniform scaling
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45166" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45166" bodyend="45169"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1a8dd90117267caa4d674c2b57fced2b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+        <definition> AffineXf3d mrmeshpy.PointToPointAligningTransform.findBestRigidXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>findBestRigidXf</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.findBestRigidXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Compute transformation as the solution to a least squares formulation of the problem:
+xf( p1_i ) = p2_i
+this version searches for best rigid body transformation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45170" bodyend="45175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1a1d9af44bb970190386e87524942739ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+        <definition> AffineXf3d mrmeshpy.PointToPointAligningTransform.findBestRigidXfFixedRotationAxis</definition>
+        <argsstring>(self, Vector3d axis)</argsstring>
+        <name>findBestRigidXfFixedRotationAxis</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.findBestRigidXfFixedRotationAxis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>axis</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this version searches for best transformation where rotation is allowed only around given axis and with arbitrary translation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45176" bodyend="45179"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1a072fe7b97e3316f25be0e81c97b89f2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3d" kindref="compound">AffineXf3d</ref></type>
+        <definition> AffineXf3d mrmeshpy.PointToPointAligningTransform.findBestRigidXfOrthogonalRotationAxis</definition>
+        <argsstring>(self, Vector3d ort)</argsstring>
+        <name>findBestRigidXfOrthogonalRotationAxis</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.findBestRigidXfOrthogonalRotationAxis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>ort</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this version searches for best transformation where rotation is allowed only around axes orthogonal to given one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45180" bodyend="45183"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1aa604841eef0cad219d89099521b7b43a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.PointToPointAligningTransform.findBestTranslation</definition>
+        <argsstring>(self)</argsstring>
+        <name>findBestTranslation</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.findBestTranslation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Simplified solution for translational part only
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45184" bodyend="45187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointToPointAligningTransform_1a83e6b5e2f4393c733362311ea57600d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PointToPointAligningTransform.totalWeight</definition>
+        <argsstring>(self)</argsstring>
+        <name>totalWeight</name>
+        <qualifiedname>mrmeshpy.PointToPointAligningTransform.totalWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns summed weight of points accumulated so far
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45188" bodyend="45191"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointToPointAligningTransform
+
+This class and its main method can be used to solve the problem well-known as the absolute orientation problem.
+It means computing the transformation that aligns two sets of points for which correspondence is known.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="45112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="45112" bodyend="45191"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a9e76a3b8fa548f254abc5ad98417f0d1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1aefc8cd26b42a002f00d377e3782dfd36" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1acd8ca40f2984539da64f075b8df2ced7" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a2f7672f353a33d7dc062b6a7ff3a42d5" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>add</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a86aca32140f4b9131b96438aa438257f" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>add</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a99ef5a6899ef9ef3f62f43812523b674" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>add</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a06f5228ec7537ed1f99c07f2a42f1cd1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>centroid1</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1add80e5b98bc65a7e553832a793d9d043" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>centroid2</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1af7ecc47ed4f45dbafcb3a97290fe5608" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1ae5844d95a13818a56208cc43467ef5a1" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>findBestRigidScaleXf</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a8dd90117267caa4d674c2b57fced2b52" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>findBestRigidXf</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a1d9af44bb970190386e87524942739ba" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>findBestRigidXfFixedRotationAxis</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a072fe7b97e3316f25be0e81c97b89f2b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>findBestRigidXfOrthogonalRotationAxis</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1aa604841eef0cad219d89099521b7b43a" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>findBestTranslation</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1ab85363035be72ec57628bac4cf1d0585" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1ab85363035be72ec57628bac4cf1d0585" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PointToPointAligningTransform_1a83e6b5e2f4393c733362311ea57600d6" prot="public" virt="non-virtual"><scope>mrmeshpy::PointToPointAligningTransform</scope><name>totalWeight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IRenderObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::IRenderObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_IRenderObject</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1a08f4cf1a76edd83a3f337f05cbdf06c4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IRenderObject.IRenderObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>IRenderObject</name>
+        <qualifiedname>MR.IRenderObject.IRenderObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1721" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1721" bodyend="1721"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1a9ed7812a9fd0bf23d66bb0e8bdd98763" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.IRenderObject.render</definition>
+        <argsstring>(MR.Const_ModelRenderParams params_)</argsstring>
+        <name>render</name>
+        <qualifiedname>MR.IRenderObject.render</qualifiedname>
+        <param>
+          <type>MR.Const_ModelRenderParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1IRenderObject_1a9ed7812a9fd0bf23d66bb0e8bdd98763" kindref="member">MR.IRenderObject.render</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1727" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1727" bodyend="1732"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1aa3bb34a2090a56ca3f531776ee40df4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.IRenderObject.renderPicker</definition>
+        <argsstring>(MR.Const_ModelBaseRenderParams params_, uint geomId)</argsstring>
+        <name>renderPicker</name>
+        <qualifiedname>MR.IRenderObject.renderPicker</qualifiedname>
+        <param>
+          <type>MR.Const_ModelBaseRenderParams</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>geomId</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1IRenderObject_1aa3bb34a2090a56ca3f531776ee40df4e" kindref="member">MR.IRenderObject.renderPicker</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1737" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1737" bodyend="1742"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1a7a7a26ea0fa7594af0c9aec68c05622e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.IRenderObject.forceBindAll</definition>
+        <argsstring>()</argsstring>
+        <name>forceBindAll</name>
+        <qualifiedname>MR.IRenderObject.forceBindAll</qualifiedname>
+        <briefdescription>
+<para>binds all data for this render object, not to bind ever again (until object becomes dirty) Generated from method <computeroutput><ref refid="classMR_1_1IRenderObject_1a7a7a26ea0fa7594af0c9aec68c05622e" kindref="member">MR.IRenderObject.forceBindAll</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1748" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1748" bodyend="1753"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IRenderObject_1a7232b508c4785a0822786a82be485d32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.IRenderObject.renderUi</definition>
+        <argsstring>(MR.Const_UiRenderParams params_)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>MR.IRenderObject.renderUi</qualifiedname>
+        <param>
+          <type>MR.Const_UiRenderParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Render the UI. This is repeated for each viewport. Here you can either render immediately, or insert a task into <computeroutput>params.tasks</computeroutput>, which get Z-sorted. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><itemizedlist>
+<listitem><para><computeroutput>params</computeroutput> will remain alive as long as the tasks are used.</para>
+</listitem><listitem><para>You&apos;ll have at most one living task at a time, so you can write a non-owning pointer to an internal task. Generated from method <computeroutput><ref refid="classMR_1_1IRenderObject_1a7232b508c4785a0822786a82be485d32" kindref="member">MR.IRenderObject.renderUi</ref></computeroutput>. </para>
+</listitem></itemizedlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1762" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1762" bodyend="1767"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1IRenderObject" kindref="compound">MR.IRenderObject</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_IRenderObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_IRenderObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_IRenderObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_IRenderObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" line="1719" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIRenderObject.cs" bodystart="1720" bodyend="1768"/>
+    <listofallmembers>
+      <member refid="classMR_1_1IRenderObject_1a7a7a26ea0fa7594af0c9aec68c05622e" prot="public" virt="non-virtual"><scope>MR::IRenderObject</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1IRenderObject_1a08f4cf1a76edd83a3f337f05cbdf06c4" prot="package" virt="non-virtual"><scope>MR::IRenderObject</scope><name>IRenderObject</name></member>
+      <member refid="classMR_1_1IRenderObject_1a9ed7812a9fd0bf23d66bb0e8bdd98763" prot="public" virt="non-virtual"><scope>MR::IRenderObject</scope><name>render</name></member>
+      <member refid="classMR_1_1IRenderObject_1aa3bb34a2090a56ca3f531776ee40df4e" prot="public" virt="non-virtual"><scope>MR::IRenderObject</scope><name>renderPicker</name></member>
+      <member refid="classMR_1_1IRenderObject_1a7232b508c4785a0822786a82be485d32" prot="public" virt="non-virtual"><scope>MR::IRenderObject</scope><name>renderUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneRootObject" kind="class" language="C++" prot="public" final="yes">
+    <compoundname>MR::SceneRootObject</compoundname>
+    <basecompoundref refid="classMR_1_1Object" prot="public" virt="non-virtual">MR::Object</basecompoundref>
+    <includes refid="MRSceneRoot_8h" local="no">MRSceneRoot.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaabf2097a61d2a53dc16bb394cf189819" kind="function"><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga1ab8d75a25ddf033c08c2b9a4b302a9d" kind="function"><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1gaf5adb3060c521b2e091eff673e8780ce" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaad4cb500e812e5cb62aed870ed071f32" kind="function"><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga18fd1eac2059efc7aea278bf5b40b117" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1gad952f05d8831d2c2c4f23eaf64a7eb2b" kind="function"><name>className</name></member>
+      <member refid="group__GeneralGroup_1ga0365961619ae29084f8a720258c4de70" kind="function"><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gac7be5a6d3c8807056129ae71238b9798" kind="function"><name>setAncillary</name></member>
+      <member refid="group__GeneralGroup_1ga9ed64e227f3e1aa208193f4cfe051ddc" kind="function"><name>select</name></member>
+      <member refid="group__GeneralGroup_1ga0f1d78f37dfc7faf40bed924c76deca1" kind="function"><name>setName</name></member>
+      <member refid="group__GeneralGroup_1ga1f6fca865f862aaeeb84eb4cd40b77d1" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga4ac41df7a0bcda50ea526a4a72043a7c" kind="function"><name>cloneRoot</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga8dd94e3f37cf1c2dc3e53bebcfbd6367" kind="function"><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga542f738853b9a49786b6ca1e0f50d7d2" kind="function"><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gac102fa3cd8c6c52e18ab5e996d7c987b" kind="function"><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga0854728894db7d3f6b701dc8c7b104a7" kind="function"><name>RootName</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga08bd8d737b04194abe9ac2c4588eaa11" kind="function"><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1gac54aada747b785885fee9262ca3055a7" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga7af83e5f6a013118cfc9e837cd5d75c1" kind="function"><name>deserializeFields_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> that is parent of all scene. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneRootObject</label>
+        <link refid="classMR_1_1SceneRootObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SceneRootObject</label>
+        <link refid="classMR_1_1SceneRootObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="6">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="5">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneRoot.h" bodystart="14" bodyend="53"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>ancillary_</name></member>
+      <member refid="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>asType</name></member>
+      <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>asType</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>bastards_</name></member>
+      <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>children</name></member>
+      <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>children</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>children_</name></member>
+      <member refid="group__GeneralGroup_1gad952f05d8831d2c2c4f23eaf64a7eb2b" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>className</name></member>
+      <member refid="group__GeneralGroup_1ga0365961619ae29084f8a720258c4de70" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga1f6fca865f862aaeeb84eb4cd40b77d1" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>clone</name></member>
+      <member refid="group__GeneralGroup_1ga4ac41df7a0bcda50ea526a4a72043a7c" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>cloneRoot</name></member>
+      <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>cloneTree</name></member>
+      <member refid="group__GeneralGroup_1ga7af83e5f6a013118cfc9e837cd5d75c1" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>deserializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a694bf2e911f3079c872f0dc9c13370c9" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>deserializeModel_</name></member>
+      <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>deserializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1ad99d5459862ef664776cb3dde87df0ee" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>getInfoLines</name></member>
+      <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>getModelHash</name></member>
+      <member refid="classMR_1_1Object_1a4ae8a13d0528c5937e200015938b6dc5" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1Object_1aeb145057d6707527c3d60d9f459ec2b4" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1Object_1adc5d7c1d86bb8b8afe345a35b7c9a6bc" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>isVisible</name></member>
+      <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>locked_</name></member>
+      <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>name_</name></member>
+      <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>needRedraw_</name></member>
+      <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1ac5bae69ebe807554a5e9f8b91a89dfd6" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>onWorldXfChanged_</name></member>
+      <member refid="group__GeneralGroup_1gaf5adb3060c521b2e091eff673e8780ce" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::SceneRootObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::SceneRootObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::SceneRootObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>parent</name></member>
+      <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>parent</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>parent_</name></member>
+      <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>parentLocked_</name></member>
+      <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="classMR_1_1Object_1a0fabfb16f09fd70879a89efbb8df0da6" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>resetXf</name></member>
+      <member refid="group__GeneralGroup_1ga0854728894db7d3f6b701dc8c7b104a7" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>RootName</name></member>
+      <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>sameModels</name></member>
+      <member refid="group__GeneralGroup_1gaabf2097a61d2a53dc16bb394cf189819" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga1ab8d75a25ddf033c08c2b9a4b302a9d" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1gaad4cb500e812e5cb62aed870ed071f32" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga08bd8d737b04194abe9ac2c4588eaa11" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>SceneRootObject</name></member>
+      <member refid="group__GeneralGroup_1ga9ed64e227f3e1aa208193f4cfe051ddc" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>select</name></member>
+      <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>selected_</name></member>
+      <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>sendWorldXfChangedSignal_</name></member>
+      <member refid="group__GeneralGroup_1gac54aada747b785885fee9262ca3055a7" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>serializeFields_</name></member>
+      <member refid="classMR_1_1Object_1a7bf17e9cdecb511570759169e86bf0e2" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>serializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>serializeRecursive</name></member>
+      <member refid="group__GeneralGroup_1gac7be5a6d3c8807056129ae71238b9798" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setLocked</name></member>
+      <member refid="group__GeneralGroup_1ga0f1d78f37dfc7faf40bed924c76deca1" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>setSharedModel_</name></member>
+      <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1Object_1a2f9761f33c2e77153389c9b3583e013e" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1Object_1a0d35e02c1f43af6741066f893311266f" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>sortChildren</name></member>
+      <member refid="group__GeneralGroup_1ga542f738853b9a49786b6ca1e0f50d7d2" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gac102fa3cd8c6c52e18ab5e996d7c987b" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga8dd94e3f37cf1c2dc3e53bebcfbd6367" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>StaticTypeName</name></member>
+      <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1Object_1a8ff1262849d62c014b87a26f031aee9a" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>swapBase_</name></member>
+      <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::SceneRootObject</scope><name>swapSignals_</name></member>
+      <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>tags</name></member>
+      <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>tags_</name></member>
+      <member refid="group__GeneralGroup_1ga18fd1eac2059efc7aea278bf5b40b117" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>visibilityMask_</name></member>
+      <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>worldXfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>xf_</name></member>
+      <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>XfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::SceneRootObject</scope><name>~Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::SceneRootObject</scope><name>~ObjectChildrenHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

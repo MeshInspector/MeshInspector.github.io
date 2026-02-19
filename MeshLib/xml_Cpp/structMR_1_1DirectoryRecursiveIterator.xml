@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DirectoryRecursiveIterator" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DirectoryRecursiveIterator</compoundname>
+    <includes refid="MRDirectory_8h" local="no">MRDirectory.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaffefc79c1a274349122ac58b55d2db20" kind="variable"><name>it</name></member>
+      <member refid="group__GeneralGroup_1ga1d7ccfb4cee663b44ee8386962c7898d" kind="variable"><name>ec</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaf1ca3bdb83138eed5c4e5dd621505ffb" kind="function"><name>operator++</name></member>
+      <member refid="group__GeneralGroup_1ga86cbbbe84f0161d57736c0baca9e7f48" kind="function"><name>operator*</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>recursive iterator of directory items that will save any errors in (ec) instead of throwing exceptions </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" line="49" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDirectory.h" bodystart="50" bodyend="55"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1d7ccfb4cee663b44ee8386962c7898d" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursiveIterator</scope><name>ec</name></member>
+      <member refid="group__GeneralGroup_1gaffefc79c1a274349122ac58b55d2db20" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursiveIterator</scope><name>it</name></member>
+      <member refid="group__GeneralGroup_1ga86cbbbe84f0161d57736c0baca9e7f48" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursiveIterator</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gaf1ca3bdb83138eed5c4e5dd621505ffb" prot="public" virt="non-virtual"><scope>MR::DirectoryRecursiveIterator</scope><name>operator++</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

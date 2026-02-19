@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1GcodeProcessor_1_1Command" kind="struct" language="C++" prot="public">
+    <compoundname>MR::GcodeProcessor::Command</compoundname>
+    <includes refid="MRGcodeProcessor_8h" local="no">MRGcodeProcessor.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae3896dcb88dae275220940ab26d6d42f" kind="variable"><name>key</name></member>
+      <member refid="group__GeneralGroup_1ga7465c37851c2a57ce372444cc1a0aeb9" kind="variable"><name>value</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="54" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="55" bodyend="58"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae3896dcb88dae275220940ab26d6d42f" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor::Command</scope><name>key</name></member>
+      <member refid="group__GeneralGroup_1ga7465c37851c2a57ce372444cc1a0aeb9" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor::Command</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

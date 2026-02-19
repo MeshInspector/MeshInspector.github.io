@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RebuildMeshSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RebuildMeshSettings</compoundname>
+    <includes refid="MRRebuildMesh_8h" local="no">MRRebuildMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaedf85a579696f897a9cd4c1c719059b8" kind="variable"><name>preSubdivide</name></member>
+      <member refid="group__GeneralGroup_1ga277cd0e4fca4f06fd90dd9977ec8a418" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga0a73a19f4845bdec3e2e59c9d1dfd4b8" kind="variable"><name>signMode</name></member>
+      <member refid="group__GeneralGroup_1ga7e182394b11ff51cd7695df3a953505a" kind="variable"><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga0cc5cd91097f6d671c3a9ad73a09ac14" kind="variable"><name>offsetMode</name></member>
+      <member refid="group__GeneralGroup_1gab3fd176a4586472f781779fd1126f50c" kind="variable"><name>outSharpEdges</name></member>
+      <member refid="group__GeneralGroup_1ga0fd939665ae442e058cb11d7cc52ac20" kind="variable"><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1ga0181b2c8cfb6a6a1788807fd5b6a5d1c" kind="variable"><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1gaea6b7ba0f04e938fe48d66bb6f336a79" kind="variable"><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1ga6e10f1d5847ddc2cb5de056bf3031453" kind="variable"><name>decimate</name></member>
+      <member refid="group__GeneralGroup_1gac305c46895a7bfd2a0af7ccfe1b5cb2e" kind="variable"><name>tinyEdgeLength</name></member>
+      <member refid="group__GeneralGroup_1ga03a98a1c9695b0ef4243961f9ad3b59e" kind="variable"><name>progress</name></member>
+      <member refid="group__GeneralGroup_1gaef34909f1adee996217b09204c89d4ec" kind="variable"><name>onSignDetectionModeSelected</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRRebuildMesh.h" bodystart="16" bodyend="64"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7e182394b11ff51cd7695df3a953505a" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="group__GeneralGroup_1ga6e10f1d5847ddc2cb5de056bf3031453" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>decimate</name></member>
+      <member refid="group__GeneralGroup_1gaea6b7ba0f04e938fe48d66bb6f336a79" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1ga0cc5cd91097f6d671c3a9ad73a09ac14" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>offsetMode</name></member>
+      <member refid="group__GeneralGroup_1gaef34909f1adee996217b09204c89d4ec" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>onSignDetectionModeSelected</name></member>
+      <member refid="group__GeneralGroup_1gab3fd176a4586472f781779fd1126f50c" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>outSharpEdges</name></member>
+      <member refid="group__GeneralGroup_1gaedf85a579696f897a9cd4c1c719059b8" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>preSubdivide</name></member>
+      <member refid="group__GeneralGroup_1ga03a98a1c9695b0ef4243961f9ad3b59e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>progress</name></member>
+      <member refid="group__GeneralGroup_1ga0a73a19f4845bdec3e2e59c9d1dfd4b8" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>signMode</name></member>
+      <member refid="group__GeneralGroup_1gac305c46895a7bfd2a0af7ccfe1b5cb2e" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="group__GeneralGroup_1ga277cd0e4fca4f06fd90dd9977ec8a418" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga0181b2c8cfb6a6a1788807fd5b6a5d1c" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1ga0fd939665ae442e058cb11d7cc52ac20" prot="public" virt="non-virtual"><scope>MR::RebuildMeshSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

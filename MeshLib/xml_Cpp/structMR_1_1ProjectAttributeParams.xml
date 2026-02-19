@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ProjectAttributeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ProjectAttributeParams</compoundname>
+    <includes refid="MRProjectionMeshAttribute_8h" local="no">MRProjectionMeshAttribute.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga4ed7b5103a09ec50b55cc7d76e2fd9a5" kind="variable"><name>xfs</name></member>
+      <member refid="group__GeneralGroup_1gaf693ac66bc0bd5d4efcd44cde67cfda4" kind="variable"><name>progressCb</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>this structure contains transformation for projection from one mesh to another and progress callback </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::MeshProjectionTransforms</label>
+        <link refid="structMR_1_1MeshProjectionTransforms"/>
+      </node>
+      <node id="1">
+        <label>MR::ProjectAttributeParams</label>
+        <link refid="structMR_1_1ProjectAttributeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>xfs</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRProjectionMeshAttribute.h" bodystart="19" bodyend="22"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf693ac66bc0bd5d4efcd44cde67cfda4" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>progressCb</name></member>
+      <member refid="group__GeneralGroup_1ga4ed7b5103a09ec50b55cc7d76e2fd9a5" prot="public" virt="non-virtual"><scope>MR::ProjectAttributeParams</scope><name>xfs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

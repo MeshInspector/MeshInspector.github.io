@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TransformVdbVolumeResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TransformVdbVolumeResult</compoundname>
+    <includes refid="MRVoxelsApplyTransform_8h" local="no">MRVoxelsApplyTransform.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gacd7cd4ab1f0836d7ad1a8aca8f5447a2" kind="variable"><name>volume</name></member>
+      <member refid="group__GeneralGroup_1ga6c5d7382162228efb8cb4fb6f8aed424" kind="variable"><name>boxFixed</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsApplyTransform.h" bodystart="15" bodyend="18"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6c5d7382162228efb8cb4fb6f8aed424" prot="public" virt="non-virtual"><scope>MR::TransformVdbVolumeResult</scope><name>boxFixed</name></member>
+      <member refid="group__GeneralGroup_1gacd7cd4ab1f0836d7ad1a8aca8f5447a2" prot="public" virt="non-virtual"><scope>MR::TransformVdbVolumeResult</scope><name>volume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

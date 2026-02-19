@@ -2,6 +2,8 @@ var classMR_1_1TypedBitSet__MRIdMRICPElemtTag =
 [
     [ "TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a71e4f4c8af156acd9b8fd706ea1ed7a7", null ],
     [ "TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a0fc20bf7dcfb4935a7c801723ef2614c", null ],
+    [ "TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#af528ce9ee7c4bef558d64a59dbdf74f4", null ],
+    [ "TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ada62cf544e34267749acd38edef1275f", null ],
     [ "TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a819fecb4f2cf8946316318fb7fd9e1f3", null ],
     [ "TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ad86eafbb4594284da14c8e2e47caee64", null ],
     [ "TypedBitSet_MRIdMRICPElemtTag", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ad54c84653e6d058ff1295ae79cea04c9", null ],
@@ -15,6 +17,7 @@ var classMR_1_1TypedBitSet__MRIdMRICPElemtTag =
     [ "flip", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#ab6877e6d1d3bbcb487bbea25e116e9fc", null ],
     [ "flip", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a75dd89443667b9e87a5cc88d5671ddb1", null ],
     [ "flip", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a3214b3770fd8fc261fa94960db5f158f", null ],
+    [ "operator MR.BitSet", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a3a737ac17bbd8fa3cfd9a055cae87872", null ],
     [ "popBack", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#a986f12c01585ca16d0d03c4eee81aae9", null ],
     [ "pushBack", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#af7b66f6a7d436780b90151e67523a157", null ],
     [ "reserve", "classMR_1_1TypedBitSet__MRIdMRICPElemtTag.html#aa52ad31ec2395f696ffcca7386971b23", null ],

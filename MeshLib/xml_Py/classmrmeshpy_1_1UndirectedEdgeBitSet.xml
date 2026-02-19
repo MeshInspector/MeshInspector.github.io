@@ -1,0 +1,1319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UndirectedEdgeBitSet" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UndirectedEdgeBitSet</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeef231fecfb1da6574de47f55022b82a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeBitSet.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58986" bodyend="58987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a964d26ef019c3a9b0886d65c951c938b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.beginId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274">beginId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[beginId(), endId()) is the range of all bits in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58989" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58989" bodyend="58992"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58995" bodyend="58996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58999" bodyend="59000"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ad19a4140d88bb93c87ac93c7b22bd4c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.__and__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__and__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59001" bodyend="59002"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa423765dd694f30be60c91370d24b018" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.__iand__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__iand__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59003" bodyend="59004"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a152f2b14f4909f101b562a4933068280" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeBitSet.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59006" bodyend="59007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8f6f85b2492f8b397048199e9d3a7073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeBitSet.__init__</definition>
+        <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates bitset of given size filled with given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59009" bodyend="59012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59014" bodyend="59017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59019" bodyend="59022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8cb0325d0f71ff203924c46ef355b001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeBitSet.__init__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59024" bodyend="59027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1af5947648693def648233dba6c9c80f5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.__ior__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__ior__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59028" bodyend="59029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a83c51be8ab274f62a6db72219b1530b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.__isub__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__isub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59030" bodyend="59031"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1a108fb3e93b19fc8d6032281b2ca3a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref>]</type>
+        <definition> typing.Iterator[UndirectedEdgeId] mrmeshpy.UndirectedEdgeBitSet.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__iter__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59032" bodyend="59033"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a5ea4b2f89fd30aa077a4ba902f82e957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.__ixor__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
+        <name>__ixor__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__ixor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59034" bodyend="59035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ae55958a91779ed0058ed121254df314c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.__or__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__or__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59036" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59036" bodyend="59037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1afc967e6b5dd8ce2daccfe8b3906ef231" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.UndirectedEdgeBitSet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59038" bodyend="59039"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8ee21d8a5c375283337e6a6a33ab6837" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.__sub__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__sub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59040" bodyend="59041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a9b788e843ee1267f8f072fd5df465f56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.__xor__</definition>
+        <argsstring>(self, UndirectedEdgeBitSet b)</argsstring>
+        <name>__xor__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.__xor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59042" bodyend="59043"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1f801f7a80a61ade2820344ba54f16c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeBitSet.autoResizeSet</definition>
+        <argsstring>(self, UndirectedEdgeId pos, int len, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59045" bodyend="59046"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1acc184546a131bbdbd1746e79fd318084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeBitSet.autoResizeSet</definition>
+        <argsstring>(self, UndirectedEdgeId pos, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>len</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59048" bodyend="59049"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a82aee58b292ed8f758fb25574c2ef10f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeBitSet.autoResizeTestSet</definition>
+        <argsstring>(self, UndirectedEdgeId pos, bool val=True)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.autoResizeTestSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as \\ref autoResizeSet and returns previous value of pos-bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59050" bodyend="59051"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1affdca8d8a34705b33de3e93f24504807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.backId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d">backId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59052" bodyend="59055"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a014c16ba35665fec2b7f229eb5552f56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.endId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5">endId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59056" bodyend="59057"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1acc13e8c223669324fbda7612f9d8a7a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.find_first</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.find_first</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006">find_first</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59058" bodyend="59059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a3c8e127ded43321cfa7948e30aa92909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.find_first_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first_not_set</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.find_first_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a15e32e17fea4f662f8a0f55fd1bcd0b6">find_first_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59060" bodyend="59061"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a4f288a402a0b5ec5712b095bfc7fb7c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.find_last</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.find_last</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59062" bodyend="59063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a724037bed7394235c789ca5eef62f3bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.find_last_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last_not_set</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.find_last_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa50056294318a1e11be2d832bdbd6329">find_last_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59064" bodyend="59065"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1abffcb4f22ada0bc5604e1f5605a61c1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.find_next</definition>
+        <argsstring>(self, UndirectedEdgeId pos)</argsstring>
+        <name>find_next</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.find_next</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f">find_next</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59066" bodyend="59067"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac625bd7e1db890a1044f776017a6debf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.find_next_not_set</definition>
+        <argsstring>(self, UndirectedEdgeId pos)</argsstring>
+        <name>find_next_not_set</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.find_next_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aedde9c4ef90198acb1ddb7874ed1d491">find_next_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59068" bodyend="59069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeca4db86ad0b08163f99867f647ccd16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.flip</definition>
+        <argsstring>(self, UndirectedEdgeId n, int len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59071" bodyend="59072"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1af156f0c076934ebcff78a9ba1b652c70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.flip</definition>
+        <argsstring>(self, UndirectedEdgeId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59074" bodyend="59075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a5384121c911f7218d12f57f528462358" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59077" bodyend="59078"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8b83c32ea1e1a23201a13bd98e87e603" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.getMapping</definition>
+        <argsstring>(self, UndirectedEdgeMap map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeMap" kindref="compound">UndirectedEdgeMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59080" bodyend="59081"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a67adc0a581254e46edbfb3fd07aa066e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.getMapping</definition>
+        <argsstring>(self, UndirectedEdgeBMap map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBMap" kindref="compound">UndirectedEdgeBMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59083" bodyend="59084"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8c0bdca016bdee8748b81b9343825a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59086" bodyend="59087"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a3628ffe9c5b4a832b2789490cb7586f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.getMapping</definition>
+        <argsstring>(self, UndirectedEdgeMap map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeMap" kindref="compound">UndirectedEdgeMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59089" bodyend="59090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1ae221f7877fac5d31fc01ef10897f8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__UndirectedEdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_UndirectedEdgeTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59092" bodyend="59093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a683fdd6be9d4bf7b7917bfea77d81b83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeBitSet.intersects</definition>
+        <argsstring>(self, UndirectedEdgeBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.intersects</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a">intersects</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59094" bodyend="59097"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a05c7256465c9b710d85004528f3e1f5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeBitSet.is_subset_of</definition>
+        <argsstring>(self, UndirectedEdgeBitSet a)</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.is_subset_of</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59098" bodyend="59101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1aecac9cccff05bca9628645a8b5856209" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeBitSet.nthSetBit</definition>
+        <argsstring>(self, int n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.nthSetBit</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59102" bodyend="59105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab2f1351025dc64bf5cc04de30aa8db56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.reset</definition>
+        <argsstring>(self, UndirectedEdgeId n, int len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59107" bodyend="59108"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa8816283e9e688b1a3e9338b03522bde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.reset</definition>
+        <argsstring>(self, UndirectedEdgeId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59110" bodyend="59111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ae25df2a74aac5f31af965af76365672f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59113" bodyend="59114"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac39c27d4a76c12c0b33ce94077a0ed0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.set</definition>
+        <argsstring>(self, UndirectedEdgeId n, int len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59116" bodyend="59117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa3ac59b85ab81d90e1bf9d633e742c01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.set</definition>
+        <argsstring>(self, UndirectedEdgeId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59119" bodyend="59120"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8354c2103dcced3a61f4c9f5ec676c26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.set</definition>
+        <argsstring>(self, UndirectedEdgeId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59122" bodyend="59123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1af74b2b3e5086b04104e9d0d2371a6624" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.set</definition>
+        <argsstring>(self)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59125" bodyend="59126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a3c05fbe8c9afe0ed34f42c4169c40e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.UndirectedEdgeBitSet.subtract</definition>
+        <argsstring>(self, UndirectedEdgeBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.subtract</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d">subtract</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59127" bodyend="59130"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8deff232135e126b1090cf8d164b3933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeBitSet.test</definition>
+        <argsstring>(self, UndirectedEdgeId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.test</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27">test</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all bits after size() we silently consider as not-set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59131" bodyend="59132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac1b15ee3c3e830b12156e060401f97e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeBitSet.test_set</definition>
+        <argsstring>(self, UndirectedEdgeId n, bool val=True)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeBitSet.test_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3">test_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59133" bodyend="59134"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UndirectedEdgeBitSet
+Aliases:  AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box3f.LeafBitSet, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafBitSet, ColorMapAggregator_UndirectedEdgeTag_ElementBitSet
+
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.UndirectedEdgeBitSet</label>
+        <link refid="classmrmeshpy_1_1UndirectedEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.UndirectedEdgeBitSet</label>
+        <link refid="classmrmeshpy_1_1UndirectedEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bits_per_block</edgelabel>
+          <edgelabel>npos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58976" bodyend="59134"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ad19a4140d88bb93c87ac93c7b22bd4c7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa423765dd694f30be60c91370d24b018" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeef231fecfb1da6574de47f55022b82a" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a152f2b14f4909f101b562a4933068280" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8f6f85b2492f8b397048199e9d3a7073" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab9ccdf2a846553fafc6033d6f24d36a4" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8cb0325d0f71ff203924c46ef355b001" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1af5947648693def648233dba6c9c80f5c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a83c51be8ab274f62a6db72219b1530b4" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1a108fb3e93b19fc8d6032281b2ca3a1" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a5ea4b2f89fd30aa077a4ba902f82e957" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__ixor__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ae55958a91779ed0058ed121254df314c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1afc967e6b5dd8ce2daccfe8b3906ef231" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8ee21d8a5c375283337e6a6a33ab6837" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a9b788e843ee1267f8f072fd5df465f56" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1f801f7a80a61ade2820344ba54f16c4" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1acc184546a131bbdbd1746e79fd318084" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a82aee58b292ed8f758fb25574c2ef10f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1affdca8d8a34705b33de3e93f24504807" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a964d26ef019c3a9b0886d65c951c938b" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a014c16ba35665fec2b7f229eb5552f56" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1acc13e8c223669324fbda7612f9d8a7a7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>find_first</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a3c8e127ded43321cfa7948e30aa92909" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>find_first_not_set</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a4f288a402a0b5ec5712b095bfc7fb7c0" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>find_last</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a724037bed7394235c789ca5eef62f3bb" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>find_last_not_set</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1abffcb4f22ada0bc5604e1f5605a61c1f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>find_next</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac625bd7e1db890a1044f776017a6debf" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>find_next_not_set</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aeca4db86ad0b08163f99867f647ccd16" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1af156f0c076934ebcff78a9ba1b652c70" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a5384121c911f7218d12f57f528462358" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8b83c32ea1e1a23201a13bd98e87e603" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a67adc0a581254e46edbfb3fd07aa066e" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8c0bdca016bdee8748b81b9343825a86" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a3628ffe9c5b4a832b2789490cb7586f6" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a1ae221f7877fac5d31fc01ef10897f8c" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a683fdd6be9d4bf7b7917bfea77d81b83" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a05c7256465c9b710d85004528f3e1f5a" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aecac9cccff05bca9628645a8b5856209" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac4b019d722ab7f5fa260f1b681147fae" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ab2f1351025dc64bf5cc04de30aa8db56" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa8816283e9e688b1a3e9338b03522bde" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ae25df2a74aac5f31af965af76365672f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac39c27d4a76c12c0b33ce94077a0ed0f" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1aa3ac59b85ab81d90e1bf9d633e742c01" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8354c2103dcced3a61f4c9f5ec676c26" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1af74b2b3e5086b04104e9d0d2371a6624" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a3c05fbe8c9afe0ed34f42c4169c40e10" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>subtract</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1a8deff232135e126b1090cf8d164b3933" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>test</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeBitSet_1ac1b15ee3c3e830b12156e060401f97e5" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeBitSet</scope><name>test_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

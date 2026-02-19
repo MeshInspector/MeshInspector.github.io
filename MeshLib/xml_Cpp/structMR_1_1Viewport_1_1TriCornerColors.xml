@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Viewport_1_1TriCornerColors" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Viewport::TriCornerColors</compoundname>
+    <includes refid="MRViewport_8h" local="no">MRViewport.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga52ef91aaa0208aa1e90b238eef7bbee9" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga4bb6813b4c01f5510e20837676efa7ae" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga06e3dd2db55e7e7ba53ba5b07c8ae542" kind="variable"><name>c</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" line="138" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewport.h" bodystart="139" bodyend="141"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga52ef91aaa0208aa1e90b238eef7bbee9" prot="public" virt="non-virtual"><scope>MR::Viewport::TriCornerColors</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga4bb6813b4c01f5510e20837676efa7ae" prot="public" virt="non-virtual"><scope>MR::Viewport::TriCornerColors</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga06e3dd2db55e7e7ba53ba5b07c8ae542" prot="public" virt="non-virtual"><scope>MR::Viewport::TriCornerColors</scope><name>c</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

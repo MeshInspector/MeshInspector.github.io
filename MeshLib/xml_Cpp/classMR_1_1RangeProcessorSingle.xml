@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RangeProcessorSingle" kind="class" language="C++" prot="public">
+    <compoundname>MR::RangeProcessorSingle</compoundname>
+    <includes refid="MROpenVDBHelper_8h" local="no">MROpenVDBHelper.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename TreeT</type>
+      </param>
+      <param>
+        <type>typename Proc</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga3dd22e8ad777958bc8dd5ca24697cab1" kind="typedef"><name>InterruptFunc</name></member>
+      <member refid="group__GeneralGroup_1ga18c7b1c6f5f3eb4ab1f683819ab2526b" kind="typedef"><name>ProgressHolder</name></member>
+      <member refid="group__GeneralGroup_1ga06885853a633af8e30ee961ef1ae4c1e" kind="typedef"><name>ValueT</name></member>
+      <member refid="group__GeneralGroup_1ga27245f92c4924f6d589bb260006327b4" kind="typedef"><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga96c2bef18796f6c8b109f9104a29b2dc" kind="typedef"><name>TileIterT</name></member>
+      <member refid="group__GeneralGroup_1ga4230fb4bf134d204266d7a36e6eaa54c" kind="typedef"><name>LeafRange</name></member>
+      <member refid="group__GeneralGroup_1ga6bdb6524924805af1844ae7278708c3f" kind="typedef"><name>TileRange</name></member>
+      <member refid="group__GeneralGroup_1ga74bdcc0991a9a680c90dc549ed96da8f" kind="typedef"><name>TreeAccessor</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga264a04656289a9abfa5a0ce6ff0a9b96" kind="variable"><name>mProc</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga0a437b690fa040b0436dd2e49df6c3f1" kind="variable"><name>mBBox</name></member>
+      <member refid="group__GeneralGroup_1ga75f33e620fa01a11c21b6a17b6ffa836" kind="variable"><name>mInTree</name></member>
+      <member refid="group__GeneralGroup_1ga879b8a9fca7ae08d022c12d67cbd6886" kind="variable"><name>mInAcc</name></member>
+      <member refid="group__GeneralGroup_1ga2e4d881dd438db333e2d3634dc7d6587" kind="variable"><name>mInterrupt</name></member>
+      <member refid="group__GeneralGroup_1ga8497bea6456327758b7af68e528258c6" kind="variable"><name>mCanceled</name></member>
+      <member refid="group__GeneralGroup_1gabaf202ebcd106e494505ad3158eb5668" kind="variable"><name>mProgress</name></member>
+      <member refid="group__GeneralGroup_1ga06961e7128bfc474abc4262c50ff8271" kind="variable"><name>leafCount</name></member>
+      <member refid="group__GeneralGroup_1ga8ac325d055361e4d227deb47207ffdf0" kind="variable"><name>tileCount</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga3a185529401021dabb33be5dde121134" kind="function"><name>RangeProcessorSingle</name></member>
+      <member refid="group__GeneralGroup_1ga67512a2e5762df8020c0384cf31acbf0" kind="function"><name>RangeProcessorSingle</name></member>
+      <member refid="group__GeneralGroup_1gad6099e8aa9329dd7b246301cc97f161b" kind="function"><name>setInterrupt</name></member>
+      <member refid="group__GeneralGroup_1ga3f5ff3966e98c9b5929ff84cabf90fb0" kind="function"><name>setProgressHolder</name></member>
+      <member refid="group__GeneralGroup_1ga2a51228138a8994ccaa8fab17ec60f75" kind="function"><name>operator()</name></member>
+      <memberdef kind="function" id="classMR_1_1RangeProcessorSingle_1ga2a51228138a8994ccaa8fab17ec60f75" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::RangeProcessorSingle&lt; TreeT, Proc &gt;::operator()</definition>
+        <argsstring>(const TileRange &amp;rCRef)</argsstring>
+        <name>operator()</name>
+        <qualifiedname>MR::RangeProcessorSingle::operator()</qualifiedname>
+        <param>
+          <type>const <ref refid="group__GeneralGroup_1ga6bdb6524924805af1844ae7278708c3f" kindref="member">TileRange</ref> &amp;</type>
+          <declname>rCRef</declname>
+        </param>
+        <briefdescription>
+<para>Transform each non-background tile in the given range. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Skip voxels and background tiles.</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="286" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="286" bodyend="319"/>
+      </memberdef>
+      <member refid="group__GeneralGroup_1gaaf47bdf40d75c45e729131d8e83d105c" kind="function"><name>join</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga45e734d7bcf01e404dfc8067bdc41c61" kind="function"><name>interrupt</name></member>
+      <member refid="group__GeneralGroup_1gac83139ddc3f7e19e9de0ef4f995acc0c" kind="function"><name>setProgress</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Class to use in tbb::parallel_reduce for tree operations that do not require an output tree. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>TreeT</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>tree type </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Proc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>functor for operations on a tree </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="222" bodyend="354"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga45e734d7bcf01e404dfc8067bdc41c61" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>interrupt</name></member>
+      <member refid="group__GeneralGroup_1ga3dd22e8ad777958bc8dd5ca24697cab1" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>InterruptFunc</name></member>
+      <member refid="group__GeneralGroup_1gaaf47bdf40d75c45e729131d8e83d105c" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>join</name></member>
+      <member refid="group__GeneralGroup_1ga06961e7128bfc474abc4262c50ff8271" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>leafCount</name></member>
+      <member refid="group__GeneralGroup_1ga27245f92c4924f6d589bb260006327b4" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>LeafIterT</name></member>
+      <member refid="group__GeneralGroup_1ga4230fb4bf134d204266d7a36e6eaa54c" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>LeafRange</name></member>
+      <member refid="group__GeneralGroup_1ga0a437b690fa040b0436dd2e49df6c3f1" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mBBox</name></member>
+      <member refid="group__GeneralGroup_1ga8497bea6456327758b7af68e528258c6" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mCanceled</name></member>
+      <member refid="group__GeneralGroup_1ga879b8a9fca7ae08d022c12d67cbd6886" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mInAcc</name></member>
+      <member refid="group__GeneralGroup_1ga2e4d881dd438db333e2d3634dc7d6587" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mInterrupt</name></member>
+      <member refid="group__GeneralGroup_1ga75f33e620fa01a11c21b6a17b6ffa836" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mInTree</name></member>
+      <member refid="group__GeneralGroup_1ga264a04656289a9abfa5a0ce6ff0a9b96" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mProc</name></member>
+      <member refid="group__GeneralGroup_1gabaf202ebcd106e494505ad3158eb5668" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>mProgress</name></member>
+      <member refid="group__GeneralGroup_1ga2a51228138a8994ccaa8fab17ec60f75" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>operator()</name></member>
+      <member refid="classMR_1_1RangeProcessorSingle_1ga2a51228138a8994ccaa8fab17ec60f75" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga18c7b1c6f5f3eb4ab1f683819ab2526b" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>ProgressHolder</name></member>
+      <member refid="group__GeneralGroup_1ga3a185529401021dabb33be5dde121134" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>RangeProcessorSingle</name></member>
+      <member refid="group__GeneralGroup_1ga67512a2e5762df8020c0384cf31acbf0" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>RangeProcessorSingle</name></member>
+      <member refid="group__GeneralGroup_1gad6099e8aa9329dd7b246301cc97f161b" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>setInterrupt</name></member>
+      <member refid="group__GeneralGroup_1gac83139ddc3f7e19e9de0ef4f995acc0c" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>setProgress</name></member>
+      <member refid="group__GeneralGroup_1ga3f5ff3966e98c9b5929ff84cabf90fb0" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>setProgressHolder</name></member>
+      <member refid="group__GeneralGroup_1ga8ac325d055361e4d227deb47207ffdf0" prot="private" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>tileCount</name></member>
+      <member refid="group__GeneralGroup_1ga96c2bef18796f6c8b109f9104a29b2dc" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>TileIterT</name></member>
+      <member refid="group__GeneralGroup_1ga6bdb6524924805af1844ae7278708c3f" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>TileRange</name></member>
+      <member refid="group__GeneralGroup_1ga74bdcc0991a9a680c90dc549ed96da8f" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>TreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga06885853a633af8e30ee961ef1ae4c1e" prot="public" virt="non-virtual"><scope>MR::RangeProcessorSingle</scope><name>ValueT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

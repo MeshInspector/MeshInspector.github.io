@@ -151,8 +151,8 @@ $(function(){initNavTree('MRNormalDenoising_8h.html',''); initResizable(true); }
   <div class="headertitle"><div class="title">MRNormalDenoising.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="common_8h_source.html">MRCMisc/common.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;MRCMisc/common.h&gt;</code><br />
+<code>#include &lt;MRCMisc/exports.h&gt;</code><br />
 <code>#include &lt;stdbool.h&gt;</code><br />
 <code>#include &lt;stddef.h&gt;</code><br />
 </div>
@@ -179,93 +179,93 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5ff316df5b461f39dbf6dfad579adc5d" id="r_a5ff316df5b461f39dbf6dfad579adc5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ff316df5b461f39dbf6dfad579adc5d">MR_denoiseNormals</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *normals, const <a class="el" href="MRAggregateFlow_8h.html#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a> *v, float gamma)</td></tr>
+<tr class="memitem:a5ff316df5b461f39dbf6dfad579adc5d" id="r_a5ff316df5b461f39dbf6dfad579adc5d"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5ff316df5b461f39dbf6dfad579adc5d">MR_denoiseNormals</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *normals, const <a class="el" href="MRAggregateFlow_8h.html#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a> *v, float gamma)</td></tr>
 <tr class="separator:a5ff316df5b461f39dbf6dfad579adc5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a557350b35c403d999cadfbfbc9bd26df" id="r_a557350b35c403d999cadfbfbc9bd26df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557350b35c403d999cadfbfbc9bd26df">MR_updateIndicator</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="MRAggregateFlow_8h.html#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a> *v, const <a class="el" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *normals, float beta, float gamma)</td></tr>
+<tr class="memitem:a557350b35c403d999cadfbfbc9bd26df" id="r_a557350b35c403d999cadfbfbc9bd26df"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a557350b35c403d999cadfbfbc9bd26df">MR_updateIndicator</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, <a class="el" href="MRAggregateFlow_8h.html#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a> *v, const <a class="el" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *normals, float beta, float gamma)</td></tr>
 <tr class="separator:a557350b35c403d999cadfbfbc9bd26df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b6f9a972a5c537afbf98411a3e6ae23" id="r_a2b6f9a972a5c537afbf98411a3e6ae23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6f9a972a5c537afbf98411a3e6ae23">MR_updateIndicatorFast</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAggregateFlow_8h.html#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a> *v, const <a class="el" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *normals, float beta, float gamma)</td></tr>
+<tr class="memitem:a2b6f9a972a5c537afbf98411a3e6ae23" id="r_a2b6f9a972a5c537afbf98411a3e6ae23"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b6f9a972a5c537afbf98411a3e6ae23">MR_updateIndicatorFast</a> (const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *topology, <a class="el" href="MRAggregateFlow_8h.html#af24d03a25a98fafdbaf79dfeda2fc526">MR_UndirectedEdgeScalars</a> *v, const <a class="el" href="MRMeshNormals_8h.html#a8adffd0fdf3bafd75f3ddebfbdb22ef5">MR_FaceNormals</a> *normals, float beta, float gamma)</td></tr>
 <tr class="separator:a2b6f9a972a5c537afbf98411a3e6ae23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd16949c378f41b890c5eb89c97f6232" id="r_abd16949c378f41b890c5eb89c97f6232"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd16949c378f41b890c5eb89c97f6232">MR_DenoiseViaNormalsSettings_Get_fastIndicatorComputation</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:abd16949c378f41b890c5eb89c97f6232" id="r_abd16949c378f41b890c5eb89c97f6232"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd16949c378f41b890c5eb89c97f6232">MR_DenoiseViaNormalsSettings_Get_fastIndicatorComputation</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:abd16949c378f41b890c5eb89c97f6232"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae09e2b23b55d37348626d04d5903e517" id="r_ae09e2b23b55d37348626d04d5903e517"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae09e2b23b55d37348626d04d5903e517">MR_DenoiseViaNormalsSettings_Set_fastIndicatorComputation</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:ae09e2b23b55d37348626d04d5903e517" id="r_ae09e2b23b55d37348626d04d5903e517"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae09e2b23b55d37348626d04d5903e517">MR_DenoiseViaNormalsSettings_Set_fastIndicatorComputation</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, bool value)</td></tr>
 <tr class="separator:ae09e2b23b55d37348626d04d5903e517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa72759f16d635520cc58a40679e73f7" id="r_afa72759f16d635520cc58a40679e73f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa72759f16d635520cc58a40679e73f7">MR_DenoiseViaNormalsSettings_GetMutable_fastIndicatorComputation</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:afa72759f16d635520cc58a40679e73f7" id="r_afa72759f16d635520cc58a40679e73f7"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa72759f16d635520cc58a40679e73f7">MR_DenoiseViaNormalsSettings_GetMutable_fastIndicatorComputation</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:afa72759f16d635520cc58a40679e73f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8cdc7733e12ace1e54f9fc1ba6cfa658" id="r_a8cdc7733e12ace1e54f9fc1ba6cfa658"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cdc7733e12ace1e54f9fc1ba6cfa658">MR_DenoiseViaNormalsSettings_Get_beta</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a8cdc7733e12ace1e54f9fc1ba6cfa658" id="r_a8cdc7733e12ace1e54f9fc1ba6cfa658"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8cdc7733e12ace1e54f9fc1ba6cfa658">MR_DenoiseViaNormalsSettings_Get_beta</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a8cdc7733e12ace1e54f9fc1ba6cfa658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeace220a87c7ff524515e9d582a8d92f" id="r_aeace220a87c7ff524515e9d582a8d92f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeace220a87c7ff524515e9d582a8d92f">MR_DenoiseViaNormalsSettings_Set_beta</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:aeace220a87c7ff524515e9d582a8d92f" id="r_aeace220a87c7ff524515e9d582a8d92f"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeace220a87c7ff524515e9d582a8d92f">MR_DenoiseViaNormalsSettings_Set_beta</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, float value)</td></tr>
 <tr class="separator:aeace220a87c7ff524515e9d582a8d92f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a665f1f70105a53840c27293ceae0e537" id="r_a665f1f70105a53840c27293ceae0e537"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a665f1f70105a53840c27293ceae0e537">MR_DenoiseViaNormalsSettings_GetMutable_beta</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a665f1f70105a53840c27293ceae0e537" id="r_a665f1f70105a53840c27293ceae0e537"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a665f1f70105a53840c27293ceae0e537">MR_DenoiseViaNormalsSettings_GetMutable_beta</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a665f1f70105a53840c27293ceae0e537"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f170e0f96e40707a446c29e80fbba54" id="r_a7f170e0f96e40707a446c29e80fbba54"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f170e0f96e40707a446c29e80fbba54">MR_DenoiseViaNormalsSettings_Get_gamma</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a7f170e0f96e40707a446c29e80fbba54" id="r_a7f170e0f96e40707a446c29e80fbba54"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f170e0f96e40707a446c29e80fbba54">MR_DenoiseViaNormalsSettings_Get_gamma</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a7f170e0f96e40707a446c29e80fbba54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2640445cae56f07bec1be91b120d742" id="r_ae2640445cae56f07bec1be91b120d742"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2640445cae56f07bec1be91b120d742">MR_DenoiseViaNormalsSettings_Set_gamma</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:ae2640445cae56f07bec1be91b120d742" id="r_ae2640445cae56f07bec1be91b120d742"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae2640445cae56f07bec1be91b120d742">MR_DenoiseViaNormalsSettings_Set_gamma</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, float value)</td></tr>
 <tr class="separator:ae2640445cae56f07bec1be91b120d742"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4327cc1b14fa192ba7fcb3e1d4c8a477" id="r_a4327cc1b14fa192ba7fcb3e1d4c8a477"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4327cc1b14fa192ba7fcb3e1d4c8a477">MR_DenoiseViaNormalsSettings_GetMutable_gamma</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a4327cc1b14fa192ba7fcb3e1d4c8a477" id="r_a4327cc1b14fa192ba7fcb3e1d4c8a477"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4327cc1b14fa192ba7fcb3e1d4c8a477">MR_DenoiseViaNormalsSettings_GetMutable_gamma</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a4327cc1b14fa192ba7fcb3e1d4c8a477"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51d9d0e2236de9d4ec77e10d6eb5b8b8" id="r_a51d9d0e2236de9d4ec77e10d6eb5b8b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d9d0e2236de9d4ec77e10d6eb5b8b8">MR_DenoiseViaNormalsSettings_Get_normalIters</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a51d9d0e2236de9d4ec77e10d6eb5b8b8" id="r_a51d9d0e2236de9d4ec77e10d6eb5b8b8"><td class="memItemLeft" align="right" valign="top">MRC_API const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a51d9d0e2236de9d4ec77e10d6eb5b8b8">MR_DenoiseViaNormalsSettings_Get_normalIters</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a51d9d0e2236de9d4ec77e10d6eb5b8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2da560386e459636924227fdd7abb363" id="r_a2da560386e459636924227fdd7abb363"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2da560386e459636924227fdd7abb363">MR_DenoiseViaNormalsSettings_Set_normalIters</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, int value)</td></tr>
+<tr class="memitem:a2da560386e459636924227fdd7abb363" id="r_a2da560386e459636924227fdd7abb363"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2da560386e459636924227fdd7abb363">MR_DenoiseViaNormalsSettings_Set_normalIters</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, int value)</td></tr>
 <tr class="separator:a2da560386e459636924227fdd7abb363"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f0b20224ee56483be52f143220fa3d1" id="r_a0f0b20224ee56483be52f143220fa3d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f0b20224ee56483be52f143220fa3d1">MR_DenoiseViaNormalsSettings_GetMutable_normalIters</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a0f0b20224ee56483be52f143220fa3d1" id="r_a0f0b20224ee56483be52f143220fa3d1"><td class="memItemLeft" align="right" valign="top">MRC_API int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0f0b20224ee56483be52f143220fa3d1">MR_DenoiseViaNormalsSettings_GetMutable_normalIters</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a0f0b20224ee56483be52f143220fa3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a62d96b1e0969a34d65efcb2eead0db" id="r_a0a62d96b1e0969a34d65efcb2eead0db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a62d96b1e0969a34d65efcb2eead0db">MR_DenoiseViaNormalsSettings_Get_pointIters</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a0a62d96b1e0969a34d65efcb2eead0db" id="r_a0a62d96b1e0969a34d65efcb2eead0db"><td class="memItemLeft" align="right" valign="top">MRC_API const int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a62d96b1e0969a34d65efcb2eead0db">MR_DenoiseViaNormalsSettings_Get_pointIters</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a0a62d96b1e0969a34d65efcb2eead0db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a77f9e54e29301176a3541e9784d4ba" id="r_a9a77f9e54e29301176a3541e9784d4ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a77f9e54e29301176a3541e9784d4ba">MR_DenoiseViaNormalsSettings_Set_pointIters</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, int value)</td></tr>
+<tr class="memitem:a9a77f9e54e29301176a3541e9784d4ba" id="r_a9a77f9e54e29301176a3541e9784d4ba"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a77f9e54e29301176a3541e9784d4ba">MR_DenoiseViaNormalsSettings_Set_pointIters</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, int value)</td></tr>
 <tr class="separator:a9a77f9e54e29301176a3541e9784d4ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb3d22ba43dc19f8b95a3fed994b0021" id="r_aeb3d22ba43dc19f8b95a3fed994b0021"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb3d22ba43dc19f8b95a3fed994b0021">MR_DenoiseViaNormalsSettings_GetMutable_pointIters</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:aeb3d22ba43dc19f8b95a3fed994b0021" id="r_aeb3d22ba43dc19f8b95a3fed994b0021"><td class="memItemLeft" align="right" valign="top">MRC_API int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aeb3d22ba43dc19f8b95a3fed994b0021">MR_DenoiseViaNormalsSettings_GetMutable_pointIters</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:aeb3d22ba43dc19f8b95a3fed994b0021"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afae929fa17b841e49122175db6e7f432" id="r_afae929fa17b841e49122175db6e7f432"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afae929fa17b841e49122175db6e7f432">MR_DenoiseViaNormalsSettings_Get_guideWeight</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:afae929fa17b841e49122175db6e7f432" id="r_afae929fa17b841e49122175db6e7f432"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afae929fa17b841e49122175db6e7f432">MR_DenoiseViaNormalsSettings_Get_guideWeight</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:afae929fa17b841e49122175db6e7f432"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3fc82fb075ecf5380fa14320af026d1" id="r_aa3fc82fb075ecf5380fa14320af026d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3fc82fb075ecf5380fa14320af026d1">MR_DenoiseViaNormalsSettings_Set_guideWeight</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:aa3fc82fb075ecf5380fa14320af026d1" id="r_aa3fc82fb075ecf5380fa14320af026d1"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa3fc82fb075ecf5380fa14320af026d1">MR_DenoiseViaNormalsSettings_Set_guideWeight</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, float value)</td></tr>
 <tr class="separator:aa3fc82fb075ecf5380fa14320af026d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f97e0f4a499de699db4464b44c7230b" id="r_a8f97e0f4a499de699db4464b44c7230b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f97e0f4a499de699db4464b44c7230b">MR_DenoiseViaNormalsSettings_GetMutable_guideWeight</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a8f97e0f4a499de699db4464b44c7230b" id="r_a8f97e0f4a499de699db4464b44c7230b"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8f97e0f4a499de699db4464b44c7230b">MR_DenoiseViaNormalsSettings_GetMutable_guideWeight</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a8f97e0f4a499de699db4464b44c7230b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbebde785e2e32081e54e0c6d8e0df99" id="r_abbebde785e2e32081e54e0c6d8e0df99"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbebde785e2e32081e54e0c6d8e0df99">MR_DenoiseViaNormalsSettings_Get_limitNearInitial</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:abbebde785e2e32081e54e0c6d8e0df99" id="r_abbebde785e2e32081e54e0c6d8e0df99"><td class="memItemLeft" align="right" valign="top">MRC_API const bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abbebde785e2e32081e54e0c6d8e0df99">MR_DenoiseViaNormalsSettings_Get_limitNearInitial</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:abbebde785e2e32081e54e0c6d8e0df99"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b97d3ec53a3c27ab24584355ac9ab15" id="r_a2b97d3ec53a3c27ab24584355ac9ab15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b97d3ec53a3c27ab24584355ac9ab15">MR_DenoiseViaNormalsSettings_Set_limitNearInitial</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, bool value)</td></tr>
+<tr class="memitem:a2b97d3ec53a3c27ab24584355ac9ab15" id="r_a2b97d3ec53a3c27ab24584355ac9ab15"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b97d3ec53a3c27ab24584355ac9ab15">MR_DenoiseViaNormalsSettings_Set_limitNearInitial</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, bool value)</td></tr>
 <tr class="separator:a2b97d3ec53a3c27ab24584355ac9ab15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e109c0a25f2510d1b0ee54b7527671b" id="r_a2e109c0a25f2510d1b0ee54b7527671b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e109c0a25f2510d1b0ee54b7527671b">MR_DenoiseViaNormalsSettings_GetMutable_limitNearInitial</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a2e109c0a25f2510d1b0ee54b7527671b" id="r_a2e109c0a25f2510d1b0ee54b7527671b"><td class="memItemLeft" align="right" valign="top">MRC_API bool *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2e109c0a25f2510d1b0ee54b7527671b">MR_DenoiseViaNormalsSettings_GetMutable_limitNearInitial</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a2e109c0a25f2510d1b0ee54b7527671b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd1f2ddc0c85475fb6ea034f5eceaf6c" id="r_abd1f2ddc0c85475fb6ea034f5eceaf6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd1f2ddc0c85475fb6ea034f5eceaf6c">MR_DenoiseViaNormalsSettings_Get_maxInitialDist</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:abd1f2ddc0c85475fb6ea034f5eceaf6c" id="r_abd1f2ddc0c85475fb6ea034f5eceaf6c"><td class="memItemLeft" align="right" valign="top">MRC_API const float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abd1f2ddc0c85475fb6ea034f5eceaf6c">MR_DenoiseViaNormalsSettings_Get_maxInitialDist</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:abd1f2ddc0c85475fb6ea034f5eceaf6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ee9fafb125a1ca9f631703056bd8154" id="r_a7ee9fafb125a1ca9f631703056bd8154"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee9fafb125a1ca9f631703056bd8154">MR_DenoiseViaNormalsSettings_Set_maxInitialDist</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, float value)</td></tr>
+<tr class="memitem:a7ee9fafb125a1ca9f631703056bd8154" id="r_a7ee9fafb125a1ca9f631703056bd8154"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ee9fafb125a1ca9f631703056bd8154">MR_DenoiseViaNormalsSettings_Set_maxInitialDist</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, float value)</td></tr>
 <tr class="separator:a7ee9fafb125a1ca9f631703056bd8154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99df0697b0253d926048982a530a19f1" id="r_a99df0697b0253d926048982a530a19f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99df0697b0253d926048982a530a19f1">MR_DenoiseViaNormalsSettings_GetMutable_maxInitialDist</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a99df0697b0253d926048982a530a19f1" id="r_a99df0697b0253d926048982a530a19f1"><td class="memItemLeft" align="right" valign="top">MRC_API float *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a99df0697b0253d926048982a530a19f1">MR_DenoiseViaNormalsSettings_GetMutable_maxInitialDist</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a99df0697b0253d926048982a530a19f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b64213e0c13181078191efe6de6ac1f" id="r_a2b64213e0c13181078191efe6de6ac1f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b64213e0c13181078191efe6de6ac1f">MR_DenoiseViaNormalsSettings_Get_outCreases</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a2b64213e0c13181078191efe6de6ac1f" id="r_a2b64213e0c13181078191efe6de6ac1f"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b64213e0c13181078191efe6de6ac1f">MR_DenoiseViaNormalsSettings_Get_outCreases</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a2b64213e0c13181078191efe6de6ac1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5412eb6e09afc6ec4685058823effa21" id="r_a5412eb6e09afc6ec4685058823effa21"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5412eb6e09afc6ec4685058823effa21">MR_DenoiseViaNormalsSettings_Set_outCreases</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
+<tr class="memitem:a5412eb6e09afc6ec4685058823effa21" id="r_a5412eb6e09afc6ec4685058823effa21"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5412eb6e09afc6ec4685058823effa21">MR_DenoiseViaNormalsSettings_Set_outCreases</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *value)</td></tr>
 <tr class="separator:a5412eb6e09afc6ec4685058823effa21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed2cfb66fe2370892e49bb4d223d4be2" id="r_aed2cfb66fe2370892e49bb4d223d4be2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed2cfb66fe2370892e49bb4d223d4be2">MR_DenoiseViaNormalsSettings_GetMutable_outCreases</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:aed2cfb66fe2370892e49bb4d223d4be2" id="r_aed2cfb66fe2370892e49bb4d223d4be2"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aed2cfb66fe2370892e49bb4d223d4be2">MR_DenoiseViaNormalsSettings_GetMutable_outCreases</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:aed2cfb66fe2370892e49bb4d223d4be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92ac0afdd73f773b5266aabf6aba45a9" id="r_a92ac0afdd73f773b5266aabf6aba45a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92ac0afdd73f773b5266aabf6aba45a9">MR_DenoiseViaNormalsSettings_Get_cb</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a92ac0afdd73f773b5266aabf6aba45a9" id="r_a92ac0afdd73f773b5266aabf6aba45a9"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a92ac0afdd73f773b5266aabf6aba45a9">MR_DenoiseViaNormalsSettings_Get_cb</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a92ac0afdd73f773b5266aabf6aba45a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a564f8aa38b53b6ed875c315fa706ee" id="r_a9a564f8aa38b53b6ed875c315fa706ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a564f8aa38b53b6ed875c315fa706ee">MR_DenoiseViaNormalsSettings_Set_cb</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
+<tr class="memitem:a9a564f8aa38b53b6ed875c315fa706ee" id="r_a9a564f8aa38b53b6ed875c315fa706ee"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9a564f8aa38b53b6ed875c315fa706ee">MR_DenoiseViaNormalsSettings_Set_cb</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, MR_PassBy value_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *value)</td></tr>
 <tr class="separator:a9a564f8aa38b53b6ed875c315fa706ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2894119dd1d614e05e9f350d53fb6ce1" id="r_a2894119dd1d614e05e9f350d53fb6ce1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2894119dd1d614e05e9f350d53fb6ce1">MR_DenoiseViaNormalsSettings_GetMutable_cb</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a2894119dd1d614e05e9f350d53fb6ce1" id="r_a2894119dd1d614e05e9f350d53fb6ce1"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2894119dd1d614e05e9f350d53fb6ce1">MR_DenoiseViaNormalsSettings_GetMutable_cb</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="separator:a2894119dd1d614e05e9f350d53fb6ce1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab72e01fb7a8d02cd5d7482e02ee9bd17" id="r_ab72e01fb7a8d02cd5d7482e02ee9bd17"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab72e01fb7a8d02cd5d7482e02ee9bd17">MR_DenoiseViaNormalsSettings_DefaultConstruct</a> (void)</td></tr>
+<tr class="memitem:ab72e01fb7a8d02cd5d7482e02ee9bd17" id="r_ab72e01fb7a8d02cd5d7482e02ee9bd17"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab72e01fb7a8d02cd5d7482e02ee9bd17">MR_DenoiseViaNormalsSettings_DefaultConstruct</a> (void)</td></tr>
 <tr class="separator:ab72e01fb7a8d02cd5d7482e02ee9bd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6da735337b1419a30bc27dd187e728c" id="r_aa6da735337b1419a30bc27dd187e728c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6da735337b1419a30bc27dd187e728c">MR_DenoiseViaNormalsSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
+<tr class="memitem:aa6da735337b1419a30bc27dd187e728c" id="r_aa6da735337b1419a30bc27dd187e728c"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa6da735337b1419a30bc27dd187e728c">MR_DenoiseViaNormalsSettings_DefaultConstructArray</a> (size_t num_elems)</td></tr>
 <tr class="separator:aa6da735337b1419a30bc27dd187e728c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f3c23815419a6a0d51ce969aa0ef585" id="r_a4f3c23815419a6a0d51ce969aa0ef585"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f3c23815419a6a0d51ce969aa0ef585">MR_DenoiseViaNormalsSettings_ConstructFrom</a> (bool fastIndicatorComputation, float beta, float gamma, int normalIters, int pointIters, float guideWeight, bool limitNearInitial, float maxInitialDist, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *outCreases, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
+<tr class="memitem:a4f3c23815419a6a0d51ce969aa0ef585" id="r_a4f3c23815419a6a0d51ce969aa0ef585"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f3c23815419a6a0d51ce969aa0ef585">MR_DenoiseViaNormalsSettings_ConstructFrom</a> (bool fastIndicatorComputation, float beta, float gamma, int normalIters, int pointIters, float guideWeight, bool limitNearInitial, float maxInitialDist, <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *outCreases, MR_PassBy cb_pass_by, <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> *cb)</td></tr>
 <tr class="separator:a4f3c23815419a6a0d51ce969aa0ef585"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b83ef1363a2d41e94133ce8bd4ad87c" id="r_a5b83ef1363a2d41e94133ce8bd4ad87c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b83ef1363a2d41e94133ce8bd4ad87c">MR_DenoiseViaNormalsSettings_OffsetPtr</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a5b83ef1363a2d41e94133ce8bd4ad87c" id="r_a5b83ef1363a2d41e94133ce8bd4ad87c"><td class="memItemLeft" align="right" valign="top">MRC_API const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b83ef1363a2d41e94133ce8bd4ad87c">MR_DenoiseViaNormalsSettings_OffsetPtr</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:a5b83ef1363a2d41e94133ce8bd4ad87c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a497741494ff8ba75853707db48df0097" id="r_a497741494ff8ba75853707db48df0097"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a497741494ff8ba75853707db48df0097">MR_DenoiseViaNormalsSettings_OffsetMutablePtr</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *ptr, ptrdiff_t i)</td></tr>
+<tr class="memitem:a497741494ff8ba75853707db48df0097" id="r_a497741494ff8ba75853707db48df0097"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a497741494ff8ba75853707db48df0097">MR_DenoiseViaNormalsSettings_OffsetMutablePtr</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *ptr, ptrdiff_t i)</td></tr>
 <tr class="separator:a497741494ff8ba75853707db48df0097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11e41cbd15e794f6d5ce55b4e4f310c4" id="r_a11e41cbd15e794f6d5ce55b4e4f310c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11e41cbd15e794f6d5ce55b4e4f310c4">MR_DenoiseViaNormalsSettings_ConstructFromAnother</a> (<a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_other)</td></tr>
+<tr class="memitem:a11e41cbd15e794f6d5ce55b4e4f310c4" id="r_a11e41cbd15e794f6d5ce55b4e4f310c4"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11e41cbd15e794f6d5ce55b4e4f310c4">MR_DenoiseViaNormalsSettings_ConstructFromAnother</a> (MR_PassBy _other_pass_by, <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_other)</td></tr>
 <tr class="separator:a11e41cbd15e794f6d5ce55b4e4f310c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae60240200999e782e0b45d31a369fc78" id="r_ae60240200999e782e0b45d31a369fc78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae60240200999e782e0b45d31a369fc78">MR_DenoiseViaNormalsSettings_Destroy</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:ae60240200999e782e0b45d31a369fc78" id="r_ae60240200999e782e0b45d31a369fc78"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae60240200999e782e0b45d31a369fc78">MR_DenoiseViaNormalsSettings_Destroy</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="memdesc:ae60240200999e782e0b45d31a369fc78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated instance of <code>MR_DenoiseViaNormalsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:ae60240200999e782e0b45d31a369fc78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9968711cd1fec9679caa274987022a8b" id="r_a9968711cd1fec9679caa274987022a8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9968711cd1fec9679caa274987022a8b">MR_DenoiseViaNormalsSettings_DestroyArray</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
+<tr class="memitem:a9968711cd1fec9679caa274987022a8b" id="r_a9968711cd1fec9679caa274987022a8b"><td class="memItemLeft" align="right" valign="top">MRC_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9968711cd1fec9679caa274987022a8b">MR_DenoiseViaNormalsSettings_DestroyArray</a> (const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this)</td></tr>
 <tr class="memdesc:a9968711cd1fec9679caa274987022a8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys a heap-allocated array of <code>MR_DenoiseViaNormalsSettings</code>. Does nothing if the pointer is null.  <br /></td></tr>
 <tr class="separator:a9968711cd1fec9679caa274987022a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a722f2d33993f47c8b42150a7f758ba79" id="r_a722f2d33993f47c8b42150a7f758ba79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a722f2d33993f47c8b42150a7f758ba79">MR_DenoiseViaNormalsSettings_AssignFromAnother</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, <a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a> _other_pass_by, <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_other)</td></tr>
+<tr class="memitem:a722f2d33993f47c8b42150a7f758ba79" id="r_a722f2d33993f47c8b42150a7f758ba79"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a722f2d33993f47c8b42150a7f758ba79">MR_DenoiseViaNormalsSettings_AssignFromAnother</a> (<a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_this, MR_PassBy _other_pass_by, <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *_other)</td></tr>
 <tr class="separator:a722f2d33993f47c8b42150a7f758ba79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80f30fcf6fad5ba51f05dccdd1c56d0a" id="r_a80f30fcf6fad5ba51f05dccdd1c56d0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80f30fcf6fad5ba51f05dccdd1c56d0a">MR_meshDenoiseViaNormals</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *settings)</td></tr>
+<tr class="memitem:a80f30fcf6fad5ba51f05dccdd1c56d0a" id="r_a80f30fcf6fad5ba51f05dccdd1c56d0a"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a80f30fcf6fad5ba51f05dccdd1c56d0a">MR_meshDenoiseViaNormals</a> (<a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *settings)</td></tr>
 <tr class="separator:a80f30fcf6fad5ba51f05dccdd1c56d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
@@ -280,7 +280,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
+<p>Generated from class <code>MR::DenoiseViaNormalsSettings</code>. Supported <code>MR_PassBy</code> modes: <code>MR_PassBy_DefaultConstruct</code>, <code>MR_PassBy_Copy</code>, <code>MR_PassBy_Move</code> (and <code>MR_PassBy_DefaultArgument</code> and <code>MR_PassBy_NoObject</code> if supported by the callee). </p>
 
 </div>
 </div>
@@ -390,7 +390,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_denoiseNormals </td>
+          <td class="memname">MRC_API void MR_denoiseNormals </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -416,7 +416,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">mesh</td><td>contains topology information and coordinates for equation weights </td></tr>
     <tr><td class="paramname">normals</td><td>input noisy normals and output smooth normals </td></tr>
     <tr><td class="paramname">v</td><td>edge indicator function (1 - smooth edge, 0 - crease edge) </td></tr>
-    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (19) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a4a2815eda5e04a1da7ec615027b52c86">MR::denoiseNormals</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. </td></tr>
+    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (19) Generated from function <code>MR::denoiseNormals</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -430,14 +430,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_AssignFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_AssignFromAnother </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -457,7 +457,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_ConstructFrom </td>
+          <td class="memname">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_ConstructFrom </td>
           <td>(</td>
           <td class="paramtype">bool</td>          <td class="paramname"><span class="paramname"><em>fastIndicatorComputation</em></span>, </td>
         </tr>
@@ -504,7 +504,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>cb_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -513,7 +513,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Constructs <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> elementwise. The reference to the parameter <code>outCreases</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae60240200999e782e0b45d31a369fc78" title="Destroys a heap-allocated instance of MR_DenoiseViaNormalsSettings. Does nothing if the pointer is nu...">MR_DenoiseViaNormalsSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
+<p>Constructs <code>MR::DenoiseViaNormalsSettings</code> elementwise. The reference to the parameter <code>outCreases</code> might be preserved in the constructed object. The reference to the parameter <code>cb</code> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae60240200999e782e0b45d31a369fc78" title="Destroys a heap-allocated instance of MR_DenoiseViaNormalsSettings. Does nothing if the pointer is nu...">MR_DenoiseViaNormalsSettings_Destroy()</a></code> to free it when you're done using it. When this function is called, this object will drop any object references it had previously. </p>
 
 </div>
 </div>
@@ -524,9 +524,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_ConstructFromAnother </td>
+          <td class="memname">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_ConstructFromAnother </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>_other_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -535,7 +535,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Generated from constructor <code><a class="elRef" href="../Csharp/classMR_1_1DenoiseViaNormalsSettings.html#a25627dcab94d4cd126e432a1b9d8e469">MR::DenoiseViaNormalsSettings::DenoiseViaNormalsSettings</a></code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae60240200999e782e0b45d31a369fc78" title="Destroys a heap-allocated instance of MR_DenoiseViaNormalsSettings. Does nothing if the pointer is nu...">MR_DenoiseViaNormalsSettings_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from constructor <code>MR::DenoiseViaNormalsSettings::DenoiseViaNormalsSettings</code>. The reference to things referred to by the parameter <code>_other</code> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="#ae60240200999e782e0b45d31a369fc78" title="Destroys a heap-allocated instance of MR_DenoiseViaNormalsSettings. Does nothing if the pointer is nu...">MR_DenoiseViaNormalsSettings_Destroy()</a></code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -546,7 +546,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_DefaultConstruct </td>
+          <td class="memname">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_DefaultConstruct </td>
           <td>(</td>
           <td class="paramtype">void</td>          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -564,7 +564,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_DefaultConstructArray </td>
+          <td class="memname">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_DefaultConstructArray </td>
           <td>(</td>
           <td class="paramtype">size_t</td>          <td class="paramname"><span class="paramname"><em>num_elems</em></span></td><td>)</td>
           <td></td>
@@ -582,7 +582,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Destroy </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Destroy </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -601,7 +601,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_DestroyArray </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_DestroyArray </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
@@ -620,14 +620,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_DenoiseViaNormalsSettings_Get_beta </td>
+          <td class="memname">MRC_API const float * MR_DenoiseViaNormalsSettings_Get_beta </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -638,14 +638,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_DenoiseViaNormalsSettings_Get_cb </td>
+          <td class="memname">MRC_API const <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_DenoiseViaNormalsSettings_Get_cb </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to get the progress and optionally cancel Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to get the progress and optionally cancel Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -656,14 +656,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_DenoiseViaNormalsSettings_Get_fastIndicatorComputation </td>
+          <td class="memname">MRC_API const bool * MR_DenoiseViaNormalsSettings_Get_fastIndicatorComputation </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use approximated computation, which is much faster than precise solution Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>use approximated computation, which is much faster than precise solution Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -674,14 +674,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_DenoiseViaNormalsSettings_Get_gamma </td>
+          <td class="memname">MRC_API const float * MR_DenoiseViaNormalsSettings_Get_gamma </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -692,14 +692,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_DenoiseViaNormalsSettings_Get_guideWeight </td>
+          <td class="memname">MRC_API const float * MR_DenoiseViaNormalsSettings_Get_guideWeight </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -710,14 +710,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const bool * MR_DenoiseViaNormalsSettings_Get_limitNearInitial </td>
+          <td class="memname">MRC_API const bool * MR_DenoiseViaNormalsSettings_Get_limitNearInitial </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then maximal displacement of each point during denoising will be limited Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -728,14 +728,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const float * MR_DenoiseViaNormalsSettings_Get_maxInitialDist </td>
+          <td class="memname">MRC_API const float * MR_DenoiseViaNormalsSettings_Get_maxInitialDist </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -746,14 +746,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_DenoiseViaNormalsSettings_Get_normalIters </td>
+          <td class="memname">MRC_API const int * MR_DenoiseViaNormalsSettings_Get_normalIters </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -764,14 +764,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const  * MR_DenoiseViaNormalsSettings_Get_outCreases </td>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> *const  * MR_DenoiseViaNormalsSettings_Get_outCreases </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optionally returns creases found during smoothing Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optionally returns creases found during smoothing Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -782,14 +782,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const int * MR_DenoiseViaNormalsSettings_Get_pointIters </td>
+          <td class="memname">MRC_API const int * MR_DenoiseViaNormalsSettings_Get_pointIters </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -800,14 +800,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_DenoiseViaNormalsSettings_GetMutable_beta </td>
+          <td class="memname">MRC_API float * MR_DenoiseViaNormalsSettings_GetMutable_beta </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -818,14 +818,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_DenoiseViaNormalsSettings_GetMutable_cb </td>
+          <td class="memname">MRC_API <a class="el" href="MR3mf_8h.html#adb03ce28cacfff1e499d75d512dc4a84">MR_std_function_bool_from_float</a> * MR_DenoiseViaNormalsSettings_GetMutable_cb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to get the progress and optionally cancel Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>to get the progress and optionally cancel Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -836,14 +836,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_DenoiseViaNormalsSettings_GetMutable_fastIndicatorComputation </td>
+          <td class="memname">MRC_API bool * MR_DenoiseViaNormalsSettings_GetMutable_fastIndicatorComputation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use approximated computation, which is much faster than precise solution Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>use approximated computation, which is much faster than precise solution Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -854,14 +854,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_DenoiseViaNormalsSettings_GetMutable_gamma </td>
+          <td class="memname">MRC_API float * MR_DenoiseViaNormalsSettings_GetMutable_gamma </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -872,14 +872,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_DenoiseViaNormalsSettings_GetMutable_guideWeight </td>
+          <td class="memname">MRC_API float * MR_DenoiseViaNormalsSettings_GetMutable_guideWeight </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -890,14 +890,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> bool * MR_DenoiseViaNormalsSettings_GetMutable_limitNearInitial </td>
+          <td class="memname">MRC_API bool * MR_DenoiseViaNormalsSettings_GetMutable_limitNearInitial </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>if true then maximal displacement of each point during denoising will be limited Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -908,14 +908,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> float * MR_DenoiseViaNormalsSettings_GetMutable_maxInitialDist </td>
+          <td class="memname">MRC_API float * MR_DenoiseViaNormalsSettings_GetMutable_maxInitialDist </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -926,14 +926,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_DenoiseViaNormalsSettings_GetMutable_normalIters </td>
+          <td class="memname">MRC_API int * MR_DenoiseViaNormalsSettings_GetMutable_normalIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -944,14 +944,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> ** MR_DenoiseViaNormalsSettings_GetMutable_outCreases </td>
+          <td class="memname">MRC_API <a class="el" href="MRAABBTreeBase_8h.html#ac7f59a6736b29701d7e619412b6e2890">MR_UndirectedEdgeBitSet</a> ** MR_DenoiseViaNormalsSettings_GetMutable_outCreases </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optionally returns creases found during smoothing Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>optionally returns creases found during smoothing Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -962,14 +962,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> int * MR_DenoiseViaNormalsSettings_GetMutable_pointIters </td>
+          <td class="memname">MRC_API int * MR_DenoiseViaNormalsSettings_GetMutable_pointIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </p>
+<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Returns a mutable pointer to a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </p>
 
 </div>
 </div>
@@ -980,7 +980,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_OffsetMutablePtr </td>
+          <td class="memname">MRC_API <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_OffsetMutablePtr </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1002,7 +1002,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_OffsetPtr </td>
+          <td class="memname">MRC_API const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> * MR_DenoiseViaNormalsSettings_OffsetPtr </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>ptr</em></span>, </td>
         </tr>
@@ -1024,7 +1024,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_beta </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_beta </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1035,7 +1035,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>beta</code>. </p>
+<p>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>beta</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>beta</code>. </p>
 
 </div>
 </div>
@@ -1046,14 +1046,14 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_cb </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_cb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="common_8h.html#ac983b89bddb9b22c9b416f31399f0095">MR_PassBy</a></td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
+          <td class="paramtype">MR_PassBy</td>          <td class="paramname"><span class="paramname"><em>value_pass_by</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1062,7 +1062,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>to get the progress and optionally cancel Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it had previously in <code>cb</code>. </p>
+<p>to get the progress and optionally cancel Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>cb</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>cb</code>. When this function is called, this object will drop object references it had previously in <code>cb</code>. </p>
 
 </div>
 </div>
@@ -1073,7 +1073,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_fastIndicatorComputation </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_fastIndicatorComputation </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1084,7 +1084,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>use approximated computation, which is much faster than precise solution Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>fastIndicatorComputation</code>. </p>
+<p>use approximated computation, which is much faster than precise solution Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>fastIndicatorComputation</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>fastIndicatorComputation</code>. </p>
 
 </div>
 </div>
@@ -1095,7 +1095,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_gamma </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_gamma </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1106,7 +1106,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>gamma</code>. </p>
+<p>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>gamma</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>gamma</code>. </p>
 
 </div>
 </div>
@@ -1117,7 +1117,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_guideWeight </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_guideWeight </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1128,7 +1128,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>guideWeight</code>. </p>
+<p>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0 Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>guideWeight</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>guideWeight</code>. </p>
 
 </div>
 </div>
@@ -1139,7 +1139,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_limitNearInitial </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_limitNearInitial </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1150,7 +1150,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>limitNearInitial</code>. </p>
+<p>if true then maximal displacement of each point during denoising will be limited Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>limitNearInitial</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>limitNearInitial</code>. </p>
 
 </div>
 </div>
@@ -1161,7 +1161,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_maxInitialDist </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_maxInitialDist </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1172,7 +1172,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxInitialDist</code>. </p>
+<p>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>maxInitialDist</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>maxInitialDist</code>. </p>
 
 </div>
 </div>
@@ -1183,7 +1183,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_normalIters </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_normalIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1194,7 +1194,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>normalIters</code>. </p>
+<p>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>normalIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>normalIters</code>. </p>
 
 </div>
 </div>
@@ -1205,7 +1205,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_outCreases </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_outCreases </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1216,7 +1216,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>optionally returns creases found during smoothing Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outCreases</code>. When this function is called, this object will drop object references it had previously in <code>outCreases</code>. </p>
+<p>optionally returns creases found during smoothing Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>outCreases</code>. Parameter <code>_this</code> can not be null. It is a single object. The reference to the parameter <code>value</code> might be preserved in this object in element <code>outCreases</code>. When this function is called, this object will drop object references it had previously in <code>outCreases</code>. </p>
 
 </div>
 </div>
@@ -1227,7 +1227,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_DenoiseViaNormalsSettings_Set_pointIters </td>
+          <td class="memname">MRC_API void MR_DenoiseViaNormalsSettings_Set_pointIters </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="#a550c956b4ffd37bc735d1733d6416bf4">MR_DenoiseViaNormalsSettings</a> *</td>          <td class="paramname"><span class="paramname"><em>_this</em></span>, </td>
         </tr>
@@ -1238,7 +1238,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Modifies a member variable of class <code><a class="elRef" href="../Cpp/structMR_1_1DenoiseViaNormalsSettings.html">MR::DenoiseViaNormalsSettings</a></code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>pointIters</code>. </p>
+<p>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation Modifies a member variable of class <code>MR::DenoiseViaNormalsSettings</code> named <code>pointIters</code>. Parameter <code>_this</code> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <code>pointIters</code>. </p>
 
 </div>
 </div>
@@ -1249,7 +1249,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_meshDenoiseViaNormals </td>
+          <td class="memname">MRC_API <a class="el" href="MRCtm_8h.html#a077b8debfae88f9cf2267ad2db95c006">MR_expected_void_std_string</a> * MR_meshDenoiseViaNormals </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1260,7 +1260,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Reduces noise in given mesh, see the article "Mesh Denoising via a Novel Mumford-Shah Framework" Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a6bddd9d63512f9dfffb0fa869f249a4d">MR::meshDenoiseViaNormals</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__void__std__string_8h.html#a9638e07d2c5281b4bf574c618ab6f2e9" title="Destroys a heap-allocated instance of MR_expected_void_std_string. Does nothing if the pointer is nul...">MR_expected_void_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Reduces noise in given mesh, see the article "Mesh Denoising via a Novel Mumford-Shah Framework" Generated from function <code>MR::meshDenoiseViaNormals</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>settings</code> is a single object. Parameter <code>settings</code> has a default argument: <code>{}</code>, pass a null pointer to use it. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_void_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -1271,7 +1271,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_updateIndicator </td>
+          <td class="memname">MRC_API void MR_updateIndicator </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -1302,7 +1302,7 @@ Functions</h2></td></tr>
     <tr><td class="paramname">mesh</td><td>contains topology information and coordinates for equation weights </td></tr>
     <tr><td class="paramname">normals</td><td>per-face normals </td></tr>
     <tr><td class="paramname">beta</td><td>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges </td></tr>
-    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (20) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a786dcca1baeb53c3472aeec3c347aaf0">MR::updateIndicator</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. </td></tr>
+    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (20) Generated from function <code>MR::updateIndicator</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1316,7 +1316,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> void MR_updateIndicatorFast </td>
+          <td class="memname">MRC_API void MR_updateIndicatorFast </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MR2DContoursTriangulation_8h.html#ad396cf7d4433c5ba7924776f5b379c9b">MR_MeshTopology</a> *</td>          <td class="paramname"><span class="paramname"><em>topology</em></span>, </td>
         </tr>
@@ -1346,7 +1346,7 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">normals</td><td>per-face normals </td></tr>
     <tr><td class="paramname">beta</td><td>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges </td></tr>
-    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (20) Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a40847df1ce412c4c7085dd392037e050">MR::updateIndicatorFast</a></code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. </td></tr>
+    <tr><td class="paramname">gamma</td><td>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ... see the article "Mesh Denoising via a Novel Mumford-Shah Framework", equation (20) Generated from function <code>MR::updateIndicatorFast</code>. Parameter <code>topology</code> can not be null. It is a single object. Parameter <code>v</code> can not be null. It is a single object. Parameter <code>normals</code> can not be null. It is a single object. </td></tr>
   </table>
   </dd>
 </dl>

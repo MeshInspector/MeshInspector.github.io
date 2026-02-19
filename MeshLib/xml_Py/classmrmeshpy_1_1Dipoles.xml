@@ -1,0 +1,979 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Dipoles" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Dipoles</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Dipoles_1a6a267561e61eae51ab3963254ec20356" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Dipoles::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Dipoles._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13012" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13012" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a31c90a6367fc1ba9a4cc67d047e15297" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13015" bodyend="13016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a129853722bf73590e0be6e8e4b397b55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipoles" kindref="compound">Dipoles</ref></type>
+        <definition> Dipoles mrmeshpy.Dipoles.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Dipoles.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13019" bodyend="13020"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a129853722bf73590e0be6e8e4b397b55" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipoles" kindref="compound">Dipoles</ref></type>
+        <definition> Dipoles mrmeshpy.Dipoles.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Dipoles.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13023" bodyend="13024"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1adb9d20c0bddb6f1227ccc44848a0014e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.__getitem__</definition>
+        <argsstring>(self, NodeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13026" bodyend="13027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1adb9d20c0bddb6f1227ccc44848a0014e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.__getitem__</definition>
+        <argsstring>(self, NodeId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13029" bodyend="13030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a3688b558f19217277d2915f5deac9ab8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13032" bodyend="13035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1adc96c8f7835e4eeaf44fdb3f15d51431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13037" bodyend="13040"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ac93b4fd60bd4c14dc12d0fe73155592c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.__init__</definition>
+        <argsstring>(self, int size, Dipole val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13042" bodyend="13045"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a53c72e6a822452d223515bda0f56a1b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.__init__</definition>
+        <argsstring>(self, std_vector_Dipole vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Dipole" kindref="compound">std_vector_Dipole</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13047" bodyend="13050"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a6ee1fc3c7a16292de829ed16c27a5de7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.__init__</definition>
+        <argsstring>(self, Dipoles arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipoles" kindref="compound">Dipoles</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13052" bodyend="13055"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ab98b28641206dc09aad099c073a85b8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref>]</type>
+        <definition> typing.Iterator[Dipole] mrmeshpy.Dipoles.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13056" bodyend="13057"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a8140f02abd1178b353d29db426718619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.__setitem__</definition>
+        <argsstring>(self, NodeId arg0, Dipole arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Dipoles.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13058" bodyend="13059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a7ef0473cbcd8806ce47786c9e6da5a93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.autoResizeAt</definition>
+        <argsstring>(self, NodeId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Dipoles.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13060" bodyend="13063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1aa51409fde2903c82512d7357a87be474" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.autoResizeSet</definition>
+        <argsstring>(self, NodeId pos, int len, Dipole val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Dipoles.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13065" bodyend="13069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1aa6f2b2399e85f58994233e3cbbea5148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.autoResizeSet</definition>
+        <argsstring>(self, NodeId i, Dipole val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Dipoles.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13071" bodyend="13074"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1afd4e8d3281324803523bf8904f188bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Dipoles.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13076" bodyend="13077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1afd4e8d3281324803523bf8904f188bbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Dipoles.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13079" bodyend="13080"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a9a8b3b51ef19e5226da0f9a7936932ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.Dipoles.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Dipoles.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13081" bodyend="13084"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a6275b137873b8cfc512ac208bf2db656" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.Dipoles.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Dipoles.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13085" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13085" bodyend="13088"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a7f337f759c722010b9abf9870ac8f61f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Dipoles.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Dipoles.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13089" bodyend="13090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a2642704342f5d4e95afbedb877038332" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Dipoles.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13091" bodyend="13092"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ac2529af38fbdc43c2ffc5d368fc6943e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Dipoles.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13094" bodyend="13095"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ac2529af38fbdc43c2ffc5d368fc6943e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Dipoles.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13097" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13097" bodyend="13098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a1e46c3de018ff4e5f06702f857af629a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Dipoles.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13099" bodyend="13100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a5121590d1347d4e4e6f5a82e80752d01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Dipoles.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Dipoles.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13101" bodyend="13102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ad4dd800aeed619c28ac1e6c4af6fb619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.Dipoles.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Dipoles.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13103" bodyend="13106"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a0248a120c6bc5e1a3f4dfbaee6fdbc96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Dipoles.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13108" bodyend="13109"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a0248a120c6bc5e1a3f4dfbaee6fdbc96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+        <definition> Dipole mrmeshpy.Dipoles.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Dipoles.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13111" bodyend="13112"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ab7f13af37d4f81b0cded1878e7c4bd90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Dipoles.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Dipoles.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13113" bodyend="13116"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a7acf18f7033f0ea71370d6edd8170dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Dipoles.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13117" bodyend="13118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a89813316bc90d75d6a56a78802ce4a7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.push_back</definition>
+        <argsstring>(self, Dipole t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Dipoles.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13120" bodyend="13121"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a89813316bc90d75d6a56a78802ce4a7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.push_back</definition>
+        <argsstring>(self, Dipole t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Dipoles.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13123" bodyend="13124"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a86ed11877cca84c89c9914663e24faa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Dipoles.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13125" bodyend="13126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a10b51a1ff790e859bce04de9cf395eba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Dipoles.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13128" bodyend="13129"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a5a0e9e01592bb2294a938ed87e1fbfb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.resize</definition>
+        <argsstring>(self, int newSize, Dipole t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Dipoles.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13131" bodyend="13132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ac821eca504cdc71c7daca6538e562c19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Dipoles.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13134" bodyend="13137"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ab60230a73cb4a21ffa4d8ce89d13b62f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, Dipole value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Dipoles.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipole" kindref="compound">Dipole</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13139" bodyend="13142"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1aa86c47fb593f495d63ac3015f80fa8fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Dipoles.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Dipoles.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13143" bodyend="13144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1ad1d003d5f7724221d603c1edb8505536" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.swap</definition>
+        <argsstring>(self, Dipoles b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Dipoles.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Dipoles" kindref="compound">Dipoles</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13145" bodyend="13146"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1afa3a46aaacb48544713acd2d4498187b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Dipole" kindref="compound">std_vector_Dipole</ref></type>
+        <definition> std_vector_Dipole mrmeshpy.Dipoles.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Dipoles.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13148" bodyend="13151"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Dipoles_1a8e60e6cc78ebc06d89c9d9312287ffb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Dipoles.vec_</definition>
+        <argsstring>(self, std_vector_Dipole arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Dipoles.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Dipole" kindref="compound">std_vector_Dipole</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13153" bodyend="13154"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Dipoles
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Dipoles</label>
+        <link refid="classmrmeshpy_1_1Dipoles"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="13002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="13002" bodyend="13154"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Dipoles_1adb9d20c0bddb6f1227ccc44848a0014e" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1adb9d20c0bddb6f1227ccc44848a0014e" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a31c90a6367fc1ba9a4cc67d047e15297" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a3688b558f19217277d2915f5deac9ab8" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1adc96c8f7835e4eeaf44fdb3f15d51431" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ac93b4fd60bd4c14dc12d0fe73155592c" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a53c72e6a822452d223515bda0f56a1b9" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a6ee1fc3c7a16292de829ed16c27a5de7" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ab98b28641206dc09aad099c073a85b8c" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a8140f02abd1178b353d29db426718619" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a6a267561e61eae51ab3963254ec20356" prot="protected" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a7ef0473cbcd8806ce47786c9e6da5a93" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1aa51409fde2903c82512d7357a87be474" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1aa6f2b2399e85f58994233e3cbbea5148" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1afd4e8d3281324803523bf8904f188bbe" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1afd4e8d3281324803523bf8904f188bbe" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a9a8b3b51ef19e5226da0f9a7936932ab" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a6275b137873b8cfc512ac208bf2db656" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a7f337f759c722010b9abf9870ac8f61f" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a2642704342f5d4e95afbedb877038332" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ac2529af38fbdc43c2ffc5d368fc6943e" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ac2529af38fbdc43c2ffc5d368fc6943e" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a1e46c3de018ff4e5f06702f857af629a" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a5121590d1347d4e4e6f5a82e80752d01" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ad4dd800aeed619c28ac1e6c4af6fb619" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a0248a120c6bc5e1a3f4dfbaee6fdbc96" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a0248a120c6bc5e1a3f4dfbaee6fdbc96" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ab7f13af37d4f81b0cded1878e7c4bd90" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a129853722bf73590e0be6e8e4b397b55" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a129853722bf73590e0be6e8e4b397b55" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a7acf18f7033f0ea71370d6edd8170dae" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a89813316bc90d75d6a56a78802ce4a7e" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a89813316bc90d75d6a56a78802ce4a7e" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a86ed11877cca84c89c9914663e24faa7" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a10b51a1ff790e859bce04de9cf395eba" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a5a0e9e01592bb2294a938ed87e1fbfb0" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ac821eca504cdc71c7daca6538e562c19" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ab60230a73cb4a21ffa4d8ce89d13b62f" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1aa86c47fb593f495d63ac3015f80fa8fb" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1ad1d003d5f7724221d603c1edb8505536" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1afa3a46aaacb48544713acd2d4498187b" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Dipoles_1a8e60e6cc78ebc06d89c9d9312287ffb4" prot="public" virt="non-virtual"><scope>mrmeshpy::Dipoles</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1EmbeddedPython" kind="class" language="C++" prot="public">
+    <compoundname>MR::EmbeddedPython</compoundname>
+    <includes refid="MREmbeddedPython_8h" local="no">MREmbeddedPython.h</includes>
+    <innerclass refid="structMR_1_1EmbeddedPython_1_1Config" prot="public">MR::EmbeddedPython::Config</innerclass>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1gac065892e3b4bdf340513ed58980ac699" kind="enum"><name>State</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1ga4ba6eb9ab250390cf344a8970f5f3f79" kind="variable"><name>pythonConfig</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga1c44871c8481b2c5197276e8a66e3b02" kind="variable"><name>available_</name></member>
+      <member refid="group__GeneralGroup_1ga969f75891ab6e160dd413832625b24e5" kind="variable"><name>shutdownCalled_</name></member>
+      <member refid="group__GeneralGroup_1ga8857b20f93da907363e6df3ec7449998" kind="variable"><name>state_</name></member>
+      <member refid="group__GeneralGroup_1gaee0c4799d184986d2796eebde39d7afe" kind="variable"><name>queuedSource_</name></member>
+      <member refid="group__GeneralGroup_1gac16b52a003283cdcb1045023b66ce683" kind="variable"><name>lastRunSuccessful_</name></member>
+      <member refid="group__GeneralGroup_1ga415c7cf70c5edee7bbbe071cc4138d42" kind="variable"><name>onDoneAsync_</name></member>
+      <member refid="group__GeneralGroup_1ga6dcdaa2068e330e61f45421344dd7bbc" kind="variable"><name>cvMutex_</name></member>
+      <member refid="group__GeneralGroup_1ga49199ddba429cf34407e2faaf77853d8" kind="variable"><name>cv_</name></member>
+      <member refid="group__GeneralGroup_1ga14bbe74feab93ace0f4c09eab821a9ce" kind="variable"><name>interpreterThread_</name></member>
+      <member refid="group__GeneralGroup_1ga8b6f867863326cb48f14b4c459b8f434" kind="variable"><name>stopInterpreterThread_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gafdfbc61b8daca0fe7d83153de681a5f9" kind="function"><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gaae9a27f7dcbea3f36eb3d9f478440152" kind="function"><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gae58305bf0cb6db10ee8352912f243acb" kind="function"><name>nowRunning</name></member>
+      <member refid="group__GeneralGroup_1ga98fa9cab1d957fb2da8cc015b46a44cd" kind="function"><name>runString</name></member>
+      <member refid="group__GeneralGroup_1ga5916e55128078261efdff12ec1f7fee9" kind="function"><name>runScript</name></member>
+      <member refid="group__GeneralGroup_1ga891bec1f480088cb10f23731dfca43d1" kind="function"><name>isPythonScript</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga9398616f697683f01635871356647c83" kind="function"><name>EmbeddedPython</name></member>
+      <member refid="group__GeneralGroup_1gaf2c7c2294c48e4cb45b422fb2d5fab0a" kind="function"><name>EmbeddedPython</name></member>
+      <member refid="group__GeneralGroup_1ga0322aa2b47aa40c4c73ab0521f57c3a8" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga723ddb34410b7b3b49e9a4478fa77d06" kind="function"><name>~EmbeddedPython</name></member>
+      <member refid="group__GeneralGroup_1ga6aa832e6f5ed4825462727f791f123c6" kind="function"><name>init_</name></member>
+      <member refid="group__GeneralGroup_1ga529fa94bbea25d4014b8c6a6d0022520" kind="function"><name>ensureInterpreterThreadIsRunning_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <member refid="group__GeneralGroup_1gaee766dda3fe77ea594026f0bbd970100" kind="function"><name>instance_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::EmbeddedPython</label>
+        <link refid="classMR_1_1EmbeddedPython"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>pythonConfig</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::EmbeddedPython::Config</label>
+        <link refid="structMR_1_1EmbeddedPython_1_1Config"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MREmbeddedPython/MREmbeddedPython.h" bodystart="21" bodyend="85"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1c44871c8481b2c5197276e8a66e3b02" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>available_</name></member>
+      <member refid="group__GeneralGroup_1ga49199ddba429cf34407e2faaf77853d8" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>cv_</name></member>
+      <member refid="group__GeneralGroup_1ga6dcdaa2068e330e61f45421344dd7bbc" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>cvMutex_</name></member>
+      <member refid="group__GeneralGroup_1ga9398616f697683f01635871356647c83" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>EmbeddedPython</name></member>
+      <member refid="group__GeneralGroup_1gaf2c7c2294c48e4cb45b422fb2d5fab0a" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>EmbeddedPython</name></member>
+      <member refid="group__GeneralGroup_1ga529fa94bbea25d4014b8c6a6d0022520" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>ensureInterpreterThreadIsRunning_</name></member>
+      <member refid="group__GeneralGroup_1ga6aa832e6f5ed4825462727f791f123c6" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>init_</name></member>
+      <member refid="group__GeneralGroup_1gaee766dda3fe77ea594026f0bbd970100" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>instance_</name></member>
+      <member refid="group__GeneralGroup_1ga14bbe74feab93ace0f4c09eab821a9ce" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>interpreterThread_</name></member>
+      <member refid="group__GeneralGroup_1gafdfbc61b8daca0fe7d83153de681a5f9" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga891bec1f480088cb10f23731dfca43d1" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>isPythonScript</name></member>
+      <member refid="group__GeneralGroup_1gac16b52a003283cdcb1045023b66ce683" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>lastRunSuccessful_</name></member>
+      <member refid="group__GeneralGroup_1gae58305bf0cb6db10ee8352912f243acb" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>nowRunning</name></member>
+      <member refid="group__GeneralGroup_1ga415c7cf70c5edee7bbbe071cc4138d42" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>onDoneAsync_</name></member>
+      <member refid="group__GeneralGroup_1ga0322aa2b47aa40c4c73ab0521f57c3a8" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga4ba6eb9ab250390cf344a8970f5f3f79" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>pythonConfig</name></member>
+      <member refid="group__GeneralGroup_1gaee0c4799d184986d2796eebde39d7afe" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>queuedSource_</name></member>
+      <member refid="group__GeneralGroup_1ga5916e55128078261efdff12ec1f7fee9" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>runScript</name></member>
+      <member refid="group__GeneralGroup_1ga98fa9cab1d957fb2da8cc015b46a44cd" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>runString</name></member>
+      <member refid="group__GeneralGroup_1gaae9a27f7dcbea3f36eb3d9f478440152" prot="public" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1ga969f75891ab6e160dd413832625b24e5" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>shutdownCalled_</name></member>
+      <member refid="group__GeneralGroup_1gac065892e3b4bdf340513ed58980ac699" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>State</name></member>
+      <member refid="group__GeneralGroup_1ga8857b20f93da907363e6df3ec7449998" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>state_</name></member>
+      <member refid="group__GeneralGroup_1ga8b6f867863326cb48f14b4c459b8f434" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>stopInterpreterThread_</name></member>
+      <member refid="group__GeneralGroup_1ga723ddb34410b7b3b49e9a4478fa77d06" prot="private" virt="non-virtual"><scope>MR::EmbeddedPython</scope><name>~EmbeddedPython</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

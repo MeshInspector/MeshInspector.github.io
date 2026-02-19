@@ -1,13 +1,21 @@
 var classMR_1_1MultiwayICP =
 [
-    [ "MultiwayICP", "../Csharp/classMR_1_1MultiwayICP.html#a459fc4554ad61e9938f58354dfe2b881", null ],
-    [ "MultiwayICP", "../Csharp/classMR_1_1MultiwayICP.html#a1db2b849c2514e2d54b344b6a96fc3dc", null ],
-    [ "assign", "../Csharp/classMR_1_1MultiwayICP.html#a30ee37c521ac399cda9c733a92074df2", null ],
-    [ "calculateTransformations", "../Csharp/classMR_1_1MultiwayICP.html#a3a7fc669c75fcf780f411f7052d0af4e", null ],
-    [ "calculateTransformationsFixFirst", "../Csharp/classMR_1_1MultiwayICP.html#a592f74940817bf8de9a6e543fd5ed851", null ],
-    [ "devEnableIndependentEquationsMode", "../Csharp/classMR_1_1MultiwayICP.html#ad2f07dda4a5478ad6f85163e8e1b08d8", null ],
-    [ "resamplePoints", "../Csharp/classMR_1_1MultiwayICP.html#adc72d721bc443d2a5386600ac02245db", null ],
-    [ "setParams", "../Csharp/classMR_1_1MultiwayICP.html#a18c8e783f38a8339216447e687db7af1", null ],
-    [ "setPerIterationCallback", "../Csharp/classMR_1_1MultiwayICP.html#a891cf06bf2a92a57ec2a28c34b7389f2", null ],
-    [ "updateAllPointPairs", "../Csharp/classMR_1_1MultiwayICP.html#a7e630a2a2eb09a7aee510f8c4d95b6ea", null ]
+    [ "PairsPerLayer", "group__GeneralGroup.html#ga37a8e0d52c2729455ea42255f7d90942", null ],
+    [ "MultiwayICP", "group__GeneralGroup.html#ga4fc483cb7fd8b04e2e37761a891b6a15", null ],
+    [ "calculateTransformations", "group__GeneralGroup.html#ga45afa9e21d3905737cd8bafd86926578", null ],
+    [ "calculateTransformationsFixFirst", "group__GeneralGroup.html#ga176d6154b15b1c250f3f5cd3fb1a35cc", null ],
+    [ "devEnableIndependentEquationsMode", "group__GeneralGroup.html#ga44f6380f606dbdbaf88e1bf6357735dc", null ],
+    [ "devIndependentEquationsModeEnabled", "group__GeneralGroup.html#gae4d25815f9e27aeb558a76b1268fb602", null ],
+    [ "getCascadeIndexer", "group__GeneralGroup.html#gae32c804d4589f4cbb0cd5821bace1d83", null ],
+    [ "getMeanSqDistToPlane", "group__GeneralGroup.html#gadef2b42123425d640c3ba527a8ba8f08", null ],
+    [ "getMeanSqDistToPoint", "group__GeneralGroup.html#ga64ac3c584445bc45cecd3c1c41d10ae6", null ],
+    [ "getNumActivePairs", "group__GeneralGroup.html#ga2b9103b68bd7af393660d7dafc751954", null ],
+    [ "getNumSamples", "group__GeneralGroup.html#ga7d58f57c70792f0ec9ef82aa6e95407a", null ],
+    [ "getPairsPerLayer", "group__GeneralGroup.html#ga3a6e071719c0f164a01aeca591915112", null ],
+    [ "getParams", "group__GeneralGroup.html#ga1df773567dfe9ebaffb468a5e35325fe", null ],
+    [ "getStatusInfo", "group__GeneralGroup.html#ga088270c2bee7aaaea93a48fc5d48c2fd", null ],
+    [ "resamplePoints", "group__GeneralGroup.html#gafab250201279bb04e86b137138ef54de", null ],
+    [ "setParams", "group__GeneralGroup.html#gafa420b3638e8c4e0b5ac70acb575a741", null ],
+    [ "setPerIterationCallback", "group__GeneralGroup.html#gae36a340dd4d403cc4894bc8a8b87d0d6", null ],
+    [ "updateAllPointPairs", "group__GeneralGroup.html#ga266ccb33611f47b517672664e5ecca33", null ]
 ];

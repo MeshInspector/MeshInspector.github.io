@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshOrPoints" kind="class" language="C++" prot="public">
+    <compoundname>MR::MeshOrPoints</compoundname>
+    <includes refid="MRMeshOrPoints_8h" local="no">MRMeshOrPoints.h</includes>
+    <innerclass refid="structMR_1_1MeshOrPoints_1_1ProjectionResult" prot="public">MR::MeshOrPoints::ProjectionResult</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga0a57020e6aaf506fbbd6c3ce60c21412" kind="typedef"><name>LimitedProjectorFunc</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaf2ba45f302b3ec1eb683fd80dee114cc" kind="variable"><name>var_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga4b19905136ab6d31a445cc3884ab0c1e" kind="function"><name>MeshOrPoints</name></member>
+      <member refid="group__GeneralGroup_1ga1ef5bfca52ac8e1892322d7cf4585b5b" kind="function"><name>MeshOrPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf9cbf91d93d22bcc4e487a573b2b8067" kind="function"><name>MeshOrPoints</name></member>
+      <member refid="group__GeneralGroup_1gabe1af15504d425b2e6633291ccae6828" kind="function"><name>MeshOrPoints</name></member>
+      <member refid="group__GeneralGroup_1ga058b67c8a42bd8837a6bbe4be06bd4cf" kind="function"><name>asMeshPart</name></member>
+      <member refid="group__GeneralGroup_1ga309a7ce32b89e73177a05d07a93d3103" kind="function"><name>asPointCloudPart</name></member>
+      <member refid="group__GeneralGroup_1ga735838d295350004f02283f8429fa620" kind="function"><name>getObjBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1gaec797ad241ba4410f73274ba5e52c51e" kind="function"><name>cacheAABBTree</name></member>
+      <member refid="group__GeneralGroup_1gaf68f336dca5c1cbf834ab0c65fc38036" kind="function"><name>computeBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1gabbcab0078d3323160184019e7850bceb" kind="function"><name>accumulate</name></member>
+      <member refid="group__GeneralGroup_1gaa0eded9546a4d5a192d0222adb7ebc21" kind="function"><name>pointsGridSampling</name></member>
+      <member refid="group__GeneralGroup_1ga6c2fe1dcde2dbadeef24818952755317" kind="function"><name>points</name></member>
+      <member refid="group__GeneralGroup_1ga825ff27e36144d02b12f1880d863e32b" kind="function"><name>validPoints</name></member>
+      <member refid="group__GeneralGroup_1ga864d2d2aec501a7ccac038912909bef9" kind="function"><name>normals</name></member>
+      <member refid="group__GeneralGroup_1ga1e980c7ce8ce348fcb921d6e1feb63c6" kind="function"><name>weights</name></member>
+      <member refid="group__GeneralGroup_1ga0281d9d51c1ee7b1b2dbd57c5e97414c" kind="function"><name>projector</name></member>
+      <member refid="group__GeneralGroup_1gadbd1b394a6735a416ceeb13ef4ac86eb" kind="function"><name>limitedProjector</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class can hold either mesh part or point cloud. It is used for generic algorithms operating with either of them </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="21" bodyend="105"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gabbcab0078d3323160184019e7850bceb" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>accumulate</name></member>
+      <member refid="group__GeneralGroup_1ga058b67c8a42bd8837a6bbe4be06bd4cf" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>asMeshPart</name></member>
+      <member refid="group__GeneralGroup_1ga309a7ce32b89e73177a05d07a93d3103" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>asPointCloudPart</name></member>
+      <member refid="group__GeneralGroup_1gaec797ad241ba4410f73274ba5e52c51e" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>cacheAABBTree</name></member>
+      <member refid="group__GeneralGroup_1gaf68f336dca5c1cbf834ab0c65fc38036" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>computeBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1ga735838d295350004f02283f8429fa620" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>getObjBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1gadbd1b394a6735a416ceeb13ef4ac86eb" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>limitedProjector</name></member>
+      <member refid="group__GeneralGroup_1ga0a57020e6aaf506fbbd6c3ce60c21412" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>LimitedProjectorFunc</name></member>
+      <member refid="group__GeneralGroup_1ga4b19905136ab6d31a445cc3884ab0c1e" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>MeshOrPoints</name></member>
+      <member refid="group__GeneralGroup_1ga1ef5bfca52ac8e1892322d7cf4585b5b" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>MeshOrPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf9cbf91d93d22bcc4e487a573b2b8067" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>MeshOrPoints</name></member>
+      <member refid="group__GeneralGroup_1gabe1af15504d425b2e6633291ccae6828" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>MeshOrPoints</name></member>
+      <member refid="group__GeneralGroup_1ga864d2d2aec501a7ccac038912909bef9" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>normals</name></member>
+      <member refid="group__GeneralGroup_1ga6c2fe1dcde2dbadeef24818952755317" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>points</name></member>
+      <member refid="group__GeneralGroup_1gaa0eded9546a4d5a192d0222adb7ebc21" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>pointsGridSampling</name></member>
+      <member refid="group__GeneralGroup_1ga0281d9d51c1ee7b1b2dbd57c5e97414c" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>projector</name></member>
+      <member refid="group__GeneralGroup_1ga825ff27e36144d02b12f1880d863e32b" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>validPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf2ba45f302b3ec1eb683fd80dee114cc" prot="private" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>var_</name></member>
+      <member refid="group__GeneralGroup_1ga1e980c7ce8ce348fcb921d6e1feb63c6" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

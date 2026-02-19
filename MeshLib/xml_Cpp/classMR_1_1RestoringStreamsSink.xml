@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RestoringStreamsSink" kind="class" language="C++" prot="public">
+    <compoundname>MR::RestoringStreamsSink</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">spdlog::sinks::base_sink&lt; spdlog::details::null_mutex &gt;</basecompoundref>
+    <includes refid="MRRestoringStreamsSink_8h" local="no">MRRestoringStreamsSink.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1RestoringStreamsSink_1af538b91d1451e00700dd49a936c87b00" prot="private" static="no" mutable="no">
+        <type>std::streambuf *</type>
+        <definition>std::streambuf* MR::RestoringStreamsSink::coutBuf_</definition>
+        <argsstring></argsstring>
+        <name>coutBuf_</name>
+        <qualifiedname>MR::RestoringStreamsSink::coutBuf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="44" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RestoringStreamsSink_1a04fcb1562deac23df28c31bc2c527af7" prot="private" static="no" mutable="no">
+        <type>std::streambuf *</type>
+        <definition>std::streambuf* MR::RestoringStreamsSink::cerrBuf_</definition>
+        <argsstring></argsstring>
+        <name>cerrBuf_</name>
+        <qualifiedname>MR::RestoringStreamsSink::cerrBuf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="45" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RestoringStreamsSink_1a5a99aea9be897bb55667f63f6f0bf6b0" prot="private" static="no" mutable="no">
+        <type>std::streambuf *</type>
+        <definition>std::streambuf* MR::RestoringStreamsSink::clogBuf_</definition>
+        <argsstring></argsstring>
+        <name>clogBuf_</name>
+        <qualifiedname>MR::RestoringStreamsSink::clogBuf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="46" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RestoringStreamsSink_1ac3e7707ba8abdec96f9f808f6f15f070" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1LoggingStreambuf" kindref="compound">LoggingStreambuf</ref></type>
+        <definition>LoggingStreambuf MR::RestoringStreamsSink::spdCoutBuf_</definition>
+        <argsstring></argsstring>
+        <name>spdCoutBuf_</name>
+        <qualifiedname>MR::RestoringStreamsSink::spdCoutBuf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="48" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RestoringStreamsSink_1a54a2f20f45acc9835d6cfa9cbb25e1ca" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1LoggingStreambuf" kindref="compound">LoggingStreambuf</ref></type>
+        <definition>LoggingStreambuf MR::RestoringStreamsSink::spdCerrBuf_</definition>
+        <argsstring></argsstring>
+        <name>spdCerrBuf_</name>
+        <qualifiedname>MR::RestoringStreamsSink::spdCerrBuf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="49" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1RestoringStreamsSink_1a1f2cc223defb71e3674bc5002202e103" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1LoggingStreambuf" kindref="compound">LoggingStreambuf</ref></type>
+        <definition>LoggingStreambuf MR::RestoringStreamsSink::spdClogBuf_</definition>
+        <argsstring></argsstring>
+        <name>spdClogBuf_</name>
+        <qualifiedname>MR::RestoringStreamsSink::spdClogBuf_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="50" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1aa423a8c6a70592f7e1b45b5f3255c5c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API</type>
+        <definition>MRMESH_API MR::RestoringStreamsSink::RestoringStreamsSink</definition>
+        <argsstring>()</argsstring>
+        <name>RestoringStreamsSink</name>
+        <qualifiedname>MR::RestoringStreamsSink::RestoringStreamsSink</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="37" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1a618c5f626a98c04e3f583577f1a0be03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API</type>
+        <definition>MRMESH_API MR::RestoringStreamsSink::~RestoringStreamsSink</definition>
+        <argsstring>()</argsstring>
+        <name>~RestoringStreamsSink</name>
+        <qualifiedname>MR::RestoringStreamsSink::~RestoringStreamsSink</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="38" column="16"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1aa4063007fd77a0d8f82eef01fecf09ee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::RestoringStreamsSink::sink_it_</definition>
+        <argsstring>(const spdlog::details::log_msg &amp;) override</argsstring>
+        <name>sink_it_</name>
+        <qualifiedname>MR::RestoringStreamsSink::sink_it_</qualifiedname>
+        <param>
+          <type>const spdlog::details::log_msg &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="41" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="41" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RestoringStreamsSink_1a0b62091dd3d0661d6bd8e5a698e7493d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::RestoringStreamsSink::flush_</definition>
+        <argsstring>() override</argsstring>
+        <name>flush_</name>
+        <qualifiedname>MR::RestoringStreamsSink::flush_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="42" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="42" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is provided as spdlog::base_sink, spdlog::logger to manage its lifetime and restore std streams once logger is destructed </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::RestoringStreamsSink</label>
+        <link refid="classMR_1_1RestoringStreamsSink"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>spdlog::sinks::base_sink&lt; spdlog::details::null_mutex &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::RestoringStreamsSink</label>
+        <link refid="classMR_1_1RestoringStreamsSink"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>spdlog::sinks::base_sink&lt; spdlog::details::null_mutex &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRestoringStreamsSink.h" bodystart="35" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RestoringStreamsSink_1a04fcb1562deac23df28c31bc2c527af7" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>cerrBuf_</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1a5a99aea9be897bb55667f63f6f0bf6b0" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>clogBuf_</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1af538b91d1451e00700dd49a936c87b00" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>coutBuf_</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1a0b62091dd3d0661d6bd8e5a698e7493d" prot="private" virt="virtual"><scope>MR::RestoringStreamsSink</scope><name>flush_</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1aa423a8c6a70592f7e1b45b5f3255c5c7" prot="public" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>RestoringStreamsSink</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1aa4063007fd77a0d8f82eef01fecf09ee" prot="private" virt="virtual"><scope>MR::RestoringStreamsSink</scope><name>sink_it_</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1a54a2f20f45acc9835d6cfa9cbb25e1ca" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>spdCerrBuf_</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1a1f2cc223defb71e3674bc5002202e103" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>spdClogBuf_</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1ac3e7707ba8abdec96f9f808f6f15f070" prot="private" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>spdCoutBuf_</name></member>
+      <member refid="classMR_1_1RestoringStreamsSink_1a618c5f626a98c04e3f583577f1a0be03" prot="public" virt="non-virtual"><scope>MR::RestoringStreamsSink</scope><name>~RestoringStreamsSink</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

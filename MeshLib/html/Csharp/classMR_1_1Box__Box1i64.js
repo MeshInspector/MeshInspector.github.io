@@ -9,6 +9,7 @@ var classMR_1_1Box__Box1i64 =
     [ "include", "classMR_1_1Box__Box1i64.html#a6cd76ea8c425bb9f4de87463e41e1bb4", null ],
     [ "include", "classMR_1_1Box__Box1i64.html#adf0e2cf44c2bcdb26fd3a1b573529856", null ],
     [ "intersect", "classMR_1_1Box__Box1i64.html#a6e55d1e6d0771cabba4c92c90c78bca0", null ],
-    [ "_Ref", "classMR_1_1Box__Box1i64.html#aaeac0e73a04c669a29f75904af1463b6", null ],
+    [ "max", "classMR_1_1Box__Box1i64.html#a646b0061a42124e40ad0087642d6c88a", null ],
+    [ "min", "classMR_1_1Box__Box1i64.html#acccc61ca29b83d7166f64d5a228cf7d4", null ],
     [ "this[int e]", "classMR_1_1Box__Box1i64.html#a68303d16e6ec678ef471fe514adad4fa", null ]
 ];

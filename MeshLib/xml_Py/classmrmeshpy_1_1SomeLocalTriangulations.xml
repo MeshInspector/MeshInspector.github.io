@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SomeLocalTriangulations" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SomeLocalTriangulations</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SomeLocalTriangulations_1a0d2c233eef65ba279ef54e54c876cc5d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SomeLocalTriangulations::_offsetof_fanRecords</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fanRecords</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations._offsetof_fanRecords</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SomeLocalTriangulations_1afafc13890a60e08cda28290fc2aeff7a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SomeLocalTriangulations::_offsetof_maxCenterId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxCenterId</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations._offsetof_maxCenterId</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52812" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SomeLocalTriangulations_1a6befaa9a194f7bcf170ed2488a4ef00b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SomeLocalTriangulations::_offsetof_neighbors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_neighbors</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations._offsetof_neighbors</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52813" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SomeLocalTriangulations_1afa2a0460e779720bd33ac6aebf268189" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SomeLocalTriangulations.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52818" bodyend="52819"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SomeLocalTriangulations_1a56c124b6f630509a8f39a6aa77687822" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SomeLocalTriangulations" kindref="compound">SomeLocalTriangulations</ref></type>
+        <definition> SomeLocalTriangulations mrmeshpy.SomeLocalTriangulations.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52822" bodyend="52823"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SomeLocalTriangulations_1a56c124b6f630509a8f39a6aa77687822" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SomeLocalTriangulations" kindref="compound">SomeLocalTriangulations</ref></type>
+        <definition> SomeLocalTriangulations mrmeshpy.SomeLocalTriangulations.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52826" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52826" bodyend="52827"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SomeLocalTriangulations_1aa1482015a79edf9856fee8764fddf4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SomeLocalTriangulations.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52829" bodyend="52830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SomeLocalTriangulations_1a7b7f7f9065ebe2e66911d90b068a6af3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SomeLocalTriangulations.__init__</definition>
+        <argsstring>(self, SomeLocalTriangulations arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SomeLocalTriangulations" kindref="compound">SomeLocalTriangulations</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52832" bodyend="52835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SomeLocalTriangulations_1a79040d06ab4102ffcbaee8680fa9d2ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SomeLocalTriangulations.__init__</definition>
+        <argsstring>(self, std_vector_Id_VertTag neighbors, std_vector_FanRecordWithCenter fanRecords, VertId maxCenterId)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VertTag" kindref="compound">std_vector_Id_VertTag</ref></type>
+          <declname>neighbors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__FanRecordWithCenter" kindref="compound">std_vector_FanRecordWithCenter</ref></type>
+          <declname>fanRecords</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>maxCenterId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52837" bodyend="52840"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SomeLocalTriangulations_1ac38dcae4b2c08ae7fab258444b6800da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.SomeLocalTriangulations.maxCenterId</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxCenterId</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations.maxCenterId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>in fanRecords
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52842" bodyend="52845"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SomeLocalTriangulations_1aa4d8dac34eafdeb39ac0ebf98bee34c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SomeLocalTriangulations.maxCenterId</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>maxCenterId</name>
+        <qualifiedname>mrmeshpy.SomeLocalTriangulations.maxCenterId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52847" bodyend="52848"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SomeLocalTriangulations
+
+describes a number of local triangulations of some points (e.g. assigned to a thread)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SomeLocalTriangulations</label>
+        <link refid="classmrmeshpy_1_1SomeLocalTriangulations"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_fanRecords</edgelabel>
+          <edgelabel>_offsetof_maxCenterId</edgelabel>
+          <edgelabel>_offsetof_neighbors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52805" bodyend="52848"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1afa2a0460e779720bd33ac6aebf268189" prot="public" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1aa1482015a79edf9856fee8764fddf4aa" prot="public" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1a7b7f7f9065ebe2e66911d90b068a6af3" prot="public" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1a79040d06ab4102ffcbaee8680fa9d2ba" prot="public" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1a0d2c233eef65ba279ef54e54c876cc5d" prot="protected" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>_offsetof_fanRecords</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1afafc13890a60e08cda28290fc2aeff7a" prot="protected" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>_offsetof_maxCenterId</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1a6befaa9a194f7bcf170ed2488a4ef00b" prot="protected" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>_offsetof_neighbors</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1ac38dcae4b2c08ae7fab258444b6800da" prot="public" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>maxCenterId</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1aa4d8dac34eafdeb39ac0ebf98bee34c8" prot="public" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>maxCenterId</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1a56c124b6f630509a8f39a6aa77687822" prot="public" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SomeLocalTriangulations_1a56c124b6f630509a8f39a6aa77687822" prot="public" virt="non-virtual"><scope>mrmeshpy::SomeLocalTriangulations</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

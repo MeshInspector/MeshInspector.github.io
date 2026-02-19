@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointCloudPart" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointCloudPart</compoundname>
+    <includes refid="MRPointCloudPart_8h" local="no">MRPointCloudPart.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga85d4aad70140445a8b9ebadbc4382363" kind="variable"><name>cloud</name></member>
+      <member refid="group__GeneralGroup_1gadb49365fb60e376e6302ffa62d2b534a" kind="variable"><name>region</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac812c96a021ba648662385f7f041a995" kind="function"><name>PointCloudPart</name></member>
+      <member refid="group__GeneralGroup_1ga8d89b26e35155dd7c45e50042fe70145" kind="function"><name>PointCloudPart</name></member>
+      <member refid="group__GeneralGroup_1ga15a31f379a5e9fe7e7f2c58e7e1b0207" kind="function"><name>operator=</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>represents full point cloud (if region is nullptr) or some portion of point cloud (if region pointer is valid) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::PointCloud</label>
+        <link refid="structMR_1_1PointCloud"/>
+      </node>
+      <node id="1">
+        <label>MR::PointCloudPart</label>
+        <link refid="structMR_1_1PointCloudPart"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>cloud</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudPart.h" bodystart="13" bodyend="31"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga85d4aad70140445a8b9ebadbc4382363" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>cloud</name></member>
+      <member refid="group__GeneralGroup_1ga15a31f379a5e9fe7e7f2c58e7e1b0207" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gac812c96a021ba648662385f7f041a995" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>PointCloudPart</name></member>
+      <member refid="group__GeneralGroup_1ga8d89b26e35155dd7c45e50042fe70145" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>PointCloudPart</name></member>
+      <member refid="group__GeneralGroup_1gadb49365fb60e376e6302ffa62d2b534a" prot="public" virt="non-virtual"><scope>MR::PointCloudPart</scope><name>region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

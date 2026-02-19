@@ -1,0 +1,1094 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ab3dcab40565430aa667b1a2cad091971" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69279" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a4b9f9bf4d716526fb083e5110ed2d7e4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69280" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1adae109a2d2ba4e77093ac2ce1e09649b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ac5ab8abe76e09ac791338444bac332c9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae65f056247f9caf39c5b302c4be0e3d9" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69283" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ab250d1e65cbe4992b7f263e7fbcb16a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69286" bodyend="69287"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3c99cc51b2d03b06e0f8d19a77c5aa28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" kindref="compound">Vector_std_vector_GraphEdgeId_GraphVertId</ref></type>
+        <definition> Vector_std_vector_GraphEdgeId_GraphVertId mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69290" bodyend="69291"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3c99cc51b2d03b06e0f8d19a77c5aa28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" kindref="compound">Vector_std_vector_GraphEdgeId_GraphVertId</ref></type>
+        <definition> Vector_std_vector_GraphEdgeId_GraphVertId mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69294" bodyend="69295"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a155bca916b8896c7818c00a6a4d056f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__eq__</definition>
+        <argsstring>(self, Vector_std_vector_GraphEdgeId_GraphVertId b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" kindref="compound">Vector_std_vector_GraphEdgeId_GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69296" bodyend="69297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a56240695d1843062d1eec64b110c6f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__getitem__</definition>
+        <argsstring>(self, GraphVertId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69299" bodyend="69300"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a56240695d1843062d1eec64b110c6f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__getitem__</definition>
+        <argsstring>(self, GraphVertId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69302" bodyend="69303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a32f79ab7ff3465b01a9aa2e0909d96ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69305" bodyend="69308"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae8cbe4bf93d72b7c0f27ce1e619148d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69310" bodyend="69313"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1af1b656c4367ba886d5ab4186112ae2b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</definition>
+        <argsstring>(self, int size, std_vector_Id_GraphEdgeTag val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69315" bodyend="69318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1aef34e4dc5a311f3c2e3e01e93da4cb57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</definition>
+        <argsstring>(self, std_vector_std_vector_Id_GraphEdgeTag vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69320" bodyend="69323"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a5a78ed78c28e44246f59156ae93fec6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</definition>
+        <argsstring>(self, Vector_std_vector_GraphEdgeId_GraphVertId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" kindref="compound">Vector_std_vector_GraphEdgeId_GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69325" bodyend="69328"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ab15e338f889e9a7c6ed0000cbac94c3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref>]</type>
+        <definition> typing.Iterator[std_vector_Id_GraphEdgeTag] mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69329" bodyend="69330"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a7f71117c3628d3a82aed768d7e85977e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__ne__</definition>
+        <argsstring>(self, Vector_std_vector_GraphEdgeId_GraphVertId b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" kindref="compound">Vector_std_vector_GraphEdgeId_GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69331" bodyend="69332"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3d01544b3dd80b22bf18064f54444810" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__setitem__</definition>
+        <argsstring>(self, GraphVertId arg0, std_vector_Id_GraphEdgeTag arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69333" bodyend="69334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae3bd99139c04e30ac266a7207c0ef138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.autoResizeAt</definition>
+        <argsstring>(self, GraphVertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69335" bodyend="69338"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae9cd92d5af7ee744bbd366dad731bc5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.autoResizeSet</definition>
+        <argsstring>(self, GraphVertId pos, int len, std_vector_Id_GraphEdgeTag val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69340" bodyend="69344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a8ad7da03c60d1bbcc4046f84611d0568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.autoResizeSet</definition>
+        <argsstring>(self, GraphVertId i, std_vector_Id_GraphEdgeTag val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69346" bodyend="69349"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3a4403a8ddae74755c78932703a5a5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69351" bodyend="69352"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3a4403a8ddae74755c78932703a5a5eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69354" bodyend="69355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a36615c12c826f06c02220e4e059437bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69356" bodyend="69359"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a491d95b51eb59ad1f681cb8e2968c2d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69360" bodyend="69363"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1aaa4d679701d6a8566bddfa75c958fab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69364" bodyend="69365"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3b876dbcc2f7da2b077e19c6fe451ada" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69366" bodyend="69367"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae5adcfcf028ea6eaf9296c4e5bb6e4fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69369" bodyend="69370"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae5adcfcf028ea6eaf9296c4e5bb6e4fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69372" bodyend="69373"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a69e72a1ac26df818d937f5423dea6ae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69374" bodyend="69375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ad247dc35721b8dccaf38dc0a269de9c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69376" bodyend="69377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1af86f7b45b5a20fa6b893068fa342a2bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphVertId" kindref="compound">GraphVertId</ref></type>
+        <definition> GraphVertId mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69378" bodyend="69381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a6553bd48cc2c78e5a238656ce7f87921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69383" bodyend="69384"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a6553bd48cc2c78e5a238656ce7f87921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69386" bodyend="69387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a07c08f596f75074d84545b3f12528801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69388" bodyend="69391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a9f4a78332424627f3698847953c01bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69392" bodyend="69393"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a2a904dbb3590691309e525edb804a00a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.push_back</definition>
+        <argsstring>(self, std_vector_Id_GraphEdgeTag t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69395" bodyend="69396"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a2a904dbb3590691309e525edb804a00a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.push_back</definition>
+        <argsstring>(self, std_vector_Id_GraphEdgeTag t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69398" bodyend="69399"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a57d1dafe70a9ad6b6229ae8b5a9b5eca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69400" bodyend="69401"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a7110b4b996f69ddd41a31e92eb1f92f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69403" bodyend="69404"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3fac24e7787bed4c561f31d4e58cf750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.resize</definition>
+        <argsstring>(self, int newSize, std_vector_Id_GraphEdgeTag t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69406" bodyend="69407"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a45d77a33d969bb11eff7916a01f33271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69409" bodyend="69412"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a71c94be20320c6a2e22edd59189af4b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, std_vector_Id_GraphEdgeTag value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69414" bodyend="69417"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a350eb18335156863320de456eec84336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69418" bodyend="69419"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae0bedc23241d8f7777a2240c3c90e6c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.swap</definition>
+        <argsstring>(self, Vector_std_vector_GraphEdgeId_GraphVertId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId" kindref="compound">Vector_std_vector_GraphEdgeId_GraphVertId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69420" bodyend="69421"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a1dc091d5d8f097e4b48dc2430f26287e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_std_vector_Id_GraphEdgeTag</ref></type>
+        <definition> std_vector_std_vector_Id_GraphEdgeTag mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69423" bodyend="69426"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a149c8daf7228bebc4a5aeb943eaff40f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.vec_</definition>
+        <argsstring>(self, std_vector_std_vector_Id_GraphEdgeTag arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__vector__Id__GraphEdgeTag" kindref="compound">std_vector_std_vector_Id_GraphEdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69428" bodyend="69429"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector&lt;std::vector&lt;MR::GraphEdgeId&gt;, MR::GraphVertId&gt;
+Aliases:  Graph.NeighboursPerVertex
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector_std_vector_GraphEdgeId_GraphVertId</label>
+        <link refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="69268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="69268" bodyend="69429"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a155bca916b8896c7818c00a6a4d056f8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a56240695d1843062d1eec64b110c6f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a56240695d1843062d1eec64b110c6f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ab3dcab40565430aa667b1a2cad091971" prot="private" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ab250d1e65cbe4992b7f263e7fbcb16a7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a32f79ab7ff3465b01a9aa2e0909d96ce" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae8cbe4bf93d72b7c0f27ce1e619148d8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1af1b656c4367ba886d5ab4186112ae2b5" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1aef34e4dc5a311f3c2e3e01e93da4cb57" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a5a78ed78c28e44246f59156ae93fec6b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ab15e338f889e9a7c6ed0000cbac94c3e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a7f71117c3628d3a82aed768d7e85977e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3d01544b3dd80b22bf18064f54444810" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a4b9f9bf4d716526fb083e5110ed2d7e4" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae3bd99139c04e30ac266a7207c0ef138" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae9cd92d5af7ee744bbd366dad731bc5b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a8ad7da03c60d1bbcc4046f84611d0568" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3a4403a8ddae74755c78932703a5a5eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3a4403a8ddae74755c78932703a5a5eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a36615c12c826f06c02220e4e059437bf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a491d95b51eb59ad1f681cb8e2968c2d9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1aaa4d679701d6a8566bddfa75c958fab2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3b876dbcc2f7da2b077e19c6fe451ada" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1adae109a2d2ba4e77093ac2ce1e09649b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae5adcfcf028ea6eaf9296c4e5bb6e4fb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae5adcfcf028ea6eaf9296c4e5bb6e4fb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a69e72a1ac26df818d937f5423dea6ae8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ad247dc35721b8dccaf38dc0a269de9c0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1af86f7b45b5a20fa6b893068fa342a2bf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a6553bd48cc2c78e5a238656ce7f87921" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a6553bd48cc2c78e5a238656ce7f87921" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a07c08f596f75074d84545b3f12528801" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3c99cc51b2d03b06e0f8d19a77c5aa28" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3c99cc51b2d03b06e0f8d19a77c5aa28" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a9f4a78332424627f3698847953c01bc7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a2a904dbb3590691309e525edb804a00a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a2a904dbb3590691309e525edb804a00a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ac5ab8abe76e09ac791338444bac332c9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a57d1dafe70a9ad6b6229ae8b5a9b5eca" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a7110b4b996f69ddd41a31e92eb1f92f3" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a3fac24e7787bed4c561f31d4e58cf750" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a45d77a33d969bb11eff7916a01f33271" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a71c94be20320c6a2e22edd59189af4b9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a350eb18335156863320de456eec84336" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae0bedc23241d8f7777a2240c3c90e6c9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1ae65f056247f9caf39c5b302c4be0e3d9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>value_type</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a1dc091d5d8f097e4b48dc2430f26287e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__std__vector__GraphEdgeId__GraphVertId_1a149c8daf7228bebc4a5aeb943eaff40f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_std_vector_GraphEdgeId_GraphVertId</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

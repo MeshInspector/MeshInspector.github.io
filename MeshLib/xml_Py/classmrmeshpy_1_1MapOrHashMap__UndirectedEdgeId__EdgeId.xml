@@ -1,0 +1,477 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1af9c250656e49d7ca5bd3ff251eca4b5c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId::_offsetof_var</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_var</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId._offsetof_var</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27060" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a469a3d4c6862856beb534a4e09154da9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27063" bodyend="27064"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1af785860a96958806171c955eae7ffb28" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId" kindref="compound">MapOrHashMap_UndirectedEdgeId_EdgeId</ref></type>
+        <definition> MapOrHashMap_UndirectedEdgeId_EdgeId mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.createHashMap</definition>
+        <argsstring>(int capacity=0)</argsstring>
+        <name>createHashMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.createHashMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27066" bodyend="27067"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ac1b0fa222dbe54bb3456cdb3b0dc289d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId" kindref="compound">MapOrHashMap_UndirectedEdgeId_EdgeId</ref></type>
+        <definition> MapOrHashMap_UndirectedEdgeId_EdgeId mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.createMap</definition>
+        <argsstring>(int size=0)</argsstring>
+        <name>createMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.createMap</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27069" bodyend="27070"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a2d20c9e1ee4b91533c155abd48385b4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId" kindref="compound">MapOrHashMap_UndirectedEdgeId_EdgeId</ref></type>
+        <definition> MapOrHashMap_UndirectedEdgeId_EdgeId mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27073" bodyend="27074"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a2d20c9e1ee4b91533c155abd48385b4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId" kindref="compound">MapOrHashMap_UndirectedEdgeId_EdgeId</ref></type>
+        <definition> MapOrHashMap_UndirectedEdgeId_EdgeId mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27077" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27077" bodyend="27078"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ac7f1941dc78480846cb0a3758e9a0449" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27080" bodyend="27081"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ac668136a3886d4386e8475bf2c404721" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.__init__</definition>
+        <argsstring>(self, MapOrHashMap_UndirectedEdgeId_EdgeId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId" kindref="compound">MapOrHashMap_UndirectedEdgeId_EdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27083" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27083" bodyend="27086"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a63ba0655e42cd16b4ebb2fc91608250d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.__init__</definition>
+        <argsstring>(self, std_variant_Vector_Id_EdgeTag_Id_UndirectedEdgeTag_phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag var)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__UndirectedEdgeTag__phmap__flat__hash__ma9dd2036428ec798de078df863afa0b00" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_UndirectedEdgeTag_phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag</ref></type>
+          <declname>var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27088" bodyend="27091"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ad7804c29a0acfcfa732efff6a15c52c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27092" bodyend="27093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a54cd752e79f6e585afebc458b495738e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.getHashMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getHashMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.getHashMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27095" bodyend="27096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a54cd752e79f6e585afebc458b495738e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag</ref></type>
+        <definition> phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.getHashMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getHashMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.getHashMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27098" bodyend="27099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a87f8ee29a1b02706429560b58204e9e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
+        <definition> WholeEdgeMap mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.getMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.getMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27101" bodyend="27102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a87f8ee29a1b02706429560b58204e9e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
+        <definition> WholeEdgeMap mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.getMap</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.getMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27104" bodyend="27105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ac38556060132aa978ef19bf8acbccaf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.pushBack</definition>
+        <argsstring>(self, UndirectedEdgeId key, EdgeId val)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.pushBack</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>key</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>appends one element in the map,
+in case of dense map, key must be equal to vector.endId()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27106" bodyend="27110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1afe17f3ec98bad85d37d29aacf2ceaaf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.resizeReserve</definition>
+        <argsstring>(self, int denseTotalSize, int hashAdditionalCapacity)</argsstring>
+        <name>resizeReserve</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.resizeReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>denseTotalSize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hashAdditionalCapacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if this stores dense map then resizes it to denseTotalSize;
+if this stores hash map then sets its capacity to size()+hashAdditionalCapacity
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27111" bodyend="27115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a7836c0db21f92b3cbb91ee08fd9c1d6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.setHashMap</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag m)</argsstring>
+        <name>setHashMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.setHashMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__UndirectedEdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27116" bodyend="27117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a90077bcaf7bd0812af975ff23efd95ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.setMap</definition>
+        <argsstring>(self, WholeEdgeMap m)</argsstring>
+        <name>setMap</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.setMap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WholeEdgeMap" kindref="compound">WholeEdgeMap</ref></type>
+          <declname>m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27118" bodyend="27119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a1df56d56e19dd954beac5b29185cdf9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__UndirectedEdgeTag__phmap__flat__hash__ma9dd2036428ec798de078df863afa0b00" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_UndirectedEdgeTag_phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag</ref></type>
+        <definition> std_variant_Vector_Id_EdgeTag_Id_UndirectedEdgeTag_phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.var</definition>
+        <argsstring>(self)</argsstring>
+        <name>var</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.var</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>default construction will select dense map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27121" bodyend="27124"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a822e0dbea9d5614fb9dab4f00d95ca4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.var</definition>
+        <argsstring>(self, std_variant_Vector_Id_EdgeTag_Id_UndirectedEdgeTag_phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag arg1)</argsstring>
+        <name>var</name>
+        <qualifiedname>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId.var</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Vector__Id__EdgeTag__Id__UndirectedEdgeTag__phmap__flat__hash__ma9dd2036428ec798de078df863afa0b00" kindref="compound">std_variant_Vector_Id_EdgeTag_Id_UndirectedEdgeTag_phmap_flat_hash_map_Id_UndirectedEdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27126" bodyend="27127"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MapOrHashMap&lt;MR::UndirectedEdgeId, MR::EdgeId&gt;
+Aliases:  WholeEdgeMapOrHashMap
+
+stores a mapping from keys K to values V in one of two forms:
+1) as dense map (vector) preferable when there are few missing keys in a range [0, endKey)
+2) as hash map preferable when valid keys are a small subset of the range
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MapOrHashMap_UndirectedEdgeId_EdgeId</label>
+        <link refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_var</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27051" bodyend="27127"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a469a3d4c6862856beb534a4e09154da9" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ac7f1941dc78480846cb0a3758e9a0449" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ac668136a3886d4386e8475bf2c404721" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a63ba0655e42cd16b4ebb2fc91608250d" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1af9c250656e49d7ca5bd3ff251eca4b5c" prot="protected" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>_offsetof_var</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ad7804c29a0acfcfa732efff6a15c52c0" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1af785860a96958806171c955eae7ffb28" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>createHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ac1b0fa222dbe54bb3456cdb3b0dc289d" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>createMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a54cd752e79f6e585afebc458b495738e" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>getHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a54cd752e79f6e585afebc458b495738e" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>getHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a87f8ee29a1b02706429560b58204e9e4" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>getMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a87f8ee29a1b02706429560b58204e9e4" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>getMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a2d20c9e1ee4b91533c155abd48385b4c" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a2d20c9e1ee4b91533c155abd48385b4c" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1ac38556060132aa978ef19bf8acbccaf1" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>pushBack</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1afe17f3ec98bad85d37d29aacf2ceaaf1" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>resizeReserve</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a7836c0db21f92b3cbb91ee08fd9c1d6d" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>setHashMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a90077bcaf7bd0812af975ff23efd95ea" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>setMap</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a1df56d56e19dd954beac5b29185cdf9b" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>var</name></member>
+      <member refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId_1a822e0dbea9d5614fb9dab4f00d95ca4a" prot="public" virt="non-virtual"><scope>mrmeshpy::MapOrHashMap_UndirectedEdgeId_EdgeId</scope><name>var</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

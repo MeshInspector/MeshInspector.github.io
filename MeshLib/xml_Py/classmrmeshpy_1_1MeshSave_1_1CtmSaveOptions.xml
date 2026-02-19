@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshSave::CtmSaveOptions</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1SaveSettings" prot="public" virt="non-virtual">mrmeshpy.SaveSettings</basecompoundref>
+    <innerclass refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression" prot="public">mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a20f9077d22db80d71fcdcca58842b028" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.CtmSaveOptions::_offsetof_compressionLevel</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_compressionLevel</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions._offsetof_compressionLevel</qualifiedname>
+        <initializer>=  144</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a4758e458b895fee81bb801ecacb886" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.CtmSaveOptions::_offsetof_meshCompression</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_meshCompression</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions._offsetof_meshCompression</qualifiedname>
+        <initializer>=  136</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1abda69ebfdd2e5a4da3c9534e47c152f3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.CtmSaveOptions::_offsetof_vertexPrecision</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertexPrecision</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions._offsetof_vertexPrecision</qualifiedname>
+        <initializer>=  140</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34257" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1aea6181b66c32763c6249f29b15bac756" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1MeshSave" kindref="compound">MeshSave</ref></type>
+        <definition>MeshSave mrmeshpy.MeshSave.CtmSaveOptions::meshCompression</definition>
+        <argsstring></argsstring>
+        <name>meshCompression</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.meshCompression</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression" kindref="compound">CtmSaveOptions.MeshCompression</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34258" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.CtmSaveOptions.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a2bae2329a740850835ae124f54bb6d68">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34261" bodyend="34262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">MeshSave.CtmSaveOptions</ref></type>
+        <definition> MeshSave.CtmSaveOptions mrmeshpy.MeshSave.CtmSaveOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a3b6aaaa2676c79dccb5de0bcb3abc148">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34265" bodyend="34266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">MeshSave.CtmSaveOptions</ref></type>
+        <definition> MeshSave.CtmSaveOptions mrmeshpy.MeshSave.CtmSaveOptions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a3b6aaaa2676c79dccb5de0bcb3abc148">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34269" bodyend="34270"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.CtmSaveOptions.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a2bae2329a740850835ae124f54bb6d68">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34272" bodyend="34273"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.CtmSaveOptions.__init__</definition>
+        <argsstring>(self, MeshSave.CtmSaveOptions arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1SaveSettings_1a2bae2329a740850835ae124f54bb6d68">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions" kindref="compound">MeshSave.CtmSaveOptions</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34275" bodyend="34278"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a956e4c8c9f97144d03dfb7fe8d9794d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshSave.CtmSaveOptions.comment</definition>
+        <argsstring>(self)</argsstring>
+        <name>comment</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.comment</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>comment saved in the file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34280" bodyend="34283"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1ac41bdd25af4e1bcbb5a3c6428d187f18" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.CtmSaveOptions.comment</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>comment</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.comment</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34285" bodyend="34286"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1afcb14fcef3573ac486d9f227dcdca40f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshSave.CtmSaveOptions.compressionLevel</definition>
+        <argsstring>(self)</argsstring>
+        <name>compressionLevel</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.compressionLevel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>LZMA compression: 0 - minimal compression, but fast; 9 - maximal compression, but slow
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34288" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34288" bodyend="34291"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1abc468dacfe71aaeedc4ed8a5e9ce928e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.CtmSaveOptions.compressionLevel</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>compressionLevel</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.compressionLevel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34293" bodyend="34294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1af859fc36e5dced78f1909100abfbc1ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.MeshSave.CtmSaveOptions.vertexPrecision</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertexPrecision</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.vertexPrecision</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>~= 0.00098
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34296" bodyend="34299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a92b755c6436f64bb14c58eddb274119e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.CtmSaveOptions.vertexPrecision</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>vertexPrecision</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.vertexPrecision</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34301" bodyend="34303"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshSave::CtmSaveOptions
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.MeshSave.CtmSaveOptions</label>
+        <link refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SaveSettings</label>
+        <link refid="classmrmeshpy_1_1SaveSettings"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshSave.CtmSaveOptions</label>
+        <link refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_compressionLevel</edgelabel>
+          <edgelabel>_offsetof_meshCompression</edgelabel>
+          <edgelabel>_offsetof_vertexPrecision</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>meshCompression</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.MeshSave</label>
+        <link refid="classmrmeshpy_1_1MeshSave"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.SaveSettings</label>
+        <link refid="classmrmeshpy_1_1SaveSettings"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_colors</edgelabel>
+          <edgelabel>_offsetof_lengthUnit</edgelabel>
+          <edgelabel>_offsetof_materialName</edgelabel>
+          <edgelabel>_offsetof_onlyValidPoints</edgelabel>
+          <edgelabel>_offsetof_packPrimitives</edgelabel>
+          <edgelabel>_offsetof_primitiveColors</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+          <edgelabel>_offsetof_saveTriCornerUVCoords</edgelabel>
+          <edgelabel>_offsetof_solidColor</edgelabel>
+          <edgelabel>_offsetof_texture</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34210" bodyend="34302"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a5ef505678bcb058a3c69c56d2bb7fbe9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a05a60b063022eb996f7cceaceae0b2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6ea83972177ee91e99bc99f8b409fc7f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a20f9077d22db80d71fcdcca58842b028" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_compressionLevel</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a6a4758e458b895fee81bb801ecacb886" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_meshCompression</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1abda69ebfdd2e5a4da3c9534e47c152f3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>_offsetof_vertexPrecision</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a956e4c8c9f97144d03dfb7fe8d9794d6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>comment</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1ac41bdd25af4e1bcbb5a3c6428d187f18" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>comment</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1afcb14fcef3573ac486d9f227dcdca40f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>compressionLevel</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1abc468dacfe71aaeedc4ed8a5e9ce928e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>compressionLevel</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1aea6181b66c32763c6249f29b15bac756" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>meshCompression</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a440bebea5935984854dc0b0671f47f35" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1af859fc36e5dced78f1909100abfbc1ad" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>vertexPrecision</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1a92b755c6436f64bb14c58eddb274119e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions</scope><name>vertexPrecision</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

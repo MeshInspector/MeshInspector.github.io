@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Config" kind="class" language="C++" prot="public">
+    <compoundname>MR::Config</compoundname>
+    <includes refid="MRConfig_8h" local="no">MRConfig.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga3933d06b4e35a4f309cff393747e1f2f" kind="typedef"><name>Enum</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga725767207fa5bd85d2919a3d791fa760" kind="variable"><name>appName_</name></member>
+      <member refid="group__GeneralGroup_1ga967c2d6969b21a91b073cea0112134e8" kind="variable"><name>config_</name></member>
+      <member refid="group__GeneralGroup_1ga67455501f76e21a4f415d860c1ce9991" kind="variable"><name>filePath_</name></member>
+      <member refid="group__GeneralGroup_1gafa98e70c188af9b2cc8eb680fe4dd230" kind="variable"><name>loggerHandle_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" kind="function"><name>Config</name></member>
+      <member refid="group__GeneralGroup_1gae8bd5243efd5066d7b24657c23126e25" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga3b36a74eccd9dd120a1e85983e8f64e3" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga764b20b21302265b3e6dd60b2efdf035" kind="function"><name>getAppName</name></member>
+      <member refid="group__GeneralGroup_1ga4a1325795e653a33c4f91ca425c6eeca" kind="function"><name>writeToFile</name></member>
+      <member refid="group__GeneralGroup_1ga7b31d052c0355b2163f1faf7ad8f42c9" kind="function"><name>hasBool</name></member>
+      <member refid="group__GeneralGroup_1ga1a1c1e3afa9a60434b3b7a17eaa402c4" kind="function"><name>getBool</name></member>
+      <member refid="group__GeneralGroup_1gae57d1ec5709dc7fc1a7115f4f745955d" kind="function"><name>setBool</name></member>
+      <member refid="group__GeneralGroup_1ga3bf71462e37500b8f9256e88b11c074f" kind="function"><name>hasColor</name></member>
+      <member refid="group__GeneralGroup_1ga264c1a7b8aa598635f2500ae12c29606" kind="function"><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1gaefbf21b76d9f87667c9313e310f8fe9b" kind="function"><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1gabd89bc044490d3a6dea5d252632a4303" kind="function"><name>hasFileStack</name></member>
+      <member refid="group__GeneralGroup_1gaad8c7c3589d77d0ed1c091938cd14ca9" kind="function"><name>getFileStack</name></member>
+      <member refid="group__GeneralGroup_1gae9eaec2c0bade737afbf64156d5a6ca8" kind="function"><name>setFileStack</name></member>
+      <member refid="group__GeneralGroup_1ga45debdd9e18e1b014caa6a4d1e5eaf16" kind="function"><name>hasVector2i</name></member>
+      <member refid="group__GeneralGroup_1gad4dcac4813e83411f9ae165484a09b3a" kind="function"><name>getVector2i</name></member>
+      <member refid="group__GeneralGroup_1ga5ef95eaf5b26a137a149705ac0698155" kind="function"><name>setVector2i</name></member>
+      <member refid="group__GeneralGroup_1gaef03ecb5f0b0ec79bd9f52d4ed8f82e4" kind="function"><name>hasEnum</name></member>
+      <member refid="group__GeneralGroup_1ga74e68ee927a517e8d641aa7dbaa0a3e6" kind="function"><name>getEnum</name></member>
+      <member refid="group__GeneralGroup_1ga3388c3cd27c60f2c4a990ef889f58b70" kind="function"><name>setEnum</name></member>
+      <member refid="group__GeneralGroup_1ga8bbc5ddb2be70cb120f537f88ed716a5" kind="function"><name>hasViewportMask</name></member>
+      <member refid="group__GeneralGroup_1gaaf8b4307b0d1edb41a8606c59f98fca1" kind="function"><name>getViewportMask</name></member>
+      <member refid="group__GeneralGroup_1gaca8ad2571fde2ff0a492612ede6afb4c" kind="function"><name>setViewportMask</name></member>
+      <member refid="group__GeneralGroup_1gaf8762966496b6267975c855b7b47d3ca" kind="function"><name>hasJsonValue</name></member>
+      <member refid="group__GeneralGroup_1gad2eb8802aad4bfd9072566fa434036ce" kind="function"><name>getJsonValue</name></member>
+      <member refid="group__GeneralGroup_1ga79498a0537aaf0b56bfbc5c67772eb0f" kind="function"><name>setJsonValue</name></member>
+      <member refid="group__GeneralGroup_1ga511ac76ed53aafae5ab8d337aeaa6795" kind="function"><name>toJson</name></member>
+      <member refid="group__GeneralGroup_1ga534db3261935504b918838858cff437a" kind="function"><name>fromJson</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gad5421174f9875d5c3a6b9ac23aa96313" kind="function"><name>instance</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gad2946104840a627c1616842fc1f7bdb9" kind="function"><name>Config</name></member>
+      <member refid="group__GeneralGroup_1ga7bfc878f9e608ec48366c81f1809333a" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga17bd8ac3880368e2e34b777871262b86" kind="function"><name>~Config</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" line="20" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConfig.h" bodystart="21" bodyend="127"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga725767207fa5bd85d2919a3d791fa760" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>appName_</name></member>
+      <member refid="group__GeneralGroup_1gaf88a45374cdd7fba22942c053afb27e5" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>Config</name></member>
+      <member refid="group__GeneralGroup_1gad2946104840a627c1616842fc1f7bdb9" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>Config</name></member>
+      <member refid="group__GeneralGroup_1ga967c2d6969b21a91b073cea0112134e8" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>config_</name></member>
+      <member refid="group__GeneralGroup_1ga3933d06b4e35a4f309cff393747e1f2f" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>Enum</name></member>
+      <member refid="group__GeneralGroup_1ga67455501f76e21a4f415d860c1ce9991" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>filePath_</name></member>
+      <member refid="group__GeneralGroup_1ga534db3261935504b918838858cff437a" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>fromJson</name></member>
+      <member refid="group__GeneralGroup_1ga764b20b21302265b3e6dd60b2efdf035" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getAppName</name></member>
+      <member refid="group__GeneralGroup_1ga1a1c1e3afa9a60434b3b7a17eaa402c4" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getBool</name></member>
+      <member refid="group__GeneralGroup_1ga264c1a7b8aa598635f2500ae12c29606" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getColor</name></member>
+      <member refid="group__GeneralGroup_1ga74e68ee927a517e8d641aa7dbaa0a3e6" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getEnum</name></member>
+      <member refid="group__GeneralGroup_1gaad8c7c3589d77d0ed1c091938cd14ca9" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getFileStack</name></member>
+      <member refid="group__GeneralGroup_1gad2eb8802aad4bfd9072566fa434036ce" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getJsonValue</name></member>
+      <member refid="group__GeneralGroup_1gad4dcac4813e83411f9ae165484a09b3a" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getVector2i</name></member>
+      <member refid="group__GeneralGroup_1gaaf8b4307b0d1edb41a8606c59f98fca1" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>getViewportMask</name></member>
+      <member refid="group__GeneralGroup_1ga7b31d052c0355b2163f1faf7ad8f42c9" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasBool</name></member>
+      <member refid="group__GeneralGroup_1ga3bf71462e37500b8f9256e88b11c074f" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasColor</name></member>
+      <member refid="group__GeneralGroup_1gaef03ecb5f0b0ec79bd9f52d4ed8f82e4" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasEnum</name></member>
+      <member refid="group__GeneralGroup_1gabd89bc044490d3a6dea5d252632a4303" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasFileStack</name></member>
+      <member refid="group__GeneralGroup_1gaf8762966496b6267975c855b7b47d3ca" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasJsonValue</name></member>
+      <member refid="group__GeneralGroup_1ga45debdd9e18e1b014caa6a4d1e5eaf16" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasVector2i</name></member>
+      <member refid="group__GeneralGroup_1ga8bbc5ddb2be70cb120f537f88ed716a5" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>hasViewportMask</name></member>
+      <member refid="group__GeneralGroup_1gad5421174f9875d5c3a6b9ac23aa96313" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gafa98e70c188af9b2cc8eb680fe4dd230" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>loggerHandle_</name></member>
+      <member refid="group__GeneralGroup_1gae8bd5243efd5066d7b24657c23126e25" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga3b36a74eccd9dd120a1e85983e8f64e3" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga7bfc878f9e608ec48366c81f1809333a" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gae57d1ec5709dc7fc1a7115f4f745955d" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setBool</name></member>
+      <member refid="group__GeneralGroup_1gaefbf21b76d9f87667c9313e310f8fe9b" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setColor</name></member>
+      <member refid="group__GeneralGroup_1ga3388c3cd27c60f2c4a990ef889f58b70" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setEnum</name></member>
+      <member refid="group__GeneralGroup_1gae9eaec2c0bade737afbf64156d5a6ca8" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setFileStack</name></member>
+      <member refid="group__GeneralGroup_1ga79498a0537aaf0b56bfbc5c67772eb0f" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setJsonValue</name></member>
+      <member refid="group__GeneralGroup_1ga5ef95eaf5b26a137a149705ac0698155" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setVector2i</name></member>
+      <member refid="group__GeneralGroup_1gaca8ad2571fde2ff0a492612ede6afb4c" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>setViewportMask</name></member>
+      <member refid="group__GeneralGroup_1ga511ac76ed53aafae5ab8d337aeaa6795" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>toJson</name></member>
+      <member refid="group__GeneralGroup_1ga4a1325795e653a33c4f91ca425c6eeca" prot="public" virt="non-virtual"><scope>MR::Config</scope><name>writeToFile</name></member>
+      <member refid="group__GeneralGroup_1ga17bd8ac3880368e2e34b777871262b86" prot="private" virt="non-virtual"><scope>MR::Config</scope><name>~Config</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

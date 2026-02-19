@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ObjVertId" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ObjVertId</compoundname>
+    <includes refid="MRGridSampling_8h" local="no">MRGridSampling.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga4fe9249435e74452c6a1f2a06d40de31" kind="variable"><name>objId</name></member>
+      <member refid="group__GeneralGroup_1ga921cb8e7f87d9fc04f442a3b02ed5806" kind="variable"><name>vId</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1gadfb5d0c55b1f0308b2b0c4fbac1a6d6b" kind="friend"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSampling.h" line="42" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSampling.h" bodystart="43" bodyend="48"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga4fe9249435e74452c6a1f2a06d40de31" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>objId</name></member>
+      <member refid="group__GeneralGroup_1gadfb5d0c55b1f0308b2b0c4fbac1a6d6b" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga921cb8e7f87d9fc04f442a3b02ed5806" prot="public" virt="non-virtual"><scope>MR::ObjVertId</scope><name>vId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

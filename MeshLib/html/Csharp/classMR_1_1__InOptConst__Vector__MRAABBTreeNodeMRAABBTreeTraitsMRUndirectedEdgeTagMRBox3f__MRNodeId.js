@@ -1,4 +1,0 @@
-var classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId =
-[
-    [ "operator _InOptConst_Vector_MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f_MRNodeId", "classMR_1_1__InOptConst__Vector__MRAABBTreeNodeMRAABBTreeTraitsMRUndirectedEdgeTagMRBox3f__MRNodeId.html#add09bfe05f1ada52774520bb93e82337", null ]
-];

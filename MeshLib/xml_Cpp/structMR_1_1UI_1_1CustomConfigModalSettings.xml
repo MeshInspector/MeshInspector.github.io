@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1CustomConfigModalSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::CustomConfigModalSettings</compoundname>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga80732e1bb274d668762100222e9fcdb3" kind="variable"><name>configName</name></member>
+      <member refid="group__GeneralGroup_1ga4b91e9beaa4407b11b1f892f9e6f596b" kind="variable"><name>imGuiIdKey</name></member>
+      <member refid="group__GeneralGroup_1ga70a9bbad22124d697e18eee72f3f9c6c" kind="variable"><name>configDirectory</name></member>
+      <member refid="group__GeneralGroup_1gac8f21dd8acbc5b82e94cd24be7d5f52b" kind="variable"><name>inputName</name></member>
+      <member refid="group__GeneralGroup_1gac23225fd924b723514e8bc5ff54d228e" kind="variable"><name>inputNameDialog</name></member>
+      <member refid="group__GeneralGroup_1ga9ac324551327f5c00a9ba0ac4df87360" kind="variable"><name>triggerSave</name></member>
+      <member refid="group__GeneralGroup_1gac55baa3802814b3443d7f4fc22349bd6" kind="variable"><name>warnExisting</name></member>
+      <member refid="group__GeneralGroup_1gac6eb89011818ae44b18a521011c7ba02" kind="variable"><name>onSave</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga53d5fbf42a4e448c9913451533392082" kind="function"><name>popupName</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Settings required for <computeroutput><ref refid="group__GeneralGroup_1gac87e004a565fe8b0a9d822499a594fb7" kindref="member">UI::saveCustomConfigModal</ref></computeroutput> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="547" bodyend="567"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga70a9bbad22124d697e18eee72f3f9c6c" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>configDirectory</name></member>
+      <member refid="group__GeneralGroup_1ga80732e1bb274d668762100222e9fcdb3" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>configName</name></member>
+      <member refid="group__GeneralGroup_1ga4b91e9beaa4407b11b1f892f9e6f596b" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>imGuiIdKey</name></member>
+      <member refid="group__GeneralGroup_1gac8f21dd8acbc5b82e94cd24be7d5f52b" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>inputName</name></member>
+      <member refid="group__GeneralGroup_1gac23225fd924b723514e8bc5ff54d228e" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>inputNameDialog</name></member>
+      <member refid="group__GeneralGroup_1gac6eb89011818ae44b18a521011c7ba02" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>onSave</name></member>
+      <member refid="group__GeneralGroup_1ga53d5fbf42a4e448c9913451533392082" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>popupName</name></member>
+      <member refid="group__GeneralGroup_1ga9ac324551327f5c00a9ba0ac4df87360" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>triggerSave</name></member>
+      <member refid="group__GeneralGroup_1gac55baa3802814b3443d7f4fc22349bd6" prot="public" virt="non-virtual"><scope>MR::UI::CustomConfigModalSettings</scope><name>warnExisting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

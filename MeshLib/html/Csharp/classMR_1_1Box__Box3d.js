@@ -9,6 +9,7 @@ var classMR_1_1Box__Box3d =
     [ "include", "classMR_1_1Box__Box3d.html#a5604b3189d13c071327f7ac3721aae1c", null ],
     [ "include", "classMR_1_1Box__Box3d.html#ac2c76487de73e7bc60a00822918db513", null ],
     [ "intersect", "classMR_1_1Box__Box3d.html#afe119c830cf916602f16ae64a0925ea4", null ],
-    [ "_Ref", "classMR_1_1Box__Box3d.html#a58f398657956fbc9e13c47c0377ef983", null ],
+    [ "max", "classMR_1_1Box__Box3d.html#a56c155aee9c8a7ee7ec899784743daf6", null ],
+    [ "min", "classMR_1_1Box__Box3d.html#a147e038485c0995175ee76acdaf583fc", null ],
     [ "this[int e]", "classMR_1_1Box__Box3d.html#ac822221ab537294a636b0bb557c06a5b", null ]
 ];

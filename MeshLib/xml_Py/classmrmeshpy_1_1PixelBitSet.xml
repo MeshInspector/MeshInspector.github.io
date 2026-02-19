@@ -1,0 +1,1318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PixelBitSet" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PixelBitSet</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a9a45769ea947c52fc7ee48269c0a8e8d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelBitSet.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43259" bodyend="43260"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a25a184b81f6d2a95c37f9ef6c807f441" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.beginId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274">beginId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[beginId(), endId()) is the range of all bits in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43262" bodyend="43265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1aebb634cf35ae07a51367ad0f5dd5550e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43268" bodyend="43269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1aebb634cf35ae07a51367ad0f5dd5550e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43272" bodyend="43273"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a4774dd308fa4b5c89c01dbb73483657b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.__and__</definition>
+        <argsstring>(self, PixelBitSet b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__and__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43274" bodyend="43275"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1afa5a096072f2351283ecdcd8fa2d1759" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.__iand__</definition>
+        <argsstring>(self, PixelBitSet b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__iand__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43276" bodyend="43277"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1aa4a879edc2a0040aff3ec0c2958fa553" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelBitSet.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43279" bodyend="43280"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1af67cbd7782a980f71b558f8fdc1782cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelBitSet.__init__</definition>
+        <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates bitset of given size filled with given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43282" bodyend="43285"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43287" bodyend="43290"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43292" bodyend="43295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a0f82c93f911a0cc323b95430fe13eb15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelBitSet.__init__</definition>
+        <argsstring>(self, PixelBitSet arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43297" bodyend="43300"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ad3fd6d3fe30884057e110e1d84f41464" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.__ior__</definition>
+        <argsstring>(self, PixelBitSet b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__ior__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43301" bodyend="43302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a2deb33a5d8429ef8a7f2f32f09f18877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.__isub__</definition>
+        <argsstring>(self, PixelBitSet b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__isub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43303" bodyend="43304"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a3c375dd46253b798e337704f319a0487" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref>]</type>
+        <definition> typing.Iterator[PixelId] mrmeshpy.PixelBitSet.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__iter__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43305" bodyend="43306"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a8a1aa9fbcd84a171e2c0a201ad463021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.__ixor__</definition>
+        <argsstring>(self, PixelBitSet b)</argsstring>
+        <name>__ixor__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__ixor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43307" bodyend="43308"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a40609c628555672fde417ade7fd3404f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.__or__</definition>
+        <argsstring>(self, PixelBitSet b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__or__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43309" bodyend="43310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a13aa5abdaacc1ac185ee0103370a58f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PixelBitSet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43311" bodyend="43312"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a2a42e5006e467482fc47e531e58b574d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.__sub__</definition>
+        <argsstring>(self, PixelBitSet b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__sub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43313" bodyend="43314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a3e5ae1c08ca224de03777ceb47628b25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.__xor__</definition>
+        <argsstring>(self, PixelBitSet b)</argsstring>
+        <name>__xor__</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.__xor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43315" bodyend="43316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1abcbb330033d9203eca87f0c9a27738fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelBitSet.autoResizeSet</definition>
+        <argsstring>(self, PixelId pos, int len, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43318" bodyend="43319"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a64e488a8b158993446db8dc8089cfd50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PixelBitSet.autoResizeSet</definition>
+        <argsstring>(self, PixelId pos, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>len</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43321" bodyend="43322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a8e5798a7b82bf113a270f0a71a2c92ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PixelBitSet.autoResizeTestSet</definition>
+        <argsstring>(self, PixelId pos, bool val=True)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.autoResizeTestSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as \\ref autoResizeSet and returns previous value of pos-bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43323" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43323" bodyend="43324"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a537797cf42db52fc6d7292572d3c3591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.backId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d">backId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43325" bodyend="43328"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a2a2c074daa9b60bdbbc03f6d4ba3b6d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.endId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5">endId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43329" bodyend="43330"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a6b3f6b8b3efb7953b8498942a7e6350f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.find_first</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.find_first</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006">find_first</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43331" bodyend="43332"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a15cb7493599383990b38804dd11061ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.find_first_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first_not_set</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.find_first_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a15e32e17fea4f662f8a0f55fd1bcd0b6">find_first_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43333" bodyend="43334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1aad4483588a17bac79e535127f61cf858" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.find_last</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.find_last</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43335" bodyend="43336"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1abeec9e1de85bb3fd0ecd7787b88458b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.find_last_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last_not_set</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.find_last_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa50056294318a1e11be2d832bdbd6329">find_last_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43337" bodyend="43338"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ae22ca0ecd8871e4bd47ee960d324a4c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.find_next</definition>
+        <argsstring>(self, PixelId pos)</argsstring>
+        <name>find_next</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.find_next</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f">find_next</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43339" bodyend="43340"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a869a8a27cd4b318ea62de1a65906b29b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.find_next_not_set</definition>
+        <argsstring>(self, PixelId pos)</argsstring>
+        <name>find_next_not_set</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.find_next_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aedde9c4ef90198acb1ddb7874ed1d491">find_next_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43341" bodyend="43342"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1afc0db554b80555d956c49ecbbe515241" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.flip</definition>
+        <argsstring>(self, PixelId n, int len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43344" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43344" bodyend="43345"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a17db0e4f534417a245541e4fe11da78a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.flip</definition>
+        <argsstring>(self, PixelId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43347" bodyend="43348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ae7d80bc31699fd8fe1e836fe74067ebc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43350" bodyend="43351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a0bc623b11caef7f964bee3676e239fa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.getMapping</definition>
+        <argsstring>(self, Vector_PixelId_PixelId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__PixelId__PixelId" kindref="compound">Vector_PixelId_PixelId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43353" bodyend="43354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1aa7f11ddf61236a74574e149a2de2a64d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.getMapping</definition>
+        <argsstring>(self, BMap_PixelId_PixelId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BMap__PixelId__PixelId" kindref="compound">BMap_PixelId_PixelId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43356" bodyend="43357"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a1274b92a5e1aaf94f5badc815ce0a9e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_PixelTag_Id_PixelTag map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag" kindref="compound">phmap_flat_hash_map_Id_PixelTag_Id_PixelTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43359" bodyend="43360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a6cc03e0d590648ecabebe3de22f9bd12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.getMapping</definition>
+        <argsstring>(self, Vector_PixelId_PixelId map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__PixelId__PixelId" kindref="compound">Vector_PixelId_PixelId</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43362" bodyend="43363"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ae09eab22df06f055336868efe8e08ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_PixelTag_Id_PixelTag map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__PixelTag__Id__PixelTag" kindref="compound">phmap_flat_hash_map_Id_PixelTag_Id_PixelTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43365" bodyend="43366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a52ab623a5d126cb25290252bc6c1929a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PixelBitSet.intersects</definition>
+        <argsstring>(self, PixelBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.intersects</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a">intersects</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43367" bodyend="43370"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a24f4a9a782e907e21f11eac0e443b6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PixelBitSet.is_subset_of</definition>
+        <argsstring>(self, PixelBitSet a)</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.is_subset_of</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43371" bodyend="43374"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1aad357505e8a328a0834df693c45c8543" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.PixelBitSet.nthSetBit</definition>
+        <argsstring>(self, int n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.nthSetBit</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43375" bodyend="43378"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a755c42fc2434fccfb14bc0a51a86bb99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.reset</definition>
+        <argsstring>(self, PixelId n, int len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43380" bodyend="43381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1af05b9b2bbd4a27ba6507a9afbf4e348a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.reset</definition>
+        <argsstring>(self, PixelId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43383" bodyend="43384"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a452b38ba923c92c64021c567081a9cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43386" bodyend="43387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ac8fe538acd7f39cb0ff1ebcdce662b01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.set</definition>
+        <argsstring>(self, PixelId n, int len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43389" bodyend="43390"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ad59f7975d61652f66859ec04d78dca36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.set</definition>
+        <argsstring>(self, PixelId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43392" bodyend="43393"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a180d0c36455caebdf8ef53db6000e9cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.set</definition>
+        <argsstring>(self, PixelId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43395" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43395" bodyend="43396"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ae7ad3435f9effbe89440d928f1b422f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.set</definition>
+        <argsstring>(self)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43398" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43398" bodyend="43399"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1ab86e77e153e36cffc03d6d5c170a66b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+        <definition> PixelBitSet mrmeshpy.PixelBitSet.subtract</definition>
+        <argsstring>(self, PixelBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.subtract</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d">subtract</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelBitSet" kindref="compound">PixelBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43400" bodyend="43403"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1a55b2eb4369a1cfc356c101c5d6ab0ec8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PixelBitSet.test</definition>
+        <argsstring>(self, PixelId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.test</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27">test</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all bits after size() we silently consider as not-set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43404" bodyend="43405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PixelBitSet_1afad1aca1645f12936172551d8e50964a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PixelBitSet.test_set</definition>
+        <argsstring>(self, PixelId n, bool val=True)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>mrmeshpy.PixelBitSet.test_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3">test_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43406" bodyend="43407"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PixelBitSet
+
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.PixelBitSet</label>
+        <link refid="classmrmeshpy_1_1PixelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PixelBitSet</label>
+        <link refid="classmrmeshpy_1_1PixelBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bits_per_block</edgelabel>
+          <edgelabel>npos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43250" bodyend="43407"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a4774dd308fa4b5c89c01dbb73483657b" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1afa5a096072f2351283ecdcd8fa2d1759" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a9a45769ea947c52fc7ee48269c0a8e8d" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1aa4a879edc2a0040aff3ec0c2958fa553" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1af67cbd7782a980f71b558f8fdc1782cc" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ac6197f2b8025d64fbf8c0039dad9d4ff" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a0f82c93f911a0cc323b95430fe13eb15" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ad3fd6d3fe30884057e110e1d84f41464" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a2deb33a5d8429ef8a7f2f32f09f18877" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a3c375dd46253b798e337704f319a0487" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a8a1aa9fbcd84a171e2c0a201ad463021" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__ixor__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a40609c628555672fde417ade7fd3404f" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a13aa5abdaacc1ac185ee0103370a58f4" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a2a42e5006e467482fc47e531e58b574d" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a3e5ae1c08ca224de03777ceb47628b25" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1abcbb330033d9203eca87f0c9a27738fd" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a64e488a8b158993446db8dc8089cfd50" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a8e5798a7b82bf113a270f0a71a2c92ca" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a537797cf42db52fc6d7292572d3c3591" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a25a184b81f6d2a95c37f9ef6c807f441" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a2a2c074daa9b60bdbbc03f6d4ba3b6d3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a6b3f6b8b3efb7953b8498942a7e6350f" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>find_first</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a15cb7493599383990b38804dd11061ed" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>find_first_not_set</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1aad4483588a17bac79e535127f61cf858" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>find_last</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1abeec9e1de85bb3fd0ecd7787b88458b4" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>find_last_not_set</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ae22ca0ecd8871e4bd47ee960d324a4c2" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>find_next</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a869a8a27cd4b318ea62de1a65906b29b" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>find_next_not_set</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1afc0db554b80555d956c49ecbbe515241" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a17db0e4f534417a245541e4fe11da78a" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ae7d80bc31699fd8fe1e836fe74067ebc" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a0bc623b11caef7f964bee3676e239fa3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1aa7f11ddf61236a74574e149a2de2a64d" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a1274b92a5e1aaf94f5badc815ce0a9e3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a6cc03e0d590648ecabebe3de22f9bd12" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ae09eab22df06f055336868efe8e08ab3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a52ab623a5d126cb25290252bc6c1929a" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a24f4a9a782e907e21f11eac0e443b6c3" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1aad357505e8a328a0834df693c45c8543" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1aebb634cf35ae07a51367ad0f5dd5550e" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1aebb634cf35ae07a51367ad0f5dd5550e" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a755c42fc2434fccfb14bc0a51a86bb99" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1af05b9b2bbd4a27ba6507a9afbf4e348a" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a452b38ba923c92c64021c567081a9cc1" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ac8fe538acd7f39cb0ff1ebcdce662b01" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ad59f7975d61652f66859ec04d78dca36" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a180d0c36455caebdf8ef53db6000e9cf" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ae7ad3435f9effbe89440d928f1b422f8" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1ab86e77e153e36cffc03d6d5c170a66b4" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>subtract</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1a55b2eb4369a1cfc356c101c5d6ab0ec8" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>test</name></member>
+      <member refid="classmrmeshpy_1_1PixelBitSet_1afad1aca1645f12936172551d8e50964a" prot="public" virt="non-virtual"><scope>mrmeshpy::PixelBitSet</scope><name>test_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

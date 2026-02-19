@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ScopeHistory" kind="class" language="C++" prot="public">
+    <compoundname>MR::ScopeHistory</compoundname>
+    <includes refid="MRAppendHistory_8h" local="no">MRAppendHistory.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga86a6a9b2a3329e71208173ac6d3490c6" kind="variable"><name>store_</name></member>
+      <member refid="group__GeneralGroup_1ga4dd9ccda3424f0732f1579625df05934" kind="variable"><name>combinedAction_</name></member>
+      <member refid="group__GeneralGroup_1gac86d1e049286fe259d31f5a5fa14a4a7" kind="variable"><name>parentScopePtr_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga155a57e24f0f265fa6b27e456b83cec5" kind="function"><name>ScopeHistory</name></member>
+      <member refid="group__GeneralGroup_1ga5a69bc34372ef0223eb4b90fab0082d8" kind="function"><name>~ScopeHistory</name></member>
+      <member refid="group__GeneralGroup_1gab4c17b1dd2ac2de71650b8211d421d1b" kind="function"><name>combinedAction</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>The purpose of this class is to combine all actions appended to global history store in one big action to undo/redo them all at once. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAppendHistory.h" line="75" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAppendHistory.h" bodystart="76" bodyend="91"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab4c17b1dd2ac2de71650b8211d421d1b" prot="public" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>combinedAction</name></member>
+      <member refid="group__GeneralGroup_1ga4dd9ccda3424f0732f1579625df05934" prot="private" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>combinedAction_</name></member>
+      <member refid="group__GeneralGroup_1gac86d1e049286fe259d31f5a5fa14a4a7" prot="private" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>parentScopePtr_</name></member>
+      <member refid="group__GeneralGroup_1ga155a57e24f0f265fa6b27e456b83cec5" prot="public" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>ScopeHistory</name></member>
+      <member refid="group__GeneralGroup_1ga86a6a9b2a3329e71208173ac6d3490c6" prot="private" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>store_</name></member>
+      <member refid="group__GeneralGroup_1ga5a69bc34372ef0223eb4b90fab0082d8" prot="public" virt="non-virtual"><scope>MR::ScopeHistory</scope><name>~ScopeHistory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PlaneAccumulator" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PlaneAccumulator</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneAccumulator_1a667637973c5f21411a7a94bdd11d45ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneAccumulator.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlaneAccumulator.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43996" bodyend="43997"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneAccumulator_1a43365f5639f31d86645b7f45b995dc47" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PlaneAccumulator" kindref="compound">PlaneAccumulator</ref></type>
+        <definition> PlaneAccumulator mrmeshpy.PlaneAccumulator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PlaneAccumulator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44000" bodyend="44001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneAccumulator_1a43365f5639f31d86645b7f45b995dc47" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PlaneAccumulator" kindref="compound">PlaneAccumulator</ref></type>
+        <definition> PlaneAccumulator mrmeshpy.PlaneAccumulator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PlaneAccumulator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44004" bodyend="44005"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneAccumulator_1a904f1001b3972240aea8d1e8fe64b5c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneAccumulator.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlaneAccumulator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44007" bodyend="44008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneAccumulator_1a19d87d687549bdf6d439a6732199b359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneAccumulator.__init__</definition>
+        <argsstring>(self, PlaneAccumulator arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlaneAccumulator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PlaneAccumulator" kindref="compound">PlaneAccumulator</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44010" bodyend="44013"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneAccumulator_1a506caa1154591a3eaa37dc74975a54cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneAccumulator.addPlane</definition>
+        <argsstring>(self, Plane3d pl)</argsstring>
+        <name>addPlane</name>
+        <qualifiedname>mrmeshpy.PlaneAccumulator.addPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Plane3d" kindref="compound">Plane3d</ref></type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44015" bodyend="44016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneAccumulator_1ad32f372f2785765930b4e5b79223d8a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlaneAccumulator.addPlane</definition>
+        <argsstring>(self, Plane3f pl)</argsstring>
+        <name>addPlane</name>
+        <qualifiedname>mrmeshpy.PlaneAccumulator.addPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44018" bodyend="44019"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneAccumulator_1a171cc751df2efa2bca623f77d8287248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+        <definition> Vector3d mrmeshpy.PlaneAccumulator.findBestCrossPoint</definition>
+        <argsstring>(self, Vector3d p0, float tol, int_output rank=None, Vector3d space=None)</argsstring>
+        <name>findBestCrossPoint</name>
+        <qualifiedname>mrmeshpy.PlaneAccumulator.findBestCrossPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1int__output" kindref="compound">int_output</ref></type>
+          <declname>rank</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3d" kindref="compound">Vector3d</ref></type>
+          <declname>space</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes the point that minimizes the sum of squared distances to accumulated planes;
+if such point is not unique then returns the one closest to p0
+\\param tol relative epsilon-tolerance for too small number detection
+\\param rank optional output for solution matrix rank according to given tolerance
+\\param space rank=1: unit normal to solution plane, rank=2: unit direction of solution line, rank=3: zero vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44021" bodyend="44028"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlaneAccumulator_1a6e86788366c84786d913cc3994b32d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PlaneAccumulator.findBestCrossPoint</definition>
+        <argsstring>(self, Vector3f p0, float tol, int_output rank=None, Vector3f space=None)</argsstring>
+        <name>findBestCrossPoint</name>
+        <qualifiedname>mrmeshpy.PlaneAccumulator.findBestCrossPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>p0</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tol</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1int__output" kindref="compound">int_output</ref></type>
+          <declname>rank</declname>
+          <defval>None</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>space</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44030" bodyend="44031"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PlaneAccumulator
+
+Class to accumulate planes to find then their crossing point
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43988" bodyend="44031"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PlaneAccumulator_1a667637973c5f21411a7a94bdd11d45ee" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneAccumulator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlaneAccumulator_1a904f1001b3972240aea8d1e8fe64b5c8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneAccumulator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlaneAccumulator_1a19d87d687549bdf6d439a6732199b359" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneAccumulator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlaneAccumulator_1a506caa1154591a3eaa37dc74975a54cc" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneAccumulator</scope><name>addPlane</name></member>
+      <member refid="classmrmeshpy_1_1PlaneAccumulator_1ad32f372f2785765930b4e5b79223d8a0" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneAccumulator</scope><name>addPlane</name></member>
+      <member refid="classmrmeshpy_1_1PlaneAccumulator_1a171cc751df2efa2bca623f77d8287248" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
+      <member refid="classmrmeshpy_1_1PlaneAccumulator_1a6e86788366c84786d913cc3994b32d8d" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneAccumulator</scope><name>findBestCrossPoint</name></member>
+      <member refid="classmrmeshpy_1_1PlaneAccumulator_1a43365f5639f31d86645b7f45b995dc47" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneAccumulator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PlaneAccumulator_1a43365f5639f31d86645b7f45b995dc47" prot="public" virt="non-virtual"><scope>mrmeshpy::PlaneAccumulator</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

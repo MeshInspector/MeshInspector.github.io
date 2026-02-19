@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Quaternion" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Quaternion</compoundname>
+    <includes refid="MRQuaternion_8h" local="no">MRQuaternion.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1ga24a478c9463275d440061899c3630a32" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga0267d5aee3f765c24fb3f40ad811f9b4" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga7e3a85611c622741c25fb2e88d485908" kind="function"><name>getCanonicalQuaternions</name></member>
+      <member refid="group__GeneralGroup_1gab2b1ae64873308ff0f9efd8dbcffcde6" kind="function"><name>getClosestCanonicalQuaternion</name></member>
+      <member refid="group__GeneralGroup_1ga5b71c529c0724694aa58ca8f01246b4d" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1gadb5df4281ceff5b0f0e031a7102a9a9e" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga30209c5b86e5874a13aef73306c7c037" kind="function"><name>orthonormalized</name></member>
+      <member refid="group__GeneralGroup_1ga425f39c2e989a446889597e5692a0416" kind="function"><name>orthonormalized</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga99d6bff08a40df6a9873566e597b029e" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga9c92b4bc72a2fd317f159c70c50e441c" kind="variable"><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga3408cac17b0213d5213b299ad98f12c3" kind="variable"><name>c</name></member>
+      <member refid="group__GeneralGroup_1ga14d0a626cbd31413d550eea26b9e3303" kind="variable"><name>d</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga91ef98ec55d8f152434350ec44a1c9ea" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga22a3efafffa70cc53f2d16561d172864" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga3026768bf8bbbabf23568fd3087d14ab" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga564f96b2b71f1dd6006484fc6733f2fa" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga4c85af29d33ee04d5ca4473e7b840510" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga1265e8d1076efd17d1c3b70cb310480e" kind="function"><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1gaad473c0a9b108bfc4963dc7f279ff9e8" kind="function"><name>im</name></member>
+      <member refid="group__GeneralGroup_1gabfbf2dd877c3cf929788c7f24710328b" kind="function"><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga4c3f74509e12b10d84316ce54058bd05" kind="function"><name>axis</name></member>
+      <member refid="group__GeneralGroup_1gad9b251ccd51dd9ea86e791f559ba00b1" kind="function"><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1ga2200fc8f1ce0aa43f8fa4b4eb01786e7" kind="function"><name>norm</name></member>
+      <member refid="group__GeneralGroup_1ga6bcd112f89bf5f4ce825eb989ce05c59" kind="function"><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1gac98a801cf03ee64da5665501c8e7b7d8" kind="function"><name>normalize</name></member>
+      <member refid="group__GeneralGroup_1ga9289095d6e22b4cd004efca4166197d5" kind="function"><name>normalized</name></member>
+      <member refid="group__GeneralGroup_1ga87e72ac743e6f7ae59790cb02ba7b071" kind="function"><name>conjugate</name></member>
+      <member refid="group__GeneralGroup_1ga238423391f644b566ecdb0f0623998b5" kind="function"><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1gafde85af8bb0b46b18e7c0b7f9ab0a2be" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gac419a0f315e99dc10b1827824e09cddf" kind="function"><name>operator Matrix3&lt; T &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga6bdf64d46e1cf09dc8fe63fcf7153c17" kind="function"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga7a8a7853bf5bb6ec9a6c108009d9a8e3" kind="function"><name>operator/=</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga4a587dac42e27e66b5d29b7a9d637a18" kind="function"><name>lerp</name></member>
+      <member refid="group__GeneralGroup_1ga08ec5071c6a6916ee82a7a8f13366e71" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga2ac16cf205a618aa269d0e7394aa383e" kind="function"><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1gab982ee301028dfa3677f0f55da211868" kind="function"><name>slerp</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a quaternion following the notations from <ulink url="https:///">https:///</ulink> en.wikipedia.org/wiki/Quaternion </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRQuaternion.h" bodystart="16" bodyend="72"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga99d6bff08a40df6a9873566e597b029e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gabfbf2dd877c3cf929788c7f24710328b" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>angle</name></member>
+      <member refid="group__GeneralGroup_1ga4c3f74509e12b10d84316ce54058bd05" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>axis</name></member>
+      <member refid="group__GeneralGroup_1ga9c92b4bc72a2fd317f159c70c50e441c" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga3408cac17b0213d5213b299ad98f12c3" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>c</name></member>
+      <member refid="group__GeneralGroup_1ga87e72ac743e6f7ae59790cb02ba7b071" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>conjugate</name></member>
+      <member refid="group__GeneralGroup_1ga14d0a626cbd31413d550eea26b9e3303" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>d</name></member>
+      <member refid="group__GeneralGroup_1ga24a478c9463275d440061899c3630a32" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga7e3a85611c622741c25fb2e88d485908" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>getCanonicalQuaternions</name></member>
+      <member refid="group__GeneralGroup_1gab2b1ae64873308ff0f9efd8dbcffcde6" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>getClosestCanonicalQuaternion</name></member>
+      <member refid="group__GeneralGroup_1gaad473c0a9b108bfc4963dc7f279ff9e8" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>im</name></member>
+      <member refid="group__GeneralGroup_1ga238423391f644b566ecdb0f0623998b5" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1ga4a587dac42e27e66b5d29b7a9d637a18" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>lerp</name></member>
+      <member refid="group__GeneralGroup_1ga2200fc8f1ce0aa43f8fa4b4eb01786e7" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>norm</name></member>
+      <member refid="group__GeneralGroup_1gac98a801cf03ee64da5665501c8e7b7d8" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>normalize</name></member>
+      <member refid="group__GeneralGroup_1ga9289095d6e22b4cd004efca4166197d5" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>normalized</name></member>
+      <member refid="group__GeneralGroup_1gad9b251ccd51dd9ea86e791f559ba00b1" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1gac419a0f315e99dc10b1827824e09cddf" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator Matrix3&lt; T &gt;</name></member>
+      <member refid="group__GeneralGroup_1gafde85af8bb0b46b18e7c0b7f9ab0a2be" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga0267d5aee3f765c24fb3f40ad811f9b4" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga6bdf64d46e1cf09dc8fe63fcf7153c17" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga6bcd112f89bf5f4ce825eb989ce05c59" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga7a8a7853bf5bb6ec9a6c108009d9a8e3" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga30209c5b86e5874a13aef73306c7c037" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>orthonormalized</name></member>
+      <member refid="group__GeneralGroup_1ga425f39c2e989a446889597e5692a0416" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>orthonormalized</name></member>
+      <member refid="group__GeneralGroup_1ga91ef98ec55d8f152434350ec44a1c9ea" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga22a3efafffa70cc53f2d16561d172864" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga3026768bf8bbbabf23568fd3087d14ab" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga564f96b2b71f1dd6006484fc6733f2fa" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga4c85af29d33ee04d5ca4473e7b840510" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga1265e8d1076efd17d1c3b70cb310480e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>Quaternion</name></member>
+      <member refid="group__GeneralGroup_1ga08ec5071c6a6916ee82a7a8f13366e71" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga2ac16cf205a618aa269d0e7394aa383e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1gab982ee301028dfa3677f0f55da211868" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1ga5b71c529c0724694aa58ca8f01246b4d" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+      <member refid="group__GeneralGroup_1gadb5df4281ceff5b0f0e031a7102a9a9e" prot="public" virt="non-virtual"><scope>MR::Quaternion</scope><name>slerp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

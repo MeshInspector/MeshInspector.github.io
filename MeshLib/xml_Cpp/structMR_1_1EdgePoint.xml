@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgePoint" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EdgePoint</compoundname>
+    <includes refid="MREdgePoint_8h" local="no">MREdgePoint.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" kind="variable"><name>e</name></member>
+      <member refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" kind="variable"><name>a</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" kind="function"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga823872832981f7242927eb2725053bea" kind="function"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga78a1e20c8433641c96ee2a30d603a137" kind="function"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1gab81774167430d41253fb9bb448ae120d" kind="function"><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga564ab78e8cb9ad078dc7f1b009c594c4" kind="function"><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga8af6e44f3bf41c0895fbef7ae838a263" kind="function"><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga28488f2c0e7f4adcdc3726f65d573682" kind="function"><name>getClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga4d2be6b280e0a7eeb76615b7a1b368d6" kind="function"><name>getClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga25f0e8422ec2c8591279616e4f81709a" kind="function"><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1gacd27d6b536b5412853a94133280b6802" kind="function"><name>moveToClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga91ab20425879cb337a77e130ad484350" kind="function"><name>isBd</name></member>
+      <member refid="group__GeneralGroup_1gacea7869523473243ff95a916aa64a7d6" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1ga544f2a00465ce861508927e122b12ee5" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" kind="function"><name>sym</name></member>
+      <member refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" kind="function"><name>operator==</name></member>
+    </sectiondef>
+    <sectiondef kind="related">
+      <member refid="group__GeneralGroup_1ga1b897527d833919c4b3da5c84edd2d23" kind="function"><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" kind="function"><name>fromSameTriangle</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>encodes a point on an edge of mesh or of polyline </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="14" bodyend="46"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa0e9261e0dcf014db57e19ce882ddcfb" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gaa0fb43077718779351b94f5a803498a6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>e</name></member>
+      <member refid="group__GeneralGroup_1gaad45e724729c2566d956c24d4b0f62ad" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga823872832981f7242927eb2725053bea" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga78a1e20c8433641c96ee2a30d603a137" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1gab81774167430d41253fb9bb448ae120d" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>EdgePoint</name></member>
+      <member refid="group__GeneralGroup_1ga1b897527d833919c4b3da5c84edd2d23" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1gaeadc3f42a8934c969baee0104a2b7de3" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>fromSameTriangle</name></member>
+      <member refid="group__GeneralGroup_1ga28488f2c0e7f4adcdc3726f65d573682" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>getClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga4d2be6b280e0a7eeb76615b7a1b368d6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>getClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga564ab78e8cb9ad078dc7f1b009c594c4" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga8af6e44f3bf41c0895fbef7ae838a263" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga25f0e8422ec2c8591279616e4f81709a" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>inVertex</name></member>
+      <member refid="group__GeneralGroup_1ga91ab20425879cb337a77e130ad484350" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>isBd</name></member>
+      <member refid="group__GeneralGroup_1gacd27d6b536b5412853a94133280b6802" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>moveToClosestVertex</name></member>
+      <member refid="group__GeneralGroup_1ga544f2a00465ce861508927e122b12ee5" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga9348793c688230e4be403fff5ad98741" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga317789cb353e8dbe9c42661fe7c4f99f" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>sym</name></member>
+      <member refid="group__GeneralGroup_1gacea7869523473243ff95a916aa64a7d6" prot="public" virt="non-virtual"><scope>MR::EdgePoint</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

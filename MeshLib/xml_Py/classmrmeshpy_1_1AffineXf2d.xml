@@ -1,0 +1,484 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AffineXf2d" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AffineXf2d</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AffineXf2d_1aae7727a1b96823c9e2056321eb074c5a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AffineXf2d::_offsetof_A</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_A</name>
+        <qualifiedname>mrmeshpy.AffineXf2d._offsetof_A</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AffineXf2d_1a6e4b3901aa2204c7cfd31f47712fd6a1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.AffineXf2d::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.AffineXf2d._offsetof_b</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1169" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1adffb8cddcc34a5cfa8c08390d0dbaab3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AffineXf2d.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1174" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1174" bodyend="1175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a59708a4c96a3e3bf2b290713d55bc0c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+        <definition> AffineXf2d mrmeshpy.AffineXf2d.linear</definition>
+        <argsstring>(Matrix2d A)</argsstring>
+        <name>linear</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.linear</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2d" kindref="compound">Matrix2d</ref></type>
+          <declname>A</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates linear-only transformation (without translation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1177" bodyend="1180"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a46f6b23a90b393f2f91cfe9502b58f53" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+        <definition> AffineXf2d mrmeshpy.AffineXf2d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1183" bodyend="1184"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a46f6b23a90b393f2f91cfe9502b58f53" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+        <definition> AffineXf2d mrmeshpy.AffineXf2d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1187" bodyend="1188"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a1af55ce2a370425a3e0c886f5649a84b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+        <definition> AffineXf2d mrmeshpy.AffineXf2d.translation</definition>
+        <argsstring>(Vector2d b)</argsstring>
+        <name>translation</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.translation</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates translation-only transformation (with identity linear component)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1190" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1190" bodyend="1193"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a301c2a684ffbbb3280e7da183433d2ea" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+        <definition> AffineXf2d mrmeshpy.AffineXf2d.xfAround</definition>
+        <argsstring>(Matrix2d A, Vector2d stable)</argsstring>
+        <name>xfAround</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.xfAround</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2d" kindref="compound">Matrix2d</ref></type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>stable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates transformation with given linear part with given stable point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1195" bodyend="1198"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a117a4f8603321601076ca81cc03baaf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+        <definition> Vector2d mrmeshpy.AffineXf2d.__call__</definition>
+        <argsstring>(self, Vector2d x)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>application of the transformation to a point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1199" bodyend="1202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1ad4903b884cd24bb146b3b0210514bef8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AffineXf2d.__eq__</definition>
+        <argsstring>(self, AffineXf2d b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1203" bodyend="1204"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1aa11aae13c1fcbe874294e29710d303e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AffineXf2d.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1206" bodyend="1207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a8718e3e412b7c6aa3ab4cd7f463857ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AffineXf2d.__init__</definition>
+        <argsstring>(self, Matrix2d A, Vector2d b)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix2d" kindref="compound">Matrix2d</ref></type>
+          <declname>A</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1209" bodyend="1210"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a76807e6d6c3d85038cd28b01cccd4ec2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AffineXf2d.__init__</definition>
+        <argsstring>(self, AffineXf2d arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1212" bodyend="1215"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a376de98df2efc2399f6d5f74b9d51e79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+        <definition> AffineXf2d mrmeshpy.AffineXf2d.__mul__</definition>
+        <argsstring>(self, AffineXf2d v)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>composition of two transformations:
+\\f( y = (u * v) ( x ) = u( v( x ) ) = ( u.A * ( v.A * x + v.b ) + u.b ) = ( u.A * v.A ) * x + ( u.A * v.b + u.b ) \\f)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1216" bodyend="1220"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1aadb638402e15648bb4de6a6f06bfeedb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AffineXf2d.__ne__</definition>
+        <argsstring>(self, AffineXf2d b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1221" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1221" bodyend="1222"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a42d5a12630d36817d2f05caed451260c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AffineXf2d.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1223" bodyend="1224"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1a4e8ecb62dffd204848cf346a2146e31c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.AffineXf2d.__rlshift__</definition>
+        <argsstring>(self, typing.Any xf)</argsstring>
+        <name>__rlshift__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__rlshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1225" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1afa98a09c8ef83133323f0a0a66dafcba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.AffineXf2d.__rrshift__</definition>
+        <argsstring>(self, typing.Any xf)</argsstring>
+        <name>__rrshift__</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.__rrshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1227" bodyend="1228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1af623a41ab2b2fa557ad2aa534fd75212" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf2d" kindref="compound">AffineXf2d</ref></type>
+        <definition> AffineXf2d mrmeshpy.AffineXf2d.inverse</definition>
+        <argsstring>(self)</argsstring>
+        <name>inverse</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.inverse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes inverse transformation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1229" bodyend="1232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AffineXf2d_1afabee5f8ca0662b83e1dbfd185cd8e81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+        <definition> Vector2d mrmeshpy.AffineXf2d.linearOnly</definition>
+        <argsstring>(self, Vector2d x)</argsstring>
+        <name>linearOnly</name>
+        <qualifiedname>mrmeshpy.AffineXf2d.linearOnly</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>applies only linear part of the transformation to given vector (e.g. to normal) skipping adding shift (b)
+for example if this is a rigid transformation, then only rotates input vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1233" bodyend="1237"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AffineXf2d
+
+affine transformation: y = A*x + b, where A in VxV, and b in V
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AffineXf2d</label>
+        <link refid="classmrmeshpy_1_1AffineXf2d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_A</edgelabel>
+          <edgelabel>_offsetof_b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1162" bodyend="1237"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a117a4f8603321601076ca81cc03baaf6" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1ad4903b884cd24bb146b3b0210514bef8" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1adffb8cddcc34a5cfa8c08390d0dbaab3" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1aa11aae13c1fcbe874294e29710d303e9" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a8718e3e412b7c6aa3ab4cd7f463857ee" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a76807e6d6c3d85038cd28b01cccd4ec2" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a376de98df2efc2399f6d5f74b9d51e79" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1aadb638402e15648bb4de6a6f06bfeedb" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a42d5a12630d36817d2f05caed451260c" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a4e8ecb62dffd204848cf346a2146e31c" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1afa98a09c8ef83133323f0a0a66dafcba" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>__rrshift__</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1aae7727a1b96823c9e2056321eb074c5a" prot="protected" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>_offsetof_A</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a6e4b3901aa2204c7cfd31f47712fd6a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1af623a41ab2b2fa557ad2aa534fd75212" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>inverse</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a59708a4c96a3e3bf2b290713d55bc0c3" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>linear</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1afabee5f8ca0662b83e1dbfd185cd8e81" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>linearOnly</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a46f6b23a90b393f2f91cfe9502b58f53" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a46f6b23a90b393f2f91cfe9502b58f53" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a1af55ce2a370425a3e0c886f5649a84b" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>translation</name></member>
+      <member refid="classmrmeshpy_1_1AffineXf2d_1a301c2a684ffbbb3280e7da183433d2ea" prot="public" virt="non-virtual"><scope>mrmeshpy::AffineXf2d</scope><name>xfAround</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SymMatrix3" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SymMatrix3</compoundname>
+    <includes refid="MRSymMatrix3_8h" local="no">MRSymMatrix3.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gafc689ce07450f684b99051e555894ee7" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" kind="function"><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1gaf018697d9a39a22f02a3c3cbdfe3ba5c" kind="function"><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga58d4310ad87b99b94d1bea2f1059484b" kind="function"><name>crossSquare</name></member>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga49b04ca33ea170c1047b150bbc712509" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" kind="variable"><name>xx</name></member>
+      <member refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" kind="variable"><name>xy</name></member>
+      <member refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" kind="variable"><name>xz</name></member>
+      <member refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" kind="variable"><name>yy</name></member>
+      <member refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" kind="variable"><name>yz</name></member>
+      <member refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" kind="variable"><name>zz</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" kind="function"><name>SymMatrix3</name></member>
+      <member refid="group__GeneralGroup_1ga7c6db10e1c1818cbcf3083e960afab31" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1gab0c7c7d05d0592ff42fd599103bd5143" kind="function"><name>trace</name></member>
+      <member refid="group__GeneralGroup_1ga8d70252193181da8d5d1a8cd1393d59d" kind="function"><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1ga2e918619ba379fad0f391438ef143b82" kind="function"><name>det</name></member>
+      <member refid="group__GeneralGroup_1gae429d9d10243a2e9b7e1446ed7235c36" kind="function"><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1gaac8fe52f2316a4d0bc9fe09739a230ef" kind="function"><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1ga7ea2ac738a97ccd6c1480da40d655c52" kind="function"><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1gabbcd8728baa9b50327af2ffcb090bc0a" kind="function"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gaa9505f6e76d70bf7bfdd33e9b0b49615" kind="function"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1gafb6ed3ffe4bdda5d6267cc44ef816e9c" kind="function"><name>operator/=</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga01e5aad44da8c62ba4d2044075380fdb" kind="function"><name>identity</name></member>
+      <member refid="group__GeneralGroup_1gad9dcf1d38df199d9b286299f52b8ea18" kind="function"><name>diagonal</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>symmetric 3x3 matrix </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix3.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix3.h" bodystart="18" bodyend="69"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga58d4310ad87b99b94d1bea2f1059484b" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>crossSquare</name></member>
+      <member refid="group__GeneralGroup_1ga2e918619ba379fad0f391438ef143b82" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>det</name></member>
+      <member refid="group__GeneralGroup_1gad9dcf1d38df199d9b286299f52b8ea18" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>diagonal</name></member>
+      <member refid="group__GeneralGroup_1ga01e5aad44da8c62ba4d2044075380fdb" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>identity</name></member>
+      <member refid="group__GeneralGroup_1gae429d9d10243a2e9b7e1446ed7235c36" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1gaac8fe52f2316a4d0bc9fe09739a230ef" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1ga7c6db10e1c1818cbcf3083e960afab31" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga8d70252193181da8d5d1a8cd1393d59d" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1gafc689ce07450f684b99051e555894ee7" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gaa9505f6e76d70bf7bfdd33e9b0b49615" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga7ea2ac738a97ccd6c1480da40d655c52" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1gabbcd8728baa9b50327af2ffcb090bc0a" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gafb6ed3ffe4bdda5d6267cc44ef816e9c" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga607435c965ee7d4fabb2f1a0c7b779f2" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1gaf018697d9a39a22f02a3c3cbdfe3ba5c" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga598c8556717d9cf45eab493d1801dee5" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>SymMatrix3</name></member>
+      <member refid="group__GeneralGroup_1gab0c7c7d05d0592ff42fd599103bd5143" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>trace</name></member>
+      <member refid="group__GeneralGroup_1ga49b04ca33ea170c1047b150bbc712509" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga9bb4e4e398d4c529a5a88c7b95c381c2" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>xx</name></member>
+      <member refid="group__GeneralGroup_1ga338177889f057fdb4fe9ad0781e40582" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>xy</name></member>
+      <member refid="group__GeneralGroup_1ga975295446a9281ca38f7ff5967875eb8" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>xz</name></member>
+      <member refid="group__GeneralGroup_1gae811049caca3dc4cda97eb36c1b118a7" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>yy</name></member>
+      <member refid="group__GeneralGroup_1ga6ebdff1e289a9153c5bef3e6a7683b25" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>yz</name></member>
+      <member refid="group__GeneralGroup_1gae0bca6271c1e0d370210fcd54da942ba" prot="public" virt="non-virtual"><scope>MR::SymMatrix3</scope><name>zz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,889 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRRigidXf3_8h" kind="file" language="C++">
+    <compoundname>MRRigidXf3.h</compoundname>
+    <includes refid="MRAffineXf_8h" local="no">MRCMesh/MRAffineXf.h</includes>
+    <includes refid="MRVector3_8h" local="no">MRCMesh/MRVector3.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMesh/MRMatrix2.h</label>
+        <link refid="MRMatrix2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MRCMesh/MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRRigidXf3.h</label>
+        <link refid="MRRigidXf3_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRCMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="6">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="8">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" prot="public" static="no">
+        <type>struct <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref></type>
+        <definition>typedef struct MR_RigidXf3f MR_RigidXf3f</definition>
+        <argsstring></argsstring>
+        <name>MR_RigidXf3f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>rigid transformation preserving all distances: y = A*x + b, where A is rotation matrix 3x3 stored as 3 angles, and b is shift vector Generated from class <computeroutput>MR::RigidXf3f</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="18" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" prot="public" static="no">
+        <type>struct <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref></type>
+        <definition>typedef struct MR_RigidXf3d MR_RigidXf3d</definition>
+        <argsstring></argsstring>
+        <name>MR_RigidXf3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>rigid transformation preserving all distances: y = A*x + b, where A is rotation matrix 3x3 stored as 3 angles, and b is shift vector Generated from class <computeroutput>MR::RigidXf3d</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). rotation angles relative to x,y,z axes Returns a pointer to a member variable of class <computeroutput>MR::RigidXf3f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="24" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRRigidXf3_8h_1aa955404766f09ddf427a30d35b069717" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_RigidXf3f_Get_a</definition>
+        <argsstring>(const MR_RigidXf3f *_this)</argsstring>
+        <name>MR_RigidXf3f_Get_a</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>rotation angles relative to x,y,z axes Modifies a member variable of class <computeroutput>MR::RigidXf3f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="31" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="31" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a3a11cd64928b4e17a49dd4a357e80f8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RigidXf3f_Set_a</definition>
+        <argsstring>(MR_RigidXf3f *_this, MR_Vector3f value)</argsstring>
+        <name>MR_RigidXf3f_Set_a</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>rotation angles relative to x,y,z axes Returns a mutable pointer to a member variable of class <computeroutput>MR::RigidXf3f</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a5943ffc1452efd55f74851f407be6df6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_RigidXf3f_GetMutable_a</definition>
+        <argsstring>(MR_RigidXf3f *_this)</argsstring>
+        <name>MR_RigidXf3f_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>shift Returns a pointer to a member variable of class <computeroutput>MR::RigidXf3f</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="45" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="45" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a04fbd7c5981e464758e0298db4290c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API const MR_Vector3f * MR_RigidXf3f_Get_b</definition>
+        <argsstring>(const MR_RigidXf3f *_this)</argsstring>
+        <name>MR_RigidXf3f_Get_b</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>shift Modifies a member variable of class <computeroutput>MR::RigidXf3f</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="52" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="52" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a605cb607aaed68b20ee5ac4d800f10bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RigidXf3f_Set_b</definition>
+        <argsstring>(MR_RigidXf3f *_this, MR_Vector3f value)</argsstring>
+        <name>MR_RigidXf3f_Set_b</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>shift Returns a mutable pointer to a member variable of class <computeroutput>MR::RigidXf3f</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a5b69c6fbb553e883b8e466da7d4f7b07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+        <definition>MRC_API MR_Vector3f * MR_RigidXf3f_GetMutable_b</definition>
+        <argsstring>(MR_RigidXf3f *_this)</argsstring>
+        <name>MR_RigidXf3f_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="66" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="66" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a8b64accc07cac536394e1f2b4470741a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+        <definition>MRC_API MR_RigidXf3f * MR_RigidXf3f_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_RigidXf3f_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRigidXf3_8h_1a48ca6ac0c5a057690471225061892f6b" kindref="member">MR_RigidXf3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="70" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="70" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1ac7ea5178f3b591db34cd463f057596c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+        <definition>MRC_API MR_RigidXf3f * MR_RigidXf3f_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_RigidXf3f_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRRigidXf3_8h_1af4088fab859d0c9c7a3f7ead2f81ebd4" kindref="member">MR_RigidXf3f_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRRigidXf3_8h_1a6261438a32553dcb5a4ef83aa41a661d" kindref="member">MR_RigidXf3f_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRRigidXf3_8h_1a77442dd1da9f490946c87c709b15f6ff" kindref="member">MR_RigidXf3f_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="75" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="75" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a77442dd1da9f490946c87c709b15f6ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+        <definition>MRC_API const MR_RigidXf3f * MR_RigidXf3f_OffsetPtr</definition>
+        <argsstring>(const MR_RigidXf3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RigidXf3f_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="79" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="79" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a6261438a32553dcb5a4ef83aa41a661d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+        <definition>MRC_API MR_RigidXf3f * MR_RigidXf3f_OffsetMutablePtr</definition>
+        <argsstring>(MR_RigidXf3f *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RigidXf3f_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="83" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="83" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a6e56d40a3968aec7172e474f3ba8e601" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+        <definition>MRC_API MR_RigidXf3f * MR_RigidXf3f_ConstructFromAnother</definition>
+        <argsstring>(const MR_RigidXf3f *_other)</argsstring>
+        <name>MR_RigidXf3f_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RigidXf3f::RigidXf3f</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRigidXf3_8h_1a48ca6ac0c5a057690471225061892f6b" kindref="member">MR_RigidXf3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="89" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="89" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a890d7459a4622f1dbd14ba0a755b1505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+        <definition>MRC_API MR_RigidXf3f * MR_RigidXf3f_Construct</definition>
+        <argsstring>(const MR_Vector3f *a, const MR_Vector3f *b)</argsstring>
+        <name>MR_RigidXf3f_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RigidXf3f::RigidXf3f</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRigidXf3_8h_1a48ca6ac0c5a057690471225061892f6b" kindref="member">MR_RigidXf3f_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="97" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="97" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a48ca6ac0c5a057690471225061892f6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RigidXf3f_Destroy</definition>
+        <argsstring>(const MR_RigidXf3f *_this)</argsstring>
+        <name>MR_RigidXf3f_Destroy</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_RigidXf3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="100" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="100" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1af4088fab859d0c9c7a3f7ead2f81ebd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RigidXf3f_DestroyArray</definition>
+        <argsstring>(const MR_RigidXf3f *_this)</argsstring>
+        <name>MR_RigidXf3f_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_RigidXf3f</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="103" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="103" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a54ad0f0959dc5483af3bbcbe3c3bd9e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+        <definition>MRC_API MR_RigidXf3f * MR_RigidXf3f_AssignFromAnother</definition>
+        <argsstring>(MR_RigidXf3f *_this, const MR_RigidXf3f *_other)</argsstring>
+        <name>MR_RigidXf3f_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RigidXf3f::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="111" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="111" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a8ea6f87a14eed8811a2861656da8713e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+        <definition>MRC_API MR_AffineXf3f MR_RigidXf3f_rigidXf</definition>
+        <argsstring>(const MR_RigidXf3f *_this)</argsstring>
+        <name>MR_RigidXf3f_rigidXf</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts this into rigid transformation, which non-linearly depends on angles Generated from method <computeroutput>MR::RigidXf3f::rigidXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="116" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="116" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a5e2c94751b7d5da04bc7e759055e178f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref></type>
+        <definition>MRC_API MR_AffineXf3f MR_RigidXf3f_linearXf</definition>
+        <argsstring>(const MR_RigidXf3f *_this)</argsstring>
+        <name>MR_RigidXf3f_linearXf</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts this into not-rigid transformation but with matrix, which linearly depends on angles Generated from method <computeroutput>MR::RigidXf3f::linearXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. rotation angles relative to x,y,z axes Returns a pointer to a member variable of class <computeroutput>MR::RigidXf3d</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="121" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="121" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1ab65fb9f16b2d91b157974d347bb28254" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_RigidXf3d_Get_a</definition>
+        <argsstring>(const MR_RigidXf3d *_this)</argsstring>
+        <name>MR_RigidXf3d_Get_a</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>rotation angles relative to x,y,z axes Modifies a member variable of class <computeroutput>MR::RigidXf3d</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>a</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>a</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="128" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="128" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1aa6d3091759d5fb52c22c09671c13ef52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RigidXf3d_Set_a</definition>
+        <argsstring>(MR_RigidXf3d *_this, MR_Vector3d value)</argsstring>
+        <name>MR_RigidXf3d_Set_a</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>rotation angles relative to x,y,z axes Returns a mutable pointer to a member variable of class <computeroutput>MR::RigidXf3d</computeroutput> named <computeroutput>a</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="135" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="135" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a00694ef78233f48f284f3934ac80aa00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_RigidXf3d_GetMutable_a</definition>
+        <argsstring>(MR_RigidXf3d *_this)</argsstring>
+        <name>MR_RigidXf3d_GetMutable_a</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>shift Returns a pointer to a member variable of class <computeroutput>MR::RigidXf3d</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="142" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="142" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1ac8038da96d3a1999124d31c7ff6fe8fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API const MR_Vector3d * MR_RigidXf3d_Get_b</definition>
+        <argsstring>(const MR_RigidXf3d *_this)</argsstring>
+        <name>MR_RigidXf3d_Get_b</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>shift Modifies a member variable of class <computeroutput>MR::RigidXf3d</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>b</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>b</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="149" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="149" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a0812ece8af4907d52f6a4f57775ceda4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RigidXf3d_Set_b</definition>
+        <argsstring>(MR_RigidXf3d *_this, MR_Vector3d value)</argsstring>
+        <name>MR_RigidXf3d_Set_b</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>shift Returns a mutable pointer to a member variable of class <computeroutput>MR::RigidXf3d</computeroutput> named <computeroutput>b</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="156" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="156" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a0045c49e2f25874194868df464823371" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+        <definition>MRC_API MR_Vector3d * MR_RigidXf3d_GetMutable_b</definition>
+        <argsstring>(MR_RigidXf3d *_this)</argsstring>
+        <name>MR_RigidXf3d_GetMutable_b</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="163" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="163" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1af8fdbeb1d9a6525375e8ccade19e7c47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_RigidXf3d_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_RigidXf3d_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRigidXf3_8h_1a23b371817b38d27e1d279ed6fa773027" kindref="member">MR_RigidXf3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="167" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="167" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a10b0ab11ed73209728c8efa6cfcf0acb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_RigidXf3d_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_RigidXf3d_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRRigidXf3_8h_1aa97578f00aa9d2882d0cafba8b3f0c14" kindref="member">MR_RigidXf3d_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRRigidXf3_8h_1a113cd91d0e237ec6264480674286e8e1" kindref="member">MR_RigidXf3d_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRRigidXf3_8h_1a53955109109cf31225ec21adaaccddef" kindref="member">MR_RigidXf3d_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="172" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="172" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a53955109109cf31225ec21adaaccddef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API const MR_RigidXf3d * MR_RigidXf3d_OffsetPtr</definition>
+        <argsstring>(const MR_RigidXf3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RigidXf3d_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="176" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="176" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a113cd91d0e237ec6264480674286e8e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_RigidXf3d_OffsetMutablePtr</definition>
+        <argsstring>(MR_RigidXf3d *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RigidXf3d_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="180" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="180" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a7569e5c9a0673d549b859f0553eae814" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_RigidXf3d_ConstructFromAnother</definition>
+        <argsstring>(const MR_RigidXf3d *_other)</argsstring>
+        <name>MR_RigidXf3d_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RigidXf3d::RigidXf3d</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRigidXf3_8h_1a23b371817b38d27e1d279ed6fa773027" kindref="member">MR_RigidXf3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="186" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="186" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1ab3eb8fa9d6c3e0958a1d1a60e87d82cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_RigidXf3d_Construct</definition>
+        <argsstring>(const MR_Vector3d *a, const MR_Vector3d *b)</argsstring>
+        <name>MR_RigidXf3d_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref> *</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RigidXf3d::RigidXf3d</computeroutput>. Parameter <computeroutput>a</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>a</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>b</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>b</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRigidXf3_8h_1a23b371817b38d27e1d279ed6fa773027" kindref="member">MR_RigidXf3d_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="194" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="194" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a23b371817b38d27e1d279ed6fa773027" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RigidXf3d_Destroy</definition>
+        <argsstring>(const MR_RigidXf3d *_this)</argsstring>
+        <name>MR_RigidXf3d_Destroy</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_RigidXf3d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="197" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="197" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1aa97578f00aa9d2882d0cafba8b3f0c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RigidXf3d_DestroyArray</definition>
+        <argsstring>(const MR_RigidXf3d *_this)</argsstring>
+        <name>MR_RigidXf3d_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_RigidXf3d</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="200" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="200" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a8581abf1866ed2098a4dbf8d17380fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+        <definition>MRC_API MR_RigidXf3d * MR_RigidXf3d_AssignFromAnother</definition>
+        <argsstring>(MR_RigidXf3d *_this, const MR_RigidXf3d *_other)</argsstring>
+        <name>MR_RigidXf3d_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RigidXf3d::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="208" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="208" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a52d45df7e498578652d218b2bcc54589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
+        <definition>MRC_API MR_AffineXf3d MR_RigidXf3d_rigidXf</definition>
+        <argsstring>(const MR_RigidXf3d *_this)</argsstring>
+        <name>MR_RigidXf3d_rigidXf</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts this into rigid transformation, which non-linearly depends on angles Generated from method <computeroutput>MR::RigidXf3d::rigidXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="213" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="213" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRigidXf3_8h_1a5a0fb2a9ae339d715b2544f2336e117f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref></type>
+        <definition>MRC_API MR_AffineXf3d MR_RigidXf3d_linearXf</definition>
+        <argsstring>(const MR_RigidXf3d *_this)</argsstring>
+        <name>MR_RigidXf3d_linearXf</name>
+        <param>
+          <type>const <ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts this into not-rigid transformation but with matrix, which linearly depends on angles Generated from method <computeroutput>MR::RigidXf3d::linearXf</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" line="218" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h" declline="218" declcolumn="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRAffineXf_8h" kindref="compound">MRCMesh/MRAffineXf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector3_8h" kindref="compound">MRCMesh/MRVector3.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="MRRigidXf3_8h_1aa955404766f09ddf427a30d35b069717" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1aa955404766f09ddf427a30d35b069717" kindref="member">MR_RigidXf3f_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRRigidXf3_8h_1a3a11cd64928b4e17a49dd4a357e80f8c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a3a11cd64928b4e17a49dd4a357e80f8c" kindref="member">MR_RigidXf3f_Set_a</ref>(<ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRRigidXf3_8h_1a5943ffc1452efd55f74851f407be6df6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1a5943ffc1452efd55f74851f407be6df6" kindref="member">MR_RigidXf3f_GetMutable_a</ref>(<ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRRigidXf3_8h_1a04fbd7c5981e464758e0298db4290c76" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1a04fbd7c5981e464758e0298db4290c76" kindref="member">MR_RigidXf3f_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRRigidXf3_8h_1a605cb607aaed68b20ee5ac4d800f10bf" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a605cb607aaed68b20ee5ac4d800f10bf" kindref="member">MR_RigidXf3f_Set_b</ref>(<ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRRigidXf3_8h_1a5b69c6fbb553e883b8e466da7d4f7b07" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1a5b69c6fbb553e883b8e466da7d4f7b07" kindref="member">MR_RigidXf3f_GetMutable_b</ref>(<ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="MRRigidXf3_8h_1a8b64accc07cac536394e1f2b4470741a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1a8b64accc07cac536394e1f2b4470741a" kindref="member">MR_RigidXf3f_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRRigidXf3_8h_1ac7ea5178f3b591db34cd463f057596c6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1ac7ea5178f3b591db34cd463f057596c6" kindref="member">MR_RigidXf3f_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="MRRigidXf3_8h_1a77442dd1da9f490946c87c709b15f6ff" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1a77442dd1da9f490946c87c709b15f6ff" kindref="member">MR_RigidXf3f_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="MRRigidXf3_8h_1a6261438a32553dcb5a4ef83aa41a661d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1a6261438a32553dcb5a4ef83aa41a661d" kindref="member">MR_RigidXf3f_OffsetMutablePtr</ref>(<ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRRigidXf3_8h_1a6e56d40a3968aec7172e474f3ba8e601" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1a6e56d40a3968aec7172e474f3ba8e601" kindref="member">MR_RigidXf3f_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="MRRigidXf3_8h_1a890d7459a4622f1dbd14ba0a755b1505" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1a890d7459a4622f1dbd14ba0a755b1505" kindref="member">MR_RigidXf3f_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3f" kindref="compound">MR_Vector3f</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="MRRigidXf3_8h_1a48ca6ac0c5a057690471225061892f6b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a48ca6ac0c5a057690471225061892f6b" kindref="member">MR_RigidXf3f_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="MRRigidXf3_8h_1af4088fab859d0c9c7a3f7ead2f81ebd4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1af4088fab859d0c9c7a3f7ead2f81ebd4" kindref="member">MR_RigidXf3f_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRRigidXf3_8h_1a54ad0f0959dc5483af3bbcbe3c3bd9e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*<ref refid="MRRigidXf3_8h_1a54ad0f0959dc5483af3bbcbe3c3bd9e8" kindref="member">MR_RigidXf3f_AssignFromAnother</ref>(<ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRRigidXf3_8h_1a8ea6f87a14eed8811a2861656da8713e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRRigidXf3_8h_1a8ea6f87a14eed8811a2861656da8713e" kindref="member">MR_RigidXf3f_rigidXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="MRRigidXf3_8h_1a5e2c94751b7d5da04bc7e759055e178f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3f" kindref="compound">MR_AffineXf3f</ref><sp/><ref refid="MRRigidXf3_8h_1a5e2c94751b7d5da04bc7e759055e178f" kindref="member">MR_RigidXf3f_linearXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a6958d37a4dac461b1d27250fa063f639" kindref="member">MR_RigidXf3f</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRRigidXf3_8h_1ab65fb9f16b2d91b157974d347bb28254" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1ab65fb9f16b2d91b157974d347bb28254" kindref="member">MR_RigidXf3d_Get_a</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="MRRigidXf3_8h_1aa6d3091759d5fb52c22c09671c13ef52" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1aa6d3091759d5fb52c22c09671c13ef52" kindref="member">MR_RigidXf3d_Set_a</ref>(<ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="MRRigidXf3_8h_1a00694ef78233f48f284f3934ac80aa00" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1a00694ef78233f48f284f3934ac80aa00" kindref="member">MR_RigidXf3d_GetMutable_a</ref>(<ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRRigidXf3_8h_1ac8038da96d3a1999124d31c7ff6fe8fc" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1ac8038da96d3a1999124d31c7ff6fe8fc" kindref="member">MR_RigidXf3d_Get_b</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="MRRigidXf3_8h_1a0812ece8af4907d52f6a4f57775ceda4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a0812ece8af4907d52f6a4f57775ceda4" kindref="member">MR_RigidXf3d_Set_b</ref>(<ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this,<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="MRRigidXf3_8h_1a0045c49e2f25874194868df464823371" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1a0045c49e2f25874194868df464823371" kindref="member">MR_RigidXf3d_GetMutable_b</ref>(<ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="MRRigidXf3_8h_1af8fdbeb1d9a6525375e8ccade19e7c47" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1af8fdbeb1d9a6525375e8ccade19e7c47" kindref="member">MR_RigidXf3d_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172" refid="MRRigidXf3_8h_1a10b0ab11ed73209728c8efa6cfcf0acb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1a10b0ab11ed73209728c8efa6cfcf0acb" kindref="member">MR_RigidXf3d_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176" refid="MRRigidXf3_8h_1a53955109109cf31225ec21adaaccddef" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1a53955109109cf31225ec21adaaccddef" kindref="member">MR_RigidXf3d_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRRigidXf3_8h_1a113cd91d0e237ec6264480674286e8e1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1a113cd91d0e237ec6264480674286e8e1" kindref="member">MR_RigidXf3d_OffsetMutablePtr</ref>(<ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186" refid="MRRigidXf3_8h_1a7569e5c9a0673d549b859f0553eae814" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1a7569e5c9a0673d549b859f0553eae814" kindref="member">MR_RigidXf3d_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRRigidXf3_8h_1ab3eb8fa9d6c3e0958a1d1a60e87d82cb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1ab3eb8fa9d6c3e0958a1d1a60e87d82cb" kindref="member">MR_RigidXf3d_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*a,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref><sp/>*b);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197" refid="MRRigidXf3_8h_1a23b371817b38d27e1d279ed6fa773027" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1a23b371817b38d27e1d279ed6fa773027" kindref="member">MR_RigidXf3d_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="200" refid="MRRigidXf3_8h_1aa97578f00aa9d2882d0cafba8b3f0c14" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1aa97578f00aa9d2882d0cafba8b3f0c14" kindref="member">MR_RigidXf3d_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208" refid="MRRigidXf3_8h_1a8581abf1866ed2098a4dbf8d17380fa7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*<ref refid="MRRigidXf3_8h_1a8581abf1866ed2098a4dbf8d17380fa7" kindref="member">MR_RigidXf3d_AssignFromAnother</ref>(<ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="MRRigidXf3_8h_1a52d45df7e498578652d218b2bcc54589" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRRigidXf3_8h_1a52d45df7e498578652d218b2bcc54589" kindref="member">MR_RigidXf3d_rigidXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="218" refid="MRRigidXf3_8h_1a5a0fb2a9ae339d715b2544f2336e117f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__AffineXf3d" kindref="compound">MR_AffineXf3d</ref><sp/><ref refid="MRRigidXf3_8h_1a5a0fb2a9ae339d715b2544f2336e117f" kindref="member">MR_RigidXf3d_linearXf</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRRigidXf3_8h_1ad2c1214bde153d2cf44734058483202c" kindref="member">MR_RigidXf3d</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRigidXf3.h"/>
+  </compounddef>
+</doxygen>

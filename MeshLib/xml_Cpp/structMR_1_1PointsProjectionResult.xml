@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointsProjectionResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointsProjectionResult</compoundname>
+    <includes refid="MRPointsProject_8h" local="no">MRPointsProject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1PointsProjectionResult_1a3b974a4c082686d4963d597b5533c340" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::PointsProjectionResult::distSq</definition>
+        <argsstring></argsstring>
+        <name>distSq</name>
+        <qualifiedname>MR::PointsProjectionResult::distSq</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+<para>squared distance from pt to proj </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="17" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1PointsProjectionResult_1ac5592bc916da0b017f4e3a254bad34f7" prot="public" static="no" mutable="no">
+        <type>VertId</type>
+        <definition>VertId MR::PointsProjectionResult::vId</definition>
+        <argsstring></argsstring>
+        <name>vId</name>
+        <qualifiedname>MR::PointsProjectionResult::vId</qualifiedname>
+        <briefdescription>
+<para>the closest vertex in point cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="19" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1PointsProjectionResult_1aac972c9152f1d040824f6ce8998b7cf7" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>auto</type>
+        <definition>auto MR::PointsProjectionResult::operator&lt;=&gt;</definition>
+        <argsstring>(const PointsProjectionResult &amp;) const =default</argsstring>
+        <name>operator&lt;=&gt;</name>
+        <qualifiedname>MR::PointsProjectionResult::operator&lt;=&gt;</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">PointsProjectionResult</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="21" column="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointsProject.h" bodystart="15" bodyend="22"/>
+    <listofallmembers>
+      <member refid="structMR_1_1PointsProjectionResult_1a3b974a4c082686d4963d597b5533c340" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>distSq</name></member>
+      <member refid="structMR_1_1PointsProjectionResult_1aac972c9152f1d040824f6ce8998b7cf7" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>operator&lt;=&gt;</name></member>
+      <member refid="structMR_1_1PointsProjectionResult_1ac5592bc916da0b017f4e3a254bad34f7" prot="public" virt="non-virtual"><scope>MR::PointsProjectionResult</scope><name>vId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

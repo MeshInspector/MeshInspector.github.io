@@ -1,0 +1,816 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespacemrviewerpy" kind="namespace" language="Python">
+    <compoundname>mrviewerpy</compoundname>
+    <innerclass refid="classmrviewerpy_1_1KeyMod" prot="public">mrviewerpy::KeyMod</innerclass>
+    <innerclass refid="classmrviewerpy_1_1MouseButton" prot="public">mrviewerpy::MouseButton</innerclass>
+    <innerclass refid="classmrviewerpy_1_1UiEntry" prot="public">mrviewerpy::UiEntry</innerclass>
+    <innerclass refid="classmrviewerpy_1_1UiEntryType" prot="public">mrviewerpy::UiEntryType</innerclass>
+    <innerclass refid="classmrviewerpy_1_1UiValueInt" prot="public">mrviewerpy::UiValueInt</innerclass>
+    <innerclass refid="classmrviewerpy_1_1UiValueReal" prot="public">mrviewerpy::UiValueReal</innerclass>
+    <innerclass refid="classmrviewerpy_1_1UiValueString" prot="public">mrviewerpy::UiValueString</innerclass>
+    <innerclass refid="classmrviewerpy_1_1UiValueUint" prot="public">mrviewerpy::UiValueUint</innerclass>
+    <innerclass refid="classmrviewerpy_1_1Viewer" prot="public">mrviewerpy::Viewer</innerclass>
+    <innerclass refid="classmrviewerpy_1_1ViewerLaunchParams" prot="public">mrviewerpy::ViewerLaunchParams</innerclass>
+    <innerclass refid="classmrviewerpy_1_1ViewerLaunchParamsMode" prot="public">mrviewerpy::ViewerLaunchParamsMode</innerclass>
+    <innerclass refid="classmrviewerpy_1_1ViewerSetup" prot="public">mrviewerpy::ViewerSetup</innerclass>
+    <innerclass refid="classmrviewerpy_1_1Viewport" prot="public">mrviewerpy::Viewport</innerclass>
+    <innerclass refid="classmrviewerpy_1_1ViewportFitDataParams" prot="public">mrviewerpy::ViewportFitDataParams</innerclass>
+    <innerclass refid="classmrviewerpy_1_1ViewportFitMode" prot="public">mrviewerpy::ViewportFitMode</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacemrviewerpy_1a13674fc5b2d99937a298f91653f79e36" prot="private" static="no" mutable="no">
+        <type>list</type>
+        <definition>list mrviewerpy.__all__</definition>
+        <argsstring></argsstring>
+        <name>__all__</name>
+        <qualifiedname>mrviewerpy.__all__</qualifiedname>
+        <initializer>=  [&apos;<ref refid="classmrviewerpy_1_1KeyMod" kindref="compound">KeyMod</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1MouseButton" kindref="compound">MouseButton</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1UiEntry" kindref="compound">UiEntry</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1UiEntryType" kindref="compound">UiEntryType</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1UiValueInt" kindref="compound">UiValueInt</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1UiValueReal" kindref="compound">UiValueReal</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1UiValueString" kindref="compound">UiValueString</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1UiValueUint" kindref="compound">UiValueUint</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1Viewer" kindref="compound">Viewer</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1ViewerLaunchParams" kindref="compound">ViewerLaunchParams</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1ViewerLaunchParamsMode" kindref="compound">ViewerLaunchParamsMode</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1ViewerSetup" kindref="compound">ViewerSetup</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1Viewport" kindref="compound">Viewport</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1ViewportFitDataParams" kindref="compound">ViewportFitDataParams</ref>&apos;, &apos;<ref refid="classmrviewerpy_1_1ViewportFitMode" kindref="compound">ViewportFitMode</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1aabd3565b603fe60ebc3d6137fac82aca" kindref="member">addDistanceMapToScene</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a4af835cd797e0a5704804f7accd98e5b" kindref="member">addLinesToScene</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a30704004d3a905a2e8f71d0322acacd5" kindref="member">addMeshToScene</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1ad723a9f8a820b28c207c7fd920f3f84f" kindref="member">addPointCloudToScene</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a12130d0a2a698d420a56a8cb11187c27" kindref="member">addVoxelsToScene</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a4e3940e810d3ed1f816f07f901b20b4e" kindref="member">clearScene</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1ad13a99427238e7c8e67e8eb79c2289ca" kindref="member">getSelectedDistanceMaps</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1ac795f4e87a560fe4cbbc50248212888c" kindref="member">getSelectedMeshEdges</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a9d44716b7a3827b40636c82e5afefe7a" kindref="member">getSelectedMeshFaces</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1abe7a459217a7ebfe3c467102f2a5c653" kindref="member">getSelectedMeshes</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a5291930e30b9d22af54be3a7fbd32647" kindref="member">getSelectedObjects</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a39ae0ee82a58ac7cf59e4b6c234f2182" kindref="member">getSelectedPointCloudPoints</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1aa9ea18de0bf005c7c49b407cdf6215e2" kindref="member">getSelectedPointClouds</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a6e1523262cde30ddff0938cd65944f15" kindref="member">getSelectedPolylines</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1ad7bc18abea8c7800b8ee09cdfbe75075" kindref="member">getSelectedVoxels</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a82dc2137c01c694015b04820623346d4" kindref="member">launch</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a5f9f0ec39ac8505d43e588a49ac7f067" kindref="member">modifySelectedMesh</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a904c3c0401d0fd8be3c5ec9595495d0b" kindref="member">runFromGUIThread</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1af16d9c1a524170c3557b83e96344062f" kindref="member">selectByName</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a8f3ee3fc4ff32163e040e02d2757eebe" kindref="member">selectByType</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1ab750eca819286b723ee0e70eaaeb2012" kindref="member">setSelectedMeshEdges</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a3f2b47afc0e44dcff372bedd610a99a8" kindref="member">setSelectedMeshFaces</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a8c82d4060b0c8375e5605c4d035dbf93" kindref="member">setSelectedPointCloudPoints</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a5c2b587a3767681f8880428674f8b83a" kindref="member">uiListEntries</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1aa3c1a2c2e1ceac41c143c0177b131291" kindref="member">uiPressButton</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a0f4da7503bcc0f3c8ba14b3def4b6aa3" kindref="member">uiReadValueInt</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a53af266fd58822b394bc4397c59973d7" kindref="member">uiReadValueReal</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1aba0c3af039e55734733217ed9fd8f64a" kindref="member">uiReadValueString</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1afee3c6139ef04272fddcf75d10bf4dd0" kindref="member">uiReadValueUint</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a30b8fcbad852a022e76e4e06a670475e" kindref="member">uiWriteValue</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a6bfe9b7df9f135d662c86bfb1f6007d4" kindref="member">uiWriteValueInt</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a13b0728e00264a60ad58ba1de9f875cd" kindref="member">uiWriteValueReal</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a3d84542d70879e971877e14255a8255b" kindref="member">uiWriteValueString</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1a8be26b5f21b4c456d590c4f801f56896" kindref="member">uiWriteValueUint</ref>&apos;, &apos;<ref refid="namespacemrviewerpy_1ad965015c4901e460f6bd40a4b2f70f8d" kindref="member">unselectAll</ref>&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="4" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="4" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespacemrviewerpy_1aabd3565b603fe60ebc3d6137fac82aca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.addDistanceMapToScene</definition>
+        <argsstring>(meshlib.mrmeshpy.DistanceMap distancemap, str name, meshlib.mrmeshpy.AffineXf3f dmap_to_local_xf)</argsstring>
+        <name>addDistanceMapToScene</name>
+        <qualifiedname>mrviewerpy.addDistanceMapToScene</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.DistanceMap</type>
+          <declname>distancemap</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.AffineXf3f</type>
+          <declname>dmap_to_local_xf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add given distance map to scene tree.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="439" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a4af835cd797e0a5704804f7accd98e5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.addLinesToScene</definition>
+        <argsstring>(meshlib.mrmeshpy.Polyline3 lines, str name)</argsstring>
+        <name>addLinesToScene</name>
+        <qualifiedname>mrviewerpy.addLinesToScene</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Polyline3</type>
+          <declname>lines</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add given lines to scene tree.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="443" bodyend="446"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a30704004d3a905a2e8f71d0322acacd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.addMeshToScene</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh mesh, str name)</argsstring>
+        <name>addMeshToScene</name>
+        <qualifiedname>mrviewerpy.addMeshToScene</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add given mesh to scene tree.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="447" bodyend="450"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1ad723a9f8a820b28c207c7fd920f3f84f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.addPointCloudToScene</definition>
+        <argsstring>(meshlib.mrmeshpy.PointCloud points, str name)</argsstring>
+        <name>addPointCloudToScene</name>
+        <qualifiedname>mrviewerpy.addPointCloudToScene</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.PointCloud</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add given point cloud to scene tree.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="451" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a12130d0a2a698d420a56a8cb11187c27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.addVoxelsToScene</definition>
+        <argsstring>(meshlib.mrmeshpy.VdbVolume voxels, str name)</argsstring>
+        <name>addVoxelsToScene</name>
+        <qualifiedname>mrviewerpy.addVoxelsToScene</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.VdbVolume</type>
+          <declname>voxels</declname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add given voxels to scene tree.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="455" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a4e3940e810d3ed1f816f07f901b20b4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.clearScene</definition>
+        <argsstring>()</argsstring>
+        <name>clearScene</name>
+        <qualifiedname>mrviewerpy.clearScene</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>remove all objects from scene tree
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="459" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1ad13a99427238e7c8e67e8eb79c2289ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_DistanceMap</type>
+        <definition> meshlib.mrmeshpy.std_vector_DistanceMap mrviewerpy.getSelectedDistanceMaps</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedDistanceMaps</name>
+        <qualifiedname>mrviewerpy.getSelectedDistanceMaps</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get copies of all selected voxel grids in the scene.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="463" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="463" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1ac795f4e87a560fe4cbbc50248212888c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_TypedBitSet_Id_UndirectedEdgeTag</type>
+        <definition> meshlib.mrmeshpy.std_vector_TypedBitSet_Id_UndirectedEdgeTag mrviewerpy.getSelectedMeshEdges</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedMeshEdges</name>
+        <qualifiedname>mrviewerpy.getSelectedMeshEdges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get selected edge bitsets of the selected mesh objects.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="467" bodyend="470"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a9d44716b7a3827b40636c82e5afefe7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_TypedBitSet_Id_FaceTag</type>
+        <definition> meshlib.mrmeshpy.std_vector_TypedBitSet_Id_FaceTag mrviewerpy.getSelectedMeshFaces</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedMeshFaces</name>
+        <qualifiedname>mrviewerpy.getSelectedMeshFaces</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get selected face bitsets of the selected mesh objects.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="471" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="471" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1abe7a459217a7ebfe3c467102f2a5c653" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_Mesh</type>
+        <definition> meshlib.mrmeshpy.std_vector_Mesh mrviewerpy.getSelectedMeshes</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedMeshes</name>
+        <qualifiedname>mrviewerpy.getSelectedMeshes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get copies of all selected meshes in the scene.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="475" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a5291930e30b9d22af54be3a7fbd32647" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_std_shared_ptr_Object</type>
+        <definition> meshlib.mrmeshpy.std_vector_std_shared_ptr_Object mrviewerpy.getSelectedObjects</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedObjects</name>
+        <qualifiedname>mrviewerpy.getSelectedObjects</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="479" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a39ae0ee82a58ac7cf59e4b6c234f2182" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_TypedBitSet_Id_VertTag</type>
+        <definition> meshlib.mrmeshpy.std_vector_TypedBitSet_Id_VertTag mrviewerpy.getSelectedPointCloudPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedPointCloudPoints</name>
+        <qualifiedname>mrviewerpy.getSelectedPointCloudPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get selected point bitsets of the selected point cloud objects.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="481" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="481" bodyend="484"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1aa9ea18de0bf005c7c49b407cdf6215e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_PointCloud</type>
+        <definition> meshlib.mrmeshpy.std_vector_PointCloud mrviewerpy.getSelectedPointClouds</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedPointClouds</name>
+        <qualifiedname>mrviewerpy.getSelectedPointClouds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get copies of all selected point clouds in the scene.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="485" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a6e1523262cde30ddff0938cd65944f15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_Polyline_Vector3_float</type>
+        <definition> meshlib.mrmeshpy.std_vector_Polyline_Vector3_float mrviewerpy.getSelectedPolylines</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedPolylines</name>
+        <qualifiedname>mrviewerpy.getSelectedPolylines</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get copies of all selected polylines in the scene.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="489" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="489" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1ad7bc18abea8c7800b8ee09cdfbe75075" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.std_vector_VoxelsVolumeMinMax_FloatGrid</type>
+        <definition> meshlib.mrmeshpy.std_vector_VoxelsVolumeMinMax_FloatGrid mrviewerpy.getSelectedVoxels</definition>
+        <argsstring>()</argsstring>
+        <name>getSelectedVoxels</name>
+        <qualifiedname>mrviewerpy.getSelectedVoxels</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get copies of all selected voxel grids in the scene.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="493" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a82dc2137c01c694015b04820623346d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.launch</definition>
+        <argsstring>(ViewerLaunchParams params=..., ViewerSetup setup=...)</argsstring>
+        <name>launch</name>
+        <qualifiedname>mrviewerpy.launch</qualifiedname>
+        <param>
+          <type><ref refid="classmrviewerpy_1_1ViewerLaunchParams" kindref="compound">ViewerLaunchParams</ref></type>
+          <declname>params</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrviewerpy_1_1ViewerSetup" kindref="compound">ViewerSetup</ref></type>
+          <declname>setup</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>starts default viewer with given params and setup
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="497" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a5f9f0ec39ac8505d43e588a49ac7f067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.modifySelectedMesh</definition>
+        <argsstring>(meshlib.mrmeshpy.Mesh mesh)</argsstring>
+        <name>modifySelectedMesh</name>
+        <qualifiedname>mrviewerpy.modifySelectedMesh</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign a new mesh to the selected mesh object. Exactly one object must be selected.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="501" bodyend="504"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a904c3c0401d0fd8be3c5ec9595495d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.runFromGUIThread</definition>
+        <argsstring>(typing.Callable lambda)</argsstring>
+        <name>runFromGUIThread</name>
+        <qualifiedname>mrviewerpy.runFromGUIThread</qualifiedname>
+        <param>
+          <type>typing.Callable</type>
+          <declname>lambda</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Executes given function from GUI thread, and returns after it is done
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="505" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1af16d9c1a524170c3557b83e96344062f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.selectByName</definition>
+        <argsstring>(str objectName)</argsstring>
+        <name>selectByName</name>
+        <qualifiedname>mrviewerpy.selectByName</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>objectName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>select objects in scene tree with given name, unselect others
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="509" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a8f3ee3fc4ff32163e040e02d2757eebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.selectByType</definition>
+        <argsstring>(str typeName)</argsstring>
+        <name>selectByType</name>
+        <qualifiedname>mrviewerpy.selectByType</qualifiedname>
+        <param>
+          <type>str</type>
+          <declname>typeName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>string typeName: {&quot;Meshes&quot;, &quot;Points&quot;, &quot;Voxels&quot;}
+objects in scene tree with given type, unselect others
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="513" bodyend="517"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1ab750eca819286b723ee0e70eaaeb2012" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.setSelectedMeshEdges</definition>
+        <argsstring>(meshlib.mrmeshpy.std_vector_TypedBitSet_Id_UndirectedEdgeTag arg0)</argsstring>
+        <name>setSelectedMeshEdges</name>
+        <qualifiedname>mrviewerpy.setSelectedMeshEdges</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_TypedBitSet_Id_UndirectedEdgeTag</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Set selected edge bitsets of the selected mesh objects.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="518" bodyend="521"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a3f2b47afc0e44dcff372bedd610a99a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.setSelectedMeshFaces</definition>
+        <argsstring>(meshlib.mrmeshpy.std_vector_TypedBitSet_Id_FaceTag arg0)</argsstring>
+        <name>setSelectedMeshFaces</name>
+        <qualifiedname>mrviewerpy.setSelectedMeshFaces</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_TypedBitSet_Id_FaceTag</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Set selected face bitsets of the selected mesh objects.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="522" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a8c82d4060b0c8375e5605c4d035dbf93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.setSelectedPointCloudPoints</definition>
+        <argsstring>(meshlib.mrmeshpy.std_vector_TypedBitSet_Id_VertTag arg0)</argsstring>
+        <name>setSelectedPointCloudPoints</name>
+        <qualifiedname>mrviewerpy.setSelectedPointCloudPoints</qualifiedname>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_TypedBitSet_Id_VertTag</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Set selected point bitsets of the selected point cloud objects.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="526" bodyend="529"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a5c2b587a3767681f8880428674f8b83a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>list[<ref refid="classmrviewerpy_1_1UiEntry" kindref="compound">UiEntry</ref>]</type>
+        <definition> list[UiEntry] mrviewerpy.uiListEntries</definition>
+        <argsstring>(list[str] arg0)</argsstring>
+        <name>uiListEntries</name>
+        <qualifiedname>mrviewerpy.uiListEntries</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>List existing UI entries at the specified path.
+Pass an empty list to see top-level groups.
+Add group name to the end of the vector to see its contents.
+When you find the button you need, pass it to `uiPressButton()`.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="530" bodyend="536"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1aa3c1a2c2e1ceac41c143c0177b131291" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.uiPressButton</definition>
+        <argsstring>(list[str] arg0)</argsstring>
+        <name>uiPressButton</name>
+        <qualifiedname>mrviewerpy.uiPressButton</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Simulate a button click. Use `uiListEntries()` to find button names.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="537" bodyend="540"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a0f4da7503bcc0f3c8ba14b3def4b6aa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrviewerpy_1_1UiValueInt" kindref="compound">UiValueInt</ref></type>
+        <definition> UiValueInt mrviewerpy.uiReadValueInt</definition>
+        <argsstring>(list[str] arg0)</argsstring>
+        <name>uiReadValueInt</name>
+        <qualifiedname>mrviewerpy.uiReadValueInt</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Read a value from a drag/slider widget. This function is for signed integers.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="541" bodyend="544"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a53af266fd58822b394bc4397c59973d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrviewerpy_1_1UiValueReal" kindref="compound">UiValueReal</ref></type>
+        <definition> UiValueReal mrviewerpy.uiReadValueReal</definition>
+        <argsstring>(list[str] arg0)</argsstring>
+        <name>uiReadValueReal</name>
+        <qualifiedname>mrviewerpy.uiReadValueReal</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Read a value from a drag/slider widget. This function is for real numbers.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="545" bodyend="548"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1aba0c3af039e55734733217ed9fd8f64a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrviewerpy_1_1UiValueString" kindref="compound">UiValueString</ref></type>
+        <definition> UiValueString mrviewerpy.uiReadValueString</definition>
+        <argsstring>(list[str] arg0)</argsstring>
+        <name>uiReadValueString</name>
+        <qualifiedname>mrviewerpy.uiReadValueString</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Read a value from a drag/slider widget. This function is for strings.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="549" bodyend="552"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1afee3c6139ef04272fddcf75d10bf4dd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrviewerpy_1_1UiValueUint" kindref="compound">UiValueUint</ref></type>
+        <definition> UiValueUint mrviewerpy.uiReadValueUint</definition>
+        <argsstring>(list[str] arg0)</argsstring>
+        <name>uiReadValueUint</name>
+        <qualifiedname>mrviewerpy.uiReadValueUint</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Read a value from a drag/slider widget. This function is for unsigned integers.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="553" bodyend="557"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a30b8fcbad852a022e76e4e06a670475e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition>None mrviewerpy::uiWriteValue</definition>
+        <argsstring>(list[str] arg0, int arg1)</argsstring>
+        <name>uiWriteValue</name>
+        <qualifiedname>mrviewerpy.uiWriteValue</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Write a value to a drag/slider widget. This overload is for signed integers.
+</verbatim></para>
+<para><verbatim>Write a value to a drag/slider widget. This overload is for unsigned integers.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="558" bodyend="562"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a650078ff8a62bab8e093fae78e06e038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.uiWriteValue</definition>
+        <argsstring>(list[str] arg0, float arg1)</argsstring>
+        <name>uiWriteValue</name>
+        <qualifiedname>mrviewerpy.uiWriteValue</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Write a value to a drag/slider widget. This overload is for real numbers.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="568" bodyend="572"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a58ad745bf2be021726077e06fef0f7f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.uiWriteValue</definition>
+        <argsstring>(list[str] arg0, str arg1)</argsstring>
+        <name>uiWriteValue</name>
+        <qualifiedname>mrviewerpy.uiWriteValue</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Write a value to a drag/slider widget. This overload is for strings.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="573" bodyend="576"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a6bfe9b7df9f135d662c86bfb1f6007d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.uiWriteValueInt</definition>
+        <argsstring>(list[str] arg0, int arg1)</argsstring>
+        <name>uiWriteValueInt</name>
+        <qualifiedname>mrviewerpy.uiWriteValueInt</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Write a value to a drag/slider widget. This overload is for signed integers.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="577" bodyend="580"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a13b0728e00264a60ad58ba1de9f875cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.uiWriteValueReal</definition>
+        <argsstring>(list[str] arg0, float arg1)</argsstring>
+        <name>uiWriteValueReal</name>
+        <qualifiedname>mrviewerpy.uiWriteValueReal</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Write a value to a drag/slider widget. This overload is for real numbers.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="581" bodyend="584"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a3d84542d70879e971877e14255a8255b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.uiWriteValueString</definition>
+        <argsstring>(list[str] arg0, str arg1)</argsstring>
+        <name>uiWriteValueString</name>
+        <qualifiedname>mrviewerpy.uiWriteValueString</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Write a value to a drag/slider widget. This overload is for strings.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="585" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1a8be26b5f21b4c456d590c4f801f56896" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.uiWriteValueUint</definition>
+        <argsstring>(list[str] arg0, int arg1)</argsstring>
+        <name>uiWriteValueUint</name>
+        <qualifiedname>mrviewerpy.uiWriteValueUint</qualifiedname>
+        <param>
+          <type>list</type>
+          <declname>arg0</declname>
+          <array>[str]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Write a value to a drag/slider widget. This overload is for unsigned integers.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="589" bodyend="592"/>
+      </memberdef>
+      <memberdef kind="function" id="namespacemrviewerpy_1ad965015c4901e460f6bd40a4b2f70f8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.unselectAll</definition>
+        <argsstring>()</argsstring>
+        <name>unselectAll</name>
+        <qualifiedname>mrviewerpy.unselectAll</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>unselect all objects in scene tree
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="593" bodyend="597"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="1" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PythonExport_1_1ModuleData" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PythonExport::ModuleData</compoundname>
+    <includes refid="MRPython_8h" local="no">MRPython.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga190cf30264de3002c79d0b715ed6697a" kind="variable"><name>initFncPointer</name></member>
+      <member refid="group__GeneralGroup_1ga0fe7a81962a7cace96c7ec89855e1064" kind="variable"><name>functions</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="186" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="187" bodyend="190"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0fe7a81962a7cace96c7ec89855e1064" prot="public" virt="non-virtual"><scope>MR::PythonExport::ModuleData</scope><name>functions</name></member>
+      <member refid="group__GeneralGroup_1ga190cf30264de3002c79d0b715ed6697a" prot="public" virt="non-virtual"><scope>MR::PythonExport::ModuleData</scope><name>initFncPointer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,4 +1,0 @@
-var classMR_1_1Std_1_1__InOptConst__Optional__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane =
-[
-    [ "operator _InOptConst_Optional_StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane", "classMR_1_1Std_1_1__InOptConst__Optional__StdVariantMRSphere3fMRFeaturesPrimitivesConeSegmentMRFeaturesPrimitivesPlane.html#a95882a066bffc281583cc39d5a5faf46", null ]
-];

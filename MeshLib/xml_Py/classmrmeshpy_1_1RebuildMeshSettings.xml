@@ -1,0 +1,932 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RebuildMeshSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RebuildMeshSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1af839b62e1fe21fc7d3fa2f243fc1d145" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_closeHolesInHoleWindingNumber</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_closeHolesInHoleWindingNumber</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_closeHolesInHoleWindingNumber</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1a5000ef5897f816b85a0a9109f94b59cf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_decimate</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_decimate</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_decimate</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1ac0c7fb7da91aa68054980b03ff5787a5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_fwn</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fwn</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_fwn</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1a750e886d5bf45ae631e0cbe3e2214c3c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_offsetMode</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offsetMode</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_offsetMode</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1a791f0b12d7ec5d0a6cb05affd92de2f9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_onSignDetectionModeSelected</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onSignDetectionModeSelected</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_onSignDetectionModeSelected</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1a09212b8d3e383c14d45545f61716b9de" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_outSharpEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outSharpEdges</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_outSharpEdges</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1a30dff7b9801811a211e73034cba2eb87" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_preSubdivide</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_preSubdivide</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_preSubdivide</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1a948b6933555543f2339c1e66430ac876" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_progress</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1aa2e88f743bbad55ce2b2fed31d5347d9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_signMode</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_signMode</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_signMode</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1a771d543505b58b456e4696c7aaa54cfb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_tinyEdgeLength</qualifiedname>
+        <initializer>=  60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1a89beee97a148b343581b36028ebe2648" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_voxelSize</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1afa7db99c34d8b499fc89c1bf8bd7faaf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_windingNumberBeta</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RebuildMeshSettings_1a8cc4051340164badd0c6d8a975e669b9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RebuildMeshSettings::_offsetof_windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings._offsetof_windingNumberThreshold</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49367" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a81409747a97670dc59b3ccd837ac1192" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49372" bodyend="49373"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1ad830e97cecf1ae247b34c5bc721cbce7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RebuildMeshSettings" kindref="compound">RebuildMeshSettings</ref></type>
+        <definition> RebuildMeshSettings mrmeshpy.RebuildMeshSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49376" bodyend="49377"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1ad830e97cecf1ae247b34c5bc721cbce7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RebuildMeshSettings" kindref="compound">RebuildMeshSettings</ref></type>
+        <definition> RebuildMeshSettings mrmeshpy.RebuildMeshSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49380" bodyend="49381"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a5c2ce0ca210f93b89e2c85449260f6b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49383" bodyend="49384"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a298d9910175fb947f7ee85dd69ca7384" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.__init__</definition>
+        <argsstring>(self, RebuildMeshSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RebuildMeshSettings" kindref="compound">RebuildMeshSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49386" bodyend="49389"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a3271035a52047c2de7c3663312112152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.__init__</definition>
+        <argsstring>(self, bool preSubdivide, float voxelSize, SignDetectionModeShort signMode, bool closeHolesInHoleWindingNumber, OffsetMode offsetMode, UndirectedEdgeBitSet outSharpEdges, float windingNumberThreshold, float windingNumberBeta, IFastWindingNumber fwn, bool decimate, float tinyEdgeLength, func_bool_from_float progress, func_void_from_SignDetectionMode onSignDetectionModeSelected)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preSubdivide</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SignDetectionModeShort" kindref="compound">SignDetectionModeShort</ref></type>
+          <declname>signMode</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>closeHolesInHoleWindingNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OffsetMode" kindref="compound">OffsetMode</ref></type>
+          <declname>offsetMode</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>outSharpEdges</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberBeta</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+          <declname>fwn</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>decimate</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tinyEdgeLength</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__SignDetectionMode" kindref="compound">func_void_from_SignDetectionMode</ref></type>
+          <declname>onSignDetectionModeSelected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49391" bodyend="49394"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a06ff3ab78c3b8f295373987e3b9840a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RebuildMeshSettings.closeHolesInHoleWindingNumber</definition>
+        <argsstring>(self)</argsstring>
+        <name>closeHolesInHoleWindingNumber</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.closeHolesInHoleWindingNumber</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to construct closed mesh in signMode = SignDetectionModeShort::HoleWindingNumber
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49396" bodyend="49399"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a9c4472d2f3b891240bd50d5d07e8ace0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.closeHolesInHoleWindingNumber</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>closeHolesInHoleWindingNumber</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.closeHolesInHoleWindingNumber</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49401" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49401" bodyend="49402"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a9fec20e66274e11e3170b86135324d03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RebuildMeshSettings.decimate</definition>
+        <argsstring>(self)</argsstring>
+        <name>decimate</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.decimate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to decimate resulting mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49404" bodyend="49407"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a973bd305422dbdf000a1bc1ba03da87c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.decimate</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>decimate</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.decimate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49409" bodyend="49410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a505101f6e511f1f9f4967435a166964d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+        <definition> IFastWindingNumber mrmeshpy.RebuildMeshSettings.fwn</definition>
+        <argsstring>(self)</argsstring>
+        <name>fwn</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.fwn</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>defines particular implementation of IFastWindingNumber interface that will compute windings (if required).
+If it is not specified, default FastWindingNumber is used
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49412" bodyend="49416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a889dc4e8737da970724abb3dafc418b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.fwn</definition>
+        <argsstring>(self, IFastWindingNumber arg1)</argsstring>
+        <name>fwn</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.fwn</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49418" bodyend="49419"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a7721021420cbff20ec0d123cea278c6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__SignDetectionMode" kindref="compound">func_void_from_SignDetectionMode</ref></type>
+        <definition> func_void_from_SignDetectionMode mrmeshpy.RebuildMeshSettings.onSignDetectionModeSelected</definition>
+        <argsstring>(self)</argsstring>
+        <name>onSignDetectionModeSelected</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.onSignDetectionModeSelected</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this callback is invoked when SignDetectionMode is determined (useful if signMode = SignDetectionModeShort::Auto),
+but before actual work begins
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49421" bodyend="49425"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a76e745cf779111ad00cdb847f1074458" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.onSignDetectionModeSelected</definition>
+        <argsstring>(self, func_void_from_SignDetectionMode arg1)</argsstring>
+        <name>onSignDetectionModeSelected</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.onSignDetectionModeSelected</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__SignDetectionMode" kindref="compound">func_void_from_SignDetectionMode</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49427" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49427" bodyend="49428"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1af10f19c49f5426e50867d5d90e739ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.RebuildMeshSettings.outSharpEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>outSharpEdges</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.outSharpEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if non-null then created sharp edges (only if offsetMode = OffsetMode::Sharpening) will be saved here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49430" bodyend="49433"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a91a92599234aed22f43d67eea46c8ea7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.outSharpEdges</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>outSharpEdges</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.outSharpEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49435" bodyend="49436"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a2ea1afb3fd48beb8571df44c4e1dde6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RebuildMeshSettings.preSubdivide</definition>
+        <argsstring>(self)</argsstring>
+        <name>preSubdivide</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.preSubdivide</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to make subdivision of initial mesh before conversion to voxels,
+despite time and memory required for the subdivision, it typically makes the whole rebuilding faster (or even much faster in case of large initial triangles),
+because AABB tree contains small triangles in leaves, which is good for both
+1) search for closest triangle because the closest box more frequently contains the closest triangle,
+2) and winding number approximation because of more frequent usage of approximation for distant dipoles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49438" bodyend="49445"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a8f02f0125b440f928275daa62008448c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.preSubdivide</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>preSubdivide</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.preSubdivide</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49447" bodyend="49448"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a4ec4e4d3aaa027396135d26ea160731f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.RebuildMeshSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>To report algorithm&apos;s progress and cancel it on user demand
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49450" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49450" bodyend="49453"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a4be5194200af5897cb0a010567bc24ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49455" bodyend="49456"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a30b5eee0aaf333fbce4bb2234bbcf0a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RebuildMeshSettings.tinyEdgeLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>only if decimate = true:
+edges not longer than this value will be collapsed even if it results in appearance of a triangle with high aspect ratio
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49458" bodyend="49462"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a9dec9e84fdd4340564607eaca6c79e31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.tinyEdgeLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49464" bodyend="49465"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a7c3e2fccd4f1cbff0ce859de461ea4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RebuildMeshSettings.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Size of voxel in grid conversions;
+The user is responsible for setting some positive value here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49467" bodyend="49471"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a5c5f543f65d606c0777b6eb7a9b7f459" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49473" bodyend="49474"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a9c2cb36a109b9094b0bffe185efd2bbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RebuildMeshSettings.windingNumberBeta</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if general winding number is used to differentiate inside from outside:
+determines the precision of fast approximation: the more the better, minimum value is 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49476" bodyend="49480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a64a0cae94f1b2f81014483d78b221bcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.windingNumberBeta</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49482" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49482" bodyend="49483"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a9d3fc8ef273d67b715600476616d8d85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RebuildMeshSettings.windingNumberThreshold</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if general winding number is used to differentiate inside from outside:
+positive distance if winding number below or equal this threshold;
+ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49485" bodyend="49490"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RebuildMeshSettings_1a4eaabcdc8f1cd37414088cb66a505ff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RebuildMeshSettings.windingNumberThreshold</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.RebuildMeshSettings.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49492" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49492" bodyend="49493"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RebuildMeshSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.RebuildMeshSettings</label>
+        <link refid="classmrmeshpy_1_1RebuildMeshSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_closeHolesInHoleWindingNumber</edgelabel>
+          <edgelabel>_offsetof_decimate</edgelabel>
+          <edgelabel>_offsetof_fwn</edgelabel>
+          <edgelabel>_offsetof_offsetMode</edgelabel>
+          <edgelabel>_offsetof_onSignDetectionModeSelected</edgelabel>
+          <edgelabel>_offsetof_outSharpEdges</edgelabel>
+          <edgelabel>_offsetof_preSubdivide</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+          <edgelabel>_offsetof_signMode</edgelabel>
+          <edgelabel>_offsetof_tinyEdgeLength</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49351" bodyend="49493"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a81409747a97670dc59b3ccd837ac1192" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a5c2ce0ca210f93b89e2c85449260f6b2" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a298d9910175fb947f7ee85dd69ca7384" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a3271035a52047c2de7c3663312112152" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1af839b62e1fe21fc7d3fa2f243fc1d145" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_closeHolesInHoleWindingNumber</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a5000ef5897f816b85a0a9109f94b59cf" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_decimate</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1ac0c7fb7da91aa68054980b03ff5787a5" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_fwn</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a750e886d5bf45ae631e0cbe3e2214c3c" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_offsetMode</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a791f0b12d7ec5d0a6cb05affd92de2f9" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_onSignDetectionModeSelected</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a09212b8d3e383c14d45545f61716b9de" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_outSharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a30dff7b9801811a211e73034cba2eb87" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_preSubdivide</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a948b6933555543f2339c1e66430ac876" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1aa2e88f743bbad55ce2b2fed31d5347d9" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_signMode</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a771d543505b58b456e4696c7aaa54cfb" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a89beee97a148b343581b36028ebe2648" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1afa7db99c34d8b499fc89c1bf8bd7faaf" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a8cc4051340164badd0c6d8a975e669b9" prot="protected" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>_offsetof_windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a06ff3ab78c3b8f295373987e3b9840a8" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a9c4472d2f3b891240bd50d5d07e8ace0" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>closeHolesInHoleWindingNumber</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a9fec20e66274e11e3170b86135324d03" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>decimate</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a973bd305422dbdf000a1bc1ba03da87c" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>decimate</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a505101f6e511f1f9f4967435a166964d" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>fwn</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a889dc4e8737da970724abb3dafc418b6" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>fwn</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a7721021420cbff20ec0d123cea278c6b" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>onSignDetectionModeSelected</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a76e745cf779111ad00cdb847f1074458" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>onSignDetectionModeSelected</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1ad830e97cecf1ae247b34c5bc721cbce7" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1ad830e97cecf1ae247b34c5bc721cbce7" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1af10f19c49f5426e50867d5d90e739ba9" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>outSharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a91a92599234aed22f43d67eea46c8ea7" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>outSharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a2ea1afb3fd48beb8571df44c4e1dde6c" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>preSubdivide</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a8f02f0125b440f928275daa62008448c" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>preSubdivide</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a4ec4e4d3aaa027396135d26ea160731f" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a4be5194200af5897cb0a010567bc24ef" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a30b5eee0aaf333fbce4bb2234bbcf0a3" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a9dec9e84fdd4340564607eaca6c79e31" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a7c3e2fccd4f1cbff0ce859de461ea4ac" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a5c5f543f65d606c0777b6eb7a9b7f459" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a9c2cb36a109b9094b0bffe185efd2bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a64a0cae94f1b2f81014483d78b221bcc" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a9d3fc8ef273d67b715600476616d8d85" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1RebuildMeshSettings_1a4eaabcdc8f1cd37414088cb66a505ff2" prot="public" virt="non-virtual"><scope>mrmeshpy::RebuildMeshSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

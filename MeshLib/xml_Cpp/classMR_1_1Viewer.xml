@@ -1,0 +1,487 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Viewer" kind="class" language="C++" prot="public">
+    <compoundname>MR::Viewer</compoundname>
+    <includes refid="MRViewer_8h" local="no">MRViewer.h</includes>
+    <innerclass refid="structMR_1_1Viewer_1_1EventsCounter" prot="private">MR::Viewer::EventsCounter</innerclass>
+    <innerclass refid="structMR_1_1Viewer_1_1GLPrimitivesCounter" prot="private">MR::Viewer::GLPrimitivesCounter</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga2f8bda46d1cd218cc450c9b0f076f2b0" kind="enum"><name>EventType</name></member>
+      <member refid="group__GeneralGroup_1gacd808397ec9c13d1d3bce1b0e846bd40" kind="enum"><name>GLPrimitivesType</name></member>
+      <member refid="group__GeneralGroup_1gacbb855ef51e627a2fd2b111d9d65277e" kind="typedef"><name>MouseButton</name></member>
+      <member refid="group__GeneralGroup_1ga8fda1ccb2d6d517de3047c2fd65203ea" kind="typedef"><name>MouseMode</name></member>
+      <member refid="group__GeneralGroup_1ga18c86b40dc97e73d26be6d5f21f65093" kind="typedef"><name>LaunchParams</name></member>
+      <member refid="group__GeneralGroup_1gae11f6202a72dd7403332a471e5aced7e" kind="typedef"><name>PointInAllSpaces</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga297a4daffc230ff2379b7c69f2312089" kind="variable"><name>swapOnLastPostEventsRedraw</name></member>
+      <member refid="group__GeneralGroup_1gaf6ad84943b0d9f49dbd4b22e3129216d" kind="variable"><name>forceRedrawMinimumIncrementAfterEvents</name></member>
+      <member refid="group__GeneralGroup_1gadf21364b06943f8b3a27b96c8145bd89" kind="variable"><name>window</name></member>
+      <member refid="group__GeneralGroup_1ga5f253d7832f1e50f3936039860a48f25" kind="variable"><name>resetSettingsFunction</name></member>
+      <member refid="group__GeneralGroup_1gafc8ad30c033c6e7346948b81416c26eb" kind="variable"><name>viewport_list</name></member>
+      <member refid="group__GeneralGroup_1ga7a5a19ca84a8ba99f086c440d5e6403b" kind="variable"><name>selected_viewport_index</name></member>
+      <member refid="group__GeneralGroup_1ga25d26ec62da3276a69b3f8c516c98887" kind="variable"><name>plugins</name></member>
+      <member refid="group__GeneralGroup_1ga7cb04be7931c10a1a93bb386ba1f7bb6" kind="variable"><name>pixelRatio</name></member>
+      <member refid="group__GeneralGroup_1gabcae9cdb5ec2a2c07ab8bad1508bd3d8" kind="variable"><name>framebufferSize</name></member>
+      <member refid="group__GeneralGroup_1gace49ac281b241eab9e8e5f1aae4bcdbe" kind="variable"><name>windowSavePos</name></member>
+      <member refid="group__GeneralGroup_1ga2b4fb1e2f21f33e213858ab579eb8620" kind="variable"><name>windowSaveSize</name></member>
+      <member refid="group__GeneralGroup_1ga4cdddbaa5eba70fd3ab533a608991894" kind="variable"><name>windowOldPos</name></member>
+      <member refid="group__GeneralGroup_1ga6d59e96ed0b5e74b104f0a94012c9185" kind="variable"><name>windowMaximized</name></member>
+      <member refid="group__GeneralGroup_1ga7ccea0f47c749b27fc3a4ab8dc91026c" kind="variable"><name>isAnimating</name></member>
+      <member refid="group__GeneralGroup_1ga1747b85f1a561ad143a87af606bf91ac" kind="variable"><name>animationMaxFps</name></member>
+      <member refid="group__GeneralGroup_1gafee4d5b20b5586b703af20535b8a191d" kind="variable"><name>scrollForce</name></member>
+      <member refid="group__GeneralGroup_1ga240a033f91b3eb0250fa706cd2f2feb1" kind="variable"><name>glPickRadius</name></member>
+      <member refid="group__GeneralGroup_1ga79903d8243abfd135d4c770623022ef3" kind="variable"><name>experimentalFeatures</name></member>
+      <member refid="group__GeneralGroup_1ga505493fbe72fd322c04cc7922826c5f8" kind="variable"><name>commandArgs</name></member>
+      <member refid="group__GeneralGroup_1gaabff40e9f5b2102161db747f1d36c787" kind="variable"><name>basisAxes</name></member>
+      <member refid="group__GeneralGroup_1gad282257ff021063d9026914e11b361d1" kind="variable"><name>basisViewController</name></member>
+      <member refid="group__GeneralGroup_1ga8e8017221bc14ddf989b5065726236ed" kind="variable"><name>globalBasis</name></member>
+      <member refid="group__GeneralGroup_1ga4c175c5eee2d6f8367e9fcfe26eee6a5" kind="variable"><name>rotationSphere</name></member>
+      <member refid="group__GeneralGroup_1ga97b86b8de173c41ecb9d6b4c2abe7b65" kind="variable"><name>clippingPlaneObject</name></member>
+      <member refid="group__GeneralGroup_1ga1ab66cb836861acffdf2c1e4f3397846" kind="variable"><name>windowTitle</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gab31597e29524aa8f4453493fc6704743" kind="variable"><name>forceRedrawFrames_</name></member>
+      <member refid="group__GeneralGroup_1gafac9885eaf1a5a5c6c79b3eb838d4371" kind="variable"><name>forceRedrawFramesWithoutSwap_</name></member>
+      <member refid="group__GeneralGroup_1gaf3e729a7c59e7ebfc40a3e7f380b6019" kind="variable"><name>eventQueue_</name></member>
+      <member refid="group__GeneralGroup_1gab3d26a257d9b36c035df07775993f203" kind="variable"><name>menuPlugin_</name></member>
+      <member refid="group__GeneralGroup_1ga7c619e36696c6c84b8d34d189e2019fe" kind="variable"><name>touchpadController_</name></member>
+      <member refid="group__GeneralGroup_1gafd2aed641c2d9c84f9a1d60ee2975feb" kind="variable"><name>spaceMouseController_</name></member>
+      <member refid="group__GeneralGroup_1ga26b4ebf73f54e94bd29534ff73b024f5" kind="variable"><name>touchesController_</name></member>
+      <member refid="group__GeneralGroup_1ga05e34fa1cf534f046789529b04e6da69" kind="variable"><name>mouseController_</name></member>
+      <member refid="group__GeneralGroup_1ga10eb399f6fb956d59a171ccf28be3ac0" kind="variable"><name>dragDropAdvancedHandler_</name></member>
+      <member refid="group__GeneralGroup_1ga96242727b73d237d225ae9acbaabbe8c" kind="variable"><name>recentFilesStore_</name></member>
+      <member refid="group__GeneralGroup_1ga5c2adc670fba040fb4c52bb8232fa7a3" kind="variable"><name>frameCounter_</name></member>
+      <member refid="group__GeneralGroup_1ga33b2dcb488dbb9875ac473677359ec38" kind="variable"><name>eventsCounter_</name></member>
+      <member refid="group__GeneralGroup_1gad9d7cefc8648f1ca4546f6d060885e04" kind="variable"><name>glPrimitivesCounter_</name></member>
+      <member refid="group__GeneralGroup_1ga89ac7318bd231d3e59438b47ff3c84b9" kind="variable"><name>stopEventLoop_</name></member>
+      <member refid="group__GeneralGroup_1ga995ab1496154a99adfdb3f0373714cae" kind="variable"><name>isLaunched_</name></member>
+      <member refid="group__GeneralGroup_1ga3a8790f656a7c026514cd7a85c31cf5e" kind="variable"><name>focusRedrawReady_</name></member>
+      <member refid="group__GeneralGroup_1ga199be8a4f0024f7007be61c7c326ca79" kind="variable"><name>sceneTexture_</name></member>
+      <member refid="group__GeneralGroup_1gad254163ddf7de404d091c350fb978a1b" kind="variable"><name>alphaSorter_</name></member>
+      <member refid="group__GeneralGroup_1ga9799f9fb1a3e6b8194046e6da3e0df94" kind="variable"><name>depthPeeler_</name></member>
+      <member refid="group__GeneralGroup_1ga8a4165d397a7c241fd7a2b6df849d8c8" kind="variable"><name>alphaSortEnabled_</name></member>
+      <member refid="group__GeneralGroup_1gaa96e35f7819f1f050a9257d13b9de83f" kind="variable"><name>glInitialized_</name></member>
+      <member refid="group__GeneralGroup_1gabccad304a3a8ab15bdd72b929ee30568" kind="variable"><name>isInDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga8b78058bc93c29870dadad421281198f" kind="variable"><name>dirtyScene_</name></member>
+      <member refid="group__GeneralGroup_1gab943bf675cc708d263406c6e706acec4" kind="variable"><name>hasScaledFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga465768d0b6831ee6a63cb05aaf8d9180" kind="variable"><name>sortDroppedFiles_</name></member>
+      <member refid="group__GeneralGroup_1gaa07a48e1ccf96cf1c97afe75b4bf45b4" kind="variable"><name>launchParams_</name></member>
+      <member refid="group__GeneralGroup_1ga10001fd9054f560c93028f33049f6758" kind="variable"><name>presentViewportsMask_</name></member>
+      <member refid="group__GeneralGroup_1ga5fa6b46135646a47e4056233be54ecfe" kind="variable"><name>settingsMng_</name></member>
+      <member refid="group__GeneralGroup_1ga6bfc18f8043e09ee393e3b7d08790279" kind="variable"><name>globalHistoryStore_</name></member>
+      <member refid="group__GeneralGroup_1ga6631633d5e4835ca4452da0d3fdfcbb5" kind="variable"><name>spaceMouseHandler_</name></member>
+      <member refid="group__GeneralGroup_1gab95f3d2b7857df69bd6488d31c08950e" kind="variable"><name>connections_</name></member>
+      <member refid="group__GeneralGroup_1ga00bd01e33bd3b7922b7cc439e5df2aed" kind="variable"><name>signals_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga26632c3fff60e6f927d932d86503aa8f" kind="function"><name>parseLaunchParams</name></member>
+      <member refid="group__GeneralGroup_1ga827107af544bf966370dc8de607ed59c" kind="function"><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gaab103f5088bda1288b59fb83c0635ef5" kind="function"><name>instanceRef</name></member>
+      <member refid="group__GeneralGroup_1ga8c5ec92949f2dab326c76616a704965b" kind="function"><name>constInstance</name></member>
+      <member refid="group__GeneralGroup_1ga9bf9b043a95e5fa4bf924a5ee2b799f1" kind="function"><name>constInstanceRef</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga5c5505e0b7ec40651dc41ce35b964c32" kind="function"><name>launch</name></member>
+      <member refid="group__GeneralGroup_1gab149079b6cfab119f1d82274c7e54ac6" kind="function"><name>launchEventLoop</name></member>
+      <member refid="group__GeneralGroup_1gab85b7bf9ec873e3253b2e214ced07544" kind="function"><name>launchShut</name></member>
+      <member refid="group__GeneralGroup_1ga881f953c9d192cce78219319c2cdf0bb" kind="function"><name>isLaunched</name></member>
+      <member refid="group__GeneralGroup_1ga5e6446f42d0774a003b0af5832154822" kind="function"><name>getLaunchParams</name></member>
+      <member refid="group__GeneralGroup_1ga85ad500aab48ce2471d2715030ff667a" kind="function"><name>getPluginInstance</name></member>
+      <member refid="group__GeneralGroup_1gae569c352cb211766d2e095c78b668853" kind="function"><name>isSupportedFormat</name></member>
+      <member refid="group__GeneralGroup_1gad86a2a35d8885c591472e0f38b19da35" kind="function"><name>loadFiles</name></member>
+      <member refid="group__GeneralGroup_1gad31742000517e1bfa864d9b557eca6f4" kind="function"><name>loadFiles</name></member>
+      <member refid="group__GeneralGroup_1ga01c76d68cd7eda7aa58d1e04f5ba1604" kind="function"><name>saveToFile</name></member>
+      <member refid="group__GeneralGroup_1gaf92279fc5e74c77e2acc4cad81ac4db5" kind="function"><name>keyPressed</name></member>
+      <member refid="group__GeneralGroup_1gabfbfee4369c2e3f34fa8bbf6a45bbf40" kind="function"><name>keyDown</name></member>
+      <member refid="group__GeneralGroup_1ga01e1a7a3d56f5220649daa748f9d6449" kind="function"><name>keyUp</name></member>
+      <member refid="group__GeneralGroup_1ga18abf114bf07ccfd54aa99d51c2986f6" kind="function"><name>keyRepeat</name></member>
+      <member refid="group__GeneralGroup_1gaa17c5dc8f43a14c454396b3b32b5facd" kind="function"><name>mouseDown</name></member>
+      <member refid="group__GeneralGroup_1ga84553b3f4700cf1f4df724de906abfa5" kind="function"><name>mouseUp</name></member>
+      <member refid="group__GeneralGroup_1ga4b83b6b437c54b924fb899be6d452d7a" kind="function"><name>mouseMove</name></member>
+      <member refid="group__GeneralGroup_1ga874ef8410c1288964219fb79289c1d55" kind="function"><name>mouseScroll</name></member>
+      <member refid="group__GeneralGroup_1ga24fb1377eaabe916c15e03c1c11b83c7" kind="function"><name>mouseClick</name></member>
+      <member refid="group__GeneralGroup_1gacf2a54437aa855aa6053d5e376069eb2" kind="function"><name>dragStart</name></member>
+      <member refid="group__GeneralGroup_1ga9658bfe4b89713f69921ed4bc449eb5a" kind="function"><name>dragEnd</name></member>
+      <member refid="group__GeneralGroup_1gae08c5961fdb9631a768a60406145226a" kind="function"><name>drag</name></member>
+      <member refid="group__GeneralGroup_1gaf2f674380fd12c20f4a4fa1ce7ff3f7d" kind="function"><name>spaceMouseMove</name></member>
+      <member refid="group__GeneralGroup_1ga6c978a70cf92edbbc251490bb4126a94" kind="function"><name>spaceMouseDown</name></member>
+      <member refid="group__GeneralGroup_1ga789c1e2d71489d6fb562b457cb2bd2db" kind="function"><name>spaceMouseUp</name></member>
+      <member refid="group__GeneralGroup_1gaa8daa2433ac6552c7964714e4fb54d75" kind="function"><name>spaceMouseRepeat</name></member>
+      <member refid="group__GeneralGroup_1ga69116527e6d1bb79a5231d928ccf9bb9" kind="function"><name>dragDrop</name></member>
+      <member refid="group__GeneralGroup_1ga477a9c818f621b480bfe6bceb017d06e" kind="function"><name>touchStart</name></member>
+      <member refid="group__GeneralGroup_1ga618fa955d63e2e54e7d36d0b5488fe79" kind="function"><name>touchMove</name></member>
+      <member refid="group__GeneralGroup_1gaec4246d383cee0778606dc52faf8c0f0" kind="function"><name>touchEnd</name></member>
+      <member refid="group__GeneralGroup_1gaa0740f2459445a2eafa637af3645adb3" kind="function"><name>touchpadRotateGestureBegin</name></member>
+      <member refid="group__GeneralGroup_1gaa7ae9bdf88849d44d67861377cbc0c7a" kind="function"><name>touchpadRotateGestureUpdate</name></member>
+      <member refid="group__GeneralGroup_1gae91faf313a1e38cf7ee062456666820d" kind="function"><name>touchpadRotateGestureEnd</name></member>
+      <member refid="group__GeneralGroup_1ga68a84939542951f9987980942399e73c" kind="function"><name>touchpadSwipeGestureBegin</name></member>
+      <member refid="group__GeneralGroup_1ga6cefffdd8d6c6ee0b4249389769fcdea" kind="function"><name>touchpadSwipeGestureUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga32afaffd38f1368144736c17792dd17b" kind="function"><name>touchpadSwipeGestureEnd</name></member>
+      <member refid="group__GeneralGroup_1gaad1730c09d31c324493c800d7384b27a" kind="function"><name>touchpadZoomGestureBegin</name></member>
+      <member refid="group__GeneralGroup_1gaadd66cdbf85d287f9d24d67f49dbc416" kind="function"><name>touchpadZoomGestureUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga9c5de8b0fd441cba5b8b78b9ec669d99" kind="function"><name>touchpadZoomGestureEnd</name></member>
+      <member refid="group__GeneralGroup_1gaf2b6e2aad9eb5d9f49145edf383690f7" kind="function"><name>interruptWindowClose</name></member>
+      <member refid="group__GeneralGroup_1gae8671eecc60d8e0d8585683df92ea007" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1gad21c4f4dd1ab1c0615689d4abaec15da" kind="function"><name>drawFull</name></member>
+      <member refid="group__GeneralGroup_1gab2c95f8168c31e559662b97c55dad30f" kind="function"><name>drawScene</name></member>
+      <member refid="group__GeneralGroup_1gae50905f091961545124fb5e4be824fec" kind="function"><name>setSceneDirty</name></member>
+      <member refid="group__GeneralGroup_1gac1cc3b34bbd80fe2ee173602adb51cad" kind="function"><name>setupScene</name></member>
+      <member refid="group__GeneralGroup_1ga4cc2b3d7e246b0136ffdf60186e31c16" kind="function"><name>clearFramebuffers</name></member>
+      <member refid="group__GeneralGroup_1ga22ff1c4c5a948c6f04e69b2e70bc9600" kind="function"><name>resize</name></member>
+      <member refid="group__GeneralGroup_1gaf7c449197d4f5e0fd82e76374306301c" kind="function"><name>postResize</name></member>
+      <member refid="group__GeneralGroup_1gaf941d6306f82f805806a5f6550709c24" kind="function"><name>postSetPosition</name></member>
+      <member refid="group__GeneralGroup_1ga7cd2146e20850a36ad9e15bd8f3b2ced" kind="function"><name>postSetMaximized</name></member>
+      <member refid="group__GeneralGroup_1gae27658383c81bdf39b234a0ca64480e5" kind="function"><name>postSetIconified</name></member>
+      <member refid="group__GeneralGroup_1gae4e39b69de2d6d6618dac88fc5221527" kind="function"><name>postFocus</name></member>
+      <member refid="group__GeneralGroup_1gaaa2239ab3f99213fac753a63afe80d0d" kind="function"><name>postRescale</name></member>
+      <member refid="group__GeneralGroup_1gafe0f0a270814dc190e79d226df8d713d" kind="function"><name>postClose</name></member>
+      <member refid="group__GeneralGroup_1gaae65709b445d2b0917409287eface790" kind="function"><name>set_root</name></member>
+      <member refid="group__GeneralGroup_1gafa95c1310f32717a27bdeaaab2bef0bc" kind="function"><name>clearScene</name></member>
+      <member refid="group__GeneralGroup_1gac79f24b566036522e5b7f21e642c9439" kind="function"><name>viewport</name></member>
+      <member refid="group__GeneralGroup_1ga98e839976ec3394275ee4c8a96c6dc27" kind="function"><name>viewport</name></member>
+      <member refid="group__GeneralGroup_1gaa748100841bb2d5cddeef5d8bf296f9f" kind="function"><name>append_viewport</name></member>
+      <member refid="group__GeneralGroup_1ga29b4a0913083878a3db4272e293dfe0f" kind="function"><name>getViewportsBounds</name></member>
+      <member refid="group__GeneralGroup_1ga66f3490ce4cf18ff57b57146ceb8a68a" kind="function"><name>erase_viewport</name></member>
+      <member refid="group__GeneralGroup_1ga32e4d503565b27c8a552abf2e49aed15" kind="function"><name>erase_viewport</name></member>
+      <member refid="group__GeneralGroup_1gae910a1a6019718a777afe452d58802a5" kind="function"><name>viewport_index</name></member>
+      <member refid="group__GeneralGroup_1ga0e5111171595097dcb08f6e009450d7f" kind="function"><name>getHoveredViewportId</name></member>
+      <member refid="group__GeneralGroup_1gad15c52527b406547153c2ee9ab5b9854" kind="function"><name>getHoveredViewportIdOrInvalid</name></member>
+      <member refid="group__GeneralGroup_1gaa7255da11fe1bd338aa176ee19b15eb7" kind="function"><name>select_hovered_viewport</name></member>
+      <member refid="group__GeneralGroup_1ga0abf7c7fdb0f51651be12f67f1aea11c" kind="function"><name>fitDataViewport</name></member>
+      <member refid="group__GeneralGroup_1ga359408b2941b393d87a609d610347c78" kind="function"><name>fitBoxViewport</name></member>
+      <member refid="group__GeneralGroup_1gabb15cccccd945bf5803dde5fd66e6929" kind="function"><name>preciseFitDataViewport</name></member>
+      <member refid="group__GeneralGroup_1gaf71c30c3871a2d92945b860b0c3cb6e5" kind="function"><name>preciseFitDataViewport</name></member>
+      <member refid="group__GeneralGroup_1gae4df5649d85b7f92946cb8b19dec869e" kind="function"><name>getTotalFrames</name></member>
+      <member refid="group__GeneralGroup_1ga5dd7968267e8bdbd05b8610f7bb3b3e5" kind="function"><name>getSwappedFrames</name></member>
+      <member refid="group__GeneralGroup_1ga903a5dd99309117aa93d95c04b20d5bf" kind="function"><name>getFPS</name></member>
+      <member refid="group__GeneralGroup_1ga5a94c92795c6e1b10dd5318f021deaf5" kind="function"><name>getPrevFrameDrawTimeMillisec</name></member>
+      <member refid="group__GeneralGroup_1gaca894260269798e399369b529d7ba3b0" kind="function"><name>getStaticGLBufferSize</name></member>
+      <member refid="group__GeneralGroup_1ga790440df3478329e0d2f47f2a8f6462d" kind="function"><name>incrementForceRedrawFrames</name></member>
+      <member refid="group__GeneralGroup_1ga14e72114dc36666570c97b24914df52e" kind="function"><name>forceSwapOnFrame</name></member>
+      <member refid="group__GeneralGroup_1ga5a5979dba1caca6f934f1e351d649e4e" kind="function"><name>isCurrentFrameSwapping</name></member>
+      <member refid="group__GeneralGroup_1ga3a012b7e7bb46bac6add3bd52b415ddc" kind="function"><name>getEventsCount</name></member>
+      <member refid="group__GeneralGroup_1gace616c44d943ccb4671a9c5180090bbf" kind="function"><name>getLastFrameGLPrimitivesCount</name></member>
+      <member refid="group__GeneralGroup_1gaa9e4f61cb952eb939ba8a95d97b5d961" kind="function"><name>incrementThisFrameGLPrimitivesCount</name></member>
+      <member refid="group__GeneralGroup_1ga31d6494e00e43d9afe0c2ca0c089c075" kind="function"><name>getPresentViewports</name></member>
+      <member refid="group__GeneralGroup_1gae53206027c75dfd0e188f1d538c4e65f" kind="function"><name>resetAllCounters</name></member>
+      <member refid="group__GeneralGroup_1ga53c8681342330959689b2fb706ad8616" kind="function"><name>captureSceneScreenShot</name></member>
+      <member refid="group__GeneralGroup_1gab5c3982fd523193e4b8a83ebde609f85" kind="function"><name>captureUIScreenShot</name></member>
+      <member refid="group__GeneralGroup_1ga0cd6649b2287a6bfeb70136744689060" kind="function"><name>isAlphaSortAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga8487684b5cd02ab06da1de9e06c8744f" kind="function"><name>enableAlphaSort</name></member>
+      <member refid="group__GeneralGroup_1ga734edab571108af641cc046a7fae2b88" kind="function"><name>isAlphaSortEnabled</name></member>
+      <member refid="group__GeneralGroup_1gae9101e95512bcb82d2136d5b68150cd5" kind="function"><name>getDepthPeelNumPasses</name></member>
+      <member refid="group__GeneralGroup_1gaf74c4a902b2a1a4431fd3372bd8577a6" kind="function"><name>setDepthPeelNumPasses</name></member>
+      <member refid="group__GeneralGroup_1ga019a888de748ce305dc8e4fbf58edaff" kind="function"><name>isDepthPeelingEnabled</name></member>
+      <member refid="group__GeneralGroup_1gaeb78cc316a414e397c55a35a9e0fa39d" kind="function"><name>isSceneTextureBound</name></member>
+      <member refid="group__GeneralGroup_1gaad7ae2b261b453a9a3f957579f27c381" kind="function"><name>bindSceneTexture</name></member>
+      <member refid="group__GeneralGroup_1gaf9288bd86d5b22fdacb06b171e7b440c" kind="function"><name>isSceneTextureEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga756fd8c9b5a6009425ad0d381f7a317d" kind="function"><name>getMSAA</name></member>
+      <member refid="group__GeneralGroup_1gad9ef05675d3c79985fe79d16da3349e4" kind="function"><name>requestChangeMSAA</name></member>
+      <member refid="group__GeneralGroup_1ga80c0acdc527e2144c6584a282d58b6c9" kind="function"><name>getRequestedMSAA</name></member>
+      <member refid="group__GeneralGroup_1ga12df9cd9111455d38ad32806075bfec7" kind="function"><name>setViewportSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1gaba07276bca1b1841a90fa8d9fc800507" kind="function"><name>getViewerSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1ga7198c8ad9225c7320c177e932c2ba158" kind="function"><name>getPixelPointInfo</name></member>
+      <member refid="group__GeneralGroup_1ga1c6d6007f6c14032798d4baa7af0099c" kind="function"><name>getMousePointInfo</name></member>
+      <member refid="group__GeneralGroup_1ga96283697545235438cbaf16840cb0d36" kind="function"><name>screenToViewport</name></member>
+      <member refid="group__GeneralGroup_1ga525b56afc9ee9f0827ded91804ce65f6" kind="function"><name>viewportToScreen</name></member>
+      <member refid="group__GeneralGroup_1ga19148d138b8620a75f9b3e73441b7955" kind="function"><name>getViewports</name></member>
+      <member refid="group__GeneralGroup_1ga5acf533169d66d16a01d49084d887c51" kind="function"><name>enableGlobalHistory</name></member>
+      <member refid="group__GeneralGroup_1gaf783e511fab48488cefa29c151e6dca4" kind="function"><name>isGlobalHistoryEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga1a20bdc9d56370d96089ed755fd73ad5" kind="function"><name>appendHistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gab8b98e5129d643d9a893c28e17ebe388" kind="function"><name>globalHistoryUndo</name></member>
+      <member refid="group__GeneralGroup_1gae36f89734b1c96d9a03e4957f38f7b6a" kind="function"><name>globalHistoryRedo</name></member>
+      <member refid="group__GeneralGroup_1ga20e2211394af3408951eb8661035c58d" kind="function"><name>getGlobalHistoryStore</name></member>
+      <member refid="group__GeneralGroup_1gafd170f694bbfbea3c491223d0ea2b091" kind="function"><name>getSpaceMouseHandler</name></member>
+      <member refid="group__GeneralGroup_1ga45e00f21d3408c12427477ab6d312382" kind="function"><name>onSceneSaved</name></member>
+      <member refid="group__GeneralGroup_1ga1ea0d4cf159f1ff54b6b1e8819180c9b" kind="function"><name>getMenuPlugin</name></member>
+      <member refid="group__GeneralGroup_1gac6fc20d043d1999ebac0b4fcce9397e2" kind="function"><name>setMenuPlugin</name></member>
+      <member refid="group__GeneralGroup_1gab99774ac83e35b2f47669cc2b8b88afb" kind="function"><name>getRibbonMenu</name></member>
+      <member refid="group__GeneralGroup_1ga44471d66496b4d2184d8604af087598e" kind="function"><name>getMenuPluginAs</name></member>
+      <member refid="group__GeneralGroup_1gaafe4489ef4e5332e3b1ca6200f3d58fd" kind="function"><name>stopEventLoop</name></member>
+      <member refid="group__GeneralGroup_1gaff7d7329c84d85a009790d68eeb8661d" kind="function"><name>getStopEventLoopFlag</name></member>
+      <member refid="group__GeneralGroup_1ga098bf2b0a344703be167559575e4ea3e" kind="function"><name>windowShouldClose</name></member>
+      <member refid="group__GeneralGroup_1ga44dcab99aafe4a71d2890df4698179a1" kind="function"><name>isGLInitialized</name></member>
+      <member refid="group__GeneralGroup_1gae46fc463954326092580c6471226d371" kind="function"><name>makeTitleFromSceneRootPath</name></member>
+      <member refid="group__GeneralGroup_1ga01b60caf23e036ab2d107862a55beffa" kind="function"><name>hasScaledFramebuffer</name></member>
+      <member refid="group__GeneralGroup_1gabda017be7b7724dec62de676c2335469" kind="function"><name>signals</name></member>
+      <member refid="group__GeneralGroup_1ga7491e8da28f4f91c65a046245af2b38a" kind="function"><name>emplaceEvent</name></member>
+      <member refid="group__GeneralGroup_1ga5e41a9cbb5f65bd2f90ac6890cd935e4" kind="function"><name>popEventByName</name></member>
+      <member refid="group__GeneralGroup_1ga8be17247df8805e3856399ff624ea7e5" kind="function"><name>postEmptyEvent</name></member>
+      <member refid="group__GeneralGroup_1ga37192a2a155cd48be18371ea224f9dd4" kind="function"><name>touchpadController</name></member>
+      <member refid="group__GeneralGroup_1gaf0231892dae1d4f17526471d37e3a3e2" kind="function"><name>touchpadController</name></member>
+      <member refid="group__GeneralGroup_1ga2f90363344944df08c1220d0620ea1d0" kind="function"><name>spaceMouseController</name></member>
+      <member refid="group__GeneralGroup_1gaa15471582a150f384804ce9faff91b38" kind="function"><name>spaceMouseController</name></member>
+      <member refid="group__GeneralGroup_1ga1984b77308668a59ce2f073ed6ae59ad" kind="function"><name>mouseController</name></member>
+      <member refid="group__GeneralGroup_1gaeacb3259b74669514d1c901f9ed2acfe" kind="function"><name>mouseController</name></member>
+      <member refid="group__GeneralGroup_1gaefb216a2684bab02df3b5f3444c8eeff" kind="function"><name>recentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1gaa513058cc1e60a1245cb96cb74884dcc" kind="function"><name>recentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1gabfffc85a6df279c09db31b207fb7604a" kind="function"><name>getSortDroppedFiles</name></member>
+      <member refid="group__GeneralGroup_1ga9e7838b6c40f9f7bbdb03fbc9b53a857" kind="function"><name>setSortDroppedFiles</name></member>
+      <member refid="group__GeneralGroup_1ga4982baeba6e7a4cf6b8dcfc47b80e5f7" kind="function"><name>drawUiRenderObjects</name></member>
+      <member refid="group__GeneralGroup_1gab3e4db0391fda67c96207402df70ef8d" kind="function"><name>isMultiViewportAvailable</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga44b52ba7b746b1dd7ebce86e163d03a2" kind="function"><name>Viewer</name></member>
+      <member refid="group__GeneralGroup_1ga367480dd3c7e349b7b215bcb354ada05" kind="function"><name>~Viewer</name></member>
+      <member refid="group__GeneralGroup_1gac3729a6544182efd72fc44b5b5eb38ae" kind="function"><name>launchInit_</name></member>
+      <member refid="group__GeneralGroup_1gae4f9e972d533f197921dc2d86ee03cbc" kind="function"><name>setupWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga4d724cf6f1623cea2fa90eff3dce9c3c" kind="function"><name>checkOpenGL_</name></member>
+      <member refid="group__GeneralGroup_1ga1448a75a3b308acb76bd469ea1d4a4d1" kind="function"><name>init_</name></member>
+      <member refid="group__GeneralGroup_1ga89f477e0035c07d1086a1940b9edd423" kind="function"><name>initPlugins_</name></member>
+      <member refid="group__GeneralGroup_1ga9b22c1f3abd42f9b87f8683c9ad6586e" kind="function"><name>shutdownPlugins_</name></member>
+      <member refid="group__GeneralGroup_1ga10f14300bc327e5adc26db6e62014dca" kind="function"><name>draw_</name></member>
+      <member refid="group__GeneralGroup_1ga89c8b71780bb16a96fb79c6f594fa4f2" kind="function"><name>tryCreateWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga8cd319229ed4f29b9740484b16e219a2" kind="function"><name>needRedraw_</name></member>
+      <member refid="group__GeneralGroup_1gac820c8cf4f25f7365a71733f4be0344f" kind="function"><name>resetRedraw_</name></member>
+      <member refid="group__GeneralGroup_1gae79b3e34898bf7de4afd475f5d26d47e" kind="function"><name>initGlobalBasisAxesObject_</name></member>
+      <member refid="group__GeneralGroup_1ga4180d50e3351b2011d15f4bcdf570c43" kind="function"><name>initBasisAxesObject_</name></member>
+      <member refid="group__GeneralGroup_1ga532e0bd4643b092401759f6d4081ad3b" kind="function"><name>initBasisViewControllerObject_</name></member>
+      <member refid="group__GeneralGroup_1gaeb612f90bd985c7aa46081e12e2240fd" kind="function"><name>initClippingPlaneObject_</name></member>
+      <member refid="group__GeneralGroup_1gab2e92be18b14f66f56ac90b1c5b63e6a" kind="function"><name>initRotationCenterObject_</name></member>
+      <member refid="group__GeneralGroup_1ga26dcc15aa5b6cb08a61d9182569378f8" kind="function"><name>initSpaceMouseHandler_</name></member>
+      <member refid="group__GeneralGroup_1ga9e767e944f4177c77d7fad6651115629" kind="function"><name>updatePixelRatio_</name></member>
+      <member refid="group__GeneralGroup_1ga9f4986149e4c0c760aa7cae4529fcc6a" kind="function"><name>getRequiredMSAA_</name></member>
+      <member refid="group__GeneralGroup_1ga7c5d038d6cf456f63ff849a00eaa9b77" kind="function"><name>getFirstAvailableViewportId_</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga6d89aa105ff76f0ef98adf92b5e6afb4" kind="friend"><name>getViewerInstance</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>GLFW-based mesh viewer. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" line="68" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewer.h" bodystart="69" bodyend="654"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga8a4165d397a7c241fd7a2b6df849d8c8" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>alphaSortEnabled_</name></member>
+      <member refid="group__GeneralGroup_1gad254163ddf7de404d091c350fb978a1b" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>alphaSorter_</name></member>
+      <member refid="group__GeneralGroup_1ga1747b85f1a561ad143a87af606bf91ac" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>animationMaxFps</name></member>
+      <member refid="group__GeneralGroup_1gaa748100841bb2d5cddeef5d8bf296f9f" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>append_viewport</name></member>
+      <member refid="group__GeneralGroup_1ga1a20bdc9d56370d96089ed755fd73ad5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>appendHistoryAction</name></member>
+      <member refid="group__GeneralGroup_1gaabff40e9f5b2102161db747f1d36c787" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>basisAxes</name></member>
+      <member refid="group__GeneralGroup_1gad282257ff021063d9026914e11b361d1" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>basisViewController</name></member>
+      <member refid="group__GeneralGroup_1gaad7ae2b261b453a9a3f957579f27c381" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>bindSceneTexture</name></member>
+      <member refid="group__GeneralGroup_1ga53c8681342330959689b2fb706ad8616" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>captureSceneScreenShot</name></member>
+      <member refid="group__GeneralGroup_1gab5c3982fd523193e4b8a83ebde609f85" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>captureUIScreenShot</name></member>
+      <member refid="group__GeneralGroup_1ga4d724cf6f1623cea2fa90eff3dce9c3c" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>checkOpenGL_</name></member>
+      <member refid="group__GeneralGroup_1ga4cc2b3d7e246b0136ffdf60186e31c16" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>clearFramebuffers</name></member>
+      <member refid="group__GeneralGroup_1gafa95c1310f32717a27bdeaaab2bef0bc" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>clearScene</name></member>
+      <member refid="group__GeneralGroup_1ga97b86b8de173c41ecb9d6b4c2abe7b65" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>clippingPlaneObject</name></member>
+      <member refid="group__GeneralGroup_1ga505493fbe72fd322c04cc7922826c5f8" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>commandArgs</name></member>
+      <member refid="group__GeneralGroup_1gab95f3d2b7857df69bd6488d31c08950e" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>connections_</name></member>
+      <member refid="group__GeneralGroup_1ga8c5ec92949f2dab326c76616a704965b" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>constInstance</name></member>
+      <member refid="group__GeneralGroup_1ga9bf9b043a95e5fa4bf924a5ee2b799f1" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>constInstanceRef</name></member>
+      <member refid="group__GeneralGroup_1ga9799f9fb1a3e6b8194046e6da3e0df94" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>depthPeeler_</name></member>
+      <member refid="group__GeneralGroup_1ga8b78058bc93c29870dadad421281198f" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>dirtyScene_</name></member>
+      <member refid="group__GeneralGroup_1gae08c5961fdb9631a768a60406145226a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>drag</name></member>
+      <member refid="group__GeneralGroup_1ga69116527e6d1bb79a5231d928ccf9bb9" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>dragDrop</name></member>
+      <member refid="group__GeneralGroup_1ga10eb399f6fb956d59a171ccf28be3ac0" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>dragDropAdvancedHandler_</name></member>
+      <member refid="group__GeneralGroup_1ga9658bfe4b89713f69921ed4bc449eb5a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>dragEnd</name></member>
+      <member refid="group__GeneralGroup_1gacf2a54437aa855aa6053d5e376069eb2" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>dragStart</name></member>
+      <member refid="group__GeneralGroup_1gae8671eecc60d8e0d8585683df92ea007" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga10f14300bc327e5adc26db6e62014dca" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>draw_</name></member>
+      <member refid="group__GeneralGroup_1gad21c4f4dd1ab1c0615689d4abaec15da" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>drawFull</name></member>
+      <member refid="group__GeneralGroup_1gab2c95f8168c31e559662b97c55dad30f" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>drawScene</name></member>
+      <member refid="group__GeneralGroup_1ga4982baeba6e7a4cf6b8dcfc47b80e5f7" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>drawUiRenderObjects</name></member>
+      <member refid="group__GeneralGroup_1ga7491e8da28f4f91c65a046245af2b38a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>emplaceEvent</name></member>
+      <member refid="group__GeneralGroup_1ga8487684b5cd02ab06da1de9e06c8744f" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>enableAlphaSort</name></member>
+      <member refid="group__GeneralGroup_1ga5acf533169d66d16a01d49084d887c51" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>enableGlobalHistory</name></member>
+      <member refid="group__GeneralGroup_1ga66f3490ce4cf18ff57b57146ceb8a68a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>erase_viewport</name></member>
+      <member refid="group__GeneralGroup_1ga32e4d503565b27c8a552abf2e49aed15" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>erase_viewport</name></member>
+      <member refid="group__GeneralGroup_1gaf3e729a7c59e7ebfc40a3e7f380b6019" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>eventQueue_</name></member>
+      <member refid="group__GeneralGroup_1ga33b2dcb488dbb9875ac473677359ec38" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>eventsCounter_</name></member>
+      <member refid="group__GeneralGroup_1ga2f8bda46d1cd218cc450c9b0f076f2b0" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>EventType</name></member>
+      <member refid="group__GeneralGroup_1ga79903d8243abfd135d4c770623022ef3" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>experimentalFeatures</name></member>
+      <member refid="group__GeneralGroup_1ga359408b2941b393d87a609d610347c78" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>fitBoxViewport</name></member>
+      <member refid="group__GeneralGroup_1ga0abf7c7fdb0f51651be12f67f1aea11c" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>fitDataViewport</name></member>
+      <member refid="group__GeneralGroup_1ga3a8790f656a7c026514cd7a85c31cf5e" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>focusRedrawReady_</name></member>
+      <member refid="group__GeneralGroup_1gab31597e29524aa8f4453493fc6704743" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>forceRedrawFrames_</name></member>
+      <member refid="group__GeneralGroup_1gafac9885eaf1a5a5c6c79b3eb838d4371" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>forceRedrawFramesWithoutSwap_</name></member>
+      <member refid="group__GeneralGroup_1gaf6ad84943b0d9f49dbd4b22e3129216d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>forceRedrawMinimumIncrementAfterEvents</name></member>
+      <member refid="group__GeneralGroup_1ga14e72114dc36666570c97b24914df52e" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>forceSwapOnFrame</name></member>
+      <member refid="group__GeneralGroup_1gabcae9cdb5ec2a2c07ab8bad1508bd3d8" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>framebufferSize</name></member>
+      <member refid="group__GeneralGroup_1ga5c2adc670fba040fb4c52bb8232fa7a3" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>frameCounter_</name></member>
+      <member refid="group__GeneralGroup_1gae9101e95512bcb82d2136d5b68150cd5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getDepthPeelNumPasses</name></member>
+      <member refid="group__GeneralGroup_1ga3a012b7e7bb46bac6add3bd52b415ddc" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getEventsCount</name></member>
+      <member refid="group__GeneralGroup_1ga7c5d038d6cf456f63ff849a00eaa9b77" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>getFirstAvailableViewportId_</name></member>
+      <member refid="group__GeneralGroup_1ga903a5dd99309117aa93d95c04b20d5bf" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getFPS</name></member>
+      <member refid="group__GeneralGroup_1ga20e2211394af3408951eb8661035c58d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getGlobalHistoryStore</name></member>
+      <member refid="group__GeneralGroup_1ga0e5111171595097dcb08f6e009450d7f" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getHoveredViewportId</name></member>
+      <member refid="group__GeneralGroup_1gad15c52527b406547153c2ee9ab5b9854" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getHoveredViewportIdOrInvalid</name></member>
+      <member refid="group__GeneralGroup_1gace616c44d943ccb4671a9c5180090bbf" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getLastFrameGLPrimitivesCount</name></member>
+      <member refid="group__GeneralGroup_1ga5e6446f42d0774a003b0af5832154822" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getLaunchParams</name></member>
+      <member refid="group__GeneralGroup_1ga1ea0d4cf159f1ff54b6b1e8819180c9b" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getMenuPlugin</name></member>
+      <member refid="group__GeneralGroup_1ga44471d66496b4d2184d8604af087598e" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getMenuPluginAs</name></member>
+      <member refid="group__GeneralGroup_1ga1c6d6007f6c14032798d4baa7af0099c" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getMousePointInfo</name></member>
+      <member refid="group__GeneralGroup_1ga756fd8c9b5a6009425ad0d381f7a317d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getMSAA</name></member>
+      <member refid="group__GeneralGroup_1ga7198c8ad9225c7320c177e932c2ba158" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getPixelPointInfo</name></member>
+      <member refid="group__GeneralGroup_1ga85ad500aab48ce2471d2715030ff667a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getPluginInstance</name></member>
+      <member refid="group__GeneralGroup_1ga31d6494e00e43d9afe0c2ca0c089c075" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getPresentViewports</name></member>
+      <member refid="group__GeneralGroup_1ga5a94c92795c6e1b10dd5318f021deaf5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getPrevFrameDrawTimeMillisec</name></member>
+      <member refid="group__GeneralGroup_1ga80c0acdc527e2144c6584a282d58b6c9" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getRequestedMSAA</name></member>
+      <member refid="group__GeneralGroup_1ga9f4986149e4c0c760aa7cae4529fcc6a" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>getRequiredMSAA_</name></member>
+      <member refid="group__GeneralGroup_1gab99774ac83e35b2f47669cc2b8b88afb" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getRibbonMenu</name></member>
+      <member refid="group__GeneralGroup_1gabfffc85a6df279c09db31b207fb7604a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getSortDroppedFiles</name></member>
+      <member refid="group__GeneralGroup_1gafd170f694bbfbea3c491223d0ea2b091" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getSpaceMouseHandler</name></member>
+      <member refid="group__GeneralGroup_1gaca894260269798e399369b529d7ba3b0" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getStaticGLBufferSize</name></member>
+      <member refid="group__GeneralGroup_1gaff7d7329c84d85a009790d68eeb8661d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getStopEventLoopFlag</name></member>
+      <member refid="group__GeneralGroup_1ga5dd7968267e8bdbd05b8610f7bb3b3e5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getSwappedFrames</name></member>
+      <member refid="group__GeneralGroup_1gae4df5649d85b7f92946cb8b19dec869e" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getTotalFrames</name></member>
+      <member refid="group__GeneralGroup_1ga6d89aa105ff76f0ef98adf92b5e6afb4" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>getViewerInstance</name></member>
+      <member refid="group__GeneralGroup_1gaba07276bca1b1841a90fa8d9fc800507" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getViewerSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1ga19148d138b8620a75f9b3e73441b7955" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getViewports</name></member>
+      <member refid="group__GeneralGroup_1ga29b4a0913083878a3db4272e293dfe0f" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>getViewportsBounds</name></member>
+      <member refid="group__GeneralGroup_1gaa96e35f7819f1f050a9257d13b9de83f" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>glInitialized_</name></member>
+      <member refid="group__GeneralGroup_1ga8e8017221bc14ddf989b5065726236ed" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>globalBasis</name></member>
+      <member refid="group__GeneralGroup_1gae36f89734b1c96d9a03e4957f38f7b6a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>globalHistoryRedo</name></member>
+      <member refid="group__GeneralGroup_1ga6bfc18f8043e09ee393e3b7d08790279" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>globalHistoryStore_</name></member>
+      <member refid="group__GeneralGroup_1gab8b98e5129d643d9a893c28e17ebe388" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>globalHistoryUndo</name></member>
+      <member refid="group__GeneralGroup_1ga240a033f91b3eb0250fa706cd2f2feb1" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>glPickRadius</name></member>
+      <member refid="group__GeneralGroup_1gad9d7cefc8648f1ca4546f6d060885e04" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>glPrimitivesCounter_</name></member>
+      <member refid="group__GeneralGroup_1gacd808397ec9c13d1d3bce1b0e846bd40" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>GLPrimitivesType</name></member>
+      <member refid="group__GeneralGroup_1ga01b60caf23e036ab2d107862a55beffa" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>hasScaledFramebuffer</name></member>
+      <member refid="group__GeneralGroup_1gab943bf675cc708d263406c6e706acec4" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>hasScaledFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga790440df3478329e0d2f47f2a8f6462d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>incrementForceRedrawFrames</name></member>
+      <member refid="group__GeneralGroup_1gaa9e4f61cb952eb939ba8a95d97b5d961" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>incrementThisFrameGLPrimitivesCount</name></member>
+      <member refid="group__GeneralGroup_1ga1448a75a3b308acb76bd469ea1d4a4d1" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>init_</name></member>
+      <member refid="group__GeneralGroup_1ga4180d50e3351b2011d15f4bcdf570c43" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>initBasisAxesObject_</name></member>
+      <member refid="group__GeneralGroup_1ga532e0bd4643b092401759f6d4081ad3b" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>initBasisViewControllerObject_</name></member>
+      <member refid="group__GeneralGroup_1gaeb612f90bd985c7aa46081e12e2240fd" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>initClippingPlaneObject_</name></member>
+      <member refid="group__GeneralGroup_1gae79b3e34898bf7de4afd475f5d26d47e" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>initGlobalBasisAxesObject_</name></member>
+      <member refid="group__GeneralGroup_1ga89f477e0035c07d1086a1940b9edd423" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>initPlugins_</name></member>
+      <member refid="group__GeneralGroup_1gab2e92be18b14f66f56ac90b1c5b63e6a" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>initRotationCenterObject_</name></member>
+      <member refid="group__GeneralGroup_1ga26dcc15aa5b6cb08a61d9182569378f8" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>initSpaceMouseHandler_</name></member>
+      <member refid="group__GeneralGroup_1ga827107af544bf966370dc8de607ed59c" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gaab103f5088bda1288b59fb83c0635ef5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>instanceRef</name></member>
+      <member refid="group__GeneralGroup_1gaf2b6e2aad9eb5d9f49145edf383690f7" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>interruptWindowClose</name></member>
+      <member refid="group__GeneralGroup_1ga0cd6649b2287a6bfeb70136744689060" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isAlphaSortAvailable</name></member>
+      <member refid="group__GeneralGroup_1ga734edab571108af641cc046a7fae2b88" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isAlphaSortEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga7ccea0f47c749b27fc3a4ab8dc91026c" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isAnimating</name></member>
+      <member refid="group__GeneralGroup_1ga5a5979dba1caca6f934f1e351d649e4e" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isCurrentFrameSwapping</name></member>
+      <member refid="group__GeneralGroup_1ga019a888de748ce305dc8e4fbf58edaff" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isDepthPeelingEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga44dcab99aafe4a71d2890df4698179a1" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isGLInitialized</name></member>
+      <member refid="group__GeneralGroup_1gaf783e511fab48488cefa29c151e6dca4" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isGlobalHistoryEnabled</name></member>
+      <member refid="group__GeneralGroup_1gabccad304a3a8ab15bdd72b929ee30568" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>isInDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga881f953c9d192cce78219319c2cdf0bb" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isLaunched</name></member>
+      <member refid="group__GeneralGroup_1ga995ab1496154a99adfdb3f0373714cae" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>isLaunched_</name></member>
+      <member refid="group__GeneralGroup_1gab3e4db0391fda67c96207402df70ef8d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isMultiViewportAvailable</name></member>
+      <member refid="group__GeneralGroup_1gaeb78cc316a414e397c55a35a9e0fa39d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isSceneTextureBound</name></member>
+      <member refid="group__GeneralGroup_1gaf9288bd86d5b22fdacb06b171e7b440c" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isSceneTextureEnabled</name></member>
+      <member refid="group__GeneralGroup_1gae569c352cb211766d2e095c78b668853" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>isSupportedFormat</name></member>
+      <member refid="group__GeneralGroup_1gabfbfee4369c2e3f34fa8bbf6a45bbf40" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>keyDown</name></member>
+      <member refid="group__GeneralGroup_1gaf92279fc5e74c77e2acc4cad81ac4db5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>keyPressed</name></member>
+      <member refid="group__GeneralGroup_1ga18abf114bf07ccfd54aa99d51c2986f6" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>keyRepeat</name></member>
+      <member refid="group__GeneralGroup_1ga01e1a7a3d56f5220649daa748f9d6449" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>keyUp</name></member>
+      <member refid="group__GeneralGroup_1ga5c5505e0b7ec40651dc41ce35b964c32" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>launch</name></member>
+      <member refid="group__GeneralGroup_1gab149079b6cfab119f1d82274c7e54ac6" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>launchEventLoop</name></member>
+      <member refid="group__GeneralGroup_1gac3729a6544182efd72fc44b5b5eb38ae" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>launchInit_</name></member>
+      <member refid="group__GeneralGroup_1ga18c86b40dc97e73d26be6d5f21f65093" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>LaunchParams</name></member>
+      <member refid="group__GeneralGroup_1gaa07a48e1ccf96cf1c97afe75b4bf45b4" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>launchParams_</name></member>
+      <member refid="group__GeneralGroup_1gab85b7bf9ec873e3253b2e214ced07544" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>launchShut</name></member>
+      <member refid="group__GeneralGroup_1gad86a2a35d8885c591472e0f38b19da35" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>loadFiles</name></member>
+      <member refid="group__GeneralGroup_1gad31742000517e1bfa864d9b557eca6f4" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>loadFiles</name></member>
+      <member refid="group__GeneralGroup_1gae46fc463954326092580c6471226d371" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>makeTitleFromSceneRootPath</name></member>
+      <member refid="group__GeneralGroup_1gab3d26a257d9b36c035df07775993f203" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>menuPlugin_</name></member>
+      <member refid="group__GeneralGroup_1gacbb855ef51e627a2fd2b111d9d65277e" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>MouseButton</name></member>
+      <member refid="group__GeneralGroup_1ga24fb1377eaabe916c15e03c1c11b83c7" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>mouseClick</name></member>
+      <member refid="group__GeneralGroup_1ga1984b77308668a59ce2f073ed6ae59ad" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>mouseController</name></member>
+      <member refid="group__GeneralGroup_1gaeacb3259b74669514d1c901f9ed2acfe" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>mouseController</name></member>
+      <member refid="group__GeneralGroup_1ga05e34fa1cf534f046789529b04e6da69" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>mouseController_</name></member>
+      <member refid="group__GeneralGroup_1gaa17c5dc8f43a14c454396b3b32b5facd" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>mouseDown</name></member>
+      <member refid="group__GeneralGroup_1ga8fda1ccb2d6d517de3047c2fd65203ea" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>MouseMode</name></member>
+      <member refid="group__GeneralGroup_1ga4b83b6b437c54b924fb899be6d452d7a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>mouseMove</name></member>
+      <member refid="group__GeneralGroup_1ga874ef8410c1288964219fb79289c1d55" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>mouseScroll</name></member>
+      <member refid="group__GeneralGroup_1ga84553b3f4700cf1f4df724de906abfa5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>mouseUp</name></member>
+      <member refid="group__GeneralGroup_1ga8cd319229ed4f29b9740484b16e219a2" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>needRedraw_</name></member>
+      <member refid="group__GeneralGroup_1ga45e00f21d3408c12427477ab6d312382" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>onSceneSaved</name></member>
+      <member refid="group__GeneralGroup_1ga26632c3fff60e6f927d932d86503aa8f" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>parseLaunchParams</name></member>
+      <member refid="group__GeneralGroup_1ga7cb04be7931c10a1a93bb386ba1f7bb6" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>pixelRatio</name></member>
+      <member refid="group__GeneralGroup_1ga25d26ec62da3276a69b3f8c516c98887" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>plugins</name></member>
+      <member refid="group__GeneralGroup_1gae11f6202a72dd7403332a471e5aced7e" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>PointInAllSpaces</name></member>
+      <member refid="group__GeneralGroup_1ga5e41a9cbb5f65bd2f90ac6890cd935e4" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>popEventByName</name></member>
+      <member refid="group__GeneralGroup_1gafe0f0a270814dc190e79d226df8d713d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>postClose</name></member>
+      <member refid="group__GeneralGroup_1ga8be17247df8805e3856399ff624ea7e5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>postEmptyEvent</name></member>
+      <member refid="group__GeneralGroup_1gae4e39b69de2d6d6618dac88fc5221527" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>postFocus</name></member>
+      <member refid="group__GeneralGroup_1gaaa2239ab3f99213fac753a63afe80d0d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>postRescale</name></member>
+      <member refid="group__GeneralGroup_1gaf7c449197d4f5e0fd82e76374306301c" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>postResize</name></member>
+      <member refid="group__GeneralGroup_1gae27658383c81bdf39b234a0ca64480e5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>postSetIconified</name></member>
+      <member refid="group__GeneralGroup_1ga7cd2146e20850a36ad9e15bd8f3b2ced" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>postSetMaximized</name></member>
+      <member refid="group__GeneralGroup_1gaf941d6306f82f805806a5f6550709c24" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>postSetPosition</name></member>
+      <member refid="group__GeneralGroup_1gabb15cccccd945bf5803dde5fd66e6929" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>preciseFitDataViewport</name></member>
+      <member refid="group__GeneralGroup_1gaf71c30c3871a2d92945b860b0c3cb6e5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>preciseFitDataViewport</name></member>
+      <member refid="group__GeneralGroup_1ga10001fd9054f560c93028f33049f6758" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>presentViewportsMask_</name></member>
+      <member refid="group__GeneralGroup_1gaefb216a2684bab02df3b5f3444c8eeff" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>recentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1gaa513058cc1e60a1245cb96cb74884dcc" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>recentFilesStore</name></member>
+      <member refid="group__GeneralGroup_1ga96242727b73d237d225ae9acbaabbe8c" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>recentFilesStore_</name></member>
+      <member refid="group__GeneralGroup_1gad9ef05675d3c79985fe79d16da3349e4" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>requestChangeMSAA</name></member>
+      <member refid="group__GeneralGroup_1gae53206027c75dfd0e188f1d538c4e65f" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>resetAllCounters</name></member>
+      <member refid="group__GeneralGroup_1gac820c8cf4f25f7365a71733f4be0344f" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>resetRedraw_</name></member>
+      <member refid="group__GeneralGroup_1ga5f253d7832f1e50f3936039860a48f25" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>resetSettingsFunction</name></member>
+      <member refid="group__GeneralGroup_1ga22ff1c4c5a948c6f04e69b2e70bc9600" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>resize</name></member>
+      <member refid="group__GeneralGroup_1ga4c175c5eee2d6f8367e9fcfe26eee6a5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>rotationSphere</name></member>
+      <member refid="group__GeneralGroup_1ga01c76d68cd7eda7aa58d1e04f5ba1604" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>saveToFile</name></member>
+      <member refid="group__GeneralGroup_1ga199be8a4f0024f7007be61c7c326ca79" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>sceneTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga96283697545235438cbaf16840cb0d36" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>screenToViewport</name></member>
+      <member refid="group__GeneralGroup_1gafee4d5b20b5586b703af20535b8a191d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>scrollForce</name></member>
+      <member refid="group__GeneralGroup_1gaa7255da11fe1bd338aa176ee19b15eb7" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>select_hovered_viewport</name></member>
+      <member refid="group__GeneralGroup_1ga7a5a19ca84a8ba99f086c440d5e6403b" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>selected_viewport_index</name></member>
+      <member refid="group__GeneralGroup_1gaae65709b445d2b0917409287eface790" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>set_root</name></member>
+      <member refid="group__GeneralGroup_1gaf74c4a902b2a1a4431fd3372bd8577a6" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>setDepthPeelNumPasses</name></member>
+      <member refid="group__GeneralGroup_1gac6fc20d043d1999ebac0b4fcce9397e2" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>setMenuPlugin</name></member>
+      <member refid="group__GeneralGroup_1gae50905f091961545124fb5e4be824fec" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>setSceneDirty</name></member>
+      <member refid="group__GeneralGroup_1ga9e7838b6c40f9f7bbdb03fbc9b53a857" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>setSortDroppedFiles</name></member>
+      <member refid="group__GeneralGroup_1ga5fa6b46135646a47e4056233be54ecfe" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>settingsMng_</name></member>
+      <member refid="group__GeneralGroup_1gac1cc3b34bbd80fe2ee173602adb51cad" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>setupScene</name></member>
+      <member refid="group__GeneralGroup_1gae4f9e972d533f197921dc2d86ee03cbc" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>setupWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga12df9cd9111455d38ad32806075bfec7" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>setViewportSettingsManager</name></member>
+      <member refid="group__GeneralGroup_1ga9b22c1f3abd42f9b87f8683c9ad6586e" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>shutdownPlugins_</name></member>
+      <member refid="group__GeneralGroup_1gabda017be7b7724dec62de676c2335469" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>signals</name></member>
+      <member refid="group__GeneralGroup_1ga00bd01e33bd3b7922b7cc439e5df2aed" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>signals_</name></member>
+      <member refid="group__GeneralGroup_1ga465768d0b6831ee6a63cb05aaf8d9180" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>sortDroppedFiles_</name></member>
+      <member refid="group__GeneralGroup_1ga2f90363344944df08c1220d0620ea1d0" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>spaceMouseController</name></member>
+      <member refid="group__GeneralGroup_1gaa15471582a150f384804ce9faff91b38" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>spaceMouseController</name></member>
+      <member refid="group__GeneralGroup_1gafd2aed641c2d9c84f9a1d60ee2975feb" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>spaceMouseController_</name></member>
+      <member refid="group__GeneralGroup_1ga6c978a70cf92edbbc251490bb4126a94" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>spaceMouseDown</name></member>
+      <member refid="group__GeneralGroup_1ga6631633d5e4835ca4452da0d3fdfcbb5" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>spaceMouseHandler_</name></member>
+      <member refid="group__GeneralGroup_1gaf2f674380fd12c20f4a4fa1ce7ff3f7d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>spaceMouseMove</name></member>
+      <member refid="group__GeneralGroup_1gaa8daa2433ac6552c7964714e4fb54d75" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>spaceMouseRepeat</name></member>
+      <member refid="group__GeneralGroup_1ga789c1e2d71489d6fb562b457cb2bd2db" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>spaceMouseUp</name></member>
+      <member refid="group__GeneralGroup_1gaafe4489ef4e5332e3b1ca6200f3d58fd" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>stopEventLoop</name></member>
+      <member refid="group__GeneralGroup_1ga89ac7318bd231d3e59438b47ff3c84b9" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>stopEventLoop_</name></member>
+      <member refid="group__GeneralGroup_1ga297a4daffc230ff2379b7c69f2312089" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>swapOnLastPostEventsRedraw</name></member>
+      <member refid="group__GeneralGroup_1gaec4246d383cee0778606dc52faf8c0f0" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchEnd</name></member>
+      <member refid="group__GeneralGroup_1ga26b4ebf73f54e94bd29534ff73b024f5" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>touchesController_</name></member>
+      <member refid="group__GeneralGroup_1ga618fa955d63e2e54e7d36d0b5488fe79" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchMove</name></member>
+      <member refid="group__GeneralGroup_1ga37192a2a155cd48be18371ea224f9dd4" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadController</name></member>
+      <member refid="group__GeneralGroup_1gaf0231892dae1d4f17526471d37e3a3e2" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadController</name></member>
+      <member refid="group__GeneralGroup_1ga7c619e36696c6c84b8d34d189e2019fe" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadController_</name></member>
+      <member refid="group__GeneralGroup_1gaa0740f2459445a2eafa637af3645adb3" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadRotateGestureBegin</name></member>
+      <member refid="group__GeneralGroup_1gae91faf313a1e38cf7ee062456666820d" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadRotateGestureEnd</name></member>
+      <member refid="group__GeneralGroup_1gaa7ae9bdf88849d44d67861377cbc0c7a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadRotateGestureUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga68a84939542951f9987980942399e73c" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadSwipeGestureBegin</name></member>
+      <member refid="group__GeneralGroup_1ga32afaffd38f1368144736c17792dd17b" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadSwipeGestureEnd</name></member>
+      <member refid="group__GeneralGroup_1ga6cefffdd8d6c6ee0b4249389769fcdea" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadSwipeGestureUpdate</name></member>
+      <member refid="group__GeneralGroup_1gaad1730c09d31c324493c800d7384b27a" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadZoomGestureBegin</name></member>
+      <member refid="group__GeneralGroup_1ga9c5de8b0fd441cba5b8b78b9ec669d99" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadZoomGestureEnd</name></member>
+      <member refid="group__GeneralGroup_1gaadd66cdbf85d287f9d24d67f49dbc416" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchpadZoomGestureUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga477a9c818f621b480bfe6bceb017d06e" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>touchStart</name></member>
+      <member refid="group__GeneralGroup_1ga89c8b71780bb16a96fb79c6f594fa4f2" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>tryCreateWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga9e767e944f4177c77d7fad6651115629" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>updatePixelRatio_</name></member>
+      <member refid="group__GeneralGroup_1ga44b52ba7b746b1dd7ebce86e163d03a2" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>Viewer</name></member>
+      <member refid="group__GeneralGroup_1gac79f24b566036522e5b7f21e642c9439" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>viewport</name></member>
+      <member refid="group__GeneralGroup_1ga98e839976ec3394275ee4c8a96c6dc27" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>viewport</name></member>
+      <member refid="group__GeneralGroup_1gae910a1a6019718a777afe452d58802a5" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>viewport_index</name></member>
+      <member refid="group__GeneralGroup_1gafc8ad30c033c6e7346948b81416c26eb" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>viewport_list</name></member>
+      <member refid="group__GeneralGroup_1ga525b56afc9ee9f0827ded91804ce65f6" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>viewportToScreen</name></member>
+      <member refid="group__GeneralGroup_1gadf21364b06943f8b3a27b96c8145bd89" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>window</name></member>
+      <member refid="group__GeneralGroup_1ga6d59e96ed0b5e74b104f0a94012c9185" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>windowMaximized</name></member>
+      <member refid="group__GeneralGroup_1ga4cdddbaa5eba70fd3ab533a608991894" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>windowOldPos</name></member>
+      <member refid="group__GeneralGroup_1gace49ac281b241eab9e8e5f1aae4bcdbe" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>windowSavePos</name></member>
+      <member refid="group__GeneralGroup_1ga2b4fb1e2f21f33e213858ab579eb8620" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>windowSaveSize</name></member>
+      <member refid="group__GeneralGroup_1ga098bf2b0a344703be167559575e4ea3e" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>windowShouldClose</name></member>
+      <member refid="group__GeneralGroup_1ga1ab66cb836861acffdf2c1e4f3397846" prot="public" virt="non-virtual"><scope>MR::Viewer</scope><name>windowTitle</name></member>
+      <member refid="group__GeneralGroup_1ga367480dd3c7e349b7b215bcb354ada05" prot="private" virt="non-virtual"><scope>MR::Viewer</scope><name>~Viewer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

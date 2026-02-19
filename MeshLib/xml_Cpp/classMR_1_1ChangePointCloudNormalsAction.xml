@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangePointCloudNormalsAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangePointCloudNormalsAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangePointCloudNormalsAction_8h" local="no">MRChangePointCloudNormalsAction.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gab1318bc8719ca89bb19cd901f204ad49" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga52e7bba19c51e51e03d3183095fdf59d" kind="variable"><name>objPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga7faa151c69ad4f74edb3b1616a6133f7" kind="variable"><name>backupNormals_</name></member>
+      <member refid="group__GeneralGroup_1ga9f92a627c6fc29ae75b1c45aecf35d30" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa3fc74b29ef4cc3ed08c0e8f0a5f342e" kind="function"><name>ChangePointCloudNormalsAction</name></member>
+      <member refid="group__GeneralGroup_1ga763106472cb85bcb84e8b3a97ad638d6" kind="function"><name>ChangePointCloudNormalsAction</name></member>
+      <member refid="group__GeneralGroup_1gaec6f4ff965e50adb3b9f2605fa2662a8" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga3f4a62aa8bcd5d820f520ab6dea9a48d" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga2bcd7434c87c613e94dd6c3ea18b541e" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga868b166b721b17e855621bf815b7d555" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Undo action for changing normals in <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangePointCloudNormalsAction</label>
+        <link refid="classMR_1_1ChangePointCloudNormalsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangePointCloudNormalsAction</label>
+        <link refid="classMR_1_1ChangePointCloudNormalsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePointCloudNormalsAction.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangePointCloudNormalsAction.h" bodystart="18" bodyend="73"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3f4a62aa8bcd5d820f520ab6dea9a48d" prot="public" virt="virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga7faa151c69ad4f74edb3b1616a6133f7" prot="private" virt="non-virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>backupNormals_</name></member>
+      <member refid="group__GeneralGroup_1gaa3fc74b29ef4cc3ed08c0e8f0a5f342e" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>ChangePointCloudNormalsAction</name></member>
+      <member refid="group__GeneralGroup_1ga763106472cb85bcb84e8b3a97ad638d6" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>ChangePointCloudNormalsAction</name></member>
+      <member refid="group__GeneralGroup_1ga2bcd7434c87c613e94dd6c3ea18b541e" prot="public" virt="virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaec6f4ff965e50adb3b9f2605fa2662a8" prot="public" virt="virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga9f92a627c6fc29ae75b1c45aecf35d30" prot="private" virt="non-virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1gab1318bc8719ca89bb19cd901f204ad49" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1ga52e7bba19c51e51e03d3183095fdf59d" prot="private" virt="non-virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>objPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga868b166b721b17e855621bf815b7d555" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangePointCloudNormalsAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

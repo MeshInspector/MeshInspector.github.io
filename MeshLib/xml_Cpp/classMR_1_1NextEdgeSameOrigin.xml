@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NextEdgeSameOrigin" kind="class" language="C++" prot="public">
+    <compoundname>MR::NextEdgeSameOrigin</compoundname>
+    <includes refid="MRRingIterator_8h" local="no">MRRingIterator.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga8070f5936409b360ddf3e16183706321" kind="variable"><name>topology_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga473b57e8323241ba360af0221af56cff" kind="function"><name>NextEdgeSameOrigin</name></member>
+      <member refid="group__GeneralGroup_1ga1e86c0b25fbb38bc73f3e5edcda87a35" kind="function"><name>next</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" line="43" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRRingIterator.h" bodystart="44" bodyend="50"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1e86c0b25fbb38bc73f3e5edcda87a35" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>next</name></member>
+      <member refid="group__GeneralGroup_1ga473b57e8323241ba360af0221af56cff" prot="public" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>NextEdgeSameOrigin</name></member>
+      <member refid="group__GeneralGroup_1ga8070f5936409b360ddf3e16183706321" prot="private" virt="non-virtual"><scope>MR::NextEdgeSameOrigin</scope><name>topology_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1EdgePathsBuilderT" kind="class" language="C++" prot="public">
+    <compoundname>MR::EdgePathsBuilderT</compoundname>
+    <includes refid="MREdgePathsBuilder_8h" local="no">MREdgePathsBuilder.h</includes>
+    <innerclass refid="structMR_1_1EdgePathsBuilderT_1_1CandidateVert" prot="private">MR::EdgePathsBuilderT::CandidateVert</innerclass>
+    <innerclass refid="structMR_1_1EdgePathsBuilderT_1_1ReachedVert" prot="public">MR::EdgePathsBuilderT::ReachedVert</innerclass>
+    <templateparamlist>
+      <param>
+        <type>class MetricToPenalty</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gaa58748ee3e1ceb34e2ff8b8d2ab58d6b" kind="function"><name>EdgePathsBuilderT</name></member>
+      <member refid="group__GeneralGroup_1ga5d9175cad8bf58c494f9f65aafff8cde" kind="function"><name>EdgePathsBuilderT</name></member>
+      <member refid="group__GeneralGroup_1ga8b233d3b70904335296fbd82fcbc693f" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga424ce31cf3ac73240ffd491872efa6fb" kind="function"><name>addStart</name></member>
+      <member refid="group__GeneralGroup_1ga42cf862c1663fc45765278e3617948ab" kind="function"><name>reachNext</name></member>
+      <member refid="group__GeneralGroup_1ga7567736873ea92c6a2359d13bdf9ff52" kind="function"><name>addOrgRingSteps</name></member>
+      <member refid="group__GeneralGroup_1ga245a1aca92a23d5b494706916ea2554e" kind="function"><name>growOneEdge</name></member>
+      <member refid="group__GeneralGroup_1gae50a59bc1425eff2906ad0c18accbabc" kind="function"><name>getVertInfo</name></member>
+      <member refid="group__GeneralGroup_1gaa5a3f3206ed7ec78c89eef5860137181" kind="function"><name>getPathBack</name></member>
+      <member refid="group__GeneralGroup_1ga91060ff48000e2ddc2037bedefc72197" kind="function"><name>trackPathBack</name></member>
+      <member refid="group__GeneralGroup_1ga06a2df9bc73ccff1cc28c1d322505754" kind="function"><name>addNextStep_</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <member refid="group__GeneralGroup_1ga8bee648da3c920541672f288460c659c" kind="variable"><name>metricToPenalty_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaa7d33bc3e30f4518ca9293438fd9be3c" kind="variable"><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1gabdf129760fef09be234459722d95abc0" kind="variable"><name>metric_</name></member>
+      <member refid="group__GeneralGroup_1ga6aa50aa58699be9a18825c46e0df1e16" kind="variable"><name>vertPathInfoMap_</name></member>
+      <member refid="group__GeneralGroup_1ga02bfffff2751cbd5ad9dfe92f6d7fffa" kind="variable"><name>nextSteps_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga336db542a3c1e1aafb7a7e132ee4a508" kind="function"><name>done</name></member>
+      <member refid="group__GeneralGroup_1ga6121aae22b66ff8e123f4f1d2d21528d" kind="function"><name>doneDistance</name></member>
+      <member refid="group__GeneralGroup_1gad30700907c0223d6668cc9e5910765c3" kind="function"><name>vertPathInfoMap</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>the class is responsible for finding smallest metric edge paths on a mesh </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePathsBuilder.h" bodystart="38" bodyend="124"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga06a2df9bc73ccff1cc28c1d322505754" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addNextStep_</name></member>
+      <member refid="group__GeneralGroup_1ga7567736873ea92c6a2359d13bdf9ff52" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addOrgRingSteps</name></member>
+      <member refid="group__GeneralGroup_1ga424ce31cf3ac73240ffd491872efa6fb" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>addStart</name></member>
+      <member refid="group__GeneralGroup_1ga336db542a3c1e1aafb7a7e132ee4a508" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>done</name></member>
+      <member refid="group__GeneralGroup_1ga6121aae22b66ff8e123f4f1d2d21528d" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>doneDistance</name></member>
+      <member refid="group__GeneralGroup_1gaa58748ee3e1ceb34e2ff8b8d2ab58d6b" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>EdgePathsBuilderT</name></member>
+      <member refid="group__GeneralGroup_1ga5d9175cad8bf58c494f9f65aafff8cde" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>EdgePathsBuilderT</name></member>
+      <member refid="group__GeneralGroup_1gaa5a3f3206ed7ec78c89eef5860137181" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>getPathBack</name></member>
+      <member refid="group__GeneralGroup_1gae50a59bc1425eff2906ad0c18accbabc" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>getVertInfo</name></member>
+      <member refid="group__GeneralGroup_1ga245a1aca92a23d5b494706916ea2554e" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>growOneEdge</name></member>
+      <member refid="group__GeneralGroup_1gabdf129760fef09be234459722d95abc0" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>metric_</name></member>
+      <member refid="group__GeneralGroup_1ga8bee648da3c920541672f288460c659c" prot="protected" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>metricToPenalty_</name></member>
+      <member refid="group__GeneralGroup_1ga02bfffff2751cbd5ad9dfe92f6d7fffa" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>nextSteps_</name></member>
+      <member refid="group__GeneralGroup_1ga42cf862c1663fc45765278e3617948ab" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>reachNext</name></member>
+      <member refid="group__GeneralGroup_1ga8b233d3b70904335296fbd82fcbc693f" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaa7d33bc3e30f4518ca9293438fd9be3c" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1ga91060ff48000e2ddc2037bedefc72197" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>trackPathBack</name></member>
+      <member refid="group__GeneralGroup_1gad30700907c0223d6668cc9e5910765c3" prot="public" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>vertPathInfoMap</name></member>
+      <member refid="group__GeneralGroup_1ga6aa50aa58699be9a18825c46e0df1e16" prot="private" virt="non-virtual"><scope>MR::EdgePathsBuilderT</scope><name>vertPathInfoMap_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

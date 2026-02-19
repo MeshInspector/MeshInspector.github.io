@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderAngleObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderAngleObject</compoundname>
+    <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderResetDirtyComponent &gt;</basecompoundref>
+    <includes refid="MRRenderMeasurementObjects_8h" local="no">MRRenderMeasurementObjects.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga93e6b8c70f890b0dd55b104c049d2bf2" kind="variable"><name>object_</name></member>
+      <member refid="group__GeneralGroup_1ga18c03c253ec75bfad15ad257be0a099c" kind="variable"><name>task_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gad783673b63b5a23dcf35d0bc3ecd7a02" kind="function"><name>RenderAngleObject</name></member>
+      <member refid="group__GeneralGroup_1ga27735a1d0225c060e7c06bbb288c0225" kind="function"><name>renderUi</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderAngleObject</label>
+        <link refid="classMR_1_1RenderAngleObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderAngleObject</label>
+        <link refid="classMR_1_1RenderAngleObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="49" bodyend="55"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga93e6b8c70f890b0dd55b104c049d2bf2" prot="private" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>object_</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1gad783673b63b5a23dcf35d0bc3ecd7a02" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>RenderAngleObject</name></member>
+      <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>RenderObjectCombinator</name></member>
+      <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga27735a1d0225c060e7c06bbb288c0225" prot="public" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga18c03c253ec75bfad15ad257be0a099c" prot="private" virt="non-virtual"><scope>MR::RenderAngleObject</scope><name>task_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

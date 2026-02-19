@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TouchesController_1_1Info" kind="struct" language="C++" prot="private">
+    <compoundname>MR::TouchesController::Info</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae00077737e87f4f3c0abcaba59668721" kind="variable"><name>id</name></member>
+      <member refid="group__GeneralGroup_1ga8cade6860ac779cf9a85b27030d85915" kind="variable"><name>position</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" line="46" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchesController.h" bodystart="47" bodyend="50"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae00077737e87f4f3c0abcaba59668721" prot="public" virt="non-virtual"><scope>MR::TouchesController::Info</scope><name>id</name></member>
+      <member refid="group__GeneralGroup_1ga8cade6860ac779cf9a85b27030d85915" prot="public" virt="non-virtual"><scope>MR::TouchesController::Info</scope><name>position</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

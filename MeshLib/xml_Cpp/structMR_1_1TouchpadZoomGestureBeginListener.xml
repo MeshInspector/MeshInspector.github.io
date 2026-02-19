@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TouchpadZoomGestureBeginListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::TouchpadZoomGestureBeginListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gae78265b3b8f64da2ffc4c9dcdc7292ff" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga2ba6b0096c5e4c6d7e2474ea754cf3b1" kind="function"><name>~TouchpadZoomGestureBeginListener</name></member>
+      <member refid="group__GeneralGroup_1gaf5348be745ad12096850899abc2bec29" kind="function"><name>connect</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1gaa1466bd78b47344b1f14b7f80586b10c" kind="function"><name>touchpadZoomGestureBegin_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class to subscribe on TouchpadZoomGestureBeginEvent </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::TouchpadZoomGestureBeginListener</label>
+        <link refid="structMR_1_1TouchpadZoomGestureBeginListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::TouchpadZoomGestureBeginListener</label>
+        <link refid="structMR_1_1TouchpadZoomGestureBeginListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="369" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="370" bodyend="376"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf5348be745ad12096850899abc2bec29" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureBeginListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchpadZoomGestureBeginListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureBeginListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gae78265b3b8f64da2ffc4c9dcdc7292ff" prot="public" virt="non-virtual"><scope>MR::TouchpadZoomGestureBeginListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gaa1466bd78b47344b1f14b7f80586b10c" prot="protected" virt="pure-virtual"><scope>MR::TouchpadZoomGestureBeginListener</scope><name>touchpadZoomGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureBeginListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureBeginListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1ga2ba6b0096c5e4c6d7e2474ea754cf3b1" prot="public" virt="virtual"><scope>MR::TouchpadZoomGestureBeginListener</scope><name>~TouchpadZoomGestureBeginListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

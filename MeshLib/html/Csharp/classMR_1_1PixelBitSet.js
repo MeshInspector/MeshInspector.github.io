@@ -2,6 +2,8 @@ var classMR_1_1PixelBitSet =
 [
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a53055a7810b228297c473a39619b5934", null ],
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a89a0e4c4a97289538bae24d179d3f2fc", null ],
+    [ "PixelBitSet", "classMR_1_1PixelBitSet.html#ac2989ba2c2da702c038cfb3224286260", null ],
+    [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a818a9e719c08547654d23e1148827056", null ],
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a98795ce8a2a778eda7d7837e7ffb2e87", null ],
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#a63edc132fe638793c9afef11d26b6320", null ],
     [ "PixelBitSet", "classMR_1_1PixelBitSet.html#ac81e0ed6df0e4e48ea7d2442e68b522d", null ],
@@ -15,6 +17,7 @@ var classMR_1_1PixelBitSet =
     [ "flip", "classMR_1_1PixelBitSet.html#abb30e018fe7f877d5a9e991928ca1101", null ],
     [ "flip", "classMR_1_1PixelBitSet.html#a6129c0ea0655e81c1b61786fc4d6841a", null ],
     [ "flip", "classMR_1_1PixelBitSet.html#a018339c863ff6e653b33fd6637534757", null ],
+    [ "operator MR.BitSet", "classMR_1_1PixelBitSet.html#a496e78f1246762eba8e64767b84d1282", null ],
     [ "popBack", "classMR_1_1PixelBitSet.html#a29831e5f85456749dc415d8d6223bbf6", null ],
     [ "pushBack", "classMR_1_1PixelBitSet.html#abc3a7cd6be3c98bf3607aa2bdbea03c9", null ],
     [ "reserve", "classMR_1_1PixelBitSet.html#a36bf739fab816b5af19b28ff20329c0f", null ],

@@ -1,0 +1,603 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_WatershedGraph_BdInfo</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1afd6a88e4c11a25e29be63bf3d35cb7bc" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_WatershedGraph_BdInfo::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.element_type_byte_size</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89711" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ae17c859d173028fe36b89ade4596f348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_WatershedGraph_BdInfo.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89712" bodyend="89715"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a7d63ccd8d62ffed4c8aaca0026961513" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89717" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89717" bodyend="89720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a4e5aa6e9ed713dbf99d7743396589bbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89722" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89722" bodyend="89725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a24191d50245593bd580f3df2bd044d09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo" kindref="compound">std_vector_WatershedGraph_BdInfo</ref></type>
+        <definition> std_vector_WatershedGraph_BdInfo mrmeshpy.std_vector_WatershedGraph_BdInfo.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89727" bodyend="89730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a937d958e20d1072d0364da4bbb9b585c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref></type>
+        <definition> WatershedGraph.BdInfo mrmeshpy.std_vector_WatershedGraph_BdInfo.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89732" bodyend="89733"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1af9133df49f5bfdaf5e82db840b2b29ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89735" bodyend="89736"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a30270619b5743412bc998926528ad320" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89738" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89738" bodyend="89739"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a992d9cadaf3f0d06f56cf89614d539d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.__init__</definition>
+        <argsstring>(self, std_vector_WatershedGraph_BdInfo arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo" kindref="compound">std_vector_WatershedGraph_BdInfo</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89741" bodyend="89742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1aff240d4e00827cb9a5e7422fb109a54e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref>]</type>
+        <definition> typing.Iterator[WatershedGraph.BdInfo] mrmeshpy.std_vector_WatershedGraph_BdInfo.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89743" bodyend="89744"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a920903d9a71a825cb3c9050a2a3d25b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_WatershedGraph_BdInfo.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89745" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89745" bodyend="89746"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1aec8e01e4099939ae4ff79e5ed719488b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.__setitem__</definition>
+        <argsstring>(self, int arg0, WatershedGraph.BdInfo arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89748" bodyend="89749"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a0b7e4383dbf852c02f00b1cc29220f42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_WatershedGraph_BdInfo arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo" kindref="compound">std_vector_WatershedGraph_BdInfo</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89751" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89751" bodyend="89754"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a6b2baaacb5e224cb1e9bc48ea9c5490c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.append</definition>
+        <argsstring>(self, WatershedGraph.BdInfo x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89755" bodyend="89758"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a8bbca9b1664b833a0019898f1665dba7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89759" bodyend="89762"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a0122c4f297d8db84bf2f19afdf624dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_WatershedGraph_BdInfo.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89763" bodyend="89766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a71ad92b6380d3787cdb1bd104ee5a8ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_WatershedGraph_BdInfo.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89767" bodyend="89768"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a125f82ef75d3e9b6296c57e215d02a65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.extend</definition>
+        <argsstring>(self, std_vector_WatershedGraph_BdInfo L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo" kindref="compound">std_vector_WatershedGraph_BdInfo</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89770" bodyend="89773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ac3454f92efcc8d68fc2cc54203ab9bac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89775" bodyend="89778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ae4a3bc05efcdb4f2bdf6718ab99cae76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.insert</definition>
+        <argsstring>(self, int i, WatershedGraph.BdInfo x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89779" bodyend="89782"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a66b7649f2284acd0b0d0aba248e7cdfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref></type>
+        <definition> WatershedGraph.BdInfo mrmeshpy.std_vector_WatershedGraph_BdInfo.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89784" bodyend="89787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ae3f10014fa1edb4e0a75a71d2d083b66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref></type>
+        <definition> WatershedGraph.BdInfo mrmeshpy.std_vector_WatershedGraph_BdInfo.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89789" bodyend="89792"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ad853ed8e0da163abe1ee7af2df0a9f06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89794" bodyend="89795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ac406d3c728bf792520a69b42ca43e555" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_WatershedGraph_BdInfo.resize</definition>
+        <argsstring>(self, int arg0, WatershedGraph.BdInfo arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WatershedGraph_1_1BdInfo" kindref="compound">WatershedGraph.BdInfo</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89797" bodyend="89798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a2424b24ea3fc9ae31b91f898f3b2f29c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_WatershedGraph_BdInfo.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_WatershedGraph_BdInfo.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89799" bodyend="89800"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_WatershedGraph_BdInfo</label>
+        <link refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="89710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="89710" bodyend="89800"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ae17c859d173028fe36b89ade4596f348" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a7d63ccd8d62ffed4c8aaca0026961513" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a4e5aa6e9ed713dbf99d7743396589bbb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a24191d50245593bd580f3df2bd044d09" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a937d958e20d1072d0364da4bbb9b585c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1af9133df49f5bfdaf5e82db840b2b29ed" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a30270619b5743412bc998926528ad320" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a992d9cadaf3f0d06f56cf89614d539d4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1aff240d4e00827cb9a5e7422fb109a54e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a920903d9a71a825cb3c9050a2a3d25b9" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1aec8e01e4099939ae4ff79e5ed719488b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a0b7e4383dbf852c02f00b1cc29220f42" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a6b2baaacb5e224cb1e9bc48ea9c5490c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a8bbca9b1664b833a0019898f1665dba7" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a0122c4f297d8db84bf2f19afdf624dfd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1afd6a88e4c11a25e29be63bf3d35cb7bc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a71ad92b6380d3787cdb1bd104ee5a8ad" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a125f82ef75d3e9b6296c57e215d02a65" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ac3454f92efcc8d68fc2cc54203ab9bac" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ae4a3bc05efcdb4f2bdf6718ab99cae76" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a66b7649f2284acd0b0d0aba248e7cdfa" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ae3f10014fa1edb4e0a75a71d2d083b66" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ad853ed8e0da163abe1ee7af2df0a9f06" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1ac406d3c728bf792520a69b42ca43e555" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__WatershedGraph__BdInfo_1a2424b24ea3fc9ae31b91f898f3b2f29c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_WatershedGraph_BdInfo</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

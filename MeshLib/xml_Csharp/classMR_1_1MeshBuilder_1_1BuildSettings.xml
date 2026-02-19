@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1MeshBuilder_1_1BuildSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::MeshBuilder::BuildSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.MeshBuilder.Const_BuildSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1BuildSettings_1a1ad1fbe7ffbc9f7f7bb36d70615c15bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>new unsafe MR.? FaceBitSet MR.MeshBuilder.BuildSettings.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.region</qualifiedname>
+        <briefdescription>
+<para>if region is given then on input it contains the faces to be added, and on output the faces failed to be added </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="393" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="394" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1BuildSettings_1af5cb0e459769ff383450f1d21a8309da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.MeshBuilder.BuildSettings.shiftFaceId</definition>
+        <argsstring></argsstring>
+        <name>shiftFaceId</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.shiftFaceId</qualifiedname>
+        <briefdescription>
+<para>this value to be added to every faceId before its inclusion in the topology </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="406" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="406" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1BuildSettings_1a5e91b3252a2b750bdbff5c1460c006a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.MeshBuilder.BuildSettings.allowNonManifoldEdge</definition>
+        <argsstring></argsstring>
+        <name>allowNonManifoldEdge</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.allowNonManifoldEdge</qualifiedname>
+        <briefdescription>
+<para>whether to permit non-manifold edges in the resulting topology </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="409" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1MeshBuilder_1_1BuildSettings_1a20a2fc972d67e27dec752690835a92c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Misc.? Box&lt; int &gt;</type>
+        <definition>new unsafe MR.Misc.? Box&lt;int&gt; MR.MeshBuilder.BuildSettings.skippedFaceCount</definition>
+        <argsstring></argsstring>
+        <name>skippedFaceCount</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.skippedFaceCount</qualifiedname>
+        <briefdescription>
+<para>optional output: counter of skipped faces during mesh creation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="412" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="413" bodyend="422"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1BuildSettings_1a588055a522f6c501ec153acd331a6ea6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.BuildSettings.BuildSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BuildSettings</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.BuildSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="426" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="426" bodyend="430"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1BuildSettings_1abb30aea5457b6a255f59f815708ce63f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.BuildSettings.BuildSettings</definition>
+        <argsstring>()</argsstring>
+        <name>BuildSettings</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.BuildSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="436" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="436" bodyend="442"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1BuildSettings_1adb599b50d7285c2d6bb57945e1b4a7e9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.BuildSettings.BuildSettings</definition>
+        <argsstring>(MR.FaceBitSet? region, int shiftFaceId, bool allowNonManifoldEdge, MR.Misc.InOut&lt; int &gt;? skippedFaceCount)</argsstring>
+        <name>BuildSettings</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.BuildSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>shiftFaceId</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allowNonManifoldEdge</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; int &gt;?</type>
+          <declname>skippedFaceCount</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">MR.MeshBuilder.BuildSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="447" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="447" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1BuildSettings_1a81bd6d75df5d74ed8be2c4c51ff097d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.MeshBuilder.BuildSettings.BuildSettings</definition>
+        <argsstring>(MR.MeshBuilder.Const_BuildSettings _other)</argsstring>
+        <name>BuildSettings</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.BuildSettings</qualifiedname>
+        <param>
+          <type>MR.MeshBuilder.Const_BuildSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshBuilder.BuildSettings.BuildSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="461" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="461" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1BuildSettings_1ad6a35daddf8962c68b16b764044a6e8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.MeshBuilder.BuildSettings.BuildSettings</definition>
+        <argsstring>(BuildSettings _other)</argsstring>
+        <name>BuildSettings</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.BuildSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">BuildSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.MeshBuilder.BuildSettings.BuildSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="473" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="473" bodyend="473"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1MeshBuilder_1_1BuildSettings_1a4db8e888795b0b0bebcf3b5f61a49f2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">MR.MeshBuilder.BuildSettings</ref></type>
+        <definition>unsafe MR.MeshBuilder.BuildSettings MR.MeshBuilder.BuildSettings.assign</definition>
+        <argsstring>(MR.MeshBuilder.Const_BuildSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.MeshBuilder.BuildSettings.assign</qualifiedname>
+        <param>
+          <type>MR.MeshBuilder.Const_BuildSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.MeshBuilder.BuildSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="478" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="478" bodyend="485"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1MeshBuilder_1_1BuildSettings" kindref="compound">MR.MeshBuilder.BuildSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BuildSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshBuilder.BuildSettings</label>
+        <link refid="classMR_1_1MeshBuilder_1_1BuildSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BuildSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BuildSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.MeshBuilder.BuildSettings</label>
+        <link refid="classMR_1_1MeshBuilder_1_1BuildSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BuildSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" line="390" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBuilderTypes.cs" bodystart="391" bodyend="486"/>
+    <listofallmembers>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1a5e91b3252a2b750bdbff5c1460c006a1" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>allowNonManifoldEdge</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1a4db8e888795b0b0bebcf3b5f61a49f2a" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1a588055a522f6c501ec153acd331a6ea6" prot="package" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>BuildSettings</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1abb30aea5457b6a255f59f815708ce63f" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>BuildSettings</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1adb599b50d7285c2d6bb57945e1b4a7e9" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>BuildSettings</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1a81bd6d75df5d74ed8be2c4c51ff097d4" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>BuildSettings</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1ad6a35daddf8962c68b16b764044a6e8d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>BuildSettings</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1a1ad1fbe7ffbc9f7f7bb36d70615c15bf" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>region</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1af5cb0e459769ff383450f1d21a8309da" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>shiftFaceId</name></member>
+      <member refid="classMR_1_1MeshBuilder_1_1BuildSettings_1a20a2fc972d67e27dec752690835a92c6" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::BuildSettings</scope><name>skippedFaceCount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

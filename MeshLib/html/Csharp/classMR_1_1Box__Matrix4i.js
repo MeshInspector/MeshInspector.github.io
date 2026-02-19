@@ -14,7 +14,9 @@ var classMR_1_1Box__Matrix4i =
     [ "setRotation", "classMR_1_1Box__Matrix4i.html#a8262a3c76ab9afb73ed4c9d320507235", null ],
     [ "setTranslation", "classMR_1_1Box__Matrix4i.html#ae983cb9334c0c6ca62071a8be96e5042", null ],
     [ "subAssign", "classMR_1_1Box__Matrix4i.html#aea4a851c31e86536f64dbf1cbeac2f3f", null ],
-    [ "_Ref", "classMR_1_1Box__Matrix4i.html#ac63bcc4778f27077a794c362b27c4f9e", null ],
     [ "this[int row]", "classMR_1_1Box__Matrix4i.html#abc946a1466aa550e2fd23312d2687875", null ],
-    [ "x", "classMR_1_1Box__Matrix4i.html#a5624143e1b50958f19dd12f3063f8453", null ]
+    [ "w", "classMR_1_1Box__Matrix4i.html#a8bd871e2d29d3a2c942de94437de5a34", null ],
+    [ "x", "classMR_1_1Box__Matrix4i.html#a5624143e1b50958f19dd12f3063f8453", null ],
+    [ "y", "classMR_1_1Box__Matrix4i.html#a959fd4631a529dfced14d1865fce7885", null ],
+    [ "z", "classMR_1_1Box__Matrix4i.html#ac5468c1023ef6c095a198f7ce01dd5e6", null ]
 ];

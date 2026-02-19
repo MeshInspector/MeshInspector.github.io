@@ -1,7 +1,6 @@
 var classMR_1_1PointsSave =
 [
-    [ "PointsFileSaver", "../Cpp/namespaceMR_1_1PointsSave.html#a356417aed0685b9e9741744f7b357eba", null ],
-    [ "PointsStreamSaver", "../Cpp/namespaceMR_1_1PointsSave.html#a1c0d45a07ed1828ee0d1190c6ca69cab", null ],
+    [ "CtmSavePointsOptions", "classMR_1_1PointsSave_1_1CtmSavePointsOptions.html", "classMR_1_1PointsSave_1_1CtmSavePointsOptions" ],
     [ "toAnySupportedFormat", "classMR_1_1PointsSave.html#a7e482985a7a82dc630a58ba71b686485", null ],
     [ "toAnySupportedFormat", "classMR_1_1PointsSave.html#acf3808f220288d8e2eb322198d04f881", null ],
     [ "toAsc", "classMR_1_1PointsSave.html#a2f3f45cbb3c3210659927d349c93113d", null ],

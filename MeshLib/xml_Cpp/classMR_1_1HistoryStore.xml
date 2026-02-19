@@ -1,0 +1,620 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1HistoryStore" kind="class" language="C++" prot="public">
+    <compoundname>MR::HistoryStore</compoundname>
+    <includes refid="MRHistoryStore_8h" local="no">MRHistoryStore.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ChangeType</name>
+        <qualifiedname>MR::HistoryStore::ChangeType</qualifiedname>
+        <enumvalue id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ab1f903446317b676619997d1d95f21b2" prot="public">
+          <name>PreAppendAction</name>
+          <briefdescription>
+<para>called before action is appended (allows to decorate raw actions with scopes): action - that is about to be added </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a8fd03bb4371f2faa3cfb6162d2023f02" prot="public">
+          <name>PostAppendAction</name>
+          <briefdescription>
+<para>called after action is appended either to store or to current scope: action - one that was just added </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a0e2f39f2f81bffc8a9ff7650dbc6a4c2" prot="public">
+          <name>PreUndo</name>
+          <briefdescription>
+<para>called right before action is undone: action - the that will be undone </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a2c1eed708cb6c0e9c674f7a13d937b6c" prot="public">
+          <name>PostUndo</name>
+          <briefdescription>
+<para>called right after action is undone: action - the that have been undone </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4a16485c2c1e58a75a3a3338996bdb39d1" prot="public">
+          <name>PreRedo</name>
+          <briefdescription>
+<para>called right before action is redone: action - the that will be redone </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4af15a8966f04442a6c277545a9627a4c2" prot="public">
+          <name>PostRedo</name>
+          <briefdescription>
+<para>called right after action is redone: action - the that have been redone </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4adc30bc0c7914db5918da4263fce93ad2" prot="public">
+          <name>Clear</name>
+          <briefdescription>
+<para>called when this store is cleaned: action - nullptr </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad302b1840356cafc9727c17b462a452f" prot="public">
+          <name>PopAction</name>
+          <briefdescription>
+<para>called after removing action that exceeds memory limit: action - nullptr </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4ad7778d0c64b6ba21494c97f77a66885a" prot="public">
+          <name>Filter</name>
+          <briefdescription>
+<para>called after this store is filtered: action - nullptr </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para><ref refid="structMR_1_1Signal" kindref="compound">Signal</ref> is called after this store changed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="82" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="83" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" prot="public" static="no">
+        <type>boost::signals2::signal&lt; void(<ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> &amp;store, <ref refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" kindref="member">ChangeType</ref>, std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt; action)&gt;</type>
+        <definition>using MR::HistoryStore::HistoryStoreChangedSignal =  boost::signals2::signal&lt;void( HistoryStore&amp; store, ChangeType, std::shared_ptr&lt;HistoryAction&gt; action )&gt;</definition>
+        <argsstring></argsstring>
+        <name>HistoryStoreChangedSignal</name>
+        <qualifiedname>MR::HistoryStore::HistoryStoreChangedSignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="94" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classMR_1_1HistoryStore_1afcedddcbe7c972d3a5b239e53a0f17ee" prot="public" static="no" mutable="no">
+        <type><ref refid="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" kindref="member">HistoryStoreChangedSignal</ref></type>
+        <definition>HistoryStoreChangedSignal MR::HistoryStore::changedSignal</definition>
+        <argsstring></argsstring>
+        <name>changedSignal</name>
+        <qualifiedname>MR::HistoryStore::changedSignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="95" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1HistoryStore_1ad4ae2d5a23f7a50246c84ea58037c1c3" prot="private" static="no" mutable="no">
+        <type><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref> *</type>
+        <definition>HistoryActionsVector* MR::HistoryStore::scopedBlock_</definition>
+        <argsstring></argsstring>
+        <name>scopedBlock_</name>
+        <qualifiedname>MR::HistoryStore::scopedBlock_</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+<para>buffer for merging actions, if present, used for storing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="99" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1HistoryStore_1aed0e12ff84e63d845ee0b029f35c3d34" prot="private" static="no" mutable="no">
+        <type><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref></type>
+        <definition>HistoryActionsVector MR::HistoryStore::stack_</definition>
+        <argsstring></argsstring>
+        <name>stack_</name>
+        <qualifiedname>MR::HistoryStore::stack_</qualifiedname>
+        <briefdescription>
+<para>main history stack </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="102" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1HistoryStore_1aebe17336faa9e654050260e82c2ed015" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::HistoryStore::firstRedoIndex_</definition>
+        <argsstring></argsstring>
+        <name>firstRedoIndex_</name>
+        <qualifiedname>MR::HistoryStore::firstRedoIndex_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+<para>this index points to first redo action or equals to size of stack if no redo is available </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="105" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1HistoryStore_1af31638e683b171500f05b72b77c95096" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::HistoryStore::savedSceneIndex_</definition>
+        <argsstring></argsstring>
+        <name>savedSceneIndex_</name>
+        <qualifiedname>MR::HistoryStore::savedSceneIndex_</qualifiedname>
+        <initializer>{ 0 }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>this index points to the position in stack_ corresponding to saved scene state; if firstRedoIndex_ == savedSceneIndex_ then the scene is considered as not modified </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="109" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1HistoryStore_1a073a36acb7f7db51782c2e7a13a0289a" prot="private" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::HistoryStore::storageLimit_</definition>
+        <argsstring></argsstring>
+        <name>storageLimit_</name>
+        <qualifiedname>MR::HistoryStore::storageLimit_</qualifiedname>
+        <initializer>{ size_t( ~0 ) }</initializer>
+        <briefdescription>
+<para>memory limit (bytes) to this <ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> if stack_ exceed it, old actions are removed </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="112" column="12" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="112" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1HistoryStore_1a472abaa2a395b236afb568457688375e" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::HistoryStore::undoRedoInProgress_</definition>
+        <argsstring></argsstring>
+        <name>undoRedoInProgress_</name>
+        <qualifiedname>MR::HistoryStore::undoRedoInProgress_</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>true only during Undo or Redo ongoing operation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="115" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="115" bodyend="115"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a79d9326f089992c7b1a6a573a2d367ae" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API <ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> *</type>
+        <definition>static MRVIEWER_API HistoryStore * MR::HistoryStore::getViewerInstance</definition>
+        <argsstring>()</argsstring>
+        <name>getViewerInstance</name>
+        <qualifiedname>MR::HistoryStore::getViewerInstance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns the instance (if any) of <ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref> from the viewer returns nullptr if history store is not available </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="20" column="39"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a1d11982a306bc53b5ccaddff114cd614" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API</type>
+        <definition>virtual MRVIEWER_API MR::HistoryStore::~HistoryStore</definition>
+        <argsstring>()</argsstring>
+        <name>~HistoryStore</name>
+        <qualifiedname>MR::HistoryStore::~HistoryStore</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="22" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1aa0c8ea0276f02eca0f11f888ecfc39f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>virtual MRVIEWER_API void MR::HistoryStore::appendAction</definition>
+        <argsstring>(std::shared_ptr&lt; HistoryAction &gt; action)</argsstring>
+        <name>appendAction</name>
+        <qualifiedname>MR::HistoryStore::appendAction</qualifiedname>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt;</type>
+          <declname>action</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Adds action in history stack (clears available redo actions) adds actions to scope block if scope mode is active (do not affect main stack) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="26" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a44c0ab7153a1b5967525c1cea2fe4e67" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref> *</type>
+        <definition>HistoryActionsVector * MR::HistoryStore::getScopeBlockPtr</definition>
+        <argsstring>() const</argsstring>
+        <name>getScopeBlockPtr</name>
+        <qualifiedname>MR::HistoryStore::getScopeBlockPtr</qualifiedname>
+        <briefdescription>
+<para>Returns current scope ptr. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="29" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1afd26beea23b71e238921b37d2baa32ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::HistoryStore::setScopeBlockPtr</definition>
+        <argsstring>(HistoryActionsVector *scopedBlock)</argsstring>
+        <name>setScopeBlockPtr</name>
+        <qualifiedname>MR::HistoryStore::setScopeBlockPtr</qualifiedname>
+        <param>
+          <type><ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref> *</type>
+          <declname>scopedBlock</declname>
+        </param>
+        <briefdescription>
+<para>Sets pointer to current scope block. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="32" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1af2142010702571f062becfaf361b015c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::HistoryStore::isSceneModified</definition>
+        <argsstring>() const</argsstring>
+        <name>isSceneModified</name>
+        <qualifiedname>MR::HistoryStore::isSceneModified</qualifiedname>
+        <briefdescription>
+<para>Returns true if the current scene state does not match the saved state. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="35" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="35" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1ae49bd57fda5c9d3b6005f942e9ee7f45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::HistoryStore::setSavedState</definition>
+        <argsstring>()</argsstring>
+        <name>setSavedState</name>
+        <qualifiedname>MR::HistoryStore::setSavedState</qualifiedname>
+        <briefdescription>
+<para>Consider the current scene state as saved. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="38" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="38" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1aeaca3b28f85fa63c443235a4539cfa25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::HistoryStore::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR::HistoryStore::clear</qualifiedname>
+        <briefdescription>
+<para>Clears this <ref refid="classMR_1_1HistoryStore" kindref="compound">HistoryStore</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="41" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a48c223a0850725e085ef49953af02cd1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::HistoryStore::setMemoryLimit</definition>
+        <argsstring>(size_t limit)</argsstring>
+        <name>setMemoryLimit</name>
+        <qualifiedname>MR::HistoryStore::setMemoryLimit</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>limit</declname>
+        </param>
+        <briefdescription>
+<para>Set memory limit for this store, if history stack exceed it - old actions are removed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="44" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="44" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a45b3529c2a011c9abd585452550ac145" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::HistoryStore::getMemoryLimit</definition>
+        <argsstring>() const</argsstring>
+        <name>getMemoryLimit</name>
+        <qualifiedname>MR::HistoryStore::getMemoryLimit</qualifiedname>
+        <briefdescription>
+<para>Returns current memory limit for this store (by default uint64 max) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="47" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="47" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1ae5153ad77359e03f6105aa8db1293b14" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API size_t</type>
+        <definition>MRVIEWER_API size_t MR::HistoryStore::calcUsedMemory</definition>
+        <argsstring>() const</argsstring>
+        <name>calcUsedMemory</name>
+        <qualifiedname>MR::HistoryStore::calcUsedMemory</qualifiedname>
+        <briefdescription>
+<para>Compute amount of memory occupied by all actions in this store. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="50" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a6c72ca2143023fcef93b3e221d010c6d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const <ref refid="group__GeneralGroup_1ga951264a40637210aff82d6b0e375446f" kindref="member">HistoryActionsVector</ref> &amp;</type>
+        <definition>const HistoryActionsVector &amp; MR::HistoryStore::getHistoryStack</definition>
+        <argsstring>() const</argsstring>
+        <name>getHistoryStack</name>
+        <qualifiedname>MR::HistoryStore::getHistoryStack</qualifiedname>
+        <briefdescription>
+<para>Returns full history stack. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="53" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a68425383420b18f6c04f4405f2e4a1f5" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::HistoryStore::getStackPointer</definition>
+        <argsstring>() const</argsstring>
+        <name>getStackPointer</name>
+        <qualifiedname>MR::HistoryStore::getStackPointer</qualifiedname>
+        <briefdescription>
+<para>Returns index of first redo action in stack. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="56" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a34a9d69ae6d37fc5a5b4155b63d3c100" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::HistoryStore::filterStack</definition>
+        <argsstring>(HistoryStackFilter filteringCondition, bool deepFiltering=true)</argsstring>
+        <name>filterStack</name>
+        <qualifiedname>MR::HistoryStore::filterStack</qualifiedname>
+        <param>
+          <type><ref refid="group__GeneralGroup_1ga85276508657eac277a84365d3e41c118" kindref="member">HistoryStackFilter</ref></type>
+          <declname>filteringCondition</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>deepFiltering</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>remove some actions according to condition </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="59" column="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a0bce5005471a434712469838de3edcd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::HistoryStore::undo</definition>
+        <argsstring>()</argsstring>
+        <name>undo</name>
+        <qualifiedname>MR::HistoryStore::undo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs undo of one action, must not be called during ongoing undo or redo, temporary sets <ref refid="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" kindref="member">undoRedoInProgress()</ref>=true <simplesect kind="return"><para>false if nothing to undo or if <ref refid="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" kindref="member">undoRedoInProgress()</ref>=true </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="63" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a5c5f420102ae277252e92dea8b27fa2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>virtual MRVIEWER_API bool MR::HistoryStore::redo</definition>
+        <argsstring>()</argsstring>
+        <name>redo</name>
+        <qualifiedname>MR::HistoryStore::redo</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performs redo of one action, must not be called during ongoing undo or redo, temporary sets <ref refid="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" kindref="member">undoRedoInProgress()</ref>=true <simplesect kind="return"><para>false if nothing to redo or if <ref refid="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" kindref="member">undoRedoInProgress()</ref>=true </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="67" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::HistoryStore::undoRedoInProgress</definition>
+        <argsstring>() const</argsstring>
+        <name>undoRedoInProgress</name>
+        <qualifiedname>MR::HistoryStore::undoRedoInProgress</qualifiedname>
+        <briefdescription>
+<para>true only during Undo or Redo ongoing operation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="70" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="70" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a8f09d582234535d00d32ca5ece30c992" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::vector&lt; std::string &gt;</type>
+        <definition>MRVIEWER_API std::vector&lt; std::string &gt; MR::HistoryStore::getNActions</definition>
+        <argsstring>(unsigned n, HistoryAction::Type type) const</argsstring>
+        <name>getNActions</name>
+        <qualifiedname>MR::HistoryStore::getNActions</qualifiedname>
+        <param>
+          <type>unsigned</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns names of last N undo actions or first N redo actions. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="73" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a9a8500d0fc99954fc5387bad5fe4367e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::shared_ptr&lt; <ref refid="classMR_1_1HistoryAction" kindref="compound">HistoryAction</ref> &gt;</type>
+        <definition>MRVIEWER_API std::shared_ptr&lt; HistoryAction &gt; MR::HistoryStore::getLastAction</definition>
+        <argsstring>(HistoryAction::Type type) const</argsstring>
+        <name>getLastAction</name>
+        <qualifiedname>MR::HistoryStore::getLastAction</qualifiedname>
+        <param>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns the last undo or redo action based on requested type or empty pointer if corresponding stack is empty. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="76" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1ae95320267281820e0d4bdb60d052085e" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::string</type>
+        <definition>MRVIEWER_API std::string MR::HistoryStore::getLastActionName</definition>
+        <argsstring>(HistoryAction::Type type) const</argsstring>
+        <name>getLastActionName</name>
+        <qualifiedname>MR::HistoryStore::getLastActionName</qualifiedname>
+        <param>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns the name of last undo or redo action (or empty string if there is no such action) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="79" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1HistoryStore_1a8042fadc60cba3c3bad3e9360cb971e9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::HistoryStore::filterByMemoryLimit_</definition>
+        <argsstring>()</argsstring>
+        <name>filterByMemoryLimit_</name>
+        <qualifiedname>MR::HistoryStore::filterByMemoryLimit_</qualifiedname>
+        <briefdescription>
+<para>removes all undo actions from the beginning of the stack that exceed memory limit </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="118" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This class stores history stack for undo/redo. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRHistoryStore.h" bodystart="16" bodyend="119"/>
+    <listofallmembers>
+      <member refid="classMR_1_1HistoryStore_1aa0c8ea0276f02eca0f11f888ecfc39f4" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>appendAction</name></member>
+      <member refid="classMR_1_1HistoryStore_1ae5153ad77359e03f6105aa8db1293b14" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>calcUsedMemory</name></member>
+      <member refid="classMR_1_1HistoryStore_1afcedddcbe7c972d3a5b239e53a0f17ee" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>changedSignal</name></member>
+      <member refid="classMR_1_1HistoryStore_1abfd9d90c02f0673577386845f1f608c4" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>ChangeType</name></member>
+      <member refid="classMR_1_1HistoryStore_1aeaca3b28f85fa63c443235a4539cfa25" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>clear</name></member>
+      <member refid="classMR_1_1HistoryStore_1a8042fadc60cba3c3bad3e9360cb971e9" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>filterByMemoryLimit_</name></member>
+      <member refid="classMR_1_1HistoryStore_1a34a9d69ae6d37fc5a5b4155b63d3c100" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>filterStack</name></member>
+      <member refid="classMR_1_1HistoryStore_1aebe17336faa9e654050260e82c2ed015" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>firstRedoIndex_</name></member>
+      <member refid="classMR_1_1HistoryStore_1a6c72ca2143023fcef93b3e221d010c6d" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getHistoryStack</name></member>
+      <member refid="classMR_1_1HistoryStore_1a9a8500d0fc99954fc5387bad5fe4367e" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getLastAction</name></member>
+      <member refid="classMR_1_1HistoryStore_1ae95320267281820e0d4bdb60d052085e" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getLastActionName</name></member>
+      <member refid="classMR_1_1HistoryStore_1a45b3529c2a011c9abd585452550ac145" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getMemoryLimit</name></member>
+      <member refid="classMR_1_1HistoryStore_1a8f09d582234535d00d32ca5ece30c992" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getNActions</name></member>
+      <member refid="classMR_1_1HistoryStore_1a44c0ab7153a1b5967525c1cea2fe4e67" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getScopeBlockPtr</name></member>
+      <member refid="classMR_1_1HistoryStore_1a68425383420b18f6c04f4405f2e4a1f5" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getStackPointer</name></member>
+      <member refid="classMR_1_1HistoryStore_1a79d9326f089992c7b1a6a573a2d367ae" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>getViewerInstance</name></member>
+      <member refid="classMR_1_1HistoryStore_1a011909b9aa7a4cba9468e81a690b817f" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>HistoryStoreChangedSignal</name></member>
+      <member refid="classMR_1_1HistoryStore_1af2142010702571f062becfaf361b015c" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>isSceneModified</name></member>
+      <member refid="classMR_1_1HistoryStore_1a5c5f420102ae277252e92dea8b27fa2f" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>redo</name></member>
+      <member refid="classMR_1_1HistoryStore_1af31638e683b171500f05b72b77c95096" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>savedSceneIndex_</name></member>
+      <member refid="classMR_1_1HistoryStore_1ad4ae2d5a23f7a50246c84ea58037c1c3" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>scopedBlock_</name></member>
+      <member refid="classMR_1_1HistoryStore_1a48c223a0850725e085ef49953af02cd1" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>setMemoryLimit</name></member>
+      <member refid="classMR_1_1HistoryStore_1ae49bd57fda5c9d3b6005f942e9ee7f45" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>setSavedState</name></member>
+      <member refid="classMR_1_1HistoryStore_1afd26beea23b71e238921b37d2baa32ad" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>setScopeBlockPtr</name></member>
+      <member refid="classMR_1_1HistoryStore_1aed0e12ff84e63d845ee0b029f35c3d34" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>stack_</name></member>
+      <member refid="classMR_1_1HistoryStore_1a073a36acb7f7db51782c2e7a13a0289a" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>storageLimit_</name></member>
+      <member refid="classMR_1_1HistoryStore_1a0bce5005471a434712469838de3edcd7" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>undo</name></member>
+      <member refid="classMR_1_1HistoryStore_1a759c9c7fe846fe0738cf8846bfb0cbad" prot="public" virt="non-virtual"><scope>MR::HistoryStore</scope><name>undoRedoInProgress</name></member>
+      <member refid="classMR_1_1HistoryStore_1a472abaa2a395b236afb568457688375e" prot="private" virt="non-virtual"><scope>MR::HistoryStore</scope><name>undoRedoInProgress_</name></member>
+      <member refid="classMR_1_1HistoryStore_1a1d11982a306bc53b5ccaddff114cd614" prot="public" virt="virtual"><scope>MR::HistoryStore</scope><name>~HistoryStore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

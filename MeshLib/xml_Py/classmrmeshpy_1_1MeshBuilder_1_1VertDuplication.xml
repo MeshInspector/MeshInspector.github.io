@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshBuilder::VertDuplication</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a6f34520932a1a0d7d0172d67a3464473" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.VertDuplication::_offsetof_dupVert</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dupVert</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication._offsetof_dupVert</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31536" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a598c93e2a242e9b584221bbb1d551c2c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshBuilder.VertDuplication::_offsetof_srcVert</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_srcVert</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication._offsetof_srcVert</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31537" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a0aed7a92c7a63083b9468acda70c5900" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertDuplication.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31540" bodyend="31541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a228881cbe279eb50915b195f6baab869" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication" kindref="compound">MeshBuilder.VertDuplication</ref></type>
+        <definition> MeshBuilder.VertDuplication mrmeshpy.MeshBuilder.VertDuplication.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31544" bodyend="31545"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a228881cbe279eb50915b195f6baab869" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication" kindref="compound">MeshBuilder.VertDuplication</ref></type>
+        <definition> MeshBuilder.VertDuplication mrmeshpy.MeshBuilder.VertDuplication.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31548" bodyend="31549"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a9d44bdfd6d0c1129d819f19104dbb87f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertDuplication.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31551" bodyend="31552"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1ab241d0d547e49b7464138f9f0be63597" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertDuplication.__init__</definition>
+        <argsstring>(self, MeshBuilder.VertDuplication arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication" kindref="compound">MeshBuilder.VertDuplication</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31554" bodyend="31557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a59be0c9e4876322fedb862840fbe9b71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertDuplication.__init__</definition>
+        <argsstring>(self, VertId srcVert, VertId dupVert)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>srcVert</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>dupVert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31559" bodyend="31562"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a7ac714a919132127d650533e64db67fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.MeshBuilder.VertDuplication.dupVert</definition>
+        <argsstring>(self)</argsstring>
+        <name>dupVert</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.dupVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>new vertex after duplication
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31564" bodyend="31567"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a5eb2bdffa39fb39784d4c3801717b3cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertDuplication.dupVert</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>dupVert</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.dupVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31569" bodyend="31570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a82c6b0a7d5b11cd9c65ba557f16a3b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.MeshBuilder.VertDuplication.srcVert</definition>
+        <argsstring>(self)</argsstring>
+        <name>srcVert</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.srcVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>original vertex before duplication
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31572" bodyend="31575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a4b8bfb2e9c2e140621b3ae843a76f869" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshBuilder.VertDuplication.srcVert</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>srcVert</name>
+        <qualifiedname>mrmeshpy.MeshBuilder.VertDuplication.srcVert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31577" bodyend="31579"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshBuilder::VertDuplication
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshBuilder.VertDuplication</label>
+        <link refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dupVert</edgelabel>
+          <edgelabel>_offsetof_srcVert</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="31532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="31532" bodyend="31578"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a0aed7a92c7a63083b9468acda70c5900" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a9d44bdfd6d0c1129d819f19104dbb87f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1ab241d0d547e49b7464138f9f0be63597" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a59be0c9e4876322fedb862840fbe9b71" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a6f34520932a1a0d7d0172d67a3464473" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>_offsetof_dupVert</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a598c93e2a242e9b584221bbb1d551c2c" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>_offsetof_srcVert</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a7ac714a919132127d650533e64db67fd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>dupVert</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a5eb2bdffa39fb39784d4c3801717b3cd" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>dupVert</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a228881cbe279eb50915b195f6baab869" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a228881cbe279eb50915b195f6baab869" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a82c6b0a7d5b11cd9c65ba557f16a3b2b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>srcVert</name></member>
+      <member refid="classmrmeshpy_1_1MeshBuilder_1_1VertDuplication_1a4b8bfb2e9c2e140621b3ae843a76f869" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshBuilder::VertDuplication</scope><name>srcVert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_void_from_Id_EdgeTag_Id_EdgeTag_float</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a1fdc175df8b2d1271a3c1ebdad01b2e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76829" bodyend="76830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1ab2830ce6639a1179f249d83580ce3bd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__call__</definition>
+        <argsstring>(self, EdgeId arg0, EdgeId arg1, float arg2)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76831" bodyend="76832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a0abf5b452f4777d0dae24631aceeac4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76834" bodyend="76835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a85b90ad24717bcf788ac5e0eede5c113" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76837" bodyend="76838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1ab5c09633d8a5e9fc694e293744330702" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__init__</definition>
+        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76840" bodyend="76841"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a94643295cbc7aae687126f9cf68d144c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__init__</definition>
+        <argsstring>(self, typing.Callable[[EdgeId, EdgeId, float], None] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[EdgeId, EdgeId, float]</array>
+        </param>
+        <param>
+          <type>None]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76843" bodyend="76844"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1afa137679d1953ce01b201df937e13a09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76845" bodyend="76848"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a4cb31d75e53b0c909afee2fdf59005e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_void_from_Id_EdgeTag_Id_EdgeTag_float.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76849" bodyend="76852"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76828" bodyend="76852"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a1fdc175df8b2d1271a3c1ebdad01b2e4" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_EdgeTag_Id_EdgeTag_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1ab2830ce6639a1179f249d83580ce3bd0" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_EdgeTag_Id_EdgeTag_float</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a0abf5b452f4777d0dae24631aceeac4a" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_EdgeTag_Id_EdgeTag_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a85b90ad24717bcf788ac5e0eede5c113" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_EdgeTag_Id_EdgeTag_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1ab5c09633d8a5e9fc694e293744330702" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_EdgeTag_Id_EdgeTag_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a94643295cbc7aae687126f9cf68d144c" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_EdgeTag_Id_EdgeTag_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1afa137679d1953ce01b201df937e13a09" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_EdgeTag_Id_EdgeTag_float</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag__float_1a4cb31d75e53b0c909afee2fdf59005e2" prot="public" virt="non-virtual"><scope>mrmeshpy::func_void_from_Id_EdgeTag_Id_EdgeTag_float</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

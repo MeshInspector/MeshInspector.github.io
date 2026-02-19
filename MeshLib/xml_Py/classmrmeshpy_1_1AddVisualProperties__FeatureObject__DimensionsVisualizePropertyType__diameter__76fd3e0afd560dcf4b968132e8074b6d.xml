@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1FeatureObject" prot="public" virt="non-virtual">mrmeshpy.FeatureObject</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1CylinderObject" prot="public" virt="non-virtual">mrmeshpy.CylinderObject</derivedcompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a8ffa19554161fd3c786e459d6bcdc42f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
+        <definition> std_vector_ViewportMask mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length.getAllVisualizeProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length.getAllVisualizeProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a840b68101f6eb43e4abae6222e049566">getAllVisualizeProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get all visualize properties masks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1156" bodyend="1157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a0981de2e4663a97f511bc2b6d27d3bb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition> ViewportMask mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length.getVisualizePropertyMask</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length.getVisualizePropertyMask</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a7b7ed6a567132ae14467b9a6d12479ea">getVisualizePropertyMask</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns mask of viewports where given property is set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1158" bodyend="1159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a25738fcf06e9b13f84b8472c86770caa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length.supportsVisualizeProperty</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length.supportsVisualizeProperty</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1FeatureObject_1a1d424208c478b75ec64eccd64a0d78d6">supportsVisualizeProperty</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if this class supports the property `type`. Otherwise passing it to the functions below is illegal.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1160" bodyend="1161"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AddVisualProperties&lt;MR::FeatureObject, MR::DimensionsVisualizePropertyType::diameter, MR::DimensionsVisualizePropertyType::length&gt;
+
+Inherits from a datamodel object, adding some visual property masks to it.
+`BaseObjectType` is the datamodel type to inherit from.
+`Properties...` is the list of properties to add. Each must be a value from a enum marked as `IsVisualizeMaskEnum`.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.CylinderObject</label>
+        <link refid="classmrmeshpy_1_1CylinderObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1148" bodyend="1161"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a8ffa19554161fd3c786e459d6bcdc42f" prot="public" virt="non-virtual"><scope>mrmeshpy::AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a0981de2e4663a97f511bc2b6d27d3bb2" prot="public" virt="non-virtual"><scope>mrmeshpy::AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a25738fcf06e9b13f84b8472c86770caa" prot="public" virt="non-virtual"><scope>mrmeshpy::AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</scope><name>supportsVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

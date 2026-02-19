@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1CheckboxOrModifierState" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::CheckboxOrModifierState</compoundname>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gadcb5d1f8f18006ba9caee1cf22f7c04a" kind="variable"><name>baseValue</name></member>
+      <member refid="group__GeneralGroup_1ga1b7f056835dfa614cc9907ac8d467d87" kind="variable"><name>modifierHeld</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga2d50ee3bfe60ac20e4bdab21f4a626b4" kind="function"><name>CheckboxOrModifierState</name></member>
+      <member refid="group__GeneralGroup_1ga64d2f07a4cb06b93c9c24f2783692d80" kind="function"><name>CheckboxOrModifierState</name></member>
+      <member refid="group__GeneralGroup_1ga17db618bc34c02a2da1a620fbc1734f4" kind="function"><name>operator bool</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="255" bodyend="268"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gadcb5d1f8f18006ba9caee1cf22f7c04a" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>baseValue</name></member>
+      <member refid="group__GeneralGroup_1ga2d50ee3bfe60ac20e4bdab21f4a626b4" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>CheckboxOrModifierState</name></member>
+      <member refid="group__GeneralGroup_1ga64d2f07a4cb06b93c9c24f2783692d80" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>CheckboxOrModifierState</name></member>
+      <member refid="group__GeneralGroup_1ga1b7f056835dfa614cc9907ac8d467d87" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>modifierHeld</name></member>
+      <member refid="group__GeneralGroup_1ga17db618bc34c02a2da1a620fbc1734f4" prot="public" virt="non-virtual"><scope>MR::UI::CheckboxOrModifierState</scope><name>operator bool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

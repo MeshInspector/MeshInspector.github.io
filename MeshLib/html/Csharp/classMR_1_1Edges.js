@@ -2,6 +2,8 @@ var classMR_1_1Edges =
 [
     [ "Edges", "classMR_1_1Edges.html#a16fa410e1092eb194e3a51a6112a7f7c", null ],
     [ "Edges", "classMR_1_1Edges.html#ab744c297d4ea77fd66c646bce962c37b", null ],
+    [ "Edges", "classMR_1_1Edges.html#a8ac3c347f66390dabfee07765b8c9392", null ],
+    [ "Edges", "classMR_1_1Edges.html#a0f8f985c839213ee9e5545ae285b4e36", null ],
     [ "Edges", "classMR_1_1Edges.html#ab313863625ab22ed0ed63cdedabaa016", null ],
     [ "Edges", "classMR_1_1Edges.html#a64bfb56535091e9a5912b0b48cf49aca", null ],
     [ "Edges", "classMR_1_1Edges.html#a824c2b899a57a7a595447a20c9dc4a91", null ],

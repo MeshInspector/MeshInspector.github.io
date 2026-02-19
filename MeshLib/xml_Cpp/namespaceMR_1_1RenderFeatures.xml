@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1RenderFeatures" kind="namespace" language="C++">
+    <compoundname>MR::RenderFeatures</compoundname>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderCircleFeatureObject" prot="public">MR::RenderFeatures::RenderCircleFeatureObject</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderConeFeatureObject" prot="public">MR::RenderFeatures::RenderConeFeatureObject</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderCylinderFeatureObject" prot="public">MR::RenderFeatures::RenderCylinderFeatureObject</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent" prot="public">MR::RenderFeatures::RenderFeatureComponent</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent" prot="public">MR::RenderFeatures::RenderFeatureLinesComponent</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent" prot="public">MR::RenderFeatures::RenderFeatureMeshComponent</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent" prot="public">MR::RenderFeatures::RenderFeaturePointsComponent</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderLineFeatureObject" prot="public">MR::RenderFeatures::RenderLineFeatureObject</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderPlaneFeatureObject" prot="public">MR::RenderFeatures::RenderPlaneFeatureObject</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent" prot="public">MR::RenderFeatures::RenderPlaneNormalComponent</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderPointFeatureObject" prot="public">MR::RenderFeatures::RenderPointFeatureObject</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1RenderSphereFeatureObject" prot="public">MR::RenderFeatures::RenderSphereFeatureObject</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject" prot="public">MR::RenderFeatures::WrappedModelSubobject</innerclass>
+    <innerclass refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject_3_01false_00_01BaseObjectType_01_4" prot="public">MR::RenderFeatures::WrappedModelSubobject&lt; false, BaseObjectType &gt;</innerclass>
+    <innernamespace refid="namespaceMR_1_1RenderFeatures_1_1detail">MR::RenderFeatures::detail</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="14" column="1"/>
+  </compounddef>
+</doxygen>

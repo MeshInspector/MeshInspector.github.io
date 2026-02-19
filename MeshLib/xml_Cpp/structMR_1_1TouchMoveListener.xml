@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TouchMoveListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::TouchMoveListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga4f362107fcc44cd725b83ae045795b07" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gaeb673042a283a2decd342315c9357a27" kind="function"><name>~TouchMoveListener</name></member>
+      <member refid="group__GeneralGroup_1ga75befbf816c33fde5c01cfa9967acca0" kind="function"><name>connect</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga45f1bdd6f4f5573df003142c4e9a883a" kind="function"><name>onTouchMove_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::TouchMoveListener</label>
+        <link refid="structMR_1_1TouchMoveListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::TouchMoveListener</label>
+        <link refid="structMR_1_1TouchMoveListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="261" bodyend="267"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga75befbf816c33fde5c01cfa9967acca0" prot="public" virt="virtual"><scope>MR::TouchMoveListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::TouchMoveListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::TouchMoveListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga4f362107fcc44cd725b83ae045795b07" prot="public" virt="non-virtual"><scope>MR::TouchMoveListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga45f1bdd6f4f5573df003142c4e9a883a" prot="protected" virt="pure-virtual"><scope>MR::TouchMoveListener</scope><name>onTouchMove_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::TouchMoveListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::TouchMoveListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1gaeb673042a283a2decd342315c9357a27" prot="public" virt="virtual"><scope>MR::TouchMoveListener</scope><name>~TouchMoveListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AABBTreePoints::NodeBitSet</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a97b6a540ea71aa245892003d139c7be2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.NodeBitSet.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="757" bodyend="758"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac7ddfdb209e782c3cdc9d9fdf6a34859" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.beginId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274">beginId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[beginId(), endId()) is the range of all bits in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="760" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="760" bodyend="763"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aefba345684d190e2c6acd6fc16693a2f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="766" bodyend="767"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aefba345684d190e2c6acd6fc16693a2f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="770" bodyend="771"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a3df02c9c6e64a458e4d1b755948bf707" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.__and__</definition>
+        <argsstring>(self, NodeBitSet b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__and__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="772" bodyend="773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1abd2a3d7e5b5225f1bfbf2cedb8b00ff4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.__iand__</definition>
+        <argsstring>(self, NodeBitSet b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__iand__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="774" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6aba2a7e6780ea90c7675900f497d3fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.NodeBitSet.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="777" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="777" bodyend="778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac9c194f18ab852dba9c0c2180e2ff32e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.NodeBitSet.__init__</definition>
+        <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates bitset of given size filled with given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="780" bodyend="783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.NodeBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="785" bodyend="788"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.NodeBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="790" bodyend="793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a75b2a4c88d194278ad98d3d32f63d959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.NodeBitSet.__init__</definition>
+        <argsstring>(self, NodeBitSet arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="795" bodyend="798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a4e58da9e31b546113ab58d33268276bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.__ior__</definition>
+        <argsstring>(self, NodeBitSet b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__ior__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="799" bodyend="800"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a5e433e44da42b65ff6848e9715b99c6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.__isub__</definition>
+        <argsstring>(self, NodeBitSet b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__isub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="801" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="801" bodyend="802"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6a3903e04732376bf5d8ac0d991ef150" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref>]</type>
+        <definition> typing.Iterator[NodeId] mrmeshpy.AABBTreePoints.NodeBitSet.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__iter__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="803" bodyend="804"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1acdcbf376241166bc7fc8485bf26243d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.__ixor__</definition>
+        <argsstring>(self, NodeBitSet b)</argsstring>
+        <name>__ixor__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__ixor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="805" bodyend="806"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a31e96cd2d2877c2c3869d915ad3526ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.__or__</definition>
+        <argsstring>(self, NodeBitSet b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__or__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="807" bodyend="808"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac6769a4a523c4a581c79d6da343ac5a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AABBTreePoints.NodeBitSet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="809" bodyend="810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a89a9b163bd3887abd3a4ee810d30c9bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.__sub__</definition>
+        <argsstring>(self, NodeBitSet b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__sub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="811" bodyend="812"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a186c74932a30e873c96fb140589e89c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.__xor__</definition>
+        <argsstring>(self, NodeBitSet b)</argsstring>
+        <name>__xor__</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.__xor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="813" bodyend="814"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ad47703c73b72fd7fb4a0de98831af8cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.NodeBitSet.autoResizeSet</definition>
+        <argsstring>(self, NodeId pos, int len, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="816" bodyend="817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a78671de51488bd2bb1256b49db1ad526" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreePoints.NodeBitSet.autoResizeSet</definition>
+        <argsstring>(self, NodeId pos, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>len</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="819" bodyend="820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a9baea15eadb8b96c02b3d13dd4b81052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AABBTreePoints.NodeBitSet.autoResizeTestSet</definition>
+        <argsstring>(self, NodeId pos, bool val=True)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.autoResizeTestSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as \\ref autoResizeSet and returns previous value of pos-bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="821" bodyend="822"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a808f169fa0dee3845d0927833a6de469" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.backId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d">backId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="823" bodyend="826"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a069ad301e883180cb0864d1e9eae2893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.endId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5">endId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="827" bodyend="828"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a0dc6accaf9db6734f7d9db6e1a7736bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.find_first</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.find_first</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006">find_first</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="829" bodyend="830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aa7a698399b07cfdfea66fcfac26128c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.find_first_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first_not_set</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.find_first_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a15e32e17fea4f662f8a0f55fd1bcd0b6">find_first_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="831" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="831" bodyend="832"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ad359c19c1f12a9e9e9c8fbb0bd6d3167" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.find_last</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.find_last</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="833" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="833" bodyend="834"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac7579e3e22721adaf74d8afc518c80e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.find_last_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last_not_set</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.find_last_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa50056294318a1e11be2d832bdbd6329">find_last_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="835" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="835" bodyend="836"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a0359bb848048126c91635b9309d8930e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.find_next</definition>
+        <argsstring>(self, NodeId pos)</argsstring>
+        <name>find_next</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.find_next</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f">find_next</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="837" bodyend="838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ad7f96da04bb501dc7804a779210ac104" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.find_next_not_set</definition>
+        <argsstring>(self, NodeId pos)</argsstring>
+        <name>find_next_not_set</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.find_next_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aedde9c4ef90198acb1ddb7874ed1d491">find_next_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="839" bodyend="840"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a9fdb80fd8bc96b4623b8a26ef38b17bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.flip</definition>
+        <argsstring>(self, NodeId n, int len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="842" bodyend="843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a4d4b452a8976ab6ab9c3119fa15157a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.flip</definition>
+        <argsstring>(self, NodeId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="845" bodyend="846"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a0a2116c14ddc4eb302bd750f03af61d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="848" bodyend="849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a38e0e43990c4469986795b6a0c047fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</definition>
+        <argsstring>(self, Vector_NodeId_NodeId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__NodeId__NodeId" kindref="compound">Vector_NodeId_NodeId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="851" bodyend="852"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a36fb5726dd248504d1ca4841c77c97d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</definition>
+        <argsstring>(self, BMap_NodeId_NodeId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BMap__NodeId__NodeId" kindref="compound">BMap_NodeId_NodeId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="854" bodyend="855"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a8181a02f5374597460c061f935f90ca7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_NodeTag_Id_NodeTag map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__NodeTag__Id__NodeTag" kindref="compound">phmap_flat_hash_map_Id_NodeTag_Id_NodeTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="857" bodyend="858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aa6ecf37c6168f7fdec14ec19b50ca01d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</definition>
+        <argsstring>(self, Vector_NodeId_NodeId map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__NodeId__NodeId" kindref="compound">Vector_NodeId_NodeId</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="860" bodyend="861"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1af569a15a17f8cb80ef149d850a3b03cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_NodeTag_Id_NodeTag map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__NodeTag__Id__NodeTag" kindref="compound">phmap_flat_hash_map_Id_NodeTag_Id_NodeTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="863" bodyend="864"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a81455e9577fb6d59d0c625da5bba33a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AABBTreePoints.NodeBitSet.intersects</definition>
+        <argsstring>(self, NodeBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.intersects</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a">intersects</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="865" bodyend="868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aa6bcdd1c671eda3271ba9445cafb4346" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AABBTreePoints.NodeBitSet.is_subset_of</definition>
+        <argsstring>(self, NodeBitSet a)</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.is_subset_of</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="869" bodyend="872"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a31e8159e9eef2daf130d0d662d70ccc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreePoints.NodeBitSet.nthSetBit</definition>
+        <argsstring>(self, int n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.nthSetBit</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="873" bodyend="876"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6b80836eb0c83c406a70660b2012b455" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.reset</definition>
+        <argsstring>(self, NodeId n, int len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="878" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="878" bodyend="879"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a60e079fef65abdd3f56890be1f337d91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.reset</definition>
+        <argsstring>(self, NodeId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="881" bodyend="882"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1afa5c3c5a8e505ef3375a8ebed4bcf3d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="884" bodyend="885"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a98399e9aad17e8b54e866685b7487cca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.set</definition>
+        <argsstring>(self, NodeId n, int len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="887" bodyend="888"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ae182b4151e01ca0b0c5f5a80ae35dd4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.set</definition>
+        <argsstring>(self, NodeId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="890" bodyend="891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a7055486251eb1e0a3159f2c0c407d73f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.set</definition>
+        <argsstring>(self, NodeId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="893" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a810933690350569d4f0b909d281325e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.set</definition>
+        <argsstring>(self)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="896" bodyend="897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a479fc7d11ffa901e30f60217e3f0a766" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreePoints.NodeBitSet.subtract</definition>
+        <argsstring>(self, NodeBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.subtract</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d">subtract</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="898" bodyend="901"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ad8ea0129c61a2f18bcec46519a6c1458" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AABBTreePoints.NodeBitSet.test</definition>
+        <argsstring>(self, NodeId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.test</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27">test</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all bits after size() we silently consider as not-set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="902" bodyend="903"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a77686413ab2f02e61db8ca68f88bf91e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AABBTreePoints.NodeBitSet.test_set</definition>
+        <argsstring>(self, NodeId n, bool val=True)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>mrmeshpy.AABBTreePoints.NodeBitSet.test_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3">test_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="904" bodyend="906"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NodeBitSet
+Aliases:  AABBTreePoints.NodeBitSet
+
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.AABBTreePoints.NodeBitSet</label>
+        <link refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AABBTreePoints.NodeBitSet</label>
+        <link refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bits_per_block</edgelabel>
+          <edgelabel>npos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="747" bodyend="905"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a3df02c9c6e64a458e4d1b755948bf707" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1abd2a3d7e5b5225f1bfbf2cedb8b00ff4" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a97b6a540ea71aa245892003d139c7be2" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6aba2a7e6780ea90c7675900f497d3fb" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac9c194f18ab852dba9c0c2180e2ff32e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a167febe06d6aaafd413af1d66c4bb600" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a75b2a4c88d194278ad98d3d32f63d959" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a4e58da9e31b546113ab58d33268276bc" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a5e433e44da42b65ff6848e9715b99c6f" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6a3903e04732376bf5d8ac0d991ef150" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1acdcbf376241166bc7fc8485bf26243d0" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__ixor__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a31e96cd2d2877c2c3869d915ad3526ab" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac6769a4a523c4a581c79d6da343ac5a2" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a89a9b163bd3887abd3a4ee810d30c9bb" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a186c74932a30e873c96fb140589e89c8" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ad47703c73b72fd7fb4a0de98831af8cc" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a78671de51488bd2bb1256b49db1ad526" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a9baea15eadb8b96c02b3d13dd4b81052" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a808f169fa0dee3845d0927833a6de469" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac7ddfdb209e782c3cdc9d9fdf6a34859" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a069ad301e883180cb0864d1e9eae2893" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a0dc6accaf9db6734f7d9db6e1a7736bc" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>find_first</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aa7a698399b07cfdfea66fcfac26128c5" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>find_first_not_set</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ad359c19c1f12a9e9e9c8fbb0bd6d3167" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>find_last</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ac7579e3e22721adaf74d8afc518c80e6" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>find_last_not_set</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a0359bb848048126c91635b9309d8930e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>find_next</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ad7f96da04bb501dc7804a779210ac104" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>find_next_not_set</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a9fdb80fd8bc96b4623b8a26ef38b17bb" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a4d4b452a8976ab6ab9c3119fa15157a4" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a0a2116c14ddc4eb302bd750f03af61d6" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a38e0e43990c4469986795b6a0c047fc9" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a36fb5726dd248504d1ca4841c77c97d0" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a8181a02f5374597460c061f935f90ca7" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aa6ecf37c6168f7fdec14ec19b50ca01d" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1af569a15a17f8cb80ef149d850a3b03cf" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a81455e9577fb6d59d0c625da5bba33a0" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aa6bcdd1c671eda3271ba9445cafb4346" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a31e8159e9eef2daf130d0d662d70ccc3" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aefba345684d190e2c6acd6fc16693a2f" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1aefba345684d190e2c6acd6fc16693a2f" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a6b80836eb0c83c406a70660b2012b455" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a60e079fef65abdd3f56890be1f337d91" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1afa5c3c5a8e505ef3375a8ebed4bcf3d3" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a98399e9aad17e8b54e866685b7487cca" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ae182b4151e01ca0b0c5f5a80ae35dd4c" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a7055486251eb1e0a3159f2c0c407d73f" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a810933690350569d4f0b909d281325e8" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a479fc7d11ffa901e30f60217e3f0a766" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>subtract</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1ad8ea0129c61a2f18bcec46519a6c1458" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>test</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreePoints_1_1NodeBitSet_1a77686413ab2f02e61db8ca68f88bf91e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreePoints::NodeBitSet</scope><name>test_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -13,5 +13,5 @@ var classMR_1_1Box__FaceId =
     [ "get", "classMR_1_1Box__FaceId.html#a1a89c64974297ff55e98ce5eddc47687", null ],
     [ "incr", "classMR_1_1Box__FaceId.html#aa4a029d201b8e2bec4b8e65ba3ed98fa", null ],
     [ "subAssign", "classMR_1_1Box__FaceId.html#a687fbf24e2986be60848eb269f7344af", null ],
-    [ "_Ref", "classMR_1_1Box__FaceId.html#aa1003d7ce4447cefae315b3f2c468d6f", null ]
+    [ "id", "classMR_1_1Box__FaceId.html#ab000ce61205627aea1bfa12b0bcfc4b4", null ]
 ];

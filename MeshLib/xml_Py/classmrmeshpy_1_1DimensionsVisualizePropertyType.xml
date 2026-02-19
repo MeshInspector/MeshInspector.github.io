@@ -1,0 +1,370 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DimensionsVisualizePropertyType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DimensionsVisualizePropertyType</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a46d7645cee59a9089aadce0b9e8a863f" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DimensionsVisualizePropertyType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1DimensionsVisualizePropertyType" kindref="compound">DimensionsVisualizePropertyType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12918" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1aad2c50d917ca5432f971b1a2e502beb4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DimensionsVisualizePropertyType::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DimensionsVisualizePropertyType" kindref="compound">DimensionsVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12919" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1af9383db4d9fc540f91a071b5578d2545" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DimensionsVisualizePropertyType::angle</definition>
+        <argsstring></argsstring>
+        <name>angle</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.angle</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DimensionsVisualizePropertyType" kindref="compound">DimensionsVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1af6dd36ed09cbca16a9fa352144f6fda0" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DimensionsVisualizePropertyType::diameter</definition>
+        <argsstring></argsstring>
+        <name>diameter</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.diameter</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DimensionsVisualizePropertyType" kindref="compound">DimensionsVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1ac9110c7bdf948de2ff57581351d72a25" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DimensionsVisualizePropertyType::length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.length</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1DimensionsVisualizePropertyType" kindref="compound">DimensionsVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12922" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a6a7cdd97521a1a71804cd5442b19cded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DimensionsVisualizePropertyType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12923" bodyend="12924"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a6016d4153d6064fcf790a89dfeb4ff63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DimensionsVisualizePropertyType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12925" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12925" bodyend="12926"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1ab6c6b2617b43b637f3628e68594e41cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DimensionsVisualizePropertyType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12927" bodyend="12928"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a28f053c47d70fde3fffddc59816846fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DimensionsVisualizePropertyType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12929" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12929" bodyend="12930"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a8bf9eadd499cb352630aa51816d09d93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DimensionsVisualizePropertyType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12931" bodyend="12932"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a8e8e516e67914819ed56d374e9467b54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DimensionsVisualizePropertyType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12933" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12933" bodyend="12934"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a12f3be41fa072d75a435f361e5fc2f0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DimensionsVisualizePropertyType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12935" bodyend="12936"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1af582013ddb07df440b7e2b694bc9c040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DimensionsVisualizePropertyType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12937" bodyend="12938"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a8548c818a40310b11f37ecb998143c5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DimensionsVisualizePropertyType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12939" bodyend="12940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a0d5aadefb9e6589cc8e8541bf27f963e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DimensionsVisualizePropertyType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12941" bodyend="12942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a065942d8b52cb9ceef5071cc3e212132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.DimensionsVisualizePropertyType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12944" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12944" bodyend="12945"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a47456c21bd0202cf4939fdb33189458a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DimensionsVisualizePropertyType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.DimensionsVisualizePropertyType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12947" bodyend="12948"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  diameter
+
+  angle
+
+  length
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DimensionsVisualizePropertyType</label>
+        <link refid="classmrmeshpy_1_1DimensionsVisualizePropertyType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_count</edgelabel>
+          <edgelabel>angle</edgelabel>
+          <edgelabel>diameter</edgelabel>
+          <edgelabel>length</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12906" bodyend="12948"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a6a7cdd97521a1a71804cd5442b19cded" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a6016d4153d6064fcf790a89dfeb4ff63" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1ab6c6b2617b43b637f3628e68594e41cf" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a28f053c47d70fde3fffddc59816846fb" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a8bf9eadd499cb352630aa51816d09d93" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a8e8e516e67914819ed56d374e9467b54" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a46d7645cee59a9089aadce0b9e8a863f" prot="private" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a12f3be41fa072d75a435f361e5fc2f0c" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1af582013ddb07df440b7e2b694bc9c040" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a8548c818a40310b11f37ecb998143c5a" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a0d5aadefb9e6589cc8e8541bf27f963e" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1aad2c50d917ca5432f971b1a2e502beb4" prot="protected" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1af9383db4d9fc540f91a071b5578d2545" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>angle</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1af6dd36ed09cbca16a9fa352144f6fda0" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>diameter</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1ac9110c7bdf948de2ff57581351d72a25" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>length</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a065942d8b52cb9ceef5071cc3e212132" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1DimensionsVisualizePropertyType_1a47456c21bd0202cf4939fdb33189458a" prot="public" virt="non-virtual"><scope>mrmeshpy::DimensionsVisualizePropertyType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

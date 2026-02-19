@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Sphere2f" kind="class" language="C#" prot="public">
+    <compoundname>MR::Sphere2f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Sphere2f</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Sphere2f_1a775219dd4036d6b52067a8332eae8d19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>new unsafe ref MR.Vector2f MR.Sphere2f.center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Sphere2f.center</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="184" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="184" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Sphere2f_1a697f085d0cfd615101c9aedb06dc6c92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Sphere2f.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <qualifiedname>MR.Sphere2f.radius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="186" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="186" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Sphere2f_1a50ea6716ba00c49fa7e39cf4adcf35ab" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Sphere2f.Sphere2f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Sphere2f</name>
+        <qualifiedname>MR.Sphere2f.Sphere2f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="190" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="190" bodyend="194"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Sphere2f_1a02cc7fc66dc4b144ed76398c30b63c2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Sphere2f.Sphere2f</definition>
+        <argsstring>()</argsstring>
+        <name>Sphere2f</name>
+        <qualifiedname>MR.Sphere2f.Sphere2f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="200" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="200" bodyend="206"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Sphere2f_1ad11950bcf5515f5843eb24b123395e00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Sphere2f.Sphere2f</definition>
+        <argsstring>(MR.Const_Sphere2f _other)</argsstring>
+        <name>Sphere2f</name>
+        <qualifiedname>MR.Sphere2f.Sphere2f</qualifiedname>
+        <param>
+          <type>MR.Const_Sphere2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Sphere2f.Sphere2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="211" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="211" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Sphere2f_1a696a6e98649e6fcedc18ec924e657b13" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Sphere2f.Sphere2f</definition>
+        <argsstring>(Sphere2f _other)</argsstring>
+        <name>Sphere2f</name>
+        <qualifiedname>MR.Sphere2f.Sphere2f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Sphere2f" kindref="compound">Sphere2f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Sphere2f.Sphere2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="223" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="223" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Sphere2f_1a6c758f6085b22005fd59bee56c763083" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Sphere2f.Sphere2f</definition>
+        <argsstring>(in MR.Vector2f c, float r)</argsstring>
+        <name>Sphere2f</name>
+        <qualifiedname>MR.Sphere2f.Sphere2f</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Sphere2f.Sphere2f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="228" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="228" bodyend="237"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Sphere2f_1aaf6857c968bb60db79e9723f90ed6282" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Sphere2f" kindref="compound">MR.Sphere2f</ref></type>
+        <definition>unsafe MR.Sphere2f MR.Sphere2f.assign</definition>
+        <argsstring>(MR.Const_Sphere2f _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Sphere2f.assign</qualifiedname>
+        <param>
+          <type>MR.Const_Sphere2f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Sphere2f.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="242" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="242" bodyend="249"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Sphere2f" kindref="compound">MR.Sphere2f</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Sphere2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Sphere2f</label>
+        <link refid="classMR_1_1Sphere2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Sphere2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_Sphere2f &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Sphere2f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Sphere2f</label>
+        <link refid="classMR_1_1Sphere2f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Sphere2f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_Sphere2f &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" line="182" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRSphere.cs" bodystart="183" bodyend="250"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Sphere2f_1aaf6857c968bb60db79e9723f90ed6282" prot="public" virt="non-virtual"><scope>MR::Sphere2f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Sphere2f_1a775219dd4036d6b52067a8332eae8d19" prot="public" virt="non-virtual"><scope>MR::Sphere2f</scope><name>center</name></member>
+      <member refid="classMR_1_1Sphere2f_1a697f085d0cfd615101c9aedb06dc6c92" prot="public" virt="non-virtual"><scope>MR::Sphere2f</scope><name>radius</name></member>
+      <member refid="classMR_1_1Sphere2f_1a50ea6716ba00c49fa7e39cf4adcf35ab" prot="package" virt="non-virtual"><scope>MR::Sphere2f</scope><name>Sphere2f</name></member>
+      <member refid="classMR_1_1Sphere2f_1a02cc7fc66dc4b144ed76398c30b63c2d" prot="public" virt="non-virtual"><scope>MR::Sphere2f</scope><name>Sphere2f</name></member>
+      <member refid="classMR_1_1Sphere2f_1ad11950bcf5515f5843eb24b123395e00" prot="public" virt="non-virtual"><scope>MR::Sphere2f</scope><name>Sphere2f</name></member>
+      <member refid="classMR_1_1Sphere2f_1a696a6e98649e6fcedc18ec924e657b13" prot="public" virt="non-virtual"><scope>MR::Sphere2f</scope><name>Sphere2f</name></member>
+      <member refid="classMR_1_1Sphere2f_1a6c758f6085b22005fd59bee56c763083" prot="public" virt="non-virtual"><scope>MR::Sphere2f</scope><name>Sphere2f</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cuda_1_1PointsProjector" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cuda::PointsProjector</compoundname>
+    <basecompoundref refid="classMR_1_1IPointsProjector" prot="public" virt="non-virtual">MR::IPointsProjector</basecompoundref>
+    <includes refid="MRCudaPointsProject_8h" local="no">MRCudaPointsProject.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1PointsProjector_1ae9ed3916c35d6b39835985b3af78b687" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="namespaceMR_1_1Cuda_1a770259831b49f60068c30df5121056c9" kindref="member">PointCloudDataHolder</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;PointCloudDataHolder&gt; MR::Cuda::PointsProjector::data_</definition>
+        <argsstring></argsstring>
+        <name>data_</name>
+        <qualifiedname>MR::Cuda::PointsProjector::data_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="29" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRCUDA_API Expected&lt; void &gt; MR::Cuda::PointsProjector::setPointCloud</definition>
+        <argsstring>(const PointCloud &amp;pointCloud) override</argsstring>
+        <name>setPointCloud</name>
+        <qualifiedname>MR::Cuda::PointsProjector::setPointCloud</qualifiedname>
+        <reimplements refid="classMR_1_1IPointsProjector_1ae6ae7b291953d433a794999d25ef10df">setPointCloud</reimplements>
+        <param>
+          <type>const <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &amp;</type>
+          <declname>pointCloud</declname>
+        </param>
+        <briefdescription>
+<para>sets the reference point cloud </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="19" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1ad0cebe62c8c8a4ef6fb8cf7799844112" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRCUDA_API Expected&lt; void &gt; MR::Cuda::PointsProjector::findProjections</definition>
+        <argsstring>(std::vector&lt; MR::PointsProjectionResult &gt; &amp;results, const std::vector&lt; Vector3f &gt; &amp;points, const FindProjectionOnPointsSettings &amp;settings) const override</argsstring>
+        <name>findProjections</name>
+        <qualifiedname>MR::Cuda::PointsProjector::findProjections</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="structMR_1_1PointsProjectionResult" kindref="compound">MR::PointsProjectionResult</ref> &gt; &amp;</type>
+          <declname>results</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; Vector3f &gt; &amp;</type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1FindProjectionOnPointsSettings" kindref="compound">FindProjectionOnPointsSettings</ref> &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+<para>computes the closest points on point cloud to given points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="22" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1PointsProjector_1acc3b795a692a05aa71390db850bb9ff4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API size_t</type>
+        <definition>MRCUDA_API size_t MR::Cuda::PointsProjector::projectionsHeapBytes</definition>
+        <argsstring>(size_t numProjections) const override</argsstring>
+        <name>projectionsHeapBytes</name>
+        <qualifiedname>MR::Cuda::PointsProjector::projectionsHeapBytes</qualifiedname>
+        <reimplements refid="classMR_1_1IPointsProjector_1a4125cb715c028facd258f35767e5c66c">projectionsHeapBytes</reimplements>
+        <param>
+          <type>size_t</type>
+          <declname>numProjections</declname>
+        </param>
+        <briefdescription>
+<para>Returns amount of additional memory needed to compute projections. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="26" column="23"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>CUDA-backed implementation of <ref refid="classMR_1_1IPointsProjector" kindref="compound">IPointsProjector</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::Cuda::PointsProjector</label>
+        <link refid="classMR_1_1Cuda_1_1PointsProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IPointsProjector</label>
+        <link refid="classMR_1_1IPointsProjector"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Cuda::PointsProjector</label>
+        <link refid="classMR_1_1Cuda_1_1PointsProjector"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IPointsProjector</label>
+        <link refid="classMR_1_1IPointsProjector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaPointsProject.h" bodystart="16" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1ae9ed3916c35d6b39835985b3af78b687" prot="private" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>data_</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1ad0cebe62c8c8a4ef6fb8cf7799844112" prot="public" virt="non-virtual"><scope>MR::Cuda::PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1IPointsProjector_1a73d0b887b876f110e3fb6554422f9a31" prot="public" virt="pure-virtual" ambiguityscope="MR::IPointsProjector::"><scope>MR::Cuda::PointsProjector</scope><name>findProjections</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1acc3b795a692a05aa71390db850bb9ff4" prot="public" virt="virtual"><scope>MR::Cuda::PointsProjector</scope><name>projectionsHeapBytes</name></member>
+      <member refid="classMR_1_1Cuda_1_1PointsProjector_1ae5f97af32e2a2a8898a3063117312160" prot="public" virt="virtual"><scope>MR::Cuda::PointsProjector</scope><name>setPointCloud</name></member>
+      <member refid="classMR_1_1IPointsProjector_1a2c0b970d9a78fe1a93045c851874c718" prot="public" virt="virtual"><scope>MR::Cuda::PointsProjector</scope><name>~IPointsProjector</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,619 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RawTiffOutput" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RawTiffOutput</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RawTiffOutput_1aedc8898b5b42968b67d8944d1cd1444c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RawTiffOutput::_offsetof_bytes</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_bytes</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput._offsetof_bytes</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RawTiffOutput_1a02e3dfd3303b9f0d028dd360e357f865" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RawTiffOutput::_offsetof_convertToFloat</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_convertToFloat</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput._offsetof_convertToFloat</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RawTiffOutput_1a4253530f13c423eb1495eb3ad40300e7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RawTiffOutput::_offsetof_max</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_max</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput._offsetof_max</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RawTiffOutput_1a08c55bc496dd856281c715c9cf33dcaa" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RawTiffOutput::_offsetof_min</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_min</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput._offsetof_min</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RawTiffOutput_1ab8d68dada4185f8941cda875bff5d0d8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RawTiffOutput::_offsetof_p2wXf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_p2wXf</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput._offsetof_p2wXf</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RawTiffOutput_1ab3a260f056cb0576e1034419915959ca" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RawTiffOutput::_offsetof_params</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_params</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput._offsetof_params</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RawTiffOutput_1a8505fa23865b7f3c37251d109ea4c1f8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RawTiffOutput::_offsetof_size</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_size</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput._offsetof_size</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49247" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1addf6fd9cd61aa51334e60330a1b048f8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49250" bodyend="49251"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a95524b8c452c68433d3177d76cb4e38c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RawTiffOutput" kindref="compound">RawTiffOutput</ref></type>
+        <definition> RawTiffOutput mrmeshpy.RawTiffOutput.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49254" bodyend="49255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a95524b8c452c68433d3177d76cb4e38c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RawTiffOutput" kindref="compound">RawTiffOutput</ref></type>
+        <definition> RawTiffOutput mrmeshpy.RawTiffOutput.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49258" bodyend="49259"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a6060cc90a995ddd5c74fb4916139fec0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49261" bodyend="49262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a94aaf34cb637c9ed5ff6485be2809cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.__init__</definition>
+        <argsstring>(self, RawTiffOutput arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RawTiffOutput" kindref="compound">RawTiffOutput</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49264" bodyend="49267"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a28c5c17f085ba153cd78b26e3dea8fd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.__init__</definition>
+        <argsstring>(self, unsigned_char_output bytes, int size, TiffParameters params, AffineXf3f p2wXf, bool convertToFloat, float_output min, float_output max)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1unsigned__char__output" kindref="compound">unsigned_char_output</ref></type>
+          <declname>bytes</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TiffParameters" kindref="compound">TiffParameters</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>p2wXf</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>convertToFloat</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1float__output" kindref="compound">float_output</ref></type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1float__output" kindref="compound">float_output</ref></type>
+          <declname>max</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49269" bodyend="49272"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1aa58a47a09fac3778002e214486b4fb08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RawTiffOutput.bytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>bytes</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.bytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>main output data, should be allocated
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49274" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49274" bodyend="49277"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1ab189ebeaabc479ee7e5fd52c938ccc1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.bytes</definition>
+        <argsstring>(self, unsigned_char_output arg1)</argsstring>
+        <name>bytes</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.bytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1unsigned__char__output" kindref="compound">unsigned_char_output</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49279" bodyend="49280"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1afd12ba9522729d1e10e425606eeeac09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RawTiffOutput.convertToFloat</definition>
+        <argsstring>(self)</argsstring>
+        <name>convertToFloat</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.convertToFloat</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>input if true loads tiff file as floats array
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49282" bodyend="49285"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a124be64367636d889d8293bd9533ad77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.convertToFloat</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>convertToFloat</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.convertToFloat</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49287" bodyend="49288"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a68502c44d903bb08bf05b675ef43daf3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RawTiffOutput.max</definition>
+        <argsstring>(self)</argsstring>
+        <name>max</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.max</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49290" bodyend="49291"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1af4e08ba935054a81ebcdc16541da51c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.max</definition>
+        <argsstring>(self, float_output arg1)</argsstring>
+        <name>max</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.max</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1float__output" kindref="compound">float_output</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49293" bodyend="49294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1aecef0d2e9b8b39b9dde4d17500902134" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RawTiffOutput.min</definition>
+        <argsstring>(self)</argsstring>
+        <name>min</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.min</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>min max
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49296" bodyend="49299"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1af6bf79b0b747b63f03df2833c124c5bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.min</definition>
+        <argsstring>(self, float_output arg1)</argsstring>
+        <name>min</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.min</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1float__output" kindref="compound">float_output</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49301" bodyend="49302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a4a5290c42e567d81fb7e585cc0c01595" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.RawTiffOutput.p2wXf</definition>
+        <argsstring>(self)</argsstring>
+        <name>p2wXf</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.p2wXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional pixel to world transform
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49304" bodyend="49307"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a035535a0531c070932a374e75137851e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.p2wXf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>p2wXf</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.p2wXf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49309" bodyend="49310"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1ae86e3eb2511b54d82dc08f70e354b2c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TiffParameters" kindref="compound">TiffParameters</ref></type>
+        <definition> TiffParameters mrmeshpy.RawTiffOutput.params</definition>
+        <argsstring>(self)</argsstring>
+        <name>params</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.params</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional params output
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49312" bodyend="49315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a909152308ff53f2ea6ee1c6b4f32e9de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.params</definition>
+        <argsstring>(self, TiffParameters arg1)</argsstring>
+        <name>params</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.params</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TiffParameters" kindref="compound">TiffParameters</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49317" bodyend="49318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1a92764b706e353390736f4f901733372b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RawTiffOutput.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>allocated data size
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49320" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49320" bodyend="49323"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RawTiffOutput_1ad238d1b7d9b281ce71c462dd9e78e435" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RawTiffOutput.size</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.RawTiffOutput.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49325" bodyend="49326"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RawTiffOutput
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.RawTiffOutput</label>
+        <link refid="classmrmeshpy_1_1RawTiffOutput"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_bytes</edgelabel>
+          <edgelabel>_offsetof_convertToFloat</edgelabel>
+          <edgelabel>_offsetof_max</edgelabel>
+          <edgelabel>_offsetof_min</edgelabel>
+          <edgelabel>_offsetof_p2wXf</edgelabel>
+          <edgelabel>_offsetof_params</edgelabel>
+          <edgelabel>_offsetof_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49237" bodyend="49326"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1addf6fd9cd61aa51334e60330a1b048f8" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a6060cc90a995ddd5c74fb4916139fec0" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a94aaf34cb637c9ed5ff6485be2809cba" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a28c5c17f085ba153cd78b26e3dea8fd1" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1aedc8898b5b42968b67d8944d1cd1444c" prot="protected" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>_offsetof_bytes</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a02e3dfd3303b9f0d028dd360e357f865" prot="protected" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>_offsetof_convertToFloat</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a4253530f13c423eb1495eb3ad40300e7" prot="protected" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>_offsetof_max</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a08c55bc496dd856281c715c9cf33dcaa" prot="protected" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>_offsetof_min</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1ab8d68dada4185f8941cda875bff5d0d8" prot="protected" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>_offsetof_p2wXf</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1ab3a260f056cb0576e1034419915959ca" prot="protected" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>_offsetof_params</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a8505fa23865b7f3c37251d109ea4c1f8" prot="protected" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>_offsetof_size</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1aa58a47a09fac3778002e214486b4fb08" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>bytes</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1ab189ebeaabc479ee7e5fd52c938ccc1d" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>bytes</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1afd12ba9522729d1e10e425606eeeac09" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>convertToFloat</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a124be64367636d889d8293bd9533ad77" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>convertToFloat</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a68502c44d903bb08bf05b675ef43daf3" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>max</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1af4e08ba935054a81ebcdc16541da51c6" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>max</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1aecef0d2e9b8b39b9dde4d17500902134" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>min</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1af6bf79b0b747b63f03df2833c124c5bd" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>min</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a95524b8c452c68433d3177d76cb4e38c" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a95524b8c452c68433d3177d76cb4e38c" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a4a5290c42e567d81fb7e585cc0c01595" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>p2wXf</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a035535a0531c070932a374e75137851e" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>p2wXf</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1ae86e3eb2511b54d82dc08f70e354b2c1" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>params</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a909152308ff53f2ea6ee1c6b4f32e9de" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>params</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1a92764b706e353390736f4f901733372b" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1RawTiffOutput_1ad238d1b7d9b281ce71c462dd9e78e435" prot="public" virt="non-virtual"><scope>mrmeshpy::RawTiffOutput</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

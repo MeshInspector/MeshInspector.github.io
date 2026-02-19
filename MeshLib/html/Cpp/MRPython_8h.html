@@ -179,6 +179,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
@@ -227,21 +228,23 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5" id="r_a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
-<tr class="memitem:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a396596cb5cea6d2f8fec7b7838ae2bc5">MR::throwExceptionFromExpected</a> (const E &amp;err)</td></tr>
-<tr class="separator:a396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac95039057559bedc6c5786b29e42d974" id="r_ac95039057559bedc6c5786b29e42d974"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ac95039057559bedc6c5786b29e42d974"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac95039057559bedc6c5786b29e42d974">MR::expectedValueOrThrow</a> (T &amp;&amp;e)</td></tr>
-<tr class="separator:ac95039057559bedc6c5786b29e42d974"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce" id="r_aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplParams" colspan="2">template&lt;typename R , typename E , typename... Args&gt; </td></tr>
-<tr class="memitem:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aa60c1177452c69cf5b8cdab61296d1ce">MR::decorateExpected</a> (std::function&lt; Expected&lt; R, E &gt;(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; R(Args...)&gt;</td></tr>
-<tr class="separator:aa60c1177452c69cf5b8cdab61296d1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fcb58debd182644f22e1ea6eac867b6" id="r_a5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
-<tr class="memitem:a5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5fcb58debd182644f22e1ea6eac867b6">MR::decorateExpected</a> (F &amp;&amp;f)</td></tr>
-<tr class="separator:a5fcb58debd182644f22e1ea6eac867b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf106ad4f6e3e81079b7698a30f31e20" id="r_abf106ad4f6e3e81079b7698a30f31e20"><td class="memTemplParams" colspan="2">template&lt;typename R , typename T , typename... Args&gt; </td></tr>
-<tr class="memitem:abf106ad4f6e3e81079b7698a30f31e20"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abf106ad4f6e3e81079b7698a30f31e20">MR::decorateExpected</a> (R(T::*memFunction)(Args...))</td></tr>
-<tr class="separator:abf106ad4f6e3e81079b7698a30f31e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga396596cb5cea6d2f8fec7b7838ae2bc5" id="r_ga396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
+<tr class="memitem:ga396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga396596cb5cea6d2f8fec7b7838ae2bc5">MR::throwExceptionFromExpected</a> (const E &amp;err)</td></tr>
+<tr class="memdesc:ga396596cb5cea6d2f8fec7b7838ae2bc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">overload <code>toString</code> functoion to throw exception from custom <code>Expected::error</code> type  <br /></td></tr>
+<tr class="separator:ga396596cb5cea6d2f8fec7b7838ae2bc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac95039057559bedc6c5786b29e42d974" id="r_gac95039057559bedc6c5786b29e42d974"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gac95039057559bedc6c5786b29e42d974"><td class="memTemplItemLeft" align="right" valign="top">decltype(auto)&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac95039057559bedc6c5786b29e42d974">MR::expectedValueOrThrow</a> (T &amp;&amp;e)</td></tr>
+<tr class="memdesc:gac95039057559bedc6c5786b29e42d974"><td class="mdescLeft">&#160;</td><td class="mdescRight">Like <code>e.value()</code>, but throws using <code>throwExceptionFromExpected</code> (which is better, because it allows Python to see the proper error message), and also supports <code>T == void</code>.  <br /></td></tr>
+<tr class="separator:gac95039057559bedc6c5786b29e42d974"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa60c1177452c69cf5b8cdab61296d1ce" id="r_gaa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplParams" colspan="2">template&lt;typename R , typename E , typename... Args&gt; </td></tr>
+<tr class="memitem:gaa60c1177452c69cf5b8cdab61296d1ce"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaa60c1177452c69cf5b8cdab61296d1ce">MR::decorateExpected</a> (std::function&lt; <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; R, E &gt;(Args...)&gt; &amp;&amp;f) -&gt; std::function&lt; R(Args...)&gt;</td></tr>
+<tr class="separator:gaa60c1177452c69cf5b8cdab61296d1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5fcb58debd182644f22e1ea6eac867b6" id="r_ga5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplParams" colspan="2">template&lt;typename F &gt; </td></tr>
+<tr class="memitem:ga5fcb58debd182644f22e1ea6eac867b6"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5fcb58debd182644f22e1ea6eac867b6">MR::decorateExpected</a> (F &amp;&amp;f)</td></tr>
+<tr class="separator:ga5fcb58debd182644f22e1ea6eac867b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf106ad4f6e3e81079b7698a30f31e20" id="r_gabf106ad4f6e3e81079b7698a30f31e20"><td class="memTemplParams" colspan="2">template&lt;typename R , typename T , typename... Args&gt; </td></tr>
+<tr class="memitem:gabf106ad4f6e3e81079b7698a30f31e20"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gabf106ad4f6e3e81079b7698a30f31e20">MR::decorateExpected</a> (R(T::*memFunction)(Args...))</td></tr>
+<tr class="separator:gabf106ad4f6e3e81079b7698a30f31e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a0a63eac4962f01ac9d1067840d25fe13" name="a0a63eac4962f01ac9d1067840d25fe13"></a>
@@ -355,8 +358,8 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a>( moduleName, name##_inst_, [] ( pybind11::module_&amp; module ) \</div>
 <div class="line">{                                                                \</div>
 <div class="line">    _MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME( name ).emplace( module, #name );            \</div>
-<div class="line">}, <a class="code hl_enumvalue" href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a">MR::PythonExport::Priority::Declaration</a> )</div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a"><div class="ttname"><a href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a">MR::PythonExport::Priority::Declaration</a></div><div class="ttdeci">@ Declaration</div></div>
+<div class="line">}, <a class="code hl_enumvalue" href="group__GeneralGroup.html#gga27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a">MR::PythonExport::Priority::Declaration</a> )</div>
+<div class="ttc" id="agroup__GeneralGroup_html_gga27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a"><div class="ttname"><a href="group__GeneralGroup.html#gga27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a">MR::PythonExport::Priority::Declaration</a></div><div class="ttdeci">@ Declaration</div></div>
 </div><!-- fragment --><p>Explicitly instantiate the Python class wrapper </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd></dl>
 
 </div>
@@ -387,7 +390,7 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code hl_define" href="#a4c2f86ab418002ae88c7465c2804c7f1">MR_ADD_PYTHON_CUSTOM_DEF</a>( moduleName, name##_inst_, [] ( pybind11::module_&amp; module ) \</div>
 <div class="line">{                                                                          \</div>
 <div class="line">    _MR_PYTHON_CUSTOM_CLASS_HOLDER_NAME( name ) = __VA_ARGS__ ( module );  \</div>
-<div class="line">}, <a class="code hl_enumvalue" href="classMR_1_1PythonExport.html#a27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a">MR::PythonExport::Priority::Declaration</a> )</div>
+<div class="line">}, <a class="code hl_enumvalue" href="group__GeneralGroup.html#gga27091fc0ef96636d5c59ff459694a6bfa6246655a4c0a99b49f104cd87a0a7a7a">MR::PythonExport::Priority::Declaration</a> )</div>
 </div><!-- fragment --><p>Explicitly instantiate the Python class wrapper with a custom function (pybind11::bind_vector, pybind11::bind_map, etc.) </p><dl class="section see"><dt>See also</dt><dd><a class="el" href="#a061fb85f30303ae23e36fbe5fd7b687c">MR_ADD_PYTHON_CUSTOM_CLASS</a> </dd>
 <dd>
 <a class="el" href="#a970813ca4d787c0bbe1ca6b1bd231cf9">MR_ADD_PYTHON_VEC</a> </dd>
@@ -423,7 +426,7 @@ Functions</h2></td></tr>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(disable:4459)&quot;</span>) \</div>
 <div class="line">    <span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> name##_adder_( #moduleName, __VA_ARGS__ ); \</div>
 <div class="line">_Pragma(<span class="stringliteral">&quot;warning(pop)&quot;</span>)</div>
-<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:220</div></div>
+<div class="ttc" id="astructMR_1_1PythonFunctionAdder_html"><div class="ttname"><a href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a></div><div class="ttdef"><b>Definition</b> MRPython.h:223</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -455,7 +458,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">using </span>name##_expected_type_ = MR::Expected&lt;type, errorType&gt;;        \</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keyword">using </span>name##_expected_type_ = <a class="code hl_typedef" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected&lt;type, errorType&gt;</a>;        \</div>
 <div class="line">MR_ADD_PYTHON_CUSTOM_CLASS( moduleName, name, name##_expected_type_ ) \</div>
 <div class="line">MR_ADD_PYTHON_CUSTOM_DEF( moduleName, name, [] ( pybind11::module_&amp; )      \</div>
 <div class="line">{\</div>
@@ -476,6 +479,7 @@ Functions</h2></td></tr>
 <div class="line">            return ( <span class="keyword">const</span> errorType&amp; ( expectedType::* )( )const&amp; )&amp; expectedType::error; \</div>
 <div class="line">        } );\</div>
 <div class="line">} )</div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga6d7483b6adbc485e9c9b52eb09cb7735"><div class="ttname"><a href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">MR::Expected</a></div><div class="ttdeci">tl::expected&lt; T, E &gt; Expected</div><div class="ttdef"><b>Definition</b> MRExpected.h:31</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -601,8 +605,8 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <p>NOTE: Include this header AFTER any OpenVDB header; otherwise it will break MSVC debug builds.</p>
 <p>External links:</p><ul>
-<li><a href="https://github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h#L161">https://github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h#L161</a></li>
-<li><a href="https://github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h#L105">https://github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h#L105</a> </li>
+<li><a href="https:///">https:///</a> github.com/pybind/pybind11/blob/v2.9.2/include/pybind11/detail/common.h::L161</li>
+<li><a href="https:///">https:///</a> github.com/oneapi-src/oneTBB/blob/v2021.9.0/include/oneapi/tbb/detail/_config.h::L105 </li>
 </ul>
 
 </div>
@@ -628,14 +632,14 @@ Functions</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">PYBIND11_MODULE( moduleName, m )\</div>
 <div class="line">{\</div>
 <div class="line">    precall();\</div>
-<div class="line">    <span class="keyword">auto</span>&amp; adders = <a class="code hl_function" href="classMR_1_1PythonExport.html#abfb182152c405649c53c0c632868b0c2">MR::PythonExport::instance</a>().<a class="code hl_function" href="classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81">functions</a>( #moduleName );\</div>
+<div class="line">    <span class="keyword">auto</span>&amp; adders = <a class="code hl_function" href="group__GeneralGroup.html#gabfb182152c405649c53c0c632868b0c2">MR::PythonExport::instance</a>().<a class="code hl_function" href="group__GeneralGroup.html#ga1ae0ff73c0d87a6c897bf89610cabb81">functions</a>( #moduleName );\</div>
 <div class="line">    for ( <span class="keyword">auto</span>&amp; fs : adders )\</div>
 <div class="line">        for ( auto&amp; f : fs )\</div>
 <div class="line">            f( m );\</div>
 <div class="line">}\</div>
 <div class="line"><span class="keyword">static</span> <a class="code hl_struct" href="structMR_1_1PythonFunctionAdder.html">MR::PythonFunctionAdder</a> moduleName##_init_( #moduleName, &amp;PyInit_##moduleName );</div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_a1ae0ff73c0d87a6c897bf89610cabb81"><div class="ttname"><a href="classMR_1_1PythonExport.html#a1ae0ff73c0d87a6c897bf89610cabb81">MR::PythonExport::functions</a></div><div class="ttdeci">const std::array&lt; std::vector&lt; PythonRegisterFuncton &gt;, size_t(Priority::Count)&gt; &amp; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition</b> MRPython.h:199</div></div>
-<div class="ttc" id="aclassMR_1_1PythonExport_html_abfb182152c405649c53c0c632868b0c2"><div class="ttname"><a href="classMR_1_1PythonExport.html#abfb182152c405649c53c0c632868b0c2">MR::PythonExport::instance</a></div><div class="ttdeci">static MRPYTHON_API PythonExport &amp; instance()</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga1ae0ff73c0d87a6c897bf89610cabb81"><div class="ttname"><a href="group__GeneralGroup.html#ga1ae0ff73c0d87a6c897bf89610cabb81">MR::PythonExport::functions</a></div><div class="ttdeci">const std::array&lt; std::vector&lt; PythonRegisterFuncton &gt;, size_t(Priority::Count)&gt; &amp; functions(const std::string &amp;moduleName) const</div><div class="ttdef"><b>Definition</b> MRPython.h:202</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gabfb182152c405649c53c0c632868b0c2"><div class="ttname"><a href="group__GeneralGroup.html#gabfb182152c405649c53c0c632868b0c2">MR::PythonExport::instance</a></div><div class="ttdeci">static MRPYTHON_API PythonExport &amp; instance()</div></div>
 </div><!-- fragment -->
 </div>
 </div>

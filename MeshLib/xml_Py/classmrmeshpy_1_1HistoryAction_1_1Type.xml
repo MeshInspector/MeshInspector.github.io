@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1HistoryAction_1_1Type" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::HistoryAction::Type</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1HistoryAction_1_1Type_1a6e5815c7c990327684b69e4429f37b00" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.HistoryAction.Type::Redo</definition>
+        <argsstring></argsstring>
+        <name>Redo</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.Redo</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1HistoryAction_1_1Type" kindref="compound">HistoryAction.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22854" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1HistoryAction_1_1Type_1a0fc40fffeb3070256ebbb05b343753ac" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.HistoryAction.Type::Undo</definition>
+        <argsstring></argsstring>
+        <name>Undo</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.Undo</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1HistoryAction_1_1Type" kindref="compound">HistoryAction.Type</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22855" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1HistoryAction_1_1Type_1a361b82de8d2bd85d61cd31d25213f5b0" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.HistoryAction.Type::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1HistoryAction_1_1Type" kindref="compound">HistoryAction.Type</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22856" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1ac1f41e715516d40ee1cec5ef4c4001a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.HistoryAction.Type.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22857" bodyend="22858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1aea1021dce7495d1aea4de6b172c517ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.HistoryAction.Type.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22859" bodyend="22860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1a319e5cbe27f9bc9d39662cb3559f2c52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.HistoryAction.Type.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22861" bodyend="22862"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1ac64ca76db35429dc9509530b1ef877c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.HistoryAction.Type.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22863" bodyend="22864"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1a105538619187cabf02f1aec71edb52f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.HistoryAction.Type.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22865" bodyend="22866"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1aec5e64d962a3bfa80d0e8189de4b7315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.HistoryAction.Type.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22867" bodyend="22868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1a61c3ac904f620a6329a7f9828c0e8f7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.HistoryAction.Type.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22869" bodyend="22870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1afa2ac78956cdf02f036bfd5d26029f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.HistoryAction.Type.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22871" bodyend="22872"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1a4cf8cff94accf79b5ff6d79434c2cb13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.HistoryAction.Type.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22873" bodyend="22874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1af2ad8e3e3fc7136f78f8f7822f1ba744" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.HistoryAction.Type.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22875" bodyend="22876"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1ac2977894e96a3d2486c1f0285a7a2cd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.HistoryAction.Type.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22878" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22878" bodyend="22879"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1HistoryAction_1_1Type_1aa6e42f806132f42b75d1b1878729a3dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.HistoryAction.Type.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.HistoryAction.Type.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22881" bodyend="22883"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Undo
+
+  Redo
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.HistoryAction.Type</label>
+        <link refid="classmrmeshpy_1_1HistoryAction_1_1Type"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Redo</edgelabel>
+          <edgelabel>Undo</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22846" bodyend="22882"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1ac1f41e715516d40ee1cec5ef4c4001a0" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1aea1021dce7495d1aea4de6b172c517ec" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1a319e5cbe27f9bc9d39662cb3559f2c52" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1ac64ca76db35429dc9509530b1ef877c8" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1a105538619187cabf02f1aec71edb52f0" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1aec5e64d962a3bfa80d0e8189de4b7315" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1a361b82de8d2bd85d61cd31d25213f5b0" prot="private" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1a61c3ac904f620a6329a7f9828c0e8f7f" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1afa2ac78956cdf02f036bfd5d26029f6e" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1a4cf8cff94accf79b5ff6d79434c2cb13" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1af2ad8e3e3fc7136f78f8f7822f1ba744" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1ac2977894e96a3d2486c1f0285a7a2cd8" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1a6e5815c7c990327684b69e4429f37b00" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>Redo</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1a0fc40fffeb3070256ebbb05b343753ac" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>Undo</name></member>
+      <member refid="classmrmeshpy_1_1HistoryAction_1_1Type_1aa6e42f806132f42b75d1b1878729a3dd" prot="public" virt="non-virtual"><scope>mrmeshpy::HistoryAction::Type</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

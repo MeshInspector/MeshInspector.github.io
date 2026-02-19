@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cylinder3Approximation" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cylinder3Approximation</compoundname>
+    <includes refid="MRCylinderApproximator_8h" local="no">MRCylinderApproximator.h</includes>
+    <innerclass refid="classMR_1_1Cylinder3Approximation_1_1BestHemisphereStoredData" prot="private">MR::Cylinder3Approximation::BestHemisphereStoredData</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1gaf599ba04fb6dbe5520a1037998321ba8" kind="enum"><name>CylinderFitterType</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gabb30d2ef61a3c237a636b17c577959c6" kind="variable"><name>fitter_</name></member>
+      <member refid="group__GeneralGroup_1ga579d35802248f0935569af18cf42db07" kind="variable"><name>baseCylinderAxis_</name></member>
+      <member refid="group__GeneralGroup_1ga572ae0cdbfe25ad8d61bb1b2789bccac" kind="variable"><name>thetaResolution_</name></member>
+      <member refid="group__GeneralGroup_1ga3a1edcc7bb8603942ed0c5ffd02088b2" kind="variable"><name>phiResolution_</name></member>
+      <member refid="group__GeneralGroup_1ga832899d3c70ab1c69613bf142d44c41d" kind="variable"><name>isMultithread_</name></member>
+      <member refid="group__GeneralGroup_1ga45710dc638e9a62fadc67bf7339d3fad" kind="variable"><name>normalizedPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga6b83e51c6eb2a0c8ea2e23c70a5e8efe" kind="variable"><name>precomputedMu_</name></member>
+      <member refid="group__GeneralGroup_1ga697dc85e99148d758f412ac9a63d583d" kind="variable"><name>precomputedF0_</name></member>
+      <member refid="group__GeneralGroup_1gadd39d274c7bf18726d5f0f8af50c0dc9" kind="variable"><name>precomputedF1_</name></member>
+      <member refid="group__GeneralGroup_1ga11d3a86ad6a7b217f7be33edeee47ba2" kind="variable"><name>precomputedF2_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaafde02b06eea3fda628d934ce5b91770" kind="function"><name>Cylinder3Approximation</name></member>
+      <member refid="group__GeneralGroup_1ga9fd0419e56efe6e18be85cf20d1ab692" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gabe21b11b74d5ae62d6d1412c1e7023e8" kind="function"><name>solveGeneral</name></member>
+      <member refid="group__GeneralGroup_1ga0fe383f15556ef41b9d2bfce165b2af4" kind="function"><name>solveSpecificAxis</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gaf3ea4afe87e1dbb78ccb5720a2bb25bd" kind="function"><name>solve</name></member>
+      <member refid="group__GeneralGroup_1ga626ca4bfa406a8a459b2b55d004c3e9b" kind="function"><name>updatePrecomputeParams</name></member>
+      <member refid="group__GeneralGroup_1gab64fa1f0c1cf5703dca8ebd51dba0e7a" kind="function"><name>G</name></member>
+      <member refid="group__GeneralGroup_1ga9d04ae9e2ea8fc5f83411e9b05795448" kind="function"><name>fitCylindeHemisphereSingleThreaded</name></member>
+      <member refid="group__GeneralGroup_1ga6cfff0c53009b5847aaf0142118a1c1f" kind="function"><name>fitCylindeHemisphereMultiThreaded</name></member>
+      <member refid="group__GeneralGroup_1ga5cf30a88b39598fee141ae8e3147729a" kind="function"><name>SpecificAxisFit</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinderApproximator.h" bodystart="16" bodyend="98"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga579d35802248f0935569af18cf42db07" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>baseCylinderAxis_</name></member>
+      <member refid="group__GeneralGroup_1gaafde02b06eea3fda628d934ce5b91770" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>Cylinder3Approximation</name></member>
+      <member refid="group__GeneralGroup_1gaf599ba04fb6dbe5520a1037998321ba8" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>CylinderFitterType</name></member>
+      <member refid="group__GeneralGroup_1ga6cfff0c53009b5847aaf0142118a1c1f" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>fitCylindeHemisphereMultiThreaded</name></member>
+      <member refid="group__GeneralGroup_1ga9d04ae9e2ea8fc5f83411e9b05795448" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>fitCylindeHemisphereSingleThreaded</name></member>
+      <member refid="group__GeneralGroup_1gabb30d2ef61a3c237a636b17c577959c6" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>fitter_</name></member>
+      <member refid="group__GeneralGroup_1gab64fa1f0c1cf5703dca8ebd51dba0e7a" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>G</name></member>
+      <member refid="group__GeneralGroup_1ga832899d3c70ab1c69613bf142d44c41d" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>isMultithread_</name></member>
+      <member refid="group__GeneralGroup_1ga45710dc638e9a62fadc67bf7339d3fad" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>normalizedPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga3a1edcc7bb8603942ed0c5ffd02088b2" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>phiResolution_</name></member>
+      <member refid="group__GeneralGroup_1ga697dc85e99148d758f412ac9a63d583d" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedF0_</name></member>
+      <member refid="group__GeneralGroup_1gadd39d274c7bf18726d5f0f8af50c0dc9" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedF1_</name></member>
+      <member refid="group__GeneralGroup_1ga11d3a86ad6a7b217f7be33edeee47ba2" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedF2_</name></member>
+      <member refid="group__GeneralGroup_1ga6b83e51c6eb2a0c8ea2e23c70a5e8efe" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>precomputedMu_</name></member>
+      <member refid="group__GeneralGroup_1ga9fd0419e56efe6e18be85cf20d1ab692" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaf3ea4afe87e1dbb78ccb5720a2bb25bd" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>solve</name></member>
+      <member refid="group__GeneralGroup_1gabe21b11b74d5ae62d6d1412c1e7023e8" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>solveGeneral</name></member>
+      <member refid="group__GeneralGroup_1ga0fe383f15556ef41b9d2bfce165b2af4" prot="public" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>solveSpecificAxis</name></member>
+      <member refid="group__GeneralGroup_1ga5cf30a88b39598fee141ae8e3147729a" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>SpecificAxisFit</name></member>
+      <member refid="group__GeneralGroup_1ga572ae0cdbfe25ad8d61bb1b2789bccac" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>thetaResolution_</name></member>
+      <member refid="group__GeneralGroup_1ga626ca4bfa406a8a459b2b55d004c3e9b" prot="private" virt="non-virtual"><scope>MR::Cylinder3Approximation</scope><name>updatePrecomputeParams</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

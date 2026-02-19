@@ -149,9 +149,12 @@ $(function(){initNavTree('classMR_1_1IPluginUpdate.html',''); initResizable(true
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classMR_1_1IPluginUpdate-members.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">MR::IPluginUpdate Class Reference</div></div>
+  <div class="headertitle"><div class="title">MR::IPluginUpdate Class Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>Interface for automatically update StatePlugins internal data.  
+ <a href="#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="MRStatePluginUpdate_8h_source.html">MRStatePluginUpdate.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -164,7 +167,7 @@ $(function(){initNavTree('classMR_1_1IPluginUpdate.html',''); initResizable(true
   <map id="MR::IPluginUpdate_map" name="MR::IPluginUpdate_map">
 <area href="classMR_1_1PluginCloseOnChangeMesh.html" alt="MR::PluginCloseOnChangeMesh" shape="rect" coords="0,56,562,80"/>
 <area href="classMR_1_1PluginCloseOnChangePointCloud.html" alt="MR::PluginCloseOnChangePointCloud" shape="rect" coords="572,56,1134,80"/>
-<area href="classMR_1_1PluginCloseOnEscPressed.html" alt="MR::PluginCloseOnEscPressed" shape="rect" coords="1144,56,1706,80"/>
+<area href="classMR_1_1PluginCloseOnEscPressed.html" title="Helper class to close a dialog-less plugin when the Esc key is pressed." alt="MR::PluginCloseOnEscPressed" shape="rect" coords="1144,56,1706,80"/>
 <area href="classMR_1_1PluginCloseOnSelectedObjectRemove.html" alt="MR::PluginCloseOnSelectedObjectRemove" shape="rect" coords="1716,56,2278,80"/>
 <area href="classMR_1_1PluginUpdateOnChangeMeshPart.html" alt="MR::PluginUpdateOnChangeMeshPart" shape="rect" coords="2288,56,2850,80"/>
 <area href="classMR_1_1StateBasePlugin.html" alt="MR::StateBasePlugin" shape="rect" coords="2860,56,3422,80"/>
@@ -180,156 +183,27 @@ $(function(){initNavTree('classMR_1_1IPluginUpdate.html',''); initResizable(true
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a57e2a35ba84c0bdd2af8a0f162c5f3" id="r_a3a57e2a35ba84c0bdd2af8a0f162c5f3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3a57e2a35ba84c0bdd2af8a0f162c5f3">~IPluginUpdate</a> ()=default</td></tr>
-<tr class="separator:a3a57e2a35ba84c0bdd2af8a0f162c5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a79d0d76063de2f4947098cc9cb07a8" id="r_a6a79d0d76063de2f4947098cc9cb07a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a79d0d76063de2f4947098cc9cb07a8">preDrawUpdate</a> ()</td></tr>
-<tr class="separator:a6a79d0d76063de2f4947098cc9cb07a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3a57e2a35ba84c0bdd2af8a0f162c5f3" id="r_ga3a57e2a35ba84c0bdd2af8a0f162c5f3"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga3a57e2a35ba84c0bdd2af8a0f162c5f3">~IPluginUpdate</a> ()=default</td></tr>
+<tr class="separator:ga3a57e2a35ba84c0bdd2af8a0f162c5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a79d0d76063de2f4947098cc9cb07a8" id="r_ga6a79d0d76063de2f4947098cc9cb07a8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6a79d0d76063de2f4947098cc9cb07a8">preDrawUpdate</a> ()</td></tr>
+<tr class="memdesc:ga6a79d0d76063de2f4947098cc9cb07a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">called each frame in before drawDialog  <br /></td></tr>
+<tr class="separator:ga6a79d0d76063de2f4947098cc9cb07a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac74a796b15f4842c135a9956d270caa3" id="r_ac74a796b15f4842c135a9956d270caa3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac74a796b15f4842c135a9956d270caa3">onPluginEnable_</a> ()</td></tr>
-<tr class="separator:ac74a796b15f4842c135a9956d270caa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ac2f366f4785c61b991e9d38f1c12d1" id="r_a0ac2f366f4785c61b991e9d38f1c12d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0ac2f366f4785c61b991e9d38f1c12d1">onPluginDisable_</a> ()</td></tr>
-<tr class="separator:a0ac2f366f4785c61b991e9d38f1c12d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6e6e3dcf2ab382434fd967480164324" id="r_ab6e6e3dcf2ab382434fd967480164324"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab6e6e3dcf2ab382434fd967480164324">shouldClose_</a> () const</td></tr>
-<tr class="separator:ab6e6e3dcf2ab382434fd967480164324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac74a796b15f4842c135a9956d270caa3" id="r_gac74a796b15f4842c135a9956d270caa3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gac74a796b15f4842c135a9956d270caa3">onPluginEnable_</a> ()</td></tr>
+<tr class="memdesc:gac74a796b15f4842c135a9956d270caa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when plugin started  <br /></td></tr>
+<tr class="separator:gac74a796b15f4842c135a9956d270caa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0ac2f366f4785c61b991e9d38f1c12d1" id="r_ga0ac2f366f4785c61b991e9d38f1c12d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0ac2f366f4785c61b991e9d38f1c12d1">onPluginDisable_</a> ()</td></tr>
+<tr class="memdesc:ga0ac2f366f4785c61b991e9d38f1c12d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when plugin stops  <br /></td></tr>
+<tr class="separator:ga0ac2f366f4785c61b991e9d38f1c12d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab6e6e3dcf2ab382434fd967480164324" id="r_gab6e6e3dcf2ab382434fd967480164324"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab6e6e3dcf2ab382434fd967480164324">shouldClose_</a> () const</td></tr>
+<tr class="memdesc:gab6e6e3dcf2ab382434fd967480164324"><td class="mdescLeft">&#160;</td><td class="mdescRight">called each frame, return true to close plugin  <br /></td></tr>
+<tr class="separator:gab6e6e3dcf2ab382434fd967480164324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3a57e2a35ba84c0bdd2af8a0f162c5f3" name="a3a57e2a35ba84c0bdd2af8a0f162c5f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a57e2a35ba84c0bdd2af8a0f162c5f3">&#9670;&#160;</a></span>~IPluginUpdate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual MR::IPluginUpdate::~IPluginUpdate </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0ac2f366f4785c61b991e9d38f1c12d1" name="a0ac2f366f4785c61b991e9d38f1c12d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ac2f366f4785c61b991e9d38f1c12d1">&#9670;&#160;</a></span>onPluginDisable_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::IPluginUpdate::onPluginDisable_ </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1PluginCloseOnChangeMesh.html#af521c98fca4b1537e06ebf161605954d">MR::PluginCloseOnChangeMesh</a>, <a class="el" href="classMR_1_1PluginCloseOnChangePointCloud.html#ae215a7b0b1f5259e0bc87855f0b2e740">MR::PluginCloseOnChangePointCloud</a>, <a class="el" href="classMR_1_1PluginCloseOnSelectedObjectRemove.html#a3692cfee7d26f636f2487f01cfa6afc8">MR::PluginCloseOnSelectedObjectRemove</a>, and <a class="el" href="classMR_1_1PluginUpdateOnChangeMeshPart.html#a5c3907d5d352c381ea77f8c3081e136d">MR::PluginUpdateOnChangeMeshPart</a>.</p>
-
-</div>
-</div>
-<a id="ac74a796b15f4842c135a9956d270caa3" name="ac74a796b15f4842c135a9956d270caa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac74a796b15f4842c135a9956d270caa3">&#9670;&#160;</a></span>onPluginEnable_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::IPluginUpdate::onPluginEnable_ </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1PluginCloseOnChangeMesh.html#a2e05f59d67c502229f3a2a2e919886fc">MR::PluginCloseOnChangeMesh</a>, <a class="el" href="classMR_1_1PluginCloseOnChangePointCloud.html#a3569c689e004637d73b414f0440e0046">MR::PluginCloseOnChangePointCloud</a>, <a class="el" href="classMR_1_1PluginCloseOnSelectedObjectRemove.html#a4be1eca9d7909ac4a5cbe2b48ceee2f2">MR::PluginCloseOnSelectedObjectRemove</a>, and <a class="el" href="classMR_1_1PluginUpdateOnChangeMeshPart.html#a9767c4ad35864bc85b2f759c2aad5888">MR::PluginUpdateOnChangeMeshPart</a>.</p>
-
-</div>
-</div>
-<a id="a6a79d0d76063de2f4947098cc9cb07a8" name="a6a79d0d76063de2f4947098cc9cb07a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a79d0d76063de2f4947098cc9cb07a8">&#9670;&#160;</a></span>preDrawUpdate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void MR::IPluginUpdate::preDrawUpdate </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1PluginUpdateOnChangeMeshPart.html#ab8919af457390e1c709327e3828a8c6b">MR::PluginUpdateOnChangeMeshPart</a>.</p>
-
-</div>
-</div>
-<a id="ab6e6e3dcf2ab382434fd967480164324" name="ab6e6e3dcf2ab382434fd967480164324"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6e6e3dcf2ab382434fd967480164324">&#9670;&#160;</a></span>shouldClose_()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool MR::IPluginUpdate::shouldClose_ </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classMR_1_1PluginCloseOnChangeMesh.html#a8a6dc440df682b00feb1b9fd10eab31a">MR::PluginCloseOnChangeMesh</a>, <a class="el" href="classMR_1_1PluginCloseOnChangePointCloud.html#acc66fd5a6484e6733be7dd12f9e13e4f">MR::PluginCloseOnChangePointCloud</a>, <a class="el" href="classMR_1_1PluginCloseOnEscPressed.html#a1cbeb11bd052199cb41ec5ae88ea4971">MR::PluginCloseOnEscPressed</a>, and <a class="el" href="classMR_1_1PluginCloseOnSelectedObjectRemove.html#a174d0cc22e4a0b69220109e026efaf7f">MR::PluginCloseOnSelectedObjectRemove</a>.</p>
-
-</div>
-</div>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Interface for automatically update StatePlugins internal data. </p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="MRStatePluginUpdate_8h_source.html">MRStatePluginUpdate.h</a></li>
 </ul>
 </div><!-- contents -->

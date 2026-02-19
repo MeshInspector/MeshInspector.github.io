@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshLoad_1_1MeshLoader" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshLoad::MeshLoader</compoundname>
+    <includes refid="MRIOFormatsRegistry_8h" local="no">MRIOFormatsRegistry.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshLoad_1_1MeshLoader_1a40a2dbad196aed53280103d84b6fd429" prot="public" static="no" mutable="no">
+        <type><ref refid="group__IOFormatsRegistryGroup_1gaf573976800f135f2ae1cc5430be86fb0" kindref="member">MeshFileLoader</ref></type>
+        <definition>MeshFileLoader MR::MeshLoad::MeshLoader::fileLoad</definition>
+        <argsstring></argsstring>
+        <name>fileLoad</name>
+        <qualifiedname>MR::MeshLoad::MeshLoader::fileLoad</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="143" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshLoad_1_1MeshLoader_1a5be6b39d9d48430d0288a04da8de96b7" prot="public" static="no" mutable="no">
+        <type><ref refid="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" kindref="member">MeshStreamLoader</ref></type>
+        <definition>MeshStreamLoader MR::MeshLoad::MeshLoader::streamLoad</definition>
+        <argsstring></argsstring>
+        <name>streamLoad</name>
+        <qualifiedname>MR::MeshLoad::MeshLoader::streamLoad</qualifiedname>
+        <initializer>{ nullptr }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="144" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="144" bodyend="144"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="1">
+        <label>MR::MeshLoad::MeshLoader</label>
+        <link refid="structMR_1_1MeshLoad_1_1MeshLoader"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>fileLoad</edgelabel>
+          <edgelabel>streamLoad</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshLoadSettings</label>
+        <link refid="structMR_1_1MeshLoadSettings"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>texture</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="142" bodyend="145"/>
+    <listofallmembers>
+      <member refid="structMR_1_1MeshLoad_1_1MeshLoader_1a40a2dbad196aed53280103d84b6fd429" prot="public" virt="non-virtual"><scope>MR::MeshLoad::MeshLoader</scope><name>fileLoad</name></member>
+      <member refid="structMR_1_1MeshLoad_1_1MeshLoader_1a5be6b39d9d48430d0288a04da8de96b7" prot="public" virt="non-virtual"><scope>MR::MeshLoad::MeshLoader</scope><name>streamLoad</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

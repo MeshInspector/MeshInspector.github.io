@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshToDistanceVolumeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshToDistanceVolumeParams</compoundname>
+    <includes refid="MRMeshToDistanceVolume_8h" local="no">MRMeshToDistanceVolume.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga360d1bd15bac22e4e7e287a986e68bed" kind="variable"><name>vol</name></member>
+      <member refid="group__GeneralGroup_1gaa92c916230bc895acd7eca95758104b0" kind="variable"><name>dist</name></member>
+      <member refid="group__GeneralGroup_1ga740cc5d8bb375f88ea00678baa716cef" kind="variable"><name>fwn</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR::DistanceToMeshOptions</label>
+        <link refid="structMR_1_1DistanceToMeshOptions"/>
+      </node>
+      <node id="2">
+        <label>MR::DistanceVolumeParams</label>
+        <link refid="structMR_1_1DistanceVolumeParams"/>
+      </node>
+      <node id="1">
+        <label>MR::MeshToDistanceVolumeParams</label>
+        <link refid="structMR_1_1MeshToDistanceVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vol</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>dist</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::SignedDistanceToMeshOptions</label>
+        <link refid="structMR_1_1SignedDistanceToMeshOptions"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMeshToDistanceVolume.h" bodystart="16" bodyend="22"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa92c916230bc895acd7eca95758104b0" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>dist</name></member>
+      <member refid="group__GeneralGroup_1ga740cc5d8bb375f88ea00678baa716cef" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1ga360d1bd15bac22e4e7e287a986e68bed" prot="public" virt="non-virtual"><scope>MR::MeshToDistanceVolumeParams</scope><name>vol</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

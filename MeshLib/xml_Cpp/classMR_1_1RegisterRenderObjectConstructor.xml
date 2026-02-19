@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RegisterRenderObjectConstructor" kind="class" language="C++" prot="public">
+    <compoundname>MR::RegisterRenderObjectConstructor</compoundname>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaae6b3a6e5308d9b86786cc6f73d8a0ed" kind="variable"><name>type_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga68b36d5a17409d933e14092222e0ff3e" kind="function"><name>RegisterRenderObjectConstructor</name></member>
+      <member refid="group__GeneralGroup_1ga7680dbd1b8cb8d02d09cce6fc8fb0200" kind="function"><name>~RegisterRenderObjectConstructor</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="208" bodyend="215"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga68b36d5a17409d933e14092222e0ff3e" prot="public" virt="non-virtual"><scope>MR::RegisterRenderObjectConstructor</scope><name>RegisterRenderObjectConstructor</name></member>
+      <member refid="group__GeneralGroup_1gaae6b3a6e5308d9b86786cc6f73d8a0ed" prot="private" virt="non-virtual"><scope>MR::RegisterRenderObjectConstructor</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga7680dbd1b8cb8d02d09cce6fc8fb0200" prot="public" virt="non-virtual"><scope>MR::RegisterRenderObjectConstructor</scope><name>~RegisterRenderObjectConstructor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

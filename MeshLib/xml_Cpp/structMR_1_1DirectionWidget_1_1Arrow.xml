@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DirectionWidget_1_1Arrow" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DirectionWidget::Arrow</compoundname>
+    <includes refid="MRDirectionWidget_8h" local="no">MRDirectionWidget.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga0ecb81851105a8eb427a1f270b7659a2" kind="variable"><name>dir</name></member>
+      <member refid="group__GeneralGroup_1ga2f55bff335dea2ab2a6b581fe070bef4" kind="variable"><name>base</name></member>
+      <member refid="group__GeneralGroup_1gad87c52072ac6532b21210fb8f8f48921" kind="variable"><name>length</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" line="77" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDirectionWidget.h" bodystart="78" bodyend="82"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2f55bff335dea2ab2a6b581fe070bef4" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::Arrow</scope><name>base</name></member>
+      <member refid="group__GeneralGroup_1ga0ecb81851105a8eb427a1f270b7659a2" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::Arrow</scope><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gad87c52072ac6532b21210fb8f8f48921" prot="public" virt="non-virtual"><scope>MR::DirectionWidget::Arrow</scope><name>length</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderMeshObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderMeshObject</compoundname>
+    <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderWrapObject_1_1Wrapper" prot="public" virt="non-virtual">MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;</derivedcompoundref>
+    <includes refid="MRRenderMeshObject_8h" local="no">MRRenderMeshObject.h</includes>
+    <sectiondef kind="protected-type">
+      <member refid="group__GeneralGroup_1ga3228435a7c18da1a7bf0ddd0568a2102" kind="typedef"><name>GLuint</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <member refid="group__GeneralGroup_1ga3bbf015a92d7acdcb4f134a3af214b75" kind="variable"><name>objMesh_</name></member>
+      <member refid="group__GeneralGroup_1gad8c179bd9f2914459146986ba590f4c2" kind="variable"><name>vertPosSize_</name></member>
+      <member refid="group__GeneralGroup_1ga8e4c0f111508fd26331871247ad7e055" kind="variable"><name>vertNormalsSize_</name></member>
+      <member refid="group__GeneralGroup_1ga885637207dfa4ad9a32e22b1de0fc18a" kind="variable"><name>vertColorsSize_</name></member>
+      <member refid="group__GeneralGroup_1ga36832676f48c87a67ff5782e57a7bd66" kind="variable"><name>vertUVSize_</name></member>
+      <member refid="group__GeneralGroup_1ga7c197e5a47c0adda4d0e19fe67bc8ad6" kind="variable"><name>faceIndicesSize_</name></member>
+      <member refid="group__GeneralGroup_1ga888fbd0e8bad27a4ff46ec6c1e1680e5" kind="variable"><name>edgeSize_</name></member>
+      <member refid="group__GeneralGroup_1gab2808bb9f682b7671b601fa9ba3348c4" kind="variable"><name>selEdgeSize_</name></member>
+      <member refid="group__GeneralGroup_1gab85b5749a8074358f89fff480448ee5d" kind="variable"><name>bordersSize_</name></member>
+      <member refid="group__GeneralGroup_1gadbbb4589a356ef6e74b8ec06392ff7ca" kind="variable"><name>pointSize_</name></member>
+      <member refid="group__GeneralGroup_1ga8db2965251810b5f46ee770ee8e8c895" kind="variable"><name>pointValidSize_</name></member>
+      <member refid="group__GeneralGroup_1gaf258359eadbf7873075ce2773a51e7aa" kind="variable"><name>faceSelectionTextureSize_</name></member>
+      <member refid="group__GeneralGroup_1gaf277e985bb5c295945722ce8b6dbef7f" kind="variable"><name>faceNormalsTextureSize_</name></member>
+      <member refid="group__GeneralGroup_1ga6fb6b9a55fd521017c1eea063af7225a" kind="variable"><name>texturePerFaceSize_</name></member>
+      <member refid="group__GeneralGroup_1ga12b1a94d2b98548e47229d4213609b1f" kind="variable"><name>edgesArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga1a9f41cc9d68f81801374e9f18c6b195" kind="variable"><name>borderArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga4dd4c30b4f09367586d6f0b6e520e85c" kind="variable"><name>borderBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaaca1c8b6779387b3ba8617dec0b4c336" kind="variable"><name>selectedEdgesArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga7aba022c31f49b9f2bc3a2cc1adb5247" kind="variable"><name>selectedEdgesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga3c74e85a422c5f8e54c993f9fcf43116" kind="variable"><name>meshArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1gaee44a84c6224d63a0c86043eac07a7fd" kind="variable"><name>meshPickerArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga8f3dc8d13b36124134b86d4e81519767" kind="variable"><name>vertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga08d8c036ef75bf130d97cbcc7992b943" kind="variable"><name>vertUVBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga7392ba05df67ae19e9e6af50c94ebe33" kind="variable"><name>vertNormalsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga7be65ffb643076059379c9333885a89c" kind="variable"><name>vertColorsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga066918630b8d458a0fd7897e3230084e" kind="variable"><name>facesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga5c61b0a36314bb6fd4e2c60cfc2f8447" kind="variable"><name>faceSelectionTex_</name></member>
+      <member refid="group__GeneralGroup_1gaf99f6b1103fb8791d9d8a2fbd0275213" kind="variable"><name>faceColorsTex_</name></member>
+      <member refid="group__GeneralGroup_1ga5931d691ce4183252190a5357ead412a" kind="variable"><name>facesNormalsTex_</name></member>
+      <member refid="group__GeneralGroup_1ga7ca63f2d3385ab5f38ca500ab1d468f7" kind="variable"><name>texturePerFace_</name></member>
+      <member refid="group__GeneralGroup_1ga8cd847a579adbca9c44e43ea25fe0166" kind="variable"><name>textureArray_</name></member>
+      <member refid="group__GeneralGroup_1gadec18a7be82779db2756036737e2119e" kind="variable"><name>edgesTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga0c5f65d0f55c35a44e6f210b7e3d5144" kind="variable"><name>selEdgesTexture_</name></member>
+      <member refid="group__GeneralGroup_1gac5dda63e700cfe2742a7b9b1683649e6" kind="variable"><name>borderTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga1823d62e4541feb96b41da5e82b73db4" kind="variable"><name>emptyVertsColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga363bdae2a388d10c4408213932092acc" kind="variable"><name>emptyLinesColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga138e52649aef511c1435cf3ab8d36518" kind="variable"><name>emptyScnLengthColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1gaa84f76f4e99e7839a00f31fd4bae51d4" kind="variable"><name>maxTexSize_</name></member>
+      <member refid="group__GeneralGroup_1gae21f610e2d016727daa229121b9d6b19" kind="variable"><name>pointsArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1gabd4120926a03ab2bfdef3f597e01914a" kind="variable"><name>pointValidBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga26ce599435acc57f19832bae104fde43" kind="variable"><name>dirtyPointPos_</name></member>
+      <member refid="group__GeneralGroup_1ga9497665a3752c1392372f7259db26d4a" kind="variable"><name>dirty_</name></member>
+      <member refid="group__GeneralGroup_1ga59ecce80e0a471b2f17c0b6f9d9582e8" kind="variable"><name>dirtyEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga8158ae77e4c2aea465be3cd08cd64778" kind="variable"><name>cornerMode_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga345d0ef9d78fd5002d69d90414279694" kind="function"><name>RenderMeshObject</name></member>
+      <member refid="group__GeneralGroup_1ga41d19fc14c825a18bc7c451d9cc383db" kind="function"><name>~RenderMeshObject</name></member>
+      <member refid="group__GeneralGroup_1gaf98f29118f3e40b2fea47777cc8c1109" kind="function"><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga3add1fec03d84c184958d143c13ab6ba" kind="function"><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga8e555c261681a7483119dde9a5b3df25" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga5853532e2914421ec96d85838152300a" kind="function"><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga04bbec7fedef3e485ba0763e6aea76f2" kind="function"><name>forceBindAll</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga09391b9b6f5e18abac3559ba0fa60dba" kind="function"><name>loadVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga2b96a7f804774902c41e8f23526c8f64" kind="function"><name>loadVertNormalsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga7b5e256ed1542191675f8be677499aef" kind="function"><name>loadVertColorsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga09963fce25ed38f25ca706ab8d5cfb26" kind="function"><name>loadVertUVBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga1f273db5bf7f2439e36be583f8892f98" kind="function"><name>loadFaceIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8ec8db305432a9bd896e3ab72cfcd302" kind="function"><name>loadFaceSelectionTextureBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga0b296b577bfee513d40bc073e4609f55" kind="function"><name>loadFaceNormalsTextureBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga0cec65e255a2fa58862a5f0d41fca6db" kind="function"><name>loadTexturePerFaceTextureBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga365f57737ec03550ffd6b0397dbfdefb" kind="function"><name>loadPointValidIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8a500aad7718b3d88a1cfbde197e72b4" kind="function"><name>renderEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga8604315323eee3c61682a674cda5b237" kind="function"><name>renderMeshEdges_</name></member>
+      <member refid="group__GeneralGroup_1gac13b88dd9b0bca9ca0557fd294bc6362" kind="function"><name>renderMeshVerts_</name></member>
+      <member refid="group__GeneralGroup_1ga2b24e6cc844c3b662a6ee587341852d8" kind="function"><name>bindMesh_</name></member>
+      <member refid="group__GeneralGroup_1ga37739458881d20481b031b0260717196" kind="function"><name>bindMeshPicker_</name></member>
+      <member refid="group__GeneralGroup_1gac848abf6091b54053cbabc02f272b7f7" kind="function"><name>bindEdges_</name></member>
+      <member refid="group__GeneralGroup_1gac596c74446d18169502743da84ebc997" kind="function"><name>bindBorders_</name></member>
+      <member refid="group__GeneralGroup_1ga1e66ff524e4e671f0111c13050f9b827" kind="function"><name>bindSelectedEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga49a93e018f0e5053de983c1cb3d4132d" kind="function"><name>bindEmptyTextures_</name></member>
+      <member refid="group__GeneralGroup_1ga81f6adb8743b8118b6ef287ebf336a13" kind="function"><name>bindPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga74b9993ac9ec597c75dcaa9867e97114" kind="function"><name>drawMesh_</name></member>
+      <member refid="group__GeneralGroup_1ga25ce65cf24e73a9b094c4ea775ab9710" kind="function"><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga4e92f378f23062d1117a5f705c975fa4" kind="function"><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1gabe7b4ee6ee91312d898e283b022cf5e0" kind="function"><name>update_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="4">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectMesh, RenderMeshObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; false &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderFeatures::RenderPlaneNormalComponent</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderMeshObject</label>
+        <link refid="classMR_1_1RenderMeshObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>MR::GlBuffer</label>
+        <link refid="classMR_1_1GlBuffer"/>
+      </node>
+      <node id="24">
+        <label>MR::GlTexture</label>
+        <link refid="classMR_1_1GlTexture"/>
+      </node>
+      <node id="23">
+        <label>MR::GlTexture2</label>
+        <link refid="classMR_1_1GlTexture2"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MR::GlTexture2DArray</label>
+        <link refid="classMR_1_1GlTexture2DArray"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="20">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="19">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::ObjectMeshData</label>
+        <link refid="structMR_1_1ObjectMeshData"/>
+      </node>
+      <node id="3">
+        <label>MR::ObjectMeshHolder</label>
+        <link refid="classMR_1_1ObjectMeshHolder"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>creasesChangedSignal</edgelabel>
+          <edgelabel>edgeSelectionChangedSignal</edgelabel>
+          <edgelabel>faceSelectionChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>meshChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>data_</edgelabel>
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>textures_</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>ancillaryTexture_</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>worldBox_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>flatShading_</edgelabel>
+          <edgelabel>onlyOddFragments_</edgelabel>
+          <edgelabel>polygonOffset_</edgelabel>
+          <edgelabel>shadingEnabled_</edgelabel>
+          <edgelabel>showBordersHighlight_</edgelabel>
+          <edgelabel>showEdges_</edgelabel>
+          <edgelabel>showFaces_</edgelabel>
+          <edgelabel>showPoints_</edgelabel>
+          <edgelabel>showSelectedEdges_</edgelabel>
+          <edgelabel>showSelectedFaces_</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>bordersColor_</edgelabel>
+          <edgelabel>edgeSelectionColor_</edgelabel>
+          <edgelabel>edgesColor_</edgelabel>
+          <edgelabel>faceSelectionColor_</edgelabel>
+          <edgelabel>pointsColor_</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderMeshObject</label>
+        <link refid="classMR_1_1RenderMeshObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>objMesh_</edgelabel>
+        </childnode>
+        <childnode refid="22" relation="usage">
+          <edgelabel>borderBuffer_</edgelabel>
+          <edgelabel>facesIndicesBuffer_</edgelabel>
+          <edgelabel>pointValidBuffer_</edgelabel>
+          <edgelabel>selectedEdgesBuffer_</edgelabel>
+          <edgelabel>vertColorsBuffer_</edgelabel>
+          <edgelabel>vertNormalsBuffer_</edgelabel>
+          <edgelabel>vertPosBuffer_</edgelabel>
+          <edgelabel>vertUVBuffer_</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>borderTexture_</edgelabel>
+          <edgelabel>edgesTexture_</edgelabel>
+          <edgelabel>emptyLinesColorTexture_</edgelabel>
+          <edgelabel>emptyScnLengthColorTexture_</edgelabel>
+          <edgelabel>emptyVertsColorTexture_</edgelabel>
+          <edgelabel>faceColorsTex_</edgelabel>
+          <edgelabel>faceSelectionTex_</edgelabel>
+          <edgelabel>facesNormalsTex_</edgelabel>
+          <edgelabel>selEdgesTexture_</edgelabel>
+          <edgelabel>texturePerFace_</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="25" relation="usage">
+          <edgelabel>textureArray_</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::Signal&lt; void(uint32_t mask)&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::Vector&lt; MR::MeshTexture, TextureId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+      <node id="10">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="9">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="13">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="21">
+        <label>MR::ViewportProperty&lt; MR::XfBasedCache&lt; Box3f &gt; &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="14">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="4">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="16">
+        <label>boost::signals2::signal&lt; void(uint32_t mask) &gt;</label>
+      </node>
+      <node id="12">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeshObject.h" bodystart="16" bodyend="127"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac596c74446d18169502743da84ebc997" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindBorders_</name></member>
+      <member refid="group__GeneralGroup_1gac848abf6091b54053cbabc02f272b7f7" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga49a93e018f0e5053de983c1cb3d4132d" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindEmptyTextures_</name></member>
+      <member refid="group__GeneralGroup_1ga2b24e6cc844c3b662a6ee587341852d8" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindMesh_</name></member>
+      <member refid="group__GeneralGroup_1ga37739458881d20481b031b0260717196" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindMeshPicker_</name></member>
+      <member refid="group__GeneralGroup_1ga81f6adb8743b8118b6ef287ebf336a13" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga1e66ff524e4e671f0111c13050f9b827" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>bindSelectedEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga1a9f41cc9d68f81801374e9f18c6b195" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>borderArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga4dd4c30b4f09367586d6f0b6e520e85c" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>borderBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gab85b5749a8074358f89fff480448ee5d" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>bordersSize_</name></member>
+      <member refid="group__GeneralGroup_1gac5dda63e700cfe2742a7b9b1683649e6" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>borderTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga8158ae77e4c2aea465be3cd08cd64778" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>cornerMode_</name></member>
+      <member refid="group__GeneralGroup_1ga9497665a3752c1392372f7259db26d4a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>dirty_</name></member>
+      <member refid="group__GeneralGroup_1ga59ecce80e0a471b2f17c0b6f9d9582e8" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>dirtyEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga26ce599435acc57f19832bae104fde43" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>dirtyPointPos_</name></member>
+      <member refid="group__GeneralGroup_1ga74b9993ac9ec597c75dcaa9867e97114" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>drawMesh_</name></member>
+      <member refid="group__GeneralGroup_1ga12b1a94d2b98548e47229d4213609b1f" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>edgesArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga888fbd0e8bad27a4ff46ec6c1e1680e5" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>edgeSize_</name></member>
+      <member refid="group__GeneralGroup_1gadec18a7be82779db2756036737e2119e" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>edgesTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga363bdae2a388d10c4408213932092acc" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>emptyLinesColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga138e52649aef511c1435cf3ab8d36518" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>emptyScnLengthColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga1823d62e4541feb96b41da5e82b73db4" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>emptyVertsColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1gaf99f6b1103fb8791d9d8a2fbd0275213" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceColorsTex_</name></member>
+      <member refid="group__GeneralGroup_1ga7c197e5a47c0adda4d0e19fe67bc8ad6" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceIndicesSize_</name></member>
+      <member refid="group__GeneralGroup_1gaf277e985bb5c295945722ce8b6dbef7f" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceNormalsTextureSize_</name></member>
+      <member refid="group__GeneralGroup_1ga5c61b0a36314bb6fd4e2c60cfc2f8447" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceSelectionTex_</name></member>
+      <member refid="group__GeneralGroup_1gaf258359eadbf7873075ce2773a51e7aa" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>faceSelectionTextureSize_</name></member>
+      <member refid="group__GeneralGroup_1ga066918630b8d458a0fd7897e3230084e" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>facesIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga5931d691ce4183252190a5357ead412a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>facesNormalsTex_</name></member>
+      <member refid="group__GeneralGroup_1ga04bbec7fedef3e485ba0763e6aea76f2" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga4e92f378f23062d1117a5f705c975fa4" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga5853532e2914421ec96d85838152300a" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga3228435a7c18da1a7bf0ddd0568a2102" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1ga8e555c261681a7483119dde9a5b3df25" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga25ce65cf24e73a9b094c4ea775ab9710" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga1f273db5bf7f2439e36be583f8892f98" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadFaceIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga0b296b577bfee513d40bc073e4609f55" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadFaceNormalsTextureBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8ec8db305432a9bd896e3ab72cfcd302" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadFaceSelectionTextureBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga365f57737ec03550ffd6b0397dbfdefb" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadPointValidIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga0cec65e255a2fa58862a5f0d41fca6db" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadTexturePerFaceTextureBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga7b5e256ed1542191675f8be677499aef" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadVertColorsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga2b96a7f804774902c41e8f23526c8f64" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadVertNormalsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga09391b9b6f5e18abac3559ba0fa60dba" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadVertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga09963fce25ed38f25ca706ab8d5cfb26" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>loadVertUVBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaa84f76f4e99e7839a00f31fd4bae51d4" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>maxTexSize_</name></member>
+      <member refid="group__GeneralGroup_1ga3c74e85a422c5f8e54c993f9fcf43116" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>meshArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1gaee44a84c6224d63a0c86043eac07a7fd" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>meshPickerArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga3bbf015a92d7acdcb4f134a3af214b75" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>objMesh_</name></member>
+      <member refid="group__GeneralGroup_1gae21f610e2d016727daa229121b9d6b19" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>pointsArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1gadbbb4589a356ef6e74b8ec06392ff7ca" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>pointSize_</name></member>
+      <member refid="group__GeneralGroup_1gabd4120926a03ab2bfdef3f597e01914a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>pointValidBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8db2965251810b5f46ee770ee8e8c895" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>pointValidSize_</name></member>
+      <member refid="group__GeneralGroup_1gaf98f29118f3e40b2fea47777cc8c1109" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga8a500aad7718b3d88a1cfbde197e72b4" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga8604315323eee3c61682a674cda5b237" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderMeshEdges_</name></member>
+      <member refid="group__GeneralGroup_1ga345d0ef9d78fd5002d69d90414279694" prot="public" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>RenderMeshObject</name></member>
+      <member refid="group__GeneralGroup_1gac13b88dd9b0bca9ca0557fd294bc6362" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderMeshVerts_</name></member>
+      <member refid="group__GeneralGroup_1ga3add1fec03d84c184958d143c13ab6ba" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1gaaca1c8b6779387b3ba8617dec0b4c336" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>selectedEdgesArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga7aba022c31f49b9f2bc3a2cc1adb5247" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>selectedEdgesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gab2808bb9f682b7671b601fa9ba3348c4" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>selEdgeSize_</name></member>
+      <member refid="group__GeneralGroup_1ga0c5f65d0f55c35a44e6f210b7e3d5144" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>selEdgesTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga8cd847a579adbca9c44e43ea25fe0166" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>textureArray_</name></member>
+      <member refid="group__GeneralGroup_1ga7ca63f2d3385ab5f38ca500ab1d468f7" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>texturePerFace_</name></member>
+      <member refid="group__GeneralGroup_1ga6fb6b9a55fd521017c1eea063af7225a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>texturePerFaceSize_</name></member>
+      <member refid="group__GeneralGroup_1gabe7b4ee6ee91312d898e283b022cf5e0" prot="protected" virt="virtual"><scope>MR::RenderMeshObject</scope><name>update_</name></member>
+      <member refid="group__GeneralGroup_1ga7be65ffb643076059379c9333885a89c" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertColorsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga885637207dfa4ad9a32e22b1de0fc18a" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertColorsSize_</name></member>
+      <member refid="group__GeneralGroup_1ga7392ba05df67ae19e9e6af50c94ebe33" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertNormalsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8e4c0f111508fd26331871247ad7e055" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertNormalsSize_</name></member>
+      <member refid="group__GeneralGroup_1ga8f3dc8d13b36124134b86d4e81519767" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertPosBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gad8c179bd9f2914459146986ba590f4c2" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertPosSize_</name></member>
+      <member refid="group__GeneralGroup_1ga08d8c036ef75bf130d97cbcc7992b943" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertUVBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga36832676f48c87a67ff5782e57a7bd66" prot="protected" virt="non-virtual"><scope>MR::RenderMeshObject</scope><name>vertUVSize_</name></member>
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>~IRenderObject</name></member>
+      <member refid="group__GeneralGroup_1ga41d19fc14c825a18bc7c451d9cc383db" prot="public" virt="virtual"><scope>MR::RenderMeshObject</scope><name>~RenderMeshObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

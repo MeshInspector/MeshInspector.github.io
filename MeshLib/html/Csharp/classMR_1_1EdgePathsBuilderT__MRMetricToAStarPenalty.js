@@ -1,6 +1,8 @@
 var classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty =
 [
     [ "EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#a77b75d46e539971e4b2c551f9084eadd", null ],
+    [ "EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#addaf1ab05d8b0e4fca09ea07ea4a213f", null ],
+    [ "EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#a42e68bad3ce457a9b1ece2c2fa7bc031", null ],
     [ "EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#a050933094a61ad9b7a35fa0475edffb6", null ],
     [ "EdgePathsBuilderT_MRMetricToAStarPenalty", "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#a0f7672b51dc66680769419d1a449d653", null ],
     [ "addOrgRingSteps", "classMR_1_1EdgePathsBuilderT__MRMetricToAStarPenalty.html#aa2a769d356ed64b22e389717de184910", null ],

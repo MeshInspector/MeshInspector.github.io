@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TriIntersectResult" kind="class" language="C#" prot="public">
+    <compoundname>MR::TriIntersectResult</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_TriIntersectResult</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1TriIntersectResult_1a5b49cc9e41838a348de8e93f416dc13b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1TriPointf" kindref="compound">MR.TriPointf</ref></type>
+        <definition>new unsafe MR.TriPointf MR.TriIntersectResult.bary</definition>
+        <argsstring></argsstring>
+        <name>bary</name>
+        <qualifiedname>MR.TriIntersectResult.bary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="97" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="97" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1TriIntersectResult_1ac19596207dbd1d0021458e4589392f6f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.TriIntersectResult.t</definition>
+        <argsstring></argsstring>
+        <name>t</name>
+        <qualifiedname>MR.TriIntersectResult.t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="100" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1TriIntersectResult_1ab8aa40a3df916bc6e58526898ae0640e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriIntersectResult.TriIntersectResult</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>TriIntersectResult</name>
+        <qualifiedname>MR.TriIntersectResult.TriIntersectResult</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="119" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="119" bodyend="123"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1TriIntersectResult_1a85cf83c7e28f559b5b4642be1b6c767e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriIntersectResult.TriIntersectResult</definition>
+        <argsstring>(MR.Const_TriIntersectResult _other)</argsstring>
+        <name>TriIntersectResult</name>
+        <qualifiedname>MR.TriIntersectResult.TriIntersectResult</qualifiedname>
+        <param>
+          <type>MR.Const_TriIntersectResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriIntersectResult.TriIntersectResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="129" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="129" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriIntersectResult_1aab3b402a98f3e5c953dee62f0f23bba6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.TriIntersectResult.TriIntersectResult</definition>
+        <argsstring>(TriIntersectResult _other)</argsstring>
+        <name>TriIntersectResult</name>
+        <qualifiedname>MR.TriIntersectResult.TriIntersectResult</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1TriIntersectResult" kindref="compound">TriIntersectResult</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriIntersectResult.TriIntersectResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="141" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriIntersectResult_1a29594d31a57c2c211075a6b3fbb7ffbf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.TriIntersectResult.TriIntersectResult</definition>
+        <argsstring>(float U, float V, float dist)</argsstring>
+        <name>TriIntersectResult</name>
+        <qualifiedname>MR.TriIntersectResult.TriIntersectResult</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>U</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>V</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.TriIntersectResult.TriIntersectResult</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="146" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="146" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1TriIntersectResult_1ab9405d73aa12df2aaa88a3f4354fca55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1TriIntersectResult" kindref="compound">MR.TriIntersectResult</ref></type>
+        <definition>unsafe MR.TriIntersectResult MR.TriIntersectResult.assign</definition>
+        <argsstring>(MR.Const_TriIntersectResult _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.TriIntersectResult.assign</qualifiedname>
+        <param>
+          <type>MR.Const_TriIntersectResult</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.TriIntersectResult.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="157" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="157" bodyend="164"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1TriIntersectResult" kindref="compound">MR.TriIntersectResult</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_TriIntersectResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriIntersectResult</label>
+        <link refid="classMR_1_1TriIntersectResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TriIntersectResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_TriIntersectResult</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.TriIntersectResult</label>
+        <link refid="classMR_1_1TriIntersectResult"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_TriIntersectResult &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" line="94" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTriangleIntersection.cs" bodystart="95" bodyend="165"/>
+    <listofallmembers>
+      <member refid="classMR_1_1TriIntersectResult_1ab9405d73aa12df2aaa88a3f4354fca55" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>assign</name></member>
+      <member refid="classMR_1_1TriIntersectResult_1a5b49cc9e41838a348de8e93f416dc13b" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>bary</name></member>
+      <member refid="classMR_1_1TriIntersectResult_1ac19596207dbd1d0021458e4589392f6f" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>t</name></member>
+      <member refid="classMR_1_1TriIntersectResult_1ab8aa40a3df916bc6e58526898ae0640e" prot="package" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>TriIntersectResult</name></member>
+      <member refid="classMR_1_1TriIntersectResult_1a85cf83c7e28f559b5b4642be1b6c767e" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>TriIntersectResult</name></member>
+      <member refid="classMR_1_1TriIntersectResult_1aab3b402a98f3e5c953dee62f0f23bba6" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>TriIntersectResult</name></member>
+      <member refid="classMR_1_1TriIntersectResult_1a29594d31a57c2c211075a6b3fbb7ffbf" prot="public" virt="non-virtual"><scope>MR::TriIntersectResult</scope><name>TriIntersectResult</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

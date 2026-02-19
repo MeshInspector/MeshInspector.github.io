@@ -1,0 +1,679 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgeId" kind="struct" language="C#" prot="public">
+    <compoundname>MR::EdgeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.EdgeId &gt;</basecompoundref>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1EdgeId_1adae7860d6ee16c002a6f500f104e3b8f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR.EdgeId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.EdgeId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7689" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7689" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="structMR_1_1EdgeId_1aa87bef12df9a914668dbddcd43de9743" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.EdgeId.operator EdgeId</definition>
+        <argsstring>(ConstBox_EdgeId other)</argsstring>
+        <name>operator EdgeId</name>
+        <qualifiedname>MR.EdgeId.operator EdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__EdgeId" kindref="compound">ConstBox_EdgeId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Copy contents from a wrapper class to this struct. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7694" column="32"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1aa13a776f4ffaf4ce847c8a42cd543973" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.EdgeId.operator EdgeId</definition>
+        <argsstring>(MR.UndirectedEdgeId u)</argsstring>
+        <name>operator EdgeId</name>
+        <qualifiedname>MR.EdgeId.operator EdgeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7734" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7734" bodyend="7734"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a4ef856cc939e8b8f8da014735b618acf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.EdgeId.operator int</definition>
+        <argsstring>(MR.EdgeId _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.EdgeId.operator int</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.EdgeId.operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7769" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7769" bodyend="7774"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a6f0eb6574c6b37ae5e02ea48c4d18fd1" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.EdgeId.operator bool</definition>
+        <argsstring>(MR.EdgeId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.EdgeId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.EdgeId.operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7779" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7779" bodyend="7784"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a629f487c464d1e41a49679ced3bff1f4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.EdgeId.operator MR.UndirectedEdgeId</definition>
+        <argsstring>(MR.EdgeId _this)</argsstring>
+        <name>operator MR.UndirectedEdgeId</name>
+        <qualifiedname>MR.EdgeId.operator MR.UndirectedEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.EdgeId.operator <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7789" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7789" bodyend="7794"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a1a6d76ecccdae98ad57231f368b505df" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.EdgeId.operator==</definition>
+        <argsstring>(MR.EdgeId _this, MR.EdgeId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.EdgeId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7880" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7880" bodyend="7885"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a4890502cc4a67cbf3653bc576a0dae8a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.EdgeId.operator!=</definition>
+        <argsstring>(MR.EdgeId _this, MR.EdgeId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.EdgeId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7887" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7887" bodyend="7890"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a890f0659a244ec8ee404240450dc36c0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>static MR.EdgeId MR.EdgeId.operator+</definition>
+        <argsstring>(MR.EdgeId id, int a)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.EdgeId.operator+</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+&lt;MR.EdgeTag&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7984" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7984" bodyend="7989"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1ad19fd29281a956cccccdb18bb9b0e2b5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>static MR.EdgeId MR.EdgeId.operator+</definition>
+        <argsstring>(MR.EdgeId id, uint a)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.EdgeId.operator+</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>uint</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+&lt;MR.EdgeTag&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7994" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7994" bodyend="7999"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a7e3550ef5d31de762102a45789f020b1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>static MR.EdgeId MR.EdgeId.operator+</definition>
+        <argsstring>(MR.EdgeId id, ulong a)</argsstring>
+        <name>operator+</name>
+        <qualifiedname>MR.EdgeId.operator+</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+&lt;MR.EdgeTag&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="8004" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="8004" bodyend="8009"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.EdgeId.EdgeId</definition>
+        <argsstring>(EdgeId _other)</argsstring>
+        <name>EdgeId</name>
+        <qualifiedname>MR.EdgeId.EdgeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7699" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7699" bodyend="7699"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a916b271d1f741f78aacbd03d128be669" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeId.EdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>EdgeId</name>
+        <qualifiedname>MR.EdgeId.EdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7704" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7704" bodyend="7709"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1ada91f1a9452538011b45d02bb3126dc6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeId.EdgeId</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>EdgeId</name>
+        <qualifiedname>MR.EdgeId.EdgeId</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7714" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7714" bodyend="7719"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a60d62a53035562e8b85eefb7f3aeb2fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeId.EdgeId</definition>
+        <argsstring>(MR.UndirectedEdgeId u)</argsstring>
+        <name>EdgeId</name>
+        <qualifiedname>MR.EdgeId.EdgeId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>u</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7724" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7724" bodyend="7729"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1aad47005d7016b934a79f74b3b845fbb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeId.EdgeId</definition>
+        <argsstring>(int i)</argsstring>
+        <name>EdgeId</name>
+        <qualifiedname>MR.EdgeId.EdgeId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7739" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7739" bodyend="7744"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a014043ec86caca25399754351cfc8ef6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeId.EdgeId</definition>
+        <argsstring>(uint i)</argsstring>
+        <name>EdgeId</name>
+        <qualifiedname>MR.EdgeId.EdgeId</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7749" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7749" bodyend="7754"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a988655d5e6648a7f156d84c70772be2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.EdgeId.EdgeId</definition>
+        <argsstring>(ulong i)</argsstring>
+        <name>EdgeId</name>
+        <qualifiedname>MR.EdgeId.EdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" kindref="member">MR.EdgeId.EdgeId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7759" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7759" bodyend="7764"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a4f7c571cf031088b17a50a1a03dcb15f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.EdgeId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.EdgeId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1EdgeId_1a4f7c571cf031088b17a50a1a03dcb15f" kindref="member">MR.EdgeId.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7799" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7799" bodyend="7807"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a659916df0dad675207264ff86f53fa90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.EdgeId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.EdgeId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1EdgeId_1a659916df0dad675207264ff86f53fa90" kindref="member">MR.EdgeId.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7812" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7812" bodyend="7820"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a794e648ecd42678ac40949a7659012b1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>readonly unsafe MR.EdgeId MR.EdgeId.sym</definition>
+        <argsstring>()</argsstring>
+        <name>sym</name>
+        <qualifiedname>MR.EdgeId.sym</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1EdgeId_1a794e648ecd42678ac40949a7659012b1" kindref="member">MR.EdgeId.sym</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7826" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7826" bodyend="7834"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1aa3d2814109f92b7baafa2b593faeaaaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.EdgeId.even</definition>
+        <argsstring>()</argsstring>
+        <name>even</name>
+        <qualifiedname>MR.EdgeId.even</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1EdgeId_1aa3d2814109f92b7baafa2b593faeaaaa" kindref="member">MR.EdgeId.even</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7840" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7840" bodyend="7848"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1ada00ed7281eb0160e01658db78374c87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.EdgeId.odd</definition>
+        <argsstring>()</argsstring>
+        <name>odd</name>
+        <qualifiedname>MR.EdgeId.odd</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1EdgeId_1ada00ed7281eb0160e01658db78374c87" kindref="member">MR.EdgeId.odd</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7853" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7853" bodyend="7861"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1adaeb059cc7c603493f7c9e4a8cc42e77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>readonly unsafe MR.UndirectedEdgeId MR.EdgeId.undirected</definition>
+        <argsstring>()</argsstring>
+        <name>undirected</name>
+        <qualifiedname>MR.EdgeId.undirected</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1EdgeId_1adaeb059cc7c603493f7c9e4a8cc42e77" kindref="member">MR.EdgeId.undirected</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7867" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7867" bodyend="7875"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1ad4850721588c6d647cbb529ba82e988f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>readonly unsafe bool</type>
+        <definition>readonly unsafe bool MR.EdgeId.less</definition>
+        <argsstring>(MR.EdgeId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.EdgeId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator&lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7895" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7895" bodyend="7903"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1ac3bee5afc85d46b18c67a8d9d37dbd7c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeId.decr</definition>
+        <argsstring>()</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.EdgeId.decr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7908" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7908" bodyend="7916"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a886ea8fe09d3a66b448b63587a93b291" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition>unsafe EdgeId MR.EdgeId.decr</definition>
+        <argsstring>(MR.EdgeId _this)</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.EdgeId.decr</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7921" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7921" bodyend="7928"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a5923d7a6c221d34e02eb10c647db17ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.EdgeId.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.EdgeId.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7933" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7933" bodyend="7941"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a5dd8f76d6fed38c8bce51de4c033cfa7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition>unsafe EdgeId MR.EdgeId.incr</definition>
+        <argsstring>(MR.EdgeId _this)</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.EdgeId.incr</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7946" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7946" bodyend="7953"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a68010814b2dca1d6582dfe2c692804d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref MR.EdgeId MR.EdgeId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.EdgeId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7958" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7958" bodyend="7966"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a38e32a1a103b7fbde946cb17a520db4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe ref MR.EdgeId MR.EdgeId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.EdgeId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.EdgeId.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7971" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7971" bodyend="7979"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a6db82ec6a98149215f844e4bd533f145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.EdgeId.Equals</definition>
+        <argsstring>(MR.EdgeId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.EdgeId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="8013" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="8013" bodyend="8016"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1EdgeId_1a7f85f79dbb97597b3638d71ba77c464b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.EdgeId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.EdgeId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="8018" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="8018" bodyend="8025"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref>&gt;</computeroutput> This is the by-value version of the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.EdgeId</label>
+        <link refid="structMR_1_1EdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.EdgeId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.EdgeId</label>
+        <link refid="structMR_1_1EdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>System::IEquatable&lt; MR.EdgeId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="7686" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="7687" bodyend="8026"/>
+    <listofallmembers>
+      <member refid="structMR_1_1EdgeId_1a38e32a1a103b7fbde946cb17a520db4d" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>addAssign</name></member>
+      <member refid="structMR_1_1EdgeId_1ac3bee5afc85d46b18c67a8d9d37dbd7c" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>decr</name></member>
+      <member refid="structMR_1_1EdgeId_1a886ea8fe09d3a66b448b63587a93b291" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>decr</name></member>
+      <member refid="structMR_1_1EdgeId_1ad920738e82c9efaa967f46aa88af099f" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1a916b271d1f741f78aacbd03d128be669" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1ada91f1a9452538011b45d02bb3126dc6" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1a60d62a53035562e8b85eefb7f3aeb2fe" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1aad47005d7016b934a79f74b3b845fbb1" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1a014043ec86caca25399754351cfc8ef6" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1a988655d5e6648a7f156d84c70772be2a" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1a6db82ec6a98149215f844e4bd533f145" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1EdgeId_1a7f85f79dbb97597b3638d71ba77c464b" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>Equals</name></member>
+      <member refid="structMR_1_1EdgeId_1aa3d2814109f92b7baafa2b593faeaaaa" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>even</name></member>
+      <member refid="structMR_1_1EdgeId_1a659916df0dad675207264ff86f53fa90" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>get</name></member>
+      <member refid="structMR_1_1EdgeId_1adae7860d6ee16c002a6f500f104e3b8f" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>id</name></member>
+      <member refid="structMR_1_1EdgeId_1a5923d7a6c221d34e02eb10c647db17ef" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>incr</name></member>
+      <member refid="structMR_1_1EdgeId_1a5dd8f76d6fed38c8bce51de4c033cfa7" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>incr</name></member>
+      <member refid="structMR_1_1EdgeId_1ad4850721588c6d647cbb529ba82e988f" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>less</name></member>
+      <member refid="structMR_1_1EdgeId_1ada00ed7281eb0160e01658db78374c87" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>odd</name></member>
+      <member refid="structMR_1_1EdgeId_1a6f0eb6574c6b37ae5e02ea48c4d18fd1" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator bool</name></member>
+      <member refid="structMR_1_1EdgeId_1aa87bef12df9a914668dbddcd43de9743" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1aa13a776f4ffaf4ce847c8a42cd543973" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator EdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1a4ef856cc939e8b8f8da014735b618acf" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator int</name></member>
+      <member refid="structMR_1_1EdgeId_1a629f487c464d1e41a49679ced3bff1f4" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator MR.UndirectedEdgeId</name></member>
+      <member refid="structMR_1_1EdgeId_1a4890502cc4a67cbf3653bc576a0dae8a" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator!=</name></member>
+      <member refid="structMR_1_1EdgeId_1a890f0659a244ec8ee404240450dc36c0" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator+</name></member>
+      <member refid="structMR_1_1EdgeId_1ad19fd29281a956cccccdb18bb9b0e2b5" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator+</name></member>
+      <member refid="structMR_1_1EdgeId_1a7e3550ef5d31de762102a45789f020b1" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator+</name></member>
+      <member refid="structMR_1_1EdgeId_1a1a6d76ecccdae98ad57231f368b505df" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>operator==</name></member>
+      <member refid="structMR_1_1EdgeId_1a68010814b2dca1d6582dfe2c692804d3" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>subAssign</name></member>
+      <member refid="structMR_1_1EdgeId_1a794e648ecd42678ac40949a7659012b1" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>sym</name></member>
+      <member refid="structMR_1_1EdgeId_1adaeb059cc7c603493f7c9e4a8cc42e77" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>undirected</name></member>
+      <member refid="structMR_1_1EdgeId_1a4f7c571cf031088b17a50a1a03dcb15f" prot="public" virt="non-virtual"><scope>MR::EdgeId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

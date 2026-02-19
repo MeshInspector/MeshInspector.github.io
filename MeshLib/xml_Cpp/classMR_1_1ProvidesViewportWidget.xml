@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ProvidesViewportWidget" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::ProvidesViewportWidget</compoundname>
+    <includes refid="MRDrawViewportWidgetsItem_8h" local="no">MRDrawViewportWidgetsItem.h</includes>
+    <innerclass refid="structMR_1_1ProvidesViewportWidget_1_1ViewportWidgetInterface" prot="public">MR::ProvidesViewportWidget::ViewportWidgetInterface</innerclass>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga7dc0c92db5f0c3a16cc37be82cd7ff56" kind="variable"><name>providedWidgetsConnection_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaf041541f4016a8590a3c4aed86fd9fb5" kind="function"><name>ProvidesViewportWidget</name></member>
+      <member refid="group__GeneralGroup_1ga109c919bd164ef9b221f3f71e6db2c41" kind="function"><name>ProvidesViewportWidget</name></member>
+      <member refid="group__GeneralGroup_1ga7f6c27b4d8d26bfca58a49fc3a614732" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga3bf7f1350760c817d94d1173339aba56" kind="function"><name>~ProvidesViewportWidget</name></member>
+      <member refid="group__GeneralGroup_1gaf6cfff8dc7c5312c19f3e17602f0bfec" kind="function"><name>providedViewportWidgets</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Inherit your plugin from this to draw viewport widgets from there. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/Basic/MRDrawViewportWidgetsItem.h" bodystart="18" bodyend="43"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7f6c27b4d8d26bfca58a49fc3a614732" prot="public" virt="non-virtual"><scope>MR::ProvidesViewportWidget</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaf6cfff8dc7c5312c19f3e17602f0bfec" prot="public" virt="pure-virtual"><scope>MR::ProvidesViewportWidget</scope><name>providedViewportWidgets</name></member>
+      <member refid="group__GeneralGroup_1ga7dc0c92db5f0c3a16cc37be82cd7ff56" prot="private" virt="non-virtual"><scope>MR::ProvidesViewportWidget</scope><name>providedWidgetsConnection_</name></member>
+      <member refid="group__GeneralGroup_1gaf041541f4016a8590a3c4aed86fd9fb5" prot="public" virt="non-virtual"><scope>MR::ProvidesViewportWidget</scope><name>ProvidesViewportWidget</name></member>
+      <member refid="group__GeneralGroup_1ga109c919bd164ef9b221f3f71e6db2c41" prot="public" virt="non-virtual"><scope>MR::ProvidesViewportWidget</scope><name>ProvidesViewportWidget</name></member>
+      <member refid="group__GeneralGroup_1ga3bf7f1350760c817d94d1173339aba56" prot="public" virt="virtual"><scope>MR::ProvidesViewportWidget</scope><name>~ProvidesViewportWidget</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

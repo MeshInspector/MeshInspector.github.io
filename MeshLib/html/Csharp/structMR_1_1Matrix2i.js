@@ -7,6 +7,8 @@ var structMR_1_1Matrix2i =
     [ "col", "structMR_1_1Matrix2i.html#ac97a561ae5f98f85ae9241708ae5f74d", null ],
     [ "det", "structMR_1_1Matrix2i.html#a71473dff6cbcd6f542fe3fb3042dc827", null ],
     [ "divAssign", "structMR_1_1Matrix2i.html#a2510a7b75878c6c65293b5b9b71b64f2", null ],
+    [ "Equals", "structMR_1_1Matrix2i.html#a1a5d463ca25de1fa20c5ebbb38281346", null ],
+    [ "Equals", "structMR_1_1Matrix2i.html#af913873270231e0c9d4997848174979e", null ],
     [ "fromColumns", "structMR_1_1Matrix2i.html#a318083f85252773852ecef0719254dec", null ],
     [ "fromRows", "structMR_1_1Matrix2i.html#a2eb2047a292a959c123576ad49067fab", null ],
     [ "identity", "structMR_1_1Matrix2i.html#a621c78dbb4d374feccf50214bbbc52df", null ],
@@ -15,6 +17,7 @@ var structMR_1_1Matrix2i =
     [ "norm", "structMR_1_1Matrix2i.html#a4a862b9355e09cbb32576ad87bbc9cbb", null ],
     [ "normSq", "structMR_1_1Matrix2i.html#a525332a4a678cd67f12ed99fbe8a49c5", null ],
     [ "operator Matrix2i", "structMR_1_1Matrix2i.html#ac4ecdf3d7b3a7e5529d52130dd6b0e5a", null ],
+    [ "operator!=", "structMR_1_1Matrix2i.html#a534d21e6fcfc355355c711ffca1f80d3", null ],
     [ "operator*", "structMR_1_1Matrix2i.html#a5bf60dfbc4b9219184a9166dfcd62555", null ],
     [ "operator*", "structMR_1_1Matrix2i.html#adde6daa7dd865a8144c97edd264a9dea", null ],
     [ "operator*", "structMR_1_1Matrix2i.html#a9f1e19fecf558ffe05a76fb3a4c53b91", null ],
@@ -31,5 +34,6 @@ var structMR_1_1Matrix2i =
     [ "transposed", "structMR_1_1Matrix2i.html#ac7596cdaf68abd1be157040ab08d249e", null ],
     [ "zero", "structMR_1_1Matrix2i.html#a010db6a00cb2e99ca39dae2c5ba6cadd", null ],
     [ "x", "structMR_1_1Matrix2i.html#a8dade4f3196f3089d11f84d4b6f2a966", null ],
+    [ "y", "structMR_1_1Matrix2i.html#a4bbf2b164f022df9dc7dca03f200ea0f", null ],
     [ "this[int row]", "structMR_1_1Matrix2i.html#ad197601173f42668f074863e614ea2d6", null ]
 ];

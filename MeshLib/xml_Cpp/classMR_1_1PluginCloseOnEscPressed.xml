@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PluginCloseOnEscPressed" kind="class" language="C++" prot="public">
+    <compoundname>MR::PluginCloseOnEscPressed</compoundname>
+    <basecompoundref refid="classMR_1_1IPluginUpdate" prot="public" virt="virtual">MR::IPluginUpdate</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SelectObjectByClick" prot="public" virt="non-virtual">MR::SelectObjectByClick</derivedcompoundref>
+    <includes refid="MRStatePluginUpdate_8h" local="no">MRStatePluginUpdate.h</includes>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga1cbeb11bd052199cb41ec5ae88ea4971" kind="function"><name>shouldClose_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Helper class to close a dialog-less plugin when the Esc key is pressed. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="1">
+        <label>MR::PluginCloseOnEscPressed</label>
+        <link refid="classMR_1_1PluginCloseOnEscPressed"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::SelectObjectByClick</label>
+        <link refid="classMR_1_1SelectObjectByClick"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="1">
+        <label>MR::PluginCloseOnEscPressed</label>
+        <link refid="classMR_1_1PluginCloseOnEscPressed"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="96" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="97" bodyend="100"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::PluginCloseOnEscPressed</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::PluginCloseOnEscPressed</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::PluginCloseOnEscPressed</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga1cbeb11bd052199cb41ec5ae88ea4971" prot="protected" virt="virtual"><scope>MR::PluginCloseOnEscPressed</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::PluginCloseOnEscPressed</scope><name>~IPluginUpdate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

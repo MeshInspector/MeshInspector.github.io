@@ -97,7 +97,6 @@ var menudata={children:[
 {text:"All",url:"functions.html",children:[
 {text:"a",url:"functions.html#index_a"},
 {text:"b",url:"functions.html#index_b"},
-{text:"e",url:"functions.html#index_e"},
 {text:"g",url:"functions.html#index_g"},
 {text:"i",url:"functions.html#index_i"},
 {text:"m",url:"functions.html#index_m"},
@@ -111,7 +110,6 @@ var menudata={children:[
 {text:"Variables",url:"functions_vars.html",children:[
 {text:"a",url:"functions_vars.html#index_a"},
 {text:"b",url:"functions_vars.html#index_b"},
-{text:"e",url:"functions_vars.html#index_e"},
 {text:"g",url:"functions_vars.html#index_g"},
 {text:"i",url:"functions_vars.html#index_i"},
 {text:"m",url:"functions_vars.html#index_m"},
@@ -134,7 +132,6 @@ var menudata={children:[
 {text:"Enumerations",url:"globals_enum.html",children:[
 {text:"m",url:"globals_enum.html#index_m"}]},
 {text:"Enumerator",url:"globals_eval.html",children:[
-{text:"m",url:"globals_eval.html#index_m"}]},
-{text:"Macros",url:"globals_defs.html"}]}]}]},
+{text:"m",url:"globals_eval.html#index_m"}]}]}]}]},
 {text:"C#",url:"../Csharp/APICsharpPage.html"}]},
 {text:"Third-Party Dependencies",url:"../ThirdParty.html"}]}

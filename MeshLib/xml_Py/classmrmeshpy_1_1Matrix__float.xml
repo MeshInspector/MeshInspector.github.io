@@ -1,0 +1,449 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Matrix__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Matrix_float</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1RectIndexer" prot="public" virt="non-virtual">mrmeshpy.RectIndexer</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix_float.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix_float.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30487" bodyend="30488"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix__float" kindref="compound">Matrix_float</ref></type>
+        <definition> Matrix_float mrmeshpy.Matrix_float.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Matrix_float.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RectIndexer_1afcb24165cee73591b08899eff0afb0e9">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30491" bodyend="30492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix__float" kindref="compound">Matrix_float</ref></type>
+        <definition> Matrix_float mrmeshpy.Matrix_float.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Matrix_float.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RectIndexer_1afcb24165cee73591b08899eff0afb0e9">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30495" bodyend="30496"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a4252b7151edea1d2aaf491344c47b5a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Matrix_float.__call__</definition>
+        <argsstring>(self, int row, int col)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.Matrix_float.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>main access method
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30498" bodyend="30501"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a84307940ab5e501061c61721d8489ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Matrix_float.__call__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.Matrix_float.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30503" bodyend="30504"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a4252b7151edea1d2aaf491344c47b5a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Matrix_float.__call__</definition>
+        <argsstring>(self, int row, int col)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.Matrix_float.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30506" bodyend="30507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a84307940ab5e501061c61721d8489ec1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Matrix_float.__call__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.Matrix_float.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30509" bodyend="30510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix_float.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30512" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30512" bodyend="30513"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix_float.__init__</definition>
+        <argsstring>(self, int numRows, int numCols)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix_float.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numRows</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numCols</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30515" bodyend="30516"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix_float.__init__</definition>
+        <argsstring>(self, Matrix_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Matrix_float.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Matrix__float" kindref="compound">Matrix_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30518" bodyend="30521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1ab68f518661702422249be6f5391d7ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix_float.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Matrix_float.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30522" bodyend="30523"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a2271d584b188492ba1fd8b784c3a75e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+        <definition> std_vector_float mrmeshpy.Matrix_float.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Matrix_float.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30524" bodyend="30525"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1aca08939f63c131bd26fdb9538a05e201" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Matrix_float.fill</definition>
+        <argsstring>(self, float val)</argsstring>
+        <name>fill</name>
+        <qualifiedname>mrmeshpy.Matrix_float.fill</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30526" bodyend="30527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a6ea1ae6e15c571f430706876ef4fd903" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Matrix_float.getColsNum</definition>
+        <argsstring>(self)</argsstring>
+        <name>getColsNum</name>
+        <qualifiedname>mrmeshpy.Matrix_float.getColsNum</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30528" bodyend="30529"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1ab40409255045e0069b350f838f212b4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Matrix_float.getRowsNum</definition>
+        <argsstring>(self)</argsstring>
+        <name>getRowsNum</name>
+        <qualifiedname>mrmeshpy.Matrix_float.getRowsNum</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30530" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30530" bodyend="30531"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1aa49c474945068e1824ef3372fc9f16df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix__float" kindref="compound">Matrix_float</ref></type>
+        <definition> Matrix_float mrmeshpy.Matrix_float.getSubMatrix</definition>
+        <argsstring>(self, int startRow, int nRow, int startCol, int nCol)</argsstring>
+        <name>getSubMatrix</name>
+        <qualifiedname>mrmeshpy.Matrix_float.getSubMatrix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startRow</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nRow</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>startCol</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nCol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30532" bodyend="30533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Matrix__float_1a2b0dec6b20ffa7030981cb922b173d29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix__float" kindref="compound">Matrix_float</ref></type>
+        <definition> Matrix_float mrmeshpy.Matrix_float.transposed</definition>
+        <argsstring>(self)</argsstring>
+        <name>transposed</name>
+        <qualifiedname>mrmeshpy.Matrix_float.transposed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes transposed matrix
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30534" bodyend="30537"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Matrix&lt;float&gt;
+
+Row-major matrix with T values
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.Matrix_float</label>
+        <link refid="classmrmeshpy_1_1Matrix__float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.RectIndexer</label>
+        <link refid="classmrmeshpy_1_1RectIndexer"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Matrix_float</label>
+        <link refid="classmrmeshpy_1_1Matrix__float"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.RectIndexer</label>
+        <link refid="classmrmeshpy_1_1RectIndexer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="30479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="30479" bodyend="30537"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a4252b7151edea1d2aaf491344c47b5a1" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a84307940ab5e501061c61721d8489ec1" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a4252b7151edea1d2aaf491344c47b5a1" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a84307940ab5e501061c61721d8489ec1" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1ab68f518661702422249be6f5391d7ca9" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a2271d584b188492ba1fd8b784c3a75e2" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1aca08939f63c131bd26fdb9538a05e201" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>fill</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a6ea1ae6e15c571f430706876ef4fd903" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>getColsNum</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1ab40409255045e0069b350f838f212b4c" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>getRowsNum</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1aa49c474945068e1824ef3372fc9f16df" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>getSubMatrix</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Matrix__float_1a2b0dec6b20ffa7030981cb922b173d29" prot="public" virt="non-virtual"><scope>mrmeshpy::Matrix_float</scope><name>transposed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

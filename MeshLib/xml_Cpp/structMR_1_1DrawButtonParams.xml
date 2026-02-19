@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DrawButtonParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DrawButtonParams</compoundname>
+    <includes refid="MRRibbonButtonDrawer_8h" local="no">MRRibbonButtonDrawer.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga6ce094bc1bb74eb56ca44d849b1785ae" kind="enum"><name>SizeType</name></member>
+      <member refid="group__GeneralGroup_1ga438f2e3dfbe178d1558df0f1b9f84dae" kind="enum"><name>RootType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad592bb614e9ec6cf631c4eb003a17103" kind="variable"><name>Big</name></member>
+      <member refid="group__GeneralGroup_1gab8f3d59cb2dfd82cae6a79ab6746ee09" kind="variable"><name>itemSize</name></member>
+      <member refid="group__GeneralGroup_1gab74f8d9df1de54c37cd0803d64f01b34" kind="variable"><name>iconSize</name></member>
+      <member refid="group__GeneralGroup_1gafd107444ea803e1dded92f25f9366332" kind="variable"><name>Ribbon</name></member>
+      <member refid="group__GeneralGroup_1gae484e8e2139ec5d170493607d8987a20" kind="variable"><name>forceHovered</name></member>
+      <member refid="group__GeneralGroup_1gacf1bfc8da08f0a97639e95b6aeacdde1" kind="variable"><name>forcePressed</name></member>
+      <member refid="group__GeneralGroup_1gada71047555900f3fca184da6a1aaa1f8" kind="variable"><name>isPressed</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="19" bodyend="42"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad592bb614e9ec6cf631c4eb003a17103" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Big</name></member>
+      <member refid="group__GeneralGroup_1gae484e8e2139ec5d170493607d8987a20" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>forceHovered</name></member>
+      <member refid="group__GeneralGroup_1gacf1bfc8da08f0a97639e95b6aeacdde1" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>forcePressed</name></member>
+      <member refid="group__GeneralGroup_1gga438f2e3dfbe178d1558df0f1b9f84daea6e26772b8233151b64f9f5f360d3b59d" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Header</name></member>
+      <member refid="group__GeneralGroup_1gab74f8d9df1de54c37cd0803d64f01b34" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>iconSize</name></member>
+      <member refid="group__GeneralGroup_1gada71047555900f3fca184da6a1aaa1f8" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>isPressed</name></member>
+      <member refid="group__GeneralGroup_1gab8f3d59cb2dfd82cae6a79ab6746ee09" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>itemSize</name></member>
+      <member refid="group__GeneralGroup_1gafd107444ea803e1dded92f25f9366332" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Ribbon</name></member>
+      <member refid="group__GeneralGroup_1gga438f2e3dfbe178d1558df0f1b9f84daead60045a2874c5c25a5faec2bcb288fe3" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Ribbon</name></member>
+      <member refid="group__GeneralGroup_1ga438f2e3dfbe178d1558df0f1b9f84dae" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>RootType</name></member>
+      <member refid="group__GeneralGroup_1ga6ce094bc1bb74eb56ca44d849b1785ae" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>SizeType</name></member>
+      <member refid="group__GeneralGroup_1gga438f2e3dfbe178d1558df0f1b9f84daeacb2c48e02fa97481e3ae0fc91ae33e83" prot="public" virt="non-virtual"><scope>MR::DrawButtonParams</scope><name>Toolbar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

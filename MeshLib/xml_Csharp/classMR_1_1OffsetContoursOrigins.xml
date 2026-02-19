@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1OffsetContoursOrigins" kind="class" language="C#" prot="public">
+    <compoundname>MR::OffsetContoursOrigins</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_OffsetContoursOrigins</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1OffsetContoursOrigins_1a5f355cbb47b1482f3c60f70653bce3bc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1OffsetContourIndex" kindref="compound">MR.OffsetContourIndex</ref></type>
+        <definition>new unsafe MR.OffsetContourIndex MR.OffsetContoursOrigins.lOrg</definition>
+        <argsstring></argsstring>
+        <name>lOrg</name>
+        <qualifiedname>MR.OffsetContoursOrigins.lOrg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="393" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="393" bodyend="393"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OffsetContoursOrigins_1ab102833a258c60cb00d40c501dfc597c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1OffsetContourIndex" kindref="compound">MR.OffsetContourIndex</ref></type>
+        <definition>new unsafe MR.OffsetContourIndex MR.OffsetContoursOrigins.lDest</definition>
+        <argsstring></argsstring>
+        <name>lDest</name>
+        <qualifiedname>MR.OffsetContoursOrigins.lDest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="396" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="396" bodyend="396"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OffsetContoursOrigins_1a3d41c1344c724c0314de50d45f6f66b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1OffsetContourIndex" kindref="compound">MR.OffsetContourIndex</ref></type>
+        <definition>new unsafe MR.OffsetContourIndex MR.OffsetContoursOrigins.uOrg</definition>
+        <argsstring></argsstring>
+        <name>uOrg</name>
+        <qualifiedname>MR.OffsetContoursOrigins.uOrg</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="399" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="399" bodyend="399"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OffsetContoursOrigins_1aff882e7dd986832198242f8ee7e7f4ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1OffsetContourIndex" kindref="compound">MR.OffsetContourIndex</ref></type>
+        <definition>new unsafe MR.OffsetContourIndex MR.OffsetContoursOrigins.uDest</definition>
+        <argsstring></argsstring>
+        <name>uDest</name>
+        <qualifiedname>MR.OffsetContoursOrigins.uDest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="402" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="402" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OffsetContoursOrigins_1adbae18d1fd60a4a41a8d5fd409096786" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.OffsetContoursOrigins.lRatio</definition>
+        <argsstring></argsstring>
+        <name>lRatio</name>
+        <qualifiedname>MR.OffsetContoursOrigins.lRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="407" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OffsetContoursOrigins_1ad6d6147d1b44a3968aee7449c4225b97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.OffsetContoursOrigins.uRatio</definition>
+        <argsstring></argsstring>
+        <name>uRatio</name>
+        <qualifiedname>MR.OffsetContoursOrigins.uRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="412" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="412" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1OffsetContoursOrigins_1a13e07121fcc1051beefc641497aa7200" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OffsetContoursOrigins.OffsetContoursOrigins</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>OffsetContoursOrigins</name>
+        <qualifiedname>MR.OffsetContoursOrigins.OffsetContoursOrigins</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="452" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="452" bodyend="456"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1OffsetContoursOrigins_1a0f52c456cfe255e2956e7d580b9e0f79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OffsetContoursOrigins.OffsetContoursOrigins</definition>
+        <argsstring>()</argsstring>
+        <name>OffsetContoursOrigins</name>
+        <qualifiedname>MR.OffsetContoursOrigins.OffsetContoursOrigins</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="462" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="462" bodyend="468"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OffsetContoursOrigins_1aebc0dea340a7d62bf2a6869ff74bc27d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OffsetContoursOrigins.OffsetContoursOrigins</definition>
+        <argsstring>(MR.Const_OffsetContourIndex lOrg, MR.Const_OffsetContourIndex lDest, MR.Const_OffsetContourIndex uOrg, MR.Const_OffsetContourIndex uDest, float lRatio, float uRatio)</argsstring>
+        <name>OffsetContoursOrigins</name>
+        <qualifiedname>MR.OffsetContoursOrigins.OffsetContoursOrigins</qualifiedname>
+        <param>
+          <type>MR.Const_OffsetContourIndex</type>
+          <declname>lOrg</declname>
+        </param>
+        <param>
+          <type>MR.Const_OffsetContourIndex</type>
+          <declname>lDest</declname>
+        </param>
+        <param>
+          <type>MR.Const_OffsetContourIndex</type>
+          <declname>uOrg</declname>
+        </param>
+        <param>
+          <type>MR.Const_OffsetContourIndex</type>
+          <declname>uDest</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>uRatio</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1OffsetContoursOrigins" kindref="compound">MR.OffsetContoursOrigins</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="473" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="473" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OffsetContoursOrigins_1a0e32ad95fef509d20182add6d35139e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OffsetContoursOrigins.OffsetContoursOrigins</definition>
+        <argsstring>(MR.Const_OffsetContoursOrigins _other)</argsstring>
+        <name>OffsetContoursOrigins</name>
+        <qualifiedname>MR.OffsetContoursOrigins.OffsetContoursOrigins</qualifiedname>
+        <param>
+          <type>MR.Const_OffsetContoursOrigins</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.OffsetContoursOrigins.OffsetContoursOrigins</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="488" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="488" bodyend="495"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OffsetContoursOrigins_1ac56489e4c6410b6e20ddd5fd6f6747fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.OffsetContoursOrigins.OffsetContoursOrigins</definition>
+        <argsstring>(OffsetContoursOrigins _other)</argsstring>
+        <name>OffsetContoursOrigins</name>
+        <qualifiedname>MR.OffsetContoursOrigins.OffsetContoursOrigins</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1OffsetContoursOrigins" kindref="compound">OffsetContoursOrigins</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.OffsetContoursOrigins.OffsetContoursOrigins</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="500" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="500" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OffsetContoursOrigins_1a8e4d038887687f0ccab795cfed260750" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1OffsetContoursOrigins" kindref="compound">MR.OffsetContoursOrigins</ref></type>
+        <definition>unsafe MR.OffsetContoursOrigins MR.OffsetContoursOrigins.assign</definition>
+        <argsstring>(MR.Const_OffsetContoursOrigins _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.OffsetContoursOrigins.assign</qualifiedname>
+        <param>
+          <type>MR.Const_OffsetContoursOrigins</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.OffsetContoursOrigins.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="505" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="505" bodyend="512"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1OffsetContoursOrigins" kindref="compound">MR.OffsetContoursOrigins</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_OffsetContoursOrigins</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.OffsetContoursOrigins</label>
+        <link refid="classMR_1_1OffsetContoursOrigins"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_OffsetContoursOrigins &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_OffsetContoursOrigins</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.OffsetContoursOrigins</label>
+        <link refid="classMR_1_1OffsetContoursOrigins"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_OffsetContoursOrigins &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" line="389" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROffsetContours.cs" bodystart="390" bodyend="513"/>
+    <listofallmembers>
+      <member refid="classMR_1_1OffsetContoursOrigins_1a8e4d038887687f0ccab795cfed260750" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>assign</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1ab102833a258c60cb00d40c501dfc597c" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lDest</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1a5f355cbb47b1482f3c60f70653bce3bc" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lOrg</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1adbae18d1fd60a4a41a8d5fd409096786" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>lRatio</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1a13e07121fcc1051beefc641497aa7200" prot="package" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1a0f52c456cfe255e2956e7d580b9e0f79" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1aebc0dea340a7d62bf2a6869ff74bc27d" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1a0e32ad95fef509d20182add6d35139e4" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1ac56489e4c6410b6e20ddd5fd6f6747fa" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>OffsetContoursOrigins</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1aff882e7dd986832198242f8ee7e7f4ff" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uDest</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1a3d41c1344c724c0314de50d45f6f66b9" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uOrg</name></member>
+      <member refid="classMR_1_1OffsetContoursOrigins_1ad6d6147d1b44a3968aee7449c4225b97" prot="public" virt="non-virtual"><scope>MR::OffsetContoursOrigins</scope><name>uRatio</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

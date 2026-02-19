@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__PlanarPathGroup" kind="group">
+    <compoundname>PlanarPathGroup</compoundname>
+    <title>Planar Path</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__PlanarPathGroup_1gafc3a801f48da79fea27b2c5a60579ddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>Vector2&lt; T &gt;</type>
+        <definition>Vector2&lt; T &gt; MR::unfoldOnPlane</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, const Vector2&lt; T &gt; &amp;d, bool toLeftFrom0d)</argsstring>
+        <name>unfoldOnPlane</name>
+        <qualifiedname>MR::unfoldOnPlane</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector2&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>toLeftFrom0d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given triangle 0bc in 3D and line segment 0d in 2D, and |0b|=|0d|; finds e, such that triangle 0bc is equal to 0de; returns (0,0) if |0b|=0 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="17" column="9" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="17" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PlanarPathGroup_1gaf1a65dfbfdcd23da6f9a48589ee8060e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::shortestPathInQuadrangle</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, const Vector3&lt; T &gt; &amp;d)</argsstring>
+        <name>shortestPathInQuadrangle</name>
+        <qualifiedname>MR::shortestPathInQuadrangle</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given two 3D triangles ABC and ACD with shared edge AC, returns the relative position x in [0,1] on edge AC (x=0 means A and x=1 means C), where the shortest path from B to D crosses edge AC </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="23" column="3" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="23" declcolumn="3"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PlanarPathGroup_1gaf1dd390e537cb9342ced1b65ad2b29d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename T</type>
+          </param>
+        </templateparamlist>
+        <type>bool</type>
+        <definition>bool MR::isUnfoldQuadrangleConvex</definition>
+        <argsstring>(const Vector3&lt; T &gt; &amp;a, const Vector3&lt; T &gt; &amp;b, const Vector3&lt; T &gt; &amp;c, const Vector3&lt; T &gt; &amp;d)</argsstring>
+        <name>isUnfoldQuadrangleConvex</name>
+        <qualifiedname>MR::isUnfoldQuadrangleConvex</qualifiedname>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>const Vector3&lt; T &gt; &amp;</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given two 3D triangles ABC and ACD with shared edge AC, returns true if after unfolding into plane they form a convex quadrangle </para>
+        </detaileddescription>
+        <inbodydescription>
+<para>if path goes via vertices A or C then the quadrangle is concave or degenerated to triangle</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="28" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PlanarPathGroup_1ga64d6263ac2b571832be0c1a3e8114cfb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::reducePathViaVertex</definition>
+        <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, VertId v, const MeshTriPoint &amp;end, SurfacePath &amp;outPath, std::vector&lt; Vector2f &gt; &amp;tmp, SurfacePath &amp;cachePath)</argsstring>
+        <name>reducePathViaVertex</name>
+        <qualifiedname>MR::reducePathViaVertex</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>SurfacePath &amp;</type>
+          <declname>outPath</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; Vector2f &gt; &amp;</type>
+          <declname>tmp</declname>
+        </param>
+        <param>
+          <type>SurfacePath &amp;</type>
+          <declname>cachePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>given path s-v-e, tries to decrease its length by moving away from v <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>outPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>intermediate locations between s and e will be added here </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tmp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>elements will be temporary allocated here </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cachePath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>as far as we need two sides unfold, cache one to reduce allocations </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="38" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="38" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__PlanarPathGroup_1ga453514d922da4d7c4a02c78ca0b4eabe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API int</type>
+        <definition>MRMESH_API int MR::reducePath</definition>
+        <argsstring>(const Mesh &amp;mesh, const MeshTriPoint &amp;start, SurfacePath &amp;path, const MeshTriPoint &amp;end, int maxIter=5)</argsstring>
+        <name>reducePath</name>
+        <qualifiedname>MR::reducePath</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>SurfacePath &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const MeshTriPoint &amp;</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxIter</declname>
+          <defval>5</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>converts any input surface path into geodesic path (so reduces its length): start-path-end; returns actual number of iterations performed </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" line="43" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRReducePath.h" declline="43" declcolumn="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

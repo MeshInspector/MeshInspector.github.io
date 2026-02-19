@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</compoundname>
+    <includes refid="MRImGuiVectorOperators_8h" local="no">MRImGuiVectorOperators.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+      <param>
+        <type>typename ...</type>
+        <declname>P</declname>
+        <defname>P</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1accca92e50668bde227d217a934a2c1ae" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;::cur</definition>
+        <argsstring></argsstring>
+        <name>cur</name>
+        <qualifiedname>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;::cur</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1VecSize" kindref="compound">VecSize</ref>&lt;std::remove_cvref_t&lt;T&gt;&gt;<ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1ad2f2e5e5e05868b814dc55ed13478aea" kindref="member">::value</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="41" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1a85e2e1d4b3933298ab9aac2defc4892a" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <qualifiedname>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;::next</qualifiedname>
+        <initializer>= <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize" kindref="compound">CommonVecSize</ref>&lt;P...&gt;<ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1ad2f2e5e5e05868b814dc55ed13478aea" kindref="member">::value</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="42" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1ad2f2e5e5e05868b814dc55ed13478aea" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>int</type>
+        <definition>int MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;::value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;::value</qualifiedname>
+        <initializer>=
+                <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1accca92e50668bde227d217a934a2c1ae" kindref="member">cur</ref> == 1 || <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1accca92e50668bde227d217a934a2c1ae" kindref="member">cur</ref> == <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1a85e2e1d4b3933298ab9aac2defc4892a" kindref="member">next</ref> ? <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1a85e2e1d4b3933298ab9aac2defc4892a" kindref="member">next</ref> :
+                <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1a85e2e1d4b3933298ab9aac2defc4892a" kindref="member">next</ref> == 1 ? <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1accca92e50668bde227d217a934a2c1ae" kindref="member">cur</ref> :
+                -1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="43" column="34" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="39" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="40" bodyend="47"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1accca92e50668bde227d217a934a2c1ae" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</scope><name>cur</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1a85e2e1d4b3933298ab9aac2defc4892a" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</scope><name>next</name></member>
+      <member refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize_3_01T_00_01P_8_8_8_01_4_1ad2f2e5e5e05868b814dc55ed13478aea" prot="public" virt="non-virtual"><scope>MR::ImGuiMath::detail::CommonVecSize&lt; T, P... &gt;</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

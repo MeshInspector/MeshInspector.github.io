@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SegmPointf" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SegmPointf</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SegmPointf_1a51e6d113e341311aa0888840f7e37a95" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SegmPointf::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SegmPointf.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51627" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SegmPointf_1a2837027cc84e7d725f5ac0c3a4e51331" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SegmPointf::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.SegmPointf._offsetof_a</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51628" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SegmPointf_1a694526e59dc5332770e01e7f09421856" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SegmPointf::eps</definition>
+        <argsstring></argsstring>
+        <name>eps</name>
+        <qualifiedname>mrmeshpy.SegmPointf.eps</qualifiedname>
+        <initializer>=  1.1920928955078125e-06</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51629" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51629" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a65d8f55afe7c0cfb7e8357649183e27c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SegmPointf.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SegmPointf.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51632" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51632" bodyend="51633"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a8b8aa8506b6cb453cbc92a832260ed61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SegmPointf" kindref="compound">SegmPointf</ref></type>
+        <definition> SegmPointf mrmeshpy.SegmPointf.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SegmPointf.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51636" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51636" bodyend="51637"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a8b8aa8506b6cb453cbc92a832260ed61" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SegmPointf" kindref="compound">SegmPointf</ref></type>
+        <definition> SegmPointf mrmeshpy.SegmPointf.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SegmPointf.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51640" bodyend="51641"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a961d6d6f5a92d04493c36cdbc375af7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SegmPointf.__eq__</definition>
+        <argsstring>(self, SegmPointf rhs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SegmPointf.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SegmPointf" kindref="compound">SegmPointf</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if two points have equal (a) representation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51643" bodyend="51646"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a589974ea8c5ba9073624a4bf18dac6ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SegmPointf.__eq__</definition>
+        <argsstring>(self, float rhs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SegmPointf.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51648" bodyend="51649"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1ace29625096ef3d7732da391f7720fab5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SegmPointf.__float__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__float__</name>
+        <qualifiedname>mrmeshpy.SegmPointf.__float__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51650" bodyend="51651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1af13aa978a081962e63380b699e289d9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SegmPointf.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SegmPointf.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51653" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51653" bodyend="51654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1ab9d630e0a26c9db487eefed87ee9e335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SegmPointf.__init__</definition>
+        <argsstring>(self, float a)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SegmPointf.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51656" bodyend="51657"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a179c2886318364cb081025ac22cfb842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SegmPointf.__init__</definition>
+        <argsstring>(self, SegmPointf arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SegmPointf.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SegmPointf" kindref="compound">SegmPointf</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51659" bodyend="51662"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a35a0ccff517596be0b0b8ef8eee4a5ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SegmPointf.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.SegmPointf.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51663" bodyend="51664"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a2b6b89ab15bad664ac2f6578901da78a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SegmPointf.convert_to_float</definition>
+        <argsstring>(self)</argsstring>
+        <name>convert_to_float</name>
+        <qualifiedname>mrmeshpy.SegmPointf.convert_to_float</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51665" bodyend="51666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a16ddb3820b9e561857044ead68fb2337" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SegmPointf.inVertex</definition>
+        <argsstring>(self)</argsstring>
+        <name>inVertex</name>
+        <qualifiedname>mrmeshpy.SegmPointf.inVertex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns [0,1] if the point is in a vertex or -1 otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51667" bodyend="51670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1aea4371387b3c492d1bd7953727b20f1b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SegmPointf" kindref="compound">SegmPointf</ref></type>
+        <definition> SegmPointf mrmeshpy.SegmPointf.sym</definition>
+        <argsstring>(self)</argsstring>
+        <name>sym</name>
+        <qualifiedname>mrmeshpy.SegmPointf.sym</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>represents the same point relative to oppositely directed segment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51671" bodyend="51674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a30e310e5cc5e12d486efc8f75192d18b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SegmPointf.a</definition>
+        <argsstring>(self)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.SegmPointf.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>a in [0,1], a=0 =&gt; point is in v0, a=1 =&gt; point is in v1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51676" bodyend="51679"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SegmPointf_1a2d4a0e621aff63c668bb29d7f4ee8fab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SegmPointf.a</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>a</name>
+        <qualifiedname>mrmeshpy.SegmPointf.a</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51681" bodyend="51682"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SegmPointf
+
+\\brief encodes a point inside a line segment using relative distance in [0,1]
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SegmPointf</label>
+        <link refid="classmrmeshpy_1_1SegmPointf"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_a</edgelabel>
+          <edgelabel>eps</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51621" bodyend="51682"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a961d6d6f5a92d04493c36cdbc375af7c" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a589974ea8c5ba9073624a4bf18dac6ca" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1ace29625096ef3d7732da391f7720fab5" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>__float__</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a51e6d113e341311aa0888840f7e37a95" prot="private" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a65d8f55afe7c0cfb7e8357649183e27c" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1af13aa978a081962e63380b699e289d9f" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1ab9d630e0a26c9db487eefed87ee9e335" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a179c2886318364cb081025ac22cfb842" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a35a0ccff517596be0b0b8ef8eee4a5ec" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a2837027cc84e7d725f5ac0c3a4e51331" prot="protected" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a30e310e5cc5e12d486efc8f75192d18b" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a2d4a0e621aff63c668bb29d7f4ee8fab" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>a</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a2b6b89ab15bad664ac2f6578901da78a" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>convert_to_float</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a694526e59dc5332770e01e7f09421856" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>eps</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a16ddb3820b9e561857044ead68fb2337" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>inVertex</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a8b8aa8506b6cb453cbc92a832260ed61" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1a8b8aa8506b6cb453cbc92a832260ed61" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SegmPointf_1aea4371387b3c492d1bd7953727b20f1b" prot="public" virt="non-virtual"><scope>mrmeshpy::SegmPointf</scope><name>sym</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

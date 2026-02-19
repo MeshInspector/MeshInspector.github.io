@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FindOverhangsSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::FindOverhangsSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FindOverhangsSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FindOverhangsSettings_1aea130257b78e8d7044701e45f8b1ccbb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.FindOverhangsSettings.axis</definition>
+        <argsstring></argsstring>
+        <name>axis</name>
+        <qualifiedname>MR.FindOverhangsSettings.axis</qualifiedname>
+        <briefdescription>
+<para>base axis marking the up direction </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="168" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindOverhangsSettings_1a1a866ba24f0327bb984c53fb8c78611f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FindOverhangsSettings.layerHeight</definition>
+        <argsstring></argsstring>
+        <name>layerHeight</name>
+        <qualifiedname>MR.FindOverhangsSettings.layerHeight</qualifiedname>
+        <briefdescription>
+<para>height of a layer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="171" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindOverhangsSettings_1aa59a13d235fa5ab20d2bc64563534ea6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FindOverhangsSettings.maxOverhangDistance</definition>
+        <argsstring></argsstring>
+        <name>maxOverhangDistance</name>
+        <qualifiedname>MR.FindOverhangsSettings.maxOverhangDistance</qualifiedname>
+        <briefdescription>
+<para>maximum allowed overhang distance within a layer </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="174" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindOverhangsSettings_1af8d9bd5d2b40e20c1e1b0db3e40cc7b1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.FindOverhangsSettings.hops</definition>
+        <argsstring></argsstring>
+        <name>hops</name>
+        <qualifiedname>MR.FindOverhangsSettings.hops</qualifiedname>
+        <briefdescription>
+<para>number of hops used to smooth out the overhang regions (0 - disable smoothing) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="177" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindOverhangsSettings_1a261030e974afdf4719be9ca9a1bae8e8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? ConstBox_AffineXf3f MR.FindOverhangsSettings.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.FindOverhangsSettings.xf</qualifiedname>
+        <briefdescription>
+<para>mesh transform </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="180" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="181" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FindOverhangsSettings_1a683197eda04fd727ec902df147c6410b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.FindOverhangsSettings.progressCb</definition>
+        <argsstring></argsstring>
+        <name>progressCb</name>
+        <qualifiedname>MR.FindOverhangsSettings.progressCb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="192" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="192" bodyend="192"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FindOverhangsSettings_1a66cac7e4844da9178ae4905cd7382534" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindOverhangsSettings.FindOverhangsSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FindOverhangsSettings</name>
+        <qualifiedname>MR.FindOverhangsSettings.FindOverhangsSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="211" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="211" bodyend="215"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FindOverhangsSettings_1af4e93c106a07fbaa569be135e17299e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindOverhangsSettings.FindOverhangsSettings</definition>
+        <argsstring>()</argsstring>
+        <name>FindOverhangsSettings</name>
+        <qualifiedname>MR.FindOverhangsSettings.FindOverhangsSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="221" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="221" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOverhangsSettings_1a20ab788b0cb0f559a201601bcc08cd2d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindOverhangsSettings.FindOverhangsSettings</definition>
+        <argsstring>(MR.Vector3f axis, float layerHeight, float maxOverhangDistance, int hops, MR.AffineXf3f? xf, MR.Std._ByValue_Function_BoolFuncFromFloat progressCb)</argsstring>
+        <name>FindOverhangsSettings</name>
+        <qualifiedname>MR.FindOverhangsSettings.FindOverhangsSettings</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>axis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>layerHeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxOverhangDistance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hops</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>progressCb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FindOverhangsSettings" kindref="compound">MR.FindOverhangsSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="232" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="232" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOverhangsSettings_1a6b84ac5e0a67cbb7a8ff4db4a69bcb8f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FindOverhangsSettings.FindOverhangsSettings</definition>
+        <argsstring>(MR._ByValue_FindOverhangsSettings _other)</argsstring>
+        <name>FindOverhangsSettings</name>
+        <qualifiedname>MR.FindOverhangsSettings.FindOverhangsSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_FindOverhangsSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindOverhangsSettings.FindOverhangsSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="245" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="245" bodyend="252"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOverhangsSettings_1a43348d2d89c3fcc7b0b3ad4ba6f27b29" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FindOverhangsSettings.FindOverhangsSettings</definition>
+        <argsstring>(Const_FindOverhangsSettings _other)</argsstring>
+        <name>FindOverhangsSettings</name>
+        <qualifiedname>MR.FindOverhangsSettings.FindOverhangsSettings</qualifiedname>
+        <param>
+          <type>Const_FindOverhangsSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindOverhangsSettings.FindOverhangsSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="257" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="257" bodyend="257"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOverhangsSettings_1ab15a3258192bcf4a07e57420fb94ef85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FindOverhangsSettings.FindOverhangsSettings</definition>
+        <argsstring>(FindOverhangsSettings _other)</argsstring>
+        <name>FindOverhangsSettings</name>
+        <qualifiedname>MR.FindOverhangsSettings.FindOverhangsSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FindOverhangsSettings" kindref="compound">FindOverhangsSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FindOverhangsSettings.FindOverhangsSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="262" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="262" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FindOverhangsSettings_1a667884d7e33bee2399813cd1e0b3eefd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FindOverhangsSettings" kindref="compound">MR.FindOverhangsSettings</ref></type>
+        <definition>unsafe MR.FindOverhangsSettings MR.FindOverhangsSettings.assign</definition>
+        <argsstring>(MR._ByValue_FindOverhangsSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FindOverhangsSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_FindOverhangsSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FindOverhangsSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="267" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="267" bodyend="274"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>parameters for <ref refid="classMR_1a03492207be6dbd76f7eab7d2a2c4a08f" kindref="member">MR.findOverhangs</ref> Generated from class <computeroutput><ref refid="classMR_1_1FindOverhangsSettings" kindref="compound">MR.FindOverhangsSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FindOverhangsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindOverhangsSettings</label>
+        <link refid="classMR_1_1FindOverhangsSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindOverhangsSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FindOverhangsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FindOverhangsSettings</label>
+        <link refid="classMR_1_1FindOverhangsSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FindOverhangsSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" line="165" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshOverhangs.cs" bodystart="166" bodyend="275"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FindOverhangsSettings_1a667884d7e33bee2399813cd1e0b3eefd" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1aea130257b78e8d7044701e45f8b1ccbb" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>axis</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1a66cac7e4844da9178ae4905cd7382534" prot="package" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1af4e93c106a07fbaa569be135e17299e1" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1a20ab788b0cb0f559a201601bcc08cd2d" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1a6b84ac5e0a67cbb7a8ff4db4a69bcb8f" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1a43348d2d89c3fcc7b0b3ad4ba6f27b29" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1ab15a3258192bcf4a07e57420fb94ef85" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>FindOverhangsSettings</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1af8d9bd5d2b40e20c1e1b0db3e40cc7b1" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>hops</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1a1a866ba24f0327bb984c53fb8c78611f" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>layerHeight</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1aa59a13d235fa5ab20d2bc64563534ea6" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>maxOverhangDistance</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1a683197eda04fd727ec902df147c6410b" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>progressCb</name></member>
+      <member refid="classMR_1_1FindOverhangsSettings_1a261030e974afdf4719be9ca9a1bae8e8" prot="public" virt="non-virtual"><scope>MR::FindOverhangsSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

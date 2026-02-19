@@ -4,7 +4,7 @@ var classMR_1_1SetBitIteratorT =
     [ "IndexType", "classMR_1_1SetBitIteratorT.html#a819b9dc59c1187b38e0a0793779bb8b0", null ],
     [ "iterator_category", "classMR_1_1SetBitIteratorT.html#a3ead9e2691fedc1c67d1212721d3a157", null ],
     [ "pointer", "classMR_1_1SetBitIteratorT.html#a22e03a8a13140a2e652009346c41c0ba", null ],
-    [ "reference", "classMR_1_1SetBitIteratorT.html#a680dec55a3b2c4c1c9bf339ab88fe367", null ],
+    [ "reference", "classMR_1_1SetBitIteratorT.html#aced05ebc6333620dcadd87af14a3f610", null ],
     [ "value_type", "classMR_1_1SetBitIteratorT.html#a65326d51ccb6cea126d404534ea2a329", null ],
     [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html#a38daf11addb75bcfab304e51d62ba9f8", null ],
     [ "SetBitIteratorT", "classMR_1_1SetBitIteratorT.html#ab6e4b92cd100336048e5869d8fadc6ca", null ],

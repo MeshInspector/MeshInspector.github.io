@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeVertsColorMapAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeVertsColorMapAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeVertsColorMapAction_8h" local="no">MRChangeVertsColorMapAction.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gab1b2d8610405057232d3c46e0f326b77" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga43370226899ad27d610f77957f11b941" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gacd5b9923d542f3709df63671aa14464d" kind="variable"><name>vertsColorMap_</name></member>
+      <member refid="group__GeneralGroup_1ga6c08029be687ac68887312ef52aafe55" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaf543ed6ffdbac2a85e27deadaf79f448" kind="function"><name>ChangeVertsColorMapAction</name></member>
+      <member refid="group__GeneralGroup_1ga3bfeb91b777c884b6154a9e36cc3a389" kind="function"><name>ChangeVertsColorMapAction</name></member>
+      <member refid="group__GeneralGroup_1ga7463a0c407fe96e44b65aac4e69c16d2" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gabf17cf1a549936cc4bf5288dbc286f43" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gabb19b89e750bb13f1c80ec81118c2303" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga04ffd020e2d5b28eb09c25b045577fb8" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for vertsColorMap change </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeVertsColorMapAction&lt; T &gt;</label>
+        <link refid="classMR_1_1ChangeVertsColorMapAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeVertsColorMapAction&lt; T &gt;</label>
+        <link refid="classMR_1_1ChangeVertsColorMapAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeVertsColorMapAction.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeVertsColorMapAction.h" bodystart="16" bodyend="68"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gabf17cf1a549936cc4bf5288dbc286f43" prot="public" virt="virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaf543ed6ffdbac2a85e27deadaf79f448" prot="public" virt="non-virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>ChangeVertsColorMapAction</name></member>
+      <member refid="group__GeneralGroup_1ga3bfeb91b777c884b6154a9e36cc3a389" prot="public" virt="non-virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>ChangeVertsColorMapAction</name></member>
+      <member refid="group__GeneralGroup_1gabb19b89e750bb13f1c80ec81118c2303" prot="public" virt="virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga7463a0c407fe96e44b65aac4e69c16d2" prot="public" virt="virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga6c08029be687ac68887312ef52aafe55" prot="private" virt="non-virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1gab1b2d8610405057232d3c46e0f326b77" prot="public" virt="non-virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1ga43370226899ad27d610f77957f11b941" prot="private" virt="non-virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga04ffd020e2d5b28eb09c25b045577fb8" prot="public" virt="non-virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1gacd5b9923d542f3709df63671aa14464d" prot="private" virt="non-virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>vertsColorMap_</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeVertsColorMapAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

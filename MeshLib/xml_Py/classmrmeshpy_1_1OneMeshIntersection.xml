@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OneMeshIntersection" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OneMeshIntersection</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OneMeshIntersection_1a9ea6589922c52fd3e65883b7b7cddad0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OneMeshIntersection::_offsetof_coordinate</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_coordinate</name>
+        <qualifiedname>mrmeshpy.OneMeshIntersection._offsetof_coordinate</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41709" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41709" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OneMeshIntersection_1af2ac38725570e418267bd85db4cfe3d8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OneMeshIntersection::_offsetof_primitiveId</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_primitiveId</name>
+        <qualifiedname>mrmeshpy.OneMeshIntersection._offsetof_primitiveId</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41710" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshIntersection_1ab2485686072bb1da476c4a6a10ec87c6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OneMeshIntersection.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OneMeshIntersection.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41715" bodyend="41716"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshIntersection_1a4bf103ea1778cd9e551018ff545ce90f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OneMeshIntersection" kindref="compound">OneMeshIntersection</ref></type>
+        <definition> OneMeshIntersection mrmeshpy.OneMeshIntersection.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OneMeshIntersection.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41719" bodyend="41720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshIntersection_1a4bf103ea1778cd9e551018ff545ce90f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OneMeshIntersection" kindref="compound">OneMeshIntersection</ref></type>
+        <definition> OneMeshIntersection mrmeshpy.OneMeshIntersection.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OneMeshIntersection.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41723" bodyend="41724"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshIntersection_1ab2ad9cd63a0dec2f5df7e65687e14c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OneMeshIntersection.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OneMeshIntersection.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41726" bodyend="41727"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshIntersection_1a7688411369114e1a6c145a7b312b4289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OneMeshIntersection.__init__</definition>
+        <argsstring>(self, OneMeshIntersection arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OneMeshIntersection.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OneMeshIntersection" kindref="compound">OneMeshIntersection</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41729" bodyend="41732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OneMeshIntersection_1a8da33f7635ccb7e951d2997e88edb041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OneMeshIntersection.__init__</definition>
+        <argsstring>(self, std_variant_Id_FaceTag_Id_EdgeTag_Id_VertTag primitiveId, Vector3f coordinate)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OneMeshIntersection.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__Id__FaceTag__Id__EdgeTag__Id__VertTag" kindref="compound">std_variant_Id_FaceTag_Id_EdgeTag_Id_VertTag</ref></type>
+          <declname>primitiveId</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>coordinate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41734" bodyend="41737"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OneMeshIntersection
+
+Simple point on mesh, represented by primitive id and coordinate in mesh space
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OneMeshIntersection</label>
+        <link refid="classmrmeshpy_1_1OneMeshIntersection"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_coordinate</edgelabel>
+          <edgelabel>_offsetof_primitiveId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41703" bodyend="41737"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OneMeshIntersection_1ab2485686072bb1da476c4a6a10ec87c6" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshIntersection</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshIntersection_1ab2ad9cd63a0dec2f5df7e65687e14c85" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshIntersection</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshIntersection_1a7688411369114e1a6c145a7b312b4289" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshIntersection</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshIntersection_1a8da33f7635ccb7e951d2997e88edb041" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshIntersection</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshIntersection_1a9ea6589922c52fd3e65883b7b7cddad0" prot="protected" virt="non-virtual"><scope>mrmeshpy::OneMeshIntersection</scope><name>_offsetof_coordinate</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshIntersection_1af2ac38725570e418267bd85db4cfe3d8" prot="protected" virt="non-virtual"><scope>mrmeshpy::OneMeshIntersection</scope><name>_offsetof_primitiveId</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshIntersection_1a4bf103ea1778cd9e551018ff545ce90f" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshIntersection</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OneMeshIntersection_1a4bf103ea1778cd9e551018ff545ce90f" prot="public" virt="non-virtual"><scope>mrmeshpy::OneMeshIntersection</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

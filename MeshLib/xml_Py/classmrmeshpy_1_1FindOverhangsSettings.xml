@@ -1,0 +1,514 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FindOverhangsSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FindOverhangsSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindOverhangsSettings_1add654b5126b98110486735eb167bb7bf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindOverhangsSettings::_offsetof_axis</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_axis</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings._offsetof_axis</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20222" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindOverhangsSettings_1a8b5e0e31a4d9cb800e207ae8f5f740ef" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindOverhangsSettings::_offsetof_hops</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_hops</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings._offsetof_hops</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20223" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindOverhangsSettings_1a52c7635947d808b4c5a17820994a536a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindOverhangsSettings::_offsetof_layerHeight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_layerHeight</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings._offsetof_layerHeight</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindOverhangsSettings_1a0222eaaf22c3bc03a8915ac8644161c4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindOverhangsSettings::_offsetof_maxOverhangDistance</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxOverhangDistance</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings._offsetof_maxOverhangDistance</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindOverhangsSettings_1a43ba92558076e1e1dd9346def8ce03e5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindOverhangsSettings::_offsetof_progressCb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progressCb</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings._offsetof_progressCb</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindOverhangsSettings_1aac28ad2de72383913b66fcafff5c4834" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindOverhangsSettings::_offsetof_xf</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_xf</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings._offsetof_xf</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20227" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a4445773c9931c4a61b0e120b5ca3621c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverhangsSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20231" bodyend="20232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a24ba008e6e6ec4820586138d12308240" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FindOverhangsSettings" kindref="compound">FindOverhangsSettings</ref></type>
+        <definition> FindOverhangsSettings mrmeshpy.FindOverhangsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20235" bodyend="20236"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a24ba008e6e6ec4820586138d12308240" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FindOverhangsSettings" kindref="compound">FindOverhangsSettings</ref></type>
+        <definition> FindOverhangsSettings mrmeshpy.FindOverhangsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20239" bodyend="20240"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1ab900828ad983777ffa5f33bc8425f3ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverhangsSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20242" bodyend="20243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a65265bc2b41a949b16a850228d189361" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverhangsSettings.__init__</definition>
+        <argsstring>(self, FindOverhangsSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FindOverhangsSettings" kindref="compound">FindOverhangsSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20245" bodyend="20248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a0e17062e8592f2670229b8d8c34b4d19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverhangsSettings.__init__</definition>
+        <argsstring>(self, Vector3f axis, float layerHeight, float maxOverhangDistance, int hops, AffineXf3f xf, func_bool_from_float progressCb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>axis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>layerHeight</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxOverhangDistance</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>hops</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progressCb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20250" bodyend="20253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a82bb67ab92cf52a32582937c0b9f1fa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.FindOverhangsSettings.axis</definition>
+        <argsstring>(self)</argsstring>
+        <name>axis</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.axis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>base axis marking the up direction
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20255" bodyend="20258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a132378b75c24066c4acfc990cd98af39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverhangsSettings.axis</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>axis</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.axis</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20260" bodyend="20261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a079debe5758267455cadd11dd59b2b41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FindOverhangsSettings.hops</definition>
+        <argsstring>(self)</argsstring>
+        <name>hops</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.hops</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>number of hops used to smooth out the overhang regions (0 - disable smoothing)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20263" bodyend="20266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1af3cfca43139338938a93cccbad2b12e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverhangsSettings.hops</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>hops</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.hops</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20268" bodyend="20269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a36ae3f8826c668537052adf40b49b177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FindOverhangsSettings.layerHeight</definition>
+        <argsstring>(self)</argsstring>
+        <name>layerHeight</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.layerHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>height of a layer
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20271" bodyend="20274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a0c6d6f5fd58eeb1f0057e977f0dd36ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverhangsSettings.layerHeight</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>layerHeight</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.layerHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20276" bodyend="20277"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1ae28345405563ca338321ecea2eba6a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FindOverhangsSettings.maxOverhangDistance</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxOverhangDistance</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.maxOverhangDistance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum allowed overhang distance within a layer
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20279" bodyend="20282"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a640674d3cd847f275dfb1712f729ea68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverhangsSettings.maxOverhangDistance</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxOverhangDistance</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.maxOverhangDistance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20284" bodyend="20285"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a65c079b957dd12aaee8672d2aa1bd234" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+        <definition> AffineXf3f mrmeshpy.FindOverhangsSettings.xf</definition>
+        <argsstring>(self)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>mesh transform
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20287" bodyend="20290"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindOverhangsSettings_1a0c771ae50467cc74ab505cfe5b057b21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindOverhangsSettings.xf</definition>
+        <argsstring>(self, AffineXf3f arg1)</argsstring>
+        <name>xf</name>
+        <qualifiedname>mrmeshpy.FindOverhangsSettings.xf</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20292" bodyend="20293"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FindOverhangsSettings
+
+parameters for MR::findOverhangs
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FindOverhangsSettings</label>
+        <link refid="classmrmeshpy_1_1FindOverhangsSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_axis</edgelabel>
+          <edgelabel>_offsetof_hops</edgelabel>
+          <edgelabel>_offsetof_layerHeight</edgelabel>
+          <edgelabel>_offsetof_maxOverhangDistance</edgelabel>
+          <edgelabel>_offsetof_progressCb</edgelabel>
+          <edgelabel>_offsetof_xf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20216" bodyend="20293"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a4445773c9931c4a61b0e120b5ca3621c" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1ab900828ad983777ffa5f33bc8425f3ae" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a65265bc2b41a949b16a850228d189361" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a0e17062e8592f2670229b8d8c34b4d19" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1add654b5126b98110486735eb167bb7bf" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>_offsetof_axis</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a8b5e0e31a4d9cb800e207ae8f5f740ef" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>_offsetof_hops</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a52c7635947d808b4c5a17820994a536a" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>_offsetof_layerHeight</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a0222eaaf22c3bc03a8915ac8644161c4" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>_offsetof_maxOverhangDistance</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a43ba92558076e1e1dd9346def8ce03e5" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>_offsetof_progressCb</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1aac28ad2de72383913b66fcafff5c4834" prot="protected" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>_offsetof_xf</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a82bb67ab92cf52a32582937c0b9f1fa7" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>axis</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a132378b75c24066c4acfc990cd98af39" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>axis</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a079debe5758267455cadd11dd59b2b41" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>hops</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1af3cfca43139338938a93cccbad2b12e1" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>hops</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a36ae3f8826c668537052adf40b49b177" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>layerHeight</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a0c6d6f5fd58eeb1f0057e977f0dd36ad" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>layerHeight</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1ae28345405563ca338321ecea2eba6a75" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>maxOverhangDistance</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a640674d3cd847f275dfb1712f729ea68" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>maxOverhangDistance</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a24ba008e6e6ec4820586138d12308240" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a24ba008e6e6ec4820586138d12308240" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a65c079b957dd12aaee8672d2aa1bd234" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>xf</name></member>
+      <member refid="classmrmeshpy_1_1FindOverhangsSettings_1a0c771ae50467cc74ab505cfe5b057b21" prot="public" virt="non-virtual"><scope>mrmeshpy::FindOverhangsSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,203 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1UI_1_1TestEngine" kind="namespace" language="C++">
+    <compoundname>MR::UI::TestEngine</compoundname>
+    <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1ButtonEntry" prot="public">MR::UI::TestEngine::ButtonEntry</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1Entry" prot="public">MR::UI::TestEngine::Entry</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1GroupEntry" prot="public">MR::UI::TestEngine::GroupEntry</innerclass>
+    <innerclass refid="structMR_1_1UI_1_1TestEngine_1_1ValueEntry" prot="public">MR::UI::TestEngine::ValueEntry</innerclass>
+    <innernamespace refid="namespaceMR_1_1UI_1_1TestEngine_1_1detail">MR::UI::TestEngine::detail</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a775aa83cc6e23820b3e00321d7c35da2" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API bool</type>
+        <definition>MRVIEWER_API bool MR::UI::TestEngine::createButton</definition>
+        <argsstring>(std::string_view name)</argsstring>
+        <name>createButton</name>
+        <qualifiedname>MR::UI::TestEngine::createButton</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Call this every frame when drawing a button you want to track (regardless of whether it returns true of false). If this returns true, simulate a button click. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="58" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="58" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1af12811d400185e17b9fbecf90ca59920" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>AllowedValueType</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; T &gt;</type>
+        <definition>std::optional&lt; T &gt; MR::UI::TestEngine::createValue</definition>
+        <argsstring>(std::string_view name, T value, T min, T max, bool consumeValueOverride=true)</argsstring>
+        <name>createValue</name>
+        <qualifiedname>MR::UI::TestEngine::createValue</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>min</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>max</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>consumeValueOverride</declname>
+          <defval>true</defval>
+        </param>
+    <requiresclause>std::is_arithmetic_v&lt;T&gt;    </requiresclause>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Create a &quot;value&quot; (slider/drag/...). <computeroutput>T</computeroutput> must be a scalar; vector support must be implemented manually. Pass <computeroutput>min &gt;= max</computeroutput> to disable the range checks. If this returns true, use the new value in place of the current one. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>consumeValueOverride</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>If true - retrieves (deletes) a value from storage. If false - copies the value from the storage (saves the original to the storage to be retrieved again, for example, in the next frame) </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="71" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="71" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1aa75ca46150fdd4fe271aa44e26bc987d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API std::optional&lt; std::string &gt;</type>
+        <definition>MRVIEWER_API std::optional&lt; std::string &gt; MR::UI::TestEngine::createValue</definition>
+        <argsstring>(std::string_view name, std::string value, bool consumeValueOverride=true, std::optional&lt; std::vector&lt; std::string &gt; &gt; allowedValues=std::nullopt)</argsstring>
+        <name>createValue</name>
+        <qualifiedname>MR::UI::TestEngine::createValue</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>consumeValueOverride</declname>
+          <defval>true</defval>
+        </param>
+        <param>
+          <type>std::optional&lt; std::vector&lt; std::string &gt; &gt;</type>
+          <declname>allowedValues</declname>
+          <defval>std::nullopt</defval>
+        </param>
+        <briefdescription>
+<para>This overload is for strings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="86" column="29" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="86" declcolumn="29"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1a937d804d659e0c82a3623bf0c09be2bf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>AllowedValueType</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>std::optional&lt; T &gt;</type>
+        <definition>std::optional&lt; T &gt; MR::UI::TestEngine::createValueTentative</definition>
+        <argsstring>(std::string_view name, bool consumeValueOverride=true)</argsstring>
+        <name>createValueTentative</name>
+        <qualifiedname>MR::UI::TestEngine::createValueTentative</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>consumeValueOverride</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Usually you don&apos;t need this function. This is for widgets that require you to specify the value override before drawing it, such as <computeroutput>ImGui::CollapsingHeader()</computeroutput>. For those, call this version first to read the value override, then draw the widget, then call the normal <computeroutput>CreateValue()</computeroutput> with the same name and with the new value, and discard its return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="93" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" bodystart="93" bodyend="97"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1afac37f1a33604b207f8d30279b255ad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UI::TestEngine::pushTree</definition>
+        <argsstring>(std::string_view name)</argsstring>
+        <name>pushTree</name>
+        <qualifiedname>MR::UI::TestEngine::pushTree</qualifiedname>
+        <param>
+          <type>std::string_view</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Use those to group buttons into named groups. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="100" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="100" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1af584a5ff88e3d48b91ace605bd8331e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API void</type>
+        <definition>MRVIEWER_API void MR::UI::TestEngine::popTree</definition>
+        <argsstring>()</argsstring>
+        <name>popTree</name>
+        <qualifiedname>MR::UI::TestEngine::popTree</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="101" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="101" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1UI_1_1TestEngine_1abbf1d490037c289477160fdb25fb30f7" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVIEWER_API const <ref refid="structMR_1_1UI_1_1TestEngine_1_1GroupEntry" kindref="compound">GroupEntry</ref> &amp;</type>
+        <definition>MRVIEWER_API const GroupEntry &amp; MR::UI::TestEngine::getRootEntry</definition>
+        <argsstring>()</argsstring>
+        <name>getRootEntry</name>
+        <qualifiedname>MR::UI::TestEngine::getRootEntry</qualifiedname>
+        <briefdescription>
+<para>Returns the current entry tree. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="191" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" declline="191" declcolumn="32"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This is a low-level header for implementing GUIs that can be interacted with programmatically. Most likely you don&apos;t need to touch this, just use widgets from <computeroutput><ref refid="MRUIStyle_8h" kindref="compound">MRUIStyle.h</ref></computeroutput>. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUITestEngine.h" line="18" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderFeatures::RenderFeaturePointsComponent</compoundname>
+    <basecompoundref refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent" prot="public" virt="non-virtual">MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectPoints, RenderPointsObject &gt;</basecompoundref>
+    <includes refid="MRRenderFeatureObjects_8h" local="no">MRRenderFeatureObjects.h</includes>
+    <templateparamlist>
+      <param>
+        <type>bool</type>
+        <declname>IsPrimary</declname>
+        <defname>IsPrimary</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <memberdef kind="typedef" id="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent_1a259f23f58bfe5c3291c55569396a56df" prot="private" static="no">
+        <type><ref refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent" kindref="compound">RenderFeatureComponent</ref>&lt; IsPrimary, <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref>, <ref refid="classMR_1_1RenderPointsObject" kindref="compound">RenderPointsObject</ref> &gt;</type>
+        <definition>using MR::RenderFeatures::RenderFeaturePointsComponent&lt; IsPrimary &gt;::Base =  RenderFeatureComponent&lt;IsPrimary, ObjectPoints, RenderPointsObject&gt;</definition>
+        <argsstring></argsstring>
+        <name>Base</name>
+        <qualifiedname>MR::RenderFeatures::RenderFeaturePointsComponent::Base</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="185" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent_1a142237d698d085d466a1d8c2177ddafe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>auto &amp;</type>
+        <definition>auto &amp; MR::RenderFeatures::RenderFeaturePointsComponent&lt; IsPrimary &gt;::getPoints</definition>
+        <argsstring>()</argsstring>
+        <name>getPoints</name>
+        <qualifiedname>MR::RenderFeatures::RenderFeaturePointsComponent::getPoints</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="188" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="188" bodyend="188"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This renderobject draws custom points. If <computeroutput>IsPrimary</computeroutput> is true, the visual properties are copied from the target datamodel object. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="2">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectPoints, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::RenderFeaturePointsComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderPointsObject</label>
+        <link refid="classMR_1_1RenderPointsObject"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt; &gt;</label>
+        <link refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="28">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="11">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="12" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ObjectPoints</label>
+        <link refid="classMR_1_1ObjectPoints"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::ObjectPointsHolder</label>
+        <link refid="classMR_1_1ObjectPointsHolder"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>pointsSelectionChangedSignal</edgelabel>
+          <edgelabel>renderDiscretizationChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="21" relation="usage">
+          <edgelabel>normalsChangedSignal</edgelabel>
+          <edgelabel>pointsChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>selectedVerticesColor_</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>showSelectedVertices_</edgelabel>
+        </childnode>
+        <childnode refid="23" relation="usage">
+          <edgelabel>worldBox_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectPoints, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::RenderFeatures::RenderFeaturePointsComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1WrappedModelSubobject"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectBase&lt; IsPrimary, ObjectPoints &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectBase"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::RenderFeatures::detail::WrappedModelSubobjectPart&lt; IsPrimary, ObjectPoints &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1detail_1_1WrappedModelSubobjectPart_3_01IsPrimary_00_01ObjectPoints_01_4"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MR::RenderPointsObject</label>
+        <link refid="classMR_1_1RenderPointsObject"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MR::RenderWrapObject::BasicWrapperTarget&lt; FeatureObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1BasicWrapperTarget"/>
+        <childnode refid="25" relation="public-inheritance">
+        </childnode>
+        <childnode refid="26" relation="usage">
+          <edgelabel>target_</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MR::RenderWrapObject::detail::BasicWrapperTargetUntyped</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1detail_1_1BasicWrapperTargetUntyped"/>
+      </node>
+      <node id="4">
+        <label>MR::RenderWrapObject::detail::SubobjectStorage&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt; &gt;</label>
+        <link refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>subobject</edgelabel>
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MR::Signal&lt; void(uint32_t mask)&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="18" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="15">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="19">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="23">
+        <label>MR::ViewportProperty&lt; MR::XfBasedCache&lt; Box3f &gt; &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="20">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="10">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+        <childnode refid="17" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="16" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="19" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="20" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="26">
+        <label>ObjectType</label>
+      </node>
+      <node id="14">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="22">
+        <label>boost::signals2::signal&lt; void(uint32_t mask) &gt;</label>
+      </node>
+      <node id="18">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" line="183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderFeatureObjects.h" bodystart="184" bodyend="189"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent_1a259f23f58bfe5c3291c55569396a56df" prot="private" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>Base</name></member>
+      <member refid="group__GeneralGroup_1ga84ee58e0127a952e60ebcae7ee3a712a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>forceBindAll</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent_1a142237d698d085d466a1d8c2177ddafe" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>getPoints</name></member>
+      <member refid="group__GeneralGroup_1gae58d2cc13f9eff9285ade09909b14ec7" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1gac57d8a541df401cff5ddf7566f0b9bb4" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ab3a0e53c8d180bbb25650e0ac1544abf" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>operator=</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1aac7d0eb9a73f28680925b75d122b66a4" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>render</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1a7223265f55a1d01543ece7518bc011ff" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1gab99ca8621e3c55c14e02d3452bbdd239" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>RenderPointsObject</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent_1afbeda6ef29a8b84bed77e748228e20e7" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>shouldRender</name></member>
+      <member refid="structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectStorage_1aefbb8b64a400a9acc5e776111c7ae297" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>subobject</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1a1513e9da308ecba00c67324e0c0cf39b" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>Wrapper</name></member>
+      <member refid="classMR_1_1RenderWrapObject_1_1Wrapper_1ad13b52643d115db231f4501231b97765" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>Wrapper</name></member>
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>~IRenderObject</name></member>
+      <member refid="group__GeneralGroup_1ga15d475f3d61005249719bb402493d9d8" prot="public" virt="non-virtual"><scope>MR::RenderFeatures::RenderFeaturePointsComponent</scope><name>~RenderPointsObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

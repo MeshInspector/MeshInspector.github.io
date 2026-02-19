@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SurfacePointWidget_1_1Parameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SurfacePointWidget::Parameters</compoundname>
+    <includes refid="MRSurfacePointPicker_8h" local="no">MRSurfacePointPicker.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga712b537bdb6806aaeca2e2ac50b395c3" kind="enum"><name>PointSizeType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaef0e9963d176c1ff1684083ddecd4fbe" kind="variable"><name>positionType</name></member>
+      <member refid="group__GeneralGroup_1ga42b9955e23ce28c95ebdc5c3c78dae7f" kind="variable"><name>baseColor</name></member>
+      <member refid="group__GeneralGroup_1ga9c25cb2f8938a8568eaa3c712452b7f0" kind="variable"><name>hoveredColor</name></member>
+      <member refid="group__GeneralGroup_1gae7f3be408f91d5f62dedd067168968b1" kind="variable"><name>activeColor</name></member>
+      <member refid="group__GeneralGroup_1ga724837b5404f667f7d44a1933d27ddca" kind="variable"><name>radiusSizeType</name></member>
+      <member refid="group__GeneralGroup_1gac072b93be7d076a5ecab7a5447632d0b" kind="variable"><name>radius</name></member>
+      <member refid="group__GeneralGroup_1gafd51ac7c79f68590c9471e56a8e29890" kind="variable"><name>customModifiers</name></member>
+      <member refid="group__GeneralGroup_1ga38a5a4681452f28c8f94a4b8f3bf7685" kind="variable"><name>pickInBackFaceObject</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::SurfacePointWidget::Parameters</label>
+        <link refid="structMR_1_1SurfacePointWidget_1_1Parameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>activeColor</edgelabel>
+          <edgelabel>baseColor</edgelabel>
+          <edgelabel>hoveredColor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfacePointPicker.h" line="34" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfacePointPicker.h" bodystart="35" bodyend="58"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae7f3be408f91d5f62dedd067168968b1" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget::Parameters</scope><name>activeColor</name></member>
+      <member refid="group__GeneralGroup_1ga42b9955e23ce28c95ebdc5c3c78dae7f" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget::Parameters</scope><name>baseColor</name></member>
+      <member refid="group__GeneralGroup_1gafd51ac7c79f68590c9471e56a8e29890" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget::Parameters</scope><name>customModifiers</name></member>
+      <member refid="group__GeneralGroup_1ga9c25cb2f8938a8568eaa3c712452b7f0" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget::Parameters</scope><name>hoveredColor</name></member>
+      <member refid="group__GeneralGroup_1ga38a5a4681452f28c8f94a4b8f3bf7685" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget::Parameters</scope><name>pickInBackFaceObject</name></member>
+      <member refid="group__GeneralGroup_1ga712b537bdb6806aaeca2e2ac50b395c3" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget::Parameters</scope><name>PointSizeType</name></member>
+      <member refid="group__GeneralGroup_1gaef0e9963d176c1ff1684083ddecd4fbe" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget::Parameters</scope><name>positionType</name></member>
+      <member refid="group__GeneralGroup_1gac072b93be7d076a5ecab7a5447632d0b" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget::Parameters</scope><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga724837b5404f667f7d44a1933d27ddca" prot="public" virt="non-virtual"><scope>MR::SurfacePointWidget::Parameters</scope><name>radiusSizeType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

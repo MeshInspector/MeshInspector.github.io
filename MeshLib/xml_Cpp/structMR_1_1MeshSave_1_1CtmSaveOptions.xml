@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshSave_1_1CtmSaveOptions" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshSave::CtmSaveOptions</compoundname>
+    <basecompoundref refid="structMR_1_1SaveSettings" prot="public" virt="non-virtual">MR::SaveSettings</basecompoundref>
+    <includes refid="MRCtm_8h" local="no">MRCtm.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gae11e0573781455904bb818493c2ad69d" kind="enum"><name>MeshCompression</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga54ba9db1afce57658d702848df79ec47" kind="variable"><name>meshCompression</name></member>
+      <member refid="group__GeneralGroup_1ga391e0a1e39f79dd41b9a003e251360c4" kind="variable"><name>vertexPrecision</name></member>
+      <member refid="group__GeneralGroup_1ga09f020b5c907033a5e7b25073effacf5" kind="variable"><name>compressionLevel</name></member>
+      <member refid="group__GeneralGroup_1ga19694f1e7c36428c2d0e206560be24a3" kind="variable"><name>comment</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::MeshSave::CtmSaveOptions</label>
+        <link refid="structMR_1_1MeshSave_1_1CtmSaveOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SaveSettings</label>
+        <link refid="structMR_1_1SaveSettings"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="1">
+        <label>MR::MeshSave::CtmSaveOptions</label>
+        <link refid="structMR_1_1MeshSave_1_1CtmSaveOptions"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::SaveSettings</label>
+        <link refid="structMR_1_1SaveSettings"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>texture</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="32" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" bodystart="33" bodyend="48"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6aa78ab8ac3342aaeb267aa07e82721a" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga19694f1e7c36428c2d0e206560be24a3" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>comment</name></member>
+      <member refid="group__GeneralGroup_1ga09f020b5c907033a5e7b25073effacf5" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>compressionLevel</name></member>
+      <member refid="group__GeneralGroup_1ga1b152fd38e636ee6803cabaac71794cc" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>lengthUnit</name></member>
+      <member refid="group__GeneralGroup_1ga3614a6ca71783b2dd64369d4f122ee69" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>materialName</name></member>
+      <member refid="group__GeneralGroup_1gae11e0573781455904bb818493c2ad69d" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>MeshCompression</name></member>
+      <member refid="group__GeneralGroup_1ga54ba9db1afce57658d702848df79ec47" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>meshCompression</name></member>
+      <member refid="group__GeneralGroup_1ga88539fbafc85e15a6dbc49b2b3144a15" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>onlyValidPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf59abe4d1987a4ccd1c117cfe7f3c160" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>packPrimitives</name></member>
+      <member refid="group__GeneralGroup_1ga2adbb4514d02bbf6b87e95a090e1a2d9" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>primitiveColors</name></member>
+      <member refid="group__GeneralGroup_1ga0f2bb31407f2693aa939c47e0052b527" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>progress</name></member>
+      <member refid="group__GeneralGroup_1gac0798760baa0755ad37dde251b754b9d" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="group__GeneralGroup_1ga127d98f930cd561a8633297e3422f649" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>solidColor</name></member>
+      <member refid="group__GeneralGroup_1ga0cd4cf82acb2f094f43f785282fcb76a" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga71c2ed63cb6a101dbd9b47f8ca9898fd" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>uvMap</name></member>
+      <member refid="group__GeneralGroup_1ga391e0a1e39f79dd41b9a003e251360c4" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>vertexPrecision</name></member>
+      <member refid="group__GeneralGroup_1ga972e4972bf3626cb56f22c55b69cccc0" prot="public" virt="non-virtual"><scope>MR::MeshSave::CtmSaveOptions</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

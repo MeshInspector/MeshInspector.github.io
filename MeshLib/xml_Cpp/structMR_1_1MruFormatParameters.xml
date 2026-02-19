@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MruFormatParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MruFormatParameters</compoundname>
+    <includes refid="MRMruFormatParameters_8h" local="no">MRMruFormatParameters.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga54e98c48affcdf0689a304151d417c25" kind="enum"><name>MeshFormat</name></member>
+      <member refid="group__GeneralGroup_1gab14f18f4a69f41e12e03f1f7f15685f8" kind="enum"><name>PointsFormat</name></member>
+      <member refid="group__GeneralGroup_1gaaa2c2e3e1b4ca72decab6d2e7a7b76c8" kind="enum"><name>VoxelsFormat</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga847374c0c9703ddd9fd62bcf0b779112" kind="variable"><name>meshFormat</name></member>
+      <member refid="group__GeneralGroup_1ga0896b0c59237dfd0301dec798a268a29" kind="variable"><name>pointsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga98733bb350e4aff5f5ef721bc16d9b27" kind="variable"><name>voxelsFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of mesh / point / voxel object storage formats inside an .mru file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" line="10" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMruFormatParameters.h" bodystart="11" bodyend="31"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga54e98c48affcdf0689a304151d417c25" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>MeshFormat</name></member>
+      <member refid="group__GeneralGroup_1ga847374c0c9703ddd9fd62bcf0b779112" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>meshFormat</name></member>
+      <member refid="group__GeneralGroup_1gab14f18f4a69f41e12e03f1f7f15685f8" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>PointsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga0896b0c59237dfd0301dec798a268a29" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>pointsFormat</name></member>
+      <member refid="group__GeneralGroup_1gaaa2c2e3e1b4ca72decab6d2e7a7b76c8" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>VoxelsFormat</name></member>
+      <member refid="group__GeneralGroup_1ga98733bb350e4aff5f5ef721bc16d9b27" prot="public" virt="non-virtual"><scope>MR::MruFormatParameters</scope><name>voxelsFormat</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

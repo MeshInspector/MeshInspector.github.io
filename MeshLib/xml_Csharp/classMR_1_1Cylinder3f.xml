@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cylinder3f" kind="class" language="C#" prot="public">
+    <compoundname>MR::Cylinder3f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Cylinder3f</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Cylinder3f_1a6fdc86b3f18a8488286aa6e42522ce8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1Line3f" kindref="compound">MR.Line3f</ref></type>
+        <definition>new unsafe MR.Line3f MR.Cylinder3f.mainAxis</definition>
+        <argsstring></argsstring>
+        <name>mainAxis</name>
+        <qualifiedname>MR.Cylinder3f.mainAxis</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="156" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Cylinder3f_1a29687e2f668f7dbc1855e6d41f8d3f39" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Cylinder3f.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <qualifiedname>MR.Cylinder3f.radius</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="158" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Cylinder3f_1a9f2eb6404d089beb92f8e5b8bd277931" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.Cylinder3f.length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <qualifiedname>MR.Cylinder3f.length</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="160" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Cylinder3f_1a2e3f4e5b32b38fcc484c931d04f8dc47" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cylinder3f.Cylinder3f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Cylinder3f</name>
+        <qualifiedname>MR.Cylinder3f.Cylinder3f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="179" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="179" bodyend="183"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cylinder3f_1aea2e842d7e3adb4321cc29e6762b029f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cylinder3f.Cylinder3f</definition>
+        <argsstring>()</argsstring>
+        <name>Cylinder3f</name>
+        <qualifiedname>MR.Cylinder3f.Cylinder3f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="189" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="189" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3f_1a55ef9d925c3b4ef947394b477d2275e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cylinder3f.Cylinder3f</definition>
+        <argsstring>(MR.Const_Cylinder3f _other)</argsstring>
+        <name>Cylinder3f</name>
+        <qualifiedname>MR.Cylinder3f.Cylinder3f</qualifiedname>
+        <param>
+          <type>MR.Const_Cylinder3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Cylinder3f.Cylinder3f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="200" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="200" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3f_1a1c950ad9446b8bc5d2e599b821b8f3f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Cylinder3f.Cylinder3f</definition>
+        <argsstring>(Cylinder3f _other)</argsstring>
+        <name>Cylinder3f</name>
+        <qualifiedname>MR.Cylinder3f.Cylinder3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Cylinder3f" kindref="compound">Cylinder3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Cylinder3f.Cylinder3f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="212" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="212" bodyend="212"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3f_1ac7a4bd7eb338bb0f65f1a74d878f4753" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cylinder3f.Cylinder3f</definition>
+        <argsstring>(in MR.Vector3f inCenter, in MR.Vector3f inDirectoin, float inRadius, float inLength)</argsstring>
+        <name>Cylinder3f</name>
+        <qualifiedname>MR.Cylinder3f.Cylinder3f</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>inCenter</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>inDirectoin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inLength</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Cylinder3f.Cylinder3f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="217" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="217" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3f_1a1eb16bfbb39583bb607674d73ba95046" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Cylinder3f.Cylinder3f</definition>
+        <argsstring>(MR.Const_Line3f inAxis, float inRadius, float inLength)</argsstring>
+        <name>Cylinder3f</name>
+        <qualifiedname>MR.Cylinder3f.Cylinder3f</qualifiedname>
+        <param>
+          <type>MR.Const_Line3f</type>
+          <declname>inAxis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inRadius</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>inLength</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Cylinder3f.Cylinder3f</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="234" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="234" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3f_1a837a362b0b97c61e46ec09b0f79e9ecd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Cylinder3f" kindref="compound">MR.Cylinder3f</ref></type>
+        <definition>unsafe MR.Cylinder3f MR.Cylinder3f.assign</definition>
+        <argsstring>(MR.Const_Cylinder3f _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Cylinder3f.assign</qualifiedname>
+        <param>
+          <type>MR.Const_Cylinder3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Cylinder3f.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="246" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="246" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3f_1af9a310a4f33ce48b3f5efcc24727b016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe new ref MR.Vector3f MR.Cylinder3f.center</definition>
+        <argsstring>()</argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Cylinder3f.center</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Cylinder3f_1af9a310a4f33ce48b3f5efcc24727b016" kindref="member">MR.Cylinder3f.center</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="258" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="258" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cylinder3f_1a29fadf0461059de5536a132045ef6786" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>unsafe new ref MR.Vector3f MR.Cylinder3f.direction</definition>
+        <argsstring>()</argsstring>
+        <name>direction</name>
+        <qualifiedname>MR.Cylinder3f.direction</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1Cylinder3f_1a29fadf0461059de5536a132045ef6786" kindref="member">MR.Cylinder3f.direction</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="268" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="268" bodyend="273"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1Cylinder3f" kindref="compound">MR.Cylinder3f</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Cylinder3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Cylinder3f</label>
+        <link refid="classMR_1_1Cylinder3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Cylinder3f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Cylinder3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Cylinder3f</label>
+        <link refid="classMR_1_1Cylinder3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Cylinder3f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" line="154" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinder3.cs" bodystart="155" bodyend="274"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cylinder3f_1a837a362b0b97c61e46ec09b0f79e9ecd" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>assign</name></member>
+      <member refid="classMR_1_1Cylinder3f_1af9a310a4f33ce48b3f5efcc24727b016" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>center</name></member>
+      <member refid="classMR_1_1Cylinder3f_1a2e3f4e5b32b38fcc484c931d04f8dc47" prot="package" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>Cylinder3f</name></member>
+      <member refid="classMR_1_1Cylinder3f_1aea2e842d7e3adb4321cc29e6762b029f" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>Cylinder3f</name></member>
+      <member refid="classMR_1_1Cylinder3f_1a55ef9d925c3b4ef947394b477d2275e4" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>Cylinder3f</name></member>
+      <member refid="classMR_1_1Cylinder3f_1a1c950ad9446b8bc5d2e599b821b8f3f0" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>Cylinder3f</name></member>
+      <member refid="classMR_1_1Cylinder3f_1ac7a4bd7eb338bb0f65f1a74d878f4753" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>Cylinder3f</name></member>
+      <member refid="classMR_1_1Cylinder3f_1a1eb16bfbb39583bb607674d73ba95046" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>Cylinder3f</name></member>
+      <member refid="classMR_1_1Cylinder3f_1a29fadf0461059de5536a132045ef6786" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>direction</name></member>
+      <member refid="classMR_1_1Cylinder3f_1a9f2eb6404d089beb92f8e5b8bd277931" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>length</name></member>
+      <member refid="classMR_1_1Cylinder3f_1a6fdc86b3f18a8488286aa6e42522ce8f" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>mainAxis</name></member>
+      <member refid="classMR_1_1Cylinder3f_1a29687e2f668f7dbc1855e6d41f8d3f39" prot="public" virt="non-virtual"><scope>MR::Cylinder3f</scope><name>radius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

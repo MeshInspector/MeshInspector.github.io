@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BMap__VoxelId__VoxelId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BMap_VoxelId_VoxelId</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1ab998dfb9dc55f73f2a729e2fe166789b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_VoxelId_VoxelId::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.BMap_VoxelId_VoxelId._offsetof_b</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1a49011f11a8a37f17dd4e289da2e8d40b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BMap_VoxelId_VoxelId::_offsetof_tsize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tsize</name>
+        <qualifiedname>mrmeshpy.BMap_VoxelId_VoxelId._offsetof_tsize</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2140" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1aea546f6225dcf74b23c10da0739a6b15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_VoxelId_VoxelId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BMap_VoxelId_VoxelId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2141" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2141" bodyend="2142"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1a7a2f7909e0ecdbd2a365c8d4c9e3170f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Buffer__VoxelId__VoxelId" kindref="compound">Buffer_VoxelId_VoxelId</ref></type>
+        <definition> Buffer_VoxelId_VoxelId mrmeshpy.BMap_VoxelId_VoxelId.b</definition>
+        <argsstring>(self)</argsstring>
+        <name>b</name>
+        <qualifiedname>mrmeshpy.BMap_VoxelId_VoxelId.b</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2144" bodyend="2145"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1a0115fecd53a3a8fe5da6f301801e8374" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.BMap_VoxelId_VoxelId.tsize</definition>
+        <argsstring>(self)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_VoxelId_VoxelId.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target size, all values inside b must be less than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2147" bodyend="2150"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1a2c1ed26487f54df4dca3181b3dc92681" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BMap_VoxelId_VoxelId.tsize</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>tsize</name>
+        <qualifiedname>mrmeshpy.BMap_VoxelId_VoxelId.tsize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2152" bodyend="2153"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BMap&lt;MR::VoxelId, MR::VoxelId&gt;
+Aliases:  BMap_TypedBitSet_Id_VoxelTag_IndexType_TypedBitSet_Id_VoxelTag_IndexType, BMap_Id_VoxelTag_Id_VoxelTag, BMap_Id_VoxelTag_Id_VoxelTag, BMap_Id_VoxelTag_Id_VoxelTag
+
+flat map: I -&gt; T
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BMap_VoxelId_VoxelId</label>
+        <link refid="classmrmeshpy_1_1BMap__VoxelId__VoxelId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_tsize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2132" bodyend="2153"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1aea546f6225dcf74b23c10da0739a6b15" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_VoxelId_VoxelId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1ab998dfb9dc55f73f2a729e2fe166789b" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_VoxelId_VoxelId</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1a49011f11a8a37f17dd4e289da2e8d40b" prot="protected" virt="non-virtual"><scope>mrmeshpy::BMap_VoxelId_VoxelId</scope><name>_offsetof_tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1a7a2f7909e0ecdbd2a365c8d4c9e3170f" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_VoxelId_VoxelId</scope><name>b</name></member>
+      <member refid="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1a0115fecd53a3a8fe5da6f301801e8374" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_VoxelId_VoxelId</scope><name>tsize</name></member>
+      <member refid="classmrmeshpy_1_1BMap__VoxelId__VoxelId_1a2c1ed26487f54df4dca3181b3dc92681" prot="public" virt="non-virtual"><scope>mrmeshpy::BMap_VoxelId_VoxelId</scope><name>tsize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

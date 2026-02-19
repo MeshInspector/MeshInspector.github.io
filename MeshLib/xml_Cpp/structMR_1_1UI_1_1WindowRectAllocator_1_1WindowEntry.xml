@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1WindowRectAllocator_1_1WindowEntry" kind="struct" language="C++" prot="private">
+    <compoundname>MR::UI::WindowRectAllocator::WindowEntry</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1UI_1_1WindowRectAllocator_1_1WindowEntry_1a2ad3d704be8a5c0d4c10d3082da39541" prot="public" static="no" mutable="no">
+        <type>AllocationState</type>
+        <definition>AllocationState MR::UI::WindowRectAllocator::WindowEntry::state_</definition>
+        <argsstring></argsstring>
+        <name>state_</name>
+        <qualifiedname>MR::UI::WindowRectAllocator::WindowEntry::state_</qualifiedname>
+        <initializer>{ AllocationState::None }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="91" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="91" bodyend="91"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" line="89" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIRectAllocator.h" bodystart="90" bodyend="92"/>
+    <listofallmembers>
+      <member refid="structMR_1_1UI_1_1WindowRectAllocator_1_1WindowEntry_1a2ad3d704be8a5c0d4c10d3082da39541" prot="public" virt="non-virtual"><scope>MR::UI::WindowRectAllocator::WindowEntry</scope><name>state_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

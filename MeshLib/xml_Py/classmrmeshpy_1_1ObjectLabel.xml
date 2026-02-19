@@ -1,0 +1,1001 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectLabel" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectLabel</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1VisualObject" prot="public" virt="non-virtual">mrmeshpy.VisualObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1ad5b7ea2c05dafbc705ae1afae23bd348" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectLabel.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2fc458fce133a9ff45056ce820e23234">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39631" bodyend="39632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1aed7c96fb9d5943dfb8b01c55eeb47cf6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.ObjectLabel.getWorldBox</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getWorldBox</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e">getWorldBox</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached bounding box of this label object in world coordinates;
+if you need bounding box in local coordinates please call getBoundingBox()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39634" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39634" bodyend="39638"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1aba87056b804a68adbd7532069c0c1503" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39639" bodyend="39640"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a1057c6b0ee67177596c48025fd92872e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.applyScale</definition>
+        <argsstring>(self, float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.applyScale</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a1db3f0240dda415f1f066fed72225e16">applyScale</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>scale object size (all point positions)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39641" bodyend="39642"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1adef641d76e436933fd00a20bc94221fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.buildMeshFromText</definition>
+        <argsstring>(self)</argsstring>
+        <name>buildMeshFromText</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.buildMeshFromText</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Loads font, and converts the symbols of text into mesh;
+since this operation is time consuming, one can call this method in parallel for several ObjectLabels before rendering
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39643" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39643" bodyend="39647"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1aec10a48c6b97e7eedda9ae313ae7fb9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectLabel.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39648" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39648" bodyend="39649"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a2a322f59d83788598d4a38fb8f3efcbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
+        <definition> std_vector_ViewportMask mrmeshpy.ObjectLabel.getAllVisualizeProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getAllVisualizeProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a99a68c12bda4b4c07f5ba725b2b2af59">getAllVisualizeProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get all visualize properties masks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39650" bodyend="39653"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1afd5d489c5deda268494bda4079305934" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectLabel.getBackgroundPadding</definition>
+        <argsstring>(self)</argsstring>
+        <name>getBackgroundPadding</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getBackgroundPadding</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns background padding in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39654" bodyend="39657"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1ab65ae8e421b375b7b7e0437a3dab3443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.ObjectLabel.getContourColor</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getContourColor</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getContourColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return contour color
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39658" bodyend="39661"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1add5937904bda1142fdacdb33923a9b02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.ObjectLabel.getContourColorsForAllViewports</definition>
+        <argsstring>(self)</argsstring>
+        <name>getContourColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getContourColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39662" bodyend="39663"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a6d4f92b904d8e2ebbf55d61054128cc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectLabel.getFontHeight</definition>
+        <argsstring>(self)</argsstring>
+        <name>getFontHeight</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getFontHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns size of label font on screen in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39664" bodyend="39667"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1af8a5f7697ba1e4135b0a86aedf210944" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.ObjectLabel.getFontPath</definition>
+        <argsstring>(self)</argsstring>
+        <name>getFontPath</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getFontPath</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39668" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39668" bodyend="39669"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1ac484b09fbb7401ee7323edb5ac1c9abd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PositionedText" kindref="compound">PositionedText</ref></type>
+        <definition> PositionedText mrmeshpy.ObjectLabel.getLabel</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLabel</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getLabel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39670" bodyend="39671"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a9a8f66280ef6673858e1ef658086c9f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.ObjectLabel.getLeaderLineColor</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getLeaderLineColor</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getLeaderLineColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return color of leader line
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39672" bodyend="39675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a6cfe34f52e16e29288028691ca4c1822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.ObjectLabel.getLeaderLineColorsForAllViewports</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLeaderLineColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getLeaderLineColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39676" bodyend="39677"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a8cd0d91fed29234ae4e18688a3e59025" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectLabel.getLeaderLineWidth</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLeaderLineWidth</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getLeaderLineWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns width of leader line in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39678" bodyend="39681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1abcd7b0815cbfdde0ed52a2c38d2bf10e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.ObjectLabel.getPivotPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>getPivotPoint</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getPivotPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get pivot point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39682" bodyend="39685"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1aa8ba95b6ada9721bcf17e64d5dfecb98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.ObjectLabel.getPivotShift</definition>
+        <argsstring>(self)</argsstring>
+        <name>getPivotShift</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getPivotShift</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get pivot shift (pivot point * text diagonal)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39686" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39686" bodyend="39689"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a0900af962767f236b8ace04217f6c380" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.ObjectLabel.getSourcePointColor</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getSourcePointColor</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getSourcePointColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns color of source point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39690" bodyend="39693"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1ae5cabbe76ff98991b0c6e5c8753cf004" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.ObjectLabel.getSourcePointColorsForAllViewports</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSourcePointColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getSourcePointColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39694" bodyend="39695"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a17af8c0c0f8b56d823f6d1ffda44a960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ObjectLabel.getSourcePointSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSourcePointSize</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getSourcePointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns size of source point in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39696" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39696" bodyend="39699"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a627921d7a1585a04c9ff9aeded092e23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition> ViewportMask mrmeshpy.ObjectLabel.getVisualizePropertyMask</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.getVisualizePropertyMask</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a936f4ea388564c3dc033b5abb39993f4">getVisualizePropertyMask</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns mask of viewports where given property is set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39700" bodyend="39703"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a94f4d52b96e7d450d9e47ed95d6f0adc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ObjectLabel.hasVisualRepresentation</definition>
+        <argsstring>(self)</argsstring>
+        <name>hasVisualRepresentation</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.hasVisualRepresentation</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a21510ca05f3888f5db9ff0aae662c9d1">hasVisualRepresentation</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>does the object have any visual representation (visible points, triangles, edges, etc.), no considering child objects
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39704" bodyend="39705"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a2f7303b4a6e16d2cea97ba06b1bf4877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectLabel.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1a571d9d02df9a2a9dd723f6a71ce398">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39706" bodyend="39709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1ab80c508ea563ee0efb2fa54c5e5fe115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.ObjectLabel.labelRepresentingMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>labelRepresentingMesh</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.labelRepresentingMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns mesh that represents current label
+only used in Render object for binding, cleared after it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39710" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39710" bodyend="39714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a1e8ce7851853fa952cb883d55a688733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setBackgroundPadding</definition>
+        <argsstring>(self, float padding)</argsstring>
+        <name>setBackgroundPadding</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setBackgroundPadding</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>padding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets background padding in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39715" bodyend="39718"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a55dd6194b9bb53eaa0c8525c49267725" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setContourColor</definition>
+        <argsstring>(self, Color color, ViewportId id=...)</argsstring>
+        <name>setContourColor</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setContourColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets contour color
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39719" bodyend="39722"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a27a45914e923fd56dad12e82055ae34f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setContourColorsForAllViewports</definition>
+        <argsstring>(self, ViewportProperty_Color val)</argsstring>
+        <name>setContourColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setContourColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39723" bodyend="39724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1ad3adc190882b82996712f11b13804eb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setFontHeight</definition>
+        <argsstring>(self, float size)</argsstring>
+        <name>setFontHeight</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setFontHeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets size of label font in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39725" bodyend="39728"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a33149c2e3be2391e939ac6f63be51398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setFontPath</definition>
+        <argsstring>(self, os.PathLike|str|bytes pathToFont)</argsstring>
+        <name>setFontPath</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setFontPath</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>pathToFont</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets path to font file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39729" bodyend="39732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a9356636ecd633cf11920089ae06ba6b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setLabel</definition>
+        <argsstring>(self, PositionedText label)</argsstring>
+        <name>setLabel</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setLabel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PositionedText" kindref="compound">PositionedText</ref></type>
+          <declname>label</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets text and position of label
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39733" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39733" bodyend="39736"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a35d3c3d341e3f92546c81ec0f6011a38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setLeaderLineColor</definition>
+        <argsstring>(self, Color color, ViewportId id=...)</argsstring>
+        <name>setLeaderLineColor</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setLeaderLineColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets color of leader line
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39737" bodyend="39740"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1aa2173924a21cb6b351970053fb6befd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setLeaderLineColorsForAllViewports</definition>
+        <argsstring>(self, ViewportProperty_Color val)</argsstring>
+        <name>setLeaderLineColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setLeaderLineColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39741" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39741" bodyend="39742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1adaada01c08cc6120b461b170e92ae24a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setLeaderLineWidth</definition>
+        <argsstring>(self, float width)</argsstring>
+        <name>setLeaderLineWidth</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setLeaderLineWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>width</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets width of leader line in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39743" bodyend="39746"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a3a2a729beab8d08ad6474d73989ada86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setPivotPoint</definition>
+        <argsstring>(self, Vector2f pivotPoint)</argsstring>
+        <name>setPivotPoint</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setPivotPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>pivotPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set pivot point
+\\param pivotPoint - text location parameter of  relative to text position point
+[0, 0] - text position point is left-down corner of text
+[1, 1] - text position point is right-up corner
+can be outside range [0, 0] - [1, 1]
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39747" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39747" bodyend="39754"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a7407ee26a8030b1c14c725e10b0decfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setSourcePointColor</definition>
+        <argsstring>(self, Color color, ViewportId id=...)</argsstring>
+        <name>setSourcePointColor</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setSourcePointColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets color of source point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39755" bodyend="39758"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1aea6295426db4672d5708772e39123a03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setSourcePointColorsForAllViewports</definition>
+        <argsstring>(self, ViewportProperty_Color val)</argsstring>
+        <name>setSourcePointColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setSourcePointColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39759" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39759" bodyend="39760"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1ab82573be98a7bd8c045ff242c25dab54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectLabel.setSourcePointSize</definition>
+        <argsstring>(self, float size)</argsstring>
+        <name>setSourcePointSize</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.setSourcePointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets size of source point in pixels
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39761" bodyend="39764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1abb39835769f1d417f7f03789d04f762a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.ObjectLabel.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39765" bodyend="39766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectLabel_1a801dbab12a1ed2b4d735494892632080" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ObjectLabel.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.ObjectLabel.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a0e188ed95f73756841030840741720e9">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39767" bodyend="39768"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectLabel
+
+This object type renders label in scene
+\\details default pivot point = (0, 0)
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectLabel</label>
+        <link refid="classmrmeshpy_1_1ObjectLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectLabel</label>
+        <link refid="classmrmeshpy_1_1ObjectLabel"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39623" bodyend="39768"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1aba87056b804a68adbd7532069c0c1503" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a1057c6b0ee67177596c48025fd92872e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>applyScale</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1adef641d76e436933fd00a20bc94221fc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>buildMeshFromText</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1aec10a48c6b97e7eedda9ae313ae7fb9d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a2a322f59d83788598d4a38fb8f3efcbd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1afd5d489c5deda268494bda4079305934" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getBackgroundPadding</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1ab65ae8e421b375b7b7e0437a3dab3443" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getContourColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1add5937904bda1142fdacdb33923a9b02" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getContourColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a6d4f92b904d8e2ebbf55d61054128cc4" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getFontHeight</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1af8a5f7697ba1e4135b0a86aedf210944" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getFontPath</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1ac484b09fbb7401ee7323edb5ac1c9abd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getLabel</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a9a8f66280ef6673858e1ef658086c9f6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getLeaderLineColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a6cfe34f52e16e29288028691ca4c1822" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getLeaderLineColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a8cd0d91fed29234ae4e18688a3e59025" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getLeaderLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1abcd7b0815cbfdde0ed52a2c38d2bf10e" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getPivotPoint</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1aa8ba95b6ada9721bcf17e64d5dfecb98" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getPivotShift</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a0900af962767f236b8ace04217f6c380" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getSourcePointColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1ae5cabbe76ff98991b0c6e5c8753cf004" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getSourcePointColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a17af8c0c0f8b56d823f6d1ffda44a960" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getSourcePointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a627921d7a1585a04c9ff9aeded092e23" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1aed7c96fb9d5943dfb8b01c55eeb47cf6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>getWorldBox</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a94f4d52b96e7d450d9e47ed95d6f0adc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a2f7303b4a6e16d2cea97ba06b1bf4877" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1ab80c508ea563ee0efb2fa54c5e5fe115" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>labelRepresentingMesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a1e8ce7851853fa952cb883d55a688733" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setBackgroundPadding</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a55dd6194b9bb53eaa0c8525c49267725" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setContourColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a27a45914e923fd56dad12e82055ae34f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setContourColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1ad3adc190882b82996712f11b13804eb5" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setFontHeight</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a33149c2e3be2391e939ac6f63be51398" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setFontPath</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a9356636ecd633cf11920089ae06ba6b6" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setLabel</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a35d3c3d341e3f92546c81ec0f6011a38" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setLeaderLineColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1aa2173924a21cb6b351970053fb6befd8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setLeaderLineColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1adaada01c08cc6120b461b170e92ae24a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setLeaderLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a3a2a729beab8d08ad6474d73989ada86" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setPivotPoint</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a7407ee26a8030b1c14c725e10b0decfd" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setSourcePointColor</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1aea6295426db4672d5708772e39123a03" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setSourcePointColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1ab82573be98a7bd8c045ff242c25dab54" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>setSourcePointSize</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1abb39835769f1d417f7f03789d04f762a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1ad5b7ea2c05dafbc705ae1afae23bd348" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1ObjectLabel_1a801dbab12a1ed2b4d735494892632080" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectLabel</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

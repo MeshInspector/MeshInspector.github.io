@@ -1,0 +1,1622 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1CylinderObject" kind="class" language="C#" prot="public">
+    <compoundname>MR::CylinderObject</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_CylinderObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a5c3ac8cda1700d4e340aa2b674ef290a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CylinderObject.operator MR.ObjectChildrenHolder</definition>
+        <argsstring>(CylinderObject self)</argsstring>
+        <name>operator MR.ObjectChildrenHolder</name>
+        <qualifiedname>MR.CylinderObject.operator MR.ObjectChildrenHolder</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CylinderObject" kindref="compound">CylinderObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1154" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1154" bodyend="1159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a80286dc51daf576346dc31538afda2c8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CylinderObject.operator MR.Object</definition>
+        <argsstring>(CylinderObject self)</argsstring>
+        <name>operator MR.Object</name>
+        <qualifiedname>MR.CylinderObject.operator MR.Object</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CylinderObject" kindref="compound">CylinderObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1160" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1160" bodyend="1165"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1abdfef4d8549f60e0481c7a3c1b48830d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CylinderObject.operator MR.VisualObject</definition>
+        <argsstring>(CylinderObject self)</argsstring>
+        <name>operator MR.VisualObject</name>
+        <qualifiedname>MR.CylinderObject.operator MR.VisualObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CylinderObject" kindref="compound">CylinderObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1166" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1166" bodyend="1171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ab6de2dba51cedff59eb6065ebbaa22ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CylinderObject.operator MR.FeatureObject</definition>
+        <argsstring>(CylinderObject self)</argsstring>
+        <name>operator MR.FeatureObject</name>
+        <qualifiedname>MR.CylinderObject.operator MR.FeatureObject</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CylinderObject" kindref="compound">CylinderObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1172" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1172" bodyend="1177"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a17e91a6f1efdba33a803b9524f6383d4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CylinderObject.operator MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength</definition>
+        <argsstring>(CylinderObject self)</argsstring>
+        <name>operator MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength</name>
+        <qualifiedname>MR.CylinderObject.operator MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1CylinderObject" kindref="compound">CylinderObject</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1178" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1178" bodyend="1183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1af420d5ada88b57cbf980c97e1b740758" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.CylinderObject.operator CylinderObject?</definition>
+        <argsstring>(MR.Object parent)</argsstring>
+        <name>operator CylinderObject?</name>
+        <qualifiedname>MR.CylinderObject.operator CylinderObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1186" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1186" bodyend="1193"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a47fa26959b1529d6ada9b325defa9116" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.CylinderObject.operator CylinderObject?</definition>
+        <argsstring>(MR.VisualObject parent)</argsstring>
+        <name>operator CylinderObject?</name>
+        <qualifiedname>MR.CylinderObject.operator CylinderObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1194" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1194" bodyend="1201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a026341d1817724e4e840518cf4e3cf01" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.CylinderObject.operator CylinderObject?</definition>
+        <argsstring>(MR.FeatureObject parent)</argsstring>
+        <name>operator CylinderObject?</name>
+        <qualifiedname>MR.CylinderObject.operator CylinderObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1202" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1202" bodyend="1209"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a3bfa43de7e1d9b0d4bc130d3a130d1f6" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.CylinderObject.operator CylinderObject?</definition>
+        <argsstring>(MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength parent)</argsstring>
+        <name>operator CylinderObject?</name>
+        <qualifiedname>MR.CylinderObject.operator CylinderObject?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AddVisualProperties__MRFeatureObject__MRDimensionsVisualizePropertyTypeDiameter__MRDi592570f3c0a618c19f452bec28ec9e2f" kindref="compound">MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1210" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1210" bodyend="1217"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a2b8ff99859c020561122b268b0d0dc6e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.CylinderObject.operator CylinderObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>operator CylinderObject</name>
+        <qualifiedname>MR.CylinderObject.operator CylinderObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best Cylinder to approx given points Generated from constructor <computeroutput>MR.CylinderObject.CylinderObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1260" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1260" bodyend="1260"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a2d3b61df1e394d9d9da877f00390a4e3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CylinderObject.CylinderObject</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>CylinderObject</name>
+        <qualifiedname>MR.CylinderObject.CylinderObject</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1219" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1219" bodyend="1219"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a7bc27ae99cd4a4d7cdc0a2bcaf12d7d6" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CylinderObject.CylinderObject</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>CylinderObject</name>
+        <qualifiedname>MR.CylinderObject.CylinderObject</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1221" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1221" bodyend="1221"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a8f6397bbc69852d4a6a0d3104c7ab6c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CylinderObject.CylinderObject</definition>
+        <argsstring>()</argsstring>
+        <name>CylinderObject</name>
+        <qualifiedname>MR.CylinderObject.CylinderObject</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1226" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1226" bodyend="1231"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1afc069ea722422c8eb8e9c61c1c077f84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CylinderObject.CylinderObject</definition>
+        <argsstring>(MR._ByValue_CylinderObject _other)</argsstring>
+        <name>CylinderObject</name>
+        <qualifiedname>MR.CylinderObject.CylinderObject</qualifiedname>
+        <param>
+          <type>MR._ByValue_CylinderObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.CylinderObject.CylinderObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1236" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1236" bodyend="1242"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a62df68a6f3d5c2af35fac6417049f4bd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.CylinderObject.CylinderObject</definition>
+        <argsstring>(MR.Std.Const_Vector_MRVector3f pointsToApprox)</argsstring>
+        <name>CylinderObject</name>
+        <qualifiedname>MR.CylinderObject.CylinderObject</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRVector3f</type>
+          <declname>pointsToApprox</declname>
+        </param>
+        <briefdescription>
+<para>Finds best Cylinder to approx given points Generated from constructor <computeroutput>MR.CylinderObject.CylinderObject</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1248" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1248" bodyend="1254"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a0a0f3eac9796cbd18cfa5bfb3eb5d69c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1CylinderObject" kindref="compound">MR.CylinderObject</ref></type>
+        <definition>unsafe MR.CylinderObject MR.CylinderObject.assign</definition>
+        <argsstring>(MR._ByValue_CylinderObject _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.CylinderObject.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_CylinderObject</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.CylinderObject.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1265" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1265" bodyend="1275"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a8229bfd12746eb7b8123d8bd5703ad0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setRadius</definition>
+        <argsstring>(float radius, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setRadius</name>
+        <qualifiedname>MR.CylinderObject.setRadius</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given radius Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a8229bfd12746eb7b8123d8bd5703ad0f" kindref="member">MR.CylinderObject.setRadius</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1282" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1282" bodyend="1287"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a085a310e272bf29fa765577142a1e8e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setCenter</definition>
+        <argsstring>(in MR.Vector3f center, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setCenter</name>
+        <qualifiedname>MR.CylinderObject.setCenter</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit given center Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a085a310e272bf29fa765577142a1e8e4" kindref="member">MR.CylinderObject.setCenter</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1294" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1294" bodyend="1302"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1af4ec98491c931751de28d37e844c9bf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setDirection</definition>
+        <argsstring>(in MR.Vector3f normal, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setDirection</name>
+        <qualifiedname>MR.CylinderObject.setDirection</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>normal</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit main axis Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1af4ec98491c931751de28d37e844c9bf4" kindref="member">MR.CylinderObject.setDirection</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1309" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1309" bodyend="1317"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a9f82e220c152f446d01458f1bc7a9477" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setLength</definition>
+        <argsstring>(float length, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setLength</name>
+        <qualifiedname>MR.CylinderObject.setLength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>updates xf to fit cylinder length Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a9f82e220c152f446d01458f1bc7a9477" kindref="member">MR.CylinderObject.setLength</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1324" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1324" bodyend="1329"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1af72951f762f87e6c80a93c967ca31495" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>MR.CylinderObject.setXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1af72951f762f87e6c80a93c967ca31495" kindref="member">MR.CylinderObject.setXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1335" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1335" bodyend="1343"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a5938f54cd23a9d8c2a27d9641ddd09fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.resetXf</definition>
+        <argsstring>(MR._InOpt_ViewportId id=default)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>MR.CylinderObject.resetXf</qualifiedname>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a5938f54cd23a9d8c2a27d9641ddd09fb" kindref="member">MR.CylinderObject.resetXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1349" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1349" bodyend="1354"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a394e74b018732ba55d46bc0522576efb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setDecorationsColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setDecorationsColor</name>
+        <qualifiedname>MR.CylinderObject.setDecorationsColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a394e74b018732ba55d46bc0522576efb" kindref="member">MR.CylinderObject.setDecorationsColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1360" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1360" bodyend="1368"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a4c93eded11881944b65d97b30a916a0e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setDecorationsColorForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool selected)</argsstring>
+        <name>setDecorationsColorForAllViewports</name>
+        <qualifiedname>MR.CylinderObject.setDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a4c93eded11881944b65d97b30a916a0e" kindref="member">MR.CylinderObject.setDecorationsColorForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1373" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1373" bodyend="1378"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a05e1b211af2a9f549122c244a9b59c2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setPointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>MR.CylinderObject.setPointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a05e1b211af2a9f549122c244a9b59c2a" kindref="member">MR.CylinderObject.setPointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1383" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1383" bodyend="1388"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1aef7f68271b88b8d1a6c40d503e7e46b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>MR.CylinderObject.setLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1aef7f68271b88b8d1a6c40d503e7e46b3" kindref="member">MR.CylinderObject.setLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1393" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1393" bodyend="1398"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a80c4ab07c1078aa178af05b8d6210825" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setSubfeaturePointSize</definition>
+        <argsstring>(float pointSize)</argsstring>
+        <name>setSubfeaturePointSize</name>
+        <qualifiedname>MR.CylinderObject.setSubfeaturePointSize</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a80c4ab07c1078aa178af05b8d6210825" kindref="member">MR.CylinderObject.setSubfeaturePointSize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1403" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1403" bodyend="1408"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1aadf15dff6acbea601b07d35fcc892f24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setSubfeatureLineWidth</definition>
+        <argsstring>(float lineWidth)</argsstring>
+        <name>setSubfeatureLineWidth</name>
+        <qualifiedname>MR.CylinderObject.setSubfeatureLineWidth</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1aadf15dff6acbea601b07d35fcc892f24" kindref="member">MR.CylinderObject.setSubfeatureLineWidth</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1413" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1413" bodyend="1418"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a6bb14aed08b85bc992cb51539ec77498" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setMainFeatureAlpha</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setMainFeatureAlpha</name>
+        <qualifiedname>MR.CylinderObject.setMainFeatureAlpha</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a6bb14aed08b85bc992cb51539ec77498" kindref="member">MR.CylinderObject.setMainFeatureAlpha</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1423" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1423" bodyend="1428"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a08bdf03b713eaf2022b9d189c0b125d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setSubfeatureAlphaPoints</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaPoints</name>
+        <qualifiedname>MR.CylinderObject.setSubfeatureAlphaPoints</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a08bdf03b713eaf2022b9d189c0b125d1" kindref="member">MR.CylinderObject.setSubfeatureAlphaPoints</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1433" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1433" bodyend="1438"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a05485cd527507a8c44516445bd3e2ff3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setSubfeatureAlphaLines</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaLines</name>
+        <qualifiedname>MR.CylinderObject.setSubfeatureAlphaLines</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a05485cd527507a8c44516445bd3e2ff3" kindref="member">MR.CylinderObject.setSubfeatureAlphaLines</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1443" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1443" bodyend="1448"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a71051475ed3068e7d7dd76d8da577020" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setSubfeatureAlphaMesh</definition>
+        <argsstring>(float alpha)</argsstring>
+        <name>setSubfeatureAlphaMesh</name>
+        <qualifiedname>MR.CylinderObject.setSubfeatureAlphaMesh</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a71051475ed3068e7d7dd76d8da577020" kindref="member">MR.CylinderObject.setSubfeatureAlphaMesh</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1453" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1453" bodyend="1458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a509a68374c90c5c555a625162f062041" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setVisualizeProperty</definition>
+        <argsstring>(bool value, MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>MR.CylinderObject.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a509a68374c90c5c555a625162f062041" kindref="member">MR.CylinderObject.setVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1464" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1464" bodyend="1469"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a190fff7a4506b07099664113a007d539" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setVisualizePropertyMask</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>MR.CylinderObject.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>set visual property mask Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a190fff7a4506b07099664113a007d539" kindref="member">MR.CylinderObject.setVisualizePropertyMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1475" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1475" bodyend="1480"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a0853716de00210bff1aa2e87a6a59869" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.toggleVisualizeProperty</definition>
+        <argsstring>(MR.Const_AnyVisualizeMaskEnum type, MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>MR.CylinderObject.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>MR.Const_AnyVisualizeMaskEnum</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>toggle visual property in all viewports specified by the mask Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a0853716de00210bff1aa2e87a6a59869" kindref="member">MR.CylinderObject.toggleVisualizeProperty</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1486" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1486" bodyend="1491"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a2c63d80708fc644089a4cf1490c9ffa9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setAllVisualizeProperties</definition>
+        <argsstring>(MR.Std.Const_Vector_MRViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>MR.CylinderObject.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Vector_MRViewportMask</type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+<para>set all visualize properties masks Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a2c63d80708fc644089a4cf1490c9ffa9" kindref="member">MR.CylinderObject.setAllVisualizeProperties</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1497" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1497" bodyend="1502"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a2e50825bb678ea524ed1aee670d582c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.copyAllSolidColors</definition>
+        <argsstring>(MR.Const_VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>MR.CylinderObject.copyAllSolidColors</qualifiedname>
+        <param>
+          <type>MR.Const_VisualObject</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>set all object solid colors (front/back/etc.) from other object for all viewports Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a2e50825bb678ea524ed1aee670d582c6" kindref="member">MR.CylinderObject.copyAllSolidColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1508" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1508" bodyend="1513"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ae9ea2d150c6a1fb2f4ee37031be2cce1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setGlobalClippedByPlane</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>MR.CylinderObject.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ae9ea2d150c6a1fb2f4ee37031be2cce1" kindref="member">MR.CylinderObject.setGlobalClippedByPlane</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1520" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1520" bodyend="1525"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a0366023bce8fa615abf4dade2423d145" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setFrontColor</definition>
+        <argsstring>(in MR.Color color, bool selected, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>MR.CylinderObject.setFrontColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in given viewport Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a0366023bce8fa615abf4dade2423d145" kindref="member">MR.CylinderObject.setFrontColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1532" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1532" bodyend="1540"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ab4a69f98f410ea535aeb46d127271f5b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setFrontColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val, bool? selected=null)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>MR.CylinderObject.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>selected</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets color of object when it is selected/not-selected (depending on argument) in all viewports Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ab4a69f98f410ea535aeb46d127271f5b" kindref="member">MR.CylinderObject.setFrontColorsForAllViewports</ref></computeroutput>. Parameter <computeroutput>selected</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1547" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1547" bodyend="1553"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a35191a1b0b69946fc0fe22950ea21fc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setBackColorsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRColor val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>MR.CylinderObject.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRColor</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a35191a1b0b69946fc0fe22950ea21fc9" kindref="member">MR.CylinderObject.setBackColorsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1559" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1559" bodyend="1564"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1aa055eb6e78ffbeb48f535a3534f59b65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setBackColor</definition>
+        <argsstring>(in MR.Color color, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>MR.CylinderObject.setBackColor</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Color" kindref="compound">MR.Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets backward color of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1aa055eb6e78ffbeb48f535a3534f59b65" kindref="member">MR.CylinderObject.setBackColor</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1571" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1571" bodyend="1579"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ae95d5a00aef03bb162c7b0c6bcb95a88" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setGlobalAlpha</definition>
+        <argsstring>(byte alpha, MR._InOpt_ViewportId viewportId=default)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>MR.CylinderObject.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>byte</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>viewportId</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in given viewport Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ae95d5a00aef03bb162c7b0c6bcb95a88" kindref="member">MR.CylinderObject.setGlobalAlpha</ref></computeroutput>. Parameter <computeroutput>viewportId</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1586" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1586" bodyend="1591"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a9df33785b4b6ff1138cfddf1a0ffb0c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_UnsignedChar val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>MR.CylinderObject.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_UnsignedChar</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets global transparency alpha of object in all viewports Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a9df33785b4b6ff1138cfddf1a0ffb0c9" kindref="member">MR.CylinderObject.setGlobalAlphaForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1597" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1597" bodyend="1602"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a7397a2a251e38ab52ba027bdfba2eb00" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setDirtyFlags</definition>
+        <argsstring>(uint mask, bool? invalidateCaches=null)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>MR.CylinderObject.setDirtyFlags</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>invalidateCaches</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets some dirty flags for the object (to force its visual update) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mask</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is a union of DirtyFlags flags </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>invalidateCaches</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>whether to automatically invalidate model caches (pass false here if you manually update the caches) Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a7397a2a251e38ab52ba027bdfba2eb00" kindref="member">MR.CylinderObject.setDirtyFlags</ref></computeroutput>. Parameter <computeroutput>invalidateCaches</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1611" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1611" bodyend="1617"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ada8050be5d141cee81fede1627d34678" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setPickable</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>MR.CylinderObject.setPickable</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object as can/cannot be picked (by mouse) in all of given viewports Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ada8050be5d141cee81fede1627d34678" kindref="member">MR.CylinderObject.setPickable</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1624" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1624" bodyend="1629"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1add8c8ceb839e74be775995008e5536bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setColoringType</definition>
+        <argsstring>(MR.ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>MR.CylinderObject.setColoringType</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a8f76229d82ae0b86e8eeb37ce45170d4" kindref="member">MR.ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+<para>sets coloring mode of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1add8c8ceb839e74be775995008e5536bc" kindref="member">MR.CylinderObject.setColoringType</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1635" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1635" bodyend="1640"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a2e129916d5f94c822e30738b216eff44" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setShininess</definition>
+        <argsstring>(float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>MR.CylinderObject.setShininess</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+<para>sets shininess visual value of the object with given argument Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a2e129916d5f94c822e30738b216eff44" kindref="member">MR.CylinderObject.setShininess</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1646" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1646" bodyend="1651"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a795fdf051e50cac561d8711563acf4cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setSpecularStrength</definition>
+        <argsstring>(float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>MR.CylinderObject.setSpecularStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of reflections Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a795fdf051e50cac561d8711563acf4cd" kindref="member">MR.CylinderObject.setSpecularStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1657" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1657" bodyend="1662"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a26ae7f51ef1b8195446a9e59872940ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setAmbientStrength</definition>
+        <argsstring>(float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>MR.CylinderObject.setAmbientStrength</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+<para>sets intensity of non-directional light Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a26ae7f51ef1b8195446a9e59872940ae" kindref="member">MR.CylinderObject.setAmbientStrength</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1668" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1668" bodyend="1673"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a10d48feb82860bb89878124aa3a10eec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>MR.CylinderObject.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+<para>set whether the scene-related properties should get their values from <ref refid="classMR_1_1SceneColors" kindref="compound">SceneColors</ref> and <ref refid="classMR_1_1SceneSettings" kindref="compound">SceneSettings</ref> instances rather than from the input data on deserialization Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a10d48feb82860bb89878124aa3a10eec" kindref="member">MR.CylinderObject.setUseDefaultScenePropertiesOnDeserialization</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1680" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1680" bodyend="1685"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a3222a01f63041624515fdf6b28002cf2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.resetFrontColor</definition>
+        <argsstring>()</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>MR.CylinderObject.resetFrontColor</qualifiedname>
+        <briefdescription>
+<para>reset basic object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a3222a01f63041624515fdf6b28002cf2" kindref="member">MR.CylinderObject.resetFrontColor</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1691" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1691" bodyend="1696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a5056f292cf044dcaf40ade9acb8a3105" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.resetColors</definition>
+        <argsstring>()</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>MR.CylinderObject.resetColors</qualifiedname>
+        <briefdescription>
+<para>reset all object colors to their default values from the current theme Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a5056f292cf044dcaf40ade9acb8a3105" kindref="member">MR.CylinderObject.resetColors</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1702" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1702" bodyend="1707"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a31e0972a85d42cd3743fd8e1f88608bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>setName</name>
+        <qualifiedname>MR.CylinderObject.setName</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a31e0972a85d42cd3743fd8e1f88608bf" kindref="member">MR.CylinderObject.setName</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1712" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1712" bodyend="1721"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a467b8a953fdabf1523bae8e09c84aa50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setXfsForAllViewports</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRAffineXf3f xf)</argsstring>
+        <name>setXfsForAllViewports</name>
+        <qualifiedname>MR.CylinderObject.setXfsForAllViewports</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRAffineXf3f</type>
+          <declname>xf</declname>
+        </param>
+        <briefdescription>
+<para>modifies xfs for all viewports at once Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a467b8a953fdabf1523bae8e09c84aa50" kindref="member">MR.CylinderObject.setXfsForAllViewports</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1727" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1727" bodyend="1732"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a5896ecc6143c300a1240491183fcb6ab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setWorldXf</definition>
+        <argsstring>(in MR.AffineXf3f xf, MR._InOpt_ViewportId id=default)</argsstring>
+        <name>setWorldXf</name>
+        <qualifiedname>MR.CylinderObject.setWorldXf</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._InOpt_ViewportId</type>
+          <declname>id</declname>
+          <defval>default</defval>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a5896ecc6143c300a1240491183fcb6ab" kindref="member">MR.CylinderObject.setWorldXf</ref></computeroutput>. Parameter <computeroutput>id</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1738" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1738" bodyend="1746"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a6562e7506c9f1f65d793c07d31d9958e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.applyScale</definition>
+        <argsstring>(float scaleFactor)</argsstring>
+        <name>applyScale</name>
+        <qualifiedname>MR.CylinderObject.applyScale</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>scaleFactor</declname>
+        </param>
+        <briefdescription>
+<para>scale object size (all point positions) Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a6562e7506c9f1f65d793c07d31d9958e" kindref="member">MR.CylinderObject.applyScale</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1752" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1752" bodyend="1757"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a354ef74224ce54d2ae3108e37ff1e3ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setGlobalVisibility</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setGlobalVisibility</name>
+        <qualifiedname>MR.CylinderObject.setGlobalVisibility</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>if true sets all predecessors visible, otherwise sets this object invisible Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a354ef74224ce54d2ae3108e37ff1e3ed" kindref="member">MR.CylinderObject.setGlobalVisibility</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.any()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1764" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1764" bodyend="1769"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1acced2c6399480df72f35e58ed323acba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setLocked</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>setLocked</name>
+        <qualifiedname>MR.CylinderObject.setLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1acced2c6399480df72f35e58ed323acba" kindref="member">MR.CylinderObject.setLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1774" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1774" bodyend="1779"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ac793ff4ac6ca84c4db4323d1e1b8fe9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setParentLocked</definition>
+        <argsstring>(bool lock_)</argsstring>
+        <name>setParentLocked</name>
+        <qualifiedname>MR.CylinderObject.setParentLocked</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>lock_</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ac793ff4ac6ca84c4db4323d1e1b8fe9d" kindref="member">MR.CylinderObject.setParentLocked</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1784" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1784" bodyend="1789"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a3ebc5c0a61cf28777eafee70b778e65d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CylinderObject.detachFromParent</definition>
+        <argsstring>()</argsstring>
+        <name>detachFromParent</name>
+        <qualifiedname>MR.CylinderObject.detachFromParent</qualifiedname>
+        <briefdescription>
+<para>removes this from its parent children list returns false if it was already orphan Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a3ebc5c0a61cf28777eafee70b778e65d" kindref="member">MR.CylinderObject.detachFromParent</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1796" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1796" bodyend="1801"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ac96920751fafc9247a21a9414932c2d2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CylinderObject.addChild</definition>
+        <argsstring>(MR._ByValueShared_Object child, bool? recognizedChild=null)</argsstring>
+        <name>addChild</name>
+        <qualifiedname>MR.CylinderObject.addChild</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>child</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>recognizedChild</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>adds given object at the end of children (recognized or not); returns false if it was already child of this, of if given pointer is empty; child object will always report this as parent after the call; </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>recognizedChild</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>if set to false then child object will be excluded from children() and it will be stored by weak_ptr Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ac96920751fafc9247a21a9414932c2d2" kindref="member">MR.CylinderObject.addChild</ref></computeroutput>. Parameter <computeroutput>recognizedChild</computeroutput> defaults to <computeroutput>true</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1811" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1811" bodyend="1817"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a98d58a9c8b36caed2e307acf96272c67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CylinderObject.addChildBefore</definition>
+        <argsstring>(MR._ByValueShared_Object newChild, MR.Const_Object existingChild)</argsstring>
+        <name>addChildBefore</name>
+        <qualifiedname>MR.CylinderObject.addChildBefore</qualifiedname>
+        <param>
+          <type>MR._ByValueShared_Object</type>
+          <declname>newChild</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>existingChild</declname>
+        </param>
+        <briefdescription>
+<para>adds given object in the recognized children before existingChild; if newChild was already among this children then moves it just before existingChild keeping the order of other children intact; returns false if newChild is nullptr, or existingChild is not a child of this Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a98d58a9c8b36caed2e307acf96272c67" kindref="member">MR.CylinderObject.addChildBefore</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1825" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1825" bodyend="1830"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a1c47a0922e8e2dda58083dd344eb5870" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.removeAllChildren</definition>
+        <argsstring>()</argsstring>
+        <name>removeAllChildren</name>
+        <qualifiedname>MR.CylinderObject.removeAllChildren</qualifiedname>
+        <briefdescription>
+<para>detaches all recognized children from this, keeping all unrecognized ones Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a1c47a0922e8e2dda58083dd344eb5870" kindref="member">MR.CylinderObject.removeAllChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1836" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1836" bodyend="1841"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a362adc85f246801378d434abfcdb8319" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.sortChildren</definition>
+        <argsstring>()</argsstring>
+        <name>sortChildren</name>
+        <qualifiedname>MR.CylinderObject.sortChildren</qualifiedname>
+        <briefdescription>
+<para>sort recognized children by name Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a362adc85f246801378d434abfcdb8319" kindref="member">MR.CylinderObject.sortChildren</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1847" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1847" bodyend="1852"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a849e8fe4e79fee4e964df894b5ddd87a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CylinderObject.select</definition>
+        <argsstring>(bool on)</argsstring>
+        <name>select</name>
+        <qualifiedname>MR.CylinderObject.select</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+<para>selects the object, returns true if value changed, otherwise returns false Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a849e8fe4e79fee4e964df894b5ddd87a" kindref="member">MR.CylinderObject.select</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1858" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1858" bodyend="1863"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ae0925f172be9597cf3386c99a680b19e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setAncillary</definition>
+        <argsstring>(bool ancillary)</argsstring>
+        <name>setAncillary</name>
+        <qualifiedname>MR.CylinderObject.setAncillary</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>ancillary</declname>
+        </param>
+        <briefdescription>
+<para>ancillary object is an object hidden (in scene menu) from a regular user such objects cannot be selected, and if it has been selected, it is unselected when turn ancillary Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ae0925f172be9597cf3386c99a680b19e" kindref="member">MR.CylinderObject.setAncillary</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1870" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1870" bodyend="1875"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1aafe4f5862914d81b1ab8e8a2cb88a1d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setVisible</definition>
+        <argsstring>(bool on, MR.Const_ViewportMask? viewportMask=null)</argsstring>
+        <name>setVisible</name>
+        <qualifiedname>MR.CylinderObject.setVisible</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type>MR.Const_ViewportMask?</type>
+          <declname>viewportMask</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>sets the object visible in the viewports specified by the mask (by default in all viewports) Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1aafe4f5862914d81b1ab8e8a2cb88a1d3" kindref="member">MR.CylinderObject.setVisible</ref></computeroutput>. Parameter <computeroutput>viewportMask</computeroutput> defaults to <computeroutput>ViewportMask.all()</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1882" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1882" bodyend="1887"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ade25f1f346769509797c336bdb3dda46" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.setVisibilityMask</definition>
+        <argsstring>(MR.Const_ViewportMask viewportMask)</argsstring>
+        <name>setVisibilityMask</name>
+        <qualifiedname>MR.CylinderObject.setVisibilityMask</qualifiedname>
+        <param>
+          <type>MR.Const_ViewportMask</type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+<para>specifies object visibility as bitmask of viewports Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ade25f1f346769509797c336bdb3dda46" kindref="member">MR.CylinderObject.setVisibilityMask</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1893" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1893" bodyend="1898"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1aa84160c73970a960e4fd3946f9718bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.CylinderObject.swap</definition>
+        <argsstring>(MR.Object other)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.CylinderObject.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>swaps this object with other note: do not swap object signals, so listeners will get notifications from swapped object requires implementation of <computeroutput>swapBase_</computeroutput> and <computeroutput>swapSignals_</computeroutput> (if type has signals) Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1aa84160c73970a960e4fd3946f9718bc5" kindref="member">MR.CylinderObject.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1906" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1906" bodyend="1911"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1a92c13b9362f058a3a0562aa6b1bdf698" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CylinderObject.addTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>addTag</name>
+        <qualifiedname>MR.CylinderObject.addTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>adds tag to the object&apos;s tag storage additionally calls ObjectTagManager.tagAddedSignal NOTE: tags starting with a dot are considered as service ones and might be hidden from UI Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1a92c13b9362f058a3a0562aa6b1bdf698" kindref="member">MR.CylinderObject.addTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1919" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1919" bodyend="1928"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1CylinderObject_1ae1eeee955153d33a7c00022076e16245" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.CylinderObject.removeTag</definition>
+        <argsstring>(string tag)</argsstring>
+        <name>removeTag</name>
+        <qualifiedname>MR.CylinderObject.removeTag</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>tag</declname>
+        </param>
+        <briefdescription>
+<para>removes tag from the object&apos;s tag storage additionally calls ObjectTagManager.tagRemovedSignal Generated from method <computeroutput><ref refid="classMR_1_1CylinderObject_1ae1eeee955153d33a7c00022076e16245" kindref="member">MR.CylinderObject.removeTag</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1935" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1935" bodyend="1944"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> to show Cylinder feature, position and radius are controlled by xf Generated from class <computeroutput><ref refid="classMR_1_1CylinderObject" kindref="compound">MR.CylinderObject</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.AddVisualProperties&lt;<ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref>, MR.DimensionsVisualizePropertyType.diameter, MR.DimensionsVisualizePropertyType.length&gt;</computeroutput> Indirect: (non-virtual) <computeroutput><ref refid="classMR_1_1ObjectChildrenHolder" kindref="compound">MR.ObjectChildrenHolder</ref></computeroutput> <computeroutput><ref refid="classMR_1_1Object" kindref="compound">MR.Object</ref></computeroutput> <computeroutput><ref refid="classMR_1_1VisualObject" kindref="compound">MR.VisualObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1FeatureObject" kindref="compound">MR.FeatureObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_CylinderObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CylinderObject</label>
+        <link refid="classMR_1_1CylinderObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_CylinderObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_CylinderObject</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.CylinderObject</label>
+        <link refid="classMR_1_1CylinderObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_CylinderObject &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" line="1151" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRCylinderObject.cs" bodystart="1152" bodyend="1945"/>
+    <listofallmembers>
+      <member refid="classMR_1_1CylinderObject_1ac96920751fafc9247a21a9414932c2d2" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1CylinderObject_1a98d58a9c8b36caed2e307acf96272c67" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1CylinderObject_1a92c13b9362f058a3a0562aa6b1bdf698" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1CylinderObject_1a6562e7506c9f1f65d793c07d31d9958e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1CylinderObject_1a0a0f3eac9796cbd18cfa5bfb3eb5d69c" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>assign</name></member>
+      <member refid="classMR_1_1CylinderObject_1a2e50825bb678ea524ed1aee670d582c6" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classMR_1_1CylinderObject_1a2d3b61df1e394d9d9da877f00390a4e3" prot="package" virt="non-virtual"><scope>MR::CylinderObject</scope><name>CylinderObject</name></member>
+      <member refid="classMR_1_1CylinderObject_1a7bc27ae99cd4a4d7cdc0a2bcaf12d7d6" prot="package" virt="non-virtual"><scope>MR::CylinderObject</scope><name>CylinderObject</name></member>
+      <member refid="classMR_1_1CylinderObject_1a8f6397bbc69852d4a6a0d3104c7ab6c7" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>CylinderObject</name></member>
+      <member refid="classMR_1_1CylinderObject_1afc069ea722422c8eb8e9c61c1c077f84" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>CylinderObject</name></member>
+      <member refid="classMR_1_1CylinderObject_1a62df68a6f3d5c2af35fac6417049f4bd" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>CylinderObject</name></member>
+      <member refid="classMR_1_1CylinderObject_1a3ebc5c0a61cf28777eafee70b778e65d" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>detachFromParent</name></member>
+      <member refid="classMR_1_1CylinderObject_1a2b8ff99859c020561122b268b0d0dc6e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject</name></member>
+      <member refid="classMR_1_1CylinderObject_1af420d5ada88b57cbf980c97e1b740758" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject?</name></member>
+      <member refid="classMR_1_1CylinderObject_1a47fa26959b1529d6ada9b325defa9116" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject?</name></member>
+      <member refid="classMR_1_1CylinderObject_1a026341d1817724e4e840518cf4e3cf01" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject?</name></member>
+      <member refid="classMR_1_1CylinderObject_1a3bfa43de7e1d9b0d4bc130d3a130d1f6" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator CylinderObject?</name></member>
+      <member refid="classMR_1_1CylinderObject_1a17e91a6f1efdba33a803b9524f6383d4" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.AddVisualProperties_MRFeatureObject_MRDimensionsVisualizePropertyTypeDiameter_MRDimensionsVisualizePropertyTypeLength</name></member>
+      <member refid="classMR_1_1CylinderObject_1ab6de2dba51cedff59eb6065ebbaa22ee" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.FeatureObject</name></member>
+      <member refid="classMR_1_1CylinderObject_1a80286dc51daf576346dc31538afda2c8" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.Object</name></member>
+      <member refid="classMR_1_1CylinderObject_1a5c3ac8cda1700d4e340aa2b674ef290a" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1CylinderObject_1abdfef4d8549f60e0481c7a3c1b48830d" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>operator MR.VisualObject</name></member>
+      <member refid="classMR_1_1CylinderObject_1a1c47a0922e8e2dda58083dd344eb5870" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1CylinderObject_1ae1eeee955153d33a7c00022076e16245" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1CylinderObject_1a5056f292cf044dcaf40ade9acb8a3105" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1CylinderObject_1a3222a01f63041624515fdf6b28002cf2" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1CylinderObject_1a5938f54cd23a9d8c2a27d9641ddd09fb" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>resetXf</name></member>
+      <member refid="classMR_1_1CylinderObject_1a849e8fe4e79fee4e964df894b5ddd87a" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>select</name></member>
+      <member refid="classMR_1_1CylinderObject_1a2c63d80708fc644089a4cf1490c9ffa9" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1CylinderObject_1a26ae7f51ef1b8195446a9e59872940ae" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1CylinderObject_1ae0925f172be9597cf3386c99a680b19e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setAncillary</name></member>
+      <member refid="classMR_1_1CylinderObject_1aa055eb6e78ffbeb48f535a3534f59b65" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1CylinderObject_1a35191a1b0b69946fc0fe22950ea21fc9" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classMR_1_1CylinderObject_1a085a310e272bf29fa765577142a1e8e4" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setCenter</name></member>
+      <member refid="classMR_1_1CylinderObject_1add8c8ceb839e74be775995008e5536bc" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setColoringType</name></member>
+      <member refid="classMR_1_1CylinderObject_1a394e74b018732ba55d46bc0522576efb" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setDecorationsColor</name></member>
+      <member refid="classMR_1_1CylinderObject_1a4c93eded11881944b65d97b30a916a0e" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classMR_1_1CylinderObject_1af4ec98491c931751de28d37e844c9bf4" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setDirection</name></member>
+      <member refid="classMR_1_1CylinderObject_1a7397a2a251e38ab52ba027bdfba2eb00" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1CylinderObject_1a0366023bce8fa615abf4dade2423d145" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1CylinderObject_1ab4a69f98f410ea535aeb46d127271f5b" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1CylinderObject_1ae95d5a00aef03bb162c7b0c6bcb95a88" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1CylinderObject_1a9df33785b4b6ff1138cfddf1a0ffb0c9" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1CylinderObject_1ae9ea2d150c6a1fb2f4ee37031be2cce1" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1CylinderObject_1a354ef74224ce54d2ae3108e37ff1e3ed" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="classMR_1_1CylinderObject_1a9f82e220c152f446d01458f1bc7a9477" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setLength</name></member>
+      <member refid="classMR_1_1CylinderObject_1aef7f68271b88b8d1a6c40d503e7e46b3" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1CylinderObject_1acced2c6399480df72f35e58ed323acba" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setLocked</name></member>
+      <member refid="classMR_1_1CylinderObject_1a6bb14aed08b85bc992cb51539ec77498" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1CylinderObject_1a31e0972a85d42cd3743fd8e1f88608bf" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1CylinderObject_1ac793ff4ac6ca84c4db4323d1e1b8fe9d" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1CylinderObject_1ada8050be5d141cee81fede1627d34678" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setPickable</name></member>
+      <member refid="classMR_1_1CylinderObject_1a05e1b211af2a9f549122c244a9b59c2a" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1CylinderObject_1a8229bfd12746eb7b8123d8bd5703ad0f" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setRadius</name></member>
+      <member refid="classMR_1_1CylinderObject_1a2e129916d5f94c822e30738b216eff44" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1CylinderObject_1a795fdf051e50cac561d8711563acf4cd" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classMR_1_1CylinderObject_1a05485cd527507a8c44516445bd3e2ff3" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="classMR_1_1CylinderObject_1a71051475ed3068e7d7dd76d8da577020" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="classMR_1_1CylinderObject_1a08bdf03b713eaf2022b9d189c0b125d1" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="classMR_1_1CylinderObject_1aadf15dff6acbea601b07d35fcc892f24" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="classMR_1_1CylinderObject_1a80c4ab07c1078aa178af05b8d6210825" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1CylinderObject_1a10d48feb82860bb89878124aa3a10eec" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1CylinderObject_1ade25f1f346769509797c336bdb3dda46" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1CylinderObject_1aafe4f5862914d81b1ab8e8a2cb88a1d3" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1CylinderObject_1a509a68374c90c5c555a625162f062041" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1CylinderObject_1a190fff7a4506b07099664113a007d539" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1CylinderObject_1a5896ecc6143c300a1240491183fcb6ab" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setWorldXf</name></member>
+      <member refid="classMR_1_1CylinderObject_1af72951f762f87e6c80a93c967ca31495" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1CylinderObject_1a467b8a953fdabf1523bae8e09c84aa50" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="classMR_1_1CylinderObject_1a362adc85f246801378d434abfcdb8319" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1CylinderObject_1aa84160c73970a960e4fd3946f9718bc5" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>swap</name></member>
+      <member refid="classMR_1_1CylinderObject_1a0853716de00210bff1aa2e87a6a59869" prot="public" virt="non-virtual"><scope>MR::CylinderObject</scope><name>toggleVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

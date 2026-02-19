@@ -1,0 +1,131 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DistanceMapSave" kind="class" language="C#" prot="public">
+    <compoundname>MR::DistanceMapSave</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1DistanceMapSave_1a6287d978737eddc435dc514259ab1ab0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.DistanceMapSave.toTiff</definition>
+        <argsstring>(MR.Const_DistanceMap dmap, string path, MR.Const_DistanceMapSaveSettings? settings=null)</argsstring>
+        <name>toTiff</name>
+        <qualifiedname>MR.DistanceMapSave.toTiff</qualifiedname>
+        <param>
+          <type>MR.Const_DistanceMap</type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceMapSaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>saves in .tiff format Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapSave_1a6287d978737eddc435dc514259ab1ab0" kindref="member">MR.DistanceMapSave.toTiff</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="51" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" bodystart="51" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMapSave_1af5f73d2b7ddf420b84901ac67016729f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.DistanceMapSave.toRAW</definition>
+        <argsstring>(MR.Const_DistanceMap dmap, string path, MR.Const_DistanceMapSaveSettings? settings=null)</argsstring>
+        <name>toRAW</name>
+        <qualifiedname>MR.DistanceMapSave.toRAW</qualifiedname>
+        <param>
+          <type>MR.Const_DistanceMap</type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceMapSaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Save <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> to binary file Format: 2 integer - DistanceMap.resX &amp; DistanceMap.resY [resX * resY] float - matrix of values Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapSave_1af5f73d2b7ddf420b84901ac67016729f" kindref="member">MR.DistanceMapSave.toRAW</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapSave.cs" line="13" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapSave.cs" bodystart="13" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMapSave_1a8d5a6944088df3384d615a495c64b210" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.DistanceMapSave.toMrDistanceMap</definition>
+        <argsstring>(MR.Const_DistanceMap dmap, string path, MR.Const_DistanceMapSaveSettings? settings=null)</argsstring>
+        <name>toMrDistanceMap</name>
+        <qualifiedname>MR.DistanceMapSave.toMrDistanceMap</qualifiedname>
+        <param>
+          <type>MR.Const_DistanceMap</type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceMapSaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapSave_1a8d5a6944088df3384d615a495c64b210" kindref="member">MR.DistanceMapSave.toMrDistanceMap</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapSave.cs" line="30" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapSave.cs" bodystart="30" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1DistanceMapSave_1ad2c46a3796f8ae801f2fdc9d7fbf41b3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>static unsafe void MR.DistanceMapSave.toAnySupportedFormat</definition>
+        <argsstring>(MR.Const_DistanceMap dmap, string path, MR.Const_DistanceMapSaveSettings? settings=null)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>MR.DistanceMapSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type>MR.Const_DistanceMap</type>
+          <declname>dmap</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>MR.Const_DistanceMapSaveSettings?</type>
+          <declname>settings</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1DistanceMapSave_1ad2c46a3796f8ae801f2fdc9d7fbf41b3" kindref="member">MR.DistanceMapSave.toAnySupportedFormat</ref></computeroutput>. Parameter <computeroutput>settings</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapSave.cs" line="47" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapSave.cs" bodystart="47" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRTiff.cs" line="44" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRDistanceMapSave.cs" bodystart="4" bodyend="59"/>
+    <listofallmembers>
+      <member refid="classMR_1_1DistanceMapSave_1ad2c46a3796f8ae801f2fdc9d7fbf41b3" prot="public" virt="non-virtual"><scope>MR::DistanceMapSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classMR_1_1DistanceMapSave_1a8d5a6944088df3384d615a495c64b210" prot="public" virt="non-virtual"><scope>MR::DistanceMapSave</scope><name>toMrDistanceMap</name></member>
+      <member refid="classMR_1_1DistanceMapSave_1af5f73d2b7ddf420b84901ac67016729f" prot="public" virt="non-virtual"><scope>MR::DistanceMapSave</scope><name>toRAW</name></member>
+      <member refid="classMR_1_1DistanceMapSave_1a6287d978737eddc435dc514259ab1ab0" prot="public" virt="non-virtual"><scope>MR::DistanceMapSave</scope><name>toTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

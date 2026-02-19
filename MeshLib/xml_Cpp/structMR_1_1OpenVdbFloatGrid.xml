@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OpenVdbFloatGrid" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OpenVdbFloatGrid</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">openvdb::FloatGrid</basecompoundref>
+    <includes refid="MRVDBFloatGrid_8h" local="no">MRVDBFloatGrid.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1OpenVdbFloatGrid_1a15a4c9bbd3ab390705854e71ea808687" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::OpenVdbFloatGrid::OpenVdbFloatGrid</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>OpenVdbFloatGrid</name>
+        <qualifiedname>MR::OpenVdbFloatGrid::OpenVdbFloatGrid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="23" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1OpenVdbFloatGrid_1a0773dceddd3bc098112050126cf99f3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref></type>
+        <definition>MR_BIND_IGNORE MR::OpenVdbFloatGrid::OpenVdbFloatGrid</definition>
+        <argsstring>(openvdb::FloatGrid &amp;&amp;in)</argsstring>
+        <name>OpenVdbFloatGrid</name>
+        <qualifiedname>MR::OpenVdbFloatGrid::OpenVdbFloatGrid</qualifiedname>
+        <param>
+          <type>openvdb::FloatGrid &amp;&amp;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="24" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1OpenVdbFloatGrid_1adb689224a478708a8f7813b0f13ba5a8" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::OpenVdbFloatGrid::heapBytes</definition>
+        <argsstring>() const</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::OpenVdbFloatGrid::heapBytes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="25" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>this class just hides very complex type of typedef openvdb::FloatGrid </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::OpenVdbFloatGrid</label>
+        <link refid="structMR_1_1OpenVdbFloatGrid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>openvdb::FloatGrid</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::OpenVdbFloatGrid</label>
+        <link refid="structMR_1_1OpenVdbFloatGrid"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>openvdb::FloatGrid</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBFloatGrid.h" bodystart="22" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structMR_1_1OpenVdbFloatGrid_1adb689224a478708a8f7813b0f13ba5a8" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>heapBytes</name></member>
+      <member refid="structMR_1_1OpenVdbFloatGrid_1a15a4c9bbd3ab390705854e71ea808687" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>OpenVdbFloatGrid</name></member>
+      <member refid="structMR_1_1OpenVdbFloatGrid_1a0773dceddd3bc098112050126cf99f3c" prot="public" virt="non-virtual"><scope>MR::OpenVdbFloatGrid</scope><name>OpenVdbFloatGrid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

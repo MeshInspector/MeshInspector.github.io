@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ColorMapAggregator_1_1PartialColorMap" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ColorMapAggregator::PartialColorMap</compoundname>
+    <includes refid="MRColorMapAggregator_8h" local="no">MRColorMapAggregator.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga755dfde7b86dcd1f2da851590cf7d308" kind="variable"><name>colorMap</name></member>
+      <member refid="group__GeneralGroup_1gac2d631a1f9c3262477e8f19fc818b39a" kind="variable"><name>elements</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>partial color map </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ColorMapAggregator&lt; Tag &gt;::PartialColorMap</label>
+        <link refid="structMR_1_1ColorMapAggregator_1_1PartialColorMap"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>colorMap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; Color, Id&lt; Tag &gt; &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRColorMapAggregator.h" bodystart="32" bodyend="35"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga755dfde7b86dcd1f2da851590cf7d308" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator::PartialColorMap</scope><name>colorMap</name></member>
+      <member refid="group__GeneralGroup_1gac2d631a1f9c3262477e8f19fc818b39a" prot="public" virt="non-virtual"><scope>MR::ColorMapAggregator::PartialColorMap</scope><name>elements</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

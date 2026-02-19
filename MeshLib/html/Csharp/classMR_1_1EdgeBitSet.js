@@ -2,6 +2,8 @@ var classMR_1_1EdgeBitSet =
 [
     [ "EdgeBitSet", "classMR_1_1EdgeBitSet.html#ac0f46fc942c3011a15c73f12cf354d9b", null ],
     [ "EdgeBitSet", "classMR_1_1EdgeBitSet.html#aab44e7a528990108c535edd8d2746fae", null ],
+    [ "EdgeBitSet", "classMR_1_1EdgeBitSet.html#ae14c61d8f26cb6bea2c08bd16358d5c0", null ],
+    [ "EdgeBitSet", "classMR_1_1EdgeBitSet.html#a16fc628fb8e2d4d442d5887cd238066c", null ],
     [ "EdgeBitSet", "classMR_1_1EdgeBitSet.html#add8067b8d1e076e32f6789c932d76241", null ],
     [ "EdgeBitSet", "classMR_1_1EdgeBitSet.html#a4b6427f8d905a473fef3decd9ad86dc4", null ],
     [ "EdgeBitSet", "classMR_1_1EdgeBitSet.html#ad1f73f88d4aacf19ed38df454f494326", null ],
@@ -15,6 +17,7 @@ var classMR_1_1EdgeBitSet =
     [ "flip", "classMR_1_1EdgeBitSet.html#ae6e86fc3193bb5daf6e73ffac23cfe60", null ],
     [ "flip", "classMR_1_1EdgeBitSet.html#a0f778575d34c114cb2997df87d88f3d0", null ],
     [ "flip", "classMR_1_1EdgeBitSet.html#a56afc5a0dd9cd899e72e5ad932c90e3f", null ],
+    [ "operator MR.BitSet", "classMR_1_1EdgeBitSet.html#a4cb8b738d228c8431da140e78b766103", null ],
     [ "popBack", "classMR_1_1EdgeBitSet.html#a46947cb77995098926ef7977cb7d5820", null ],
     [ "pushBack", "classMR_1_1EdgeBitSet.html#a7cc6e8fb8fd2e89d84666019abc6d366", null ],
     [ "reserve", "classMR_1_1EdgeBitSet.html#a2888bdd6c2577fe86d859fd6fa173e97", null ],

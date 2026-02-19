@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType" kind="concept">
+    <compoundname>MR::UI::detail::ValidDragSpeedForTargetType</compoundname>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename Speed</type>
+      </param>
+      <param>
+        <type>typename Target</type>
+      </param>
+    </templateparamlist>
+    <initializer>template&lt;typename Speed, typename Target&gt;
+concept <ref refid="conceptMR_1_1UI_1_1detail_1_1ValidDragSpeedForTargetType" kindref="compound">MR::UI::detail::ValidDragSpeedForTargetType</ref> = 
+        std::same_as&lt;Speed, typename VectorTraits&lt;Target&gt;::BaseType&gt; || std::same_as&lt;Speed, float&gt; ||
+        std::same_as&lt;Speed, Target&gt; || std::same_as&lt;Speed, typename VectorTraits&lt;Target&gt;::template ChangeBase&lt;float&gt;&gt;    </initializer>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Whether <computeroutput>Speed</computeroutput> is a valid drag speed type for <computeroutput>Target</computeroutput>. That is, either a single/vector of <computeroutput>float</computeroutput> or the same type as target (or its element if it&apos;s a vector). </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="369" column="5"/>
+  </compounddef>
+</doxygen>

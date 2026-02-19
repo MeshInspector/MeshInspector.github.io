@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kind="class" language="C#" prot="public">
+    <compoundname>MR::FillingSurface::CellularSurface::Params</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.FillingSurface.CellularSurface.Const_Params</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ae39d42ff5fd387210bf5bca280a37f6d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819" kindref="member">MR.FillingSurface.CellularSurface.Type</ref></type>
+        <definition>new unsafe ref MR.FillingSurface.CellularSurface.Type MR.FillingSurface.CellularSurface.Params.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.type</qualifiedname>
+        <briefdescription>
+<para>&lt; the type of the base element </para>
+        </briefdescription>
+        <detaileddescription>
+<para>the distance between consecutive cylinders in each direction </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="649" column="75" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="649" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ac2a52c8dca01d769907562b990c43faf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.FillingSurface.CellularSurface.Params.period</definition>
+        <argsstring></argsstring>
+        <name>period</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.period</qualifiedname>
+        <briefdescription>
+<para>the width of cylinders in each direction </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="652" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="652" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a6534c1a80d71e39cffdbb2d1ba47880f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.FillingSurface.CellularSurface.Params.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.width</qualifiedname>
+        <briefdescription>
+<para>the radius of uniting spheres </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="655" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a5b5e4263e846c0af64202c4300b248d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FillingSurface.CellularSurface.Params.r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="658" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="658" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a47d7f3cc5eac6582c007a6d1fcb5b39e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.FillingSurface.CellularSurface.Params.highRes</definition>
+        <argsstring></argsstring>
+        <name>highRes</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.highRes</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="662" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="662" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a5cbebedf31a05ed94863bfda99d4f3b8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.FillingSurface.CellularSurface.Params.preserveTips</definition>
+        <argsstring></argsstring>
+        <name>preserveTips</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.preserveTips</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="669" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="669" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a6c5cd8b281ec0cb8506c5eaf78febb28" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillingSurface.CellularSurface.Params.Params</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Params</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.Params</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="673" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="673" bodyend="677"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1af15e5a1fa340faface08c74dd4edddbe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillingSurface.CellularSurface.Params.Params</definition>
+        <argsstring>()</argsstring>
+        <name>Params</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.Params</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="683" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="683" bodyend="689"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1abcaa91c531d61245a6f63b050d87842c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillingSurface.CellularSurface.Params.Params</definition>
+        <argsstring>(MR.FillingSurface.CellularSurface.Type type, MR.Vector3f period, MR.Vector3f width, float r, bool highRes, bool preserveTips)</argsstring>
+        <name>Params</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.Params</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1af4d9ef943b24a672c1140baa211a3819" kindref="member">MR.FillingSurface.CellularSurface.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>period</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>highRes</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>preserveTips</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">MR.FillingSurface.CellularSurface.Params</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="694" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="694" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ab8587858bbfbeff2bcab8fef16a35904" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillingSurface.CellularSurface.Params.Params</definition>
+        <argsstring>(MR.FillingSurface.CellularSurface.Const_Params _other)</argsstring>
+        <name>Params</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.Params</qualifiedname>
+        <param>
+          <type>MR.FillingSurface.CellularSurface.Const_Params</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FillingSurface.CellularSurface.Params.Params</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="705" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="705" bodyend="712"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ac06b77056613085471bea7a676d8d440" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FillingSurface.CellularSurface.Params.Params</definition>
+        <argsstring>(Params _other)</argsstring>
+        <name>Params</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.Params</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">Params</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FillingSurface.CellularSurface.Params.Params</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="717" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="717" bodyend="717"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ae43c8f92d5c4deb8b5c41feb72d3df74" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">MR.FillingSurface.CellularSurface.Params</ref></type>
+        <definition>unsafe MR.FillingSurface.CellularSurface.Params MR.FillingSurface.CellularSurface.Params.assign</definition>
+        <argsstring>(MR.FillingSurface.CellularSurface.Const_Params _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FillingSurface.CellularSurface.Params.assign</qualifiedname>
+        <param>
+          <type>MR.FillingSurface.CellularSurface.Const_Params</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FillingSurface.CellularSurface.Params.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="722" column="69" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="722" bodyend="729"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params" kindref="compound">MR.FillingSurface.CellularSurface.Params</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Params</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FillingSurface.CellularSurface.Params</label>
+        <link refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Params &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Params</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FillingSurface.CellularSurface.Params</label>
+        <link refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Params &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="646" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="647" bodyend="730"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ae43c8f92d5c4deb8b5c41feb72d3df74" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>assign</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a47d7f3cc5eac6582c007a6d1fcb5b39e" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>highRes</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a6c5cd8b281ec0cb8506c5eaf78febb28" prot="package" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1af15e5a1fa340faface08c74dd4edddbe" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1abcaa91c531d61245a6f63b050d87842c" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ab8587858bbfbeff2bcab8fef16a35904" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ac06b77056613085471bea7a676d8d440" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>Params</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ac2a52c8dca01d769907562b990c43faf" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>period</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a5cbebedf31a05ed94863bfda99d4f3b8" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>preserveTips</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a5b5e4263e846c0af64202c4300b248d0" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>r</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1ae39d42ff5fd387210bf5bca280a37f6d" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>type</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1CellularSurface_1_1Params_1a6534c1a80d71e39cffdbb2d1ba47880f" prot="public" virt="non-virtual"><scope>MR::FillingSurface::CellularSurface::Params</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

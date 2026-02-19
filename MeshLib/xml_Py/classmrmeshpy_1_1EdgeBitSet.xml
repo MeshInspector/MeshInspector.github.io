@@ -1,0 +1,1318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1EdgeBitSet" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::EdgeBitSet</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a9786e09678ed92b8e120c5f11ba856a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBitSet.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14429" bodyend="14430"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a10934745da67352291e83b51a601532b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.beginId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274">beginId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[beginId(), endId()) is the range of all bits in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14432" bodyend="14435"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ab5da95a8a662cc3623b4f77a2a6063dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14438" bodyend="14439"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ab5da95a8a662cc3623b4f77a2a6063dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14442" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14442" bodyend="14443"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a82d7bfbd60cbbff4249bef7eaa9e9111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.__and__</definition>
+        <argsstring>(self, EdgeBitSet b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__and__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14444" bodyend="14445"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a0c24090a010b811f42dad4bd8350d2a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.__iand__</definition>
+        <argsstring>(self, EdgeBitSet b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__iand__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14446" bodyend="14447"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1aca47e274fa08bb2e989f9f2feaa8fc8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBitSet.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14449" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14449" bodyend="14450"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1aba567d1352ee5ccb52b5b25c117a4244" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBitSet.__init__</definition>
+        <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates bitset of given size filled with given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14452" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14452" bodyend="14455"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14457" bodyend="14460"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14462" bodyend="14465"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a2c355243b97269dd261aa16c5f9a94bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBitSet.__init__</definition>
+        <argsstring>(self, EdgeBitSet arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14467" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14467" bodyend="14470"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a7ff6e6cc406c15a9421c702c5fd9adfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.__ior__</definition>
+        <argsstring>(self, EdgeBitSet b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__ior__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14471" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14471" bodyend="14472"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a8a138267a1211bd682d973397d3f39df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.__isub__</definition>
+        <argsstring>(self, EdgeBitSet b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__isub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14473" bodyend="14474"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a2aa2f62dcdba0abd2013ceeed6f6d431" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref>]</type>
+        <definition> typing.Iterator[EdgeId] mrmeshpy.EdgeBitSet.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__iter__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14475" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14475" bodyend="14476"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a8c112cf26e723b8ec96ed7f0cc8f9d64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.__ixor__</definition>
+        <argsstring>(self, EdgeBitSet b)</argsstring>
+        <name>__ixor__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__ixor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14477" bodyend="14478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1af3e5e329233fdaadd2d360b0838e831e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.__or__</definition>
+        <argsstring>(self, EdgeBitSet b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__or__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14479" bodyend="14480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a69dea4dff0daf7a1aecf49d080999389" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.EdgeBitSet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14481" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14481" bodyend="14482"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a3bd2d1a918179c2e008ea27c3191f2c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.__sub__</definition>
+        <argsstring>(self, EdgeBitSet b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__sub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14483" bodyend="14484"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a51581f90cba5a02e66043666e96183ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.__xor__</definition>
+        <argsstring>(self, EdgeBitSet b)</argsstring>
+        <name>__xor__</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.__xor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14485" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14485" bodyend="14486"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ad3b5039089dbdf9883c257ed93fcbddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBitSet.autoResizeSet</definition>
+        <argsstring>(self, EdgeId pos, int len, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14488" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14488" bodyend="14489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ae1946bc0785b9842a1c8da5f434c51a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.EdgeBitSet.autoResizeSet</definition>
+        <argsstring>(self, EdgeId pos, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>len</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14491" bodyend="14492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a48b6ef0ede7cb9a3cf9a56a08ccba297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeBitSet.autoResizeTestSet</definition>
+        <argsstring>(self, EdgeId pos, bool val=True)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.autoResizeTestSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as \\ref autoResizeSet and returns previous value of pos-bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14493" bodyend="14494"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1aba5012d0d4905dce7657c506794ec085" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.backId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d">backId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14495" bodyend="14498"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a89290f4e7ba3032f9998defa722a104a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.endId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5">endId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14499" bodyend="14500"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a7a8db696476d9c9107e3e60c065daf13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.find_first</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.find_first</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006">find_first</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14501" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14501" bodyend="14502"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a95d582222ce006e74451031fb5c33747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.find_first_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first_not_set</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.find_first_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a15e32e17fea4f662f8a0f55fd1bcd0b6">find_first_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14503" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14503" bodyend="14504"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1afb8f921efb75226404e1b892fc0e43c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.find_last</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.find_last</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14505" bodyend="14506"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a823b660dad6a9a86be0748a4fb16b8c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.find_last_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last_not_set</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.find_last_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa50056294318a1e11be2d832bdbd6329">find_last_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14507" bodyend="14508"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1afde3b1c767b3b0e1479d6aaecd46f476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.find_next</definition>
+        <argsstring>(self, EdgeId pos)</argsstring>
+        <name>find_next</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.find_next</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f">find_next</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14509" bodyend="14510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ac461c21b7ff8ca492e862444617d86a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.find_next_not_set</definition>
+        <argsstring>(self, EdgeId pos)</argsstring>
+        <name>find_next_not_set</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.find_next_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aedde9c4ef90198acb1ddb7874ed1d491">find_next_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14511" bodyend="14512"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a7a1ae1d0f057927147f622544bb7a681" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.flip</definition>
+        <argsstring>(self, EdgeId n, int len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14514" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14514" bodyend="14515"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a6d1b5da4665f7b76feaa22781c78b4f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.flip</definition>
+        <argsstring>(self, EdgeId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14517" bodyend="14518"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a447f7df17b352098b643d3b106a137a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14520" bodyend="14521"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1aa5f88268a9c5ccb918ea5a1fed62e084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.getMapping</definition>
+        <argsstring>(self, EdgeMap map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14523" bodyend="14524"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a7a43427d1a3c8b9eaf2438c556daa0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.getMapping</definition>
+        <argsstring>(self, EdgeBMap map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBMap" kindref="compound">EdgeBMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14526" bodyend="14527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a98ba5256522047d802f2a29c537a7767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14529" bodyend="14530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a368b78d4ab5f3eb24a65b6c09ba23523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.getMapping</definition>
+        <argsstring>(self, EdgeMap map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeMap" kindref="compound">EdgeMap</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14532" bodyend="14533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ac1b902bf5bc0ef41d47916311753523b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__EdgeTag__Id__EdgeTag" kindref="compound">phmap_flat_hash_map_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14535" bodyend="14536"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a5ad873893e7aea0472b72b6b2b767471" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeBitSet.intersects</definition>
+        <argsstring>(self, EdgeBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.intersects</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a">intersects</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14537" bodyend="14540"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1af18d089eec2ad1d214fba1b526c34ee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeBitSet.is_subset_of</definition>
+        <argsstring>(self, EdgeBitSet a)</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.is_subset_of</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14541" bodyend="14544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a3c4c501536e64739ba645827c6f5d604" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.EdgeBitSet.nthSetBit</definition>
+        <argsstring>(self, int n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.nthSetBit</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14545" bodyend="14548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a642defcef2b260f6641cadacbbe7c6dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.reset</definition>
+        <argsstring>(self, EdgeId n, int len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14550" bodyend="14551"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1abdccbad88a71a245cf7ac6bea4804f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.reset</definition>
+        <argsstring>(self, EdgeId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14553" bodyend="14554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a0c9e0e9fd0670f6c8758f881d94ebefb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14556" bodyend="14557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a3cefec5d8b44b1d692ed2bbdc2ad642f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.set</definition>
+        <argsstring>(self, EdgeId n, int len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14559" bodyend="14560"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1aa76d89e7e28b7478b2a7e2da2724567f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.set</definition>
+        <argsstring>(self, EdgeId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14562" bodyend="14563"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a60f14c526176582a656c39b69efa5dfe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.set</definition>
+        <argsstring>(self, EdgeId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14565" bodyend="14566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ab9420efe1dab09afb7a7ad4a6c14200b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.set</definition>
+        <argsstring>(self)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14568" bodyend="14569"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ab8a205697e01da822b6e5b80086f7563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+        <definition> EdgeBitSet mrmeshpy.EdgeBitSet.subtract</definition>
+        <argsstring>(self, EdgeBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.subtract</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d">subtract</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeBitSet" kindref="compound">EdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14570" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14570" bodyend="14573"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1a7c1d39e03602d62064642185d0f6c5cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeBitSet.test</definition>
+        <argsstring>(self, EdgeId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.test</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27">test</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all bits after size() we silently consider as not-set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14574" bodyend="14575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1EdgeBitSet_1ac381b5bbf892706c15f63ffa84c4a013" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.EdgeBitSet.test_set</definition>
+        <argsstring>(self, EdgeId n, bool val=True)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>mrmeshpy.EdgeBitSet.test_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3">test_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14576" bodyend="14577"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::EdgeBitSet
+
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.EdgeBitSet</label>
+        <link refid="classmrmeshpy_1_1EdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.EdgeBitSet</label>
+        <link refid="classmrmeshpy_1_1EdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bits_per_block</edgelabel>
+          <edgelabel>npos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14420" bodyend="14577"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a82d7bfbd60cbbff4249bef7eaa9e9111" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a0c24090a010b811f42dad4bd8350d2a9" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a9786e09678ed92b8e120c5f11ba856a5" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1aca47e274fa08bb2e989f9f2feaa8fc8a" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1aba567d1352ee5ccb52b5b25c117a4244" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ae94fad4319808db0e78a07d60ec7d370" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a2c355243b97269dd261aa16c5f9a94bd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a7ff6e6cc406c15a9421c702c5fd9adfe" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a8a138267a1211bd682d973397d3f39df" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a2aa2f62dcdba0abd2013ceeed6f6d431" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a8c112cf26e723b8ec96ed7f0cc8f9d64" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__ixor__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1af3e5e329233fdaadd2d360b0838e831e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a69dea4dff0daf7a1aecf49d080999389" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a3bd2d1a918179c2e008ea27c3191f2c8" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a51581f90cba5a02e66043666e96183ed" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ad3b5039089dbdf9883c257ed93fcbddd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ae1946bc0785b9842a1c8da5f434c51a3" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a48b6ef0ede7cb9a3cf9a56a08ccba297" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1aba5012d0d4905dce7657c506794ec085" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a10934745da67352291e83b51a601532b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a89290f4e7ba3032f9998defa722a104a" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a7a8db696476d9c9107e3e60c065daf13" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>find_first</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a95d582222ce006e74451031fb5c33747" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>find_first_not_set</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1afb8f921efb75226404e1b892fc0e43c0" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>find_last</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a823b660dad6a9a86be0748a4fb16b8c5" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>find_last_not_set</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1afde3b1c767b3b0e1479d6aaecd46f476" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>find_next</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ac461c21b7ff8ca492e862444617d86a1" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>find_next_not_set</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a7a1ae1d0f057927147f622544bb7a681" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a6d1b5da4665f7b76feaa22781c78b4f0" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a447f7df17b352098b643d3b106a137a0" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1aa5f88268a9c5ccb918ea5a1fed62e084" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a7a43427d1a3c8b9eaf2438c556daa0a0" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a98ba5256522047d802f2a29c537a7767" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a368b78d4ab5f3eb24a65b6c09ba23523" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ac1b902bf5bc0ef41d47916311753523b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a5ad873893e7aea0472b72b6b2b767471" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1af18d089eec2ad1d214fba1b526c34ee0" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a3c4c501536e64739ba645827c6f5d604" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ab5da95a8a662cc3623b4f77a2a6063dd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ab5da95a8a662cc3623b4f77a2a6063dd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a642defcef2b260f6641cadacbbe7c6dd" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1abdccbad88a71a245cf7ac6bea4804f8e" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a0c9e0e9fd0670f6c8758f881d94ebefb" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a3cefec5d8b44b1d692ed2bbdc2ad642f" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1aa76d89e7e28b7478b2a7e2da2724567f" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a60f14c526176582a656c39b69efa5dfe" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ab9420efe1dab09afb7a7ad4a6c14200b" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ab8a205697e01da822b6e5b80086f7563" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>subtract</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1a7c1d39e03602d62064642185d0f6c5cf" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>test</name></member>
+      <member refid="classmrmeshpy_1_1EdgeBitSet_1ac381b5bbf892706c15f63ffa84c4a013" prot="public" virt="non-virtual"><scope>mrmeshpy::EdgeBitSet</scope><name>test_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

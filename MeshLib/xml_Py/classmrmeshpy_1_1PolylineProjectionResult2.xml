@@ -1,0 +1,401 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PolylineProjectionResult2" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PolylineProjectionResult2</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineProjectionResult2_1a713752cff434da61a9c290ae36ada224" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineProjectionResult2::_offsetof_distSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distSq</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2._offsetof_distSq</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46590" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineProjectionResult2_1a76d400d4cbb92e0efc7bb47328f4aacd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineProjectionResult2::_offsetof_line</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_line</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2._offsetof_line</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46591" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineProjectionResult2_1add51d34e8feb343f9b25260323fec2fd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineProjectionResult2::_offsetof_point</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_point</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2._offsetof_point</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46592" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1a9a724811a0b2917d85094f0c2ef4003d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineProjectionResult2.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46595" bodyend="46596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1a95f57cf47cee5a4779f6bc29288af337" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineProjectionResult2" kindref="compound">PolylineProjectionResult2</ref></type>
+        <definition> PolylineProjectionResult2 mrmeshpy.PolylineProjectionResult2.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46599" bodyend="46600"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1a95f57cf47cee5a4779f6bc29288af337" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineProjectionResult2" kindref="compound">PolylineProjectionResult2</ref></type>
+        <definition> PolylineProjectionResult2 mrmeshpy.PolylineProjectionResult2.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46603" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46603" bodyend="46604"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1a442cb44dce55cb3d831e5464c6d95840" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineProjectionResult2.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46605" bodyend="46606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1a631690e11abdf46801c5d09b738b05bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineProjectionResult2.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46608" bodyend="46609"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1a6a5c1b28bf808d4fb46db33444302fc8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineProjectionResult2.__init__</definition>
+        <argsstring>(self, PolylineProjectionResult2 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineProjectionResult2" kindref="compound">PolylineProjectionResult2</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46611" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46611" bodyend="46614"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1aea22b5f8627b8a499f40c9f215af20c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineProjectionResult2.__init__</definition>
+        <argsstring>(self, UndirectedEdgeId line, Vector2f point, float distSq)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46616" bodyend="46619"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1aec635bab59d9c6f8d4bcf2441e2843dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineProjectionResult2.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>check for validity, otherwise the projection was not found
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46620" bodyend="46623"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1ae611cade8375679848c3fa7bc53e3786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PolylineProjectionResult2.distSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>distSq</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.distSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>squared distance from pt to proj
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46625" bodyend="46628"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1a70c22c6b8a4ea4bc2785a83d4c85ad57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineProjectionResult2.distSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>distSq</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.distSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46630" bodyend="46631"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1a172daaedd29d2ecf5fe4244a11f79842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.PolylineProjectionResult2.line</definition>
+        <argsstring>(self)</argsstring>
+        <name>line</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.line</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>polyline&apos;s edge containing the closest point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46633" bodyend="46636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1afa55c40ab542488b5222263f8d20a8a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineProjectionResult2.line</definition>
+        <argsstring>(self, UndirectedEdgeId arg1)</argsstring>
+        <name>line</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.line</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46638" bodyend="46639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1aa75915bb28bcc032bfa062c279ecebea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.PolylineProjectionResult2.point</definition>
+        <argsstring>(self)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>closest point on polyline, transformed by xf if it is given
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46641" bodyend="46644"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineProjectionResult2_1aefcb6322109dcf29a0e05cf36e65511c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineProjectionResult2.point</definition>
+        <argsstring>(self, Vector2f arg1)</argsstring>
+        <name>point</name>
+        <qualifiedname>mrmeshpy.PolylineProjectionResult2.point</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46646" bodyend="46647"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PolylineProjectionResult2
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PolylineProjectionResult2</label>
+        <link refid="classmrmeshpy_1_1PolylineProjectionResult2"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_distSq</edgelabel>
+          <edgelabel>_offsetof_line</edgelabel>
+          <edgelabel>_offsetof_point</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46586" bodyend="46647"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a442cb44dce55cb3d831e5464c6d95840" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a9a724811a0b2917d85094f0c2ef4003d" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a631690e11abdf46801c5d09b738b05bd" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a6a5c1b28bf808d4fb46db33444302fc8" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1aea22b5f8627b8a499f40c9f215af20c7" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a713752cff434da61a9c290ae36ada224" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>_offsetof_distSq</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a76d400d4cbb92e0efc7bb47328f4aacd" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>_offsetof_line</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1add51d34e8feb343f9b25260323fec2fd" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>_offsetof_point</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1ae611cade8375679848c3fa7bc53e3786" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a70c22c6b8a4ea4bc2785a83d4c85ad57" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>distSq</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a172daaedd29d2ecf5fe4244a11f79842" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>line</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1afa55c40ab542488b5222263f8d20a8a6" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>line</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a95f57cf47cee5a4779f6bc29288af337" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1a95f57cf47cee5a4779f6bc29288af337" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1aa75915bb28bcc032bfa062c279ecebea" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1aefcb6322109dcf29a0e05cf36e65511c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>point</name></member>
+      <member refid="classmrmeshpy_1_1PolylineProjectionResult2_1aec635bab59d9c6f8d4bcf2441e2843dc" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineProjectionResult2</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

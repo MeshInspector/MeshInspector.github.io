@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPolyline2Intersect_8h" kind="file" language="C++">
+    <compoundname>MRPolyline2Intersect.h</compoundname>
+    <includes refid="MRId_8h" local="yes">MRId.h</includes>
+    <includes refid="MREdgePoint_8h" local="yes">MREdgePoint.h</includes>
+    <includes refid="MREnums_8h" local="yes">MREnums.h</includes>
+    <includes local="no">cfloat</includes>
+    <includes local="no">optional</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>MREdgePoint.h</label>
+        <link refid="MREdgePoint_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MREnums.h</label>
+        <link refid="MREnums_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="1">
+        <label>MRPolyline2Intersect.h</label>
+        <link refid="MRPolyline2Intersect_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRSegmPoint.h</label>
+        <link refid="MRSegmPoint_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="5">
+        <label>cassert</label>
+      </node>
+      <node id="13">
+        <label>cfloat</label>
+      </node>
+      <node id="6">
+        <label>cstddef</label>
+      </node>
+      <node id="11">
+        <label>limits</label>
+      </node>
+      <node id="14">
+        <label>optional</label>
+      </node>
+      <node id="7">
+        <label>type_traits</label>
+      </node>
+      <node id="8">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1PolylineIntersectionResult2" prot="public">MR::PolylineIntersectionResult2</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MREdgePoint_8h" kindref="compound">MREdgePoint.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MREnums_8h" kindref="compound">MREnums.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cfloat&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;optional&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"></codeline>
+<codeline lineno="19" refid="group__AABBTreeGroup_1ga2aba3040bbdbbafb7d8e38803b955524" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga2aba3040bbdbbafb7d8e38803b955524" kindref="member">isPointInsidePolyline</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector2f&amp;<sp/>point<sp/>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="structMR_1_1PolylineIntersectionResult2" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">[[nodiscard]]<sp/><ref refid="structMR_1_1PolylineIntersectionResult2" kindref="compound">PolylineIntersectionResult2</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26" refid="structMR_1_1PolylineIntersectionResult2_1a50c61aceb6ee726418c11dd484bbd071" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/><ref refid="structMR_1_1PolylineIntersectionResult2_1a50c61aceb6ee726418c11dd484bbd071" kindref="member">edgePoint</ref>;</highlight></codeline>
+<codeline lineno="28" refid="structMR_1_1PolylineIntersectionResult2_1a982fc29b0df692b0fecec815554eb78b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>distanceAlongLine<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="namespaceMR_1aced4d907b5fe7e8492db1e0168969ef0" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;PolylineIntersectionResult2&gt;<sp/><ref refid="namespaceMR_1aced4d907b5fe7e8492db1e0168969ef0" kindref="member">rayPolylineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line2f&amp;<sp/>line,</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayStart<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayEnd<sp/>=<sp/>FLT_MAX,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IntersectionPrecomputes2" kindref="compound">IntersectionPrecomputes2&lt;float&gt;</ref>*<sp/>prec<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>closestIntersect<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="namespaceMR_1a6676a2ad828681c05e6c1fccdf52553e" refkind="member"><highlight class="normal">[[nodiscard]]<sp/>MRMESH_API<sp/>std::optional&lt;PolylineIntersectionResult2&gt;<sp/><ref refid="namespaceMR_1aced4d907b5fe7e8492db1e0168969ef0" kindref="member">rayPolylineIntersect</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line2d&amp;<sp/>line,</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rayStart<sp/>=<sp/>0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rayEnd<sp/>=<sp/>DBL_MAX,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IntersectionPrecomputes2" kindref="compound">IntersectionPrecomputes2&lt;double&gt;</ref>*<sp/>prec<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>closestIntersect<sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="51" refid="namespaceMR_1a80d1c820a9a9983c511c6785b2c8ed94" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1a80d1c820a9a9983c511c6785b2c8ed94" kindref="member">PolylineIntersectionCallback2</ref><sp/>=<sp/>std::function&lt;<ref refid="group__GeneralGroup_1gae9fc4543eb3302ae33b7843707485149" kindref="member">Processing</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1EdgePoint" kindref="compound">EdgePoint</ref><sp/>&amp;<sp/>polylinePoint,<sp/>T<sp/>rayPos,<sp/>T<sp/>&amp;<sp/>rayStart,<sp/>T<sp/>&amp;<sp/>rayEnd)&gt;;</highlight></codeline>
+<codeline lineno="52" refid="namespaceMR_1ae0b1767f78412a4100c7baa4ae2cb2de" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1ae0b1767f78412a4100c7baa4ae2cb2de" kindref="member">PolylineIntersectionCallback2f</ref><sp/>=<sp/><ref refid="namespaceMR_1a80d1c820a9a9983c511c6785b2c8ed94" kindref="member">PolylineIntersectionCallback2&lt;float&gt;</ref>;</highlight></codeline>
+<codeline lineno="53" refid="namespaceMR_1aba7cace2c59d8ea1874ea0223d3c3d42" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1aba7cace2c59d8ea1874ea0223d3c3d42" kindref="member">PolylineIntersectionCallback2d</ref><sp/>=<sp/><ref refid="namespaceMR_1a80d1c820a9a9983c511c6785b2c8ed94" kindref="member">PolylineIntersectionCallback2&lt;double&gt;</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="namespaceMR_1abc2868e5402457432689a152d4f07aab" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1abc2868e5402457432689a152d4f07aab" kindref="member">rayPolylineIntersectAll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line2f&amp;<sp/>line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1ae0b1767f78412a4100c7baa4ae2cb2de" kindref="member">PolylineIntersectionCallback2f</ref>&amp;<sp/>callback,</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayStart<sp/>=<sp/>0.0f,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>rayEnd<sp/>=<sp/>FLT_MAX,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IntersectionPrecomputes2" kindref="compound">IntersectionPrecomputes2&lt;float&gt;</ref>*<sp/>prec<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="namespaceMR_1abf79f047867338a89736183056994f69" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1abc2868e5402457432689a152d4f07aab" kindref="member">rayPolylineIntersectAll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Polyline2&amp;<sp/>polyline,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Line2d&amp;<sp/>line,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1aba7cace2c59d8ea1874ea0223d3c3d42" kindref="member">PolylineIntersectionCallback2d</ref>&amp;<sp/>callback,</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rayStart<sp/>=<sp/>0.0,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>rayEnd<sp/>=<sp/>DBL_MAX,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IntersectionPrecomputes2" kindref="compound">IntersectionPrecomputes2&lt;double&gt;</ref>*<sp/>prec<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolyline2Intersect.h"/>
+  </compounddef>
+</doxygen>

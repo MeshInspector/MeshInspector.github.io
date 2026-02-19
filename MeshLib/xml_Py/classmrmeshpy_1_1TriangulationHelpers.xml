@@ -1,0 +1,331 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TriangulationHelpers" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TriangulationHelpers</compoundname>
+    <innerclass refid="classmrmeshpy_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" prot="public">mrmeshpy::TriangulationHelpers::FanOptimizerQueueElement</innerclass>
+    <innerclass refid="classmrmeshpy_1_1TriangulationHelpers_1_1Settings" prot="public">mrmeshpy::TriangulationHelpers::Settings</innerclass>
+    <innerclass refid="classmrmeshpy_1_1TriangulationHelpers_1_1TriangulatedFanData" prot="public">mrmeshpy::TriangulationHelpers::TriangulatedFanData</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1a2176cce296a48397337e66cb5552159d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.buildLocalTriangulation</definition>
+        <argsstring>(PointCloud cloud, VertId v, TriangulationHelpers.Settings settings, TriangulationHelpers.TriangulatedFanData fanData)</argsstring>
+        <name>buildLocalTriangulation</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.buildLocalTriangulation</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1Settings" kindref="compound">TriangulationHelpers.Settings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1TriangulatedFanData" kindref="compound">TriangulationHelpers.TriangulatedFanData</ref></type>
+          <declname>fanData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constructs local triangulation around given point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58116" bodyend="58119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1a4b6b9342669f423513de6b0af026e323" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__SomeLocalTriangulations" kindref="compound">std_vector_SomeLocalTriangulations</ref></type>
+        <definition> std_vector_SomeLocalTriangulations mrmeshpy.TriangulationHelpers.buildLocalTriangulations</definition>
+        <argsstring>(PointCloud cloud, TriangulationHelpers.Settings settings, func_bool_from_float progress=&apos;{}&apos;)</argsstring>
+        <name>buildLocalTriangulations</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.buildLocalTriangulations</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1Settings" kindref="compound">TriangulationHelpers.Settings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>computes all local triangulations of all points in the cloud, and returns them distributed among
+a set of SomeLocalTriangulations objects
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58121" bodyend="58125"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1acbf1fc711d0b0076106198b6cf5c2480" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AllLocalTriangulations" kindref="compound">AllLocalTriangulations</ref></type>
+        <definition> AllLocalTriangulations mrmeshpy.TriangulationHelpers.buildUnitedLocalTriangulations</definition>
+        <argsstring>(PointCloud cloud, TriangulationHelpers.Settings settings, func_bool_from_float progress=&apos;{}&apos;)</argsstring>
+        <name>buildUnitedLocalTriangulations</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.buildUnitedLocalTriangulations</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1Settings" kindref="compound">TriangulationHelpers.Settings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>/ computes local triangulations of all points in the cloud united in one struct
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58127" bodyend="58130"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1af1ee9fb56b88b23f144eb4ad92ce7bd6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.filterNeighbors</definition>
+        <argsstring>(VertCoords orientedNormals, VertBitSet untrustedNormals, VertId v, std_vector_Id_VertTag neighbors)</argsstring>
+        <name>filterNeighbors</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.filterNeighbors</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>orientedNormals</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>untrustedNormals</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VertTag" kindref="compound">std_vector_Id_VertTag</ref></type>
+          <declname>neighbors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief Filter neighbors with crossing normals
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58132" bodyend="58135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1a73b91522a9bed17ce3bcab4a39a4cd68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.TriangulationHelpers.findBoundaryPoints</definition>
+        <argsstring>(PointCloud pointCloud, TriangulationHelpers.Settings settings, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>findBoundaryPoints</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.findBoundaryPoints</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1Settings" kindref="compound">TriangulationHelpers.Settings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns bit set of points that are considered as boundary by calling isBoundaryPoint in each
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58137" bodyend="58140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1a6bd13919555fffa574670eac325fded6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TriangulationHelpers.findNeighborsInBall</definition>
+        <argsstring>(PointCloud pointCloud, VertId v, float radius, std_vector_Id_VertTag neighbors)</argsstring>
+        <name>findNeighborsInBall</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.findNeighborsInBall</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VertTag" kindref="compound">std_vector_Id_VertTag</ref></type>
+          <declname>neighbors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief Finds all neighbors of v in given radius (v excluded)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58142" bodyend="58145"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1ad318a645054630e87756be121fe178a1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TriangulationHelpers.findNumNeighbors</definition>
+        <argsstring>(PointCloud pointCloud, VertId v, int numNeis, std_vector_Id_VertTag neighbors, FewSmallest_PointsProjectionResult tmp, float upDistLimitSq=3.4028234663852886e+38)</argsstring>
+        <name>findNumNeighbors</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.findNumNeighbors</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numNeis</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VertTag" kindref="compound">std_vector_Id_VertTag</ref></type>
+          <declname>neighbors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FewSmallest__PointsProjectionResult" kindref="compound">FewSmallest_PointsProjectionResult</ref></type>
+          <declname>tmp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>upDistLimitSq</declname>
+          <defval>3.4028234663852886e+38</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief Finds at most given number of neighbors of v (v excluded)
+ \\param tmp temporary storage to avoid its allocation
+ \\param upDistLimitSq upper limit on the distance in question, points with larger distance than it will not be returned
+ \\return maxDistSq to the furthest returned neighbor (or 0 if no neighbours are returned)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58147" bodyend="58153"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1adb66951711f796044d92370a48bc0d02" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.TriangulationHelpers.isBoundaryPoint</definition>
+        <argsstring>(PointCloud cloud, VertId v, TriangulationHelpers.Settings settings, TriangulationHelpers.TriangulatedFanData fanData)</argsstring>
+        <name>isBoundaryPoint</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.isBoundaryPoint</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1Settings" kindref="compound">TriangulationHelpers.Settings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriangulationHelpers_1_1TriangulatedFanData" kindref="compound">TriangulationHelpers.TriangulatedFanData</ref></type>
+          <declname>fanData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief Checks if given vertex is on boundary of the point cloud, by constructing local triangulation around it
+ \\param cloud input point cloud
+ \\param v vertex id to check
+ \\param settings all parameters of the computation
+ \\param fanData cache structure for neighbors, not to allocate for multiple calls
+ \\returns true if vertex is boundary, false otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58155" bodyend="58163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TriangulationHelpers_1a05e62df7e66fadca5211684a65d59b1f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TriangulationHelpers.updateNeighborsRadius</definition>
+        <argsstring>(VertCoords points, VertId v, VertId boundaryV, std_vector_Id_VertTag fan, float baseRadius)</argsstring>
+        <name>updateNeighborsRadius</name>
+        <qualifiedname>mrmeshpy.TriangulationHelpers.updateNeighborsRadius</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>points</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>boundaryV</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VertTag" kindref="compound">std_vector_Id_VertTag</ref></type>
+          <declname>fan</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>baseRadius</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief Finds max radius of neighbors search, for possible better local triangulation
+ \\param borderV first boundary vertex in \\param fan (next VertId in fan is also boundary but first is enough)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58165" bodyend="58169"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57834" bodyend="58169"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1a2176cce296a48397337e66cb5552159d" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers</scope><name>buildLocalTriangulation</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1a4b6b9342669f423513de6b0af026e323" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers</scope><name>buildLocalTriangulations</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1acbf1fc711d0b0076106198b6cf5c2480" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers</scope><name>buildUnitedLocalTriangulations</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1af1ee9fb56b88b23f144eb4ad92ce7bd6" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers</scope><name>filterNeighbors</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1a73b91522a9bed17ce3bcab4a39a4cd68" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers</scope><name>findBoundaryPoints</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1a6bd13919555fffa574670eac325fded6" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers</scope><name>findNeighborsInBall</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1ad318a645054630e87756be121fe178a1" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers</scope><name>findNumNeighbors</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1adb66951711f796044d92370a48bc0d02" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers</scope><name>isBoundaryPoint</name></member>
+      <member refid="classmrmeshpy_1_1TriangulationHelpers_1a05e62df7e66fadca5211684a65d59b1f" prot="public" virt="non-virtual"><scope>mrmeshpy::TriangulationHelpers</scope><name>updateNeighborsRadius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

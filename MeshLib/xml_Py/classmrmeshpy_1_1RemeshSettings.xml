@@ -1,0 +1,1277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RemeshSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RemeshSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a793913cc3cdec781d7f381e40c366512" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_finalRelaxIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_finalRelaxIters</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_finalRelaxIters</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1ab0193eaedf316d046acb036ad853db42" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_finalRelaxNoShrinkage</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_finalRelaxNoShrinkage</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_finalRelaxNoShrinkage</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50044" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a9e37700ebea524a8c7e49b08900edfee" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_frozenBoundary</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_frozenBoundary</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_frozenBoundary</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50045" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a07fb411364d8ba5dc84ddd3a30486cb0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxAngleChangeAfterFlip</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_maxAngleChangeAfterFlip</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50046" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a2992ff61636ee3356f021ecc1e1fd165" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_maxBdShift</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxBdShift</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_maxBdShift</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50047" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a92eeb7686f3a91cf833fb754273cc714" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxEdgeSplits</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_maxEdgeSplits</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50048" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1abddc1b5f5bdb7d3c6c19e3542abe87d2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxSplittableTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_maxSplittableTriAspectRatio</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50049" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a827a15c62647e5c0c5b7497364e92169" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_notFlippable</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_notFlippable</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_notFlippable</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50050" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a65aef9fcb67d6982952a0d9be2773a16" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_onEdgeDel</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onEdgeDel</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_onEdgeDel</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50051" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50051" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a38112eff235013680b928767f6166b8e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onEdgeSplit</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_onEdgeSplit</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50052" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a2189d2d187ec49861d86707b23a61b49" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_packMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_packMesh</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_packMesh</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50053" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1a5699784421236cf7703c30e455bf0d06" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_preCollapse</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_preCollapse</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_preCollapse</qualifiedname>
+        <initializer>=  128</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50054" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1aff633e21ce131d80587e98f854981419" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_progressCallback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progressCallback</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_progressCallback</qualifiedname>
+        <initializer>=  160</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50055" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1aa3c69f0bd83c393737aa3e062fbeac76" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_projectOnOriginalMesh</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_projectOnOriginalMesh</qualifiedname>
+        <initializer>=  57</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50056" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1ae4e0f8a82ea64269854a77104e8fd471" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_region</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50057" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1ae8550d708f122860580658d547040c16" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_targetEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_targetEdgeLen</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_targetEdgeLen</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50058" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1RemeshSettings_1ab6f8ada1ee044b3c67df15cdf962fb9e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RemeshSettings::_offsetof_useCurvature</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_useCurvature</name>
+        <qualifiedname>mrmeshpy.RemeshSettings._offsetof_useCurvature</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50059" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50059" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a059665df73ffdedeadefcecbb0ccb8b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50062" bodyend="50063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a6d9383c49f9dbbda37e8bb8928681c46" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RemeshSettings" kindref="compound">RemeshSettings</ref></type>
+        <definition> RemeshSettings mrmeshpy.RemeshSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50066" bodyend="50067"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a6d9383c49f9dbbda37e8bb8928681c46" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RemeshSettings" kindref="compound">RemeshSettings</ref></type>
+        <definition> RemeshSettings mrmeshpy.RemeshSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50070" bodyend="50071"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a7f588f169cfab3f2d2af9be61a920c32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50073" bodyend="50074"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a3908688eff5c630d2c4345b27e529d5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.__init__</definition>
+        <argsstring>(self, RemeshSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RemeshSettings" kindref="compound">RemeshSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50076" bodyend="50079"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a2bb8b18caae12652e755a672161b906f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.__init__</definition>
+        <argsstring>(self, float targetEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, bool frozenBoundary, float maxBdShift, bool useCurvature, float maxSplittableTriAspectRatio, int finalRelaxIters, bool finalRelaxNoShrinkage, FaceBitSet region, UndirectedEdgeBitSet notFlippable, bool packMesh, bool projectOnOriginalMesh, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeSplit, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeDel, func_bool_from_Id_EdgeTag_Vector3_float preCollapse, func_bool_from_float progressCallback)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetEdgeLen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxEdgeSplits</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChangeAfterFlip</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>frozenBoundary</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxBdShift</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useCurvature</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSplittableTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>finalRelaxIters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>finalRelaxNoShrinkage</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>packMesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>projectOnOriginalMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>onEdgeSplit</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>onEdgeDel</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" kindref="compound">func_bool_from_Id_EdgeTag_Vector3_float</ref></type>
+          <declname>preCollapse</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progressCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50081" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50081" bodyend="50084"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1adcb8a007b9ea011deb95c459c5f9140d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RemeshSettings.finalRelaxIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>finalRelaxIters</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.finalRelaxIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of iterations of final relaxation of mesh vertices;
+few iterations can give almost perfect uniformity of the vertices and edge lengths but deviate from the original surface
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50086" bodyend="50090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1ac6ebd0a1ec85dded124d05be0cb69d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.finalRelaxIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>finalRelaxIters</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.finalRelaxIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50092" bodyend="50093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a8f3825d4ea637de04b92efdf0f22f5ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RemeshSettings.finalRelaxNoShrinkage</definition>
+        <argsstring>(self)</argsstring>
+        <name>finalRelaxNoShrinkage</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.finalRelaxNoShrinkage</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true prevents the surface from shrinkage after many iterations
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50095" bodyend="50098"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a779d8462fefb3fabdeab18a8fa1f22e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.finalRelaxNoShrinkage</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>finalRelaxNoShrinkage</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.finalRelaxNoShrinkage</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50100" bodyend="50101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a65404f78813a5481c0a8bfeba794f8c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RemeshSettings.frozenBoundary</definition>
+        <argsstring>(self)</argsstring>
+        <name>frozenBoundary</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.frozenBoundary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Allows or prohibits splitting and/or collapse boundary edges
+it recommended to keep default value here for better quality
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50103" bodyend="50107"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a402e67d2d75c1dd3cb71d389a1f2b6e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.frozenBoundary</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>frozenBoundary</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.frozenBoundary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50109" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50109" bodyend="50110"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1ac0bc6f88dd89370313d22ccbd26f8aa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RemeshSettings.maxAngleChangeAfterFlip</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.maxAngleChangeAfterFlip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50112" bodyend="50115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1abb032293b175afcb4abb8f5f48f92ff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.maxAngleChangeAfterFlip</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.maxAngleChangeAfterFlip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50117" bodyend="50118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1ab7a1c165a332967431ca73cacd71a598" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RemeshSettings.maxBdShift</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.maxBdShift</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximal shift of a boundary during one edge collapse
+only makes sense if `frozenBoundary=false`
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50120" bodyend="50124"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a307cbf579c302afe2ec62e341ad35a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.maxBdShift</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.maxBdShift</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50126" bodyend="50127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a2aa8fc0ff163496672fe888b86175118" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RemeshSettings.maxEdgeSplits</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.maxEdgeSplits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximum number of edge splits allowed during subdivision
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50129" bodyend="50132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1aae6953be037d92b4d68d9d8868b9a7d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.maxEdgeSplits</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.maxEdgeSplits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50134" bodyend="50135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1adf302503d25626445275efa681523360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RemeshSettings.maxSplittableTriAspectRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.maxSplittableTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value.
+So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization.
+Please set it to a smaller value only if frozenBoundary==true, otherwise many narrow triangles can appear near border
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50137" bodyend="50142"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a6fe7e946faf8510b465efee04b64e01a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.maxSplittableTriAspectRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.maxSplittableTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50144" bodyend="50145"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a861fff4f5f8b4b8388da80eb3ff9ff22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.RemeshSettings.notFlippable</definition>
+        <argsstring>(self)</argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.notFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Edges specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation;
+also the vertices incident to these edges are excluded from relaxation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50147" bodyend="50151"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1af533a3a5ac05755ec7c9e9e322c1c246" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.notFlippable</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.notFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50153" bodyend="50154"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a5c2e39c8ea34aa238b6d80d13dab2867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+        <definition> func_void_from_Id_EdgeTag_Id_EdgeTag mrmeshpy.RemeshSettings.onEdgeDel</definition>
+        <argsstring>(self)</argsstring>
+        <name>onEdgeDel</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.onEdgeDel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50156" bodyend="50159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1af1a5793a13002dab48317d28f1551c76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.onEdgeDel</definition>
+        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag arg1)</argsstring>
+        <name>onEdgeDel</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.onEdgeDel</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50161" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50161" bodyend="50162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a8c836065b2949dcd23a96f6fc837f223" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+        <definition> func_void_from_Id_EdgeTag_Id_EdgeTag mrmeshpy.RemeshSettings.onEdgeSplit</definition>
+        <argsstring>(self)</argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.onEdgeSplit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50164" bodyend="50167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a1acf93dc3680f8b6d5bcb436e7357c92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.onEdgeSplit</definition>
+        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag arg1)</argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.onEdgeSplit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50169" bodyend="50170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1aa681d0ddf9b02a1d6a6a0c1ed4becd3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RemeshSettings.packMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>packMesh</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.packMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether to pack mesh at the end
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50172" bodyend="50175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a2b42c777dfe6d22646826dbfb6365a10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.packMesh</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>packMesh</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.packMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50177" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50177" bodyend="50178"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a92b8715484f9d34be716297d0ec85d2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" kindref="compound">func_bool_from_Id_EdgeTag_Vector3_float</ref></type>
+        <definition> func_bool_from_Id_EdgeTag_Vector3_float mrmeshpy.RemeshSettings.preCollapse</definition>
+        <argsstring>(self)</argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.preCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief The user can provide this optional callback that is invoked immediately before edge collapse;
+ \\details It receives the edge being collapsed: its destination vertex will disappear,
+ and its origin vertex will get new position (provided as the second argument) after collapse;
+ If the callback returns false, then the collapse is prohibited
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50180" bodyend="50186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1aa540093aa7c0d89813acd6237a7772d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.preCollapse</definition>
+        <argsstring>(self, func_bool_from_Id_EdgeTag_Vector3_float arg1)</argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.preCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" kindref="compound">func_bool_from_Id_EdgeTag_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50188" bodyend="50189"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a6be546e1b474d953dd5f562446bc5401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.RemeshSettings.progressCallback</definition>
+        <argsstring>(self)</argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.progressCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback to report algorithm progress and cancel it by user request
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50191" bodyend="50194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1af9261ba07c8ebd4e1afaf0910d3b8f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.progressCallback</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.progressCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50196" bodyend="50197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1afa461eafefc2bef1c52ddf565ae99921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RemeshSettings.projectOnOriginalMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.projectOnOriginalMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true, then every new vertex after subdivision will be projected on the original mesh (before smoothing);
+this does not affect the vertices moved on other stages of the processing
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50199" bodyend="50203"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1af56b6b7139e31664e0bf857a6bbe6c9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.projectOnOriginalMesh</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.projectOnOriginalMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50205" bodyend="50206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1ae93f401645209dfefdb7d9a74d552d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.RemeshSettings.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Region on mesh to be changed, it is updated during the operation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50208" bodyend="50211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a6b0c840377b62c0065442e15913dd1a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50213" bodyend="50214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a4d5801bbac1c769610d582e46234fb2f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.RemeshSettings.targetEdgeLen</definition>
+        <argsstring>(self)</argsstring>
+        <name>targetEdgeLen</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.targetEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the algorithm will try to keep the length of all edges close to this value,
+splitting the edges longer than targetEdgeLen, and then eliminating the edges shorter than targetEdgeLen
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50216" bodyend="50220"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1ab121ee2b184bb503cd5dc7beb3d900c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.targetEdgeLen</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>targetEdgeLen</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.targetEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50222" bodyend="50223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a749943d87fd59c35bed10e6f246cc33f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RemeshSettings.useCurvature</definition>
+        <argsstring>(self)</argsstring>
+        <name>useCurvature</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.useCurvature</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This option in subdivision works best for natural surfaces, where all triangles are close to equilateral and have similar area,
+and no sharp edges in between
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50225" bodyend="50229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RemeshSettings_1a2e5254b1a9e127a8f16d123684e3bc17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RemeshSettings.useCurvature</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>useCurvature</name>
+        <qualifiedname>mrmeshpy.RemeshSettings.useCurvature</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50231" bodyend="50232"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RemeshSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.RemeshSettings</label>
+        <link refid="classmrmeshpy_1_1RemeshSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_finalRelaxIters</edgelabel>
+          <edgelabel>_offsetof_finalRelaxNoShrinkage</edgelabel>
+          <edgelabel>_offsetof_frozenBoundary</edgelabel>
+          <edgelabel>_offsetof_maxAngleChangeAfterFlip</edgelabel>
+          <edgelabel>_offsetof_maxBdShift</edgelabel>
+          <edgelabel>_offsetof_maxEdgeSplits</edgelabel>
+          <edgelabel>_offsetof_maxSplittableTriAspectRatio</edgelabel>
+          <edgelabel>_offsetof_notFlippable</edgelabel>
+          <edgelabel>_offsetof_onEdgeDel</edgelabel>
+          <edgelabel>_offsetof_onEdgeSplit</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="50039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="50039" bodyend="50232"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a059665df73ffdedeadefcecbb0ccb8b3" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a7f588f169cfab3f2d2af9be61a920c32" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a3908688eff5c630d2c4345b27e529d5b" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a2bb8b18caae12652e755a672161b906f" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a793913cc3cdec781d7f381e40c366512" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_finalRelaxIters</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1ab0193eaedf316d046acb036ad853db42" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_finalRelaxNoShrinkage</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a9e37700ebea524a8c7e49b08900edfee" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_frozenBoundary</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a07fb411364d8ba5dc84ddd3a30486cb0" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_maxAngleChangeAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a2992ff61636ee3356f021ecc1e1fd165" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_maxBdShift</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a92eeb7686f3a91cf833fb754273cc714" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_maxEdgeSplits</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1abddc1b5f5bdb7d3c6c19e3542abe87d2" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_maxSplittableTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a827a15c62647e5c0c5b7497364e92169" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a65aef9fcb67d6982952a0d9be2773a16" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_onEdgeDel</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a38112eff235013680b928767f6166b8e" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a2189d2d187ec49861d86707b23a61b49" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_packMesh</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a5699784421236cf7703c30e455bf0d06" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_preCollapse</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1aff633e21ce131d80587e98f854981419" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1aa3c69f0bd83c393737aa3e062fbeac76" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_projectOnOriginalMesh</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1ae4e0f8a82ea64269854a77104e8fd471" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1ae8550d708f122860580658d547040c16" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_targetEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1ab6f8ada1ee044b3c67df15cdf962fb9e" prot="protected" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>_offsetof_useCurvature</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1adcb8a007b9ea011deb95c459c5f9140d" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>finalRelaxIters</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1ac6ebd0a1ec85dded124d05be0cb69d6a" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>finalRelaxIters</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a8f3825d4ea637de04b92efdf0f22f5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>finalRelaxNoShrinkage</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a779d8462fefb3fabdeab18a8fa1f22e6" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>finalRelaxNoShrinkage</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a65404f78813a5481c0a8bfeba794f8c0" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>frozenBoundary</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a402e67d2d75c1dd3cb71d389a1f2b6e7" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>frozenBoundary</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1ac0bc6f88dd89370313d22ccbd26f8aa9" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1abb032293b175afcb4abb8f5f48f92ff3" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1ab7a1c165a332967431ca73cacd71a598" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>maxBdShift</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a307cbf579c302afe2ec62e341ad35a08" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>maxBdShift</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a2aa8fc0ff163496672fe888b86175118" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1aae6953be037d92b4d68d9d8868b9a7d2" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1adf302503d25626445275efa681523360" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a6fe7e946faf8510b465efee04b64e01a" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a861fff4f5f8b4b8388da80eb3ff9ff22" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1af533a3a5ac05755ec7c9e9e322c1c246" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a5c2e39c8ea34aa238b6d80d13dab2867" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>onEdgeDel</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1af1a5793a13002dab48317d28f1551c76" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>onEdgeDel</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a8c836065b2949dcd23a96f6fc837f223" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a1acf93dc3680f8b6d5bcb436e7357c92" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a6d9383c49f9dbbda37e8bb8928681c46" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a6d9383c49f9dbbda37e8bb8928681c46" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1aa681d0ddf9b02a1d6a6a0c1ed4becd3d" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>packMesh</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a2b42c777dfe6d22646826dbfb6365a10" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>packMesh</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a92b8715484f9d34be716297d0ec85d2b" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>preCollapse</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1aa540093aa7c0d89813acd6237a7772d2" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>preCollapse</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a6be546e1b474d953dd5f562446bc5401" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1af9261ba07c8ebd4e1afaf0910d3b8f05" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1afa461eafefc2bef1c52ddf565ae99921" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1af56b6b7139e31664e0bf857a6bbe6c9f" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1ae93f401645209dfefdb7d9a74d552d16" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a6b0c840377b62c0065442e15913dd1a1" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a4d5801bbac1c769610d582e46234fb2f" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>targetEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1ab121ee2b184bb503cd5dc7beb3d900c4" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>targetEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a749943d87fd59c35bed10e6f246cc33f" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>useCurvature</name></member>
+      <member refid="classmrmeshpy_1_1RemeshSettings_1a2e5254b1a9e127a8f16d123684e3bc17" prot="public" virt="non-virtual"><scope>mrmeshpy::RemeshSettings</scope><name>useCurvature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshNormals" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshNormals</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshNormals_1a20cc917c2790ca45e502a9eed20406a5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshNormals::_offsetof_faceNormals</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_faceNormals</name>
+        <qualifiedname>mrmeshpy.MeshNormals._offsetof_faceNormals</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32903" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshNormals_1a9fa188a4e20afd956c08511b43f73621" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshNormals::_offsetof_vertNormals</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertNormals</name>
+        <qualifiedname>mrmeshpy.MeshNormals._offsetof_vertNormals</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32904" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshNormals_1a061769d2b8e1f790ed21d5290837eff8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshNormals.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshNormals.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32909" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32909" bodyend="32910"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshNormals_1a8fd992ef20ea770d99833d66c3585cfa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshNormals" kindref="compound">MeshNormals</ref></type>
+        <definition> MeshNormals mrmeshpy.MeshNormals.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshNormals.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32913" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32913" bodyend="32914"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshNormals_1a8fd992ef20ea770d99833d66c3585cfa" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshNormals" kindref="compound">MeshNormals</ref></type>
+        <definition> MeshNormals mrmeshpy.MeshNormals.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshNormals.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32917" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32917" bodyend="32918"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshNormals_1ab5eb5d615f9bb23b446f0b284c32e063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshNormals.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshNormals.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32920" bodyend="32921"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshNormals_1ad904029aaaa52e465a136eff4b6974b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshNormals.__init__</definition>
+        <argsstring>(self, MeshNormals arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshNormals.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshNormals" kindref="compound">MeshNormals</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32923" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32923" bodyend="32926"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshNormals_1ad53fa720930b5c5004ccf1adee4df7d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshNormals.__init__</definition>
+        <argsstring>(self, FaceNormals faceNormals, VertCoords vertNormals)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshNormals.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceNormals" kindref="compound">FaceNormals</ref></type>
+          <declname>faceNormals</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>vertNormals</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32928" bodyend="32931"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshNormals
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshNormals</label>
+        <link refid="classmrmeshpy_1_1MeshNormals"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_faceNormals</edgelabel>
+          <edgelabel>_offsetof_vertNormals</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="32899" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="32899" bodyend="32931"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshNormals_1a061769d2b8e1f790ed21d5290837eff8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshNormals</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshNormals_1ab5eb5d615f9bb23b446f0b284c32e063" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshNormals</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshNormals_1ad904029aaaa52e465a136eff4b6974b8" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshNormals</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshNormals_1ad53fa720930b5c5004ccf1adee4df7d1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshNormals</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshNormals_1a20cc917c2790ca45e502a9eed20406a5" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshNormals</scope><name>_offsetof_faceNormals</name></member>
+      <member refid="classmrmeshpy_1_1MeshNormals_1a9fa188a4e20afd956c08511b43f73621" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshNormals</scope><name>_offsetof_vertNormals</name></member>
+      <member refid="classmrmeshpy_1_1MeshNormals_1a8fd992ef20ea770d99833d66c3585cfa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshNormals</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshNormals_1a8fd992ef20ea770d99833d66c3585cfa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshNormals</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

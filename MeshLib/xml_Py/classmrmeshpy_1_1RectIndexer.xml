@@ -1,0 +1,490 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RectIndexer" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RectIndexer</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1DistanceMap" prot="public" virt="non-virtual">mrmeshpy.DistanceMap</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1Matrix__float" prot="public" virt="non-virtual">mrmeshpy.Matrix_float</derivedcompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RectIndexer.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RectIndexer.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a537aa3f672d4fae4862b389fd7f39cc4">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ae3315272a9e1826dcda63ec5b5358629">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ad38a0abf119f8ad2f14ffda136ceed4c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a3ce5d48e25a8951884962a8ea4c78959">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1aa2c3ba1a8b94b798f418223a5561ce71">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49502" bodyend="49503"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1afcb24165cee73591b08899eff0afb0e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RectIndexer" kindref="compound">RectIndexer</ref></type>
+        <definition> RectIndexer mrmeshpy.RectIndexer.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RectIndexer.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a5e2eed1e3b7a737a174c329787f7de26">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a5e2eed1e3b7a737a174c329787f7de26">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49506" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49506" bodyend="49507"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1afcb24165cee73591b08899eff0afb0e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RectIndexer" kindref="compound">RectIndexer</ref></type>
+        <definition> RectIndexer mrmeshpy.RectIndexer.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RectIndexer.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a5e2eed1e3b7a737a174c329787f7de26">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a5e2eed1e3b7a737a174c329787f7de26">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a5e98bf91e992fbfbdc001ce7360cf714">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49510" bodyend="49511"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1acbb640ce6d30728b95373b2ff8890c80" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RectIndexer.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RectIndexer.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a537aa3f672d4fae4862b389fd7f39cc4">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ae3315272a9e1826dcda63ec5b5358629">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ad38a0abf119f8ad2f14ffda136ceed4c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a3ce5d48e25a8951884962a8ea4c78959">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1aa2c3ba1a8b94b798f418223a5561ce71">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49513" bodyend="49514"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a86960072848a0aafb6e007d0694220d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RectIndexer.__init__</definition>
+        <argsstring>(self, Vector2i dims)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RectIndexer.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a537aa3f672d4fae4862b389fd7f39cc4">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ae3315272a9e1826dcda63ec5b5358629">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ad38a0abf119f8ad2f14ffda136ceed4c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a3ce5d48e25a8951884962a8ea4c78959">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1aa2c3ba1a8b94b798f418223a5561ce71">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49516" bodyend="49517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a79c40c5a4132c74a4cbef5d9739e7e69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RectIndexer.__init__</definition>
+        <argsstring>(self, RectIndexer arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RectIndexer.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a537aa3f672d4fae4862b389fd7f39cc4">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ae3315272a9e1826dcda63ec5b5358629">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1ad38a0abf119f8ad2f14ffda136ceed4c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1a3ce5d48e25a8951884962a8ea4c78959">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMap_1aa2c3ba1a8b94b798f418223a5561ce71">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ad6003f33de47168f12fd6619ae18d95b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a90f34c4b121bef4c251aba5a7340b1f5">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1a38b008933dcd2fd7c9c67790498b8fd8">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1Matrix__float_1ae5f9715f3d02f9ba464b83b52925d7ca">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RectIndexer" kindref="compound">RectIndexer</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49519" bodyend="49522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a27e451d40797215779c9255b084d99f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RectIndexer.areNeigbors</definition>
+        <argsstring>(self, PixelId v0, PixelId v1)</argsstring>
+        <name>areNeigbors</name>
+        <qualifiedname>mrmeshpy.RectIndexer.areNeigbors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if v1 is within at most 4 neighbors of v0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49524" bodyend="49527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a6c23c4d90dc1fef793b740fc91956626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RectIndexer.areNeigbors</definition>
+        <argsstring>(self, Vector2i pos0, Vector2i pos1)</argsstring>
+        <name>areNeigbors</name>
+        <qualifiedname>mrmeshpy.RectIndexer.areNeigbors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>pos0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>pos1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49529" bodyend="49530"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a9ba99f18552f382c8e2f10540e3c9630" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.RectIndexer.dims</definition>
+        <argsstring>(self)</argsstring>
+        <name>dims</name>
+        <qualifiedname>mrmeshpy.RectIndexer.dims</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49531" bodyend="49532"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a87ec23ff9e60e4e9efcd49d86c652153" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.RectIndexer.getNeighbor</definition>
+        <argsstring>(self, PixelId v, OutEdge2 toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>mrmeshpy.RectIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutEdge2" kindref="compound">OutEdge2</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns id of v&apos;s neighbor specified by the edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49534" bodyend="49537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1aa645b2294161a3337fa6eb76b0ef7875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.RectIndexer.getNeighbor</definition>
+        <argsstring>(self, PixelId v, Vector2i pos, OutEdge2 toNei)</argsstring>
+        <name>getNeighbor</name>
+        <qualifiedname>mrmeshpy.RectIndexer.getNeighbor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OutEdge2" kindref="compound">OutEdge2</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49539" bodyend="49540"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a5a057c9ea99fecc08350ec8e9ee84e67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RectIndexer.resize</definition>
+        <argsstring>(self, Vector2i dims)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.RectIndexer.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49541" bodyend="49542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1abae9d444cfed27fc50696762e20f3d2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RectIndexer.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.RectIndexer.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49543" bodyend="49544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1ab4448d6b90f03e77c082264013981c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RectIndexer.toIndex</definition>
+        <argsstring>(self, Vector2i pos)</argsstring>
+        <name>toIndex</name>
+        <qualifiedname>mrmeshpy.RectIndexer.toIndex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49545" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49545" bodyend="49546"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1a8749d8e7e091021bec46a95a5b21779a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+        <definition> PixelId mrmeshpy.RectIndexer.toPixelId</definition>
+        <argsstring>(self, Vector2i pos)</argsstring>
+        <name>toPixelId</name>
+        <qualifiedname>mrmeshpy.RectIndexer.toPixelId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49547" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49547" bodyend="49548"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1aa9005b3f3d99b3470b8a767a2ccc5020" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.RectIndexer.toPos</definition>
+        <argsstring>(self, PixelId id)</argsstring>
+        <name>toPos</name>
+        <qualifiedname>mrmeshpy.RectIndexer.toPos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49550" bodyend="49551"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RectIndexer_1af8a6233b03fc2a53e2ac399d228a6b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2i" kindref="compound">Vector2i</ref></type>
+        <definition> Vector2i mrmeshpy.RectIndexer.toPos</definition>
+        <argsstring>(self, int id)</argsstring>
+        <name>toPos</name>
+        <qualifiedname>mrmeshpy.RectIndexer.toPos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49553" bodyend="49554"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RectIndexer
+
+a class for converting 2D integer coordinates into 1D linear coordinates and backward
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.RectIndexer</label>
+        <link refid="classmrmeshpy_1_1RectIndexer"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.DistanceMap</label>
+        <link refid="classmrmeshpy_1_1DistanceMap"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Matrix_float</label>
+        <link refid="classmrmeshpy_1_1Matrix__float"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49494" bodyend="49554"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RectIndexer_1ab1edef7af78a60f135dfd592f4db3b74" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1acbb640ce6d30728b95373b2ff8890c80" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a86960072848a0aafb6e007d0694220d6" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a79c40c5a4132c74a4cbef5d9739e7e69" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a27e451d40797215779c9255b084d99f7" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>areNeigbors</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a6c23c4d90dc1fef793b740fc91956626" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>areNeigbors</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a9ba99f18552f382c8e2f10540e3c9630" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>dims</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a87ec23ff9e60e4e9efcd49d86c652153" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1aa645b2294161a3337fa6eb76b0ef7875" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>getNeighbor</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1afcb24165cee73591b08899eff0afb0e9" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1afcb24165cee73591b08899eff0afb0e9" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a5a057c9ea99fecc08350ec8e9ee84e67" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1abae9d444cfed27fc50696762e20f3d2d" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1ab4448d6b90f03e77c082264013981c0c" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>toIndex</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1a8749d8e7e091021bec46a95a5b21779a" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>toPixelId</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1aa9005b3f3d99b3470b8a767a2ccc5020" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>toPos</name></member>
+      <member refid="classmrmeshpy_1_1RectIndexer_1af8a6233b03fc2a53e2ac399d228a6b6e" prot="public" virt="non-virtual"><scope>mrmeshpy::RectIndexer</scope><name>toPos</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

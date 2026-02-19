@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1WriteRawTiffParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::WriteRawTiffParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_WriteRawTiffParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1WriteRawTiffParams_1a56005ba446eac9ae17a20631311b3fc5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1BaseTiffParameters" kindref="compound">MR.BaseTiffParameters</ref></type>
+        <definition>new unsafe MR.BaseTiffParameters MR.WriteRawTiffParams.baseParams</definition>
+        <argsstring></argsstring>
+        <name>baseParams</name>
+        <qualifiedname>MR.WriteRawTiffParams.baseParams</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1129" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1129" bodyend="1129"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1WriteRawTiffParams_1abc0afa83f98059096f6c250fba32b534" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? ConstBox_AffineXf3f MR.WriteRawTiffParams.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.WriteRawTiffParams.xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1132" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1133" bodyend="1142"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1WriteRawTiffParams_1a16a87db16c351cc4e9ea92cb7ae9e687" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.String</type>
+        <definition>new unsafe MR.Std.String MR.WriteRawTiffParams.noData</definition>
+        <argsstring></argsstring>
+        <name>noData</name>
+        <qualifiedname>MR.WriteRawTiffParams.noData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1145" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1145" bodyend="1145"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1WriteRawTiffParams_1a66716b3295be39c1750e08243d8b7f9b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WriteRawTiffParams.WriteRawTiffParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>WriteRawTiffParams</name>
+        <qualifiedname>MR.WriteRawTiffParams.WriteRawTiffParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1171" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1171" bodyend="1175"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1WriteRawTiffParams_1ae70e2ac981ce94191e14b68b97c7dceb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WriteRawTiffParams.WriteRawTiffParams</definition>
+        <argsstring>()</argsstring>
+        <name>WriteRawTiffParams</name>
+        <qualifiedname>MR.WriteRawTiffParams.WriteRawTiffParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1181" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1181" bodyend="1187"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WriteRawTiffParams_1a39bdad524992503462b24e322343fff2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WriteRawTiffParams.WriteRawTiffParams</definition>
+        <argsstring>(MR.Const_BaseTiffParameters baseParams, MR.AffineXf3f? xf, string noData)</argsstring>
+        <name>WriteRawTiffParams</name>
+        <qualifiedname>MR.WriteRawTiffParams.WriteRawTiffParams</qualifiedname>
+        <param>
+          <type>MR.Const_BaseTiffParameters</type>
+          <declname>baseParams</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>noData</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1WriteRawTiffParams" kindref="compound">MR.WriteRawTiffParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1192" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1192" bodyend="1204"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WriteRawTiffParams_1a62e784d367e415a4164df2ed68c9817a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.WriteRawTiffParams.WriteRawTiffParams</definition>
+        <argsstring>(MR._ByValue_WriteRawTiffParams _other)</argsstring>
+        <name>WriteRawTiffParams</name>
+        <qualifiedname>MR.WriteRawTiffParams.WriteRawTiffParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_WriteRawTiffParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.WriteRawTiffParams.WriteRawTiffParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1209" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1209" bodyend="1216"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WriteRawTiffParams_1a4397a182ca79390915efcefae7b1b38d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WriteRawTiffParams.WriteRawTiffParams</definition>
+        <argsstring>(Const_WriteRawTiffParams _other)</argsstring>
+        <name>WriteRawTiffParams</name>
+        <qualifiedname>MR.WriteRawTiffParams.WriteRawTiffParams</qualifiedname>
+        <param>
+          <type>Const_WriteRawTiffParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.WriteRawTiffParams.WriteRawTiffParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1221" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1221" bodyend="1221"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WriteRawTiffParams_1abc02ffe814d9bcc71b0e4ea52b3d0665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.WriteRawTiffParams.WriteRawTiffParams</definition>
+        <argsstring>(WriteRawTiffParams _other)</argsstring>
+        <name>WriteRawTiffParams</name>
+        <qualifiedname>MR.WriteRawTiffParams.WriteRawTiffParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1WriteRawTiffParams" kindref="compound">WriteRawTiffParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.WriteRawTiffParams.WriteRawTiffParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1226" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1226" bodyend="1226"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1WriteRawTiffParams_1abd24c49fd356529eef939005a3824f55" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1WriteRawTiffParams" kindref="compound">MR.WriteRawTiffParams</ref></type>
+        <definition>unsafe MR.WriteRawTiffParams MR.WriteRawTiffParams.assign</definition>
+        <argsstring>(MR._ByValue_WriteRawTiffParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.WriteRawTiffParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_WriteRawTiffParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.WriteRawTiffParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1231" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1231" bodyend="1238"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1WriteRawTiffParams" kindref="compound">MR.WriteRawTiffParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_WriteRawTiffParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.WriteRawTiffParams</label>
+        <link refid="classMR_1_1WriteRawTiffParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_WriteRawTiffParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_WriteRawTiffParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.WriteRawTiffParams</label>
+        <link refid="classMR_1_1WriteRawTiffParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_WriteRawTiffParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" line="1127" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRTiffIO.cs" bodystart="1128" bodyend="1239"/>
+    <listofallmembers>
+      <member refid="classMR_1_1WriteRawTiffParams_1abd24c49fd356529eef939005a3824f55" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1WriteRawTiffParams_1a56005ba446eac9ae17a20631311b3fc5" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>baseParams</name></member>
+      <member refid="classMR_1_1WriteRawTiffParams_1a16a87db16c351cc4e9ea92cb7ae9e687" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>noData</name></member>
+      <member refid="classMR_1_1WriteRawTiffParams_1a66716b3295be39c1750e08243d8b7f9b" prot="package" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>WriteRawTiffParams</name></member>
+      <member refid="classMR_1_1WriteRawTiffParams_1ae70e2ac981ce94191e14b68b97c7dceb" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>WriteRawTiffParams</name></member>
+      <member refid="classMR_1_1WriteRawTiffParams_1a39bdad524992503462b24e322343fff2" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>WriteRawTiffParams</name></member>
+      <member refid="classMR_1_1WriteRawTiffParams_1a62e784d367e415a4164df2ed68c9817a" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>WriteRawTiffParams</name></member>
+      <member refid="classMR_1_1WriteRawTiffParams_1a4397a182ca79390915efcefae7b1b38d" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>WriteRawTiffParams</name></member>
+      <member refid="classMR_1_1WriteRawTiffParams_1abc02ffe814d9bcc71b0e4ea52b3d0665" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>WriteRawTiffParams</name></member>
+      <member refid="classMR_1_1WriteRawTiffParams_1abc0afa83f98059096f6c250fba32b534" prot="public" virt="non-virtual"><scope>MR::WriteRawTiffParams</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

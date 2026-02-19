@@ -1,0 +1,502 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1ImGuiMath" kind="namespace" language="C++">
+    <compoundname>MR::ImGuiMath</compoundname>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1BasicVectorCompareHelper" prot="public">MR::ImGuiMath::BasicVectorCompareHelper</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1CompareAll" prot="public">MR::ImGuiMath::CompareAll</innerclass>
+    <innerclass refid="structMR_1_1ImGuiMath_1_1CompareAny" prot="public">MR::ImGuiMath::CompareAny</innerclass>
+    <innernamespace refid="namespaceMR_1_1ImGuiMath_1_1detail">MR::ImGuiMath::detail</innernamespace>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a6d0e200395e627b407b89164f6c4b13e" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::VectorOrScalarMaybeCvref</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>auto &amp;&amp;</type>
+        <definition>auto &amp;&amp; MR::ImGuiMath::getElem</definition>
+        <argsstring>(int i, T &amp;&amp;value)</argsstring>
+        <name>getElem</name>
+        <qualifiedname>MR::ImGuiMath::getElem</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>Technically UB, but helps with optimizations on MSVC for some reason, compared to an if-else chain. GCC and Clang optimize both in the same manner.</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="56" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="56" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a9413dca0b69204cedfb3f5a93add745a" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>P</declname>
+            <defname>P</defname>
+          </param>
+        </templateparamlist>
+        <type>typename <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1VecFromSize" kindref="compound">detail::VecFromSize</ref>&lt; <ref refid="structMR_1_1ImGuiMath_1_1detail_1_1CommonVecSize" kindref="compound">detail::CommonVecSize</ref>&lt; P... &gt;::value &gt;::type</type>
+        <definition>typename detail::VecFromSize&lt; detail::CommonVecSize&lt; P... &gt;::value &gt;::type MR::ImGuiMath::applyElementwise</definition>
+        <argsstring>(F &amp;&amp;func, P &amp;&amp;... params)</argsstring>
+        <name>applyElementwise</name>
+        <qualifiedname>MR::ImGuiMath::applyElementwise</qualifiedname>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>P &amp;&amp;...</type>
+          <declname>params</declname>
+        </param>
+    <requiresclause>detail::ValidOperands&lt;P...&gt;    </requiresclause>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a vector, where each element is computed by appling <computeroutput>func()</computeroutput> to individual elements of the <computeroutput>params...</computeroutput>. Scalar parameters are accepted too. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="73" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="73" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1ae3d880600a263c7ca9020c136c89220f" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>detail::VectorOrScalarMaybeCvref</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ImGuiMath::reduce</definition>
+        <argsstring>(F &amp;&amp;func, T &amp;&amp;value)</argsstring>
+        <name>reduce</name>
+        <qualifiedname>MR::ImGuiMath::reduce</qualifiedname>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>func</declname>
+        </param>
+        <param>
+          <type>T &amp;&amp;</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Reduces a vector over a binary <computeroutput>func</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="84" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="84" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a1ec7b8101f9329b606187e6018ad4728" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::Vector</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+        </templateparamlist>
+        <type>A</type>
+        <definition>A MR::ImGuiMath::round</definition>
+        <argsstring>(A a)</argsstring>
+        <name>round</name>
+        <qualifiedname>MR::ImGuiMath::round</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Misc functions. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="125" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1aec12d0bc0e82f7b60da894cd08419255" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::Vector</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+        </templateparamlist>
+        <type>A</type>
+        <definition>A MR::ImGuiMath::floor</definition>
+        <argsstring>(A a)</argsstring>
+        <name>floor</name>
+        <qualifiedname>MR::ImGuiMath::floor</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="126" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="126" bodyend="126"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a4d9817ccfff189d17647c34d8cb24c49" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::Vector</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+        </templateparamlist>
+        <type>A</type>
+        <definition>A MR::ImGuiMath::ceil</definition>
+        <argsstring>(A a)</argsstring>
+        <name>ceil</name>
+        <qualifiedname>MR::ImGuiMath::ceil</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="127" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="127" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1ab2120d83ad46fc54b4a21db479448c46" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::Vector</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ImGuiMath::dot</definition>
+        <argsstring>(A a, A b)</argsstring>
+        <name>dot</name>
+        <qualifiedname>MR::ImGuiMath::dot</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>A</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="129" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a9b787db1b3551a333f5fae1addb214bd" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::Vector</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ImGuiMath::lengthSq</definition>
+        <argsstring>(A a)</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>MR::ImGuiMath::lengthSq</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="131" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="131" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a3f909828dc97dd9d3ebcc2c534d94968" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::Vector</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ImGuiMath::length</definition>
+        <argsstring>(A a)</argsstring>
+        <name>length</name>
+        <qualifiedname>MR::ImGuiMath::length</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="132" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a3efcf38853e709434fc3e781cef13f7a" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::Vector</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+        </templateparamlist>
+        <type>A</type>
+        <definition>A MR::ImGuiMath::normalize</definition>
+        <argsstring>(A a)</argsstring>
+        <name>normalize</name>
+        <qualifiedname>MR::ImGuiMath::normalize</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="134" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="134" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a5dd8586dafaa70c20f2e723116368027" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>ImVec2</type>
+        <definition>ImVec2 MR::ImGuiMath::rot90</definition>
+        <argsstring>(ImVec2 a)</argsstring>
+        <name>rot90</name>
+        <qualifiedname>MR::ImGuiMath::rot90</qualifiedname>
+        <param>
+          <type>ImVec2</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="136" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="136" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a1b10073d5f904b51b53263f742597596" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::Vector</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+          <param>
+            <type>detail::Scalar</type>
+            <declname>B</declname>
+            <defname>B</defname>
+          </param>
+        </templateparamlist>
+        <type>A</type>
+        <definition>A MR::ImGuiMath::mix</definition>
+        <argsstring>(B t, A a, A b)</argsstring>
+        <name>mix</name>
+        <qualifiedname>MR::ImGuiMath::mix</qualifiedname>
+        <param>
+          <type>B</type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>A</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="138" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="138" bodyend="138"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1ac034e81727be0de1a1b7d5c5835a7283" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A</type>
+          </param>
+          <param>
+            <type>typename B</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ImGuiMath::min</definition>
+        <argsstring>(A a, B b)</argsstring>
+        <name>min</name>
+        <qualifiedname>MR::ImGuiMath::min</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>B</type>
+          <declname>b</declname>
+        </param>
+    <requiresclause>detail::ValidOperands&lt;A, B&gt;    </requiresclause>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="141" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="141" bodyend="141"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a12ab63056037f694d9ccdffda8ddb013" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename A</type>
+          </param>
+          <param>
+            <type>typename B</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::ImGuiMath::max</definition>
+        <argsstring>(A a, B b)</argsstring>
+        <name>max</name>
+        <qualifiedname>MR::ImGuiMath::max</qualifiedname>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>B</type>
+          <declname>b</declname>
+        </param>
+    <requiresclause>detail::ValidOperands&lt;A, B&gt;    </requiresclause>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="143" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="143" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a688fbf496bac1ba949b29be3ec9a96c4" prot="public" static="no" nodiscard="yes" constexpr="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::Vector</type>
+            <declname>T</declname>
+            <defname>T</defname>
+          </param>
+          <param>
+            <type>typename A</type>
+          </param>
+          <param>
+            <type>typename B</type>
+          </param>
+        </templateparamlist>
+        <type>T</type>
+        <definition>T MR::ImGuiMath::clamp</definition>
+        <argsstring>(T value, A a, B b)</argsstring>
+        <name>clamp</name>
+        <qualifiedname>MR::ImGuiMath::clamp</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>A</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>B</type>
+          <declname>b</declname>
+        </param>
+    <requiresclause>detail::ValidOperands&lt;T, A, B&gt;    </requiresclause>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="146" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" bodystart="146" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a7a4714344a7e4547c8fd858658c8a54a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::VectorOrScalar</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::ImGuiMath::CompareAll</definition>
+        <argsstring>(A) -&gt; CompareAll&lt; A &gt;</argsstring>
+        <name>CompareAll</name>
+        <qualifiedname>MR::ImGuiMath::CompareAll</qualifiedname>
+        <param>
+          <type>A</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="185" column="5" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" declline="185" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1ImGuiMath_1a5536e17f9eef79e57335bbfaa24bcc2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>detail::VectorOrScalar</type>
+            <declname>A</declname>
+            <defname>A</defname>
+          </param>
+        </templateparamlist>
+        <type></type>
+        <definition>MR::ImGuiMath::CompareAny</definition>
+        <argsstring>(A) -&gt; CompareAny&lt; A &gt;</argsstring>
+        <name>CompareAny</name>
+        <qualifiedname>MR::ImGuiMath::CompareAny</qualifiedname>
+        <param>
+          <type>A</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="193" column="5" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" declline="193" declcolumn="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Utilities. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>C++20 generates <computeroutput>!=</computeroutput> from <computeroutput>==</computeroutput>. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiVectorOperators.h" line="9" column="1"/>
+  </compounddef>
+</doxygen>

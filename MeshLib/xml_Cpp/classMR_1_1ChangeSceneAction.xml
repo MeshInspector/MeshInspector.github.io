@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeSceneAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeSceneAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeSceneAction_8h" local="no">MRChangeSceneAction.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gae23bede5fadd45b799171e142607c1d1" kind="enum"><name>Type</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga831c6b72e952e6fe1f5d4f8d348be989" kind="variable"><name>parent_</name></member>
+      <member refid="group__GeneralGroup_1gaaa9e487686caa8731f10191d47bb1804" kind="variable"><name>nextObj_</name></member>
+      <member refid="group__GeneralGroup_1ga08f657cc0c6e307c5c975fdb109f88b4" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gaa1167bddbf51b467aaf64941ae2010f5" kind="variable"><name>name_</name></member>
+      <member refid="group__GeneralGroup_1gae6ce83b1c37045ab15b3374229485742" kind="variable"><name>type_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga1de30bd403835a03cc79234ac5f31280" kind="function"><name>ChangeSceneAction</name></member>
+      <member refid="group__GeneralGroup_1gad1dec660d1132592b4ea2eb4ad53dda0" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gabe4134fb5816e6ed341b5b84526fe6c0" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gafc8063a119e30688b93c3e6d04cb77d2" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga86fb076827d66446d0309de6e8114e90" kind="function"><name>updateParent_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Change scene action </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeSceneAction</label>
+        <link refid="classMR_1_1ChangeSceneAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeSceneAction</label>
+        <link refid="classMR_1_1ChangeSceneAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneAction.h" bodystart="16" bodyend="41"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gabe4134fb5816e6ed341b5b84526fe6c0" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga1de30bd403835a03cc79234ac5f31280" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>ChangeSceneAction</name></member>
+      <member refid="group__GeneralGroup_1gafc8063a119e30688b93c3e6d04cb77d2" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gad1dec660d1132592b4ea2eb4ad53dda0" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaa1167bddbf51b467aaf64941ae2010f5" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1gaaa9e487686caa8731f10191d47bb1804" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>nextObj_</name></member>
+      <member refid="group__GeneralGroup_1ga08f657cc0c6e307c5c975fdb109f88b4" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga831c6b72e952e6fe1f5d4f8d348be989" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>parent_</name></member>
+      <member refid="group__GeneralGroup_1gae23bede5fadd45b799171e142607c1d1" prot="public" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1gae6ce83b1c37045ab15b3374229485742" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga86fb076827d66446d0309de6e8114e90" prot="private" virt="non-virtual"><scope>MR::ChangeSceneAction</scope><name>updateParent_</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeSceneAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

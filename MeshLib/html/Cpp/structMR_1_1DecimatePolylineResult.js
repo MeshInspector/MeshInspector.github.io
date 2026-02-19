@@ -1,5 +1,5 @@
 var structMR_1_1DecimatePolylineResult =
 [
-    [ "errorIntroduced", "structMR_1_1DecimatePolylineResult.html#a5e4317d37968dd6016c8fc5826f9e8f5", null ],
-    [ "vertsDeleted", "structMR_1_1DecimatePolylineResult.html#af042d52b52cb89cb1dbf4a779d82f3c6", null ]
+    [ "errorIntroduced", "group__GeneralGroup.html#ga5e4317d37968dd6016c8fc5826f9e8f5", null ],
+    [ "vertsDeleted", "group__GeneralGroup.html#gaf042d52b52cb89cb1dbf4a779d82f3c6", null ]
 ];

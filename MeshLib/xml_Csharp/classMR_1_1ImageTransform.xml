@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ImageTransform" kind="class" language="C#" prot="public">
+    <compoundname>MR::ImageTransform</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ImageTransform_1aa2a44dac4eb479dbccd5ba8aecea5b09" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Image" kindref="compound">MR.Image</ref></type>
+        <definition>static unsafe MR.Image MR.ImageTransform.rotateClockwise90</definition>
+        <argsstring>(MR.Const_Image image)</argsstring>
+        <name>rotateClockwise90</name>
+        <qualifiedname>MR.ImageTransform.rotateClockwise90</qualifiedname>
+        <param>
+          <type>MR.Const_Image</type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+<para>creates an image rotated 90 degrees clockwise Generated from function <computeroutput><ref refid="classMR_1_1ImageTransform_1aa2a44dac4eb479dbccd5ba8aecea5b09" kindref="member">MR.ImageTransform.rotateClockwise90</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" line="9" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" bodystart="9" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRImageTransform.cs" bodystart="4" bodyend="15"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ImageTransform_1aa2a44dac4eb479dbccd5ba8aecea5b09" prot="public" virt="non-virtual"><scope>MR::ImageTransform</scope><name>rotateClockwise90</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

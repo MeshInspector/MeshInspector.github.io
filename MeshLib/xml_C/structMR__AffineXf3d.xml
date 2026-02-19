@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__AffineXf3d" kind="struct" language="C++" prot="public">
+    <compoundname>MR_AffineXf3d</compoundname>
+    <includes refid="MRAffineXf_8h" local="no">MRAffineXf.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__AffineXf3d_1a5e3b8ea18458278f2479dc040f6de9ca" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Matrix3d" kindref="compound">MR_Matrix3d</ref></type>
+        <definition>MR_Matrix3d MR_AffineXf3d::A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <qualifiedname>MR_AffineXf3d::A</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" line="48" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__AffineXf3d_1ab0d69cf6603f7a27b2acca0c87a18e03" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector3d" kindref="compound">MR_Vector3d</ref></type>
+        <definition>MR_Vector3d MR_AffineXf3d::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR_AffineXf3d::b</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" line="49" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>affine transformation: y = A*x + b, where A in VxV, and b in V Generated from class <computeroutput>MR::AffineXf3d</computeroutput>. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR_AffineXf3d</label>
+        <link refid="structMR__AffineXf3d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>A</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR_Matrix3d</label>
+        <link refid="structMR__Matrix3d"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+          <edgelabel>z</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR_Vector3d</label>
+        <link refid="structMR__Vector3d"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" line="46" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRAffineXf.h" bodystart="47" bodyend="50"/>
+    <listofallmembers>
+      <member refid="structMR__AffineXf3d_1a5e3b8ea18458278f2479dc040f6de9ca" prot="public" virt="non-virtual"><scope>MR_AffineXf3d</scope><name>A</name></member>
+      <member refid="structMR__AffineXf3d_1ab0d69cf6603f7a27b2acca0c87a18e03" prot="public" virt="non-virtual"><scope>MR_AffineXf3d</scope><name>b</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

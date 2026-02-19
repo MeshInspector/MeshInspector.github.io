@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer" kind="struct" language="C++" prot="private">
+    <compoundname>MR::ViewportGL::PickTextureFrameBuffer</compoundname>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaa015ebe85a20de5b45fbc80a2f7070e8" kind="variable"><name>framebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gadc55d58803804b8c6216dbfdf53b3031" kind="variable"><name>colorTexture_</name></member>
+      <member refid="group__GeneralGroup_1gaa0c4df505546ccee66c9d06cc0473bba" kind="variable"><name>renderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga60826e3dab5e862c58fe60bc2b2923a2" kind="variable"><name>size_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa410eb80f6dbb5feabd40e00997b629a" kind="function"><name>resize</name></member>
+      <member refid="group__GeneralGroup_1ga1d8e6d876b679746abc52c5c5354613a" kind="function"><name>del</name></member>
+      <member refid="group__GeneralGroup_1gab74a54a2d94d7b5a11e9fcbf8858d594" kind="function"><name>bind</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="114" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="115" bodyend="124"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab74a54a2d94d7b5a11e9fcbf8858d594" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>bind</name></member>
+      <member refid="group__GeneralGroup_1gadc55d58803804b8c6216dbfdf53b3031" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>colorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga1d8e6d876b679746abc52c5c5354613a" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>del</name></member>
+      <member refid="group__GeneralGroup_1gaa015ebe85a20de5b45fbc80a2f7070e8" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>framebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaa0c4df505546ccee66c9d06cc0473bba" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>renderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaa410eb80f6dbb5feabd40e00997b629a" prot="public" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>resize</name></member>
+      <member refid="group__GeneralGroup_1ga60826e3dab5e862c58fe60bc2b2923a2" prot="private" virt="non-virtual"><scope>MR::ViewportGL::PickTextureFrameBuffer</scope><name>size_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

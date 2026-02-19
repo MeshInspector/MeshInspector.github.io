@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRWatershedGraph_8h" kind="file" language="C++">
+    <compoundname>MRWatershedGraph.h</compoundname>
+    <includes refid="MRGraph_8h" local="yes">MRGraph.h</includes>
+    <includes local="no">cassert</includes>
+    <includes local="no">cfloat</includes>
+    <incdepgraph>
+      <node id="14">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRGraph.h</label>
+        <link refid="MRGraph_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="6">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRWatershedGraph.h</label>
+        <link refid="MRWatershedGraph_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="8">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="15">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="9">
+        <label>cassert</label>
+      </node>
+      <node id="19">
+        <label>cfloat</label>
+      </node>
+      <node id="7">
+        <label>concepts</label>
+      </node>
+      <node id="11">
+        <label>cstddef</label>
+      </node>
+      <node id="16">
+        <label>functional</label>
+      </node>
+      <node id="17">
+        <label>iosfwd</label>
+      </node>
+      <node id="18">
+        <label>iterator</label>
+      </node>
+      <node id="12">
+        <label>type_traits</label>
+      </node>
+      <node id="13">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classMR_1_1WatershedGraph" prot="public">MR::WatershedGraph</innerclass>
+    <innerclass refid="structMR_1_1WatershedGraph_1_1BasinInfo" prot="public">MR::WatershedGraph::BasinInfo</innerclass>
+    <innerclass refid="structMR_1_1WatershedGraph_1_1BdInfo" prot="public">MR::WatershedGraph::BdInfo</innerclass>
+    <innerclass refid="structMR_1_1WatershedGraph_1_1OverflowPoint" prot="public">MR::WatershedGraph::OverflowPoint</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRGraph_8h" kindref="compound">MRGraph.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cassert&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cfloat&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="classMR_1_1WatershedGraph" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1WatershedGraph" kindref="compound">WatershedGraph</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1WatershedGraph_1_1BasinInfo" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1WatershedGraph_1_1BasinInfo" kindref="compound">BasinInfo</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga2e9b6e24cf6016e21030cbec21fb1240" kindref="member">lowestVert</ref>;<sp/></highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1gab2cb4ea433e1e7448b0b1d3bafa8c2f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab2cb4ea433e1e7448b0b1d3bafa8c2f2" kindref="member">lowestLevel</ref><sp/>=<sp/>FLT_MAX;<sp/></highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga890dc5714dfd53c95b4678e7afd830d0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga890dc5714dfd53c95b4678e7afd830d0" kindref="member">area</ref><sp/>=<sp/>0;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1ga01068990cefec48cd1195061d70f5b9a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga01068990cefec48cd1195061d70f5b9a" kindref="member">lowestBdLevel</ref><sp/>=<sp/>FLT_MAX;<sp/></highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kindref="member">maxVolume</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" kindref="member">accVolume</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1gaf87b0b720148b1f8a07ced0557424191" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf87b0b720148b1f8a07ced0557424191" kindref="member">lastUpdateAmount</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1gac517049cbab38022a0ae418971403ec9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac517049cbab38022a0ae418971403ec9" kindref="member">lastMergeLevel</ref><sp/>=<sp/>FLT_MAX;<sp/></highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga52315365a6d8090680080cd9e1d62360" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga52315365a6d8090680080cd9e1d62360" kindref="member">lastMergeVolume</ref><sp/>=<sp/>0;<sp/></highlight></codeline>
+<codeline lineno="29" refid="group__GeneralGroup_1gad87c8f736d8d1dea1c3085b690ddbab3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref><sp/><ref refid="group__GeneralGroup_1gad87c8f736d8d1dea1c3085b690ddbab3" kindref="member">overflowVia</ref>;<sp/></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1ga6505f36f6b37f2d51d0564a3de4b98e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga6505f36f6b37f2d51d0564a3de4b98e0" kindref="member">BasinInfo</ref>()<sp/>{}<sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1ga8a9b12285fe8639813ace28a93ef0f29" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8a9b12285fe8639813ace28a93ef0f29" kindref="member">amountTillOverflow</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="36"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>!<ref refid="group__GeneralGroup_1gad87c8f736d8d1dea1c3085b690ddbab3" kindref="member">overflowVia</ref><sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/><ref refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kindref="member">maxVolume</ref><sp/>&gt;=<sp/><ref refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" kindref="member">accVolume</ref><sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kindref="member">maxVolume</ref><sp/>-<sp/><ref refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" kindref="member">accVolume</ref><sp/>)<sp/>/<sp/><ref refid="group__GeneralGroup_1ga890dc5714dfd53c95b4678e7afd830d0" kindref="member">area</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1gadf005a578ca2b6fe35277c7ea358737e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadf005a578ca2b6fe35277c7ea358737e" kindref="member">approxLevel</ref>()</highlight><highlight class="keyword"><sp/>const</highlight></codeline>
+<codeline lineno="44"><highlight class="keyword"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/><ref refid="group__GeneralGroup_1gac517049cbab38022a0ae418971403ec9" kindref="member">lastMergeLevel</ref><sp/>&lt;=<sp/><ref refid="group__GeneralGroup_1ga01068990cefec48cd1195061d70f5b9a" kindref="member">lowestBdLevel</ref><sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/><ref refid="group__GeneralGroup_1ga52315365a6d8090680080cd9e1d62360" kindref="member">lastMergeVolume</ref><sp/>&lt;=<sp/><ref refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kindref="member">maxVolume</ref><sp/>);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kindref="member">maxVolume</ref><sp/>&lt;=<sp/><ref refid="group__GeneralGroup_1ga52315365a6d8090680080cd9e1d62360" kindref="member">lastMergeVolume</ref><sp/>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga01068990cefec48cd1195061d70f5b9a" kindref="member">lowestBdLevel</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>p<sp/>=<sp/>(<sp/><ref refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kindref="member">maxVolume</ref><sp/>-<sp/><ref refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" kindref="member">accVolume</ref><sp/>)<sp/>/<sp/>(<sp/><ref refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kindref="member">maxVolume</ref><sp/>-<sp/><ref refid="group__GeneralGroup_1ga52315365a6d8090680080cd9e1d62360" kindref="member">lastMergeVolume</ref><sp/>);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>p<sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>p<sp/>&lt;=<sp/>1<sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>p<sp/>*<sp/><ref refid="group__GeneralGroup_1gac517049cbab38022a0ae418971403ec9" kindref="member">lastMergeLevel</ref><sp/>+<sp/>(<sp/>1<sp/>-<sp/>p<sp/>)<sp/>*<sp/><ref refid="group__GeneralGroup_1ga01068990cefec48cd1195061d70f5b9a" kindref="member">lowestBdLevel</ref>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1ga0b1a50cc94b8a8eb3779ca22881e63d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0b1a50cc94b8a8eb3779ca22881e63d3" kindref="member">updateAccVolume</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>amount<sp/>)</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>!<ref refid="group__GeneralGroup_1gad87c8f736d8d1dea1c3085b690ddbab3" kindref="member">overflowVia</ref><sp/>);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>assert(<sp/>amount<sp/>&gt;=<sp/><ref refid="group__GeneralGroup_1gaf87b0b720148b1f8a07ced0557424191" kindref="member">lastUpdateAmount</ref><sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" kindref="member">accVolume</ref><sp/>+=<sp/>(<sp/>amount<sp/>-<sp/><ref refid="group__GeneralGroup_1gaf87b0b720148b1f8a07ced0557424191" kindref="member">lastUpdateAmount</ref><sp/>)<sp/>*<sp/><ref refid="group__GeneralGroup_1ga890dc5714dfd53c95b4678e7afd830d0" kindref="member">area</ref>;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/><ref refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" kindref="member">accVolume</ref><sp/>&gt;<sp/><ref refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kindref="member">maxVolume</ref><sp/>)<sp/></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1ga5c26879d176c92192f673552c21b3ea9" kindref="member">accVolume</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1ga4ed853b22498692e3105c691d03fbd9e" kindref="member">maxVolume</ref>;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaf87b0b720148b1f8a07ced0557424191" kindref="member">lastUpdateAmount</ref><sp/>=<sp/>amount;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67" refid="structMR_1_1WatershedGraph_1_1BdInfo" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1WatershedGraph_1_1BdInfo" kindref="compound">BdInfo</ref></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="69" refid="group__GeneralGroup_1ga1cef595f818149e8ab3c459988194aac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1ga1cef595f818149e8ab3c459988194aac" kindref="member">lowestVert</ref>;<sp/></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74" refid="group__GeneralGroup_1gacbb29b2acc410b0a58645c023d793842" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gacbb29b2acc410b0a58645c023d793842" kindref="member">WatershedGraph</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;int, FaceId&gt;</ref><sp/>&amp;<sp/>face2basin,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" kindref="member">numBasins</ref><sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="group__GeneralGroup_1gaef299dd01113f7319f2969d20c2115a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaef299dd01113f7319f2969d20c2115a5" kindref="member">getHeightAt</ref>(<sp/>VertId<sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="group__GeneralGroup_1ga52950e2fbd6e18253951cd1a837102dc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Graph" kindref="compound">Graph</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga52950e2fbd6e18253951cd1a837102dc" kindref="member">graph</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>graph_;<sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="group__GeneralGroup_1gaa866c31119fcc9efe5cde7a9f93ee2c4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa866c31119fcc9efe5cde7a9f93ee2c4" kindref="member">totalArea</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>totalArea_;<sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga75dfd7892ea152c119be891a63d24d0e" kindref="member">numBasins</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)graph_.<ref refid="group__GeneralGroup_1ga60bd1c95b46edb238590e59ba2066233" kindref="member">validVerts</ref>().count()<sp/>-<sp/>1;<sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1gaaded095af3e5c37cf3299086f255480d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WatershedGraph_1_1BasinInfo" kindref="compound">BasinInfo</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gaaded095af3e5c37cf3299086f255480d" kindref="member">basinInfo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>basins_[v];<sp/>}</highlight></codeline>
+<codeline lineno="90" refid="group__GeneralGroup_1ga9af63cdf457000d537668057705b684c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1WatershedGraph_1_1BasinInfo" kindref="compound">BasinInfo</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1ga9af63cdf457000d537668057705b684c" kindref="member">basinInfo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>basins_[v];<sp/>}</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="group__GeneralGroup_1gac60717bcac94de1bf3eaf1f3eba5753f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1WatershedGraph_1_1BdInfo" kindref="compound">BdInfo</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gac60717bcac94de1bf3eaf1f3eba5753f" kindref="member">bdInfo</ref>(<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref><sp/>e<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bds_[e];<sp/>}</highlight></codeline>
+<codeline lineno="94" refid="group__GeneralGroup_1gae5da135593dd2516248f691c21c4afe2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="structMR_1_1WatershedGraph_1_1BdInfo" kindref="compound">BdInfo</ref><sp/>&amp;<sp/><ref refid="group__GeneralGroup_1gae5da135593dd2516248f691c21c4afe2" kindref="member">bdInfo</ref>(<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref><sp/>e<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bds_[e];<sp/>}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="group__GeneralGroup_1ga4debe23a2fd38c67f4bb53ae58dd9e9e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga4debe23a2fd38c67f4bb53ae58dd9e9e" kindref="member">outsideId</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>outsideId_;<sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="group__GeneralGroup_1gae7ff9c7e88d770363e0d26f7e60e0db4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1gae7ff9c7e88d770363e0d26f7e60e0db4" kindref="member">getRootBasin</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103" refid="group__GeneralGroup_1gac43f8ee39212a5349bfd21fd805b99cb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1gac43f8ee39212a5349bfd21fd805b99cb" kindref="member">flowsTo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="group__GeneralGroup_1ga6021b04d6337d5ef875942d64ce5b176" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga6021b04d6337d5ef875942d64ce5b176" kindref="member">flowsFinallyTo</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>exceptOutside<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="group__GeneralGroup_1gaabc0313f660489a2ef8d2fe8512066bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaabc0313f660489a2ef8d2fe8512066bc" kindref="member">setParentsToRoots</ref>();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="group__GeneralGroup_1ga36e73384698fb59ae775796b859ad1b5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::pair&lt;Graph::EdgeId,<sp/>float&gt;<sp/><ref refid="group__GeneralGroup_1ga36e73384698fb59ae775796b859ad1b5" kindref="member">findLowestBd</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="group__GeneralGroup_1gab91edc99a7a3042ca9f8d3cb80a74f4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1gab91edc99a7a3042ca9f8d3cb80a74f4c" kindref="member">merge</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v0,<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>v1<sp/>);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="group__GeneralGroup_1gab729c10829c758b62d6563fffa61d48e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1gab729c10829c758b62d6563fffa61d48e" kindref="member">mergeViaBd</ref>(<sp/><ref refid="group__GeneralGroup_1gab7466409c32ef6a047fedfe19ed28c1b" kindref="member">Graph::EdgeId</ref><sp/>bd<sp/>);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="group__GeneralGroup_1ga2b1df8bb29c7135286e8e6b59b036e27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga2b1df8bb29c7135286e8e6b59b036e27" kindref="member">getBasinFaces</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>basin<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="group__GeneralGroup_1gae6bda4b2c59aa5d9d7dad25244ecc7cd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;FaceBitSet, Graph::VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1gae6bda4b2c59aa5d9d7dad25244ecc7cd" kindref="member">getAllBasinFaces</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>joinOverflowBasins<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="group__GeneralGroup_1ga8a02b4b9dff2548231f6154119e3de65" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>FaceBitSet<sp/><ref refid="group__GeneralGroup_1ga8a02b4b9dff2548231f6154119e3de65" kindref="member">getBasinFacesBelowLevel</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>basin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>waterLevel<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="group__GeneralGroup_1ga154c7de06138c1644c08aacc3176192b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga154c7de06138c1644c08aacc3176192b" kindref="member">computeBasinVolume</ref>(<sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>basin,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>waterLevel<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139" refid="group__GeneralGroup_1ga1275ffaa02426a03bcf3c68666da7b9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>UndirectedEdgeBitSet<sp/><ref refid="group__GeneralGroup_1ga1275ffaa02426a03bcf3c68666da7b9b" kindref="member">getInterBasinEdges</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>joinOverflowBasins<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142" refid="structMR_1_1WatershedGraph_1_1OverflowPoint" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1WatershedGraph_1_1OverflowPoint" kindref="compound">OverflowPoint</ref></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="144" refid="group__GeneralGroup_1gab33c7f11e2452d1c74c79f635d4f04f5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="group__GeneralGroup_1gab33c7f11e2452d1c74c79f635d4f04f5" kindref="member">v</ref>;<sp/></highlight></codeline>
+<codeline lineno="145" refid="group__GeneralGroup_1ga9b58bb17eb503942a4dcd7150690cfe2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga9b58bb17eb503942a4dcd7150690cfe2" kindref="member">fullBasin</ref>;</highlight></codeline>
+<codeline lineno="146" refid="group__GeneralGroup_1ga4058c6bc93b43ba32fc92f1f336b7619" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/><ref refid="group__GeneralGroup_1ga4058c6bc93b43ba32fc92f1f336b7619" kindref="member">overflowTo</ref>;<sp/></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150" refid="group__GeneralGroup_1ga2b96d5828cae33b797cab004cf34e262" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/>std::vector&lt;OverflowPoint&gt;<sp/><ref refid="group__GeneralGroup_1ga2b96d5828cae33b797cab004cf34e262" kindref="member">getOverflowPoints</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="group__GeneralGroup_1ga281a2a110ab44b33441d649c8461982b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Graph::VertId, Graph::VertId&gt;</ref><sp/><ref refid="group__GeneralGroup_1ga281a2a110ab44b33441d649c8461982b" kindref="member">iniBasin2Tgt</ref>(<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>joinOverflowBasins<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal"><sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref><sp/>&amp;<sp/>mesh_;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;int, FaceId&gt;</ref><sp/>&amp;<sp/>face2iniBasin_;</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Graph" kindref="compound">Graph</ref><sp/>graph_;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;BasinInfo, Graph::VertId&gt;</ref><sp/>basins_;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;BdInfo, Graph::EdgeId&gt;</ref><sp/>bds_;</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>totalArea_<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gaeeffe9dd1229206b5db549f61cbad105" kindref="member">Graph::VertId</ref><sp/>outsideId_;</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Graph::VertId, Graph::VertId&gt;</ref><sp/>parentBasin_;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h"/>
+  </compounddef>
+</doxygen>

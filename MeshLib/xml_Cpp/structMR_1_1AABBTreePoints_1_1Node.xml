@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1AABBTreePoints_1_1Node" kind="struct" language="C++" prot="public">
+    <compoundname>MR::AABBTreePoints::Node</compoundname>
+    <includes refid="MRAABBTreePoints_8h" local="no">MRAABBTreePoints.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1AABBTreePoints_1_1Node_1a2153d4fd7d12b27618511103c9080df3" prot="public" static="no" mutable="no">
+        <type>Box3f</type>
+        <definition>Box3f MR::AABBTreePoints::Node::box</definition>
+        <argsstring></argsstring>
+        <name>box</name>
+        <qualifiedname>MR::AABBTreePoints::Node::box</qualifiedname>
+        <briefdescription>
+<para>bounding box of whole subtree </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="20" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1AABBTreePoints_1_1Node_1af8f74a9f0dc8b291dca8ff290c8b45a1" prot="public" static="no" mutable="no">
+        <type>NodeId</type>
+        <definition>NodeId MR::AABBTreePoints::Node::l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <qualifiedname>MR::AABBTreePoints::Node::l</qualifiedname>
+        <briefdescription>
+<para>left child node for an inner node, or -(l+1) is the index of the first point in a leaf node </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="21" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1AABBTreePoints_1_1Node_1aa7d207477de6241a5d47a8971c2944aa" prot="public" static="no" mutable="no">
+        <type>NodeId</type>
+        <definition>NodeId MR::AABBTreePoints::Node::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <qualifiedname>MR::AABBTreePoints::Node::r</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>right child node for an inner node, or -(r+1) is the index of the last point in a leaf node </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="22" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1AABBTreePoints_1_1Node_1a56b80dcc65ea72cecfafa260d4f8300a" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::AABBTreePoints::Node::leaf</definition>
+        <argsstring>() const</argsstring>
+        <name>leaf</name>
+        <qualifiedname>MR::AABBTreePoints::Node::leaf</qualifiedname>
+        <briefdescription>
+<para>returns true if node represent real points, false if it has child nodes </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="24" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AABBTreePoints_1_1Node_1a4706c948a08613c970dd47e89dfc42b8" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::pair&lt; int, int &gt;</type>
+        <definition>std::pair&lt; int, int &gt; MR::AABBTreePoints::Node::getLeafPointRange</definition>
+        <argsstring>() const</argsstring>
+        <name>getLeafPointRange</name>
+        <qualifiedname>MR::AABBTreePoints::Node::getLeafPointRange</qualifiedname>
+        <briefdescription>
+<para>returns [first,last) indices of leaf points </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="26" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1AABBTreePoints_1_1Node_1a0951e423adb41a83132b36c18125f02b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::AABBTreePoints::Node::setLeafPointRange</definition>
+        <argsstring>(int first, int last)</argsstring>
+        <name>setLeafPointRange</name>
+        <qualifiedname>MR::AABBTreePoints::Node::setLeafPointRange</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>last</declname>
+        </param>
+        <briefdescription>
+<para>sets [first,last) to this node (leaf) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="28" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="28" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h" bodystart="19" bodyend="29"/>
+    <listofallmembers>
+      <member refid="structMR_1_1AABBTreePoints_1_1Node_1a2153d4fd7d12b27618511103c9080df3" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints::Node</scope><name>box</name></member>
+      <member refid="structMR_1_1AABBTreePoints_1_1Node_1a4706c948a08613c970dd47e89dfc42b8" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints::Node</scope><name>getLeafPointRange</name></member>
+      <member refid="structMR_1_1AABBTreePoints_1_1Node_1af8f74a9f0dc8b291dca8ff290c8b45a1" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints::Node</scope><name>l</name></member>
+      <member refid="structMR_1_1AABBTreePoints_1_1Node_1a56b80dcc65ea72cecfafa260d4f8300a" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints::Node</scope><name>leaf</name></member>
+      <member refid="structMR_1_1AABBTreePoints_1_1Node_1aa7d207477de6241a5d47a8971c2944aa" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints::Node</scope><name>r</name></member>
+      <member refid="structMR_1_1AABBTreePoints_1_1Node_1a0951e423adb41a83132b36c18125f02b" prot="public" virt="non-virtual"><scope>MR::AABBTreePoints::Node</scope><name>setLeafPointRange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

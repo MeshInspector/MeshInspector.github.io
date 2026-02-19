@@ -1,6 +1,6 @@
 var classMR_1_1VoxelsSave =
 [
-    [ "VoxelsSaver", "../Cpp/namespaceMR_1_1VoxelsSave.html#a5289196c605171ac3410bbe845a26176", null ],
+    [ "SavingSettings", "classMR_1_1VoxelsSave_1_1SavingSettings.html", "classMR_1_1VoxelsSave_1_1SavingSettings" ],
     [ "gridToAnySupportedFormat", "classMR_1_1VoxelsSave.html#a61d164e695f8a35d7ef40d92b503ac2e", null ],
     [ "gridToRawAutoname", "classMR_1_1VoxelsSave.html#a0be9c0e9d104e38b4f8a49f2d2122d17", null ],
     [ "gridToRawFloat", "classMR_1_1VoxelsSave.html#a4a756f407097d79b64c293ed7bf92ccd", null ],

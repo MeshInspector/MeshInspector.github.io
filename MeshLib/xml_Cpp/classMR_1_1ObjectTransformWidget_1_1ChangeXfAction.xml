@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ObjectTransformWidget::ChangeXfAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRObjectTransformWidget_8h" local="no">MRObjectTransformWidget.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga1f50f1aa24fe351311c136f66012e72f" kind="variable"><name>widget_</name></member>
+      <member refid="group__GeneralGroup_1gae7092fc1c0f2a0ff0607a0633b4f2f67" kind="variable"><name>xf_</name></member>
+      <member refid="group__GeneralGroup_1ga6b8c0100918d11819cf2487de4d21069" kind="variable"><name>scaledXf_</name></member>
+      <member refid="group__GeneralGroup_1ga9a170d82ad80162ca62ecb6aab3519b4" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga68b04cdedc80d6154aa103f169f308be" kind="function"><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1ga0afac4f4b06cfb2f11fe773ecb84a131" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga9af38d8c2827041c970c5eec9eb10e05" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga4db820bb720239af368c1f2e8afca2a3" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>History action for TransformWidget. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::ObjectTransformWidget::ChangeXfAction</label>
+        <link refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::ObjectTransformWidget::ChangeXfAction</label>
+        <link refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" line="291" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRObjectTransformWidget.h" bodystart="292" bodyend="331"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga9af38d8c2827041c970c5eec9eb10e05" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga68b04cdedc80d6154aa103f169f308be" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1ga4db820bb720239af368c1f2e8afca2a3" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga0afac4f4b06cfb2f11fe773ecb84a131" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga9a170d82ad80162ca62ecb6aab3519b4" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga6b8c0100918d11819cf2487de4d21069" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>scaledXf_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga1f50f1aa24fe351311c136f66012e72f" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>widget_</name></member>
+      <member refid="group__GeneralGroup_1gae7092fc1c0f2a0ff0607a0633b4f2f67" prot="private" virt="non-virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>xf_</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ObjectTransformWidget::ChangeXfAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

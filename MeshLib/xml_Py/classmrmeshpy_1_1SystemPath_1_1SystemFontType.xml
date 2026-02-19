@@ -1,0 +1,387 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SystemPath_1_1SystemFontType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SystemPath::SystemFontType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a38be55d285d5e466954dc2357c733470" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SystemPath.SystemFontType::Bold</definition>
+        <argsstring></argsstring>
+        <name>Bold</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.Bold</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType" kindref="compound">SystemPath.SystemFontType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55961" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1ac709b10dd15a5f1f71dbade2f74786c9" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SystemPath.SystemFontType::BoldItalic</definition>
+        <argsstring></argsstring>
+        <name>BoldItalic</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.BoldItalic</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType" kindref="compound">SystemPath.SystemFontType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55962" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a669a4a18d3c5a6e4d95743ecc1e8d040" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SystemPath.SystemFontType::Count</definition>
+        <argsstring></argsstring>
+        <name>Count</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.Count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType" kindref="compound">SystemPath.SystemFontType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55963" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1aba082b9b458f65e76a3ccc04b96564a8" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SystemPath.SystemFontType::Italic</definition>
+        <argsstring></argsstring>
+        <name>Italic</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.Italic</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType" kindref="compound">SystemPath.SystemFontType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55964" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a570b6bd6020ad1e5454722a4a8a0fa26" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SystemPath.SystemFontType::Regular</definition>
+        <argsstring></argsstring>
+        <name>Regular</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.Regular</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType" kindref="compound">SystemPath.SystemFontType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55965" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1af58316c591e7a7d708aacbc973546eca" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SystemPath.SystemFontType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType" kindref="compound">SystemPath.SystemFontType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55966" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1acc7a5ebd7dd315f2439fe6628b44285c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SystemPath.SystemFontType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55967" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55967" bodyend="55968"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a170ba9fe25885071437ba2fa6a69cc51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SystemPath.SystemFontType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55969" bodyend="55970"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1ae4069b1ee2b0c97c1b1bef58b6ff4bb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SystemPath.SystemFontType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55971" bodyend="55972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1ab82af07dbda6b075d9ea58f2f6fa2b75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SystemPath.SystemFontType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55973" bodyend="55974"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a36149d57aea01f7191e0623b1b072e63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemPath.SystemFontType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55975" bodyend="55976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1aab507f89cc9691b53e89b1d579818990" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SystemPath.SystemFontType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55977" bodyend="55978"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a94fb3adfc9ba82f81deeaf35018d0b93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SystemPath.SystemFontType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55979" bodyend="55980"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1aa77fe82f43540629d70676a205198b3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SystemPath.SystemFontType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55981" bodyend="55982"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1ac342341d06b57fec6b4d29cf91401d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SystemPath.SystemFontType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55983" bodyend="55984"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a0b55fd8e68d2f931f813b086d076953c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SystemPath.SystemFontType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55985" bodyend="55986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a2a26ea53e07bec752bd52945b4944b10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SystemPath.SystemFontType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55988" bodyend="55989"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a7fe3e56f276fb14c7d80f8493e372b21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SystemPath.SystemFontType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.SystemPath.SystemFontType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55991" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55991" bodyend="55993"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Regular
+
+  Bold
+
+  Italic
+
+  BoldItalic
+
+  Count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SystemPath.SystemFontType</label>
+        <link refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Bold</edgelabel>
+          <edgelabel>BoldItalic</edgelabel>
+          <edgelabel>Count</edgelabel>
+          <edgelabel>Italic</edgelabel>
+          <edgelabel>Regular</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55947" bodyend="55992"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1acc7a5ebd7dd315f2439fe6628b44285c" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a170ba9fe25885071437ba2fa6a69cc51" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1ae4069b1ee2b0c97c1b1bef58b6ff4bb4" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1ab82af07dbda6b075d9ea58f2f6fa2b75" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a36149d57aea01f7191e0623b1b072e63" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1aab507f89cc9691b53e89b1d579818990" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1af58316c591e7a7d708aacbc973546eca" prot="private" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a94fb3adfc9ba82f81deeaf35018d0b93" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1aa77fe82f43540629d70676a205198b3b" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1ac342341d06b57fec6b4d29cf91401d71" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a0b55fd8e68d2f931f813b086d076953c" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a38be55d285d5e466954dc2357c733470" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>Bold</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1ac709b10dd15a5f1f71dbade2f74786c9" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>BoldItalic</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a669a4a18d3c5a6e4d95743ecc1e8d040" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>Count</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1aba082b9b458f65e76a3ccc04b96564a8" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>Italic</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a2a26ea53e07bec752bd52945b4944b10" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a570b6bd6020ad1e5454722a4a8a0fa26" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>Regular</name></member>
+      <member refid="classmrmeshpy_1_1SystemPath_1_1SystemFontType_1a7fe3e56f276fb14c7d80f8493e372b21" prot="public" virt="non-virtual"><scope>mrmeshpy::SystemPath::SystemFontType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

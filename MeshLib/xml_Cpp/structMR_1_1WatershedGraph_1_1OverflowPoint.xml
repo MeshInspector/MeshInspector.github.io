@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WatershedGraph_1_1OverflowPoint" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WatershedGraph::OverflowPoint</compoundname>
+    <includes refid="MRWatershedGraph_8h" local="no">MRWatershedGraph.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab33c7f11e2452d1c74c79f635d4f04f5" kind="variable"><name>v</name></member>
+      <member refid="group__GeneralGroup_1ga9b58bb17eb503942a4dcd7150690cfe2" kind="variable"><name>fullBasin</name></member>
+      <member refid="group__GeneralGroup_1ga4058c6bc93b43ba32fc92f1f336b7619" kind="variable"><name>overflowTo</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>describes a point where a flow from one basin overflows into another basin </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" line="142" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRWatershedGraph.h" bodystart="143" bodyend="147"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga9b58bb17eb503942a4dcd7150690cfe2" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::OverflowPoint</scope><name>fullBasin</name></member>
+      <member refid="group__GeneralGroup_1ga4058c6bc93b43ba32fc92f1f336b7619" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::OverflowPoint</scope><name>overflowTo</name></member>
+      <member refid="group__GeneralGroup_1gab33c7f11e2452d1c74c79f635d4f04f5" prot="public" virt="non-virtual"><scope>MR::WatershedGraph::OverflowPoint</scope><name>v</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

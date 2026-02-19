@@ -1,0 +1,278 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BendContoursAlongCurveParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::BendContoursAlongCurveParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_BendContoursAlongCurveParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1BendContoursAlongCurveParams_1a3c824b7075345ef3df51e74aab610548" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.BendContoursAlongCurveParams.pivotCurveTime</definition>
+        <argsstring></argsstring>
+        <name>pivotCurveTime</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.pivotCurveTime</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Position on the curve, where bounding box&apos;s pivot point is mapped (0) - start of the curve, (1) - end of the curve </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="447" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendContoursAlongCurveParams_1ad158268a17977448f902d6dd7db9da15" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+        <definition>new unsafe ref MR.Vector2f MR.BendContoursAlongCurveParams.pivotBoxPoint</definition>
+        <argsstring></argsstring>
+        <name>pivotBoxPoint</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.pivotBoxPoint</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Position of the curve(pivotCurveTime) in the contours&apos; bounding box: (0, 0) - bottom left, (0, 1) - bottom right, (0.5, 0.5) - center, (1, 1) - top right </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="451" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendContoursAlongCurveParams_1aa4fbe8fa584d2180028d99300bc2ca16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.BendContoursAlongCurveParams.periodicCurve</definition>
+        <argsstring></argsstring>
+        <name>periodicCurve</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.periodicCurve</qualifiedname>
+        <briefdescription>
+<para>if true, curve parameter will be always within [0,curve.totalLength) with repetition: xr := mod( x, curve.totalLength ) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="454" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendContoursAlongCurveParams_1a7cfd499af47b95fbc8e17c1adced4bfe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.BendContoursAlongCurveParams.stretch</definition>
+        <argsstring></argsstring>
+        <name>stretch</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.stretch</qualifiedname>
+        <briefdescription>
+<para>stretch all contours along curve to fit in curve.totalLength </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="457" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BendContoursAlongCurveParams_1aa92397793a1bac277afba6a6ce582dfe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.BendContoursAlongCurveParams.extrusion</definition>
+        <argsstring></argsstring>
+        <name>extrusion</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.extrusion</qualifiedname>
+        <briefdescription>
+<para>Contours extrusion outside of curve level. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="460" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="460" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BendContoursAlongCurveParams_1ae25bd27a9ba86d72173cffe83e1c7191" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BendContoursAlongCurveParams</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="464" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="464" bodyend="468"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BendContoursAlongCurveParams_1aa5b34ace57687a2babac885e0d1e297c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</definition>
+        <argsstring>()</argsstring>
+        <name>BendContoursAlongCurveParams</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="474" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="474" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BendContoursAlongCurveParams_1ae10a13038184558c7bdba9d5b8cd21aa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</definition>
+        <argsstring>(float pivotCurveTime, MR.Vector2f pivotBoxPoint, bool periodicCurve, bool stretch, float extrusion)</argsstring>
+        <name>BendContoursAlongCurveParams</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>pivotCurveTime</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector2f" kindref="compound">MR.Vector2f</ref></type>
+          <declname>pivotBoxPoint</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>periodicCurve</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>stretch</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>extrusion</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1BendContoursAlongCurveParams" kindref="compound">MR.BendContoursAlongCurveParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="485" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="485" bodyend="491"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BendContoursAlongCurveParams_1abe93d95165be81233cf4fc1b8ef42fa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</definition>
+        <argsstring>(MR.Const_BendContoursAlongCurveParams _other)</argsstring>
+        <name>BendContoursAlongCurveParams</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</qualifiedname>
+        <param>
+          <type>MR.Const_BendContoursAlongCurveParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="496" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="496" bodyend="503"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BendContoursAlongCurveParams_1a803d276da8eaf33d063670dc89335c96" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</definition>
+        <argsstring>(BendContoursAlongCurveParams _other)</argsstring>
+        <name>BendContoursAlongCurveParams</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BendContoursAlongCurveParams" kindref="compound">BendContoursAlongCurveParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BendContoursAlongCurveParams.BendContoursAlongCurveParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="508" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="508" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BendContoursAlongCurveParams_1a7fae37282c7daa40cc4252c847235216" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BendContoursAlongCurveParams" kindref="compound">MR.BendContoursAlongCurveParams</ref></type>
+        <definition>unsafe MR.BendContoursAlongCurveParams MR.BendContoursAlongCurveParams.assign</definition>
+        <argsstring>(MR.Const_BendContoursAlongCurveParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BendContoursAlongCurveParams.assign</qualifiedname>
+        <param>
+          <type>MR.Const_BendContoursAlongCurveParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BendContoursAlongCurveParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="513" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="513" bodyend="520"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for aligning 2d contours along given curve Generated from class <computeroutput><ref refid="classMR_1_1BendContoursAlongCurveParams" kindref="compound">MR.BendContoursAlongCurveParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BendContoursAlongCurveParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BendContoursAlongCurveParams</label>
+        <link refid="classMR_1_1BendContoursAlongCurveParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BendContoursAlongCurveParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BendContoursAlongCurveParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BendContoursAlongCurveParams</label>
+        <link refid="classMR_1_1BendContoursAlongCurveParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BendContoursAlongCurveParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" line="443" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAlignContoursToMesh.cs" bodystart="444" bodyend="521"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1a7fae37282c7daa40cc4252c847235216" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1ae25bd27a9ba86d72173cffe83e1c7191" prot="package" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1aa5b34ace57687a2babac885e0d1e297c" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1ae10a13038184558c7bdba9d5b8cd21aa" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1abe93d95165be81233cf4fc1b8ef42fa0" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1a803d276da8eaf33d063670dc89335c96" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>BendContoursAlongCurveParams</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1aa92397793a1bac277afba6a6ce582dfe" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>extrusion</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1aa4fbe8fa584d2180028d99300bc2ca16" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1ad158268a17977448f902d6dd7db9da15" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1a3c824b7075345ef3df51e74aab610548" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="classMR_1_1BendContoursAlongCurveParams_1a7cfd499af47b95fbc8e17c1adced4bfe" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>stretch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

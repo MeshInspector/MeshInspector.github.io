@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FramebufferData_1_1DrawParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FramebufferData::DrawParams</compoundname>
+    <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa2e19e590532ab087bb31b0097bba55c" kind="variable"><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga607dd04bf20a46da9034abf8089e25bb" kind="variable"><name>wrap</name></member>
+      <member refid="group__GeneralGroup_1gaf3933a416ea15973b12dec22ee93d2e9" kind="variable"><name>filter</name></member>
+      <member refid="group__GeneralGroup_1gab8f2d431e39a794c2f26c90a41d076fe" kind="variable"><name>forceSimpleDepthDraw</name></member>
+      <member refid="group__GeneralGroup_1ga3c746d4b6d8c92e796c2c1f1080a5d79" kind="variable"><name>simpleDepth</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="245" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="246" bodyend="252"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf3933a416ea15973b12dec22ee93d2e9" prot="public" virt="non-virtual"><scope>MR::FramebufferData::DrawParams</scope><name>filter</name></member>
+      <member refid="group__GeneralGroup_1gab8f2d431e39a794c2f26c90a41d076fe" prot="public" virt="non-virtual"><scope>MR::FramebufferData::DrawParams</scope><name>forceSimpleDepthDraw</name></member>
+      <member refid="group__GeneralGroup_1ga3c746d4b6d8c92e796c2c1f1080a5d79" prot="public" virt="non-virtual"><scope>MR::FramebufferData::DrawParams</scope><name>simpleDepth</name></member>
+      <member refid="group__GeneralGroup_1gaa2e19e590532ab087bb31b0097bba55c" prot="public" virt="non-virtual"><scope>MR::FramebufferData::DrawParams</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga607dd04bf20a46da9034abf8089e25bb" prot="public" virt="non-virtual"><scope>MR::FramebufferData::DrawParams</scope><name>wrap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

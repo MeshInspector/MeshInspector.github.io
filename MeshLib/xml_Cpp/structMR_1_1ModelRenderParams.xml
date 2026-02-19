@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ModelRenderParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ModelRenderParams</compoundname>
+    <basecompoundref refid="structMR_1_1ModelBaseRenderParams" prot="public" virt="non-virtual">MR::ModelBaseRenderParams</basecompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga7055e460ef562d8825891c62abcd7f2e" kind="variable"><name>normMatrixPtr</name></member>
+      <member refid="group__GeneralGroup_1ga0e29cb9eb425bcc241a394492f68ca08" kind="variable"><name>lightPos</name></member>
+      <member refid="group__GeneralGroup_1ga8f1f5a646cc1017f006a43ff0ce0e457" kind="variable"><name>transparencyMode</name></member>
+      <member refid="group__GeneralGroup_1ga272deea0e519d1ef5efaaf5d3da84b88" kind="variable"><name>passMask</name></member>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> rendering parameters for primary rendering (as opposed to the picker). </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+      </node>
+      <node id="2">
+        <label>MR::ModelBaseRenderParams</label>
+        <link refid="structMR_1_1ModelBaseRenderParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ModelRenderParams</label>
+        <link refid="structMR_1_1ModelRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::BaseRenderParams</label>
+        <link refid="structMR_1_1BaseRenderParams"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>viewportId</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ModelBaseRenderParams</label>
+        <link refid="structMR_1_1ModelBaseRenderParams"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ModelRenderParams</label>
+        <link refid="structMR_1_1ModelRenderParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>transparencyMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::TransparencyMode</label>
+        <link refid="structMR_1_1TransparencyMode"/>
+      </node>
+      <node id="4">
+        <label>MR::ViewportId</label>
+        <link refid="classMR_1_1ViewportId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="53" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="54" bodyend="60"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga62b1dc3636e8859d7b4f46b53d1e02c8" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>clipPlane</name></member>
+      <member refid="group__GeneralGroup_1ga4c79d51067cd63730f681f5aa2c4ad67" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>depthFunction</name></member>
+      <member refid="group__GeneralGroup_1ga0e29cb9eb425bcc241a394492f68ca08" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>lightPos</name></member>
+      <member refid="group__GeneralGroup_1ga28337d3d5f8f9cc1db7812bca629ce40" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>modelMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga7055e460ef562d8825891c62abcd7f2e" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>normMatrixPtr</name></member>
+      <member refid="group__GeneralGroup_1ga272deea0e519d1ef5efaaf5d3da84b88" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>passMask</name></member>
+      <member refid="group__GeneralGroup_1gab108063540156c1b73540c07c48e6d01" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>projMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga8f1f5a646cc1017f006a43ff0ce0e457" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>transparencyMode</name></member>
+      <member refid="group__GeneralGroup_1ga564bcf6e1925912d15fa1cb20a3b0a3c" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>viewMatrix</name></member>
+      <member refid="group__GeneralGroup_1gaabb1d7dfa544bd6cb1d98a79a8d036a9" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>viewport</name></member>
+      <member refid="group__GeneralGroup_1gadf952473500110be7f693c5d725f6fde" prot="public" virt="non-virtual"><scope>MR::ModelRenderParams</scope><name>viewportId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

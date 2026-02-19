@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMesh_2config_8h" kind="file" language="C++">
+    <compoundname>MRMesh/config.h</compoundname>
+    <includedby refid="MRGTest_8h" local="yes">MRGTest.h</includedby>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRGTest.h</label>
+        <link refid="MRGTest_8h"/>
+      </node>
+      <node id="1">
+        <label>config.h</label>
+        <link refid="MRMesh_2config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(<sp/>MR_USE_CMAKE_CONFIGURE_FILE<sp/>)<sp/>&amp;&amp;<sp/>__has_include(<sp/>&quot;config_cmake.h&quot;<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;config_cmake.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/config.h"/>
+  </compounddef>
+</doxygen>

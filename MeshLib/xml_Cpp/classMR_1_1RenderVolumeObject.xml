@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderVolumeObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderVolumeObject</compoundname>
+    <basecompoundref refid="classMR_1_1IRenderObject" prot="public" virt="virtual">MR::IRenderObject</basecompoundref>
+    <includes refid="MRRenderVolumeObject_8h" local="no">MRRenderVolumeObject.h</includes>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1ga5c2f92f904828afa7e31f3c3af25dae3" kind="typedef"><name>GLuint</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gae1b45551bae575300c3a1c64fff947b4" kind="variable"><name>objVoxels_</name></member>
+      <member refid="group__GeneralGroup_1gaf2a9e520eb53ff85220250c23375a4c8" kind="variable"><name>volumeArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga4a338cdf6fab2da9bc7b21a13bf4895c" kind="variable"><name>volumeVertsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga53f810aaf05d68d4e9a0d98723e1ad98" kind="variable"><name>volumeIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8f79a22151e8a34ff253cf5a35487417" kind="variable"><name>volume_</name></member>
+      <member refid="group__GeneralGroup_1gaf53c78621b4fde68c9de7416f9fabf49" kind="variable"><name>denseMap_</name></member>
+      <member refid="group__GeneralGroup_1ga0ba74ada110e80b54d6a048431c119ee" kind="variable"><name>activeVoxelsTextureSize_</name></member>
+      <member refid="group__GeneralGroup_1ga0040705a3c685bbc981f4600081823bf" kind="variable"><name>activeVoxelsTex_</name></member>
+      <member refid="group__GeneralGroup_1ga043c09264c062afe8d7977a39857626f" kind="variable"><name>maxTexSize_</name></member>
+      <member refid="group__GeneralGroup_1ga472aab3824370476b3cf1d1db765e9b9" kind="variable"><name>dirty_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga58f43a8134adcf9eb4faac27528e88a8" kind="function"><name>RenderVolumeObject</name></member>
+      <member refid="group__GeneralGroup_1gab1f454a901b8112f6fbd98d767edec6d" kind="function"><name>~RenderVolumeObject</name></member>
+      <member refid="group__GeneralGroup_1gaaad07ecd619e787b1708ee13b634297b" kind="function"><name>render</name></member>
+      <member refid="group__GeneralGroup_1gacbecb6272b1df8bf0c9339d43bc815d8" kind="function"><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga16d2a2fd88ac9b6d7a5f884b3e295c3d" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gaba4f040c3735664826132a2865866347" kind="function"><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga9ca39de41790324525077f7b340c0255" kind="function"><name>forceBindAll</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga9162d102016a79de57d926554d6e7af0" kind="function"><name>render_</name></member>
+      <member refid="group__GeneralGroup_1gac6ccc249948f15420c034cacf82f50b0" kind="function"><name>bindVolume_</name></member>
+      <member refid="group__GeneralGroup_1ga5b0cd57bb8b2781d90d337db6184794d" kind="function"><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga8bb429eb5957307c5db2329db1083625" kind="function"><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1ga3220dcf38b985a07a32e0677d698d78b" kind="function"><name>update_</name></member>
+      <member refid="group__GeneralGroup_1gaeb4ba48b660d725f0b68cf4f81afa063" kind="function"><name>loadActiveVoxelsTextureBuffer_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="1">
+        <label>MR::RenderVolumeObject</label>
+        <link refid="classMR_1_1RenderVolumeObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="1">
+        <label>MR::RenderVolumeObject</label>
+        <link refid="classMR_1_1RenderVolumeObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderVolumeObject.h" bodystart="18" bodyend="60"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0040705a3c685bbc981f4600081823bf" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>activeVoxelsTex_</name></member>
+      <member refid="group__GeneralGroup_1ga0ba74ada110e80b54d6a048431c119ee" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>activeVoxelsTextureSize_</name></member>
+      <member refid="group__GeneralGroup_1gac6ccc249948f15420c034cacf82f50b0" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>bindVolume_</name></member>
+      <member refid="group__GeneralGroup_1gaf53c78621b4fde68c9de7416f9fabf49" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>denseMap_</name></member>
+      <member refid="group__GeneralGroup_1ga472aab3824370476b3cf1d1db765e9b9" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>dirty_</name></member>
+      <member refid="group__GeneralGroup_1ga9ca39de41790324525077f7b340c0255" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga8bb429eb5957307c5db2329db1083625" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>freeBuffers_</name></member>
+      <member refid="group__GeneralGroup_1gaba4f040c3735664826132a2865866347" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga5c2f92f904828afa7e31f3c3af25dae3" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1ga16d2a2fd88ac9b6d7a5f884b3e295c3d" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga5b0cd57bb8b2781d90d337db6184794d" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>initBuffers_</name></member>
+      <member refid="group__GeneralGroup_1gaeb4ba48b660d725f0b68cf4f81afa063" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>loadActiveVoxelsTextureBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga043c09264c062afe8d7977a39857626f" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>maxTexSize_</name></member>
+      <member refid="group__GeneralGroup_1gae1b45551bae575300c3a1c64fff947b4" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>objVoxels_</name></member>
+      <member refid="group__GeneralGroup_1gaaad07ecd619e787b1708ee13b634297b" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga9162d102016a79de57d926554d6e7af0" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>render_</name></member>
+      <member refid="group__GeneralGroup_1gacbecb6272b1df8bf0c9339d43bc815d8" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga58f43a8134adcf9eb4faac27528e88a8" prot="public" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>RenderVolumeObject</name></member>
+      <member refid="group__GeneralGroup_1ga3220dcf38b985a07a32e0677d698d78b" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>update_</name></member>
+      <member refid="group__GeneralGroup_1ga8f79a22151e8a34ff253cf5a35487417" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volume_</name></member>
+      <member refid="group__GeneralGroup_1gaf2a9e520eb53ff85220250c23375a4c8" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volumeArrayObjId_</name></member>
+      <member refid="group__GeneralGroup_1ga53f810aaf05d68d4e9a0d98723e1ad98" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volumeIndicesBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga4a338cdf6fab2da9bc7b21a13bf4895c" prot="private" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>volumeVertsBuffer_</name></member>
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::RenderVolumeObject</scope><name>~IRenderObject</name></member>
+      <member refid="group__GeneralGroup_1gab1f454a901b8112f6fbd98d767edec6d" prot="public" virt="non-virtual"><scope>MR::RenderVolumeObject</scope><name>~RenderVolumeObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

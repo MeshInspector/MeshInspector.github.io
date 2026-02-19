@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</compoundname>
+    <basecompoundref refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4" prot="public" virt="non-virtual">MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</basecompoundref>
+    <includes refid="MRVoxelsVolumeAccess_8h" local="no">MRVoxelsVolumeAccess.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1ga175a7af9acffdb30b829a1a1720e9456" kind="typedef"><name>Base</name></member>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga70725f7f72857d3b45faf0a3de686eb0" kind="typedef"><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1gaa22d7ef42dfaaf6e48b28ab35f07eea9" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a747d0bd38e6171f9e0c664590abede4e" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;::cacheEffective</definition>
+        <argsstring></argsstring>
+        <name>cacheEffective</name>
+        <qualifiedname>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;::cacheEffective</qualifiedname>
+        <briefdescription>
+<para>caching results of this accessor does not make any sense since it returns values from a simple container </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="96" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1VoxelsVolumeAccessor" kindref="compound">VoxelsVolumeAccessor</ref> specialization for simple volumes with min/max. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</label>
+        <link refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4"/>
+      </node>
+      <node id="1">
+        <label>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</label>
+        <link refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</label>
+        <link refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4"/>
+      </node>
+      <node id="1">
+        <label>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</label>
+        <link refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="91" bodyend="98"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga175a7af9acffdb30b829a1a1720e9456" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>Base</name></member>
+      <member refid="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolumeMinMax_3_01Vector_3_01T_00_01VoxelId_01_4_01_4_01_4_1a747d0bd38e6171f9e0c664590abede4e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>cacheEffective</name></member>
+      <member refid="group__GeneralGroup_1gae73fe3f829a36a4c416f494dd52d6a23" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1gad5969e08db6cde585c897d89b6187f8e" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga16cbb3f5602c06dae1c74f1432459b97" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>shift</name></member>
+      <member refid="group__GeneralGroup_1gaa22d7ef42dfaaf6e48b28ab35f07eea9" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga70725f7f72857d3b45faf0a3de686eb0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1ga2b5abd9becbd2d068651ba0afc5a49fe" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolumeMinMax&lt; Vector&lt; T, VoxelId &gt; &gt; &gt;</scope><name>VoxelsVolumeAccessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

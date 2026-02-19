@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NoiseSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NoiseSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1NoiseSettings_1a9e2cb1a546e4a11e4c5998ff77ba15a1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NoiseSettings::_offsetof_callback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_callback</name>
+        <qualifiedname>mrmeshpy.NoiseSettings._offsetof_callback</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1NoiseSettings_1a687a1bebf011274c454b8884449d5a5a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NoiseSettings::_offsetof_seed</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_seed</name>
+        <qualifiedname>mrmeshpy.NoiseSettings._offsetof_seed</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1NoiseSettings_1acc0bf1c9664eb6f77e28f3562454b9a9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.NoiseSettings::_offsetof_sigma</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_sigma</name>
+        <qualifiedname>mrmeshpy.NoiseSettings._offsetof_sigma</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38160" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoiseSettings_1ae3f78730262bcca8a3aef2a9ce59fbdd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoiseSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoiseSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38165" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38165" bodyend="38166"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoiseSettings_1aac56cdb1269c9050fd52390b6b5062a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoiseSettings" kindref="compound">NoiseSettings</ref></type>
+        <definition> NoiseSettings mrmeshpy.NoiseSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoiseSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38169" bodyend="38170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoiseSettings_1aac56cdb1269c9050fd52390b6b5062a5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoiseSettings" kindref="compound">NoiseSettings</ref></type>
+        <definition> NoiseSettings mrmeshpy.NoiseSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoiseSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38173" bodyend="38174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoiseSettings_1a58e235a1e7e54ed8acdd3aef976cc304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoiseSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoiseSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38176" bodyend="38177"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoiseSettings_1ab9434f1df1546f660b74acf4eefc3ba9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoiseSettings.__init__</definition>
+        <argsstring>(self, NoiseSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoiseSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoiseSettings" kindref="compound">NoiseSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38179" bodyend="38182"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoiseSettings_1a30a6a7eb54ebc36d5f30dc3abc407359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoiseSettings.__init__</definition>
+        <argsstring>(self, float sigma, int seed, func_bool_from_float callback)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoiseSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sigma</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>seed</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38184" bodyend="38187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoiseSettings_1ab9fc953ae8522e80a13e6ab6fe55c95a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.NoiseSettings.seed</definition>
+        <argsstring>(self)</argsstring>
+        <name>seed</name>
+        <qualifiedname>mrmeshpy.NoiseSettings.seed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>start state of the generator engine
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38189" bodyend="38192"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoiseSettings_1a691dea7715f3575570ed7f1050284954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoiseSettings.seed</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>seed</name>
+        <qualifiedname>mrmeshpy.NoiseSettings.seed</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38194" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38194" bodyend="38195"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NoiseSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.NoiseSettings</label>
+        <link refid="classmrmeshpy_1_1NoiseSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_callback</edgelabel>
+          <edgelabel>_offsetof_seed</edgelabel>
+          <edgelabel>_offsetof_sigma</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="38154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="38154" bodyend="38195"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1ae3f78730262bcca8a3aef2a9ce59fbdd" prot="public" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1a58e235a1e7e54ed8acdd3aef976cc304" prot="public" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1ab9434f1df1546f660b74acf4eefc3ba9" prot="public" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1a30a6a7eb54ebc36d5f30dc3abc407359" prot="public" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1a9e2cb1a546e4a11e4c5998ff77ba15a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>_offsetof_callback</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1a687a1bebf011274c454b8884449d5a5a" prot="protected" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>_offsetof_seed</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1acc0bf1c9664eb6f77e28f3562454b9a9" prot="protected" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>_offsetof_sigma</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1aac56cdb1269c9050fd52390b6b5062a5" prot="public" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1aac56cdb1269c9050fd52390b6b5062a5" prot="public" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1ab9fc953ae8522e80a13e6ab6fe55c95a" prot="public" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>seed</name></member>
+      <member refid="classmrmeshpy_1_1NoiseSettings_1a691dea7715f3575570ed7f1050284954" prot="public" virt="non-virtual"><scope>mrmeshpy::NoiseSettings</scope><name>seed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

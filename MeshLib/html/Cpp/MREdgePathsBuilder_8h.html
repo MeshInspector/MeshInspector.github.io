@@ -152,8 +152,8 @@ $(function(){initNavTree('MREdgePathsBuilder_8h.html',''); initResizable(true); 
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="MREdgePaths_8h_source.html">MREdgePaths.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRBitSet_8h_source.html">MRBitSet.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRMesh_8h_source.html">MRMesh.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRBitSet_8h_source.html">MRBitSet.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRMesh_8h_source.html">MRMesh.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRRingIterator_8h_source.html">MRRingIterator.h</a>&quot;</code><br />
 <code>#include &quot;MRphmap.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMacros_8h_source.html">MRMacros.h</a>&quot;</code><br />
@@ -163,8 +163,8 @@ $(function(){initNavTree('MREdgePathsBuilder_8h.html',''); initResizable(true); 
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1VertPathInfo.html">MR::VertPathInfo</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">information associated with each vertex by the paths builder <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1VertPathInfo.html">MR::VertPathInfo</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">information associated with each vertex by the paths builder  <a href="structMR_1_1VertPathInfo.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1EdgePathsBuilderT.html">MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the class is responsible for finding smallest metric edge paths on a mesh  <a href="classMR_1_1EdgePathsBuilderT.html#details">More...</a><br /></td></tr>
@@ -172,18 +172,27 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html">MR::EdgePathsBuilderT&lt; MetricToPenalty &gt;::ReachedVert</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">information about just reached vertex (with final metric value)  <a href="structMR_1_1EdgePathsBuilderT_1_1ReachedVert.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertices in the queue are ordered by their metric from a start location <br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1TrivialMetricToPenalty.html">MR::TrivialMetricToPenalty</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">the vertices in the queue are ordered by their metric from a start location  <a href="structMR_1_1TrivialMetricToPenalty.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MetricToAStarPenalty.html">MR::MetricToAStarPenalty</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1EdgePathsAStarBuilder.html">MR::EdgePathsAStarBuilder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:ga8ef9d4ab57452b5bea4b72a90f4fc165" id="r_ga8ef9d4ab57452b5bea4b72a90f4fc165"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga8ef9d4ab57452b5bea4b72a90f4fc165">MR::VertPathInfoMap</a> = HashMap&lt;VertId, <a class="el" href="structMR_1_1VertPathInfo.html">VertPathInfo</a>&gt;</td></tr>
+<tr class="separator:ga8ef9d4ab57452b5bea4b72a90f4fc165"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e64a53d9d9c624063bb6a51a6ba77e1" id="r_ga5e64a53d9d9c624063bb6a51a6ba77e1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga5e64a53d9d9c624063bb6a51a6ba77e1">MR::EdgePathsBuilder</a> = <a class="el" href="classMR_1_1EdgePathsBuilderT.html">EdgePathsBuilderT</a>&lt;<a class="el" href="structMR_1_1TrivialMetricToPenalty.html">TrivialMetricToPenalty</a>&gt;</td></tr>
+<tr class="separator:ga5e64a53d9d9c624063bb6a51a6ba77e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

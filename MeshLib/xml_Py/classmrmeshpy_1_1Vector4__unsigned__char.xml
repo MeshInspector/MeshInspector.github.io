@@ -1,0 +1,832 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector4__unsigned__char" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector4_unsigned_char</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector4__unsigned__char_1a1891381cee27d5498373ade234931b70" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector4_unsigned_char::_offsetof_w</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_w</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char._offsetof_w</qualifiedname>
+        <initializer>=  3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector4__unsigned__char_1abf4aad0e0ca2d70bb8f11b95d4983952" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector4_unsigned_char::_offsetof_x</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_x</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char._offsetof_x</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61838" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector4__unsigned__char_1aff9495f5059d6d292a9fb8cdc0dce121" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector4_unsigned_char::_offsetof_y</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_y</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char._offsetof_y</qualifiedname>
+        <initializer>=  1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61839" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector4__unsigned__char_1aa5afb2db4ef4ffdf47782b7a0c5dd9e7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector4_unsigned_char::_offsetof_z</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_z</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char._offsetof_z</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61840" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector4__unsigned__char_1a1b3b77935c636ea47b6919dbcae43479" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector4_unsigned_char::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.elements</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61841" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector4__unsigned__char_1adbbc4a2a37198277731f381213e5836f" prot="public" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int mrmeshpy.Vector4_unsigned_char::MatrixType</definition>
+        <argsstring></argsstring>
+        <name>MatrixType</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.MatrixType</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Matrix4__unsigned__char" kindref="compound">Matrix4_unsigned_char</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61846" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector4__unsigned__char_1a49a89321c4990c13180e4c90803f74db" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Vector4_unsigned_char::SymMatrixType</definition>
+        <argsstring></argsstring>
+        <name>SymMatrixType</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.SymMatrixType</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1SymMatrix4__unsigned__char" kindref="compound">SymMatrix4_unsigned_char</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61847" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61847" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1afb99b81f4696689ad44b76030dcaeaa8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector4_unsigned_char.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61850" bodyend="61851"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1afb99b81f4696689ad44b76030dcaeaa8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector4_unsigned_char.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61854" bodyend="61855"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1aefed816e60cea4db5bbc8609b851154e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.Vector4_unsigned_char.diagonal</definition>
+        <argsstring>(int a)</argsstring>
+        <name>diagonal</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.diagonal</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61857" bodyend="61858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1ad675d406b561a041ac085b7f9c66ece8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.Vector4_unsigned_char.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61861" bodyend="61862"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1ad675d406b561a041ac085b7f9c66ece8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.Vector4_unsigned_char.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61865" bodyend="61866"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a81f249fe31ba6c122a2f58560ac652b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+        <definition> Vector4i mrmeshpy.Vector4_unsigned_char.__add__</definition>
+        <argsstring>(self, Vector4_unsigned_char b)</argsstring>
+        <name>__add__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__add__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61867" bodyend="61868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a330d9739161d37f19b3392c4af4ac08b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector4_unsigned_char.__eq__</definition>
+        <argsstring>(self, Vector4_unsigned_char b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61869" bodyend="61870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a208f6ca5faded596fb947f6337b5b3c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector4_unsigned_char.__getitem__</definition>
+        <argsstring>(self, int e)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61872" bodyend="61873"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a208f6ca5faded596fb947f6337b5b3c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector4_unsigned_char.__getitem__</definition>
+        <argsstring>(self, int e)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61875" bodyend="61876"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1adb53d699a880adbc9d115e07ee7c0ffb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.Vector4_unsigned_char.__iadd__</definition>
+        <argsstring>(self, Vector4_unsigned_char b)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61877" bodyend="61878"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a780b117f4b70112d5b85169ccbd669c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.Vector4_unsigned_char.__imatmul__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61879" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61879" bodyend="61880"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a0a59e440b8b6524033ca1f9a83d3992d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector4_unsigned_char.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61882" bodyend="61883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a375b38351da3dd702fe0833143a4ad65" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector4_unsigned_char.__init__</definition>
+        <argsstring>(self, int x, int y, int z, int w)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>w</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61885" bodyend="61886"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a0e8ba55efb3eab53f00ae9b768fa3b41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector4_unsigned_char.__init__</definition>
+        <argsstring>(self, Vector4_unsigned_char arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61888" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61888" bodyend="61891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1ae60a7a55279905ca0ac2dfbcc86cee2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.Vector4_unsigned_char.__isub__</definition>
+        <argsstring>(self, Vector4_unsigned_char b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61892" bodyend="61893"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a7a72c36d06e5629fe1cbbc1d07198395" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[int]</type>
+        <definition> typing.Iterator[int] mrmeshpy.Vector4_unsigned_char.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61894" bodyend="61895"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a30cb0058404f33a89e4e15a18536aa34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.Vector4_unsigned_char.__itruediv__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__itruediv__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__itruediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61896" bodyend="61897"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1aa02bd43c15f0eaf26438eeba9d2b738e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+        <definition> Vector4i mrmeshpy.Vector4_unsigned_char.__mul__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61898" bodyend="61899"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a942b8cbf1a3e4771a2d7791f79d6a657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector4_unsigned_char.__ne__</definition>
+        <argsstring>(self, Vector4_unsigned_char b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61900" bodyend="61901"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1af3a1d30a013f79eb54b02acc004dc978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+        <definition> Vector4i mrmeshpy.Vector4_unsigned_char.__neg__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__neg__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__neg__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61902" bodyend="61903"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a8ce12293b5a21038c3da48008e9d641c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.Vector4_unsigned_char.__pos__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__pos__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__pos__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>NOTE: We use `std::declval()` in the operators below because libclang 18 in our binding generator is bugged and chokes on decltyping `a.x` and such. TODO fix this when we update libclang.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61904" bodyend="61907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1ad1b1d3cd13bb1088280f4682bedcdd5c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Vector4_unsigned_char.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61908" bodyend="61909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a62c68a768521a65136fcbc11616936cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Vector4_unsigned_char.__rlshift__</definition>
+        <argsstring>(self, typing.Any vec)</argsstring>
+        <name>__rlshift__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__rlshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61910" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61910" bodyend="61911"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1ab5e86f29f9c760ccd9706ed3e4903476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+        <definition> Vector4i mrmeshpy.Vector4_unsigned_char.__rmul__</definition>
+        <argsstring>(self, int b)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61912" bodyend="61913"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a47ed07d3cdd989cfbc36238db7e9f5fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Vector4_unsigned_char.__rrshift__</definition>
+        <argsstring>(self, typing.Any vec)</argsstring>
+        <name>__rrshift__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__rrshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61914" bodyend="61915"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a7a3ac6be50c77400e9d0cd46a6c019a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector4_unsigned_char.__setitem__</definition>
+        <argsstring>(self, int arg0, int arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61916" bodyend="61917"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1ad7ff2fc0782b82ae0b9aff7f61afec50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+        <definition> Vector4i mrmeshpy.Vector4_unsigned_char.__sub__</definition>
+        <argsstring>(self, Vector4_unsigned_char b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__sub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61918" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61918" bodyend="61919"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1a0e286e4ca85d51266b2a5450acef598b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4i" kindref="compound">Vector4i</ref></type>
+        <definition> Vector4i mrmeshpy.Vector4_unsigned_char.__truediv__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__truediv__</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.__truediv__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61920" bodyend="61921"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1ac356bfb3966152c7e7a73643749cdc0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Vector4_unsigned_char.length</definition>
+        <argsstring>(self)</argsstring>
+        <name>length</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.length</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61922" bodyend="61923"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector4__unsigned__char_1ab5d544427fe93c8c92f71f2b039119eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector4_unsigned_char.lengthSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>mrmeshpy.Vector4_unsigned_char.lengthSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61924" bodyend="61925"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector4&lt;unsigned char&gt;
+Aliases:  DashPattern, Matrix4_unsigned_char.VectorType, Vector4_uint8_t, DashPattern
+
+four-dimensional vector
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector4_unsigned_char</label>
+        <link refid="classmrmeshpy_1_1Vector4__unsigned__char"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_w</edgelabel>
+          <edgelabel>_offsetof_x</edgelabel>
+          <edgelabel>_offsetof_y</edgelabel>
+          <edgelabel>_offsetof_z</edgelabel>
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="61830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="61830" bodyend="61925"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a81f249fe31ba6c122a2f58560ac652b9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__add__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a330d9739161d37f19b3392c4af4ac08b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a208f6ca5faded596fb947f6337b5b3c0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a208f6ca5faded596fb947f6337b5b3c0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1adb53d699a880adbc9d115e07ee7c0ffb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a780b117f4b70112d5b85169ccbd669c7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1afb99b81f4696689ad44b76030dcaeaa8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1afb99b81f4696689ad44b76030dcaeaa8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a0a59e440b8b6524033ca1f9a83d3992d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a375b38351da3dd702fe0833143a4ad65" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a0e8ba55efb3eab53f00ae9b768fa3b41" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1ae60a7a55279905ca0ac2dfbcc86cee2d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a7a72c36d06e5629fe1cbbc1d07198395" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a30cb0058404f33a89e4e15a18536aa34" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__itruediv__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1aa02bd43c15f0eaf26438eeba9d2b738e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a942b8cbf1a3e4771a2d7791f79d6a657" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1af3a1d30a013f79eb54b02acc004dc978" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__neg__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a8ce12293b5a21038c3da48008e9d641c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__pos__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1ad1b1d3cd13bb1088280f4682bedcdd5c" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a62c68a768521a65136fcbc11616936cd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1ab5e86f29f9c760ccd9706ed3e4903476" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__rmul__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a47ed07d3cdd989cfbc36238db7e9f5fa" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__rrshift__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a7a3ac6be50c77400e9d0cd46a6c019a0" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1ad7ff2fc0782b82ae0b9aff7f61afec50" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a0e286e4ca85d51266b2a5450acef598b" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>__truediv__</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a1891381cee27d5498373ade234931b70" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>_offsetof_w</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1abf4aad0e0ca2d70bb8f11b95d4983952" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>_offsetof_x</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1aff9495f5059d6d292a9fb8cdc0dce121" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>_offsetof_y</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1aa5afb2db4ef4ffdf47782b7a0c5dd9e7" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>_offsetof_z</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1aefed816e60cea4db5bbc8609b851154e" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>diagonal</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a1b3b77935c636ea47b6919dbcae43479" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>elements</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1ac356bfb3966152c7e7a73643749cdc0d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>length</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1ab5d544427fe93c8c92f71f2b039119eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>lengthSq</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1adbbc4a2a37198277731f381213e5836f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>MatrixType</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1ad675d406b561a041ac085b7f9c66ece8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1ad675d406b561a041ac085b7f9c66ece8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector4__unsigned__char_1a49a89321c4990c13180e4c90803f74db" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector4_unsigned_char</scope><name>SymMatrixType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

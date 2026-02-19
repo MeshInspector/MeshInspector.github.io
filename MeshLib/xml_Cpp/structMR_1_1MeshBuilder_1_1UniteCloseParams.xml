@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshBuilder_1_1UniteCloseParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshBuilder::UniteCloseParams</compoundname>
+    <includes refid="MRMeshBuilder_8h" local="no">MRMeshBuilder.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga7a875c31321cd79bd5c7d57c5b9a6f4e" kind="variable"><name>closeDist</name></member>
+      <member refid="group__GeneralGroup_1ga114d1d59ef37898d184ed75daaf0b5fa" kind="variable"><name>uniteOnlyBd</name></member>
+      <member refid="group__GeneralGroup_1ga3fe2bba25d7c567c9b75a5a856990f20" kind="variable"><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga6e04cfb485e0a54e7aaf0c75c8ad0eec" kind="variable"><name>duplicateNonManifold</name></member>
+      <member refid="group__GeneralGroup_1ga5379829943a90af63f2b4db61f7ff57d" kind="variable"><name>optionalVertOldToNew</name></member>
+      <member refid="group__GeneralGroup_1ga110cc42934b904692094323354588513" kind="variable"><name>optionalDuplications</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" line="95" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBuilder.h" bodystart="96" bodyend="114"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7a875c31321cd79bd5c7d57c5b9a6f4e" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>closeDist</name></member>
+      <member refid="group__GeneralGroup_1ga6e04cfb485e0a54e7aaf0c75c8ad0eec" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>duplicateNonManifold</name></member>
+      <member refid="group__GeneralGroup_1ga110cc42934b904692094323354588513" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>optionalDuplications</name></member>
+      <member refid="group__GeneralGroup_1ga5379829943a90af63f2b4db61f7ff57d" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>optionalVertOldToNew</name></member>
+      <member refid="group__GeneralGroup_1ga3fe2bba25d7c567c9b75a5a856990f20" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga114d1d59ef37898d184ed75daaf0b5fa" prot="public" virt="non-virtual"><scope>MR::MeshBuilder::UniteCloseParams</scope><name>uniteOnlyBd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

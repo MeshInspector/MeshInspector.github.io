@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRSubfeatures_8h" kind="file" language="C++">
+    <compoundname>MRSubfeatures.h</compoundname>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRSubfeatures.h</label>
+        <link refid="MRSubfeatures_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="3">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="4">
+        <label>stdbool.h</label>
+      </node>
+      <node id="5">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" prot="public" static="no">
+        <type>struct <ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref></type>
+        <definition>typedef struct MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="13" column="221" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSubfeatures_8h_1a5b997b3fae3627207d8658a94d327410" prot="public" static="no">
+        <type>struct <ref refid="MRSubfeatures_8h_1a5b997b3fae3627207d8658a94d327410" kindref="member">MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref</ref></type>
+        <definition>typedef struct MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref</definition>
+        <argsstring></argsstring>
+        <name>MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="14" column="77" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSubfeatures_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref></type>
+        <definition>typedef struct MR_std_string_view MR_std_string_view</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string_view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="15" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSubfeatures_8h_1a9d8e47f41f1a72d81eae50dc8db9ae3d" prot="public" static="no">
+        <type>struct <ref refid="MRFeatures_8h_1a9d8e47f41f1a72d81eae50dc8db9ae3d" kindref="member">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</ref></type>
+        <definition>typedef struct MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</definition>
+        <argsstring></argsstring>
+        <name>MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="16" column="105" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" prot="public" static="no">
+        <type>struct <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref></type>
+        <definition>typedef struct MR_Features_SubfeatureInfo MR_Features_SubfeatureInfo</definition>
+        <argsstring></argsstring>
+        <name>MR_Features_SubfeatureInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::Features::SubfeatureInfo</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="22" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRSubfeatures_8h_1a4f14dae4644f61c99a0e036fbc95b5a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API const MR_std_string_view * MR_Features_SubfeatureInfo_Get_name</definition>
+        <argsstring>(const MR_Features_SubfeatureInfo *_this)</argsstring>
+        <name>MR_Features_SubfeatureInfo_Get_name</name>
+        <param>
+          <type>const <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Features::SubfeatureInfo</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="29" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="29" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1a0f22b223b5dbea9f37f67afd6811ae3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Features_SubfeatureInfo_Set_name</definition>
+        <argsstring>(MR_Features_SubfeatureInfo *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_Features_SubfeatureInfo_Set_name</name>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Features::SubfeatureInfo</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>name</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>name</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="38" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="38" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1a29aec8ccdd3918902f8232ceda46433e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API MR_std_string_view * MR_Features_SubfeatureInfo_GetMutable_name</definition>
+        <argsstring>(MR_Features_SubfeatureInfo *_this)</argsstring>
+        <name>MR_Features_SubfeatureInfo_GetMutable_name</name>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Features::SubfeatureInfo</computeroutput> named <computeroutput>name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="45" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="45" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1aead1805af95601b5b14f3e40afd8ce05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const bool *</type>
+        <definition>MRC_API const bool * MR_Features_SubfeatureInfo_Get_isInfinite</definition>
+        <argsstring>(const MR_Features_SubfeatureInfo *_this)</argsstring>
+        <name>MR_Features_SubfeatureInfo_Get_isInfinite</name>
+        <param>
+          <type>const <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Features::SubfeatureInfo</computeroutput> named <computeroutput>isInfinite</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="52" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="52" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1aeb2472172c06023be0b7f657a164a3e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Features_SubfeatureInfo_Set_isInfinite</definition>
+        <argsstring>(MR_Features_SubfeatureInfo *_this, bool value)</argsstring>
+        <name>MR_Features_SubfeatureInfo_Set_isInfinite</name>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Features::SubfeatureInfo</computeroutput> named <computeroutput>isInfinite</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>isInfinite</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="58" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="58" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1acc4457dc32d758f4a979db7571f2382e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool *</type>
+        <definition>MRC_API bool * MR_Features_SubfeatureInfo_GetMutable_isInfinite</definition>
+        <argsstring>(MR_Features_SubfeatureInfo *_this)</argsstring>
+        <name>MR_Features_SubfeatureInfo_GetMutable_isInfinite</name>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Features::SubfeatureInfo</computeroutput> named <computeroutput>isInfinite</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="65" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="65" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1a90ae287c1a69818da4c53ab54e2cb408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref> *</type>
+        <definition>MRC_API const MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref * MR_Features_SubfeatureInfo_Get_create</definition>
+        <argsstring>(const MR_Features_SubfeatureInfo *_this)</argsstring>
+        <name>MR_Features_SubfeatureInfo_Get_create</name>
+        <param>
+          <type>const <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::Features::SubfeatureInfo</computeroutput> named <computeroutput>create</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="73" column="222" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="73" declcolumn="222"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1ae1622ece013eee14fde812c89acf8b22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Features_SubfeatureInfo_Set_create</definition>
+        <argsstring>(MR_Features_SubfeatureInfo *_this, MR_PassBy value_pass_by, MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref *value)</argsstring>
+        <name>MR_Features_SubfeatureInfo_Set_create</name>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>value_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref> *</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::Features::SubfeatureInfo</computeroutput> named <computeroutput>create</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>create</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>create</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="81" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="81" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1ab08ef28293e619b3bebc4a75ce87e573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref> *</type>
+        <definition>MRC_API MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref * MR_Features_SubfeatureInfo_GetMutable_create</definition>
+        <argsstring>(MR_Features_SubfeatureInfo *_this)</argsstring>
+        <name>MR_Features_SubfeatureInfo_GetMutable_create</name>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::Features::SubfeatureInfo</computeroutput> named <computeroutput>create</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="89" column="216" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="89" declcolumn="216"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1accbc7250e51a450cb8bb23f5bb3cf6c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+        <definition>MRC_API MR_Features_SubfeatureInfo * MR_Features_SubfeatureInfo_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_Features_SubfeatureInfo_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSubfeatures_8h_1a1c12ebb79f8774c4a1e3272892ca4c72" kindref="member">MR_Features_SubfeatureInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="93" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="93" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1a3c614eae817e026ba9a7f28245af0e94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+        <definition>MRC_API MR_Features_SubfeatureInfo * MR_Features_SubfeatureInfo_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_Features_SubfeatureInfo_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRSubfeatures_8h_1a734405e6561ccdddcceb11064c2e1b01" kindref="member">MR_Features_SubfeatureInfo_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRSubfeatures_8h_1a418cf08d19c95aefa1536198c0fafa66" kindref="member">MR_Features_SubfeatureInfo_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRSubfeatures_8h_1af02ee38df887308b7c41fb18e2cbc06d" kindref="member">MR_Features_SubfeatureInfo_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="98" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="98" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1a01055044fba586776566623d2a752db9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+        <definition>MRC_API MR_Features_SubfeatureInfo * MR_Features_SubfeatureInfo_ConstructFrom</definition>
+        <argsstring>(const char *name, const char *name_end, bool isInfinite, MR_PassBy create_pass_by, MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref *create)</argsstring>
+        <name>MR_Features_SubfeatureInfo_ConstructFrom</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isInfinite</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>create_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref> *</type>
+          <declname>create</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::Features::SubfeatureInfo</computeroutput> elementwise. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>create</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSubfeatures_8h_1a1c12ebb79f8774c4a1e3272892ca4c72" kindref="member">MR_Features_SubfeatureInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="107" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="107" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1af02ee38df887308b7c41fb18e2cbc06d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+        <definition>MRC_API const MR_Features_SubfeatureInfo * MR_Features_SubfeatureInfo_OffsetPtr</definition>
+        <argsstring>(const MR_Features_SubfeatureInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Features_SubfeatureInfo_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="111" column="42" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="111" declcolumn="42"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1a418cf08d19c95aefa1536198c0fafa66" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+        <definition>MRC_API MR_Features_SubfeatureInfo * MR_Features_SubfeatureInfo_OffsetMutablePtr</definition>
+        <argsstring>(MR_Features_SubfeatureInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_Features_SubfeatureInfo_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="115" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="115" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1ac478f7ba0942340b4d7db38d473b9b2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+        <definition>MRC_API MR_Features_SubfeatureInfo * MR_Features_SubfeatureInfo_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_Features_SubfeatureInfo *_other)</argsstring>
+        <name>MR_Features_SubfeatureInfo_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::Features::SubfeatureInfo::SubfeatureInfo</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRSubfeatures_8h_1a1c12ebb79f8774c4a1e3272892ca4c72" kindref="member">MR_Features_SubfeatureInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="120" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="120" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1a1c12ebb79f8774c4a1e3272892ca4c72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Features_SubfeatureInfo_Destroy</definition>
+        <argsstring>(const MR_Features_SubfeatureInfo *_this)</argsstring>
+        <name>MR_Features_SubfeatureInfo_Destroy</name>
+        <param>
+          <type>const <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_Features_SubfeatureInfo</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="123" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="123" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1a734405e6561ccdddcceb11064c2e1b01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Features_SubfeatureInfo_DestroyArray</definition>
+        <argsstring>(const MR_Features_SubfeatureInfo *_this)</argsstring>
+        <name>MR_Features_SubfeatureInfo_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_Features_SubfeatureInfo</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="126" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="126" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1ad56703f12befb17b3ce0184bd07e7a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+        <definition>MRC_API MR_Features_SubfeatureInfo * MR_Features_SubfeatureInfo_AssignFromAnother</definition>
+        <argsstring>(MR_Features_SubfeatureInfo *_this, MR_PassBy _other_pass_by, MR_Features_SubfeatureInfo *_other)</argsstring>
+        <name>MR_Features_SubfeatureInfo_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::Features::SubfeatureInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="133" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="133" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRSubfeatures_8h_1a08564bb17c2e1d44e5c271f0b686f3c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_Features_forEachSubfeature</definition>
+        <argsstring>(const MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane *feature, const MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref *func)</argsstring>
+        <name>MR_Features_forEachSubfeature</name>
+        <param>
+          <type>const <ref refid="MRFeatures_8h_1a9d8e47f41f1a72d81eae50dc8db9ae3d" kindref="member">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</ref> *</type>
+          <declname>feature</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRSubfeatures_8h_1a5b997b3fae3627207d8658a94d327410" kindref="member">MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref</ref> *</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from function <computeroutput>MR::Features::forEachSubfeature</computeroutput>. Parameter <computeroutput>feature</computeroutput> can not be null. It is a single object. Parameter <computeroutput>func</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" line="141" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h" declline="141" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref><sp/><ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitiv__dc87.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRSubfeatures_8h_1a5b997b3fae3627207d8658a94d327410" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSubfeatures_8h_1a5b997b3fae3627207d8658a94d327410" kindref="member">MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref</ref><sp/><ref refid="MRSubfeatures_8h_1a5b997b3fae3627207d8658a94d327410" kindref="member">MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_function_void_from_const_MR_Features_SubfeatureInfo_ref.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRSubfeatures_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRSubfeatures_8h_1a9d8e47f41f1a72d81eae50dc8db9ae3d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRFeatures_8h_1a9d8e47f41f1a72d81eae50dc8db9ae3d" kindref="member">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</ref><sp/><ref refid="MRFeatures_8h_1a9d8e47f41f1a72d81eae50dc8db9ae3d" kindref="member">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Describes<sp/>a<sp/>single<sp/>feature<sp/>produced<sp/>by<sp/>`forEachSubfeature()`.</highlight></codeline>
+<codeline lineno="22" refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>user-friendly<sp/>name.</highlight></codeline>
+<codeline lineno="29" refid="MRSubfeatures_8h_1a4f14dae4644f61c99a0e036fbc95b5a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRSubfeatures_8h_1a4f14dae4644f61c99a0e036fbc95b5a7" kindref="member">MR_Features_SubfeatureInfo_Get_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>user-friendly<sp/>name.</highlight></codeline>
+<codeline lineno="38" refid="MRSubfeatures_8h_1a0f22b223b5dbea9f37f67afd6811ae3c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1a0f22b223b5dbea9f37f67afd6811ae3c" kindref="member">MR_Features_SubfeatureInfo_Set_name</ref>(<ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>user-friendly<sp/>name.</highlight></codeline>
+<codeline lineno="45" refid="MRSubfeatures_8h_1a29aec8ccdd3918902f8232ceda46433e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRSubfeatures_8h_1a29aec8ccdd3918902f8232ceda46433e" kindref="member">MR_Features_SubfeatureInfo_GetMutable_name</ref>(<ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Whether<sp/>the<sp/>feature<sp/>has<sp/>infinite<sp/>length.</highlight></codeline>
+<codeline lineno="52" refid="MRSubfeatures_8h_1aead1805af95601b5b14f3e40afd8ce05" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSubfeatures_8h_1aead1805af95601b5b14f3e40afd8ce05" kindref="member">MR_Features_SubfeatureInfo_Get_isInfinite</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Whether<sp/>the<sp/>feature<sp/>has<sp/>infinite<sp/>length.</highlight></codeline>
+<codeline lineno="58" refid="MRSubfeatures_8h_1aeb2472172c06023be0b7f657a164a3e0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1aeb2472172c06023be0b7f657a164a3e0" kindref="member">MR_Features_SubfeatureInfo_Set_isInfinite</ref>(<ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Whether<sp/>the<sp/>feature<sp/>has<sp/>infinite<sp/>length.</highlight></codeline>
+<codeline lineno="65" refid="MRSubfeatures_8h_1acc4457dc32d758f4a979db7571f2382e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>*<ref refid="MRSubfeatures_8h_1acc4457dc32d758f4a979db7571f2382e" kindref="member">MR_Features_SubfeatureInfo_GetMutable_isInfinite</ref>(<ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Call<sp/>this<sp/>to<sp/>create<sp/>this<sp/>subfeature.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Pass<sp/>the<sp/>same<sp/>feature<sp/>you<sp/>passed<sp/>to<sp/>`forEachSubfeature()`,<sp/>or<sp/>a<sp/>DIFFERENT<sp/>one<sp/>to<sp/>create<sp/>the<sp/>same<sp/>kind<sp/>of<sp/>subfeature<sp/>relative<sp/>to<sp/>that.</highlight></codeline>
+<codeline lineno="73" refid="MRSubfeatures_8h_1a90ae287c1a69818da4c53ab54e2cb408" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref><sp/>*<ref refid="MRSubfeatures_8h_1a90ae287c1a69818da4c53ab54e2cb408" kindref="member">MR_Features_SubfeatureInfo_Get_create</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Call<sp/>this<sp/>to<sp/>create<sp/>this<sp/>subfeature.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Pass<sp/>the<sp/>same<sp/>feature<sp/>you<sp/>passed<sp/>to<sp/>`forEachSubfeature()`,<sp/>or<sp/>a<sp/>DIFFERENT<sp/>one<sp/>to<sp/>create<sp/>the<sp/>same<sp/>kind<sp/>of<sp/>subfeature<sp/>relative<sp/>to<sp/>that.</highlight></codeline>
+<codeline lineno="81" refid="MRSubfeatures_8h_1ae1622ece013eee14fde812c89acf8b22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1ae1622ece013eee14fde812c89acf8b22" kindref="member">MR_Features_SubfeatureInfo_Set_create</ref>(<ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this,<sp/>MR_PassBy<sp/>value_pass_by,<sp/><ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref><sp/>*value);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Call<sp/>this<sp/>to<sp/>create<sp/>this<sp/>subfeature.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Pass<sp/>the<sp/>same<sp/>feature<sp/>you<sp/>passed<sp/>to<sp/>`forEachSubfeature()`,<sp/>or<sp/>a<sp/>DIFFERENT<sp/>one<sp/>to<sp/>create<sp/>the<sp/>same<sp/>kind<sp/>of<sp/>subfeature<sp/>relative<sp/>to<sp/>that.</highlight></codeline>
+<codeline lineno="89" refid="MRSubfeatures_8h_1ab08ef28293e619b3bebc4a75ce87e573" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref><sp/>*<ref refid="MRSubfeatures_8h_1ab08ef28293e619b3bebc4a75ce87e573" kindref="member">MR_Features_SubfeatureInfo_GetMutable_create</ref>(<ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="MRSubfeatures_8h_1accbc7250e51a450cb8bb23f5bb3cf6c8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*<ref refid="MRSubfeatures_8h_1accbc7250e51a450cb8bb23f5bb3cf6c8" kindref="member">MR_Features_SubfeatureInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRSubfeatures_8h_1a3c614eae817e026ba9a7f28245af0e94" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*<ref refid="MRSubfeatures_8h_1a3c614eae817e026ba9a7f28245af0e94" kindref="member">MR_Features_SubfeatureInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="MRSubfeatures_8h_1a01055044fba586776566623d2a752db9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*<ref refid="MRSubfeatures_8h_1a01055044fba586776566623d2a752db9" kindref="member">MR_Features_SubfeatureInfo_ConstructFrom</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>isInfinite,<sp/>MR_PassBy<sp/>create_pass_by,<sp/><ref refid="MRSubfeatures_8h_1a13fa94dc41b14e131eda184bdd244ccd" kindref="member">MR_std_function_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_from_const_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane_ref</ref><sp/>*create);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRSubfeatures_8h_1af02ee38df887308b7c41fb18e2cbc06d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*<ref refid="MRSubfeatures_8h_1af02ee38df887308b7c41fb18e2cbc06d" kindref="member">MR_Features_SubfeatureInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115" refid="MRSubfeatures_8h_1a418cf08d19c95aefa1536198c0fafa66" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*<ref refid="MRSubfeatures_8h_1a418cf08d19c95aefa1536198c0fafa66" kindref="member">MR_Features_SubfeatureInfo_OffsetMutablePtr</ref>(<ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRSubfeatures_8h_1ac478f7ba0942340b4d7db38d473b9b2e" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*<ref refid="MRSubfeatures_8h_1ac478f7ba0942340b4d7db38d473b9b2e" kindref="member">MR_Features_SubfeatureInfo_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="MRSubfeatures_8h_1a1c12ebb79f8774c4a1e3272892ca4c72" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1a1c12ebb79f8774c4a1e3272892ca4c72" kindref="member">MR_Features_SubfeatureInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="MRSubfeatures_8h_1a734405e6561ccdddcceb11064c2e1b01" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1a734405e6561ccdddcceb11064c2e1b01" kindref="member">MR_Features_SubfeatureInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRSubfeatures_8h_1ad56703f12befb17b3ce0184bd07e7a5b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*<ref refid="MRSubfeatures_8h_1ad56703f12befb17b3ce0184bd07e7a5b" kindref="member">MR_Features_SubfeatureInfo_AssignFromAnother</ref>(<ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRSubfeatures_8h_1abbce51d2b9b28650fdfd552bbc750edc" kindref="member">MR_Features_SubfeatureInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Decomposes<sp/>a<sp/>feature<sp/>to<sp/>its<sp/>subfeatures,<sp/>by<sp/>calling<sp/>`func()`<sp/>on<sp/>each<sp/>subfeature.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>only<sp/>returns<sp/>the<sp/>direct<sp/>subfeatures.<sp/>You<sp/>can<sp/>call<sp/>this<sp/>recursively<sp/>to<sp/>obtain<sp/>all<sp/>features,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight><highlight class="comment">//<sp/><sp/><sp/>but<sp/>beware<sp/>of<sp/>duplicates<sp/>(there&apos;s<sp/>no<sp/>easy<sp/>way<sp/>to<sp/>filter<sp/>them).</highlight></codeline>
+<codeline lineno="141" refid="MRSubfeatures_8h_1a08564bb17c2e1d44e5c271f0b686f3c2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1a08564bb17c2e1d44e5c271f0b686f3c2" kindref="member">MR_Features_forEachSubfeature</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRFeatures_8h_1a9d8e47f41f1a72d81eae50dc8db9ae3d" kindref="member">MR_std_variant_MR_Sphere3f_MR_Features_Primitives_ConeSegment_MR_Features_Primitives_Plane</ref><sp/>*feature,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRSubfeatures_8h_1a5b997b3fae3627207d8658a94d327410" kindref="member">MR_std_function_void_from_const_MR_Features_SubfeatureInfo_ref</ref><sp/>*func);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRSubfeatures.h"/>
+  </compounddef>
+</doxygen>

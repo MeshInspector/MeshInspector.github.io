@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1ImageLoad" kind="namespace" language="C++">
+    <compoundname>MR::ImageLoad</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1ImageLoad_1a13d83aa7ec99dc7a9ae166be69ecac53" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1Image" kindref="compound">Image</ref> &gt;(*)(const std::filesystem::path &amp;)</type>
+        <definition>using MR::ImageLoad::ImageLoader =  Expected&lt;Image&gt;( * )( const std::filesystem::path&amp; )</definition>
+        <argsstring></argsstring>
+        <name>ImageLoader</name>
+        <qualifiedname>MR::ImageLoad::ImageLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1gab4748a7b41e7803211a8015322e020e5" kind="function"><name>fromJpeg</name></member>
+      <member refid="group__GeneralGroup_1gaf2f74031c0a87951c6e6265193e491bb" kind="function"><name>fromJpeg</name></member>
+      <member refid="group__GeneralGroup_1ga3f2b6d3e696c684fb005f0afdf2ae4ab" kind="function"><name>fromJpeg</name></member>
+      <member refid="group__GeneralGroup_1gaf27fe391469ee464adae9aeb0019ac28" kind="function"><name>fromPng</name></member>
+      <member refid="group__GeneralGroup_1ga036b1bc335fefcd579c125e0dba99c0b" kind="function"><name>fromPng</name></member>
+      <member refid="group__GeneralGroup_1ga81b47ff32b023a8954f6ccf9cd62595e" kind="function"><name>fromTiff</name></member>
+      <member refid="group__ImageLoadGroup_1gad0427ed61cb0d0f0200d126cac01cc2b" kind="function"><name>fromAnySupportedFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1PointsSave" kindref="compound">PointsSave</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRJpeg.h" line="18" column="1"/>
+  </compounddef>
+</doxygen>

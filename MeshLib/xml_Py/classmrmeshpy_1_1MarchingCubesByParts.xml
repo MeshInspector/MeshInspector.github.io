@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MarchingCubesByParts" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MarchingCubesByParts</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesByParts_1a9db1be8aa204ccfb997ef031458a0b44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesByParts.__init__</definition>
+        <argsstring>(self, Vector3i dims, MarchingCubesParams params, int layersPerBlock=0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MarchingCubesByParts.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MarchingCubesParams" kindref="compound">MarchingCubesParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>layersPerBlock</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>prepares convention for given volume dimensions and given parameters
+\\param layersPerBlock all z-slices of the volume will be partitioned on blocks of given size to process blocks in parallel (0 means auto-select layersPerBlock)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27299" bodyend="27303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesByParts_1a4468e48375d0887626e9d2cd1dad6c16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MarchingCubesByParts.addPart</definition>
+        <argsstring>(self, SimpleVolume part)</argsstring>
+        <name>addPart</name>
+        <qualifiedname>mrmeshpy.MarchingCubesByParts.addPart</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
+          <declname>part</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>adds one more part of volume into consideration, with first z=nextZ()
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27304" bodyend="27307"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesByParts_1a55068ae500c1da80bcd51a7309ff1f91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriMesh" kindref="compound">TriMesh</ref></type>
+        <definition> TriMesh mrmeshpy.MarchingCubesByParts.finalize</definition>
+        <argsstring>(self)</argsstring>
+        <name>finalize</name>
+        <qualifiedname>mrmeshpy.MarchingCubesByParts.finalize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finishes processing and outputs produced trimesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27308" bodyend="27311"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesByParts_1a7985ab8b7ac05ca3d3ed29b8dbb71bc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MarchingCubesByParts.layersPerBlock</definition>
+        <argsstring>(self)</argsstring>
+        <name>layersPerBlock</name>
+        <qualifiedname>mrmeshpy.MarchingCubesByParts.layersPerBlock</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of z-slices of the volume in the blocks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27312" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27312" bodyend="27315"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MarchingCubesByParts_1a7bc32f79eb2edff0e83805c0c4b398ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MarchingCubesByParts.nextZ</definition>
+        <argsstring>(self)</argsstring>
+        <name>nextZ</name>
+        <qualifiedname>mrmeshpy.MarchingCubesByParts.nextZ</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the last z-layer of the previous part and the first z-layer of the next part
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27316" bodyend="27319"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MarchingCubesByParts
+
+converts volume split on parts by planes z=const into mesh,
+last z-layer of previous part must be repeated as first z-layer of next part
+usage:
+MarchingCubesByParts x( dims, params);
+x.addPart( part1 );
+...
+x.addPart( partN );
+Mesh mesh = Mesh::fromTriMesh( *x.finalize() );
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="27286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="27286" bodyend="27319"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MarchingCubesByParts_1a9db1be8aa204ccfb997ef031458a0b44" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesByParts</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesByParts_1a4468e48375d0887626e9d2cd1dad6c16" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesByParts</scope><name>addPart</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesByParts_1a55068ae500c1da80bcd51a7309ff1f91" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesByParts</scope><name>finalize</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesByParts_1a7985ab8b7ac05ca3d3ed29b8dbb71bc2" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesByParts</scope><name>layersPerBlock</name></member>
+      <member refid="classmrmeshpy_1_1MarchingCubesByParts_1a7bc32f79eb2edff0e83805c0c4b398ee" prot="public" virt="non-virtual"><scope>mrmeshpy::MarchingCubesByParts</scope><name>nextZ</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

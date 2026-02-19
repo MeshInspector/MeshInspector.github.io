@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MakeDegenerateBandAroundRegionParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MakeDegenerateBandAroundRegionParams</compoundname>
+    <includes refid="MRMeshExtrude_8h" local="no">MRMeshExtrude.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga7d6c4b4b9c582144c01aad1b8bf29605" kind="variable"><name>outNewFaces</name></member>
+      <member refid="group__GeneralGroup_1ga9a43bd53420bdfcd8981d9dc16830775" kind="variable"><name>outExtrudedEdges</name></member>
+      <member refid="group__GeneralGroup_1gafc2056d17547f3244b2627054ffe02bf" kind="variable"><name>maxEdgeLength</name></member>
+      <member refid="group__GeneralGroup_1ga89ef3c78f83d43c17a9dc7939b7d90e7" kind="variable"><name>new2OldMap</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>holds together settings for makeDegenerateBandAroundRegion </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" line="11" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshExtrude.h" bodystart="12" bodyend="21"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafc2056d17547f3244b2627054ffe02bf" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>maxEdgeLength</name></member>
+      <member refid="group__GeneralGroup_1ga89ef3c78f83d43c17a9dc7939b7d90e7" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>new2OldMap</name></member>
+      <member refid="group__GeneralGroup_1ga9a43bd53420bdfcd8981d9dc16830775" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>outExtrudedEdges</name></member>
+      <member refid="group__GeneralGroup_1ga7d6c4b4b9c582144c01aad1b8bf29605" prot="public" virt="non-virtual"><scope>MR::MakeDegenerateBandAroundRegionParams</scope><name>outNewFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

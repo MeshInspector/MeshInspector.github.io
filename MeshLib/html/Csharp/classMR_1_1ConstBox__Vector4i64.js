@@ -6,9 +6,14 @@ var classMR_1_1ConstBox__Vector4i64 =
     [ "ConstBox_Vector4i64", "classMR_1_1ConstBox__Vector4i64.html#a921f9bc399a713d9384574097db93a22", null ],
     [ "ConstBox_Vector4i64", "classMR_1_1ConstBox__Vector4i64.html#a83815960a90015cea972cb6d3555194d", null ],
     [ "diagonal", "classMR_1_1ConstBox__Vector4i64.html#ab98e458d69ac47e8c4140b0776c6bbcd", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Vector4i64.html#abd19f0bbc7fe0c245d5ccdd8f5bd4b8a", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Vector4i64.html#ad1a6d461c61b70817f3bcb19a3ded4fe", null ],
+    [ "Equals", "classMR_1_1ConstBox__Vector4i64.html#ad79c894a05e894f8f01f7775c2dd592e", null ],
+    [ "Equals", "classMR_1_1ConstBox__Vector4i64.html#a0758cb9848864ac679a13d5fd7940837", null ],
     [ "length", "classMR_1_1ConstBox__Vector4i64.html#a2741df7627644ea22c7394de8a2a78e4", null ],
     [ "lengthSq", "classMR_1_1ConstBox__Vector4i64.html#af6bceaff0adb4366c5d1c70f97eed1db", null ],
     [ "operator ConstBox_Vector4i64", "classMR_1_1ConstBox__Vector4i64.html#a9e11e615d87eb68e6a88e75445fc6d1d", null ],
+    [ "operator!=", "classMR_1_1ConstBox__Vector4i64.html#ad8904fc2f92273de86775925fd9490ed", null ],
     [ "operator*", "classMR_1_1ConstBox__Vector4i64.html#a3a5812c8aae774c27d1842bdcf0c6964", null ],
     [ "operator*", "classMR_1_1ConstBox__Vector4i64.html#af7423426bf3f704a1824cab0e2bb0046", null ],
     [ "operator+", "classMR_1_1ConstBox__Vector4i64.html#ae97215d253f4ec587bbfad1a28726fef", null ],
@@ -17,6 +22,11 @@ var classMR_1_1ConstBox__Vector4i64 =
     [ "operator-", "classMR_1_1ConstBox__Vector4i64.html#a403d8bab635eb550c5dd31673cc624b4", null ],
     [ "operator/", "classMR_1_1ConstBox__Vector4i64.html#a9bc45e87966489a6198de4b585f477e4", null ],
     [ "operator==", "classMR_1_1ConstBox__Vector4i64.html#aee9e0cdece3c81d24a4e3a3f2f98faf5", null ],
-    [ "_Ref", "classMR_1_1ConstBox__Vector4i64.html#ab417d102e23daf27312affdedc27557b", null ],
-    [ "this[int e]", "classMR_1_1ConstBox__Vector4i64.html#a9ad2febcd4eda6a3d8baf870911d1999", null ]
+    [ "__ref_storage_Elements", "classMR_1_1ConstBox__Vector4i64.html#a50f8339a2ec6e9bca50abbcc79f08196", null ],
+    [ "Elements", "classMR_1_1ConstBox__Vector4i64.html#a301f7b3a7a0ce974d2d82d3c9abb07c2", null ],
+    [ "this[int e]", "classMR_1_1ConstBox__Vector4i64.html#a9ad2febcd4eda6a3d8baf870911d1999", null ],
+    [ "w", "classMR_1_1ConstBox__Vector4i64.html#a7f22bcdc3fdb840434a280c751851fce", null ],
+    [ "x", "classMR_1_1ConstBox__Vector4i64.html#afbc24e88709a6249b87f926ab2be9e32", null ],
+    [ "y", "classMR_1_1ConstBox__Vector4i64.html#a88197d384bb97dc81a17fe480b1ccbe1", null ],
+    [ "z", "classMR_1_1ConstBox__Vector4i64.html#a5c43156292bc028f8575d240f562a3fd", null ]
 ];

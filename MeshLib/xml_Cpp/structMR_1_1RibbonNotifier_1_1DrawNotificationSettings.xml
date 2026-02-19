@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonNotifier_1_1DrawNotificationSettings" kind="struct" language="C++" prot="private">
+    <compoundname>MR::RibbonNotifier::DrawNotificationSettings</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gafc6c38072f8fd0e454046e702f1a4334" kind="variable"><name>index</name></member>
+      <member refid="group__GeneralGroup_1ga2d3ad8b9408a4823507819ae6700744c" kind="variable"><name>width</name></member>
+      <member refid="group__GeneralGroup_1ga5ae772bef108f292b67ab9808e1f5f7b" kind="variable"><name>historyMode</name></member>
+      <member refid="group__GeneralGroup_1ga784b69e04514b3402e2c89b958f35a8a" kind="variable"><name>currentPos</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="117" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="118" bodyend="123"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga784b69e04514b3402e2c89b958f35a8a" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::DrawNotificationSettings</scope><name>currentPos</name></member>
+      <member refid="group__GeneralGroup_1ga5ae772bef108f292b67ab9808e1f5f7b" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::DrawNotificationSettings</scope><name>historyMode</name></member>
+      <member refid="group__GeneralGroup_1gafc6c38072f8fd0e454046e702f1a4334" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::DrawNotificationSettings</scope><name>index</name></member>
+      <member refid="group__GeneralGroup_1ga2d3ad8b9408a4823507819ae6700744c" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::DrawNotificationSettings</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

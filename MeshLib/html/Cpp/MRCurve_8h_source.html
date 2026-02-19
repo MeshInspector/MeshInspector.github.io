@@ -150,29 +150,46 @@ $(function(){initNavTree('MRCurve_8h_source.html',''); initResizable(true); });
 <div class="contents">
 <a href="MRCurve_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#pragma once</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
-<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="MRMeshFwd_8h.html">MRMeshFwd.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRMesh_2MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;MRMeshFwd.h&quot;</span></div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="MRVector3_8h.html">MRVector3.h</a>&quot;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR.html">MR</a></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>{</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">struct </span>CurvePoint</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>{</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    Vector3f <a class="code hl_propertyRef" href="../Csharp/classMR_1_1CurvePoint.html#a45b8678968b4f32c5ef09165484491c8">pos</a>;  </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    Vector3f <a class="code hl_propertyRef" href="../Csharp/classMR_1_1CurvePoint.html#ae8b151e635f60413a2b2013806dee6ee">dir</a>;  </div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    Vector3f snorm;</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>};</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">using </span>CurveFunc = std::function&lt;CurvePoint(<span class="keywordtype">float</span>)&gt;;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="foldopen" id="foldopen00012" data-start="{" data-end="};">
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="structMR_1_1CurvePoint.html">   12</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1CurvePoint.html">CurvePoint</a></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>{</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaa66dd8795ad06b100b6b27009f406df5">   14</a></span>    Vector3f <a class="code hl_variable" href="group__GeneralGroup.html#gaa66dd8795ad06b100b6b27009f406df5">pos</a>;  </div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gab890d6dbf3c55646c877002d9cdcef86">   15</a></span>    Vector3f <a class="code hl_variable" href="group__GeneralGroup.html#gab890d6dbf3c55646c877002d9cdcef86">dir</a>;  </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#gaa9ddd8b08fe744f50edac9292ae66920">   16</a></span>    Vector3f <a class="code hl_variable" href="group__GeneralGroup.html#gaa9ddd8b08fe744f50edac9292ae66920">snorm</a>;</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
+</div>
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="keyword">using </span>CurvePoints = std::vector&lt;CurvePoint&gt;;</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>} <span class="comment">//namespace MR</span></div>
-<div class="ttc" id="aMRMeshFwd_8h_html"><div class="ttname"><a href="MRMeshFwd_8h.html">MRMeshFwd.h</a></div></div>
-<div class="ttc" id="aMRMesh_2MRVector3_8h_html"><div class="ttname"><a href="MRMesh_2MRVector3_8h.html">MRVector3.h</a></div></div>
-<div class="ttc" id="aclassMR_1_1CurvePoint_html_a45b8678968b4f32c5ef09165484491c8"><div class="ttname"><a href="../Csharp/classMR_1_1CurvePoint.html#a45b8678968b4f32c5ef09165484491c8">MR::CurvePoint::pos</a></div><div class="ttdeci">new unsafe ref MR.Vector3f pos</div></div>
-<div class="ttc" id="aclassMR_1_1CurvePoint_html_ae8b151e635f60413a2b2013806dee6ee"><div class="ttname"><a href="../Csharp/classMR_1_1CurvePoint.html#ae8b151e635f60413a2b2013806dee6ee">MR::CurvePoint::dir</a></div><div class="ttdeci">new unsafe ref MR.Vector3f dir</div></div>
-<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="foldopen" id="foldopen00019" data-start="{" data-end="};">
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="structMR_1_1CurveFunc.html">   19</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structMR_1_1CurveFunc.html">CurveFunc</a></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>{</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga7a92b6effeeb33d9c993fa589c5eff96">   22</a></span>    std::function&lt;<a class="code hl_struct" href="structMR_1_1CurvePoint.html">CurvePoint</a>( <span class="keywordtype">float</span> )&gt; <a class="code hl_variable" href="group__GeneralGroup.html#ga7a92b6effeeb33d9c993fa589c5eff96">func</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga21b99a5ca399c63ce98b634bf83fb7fb">   25</a></span>    <span class="keywordtype">float</span> <a class="code hl_variable" href="group__GeneralGroup.html#ga21b99a5ca399c63ce98b634bf83fb7fb">totalLength</a> = 1.0f;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>    MR_BIND_PREFER_UNLOCK_GIL_WHEN_USED_AS_PARAM</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>};</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="group__GeneralGroup.html#ga9373564bf8d768311a39df2f41d3d8e4">   32</a></span><span class="keyword">using </span><a class="code hl_typedef" href="group__GeneralGroup.html#ga9373564bf8d768311a39df2f41d3d8e4">CurvePoints</a> = std::vector&lt;CurvePoint&gt;;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>} </div>
+<div class="ttc" id="aMRVector3_8h_html"><div class="ttname"><a href="MRVector3_8h.html">MRVector3.h</a></div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga21b99a5ca399c63ce98b634bf83fb7fb"><div class="ttname"><a href="group__GeneralGroup.html#ga21b99a5ca399c63ce98b634bf83fb7fb">MR::CurveFunc::totalLength</a></div><div class="ttdeci">float totalLength</div><div class="ttdoc">total length of the given curve</div><div class="ttdef"><b>Definition</b> MRCurve.h:25</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga7a92b6effeeb33d9c993fa589c5eff96"><div class="ttname"><a href="group__GeneralGroup.html#ga7a92b6effeeb33d9c993fa589c5eff96">MR::CurveFunc::func</a></div><div class="ttdeci">std::function&lt; CurvePoint(float)&gt; func</div><div class="ttdoc">curve given as a function: position along curve -&gt; point</div><div class="ttdef"><b>Definition</b> MRCurve.h:22</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_ga9373564bf8d768311a39df2f41d3d8e4"><div class="ttname"><a href="group__GeneralGroup.html#ga9373564bf8d768311a39df2f41d3d8e4">MR::CurvePoints</a></div><div class="ttdeci">std::vector&lt; CurvePoint &gt; CurvePoints</div><div class="ttdoc">curve given as a number of points on it samples at arbitrary steps</div><div class="ttdef"><b>Definition</b> MRCurve.h:32</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaa66dd8795ad06b100b6b27009f406df5"><div class="ttname"><a href="group__GeneralGroup.html#gaa66dd8795ad06b100b6b27009f406df5">MR::CurvePoint::pos</a></div><div class="ttdeci">Vector3f pos</div><div class="ttdoc">position on the curve</div><div class="ttdef"><b>Definition</b> MRCurve.h:14</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gaa9ddd8b08fe744f50edac9292ae66920"><div class="ttname"><a href="group__GeneralGroup.html#gaa9ddd8b08fe744f50edac9292ae66920">MR::CurvePoint::snorm</a></div><div class="ttdeci">Vector3f snorm</div><div class="ttdoc">the normal of the surface where the curve is located</div><div class="ttdef"><b>Definition</b> MRCurve.h:16</div></div>
+<div class="ttc" id="agroup__GeneralGroup_html_gab890d6dbf3c55646c877002d9cdcef86"><div class="ttname"><a href="group__GeneralGroup.html#gab890d6dbf3c55646c877002d9cdcef86">MR::CurvePoint::dir</a></div><div class="ttdeci">Vector3f dir</div><div class="ttdoc">direction along the curve</div><div class="ttdef"><b>Definition</b> MRCurve.h:15</div></div>
+<div class="ttc" id="anamespaceMR_html"><div class="ttname"><a href="namespaceMR.html">MR</a></div><div class="ttdoc">only for bindings generation</div><div class="ttdef"><b>Definition</b> MRCameraOrientationPlugin.h:8</div></div>
+<div class="ttc" id="astructMR_1_1CurveFunc_html"><div class="ttname"><a href="structMR_1_1CurveFunc.html">MR::CurveFunc</a></div><div class="ttdef"><b>Definition</b> MRCurve.h:20</div></div>
+<div class="ttc" id="astructMR_1_1CurvePoint_html"><div class="ttname"><a href="structMR_1_1CurvePoint.html">MR::CurvePoint</a></div><div class="ttdef"><b>Definition</b> MRCurve.h:13</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

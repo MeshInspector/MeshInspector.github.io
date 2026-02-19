@@ -1,0 +1,418 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PlyLoadParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::PlyLoadParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PlyLoadParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a362d40db9b26e801a31dbff834210932" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Std.? Optional_MRTriangulation</type>
+        <definition>new unsafe MR.Std.? Optional_MRTriangulation MR.PlyLoadParams.tris</definition>
+        <argsstring></argsstring>
+        <name>tris</name>
+        <qualifiedname>MR.PlyLoadParams.tris</qualifiedname>
+        <briefdescription>
+<para>&lt; optional load artifact: mesh triangles </para>
+        </briefdescription>
+        <detaileddescription>
+<para>optional load artifact: polyline edges </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="314" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="315" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a1a318846683333d6452da8b24eae414a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Std.? Optional_MREdges</type>
+        <definition>new unsafe MR.Std.? Optional_MREdges MR.PlyLoadParams.edges</definition>
+        <argsstring></argsstring>
+        <name>edges</name>
+        <qualifiedname>MR.PlyLoadParams.edges</qualifiedname>
+        <briefdescription>
+<para>optional load artifact: per-vertex color map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="327" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="328" bodyend="337"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a805e4f12f41cb08430a66ab6b059278f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition>new unsafe MR.? VertColors MR.PlyLoadParams.colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR.PlyLoadParams.colors</qualifiedname>
+        <briefdescription>
+<para>optional load artifact: per-face color map </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="340" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="341" bodyend="350"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a49ec369871d46c65982217bf03878e75" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1FaceColors" kindref="compound">FaceColors</ref></type>
+        <definition>new unsafe MR.? FaceColors MR.PlyLoadParams.faceColors</definition>
+        <argsstring></argsstring>
+        <name>faceColors</name>
+        <qualifiedname>MR.PlyLoadParams.faceColors</qualifiedname>
+        <briefdescription>
+<para>optional load artifact: per-vertex uv-coordinates </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="353" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="354" bodyend="363"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a776422082d0e0bcb6a90a3a2490ae88c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+        <definition>new unsafe MR.? VertCoords2 MR.PlyLoadParams.uvCoords</definition>
+        <argsstring></argsstring>
+        <name>uvCoords</name>
+        <qualifiedname>MR.PlyLoadParams.uvCoords</qualifiedname>
+        <briefdescription>
+<para>optional load artifact: per-corner uv-coordinates for each triangle </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="366" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="367" bodyend="376"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a2a9908883dd810581fc95cd5df632359" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+        <definition>new unsafe MR.? TriCornerUVCoords MR.PlyLoadParams.triCornerUvCoords</definition>
+        <argsstring></argsstring>
+        <name>triCornerUvCoords</name>
+        <qualifiedname>MR.PlyLoadParams.triCornerUvCoords</qualifiedname>
+        <briefdescription>
+<para>optional load artifact: per-vertex normals </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="379" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="380" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a804504cf8bd835c33150c3e30893d7ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition>new unsafe MR.? VertCoords MR.PlyLoadParams.normals</definition>
+        <argsstring></argsstring>
+        <name>normals</name>
+        <qualifiedname>MR.PlyLoadParams.normals</qualifiedname>
+        <briefdescription>
+<para>optional load artifact: texture image </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="392" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="393" bodyend="402"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1a217010b6ffe6a5a2d4b93f4e9999272d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+        <definition>new unsafe MR.? MeshTexture MR.PlyLoadParams.texture</definition>
+        <argsstring></argsstring>
+        <name>texture</name>
+        <qualifiedname>MR.PlyLoadParams.texture</qualifiedname>
+        <briefdescription>
+<para>directory to load texture files from </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="405" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="406" bodyend="415"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1aed2575a087d605888acfeaea623485e6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Filesystem.Path</type>
+        <definition>new unsafe MR.Std.Filesystem.Path MR.PlyLoadParams.dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <qualifiedname>MR.PlyLoadParams.dir</qualifiedname>
+        <briefdescription>
+<para>callback for set progress and stop process </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="418" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="418" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1afedf23b97b7976f86b580a06df488c11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.PlyLoadParams.callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>MR.PlyLoadParams.callback</qualifiedname>
+        <briefdescription>
+<para>permit telemetry signal about loading </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="421" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="421" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PlyLoadParams_1afb7d527d754c3e240238e7a0c9d3bf1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.PlyLoadParams.telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>MR.PlyLoadParams.telemetrySignal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="424" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="424" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PlyLoadParams_1afbb9ffb0cfb14c51a1c1ec8297bebb90" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlyLoadParams.PlyLoadParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PlyLoadParams</name>
+        <qualifiedname>MR.PlyLoadParams.PlyLoadParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="450" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="450" bodyend="454"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PlyLoadParams_1a85113be70f575948ee1e8c733070f18f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlyLoadParams.PlyLoadParams</definition>
+        <argsstring>()</argsstring>
+        <name>PlyLoadParams</name>
+        <qualifiedname>MR.PlyLoadParams.PlyLoadParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="460" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="460" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlyLoadParams_1ab8b43c6dcc4eb59f2cca159f40193ff3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlyLoadParams.PlyLoadParams</definition>
+        <argsstring>(MR.Std.Optional_MRTriangulation? tris, MR.Std.Optional_MREdges? edges, MR.VertColors? colors, MR.FaceColors? faceColors, MR.VertCoords2? uvCoords, MR.TriCornerUVCoords? triCornerUvCoords, MR.VertCoords? normals, MR.MeshTexture? texture, string dir, MR.Std._ByValue_Function_BoolFuncFromFloat callback, bool telemetrySignal)</argsstring>
+        <name>PlyLoadParams</name>
+        <qualifiedname>MR.PlyLoadParams.PlyLoadParams</qualifiedname>
+        <param>
+          <type>MR.Std.Optional_MRTriangulation?</type>
+          <declname>tris</declname>
+        </param>
+        <param>
+          <type>MR.Std.Optional_MREdges?</type>
+          <declname>edges</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref>?</type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceColors" kindref="compound">MR.FaceColors</ref>?</type>
+          <declname>faceColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords2" kindref="compound">MR.VertCoords2</ref>?</type>
+          <declname>uvCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1TriCornerUVCoords" kindref="compound">MR.TriCornerUVCoords</ref>?</type>
+          <declname>triCornerUvCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1VertCoords" kindref="compound">MR.VertCoords</ref>?</type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshTexture" kindref="compound">MR.MeshTexture</ref>?</type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>telemetrySignal</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PlyLoadParams" kindref="compound">MR.PlyLoadParams</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="471" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="471" bodyend="490"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlyLoadParams_1a2db581dbc04d57735301ebf7d941b12a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PlyLoadParams.PlyLoadParams</definition>
+        <argsstring>(MR._ByValue_PlyLoadParams _other)</argsstring>
+        <name>PlyLoadParams</name>
+        <qualifiedname>MR.PlyLoadParams.PlyLoadParams</qualifiedname>
+        <param>
+          <type>MR._ByValue_PlyLoadParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PlyLoadParams.PlyLoadParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="495" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="495" bodyend="502"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlyLoadParams_1a70d681fd17e7210e83c4ed60de0b926a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PlyLoadParams.PlyLoadParams</definition>
+        <argsstring>(Const_PlyLoadParams _other)</argsstring>
+        <name>PlyLoadParams</name>
+        <qualifiedname>MR.PlyLoadParams.PlyLoadParams</qualifiedname>
+        <param>
+          <type>Const_PlyLoadParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PlyLoadParams.PlyLoadParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="507" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="507" bodyend="507"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlyLoadParams_1a2e7fb64b1a53bbae49c9a5d516c8150a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PlyLoadParams.PlyLoadParams</definition>
+        <argsstring>(PlyLoadParams _other)</argsstring>
+        <name>PlyLoadParams</name>
+        <qualifiedname>MR.PlyLoadParams.PlyLoadParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PlyLoadParams" kindref="compound">PlyLoadParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PlyLoadParams.PlyLoadParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="512" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="512" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PlyLoadParams_1a634e8184f0d3e832a49a9262532a0b93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PlyLoadParams" kindref="compound">MR.PlyLoadParams</ref></type>
+        <definition>unsafe MR.PlyLoadParams MR.PlyLoadParams.assign</definition>
+        <argsstring>(MR._ByValue_PlyLoadParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PlyLoadParams.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_PlyLoadParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PlyLoadParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="517" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="517" bodyend="524"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>optional load artifacts and other setting for PLY file loading Generated from class <computeroutput><ref refid="classMR_1_1PlyLoadParams" kindref="compound">MR.PlyLoadParams</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PlyLoadParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PlyLoadParams</label>
+        <link refid="classMR_1_1PlyLoadParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PlyLoadParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PlyLoadParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PlyLoadParams</label>
+        <link refid="classMR_1_1PlyLoadParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PlyLoadParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" line="311" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPly.cs" bodystart="312" bodyend="525"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PlyLoadParams_1a634e8184f0d3e832a49a9262532a0b93" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1afedf23b97b7976f86b580a06df488c11" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>callback</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a805e4f12f41cb08430a66ab6b059278f" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>colors</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1aed2575a087d605888acfeaea623485e6" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>dir</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a1a318846683333d6452da8b24eae414a" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>edges</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a49ec369871d46c65982217bf03878e75" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>faceColors</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a804504cf8bd835c33150c3e30893d7ff" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>normals</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1afbb9ffb0cfb14c51a1c1ec8297bebb90" prot="package" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a85113be70f575948ee1e8c733070f18f" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1ab8b43c6dcc4eb59f2cca159f40193ff3" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a2db581dbc04d57735301ebf7d941b12a" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a70d681fd17e7210e83c4ed60de0b926a" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a2e7fb64b1a53bbae49c9a5d516c8150a" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>PlyLoadParams</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1afb7d527d754c3e240238e7a0c9d3bf1c" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>telemetrySignal</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a217010b6ffe6a5a2d4b93f4e9999272d" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>texture</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a2a9908883dd810581fc95cd5df632359" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>triCornerUvCoords</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a362d40db9b26e801a31dbff834210932" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>tris</name></member>
+      <member refid="classMR_1_1PlyLoadParams_1a776422082d0e0bcb6a90a3a2490ae88c" prot="public" virt="non-virtual"><scope>MR::PlyLoadParams</scope><name>uvCoords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

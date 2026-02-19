@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeXfAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeXfAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1DirectionWidget_1_1ChangeDirAction" prot="public" virt="non-virtual">MR::DirectionWidget::ChangeDirAction</derivedcompoundref>
+    <includes refid="MRChangeXfAction_8h" local="no">MRChangeXfAction.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga7d2647426f8708c71d2f6e85da678c2d" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gab818f28be739c6818b6bae8347ca44e9" kind="variable"><name>xf_</name></member>
+      <member refid="group__GeneralGroup_1ga6c53dc147f506c5f00859801ff00d1ad" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" kind="function"><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1gac6aa69f1f7afe95ad6453c38ba4fb80e" kind="function"><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1ga677bcbff928530a06249b4aa004556bc" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gae0205231d9c1c0389daaa03a05b302e2" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga92b9d01bccf043de100f19110630ce24" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga7ca462bf6ff993310a54857dc66ba1ff" kind="function"><name>obj</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for xf change </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeXfAction</label>
+        <link refid="classMR_1_1ChangeXfAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::DirectionWidget::ChangeDirAction</label>
+        <link refid="classMR_1_1DirectionWidget_1_1ChangeDirAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeXfAction</label>
+        <link refid="classMR_1_1ChangeXfAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeXfAction.h" bodystart="16" bodyend="64"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae0205231d9c1c0389daaa03a05b302e2" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gadc90b8207a85c52060b965692645d95b" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1gac6aa69f1f7afe95ad6453c38ba4fb80e" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="group__GeneralGroup_1ga92b9d01bccf043de100f19110630ce24" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga677bcbff928530a06249b4aa004556bc" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga6c53dc147f506c5f00859801ff00d1ad" prot="private" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga7ca462bf6ff993310a54857dc66ba1ff" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>obj</name></member>
+      <member refid="group__GeneralGroup_1ga7d2647426f8708c71d2f6e85da678c2d" prot="private" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1gab818f28be739c6818b6bae8347ca44e9" prot="private" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>xf_</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeXfAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__CurvePoint__from__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_CurvePoint_from_float</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__CurvePoint__from__float_1a49262827f361f3bf2123be84bcc8a620" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_CurvePoint_from_float.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_CurvePoint_from_float.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75360" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75360" bodyend="75361"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__CurvePoint__from__float_1aeb4e9559a7551ccba6a9b3965bacaa2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+        <definition> CurvePoint mrmeshpy.func_CurvePoint_from_float.__call__</definition>
+        <argsstring>(self, float arg0)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_CurvePoint_from_float.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75362" bodyend="75363"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__CurvePoint__from__float_1aea89941e74a8072a946b175699fbb959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_CurvePoint_from_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_CurvePoint_from_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75365" bodyend="75366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__CurvePoint__from__float_1a8978c3600d272ddec28fc3cc332e7b49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_CurvePoint_from_float.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_CurvePoint_from_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75368" bodyend="75369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__CurvePoint__from__float_1a6c1a46fd84096516eac482e1d9f1eb56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_CurvePoint_from_float.__init__</definition>
+        <argsstring>(self, func_CurvePoint_from_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_CurvePoint_from_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__CurvePoint__from__float" kindref="compound">func_CurvePoint_from_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75371" bodyend="75372"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__CurvePoint__from__float_1a2dba4976ce8b16026ef9e84981df4a28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_CurvePoint_from_float.__init__</definition>
+        <argsstring>(self, typing.Callable[[float], CurvePoint] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_CurvePoint_from_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[float]</array>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref>]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75374" bodyend="75375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__CurvePoint__from__float_1ac8308bb1d6a966242a70d99c94400b51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_CurvePoint_from_float.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_CurvePoint_from_float.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75376" bodyend="75379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__CurvePoint__from__float_1a664465959da5ca3382a2c4d6d8991ef0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_CurvePoint_from_float.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_CurvePoint_from_float.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75380" bodyend="75383"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="75359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="75359" bodyend="75383"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__CurvePoint__from__float_1a49262827f361f3bf2123be84bcc8a620" prot="public" virt="non-virtual"><scope>mrmeshpy::func_CurvePoint_from_float</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__CurvePoint__from__float_1aeb4e9559a7551ccba6a9b3965bacaa2e" prot="public" virt="non-virtual"><scope>mrmeshpy::func_CurvePoint_from_float</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__CurvePoint__from__float_1aea89941e74a8072a946b175699fbb959" prot="public" virt="non-virtual"><scope>mrmeshpy::func_CurvePoint_from_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__CurvePoint__from__float_1a8978c3600d272ddec28fc3cc332e7b49" prot="public" virt="non-virtual"><scope>mrmeshpy::func_CurvePoint_from_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__CurvePoint__from__float_1a6c1a46fd84096516eac482e1d9f1eb56" prot="public" virt="non-virtual"><scope>mrmeshpy::func_CurvePoint_from_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__CurvePoint__from__float_1a2dba4976ce8b16026ef9e84981df4a28" prot="public" virt="non-virtual"><scope>mrmeshpy::func_CurvePoint_from_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__CurvePoint__from__float_1ac8308bb1d6a966242a70d99c94400b51" prot="public" virt="non-virtual"><scope>mrmeshpy::func_CurvePoint_from_float</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__CurvePoint__from__float_1a664465959da5ca3382a2c4d6d8991ef0" prot="public" virt="non-virtual"><scope>mrmeshpy::func_CurvePoint_from_float</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

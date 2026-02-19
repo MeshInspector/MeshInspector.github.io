@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeXfAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::ChangeXfAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeXfAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a32c04adff33159441d7a6c0b3ae534d1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ChangeXfAction.operator MR.HistoryAction</definition>
+        <argsstring>(ChangeXfAction self)</argsstring>
+        <name>operator MR.HistoryAction</name>
+        <qualifiedname>MR.ChangeXfAction.operator MR.HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeXfAction" kindref="compound">ChangeXfAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="213" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="213" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1abf120721d809c85d756837ad21f16c81" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ChangeXfAction.operator ChangeXfAction?</definition>
+        <argsstring>(MR.HistoryAction parent)</argsstring>
+        <name>operator ChangeXfAction?</name>
+        <qualifiedname>MR.ChangeXfAction.operator ChangeXfAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="221" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="221" bodyend="228"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a363e2f3d1e16f5760acaa5e2173b67d0" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeXfAction.ChangeXfAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ChangeXfAction</name>
+        <qualifiedname>MR.ChangeXfAction.ChangeXfAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="230" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="230" bodyend="230"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a266dd9b7be5c46c024bddf5d40d730b8" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeXfAction.ChangeXfAction</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ChangeXfAction</name>
+        <qualifiedname>MR.ChangeXfAction.ChangeXfAction</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="232" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="232" bodyend="232"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1acb1b4d5b560d1d94f02450e08f399892" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeXfAction.ChangeXfAction</definition>
+        <argsstring>(MR._ByValue_ChangeXfAction _other)</argsstring>
+        <name>ChangeXfAction</name>
+        <qualifiedname>MR.ChangeXfAction.ChangeXfAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeXfAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeXfAction.ChangeXfAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="237" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="237" bodyend="243"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a9e4a96cc6074e6bebf69ad0a3c1b3b02" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeXfAction.ChangeXfAction</definition>
+        <argsstring>(Const_ChangeXfAction _other)</argsstring>
+        <name>ChangeXfAction</name>
+        <qualifiedname>MR.ChangeXfAction.ChangeXfAction</qualifiedname>
+        <param>
+          <type>Const_ChangeXfAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeXfAction.ChangeXfAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="248" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="248" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a1f5d629c923683c833982184b9a1228e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeXfAction.ChangeXfAction</definition>
+        <argsstring>(ChangeXfAction _other)</argsstring>
+        <name>ChangeXfAction</name>
+        <qualifiedname>MR.ChangeXfAction.ChangeXfAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeXfAction" kindref="compound">ChangeXfAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeXfAction.ChangeXfAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="253" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="253" bodyend="253"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a4e7b80b28ca3f0265550998e7d40d52f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeXfAction.ChangeXfAction</definition>
+        <argsstring>(string name, MR.Const_Object obj)</argsstring>
+        <name>ChangeXfAction</name>
+        <qualifiedname>MR.ChangeXfAction.ChangeXfAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s transformation before making any changes in it Generated from constructor <computeroutput>MR.ChangeXfAction.ChangeXfAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="259" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="259" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a79b7a6f9fab81ff6c4c7694b332ebd7f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeXfAction.ChangeXfAction</definition>
+        <argsstring>(string name, MR.Const_Object obj, in MR.AffineXf3f newXf)</argsstring>
+        <name>ChangeXfAction</name>
+        <qualifiedname>MR.ChangeXfAction.ChangeXfAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_Object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>newXf</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s transformation and immediately set new mesh Generated from constructor <computeroutput>MR.ChangeXfAction.ChangeXfAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="275" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="275" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1ae815e9391aa0939f6e52ef2fa566b74e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeXfAction" kindref="compound">MR.ChangeXfAction</ref></type>
+        <definition>unsafe MR.ChangeXfAction MR.ChangeXfAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeXfAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeXfAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeXfAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ChangeXfAction.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="293" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="293" bodyend="300"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeXfAction_1a41ccc6603a8b6a7d46cedf10de7f570b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ChangeXfAction.action</definition>
+        <argsstring>(MR.HistoryAction.Type _1)</argsstring>
+        <name>action</name>
+        <qualifiedname>MR.ChangeXfAction.action</qualifiedname>
+        <param>
+          <type>MR.HistoryAction.Type</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ChangeXfAction_1a41ccc6603a8b6a7d46cedf10de7f570b" kindref="member">MR.ChangeXfAction.action</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="305" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="305" bodyend="310"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>History action for xf change Generated from class <computeroutput><ref refid="classMR_1_1ChangeXfAction" kindref="compound">MR.ChangeXfAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ChangeXfAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeXfAction</label>
+        <link refid="classMR_1_1ChangeXfAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeXfAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ChangeXfAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeXfAction</label>
+        <link refid="classMR_1_1ChangeXfAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeXfAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" line="210" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeXfAction.cs" bodystart="211" bodyend="311"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeXfAction_1a41ccc6603a8b6a7d46cedf10de7f570b" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1ae815e9391aa0939f6e52ef2fa566b74e" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1a363e2f3d1e16f5760acaa5e2173b67d0" prot="package" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1a266dd9b7be5c46c024bddf5d40d730b8" prot="package" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1acb1b4d5b560d1d94f02450e08f399892" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1a9e4a96cc6074e6bebf69ad0a3c1b3b02" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1a1f5d629c923683c833982184b9a1228e" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1a4e7b80b28ca3f0265550998e7d40d52f" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1a79b7a6f9fab81ff6c4c7694b332ebd7f" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>ChangeXfAction</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1abf120721d809c85d756837ad21f16c81" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>operator ChangeXfAction?</name></member>
+      <member refid="classMR_1_1ChangeXfAction_1a32c04adff33159441d7a6c0b3ae534d1" prot="public" virt="non-virtual"><scope>MR::ChangeXfAction</scope><name>operator MR.HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

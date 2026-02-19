@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1LineSegm2f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::LineSegm2f</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1LineSegm2f_1af60b9c3b28acb9d374b487d8af6aeff9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LineSegm2f::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.LineSegm2f._offsetof_a</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LineSegm2f_1a06c71495d98606caf92de41438b78962" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LineSegm2f::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.LineSegm2f._offsetof_b</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26011" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1a174d766948c658611710f33daa1e47cb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineSegm2f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26016" bodyend="26017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1af91a175dfc3c4208477df1915a017d2e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LineSegm2f" kindref="compound">LineSegm2f</ref></type>
+        <definition> LineSegm2f mrmeshpy.LineSegm2f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26020" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26020" bodyend="26021"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1af91a175dfc3c4208477df1915a017d2e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LineSegm2f" kindref="compound">LineSegm2f</ref></type>
+        <definition> LineSegm2f mrmeshpy.LineSegm2f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26024" bodyend="26025"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1a8635e96474d9f86a4275ebe0efe33e2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.LineSegm2f.__call__</definition>
+        <argsstring>(self, float param)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns point on the line, where param=0 returns a and param=1 returns b
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26026" bodyend="26029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1a355e7f8766255e9947ebf47f1e0bda9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineSegm2f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26031" bodyend="26032"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1a2a3c1f88a184e4a407238e0466d94dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineSegm2f.__init__</definition>
+        <argsstring>(self, Vector2f a, Vector2f b)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26034" bodyend="26035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1a642e24102b5e125732d9413ee7182877" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineSegm2f.__init__</definition>
+        <argsstring>(self, LineSegm2f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineSegm2f" kindref="compound">LineSegm2f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26037" bodyend="26040"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1a7d16c0e6cec06dfd6b5027d308ec5963" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.LineSegm2f.dir</definition>
+        <argsstring>(self)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns directional vector of the line
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26041" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26041" bodyend="26044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1a9ef093ca4fa38ecc9507839590f38c7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.LineSegm2f.length</definition>
+        <argsstring>(self)</argsstring>
+        <name>length</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.length</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the length of this line segment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26045" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26045" bodyend="26048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineSegm2f_1a91e6d1ec5bed173347723cf62e0c4348" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.LineSegm2f.lengthSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>lengthSq</name>
+        <qualifiedname>mrmeshpy.LineSegm2f.lengthSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns squared length of this line segment
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26049" bodyend="26052"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::LineSegm2f
+
+a segment of straight dimensional line
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.LineSegm2f</label>
+        <link refid="classmrmeshpy_1_1LineSegm2f"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_a</edgelabel>
+          <edgelabel>_offsetof_b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26004" bodyend="26052"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1a8635e96474d9f86a4275ebe0efe33e2e" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1a174d766948c658611710f33daa1e47cb" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1a355e7f8766255e9947ebf47f1e0bda9b" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1a2a3c1f88a184e4a407238e0466d94dc3" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1a642e24102b5e125732d9413ee7182877" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1af60b9c3b28acb9d374b487d8af6aeff9" prot="protected" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1a06c71495d98606caf92de41438b78962" prot="protected" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1a7d16c0e6cec06dfd6b5027d308ec5963" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1a9ef093ca4fa38ecc9507839590f38c7e" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>length</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1a91e6d1ec5bed173347723cf62e0c4348" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>lengthSq</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1af91a175dfc3c4208477df1915a017d2e" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1LineSegm2f_1af91a175dfc3c4208477df1915a017d2e" prot="public" virt="non-virtual"><scope>mrmeshpy::LineSegm2f</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

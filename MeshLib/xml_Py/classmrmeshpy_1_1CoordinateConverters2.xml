@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CoordinateConverters2" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CoordinateConverters2</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CoordinateConverters2_1ae2899aa653439b0b08c327c0a4a64412" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CoordinateConverters2::_offsetof_toFloat</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_toFloat</name>
+        <qualifiedname>mrmeshpy.CoordinateConverters2._offsetof_toFloat</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10978" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CoordinateConverters2_1af799e2b6974915b145f619366fffe73e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CoordinateConverters2::_offsetof_toInt</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_toInt</name>
+        <qualifiedname>mrmeshpy.CoordinateConverters2._offsetof_toInt</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10979" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10979" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CoordinateConverters2_1a0c9618933ec57085fbaaec286082d6e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CoordinateConverters2.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CoordinateConverters2.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10984" bodyend="10985"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CoordinateConverters2_1a25f39d921adabee33f861cae67e0c27d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CoordinateConverters2" kindref="compound">CoordinateConverters2</ref></type>
+        <definition> CoordinateConverters2 mrmeshpy.CoordinateConverters2.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CoordinateConverters2.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10988" bodyend="10989"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CoordinateConverters2_1a25f39d921adabee33f861cae67e0c27d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CoordinateConverters2" kindref="compound">CoordinateConverters2</ref></type>
+        <definition> CoordinateConverters2 mrmeshpy.CoordinateConverters2.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.CoordinateConverters2.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10992" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10992" bodyend="10993"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CoordinateConverters2_1a0959c98ff4d6c82e7811af3d170cee14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CoordinateConverters2.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CoordinateConverters2.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10995" bodyend="10996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CoordinateConverters2_1aff40626e8cf7ae864a7ba2704e56271f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CoordinateConverters2.__init__</definition>
+        <argsstring>(self, CoordinateConverters2 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CoordinateConverters2.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CoordinateConverters2" kindref="compound">CoordinateConverters2</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10998" bodyend="11001"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CoordinateConverters2_1a7ff92d233aab89eb9db13ca639e33bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CoordinateConverters2.__init__</definition>
+        <argsstring>(self, func_Vector2_int_from_Vector2_float toInt, func_Vector2_float_from_Vector2_int toFloat)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CoordinateConverters2.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Vector2__int__from__Vector2__float" kindref="compound">func_Vector2_int_from_Vector2_float</ref></type>
+          <declname>toInt</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__Vector2__float__from__Vector2__int" kindref="compound">func_Vector2_float_from_Vector2_int</ref></type>
+          <declname>toFloat</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11003" bodyend="11006"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::CoordinateConverters2
+
+this struct contains coordinate converters float-int-float
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CoordinateConverters2</label>
+        <link refid="classmrmeshpy_1_1CoordinateConverters2"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_toFloat</edgelabel>
+          <edgelabel>_offsetof_toInt</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10972" bodyend="11006"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CoordinateConverters2_1a0c9618933ec57085fbaaec286082d6e0" prot="public" virt="non-virtual"><scope>mrmeshpy::CoordinateConverters2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CoordinateConverters2_1a0959c98ff4d6c82e7811af3d170cee14" prot="public" virt="non-virtual"><scope>mrmeshpy::CoordinateConverters2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CoordinateConverters2_1aff40626e8cf7ae864a7ba2704e56271f" prot="public" virt="non-virtual"><scope>mrmeshpy::CoordinateConverters2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CoordinateConverters2_1a7ff92d233aab89eb9db13ca639e33bf4" prot="public" virt="non-virtual"><scope>mrmeshpy::CoordinateConverters2</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CoordinateConverters2_1ae2899aa653439b0b08c327c0a4a64412" prot="protected" virt="non-virtual"><scope>mrmeshpy::CoordinateConverters2</scope><name>_offsetof_toFloat</name></member>
+      <member refid="classmrmeshpy_1_1CoordinateConverters2_1af799e2b6974915b145f619366fffe73e" prot="protected" virt="non-virtual"><scope>mrmeshpy::CoordinateConverters2</scope><name>_offsetof_toInt</name></member>
+      <member refid="classmrmeshpy_1_1CoordinateConverters2_1a25f39d921adabee33f861cae67e0c27d" prot="public" virt="non-virtual"><scope>mrmeshpy::CoordinateConverters2</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1CoordinateConverters2_1a25f39d921adabee33f861cae67e0c27d" prot="public" virt="non-virtual"><scope>mrmeshpy::CoordinateConverters2</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

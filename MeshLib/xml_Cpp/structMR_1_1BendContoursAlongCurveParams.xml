@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BendContoursAlongCurveParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BendContoursAlongCurveParams</compoundname>
+    <includes refid="MRAlignContoursToMesh_8h" local="no">MRAlignContoursToMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaf94f08b9029b46debd6c05b78ee3d395" kind="variable"><name>pivotCurveTime</name></member>
+      <member refid="group__GeneralGroup_1gaa2f38f9d108b091730c6510d7dfdd082" kind="variable"><name>pivotBoxPoint</name></member>
+      <member refid="group__GeneralGroup_1gab8b07248a367fe492510d68b8052190c" kind="variable"><name>periodicCurve</name></member>
+      <member refid="group__GeneralGroup_1gaa63ad4da9aad75fc779edeb4baab169c" kind="variable"><name>stretch</name></member>
+      <member refid="group__GeneralGroup_1ga2e554b5ceea4b8d6d43ce5c58e506315" kind="variable"><name>extrusion</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for aligning 2d contours along given curve. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" line="44" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAlignContoursToMesh.h" bodystart="45" bodyend="62"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2e554b5ceea4b8d6d43ce5c58e506315" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>extrusion</name></member>
+      <member refid="group__GeneralGroup_1gab8b07248a367fe492510d68b8052190c" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>periodicCurve</name></member>
+      <member refid="group__GeneralGroup_1gaa2f38f9d108b091730c6510d7dfdd082" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>pivotBoxPoint</name></member>
+      <member refid="group__GeneralGroup_1gaf94f08b9029b46debd6c05b78ee3d395" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>pivotCurveTime</name></member>
+      <member refid="group__GeneralGroup_1gaa63ad4da9aad75fc779edeb4baab169c" prot="public" virt="non-virtual"><scope>MR::BendContoursAlongCurveParams</scope><name>stretch</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

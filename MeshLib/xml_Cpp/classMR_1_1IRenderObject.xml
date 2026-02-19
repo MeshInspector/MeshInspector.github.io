@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IRenderObject" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::IRenderObject</compoundname>
+    <derivedcompoundref refid="classMR_1_1RenderLabelObject" prot="public" virt="virtual">MR::RenderLabelObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderLinesObject" prot="public" virt="virtual">MR::RenderLinesObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderMeshObject" prot="public" virt="virtual">MR::RenderMeshObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderNameObject" prot="public" virt="virtual">MR::RenderNameObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderPointsObject" prot="public" virt="virtual">MR::RenderPointsObject</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderResetDirtyComponent" prot="public" virt="virtual">MR::RenderResetDirtyComponent</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1RenderVolumeObject" prot="public" virt="virtual">MR::RenderVolumeObject</derivedcompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" kind="function"><name>~IRenderObject</name></member>
+      <member refid="group__GeneralGroup_1ga02b8e566ef48df489cddb77a759ec3c4" kind="function"><name>render</name></member>
+      <member refid="group__GeneralGroup_1gaa40c8d73952eceb8d676864c3cd30738" kind="function"><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga79569d09a46b696bc119c62ac7faaad8" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gadefa4d9a963e416cc21d7116749cdffe" kind="function"><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga6cc3204a31145ab371e129da393b7215" kind="function"><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" kind="function"><name>renderUi</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::IRenderObject</label>
+        <link refid="classMR_1_1IRenderObject"/>
+      </node>
+      <node id="5">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectLines, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectMesh, RenderMeshObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::RenderFeatures::RenderFeatureComponent&lt; IsPrimary, ObjectPoints, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureComponent"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderFeatures::RenderFeatureLinesComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureLinesComponent"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::RenderFeatures::RenderFeatureMeshComponent&lt; false &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeatureMeshComponent"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::RenderFeatures::RenderFeaturePointsComponent&lt; IsPrimary &gt;</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderFeaturePointsComponent"/>
+        <childnode refid="16" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::RenderFeatures::RenderPlaneNormalComponent</label>
+        <link refid="classMR_1_1RenderFeatures_1_1RenderPlaneNormalComponent"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RenderLabelObject</label>
+        <link refid="classMR_1_1RenderLabelObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RenderLinesObject</label>
+        <link refid="classMR_1_1RenderLinesObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::RenderMeshObject</label>
+        <link refid="classMR_1_1RenderMeshObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::RenderNameObject</label>
+        <link refid="classMR_1_1RenderNameObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::RenderPointsObject</label>
+        <link refid="classMR_1_1RenderPointsObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::RenderResetDirtyComponent</label>
+        <link refid="classMR_1_1RenderResetDirtyComponent"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MR::RenderVolumeObject</label>
+        <link refid="classMR_1_1RenderVolumeObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectLines &gt;, RenderLinesObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectMesh &gt;, RenderMeshObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::RenderWrapObject::Wrapper&lt; WrappedModelSubobject&lt; IsPrimary, ObjectPoints &gt;, RenderPointsObject &gt;</label>
+        <link refid="classMR_1_1RenderWrapObject_1_1Wrapper"/>
+        <childnode refid="14" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="134" bodyend="158"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6cc3204a31145ab371e129da393b7215" prot="public" virt="virtual"><scope>MR::IRenderObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1gadefa4d9a963e416cc21d7116749cdffe" prot="public" virt="pure-virtual"><scope>MR::IRenderObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga79569d09a46b696bc119c62ac7faaad8" prot="public" virt="pure-virtual"><scope>MR::IRenderObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga02b8e566ef48df489cddb77a759ec3c4" prot="public" virt="pure-virtual"><scope>MR::IRenderObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1gaa40c8d73952eceb8d676864c3cd30738" prot="public" virt="pure-virtual"><scope>MR::IRenderObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" prot="public" virt="virtual"><scope>MR::IRenderObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1gacb87b662f59e2d557580f2ad1f38fa7a" prot="public" virt="virtual"><scope>MR::IRenderObject</scope><name>~IRenderObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

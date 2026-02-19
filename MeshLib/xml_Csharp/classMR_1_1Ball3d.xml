@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Ball3d" kind="class" language="C#" prot="public">
+    <compoundname>MR::Ball3d</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_Ball3d</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Ball3d_1ac010101d263c4dfb784a5b342f593bb8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new unsafe ref MR.Vector3d MR.Ball3d.center</definition>
+        <argsstring></argsstring>
+        <name>center</name>
+        <qualifiedname>MR.Ball3d.center</qualifiedname>
+        <briefdescription>
+<para>&lt; ball&apos;s center </para>
+        </briefdescription>
+        <detaileddescription>
+<para>ball&apos;s squared radius </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1373" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Ball3d_1aed3bf11bc83da1c6b7844c010996a945" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref double</type>
+        <definition>new unsafe ref double MR.Ball3d.radiusSq</definition>
+        <argsstring></argsstring>
+        <name>radiusSq</name>
+        <qualifiedname>MR.Ball3d.radiusSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1376" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1376" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Ball3d_1a11a2cce506def20dfc14e528aaf9b28f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Ball3d.Ball3d</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Ball3d</name>
+        <qualifiedname>MR.Ball3d.Ball3d</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1380" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1380" bodyend="1384"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Ball3d_1ad17360608a3f7019034dc28099deb49c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Ball3d.Ball3d</definition>
+        <argsstring>()</argsstring>
+        <name>Ball3d</name>
+        <qualifiedname>MR.Ball3d.Ball3d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1390" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1390" bodyend="1396"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Ball3d_1a29ee3ae5effdaa855d0788205ba8c429" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Ball3d.Ball3d</definition>
+        <argsstring>(MR.Vector3d center, double radiusSq)</argsstring>
+        <name>Ball3d</name>
+        <qualifiedname>MR.Ball3d.Ball3d</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>radiusSq</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1Ball3d" kindref="compound">MR.Ball3d</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1401" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1401" bodyend="1407"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Ball3d_1ab4a8db798661de504fef2c9921ea2f56" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Ball3d.Ball3d</definition>
+        <argsstring>(MR.Const_Ball3d _other)</argsstring>
+        <name>Ball3d</name>
+        <qualifiedname>MR.Ball3d.Ball3d</qualifiedname>
+        <param>
+          <type>MR.Const_Ball3d</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Ball3d.Ball3d</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1412" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1412" bodyend="1419"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Ball3d_1a19f02aed69f196cce1a4fabb939c6959" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.Ball3d.Ball3d</definition>
+        <argsstring>(Ball3d _other)</argsstring>
+        <name>Ball3d</name>
+        <qualifiedname>MR.Ball3d.Ball3d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1Ball3d" kindref="compound">Ball3d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.Ball3d.Ball3d</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1424" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1424" bodyend="1424"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Ball3d_1afc265bd4b852dfbcbe381424a08a9c3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Ball3d" kindref="compound">MR.Ball3d</ref></type>
+        <definition>unsafe MR.Ball3d MR.Ball3d.assign</definition>
+        <argsstring>(MR.Const_Ball3d _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.Ball3d.assign</qualifiedname>
+        <param>
+          <type>MR.Const_Ball3d</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Ball3d.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1429" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1429" bodyend="1436"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>a ball = points surrounded by a sphere in arbitrary space with vector type V Generated from class <computeroutput><ref refid="classMR_1_1Ball3d" kindref="compound">MR.Ball3d</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_Ball3d</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Ball3d</label>
+        <link refid="classMR_1_1Ball3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Ball3d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_Ball3d</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Ball3d</label>
+        <link refid="classMR_1_1Ball3d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_Ball3d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" line="1370" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRBall.cs" bodystart="1371" bodyend="1437"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Ball3d_1afc265bd4b852dfbcbe381424a08a9c3b" prot="public" virt="non-virtual"><scope>MR::Ball3d</scope><name>assign</name></member>
+      <member refid="classMR_1_1Ball3d_1a11a2cce506def20dfc14e528aaf9b28f" prot="package" virt="non-virtual"><scope>MR::Ball3d</scope><name>Ball3d</name></member>
+      <member refid="classMR_1_1Ball3d_1ad17360608a3f7019034dc28099deb49c" prot="public" virt="non-virtual"><scope>MR::Ball3d</scope><name>Ball3d</name></member>
+      <member refid="classMR_1_1Ball3d_1a29ee3ae5effdaa855d0788205ba8c429" prot="public" virt="non-virtual"><scope>MR::Ball3d</scope><name>Ball3d</name></member>
+      <member refid="classMR_1_1Ball3d_1ab4a8db798661de504fef2c9921ea2f56" prot="public" virt="non-virtual"><scope>MR::Ball3d</scope><name>Ball3d</name></member>
+      <member refid="classMR_1_1Ball3d_1a19f02aed69f196cce1a4fabb939c6959" prot="public" virt="non-virtual"><scope>MR::Ball3d</scope><name>Ball3d</name></member>
+      <member refid="classMR_1_1Ball3d_1ac010101d263c4dfb784a5b342f593bb8" prot="public" virt="non-virtual"><scope>MR::Ball3d</scope><name>center</name></member>
+      <member refid="classMR_1_1Ball3d_1aed3bf11bc83da1c6b7844c010996a945" prot="public" virt="non-virtual"><scope>MR::Ball3d</scope><name>radiusSq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

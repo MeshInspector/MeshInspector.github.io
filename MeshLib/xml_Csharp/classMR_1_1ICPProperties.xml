@@ -1,0 +1,413 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ICPProperties" kind="class" language="C#" prot="public">
+    <compoundname>MR::ICPProperties</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ICPProperties</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1ac2c4713ca7d53632503c5da094439dfa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1a90fcd9e2a74e2161a52251e979ed957d" kindref="member">MR.ICPMethod</ref></type>
+        <definition>new unsafe ref MR.ICPMethod MR.ICPProperties.method</definition>
+        <argsstring></argsstring>
+        <name>method</name>
+        <qualifiedname>MR.ICPProperties.method</qualifiedname>
+        <briefdescription>
+<para>The method how to update transformation from point pairs, see description of each option in ICPMethod. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1568" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1568" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1a1fa0ac7e07ebbbfc075dbe3653dbde8c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ICPProperties.p2plAngleLimit</definition>
+        <argsstring></argsstring>
+        <name>p2plAngleLimit</name>
+        <qualifiedname>MR.ICPProperties.p2plAngleLimit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1571" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1571" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1a34a875a78ce31db5fb191a3fc68716ef" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ICPProperties.p2plScaleLimit</definition>
+        <argsstring></argsstring>
+        <name>p2plScaleLimit</name>
+        <qualifiedname>MR.ICPProperties.p2plScaleLimit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Scaling during one iteration of <ref refid="classMR_1a90fcd9e2a74e2161a52251e979ed957da621eeaff7db1283a0db27b4e7233a8ed" kindref="member">ICPMethod.PointToPlane</ref> will be limited by this value. This is to reduce possible instability. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1575" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1575" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1adeb24a43c5d72fa51e756a3c51969593" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ICPProperties.cosThreshold</definition>
+        <argsstring></argsstring>
+        <name>cosThreshold</name>
+        <qualifiedname>MR.ICPProperties.cosThreshold</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1578" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1578" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1a202f310c6ccfb786ab56a0d4dc31389f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ICPProperties.distThresholdSq</definition>
+        <argsstring></argsstring>
+        <name>distThresholdSq</name>
+        <qualifiedname>MR.ICPProperties.distThresholdSq</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1581" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1581" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1a814efc2a3ee28aecd6bea2e17460be8b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ICPProperties.farDistFactor</definition>
+        <argsstring></argsstring>
+        <name>farDistFactor</name>
+        <qualifiedname>MR.ICPProperties.farDistFactor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1584" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1584" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1a37553de95f81e2eb69d20b6e23339557" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1a8d81aa456e2777ec7823ebb5a61662d5" kindref="member">MR.ICPMode</ref></type>
+        <definition>new unsafe ref MR.ICPMode MR.ICPProperties.icpMode</definition>
+        <argsstring></argsstring>
+        <name>icpMode</name>
+        <qualifiedname>MR.ICPProperties.icpMode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Selects the group of transformations, where to find a solution (e.g. with scaling or without, with rotation or without, ...). See the description of each option in ICPMode. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1588" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1588" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1a80ae018573a665e36c2fbc8b3d96c73e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.ICPProperties.fixedRotationAxis</definition>
+        <argsstring></argsstring>
+        <name>fixedRotationAxis</name>
+        <qualifiedname>MR.ICPProperties.fixedRotationAxis</qualifiedname>
+        <briefdescription>
+<para>Additional parameter for <ref refid="classMR_1a8d81aa456e2777ec7823ebb5a61662d5a9dc639d68610e7c72efff69db6d60b18" kindref="member">ICPMode.OrthogonalAxis</ref> and <ref refid="classMR_1a8d81aa456e2777ec7823ebb5a61662d5aeaff0b601f0c9235c1d2d08500449fae" kindref="member">ICPMode.FixedAxis</ref> transformation groups. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1591" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1591" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1ae726178debb57089866915bc1f93dc27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.ICPProperties.iterLimit</definition>
+        <argsstring></argsstring>
+        <name>iterLimit</name>
+        <qualifiedname>MR.ICPProperties.iterLimit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum number of iterations that the algorithm can perform. Increase this parameter if you need a higher precision or if initial approximation is not very precise. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1595" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1595" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1a85f42cecfad0e7d683171add941638a7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.ICPProperties.badIterStopCount</definition>
+        <argsstring></argsstring>
+        <name>badIterStopCount</name>
+        <qualifiedname>MR.ICPProperties.badIterStopCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The algorithm will stop before making all (iterLimit) iterations, if there were consecutive (badIterStopCount) iterations, during which the average distance between points in active pairs did not diminish. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1599" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1599" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1a7f0c8a8f8082516197c8d82c6031d9b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.ICPProperties.exitVal</definition>
+        <argsstring></argsstring>
+        <name>exitVal</name>
+        <qualifiedname>MR.ICPProperties.exitVal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1602" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1602" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1ICPProperties_1af63c2738a5d70b7d24bd14df5364c528" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.ICPProperties.mutualClosest</definition>
+        <argsstring></argsstring>
+        <name>mutualClosest</name>
+        <qualifiedname>MR.ICPProperties.mutualClosest</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A pair of points is activated only if both points in the pair are mutually closest (reciprocity test passed), some papers recommend this mode for filtering out wrong pairs, but it can be too aggressive and deactivate (almost) all pairs. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1606" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1606" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1a1f781b9680c36a0139a017aa40eb4f52" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICPProperties.ICPProperties</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ICPProperties</name>
+        <qualifiedname>MR.ICPProperties.ICPProperties</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1610" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1610" bodyend="1614"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1ad127c9892319a4baef52d06272019218" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICPProperties.ICPProperties</definition>
+        <argsstring>()</argsstring>
+        <name>ICPProperties</name>
+        <qualifiedname>MR.ICPProperties.ICPProperties</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1620" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1620" bodyend="1626"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1a9919d79f0d0deb7c21623e2b84f98c24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICPProperties.ICPProperties</definition>
+        <argsstring>(MR.ICPMethod method, float p2plAngleLimit, float p2plScaleLimit, float cosThreshold, float distThresholdSq, float farDistFactor, MR.ICPMode icpMode, MR.Vector3f fixedRotationAxis, int iterLimit, int badIterStopCount, float exitVal, bool mutualClosest)</argsstring>
+        <name>ICPProperties</name>
+        <qualifiedname>MR.ICPProperties.ICPProperties</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1a90fcd9e2a74e2161a52251e979ed957d" kindref="member">MR.ICPMethod</ref></type>
+          <declname>method</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>p2plAngleLimit</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>p2plScaleLimit</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>cosThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>distThresholdSq</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>farDistFactor</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1a8d81aa456e2777ec7823ebb5a61662d5" kindref="member">MR.ICPMode</ref></type>
+          <declname>icpMode</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>fixedRotationAxis</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterLimit</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>badIterStopCount</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>exitVal</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>mutualClosest</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1ICPProperties" kindref="compound">MR.ICPProperties</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1631" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1631" bodyend="1637"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1aaafa6c6e368dc36ffd96236ba743c6c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ICPProperties.ICPProperties</definition>
+        <argsstring>(MR.Const_ICPProperties _other)</argsstring>
+        <name>ICPProperties</name>
+        <qualifiedname>MR.ICPProperties.ICPProperties</qualifiedname>
+        <param>
+          <type>MR.Const_ICPProperties</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ICPProperties.ICPProperties</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1642" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1642" bodyend="1649"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1a50be44fff6df0bd6b825b255cf465375" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ICPProperties.ICPProperties</definition>
+        <argsstring>(ICPProperties _other)</argsstring>
+        <name>ICPProperties</name>
+        <qualifiedname>MR.ICPProperties.ICPProperties</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ICPProperties" kindref="compound">ICPProperties</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ICPProperties.ICPProperties</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1654" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1654" bodyend="1654"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ICPProperties_1a61aca8c5d9f5d4a4feeb863b994af34b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ICPProperties" kindref="compound">MR.ICPProperties</ref></type>
+        <definition>unsafe MR.ICPProperties MR.ICPProperties.assign</definition>
+        <argsstring>(MR.Const_ICPProperties _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ICPProperties.assign</qualifiedname>
+        <param>
+          <type>MR.Const_ICPProperties</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ICPProperties.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1659" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1659" bodyend="1666"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>parameters of <ref refid="classMR_1_1ICP" kindref="compound">ICP</ref> algorithm Generated from class <computeroutput><ref refid="classMR_1_1ICPProperties" kindref="compound">MR.ICPProperties</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ICPProperties</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ICPProperties</label>
+        <link refid="classMR_1_1ICPProperties"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ICPProperties &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ICPProperties</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ICPProperties</label>
+        <link refid="classMR_1_1ICPProperties"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ICPProperties &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" line="1565" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRICP.cs" bodystart="1566" bodyend="1667"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ICPProperties_1a61aca8c5d9f5d4a4feeb863b994af34b" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>assign</name></member>
+      <member refid="classMR_1_1ICPProperties_1a85f42cecfad0e7d683171add941638a7" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>badIterStopCount</name></member>
+      <member refid="classMR_1_1ICPProperties_1adeb24a43c5d72fa51e756a3c51969593" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>cosThreshold</name></member>
+      <member refid="classMR_1_1ICPProperties_1a202f310c6ccfb786ab56a0d4dc31389f" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>distThresholdSq</name></member>
+      <member refid="classMR_1_1ICPProperties_1a7f0c8a8f8082516197c8d82c6031d9b5" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>exitVal</name></member>
+      <member refid="classMR_1_1ICPProperties_1a814efc2a3ee28aecd6bea2e17460be8b" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>farDistFactor</name></member>
+      <member refid="classMR_1_1ICPProperties_1a80ae018573a665e36c2fbc8b3d96c73e" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>fixedRotationAxis</name></member>
+      <member refid="classMR_1_1ICPProperties_1a37553de95f81e2eb69d20b6e23339557" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>icpMode</name></member>
+      <member refid="classMR_1_1ICPProperties_1a1f781b9680c36a0139a017aa40eb4f52" prot="package" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
+      <member refid="classMR_1_1ICPProperties_1ad127c9892319a4baef52d06272019218" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
+      <member refid="classMR_1_1ICPProperties_1a9919d79f0d0deb7c21623e2b84f98c24" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
+      <member refid="classMR_1_1ICPProperties_1aaafa6c6e368dc36ffd96236ba743c6c2" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
+      <member refid="classMR_1_1ICPProperties_1a50be44fff6df0bd6b825b255cf465375" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>ICPProperties</name></member>
+      <member refid="classMR_1_1ICPProperties_1ae726178debb57089866915bc1f93dc27" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>iterLimit</name></member>
+      <member refid="classMR_1_1ICPProperties_1ac2c4713ca7d53632503c5da094439dfa" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>method</name></member>
+      <member refid="classMR_1_1ICPProperties_1af63c2738a5d70b7d24bd14df5364c528" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>mutualClosest</name></member>
+      <member refid="classMR_1_1ICPProperties_1a1fa0ac7e07ebbbfc075dbe3653dbde8c" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plAngleLimit</name></member>
+      <member refid="classMR_1_1ICPProperties_1a34a875a78ce31db5fb191a3fc68716ef" prot="public" virt="non-virtual"><scope>MR::ICPProperties</scope><name>p2plScaleLimit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FlowAggregator" kind="class" language="C++" prot="public">
+    <compoundname>MR::FlowAggregator</compoundname>
+    <includes refid="MRAggregateFlow_8h" local="no">MRAggregateFlow.h</includes>
+    <innerclass refid="structMR_1_1FlowAggregator_1_1Flows" prot="public">MR::FlowAggregator::Flows</innerclass>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaeff1f01ddc0616d8c8a47ea8bf154474" kind="variable"><name>mesh_</name></member>
+      <member refid="group__GeneralGroup_1ga59c35af30e622dae5559d0b174589d4b" kind="variable"><name>heights_</name></member>
+      <member refid="group__GeneralGroup_1ga0baa645cf1baef29ca71c67a05806c12" kind="variable"><name>downFlowVert_</name></member>
+      <member refid="group__GeneralGroup_1ga6df2f0d7fc05a2003447cbb87da7cffc" kind="variable"><name>rootVert_</name></member>
+      <member refid="group__GeneralGroup_1ga4c7e6bf18b25e77a1f0162c3f827cf10" kind="variable"><name>downPath_</name></member>
+      <member refid="group__GeneralGroup_1gacbdabeec9b3e759a3676976de7e97e20" kind="variable"><name>vertsSortedDesc_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gadd4233affa5197236315d5efb16311a7" kind="function"><name>FlowAggregator</name></member>
+      <member refid="group__GeneralGroup_1gaf309ebefeb0b0100add0123e82cbafdb" kind="function"><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga8d5145cec269402a1a63fc6da262cc81" kind="function"><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga364cc219b9e12c0113e48d3ea18c886d" kind="function"><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga7234a41d4570f6f8501446c4b7af87a2" kind="function"><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1gad0e556ea9f008ea75d723c36bed3fa4e" kind="function"><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1ga83e4e9d4e05b0025e65c0b7c2cf64d44" kind="function"><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1ga2384bcaaf2bbf8e865fb2a1e4df9c443" kind="function"><name>computeCatchmentDelineation</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>this class can track multiple flows and find in each mesh vertex the amount of water reached it </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAggregateFlow.h" bodystart="34" bodyend="80"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2384bcaaf2bbf8e865fb2a1e4df9c443" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeCatchmentDelineation</name></member>
+      <member refid="group__GeneralGroup_1gaf309ebefeb0b0100add0123e82cbafdb" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga8d5145cec269402a1a63fc6da262cc81" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga364cc219b9e12c0113e48d3ea18c886d" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlow</name></member>
+      <member refid="group__GeneralGroup_1ga7234a41d4570f6f8501446c4b7af87a2" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1gad0e556ea9f008ea75d723c36bed3fa4e" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1ga83e4e9d4e05b0025e65c0b7c2cf64d44" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>computeFlowsPerBasin</name></member>
+      <member refid="group__GeneralGroup_1ga0baa645cf1baef29ca71c67a05806c12" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>downFlowVert_</name></member>
+      <member refid="group__GeneralGroup_1ga4c7e6bf18b25e77a1f0162c3f827cf10" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>downPath_</name></member>
+      <member refid="group__GeneralGroup_1gadd4233affa5197236315d5efb16311a7" prot="public" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>FlowAggregator</name></member>
+      <member refid="group__GeneralGroup_1ga59c35af30e622dae5559d0b174589d4b" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>heights_</name></member>
+      <member refid="group__GeneralGroup_1gaeff1f01ddc0616d8c8a47ea8bf154474" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>mesh_</name></member>
+      <member refid="group__GeneralGroup_1ga6df2f0d7fc05a2003447cbb87da7cffc" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>rootVert_</name></member>
+      <member refid="group__GeneralGroup_1gacbdabeec9b3e759a3676976de7e97e20" prot="private" virt="non-virtual"><scope>MR::FlowAggregator</scope><name>vertsSortedDesc_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

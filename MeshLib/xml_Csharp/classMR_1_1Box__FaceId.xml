@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Box__FaceId" kind="class" language="C#" prot="public">
+    <compoundname>MR::Box_FaceId</compoundname>
+    <basecompoundref refid="classMR_1_1ConstBox__FaceId" prot="public" virt="non-virtual">MR.ConstBox_FaceId</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Box__FaceId_1ab000ce61205627aea1bfa12b0bcfc4b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref int</type>
+        <definition>new ref int MR.Box_FaceId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.Box_FaceId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="916" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="916" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1a76b62699a5669a2ced609f5966567a16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_FaceId.Box_FaceId</definition>
+        <argsstring>(FaceId other)</argsstring>
+        <name>Box_FaceId</name>
+        <qualifiedname>MR.Box_FaceId.Box_FaceId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="921" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="921" bodyend="921"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1af87e0aba224960b72aeb0ec1de9c047b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_FaceId.Box_FaceId</definition>
+        <argsstring>(ConstBox_FaceId _other)</argsstring>
+        <name>Box_FaceId</name>
+        <qualifiedname>MR.Box_FaceId.Box_FaceId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__FaceId" kindref="compound">ConstBox_FaceId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="928" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="928" bodyend="932"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1a4cb213d414cb2aaecae394cd258f586e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Box_FaceId.Assign</definition>
+        <argsstring>(ConstBox_FaceId _other)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>MR.Box_FaceId.Assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__FaceId" kindref="compound">ConstBox_FaceId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="937" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="937" bodyend="937"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1a6f355b4c71136d2c115fee3041bc78fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_FaceId.Box_FaceId</definition>
+        <argsstring>()</argsstring>
+        <name>Box_FaceId</name>
+        <qualifiedname>MR.Box_FaceId.Box_FaceId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="942" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="942" bodyend="948"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1a85d98e4f977cc61c4d0930559f9784b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_FaceId.Box_FaceId</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Box_FaceId</name>
+        <qualifiedname>MR.Box_FaceId.Box_FaceId</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1FaceId_1a2a32c44b367c7755fa63a71c5c6b3919" kindref="member">MR.FaceId.FaceId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="953" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="953" bodyend="960"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1a1c154d1d3f06c42aaeb5dc53a89f8f37" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_FaceId.Box_FaceId</definition>
+        <argsstring>(int i)</argsstring>
+        <name>Box_FaceId</name>
+        <qualifiedname>MR.Box_FaceId.Box_FaceId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1FaceId_1a2a32c44b367c7755fa63a71c5c6b3919" kindref="member">MR.FaceId.FaceId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="972" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="972" bodyend="978"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1adb5fc0f895a23cc169d4272bad1c3f0a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_FaceId.Box_FaceId</definition>
+        <argsstring>(uint i)</argsstring>
+        <name>Box_FaceId</name>
+        <qualifiedname>MR.Box_FaceId.Box_FaceId</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1FaceId_1a2a32c44b367c7755fa63a71c5c6b3919" kindref="member">MR.FaceId.FaceId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="990" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="990" bodyend="996"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1a30e712339c359f4ab630da60353984ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_FaceId.Box_FaceId</definition>
+        <argsstring>(ulong i)</argsstring>
+        <name>Box_FaceId</name>
+        <qualifiedname>MR.Box_FaceId.Box_FaceId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1FaceId_1a2a32c44b367c7755fa63a71c5c6b3919" kindref="member">MR.FaceId.FaceId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="1008" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="1008" bodyend="1014"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1a1a89c64974297ff55e98ce5eddc47687" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.Box_FaceId.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.Box_FaceId.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1FaceId_1ae624a5b9bf83b4719ec962f19a9c0e19" kindref="member">MR.FaceId.get</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="1019" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="1019" bodyend="1024"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1abb54b47bca40f5cf82e125fb6509cb18" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_FaceId.decr</definition>
+        <argsstring>()</argsstring>
+        <name>decr</name>
+        <qualifiedname>MR.Box_FaceId.decr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FaceId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="1029" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="1029" bodyend="1034"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1aa4a029d201b8e2bec4b8e65ba3ed98fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.Box_FaceId.incr</definition>
+        <argsstring>()</argsstring>
+        <name>incr</name>
+        <qualifiedname>MR.Box_FaceId.incr</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FaceId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="1039" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="1039" bodyend="1044"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1a687fbf24e2986be60848eb269f7344af" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe ref MR.FaceId MR.Box_FaceId.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.Box_FaceId.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FaceId.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="1049" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="1049" bodyend="1054"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1ab6354795956e84b7af46a04cc3278123" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></type>
+        <definition>unsafe ref MR.FaceId MR.Box_FaceId.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.Box_FaceId.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FaceId.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="1059" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="1059" bodyend="1064"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Box__FaceId_1a5994ef97632f235927bf8cb99b3bed19" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_FaceId.Box_FaceId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Box_FaceId</name>
+        <qualifiedname>MR.Box_FaceId.Box_FaceId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="923" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="923" bodyend="923"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1FaceId" kindref="compound">MR.FaceId</ref>&gt;</computeroutput> This is the non-const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConstBox_FaceId</label>
+        <link refid="classMR_1_1ConstBox__FaceId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_FaceId</label>
+        <link refid="classMR_1_1Box__FaceId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_FaceId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.FaceId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConstBox_FaceId</label>
+        <link refid="classMR_1_1ConstBox__FaceId"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_FaceId</label>
+        <link refid="classMR_1_1Box__FaceId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_FaceId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.FaceId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="909" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="910" bodyend="1065"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Box__FaceId_1ab6354795956e84b7af46a04cc3278123" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1Box__FaceId_1a4cb213d414cb2aaecae394cd258f586e" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Assign</name></member>
+      <member refid="classMR_1_1Box__FaceId_1a76b62699a5669a2ced609f5966567a16" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Box_FaceId</name></member>
+      <member refid="classMR_1_1Box__FaceId_1a5994ef97632f235927bf8cb99b3bed19" prot="package" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Box_FaceId</name></member>
+      <member refid="classMR_1_1Box__FaceId_1af87e0aba224960b72aeb0ec1de9c047b" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Box_FaceId</name></member>
+      <member refid="classMR_1_1Box__FaceId_1a6f355b4c71136d2c115fee3041bc78fc" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Box_FaceId</name></member>
+      <member refid="classMR_1_1Box__FaceId_1a85d98e4f977cc61c4d0930559f9784b6" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Box_FaceId</name></member>
+      <member refid="classMR_1_1Box__FaceId_1a1c154d1d3f06c42aaeb5dc53a89f8f37" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Box_FaceId</name></member>
+      <member refid="classMR_1_1Box__FaceId_1adb5fc0f895a23cc169d4272bad1c3f0a" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Box_FaceId</name></member>
+      <member refid="classMR_1_1Box__FaceId_1a30e712339c359f4ab630da60353984ce" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Box_FaceId</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1ae82c4d7605d5d904eac979817b317880" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>ConstBox_FaceId</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1ad833de75e59a34d1e1dce0e7acf41875" prot="package" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>ConstBox_FaceId</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a85d464814b294f55338228d03388712b" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>ConstBox_FaceId</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a22015dea5bee96362740c4e263413a7f" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>ConstBox_FaceId</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a36ca2ab5f98d92510fdf11b7a430df88" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>ConstBox_FaceId</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1ac832c96e2287cf2ab685560784209bcd" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>ConstBox_FaceId</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a17284d5bc5c8554d8c79357a2e6ec67c" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>ConstBox_FaceId</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a05d3595557a59daad6f19a13407174d1" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>ConstBox_FaceId</name></member>
+      <member refid="classMR_1_1Box__FaceId_1abb54b47bca40f5cf82e125fb6509cb18" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>decr</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a283c527d9ba0c2532cf9420970af0fec" prot="protected" virt="virtual"><scope>MR::Box_FaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1ad86182d35b9ad482e85acb064e0fd3b7" prot="public" virt="virtual"><scope>MR::Box_FaceId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1ac7c742856be541a4610808d7be3b5cc6" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a512739a50f9c072186f00d92e24a5a9e" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1Box__FaceId_1a1a89c64974297ff55e98ce5eddc47687" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>get</name></member>
+      <member refid="classMR_1_1Box__FaceId_1ab000ce61205627aea1bfa12b0bcfc4b4" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>id</name></member>
+      <member refid="classMR_1_1Box__FaceId_1aa4a029d201b8e2bec4b8e65ba3ed98fa" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>incr</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1aefb935ef84246be53d86594a438b0ae9" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>less</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1ad85ef3fb0effe576eff202001a784e81" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a917267b30e390df28d4298d1b40aa504" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>operator ConstBox_FaceId</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a966f00c1454c489109f1f7f7a7e686a1" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>operator int</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a33019dad8729ffbcbd76dafcc671e74e" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a2e764e46f0731142b83b7ba7675e0b61" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>operator++</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1aaf971817b75434263365edcb31f34e57" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>operator--</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a7f321d2a1c26cc9917f0aee90521ca8c" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1Box__FaceId_1a687fbf24e2986be60848eb269f7344af" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1ConstBox__FaceId_1a18222985112d5002290cca6a1fb52c44" prot="public" virt="non-virtual"><scope>MR::Box_FaceId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ImageSave" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ImageSave</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageSave_1a5a1c68d0337d75b49312966f0f090e22" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImageSave.toAnySupportedFormat</definition>
+        <argsstring>(Image image, os.PathLike|str|bytes path)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.ImageSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>detects the format from file extension and save image to it  
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23968" bodyend="23971"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageSave_1a0fec0da68ef50b7db341da4b9b56b8db" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImageSave.toBmp</definition>
+        <argsstring>(Image image, os.PathLike|str|bytes path)</argsstring>
+        <name>toBmp</name>
+        <qualifiedname>mrmeshpy.ImageSave.toBmp</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .bmp format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23973" bodyend="23976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageSave_1a63a1912f178703f16f465d4e26e7b00f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImageSave.toJpeg</definition>
+        <argsstring>(Image image, os.PathLike|str|bytes path)</argsstring>
+        <name>toJpeg</name>
+        <qualifiedname>mrmeshpy.ImageSave.toJpeg</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .jpg format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23978" bodyend="23981"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageSave_1a70fd3864c66a0a0c3be49cbb6381c52e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImageSave.toPng</definition>
+        <argsstring>(Image image, os.PathLike|str|bytes path)</argsstring>
+        <name>toPng</name>
+        <qualifiedname>mrmeshpy.ImageSave.toPng</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .png format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23984" bodyend="23987"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageSave_1af42386ed4ad3a6a95cc128ca06a5da8f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImageSave.toPng</definition>
+        <argsstring>(Image image, typing.Any os)</argsstring>
+        <name>toPng</name>
+        <qualifiedname>mrmeshpy.ImageSave.toPng</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>os</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23990" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23990" bodyend="23991"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageSave_1a6665e1ef10bb9a2921d4ec9022ab1906" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ImageSave.toTiff</definition>
+        <argsstring>(Image image, os.PathLike|str|bytes path)</argsstring>
+        <name>toTiff</name>
+        <qualifiedname>mrmeshpy.ImageSave.toTiff</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+          <declname>image</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>saves in .tiff format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23993" bodyend="23996"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23963" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23963" bodyend="23996"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ImageSave_1a5a1c68d0337d75b49312966f0f090e22" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1ImageSave_1a0fec0da68ef50b7db341da4b9b56b8db" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageSave</scope><name>toBmp</name></member>
+      <member refid="classmrmeshpy_1_1ImageSave_1a63a1912f178703f16f465d4e26e7b00f" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageSave</scope><name>toJpeg</name></member>
+      <member refid="classmrmeshpy_1_1ImageSave_1a70fd3864c66a0a0c3be49cbb6381c52e" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageSave</scope><name>toPng</name></member>
+      <member refid="classmrmeshpy_1_1ImageSave_1af42386ed4ad3a6a95cc128ca06a5da8f" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageSave</scope><name>toPng</name></member>
+      <member refid="classmrmeshpy_1_1ImageSave_1a6665e1ef10bb9a2921d4ec9022ab1906" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageSave</scope><name>toTiff</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

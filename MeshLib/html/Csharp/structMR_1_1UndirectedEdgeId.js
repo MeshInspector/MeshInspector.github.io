@@ -8,6 +8,8 @@ var structMR_1_1UndirectedEdgeId =
     [ "addAssign", "structMR_1_1UndirectedEdgeId.html#aceacff52af94c3c8da282ed6f8a955d2", null ],
     [ "decr", "structMR_1_1UndirectedEdgeId.html#a045f910648238fa9667fe14a83252794", null ],
     [ "decr", "structMR_1_1UndirectedEdgeId.html#a0521b1fe5888e7885117eb82c00db85a", null ],
+    [ "Equals", "structMR_1_1UndirectedEdgeId.html#a871f45f4446113ede16e185351538010", null ],
+    [ "Equals", "structMR_1_1UndirectedEdgeId.html#acd7e9f2b88e33bebbd6e4455142d5115", null ],
     [ "get", "structMR_1_1UndirectedEdgeId.html#a3220f15f300285ffa2996f839d0d0653", null ],
     [ "incr", "structMR_1_1UndirectedEdgeId.html#a20d9da066865777817772950cdcbb4e3", null ],
     [ "incr", "structMR_1_1UndirectedEdgeId.html#adc06d8ebc02eba5a1c3fbbdaaf94d613", null ],
@@ -15,7 +17,9 @@ var structMR_1_1UndirectedEdgeId =
     [ "operator bool", "structMR_1_1UndirectedEdgeId.html#afbb8e67e422b4193df4fdc1f37a9003c", null ],
     [ "operator int", "structMR_1_1UndirectedEdgeId.html#ab036108e00f9525d91d07a73258a2b70", null ],
     [ "operator UndirectedEdgeId", "structMR_1_1UndirectedEdgeId.html#a6d423e7bf08942929d34a89cc2e36b71", null ],
+    [ "operator!=", "structMR_1_1UndirectedEdgeId.html#a7df99c7adcb3f246fa2214476e68306d", null ],
     [ "operator==", "structMR_1_1UndirectedEdgeId.html#a04d3b3fbf1e815f09fda08c69366d53c", null ],
     [ "subAssign", "structMR_1_1UndirectedEdgeId.html#ae79dea952658381ea016ff4b8d57c2cd", null ],
-    [ "valid", "structMR_1_1UndirectedEdgeId.html#a751ad34caef973ae9e188254c5484a75", null ]
+    [ "valid", "structMR_1_1UndirectedEdgeId.html#a751ad34caef973ae9e188254c5484a75", null ],
+    [ "id", "structMR_1_1UndirectedEdgeId.html#a3244e7a3b4038ff8c854538ac0f6f72d", null ]
 ];

@@ -1,52 +1,43 @@
 var group__PointCloudGroup =
 [
-    [ "MR::PointCloud", "../Csharp/classMR_1_1PointCloud.html", [
-      [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#a4d782ee2ce58df0cb8f8e1304482f12c", null ],
-      [ "PointCloud", "../Csharp/classMR_1_1PointCloud.html#abbebb117a9a8e2c986d53ff756cbd476", null ],
-      [ "addPartByMask", "../Csharp/classMR_1_1PointCloud.html#a022f9171b642872585c29444895003f0", null ],
-      [ "addPoint", "../Csharp/classMR_1_1PointCloud.html#a11a8de8c87003c23bb7c4fa80facf8d6", null ],
-      [ "addPoint", "../Csharp/classMR_1_1PointCloud.html#a5e88af4b4426f9a92fc67cfb4b6e2af4", null ],
-      [ "assign", "../Csharp/classMR_1_1PointCloud.html#a28e220eff56eb9957cd225656d15ccbb", null ],
-      [ "flipOrientation", "../Csharp/classMR_1_1PointCloud.html#a9b55a6773c74ca7871fc303fa29d92e9", null ],
-      [ "invalidateCaches", "../Csharp/classMR_1_1PointCloud.html#aee9b6dc6ffe24907b217ec92c3d62f4c", null ],
-      [ "mirror", "../Csharp/classMR_1_1PointCloud.html#a086a6ae8785563e41383eef36e25c21b", null ],
-      [ "pack", "../Csharp/classMR_1_1PointCloud.html#aaf2bfed849f1d723342ede548466882a", null ],
-      [ "pack", "../Csharp/classMR_1_1PointCloud.html#a1c1a1986a690529ab5952d4ba265174e", null ],
-      [ "transform", "../Csharp/classMR_1_1PointCloud.html#acaaa9294839523cc4fdc93532c24f40a", null ],
-      [ "normals", "../Csharp/classMR_1_1PointCloud.html#af2ae8e74aea3d8821752b3e915182b4d", null ],
-      [ "points", "../Csharp/classMR_1_1PointCloud.html#af08107665be27af8046957156640f884", null ],
-      [ "validPoints", "../Csharp/classMR_1_1PointCloud.html#a9faa4978fe1eb1d506d69ae8af0d7651", null ]
+    [ "MR::PointCloud", "structMR_1_1PointCloud.html", [
+      [ "addPartByMask", "structMR_1_1PointCloud.html#a319f02ae48a72ea0f874efa137764365", null ],
+      [ "addPoint", "structMR_1_1PointCloud.html#a78808a7ef1e8232c61b442f9ea9bc9c8", null ],
+      [ "addPoint", "structMR_1_1PointCloud.html#ada79e353b7a72ed40a42bc08b60cc225", null ],
+      [ "calcNumValidPoints", "structMR_1_1PointCloud.html#a4e713072e68a27b247042676b693bb26", null ],
+      [ "computeBoundingBox", "structMR_1_1PointCloud.html#ac3b1015ea089d93658ff4783c2282c8e", null ],
+      [ "computeBoundingBox", "structMR_1_1PointCloud.html#aa0daa10e890c517ea30f6ad9fc8cf4bd", null ],
+      [ "findCenterFromBBox", "structMR_1_1PointCloud.html#af4769b0bcb9a9bd664aa03c8e23c0ca0", null ],
+      [ "findCenterFromPoints", "structMR_1_1PointCloud.html#af2811d551e2205169b30d34edd323c26", null ],
+      [ "flipOrientation", "structMR_1_1PointCloud.html#a2d87e2ca54a218f3beda5e403db122be", null ],
+      [ "getAABBTree", "structMR_1_1PointCloud.html#a683c82721c7a330fcc77903d1f3bb7d9", null ],
+      [ "getAABBTreeNotCreate", "structMR_1_1PointCloud.html#ac58b0b5f3bf2f48f46f9fe30e054b7cb", null ],
+      [ "getBoundingBox", "structMR_1_1PointCloud.html#a28846bc1f86b18053ff605bd9cdffc26", null ],
+      [ "getLexicographicalOrder", "structMR_1_1PointCloud.html#a8907016552924260082e3eaa3f163359", null ],
+      [ "getVertIds", "structMR_1_1PointCloud.html#a5da247e2172bb10e5ba6ed1105d5c167", null ],
+      [ "hasNormals", "structMR_1_1PointCloud.html#a400e79598dd6367452f3bfe56249615b", null ],
+      [ "heapBytes", "structMR_1_1PointCloud.html#a25842b53d739f9841d97e66dd8221d59", null ],
+      [ "invalidateCaches", "structMR_1_1PointCloud.html#ab7c257206a284f22b8e2484b87436069", null ],
+      [ "mirror", "structMR_1_1PointCloud.html#a74fb469992209dc4114c864cd3cb38a5", null ],
+      [ "pack", "structMR_1_1PointCloud.html#aafd6df26682cdaa7a360a4fdacf869bf", null ],
+      [ "pack", "structMR_1_1PointCloud.html#ac0910605ccb60ed6a5dbc543e9e98fe2", null ],
+      [ "transform", "structMR_1_1PointCloud.html#a03a45682f57cbf2e74847106e858f712", null ],
+      [ "normals", "structMR_1_1PointCloud.html#a25c1039968a5dc3a24591ac5b74148ad", null ],
+      [ "points", "structMR_1_1PointCloud.html#a0da05bf74b7157037f314c884ab018b4", null ],
+      [ "validPoints", "structMR_1_1PointCloud.html#a99cd2bd3f8fa8482032603f382ab9a03", null ]
     ] ],
-    [ "MR::PointCloudRelaxParams", "../Csharp/classMR_1_1PointCloudRelaxParams.html", [
-      [ "PointCloudRelaxParams", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a54b485c440d7a4e469fd1571a87c2887", null ],
-      [ "PointCloudRelaxParams", "../Csharp/classMR_1_1PointCloudRelaxParams.html#acf9e19c184e1945431b1dd53698d2cef", null ],
-      [ "assign", "../Csharp/classMR_1_1PointCloudRelaxParams.html#afe57278cc0172ca02f827dbca0603476", null ],
-      [ "force", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a996549583f62dc448d5e758adbdc2afe", null ],
-      [ "iterations", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a70c3d79d96848834ba724591c0b65fc5", null ],
-      [ "limitNearInitial", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a3f8d8730b5e1552c1ef9600bb7f845b8", null ],
-      [ "maxInitialDist", "../Csharp/classMR_1_1PointCloudRelaxParams.html#ad9d9e2dfb40e5e8bb1a02350e0cb3366", null ],
-      [ "neighborhoodRadius", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a8e1fb0264220a53c401c04c523333316", null ],
-      [ "region", "../Csharp/classMR_1_1PointCloudRelaxParams.html#a16f1be7dcfa33ab5cabcac9e580116a8", null ]
+    [ "MR::PointCloudRelaxParams", "structMR_1_1PointCloudRelaxParams.html", [
+      [ "neighborhoodRadius", "structMR_1_1PointCloudRelaxParams.html#ab8de6ecb0effc2fb5ae7f053955d6caf", null ]
     ] ],
-    [ "MR::PointCloudApproxRelaxParams", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html", [
-      [ "PointCloudApproxRelaxParams", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a339a0669c843a5366cc7a06afd55eaca", null ],
-      [ "PointCloudApproxRelaxParams", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#ae850ca670b2e026dcc7dddb01852d070", null ],
-      [ "assign", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a938d917fb6e74c12b252eec61aefc5e9", null ],
-      [ "force", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#af7c5b151cd681efb052eddb4e6e35584", null ],
-      [ "iterations", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#ab630953d03bfb929d16344bb18fa3129", null ],
-      [ "limitNearInitial", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a5ae949fb204a4258640690eb47d30e05", null ],
-      [ "maxInitialDist", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#ac2da44309cc6f470a18fb6fde664c92e", null ],
-      [ "neighborhoodRadius", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a737c49734315fdb3d7fd32ef285b5be5", null ],
-      [ "region", "../Csharp/classMR_1_1PointCloudApproxRelaxParams.html#a5d6ce71080a29b20a5757c47ef106f00", null ]
+    [ "MR::PointCloudApproxRelaxParams", "structMR_1_1PointCloudApproxRelaxParams.html", [
+      [ "type", "structMR_1_1PointCloudApproxRelaxParams.html#a5122f4607ef8eeb82d4765383d619a3d", null ]
     ] ],
-    [ "MR::RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html", [
-      [ "RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html#ab620c4934731dccd4bdee16ff007aca0", null ],
-      [ "RegularMapMesher", "../Csharp/classMR_1_1RegularMapMesher.html#adb23c6068fce1fd48aa72d3f572758f8", null ],
-      [ "assign", "../Csharp/classMR_1_1RegularMapMesher.html#a912a44af7d29290ff78d4b9dda1167f1", null ],
-      [ "loadDistances", "../Csharp/classMR_1_1RegularMapMesher.html#ac5d4f2f720bd58de6174b98fc233a5aa", null ],
-      [ "setDirectionsPC", "../Csharp/classMR_1_1RegularMapMesher.html#a2e612b2b042306bfeba0e406f88da1b5", null ],
-      [ "setDistances", "../Csharp/classMR_1_1RegularMapMesher.html#a81f29537e2f2c967ee20c2a44783b038", null ],
-      [ "setSurfacePC", "../Csharp/classMR_1_1RegularMapMesher.html#aee5cb36a7a745a1f815f287448400f4e", null ]
+    [ "MR::RegularMapMesher", "classMR_1_1RegularMapMesher.html", [
+      [ "createMesh", "group__GeneralGroup.html#gacdde192d67f89fe363a158f3ee13f499", null ],
+      [ "loadDistances", "group__GeneralGroup.html#ga351acfb608cafb88929a69ba41f63bfa", null ],
+      [ "setDirectionsPC", "group__GeneralGroup.html#ga8556a43fd905bbb2cba1cb5bb5743739", null ],
+      [ "setDistances", "group__GeneralGroup.html#ga48f6cd19965602a3fb9f4669c22e3c14", null ],
+      [ "setSurfacePC", "group__GeneralGroup.html#ga9ed2cde9e77dce74ecb24b16eb4db785", null ]
     ] ],
     [ "MR::findAvgPointsRadius", "group__PointCloudGroup.html#ga65f914c5f869b8b554e8394912e5a7a3", null ],
     [ "MR::improveSampling", "group__PointCloudGroup.html#gad56601e20058641f49fa277149d87e08", null ],

@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR__Matrix4i" kind="struct" language="C++" prot="public">
+    <compoundname>MR_Matrix4i</compoundname>
+    <includes refid="MRMatrix4_8h" local="no">MRMatrix4.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR__Matrix4i_1a263d546306ce80c8a645919d7a3efd64" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref></type>
+        <definition>MR_Vector4i MR_Matrix4i::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR_Matrix4i::x</qualifiedname>
+        <briefdescription>
+<para>rows, identity matrix by default </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="40" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Matrix4i_1a3ef0602db09bef4fe9a7d470a27e34af" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref></type>
+        <definition>MR_Vector4i MR_Matrix4i::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR_Matrix4i::y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="41" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Matrix4i_1a05fd2d1dd8bdd0b07e637ac781a46732" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref></type>
+        <definition>MR_Vector4i MR_Matrix4i::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>MR_Matrix4i::z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="42" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR__Matrix4i_1a5e64eb83541b1d23233cdcfafbe2b85d" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR__Vector4i" kindref="compound">MR_Vector4i</ref></type>
+        <definition>MR_Vector4i MR_Matrix4i::w</definition>
+        <argsstring></argsstring>
+        <name>w</name>
+        <qualifiedname>MR_Matrix4i::w</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="43" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>arbitrary 4x4 matrix Generated from class <computeroutput>MR::Matrix4i</computeroutput>. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR_Matrix4i</label>
+        <link refid="structMR__Matrix4i"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>w</edgelabel>
+          <edgelabel>x</edgelabel>
+          <edgelabel>y</edgelabel>
+          <edgelabel>z</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR_Vector4i</label>
+        <link refid="structMR__Vector4i"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" line="37" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRMatrix4.h" bodystart="38" bodyend="44"/>
+    <listofallmembers>
+      <member refid="structMR__Matrix4i_1a5e64eb83541b1d23233cdcfafbe2b85d" prot="public" virt="non-virtual"><scope>MR_Matrix4i</scope><name>w</name></member>
+      <member refid="structMR__Matrix4i_1a263d546306ce80c8a645919d7a3efd64" prot="public" virt="non-virtual"><scope>MR_Matrix4i</scope><name>x</name></member>
+      <member refid="structMR__Matrix4i_1a3ef0602db09bef4fe9a7d470a27e34af" prot="public" virt="non-virtual"><scope>MR_Matrix4i</scope><name>y</name></member>
+      <member refid="structMR__Matrix4i_1a05fd2d1dd8bdd0b07e637ac781a46732" prot="public" virt="non-virtual"><scope>MR_Matrix4i</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__array__Vector3__int__3" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_array_Vector3_int_3</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Vector3__int__3_1a4458152c16d8b21ec982e8d2a1039b64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+        <definition> Vector3i mrmeshpy.std_array_Vector3_int_3.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_array_Vector3_int_3.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78478" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78478" bodyend="78479"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Vector3__int__3_1a9c8f2a6498b2e0c0b76563ae858a6867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Vector3_int_3.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_Vector3_int_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78481" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78481" bodyend="78482"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Vector3__int__3_1a822fbd85a57dce926bf9fc62ea0e7612" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Vector3_int_3.__init__</definition>
+        <argsstring>(self, std_array_Vector3_int_3 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_Vector3_int_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector3__int__3" kindref="compound">std_array_Vector3_int_3</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78484" bodyend="78485"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Vector3__int__3_1ac43945716a4837544dd52dc4268d6411" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Vector3_int_3.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_Vector3_int_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize from a list of 3elements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78487" bodyend="78490"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Vector3__int__3_1a7f93c59f8d74633c1831fbb84a7792fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref>]</type>
+        <definition> typing.Iterator[Vector3i] mrmeshpy.std_array_Vector3_int_3.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_array_Vector3_int_3.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78491" bodyend="78492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Vector3__int__3_1a96ec0eed75e2c54069fd4e70e5898398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_array_Vector3_int_3.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_array_Vector3_int_3.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78493" bodyend="78494"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Vector3__int__3_1a2d321e385e7a2bae574f7b23df54c026" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_array_Vector3_int_3.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_array_Vector3_int_3.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78495" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78495" bodyend="78496"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__Vector3__int__3_1a3eb5ec3636e49f3e4df635ebae8d66e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_Vector3_int_3.__setitem__</definition>
+        <argsstring>(self, int arg0, Vector3i arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_array_Vector3_int_3.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78497" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78497" bodyend="78498"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  std_array_Vector3i_3, Triangle3i
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78474" bodyend="78498"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__array__Vector3__int__3_1a4458152c16d8b21ec982e8d2a1039b64" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Vector3_int_3</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Vector3__int__3_1a9c8f2a6498b2e0c0b76563ae858a6867" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Vector3_int_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Vector3__int__3_1a822fbd85a57dce926bf9fc62ea0e7612" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Vector3_int_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Vector3__int__3_1ac43945716a4837544dd52dc4268d6411" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Vector3_int_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Vector3__int__3_1a7f93c59f8d74633c1831fbb84a7792fd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Vector3_int_3</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Vector3__int__3_1a96ec0eed75e2c54069fd4e70e5898398" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Vector3_int_3</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Vector3__int__3_1a2d321e385e7a2bae574f7b23df54c026" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Vector3_int_3</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__Vector3__int__3_1a3eb5ec3636e49f3e4df635ebae8d66e6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_Vector3_int_3</scope><name>__setitem__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1OriginAndDimensions" kind="struct" language="C++" prot="public">
+    <compoundname>MR::OriginAndDimensions</compoundname>
+    <includes refid="MRCalcDims_8h" local="no">MRCalcDims.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga3249421064f723e9274d910acde0cc34" kind="variable"><name>origin</name></member>
+      <member refid="group__GeneralGroup_1ga47a625c37bc5587c8811c698a4720f0e" kind="variable"><name>dimensions</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>shift of zero voxel in 3D space and dimensions of voxel-grid </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRCalcDims.h" bodystart="15" bodyend="18"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga47a625c37bc5587c8811c698a4720f0e" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>dimensions</name></member>
+      <member refid="group__GeneralGroup_1ga3249421064f723e9274d910acde0cc34" prot="public" virt="non-virtual"><scope>MR::OriginAndDimensions</scope><name>origin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

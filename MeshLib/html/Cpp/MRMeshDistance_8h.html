@@ -147,6 +147,8 @@ $(function(){initNavTree('MRMeshDistance_8h.html',''); initResizable(true); });
 <div class="header">
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">MRMeshDistance.h File Reference</div></div>
 </div><!--header-->
@@ -161,13 +163,26 @@ $(function(){initNavTree('MRMeshDistance_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga285ea5cd9fb638c90fec0099f526c057" id="r_ga285ea5cd9fb638c90fec0099f526c057"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057">MR::TriangleCallback</a> = std::function&lt;<a class="el" href="group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47">ProcessOneResult</a>( const Vector3f &amp; p, FaceId f, const Vector3f &amp; q, float distSq )&gt;</td></tr>
+<tr class="separator:ga285ea5cd9fb638c90fec0099f526c057"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:ga3dd2fd9fcc06b6502d22a9ea3eb63e47" id="r_ga3dd2fd9fcc06b6502d22a9ea3eb63e47"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#ga3dd2fd9fcc06b6502d22a9ea3eb63e47">MR::ProcessOneResult</a> : bool { <a class="el" href="group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47a38e59feb928e37292c8ee0a50f447612">MR::ProcessOneResult::StopProcessing</a> = false
+, <a class="el" href="group__AABBTreeGroup.html#gga3dd2fd9fcc06b6502d22a9ea3eb63e47aab6bb60f51b25ae0f7ec450173e3348e">MR::ProcessOneResult::ContinueProcessing</a> = true
+ }</td></tr>
+<tr class="separator:ga3dd2fd9fcc06b6502d22a9ea3eb63e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gadb20234daa82631954c44c1676424e5f" id="r_gadb20234daa82631954c44c1676424e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f">MR::processCloseTriangles</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const Triangle3f &amp;t, float rangeSq, const <a class="el" href="group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057">TriangleCallback</a> &amp;call)</td></tr>
+<tr class="memitem:gadb20234daa82631954c44c1676424e5f" id="r_gadb20234daa82631954c44c1676424e5f"><td class="memItemLeft" align="right" valign="top">MRMESH_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gadb20234daa82631954c44c1676424e5f">MR::processCloseTriangles</a> (const MeshPart &amp;mp, const Triangle3f &amp;t, float rangeSq, const <a class="el" href="group__AABBTreeGroup.html#ga285ea5cd9fb638c90fec0099f526c057">TriangleCallback</a> &amp;call)</td></tr>
 <tr class="separator:gadb20234daa82631954c44c1676424e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab849769857dbeadbea5f6bbfa749dfa0" id="r_gab849769857dbeadbea5f6bbfa749dfa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="MRMeshFwd_8h.html#a08ff09fd7e75c029b08cc255b0734300">MRMESH_API</a> std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab849769857dbeadbea5f6bbfa749dfa0">MR::signedDistanceToMesh</a> (const <a class="elRef" href="../Csharp/classMR_1_1MeshPart.html">MeshPart</a> &amp;mp, const <a class="elRef" href="../Csharp/structMR_1_1Vector3f.html">Vector3f</a> &amp;p, const <a class="elRef" href="../Csharp/classMR_1_1SignedDistanceToMeshOptions.html">SignedDistanceToMeshOptions</a> &amp;op)</td></tr>
+<tr class="memitem:gab849769857dbeadbea5f6bbfa749dfa0" id="r_gab849769857dbeadbea5f6bbfa749dfa0"><td class="memItemLeft" align="right" valign="top">MRMESH_API std::optional&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__AABBTreeGroup.html#gab849769857dbeadbea5f6bbfa749dfa0">MR::signedDistanceToMesh</a> (const MeshPart &amp;mp, const Vector3f &amp;p, const <a class="el" href="structMR_1_1SignedDistanceToMeshOptions.html">SignedDistanceToMeshOptions</a> &amp;op)</td></tr>
 <tr class="separator:gab849769857dbeadbea5f6bbfa749dfa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

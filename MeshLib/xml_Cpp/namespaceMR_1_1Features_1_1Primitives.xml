@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1Features_1_1Primitives" kind="namespace" language="C++">
+    <compoundname>MR::Features::Primitives</compoundname>
+    <innerclass refid="structMR_1_1Features_1_1Primitives_1_1ConeSegment" prot="public">MR::Features::Primitives::ConeSegment</innerclass>
+    <innerclass refid="structMR_1_1Features_1_1Primitives_1_1Plane" prot="public">MR::Features::Primitives::Plane</innerclass>
+    <sectiondef kind="typedef">
+      <member refid="group__GeneralGroup_1ga37df2f34cbcd3fec213859b3ca57d3b6" kind="typedef"><name>Sphere</name></member>
+      <member refid="group__GeneralGroup_1ga955a7f843d9b5df0f393ec7699ada624" kind="typedef"><name>Variant</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFeatures.h" line="25" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kind="struct" language="C++" prot="public">
+    <compoundname>MR::TriangulationHelpers::FanOptimizerQueueElement</compoundname>
+    <includes refid="MRPointCloudTriangulationHelpers_8h" local="no">MRPointCloudTriangulationHelpers.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5c3e6b9bc3389cb66a4ecf6adb3f6091" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::TriangulationHelpers::FanOptimizerQueueElement::weight</definition>
+        <argsstring></argsstring>
+        <name>weight</name>
+        <qualifiedname>MR::TriangulationHelpers::FanOptimizerQueueElement::weight</qualifiedname>
+        <initializer>{ 0.0f }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="56" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa4096d06a760a77f660c2c171d029b18" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::TriangulationHelpers::FanOptimizerQueueElement::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR::TriangulationHelpers::FanOptimizerQueueElement::id</qualifiedname>
+        <initializer>{ -1 }</initializer>
+        <briefdescription>
+<para>profit of flipping this edge </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="57" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5ce3e11baf70433c7c9e34e49be985f4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::TriangulationHelpers::FanOptimizerQueueElement::prevId</definition>
+        <argsstring></argsstring>
+        <name>prevId</name>
+        <qualifiedname>MR::TriangulationHelpers::FanOptimizerQueueElement::prevId</qualifiedname>
+        <initializer>{ -1 }</initializer>
+        <briefdescription>
+<para>index </para>
+        </briefdescription>
+        <detaileddescription>
+<para>needed to remove outdated queue elements </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="60" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a70e5a14562ca242e53474e9e75df8ed6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::TriangulationHelpers::FanOptimizerQueueElement::nextId</definition>
+        <argsstring></argsstring>
+        <name>nextId</name>
+        <qualifiedname>MR::TriangulationHelpers::FanOptimizerQueueElement::nextId</qualifiedname>
+        <initializer>{ -1 }</initializer>
+        <briefdescription>
+<para>id of prev neighbor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="61" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0bb7d70e695f6c8fb8806cf07f90bb9e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::TriangulationHelpers::FanOptimizerQueueElement::stable</definition>
+        <argsstring></argsstring>
+        <name>stable</name>
+        <qualifiedname>MR::TriangulationHelpers::FanOptimizerQueueElement::stable</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>id of next neighbor </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="63" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae5bad17915c09a1143471d69b34a3436" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::TriangulationHelpers::FanOptimizerQueueElement::operator&lt;</definition>
+        <argsstring>(const FanOptimizerQueueElement &amp;other) const</argsstring>
+        <name>operator&lt;</name>
+        <qualifiedname>MR::TriangulationHelpers::FanOptimizerQueueElement::operator&lt;</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>if this flag is true, edge cannot be flipped </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="64" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="64" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a259f0dc748bf189fe876ca658509642e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::TriangulationHelpers::FanOptimizerQueueElement::operator==</definition>
+        <argsstring>(const FanOptimizerQueueElement &amp;other) const =default</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR::TriangulationHelpers::FanOptimizerQueueElement::operator==</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement" kindref="compound">FanOptimizerQueueElement</ref> &amp;</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="70" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1af10835a24d386208aebf0562ee285ddd" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::TriangulationHelpers::FanOptimizerQueueElement::isOutdated</definition>
+        <argsstring>(const std::vector&lt; VertId &gt; &amp;neighbors) const</argsstring>
+        <name>isOutdated</name>
+        <qualifiedname>MR::TriangulationHelpers::FanOptimizerQueueElement::isOutdated</qualifiedname>
+        <param>
+          <type>const std::vector&lt; VertId &gt; &amp;</type>
+          <declname>neighbors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="72" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="72" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" line="54" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudTriangulationHelpers.h" bodystart="55" bodyend="76"/>
+    <listofallmembers>
+      <member refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1aa4096d06a760a77f660c2c171d029b18" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>id</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1af10835a24d386208aebf0562ee285ddd" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>isOutdated</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a70e5a14562ca242e53474e9e75df8ed6" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>nextId</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1ae5bad17915c09a1143471d69b34a3436" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>operator&lt;</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a259f0dc748bf189fe876ca658509642e" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>operator==</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5ce3e11baf70433c7c9e34e49be985f4" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>prevId</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a0bb7d70e695f6c8fb8806cf07f90bb9e" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>stable</name></member>
+      <member refid="structMR_1_1TriangulationHelpers_1_1FanOptimizerQueueElement_1a5c3e6b9bc3389cb66a4ecf6adb3f6091" prot="public" virt="non-virtual"><scope>MR::TriangulationHelpers::FanOptimizerQueueElement</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CloudPartMapping" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CloudPartMapping</compoundname>
+    <includes refid="MRCloudPartMapping_8h" local="no">MRCloudPartMapping.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga58a157b8e17755eba5fbff6ad4e90483" kind="variable"><name>src2tgtVerts</name></member>
+      <member refid="group__GeneralGroup_1ga067263261bdd0276850b5722ebbdb8f1" kind="variable"><name>tgt2srcVerts</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>mapping among elements of source point cloud, from which a part is taken, and target (this) point cloud </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCloudPartMapping.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCloudPartMapping.h" bodystart="13" bodyend="18"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga58a157b8e17755eba5fbff6ad4e90483" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>src2tgtVerts</name></member>
+      <member refid="group__GeneralGroup_1ga067263261bdd0276850b5722ebbdb8f1" prot="public" virt="non-virtual"><scope>MR::CloudPartMapping</scope><name>tgt2srcVerts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

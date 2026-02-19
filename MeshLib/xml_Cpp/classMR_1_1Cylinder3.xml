@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cylinder3" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cylinder3</compoundname>
+    <includes refid="MRCylinder3_8h" local="no">MRCylinder3.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" kind="variable"><name>mainAxis</name></member>
+      <member refid="group__GeneralGroup_1ga1badba33dd4c2e2d83af7d18fdb2e605" kind="variable"><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga49761af205e8affe422e2ff23a49935b" kind="variable"><name>length</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga2724ae87e66c30b14b9c64852d404fb4" kind="function"><name>Cylinder3</name></member>
+      <member refid="group__GeneralGroup_1ga207b6871fc0227d093441a7c12305b89" kind="function"><name>Cylinder3</name></member>
+      <member refid="group__GeneralGroup_1ga3b378f8ca92a85ffc3053dcf19cddfa1" kind="function"><name>Cylinder3</name></member>
+      <member refid="group__GeneralGroup_1ga8d4a9e9f09d98b1f8fd1fe07bb507344" kind="function"><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga69c15d8609407d79671f321442db4645" kind="function"><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga73db02d177fabef0c760323da5251084" kind="function"><name>direction</name></member>
+      <member refid="group__GeneralGroup_1gad0a19bee1540de375bc6a6b7feb7973b" kind="function"><name>direction</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A class describing a cylinder as a mathematical object.A cylinder is represented by a centerline, a radius, and a length.template &lt;typename T&gt; TODO: <ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref> could be infinite. For example for infinite <ref refid="classMR_1_1Cylinder3" kindref="compound">Cylinder3</ref> we could use negative length or length = -1 </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCylinder3.h" bodystart="15" bodyend="56"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga8d4a9e9f09d98b1f8fd1fe07bb507344" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga69c15d8609407d79671f321442db4645" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga2724ae87e66c30b14b9c64852d404fb4" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>Cylinder3</name></member>
+      <member refid="group__GeneralGroup_1ga207b6871fc0227d093441a7c12305b89" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>Cylinder3</name></member>
+      <member refid="group__GeneralGroup_1ga3b378f8ca92a85ffc3053dcf19cddfa1" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>Cylinder3</name></member>
+      <member refid="group__GeneralGroup_1ga73db02d177fabef0c760323da5251084" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>direction</name></member>
+      <member refid="group__GeneralGroup_1gad0a19bee1540de375bc6a6b7feb7973b" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>direction</name></member>
+      <member refid="group__GeneralGroup_1ga49761af205e8affe422e2ff23a49935b" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>length</name></member>
+      <member refid="group__GeneralGroup_1ga65afcbe0b70345dae107e699760f116d" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>mainAxis</name></member>
+      <member refid="group__GeneralGroup_1ga1badba33dd4c2e2d83af7d18fdb2e605" prot="public" virt="non-virtual"><scope>MR::Cylinder3</scope><name>radius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

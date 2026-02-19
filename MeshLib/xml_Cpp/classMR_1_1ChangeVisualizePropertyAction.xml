@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeVisualizePropertyAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeVisualizePropertyAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeObjectFields_8h" local="no">MRChangeObjectFields.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gaddf5e30e5eb678a766bb9b02bbfd996b" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga1b51548588ab1a42b1862cbe11e72e4a" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga051b71134554f38f43746346ccc47276" kind="variable"><name>visualMask_</name></member>
+      <member refid="group__GeneralGroup_1ga9308244691973d2cfc9b521189959ca0" kind="variable"><name>maskType_</name></member>
+      <member refid="group__GeneralGroup_1ga03ef6a6b4e29331ddbe68c71bf53051b" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga577d817010b8c025c743ede618924232" kind="function"><name>ChangeVisualizePropertyAction</name></member>
+      <member refid="group__GeneralGroup_1ga43ca44d5dd8461cb0a3a7bafb512a682" kind="function"><name>ChangeVisualizePropertyAction</name></member>
+      <member refid="group__GeneralGroup_1gab47bdfa15ccc0341044bdf265413933d" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga6aed09dd3eb8747f16d7d1b3f4c016ec" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga82fbcde1a6b6a67ddd9f760b0c43cf87" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga32637db59bb434de5b80516bf8fa23b5" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for visualizeMaskType change </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeVisualizePropertyAction</label>
+        <link refid="classMR_1_1ChangeVisualizePropertyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeVisualizePropertyAction</label>
+        <link refid="classMR_1_1ChangeVisualizePropertyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectFields.h" bodystart="15" bodyend="68"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6aed09dd3eb8747f16d7d1b3f4c016ec" prot="public" virt="virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga577d817010b8c025c743ede618924232" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>ChangeVisualizePropertyAction</name></member>
+      <member refid="group__GeneralGroup_1ga43ca44d5dd8461cb0a3a7bafb512a682" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>ChangeVisualizePropertyAction</name></member>
+      <member refid="group__GeneralGroup_1ga82fbcde1a6b6a67ddd9f760b0c43cf87" prot="public" virt="virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga9308244691973d2cfc9b521189959ca0" prot="private" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>maskType_</name></member>
+      <member refid="group__GeneralGroup_1gab47bdfa15ccc0341044bdf265413933d" prot="public" virt="virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga03ef6a6b4e29331ddbe68c71bf53051b" prot="private" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1gaddf5e30e5eb678a766bb9b02bbfd996b" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1ga1b51548588ab1a42b1862cbe11e72e4a" prot="private" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga32637db59bb434de5b80516bf8fa23b5" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga051b71134554f38f43746346ccc47276" prot="private" virt="non-virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>visualMask_</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeVisualizePropertyAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

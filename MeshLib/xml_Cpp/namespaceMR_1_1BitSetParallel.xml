@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1BitSetParallel" kind="namespace" language="C++">
+    <compoundname>MR::BitSetParallel</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" prot="public" static="no">
+        <type>tbb::blocked_range&lt; size_t &gt;</type>
+        <definition>using MR::BitSetParallel::Range =  tbb::blocked_range&lt;size_t&gt;</definition>
+        <argsstring></argsstring>
+        <name>Range</name>
+        <qualifiedname>MR::BitSetParallel::Range</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="56" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1a8d363b4768efba11f60c43928c542bf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename IndexType</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallel::blockRange</definition>
+        <argsstring>(const IdRange&lt; IndexType &gt; &amp;bitRange)</argsstring>
+        <name>blockRange</name>
+        <qualifiedname>MR::BitSetParallel::blockRange</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1IdRange" kindref="compound">IdRange</ref>&lt; IndexType &gt; &amp;</type>
+          <declname>bitRange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="26" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1a8f2ddae24bfbab61698167d301e96307" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallel::blockRange</definition>
+        <argsstring>(const BS &amp;bs)</argsstring>
+        <name>blockRange</name>
+        <qualifiedname>MR::BitSetParallel::blockRange</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="34" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallel::bitRange</definition>
+        <argsstring>(const BS &amp;bs)</argsstring>
+        <name>bitRange</name>
+        <qualifiedname>MR::BitSetParallel::bitRange</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="41" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="41" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1ac886c0876beae880356ab560e584b63e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename IndexType</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallel::bitSubRange</definition>
+        <argsstring>(const IdRange&lt; IndexType &gt; &amp;bitRange, const tbb::blocked_range&lt; size_t &gt; &amp;range, const tbb::blocked_range&lt; size_t &gt; &amp;subRange)</argsstring>
+        <name>bitSubRange</name>
+        <qualifiedname>MR::BitSetParallel::bitSubRange</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1IdRange" kindref="compound">IdRange</ref>&lt; IndexType &gt; &amp;</type>
+          <declname>bitRange</declname>
+        </param>
+        <param>
+          <type>const tbb::blocked_range&lt; size_t &gt; &amp;</type>
+          <declname>range</declname>
+        </param>
+        <param>
+          <type>const tbb::blocked_range&lt; size_t &gt; &amp;</type>
+          <declname>subRange</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="47" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="47" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1a357fb7ee5dcb97530561b61703771f02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::BitSetParallel::forAllRanged</definition>
+        <argsstring>(const Range &amp;bitRange, FunctionRef&lt; void(size_t, const Range &amp;)&gt; f)</argsstring>
+        <name>forAllRanged</name>
+        <qualifiedname>MR::BitSetParallel::forAllRanged</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref> &amp;</type>
+          <declname>bitRange</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt; void(size_t, const <ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref> &amp;)&gt;</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="58" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" declline="58" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1afd2d97d78925db0934e887b795c0c84f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::BitSetParallel::forAllRanged</definition>
+        <argsstring>(const Range &amp;bitRange, FunctionRef&lt; void(size_t, const Range &amp;, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx)</argsstring>
+        <name>forAllRanged</name>
+        <qualifiedname>MR::BitSetParallel::forAllRanged</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref> &amp;</type>
+          <declname>bitRange</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt; void(size_t, const <ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref> &amp;, void *)&gt;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt; void *()&gt;</type>
+          <declname>ctx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="60" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" declline="60" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1a5dc8ec5da5f21c7b1fb5aee09e55b094" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::BitSetParallel::forAllRanged</definition>
+        <argsstring>(const Range &amp;bitRange, FunctionRef&lt; void(size_t, const Range &amp;, void *)&gt; f, FunctionRef&lt; void *()&gt; ctx, ProgressCallback progressCb, size_t reportProgressEveryBit=1024)</argsstring>
+        <name>forAllRanged</name>
+        <qualifiedname>MR::BitSetParallel::forAllRanged</qualifiedname>
+        <param>
+          <type>const <ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref> &amp;</type>
+          <declname>bitRange</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt; void(size_t, const <ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref> &amp;, void *)&gt;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt; void *()&gt;</type>
+          <declname>ctx</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>progressCb</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>reportProgressEveryBit</declname>
+          <defval>1024</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="63" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" declline="63" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1a364f6c3c44118bfca1b525a51dd54626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Cb</declname>
+            <defname>Cb</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallel::ForAllRanged</definition>
+        <argsstring>(const BS &amp;bs, F &amp;&amp;f, Cb &amp;&amp;... cb)</argsstring>
+        <name>ForAllRanged</name>
+        <qualifiedname>MR::BitSetParallel::ForAllRanged</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Cb &amp;&amp;...</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="67" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="67" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1BitSetParallel_1ab05fc848939177c9fd25511b45bf05c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename BS</type>
+          </param>
+          <param>
+            <type>typename L</type>
+          </param>
+          <param>
+            <type>typename F</type>
+          </param>
+          <param>
+            <type>typename ...</type>
+            <declname>Cb</declname>
+            <defname>Cb</defname>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto MR::BitSetParallel::ForAllRanged</definition>
+        <argsstring>(const BS &amp;bs, tbb::enumerable_thread_specific&lt; L &gt; &amp;e, F &amp;&amp;f, Cb &amp;&amp;... cb)</argsstring>
+        <name>ForAllRanged</name>
+        <qualifiedname>MR::BitSetParallel::ForAllRanged</qualifiedname>
+        <param>
+          <type>const BS &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <param>
+          <type>tbb::enumerable_thread_specific&lt; L &gt; &amp;</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>F &amp;&amp;</type>
+          <declname>f</declname>
+        </param>
+        <param>
+          <type>Cb &amp;&amp;...</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="91" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" bodystart="91" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h" line="22" column="1"/>
+  </compounddef>
+</doxygen>

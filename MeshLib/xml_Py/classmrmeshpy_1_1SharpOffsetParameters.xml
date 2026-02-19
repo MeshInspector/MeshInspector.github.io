@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SharpOffsetParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SharpOffsetParameters</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1OffsetParameters" prot="public" virt="non-virtual">mrmeshpy.OffsetParameters</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1GeneralOffsetParameters" prot="public" virt="non-virtual">mrmeshpy.GeneralOffsetParameters</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpOffsetParameters_1abfc3fd238a167e49b7a3e8bcd298b2b6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpOffsetParameters::_offsetof_maxNewRank2VertDev</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxNewRank2VertDev</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters._offsetof_maxNewRank2VertDev</qualifiedname>
+        <initializer>=  92</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51998" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51998" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpOffsetParameters_1ab662b709b3388926a9b00c4a27d7c7d8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpOffsetParameters::_offsetof_maxNewRank3VertDev</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxNewRank3VertDev</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters._offsetof_maxNewRank3VertDev</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51999" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpOffsetParameters_1af73051fd522fc059a1feb9e68e485b84" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpOffsetParameters::_offsetof_maxOldVertPosCorrection</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxOldVertPosCorrection</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters._offsetof_maxOldVertPosCorrection</qualifiedname>
+        <initializer>=  100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52000" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52000" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpOffsetParameters_1af48ebf519cbd12f0d668488fa71d5d98" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpOffsetParameters::_offsetof_minNewVertDev</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minNewVertDev</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters._offsetof_minNewVertDev</qualifiedname>
+        <initializer>=  88</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52001" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52001" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SharpOffsetParameters_1a8bb3e3daa19cae6a4b365a7d586f1443" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SharpOffsetParameters::_offsetof_outSharpEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outSharpEdges</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters._offsetof_outSharpEdges</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52002" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpOffsetParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52005" bodyend="52006"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref></type>
+        <definition> SharpOffsetParameters mrmeshpy.SharpOffsetParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52009" bodyend="52010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref></type>
+        <definition> SharpOffsetParameters mrmeshpy.SharpOffsetParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1OffsetParameters_1a44bab9a67051feecb6720888853bc081">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1a64e915ea4cd805ea056eedc678ad0501">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52013" bodyend="52014"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpOffsetParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52016" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52016" bodyend="52017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpOffsetParameters.__init__</definition>
+        <argsstring>(self, SharpOffsetParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1OffsetParameters_1a372748bb57a6c6be37485a781b2271b4">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1ab704a8e73b2c564a8052694edb25c462">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1aeb960d9ec3724e149eef0f5a00cb31c3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1GeneralOffsetParameters_1abad6ad78011331bab5660df7e5b1a4f2">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SharpOffsetParameters" kindref="compound">SharpOffsetParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52019" bodyend="52022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1a42cb0620e1bbf2522a84888242cdf0f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SharpOffsetParameters.maxNewRank2VertDev</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxNewRank2VertDev</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.maxNewRank2VertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal surface deviation to introduce new rank 2 vertex (on intersection of 2 planes), measured in voxelSize
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52024" bodyend="52027"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1a9ef2287c3724c74ca0a36fbcf8ca5fe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpOffsetParameters.maxNewRank2VertDev</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxNewRank2VertDev</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.maxNewRank2VertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52029" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52029" bodyend="52030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1a88fc1dbbb167b4d3fd8495dfcec8272c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SharpOffsetParameters.maxNewRank3VertDev</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxNewRank3VertDev</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.maxNewRank3VertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal surface deviation to introduce new rank 3 vertex (on intersection of 3 planes), measured in voxelSize
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52032" bodyend="52035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1a66dd98fc591a60b0d8c4cdee3e0131e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpOffsetParameters.maxNewRank3VertDev</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxNewRank3VertDev</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.maxNewRank3VertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52037" bodyend="52038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1ad43a0da3e14be66f9ffb8de920604876" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SharpOffsetParameters.maxOldVertPosCorrection</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxOldVertPosCorrection</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.maxOldVertPosCorrection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>correct positions of the input vertices using reference mesh by not more than this distance, measured in voxelSize;
+big correction can be wrong and result from self-intersections in the reference mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52040" bodyend="52044"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1ac564f79c5f8e8ae657393664856d9ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpOffsetParameters.maxOldVertPosCorrection</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxOldVertPosCorrection</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.maxOldVertPosCorrection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52046" bodyend="52047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1af3f759e106fdf8d0bd831a22353cd480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SharpOffsetParameters.minNewVertDev</definition>
+        <argsstring>(self)</argsstring>
+        <name>minNewVertDev</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.minNewVertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>minimal surface deviation to introduce new vertex in a voxel, measured in voxelSize
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52049" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52049" bodyend="52052"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1ac3b1bdf067bfa36595a3f3e4cd85b54e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpOffsetParameters.minNewVertDev</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minNewVertDev</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.minNewVertDev</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52054" bodyend="52055"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1aeb4ac64396c544150ae98f2b5550426d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.SharpOffsetParameters.outSharpEdges</definition>
+        <argsstring>(self)</argsstring>
+        <name>outSharpEdges</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.outSharpEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if non-null then created sharp edges will be saved here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52057" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52057" bodyend="52060"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SharpOffsetParameters_1a7230ca50a7b80c52fd634f442da3f3ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SharpOffsetParameters.outSharpEdges</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>outSharpEdges</name>
+        <qualifiedname>mrmeshpy.SharpOffsetParameters.outSharpEdges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52062" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52062" bodyend="52063"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SharpOffsetParameters
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.SharpOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1SharpOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.BaseShellParameters</label>
+        <link refid="classmrmeshpy_1_1BaseShellParameters"/>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.GeneralOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1GeneralOffsetParameters"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.OffsetParameters</label>
+        <link refid="classmrmeshpy_1_1OffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SharpOffsetParameters</label>
+        <link refid="classmrmeshpy_1_1SharpOffsetParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_offsetof_maxNewRank2VertDev</edgelabel>
+          <edgelabel>_offsetof_maxNewRank3VertDev</edgelabel>
+          <edgelabel>_offsetof_maxOldVertPosCorrection</edgelabel>
+          <edgelabel>_offsetof_minNewVertDev</edgelabel>
+          <edgelabel>_offsetof_outSharpEdges</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.BaseShellParameters</label>
+        <link refid="classmrmeshpy_1_1BaseShellParameters"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_offsetof_callBack</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.OffsetParameters</label>
+        <link refid="classmrmeshpy_1_1OffsetParameters"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_offsetof_closeHolesInHoleWindingNumber</edgelabel>
+          <edgelabel>_offsetof_fwn</edgelabel>
+          <edgelabel>_offsetof_memoryEfficient</edgelabel>
+          <edgelabel>_offsetof_signDetectionMode</edgelabel>
+          <edgelabel>_offsetof_windingNumberBeta</edgelabel>
+          <edgelabel>_offsetof_windingNumberThreshold</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51994" bodyend="52063"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a758bdabd705528061999ce5d52ca83b0" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1ae1d1f9f7f3f45ffe4e9ec6f2e82ab5cf" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a6ff456cc409af7ba7d0dc20512e5e756" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1abfc3fd238a167e49b7a3e8bcd298b2b6" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>_offsetof_maxNewRank2VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1ab662b709b3388926a9b00c4a27d7c7d8" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>_offsetof_maxNewRank3VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1af73051fd522fc059a1feb9e68e485b84" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>_offsetof_maxOldVertPosCorrection</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1af48ebf519cbd12f0d668488fa71d5d98" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>_offsetof_minNewVertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a8bb3e3daa19cae6a4b365a7d586f1443" prot="protected" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>_offsetof_outSharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a42cb0620e1bbf2522a84888242cdf0f3" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>maxNewRank2VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a9ef2287c3724c74ca0a36fbcf8ca5fe8" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>maxNewRank2VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a88fc1dbbb167b4d3fd8495dfcec8272c" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>maxNewRank3VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a66dd98fc591a60b0d8c4cdee3e0131e8" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>maxNewRank3VertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1ad43a0da3e14be66f9ffb8de920604876" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>maxOldVertPosCorrection</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1ac564f79c5f8e8ae657393664856d9ad9" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>maxOldVertPosCorrection</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1af3f759e106fdf8d0bd831a22353cd480" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>minNewVertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1ac3b1bdf067bfa36595a3f3e4cd85b54e" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>minNewVertDev</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1aa4f26d3e643964b464fbd1b38f319d50" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1aeb4ac64396c544150ae98f2b5550426d" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>outSharpEdges</name></member>
+      <member refid="classmrmeshpy_1_1SharpOffsetParameters_1a7230ca50a7b80c52fd634f442da3f3ee" prot="public" virt="non-virtual"><scope>mrmeshpy::SharpOffsetParameters</scope><name>outSharpEdges</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

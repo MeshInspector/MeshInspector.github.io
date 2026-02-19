@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Plane3f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Plane3f</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Plane3f_1a367e3841d4b0923091513da1fdda3b49" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Plane3f::_offsetof_d</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_d</name>
+        <qualifiedname>mrmeshpy.Plane3f._offsetof_d</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43926" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43926" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Plane3f_1a6a103ad04b90c2d407e39d52436a118b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Plane3f::_offsetof_n</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_n</name>
+        <qualifiedname>mrmeshpy.Plane3f._offsetof_n</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43927" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1a4fa6997a1270ade77c8eeef73906acf2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Plane3f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43932" bodyend="43933"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1a40be816fa5a1dcb902983ce7fd6f9a78" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+        <definition> Plane3f mrmeshpy.Plane3f.fromDirAndPt</definition>
+        <argsstring>(Vector3f n, Vector3f p)</argsstring>
+        <name>fromDirAndPt</name>
+        <qualifiedname>mrmeshpy.Plane3f.fromDirAndPt</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43935" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43935" bodyend="43936"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1afd9f42c13f3cf043f9530c1a6cf06c33" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+        <definition> Plane3f mrmeshpy.Plane3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Plane3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43939" bodyend="43940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1afd9f42c13f3cf043f9530c1a6cf06c33" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+        <definition> Plane3f mrmeshpy.Plane3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Plane3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43943" bodyend="43944"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1ad316beb3790b8a8a87f2251bd783411b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Plane3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43946" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43946" bodyend="43947"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1af876418507eb3d8abf0307cf0236f563" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Plane3f.__init__</definition>
+        <argsstring>(self, Vector3f n, float d)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43949" bodyend="43950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1a886e31601b361ef8922e5e695fc06775" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Plane3f.__init__</definition>
+        <argsstring>(self, Plane3d p)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Plane3d" kindref="compound">Plane3d</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Here `T == U` doesn&apos;t seem to cause any issues in the C++ code, but we&apos;re still disabling it because it somehow gets emitted
+  when generating the bindings, and results in duplicate functions in C#.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43952" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43952" bodyend="43956"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1ad80f630ec634b4f7eeda0e318860119d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Plane3f.__init__</definition>
+        <argsstring>(self, Plane3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43958" bodyend="43961"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1ae8092e17748fd708e740282c54f2ca25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+        <definition> Plane3f mrmeshpy.Plane3f.__neg__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__neg__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__neg__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns same plane represented with flipped direction of n-vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43962" bodyend="43965"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1aa256114c5a513811c8569697bf2c23fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+        <definition> Plane3f mrmeshpy.Plane3f.__pos__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__pos__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__pos__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns same representation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43966" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43966" bodyend="43969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1a16d198463b6e0944a69f484be819152a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.Plane3f.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43970" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43970" bodyend="43971"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1a2c14fc491b9f1b713896666171e2b4bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Plane3f.__rlshift__</definition>
+        <argsstring>(self, typing.Any pl)</argsstring>
+        <name>__rlshift__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__rlshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43972" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43972" bodyend="43973"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1a57cc77b48ebb7b8c908dbcd8609b7177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Any</type>
+        <definition> typing.Any mrmeshpy.Plane3f.__rrshift__</definition>
+        <argsstring>(self, typing.Any pl)</argsstring>
+        <name>__rrshift__</name>
+        <qualifiedname>mrmeshpy.Plane3f.__rrshift__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>pl</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43974" bodyend="43975"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1ae55b4f5adead4d5452f1edf94073036e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Plane3f.distance</definition>
+        <argsstring>(self, Vector3f x)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.Plane3f.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns distance from given point to this plane (if n is a unit vector)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43976" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43976" bodyend="43979"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1a0e54b3230f2e6e30db5e69de1b534bb6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Plane3f" kindref="compound">Plane3f</ref></type>
+        <definition> Plane3f mrmeshpy.Plane3f.normalized</definition>
+        <argsstring>(self)</argsstring>
+        <name>normalized</name>
+        <qualifiedname>mrmeshpy.Plane3f.normalized</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns same plane represented with unit n-vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43980" bodyend="43983"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Plane3f_1af57439d0bf62a0729c6ca9ecd90e0767" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Plane3f.project</definition>
+        <argsstring>(self, Vector3f p)</argsstring>
+        <name>project</name>
+        <qualifiedname>mrmeshpy.Plane3f.project</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the closest point on plane
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43984" bodyend="43987"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Plane3f
+
+3-dimensional plane: dot(n,x) - d = 0
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Plane3f</label>
+        <link refid="classmrmeshpy_1_1Plane3f"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_d</edgelabel>
+          <edgelabel>_offsetof_n</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43920" bodyend="43987"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Plane3f_1a4fa6997a1270ade77c8eeef73906acf2" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1ad316beb3790b8a8a87f2251bd783411b" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1af876418507eb3d8abf0307cf0236f563" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1a886e31601b361ef8922e5e695fc06775" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1ad80f630ec634b4f7eeda0e318860119d" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1ae8092e17748fd708e740282c54f2ca25" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__neg__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1aa256114c5a513811c8569697bf2c23fd" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__pos__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1a16d198463b6e0944a69f484be819152a" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1a2c14fc491b9f1b713896666171e2b4bd" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__rlshift__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1a57cc77b48ebb7b8c908dbcd8609b7177" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>__rrshift__</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1a367e3841d4b0923091513da1fdda3b49" prot="protected" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>_offsetof_d</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1a6a103ad04b90c2d407e39d52436a118b" prot="protected" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>_offsetof_n</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1ae55b4f5adead4d5452f1edf94073036e" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1a40be816fa5a1dcb902983ce7fd6f9a78" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>fromDirAndPt</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1a0e54b3230f2e6e30db5e69de1b534bb6" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>normalized</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1afd9f42c13f3cf043f9530c1a6cf06c33" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1afd9f42c13f3cf043f9530c1a6cf06c33" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Plane3f_1af57439d0bf62a0729c6ca9ecd90e0767" prot="public" virt="non-virtual"><scope>mrmeshpy::Plane3f</scope><name>project</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

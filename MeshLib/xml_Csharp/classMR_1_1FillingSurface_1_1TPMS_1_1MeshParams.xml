@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kind="class" language="C#" prot="public">
+    <compoundname>MR::FillingSurface::TPMS::MeshParams</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.FillingSurface.TPMS.Const_MeshParams</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a9b42bcf6780fa8310aec2e0eaecd8b13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FillingSurface.TPMS.MeshParams.iso</definition>
+        <argsstring></argsstring>
+        <name>iso</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.iso</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="390" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="390" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a5d5771dd3909fb79c1c8203baa802a97" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.FillingSurface.TPMS.MeshParams.decimate</definition>
+        <argsstring></argsstring>
+        <name>decimate</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.decimate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="392" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="392" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad7f7bd974570256e72ee24c890ef1d14" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">MR.FillingSurface.TPMS.Type</ref></type>
+        <definition>new unsafe ref MR.FillingSurface.TPMS.Type MR.FillingSurface.TPMS.MeshParams.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="395" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="395" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a5ce1a722ec9c646498a7fbcbe37f8154" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FillingSurface.TPMS.MeshParams.frequency</definition>
+        <argsstring></argsstring>
+        <name>frequency</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.frequency</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="398" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="398" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a33567d07ba562e81c31f0a4957f27a4a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FillingSurface.TPMS.MeshParams.resolution</definition>
+        <argsstring></argsstring>
+        <name>resolution</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.resolution</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="401" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="401" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4c8953a4cd8f968fa05b00e0978a14b6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.FillingSurface.TPMS.MeshParams.operator MR.FillingSurface.TPMS.VolumeParams</definition>
+        <argsstring>(MeshParams self)</argsstring>
+        <name>operator MR.FillingSurface.TPMS.VolumeParams</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.operator MR.FillingSurface.TPMS.VolumeParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">MeshParams</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="381" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="381" bodyend="388"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a24c0603310778e5e7df5d68170c5cfe9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillingSurface.TPMS.MeshParams.MeshParams</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>MeshParams</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.MeshParams</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="405" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="405" bodyend="409"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ade790fbf221a66f2731ab23edfea0e87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillingSurface.TPMS.MeshParams.MeshParams</definition>
+        <argsstring>()</argsstring>
+        <name>MeshParams</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.MeshParams</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="415" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="415" bodyend="421"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ae907e510cb741b992096e6109761f366" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FillingSurface.TPMS.MeshParams.MeshParams</definition>
+        <argsstring>(MR.FillingSurface.TPMS.Const_MeshParams _other)</argsstring>
+        <name>MeshParams</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.MeshParams</qualifiedname>
+        <param>
+          <type>MR.FillingSurface.TPMS.Const_MeshParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FillingSurface.TPMS.MeshParams.MeshParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="426" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="426" bodyend="433"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ab6eac0830b55119634d053c104bfcb65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FillingSurface.TPMS.MeshParams.MeshParams</definition>
+        <argsstring>(MeshParams _other)</argsstring>
+        <name>MeshParams</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.MeshParams</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">MeshParams</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FillingSurface.TPMS.MeshParams.MeshParams</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="438" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="438" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ae68b1e2a87a870469eb153b76b5a6632" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">MR.FillingSurface.TPMS.MeshParams</ref></type>
+        <definition>unsafe MR.FillingSurface.TPMS.MeshParams MR.FillingSurface.TPMS.MeshParams.assign</definition>
+        <argsstring>(MR.FillingSurface.TPMS.Const_MeshParams _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FillingSurface.TPMS.MeshParams.assign</qualifiedname>
+        <param>
+          <type>MR.FillingSurface.TPMS.Const_MeshParams</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FillingSurface.TPMS.MeshParams.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="443" column="62" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="443" bodyend="450"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" kindref="compound">MR.FillingSurface.TPMS.MeshParams</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" kindref="compound">MR.FillingSurface.TPMS.VolumeParams</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_MeshParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FillingSurface.TPMS.MeshParams</label>
+        <link refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_MeshParams</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FillingSurface.TPMS.MeshParams</label>
+        <link refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_MeshParams &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="378" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="379" bodyend="451"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ae68b1e2a87a870469eb153b76b5a6632" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>assign</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a5d5771dd3909fb79c1c8203baa802a97" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>decimate</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a5ce1a722ec9c646498a7fbcbe37f8154" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>frequency</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a9b42bcf6780fa8310aec2e0eaecd8b13" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>iso</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a24c0603310778e5e7df5d68170c5cfe9" prot="package" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>MeshParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ade790fbf221a66f2731ab23edfea0e87" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>MeshParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ae907e510cb741b992096e6109761f366" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>MeshParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ab6eac0830b55119634d053c104bfcb65" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>MeshParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a4c8953a4cd8f968fa05b00e0978a14b6" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>operator MR.FillingSurface.TPMS.VolumeParams</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1a33567d07ba562e81c31f0a4957f27a4a" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>resolution</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams_1ad7f7bd974570256e72ee24c890ef1d14" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS::MeshParams</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

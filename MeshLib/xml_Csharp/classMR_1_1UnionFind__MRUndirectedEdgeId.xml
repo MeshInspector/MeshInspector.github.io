@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UnionFind__MRUndirectedEdgeId" kind="class" language="C#" prot="public">
+    <compoundname>MR::UnionFind_MRUndirectedEdgeId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_UnionFind_MRUndirectedEdgeId</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1acc1a7801197715ddfed094f1d13a422d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UnionFind_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="446" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="446" bodyend="446"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1a89e3286ec1bff2e65b5c3f0e0cf88fa0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</definition>
+        <argsstring>()</argsstring>
+        <name>UnionFind_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="451" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="451" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1aee31da5e8509afb71b6df53550f87a52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</definition>
+        <argsstring>(MR._ByValue_UnionFind_MRUndirectedEdgeId _other)</argsstring>
+        <name>UnionFind_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type>MR._ByValue_UnionFind_MRUndirectedEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="461" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="461" bodyend="467"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1ad860adf55f1a331247ce0ae553d12b73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</definition>
+        <argsstring>(Const_UnionFind_MRUndirectedEdgeId _other)</argsstring>
+        <name>UnionFind_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type>Const_UnionFind_MRUndirectedEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="472" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="472" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1aff9e7e9270129268b742c8ab690d938d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</definition>
+        <argsstring>(UnionFind_MRUndirectedEdgeId _other)</argsstring>
+        <name>UnionFind_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UnionFind__MRUndirectedEdgeId" kindref="compound">UnionFind_MRUndirectedEdgeId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="477" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="477" bodyend="477"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1a2dbedb982f38fbc87d01d8997f58becb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>UnionFind_MRUndirectedEdgeId</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.UnionFind_MRUndirectedEdgeId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::UnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="483" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="483" bodyend="488"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1affc6712377300621943c4222b750af69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRUndirectedEdgeId" kindref="compound">MR.UnionFind_MRUndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UnionFind_MRUndirectedEdgeId MR.UnionFind_MRUndirectedEdgeId.assign</definition>
+        <argsstring>(MR._ByValue_UnionFind_MRUndirectedEdgeId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_UnionFind_MRUndirectedEdgeId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="493" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="493" bodyend="500"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1afca0ca953cd7f449a4943072fb3f69c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UnionFind_MRUndirectedEdgeId.reset</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.reset</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::reset</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="506" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="506" bodyend="511"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1a5eaacbbe443ff31a7363380a522e845e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_MRUndirectedEdgeId_Bool</type>
+        <definition>unsafe MR.Std.Pair_MRUndirectedEdgeId_Bool MR.UnionFind_MRUndirectedEdgeId.unite</definition>
+        <argsstring>(MR.UndirectedEdgeId first, MR.UndirectedEdgeId second)</argsstring>
+        <name>unite</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.unite</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>unite two elements, </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::unite</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="518" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="518" bodyend="523"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1a0e8c9f872fe9bf392dbadad744310afe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.UnionFind_MRUndirectedEdgeId.united</definition>
+        <argsstring>(MR.UndirectedEdgeId first, MR.UndirectedEdgeId second)</argsstring>
+        <name>united</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.united</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>returns true if given two elements are from one set Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::united</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="529" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="529" bodyend="534"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1a3ea1181c62da29a3be4eecbd048673ff" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.UnionFind_MRUndirectedEdgeId.find</definition>
+        <argsstring>(MR.UndirectedEdgeId a)</argsstring>
+        <name>find</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.find</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::find</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="540" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="540" bodyend="545"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1a9e9d10c1cb4bc56bc167fb2f5ebcb44e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+        <definition>unsafe MR.UndirectedEdgeId MR.UnionFind_MRUndirectedEdgeId.findUpdateRange</definition>
+        <argsstring>(MR.UndirectedEdgeId a, MR.UndirectedEdgeId begin, MR.UndirectedEdgeId end)</argsstring>
+        <name>findUpdateRange</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.findUpdateRange</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::findUpdateRange</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="551" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="551" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1ab0b6d1ac6dbc8f75843a36101ca933e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Const_UndirectedEdgeMap</type>
+        <definition>unsafe MR.Const_UndirectedEdgeMap MR.UnionFind_MRUndirectedEdgeId.roots</definition>
+        <argsstring>()</argsstring>
+        <name>roots</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.roots</qualifiedname>
+        <briefdescription>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::roots</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="562" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="562" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRUndirectedEdgeId_1aac23a201e74dbd68bfd28616745bd622" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.UnionFind_MRUndirectedEdgeId.sizeOfComp</definition>
+        <argsstring>(MR.UndirectedEdgeId a)</argsstring>
+        <name>sizeOfComp</name>
+        <qualifiedname>MR.UnionFind_MRUndirectedEdgeId.sizeOfComp</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;::sizeOfComp</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="573" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="573" bodyend="578"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the identifier of a set&apos;s element, e.g. <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> Generated from class <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1UndirectedEdgeId" kindref="compound">MR.UndirectedEdgeId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_UnionFind_MRUndirectedEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UnionFind_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1UnionFind__MRUndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UnionFind_MRUndirectedEdgeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_UnionFind_MRUndirectedEdgeId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UnionFind_MRUndirectedEdgeId</label>
+        <link refid="classMR_1_1UnionFind__MRUndirectedEdgeId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UnionFind_MRUndirectedEdgeId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="444" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="445" bodyend="579"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1affc6712377300621943c4222b750af69" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>assign</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a3ea1181c62da29a3be4eecbd048673ff" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>find</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a9e9d10c1cb4bc56bc167fb2f5ebcb44e" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>findUpdateRange</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1afca0ca953cd7f449a4943072fb3f69c6" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>reset</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1ab0b6d1ac6dbc8f75843a36101ca933e2" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>roots</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1aac23a201e74dbd68bfd28616745bd622" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>sizeOfComp</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1acc1a7801197715ddfed094f1d13a422d" prot="package" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a89e3286ec1bff2e65b5c3f0e0cf88fa0" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1aee31da5e8509afb71b6df53550f87a52" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1ad860adf55f1a331247ce0ae553d12b73" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1aff9e7e9270129268b742c8ab690d938d" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a2dbedb982f38fbc87d01d8997f58becb" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>UnionFind_MRUndirectedEdgeId</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a5eaacbbe443ff31a7363380a522e845e" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>unite</name></member>
+      <member refid="classMR_1_1UnionFind__MRUndirectedEdgeId_1a0e8c9f872fe9bf392dbadad744310afe" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRUndirectedEdgeId</scope><name>united</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

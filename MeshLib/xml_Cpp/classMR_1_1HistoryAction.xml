@@ -1,0 +1,419 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1HistoryAction" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::HistoryAction</compoundname>
+    <derivedcompoundref refid="classMR_1_1ChangVoxelSelectionAction" prot="public" virt="non-virtual">MR::ChangVoxelSelectionAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeActiveBoxAction" prot="public" virt="non-virtual">MR::ChangeActiveBoxAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeBoundarySelectionHistoryAction" prot="public" virt="non-virtual">MR::ChangeBoundarySelectionHistoryAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeColoringType" prot="public" virt="non-virtual">MR::ChangeColoringType</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeDualMarchingCubesAction" prot="public" virt="non-virtual">MR::ChangeDualMarchingCubesAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeFacesColorMapAction" prot="public" virt="non-virtual">MR::ChangeFacesColorMapAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeGridAction" prot="public" virt="non-virtual">MR::ChangeGridAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeIsoAction" prot="public" virt="non-virtual">MR::ChangeIsoAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeLabelAction" prot="public" virt="non-virtual">MR::ChangeLabelAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeLinesColorMapAction" prot="public" virt="non-virtual">MR::ChangeLinesColorMapAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshAction" prot="public" virt="non-virtual">MR::ChangeMeshAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshCreasesAction" prot="public" virt="non-virtual">MR::ChangeMeshCreasesAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshDataAction" prot="public" virt="non-virtual">MR::ChangeMeshDataAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshEdgeSelectionAction" prot="public" virt="non-virtual">MR::ChangeMeshEdgeSelectionAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshFaceSelectionAction" prot="public" virt="non-virtual">MR::ChangeMeshFaceSelectionAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshPointsAction" prot="public" virt="non-virtual">MR::ChangeMeshPointsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshTexturePerFaceAction" prot="public" virt="non-virtual">MR::ChangeMeshTexturePerFaceAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshTopologyAction" prot="public" virt="non-virtual">MR::ChangeMeshTopologyAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeMeshUVCoordsAction" prot="public" virt="non-virtual">MR::ChangeMeshUVCoordsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeNameAction" prot="public" virt="non-virtual">MR::ChangeNameAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeObjectAction" prot="public" virt="non-virtual">MR::ChangeObjectAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeObjectColorAction" prot="public" virt="non-virtual">MR::ChangeObjectColorAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeObjectSelectedAction" prot="public" virt="non-virtual">MR::ChangeObjectSelectedAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeObjectVisibilityAction" prot="public" virt="non-virtual">MR::ChangeObjectVisibilityAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeOneNormalInCloudAction" prot="public" virt="non-virtual">MR::ChangeOneNormalInCloudAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeOnePointInCloudAction" prot="public" virt="non-virtual">MR::ChangeOnePointInCloudAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeOnePointInPolylineAction" prot="public" virt="non-virtual">MR::ChangeOnePointInPolylineAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePointCloudAction" prot="public" virt="non-virtual">MR::ChangePointCloudAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePointCloudNormalsAction" prot="public" virt="non-virtual">MR::ChangePointCloudNormalsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePointCloudPointsAction" prot="public" virt="non-virtual">MR::ChangePointCloudPointsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePointPointSelectionAction" prot="public" virt="non-virtual">MR::ChangePointPointSelectionAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePolylineAction" prot="public" virt="non-virtual">MR::ChangePolylineAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePolylinePointsAction" prot="public" virt="non-virtual">MR::ChangePolylinePointsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangePolylineTopologyAction" prot="public" virt="non-virtual">MR::ChangePolylineTopologyAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeScaleAction" prot="public" virt="non-virtual">MR::ChangeScaleAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeSceneAction" prot="public" virt="non-virtual">MR::ChangeSceneAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeSceneObjectsOrder" prot="public" virt="non-virtual">MR::ChangeSceneObjectsOrder</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeSurfaceAction" prot="public" virt="non-virtual">MR::ChangeSurfaceAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeTextureAction" prot="public" virt="non-virtual">MR::ChangeTextureAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeValue" prot="public" virt="non-virtual">MR::ChangeValue&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeVertsColorMapAction" prot="public" virt="non-virtual">MR::ChangeVertsColorMapAction&lt; T &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeVisualizePropertyAction" prot="public" virt="non-virtual">MR::ChangeVisualizePropertyAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ChangeXfAction" prot="public" virt="non-virtual">MR::ChangeXfAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1CombinedHistoryAction" prot="public" virt="non-virtual">MR::CombinedHistoryAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction" prot="public" virt="non-virtual">MR::DirectionWidget::ChangeVisibleAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ITransformControls_1_1ChangeCenterAction" prot="public" virt="non-virtual">MR::ITransformControls::ChangeCenterAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction" prot="public" virt="non-virtual">MR::ObjectTransformWidget::ChangeXfAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshAction" prot="public" virt="non-virtual">MR::PartialChangeMeshAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshDataAction" prot="public" virt="non-virtual">MR::PartialChangeMeshDataAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshPointsAction" prot="public" virt="non-virtual">MR::PartialChangeMeshPointsAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1PartialChangeMeshTopologyAction" prot="public" virt="non-virtual">MR::PartialChangeMeshTopologyAction</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PickPointManager_1_1WidgetHistoryAction" prot="public" virt="non-virtual">MR::PickPointManager::WidgetHistoryAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1SwapRootAction" prot="public" virt="non-virtual">MR::SwapRootAction</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1ViewportParametersAction" prot="public" virt="non-virtual">MR::ViewportParametersAction</derivedcompoundref>
+    <includes refid="MRHistoryAction_8h" local="no">MRHistoryAction.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kind="enum"><name>Type</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" kind="function"><name>~HistoryAction</name></member>
+      <member refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Abstract class for history actions </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ChangVoxelSelectionAction</label>
+        <link refid="classMR_1_1ChangVoxelSelectionAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::ChangeActiveBoxAction</label>
+        <link refid="classMR_1_1ChangeActiveBoxAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::ChangeBoundarySelectionHistoryAction</label>
+        <link refid="classMR_1_1ChangeBoundarySelectionHistoryAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::ChangeColoringType</label>
+        <link refid="classMR_1_1ChangeColoringType"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::ChangeDualMarchingCubesAction</label>
+        <link refid="classMR_1_1ChangeDualMarchingCubesAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::ChangeFacesColorMapAction</label>
+        <link refid="classMR_1_1ChangeFacesColorMapAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MR::ChangeGridAction</label>
+        <link refid="classMR_1_1ChangeGridAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::ChangeIsoAction</label>
+        <link refid="classMR_1_1ChangeIsoAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::ChangeLabelAction</label>
+        <link refid="classMR_1_1ChangeLabelAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::ChangeLinesColorMapAction</label>
+        <link refid="classMR_1_1ChangeLinesColorMapAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MR::ChangeMeshAction</label>
+        <link refid="classMR_1_1ChangeMeshAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>MR::ChangeMeshCreasesAction</label>
+        <link refid="classMR_1_1ChangeMeshCreasesAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>MR::ChangeMeshDataAction</label>
+        <link refid="classMR_1_1ChangeMeshDataAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MR::ChangeMeshEdgeSelectionAction</label>
+        <link refid="classMR_1_1ChangeMeshEdgeSelectionAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MR::ChangeMeshFaceSelectionAction</label>
+        <link refid="classMR_1_1ChangeMeshFaceSelectionAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MR::ChangeMeshPointsAction</label>
+        <link refid="classMR_1_1ChangeMeshPointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MR::ChangeMeshTexturePerFaceAction</label>
+        <link refid="classMR_1_1ChangeMeshTexturePerFaceAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MR::ChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1ChangeMeshTopologyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MR::ChangeMeshUVCoordsAction</label>
+        <link refid="classMR_1_1ChangeMeshUVCoordsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MR::ChangeNameAction</label>
+        <link refid="classMR_1_1ChangeNameAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MR::ChangeObjectAction</label>
+        <link refid="classMR_1_1ChangeObjectAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>MR::ChangeObjectColorAction</label>
+        <link refid="classMR_1_1ChangeObjectColorAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MR::ChangeObjectSelectedAction</label>
+        <link refid="classMR_1_1ChangeObjectSelectedAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MR::ChangeObjectVisibilityAction</label>
+        <link refid="classMR_1_1ChangeObjectVisibilityAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MR::ChangeOneNormalInCloudAction</label>
+        <link refid="classMR_1_1ChangeOneNormalInCloudAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>MR::ChangeOnePointInCloudAction</label>
+        <link refid="classMR_1_1ChangeOnePointInCloudAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MR::ChangeOnePointInPolylineAction</label>
+        <link refid="classMR_1_1ChangeOnePointInPolylineAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>MR::ChangePointCloudAction</label>
+        <link refid="classMR_1_1ChangePointCloudAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>MR::ChangePointCloudNormalsAction</label>
+        <link refid="classMR_1_1ChangePointCloudNormalsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>MR::ChangePointCloudPointsAction</label>
+        <link refid="classMR_1_1ChangePointCloudPointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="32">
+        <label>MR::ChangePointPointSelectionAction</label>
+        <link refid="classMR_1_1ChangePointPointSelectionAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>MR::ChangePolylineAction</label>
+        <link refid="classMR_1_1ChangePolylineAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MR::ChangePolylinePointsAction</label>
+        <link refid="classMR_1_1ChangePolylinePointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MR::ChangePolylineTopologyAction</label>
+        <link refid="classMR_1_1ChangePolylineTopologyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>MR::ChangeScaleAction</label>
+        <link refid="classMR_1_1ChangeScaleAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MR::ChangeSceneAction</label>
+        <link refid="classMR_1_1ChangeSceneAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MR::ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1ChangeSceneObjectsOrder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="39">
+        <label>MR::ChangeSurfaceAction</label>
+        <link refid="classMR_1_1ChangeSurfaceAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>MR::ChangeTextureAction</label>
+        <link refid="classMR_1_1ChangeTextureAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>MR::ChangeValue&lt; T &gt;</label>
+        <link refid="classMR_1_1ChangeValue"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MR::ChangeVertsColorMapAction&lt; T &gt;</label>
+        <link refid="classMR_1_1ChangeVertsColorMapAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MR::ChangeVisualizePropertyAction</label>
+        <link refid="classMR_1_1ChangeVisualizePropertyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
+        <label>MR::ChangeXfAction</label>
+        <link refid="classMR_1_1ChangeXfAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>MR::CombinedHistoryAction</label>
+        <link refid="classMR_1_1CombinedHistoryAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="45">
+        <label>MR::DirectionWidget::ChangeDirAction</label>
+        <link refid="classMR_1_1DirectionWidget_1_1ChangeDirAction"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="47">
+        <label>MR::DirectionWidget::ChangeVisibleAction</label>
+        <link refid="classMR_1_1DirectionWidget_1_1ChangeVisibleAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="48">
+        <label>MR::ITransformControls::ChangeCenterAction</label>
+        <link refid="classMR_1_1ITransformControls_1_1ChangeCenterAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="49">
+        <label>MR::ObjectTransformWidget::ChangeXfAction</label>
+        <link refid="classMR_1_1ObjectTransformWidget_1_1ChangeXfAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="50">
+        <label>MR::PartialChangeMeshAction</label>
+        <link refid="classMR_1_1PartialChangeMeshAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>MR::PartialChangeMeshDataAction</label>
+        <link refid="classMR_1_1PartialChangeMeshDataAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="52">
+        <label>MR::PartialChangeMeshPointsAction</label>
+        <link refid="classMR_1_1PartialChangeMeshPointsAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>MR::PartialChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1PartialChangeMeshTopologyAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>MR::PickPointManager::WidgetHistoryAction</label>
+        <link refid="structMR_1_1PickPointManager_1_1WidgetHistoryAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>MR::SwapRootAction</label>
+        <link refid="classMR_1_1SwapRootAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>MR::ViewportParametersAction</label>
+        <link refid="classMR_1_1ViewportParametersAction"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRHistoryAction.h" bodystart="15" bodyend="31"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb" prot="public" virt="pure-virtual"><scope>MR::HistoryAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de" prot="public" virt="pure-virtual"><scope>MR::HistoryAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce" prot="public" virt="pure-virtual"><scope>MR::HistoryAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::HistoryAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::HistoryAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

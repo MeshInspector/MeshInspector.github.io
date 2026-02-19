@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EdgePointPair" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EdgePointPair</compoundname>
+    <includes refid="MREdgePoint_8h" local="no">MREdgePoint.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaca69f5d63615624473f947bb8b68d739" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1gaaf405ad228844bff2d377328b8c2f73c" kind="variable"><name>b</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga879ee9c7d522b1687452299475e29842" kind="function"><name>EdgePointPair</name></member>
+      <member refid="group__GeneralGroup_1ga19d5b7a6dad1c8e969b397a0afb33a52" kind="function"><name>EdgePointPair</name></member>
+      <member refid="group__GeneralGroup_1ga28ddfe91a5b73fab28e8daeab44c260c" kind="function"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>two edge-points (e.g. representing collision point of two edges) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::EdgePoint</label>
+        <link refid="structMR_1_1EdgePoint"/>
+      </node>
+      <node id="1">
+        <label>MR::EdgePointPair</label>
+        <link refid="structMR_1_1EdgePointPair"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>a</edgelabel>
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" line="52" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREdgePoint.h" bodystart="53" bodyend="60"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaca69f5d63615624473f947bb8b68d739" prot="public" virt="non-virtual"><scope>MR::EdgePointPair</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1gaaf405ad228844bff2d377328b8c2f73c" prot="public" virt="non-virtual"><scope>MR::EdgePointPair</scope><name>b</name></member>
+      <member refid="group__GeneralGroup_1ga879ee9c7d522b1687452299475e29842" prot="public" virt="non-virtual"><scope>MR::EdgePointPair</scope><name>EdgePointPair</name></member>
+      <member refid="group__GeneralGroup_1ga19d5b7a6dad1c8e969b397a0afb33a52" prot="public" virt="non-virtual"><scope>MR::EdgePointPair</scope><name>EdgePointPair</name></member>
+      <member refid="group__GeneralGroup_1ga28ddfe91a5b73fab28e8daeab44c260c" prot="public" virt="non-virtual"><scope>MR::EdgePointPair</scope><name>operator==</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

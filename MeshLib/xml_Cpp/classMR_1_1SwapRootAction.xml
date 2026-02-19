@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SwapRootAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::SwapRootAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRSwapRootAction_8h" local="no">MRSwapRootAction.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga935fc35ae3bbdc39583240539fbaf761" kind="variable"><name>root_</name></member>
+      <member refid="group__GeneralGroup_1ga4c44446f6f7eb259daa12f7c7bd5970a" kind="variable"><name>scenePath_</name></member>
+      <member refid="group__GeneralGroup_1ga73253db7f29b8125670abb1702eb064b" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaf6bb4c1dda747f34b96c94f1c8dba6be" kind="function"><name>SwapRootAction</name></member>
+      <member refid="group__GeneralGroup_1ga1ea4ac4e26ce6a38aae5ecd3ffd4c428" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gad4f29239d50c1ce54e67f398259ce4a8" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaec455a92bb7ddcf98151e8d92cf2111f" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::SwapRootAction</label>
+        <link refid="classMR_1_1SwapRootAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::SwapRootAction</label>
+        <link refid="classMR_1_1SwapRootAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSwapRootAction.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSwapRootAction.h" bodystart="16" bodyend="55"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad4f29239d50c1ce54e67f398259ce4a8" prot="public" virt="virtual"><scope>MR::SwapRootAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gaec455a92bb7ddcf98151e8d92cf2111f" prot="public" virt="virtual"><scope>MR::SwapRootAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga1ea4ac4e26ce6a38aae5ecd3ffd4c428" prot="public" virt="virtual"><scope>MR::SwapRootAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga73253db7f29b8125670abb1702eb064b" prot="private" virt="non-virtual"><scope>MR::SwapRootAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga935fc35ae3bbdc39583240539fbaf761" prot="private" virt="non-virtual"><scope>MR::SwapRootAction</scope><name>root_</name></member>
+      <member refid="group__GeneralGroup_1ga4c44446f6f7eb259daa12f7c7bd5970a" prot="private" virt="non-virtual"><scope>MR::SwapRootAction</scope><name>scenePath_</name></member>
+      <member refid="group__GeneralGroup_1gaf6bb4c1dda747f34b96c94f1c8dba6be" prot="public" virt="non-virtual"><scope>MR::SwapRootAction</scope><name>SwapRootAction</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::SwapRootAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::SwapRootAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

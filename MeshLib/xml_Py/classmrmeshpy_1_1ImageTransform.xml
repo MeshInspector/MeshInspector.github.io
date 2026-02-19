@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ImageTransform" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ImageTransform</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ImageTransform_1ab8d7e62731b0a84570a7e91f1a610276" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+        <definition> Image mrmeshpy.ImageTransform.rotateClockwise90</definition>
+        <argsstring>(Image image)</argsstring>
+        <name>rotateClockwise90</name>
+        <qualifiedname>mrmeshpy.ImageTransform.rotateClockwise90</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Image" kindref="compound">Image</ref></type>
+          <declname>image</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates an image rotated 90 degrees clockwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24002" bodyend="24005"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="23997" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="23997" bodyend="24005"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ImageTransform_1ab8d7e62731b0a84570a7e91f1a610276" prot="public" virt="non-virtual"><scope>mrmeshpy::ImageTransform</scope><name>rotateClockwise90</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

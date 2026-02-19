@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VisualObjectTag" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VisualObjectTag</compoundname>
+    <includes refid="MRVisualObjectTag_8h" local="no">MRVisualObjectTag.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga040722e4a5ea73462bb03e8dc331a267" kind="variable"><name>selectedColor</name></member>
+      <member refid="group__GeneralGroup_1gaea8f1b7edc9df06d7955309b333fb83c" kind="variable"><name>unselectedColor</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>modified color set for visual objects </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::Color</label>
+        <link refid="structMR_1_1Color"/>
+      </node>
+      <node id="1">
+        <label>MR::VisualObjectTag</label>
+        <link refid="structMR_1_1VisualObjectTag"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>selectedColor</edgelabel>
+          <edgelabel>unselectedColor</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRVisualObjectTag.h" bodystart="18" bodyend="21"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga040722e4a5ea73462bb03e8dc331a267" prot="public" virt="non-virtual"><scope>MR::VisualObjectTag</scope><name>selectedColor</name></member>
+      <member refid="group__GeneralGroup_1gaea8f1b7edc9df06d7955309b333fb83c" prot="public" virt="non-virtual"><scope>MR::VisualObjectTag</scope><name>unselectedColor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

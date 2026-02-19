@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1WeightedShell_1_1ParametersMetric" kind="struct" language="C++" prot="public">
+    <compoundname>MR::WeightedShell::ParametersMetric</compoundname>
+    <basecompoundref refid="structMR_1_1WeightedShell_1_1ParametersBase" prot="public" virt="non-virtual">MR::WeightedShell::ParametersBase</basecompoundref>
+    <includes refid="MRWeightedPointsShell_8h" local="no">MRWeightedPointsShell.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1WeightedShell_1_1ParametersMetric_1a3c8f8973ae2690971d98f123da0edade" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1DistanceFromWeightedPointsParams" kindref="compound">DistanceFromWeightedPointsParams</ref></type>
+        <definition>DistanceFromWeightedPointsParams MR::WeightedShell::ParametersMetric::dist</definition>
+        <argsstring></argsstring>
+        <name>dist</name>
+        <qualifiedname>MR::WeightedShell::ParametersMetric::dist</qualifiedname>
+        <briefdescription>
+<para>parameters of distance finding </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="53" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::WeightedShell::ParametersBase</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersBase"/>
+      </node>
+      <node id="1">
+        <label>MR::WeightedShell::ParametersMetric</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersMetric"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::DistanceFromWeightedPointsParams</label>
+        <link refid="structMR_1_1DistanceFromWeightedPointsParams"/>
+      </node>
+      <node id="2">
+        <label>MR::WeightedShell::ParametersBase</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersBase"/>
+      </node>
+      <node id="1">
+        <label>MR::WeightedShell::ParametersMetric</label>
+        <link refid="structMR_1_1WeightedShell_1_1ParametersMetric"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>dist</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" line="50" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRWeightedPointsShell.h" bodystart="51" bodyend="54"/>
+    <listofallmembers>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersMetric_1a3c8f8973ae2690971d98f123da0edade" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersMetric</scope><name>dist</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1a349cbda27e2015a526f1b28c6b47d81d" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersMetric</scope><name>numLayers</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1ae7fb4b6344a163878220ad932dc4dec8" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersMetric</scope><name>offset</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1accba4965ab6c2a4b2f28903261bce706" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersMetric</scope><name>progress</name></member>
+      <member refid="structMR_1_1WeightedShell_1_1ParametersBase_1af8d85417b99b631e7f2c01ba2d039443" prot="public" virt="non-virtual"><scope>MR::WeightedShell::ParametersMetric</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

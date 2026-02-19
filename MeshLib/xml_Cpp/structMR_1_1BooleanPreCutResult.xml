@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BooleanPreCutResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BooleanPreCutResult</compoundname>
+    <includes refid="MRMeshBoolean_8h" local="no">MRMeshBoolean.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1BooleanPreCutResult_1ac3043629b51e619f82eddefaa9e678fb" prot="public" static="no" mutable="no">
+        <type><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition>Mesh MR::BooleanPreCutResult::mesh</definition>
+        <argsstring></argsstring>
+        <name>mesh</name>
+        <qualifiedname>MR::BooleanPreCutResult::mesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="68" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1BooleanPreCutResult_1afaca754878c1a03d1db3e1b2e6933dfc" prot="public" static="no" mutable="no">
+        <type><ref refid="group__BooleanGroup_1ga9ecf19b8a704c505e8026abe7e64e38a" kindref="member">OneMeshContours</ref></type>
+        <definition>OneMeshContours MR::BooleanPreCutResult::contours</definition>
+        <argsstring></argsstring>
+        <name>contours</name>
+        <qualifiedname>MR::BooleanPreCutResult::contours</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="69" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::BooleanPreCutResult</label>
+        <link refid="structMR_1_1BooleanPreCutResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>mesh</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Mesh</label>
+        <link refid="structMR_1_1Mesh"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MeshTopology</label>
+        <link refid="classMR_1_1MeshTopology"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" line="66" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshBoolean.h" bodystart="67" bodyend="70"/>
+    <listofallmembers>
+      <member refid="structMR_1_1BooleanPreCutResult_1afaca754878c1a03d1db3e1b2e6933dfc" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>contours</name></member>
+      <member refid="structMR_1_1BooleanPreCutResult_1ac3043629b51e619f82eddefaa9e678fb" prot="public" virt="non-virtual"><scope>MR::BooleanPreCutResult</scope><name>mesh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

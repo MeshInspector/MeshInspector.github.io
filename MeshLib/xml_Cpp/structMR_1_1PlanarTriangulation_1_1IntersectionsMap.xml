@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PlanarTriangulation_1_1IntersectionsMap" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PlanarTriangulation::IntersectionsMap</compoundname>
+    <includes refid="MR2DContoursTriangulation_8h" local="no">MR2DContoursTriangulation.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga9e57510cc8b745dcfbbf6e04c6fba846" kind="variable"><name>shift</name></member>
+      <member refid="group__GeneralGroup_1ga2c09afe7b89e565c7c7549b9cbabf2f0" kind="variable"><name>map</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>struct to map new vertices (only appear on intersections) of the outline to it&apos;s edges </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" line="52" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MR2DContoursTriangulation.h" bodystart="53" bodyend="58"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2c09afe7b89e565c7c7549b9cbabf2f0" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>map</name></member>
+      <member refid="group__GeneralGroup_1ga9e57510cc8b745dcfbbf6e04c6fba846" prot="public" virt="non-virtual"><scope>MR::PlanarTriangulation::IntersectionsMap</scope><name>shift</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

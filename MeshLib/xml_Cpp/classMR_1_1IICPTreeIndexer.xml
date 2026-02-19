@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IICPTreeIndexer" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::IICPTreeIndexer</compoundname>
+    <includes refid="MRMultiwayICP_8h" local="no">MRMultiwayICP.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga68616944ac0168797fb2fece7d28f477" kind="function"><name>~IICPTreeIndexer</name></member>
+      <member refid="group__GeneralGroup_1ga1f778d40d47e51211af6dc767319487a" kind="function"><name>fromSameNode</name></member>
+      <member refid="group__GeneralGroup_1gae9d6c57f127d30e14ec9ce539bb2b0f7" kind="function"><name>getElementLeaves</name></member>
+      <member refid="group__GeneralGroup_1ga114f0247a1d8233737cefa12708f75dc" kind="function"><name>getElementNodes</name></member>
+      <member refid="group__GeneralGroup_1ga1134ae002061a65428a6900901a9df6f" kind="function"><name>getNumElements</name></member>
+      <member refid="group__GeneralGroup_1ga35a9128e72ddf5647128d63b87bcf209" kind="function"><name>getNumLayers</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>structure to find leafs and groups of each in cascade mode </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="41" bodyend="60"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1f778d40d47e51211af6dc767319487a" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>fromSameNode</name></member>
+      <member refid="group__GeneralGroup_1gae9d6c57f127d30e14ec9ce539bb2b0f7" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getElementLeaves</name></member>
+      <member refid="group__GeneralGroup_1ga114f0247a1d8233737cefa12708f75dc" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getElementNodes</name></member>
+      <member refid="group__GeneralGroup_1ga1134ae002061a65428a6900901a9df6f" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getNumElements</name></member>
+      <member refid="group__GeneralGroup_1ga35a9128e72ddf5647128d63b87bcf209" prot="public" virt="pure-virtual"><scope>MR::IICPTreeIndexer</scope><name>getNumLayers</name></member>
+      <member refid="group__GeneralGroup_1ga68616944ac0168797fb2fece7d28f477" prot="public" virt="virtual"><scope>MR::IICPTreeIndexer</scope><name>~IICPTreeIndexer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

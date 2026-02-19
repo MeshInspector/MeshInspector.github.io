@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Pdf_1_1ImageParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Pdf::ImageParams</compoundname>
+    <includes refid="MRPdf_8h" local="no">MRPdf.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gac62f55dffb41437f678f5417604d361f" kind="enum"><name>UniformScale</name></member>
+      <member refid="group__GeneralGroup_1gaccc7bf1ce246f1fbd6e61ebc148608da" kind="enum"><name>AlignmentVertical</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga5fa291c3e88b0bf52170920882cf86af" kind="variable"><name>size</name></member>
+      <member refid="group__GeneralGroup_1ga014a28da293c9397a11d389e7e6659f0" kind="variable"><name>caption</name></member>
+      <member refid="group__GeneralGroup_1ga2e2b7315c96386e1c4bf6ac6358ebd12" kind="variable"><name>uniformScale</name></member>
+      <member refid="group__GeneralGroup_1ga4539cd7cb0d2e7178a1c788e1ce4c43b" kind="variable"><name>alignmentVertical</name></member>
+      <member refid="group__GeneralGroup_1ga843c1626b5d850e2a8fef83bc77b097e" kind="variable"><name>alignmentHorizontal</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters to adding image from file. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" line="129" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRPdf.h" bodystart="130" bodyend="152"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga843c1626b5d850e2a8fef83bc77b097e" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>alignmentHorizontal</name></member>
+      <member refid="group__GeneralGroup_1gaccc7bf1ce246f1fbd6e61ebc148608da" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>AlignmentVertical</name></member>
+      <member refid="group__GeneralGroup_1ga4539cd7cb0d2e7178a1c788e1ce4c43b" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>alignmentVertical</name></member>
+      <member refid="group__GeneralGroup_1ga014a28da293c9397a11d389e7e6659f0" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>caption</name></member>
+      <member refid="group__GeneralGroup_1ga5fa291c3e88b0bf52170920882cf86af" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>size</name></member>
+      <member refid="group__GeneralGroup_1gac62f55dffb41437f678f5417604d361f" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>UniformScale</name></member>
+      <member refid="group__GeneralGroup_1ga2e2b7315c96386e1c4bf6ac6358ebd12" prot="public" virt="non-virtual"><scope>MR::Pdf::ImageParams</scope><name>uniformScale</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

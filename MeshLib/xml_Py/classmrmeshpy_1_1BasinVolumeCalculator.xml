@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BasinVolumeCalculator" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BasinVolumeCalculator</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BasinVolumeCalculator_1acafc36561914b433ab058a766d8b784a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BasinVolumeCalculator.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BasinVolumeCalculator.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2869" bodyend="2870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasinVolumeCalculator_1a7f541f5344bfb5d74afd283f0824f960" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasinVolumeCalculator" kindref="compound">BasinVolumeCalculator</ref></type>
+        <definition> BasinVolumeCalculator mrmeshpy.BasinVolumeCalculator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BasinVolumeCalculator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2873" bodyend="2874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasinVolumeCalculator_1a7f541f5344bfb5d74afd283f0824f960" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BasinVolumeCalculator" kindref="compound">BasinVolumeCalculator</ref></type>
+        <definition> BasinVolumeCalculator mrmeshpy.BasinVolumeCalculator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BasinVolumeCalculator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2877" bodyend="2878"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BasinVolumeCalculator_1affe11b57e51dde09dd3a5f04cae674b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BasinVolumeCalculator.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BasinVolumeCalculator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2880" bodyend="2881"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasinVolumeCalculator_1a79067136b45a3bf71ba3eab5057ffb87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BasinVolumeCalculator.__init__</definition>
+        <argsstring>(self, BasinVolumeCalculator arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BasinVolumeCalculator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BasinVolumeCalculator" kindref="compound">BasinVolumeCalculator</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2883" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2883" bodyend="2886"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasinVolumeCalculator_1a28574059e11ebb76f3f34746d1d24284" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.BasinVolumeCalculator.addTerrainTri</definition>
+        <argsstring>(self, std_array_Vector3_float_3 t, float level)</argsstring>
+        <name>addTerrainTri</name>
+        <qualifiedname>mrmeshpy.BasinVolumeCalculator.addTerrainTri</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__Vector3__float__3" kindref="compound">std_array_Vector3_float_3</ref></type>
+          <declname>t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>pass every triangle of the basin here, and the water level;
+\\return true if the triangle is at least partially below the water level and influences on the volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2887" bodyend="2891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BasinVolumeCalculator_1ac57ca0bc5a7c56a32e7a1e1788588029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.BasinVolumeCalculator.getVolume</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>mrmeshpy.BasinVolumeCalculator.getVolume</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>call it after all addTerrainTri to get the volume
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2892" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2892" bodyend="2895"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BasinVolumeCalculator
+
+the class to compute the volume of water some basin can accumulate,
+considering that water upper surface has constant z-level
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2860" bodyend="2895"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BasinVolumeCalculator_1acafc36561914b433ab058a766d8b784a" prot="public" virt="non-virtual"><scope>mrmeshpy::BasinVolumeCalculator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BasinVolumeCalculator_1affe11b57e51dde09dd3a5f04cae674b4" prot="public" virt="non-virtual"><scope>mrmeshpy::BasinVolumeCalculator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BasinVolumeCalculator_1a79067136b45a3bf71ba3eab5057ffb87" prot="public" virt="non-virtual"><scope>mrmeshpy::BasinVolumeCalculator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BasinVolumeCalculator_1a28574059e11ebb76f3f34746d1d24284" prot="public" virt="non-virtual"><scope>mrmeshpy::BasinVolumeCalculator</scope><name>addTerrainTri</name></member>
+      <member refid="classmrmeshpy_1_1BasinVolumeCalculator_1ac57ca0bc5a7c56a32e7a1e1788588029" prot="public" virt="non-virtual"><scope>mrmeshpy::BasinVolumeCalculator</scope><name>getVolume</name></member>
+      <member refid="classmrmeshpy_1_1BasinVolumeCalculator_1a7f541f5344bfb5d74afd283f0824f960" prot="public" virt="non-virtual"><scope>mrmeshpy::BasinVolumeCalculator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BasinVolumeCalculator_1a7f541f5344bfb5d74afd283f0824f960" prot="public" virt="non-virtual"><scope>mrmeshpy::BasinVolumeCalculator</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

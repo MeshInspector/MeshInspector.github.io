@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a2b50e5fcdf2973303fedfac2e3107845" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlanarTriangulation.BaseOutlineParameters::_offsetof_allowMerge</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_allowMerge</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters._offsetof_allowMerge</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1ab2f6471417afae25cba71e2c77b70963" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlanarTriangulation.BaseOutlineParameters::_offsetof_innerType</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_innerType</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters._offsetof_innerType</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43532" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a4c4c3719cc4f97c93fda47d4cac45700" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.BaseOutlineParameters.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43535" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43535" bodyend="43536"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a239e5b8b6ebe8bd240cc76c529f1c43a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">PlanarTriangulation.BaseOutlineParameters</ref></type>
+        <definition> PlanarTriangulation.BaseOutlineParameters mrmeshpy.PlanarTriangulation.BaseOutlineParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43539" bodyend="43540"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a239e5b8b6ebe8bd240cc76c529f1c43a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">PlanarTriangulation.BaseOutlineParameters</ref></type>
+        <definition> PlanarTriangulation.BaseOutlineParameters mrmeshpy.PlanarTriangulation.BaseOutlineParameters.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43543" bodyend="43544"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1af7fa3c9303bfffc296bce8ff9f7df868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.BaseOutlineParameters.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43546" bodyend="43547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1aa96255d015bcc00aa1e71791390a3483" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.BaseOutlineParameters.__init__</definition>
+        <argsstring>(self, PlanarTriangulation.BaseOutlineParameters arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters" kindref="compound">PlanarTriangulation.BaseOutlineParameters</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43549" bodyend="43552"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a47c0ec8c6d77bd08259367ad8b11307c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.BaseOutlineParameters.__init__</definition>
+        <argsstring>(self, bool allowMerge, PlanarTriangulation.WindingMode innerType)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>allowMerge</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode" kindref="compound">PlanarTriangulation.WindingMode</ref></type>
+          <declname>innerType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43554" bodyend="43557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1aeba2dacadd4858126ef73305e61b2bc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PlanarTriangulation.BaseOutlineParameters.allowMerge</definition>
+        <argsstring>(self)</argsstring>
+        <name>allowMerge</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.allowMerge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>allow to merge vertices with same coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43559" bodyend="43562"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a8e1c76fb50c0faf628e38bdf0b963776" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.BaseOutlineParameters.allowMerge</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>allowMerge</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.allowMerge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43564" bodyend="43565"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a9f4951005c94f78db09a116cfeb053f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode" kindref="compound">PlanarTriangulation.WindingMode</ref></type>
+        <definition> PlanarTriangulation.WindingMode mrmeshpy.PlanarTriangulation.BaseOutlineParameters.innerType</definition>
+        <argsstring>(self)</argsstring>
+        <name>innerType</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.innerType</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>what to mark as inner part
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43567" bodyend="43570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1ad7ce6576bef4c13edcf83d1eeb7cba99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlanarTriangulation.BaseOutlineParameters.innerType</definition>
+        <argsstring>(self, PlanarTriangulation.WindingMode arg1)</argsstring>
+        <name>innerType</name>
+        <qualifiedname>mrmeshpy.PlanarTriangulation.BaseOutlineParameters.innerType</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PlanarTriangulation_1_1WindingMode" kindref="compound">PlanarTriangulation.WindingMode</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43572" bodyend="43574"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PlanarTriangulation::BaseOutlineParameters
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PlanarTriangulation.BaseOutlineParameters</label>
+        <link refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_allowMerge</edgelabel>
+          <edgelabel>_offsetof_innerType</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="43527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="43527" bodyend="43573"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a4c4c3719cc4f97c93fda47d4cac45700" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1af7fa3c9303bfffc296bce8ff9f7df868" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1aa96255d015bcc00aa1e71791390a3483" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a47c0ec8c6d77bd08259367ad8b11307c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a2b50e5fcdf2973303fedfac2e3107845" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>_offsetof_allowMerge</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1ab2f6471417afae25cba71e2c77b70963" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>_offsetof_innerType</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1aeba2dacadd4858126ef73305e61b2bc4" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>allowMerge</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a8e1c76fb50c0faf628e38bdf0b963776" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>allowMerge</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a9f4951005c94f78db09a116cfeb053f8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>innerType</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1ad7ce6576bef4c13edcf83d1eeb7cba99" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>innerType</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a239e5b8b6ebe8bd240cc76c529f1c43a" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PlanarTriangulation_1_1BaseOutlineParameters_1a239e5b8b6ebe8bd240cc76c529f1c43a" prot="public" virt="non-virtual"><scope>mrmeshpy::PlanarTriangulation::BaseOutlineParameters</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

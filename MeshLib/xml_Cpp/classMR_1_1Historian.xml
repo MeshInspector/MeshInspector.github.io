@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Historian" kind="class" language="C++" prot="public">
+    <compoundname>MR::Historian</compoundname>
+    <includes refid="MRAppendHistory_8h" local="no">MRAppendHistory.h</includes>
+    <templateparamlist>
+      <param>
+        <type>class HistoryActionType</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gade9b001230ecaba7d2ae48e2dde4c811" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga3c9cce13e161408527da938d531ec11a" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga0e182e30d9c414668f86227d1a744d74" kind="variable"><name>action_</name></member>
+      <member refid="group__GeneralGroup_1gafacec04ff3f5b3cfc1e106c640f5694f" kind="variable"><name>canceled_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga7869ebc98ea62e7be5a19e2c4322b859" kind="function"><name>Historian</name></member>
+      <member refid="group__GeneralGroup_1ga7ab42ff05c89ab745c7cc2aec2b023db" kind="function"><name>cancelAction</name></member>
+      <member refid="group__GeneralGroup_1ga8261070af5195a2d3e6505973b99890b" kind="function"><name>~Historian</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>if undo history is enabled, creates given action in the constructor; and always mark the object as dirty in the destructor </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAppendHistory.h" line="34" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRAppendHistory.h" bodystart="35" bodyend="68"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga0e182e30d9c414668f86227d1a744d74" prot="private" virt="non-virtual"><scope>MR::Historian</scope><name>action_</name></member>
+      <member refid="group__GeneralGroup_1ga7ab42ff05c89ab745c7cc2aec2b023db" prot="public" virt="non-virtual"><scope>MR::Historian</scope><name>cancelAction</name></member>
+      <member refid="group__GeneralGroup_1gafacec04ff3f5b3cfc1e106c640f5694f" prot="private" virt="non-virtual"><scope>MR::Historian</scope><name>canceled_</name></member>
+      <member refid="group__GeneralGroup_1ga7869ebc98ea62e7be5a19e2c4322b859" prot="public" virt="non-virtual"><scope>MR::Historian</scope><name>Historian</name></member>
+      <member refid="group__GeneralGroup_1gade9b001230ecaba7d2ae48e2dde4c811" prot="public" virt="non-virtual"><scope>MR::Historian</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1ga3c9cce13e161408527da938d531ec11a" prot="private" virt="non-virtual"><scope>MR::Historian</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga8261070af5195a2d3e6505973b99890b" prot="public" virt="non-virtual"><scope>MR::Historian</scope><name>~Historian</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

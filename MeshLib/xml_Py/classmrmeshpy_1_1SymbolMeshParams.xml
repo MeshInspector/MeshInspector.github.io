@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SymbolMeshParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SymbolMeshParams</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1TextMeshAlignParams" prot="public" virt="non-virtual">mrmeshpy.TextMeshAlignParams</derivedcompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymbolMeshParams_1ade468cb51c637957be158e1e0270f5e3" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymbolMeshParams::MaxGeneratedFontHeight</definition>
+        <argsstring></argsstring>
+        <name>MaxGeneratedFontHeight</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.MaxGeneratedFontHeight</qualifiedname>
+        <initializer>=  5.826000213623047</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55765" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymbolMeshParams_1aa0b3ccd37fdc54abe60fbf30f7a6e585" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymbolMeshParams::_offsetof_align</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_align</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams._offsetof_align</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55766" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymbolMeshParams_1a0edc58ed9eb9ebe55a71fd39430747a8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymbolMeshParams::_offsetof_fontDetalization</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fontDetalization</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams._offsetof_fontDetalization</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55767" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymbolMeshParams_1a8af9762b38b5af139f29836c6b56bed5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymbolMeshParams::_offsetof_pathToFontFile</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pathToFontFile</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams._offsetof_pathToFontFile</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymbolMeshParams_1ae8ac1384dc8bacaad2843d8c0ef1c817" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymbolMeshParams::_offsetof_symbolsDistanceAdditionalOffset</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_symbolsDistanceAdditionalOffset</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams._offsetof_symbolsDistanceAdditionalOffset</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymbolMeshParams_1aaa2bc0c8d027c54a181f7d0aa285ca22" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymbolMeshParams::_offsetof_symbolsThicknessOffsetModifier</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_symbolsThicknessOffsetModifier</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams._offsetof_symbolsThicknessOffsetModifier</qualifiedname>
+        <initializer>=  44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55770" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SymbolMeshParams_1acfc4f113e79ca51d844ed96f96729290" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SymbolMeshParams::_offsetof_text</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_text</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams._offsetof_text</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55771" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55771" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a7843f58a322674da5fd605032c5da6d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1aec3a8ab3b9dac180c5f7951099b10139">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a253a6c2d4ea3ebc89386085636d36ce1">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1af0f4e1878c008b30662c59a442e7f9d2">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55774" bodyend="55775"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1ae7f09c70890f4e09e8191971c061b5f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></type>
+        <definition> SymbolMeshParams mrmeshpy.SymbolMeshParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a4f010ef50a2da64719c85047d8e736a2">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a4f010ef50a2da64719c85047d8e736a2">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55778" bodyend="55779"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1ae7f09c70890f4e09e8191971c061b5f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></type>
+        <definition> SymbolMeshParams mrmeshpy.SymbolMeshParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a4f010ef50a2da64719c85047d8e736a2">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a4f010ef50a2da64719c85047d8e736a2">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55782" bodyend="55783"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1ab455b8585019151079a93eb1527ef580" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1aec3a8ab3b9dac180c5f7951099b10139">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a253a6c2d4ea3ebc89386085636d36ce1">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1af0f4e1878c008b30662c59a442e7f9d2">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55785" bodyend="55786"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a1b12ca8c2f384f7c53d378682a91c84b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.__init__</definition>
+        <argsstring>(self, SymbolMeshParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1aec3a8ab3b9dac180c5f7951099b10139">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a253a6c2d4ea3ebc89386085636d36ce1">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1af0f4e1878c008b30662c59a442e7f9d2">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SymbolMeshParams" kindref="compound">SymbolMeshParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55788" bodyend="55791"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a5cc2b561872dc6434be56745cc81b91b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.__init__</definition>
+        <argsstring>(self, str text, int fontDetalization, Vector2f symbolsDistanceAdditionalOffset, float symbolsThicknessOffsetModifier, AlignType align, os.PathLike|str|bytes pathToFontFile)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1aec3a8ab3b9dac180c5f7951099b10139">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1a253a6c2d4ea3ebc89386085636d36ce1">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1TextMeshAlignParams_1af0f4e1878c008b30662c59a442e7f9d2">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>text</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fontDetalization</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>symbolsDistanceAdditionalOffset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>symbolsThicknessOffsetModifier</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AlignType" kindref="compound">AlignType</ref></type>
+          <declname>align</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>pathToFontFile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55793" bodyend="55796"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a3a4a6f82ac46e675b87187cd83ebe813" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AlignType" kindref="compound">AlignType</ref></type>
+        <definition> AlignType mrmeshpy.SymbolMeshParams.align</definition>
+        <argsstring>(self)</argsstring>
+        <name>align</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.align</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>alignment of the text inside bbox
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55798" bodyend="55801"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a2f054401c787e300ed7ae86eee637a2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.align</definition>
+        <argsstring>(self, AlignType arg1)</argsstring>
+        <name>align</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.align</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AlignType" kindref="compound">AlignType</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55803" bodyend="55804"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a3f0764fb3d0db8ef7ff8e96ccf471b7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SymbolMeshParams.fontDetalization</definition>
+        <argsstring>(self)</argsstring>
+        <name>fontDetalization</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.fontDetalization</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Detailization of Bezier curves on font glyphs
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55806" bodyend="55809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1ae709a9e7f7e5afd7714ced583d0a3610" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.fontDetalization</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>fontDetalization</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.fontDetalization</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55811" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55811" bodyend="55812"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a91b0a2901853859b9524fbe88fbe5761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.SymbolMeshParams.pathToFontFile</definition>
+        <argsstring>(self)</argsstring>
+        <name>pathToFontFile</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.pathToFontFile</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Path to font file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55814" bodyend="55817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a6f8b87c4ecbd8e410d9c2fee017e76b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.pathToFontFile</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg1)</argsstring>
+        <name>pathToFontFile</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.pathToFontFile</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55819" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55819" bodyend="55820"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a13ef111ab6c1a6c440197b9d3630f15f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+        <definition> Vector2f mrmeshpy.SymbolMeshParams.symbolsDistanceAdditionalOffset</definition>
+        <argsstring>(self)</argsstring>
+        <name>symbolsDistanceAdditionalOffset</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.symbolsDistanceAdditionalOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Additional offset between symbols
+X: In symbol size: 1.0f adds one &quot;space&quot;, 0.5 adds half &quot;space&quot;.
+Y: In symbol size: 1.0f adds one base height, 0.5 adds half base height
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55822" bodyend="55827"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a9cd81cfec2efff5594e0817209aff661" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.symbolsDistanceAdditionalOffset</definition>
+        <argsstring>(self, Vector2f arg1)</argsstring>
+        <name>symbolsDistanceAdditionalOffset</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.symbolsDistanceAdditionalOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2f" kindref="compound">Vector2f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55829" bodyend="55830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1a3be3afbd605c5df0a5ee2cfedb83818c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SymbolMeshParams.symbolsThicknessOffsetModifier</definition>
+        <argsstring>(self)</argsstring>
+        <name>symbolsThicknessOffsetModifier</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.symbolsThicknessOffsetModifier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Symbols thickness will be modified by this value (newThickness = modifier*baseSymbolHeight + defaultThickness)
+note: changing this to non-zero values cause costly calculations
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55832" bodyend="55836"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1af44fc74d88eb9e5459bbe2837fcc588c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.symbolsThicknessOffsetModifier</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>symbolsThicknessOffsetModifier</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.symbolsThicknessOffsetModifier</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55838" bodyend="55839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1adccc61832dd4488e8da274e4b6313df2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.SymbolMeshParams.text</definition>
+        <argsstring>(self)</argsstring>
+        <name>text</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.text</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Text that will be made mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55841" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55841" bodyend="55844"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SymbolMeshParams_1aa2ebb54f704807dc7cfb3f584cf94fd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SymbolMeshParams.text</definition>
+        <argsstring>(self, str arg1)</argsstring>
+        <name>text</name>
+        <qualifiedname>mrmeshpy.SymbolMeshParams.text</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55846" bodyend="55847"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SymbolMeshParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.SymbolMeshParams</label>
+        <link refid="classmrmeshpy_1_1SymbolMeshParams"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.TextMeshAlignParams</label>
+        <link refid="classmrmeshpy_1_1TextMeshAlignParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SymbolMeshParams</label>
+        <link refid="classmrmeshpy_1_1SymbolMeshParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>MaxGeneratedFontHeight</edgelabel>
+          <edgelabel>_offsetof_align</edgelabel>
+          <edgelabel>_offsetof_fontDetalization</edgelabel>
+          <edgelabel>_offsetof_pathToFontFile</edgelabel>
+          <edgelabel>_offsetof_symbolsDistanceAdditionalOffset</edgelabel>
+          <edgelabel>_offsetof_symbolsThicknessOffsetModifier</edgelabel>
+          <edgelabel>_offsetof_text</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="55761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="55761" bodyend="55847"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a7843f58a322674da5fd605032c5da6d0" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1ab455b8585019151079a93eb1527ef580" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a1b12ca8c2f384f7c53d378682a91c84b" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a5cc2b561872dc6434be56745cc81b91b" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1aa0b3ccd37fdc54abe60fbf30f7a6e585" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>_offsetof_align</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a0edc58ed9eb9ebe55a71fd39430747a8" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>_offsetof_fontDetalization</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a8af9762b38b5af139f29836c6b56bed5" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>_offsetof_pathToFontFile</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1ae8ac1384dc8bacaad2843d8c0ef1c817" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>_offsetof_symbolsDistanceAdditionalOffset</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1aaa2bc0c8d027c54a181f7d0aa285ca22" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>_offsetof_symbolsThicknessOffsetModifier</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1acfc4f113e79ca51d844ed96f96729290" prot="protected" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>_offsetof_text</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a3a4a6f82ac46e675b87187cd83ebe813" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>align</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a2f054401c787e300ed7ae86eee637a2a" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>align</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a3f0764fb3d0db8ef7ff8e96ccf471b7d" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>fontDetalization</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1ae709a9e7f7e5afd7714ced583d0a3610" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>fontDetalization</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1ade468cb51c637957be158e1e0270f5e3" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>MaxGeneratedFontHeight</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1ae7f09c70890f4e09e8191971c061b5f2" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1ae7f09c70890f4e09e8191971c061b5f2" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a91b0a2901853859b9524fbe88fbe5761" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>pathToFontFile</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a6f8b87c4ecbd8e410d9c2fee017e76b7" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>pathToFontFile</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a13ef111ab6c1a6c440197b9d3630f15f" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>symbolsDistanceAdditionalOffset</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a9cd81cfec2efff5594e0817209aff661" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>symbolsDistanceAdditionalOffset</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1a3be3afbd605c5df0a5ee2cfedb83818c" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>symbolsThicknessOffsetModifier</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1af44fc74d88eb9e5459bbe2837fcc588c" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>symbolsThicknessOffsetModifier</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1adccc61832dd4488e8da274e4b6313df2" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>text</name></member>
+      <member refid="classmrmeshpy_1_1SymbolMeshParams_1aa2ebb54f704807dc7cfb3f584cf94fd0" prot="public" virt="non-virtual"><scope>mrmeshpy::SymbolMeshParams</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

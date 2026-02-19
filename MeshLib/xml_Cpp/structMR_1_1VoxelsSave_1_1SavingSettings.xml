@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsSave_1_1SavingSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelsSave::SavingSettings</compoundname>
+    <includes refid="MRVoxelsSave_8h" local="no">MRVoxelsSave.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1VoxelsSave_1_1SavingSettings_1a8415f6dc84ccf8061fd256e2420cd4fd" prot="public" static="no" mutable="no">
+        <type>std::filesystem::path</type>
+        <definition>std::filesystem::path MR::VoxelsSave::SavingSettings::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <qualifiedname>MR::VoxelsSave::SavingSettings::path</qualifiedname>
+        <briefdescription>
+<para>path to directory where you want to save images </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="61" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsSave_1_1SavingSettings_1abc7da521abdd392c79be9602cde3dc64" prot="public" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::VoxelsSave::SavingSettings::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <qualifiedname>MR::VoxelsSave::SavingSettings::format</qualifiedname>
+        <initializer>= &quot;slice_{0:0{1}}.tif&quot;</initializer>
+        <briefdescription>
+<para>format for file names, you should specify a placeholder for number and extension, eg &quot;slice_{0:0{1}}.tif&quot; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="63" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsSave_1_1SavingSettings_1a8194c36117ac4d7ace9f1070ce398953" prot="public" static="no" mutable="no">
+        <type><ref refid="group__VoxelPathGroup_1ga4412ea17fd4bcca4ad23e987f61c20ab" kindref="member">SlicePlane</ref></type>
+        <definition>SlicePlane MR::VoxelsSave::SavingSettings::slicePlane</definition>
+        <argsstring></argsstring>
+        <name>slicePlane</name>
+        <qualifiedname>MR::VoxelsSave::SavingSettings::slicePlane</qualifiedname>
+        <briefdescription>
+<para>Plane which the object is sliced by. XY, XZ, or YZ. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="65" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1VoxelsSave_1_1SavingSettings_1a61495391ee95acbc5462893baceab323" prot="public" static="no" mutable="no">
+        <type>ProgressCallback</type>
+        <definition>ProgressCallback MR::VoxelsSave::SavingSettings::cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR::VoxelsSave::SavingSettings::cb</qualifiedname>
+        <initializer>= {}</initializer>
+        <briefdescription>
+<para>Callback reporting progress. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="67" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores together all data for save voxel object as a group of images </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" line="58" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsSave.h" bodystart="59" bodyend="68"/>
+    <listofallmembers>
+      <member refid="structMR_1_1VoxelsSave_1_1SavingSettings_1a61495391ee95acbc5462893baceab323" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>cb</name></member>
+      <member refid="structMR_1_1VoxelsSave_1_1SavingSettings_1abc7da521abdd392c79be9602cde3dc64" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>format</name></member>
+      <member refid="structMR_1_1VoxelsSave_1_1SavingSettings_1a8415f6dc84ccf8061fd256e2420cd4fd" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>path</name></member>
+      <member refid="structMR_1_1VoxelsSave_1_1SavingSettings_1a8194c36117ac4d7ace9f1070ce398953" prot="public" virt="non-virtual"><scope>MR::VoxelsSave::SavingSettings</scope><name>slicePlane</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

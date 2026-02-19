@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectTagEventDispatcher" kind="class" language="C++" prot="public">
+    <compoundname>MR::ObjectTagEventDispatcher</compoundname>
+    <includes refid="MRObjectTagEventDispatcher_8h" local="no">MRObjectTagEventDispatcher.h</includes>
+    <innerclass refid="structMR_1_1ObjectTagEventDispatcher_1_1ProtectedTag" prot="private">MR::ObjectTagEventDispatcher::ProtectedTag</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" kind="typedef"><name>TagAddedSignal</name></member>
+      <member refid="group__GeneralGroup_1gab42ea0ba5cd7a8edf1877755cab31ddc" kind="typedef"><name>TagRemovedSignal</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga69a3fa9e48cb83bd9f076babcae87821" kind="variable"><name>tagAddedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga28eae4596bea57f3a608867f6475f8bd" kind="variable"><name>tagRemovedSignal</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga09204f895004b59cd1b3e447b498b57a" kind="function"><name>instance</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gabcf0b87d23cf68d0142ef43db70cf1b0" kind="function"><name>ObjectTagEventDispatcher</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class for dispatching object tag addition/removal events </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ObjectTagEventDispatcher</label>
+        <link refid="classMR_1_1ObjectTagEventDispatcher"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>tagAddedSignal</edgelabel>
+          <edgelabel>tagRemovedSignal</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Signal&lt; void(Object *obj, const std::string &amp;tag)&gt;</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>boost::signals2::signal&lt; void(Object *obj, const std::string &amp;tag) &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRObjectTagEventDispatcher.h" bodystart="14" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga09204f895004b59cd1b3e447b498b57a" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gabcf0b87d23cf68d0142ef43db70cf1b0" prot="private" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>ObjectTagEventDispatcher</name></member>
+      <member refid="group__GeneralGroup_1ga33324ded1eb6bd24558e279fc84ce438" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>TagAddedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga69a3fa9e48cb83bd9f076babcae87821" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>tagAddedSignal</name></member>
+      <member refid="group__GeneralGroup_1gab42ea0ba5cd7a8edf1877755cab31ddc" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>TagRemovedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga28eae4596bea57f3a608867f6475f8bd" prot="public" virt="non-virtual"><scope>MR::ObjectTagEventDispatcher</scope><name>tagRemovedSignal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

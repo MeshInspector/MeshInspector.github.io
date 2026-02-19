@@ -2,6 +2,8 @@ var classMR_1_1FaceMap =
 [
     [ "FaceMap", "classMR_1_1FaceMap.html#a9999c8c76efa963b48b889b10ab90eb5", null ],
     [ "FaceMap", "classMR_1_1FaceMap.html#ae2c21331b4562f75b14feeca9cb4ca10", null ],
+    [ "FaceMap", "classMR_1_1FaceMap.html#a2413c744713b633af0353544c91b86f1", null ],
+    [ "FaceMap", "classMR_1_1FaceMap.html#a5eb99e82818dc52ded1ef4e482e035db", null ],
     [ "FaceMap", "classMR_1_1FaceMap.html#a645d6cefe909be53acad03ca97f97a7c", null ],
     [ "FaceMap", "classMR_1_1FaceMap.html#a22d16c52f9b039eb59828c449a6e3e25", null ],
     [ "FaceMap", "classMR_1_1FaceMap.html#ae874b6d5cd05175166f2f4ddc0a2ac4c", null ],

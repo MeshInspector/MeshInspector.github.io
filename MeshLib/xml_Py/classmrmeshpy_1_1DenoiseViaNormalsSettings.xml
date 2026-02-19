@@ -1,0 +1,817 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DenoiseViaNormalsSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DenoiseViaNormalsSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a365700e310f1cac92768833890203efe" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_beta</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_beta</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_beta</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12520" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12520" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a74868b00ba53d3c5e5048e66418370f0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_cb</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12521" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1abd1c648bbcfa596417adb1aaab3f9660" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_fastIndicatorComputation</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fastIndicatorComputation</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_fastIndicatorComputation</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12522" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12522" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a9d730d225dc1555b69a050a9469bfd06" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_gamma</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_gamma</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_gamma</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12523" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12523" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52a952288336d3061cfb3c8bee5a75e8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_guideWeight</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_guideWeight</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_guideWeight</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12524" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a5377fbc0f8916d4f01e83491b39328ff" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_limitNearInitial</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_limitNearInitial</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_limitNearInitial</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a23e9506986f4cbb43d6e08e2f42695e4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_maxInitialDist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxInitialDist</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_maxInitialDist</qualifiedname>
+        <initializer>=  28</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12526" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12526" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adabe1335e3a088ed0939d8e1ec841e41" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_normalIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normalIters</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_normalIters</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12527" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1affcb6f581b2e74db8296724f22116a6d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_outCreases</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outCreases</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_outCreases</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12528" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aeaa6568eb185e9886cf8f1ac8087c90e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DenoiseViaNormalsSettings::_offsetof_pointIters</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_pointIters</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings._offsetof_pointIters</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12529" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa18caeb330ec2e711eed59c8f25797d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12532" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12532" bodyend="12533"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52e2080eb0991668da746aaa6f9d9500" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DenoiseViaNormalsSettings" kindref="compound">DenoiseViaNormalsSettings</ref></type>
+        <definition> DenoiseViaNormalsSettings mrmeshpy.DenoiseViaNormalsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12536" bodyend="12537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52e2080eb0991668da746aaa6f9d9500" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DenoiseViaNormalsSettings" kindref="compound">DenoiseViaNormalsSettings</ref></type>
+        <definition> DenoiseViaNormalsSettings mrmeshpy.DenoiseViaNormalsSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12540" bodyend="12541"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a797d1f07a461065e2cf85b2b1e181885" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12543" bodyend="12544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aef30c98054d794f44a0f4792e4084d00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.__init__</definition>
+        <argsstring>(self, DenoiseViaNormalsSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DenoiseViaNormalsSettings" kindref="compound">DenoiseViaNormalsSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12546" bodyend="12549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae2123649d6b5f10b5e5e7fd7e8b8c423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.__init__</definition>
+        <argsstring>(self, bool fastIndicatorComputation, float beta, float gamma, int normalIters, int pointIters, float guideWeight, bool limitNearInitial, float maxInitialDist, UndirectedEdgeBitSet outCreases, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fastIndicatorComputation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>beta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>gamma</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>normalIters</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pointIters</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>guideWeight</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>limitNearInitial</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxInitialDist</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>outCreases</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12551" bodyend="12554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1af5048a8e4b0658932a0a9cf8c29ddd94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DenoiseViaNormalsSettings.beta</definition>
+        <argsstring>(self)</argsstring>
+        <name>beta</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.beta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>0.001 - sharp edges, 0.01 - moderate edges, 0.1 - smooth edges
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12556" bodyend="12559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae3eee48864cf58021494d889f7fec1d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.beta</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>beta</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.beta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12561" bodyend="12562"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a8d07d0681b5b2e2487e81cccac9656ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.DenoiseViaNormalsSettings.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to get the progress and optionally cancel
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12564" bodyend="12567"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ab87901157ea9051e5f91798daaea0eb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12569" bodyend="12570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa5797d1fbae08075274a0f0e409dc360" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DenoiseViaNormalsSettings.fastIndicatorComputation</definition>
+        <argsstring>(self)</argsstring>
+        <name>fastIndicatorComputation</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.fastIndicatorComputation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use approximated computation, which is much faster than precise solution
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12572" bodyend="12575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ac60bd8e5675b6ee2ede715fd4d3c3b50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.fastIndicatorComputation</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>fastIndicatorComputation</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.fastIndicatorComputation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12577" bodyend="12578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a6f1901e8b5e299a2537ab238a604b5ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DenoiseViaNormalsSettings.gamma</definition>
+        <argsstring>(self)</argsstring>
+        <name>gamma</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.gamma</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the amount of smoothing: 0 - no smoothing, 1 - average smoothing, ...
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12580" bodyend="12583"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae5e9a54d7b8a544d055e7e1e71e9e6c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.gamma</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>gamma</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.gamma</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12585" bodyend="12586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a7ed1247ea64ad5a4e6f3af63440f0169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DenoiseViaNormalsSettings.guideWeight</definition>
+        <argsstring>(self)</argsstring>
+        <name>guideWeight</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.guideWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>how much resulting points must be attracted to initial points (e.g. to avoid general shrinkage), must be &gt; 0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12588" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12588" bodyend="12591"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a95d62729daecce0e89a2888b56980cf7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.guideWeight</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>guideWeight</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.guideWeight</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12593" bodyend="12594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a02ca079cf9887b3c412466bdb5b9a92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DenoiseViaNormalsSettings.limitNearInitial</definition>
+        <argsstring>(self)</argsstring>
+        <name>limitNearInitial</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.limitNearInitial</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true then maximal displacement of each point during denoising will be limited
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12596" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12596" bodyend="12599"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a72f7cb6fefef150133d0779bdd49c602" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.limitNearInitial</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>limitNearInitial</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.limitNearInitial</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12601" bodyend="12602"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a05d4064de5a870189d43d5cf5ab0e226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DenoiseViaNormalsSettings.maxInitialDist</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxInitialDist</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.maxInitialDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum distance between a point and its position before relaxation, ignored if limitNearInitial = false
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12604" bodyend="12607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a958808ed612c5c0552c06d6357aab854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.maxInitialDist</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxInitialDist</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.maxInitialDist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12609" bodyend="12610"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a3a7f434e4ed01a910fe4d2cc6cd575f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DenoiseViaNormalsSettings.normalIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>normalIters</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.normalIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of iterations to smooth normals and find creases; the more the better quality, but longer computation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12612" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12612" bodyend="12615"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a63fdd6ccfa7822927d12db9c45e8f43c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.normalIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>normalIters</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.normalIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12617" bodyend="12618"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae0bd388b5d03dfb6dcf2c1ef87b94807" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.DenoiseViaNormalsSettings.outCreases</definition>
+        <argsstring>(self)</argsstring>
+        <name>outCreases</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.outCreases</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optionally returns creases found during smoothing
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12620" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12620" bodyend="12623"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adaaaa9c0ad82312e70ce2ae7cd388d4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.outCreases</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>outCreases</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.outCreases</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12625" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12625" bodyend="12626"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adc45f3635b80e176e93ee47f0e721c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DenoiseViaNormalsSettings.pointIters</definition>
+        <argsstring>(self)</argsstring>
+        <name>pointIters</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.pointIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the number of iterations to update vertex coordinates from found normals; the more the better quality, but longer computation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12628" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12628" bodyend="12631"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a24aabad66993c3b7286f13363359252e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DenoiseViaNormalsSettings.pointIters</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>pointIters</name>
+        <qualifiedname>mrmeshpy.DenoiseViaNormalsSettings.pointIters</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12633" bodyend="12634"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DenoiseViaNormalsSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DenoiseViaNormalsSettings</label>
+        <link refid="classmrmeshpy_1_1DenoiseViaNormalsSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_beta</edgelabel>
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_fastIndicatorComputation</edgelabel>
+          <edgelabel>_offsetof_gamma</edgelabel>
+          <edgelabel>_offsetof_guideWeight</edgelabel>
+          <edgelabel>_offsetof_limitNearInitial</edgelabel>
+          <edgelabel>_offsetof_maxInitialDist</edgelabel>
+          <edgelabel>_offsetof_normalIters</edgelabel>
+          <edgelabel>_offsetof_outCreases</edgelabel>
+          <edgelabel>_offsetof_pointIters</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12516" bodyend="12634"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa18caeb330ec2e711eed59c8f25797d5" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a797d1f07a461065e2cf85b2b1e181885" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aef30c98054d794f44a0f4792e4084d00" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae2123649d6b5f10b5e5e7fd7e8b8c423" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a365700e310f1cac92768833890203efe" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_beta</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a74868b00ba53d3c5e5048e66418370f0" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1abd1c648bbcfa596417adb1aaab3f9660" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_fastIndicatorComputation</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a9d730d225dc1555b69a050a9469bfd06" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_gamma</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52a952288336d3061cfb3c8bee5a75e8" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_guideWeight</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a5377fbc0f8916d4f01e83491b39328ff" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a23e9506986f4cbb43d6e08e2f42695e4" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_maxInitialDist</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adabe1335e3a088ed0939d8e1ec841e41" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_normalIters</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1affcb6f581b2e74db8296724f22116a6d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_outCreases</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aeaa6568eb185e9886cf8f1ac8087c90e" prot="protected" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>_offsetof_pointIters</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1af5048a8e4b0658932a0a9cf8c29ddd94" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>beta</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae3eee48864cf58021494d889f7fec1d9" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>beta</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a8d07d0681b5b2e2487e81cccac9656ab" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ab87901157ea9051e5f91798daaea0eb7" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1aa5797d1fbae08075274a0f0e409dc360" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>fastIndicatorComputation</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ac60bd8e5675b6ee2ede715fd4d3c3b50" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>fastIndicatorComputation</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a6f1901e8b5e299a2537ab238a604b5ce" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>gamma</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae5e9a54d7b8a544d055e7e1e71e9e6c0" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>gamma</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a7ed1247ea64ad5a4e6f3af63440f0169" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>guideWeight</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a95d62729daecce0e89a2888b56980cf7" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>guideWeight</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a02ca079cf9887b3c412466bdb5b9a92b" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a72f7cb6fefef150133d0779bdd49c602" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>limitNearInitial</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a05d4064de5a870189d43d5cf5ab0e226" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>maxInitialDist</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a958808ed612c5c0552c06d6357aab854" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>maxInitialDist</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a3a7f434e4ed01a910fe4d2cc6cd575f1" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>normalIters</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a63fdd6ccfa7822927d12db9c45e8f43c" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>normalIters</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52e2080eb0991668da746aaa6f9d9500" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a52e2080eb0991668da746aaa6f9d9500" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1ae0bd388b5d03dfb6dcf2c1ef87b94807" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>outCreases</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adaaaa9c0ad82312e70ce2ae7cd388d4f" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>outCreases</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1adc45f3635b80e176e93ee47f0e721c2b" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>pointIters</name></member>
+      <member refid="classmrmeshpy_1_1DenoiseViaNormalsSettings_1a24aabad66993c3b7286f13363359252e" prot="public" virt="non-virtual"><scope>mrmeshpy::DenoiseViaNormalsSettings</scope><name>pointIters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

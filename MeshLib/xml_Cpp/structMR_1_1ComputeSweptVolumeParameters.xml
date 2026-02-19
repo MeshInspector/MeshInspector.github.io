@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ComputeSweptVolumeParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ComputeSweptVolumeParameters</compoundname>
+    <includes refid="MRSweptVolume_8h" local="no">MRSweptVolume.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga30734a48ed1db5decfd6bc50b5e5a9c6" kind="variable"><name>path</name></member>
+      <member refid="group__GeneralGroup_1gaa31ab5fc3b9d49a142a4879771d70f71" kind="variable"><name>toolMesh</name></member>
+      <member refid="group__GeneralGroup_1ga1dd7253af2235866a183bfa91f3aca3e" kind="variable"><name>toolSpec</name></member>
+      <member refid="group__GeneralGroup_1ga1234a4f577e760334131d6161b7c68ca" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga4cbfdf9b6dd57369b2f808629eb3a4a4" kind="variable"><name>memoryLimit</name></member>
+      <member refid="group__GeneralGroup_1ga710c3b728313851d1a392af1f9514232" kind="variable"><name>cb</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters for computeSweptVolume* functions. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ComputeSweptVolumeParameters</label>
+        <link refid="structMR_1_1ComputeSweptVolumeParameters"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>toolSpec</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::EndMillCutter</label>
+        <link refid="structMR_1_1EndMillCutter"/>
+      </node>
+      <node id="2">
+        <label>MR::EndMillTool</label>
+        <link refid="structMR_1_1EndMillTool"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>cutter</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" line="26" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRSweptVolume.h" bodystart="27" bodyend="43"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga710c3b728313851d1a392af1f9514232" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga4cbfdf9b6dd57369b2f808629eb3a4a4" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>memoryLimit</name></member>
+      <member refid="group__GeneralGroup_1ga30734a48ed1db5decfd6bc50b5e5a9c6" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>path</name></member>
+      <member refid="group__GeneralGroup_1gaa31ab5fc3b9d49a142a4879771d70f71" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>toolMesh</name></member>
+      <member refid="group__GeneralGroup_1ga1dd7253af2235866a183bfa91f3aca3e" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>toolSpec</name></member>
+      <member refid="group__GeneralGroup_1ga1234a4f577e760334131d6161b7c68ca" prot="public" virt="non-virtual"><scope>MR::ComputeSweptVolumeParameters</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

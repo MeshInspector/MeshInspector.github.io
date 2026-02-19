@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointsToDistanceVolumeParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointsToDistanceVolumeParams</compoundname>
+    <basecompoundref refid="structMR_1_1DistanceVolumeParams" prot="public" virt="non-virtual">MR::DistanceVolumeParams</basecompoundref>
+    <includes refid="MRPointsToDistanceVolume_8h" local="no">MRPointsToDistanceVolume.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga400737e4e31275ad8d54da9d1c2fc611" kind="variable"><name>sigma</name></member>
+      <member refid="group__GeneralGroup_1ga7716b4700ce22b3eedf9da8864d8480f" kind="variable"><name>minWeight</name></member>
+      <member refid="group__GeneralGroup_1ga92d4aead46ac278be1c9152c417996d2" kind="variable"><name>invSigmaModifier</name></member>
+      <member refid="group__GeneralGroup_1ga274559a52cc5261e0889ea85b133b605" kind="variable"><name>sqrtAngleWeight</name></member>
+      <member refid="group__GeneralGroup_1ga6253a7998223b8c2a5fffd0092b5883b" kind="variable"><name>ptNormals</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::DistanceVolumeParams</label>
+        <link refid="structMR_1_1DistanceVolumeParams"/>
+      </node>
+      <node id="1">
+        <label>MR::PointsToDistanceVolumeParams</label>
+        <link refid="structMR_1_1PointsToDistanceVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::DistanceVolumeParams</label>
+        <link refid="structMR_1_1DistanceVolumeParams"/>
+      </node>
+      <node id="1">
+        <label>MR::PointsToDistanceVolumeParams</label>
+        <link refid="structMR_1_1PointsToDistanceVolumeParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRPointsToDistanceVolume.h" bodystart="16" bodyend="34"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga920081c5dce988d2f087b470ea72803a" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1gade7c79fd5b25f3a928fa747f8e6d61d2" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>dimensions</name></member>
+      <member refid="group__GeneralGroup_1ga92d4aead46ac278be1c9152c417996d2" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>invSigmaModifier</name></member>
+      <member refid="group__GeneralGroup_1ga7716b4700ce22b3eedf9da8864d8480f" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>minWeight</name></member>
+      <member refid="group__GeneralGroup_1ga57f0f5741fc414817c5c20a26970ec30" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>origin</name></member>
+      <member refid="group__GeneralGroup_1ga6253a7998223b8c2a5fffd0092b5883b" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>ptNormals</name></member>
+      <member refid="group__GeneralGroup_1ga400737e4e31275ad8d54da9d1c2fc611" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>sigma</name></member>
+      <member refid="group__GeneralGroup_1ga274559a52cc5261e0889ea85b133b605" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>sqrtAngleWeight</name></member>
+      <member refid="group__GeneralGroup_1ga1cb9a2d437a8280082f79d22a1fd1ab4" prot="public" virt="non-virtual"><scope>MR::PointsToDistanceVolumeParams</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

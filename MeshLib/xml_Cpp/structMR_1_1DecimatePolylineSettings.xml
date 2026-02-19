@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DecimatePolylineSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DecimatePolylineSettings</compoundname>
+    <includes refid="MRPolylineDecimate_8h" local="no">MRPolylineDecimate.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga53477903f660597feae1534ecba5ce74" kind="variable"><name>maxError</name></member>
+      <member refid="group__GeneralGroup_1gac197ac53747aee8558fe409834910a4a" kind="variable"><name>maxEdgeLen</name></member>
+      <member refid="group__GeneralGroup_1ga68c78013b24475c60475093e77bbdeff" kind="variable"><name>stabilizer</name></member>
+      <member refid="group__GeneralGroup_1ga041fda2a9c1b5df5de8cb74bacbd7ff1" kind="variable"><name>optimizeVertexPos</name></member>
+      <member refid="group__GeneralGroup_1ga58d4128740b065b31e9b4d1b637bc0c7" kind="variable"><name>maxDeletedVertices</name></member>
+      <member refid="group__GeneralGroup_1gadce38a07b8b04db0fe998e792e4a6e34" kind="variable"><name>region</name></member>
+      <member refid="group__GeneralGroup_1gaf5825891f4645db66db82c3b6aa2cffe" kind="variable"><name>touchBdVertices</name></member>
+      <member refid="group__GeneralGroup_1gae829d8045ed74bf373bd86f2d835151a" kind="variable"><name>preCollapse</name></member>
+      <member refid="group__GeneralGroup_1gad58496f8458d8d5a517ba34926cb0c61" kind="variable"><name>adjustCollapse</name></member>
+      <member refid="group__GeneralGroup_1ga3b25e672e4446e2af56927c0cf0237db" kind="variable"><name>vertForms</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters structure for <ref refid="group__DecimateGroup_1gaf0964e80dba508fbc0d34272d3192cb8" kindref="member">MR::decimatePolyline</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para><ref refid="group__DecimateGroup_1gaf0964e80dba508fbc0d34272d3192cb8" kindref="member">decimatePolyline</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::DecimatePolylineSettings&lt; V &gt;</label>
+        <link refid="structMR_1_1DecimatePolylineSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vertForms</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; MR::QuadraticForm&lt; V &gt;, VertId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineDecimate.h" line="22" column="1"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad58496f8458d8d5a517ba34926cb0c61" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>adjustCollapse</name></member>
+      <member refid="group__GeneralGroup_1ga58d4128740b065b31e9b4d1b637bc0c7" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>maxDeletedVertices</name></member>
+      <member refid="group__GeneralGroup_1gac197ac53747aee8558fe409834910a4a" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="group__GeneralGroup_1ga53477903f660597feae1534ecba5ce74" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>maxError</name></member>
+      <member refid="group__GeneralGroup_1ga041fda2a9c1b5df5de8cb74bacbd7ff1" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>optimizeVertexPos</name></member>
+      <member refid="group__GeneralGroup_1gae829d8045ed74bf373bd86f2d835151a" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>preCollapse</name></member>
+      <member refid="group__GeneralGroup_1gadce38a07b8b04db0fe998e792e4a6e34" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga68c78013b24475c60475093e77bbdeff" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>stabilizer</name></member>
+      <member refid="group__GeneralGroup_1gaf5825891f4645db66db82c3b6aa2cffe" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>touchBdVertices</name></member>
+      <member refid="group__GeneralGroup_1ga3b25e672e4446e2af56927c0cf0237db" prot="public" virt="non-virtual"><scope>MR::DecimatePolylineSettings</scope><name>vertForms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -16,6 +16,7 @@ var structMR_1_1Vector2 =
     [ "operator[]", "structMR_1_1Vector2.html#ac44db7ddb1694b996824036c9f755b9e", null ],
     [ "perpendicular", "structMR_1_1Vector2.html#a7482d5a8c34fc5f6af7a5036b9d43c1c", null ],
     [ "angle", "structMR_1_1Vector2.html#af97f888d41c35987fa2e24cfdf696621", null ],
+    [ "begin", "structMR_1_1Vector2.html#a14144bf50dd7436a833a9ad74fab0fdb", null ],
     [ "cross", "structMR_1_1Vector2.html#a07bafe90fc0230d0cef79991e7858dff", null ],
     [ "distance", "structMR_1_1Vector2.html#a847fe803c44c19055d0a15eca838df52", null ],
     [ "distanceSq", "structMR_1_1Vector2.html#a7be48c5d4180d89d8038acede661911e", null ],

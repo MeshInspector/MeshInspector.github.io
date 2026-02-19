@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangePointCloudPointsAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangePointCloudPointsAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1a67e88a8c92bb600759fbc68b7404962b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.ChangePointCloudPointsAction::Obj</definition>
+        <argsstring></argsstring>
+        <name>Obj</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.Obj</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8670" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8670" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1a470fa7eb6eeba79f9d3c767be8e1c146" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointCloudPointsAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8673" bodyend="8674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1a767c6bbf1f0b6c6879ffb2e72c702f01" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointCloudPointsAction.action</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>*</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8676" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8676" bodyend="8677"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1addb97c7ef77f79696add1568977c2a57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangePointCloudPointsAction" kindref="compound">ChangePointCloudPointsAction</ref></type>
+        <definition> ChangePointCloudPointsAction mrmeshpy.ChangePointCloudPointsAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8680" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8680" bodyend="8681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1addb97c7ef77f79696add1568977c2a57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangePointCloudPointsAction" kindref="compound">ChangePointCloudPointsAction</ref></type>
+        <definition> ChangePointCloudPointsAction mrmeshpy.ChangePointCloudPointsAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8684" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8684" bodyend="8685"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1a0910571047a400e6ff1e752749f29556" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointCloudPointsAction.setObjectDirty</definition>
+        <argsstring>(ObjectPoints obj)</argsstring>
+        <name>setObjectDirty</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.setObjectDirty</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8687" bodyend="8688"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1a6545c45a1dad526acc18a89f3121a527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointCloudPointsAction.__init__</definition>
+        <argsstring>(self, str name, ObjectPoints obj)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s points field before making any changes in it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8690" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8690" bodyend="8693"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1aa465cb0dc83f0ead4925fcfd188ba359" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointCloudPointsAction.__init__</definition>
+        <argsstring>(self, str name, ObjectPoints obj, VertCoords newPoints)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectPoints" kindref="compound">ObjectPoints</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>newPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>use this constructor to remember object&apos;s points field and immediate set new value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8695" bodyend="8698"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1a2aafa2d5e576afed619536951fa4d9cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangePointCloudPointsAction.__init__</definition>
+        <argsstring>(self, ChangePointCloudPointsAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangePointCloudPointsAction" kindref="compound">ChangePointCloudPointsAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8700" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8700" bodyend="8703"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1abb77515de776b5251e32a5266811366f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangePointCloudPointsAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8704" bodyend="8705"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangePointCloudPointsAction_1a74dffb3389b7ae08adcf113735a47ab2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangePointCloudPointsAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangePointCloudPointsAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8706" bodyend="8707"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangePointCloudPointsAction
+
+Undo action for points field inside ObjectPoints
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangePointCloudPointsAction</label>
+        <link refid="classmrmeshpy_1_1ChangePointCloudPointsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangePointCloudPointsAction</label>
+        <link refid="classmrmeshpy_1_1ChangePointCloudPointsAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8664" bodyend="8707"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1a470fa7eb6eeba79f9d3c767be8e1c146" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1a6545c45a1dad526acc18a89f3121a527" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1aa465cb0dc83f0ead4925fcfd188ba359" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1a2aafa2d5e576afed619536951fa4d9cc" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1a767c6bbf1f0b6c6879ffb2e72c702f01" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1abb77515de776b5251e32a5266811366f" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1a74dffb3389b7ae08adcf113735a47ab2" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1a67e88a8c92bb600759fbc68b7404962b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>Obj</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1addb97c7ef77f79696add1568977c2a57" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1addb97c7ef77f79696add1568977c2a57" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangePointCloudPointsAction_1a0910571047a400e6ff1e752749f29556" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangePointCloudPointsAction</scope><name>setObjectDirty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

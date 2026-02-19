@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ConeFitterType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ConeFitterType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConeFitterType_1abe9b773cd43b3c1ef7852b3879312860" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ConeFitterType::ApproximationPCM</definition>
+        <argsstring></argsstring>
+        <name>ApproximationPCM</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.ApproximationPCM</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ConeFitterType" kindref="compound">ConeFitterType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConeFitterType_1a7093caf37dd7f4cca64d9455954f13aa" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ConeFitterType::HemisphereSearchFit</definition>
+        <argsstring></argsstring>
+        <name>HemisphereSearchFit</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.HemisphereSearchFit</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ConeFitterType" kindref="compound">ConeFitterType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10429" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10429" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConeFitterType_1abd4083117fa27c4460733ba79cb1076c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ConeFitterType::SpecificAxisFit</definition>
+        <argsstring></argsstring>
+        <name>SpecificAxisFit</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.SpecificAxisFit</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1ConeFitterType" kindref="compound">ConeFitterType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10430" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ConeFitterType_1a86fd6b2678f96acdcda54887d08cfd38" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ConeFitterType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1ConeFitterType" kindref="compound">ConeFitterType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10431" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a22dd0cdc638fe1c0dba1c152d6d979f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ConeFitterType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10432" bodyend="10433"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1aaaeff4e1664ed60c6335ab0f8dd8c1d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ConeFitterType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10434" bodyend="10435"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a6dbd5364ba53371b5634311092008b3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ConeFitterType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10436" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10436" bodyend="10437"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a896c125d665ea7ac5f503b7a12ca0568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ConeFitterType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10438" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10438" bodyend="10439"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1aa2abb267f3a7c85a2b91bdf231f818ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConeFitterType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10440" bodyend="10441"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a4a4bf6d8da8a278a8a6670167d21d7d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ConeFitterType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10442" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10442" bodyend="10443"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a13af4c3326cc9c32ea4fdc3f15b96206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ConeFitterType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10444" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10444" bodyend="10445"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a4d2fbcab84c1633d2979a2e7a2160fca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ConeFitterType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10446" bodyend="10447"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a01fe4df78766ced4a674ee48dfe2cc19" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ConeFitterType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10448" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10448" bodyend="10449"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a02c23e45c5e30d0f58b6faeb35985ef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ConeFitterType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10450" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10450" bodyend="10451"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a95af81b4b8c4a05b6454fcbc8720f39b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ConeFitterType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10453" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10453" bodyend="10454"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ConeFitterType_1a660d547e061f3aebcea9f12b96674126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ConeFitterType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.ConeFitterType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10456" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10456" bodyend="10457"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  ApproximationPCM : approximation of cone axis by principal component method
+
+  HemisphereSearchFit
+
+  SpecificAxisFit
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ConeFitterType</label>
+        <link refid="classmrmeshpy_1_1ConeFitterType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>ApproximationPCM</edgelabel>
+          <edgelabel>HemisphereSearchFit</edgelabel>
+          <edgelabel>SpecificAxisFit</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10418" bodyend="10457"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a22dd0cdc638fe1c0dba1c152d6d979f0" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1aaaeff4e1664ed60c6335ab0f8dd8c1d5" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a6dbd5364ba53371b5634311092008b3a" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a896c125d665ea7ac5f503b7a12ca0568" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1aa2abb267f3a7c85a2b91bdf231f818ea" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a4a4bf6d8da8a278a8a6670167d21d7d3" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a86fd6b2678f96acdcda54887d08cfd38" prot="private" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a13af4c3326cc9c32ea4fdc3f15b96206" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a4d2fbcab84c1633d2979a2e7a2160fca" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a01fe4df78766ced4a674ee48dfe2cc19" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a02c23e45c5e30d0f58b6faeb35985ef7" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1abe9b773cd43b3c1ef7852b3879312860" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>ApproximationPCM</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a7093caf37dd7f4cca64d9455954f13aa" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>HemisphereSearchFit</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a95af81b4b8c4a05b6454fcbc8720f39b" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1abd4083117fa27c4460733ba79cb1076c" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>SpecificAxisFit</name></member>
+      <member refid="classmrmeshpy_1_1ConeFitterType_1a660d547e061f3aebcea9f12b96674126" prot="public" virt="non-virtual"><scope>mrmeshpy::ConeFitterType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

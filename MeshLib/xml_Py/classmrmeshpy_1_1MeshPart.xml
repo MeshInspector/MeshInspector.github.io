@@ -1,0 +1,230 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshPart" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshPart</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshPart_1afd606e4f3b9469389975d130e88efda4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshPart::_offsetof_mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mesh</name>
+        <qualifiedname>mrmeshpy.MeshPart._offsetof_mesh</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshPart_1ab48a1361aff52abe9c3589846bbffde5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshPart::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.MeshPart._offsetof_region</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33770" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshPart_1a966ddc72fd2cb28aa6f0171dca72d711" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshPart.__init__</definition>
+        <argsstring>(self, Mesh m, FaceBitSet bs=None)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshPart.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>m</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>bs</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33772" bodyend="33773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshPart_1ab50ef57d766b05317d85ad9ff5c25c3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshPart.__init__</definition>
+        <argsstring>(self, MeshPart arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshPart.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33775" bodyend="33778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshPart_1ae52a482be1c54fc6a4d27e46740400c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshPart.__init__</definition>
+        <argsstring>(self, MeshPart other)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshPart.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Make this assignable. A better idea would be to rewrite the class to not use references, but doing this instead preserves API compatibility.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33780" bodyend="33783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshPart_1a502508ef9bfd2a6634c1f6051c8d5149" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+        <definition> MeshPart mrmeshpy.MeshPart.operator</definition>
+        <argsstring>(self, MeshPart other)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshPart.operator</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshPart" kindref="compound">MeshPart</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33784" bodyend="33785"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshPart_1ad94ce5328bed14fff260240ac2476a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.MeshPart.mesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>mesh</name>
+        <qualifiedname>mrmeshpy.MeshPart.mesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33787" bodyend="33788"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshPart_1ae56eefb39727abf21774428ed2d7a0b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.MeshPart.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.MeshPart.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>nullptr here means whole mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33790" bodyend="33793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshPart_1a91ec7ff9af4d0025ba31247e94922d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshPart.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.MeshPart.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33795" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33795" bodyend="33796"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshPart
+
+stores reference on whole mesh (if region is nullptr) or on its part (if region pointer is valid)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshPart</label>
+        <link refid="classmrmeshpy_1_1MeshPart"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_mesh</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="33763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="33763" bodyend="33796"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshPart_1a966ddc72fd2cb28aa6f0171dca72d711" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshPart</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshPart_1ab50ef57d766b05317d85ad9ff5c25c3d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshPart</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshPart_1ae52a482be1c54fc6a4d27e46740400c7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshPart</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshPart_1afd606e4f3b9469389975d130e88efda4" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshPart</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshPart_1ab48a1361aff52abe9c3589846bbffde5" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshPart</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1MeshPart_1ad94ce5328bed14fff260240ac2476a12" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshPart</scope><name>mesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshPart_1a502508ef9bfd2a6634c1f6051c8d5149" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshPart</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshPart_1ae56eefb39727abf21774428ed2d7a0b3" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshPart</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1MeshPart_1a91ec7ff9af4d0025ba31247e94922d76" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshPart</scope><name>region</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

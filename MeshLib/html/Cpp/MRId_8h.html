@@ -152,7 +152,7 @@ $(function(){initNavTree('MRId_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRId.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;MRMeshFwd.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRMacros_8h_source.html">MRMacros.h</a>&quot;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
 <code>#include &lt;cstddef&gt;</code><br />
@@ -164,8 +164,10 @@ $(function(){initNavTree('MRId_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Id.html">MR::Id&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores index of some element, it is made as template class to avoid mixing faces, edges and vertices  <a href="classMR_1_1Id.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1NoInitId.html">MR::NoInitId&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variant of Id&lt;T&gt; with omitted initialization by default. Useful for containers.  <a href="classMR_1_1NoInitId.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1Id_3_01EdgeTag_01_4.html">MR::Id&lt; EdgeTag &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,38 +177,39 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a431af2072742e04e253f3c9d62962f77" id="r_a431af2072742e04e253f3c9d62962f77"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a431af2072742e04e253f3c9d62962f77"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a431af2072742e04e253f3c9d62962f77">MR::operator+</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, int a)</td></tr>
-<tr class="separator:a431af2072742e04e253f3c9d62962f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ab1ddfa8621958cde8c0dd267bc9d30" id="r_a9ab1ddfa8621958cde8c0dd267bc9d30"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9ab1ddfa8621958cde8c0dd267bc9d30"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a9ab1ddfa8621958cde8c0dd267bc9d30">MR::operator+</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, unsigned int a)</td></tr>
-<tr class="separator:a9ab1ddfa8621958cde8c0dd267bc9d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8f6d92e5834f22ab7bccb2f976bc9c4" id="r_ab8f6d92e5834f22ab7bccb2f976bc9c4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ab8f6d92e5834f22ab7bccb2f976bc9c4"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ab8f6d92e5834f22ab7bccb2f976bc9c4">MR::operator+</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, size_t a)</td></tr>
-<tr class="separator:ab8f6d92e5834f22ab7bccb2f976bc9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57aee9f1f7e0d5ef7240fcb8513963ac" id="r_a57aee9f1f7e0d5ef7240fcb8513963ac"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a57aee9f1f7e0d5ef7240fcb8513963ac"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a57aee9f1f7e0d5ef7240fcb8513963ac">MR::operator-</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, int a)</td></tr>
-<tr class="separator:a57aee9f1f7e0d5ef7240fcb8513963ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebe0d51098b225270ab37ed57b329648" id="r_aebe0d51098b225270ab37ed57b329648"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aebe0d51098b225270ab37ed57b329648"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aebe0d51098b225270ab37ed57b329648">MR::operator-</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, unsigned int a)</td></tr>
-<tr class="separator:aebe0d51098b225270ab37ed57b329648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac109a0388ac45fa4689b36534d58a8e" id="r_aac109a0388ac45fa4689b36534d58a8e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:aac109a0388ac45fa4689b36534d58a8e"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aac109a0388ac45fa4689b36534d58a8e">MR::operator-</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, size_t a)</td></tr>
-<tr class="separator:aac109a0388ac45fa4689b36534d58a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c14c4b422f53d6aed87261063ce34fb" id="r_a1c14c4b422f53d6aed87261063ce34fb"><td class="memItemLeft" align="right" valign="top">constexpr <a class="elRef" href="../Csharp/structMR_1_1FaceId.html">FaceId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1c14c4b422f53d6aed87261063ce34fb">MR::operator&quot;&quot;_f</a> (unsigned long long i) noexcept</td></tr>
-<tr class="separator:a1c14c4b422f53d6aed87261063ce34fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfa3e3d061131b3efaefe97bea3c03ff" id="r_acfa3e3d061131b3efaefe97bea3c03ff"><td class="memItemLeft" align="right" valign="top">constexpr <a class="elRef" href="../Csharp/structMR_1_1VertId.html">VertId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acfa3e3d061131b3efaefe97bea3c03ff">MR::operator&quot;&quot;_v</a> (unsigned long long i) noexcept</td></tr>
-<tr class="separator:acfa3e3d061131b3efaefe97bea3c03ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaabec0b590b199d56d36804df0255a3b" id="r_aaabec0b590b199d56d36804df0255a3b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="elRef" href="../Csharp/structMR_1_1EdgeId.html">EdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#aaabec0b590b199d56d36804df0255a3b">MR::operator&quot;&quot;_e</a> (unsigned long long i) noexcept</td></tr>
-<tr class="separator:aaabec0b590b199d56d36804df0255a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0820efd8a0fb59fdacc1b48836994041" id="r_a0820efd8a0fb59fdacc1b48836994041"><td class="memItemLeft" align="right" valign="top">constexpr <a class="elRef" href="../Csharp/structMR_1_1UndirectedEdgeId.html">UndirectedEdgeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a0820efd8a0fb59fdacc1b48836994041">MR::operator&quot;&quot;_ue</a> (unsigned long long i) noexcept</td></tr>
-<tr class="separator:a0820efd8a0fb59fdacc1b48836994041"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c846a23a00296bb3205029a07c86bac" id="r_a4c846a23a00296bb3205029a07c86bac"><td class="memItemLeft" align="right" valign="top">constexpr <a class="elRef" href="../Csharp/structMR_1_1VoxelId.html">VoxelId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a4c846a23a00296bb3205029a07c86bac">MR::operator&quot;&quot;_vox</a> (unsigned long long i) noexcept</td></tr>
-<tr class="separator:a4c846a23a00296bb3205029a07c86bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga431af2072742e04e253f3c9d62962f77" id="r_ga431af2072742e04e253f3c9d62962f77"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga431af2072742e04e253f3c9d62962f77"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga431af2072742e04e253f3c9d62962f77">MR::operator+</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, int a)</td></tr>
+<tr class="separator:ga431af2072742e04e253f3c9d62962f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9ab1ddfa8621958cde8c0dd267bc9d30" id="r_ga9ab1ddfa8621958cde8c0dd267bc9d30"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga9ab1ddfa8621958cde8c0dd267bc9d30"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9ab1ddfa8621958cde8c0dd267bc9d30">MR::operator+</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, unsigned int a)</td></tr>
+<tr class="separator:ga9ab1ddfa8621958cde8c0dd267bc9d30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab8f6d92e5834f22ab7bccb2f976bc9c4" id="r_gab8f6d92e5834f22ab7bccb2f976bc9c4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gab8f6d92e5834f22ab7bccb2f976bc9c4"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab8f6d92e5834f22ab7bccb2f976bc9c4">MR::operator+</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, size_t a)</td></tr>
+<tr class="separator:gab8f6d92e5834f22ab7bccb2f976bc9c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga57aee9f1f7e0d5ef7240fcb8513963ac" id="r_ga57aee9f1f7e0d5ef7240fcb8513963ac"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga57aee9f1f7e0d5ef7240fcb8513963ac"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga57aee9f1f7e0d5ef7240fcb8513963ac">MR::operator-</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, int a)</td></tr>
+<tr class="separator:ga57aee9f1f7e0d5ef7240fcb8513963ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaebe0d51098b225270ab37ed57b329648" id="r_gaebe0d51098b225270ab37ed57b329648"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaebe0d51098b225270ab37ed57b329648"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaebe0d51098b225270ab37ed57b329648">MR::operator-</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, unsigned int a)</td></tr>
+<tr class="separator:gaebe0d51098b225270ab37ed57b329648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaac109a0388ac45fa4689b36534d58a8e" id="r_gaac109a0388ac45fa4689b36534d58a8e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:gaac109a0388ac45fa4689b36534d58a8e"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaac109a0388ac45fa4689b36534d58a8e">MR::operator-</a> (<a class="el" href="classMR_1_1Id.html">Id</a>&lt; T &gt; id, size_t a)</td></tr>
+<tr class="separator:gaac109a0388ac45fa4689b36534d58a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c14c4b422f53d6aed87261063ce34fb" id="r_ga1c14c4b422f53d6aed87261063ce34fb"><td class="memItemLeft" align="right" valign="top">constexpr FaceId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1c14c4b422f53d6aed87261063ce34fb">MR::operator&quot;&quot;_f</a> (unsigned long long i) noexcept</td></tr>
+<tr class="separator:ga1c14c4b422f53d6aed87261063ce34fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacfa3e3d061131b3efaefe97bea3c03ff" id="r_gacfa3e3d061131b3efaefe97bea3c03ff"><td class="memItemLeft" align="right" valign="top">constexpr VertId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gacfa3e3d061131b3efaefe97bea3c03ff">MR::operator&quot;&quot;_v</a> (unsigned long long i) noexcept</td></tr>
+<tr class="separator:gacfa3e3d061131b3efaefe97bea3c03ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaaabec0b590b199d56d36804df0255a3b" id="r_gaaabec0b590b199d56d36804df0255a3b"><td class="memItemLeft" align="right" valign="top">constexpr EdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaaabec0b590b199d56d36804df0255a3b">MR::operator&quot;&quot;_e</a> (unsigned long long i) noexcept</td></tr>
+<tr class="separator:gaaabec0b590b199d56d36804df0255a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0820efd8a0fb59fdacc1b48836994041" id="r_ga0820efd8a0fb59fdacc1b48836994041"><td class="memItemLeft" align="right" valign="top">constexpr UndirectedEdgeId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0820efd8a0fb59fdacc1b48836994041">MR::operator&quot;&quot;_ue</a> (unsigned long long i) noexcept</td></tr>
+<tr class="separator:ga0820efd8a0fb59fdacc1b48836994041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga4c846a23a00296bb3205029a07c86bac" id="r_ga4c846a23a00296bb3205029a07c86bac"><td class="memItemLeft" align="right" valign="top">constexpr VoxelId&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga4c846a23a00296bb3205029a07c86bac">MR::operator&quot;&quot;_vox</a> (unsigned long long i) noexcept</td></tr>
+<tr class="separator:ga4c846a23a00296bb3205029a07c86bac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

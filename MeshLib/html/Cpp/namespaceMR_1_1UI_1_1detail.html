@@ -148,15 +148,17 @@ $(function(){initNavTree('namespaceMR_1_1UI_1_1detail.html',''); initResizable(t
   <div class="summary">
 <a href="#concepts">Concepts</a> &#124;
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">MR::UI::detail Namespace Reference</div></div>
+  <div class="headertitle"><div class="title">MR::UI::detail Namespace Reference<div class="ingroups"><a class="el" href="group__GeneralGroup.html">GeneralGroup</a></div></div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="concepts" name="concepts"></a>
 Concepts</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1Scalar.html">Scalar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether <code>T</code> is a scalar type that we can use with our widgets. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1VectorOrScalar.html">VectorOrScalar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether <code>T</code> is a scalar or vector that we can use with our widgets. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">concept &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="conceptMR_1_1UI_1_1detail_1_1ValidBoundForTargetType.html">ValidBoundForTargetType</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,119 +167,16 @@ Concepts</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a725a5cb7e447bbae4a1ae586a0f981d9" id="r_a725a5cb7e447bbae4a1ae586a0f981d9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a725a5cb7e447bbae4a1ae586a0f981d9">setScale</a> (float newScale)</td></tr>
-<tr class="separator:a725a5cb7e447bbae4a1ae586a0f981d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94d9e7cba8a9ce853aeee7b29b563391" id="r_a94d9e7cba8a9ce853aeee7b29b563391"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94d9e7cba8a9ce853aeee7b29b563391">genericSlider</a> (const char *label, ImGuiDataType data_type, void *p_data, const void *p_min, const void *p_max, const char *format, ImGuiSliderFlags flags)</td></tr>
-<tr class="separator:a94d9e7cba8a9ce853aeee7b29b563391"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab56fe865a416552aa6f504ce57514ae3" id="r_ab56fe865a416552aa6f504ce57514ae3"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, VectorOrScalar T, typename F &gt; </td></tr>
-<tr class="memitem:ab56fe865a416552aa6f504ce57514ae3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#ab56fe865a416552aa6f504ce57514ae3">unitWidget</a> (const char *label, T &amp;v, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;unitParams, F &amp;&amp;func)</td></tr>
-<tr class="separator:ab56fe865a416552aa6f504ce57514ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga725a5cb7e447bbae4a1ae586a0f981d9" id="r_ga725a5cb7e447bbae4a1ae586a0f981d9"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga725a5cb7e447bbae4a1ae586a0f981d9">setScale</a> (float newScale)</td></tr>
+<tr class="memdesc:ga725a5cb7e447bbae4a1ae586a0f981d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Strictly for internal use. Updates the value that <code><a class="el" href="group__GeneralGroup.html#ga5d2fd1d58ef16bcced4cfefc67d2c023" title="Returns the global UI scale. Use this instead of passing around the scale in parameters.">scale()</a></code> returns.  <br /></td></tr>
+<tr class="separator:ga725a5cb7e447bbae4a1ae586a0f981d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga94d9e7cba8a9ce853aeee7b29b563391" id="r_ga94d9e7cba8a9ce853aeee7b29b563391"><td class="memItemLeft" align="right" valign="top">MRVIEWER_API bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga94d9e7cba8a9ce853aeee7b29b563391">genericSlider</a> (const char *label, ImGuiDataType data_type, void *p_data, const void *p_min, const void *p_max, const char *format, ImGuiSliderFlags flags)</td></tr>
+<tr class="memdesc:ga94d9e7cba8a9ce853aeee7b29b563391"><td class="mdescLeft">&#160;</td><td class="mdescRight">A type-erased slider.  <br /></td></tr>
+<tr class="separator:ga94d9e7cba8a9ce853aeee7b29b563391"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab56fe865a416552aa6f504ce57514ae3" id="r_gab56fe865a416552aa6f504ce57514ae3"><td class="memTemplParams" colspan="2">template&lt;UnitEnum E, VectorOrScalar T, typename F &gt; </td></tr>
+<tr class="memitem:gab56fe865a416552aa6f504ce57514ae3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gab56fe865a416552aa6f504ce57514ae3">unitWidget</a> (const char *label, T &amp;v, <a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;unitParams, F &amp;&amp;func)</td></tr>
+<tr class="separator:gab56fe865a416552aa6f504ce57514ae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a94d9e7cba8a9ce853aeee7b29b563391" name="a94d9e7cba8a9ce853aeee7b29b563391"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94d9e7cba8a9ce853aeee7b29b563391">&#9670;&#160;</a></span>genericSlider()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API bool MR::UI::detail::genericSlider </td>
-          <td>(</td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ImGuiDataType</td>          <td class="paramname"><span class="paramname"><em>data_type</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">void *</td>          <td class="paramname"><span class="paramname"><em>p_data</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>p_min</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const void *</td>          <td class="paramname"><span class="paramname"><em>p_max</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>format</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ImGuiSliderFlags</td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a725a5cb7e447bbae4a1ae586a0f981d9" name="a725a5cb7e447bbae4a1ae586a0f981d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a725a5cb7e447bbae4a1ae586a0f981d9">&#9670;&#160;</a></span>setScale()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MRVIEWER_API void MR::UI::detail::setScale </td>
-          <td>(</td>
-          <td class="paramtype">float</td>          <td class="paramname"><span class="paramname"><em>newScale</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab56fe865a416552aa6f504ce57514ae3" name="ab56fe865a416552aa6f504ce57514ae3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab56fe865a416552aa6f504ce57514ae3">&#9670;&#160;</a></span>unitWidget()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;UnitEnum E, VectorOrScalar T, typename F &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool MR::UI::detail::unitWidget </td>
-          <td>(</td>
-          <td class="paramtype">const char *</td>          <td class="paramname"><span class="paramname"><em>label</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">T &amp;</td>          <td class="paramname"><span class="paramname"><em>v</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="structMR_1_1UnitToStringParams.html">UnitToStringParams</a>&lt; E &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>unitParams</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">F &amp;&amp;</td>          <td class="paramname"><span class="paramname"><em>func</em></span>&#160;)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">nodiscard</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

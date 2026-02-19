@@ -152,7 +152,8 @@ $(function(){initNavTree('MRVector_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRVector.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMeshFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="MRMacros_8h_source.html">MRMacros.h</a>&quot;</code><br />
+<code>#include &quot;MRMeshFwd.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRResizeNoInit_8h_source.html">MRResizeNoInit.h</a>&quot;</code><br />
 <code>#include &quot;MRPch/MRBindingMacros.h&quot;</code><br />
 <code>#include &lt;cassert&gt;</code><br />
@@ -168,30 +169,31 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6194557288baf07b8b61b635d0a8c19e" id="r_a6194557288baf07b8b61b635d0a8c19e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a6194557288baf07b8b61b635d0a8c19e"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6194557288baf07b8b61b635d0a8c19e">MR::begin</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
-<tr class="separator:a6194557288baf07b8b61b635d0a8c19e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac81dd79e1b5425be47b98c1bf3e8ba5f" id="r_ac81dd79e1b5425be47b98c1bf3e8ba5f"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:ac81dd79e1b5425be47b98c1bf3e8ba5f"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#ac81dd79e1b5425be47b98c1bf3e8ba5f">MR::begin</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
-<tr class="separator:ac81dd79e1b5425be47b98c1bf3e8ba5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd2f8594a00a74f8538cd4eb84cd118a" id="r_abd2f8594a00a74f8538cd4eb84cd118a"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:abd2f8594a00a74f8538cd4eb84cd118a"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#abd2f8594a00a74f8538cd4eb84cd118a">MR::end</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
-<tr class="separator:abd2f8594a00a74f8538cd4eb84cd118a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5cffe69ffefbd14e44b874dc53b6209e" id="r_a5cffe69ffefbd14e44b874dc53b6209e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:a5cffe69ffefbd14e44b874dc53b6209e"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a5cffe69ffefbd14e44b874dc53b6209e">MR::end</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
-<tr class="separator:a5cffe69ffefbd14e44b874dc53b6209e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e1f5a59f99a789757cac0330d67bf79" id="r_a6e1f5a59f99a789757cac0330d67bf79"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6e1f5a59f99a789757cac0330d67bf79"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a6e1f5a59f99a789757cac0330d67bf79">MR::getAt</a> (const std::vector&lt; T &gt; &amp;a, size_t id, T def={})</td></tr>
-<tr class="memdesc:a6e1f5a59f99a789757cac0330d67bf79"><td class="mdescLeft">&#160;</td><td class="mdescRight">given some std::vector and a key, returns the value associated with the key, or default value if key is invalid or outside the std::vector  <br /></td></tr>
-<tr class="separator:a6e1f5a59f99a789757cac0330d67bf79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc5ecd2826659aa256d0bb1b168cc3bc" id="r_acc5ecd2826659aa256d0bb1b168cc3bc"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
-<tr class="memitem:acc5ecd2826659aa256d0bb1b168cc3bc"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceMR.html#acc5ecd2826659aa256d0bb1b168cc3bc">MR::getAt</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a, I id, T def={})</td></tr>
-<tr class="memdesc:acc5ecd2826659aa256d0bb1b168cc3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">given some <a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">Vector</a> and a key, returns the value associated with the key, or default value if key is invalid or outside the <a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">Vector</a>  <br /></td></tr>
-<tr class="separator:acc5ecd2826659aa256d0bb1b168cc3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ee95b3cff2f84ccfbcbc79a7e30c8e9" id="r_ga6ee95b3cff2f84ccfbcbc79a7e30c8e9"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:ga6ee95b3cff2f84ccfbcbc79a7e30c8e9"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE_PY auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6ee95b3cff2f84ccfbcbc79a7e30c8e9">MR::begin</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:ga6ee95b3cff2f84ccfbcbc79a7e30c8e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga093b76c6840e13694b05f1909b43a2fc" id="r_ga093b76c6840e13694b05f1909b43a2fc"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:ga093b76c6840e13694b05f1909b43a2fc"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE_PY auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga093b76c6840e13694b05f1909b43a2fc">MR::begin</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:ga093b76c6840e13694b05f1909b43a2fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga352a74dc36ff65d5e9f0a441c478e5f2" id="r_ga352a74dc36ff65d5e9f0a441c478e5f2"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:ga352a74dc36ff65d5e9f0a441c478e5f2"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE_PY auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga352a74dc36ff65d5e9f0a441c478e5f2">MR::end</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:ga352a74dc36ff65d5e9f0a441c478e5f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaed083bc895027bcf1a1fe77d22deebeb" id="r_gaed083bc895027bcf1a1fe77d22deebeb"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:gaed083bc895027bcf1a1fe77d22deebeb"><td class="memTemplItemLeft" align="right" valign="top">MR_BIND_IGNORE_PY auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gaed083bc895027bcf1a1fe77d22deebeb">MR::end</a> (<a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a)</td></tr>
+<tr class="separator:gaed083bc895027bcf1a1fe77d22deebeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6e1f5a59f99a789757cac0330d67bf79" id="r_ga6e1f5a59f99a789757cac0330d67bf79"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga6e1f5a59f99a789757cac0330d67bf79"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6e1f5a59f99a789757cac0330d67bf79">MR::getAt</a> (const std::vector&lt; T &gt; &amp;a, size_t id, T def={})</td></tr>
+<tr class="memdesc:ga6e1f5a59f99a789757cac0330d67bf79"><td class="mdescLeft">&#160;</td><td class="mdescRight">given some std::vector and a key, returns the value associated with the key, or default value if key is invalid or outside the std::vector  <br /></td></tr>
+<tr class="separator:ga6e1f5a59f99a789757cac0330d67bf79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gacc5ecd2826659aa256d0bb1b168cc3bc" id="r_gacc5ecd2826659aa256d0bb1b168cc3bc"><td class="memTemplParams" colspan="2">template&lt;typename T , typename I &gt; </td></tr>
+<tr class="memitem:gacc5ecd2826659aa256d0bb1b168cc3bc"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gacc5ecd2826659aa256d0bb1b168cc3bc">MR::getAt</a> (const <a class="el" href="classMR_1_1Vector.html">Vector</a>&lt; T, I &gt; &amp;a, I id, T def={})</td></tr>
+<tr class="memdesc:gacc5ecd2826659aa256d0bb1b168cc3bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">given some <a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">Vector</a> and a key, returns the value associated with the key, or default value if key is invalid or outside the <a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">Vector</a>  <br /></td></tr>
+<tr class="separator:gacc5ecd2826659aa256d0bb1b168cc3bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

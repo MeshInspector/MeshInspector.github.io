@@ -1,0 +1,1068 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Vector__VoxelId__FaceId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Vector_VoxelId_FaceId</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a42aad46f514be096891cfc3f3ab1331e" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_VoxelId_FaceId::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67212" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a71cc80fb1c7265db930742cd6e25658d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Vector_VoxelId_FaceId::_offsetof_vec_</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vec_</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId._offsetof_vec_</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67213" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ac318875e089654ffdf8aa69bb0540058" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67216" bodyend="67217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ae83514750d3268e9fc2bd2d3230df8a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+        <definition> Vector_VoxelId_FaceId mrmeshpy.Vector_VoxelId_FaceId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67220" bodyend="67221"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ae83514750d3268e9fc2bd2d3230df8a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+        <definition> Vector_VoxelId_FaceId mrmeshpy.Vector_VoxelId_FaceId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67224" bodyend="67225"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a43ef4f7569e31d4cc20a1bbc2f006f9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_VoxelId_FaceId.__eq__</definition>
+        <argsstring>(self, Vector_VoxelId_FaceId b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67226" bodyend="67227"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9435fbcf47f58298aca000b7c7061489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67229" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67229" bodyend="67230"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9435fbcf47f58298aca000b7c7061489" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.__getitem__</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67232" bodyend="67233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ab99be7367924015c73cf737ff424ba7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates empty vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67235" bodyend="67238"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ae93a239c5169911f54d13a051002148d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with default value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67240" bodyend="67243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a6e7a183234e61b42e640b31c8d228daf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.__init__</definition>
+        <argsstring>(self, int size, VoxelId val)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates a vector with \\p size elements with the given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67245" bodyend="67248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1acc56305a123b240d009694ef7d052ba8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.__init__</definition>
+        <argsstring>(self, std_vector_Id_VoxelTag vec)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VoxelTag" kindref="compound">std_vector_Id_VoxelTag</ref></type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves data from the given std::vector&lt;T&gt;
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67250" bodyend="67253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a8b1495dab54db6948871e3e225355594" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.__init__</definition>
+        <argsstring>(self, Vector_VoxelId_FaceId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67255" bodyend="67258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9eecd3779ba668238e606d96f094c8ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref>]</type>
+        <definition> typing.Iterator[VoxelId] mrmeshpy.Vector_VoxelId_FaceId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67259" bodyend="67260"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1aa7a1dc66fc1d3866ada2ee34bbe6ff87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_VoxelId_FaceId.__ne__</definition>
+        <argsstring>(self, Vector_VoxelId_FaceId b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67261" bodyend="67262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ac02ee49bb0a9e92dcd6c099a2ff6d79f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.__setitem__</definition>
+        <argsstring>(self, FaceId arg0, VoxelId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67263" bodyend="67264"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a593c9c5746a540f6be1b8fda94d33cf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.autoResizeAt</definition>
+        <argsstring>(self, FaceId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.autoResizeAt</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this accessor automatically adjusts the size of the vector
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67265" bodyend="67268"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1aec8bab9dd5f877e4808ad4eda05d4ea4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.autoResizeSet</definition>
+        <argsstring>(self, FaceId pos, int len, VoxelId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements;
+the elements in between old size and \\p pos are also set to \\p val (for faster implementation)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67270" bodyend="67274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a78bf2d2a67606242dcf3a8d8a12eaa04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.autoResizeSet</definition>
+        <argsstring>(self, FaceId i, VoxelId val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.autoResizeSet</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the element #i to the given value, adjusting the size of the vector to include new element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67276" bodyend="67279"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a5648706ae012ff561a1f7d0976fad387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67281" bodyend="67282"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a5648706ae012ff561a1f7d0976fad387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.back</definition>
+        <argsstring>(self)</argsstring>
+        <name>back</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67284" bodyend="67285"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a6498422eba41a9eb98fc51c22742e2d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.Vector_VoxelId_FaceId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67286" bodyend="67289"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a6192ff5179ac117a5de706fa30cb7bbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.Vector_VoxelId_FaceId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67290" bodyend="67293"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a43733f8a3a01f699ad1aaaf27e1cf436" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_VoxelId_FaceId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67294" bodyend="67295"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ab2d96c51cb21533c24b5e758c42d2523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67296" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67296" bodyend="67297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a73c09c04d6c64effdfa6b5c2b6abaebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67299" bodyend="67300"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a73c09c04d6c64effdfa6b5c2b6abaebd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67302" bodyend="67303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a5c57f7feae0e01bb98401bd5bcb49f37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.emplace_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>emplace_back</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.emplace_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67304" bodyend="67305"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9f2df0c68bcb996e4334a7d4edad40eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Vector_VoxelId_FaceId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67306" bodyend="67307"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a7bac69a35b016113ab002708dd323a3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+        <definition> FaceId mrmeshpy.Vector_VoxelId_FaceId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67308" bodyend="67311"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a86a70ea47a8c27c3fe3f29d90ae79826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67313" bodyend="67314"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a86a70ea47a8c27c3fe3f29d90ae79826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+        <definition> VoxelId mrmeshpy.Vector_VoxelId_FaceId.front</definition>
+        <argsstring>(self)</argsstring>
+        <name>front</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.front</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67316" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67316" bodyend="67317"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a58f88ffa535577e1fc985bb7addb86cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_VoxelId_FaceId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67318" bodyend="67321"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1abd437da91101d80026475e45439cdfdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.pop_back</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.pop_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67322" bodyend="67323"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a7df580187e65c740034443e0d1103347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.push_back</definition>
+        <argsstring>(self, VoxelId t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67325" bodyend="67326"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a7df580187e65c740034443e0d1103347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.push_back</definition>
+        <argsstring>(self, VoxelId t)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.push_back</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67328" bodyend="67329"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a627a12828eef45cb307731970ea334f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.reserve</definition>
+        <argsstring>(self, int capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.reserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67330" bodyend="67331"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1aa1e56f38428803c399872a34ec6bee53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67333" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67333" bodyend="67334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a1a03b8256b4034e4990fe8c3d1acf585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.resize</definition>
+        <argsstring>(self, int newSize, VoxelId t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67336" bodyend="67337"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1af7a79cb2f377b806a7a244c7098f68db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.resizeNoInit</definition>
+        <argsstring>(self, int targetSize)</argsstring>
+        <name>resizeNoInit</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.resizeNoInit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>targetSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resizes the vector skipping initialization of its elements (more precisely initializing them using ( noInit ) constructor )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67338" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67338" bodyend="67341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ae42cd0e2098427ca47050271861206f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67343" bodyend="67346"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1aded3462055cb2316f02b3b06643363ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.resizeWithReserve</definition>
+        <argsstring>(self, int newSize, VoxelId value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.resizeWithReserve</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelId" kindref="compound">VoxelId</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>doubles reserved memory until resize(newSize, value) can be done without reallocation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67348" bodyend="67351"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a5d691b883cd7632b51137f470a945a12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Vector_VoxelId_FaceId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67352" bodyend="67353"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a962815f4e0842415de8ea4ae26787c74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.swap</definition>
+        <argsstring>(self, Vector_VoxelId_FaceId b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.swap</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__VoxelId__FaceId" kindref="compound">Vector_VoxelId_FaceId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67354" bodyend="67355"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9d28f745477bfe8e41bd10b9bb6b73fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__VoxelTag" kindref="compound">std_vector_Id_VoxelTag</ref></type>
+        <definition> std_vector_Id_VoxelTag mrmeshpy.Vector_VoxelId_FaceId.vec_</definition>
+        <argsstring>(self)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the user can directly manipulate the vector, anyway she cannot break anything
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67357" bodyend="67360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ac8482ff0c6c4b987c8275587447a2cbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Vector_VoxelId_FaceId.vec_</definition>
+        <argsstring>(self, std_vector_Id_VoxelTag arg1)</argsstring>
+        <name>vec_</name>
+        <qualifiedname>mrmeshpy.Vector_VoxelId_FaceId.vec_</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__VoxelTag" kindref="compound">std_vector_Id_VoxelTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67362" bodyend="67363"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Vector&lt;MR::VoxelId, MR::FaceId&gt;
+
+
+ \\brief std::vector&lt;T&gt;-like container that requires specific indexing type,
+ \\tparam T type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Vector_VoxelId_FaceId</label>
+        <link refid="classmrmeshpy_1_1Vector__VoxelId__FaceId"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_vec_</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="67202" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="67202" bodyend="67363"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a43ef4f7569e31d4cc20a1bbc2f006f9d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9435fbcf47f58298aca000b7c7061489" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9435fbcf47f58298aca000b7c7061489" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a42aad46f514be096891cfc3f3ab1331e" prot="private" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ac318875e089654ffdf8aa69bb0540058" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ab99be7367924015c73cf737ff424ba7a" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ae93a239c5169911f54d13a051002148d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a6e7a183234e61b42e640b31c8d228daf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1acc56305a123b240d009694ef7d052ba8" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a8b1495dab54db6948871e3e225355594" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9eecd3779ba668238e606d96f094c8ad" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1aa7a1dc66fc1d3866ada2ee34bbe6ff87" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ac02ee49bb0a9e92dcd6c099a2ff6d79f" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a71cc80fb1c7265db930742cd6e25658d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>_offsetof_vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a593c9c5746a540f6be1b8fda94d33cf6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>autoResizeAt</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1aec8bab9dd5f877e4808ad4eda05d4ea4" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a78bf2d2a67606242dcf3a8d8a12eaa04" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a5648706ae012ff561a1f7d0976fad387" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a5648706ae012ff561a1f7d0976fad387" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a6498422eba41a9eb98fc51c22742e2d9" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a6192ff5179ac117a5de706fa30cb7bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a43733f8a3a01f699ad1aaaf27e1cf436" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ab2d96c51cb21533c24b5e758c42d2523" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a73c09c04d6c64effdfa6b5c2b6abaebd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a73c09c04d6c64effdfa6b5c2b6abaebd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a5c57f7feae0e01bb98401bd5bcb49f37" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>emplace_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9f2df0c68bcb996e4334a7d4edad40eb" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a7bac69a35b016113ab002708dd323a3d" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a86a70ea47a8c27c3fe3f29d90ae79826" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a86a70ea47a8c27c3fe3f29d90ae79826" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>front</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a58f88ffa535577e1fc985bb7addb86cd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ae83514750d3268e9fc2bd2d3230df8a2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ae83514750d3268e9fc2bd2d3230df8a2" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1abd437da91101d80026475e45439cdfdf" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>pop_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a7df580187e65c740034443e0d1103347" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a7df580187e65c740034443e0d1103347" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>push_back</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a627a12828eef45cb307731970ea334f6" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>reserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1aa1e56f38428803c399872a34ec6bee53" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a1a03b8256b4034e4990fe8c3d1acf585" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1af7a79cb2f377b806a7a244c7098f68db" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>resizeNoInit</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ae42cd0e2098427ca47050271861206f7" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1aded3462055cb2316f02b3b06643363ff" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>resizeWithReserve</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a5d691b883cd7632b51137f470a945a12" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a962815f4e0842415de8ea4ae26787c74" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>swap</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1a9d28f745477bfe8e41bd10b9bb6b73fd" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>vec_</name></member>
+      <member refid="classmrmeshpy_1_1Vector__VoxelId__FaceId_1ac8482ff0c6c4b987c8275587447a2cbe" prot="public" virt="non-virtual"><scope>mrmeshpy::Vector_VoxelId_FaceId</scope><name>vec_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

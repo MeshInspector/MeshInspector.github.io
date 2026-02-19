@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ConeObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::ConeObject</compoundname>
+    <basecompoundref refid="classMR_1_1AddVisualProperties" prot="public" virt="non-virtual">MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;</basecompoundref>
+    <includes refid="MRConeObject_8h" local="no">MRConeObject.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga4d46a50a7ee3470869450b185ad66d89" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gadefa5d1e368af74e9c0ea1512970bf69" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gaf938f4c12b7998e3a7fa7ddd2e713568" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gaed2d23faa5e35c40c16b5ab5550ed022" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga907b47dc446af6c29603325828130005" kind="function"><name>typeName</name></member>
+      <member refid="group__GeneralGroup_1ga3cfa63d59fc70663772e67762abdd3a0" kind="function"><name>className</name></member>
+      <member refid="group__GeneralGroup_1gaa4c317887a4c55672bcca1fa1534b2b7" kind="function"><name>classNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1gacf915767d92ede7e04ca9da619fa3845" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gafd3e44ebcd56377cde2ddecee9e57216" kind="function"><name>clone</name></member>
+      <member refid="group__GeneralGroup_1gaa6ffe65ecb905c4a85d865c70c753d4c" kind="function"><name>shallowClone</name></member>
+      <member refid="group__GeneralGroup_1gaee0cce82eb8d15e883bf0d50eaecfd27" kind="function"><name>getAngle</name></member>
+      <member refid="group__GeneralGroup_1ga9ee28bed15c74a1c10cb9c6db8ba8b19" kind="function"><name>getCenter</name></member>
+      <member refid="group__GeneralGroup_1ga114d733b5fccd533496cde9091b5b3d4" kind="function"><name>getHeight</name></member>
+      <member refid="group__GeneralGroup_1ga52991f3f7e3f80d675e98736f33e1e23" kind="function"><name>getDirection</name></member>
+      <member refid="group__GeneralGroup_1ga48654827313a384b867e19af3decfd07" kind="function"><name>setCenter</name></member>
+      <member refid="group__GeneralGroup_1ga17f187e540021ced92b462f9a865e299" kind="function"><name>setDirection</name></member>
+      <member refid="group__GeneralGroup_1ga7562b1accb4c2fb95e6bc3fcb69d4370" kind="function"><name>setHeight</name></member>
+      <member refid="group__GeneralGroup_1ga22d46e3457a22a2e4a158ae10af1c82a" kind="function"><name>setAngle</name></member>
+      <member refid="group__GeneralGroup_1ga9f25917be502efa8afcdeb227140fb42" kind="function"><name>getBaseRadius</name></member>
+      <member refid="group__GeneralGroup_1gaf41c7ee41d175791f53fa013772f99b9" kind="function"><name>setBaseRadius</name></member>
+      <member refid="group__GeneralGroup_1ga03cbbb3c2194467c85bf870c09f08e72" kind="function"><name>getBasePoint</name></member>
+      <member refid="group__GeneralGroup_1ga9f478343ae57720fcf7c3c78f01011c4" kind="function"><name>getAllSharedProperties</name></member>
+      <member refid="group__GeneralGroup_1gae6cc2d16f39a5d0cb5a6cc9535843b84" kind="function"><name>projectPoint</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga2d2e6a5937303deda49c3f33db7d8a11" kind="function"><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1ga3b960d6116ad53020d4b8d957d73ca9d" kind="function"><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gaf67b28fcaf6cf8ca6bc98137a01f6922" kind="function"><name>StaticClassNameInPlural</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga522ae3f23c5e5d57e85a58e5518145eb" kind="function"><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1ga576b9eda88516f812a400bea81f5fb17" kind="function"><name>swapBase_</name></member>
+      <member refid="group__GeneralGroup_1gaf6287a16f4c08d79fb7eabf432759e42" kind="function"><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gab66f3e6b0a4c5168078a082dd7320592" kind="function"><name>serializeModel_</name></member>
+      <member refid="group__GeneralGroup_1ga615d94d3d0d7edc5f0572b37b99a2a3c" kind="function"><name>deserializeModel_</name></member>
+      <member refid="group__GeneralGroup_1ga58e25e035e9759982d74478c83f688b9" kind="function"><name>setupRenderObject_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga6be2e98cf05d6daad5305efd01aea14f" kind="function"><name>getNormalizedRadius_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classMR_1_1Object" kindref="compound">Object</ref> to show Cone feature, position and radius are controlled by xf </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ConeObject</label>
+        <link refid="classMR_1_1ConeObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::FeatureObject</label>
+        <link refid="classMR_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="4">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::ConeObject</label>
+        <link refid="classMR_1_1ConeObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::FeatureObject</label>
+        <link refid="classMR_1_1FeatureObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>detailsOnNameTag_</edgelabel>
+          <edgelabel>subfeatureVisibility_</edgelabel>
+        </childnode>
+        <childnode refid="15" relation="usage">
+          <edgelabel>r_</edgelabel>
+          <edgelabel>s_</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::Object</label>
+        <link refid="classMR_1_1Object"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>worldXfChangedSignal</edgelabel>
+        </childnode>
+        <childnode refid="9" relation="usage">
+          <edgelabel>xf_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>visibilityMask_</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::ObjectChildrenHolder</label>
+        <link refid="classMR_1_1ObjectChildrenHolder"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>parent_</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::Signal&lt; void()&gt;</label>
+        <link refid="structMR_1_1Signal"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::UniquePtr&lt; MR::IRenderObject &gt;</label>
+        <link refid="structMR_1_1UniquePtr"/>
+        <childnode refid="12" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::ViewportMask</label>
+        <link refid="classMR_1_1ViewportMask"/>
+      </node>
+      <node id="9">
+        <label>MR::ViewportProperty&lt; AffineXf3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="13">
+        <label>MR::ViewportProperty&lt; MR::Color &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="15">
+        <label>MR::ViewportProperty&lt; Matrix3f &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="14">
+        <label>MR::ViewportProperty&lt; uint8_t &gt;</label>
+        <link refid="classMR_1_1ViewportProperty"/>
+      </node>
+      <node id="4">
+        <label>MR::VisualObject</label>
+        <link refid="classMR_1_1VisualObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="11" relation="usage">
+          <edgelabel>renderObj_</edgelabel>
+        </childnode>
+        <childnode refid="10" relation="usage">
+          <edgelabel>clipByPlane_</edgelabel>
+          <edgelabel>depthTest_</edgelabel>
+          <edgelabel>invertNormals_</edgelabel>
+          <edgelabel>pickable_</edgelabel>
+          <edgelabel>showName_</edgelabel>
+        </childnode>
+        <childnode refid="13" relation="usage">
+          <edgelabel>backFacesColor_</edgelabel>
+          <edgelabel>selectedColor_</edgelabel>
+          <edgelabel>unselectedColor_</edgelabel>
+        </childnode>
+        <childnode refid="14" relation="usage">
+          <edgelabel>globalAlpha_</edgelabel>
+        </childnode>
+      </node>
+      <node id="8">
+        <label>boost::signals2::signal&lt; void() &gt;</label>
+      </node>
+      <node id="12">
+        <label>std::unique_ptr&lt; MR::IRenderObject &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConeObject.h" bodystart="22" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Object_1aa6cdc407999b7e829fd23b242cb6346d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>addChild</name></member>
+      <member refid="classMR_1_1Object_1a8eeb1cb21b22db97f20eac75b897f7ae" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>addChildBefore</name></member>
+      <member refid="classMR_1_1Object_1a1bc49d038870615cf0a59705e4796075" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>addTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a53f3623d9c70f13c0546466a3ab5da96" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>ambientStrength_</name></member>
+      <member refid="classMR_1_1Object_1a7919fe84554abf5973d82255df4425a6" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>ancillary_</name></member>
+      <member refid="classMR_1_1Object_1a0afca40a7c24d33df4e4d7a5c98167a4" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>applyScale</name></member>
+      <member refid="classMR_1_1Object_1a1f6de8e94b4cc46c3fd7ba2cb4e6cfb3" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>asType</name></member>
+      <member refid="classMR_1_1Object_1a64cc87b1de99f84bb49d9e0b0f24d9ea" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>asType</name></member>
+      <member refid="classMR_1_1VisualObject_1ae3a2d142d4abb2283a71caf7395282a4" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>backFacesColor_</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a2ba9302240c85bc5dfd78068e7b2e918" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>bastards_</name></member>
+      <member refid="classMR_1_1VisualObject_1af81b9247c457c9dbd36d6bbe4c74b826" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>boundingBoxToInfoLines_</name></member>
+      <member refid="classMR_1_1Object_1a918f27844d6d9aae269008f0036bc671" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>children</name></member>
+      <member refid="classMR_1_1Object_1a2f38b85c4109bb77ad1a49e42085b9fb" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>children</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a20c010d72c82523c01e5de05910eb34c" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>children_</name></member>
+      <member refid="group__GeneralGroup_1ga3cfa63d59fc70663772e67762abdd3a0" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>className</name></member>
+      <member refid="group__GeneralGroup_1gaa4c317887a4c55672bcca1fa1534b2b7" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>classNameInPlural</name></member>
+      <member refid="classMR_1_1VisualObject_1ab87c9fab3f92c38aba589584b5466a98" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>clipByPlane_</name></member>
+      <member refid="group__GeneralGroup_1gafd3e44ebcd56377cde2ddecee9e57216" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>clone</name></member>
+      <member refid="classMR_1_1Object_1a54eb8f6e602368572ffb27af73f87465" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>cloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a21eb2d0c923e3ca0544e4cf90782e6b1" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>coloringType_</name></member>
+      <member refid="classMR_1_1VisualObject_1a4e27182996ebf22fc42c7d1ebf6cf02b" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>computeBoundingBox_</name></member>
+      <member refid="group__GeneralGroup_1ga4d46a50a7ee3470869450b185ad66d89" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gadefa5d1e368af74e9c0ea1512970bf69" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gaf938f4c12b7998e3a7fa7ddd2e713568" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1gacf915767d92ede7e04ca9da619fa3845" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="group__GeneralGroup_1ga522ae3f23c5e5d57e85a58e5518145eb" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>ConeObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a7857f20b8f16704a46297b95e12524f7" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="group__GeneralGroup_1ga1c8e2cd4e02b32ce6329d8a44ab727c6" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>decorationsColor_</name></member>
+      <member refid="classMR_1_1VisualObject_1a3c81a910d1fdd5c1f1b413c185bf750d" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>depthTest_</name></member>
+      <member refid="group__GeneralGroup_1gaee2648d2f24f218b7c2cbcd1b48ae0f2" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>deserializeFields_</name></member>
+      <member refid="group__GeneralGroup_1ga615d94d3d0d7edc5f0572b37b99a2a3c" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>deserializeModel_</name></member>
+      <member refid="classMR_1_1Object_1ae6602edbad891420dc4dff152e9df603" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>deserializeRecursive</name></member>
+      <member refid="classMR_1_1Object_1a80a32a58c497b044d63e5aaa75e77fbe" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>detachFromParent</name></member>
+      <member refid="group__GeneralGroup_1gac252edfceb31c314bc08c0ba5fac11b3" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>detailsOnNameTag_</name></member>
+      <member refid="group__GeneralGroup_1ga537fbe1f37e55b900de3e7427c41e7b4" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>FeatureObject</name></member>
+      <member refid="classMR_1_1Object_1abcc984d346790cbe1a13d6ee87daffd0" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a639d2e0d72c82c1efd9dc00ecaa0d3da" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1gaa9133d1e63e15eb09f7f902afe2abd3a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a3079240f06bd4e66c5c10dbab8a824f6" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
+      <member refid="group__DataModelGroup_1ga595c5f842600963ee11cd5e9a3a0a7f8" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1a7dc1382248ea0ff99064282167614a4b" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>find</name></member>
+      <member refid="classMR_1_1Object_1aa3e60b6a82814bffff2ba324dcaa7bd2" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>findCommonAncestor</name></member>
+      <member refid="classMR_1_1Object_1af3951674c765923b8a024a44bd27342d" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>findCommonAncestor</name></member>
+      <member refid="group__GeneralGroup_1ga9f478343ae57720fcf7c3c78f01011c4" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classMR_1_1VisualObject_1a44359499c4ee0b22074b8f3999d53a6e" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>getAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1afd16375df437a376f44c3bdea5186b82" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getAmbientStrength</name></member>
+      <member refid="group__GeneralGroup_1gaee0cce82eb8d15e883bf0d50eaecfd27" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getAngle</name></member>
+      <member refid="classMR_1_1VisualObject_1af49f84e12ea7e21ec8dc39ae8609bc18" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a714aab4f9110c1072f3147edae51e293" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga03cbbb3c2194467c85bf870c09f08e72" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getBasePoint</name></member>
+      <member refid="group__GeneralGroup_1ga9f25917be502efa8afcdeb227140fb42" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getBaseRadius</name></member>
+      <member refid="classMR_1_1VisualObject_1a8fe84b708cf42b2d73b31e77f02fae6a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getBoundingBox</name></member>
+      <member refid="group__GeneralGroup_1ga9ee28bed15c74a1c10cb9c6db8ba8b19" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getCenter</name></member>
+      <member refid="classMR_1_1VisualObject_1ad526a2645a12621b7742bc66aaf5ad0f" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getColoringType</name></member>
+      <member refid="group__GeneralGroup_1gafa41398b2369e2bbe90b107c3de0bbe6" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getDecorationsColor</name></member>
+      <member refid="group__GeneralGroup_1ga38e30bc9c390d73d9e302ef1e6f6238f" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga52991f3f7e3f80d675e98736f33e1e23" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getDirection</name></member>
+      <member refid="classMR_1_1VisualObject_1a6411458c4cd7d098c12adaea27568db7" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a70f15c0dc59f3b83a8b8c3e6390f7571" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a04e6c3f8219124e3028f7dd8411cfc65" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1afe6426aa46d769e1d6f4cab1e56e0559" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a3ef31c439da47a55ca3287bf45a377ad" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga114d733b5fccd533496cde9091b5b3d4" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getHeight</name></member>
+      <member refid="classMR_1_1VisualObject_1a76988bf72aa3be996e864fec3ab47ed2" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getInfoLines</name></member>
+      <member refid="group__GeneralGroup_1ga40c1b4ffd8d3aba7fe5898caa6130b74" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga0ebee580bd79fb6dbee2bd1292b93b50" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Object_1a4a0bdbb221822d1b73720712b1488489" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getModelHash</name></member>
+      <member refid="group__GeneralGroup_1gae682c2765f3ef072c5552729523be1fa" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getNormal</name></member>
+      <member refid="group__GeneralGroup_1ga6be2e98cf05d6daad5305efd01aea14f" prot="private" virt="non-virtual"><scope>MR::ConeObject</scope><name>getNormalizedRadius_</name></member>
+      <member refid="group__GeneralGroup_1ga17576a887b5a637765fb98d40ed7f097" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getPointSize</name></member>
+      <member refid="classMR_1_1VisualObject_1a08a44c8bd562c85361950682c997f752" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1ga9b258943b501bd224607d6a5a8a5fc8a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getRotationMatrix</name></member>
+      <member refid="group__GeneralGroup_1ga4812ae385ef5a66bbcc0779f54025502" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a64c12f40ae3ee9c61ba167319e33f4a8" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getSharedPtr</name></member>
+      <member refid="classMR_1_1VisualObject_1a1a152f22b671a1cf98ddcf43db92b1da" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getShininess</name></member>
+      <member refid="classMR_1_1VisualObject_1a746d651e584a6df83424853a8777138b" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getSpecularStrength</name></member>
+      <member refid="group__GeneralGroup_1gac1944db120f70185200d4915fce0a660" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="group__GeneralGroup_1ga352152a4f6da671401876ef2e98e978d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="group__GeneralGroup_1gafbc72d3db7d89d7af4ea2a7ac835c15e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="group__GeneralGroup_1gab8151a43482e95baea8f44d1a94bc61d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="group__GeneralGroup_1ga3866d143290905194a7c4e8da338c253" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classMR_1_1VisualObject_1a3e21bc521981859584703215ba45f219" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1VisualObject_1a11c8d591aa72e021a946b58349b80bcf" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>getVisualizePropertyMask_</name></member>
+      <member refid="classMR_1_1VisualObject_1a32cc9bc32e5402ed77f63de53d754314" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>getWorldBox</name></member>
+      <member refid="classMR_1_1Object_1a41924fd6534dc41bfdb6dd30e263109b" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>getWorldTreeBox</name></member>
+      <member refid="classMR_1_1VisualObject_1a96232055c664463cca20dda327b1c30f" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>globalAlpha_</name></member>
+      <member refid="classMR_1_1VisualObject_1a5985106ad6fa7332062d84fdd44b5986" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classMR_1_1VisualObject_1af8f1e6dfa5e98e4c44896a848932fa66" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classMR_1_1Object_1a1a3e9aa0f80849839b009e8b82c37c94" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>globalVisibility</name></member>
+      <member refid="classMR_1_1Object_1a16b01c9f31dc2c3ab06b702718e9c7cb" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>globalVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a376cb1be36addec5afd14487533e6693" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>hasModel</name></member>
+      <member refid="classMR_1_1Object_1a9f8a60330354b5cd43536c22bed08f3d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>hasVisualRepresentation</name></member>
+      <member refid="classMR_1_1VisualObject_1a1c54cde8d69f13962e4e64bf839f3111" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1VisualObject_1ac1c087e54a58af29aa241898f9ea3222" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>invalidateMetricsCache_</name></member>
+      <member refid="classMR_1_1VisualObject_1af6cd63e72a721fbe39cdff002950bce4" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>invertNormals_</name></member>
+      <member refid="classMR_1_1Object_1a7c970b0fa099d812c04978d33c4b624e" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>isAncestor</name></member>
+      <member refid="classMR_1_1Object_1a3dcf68a5faec85e8e753e34ab77eb1b9" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>isAncillary</name></member>
+      <member refid="classMR_1_1Object_1a6590355f391c69c4c0594b51397d4579" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>isGlobalAncillary</name></member>
+      <member refid="classMR_1_1Object_1ad7f9426f9adc37a95648822d1566db77" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>isLocked</name></member>
+      <member refid="classMR_1_1Object_1ae6f5f78500e8c1342b7f4d7d98b03928" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>isParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1a938a64da82232f07dec418b944f5bc8b" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>isPickable</name></member>
+      <member refid="classMR_1_1Object_1a3f649834561a9f246e1d840a0f3080c8" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>isSelected</name></member>
+      <member refid="classMR_1_1Object_1a98c9e0d07b736d2b86c4d3d340b77844" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>isVisible</name></member>
+      <member refid="group__GeneralGroup_1ga3b5a4031f824e124b74a89fe8c2e1a67" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>lineWidth_</name></member>
+      <member refid="classMR_1_1Object_1a958714fb7d616e608cb16223e052052b" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>locked_</name></member>
+      <member refid="group__GeneralGroup_1ga51043725ded5e5baa3695f7a0b95f4ff" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>mainFeatureAlpha_</name></member>
+      <member refid="classMR_1_1Object_1ae813e1ae9ad5cbb71ca45adbdd811679" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>name</name></member>
+      <member refid="classMR_1_1Object_1a3d6d27065a13a0a262df4b74ff82e538" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>name_</name></member>
+      <member refid="classMR_1_1Object_1a92a390dc7570098981912529e341433d" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>needRedraw_</name></member>
+      <member refid="classMR_1_1Object_1ac2ef0a60f0cb9b488534014376ccd38d" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1abac87686448c89b770d46ab30ad79dc2" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1a795eb7eeaecc99cf34dabd14ac113e0b" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1Object_1ac5bae69ebe807554a5e9f8b91a89dfd6" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1acad4a073a2e703743e01e2e5cce9e285" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a676c20b6eea355fe68748a8c1ad0b086" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a89b1fff6ebde3c5a71a530e3c8cddfb6" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1Object_1ae552548142751ab5d35d446cb5d56fae" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>onWorldXfChanged_</name></member>
+      <member refid="group__GeneralGroup_1gaed2d23faa5e35c40c16b5ab5550ed022" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1VisualObject_1ad5bb82fa6b6b0ea77f0137b975c802f6" prot="public" virt="non-virtual" ambiguityscope="MR::AddVisualProperties&lt; FeatureObject, DimensionsVisualizePropertyType::diameter, DimensionsVisualizePropertyType::angle, DimensionsVisualizePropertyType::length &gt;::"><scope>MR::ConeObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1aaa2378c439796ceb7a28ad41322cb8d7" prot="public" virt="non-virtual" ambiguityscope="MR::Object::"><scope>MR::ConeObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a44a4427301ae71511f5b3138cdf02e9f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ConeObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1aca1fa4cd4c9ee1cb2e567623c979b26f" prot="public" virt="non-virtual" ambiguityscope="MR::ObjectChildrenHolder::"><scope>MR::ConeObject</scope><name>operator=</name></member>
+      <member refid="classMR_1_1Object_1a68500213a1d6e4f3b7f9fc3806fcacd1" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>parent</name></member>
+      <member refid="classMR_1_1Object_1a04aa027ee39ae2bc0f084534a946c9f5" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>parent</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a79a7197e0981d1da1b59f5fa0d858f7d" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>parent_</name></member>
+      <member refid="classMR_1_1Object_1a2f679f701887cee54069b81a45cc8ebc" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>parentLocked_</name></member>
+      <member refid="classMR_1_1VisualObject_1a43bcd013faf296110ba8cb4a94bbe12f" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>pickable_</name></member>
+      <member refid="group__GeneralGroup_1gad870b3dc0af8af65bcaf74fb0fa84475" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>pointSize_</name></member>
+      <member refid="group__GeneralGroup_1gae6cc2d16f39a5d0cb5a6cc9535843b84" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>projectPoint</name></member>
+      <member refid="group__GeneralGroup_1ga534fe1b7809ccb50abd437a88b6c1412" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>propertyMasks_</name></member>
+      <member refid="group__GeneralGroup_1gaced598f63c94fa32b11e140c3aec72fa" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>r_</name></member>
+      <member refid="classMR_1_1Object_1a1b5609ba616723794aea4dda67727865" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>removeAllChildren</name></member>
+      <member refid="classMR_1_1Object_1aa988bb552650c9d30e888e456f458d46" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1a291d8e281e83a1199d6da8484e798fd5" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>removeChild</name></member>
+      <member refid="classMR_1_1Object_1aba4a6f7731fa48aa3ffcd233f5dfc451" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>removeTag</name></member>
+      <member refid="classMR_1_1VisualObject_1a4ee8d7c7819cfcae4624e5818a870052" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>render</name></member>
+      <member refid="classMR_1_1VisualObject_1a190bc33649da029a5669785110d1dd19" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>renderForPicker</name></member>
+      <member refid="classMR_1_1VisualObject_1ab054b578e5da7a7822d693ec0f61b1e7" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>renderObj_</name></member>
+      <member refid="classMR_1_1VisualObject_1a7c703445b89c896790544b583d052e9f" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>renderUi</name></member>
+      <member refid="classMR_1_1VisualObject_1a0b0f7552c903173a32d29ad4f2c2b247" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>resetColors</name></member>
+      <member refid="classMR_1_1VisualObject_1a30fe82d49e41f2e7830f58113b295cce" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>resetDirty</name></member>
+      <member refid="classMR_1_1VisualObject_1a885f987ce58a89d2b12a33cf48e92c6c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classMR_1_1VisualObject_1afb0c75a4ae3c759e382ae9c1abc0234b" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>resetFrontColor</name></member>
+      <member refid="classMR_1_1Object_1a9dc77f3f61430395182e8402e6e6f410" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>resetRedrawFlag</name></member>
+      <member refid="group__GeneralGroup_1gab59d5f621e961a8874c5176e4b4ab355" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>resetXf</name></member>
+      <member refid="group__GeneralGroup_1gab1290c5fd9953439f5f8416adcd4ab38" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>s_</name></member>
+      <member refid="classMR_1_1Object_1ac581a9c74f34770bb727b5168fcfa753" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>sameModels</name></member>
+      <member refid="classMR_1_1Object_1a989bd3b98218be00c001e3ee8cb77334" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>select</name></member>
+      <member refid="classMR_1_1Object_1a0d8ef27f83b47e000093eaa0df9c36f9" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>selected_</name></member>
+      <member refid="classMR_1_1VisualObject_1ac75d179334e336af0672bf0d9c997038" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>selectedColor_</name></member>
+      <member refid="classMR_1_1Object_1ab41eb618ef90d9677638173475b2d983" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>sendWorldXfChangedSignal_</name></member>
+      <member refid="group__GeneralGroup_1gaf6287a16f4c08d79fb7eabf432759e42" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>serializeFields_</name></member>
+      <member refid="group__GeneralGroup_1gab66f3e6b0a4c5168078a082dd7320592" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>serializeModel_</name></member>
+      <member refid="classMR_1_1Object_1a9585a709b1b7bd6d35276d099afd0079" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>serializeRecursive</name></member>
+      <member refid="classMR_1_1VisualObject_1aa19ae518997e365fbfa1ddd81b04eb10" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa66ddfe5c8361744b9537dead37974b6" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>setAllVisualizePropertiesForEnum</name></member>
+      <member refid="classMR_1_1VisualObject_1a932577d6970c183bc981e1b79cc256e4" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classMR_1_1Object_1a3758df5e3fe75f83c0449e77770961b3" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setAncillary</name></member>
+      <member refid="group__GeneralGroup_1ga22d46e3457a22a2e4a158ae10af1c82a" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setAngle</name></member>
+      <member refid="classMR_1_1VisualObject_1a469ac6da4b8c323e12d0d78943831a4e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setBackColor</name></member>
+      <member refid="classMR_1_1VisualObject_1a6b7e8cf2909d71a7537a47028f77913a" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1gaf41c7ee41d175791f53fa013772f99b9" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setBaseRadius</name></member>
+      <member refid="group__GeneralGroup_1ga48654827313a384b867e19af3decfd07" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setCenter</name></member>
+      <member refid="classMR_1_1VisualObject_1a8d339ad1cf1735f90773b4f8b89e9059" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setColoringType</name></member>
+      <member refid="group__GeneralGroup_1ga40915fb0e5451adfd6f78c69047664a9" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setDecorationsColor</name></member>
+      <member refid="group__GeneralGroup_1gabedf621fc54044d44c55d0a494edc86c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1ga17f187e540021ced92b462f9a865e299" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setDirection</name></member>
+      <member refid="classMR_1_1VisualObject_1a3e72e4b693ea9b28b46b5928167f0e74" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classMR_1_1VisualObject_1a2261b98d651c586e2bc62a2e1efb902a" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>setDirtyFlagsFast_</name></member>
+      <member refid="classMR_1_1VisualObject_1a0d1a64b6bed894b4236b06ac732dfd74" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setFrontColor</name></member>
+      <member refid="classMR_1_1VisualObject_1ac8fd310ffa1926e733e28b521f658778" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a985084dc83b837ab048114f5f4bacae2" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classMR_1_1VisualObject_1a8ae88237f1bd22f03cb5a77d018c6d7c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classMR_1_1VisualObject_1a6212504702d0e12528f65b94e270069e" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classMR_1_1Object_1af61964cafaa7f98e2b14f89fed277368" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setGlobalVisibility</name></member>
+      <member refid="group__GeneralGroup_1ga7562b1accb4c2fb95e6bc3fcb69d4370" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setHeight</name></member>
+      <member refid="group__GeneralGroup_1ga1db924c7ae13b6068667a75a0f74ba50" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setLineWidth</name></member>
+      <member refid="classMR_1_1Object_1ac427b5b1a99a87eac1305683801fc850" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setLocked</name></member>
+      <member refid="group__GeneralGroup_1gaed449e8d3a06fe9d8f70ba93a73cc104" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classMR_1_1Object_1ace89695fb0235bdf97caecfe26390349" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setName</name></member>
+      <member refid="classMR_1_1Object_1acd0464af4d89730f9a969f997fdcc8ce" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setParentLocked</name></member>
+      <member refid="classMR_1_1VisualObject_1add21d6793f336877707d5ed7b4785ce6" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setPickable</name></member>
+      <member refid="group__GeneralGroup_1ga84e601e7bc1ee93ea6ec700eb616548f" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setPointSize</name></member>
+      <member refid="classMR_1_1Object_1a911d7f54ae21939fe483b0f5caf04a66" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>setSharedModel_</name></member>
+      <member refid="classMR_1_1VisualObject_1add52279d4cba695b4fa60d469cb8c1af" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setShininess</name></member>
+      <member refid="classMR_1_1VisualObject_1a455eb4255b591d822d504e0403c5e984" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSpecularStrength</name></member>
+      <member refid="group__GeneralGroup_1ga2da9794b73ce4ddae136ccb8992cc690" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="group__GeneralGroup_1gade84e20ad9c7be039362059db188055d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="group__GeneralGroup_1gaa0fe2e6df916bd424a5d77ef19379672" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf90cf28a65ce4f4698111d77e6e39a85" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="group__GeneralGroup_1gad4ff45224612c828ae56427661a0f00e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="group__GeneralGroup_1ga58e25e035e9759982d74478c83f688b9" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>setupRenderObject_</name></member>
+      <member refid="classMR_1_1VisualObject_1a12fceb01c325ff73eb770fa255cb5ecf" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1Object_1a01ca9dab857ceb8e3fad3d04d271ff0e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setVisibilityMask</name></member>
+      <member refid="classMR_1_1Object_1a4f9e9d6e328f1eda7944805cf9d52dc0" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setVisible</name></member>
+      <member refid="classMR_1_1VisualObject_1a2bbb1d0c58312e6cec629c558dec4eb8" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classMR_1_1VisualObject_1acd4b651e989735ef689f9ed94bbf302d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classMR_1_1Object_1a214e37583ccaa45d92895464c6de685d" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>setWorldXf</name></member>
+      <member refid="group__GeneralGroup_1ga29cbd04bca216b622c6526ea818d86cb" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setXf</name></member>
+      <member refid="classMR_1_1Object_1a6d2214b6fde4d128210f1421cc36176d" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>setXfsForAllViewports</name></member>
+      <member refid="group__GeneralGroup_1gaa6ffe65ecb905c4a85d865c70c753d4c" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>shallowClone</name></member>
+      <member refid="classMR_1_1Object_1ac8e64c569d24d04c1dfcfe7cb1511580" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>shallowCloneTree</name></member>
+      <member refid="classMR_1_1VisualObject_1a88b3d55070a6a91ed592e80b0f925419" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>shininess_</name></member>
+      <member refid="classMR_1_1VisualObject_1aa23cd40dfdaaebc073129fb1ba57dce7" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a6f691bb814bb6837382b81f60eff14c5" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>showName</name></member>
+      <member refid="classMR_1_1VisualObject_1a611894e7f98e2633137d75833e361781" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>showName_</name></member>
+      <member refid="classMR_1_1Object_1a6f67ec7cbe1e69e514d8f0d5286a35da" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>sortChildren</name></member>
+      <member refid="classMR_1_1VisualObject_1ab494630abaaab85d3b4c16929c7e6e83" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>specularStrength_</name></member>
+      <member refid="group__GeneralGroup_1ga3b960d6116ad53020d4b8d957d73ca9d" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>StaticClassName</name></member>
+      <member refid="group__GeneralGroup_1gaf67b28fcaf6cf8ca6bc98137a01f6922" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="group__GeneralGroup_1ga2d2e6a5937303deda49c3f33db7d8a11" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>StaticTypeName</name></member>
+      <member refid="group__GeneralGroup_1gae9eae47d979450ea334ee34d89bd931e" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subAlphaLines_</name></member>
+      <member refid="group__GeneralGroup_1gaee2b783554996a1934193cd74d782dbf" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subAlphaMesh_</name></member>
+      <member refid="group__GeneralGroup_1gad7fbf06bb7ae7e9d6d048ae16629ccc3" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subAlphaPoints_</name></member>
+      <member refid="group__GeneralGroup_1gabd213076dcde954e6f1f26d06fa6d2fa" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subfeatureVisibility_</name></member>
+      <member refid="group__GeneralGroup_1gac8ea614a47b17098054cd1859b24f70c" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subLineWidth_</name></member>
+      <member refid="group__GeneralGroup_1ga361a7ce85014e2c6232445612aa34c60" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>subPointSize_</name></member>
+      <member refid="group__GeneralGroup_1ga06796f32f035d58e6a320f35f1845cf1" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classMR_1_1Object_1a39e506e0816b1d504e86a2823ee90cf3" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>swap</name></member>
+      <member refid="group__GeneralGroup_1ga576b9eda88516f812a400bea81f5fb17" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>swapBase_</name></member>
+      <member refid="classMR_1_1Object_1a82d2749fefb75e38b62dd69a52307680" prot="protected" virt="virtual"><scope>MR::ConeObject</scope><name>swapSignals_</name></member>
+      <member refid="classMR_1_1Object_1abf2e87d7dd67d22799d82a35ddecc7b3" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>tags</name></member>
+      <member refid="classMR_1_1Object_1abf2154dc69866e93f47d7207cdb4abf4" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>tags_</name></member>
+      <member refid="classMR_1_1VisualObject_1af63540ac95e6431477166fb4d1c249a3" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1ga907b47dc446af6c29603325828130005" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>typeName</name></member>
+      <member refid="classMR_1_1VisualObject_1a567b072f1d687c864a8be3d5e68d13a3" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>unselectedColor_</name></member>
+      <member refid="classMR_1_1VisualObject_1a0466c6ddefdea403775b5b4fa4a46219" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classMR_1_1VisualObject_1aeed6d251c7bdbffe0634b0fe96faab35" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>useDefaultScenePropertiesOnDeserialization_</name></member>
+      <member refid="classMR_1_1Object_1a9363ba86191cc486fa554ea0d6238d05" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>visibilityMask</name></member>
+      <member refid="classMR_1_1Object_1ae98466115f6fa8989c8628ff6ec54e9e" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>visibilityMask_</name></member>
+      <member refid="classMR_1_1VisualObject_1a248a0efabc82874bd29ca605c2fb7481" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a95016bb1aefebfa8952ac3457cc57ee4" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a132f300dcd5614eaaa237b865dc79763" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1VisualObject_1a84d46a3ce3da143b5735f0b6ac79deee" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>VisualObject</name></member>
+      <member refid="classMR_1_1Object_1adf99bf3b0a5a59452a7e4efd6f48b657" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>worldXf</name></member>
+      <member refid="classMR_1_1Object_1a84debbb8e5d281139acb86024c2f7964" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>worldXfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a603c094ba75fe76c397b93e84d1cb129" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>xf</name></member>
+      <member refid="classMR_1_1Object_1a5f512c4898f6a69b782b8647109ff8e0" prot="protected" virt="non-virtual"><scope>MR::ConeObject</scope><name>xf_</name></member>
+      <member refid="classMR_1_1Object_1adbe9460ebe355b8838a49e5a8a7d5830" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>XfChangedSignal</name></member>
+      <member refid="classMR_1_1Object_1a695ed8027820a6f982adf8a3e393503d" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>xfsForAllViewports</name></member>
+      <member refid="classMR_1_1Object_1a89c09f7a1ec5ba173cd21879e3f9953e" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>~Object</name></member>
+      <member refid="classMR_1_1ObjectChildrenHolder_1a0d547b2ea371b35b7f6aeb91b0a31ef8" prot="public" virt="non-virtual"><scope>MR::ConeObject</scope><name>~ObjectChildrenHolder</name></member>
+      <member refid="classMR_1_1VisualObject_1a32d2019eae016848083a25a159b3b058" prot="public" virt="virtual"><scope>MR::ConeObject</scope><name>~VisualObject</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

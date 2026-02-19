@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1LineInterpolationParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::LineInterpolationParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1LineInterpolationParams_1a1b06d688a8708dccb69c40840deb67c6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LineInterpolationParams::_offsetof_cb</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cb</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams._offsetof_cb</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LineInterpolationParams_1a81514c3009cfcb4514c10261ea422cf1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LineInterpolationParams::_offsetof_eps</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_eps</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams._offsetof_eps</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LineInterpolationParams_1ab3728eda2e50dea3329b8cbcd3fbc2f1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LineInterpolationParams::_offsetof_maxLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxLength</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams._offsetof_maxLength</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25829" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1adb1a28909c24dca017aeffc9a94698b5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineInterpolationParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25832" bodyend="25833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1a6c7dfb0b5fa41f21d0b4795a53c266a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LineInterpolationParams" kindref="compound">LineInterpolationParams</ref></type>
+        <definition> LineInterpolationParams mrmeshpy.LineInterpolationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25836" bodyend="25837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1a6c7dfb0b5fa41f21d0b4795a53c266a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LineInterpolationParams" kindref="compound">LineInterpolationParams</ref></type>
+        <definition> LineInterpolationParams mrmeshpy.LineInterpolationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25840" bodyend="25841"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1accefade69a75605164f050f233b457c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineInterpolationParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25843" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25843" bodyend="25844"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1a72daed04249324e855f08084b436c805" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineInterpolationParams.__init__</definition>
+        <argsstring>(self, LineInterpolationParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LineInterpolationParams" kindref="compound">LineInterpolationParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25846" bodyend="25849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1aeefc8972a71955f50ea41b0e2e2d3fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineInterpolationParams.__init__</definition>
+        <argsstring>(self, float eps, float maxLength, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>eps</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxLength</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25851" bodyend="25854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1a050ed3ca1b4396cf03a1dee8dd3320b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.LineInterpolationParams.cb</definition>
+        <argsstring>(self)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback for reporting on progress
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25856" bodyend="25859"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1ab07a091618976d193adee5f08db97523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineInterpolationParams.cb</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>cb</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.cb</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25861" bodyend="25862"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1aca724297064c6209fa844768ec6b31a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.LineInterpolationParams.eps</definition>
+        <argsstring>(self)</argsstring>
+        <name>eps</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.eps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal deviation from given line
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25864" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25864" bodyend="25867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1a85230b272df9d188499cfe7842331492" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineInterpolationParams.eps</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>eps</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.eps</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25869" bodyend="25870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1a522ca900177bdf867e62793d82e154cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.LineInterpolationParams.maxLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxLength</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.maxLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximal length of the line
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25872" bodyend="25875"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LineInterpolationParams_1aa6bdd0bdc3ae2d3faab7a9af5ab11fb9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LineInterpolationParams.maxLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxLength</name>
+        <qualifiedname>mrmeshpy.LineInterpolationParams.maxLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25877" bodyend="25878"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::LineInterpolationParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.LineInterpolationParams</label>
+        <link refid="classmrmeshpy_1_1LineInterpolationParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cb</edgelabel>
+          <edgelabel>_offsetof_eps</edgelabel>
+          <edgelabel>_offsetof_maxLength</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25823" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25823" bodyend="25878"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1adb1a28909c24dca017aeffc9a94698b5" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1accefade69a75605164f050f233b457c2" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1a72daed04249324e855f08084b436c805" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1aeefc8972a71955f50ea41b0e2e2d3fa9" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1a1b06d688a8708dccb69c40840deb67c6" prot="protected" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>_offsetof_cb</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1a81514c3009cfcb4514c10261ea422cf1" prot="protected" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>_offsetof_eps</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1ab3728eda2e50dea3329b8cbcd3fbc2f1" prot="protected" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>_offsetof_maxLength</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1a050ed3ca1b4396cf03a1dee8dd3320b7" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1ab07a091618976d193adee5f08db97523" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>cb</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1aca724297064c6209fa844768ec6b31a6" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>eps</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1a85230b272df9d188499cfe7842331492" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>eps</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1a522ca900177bdf867e62793d82e154cd" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>maxLength</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1aa6bdd0bdc3ae2d3faab7a9af5ab11fb9" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>maxLength</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1a6c7dfb0b5fa41f21d0b4795a53c266a6" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1LineInterpolationParams_1a6c7dfb0b5fa41f21d0b4795a53c266a6" prot="public" virt="non-virtual"><scope>mrmeshpy::LineInterpolationParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

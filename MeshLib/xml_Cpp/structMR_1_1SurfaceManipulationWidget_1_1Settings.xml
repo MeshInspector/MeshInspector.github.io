@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SurfaceManipulationWidget_1_1Settings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SurfaceManipulationWidget::Settings</compoundname>
+    <includes refid="MRSurfaceManipulationWidget_8h" local="no">MRSurfaceManipulationWidget.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga112aadc006f7ece0404c1cbe603783cd" kind="variable"><name>workMode</name></member>
+      <member refid="group__GeneralGroup_1ga39181874053a773d7db01166de8a0c7b" kind="variable"><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga2d31568cac0bf19969e4cc51dc854a14" kind="variable"><name>relaxForce</name></member>
+      <member refid="group__GeneralGroup_1gab14405334e68a28589b518f7764d2176" kind="variable"><name>editForce</name></member>
+      <member refid="group__GeneralGroup_1gac91503b98cd4530afb0bafe21f09b924" kind="variable"><name>sharpness</name></member>
+      <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" kind="variable"><name>relaxForceAfterEdit</name></member>
+      <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" kind="variable"><name>edgeWeights</name></member>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref> change settings. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" line="49" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSurfaceManipulationWidget.h" bodystart="50" bodyend="58"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2bf410c025634089f22b3341825cd20b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>edgeWeights</name></member>
+      <member refid="group__GeneralGroup_1gab14405334e68a28589b518f7764d2176" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>editForce</name></member>
+      <member refid="group__GeneralGroup_1ga39181874053a773d7db01166de8a0c7b" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga2d31568cac0bf19969e4cc51dc854a14" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForce</name></member>
+      <member refid="group__GeneralGroup_1gab3d9e28df35121c177e6e2eead86a43a" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>relaxForceAfterEdit</name></member>
+      <member refid="group__GeneralGroup_1gac91503b98cd4530afb0bafe21f09b924" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>sharpness</name></member>
+      <member refid="group__GeneralGroup_1ga112aadc006f7ece0404c1cbe603783cd" prot="public" virt="non-virtual"><scope>MR::SurfaceManipulationWidget::Settings</scope><name>workMode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

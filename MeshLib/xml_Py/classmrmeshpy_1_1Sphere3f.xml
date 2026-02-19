@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Sphere3f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Sphere3f</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Sphere3f_1ad3af8ddaebec107303bceb777a20f7a3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Sphere3f::_offsetof_center</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_center</name>
+        <qualifiedname>mrmeshpy.Sphere3f._offsetof_center</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Sphere3f_1a1cc1feaa4f0d91ffa8a64bea4b1c3f9f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Sphere3f::_offsetof_radius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_radius</name>
+        <qualifiedname>mrmeshpy.Sphere3f._offsetof_radius</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53112" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1a32d9c460a2523d50052da2a28bc6aa8e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Sphere3f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Sphere3f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53117" bodyend="53118"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1aba8a9026cd4427fdaff02b33f042e6e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+        <definition> Sphere3f mrmeshpy.Sphere3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Sphere3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53121" bodyend="53122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1aba8a9026cd4427fdaff02b33f042e6e4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+        <definition> Sphere3f mrmeshpy.Sphere3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Sphere3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53125" bodyend="53126"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1a6c29dd8030787f99192b60f2826cde6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Sphere3f.__eq__</definition>
+        <argsstring>(self, Sphere3f b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.Sphere3f.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53127" bodyend="53128"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1a9908dc9c7543620afaad3f0da1b6ce39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Sphere3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Sphere3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53130" bodyend="53131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1a7dc9619a5274657352ca57f86aaaee2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Sphere3f.__init__</definition>
+        <argsstring>(self, Vector3f c, float r)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Sphere3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>r</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53133" bodyend="53134"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1ab4f20fc7e17397d15e324f41e776c568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Sphere3f.__init__</definition>
+        <argsstring>(self, Sphere3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Sphere3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Sphere3f" kindref="compound">Sphere3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53136" bodyend="53139"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1ad7f11a90785e736e4dbd2bdca033ebc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Sphere3f.distance</definition>
+        <argsstring>(self, Vector3f x)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.Sphere3f.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns signed distance from given point to this sphere:
+positive - outside, zero - on sphere, negative - inside
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53140" bodyend="53144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1aaa8d25d90633e523d92c24efc66813dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Sphere3f.distanceSq</definition>
+        <argsstring>(self, Vector3f x)</argsstring>
+        <name>distanceSq</name>
+        <qualifiedname>mrmeshpy.Sphere3f.distanceSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns squared distance from given point to this sphere
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53145" bodyend="53148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Sphere3f_1a24039767ab0d96690bddcb68127b7a90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.Sphere3f.project</definition>
+        <argsstring>(self, Vector3f x)</argsstring>
+        <name>project</name>
+        <qualifiedname>mrmeshpy.Sphere3f.project</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>finds the closest point on sphere
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53149" bodyend="53152"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Sphere3f
+Aliases:  Features.Primitives.Sphere
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Sphere3f</label>
+        <link refid="classmrmeshpy_1_1Sphere3f"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_center</edgelabel>
+          <edgelabel>_offsetof_radius</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53106" bodyend="53152"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Sphere3f_1a6c29dd8030787f99192b60f2826cde6e" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1a32d9c460a2523d50052da2a28bc6aa8e" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1a9908dc9c7543620afaad3f0da1b6ce39" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1a7dc9619a5274657352ca57f86aaaee2a" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1ab4f20fc7e17397d15e324f41e776c568" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1ad3af8ddaebec107303bceb777a20f7a3" prot="protected" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>_offsetof_center</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1a1cc1feaa4f0d91ffa8a64bea4b1c3f9f" prot="protected" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>_offsetof_radius</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1ad7f11a90785e736e4dbd2bdca033ebc9" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1aaa8d25d90633e523d92c24efc66813dd" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>distanceSq</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1aba8a9026cd4427fdaff02b33f042e6e4" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1aba8a9026cd4427fdaff02b33f042e6e4" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Sphere3f_1a24039767ab0d96690bddcb68127b7a90" prot="public" virt="non-virtual"><scope>mrmeshpy::Sphere3f</scope><name>project</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

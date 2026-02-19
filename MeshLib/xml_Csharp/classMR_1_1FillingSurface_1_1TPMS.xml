@@ -1,0 +1,371 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FillingSurface_1_1TPMS" kind="class" language="C#" prot="public">
+    <compoundname>MR::FillingSurface::TPMS</compoundname>
+    <innerclass refid="classMR_1_1FillingSurface_1_1TPMS_1_1MeshParams" prot="public">MR::FillingSurface::TPMS::MeshParams</innerclass>
+    <innerclass refid="classMR_1_1FillingSurface_1_1TPMS_1_1VolumeParams" prot="public">MR::FillingSurface::TPMS::VolumeParams</innerclass>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" prot="public" static="no" strong="yes">
+        <type>int</type>
+        <name>Type</name>
+        <qualifiedname>MR.FillingSurface.TPMS.Type</qualifiedname>
+        <enumvalue id="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fac5a9b2c32efbe37da8a1e10009be8b77" prot="public">
+          <name>SchwartzP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fa33d268fa4f51c6af6e70dc55335e76aa" prot="public">
+          <name>ThickSchwartzP</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fa5ac1f3e35d09d52b4e556936581cef44" prot="public">
+          <name>DoubleGyroid</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fa9e3f153bc66d4e5028f2843a44894038" prot="public">
+          <name>ThickGyroid</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63fae93f994f01c537c4e2f7d8528c3eb5e9" prot="public">
+          <name>Count</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Supported types of <ref refid="classMR_1_1FillingSurface_1_1TPMS" kindref="compound">TPMS</ref> (Triply Periodic Minimal Surfaces) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="10" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="11" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a6cb3a384d4edec3f6a938d995eddf745" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>static unsafe MR.Std.Vector_StdString MR.FillingSurface.TPMS.getTypeNames</definition>
+        <argsstring>()</argsstring>
+        <name>getTypeNames</name>
+        <qualifiedname>MR.FillingSurface.TPMS.getTypeNames</qualifiedname>
+        <briefdescription>
+<para>Returns the names for each type of filling Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a6cb3a384d4edec3f6a938d995eddf745" kindref="member">MR.FillingSurface.TPMS.getTypeNames</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="780" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="780" bodyend="785"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a4652e0397c180bb843116892a0387beb" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_StdString</type>
+        <definition>static unsafe MR.Std.Vector_StdString MR.FillingSurface.TPMS.getTypeTooltips</definition>
+        <argsstring>()</argsstring>
+        <name>getTypeTooltips</name>
+        <qualifiedname>MR.FillingSurface.TPMS.getTypeTooltips</qualifiedname>
+        <briefdescription>
+<para>Returns the tooltips for each type of filling Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a4652e0397c180bb843116892a0387beb" kindref="member">MR.FillingSurface.TPMS.getTypeTooltips</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="791" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="791" bodyend="796"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a794222466a41b63aca2c74e931af0e58" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool MR.FillingSurface.TPMS.isThick</definition>
+        <argsstring>(MR.FillingSurface.TPMS.Type type)</argsstring>
+        <name>isThick</name>
+        <qualifiedname>MR.FillingSurface.TPMS.isThick</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">MR.FillingSurface.TPMS.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Returns true if the <computeroutput>type</computeroutput> is thick Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a794222466a41b63aca2c74e931af0e58" kindref="member">MR.FillingSurface.TPMS.isThick</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="802" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="802" bodyend="807"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a731681c249d030c07a4d5cf34b6c8dd1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FunctionVolume" kindref="compound">MR.FunctionVolume</ref></type>
+        <definition>static unsafe MR.FunctionVolume MR.FillingSurface.TPMS.buildVolume</definition>
+        <argsstring>(in MR.Vector3f size, MR.FillingSurface.TPMS.Const_VolumeParams params_)</argsstring>
+        <name>buildVolume</name>
+        <qualifiedname>MR.FillingSurface.TPMS.buildVolume</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.FillingSurface.TPMS.Const_VolumeParams</type>
+          <declname>params_</declname>
+        </param>
+        <briefdescription>
+<para>Construct <ref refid="classMR_1_1FillingSurface_1_1TPMS" kindref="compound">TPMS</ref> using implicit function (<ulink url="https://www.researchgate.net/publication/350658078_Computational_method_and_program_for_generating_a_porous_scaffold_based_on_implicit_surfaces">https://www.researchgate.net/publication/350658078_Computational_method_and_program_for_generating_a_porous_scaffold_based_on_implicit_surfaces</ulink>) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Size of the cube with the surface </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Distance-volume starting at (0, 0, 0) and having specified <computeroutput>size</computeroutput> Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a731681c249d030c07a4d5cf34b6c8dd1" kindref="member">MR.FillingSurface.TPMS.buildVolume</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="815" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="815" bodyend="823"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a758befd38db55e30feb23cd10eac637f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.FillingSurface.TPMS.build</definition>
+        <argsstring>(in MR.Vector3f size, MR.FillingSurface.TPMS.Const_MeshParams params_, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>build</name>
+        <qualifiedname>MR.FillingSurface.TPMS.build</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>MR.FillingSurface.TPMS.Const_MeshParams</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Constructs <ref refid="classMR_1_1FillingSurface_1_1TPMS" kindref="compound">TPMS</ref> level-set and then convert it to mesh Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a758befd38db55e30feb23cd10eac637f" kindref="member">MR.FillingSurface.TPMS.build</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="830" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="830" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a4c90b2e33f19a14077bb322fe7e7bcca" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Mesh" kindref="compound">MR.Mesh</ref></type>
+        <definition>static unsafe MR.Mesh MR.FillingSurface.TPMS.fill</definition>
+        <argsstring>(MR.Const_Mesh mesh, MR.FillingSurface.TPMS.Const_MeshParams params_, MR.Std._ByValue_Function_BoolFuncFromFloat? cb=null)</argsstring>
+        <name>fill</name>
+        <qualifiedname>MR.FillingSurface.TPMS.fill</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>MR.FillingSurface.TPMS.Const_MeshParams</type>
+          <declname>params_</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>cb</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Constructs TPMS-filling for the given <computeroutput>mesh</computeroutput> Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a4c90b2e33f19a14077bb322fe7e7bcca" kindref="member">MR.FillingSurface.TPMS.fill</ref></computeroutput>. Parameter <computeroutput>cb</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="848" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="848" bodyend="856"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a19451f3ac8dda2505a3ce675483b1ff4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.FillingSurface.TPMS.getNumberOfVoxels</definition>
+        <argsstring>(MR.Const_Mesh mesh, float frequency, float resolution)</argsstring>
+        <name>getNumberOfVoxels</name>
+        <qualifiedname>MR.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
+        <param>
+          <type>MR.Const_Mesh</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+<para>Returns number of voxels that would be used to perform fillWithTPMS Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a19451f3ac8dda2505a3ce675483b1ff4" kindref="member">MR.FillingSurface.TPMS.getNumberOfVoxels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="862" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="862" bodyend="867"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a644b1fc95f32231431fc0bce4322c71b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ulong</type>
+        <definition>static unsafe ulong MR.FillingSurface.TPMS.getNumberOfVoxels</definition>
+        <argsstring>(in MR.Vector3f size, float frequency, float resolution)</argsstring>
+        <name>getNumberOfVoxels</name>
+        <qualifiedname>MR.FillingSurface.TPMS.getNumberOfVoxels</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>frequency</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>resolution</declname>
+        </param>
+        <briefdescription>
+<para>Returns number of voxels that would be used to perform buildTPMS or buildTPMSVolume Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a19451f3ac8dda2505a3ce675483b1ff4" kindref="member">MR.FillingSurface.TPMS.getNumberOfVoxels</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="873" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="873" bodyend="881"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1a7610cda37cb3ea978778a79919dda21e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float MR.FillingSurface.TPMS.estimateIso</definition>
+        <argsstring>(MR.FillingSurface.TPMS.Type type, float targetDensity)</argsstring>
+        <name>estimateIso</name>
+        <qualifiedname>MR.FillingSurface.TPMS.estimateIso</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">MR.FillingSurface.TPMS.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetDensity</declname>
+        </param>
+        <briefdescription>
+<para>Returns approximated ISO value corresponding to the given density. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>targetDensity</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value in [0; 1] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value in [-1; 1] Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1a7610cda37cb3ea978778a79919dda21e" kindref="member">MR.FillingSurface.TPMS.estimateIso</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="889" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="889" bodyend="894"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1aff112ae218c53d4945da8afcd5c73a27" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float MR.FillingSurface.TPMS.estimateDensity</definition>
+        <argsstring>(MR.FillingSurface.TPMS.Type type, float targetIso)</argsstring>
+        <name>estimateDensity</name>
+        <qualifiedname>MR.FillingSurface.TPMS.estimateDensity</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">MR.FillingSurface.TPMS.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>targetIso</declname>
+        </param>
+        <briefdescription>
+<para>Returns approximate density corresponding to the given ISO value. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>targetIso</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>value in [-1; 1] </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Value in [0; 1] Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1aff112ae218c53d4945da8afcd5c73a27" kindref="member">MR.FillingSurface.TPMS.estimateDensity</ref></computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="902" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="902" bodyend="907"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FillingSurface_1_1TPMS_1abd47d60ffe2b0a734f448623a89c2349" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>static float MR.FillingSurface.TPMS.getMinimalResolution</definition>
+        <argsstring>(MR.FillingSurface.TPMS.Type type, float iso)</argsstring>
+        <name>getMinimalResolution</name>
+        <qualifiedname>MR.FillingSurface.TPMS.getMinimalResolution</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" kindref="member">MR.FillingSurface.TPMS.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>iso</declname>
+        </param>
+        <briefdescription>
+<para>Returns minimal reasonable resolution for given parameters Generated from function <computeroutput><ref refid="classMR_1_1FillingSurface_1_1TPMS_1abd47d60ffe2b0a734f448623a89c2349" kindref="member">MR.FillingSurface.TPMS.getMinimalResolution</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="913" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="913" bodyend="918"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" line="5" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRFillingSurface.cs" bodystart="775" bodyend="919"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a758befd38db55e30feb23cd10eac637f" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>build</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a731681c249d030c07a4d5cf34b6c8dd1" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>buildVolume</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1aff112ae218c53d4945da8afcd5c73a27" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>estimateDensity</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a7610cda37cb3ea978778a79919dda21e" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>estimateIso</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a4c90b2e33f19a14077bb322fe7e7bcca" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>fill</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1abd47d60ffe2b0a734f448623a89c2349" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getMinimalResolution</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a19451f3ac8dda2505a3ce675483b1ff4" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a644b1fc95f32231431fc0bce4322c71b" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getNumberOfVoxels</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a6cb3a384d4edec3f6a938d995eddf745" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getTypeNames</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a4652e0397c180bb843116892a0387beb" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>getTypeTooltips</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1a794222466a41b63aca2c74e931af0e58" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>isThick</name></member>
+      <member refid="classMR_1_1FillingSurface_1_1TPMS_1aa0042e4e52a341abae2d86e3f384c63f" prot="public" virt="non-virtual"><scope>MR::FillingSurface::TPMS</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TrivialMetricToPenalty" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TrivialMetricToPenalty</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TrivialMetricToPenalty_1a7aeda9b288810c8f88d8db6fa2f317f4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.TrivialMetricToPenalty.__call__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.TrivialMetricToPenalty.__call__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58439" bodyend="58440"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrivialMetricToPenalty_1a8ab166a7b93dec2465e1056d21e29b95" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrivialMetricToPenalty.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TrivialMetricToPenalty.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58443" bodyend="58444"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrivialMetricToPenalty_1af2aa6108ff0c31264e29bb700af73bd0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TrivialMetricToPenalty" kindref="compound">TrivialMetricToPenalty</ref></type>
+        <definition> TrivialMetricToPenalty mrmeshpy.TrivialMetricToPenalty.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TrivialMetricToPenalty.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58447" bodyend="58448"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrivialMetricToPenalty_1af2aa6108ff0c31264e29bb700af73bd0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TrivialMetricToPenalty" kindref="compound">TrivialMetricToPenalty</ref></type>
+        <definition> TrivialMetricToPenalty mrmeshpy.TrivialMetricToPenalty.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TrivialMetricToPenalty.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58451" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58451" bodyend="58452"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TrivialMetricToPenalty_1a433e3293da4f92419e0052848408fda1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrivialMetricToPenalty.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TrivialMetricToPenalty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58454" bodyend="58455"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrivialMetricToPenalty_1a840eceb9274ef4b949d2182831672493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrivialMetricToPenalty.__init__</definition>
+        <argsstring>(self, TrivialMetricToPenalty arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TrivialMetricToPenalty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TrivialMetricToPenalty" kindref="compound">TrivialMetricToPenalty</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58457" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58457" bodyend="58460"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TrivialMetricToPenalty_1a433e3293da4f92419e0052848408fda1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TrivialMetricToPenalty.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TrivialMetricToPenalty.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58462" bodyend="58465"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TrivialMetricToPenalty
+
+the vertices in the queue are ordered by their metric from a start location
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="58432" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="58432" bodyend="58465"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TrivialMetricToPenalty_1a7aeda9b288810c8f88d8db6fa2f317f4" prot="public" virt="non-virtual"><scope>mrmeshpy::TrivialMetricToPenalty</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1TrivialMetricToPenalty_1a8ab166a7b93dec2465e1056d21e29b95" prot="public" virt="non-virtual"><scope>mrmeshpy::TrivialMetricToPenalty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TrivialMetricToPenalty_1a433e3293da4f92419e0052848408fda1" prot="public" virt="non-virtual"><scope>mrmeshpy::TrivialMetricToPenalty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TrivialMetricToPenalty_1a840eceb9274ef4b949d2182831672493" prot="public" virt="non-virtual"><scope>mrmeshpy::TrivialMetricToPenalty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TrivialMetricToPenalty_1a433e3293da4f92419e0052848408fda1" prot="public" virt="non-virtual"><scope>mrmeshpy::TrivialMetricToPenalty</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TrivialMetricToPenalty_1af2aa6108ff0c31264e29bb700af73bd0" prot="public" virt="non-virtual"><scope>mrmeshpy::TrivialMetricToPenalty</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TrivialMetricToPenalty_1af2aa6108ff0c31264e29bb700af73bd0" prot="public" virt="non-virtual"><scope>mrmeshpy::TrivialMetricToPenalty</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

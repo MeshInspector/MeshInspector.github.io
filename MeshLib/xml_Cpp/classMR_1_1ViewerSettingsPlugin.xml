@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ViewerSettingsPlugin" kind="class" language="C++" prot="public">
+    <compoundname>MR::ViewerSettingsPlugin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR::StatePlugin</basecompoundref>
+    <includes refid="MRViewerSettingsPlugin_8h" local="no">MRViewerSettingsPlugin.h</includes>
+    <innerclass refid="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" prot="public">MR::ViewerSettingsPlugin::ExternalSettings</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" kind="enum"><name>TabType</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga047afd56c4798c48f7121ad62c733259" kind="variable"><name>storedSamples_</name></member>
+      <member refid="group__GeneralGroup_1gaa024a5be3baa23b2286b5098bdda431e" kind="variable"><name>maxSamples_</name></member>
+      <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" kind="variable"><name>gpuOverridesMSAA_</name></member>
+      <member refid="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" kind="variable"><name>tempUserScaling_</name></member>
+      <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" kind="variable"><name>backgroundColor_</name></member>
+      <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" kind="variable"><name>selectedUserPreset_</name></member>
+      <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" kind="variable"><name>userThemesPresets_</name></member>
+      <member refid="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" kind="variable"><name>shadowGl_</name></member>
+      <member refid="group__GeneralGroup_1gaa0a0d9dbeaa39b7725d50966e9652537" kind="variable"><name>spaceMouseParams_</name></member>
+      <member refid="group__GeneralGroup_1ga0d02884daef68b9090f2fc24899467bd" kind="variable"><name>touchpadParameters_</name></member>
+      <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" kind="variable"><name>activeTab_</name></member>
+      <member refid="group__GeneralGroup_1ga9b2fe6e3312bc4374c221800fe40b4c5" kind="variable"><name>orderedTab_</name></member>
+      <member refid="group__GeneralGroup_1ga70f10bd29105edf9ee71c6dd68ef5c9b" kind="variable"><name>comboSettings_</name></member>
+      <member refid="group__GeneralGroup_1gadcbd14e9b8681ce364c9edc3a665e582" kind="variable"><name>mruFormatParameters_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" kind="function"><name>ViewerSettingsPlugin</name></member>
+      <member refid="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" kind="function"><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" kind="function"><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1gae579b363d0283ded6914225b425efd99" kind="function"><name>updateThemes</name></member>
+      <member refid="group__GeneralGroup_1gacf4f908a53429634d394195587aabb59" kind="function"><name>addComboSettings</name></member>
+      <member refid="group__GeneralGroup_1ga25d8a5c93929180a4b438d21afe8cb02" kind="function"><name>delComboSettings</name></member>
+      <member refid="group__GeneralGroup_1gaa3fd8eed1495a80edbc79bc1dc67e298" kind="function"><name>setActiveTab</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gaf0e9b4bd0c8a80ad3d40a02b51c16523" kind="function"><name>instance</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" kind="function"><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga8a96ddb6300fd5de84ba523be91b69dc" kind="function"><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" kind="function"><name>drawTab_</name></member>
+      <member refid="group__GeneralGroup_1gab3385c270312c2f8341855336aeec56a" kind="function"><name>drawQuickTab_</name></member>
+      <member refid="group__GeneralGroup_1gaad5ed50d043abbea26da2853f14bfda1" kind="function"><name>drawApplicationTab_</name></member>
+      <member refid="group__GeneralGroup_1ga10ae128bccb0b8e1b585c02fc6f9d85b" kind="function"><name>drawControlTab_</name></member>
+      <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" kind="function"><name>drawViewportTab_</name></member>
+      <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" kind="function"><name>drawMeasurementUnitsTab_</name></member>
+      <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" kind="function"><name>drawFeaturesTab_</name></member>
+      <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" kind="function"><name>drawThemeSelector_</name></member>
+      <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" kind="function"><name>drawResetDialog_</name></member>
+      <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" kind="function"><name>drawShadingModeCombo_</name></member>
+      <member refid="group__GeneralGroup_1gacd285192fd635b1db7826fa81a3a0838" kind="function"><name>drawProjectionModeSelector_</name></member>
+      <member refid="group__GeneralGroup_1gae12ce4a6d6a8278cbe7275f3b1a8309d" kind="function"><name>drawUpDirectionSelector_</name></member>
+      <member refid="group__GeneralGroup_1ga772fb6f5b307f57aa572bc60c7c03a16" kind="function"><name>drawBackgroundButton_</name></member>
+      <member refid="group__GeneralGroup_1gac41934b462a7ecf5a513279f7ad3c577" kind="function"><name>drawRenderOptions_</name></member>
+      <member refid="group__GeneralGroup_1gaf4cbb91c1e84bebd995c89284084c03d" kind="function"><name>drawShadowsOptions_</name></member>
+      <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" kind="function"><name>drawMouseSceneControlsSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" kind="function"><name>drawSpaceMouseSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" kind="function"><name>drawTouchpadSettings_</name></member>
+      <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" kind="function"><name>drawMruInnerFormats_</name></member>
+      <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" kind="function"><name>drawGlobalSettings_</name></member>
+      <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" kind="function"><name>drawCustomSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga44560a17a160565e9cf3acfe603f0dc4" kind="function"><name>drawSeparator_</name></member>
+      <member refid="group__GeneralGroup_1gad21a2705e7ef20d2834f543c459d1df2" kind="function"><name>updateDialog_</name></member>
+      <member refid="group__GeneralGroup_1gab62082b112c1ef416c167b16137cc397" kind="function"><name>resetSettings_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::StatePlugin</label>
+      </node>
+      <node id="1">
+        <label>MR::ViewerSettingsPlugin</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::StatePlugin</label>
+      </node>
+      <node id="1">
+        <label>MR::ViewerSettingsPlugin</label>
+        <link refid="classMR_1_1ViewerSettingsPlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="19" bodyend="129"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaca69b2de3f466e977b398c0155b02cca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>activeTab_</name></member>
+      <member refid="group__GeneralGroup_1gacf4f908a53429634d394195587aabb59" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>addComboSettings</name></member>
+      <member refid="group__GeneralGroup_1gad8e0bf4467ab87e19a5146de2385bebf" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>backgroundColor_</name></member>
+      <member refid="group__GeneralGroup_1gac31f0ed7c0847408208b9cd59d7a9c40" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga70f10bd29105edf9ee71c6dd68ef5c9b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>comboSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga25d8a5c93929180a4b438d21afe8cb02" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>delComboSettings</name></member>
+      <member refid="group__GeneralGroup_1gaad5ed50d043abbea26da2853f14bfda1" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawApplicationTab_</name></member>
+      <member refid="group__GeneralGroup_1ga772fb6f5b307f57aa572bc60c7c03a16" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawBackgroundButton_</name></member>
+      <member refid="group__GeneralGroup_1ga10ae128bccb0b8e1b585c02fc6f9d85b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawControlTab_</name></member>
+      <member refid="group__GeneralGroup_1gac234fd8124156d65a822970b7bae04e4" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawCustomSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga119e03f41d8f3bdf0c9ee522b8ad623b" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gac0b210ec574cb25b96da4341d73ca739" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawFeaturesTab_</name></member>
+      <member refid="group__GeneralGroup_1ga7412713a4282acc0801fa920257f186b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawGlobalSettings_</name></member>
+      <member refid="group__GeneralGroup_1gae73ebe4fc5fbaacc509b057b6b37f706" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMeasurementUnitsTab_</name></member>
+      <member refid="group__GeneralGroup_1ga0240b21d67858fb8936910ca704e1696" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMouseSceneControlsSettings_</name></member>
+      <member refid="group__GeneralGroup_1gafe777332677939f6435d570ff8e55576" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawMruInnerFormats_</name></member>
+      <member refid="group__GeneralGroup_1gacd285192fd635b1db7826fa81a3a0838" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawProjectionModeSelector_</name></member>
+      <member refid="group__GeneralGroup_1gab3385c270312c2f8341855336aeec56a" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawQuickTab_</name></member>
+      <member refid="group__GeneralGroup_1gac41934b462a7ecf5a513279f7ad3c577" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawRenderOptions_</name></member>
+      <member refid="group__GeneralGroup_1gaa94c7740d8768bea22b1114c584883ca" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawResetDialog_</name></member>
+      <member refid="group__GeneralGroup_1ga44560a17a160565e9cf3acfe603f0dc4" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawSeparator_</name></member>
+      <member refid="group__GeneralGroup_1ga80dda1a25e5eddabe65d33ba1bed73b6" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawShadingModeCombo_</name></member>
+      <member refid="group__GeneralGroup_1gaf4cbb91c1e84bebd995c89284084c03d" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawShadowsOptions_</name></member>
+      <member refid="group__GeneralGroup_1ga9076c9b9fe889480701ac78798e5d8df" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawSpaceMouseSettings_</name></member>
+      <member refid="group__GeneralGroup_1gad0d7089f5aed92e160f44e7a9ce9202b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawTab_</name></member>
+      <member refid="group__GeneralGroup_1ga178fbd197fcc5841a9b7f49cbb636c26" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawThemeSelector_</name></member>
+      <member refid="group__GeneralGroup_1ga602bbca830ae850c60ff9d98f7316a3b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawTouchpadSettings_</name></member>
+      <member refid="group__GeneralGroup_1gae12ce4a6d6a8278cbe7275f3b1a8309d" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawUpDirectionSelector_</name></member>
+      <member refid="group__GeneralGroup_1ga16cf2c5207d54ec49bcec97a70927cab" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>drawViewportTab_</name></member>
+      <member refid="group__GeneralGroup_1ga8b0d0e857bc86e82e9aafaa8c2fb3a9b" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>gpuOverridesMSAA_</name></member>
+      <member refid="group__GeneralGroup_1gaf0e9b4bd0c8a80ad3d40a02b51c16523" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1gaa024a5be3baa23b2286b5098bdda431e" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>maxSamples_</name></member>
+      <member refid="group__GeneralGroup_1gadcbd14e9b8681ce364c9edc3a665e582" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>mruFormatParameters_</name></member>
+      <member refid="group__GeneralGroup_1ga8a96ddb6300fd5de84ba523be91b69dc" prot="private" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1gad68314882fab9a5eb41c7e70678268cd" prot="private" virt="virtual"><scope>MR::ViewerSettingsPlugin</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga9b2fe6e3312bc4374c221800fe40b4c5" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>orderedTab_</name></member>
+      <member refid="group__GeneralGroup_1gab62082b112c1ef416c167b16137cc397" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>resetSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga3144773dd6c0dfbccac2fd853c86bb33" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>selectedUserPreset_</name></member>
+      <member refid="group__GeneralGroup_1gaa3fd8eed1495a80edbc79bc1dc67e298" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>setActiveTab</name></member>
+      <member refid="group__GeneralGroup_1ga0f3ad2977cefa7607eb755063d711774" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>shadowGl_</name></member>
+      <member refid="group__GeneralGroup_1gaa0a0d9dbeaa39b7725d50966e9652537" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>spaceMouseParams_</name></member>
+      <member refid="group__GeneralGroup_1ga047afd56c4798c48f7121ad62c733259" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>storedSamples_</name></member>
+      <member refid="group__GeneralGroup_1gafeeff27006fc4c615527cbd2c08c552b" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>TabType</name></member>
+      <member refid="group__GeneralGroup_1ga7804450cb17708be19bec3d0981128cd" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>tempUserScaling_</name></member>
+      <member refid="group__GeneralGroup_1ga0d02884daef68b9090f2fc24899467bd" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>touchpadParameters_</name></member>
+      <member refid="group__GeneralGroup_1gad21a2705e7ef20d2834f543c459d1df2" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateDialog_</name></member>
+      <member refid="group__GeneralGroup_1gae579b363d0283ded6914225b425efd99" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>updateThemes</name></member>
+      <member refid="group__GeneralGroup_1gad4388798318e29736315d5a9cb21ebb0" prot="private" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>userThemesPresets_</name></member>
+      <member refid="group__GeneralGroup_1ga4fda238acd33621d265e12dff2282e03" prot="public" virt="non-virtual"><scope>MR::ViewerSettingsPlugin</scope><name>ViewerSettingsPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

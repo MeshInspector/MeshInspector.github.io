@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonNotification" kind="struct" language="C++" prot="public">
+    <compoundname>MR::RibbonNotification</compoundname>
+    <includes refid="MRRibbonNotification_8h" local="no">MRRibbonNotification.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga22ab6a5e3459fed757c4443f8d3ad51a" kind="typedef"><name>OnButtonClick</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga40618c97689369cde22e2db71719697e" kind="variable"><name>onButtonClick</name></member>
+      <member refid="group__GeneralGroup_1ga156a1963010372c4c838def5344897ab" kind="variable"><name>buttonName</name></member>
+      <member refid="group__GeneralGroup_1gae5f28ba6936128a2d39825de578e9bb2" kind="variable"><name>header</name></member>
+      <member refid="group__GeneralGroup_1ga4da1179863d307c12ec913c673695c06" kind="variable"><name>text</name></member>
+      <member refid="group__GeneralGroup_1ga9a3ccb0e6e8a56c16b1f5b4bf1ee2490" kind="variable"><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga9f52a5c95f7b36adb01f422c470f7362" kind="variable"><name>lifeTimeSec</name></member>
+      <member refid="group__GeneralGroup_1ga2074bc13c9424073e04d319984ae6d49" kind="variable"><name>tags</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa700fd6a10257ff9d1efe1d00dcb64dc" kind="function"><name>operator==</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="40" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="41" bodyend="63"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga156a1963010372c4c838def5344897ab" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>buttonName</name></member>
+      <member refid="group__GeneralGroup_1gae5f28ba6936128a2d39825de578e9bb2" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>header</name></member>
+      <member refid="group__GeneralGroup_1ga9f52a5c95f7b36adb01f422c470f7362" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>lifeTimeSec</name></member>
+      <member refid="group__GeneralGroup_1ga22ab6a5e3459fed757c4443f8d3ad51a" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>OnButtonClick</name></member>
+      <member refid="group__GeneralGroup_1ga40618c97689369cde22e2db71719697e" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>onButtonClick</name></member>
+      <member refid="group__GeneralGroup_1gaa700fd6a10257ff9d1efe1d00dcb64dc" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga2074bc13c9424073e04d319984ae6d49" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>tags</name></member>
+      <member refid="group__GeneralGroup_1ga4da1179863d307c12ec913c673695c06" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>text</name></member>
+      <member refid="group__GeneralGroup_1ga9a3ccb0e6e8a56c16b1f5b4bf1ee2490" prot="public" virt="non-virtual"><scope>MR::RibbonNotification</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

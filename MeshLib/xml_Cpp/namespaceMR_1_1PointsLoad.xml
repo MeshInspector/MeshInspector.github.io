@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1PointsLoad" kind="namespace" language="C++">
+    <compoundname>MR::PointsLoad</compoundname>
+    <innerclass refid="structMR_1_1PointsLoad_1_1E57LoadSettings" prot="public">MR::PointsLoad::E57LoadSettings</innerclass>
+    <innerclass refid="structMR_1_1PointsLoad_1_1NamedCloud" prot="public">MR::PointsLoad::NamedCloud</innerclass>
+    <innerclass refid="structMR_1_1PointsLoad_1_1PointsLoader" prot="public">MR::PointsLoad::PointsLoader</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1PointsLoad_1acaeabf1d4cced15a0961b626a6e9b868" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;(*)(const std::filesystem::path &amp;, const <ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref> &amp;)</type>
+        <definition>using MR::PointsLoad::PointsFileLoader =  Expected&lt;PointCloud&gt;( * )( const std::filesystem::path&amp;, const PointsLoadSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>PointsFileLoader</name>
+        <qualifiedname>MR::PointsLoad::PointsFileLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1PointsLoad_1a0f81139db68679c906d09ff033071478" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;(*)(std::istream &amp;, const <ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref> &amp;)</type>
+        <definition>using MR::PointsLoad::PointsStreamLoader =  Expected&lt;PointCloud&gt;( * )( std::istream&amp;, const PointsLoadSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>PointsStreamLoader</name>
+        <qualifiedname>MR::PointsLoad::PointsStreamLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1ga9b59aa67ceb07a2c286623b602b0df14" kind="function"><name>fromCtm</name></member>
+      <member refid="group__GeneralGroup_1gad0030f09e2896b2052ba028b90a6fbb7" kind="function"><name>fromCtm</name></member>
+      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1ad5e9f8e6672cc948a2e5206a91b2b261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; std::vector&lt; <ref refid="structMR_1_1PointsLoad_1_1NamedCloud" kindref="compound">NamedCloud</ref> &gt; &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; std::vector&lt; NamedCloud &gt; &gt; MR::PointsLoad::fromSceneE57File</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const E57LoadSettings &amp;settings={})</argsstring>
+        <name>fromSceneE57File</name>
+        <qualifiedname>MR::PointsLoad::fromSceneE57File</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PointsLoad_1_1E57LoadSettings" kindref="compound">E57LoadSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="41" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" declline="41" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1abd37d2ce03a3b80ed6007282794d1232" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromE57</definition>
+        <argsstring>(const std::filesystem::path &amp;file, const PointsLoadSettings &amp;settings={})</argsstring>
+        <name>fromE57</name>
+        <qualifiedname>MR::PointsLoad::fromE57</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>loads from .e57 file </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="45" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" declline="45" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1a017223f665d17204885688a9f3e0d66a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; PointCloud &gt; MR::PointsLoad::fromE57</definition>
+        <argsstring>(std::istream &amp;in, const PointsLoadSettings &amp;settings={})</argsstring>
+        <name>fromE57</name>
+        <qualifiedname>MR::PointsLoad::fromE57</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1PointsLoadSettings" kindref="compound">PointsLoadSettings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="47" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" declline="47" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1PointsLoad_1a0b7a6c4b1858171ee10c0d0af8ebd77b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRIOEXTRAS_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="structMR_1_1LoadedObjects" kindref="compound">LoadedObjects</ref> &gt;</type>
+        <definition>MRIOEXTRAS_API Expected&lt; LoadedObjects &gt; MR::PointsLoad::loadObjectFromE57</definition>
+        <argsstring>(const std::filesystem::path &amp;path, const ProgressCallback &amp;cb={})</argsstring>
+        <name>loadObjectFromE57</name>
+        <qualifiedname>MR::PointsLoad::loadObjectFromE57</qualifiedname>
+        <param>
+          <type>const std::filesystem::path &amp;</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" line="49" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRE57.h" declline="49" declcolumn="25"/>
+      </memberdef>
+      <member refid="group__GeneralGroup_1gab39953df84a0deacd37f047884a37372" kind="function"><name>fromLas</name></member>
+      <member refid="group__GeneralGroup_1gae4cbf7590e7b73675bbbdaa9fb468ac2" kind="function"><name>fromLas</name></member>
+      <member refid="group__IOGroup_1gaff1fcad8c4a57da6a7dc90d9fb1f2a56" kind="function"><name>fromText</name></member>
+      <member refid="group__IOGroup_1gab1a6e8a21cedba988c7ecaea8eda8d2c" kind="function"><name>fromText</name></member>
+      <member refid="group__IOGroup_1ga365add9d0f24601d5f6b167a7401409c" kind="function"><name>fromPts</name></member>
+      <member refid="group__IOGroup_1ga76499883ce907d382fed5d9522aadaa8" kind="function"><name>fromPts</name></member>
+      <member refid="group__IOGroup_1ga64740729d79ac47a437b07ade4cdd263" kind="function"><name>fromPly</name></member>
+      <member refid="group__IOGroup_1gabcb84700ed6a15a625e0033b4b70004b" kind="function"><name>fromPly</name></member>
+      <member refid="group__IOGroup_1ga397a19d78a3050dda279565c1962c330" kind="function"><name>fromObj</name></member>
+      <member refid="group__IOGroup_1gad4657017f48af1fe3829844adc135bf0" kind="function"><name>fromObj</name></member>
+      <member refid="group__IOGroup_1ga20c9e8324f81247ee337a60745ad7c8c" kind="function"><name>fromDxf</name></member>
+      <member refid="group__IOGroup_1ga750d0574c9ee2875720273d1f4c73e62" kind="function"><name>fromDxf</name></member>
+      <member refid="group__IOGroup_1gab0f629849bb97f655fcf29a1b3afd9fa" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__IOGroup_1ga9a63511b8cba2da2a8c8373fefc0a384" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__IOGroup_1ga7f50d8551f5f8f8aaa9a7175d5f639cc" kind="function"><name>telemetryLogSize</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1MeshSave" kindref="compound">MeshSave</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+<para>namespace <ref refid="namespaceMR_1_1LinesSave" kindref="compound">LinesSave</ref> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRIOExtras/MRCtm.h" line="58" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__IOFormatsRegistryGroup" kind="group">
+    <compoundname>IOFormatsRegistryGroup</compoundname>
+    <title>IO Formats Registry</title>
+    <innerclass refid="structMR_1_1MeshLoad_1_1MeshLoader" prot="public">MR::MeshLoad::MeshLoader</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__IOFormatsRegistryGroup_1gaf573976800f135f2ae1cc5430be86fb0" prot="public" static="no">
+        <type>Expected&lt; <ref refid="structMR_1_1Mesh" kindref="compound">MR::Mesh</ref> &gt;(*)(const std::filesystem::path &amp;, const MeshLoadSettings &amp;)</type>
+        <definition>using MR::MeshLoad::MeshFileLoader =  Expected&lt;MR::Mesh&gt;( * )( const std::filesystem::path&amp;, const MeshLoadSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>MeshFileLoader</name>
+        <qualifiedname>MR::MeshLoad::MeshFileLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="138" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="group__IOFormatsRegistryGroup_1ga485ea6956850ab0f801b945739a8a9d3" prot="public" static="no">
+        <type>Expected&lt; <ref refid="structMR_1_1Mesh" kindref="compound">MR::Mesh</ref> &gt;(*)(std::istream &amp;, const MeshLoadSettings &amp;)</type>
+        <definition>using MR::MeshLoad::MeshStreamLoader =  Expected&lt;MR::Mesh&gt;( * )( std::istream&amp;, const MeshLoadSettings&amp; )</definition>
+        <argsstring></argsstring>
+        <name>MeshStreamLoader</name>
+        <qualifiedname>MR::MeshLoad::MeshStreamLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="group__IOFormatsRegistryGroup_1ga5ee8e917fb46e839dd5ff1a5cb49fdeb" prot="public" static="no">
+        <name>MR_ADD_MESH_LOADER</name>
+        <param><defname>filter</defname></param>
+        <param><defname>loader</defname></param>
+        <initializer><ref refid="MROnInit_8h_1a97d3ce2d47b8492d5aee0f258780b227" kindref="member">MR_ON_INIT</ref> { using namespace MR::MeshLoad; setMeshLoader( filter, { static_cast&lt;MeshFileLoader&gt;( loader ), static_cast&lt;MeshStreamLoader&gt;( loader ) } ); };</initializer>
+        <briefdescription>
+<para>Register filter with loader function. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>loader function signature: Expected&lt;Mesh&gt; fromFormat( const std::filesystem::path&amp; path, const MeshLoadSettings&amp; settings ); example: MR_ADD_MESH_LOADER( IOFilter(&quot;Name of filter (.ext)&quot;,&quot;*.ext&quot;), fromFormat) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="155" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="155" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="define" id="group__IOFormatsRegistryGroup_1gaacf2f9b26a2c29111f029dfed6320630" prot="public" static="no">
+        <name>MR_ADD_MESH_LOADER_WITH_PRIORITY</name>
+        <param><defname>filter</defname></param>
+        <param><defname>loader</defname></param>
+        <param><defname>priority</defname></param>
+        <initializer><ref refid="MROnInit_8h_1a97d3ce2d47b8492d5aee0f258780b227" kindref="member">MR_ON_INIT</ref> { using namespace MR::MeshLoad; setMeshLoader( filter, { static_cast&lt;MeshFileLoader&gt;( loader ), static_cast&lt;MeshStreamLoader&gt;( loader ) }, priority ); };</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="158" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="158" bodyend="159"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

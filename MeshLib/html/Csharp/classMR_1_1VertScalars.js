@@ -2,6 +2,8 @@ var classMR_1_1VertScalars =
 [
     [ "VertScalars", "classMR_1_1VertScalars.html#aae2d91819546bf0ca11062e0ff7acb61", null ],
     [ "VertScalars", "classMR_1_1VertScalars.html#a6ed9431ea8f1a4b071af8d37c9ce986b", null ],
+    [ "VertScalars", "classMR_1_1VertScalars.html#a0954e402b0691d87b48876408cd6c083", null ],
+    [ "VertScalars", "classMR_1_1VertScalars.html#a5be7228708de6c94149e29b1357ee373", null ],
     [ "VertScalars", "classMR_1_1VertScalars.html#ab5cf4e40565c8eda1e052e810888792d", null ],
     [ "VertScalars", "classMR_1_1VertScalars.html#a4e2ad3b3ebacac61abf94fceca5e15fd", null ],
     [ "VertScalars", "classMR_1_1VertScalars.html#aae49fbdfe12e095510e0fd4c329e1384", null ],

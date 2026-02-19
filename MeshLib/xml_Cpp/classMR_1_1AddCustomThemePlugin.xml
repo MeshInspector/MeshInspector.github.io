@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AddCustomThemePlugin" kind="class" language="C++" prot="public">
+    <compoundname>MR::AddCustomThemePlugin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">StatePlugin</basecompoundref>
+    <includes refid="MRAddCustomTheme_8h" local="no">MRAddCustomTheme.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gac0c7252737c08037ca192037ccaa929b" kind="variable"><name>applyToNewObjectsOnly_</name></member>
+      <member refid="group__GeneralGroup_1ga9e2ee2d4b6bef3e13837207ada48bccd" kind="variable"><name>sceneColors_</name></member>
+      <member refid="group__GeneralGroup_1ga2e83d9c83f46b4504a07a4e272000e31" kind="variable"><name>ribbonColors_</name></member>
+      <member refid="group__GeneralGroup_1ga5a0462bde8369c6529b6740225534dc6" kind="variable"><name>viewportColors_</name></member>
+      <member refid="group__GeneralGroup_1gae5d828fbfc0805ce759abbf193cc579a" kind="variable"><name>selectedUserPreset_</name></member>
+      <member refid="group__GeneralGroup_1ga8408ba2e1ffac3d02fb824e56d622d14" kind="variable"><name>userThemesPresets_</name></member>
+      <member refid="group__GeneralGroup_1gaed47acc6c0aee189cc61e91d6cf051d0" kind="variable"><name>preset_</name></member>
+      <member refid="group__GeneralGroup_1ga985b2d7480ed09728b906abc9f7aa1e2" kind="variable"><name>themeName_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga2b80328f1f0ec1ad7ccce34cf2b541d8" kind="function"><name>AddCustomThemePlugin</name></member>
+      <member refid="group__GeneralGroup_1ga7b6dc8e71e87ec8ef33f6747eeb60b72" kind="function"><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gaecd13931098f53d9079f2db0d9375677" kind="function"><name>isAvailable</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga6b49acec36e8be2f2af1a907b6cd1a58" kind="function"><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1gaecb55e414ac02583076be1cb68472e49" kind="function"><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga46ef653fbe709e6c269f9738915ed805" kind="function"><name>updateThemeNames_</name></member>
+      <member refid="group__GeneralGroup_1gacfdf72a662b49433d2258aee029db306" kind="function"><name>makeJson_</name></member>
+      <member refid="group__GeneralGroup_1gaa9132eb0f31602f0b98ace2823cfd491" kind="function"><name>update_</name></member>
+      <member refid="group__GeneralGroup_1ga6812187d616e6ad308698b5817f83006" kind="function"><name>save_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::AddCustomThemePlugin</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StatePlugin</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::AddCustomThemePlugin</label>
+        <link refid="classMR_1_1AddCustomThemePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>StatePlugin</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCommonPlugins/ViewerButtons/MRAddCustomTheme.h" bodystart="15" bodyend="43"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2b80328f1f0ec1ad7ccce34cf2b541d8" prot="public" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>AddCustomThemePlugin</name></member>
+      <member refid="group__GeneralGroup_1gac0c7252737c08037ca192037ccaa929b" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>applyToNewObjectsOnly_</name></member>
+      <member refid="group__GeneralGroup_1ga7b6dc8e71e87ec8ef33f6747eeb60b72" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1gaecd13931098f53d9079f2db0d9375677" prot="public" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gacfdf72a662b49433d2258aee029db306" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>makeJson_</name></member>
+      <member refid="group__GeneralGroup_1gaecb55e414ac02583076be1cb68472e49" prot="private" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga6b49acec36e8be2f2af1a907b6cd1a58" prot="private" virt="virtual"><scope>MR::AddCustomThemePlugin</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1gaed47acc6c0aee189cc61e91d6cf051d0" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>preset_</name></member>
+      <member refid="group__GeneralGroup_1ga2e83d9c83f46b4504a07a4e272000e31" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>ribbonColors_</name></member>
+      <member refid="group__GeneralGroup_1ga6812187d616e6ad308698b5817f83006" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>save_</name></member>
+      <member refid="group__GeneralGroup_1ga9e2ee2d4b6bef3e13837207ada48bccd" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>sceneColors_</name></member>
+      <member refid="group__GeneralGroup_1gae5d828fbfc0805ce759abbf193cc579a" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>selectedUserPreset_</name></member>
+      <member refid="group__GeneralGroup_1ga985b2d7480ed09728b906abc9f7aa1e2" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>themeName_</name></member>
+      <member refid="group__GeneralGroup_1gaa9132eb0f31602f0b98ace2823cfd491" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>update_</name></member>
+      <member refid="group__GeneralGroup_1ga46ef653fbe709e6c269f9738915ed805" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>updateThemeNames_</name></member>
+      <member refid="group__GeneralGroup_1ga8408ba2e1ffac3d02fb824e56d622d14" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>userThemesPresets_</name></member>
+      <member refid="group__GeneralGroup_1ga5a0462bde8369c6529b6740225534dc6" prot="private" virt="non-virtual"><scope>MR::AddCustomThemePlugin</scope><name>viewportColors_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

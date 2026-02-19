@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Ball" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Ball</compoundname>
+    <includes refid="MRBall_8h" local="no">MRBall.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" kind="typedef"><name>VTraits</name></member>
+      <member refid="group__GeneralGroup_1gaad1f3f595e73be14324c1ad3964ab4fd" kind="typedef"><name>T</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1ga12631fc540b821bfa957ea4f9f2e57e8" kind="variable"><name>elements</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac2c803f24782033284e75272d9eab0dd" kind="variable"><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga954cef52a073087f7bfdb9555e9584a3" kind="variable"><name>radiusSq</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gab893ec6d092032257b91b7fcbcb6a58a" kind="function"><name>inside</name></member>
+      <member refid="group__GeneralGroup_1ga18bd851f9c63fe2f529f8ef586a5ea69" kind="function"><name>outside</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>a ball = points surrounded by a sphere in arbitrary space with vector type V </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBall.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBall.h" bodystart="15" bodyend="28"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac2c803f24782033284e75272d9eab0dd" prot="public" virt="non-virtual"><scope>MR::Ball</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga12631fc540b821bfa957ea4f9f2e57e8" prot="public" virt="non-virtual"><scope>MR::Ball</scope><name>elements</name></member>
+      <member refid="group__GeneralGroup_1gab893ec6d092032257b91b7fcbcb6a58a" prot="public" virt="non-virtual"><scope>MR::Ball</scope><name>inside</name></member>
+      <member refid="group__GeneralGroup_1ga18bd851f9c63fe2f529f8ef586a5ea69" prot="public" virt="non-virtual"><scope>MR::Ball</scope><name>outside</name></member>
+      <member refid="group__GeneralGroup_1ga954cef52a073087f7bfdb9555e9584a3" prot="public" virt="non-virtual"><scope>MR::Ball</scope><name>radiusSq</name></member>
+      <member refid="group__GeneralGroup_1gaad1f3f595e73be14324c1ad3964ab4fd" prot="public" virt="non-virtual"><scope>MR::Ball</scope><name>T</name></member>
+      <member refid="group__GeneralGroup_1gab29b342345673c2ab559f44111f75bdd" prot="public" virt="non-virtual"><scope>MR::Ball</scope><name>VTraits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

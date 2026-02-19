@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GLStaticHolder" kind="class" language="C++" prot="public">
+    <compoundname>MR::GLStaticHolder</compoundname>
+    <includes refid="MRGLStaticHolder_8h" local="no">MRGLStaticHolder.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" kind="enum"><name>ShaderType</name></member>
+      <member refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" kind="typedef"><name>GLuint</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga06677c4771d99eca7876c79bb5dfdd53" kind="variable"><name>shadersIds_</name></member>
+      <member refid="group__GeneralGroup_1gaa20941f315b69bb7553edabd2ceb4f96" kind="variable"><name>logger_</name></member>
+      <member refid="group__GeneralGroup_1gac14012c90288a98d81e3bf908bbcf6cc" kind="variable"><name>glBuffer_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gaec292ddb5c9a8585fba9bf8b4d89cca9" kind="function"><name>getShaderId</name></member>
+      <member refid="group__GeneralGroup_1ga22ecad2e2dfaf820899303c6ce330839" kind="function"><name>freeShader</name></member>
+      <member refid="group__GeneralGroup_1gada665fd573c08a25baa0a66d6e69a9f8" kind="function"><name>freeAllShaders</name></member>
+      <member refid="group__GeneralGroup_1ga26b1c1199ef9d8f3647524ab6b8099e6" kind="function"><name>getStaticGLBuffer</name></member>
+      <member refid="group__GeneralGroup_1ga4e8e7478e107aae5a007b483056dfc9e" kind="function"><name>getTransparentPointsShader</name></member>
+      <member refid="group__GeneralGroup_1gad5f78ee78fae0710ed36199e5cc5d387" kind="function"><name>getTransparentLinesShader</name></member>
+      <member refid="group__GeneralGroup_1ga1a384521c17e759cfdf6662d29194aa9" kind="function"><name>getTransparentMeshShader</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga1f71f9736d6f534cf810cee09c7d3321" kind="function"><name>GLStaticHolder</name></member>
+      <member refid="group__GeneralGroup_1gadcf9127aa1dc4e6aec52d3e548307176" kind="function"><name>~GLStaticHolder</name></member>
+      <member refid="group__GeneralGroup_1ga2e85e001314e6f844a4bea65c1822b06" kind="function"><name>createShader_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <member refid="group__GeneralGroup_1gace301b9672e253bc6cebb83cbd05e9ca" kind="function"><name>instance_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class holds all shaders that are used in the program creates shader on access if it is needed holds shared memory buffer for loading to GPU </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLStaticHolder.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRGLStaticHolder.h" bodystart="15" bodyend="90"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748aebc53627d3ae664c54b4138c2dddb33a" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AdditionalLines</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748ab6a9e51cc79b46152f149e9555907255" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AdditionalPoints</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a9803632f2ffd6df4b9c59affbd0ee7c9" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AdditionalPointsNoOffset</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a7ad2916ddd2b56f175adb1d02889d8e8" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AdditionalQuad</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748abdc7873f8b180735941f9106a60ee700" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AlphaSortLines</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a4ff8bf111fd16263689af440a3663054" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AlphaSortMesh</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748af448014484bd7a149f086a8cc030daff" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AlphaSortOverlayQuad</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748adbdfa98b07873648901b2ae59bf64d69" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>AlphaSortPoints</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a25ed7f59a7647bce0c99b37006a616b3" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>Count</name></member>
+      <member refid="group__GeneralGroup_1ga2e85e001314e6f844a4bea65c1822b06" prot="private" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>createShader_</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748acb9bb60d153472db37fc3c37b9fc9e5a" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>DepthOverlayQuad</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748abf2aed4198169c421ff15bc1bd5aa64a" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>DepthPeelLines</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a1e35ffa9624e0286d760cbbf53161738" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>DepthPeelMesh</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a2c4ef45ab8a73e1fafde1de6f40ac3d2" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>DepthPeelPoints</name></member>
+      <member refid="group__GeneralGroup_1gada665fd573c08a25baa0a66d6e69a9f8" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>freeAllShaders</name></member>
+      <member refid="group__GeneralGroup_1ga22ecad2e2dfaf820899303c6ce330839" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>freeShader</name></member>
+      <member refid="group__GeneralGroup_1gaec292ddb5c9a8585fba9bf8b4d89cca9" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getShaderId</name></member>
+      <member refid="group__GeneralGroup_1ga26b1c1199ef9d8f3647524ab6b8099e6" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getStaticGLBuffer</name></member>
+      <member refid="group__GeneralGroup_1gad5f78ee78fae0710ed36199e5cc5d387" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getTransparentLinesShader</name></member>
+      <member refid="group__GeneralGroup_1ga1a384521c17e759cfdf6662d29194aa9" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getTransparentMeshShader</name></member>
+      <member refid="group__GeneralGroup_1ga4e8e7478e107aae5a007b483056dfc9e" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>getTransparentPointsShader</name></member>
+      <member refid="group__GeneralGroup_1gac14012c90288a98d81e3bf908bbcf6cc" prot="private" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>glBuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga1f71f9736d6f534cf810cee09c7d3321" prot="private" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>GLStaticHolder</name></member>
+      <member refid="group__GeneralGroup_1ga51ef10d476eb1492c1b758ef79a42482" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1gace301b9672e253bc6cebb83cbd05e9ca" prot="private" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>instance_</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a5bdf19b16004802eb4e3e8cd2332f110" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>Labels</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748af99dd41644032e9acbae2aa3dd3fefca" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>Lines</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748acf81af947731fc21b0be72289e83a87c" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>LinesJoint</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748aec6fddf1d3232b22c4b581a99bb65eec" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>LinesJointPicker</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a4f89b3c160e8d6f2e7ec65bafdba19f7" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>LinesPicker</name></member>
+      <member refid="group__GeneralGroup_1gaa20941f315b69bb7553edabd2ceb4f96" prot="private" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>logger_</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a08843a96f833cac3bc0bc62deaf83ced" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>Mesh</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748aa76d8d9ca69ec851888af009542e7a43" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>MeshDesktopPicker</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a053f32c954efcc79e4f09a4a38c33394" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>Picker</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a11882a836d50f9561bb278de58bb03b8" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>Points</name></member>
+      <member refid="group__GeneralGroup_1ga06677c4771d99eca7876c79bb5dfdd53" prot="private" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>shadersIds_</name></member>
+      <member refid="group__GeneralGroup_1ga00a040d6d7d04967fe9f892d8cb76748" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>ShaderType</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a878764d5da2f9dcefa74fe1d43db0896" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>ShadowOverlayQuad</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a6efd2be0f88716d1ecd218c3c506e07b" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>SimpleOverlayQuad</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a5bc4ec66f8a611b115c0cbc051229e9e" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>ViewportBorder</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748a0b127ccf018299560090f1f8804bd676" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>Volume</name></member>
+      <member refid="group__GeneralGroup_1gga00a040d6d7d04967fe9f892d8cb76748aa694e960e5a16235a6b954cd634c87ce" prot="public" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>VolumePicker</name></member>
+      <member refid="group__GeneralGroup_1gadcf9127aa1dc4e6aec52d3e548307176" prot="private" virt="non-virtual"><scope>MR::GLStaticHolder</scope><name>~GLStaticHolder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

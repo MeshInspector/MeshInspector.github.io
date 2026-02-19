@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrviewerpy_1_1UiValueUint" kind="class" language="Python" prot="public">
+    <compoundname>mrviewerpy::UiValueUint</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrviewerpy_1_1UiValueUint_1a73a9d0f5d94f4e88bb6b3aef017d8fbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.UiValueUint.max</definition>
+        <argsstring>(self)</argsstring>
+        <name>max</name>
+        <qualifiedname>mrviewerpy.UiValueUint.max</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="189" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="189" bodyend="190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1UiValueUint_1a37ec6e0673dc6f543b6b3cbe1612d071" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.UiValueUint.min</definition>
+        <argsstring>(self)</argsstring>
+        <name>min</name>
+        <qualifiedname>mrviewerpy.UiValueUint.min</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="192" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1UiValueUint_1a83190b9cd00678bf5757932aba930764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrviewerpy.UiValueUint.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrviewerpy.UiValueUint.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="195" bodyend="196"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="187" bodyend="196"/>
+    <listofallmembers>
+      <member refid="classmrviewerpy_1_1UiValueUint_1a73a9d0f5d94f4e88bb6b3aef017d8fbe" prot="public" virt="non-virtual"><scope>mrviewerpy::UiValueUint</scope><name>max</name></member>
+      <member refid="classmrviewerpy_1_1UiValueUint_1a37ec6e0673dc6f543b6b3cbe1612d071" prot="public" virt="non-virtual"><scope>mrviewerpy::UiValueUint</scope><name>min</name></member>
+      <member refid="classmrviewerpy_1_1UiValueUint_1a83190b9cd00678bf5757932aba930764" prot="public" virt="non-virtual"><scope>mrviewerpy::UiValueUint</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointCloudComponents" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointCloudComponents</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a3777364a988d0304ae7b464d8496527e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+        <definition>static unsafe MR.VertBitSet MR.PointCloudComponents.getLargeComponentsUnion</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, float maxDist, int minSize, MR.Std._ByValue_Function_BoolFuncFromFloat? pc=null)</argsstring>
+        <name>getLargeComponentsUnion</name>
+        <qualifiedname>MR.PointCloudComponents.getLargeComponentsUnion</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>pc</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the union of point cloud components containing at least minSize points and connected by a distance no greater than </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must be more than 1 Generated from function <computeroutput><ref refid="classMR_1_1PointCloudComponents_1a3777364a988d0304ae7b464d8496527e" kindref="member">MR.PointCloudComponents.getLargeComponentsUnion</ref></computeroutput>. Parameter <computeroutput>pc</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="11" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="11" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1acce167647e8f22c47577e45c89c7c891" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertBitSet" kindref="compound">MR.VertBitSet</ref></type>
+        <definition>static unsafe MR.VertBitSet MR.PointCloudComponents.getLargeComponentsUnion</definition>
+        <argsstring>(MR.UnionFind_MRVertId unionStructs, MR.Const_VertBitSet region, int minSize, MR.Std._ByValue_Function_BoolFuncFromFloat? pc=null)</argsstring>
+        <name>getLargeComponentsUnion</name>
+        <qualifiedname>MR.PointCloudComponents.getLargeComponentsUnion</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+          <declname>unionStructs</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>pc</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns the union of vertices components containing at least minSize points </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>unionStructs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>prepared point union structure </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>have side effect: call unionStructs.roots() that change unionStructs Generated from function <computeroutput><ref refid="classMR_1_1PointCloudComponents_1a3777364a988d0304ae7b464d8496527e" kindref="member">MR.PointCloudComponents.getLargeComponentsUnion</ref></computeroutput>. Parameter <computeroutput>pc</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="28" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="28" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1aa562711aa838de9aa0a78baaf8cabc84" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Vector_MRVertBitSet</type>
+        <definition>static unsafe MR.Std.Vector_MRVertBitSet MR.PointCloudComponents.getLargeComponents</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, float maxDist, int minSize, MR.Std._ByValue_Function_BoolFuncFromFloat? pc=null)</argsstring>
+        <name>getLargeComponents</name>
+        <qualifiedname>MR.PointCloudComponents.getLargeComponents</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minSize</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>pc</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>returns vector of point cloud components containing at least minSize points and connected by a distance no greater than </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>minSize</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>must be more than 1 Generated from function <computeroutput><ref refid="classMR_1_1PointCloudComponents_1aa562711aa838de9aa0a78baaf8cabc84" kindref="member">MR.PointCloudComponents.getLargeComponents</ref></computeroutput>. Parameter <computeroutput>pc</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="44" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="44" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a4ded808e54099f11d1d645b9972c9294" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_StdVectorMRVertBitSet_Int</type>
+        <definition>static unsafe MR.Std.Pair_StdVectorMRVertBitSet_Int MR.PointCloudComponents.getAllComponents</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, float maxDist, int? maxComponentCount=null, MR.Std._ByValue_Function_BoolFuncFromFloat? pc=null)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR.PointCloudComponents.getAllComponents</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>maxComponentCount</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>pc</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets all components of point cloud connected by a distance no greater than </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>\detail if components number more than the maxComponentCount, they will be combined into groups of the same size </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>be careful, if point cloud is large enough and has many components, the memory overflow will occur </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount Generated from function <computeroutput><ref refid="classMR_1_1PointCloudComponents_1a4ded808e54099f11d1d645b9972c9294" kindref="member">MR.PointCloudComponents.getAllComponents</ref></computeroutput>. Parameter <computeroutput>maxComponentCount</computeroutput> defaults to <computeroutput>2147483647</computeroutput>. Parameter <computeroutput>pc</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="64" column="66" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="64" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointCloudComponents_1a53439813313e29922fbedf093b114b4d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+        <definition>static unsafe MR.UnionFind_MRVertId MR.PointCloudComponents.getUnionFindStructureVerts</definition>
+        <argsstring>(MR.Const_PointCloud pointCloud, float maxDist, MR.Const_VertBitSet? region=null, MR.Std._ByValue_Function_BoolFuncFromFloat? pc=null)</argsstring>
+        <name>getUnionFindStructureVerts</name>
+        <qualifiedname>MR.PointCloudComponents.getUnionFindStructureVerts</qualifiedname>
+        <param>
+          <type>MR.Const_PointCloud</type>
+          <declname>pointCloud</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDist</declname>
+        </param>
+        <param>
+          <type>MR.Const_VertBitSet?</type>
+          <declname>region</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat?</type>
+          <declname>pc</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>gets union - find structure for vertices in </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>region</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>connected by a distance no greater than</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>maxDist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Generated from function <computeroutput><ref refid="classMR_1_1PointCloudComponents_1a53439813313e29922fbedf093b114b4d" kindref="member">MR.PointCloudComponents.getUnionFindStructureVerts</ref></computeroutput>. Parameter <computeroutput>pc</computeroutput> defaults to <computeroutput>{}</computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="80" column="51" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="80" bodyend="88"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" line="3" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPointsComponents.cs" bodystart="4" bodyend="89"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointCloudComponents_1a4ded808e54099f11d1d645b9972c9294" prot="public" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>getAllComponents</name></member>
+      <member refid="classMR_1_1PointCloudComponents_1aa562711aa838de9aa0a78baaf8cabc84" prot="public" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>getLargeComponents</name></member>
+      <member refid="classMR_1_1PointCloudComponents_1a3777364a988d0304ae7b464d8496527e" prot="public" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>getLargeComponentsUnion</name></member>
+      <member refid="classMR_1_1PointCloudComponents_1acce167647e8f22c47577e45c89c7c891" prot="public" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>getLargeComponentsUnion</name></member>
+      <member refid="classMR_1_1PointCloudComponents_1a53439813313e29922fbedf093b114b4d" prot="public" virt="non-virtual"><scope>MR::PointCloudComponents</scope><name>getUnionFindStructureVerts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

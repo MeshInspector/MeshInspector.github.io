@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshRelaxParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshRelaxParams</compoundname>
+    <basecompoundref refid="structMR_1_1RelaxParams" prot="public" virt="non-virtual">MR::RelaxParams</basecompoundref>
+    <derivedcompoundref refid="structMR_1_1MeshApproxRelaxParams" prot="public" virt="non-virtual">MR::MeshApproxRelaxParams</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1MeshEqualizeTriAreasParams" prot="public" virt="non-virtual">MR::MeshEqualizeTriAreasParams</derivedcompoundref>
+    <includes refid="MRMeshRelax_8h" local="no">MRMeshRelax.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1MeshRelaxParams_1aeb8c3fee03385430c013562e6fafb17e" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::MeshRelaxParams::hardSmoothTetrahedrons</definition>
+        <argsstring></argsstring>
+        <name>hardSmoothTetrahedrons</name>
+        <qualifiedname>MR::MeshRelaxParams::hardSmoothTetrahedrons</qualifiedname>
+        <initializer>{ false }</initializer>
+        <briefdescription>
+<para>move all region vertices with exactly three neighbor vertices in the center of the neighbors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="16" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1MeshRelaxParams_1a41780c569c9092f50274655744456aea" prot="public" static="no" mutable="no">
+        <type>const VertScalars *</type>
+        <definition>const VertScalars* MR::MeshRelaxParams::weights</definition>
+        <argsstring></argsstring>
+        <name>weights</name>
+        <qualifiedname>MR::MeshRelaxParams::weights</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>weight for each vertex. By default, all the vertices have equal weights. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="19" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>MR::MeshApproxRelaxParams</label>
+        <link refid="structMR_1_1MeshApproxRelaxParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::MeshEqualizeTriAreasParams</label>
+        <link refid="structMR_1_1MeshEqualizeTriAreasParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::MeshRelaxParams</label>
+        <link refid="structMR_1_1MeshRelaxParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RelaxParams</label>
+        <link refid="structMR_1_1RelaxParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::MeshRelaxParams</label>
+        <link refid="structMR_1_1MeshRelaxParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::RelaxParams</label>
+        <link refid="structMR_1_1RelaxParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshRelax.h" bodystart="14" bodyend="20"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga47663082758ba9a1d7d9942c1d2550fc" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>_padding</name></member>
+      <member refid="group__GeneralGroup_1ga7f58a3b0b7e5c09209f53edd90b4371a" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>force</name></member>
+      <member refid="structMR_1_1MeshRelaxParams_1aeb8c3fee03385430c013562e6fafb17e" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>hardSmoothTetrahedrons</name></member>
+      <member refid="group__GeneralGroup_1gaf6f0f001e98c26c2b38d1d51b3f3ef1f" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>iterations</name></member>
+      <member refid="group__GeneralGroup_1gae8d07089d4abc1f4c2ccd3018e66e23a" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>limitNearInitial</name></member>
+      <member refid="group__GeneralGroup_1gae2779bd159120c7d84c4d2e13186af7e" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>maxInitialDist</name></member>
+      <member refid="group__GeneralGroup_1gabeb08d7e70411cf9ef2826c0f058b909" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>region</name></member>
+      <member refid="structMR_1_1MeshRelaxParams_1a41780c569c9092f50274655744456aea" prot="public" virt="non-virtual"><scope>MR::MeshRelaxParams</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

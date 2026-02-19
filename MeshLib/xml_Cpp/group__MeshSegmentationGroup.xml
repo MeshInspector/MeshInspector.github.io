@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshSegmentationGroup" kind="group">
+    <compoundname>MeshSegmentationGroup</compoundname>
+    <title>Mesh Segmentation overwiev</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshSegmentationGroup_1gadea0ef926186e71514bcaf05a50aa51d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::fillContourLeftByGraphCut</definition>
+        <argsstring>(const MeshTopology &amp;topology, const EdgePath &amp;contour, const EdgeMetric &amp;metric, const ProgressCallback &amp;progress={})</argsstring>
+        <name>fillContourLeftByGraphCut</name>
+        <qualifiedname>MR::fillContourLeftByGraphCut</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const EdgePath &amp;</type>
+          <declname>contour</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>progress</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Fills region located to the left from given contour, by minimizing the sum of metric over the boundary If the computations are terminated by <computeroutput>progress</computeroutput>, then returns the best approximation found by the moment of termination. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" line="30" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" declline="30" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshSegmentationGroup_1ga192299a4f8520a8867c43c89651f4304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::fillContourLeftByGraphCut</definition>
+        <argsstring>(const MeshTopology &amp;topology, const std::vector&lt; EdgePath &gt; &amp;contours, const EdgeMetric &amp;metric, const ProgressCallback &amp;progress={})</argsstring>
+        <name>fillContourLeftByGraphCut</name>
+        <qualifiedname>MR::fillContourLeftByGraphCut</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; EdgePath &gt; &amp;</type>
+          <declname>contours</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>progress</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Fills region located to the left from given contours, by minimizing the sum of metric over the boundary If the computations are terminated by <computeroutput>progress</computeroutput>, then returns the best approximation found by the moment of termination. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" line="38" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" declline="38" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshSegmentationGroup_1ga90e052f4d7cc9dd0c2e2d004cda6abeb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::segmentByGraphCut</definition>
+        <argsstring>(const MeshTopology &amp;topology, const FaceBitSet &amp;source, const FaceBitSet &amp;sink, const EdgeMetric &amp;metric, const ProgressCallback &amp;progress={})</argsstring>
+        <name>segmentByGraphCut</name>
+        <qualifiedname>MR::segmentByGraphCut</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>source</declname>
+        </param>
+        <param>
+          <type>const FaceBitSet &amp;</type>
+          <declname>sink</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>metric</declname>
+        </param>
+        <param>
+          <type>const ProgressCallback &amp;</type>
+          <declname>progress</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Finds segment that divide mesh on source and sink (source included, sink excluded), by minimizing the sum of metric over the boundary If the computations are terminated by <computeroutput>progress</computeroutput>, then returns the best approximation found by the moment of termination. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" line="46" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillContourByGraphCut.h" declline="46" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshSegmentationGroup_1ga92dbf357e425dd6e8d7f76ab544250c5" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; EdgeLoop &gt;</type>
+        <definition>MRMESH_API Expected&lt; EdgeLoop &gt; MR::surroundingContour</definition>
+        <argsstring>(const Mesh &amp;mesh, std::vector&lt; EdgeId &gt; includeEdges, const EdgeMetric &amp;edgeMetric, const Vector3f &amp;dir)</argsstring>
+        <name>surroundingContour</name>
+        <qualifiedname>MR::surroundingContour</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; EdgeId &gt;</type>
+          <declname>includeEdges</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>edgeMetric</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Find the best closed edge loop passing through given edges, which minimizes the sum of given edge metric. The algorithm assumes that input edges can be projected on the plane orthogonal to given direction, then the center point of all input edges is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input edges. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>includeEdges</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contain all edges in arbitrary order that must be present in the returned loop, probably with reversed direction (should have at least 2 elements) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>edgeMetric</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>returned loop will minimize the sum of this metric </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction&apos;s tip </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" line="25" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" declline="25" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshSegmentationGroup_1ga0f96f1d3fde9a79a2d6925cf6ba77f8d" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; EdgeLoop &gt;</type>
+        <definition>MRMESH_API Expected&lt; EdgeLoop &gt; MR::surroundingContour</definition>
+        <argsstring>(const Mesh &amp;mesh, std::vector&lt; VertId &gt; keyVertices, const EdgeMetric &amp;edgeMetric, const Vector3f &amp;dir)</argsstring>
+        <name>surroundingContour</name>
+        <qualifiedname>MR::surroundingContour</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; VertId &gt;</type>
+          <declname>keyVertices</declname>
+        </param>
+        <param>
+          <type>const EdgeMetric &amp;</type>
+          <declname>edgeMetric</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Find the best closed edge loop passing through given vertices, which minimizes the sum of given edge metric. The algorithm assumes that input vertices can be projected on the plane orthogonal to given direction, then the center point of all input vertices is found, and each segment of the searched loop is within infinite pie sector with this center and the borders passing via two sorted input vertices. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>keyVertices</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>contain all vertices in arbitrary order that returned loop must pass (should have at least 2 elements) </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>edgeMetric</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>returned loop will minimize the sum of this metric </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dir</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>direction approximately orthogonal to the loop, the resulting loop will be oriented clockwise if look from the direction&apos;s tip </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" line="43" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSurroundingContour.h" declline="43" declcolumn="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A set of functions for selecting segments on a mesh. </para>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="group__MeshSegmentationGroup_1MeshSegmentationGroup_HowTo">
+<title>How To</title><para><orderedlist>
+<listitem><para>Make Contour(-s)<linebreak/>
+First step to get a mesh segment by two (/three) points, is getting the contour that bounds the segment.<linebreak/>
+To do this, you can use <ref refid="group__MeshSegmentationGroup_1ga92dbf357e425dd6e8d7f76ab544250c5" kindref="member">surroundingContour</ref></para>
+</listitem><listitem><para>Get Segment<linebreak/>
+For getting segment of mesh by contour(-s) use <ref refid="group__MeshSegmentationGroup_1gadea0ef926186e71514bcaf05a50aa51d" kindref="member">fillContourLeftByGraphCut</ref>.</para>
+</listitem></orderedlist>
+</para>
+<para><table rows="1" cols="2"><caption id="group__MeshSegmentationGroup_1fillContourLeftByGraphCut_examples"></caption>
+<row>
+<entry thead="no"><para><image type="html" name="mesh_segmentation_0.png" width="350cm">Before</image>
+ </para>
+</entry><entry thead="no"><para><image type="html" name="mesh_segmentation_1.png" width="350cm">After</image>
+  </para>
+</entry></row>
+</table>
+</para>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

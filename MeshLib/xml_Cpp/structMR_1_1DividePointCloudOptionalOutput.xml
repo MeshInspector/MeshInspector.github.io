@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DividePointCloudOptionalOutput" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DividePointCloudOptionalOutput</compoundname>
+    <includes refid="MRPointCloudDivideWithPlane_8h" local="no">MRPointCloudDivideWithPlane.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga8f57623cee5e4db20049f8d9d6dff9cf" kind="variable"><name>outVmap</name></member>
+      <member refid="group__GeneralGroup_1gabf7d2f349e450a24bc74e71d1de3d1bc" kind="variable"><name>otherPart</name></member>
+      <member refid="group__GeneralGroup_1ga8b9684f693bcbb8c4f778a2250ab9b5a" kind="variable"><name>otherOutVmap</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::DividePointCloudOptionalOutput</label>
+        <link refid="structMR_1_1DividePointCloudOptionalOutput"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>otherPart</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::PointCloud</label>
+        <link refid="structMR_1_1PointCloud"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h" bodystart="16" bodyend="23"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga8b9684f693bcbb8c4f778a2250ab9b5a" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>otherOutVmap</name></member>
+      <member refid="group__GeneralGroup_1gabf7d2f349e450a24bc74e71d1de3d1bc" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>otherPart</name></member>
+      <member refid="group__GeneralGroup_1ga8f57623cee5e4db20049f8d9d6dff9cf" prot="public" virt="non-virtual"><scope>MR::DividePointCloudOptionalOutput</scope><name>outVmap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

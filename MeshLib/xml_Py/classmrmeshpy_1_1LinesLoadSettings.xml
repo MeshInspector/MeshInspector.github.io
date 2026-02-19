@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1LinesLoadSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::LinesLoadSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1LinesLoadSettings_1ae0e7dff5d8f3db714457a43eb1667f60" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LinesLoadSettings::_offsetof_callback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_callback</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings._offsetof_callback</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LinesLoadSettings_1aa85649fcb9b6a68bb939c126264bb8e4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LinesLoadSettings::_offsetof_colors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_colors</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings._offsetof_colors</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LinesLoadSettings_1a3e1ebc33ca4e3f810095eb7438a5b5bc" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LinesLoadSettings::_offsetof_telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_telemetrySignal</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings._offsetof_telemetrySignal</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26228" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1a920711a6558b661db57a1abf3e5c9102" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesLoadSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26231" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26231" bodyend="26232"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1a06241e0afe31cc29b38b3cbe9bf7e3ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref></type>
+        <definition> LinesLoadSettings mrmeshpy.LinesLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26235" bodyend="26236"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1a06241e0afe31cc29b38b3cbe9bf7e3ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref></type>
+        <definition> LinesLoadSettings mrmeshpy.LinesLoadSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26239" bodyend="26240"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1a680ee9bac2ff9ceda7a4b378b262617c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesLoadSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26242" bodyend="26243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1aec5e2f57e4a5d708b17ddab1cf4fb0d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesLoadSettings.__init__</definition>
+        <argsstring>(self, LinesLoadSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1LinesLoadSettings" kindref="compound">LinesLoadSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26245" bodyend="26248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1aa79d918c9b5d13e135cb2849847c722f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesLoadSettings.__init__</definition>
+        <argsstring>(self, VertColors colors, func_bool_from_float callback, bool telemetrySignal)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>telemetrySignal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26250" bodyend="26253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1a7fe98497c7bd19d589716c0e54fe6427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.LinesLoadSettings.callback</definition>
+        <argsstring>(self)</argsstring>
+        <name>callback</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback for set progress and stop process
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26255" bodyend="26258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1ac18c88de59aa086156b4ae43582f907e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesLoadSettings.callback</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>callback</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26260" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26260" bodyend="26261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1a1f4766dc221b4296955d7191a050a5ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.LinesLoadSettings.colors</definition>
+        <argsstring>(self)</argsstring>
+        <name>colors</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.colors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional load artifact: per-vertex color map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26263" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26263" bodyend="26266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1a232658585c7c95465da0ce9c5c735e89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesLoadSettings.colors</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>colors</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.colors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26268" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26268" bodyend="26269"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1a6c0a0937c07b5eb52ec432ea0d64b677" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.LinesLoadSettings.telemetrySignal</definition>
+        <argsstring>(self)</argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.telemetrySignal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>permit telemetry signal about loading
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26271" bodyend="26274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LinesLoadSettings_1a90d96132c24b37c1d133cbf232280a71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LinesLoadSettings.telemetrySignal</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>mrmeshpy.LinesLoadSettings.telemetrySignal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26276" bodyend="26277"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::LinesLoadSettings
+
+setting for polyline loading from external format, and locations of optional output data
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.LinesLoadSettings</label>
+        <link refid="classmrmeshpy_1_1LinesLoadSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_callback</edgelabel>
+          <edgelabel>_offsetof_colors</edgelabel>
+          <edgelabel>_offsetof_telemetrySignal</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="26220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="26220" bodyend="26277"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a920711a6558b661db57a1abf3e5c9102" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a680ee9bac2ff9ceda7a4b378b262617c" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1aec5e2f57e4a5d708b17ddab1cf4fb0d0" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1aa79d918c9b5d13e135cb2849847c722f" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1ae0e7dff5d8f3db714457a43eb1667f60" prot="protected" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>_offsetof_callback</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1aa85649fcb9b6a68bb939c126264bb8e4" prot="protected" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>_offsetof_colors</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a3e1ebc33ca4e3f810095eb7438a5b5bc" prot="protected" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>_offsetof_telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a7fe98497c7bd19d589716c0e54fe6427" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>callback</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1ac18c88de59aa086156b4ae43582f907e" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>callback</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a1f4766dc221b4296955d7191a050a5ce" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a232658585c7c95465da0ce9c5c735e89" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a06241e0afe31cc29b38b3cbe9bf7e3ab" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a06241e0afe31cc29b38b3cbe9bf7e3ab" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a6c0a0937c07b5eb52ec432ea0d64b677" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1LinesLoadSettings_1a90d96132c24b37c1d133cbf232280a71" prot="public" virt="non-virtual"><scope>mrmeshpy::LinesLoadSettings</scope><name>telemetrySignal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

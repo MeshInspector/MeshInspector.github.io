@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRPointCloudDivideWithPlane_8h" kind="file" language="C++">
+    <compoundname>MRPointCloudDivideWithPlane.h</compoundname>
+    <includes local="yes">MRMeshFwd.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRPointCloudDivideWithPlane.h</label>
+        <link refid="MRPointCloudDivideWithPlane_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMeshFwd.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1DividePointCloudOptionalOutput" prot="public">MR::DividePointCloudOptionalOutput</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"></codeline>
+<codeline lineno="12" refid="group__GeneralGroup_1ga497ab535ca0038760b55492333965b79" refkind="member"><highlight class="normal">MRMESH_API<sp/>VertBitSet<sp/><ref refid="group__GeneralGroup_1ga497ab535ca0038760b55492333965b79" kindref="member">findHalfSpacePoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pc,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f&amp;<sp/>plane<sp/>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="structMR_1_1DividePointCloudOptionalOutput" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1DividePointCloudOptionalOutput" kindref="compound">DividePointCloudOptionalOutput</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga8f57623cee5e4db20049f8d9d6dff9cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertMap*<sp/><ref refid="group__GeneralGroup_1ga8f57623cee5e4db20049f8d9d6dff9cf" kindref="member">outVmap</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gabf7d2f349e450a24bc74e71d1de3d1bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>*<sp/><ref refid="group__GeneralGroup_1gabf7d2f349e450a24bc74e71d1de3d1bc" kindref="member">otherPart</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1ga8b9684f693bcbb8c4f778a2250ab9b5a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>VertMap*<sp/><ref refid="group__GeneralGroup_1ga8b9684f693bcbb8c4f778a2250ab9b5a" kindref="member">otherOutVmap</ref>{<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>};</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1ga7560e3b49fd5d050ccb7bcdff6a04b75" refkind="member"><highlight class="normal">MRMESH_API<sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref><sp/><ref refid="group__GeneralGroup_1ga7560e3b49fd5d050ccb7bcdff6a04b75" kindref="member">divideWithPlane</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Plane3f&amp;<sp/>plane,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1DividePointCloudOptionalOutput" kindref="compound">DividePointCloudOptionalOutput</ref>&amp;<sp/>optOut<sp/>=<sp/>{}<sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointCloudDivideWithPlane.h"/>
+  </compounddef>
+</doxygen>

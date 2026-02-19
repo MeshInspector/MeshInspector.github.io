@@ -1,0 +1,1318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RegionBitSet" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RegionBitSet</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a234ae192f36f5ca340d2b60cd44866b3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionBitSet.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49649" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49649" bodyend="49650"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1afb3839290e4ff71541fb7b4c3f0fbe51" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.beginId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274">beginId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[beginId(), endId()) is the range of all bits in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49652" bodyend="49655"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49658" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49658" bodyend="49659"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49662" bodyend="49663"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1ac643a5826f25c6ecaa6f6be3150cbff3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.__and__</definition>
+        <argsstring>(self, RegionBitSet b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__and__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49664" bodyend="49665"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a6b7c4a98a4dc61239836f3b103d7d856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.__iand__</definition>
+        <argsstring>(self, RegionBitSet b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__iand__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49666" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49666" bodyend="49667"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a859c6a6b1edf5d2245373d455cdee147" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionBitSet.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49669" bodyend="49670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a7ead9ee9b45c21eb2953b2283febc950" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionBitSet.__init__</definition>
+        <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates bitset of given size filled with given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49672" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49672" bodyend="49675"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49677" bodyend="49680"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49682" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49682" bodyend="49685"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a904c4f7896e71a3ada36ff5b9ccb5cd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionBitSet.__init__</definition>
+        <argsstring>(self, RegionBitSet arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49687" bodyend="49690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1aa8d3f732c4431adeeaabf9ceed77246f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.__ior__</definition>
+        <argsstring>(self, RegionBitSet b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__ior__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49691" bodyend="49692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a647c331e395572e18714ac4cfc319b91" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.__isub__</definition>
+        <argsstring>(self, RegionBitSet b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__isub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49693" bodyend="49694"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a287c34fb36db3294d722437711dc05ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref>]</type>
+        <definition> typing.Iterator[RegionId] mrmeshpy.RegionBitSet.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__iter__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49695" bodyend="49696"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a191ded296c733a7de15f8374f3b79ff0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.__ixor__</definition>
+        <argsstring>(self, RegionBitSet b)</argsstring>
+        <name>__ixor__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__ixor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49697" bodyend="49698"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1aa4dacc0f017749b4dae8db84c098c058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.__or__</definition>
+        <argsstring>(self, RegionBitSet b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__or__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49699" bodyend="49700"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a9ae781ec49a10782dd62aa870b928e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RegionBitSet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49701" bodyend="49702"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a15c6df59da4e2a891fcada1a328dd0a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.__sub__</definition>
+        <argsstring>(self, RegionBitSet b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__sub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49703" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49703" bodyend="49704"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a9bc2f297651bf40ee89dc1bf3f0ef255" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.__xor__</definition>
+        <argsstring>(self, RegionBitSet b)</argsstring>
+        <name>__xor__</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.__xor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49705" bodyend="49706"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a7d2d593d0edbbc43971d25aa44668a90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionBitSet.autoResizeSet</definition>
+        <argsstring>(self, RegionId pos, int len, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49708" bodyend="49709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1ae8f7a7a686fdab752b49992691d4e770" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionBitSet.autoResizeSet</definition>
+        <argsstring>(self, RegionId pos, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>len</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49711" bodyend="49712"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a7cd390901e8a567b94eafe4d3804de60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionBitSet.autoResizeTestSet</definition>
+        <argsstring>(self, RegionId pos, bool val=True)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.autoResizeTestSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as \\ref autoResizeSet and returns previous value of pos-bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49713" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49713" bodyend="49714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a135e9513f357655f9c0fcc12435373e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.backId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d">backId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49715" bodyend="49718"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a91a2fb5d45243b095a1b3f509ba13428" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.endId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5">endId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49719" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49719" bodyend="49720"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a9f2708058301ac55a96bbbd7bff95d7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.find_first</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.find_first</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006">find_first</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49721" bodyend="49722"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a8a3e2fe4fee615c10f045703528ffc4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.find_first_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first_not_set</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.find_first_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a15e32e17fea4f662f8a0f55fd1bcd0b6">find_first_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49723" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49723" bodyend="49724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1adf402872183efd9c4c820c114c5c6f10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.find_last</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.find_last</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49725" bodyend="49726"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a3171b0ec7e57778181ae4bbf81059940" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.find_last_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last_not_set</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.find_last_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa50056294318a1e11be2d832bdbd6329">find_last_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49727" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49727" bodyend="49728"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1abca5ffcd03be461170f51aa406295386" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.find_next</definition>
+        <argsstring>(self, RegionId pos)</argsstring>
+        <name>find_next</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.find_next</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f">find_next</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49729" bodyend="49730"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a60f5ae876a44bf2f8e94ccd8b3252d0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.find_next_not_set</definition>
+        <argsstring>(self, RegionId pos)</argsstring>
+        <name>find_next_not_set</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.find_next_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aedde9c4ef90198acb1ddb7874ed1d491">find_next_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49731" bodyend="49732"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1ac464d1b34d70235453a9e49da1b162a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.flip</definition>
+        <argsstring>(self, RegionId n, int len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49734" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49734" bodyend="49735"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a701f2ec627025c1cbab5b4a35c9f0fbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.flip</definition>
+        <argsstring>(self, RegionId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49737" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49737" bodyend="49738"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a4fde3c09eee409dcd546a7873b1db8e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49740" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49740" bodyend="49741"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a6b6bd2f5cdc5144eabfe138253e267e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.getMapping</definition>
+        <argsstring>(self, Vector_RegionId_RegionId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__RegionId__RegionId" kindref="compound">Vector_RegionId_RegionId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49743" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49743" bodyend="49744"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1abcd69690eff4ca1bac418d4b99367ccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.getMapping</definition>
+        <argsstring>(self, BMap_RegionId_RegionId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BMap__RegionId__RegionId" kindref="compound">BMap_RegionId_RegionId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49746" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49746" bodyend="49747"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a31c2a8134685f367503b47bc67c5938b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_RegionTag_Id_RegionTag map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag" kindref="compound">phmap_flat_hash_map_Id_RegionTag_Id_RegionTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49749" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49749" bodyend="49750"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a8055182a404c3ad1a83f003475116f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.getMapping</definition>
+        <argsstring>(self, Vector_RegionId_RegionId map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__RegionId__RegionId" kindref="compound">Vector_RegionId_RegionId</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49752" bodyend="49753"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a3df5e67545023ea40b3761cd3e6465a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_RegionTag_Id_RegionTag map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__RegionTag__Id__RegionTag" kindref="compound">phmap_flat_hash_map_Id_RegionTag_Id_RegionTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49755" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49755" bodyend="49756"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a07dcb7b6a37fba61f1afca6ce0d199e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionBitSet.intersects</definition>
+        <argsstring>(self, RegionBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.intersects</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a">intersects</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49757" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49757" bodyend="49760"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a073e500b5dd574982e909a3cd93e0c83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionBitSet.is_subset_of</definition>
+        <argsstring>(self, RegionBitSet a)</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.is_subset_of</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49761" bodyend="49764"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a34ba92a868db9a7f984be8a559a9fc17" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionBitSet.nthSetBit</definition>
+        <argsstring>(self, int n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.nthSetBit</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49765" bodyend="49768"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a0fb51825e616359a74fdc569ec342fa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.reset</definition>
+        <argsstring>(self, RegionId n, int len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49770" bodyend="49771"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1aaf6003aa8256f941fb1b16d61abd73dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.reset</definition>
+        <argsstring>(self, RegionId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49773" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49773" bodyend="49774"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a1e9b2e2f1797d700874509f4ebace46e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49776" bodyend="49777"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a30864a371dd6aae217db248075a0edaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.set</definition>
+        <argsstring>(self, RegionId n, int len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49779" bodyend="49780"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a6e5684b210c055b3be4ebc1e1a71defc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.set</definition>
+        <argsstring>(self, RegionId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49782" bodyend="49783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1aaf045c3a9a248957a75ef05112f15abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.set</definition>
+        <argsstring>(self, RegionId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49785" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49785" bodyend="49786"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1aa812d71c465e235e3973b907afd521a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.set</definition>
+        <argsstring>(self)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49788" bodyend="49789"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a42dc7ca258e5196db1626054aa36c673" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+        <definition> RegionBitSet mrmeshpy.RegionBitSet.subtract</definition>
+        <argsstring>(self, RegionBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.subtract</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d">subtract</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionBitSet" kindref="compound">RegionBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49790" bodyend="49793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1a9a03fe62e5050217e18ea2c29d8fe9c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionBitSet.test</definition>
+        <argsstring>(self, RegionId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.test</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27">test</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all bits after size() we silently consider as not-set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49794" bodyend="49795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionBitSet_1adb79c2f0725c29504f972177441f9da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionBitSet.test_set</definition>
+        <argsstring>(self, RegionId n, bool val=True)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>mrmeshpy.RegionBitSet.test_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3">test_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49796" bodyend="49797"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RegionBitSet
+
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.RegionBitSet</label>
+        <link refid="classmrmeshpy_1_1RegionBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.RegionBitSet</label>
+        <link refid="classmrmeshpy_1_1RegionBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bits_per_block</edgelabel>
+          <edgelabel>npos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49640" bodyend="49797"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1ac643a5826f25c6ecaa6f6be3150cbff3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a6b7c4a98a4dc61239836f3b103d7d856" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a234ae192f36f5ca340d2b60cd44866b3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a859c6a6b1edf5d2245373d455cdee147" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a7ead9ee9b45c21eb2953b2283febc950" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a3ccc448813e1f64fcf1e64cbf03eace3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a904c4f7896e71a3ada36ff5b9ccb5cd3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1aa8d3f732c4431adeeaabf9ceed77246f" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a647c331e395572e18714ac4cfc319b91" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a287c34fb36db3294d722437711dc05ea" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a191ded296c733a7de15f8374f3b79ff0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__ixor__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1aa4dacc0f017749b4dae8db84c098c058" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a9ae781ec49a10782dd62aa870b928e6b" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a15c6df59da4e2a891fcada1a328dd0a0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a9bc2f297651bf40ee89dc1bf3f0ef255" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a7d2d593d0edbbc43971d25aa44668a90" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1ae8f7a7a686fdab752b49992691d4e770" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a7cd390901e8a567b94eafe4d3804de60" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a135e9513f357655f9c0fcc12435373e5" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1afb3839290e4ff71541fb7b4c3f0fbe51" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a91a2fb5d45243b095a1b3f509ba13428" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a9f2708058301ac55a96bbbd7bff95d7e" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>find_first</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a8a3e2fe4fee615c10f045703528ffc4e" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>find_first_not_set</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1adf402872183efd9c4c820c114c5c6f10" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>find_last</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a3171b0ec7e57778181ae4bbf81059940" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>find_last_not_set</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1abca5ffcd03be461170f51aa406295386" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>find_next</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a60f5ae876a44bf2f8e94ccd8b3252d0b" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>find_next_not_set</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1ac464d1b34d70235453a9e49da1b162a4" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a701f2ec627025c1cbab5b4a35c9f0fbc" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a4fde3c09eee409dcd546a7873b1db8e3" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a6b6bd2f5cdc5144eabfe138253e267e7" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1abcd69690eff4ca1bac418d4b99367ccf" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a31c2a8134685f367503b47bc67c5938b" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a8055182a404c3ad1a83f003475116f82" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a3df5e67545023ea40b3761cd3e6465a0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a07dcb7b6a37fba61f1afca6ce0d199e1" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a073e500b5dd574982e909a3cd93e0c83" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a34ba92a868db9a7f984be8a559a9fc17" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1ab293ad610a97648ec71511daef7510d0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a0fb51825e616359a74fdc569ec342fa2" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1aaf6003aa8256f941fb1b16d61abd73dc" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a1e9b2e2f1797d700874509f4ebace46e" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a30864a371dd6aae217db248075a0edaf" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a6e5684b210c055b3be4ebc1e1a71defc" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1aaf045c3a9a248957a75ef05112f15abe" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1aa812d71c465e235e3973b907afd521a6" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a42dc7ca258e5196db1626054aa36c673" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>subtract</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1a9a03fe62e5050217e18ea2c29d8fe9c1" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>test</name></member>
+      <member refid="classmrmeshpy_1_1RegionBitSet_1adb79c2f0725c29504f972177441f9da1" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionBitSet</scope><name>test_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

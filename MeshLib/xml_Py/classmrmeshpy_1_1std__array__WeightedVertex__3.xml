@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__array__WeightedVertex__3" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_array_WeightedVertex_3</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__WeightedVertex__3_1ac7fc9a2b736b3e2d237addd4dd084955" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+        <definition> WeightedVertex mrmeshpy.std_array_WeightedVertex_3.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_array_WeightedVertex_3.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78525" bodyend="78526"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__WeightedVertex__3_1aeeccad3285a588793379454effcc7210" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_WeightedVertex_3.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_WeightedVertex_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78528" bodyend="78529"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__WeightedVertex__3_1af5f9d2ff132ba0f77a052ad6bfbcb4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_WeightedVertex_3.__init__</definition>
+        <argsstring>(self, std_array_WeightedVertex_3 arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_WeightedVertex_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__array__WeightedVertex__3" kindref="compound">std_array_WeightedVertex_3</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78531" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78531" bodyend="78532"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__WeightedVertex__3_1a62d9e2a0f7d5c11fbdc64bf35f796512" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_WeightedVertex_3.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_array_WeightedVertex_3.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Initialize from a list of 3elements.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78534" bodyend="78537"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__WeightedVertex__3_1aede48498db965da505249be1ca0ceade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref>]</type>
+        <definition> typing.Iterator[WeightedVertex] mrmeshpy.std_array_WeightedVertex_3.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_array_WeightedVertex_3.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78538" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78538" bodyend="78539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__WeightedVertex__3_1afc667fab550a22a75b1a723fbf6e35e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_array_WeightedVertex_3.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_array_WeightedVertex_3.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78540" bodyend="78541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__array__WeightedVertex__3_1a20260c389982b53a4eeda4edd6c605fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_array_WeightedVertex_3.__setitem__</definition>
+        <argsstring>(self, int arg0, WeightedVertex arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_array_WeightedVertex_3.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedVertex" kindref="compound">WeightedVertex</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78542" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78542" bodyend="78543"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="78524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="78524" bodyend="78543"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__array__WeightedVertex__3_1ac7fc9a2b736b3e2d237addd4dd084955" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_WeightedVertex_3</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__WeightedVertex__3_1aeeccad3285a588793379454effcc7210" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_WeightedVertex_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__WeightedVertex__3_1af5f9d2ff132ba0f77a052ad6bfbcb4ac" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_WeightedVertex_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__WeightedVertex__3_1a62d9e2a0f7d5c11fbdc64bf35f796512" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_WeightedVertex_3</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__WeightedVertex__3_1aede48498db965da505249be1ca0ceade" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_WeightedVertex_3</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__WeightedVertex__3_1afc667fab550a22a75b1a723fbf6e35e8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_WeightedVertex_3</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__array__WeightedVertex__3_1a20260c389982b53a4eeda4edd6c605fa" prot="public" virt="non-virtual"><scope>mrmeshpy::std_array_WeightedVertex_3</scope><name>__setitem__</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

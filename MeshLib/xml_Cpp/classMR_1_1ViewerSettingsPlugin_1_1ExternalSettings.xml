@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ViewerSettingsPlugin_1_1ExternalSettings" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::ViewerSettingsPlugin::ExternalSettings</compoundname>
+    <includes refid="MRViewerSettingsPlugin_8h" local="no">MRViewerSettingsPlugin.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gab3fe6a46824654fabde6d6f501eb8141" kind="function"><name>~ExternalSettings</name></member>
+      <member refid="group__GeneralGroup_1ga2b40b2d1d9febe79a58c0f64f8aaf704" kind="function"><name>getName</name></member>
+      <member refid="group__GeneralGroup_1gab5824d8d06eee687e2f907f59db61f96" kind="function"><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga5daa51d87dc540fd02b52303e05cbe20" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaefce61dfeb872bbe04d722fc13f1a0ac" kind="function"><name>separatorName</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>basic class of external settings </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" line="43" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSettingsPlugin.h" bodystart="44" bodyend="55"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab5824d8d06eee687e2f907f59db61f96" prot="public" virt="pure-virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga2b40b2d1d9febe79a58c0f64f8aaf704" prot="public" virt="pure-virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>getName</name></member>
+      <member refid="group__GeneralGroup_1ga5daa51d87dc540fd02b52303e05cbe20" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaefce61dfeb872bbe04d722fc13f1a0ac" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>separatorName</name></member>
+      <member refid="group__GeneralGroup_1gab3fe6a46824654fabde6d6f501eb8141" prot="public" virt="virtual"><scope>MR::ViewerSettingsPlugin::ExternalSettings</scope><name>~ExternalSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

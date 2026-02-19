@@ -1,0 +1,668 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VertScalars" kind="class" language="C#" prot="public">
+    <compoundname>MR::VertScalars</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_VertScalars</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1VertScalars_1abc2fba8ad2c0efdb839c228b177f4f19" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Vector_Float</type>
+        <definition>new unsafe MR.Std.Vector_Float MR.VertScalars.vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <qualifiedname>MR.VertScalars.vec</qualifiedname>
+        <briefdescription>
+<para>the user can directly manipulate the vector, anyway she cannot break anything </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14844" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14844" bodyend="14844"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VertScalars_1a20a8a7ada34a0ac1968a61d298cb8953" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.VertScalars.this[MR.VertId i]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.VertId i]</name>
+        <qualifiedname>MR.VertScalars.this[MR.VertId i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertScalars.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15001" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15002" bodyend="15009"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1ae352c2aa2ef19768e0dc686967d3de3d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertScalars.VertScalars</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VertScalars</name>
+        <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14863" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14863" bodyend="14867"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1aae2d91819546bf0ca11062e0ff7acb61" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertScalars.VertScalars</definition>
+        <argsstring>()</argsstring>
+        <name>VertScalars</name>
+        <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14873" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14873" bodyend="14879"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a6ed9431ea8f1a4b071af8d37c9ce986b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertScalars.VertScalars</definition>
+        <argsstring>(MR._ByValue_VertScalars _other)</argsstring>
+        <name>VertScalars</name>
+        <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertScalars</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertScalars.VertScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14884" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14884" bodyend="14891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a0954e402b0691d87b48876408cd6c083" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VertScalars.VertScalars</definition>
+        <argsstring>(Const_VertScalars _other)</argsstring>
+        <name>VertScalars</name>
+        <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
+        <param>
+          <type>Const_VertScalars</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertScalars.VertScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14896" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14896" bodyend="14896"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a5be7228708de6c94149e29b1357ee373" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VertScalars.VertScalars</definition>
+        <argsstring>(VertScalars _other)</argsstring>
+        <name>VertScalars</name>
+        <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertScalars" kindref="compound">VertScalars</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VertScalars.VertScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14901" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14901" bodyend="14901"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1ab5cf4e40565c8eda1e052e810888792d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertScalars.VertScalars</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>VertScalars</name>
+        <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with default value Generated from constructor <computeroutput>MR.VertScalars.VertScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14907" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14907" bodyend="14913"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a4e2ad3b3ebacac61abf94fceca5e15fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertScalars.VertScalars</definition>
+        <argsstring>(ulong size, float val)</argsstring>
+        <name>VertScalars</name>
+        <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>creates a vector with <computeroutput>size</computeroutput> elements with the given value Generated from constructor <computeroutput>MR.VertScalars.VertScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14919" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14919" bodyend="14925"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1aae49fbdfe12e095510e0fd4c329e1384" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VertScalars.VertScalars</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
+        <name>VertScalars</name>
+        <qualifiedname>MR.VertScalars.VertScalars</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.VertScalars.VertScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14931" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14931" bodyend="14938"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1ab4bb52e739169cc6118747d76a72639f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
+        <definition>unsafe MR.VertScalars MR.VertScalars.assign</definition>
+        <argsstring>(MR._ByValue_VertScalars _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VertScalars.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_VertScalars</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertScalars.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14949" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14949" bodyend="14956"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1afdc92cc1fc7ea82861ce1c75840915f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR.VertScalars.clear</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1afdc92cc1fc7ea82861ce1c75840915f5" kindref="member">MR.VertScalars.clear</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14961" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14961" bodyend="14966"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a027bad7c79b5c695af506848310403e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.resize</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.VertScalars.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a027bad7c79b5c695af506848310403e3" kindref="member">MR.VertScalars.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14971" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14971" bodyend="14976"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a6732a9e10fd4cc9cf315c128bfca5a14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.resize</definition>
+        <argsstring>(ulong newSize, float t)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR.VertScalars.resize</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a027bad7c79b5c695af506848310403e3" kindref="member">MR.VertScalars.resize</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14981" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14981" bodyend="14986"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a8117ede3864f32802b755d090872c0c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.reserve</definition>
+        <argsstring>(ulong capacity)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR.VertScalars.reserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>capacity</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a8117ede3864f32802b755d090872c0c7" kindref="member">MR.VertScalars.reserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14991" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14991" bodyend="14996"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1aceef2a2984b297a28254186e794070e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.resizeWithReserve</definition>
+        <argsstring>(ulong newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.VertScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1aceef2a2984b297a28254186e794070e2" kindref="member">MR.VertScalars.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15015" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15015" bodyend="15020"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1ab1ed7da4d711b86bcdd0859c624e04fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.resizeWithReserve</definition>
+        <argsstring>(ulong newSize, float value)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR.VertScalars.resizeWithReserve</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>newSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize, value) can be done without reallocation Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1aceef2a2984b297a28254186e794070e2" kindref="member">MR.VertScalars.resizeWithReserve</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15026" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15026" bodyend="15031"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1abc2c6a753e77f2b5d0368297784ee294" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.autoResizeSet</definition>
+        <argsstring>(MR.VertId pos, ulong len, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.VertScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to the given value, adjusting the size of the vector to include new elements; the elements in between old size and <computeroutput>pos</computeroutput> are also set to <computeroutput>val</computeroutput> (for faster implementation) Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1abc2c6a753e77f2b5d0368297784ee294" kindref="member">MR.VertScalars.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15038" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15038" bodyend="15043"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a30998558f3bbf9dd805bb1dc4e982554" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.autoResizeSet</definition>
+        <argsstring>(MR.VertId i, float val)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR.VertScalars.autoResizeSet</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>sets the element #i to the given value, adjusting the size of the vector to include new element Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1abc2c6a753e77f2b5d0368297784ee294" kindref="member">MR.VertScalars.autoResizeSet</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15049" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15049" bodyend="15054"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a646b542f63a96c83d56810901517455f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref float</type>
+        <definition>unsafe ref float MR.VertScalars.autoResizeAt</definition>
+        <argsstring>(MR.VertId i)</argsstring>
+        <name>autoResizeAt</name>
+        <qualifiedname>MR.VertScalars.autoResizeAt</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>this accessor automatically adjusts the size of the vector Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a646b542f63a96c83d56810901517455f" kindref="member">MR.VertScalars.autoResizeAt</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15060" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15060" bodyend="15065"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1ad1174708accfef93ca1c22c719fff5f6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.pushBack</definition>
+        <argsstring>(float t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.VertScalars.pushBack</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertScalars.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15070" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15070" bodyend="15075"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1af5a6fe7b288baca4c619f3301eb5c6cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.pushBack</definition>
+        <argsstring>(MR.Misc._MoveRef _move_t, float t)</argsstring>
+        <name>pushBack</name>
+        <qualifiedname>MR.VertScalars.pushBack</qualifiedname>
+        <param>
+          <type>MR.Misc._MoveRef</type>
+          <declname>_move_t</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertScalars.push_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15080" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15080" bodyend="15085"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1ac5023921ca8c39fa3e91e02bf5f38ad7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.popBack</definition>
+        <argsstring>()</argsstring>
+        <name>popBack</name>
+        <qualifiedname>MR.VertScalars.popBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertScalars.pop_back</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15090" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15090" bodyend="15095"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a63fa0f689cd73f71b49404698dbf5a41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref float</type>
+        <definition>unsafe ref float MR.VertScalars.emplaceBack</definition>
+        <argsstring>()</argsstring>
+        <name>emplaceBack</name>
+        <qualifiedname>MR.VertScalars.emplaceBack</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VertScalars.emplace_back&lt;&gt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15100" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15100" bodyend="15105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a57be19f5ccbff2da0671c501a2c426eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.VertScalars.front</definition>
+        <argsstring>()</argsstring>
+        <name>front</name>
+        <qualifiedname>MR.VertScalars.front</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a57be19f5ccbff2da0671c501a2c426eb" kindref="member">MR.VertScalars.front</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15110" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15110" bodyend="15115"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1adf3c71211bfd852a69f0d0d67d9b5592" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new ref float</type>
+        <definition>unsafe new ref float MR.VertScalars.back</definition>
+        <argsstring>()</argsstring>
+        <name>back</name>
+        <qualifiedname>MR.VertScalars.back</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1adf3c71211bfd852a69f0d0d67d9b5592" kindref="member">MR.VertScalars.back</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15120" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15120" bodyend="15125"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1a4627d19cf38b37d1560bc511e99b09ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new MR.Misc.? Ref&lt; float &gt;</type>
+        <definition>unsafe new MR.Misc.? Ref&lt; float &gt; MR.VertScalars.data</definition>
+        <argsstring>()</argsstring>
+        <name>data</name>
+        <qualifiedname>MR.VertScalars.data</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1a4627d19cf38b37d1560bc511e99b09ad" kindref="member">MR.VertScalars.data</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15130" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15130" bodyend="15136"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VertScalars_1aa183ecb014d58ad50a71d648b0ad8403" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.VertScalars.swap</definition>
+        <argsstring>(MR.VertScalars b)</argsstring>
+        <name>swap</name>
+        <qualifiedname>MR.VertScalars.swap</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1VertScalars_1aa183ecb014d58ad50a71d648b0ad8403" kindref="member">MR.VertScalars.swap</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="15141" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="15141" bodyend="15146"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1VertScalars_1afaa320b2dd19c1329250d448cd90b8f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.VertScalars.operator VertScalars</definition>
+        <argsstring>(MR.Misc._Moved&lt; MR.Std.Vector_Float &gt; vec)</argsstring>
+        <name>operator VertScalars</name>
+        <qualifiedname>MR.VertScalars.operator VertScalars</qualifiedname>
+        <param>
+          <type>MR.Misc._Moved&lt; MR.Std.Vector_Float &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+<para>moves data from the given std.vector&lt;T&gt; Generated from constructor <computeroutput>MR.VertScalars.VertScalars</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14944" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14944" bodyend="14944"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>std.vector&lt;T&gt;-like container that requires specific indexing type, </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of stored elements </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type of index (shall be convertible to size_t) Generated from class <computeroutput><ref refid="classMR_1_1VertScalars" kindref="compound">MR.VertScalars</ref></computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_VertScalars</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VertScalars</label>
+        <link refid="classMR_1_1VertScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VertScalars &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_VertScalars &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_VertScalars</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VertScalars</label>
+        <link refid="classMR_1_1VertScalars"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VertScalars &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_VertScalars &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" line="14841" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector.cs" bodystart="14842" bodyend="15147"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VertScalars_1ab4bb52e739169cc6118747d76a72639f" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>assign</name></member>
+      <member refid="classMR_1_1VertScalars_1a646b542f63a96c83d56810901517455f" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>autoResizeAt</name></member>
+      <member refid="classMR_1_1VertScalars_1abc2c6a753e77f2b5d0368297784ee294" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1VertScalars_1a30998558f3bbf9dd805bb1dc4e982554" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1VertScalars_1adf3c71211bfd852a69f0d0d67d9b5592" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>back</name></member>
+      <member refid="classMR_1_1VertScalars_1afdc92cc1fc7ea82861ce1c75840915f5" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>clear</name></member>
+      <member refid="classMR_1_1VertScalars_1a4627d19cf38b37d1560bc511e99b09ad" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>data</name></member>
+      <member refid="classMR_1_1VertScalars_1a63fa0f689cd73f71b49404698dbf5a41" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>emplaceBack</name></member>
+      <member refid="classMR_1_1VertScalars_1a57be19f5ccbff2da0671c501a2c426eb" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>front</name></member>
+      <member refid="classMR_1_1VertScalars_1afaa320b2dd19c1329250d448cd90b8f0" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>operator VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1ac5023921ca8c39fa3e91e02bf5f38ad7" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>popBack</name></member>
+      <member refid="classMR_1_1VertScalars_1ad1174708accfef93ca1c22c719fff5f6" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1VertScalars_1af5a6fe7b288baca4c619f3301eb5c6cd" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>pushBack</name></member>
+      <member refid="classMR_1_1VertScalars_1a8117ede3864f32802b755d090872c0c7" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>reserve</name></member>
+      <member refid="classMR_1_1VertScalars_1a027bad7c79b5c695af506848310403e3" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resize</name></member>
+      <member refid="classMR_1_1VertScalars_1a6732a9e10fd4cc9cf315c128bfca5a14" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resize</name></member>
+      <member refid="classMR_1_1VertScalars_1aceef2a2984b297a28254186e794070e2" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1VertScalars_1ab1ed7da4d711b86bcdd0859c624e04fc" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1VertScalars_1aa183ecb014d58ad50a71d648b0ad8403" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>swap</name></member>
+      <member refid="classMR_1_1VertScalars_1a20a8a7ada34a0ac1968a61d298cb8953" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>this[MR.VertId i]</name></member>
+      <member refid="classMR_1_1VertScalars_1abc2fba8ad2c0efdb839c228b177f4f19" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>vec</name></member>
+      <member refid="classMR_1_1VertScalars_1ae352c2aa2ef19768e0dc686967d3de3d" prot="package" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1aae2d91819546bf0ca11062e0ff7acb61" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1a6ed9431ea8f1a4b071af8d37c9ce986b" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1a0954e402b0691d87b48876408cd6c083" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1a5be7228708de6c94149e29b1357ee373" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1ab5cf4e40565c8eda1e052e810888792d" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1a4e2ad3b3ebacac61abf94fceca5e15fd" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+      <member refid="classMR_1_1VertScalars_1aae49fbdfe12e095510e0fd4c329e1384" prot="public" virt="non-virtual"><scope>MR::VertScalars</scope><name>VertScalars</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

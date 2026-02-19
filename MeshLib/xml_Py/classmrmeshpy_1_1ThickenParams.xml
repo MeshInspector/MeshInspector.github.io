@@ -1,0 +1,363 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ThickenParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ThickenParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ThickenParams_1a64b37e43c4841bf77fdab7d88fbc03cb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ThickenParams::_offsetof_insideOffset</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_insideOffset</name>
+        <qualifiedname>mrmeshpy.ThickenParams._offsetof_insideOffset</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56692" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56692" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ThickenParams_1acfbd36f64252a1a3a6c8f84a3a3a1195" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ThickenParams::_offsetof_normalsTrustFactor</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normalsTrustFactor</name>
+        <qualifiedname>mrmeshpy.ThickenParams._offsetof_normalsTrustFactor</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56693" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ThickenParams_1a1583df5809643caa36f7fdda439fec69" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ThickenParams::_offsetof_outsideOffset</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outsideOffset</name>
+        <qualifiedname>mrmeshpy.ThickenParams._offsetof_outsideOffset</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56694" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56694" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1ad9a5d537df87aa459f0240ca71216d0e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ThickenParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ThickenParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56697" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56697" bodyend="56698"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1ad77f4f6376be00e284e57a8d78c4eaf1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ThickenParams" kindref="compound">ThickenParams</ref></type>
+        <definition> ThickenParams mrmeshpy.ThickenParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ThickenParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56701" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56701" bodyend="56702"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1ad77f4f6376be00e284e57a8d78c4eaf1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ThickenParams" kindref="compound">ThickenParams</ref></type>
+        <definition> ThickenParams mrmeshpy.ThickenParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ThickenParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56705" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56705" bodyend="56706"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1a03167d5e6695f2d21c74025137596e32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ThickenParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ThickenParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56708" bodyend="56709"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1a362cbb3b1a58604439dd45fc3ef94185" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ThickenParams.__init__</definition>
+        <argsstring>(self, ThickenParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ThickenParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ThickenParams" kindref="compound">ThickenParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56711" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56711" bodyend="56714"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1a7da1e0d88434f2e8a447f3da5408b5a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ThickenParams.__init__</definition>
+        <argsstring>(self, float outsideOffset, float insideOffset, float normalsTrustFactor)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ThickenParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>outsideOffset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>insideOffset</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>normalsTrustFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56716" bodyend="56719"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1ae51a7b4fabd315aa9506425eea7cefa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ThickenParams.insideOffset</definition>
+        <argsstring>(self)</argsstring>
+        <name>insideOffset</name>
+        <qualifiedname>mrmeshpy.ThickenParams.insideOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the amount of offset for cloned mirrored mesh vertices in the opposite direction
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56721" bodyend="56724"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1ae413e07b5936e1ac3801a105a5f3ca25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ThickenParams.insideOffset</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>insideOffset</name>
+        <qualifiedname>mrmeshpy.ThickenParams.insideOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56726" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56726" bodyend="56727"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1a85cf04d32a67581a54523563fc64da89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ThickenParams.normalsTrustFactor</definition>
+        <argsstring>(self)</argsstring>
+        <name>normalsTrustFactor</name>
+        <qualifiedname>mrmeshpy.ThickenParams.normalsTrustFactor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>increasing this value will lead mesh vertices to shift in the directions closer to their raw pseudo-normals, but
+it will increase the probability of self-intersections as well;
+decreasing (to a positive value) will on the contrary make the field of shift directions smoother
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56729" bodyend="56734"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1a4fe986e98e65b43ceb0e8ac5c0c48439" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ThickenParams.normalsTrustFactor</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>normalsTrustFactor</name>
+        <qualifiedname>mrmeshpy.ThickenParams.normalsTrustFactor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56736" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56736" bodyend="56737"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1a5c8ec76ba9d465be9547bca7c18f2298" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.ThickenParams.outsideOffset</definition>
+        <argsstring>(self)</argsstring>
+        <name>outsideOffset</name>
+        <qualifiedname>mrmeshpy.ThickenParams.outsideOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the amount of offset for original mesh vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56739" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56739" bodyend="56742"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ThickenParams_1a993b95aa76b31cf42fda8d1e18ec7db5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ThickenParams.outsideOffset</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>outsideOffset</name>
+        <qualifiedname>mrmeshpy.ThickenParams.outsideOffset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56744" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56744" bodyend="56745"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ThickenParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ThickenParams</label>
+        <link refid="classmrmeshpy_1_1ThickenParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_insideOffset</edgelabel>
+          <edgelabel>_offsetof_normalsTrustFactor</edgelabel>
+          <edgelabel>_offsetof_outsideOffset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56688" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56688" bodyend="56745"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ThickenParams_1ad9a5d537df87aa459f0240ca71216d0e" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1a03167d5e6695f2d21c74025137596e32" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1a362cbb3b1a58604439dd45fc3ef94185" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1a7da1e0d88434f2e8a447f3da5408b5a7" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1a64b37e43c4841bf77fdab7d88fbc03cb" prot="protected" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>_offsetof_insideOffset</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1acfbd36f64252a1a3a6c8f84a3a3a1195" prot="protected" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>_offsetof_normalsTrustFactor</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1a1583df5809643caa36f7fdda439fec69" prot="protected" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>_offsetof_outsideOffset</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1ae51a7b4fabd315aa9506425eea7cefa9" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>insideOffset</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1ae413e07b5936e1ac3801a105a5f3ca25" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>insideOffset</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1a85cf04d32a67581a54523563fc64da89" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>normalsTrustFactor</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1a4fe986e98e65b43ceb0e8ac5c0c48439" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>normalsTrustFactor</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1ad77f4f6376be00e284e57a8d78c4eaf1" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1ad77f4f6376be00e284e57a8d78c4eaf1" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1a5c8ec76ba9d465be9547bca7c18f2298" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>outsideOffset</name></member>
+      <member refid="classmrmeshpy_1_1ThickenParams_1a993b95aa76b31cf42fda8d1e18ec7db5" prot="public" virt="non-virtual"><scope>mrmeshpy::ThickenParams</scope><name>outsideOffset</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

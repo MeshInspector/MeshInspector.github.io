@@ -1,0 +1,410 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRChangeScaleAction_8h" kind="file" language="C++">
+    <compoundname>MRChangeScaleAction.h</compoundname>
+    <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRChangeScaleAction.h</label>
+        <link refid="MRChangeScaleAction_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRHistoryAction.h</label>
+        <link refid="MRHistoryAction_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRChangeScaleAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
+        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
+        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
+        <argsstring></argsstring>
+        <name>MR_HistoryAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="13" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeScaleAction_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" prot="public" static="no">
+        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_Object MR_std_shared_ptr_MR_Object</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_Object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="14" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeScaleAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
+        <definition>typedef struct MR_std_string MR_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" prot="public" static="no">
+        <type>struct <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref></type>
+        <definition>typedef struct MR_ChangeScaleAction MR_ChangeScaleAction</definition>
+        <argsstring></argsstring>
+        <name>MR_ChangeScaleAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>History action for scale object change Generated from class <computeroutput>MR::ChangeScaleAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="24" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1ac458d12afe264d5320722656131b29fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API MR_ChangeScaleAction * MR_ChangeScaleAction_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_ChangeScaleAction *_other)</argsstring>
+        <name>MR_ChangeScaleAction_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ChangeScaleAction::ChangeScaleAction</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" kindref="member">MR_ChangeScaleAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="29" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="29" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a9d121ab9ec8849d68f5c85e30a6cc4c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeScaleAction * MR_ChangeScaleAction_OffsetPtr</definition>
+        <argsstring>(const MR_ChangeScaleAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangeScaleAction_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="33" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="33" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1aba6b2de9771b6f32495869af5aa6e154" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API MR_ChangeScaleAction * MR_ChangeScaleAction_OffsetMutablePtr</definition>
+        <argsstring>(MR_ChangeScaleAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangeScaleAction_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="37" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="37" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a0ee27c953d50bc13b14411493562474a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API const MR_HistoryAction * MR_ChangeScaleAction_UpcastTo_MR_HistoryAction</definition>
+        <argsstring>(const MR_ChangeScaleAction *object)</argsstring>
+        <name>MR_ChangeScaleAction_UpcastTo_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeScaleAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="42" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="42" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a6ff3a0d245f3ae465ad9fc2c5080dc40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API MR_HistoryAction * MR_ChangeScaleAction_MutableUpcastTo_MR_HistoryAction</definition>
+        <argsstring>(MR_ChangeScaleAction *object)</argsstring>
+        <name>MR_ChangeScaleAction_MutableUpcastTo_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeScaleAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="46" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="46" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1adaddca3f5ce461f58ba9f7ef0123ebc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API MR_ChangeScaleAction * MR_ChangeScaleAction_Construct</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_Object *obj, float scale)</argsstring>
+        <name>MR_ChangeScaleAction_Construct</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>scale</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructor that performs object scaling, and remembers inverted scale value for undoing Generated from constructor <computeroutput>MR::ChangeScaleAction::ChangeScaleAction</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" kindref="member">MR_ChangeScaleAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="56" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="56" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeScaleAction_Destroy</definition>
+        <argsstring>(const MR_ChangeScaleAction *_this)</argsstring>
+        <name>MR_ChangeScaleAction_Destroy</name>
+        <param>
+          <type>const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeScaleAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a4d712ba032ed650ab80fcb263615aab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeScaleAction_DestroyArray</definition>
+        <argsstring>(const MR_ChangeScaleAction *_this)</argsstring>
+        <name>MR_ChangeScaleAction_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeScaleAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="62" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="62" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a94e6e8639ac1ae59d404d6f6262f0214" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+        <definition>MRC_API MR_ChangeScaleAction * MR_ChangeScaleAction_AssignFromAnother</definition>
+        <argsstring>(MR_ChangeScaleAction *_this, MR_PassBy _other_pass_by, MR_ChangeScaleAction *_other)</argsstring>
+        <name>MR_ChangeScaleAction_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeScaleAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="69" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="69" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1a5f58af14777e2457f2099d5e2329beba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_ChangeScaleAction_name</definition>
+        <argsstring>(const MR_ChangeScaleAction *_this)</argsstring>
+        <name>MR_ChangeScaleAction_name</name>
+        <param>
+          <type>const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeScaleAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="74" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="74" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1ae7ac882e3fc34c3d7e064c6e81bac9b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeScaleAction_action</definition>
+        <argsstring>(MR_ChangeScaleAction *_this, MR_HistoryAction_Type _1)</argsstring>
+        <name>MR_ChangeScaleAction_action</name>
+        <param>
+          <type><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref></type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeScaleAction::action</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeScaleAction_8h_1ae6cb7289771cdfdb2d041f1977c49734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_ChangeScaleAction_heapBytes</definition>
+        <argsstring>(const MR_ChangeScaleAction *_this)</argsstring>
+        <name>MR_ChangeScaleAction_heapBytes</name>
+        <param>
+          <type>const <ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeScaleAction::heapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" line="82" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h" declline="82" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRHistoryAction_8h" kindref="compound">MRCMesh/MRHistoryAction.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRChangeScaleAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRChangeScaleAction_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRChangeScaleAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="MRChangeScaleAction_8h_1ac458d12afe264d5320722656131b29fb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1ac458d12afe264d5320722656131b29fb" kindref="member">MR_ChangeScaleAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRChangeScaleAction_8h_1a9d121ab9ec8849d68f5c85e30a6cc4c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a9d121ab9ec8849d68f5c85e30a6cc4c1" kindref="member">MR_ChangeScaleAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="MRChangeScaleAction_8h_1aba6b2de9771b6f32495869af5aa6e154" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1aba6b2de9771b6f32495869af5aa6e154" kindref="member">MR_ChangeScaleAction_OffsetMutablePtr</ref>(<ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42" refid="MRChangeScaleAction_8h_1a0ee27c953d50bc13b14411493562474a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a0ee27c953d50bc13b14411493562474a" kindref="member">MR_ChangeScaleAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="MRChangeScaleAction_8h_1a6ff3a0d245f3ae465ad9fc2c5080dc40" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a6ff3a0d245f3ae465ad9fc2c5080dc40" kindref="member">MR_ChangeScaleAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="MRChangeScaleAction_8h_1adaddca3f5ce461f58ba9f7ef0123ebc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1adaddca3f5ce461f58ba9f7ef0123ebc5" kindref="member">MR_ChangeScaleAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>scale);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a2959bd95ba65cbd02c83eee4d061b8e9" kindref="member">MR_ChangeScaleAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="MRChangeScaleAction_8h_1a4d712ba032ed650ab80fcb263615aab3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a4d712ba032ed650ab80fcb263615aab3" kindref="member">MR_ChangeScaleAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRChangeScaleAction_8h_1a94e6e8639ac1ae59d404d6f6262f0214" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a94e6e8639ac1ae59d404d6f6262f0214" kindref="member">MR_ChangeScaleAction_AssignFromAnother</ref>(<ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="MRChangeScaleAction_8h_1a5f58af14777e2457f2099d5e2329beba" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeScaleAction_8h_1a5f58af14777e2457f2099d5e2329beba" kindref="member">MR_ChangeScaleAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRChangeScaleAction_8h_1ae7ac882e3fc34c3d7e064c6e81bac9b9" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1ae7ac882e3fc34c3d7e064c6e81bac9b9" kindref="member">MR_ChangeScaleAction_action</ref>(<ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>_1);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="MRChangeScaleAction_8h_1ae6cb7289771cdfdb2d041f1977c49734" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeScaleAction_8h_1ae6cb7289771cdfdb2d041f1977c49734" kindref="member">MR_ChangeScaleAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeScaleAction_8h_1a84dcb56dda89d6796be86c50afca37f5" kindref="member">MR_ChangeScaleAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeScaleAction.h"/>
+  </compounddef>
+</doxygen>

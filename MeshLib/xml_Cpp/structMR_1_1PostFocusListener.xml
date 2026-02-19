@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PostFocusListener" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::PostFocusListener</compoundname>
+    <basecompoundref refid="structMR_1_1ConnectionHolder" prot="public" virt="non-virtual">MR::ConnectionHolder</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1SpaceMouse_1_1HandlerHidapi" prot="public" virt="non-virtual">MR::SpaceMouse::HandlerHidapi</derivedcompoundref>
+    <includes refid="MRViewerEventsListener_8h" local="no">MRViewerEventsListener.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac6da51dc62db3e216930fa626bd53dd3" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gac88ae46c3a44734665f38071133b6260" kind="function"><name>~PostFocusListener</name></member>
+      <member refid="group__GeneralGroup_1gaca372f013f9f8d45231243ef9488c0c0" kind="function"><name>connect</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga38251f795111e912a45ad68a7c13ca21" kind="function"><name>postFocus_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class to subscribe on PostFocusSingal </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::PostFocusListener</label>
+        <link refid="structMR_1_1PostFocusListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::SpaceMouse::HandlerHidapi</label>
+        <link refid="classMR_1_1SpaceMouse_1_1HandlerHidapi"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ConnectionHolder</label>
+        <link refid="structMR_1_1ConnectionHolder"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::IConnectable</label>
+        <link refid="structMR_1_1IConnectable"/>
+      </node>
+      <node id="1">
+        <label>MR::PostFocusListener</label>
+        <link refid="structMR_1_1PostFocusListener"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" line="399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerEventsListener.h" bodystart="400" bodyend="406"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaca372f013f9f8d45231243ef9488c0c0" prot="public" virt="virtual"><scope>MR::PostFocusListener</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga56827c58cd144995185b539aad6929d4" prot="protected" virt="non-virtual"><scope>MR::PostFocusListener</scope><name>connection_</name></member>
+      <member refid="group__GeneralGroup_1gafe082892826d9c3fe604a038f3509c70" prot="public" virt="virtual"><scope>MR::PostFocusListener</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gac6da51dc62db3e216930fa626bd53dd3" prot="public" virt="non-virtual"><scope>MR::PostFocusListener</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga38251f795111e912a45ad68a7c13ca21" prot="protected" virt="pure-virtual"><scope>MR::PostFocusListener</scope><name>postFocus_</name></member>
+      <member refid="group__GeneralGroup_1ga99ffc44dd73f73e2e907b7ab5bb38aaf" prot="public" virt="virtual"><scope>MR::PostFocusListener</scope><name>~ConnectionHolder</name></member>
+      <member refid="group__GeneralGroup_1ga28c07761e682b80befbb2d5f91bdd38c" prot="public" virt="virtual"><scope>MR::PostFocusListener</scope><name>~IConnectable</name></member>
+      <member refid="group__GeneralGroup_1gac88ae46c3a44734665f38071133b6260" prot="public" virt="virtual"><scope>MR::PostFocusListener</scope><name>~PostFocusListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

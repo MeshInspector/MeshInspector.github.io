@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SaveSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SaveSettings</compoundname>
+    <derivedcompoundref refid="structMR_1_1MeshSave_1_1CtmSaveOptions" prot="public" virt="non-virtual">MR::MeshSave::CtmSaveOptions</derivedcompoundref>
+    <derivedcompoundref refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions" prot="public" virt="non-virtual">MR::PointsSave::CtmSavePointsOptions</derivedcompoundref>
+    <includes refid="MRSaveSettings_8h" local="no">MRSaveSettings.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga88539fbafc85e15a6dbc49b2b3144a15" kind="variable"><name>onlyValidPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf59abe4d1987a4ccd1c117cfe7f3c160" kind="variable"><name>packPrimitives</name></member>
+      <member refid="group__GeneralGroup_1ga6aa78ab8ac3342aaeb267aa07e82721a" kind="variable"><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga2adbb4514d02bbf6b87e95a090e1a2d9" kind="variable"><name>primitiveColors</name></member>
+      <member refid="group__GeneralGroup_1ga71c2ed63cb6a101dbd9b47f8ca9898fd" kind="variable"><name>uvMap</name></member>
+      <member refid="group__GeneralGroup_1gac0798760baa0755ad37dde251b754b9d" kind="variable"><name>saveTriCornerUVCoords</name></member>
+      <member refid="group__GeneralGroup_1ga0cd4cf82acb2f094f43f785282fcb76a" kind="variable"><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga3614a6ca71783b2dd64369d4f122ee69" kind="variable"><name>materialName</name></member>
+      <member refid="group__GeneralGroup_1ga972e4972bf3626cb56f22c55b69cccc0" kind="variable"><name>xf</name></member>
+      <member refid="group__GeneralGroup_1ga1b152fd38e636ee6803cabaac71794cc" kind="variable"><name>lengthUnit</name></member>
+      <member refid="group__GeneralGroup_1ga127d98f930cd561a8633297e3422f649" kind="variable"><name>solidColor</name></member>
+      <member refid="group__GeneralGroup_1ga0f2bb31407f2693aa939c47e0052b527" kind="variable"><name>progress</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>determines how to save points/lines/mesh </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::MeshSave::CtmSaveOptions</label>
+        <link refid="structMR_1_1MeshSave_1_1CtmSaveOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::PointsSave::CtmSavePointsOptions</label>
+        <link refid="structMR_1_1PointsSave_1_1CtmSavePointsOptions"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SaveSettings</label>
+        <link refid="structMR_1_1SaveSettings"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::Image</label>
+        <link refid="structMR_1_1Image"/>
+      </node>
+      <node id="2">
+        <label>MR::MeshTexture</label>
+        <link refid="structMR_1_1MeshTexture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::SaveSettings</label>
+        <link refid="structMR_1_1SaveSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>texture</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSaveSettings.h" bodystart="20" bodyend="62"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6aa78ab8ac3342aaeb267aa07e82721a" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>colors</name></member>
+      <member refid="group__GeneralGroup_1ga1b152fd38e636ee6803cabaac71794cc" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>lengthUnit</name></member>
+      <member refid="group__GeneralGroup_1ga3614a6ca71783b2dd64369d4f122ee69" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>materialName</name></member>
+      <member refid="group__GeneralGroup_1ga88539fbafc85e15a6dbc49b2b3144a15" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>onlyValidPoints</name></member>
+      <member refid="group__GeneralGroup_1gaf59abe4d1987a4ccd1c117cfe7f3c160" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>packPrimitives</name></member>
+      <member refid="group__GeneralGroup_1ga2adbb4514d02bbf6b87e95a090e1a2d9" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>primitiveColors</name></member>
+      <member refid="group__GeneralGroup_1ga0f2bb31407f2693aa939c47e0052b527" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>progress</name></member>
+      <member refid="group__GeneralGroup_1gac0798760baa0755ad37dde251b754b9d" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>saveTriCornerUVCoords</name></member>
+      <member refid="group__GeneralGroup_1ga127d98f930cd561a8633297e3422f649" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>solidColor</name></member>
+      <member refid="group__GeneralGroup_1ga0cd4cf82acb2f094f43f785282fcb76a" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>texture</name></member>
+      <member refid="group__GeneralGroup_1ga71c2ed63cb6a101dbd9b47f8ca9898fd" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>uvMap</name></member>
+      <member refid="group__GeneralGroup_1ga972e4972bf3626cb56f22c55b69cccc0" prot="public" virt="non-virtual"><scope>MR::SaveSettings</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

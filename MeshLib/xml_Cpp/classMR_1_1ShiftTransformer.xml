@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ShiftTransformer" kind="class" language="C++" prot="public">
+    <compoundname>MR::ShiftTransformer</compoundname>
+    <includes refid="MROpenVDBHelper_8h" local="no">MROpenVDBHelper.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename TreeT</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga25779f4d269609b5b8a197c243b7a19c" kind="typedef"><name>InTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga002673d0c242633120d670961940cac5" kind="typedef"><name>OutTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1gab7175d7b506f4e42478b9365b5b2ddbf" kind="typedef"><name>ValueT</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga436ae747665056333cc7496a41258a32" kind="variable"><name>shift_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga1884898b6086a4da8a93f20af5c6519e" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga2462275abc34da748597b3ebccd9f961" kind="function"><name>setShift</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>functor for shifting voxels </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="154" bodyend="169"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga25779f4d269609b5b8a197c243b7a19c" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>InTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga1884898b6086a4da8a93f20af5c6519e" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga002673d0c242633120d670961940cac5" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>OutTreeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga2462275abc34da748597b3ebccd9f961" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>setShift</name></member>
+      <member refid="group__GeneralGroup_1ga436ae747665056333cc7496a41258a32" prot="private" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>shift_</name></member>
+      <member refid="group__GeneralGroup_1gab7175d7b506f4e42478b9365b5b2ddbf" prot="public" virt="non-virtual"><scope>MR::ShiftTransformer</scope><name>ValueT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

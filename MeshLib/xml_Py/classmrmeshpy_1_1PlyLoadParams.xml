@@ -1,0 +1,883 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PlyLoadParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PlyLoadParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1a467115ce8bbcf649cb0c3457626a5949" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_callback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_callback</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_callback</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1a85fba3cbb158dd4c52b0187d4d7cd541" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_colors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_colors</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_colors</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1aac8e00fd7a4f84a5252a762f8b376332" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_dir</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dir</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_dir</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1ab926e8fbf07e2d05725d1023a029e0e2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_edges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edges</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_edges</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1a1849b575b33946c84c728004fb90b7c3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_faceColors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_faceColors</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_faceColors</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1a887d6c9e1ef64f4082fa2871d4bb15d7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_normals</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_normals</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_normals</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44123" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1ad86183ed358f4efdcaa73a9d6b50415d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_telemetrySignal</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_telemetrySignal</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_telemetrySignal</qualifiedname>
+        <initializer>=  136</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1a067e3230d3ecc8ba4013ac5b7b1c3e86" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_texture</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_texture</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_texture</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1a1bc6817b301044c002fe80651d3e8eae" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_triCornerUvCoords</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_triCornerUvCoords</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_triCornerUvCoords</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1a29aa1bf12ebf5039d29f1cbe9afcb255" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_tris</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tris</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_tris</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44127" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PlyLoadParams_1aad3958b56df3351c8f98a66cfe6a6687" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PlyLoadParams::_offsetof_uvCoords</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uvCoords</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams._offsetof_uvCoords</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44128" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1aeca7a899278d30324d33c43f426b233f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44131" bodyend="44132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a6b79c5c51b5da78e32c09b55efd2f2f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PlyLoadParams" kindref="compound">PlyLoadParams</ref></type>
+        <definition> PlyLoadParams mrmeshpy.PlyLoadParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44135" bodyend="44136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a6b79c5c51b5da78e32c09b55efd2f2f9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PlyLoadParams" kindref="compound">PlyLoadParams</ref></type>
+        <definition> PlyLoadParams mrmeshpy.PlyLoadParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44139" bodyend="44140"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1ae4bea723a4b5e45c7bb94386ef62dfc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44142" bodyend="44143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1ad0700c4d3326977ab71157020d4ba946" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.__init__</definition>
+        <argsstring>(self, PlyLoadParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PlyLoadParams" kindref="compound">PlyLoadParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44145" bodyend="44148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a0e5daca72f9165ef8e5fe7c42628daf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.__init__</definition>
+        <argsstring>(self, std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag tris, std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag edges, VertColors colors, FaceColors faceColors, VertCoords2 uvCoords, TriCornerUVCoords triCornerUvCoords, VertCoords normals, MeshTexture texture, os.PathLike|str|bytes dir, func_bool_from_float callback, bool telemetrySignal)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag" kindref="compound">std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag</ref></type>
+          <declname>tris</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag" kindref="compound">std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag</ref></type>
+          <declname>edges</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>colors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceColors" kindref="compound">FaceColors</ref></type>
+          <declname>faceColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>uvCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+          <declname>triCornerUvCoords</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>normals</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+          <declname>texture</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>telemetrySignal</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44150" bodyend="44153"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a740dcc8e3346dfd9d024cdfcdc7b9eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.PlyLoadParams.callback</definition>
+        <argsstring>(self)</argsstring>
+        <name>callback</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback for set progress and stop process
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44155" bodyend="44158"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a6fe759868e05ff762e78bbaa43ad950a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.callback</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>callback</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.callback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44160" bodyend="44161"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1aa3fb981e83fb3212bd36f85f67abd85a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.PlyLoadParams.colors</definition>
+        <argsstring>(self)</argsstring>
+        <name>colors</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.colors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional load artifact: per-vertex color map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44163" bodyend="44166"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1ad53d9f30ab07f86a4a1814370971b275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.colors</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>colors</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.colors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44168" bodyend="44169"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1ad31bda9289006f37416ec013a2507d9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.PlyLoadParams.dir</definition>
+        <argsstring>(self)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>directory to load texture files from
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44171" bodyend="44174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a2c074f0398d6caa898df9c4a3a5ffbbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.dir</definition>
+        <argsstring>(self, os.PathLike|str|bytes arg1)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44176" bodyend="44177"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1adb3f852bef5545dc78513940272868e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag" kindref="compound">std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag</ref></type>
+        <definition> std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag mrmeshpy.PlyLoadParams.edges</definition>
+        <argsstring>(self)</argsstring>
+        <name>edges</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.edges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional load artifact: polyline edges
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44179" bodyend="44182"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a4f8ece9467e818f441e79eb5fadc39c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.edges</definition>
+        <argsstring>(self, std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag arg1)</argsstring>
+        <name>edges</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.edges</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__2ul__Id__UndirectedEdgeTag" kindref="compound">std_optional_Vector_std_array_Id_VertTag_2ul_Id_UndirectedEdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44184" bodyend="44185"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a6bfbea4ed98400b83e054370c52a6043" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceColors" kindref="compound">FaceColors</ref></type>
+        <definition> FaceColors mrmeshpy.PlyLoadParams.faceColors</definition>
+        <argsstring>(self)</argsstring>
+        <name>faceColors</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.faceColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional load artifact: per-face color map
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44187" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44187" bodyend="44190"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a42716c1fb4c77db9ef49fd19000b1b88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.faceColors</definition>
+        <argsstring>(self, FaceColors arg1)</argsstring>
+        <name>faceColors</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.faceColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceColors" kindref="compound">FaceColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44192" bodyend="44193"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a0d735734a3ac9240bca3ebe65ed58980" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+        <definition> VertCoords mrmeshpy.PlyLoadParams.normals</definition>
+        <argsstring>(self)</argsstring>
+        <name>normals</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.normals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional load artifact: per-vertex normals
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44195" bodyend="44198"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1ac5af01422f9aa45c198c1df9420bf3a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.normals</definition>
+        <argsstring>(self, VertCoords arg1)</argsstring>
+        <name>normals</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.normals</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords" kindref="compound">VertCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44200" bodyend="44201"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1af2956a6a6fac815da3ee454534fce91c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PlyLoadParams.telemetrySignal</definition>
+        <argsstring>(self)</argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.telemetrySignal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>permit telemetry signal about loading
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44203" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44203" bodyend="44206"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a8a34948fc8a4e75e9e67f6489b928217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.telemetrySignal</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>telemetrySignal</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.telemetrySignal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44208" bodyend="44209"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1abedca63e352b4ea63c0327fc4f34f726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+        <definition> MeshTexture mrmeshpy.PlyLoadParams.texture</definition>
+        <argsstring>(self)</argsstring>
+        <name>texture</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.texture</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional load artifact: texture image
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44211" bodyend="44214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a73c13b2cf1dda15ab5aa69b7cebfebe1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.texture</definition>
+        <argsstring>(self, MeshTexture arg1)</argsstring>
+        <name>texture</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.texture</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44216" bodyend="44217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a31d9e22b27ca4b5f2c1e6175d2b99aff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+        <definition> TriCornerUVCoords mrmeshpy.PlyLoadParams.triCornerUvCoords</definition>
+        <argsstring>(self)</argsstring>
+        <name>triCornerUvCoords</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.triCornerUvCoords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional load artifact: per-corner uv-coordinates for each triangle
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44219" bodyend="44222"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a14b3d77e9fb16a07c05368bf52579fd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.triCornerUvCoords</definition>
+        <argsstring>(self, TriCornerUVCoords arg1)</argsstring>
+        <name>triCornerUvCoords</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.triCornerUvCoords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriCornerUVCoords" kindref="compound">TriCornerUVCoords</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44224" bodyend="44225"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1a21b359faf264c887cd283dfaa9bdd91d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag" kindref="compound">std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag</ref></type>
+        <definition> std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag mrmeshpy.PlyLoadParams.tris</definition>
+        <argsstring>(self)</argsstring>
+        <name>tris</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.tris</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional load artifact: mesh triangles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44227" bodyend="44230"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1aea7f02db6807d7da15a40c94e7aa644b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.tris</definition>
+        <argsstring>(self, std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag arg1)</argsstring>
+        <name>tris</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.tris</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Vector__std__array__Id__VertTag__3ul__Id__FaceTag" kindref="compound">std_optional_Vector_std_array_Id_VertTag_3ul_Id_FaceTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44232" bodyend="44233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1ac7d6e201a789388b899fe9ee460e7900" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+        <definition> VertCoords2 mrmeshpy.PlyLoadParams.uvCoords</definition>
+        <argsstring>(self)</argsstring>
+        <name>uvCoords</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.uvCoords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>optional load artifact: per-vertex uv-coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44235" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44235" bodyend="44238"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PlyLoadParams_1ab3f1f7755bea77c615a95144a663d0b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PlyLoadParams.uvCoords</definition>
+        <argsstring>(self, VertCoords2 arg1)</argsstring>
+        <name>uvCoords</name>
+        <qualifiedname>mrmeshpy.PlyLoadParams.uvCoords</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44240" bodyend="44241"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PlyLoadParams
+
+optional load artifacts and other setting for PLY file loading
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PlyLoadParams</label>
+        <link refid="classmrmeshpy_1_1PlyLoadParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_callback</edgelabel>
+          <edgelabel>_offsetof_colors</edgelabel>
+          <edgelabel>_offsetof_dir</edgelabel>
+          <edgelabel>_offsetof_edges</edgelabel>
+          <edgelabel>_offsetof_faceColors</edgelabel>
+          <edgelabel>_offsetof_normals</edgelabel>
+          <edgelabel>_offsetof_telemetrySignal</edgelabel>
+          <edgelabel>_offsetof_texture</edgelabel>
+          <edgelabel>_offsetof_triCornerUvCoords</edgelabel>
+          <edgelabel>_offsetof_tris</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44112" bodyend="44241"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1aeca7a899278d30324d33c43f426b233f" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1ae4bea723a4b5e45c7bb94386ef62dfc0" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1ad0700c4d3326977ab71157020d4ba946" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a0e5daca72f9165ef8e5fe7c42628daf8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a467115ce8bbcf649cb0c3457626a5949" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_callback</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a85fba3cbb158dd4c52b0187d4d7cd541" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_colors</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1aac8e00fd7a4f84a5252a762f8b376332" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_dir</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1ab926e8fbf07e2d05725d1023a029e0e2" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_edges</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a1849b575b33946c84c728004fb90b7c3" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_faceColors</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a887d6c9e1ef64f4082fa2871d4bb15d7" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_normals</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1ad86183ed358f4efdcaa73a9d6b50415d" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a067e3230d3ecc8ba4013ac5b7b1c3e86" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_texture</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a1bc6817b301044c002fe80651d3e8eae" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_triCornerUvCoords</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a29aa1bf12ebf5039d29f1cbe9afcb255" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_tris</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1aad3958b56df3351c8f98a66cfe6a6687" prot="protected" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>_offsetof_uvCoords</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a740dcc8e3346dfd9d024cdfcdc7b9eee" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>callback</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a6fe759868e05ff762e78bbaa43ad950a" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>callback</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1aa3fb981e83fb3212bd36f85f67abd85a" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1ad53d9f30ab07f86a4a1814370971b275" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>colors</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1ad31bda9289006f37416ec013a2507d9c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a2c074f0398d6caa898df9c4a3a5ffbbf" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1adb3f852bef5545dc78513940272868e2" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>edges</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a4f8ece9467e818f441e79eb5fadc39c2" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>edges</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a6bfbea4ed98400b83e054370c52a6043" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>faceColors</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a42716c1fb4c77db9ef49fd19000b1b88" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>faceColors</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a0d735734a3ac9240bca3ebe65ed58980" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>normals</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1ac5af01422f9aa45c198c1df9420bf3a5" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>normals</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a6b79c5c51b5da78e32c09b55efd2f2f9" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a6b79c5c51b5da78e32c09b55efd2f2f9" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1af2956a6a6fac815da3ee454534fce91c" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a8a34948fc8a4e75e9e67f6489b928217" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>telemetrySignal</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1abedca63e352b4ea63c0327fc4f34f726" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>texture</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a73c13b2cf1dda15ab5aa69b7cebfebe1" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>texture</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a31d9e22b27ca4b5f2c1e6175d2b99aff" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>triCornerUvCoords</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a14b3d77e9fb16a07c05368bf52579fd8" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>triCornerUvCoords</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1a21b359faf264c887cd283dfaa9bdd91d" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>tris</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1aea7f02db6807d7da15a40c94e7aa644b" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>tris</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1ac7d6e201a789388b899fe9ee460e7900" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>uvCoords</name></member>
+      <member refid="classmrmeshpy_1_1PlyLoadParams_1ab3f1f7755bea77c615a95144a663d0b2" prot="public" virt="non-virtual"><scope>mrmeshpy::PlyLoadParams</scope><name>uvCoords</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PartialChangeMeshTopologyAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::PartialChangeMeshTopologyAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRPartialChangeMeshAction_8h" local="no">MRPartialChangeMeshAction.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1PartialChangeMeshTopologyAction_1ad422579ee2ceec5c4b20325b601e589d" prot="private" static="no" mutable="no">
+        <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
+        <definition>std::shared_ptr&lt;ObjectMesh&gt; MR::PartialChangeMeshTopologyAction::objMesh_</definition>
+        <argsstring></argsstring>
+        <name>objMesh_</name>
+        <qualifiedname>MR::PartialChangeMeshTopologyAction::objMesh_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="209" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PartialChangeMeshTopologyAction_1a2ccb26688a953b707001799dea18f186" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1MeshTopologyDiff" kindref="compound">MeshTopologyDiff</ref></type>
+        <definition>MeshTopologyDiff MR::PartialChangeMeshTopologyAction::topologyDiff_</definition>
+        <argsstring></argsstring>
+        <name>topologyDiff_</name>
+        <qualifiedname>MR::PartialChangeMeshTopologyAction::topologyDiff_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="210" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1PartialChangeMeshTopologyAction_1ae39daba695eba41ede1675193af067cb" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string MR::PartialChangeMeshTopologyAction::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <qualifiedname>MR::PartialChangeMeshTopologyAction::name_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="212" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="212" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a401938742b88492ed12d3e7509eed8bc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::PartialChangeMeshTopologyAction::PartialChangeMeshTopologyAction</definition>
+        <argsstring>(std::string name, std::shared_ptr&lt; ObjectMesh &gt; obj, CmpOld, const MeshTopology &amp;oldTopology)</argsstring>
+        <name>PartialChangeMeshTopologyAction</name>
+        <qualifiedname>MR::PartialChangeMeshTopologyAction::PartialChangeMeshTopologyAction</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1CmpOld" kindref="compound">CmpOld</ref></type>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;</type>
+          <declname>oldTopology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>use this constructor after the object already contains new topology, and old topology is passed to remember the difference for future undoing </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="155" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="155" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a106d313b24a6ed0b2cc1f7f65bdf2674" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::PartialChangeMeshTopologyAction::PartialChangeMeshTopologyAction</definition>
+        <argsstring>(std::string name, std::shared_ptr&lt; ObjectMesh &gt; obj, SetNew, MeshTopology &amp;&amp;newTopology)</argsstring>
+        <name>PartialChangeMeshTopologyAction</name>
+        <qualifiedname>MR::PartialChangeMeshTopologyAction::PartialChangeMeshTopologyAction</qualifiedname>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>std::shared_ptr&lt; <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> &gt;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1SetNew" kindref="compound">SetNew</ref></type>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1MeshTopology" kindref="compound">MeshTopology</ref> &amp;&amp;</type>
+          <declname>newTopology</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to set new object&apos;s topology and remember its difference from existed topology for future undoing </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="168" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="168" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1af60c80f62ba5789c89fc2657ce402ef0" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>std::string</type>
+        <definition>virtual std::string MR::PartialChangeMeshTopologyAction::name</definition>
+        <argsstring>() const override</argsstring>
+        <name>name</name>
+        <qualifiedname>MR::PartialChangeMeshTopologyAction::name</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga9daa0b79de161f676f6283e3804dc8ce">name</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="184" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="184" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1abcd08e02fc94e72034e4e2bc1371262b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR::PartialChangeMeshTopologyAction::action</definition>
+        <argsstring>(HistoryAction::Type) override</argsstring>
+        <name>action</name>
+        <qualifiedname>MR::PartialChangeMeshTopologyAction::action</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1gaecfce349736beaf17a23a6817c86f3bb">action</reimplements>
+        <param>
+          <type><ref refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" kindref="member">HistoryAction::Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+<para>This function is called on history action (undo, redo, etc.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="189" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="189" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PartialChangeMeshTopologyAction_1a61706f60c84d69b27d3acf9fdc0673ef" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="virtual">
+        <type>size_t</type>
+        <definition>virtual size_t MR::PartialChangeMeshTopologyAction::heapBytes</definition>
+        <argsstring>() const override</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::PartialChangeMeshTopologyAction::heapBytes</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1gad6df54da6a63ed83f15053507e8569de">heapBytes</reimplements>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="203" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="203" bodyend="206"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for efficiently storage of partial change in mesh topology (e.g. a modification of small region) </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::PartialChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1PartialChangeMeshTopologyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+      <node id="1">
+        <label>MR::PartialChangeMeshTopologyAction</label>
+        <link refid="classMR_1_1PartialChangeMeshTopologyAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" line="150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPartialChangeMeshAction.h" bodystart="151" bodyend="213"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1abcd08e02fc94e72034e4e2bc1371262b" prot="public" virt="virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>action</name></member>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a61706f60c84d69b27d3acf9fdc0673ef" prot="public" virt="virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1af60c80f62ba5789c89fc2657ce402ef0" prot="public" virt="virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>name</name></member>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1ae39daba695eba41ede1675193af067cb" prot="private" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>name_</name></member>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1ad422579ee2ceec5c4b20325b601e589d" prot="private" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>objMesh_</name></member>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a401938742b88492ed12d3e7509eed8bc" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a106d313b24a6ed0b2cc1f7f65bdf2674" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>PartialChangeMeshTopologyAction</name></member>
+      <member refid="classMR_1_1PartialChangeMeshTopologyAction_1a2ccb26688a953b707001799dea18f186" prot="private" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>topologyDiff_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::PartialChangeMeshTopologyAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

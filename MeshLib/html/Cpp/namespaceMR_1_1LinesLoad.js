@@ -1,6 +1,8 @@
 var namespaceMR_1_1LinesLoad =
 [
     [ "LinesLoader", "structMR_1_1LinesLoad_1_1LinesLoader.html", "structMR_1_1LinesLoad_1_1LinesLoader" ],
+    [ "LinesFileLoader", "namespaceMR_1_1LinesLoad.html#a90da90447771026ea69eb4b7e8a2c5af", null ],
+    [ "LinesStreamLoader", "namespaceMR_1_1LinesLoad.html#a8ba03f82b986b90262ac83290496a441", null ],
     [ "fromAnySupportedFormat", "group__LinesLoad.html#gad25df65cb1286463c40c3525d7462da7", null ],
     [ "fromAnySupportedFormat", "group__LinesLoad.html#gac9f73ce11df2e9984939255605e2d437", null ],
     [ "fromMrLines", "group__LinesLoad.html#ga5bbd4986a67fe058c317fc572072f788", null ],
@@ -8,5 +10,8 @@ var namespaceMR_1_1LinesLoad =
     [ "fromPly", "group__LinesLoad.html#ga6d309e19703b9fd3f9a7b5258471f304", null ],
     [ "fromPly", "group__LinesLoad.html#ga902501cd4125cf2facbf356941dcb8f1", null ],
     [ "fromPts", "group__LinesLoad.html#gae7291e11583b98a3ad4fc821d635cd69", null ],
-    [ "fromPts", "group__LinesLoad.html#ga8bcc88ce6332215acae8bdcb45c3ec3a", null ]
+    [ "fromPts", "group__LinesLoad.html#ga8bcc88ce6332215acae8bdcb45c3ec3a", null ],
+    [ "fromSvg", "namespaceMR_1_1LinesLoad.html#a95ffa7bdd0595c8fc73bba4e40993deb", null ],
+    [ "fromSvg", "namespaceMR_1_1LinesLoad.html#a56468082db347bc5fed5d141227ced71", null ],
+    [ "fromSvg", "namespaceMR_1_1LinesLoad.html#adbb821526ce909967cfd04366c150ed6", null ]
 ];

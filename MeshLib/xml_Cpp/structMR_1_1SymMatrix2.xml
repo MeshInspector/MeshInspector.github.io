@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SymMatrix2" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SymMatrix2</compoundname>
+    <includes refid="MRSymMatrix2_8h" local="no">MRSymMatrix2.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1ga794820de02de93d89f45517747122e36" kind="function"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga7023f18d2ffbf60a3eb3b4cd2fe1ce18" kind="function"><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga670c0b0b5468ad0685c66438e965bb2a" kind="function"><name>outerSquare</name></member>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga2508bdc607f557d33ec49ff959cf1a3d" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaf527509f666f1f4e66becbf773677189" kind="variable"><name>xx</name></member>
+      <member refid="group__GeneralGroup_1ga298176c6fdc19f53dcf4b4c5e9624b01" kind="variable"><name>xy</name></member>
+      <member refid="group__GeneralGroup_1ga3f9de72646e2a2bbf46b9eb3a2691fc2" kind="variable"><name>yy</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga0d7b116cb57858e0b068a33b81aed7a7" kind="function"><name>SymMatrix2</name></member>
+      <member refid="group__GeneralGroup_1ga1eca71ad89169309ec28fa552e31cba8" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga261caca745c8a5998fe4599fd9031b43" kind="function"><name>trace</name></member>
+      <member refid="group__GeneralGroup_1gac088520c9f121e179524c9eb9b86ff3b" kind="function"><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1ga9c194918f3cde06811faecbb15daad9c" kind="function"><name>det</name></member>
+      <member refid="group__GeneralGroup_1ga175876ca220ae2820662151e1024e232" kind="function"><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1ga4ec338b96049194a96390245466b6a46" kind="function"><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1gaadb5fa684446a94e5c5b1148543e7761" kind="function"><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga00825772702cbd97018eca7af85866ad" kind="function"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga55a77d7f0bbf6b2221a68f1b76439079" kind="function"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1ga841408afb3b039fd491f2c3078d9ad99" kind="function"><name>operator/=</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga4bfb70d898e1d782b1743ab3bf6c9068" kind="function"><name>identity</name></member>
+      <member refid="group__GeneralGroup_1ga364466ea8c305b40ce349b90f040c873" kind="function"><name>diagonal</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>symmetric 2x2 matrix </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix2.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSymMatrix2.h" bodystart="17" bodyend="70"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga9c194918f3cde06811faecbb15daad9c" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>det</name></member>
+      <member refid="group__GeneralGroup_1ga364466ea8c305b40ce349b90f040c873" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>diagonal</name></member>
+      <member refid="group__GeneralGroup_1ga4bfb70d898e1d782b1743ab3bf6c9068" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>identity</name></member>
+      <member refid="group__GeneralGroup_1ga175876ca220ae2820662151e1024e232" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1ga4ec338b96049194a96390245466b6a46" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>inverse</name></member>
+      <member refid="group__GeneralGroup_1ga1eca71ad89169309ec28fa552e31cba8" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1gac088520c9f121e179524c9eb9b86ff3b" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1ga794820de02de93d89f45517747122e36" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga55a77d7f0bbf6b2221a68f1b76439079" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1gaadb5fa684446a94e5c5b1148543e7761" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1ga00825772702cbd97018eca7af85866ad" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga841408afb3b039fd491f2c3078d9ad99" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga7023f18d2ffbf60a3eb3b4cd2fe1ce18" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga670c0b0b5468ad0685c66438e965bb2a" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>outerSquare</name></member>
+      <member refid="group__GeneralGroup_1ga0d7b116cb57858e0b068a33b81aed7a7" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>SymMatrix2</name></member>
+      <member refid="group__GeneralGroup_1ga261caca745c8a5998fe4599fd9031b43" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>trace</name></member>
+      <member refid="group__GeneralGroup_1ga2508bdc607f557d33ec49ff959cf1a3d" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1gaf527509f666f1f4e66becbf773677189" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>xx</name></member>
+      <member refid="group__GeneralGroup_1ga298176c6fdc19f53dcf4b4c5e9624b01" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>xy</name></member>
+      <member refid="group__GeneralGroup_1ga3f9de72646e2a2bbf46b9eb3a2691fc2" prot="public" virt="non-virtual"><scope>MR::SymMatrix2</scope><name>yy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

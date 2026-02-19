@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Parallel_1_1CallSimply" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Parallel::CallSimply</compoundname>
+    <includes refid="MRParallel_8h" local="no">MRParallel.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga468346fde82355b348c6dab673e56dc8" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga977120d7564720a22808ebdbad48799d" kind="function"><name>operator()</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallel.h" bodystart="15" bodyend="18"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga468346fde82355b348c6dab673e56dc8" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga977120d7564720a22808ebdbad48799d" prot="public" virt="non-virtual"><scope>MR::Parallel::CallSimply</scope><name>operator()</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

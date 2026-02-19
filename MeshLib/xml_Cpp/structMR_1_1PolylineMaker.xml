@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PolylineMaker" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PolylineMaker</compoundname>
+    <includes refid="MRPolylineTopology_8h" local="no">MRPolylineTopology.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" kind="variable"><name>topology</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaf40f932e2b6c35a118333ea82cae91ea" kind="variable"><name>e0_</name></member>
+      <member refid="group__GeneralGroup_1gae66bdcca134da14e2ccd252d0f4fa12e" kind="variable"><name>eLast_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga8c386bea061f3eab0448adbfa67dceb0" kind="function"><name>PolylineMaker</name></member>
+      <member refid="group__GeneralGroup_1ga4728051228e7a8b6910c567e9a075840" kind="function"><name>start</name></member>
+      <member refid="group__GeneralGroup_1gabaa25d6997f93c9797a20cf3975b2eef" kind="function"><name>proceed</name></member>
+      <member refid="group__GeneralGroup_1ga6b10efd85c33f60e8896d7ce1971364f" kind="function"><name>close</name></member>
+      <member refid="group__GeneralGroup_1ga4a15b5f552bb650a6fab86110c95ad3f" kind="function"><name>finishOpen</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>simplifies construction of connected polyline in the topology </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::PolylineMaker</label>
+        <link refid="structMR_1_1PolylineMaker"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>topology</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::PolylineTopology</label>
+        <link refid="classMR_1_1PolylineTopology"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" line="343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineTopology.h" bodystart="344" bodyend="384"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6b10efd85c33f60e8896d7ce1971364f" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>close</name></member>
+      <member refid="group__GeneralGroup_1gaf40f932e2b6c35a118333ea82cae91ea" prot="private" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>e0_</name></member>
+      <member refid="group__GeneralGroup_1gae66bdcca134da14e2ccd252d0f4fa12e" prot="private" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>eLast_</name></member>
+      <member refid="group__GeneralGroup_1ga4a15b5f552bb650a6fab86110c95ad3f" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>finishOpen</name></member>
+      <member refid="group__GeneralGroup_1ga8c386bea061f3eab0448adbfa67dceb0" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>PolylineMaker</name></member>
+      <member refid="group__GeneralGroup_1gabaa25d6997f93c9797a20cf3975b2eef" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>proceed</name></member>
+      <member refid="group__GeneralGroup_1ga4728051228e7a8b6910c567e9a075840" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>start</name></member>
+      <member refid="group__GeneralGroup_1ga8235ea5e1d4e4a8485abb6d0d548fbba" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>topology</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

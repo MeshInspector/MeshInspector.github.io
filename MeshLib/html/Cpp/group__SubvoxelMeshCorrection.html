@@ -157,7 +157,7 @@ $(function(){initNavTree('group__SubvoxelMeshCorrection.html',''); initResizable
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MR::MoveMeshToVoxelMaxDerivSettings</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MR::MoveMeshToVoxelMaxDerivSettings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1MeshOnVoxelsT.html">MR::MeshOnVoxelsT&lt; MeshType, VolumeType &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,21 +165,21 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:gaaa03e36604e9587df674801bac3a653f" id="r_gaaa03e36604e9587df674801bac3a653f"><td class="memTemplParams" colspan="2">template&lt;typename VolumeType  = VdbVolume&gt; </td></tr>
-<tr class="memitem:gaaa03e36604e9587df674801bac3a653f"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Expected&lt; <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaaa03e36604e9587df674801bac3a653f">MR::moveMeshToVoxelMaxDeriv</a> (<a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;mesh, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;meshXf, const VolumeType &amp;<a class="el" href="namespaceMR.html#a83e40508b3f05b594da19748c1da2d05">volume</a>, const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;volumeXf, const <a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;settings, ProgressCallback callback={})</td></tr>
+<tr class="memitem:gaaa03e36604e9587df674801bac3a653f"><td class="memTemplItemLeft" align="right" valign="top">MRVOXELS_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#gaaa03e36604e9587df674801bac3a653f">MR::moveMeshToVoxelMaxDeriv</a> (<a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;mesh, const AffineXf3f &amp;meshXf, const VolumeType &amp;<a class="el" href="group__GeneralGroup.html#ga83e40508b3f05b594da19748c1da2d05">volume</a>, const AffineXf3f &amp;volumeXf, const <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;settings, ProgressCallback callback={})</td></tr>
 <tr class="separator:gaaa03e36604e9587df674801bac3a653f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Precise automatic mesh correction or/and smoothing based on reference voxel (volume) data. </p>
-<p>This group provides highlevel interface of the algorithm: <a class="el" href="#gaaa03e36604e9587df674801bac3a653f">moveMeshToVoxelMaxDeriv</a> configurable through <a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> and the low-level structure <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MeshOnVoxelsT</a> that allows creation of custom correction strategy.</p>
+<p>This group provides highlevel interface of the algorithm: <a class="el" href="#gaaa03e36604e9587df674801bac3a653f">moveMeshToVoxelMaxDeriv</a> configurable through <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> and the low-level structure <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MeshOnVoxelsT</a> that allows creation of custom correction strategy.</p>
 <h4><a class="anchor" id="description"></a>
 Description of the algorithm.</h4>
 <ol type="1">
-<li><b>Input</b>: <a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> and <a class="elRef" href="../Csharp/classMR_1_1VdbVolume.html">VdbVolume</a> with corresponding transforms. The objects must be aligned.</li>
-<li>First step is to apply preparation smoothing with force specified by <a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a7778c8ab579ddc4ada1701b734946b14">MoveMeshToVoxelMaxDerivSettings::preparationSmoothForce</a>. This step might be needed if the initial surface is very noisy.</li>
-<li>Then the algorithm performs correction iteratively for the total number of iterations specified by <a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#aee214e60b86574cce42ea6082cb275fa">MoveMeshToVoxelMaxDerivSettings::iters</a>.<ol type="a">
+<li><b>Input</b>: <a class="el" href="structMR_1_1Mesh.html">Mesh</a> and VdbVolume with corresponding transforms. The objects must be aligned.</li>
+<li>First step is to apply preparation smoothing with force specified by <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a33ab7a3bb2d0ed46b1856e4ba276357c">MoveMeshToVoxelMaxDerivSettings::preparationSmoothForce</a>. This step might be needed if the initial surface is very noisy.</li>
+<li>Then the algorithm performs correction iteratively for the total number of iterations specified by <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b0d4d2ec2b2868f18da16624979032f">MoveMeshToVoxelMaxDerivSettings::iters</a>.<ol type="a">
 <li><p class="startli">Each iteration consist of moving each vertex of the mesh towards its optimal position. More formally, let's denote, \( V = \left\{ ( v_i, n_i ) \right\} \) &ndash; set of vertices and corresponding normals of the mesh, and \( F: \mathbb{R}^3 \rightarrow \mathbb{R} \) &ndash; scalar field of volume &ndash; for each position in the scene, it gives the density of the voxels in this position. For points with non-integer coordinates, the density is interpolated linearly (for details see <a class="el" href="classMR_1_1MeshOnVoxelsT.html">MeshOnVoxelsT</a>).</p>
-<p class="startli">The optimal position \( p_i \) of the vertex \( v_i \) is given by fitting the polynomial \( Q_i \) of degree <a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#acede1e05b9e7280577a5ff654bdcc96d">MoveMeshToVoxelMaxDerivSettings::degree</a> to the set of points \( \left\{ F\left( v_i + n_i \cdot k \cdot \text{voxel size} \right) \mid k \in -l \dots l \right\} \) where \( l = \frac{\text{sample points}}{2} \) (see <a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a89348c31fa624e3cedf2f4f574ee187c">MoveMeshToVoxelMaxDerivSettings::samplePoints</a>); and finding the minimum of the derivative of this polynomial.</p>
-<p class="startli">Since the <a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#acede1e05b9e7280577a5ff654bdcc96d">MoveMeshToVoxelMaxDerivSettings::degree</a> is limited to \( 6 \), we know that the degree of \( \frac{d^2 Q_i}{dx^2} \) is limited to \( 4 \) and thus the equation \( \frac{d^2 Q_i}{dx^2} \left( x \right) = 0 \) has analytical solution and it gives us the extrema of the derivative. Comparing the evaluations of the polynomial at extrema and on the border of the interval we obtain the optimal position \( p_i \). To sum up:       </p><p class="formulaDsp">
+<p class="startli">The optimal position \( p_i \) of the vertex \( v_i \) is given by fitting the polynomial \( Q_i \) of degree <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ad4bdf9eb1e55187c89fd477134219680">MoveMeshToVoxelMaxDerivSettings::degree</a> to the set of points \( \left\{ F\left( v_i + n_i \cdot k \cdot \text{voxel size} \right) \mid k \in -l \dots l \right\} \) where \( l = \frac{\text{sample points}}{2} \) (see <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a9b3c5026793485f6071bb44a681e1461">MoveMeshToVoxelMaxDerivSettings::samplePoints</a>); and finding the minimum of the derivative of this polynomial.</p>
+<p class="startli">Since the <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#ad4bdf9eb1e55187c89fd477134219680">MoveMeshToVoxelMaxDerivSettings::degree</a> is limited to \( 6 \), we know that the degree of \( \frac{d^2 Q_i}{dx^2} \) is limited to \( 4 \) and thus the equation \( \frac{d^2 Q_i}{dx^2} \left( x \right) = 0 \) has analytical solution and it gives us the extrema of the derivative. Comparing the evaluations of the polynomial at extrema and on the border of the interval we obtain the optimal position \( p_i \). To sum up:       </p><p class="formulaDsp">
 \begin{align*}
             &amp;l = \frac{\text{sample points}}{2} \\
             &amp;N_i \leftarrow \left\{ v_i + n_i \cdot k \cdot \text{voxel size} \mid k = -l \dots l \right\} \\
@@ -190,7 +190,7 @@ Description of the algorithm.</h4>
 </p>
 <p> Note that we are finding the minimum of \( \frac{dQ_i}{dx} \) analytically over the real interval \( \overline{N_i} \) and not over \( N_i \). This is exactly where the subvoxel precision comes from.</p>
 </li>
-<li>However, directly using the optimal position has proven to be error-prone, as both voxels and mesh could contain noise. Therefore, we use the following heuristic: instead of moving the vertex \( v_i \) to position \( p_i \), we construct a field of shifts with domain on the mesh vertices \( S : v_i \mapsto \text{clamp}\left( p_i - v_i \right) \) and smooth it with the force specified by <a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a60b22f506d394ae8c557011b43705da1">MoveMeshToVoxelMaxDerivSettings::intermediateSmoothForce</a> for 15 iterations. Then we update the vertices according to the smoothed field:   <p class="formulaDsp">
+<li>However, directly using the optimal position has proven to be error-prone, as both voxels and mesh could contain noise. Therefore, we use the following heuristic: instead of moving the vertex \( v_i \) to position \( p_i \), we construct a field of shifts with domain on the mesh vertices \( S : v_i \mapsto \text{clamp}\left( p_i - v_i \right) \) and smooth it with the force specified by <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html#a13090f3a2bfe03345bd7100d2c634d7f">MoveMeshToVoxelMaxDerivSettings::intermediateSmoothForce</a> for 15 iterations. Then we update the vertices according to the smoothed field:   <p class="formulaDsp">
 \[
             v_i \leftarrow v_i + S_{smooth}\left( v_i \right)
        \]
@@ -217,14 +217,14 @@ Usage</h4>
 template&lt;typename VolumeType  = VdbVolume&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="MRVoxelsFwd_8h.html#a5a563214874b42adf9d3bbba08988cad">MRVOXELS_API</a> Expected&lt; <a class="elRef" href="../Csharp/classMR_1_1VertBitSet.html">VertBitSet</a> &gt; MR::moveMeshToVoxelMaxDeriv </td>
+          <td class="memname">MRVOXELS_API <a class="el" href="group__GeneralGroup.html#ga6d7483b6adbc485e9c9b52eb09cb7735">Expected</a>&lt; VertBitSet &gt; MR::moveMeshToVoxelMaxDeriv </td>
           <td>(</td>
-          <td class="paramtype"><a class="elRef" href="../Csharp/classMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
+          <td class="paramtype"><a class="el" href="structMR_1_1Mesh.html">Mesh</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>meshXf</em></span>, </td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>meshXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -234,12 +234,12 @@ template&lt;typename VolumeType  = VdbVolume&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/structMR_1_1AffineXf3f.html">AffineXf3f</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>volumeXf</em></span>, </td>
+          <td class="paramtype">const AffineXf3f &amp;</td>          <td class="paramname"><span class="paramname"><em>volumeXf</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="elRef" href="../Csharp/classMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
+          <td class="paramtype">const <a class="el" href="structMR_1_1MoveMeshToVoxelMaxDerivSettings.html">MoveMeshToVoxelMaxDerivSettings</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>settings</em></span>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -248,6 +248,8 @@ template&lt;typename VolumeType  = VdbVolume&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code>#include &lt;<a class="el" href="MRMoveMeshToVoxelMaxDeriv_8h.html">MRMoveMeshToVoxelMaxDeriv.h</a>&gt;</code></p>
 <p>Moves each vertex along its normal to the minimize (with sign, i.e. maximize the absolute value with negative sign) the derivative of voxels.</p>
 <dl class="section return"><dt>Returns</dt><dd>Vertices that were moved by the algorithm </dd></dl>
 

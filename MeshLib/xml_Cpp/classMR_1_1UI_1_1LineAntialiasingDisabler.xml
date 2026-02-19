@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UI_1_1LineAntialiasingDisabler" kind="class" language="C++" prot="public">
+    <compoundname>MR::UI::LineAntialiasingDisabler</compoundname>
+    <basecompoundref refid="classMR_1_1UI_1_1Disabler" prot="private" virt="non-virtual">MR::UI::Disabler</basecompoundref>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga3e96e121ccb7297da23e022c771758d7" kind="function"><name>LineAntialiasingDisabler</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>While this exists, it temporarily disables antialiasing for the lines drawn to this list. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::UI::Disabler</label>
+        <link refid="classMR_1_1UI_1_1Disabler"/>
+      </node>
+      <node id="1">
+        <label>MR::UI::LineAntialiasingDisabler</label>
+        <link refid="classMR_1_1UI_1_1LineAntialiasingDisabler"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::UI::Disabler</label>
+        <link refid="classMR_1_1UI_1_1Disabler"/>
+      </node>
+      <node id="1">
+        <label>MR::UI::LineAntialiasingDisabler</label>
+        <link refid="classMR_1_1UI_1_1LineAntialiasingDisabler"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="596" bodyend="601"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3e96e121ccb7297da23e022c771758d7" prot="public" virt="non-virtual"><scope>MR::UI::LineAntialiasingDisabler</scope><name>LineAntialiasingDisabler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,645 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VoxelsSave" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VoxelsSave</compoundname>
+    <innerclass refid="classmrmeshpy_1_1VoxelsSave_1_1SavingSettings" prot="public">mrmeshpy::VoxelsSave::SavingSettings</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1ac5e4c1244b98a120c219f188fc2d78e0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.gridToAnySupportedFormat</definition>
+        <argsstring>(FloatGrid grid, Vector3i dims, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>gridToAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.gridToAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Saves voxels in a file, detecting the format from file extension
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73784" bodyend="73787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a01fadf57341016b11a48531865fa5c9e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.gridToRawAutoname</definition>
+        <argsstring>(FloatGrid grid, Vector3i dims, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>gridToRawAutoname</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.gridToRawAutoname</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73789" bodyend="73790"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1afb58cd0959cd039f99b40f0423969cfc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.gridToRawFloat</definition>
+        <argsstring>(FloatGrid grid, Vector3i dims, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>gridToRawFloat</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.gridToRawFloat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Save voxels in raw format with each value as 32-bit float in given binary stream
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73792" bodyend="73795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a3cf07f3020aa379335a12ea40a753d30" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.gridToVdb</definition>
+        <argsstring>(FloatGrid grid, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>gridToVdb</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.gridToVdb</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Save voxels file in OpenVDB format
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73798" bodyend="73801"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a4f1067ca0c475d5176a37d3ca8a4ea14" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.gridToVdb</definition>
+        <argsstring>(FloatGrid grid, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>gridToVdb</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.gridToVdb</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FloatGrid" kindref="compound">FloatGrid</ref></type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73804" bodyend="73805"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1ae1657b215174a42ccbde9f355ef9b18a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.saveAllSlicesToImage</definition>
+        <argsstring>(VdbVolume vdbVolume, VoxelsSave.SavingSettings settings)</argsstring>
+        <name>saveAllSlicesToImage</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.saveAllSlicesToImage</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelsSave_1_1SavingSettings" kindref="compound">VoxelsSave.SavingSettings</ref></type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>save all slices by the active plane through all voxel planes along the active axis to an image file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73807" bodyend="73810"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a4ce658cb43f46c3433c27d10f4f5202e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.saveSliceToImage</definition>
+        <argsstring>(os.PathLike|str|bytes path, VdbVolume vdbVolume, SlicePlane slicePlain, int sliceNumber, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>saveSliceToImage</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.saveSliceToImage</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SlicePlane" kindref="compound">SlicePlane</ref></type>
+          <declname>slicePlain</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>sliceNumber</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>save the slice by the active plane through the sliceNumber to an image file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73812" bodyend="73815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1adab977f6012e8df9b61c2126b789d35a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toAnySupportedFormat</definition>
+        <argsstring>(VdbVolume vdbVolume, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toAnySupportedFormat</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toAnySupportedFormat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73817" bodyend="73818"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1aae64a93586218f2b67b73ae89e829828" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toDicom</definition>
+        <argsstring>(VdbVolume vdbVolume, os.PathLike|str|bytes path, func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>toDicom</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toDicom</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Save voxels object to a single 3d DICOM file
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73821" bodyend="73824"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1aaa56b1dda0368ab3b0e9f6fad02e1d56" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toDicom</definition>
+        <argsstring>(SimpleVolumeU16 volume, os.PathLike|str|bytes path, std_optional_Box_float sourceScale=..., func_bool_from_float cb=&apos;{}&apos;)</argsstring>
+        <name>toDicom</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toDicom</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolumeU16" kindref="compound">SimpleVolumeU16</ref></type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__Box__float" kindref="compound">std_optional_Box_float</ref></type>
+          <declname>sourceScale</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Saves object to a single 3d DICOM file. \\p sourceScale specifies the true scale of the voxel data
+which will be saved with &quot;slope&quot; and &quot;intercept&quot; parameters of the output dicom.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73827" bodyend="73831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1aec497c2690618f7e7e9b5e28d3e0ceb0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toGav</definition>
+        <argsstring>(VdbVolume vdbVolume, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toGav</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toGav</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Save voxels in Gav-format in given destination
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73834" bodyend="73837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a1c1e5257ff1d02cf61438ee9d9bbabef" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toGav</definition>
+        <argsstring>(SimpleVolumeMinMax simpleVolumeMinMax, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toGav</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toGav</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+          <declname>simpleVolumeMinMax</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73840" bodyend="73841"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a6194d498193ce8becfc4e6579dcf1066" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toGav</definition>
+        <argsstring>(SimpleVolume simpleVolume, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toGav</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toGav</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73844" bodyend="73845"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1ae7d4f878de8519f0b9316a0cfc12506e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toGav</definition>
+        <argsstring>(VdbVolume vdbVolume, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toGav</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toGav</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73848" bodyend="73849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1af6467917a658a5f657da3dbb1b83f163" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toGav</definition>
+        <argsstring>(SimpleVolumeMinMax simpleVolumeMinMax, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toGav</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toGav</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolumeMinMax" kindref="compound">SimpleVolumeMinMax</ref></type>
+          <declname>simpleVolumeMinMax</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73852" bodyend="73853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a425388d71d8e1c6b25aa6be42b20c61d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toGav</definition>
+        <argsstring>(SimpleVolume simpleVolume, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toGav</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toGav</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73856" bodyend="73857"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a82035a5fa8da4bba63f50e6cfc4ede3b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toRawAutoname</definition>
+        <argsstring>(VdbVolume vdbVolume, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toRawAutoname</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toRawAutoname</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Save raw voxels file, writing parameters in file name
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73860" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73860" bodyend="73863"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1ab1aa23348d8cac99844d841409fb7e5e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toRawAutoname</definition>
+        <argsstring>(SimpleVolume simpleVolume, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toRawAutoname</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toRawAutoname</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73866" bodyend="73867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a7d32f3c70e5b296a5d954d73b4f1dbba" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toRawFloat</definition>
+        <argsstring>(VdbVolume vdbVolume, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toRawFloat</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toRawFloat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73870" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73870" bodyend="73871"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1ae6c1e15579e8855a67ad1418c56325d0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toRawFloat</definition>
+        <argsstring>(SimpleVolume simpleVolume, typing.Any out, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toRawFloat</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toRawFloat</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleVolume" kindref="compound">SimpleVolume</ref></type>
+          <declname>simpleVolume</declname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>out</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73874" bodyend="73875"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VoxelsSave_1a847f320fb2490df7e111f254671a1a45" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VoxelsSave.toVdb</definition>
+        <argsstring>(VdbVolume vdbVolume, os.PathLike|str|bytes file, func_bool_from_float callback=&apos;{}&apos;)</argsstring>
+        <name>toVdb</name>
+        <qualifiedname>mrmeshpy.VoxelsSave.toVdb</qualifiedname>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>vdbVolume</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>callback</declname>
+          <defval>&apos;{}&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73877" bodyend="73878"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>This is a namespace.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="73712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="73712" bodyend="73878"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1ac5e4c1244b98a120c219f188fc2d78e0" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>gridToAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a01fadf57341016b11a48531865fa5c9e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>gridToRawAutoname</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1afb58cd0959cd039f99b40f0423969cfc" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>gridToRawFloat</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a3cf07f3020aa379335a12ea40a753d30" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>gridToVdb</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a4f1067ca0c475d5176a37d3ca8a4ea14" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>gridToVdb</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1ae1657b215174a42ccbde9f355ef9b18a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>saveAllSlicesToImage</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a4ce658cb43f46c3433c27d10f4f5202e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>saveSliceToImage</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1adab977f6012e8df9b61c2126b789d35a" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toAnySupportedFormat</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1aae64a93586218f2b67b73ae89e829828" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toDicom</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1aaa56b1dda0368ab3b0e9f6fad02e1d56" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toDicom</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1aec497c2690618f7e7e9b5e28d3e0ceb0" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a1c1e5257ff1d02cf61438ee9d9bbabef" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a6194d498193ce8becfc4e6579dcf1066" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1ae7d4f878de8519f0b9316a0cfc12506e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1af6467917a658a5f657da3dbb1b83f163" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a425388d71d8e1c6b25aa6be42b20c61d" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toGav</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a82035a5fa8da4bba63f50e6cfc4ede3b" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toRawAutoname</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1ab1aa23348d8cac99844d841409fb7e5e" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toRawAutoname</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a7d32f3c70e5b296a5d954d73b4f1dbba" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toRawFloat</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1ae6c1e15579e8855a67ad1418c56325d0" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toRawFloat</name></member>
+      <member refid="classmrmeshpy_1_1VoxelsSave_1a847f320fb2490df7e111f254671a1a45" prot="public" virt="non-virtual"><scope>mrmeshpy::VoxelsSave</scope><name>toVdb</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

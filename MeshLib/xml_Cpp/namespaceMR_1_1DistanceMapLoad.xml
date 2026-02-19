@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1DistanceMapLoad" kind="namespace" language="C++">
+    <compoundname>MR::DistanceMapLoad</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1DistanceMapLoad_1af1f62813f68011847bea88c8d3bfe7bb" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="classMR_1_1DistanceMap" kindref="compound">DistanceMap</ref> &gt;(*)(const std::filesystem::path &amp;path, const <ref refid="structMR_1_1DistanceMapLoadSettings" kindref="compound">DistanceMapLoadSettings</ref> &amp;settings)</type>
+        <definition>using MR::DistanceMapLoad::DistanceMapLoader =  Expected&lt;DistanceMap&gt;( * )( const std::filesystem::path&amp; path, const DistanceMapLoadSettings&amp; settings )</definition>
+        <argsstring></argsstring>
+        <name>DistanceMapLoader</name>
+        <qualifiedname>MR::DistanceMapLoad::DistanceMapLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="378" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__DistanceMapLoadGroup_1ga196f8d320afafa3219dfd4fe1fda6ca2" kind="function"><name>fromRaw</name></member>
+      <member refid="group__DistanceMapLoadGroup_1ga84cffe3f4d1400f8f975c77ffc252126" kind="function"><name>fromRaw</name></member>
+      <member refid="group__DistanceMapLoadGroup_1gad49c1f0e0cfbd48bee34bfa0c0fc403d" kind="function"><name>fromMrDistanceMap</name></member>
+      <member refid="group__DistanceMapLoadGroup_1ga3975372a3d6ef3b6c0ffecd16d39eaba" kind="function"><name>fromMrDistanceMap</name></member>
+      <member refid="group__DistanceMapLoadGroup_1ga6df3831c4435d4255414c6215f56c10f" kind="function"><name>fromTiff</name></member>
+      <member refid="group__DistanceMapLoadGroup_1gab345cb66e5ce36e8727661b2a91f9f02" kind="function"><name>fromTiff</name></member>
+      <member refid="group__DistanceMapLoadGroup_1gae00e0a0aa3107cdb195eeb54e1882b33" kind="function"><name>fromAnySupportedFormat</name></member>
+      <member refid="group__DistanceMapLoadGroup_1ga50b271c979604f387a76f2ca17ca92cb" kind="function"><name>fromAnySupportedFormat</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1SceneSave" kindref="compound">SceneSave</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMapLoad.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>

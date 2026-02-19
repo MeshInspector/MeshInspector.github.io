@@ -152,6 +152,9 @@ $(function(){initNavTree('structMR_1_1RenderWrapObject_1_1detail_1_1SubobjectSto
 </div><!--header-->
 <div class="contents">
 
+<p>Need this helper base class to make sure the <code>subobject</code> is initialized before the render object, otherwise we get a crash.  
+ <a href="#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="MRRenderWrapObject_8h_source.html">MRRenderWrapObject.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return dynsection.toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for MR::RenderWrapObject::detail::SubobjectStorage&lt; ObjectType &gt;:</div>
@@ -172,7 +175,10 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:aefbb8b64a400a9acc5e776111c7ae297" id="r_aefbb8b64a400a9acc5e776111c7ae297"><td class="memItemLeft" align="right" valign="top">ObjectType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aefbb8b64a400a9acc5e776111c7ae297">subobject</a></td></tr>
 <tr class="separator:aefbb8b64a400a9acc5e776111c7ae297"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename ObjectType&gt;<br />
+struct MR::RenderWrapObject::detail::SubobjectStorage&lt; ObjectType &gt;</div><p>Need this helper base class to make sure the <code>subobject</code> is initialized before the render object, otherwise we get a crash. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="aefbb8b64a400a9acc5e776111c7ae297" name="aefbb8b64a400a9acc5e776111c7ae297"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefbb8b64a400a9acc5e776111c7ae297">&#9670;&#160;</a></span>subobject</h2>
 

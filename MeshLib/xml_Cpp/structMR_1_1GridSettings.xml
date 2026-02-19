@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1GridSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::GridSettings</compoundname>
+    <includes refid="MRGridSettings_8h" local="no">MRGridSettings.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga46d7f5e53476c23ef05251179f3e15f0" kind="enum"><name>EdgeType</name></member>
+      <member refid="group__GeneralGroup_1gaf447c539472e1a0723a984179f282685" kind="enum"><name>TriType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga079676e2ac1f95a1b11ecb8b7f0042aa" kind="variable"><name>dim</name></member>
+      <member refid="group__GeneralGroup_1gab5b3ed30ff4dde0622d5d2fb4c2213d8" kind="variable"><name>vertIds</name></member>
+      <member refid="group__GeneralGroup_1gaeb3dd9e9c7f4ea93ddd4aea1b4afc61c" kind="variable"><name>uedgeIds</name></member>
+      <member refid="group__GeneralGroup_1ga790adf53fc23a7b8fe0be9674ebb70af" kind="variable"><name>faceIds</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>settings defining regular grid, where each quadrangular cell is split on two triangles in one of two ways </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="6">
+        <label>MR::BMap&lt; FaceId, size_t &gt;</label>
+        <link refid="structMR_1_1BMap"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::BMap&lt; UndirectedEdgeId, size_t &gt;</label>
+        <link refid="structMR_1_1BMap"/>
+        <childnode refid="5" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::BMap&lt; VertId, size_t &gt;</label>
+        <link refid="structMR_1_1BMap"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>b</edgelabel>
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::Buffer&lt; FaceId, size_t &gt;</label>
+        <link refid="classMR_1_1Buffer"/>
+      </node>
+      <node id="5">
+        <label>MR::Buffer&lt; UndirectedEdgeId, size_t &gt;</label>
+        <link refid="classMR_1_1Buffer"/>
+      </node>
+      <node id="3">
+        <label>MR::Buffer&lt; VertId, size_t &gt;</label>
+        <link refid="classMR_1_1Buffer"/>
+      </node>
+      <node id="1">
+        <label>MR::GridSettings</label>
+        <link refid="structMR_1_1GridSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vertIds</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>uedgeIds</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>faceIds</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGridSettings.h" bodystart="14" bodyend="45"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga079676e2ac1f95a1b11ecb8b7f0042aa" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>dim</name></member>
+      <member refid="group__GeneralGroup_1ga46d7f5e53476c23ef05251179f3e15f0" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>EdgeType</name></member>
+      <member refid="group__GeneralGroup_1ga790adf53fc23a7b8fe0be9674ebb70af" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>faceIds</name></member>
+      <member refid="group__GeneralGroup_1gaf447c539472e1a0723a984179f282685" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>TriType</name></member>
+      <member refid="group__GeneralGroup_1gaeb3dd9e9c7f4ea93ddd4aea1b4afc61c" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>uedgeIds</name></member>
+      <member refid="group__GeneralGroup_1gab5b3ed30ff4dde0622d5d2fb4c2213d8" prot="public" virt="non-virtual"><scope>MR::GridSettings</scope><name>vertIds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

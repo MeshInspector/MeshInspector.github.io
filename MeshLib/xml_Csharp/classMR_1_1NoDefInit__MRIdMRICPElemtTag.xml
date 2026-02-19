@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kind="class" language="C#" prot="public">
+    <compoundname>MR::NoDefInit_MRIdMRICPElemtTag</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_NoDefInit_MRIdMRICPElemtTag</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a24b62a19bcd265f3661559acb9806133" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.NoDefInit_MRIdMRICPElemtTag.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3803" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3803" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a355475b9909a91d1aa60bdc56d241d5d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.NoDefInit_MRIdMRICPElemtTag.operator MR.Id_MRICPElemtTag</definition>
+        <argsstring>(NoDefInit_MRIdMRICPElemtTag self)</argsstring>
+        <name>operator MR.Id_MRICPElemtTag</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.operator MR.Id_MRICPElemtTag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kindref="compound">NoDefInit_MRIdMRICPElemtTag</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3794" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3794" bodyend="3801"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1aed029cfd963f5e58cbe9ade3f9d5efb9" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRIdMRICPElemtTag.NoDefInit_MRIdMRICPElemtTag</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NoDefInit_MRIdMRICPElemtTag</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.NoDefInit_MRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3807" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3807" bodyend="3811"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1ad6cbf473007d12bd430cdde208390101" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRIdMRICPElemtTag.NoDefInit_MRIdMRICPElemtTag</definition>
+        <argsstring>()</argsstring>
+        <name>NoDefInit_MRIdMRICPElemtTag</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.NoDefInit_MRIdMRICPElemtTag</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3817" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3817" bodyend="3823"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a41a3779e6a058899cfac30a3f6ef3839" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.NoDefInit_MRIdMRICPElemtTag.NoDefInit_MRIdMRICPElemtTag</definition>
+        <argsstring>(MR.Const_NoDefInit_MRIdMRICPElemtTag _other)</argsstring>
+        <name>NoDefInit_MRIdMRICPElemtTag</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.NoDefInit_MRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRIdMRICPElemtTag</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;MR.Id&lt;MR.ICPElemtTag&gt;&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3828" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3828" bodyend="3835"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1aabae7987b1fa56ed95f2ca46270098ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.NoDefInit_MRIdMRICPElemtTag.NoDefInit_MRIdMRICPElemtTag</definition>
+        <argsstring>(NoDefInit_MRIdMRICPElemtTag _other)</argsstring>
+        <name>NoDefInit_MRIdMRICPElemtTag</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.NoDefInit_MRIdMRICPElemtTag</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kindref="compound">NoDefInit_MRIdMRICPElemtTag</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.NoDefInit&lt;MR.Id&lt;MR.ICPElemtTag&gt;&gt;::NoDefInit</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3840" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3840" bodyend="3840"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a58cccecacdaa31edba025c3ce91b5c42" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag" kindref="compound">MR.NoDefInit_MRIdMRICPElemtTag</ref></type>
+        <definition>unsafe MR.NoDefInit_MRIdMRICPElemtTag MR.NoDefInit_MRIdMRICPElemtTag.assign</definition>
+        <argsstring>(MR.Const_NoDefInit_MRIdMRICPElemtTag _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.assign</qualifiedname>
+        <param>
+          <type>MR.Const_NoDefInit_MRIdMRICPElemtTag</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;MR.Id&lt;MR.ICPElemtTag&gt;&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3845" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3845" bodyend="3852"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1abb69fd48d47e8afa10d9f9d7a3b11946" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref int</type>
+        <definition>unsafe ref int MR.NoDefInit_MRIdMRICPElemtTag.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;MR.Id&lt;MR.ICPElemtTag&gt;&gt;::get</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3857" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3857" bodyend="3862"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a08c9a9feaff74ea330975cb54fe904f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Id__MRICPElemtTag" kindref="compound">MR.Id_MRICPElemtTag</ref></type>
+        <definition>unsafe MR.Id_MRICPElemtTag MR.NoDefInit_MRIdMRICPElemtTag.subAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.subAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;MR.Id&lt;MR.ICPElemtTag&gt;&gt;::operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3867" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3867" bodyend="3875"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1ad8f44fcf3dc7ebf461149d8b3ca194db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Id__MRICPElemtTag" kindref="compound">MR.Id_MRICPElemtTag</ref></type>
+        <definition>unsafe MR.Id_MRICPElemtTag MR.NoDefInit_MRIdMRICPElemtTag.addAssign</definition>
+        <argsstring>(int a)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.NoDefInit_MRIdMRICPElemtTag.addAssign</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.NoDefInit&lt;MR.Id&lt;MR.ICPElemtTag&gt;&gt;::operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3880" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3880" bodyend="3888"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.NoDefInit&lt;MR.Id&lt;MR.ICPElemtTag&gt;&gt;</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR.Id&lt;MR.ICPElemtTag&gt;</computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRIdMRICPElemtTag</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRIdMRICPElemtTag &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_Id_MRICPElemtTag &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NoDefInit_MRIdMRICPElemtTag</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.NoDefInit_MRIdMRICPElemtTag</label>
+        <link refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NoDefInit_MRIdMRICPElemtTag &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_Id_MRICPElemtTag &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" line="3791" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRNoDefInit.cs" bodystart="3792" bodyend="3889"/>
+    <listofallmembers>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1ad8f44fcf3dc7ebf461149d8b3ca194db" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a58cccecacdaa31edba025c3ce91b5c42" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>assign</name></member>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1abb69fd48d47e8afa10d9f9d7a3b11946" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>get</name></member>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a24b62a19bcd265f3661559acb9806133" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>id</name></member>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1aed029cfd963f5e58cbe9ade3f9d5efb9" prot="package" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>NoDefInit_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1ad6cbf473007d12bd430cdde208390101" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>NoDefInit_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a41a3779e6a058899cfac30a3f6ef3839" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>NoDefInit_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1aabae7987b1fa56ed95f2ca46270098ba" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>NoDefInit_MRIdMRICPElemtTag</name></member>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a355475b9909a91d1aa60bdc56d241d5d" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>operator MR.Id_MRICPElemtTag</name></member>
+      <member refid="classMR_1_1NoDefInit__MRIdMRICPElemtTag_1a08c9a9feaff74ea330975cb54fe904f4" prot="public" virt="non-virtual"><scope>MR::NoDefInit_MRIdMRICPElemtTag</scope><name>subAssign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

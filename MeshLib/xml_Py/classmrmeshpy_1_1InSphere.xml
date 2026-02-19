@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1InSphere" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::InSphere</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphere_1a20141f4259017c67b6fc1fe4ab988751" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphere::_offsetof_center</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_center</name>
+        <qualifiedname>mrmeshpy.InSphere._offsetof_center</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphere_1a7cc1030e0c23d133bef09565837bac8d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphere::_offsetof_oppositeTouchPoint</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_oppositeTouchPoint</name>
+        <qualifiedname>mrmeshpy.InSphere._offsetof_oppositeTouchPoint</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1InSphere_1a4fc0dbfe0783b358139cebbc65b4b7e4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.InSphere::_offsetof_radius</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_radius</name>
+        <qualifiedname>mrmeshpy.InSphere._offsetof_radius</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphere_1a3a26acec5f18b2f8dea84c122a702212" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphere.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InSphere.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24121" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24121" bodyend="24122"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphere_1ab2eee10fe3f86d5149c9b7147f480ae9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1InSphere" kindref="compound">InSphere</ref></type>
+        <definition> InSphere mrmeshpy.InSphere.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.InSphere.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24125" bodyend="24126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphere_1ab2eee10fe3f86d5149c9b7147f480ae9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1InSphere" kindref="compound">InSphere</ref></type>
+        <definition> InSphere mrmeshpy.InSphere.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.InSphere.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24129" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24129" bodyend="24130"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphere_1a0396f17c689c3c7a26e5f95af0e1e473" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphere.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InSphere.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24132" bodyend="24133"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphere_1a53e7ba56a0ce452a7573dd43a1ece7c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphere.__init__</definition>
+        <argsstring>(self, InSphere arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InSphere.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1InSphere" kindref="compound">InSphere</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24135" bodyend="24138"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphere_1a05de3f0dd993a86137c96795496ca574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphere.__init__</definition>
+        <argsstring>(self, Vector3f center, float radius, MeshProjectionResult oppositeTouchPoint)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.InSphere.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radius</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
+          <declname>oppositeTouchPoint</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24140" bodyend="24143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphere_1a0ddb82da5b982763baef86f71ebb8ed6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
+        <definition> MeshProjectionResult mrmeshpy.InSphere.oppositeTouchPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>oppositeTouchPoint</name>
+        <qualifiedname>mrmeshpy.InSphere.oppositeTouchPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>excluding input point and incident triangles, distSq - squared distance to sphere&apos;s center
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24145" bodyend="24148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1InSphere_1a91ae5e0fa262c634d32cd09e3ab7a2ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.InSphere.oppositeTouchPoint</definition>
+        <argsstring>(self, MeshProjectionResult arg1)</argsstring>
+        <name>oppositeTouchPoint</name>
+        <qualifiedname>mrmeshpy.InSphere.oppositeTouchPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshProjectionResult" kindref="compound">MeshProjectionResult</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24150" bodyend="24151"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::InSphere
+
+found maximal inscribed sphere touching input point with center along given direction
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.InSphere</label>
+        <link refid="classmrmeshpy_1_1InSphere"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_center</edgelabel>
+          <edgelabel>_offsetof_oppositeTouchPoint</edgelabel>
+          <edgelabel>_offsetof_radius</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="24108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="24108" bodyend="24151"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1InSphere_1a3a26acec5f18b2f8dea84c122a702212" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1a0396f17c689c3c7a26e5f95af0e1e473" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1a53e7ba56a0ce452a7573dd43a1ece7c0" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1a05de3f0dd993a86137c96795496ca574" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1a20141f4259017c67b6fc1fe4ab988751" prot="protected" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>_offsetof_center</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1a7cc1030e0c23d133bef09565837bac8d" prot="protected" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>_offsetof_oppositeTouchPoint</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1a4fc0dbfe0783b358139cebbc65b4b7e4" prot="protected" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>_offsetof_radius</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1ab2eee10fe3f86d5149c9b7147f480ae9" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1ab2eee10fe3f86d5149c9b7147f480ae9" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1a0ddb82da5b982763baef86f71ebb8ed6" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>oppositeTouchPoint</name></member>
+      <member refid="classmrmeshpy_1_1InSphere_1a91ae5e0fa262c634d32cd09e3ab7a2ef" prot="public" virt="non-virtual"><scope>mrmeshpy::InSphere</scope><name>oppositeTouchPoint</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

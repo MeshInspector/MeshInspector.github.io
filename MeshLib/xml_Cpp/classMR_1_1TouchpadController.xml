@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TouchpadController" kind="class" language="C++" prot="public">
+    <compoundname>MR::TouchpadController</compoundname>
+    <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener &gt;</basecompoundref>
+    <includes refid="MRTouchpadController_8h" local="no">MRTouchpadController.h</includes>
+    <innerclass refid="classMR_1_1TouchpadController_1_1Handler" prot="public">MR::TouchpadController::Handler</innerclass>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga212d93bd698ebe95a4743f2aea37a2e2" kind="variable"><name>handler_</name></member>
+      <member refid="group__GeneralGroup_1ga9621499e89e3e2fe4bfaf75e1038d159" kind="variable"><name>parameters_</name></member>
+      <member refid="group__GeneralGroup_1gaabe77ba580e35135b6f006b47c433e7f" kind="variable"><name>initRotateParams_</name></member>
+      <member refid="group__GeneralGroup_1ga9b2b49ef6184285f55682bded96e6114" kind="variable"><name>currentSwipeMode_</name></member>
+      <member refid="group__GeneralGroup_1ga5ec4cf352d82d570c881a4375fde3e91" kind="variable"><name>initZoomParams_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gad0f513aeef09165ba19524a946af3791" kind="function"><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga7f99ad050f7c266930af4bf9ffc13c37" kind="function"><name>initialize</name></member>
+      <member refid="group__GeneralGroup_1ga292836207ea4150fceeb391f08d81325" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1ga121e3e4c7338e5a23e70168c51c0063d" kind="function"><name>getParameters</name></member>
+      <member refid="group__GeneralGroup_1gaf572d21cf0454aafce3a201783fcf2dd" kind="function"><name>setParameters</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga820677be0f5d83e1641c2b6972d13e79" kind="function"><name>touchpadRotateGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1ga5ef18a889e0eb5b1f2999771ab56f852" kind="function"><name>touchpadRotateGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1gadbdb8fe0ad430bcf20e7eb2cdc690a3f" kind="function"><name>touchpadRotateGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1gaf61bf08934aa89c24c33fee1e32cfc5f" kind="function"><name>touchpadSwipeGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1gaf31bba622d88025ca3be738931c545eb" kind="function"><name>touchpadSwipeGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1gad6065b7b307207d956a88e32e4c5d808" kind="function"><name>touchpadSwipeGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga13924e4f49a8c7ccdcb5b59d2c8b59e9" kind="function"><name>touchpadZoomGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1ga4837a5ff35a12c26c75649dc1297498c" kind="function"><name>touchpadZoomGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga4d480dfe3b6ab850f1ad42a83c7138b7" kind="function"><name>touchpadZoomGestureEnd_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Class for touchpad gesture processing</para>
+<para>The supported gestures and their default actions are:<itemizedlist>
+<listitem><para>pinch: zooms the camera&apos;s angle</para>
+</listitem><listitem><para>rotate: rotates the camera around the scene&apos;s center along the Z axis</para>
+</listitem><listitem><para>swipe: rotates the camera around the world&apos;s center along all axes (by default) or moves the camera The actions are mapped by calling the <computeroutput>connect</computeroutput> method; you can define your own actions by connecting to the <computeroutput>MR::Viewer::touchpad*</computeroutput> signals.</para>
+</listitem></itemizedlist>
+</para>
+<para>NOTE: on some platforms the default GLFW mouse scroll is being disabled by the touchpad event handlers because mouse scrolls and touchpad swipe gestures are a single event type there and have to be processed by a single handler. Consider it if you use this class and define your own scroll callback with <computeroutput>glfwSetScrollCallback</computeroutput>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::MultiListener&lt; TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::TouchpadController</label>
+        <link refid="classMR_1_1TouchpadController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Connectables...</label>
+      </node>
+      <node id="2">
+        <label>MR::MultiListener&lt; TouchpadRotateGestureBeginListener, TouchpadRotateGestureUpdateListener, TouchpadRotateGestureEndListener, TouchpadSwipeGestureBeginListener, TouchpadSwipeGestureUpdateListener, TouchpadSwipeGestureEndListener, TouchpadZoomGestureBeginListener, TouchpadZoomGestureUpdateListener, TouchpadZoomGestureEndListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::TouchpadController</label>
+        <link refid="classMR_1_1TouchpadController"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" bodystart="35" bodyend="96"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::TouchpadController</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1ga9b2b49ef6184285f55682bded96e6114" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>currentSwipeMode_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::TouchpadController</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1ga121e3e4c7338e5a23e70168c51c0063d" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>getParameters</name></member>
+      <member refid="group__GeneralGroup_1ga212d93bd698ebe95a4743f2aea37a2e2" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>handler_</name></member>
+      <member refid="group__GeneralGroup_1ga7f99ad050f7c266930af4bf9ffc13c37" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>initialize</name></member>
+      <member refid="group__GeneralGroup_1gaabe77ba580e35135b6f006b47c433e7f" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>initRotateParams_</name></member>
+      <member refid="group__GeneralGroup_1ga5ec4cf352d82d570c881a4375fde3e91" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>initZoomParams_</name></member>
+      <member refid="group__GeneralGroup_1gad0f513aeef09165ba19524a946af3791" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>MR_ADD_CTOR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1ga9621499e89e3e2fe4bfaf75e1038d159" prot="private" virt="non-virtual"><scope>MR::TouchpadController</scope><name>parameters_</name></member>
+      <member refid="group__GeneralGroup_1ga292836207ea4150fceeb391f08d81325" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gaf572d21cf0454aafce3a201783fcf2dd" prot="public" virt="non-virtual"><scope>MR::TouchpadController</scope><name>setParameters</name></member>
+      <member refid="group__GeneralGroup_1ga820677be0f5d83e1641c2b6972d13e79" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadRotateGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1gadbdb8fe0ad430bcf20e7eb2cdc690a3f" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadRotateGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga5ef18a889e0eb5b1f2999771ab56f852" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadRotateGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1gaf61bf08934aa89c24c33fee1e32cfc5f" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadSwipeGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1gad6065b7b307207d956a88e32e4c5d808" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadSwipeGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1gaf31bba622d88025ca3be738931c545eb" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadSwipeGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga13924e4f49a8c7ccdcb5b59d2c8b59e9" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadZoomGestureBegin_</name></member>
+      <member refid="group__GeneralGroup_1ga4d480dfe3b6ab850f1ad42a83c7138b7" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadZoomGestureEnd_</name></member>
+      <member refid="group__GeneralGroup_1ga4837a5ff35a12c26c75649dc1297498c" prot="private" virt="virtual"><scope>MR::TouchpadController</scope><name>touchpadZoomGestureUpdate_</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::TouchpadController</scope><name>~MultiListener</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

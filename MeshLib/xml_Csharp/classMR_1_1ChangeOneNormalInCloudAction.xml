@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeOneNormalInCloudAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::ChangeOneNormalInCloudAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeOneNormalInCloudAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1afdf8cc5955aa6d1c485aafce4472eac0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ChangeOneNormalInCloudAction.operator MR.HistoryAction</definition>
+        <argsstring>(ChangeOneNormalInCloudAction self)</argsstring>
+        <name>operator MR.HistoryAction</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.operator MR.HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeOneNormalInCloudAction" kindref="compound">ChangeOneNormalInCloudAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="591" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="591" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1a1549ee0bd584c7265aae9f2109e1d12d" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ChangeOneNormalInCloudAction.operator ChangeOneNormalInCloudAction?</definition>
+        <argsstring>(MR.HistoryAction parent)</argsstring>
+        <name>operator ChangeOneNormalInCloudAction?</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.operator ChangeOneNormalInCloudAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="599" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="599" bodyend="606"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1abbd0f86365cb8fdcff6abaf9729d86b7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ChangeOneNormalInCloudAction</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="608" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="608" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1ab818dec14d15171ca0c750d3d7a7be5c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ChangeOneNormalInCloudAction</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="610" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="610" bodyend="610"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1a522a6b51a7d4f4191ee5b520f47cb490" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</definition>
+        <argsstring>(MR._ByValue_ChangeOneNormalInCloudAction _other)</argsstring>
+        <name>ChangeOneNormalInCloudAction</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeOneNormalInCloudAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="615" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="615" bodyend="621"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1a9e2d556a1a7072096ad1017075b84494" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</definition>
+        <argsstring>(Const_ChangeOneNormalInCloudAction _other)</argsstring>
+        <name>ChangeOneNormalInCloudAction</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</qualifiedname>
+        <param>
+          <type>Const_ChangeOneNormalInCloudAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="626" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="626" bodyend="626"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1aada2ec7704dccdf689aa2fab7bc4ac81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</definition>
+        <argsstring>(ChangeOneNormalInCloudAction _other)</argsstring>
+        <name>ChangeOneNormalInCloudAction</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeOneNormalInCloudAction" kindref="compound">ChangeOneNormalInCloudAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="631" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="631" bodyend="631"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1a1dd8fdfbf00d37baae4964a45107d571" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</definition>
+        <argsstring>(string name, MR.Const_ObjectPoints obj, MR.VertId pointId)</argsstring>
+        <name>ChangeOneNormalInCloudAction</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectPoints</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pointId</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember point&apos;s normal before making any changes in it Generated from constructor <computeroutput>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="637" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="637" bodyend="647"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1afbb99fe525e8bcf3dfab0cf7fc81cccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</definition>
+        <argsstring>(string name, MR.Const_ObjectPoints obj, MR.VertId pointId, in MR.Vector3f newNormal)</argsstring>
+        <name>ChangeOneNormalInCloudAction</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectPoints</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>pointId</declname>
+        </param>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>newNormal</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember point&apos;s normal and immediate set new normal Generated from constructor <computeroutput>MR.ChangeOneNormalInCloudAction.ChangeOneNormalInCloudAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="653" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="653" bodyend="666"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1acd2e0f73ed9347e1630fec4039be5085" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeOneNormalInCloudAction" kindref="compound">MR.ChangeOneNormalInCloudAction</ref></type>
+        <definition>unsafe MR.ChangeOneNormalInCloudAction MR.ChangeOneNormalInCloudAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeOneNormalInCloudAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeOneNormalInCloudAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ChangeOneNormalInCloudAction.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="671" column="54" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="671" bodyend="678"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeOneNormalInCloudAction_1a871b173d5d105fe3e78e112abb1297a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ChangeOneNormalInCloudAction.action</definition>
+        <argsstring>(MR.HistoryAction.Type _1)</argsstring>
+        <name>action</name>
+        <qualifiedname>MR.ChangeOneNormalInCloudAction.action</qualifiedname>
+        <param>
+          <type>MR.HistoryAction.Type</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ChangeOneNormalInCloudAction_1a871b173d5d105fe3e78e112abb1297a6" kindref="member">MR.ChangeOneNormalInCloudAction.action</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="683" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="683" bodyend="688"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action that modifies one point&apos;s normal inside <ref refid="classMR_1_1ObjectPoints" kindref="compound">ObjectPoints</ref> Generated from class <computeroutput><ref refid="classMR_1_1ChangeOneNormalInCloudAction" kindref="compound">MR.ChangeOneNormalInCloudAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ChangeOneNormalInCloudAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeOneNormalInCloudAction</label>
+        <link refid="classMR_1_1ChangeOneNormalInCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeOneNormalInCloudAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ChangeOneNormalInCloudAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeOneNormalInCloudAction</label>
+        <link refid="classMR_1_1ChangeOneNormalInCloudAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeOneNormalInCloudAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" line="588" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangePointCloudNormalsAction.cs" bodystart="589" bodyend="689"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1a871b173d5d105fe3e78e112abb1297a6" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1acd2e0f73ed9347e1630fec4039be5085" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1abbd0f86365cb8fdcff6abaf9729d86b7" prot="package" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1ab818dec14d15171ca0c750d3d7a7be5c" prot="package" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1a522a6b51a7d4f4191ee5b520f47cb490" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1a9e2d556a1a7072096ad1017075b84494" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1aada2ec7704dccdf689aa2fab7bc4ac81" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1a1dd8fdfbf00d37baae4964a45107d571" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1afbb99fe525e8bcf3dfab0cf7fc81cccd" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>ChangeOneNormalInCloudAction</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1a1549ee0bd584c7265aae9f2109e1d12d" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>operator ChangeOneNormalInCloudAction?</name></member>
+      <member refid="classMR_1_1ChangeOneNormalInCloudAction_1afdf8cc5955aa6d1c485aafce4472eac0" prot="public" virt="non-virtual"><scope>MR::ChangeOneNormalInCloudAction</scope><name>operator MR.HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

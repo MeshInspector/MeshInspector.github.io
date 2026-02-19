@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__variant__float__Vector3__float" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_variant_float_Vector3_float</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__float__Vector3__float_1a707e34263b93c6af4a5324ffe22dd764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_float_Vector3_float.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_float_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79334" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79334" bodyend="79335"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__float__Vector3__float_1a7b5f859efdade9a0bd3b5a8b9135e69c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_float_Vector3_float.__init__</definition>
+        <argsstring>(self, std_variant_float_Vector3_float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_float_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__variant__float__Vector3__float" kindref="compound">std_variant_float_Vector3_float</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79337" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79337" bodyend="79338"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__float__Vector3__float_1ac749defe05998eff07e119bade16df01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_float_Vector3_float.__init__</definition>
+        <argsstring>(self, float arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_float_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79340" bodyend="79341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__float__Vector3__float_1aec4ed14c1461ea28a44509221a843010" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_variant_float_Vector3_float.__init__</definition>
+        <argsstring>(self, Vector3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_variant_float_Vector3_float.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79343" bodyend="79344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__float__Vector3__float_1abf6bb33703b6b8f10c8e5f8f1a13de87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_variant_float_Vector3_float.current_type</definition>
+        <argsstring>(self)</argsstring>
+        <name>current_type</name>
+        <qualifiedname>mrmeshpy.std_variant_float_Vector3_float.current_type</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the current type name as a string. Call `get_&lt;TypeName&gt;()` to get the value.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79345" bodyend="79348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__float__Vector3__float_1a0de1b52206eb332e9f3896c50f6c025b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.std_variant_float_Vector3_float.get_Vector3_float</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_Vector3_float</name>
+        <qualifiedname>mrmeshpy.std_variant_float_Vector3_float.get_Vector3_float</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79349" bodyend="79352"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__variant__float__Vector3__float_1aabc648cb3d23c53010a26752e0403afd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.std_variant_float_Vector3_float.get_float</definition>
+        <argsstring>(self)</argsstring>
+        <name>get_float</name>
+        <qualifiedname>mrmeshpy.std_variant_float_Vector3_float.get_float</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return this alternative, or throw if it&apos;s not active.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79353" bodyend="79356"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  FeaturesPropertyTypesVariant, ObjectComparableWithReference.ComparisonReferenceValue.Var, std_variant_float_Vector3f
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="79329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="79329" bodyend="79356"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__variant__float__Vector3__float_1a707e34263b93c6af4a5324ffe22dd764" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_float_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__float__Vector3__float_1a7b5f859efdade9a0bd3b5a8b9135e69c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_float_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__float__Vector3__float_1ac749defe05998eff07e119bade16df01" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_float_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__float__Vector3__float_1aec4ed14c1461ea28a44509221a843010" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_float_Vector3_float</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__float__Vector3__float_1abf6bb33703b6b8f10c8e5f8f1a13de87" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_float_Vector3_float</scope><name>current_type</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__float__Vector3__float_1aabc648cb3d23c53010a26752e0403afd" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_float_Vector3_float</scope><name>get_float</name></member>
+      <member refid="classmrmeshpy_1_1std__variant__float__Vector3__float_1a0de1b52206eb332e9f3896c50f6c025b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_variant_float_Vector3_float</scope><name>get_Vector3_float</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

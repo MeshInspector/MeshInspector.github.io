@@ -1,0 +1,248 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UniqueThreadSafeOwner_AABBTree</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1aeaa3045d7ae05f37271fff5d0d716a6c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniqueThreadSafeOwner_AABBTree.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60146" bodyend="60147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a20fb1d4228f41a7384430a7f42adca16" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree" kindref="compound">UniqueThreadSafeOwner_AABBTree</ref></type>
+        <definition> UniqueThreadSafeOwner_AABBTree mrmeshpy.UniqueThreadSafeOwner_AABBTree.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60150" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60150" bodyend="60151"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1ac019f3d734b87e25eb91a2ee943e765e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniqueThreadSafeOwner_AABBTree.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60153" bodyend="60154"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a4a32fd0f4a53701046fe0472afc303a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniqueThreadSafeOwner_AABBTree.__init__</definition>
+        <argsstring>(self, UniqueThreadSafeOwner_AABBTree arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree" kindref="compound">UniqueThreadSafeOwner_AABBTree</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60156" bodyend="60159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a5f8bc8a8166e1fabfe5d5cfad4237c89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTree" kindref="compound">AABBTree</ref></type>
+        <definition> AABBTree mrmeshpy.UniqueThreadSafeOwner_AABBTree.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns existing owned object and does not create new one
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60160" bodyend="60163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a120dcd453c1718f579989cf29f59bf4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTree" kindref="compound">AABBTree</ref></type>
+        <definition> AABBTree mrmeshpy.UniqueThreadSafeOwner_AABBTree.getOrCreate</definition>
+        <argsstring>(self, func_AABBTree creator)</argsstring>
+        <name>getOrCreate</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.getOrCreate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__AABBTree" kindref="compound">func_AABBTree</ref></type>
+          <declname>creator</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns existing owned object or creates new one using creator function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60164" bodyend="60167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1aa9b93ace49f4e25d9db34d986bc214b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.UniqueThreadSafeOwner_AABBTree.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60168" bodyend="60171"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a26cbd0c17e1f99a15a9aebdfa8e018ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree" kindref="compound">UniqueThreadSafeOwner_AABBTree</ref></type>
+        <definition> UniqueThreadSafeOwner_AABBTree mrmeshpy.UniqueThreadSafeOwner_AABBTree.operator</definition>
+        <argsstring>(self, UniqueThreadSafeOwner_AABBTree b)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.operator</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree" kindref="compound">UniqueThreadSafeOwner_AABBTree</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60173" bodyend="60174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a442772ec00d768d9e990944941477a7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniqueThreadSafeOwner_AABBTree.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>deletes owned object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60175" bodyend="60178"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1ab1bea80beb566815cb6f01f49bb1adc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UniqueThreadSafeOwner_AABBTree.update</definition>
+        <argsstring>(self, func_void_from_AABBTree updater)</argsstring>
+        <name>update</name>
+        <qualifiedname>mrmeshpy.UniqueThreadSafeOwner_AABBTree.update</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__AABBTree" kindref="compound">func_void_from_AABBTree</ref></type>
+          <declname>updater</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calls given updater for the owned object (if any)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60179" bodyend="60182"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UniqueThreadSafeOwner&lt;MR::AABBTree&gt;
+
+This class is base class for unique thread safe owning of some objects, for example AABBTree
+classes derived from this one should have function like getOrCreate
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="60137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="60137" bodyend="60182"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1aeaa3045d7ae05f37271fff5d0d716a6c" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1ac019f3d734b87e25eb91a2ee943e765e" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a4a32fd0f4a53701046fe0472afc303a5" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a5f8bc8a8166e1fabfe5d5cfad4237c89" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a120dcd453c1718f579989cf29f59bf4d" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>getOrCreate</name></member>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1aa9b93ace49f4e25d9db34d986bc214b0" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a20fb1d4228f41a7384430a7f42adca16" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a26cbd0c17e1f99a15a9aebdfa8e018ac" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1a442772ec00d768d9e990944941477a7b" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1UniqueThreadSafeOwner__AABBTree_1ab1bea80beb566815cb6f01f49bb1adc9" prot="public" virt="non-virtual"><scope>mrmeshpy::UniqueThreadSafeOwner_AABBTree</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

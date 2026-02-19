@@ -1,0 +1,389 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1LabelVisualizePropertyType" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::LabelVisualizePropertyType</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1LabelVisualizePropertyType_1a4c321b0d224d83e181890ad90394fe21" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LabelVisualizePropertyType::Background</definition>
+        <argsstring></argsstring>
+        <name>Background</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.Background</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1LabelVisualizePropertyType" kindref="compound">LabelVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LabelVisualizePropertyType_1a65fb790e61f66f045a23c31fdbe20778" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LabelVisualizePropertyType::Contour</definition>
+        <argsstring></argsstring>
+        <name>Contour</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.Contour</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1LabelVisualizePropertyType" kindref="compound">LabelVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LabelVisualizePropertyType_1a048238071809ca0d0d08cd9cec5cbbd6" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LabelVisualizePropertyType::LeaderLine</definition>
+        <argsstring></argsstring>
+        <name>LeaderLine</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.LeaderLine</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1LabelVisualizePropertyType" kindref="compound">LabelVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25239" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1LabelVisualizePropertyType_1aefb258c9822c056eb8bb5132e969c9df" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LabelVisualizePropertyType::SourcePoint</definition>
+        <argsstring></argsstring>
+        <name>SourcePoint</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.SourcePoint</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1LabelVisualizePropertyType" kindref="compound">LabelVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25240" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1LabelVisualizePropertyType_1a21cdb034a121c60f10dc9cbe92cb1a60" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LabelVisualizePropertyType::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1LabelVisualizePropertyType" kindref="compound">LabelVisualizePropertyType</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25241" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1LabelVisualizePropertyType_1aea7e5c9c177b1cd207694d87ce21408e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.LabelVisualizePropertyType::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1LabelVisualizePropertyType" kindref="compound">LabelVisualizePropertyType</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25242" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1aa48748295c236f7384fc3f4050f55c3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.LabelVisualizePropertyType.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25243" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25243" bodyend="25244"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1ae3e954ee410aa6e557a24c374c648ef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.LabelVisualizePropertyType.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25245" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25245" bodyend="25246"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1a1d3537412e432ce854be645e9c2f922d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.LabelVisualizePropertyType.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25247" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25247" bodyend="25248"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1a6626f6286cfa2a51c2291929a9ff3b62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.LabelVisualizePropertyType.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25249" bodyend="25250"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1aee809a7d7a69b4d469470e0baca13e1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LabelVisualizePropertyType.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25251" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25251" bodyend="25252"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1ac50886d96959c95248a76346b3d779f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.LabelVisualizePropertyType.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25253" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25253" bodyend="25254"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1aba1287a067798237b4f4639d44788849" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.LabelVisualizePropertyType.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25255" bodyend="25256"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1a93d09c73a9dd78572cdd500a39ec1da4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LabelVisualizePropertyType.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25257" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25257" bodyend="25258"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1af1ce2c6bd54435f56bf7cb1c7880eaf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.LabelVisualizePropertyType.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25259" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25259" bodyend="25260"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1ad8c102b31c81f2752b48d9ebe954db0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LabelVisualizePropertyType.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25261" bodyend="25262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1a2386385475441882dd1e5d82013e31e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.LabelVisualizePropertyType.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25264" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25264" bodyend="25265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1LabelVisualizePropertyType_1abaafffe7554b393a45516439c87e4fcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.LabelVisualizePropertyType.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.LabelVisualizePropertyType.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25267" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25267" bodyend="25268"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  SourcePoint
+
+  LeaderLine
+
+  Background
+
+  Contour
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.LabelVisualizePropertyType</label>
+        <link refid="classmrmeshpy_1_1LabelVisualizePropertyType"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Background</edgelabel>
+          <edgelabel>Contour</edgelabel>
+          <edgelabel>LeaderLine</edgelabel>
+          <edgelabel>SourcePoint</edgelabel>
+          <edgelabel>_count</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="25223" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="25223" bodyend="25268"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1aa48748295c236f7384fc3f4050f55c3b" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1ae3e954ee410aa6e557a24c374c648ef9" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1a1d3537412e432ce854be645e9c2f922d" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1a6626f6286cfa2a51c2291929a9ff3b62" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1aee809a7d7a69b4d469470e0baca13e1f" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1ac50886d96959c95248a76346b3d779f8" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1a21cdb034a121c60f10dc9cbe92cb1a60" prot="private" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1aba1287a067798237b4f4639d44788849" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1a93d09c73a9dd78572cdd500a39ec1da4" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1af1ce2c6bd54435f56bf7cb1c7880eaf8" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1ad8c102b31c81f2752b48d9ebe954db0f" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1aea7e5c9c177b1cd207694d87ce21408e" prot="protected" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1a4c321b0d224d83e181890ad90394fe21" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>Background</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1a65fb790e61f66f045a23c31fdbe20778" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>Contour</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1a048238071809ca0d0d08cd9cec5cbbd6" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>LeaderLine</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1a2386385475441882dd1e5d82013e31e4" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1aefb258c9822c056eb8bb5132e969c9df" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>SourcePoint</name></member>
+      <member refid="classmrmeshpy_1_1LabelVisualizePropertyType_1abaafffe7554b393a45516439c87e4fcb" prot="public" virt="non-virtual"><scope>mrmeshpy::LabelVisualizePropertyType</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

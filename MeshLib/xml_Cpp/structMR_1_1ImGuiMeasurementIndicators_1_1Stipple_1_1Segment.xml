@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ImGuiMeasurementIndicators::Stipple::Segment</compoundname>
+    <includes refid="MRImGuiMeasurementIndicators_8h" local="no">MRImGuiMeasurementIndicators.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a5dd25c864ad33b95fc71a3f2143422b2" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ImGuiMeasurementIndicators::Stipple::Segment::a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Stipple::Segment::a</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This is the start and end positions of this segment, from 0 to 1. This is automatically multiplied by <computeroutput>patternLength</computeroutput>. You must ensure <computeroutput>0 &lt;= a &lt; b &lt;= 1</computeroutput>, and if there are multiple segments, that <computeroutput>segments[i].b &lt; segments[i + 1].a</computeroutput>. The only exception to this is that the <computeroutput>b</computeroutput> of the last segment can be less than the <computeroutput>a</computeroutput> of the last segment, as long as it&apos;s also less than the <computeroutput>a</computeroutput> of the first segment. This can help with pattern wraparound. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="31" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a4bffbd994362942f69eb09e7e455e883" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::ImGuiMeasurementIndicators::Stipple::Segment::b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Stipple::Segment::b</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="32" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a84ce838af9b949725c6d6a069c819a8c" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float MR::ImGuiMeasurementIndicators::Stipple::Segment::get</definition>
+        <argsstring>(bool end) const</argsstring>
+        <name>get</name>
+        <qualifiedname>MR::ImGuiMeasurementIndicators::Stipple::Segment::get</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="34" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRImGuiMeasurementIndicators.h" bodystart="26" bodyend="35"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a5dd25c864ad33b95fc71a3f2143422b2" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Stipple::Segment</scope><name>a</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a4bffbd994362942f69eb09e7e455e883" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Stipple::Segment</scope><name>b</name></member>
+      <member refid="structMR_1_1ImGuiMeasurementIndicators_1_1Stipple_1_1Segment_1a84ce838af9b949725c6d6a069c819a8c" prot="public" virt="non-virtual"><scope>MR::ImGuiMeasurementIndicators::Stipple::Segment</scope><name>get</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshDeleteGroup" kind="group">
+    <compoundname>MeshDeleteGroup</compoundname>
+    <title>Mesh Delete</title>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshDeleteGroup_1gac3468d8961b17a859a730ed22897a331" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::deleteTargetFaces</definition>
+        <argsstring>(Mesh &amp;obj, const Vector3f &amp;targetCenter)</argsstring>
+        <name>deleteTargetFaces</name>
+        <qualifiedname>MR::deleteTargetFaces</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>targetCenter</declname>
+        </param>
+        <briefdescription>
+<para>deletes object faces with normals pointed to the target geometry center </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelete.h" line="13" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelete.h" declline="13" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshDeleteGroup_1ga71a058b3ccf7446b5d7f0475e1fc5d32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::deleteTargetFaces</definition>
+        <argsstring>(Mesh &amp;obj, const Mesh &amp;target)</argsstring>
+        <name>deleteTargetFaces</name>
+        <qualifiedname>MR::deleteTargetFaces</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelete.h" line="14" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelete.h" declline="14" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

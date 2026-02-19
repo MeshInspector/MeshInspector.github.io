@@ -156,16 +156,20 @@ $(function(){initNavTree('MRMacros_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ab8cb9281271220567c1359224e6ca5db" id="r_ab8cb9281271220567c1359224e6ca5db"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8cb9281271220567c1359224e6ca5db">MR_STR</a>(...)&#160;&#160;&#160;<a class="el" href="#a1c406bd49225547ca8c9b02e77e70293">MR_STR_</a>(__VA_ARGS__)</td></tr>
+<tr class="memdesc:ab8cb9281271220567c1359224e6ca5db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Those are generic helper macros that don't have their own headers.  <br /></td></tr>
 <tr class="separator:ab8cb9281271220567c1359224e6ca5db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c406bd49225547ca8c9b02e77e70293" id="r_a1c406bd49225547ca8c9b02e77e70293"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1c406bd49225547ca8c9b02e77e70293">MR_STR_</a>(...)&#160;&#160;&#160;#__VA_ARGS__</td></tr>
 <tr class="separator:a1c406bd49225547ca8c9b02e77e70293"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30c21a4f7f46e470b0c9ba48648699b1" id="r_a30c21a4f7f46e470b0c9ba48648699b1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30c21a4f7f46e470b0c9ba48648699b1">MR_IDENTITY</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
+<tr class="memdesc:a30c21a4f7f46e470b0c9ba48648699b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the argument unchanged.  <br /></td></tr>
 <tr class="separator:a30c21a4f7f46e470b0c9ba48648699b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fd290c4738dc2f265b144020d97b290" id="r_a0fd290c4738dc2f265b144020d97b290"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0fd290c4738dc2f265b144020d97b290">MR_END</a>(...)&#160;&#160;&#160;<a class="el" href="#a98c9bc1fa1800fdfc987995748d5944b">DETAIL_MR_END</a>(__VA_ARGS__)</td></tr>
+<tr class="memdesc:a0fd290c4738dc2f265b144020d97b290"><td class="mdescLeft">&#160;</td><td class="mdescRight">A helper for writing preprocessor loops.  <br /></td></tr>
 <tr class="separator:a0fd290c4738dc2f265b144020d97b290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98c9bc1fa1800fdfc987995748d5944b" id="r_a98c9bc1fa1800fdfc987995748d5944b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a98c9bc1fa1800fdfc987995748d5944b">DETAIL_MR_END</a>(...)&#160;&#160;&#160;__VA_ARGS__##_END</td></tr>
 <tr class="separator:a98c9bc1fa1800fdfc987995748d5944b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cb6de717e0b06df733796fec2da272a" id="r_a4cb6de717e0b06df733796fec2da272a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4cb6de717e0b06df733796fec2da272a">MR_CONCAT</a>(a,  b)&#160;&#160;&#160;<a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>( a, b )</td></tr>
+<tr class="memdesc:a4cb6de717e0b06df733796fec2da272a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concat strings.  <br /></td></tr>
 <tr class="separator:a4cb6de717e0b06df733796fec2da272a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac35e66533e158a4bf53982a2c109bd09" id="r_ac35e66533e158a4bf53982a2c109bd09"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac35e66533e158a4bf53982a2c109bd09">MR_CONCAT_</a>(a,  b)&#160;&#160;&#160;a##b</td></tr>
 <tr class="separator:ac35e66533e158a4bf53982a2c109bd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -181,9 +185,25 @@ Macros</h2></td></tr>
 <tr class="separator:aa4077bf89cb8ad6b60d3d1d989cc5361"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc8a2290a0ad34bf18acb8498b4bb91a" id="r_adc8a2290a0ad34bf18acb8498b4bb91a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc8a2290a0ad34bf18acb8498b4bb91a">MR_NO_UNIQUE_ADDRESS</a>&#160;&#160;&#160;[[no_unique_address]]</td></tr>
 <tr class="separator:adc8a2290a0ad34bf18acb8498b4bb91a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a14b15e367904df16d7473d4e5a33ea" id="r_a5a14b15e367904df16d7473d4e5a33ea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a14b15e367904df16d7473d4e5a33ea">MR_LIFETIMEBOUND</a></td></tr>
+<tr class="separator:a5a14b15e367904df16d7473d4e5a33ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39cc255fe35857a435c1f7857797b105" id="r_a39cc255fe35857a435c1f7857797b105"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a39cc255fe35857a435c1f7857797b105">MR_LIFETIME_CAPTURE_BY</a>(x)</td></tr>
+<tr class="separator:a39cc255fe35857a435c1f7857797b105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf6c6b95060436517349016ba1997ced" id="r_acf6c6b95060436517349016ba1997ced"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acf6c6b95060436517349016ba1997ced">MR_THIS_LIFETIME_CAPTURE_BY</a>(x)</td></tr>
+<tr class="separator:acf6c6b95060436517349016ba1997ced"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4deec6386dbf5b5f121aaa2beb16cec" id="r_ac4deec6386dbf5b5f121aaa2beb16cec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac4deec6386dbf5b5f121aaa2beb16cec">MR_LIFETIMEBOUND_NESTED</a></td></tr>
+<tr class="separator:ac4deec6386dbf5b5f121aaa2beb16cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5183c759a85bf4bf2bfebf125c3b783" id="r_ae5183c759a85bf4bf2bfebf125c3b783"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5183c759a85bf4bf2bfebf125c3b783">MR_THIS_LIFETIMEBOUND_NESTED</a></td></tr>
+<tr class="separator:ae5183c759a85bf4bf2bfebf125c3b783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abac943cb4e78c29b3a46edd18cffe800" id="r_abac943cb4e78c29b3a46edd18cffe800"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abac943cb4e78c29b3a46edd18cffe800">MR_LIFETIME_CAPTURE_BY_NESTED</a>(x)</td></tr>
+<tr class="separator:abac943cb4e78c29b3a46edd18cffe800"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a565fe9a8b72db5a6310b31aeaa3b5d39" id="r_a565fe9a8b72db5a6310b31aeaa3b5d39"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a565fe9a8b72db5a6310b31aeaa3b5d39">MR_THIS_LIFETIME_CAPTURE_BY_NESTED</a>(x)</td></tr>
+<tr class="separator:a565fe9a8b72db5a6310b31aeaa3b5d39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0284b6bf2a09937d49518593207b00a6" id="r_a0284b6bf2a09937d49518593207b00a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0284b6bf2a09937d49518593207b00a6">MR_LEGACY_MSVC_PREPROCESSOR</a>&#160;&#160;&#160;0</td></tr>
+<tr class="memdesc:a0284b6bf2a09937d49518593207b00a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Are we using the old buggy MSVC preprocessor?  <br /></td></tr>
 <tr class="separator:a0284b6bf2a09937d49518593207b00a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11806a80fef697ddb9a820cc22204f3b" id="r_a11806a80fef697ddb9a820cc22204f3b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11806a80fef697ddb9a820cc22204f3b">MR_TRIM_LEADING_COMMA</a>(...)&#160;&#160;&#160;<a class="el" href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a>(__VA_ARGS__)</td></tr>
+<tr class="memdesc:a11806a80fef697ddb9a820cc22204f3b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code><a class="el" href="#a11806a80fef697ddb9a820cc22204f3b" title="MR_TRIM_LEADING_COMMA(,a,b,c) returns a,b,c.">MR_TRIM_LEADING_COMMA(,a,b,c)</a></code> returns <code>a,b,c</code>.  <br /></td></tr>
 <tr class="separator:a11806a80fef697ddb9a820cc22204f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaebd39479bb9677a7e966765a052de4" id="r_acaebd39479bb9677a7e966765a052de4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#acaebd39479bb9677a7e966765a052de4">DETAIL_MR_TRIM_LEADING_COMMA_</a>(x, ...)&#160;&#160;&#160;<a class="el" href="#a71b7b6d36fcf0ab6752038726c7b007d">DETAIL_MR_TRIM_LEADING_COMMA_EMPTY</a>(x) __VA_ARGS__</td></tr>
 <tr class="separator:acaebd39479bb9677a7e966765a052de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -264,6 +284,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Concat strings. </p>
 
 </div>
 </div>
@@ -355,6 +377,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>A helper for writing preprocessor loops. </p>
+
 </div>
 </div>
 <a id="af2577133e8c02d830609dc0c74a53949" name="af2577133e8c02d830609dc0c74a53949"></a>
@@ -368,6 +392,7 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>If the compiler supports <code>requires</code>, expands to <code>requires(...)</code>. Otherwise to nothing. This is primarily useful for code that must be usable in Cuda, since everywhere else we're free to use C++20 and newer. While Clang 14 technically supports <code>requires</code>, we're getting a few weird issues with it (make a nested aggregate class, in the enclosing class make a <code><a class="el" href="classMR_1_1Vector.html" title="std::vector&lt;T&gt;-like container that requires specific indexing type,">MR::Vector</a></code> of it, observe that <code>std::default_initializable</code> gets baked as <code>false</code> on it, disabling some member functions such as <code>.resize()</code>). </p>
 
 </div>
 </div>
@@ -386,6 +411,8 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Returns the argument unchanged. </p>
+
 </div>
 </div>
 <a id="a0284b6bf2a09937d49518593207b00a6" name="a0284b6bf2a09937d49518593207b00a6"></a>
@@ -396,6 +423,71 @@ Macros</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">#define MR_LEGACY_MSVC_PREPROCESSOR&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Are we using the old buggy MSVC preprocessor? </p>
+
+</div>
+</div>
+<a id="a39cc255fe35857a435c1f7857797b105" name="a39cc255fe35857a435c1f7857797b105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39cc255fe35857a435c1f7857797b105">&#9670;&#160;</a></span>MR_LIFETIME_CAPTURE_BY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_LIFETIME_CAPTURE_BY</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abac943cb4e78c29b3a46edd18cffe800" name="abac943cb4e78c29b3a46edd18cffe800"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abac943cb4e78c29b3a46edd18cffe800">&#9670;&#160;</a></span>MR_LIFETIME_CAPTURE_BY_NESTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_LIFETIME_CAPTURE_BY_NESTED</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5a14b15e367904df16d7473d4e5a33ea" name="a5a14b15e367904df16d7473d4e5a33ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a14b15e367904df16d7473d4e5a33ea">&#9670;&#160;</a></span>MR_LIFETIMEBOUND</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_LIFETIMEBOUND</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Here we define following macros: <code><a class="el" href="namespaceMR.html" title="only for bindings generation">MR</a>[_THIS]_LIFETIMEBOUND[_NESTED]</code> <code><a class="el" href="namespaceMR.html" title="only for bindings generation">MR</a>[_THIS]_LIFETIME_CAPTURE_BY[_NESTED](x)</code> Those attributes can be used to help Clang emit more warnings. We also use them in generated bindings to control keep-alive (object lifetime extension). At the time of writing, this is only used in C#. <code>MR_LIFETIMEBOUND</code> can be placed either on a function parameter (immediately after the parameter name), or on <code>this</code> by placing it after the method parameter list (after <code>const</code> if any). It indicates that the return value preserves a reference to this parameter (or to <code>this</code>). For this attribute, constructors are considered to return the object that they construct. <code><a class="el" href="#a39cc255fe35857a435c1f7857797b105">MR_LIFETIME_CAPTURE_BY(x)</a></code> is usable in the same places. <code>x</code> must either be the name of another parameter of the same function, or <code>this</code>. It indicates that the reference to the parameter (that has the attribute) is saved not in the return value, but instead in the specified parameter (the argument of the attribute, which could be <code>this</code>). In constructors, <code><a class="el" href="#a39cc255fe35857a435c1f7857797b105">MR_LIFETIME_CAPTURE_BY(this)</a></code> has the same effect as <code>MR_LIFETIMEBOUND</code>, since <code>this</code> and the returned object are considered to be the same thing. The <code>NESTED</code> variants, instead of preserving references to the parameter they're on, indicate that we only want to preserve references to whatever it refers to. This is ideal for e.g. copy/move constructors and <code>.push_back()</code>, which accept references and then make a copy of the target object, without preserving the reference itself. Clang doesn't understand the nested version (so it doesn't enable any warnings), so this is purely for the bindings. The <code>THIS</code> variants have to be used when the attribute is applied to <code>this</code> (i.e. placed after a method parameter list), as opposed to being applied to a function parameter. If there's no <code>THIS</code> variant, it means the normal variant works in that case, just use that. In particular: The non-<code>NESTED</code> <code>MR_LIFETIMEBOUND</code> doesn't have a <code>THIS</code> variant. The non-<code>NESTED</code> <code>MR_LIFETIME_CAPTURE_BY</code> only needs a <code>THIS</code> variant as long as we need to support Clang older than 20. Once we update Clang, the <code>THIS</code> variant can be merged into the non-<code>THIS</code> one (TODO do this). See Clang docs for more details: <a href="https:///">https:///</a> clang.llvm.org/docs/AttributeReference.html::lifetimebound <a href="https:///">https:///</a> clang.llvm.org/docs/AttributeReference.html::lifetime-capture-by </p>
+
+</div>
+</div>
+<a id="ac4deec6386dbf5b5f121aaa2beb16cec" name="ac4deec6386dbf5b5f121aaa2beb16cec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4deec6386dbf5b5f121aaa2beb16cec">&#9670;&#160;</a></span>MR_LIFETIMEBOUND_NESTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_LIFETIMEBOUND_NESTED</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -469,6 +561,9 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Those are generic helper macros that don't have their own headers. </p>
+<p>Convert to a string. </p>
+
 </div>
 </div>
 <a id="a1c406bd49225547ca8c9b02e77e70293" name="a1c406bd49225547ca8c9b02e77e70293"></a>
@@ -482,6 +577,54 @@ Macros</h2></td></tr>
           <td>(</td>
           <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em></em></span>...</td><td>)</td>
           <td>&#160;&#160;&#160;#__VA_ARGS__</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acf6c6b95060436517349016ba1997ced" name="acf6c6b95060436517349016ba1997ced"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf6c6b95060436517349016ba1997ced">&#9670;&#160;</a></span>MR_THIS_LIFETIME_CAPTURE_BY</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_THIS_LIFETIME_CAPTURE_BY</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a565fe9a8b72db5a6310b31aeaa3b5d39" name="a565fe9a8b72db5a6310b31aeaa3b5d39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a565fe9a8b72db5a6310b31aeaa3b5d39">&#9670;&#160;</a></span>MR_THIS_LIFETIME_CAPTURE_BY_NESTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_THIS_LIFETIME_CAPTURE_BY_NESTED</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae5183c759a85bf4bf2bfebf125c3b783" name="ae5183c759a85bf4bf2bfebf125c3b783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5183c759a85bf4bf2bfebf125c3b783">&#9670;&#160;</a></span>MR_THIS_LIFETIMEBOUND_NESTED</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MR_THIS_LIFETIMEBOUND_NESTED</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -502,6 +645,8 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p><code><a class="el" href="#a11806a80fef697ddb9a820cc22204f3b" title="MR_TRIM_LEADING_COMMA(,a,b,c) returns a,b,c.">MR_TRIM_LEADING_COMMA(,a,b,c)</a></code> returns <code>a,b,c</code>. </p>
 
 </div>
 </div>

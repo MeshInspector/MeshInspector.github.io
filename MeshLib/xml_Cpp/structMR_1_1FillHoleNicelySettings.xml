@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1FillHoleNicelySettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::FillHoleNicelySettings</compoundname>
+    <includes refid="MRFillHoleNicely_8h" local="no">MRFillHoleNicely.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2ead937ed1df084dc6a43160e17df2c2" kind="variable"><name>triangulateParams</name></member>
+      <member refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" kind="variable"><name>triangulateOnly</name></member>
+      <member refid="group__GeneralGroup_1ga95c1f4256940d339c8ee702d270fff49" kind="variable"><name>notFlippable</name></member>
+      <member refid="group__GeneralGroup_1gadebcc27b0bdbb4fa55baa8eae16a0dfb" kind="variable"><name>maxEdgeLen</name></member>
+      <member refid="group__GeneralGroup_1ga6dab8822d5eac719a15e99f44c4a3407" kind="variable"><name>maxEdgeSplits</name></member>
+      <member refid="group__GeneralGroup_1ga0e811b431fee7fca37d8a2ea46bf916c" kind="variable"><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" kind="variable"><name>smoothCurvature</name></member>
+      <member refid="group__GeneralGroup_1gaba46fa5a5269e9ffb23176c985a2c2b7" kind="variable"><name>naturalSmooth</name></member>
+      <member refid="group__GeneralGroup_1ga6d0f88d49fd92560346c908c5b5a6559" kind="variable"><name>beforeEdgeSplit</name></member>
+      <member refid="group__GeneralGroup_1ga29116e24393106e531f26abb886019b2" kind="variable"><name>onEdgeSplit</name></member>
+      <member refid="group__GeneralGroup_1ga033b24c89dfe82d1d7ebadc8b24f1a79" kind="variable"><name>edgeWeights</name></member>
+      <member refid="group__GeneralGroup_1gaa1d0f57cc8f6d2bb9413ae1e315e3ce6" kind="variable"><name>vmass</name></member>
+      <member refid="group__GeneralGroup_1ga8e1fac34058b267d696714994b158ce2" kind="variable"><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1gaf9530ece1e8bd0354145a59d4d603bf9" kind="variable"><name>colorMap</name></member>
+      <member refid="group__GeneralGroup_1ga4e373a3a06bd7f738fc35e108b3fdfa0" kind="variable"><name>faceColors</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>MR::FillHoleMetric</label>
+        <link refid="structMR_1_1FillHoleMetric"/>
+      </node>
+      <node id="1">
+        <label>MR::FillHoleNicelySettings</label>
+        <link refid="structMR_1_1FillHoleNicelySettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>triangulateParams</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::FillHoleParams</label>
+        <link refid="structMR_1_1FillHoleParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>metric</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFillHoleNicely.h" bodystart="14" bodyend="59"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6d0f88d49fd92560346c908c5b5a6559" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="group__GeneralGroup_1gaf9530ece1e8bd0354145a59d4d603bf9" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>colorMap</name></member>
+      <member refid="group__GeneralGroup_1ga033b24c89dfe82d1d7ebadc8b24f1a79" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>edgeWeights</name></member>
+      <member refid="group__GeneralGroup_1ga4e373a3a06bd7f738fc35e108b3fdfa0" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>faceColors</name></member>
+      <member refid="group__GeneralGroup_1ga0e811b431fee7fca37d8a2ea46bf916c" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="group__GeneralGroup_1gadebcc27b0bdbb4fa55baa8eae16a0dfb" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>maxEdgeLen</name></member>
+      <member refid="group__GeneralGroup_1ga6dab8822d5eac719a15e99f44c4a3407" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="group__GeneralGroup_1gaba46fa5a5269e9ffb23176c985a2c2b7" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>naturalSmooth</name></member>
+      <member refid="group__GeneralGroup_1ga95c1f4256940d339c8ee702d270fff49" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>notFlippable</name></member>
+      <member refid="group__GeneralGroup_1ga29116e24393106e531f26abb886019b2" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>onEdgeSplit</name></member>
+      <member refid="group__GeneralGroup_1gaac4ecae12eb97ad05b204ac14de42cb8" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>smoothCurvature</name></member>
+      <member refid="group__GeneralGroup_1ga62e34964b014489a6f1d3f2e324759ff" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>triangulateOnly</name></member>
+      <member refid="group__GeneralGroup_1ga2ead937ed1df084dc6a43160e17df2c2" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>triangulateParams</name></member>
+      <member refid="group__GeneralGroup_1ga8e1fac34058b267d696714994b158ce2" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>uvCoords</name></member>
+      <member refid="group__GeneralGroup_1gaa1d0f57cc8f6d2bb9413ae1e315e3ce6" prot="public" virt="non-virtual"><scope>MR::FillHoleNicelySettings</scope><name>vmass</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

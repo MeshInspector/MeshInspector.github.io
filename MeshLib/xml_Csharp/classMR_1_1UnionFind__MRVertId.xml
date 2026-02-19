@@ -1,0 +1,365 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UnionFind__MRVertId" kind="class" language="C#" prot="public">
+    <compoundname>MR::UnionFind_MRVertId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_UnionFind_MRVertId</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1af3f68d8657c22994231de7efcc5dd4d4" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnionFind_MRVertId.UnionFind_MRVertId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UnionFind_MRVertId</name>
+        <qualifiedname>MR.UnionFind_MRVertId.UnionFind_MRVertId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="130" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="130" bodyend="130"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a91fba248b9fa3e793b74585adc289152" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnionFind_MRVertId.UnionFind_MRVertId</definition>
+        <argsstring>()</argsstring>
+        <name>UnionFind_MRVertId</name>
+        <qualifiedname>MR.UnionFind_MRVertId.UnionFind_MRVertId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="135" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="135" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a56390927212c9f491f99270fa0bcbc03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnionFind_MRVertId.UnionFind_MRVertId</definition>
+        <argsstring>(MR._ByValue_UnionFind_MRVertId _other)</argsstring>
+        <name>UnionFind_MRVertId</name>
+        <qualifiedname>MR.UnionFind_MRVertId.UnionFind_MRVertId</qualifiedname>
+        <param>
+          <type>MR._ByValue_UnionFind_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::UnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="145" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="145" bodyend="151"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a6680151fd1e9fc20504a6a474f68997e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UnionFind_MRVertId.UnionFind_MRVertId</definition>
+        <argsstring>(Const_UnionFind_MRVertId _other)</argsstring>
+        <name>UnionFind_MRVertId</name>
+        <qualifiedname>MR.UnionFind_MRVertId.UnionFind_MRVertId</qualifiedname>
+        <param>
+          <type>Const_UnionFind_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::UnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="156" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="156" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1ad337fab5d2102f679ec5918fd798b7ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UnionFind_MRVertId.UnionFind_MRVertId</definition>
+        <argsstring>(UnionFind_MRVertId _other)</argsstring>
+        <name>UnionFind_MRVertId</name>
+        <qualifiedname>MR.UnionFind_MRVertId.UnionFind_MRVertId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">UnionFind_MRVertId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::UnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="161" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="161" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a379733b5702589f3e9f5394318032781" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnionFind_MRVertId.UnionFind_MRVertId</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>UnionFind_MRVertId</name>
+        <qualifiedname>MR.UnionFind_MRVertId.UnionFind_MRVertId</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>creates union-find with given number of elements, each element is the only one in its disjoint set Generated from constructor <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::UnionFind</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="167" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="167" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a37dad81e6e407820d670beec30b81183" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnionFind__MRVertId" kindref="compound">MR.UnionFind_MRVertId</ref></type>
+        <definition>unsafe MR.UnionFind_MRVertId MR.UnionFind_MRVertId.assign</definition>
+        <argsstring>(MR._ByValue_UnionFind_MRVertId _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.UnionFind_MRVertId.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_UnionFind_MRVertId</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="177" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="177" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a0cc46af6b196ce67ee8747a5134b182c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.UnionFind_MRVertId.reset</definition>
+        <argsstring>(ulong size)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.UnionFind_MRVertId.reset</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>resets union-find to represent given number of elements, each element is the only one in its disjoint set Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::reset</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="190" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="190" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a4ddafec6a481ccb3fda16bbba8abc454" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Std.Pair_MRVertId_Bool</type>
+        <definition>unsafe MR.Std.Pair_MRVertId_Bool MR.UnionFind_MRVertId.unite</definition>
+        <argsstring>(MR.VertId first, MR.VertId second)</argsstring>
+        <name>unite</name>
+        <qualifiedname>MR.UnionFind_MRVertId.unite</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>unite two elements, </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>first: new common root, second: true = union was done, false = first and second were already united Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::unite</computeroutput>. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="202" column="47" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="202" bodyend="207"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a7836fa2a34611f5586920936281e5fe0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.UnionFind_MRVertId.united</definition>
+        <argsstring>(MR.VertId first, MR.VertId second)</argsstring>
+        <name>united</name>
+        <qualifiedname>MR.UnionFind_MRVertId.united</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>first</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+<para>returns true if given two elements are from one set Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::united</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="213" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="213" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1af4c8ee3038f1b4d00f11045489064ad5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.UnionFind_MRVertId.find</definition>
+        <argsstring>(MR.VertId a)</argsstring>
+        <name>find</name>
+        <qualifiedname>MR.UnionFind_MRVertId.find</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>finds the root of the set containing given element with optimizing data structure updates Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::find</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="224" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="224" bodyend="229"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a3ad886a251ff7004bdafce9652d354cf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe MR.VertId MR.UnionFind_MRVertId.findUpdateRange</definition>
+        <argsstring>(MR.VertId a, MR.VertId begin, MR.VertId end)</argsstring>
+        <name>findUpdateRange</name>
+        <qualifiedname>MR.UnionFind_MRVertId.findUpdateRange</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>begin</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>end</declname>
+        </param>
+        <briefdescription>
+<para>finds the root of the set containing given element with optimizing data structure in the range [begin, end) Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::findUpdateRange</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="235" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="235" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a48ff11afe2980aa15bd0bb0d59bfb28c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.Const_VertMap</type>
+        <definition>unsafe MR.Const_VertMap MR.UnionFind_MRVertId.roots</definition>
+        <argsstring>()</argsstring>
+        <name>roots</name>
+        <qualifiedname>MR.UnionFind_MRVertId.roots</qualifiedname>
+        <briefdescription>
+<para>sets the root of corresponding set as the parent of each element, then returns the vector Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::roots</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="246" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="246" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnionFind__MRVertId_1a3c210c095f5f318a36b536b1a280ddf1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe int</type>
+        <definition>unsafe int MR.UnionFind_MRVertId.sizeOfComp</definition>
+        <argsstring>(MR.VertId a)</argsstring>
+        <name>sizeOfComp</name>
+        <qualifiedname>MR.UnionFind_MRVertId.sizeOfComp</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns the number of elements in the set containing given element Generated from method <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;::sizeOfComp</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="257" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="257" bodyend="262"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Union-find data structure for representing disjoin sets of elements with few very quick operations: 1) union of two sets in one, 2) checking whether two elements pertain to the same set, 3) finding representative element (root) of each set by any set&apos;s element. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>I</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is the identifier of a set&apos;s element, e.g. <ref refid="structMR_1_1FaceId" kindref="compound">FaceId</ref> Generated from class <computeroutput>MR.UnionFind&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_UnionFind_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UnionFind_MRVertId</label>
+        <link refid="classMR_1_1UnionFind__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UnionFind_MRVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_UnionFind_MRVertId</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UnionFind_MRVertId</label>
+        <link refid="classMR_1_1UnionFind__MRVertId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UnionFind_MRVertId &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" line="128" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnionFind.cs" bodystart="129" bodyend="263"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a37dad81e6e407820d670beec30b81183" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>assign</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1af4c8ee3038f1b4d00f11045489064ad5" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>find</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a3ad886a251ff7004bdafce9652d354cf" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>findUpdateRange</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a0cc46af6b196ce67ee8747a5134b182c" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>reset</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a48ff11afe2980aa15bd0bb0d59bfb28c" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>roots</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a3c210c095f5f318a36b536b1a280ddf1" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>sizeOfComp</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1af3f68d8657c22994231de7efcc5dd4d4" prot="package" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a91fba248b9fa3e793b74585adc289152" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a56390927212c9f491f99270fa0bcbc03" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a6680151fd1e9fc20504a6a474f68997e" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1ad337fab5d2102f679ec5918fd798b7ef" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a379733b5702589f3e9f5394318032781" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>UnionFind_MRVertId</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a4ddafec6a481ccb3fda16bbba8abc454" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>unite</name></member>
+      <member refid="classMR_1_1UnionFind__MRVertId_1a7836fa2a34611f5586920936281e5fe0" prot="public" virt="non-virtual"><scope>MR::UnionFind_MRVertId</scope><name>united</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

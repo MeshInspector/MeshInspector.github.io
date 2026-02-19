@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__MeshFixerGroup" kind="group">
+    <compoundname>MeshFixerGroup</compoundname>
+    <title>Mesh Fixer</title>
+    <innerclass refid="structMR_1_1FixMeshDegeneraciesParams" prot="public">MR::FixMeshDegeneraciesParams</innerclass>
+    <innerclass refid="structMR_1_1FixCreasesParams" prot="public">MR::FixCreasesParams</innerclass>
+    <innerclass refid="structMR_1_1FindDisorientationParams" prot="public">MR::FindDisorientationParams</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="group__MeshFixerGroup_1gac8fc9cf58c37989c9d8ff982e8e378dc" prot="public" static="no">
+        <type>VertPair</type>
+        <definition>using MR::MultipleEdge =  VertPair</definition>
+        <argsstring></argsstring>
+        <name>MultipleEdge</name>
+        <qualifiedname>MR::MultipleEdge</qualifiedname>
+        <briefdescription>
+<para>finds multiple edges in the mesh </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga030e7fa6218d19042b2a5ae052055192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API int</type>
+        <definition>MRMESH_API int MR::duplicateMultiHoleVertices</definition>
+        <argsstring>(Mesh &amp;mesh)</argsstring>
+        <name>duplicateMultiHoleVertices</name>
+        <qualifiedname>MR::duplicateMultiHoleVertices</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>Duplicates all vertices having more than two boundary edges (and returns the number of duplications);. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="18" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="18" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gad29427e41026ca03a451eb1796987043" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; std::vector&lt; MultipleEdge &gt; &gt;</type>
+        <definition>MRMESH_API Expected&lt; std::vector&lt; MultipleEdge &gt; &gt; MR::findMultipleEdges</definition>
+        <argsstring>(const MeshTopology &amp;topology, ProgressCallback cb={})</argsstring>
+        <name>findMultipleEdges</name>
+        <qualifiedname>MR::findMultipleEdges</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="22" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="22" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga1aa9c53dc2ae474fe6c0c6d90d347f3e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::hasMultipleEdges</definition>
+        <argsstring>(const MeshTopology &amp;topology)</argsstring>
+        <name>hasMultipleEdges</name>
+        <qualifiedname>MR::hasMultipleEdges</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="23" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gaf36265bde92b52d2e7bc0142abd82206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::fixMultipleEdges</definition>
+        <argsstring>(Mesh &amp;mesh, const std::vector&lt; MultipleEdge &gt; &amp;multipleEdges)</argsstring>
+        <name>fixMultipleEdges</name>
+        <qualifiedname>MR::fixMultipleEdges</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const std::vector&lt; MultipleEdge &gt; &amp;</type>
+          <declname>multipleEdges</declname>
+        </param>
+        <briefdescription>
+<para>resolves given multiple edges, but splitting all but one edge in each group </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="26" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="26" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga52390270e3fbf5b7e8766374def17f07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::fixMultipleEdges</definition>
+        <argsstring>(Mesh &amp;mesh)</argsstring>
+        <name>fixMultipleEdges</name>
+        <qualifiedname>MR::fixMultipleEdges</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+<para>finds and resolves multiple edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="28" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="28" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga2053d608172d2309a6dfc184b3c23b54" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
+        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::findDegenerateFaces</definition>
+        <argsstring>(const MeshPart &amp;mp, float criticalAspectRatio=FLT_MAX, ProgressCallback cb={})</argsstring>
+        <name>findDegenerateFaces</name>
+        <qualifiedname>MR::findDegenerateFaces</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalAspectRatio</declname>
+          <defval>FLT_MAX</defval>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>finds faces having aspect ratio &gt;= criticalAspectRatio </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="31" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="31" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga866d4ce98ccfb2b97c17b372f139b31e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
+        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::findNotSmoothFaces</definition>
+        <argsstring>(const MeshPart &amp;mp, float minAngle=0.3f, ProgressCallback cb={})</argsstring>
+        <name>findNotSmoothFaces</name>
+        <qualifiedname>MR::findNotSmoothFaces</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minAngle</declname>
+          <defval>0.3f</defval>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>find inner faces of the given mesh part, which has large angles with its 3 neighbours <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>minAngle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>threshold in radians, which is used in comparison of angles of face&apos;s planes, the large minAngle the less number of faces will be found </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="35" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="35" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gae03888153d8e72318f46b2d9241d8bea" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; UndirectedEdgeBitSet &gt;</type>
+        <definition>MRMESH_API Expected&lt; UndirectedEdgeBitSet &gt; MR::findShortEdges</definition>
+        <argsstring>(const MeshPart &amp;mp, float criticalLength, ProgressCallback cb={})</argsstring>
+        <name>findShortEdges</name>
+        <qualifiedname>MR::findShortEdges</qualifiedname>
+        <param>
+          <type>const MeshPart &amp;</type>
+          <declname>mp</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalLength</declname>
+        </param>
+        <param>
+          <type>ProgressCallback</type>
+          <declname>cb</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>finds edges having length &lt;= criticalLength </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="38" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="38" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gad11bed424b514b2e835eb9ba644dd4eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; void &gt;</type>
+        <definition>MRMESH_API Expected&lt; void &gt; MR::fixMeshDegeneracies</definition>
+        <argsstring>(Mesh &amp;mesh, const FixMeshDegeneraciesParams &amp;params)</argsstring>
+        <name>fixMeshDegeneracies</name>
+        <qualifiedname>MR::fixMeshDegeneracies</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const FixMeshDegeneraciesParams &amp;</type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+<para>Fixes degenerate faces and short edges in mesh (changes topology) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="73" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="73" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga248c2b6b8c9d3915cc4d7e94a2727734" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API VertBitSet</type>
+        <definition>MRMESH_API VertBitSet MR::findNRingVerts</definition>
+        <argsstring>(const MeshTopology &amp;topology, int n, const VertBitSet *region=nullptr)</argsstring>
+        <name>findNRingVerts</name>
+        <qualifiedname>MR::findNRingVerts</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>const VertBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+<para>finds vertices in region with complete ring of N edges </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="76" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="76" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga68b96907fdec5d90f6c4d1771ae0563e" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::isEdgeBetweenDoubleTris</definition>
+        <argsstring>(const MeshTopology &amp;topology, EdgeId e)</argsstring>
+        <name>isEdgeBetweenDoubleTris</name>
+        <qualifiedname>MR::isEdgeBetweenDoubleTris</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the edge e has both left and right triangular faces and the degree of dest( e ) is 2 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="79" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="79" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gabfc8ebc79bf55b2a8e8bcb36f2c884c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API EdgeId</type>
+        <definition>MRMESH_API EdgeId MR::eliminateDoubleTris</definition>
+        <argsstring>(MeshTopology &amp;topology, EdgeId e, FaceBitSet *region=nullptr)</argsstring>
+        <name>eliminateDoubleTris</name>
+        <qualifiedname>MR::eliminateDoubleTris</qualifiedname>
+        <param>
+          <type>MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if the edge e has both left and right triangular faces and the degree of dest( e ) is 2, then eliminates left( e ), right( e ), e, e.sym(), next( e ), dest( e ), and returns prev( e ); if region is provided then eliminated faces are excluded from it; otherwise returns invalid edge </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="85" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="85" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gaf38de39619c863041d1acc307a36642a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::eliminateDoubleTrisAround</definition>
+        <argsstring>(MeshTopology &amp;topology, VertId v, FaceBitSet *region=nullptr)</argsstring>
+        <name>eliminateDoubleTrisAround</name>
+        <qualifiedname>MR::eliminateDoubleTrisAround</qualifiedname>
+        <param>
+          <type>MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>eliminates all double triangles around given vertex preserving vertex valid; if region is provided then eliminated triangles are excluded from it </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="89" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="89" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga4864464472d6d92da87a2501cb99db2b" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::isDegree3Dest</definition>
+        <argsstring>(const MeshTopology &amp;topology, EdgeId e)</argsstring>
+        <name>isDegree3Dest</name>
+        <qualifiedname>MR::isDegree3Dest</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>returns true if the destination of given edge has degree 3 and 3 incident triangles </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="92" column="18" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="92" declcolumn="18"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gace895a89502cb6fbf11e26b8c3e9773e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API EdgeId</type>
+        <definition>MRMESH_API EdgeId MR::eliminateDegree3Dest</definition>
+        <argsstring>(MeshTopology &amp;topology, EdgeId e, FaceBitSet *region=nullptr)</argsstring>
+        <name>eliminateDegree3Dest</name>
+        <qualifiedname>MR::eliminateDegree3Dest</qualifiedname>
+        <param>
+          <type>MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>EdgeId</type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type>FaceBitSet *</type>
+          <declname>region</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if the destination of given edge has degree 3 and 3 incident triangles, then eliminates the destination vertex with all its edges and all but one faces, and returns valid remaining edge with same origin as e; if region is provided then eliminated triangles are excluded from it; otherwise returns invalid edge </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="98" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="98" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga819c36bfa5ce60675533f6e6eceeb7d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API int</type>
+        <definition>MRMESH_API int MR::eliminateDegree3Vertices</definition>
+        <argsstring>(MeshTopology &amp;topology, VertBitSet &amp;region, FaceBitSet *fs=nullptr)</argsstring>
+        <name>eliminateDegree3Vertices</name>
+        <qualifiedname>MR::eliminateDegree3Vertices</qualifiedname>
+        <param>
+          <type>MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertBitSet &amp;</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>FaceBitSet *</type>
+          <declname>fs</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>eliminates from the mesh all vertices having degree 3 and 3 incident triangles from given region (which is updated); if<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>is provided then eliminated triangles are excluded from it; </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the number of vertices eliminated </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="103" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="103" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga9bde4ada16adc982fb6789ca9dabbc66" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API EdgeId</type>
+        <definition>MRMESH_API EdgeId MR::isVertexRepeatedOnHoleBd</definition>
+        <argsstring>(const MeshTopology &amp;topology, VertId v)</argsstring>
+        <name>isVertexRepeatedOnHoleBd</name>
+        <qualifiedname>MR::isVertexRepeatedOnHoleBd</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>VertId</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if given vertex is present on the boundary of some hole several times then returns an edge of this hole (without left); returns invalid edge otherwise (not a boundary vertex, or it is present only once on the boundary of each hole it pertains to) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="107" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="107" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga8e2b8d3db10183b66f463f70a7eac5b4" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API VertBitSet</type>
+        <definition>MRMESH_API VertBitSet MR::findRepeatedVertsOnHoleBd</definition>
+        <argsstring>(const MeshTopology &amp;topology)</argsstring>
+        <name>findRepeatedVertsOnHoleBd</name>
+        <qualifiedname>MR::findRepeatedVertsOnHoleBd</qualifiedname>
+        <param>
+          <type>const MeshTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+<para>returns set bits for all vertices present on the boundary of a hole several times; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="110" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="110" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga464e6b15a1c089223ed826d849cd69cf" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API FaceBitSet</type>
+        <definition>MRMESH_API FaceBitSet MR::findHoleComplicatingFaces</definition>
+        <argsstring>(const Mesh &amp;mesh)</argsstring>
+        <name>findHoleComplicatingFaces</name>
+        <qualifiedname>MR::findHoleComplicatingFaces</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns all faces that complicate one of mesh holes; hole is complicated if it passes via one vertex more than once; deleting such faces simplifies the holes and makes them easier to fill </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="115" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="115" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1gab288e6567def34c11ffd9a7a3ce86db3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::fixMeshCreases</definition>
+        <argsstring>(Mesh &amp;mesh, const FixCreasesParams &amp;params={})</argsstring>
+        <name>fixMeshCreases</name>
+        <qualifiedname>MR::fixMeshCreases</qualifiedname>
+        <param>
+          <type>Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const FixCreasesParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>Finds creases edges and re-triangulates planar areas around them, useful to fix double faces. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="131" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="131" declcolumn="17"/>
+      </memberdef>
+      <memberdef kind="function" id="group__MeshFixerGroup_1ga538e3992fb17dac0a5e4f140d86defef" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API Expected&lt; FaceBitSet &gt;</type>
+        <definition>MRMESH_API Expected&lt; FaceBitSet &gt; MR::findDisorientedFaces</definition>
+        <argsstring>(const Mesh &amp;mesh, const FindDisorientationParams &amp;params={})</argsstring>
+        <name>findDisorientedFaces</name>
+        <qualifiedname>MR::findDisorientedFaces</qualifiedname>
+        <param>
+          <type>const Mesh &amp;</type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type>const FindDisorientationParams &amp;</type>
+          <declname>params</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+<para>returns all faces that are oriented inconsistently, based on number of ray intersections </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" line="151" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshFixer.h" declline="151" declcolumn="22"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FunctionRef_3_01R_07Args_8_8_8_08_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::FunctionRef&lt; R(Args...)&gt;</compoundname>
+    <includes refid="MRFunctional_8h" local="no">MRFunctional.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename R</type>
+      </param>
+      <param>
+        <type>typename...</type>
+        <declname>Args</declname>
+        <defname>Args</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga6953116e58768c9529c08d31006850af" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga6b30f6f3547c9e78add14d420015c684" kind="variable"><name>callback_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" kind="function"><name>FunctionRef</name></member>
+      <member refid="group__GeneralGroup_1ga746f1a6b183b4e6ff2d6b3d1617ce2f0" kind="function"><name>FunctionRef</name></member>
+      <member refid="group__GeneralGroup_1gaee82bc107d81e4eb00555d53a3da4381" kind="function"><name>FunctionRef</name></member>
+      <member refid="group__GeneralGroup_1ga05f06d3436cf85a666543f93bc516284" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga4d911f9ae8f1bfe18be5cfe46e516ee4" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaa97ee917ff1e20f0094213f62d77ddac" kind="function"><name>swap</name></member>
+      <member refid="group__GeneralGroup_1ga9b0b284d121ed0238aac867a29ac105d" kind="function"><name>operator()</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Simplified implementation of std::function_ref from C++26. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref> can be used as a lightweight replacement for std::function in cases when:<itemizedlist>
+<listitem><para>a callable exists (there&apos;s no equivalent to <computeroutput>std::function( nullptr )</computeroutput>)</para>
+</listitem><listitem><para>a callable is passed to a function that calls it immediately or passes to another function of the same kind </para>
+</listitem></itemizedlist>
+</para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFunctional.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFunctional.h" bodystart="24" bodyend="83"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6b30f6f3547c9e78add14d420015c684" prot="private" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>callback_</name></member>
+      <member refid="group__GeneralGroup_1ga257060ec2f36661c4399283277b53fe5" prot="public" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>FunctionRef</name></member>
+      <member refid="group__GeneralGroup_1ga746f1a6b183b4e6ff2d6b3d1617ce2f0" prot="public" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>FunctionRef</name></member>
+      <member refid="group__GeneralGroup_1gaee82bc107d81e4eb00555d53a3da4381" prot="public" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>FunctionRef</name></member>
+      <member refid="group__GeneralGroup_1ga6953116e58768c9529c08d31006850af" prot="private" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga9b0b284d121ed0238aac867a29ac105d" prot="public" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga05f06d3436cf85a666543f93bc516284" prot="public" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga4d911f9ae8f1bfe18be5cfe46e516ee4" prot="public" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gaa97ee917ff1e20f0094213f62d77ddac" prot="public" virt="non-virtual"><scope>MR::FunctionRef&lt; R(Args...)&gt;</scope><name>swap</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

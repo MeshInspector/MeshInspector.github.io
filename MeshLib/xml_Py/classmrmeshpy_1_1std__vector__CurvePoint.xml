@@ -1,0 +1,605 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__CurvePoint" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_CurvePoint</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__CurvePoint_1a74cccd0a226c73a97f17ab5bef66ac2c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_CurvePoint::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.element_type_byte_size</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80391" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a2078449af36ae7a6db6f53c660480dcb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_CurvePoint.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80392" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80392" bodyend="80395"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a444aeabdc6820b2d9164b706dd3b84b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80397" bodyend="80400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a4b0e5fe8149205e002a372b8b5828846" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80402" bodyend="80405"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a93fd405bc25bce4b71e78927ebf7435e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__CurvePoint" kindref="compound">std_vector_CurvePoint</ref></type>
+        <definition> std_vector_CurvePoint mrmeshpy.std_vector_CurvePoint.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80407" bodyend="80410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a1c0e0722d19b98257cbdde54a10550b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+        <definition> CurvePoint mrmeshpy.std_vector_CurvePoint.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80412" bodyend="80413"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a08697c6081b50617a4a9bc557b8f6576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80415" bodyend="80416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a0ac4c5f8a9cd5675ffcbcd84b658e8a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80418" bodyend="80419"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1aa88535d8dd880a6ea5c5f4e690645dc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.__init__</definition>
+        <argsstring>(self, std_vector_CurvePoint arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__CurvePoint" kindref="compound">std_vector_CurvePoint</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80421" bodyend="80422"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a6591413a954032072ac9092e8fc24bda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref>]</type>
+        <definition> typing.Iterator[CurvePoint] mrmeshpy.std_vector_CurvePoint.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80423" bodyend="80424"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a947025d6dec2b53ffb12e00a0de3082b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_CurvePoint.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80425" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80425" bodyend="80426"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a6544237cb7e9ec867e6cc9dba542521b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.__setitem__</definition>
+        <argsstring>(self, int arg0, CurvePoint arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80428" bodyend="80429"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a1098db4bba9ad52723302493af415a1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_CurvePoint arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__CurvePoint" kindref="compound">std_vector_CurvePoint</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80431" bodyend="80434"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a51d311de10a2d0b26571cd299c2e311f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.append</definition>
+        <argsstring>(self, CurvePoint x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80435" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80435" bodyend="80438"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a45ec0ab1618fbde1560725cb282259a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80439" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80439" bodyend="80442"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a559aa5e78a71970b7c52539bbb47d8ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_CurvePoint.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80443" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80443" bodyend="80446"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a8ddc1392405c36823c083ae233fe2033" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_CurvePoint.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80447" bodyend="80448"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a59c5a6e8eedb765c26facb10525cba87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.extend</definition>
+        <argsstring>(self, std_vector_CurvePoint L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__CurvePoint" kindref="compound">std_vector_CurvePoint</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80450" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80450" bodyend="80453"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a1af4005677cdbe802068bbae7fa46423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80455" bodyend="80458"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a7a43001f0ec01fade691a97c846e10c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.insert</definition>
+        <argsstring>(self, int i, CurvePoint x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80459" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80459" bodyend="80462"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1ae2f1b694c1e5d0b77be66d896a3d36cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+        <definition> CurvePoint mrmeshpy.std_vector_CurvePoint.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80464" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80464" bodyend="80467"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1acc6385a2048bd52a076fdef64b4bf703" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+        <definition> CurvePoint mrmeshpy.std_vector_CurvePoint.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80469" bodyend="80472"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a4a06712a4c93df35abd13abf85128786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80474" bodyend="80475"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1ab62109e034be2cf528deff47bf56e65b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_CurvePoint.resize</definition>
+        <argsstring>(self, int arg0, CurvePoint arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1CurvePoint" kindref="compound">CurvePoint</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80477" bodyend="80478"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__CurvePoint_1a807d36ac7cff52f62b7d46b8d3d9661c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_CurvePoint.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_CurvePoint.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80479" bodyend="80480"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Aliases:  CurvePoints, CurvePoints, CurvePoints
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_CurvePoint</label>
+        <link refid="classmrmeshpy_1_1std__vector__CurvePoint"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="80387" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="80387" bodyend="80480"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a2078449af36ae7a6db6f53c660480dcb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a444aeabdc6820b2d9164b706dd3b84b4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a4b0e5fe8149205e002a372b8b5828846" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a93fd405bc25bce4b71e78927ebf7435e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a1c0e0722d19b98257cbdde54a10550b0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a08697c6081b50617a4a9bc557b8f6576" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a0ac4c5f8a9cd5675ffcbcd84b658e8a8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1aa88535d8dd880a6ea5c5f4e690645dc2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a6591413a954032072ac9092e8fc24bda" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a947025d6dec2b53ffb12e00a0de3082b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a6544237cb7e9ec867e6cc9dba542521b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a1098db4bba9ad52723302493af415a1a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a51d311de10a2d0b26571cd299c2e311f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a45ec0ab1618fbde1560725cb282259a4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a559aa5e78a71970b7c52539bbb47d8ef" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a74cccd0a226c73a97f17ab5bef66ac2c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a8ddc1392405c36823c083ae233fe2033" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a59c5a6e8eedb765c26facb10525cba87" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a1af4005677cdbe802068bbae7fa46423" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a7a43001f0ec01fade691a97c846e10c0" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1ae2f1b694c1e5d0b77be66d896a3d36cc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1acc6385a2048bd52a076fdef64b4bf703" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a4a06712a4c93df35abd13abf85128786" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1ab62109e034be2cf528deff47bf56e65b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__CurvePoint_1a807d36ac7cff52f62b7d46b8d3d9661c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_CurvePoint</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

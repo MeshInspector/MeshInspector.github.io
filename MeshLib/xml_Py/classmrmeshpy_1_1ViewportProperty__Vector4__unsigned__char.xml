@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ViewportProperty_Vector4_unsigned_char</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a0cebdd4c4e79ada0b8d286dee956d616" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Vector4_unsigned_char.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71848" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71848" bodyend="71849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a49cbed008aa268e97dd89298d322a1b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char" kindref="compound">ViewportProperty_Vector4_unsigned_char</ref></type>
+        <definition> ViewportProperty_Vector4_unsigned_char mrmeshpy.ViewportProperty_Vector4_unsigned_char.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71852" bodyend="71853"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a49cbed008aa268e97dd89298d322a1b8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char" kindref="compound">ViewportProperty_Vector4_unsigned_char</ref></type>
+        <definition> ViewportProperty_Vector4_unsigned_char mrmeshpy.ViewportProperty_Vector4_unsigned_char.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71856" bodyend="71857"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1ab92ee6c94c8c0ef3b1cd1b828849aa94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.ViewportProperty_Vector4_unsigned_char.__getitem__</definition>
+        <argsstring>(self, ViewportId id)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns direct access to value associated with given viewport (or default value if !id)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71858" bodyend="71861"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a1848ee0e40a4df17c725e55eebdff64c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Vector4_unsigned_char.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71863" bodyend="71864"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1ad107076bf9ac25080f87d466587d20fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Vector4_unsigned_char.__init__</definition>
+        <argsstring>(self, Vector4_unsigned_char def_)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>def_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71866" bodyend="71867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a92289a0f20078bde69993638df1cc255" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Vector4_unsigned_char.__init__</definition>
+        <argsstring>(self, ViewportProperty_Vector4_unsigned_char arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char" kindref="compound">ViewportProperty_Vector4_unsigned_char</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71869" bodyend="71872"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1adfcb2064e8be1cf5febd6f73959098c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Vector4_unsigned_char.__setitem__</definition>
+        <argsstring>(self, ViewportId arg0, Vector4_unsigned_char arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71873" bodyend="71874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1af25b90093e53f67e7b0a37b569734423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.ViewportProperty_Vector4_unsigned_char.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets default property value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71876" bodyend="71879"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1af25b90093e53f67e7b0a37b569734423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.ViewportProperty_Vector4_unsigned_char.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71881" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71881" bodyend="71882"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a8149cce56fe8f33c0ff742289282c372" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+        <definition> Vector4_unsigned_char mrmeshpy.ViewportProperty_Vector4_unsigned_char.get</definition>
+        <argsstring>(self, ViewportId id, bool_output isDef=None)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>isDef</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>gets property value for given viewport: specific if available otherwise default one;
+\\param isDef receives true if this viewport does not have specific value and default one is returned
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71884" bodyend="71888"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1aa99f86ece5458019533d069f5688ff28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_Vector4_unsigned_char.reset</definition>
+        <argsstring>(self, ViewportId id)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets specific property value for given viewport (or all viewports if !id);
+returns true if any specific value was removed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71890" bodyend="71894"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a1f81f6fb7457685eb8c986e13e6f0b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.ViewportProperty_Vector4_unsigned_char.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.reset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets specific property value for all viewports;
+returns true if any specific value was removed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71896" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71896" bodyend="71900"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1afbf3e11e84b6acbf659293631fe8d1e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Vector4_unsigned_char.set</definition>
+        <argsstring>(self, Vector4_unsigned_char def_)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.set</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>def_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets default property value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71902" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71902" bodyend="71905"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a62d7fae1452b6514c57b076ab24c3a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ViewportProperty_Vector4_unsigned_char.set</definition>
+        <argsstring>(self, Vector4_unsigned_char v, ViewportId id)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.ViewportProperty_Vector4_unsigned_char.set</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector4__unsigned__char" kindref="compound">Vector4_unsigned_char</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets specific property value for given viewport (or default value if !id)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71907" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71907" bodyend="71910"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ViewportProperty&lt;MR::Vector4&lt;unsigned char&gt;&gt;
+
+storage of some viewport-dependent property,
+which has some default value for all viewports and special values for some specific viewports
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="71839" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="71839" bodyend="71910"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1ab92ee6c94c8c0ef3b1cd1b828849aa94" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a0cebdd4c4e79ada0b8d286dee956d616" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a1848ee0e40a4df17c725e55eebdff64c" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1ad107076bf9ac25080f87d466587d20fa" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a92289a0f20078bde69993638df1cc255" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1adfcb2064e8be1cf5febd6f73959098c1" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1af25b90093e53f67e7b0a37b569734423" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1af25b90093e53f67e7b0a37b569734423" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a8149cce56fe8f33c0ff742289282c372" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a49cbed008aa268e97dd89298d322a1b8" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a49cbed008aa268e97dd89298d322a1b8" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1aa99f86ece5458019533d069f5688ff28" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a1f81f6fb7457685eb8c986e13e6f0b96" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1afbf3e11e84b6acbf659293631fe8d1e8" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1ViewportProperty__Vector4__unsigned__char_1a62d7fae1452b6514c57b076ab24c3a0e" prot="public" virt="non-virtual"><scope>mrmeshpy::ViewportProperty_Vector4_unsigned_char</scope><name>set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

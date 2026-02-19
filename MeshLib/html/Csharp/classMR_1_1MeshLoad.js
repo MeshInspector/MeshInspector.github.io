@@ -1,9 +1,7 @@
 var classMR_1_1MeshLoad =
 [
-    [ "MeshFileLoader", "../Cpp/group__IOFormatsRegistryGroup.html#gaf573976800f135f2ae1cc5430be86fb0", null ],
-    [ "MeshFileLoader", "../Cpp/group__IOFormatsRegistryGroup.html#gaf573976800f135f2ae1cc5430be86fb0", null ],
-    [ "MeshStreamLoader", "../Cpp/group__IOFormatsRegistryGroup.html#ga485ea6956850ab0f801b945739a8a9d3", null ],
-    [ "MeshStreamLoader", "../Cpp/group__IOFormatsRegistryGroup.html#ga485ea6956850ab0f801b945739a8a9d3", null ],
+    [ "NamedMesh", "classMR_1_1MeshLoad_1_1NamedMesh.html", "classMR_1_1MeshLoad_1_1NamedMesh" ],
+    [ "ObjLoadSettings", "classMR_1_1MeshLoad_1_1ObjLoadSettings.html", "classMR_1_1MeshLoad_1_1ObjLoadSettings" ],
     [ "fromAnyStl", "classMR_1_1MeshLoad.html#aa08b3cb60ecad8b7f08b7ec9a00e6a6d", null ],
     [ "fromAnyStl", "classMR_1_1MeshLoad.html#a09653ec5e1a7cc0cfc4f8106ecc4c933", null ],
     [ "fromAnySupportedFormat", "classMR_1_1MeshLoad.html#a4d7b22c18ce187cc9eaa4a08d075dddf", null ],

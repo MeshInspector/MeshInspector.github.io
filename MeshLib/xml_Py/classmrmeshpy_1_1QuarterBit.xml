@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1QuarterBit" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::QuarterBit</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1QuarterBit_1a0ac3850e0555d719ec2b08fa4db2bf9f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.QuarterBit::All</definition>
+        <argsstring></argsstring>
+        <name>All</name>
+        <qualifiedname>mrmeshpy.QuarterBit.All</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48762" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48762" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1QuarterBit_1afbcce32fbb5b07d6d3a9eaf40f61354b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.QuarterBit::LeftLeft</definition>
+        <argsstring></argsstring>
+        <name>LeftLeft</name>
+        <qualifiedname>mrmeshpy.QuarterBit.LeftLeft</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48763" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48763" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1QuarterBit_1aeb8c8aeb8f011c1aa620260c4df9e323" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.QuarterBit::LeftRight</definition>
+        <argsstring></argsstring>
+        <name>LeftRight</name>
+        <qualifiedname>mrmeshpy.QuarterBit.LeftRight</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48764" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48764" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1QuarterBit_1aa4ad18c2ecb8f22e2aa47c16e4943108" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.QuarterBit::RightLeft</definition>
+        <argsstring></argsstring>
+        <name>RightLeft</name>
+        <qualifiedname>mrmeshpy.QuarterBit.RightLeft</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48765" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1QuarterBit_1aa48661bad4e58c7f678d86e7ebef4c31" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.QuarterBit::RightRight</definition>
+        <argsstring></argsstring>
+        <name>RightRight</name>
+        <qualifiedname>mrmeshpy.QuarterBit.RightRight</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48766" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48766" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1QuarterBit_1a2139a4bda7cdd323fe3882150a3c0be8" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.QuarterBit::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48767" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48767" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1aab1bc70720809764d46e05739304767c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+        <definition> QuarterBit mrmeshpy.QuarterBit.__and__</definition>
+        <argsstring>(self, QuarterBit b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__and__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48768" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48768" bodyend="48769"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1afff6abd1a21da88400a4525529c1b129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.QuarterBit.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48770" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48770" bodyend="48771"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a9b39c5cc41a9fe59a2a7ef7083965dc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.QuarterBit.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48772" bodyend="48773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a6073db1308827f4f80cafd3a67352a23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.QuarterBit.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48774" bodyend="48775"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a77e39586d828a0aa983c02c8dd76500e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+        <definition> QuarterBit mrmeshpy.QuarterBit.__iand__</definition>
+        <argsstring>(self, QuarterBit b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__iand__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48776" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48776" bodyend="48777"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a3d3fb4fd240f91b33fc8b73e71ac761e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+        <definition> QuarterBit mrmeshpy.QuarterBit.__imatmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__imatmul__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__imatmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48778" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48778" bodyend="48779"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a34f99b36fd737c3ec3ff05163d66b424" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.QuarterBit.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48780" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48780" bodyend="48781"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a1316dfa9017296433e732a2cb202c9e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuarterBit.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48782" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48782" bodyend="48783"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a82d55d389eb6c0cd7d7e33e646459294" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.QuarterBit.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48784" bodyend="48785"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a8f917c9d975fe13725cdc70e1cb059f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+        <definition> QuarterBit mrmeshpy.QuarterBit.__invert__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__invert__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__invert__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48786" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48786" bodyend="48787"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a8794270a4aa5ff927b4a7c5680137056" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+        <definition> QuarterBit mrmeshpy.QuarterBit.__ior__</definition>
+        <argsstring>(self, QuarterBit b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__ior__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48788" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48788" bodyend="48789"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a76f1f44c78b13d584e16420d73ac0668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+        <definition> QuarterBit mrmeshpy.QuarterBit.__mul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48790" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48790" bodyend="48791"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a66d373534918f2954acffd3e37cdf16e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.QuarterBit.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48792" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48792" bodyend="48793"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a91d8be992bc54969032f47622a8c59b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+        <definition> QuarterBit mrmeshpy.QuarterBit.__or__</definition>
+        <argsstring>(self, QuarterBit b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__or__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48794" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48794" bodyend="48795"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a140c6a2e23ef7816bc2f2b8cea6acbe8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.QuarterBit.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48796" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48796" bodyend="48797"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a799a0b3517838ab72f1f27b5d0b8a11b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1QuarterBit" kindref="compound">QuarterBit</ref></type>
+        <definition> QuarterBit mrmeshpy.QuarterBit.__rmul__</definition>
+        <argsstring>(self, bool b)</argsstring>
+        <name>__rmul__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__rmul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48798" bodyend="48799"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1acbde39eb77ed65491035802bce2ccc86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.QuarterBit.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48800" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48800" bodyend="48801"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a9a23de305c0dec0fe46d14d1b3fdaabc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.QuarterBit.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.QuarterBit.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48802" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48802" bodyend="48803"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a7d7fd54b6b161cf8bc1265af1729b3ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.QuarterBit.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.QuarterBit.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48805" bodyend="48806"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1QuarterBit_1a529bcc572ae157410dc4649354eacba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.QuarterBit.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.QuarterBit.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48808" bodyend="48809"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  LeftLeft
+
+  LeftRight
+
+  RightLeft
+
+  RightRight
+
+  All
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.QuarterBit</label>
+        <link refid="classmrmeshpy_1_1QuarterBit"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>All</edgelabel>
+          <edgelabel>LeftLeft</edgelabel>
+          <edgelabel>LeftRight</edgelabel>
+          <edgelabel>RightLeft</edgelabel>
+          <edgelabel>RightRight</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="48748" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="48748" bodyend="48809"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1QuarterBit_1aab1bc70720809764d46e05739304767c" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1afff6abd1a21da88400a4525529c1b129" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a9b39c5cc41a9fe59a2a7ef7083965dc3" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a6073db1308827f4f80cafd3a67352a23" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a77e39586d828a0aa983c02c8dd76500e" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a3d3fb4fd240f91b33fc8b73e71ac761e" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__imatmul__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a34f99b36fd737c3ec3ff05163d66b424" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a1316dfa9017296433e732a2cb202c9e1" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a82d55d389eb6c0cd7d7e33e646459294" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a8f917c9d975fe13725cdc70e1cb059f8" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__invert__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a8794270a4aa5ff927b4a7c5680137056" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a2139a4bda7cdd323fe3882150a3c0be8" prot="private" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a76f1f44c78b13d584e16420d73ac0668" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a66d373534918f2954acffd3e37cdf16e" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a91d8be992bc54969032f47622a8c59b2" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a140c6a2e23ef7816bc2f2b8cea6acbe8" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a799a0b3517838ab72f1f27b5d0b8a11b" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__rmul__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1acbde39eb77ed65491035802bce2ccc86" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a9a23de305c0dec0fe46d14d1b3fdaabc" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a0ac3850e0555d719ec2b08fa4db2bf9f" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>All</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1afbcce32fbb5b07d6d3a9eaf40f61354b" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>LeftLeft</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1aeb8c8aeb8f011c1aa620260c4df9e323" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>LeftRight</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a7d7fd54b6b161cf8bc1265af1729b3ea" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1aa4ad18c2ecb8f22e2aa47c16e4943108" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>RightLeft</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1aa48661bad4e58c7f678d86e7ebef4c31" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>RightRight</name></member>
+      <member refid="classmrmeshpy_1_1QuarterBit_1a529bcc572ae157410dc4649354eacba0" prot="public" virt="non-virtual"><scope>mrmeshpy::QuarterBit</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

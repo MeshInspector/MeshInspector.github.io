@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1NoiseSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::NoiseSettings</compoundname>
+    <includes refid="MRAddNoise_8h" local="no">MRAddNoise.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga737d9ffe78cecf476dbba17c7a68e40d" kind="variable"><name>sigma</name></member>
+      <member refid="group__GeneralGroup_1ga81d588d7442ccd8974d74cb6dbaca36d" kind="variable"><name>seed</name></member>
+      <member refid="group__GeneralGroup_1ga414f4d6065c24f7db4605e0dac3362b8" kind="variable"><name>callback</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddNoise.h" bodystart="16" bodyend="21"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga414f4d6065c24f7db4605e0dac3362b8" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>callback</name></member>
+      <member refid="group__GeneralGroup_1ga81d588d7442ccd8974d74cb6dbaca36d" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>seed</name></member>
+      <member refid="group__GeneralGroup_1ga737d9ffe78cecf476dbba17c7a68e40d" prot="public" virt="non-virtual"><scope>MR::NoiseSettings</scope><name>sigma</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

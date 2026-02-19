@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsVolumeAccessor_3_01VoxelsVolume_3_01VoxelValueGetter_3_01T_01_4_01_4_01_4" kind="class" language="C++" prot="public">
+    <compoundname>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</compoundname>
+    <includes refid="MRVoxelsVolumeAccess_8h" local="no">MRVoxelsVolumeAccess.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gafa5d356ca19a2b095ffff01785c40ca7" kind="typedef"><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1gab406da39c22ff73d1e82a2ddfc0c7620" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1gae0fa19ac8a58bf4a8d329de67390f554" kind="variable"><name>cacheEffective</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gadec5e64aa6367f3c1b92edeaa4d43c3d" kind="variable"><name>data_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga50d289f159b1033b0ed5b96cb9c1ba93" kind="function"><name>VoxelsVolumeAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga6ed32adcefd945e4693d6e9df9094510" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga7b206116497819980e1bc33f9a1f0774" kind="function"><name>get</name></member>
+      <member refid="group__GeneralGroup_1gaa6f9ebabc5dfa1ceffc312fcb96895b7" kind="function"><name>shift</name></member>
+    </sectiondef>
+    <briefdescription>
+<para><ref refid="classMR_1_1VoxelsVolumeAccessor" kindref="compound">VoxelsVolumeAccessor</ref> specialization for value getters. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" line="102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeAccess.h" bodystart="103" bodyend="128"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae0fa19ac8a58bf4a8d329de67390f554" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>cacheEffective</name></member>
+      <member refid="group__GeneralGroup_1gadec5e64aa6367f3c1b92edeaa4d43c3d" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>data_</name></member>
+      <member refid="group__GeneralGroup_1ga6ed32adcefd945e4693d6e9df9094510" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga7b206116497819980e1bc33f9a1f0774" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1gaa6f9ebabc5dfa1ceffc312fcb96895b7" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>shift</name></member>
+      <member refid="group__GeneralGroup_1gab406da39c22ff73d1e82a2ddfc0c7620" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1gafa5d356ca19a2b095ffff01785c40ca7" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1ga50d289f159b1033b0ed5b96cb9c1ba93" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeAccessor&lt; VoxelsVolume&lt; VoxelValueGetter&lt; T &gt; &gt; &gt;</scope><name>VoxelsVolumeAccessor</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

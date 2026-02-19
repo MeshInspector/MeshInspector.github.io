@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ComputeSteepestDescentPathSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1abeef0c8285ccf40288d2e29938990e4f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ComputeSteepestDescentPathSettings::_offsetof_end</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_end</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings._offsetof_end</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10069" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10069" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a8d5a645a90a0bb61597edbab61350264" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ComputeSteepestDescentPathSettings::_offsetof_outBdReached</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outBdReached</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings._offsetof_outBdReached</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10070" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a92775e83eeb1fc5f6b698afe27bcdbb4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ComputeSteepestDescentPathSettings::_offsetof_outVertexReached</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_outVertexReached</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings._offsetof_outVertexReached</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10071" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a0ea89e5d3bb28e797e6c9a7bfa2b779c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSteepestDescentPathSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10074" bodyend="10075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a734f48bf17edfacc7fbd3cf68e5751c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings" kindref="compound">ComputeSteepestDescentPathSettings</ref></type>
+        <definition> ComputeSteepestDescentPathSettings mrmeshpy.ComputeSteepestDescentPathSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10078" bodyend="10079"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a734f48bf17edfacc7fbd3cf68e5751c5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings" kindref="compound">ComputeSteepestDescentPathSettings</ref></type>
+        <definition> ComputeSteepestDescentPathSettings mrmeshpy.ComputeSteepestDescentPathSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10082" bodyend="10083"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a48a02439ceded0aa80ced2e92a53ed72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSteepestDescentPathSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10085" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10085" bodyend="10086"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1aad7814a61b89b00f2dd8a00eae9785c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSteepestDescentPathSettings.__init__</definition>
+        <argsstring>(self, ComputeSteepestDescentPathSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings" kindref="compound">ComputeSteepestDescentPathSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10088" bodyend="10091"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1ae57bfe1b1be2a4ef84e188f8c2fe3126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSteepestDescentPathSettings.__init__</definition>
+        <argsstring>(self, MeshTriPoint end, VertId outVertexReached, EdgePoint outBdReached)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>outVertexReached</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>outBdReached</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10093" bodyend="10096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1afb4b948fc949df7a070bca1e7e392f0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.ComputeSteepestDescentPathSettings.end</definition>
+        <argsstring>(self)</argsstring>
+        <name>end</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.end</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if valid, then the descent is stopped as soon as same triangle with (end) is reached
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10098" bodyend="10101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1ab9659dd1c2c4df409e7454be79450639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSteepestDescentPathSettings.end</definition>
+        <argsstring>(self, MeshTriPoint arg1)</argsstring>
+        <name>end</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.end</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10103" bodyend="10104"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a96a2ea1afe57322d563160d7823a7b84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition> EdgePoint mrmeshpy.ComputeSteepestDescentPathSettings.outBdReached</definition>
+        <argsstring>(self)</argsstring>
+        <name>outBdReached</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.outBdReached</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not nullptr, then the descent is stopped as soon as any boundary point is reached, which is written in *outBdReached
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10106" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10106" bodyend="10109"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1aca0e8361a5b32795273def3162c14f6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSteepestDescentPathSettings.outBdReached</definition>
+        <argsstring>(self, EdgePoint arg1)</argsstring>
+        <name>outBdReached</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.outBdReached</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10111" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10111" bodyend="10112"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a1e18f283c5b4c34e4e078bbfc578d0bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.ComputeSteepestDescentPathSettings.outVertexReached</definition>
+        <argsstring>(self)</argsstring>
+        <name>outVertexReached</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.outVertexReached</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if not nullptr, then the descent is stopped as soon as any vertex is reached, which is written in *outVertexReached
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10114" bodyend="10117"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a42a1fdb753a1725f16356ab86e7b2393" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ComputeSteepestDescentPathSettings.outVertexReached</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>outVertexReached</name>
+        <qualifiedname>mrmeshpy.ComputeSteepestDescentPathSettings.outVertexReached</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10119" bodyend="10120"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ComputeSteepestDescentPathSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ComputeSteepestDescentPathSettings</label>
+        <link refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_end</edgelabel>
+          <edgelabel>_offsetof_outBdReached</edgelabel>
+          <edgelabel>_offsetof_outVertexReached</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="10065" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="10065" bodyend="10120"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a0ea89e5d3bb28e797e6c9a7bfa2b779c" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a48a02439ceded0aa80ced2e92a53ed72" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1aad7814a61b89b00f2dd8a00eae9785c5" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1ae57bfe1b1be2a4ef84e188f8c2fe3126" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1abeef0c8285ccf40288d2e29938990e4f" prot="protected" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>_offsetof_end</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a8d5a645a90a0bb61597edbab61350264" prot="protected" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>_offsetof_outBdReached</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a92775e83eeb1fc5f6b698afe27bcdbb4" prot="protected" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>_offsetof_outVertexReached</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1afb4b948fc949df7a070bca1e7e392f0c" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>end</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1ab9659dd1c2c4df409e7454be79450639" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>end</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a734f48bf17edfacc7fbd3cf68e5751c5" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a734f48bf17edfacc7fbd3cf68e5751c5" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a96a2ea1afe57322d563160d7823a7b84" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>outBdReached</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1aca0e8361a5b32795273def3162c14f6f" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>outBdReached</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a1e18f283c5b4c34e4e078bbfc578d0bd" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>outVertexReached</name></member>
+      <member refid="classmrmeshpy_1_1ComputeSteepestDescentPathSettings_1a42a1fdb753a1725f16356ab86e7b2393" prot="public" virt="non-virtual"><scope>mrmeshpy::ComputeSteepestDescentPathSettings</scope><name>outVertexReached</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

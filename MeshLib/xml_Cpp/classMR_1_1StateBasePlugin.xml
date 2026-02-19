@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1StateBasePlugin" kind="class" language="C++" prot="public">
+    <compoundname>MR::StateBasePlugin</compoundname>
+    <basecompoundref refid="classMR_1_1ViewerPlugin" prot="public" virt="non-virtual">MR::ViewerPlugin</basecompoundref>
+    <basecompoundref refid="classMR_1_1RibbonMenuItem" prot="public" virt="non-virtual">MR::RibbonMenuItem</basecompoundref>
+    <basecompoundref refid="classMR_1_1IPluginUpdate" prot="public" virt="virtual">MR::IPluginUpdate</basecompoundref>
+    <basecompoundref refid="classMR_1_1ISceneSelectionChange" prot="public" virt="virtual">MR::ISceneSelectionChange</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1StateListenerPlugin" prot="public" virt="non-virtual">MR::StateListenerPlugin&lt; Connectables &gt;</derivedcompoundref>
+    <includes refid="MRStatePlugin_8h" local="no">MRStatePlugin.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga3e0c7bd65afe7b25c1f4be31e13ea0c5" kind="variable"><name>plugin_name</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <member refid="group__GeneralGroup_1ga239e7ea5887cf228c8ea6a7eef781a2c" kind="variable"><name>isEnabled_</name></member>
+      <member refid="group__GeneralGroup_1ga1d97f71a0f325fbe29b0bbec3e564204" kind="variable"><name>dialogIsOpen_</name></member>
+      <member refid="group__GeneralGroup_1ga55b362aee5989fe359aadd33c9be78b4" kind="variable"><name>dialogIsCollapsed_</name></member>
+      <member refid="group__GeneralGroup_1gac3e8d3db81bf9d8a316c46e82f369980" kind="variable"><name>tab_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga36686d0a6dcae1a1bcce521d5db5e413" kind="function"><name>StateBasePlugin</name></member>
+      <member refid="group__GeneralGroup_1ga9a8917bb4527c6108a4ec176619d2990" kind="function"><name>~StateBasePlugin</name></member>
+      <member refid="group__GeneralGroup_1gaa3a6877967ca8f424ed261e43345bd26" kind="function"><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga2172655c98b73059ee0bfc8cb3115097" kind="function"><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gae7a96edadae63c78192e0f1f6b1f9db9" kind="function"><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1gaf0d68f675e98e0a1ceb44192eaf94a13" kind="function"><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gae7da0ed13a069a29ec8fac496e7aa065" kind="function"><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga12b5e139ab1d9458373e61c275e80457" kind="function"><name>enable</name></member>
+      <member refid="group__GeneralGroup_1gad91197be262f6b569d9234033d73bb8d" kind="function"><name>dialogIsOpen</name></member>
+      <member refid="group__GeneralGroup_1ga56d7b27cd916a3ec2fcf0bcb4b7e3d28" kind="function"><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1ga1962cf4397a96b2ffc12d9b23ab51cb6" kind="function"><name>setUIName</name></member>
+      <member refid="group__GeneralGroup_1ga54181a3e2d58070b748c4d49c721a0ea" kind="function"><name>getTab</name></member>
+      <member refid="group__GeneralGroup_1ga2cd5d2532aaf3a9fd7283d4bb24a638d" kind="function"><name>getTooltip</name></member>
+      <member refid="group__GeneralGroup_1gadede9d0773e7eff370bd78dc66a4c898" kind="function"><name>sortString</name></member>
+      <member refid="group__GeneralGroup_1ga730c0edb5aead3d67519512f5545bd63" kind="function"><name>checkStringMask</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga5c9e09293a48644029f129e878ececd6" kind="function"><name>UINameSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga1f81b6898ef7ea347c4639fb8d788bc8" kind="function"><name>getTabName</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1gaa1855ed7ea42bd976bee234e52655ffd" kind="function"><name>ImGuiBeginWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga653adb25964ffa5b7ca333c119b2e597" kind="function"><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga31980ff25e0e7e77cf8ace037ddd9f68" kind="function"><name>onDisable_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="6">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="4">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="8">
+        <label>MR::MoveObjectByMouse</label>
+        <link refid="classMR_1_1MoveObjectByMouse"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MR::SelectObjectByClick</label>
+        <link refid="classMR_1_1SelectObjectByClick"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MR::StateListenerPlugin&lt; Connectables &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::StateListenerPlugin&lt; DragStartListener, DragListener, DragEndListener, PostDrawListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>MR::StateListenerPlugin&lt; MouseDownListener, MouseUpListener, MouseMoveListener &gt;</label>
+        <link refid="classMR_1_1StateListenerPlugin"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="6">
+        <label>MR::IPluginUpdate</label>
+        <link refid="classMR_1_1IPluginUpdate"/>
+      </node>
+      <node id="7">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="5">
+        <label>MR::ISceneStateCheck</label>
+        <link refid="classMR_1_1ISceneStateCheck"/>
+      </node>
+      <node id="4">
+        <label>MR::RibbonMenuItem</label>
+        <link refid="classMR_1_1RibbonMenuItem"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::StateBasePlugin</label>
+        <link refid="classMR_1_1StateBasePlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="2">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" line="76" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePlugin.h" bodystart="81" bodyend="135"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga3e096e6d2e0ecf98e399691bd99c82f7" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gae7a96edadae63c78192e0f1f6b1f9db9" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>blocking</name></member>
+      <member refid="group__GeneralGroup_1ga730c0edb5aead3d67519512f5545bd63" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>checkStringMask</name></member>
+      <member refid="group__GeneralGroup_1ga55b362aee5989fe359aadd33c9be78b4" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>dialogIsCollapsed_</name></member>
+      <member refid="group__GeneralGroup_1gad91197be262f6b569d9234033d73bb8d" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>dialogIsOpen</name></member>
+      <member refid="group__GeneralGroup_1ga1d97f71a0f325fbe29b0bbec3e564204" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>dialogIsOpen_</name></member>
+      <member refid="group__GeneralGroup_1gaa3a6877967ca8f424ed261e43345bd26" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>drawDialog</name></member>
+      <member refid="group__GeneralGroup_1ga1141be44babb4a13201487188c332668" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>dropItems</name></member>
+      <member refid="group__GeneralGroup_1ga4799011be3410f46444164d6d00b966e" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>DropItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga2f25401d4b94a752bd63b79152673ab5" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>dropList_</name></member>
+      <member refid="group__GeneralGroup_1ga12b5e139ab1d9458373e61c275e80457" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>enable</name></member>
+      <member refid="group__GeneralGroup_1ga88f1487695e2012ebb1cacbc1a59775a" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>getDynamicTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga54181a3e2d58070b748c4d49c721a0ea" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>getTab</name></member>
+      <member refid="group__GeneralGroup_1ga1f81b6898ef7ea347c4639fb8d788bc8" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>getTabName</name></member>
+      <member refid="group__GeneralGroup_1ga2cd5d2532aaf3a9fd7283d4bb24a638d" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>getTooltip</name></member>
+      <member refid="group__GeneralGroup_1gaa1855ed7ea42bd976bee234e52655ffd" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>ImGuiBeginWindow_</name></member>
+      <member refid="group__GeneralGroup_1ga67916b512e8d54ee7cdb8ef1cb4f6794" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga2172655c98b73059ee0bfc8cb3115097" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>isActive</name></member>
+      <member refid="group__GeneralGroup_1gadedf10c80ddfebcb456559fa828065c0" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>isAvailable</name></member>
+      <member refid="group__GeneralGroup_1gae7da0ed13a069a29ec8fac496e7aa065" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>isEnabled</name></member>
+      <member refid="group__GeneralGroup_1ga239e7ea5887cf228c8ea6a7eef781a2c" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>isEnabled_</name></member>
+      <member refid="group__GeneralGroup_1ga957422a15704b2f8854bfd0b2d1ae76d" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>MR_DELETE_MOVE</name></member>
+      <member refid="group__GeneralGroup_1gabf4ea13c8983c44214b92a066e8b7659" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga31980ff25e0e7e77cf8ace037ddd9f68" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>onDisable_</name></member>
+      <member refid="group__GeneralGroup_1ga653adb25964ffa5b7ca333c119b2e597" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>onEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga0ac2f366f4785c61b991e9d38f1c12d1" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gac74a796b15f4842c135a9956d270caa3" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga3e0c7bd65afe7b25c1f4be31e13ea0c5" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>plugin_name</name></member>
+      <member refid="group__GeneralGroup_1ga6a79d0d76063de2f4947098cc9cb07a8" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1gad3e0eda49eae11a9fba79187c62e07bb" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1gaf417cbe66b6559e5df0122377c5a3628" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>setDropItemsFromItemList</name></member>
+      <member refid="group__GeneralGroup_1gab499c9049737793e6b1994048b99952c" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>setRibbonItemType</name></member>
+      <member refid="group__GeneralGroup_1ga1962cf4397a96b2ffc12d9b23ab51cb6" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>setUIName</name></member>
+      <member refid="group__GeneralGroup_1gab6e6e3dcf2ab382434fd967480164324" prot="protected" virt="virtual"><scope>MR::StateBasePlugin</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1gaf0d68f675e98e0a1ceb44192eaf94a13" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gadede9d0773e7eff370bd78dc66a4c898" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>sortString</name></member>
+      <member refid="group__GeneralGroup_1ga36686d0a6dcae1a1bcce521d5db5e413" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>StateBasePlugin</name></member>
+      <member refid="group__GeneralGroup_1gac3e8d3db81bf9d8a316c46e82f369980" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>tab_</name></member>
+      <member refid="group__GeneralGroup_1ga15b6a4b9f191b8716be1199364bb74e0" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>type</name></member>
+      <member refid="group__GeneralGroup_1ga00b402da6dbcec7d6c97b5c6a16e3924" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga56d7b27cd916a3ec2fcf0bcb4b7e3d28" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>uiName</name></member>
+      <member refid="group__GeneralGroup_1ga5c9e09293a48644029f129e878ececd6" prot="public" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>UINameSuffix</name></member>
+      <member refid="group__GeneralGroup_1ga0e5a18c4e15ba23a7536d1511cb823b6" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>updateSelection</name></member>
+      <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::StateBasePlugin</scope><name>viewer</name></member>
+      <member refid="group__GeneralGroup_1ga3a57e2a35ba84c0bdd2af8a0f162c5f3" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~IPluginUpdate</name></member>
+      <member refid="group__GeneralGroup_1ga46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~ISceneSelectionChange</name></member>
+      <member refid="group__GeneralGroup_1gad6d7bd5bc97dd4a629de5e0a33af3afe" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~ISceneStateCheck</name></member>
+      <member refid="group__GeneralGroup_1gac8074b75f1c764d041b11210b5b7541c" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~RibbonMenuItem</name></member>
+      <member refid="group__GeneralGroup_1ga9a8917bb4527c6108a4ec176619d2990" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~StateBasePlugin</name></member>
+      <member refid="group__GeneralGroup_1gad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::StateBasePlugin</scope><name>~ViewerPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeObjectAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeObjectAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeObjectAction_8h" local="no">MRChangeObjectAction.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga7e9aa61679bff304898e0c31cf066f72" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gac59492787127db09336835ff1d888317" kind="variable"><name>cloneObj_</name></member>
+      <member refid="group__GeneralGroup_1gade73b224a883f777ed593be691fe53c1" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga1fb57757d3858115a5eb58acce570d82" kind="function"><name>ChangeObjectAction</name></member>
+      <member refid="group__GeneralGroup_1ga657dce770efd0cbe3235515223438b7f" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gabae57c93f1aaa324cd73f0dd5a678718" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga74d98addc33191161e4cf6b9adaa55f2" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for object change </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeObjectAction</label>
+        <link refid="classMR_1_1ChangeObjectAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeObjectAction</label>
+        <link refid="classMR_1_1ChangeObjectAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectAction.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeObjectAction.h" bodystart="17" bodyend="67"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gabae57c93f1aaa324cd73f0dd5a678718" prot="public" virt="virtual"><scope>MR::ChangeObjectAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga1fb57757d3858115a5eb58acce570d82" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>ChangeObjectAction</name></member>
+      <member refid="group__GeneralGroup_1gac59492787127db09336835ff1d888317" prot="private" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>cloneObj_</name></member>
+      <member refid="group__GeneralGroup_1ga74d98addc33191161e4cf6b9adaa55f2" prot="public" virt="virtual"><scope>MR::ChangeObjectAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga657dce770efd0cbe3235515223438b7f" prot="public" virt="virtual"><scope>MR::ChangeObjectAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gade73b224a883f777ed593be691fe53c1" prot="private" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga7e9aa61679bff304898e0c31cf066f72" prot="private" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeObjectAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeObjectAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,728 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PointMeasurementObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PointMeasurementObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1MeasurementObject" prot="public" virt="non-virtual">mrmeshpy.MeasurementObject</basecompoundref>
+    <basecompoundref refid="classmrmeshpy_1_1ObjectComparableWithReference" prot="public" virt="non-virtual">mrmeshpy.ObjectComparableWithReference</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1ab52dac0c3e8a0c0901a35c88886e851a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44657" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44657" bodyend="44658"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a00896c199b1b2d96463b0c6a9a054f6c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44660" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44660" bodyend="44661"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1abfb76acc6684b6d225a64fb5189a0e82" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2fc458fce133a9ff45056ce820e23234">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44663" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44663" bodyend="44664"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a8493c2aba5fb659322bb9a2cf620027e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointMeasurementObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44665" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44665" bodyend="44666"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a7b904107153f77a33559f8d5d5970c1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44667" bodyend="44668"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a7e9882cb27436d06921ee4a6caf059b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44669" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44669" bodyend="44670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1abe8c45473a7e958c91029cbbc5372868" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.PointMeasurementObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44671" bodyend="44672"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a745fd51a8b22a4af6a7742e0a2d3edd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointMeasurementObject.comparisonToleranceIsAlwaysOnlyPositive</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>comparisonToleranceIsAlwaysOnlyPositive</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.comparisonToleranceIsAlwaysOnlyPositive</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1a9a693f13fd7c752a7daed86225899a5f">comparisonToleranceIsAlwaysOnlyPositive</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If true, indicates that the getter will always return zero negative tolerance, and the setter will ignore the negative tolerance.
+`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44673" bodyend="44674"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1accc37a4c85c0fe98e5b2db7f72a6f733" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparableProperty" kindref="compound">ObjectComparableWithReference.ComparableProperty</ref></type>
+        <definition> ObjectComparableWithReference.ComparableProperty mrmeshpy.PointMeasurementObject.computeComparableProperty</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>computeComparableProperty</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.computeComparableProperty</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1a449cb6f1b760e736ce355c53f23b312e">computeComparableProperty</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Compute a value of a property.
+Compare `value` and `referenceValue` using the tolerance.
+This can return null if the value is impossible to compute, e.g. for some types if the reference isn&apos;t set (e.g. if
+  we&apos;re computing the distance to a reference point).
+`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44675" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44675" bodyend="44676"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a4dadd47e638556e61c5a29b5580f8989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
+        <definition> std_vector_ViewportMask mrmeshpy.PointMeasurementObject.getAllVisualizeProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.getAllVisualizeProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a99a68c12bda4b4c07f5ba725b2b2af59">getAllVisualizeProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get all visualize properties masks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44677" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44677" bodyend="44678"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aaa198fef1ec3330ca285f8f471e04854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementObject.getComparablePropertyName</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getComparablePropertyName</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.getComparablePropertyName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1a94fe811c22ab8aa980dbebd48b4de4e0">getComparablePropertyName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44679" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44679" bodyend="44680"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1abb3985d0192fe7475ce82cfb90615e44" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonReferenceValue" kindref="compound">ObjectComparableWithReference.ComparisonReferenceValue</ref></type>
+        <definition> ObjectComparableWithReference.ComparisonReferenceValue mrmeshpy.PointMeasurementObject.getComparisonReferenceValue</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getComparisonReferenceValue</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.getComparisonReferenceValue</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1a1ec3f866f2d40e2210b362875b63f0af">getComparisonReferenceValue</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the internal reference value.
+If the value wasn&apos;t set yet (as indicated by `isSet == false`), you can still use the returned variant to get the expected type.
+`i` goes up to `numComparisonReferenceValues()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44681" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44681" bodyend="44682"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a4794eb47143ab4665975d4882c35e984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementObject.getComparisonReferenceValueName</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getComparisonReferenceValueName</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.getComparisonReferenceValueName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1a46aa797b7e6526af86e7398d59518d4d">getComparisonReferenceValueName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>`i` goes up to `numComparisonReferenceValues()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44683" bodyend="44684"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a5bc6b4ec727fba31cd201bf860b728c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectComparableWithReference_1_1ComparisonTolerance" kindref="compound">ObjectComparableWithReference.ComparisonTolerance</ref></type>
+        <definition> ObjectComparableWithReference.ComparisonTolerance mrmeshpy.PointMeasurementObject.getComparisonTolerence</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>getComparisonTolerence</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.getComparisonTolerence</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1a6d0dd1c5733292e7a823b22d5caaf9a3">getComparisonTolerence</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the tolerance for a specific comparable property. Returns null if not set.
+`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44685" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44685" bodyend="44686"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a2c6822e4daa70b5f92f78fe935659b04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PointMeasurementObject.getLocalPoint</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getLocalPoint</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.getLocalPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>calculates point from xf
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44687" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44687" bodyend="44690"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1acaa5b3e199357ccbafaf6857cef88102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition> ViewportMask mrmeshpy.PointMeasurementObject.getVisualizePropertyMask</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.getVisualizePropertyMask</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a936f4ea388564c3dc033b5abb39993f4">getVisualizePropertyMask</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns mask of viewports where given property is set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44691" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44691" bodyend="44692"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a372a1a86d9520e668ca192b95d18f6de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.PointMeasurementObject.getWorldPoint</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getWorldPoint</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.getWorldPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44693" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44693" bodyend="44694"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1af113895d049f61639116bcc55f20c18b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PointMeasurementObject.numComparableProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>numComparableProperties</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.numComparableProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1a91bbbf28972f451f9a6453e53662dc50">numComparableProperties</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implement `ObjectComparableWithReference`:
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44695" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44695" bodyend="44698"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aaecc4576780e5dd197092de66b65eb52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PointMeasurementObject.numComparisonReferenceValues</definition>
+        <argsstring>(self)</argsstring>
+        <name>numComparisonReferenceValues</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.numComparisonReferenceValues</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1a0095fef2bf196a155da6270e100367c1">numComparisonReferenceValues</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This returns 2: the point, and the optional normal direction. The normal doesn&apos;t need to be normalized, its length doesn&apos;t affect calculations.
+If the normal isn&apos;t specified, the Euclidean distance gets used.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44699" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44699" bodyend="44703"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aa5035b534508ad1aea7878908e596845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointMeasurementObject.setComparisonReferenceValue</definition>
+        <argsstring>(self, int i, std_optional_std_variant_float_Vector3_float value)</argsstring>
+        <name>setComparisonReferenceValue</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.setComparisonReferenceValue</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1a45a4e8483c68d3235a3bdd8ea05f11a7">setComparisonReferenceValue</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__std__variant__float__Vector3__float" kindref="compound">std_optional_std_variant_float_Vector3_float</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets the internal reference value. Makes `hasComparisonReferenceValue()` return true.
+If you pass nullopt, removes this reference value.
+Only a certain variant type is legal to pass, depending on the derived class and the index. Use `getComparisonReferenceValue()` to determine that type.
+`i` goes up to `numComparisonReferenceValues()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44704" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44704" bodyend="44705"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a5c502ea504e393cc4ed2f1dee3b1edf0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointMeasurementObject.setComparisonTolerance</definition>
+        <argsstring>(self, int i, std_optional_ObjectComparableWithReference_ComparisonTolerance newTolerance)</argsstring>
+        <name>setComparisonTolerance</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.setComparisonTolerance</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1ObjectComparableWithReference_1abc9240a99ba821dd077b5f35a6065176">setComparisonTolerance</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__optional__ObjectComparableWithReference__ComparisonTolerance" kindref="compound">std_optional_ObjectComparableWithReference_ComparisonTolerance</ref></type>
+          <declname>newTolerance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets the tolerance for a specific comparable property.
+`i` goes up to `numComparableProperties()`, exclusive.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44706" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44706" bodyend="44707"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a9dea6461fa932229bf97af2325698498" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointMeasurementObject.setLocalPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>setLocalPoint</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.setLocalPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>updates xf to fit given point
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44708" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44708" bodyend="44711"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a2dae317d915ed3d85f623ddd17f41525" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PointMeasurementObject.setWorldPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>setWorldPoint</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.setWorldPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44712" bodyend="44713"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aaa720c51c066293abe68efa3b0d3737d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.PointMeasurementObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44714" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44714" bodyend="44715"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1aa3230af9f93805874bd860d59bf78c85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PointMeasurementObject.supportsVisualizeProperty</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.supportsVisualizeProperty</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1af397dd03ebfb70c972d3c4b39e52fc51">supportsVisualizeProperty</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if this class supports the property `type`. Otherwise passing it to the functions below is illegal.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44716" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44716" bodyend="44717"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PointMeasurementObject_1a09139b86ecb13053fd45bf8ca3549f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PointMeasurementObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.PointMeasurementObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a0e188ed95f73756841030840741720e9">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44718" bodyend="44719"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PointMeasurementObject
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.PointMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1PointMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeasurementObject</label>
+        <link refid="classmrmeshpy_1_1MeasurementObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectComparableWithReference</label>
+        <link refid="classmrmeshpy_1_1ObjectComparableWithReference"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PointMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1PointMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeasurementObject</label>
+        <link refid="classmrmeshpy_1_1MeasurementObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.ObjectComparableWithReference</label>
+        <link refid="classmrmeshpy_1_1ObjectComparableWithReference"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="44652" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="44652" bodyend="44719"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a8493c2aba5fb659322bb9a2cf620027e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a7b904107153f77a33559f8d5d5970c1e" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a7e9882cb27436d06921ee4a6caf059b8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1abe8c45473a7e958c91029cbbc5372868" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a745fd51a8b22a4af6a7742e0a2d3edd8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>comparisonToleranceIsAlwaysOnlyPositive</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1accc37a4c85c0fe98e5b2db7f72a6f733" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>computeComparableProperty</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a4dadd47e638556e61c5a29b5580f8989" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1aaa198fef1ec3330ca285f8f471e04854" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getComparablePropertyName</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1abb3985d0192fe7475ce82cfb90615e44" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getComparisonReferenceValue</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a4794eb47143ab4665975d4882c35e984" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getComparisonReferenceValueName</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a5bc6b4ec727fba31cd201bf860b728c8" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getComparisonTolerence</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a2c6822e4daa70b5f92f78fe935659b04" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1acaa5b3e199357ccbafaf6857cef88102" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a372a1a86d9520e668ca192b95d18f6de" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1af113895d049f61639116bcc55f20c18b" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>numComparableProperties</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1aaecc4576780e5dd197092de66b65eb52" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>numComparisonReferenceValues</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1aa5035b534508ad1aea7878908e596845" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a5c502ea504e393cc4ed2f1dee3b1edf0" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setComparisonTolerance</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a9dea6461fa932229bf97af2325698498" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setLocalPoint</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a2dae317d915ed3d85f623ddd17f41525" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>setWorldPoint</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1aaa720c51c066293abe68efa3b0d3737d" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1ab52dac0c3e8a0c0901a35c88886e851a" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a00896c199b1b2d96463b0c6a9a054f6c" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1abfb76acc6684b6d225a64fb5189a0e82" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1aa3230af9f93805874bd860d59bf78c85" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1PointMeasurementObject_1a09139b86ecb13053fd45bf8ca3549f33" prot="public" virt="non-virtual"><scope>mrmeshpy::PointMeasurementObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

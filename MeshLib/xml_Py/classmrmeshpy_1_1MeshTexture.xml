@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshTexture" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshTexture</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1Image" prot="public" virt="non-virtual">mrmeshpy.Image</basecompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshTexture_1a3b1fee8e322e1c89932d57bd050a3b24" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshTexture::_offsetof_filter</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_filter</name>
+        <qualifiedname>mrmeshpy.MeshTexture._offsetof_filter</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34470" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34470" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshTexture_1a41e7b2e035e8ff4358ae60abd286114a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshTexture::_offsetof_wrap</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_wrap</name>
+        <qualifiedname>mrmeshpy.MeshTexture._offsetof_wrap</qualifiedname>
+        <initializer>=  33</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34471" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34471" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTexture_1a8bea5b69f18f560ca0f9418b836ff7c9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTexture.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTexture.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Image_1aebd6e8cec8e9ad6999b89b27a22009ca">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34476" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34476" bodyend="34477"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTexture_1a2288fceb91839af8734887985449314c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+        <definition> MeshTexture mrmeshpy.MeshTexture.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshTexture.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Image_1a342b21930a321bfe8105f94d0fa1fc60">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34480" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34480" bodyend="34481"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTexture_1a2288fceb91839af8734887985449314c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+        <definition> MeshTexture mrmeshpy.MeshTexture.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshTexture.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Image_1a342b21930a321bfe8105f94d0fa1fc60">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34484" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34484" bodyend="34485"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTexture_1af09bbf48e1565b2890137a0a99d97169" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTexture.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTexture.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Image_1aebd6e8cec8e9ad6999b89b27a22009ca">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34487" bodyend="34488"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTexture_1a61aa58f7b97e9b346fb976261c25f0e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTexture.__init__</definition>
+        <argsstring>(self, MeshTexture arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTexture.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Image_1aebd6e8cec8e9ad6999b89b27a22009ca">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTexture" kindref="compound">MeshTexture</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34490" bodyend="34493"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshTexture
+Aliases:  std_vector_MeshTexture_const_reference, Vector_MeshTexture_TextureId.const_reference, std_vector_MeshTexture_value_type, Vector_MeshTexture_TextureId.value_type, Vector_MeshTexture_TextureId.reference, std_vector_MeshTexture_reference
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.MeshTexture</label>
+        <link refid="classmrmeshpy_1_1MeshTexture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Image</label>
+        <link refid="classmrmeshpy_1_1Image"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshTexture</label>
+        <link refid="classmrmeshpy_1_1MeshTexture"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_filter</edgelabel>
+          <edgelabel>_offsetof_wrap</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Image</label>
+        <link refid="classmrmeshpy_1_1Image"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_pixels</edgelabel>
+          <edgelabel>_offsetof_resolution</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34465" bodyend="34493"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshTexture_1a8bea5b69f18f560ca0f9418b836ff7c9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTexture</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTexture_1af09bbf48e1565b2890137a0a99d97169" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTexture</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTexture_1a61aa58f7b97e9b346fb976261c25f0e6" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTexture</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTexture_1a3b1fee8e322e1c89932d57bd050a3b24" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshTexture</scope><name>_offsetof_filter</name></member>
+      <member refid="classmrmeshpy_1_1MeshTexture_1a41e7b2e035e8ff4358ae60abd286114a" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshTexture</scope><name>_offsetof_wrap</name></member>
+      <member refid="classmrmeshpy_1_1MeshTexture_1a2288fceb91839af8734887985449314c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTexture</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshTexture_1a2288fceb91839af8734887985449314c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTexture</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,220 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VolumeToMeshByPartsSettings" kind="class" language="C#" prot="private">
+    <compoundname>MR::VolumeToMeshByPartsSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_VolumeToMeshByPartsSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1VolumeToMeshByPartsSettings_1a163f6e7c21782c5264f775a766084997" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref ulong</type>
+        <definition>new unsafe ref ulong MR.VolumeToMeshByPartsSettings.maxVolumePartMemoryUsage</definition>
+        <argsstring></argsstring>
+        <name>maxVolumePartMemoryUsage</name>
+        <qualifiedname>MR.VolumeToMeshByPartsSettings.maxVolumePartMemoryUsage</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="432" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="432" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1VolumeToMeshByPartsSettings_1a0e0d29b2a60329aef9c36da2e271a664" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref ulong</type>
+        <definition>new unsafe ref ulong MR.VolumeToMeshByPartsSettings.stripeOverlap</definition>
+        <argsstring></argsstring>
+        <name>stripeOverlap</name>
+        <qualifiedname>MR.VolumeToMeshByPartsSettings.stripeOverlap</qualifiedname>
+        <briefdescription>
+<para>overlap in voxels between two parts </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="435" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="435" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1VolumeToMeshByPartsSettings_1a4eb195d034a1ddb64c6fca556aa74a0e" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>VolumeToMeshByPartsSettings</name>
+        <qualifiedname>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="439" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="439" bodyend="443"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1VolumeToMeshByPartsSettings_1a929e3c17d8d3b7483359cf9259c83631" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</definition>
+        <argsstring>()</argsstring>
+        <name>VolumeToMeshByPartsSettings</name>
+        <qualifiedname>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="449" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="449" bodyend="455"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeToMeshByPartsSettings_1a97b3bb73b46315798af949efaa63bfd8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</definition>
+        <argsstring>(ulong maxVolumePartMemoryUsage, ulong stripeOverlap)</argsstring>
+        <name>VolumeToMeshByPartsSettings</name>
+        <qualifiedname>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>maxVolumePartMemoryUsage</declname>
+        </param>
+        <param>
+          <type>ulong</type>
+          <declname>stripeOverlap</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput>MR.VolumeToMeshByPartsSettings</computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="460" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="460" bodyend="466"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeToMeshByPartsSettings_1a8f4d7d86fce662df10ada73e96beef38" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</definition>
+        <argsstring>(MR.Const_VolumeToMeshByPartsSettings _other)</argsstring>
+        <name>VolumeToMeshByPartsSettings</name>
+        <qualifiedname>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</qualifiedname>
+        <param>
+          <type>MR.Const_VolumeToMeshByPartsSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="471" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="471" bodyend="478"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeToMeshByPartsSettings_1a2bf3c77f8a2e3e8d91daed6dcd4804f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</definition>
+        <argsstring>(VolumeToMeshByPartsSettings _other)</argsstring>
+        <name>VolumeToMeshByPartsSettings</name>
+        <qualifiedname>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</qualifiedname>
+        <param>
+          <type>VolumeToMeshByPartsSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.VolumeToMeshByPartsSettings.VolumeToMeshByPartsSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="483" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="483" bodyend="483"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1VolumeToMeshByPartsSettings_1a6454695412cd97936453f13bac1be30d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe MR.VolumeToMeshByPartsSettings</type>
+        <definition>unsafe MR.VolumeToMeshByPartsSettings MR.VolumeToMeshByPartsSettings.assign</definition>
+        <argsstring>(MR.Const_VolumeToMeshByPartsSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.VolumeToMeshByPartsSettings.assign</qualifiedname>
+        <param>
+          <type>MR.Const_VolumeToMeshByPartsSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.VolumeToMeshByPartsSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="488" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" bodystart="488" bodyend="495"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters&apos; structure for MR.volumeToMeshByParts. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="see"><para>volumeToMeshByParts Generated from class <computeroutput>MR.VolumeToMeshByPartsSettings</computeroutput>. This is the const half of the class.</para>
+</simplesect>
+<simplesect kind="see"><para>volumeToMeshByParts Generated from class <computeroutput>MR.VolumeToMeshByPartsSettings</computeroutput>. This is the non-const half of the class. </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_VolumeToMeshByPartsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VolumeToMeshByPartsSettings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VolumeToMeshByPartsSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_VolumeToMeshByPartsSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.VolumeToMeshByPartsSettings</label>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_VolumeToMeshByPartsSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsConversionsByParts.cs" line="429" column="11"/>
+    <listofallmembers>
+      <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a6454695412cd97936453f13bac1be30d" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a163f6e7c21782c5264f775a766084997" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>maxVolumePartMemoryUsage</name></member>
+      <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a0e0d29b2a60329aef9c36da2e271a664" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>stripeOverlap</name></member>
+      <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a4eb195d034a1ddb64c6fca556aa74a0e" prot="package" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>VolumeToMeshByPartsSettings</name></member>
+      <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a929e3c17d8d3b7483359cf9259c83631" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>VolumeToMeshByPartsSettings</name></member>
+      <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a97b3bb73b46315798af949efaa63bfd8" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>VolumeToMeshByPartsSettings</name></member>
+      <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a8f4d7d86fce662df10ada73e96beef38" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>VolumeToMeshByPartsSettings</name></member>
+      <member refid="classMR_1_1VolumeToMeshByPartsSettings_1a2bf3c77f8a2e3e8d91daed6dcd4804f3" prot="public" virt="non-virtual"><scope>MR::VolumeToMeshByPartsSettings</scope><name>VolumeToMeshByPartsSettings</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

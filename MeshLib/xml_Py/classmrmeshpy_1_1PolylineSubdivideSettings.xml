@@ -1,0 +1,688 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PolylineSubdivideSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PolylineSubdivideSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineSubdivideSettings_1addc14db2c45419c1a13174aeec91d37a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineSubdivideSettings::_offsetof_maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings._offsetof_maxEdgeLen</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46803" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineSubdivideSettings_1ac9c7649abbf53f5ad0f6b3f66883886d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineSubdivideSettings::_offsetof_maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxEdgeSplits</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings._offsetof_maxEdgeSplits</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46804" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a36551377c2186ead263b85bc21f2f96d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineSubdivideSettings::_offsetof_newVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_newVerts</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings._offsetof_newVerts</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46805" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a532c06d9a859098cd8addcc03ab6148d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineSubdivideSettings::_offsetof_onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onEdgeSplit</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings._offsetof_onEdgeSplit</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46806" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46806" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a09f73733e50392312176651fb3235ee2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineSubdivideSettings::_offsetof_onVertCreated</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onVertCreated</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings._offsetof_onVertCreated</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46807" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46807" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineSubdivideSettings_1af3d1cc34665cab5adce9ac64ba1b633c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineSubdivideSettings::_offsetof_progressCallback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progressCallback</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings._offsetof_progressCallback</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46808" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineSubdivideSettings_1aa5cf627e4557f8ac150600274d7afc63" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineSubdivideSettings::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings._offsetof_region</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46809" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a64b8755baf375ec4083ad59054207d2c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineSubdivideSettings::_offsetof_useCurvature</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_useCurvature</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings._offsetof_useCurvature</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46810" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1ad0ec91d06d4e6e85a5eecdfbc803e7a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46813" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46813" bodyend="46814"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1abf2ef43cecceb50ded5a8db536219d6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineSubdivideSettings" kindref="compound">PolylineSubdivideSettings</ref></type>
+        <definition> PolylineSubdivideSettings mrmeshpy.PolylineSubdivideSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46817" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46817" bodyend="46818"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1abf2ef43cecceb50ded5a8db536219d6a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineSubdivideSettings" kindref="compound">PolylineSubdivideSettings</ref></type>
+        <definition> PolylineSubdivideSettings mrmeshpy.PolylineSubdivideSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46821" bodyend="46822"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a82fdc678e5527882194618385687812c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46824" bodyend="46825"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a2c563a78795e98e972a7171427fa9261" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.__init__</definition>
+        <argsstring>(self, PolylineSubdivideSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineSubdivideSettings" kindref="compound">PolylineSubdivideSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46827" bodyend="46830"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a78fe777cc3feb93b0b614571cd7f7028" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.__init__</definition>
+        <argsstring>(self, float maxEdgeLen, int maxEdgeSplits, VertBitSet region, VertBitSet newVerts, bool useCurvature, func_void_from_Id_VertTag onVertCreated, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeSplit, func_bool_from_float progressCallback)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxEdgeLen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxEdgeSplits</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>newVerts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useCurvature</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__VertTag" kindref="compound">func_void_from_Id_VertTag</ref></type>
+          <declname>onVertCreated</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>onEdgeSplit</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progressCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46832" bodyend="46835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a28eb7a84285b8ebe39d67368a0d3ac4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.PolylineSubdivideSettings.maxEdgeLen</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.maxEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Subdivision is stopped when all edges are not longer than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46837" bodyend="46840"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1aed099f29be5db5ec1b190d5d1a362e72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.maxEdgeLen</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.maxEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46842" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46842" bodyend="46843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a2ad28af449203592f53f90b369f4a5e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PolylineSubdivideSettings.maxEdgeSplits</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.maxEdgeSplits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximum number of edge splits allowed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46845" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46845" bodyend="46848"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a72d2529f28271270178bcaf887fdc2a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.maxEdgeSplits</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.maxEdgeSplits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46850" bodyend="46851"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1ab1f56e6072bc45c5b778a81ca5c6d318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.PolylineSubdivideSettings.newVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>newVerts</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.newVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>New vertices appeared during subdivision will be added here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46853" bodyend="46856"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a509f5ea5db2b68d71ceb79d63dc85b85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.newVerts</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>newVerts</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.newVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46858" bodyend="46859"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a532f5b387c4f00988a4ad2db3a34700e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+        <definition> func_void_from_Id_EdgeTag_Id_EdgeTag mrmeshpy.PolylineSubdivideSettings.onEdgeSplit</definition>
+        <argsstring>(self)</argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.onEdgeSplit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this function is called each time edge (e) is split into (e1-&gt;e)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46861" bodyend="46864"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1aa5dd76daaf44c8e09e043a31883cd00c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.onEdgeSplit</definition>
+        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag arg1)</argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.onEdgeSplit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46866" bodyend="46867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a97b559714d080e65b870dcc840eac56f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__VertTag" kindref="compound">func_void_from_Id_VertTag</ref></type>
+        <definition> func_void_from_Id_VertTag mrmeshpy.PolylineSubdivideSettings.onVertCreated</definition>
+        <argsstring>(self)</argsstring>
+        <name>onVertCreated</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.onVertCreated</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this function is called each time a new vertex has been created
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46869" bodyend="46872"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a51c5f9f47022cbdc346495f899eb7014" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.onVertCreated</definition>
+        <argsstring>(self, func_void_from_Id_VertTag arg1)</argsstring>
+        <name>onVertCreated</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.onVertCreated</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__VertTag" kindref="compound">func_void_from_Id_VertTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46874" bodyend="46875"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a955282a93e28d2c75aaca5468d0d4aa2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.PolylineSubdivideSettings.progressCallback</definition>
+        <argsstring>(self)</argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.progressCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback to report algorithm progress and cancel it by user request
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46877" bodyend="46880"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a42395eb28387ab71b400baeeef85071f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.progressCallback</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.progressCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46882" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46882" bodyend="46883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a6be52e6c390705b75ed3bfea2f622fef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.PolylineSubdivideSettings.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Region on polyline to be subdivided: both edge vertices must be there to allow spitting,
+it is updated during the operation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46885" bodyend="46889"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a26c6c0f6cad8b14447347dfb79914f36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.region</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46891" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46891" bodyend="46892"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a3aa56b6be8285f9553da864fc8b283b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PolylineSubdivideSettings.useCurvature</definition>
+        <argsstring>(self)</argsstring>
+        <name>useCurvature</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.useCurvature</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This option works best for natural lines, where all segments have similar size,
+and no sharp angles in between
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46894" bodyend="46898"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineSubdivideSettings_1a5edc353904b07a2e362d0fd12bb79972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineSubdivideSettings.useCurvature</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>useCurvature</name>
+        <qualifiedname>mrmeshpy.PolylineSubdivideSettings.useCurvature</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46900" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46900" bodyend="46901"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PolylineSubdivideSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PolylineSubdivideSettings</label>
+        <link refid="classmrmeshpy_1_1PolylineSubdivideSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_maxEdgeLen</edgelabel>
+          <edgelabel>_offsetof_maxEdgeSplits</edgelabel>
+          <edgelabel>_offsetof_newVerts</edgelabel>
+          <edgelabel>_offsetof_onEdgeSplit</edgelabel>
+          <edgelabel>_offsetof_onVertCreated</edgelabel>
+          <edgelabel>_offsetof_progressCallback</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_useCurvature</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46799" bodyend="46901"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1ad0ec91d06d4e6e85a5eecdfbc803e7a6" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a82fdc678e5527882194618385687812c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a2c563a78795e98e972a7171427fa9261" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a78fe777cc3feb93b0b614571cd7f7028" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1addc14db2c45419c1a13174aeec91d37a" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>_offsetof_maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1ac9c7649abbf53f5ad0f6b3f66883886d" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>_offsetof_maxEdgeSplits</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a36551377c2186ead263b85bc21f2f96d" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>_offsetof_newVerts</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a532c06d9a859098cd8addcc03ab6148d" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>_offsetof_onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a09f73733e50392312176651fb3235ee2" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>_offsetof_onVertCreated</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1af3d1cc34665cab5adce9ac64ba1b633c" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>_offsetof_progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1aa5cf627e4557f8ac150600274d7afc63" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a64b8755baf375ec4083ad59054207d2c" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>_offsetof_useCurvature</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a28eb7a84285b8ebe39d67368a0d3ac4f" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1aed099f29be5db5ec1b190d5d1a362e72" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a2ad28af449203592f53f90b369f4a5e3" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a72d2529f28271270178bcaf887fdc2a4" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1ab1f56e6072bc45c5b778a81ca5c6d318" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>newVerts</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a509f5ea5db2b68d71ceb79d63dc85b85" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>newVerts</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a532f5b387c4f00988a4ad2db3a34700e" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1aa5dd76daaf44c8e09e043a31883cd00c" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a97b559714d080e65b870dcc840eac56f" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>onVertCreated</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a51c5f9f47022cbdc346495f899eb7014" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>onVertCreated</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1abf2ef43cecceb50ded5a8db536219d6a" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1abf2ef43cecceb50ded5a8db536219d6a" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a955282a93e28d2c75aaca5468d0d4aa2" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a42395eb28387ab71b400baeeef85071f" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a6be52e6c390705b75ed3bfea2f622fef" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a26c6c0f6cad8b14447347dfb79914f36" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a3aa56b6be8285f9553da864fc8b283b5" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>useCurvature</name></member>
+      <member refid="classmrmeshpy_1_1PolylineSubdivideSettings_1a5edc353904b07a2e362d0fd12bb79972" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineSubdivideSettings</scope><name>useCurvature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

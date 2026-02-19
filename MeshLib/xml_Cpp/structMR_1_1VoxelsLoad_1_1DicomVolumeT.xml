@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1VoxelsLoad_1_1DicomVolumeT" kind="struct" language="C++" prot="public">
+    <compoundname>MR::VoxelsLoad::DicomVolumeT</compoundname>
+    <includes refid="MRDicom_8h" local="no">MRDicom.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga9d975baef9f26c3a77c6769d4b760ac7" kind="variable"><name>vol</name></member>
+      <member refid="group__GeneralGroup_1ga41a585b4f3781b67e22daa8ff5b9479d" kind="variable"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga5159934791ea7584f07b333cd28777b3" kind="variable"><name>xf</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" line="61" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRDicom.h" bodystart="62" bodyend="66"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga41a585b4f3781b67e22daa8ff5b9479d" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolumeT</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga9d975baef9f26c3a77c6769d4b760ac7" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolumeT</scope><name>vol</name></member>
+      <member refid="group__GeneralGroup_1ga5159934791ea7584f07b333cd28777b3" prot="public" virt="non-virtual"><scope>MR::VoxelsLoad::DicomVolumeT</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

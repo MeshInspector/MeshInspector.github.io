@@ -1,0 +1,520 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1AABBTreePolyline2" prot="public" virt="non-virtual">mrmeshpy.AABBTreePolyline2</derivedcompoundref>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1ac26aba749885feb5c9cb4b90d1f22242" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f::BoxT</definition>
+        <argsstring></argsstring>
+        <name>BoxT</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.BoxT</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Box2f" kindref="compound">Box2f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a5702e12fdeaeb8d8deb1294f8a31ef0c" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f::LeafBMap</definition>
+        <argsstring></argsstring>
+        <name>LeafBMap</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafBMap</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1UndirectedEdgeBMap" kindref="compound">UndirectedEdgeBMap</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="114" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a43e4a3b3fa2062b395256b294542d002" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f::LeafBitSet</definition>
+        <argsstring></argsstring>
+        <name>LeafBitSet</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafBitSet</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="115" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a624aad71603840637dab5d895e32cc69" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f::LeafId</definition>
+        <argsstring></argsstring>
+        <name>LeafId</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.LeafId</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a1f2ebeb8a8ca6cdf6d03b5a6efb39131" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f::Node</definition>
+        <argsstring></argsstring>
+        <name>Node</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.Node</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f" kindref="compound">AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="117" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1aa1887b858df510d8574a492e9006364f" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f::NodeVec</definition>
+        <argsstring></argsstring>
+        <name>NodeVec</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.NodeVec</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId" kindref="compound">Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f_NodeId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a8f5531701c394c36a70f781df50fcc6b" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f::Traits</definition>
+        <argsstring></argsstring>
+        <name>Traits</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.Traits</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1AABBTreeTraits__UndirectedEdgeTag__Box2f" kindref="compound">AABBTreeTraits_UndirectedEdgeTag_Box2f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="119" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="119" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a0be33e7834ca3d0177b33ff0d3591d86" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1a10857eb84a495b72782e339db424e562">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1af7603b03026c8d85e51f1ef7ab8c0fee">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="122" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="122" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a834c072fd20b413fce0d9b91ecb3c8fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f" kindref="compound">AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</ref></type>
+        <definition> AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="126" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="126" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a834c072fd20b413fce0d9b91ecb3c8fd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f" kindref="compound">AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</ref></type>
+        <definition> AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="130" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="130" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a837e8d929ffbc0444e3a897953cc5dc4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+        <definition> NodeId mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.rootNodeId</definition>
+        <argsstring>()</argsstring>
+        <name>rootNodeId</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.rootNodeId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns root node id
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="133" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="133" bodyend="136"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1ac055c8dfaccc5a85baeafe4d300daee9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f" kindref="compound">AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f</ref></type>
+        <definition> AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__getitem__</definition>
+        <argsstring>(self, NodeId nid)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>nid</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>const-access to any node
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="137" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1ac1685082ac6b870cf743922654af0757" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1a10857eb84a495b72782e339db424e562">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1af7603b03026c8d85e51f1ef7ab8c0fee">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="142" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="142" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1addc9e06758015258121583a4b48853d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__init__</definition>
+        <argsstring>(self, AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1a10857eb84a495b72782e339db424e562">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AABBTreePolyline2_1af7603b03026c8d85e51f1ef7ab8c0fee">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f" kindref="compound">AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="145" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1af5ea0de53a67b6c8d78de484d1e7a58a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box2f" kindref="compound">Box2f</ref></type>
+        <definition> Box2f mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getBoundingBox</definition>
+        <argsstring>(self)</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getBoundingBox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the root node bounding box
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="149" bodyend="152"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a1d3491fb864f15f876a9067a1c3c6856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getLeafOrder</definition>
+        <argsstring>(self, UndirectedEdgeBMap leafMap)</argsstring>
+        <name>getLeafOrder</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getLeafOrder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBMap" kindref="compound">UndirectedEdgeBMap</ref></type>
+          <declname>leafMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>fills map: LeafId -&gt; leaf#;
+buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="153" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a49dbd9aaae0e920cc3c6d24ff5b56bfc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getLeafOrderAndReset</definition>
+        <argsstring>(self, UndirectedEdgeBMap leafMap)</argsstring>
+        <name>getLeafOrderAndReset</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getLeafOrderAndReset</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBMap" kindref="compound">UndirectedEdgeBMap</ref></type>
+          <declname>leafMap</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>fills map: LeafId -&gt; leaf#, then resets leaf order to 0,1,2,...;
+buffer in leafMap must be resized before the call, and caller is responsible for filling missing leaf elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="158" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a0194560a801630641faedf60647500e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NodeBitSet" kindref="compound">NodeBitSet</ref></type>
+        <definition> NodeBitSet mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getNodesFromLeaves</definition>
+        <argsstring>(self, UndirectedEdgeBitSet leaves)</argsstring>
+        <name>getNodesFromLeaves</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getNodesFromLeaves</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>leaves</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns set of nodes containing among direct or indirect children given leaves
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="163" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1aeaf38f0c152c5d740dcef48e686f8b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getSubtreeLeaves</definition>
+        <argsstring>(self, NodeId subtreeRoot)</argsstring>
+        <name>getSubtreeLeaves</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getSubtreeLeaves</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NodeId" kindref="compound">NodeId</ref></type>
+          <declname>subtreeRoot</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns all leaves in the subtree with given root
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="167" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1ae01f69627615e040a368602e449133ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__NodeTag" kindref="compound">std_vector_Id_NodeTag</ref></type>
+        <definition> std_vector_Id_NodeTag mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getSubtrees</definition>
+        <argsstring>(self, int minNum)</argsstring>
+        <name>getSubtrees</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.getSubtrees</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>minNum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns at least given number of top-level not-intersecting subtrees, union of which contain all tree leaves
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="171" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="171" bodyend="174"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a2eed2e807319ce0ba4b968cf90f8ac5e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="175" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a12aaf778524547c4793a3c6cda03a657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__AABBTreeNode__AABBTreeTraits__UndirectedEdgeTag__Box2f__NodeId" kindref="compound">Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f_NodeId</ref></type>
+        <definition> Vector_AABBTreeNode_AABBTreeTraits_UndirectedEdgeTag_Box2f_NodeId mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.nodes</definition>
+        <argsstring>(self)</argsstring>
+        <name>nodes</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.nodes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>const-access to all nodes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="179" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="179" bodyend="182"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a4f5fe25df14e3c17a8aac40f901fee16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.numLeaves</definition>
+        <argsstring>(self)</argsstring>
+        <name>numLeaves</name>
+        <qualifiedname>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f.numLeaves</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the number of leaves in whole tree
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="183" bodyend="186"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AABBTreeBase&lt;MR::AABBTreeTraits&lt;MR::UndirectedEdgeTag, MR::Box2f&gt;&gt;
+
+base class for most AABB-trees (except for AABBTreePoints)
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</label>
+        <link refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.AABBTreePolyline2</label>
+        <link refid="classmrmeshpy_1_1AABBTreePolyline2"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="107" bodyend="186"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1ac055c8dfaccc5a85baeafe4d300daee9" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a0be33e7834ca3d0177b33ff0d3591d86" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1ac1685082ac6b870cf743922654af0757" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1addc9e06758015258121583a4b48853d4" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1ac26aba749885feb5c9cb4b90d1f22242" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>BoxT</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1af5ea0de53a67b6c8d78de484d1e7a58a" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a1d3491fb864f15f876a9067a1c3c6856" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>getLeafOrder</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a49dbd9aaae0e920cc3c6d24ff5b56bfc" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>getLeafOrderAndReset</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a0194560a801630641faedf60647500e8" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>getNodesFromLeaves</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1aeaf38f0c152c5d740dcef48e686f8b31" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>getSubtreeLeaves</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1ae01f69627615e040a368602e449133ae" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>getSubtrees</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a2eed2e807319ce0ba4b968cf90f8ac5e" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a43e4a3b3fa2062b395256b294542d002" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>LeafBitSet</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a5702e12fdeaeb8d8deb1294f8a31ef0c" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>LeafBMap</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a624aad71603840637dab5d895e32cc69" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>LeafId</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a1f2ebeb8a8ca6cdf6d03b5a6efb39131" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>Node</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a12aaf778524547c4793a3c6cda03a657" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>nodes</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1aa1887b858df510d8574a492e9006364f" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>NodeVec</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a4f5fe25df14e3c17a8aac40f901fee16" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>numLeaves</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a834c072fd20b413fce0d9b91ecb3c8fd" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a834c072fd20b413fce0d9b91ecb3c8fd" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a837e8d929ffbc0444e3a897953cc5dc4" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>rootNodeId</name></member>
+      <member refid="classmrmeshpy_1_1AABBTreeBase__AABBTreeTraits__UndirectedEdgeTag__Box2f_1a8f5531701c394c36a70f781df50fcc6b" prot="public" virt="non-virtual"><scope>mrmeshpy::AABBTreeBase_AABBTreeTraits_UndirectedEdgeTag_Box2f</scope><name>Traits</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

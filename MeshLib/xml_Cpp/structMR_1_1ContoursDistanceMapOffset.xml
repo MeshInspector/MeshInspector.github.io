@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ContoursDistanceMapOffset" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ContoursDistanceMapOffset</compoundname>
+    <includes refid="MRDistanceMap_8h" local="no">MRDistanceMap.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="enum" id="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>OffsetType</name>
+        <qualifiedname>MR::ContoursDistanceMapOffset::OffsetType</qualifiedname>
+        <enumvalue id="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178a960b44c579bc2f6818d2daaf9e4c16f0" prot="public">
+          <name>Normal</name>
+          <briefdescription>
+<para>distance map from given polyline with values offset </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178aea89b68c34ce4a63c0f77e17413c6e30" prot="public">
+          <name>Shell</name>
+          <briefdescription>
+<para>distance map from shell of given polyline (perEdgeOffset should not have negative values ) </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="196" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="197" bodyend="200"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1ContoursDistanceMapOffset_1adedbc97955e245ed2441465fc386f0c5" prot="public" static="no" mutable="no">
+        <type>const <ref refid="classMR_1_1Vector" kindref="compound">Vector</ref>&lt; float, UndirectedEdgeId &gt; &amp;</type>
+        <definition>const Vector&lt;float, UndirectedEdgeId&gt;&amp; MR::ContoursDistanceMapOffset::perEdgeOffset</definition>
+        <argsstring></argsstring>
+        <name>perEdgeOffset</name>
+        <qualifiedname>MR::ContoursDistanceMapOffset::perEdgeOffset</qualifiedname>
+        <briefdescription>
+<para>offset values for each undirected edge of given polyline </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="195" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="195" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1ContoursDistanceMapOffset_1a68a80dcbb5c3dc5175cdb355315dd038" prot="public" static="no" mutable="no">
+        <type>enum <ref refid="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178" kindref="member">MR::ContoursDistanceMapOffset::OffsetType</ref></type>
+        <definition>enum MR::ContoursDistanceMapOffset::OffsetType MR::ContoursDistanceMapOffset::Shell</definition>
+        <argsstring></argsstring>
+        <name>Shell</name>
+        <qualifiedname>MR::ContoursDistanceMapOffset::Shell</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="200" column="27"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Structure with parameters for optional offset in <computeroutput>distanceMapFromContours</computeroutput> function. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ContoursDistanceMapOffset</label>
+        <link refid="structMR_1_1ContoursDistanceMapOffset"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>perEdgeOffset</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; float, UndirectedEdgeId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" line="192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRDistanceMap.h" bodystart="193" bodyend="201"/>
+    <listofallmembers>
+      <member refid="structMR_1_1ContoursDistanceMapOffset_1ae4253ef0c3b8227af4acd442f2567178" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>OffsetType</name></member>
+      <member refid="structMR_1_1ContoursDistanceMapOffset_1adedbc97955e245ed2441465fc386f0c5" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>perEdgeOffset</name></member>
+      <member refid="structMR_1_1ContoursDistanceMapOffset_1a68a80dcbb5c3dc5175cdb355315dd038" prot="public" virt="non-virtual"><scope>MR::ContoursDistanceMapOffset</scope><name>Shell</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

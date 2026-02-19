@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ConstantCuspParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ConstantCuspParams</compoundname>
+    <basecompoundref refid="structMR_1_1ToolPathParams" prot="public" virt="non-virtual">MR::ToolPathParams</basecompoundref>
+    <includes refid="MRToolPath_8h" local="no">MRToolPath.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gae516e612489724b0fd33771eac4c5843" kind="variable"><name>fromCenterToBoundary</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ConstantCuspParams</label>
+        <link refid="structMR_1_1ConstantCuspParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ToolPathParams</label>
+        <link refid="structMR_1_1ToolPathParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ConstantCuspParams</label>
+        <link refid="structMR_1_1ConstantCuspParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ToolPathParams</label>
+        <link refid="structMR_1_1ToolPathParams"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" line="70" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRToolPath.h" bodystart="71" bodyend="74"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga369d0d2f955fa0ff8c3d1f01c5d78679" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>baseFeed</name></member>
+      <member refid="group__GeneralGroup_1ga50c755eddaa84d57053b8b2ac05090c7" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>bypassDir</name></member>
+      <member refid="group__GeneralGroup_1gabb16295f5fc43829c45884d061d45e62" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga24c0b4801961990c4c8e6b4003bf2bb2" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>critTransitionLength</name></member>
+      <member refid="group__GeneralGroup_1gadacfd8b713ae1664619abcff9d04fead" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>flatTool</name></member>
+      <member refid="group__GeneralGroup_1gae516e612489724b0fd33771eac4c5843" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>fromCenterToBoundary</name></member>
+      <member refid="group__GeneralGroup_1ga13a70c0130eab38aeaf063f1f6d276d7" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>isolines</name></member>
+      <member refid="group__GeneralGroup_1gab01ce27f18a97921bbeb33127a0412a5" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>millRadius</name></member>
+      <member refid="group__GeneralGroup_1ga290865e63260a699f02e17210427d220" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>offsetMesh</name></member>
+      <member refid="group__GeneralGroup_1gaa71afd75559878444cd6f66becaed0c4" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>plungeFeed</name></member>
+      <member refid="group__GeneralGroup_1ga7e16eeb5e2862d7ee09d5314b784cd4a" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>plungeLength</name></member>
+      <member refid="group__GeneralGroup_1ga4f475acb69d7a5c6cd72596f9ba39ab1" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>retractFeed</name></member>
+      <member refid="group__GeneralGroup_1ga8240e069026edac1ef227f17d59c230e" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>retractLength</name></member>
+      <member refid="group__GeneralGroup_1ga10f980ccd2fc81285a194503e2b669b3" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>safeZ</name></member>
+      <member refid="group__GeneralGroup_1ga26778592370a3e672866fb0486b2d7c9" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>sectionStep</name></member>
+      <member refid="group__GeneralGroup_1ga58e0e695e11b0b6bd4c0ce7ecd0b0889" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>startContours</name></member>
+      <member refid="group__GeneralGroup_1gadf1fc52d9134c621ba9630531ee2c99d" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>startVertices</name></member>
+      <member refid="group__GeneralGroup_1ga0d4192d981068245917713cf59362f80" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>toolpathExpansion</name></member>
+      <member refid="group__GeneralGroup_1ga785fe1445fcc56a97f20cf9daf8356e9" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gaf3436d805511bd0d9d2382154e99f492" prot="public" virt="non-virtual"><scope>MR::ConstantCuspParams</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

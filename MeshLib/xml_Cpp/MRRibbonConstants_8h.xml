@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRRibbonConstants_8h" kind="file" language="C++">
+    <compoundname>MRRibbonConstants.h</compoundname>
+    <includes local="yes">MRMesh/MRMeshFwd.h</includes>
+    <includes refid="MRVector2_8h" local="yes">MRMesh/MRVector2.h</includes>
+    <includes refid="MRColor_8h" local="yes">MRMesh/MRColor.h</includes>
+    <incdepgraph>
+      <node id="15">
+        <label>MRMesh/MRColor.h</label>
+        <link refid="MRColor_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="4">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="5">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRVector4.h</label>
+        <link refid="MRVector4_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRRibbonConstants.h</label>
+        <link refid="MRRibbonConstants_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMesh/MRMeshFwd.h</label>
+      </node>
+      <node id="8">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="9">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="10">
+        <label>algorithm</label>
+      </node>
+      <node id="11">
+        <label>cmath</label>
+      </node>
+      <node id="6">
+        <label>cstddef</label>
+      </node>
+      <node id="12">
+        <label>cstring</label>
+      </node>
+      <node id="13">
+        <label>iosfwd</label>
+      </node>
+      <node id="7">
+        <label>type_traits</label>
+      </node>
+      <node id="14">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1StyleConsts">MR::StyleConsts</innernamespace>
+    <innernamespace refid="namespaceMR_1_1StyleConsts_1_1Modal">MR::StyleConsts::Modal</innernamespace>
+    <innernamespace refid="namespaceMR_1_1StyleConsts_1_1ProgressBar">MR::StyleConsts::ProgressBar</innernamespace>
+    <innernamespace refid="namespaceMR_1_1StyleConsts_1_1CustomCombo">MR::StyleConsts::CustomCombo</innernamespace>
+    <innernamespace refid="namespaceMR_1_1StyleConsts_1_1Notification">MR::StyleConsts::Notification</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRMesh/MRMeshFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector2_8h" kindref="compound">MRMesh/MRVector2.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRColor_8h" kindref="compound">MRMesh/MRColor.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">namespace</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/>cPalettePresetKey<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;palettePreset&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="group__GeneralGroup_1ga3980e45b7cc71e35412820615644bca6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3980e45b7cc71e35412820615644bca6" kindref="member">cGradientButtonFramePadding</ref><sp/>=<sp/>7.5f;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="group__GeneralGroup_1ga6f5560d361aaab79fc35a8418362345d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga6f5560d361aaab79fc35a8418362345d" kindref="member">cTabYOffset</ref><sp/>=<sp/>4.0f;</highlight></codeline>
+<codeline lineno="19" refid="group__GeneralGroup_1ga8978f98278703c8b2857a9c3a0c5b17d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8978f98278703c8b2857a9c3a0c5b17d" kindref="member">cTabsInterval</ref><sp/>=<sp/>8.0f;</highlight></codeline>
+<codeline lineno="20" refid="group__GeneralGroup_1gac1b91e6c825baab2f5d88faca5bb82b9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gac1b91e6c825baab2f5d88faca5bb82b9" kindref="member">cTabFrameRounding</ref><sp/>=<sp/>5.0f;</highlight></codeline>
+<codeline lineno="21" refid="group__GeneralGroup_1ga429a2293457b924cb7dab5ba802389d2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga429a2293457b924cb7dab5ba802389d2" kindref="member">cTabMinimumWidth</ref><sp/>=<sp/>68.0f;</highlight></codeline>
+<codeline lineno="22" refid="group__GeneralGroup_1gaaaac3eef6fa84776b2bf2bcd9c77e1fd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaaac3eef6fa84776b2bf2bcd9c77e1fd" kindref="member">cTabHeight</ref><sp/>=<sp/>28.0f;</highlight></codeline>
+<codeline lineno="23" refid="group__GeneralGroup_1gad7f223794186253418bc69b3f96ce456" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad7f223794186253418bc69b3f96ce456" kindref="member">cTabLabelMinPadding</ref><sp/>=<sp/>12.0f;</highlight></codeline>
+<codeline lineno="24" refid="group__GeneralGroup_1ga1cb547836ab1506cf81cab06b24a9532" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1cb547836ab1506cf81cab06b24a9532" kindref="member">cTopPanelScrollStep</ref><sp/>=<sp/>50.0f;</highlight></codeline>
+<codeline lineno="25" refid="group__GeneralGroup_1ga2fbf8a5ae5179bb822e29a7c5966fdd0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga2fbf8a5ae5179bb822e29a7c5966fdd0" kindref="member">cTopPanelScrollBtnSize</ref><sp/>=<sp/>20.0f;</highlight></codeline>
+<codeline lineno="26" refid="group__GeneralGroup_1ga24400b0c1a9e56cafb8abf4c9725633d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga24400b0c1a9e56cafb8abf4c9725633d" kindref="member">cTopPanelAditionalButtonSize</ref><sp/>=<sp/><ref refid="group__GeneralGroup_1gaaaac3eef6fa84776b2bf2bcd9c77e1fd" kindref="member">cTabHeight</ref><sp/>-<sp/><ref refid="group__GeneralGroup_1ga6f5560d361aaab79fc35a8418362345d" kindref="member">cTabYOffset</ref>;</highlight></codeline>
+<codeline lineno="27" refid="group__GeneralGroup_1ga3111d6c67340775339a2b320ca618a6a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3111d6c67340775339a2b320ca618a6a" kindref="member">cSeparateBlocksSpacing</ref><sp/>=<sp/>12.0f;</highlight></codeline>
+<codeline lineno="28" refid="group__GeneralGroup_1ga27ab0aa461b99e7829305e508180f40c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga27ab0aa461b99e7829305e508180f40c" kindref="member">cSeparatorIndentMultiplier</ref><sp/>=<sp/>0.67f;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="group__GeneralGroup_1gad2e6e25a903280bb16257d5eade3d674" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gad2e6e25a903280bb16257d5eade3d674" kindref="member">cRibbonItemInterval</ref><sp/>=<sp/>4.0f;</highlight></codeline>
+<codeline lineno="31" refid="group__GeneralGroup_1gadbae2e800a57d6abde1fb15532241615" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gadbae2e800a57d6abde1fb15532241615" kindref="member">cRibbonItemMinWidth</ref><sp/>=<sp/>86.0f;</highlight></codeline>
+<codeline lineno="32" refid="group__GeneralGroup_1gaa1ae7e72880bd59893da014002b30c09" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa1ae7e72880bd59893da014002b30c09" kindref="member">cRibbonButtonWindowPaddingX</ref><sp/>=<sp/>6.0f;</highlight></codeline>
+<codeline lineno="33" refid="group__GeneralGroup_1ga502df3899fddea88b5d81bacebed7b2e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga502df3899fddea88b5d81bacebed7b2e" kindref="member">cRibbonButtonWindowPaddingY</ref><sp/>=<sp/>4.0f;</highlight></codeline>
+<codeline lineno="34" refid="group__GeneralGroup_1ga136b0ce6a3406a0d3b4e6a152e51247a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga136b0ce6a3406a0d3b4e6a152e51247a" kindref="member">cCheckboxPadding</ref><sp/>=<sp/>2.0f;</highlight></codeline>
+<codeline lineno="35" refid="group__GeneralGroup_1gaaded4cd4767b56cafcef761970128104" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaaded4cd4767b56cafcef761970128104" kindref="member">cButtonPadding</ref><sp/>=<sp/>8.0f;</highlight></codeline>
+<codeline lineno="36" refid="group__GeneralGroup_1gaa6af57435d9acbae46e95d40e73edc24" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa6af57435d9acbae46e95d40e73edc24" kindref="member">cInputPadding</ref><sp/>=<sp/>9.0f;</highlight></codeline>
+<codeline lineno="37" refid="group__GeneralGroup_1gae0f25876ce272b7da3ae953cd1469376" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gae0f25876ce272b7da3ae953cd1469376" kindref="member">cDefaultItemSpacing</ref><sp/>=<sp/>8.0f;</highlight></codeline>
+<codeline lineno="38" refid="group__GeneralGroup_1ga830a2da862354c816887a7862a190ce1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga830a2da862354c816887a7862a190ce1" kindref="member">cDefaultInnerSpacing</ref><sp/>=<sp/>8.0f;</highlight></codeline>
+<codeline lineno="39" refid="group__GeneralGroup_1ga862b30077baf437e28b842a18c3997e4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga862b30077baf437e28b842a18c3997e4" kindref="member">cDefaultWindowPaddingX</ref><sp/>=<sp/>8.0f;</highlight></codeline>
+<codeline lineno="40" refid="group__GeneralGroup_1ga1bee00a475fada33c76a0bb71f8cbadd" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga1bee00a475fada33c76a0bb71f8cbadd" kindref="member">cDefaultWindowPaddingY</ref><sp/>=<sp/>12.0f;</highlight></codeline>
+<codeline lineno="41" refid="group__GeneralGroup_1ga70bcc4098e7e70c56a659aa92a28fa66" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga70bcc4098e7e70c56a659aa92a28fa66" kindref="member">cItemInfoIndent</ref><sp/>=<sp/>16.0f;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="group__GeneralGroup_1ga5c83bbfbdb840f0b895746f9904ec159" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5c83bbfbdb840f0b895746f9904ec159" kindref="member">cSmallItemDropSizeModifier</ref><sp/>=<sp/>0.5f;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="group__GeneralGroup_1ga96fbf6ff116f2ef3003d0511ee978d18" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga96fbf6ff116f2ef3003d0511ee978d18" kindref="member">cHeaderQuickAccessFrameRounding</ref><sp/>=<sp/>3.0f;</highlight></codeline>
+<codeline lineno="46" refid="group__GeneralGroup_1ga8d4c96ab0082d0546992371e2ac83c29" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8d4c96ab0082d0546992371e2ac83c29" kindref="member">cHeaderQuickAccessXSpacing</ref><sp/>=<sp/>12.0f;</highlight></codeline>
+<codeline lineno="47" refid="group__GeneralGroup_1gaa11041a14963784ef3f797b273afdcd0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaa11041a14963784ef3f797b273afdcd0" kindref="member">cHeaderQuickAccessIconSize</ref><sp/>=<sp/>14.0f;</highlight></codeline>
+<codeline lineno="48" refid="group__GeneralGroup_1ga211bab9b03c29b67594f01a79be6b4b9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga211bab9b03c29b67594f01a79be6b4b9" kindref="member">cHeaderQuickAccessFrameSize</ref><sp/>=<sp/>24.0f;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="group__GeneralGroup_1ga8a7826f17744adf420a5075847c99e9e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8a7826f17744adf420a5075847c99e9e" kindref="member">cMiddleIconSize</ref><sp/>=<sp/>15.0f;</highlight></codeline>
+<codeline lineno="51" refid="group__GeneralGroup_1ga3751389d3e765404fee965fe7e4d5114" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga3751389d3e765404fee965fe7e4d5114" kindref="member">cSmallIconSize</ref><sp/>=<sp/>10.0f;</highlight></codeline>
+<codeline lineno="52" refid="group__GeneralGroup_1ga11cefc41d465d94791aaa0484ecde389" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga11cefc41d465d94791aaa0484ecde389" kindref="member">cQuickAccessBarHeight</ref><sp/>=<sp/>40.0f;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="group__GeneralGroup_1ga617cd90c338d4e739823f0bf7bc42ee4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga617cd90c338d4e739823f0bf7bc42ee4" kindref="member">cScrollBarSize</ref><sp/>=<sp/>10.0f;</highlight></codeline>
+<codeline lineno="55" refid="group__GeneralGroup_1gaacf3fd20b13de2d01250f5bda9173581" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaacf3fd20b13de2d01250f5bda9173581" kindref="member">cBigIconSize</ref><sp/>=<sp/>20.0f;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="group__GeneralGroup_1ga16a2551ae713d02409e67a85df426fd5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga16a2551ae713d02409e67a85df426fd5" kindref="member">cSmallFontSize</ref><sp/>=<sp/>11;</highlight></codeline>
+<codeline lineno="58" refid="group__GeneralGroup_1gaf967dac752a05397da587b76ec72feb5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaf967dac752a05397da587b76ec72feb5" kindref="member">cMiddleFontSize</ref><sp/>=<sp/>12;</highlight></codeline>
+<codeline lineno="59" refid="group__GeneralGroup_1ga9c921093c85c2da2608e2dfbac0456d1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga9c921093c85c2da2608e2dfbac0456d1" kindref="member">cDefaultFontSize</ref><sp/>=<sp/>13;</highlight></codeline>
+<codeline lineno="60" refid="group__GeneralGroup_1ga8857be62711395545ca59a54a590e17f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8857be62711395545ca59a54a590e17f" kindref="member">cBigFontSize</ref><sp/>=<sp/>15;</highlight></codeline>
+<codeline lineno="61" refid="group__GeneralGroup_1ga8ba309adbf075ead954ae080a7f9b0d1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8ba309adbf075ead954ae080a7f9b0d1" kindref="member">cHeadlineFontSize</ref><sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="group__GeneralGroup_1ga5e91f2b6e23986c1b6506a29afbc961c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga5e91f2b6e23986c1b6506a29afbc961c" kindref="member">cRadioButtonSize</ref><sp/>=<sp/>20.0f;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="group__GeneralGroup_1ga8ce41bfb43ceb1601bea2736f4006100" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga8ce41bfb43ceb1601bea2736f4006100" kindref="member">cModalWindowWidth</ref><sp/>=<sp/>368.0f;</highlight></codeline>
+<codeline lineno="66" refid="group__GeneralGroup_1ga01fdaef48cbd3fbf6ece5c4e0b288dbe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga01fdaef48cbd3fbf6ece5c4e0b288dbe" kindref="member">cModalWindowPaddingX</ref><sp/>=<sp/>28.0f;</highlight></codeline>
+<codeline lineno="67" refid="group__GeneralGroup_1ga53f35f62e69998bf7994a89743f1110d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga53f35f62e69998bf7994a89743f1110d" kindref="member">cModalWindowPaddingY</ref><sp/>=<sp/>20.0f;</highlight></codeline>
+<codeline lineno="68" refid="group__GeneralGroup_1ga31f77e731e7a4fa3bb8606a8a801848d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga31f77e731e7a4fa3bb8606a8a801848d" kindref="member">cModalButtonWidth</ref><sp/>=<sp/>104.0f;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="group__GeneralGroup_1gafe49e137af70c8aaef17a39366b4bd32" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafe49e137af70c8aaef17a39366b4bd32" kindref="member">cRadioInnerSpacingX</ref><sp/>=<sp/>12.f;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="namespaceMR_1_1StyleConsts" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">StyleConsts</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="group__GeneralGroup_1ga4d6326d10565774441d1db3512941c0d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>Vector2f<sp/><ref refid="group__GeneralGroup_1ga4d6326d10565774441d1db3512941c0d" kindref="member">pluginItemSpacing</ref>{<sp/>8,<sp/>10<sp/>};</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="namespaceMR_1_1StyleConsts_1_1Modal" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Modal</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="group__GeneralGroup_1ga4004a26198c0d4ee7e9de5004b5c58cf" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4004a26198c0d4ee7e9de5004b5c58cf" kindref="member">bigTitlePadding</ref><sp/>=<sp/>22.0f;</highlight></codeline>
+<codeline lineno="81" refid="group__GeneralGroup_1ga51cfb3dcff864fa88a1ef99e05376ebe" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga51cfb3dcff864fa88a1ef99e05376ebe" kindref="member">exitBtnSize</ref><sp/>=<sp/>24.0f;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="namespaceMR_1_1StyleConsts_1_1ProgressBar" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">ProgressBar</highlight></codeline>
+<codeline lineno="86"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="group__GeneralGroup_1ga0e136117cf759046ebb381d8b7f51f23" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga0e136117cf759046ebb381d8b7f51f23" kindref="member">internalSpacing</ref><sp/>=<sp/>16.0f;</highlight></codeline>
+<codeline lineno="89" refid="group__GeneralGroup_1ga467066b4c41a91512fcfee5c76e236ca" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga467066b4c41a91512fcfee5c76e236ca" kindref="member">rounding</ref><sp/>=<sp/>8.0f;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="group__GeneralGroup_1ga941b167d61d8a5ba4ff489d0ddac477e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref><sp/><ref refid="group__GeneralGroup_1ga941b167d61d8a5ba4ff489d0ddac477e" kindref="member">textColor</ref><sp/>=<sp/><ref refid="structMR_1_1Color" kindref="compound">Color</ref>(<sp/>117,<sp/>125,<sp/>136<sp/>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="namespaceMR_1_1StyleConsts_1_1CustomCombo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CustomCombo</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="group__GeneralGroup_1ga56058d3872b6d96205debc3305df78a8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>Vector2f<sp/><ref refid="group__GeneralGroup_1ga56058d3872b6d96205debc3305df78a8" kindref="member">framePadding</ref>{<sp/>13,<sp/>8<sp/>};</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="namespaceMR_1_1StyleConsts_1_1Notification" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Notification</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104" refid="group__GeneralGroup_1gafc9857750646620b389f5cb41ca048b9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafc9857750646620b389f5cb41ca048b9" kindref="member">cWindowRounding</ref><sp/>=<sp/>4.f;</highlight></codeline>
+<codeline lineno="105" refid="group__GeneralGroup_1ga4c0e53ab35221788afdf9df8298f8e3b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga4c0e53ab35221788afdf9df8298f8e3b" kindref="member">cWindowSpacing</ref><sp/>=<sp/>20.f;</highlight></codeline>
+<codeline lineno="106" refid="group__GeneralGroup_1ga85ff61268fac639e5871b152b1834e4d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga85ff61268fac639e5871b152b1834e4d" kindref="member">cWindowBorderWidth</ref><sp/>=<sp/>2.f;</highlight></codeline>
+<codeline lineno="107" refid="group__GeneralGroup_1gaac592de3f9df1139cad7ffbcdbadea5b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gaac592de3f9df1139cad7ffbcdbadea5b" kindref="member">cWindowPadding</ref><sp/>=<sp/>16.f;</highlight></codeline>
+<codeline lineno="108" refid="group__GeneralGroup_1gafa5b42784cc74d768e33f84c3f8dbc37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gafa5b42784cc74d768e33f84c3f8dbc37" kindref="member">cNotificationWindowPaddingX</ref><sp/>=<sp/>10.f;</highlight></codeline>
+<codeline lineno="109" refid="group__GeneralGroup_1gab44fac23055a5f76fda2e5fbbcff8154" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1gab44fac23055a5f76fda2e5fbbcff8154" kindref="member">cNotificationWindowPaddingY</ref><sp/>=<sp/>10.f;</highlight></codeline>
+<codeline lineno="110" refid="group__GeneralGroup_1ga40b832fe75f008db0d06d0ce99d54600" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga40b832fe75f008db0d06d0ce99d54600" kindref="member">cWindowsPosY</ref><sp/>=<sp/>95.f;</highlight></codeline>
+<codeline lineno="111" refid="group__GeneralGroup_1ga52e5057bbe55444050f29109e7fe6369" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga52e5057bbe55444050f29109e7fe6369" kindref="member">cHistoryButtonSizeY</ref><sp/>=<sp/>28.0f;</highlight></codeline>
+<codeline lineno="112" refid="group__GeneralGroup_1ga6dc9ff820b38609f4fad5d7b50b2da59" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>Vector2f<sp/><ref refid="group__GeneralGroup_1ga6dc9ff820b38609f4fad5d7b50b2da59" kindref="member">cTextFramePadding</ref>{<sp/>30,<sp/>8<sp/>};</highlight></codeline>
+<codeline lineno="113" refid="group__GeneralGroup_1ga483f138c30daa1fe0e5686bf554e2915" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga483f138c30daa1fe0e5686bf554e2915" kindref="member">cTextFrameRounding</ref><sp/>=<sp/>8.0f;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonConstants.h"/>
+  </compounddef>
+</doxygen>

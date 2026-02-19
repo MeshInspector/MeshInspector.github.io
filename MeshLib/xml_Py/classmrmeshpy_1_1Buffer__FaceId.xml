@@ -1,0 +1,460 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Buffer__FaceId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Buffer_FaceId</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__FaceId_1ad940a82fdc9194dda559738b29aff385" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_FaceId::T</definition>
+        <argsstring></argsstring>
+        <name>T</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.T</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6207" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6207" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__FaceId_1aeb9bea46074b9a77db9e68b642eef3e7" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_FaceId::const_iterator</definition>
+        <argsstring></argsstring>
+        <name>const_iterator</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.const_iterator</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__FaceId_1ac6c1a1af87621ea69bea445c37bf4dc8" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_FaceId::const_reference</definition>
+        <argsstring></argsstring>
+        <name>const_reference</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.const_reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6209" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6209" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__FaceId_1a9804013a0e473c929a22822384df4625" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_FaceId::iterator</definition>
+        <argsstring></argsstring>
+        <name>iterator</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.iterator</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6210" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Buffer__FaceId_1a537790bb1018ec03da7fa6f3a8116235" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.Buffer_FaceId::reference</definition>
+        <argsstring></argsstring>
+        <name>reference</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.reference</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6211" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6211" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1a66e0539aee9727280fcba2dee130353f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></type>
+        <definition> NoDefInit_FaceId mrmeshpy.Buffer_FaceId.__getitem__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6213" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6213" bodyend="6214"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1a66e0539aee9727280fcba2dee130353f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></type>
+        <definition> NoDefInit_FaceId mrmeshpy.Buffer_FaceId.__getitem__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6216" bodyend="6217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1a476b681d05b7a9852508fad228167b47" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_FaceId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6219" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6219" bodyend="6220"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1ab3a3d7470a0c84aa1ccd44ffd1ed0da1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_FaceId.__init__</definition>
+        <argsstring>(self, int size)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6222" bodyend="6223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1a42fee43e3c27565686bad30477a53523" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref>]</type>
+        <definition> typing.Iterator[NoDefInit_FaceId] mrmeshpy.Buffer_FaceId.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6224" bodyend="6225"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1ab0aac50939e63ee24b2cc9646f0c1fe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_FaceId.__setitem__</definition>
+        <argsstring>(self, int arg0, NoDefInit_FaceId arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6226" bodyend="6227"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1acf403ac5109bd49cf8852894789c6b06" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_FaceId.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.backId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6228" bodyend="6231"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1abd9ef473cea3e9b2d44227d472278996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_FaceId.beginId</definition>
+        <argsstring>(self)</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.beginId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the first element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6232" bodyend="6235"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1a1b3a74c7b0f89fc7573e8a133020473e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_FaceId.capacity</definition>
+        <argsstring>(self)</argsstring>
+        <name>capacity</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.capacity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6236" bodyend="6237"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1ab4ffbb7c6d86a5b3f320cfbd24c0614c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_FaceId.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6238" bodyend="6239"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1adb92028d93ae7b738f6bd03b11fb5ae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></type>
+        <definition> NoDefInit_FaceId mrmeshpy.Buffer_FaceId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6241" bodyend="6242"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1adb92028d93ae7b738f6bd03b11fb5ae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__FaceId" kindref="compound">NoDefInit_FaceId</ref></type>
+        <definition> NoDefInit_FaceId mrmeshpy.Buffer_FaceId.data</definition>
+        <argsstring>(self)</argsstring>
+        <name>data</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.data</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6244" bodyend="6245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1a1ea343bd5a5794a793f97def5c5cf0dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Buffer_FaceId.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6246" bodyend="6247"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1a9cd1ec190c3b4961f1063609c43849e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_FaceId.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.endId</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backId() + 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6248" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6248" bodyend="6251"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1a495e8489edad500277c852ba64df017c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_FaceId.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6252" bodyend="6255"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1ae4fa8aca6a0e29a30e5a654a104473cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Buffer_FaceId.resize</definition>
+        <argsstring>(self, int newSize)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6256" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6256" bodyend="6257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Buffer__FaceId_1a6afa6f4b5e038fdc971aaa8f6a56a24d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.Buffer_FaceId.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.Buffer_FaceId.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6258" bodyend="6259"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Buffer&lt;MR::FaceId&gt;
+
+
+ \\brief std::vector&lt;V&gt;-like container that is
+  1) resized without initialization of its elements,
+  2) much simplified: no push_back and many other methods
+ \\tparam V type of stored elements
+ \\tparam I type of index (shall be convertible to size_t)</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="6195" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="6195" bodyend="6259"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a66e0539aee9727280fcba2dee130353f" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a66e0539aee9727280fcba2dee130353f" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a476b681d05b7a9852508fad228167b47" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1ab3a3d7470a0c84aa1ccd44ffd1ed0da1" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a42fee43e3c27565686bad30477a53523" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1ab0aac50939e63ee24b2cc9646f0c1fe3" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1acf403ac5109bd49cf8852894789c6b06" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1abd9ef473cea3e9b2d44227d472278996" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a1b3a74c7b0f89fc7573e8a133020473e" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>capacity</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1ab4ffbb7c6d86a5b3f320cfbd24c0614c" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1aeb9bea46074b9a77db9e68b642eef3e7" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>const_iterator</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1ac6c1a1af87621ea69bea445c37bf4dc8" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>const_reference</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1adb92028d93ae7b738f6bd03b11fb5ae6" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1adb92028d93ae7b738f6bd03b11fb5ae6" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>data</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a1ea343bd5a5794a793f97def5c5cf0dd" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a9cd1ec190c3b4961f1063609c43849e1" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a495e8489edad500277c852ba64df017c" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a9804013a0e473c929a22822384df4625" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>iterator</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a537790bb1018ec03da7fa6f3a8116235" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>reference</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1ae4fa8aca6a0e29a30e5a654a104473cd" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1a6afa6f4b5e038fdc971aaa8f6a56a24d" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>size</name></member>
+      <member refid="classmrmeshpy_1_1Buffer__FaceId_1ad940a82fdc9194dda559738b29aff385" prot="public" virt="non-virtual"><scope>mrmeshpy::Buffer_FaceId</scope><name>T</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

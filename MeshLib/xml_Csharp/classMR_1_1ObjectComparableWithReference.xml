@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ObjectComparableWithReference" kind="class" language="C#" prot="public">
+    <compoundname>MR::ObjectComparableWithReference</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ObjectComparableWithReference</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a4afd26c2488c77d6c724d6da6c99bcce" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectComparableWithReference.ObjectComparableWithReference</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ObjectComparableWithReference</name>
+        <qualifiedname>MR.ObjectComparableWithReference.ObjectComparableWithReference</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="863" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="863" bodyend="863"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a5045efa50c6389e282fc2bf859b7b389" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ObjectComparableWithReference.ObjectComparableWithReference</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ObjectComparableWithReference</name>
+        <qualifiedname>MR.ObjectComparableWithReference.ObjectComparableWithReference</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="865" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="865" bodyend="865"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1abaa91c8bb970f5caadfd11d0d60efd32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectComparableWithReference.setComparisonTolerance</definition>
+        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonTolerance? newTolerance)</argsstring>
+        <name>setComparisonTolerance</name>
+        <qualifiedname>MR.ObjectComparableWithReference.setComparisonTolerance</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ObjectComparableWithReference.Const_ComparisonTolerance?</type>
+          <declname>newTolerance</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1abaa91c8bb970f5caadfd11d0d60efd32" kindref="member">MR.ObjectComparableWithReference.setComparisonTolerance</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="872" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="872" bodyend="877"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1adae4a238832b6a3602da40cfdc9068df" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectComparableWithReference.setComparisonReferenceValue</definition>
+        <argsstring>(ulong i, MR.Std.Const_Variant_Float_MRVector3f? value)</argsstring>
+        <name>setComparisonReferenceValue</name>
+        <qualifiedname>MR.ObjectComparableWithReference.setComparisonReferenceValue</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.Std.Const_Variant_Float_MRVector3f?</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1adae4a238832b6a3602da40cfdc9068df" kindref="member">MR.ObjectComparableWithReference.setComparisonReferenceValue</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="886" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="886" bodyend="891"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ObjectComparableWithReference_1a1dca124dd78a343860a1589adba8838a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ObjectComparableWithReference.setComparisonReferenceVal</definition>
+        <argsstring>(ulong i, MR.ObjectComparableWithReference.Const_ComparisonReferenceValue value)</argsstring>
+        <name>setComparisonReferenceVal</name>
+        <qualifiedname>MR.ObjectComparableWithReference.setComparisonReferenceVal</qualifiedname>
+        <param>
+          <type>ulong</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>MR.ObjectComparableWithReference.Const_ComparisonReferenceValue</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference_1a1dca124dd78a343860a1589adba8838a" kindref="member">MR.ObjectComparableWithReference.setComparisonReferenceVal</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="896" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="896" bodyend="901"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1ObjectComparableWithReference" kindref="compound">MR.ObjectComparableWithReference</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1DistanceMeasurementObject" kindref="compound">MR.DistanceMeasurementObject</ref></computeroutput> <computeroutput><ref refid="classMR_1_1PointMeasurementObject" kindref="compound">MR.PointMeasurementObject</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ObjectComparableWithReference</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectComparableWithReference</label>
+        <link refid="classMR_1_1ObjectComparableWithReference"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ObjectComparableWithReference &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ObjectComparableWithReference</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ObjectComparableWithReference</label>
+        <link refid="classMR_1_1ObjectComparableWithReference"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ObjectComparableWithReference &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" line="861" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRObjectComparableWithReference.cs" bodystart="862" bodyend="902"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ObjectComparableWithReference_1a4afd26c2488c77d6c724d6da6c99bcce" prot="package" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="classMR_1_1ObjectComparableWithReference_1a5045efa50c6389e282fc2bf859b7b389" prot="package" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>ObjectComparableWithReference</name></member>
+      <member refid="classMR_1_1ObjectComparableWithReference_1a1dca124dd78a343860a1589adba8838a" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceVal</name></member>
+      <member refid="classMR_1_1ObjectComparableWithReference_1adae4a238832b6a3602da40cfdc9068df" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonReferenceValue</name></member>
+      <member refid="classMR_1_1ObjectComparableWithReference_1abaa91c8bb970f5caadfd11d0d60efd32" prot="public" virt="non-virtual"><scope>MR::ObjectComparableWithReference</scope><name>setComparisonTolerance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

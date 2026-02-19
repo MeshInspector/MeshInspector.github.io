@@ -1,0 +1,491 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MultiRayMeshIntersectResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MultiRayMeshIntersectResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a88254ac21eb091bbb1c8ce8141a3db09" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiRayMeshIntersectResult::_offsetof_intersectingRays</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_intersectingRays</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult._offsetof_intersectingRays</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36350" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1aa5d9da1c2b0181006dc871fc44d0b8ef" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiRayMeshIntersectResult::_offsetof_isectBary</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isectBary</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult._offsetof_isectBary</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a84c4e704a1d11731d0bd8afe35e9eaf9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiRayMeshIntersectResult::_offsetof_isectFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isectFaces</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult._offsetof_isectFaces</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1abc0b620452a8153e2414f9c117c8c85a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiRayMeshIntersectResult::_offsetof_isectPts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_isectPts</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult._offsetof_isectPts</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a6bbbbd6c5a1ae2a67e26796be4783fa6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MultiRayMeshIntersectResult::_offsetof_rayDistances</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_rayDistances</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult._offsetof_rayDistances</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36354" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36354" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ac69a3e55962baa92f0abe51ecfa97e9a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiRayMeshIntersectResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36357" bodyend="36358"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a05c037d47bead29c1d52c7053de9140b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MultiRayMeshIntersectResult" kindref="compound">MultiRayMeshIntersectResult</ref></type>
+        <definition> MultiRayMeshIntersectResult mrmeshpy.MultiRayMeshIntersectResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36361" bodyend="36362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a05c037d47bead29c1d52c7053de9140b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MultiRayMeshIntersectResult" kindref="compound">MultiRayMeshIntersectResult</ref></type>
+        <definition> MultiRayMeshIntersectResult mrmeshpy.MultiRayMeshIntersectResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36365" bodyend="36366"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ab30fdf78773453aeafe3e43bbc279402" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiRayMeshIntersectResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36368" bodyend="36369"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ad9db70c8fd2c27bfc55d9f5b7860e6c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiRayMeshIntersectResult.__init__</definition>
+        <argsstring>(self, MultiRayMeshIntersectResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MultiRayMeshIntersectResult" kindref="compound">MultiRayMeshIntersectResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36371" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36371" bodyend="36374"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ab25b7f94d49dbdf15a524a65e9ad8f5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiRayMeshIntersectResult.__init__</definition>
+        <argsstring>(self, BitSet intersectingRays, std_vector_float rayDistances, std_vector_Id_FaceTag isectFaces, std_vector_TriPoint_float isectBary, std_vector_Vector3_float isectPts)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>intersectingRays</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>rayDistances</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__FaceTag" kindref="compound">std_vector_Id_FaceTag</ref></type>
+          <declname>isectFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TriPoint__float" kindref="compound">std_vector_TriPoint_float</ref></type>
+          <declname>isectBary</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>isectPts</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36376" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36376" bodyend="36379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a2c27a9639cefa609603a29596b6c4dea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+        <definition> BitSet mrmeshpy.MultiRayMeshIntersectResult.intersectingRays</definition>
+        <argsstring>(self)</argsstring>
+        <name>intersectingRays</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.intersectingRays</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>true if the ray has intersection with mesh part, false otherwise
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36381" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36381" bodyend="36384"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a5946776b7b7238eb672f29b0be94dd45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiRayMeshIntersectResult.intersectingRays</definition>
+        <argsstring>(self, BitSet arg1)</argsstring>
+        <name>intersectingRays</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.intersectingRays</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36386" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36386" bodyend="36387"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ae0fe2ac0f912a168bc85967b8f067ca8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__TriPoint__float" kindref="compound">std_vector_TriPoint_float</ref></type>
+        <definition> std_vector_TriPoint_float mrmeshpy.MultiRayMeshIntersectResult.isectBary</definition>
+        <argsstring>(self)</argsstring>
+        <name>isectBary</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.isectBary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>barycentric coordinates of the intersection point within intersected triangle or NaNs if no intersection
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36389" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36389" bodyend="36392"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1af79088e15bbac0e952ae731f80b11f69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiRayMeshIntersectResult.isectBary</definition>
+        <argsstring>(self, std_vector_TriPoint_float arg1)</argsstring>
+        <name>isectBary</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.isectBary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__TriPoint__float" kindref="compound">std_vector_TriPoint_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36394" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36394" bodyend="36395"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ae90b49edebc556954976a65bc3ea7b9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Id__FaceTag" kindref="compound">std_vector_Id_FaceTag</ref></type>
+        <definition> std_vector_Id_FaceTag mrmeshpy.MultiRayMeshIntersectResult.isectFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>isectFaces</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.isectFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>intersected triangles from mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36397" bodyend="36400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a98f55775d579126c9d38cd06cfd9f403" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiRayMeshIntersectResult.isectFaces</definition>
+        <argsstring>(self, std_vector_Id_FaceTag arg1)</argsstring>
+        <name>isectFaces</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.isectFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Id__FaceTag" kindref="compound">std_vector_Id_FaceTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36402" bodyend="36403"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a95d568a4fd94a1b1651a61393f550d24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+        <definition> std_vector_Vector3_float mrmeshpy.MultiRayMeshIntersectResult.isectPts</definition>
+        <argsstring>(self)</argsstring>
+        <name>isectPts</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.isectPts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>intersection points or NaNs if no intersection
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36405" bodyend="36408"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a48ced74076a870b53b39cbb2b15f72f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiRayMeshIntersectResult.isectPts</definition>
+        <argsstring>(self, std_vector_Vector3_float arg1)</argsstring>
+        <name>isectPts</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.isectPts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36410" bodyend="36411"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a476dec7401e4c614a87c4c92303a7136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+        <definition> std_vector_float mrmeshpy.MultiRayMeshIntersectResult.rayDistances</definition>
+        <argsstring>(self)</argsstring>
+        <name>rayDistances</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.rayDistances</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>distance along each ray till the intersection point or NaN if no intersection
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36413" bodyend="36416"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MultiRayMeshIntersectResult_1aecec89ea6398a64e6a24dc993903f7dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MultiRayMeshIntersectResult.rayDistances</definition>
+        <argsstring>(self, std_vector_float arg1)</argsstring>
+        <name>rayDistances</name>
+        <qualifiedname>mrmeshpy.MultiRayMeshIntersectResult.rayDistances</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36418" bodyend="36419"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MultiRayMeshIntersectResult
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MultiRayMeshIntersectResult</label>
+        <link refid="classmrmeshpy_1_1MultiRayMeshIntersectResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_intersectingRays</edgelabel>
+          <edgelabel>_offsetof_isectBary</edgelabel>
+          <edgelabel>_offsetof_isectFaces</edgelabel>
+          <edgelabel>_offsetof_isectPts</edgelabel>
+          <edgelabel>_offsetof_rayDistances</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36346" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36346" bodyend="36419"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ac69a3e55962baa92f0abe51ecfa97e9a" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ab30fdf78773453aeafe3e43bbc279402" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ad9db70c8fd2c27bfc55d9f5b7860e6c0" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ab25b7f94d49dbdf15a524a65e9ad8f5b" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a88254ac21eb091bbb1c8ce8141a3db09" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>_offsetof_intersectingRays</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1aa5d9da1c2b0181006dc871fc44d0b8ef" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>_offsetof_isectBary</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a84c4e704a1d11731d0bd8afe35e9eaf9" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>_offsetof_isectFaces</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1abc0b620452a8153e2414f9c117c8c85a" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>_offsetof_isectPts</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a6bbbbd6c5a1ae2a67e26796be4783fa6" prot="protected" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>_offsetof_rayDistances</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a2c27a9639cefa609603a29596b6c4dea" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>intersectingRays</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a5946776b7b7238eb672f29b0be94dd45" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>intersectingRays</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ae0fe2ac0f912a168bc85967b8f067ca8" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>isectBary</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1af79088e15bbac0e952ae731f80b11f69" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>isectBary</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1ae90b49edebc556954976a65bc3ea7b9b" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>isectFaces</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a98f55775d579126c9d38cd06cfd9f403" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>isectFaces</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a95d568a4fd94a1b1651a61393f550d24" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>isectPts</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a48ced74076a870b53b39cbb2b15f72f3" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>isectPts</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a05c037d47bead29c1d52c7053de9140b" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a05c037d47bead29c1d52c7053de9140b" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1a476dec7401e4c614a87c4c92303a7136" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>rayDistances</name></member>
+      <member refid="classmrmeshpy_1_1MultiRayMeshIntersectResult_1aecec89ea6398a64e6a24dc993903f7dd" prot="public" virt="non-virtual"><scope>mrmeshpy::MultiRayMeshIntersectResult</scope><name>rayDistances</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

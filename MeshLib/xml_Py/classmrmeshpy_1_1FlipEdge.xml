@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FlipEdge" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FlipEdge</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FlipEdge_1a248bc56f20c43e5a601c330a7f961f80" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FlipEdge::Can</definition>
+        <argsstring></argsstring>
+        <name>Can</name>
+        <qualifiedname>mrmeshpy.FlipEdge.Can</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FlipEdge" kindref="compound">FlipEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20937" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20937" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FlipEdge_1adc2dd867b38233d2cc2797151550d9db" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FlipEdge::Cannot</definition>
+        <argsstring></argsstring>
+        <name>Cannot</name>
+        <qualifiedname>mrmeshpy.FlipEdge.Cannot</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FlipEdge" kindref="compound">FlipEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20938" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20938" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FlipEdge_1a51227b5c8aa2841ecfa985044a000cb5" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FlipEdge::Must</definition>
+        <argsstring></argsstring>
+        <name>Must</name>
+        <qualifiedname>mrmeshpy.FlipEdge.Must</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FlipEdge" kindref="compound">FlipEdge</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20939" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FlipEdge_1ae280d4dd69b7b4759b4a1bbe2e81e2e6" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FlipEdge::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1FlipEdge" kindref="compound">FlipEdge</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20940" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20940" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1ad487e1fca6d58652dd36d5e43a1b17d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FlipEdge.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20941" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20941" bodyend="20942"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a992e986cbe8b2dec152152c93104bf1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FlipEdge.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20943" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20943" bodyend="20944"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a79c93605b67fe3c287e1052f356a0df5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FlipEdge.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20945" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20945" bodyend="20946"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a472a07a54fc050f2b05e18c871bb0eed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FlipEdge.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20947" bodyend="20948"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a6731cba74822d3e0af08e525fe417de6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlipEdge.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20949" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20949" bodyend="20950"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a9922273d6538442c6314aaebade956d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FlipEdge.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20951" bodyend="20952"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a4f39e8c37ab1733cffa4ba0c32d6e63c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FlipEdge.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20953" bodyend="20954"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a12d6ebe8eef7383b653c4b41abd1658d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FlipEdge.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20955" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20955" bodyend="20956"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a9dc0507a2e0ca33c72fcee55ea26a17f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FlipEdge.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20957" bodyend="20958"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a0e839f0ff29448107b5b265b85644696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FlipEdge.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.FlipEdge.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20959" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20959" bodyend="20960"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a8058167ca5e0158e33f642d21b6101a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FlipEdge.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.FlipEdge.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20962" bodyend="20963"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FlipEdge_1a4f2d3670249866db5f4846d99a0086fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FlipEdge.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.FlipEdge.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20965" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20965" bodyend="20966"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Can : edge flipping is possible
+
+  Cannot : edge flipping is prohibited by topology or by constraints
+
+  Must : edge flipping is required to solve some topology issue
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FlipEdge</label>
+        <link refid="classmrmeshpy_1_1FlipEdge"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Can</edgelabel>
+          <edgelabel>Cannot</edgelabel>
+          <edgelabel>Must</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20927" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20927" bodyend="20966"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FlipEdge_1ad487e1fca6d58652dd36d5e43a1b17d3" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a992e986cbe8b2dec152152c93104bf1c" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a79c93605b67fe3c287e1052f356a0df5" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a472a07a54fc050f2b05e18c871bb0eed" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a6731cba74822d3e0af08e525fe417de6" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a9922273d6538442c6314aaebade956d3" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1ae280d4dd69b7b4759b4a1bbe2e81e2e6" prot="private" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a4f39e8c37ab1733cffa4ba0c32d6e63c" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a12d6ebe8eef7383b653c4b41abd1658d" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a9dc0507a2e0ca33c72fcee55ea26a17f" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a0e839f0ff29448107b5b265b85644696" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a248bc56f20c43e5a601c330a7f961f80" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>Can</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1adc2dd867b38233d2cc2797151550d9db" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>Cannot</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a51227b5c8aa2841ecfa985044a000cb5" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>Must</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a8058167ca5e0158e33f642d21b6101a9" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1FlipEdge_1a4f2d3670249866db5f4846d99a0086fa" prot="public" virt="non-virtual"><scope>mrmeshpy::FlipEdge</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

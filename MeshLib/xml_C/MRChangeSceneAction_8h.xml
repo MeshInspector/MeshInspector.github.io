@@ -1,0 +1,458 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRChangeSceneAction_8h" kind="file" language="C++">
+    <compoundname>MRChangeSceneAction.h</compoundname>
+    <includes refid="MRHistoryAction_8h" local="no">MRCMesh/MRHistoryAction.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRChangeSceneAction.h</label>
+        <link refid="MRChangeSceneAction_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRHistoryAction.h</label>
+        <link refid="MRHistoryAction_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_ChangeSceneAction_Type</name>
+        <enumvalue id="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4a9581882575e1d3f9dad530a697c419b9" prot="public">
+          <name>MR_ChangeSceneAction_Type_AddObject</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4a8a4108ac08a01ef077cf570d62fe0256" prot="public">
+          <name>MR_ChangeSceneAction_Type_RemoveObject</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" bodystart="19" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRChangeSceneAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" prot="public" static="no">
+        <type>struct <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref></type>
+        <definition>typedef struct MR_HistoryAction MR_HistoryAction</definition>
+        <argsstring></argsstring>
+        <name>MR_HistoryAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="13" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeSceneAction_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" prot="public" static="no">
+        <type>struct <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref></type>
+        <definition>typedef struct MR_std_shared_ptr_MR_Object MR_std_shared_ptr_MR_Object</definition>
+        <argsstring></argsstring>
+        <name>MR_std_shared_ptr_MR_Object</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="14" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeSceneAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" prot="public" static="no">
+        <type>struct <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref></type>
+        <definition>typedef struct MR_std_string MR_std_string</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="15" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeSceneAction_8h_1a65bcd4e7e5c925bf560c8817dd01629b" prot="public" static="no">
+        <type>enum <ref refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4" kindref="member">MR_ChangeSceneAction_Type</ref></type>
+        <definition>typedef enum MR_ChangeSceneAction_Type MR_ChangeSceneAction_Type</definition>
+        <argsstring></argsstring>
+        <name>MR_ChangeSceneAction_Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="22" column="27"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" prot="public" static="no">
+        <type>struct <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref></type>
+        <definition>typedef struct MR_ChangeSceneAction MR_ChangeSceneAction</definition>
+        <argsstring></argsstring>
+        <name>MR_ChangeSceneAction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Change scene action Generated from class <computeroutput>MR::ChangeSceneAction</computeroutput>. Base classes: Direct: (non-virtual) <computeroutput>MR::HistoryAction</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="30" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1a63fc1c8c830b1fd6852dfbeae5768685" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+        <definition>MRC_API MR_ChangeSceneAction * MR_ChangeSceneAction_ConstructFromAnother</definition>
+        <argsstring>(MR_PassBy _other_pass_by, MR_ChangeSceneAction *_other)</argsstring>
+        <name>MR_ChangeSceneAction_ConstructFromAnother</name>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::ChangeSceneAction::ChangeSceneAction</computeroutput>. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangeSceneAction_8h_1adccc0db57f74e7c60053027dfd3cb34c" kindref="member">MR_ChangeSceneAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="35" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="35" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1a9774030695d30e0aaa2127f91bfbcb42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+        <definition>MRC_API const MR_ChangeSceneAction * MR_ChangeSceneAction_OffsetPtr</definition>
+        <argsstring>(const MR_ChangeSceneAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangeSceneAction_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="39" column="36" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="39" declcolumn="36"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1a1ab38dfdb3d15fb18ac712d293e1c5a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+        <definition>MRC_API MR_ChangeSceneAction * MR_ChangeSceneAction_OffsetMutablePtr</definition>
+        <argsstring>(MR_ChangeSceneAction *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_ChangeSceneAction_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="43" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="43" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1afb05e396f3ce4ae2c1b68dc1bc583259" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API const MR_HistoryAction * MR_ChangeSceneAction_UpcastTo_MR_HistoryAction</definition>
+        <argsstring>(const MR_ChangeSceneAction *object)</argsstring>
+        <name>MR_ChangeSceneAction_UpcastTo_MR_HistoryAction</name>
+        <param>
+          <type>const <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeSceneAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="48" column="32" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="48" declcolumn="32"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1a3448c43eab16a69614d039ccf54d44e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref> *</type>
+        <definition>MRC_API MR_HistoryAction * MR_ChangeSceneAction_MutableUpcastTo_MR_HistoryAction</definition>
+        <argsstring>(MR_ChangeSceneAction *object)</argsstring>
+        <name>MR_ChangeSceneAction_MutableUpcastTo_MR_HistoryAction</name>
+        <param>
+          <type><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Upcasts an instance of <computeroutput>MR::ChangeSceneAction</computeroutput> to its base class <computeroutput>MR::HistoryAction</computeroutput>. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="52" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="52" declcolumn="26"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1af35bae7669f5c580f13aaedf3c7a7867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+        <definition>MRC_API MR_ChangeSceneAction * MR_ChangeSceneAction_Construct</definition>
+        <argsstring>(const char *name, const char *name_end, const MR_std_shared_ptr_MR_Object *obj, MR_ChangeSceneAction_Type type)</argsstring>
+        <name>MR_ChangeSceneAction_Construct</name>
+        <param>
+          <type>const char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>name_end</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref> *</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4" kindref="member">MR_ChangeSceneAction_Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructed before removal or addition Generated from constructor <computeroutput>MR::ChangeSceneAction::ChangeSceneAction</computeroutput>. Parameter <computeroutput>name</computeroutput> can not be null. If <computeroutput>name_end</computeroutput> is null, then <computeroutput>name</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>name</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>obj</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>obj</computeroutput> might be preserved in the constructed object. The reference to the parameter <computeroutput>type</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRChangeSceneAction_8h_1adccc0db57f74e7c60053027dfd3cb34c" kindref="member">MR_ChangeSceneAction_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="63" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="63" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1adccc0db57f74e7c60053027dfd3cb34c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeSceneAction_Destroy</definition>
+        <argsstring>(const MR_ChangeSceneAction *_this)</argsstring>
+        <name>MR_ChangeSceneAction_Destroy</name>
+        <param>
+          <type>const <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_ChangeSceneAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="66" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="66" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1aec2d5ef075f35529f5da00098291ebe3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeSceneAction_DestroyArray</definition>
+        <argsstring>(const MR_ChangeSceneAction *_this)</argsstring>
+        <name>MR_ChangeSceneAction_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_ChangeSceneAction</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="69" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="69" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1acac4b544f0626d8879e7161d7f133434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+        <definition>MRC_API MR_ChangeSceneAction * MR_ChangeSceneAction_AssignFromAnother</definition>
+        <argsstring>(MR_ChangeSceneAction *_this, MR_PassBy _other_pass_by, MR_ChangeSceneAction *_other)</argsstring>
+        <name>MR_ChangeSceneAction_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_PassBy</type>
+          <declname>_other_pass_by</declname>
+        </param>
+        <param>
+          <type><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeSceneAction::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="76" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="76" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1a86666f3a633ada935d54a5dc643d813d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref> *</type>
+        <definition>MRC_API MR_std_string * MR_ChangeSceneAction_name</definition>
+        <argsstring>(const MR_ChangeSceneAction *_this)</argsstring>
+        <name>MR_ChangeSceneAction_name</name>
+        <param>
+          <type>const <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeSceneAction::name</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput>MR_std_string_Destroy()</computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="81" column="23" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="81" declcolumn="23"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1ae1f71bbb2a9130c2170f33ae02a30bb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_ChangeSceneAction_action</definition>
+        <argsstring>(MR_ChangeSceneAction *_this, MR_HistoryAction_Type actionType)</argsstring>
+        <name>MR_ChangeSceneAction_action</name>
+        <param>
+          <type><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeSceneAction::action</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="85" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="85" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRChangeSceneAction_8h_1a8eefd68335567d8602b501730caa2838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_ChangeSceneAction_heapBytes</definition>
+        <argsstring>(const MR_ChangeSceneAction *_this)</argsstring>
+        <name>MR_ChangeSceneAction_heapBytes</name>
+        <param>
+          <type>const <ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::ChangeSceneAction::heapBytes</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" line="89" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h" declline="89" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRHistoryAction_8h" kindref="compound">MRCMesh/MRHistoryAction.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="MRChangeSceneAction_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRHistoryAction.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="MRChangeSceneAction_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_shared_ptr_MR_Object.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRChangeSceneAction_8h_1a69dc6868c10c92fb8b8a255b0130d289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4" kindref="member">MR_ChangeSceneAction_Type</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="20" refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4a9581882575e1d3f9dad530a697c419b9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4a9581882575e1d3f9dad530a697c419b9" kindref="member">MR_ChangeSceneAction_Type_AddObject</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="21" refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4a8a4108ac08a01ef077cf570d62fe0256" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4a8a4108ac08a01ef077cf570d62fe0256" kindref="member">MR_ChangeSceneAction_Type_RemoveObject</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="22" refid="MRChangeSceneAction_8h_1a65bcd4e7e5c925bf560c8817dd01629b" refkind="member"><highlight class="normal">}<sp/><ref refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4" kindref="member">MR_ChangeSceneAction_Type</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="MRChangeSceneAction_8h_1a63fc1c8c830b1fd6852dfbeae5768685" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*<ref refid="MRChangeSceneAction_8h_1a63fc1c8c830b1fd6852dfbeae5768685" kindref="member">MR_ChangeSceneAction_ConstructFromAnother</ref>(MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="MRChangeSceneAction_8h_1a9774030695d30e0aaa2127f91bfbcb42" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*<ref refid="MRChangeSceneAction_8h_1a9774030695d30e0aaa2127f91bfbcb42" kindref="member">MR_ChangeSceneAction_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="MRChangeSceneAction_8h_1a1ab38dfdb3d15fb18ac712d293e1c5a2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*<ref refid="MRChangeSceneAction_8h_1a1ab38dfdb3d15fb18ac712d293e1c5a2" kindref="member">MR_ChangeSceneAction_OffsetMutablePtr</ref>(<ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRChangeSceneAction_8h_1afb05e396f3ce4ae2c1b68dc1bc583259" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeSceneAction_8h_1afb05e396f3ce4ae2c1b68dc1bc583259" kindref="member">MR_ChangeSceneAction_UpcastTo_MR_HistoryAction</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="MRChangeSceneAction_8h_1a3448c43eab16a69614d039ccf54d44e6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeColoringActions_8h_1a26fdcccc5668d7a10acc1e27c11d1e56" kindref="member">MR_HistoryAction</ref><sp/>*<ref refid="MRChangeSceneAction_8h_1a3448c43eab16a69614d039ccf54d44e6" kindref="member">MR_ChangeSceneAction_MutableUpcastTo_MR_HistoryAction</ref>(<ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="MRChangeSceneAction_8h_1af35bae7669f5c580f13aaedf3c7a7867" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*<ref refid="MRChangeSceneAction_8h_1af35bae7669f5c580f13aaedf3c7a7867" kindref="member">MR_ChangeSceneAction_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRAddVisualPropertiesMixin_8h_1a9e9b9c2b8a1a0540b204b1b7e6e792f4" kindref="member">MR_std_shared_ptr_MR_Object</ref><sp/>*obj,<sp/><ref refid="MRChangeSceneAction_8h_1a1c64ceac58bf60f4c7d6eb1e966fe9e4" kindref="member">MR_ChangeSceneAction_Type</ref><sp/>type);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRChangeSceneAction_8h_1adccc0db57f74e7c60053027dfd3cb34c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1adccc0db57f74e7c60053027dfd3cb34c" kindref="member">MR_ChangeSceneAction_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRChangeSceneAction_8h_1aec2d5ef075f35529f5da00098291ebe3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1aec2d5ef075f35529f5da00098291ebe3" kindref="member">MR_ChangeSceneAction_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="MRChangeSceneAction_8h_1acac4b544f0626d8879e7161d7f133434" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*<ref refid="MRChangeSceneAction_8h_1acac4b544f0626d8879e7161d7f133434" kindref="member">MR_ChangeSceneAction_AssignFromAnother</ref>(<ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_this,<sp/>MR_PassBy<sp/>_other_pass_by,<sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="MRChangeSceneAction_8h_1a86666f3a633ada935d54a5dc643d813d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRCtm_8h_1a69dc6868c10c92fb8b8a255b0130d289" kindref="member">MR_std_string</ref><sp/>*<ref refid="MRChangeSceneAction_8h_1a86666f3a633ada935d54a5dc643d813d" kindref="member">MR_ChangeSceneAction_name</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="MRChangeSceneAction_8h_1ae1f71bbb2a9130c2170f33ae02a30bb3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1ae1f71bbb2a9130c2170f33ae02a30bb3" kindref="member">MR_ChangeSceneAction_action</ref>(<ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_this,<sp/><ref refid="MRHistoryAction_8h_1a1412f92a5edcca34d4a7f907dd216741" kindref="member">MR_HistoryAction_Type</ref><sp/>actionType);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="MRChangeSceneAction_8h_1a8eefd68335567d8602b501730caa2838" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRChangeSceneAction_8h_1a8eefd68335567d8602b501730caa2838" kindref="member">MR_ChangeSceneAction_heapBytes</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRChangeSceneAction_8h_1abd1d7d1298b4c9ffc69f9cf663e836ac" kindref="member">MR_ChangeSceneAction</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRChangeSceneAction.h"/>
+  </compounddef>
+</doxygen>

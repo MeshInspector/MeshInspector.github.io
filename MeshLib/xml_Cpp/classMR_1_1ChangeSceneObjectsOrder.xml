@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeSceneObjectsOrder" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeSceneObjectsOrder</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeSceneObjectsOrder_8h" local="no">MRChangeSceneObjectsOrder.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga19fb2c5245ef48fe78651c37f650ea27" kind="variable"><name>childrenOrder_</name></member>
+      <member refid="group__GeneralGroup_1ga32dedc19d4b8af7fb8b7dd6bd12fce64" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga3dbdb30878462f6929f3f80ba5087cc6" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac98e7e6f6de1cbc791db5f23b6409542" kind="function"><name>ChangeSceneObjectsOrder</name></member>
+      <member refid="group__GeneralGroup_1gad692afbfc325fae56914094bc8b1f71d" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga48cb146f899e3b77bed59f4bd1073e11" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1gae5412f501f79caacfb257cd392119c50" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for scene objects order change </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1ChangeSceneObjectsOrder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeSceneObjectsOrder</label>
+        <link refid="classMR_1_1ChangeSceneObjectsOrder"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeSceneObjectsOrder.h" bodystart="16" bodyend="58"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga48cb146f899e3b77bed59f4bd1073e11" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1gac98e7e6f6de1cbc791db5f23b6409542" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>ChangeSceneObjectsOrder</name></member>
+      <member refid="group__GeneralGroup_1ga19fb2c5245ef48fe78651c37f650ea27" prot="private" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>childrenOrder_</name></member>
+      <member refid="group__GeneralGroup_1gae5412f501f79caacfb257cd392119c50" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gad692afbfc325fae56914094bc8b1f71d" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga3dbdb30878462f6929f3f80ba5087cc6" prot="private" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga32dedc19d4b8af7fb8b7dd6bd12fce64" prot="private" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeSceneObjectsOrder</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

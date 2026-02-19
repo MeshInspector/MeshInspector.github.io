@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Dirty" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Dirty</compoundname>
+    <includes refid="MRVisualObject_8h" local="no">MRVisualObject.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1Dirty_1a365faf5e38062ddadd121c9f543bf71d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t MR::Dirty::f</definition>
+        <argsstring></argsstring>
+        <name>f</name>
+        <qualifiedname>MR::Dirty::f</qualifiedname>
+        <initializer>{<ref refid="group__VisualObjectGroup_1gga03255e831f4895337e7cf27d64e51269a5f0ff2832e18692b2704a662acfc6b2a" kindref="member">DIRTY_ALL</ref>}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="102" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="102" bodyend="102"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="structMR_1_1Dirty_1a71af917001468a850a824a320316bee5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Dirty::operator uint32_t &amp;</definition>
+        <argsstring>()</argsstring>
+        <name>operator uint32_t &amp;</name>
+        <qualifiedname>MR::Dirty::operator uint32_t &amp;</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="103" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="103" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Dirty_1a6413c49d02f7cf2203142d292b55f311" prot="public" static="no" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Dirty::operator uint32_t</definition>
+        <argsstring>() const</argsstring>
+        <name>operator uint32_t</name>
+        <qualifiedname>MR::Dirty::operator uint32_t</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="104" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="104" bodyend="104"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Dirty_1a193091023ad909fc52546edecd127232" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Dirty::Dirty</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>Dirty</name>
+        <qualifiedname>MR::Dirty::Dirty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="106" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Dirty_1a821f9a5ba85a71d42db99a9fdff0e8b6" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Dirty::Dirty</definition>
+        <argsstring>(const Dirty &amp;) noexcept</argsstring>
+        <name>Dirty</name>
+        <qualifiedname>MR::Dirty::Dirty</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="107" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="107" bodyend="107"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Dirty_1a5a46ea8b1d3e585f29a5761d2f2fc21a" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::Dirty::Dirty</definition>
+        <argsstring>(Dirty &amp;&amp;) noexcept=default</argsstring>
+        <name>Dirty</name>
+        <qualifiedname>MR::Dirty::Dirty</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="108" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Dirty_1a4b00ee48141fd2ae03df7ace8df5ac78" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;</type>
+        <definition>Dirty &amp; MR::Dirty::operator=</definition>
+        <argsstring>(const Dirty &amp;) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::Dirty::operator=</qualifiedname>
+        <param>
+          <type>const <ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="109" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Dirty_1a76c3682b5945100a319d092463d942e5" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;</type>
+        <definition>Dirty &amp; MR::Dirty::operator=</definition>
+        <argsstring>(Dirty &amp;&amp;) noexcept=default</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::Dirty::operator=</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="110" column="11"/>
+      </memberdef>
+      <memberdef kind="function" id="structMR_1_1Dirty_1a3b3cf2d1593909573673d3d7a1d0d17c" prot="public" static="no" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> &amp;</type>
+        <definition>Dirty &amp; MR::Dirty::operator=</definition>
+        <argsstring>(uint32_t b) noexcept</argsstring>
+        <name>operator=</name>
+        <qualifiedname>MR::Dirty::operator=</qualifiedname>
+        <param>
+          <type>uint32_t</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="111" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Marks dirty buffers that need to be uploaded to OpenGL. <ref refid="structMR_1_1Dirty" kindref="compound">Dirty</ref> flags must be moved together with renderObj_, but not copied since renderObj_ is not copied as well </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" line="100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRVisualObject.h" bodystart="101" bodyend="112"/>
+    <listofallmembers>
+      <member refid="structMR_1_1Dirty_1a193091023ad909fc52546edecd127232" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>Dirty</name></member>
+      <member refid="structMR_1_1Dirty_1a821f9a5ba85a71d42db99a9fdff0e8b6" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>Dirty</name></member>
+      <member refid="structMR_1_1Dirty_1a5a46ea8b1d3e585f29a5761d2f2fc21a" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>Dirty</name></member>
+      <member refid="structMR_1_1Dirty_1a365faf5e38062ddadd121c9f543bf71d" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>f</name></member>
+      <member refid="structMR_1_1Dirty_1a6413c49d02f7cf2203142d292b55f311" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>operator uint32_t</name></member>
+      <member refid="structMR_1_1Dirty_1a71af917001468a850a824a320316bee5" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>operator uint32_t &amp;</name></member>
+      <member refid="structMR_1_1Dirty_1a4b00ee48141fd2ae03df7ace8df5ac78" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>operator=</name></member>
+      <member refid="structMR_1_1Dirty_1a76c3682b5945100a319d092463d942e5" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>operator=</name></member>
+      <member refid="structMR_1_1Dirty_1a3b3cf2d1593909573673d3d7a1d0d17c" prot="public" virt="non-virtual"><scope>MR::Dirty</scope><name>operator=</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

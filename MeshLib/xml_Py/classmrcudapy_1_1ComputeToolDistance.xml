@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrcudapy_1_1ComputeToolDistance" kind="class" language="Python" prot="public">
+    <compoundname>mrcudapy::ComputeToolDistance</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">meshlib.mrmeshpy.IComputeToolDistance</basecompoundref>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrcudapy_1_1ComputeToolDistance_1aeb4d3e4516c175d6d8e4c71fd4c8a0b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.ComputeToolDistance.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrcudapy.ComputeToolDistance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="22" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1ComputeToolDistance_1a6c9ed90d622c75042e03434f2022639f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrcudapy.ComputeToolDistance.computeToolDistance</definition>
+        <argsstring>(self, meshlib.mrmeshpy.std_vector_float output, meshlib.mrmeshpy.Vector3i dims, float voxelSize, meshlib.mrmeshpy.Vector3f origin, float padding)</argsstring>
+        <name>computeToolDistance</name>
+        <qualifiedname>mrcudapy.ComputeToolDistance.computeToolDistance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.std_vector_float</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3i</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3f</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>padding</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="24" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1ComputeToolDistance_1a416c48b0737aa904ef8e9586100aa4aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.Vector3i</type>
+        <definition> meshlib.mrmeshpy.Vector3i mrcudapy.ComputeToolDistance.prepare</definition>
+        <argsstring>(self, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.Polyline3 toolpath, meshlib.mrmeshpy.EndMillTool toolSpec)</argsstring>
+        <name>prepare</name>
+        <qualifiedname>mrcudapy.ComputeToolDistance.prepare</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3i</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Polyline3</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.EndMillTool</type>
+          <declname>toolSpec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="27" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrcudapy_1_1ComputeToolDistance_1ab354603bc9af1b7128aad60ecb88bc86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.Vector3i</type>
+        <definition> meshlib.mrmeshpy.Vector3i mrcudapy.ComputeToolDistance.prepare</definition>
+        <argsstring>(self, meshlib.mrmeshpy.Vector3i dims, meshlib.mrmeshpy.Polyline3 toolpath, meshlib.mrmeshpy.Polyline2 toolProfile)</argsstring>
+        <name>prepare</name>
+        <qualifiedname>mrcudapy.ComputeToolDistance.prepare</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3i</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Polyline3</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Polyline2</type>
+          <declname>toolProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="30" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="30" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Cuda::ComputeToolDistance
+
+CUDA implementation of tool distance computation
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>meshlib::mrmeshpy::IComputeToolDistance</label>
+      </node>
+      <node id="1">
+        <label>mrcudapy.ComputeToolDistance</label>
+        <link refid="classmrcudapy_1_1ComputeToolDistance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>meshlib::mrmeshpy::IComputeToolDistance</label>
+      </node>
+      <node id="1">
+        <label>mrcudapy.ComputeToolDistance</label>
+        <link refid="classmrcudapy_1_1ComputeToolDistance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrcudapy.pyi" bodystart="16" bodyend="31"/>
+    <listofallmembers>
+      <member refid="classmrcudapy_1_1ComputeToolDistance_1aeb4d3e4516c175d6d8e4c71fd4c8a0b5" prot="public" virt="non-virtual"><scope>mrcudapy::ComputeToolDistance</scope><name>__init__</name></member>
+      <member refid="classmrcudapy_1_1ComputeToolDistance_1a6c9ed90d622c75042e03434f2022639f" prot="public" virt="non-virtual"><scope>mrcudapy::ComputeToolDistance</scope><name>computeToolDistance</name></member>
+      <member refid="classmrcudapy_1_1ComputeToolDistance_1a416c48b0737aa904ef8e9586100aa4aa" prot="public" virt="non-virtual"><scope>mrcudapy::ComputeToolDistance</scope><name>prepare</name></member>
+      <member refid="classmrcudapy_1_1ComputeToolDistance_1ab354603bc9af1b7128aad60ecb88bc86" prot="public" virt="non-virtual"><scope>mrcudapy::ComputeToolDistance</scope><name>prepare</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

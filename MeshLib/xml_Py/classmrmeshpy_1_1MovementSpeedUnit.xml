@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MovementSpeedUnit" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MovementSpeedUnit</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MovementSpeedUnit_1ac6df1e2cb6b29636bf6f3a63713961af" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MovementSpeedUnit::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1MovementSpeedUnit" kindref="compound">MovementSpeedUnit</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36279" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MovementSpeedUnit_1a55fb97c7fae0eb614c6c9eb031ad50b0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MovementSpeedUnit::_count</definition>
+        <argsstring></argsstring>
+        <name>_count</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit._count</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MovementSpeedUnit" kindref="compound">MovementSpeedUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36280" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36280" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MovementSpeedUnit_1aa5e68daa647fbe3168077cc177be4b0e" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MovementSpeedUnit::centimetersPerSecond</definition>
+        <argsstring></argsstring>
+        <name>centimetersPerSecond</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.centimetersPerSecond</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MovementSpeedUnit" kindref="compound">MovementSpeedUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MovementSpeedUnit_1a0492c449e398d4d6530107a0154c2683" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MovementSpeedUnit::feetPerSecond</definition>
+        <argsstring></argsstring>
+        <name>feetPerSecond</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.feetPerSecond</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MovementSpeedUnit" kindref="compound">MovementSpeedUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36282" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MovementSpeedUnit_1a6b4105e757230609afd0a78bca91f865" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MovementSpeedUnit::inchesPerSecond</definition>
+        <argsstring></argsstring>
+        <name>inchesPerSecond</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.inchesPerSecond</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MovementSpeedUnit" kindref="compound">MovementSpeedUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36283" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MovementSpeedUnit_1a7034c15f14c961cc790fe0b185a0b9fe" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MovementSpeedUnit::metersPerSecond</definition>
+        <argsstring></argsstring>
+        <name>metersPerSecond</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.metersPerSecond</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MovementSpeedUnit" kindref="compound">MovementSpeedUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36284" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MovementSpeedUnit_1a8fcff975e407230a1a81d88eeac553ec" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MovementSpeedUnit::micronsPerSecond</definition>
+        <argsstring></argsstring>
+        <name>micronsPerSecond</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.micronsPerSecond</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MovementSpeedUnit" kindref="compound">MovementSpeedUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MovementSpeedUnit_1ad519aceba38c5b438734e1599633a75c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MovementSpeedUnit::millimetersPerSecond</definition>
+        <argsstring></argsstring>
+        <name>millimetersPerSecond</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.millimetersPerSecond</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MovementSpeedUnit" kindref="compound">MovementSpeedUnit</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36286" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36286" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1a36968d7c80e2ae5300614eb3028802a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MovementSpeedUnit.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36287" bodyend="36288"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1abf77af97de3e0e9494d3dd5990f6b099" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MovementSpeedUnit.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36289" bodyend="36290"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1aa2d56518f9ba9826b958a895604224cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MovementSpeedUnit.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36291" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36291" bodyend="36292"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1acd93084b88bad5ef3b0f47e8b7a1f771" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MovementSpeedUnit.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36293" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36293" bodyend="36294"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1aaf45150b3a32edba6b169087459bd893" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MovementSpeedUnit.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36295" bodyend="36296"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1acbbce224cf435c4669692b2e6104c0ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MovementSpeedUnit.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36297" bodyend="36298"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1afe4364d11e08492c4b08fe19e8e62f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MovementSpeedUnit.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36299" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36299" bodyend="36300"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1a2cf48058106f8d7ff427b15fd3a76334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MovementSpeedUnit.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36301" bodyend="36302"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1a0fa8c8f977ab357de04f0a4d66abd550" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MovementSpeedUnit.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36303" bodyend="36304"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1a59badc689d047ec8ee0b486b9f068f09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MovementSpeedUnit.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36305" bodyend="36306"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1ad816622964c787f2c6c58480efe05dae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MovementSpeedUnit.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36308" bodyend="36309"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MovementSpeedUnit_1ad3dc2d29a214a24506d1ceb2ec61b72e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MovementSpeedUnit.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.MovementSpeedUnit.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36311" bodyend="36312"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  micronsPerSecond
+
+  millimetersPerSecond
+
+  centimetersPerSecond
+
+  metersPerSecond
+
+  inchesPerSecond
+
+  feetPerSecond
+
+  _count
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MovementSpeedUnit</label>
+        <link refid="classmrmeshpy_1_1MovementSpeedUnit"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_count</edgelabel>
+          <edgelabel>centimetersPerSecond</edgelabel>
+          <edgelabel>feetPerSecond</edgelabel>
+          <edgelabel>inchesPerSecond</edgelabel>
+          <edgelabel>metersPerSecond</edgelabel>
+          <edgelabel>micronsPerSecond</edgelabel>
+          <edgelabel>millimetersPerSecond</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36261" bodyend="36312"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1a36968d7c80e2ae5300614eb3028802a3" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1abf77af97de3e0e9494d3dd5990f6b099" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1aa2d56518f9ba9826b958a895604224cc" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1acd93084b88bad5ef3b0f47e8b7a1f771" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1aaf45150b3a32edba6b169087459bd893" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1acbbce224cf435c4669692b2e6104c0ed" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1ac6df1e2cb6b29636bf6f3a63713961af" prot="private" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1afe4364d11e08492c4b08fe19e8e62f05" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1a2cf48058106f8d7ff427b15fd3a76334" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1a0fa8c8f977ab357de04f0a4d66abd550" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1a59badc689d047ec8ee0b486b9f068f09" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1a55fb97c7fae0eb614c6c9eb031ad50b0" prot="protected" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>_count</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1aa5e68daa647fbe3168077cc177be4b0e" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>centimetersPerSecond</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1a0492c449e398d4d6530107a0154c2683" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>feetPerSecond</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1a6b4105e757230609afd0a78bca91f865" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>inchesPerSecond</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1a7034c15f14c961cc790fe0b185a0b9fe" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>metersPerSecond</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1a8fcff975e407230a1a81d88eeac553ec" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>micronsPerSecond</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1ad519aceba38c5b438734e1599633a75c" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>millimetersPerSecond</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1ad816622964c787f2c6c58480efe05dae" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1MovementSpeedUnit_1ad3dc2d29a214a24506d1ceb2ec61b72e" prot="public" virt="non-virtual"><scope>mrmeshpy::MovementSpeedUnit</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

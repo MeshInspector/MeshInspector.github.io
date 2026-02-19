@@ -1,0 +1,1964 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VisualObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VisualObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1Object" prot="public" virt="non-virtual">mrmeshpy.Object</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1FeatureObject" prot="public" virt="non-virtual">mrmeshpy.FeatureObject</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1MeasurementObject" prot="public" virt="non-virtual">mrmeshpy.MeasurementObject</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1ObjectLabel" prot="public" virt="non-virtual">mrmeshpy.ObjectLabel</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1ObjectLinesHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectLinesHolder</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1ObjectMeshHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectMeshHolder</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1ObjectPointsHolder" prot="public" virt="non-virtual">mrmeshpy.ObjectPointsHolder</derivedcompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VisualObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.VisualObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1aa76473a6f0c13bfc1014d96e47dfdae5">StaticClassName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a08d60e51ea7f3165f4c08772d58e0f50">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a0f0ba8d62269b10bbff9b36246f7a7d4">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a76efd87cab10d8328311f597e0cd68b8">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a3e9a467ae77e792262cffb09b38cce45">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1ae7d1b64121617317ad460874680fbffb">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a9f771fceacd8a496939afc60f25543c0">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1a7eb9657fa3a50c124c95f2cd27fead99">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1ab22e618b82508e4bccfd63e97ab31df2">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a7e230027333811cc1efb1de2dfb96dc9">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a898363dabaf8566d1edb5e6c97cd1cc3">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a3849240912791f4cc0a164e9df9aa429">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a2177343685c78ae11840c5dff26e1954">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1afcbad577026c593a96ccb00ae84a80df">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1ab52dac0c3e8a0c0901a35c88886e851a">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a30960e1f45d058e80020b0bf9959dc88">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1ab5309127bc965134eeaeb640ac037c61">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a702be0a2ab3463d95c025adb40b8a38b">StaticClassName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72064" bodyend="72065"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VisualObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.VisualObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1af8199b682da32e4d8c5cfdbe423a1dd4">StaticClassNameInPlural</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a2d24ec517549cc15f27aa3424855f88e">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a6079d61654468dae4b8cb6b1a99399aa">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1ac8a01614df85e65f2f3a287d49a5e22b">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a0775d8aa7973b5eb6175e3f46f782f52">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1ae1f11bb1ce10bd062961e68c8c3d6333">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1ae00f673b3c233b01f2583b9535e48127">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1a847569f216190c0c99a695f4736afbf8">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1aeb34592484cf8164e55318498c6fb1d9">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a9ad0ae2a3be633d080d7f26a7c9cb8c9">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1ad541cdc627705d31cb21b7113e728dcd">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1ab1d2d1ef1ee50893f78ae456b141bbef">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a8fe31de87fa8c9df4b6254322e107ed6">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1aafd17b254a522618853d770e0f251270">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a00896c199b1b2d96463b0c6a9a054f6c">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a64c1998015baa982a2e8a08bc7b5bf52">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1af26d310c4cc77b4a19347427313cfb7c">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a06716ae3375a596e99867c6bcbaa5feb">StaticClassNameInPlural</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72067" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72067" bodyend="72068"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a2fc458fce133a9ff45056ce820e23234" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VisualObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.VisualObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a59d494c503f96c13dc2ec927bc34ca1e">StaticTypeName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a468b1514fcb9d262300ab88175c6de78">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1af4cb33c6d31ac2a34d0ab305e0dcbe06">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a4781119ce13de18fa2db2836142196e4">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a61ec91e17990fbfb2b2a0da7405540b8">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a29962347137e68f689c4aa48ad119716">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1ae037f8278647af9487b05813bc1b0a6e">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1aac2e75a4101f6351238ae41469ad13b7">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a8af251dc40ca4f08784d632bdc99ed82">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1ad5b7ea2c05dafbc705ae1afae23bd348">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1af11498db2ee39361857b833ffbca18fd">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1aa497a195c8086c0b64e0739b83741135">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a87846dafe1d3e18cfad37e5cb1a810a6">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1ab22531e04f74da2bec22df2bffe492cf">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1aad946865ab55a9919b28c6e943a8203c">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a985acb1a314c65eec0c07e1edc298de0">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a40f06def825d6aad76caacf36c545772">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a52d2fc888aaf4cda55361f8c80cea733">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1abfb76acc6684b6d225a64fb5189a0e82">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a7495f33cd34305919caaa1dfb68c75ae">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1a0451927b627cd46a3c39240e734095e7">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a0502099bc6ddfb927fd58124b2fe103a">StaticTypeName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72070" bodyend="72071"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.VisualObject.getWorldBox</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>getWorldBox</name>
+        <qualifiedname>mrmeshpy.VisualObject.getWorldBox</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1aa70d89231083d21c4702de52efe4b037">getWorldBox</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1aed7c96fb9d5943dfb8b01c55eeb47cf6">getWorldBox</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1a54596b7e6cf3d95356455b1646909346">getWorldBox</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1a3ffd95e9ae64f3fa3e3f1b78ba9d2657">getWorldBox</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a6f5db0cc43a881ac52561a4645bf4067">getWorldBox</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns bounding box of this object in given viewport in world coordinates,
+to get world bounding box of the object with all child objects, please call Object::getWorldTreeBox method
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72073" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72073" bodyend="72077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1acc91ecedf69cebccb4b80aec9dc0f662" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VisualObject.render</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>render</name>
+        <qualifiedname>mrmeshpy.VisualObject.render</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>draws this object for visualization
+Returns true if something was drawn.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72079" bodyend="72083"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a3abff6c6fabf3fe8e9aa545af55f2f9f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.renderForPicker</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>renderForPicker</name>
+        <qualifiedname>mrmeshpy.VisualObject.renderForPicker</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>draws this object for picking
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72085" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72085" bodyend="72088"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VisualObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a78e6900dc386c6dcc7d484090c140c74">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a44e5094398c2d722e8f76c60d0457965">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1ad0e48950b1d06ccdde14433a4958b3ff">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a6c2cc6bd88924946089ae0df20600f0a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1ac22997ccae1372440154b18b40bcc096">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1aee3c9c6013b2f9ea032ae48cf2f136cd">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a5e6cd93bf59fcbeb0b0c6f05c401caa9">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a01439225547a22c0e47983d8ce72088d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1ad39016caf2db5099aa1f469a6d3c3c39">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a707b2540d964efa703893afe49306580">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a5a8936c1eaa24d70f6c024352b277912">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeasurementObject_1a4d0ba97b8361ffac9e4ec2e0d5065d37">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1aa11c35477076924c1d3101a45d78019c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1aeeee8765f9cedaf64cb20f3385a745d3">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1aba87056b804a68adbd7532069c0c1503">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a24f2e6fd3d90352d42be66772b68adc0">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1ae89c55eb14c80dcca14c9e11137e09fa">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a969a9885ff3b33b06a0ada8c222f6e7c">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1abd61dce95267032fba31a6b6b8398cef">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a7723030d0f3da83fdd9f9f3deb67472d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a1b8a3423ebe5c2c2bfe68309b0180d64">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a9eed396027becfde7d2590df55a49171">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a88addf3f7eac5ac0fecfa218fa66c699">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a07e978419c9e85e79e42d49188d03e2f">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a4c5ec9507fa15607f49f6734012fdb58">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a8493c2aba5fb659322bb9a2cf620027e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a35ccb3c76197823708dc16e702a0c744">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a3bf07ea0a14f3e7a3fcfe0fefb6f1af8">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1a6dbbbc0852325c729144d57e5cc184c6">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1aaf02f7d1b6182f887248f9444d29a148">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a4633876e20ed9435ac2940716253b3f4">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72089" bodyend="72090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VisualObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.VisualObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a56da686c9c9740bc6bd8b96490bec744">className</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a148d788c52ccf9f86beaf838efb78957">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1abead0b7f35e9df9a59edf120b387a397">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1aaed3f9c36b6441de16feb796b6a64e04">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a2480dce940888372c26cbcd0b8236f9d">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1afbc5a5cee57fe29a38e4539dbc2e09ae">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1ab4779c6f90afaa1ab6ef95d5354e1a18">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1a881200f79aca79b5fc872c334cdd718a">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a1a3257d0cef8a8dd7859cbefcd03cf5a">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a11a411ea161ed418068927262a83cf3b">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a7dfbccad2835d0f6f74a50b880200d3e">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1aa541cb0ec3835b6b9f275bedfee1f6fa">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1aed7318962783f119a0f3b64b332e100f">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a8ccdad7dffc69a2a55488cbaca487680">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a7b904107153f77a33559f8d5d5970c1e">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a5d93463592d8efab1ed4677e165fc1ef">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1af61fd14aa104d63d47a4e75a1d16f845">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1ae4b88929ee48382bb07c3d22ce9f397a">className</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72091" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72091" bodyend="72092"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VisualObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.VisualObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1af7aa1dd011a7ad1260f8e39eadc81b79">classNameInPlural</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a23b13a0a863e744cd0334bdb2d49133e">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a53aab371be8dbe4e23e0992212f032e1">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a125bc76883261bbaad97ca7c51a0dd2a">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a4b85a21a4b26883cb9b4974663a0170b">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a340518798b1921d0d1e8b6f9de553317">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1ac6575cb2096dfa85f7474ca964215fe6">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1a94f10096cd09a952f110f1123bc93cc9">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a8c22af6955cd46354fb8e65f58569619">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1ad52b81f2012ce9e94c78b93e31140cd2">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a0bf0ab6bb49a91a70323cb8806f1e8ee">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1abaa72dcdff8aa2b06e48be6e78ac3595">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a81a7e0cc86cefe516b274f32ecfd6abb">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1ac0b446132b2fcbf3c29a92fa5a056ed1">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a7e9882cb27436d06921ee4a6caf059b8">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1afaaa56497276ff82239961b011559352">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1a2883dd2265758ed85ed5bc582b150728">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a9c7ddd5d62180a36d6237376aa2836b3">classNameInPlural</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72093" bodyend="72094"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.VisualObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.VisualObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a3cede34187cf92e2953b8c04cc66db22">clone</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a12dc6efe8b7d81f30825123b91ac1082">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a4e27ddaeda8f7c07c2b23ceef768daf6">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1aa87ba2fdb68b1b2541c9963af8a5dcec">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a1bc8bddea8e36a975ed247668424f9e9">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1af34f9bc6a9200561e8f68cddd725835c">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a0a51955f3410656c8857f0147e5a3dec">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1a1d7c1b9a3a166fde6b983b93affb6942">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a69d90eb39a7c8f555722df8156f69463">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1aec10a48c6b97e7eedda9ae313ae7fb9d">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a83edefef20d75676d641281be9ae8a81">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1a0ce5f0f36cb7ebc31e410e151c5775c3">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a74d05289828bf738860653a727be72e9">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1a66929bbabbd9ede0679393a802190c59">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a8a2bbd6705202af2e96e68811bad6874">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a3f4e885d3a38cf6190fb47d9eb70c28a">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a33891c9758158a7a075824c1dbfbe3b0">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a8d6883e2122d697941f9a6773135213f">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1abe8c45473a7e958c91029cbbc5372868">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a9ddb1111f89bf74a9a7188c6eca0f690">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1aed4eb8fd11e08f1930d2d70ce491b43a">clone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1adbdf2840f4922ff77b1792811ae1e1a8">clone</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72095" bodyend="72099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1ae752ebe42b1366e48661b9f506530f7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.copyAllSolidColors</definition>
+        <argsstring>(self, VisualObject other)</argsstring>
+        <name>copyAllSolidColors</name>
+        <qualifiedname>mrmeshpy.VisualObject.copyAllSolidColors</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1aef43054cf4c656b003d29f636d92feec">copyAllSolidColors</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1aca983616fd85b658d04365afee535e57">copyAllSolidColors</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VisualObject" kindref="compound">VisualObject</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set all object solid colors (front/back/etc.) from other object for all viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72100" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72100" bodyend="72103"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a99a68c12bda4b4c07f5ba725b2b2af59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
+        <definition> std_vector_ViewportMask mrmeshpy.VisualObject.getAllVisualizeProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>mrmeshpy.VisualObject.getAllVisualizeProperties</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter_1a12d230fa69ad5580a9302f91c8818369">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55_1a4594786b6deab4bb110fa73c6058d6c8">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a8ffa19554161fd3c786e459d6bcdc42f">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FeatureObject_1a840b68101f6eb43e4abae6222e049566">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1a2a322f59d83788598d4a38fb8f3efcbd">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1a994cad33d6a8028132f72cdd9b0dca98">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1a6a88666654b2ba7770c3ef5c61e8ec2a">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1aa5327811ea066d5d98c044e893255b1e">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a4dadd47e638556e61c5a29b5580f8989">getAllVisualizeProperties</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get all visualize properties masks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72104" bodyend="72107"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a82c638c112056461424bfc09c23925b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VisualObject.getAmbientStrength</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAmbientStrength</name>
+        <qualifiedname>mrmeshpy.VisualObject.getAmbientStrength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns intensity of non-directional light
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72108" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72108" bodyend="72111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1ae0c6dc670480c262a52017d0b1ff5076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.VisualObject.getBackColor</definition>
+        <argsstring>(self, ViewportId viewportId=...)</argsstring>
+        <name>getBackColor</name>
+        <qualifiedname>mrmeshpy.VisualObject.getBackColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backward color of object in given viewport
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72112" bodyend="72115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a9c50e24643b786be0271ce69b3390c9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.VisualObject.getBackColorsForAllViewports</definition>
+        <argsstring>(self)</argsstring>
+        <name>getBackColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.VisualObject.getBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns backward color of object in all viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72116" bodyend="72119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a7f787f2b93a34cfb4d2d1744e2177271" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Box3f" kindref="compound">Box3f</ref></type>
+        <definition> Box3f mrmeshpy.VisualObject.getBoundingBox</definition>
+        <argsstring>(self)</argsstring>
+        <name>getBoundingBox</name>
+        <qualifiedname>mrmeshpy.VisualObject.getBoundingBox</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns cached bounding box of this object in local coordinates
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72120" bodyend="72123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1af2701866ba9629c598b8d6c83056f4f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ColoringType" kindref="compound">ColoringType</ref></type>
+        <definition> ColoringType mrmeshpy.VisualObject.getColoringType</definition>
+        <argsstring>(self)</argsstring>
+        <name>getColoringType</name>
+        <qualifiedname>mrmeshpy.VisualObject.getColoringType</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the current coloring mode of the object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72124" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72124" bodyend="72127"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a4b9ead8b38c035c872a132c5cb24bf5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VisualObject.getDirtyFlags</definition>
+        <argsstring>(self)</argsstring>
+        <name>getDirtyFlags</name>
+        <qualifiedname>mrmeshpy.VisualObject.getDirtyFlags</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns current dirty flags for the object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72128" bodyend="72131"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a11379e0c744f5321294c2f28865a145c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.VisualObject.getFrontColor</definition>
+        <argsstring>(self, bool selected=True, ViewportId viewportId=...)</argsstring>
+        <name>getFrontColor</name>
+        <qualifiedname>mrmeshpy.VisualObject.getFrontColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+          <defval>True</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns color of object when it is selected/not-selected (depending on argument) in given viewport
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72132" bodyend="72135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1aa2808b144a06c6ceb816da6622c52c5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.VisualObject.getFrontColorsForAllViewports</definition>
+        <argsstring>(self, bool selected=True)</argsstring>
+        <name>getFrontColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.VisualObject.getFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns color of object when it is selected/not-selected (depending on argument) in all viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72136" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72136" bodyend="72139"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a0344754bf693ea2f2aea12d9f0ec3854" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VisualObject.getGlobalAlpha</definition>
+        <argsstring>(self, ViewportId viewportId=...)</argsstring>
+        <name>getGlobalAlpha</name>
+        <qualifiedname>mrmeshpy.VisualObject.getGlobalAlpha</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns global transparency alpha of object in given viewport
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72140" bodyend="72143"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1aa6dea7b6b8d6999a2441165e0073951e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__unsigned__char" kindref="compound">ViewportProperty_unsigned_char</ref></type>
+        <definition> ViewportProperty_unsigned_char mrmeshpy.VisualObject.getGlobalAlphaForAllViewports</definition>
+        <argsstring>(self)</argsstring>
+        <name>getGlobalAlphaForAllViewports</name>
+        <qualifiedname>mrmeshpy.VisualObject.getGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns global transparency alpha of object in all viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72144" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72144" bodyend="72147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.VisualObject.getInfoLines</definition>
+        <argsstring>(self)</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>mrmeshpy.VisualObject.getInfoLines</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a2923b7dd1c5fb2a0d72ebf7e346dd482">getInfoLines</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a98de414aae00a3243da639cc137b828a">getInfoLines</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a50b672a65be7b7e345e75ffb1f89d17f">getInfoLines</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1ad443c02a67a280e87d39c752899cc75d">getInfoLines</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a7ea09ad84cdca61d84505611b67484aa">getInfoLines</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1af9f89a101bc8c2e0e2047c01b3196b16">getInfoLines</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1adc56c57b9eb3aff553e4b128a812afca">getInfoLines</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a415f54e82942029e197c986b7602a5d3">getInfoLines</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a1048607d1fdffea151db58ed963fdeb0">getInfoLines</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1adae46eaf8cc2e1361ccca3dc81e335ea">getInfoLines</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return several info lines that can better describe the object in the UI
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72148" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72148" bodyend="72151"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a9b36e627e752037bbe0d6cfeee96dbaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VisualObject.getRedrawFlag</definition>
+        <argsstring>(self, ViewportMask viewportMask)</argsstring>
+        <name>getRedrawFlag</name>
+        <qualifiedname>mrmeshpy.VisualObject.getRedrawFlag</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1af4d061bc0f0a13399144f3337aed1074">getRedrawFlag</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1acceac36a0f3a7d30879ad0f6b41296e3">getRedrawFlag</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if the object must be redrawn (due to dirty flags) in one of specified viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72152" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72152" bodyend="72155"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a9224ef194f3580c35affb61d7a560db2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VisualObject.getShininess</definition>
+        <argsstring>(self)</argsstring>
+        <name>getShininess</name>
+        <qualifiedname>mrmeshpy.VisualObject.getShininess</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the current shininess visual value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72156" bodyend="72159"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a8ac83a9fca121b3f5e6716ed1222a5f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VisualObject.getSpecularStrength</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSpecularStrength</name>
+        <qualifiedname>mrmeshpy.VisualObject.getSpecularStrength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns intensity of reflections
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72160" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72160" bodyend="72163"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a487af7ed5a9684ff50ae73578c31bf4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VisualObject.getVisualizeProperty</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type, ViewportMask viewportMask)</argsstring>
+        <name>getVisualizeProperty</name>
+        <qualifiedname>mrmeshpy.VisualObject.getVisualizeProperty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if the property is set at least in one viewport specified by the mask
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72164" bodyend="72167"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a936f4ea388564c3dc033b5abb39993f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition> ViewportMask mrmeshpy.VisualObject.getVisualizePropertyMask</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>mrmeshpy.VisualObject.getVisualizePropertyMask</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter_1a047131f4d6f07708ce219ace69abc136">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55_1ae24c38c12e95bf204a9061bd48958062">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a0981de2e4663a97f511bc2b6d27d3bb2">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FeatureObject_1a7b7ed6a567132ae14467b9a6d12479ea">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1a627921d7a1585a04c9ff9aeded092e23">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1ab13e38aeb0c31e09015e40caedd7df43">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1a57fe4fe1f7e1397960b0735df502637a">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1adfd38edd1f55d3830f74e675f1b2ab54">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1acaa5b3e199357ccbafaf6857cef88102">getVisualizePropertyMask</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns mask of viewports where given property is set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72168" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72168" bodyend="72171"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VisualObject.globalClippedByPlane</definition>
+        <argsstring>(self, ViewportMask viewportMask=&apos;ViewportMask::any()&apos;)</argsstring>
+        <name>globalClippedByPlane</name>
+        <qualifiedname>mrmeshpy.VisualObject.globalClippedByPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1ViewportMask_1a835d61983f7e4513ee4cfc01bb8a0a00" kindref="member">ViewportMask::any</ref>()&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if this object or any of its parents is clipped by plane in any of given viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72172" bodyend="72175"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition> ViewportMask mrmeshpy.VisualObject.globalClippedByPlaneMask</definition>
+        <argsstring>(self)</argsstring>
+        <name>globalClippedByPlaneMask</name>
+        <qualifiedname>mrmeshpy.VisualObject.globalClippedByPlaneMask</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns all viewports where this object or any of its parents is clipped by plane
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72176" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72176" bodyend="72179"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a1a571d9d02df9a2a9dd723f6a71ce398" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.VisualObject.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.VisualObject.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a62b16119e3432b9c35158f35ca3f1523">heapBytes</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1a4547e044933fcba7f42179b0d72505e5">heapBytes</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a79b7b19a9c02de20a815b6c85930b32f">heapBytes</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1a2f7303b4a6e16d2cea97ba06b1bf4877">heapBytes</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1a66a9da044d1ff0dafad25ee62ec981cb">heapBytes</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1aa7e11fd226a248ba7223ac77557677be">heapBytes</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1ade90b016167c31e2de1d21d9a05bbd62">heapBytes</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1ad732d380377bfa366752ac8594fdf05e">heapBytes</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72180" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72180" bodyend="72183"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VisualObject.isPickable</definition>
+        <argsstring>(self, ViewportMask viewportMask=&apos;ViewportMask::any()&apos;)</argsstring>
+        <name>isPickable</name>
+        <qualifiedname>mrmeshpy.VisualObject.isPickable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1ViewportMask_1a835d61983f7e4513ee4cfc01bb8a0a00" kindref="member">ViewportMask::any</ref>()&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether the object can be picked (by mouse) in any of given viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72184" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72184" bodyend="72187"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a5140b7d1eac8c1736d61cc0459a4a83e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.renderUi</definition>
+        <argsstring>(self, UiRenderParams params)</argsstring>
+        <name>renderUi</name>
+        <qualifiedname>mrmeshpy.VisualObject.renderUi</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UiRenderParams" kindref="compound">UiRenderParams</ref></type>
+          <declname>params</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>draws this object for 2d UI
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72188" bodyend="72191"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1abf55328c86b56d62b4b1654186f4f68f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.resetColors</definition>
+        <argsstring>(self)</argsstring>
+        <name>resetColors</name>
+        <qualifiedname>mrmeshpy.VisualObject.resetColors</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1af9ee0a98ce259adcc5162d34d6f9808d">resetColors</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a84437a0e674b5dac4596ae997219ed33">resetColors</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset all object colors to their default values from the current theme
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72192" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72192" bodyend="72195"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a6c9e2837535628e814ef5dda5e6f9804" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.resetDirty</definition>
+        <argsstring>(self)</argsstring>
+        <name>resetDirty</name>
+        <qualifiedname>mrmeshpy.VisualObject.resetDirty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resets all dirty flags (except for cache flags that will be reset automatically on cache update)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72196" bodyend="72199"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a7878a1ddebce740b0874891ca28193b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.resetDirtyExceptMask</definition>
+        <argsstring>(self, int mask)</argsstring>
+        <name>resetDirtyExceptMask</name>
+        <qualifiedname>mrmeshpy.VisualObject.resetDirtyExceptMask</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset dirty flags without some specific bits (useful for lazy normals update)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72200" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72200" bodyend="72203"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a69ef0caef1ec3fa51cab56ad9959bb22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.resetFrontColor</definition>
+        <argsstring>(self)</argsstring>
+        <name>resetFrontColor</name>
+        <qualifiedname>mrmeshpy.VisualObject.resetFrontColor</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1a4e76507a680cbb5fae987188a2ad43b4">resetFrontColor</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1a2b6ccbafe3df2faed6e745abad21486f">resetFrontColor</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1a0423908e093c4eca009ce81efa161eae">resetFrontColor</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1abc7611457d22550c27df17a2882c2f48">resetFrontColor</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1adc91e90b684c0f6223e1de9a53e21652">resetFrontColor</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>reset basic object colors to their default values from the current theme
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72204" bodyend="72207"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a3d1644b7ff803c36884c9296da2bd460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setAllVisualizeProperties</definition>
+        <argsstring>(self, std_vector_ViewportMask properties)</argsstring>
+        <name>setAllVisualizeProperties</name>
+        <qualifiedname>mrmeshpy.VisualObject.setAllVisualizeProperties</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
+          <declname>properties</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set all visualize properties masks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72208" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72208" bodyend="72211"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a42b4f144aeb3979ad37f0fedfc15e5ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setAmbientStrength</definition>
+        <argsstring>(self, float ambientStrength)</argsstring>
+        <name>setAmbientStrength</name>
+        <qualifiedname>mrmeshpy.VisualObject.setAmbientStrength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>ambientStrength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets intensity of non-directional light
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72212" bodyend="72215"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1aaaccb31a8a316a3da6575115e7f48e2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setBackColor</definition>
+        <argsstring>(self, Color color, ViewportId viewportId=...)</argsstring>
+        <name>setBackColor</name>
+        <qualifiedname>mrmeshpy.VisualObject.setBackColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets backward color of object in given viewport
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72216" bodyend="72219"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1ad509bb820ada532c9f7ac2957aec5726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setBackColorsForAllViewports</definition>
+        <argsstring>(self, ViewportProperty_Color val)</argsstring>
+        <name>setBackColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.VisualObject.setBackColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets backward color of object in all viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72220" bodyend="72223"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a45fe6a0cc0b9e898e6e027a173baae46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setColoringType</definition>
+        <argsstring>(self, ColoringType coloringType)</argsstring>
+        <name>setColoringType</name>
+        <qualifiedname>mrmeshpy.VisualObject.setColoringType</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ColoringType" kindref="compound">ColoringType</ref></type>
+          <declname>coloringType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets coloring mode of the object with given argument
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72224" bodyend="72227"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a883cdf9eb84b10488087440af6534a26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setDirtyFlags</definition>
+        <argsstring>(self, int mask, bool invalidateCaches=True)</argsstring>
+        <name>setDirtyFlags</name>
+        <qualifiedname>mrmeshpy.VisualObject.setDirtyFlags</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a9420d89f0e9d81ef7990811e0db5c691">setDirtyFlags</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1ae2cf69c6b8bbc437fac219147a738433">setDirtyFlags</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1a90370e23c214c82c98540543e9c6f38d">setDirtyFlags</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a21ef2275b0fdb3731afa65b42d24dbf9">setDirtyFlags</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a8e8ef94c4dc4dfb918f87e8c45d88a56">setDirtyFlags</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invalidateCaches</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets some dirty flags for the object (to force its visual update)
+\\param mask is a union of DirtyFlags flags
+\\param invalidateCaches whether to automatically invalidate model caches (pass false here if you manually update the caches)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72228" bodyend="72233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setFrontColor</definition>
+        <argsstring>(self, Color color, bool selected, ViewportId viewportId=...)</argsstring>
+        <name>setFrontColor</name>
+        <qualifiedname>mrmeshpy.VisualObject.setFrontColor</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a1a31ac4a6867a66ac98af8ab8c3697c3">setFrontColor</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets color of object when it is selected/not-selected (depending on argument) in given viewport
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72234" bodyend="72237"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setFrontColorsForAllViewports</definition>
+        <argsstring>(self, ViewportProperty_Color val, bool selected=True)</argsstring>
+        <name>setFrontColorsForAllViewports</name>
+        <qualifiedname>mrmeshpy.VisualObject.setFrontColorsForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets color of object when it is selected/not-selected (depending on argument) in all viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72238" bodyend="72241"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setGlobalAlpha</definition>
+        <argsstring>(self, int alpha, ViewportId viewportId=...)</argsstring>
+        <name>setGlobalAlpha</name>
+        <qualifiedname>mrmeshpy.VisualObject.setGlobalAlpha</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>alpha</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets global transparency alpha of object in given viewport
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72242" bodyend="72245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setGlobalAlphaForAllViewports</definition>
+        <argsstring>(self, ViewportProperty_unsigned_char val)</argsstring>
+        <name>setGlobalAlphaForAllViewports</name>
+        <qualifiedname>mrmeshpy.VisualObject.setGlobalAlphaForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__unsigned__char" kindref="compound">ViewportProperty_unsigned_char</ref></type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets global transparency alpha of object in all viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72246" bodyend="72249"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setGlobalClippedByPlane</definition>
+        <argsstring>(self, bool on, ViewportMask viewportMask=&apos;ViewportMask::all()&apos;)</argsstring>
+        <name>setGlobalClippedByPlane</name>
+        <qualifiedname>mrmeshpy.VisualObject.setGlobalClippedByPlane</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1ViewportMask_1ad265bcbabed580f2fe7dd20c68e7970d" kindref="member">ViewportMask::all</ref>()&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if false deactivates clipped-by-plane for this object and all of its parents, otherwise sets clipped-by-plane for this this object only
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72250" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72250" bodyend="72253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setPickable</definition>
+        <argsstring>(self, bool on, ViewportMask viewportMask=&apos;ViewportMask::all()&apos;)</argsstring>
+        <name>setPickable</name>
+        <qualifiedname>mrmeshpy.VisualObject.setPickable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+          <defval>&apos;<ref refid="classmrmeshpy_1_1ViewportMask_1ad265bcbabed580f2fe7dd20c68e7970d" kindref="member">ViewportMask::all</ref>()&apos;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets the object as can/cannot be picked (by mouse) in all of given viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72254" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72254" bodyend="72257"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setShininess</definition>
+        <argsstring>(self, float shininess)</argsstring>
+        <name>setShininess</name>
+        <qualifiedname>mrmeshpy.VisualObject.setShininess</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>shininess</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets shininess visual value of the object with given argument
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72258" bodyend="72261"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setSpecularStrength</definition>
+        <argsstring>(self, float specularStrength)</argsstring>
+        <name>setSpecularStrength</name>
+        <qualifiedname>mrmeshpy.VisualObject.setSpecularStrength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>specularStrength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets intensity of reflections
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72262" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72262" bodyend="72265"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setUseDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(self, bool useDefaultScenePropertiesOnDeserialization)</argsstring>
+        <name>setUseDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>mrmeshpy.VisualObject.setUseDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useDefaultScenePropertiesOnDeserialization</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set whether the scene-related properties should get their values from SceneColors and SceneSettings instances
+rather than from the input data on deserialization
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72266" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72266" bodyend="72270"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setVisualizeProperty</definition>
+        <argsstring>(self, bool value, AnyVisualizeMaskEnum type, ViewportMask viewportMask)</argsstring>
+        <name>setVisualizeProperty</name>
+        <qualifiedname>mrmeshpy.VisualObject.setVisualizeProperty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set visual property in all viewports specified by the mask
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72271" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72271" bodyend="72274"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.setVisualizePropertyMask</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type, ViewportMask viewportMask)</argsstring>
+        <name>setVisualizePropertyMask</name>
+        <qualifiedname>mrmeshpy.VisualObject.setVisualizePropertyMask</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>set visual property mask
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72275" bodyend="72278"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.VisualObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.VisualObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a306197efc63015a901bb1d87a6b74f23">shallowClone</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a1d2bfb619159fc0a3c31e5f8e4c5e855">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a3cf97dad78bfa4d75340504a970a0c2c">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a017a2fa27d467a7e3113450b3e76bfc4">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a2dce5b23cbf3a8c59c1f022eb6eeb51c">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1aefe7826eefa884545ec3a25e85279711">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1ae277cf72dcad1ae300fe560003afdf58">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1a270bf3bb4e1d5ebe595bc72c4b192aa3">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a880506f01e0ee9219a5b770e47966083">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1abb39835769f1d417f7f03789d04f762a">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a8d33c4e7cb486c5b6ee8423373d416f6">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1aa4fb859df3557e279340755c13cad777">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1acc666f41f06a7e1c289a22ed5fc97e5a">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1aa2ca6534ff568a978cd63472c5841437">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a817afa6f2021486ff85de4ade8900c6f">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1ad96af8f45bacc210de03b1f13dc696dd">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1a5cfa1bacbd798378476393ac06694d38">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a31dea42dba989d6f4b0e1a438c674290">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1aaa720c51c066293abe68efa3b0d3737d">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1ae5dbe12cbbc7cc1c9c03518b90c49192">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1a7047545b95b7b31ac712919f2413247b">shallowClone</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a174d6d17b7a911b0d5ef16b5b5bd830b">shallowClone</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72279" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72279" bodyend="72283"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a1982e8baf3d180cb968085525a988ec4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.showName</definition>
+        <argsstring>(self, bool on)</argsstring>
+        <name>showName</name>
+        <qualifiedname>mrmeshpy.VisualObject.showName</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>on</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>shows/hides object name in all viewports
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72285" bodyend="72288"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1adf37fc4271039b5e74b29185ddbd35e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VisualObject.showName</definition>
+        <argsstring>(self)</argsstring>
+        <name>showName</name>
+        <qualifiedname>mrmeshpy.VisualObject.showName</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns whether object name is shown in any viewport
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72290" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72290" bodyend="72293"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1af397dd03ebfb70c972d3c4b39e52fc51" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VisualObject.supportsVisualizeProperty</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>mrmeshpy.VisualObject.supportsVisualizeProperty</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter_1ab7dca2824f7c5f179cdb8875c3b0fef1">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55_1aa62951dcc0fb773998472ba3368ea0bc">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a25738fcf06e9b13f84b8472c86770caa">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FeatureObject_1a1d424208c478b75ec64eccd64a0d78d6">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1a3da9a9950b496f5f6239dddeb246887b">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1aaf9980af82046f462a024730059368b0">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1a20924da44458776bdc8ae1d585d13339">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1aa3230af9f93805874bd860d59bf78c85">supportsVisualizeProperty</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if this class supports the property `type`. Otherwise passing it to the functions below is illegal.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72294" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72294" bodyend="72297"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1afccac4560acbe3eb1403c494d2d9b197" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VisualObject.toggleVisualizeProperty</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type, ViewportMask viewportMask)</argsstring>
+        <name>toggleVisualizeProperty</name>
+        <qualifiedname>mrmeshpy.VisualObject.toggleVisualizeProperty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+          <declname>viewportMask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>toggle visual property in all viewports specified by the mask
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72298" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72298" bodyend="72301"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a0e188ed95f73756841030840741720e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.VisualObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.VisualObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1afa703704e5f68c3a465825a46cf4a5bf">typeName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AngleMeasurementObject_1a880d2862b045f9d6bbcf6ba21311b584">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a391c0bfd1a55b06b1de0f33874ddf0de">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1ae6d15b14c42b71b272fa0e39a73c23d3">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a7007f9ec38b4c2c61176f1c3e0990e8c">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1DistanceMeasurementObject_1a140ed40e13487ae65c40a9ac0d45bd2c">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1afa7d13e6a3c01fdbe0dd30dd27213202">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectDistanceMap_1a728f9c3b70bcc06c8995b5e7208958bb">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectGcode_1a1a21c672f5f041a5f57deafc67794e3f">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLabel_1a801dbab12a1ed2b4d735494892632080">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLines_1a64022fd1c53b41a5116e1f9b62016c48">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectLinesHolder_1a3d74f153344e45ee25a3ab78a883ba4a">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMesh_1a33edc6ff466c80f1b112a02c315e9ddc">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectMeshHolder_1aa24e5842efc9ba794b8087b11bf64c40">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPoints_1a9cc9f03414ab03f8e8476c20fdc9aed8">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectPointsHolder_1ae619aa1d3ffa919568541313c7f6f7dd">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ObjectVoxels_1ab65e6996367638adce659172a1a49a27">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1ae0abbb8c5a7ec816b0741e6f4b346c61">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointMeasurementObject_1a09139b86ecb13053fd45bf8ca3549f33">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1af9c5949768640aef3614d28b5aa94a9c">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1RadiusMeasurementObject_1ae02f20519ba91f58be69767f6e06f3c4">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1aeae2fa1c3017cf8e8ae4cfcc10ed28cc">typeName</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72302" bodyend="72303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.VisualObject.useDefaultScenePropertiesOnDeserialization</definition>
+        <argsstring>(self)</argsstring>
+        <name>useDefaultScenePropertiesOnDeserialization</name>
+        <qualifiedname>mrmeshpy.VisualObject.useDefaultScenePropertiesOnDeserialization</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether the scene-related properties should get their values from SceneColors and SceneSettings instances
+rather than from the input data on deserialization
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72304" bodyend="72308"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VisualObject
+Aliases:  ChangeObjectColorAction.Obj, ChangeVisualizePropertyAction.Obj, std_shared_ptr_VisualObject, ChangeColoringType.Obj
+
+Visual Object
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_angle_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>mrmeshpy.AngleMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1AngleMeasurementObject"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.CircleObject</label>
+        <link refid="classmrmeshpy_1_1CircleObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>mrmeshpy.ConeObject</label>
+        <link refid="classmrmeshpy_1_1ConeObject"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>mrmeshpy.CylinderObject</label>
+        <link refid="classmrmeshpy_1_1CylinderObject"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>mrmeshpy.DistanceMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1DistanceMeasurementObject"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>mrmeshpy.LineObject</label>
+        <link refid="classmrmeshpy_1_1LineObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>mrmeshpy.MeasurementObject</label>
+        <link refid="classmrmeshpy_1_1MeasurementObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="25">
+        <label>mrmeshpy.ObjectDistanceMap</label>
+        <link refid="classmrmeshpy_1_1ObjectDistanceMap"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>mrmeshpy.ObjectGcode</label>
+        <link refid="classmrmeshpy_1_1ObjectGcode"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>mrmeshpy.ObjectLabel</label>
+        <link refid="classmrmeshpy_1_1ObjectLabel"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>mrmeshpy.ObjectLines</label>
+        <link refid="classmrmeshpy_1_1ObjectLines"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>mrmeshpy.ObjectLinesHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectLinesHolder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>mrmeshpy.ObjectMesh</label>
+        <link refid="classmrmeshpy_1_1ObjectMesh"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>mrmeshpy.ObjectMeshHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectMeshHolder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>mrmeshpy.ObjectPoints</label>
+        <link refid="classmrmeshpy_1_1ObjectPoints"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>mrmeshpy.ObjectPointsHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectPointsHolder"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>mrmeshpy.ObjectVoxels</label>
+        <link refid="classmrmeshpy_1_1ObjectVoxels"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>mrmeshpy.PlaneObject</label>
+        <link refid="classmrmeshpy_1_1PlaneObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>mrmeshpy.PointMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1PointMeasurementObject"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>mrmeshpy.PointObject</label>
+        <link refid="classmrmeshpy_1_1PointObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>mrmeshpy.RadiusMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1RadiusMeasurementObject"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>mrmeshpy.SphereObject</label>
+        <link refid="classmrmeshpy_1_1SphereObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="72056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="72056" bodyend="72308"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3aa4d51e5d881a8faec9b51637da6364" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae752ebe42b1366e48661b9f506530f7e" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>copyAllSolidColors</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a99a68c12bda4b4c07f5ba725b2b2af59" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a82c638c112056461424bfc09c23925b7" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ae0c6dc670480c262a52017d0b1ff5076" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9c50e24643b786be0271ce69b3390c9c" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7f787f2b93a34cfb4d2d1744e2177271" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getBoundingBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af2701866ba9629c598b8d6c83056f4f3" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getColoringType</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a4b9ead8b38c035c872a132c5cb24bf5d" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a11379e0c744f5321294c2f28865a145c" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa2808b144a06c6ceb816da6622c52c5f" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a0344754bf693ea2f2aea12d9f0ec3854" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa6dea7b6b8d6999a2441165e0073951e" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9b36e627e752037bbe0d6cfeee96dbaf" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getRedrawFlag</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a9224ef194f3580c35affb61d7a560db2" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a8ac83a9fca121b3f5e6716ed1222a5f8" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a487af7ed5a9684ff50ae73578c31bf4b" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a936f4ea388564c3dc033b5abb39993f4" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a675713afd7ce3e2b8196c36c74f4477e" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>getWorldBox</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7423a165764f0bf97fbbfcb6ef6913e2" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>globalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ade27c4b572461dfa2f68ed3b8ecafb70" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>globalClippedByPlaneMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1a571d9d02df9a2a9dd723f6a71ce398" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a90715c5c04e6a8c2a5d0998877fec7d7" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>isPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acc91ecedf69cebccb4b80aec9dc0f662" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>render</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3abff6c6fabf3fe8e9aa545af55f2f9f" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>renderForPicker</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5140b7d1eac8c1736d61cc0459a4a83e" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>renderUi</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1abf55328c86b56d62b4b1654186f4f68f" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>resetColors</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a6c9e2837535628e814ef5dda5e6f9804" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>resetDirty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a7878a1ddebce740b0874891ca28193b4" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>resetDirtyExceptMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a69ef0caef1ec3fa51cab56ad9959bb22" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>resetFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a3d1644b7ff803c36884c9296da2bd460" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a42b4f144aeb3979ad37f0fedfc15e5ef" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setAmbientStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aaaccb31a8a316a3da6575115e7f48e2b" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setBackColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ad509bb820ada532c9f7ac2957aec5726" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setBackColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a45fe6a0cc0b9e898e6e027a173baae46" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setColoringType</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a883cdf9eb84b10488087440af6534a26" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setDirtyFlags</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2035ca4e1448d569df9ed966c8e3809c" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setFrontColor</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acdbcc2226221f32f64842601d9e1e4a3" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setFrontColorsForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5323ee4dc727ada25adb2c462a136568" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setGlobalAlpha</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afa64178b2ff0ec0f3160412286a20124" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setGlobalAlphaForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1acf83e4c9435a077550174b95dbba85a3" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setGlobalClippedByPlane</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a571b17c0c898d7ba22361d3acea9f511" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setPickable</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a03bf218ed762761b72a397cf74ac6b25" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setShininess</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aa5aaf91f77383289702c646d873af962" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setSpecularStrength</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a835cb96e26e7068936c68aba9046257e" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setUseDefaultScenePropertiesOnDeserialization</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a714cc9052b7153f7263836546050015f" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a48dca93e69125ceede505cae9f2e4629" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>setVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a1982e8baf3d180cb968085525a988ec4" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1adf37fc4271039b5e74b29185ddbd35e3" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>showName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a2fc458fce133a9ff45056ce820e23234" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1af397dd03ebfb70c972d3c4b39e52fc51" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1afccac4560acbe3eb1403c494d2d9b197" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>toggleVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a0e188ed95f73756841030840741720e9" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>typeName</name></member>
+      <member refid="classmrmeshpy_1_1VisualObject_1a5e25b63c3965dc9f65f914e80f164bbd" prot="public" virt="non-virtual"><scope>mrmeshpy::VisualObject</scope><name>useDefaultScenePropertiesOnDeserialization</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

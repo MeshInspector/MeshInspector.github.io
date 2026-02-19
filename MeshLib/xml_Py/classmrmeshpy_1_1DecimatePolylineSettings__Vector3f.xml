@@ -1,0 +1,839 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DecimatePolylineSettings_Vector3f</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1affc8b312fb71ade17ff086cf2dc6f8eb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_adjustCollapse</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_adjustCollapse</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_adjustCollapse</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11849" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11849" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a31b705c1761f0800abd9bed38ca6c9e9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_maxDeletedVertices</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxDeletedVertices</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_maxDeletedVertices</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11850" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11850" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a1ba2843377870f6a835a70ce1fb51f79" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_maxEdgeLen</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11851" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a0a29e47fa851662b41e461a2dfb47837" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_maxError</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxError</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_maxError</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11852" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11852" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1ac199b2b24f63cc76743b66eaffa9471c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_optimizeVertexPos</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_optimizeVertexPos</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_optimizeVertexPos</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11853" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a3367824ecdb96c4475c0586552310ed1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_preCollapse</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_preCollapse</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_preCollapse</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11854" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11854" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a83ebdfca0f2d9bb8a2d36c94f5934b96" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_region</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11855" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a85589e3cf54ebb9201650deef7bdce37" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_stabilizer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stabilizer</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_stabilizer</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11856" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11856" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1add43cce996806bef6d8312425618cf19" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_touchBdVertices</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_touchBdVertices</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_touchBdVertices</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11857" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1ae6ced5a03db8cda66c48bc50cfa480f3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimatePolylineSettings_Vector3f::_offsetof_vertForms</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertForms</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f._offsetof_vertForms</qualifiedname>
+        <initializer>=  104</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11858" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11858" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a7c09fd5b5c38638bd60a7d8ff71e01cd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11861" bodyend="11862"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a498cbad0a14e8c45e4b25c714cf5ec04" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f" kindref="compound">DecimatePolylineSettings_Vector3f</ref></type>
+        <definition> DecimatePolylineSettings_Vector3f mrmeshpy.DecimatePolylineSettings_Vector3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11865" bodyend="11866"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a498cbad0a14e8c45e4b25c714cf5ec04" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f" kindref="compound">DecimatePolylineSettings_Vector3f</ref></type>
+        <definition> DecimatePolylineSettings_Vector3f mrmeshpy.DecimatePolylineSettings_Vector3f.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11869" bodyend="11870"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a1954be2bafef9894b17b366d6e72b98f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11872" bodyend="11873"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1ae4e273a6b977f9c226695bd54755068c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.__init__</definition>
+        <argsstring>(self, DecimatePolylineSettings_Vector3f arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f" kindref="compound">DecimatePolylineSettings_Vector3f</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11875" bodyend="11878"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a23ddc7076042ad800331d4a5c448cd84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.__init__</definition>
+        <argsstring>(self, float maxError, float maxEdgeLen, float stabilizer, bool optimizeVertexPos, int maxDeletedVertices, VertBitSet region, bool touchBdVertices, func_bool_from_Id_EdgeTag_Vector3_float preCollapse, func_void_from_Id_UndirectedEdgeTag_float_Vector3_float adjustCollapse, Vector_QuadraticForm3f_VertId vertForms)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxError</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxEdgeLen</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>optimizeVertexPos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxDeletedVertices</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>touchBdVertices</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" kindref="compound">func_bool_from_Id_EdgeTag_Vector3_float</ref></type>
+          <declname>preCollapse</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float" kindref="compound">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</ref></type>
+          <declname>adjustCollapse</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+          <declname>vertForms</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11880" bodyend="11883"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a8b93e698fdbc4d559d133be08842a290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float" kindref="compound">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</ref></type>
+        <definition> func_void_from_Id_UndirectedEdgeTag_float_Vector3_float mrmeshpy.DecimatePolylineSettings_Vector3f.adjustCollapse</definition>
+        <argsstring>(self)</argsstring>
+        <name>adjustCollapse</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.adjustCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief The user can provide this optional callback for adjusting error introduced by this
+ edge collapse and the collapse position.
+ \\details On input the callback gets the squared error and position computed by standard means,
+ and callback can modify any of them. The larger the error, the later this edge will be collapsed.
+ This callback can be called from many threads in parallel and must be thread-safe.
+ This callback can be called many times for each edge before real collapsing, and it is important to make the same adjustment.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11885" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11885" bodyend="11893"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a2f8c7960b14e00cd4400b01145e33d94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.adjustCollapse</definition>
+        <argsstring>(self, func_void_from_Id_UndirectedEdgeTag_float_Vector3_float arg1)</argsstring>
+        <name>adjustCollapse</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.adjustCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__UndirectedEdgeTag__float__Vector3__float" kindref="compound">func_void_from_Id_UndirectedEdgeTag_float_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11895" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11895" bodyend="11896"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1aeaf3e4bc51c8cff275c76be7ee77596e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimatePolylineSettings_Vector3f.maxDeletedVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDeletedVertices</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.maxDeletedVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Limit on the number of deleted vertices
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11898" bodyend="11901"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1aa434a8ae54f29adc939e4967732f966a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.maxDeletedVertices</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxDeletedVertices</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.maxDeletedVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11903" bodyend="11904"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a0cfae42939e31423ba151140b73e8696" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimatePolylineSettings_Vector3f.maxEdgeLen</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.maxEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximal possible edge length created during decimation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11906" bodyend="11909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a89381c7a5fb0e0b037956bd9159a2e37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.maxEdgeLen</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.maxEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11911" bodyend="11912"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a61b6c2f03496640d5bde39ff48696216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimatePolylineSettings_Vector3f.maxError</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxError</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.maxError</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Limit from above on the maximum distance from moved vertices to original contour
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11914" bodyend="11917"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1aaba4d6a691aea47cc1ee84d849ab3b41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.maxError</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxError</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.maxError</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11919" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11919" bodyend="11920"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a106ce46e774efd7e504b9d3335f56eb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimatePolylineSettings_Vector3f.optimizeVertexPos</definition>
+        <argsstring>(self)</argsstring>
+        <name>optimizeVertexPos</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.optimizeVertexPos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true then after each edge collapse the position of remaining vertex is optimized to
+minimize local shape change, if false then the edge is collapsed in one of its vertices, which keeps its position
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11922" bodyend="11926"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a776da12f482c753a6a9d10d8f49248b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.optimizeVertexPos</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>optimizeVertexPos</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.optimizeVertexPos</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11928" bodyend="11929"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1acfbfdbd6e33d5bc40e9dbb589ff450d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" kindref="compound">func_bool_from_Id_EdgeTag_Vector3_float</ref></type>
+        <definition> func_bool_from_Id_EdgeTag_Vector3_float mrmeshpy.DecimatePolylineSettings_Vector3f.preCollapse</definition>
+        <argsstring>(self)</argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.preCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief The user can provide this optional callback that is invoked immediately before edge collapse;
+ \\details It receives the edge being collapsed: its destination vertex will disappear,
+ and its origin vertex will get new position (provided as the second argument) after collapse;
+ If the callback returns false, then the collapse is prohibited
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11931" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11931" bodyend="11937"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1afc65d52f6f681970e77cb7a55871f5d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.preCollapse</definition>
+        <argsstring>(self, func_bool_from_Id_EdgeTag_Vector3_float arg1)</argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.preCollapse</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag__Vector3__float" kindref="compound">func_bool_from_Id_EdgeTag_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11939" bodyend="11940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a1da7c84d1ee2a0da491b29d0d6b16251" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.DecimatePolylineSettings_Vector3f.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Region of the polyline to be decimated, it is updated during the operation
+Remain nullptr to include the whole polyline
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11942" bodyend="11946"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1afd6a1f37f79a42cd26fea4bce2c35312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.region</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11948" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11948" bodyend="11949"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a7ee195836dc417b577d0b8f4131289ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimatePolylineSettings_Vector3f.stabilizer</definition>
+        <argsstring>(self)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Stabilizer is dimensionless coefficient.
+The larger is stabilizer, the more Decimator will strive to retain the density of input points.
+If stabilizer is zero, then only the shape of input line will be preserved.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11951" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11951" bodyend="11956"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a605d16579a81d6129ce9b68e0e5abfc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.stabilizer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11958" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11958" bodyend="11959"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a10843fd7eae321de8d80242400822abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimatePolylineSettings_Vector3f.touchBdVertices</definition>
+        <argsstring>(self)</argsstring>
+        <name>touchBdVertices</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.touchBdVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Whether to allow collapsing edges with at least one vertex on the end of not-closed polyline
+(or on region boundary if region is given);
+if touchBdVertices is false then boundary vertices are strictly fixed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11961" bodyend="11966"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1acf7b9b21d7b51de511865e2fe5d7f52f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.touchBdVertices</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>touchBdVertices</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.touchBdVertices</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11968" bodyend="11969"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a51fc9b11a3bea8baf291fc1bc221ba00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+        <definition> Vector_QuadraticForm3f_VertId mrmeshpy.DecimatePolylineSettings_Vector3f.vertForms</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertForms</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.vertForms</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim> \\brief  If not null, then
+ on input: if the vector is not empty then it is taken for initialization instead of form computation for all vertices;
+ on output: quadratic form for each remaining vertex is returned there
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11971" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11971" bodyend="11976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a5f665c876adfc8619e51d7dc161be9e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimatePolylineSettings_Vector3f.vertForms</definition>
+        <argsstring>(self, Vector_QuadraticForm3f_VertId arg1)</argsstring>
+        <name>vertForms</name>
+        <qualifiedname>mrmeshpy.DecimatePolylineSettings_Vector3f.vertForms</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__QuadraticForm3f__VertId" kindref="compound">Vector_QuadraticForm3f_VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11978" bodyend="11979"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DecimatePolylineSettings&lt;MR::Vector3f&gt;
+Aliases:  DecimatePolylineSettings3
+
+
+ \\struct MR::DecimatePolylineSettings
+ \\brief Parameters structure for MR::decimatePolyline
+
+ \\sa \\ref decimatePolyline</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DecimatePolylineSettings_Vector3f</label>
+        <link refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_adjustCollapse</edgelabel>
+          <edgelabel>_offsetof_maxDeletedVertices</edgelabel>
+          <edgelabel>_offsetof_maxEdgeLen</edgelabel>
+          <edgelabel>_offsetof_maxError</edgelabel>
+          <edgelabel>_offsetof_optimizeVertexPos</edgelabel>
+          <edgelabel>_offsetof_preCollapse</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_stabilizer</edgelabel>
+          <edgelabel>_offsetof_touchBdVertices</edgelabel>
+          <edgelabel>_offsetof_vertForms</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11837" bodyend="11979"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a7c09fd5b5c38638bd60a7d8ff71e01cd" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a1954be2bafef9894b17b366d6e72b98f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1ae4e273a6b977f9c226695bd54755068c" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a23ddc7076042ad800331d4a5c448cd84" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1affc8b312fb71ade17ff086cf2dc6f8eb" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_adjustCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a31b705c1761f0800abd9bed38ca6c9e9" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_maxDeletedVertices</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a1ba2843377870f6a835a70ce1fb51f79" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a0a29e47fa851662b41e461a2dfb47837" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_maxError</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1ac199b2b24f63cc76743b66eaffa9471c" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_optimizeVertexPos</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a3367824ecdb96c4475c0586552310ed1" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_preCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a83ebdfca0f2d9bb8a2d36c94f5934b96" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a85589e3cf54ebb9201650deef7bdce37" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1add43cce996806bef6d8312425618cf19" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_touchBdVertices</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1ae6ced5a03db8cda66c48bc50cfa480f3" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>_offsetof_vertForms</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a8b93e698fdbc4d559d133be08842a290" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>adjustCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a2f8c7960b14e00cd4400b01145e33d94" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>adjustCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1aeaf3e4bc51c8cff275c76be7ee77596e" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>maxDeletedVertices</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1aa434a8ae54f29adc939e4967732f966a" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>maxDeletedVertices</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a0cfae42939e31423ba151140b73e8696" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a89381c7a5fb0e0b037956bd9159a2e37" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a61b6c2f03496640d5bde39ff48696216" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>maxError</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1aaba4d6a691aea47cc1ee84d849ab3b41" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>maxError</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a498cbad0a14e8c45e4b25c714cf5ec04" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a498cbad0a14e8c45e4b25c714cf5ec04" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a106ce46e774efd7e504b9d3335f56eb3" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>optimizeVertexPos</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a776da12f482c753a6a9d10d8f49248b0" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>optimizeVertexPos</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1acfbfdbd6e33d5bc40e9dbb589ff450d1" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>preCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1afc65d52f6f681970e77cb7a55871f5d1" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>preCollapse</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a1da7c84d1ee2a0da491b29d0d6b16251" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1afd6a1f37f79a42cd26fea4bce2c35312" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a7ee195836dc417b577d0b8f4131289ea" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a605d16579a81d6129ce9b68e0e5abfc1" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a10843fd7eae321de8d80242400822abb" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>touchBdVertices</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1acf7b9b21d7b51de511865e2fe5d7f52f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>touchBdVertices</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a51fc9b11a3bea8baf291fc1bc221ba00" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>vertForms</name></member>
+      <member refid="classmrmeshpy_1_1DecimatePolylineSettings__Vector3f_1a5f665c876adfc8619e51d7dc161be9e3" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimatePolylineSettings_Vector3f</scope><name>vertForms</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,539 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RemeshSettings" kind="class" language="C#" prot="public">
+    <compoundname>MR::RemeshSettings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_RemeshSettings</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a6fa95b6c7aebc6640c70c489cca181bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.RemeshSettings.targetEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>targetEdgeLen</name>
+        <qualifiedname>MR.RemeshSettings.targetEdgeLen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the algorithm will try to keep the length of all edges close to this value, splitting the edges longer than targetEdgeLen, and then eliminating the edges shorter than targetEdgeLen </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1751" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1adbae4d115eff0692066ac8c77d53cc53" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.RemeshSettings.maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>MR.RemeshSettings.maxEdgeSplits</qualifiedname>
+        <briefdescription>
+<para>Maximum number of edge splits allowed during subdivision. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1754" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1754" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1aa661c23b8b3d306c81b87b33e1b741c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.RemeshSettings.maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>MR.RemeshSettings.maxAngleChangeAfterFlip</qualifiedname>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1757" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1757" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a1e54e7c58f6a61255a7ce70d49fe62dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.RemeshSettings.frozenBoundary</definition>
+        <argsstring></argsstring>
+        <name>frozenBoundary</name>
+        <qualifiedname>MR.RemeshSettings.frozenBoundary</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Allows or prohibits splitting and/or collapse boundary edges it recommended to keep default value here for better quality </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1761" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1761" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a85d37f82d6d6a3a01cfced65c81549bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.RemeshSettings.maxBdShift</definition>
+        <argsstring></argsstring>
+        <name>maxBdShift</name>
+        <qualifiedname>MR.RemeshSettings.maxBdShift</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Maximal shift of a boundary during one edge collapse only makes sense if <computeroutput>frozenBoundary=false</computeroutput> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1765" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1765" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a4a6b57a51515f6901d862d9de703f739" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.RemeshSettings.useCurvature</definition>
+        <argsstring></argsstring>
+        <name>useCurvature</name>
+        <qualifiedname>MR.RemeshSettings.useCurvature</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>This option in subdivision works best for natural surfaces, where all triangles are close to equilateral and have similar area, and no sharp edges in between </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1769" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a9620c3243c317759812a32e49a2d3d51" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.RemeshSettings.maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>MR.RemeshSettings.maxSplittableTriAspectRatio</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if frozenBoundary==true, otherwise many narrow triangles can appear near border </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1774" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1774" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1aa850f0dfa5b2ea1499d220174d5f5dea" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.RemeshSettings.finalRelaxIters</definition>
+        <argsstring></argsstring>
+        <name>finalRelaxIters</name>
+        <qualifiedname>MR.RemeshSettings.finalRelaxIters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the number of iterations of final relaxation of mesh vertices; few iterations can give almost perfect uniformity of the vertices and edge lengths but deviate from the original surface </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1778" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1778" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a29dd5f95d7806750d40e89020792465a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.RemeshSettings.finalRelaxNoShrinkage</definition>
+        <argsstring></argsstring>
+        <name>finalRelaxNoShrinkage</name>
+        <qualifiedname>MR.RemeshSettings.finalRelaxNoShrinkage</qualifiedname>
+        <briefdescription>
+<para>if true prevents the surface from shrinkage after many iterations </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1781" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1781" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a4f2c8225746fce47bdebd0ffd0182f28" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition>new unsafe MR.? FaceBitSet MR.RemeshSettings.region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR.RemeshSettings.region</qualifiedname>
+        <briefdescription>
+<para>Region on mesh to be changed, it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1784" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1785" bodyend="1794"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1af78776b58c6b4c3cf0dabf431e4b1329" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition>new unsafe MR.? UndirectedEdgeBitSet MR.RemeshSettings.notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR.RemeshSettings.notFlippable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classMR_1_1Edges" kindref="compound">Edges</ref> specified by this bit-set will never be flipped or collapsed, but they can be replaced during collapse of nearby edges so it is updated during the operation; also the vertices incident to these edges are excluded from relaxation </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1798" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1799" bodyend="1808"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1ac67c30cbec3d1784a0551ca86ebf25ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.RemeshSettings.packMesh</definition>
+        <argsstring></argsstring>
+        <name>packMesh</name>
+        <qualifiedname>MR.RemeshSettings.packMesh</qualifiedname>
+        <briefdescription>
+<para>whether to pack mesh at the end </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1811" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a8419139bad5103d954fe4583498a55b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.RemeshSettings.projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>MR.RemeshSettings.projectOnOriginalMesh</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, then every new vertex after subdivision will be projected on the original mesh (before smoothing); this does not affect the vertices moved on other stages of the processing </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1815" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a76d4814848328691d375ef99c9e7007e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId</type>
+        <definition>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId MR.RemeshSettings.onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>MR.RemeshSettings.onEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1818" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1818" bodyend="1818"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1ace1b4637459c36ca12fb84cc49bca099" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId</type>
+        <definition>new unsafe MR.Std.Function_VoidFuncFromMREdgeIdMREdgeId MR.RemeshSettings.onEdgeDel</definition>
+        <argsstring></argsstring>
+        <name>onEdgeDel</name>
+        <qualifiedname>MR.RemeshSettings.onEdgeDel</qualifiedname>
+        <briefdescription>
+<para>if valid (e1) is given then dest(e) = dest(e1) and their origins are in different ends of collapsing edge, e1 shall take the place of e </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1821" column="70" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1821" bodyend="1821"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1a8bf83dce53947b26cd5b9aab39cf8b66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromMREdgeIdConstMRVector3fRef</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromMREdgeIdConstMRVector3fRef MR.RemeshSettings.preCollapse</definition>
+        <argsstring></argsstring>
+        <name>preCollapse</name>
+        <qualifiedname>MR.RemeshSettings.preCollapse</qualifiedname>
+        <briefdescription>
+<para>The user can provide this optional callback that is invoked immediately before edge collapse;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>It receives the edge being collapsed: its destination vertex will disappear, and its origin vertex will get new position (provided as the second argument) after collapse; If the callback returns false, then the collapse is prohibited </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1829" column="80" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1829" bodyend="1829"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1RemeshSettings_1ab7f7dacfea0aaaa5c64deb2ea066ed33" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.RemeshSettings.progressCallback</definition>
+        <argsstring></argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>MR.RemeshSettings.progressCallback</qualifiedname>
+        <briefdescription>
+<para>callback to report algorithm progress and cancel it by user request </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1832" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1832" bodyend="1832"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1RemeshSettings_1a71efaa087ecce08ded1593ac53f270d3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RemeshSettings.RemeshSettings</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>RemeshSettings</name>
+        <qualifiedname>MR.RemeshSettings.RemeshSettings</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1872" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1872" bodyend="1876"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1RemeshSettings_1ad9b6380e8d637f8c2ba5e5f2c36fd115" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RemeshSettings.RemeshSettings</definition>
+        <argsstring>()</argsstring>
+        <name>RemeshSettings</name>
+        <qualifiedname>MR.RemeshSettings.RemeshSettings</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1882" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1882" bodyend="1888"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RemeshSettings_1a836b113cd92a52793147b9564e585ffa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RemeshSettings.RemeshSettings</definition>
+        <argsstring>(float targetEdgeLen, int maxEdgeSplits, float maxAngleChangeAfterFlip, bool frozenBoundary, float maxBdShift, bool useCurvature, float maxSplittableTriAspectRatio, int finalRelaxIters, bool finalRelaxNoShrinkage, MR.FaceBitSet? region, MR.UndirectedEdgeBitSet? notFlippable, bool packMesh, bool projectOnOriginalMesh, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeSplit, MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId onEdgeDel, MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef preCollapse, MR.Std._ByValue_Function_BoolFuncFromFloat progressCallback)</argsstring>
+        <name>RemeshSettings</name>
+        <qualifiedname>MR.RemeshSettings.RemeshSettings</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>targetEdgeLen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxEdgeSplits</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChangeAfterFlip</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>frozenBoundary</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxBdShift</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>useCurvature</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSplittableTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>finalRelaxIters</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>finalRelaxNoShrinkage</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1FaceBitSet" kindref="compound">MR.FaceBitSet</ref>?</type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref>?</type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>packMesh</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>projectOnOriginalMesh</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <declname>onEdgeSplit</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_VoidFuncFromMREdgeIdMREdgeId</type>
+          <declname>onEdgeDel</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromMREdgeIdConstMRVector3fRef</type>
+          <declname>preCollapse</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>progressCallback</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1RemeshSettings" kindref="compound">MR.RemeshSettings</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1893" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1893" bodyend="1905"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RemeshSettings_1ac157e99791f8e2ae24ae565be1367f03" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.RemeshSettings.RemeshSettings</definition>
+        <argsstring>(MR._ByValue_RemeshSettings _other)</argsstring>
+        <name>RemeshSettings</name>
+        <qualifiedname>MR.RemeshSettings.RemeshSettings</qualifiedname>
+        <param>
+          <type>MR._ByValue_RemeshSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RemeshSettings.RemeshSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1910" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1910" bodyend="1917"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RemeshSettings_1aa316c4431cacf7d50ce917dd4910b4f3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.RemeshSettings.RemeshSettings</definition>
+        <argsstring>(Const_RemeshSettings _other)</argsstring>
+        <name>RemeshSettings</name>
+        <qualifiedname>MR.RemeshSettings.RemeshSettings</qualifiedname>
+        <param>
+          <type>Const_RemeshSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RemeshSettings.RemeshSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1922" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1922" bodyend="1922"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RemeshSettings_1a1410b041495d56bc3e616e34105e54d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.RemeshSettings.RemeshSettings</definition>
+        <argsstring>(RemeshSettings _other)</argsstring>
+        <name>RemeshSettings</name>
+        <qualifiedname>MR.RemeshSettings.RemeshSettings</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1RemeshSettings" kindref="compound">RemeshSettings</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.RemeshSettings.RemeshSettings</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1927" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1927" bodyend="1927"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1RemeshSettings_1a8135724dd2f44a816686ce14a292c35a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1RemeshSettings" kindref="compound">MR.RemeshSettings</ref></type>
+        <definition>unsafe MR.RemeshSettings MR.RemeshSettings.assign</definition>
+        <argsstring>(MR._ByValue_RemeshSettings _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.RemeshSettings.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_RemeshSettings</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.RemeshSettings.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1932" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1932" bodyend="1939"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1RemeshSettings" kindref="compound">MR.RemeshSettings</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_RemeshSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.RemeshSettings</label>
+        <link refid="classMR_1_1RemeshSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_RemeshSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_RemeshSettings</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.RemeshSettings</label>
+        <link refid="classMR_1_1RemeshSettings"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_RemeshSettings &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" line="1747" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshDecimate.cs" bodystart="1748" bodyend="1940"/>
+    <listofallmembers>
+      <member refid="classMR_1_1RemeshSettings_1a8135724dd2f44a816686ce14a292c35a" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>assign</name></member>
+      <member refid="classMR_1_1RemeshSettings_1aa850f0dfa5b2ea1499d220174d5f5dea" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>finalRelaxIters</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a29dd5f95d7806750d40e89020792465a" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>finalRelaxNoShrinkage</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a1e54e7c58f6a61255a7ce70d49fe62dc" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>frozenBoundary</name></member>
+      <member refid="classMR_1_1RemeshSettings_1aa661c23b8b3d306c81b87b33e1b741c6" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a85d37f82d6d6a3a01cfced65c81549bb" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>maxBdShift</name></member>
+      <member refid="classMR_1_1RemeshSettings_1adbae4d115eff0692066ac8c77d53cc53" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a9620c3243c317759812a32e49a2d3d51" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="classMR_1_1RemeshSettings_1af78776b58c6b4c3cf0dabf431e4b1329" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>notFlippable</name></member>
+      <member refid="classMR_1_1RemeshSettings_1ace1b4637459c36ca12fb84cc49bca099" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>onEdgeDel</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a76d4814848328691d375ef99c9e7007e" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classMR_1_1RemeshSettings_1ac67c30cbec3d1784a0551ca86ebf25ab" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>packMesh</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a8bf83dce53947b26cd5b9aab39cf8b66" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>preCollapse</name></member>
+      <member refid="classMR_1_1RemeshSettings_1ab7f7dacfea0aaaa5c64deb2ea066ed33" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>progressCallback</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a8419139bad5103d954fe4583498a55b2" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a4f2c8225746fce47bdebd0ffd0182f28" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>region</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a71efaa087ecce08ded1593ac53f270d3" prot="package" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
+      <member refid="classMR_1_1RemeshSettings_1ad9b6380e8d637f8c2ba5e5f2c36fd115" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a836b113cd92a52793147b9564e585ffa" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
+      <member refid="classMR_1_1RemeshSettings_1ac157e99791f8e2ae24ae565be1367f03" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
+      <member refid="classMR_1_1RemeshSettings_1aa316c4431cacf7d50ce917dd4910b4f3" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a1410b041495d56bc3e616e34105e54d3" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>RemeshSettings</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a6fa95b6c7aebc6640c70c489cca181bb" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>targetEdgeLen</name></member>
+      <member refid="classMR_1_1RemeshSettings_1a4a6b57a51515f6901d862d9de703f739" prot="public" virt="non-virtual"><scope>MR::RemeshSettings</scope><name>useCurvature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

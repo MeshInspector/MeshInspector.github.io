@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Parabolad" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Parabolad</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Parabolad_1a919724eca0c335f86d8033b88018ebd0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Parabolad::_offsetof_a</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_a</name>
+        <qualifiedname>mrmeshpy.Parabolad._offsetof_a</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42204" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Parabolad_1a1b2dd36ca8c050b69454c110c027473d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Parabolad::_offsetof_b</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_b</name>
+        <qualifiedname>mrmeshpy.Parabolad._offsetof_b</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42205" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Parabolad_1ab09bd20f7fb62186d1f18be641f6f563" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Parabolad::_offsetof_c</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_c</name>
+        <qualifiedname>mrmeshpy.Parabolad._offsetof_c</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42206" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42206" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Parabolad_1a85e51a1a8dff01f99f177fcb66013525" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Parabolad.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Parabolad.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42212" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42212" bodyend="42213"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parabolad_1a974babe43efd2e43f49186bba04a2e7b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Parabolad" kindref="compound">Parabolad</ref></type>
+        <definition> Parabolad mrmeshpy.Parabolad.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Parabolad.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42216" bodyend="42217"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parabolad_1a974babe43efd2e43f49186bba04a2e7b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Parabolad" kindref="compound">Parabolad</ref></type>
+        <definition> Parabolad mrmeshpy.Parabolad.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Parabolad.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42220" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42220" bodyend="42221"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Parabolad_1a7f2e6864ccba678b1ddba5d0ba42808c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Parabolad.__call__</definition>
+        <argsstring>(self, float x)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.Parabolad.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>compute value of quadratic function at any x
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42222" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42222" bodyend="42225"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parabolad_1a089b46846d00bb0e64ec864a2eb0bc31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Parabolad.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Parabolad.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42227" bodyend="42228"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parabolad_1a98acf929d0cedebb348efd438cb83480" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Parabolad.__init__</definition>
+        <argsstring>(self, float a, float b, float c)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Parabolad.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42230" bodyend="42231"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parabolad_1abdd6830fd0e1970479ccdacdf93dc0e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Parabolad.__init__</definition>
+        <argsstring>(self, Parabolad arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Parabolad.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Parabolad" kindref="compound">Parabolad</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42233" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42233" bodyend="42236"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parabolad_1a876791b0b3c9ae531fd50ebd5284ae81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Parabolad.extremArg</definition>
+        <argsstring>(self)</argsstring>
+        <name>extremArg</name>
+        <qualifiedname>mrmeshpy.Parabolad.extremArg</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>argument (x) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42237" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42237" bodyend="42240"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Parabolad_1a1454a36e10c9d11cab7d64ceb614d0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Parabolad.extremVal</definition>
+        <argsstring>(self)</argsstring>
+        <name>extremVal</name>
+        <qualifiedname>mrmeshpy.Parabolad.extremVal</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>value (y) where parabola reaches extremal value: minimum for a &gt; 0, maximum for a &lt; 0
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42241" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42241" bodyend="42244"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Parabolad
+
+Represents quadratic function f(x) = a*x*x + b*x + c
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Parabolad</label>
+        <link refid="classmrmeshpy_1_1Parabolad"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_a</edgelabel>
+          <edgelabel>_offsetof_b</edgelabel>
+          <edgelabel>_offsetof_c</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42198" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42198" bodyend="42244"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Parabolad_1a7f2e6864ccba678b1ddba5d0ba42808c" prot="public" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1a85e51a1a8dff01f99f177fcb66013525" prot="public" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1a089b46846d00bb0e64ec864a2eb0bc31" prot="public" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1a98acf929d0cedebb348efd438cb83480" prot="public" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1abdd6830fd0e1970479ccdacdf93dc0e0" prot="public" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1a919724eca0c335f86d8033b88018ebd0" prot="protected" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>_offsetof_a</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1a1b2dd36ca8c050b69454c110c027473d" prot="protected" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>_offsetof_b</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1ab09bd20f7fb62186d1f18be641f6f563" prot="protected" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>_offsetof_c</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1a876791b0b3c9ae531fd50ebd5284ae81" prot="public" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>extremArg</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1a1454a36e10c9d11cab7d64ceb614d0f2" prot="public" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>extremVal</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1a974babe43efd2e43f49186bba04a2e7b" prot="public" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Parabolad_1a974babe43efd2e43f49186bba04a2e7b" prot="public" virt="non-virtual"><scope>mrmeshpy::Parabolad</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

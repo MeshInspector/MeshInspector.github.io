@@ -148,13 +148,14 @@ $(function(){initNavTree('MRRibbonSchema_8h.html',''); initResizable(true); });
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a>  </div>
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle"><div class="title">MRRibbonSchema.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRViewerFwd_8h_source.html">MRViewerFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;MRViewerFwd.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRRibbonRegisterItem_8h_source.html">MRRibbonRegisterItem.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMeshFwd_8h_source.html">MRMesh/MRMeshFwd.h</a>&quot;</code><br />
+<code>#include &quot;MRMesh/MRMeshFwd.h&quot;</code><br />
 <code>#include &quot;MRMesh/MRphmap.h&quot;</code><br />
 <code>#include &lt;json/forwards.h&gt;</code><br />
 <code>#include &lt;filesystem&gt;</code><br />
@@ -175,6 +176,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonTab.html">MR::RibbonTab</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1RibbonSchema.html">MR::RibbonSchema</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This structure describes <a class="el" href="namespaceMR_1_1UI.html">UI</a> schema of ribbon menu.  <a href="structMR_1_1RibbonSchema.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonSchemaHolder.html">MR::RibbonSchemaHolder</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,6 +190,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">tool search options  <a href="structMR_1_1RibbonSchemaHolder_1_1SearchParams.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonSchemaLoader.html">MR::RibbonSchemaLoader</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class for loading ribbon schema from structure files (basically called from <a class="el" href="classMR_1_1RibbonMenu.html">RibbonMenu</a>, but can be called separately)  <a href="classMR_1_1RibbonSchemaLoader.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,43 +198,27 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a6ab153d81501eb8ea4a0bb964864eaef" id="r_a6ab153d81501eb8ea4a0bb964864eaef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6ab153d81501eb8ea4a0bb964864eaef">MR_RIBBON_ITEM_CALL</a>(pluginType,  f,  g)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a>&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( f, g );</td></tr>
-<tr class="memdesc:a6ab153d81501eb8ea4a0bb964864eaef"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls f(const std::shared_ptr&lt;plugin&gt; &amp;) on module loading, and calls g(const std::shared_ptr&lt;plugin&gt; &amp;) on module unloading  <br /></td></tr>
-<tr class="separator:a6ab153d81501eb8ea4a0bb964864eaef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6ab153d81501eb8ea4a0bb964864eaef" id="r_ga6ab153d81501eb8ea4a0bb964864eaef"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga6ab153d81501eb8ea4a0bb964864eaef">MR_RIBBON_ITEM_CALL</a>(pluginType,  f,  g)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a>&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( f, g );</td></tr>
+<tr class="memdesc:ga6ab153d81501eb8ea4a0bb964864eaef"><td class="mdescLeft">&#160;</td><td class="mdescRight">calls f(const std::shared_ptr&lt;plugin&gt; &amp;) on module loading, and calls g(const std::shared_ptr&lt;plugin&gt; &amp;) on module unloading  <br /></td></tr>
+<tr class="separator:ga6ab153d81501eb8ea4a0bb964864eaef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ga0f8705ceb9b9ea512c947c5bdbcd3b5e" id="r_ga0f8705ceb9b9ea512c947c5bdbcd3b5e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga0f8705ceb9b9ea512c947c5bdbcd3b5e">MR::SplitCaptionInfo</a> = std::vector&lt;std::pair&lt;std::string_view, float&gt;&gt;</td></tr>
+<tr class="memdesc:ga0f8705ceb9b9ea512c947c5bdbcd3b5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">needed for big buttons text aligning  <br /></td></tr>
+<tr class="separator:ga0f8705ceb9b9ea512c947c5bdbcd3b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga55efef56c0d2d0a5eabf81b134ec39c9" id="r_ga55efef56c0d2d0a5eabf81b134ec39c9"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga55efef56c0d2d0a5eabf81b134ec39c9">MR::ItemMap</a> = HashMap&lt;std::string, <a class="el" href="structMR_1_1MenuItemInfo.html">MenuItemInfo</a>&gt;</td></tr>
+<tr class="separator:ga55efef56c0d2d0a5eabf81b134ec39c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9156ba38070249801207259b1b438e47" id="r_ga9156ba38070249801207259b1b438e47"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga9156ba38070249801207259b1b438e47">MR::TabsGroupsMap</a> = HashMap&lt;std::string, std::vector&lt;std::string&gt;&gt;</td></tr>
+<tr class="separator:ga9156ba38070249801207259b1b438e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad42a75e584073228a798aaddab06e6f4" id="r_gad42a75e584073228a798aaddab06e6f4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#gad42a75e584073228a798aaddab06e6f4">MR::GroupsItemsMap</a> = <a class="el" href="group__GeneralGroup.html#ga9156ba38070249801207259b1b438e47">TabsGroupsMap</a></td></tr>
+<tr class="separator:gad42a75e584073228a798aaddab06e6f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a6ab153d81501eb8ea4a0bb964864eaef" name="a6ab153d81501eb8ea4a0bb964864eaef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ab153d81501eb8ea4a0bb964864eaef">&#9670;&#160;</a></span>MR_RIBBON_ITEM_CALL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MR_RIBBON_ITEM_CALL</td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>pluginType</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>f</em></span>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>g</em></span>&#160;)&#160;&#160;&#160;    static <a class="el" href="classMR_1_1RibbonMenuItemCall.html">MR::RibbonMenuItemCall</a>&lt;pluginType&gt; ribbonMenuItemCall##func##pluginType##_( f, g );</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>calls f(const std::shared_ptr&lt;plugin&gt; &amp;) on module loading, and calls g(const std::shared_ptr&lt;plugin&gt; &amp;) on module unloading </p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- HTML footer for doxygen 1.11.0-->

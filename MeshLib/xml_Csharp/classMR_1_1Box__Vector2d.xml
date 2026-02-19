@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Box__Vector2d" kind="class" language="C#" prot="public">
+    <compoundname>MR::Box_Vector2d</compoundname>
+    <basecompoundref refid="classMR_1_1ConstBox__Vector2d" prot="public" virt="non-virtual">MR.ConstBox_Vector2d</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1Box__Vector2d_1a74c69679f20fb06081b96e3cfa9205d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref double</type>
+        <definition>new ref double MR.Box_Vector2d.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>MR.Box_Vector2d.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3780" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3780" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Vector2d_1abadebcce55a1e05ba67cc9c8c9b3c7bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new ref double</type>
+        <definition>new ref double MR.Box_Vector2d.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>MR.Box_Vector2d.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3782" column="31" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3782" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1Box__Vector2d_1af0095d5da8a600d02203656b118ea6d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref double</type>
+        <definition>unsafe new ref double MR.Box_Vector2d.this[int e]</definition>
+        <argsstring></argsstring>
+        <name>this[int e]</name>
+        <qualifiedname>MR.Box_Vector2d.this[int e]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.Vector2d.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3842" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3843" bodyend="3850"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1a4acd7d9a519b0488c0dbe9c938476d9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Vector2d.Box_Vector2d</definition>
+        <argsstring>(Vector2d other)</argsstring>
+        <name>Box_Vector2d</name>
+        <qualifiedname>MR.Box_Vector2d.Box_Vector2d</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3787" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3787" bodyend="3787"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1a0c328112cda79968c365f2dec005d704" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Vector2d.Box_Vector2d</definition>
+        <argsstring>(ConstBox_Vector2d _other)</argsstring>
+        <name>Box_Vector2d</name>
+        <qualifiedname>MR.Box_Vector2d.Box_Vector2d</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector2d" kindref="compound">ConstBox_Vector2d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3794" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3794" bodyend="3798"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1aa4cae39ed10a7f062fe00134c4d82a9c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR.Box_Vector2d.Assign</definition>
+        <argsstring>(ConstBox_Vector2d _other)</argsstring>
+        <name>Assign</name>
+        <qualifiedname>MR.Box_Vector2d.Assign</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__Vector2d" kindref="compound">ConstBox_Vector2d</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3803" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3803" bodyend="3803"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1a43d7e93f0673913c77419b7e8d41c2f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Vector2d.Box_Vector2d</definition>
+        <argsstring>()</argsstring>
+        <name>Box_Vector2d</name>
+        <qualifiedname>MR.Box_Vector2d.Box_Vector2d</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3808" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3808" bodyend="3814"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1ae6eb317d5f4d2e0e1102b73eeaf1ea15" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Vector2d.Box_Vector2d</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>Box_Vector2d</name>
+        <qualifiedname>MR.Box_Vector2d.Box_Vector2d</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Vector2d_1a1dfb174dc45d6c82b3db0370f72a2e13" kindref="member">MR.Vector2d.Vector2d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3819" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3819" bodyend="3826"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1ac4b8df539b9a98c255fe39649c0cb620" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Vector2d.Box_Vector2d</definition>
+        <argsstring>(double x, double y)</argsstring>
+        <name>Box_Vector2d</name>
+        <qualifiedname>MR.Box_Vector2d.Box_Vector2d</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1Vector2d_1a1dfb174dc45d6c82b3db0370f72a2e13" kindref="member">MR.Vector2d.Vector2d</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3831" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3831" bodyend="3837"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1aad5a581730787ea9941be765b4910e6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+        <definition>unsafe ref MR.Vector2d MR.Box_Vector2d.addAssign</definition>
+        <argsstring>(in MR.Vector2d b)</argsstring>
+        <name>addAssign</name>
+        <qualifiedname>MR.Box_Vector2d.addAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator+=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3855" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3855" bodyend="3863"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1a0cad9be155dab5c6cd7e25707d3e425c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+        <definition>unsafe ref MR.Vector2d MR.Box_Vector2d.subAssign</definition>
+        <argsstring>(in MR.Vector2d b)</argsstring>
+        <name>subAssign</name>
+        <qualifiedname>MR.Box_Vector2d.subAssign</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator-=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3868" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3868" bodyend="3876"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1aaa34045410362f48c3665b49c0e334f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+        <definition>unsafe ref MR.Vector2d MR.Box_Vector2d.mulAssign</definition>
+        <argsstring>(double b)</argsstring>
+        <name>mulAssign</name>
+        <qualifiedname>MR.Box_Vector2d.mulAssign</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator*=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3881" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3881" bodyend="3886"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1a511c1d8edaac8751dabf33f9e81eb461" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref <ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></type>
+        <definition>unsafe ref MR.Vector2d MR.Box_Vector2d.divAssign</definition>
+        <argsstring>(double b)</argsstring>
+        <name>divAssign</name>
+        <qualifiedname>MR.Box_Vector2d.divAssign</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR.operator/=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3891" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3891" bodyend="3896"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1Box__Vector2d_1a11f482722845768b0b7ca5ad26755a97" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.Box_Vector2d.Box_Vector2d</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>Box_Vector2d</name>
+        <qualifiedname>MR.Box_Vector2d.Box_Vector2d</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3789" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3789" bodyend="3789"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1Vector2d" kindref="compound">MR.Vector2d</ref></computeroutput>. This is the non-const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ConstBox_Vector2d</label>
+        <link refid="classMR_1_1ConstBox__Vector2d"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_Vector2d</label>
+        <link refid="classMR_1_1Box__Vector2d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_Vector2d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_Vector2d &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ConstBox_Vector2d</label>
+        <link refid="classMR_1_1ConstBox__Vector2d"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.Box_Vector2d</label>
+        <link refid="classMR_1_1Box__Vector2d"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; ConstBox_Vector2d &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.ConstBox_Vector2d &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" line="3773" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRVector2.cs" bodystart="3774" bodyend="3897"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a00eaafe7ec926acc386c7b3555c248ab" prot="protected" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>__ref_storage_Elements</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1aad5a581730787ea9941be765b4910e6c" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>addAssign</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1aa4cae39ed10a7f062fe00134c4d82a9c" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Assign</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1a4acd7d9a519b0488c0dbe9c938476d9d" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Box_Vector2d</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1a11f482722845768b0b7ca5ad26755a97" prot="package" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Box_Vector2d</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1a0c328112cda79968c365f2dec005d704" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Box_Vector2d</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1a43d7e93f0673913c77419b7e8d41c2f0" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Box_Vector2d</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1ae6eb317d5f4d2e0e1102b73eeaf1ea15" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Box_Vector2d</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1ac4b8df539b9a98c255fe39649c0cb620" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Box_Vector2d</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a9b2edc745d9cb19c8d6d9c8723ba9c8b" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>ConstBox_Vector2d</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a4b0e3e06dded3b0e5c398d6509ee4852" prot="package" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>ConstBox_Vector2d</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a0cb461a5872bb3fa7797ce80365aa32e" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>ConstBox_Vector2d</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a2cffd93c785774a2789734f4a91ab13f" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>ConstBox_Vector2d</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1afb7d4d7ab4107c707c4c1765a2986bb4" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>ConstBox_Vector2d</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a5ba297770ecafcada8e4ba2d93e1a1b5" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>ConstBox_Vector2d</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a9c8eede68d3d135cb4e49544c395f733" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>diagonal</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a32ce2e09197d46f9e43edf46ddad3fd3" prot="protected" virt="virtual"><scope>MR::Box_Vector2d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a913ee41fa59da52722eff5302b4083e6" prot="public" virt="virtual"><scope>MR::Box_Vector2d</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1a511c1d8edaac8751dabf33f9e81eb461" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>divAssign</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a5d7af3c7606a1e7a430f8e549dce88b4" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Elements</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a86a1a32b4249b020e2e418d63383eb87" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a298971ab1ab08a6e930822fa2c6ae134" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a279405ac52c3530d78acba1131172d5c" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>furthestBasisVector</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a264973996103a5c49ccd0f09674570b6" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>isFinite</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a14eac428fdb7586d0f5910cccbf19fe5" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>length</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a6506926d6a57c6dbba1b0e7b40cdcf8d" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>lengthSq</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1aca459aa6f2c9733dac7d58c2517b783a" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>minusX</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1ae3a58537b023daa0ec888c73cff64a46" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>minusY</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1aaa34045410362f48c3665b49c0e334f4" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>mulAssign</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a37d283f50f332886850a94bd26e60fda" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>normalized</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a44fdc27d713c97101c9811d161a54e09" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator ConstBox_Vector2d</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1ad1fb01ca85d15e78036600058436f392" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1afe9cd8ae0cda114e8030c229c7272dd7" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a655cf1c2c7ec2f318b15005e30916802" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator*</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1ac23bca9e0218b1dc897f4b89581ff177" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a56b7afcfb007a75e7bc55a45db749f01" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator+</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1ae7e4c2a2abe2086f9a460652151b83c8" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator-</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a153492d67635d7d07adece5c3d284b48" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator-</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a63c0ca32231053f03185b1e2e83b460e" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator/</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a78648021aced3b16e1d1af64d22e7536" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>operator==</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1abf4f8cf7de595a0949a50264860122b8" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>perpendicular</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1aed0604bb3e50a5a9fa370fb59d088500" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>plusX</name></member>
+      <member refid="classMR_1_1ConstBox__Vector2d_1a356b57fbf9b8051aa81e2cccefea18c6" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>plusY</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1a0cad9be155dab5c6cd7e25707d3e425c" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>subAssign</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1af0095d5da8a600d02203656b118ea6d1" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>this[int e]</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1a74c69679f20fb06081b96e3cfa9205d9" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>x</name></member>
+      <member refid="classMR_1_1Box__Vector2d_1abadebcce55a1e05ba67cc9c8c9b3c7bb" prot="public" virt="non-virtual"><scope>MR::Box_Vector2d</scope><name>y</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

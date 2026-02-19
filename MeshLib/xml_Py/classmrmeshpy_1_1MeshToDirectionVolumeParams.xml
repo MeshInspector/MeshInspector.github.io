@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshToDirectionVolumeParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshToDirectionVolumeParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a4d0837c883a9b7e4c2d86d954bcac400" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDirectionVolumeParams::_offsetof_dist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dist</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams._offsetof_dist</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a90acae789abb6614f6f0ca838ec1cbc4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDirectionVolumeParams::_offsetof_projector</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_projector</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams._offsetof_projector</qualifiedname>
+        <initializer>=  96</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1adea94caccf62f4f558607b28a1346504" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshToDirectionVolumeParams::_offsetof_vol</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vol</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams._offsetof_vol</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34500" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34500" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a0d808a8ba7305f82d4165d872c1630be" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDirectionVolumeParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34505" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34505" bodyend="34506"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a45b4a42803167b54655bb56745e944ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshToDirectionVolumeParams" kindref="compound">MeshToDirectionVolumeParams</ref></type>
+        <definition> MeshToDirectionVolumeParams mrmeshpy.MeshToDirectionVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34509" bodyend="34510"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a45b4a42803167b54655bb56745e944ee" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshToDirectionVolumeParams" kindref="compound">MeshToDirectionVolumeParams</ref></type>
+        <definition> MeshToDirectionVolumeParams mrmeshpy.MeshToDirectionVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34513" bodyend="34514"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a35f20fb2eb2f5746844ce5e21991052a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDirectionVolumeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34516" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34516" bodyend="34517"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a736f8d0b07da5bcc454abf3684ce2158" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDirectionVolumeParams.__init__</definition>
+        <argsstring>(self, MeshToDirectionVolumeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshToDirectionVolumeParams" kindref="compound">MeshToDirectionVolumeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34519" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34519" bodyend="34522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a7abb1fe6bb8cbdf031f3a737d47311dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDirectionVolumeParams.__init__</definition>
+        <argsstring>(self, DistanceVolumeParams vol, DistanceToMeshOptions dist, IPointsToMeshProjector projector)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IPointsToMeshProjector" kindref="compound">IPointsToMeshProjector</ref></type>
+          <declname>projector</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34524" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34524" bodyend="34527"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a9770d3208586e274f2373ce5ddc0ad75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+        <definition> DistanceToMeshOptions mrmeshpy.MeshToDirectionVolumeParams.dist</definition>
+        <argsstring>(self)</argsstring>
+        <name>dist</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams.dist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>note that signMode is ignored in this algorithm
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34529" bodyend="34532"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a472d40e8f09040c09cad78e10d00681b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshToDirectionVolumeParams.dist</definition>
+        <argsstring>(self, DistanceToMeshOptions arg1)</argsstring>
+        <name>dist</name>
+        <qualifiedname>mrmeshpy.MeshToDirectionVolumeParams.dist</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34534" bodyend="34535"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshToDirectionVolumeParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshToDirectionVolumeParams</label>
+        <link refid="classmrmeshpy_1_1MeshToDirectionVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dist</edgelabel>
+          <edgelabel>_offsetof_projector</edgelabel>
+          <edgelabel>_offsetof_vol</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34494" bodyend="34535"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a0d808a8ba7305f82d4165d872c1630be" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a35f20fb2eb2f5746844ce5e21991052a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a736f8d0b07da5bcc454abf3684ce2158" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a7abb1fe6bb8cbdf031f3a737d47311dc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a4d0837c883a9b7e4c2d86d954bcac400" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>_offsetof_dist</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a90acae789abb6614f6f0ca838ec1cbc4" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>_offsetof_projector</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1adea94caccf62f4f558607b28a1346504" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>_offsetof_vol</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a9770d3208586e274f2373ce5ddc0ad75" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>dist</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a472d40e8f09040c09cad78e10d00681b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>dist</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a45b4a42803167b54655bb56745e944ee" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshToDirectionVolumeParams_1a45b4a42803167b54655bb56745e944ee" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshToDirectionVolumeParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1453 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BitSet" kind="class" language="C++" prot="public">
+    <compoundname>MR::BitSet</compoundname>
+    <derivedcompoundref refid="classMR_1_1TypedBitSet" prot="public" virt="non-virtual">MR::TypedBitSet&lt; I &gt;</derivedcompoundref>
+    <includes refid="MRBitSet_8h" local="no">MRBitSet.h</includes>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" prot="public" static="no">
+        <type>Uint64</type>
+        <definition>using MR::BitSet::block_type =  Uint64</definition>
+        <argsstring></argsstring>
+        <name>block_type</name>
+        <qualifiedname>MR::BitSet::block_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="26" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" prot="public" static="no">
+        <type>size_t</type>
+        <definition>using MR::BitSet::size_type =  size_t</definition>
+        <argsstring></argsstring>
+        <name>size_type</name>
+        <qualifiedname>MR::BitSet::size_type</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="30" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" prot="public" static="no">
+        <type>size_t</type>
+        <definition>using MR::BitSet::IndexType =  size_t</definition>
+        <argsstring></argsstring>
+        <name>IndexType</name>
+        <qualifiedname>MR::BitSet::IndexType</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="31" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::BitSet::bits_per_block</definition>
+        <argsstring></argsstring>
+        <name>bits_per_block</name>
+        <qualifiedname>MR::BitSet::bits_per_block</qualifiedname>
+        <initializer>= sizeof( <ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref> ) * 8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="27" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1BitSet_1af09b9c83f7a055fa6ea95e83b7fee246" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>size_t</type>
+        <definition>size_t MR::BitSet::npos</definition>
+        <argsstring></argsstring>
+        <name>npos</name>
+        <qualifiedname>MR::BitSet::npos</qualifiedname>
+        <initializer>= (size_t)-1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="28" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1BitSet_1aacb06419123b86b604f5b183e3714bad" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref> &gt;</type>
+        <definition>std::vector&lt;block_type&gt; MR::BitSet::blocks_</definition>
+        <argsstring></argsstring>
+        <name>blocks_</name>
+        <qualifiedname>MR::BitSet::blocks_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="221" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="221" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classMR_1_1BitSet_1a6d276e8dbb191806b7696d0a0886ffd0" prot="private" static="no" mutable="no">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>size_type MR::BitSet::numBits_</definition>
+        <argsstring></argsstring>
+        <name>numBits_</name>
+        <qualifiedname>MR::BitSet::numBits_</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="222" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="222" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BitSet_1a466f41a196180947a6b55ce01eb5f761" prot="public" static="no" const="no" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::BitSet::BitSet</definition>
+        <argsstring>() noexcept=default</argsstring>
+        <name>BitSet</name>
+        <qualifiedname>MR::BitSet::BitSet</qualifiedname>
+        <briefdescription>
+<para>creates empty bitset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="34" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1afab07406cee38429e04894dd1de6f202" prot="public" static="no" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR::BitSet::BitSet</definition>
+        <argsstring>(size_t numBits, bool fillValue=false)</argsstring>
+        <name>BitSet</name>
+        <qualifiedname>MR::BitSet::BitSet</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+<para>creates bitset of given size filled with given value </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="37" column="14" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="37" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a40738ebf472136cc76b60d1563edb0de" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BitSet::reserve</definition>
+        <argsstring>(size_type numBits)</argsstring>
+        <name>reserve</name>
+        <qualifiedname>MR::BitSet::reserve</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+          <declname>numBits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="48" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="48" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a4421c6a1ac2ff5a1a246553f6b4b7d68" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::BitSet::resize</definition>
+        <argsstring>(size_type numBits, bool fillValue=false)</argsstring>
+        <name>resize</name>
+        <qualifiedname>MR::BitSet::resize</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="49" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a911e2daac2bf0277dfa9759afa552795" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BitSet::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>MR::BitSet::clear</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="50" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1af71838c1900e9dd77091a6e2204b2a69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BitSet::shrink_to_fit</definition>
+        <argsstring>()</argsstring>
+        <name>shrink_to_fit</name>
+        <qualifiedname>MR::BitSet::shrink_to_fit</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="51" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a68591813e27420d51ac2dbe237e85d36" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::BitSet::empty</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>empty</name>
+        <qualifiedname>MR::BitSet::empty</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="53" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>size_type MR::BitSet::size</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>size</name>
+        <qualifiedname>MR::BitSet::size</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="54" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1abc2f39f61e481d944fd1fe7966932025" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>size_type MR::BitSet::num_blocks</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>num_blocks</name>
+        <qualifiedname>MR::BitSet::num_blocks</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="55" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ad5356319788e20bd77294c90f6b72ea1" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>size_type MR::BitSet::capacity</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>capacity</name>
+        <qualifiedname>MR::BitSet::capacity</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="56" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a88d7cb003f37bb4ff177bf6082074305" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::BitSet::uncheckedTest</definition>
+        <argsstring>(IndexType n) const</argsstring>
+        <name>uncheckedTest</name>
+        <qualifiedname>MR::BitSet::uncheckedTest</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1aa1f040574bd60bfde685c9747f1e689c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::BitSet::uncheckedTestSet</definition>
+        <argsstring>(IndexType n, bool val=true)</argsstring>
+        <name>uncheckedTestSet</name>
+        <qualifiedname>MR::BitSet::uncheckedTestSet</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="59" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1aab6d4690169ae21969bc5f538fc8fbff" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::BitSet::test</definition>
+        <argsstring>(IndexType n) const</argsstring>
+        <name>test</name>
+        <qualifiedname>MR::BitSet::test</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>all bits after <ref refid="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" kindref="member">size()</ref> we silently consider as not-set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="62" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a85be34ba3bb731ce828ca21c67b1413c" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::BitSet::test_set</definition>
+        <argsstring>(IndexType n, bool val=true)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>MR::BitSet::test_set</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>return n &lt; <ref refid="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" kindref="member">size()</ref> &amp;&amp; uncheckedTest( n ); was compiled with extra conditional jump inside <ref refid="classMR_1_1BitSet_1a88d7cb003f37bb4ff177bf6082074305" kindref="member">uncheckedTest()</ref> by MSVC </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="63" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ac775819451398d31705a74cf1741c2ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::set</definition>
+        <argsstring>(IndexType n, size_type len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::BitSet::set</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="65" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1abc51849e29c44edfdbf413c84b74f4c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>BitSet &amp; MR::BitSet::set</definition>
+        <argsstring>(IndexType n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::BitSet::set</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="66" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="66" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a6f625bd1a775ce33f59b769411f2d7e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>BitSet &amp; MR::BitSet::set</definition>
+        <argsstring>(IndexType n)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::BitSet::set</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>Not using a default argument for <computeroutput>val</computeroutput> to get better C bindings. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="67" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="67" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a8bd23f1f5881d4a90bb163298618ecb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::set</definition>
+        <argsstring>()</argsstring>
+        <name>set</name>
+        <qualifiedname>MR::BitSet::set</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="68" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1add75ee784a906060d8f27b2e89a0196d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::reset</definition>
+        <argsstring>(IndexType n, size_type len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::BitSet::reset</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="70" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1aa2267b11bc02d8a216df148fdccc02a3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>BitSet &amp; MR::BitSet::reset</definition>
+        <argsstring>(IndexType n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::BitSet::reset</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="71" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="71" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a7a9101a86efa0cfba6cd21a7c170e2f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR::BitSet::reset</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="72" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a09e4cde68a5174ca2f71c1699df3ab61" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::flip</definition>
+        <argsstring>(IndexType n, size_type len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR::BitSet::flip</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="74" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1af5fff3291406197a18b73907ba6d0ad0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>BitSet &amp; MR::BitSet::flip</definition>
+        <argsstring>(IndexType n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR::BitSet::flip</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="75" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="75" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a7b018ef3dd10acb90d5c3db4391737c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::flip</definition>
+        <argsstring>()</argsstring>
+        <name>flip</name>
+        <qualifiedname>MR::BitSet::flip</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="76" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1aaa173f3c44069e9e9b2e958f8c14c63c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::BitSet::reverse</definition>
+        <argsstring>()</argsstring>
+        <name>reverse</name>
+        <qualifiedname>MR::BitSet::reverse</qualifiedname>
+        <briefdescription>
+<para>changes the order of bits on the opposite </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="79" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1acfad508aa764e014db0ace9f3fc05f93" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BitSet::push_back</definition>
+        <argsstring>(bool val)</argsstring>
+        <name>push_back</name>
+        <qualifiedname>MR::BitSet::push_back</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>adds one more bit with the given value in the container, increasing its size on 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="82" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="82" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1af4799e91aeb36deab4540ac14bf16e98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BitSet::pop_back</definition>
+        <argsstring>()</argsstring>
+        <name>pop_back</name>
+        <qualifiedname>MR::BitSet::pop_back</qualifiedname>
+        <briefdescription>
+<para>removes last bit from the container, decreasing its size on 1 </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="85" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ae109ea3b45a9d42a26687dadfc85f936" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>const auto &amp;</type>
+        <definition>const auto &amp; MR::BitSet::bits</definition>
+        <argsstring>() const</argsstring>
+        <name>bits</name>
+        <qualifiedname>MR::BitSet::bits</qualifiedname>
+        <briefdescription>
+<para>read-only access to all bits stored as a vector of uint64 blocks </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="88" column="18" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1af4367d27b2897443f41bc359deeab256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::operator&amp;=</definition>
+        <argsstring>(const BitSet &amp;b)</argsstring>
+        <name>operator&amp;=</name>
+        <qualifiedname>MR::BitSet::operator&amp;=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="90" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ae73a641818182660d303a4b2db7d34a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::operator|=</definition>
+        <argsstring>(const BitSet &amp;b)</argsstring>
+        <name>operator|=</name>
+        <qualifiedname>MR::BitSet::operator|=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="91" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1aeb7bb0c8ddc8cb0b9a917fe43a2cc514" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::operator^=</definition>
+        <argsstring>(const BitSet &amp;b)</argsstring>
+        <name>operator^=</name>
+        <qualifiedname>MR::BitSet::operator^=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="92" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a2b67ad8030f22aa236b64a04fb2459dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::operator-=</definition>
+        <argsstring>(const BitSet &amp;b)</argsstring>
+        <name>operator-=</name>
+        <qualifiedname>MR::BitSet::operator-=</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="94" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a2a50b06c0c6ba58204d191f3b900439c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>MRMESH_API BitSet &amp; MR::BitSet::subtract</definition>
+        <argsstring>(const BitSet &amp;b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>MR::BitSet::subtract</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+<para>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="96" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1aa9c2df8cc058b06f1078c21a438d2660" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::BitSet::all</definition>
+        <argsstring>() const</argsstring>
+        <name>all</name>
+        <qualifiedname>MR::BitSet::all</qualifiedname>
+        <briefdescription>
+<para>returns true if all bits in this container are set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="99" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1af0c22c00f0d1b9104c798b6d0c91d791" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::BitSet::any</definition>
+        <argsstring>() const</argsstring>
+        <name>any</name>
+        <qualifiedname>MR::BitSet::any</qualifiedname>
+        <briefdescription>
+<para>returns true if at least one bits in this container is set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="102" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ae93bbbefc2bee256a329ec3ac480f963" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::BitSet::none</definition>
+        <argsstring>() const</argsstring>
+        <name>none</name>
+        <qualifiedname>MR::BitSet::none</qualifiedname>
+        <briefdescription>
+<para>returns true if all bits in this container are reset </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="105" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a0b5ac75b778ec242623bfc126e69476d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" noexcept="yes" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>MRMESH_API size_type MR::BitSet::count</definition>
+        <argsstring>() const noexcept</argsstring>
+        <name>count</name>
+        <qualifiedname>MR::BitSet::count</qualifiedname>
+        <briefdescription>
+<para>computes the number of set bits in the whole set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="108" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ac8e1e2ea2d5a77114c44b2d32f3e9e8b" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>IndexType MR::BitSet::find_first</definition>
+        <argsstring>() const</argsstring>
+        <name>find_first</name>
+        <qualifiedname>MR::BitSet::find_first</qualifiedname>
+        <briefdescription>
+<para>return the smallest index i such that bit i is set, or npos if *this has no on bits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="111" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="111" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ab3c6d3157f3b02affcf7def04eb60c31" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>IndexType MR::BitSet::find_next</definition>
+        <argsstring>(IndexType n) const</argsstring>
+        <name>find_next</name>
+        <qualifiedname>MR::BitSet::find_next</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="114" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="114" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a21e124c25421599977ed1fc9874016e3" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>MRMESH_API IndexType MR::BitSet::find_last</definition>
+        <argsstring>() const</argsstring>
+        <name>find_last</name>
+        <qualifiedname>MR::BitSet::find_last</qualifiedname>
+        <briefdescription>
+<para>return the highest index i such that bit i is set, or npos if *this has no on bits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="117" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a0344c4c74d9b9a4ff11bdeae69c2ddb9" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>IndexType MR::BitSet::find_first_not_set</definition>
+        <argsstring>() const</argsstring>
+        <name>find_first_not_set</name>
+        <qualifiedname>MR::BitSet::find_first_not_set</qualifiedname>
+        <briefdescription>
+<para>return the smallest index i such that bit i is NOT set, or npos if *this has no off bits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="120" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a552e222c0bee74a65f294cdbec098310" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>IndexType MR::BitSet::find_next_not_set</definition>
+        <argsstring>(IndexType n) const</argsstring>
+        <name>find_next_not_set</name>
+        <qualifiedname>MR::BitSet::find_next_not_set</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="123" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a560dbfd8d9c5682b9f889b33536cf811" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>MRMESH_API IndexType MR::BitSet::find_last_not_set</definition>
+        <argsstring>() const</argsstring>
+        <name>find_last_not_set</name>
+        <qualifiedname>MR::BitSet::find_last_not_set</qualifiedname>
+        <briefdescription>
+<para>return the highest index i such that bit i is NOT set, or npos if *this has no off bits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="126" column="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a274cea4a76458910a418ec9e8e3e3edf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API size_t</type>
+        <definition>MRMESH_API size_t MR::BitSet::nthSetBit</definition>
+        <argsstring>(size_t n) const</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>MR::BitSet::nthSetBit</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>returns the location of nth set bit (where the first bit corresponds to n=0) or npos if there are less bit set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="129" column="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ad205d27f45977c18c7f10c77650523aa" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::BitSet::is_subset_of</definition>
+        <argsstring>(const BitSet &amp;a) const</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>MR::BitSet::is_subset_of</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="132" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ac537a58da8e04ed776a89cd4463876ec" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API bool</type>
+        <definition>MRMESH_API bool MR::BitSet::intersects</definition>
+        <argsstring>(const BitSet &amp;a) const</argsstring>
+        <name>intersects</name>
+        <qualifiedname>MR::BitSet::intersects</qualifiedname>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+<para>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="135" column="22"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ac7929d81a23ad4ff51c472f0d1c992d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BitSet::resizeWithReserve</definition>
+        <argsstring>(size_t newSize)</argsstring>
+        <name>resizeWithReserve</name>
+        <qualifiedname>MR::BitSet::resizeWithReserve</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>newSize</declname>
+        </param>
+        <briefdescription>
+<para>doubles reserved memory until resize(newSize) can be done without reallocation </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="138" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="138" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ab61cde9e7da6d5d6c75fefd11e2e6a24" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BitSet::autoResizeSet</definition>
+        <argsstring>(size_t pos, size_type len, bool val=true)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR::BitSet::autoResizeSet</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="151" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="151" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a737f8cc71944c7c750f8eeba4028ac17" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void MR::BitSet::autoResizeSet</definition>
+        <argsstring>(size_t pos, bool val=true)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>MR::BitSet::autoResizeSet</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="157" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="157" bodyend="157"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a84a9273303ae000bcf94b893a298eb95" prot="public" static="no" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR::BitSet::autoResizeTestSet</definition>
+        <argsstring>(size_t pos, bool val=true)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>MR::BitSet::autoResizeTestSet</qualifiedname>
+        <param>
+          <type>size_t</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>true</defval>
+        </param>
+        <briefdescription>
+<para>same as <ref refid="classMR_1_1BitSet_1ab61cde9e7da6d5d6c75fefd11e2e6a24" kindref="member">autoResizeSet</ref> and returns previous value of pos-bit </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="160" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="160" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1ae5007749dadb7430dc9dedb73114f9a6" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type>size_t</type>
+        <definition>size_t MR::BitSet::heapBytes</definition>
+        <argsstring>() const</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>MR::BitSet::heapBytes</qualifiedname>
+        <briefdescription>
+<para>returns the amount of memory this object occupies on heap </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="169" column="13" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="169" bodyend="169"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1abd624eb57fa1932e782bf7eb418f7d1d" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>IndexType MR::BitSet::backId</definition>
+        <argsstring>() const</argsstring>
+        <name>backId</name>
+        <qualifiedname>MR::BitSet::backId</qualifiedname>
+        <briefdescription>
+<para>returns the identifier of the back() element </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="172" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="172" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a1f947bfd0ac71d4db95bbf1402d27ddf" prot="public" static="no" nodiscard="yes" const="yes" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>IndexType MR::BitSet::endId</definition>
+        <argsstring>() const</argsstring>
+        <name>endId</name>
+        <qualifiedname>MR::BitSet::endId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="176" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="176" bodyend="176"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1BitSet_1a8bb32afb9d02a11bf7c980344babc472" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref></type>
+        <definition>static BitSet MR::BitSet::fromBlocks</definition>
+        <argsstring>(std::vector&lt; block_type &gt; &amp;&amp;blocks)</argsstring>
+        <name>fromBlocks</name>
+        <qualifiedname>MR::BitSet::fromBlocks</qualifiedname>
+        <param>
+          <type>std::vector&lt; <ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref> &gt; &amp;&amp;</type>
+          <declname>blocks</declname>
+        </param>
+        <briefdescription>
+<para>creates bitset from the given blocks of bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="40" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a21d6c2e6655c7c3a36f9ba013553d488" prot="public" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>static IndexType MR::BitSet::beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>MR::BitSet::beginId</qualifiedname>
+        <briefdescription>
+<para>[<ref refid="classMR_1_1BitSet_1a21d6c2e6655c7c3a36f9ba013553d488" kindref="member">beginId()</ref>, <ref refid="classMR_1_1BitSet_1a1f947bfd0ac71d4db95bbf1402d27ddf" kindref="member">endId()</ref>) is the range of all bits in the set </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="175" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="175" bodyend="175"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classMR_1_1BitSet_1a300b57edadf33ea0d04527ab45a5b4db" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>static size_type MR::BitSet::calcNumBlocks_</definition>
+        <argsstring>(size_type numBits) noexcept</argsstring>
+        <name>calcNumBlocks_</name>
+        <qualifiedname>MR::BitSet::calcNumBlocks_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+          <declname>numBits</declname>
+        </param>
+        <briefdescription>
+<para>minimal number of blocks to store the given number of bits </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="180" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="180" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a4d3c9c08e1ea8bfcd8b65b8f78cb652b" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>static size_type MR::BitSet::blockIndex_</definition>
+        <argsstring>(IndexType n) noexcept</argsstring>
+        <name>blockIndex_</name>
+        <qualifiedname>MR::BitSet::blockIndex_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>the block containing the given bit </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="183" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="183" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a70081eea3dd16bb6c7157c06d5b86cee" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+        <definition>static size_type MR::BitSet::bitIndex_</definition>
+        <argsstring>(IndexType n) noexcept</argsstring>
+        <name>bitIndex_</name>
+        <qualifiedname>MR::BitSet::bitIndex_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>the bit&apos;s shift within its block </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="186" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="186" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a8f4484237b765f3d3efb055d8daf3646" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref></type>
+        <definition>static block_type MR::BitSet::bitMask_</definition>
+        <argsstring>(IndexType n) noexcept</argsstring>
+        <name>bitMask_</name>
+        <qualifiedname>MR::BitSet::bitMask_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>block&apos;s mask with 1 at given bit&apos;s position and 0 at all other positions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="189" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="189" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a36c0186190e547b33c3cb88bbd92624f" prot="private" static="yes" nodiscard="yes" const="no" explicit="no" inline="yes" noexcept="yes" virt="non-virtual">
+        <type><ref refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" kindref="member">block_type</ref></type>
+        <definition>static block_type MR::BitSet::bitMask_</definition>
+        <argsstring>(IndexType firstBit, IndexType lastBit) noexcept</argsstring>
+        <name>bitMask_</name>
+        <qualifiedname>MR::BitSet::bitMask_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>firstBit</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>lastBit</declname>
+        </param>
+        <briefdescription>
+<para>block&apos;s mask with 1 at [firstBit, lastBit) positions and 0 at all other positions </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>set all bits in [0, firstBit)</para>
+<para>xor</para>
+<para>set all bits in [0, lastBit)</para>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="192" column="24" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="192" bodyend="197"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1BitSet_1a515246a62f717bfc4ee40571df33d834" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::BitSet::setUnusedBits_</definition>
+        <argsstring>()</argsstring>
+        <name>setUnusedBits_</name>
+        <qualifiedname>MR::BitSet::setUnusedBits_</qualifiedname>
+        <briefdescription>
+<para>set all unused bits in the last block to one </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="200" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a687591bf6dd92ec050fcbbaece78884a" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::BitSet::resetUnusedBits_</definition>
+        <argsstring>()</argsstring>
+        <name>resetUnusedBits_</name>
+        <qualifiedname>MR::BitSet::resetUnusedBits_</qualifiedname>
+        <briefdescription>
+<para>set all unused bits in the last block to zero </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="203" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a75ca80bcdd7e22824f3e5f189e337f79" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class FullBlock</type>
+          </param>
+          <param>
+            <type>class PartialBlock</type>
+          </param>
+        </templateparamlist>
+        <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+        <definition>BitSet &amp; MR::BitSet::rangeOp_</definition>
+        <argsstring>(IndexType n, size_type len, FullBlock &amp;&amp;, PartialBlock &amp;&amp;)</argsstring>
+        <name>rangeOp_</name>
+        <qualifiedname>MR::BitSet::rangeOp_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" kindref="member">size_type</ref></type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>FullBlock &amp;&amp;</type>
+        </param>
+        <param>
+          <type>PartialBlock &amp;&amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>performes some operation on [n, n+len) bits; calls block = FullBlock( block ) for every block fully in range; calls block = PartialBlock( block, firstBit, lastBit ) function for all blocks with only [firstBit, lastBit) in range; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="209" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1a634df0204e7979e8d8e2e4c85a740c90" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>MRMESH_API IndexType MR::BitSet::findSetBitAfter_</definition>
+        <argsstring>(IndexType n) const</argsstring>
+        <name>findSetBitAfter_</name>
+        <qualifiedname>MR::BitSet::findSetBitAfter_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>return the smallest index i&gt;=n such that bit i is set, or npos if *this has no on bits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="212" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BitSet_1aacd1a81791df5d867d0165178c15fabb" prot="private" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+        <definition>MRMESH_API IndexType MR::BitSet::findNonSetBitAfter_</definition>
+        <argsstring>(IndexType n) const</argsstring>
+        <name>findNonSetBitAfter_</name>
+        <qualifiedname>MR::BitSet::findNonSetBitAfter_</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" kindref="member">IndexType</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+<para>return the smallest index i&gt;=n such that bit i is not set, or npos if *this has no off bits. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="215" column="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <memberdef kind="friend" id="classMR_1_1BitSet_1a9bb3254a2ecfac1b55c9a26b28043e98" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API friend std::ostream &amp;</type>
+        <definition>MRMESH_API friend std::ostream &amp; operator&lt;&lt;</definition>
+        <argsstring>(std::ostream &amp;s, const BitSet &amp;bs)</argsstring>
+        <name>operator&lt;&lt;</name>
+        <qualifiedname>MR::BitSet::operator&lt;&lt;</qualifiedname>
+        <param>
+          <type>std::ostream &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="217" column="23"/>
+      </memberdef>
+      <memberdef kind="friend" id="classMR_1_1BitSet_1a8a41de2cd0ce5e0213dfff7731981323" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API friend std::istream &amp;</type>
+        <definition>MRMESH_API friend std::istream &amp; operator&gt;&gt;</definition>
+        <argsstring>(std::istream &amp;s, BitSet &amp;bs)</argsstring>
+        <name>operator&gt;&gt;</name>
+        <qualifiedname>MR::BitSet::operator&gt;&gt;</qualifiedname>
+        <param>
+          <type>std::istream &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BitSet" kindref="compound">BitSet</ref> &amp;</type>
+          <declname>bs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="218" column="36"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>std::vector&lt;bool&gt; like container (random-access, size_t - index type, bool - value type) with all bits after <ref refid="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" kindref="member">size()</ref> considered off during testing </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::BitSet</label>
+        <link refid="classMR_1_1BitSet"/>
+      </node>
+      <node id="2">
+        <label>MR::TypedBitSet&lt; I &gt;</label>
+        <link refid="classMR_1_1TypedBitSet"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSet.h" bodystart="24" bodyend="223"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BitSet_1aa9c2df8cc058b06f1078c21a438d2660" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>all</name></member>
+      <member refid="classMR_1_1BitSet_1af0c22c00f0d1b9104c798b6d0c91d791" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>any</name></member>
+      <member refid="classMR_1_1BitSet_1ab61cde9e7da6d5d6c75fefd11e2e6a24" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1BitSet_1a737f8cc71944c7c750f8eeba4028ac17" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classMR_1_1BitSet_1a84a9273303ae000bcf94b893a298eb95" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classMR_1_1BitSet_1abd624eb57fa1932e782bf7eb418f7d1d" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>backId</name></member>
+      <member refid="classMR_1_1BitSet_1a21d6c2e6655c7c3a36f9ba013553d488" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>beginId</name></member>
+      <member refid="classMR_1_1BitSet_1a70081eea3dd16bb6c7157c06d5b86cee" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>bitIndex_</name></member>
+      <member refid="classMR_1_1BitSet_1a8f4484237b765f3d3efb055d8daf3646" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>bitMask_</name></member>
+      <member refid="classMR_1_1BitSet_1a36c0186190e547b33c3cb88bbd92624f" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>bitMask_</name></member>
+      <member refid="classMR_1_1BitSet_1ae109ea3b45a9d42a26687dadfc85f936" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>bits</name></member>
+      <member refid="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>bits_per_block</name></member>
+      <member refid="classMR_1_1BitSet_1a466f41a196180947a6b55ce01eb5f761" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
+      <member refid="classMR_1_1BitSet_1afab07406cee38429e04894dd1de6f202" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>BitSet</name></member>
+      <member refid="classMR_1_1BitSet_1a2e90d15a57f34b4cdbf8341a85e52575" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>block_type</name></member>
+      <member refid="classMR_1_1BitSet_1a4d3c9c08e1ea8bfcd8b65b8f78cb652b" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>blockIndex_</name></member>
+      <member refid="classMR_1_1BitSet_1aacb06419123b86b604f5b183e3714bad" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>blocks_</name></member>
+      <member refid="classMR_1_1BitSet_1a300b57edadf33ea0d04527ab45a5b4db" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>calcNumBlocks_</name></member>
+      <member refid="classMR_1_1BitSet_1ad5356319788e20bd77294c90f6b72ea1" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>capacity</name></member>
+      <member refid="classMR_1_1BitSet_1a911e2daac2bf0277dfa9759afa552795" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>clear</name></member>
+      <member refid="classMR_1_1BitSet_1a0b5ac75b778ec242623bfc126e69476d" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>count</name></member>
+      <member refid="classMR_1_1BitSet_1a68591813e27420d51ac2dbe237e85d36" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>empty</name></member>
+      <member refid="classMR_1_1BitSet_1a1f947bfd0ac71d4db95bbf1402d27ddf" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>endId</name></member>
+      <member refid="classMR_1_1BitSet_1ac8e1e2ea2d5a77114c44b2d32f3e9e8b" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>find_first</name></member>
+      <member refid="classMR_1_1BitSet_1a0344c4c74d9b9a4ff11bdeae69c2ddb9" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>find_first_not_set</name></member>
+      <member refid="classMR_1_1BitSet_1a21e124c25421599977ed1fc9874016e3" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>find_last</name></member>
+      <member refid="classMR_1_1BitSet_1a560dbfd8d9c5682b9f889b33536cf811" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>find_last_not_set</name></member>
+      <member refid="classMR_1_1BitSet_1ab3c6d3157f3b02affcf7def04eb60c31" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>find_next</name></member>
+      <member refid="classMR_1_1BitSet_1a552e222c0bee74a65f294cdbec098310" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>find_next_not_set</name></member>
+      <member refid="classMR_1_1BitSet_1aacd1a81791df5d867d0165178c15fabb" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>findNonSetBitAfter_</name></member>
+      <member refid="classMR_1_1BitSet_1a634df0204e7979e8d8e2e4c85a740c90" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>findSetBitAfter_</name></member>
+      <member refid="classMR_1_1BitSet_1a09e4cde68a5174ca2f71c1699df3ab61" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1BitSet_1af5fff3291406197a18b73907ba6d0ad0" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1BitSet_1a7b018ef3dd10acb90d5c3db4391737c5" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>flip</name></member>
+      <member refid="classMR_1_1BitSet_1a8bb32afb9d02a11bf7c980344babc472" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>fromBlocks</name></member>
+      <member refid="classMR_1_1BitSet_1ae5007749dadb7430dc9dedb73114f9a6" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>heapBytes</name></member>
+      <member refid="classMR_1_1BitSet_1a0427884dece1dde1fa25caaa7b2aaba9" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>IndexType</name></member>
+      <member refid="classMR_1_1BitSet_1ac537a58da8e04ed776a89cd4463876ec" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>intersects</name></member>
+      <member refid="classMR_1_1BitSet_1ad205d27f45977c18c7f10c77650523aa" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>is_subset_of</name></member>
+      <member refid="classMR_1_1BitSet_1ae93bbbefc2bee256a329ec3ac480f963" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>none</name></member>
+      <member refid="classMR_1_1BitSet_1af09b9c83f7a055fa6ea95e83b7fee246" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>npos</name></member>
+      <member refid="classMR_1_1BitSet_1a274cea4a76458910a418ec9e8e3e3edf" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>nthSetBit</name></member>
+      <member refid="classMR_1_1BitSet_1abc2f39f61e481d944fd1fe7966932025" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>num_blocks</name></member>
+      <member refid="classMR_1_1BitSet_1a6d276e8dbb191806b7696d0a0886ffd0" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>numBits_</name></member>
+      <member refid="classMR_1_1BitSet_1af4367d27b2897443f41bc359deeab256" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator&amp;=</name></member>
+      <member refid="classMR_1_1BitSet_1a2b67ad8030f22aa236b64a04fb2459dc" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator-=</name></member>
+      <member refid="classMR_1_1BitSet_1a9bb3254a2ecfac1b55c9a26b28043e98" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>operator&lt;&lt;</name></member>
+      <member refid="classMR_1_1BitSet_1a8a41de2cd0ce5e0213dfff7731981323" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>operator&gt;&gt;</name></member>
+      <member refid="classMR_1_1BitSet_1aeb7bb0c8ddc8cb0b9a917fe43a2cc514" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator^=</name></member>
+      <member refid="classMR_1_1BitSet_1ae73a641818182660d303a4b2db7d34a4" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>operator|=</name></member>
+      <member refid="classMR_1_1BitSet_1af4799e91aeb36deab4540ac14bf16e98" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>pop_back</name></member>
+      <member refid="classMR_1_1BitSet_1acfad508aa764e014db0ace9f3fc05f93" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>push_back</name></member>
+      <member refid="classMR_1_1BitSet_1a75ca80bcdd7e22824f3e5f189e337f79" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>rangeOp_</name></member>
+      <member refid="classMR_1_1BitSet_1a40738ebf472136cc76b60d1563edb0de" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>reserve</name></member>
+      <member refid="classMR_1_1BitSet_1add75ee784a906060d8f27b2e89a0196d" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1BitSet_1aa2267b11bc02d8a216df148fdccc02a3" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1BitSet_1a7a9101a86efa0cfba6cd21a7c170e2f4" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>reset</name></member>
+      <member refid="classMR_1_1BitSet_1a687591bf6dd92ec050fcbbaece78884a" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>resetUnusedBits_</name></member>
+      <member refid="classMR_1_1BitSet_1a4421c6a1ac2ff5a1a246553f6b4b7d68" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>resize</name></member>
+      <member refid="classMR_1_1BitSet_1ac7929d81a23ad4ff51c472f0d1c992d5" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>resizeWithReserve</name></member>
+      <member refid="classMR_1_1BitSet_1aaa173f3c44069e9e9b2e958f8c14c63c" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>reverse</name></member>
+      <member refid="classMR_1_1BitSet_1ac775819451398d31705a74cf1741c2ba" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1BitSet_1abc51849e29c44edfdbf413c84b74f4c6" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1BitSet_1a6f625bd1a775ce33f59b769411f2d7e7" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1BitSet_1a8bd23f1f5881d4a90bb163298618ecb3" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>set</name></member>
+      <member refid="classMR_1_1BitSet_1a515246a62f717bfc4ee40571df33d834" prot="private" virt="non-virtual"><scope>MR::BitSet</scope><name>setUnusedBits_</name></member>
+      <member refid="classMR_1_1BitSet_1af71838c1900e9dd77091a6e2204b2a69" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>shrink_to_fit</name></member>
+      <member refid="classMR_1_1BitSet_1a9bf0ff93a8acb7497c308b9406d035d3" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>size</name></member>
+      <member refid="classMR_1_1BitSet_1a029565ede6f02c029a79d6821794eca3" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>size_type</name></member>
+      <member refid="classMR_1_1BitSet_1a2a50b06c0c6ba58204d191f3b900439c" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>subtract</name></member>
+      <member refid="classMR_1_1BitSet_1aab6d4690169ae21969bc5f538fc8fbff" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>test</name></member>
+      <member refid="classMR_1_1BitSet_1a85be34ba3bb731ce828ca21c67b1413c" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>test_set</name></member>
+      <member refid="classMR_1_1BitSet_1a88d7cb003f37bb4ff177bf6082074305" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>uncheckedTest</name></member>
+      <member refid="classMR_1_1BitSet_1aa1f040574bd60bfde685c9747f1e689c" prot="public" virt="non-virtual"><scope>MR::BitSet</scope><name>uncheckedTestSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

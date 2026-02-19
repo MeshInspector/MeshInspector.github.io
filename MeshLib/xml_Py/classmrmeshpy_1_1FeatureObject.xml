@@ -1,0 +1,1076 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FeatureObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FeatureObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1VisualObject" prot="public" virt="non-virtual">mrmeshpy.VisualObject</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter" prot="public" virt="non-virtual">mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55" prot="public" virt="non-virtual">mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_angle_DimensionsVisualizePropertyType_length</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d" prot="public" virt="non-virtual">mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1LineObject" prot="public" virt="non-virtual">mrmeshpy.LineObject</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1PlaneObject" prot="public" virt="non-virtual">mrmeshpy.PlaneObject</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1PointObject" prot="public" virt="non-virtual">mrmeshpy.PointObject</derivedcompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FeatureObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.FeatureObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce">StaticClassName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a0f0ba8d62269b10bbff9b36246f7a7d4">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a76efd87cab10d8328311f597e0cd68b8">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a3e9a467ae77e792262cffb09b38cce45">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a9f771fceacd8a496939afc60f25543c0">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1afcbad577026c593a96ccb00ae84a80df">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a30960e1f45d058e80020b0bf9959dc88">StaticClassName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a702be0a2ab3463d95c025adb40b8a38b">StaticClassName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17781" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17781" bodyend="17782"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FeatureObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.FeatureObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7">StaticClassNameInPlural</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a6079d61654468dae4b8cb6b1a99399aa">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1ac8a01614df85e65f2f3a287d49a5e22b">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a0775d8aa7973b5eb6175e3f46f782f52">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1ae00f673b3c233b01f2583b9535e48127">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1aafd17b254a522618853d770e0f251270">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a64c1998015baa982a2e8a08bc7b5bf52">StaticClassNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a06716ae3375a596e99867c6bcbaa5feb">StaticClassNameInPlural</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17784" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17784" bodyend="17785"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FeatureObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.FeatureObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2fc458fce133a9ff45056ce820e23234">StaticTypeName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1af4cb33c6d31ac2a34d0ab305e0dcbe06">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a4781119ce13de18fa2db2836142196e4">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a61ec91e17990fbfb2b2a0da7405540b8">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1ae037f8278647af9487b05813bc1b0a6e">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a52d2fc888aaf4cda55361f8c80cea733">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a7495f33cd34305919caaa1dfb68c75ae">StaticTypeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a0502099bc6ddfb927fd58124b2fe103a">StaticTypeName</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17787" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17787" bodyend="17788"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FeatureObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.FeatureObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2">className</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1abead0b7f35e9df9a59edf120b387a397">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1aaed3f9c36b6441de16feb796b6a64e04">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a2480dce940888372c26cbcd0b8236f9d">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1ab4779c6f90afaa1ab6ef95d5354e1a18">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a8ccdad7dffc69a2a55488cbaca487680">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a5d93463592d8efab1ed4677e165fc1ef">className</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1ae4b88929ee48382bb07c3d22ce9f397a">className</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17789" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17789" bodyend="17790"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FeatureObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.FeatureObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca">classNameInPlural</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a53aab371be8dbe4e23e0992212f032e1">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a125bc76883261bbaad97ca7c51a0dd2a">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a4b85a21a4b26883cb9b4974663a0170b">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1ac6575cb2096dfa85f7474ca964215fe6">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1ac0b446132b2fcbf3c29a92fa5a056ed1">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1afaaa56497276ff82239961b011559352">classNameInPlural</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a9c7ddd5d62180a36d6237376aa2836b3">classNameInPlural</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17791" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17791" bodyend="17792"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__FeatureObjectSharedProperty" kindref="compound">std_vector_FeatureObjectSharedProperty</ref></type>
+        <definition> std_vector_FeatureObjectSharedProperty mrmeshpy.FeatureObject.getAllSharedProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllSharedProperties</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getAllSharedProperties</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a8dbd2151dcd63a76abeeaf6f60d22c2a">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a45efb7b2a7a9d66ae8c2a32a43a440d9">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a7ecec0b28c1910736c0c81288119ff67">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a797c0e1d17fe80281036cad697cdcc15">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1aabb3bfd5423a22f7c0e587b424149a1a">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1af5f5d75a726d67e7cf7e56ec25bb5bcd">getAllSharedProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a015523fdf63712d91b81ea84400d6cc4">getAllSharedProperties</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Create and generate list of bounded getters and setters for the main properties of feature object, together with prop. name for display and edit into UI.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17793" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17793" bodyend="17796"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a840b68101f6eb43e4abae6222e049566" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__ViewportMask" kindref="compound">std_vector_ViewportMask</ref></type>
+        <definition> std_vector_ViewportMask mrmeshpy.FeatureObject.getAllVisualizeProperties</definition>
+        <argsstring>(self)</argsstring>
+        <name>getAllVisualizeProperties</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getAllVisualizeProperties</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a99a68c12bda4b4c07f5ba725b2b2af59">getAllVisualizeProperties</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter_1a12d230fa69ad5580a9302f91c8818369">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55_1a4594786b6deab4bb110fa73c6058d6c8">getAllVisualizeProperties</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a8ffa19554161fd3c786e459d6bcdc42f">getAllVisualizeProperties</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>get all visualize properties masks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17797" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17797" bodyend="17798"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a9bd28c315bbee7dcf28bf18da8c115bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.FeatureObject.getBasePoint</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>getBasePoint</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getBasePoint</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a253c2ec336c01356a6f9bfc8cf6eefd1">getBasePoint</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a5facccd36633ed69848a3d24fbd1926b">getBasePoint</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a5e1a40660087aa58c7fed739068ea468">getBasePoint</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a3f1eb67e2107843e489b2c04369915c4">getBasePoint</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns point considered as base for the feature
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17799" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17799" bodyend="17802"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1af5cd022e49cfeef46533032a24abb7c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+        <definition> Color mrmeshpy.FeatureObject.getDecorationsColor</definition>
+        <argsstring>(self, bool selected, ViewportId viewportId=..., bool_output isDef=None)</argsstring>
+        <name>getDecorationsColor</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getDecorationsColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>isDef</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This color is used for subfeatures.
+`isDef` receives false if matrix is overridden for this specific viewport.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17803" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17803" bodyend="17807"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a6920eada96b5b1f2f7084dbfd8d65fa0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+        <definition> ViewportProperty_Color mrmeshpy.FeatureObject.getDecorationsColorForAllViewports</definition>
+        <argsstring>(self, bool selected)</argsstring>
+        <name>getDecorationsColorForAllViewports</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17808" bodyend="17809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a71bfd44645b5b2938d50aaeba643f6ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FeatureObject.getLineWidth</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLineWidth</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getLineWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17810" bodyend="17811"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aa77a6dfcab6ca2c60ed2314e49e73786" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FeatureObject.getMainFeatureAlpha</definition>
+        <argsstring>(self)</argsstring>
+        <name>getMainFeatureAlpha</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getMainFeatureAlpha</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Per-component alpha multipliers. The global alpha is multiplied by thise.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17812" bodyend="17815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a80d467fec3bbe81b1c9edc5acbd6c622" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.FeatureObject.getNormal</definition>
+        <argsstring>(self, Vector3f point)</argsstring>
+        <name>getNormal</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getNormal</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1aef12a3f27bc5636a57a5bae1a80a489a">getNormal</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1afe02ed185e0905b9e913d9d038508638">getNormal</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17816" bodyend="17817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a3369428f8818e202162bd656aa2092da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FeatureObject.getPointSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>getPointSize</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getPointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Point size and line width, for primary rendering rather than subfeatures.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17818" bodyend="17821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a7ee1a9fb17182a6329dc58a61676c45c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition> Matrix3f mrmeshpy.FeatureObject.getRotationMatrix</definition>
+        <argsstring>(self, ViewportId id=..., bool_output isDef=None)</argsstring>
+        <name>getRotationMatrix</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getRotationMatrix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>isDef</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The cached orthonormalized rotation matrix.
+`isDef` receives false if matrix is overridden for this specific viewport.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17822" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17822" bodyend="17826"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aa76aebe3230f5fbf2ce7f408c12a7578" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Matrix3f" kindref="compound">Matrix3f</ref></type>
+        <definition> Matrix3f mrmeshpy.FeatureObject.getScaleShearMatrix</definition>
+        <argsstring>(self, ViewportId id=..., bool_output isDef=None)</argsstring>
+        <name>getScaleShearMatrix</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getScaleShearMatrix</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1bool__output" kindref="compound">bool_output</ref></type>
+          <declname>isDef</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The cached scale and shear matrix. The main diagnoal stores the scale, and some other elements store the shearing.
+`isDef` receives false if matrix is overridden for this specific viewport.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17827" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17827" bodyend="17831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a0dd5541ee688b5c1de7d3467f7a7b47c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FeatureObject.getSubfeatureAlphaLines</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSubfeatureAlphaLines</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getSubfeatureAlphaLines</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17832" bodyend="17833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a22a60dac2b4ce868dcb1a110c70e9686" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FeatureObject.getSubfeatureAlphaMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSubfeatureAlphaMesh</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getSubfeatureAlphaMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17834" bodyend="17835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a9c04ef615ba77572fd1034e4355a7084" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FeatureObject.getSubfeatureAlphaPoints</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSubfeatureAlphaPoints</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getSubfeatureAlphaPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17836" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17836" bodyend="17837"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1abb14605bd99443b1af7a33edff166d5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FeatureObject.getSubfeatureLineWidth</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSubfeatureLineWidth</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getSubfeatureLineWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17838" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17838" bodyend="17839"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1acccddaf8f0b6e89a653222c8b6e5624b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FeatureObject.getSubfeaturePointSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>getSubfeaturePointSize</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getSubfeaturePointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Point size and line width, for subfeatures rather than primary rendering.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17840" bodyend="17843"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a7b7ed6a567132ae14467b9a6d12479ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ViewportMask" kindref="compound">ViewportMask</ref></type>
+        <definition> ViewportMask mrmeshpy.FeatureObject.getVisualizePropertyMask</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>getVisualizePropertyMask</name>
+        <qualifiedname>mrmeshpy.FeatureObject.getVisualizePropertyMask</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a936f4ea388564c3dc033b5abb39993f4">getVisualizePropertyMask</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter_1a047131f4d6f07708ce219ace69abc136">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55_1ae24c38c12e95bf204a9061bd48958062">getVisualizePropertyMask</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a0981de2e4663a97f511bc2b6d27d3bb2">getVisualizePropertyMask</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns mask of viewports where given property is set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17844" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17844" bodyend="17845"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FeatureObjectProjectPointResult" kindref="compound">FeatureObjectProjectPointResult</ref></type>
+        <definition> FeatureObjectProjectPointResult mrmeshpy.FeatureObject.projectPoint</definition>
+        <argsstring>(self, Vector3f point, ViewportId id=...)</argsstring>
+        <name>projectPoint</name>
+        <qualifiedname>mrmeshpy.FeatureObject.projectPoint</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a0db412d548c9274b8584e4900492241e">projectPoint</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1a46d36112f4cca9508db84e7f1bf06207">projectPoint</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a3afc9742feece54cc1c2fe8a15f026d2">projectPoint</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1a9d035b98ac2182a829684babd5ec5e2e">projectPoint</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1a140df2fe67e3eaac85e2fbda05779512">projectPoint</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1a8ab2b09bccd0854d9a273508f6aae7d2">projectPoint</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1a667cb23b63e6580ea57890890a6994d3">projectPoint</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Since a point on an abstract feature is difficult to uniquely parameterize,
+the projection function simultaneously returns the normal to the surface at the projection point.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17846" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17846" bodyend="17850"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a53c03b6b1591522a7efbabcb3963309c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.resetXf</definition>
+        <argsstring>(self, ViewportId id=...)</argsstring>
+        <name>resetXf</name>
+        <qualifiedname>mrmeshpy.FeatureObject.resetXf</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1a9d4920ba95eb61dd557cc7b77e8b1654">resetXf</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>forgets specific transform in given viewport (or forgets all specific transforms for {} input)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17851" bodyend="17852"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a12a48864fde34a3b0a6f72b6f95fcc00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setDecorationsColor</definition>
+        <argsstring>(self, Color color, bool selected, ViewportId viewportId=...)</argsstring>
+        <name>setDecorationsColor</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setDecorationsColor</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Color" kindref="compound">Color</ref></type>
+          <declname>color</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>viewportId</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17853" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17853" bodyend="17854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a480f0e55188febfa611327e53e9f9038" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setDecorationsColorForAllViewports</definition>
+        <argsstring>(self, ViewportProperty_Color val, bool selected)</argsstring>
+        <name>setDecorationsColorForAllViewports</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setDecorationsColorForAllViewports</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportProperty__Color" kindref="compound">ViewportProperty_Color</ref></type>
+          <declname>val</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17855" bodyend="17856"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a2790c6551ffa765a85c99292e11c3560" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setLineWidth</definition>
+        <argsstring>(self, float lineWidth)</argsstring>
+        <name>setLineWidth</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setLineWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17857" bodyend="17858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aa7412a85414788847a881e0c18c59878" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setMainFeatureAlpha</definition>
+        <argsstring>(self, float alpha)</argsstring>
+        <name>setMainFeatureAlpha</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setMainFeatureAlpha</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17859" bodyend="17860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1ac56f7310a58bc5eaa32a7e739685f2b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setPointSize</definition>
+        <argsstring>(self, float pointSize)</argsstring>
+        <name>setPointSize</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setPointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17861" bodyend="17862"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a3a61fc447facbe3a8c21ddd5207e0e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setSubfeatureAlphaLines</definition>
+        <argsstring>(self, float alpha)</argsstring>
+        <name>setSubfeatureAlphaLines</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setSubfeatureAlphaLines</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17863" bodyend="17864"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1ae0106a4c6e67d8c7644d226f4cd45ee8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setSubfeatureAlphaMesh</definition>
+        <argsstring>(self, float alpha)</argsstring>
+        <name>setSubfeatureAlphaMesh</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setSubfeatureAlphaMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17865" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17865" bodyend="17866"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a14cfdc55290f5ad1883488b6876811f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setSubfeatureAlphaPoints</definition>
+        <argsstring>(self, float alpha)</argsstring>
+        <name>setSubfeatureAlphaPoints</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setSubfeatureAlphaPoints</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>alpha</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17867" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17867" bodyend="17868"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a40a4acaefd1752b0e9359ab3876e97e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setSubfeatureLineWidth</definition>
+        <argsstring>(self, float lineWidth)</argsstring>
+        <name>setSubfeatureLineWidth</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setSubfeatureLineWidth</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>lineWidth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17869" bodyend="17870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a537928713294647267cf4d68345087b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setSubfeaturePointSize</definition>
+        <argsstring>(self, float pointSize)</argsstring>
+        <name>setSubfeaturePointSize</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setSubfeaturePointSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>pointSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17871" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17871" bodyend="17872"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a2006a2111c8adb13fafa58f39df307d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FeatureObject.setXf</definition>
+        <argsstring>(self, AffineXf3f xf, ViewportId id=...)</argsstring>
+        <name>setXf</name>
+        <qualifiedname>mrmeshpy.FeatureObject.setXf</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1Object_1aa19f9528e669d68920059fa560ef527b">setXf</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ViewportId" kindref="compound">ViewportId</ref></type>
+          <declname>id</declname>
+          <defval>...</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17873" bodyend="17874"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1a1d424208c478b75ec64eccd64a0d78d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FeatureObject.supportsVisualizeProperty</definition>
+        <argsstring>(self, AnyVisualizeMaskEnum type)</argsstring>
+        <name>supportsVisualizeProperty</name>
+        <qualifiedname>mrmeshpy.FeatureObject.supportsVisualizeProperty</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1af397dd03ebfb70c972d3c4b39e52fc51">supportsVisualizeProperty</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter_1ab7dca2824f7c5f179cdb8875c3b0fef1">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55_1aa62951dcc0fb773998472ba3368ea0bc">supportsVisualizeProperty</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d_1a25738fcf06e9b13f84b8472c86770caa">supportsVisualizeProperty</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AnyVisualizeMaskEnum" kindref="compound">AnyVisualizeMaskEnum</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns true if this class supports the property `type`. Otherwise passing it to the functions below is illegal.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17875" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17875" bodyend="17876"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FeatureObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.FeatureObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a0e188ed95f73756841030840741720e9">typeName</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1CircleObject_1a391c0bfd1a55b06b1de0f33874ddf0de">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1ConeObject_1ae6d15b14c42b71b272fa0e39a73c23d3">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1CylinderObject_1a7007f9ec38b4c2c61176f1c3e0990e8c">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1LineObject_1afa7d13e6a3c01fdbe0dd30dd27213202">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PlaneObject_1ae0abbb8c5a7ec816b0741e6f4b346c61">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1PointObject_1af9c5949768640aef3614d28b5aa94a9c">typeName</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1SphereObject_1aeae2fa1c3017cf8e8ae4cfcc10ed28cc">typeName</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17877" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17877" bodyend="17878"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FeatureObject
+
+An interface class which allows feature objects to share setters and getters on their main properties, for convenient presentation in the UI
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_angle_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__08bac3bda56e323e9f008186f80b7f55"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>mrmeshpy.AddVisualProperties_FeatureObject_DimensionsVisualizePropertyType_diameter_DimensionsVisualizePropertyType_length</label>
+        <link refid="classmrmeshpy_1_1AddVisualProperties__FeatureObject__DimensionsVisualizePropertyType__diameter__76fd3e0afd560dcf4b968132e8074b6d"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>mrmeshpy.CircleObject</label>
+        <link refid="classmrmeshpy_1_1CircleObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>mrmeshpy.ConeObject</label>
+        <link refid="classmrmeshpy_1_1ConeObject"/>
+        <childnode refid="8" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>mrmeshpy.CylinderObject</label>
+        <link refid="classmrmeshpy_1_1CylinderObject"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>mrmeshpy.LineObject</label>
+        <link refid="classmrmeshpy_1_1LineObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="13">
+        <label>mrmeshpy.PlaneObject</label>
+        <link refid="classmrmeshpy_1_1PlaneObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>mrmeshpy.PointObject</label>
+        <link refid="classmrmeshpy_1_1PointObject"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>mrmeshpy.SphereObject</label>
+        <link refid="classmrmeshpy_1_1SphereObject"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FeatureObject</label>
+        <link refid="classmrmeshpy_1_1FeatureObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="17774" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="17774" bodyend="17878"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a4ff00d6aea25df6e8b48aab21b141e4c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1ab1bd1f5f0f94b0e000d3d525cb290ded" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a23676bb9fe5cb1841b3b3aba602cd2d5" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getAllSharedProperties</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a840b68101f6eb43e4abae6222e049566" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a9bd28c315bbee7dcf28bf18da8c115bc" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getBasePoint</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1af5cd022e49cfeef46533032a24abb7c2" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getDecorationsColor</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a6920eada96b5b1f2f7084dbfd8d65fa0" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getDecorationsColorForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a71bfd44645b5b2938d50aaeba643f6ec" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1aa77a6dfcab6ca2c60ed2314e49e73786" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getMainFeatureAlpha</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a80d467fec3bbe81b1c9edc5acbd6c622" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getNormal</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a3369428f8818e202162bd656aa2092da" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getPointSize</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a7ee1a9fb17182a6329dc58a61676c45c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getRotationMatrix</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1aa76aebe3230f5fbf2ce7f408c12a7578" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getScaleShearMatrix</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a0dd5541ee688b5c1de7d3467f7a7b47c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeatureAlphaLines</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a22a60dac2b4ce868dcb1a110c70e9686" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeatureAlphaMesh</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a9c04ef615ba77572fd1034e4355a7084" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeatureAlphaPoints</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1abb14605bd99443b1af7a33edff166d5f" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeatureLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1acccddaf8f0b6e89a653222c8b6e5624b" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getSubfeaturePointSize</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a7b7ed6a567132ae14467b9a6d12479ea" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a822f830b8766fa6970649a9429520ba4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>projectPoint</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a53c03b6b1591522a7efbabcb3963309c" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>resetXf</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a12a48864fde34a3b0a6f72b6f95fcc00" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setDecorationsColor</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a480f0e55188febfa611327e53e9f9038" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setDecorationsColorForAllViewports</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a2790c6551ffa765a85c99292e11c3560" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1aa7412a85414788847a881e0c18c59878" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setMainFeatureAlpha</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1ac56f7310a58bc5eaa32a7e739685f2b5" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setPointSize</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a3a61fc447facbe3a8c21ddd5207e0e41" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeatureAlphaLines</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1ae0106a4c6e67d8c7644d226f4cd45ee8" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeatureAlphaMesh</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a14cfdc55290f5ad1883488b6876811f2" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeatureAlphaPoints</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a40a4acaefd1752b0e9359ab3876e97e4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeatureLineWidth</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a537928713294647267cf4d68345087b4" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setSubfeaturePointSize</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a2006a2111c8adb13fafa58f39df307d8" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>setXf</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1aaba564f5dadac77ab41a8b7e62ad1392" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1aab981810ff3c0db3137491807fe6e769" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a332a90b38de94f746ef76c634fbfdb00" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1a1d424208c478b75ec64eccd64a0d78d6" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>supportsVisualizeProperty</name></member>
+      <member refid="classmrmeshpy_1_1FeatureObject_1aef685fbdedc360b4ad4d91fc16242463" prot="public" virt="non-virtual"><scope>mrmeshpy::FeatureObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

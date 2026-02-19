@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TransformVdbVolumeResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TransformVdbVolumeResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TransformVdbVolumeResult_1a50393ca19f071e0228fa17c97812e2bd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TransformVdbVolumeResult::_offsetof_boxFixed</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_boxFixed</name>
+        <qualifiedname>mrmeshpy.TransformVdbVolumeResult._offsetof_boxFixed</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57093" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TransformVdbVolumeResult_1a9d008edac0b943bfb678921a33dec568" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TransformVdbVolumeResult::_offsetof_volume</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_volume</name>
+        <qualifiedname>mrmeshpy.TransformVdbVolumeResult._offsetof_volume</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57094" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57094" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformVdbVolumeResult_1a3b505fde9242f7ff721b9ceac197569b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransformVdbVolumeResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransformVdbVolumeResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57099" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57099" bodyend="57100"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformVdbVolumeResult_1ac653bd8dc65ca2b405f4c4b372a96e26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TransformVdbVolumeResult" kindref="compound">TransformVdbVolumeResult</ref></type>
+        <definition> TransformVdbVolumeResult mrmeshpy.TransformVdbVolumeResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TransformVdbVolumeResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57103" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57103" bodyend="57104"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformVdbVolumeResult_1ac653bd8dc65ca2b405f4c4b372a96e26" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TransformVdbVolumeResult" kindref="compound">TransformVdbVolumeResult</ref></type>
+        <definition> TransformVdbVolumeResult mrmeshpy.TransformVdbVolumeResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TransformVdbVolumeResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57107" bodyend="57108"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformVdbVolumeResult_1a87e07810b2205e78aa2f33ab43e73a90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransformVdbVolumeResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransformVdbVolumeResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57110" bodyend="57111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformVdbVolumeResult_1ab1f4ebf8721183d29241dcf4f236e971" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransformVdbVolumeResult.__init__</definition>
+        <argsstring>(self, TransformVdbVolumeResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransformVdbVolumeResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TransformVdbVolumeResult" kindref="compound">TransformVdbVolumeResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57113" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57113" bodyend="57116"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TransformVdbVolumeResult_1a963b48cbc79290ffea8ac880fc0d9152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TransformVdbVolumeResult.__init__</definition>
+        <argsstring>(self, VdbVolume volume, bool boxFixed)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TransformVdbVolumeResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VdbVolume" kindref="compound">VdbVolume</ref></type>
+          <declname>volume</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>boxFixed</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57118" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57118" bodyend="57121"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TransformVdbVolumeResult
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TransformVdbVolumeResult</label>
+        <link refid="classmrmeshpy_1_1TransformVdbVolumeResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_boxFixed</edgelabel>
+          <edgelabel>_offsetof_volume</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57089" bodyend="57121"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TransformVdbVolumeResult_1a3b505fde9242f7ff721b9ceac197569b" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformVdbVolumeResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransformVdbVolumeResult_1a87e07810b2205e78aa2f33ab43e73a90" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformVdbVolumeResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransformVdbVolumeResult_1ab1f4ebf8721183d29241dcf4f236e971" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformVdbVolumeResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransformVdbVolumeResult_1a963b48cbc79290ffea8ac880fc0d9152" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformVdbVolumeResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TransformVdbVolumeResult_1a50393ca19f071e0228fa17c97812e2bd" prot="protected" virt="non-virtual"><scope>mrmeshpy::TransformVdbVolumeResult</scope><name>_offsetof_boxFixed</name></member>
+      <member refid="classmrmeshpy_1_1TransformVdbVolumeResult_1a9d008edac0b943bfb678921a33dec568" prot="protected" virt="non-virtual"><scope>mrmeshpy::TransformVdbVolumeResult</scope><name>_offsetof_volume</name></member>
+      <member refid="classmrmeshpy_1_1TransformVdbVolumeResult_1ac653bd8dc65ca2b405f4c4b372a96e26" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformVdbVolumeResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TransformVdbVolumeResult_1ac653bd8dc65ca2b405f4c4b372a96e26" prot="public" virt="non-virtual"><scope>mrmeshpy::TransformVdbVolumeResult</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

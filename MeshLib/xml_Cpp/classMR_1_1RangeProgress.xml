@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RangeProgress" kind="class" language="C++" prot="public">
+    <compoundname>MR::RangeProgress</compoundname>
+    <includes refid="MROpenVDBHelper_8h" local="no">MROpenVDBHelper.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gaa39d9c285d46ac3ce70aea92db6f9bf2" kind="enum"><name>Mode</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga93729b6af059f629f789e2986d63c43e" kind="variable"><name>counter_</name></member>
+      <member refid="group__GeneralGroup_1gaa5a2324dfac7c1b5566e6d4141d8eeff" kind="variable"><name>size_</name></member>
+      <member refid="group__GeneralGroup_1ga5707c4916a70f87d10e030667aae2725" kind="variable"><name>cb_</name></member>
+      <member refid="group__GeneralGroup_1gaff806b62756da72dd81d6292471b89ad" kind="variable"><name>progressThreadId_</name></member>
+      <member refid="group__GeneralGroup_1gad6551aa3e5ae124d4758f04db574de01" kind="variable"><name>mode_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa3ba5b5d4dddbf923bc92f56310c747b" kind="function"><name>RangeProgress</name></member>
+      <member refid="group__GeneralGroup_1ga9c5219708895771c264ae1e50fca117e" kind="function"><name>add</name></member>
+      <member refid="group__GeneralGroup_1ga991fa7ee78ee9b1a15c198de60ee6c99" kind="function"><name>reportProgress</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This class holds single progress counter for all parallel_reduce threads but report progress only in main thread </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" line="175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MROpenVDBHelper.h" bodystart="176" bodyend="213"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga9c5219708895771c264ae1e50fca117e" prot="public" virt="non-virtual"><scope>MR::RangeProgress</scope><name>add</name></member>
+      <member refid="group__GeneralGroup_1ga5707c4916a70f87d10e030667aae2725" prot="private" virt="non-virtual"><scope>MR::RangeProgress</scope><name>cb_</name></member>
+      <member refid="group__GeneralGroup_1ga93729b6af059f629f789e2986d63c43e" prot="private" virt="non-virtual"><scope>MR::RangeProgress</scope><name>counter_</name></member>
+      <member refid="group__GeneralGroup_1gaa39d9c285d46ac3ce70aea92db6f9bf2" prot="public" virt="non-virtual"><scope>MR::RangeProgress</scope><name>Mode</name></member>
+      <member refid="group__GeneralGroup_1gad6551aa3e5ae124d4758f04db574de01" prot="private" virt="non-virtual"><scope>MR::RangeProgress</scope><name>mode_</name></member>
+      <member refid="group__GeneralGroup_1gaff806b62756da72dd81d6292471b89ad" prot="private" virt="non-virtual"><scope>MR::RangeProgress</scope><name>progressThreadId_</name></member>
+      <member refid="group__GeneralGroup_1gaa3ba5b5d4dddbf923bc92f56310c747b" prot="public" virt="non-virtual"><scope>MR::RangeProgress</scope><name>RangeProgress</name></member>
+      <member refid="group__GeneralGroup_1ga991fa7ee78ee9b1a15c198de60ee6c99" prot="public" virt="non-virtual"><scope>MR::RangeProgress</scope><name>reportProgress</name></member>
+      <member refid="group__GeneralGroup_1gaa5a2324dfac7c1b5566e6d4141d8eeff" prot="private" virt="non-virtual"><scope>MR::RangeProgress</scope><name>size_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

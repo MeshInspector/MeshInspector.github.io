@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SimpleBinaryVolume" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SimpleBinaryVolume</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SimpleBinaryVolume_1a9856f0df3158d939d0ea8acedbcc9973" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SimpleBinaryVolume::_offsetof_data</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_data</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume._offsetof_data</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52446" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52446" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SimpleBinaryVolume_1a6f05da99745a8bf509303f6411ce2b39" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SimpleBinaryVolume::_offsetof_dims</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dims</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume._offsetof_dims</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52447" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52447" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SimpleBinaryVolume_1aad4bbcff184bf3a4c6fb941fe8b42c73" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SimpleBinaryVolume::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume._offsetof_voxelSize</qualifiedname>
+        <initializer>=  44</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52448" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52448" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleBinaryVolume_1afedf87a8db75dc59fcede1f7fb53d205" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SimpleBinaryVolume.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52454" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52454" bodyend="52455"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleBinaryVolume_1a39d02394161a874e1eb8c37d40a07e10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SimpleBinaryVolume" kindref="compound">SimpleBinaryVolume</ref></type>
+        <definition> SimpleBinaryVolume mrmeshpy.SimpleBinaryVolume.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52458" bodyend="52459"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleBinaryVolume_1a39d02394161a874e1eb8c37d40a07e10" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SimpleBinaryVolume" kindref="compound">SimpleBinaryVolume</ref></type>
+        <definition> SimpleBinaryVolume mrmeshpy.SimpleBinaryVolume.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52462" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52462" bodyend="52463"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleBinaryVolume_1a84462727c2d3ff9bb114d491f8dc8b63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SimpleBinaryVolume.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52465" bodyend="52466"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleBinaryVolume_1a9196e8eca9aaab947ecc76f8cc452427" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SimpleBinaryVolume.__init__</definition>
+        <argsstring>(self, SimpleBinaryVolume arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SimpleBinaryVolume" kindref="compound">SimpleBinaryVolume</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52468" bodyend="52471"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleBinaryVolume_1ac83c8905f73b6731239faddea95bd29e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SimpleBinaryVolume.__init__</definition>
+        <argsstring>(self, VoxelBitSet data, Vector3i dims, Vector3f voxelSize)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VoxelBitSet" kindref="compound">VoxelBitSet</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52473" bodyend="52476"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SimpleBinaryVolume_1a5e2bfe9deb94ff6cec0c13ec3429c540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SimpleBinaryVolume.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.SimpleBinaryVolume.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52477" bodyend="52478"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SimpleBinaryVolume
+
+represents a box in 3D space subdivided on voxels stored in T
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SimpleBinaryVolume</label>
+        <link refid="classmrmeshpy_1_1SimpleBinaryVolume"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_data</edgelabel>
+          <edgelabel>_offsetof_dims</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52440" bodyend="52478"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1afedf87a8db75dc59fcede1f7fb53d205" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1a84462727c2d3ff9bb114d491f8dc8b63" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1a9196e8eca9aaab947ecc76f8cc452427" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1ac83c8905f73b6731239faddea95bd29e" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1a9856f0df3158d939d0ea8acedbcc9973" prot="protected" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>_offsetof_data</name></member>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1a6f05da99745a8bf509303f6411ce2b39" prot="protected" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>_offsetof_dims</name></member>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1aad4bbcff184bf3a4c6fb941fe8b42c73" prot="protected" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1a5e2bfe9deb94ff6cec0c13ec3429c540" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1a39d02394161a874e1eb8c37d40a07e10" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SimpleBinaryVolume_1a39d02394161a874e1eb8c37d40a07e10" prot="public" virt="non-virtual"><scope>mrmeshpy::SimpleBinaryVolume</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PointOnFace" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PointOnFace</compoundname>
+    <includes refid="MRPointOnFace_8h" local="no">MRPointOnFace.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2ec934aa6c7847dbfbc812bcea286b53" kind="variable"><name>face</name></member>
+      <member refid="group__GeneralGroup_1ga8ee455f370bca112fa98cf9f81a2e3ad" kind="variable"><name>point</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga025f9557286d25c7be1c794fbb8ecafa" kind="function"><name>valid</name></member>
+      <member refid="group__GeneralGroup_1gacabf2c49796ac6c253d2d2031fb688c7" kind="function"><name>operator bool</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga8637dcfb147334b89a036bd81aa65d29" kind="friend"><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga2fec16fae9fb716a22a7e976563c23b6" kind="friend"><name>operator&gt;&gt;</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>a point located on some mesh&apos;s face </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPointOnFace.h" bodystart="16" bodyend="29"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2ec934aa6c7847dbfbc812bcea286b53" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>face</name></member>
+      <member refid="group__GeneralGroup_1gacabf2c49796ac6c253d2d2031fb688c7" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga8637dcfb147334b89a036bd81aa65d29" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga2fec16fae9fb716a22a7e976563c23b6" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1ga8ee455f370bca112fa98cf9f81a2e3ad" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga025f9557286d25c7be1c794fbb8ecafa" prot="public" virt="non-virtual"><scope>MR::PointOnFace</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

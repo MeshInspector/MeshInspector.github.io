@@ -1,5 +1,0 @@
-var classMR_1_1Std_1_1Const__Function__VoidFuncFromConstMRFeaturesSubfeatureInfoRef =
-[
-    [ "Const_Function_VoidFuncFromConstMRFeaturesSubfeatureInfoRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstMRFeaturesSubfeatureInfoRef.html#ac848cab9b2ca88415bd9c4f852301ed1", null ],
-    [ "Const_Function_VoidFuncFromConstMRFeaturesSubfeatureInfoRef", "classMR_1_1Std_1_1Const__Function__VoidFuncFromConstMRFeaturesSubfeatureInfoRef.html#a8f162671c554a53b39d7a84c78900184", null ]
-];

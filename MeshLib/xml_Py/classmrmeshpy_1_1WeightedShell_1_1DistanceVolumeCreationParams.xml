@@ -1,0 +1,208 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::WeightedShell::DistanceVolumeCreationParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a01725ee98f74c7e9af9b22554ab5e8ba" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.WeightedShell.DistanceVolumeCreationParams::_offsetof_dist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dist</name>
+        <qualifiedname>mrmeshpy.WeightedShell.DistanceVolumeCreationParams._offsetof_dist</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74473" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74473" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a1a82410fce53da3421ee406ea21a4136" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.WeightedShell.DistanceVolumeCreationParams::_offsetof_vol</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vol</name>
+        <qualifiedname>mrmeshpy.WeightedShell.DistanceVolumeCreationParams._offsetof_vol</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74474" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a0a049cdbc310db353497f139f020cd4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.DistanceVolumeCreationParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.DistanceVolumeCreationParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74479" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74479" bodyend="74480"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ab7f9c59e9fd85bd8f679fbb2e440359a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">WeightedShell.DistanceVolumeCreationParams</ref></type>
+        <definition> WeightedShell.DistanceVolumeCreationParams mrmeshpy.WeightedShell.DistanceVolumeCreationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.WeightedShell.DistanceVolumeCreationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74483" bodyend="74484"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ab7f9c59e9fd85bd8f679fbb2e440359a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">WeightedShell.DistanceVolumeCreationParams</ref></type>
+        <definition> WeightedShell.DistanceVolumeCreationParams mrmeshpy.WeightedShell.DistanceVolumeCreationParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.WeightedShell.DistanceVolumeCreationParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74487" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74487" bodyend="74488"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a9ffa88374e7a5d9df0894817cd2996ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.DistanceVolumeCreationParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.DistanceVolumeCreationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74490" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74490" bodyend="74491"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a91165cf6c7ef6abd42f056f2675fe88a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.DistanceVolumeCreationParams.__init__</definition>
+        <argsstring>(self, WeightedShell.DistanceVolumeCreationParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.DistanceVolumeCreationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams" kindref="compound">WeightedShell.DistanceVolumeCreationParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74493" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74493" bodyend="74496"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a5f7b09b7ddef102b8299e704ffe3a527" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.WeightedShell.DistanceVolumeCreationParams.__init__</definition>
+        <argsstring>(self, DistanceVolumeParams vol, DistanceFromWeightedPointsComputeParams dist)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.WeightedShell.DistanceVolumeCreationParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceFromWeightedPointsComputeParams" kindref="compound">DistanceFromWeightedPointsComputeParams</ref></type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74498" bodyend="74502"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::WeightedShell::DistanceVolumeCreationParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.WeightedShell.DistanceVolumeCreationParams</label>
+        <link refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dist</edgelabel>
+          <edgelabel>_offsetof_vol</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="74469" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="74469" bodyend="74501"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a0a049cdbc310db353497f139f020cd4c" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::DistanceVolumeCreationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a9ffa88374e7a5d9df0894817cd2996ee" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::DistanceVolumeCreationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a91165cf6c7ef6abd42f056f2675fe88a" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::DistanceVolumeCreationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a5f7b09b7ddef102b8299e704ffe3a527" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::DistanceVolumeCreationParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a01725ee98f74c7e9af9b22554ab5e8ba" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::DistanceVolumeCreationParams</scope><name>_offsetof_dist</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1a1a82410fce53da3421ee406ea21a4136" prot="protected" virt="non-virtual"><scope>mrmeshpy::WeightedShell::DistanceVolumeCreationParams</scope><name>_offsetof_vol</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ab7f9c59e9fd85bd8f679fbb2e440359a" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::DistanceVolumeCreationParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1WeightedShell_1_1DistanceVolumeCreationParams_1ab7f9c59e9fd85bd8f679fbb2e440359a" prot="public" virt="non-virtual"><scope>mrmeshpy::WeightedShell::DistanceVolumeCreationParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

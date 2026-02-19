@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ModalDialogSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ModalDialogSettings</compoundname>
+    <includes refid="MRModalDialog_8h" local="no">MRModalDialog.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaff877b60069cbba358ec18108751d01b" kind="variable"><name>windowWidth</name></member>
+      <member refid="group__GeneralGroup_1gaf4bb1e08280d27647734c03a24b716e5" kind="variable"><name>headline</name></member>
+      <member refid="group__GeneralGroup_1gaa6a1e75f223b26a6dc2ad1ddd9771ab4" kind="variable"><name>closeButton</name></member>
+      <member refid="group__GeneralGroup_1gaa65f2b8b59737180b99cc277177d4ff5" kind="variable"><name>text</name></member>
+      <member refid="group__GeneralGroup_1ga6f27fa29dcdfba807ff60ced88467e51" kind="variable"><name>dontShowAgain</name></member>
+      <member refid="group__GeneralGroup_1ga26096cca550b1692d761f787646e25c7" kind="variable"><name>closeOnClickOutside</name></member>
+      <member refid="group__GeneralGroup_1ga06ef8b7cc8cd092df38f3573cb9ccd16" kind="variable"><name>onWindowClose</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Settings for <ref refid="classMR_1_1ModalDialog" kindref="compound">ModalDialog</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRModalDialog.h" bodystart="16" bodyend="33"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa6a1e75f223b26a6dc2ad1ddd9771ab4" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>closeButton</name></member>
+      <member refid="group__GeneralGroup_1ga26096cca550b1692d761f787646e25c7" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>closeOnClickOutside</name></member>
+      <member refid="group__GeneralGroup_1ga6f27fa29dcdfba807ff60ced88467e51" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>dontShowAgain</name></member>
+      <member refid="group__GeneralGroup_1gaf4bb1e08280d27647734c03a24b716e5" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>headline</name></member>
+      <member refid="group__GeneralGroup_1ga06ef8b7cc8cd092df38f3573cb9ccd16" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>onWindowClose</name></member>
+      <member refid="group__GeneralGroup_1gaa65f2b8b59737180b99cc277177d4ff5" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>text</name></member>
+      <member refid="group__GeneralGroup_1gaff877b60069cbba358ec18108751d01b" prot="public" virt="non-virtual"><scope>MR::ModalDialogSettings</scope><name>windowWidth</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

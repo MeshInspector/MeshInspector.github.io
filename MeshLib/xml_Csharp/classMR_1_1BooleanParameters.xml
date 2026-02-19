@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1BooleanParameters" kind="class" language="C#" prot="public">
+    <compoundname>MR::BooleanParameters</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_BooleanParameters</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1BooleanParameters_1ac7c4b36c2c783b33d8371cd0e9417b60" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1ConstBox__AffineXf3f" kindref="compound">ConstBox_AffineXf3f</ref></type>
+        <definition>new unsafe MR.? ConstBox_AffineXf3f MR.BooleanParameters.rigidB2A</definition>
+        <argsstring></argsstring>
+        <name>rigidB2A</name>
+        <qualifiedname>MR.BooleanParameters.rigidB2A</qualifiedname>
+        <briefdescription>
+<para>Transform from mesh <computeroutput>B</computeroutput> space to mesh <computeroutput>A</computeroutput> space. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="888" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="889" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanParameters_1a0b4d64485461751a76dc6da72fc3f7b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? BooleanResultMapper</type>
+        <definition>new unsafe MR.? BooleanResultMapper MR.BooleanParameters.mapper</definition>
+        <argsstring></argsstring>
+        <name>mapper</name>
+        <qualifiedname>MR.BooleanParameters.mapper</qualifiedname>
+        <briefdescription>
+<para>Optional output structure to map mesh <computeroutput>A</computeroutput> and mesh <computeroutput>B</computeroutput> topology to result mesh topology. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="901" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="902" bodyend="911"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanParameters_1a51f5bd8d3e1f34a182f070842b56e624" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">BooleanPreCutResult</ref></type>
+        <definition>new unsafe MR.? BooleanPreCutResult MR.BooleanParameters.outPreCutA</definition>
+        <argsstring></argsstring>
+        <name>outPreCutA</name>
+        <qualifiedname>MR.BooleanParameters.outPreCutA</qualifiedname>
+        <briefdescription>
+<para>Optional precut output of meshA, if present - does not perform boolean and just return them. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="914" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="915" bodyend="924"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanParameters_1a9fa1fed12527b89559e229a002453d78" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.? <ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">BooleanPreCutResult</ref></type>
+        <definition>new unsafe MR.? BooleanPreCutResult MR.BooleanParameters.outPreCutB</definition>
+        <argsstring></argsstring>
+        <name>outPreCutB</name>
+        <qualifiedname>MR.BooleanParameters.outPreCutB</qualifiedname>
+        <briefdescription>
+<para>Optional precut output of meshB, if present - does not perform boolean and just return them. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="927" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="928" bodyend="937"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanParameters_1a51800ccc18cba1b48dc2018b8bc445b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>new unsafe MR.Std.? Vector_StdVectorMREdgeId</type>
+        <definition>new unsafe MR.Std.? Vector_StdVectorMREdgeId MR.BooleanParameters.outCutEdges</definition>
+        <argsstring></argsstring>
+        <name>outCutEdges</name>
+        <qualifiedname>MR.BooleanParameters.outCutEdges</qualifiedname>
+        <briefdescription>
+<para>Optional output cut edges of booleaned meshes. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="940" column="57" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="941" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanParameters_1ae2205ffc85fa428c127fc66756977e1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.BooleanParameters.mergeAllNonIntersectingComponents</definition>
+        <argsstring></argsstring>
+        <name>mergeAllNonIntersectingComponents</name>
+        <qualifiedname>MR.BooleanParameters.mergeAllNonIntersectingComponents</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>By default produce valid operation on disconnected components if set merge all non-intersecting components </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="954" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="954" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanParameters_1a225aab981cc3810283cd4a45f67ce333" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref bool</type>
+        <definition>new unsafe ref bool MR.BooleanParameters.forceCut</definition>
+        <argsstring></argsstring>
+        <name>forceCut</name>
+        <qualifiedname>MR.BooleanParameters.forceCut</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this option is enabled boolean will try to cut meshes even if there are self-intersections in intersecting area it might work in some cases, but in general it might prevent fast error report and lead to other errors along the way <simplesect kind="warning"><para>not recommended in most cases </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="959" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="959" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1BooleanParameters_1a6578fa036306b2b7c5fc4c81d485e365" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Function_BoolFuncFromFloat</type>
+        <definition>new unsafe MR.Std.Function_BoolFuncFromFloat MR.BooleanParameters.cb</definition>
+        <argsstring></argsstring>
+        <name>cb</name>
+        <qualifiedname>MR.BooleanParameters.cb</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="961" column="59" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="961" bodyend="961"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1BooleanParameters_1a03423851ae0f41809a64b45269390eeb" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanParameters.BooleanParameters</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>BooleanParameters</name>
+        <qualifiedname>MR.BooleanParameters.BooleanParameters</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="980" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="980" bodyend="984"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1BooleanParameters_1abf3789d887f8bff27ed3d65be8b2f7d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanParameters.BooleanParameters</definition>
+        <argsstring>()</argsstring>
+        <name>BooleanParameters</name>
+        <qualifiedname>MR.BooleanParameters.BooleanParameters</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="990" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="990" bodyend="996"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanParameters_1a3fa28dddefb945bc5b6803d4c77febf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanParameters.BooleanParameters</definition>
+        <argsstring>(MR.AffineXf3f? rigidB2A, MR.BooleanResultMapper? mapper, MR.BooleanPreCutResult? outPreCutA, MR.BooleanPreCutResult? outPreCutB, MR.Std.Vector_StdVectorMREdgeId? outCutEdges, bool mergeAllNonIntersectingComponents, bool forceCut, MR.Std._ByValue_Function_BoolFuncFromFloat cb)</argsstring>
+        <name>BooleanParameters</name>
+        <qualifiedname>MR.BooleanParameters.BooleanParameters</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref>?</type>
+          <declname>rigidB2A</declname>
+        </param>
+        <param>
+          <type>MR.BooleanResultMapper?</type>
+          <declname>mapper</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">MR.BooleanPreCutResult</ref>?</type>
+          <declname>outPreCutA</declname>
+        </param>
+        <param>
+          <type><ref refid="classMR_1_1BooleanPreCutResult" kindref="compound">MR.BooleanPreCutResult</ref>?</type>
+          <declname>outPreCutB</declname>
+        </param>
+        <param>
+          <type>MR.Std.Vector_StdVectorMREdgeId?</type>
+          <declname>outCutEdges</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>mergeAllNonIntersectingComponents</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>forceCut</declname>
+        </param>
+        <param>
+          <type>MR.Std._ByValue_Function_BoolFuncFromFloat</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1BooleanParameters" kindref="compound">MR.BooleanParameters</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1001" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1001" bodyend="1013"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanParameters_1a607c522b1dca425875024d2562aaa023" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.BooleanParameters.BooleanParameters</definition>
+        <argsstring>(MR._ByValue_BooleanParameters _other)</argsstring>
+        <name>BooleanParameters</name>
+        <qualifiedname>MR.BooleanParameters.BooleanParameters</qualifiedname>
+        <param>
+          <type>MR._ByValue_BooleanParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BooleanParameters.BooleanParameters</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1018" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1018" bodyend="1025"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanParameters_1aa575bb722008b6b8734d6f5dff719a32" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BooleanParameters.BooleanParameters</definition>
+        <argsstring>(Const_BooleanParameters _other)</argsstring>
+        <name>BooleanParameters</name>
+        <qualifiedname>MR.BooleanParameters.BooleanParameters</qualifiedname>
+        <param>
+          <type>Const_BooleanParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BooleanParameters.BooleanParameters</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1030" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1030" bodyend="1030"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanParameters_1a30a38c2c80f6057fa5c047c264da2651" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.BooleanParameters.BooleanParameters</definition>
+        <argsstring>(BooleanParameters _other)</argsstring>
+        <name>BooleanParameters</name>
+        <qualifiedname>MR.BooleanParameters.BooleanParameters</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1BooleanParameters" kindref="compound">BooleanParameters</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.BooleanParameters.BooleanParameters</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1035" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1035" bodyend="1035"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1BooleanParameters_1ad5e497e4879c97fd381f589e89690655" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1BooleanParameters" kindref="compound">MR.BooleanParameters</ref></type>
+        <definition>unsafe MR.BooleanParameters MR.BooleanParameters.assign</definition>
+        <argsstring>(MR._ByValue_BooleanParameters _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.BooleanParameters.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_BooleanParameters</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.BooleanParameters.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="1040" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="1040" bodyend="1047"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_BooleanParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BooleanParameters</label>
+        <link refid="classMR_1_1BooleanParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BooleanParameters &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_BooleanParameters</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.BooleanParameters</label>
+        <link refid="classMR_1_1BooleanParameters"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_BooleanParameters &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" line="885" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRMeshBoolean.cs" bodystart="886" bodyend="1048"/>
+    <listofallmembers>
+      <member refid="classMR_1_1BooleanParameters_1ad5e497e4879c97fd381f589e89690655" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>assign</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a03423851ae0f41809a64b45269390eeb" prot="package" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
+      <member refid="classMR_1_1BooleanParameters_1abf3789d887f8bff27ed3d65be8b2f7d6" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a3fa28dddefb945bc5b6803d4c77febf9" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a607c522b1dca425875024d2562aaa023" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
+      <member refid="classMR_1_1BooleanParameters_1aa575bb722008b6b8734d6f5dff719a32" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a30a38c2c80f6057fa5c047c264da2651" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>BooleanParameters</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a6578fa036306b2b7c5fc4c81d485e365" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>cb</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a225aab981cc3810283cd4a45f67ce333" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>forceCut</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a0b4d64485461751a76dc6da72fc3f7b3" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>mapper</name></member>
+      <member refid="classMR_1_1BooleanParameters_1ae2205ffc85fa428c127fc66756977e1d" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>mergeAllNonIntersectingComponents</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a51800ccc18cba1b48dc2018b8bc445b4" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>outCutEdges</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a51f5bd8d3e1f34a182f070842b56e624" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>outPreCutA</name></member>
+      <member refid="classMR_1_1BooleanParameters_1a9fa1fed12527b89559e229a002453d78" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>outPreCutB</name></member>
+      <member refid="classMR_1_1BooleanParameters_1ac7c4b36c2c783b33d8371cd0e9417b60" prot="public" virt="non-virtual"><scope>MR::BooleanParameters</scope><name>rigidB2A</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

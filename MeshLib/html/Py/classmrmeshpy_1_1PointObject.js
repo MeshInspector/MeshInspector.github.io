@@ -6,8 +6,8 @@ var classmrmeshpy_1_1PointObject =
     [ "classNameInPlural", "classmrmeshpy_1_1PointObject.html#afaaa56497276ff82239961b011559352", null ],
     [ "clone", "classmrmeshpy_1_1PointObject.html#a9ddb1111f89bf74a9a7188c6eca0f690", null ],
     [ "getAllSharedProperties", "classmrmeshpy_1_1PointObject.html#af5f5d75a726d67e7cf7e56ec25bb5bcd", null ],
-    [ "getPoint", "classmrmeshpy_1_1PointObject.html#a339d8f54dc0e4265f1c47f64ebfbaa62", null ],
-    [ "setLocalPoint", "classmrmeshpy_1_1PointObject.html#afa56475c2180474469871f55b23cfbe7", null ],
+    [ "getPoint", "classmrmeshpy_1_1PointObject.html#a1c8da7ece61616bed7f712de5b1a17c9", null ],
+    [ "setLocalPoint", "classmrmeshpy_1_1PointObject.html#af336e11c6c5d5afebb5a1eb371c51754", null ],
     [ "shallowClone", "classmrmeshpy_1_1PointObject.html#ae5dbe12cbbc7cc1c9c03518b90c49192", null ],
     [ "typeName", "classmrmeshpy_1_1PointObject.html#af9c5949768640aef3614d28b5aa94a9c", null ]
 ];

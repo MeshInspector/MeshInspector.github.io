@@ -1,5 +1,5 @@
 var classMR_1_1ObjectFactoryBase =
 [
-    [ "ObjectFactoryBase", "../Csharp/classMR_1_1ObjectFactoryBase.html#aa09e877be0fe92afb9cfcf29075cb9bc", null ],
-    [ "assign", "../Csharp/classMR_1_1ObjectFactoryBase.html#a8aab95c7e854c318ffc3114965bdfe7b", null ]
+    [ "ObjectFactoryBase", "group__GeneralGroup.html#gaa58c04997252d38070201583bd163e4b", null ],
+    [ "~ObjectFactoryBase", "group__GeneralGroup.html#ga93cb60b621c8a8657c9e22d6eb464369", null ]
 ];

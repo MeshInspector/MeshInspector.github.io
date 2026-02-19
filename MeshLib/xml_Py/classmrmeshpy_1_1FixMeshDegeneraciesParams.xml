@@ -1,0 +1,621 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FixMeshDegeneraciesParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FixMeshDegeneraciesParams</compoundname>
+    <innerclass refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" prot="public">mrmeshpy::FixMeshDegeneraciesParams::Mode</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a71ac00356ea169513dd732a40c3cf768" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams::_offsetof_criticalTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_criticalTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams._offsetof_criticalTriAspectRatio</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20556" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20556" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a3f1a6a1b0388835a2947acc229e44f7f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams::_offsetof_maxAngleChange</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxAngleChange</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams._offsetof_maxAngleChange</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20557" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ada974063702c79d52530db3ac4fd1b14" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams::_offsetof_maxDeviation</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxDeviation</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams._offsetof_maxDeviation</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20558" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a10e4aea9c9e6d0b524d1d02a04d13a2d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams::_offsetof_mode</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mode</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams._offsetof_mode</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20559" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a71bdfe19869e949011e3cb12b50e8d2f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams._offsetof_region</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20560" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1aff3a4b6446c34cca57af06f03b4c15f1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams::_offsetof_stabilizer</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_stabilizer</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams._offsetof_stabilizer</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20561" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a6428230764d42b705e2debf6bc2dddaf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FixMeshDegeneraciesParams::_offsetof_tinyEdgeLength</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams._offsetof_tinyEdgeLength</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20562" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20562" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a32a133cc3e375ff79d72844bf6e0464c" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams" kindref="compound">FixMeshDegeneraciesParams</ref></type>
+        <definition>FixMeshDegeneraciesParams mrmeshpy.FixMeshDegeneraciesParams::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.mode</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" kindref="compound">Mode</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20564" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20564" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1afbaa43e1e493c0b5540f687e1bb1031b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20567" bodyend="20568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ab0f7fd024af483bcea90847abd82bc4b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams" kindref="compound">FixMeshDegeneraciesParams</ref></type>
+        <definition> FixMeshDegeneraciesParams mrmeshpy.FixMeshDegeneraciesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20571" bodyend="20572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ab0f7fd024af483bcea90847abd82bc4b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams" kindref="compound">FixMeshDegeneraciesParams</ref></type>
+        <definition> FixMeshDegeneraciesParams mrmeshpy.FixMeshDegeneraciesParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20575" bodyend="20576"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a1e1f838f91dc42fc8dc26bbfe1d8efa4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20578" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20578" bodyend="20579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a74f02bc677138a4b475b88934444675a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.__init__</definition>
+        <argsstring>(self, FixMeshDegeneraciesParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams" kindref="compound">FixMeshDegeneraciesParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20581" bodyend="20584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a5d379da27e00e6aa350c368227b8774f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.__init__</definition>
+        <argsstring>(self, float maxDeviation, float tinyEdgeLength, float criticalTriAspectRatio, float maxAngleChange, float stabilizer, FaceBitSet region, FixMeshDegeneraciesParams.Mode mode, func_bool_from_float cb)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDeviation</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>tinyEdgeLength</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChange</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>stabilizer</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1_1Mode" kindref="compound">FixMeshDegeneraciesParams.Mode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20586" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20586" bodyend="20589"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1af1fa642dd015c97f9141ea6cecb2d29a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FixMeshDegeneraciesParams.criticalTriAspectRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.criticalTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the algorithm will ignore dihedral angle check if one of triangles had aspect ratio equal or more than this value;
+and the algorithm will permit temporary increase in aspect ratio after collapse, if before collapse one of the triangles had larger aspect ratio
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20591" bodyend="20595"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ad541d9f4dee2a4c7a2b11ac5f4ea2c8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.criticalTriAspectRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>criticalTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.criticalTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20597" bodyend="20598"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1aef18acdff79e42342561f709e03f23ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FixMeshDegeneraciesParams.maxAngleChange</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.maxAngleChange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Permit edge flips if it does not change dihedral angle more than on this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20600" bodyend="20603"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a75ee8102258be97086e96f5fb3031ae4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.maxAngleChange</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxAngleChange</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.maxAngleChange</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20605" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20605" bodyend="20606"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a4ded1268c73cc51cefbceecfa7e3d7fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FixMeshDegeneraciesParams.maxDeviation</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDeviation</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.maxDeviation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>maximum permitted deviation from the original surface
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20608" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20608" bodyend="20611"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1af11bff844a9425eeb8cfdf0e6d815521" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.maxDeviation</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxDeviation</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.maxDeviation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20613" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20613" bodyend="20614"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a27f186813d0ef06ff4e06f08d32957db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.FixMeshDegeneraciesParams.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>degenerations will be fixed only in given region, it is updated during the operation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20616" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20616" bodyend="20619"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a3dfcd54758246e5aa47c8ef01033c8ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20621" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20621" bodyend="20622"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1af4b2cbe65ab13459cdc1658a19b35659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FixMeshDegeneraciesParams.stabilizer</definition>
+        <argsstring>(self)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Small stabilizer is important to achieve good results on completely planar mesh parts,
+if your mesh is not-planer everywhere, then you can set it to zero
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20624" bodyend="20628"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a3229c5e21d2b04882f6241ce9d0bbc9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.stabilizer</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>stabilizer</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.stabilizer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20630" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20630" bodyend="20631"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ae036722e0a7d4e1a66c11d1da87a314d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.FixMeshDegeneraciesParams.tinyEdgeLength</definition>
+        <argsstring>(self)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>edges not longer than this value will be collapsed ignoring normals and aspect ratio checks
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20633" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20633" bodyend="20636"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a647122eed90fc2317a989d13e54e2579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FixMeshDegeneraciesParams.tinyEdgeLength</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>tinyEdgeLength</name>
+        <qualifiedname>mrmeshpy.FixMeshDegeneraciesParams.tinyEdgeLength</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20638" bodyend="20639"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FixMeshDegeneraciesParams
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FixMeshDegeneraciesParams</label>
+        <link refid="classmrmeshpy_1_1FixMeshDegeneraciesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_criticalTriAspectRatio</edgelabel>
+          <edgelabel>_offsetof_maxAngleChange</edgelabel>
+          <edgelabel>_offsetof_maxDeviation</edgelabel>
+          <edgelabel>_offsetof_mode</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_stabilizer</edgelabel>
+          <edgelabel>_offsetof_tinyEdgeLength</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mode</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.FixMeshDegeneraciesParams</label>
+        <link refid="classmrmeshpy_1_1FixMeshDegeneraciesParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_criticalTriAspectRatio</edgelabel>
+          <edgelabel>_offsetof_maxAngleChange</edgelabel>
+          <edgelabel>_offsetof_maxDeviation</edgelabel>
+          <edgelabel>_offsetof_mode</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+          <edgelabel>_offsetof_stabilizer</edgelabel>
+          <edgelabel>_offsetof_tinyEdgeLength</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>mode</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20511" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20511" bodyend="20639"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1afbaa43e1e493c0b5540f687e1bb1031b" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a1e1f838f91dc42fc8dc26bbfe1d8efa4" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a74f02bc677138a4b475b88934444675a" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a5d379da27e00e6aa350c368227b8774f" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a71ac00356ea169513dd732a40c3cf768" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>_offsetof_criticalTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a3f1a6a1b0388835a2947acc229e44f7f" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>_offsetof_maxAngleChange</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ada974063702c79d52530db3ac4fd1b14" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>_offsetof_maxDeviation</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a10e4aea9c9e6d0b524d1d02a04d13a2d" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>_offsetof_mode</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a71bdfe19869e949011e3cb12b50e8d2f" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1aff3a4b6446c34cca57af06f03b4c15f1" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>_offsetof_stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a6428230764d42b705e2debf6bc2dddaf" prot="protected" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>_offsetof_tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1af1fa642dd015c97f9141ea6cecb2d29a" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ad541d9f4dee2a4c7a2b11ac5f4ea2c8a" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>criticalTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1aef18acdff79e42342561f709e03f23ef" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>maxAngleChange</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a75ee8102258be97086e96f5fb3031ae4" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>maxAngleChange</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a4ded1268c73cc51cefbceecfa7e3d7fa" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>maxDeviation</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1af11bff844a9425eeb8cfdf0e6d815521" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>maxDeviation</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a32a133cc3e375ff79d72844bf6e0464c" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>mode</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ab0f7fd024af483bcea90847abd82bc4b" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ab0f7fd024af483bcea90847abd82bc4b" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a27f186813d0ef06ff4e06f08d32957db" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a3dfcd54758246e5aa47c8ef01033c8ca" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1af4b2cbe65ab13459cdc1658a19b35659" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a3229c5e21d2b04882f6241ce9d0bbc9a" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>stabilizer</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1ae036722e0a7d4e1a66c11d1da87a314d" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>tinyEdgeLength</name></member>
+      <member refid="classmrmeshpy_1_1FixMeshDegeneraciesParams_1a647122eed90fc2317a989d13e54e2579" prot="public" virt="non-virtual"><scope>mrmeshpy::FixMeshDegeneraciesParams</scope><name>tinyEdgeLength</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

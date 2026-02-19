@@ -1,5 +1,7 @@
 var classMR_1_1IPointsToMeshProjector =
 [
-    [ "findProjections", "../Csharp/classMR_1_1IPointsToMeshProjector.html#a082e1c63993f0db3e6f7b0545b3b386e", null ],
-    [ "updateMeshData", "../Csharp/classMR_1_1IPointsToMeshProjector.html#ab7fcb6b2a80777e1adbdcde0cd71cf93", null ]
+    [ "~IPointsToMeshProjector", "group__GeneralGroup.html#gac1a1633695c8776296054f81942a84dc", null ],
+    [ "findProjections", "group__GeneralGroup.html#gaffb7ba1779ad577458ada7ad99f578ce", null ],
+    [ "projectionsHeapBytes", "group__GeneralGroup.html#ga2743e8821707c1810ac41b5918b2613c", null ],
+    [ "updateMeshData", "group__GeneralGroup.html#ga8386d444f8e600bb3fe67a31fc2c04f3", null ]
 ];

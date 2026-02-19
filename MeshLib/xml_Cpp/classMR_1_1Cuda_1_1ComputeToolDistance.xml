@@ -1,0 +1,189 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Cuda_1_1ComputeToolDistance" kind="class" language="C++" prot="public">
+    <compoundname>MR::Cuda::ComputeToolDistance</compoundname>
+    <basecompoundref refid="classMR_1_1IComputeToolDistance" prot="public" virt="non-virtual">MR::IComputeToolDistance</basecompoundref>
+    <includes refid="MRCudaSweptVolume_8h" local="no">MRCudaSweptVolume.h</includes>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classMR_1_1Cuda_1_1ComputeToolDistance_1aada0c9f7e263cf312d5e2bca08e9b8bb" prot="private" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Impl &gt;</type>
+        <definition>std::unique_ptr&lt;Impl&gt; MR::Cuda::ComputeToolDistance::impl_</definition>
+        <argsstring></argsstring>
+        <name>impl_</name>
+        <qualifiedname>MR::Cuda::ComputeToolDistance::impl_</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="32" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1af6ff220d789ac2f9c41960ab99a6517f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API</type>
+        <definition>MRCUDA_API MR::Cuda::ComputeToolDistance::ComputeToolDistance</definition>
+        <argsstring>()</argsstring>
+        <name>ComputeToolDistance</name>
+        <qualifiedname>MR::Cuda::ComputeToolDistance::ComputeToolDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="19" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1af0cb2449c5ed63b9ae8c4eb2d605647d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRCUDA_API</type>
+        <definition>MRCUDA_API MR::Cuda::ComputeToolDistance::~ComputeToolDistance</definition>
+        <argsstring>() override</argsstring>
+        <name>~ComputeToolDistance</name>
+        <qualifiedname>MR::Cuda::ComputeToolDistance::~ComputeToolDistance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="20" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1afcc3f132d5643509fe55e57845968424" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Vector3i &gt;</type>
+        <definition>MRCUDA_API Expected&lt; Vector3i &gt; MR::Cuda::ComputeToolDistance::prepare</definition>
+        <argsstring>(const Vector3i &amp;dims, const Polyline3 &amp;toolpath, const EndMillTool &amp;toolSpec) override</argsstring>
+        <name>prepare</name>
+        <qualifiedname>MR::Cuda::ComputeToolDistance::prepare</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga8ea4d968e93876e24b36709e9324f596">prepare</reimplements>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const Polyline3 &amp;</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1EndMillTool" kindref="compound">EndMillTool</ref> &amp;</type>
+          <declname>toolSpec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepare for a voxel grid of given dims and copy tool path and tool spec data <simplesect kind="return"><para>Maximum dimensions that can be processed at once (e.g. due to memory limits) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="22" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1a09b54489f5a1017c30273a0bede20f08" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; Vector3i &gt;</type>
+        <definition>MRCUDA_API Expected&lt; Vector3i &gt; MR::Cuda::ComputeToolDistance::prepare</definition>
+        <argsstring>(const Vector3i &amp;dims, const Polyline3 &amp;toolpath, const Polyline2 &amp;toolProfile) override</argsstring>
+        <name>prepare</name>
+        <qualifiedname>MR::Cuda::ComputeToolDistance::prepare</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1gaf4e1c6d89878989a6012b5d845adcd1a">prepare</reimplements>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>const Polyline3 &amp;</type>
+          <declname>toolpath</declname>
+        </param>
+        <param>
+          <type>const Polyline2 &amp;</type>
+          <declname>toolProfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prepare for a voxel grid of given dims and copy tool path and tool spec data <simplesect kind="return"><para>Maximum dimensions that can be processed at once (e.g. due to memory limits) </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="24" column="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1Cuda_1_1ComputeToolDistance_1a3d1d6250e0a612ff2a778c0b7b00dead" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>MRCUDA_API <ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; void &gt;</type>
+        <definition>MRCUDA_API Expected&lt; void &gt; MR::Cuda::ComputeToolDistance::computeToolDistance</definition>
+        <argsstring>(std::vector&lt; float &gt; &amp;output, const Vector3i &amp;dims, float voxelSize, const Vector3f &amp;origin, float padding) const override</argsstring>
+        <name>computeToolDistance</name>
+        <qualifiedname>MR::Cuda::ComputeToolDistance::computeToolDistance</qualifiedname>
+        <reimplements refid="group__GeneralGroup_1ga0053dac6d78b84037562e955eb49f7bd">computeToolDistance</reimplements>
+        <param>
+          <type>std::vector&lt; float &gt; &amp;</type>
+          <declname>output</declname>
+        </param>
+        <param>
+          <type>const Vector3i &amp;</type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>const Vector3f &amp;</type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>padding</declname>
+        </param>
+        <briefdescription>
+<para>Compute tool distance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="27" column="25"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>CUDA implementation of tool distance computation. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::Cuda::ComputeToolDistance</label>
+        <link refid="classMR_1_1Cuda_1_1ComputeToolDistance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IComputeToolDistance</label>
+        <link refid="classMR_1_1IComputeToolDistance"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::Cuda::ComputeToolDistance</label>
+        <link refid="classMR_1_1Cuda_1_1ComputeToolDistance"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::IComputeToolDistance</label>
+        <link refid="classMR_1_1IComputeToolDistance"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRCuda/MRCudaSweptVolume.h" bodystart="17" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1af6ff220d789ac2f9c41960ab99a6517f" prot="public" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>ComputeToolDistance</name></member>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a3d1d6250e0a612ff2a778c0b7b00dead" prot="public" virt="virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>computeToolDistance</name></member>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1aada0c9f7e263cf312d5e2bca08e9b8bb" prot="private" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>impl_</name></member>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1afcc3f132d5643509fe55e57845968424" prot="public" virt="virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>prepare</name></member>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1a09b54489f5a1017c30273a0bede20f08" prot="public" virt="virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>prepare</name></member>
+      <member refid="classMR_1_1Cuda_1_1ComputeToolDistance_1af0cb2449c5ed63b9ae8c4eb2d605647d" prot="public" virt="non-virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>~ComputeToolDistance</name></member>
+      <member refid="group__GeneralGroup_1ga2bb611f9d72c80f0aa38d68e6a008ad0" prot="public" virt="virtual"><scope>MR::Cuda::ComputeToolDistance</scope><name>~IComputeToolDistance</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

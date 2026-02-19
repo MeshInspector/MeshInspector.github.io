@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshSave::NamedXfMesh</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a9b1ca98669c70f0f8ab1db52d523ad7b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.NamedXfMesh::_offsetof_mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mesh</name>
+        <qualifiedname>mrmeshpy.MeshSave.NamedXfMesh._offsetof_mesh</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34309" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1abd38eb98a72b4228048008fe165fb9e3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.NamedXfMesh::_offsetof_name</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_name</name>
+        <qualifiedname>mrmeshpy.MeshSave.NamedXfMesh._offsetof_name</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34310" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a92d38dea66fead9b9fdd63e836f2178d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.NamedXfMesh::_offsetof_toWorld</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_toWorld</name>
+        <qualifiedname>mrmeshpy.MeshSave.NamedXfMesh._offsetof_toWorld</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34311" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a5e42b6a6c55d066b2703120e22a7097a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.NamedXfMesh.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshSave.NamedXfMesh.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34317" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34317" bodyend="34318"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a74098ef3d85d688f89d92d58b925bb7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh" kindref="compound">MeshSave.NamedXfMesh</ref></type>
+        <definition> MeshSave.NamedXfMesh mrmeshpy.MeshSave.NamedXfMesh.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshSave.NamedXfMesh.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34321" bodyend="34322"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a74098ef3d85d688f89d92d58b925bb7c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh" kindref="compound">MeshSave.NamedXfMesh</ref></type>
+        <definition> MeshSave.NamedXfMesh mrmeshpy.MeshSave.NamedXfMesh.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshSave.NamedXfMesh.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34325" bodyend="34326"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a721954ecdcdccc310bc70148230f0318" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.NamedXfMesh.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshSave.NamedXfMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34328" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34328" bodyend="34329"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a58ee63791b74243f670305ce30281270" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.NamedXfMesh.__init__</definition>
+        <argsstring>(self, MeshSave.NamedXfMesh arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshSave.NamedXfMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh" kindref="compound">MeshSave.NamedXfMesh</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34331" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34331" bodyend="34334"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a700eec089cc21255ebcfc153345c67c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshSave.NamedXfMesh.__init__</definition>
+        <argsstring>(self, str name, AffineXf3f toWorld, Mesh mesh)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshSave.NamedXfMesh.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1AffineXf3f" kindref="compound">AffineXf3f</ref></type>
+          <declname>toWorld</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34336" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34336" bodyend="34340"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshSave::NamedXfMesh
+
+saves a number of named meshes in .obj file
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshSave.NamedXfMesh</label>
+        <link refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_mesh</edgelabel>
+          <edgelabel>_offsetof_name</edgelabel>
+          <edgelabel>_offsetof_toWorld</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34303" bodyend="34339"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a5e42b6a6c55d066b2703120e22a7097a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::NamedXfMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a721954ecdcdccc310bc70148230f0318" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::NamedXfMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a58ee63791b74243f670305ce30281270" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::NamedXfMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a700eec089cc21255ebcfc153345c67c5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::NamedXfMesh</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a9b1ca98669c70f0f8ab1db52d523ad7b" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::NamedXfMesh</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1abd38eb98a72b4228048008fe165fb9e3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::NamedXfMesh</scope><name>_offsetof_name</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a92d38dea66fead9b9fdd63e836f2178d" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshSave::NamedXfMesh</scope><name>_offsetof_toWorld</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a74098ef3d85d688f89d92d58b925bb7c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::NamedXfMesh</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1NamedXfMesh_1a74098ef3d85d688f89d92d58b925bb7c" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::NamedXfMesh</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1NoDefInit__VoxelId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::NoDefInit_VoxelId</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1VoxelId" prot="public" virt="non-virtual">mrmeshpy.VoxelId</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__VoxelId_1a14df9bb986e1cea78a018f187a596a57" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoDefInit_VoxelId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_VoxelId.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VoxelId_1a277a1a42351785d764030ca3bb7878de">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37761" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37761" bodyend="37762"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__VoxelId_1a65ca933f4bdba1b23df301005cbfe9a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__VoxelId" kindref="compound">NoDefInit_VoxelId</ref></type>
+        <definition> NoDefInit_VoxelId mrmeshpy.NoDefInit_VoxelId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoDefInit_VoxelId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VoxelId_1ababb7d5f5cf04b5cafbb6d1ac2ae7ef9">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37765" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37765" bodyend="37766"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__VoxelId_1a65ca933f4bdba1b23df301005cbfe9a6" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1NoDefInit__VoxelId" kindref="compound">NoDefInit_VoxelId</ref></type>
+        <definition> NoDefInit_VoxelId mrmeshpy.NoDefInit_VoxelId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.NoDefInit_VoxelId.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VoxelId_1ababb7d5f5cf04b5cafbb6d1ac2ae7ef9">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37769" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37769" bodyend="37770"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__VoxelId_1a684485149fceed0a81d89f53653a6f49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoDefInit_VoxelId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_VoxelId.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VoxelId_1a277a1a42351785d764030ca3bb7878de">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37772" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37772" bodyend="37773"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__VoxelId_1ae6d99b7a4df7667afed25d0ac11ee7d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.NoDefInit_VoxelId.__init__</definition>
+        <argsstring>(self, NoDefInit_VoxelId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_VoxelId.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VoxelId_1a277a1a42351785d764030ca3bb7878de">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1NoDefInit__VoxelId" kindref="compound">NoDefInit_VoxelId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37775" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37775" bodyend="37778"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1NoDefInit__VoxelId_1a0436dd5d7fe35867e38b4078b464e6c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.NoDefInit_VoxelId.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.NoDefInit_VoxelId.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VoxelId_1a2d087c353981bb29cbfd01fc9858c1c4">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37779" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37779" bodyend="37780"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::NoDefInit&lt;MR::VoxelId&gt;
+Aliases:  Buffer_Id_VoxelTag_Id_VoxelTag_T, NoCtor_Id_VoxelTag_type, NoDefInit_Id_VoxelTag, Buffer_Id_VoxelTag_Id_VoxelTag_T, Buffer_Id_VoxelTag_Id_VoxelTag_iterator, NoDefInit_Id_VoxelTag, Buffer_Id_VoxelTag_Id_VoxelTag_reference, Buffer_Id_VoxelTag_Id_VoxelTag_T, NoDefInit_Id_VoxelTag, Buffer_Id_VoxelTag_Id_VoxelTag_const_reference, Buffer_Id_VoxelTag_Id_VoxelTag_const_iterator, std_unique_ptr_NoDefInit_Id_VoxelTag_pointer
+
+this class is similar to T, but does not make default initialization of the fields for best performance
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.NoDefInit_VoxelId</label>
+        <link refid="classmrmeshpy_1_1NoDefInit__VoxelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VoxelId</label>
+        <link refid="classmrmeshpy_1_1VoxelId"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.NoDefInit_VoxelId</label>
+        <link refid="classmrmeshpy_1_1NoDefInit__VoxelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.VoxelId</label>
+        <link refid="classmrmeshpy_1_1VoxelId"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="37752" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="37752" bodyend="37780"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a14df9bb986e1cea78a018f187a596a57" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_VoxelId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a684485149fceed0a81d89f53653a6f49" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_VoxelId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__VoxelId_1ae6d99b7a4df7667afed25d0ac11ee7d2" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_VoxelId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a0436dd5d7fe35867e38b4078b464e6c4" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_VoxelId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a65ca933f4bdba1b23df301005cbfe9a6" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_VoxelId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1NoDefInit__VoxelId_1a65ca933f4bdba1b23df301005cbfe9a6" prot="public" virt="non-virtual"><scope>mrmeshpy::NoDefInit_VoxelId</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

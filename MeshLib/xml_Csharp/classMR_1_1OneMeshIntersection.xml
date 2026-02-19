@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1OneMeshIntersection" kind="class" language="C#" prot="public">
+    <compoundname>MR::OneMeshIntersection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_OneMeshIntersection</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1OneMeshIntersection_1a10d3d4aff8b3fb6e18db964412dc6146" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.Variant_MRFaceId_MREdgeId_MRVertId</type>
+        <definition>new unsafe MR.Std.Variant_MRFaceId_MREdgeId_MRVertId MR.OneMeshIntersection.primitiveId</definition>
+        <argsstring></argsstring>
+        <name>primitiveId</name>
+        <qualifiedname>MR.OneMeshIntersection.primitiveId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="390" column="67" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="390" bodyend="390"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1OneMeshIntersection_1a52018b9fa481ea28a6885e5a19716ef4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.OneMeshIntersection.coordinate</definition>
+        <argsstring></argsstring>
+        <name>coordinate</name>
+        <qualifiedname>MR.OneMeshIntersection.coordinate</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="392" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="392" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1OneMeshIntersection_1a7b23c2147d04675d268f29530a841f09" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OneMeshIntersection.OneMeshIntersection</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>OneMeshIntersection</name>
+        <qualifiedname>MR.OneMeshIntersection.OneMeshIntersection</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="411" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="411" bodyend="415"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1OneMeshIntersection_1a7812974843c150dde2089a593fa9f715" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OneMeshIntersection.OneMeshIntersection</definition>
+        <argsstring>()</argsstring>
+        <name>OneMeshIntersection</name>
+        <qualifiedname>MR.OneMeshIntersection.OneMeshIntersection</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="421" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="421" bodyend="427"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OneMeshIntersection_1aec003fd76d9a04c5b2f7d2479b5cb49d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OneMeshIntersection.OneMeshIntersection</definition>
+        <argsstring>(MR.Std.Const_Variant_MRFaceId_MREdgeId_MRVertId primitiveId, MR.Vector3f coordinate)</argsstring>
+        <name>OneMeshIntersection</name>
+        <qualifiedname>MR.OneMeshIntersection.OneMeshIntersection</qualifiedname>
+        <param>
+          <type>MR.Std.Const_Variant_MRFaceId_MREdgeId_MRVertId</type>
+          <declname>primitiveId</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>coordinate</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1OneMeshIntersection" kindref="compound">MR.OneMeshIntersection</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="432" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="432" bodyend="439"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OneMeshIntersection_1a955b56d5eb72fd9fe51040e9673ad35b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.OneMeshIntersection.OneMeshIntersection</definition>
+        <argsstring>(MR.Const_OneMeshIntersection _other)</argsstring>
+        <name>OneMeshIntersection</name>
+        <qualifiedname>MR.OneMeshIntersection.OneMeshIntersection</qualifiedname>
+        <param>
+          <type>MR.Const_OneMeshIntersection</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.OneMeshIntersection.OneMeshIntersection</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="444" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="444" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OneMeshIntersection_1a8518587943fe995a90cdcbadba828b39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.OneMeshIntersection.OneMeshIntersection</definition>
+        <argsstring>(OneMeshIntersection _other)</argsstring>
+        <name>OneMeshIntersection</name>
+        <qualifiedname>MR.OneMeshIntersection.OneMeshIntersection</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1OneMeshIntersection" kindref="compound">OneMeshIntersection</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.OneMeshIntersection.OneMeshIntersection</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="456" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="456" bodyend="456"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1OneMeshIntersection_1a62075a7de8cca858dbcc1060f15e9ee3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1OneMeshIntersection" kindref="compound">MR.OneMeshIntersection</ref></type>
+        <definition>unsafe MR.OneMeshIntersection MR.OneMeshIntersection.assign</definition>
+        <argsstring>(MR.Const_OneMeshIntersection _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.OneMeshIntersection.assign</qualifiedname>
+        <param>
+          <type>MR.Const_OneMeshIntersection</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.OneMeshIntersection.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="461" column="45" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="461" bodyend="468"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1OneMeshIntersection" kindref="compound">MR.OneMeshIntersection</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_OneMeshIntersection</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.OneMeshIntersection</label>
+        <link refid="classMR_1_1OneMeshIntersection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_OneMeshIntersection &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_OneMeshIntersection</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.OneMeshIntersection</label>
+        <link refid="classMR_1_1OneMeshIntersection"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_OneMeshIntersection &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" line="388" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MROneMeshContours.cs" bodystart="389" bodyend="469"/>
+    <listofallmembers>
+      <member refid="classMR_1_1OneMeshIntersection_1a62075a7de8cca858dbcc1060f15e9ee3" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>assign</name></member>
+      <member refid="classMR_1_1OneMeshIntersection_1a52018b9fa481ea28a6885e5a19716ef4" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>coordinate</name></member>
+      <member refid="classMR_1_1OneMeshIntersection_1a7b23c2147d04675d268f29530a841f09" prot="package" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>OneMeshIntersection</name></member>
+      <member refid="classMR_1_1OneMeshIntersection_1a7812974843c150dde2089a593fa9f715" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>OneMeshIntersection</name></member>
+      <member refid="classMR_1_1OneMeshIntersection_1aec003fd76d9a04c5b2f7d2479b5cb49d" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>OneMeshIntersection</name></member>
+      <member refid="classMR_1_1OneMeshIntersection_1a955b56d5eb72fd9fe51040e9673ad35b" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>OneMeshIntersection</name></member>
+      <member refid="classMR_1_1OneMeshIntersection_1a8518587943fe995a90cdcbadba828b39" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>OneMeshIntersection</name></member>
+      <member refid="classMR_1_1OneMeshIntersection_1a10d3d4aff8b3fb6e18db964412dc6146" prot="public" virt="non-virtual"><scope>MR::OneMeshIntersection</scope><name>primitiveId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

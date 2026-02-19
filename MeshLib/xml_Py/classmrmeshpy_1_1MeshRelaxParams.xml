@@ -1,0 +1,338 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshRelaxParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshRelaxParams</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1RelaxParams" prot="public" virt="non-virtual">mrmeshpy.RelaxParams</basecompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1MeshApproxRelaxParams" prot="public" virt="non-virtual">mrmeshpy.MeshApproxRelaxParams</derivedcompoundref>
+    <derivedcompoundref refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams" prot="public" virt="non-virtual">mrmeshpy.MeshEqualizeTriAreasParams</derivedcompoundref>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshRelaxParams_1acf4bbafd2292b4b1f9cbcfd4165afde3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshRelaxParams::_offsetof_hardSmoothTetrahedrons</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_hardSmoothTetrahedrons</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams._offsetof_hardSmoothTetrahedrons</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshRelaxParams_1ae26f379815abc4182311a829d5475ab1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshRelaxParams::_offsetof_weights</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_weights</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams._offsetof_weights</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34140" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshRelaxParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34143" bodyend="34144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshRelaxParams" kindref="compound">MeshRelaxParams</ref></type>
+        <definition> MeshRelaxParams mrmeshpy.MeshRelaxParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34147" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34147" bodyend="34148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshRelaxParams" kindref="compound">MeshRelaxParams</ref></type>
+        <definition> MeshRelaxParams mrmeshpy.MeshRelaxParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a234ef01f527900971debab81831ae820">operator</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a4c1cba71a24f0cdc1dacb45929d07639">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a02b1cf22f0e78cb530e6e1e2cad2b940">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34151" bodyend="34152"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1ae8a71231f773b03dfafc220e96a3ceed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshRelaxParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34154" bodyend="34155"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1affa29ba69fd1bf324019147f24aec9b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshRelaxParams.__init__</definition>
+        <argsstring>(self, MeshRelaxParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1RelaxParams_1a95c7f1ebbf249c1fedb064f519fa4ea8">__init__</reimplements>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a74288e8a6a0e4e3a93e81862174e5d49">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a77d98d4d670d0d2195dfcd014c96321d">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshApproxRelaxParams_1a0386732f5ecb2e2c8340446cf7ff5ece">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1af6ba7060a295ccde3d0290f10c8c718b">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1acc711fca02b9ab75b26f6b792a5729ce">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams_1a274fad15fa184de954d84f4930933bb3">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshRelaxParams" kindref="compound">MeshRelaxParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34157" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34157" bodyend="34160"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1a983affa5cbe5ee3c52b8a29bea7e076b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshRelaxParams.hardSmoothTetrahedrons</definition>
+        <argsstring>(self)</argsstring>
+        <name>hardSmoothTetrahedrons</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.hardSmoothTetrahedrons</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>move all region vertices with exactly three neighbor vertices in the center of the neighbors
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34162" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34162" bodyend="34165"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1a23eb82779d0d3407ad5688db3e277e9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshRelaxParams.hardSmoothTetrahedrons</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>hardSmoothTetrahedrons</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.hardSmoothTetrahedrons</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34167" bodyend="34168"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1a0239cf6d7feec0e0325551a68f421b2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
+        <definition> VertScalars mrmeshpy.MeshRelaxParams.weights</definition>
+        <argsstring>(self)</argsstring>
+        <name>weights</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.weights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>weight for each vertex. By default, all the vertices have equal weights.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34170" bodyend="34173"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshRelaxParams_1a305b7d103879184cfc7d5654f6d82a40" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshRelaxParams.weights</definition>
+        <argsstring>(self, VertScalars arg1)</argsstring>
+        <name>weights</name>
+        <qualifiedname>mrmeshpy.MeshRelaxParams.weights</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertScalars" kindref="compound">VertScalars</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34175" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34175" bodyend="34176"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshRelaxParams
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.MeshRelaxParams</label>
+        <link refid="classmrmeshpy_1_1MeshRelaxParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.MeshApproxRelaxParams</label>
+        <link refid="classmrmeshpy_1_1MeshApproxRelaxParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.MeshEqualizeTriAreasParams</label>
+        <link refid="classmrmeshpy_1_1MeshEqualizeTriAreasParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.RelaxParams</label>
+        <link refid="classmrmeshpy_1_1RelaxParams"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshRelaxParams</label>
+        <link refid="classmrmeshpy_1_1MeshRelaxParams"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_hardSmoothTetrahedrons</edgelabel>
+          <edgelabel>_offsetof_weights</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.RelaxParams</label>
+        <link refid="classmrmeshpy_1_1RelaxParams"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_offsetof_force</edgelabel>
+          <edgelabel>_offsetof_iterations</edgelabel>
+          <edgelabel>_offsetof_limitNearInitial</edgelabel>
+          <edgelabel>_offsetof_maxInitialDist</edgelabel>
+          <edgelabel>_offsetof_region</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34135" bodyend="34176"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1aea05903fe87f8c86fe3684dbdd89e842" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1ae8a71231f773b03dfafc220e96a3ceed" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1affa29ba69fd1bf324019147f24aec9b9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1acf4bbafd2292b4b1f9cbcfd4165afde3" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>_offsetof_hardSmoothTetrahedrons</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1ae26f379815abc4182311a829d5475ab1" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>_offsetof_weights</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1a983affa5cbe5ee3c52b8a29bea7e076b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>hardSmoothTetrahedrons</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1a23eb82779d0d3407ad5688db3e277e9f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>hardSmoothTetrahedrons</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1ab906c1b41ca2777c6e23f9ce74118fc5" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1a0239cf6d7feec0e0325551a68f421b2b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>weights</name></member>
+      <member refid="classmrmeshpy_1_1MeshRelaxParams_1a305b7d103879184cfc7d5654f6d82a40" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshRelaxParams</scope><name>weights</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

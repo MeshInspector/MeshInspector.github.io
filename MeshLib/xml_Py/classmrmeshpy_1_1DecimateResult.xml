@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DecimateResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DecimateResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateResult_1a8ef8a8760efd2bfa389e11e1809e8e39" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateResult::_offsetof_cancelled</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_cancelled</name>
+        <qualifiedname>mrmeshpy.DecimateResult._offsetof_cancelled</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11993" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateResult_1a162f2a9d2f78c4d8683b140430280e90" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateResult::_offsetof_errorIntroduced</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_errorIntroduced</name>
+        <qualifiedname>mrmeshpy.DecimateResult._offsetof_errorIntroduced</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11994" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateResult_1aeb716b9fdccf9fd08495ff6447e6ff8d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateResult::_offsetof_facesDeleted</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_facesDeleted</name>
+        <qualifiedname>mrmeshpy.DecimateResult._offsetof_facesDeleted</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11995" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DecimateResult_1aa09332d350779bd961ce3fb7c854e3f4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DecimateResult::_offsetof_vertsDeleted</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertsDeleted</name>
+        <qualifiedname>mrmeshpy.DecimateResult._offsetof_vertsDeleted</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11996" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11996" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1a452968b0a3589cfa2c9954802539cbf2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimateResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11999" bodyend="12000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1ae2b398be5c9d8a558fc8e91e0b087108" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DecimateResult" kindref="compound">DecimateResult</ref></type>
+        <definition> DecimateResult mrmeshpy.DecimateResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DecimateResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12003" bodyend="12004"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1ae2b398be5c9d8a558fc8e91e0b087108" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DecimateResult" kindref="compound">DecimateResult</ref></type>
+        <definition> DecimateResult mrmeshpy.DecimateResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DecimateResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12007" bodyend="12008"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1aed918c1e400615b9fea3b8bbe2465344" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimateResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12010" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12010" bodyend="12011"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1a97472857b1eca26185414c5e97e0cecf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateResult.__init__</definition>
+        <argsstring>(self, DecimateResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimateResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DecimateResult" kindref="compound">DecimateResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12013" bodyend="12016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1a80df99e2b0d6d52256c730b5400f1d0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateResult.__init__</definition>
+        <argsstring>(self, int vertsDeleted, int facesDeleted, float errorIntroduced, bool cancelled)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DecimateResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>vertsDeleted</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>facesDeleted</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>errorIntroduced</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cancelled</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12018" bodyend="12021"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1a74e2bb74f31ae70cbe93c98339c5145a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.DecimateResult.cancelled</definition>
+        <argsstring>(self)</argsstring>
+        <name>cancelled</name>
+        <qualifiedname>mrmeshpy.DecimateResult.cancelled</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>whether the algorithm was cancelled by the callback
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12023" bodyend="12026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1a7e63773fcc81960b89fc16dd24684ee6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateResult.cancelled</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>cancelled</name>
+        <qualifiedname>mrmeshpy.DecimateResult.cancelled</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12028" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12028" bodyend="12029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1a4df511a941ffb017206040dd026738ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DecimateResult.errorIntroduced</definition>
+        <argsstring>(self)</argsstring>
+        <name>errorIntroduced</name>
+        <qualifiedname>mrmeshpy.DecimateResult.errorIntroduced</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>for DecimateStrategy::MinimizeError:
+   estimated distance deviation of decimated mesh from the original mesh
+for DecimateStrategy::ShortestEdgeFirst:
+   the shortest remaining edge in the mesh
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12031" bodyend="12037"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1a40714edd3ee5944ccb8549f57075627c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateResult.errorIntroduced</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>errorIntroduced</name>
+        <qualifiedname>mrmeshpy.DecimateResult.errorIntroduced</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12039" bodyend="12040"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1aefacaff31b3652b7ad26d50954411d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateResult.facesDeleted</definition>
+        <argsstring>(self)</argsstring>
+        <name>facesDeleted</name>
+        <qualifiedname>mrmeshpy.DecimateResult.facesDeleted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Number deleted faces
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12042" bodyend="12045"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1a1f52d6acf7ac012de2f8064672e6f74e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateResult.facesDeleted</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>facesDeleted</name>
+        <qualifiedname>mrmeshpy.DecimateResult.facesDeleted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12047" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12047" bodyend="12048"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1aef1888d3035be6ce6a93e24be278747f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.DecimateResult.vertsDeleted</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertsDeleted</name>
+        <qualifiedname>mrmeshpy.DecimateResult.vertsDeleted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Number deleted verts. Same as the number of performed collapses
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12050" bodyend="12053"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DecimateResult_1a046c6be590fc38965fc5aa06f5614871" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DecimateResult.vertsDeleted</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>vertsDeleted</name>
+        <qualifiedname>mrmeshpy.DecimateResult.vertsDeleted</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="12055" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="12055" bodyend="12056"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DecimateResult
+
+
+ \\struct MR::DecimateResult
+ \\brief Results of MR::decimateMesh
+
+ \\sa \\ref decimateMesh
+ \\sa \\ref decimateParallelMesh
+ \\sa \\ref resolveMeshDegenerations</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DecimateResult</label>
+        <link refid="classmrmeshpy_1_1DecimateResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_cancelled</edgelabel>
+          <edgelabel>_offsetof_errorIntroduced</edgelabel>
+          <edgelabel>_offsetof_facesDeleted</edgelabel>
+          <edgelabel>_offsetof_vertsDeleted</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="11980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="11980" bodyend="12056"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a452968b0a3589cfa2c9954802539cbf2" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1aed918c1e400615b9fea3b8bbe2465344" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a97472857b1eca26185414c5e97e0cecf" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a80df99e2b0d6d52256c730b5400f1d0c" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a8ef8a8760efd2bfa389e11e1809e8e39" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>_offsetof_cancelled</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a162f2a9d2f78c4d8683b140430280e90" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>_offsetof_errorIntroduced</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1aeb716b9fdccf9fd08495ff6447e6ff8d" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>_offsetof_facesDeleted</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1aa09332d350779bd961ce3fb7c854e3f4" prot="protected" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>_offsetof_vertsDeleted</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a74e2bb74f31ae70cbe93c98339c5145a" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>cancelled</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a7e63773fcc81960b89fc16dd24684ee6" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>cancelled</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a4df511a941ffb017206040dd026738ef" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>errorIntroduced</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a40714edd3ee5944ccb8549f57075627c" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>errorIntroduced</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1aefacaff31b3652b7ad26d50954411d8d" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>facesDeleted</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a1f52d6acf7ac012de2f8064672e6f74e" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>facesDeleted</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1ae2b398be5c9d8a558fc8e91e0b087108" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1ae2b398be5c9d8a558fc8e91e0b087108" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1aef1888d3035be6ce6a93e24be278747f" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>vertsDeleted</name></member>
+      <member refid="classmrmeshpy_1_1DecimateResult_1a046c6be590fc38965fc5aa06f5614871" prot="public" virt="non-virtual"><scope>mrmeshpy::DecimateResult</scope><name>vertsDeleted</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

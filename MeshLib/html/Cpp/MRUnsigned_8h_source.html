@@ -153,18 +153,11 @@ $(function(){initNavTree('MRUnsigned_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;cstddef&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;type_traits&gt;</span></div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="comment">// Additional support for unsigned types.</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
 <div class="foldopen" id="foldopen00008" data-start="{" data-end="}">
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Unsigned.html">    8</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespaceMR_1_1Unsigned.html">MR::Unsigned</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>{</div>
 <div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span><span class="comment">// Only callable on unsigned types. Returns the value unchanged.</span></div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="comment">// The intended usage of this in templates is like this:</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="comment">//     using std::abs;</span></div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span><span class="comment">//     using Unsigned::abs; // Or `using namespace Unsigned;`.</span></div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="comment">//     abs(x);</span></div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="comment">// Doing it this way ensures that you can handle both signed and unsigned standard types, and additionally any classes that provide `abs()` via ADL.</span></div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="keyword">template</span> &lt;<span class="keyword">typename</span> T, std::enable_if_t&lt;std::is_<span class="keywordtype">unsigned</span>_v&lt;T&gt;, std::<span class="keywordtype">nullptr</span>_t&gt; = <span class="keywordtype">nullptr</span>&gt;</div>
 <div class="foldopen" id="foldopen00018" data-start="{" data-end="}">
 <div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="namespaceMR_1_1Unsigned.html#a297e05c1691001d7ce0261fa2e9c3dc4">   18</a></span>[[nodiscard]] <span class="keyword">constexpr</span> T <a class="code hl_function" href="namespaceMR_1_1Unsigned.html#a297e05c1691001d7ce0261fa2e9c3dc4">abs</a>( T value )</div>
@@ -175,7 +168,7 @@ $(function(){initNavTree('MRUnsigned_8h_source.html',''); initResizable(true); }
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span> </div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
 </div>
-<div class="ttc" id="anamespaceMR_1_1Unsigned_html"><div class="ttname"><a href="namespaceMR_1_1Unsigned.html">MR::Unsigned</a></div><div class="ttdef"><b>Definition</b> MRUnsigned.h:9</div></div>
+<div class="ttc" id="anamespaceMR_1_1Unsigned_html"><div class="ttname"><a href="namespaceMR_1_1Unsigned.html">MR::Unsigned</a></div><div class="ttdoc">Additional support for unsigned types.</div><div class="ttdef"><b>Definition</b> MRUnsigned.h:9</div></div>
 <div class="ttc" id="anamespaceMR_1_1Unsigned_html_a297e05c1691001d7ce0261fa2e9c3dc4"><div class="ttname"><a href="namespaceMR_1_1Unsigned.html#a297e05c1691001d7ce0261fa2e9c3dc4">MR::Unsigned::abs</a></div><div class="ttdeci">constexpr T abs(T value)</div><div class="ttdef"><b>Definition</b> MRUnsigned.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->

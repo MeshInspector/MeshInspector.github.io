@@ -1,0 +1,1273 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRIntersectionPrecomputes2_8h" kind="file" language="C++">
+    <compoundname>MRIntersectionPrecomputes2.h</compoundname>
+    <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRIntersectionPrecomputes2.h</label>
+        <link refid="MRIntersectionPrecomputes2_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" prot="public" static="no">
+        <type>struct <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref></type>
+        <definition>typedef struct MR_IntersectionPrecomputes2_float MR_IntersectionPrecomputes2_float</definition>
+        <argsstring></argsstring>
+        <name>MR_IntersectionPrecomputes2_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stores useful precomputed values for presented direction vector</para>
+<para>allows to avoid repeatable computations during intersection finding Generated from class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="17" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" prot="public" static="no">
+        <type>struct <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref></type>
+        <definition>typedef struct MR_IntersectionPrecomputes2_double MR_IntersectionPrecomputes2_double</definition>
+        <argsstring></argsstring>
+        <name>MR_IntersectionPrecomputes2_double</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stores useful precomputed values for presented direction vector</para>
+<para>allows to avoid repeatable computations during intersection finding Generated from class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="23" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a3ae739cc1c729298ed56f47da2f0f9e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+        <definition>MRC_API const MR_Vector2f * MR_IntersectionPrecomputes2_float_Get_invDir</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Get_invDir</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="30" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="30" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a7ea6ba7f9933a03a3a16fc47c36fab22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_float_Set_invDir</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this, MR_Vector2f value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Set_invDir</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>invDir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>invDir</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="37" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="37" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1abed71e5aaace7db9ae8eda86b02c36c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+        <definition>MRC_API MR_Vector2f * MR_IntersectionPrecomputes2_float_GetMutable_invDir</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_GetMutable_invDir</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="44" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="44" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a83e7786e1b54c249334d7ae37cd1f6a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_IntersectionPrecomputes2_float_Get_maxDimIdxY</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Get_maxDimIdxY</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="52" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="52" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a349ede224802080ed05d5ef8c69f3909" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_float_Set_maxDimIdxY</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this, int value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Set_maxDimIdxY</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDimIdxY</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="59" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="59" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1adef2c4190091d481240a29653eeeff8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_IntersectionPrecomputes2_float_GetMutable_maxDimIdxY</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_GetMutable_maxDimIdxY</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="67" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="67" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a17d05c607b8746d5467b6b04e05e77d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_IntersectionPrecomputes2_float_Get_idxX</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Get_idxX</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="73" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="73" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1aa5066873e9cae521f7644f48f47dafa7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_float_Set_idxX</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this, int value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Set_idxX</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>idxX</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="78" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="78" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ac3a6731ce967826a8e95ab2ec6b6a1ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_IntersectionPrecomputes2_float_GetMutable_idxX</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_GetMutable_idxX</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="84" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="84" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a67c78d6617963fc4616634eacb99b2cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+        <definition>MRC_API const MR_Vector2i * MR_IntersectionPrecomputes2_float_Get_sign</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Get_sign</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stores signs of direction vector; Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="91" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="91" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a169bf3ee7f9deed92e4e2050014f1e41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_float_Set_sign</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this, MR_Vector2i value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Set_sign</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stores signs of direction vector; Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sign</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>sign</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a4920a5e3dd24abbcd639427212230fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+        <definition>MRC_API MR_Vector2i * MR_IntersectionPrecomputes2_float_GetMutable_sign</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_GetMutable_sign</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stores signs of direction vector; Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="105" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="105" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1afbdadb68c42fa8945de44da5cff2259b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_IntersectionPrecomputes2_float_Get_Sx</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Get_Sx</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="112" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="112" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a26b2b512abdc1a822d288f04420bcf48" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_float_Set_Sx</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this, float value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Set_Sx</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>Sx</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="118" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="118" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a6e9419500318064066bd4ab07a7e17de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_IntersectionPrecomputes2_float_GetMutable_Sx</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_GetMutable_Sx</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="125" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="125" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a3292fc7f977bbe4ad8954775ea24fd1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_IntersectionPrecomputes2_float_Get_Sy</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Get_Sy</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="132" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="132" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a5e80da310df35ff27ffc66e9a12d2370" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_float_Set_Sy</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this, float value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Set_Sy</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>Sy</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="138" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="138" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a456ba2310d966cca9746f15332e510ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_IntersectionPrecomputes2_float_GetMutable_Sy</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_GetMutable_Sy</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="145" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="145" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a151c2ad5f979e3ad8435f2eb33c93316" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_float * MR_IntersectionPrecomputes2_float_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1ab7f3f2998f3afa283428bbdc3673856c" kindref="member">MR_IntersectionPrecomputes2_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="149" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="149" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a195672b42ac3921e52f355aa4f14b15d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_float * MR_IntersectionPrecomputes2_float_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1a24c3b7487d575ca30656e41c18865f33" kindref="member">MR_IntersectionPrecomputes2_float_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1a2a3c14dd1ba2be198716a155594ca0f2" kindref="member">MR_IntersectionPrecomputes2_float_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1ad8253ff8ca309f6e2f67d1187378eda7" kindref="member">MR_IntersectionPrecomputes2_float_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="154" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="154" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ad8253ff8ca309f6e2f67d1187378eda7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+        <definition>MRC_API const MR_IntersectionPrecomputes2_float * MR_IntersectionPrecomputes2_float_OffsetPtr</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="158" column="49" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="158" declcolumn="49"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a2a3c14dd1ba2be198716a155594ca0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_float * MR_IntersectionPrecomputes2_float_OffsetMutablePtr</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="162" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="162" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a6fc0e03057d61703c96634090d238f67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_float * MR_IntersectionPrecomputes2_float_ConstructFromAnother</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *_other)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;::IntersectionPrecomputes2</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1ab7f3f2998f3afa283428bbdc3673856c" kindref="member">MR_IntersectionPrecomputes2_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="168" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="168" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1af65b89238af05e270db188e61ebc8587" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_float * MR_IntersectionPrecomputes2_float_Construct</definition>
+        <argsstring>(const MR_Vector2f *dir)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;::IntersectionPrecomputes2</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1ab7f3f2998f3afa283428bbdc3673856c" kindref="member">MR_IntersectionPrecomputes2_float_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="174" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="174" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ab7f3f2998f3afa283428bbdc3673856c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_float_Destroy</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_Destroy</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_IntersectionPrecomputes2_float</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="177" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a24c3b7487d575ca30656e41c18865f33" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_float_DestroyArray</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_float *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_IntersectionPrecomputes2_float</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="180" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="180" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a26cfabfed205a171796ea045b883a1c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_float * MR_IntersectionPrecomputes2_float_AssignFromAnother</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_float *_this, const MR_IntersectionPrecomputes2_float *_other)</argsstring>
+        <name>MR_IntersectionPrecomputes2_float_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::IntersectionPrecomputes2&lt;float&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="188" column="43" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="188" declcolumn="43"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a22be167e507755ce045d3cbcf35e4cba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+        <definition>MRC_API const MR_Vector2d * MR_IntersectionPrecomputes2_double_Get_invDir</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Get_invDir</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="195" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="195" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a14d3474295ddc95c53b8b9e18ea1bf46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_double_Set_invDir</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this, MR_Vector2d value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Set_invDir</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>invDir</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>invDir</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="202" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="202" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a429673c2eebd16b6b47cb0833aaf430d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+        <definition>MRC_API MR_Vector2d * MR_IntersectionPrecomputes2_double_GetMutable_invDir</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_GetMutable_invDir</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>invDir</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="209" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="209" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a2644b47f6c5fbef21a9a6fbe0ca9644a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_IntersectionPrecomputes2_double_Get_maxDimIdxY</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Get_maxDimIdxY</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="217" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="217" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1aa9f8efd268a8688758baf5fd397c636a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_double_Set_maxDimIdxY</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this, int value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Set_maxDimIdxY</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>maxDimIdxY</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="224" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="224" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ad06b96c111b97acd5467bc649264ae84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_IntersectionPrecomputes2_double_GetMutable_maxDimIdxY</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_GetMutable_maxDimIdxY</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>maxDimIdxY</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="232" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="232" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a780762c5ce3fc9d2d70614feadb31008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const int *</type>
+        <definition>MRC_API const int * MR_IntersectionPrecomputes2_double_Get_idxX</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Get_idxX</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="238" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="238" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a33612191963b11a6265a9580963610d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_double_Set_idxX</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this, int value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Set_idxX</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>idxX</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="243" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="243" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ab2fa2839283815508989d65228679f70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API int *</type>
+        <definition>MRC_API int * MR_IntersectionPrecomputes2_double_GetMutable_idxX</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_GetMutable_idxX</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>idxX</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="249" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="249" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a610c1ed8b34660949d20b5cde34993f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+        <definition>MRC_API const MR_Vector2i * MR_IntersectionPrecomputes2_double_Get_sign</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Get_sign</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stores signs of direction vector; Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="256" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="256" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ac10bf0135f119b9552a5ed9c1c4c57a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_double_Set_sign</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this, MR_Vector2i value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Set_sign</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stores signs of direction vector; Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>sign</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>sign</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="263" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="263" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a5ec07d308f0cf9b61f9a513201ea51af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+        <definition>MRC_API MR_Vector2i * MR_IntersectionPrecomputes2_double_GetMutable_sign</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_GetMutable_sign</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stores signs of direction vector; Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>sign</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="270" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="270" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1acbdba75e53f1e97dfb774bbca27121fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_IntersectionPrecomputes2_double_Get_Sx</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Get_Sx</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="277" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="277" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a74774cb12a759bb625af29e4bdbe799c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_double_Set_Sx</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this, double value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Set_Sx</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>Sx</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="283" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="283" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a29f9ae7cc845fecfb039c6b8a54c17db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_IntersectionPrecomputes2_double_GetMutable_Sx</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_GetMutable_Sx</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sx</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="290" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="290" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ac0354e9eef04eda9798ce438b8c086db" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const double *</type>
+        <definition>MRC_API const double * MR_IntersectionPrecomputes2_double_Get_Sy</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Get_Sy</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Returns a pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="297" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="297" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a9d12893234ce3eff5c3ec7014b30a35c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_double_Set_Sy</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this, double value)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Set_Sy</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Modifies a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>Sy</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="303" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="303" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a133c3680314e9c0fbb1e719c44aaf1a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API double *</type>
+        <definition>MRC_API double * MR_IntersectionPrecomputes2_double_GetMutable_Sy</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_GetMutable_Sy</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>precomputed factors Returns a mutable pointer to a member variable of class <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;</computeroutput> named <computeroutput>Sy</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="310" column="16" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="310" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a810fc4d6efa43815e06fbeb2bdf13d4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_double * MR_IntersectionPrecomputes2_double_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1ad94d42883bdc09a2604d04dc6152d242" kindref="member">MR_IntersectionPrecomputes2_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="314" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="314" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a2f9c7e0895b57eea03b7be546c43c16b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_double * MR_IntersectionPrecomputes2_double_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1a307e853030e071aface75b69b294003b" kindref="member">MR_IntersectionPrecomputes2_double_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1a079db96d9d82be22850d8fabd1ddd51d" kindref="member">MR_IntersectionPrecomputes2_double_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1ae7dd5c51a9ad8d60eacccbe9ef530d99" kindref="member">MR_IntersectionPrecomputes2_double_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="319" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="319" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ae7dd5c51a9ad8d60eacccbe9ef530d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+        <definition>MRC_API const MR_IntersectionPrecomputes2_double * MR_IntersectionPrecomputes2_double_OffsetPtr</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="323" column="50" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="323" declcolumn="50"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a079db96d9d82be22850d8fabd1ddd51d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_double * MR_IntersectionPrecomputes2_double_OffsetMutablePtr</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="327" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="327" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a04260b71d608813d48cae2ab80d16ecc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_double * MR_IntersectionPrecomputes2_double_ConstructFromAnother</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *_other)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;::IntersectionPrecomputes2</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1ad94d42883bdc09a2604d04dc6152d242" kindref="member">MR_IntersectionPrecomputes2_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="333" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="333" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ae060faa6267dbf4374611bf10db799eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_double * MR_IntersectionPrecomputes2_double_Construct</definition>
+        <argsstring>(const MR_Vector2d *dir)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref> *</type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;::IntersectionPrecomputes2</computeroutput>. Parameter <computeroutput>dir</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dir</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRIntersectionPrecomputes2_8h_1ad94d42883bdc09a2604d04dc6152d242" kindref="member">MR_IntersectionPrecomputes2_double_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="339" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="339" declcolumn="44"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1ad94d42883bdc09a2604d04dc6152d242" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_double_Destroy</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_Destroy</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_IntersectionPrecomputes2_double</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="342" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="342" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a307e853030e071aface75b69b294003b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_IntersectionPrecomputes2_double_DestroyArray</definition>
+        <argsstring>(const MR_IntersectionPrecomputes2_double *_this)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_IntersectionPrecomputes2_double</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="345" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="345" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRIntersectionPrecomputes2_8h_1a4c46ad711782ea9a775a06d2d3f71021" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+        <definition>MRC_API MR_IntersectionPrecomputes2_double * MR_IntersectionPrecomputes2_double_AssignFromAnother</definition>
+        <argsstring>(MR_IntersectionPrecomputes2_double *_this, const MR_IntersectionPrecomputes2_double *_other)</argsstring>
+        <name>MR_IntersectionPrecomputes2_double_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::IntersectionPrecomputes2&lt;double&gt;::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" line="353" column="44" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h" declline="353" declcolumn="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector2_8h" kindref="compound">MRCMesh/MRVector2.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="30" refid="MRIntersectionPrecomputes2_8h_1a3ae739cc1c729298ed56f47da2f0f9e1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a3ae739cc1c729298ed56f47da2f0f9e1" kindref="member">MR_IntersectionPrecomputes2_float_Get_invDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="37" refid="MRIntersectionPrecomputes2_8h_1a7ea6ba7f9933a03a3a16fc47c36fab22" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a7ea6ba7f9933a03a3a16fc47c36fab22" kindref="member">MR_IntersectionPrecomputes2_float_Set_invDir</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>value);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="44" refid="MRIntersectionPrecomputes2_8h_1abed71e5aaace7db9ae8eda86b02c36c7" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1abed71e5aaace7db9ae8eda86b02c36c7" kindref="member">MR_IntersectionPrecomputes2_float_GetMutable_invDir</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="52" refid="MRIntersectionPrecomputes2_8h_1a83e7786e1b54c249334d7ae37cd1f6a4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a83e7786e1b54c249334d7ae37cd1f6a4" kindref="member">MR_IntersectionPrecomputes2_float_Get_maxDimIdxY</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="59" refid="MRIntersectionPrecomputes2_8h_1a349ede224802080ed05d5ef8c69f3909" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a349ede224802080ed05d5ef8c69f3909" kindref="member">MR_IntersectionPrecomputes2_float_Set_maxDimIdxY</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="67" refid="MRIntersectionPrecomputes2_8h_1adef2c4190091d481240a29653eeeff8e" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1adef2c4190091d481240a29653eeeff8e" kindref="member">MR_IntersectionPrecomputes2_float_GetMutable_maxDimIdxY</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="MRIntersectionPrecomputes2_8h_1a17d05c607b8746d5467b6b04e05e77d4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a17d05c607b8746d5467b6b04e05e77d4" kindref="member">MR_IntersectionPrecomputes2_float_Get_idxX</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRIntersectionPrecomputes2_8h_1aa5066873e9cae521f7644f48f47dafa7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1aa5066873e9cae521f7644f48f47dafa7" kindref="member">MR_IntersectionPrecomputes2_float_Set_idxX</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="MRIntersectionPrecomputes2_8h_1ac3a6731ce967826a8e95ab2ec6b6a1ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1ac3a6731ce967826a8e95ab2ec6b6a1ed" kindref="member">MR_IntersectionPrecomputes2_float_GetMutable_idxX</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="MRIntersectionPrecomputes2_8h_1a67c78d6617963fc4616634eacb99b2cb" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a67c78d6617963fc4616634eacb99b2cb" kindref="member">MR_IntersectionPrecomputes2_float_Get_sign</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRIntersectionPrecomputes2_8h_1a169bf3ee7f9deed92e4e2050014f1e41" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a169bf3ee7f9deed92e4e2050014f1e41" kindref="member">MR_IntersectionPrecomputes2_float_Set_sign</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="MRIntersectionPrecomputes2_8h_1a4920a5e3dd24abbcd639427212230fbf" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a4920a5e3dd24abbcd639427212230fbf" kindref="member">MR_IntersectionPrecomputes2_float_GetMutable_sign</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112" refid="MRIntersectionPrecomputes2_8h_1afbdadb68c42fa8945de44da5cff2259b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1afbdadb68c42fa8945de44da5cff2259b" kindref="member">MR_IntersectionPrecomputes2_float_Get_Sx</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="MRIntersectionPrecomputes2_8h_1a26b2b512abdc1a822d288f04420bcf48" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a26b2b512abdc1a822d288f04420bcf48" kindref="member">MR_IntersectionPrecomputes2_float_Set_Sx</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="125" refid="MRIntersectionPrecomputes2_8h_1a6e9419500318064066bd4ab07a7e17de" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a6e9419500318064066bd4ab07a7e17de" kindref="member">MR_IntersectionPrecomputes2_float_GetMutable_Sx</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="MRIntersectionPrecomputes2_8h_1a3292fc7f977bbe4ad8954775ea24fd1d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a3292fc7f977bbe4ad8954775ea24fd1d" kindref="member">MR_IntersectionPrecomputes2_float_Get_Sy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRIntersectionPrecomputes2_8h_1a5e80da310df35ff27ffc66e9a12d2370" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a5e80da310df35ff27ffc66e9a12d2370" kindref="member">MR_IntersectionPrecomputes2_float_Set_Sy</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRIntersectionPrecomputes2_8h_1a456ba2310d966cca9746f15332e510ed" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a456ba2310d966cca9746f15332e510ed" kindref="member">MR_IntersectionPrecomputes2_float_GetMutable_Sy</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRIntersectionPrecomputes2_8h_1a151c2ad5f979e3ad8435f2eb33c93316" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a151c2ad5f979e3ad8435f2eb33c93316" kindref="member">MR_IntersectionPrecomputes2_float_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRIntersectionPrecomputes2_8h_1a195672b42ac3921e52f355aa4f14b15d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a195672b42ac3921e52f355aa4f14b15d" kindref="member">MR_IntersectionPrecomputes2_float_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158" refid="MRIntersectionPrecomputes2_8h_1ad8253ff8ca309f6e2f67d1187378eda7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1ad8253ff8ca309f6e2f67d1187378eda7" kindref="member">MR_IntersectionPrecomputes2_float_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162" refid="MRIntersectionPrecomputes2_8h_1a2a3c14dd1ba2be198716a155594ca0f2" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a2a3c14dd1ba2be198716a155594ca0f2" kindref="member">MR_IntersectionPrecomputes2_float_OffsetMutablePtr</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="MRIntersectionPrecomputes2_8h_1a6fc0e03057d61703c96634090d238f67" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a6fc0e03057d61703c96634090d238f67" kindref="member">MR_IntersectionPrecomputes2_float_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="MRIntersectionPrecomputes2_8h_1af65b89238af05e270db188e61ebc8587" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1af65b89238af05e270db188e61ebc8587" kindref="member">MR_IntersectionPrecomputes2_float_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2f" kindref="compound">MR_Vector2f</ref><sp/>*dir);</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="MRIntersectionPrecomputes2_8h_1ab7f3f2998f3afa283428bbdc3673856c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1ab7f3f2998f3afa283428bbdc3673856c" kindref="member">MR_IntersectionPrecomputes2_float_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180" refid="MRIntersectionPrecomputes2_8h_1a24c3b7487d575ca30656e41c18865f33" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a24c3b7487d575ca30656e41c18865f33" kindref="member">MR_IntersectionPrecomputes2_float_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="188" refid="MRIntersectionPrecomputes2_8h_1a26cfabfed205a171796ea045b883a1c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a26cfabfed205a171796ea045b883a1c4" kindref="member">MR_IntersectionPrecomputes2_float_AssignFromAnother</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1adf00b6b9b2bf843c1b6db63fea52c6f1" kindref="member">MR_IntersectionPrecomputes2_float</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="195" refid="MRIntersectionPrecomputes2_8h_1a22be167e507755ce045d3cbcf35e4cba" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a22be167e507755ce045d3cbcf35e4cba" kindref="member">MR_IntersectionPrecomputes2_double_Get_invDir</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="202" refid="MRIntersectionPrecomputes2_8h_1a14d3474295ddc95c53b8b9e18ea1bf46" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a14d3474295ddc95c53b8b9e18ea1bf46" kindref="member">MR_IntersectionPrecomputes2_double_Set_invDir</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>value);</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"></highlight></codeline>
+<codeline lineno="204"><highlight class="normal"></highlight><highlight class="comment">//<sp/>{1<sp/>/<sp/>dir}</highlight></codeline>
+<codeline lineno="209" refid="MRIntersectionPrecomputes2_8h_1a429673c2eebd16b6b47cb0833aaf430d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a429673c2eebd16b6b47cb0833aaf430d" kindref="member">MR_IntersectionPrecomputes2_double_GetMutable_invDir</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="217" refid="MRIntersectionPrecomputes2_8h_1a2644b47f6c5fbef21a9a6fbe0ca9644a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a2644b47f6c5fbef21a9a6fbe0ca9644a" kindref="member">MR_IntersectionPrecomputes2_double_Get_maxDimIdxY</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="224" refid="MRIntersectionPrecomputes2_8h_1aa9f8efd268a8688758baf5fd397c636a" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1aa9f8efd268a8688758baf5fd397c636a" kindref="member">MR_IntersectionPrecomputes2_double_Set_maxDimIdxY</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight><highlight class="comment">//<sp/>[0]max,<sp/>[1]next,<sp/>[2]next-next</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="227"><highlight class="normal"></highlight><highlight class="comment">//<sp/>f.e.<sp/>{1,2}<sp/>=&gt;<sp/>{1,0}</highlight></codeline>
+<codeline lineno="232" refid="MRIntersectionPrecomputes2_8h_1ad06b96c111b97acd5467bc649264ae84" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1ad06b96c111b97acd5467bc649264ae84" kindref="member">MR_IntersectionPrecomputes2_double_GetMutable_maxDimIdxY</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238" refid="MRIntersectionPrecomputes2_8h_1a780762c5ce3fc9d2d70614feadb31008" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a780762c5ce3fc9d2d70614feadb31008" kindref="member">MR_IntersectionPrecomputes2_double_Get_idxX</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="243" refid="MRIntersectionPrecomputes2_8h_1a33612191963b11a6265a9580963610d2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a33612191963b11a6265a9580963610d2" kindref="member">MR_IntersectionPrecomputes2_double_Set_idxX</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"></highlight></codeline>
+<codeline lineno="249" refid="MRIntersectionPrecomputes2_8h_1ab2fa2839283815508989d65228679f70" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1ab2fa2839283815508989d65228679f70" kindref="member">MR_IntersectionPrecomputes2_double_GetMutable_idxX</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256" refid="MRIntersectionPrecomputes2_8h_1a610c1ed8b34660949d20b5cde34993f6" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a610c1ed8b34660949d20b5cde34993f6" kindref="member">MR_IntersectionPrecomputes2_double_Get_sign</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="263" refid="MRIntersectionPrecomputes2_8h_1ac10bf0135f119b9552a5ed9c1c4c57a2" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1ac10bf0135f119b9552a5ed9c1c4c57a2" kindref="member">MR_IntersectionPrecomputes2_double_Set_sign</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this,<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>value);</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="270" refid="MRIntersectionPrecomputes2_8h_1a5ec07d308f0cf9b61f9a513201ea51af" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a5ec07d308f0cf9b61f9a513201ea51af" kindref="member">MR_IntersectionPrecomputes2_double_GetMutable_sign</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277" refid="MRIntersectionPrecomputes2_8h_1acbdba75e53f1e97dfb774bbca27121fe" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1acbdba75e53f1e97dfb774bbca27121fe" kindref="member">MR_IntersectionPrecomputes2_double_Get_Sx</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283" refid="MRIntersectionPrecomputes2_8h_1a74774cb12a759bb625af29e4bdbe799c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a74774cb12a759bb625af29e4bdbe799c" kindref="member">MR_IntersectionPrecomputes2_double_Set_Sx</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="290" refid="MRIntersectionPrecomputes2_8h_1a29f9ae7cc845fecfb039c6b8a54c17db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a29f9ae7cc845fecfb039c6b8a54c17db" kindref="member">MR_IntersectionPrecomputes2_double_GetMutable_Sx</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"></highlight></codeline>
+<codeline lineno="297" refid="MRIntersectionPrecomputes2_8h_1ac0354e9eef04eda9798ce438b8c086db" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1ac0354e9eef04eda9798ce438b8c086db" kindref="member">MR_IntersectionPrecomputes2_double_Get_Sy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303" refid="MRIntersectionPrecomputes2_8h_1a9d12893234ce3eff5c3ec7014b30a35c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a9d12893234ce3eff5c3ec7014b30a35c" kindref="member">MR_IntersectionPrecomputes2_double_Set_Sy</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="310" refid="MRIntersectionPrecomputes2_8h_1a133c3680314e9c0fbb1e719c44aaf1a7" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a133c3680314e9c0fbb1e719c44aaf1a7" kindref="member">MR_IntersectionPrecomputes2_double_GetMutable_Sy</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"></highlight></codeline>
+<codeline lineno="314" refid="MRIntersectionPrecomputes2_8h_1a810fc4d6efa43815e06fbeb2bdf13d4a" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a810fc4d6efa43815e06fbeb2bdf13d4a" kindref="member">MR_IntersectionPrecomputes2_double_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319" refid="MRIntersectionPrecomputes2_8h_1a2f9c7e0895b57eea03b7be546c43c16b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a2f9c7e0895b57eea03b7be546c43c16b" kindref="member">MR_IntersectionPrecomputes2_double_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323" refid="MRIntersectionPrecomputes2_8h_1ae7dd5c51a9ad8d60eacccbe9ef530d99" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1ae7dd5c51a9ad8d60eacccbe9ef530d99" kindref="member">MR_IntersectionPrecomputes2_double_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="MRIntersectionPrecomputes2_8h_1a079db96d9d82be22850d8fabd1ddd51d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a079db96d9d82be22850d8fabd1ddd51d" kindref="member">MR_IntersectionPrecomputes2_double_OffsetMutablePtr</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"></highlight></codeline>
+<codeline lineno="333" refid="MRIntersectionPrecomputes2_8h_1a04260b71d608813d48cae2ab80d16ecc" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a04260b71d608813d48cae2ab80d16ecc" kindref="member">MR_IntersectionPrecomputes2_double_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"></highlight></codeline>
+<codeline lineno="339" refid="MRIntersectionPrecomputes2_8h_1ae060faa6267dbf4374611bf10db799eb" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1ae060faa6267dbf4374611bf10db799eb" kindref="member">MR_IntersectionPrecomputes2_double_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2d" kindref="compound">MR_Vector2d</ref><sp/>*dir);</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="342" refid="MRIntersectionPrecomputes2_8h_1ad94d42883bdc09a2604d04dc6152d242" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1ad94d42883bdc09a2604d04dc6152d242" kindref="member">MR_IntersectionPrecomputes2_double_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345" refid="MRIntersectionPrecomputes2_8h_1a307e853030e071aface75b69b294003b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a307e853030e071aface75b69b294003b" kindref="member">MR_IntersectionPrecomputes2_double_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="MRIntersectionPrecomputes2_8h_1a4c46ad711782ea9a775a06d2d3f71021" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*<ref refid="MRIntersectionPrecomputes2_8h_1a4c46ad711782ea9a775a06d2d3f71021" kindref="member">MR_IntersectionPrecomputes2_double_AssignFromAnother</ref>(<ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRIntersectionPrecomputes2_8h_1a56bc83cfdc1a66e3e08a7cf8f93b84b2" kindref="member">MR_IntersectionPrecomputes2_double</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="356"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRIntersectionPrecomputes2.h"/>
+  </compounddef>
+</doxygen>

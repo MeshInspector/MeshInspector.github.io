@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderObjectCombinator" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderObjectCombinator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Bases...</basecompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Bases</declname>
+        <defname>Bases</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" kind="function"><name>RenderObjectCombinator</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" kind="function"><name>render</name></member>
+      <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" kind="function"><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" kind="function"><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" kind="function"><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" kind="function"><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga1d073623ece21825d80ed8adf822cc56" kind="function"><name>renderUi</name></member>
+    </sectiondef>
+    <requiresclause>( ( std::derived_from&lt;Bases, <ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref>&gt; &amp;&amp; !std::same_as&lt;Bases, <ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref>&gt; ) &amp;&amp; ... )    </requiresclause>
+    <briefdescription>
+<para>Combines several different <computeroutput><ref refid="classMR_1_1IRenderObject" kindref="compound">IRenderObject</ref></computeroutput>s into one in a meaningful way. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderObjectCombinator&lt; Bases &gt;</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderObjectCombinator&lt; Bases &gt;</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="169" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="170" bodyend="188"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>RenderObjectCombinator</name></member>
+      <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga1d073623ece21825d80ed8adf822cc56" prot="public" virt="non-virtual"><scope>MR::RenderObjectCombinator</scope><name>renderUi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1SceneLoad" kind="namespace" language="C++">
+    <compoundname>MR::SceneLoad</compoundname>
+    <innerclass refid="structMR_1_1SceneLoad_1_1Result" prot="public">MR::SceneLoad::Result</innerclass>
+    <innerclass refid="structMR_1_1SceneLoad_1_1Settings" prot="public">MR::SceneLoad::Settings</innerclass>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespaceMR_1_1SceneLoad_1a0b87b3918d63624f559f15d25ecb9c3a" prot="public" static="no">
+        <type><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected</ref>&lt; <ref refid="group__GeneralGroup_1ga817cc816192c1d84ef3abb186f9ea3a1" kindref="member">LoadedObject</ref> &gt;(*)(const std::filesystem::path &amp;, const ProgressCallback &amp;)</type>
+        <definition>using MR::SceneLoad::SceneLoader =  Expected&lt;LoadedObject&gt;( * )( const std::filesystem::path&amp;, const ProgressCallback&amp; )</definition>
+        <argsstring></argsstring>
+        <name>SceneLoader</name>
+        <qualifiedname>MR::SceneLoad::SceneLoader</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" bodystart="348" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" prot="public" static="no">
+        <type>std::function&lt; void(<ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref>)&gt;</type>
+        <definition>using MR::SceneLoad::PostLoadCallback =  std::function&lt;void ( Result )&gt;</definition>
+        <argsstring></argsstring>
+        <name>PostLoadCallback</name>
+        <qualifiedname>MR::SceneLoad::PostLoadCallback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Async load scene from file; calls <computeroutput>postLoadCallback</computeroutput> from a working thread (or from the main thread on single-thread platforms) after all files being loaded </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespaceMR_1_1SceneLoad_1ac487a300831be5cc92806c51ce12f922" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API <ref refid="structMR_1_1SceneLoad_1_1Result" kindref="compound">Result</ref></type>
+        <definition>MRMESH_API Result MR::SceneLoad::fromAnySupportedFormat</definition>
+        <argsstring>(const std::vector&lt; std::filesystem::path &gt; &amp;files, const Settings &amp;settings={})</argsstring>
+        <name>fromAnySupportedFormat</name>
+        <qualifiedname>MR::SceneLoad::fromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::filesystem::path &gt; &amp;</type>
+          <declname>files</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1SceneLoad_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Load scene from file; if both targetUnit and loadedObject.lengthUnit are not nullopt, then adjusts transformations of the loaded objects </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="44" column="19" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" declline="44" declcolumn="19"/>
+      </memberdef>
+      <memberdef kind="function" id="namespaceMR_1_1SceneLoad_1adf9736b6c4eba76b43a108d16f183036" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API void</type>
+        <definition>MRMESH_API void MR::SceneLoad::asyncFromAnySupportedFormat</definition>
+        <argsstring>(const std::vector&lt; std::filesystem::path &gt; &amp;files, const PostLoadCallback &amp;postLoadCallback, const Settings &amp;settings={})</argsstring>
+        <name>asyncFromAnySupportedFormat</name>
+        <qualifiedname>MR::SceneLoad::asyncFromAnySupportedFormat</qualifiedname>
+        <param>
+          <type>const std::vector&lt; std::filesystem::path &gt; &amp;</type>
+          <declname>files</declname>
+        </param>
+        <param>
+          <type>const <ref refid="namespaceMR_1_1SceneLoad_1ad9301168bfb0258833ac6729cfb138a9" kindref="member">PostLoadCallback</ref> &amp;</type>
+          <declname>postLoadCallback</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR_1_1SceneLoad_1_1Settings" kindref="compound">Settings</ref> &amp;</type>
+          <declname>settings</declname>
+          <defval>{}</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" line="49" column="17" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRSceneLoad.h" declline="49" declcolumn="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>namespace <ref refid="namespaceMR_1_1AsyncObjectLoad" kindref="compound">AsyncObjectLoad</ref> </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIOFormatsRegistry.h" line="345" column="1"/>
+  </compounddef>
+</doxygen>

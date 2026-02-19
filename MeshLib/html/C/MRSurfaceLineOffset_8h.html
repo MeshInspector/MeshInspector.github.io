@@ -151,7 +151,7 @@ $(function(){initNavTree('MRSurfaceLineOffset_8h.html',''); initResizable(true);
   <div class="headertitle"><div class="title">MRSurfaceLineOffset.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="exports_8h_source.html">MRCMisc/exports.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;MRCMisc/exports.h&gt;</code><br />
 </div>
 <p><a href="MRSurfaceLineOffset_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -168,10 +168,10 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af6c62eb6d9c7cf09e8dc5ee36e66f4d8" id="r_af6c62eb6d9c7cf09e8dc5ee36e66f4d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6c62eb6d9c7cf09e8dc5ee36e66f4d8">MR_offsetSurfaceLine_float</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, float offset)</td></tr>
+<tr class="memitem:af6c62eb6d9c7cf09e8dc5ee36e66f4d8" id="r_af6c62eb6d9c7cf09e8dc5ee36e66f4d8"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6c62eb6d9c7cf09e8dc5ee36e66f4d8">MR_offsetSurfaceLine_float</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, float offset)</td></tr>
 <tr class="memdesc:af6c62eb6d9c7cf09e8dc5ee36e66f4d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns contours in <code>mesh</code> space that are offset from <code>surfaceLine</code> on <code>offset</code> amount in all directions.  <br /></td></tr>
 <tr class="separator:af6c62eb6d9c7cf09e8dc5ee36e66f4d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaec959990c9406a5a1cd0ca5f1dcb239" id="r_aaec959990c9406a5a1cd0ca5f1dcb239"><td class="memItemLeft" align="right" valign="top"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaec959990c9406a5a1cd0ca5f1dcb239">MR_offsetSurfaceLine_std_function_float_func_from_int</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a984bdb18a92ceb4f93e877ad306ad832">MR_std_function_float_from_int</a> *offsetAtPoint)</td></tr>
+<tr class="memitem:aaec959990c9406a5a1cd0ca5f1dcb239" id="r_aaec959990c9406a5a1cd0ca5f1dcb239"><td class="memItemLeft" align="right" valign="top">MRC_API <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aaec959990c9406a5a1cd0ca5f1dcb239">MR_offsetSurfaceLine_std_function_float_func_from_int</a> (const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *mesh, const <a class="el" href="MRAggregateFlow_8h.html#a087d1afcc55aadc6e828d844329c9727">MR_std_vector_MR_MeshTriPoint</a> *surfaceLine, const <a class="el" href="MRContoursCut_8h.html#a984bdb18a92ceb4f93e877ad306ad832">MR_std_function_float_from_int</a> *offsetAtPoint)</td></tr>
 <tr class="memdesc:aaec959990c9406a5a1cd0ca5f1dcb239"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns contours in <code>mesh</code> space that are offset from <code>surfaceLine</code> on <code>offsetAtPoint</code> amount in all directions.  <br /></td></tr>
 <tr class="separator:aaec959990c9406a5a1cd0ca5f1dcb239"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -240,7 +240,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> * MR_offsetSurfaceLine_float </td>
+          <td class="memname">MRC_API <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> * MR_offsetSurfaceLine_float </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -267,7 +267,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8964f9c61140cf585633903f71ced4eb">MR::offsetSurfaceLine</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfaceLine</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__std__vector__MR__Vector3f__std__string_8h.html#a6d124afece0aaf292ae595f1fefd51b2" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_vector_MR_Vector3f_std_string....">MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::offsetSurfaceLine</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfaceLine</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>
@@ -278,7 +278,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="exports_8h.html#a83dd8809128f2fbd49b5c39d59179d4a">MRC_API</a> <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> * MR_offsetSurfaceLine_std_function_float_func_from_int </td>
+          <td class="memname">MRC_API <a class="el" href="#a273eed4f5cadfa1bedd14695f02a2709">MR_expected_std_vector_std_vector_MR_Vector3f_std_string</a> * MR_offsetSurfaceLine_std_function_float_func_from_int </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="MRCtm_8h.html#a31b172f68efca6438544d56eb86d6f40">MR_Mesh</a> *</td>          <td class="paramname"><span class="paramname"><em>mesh</em></span>, </td>
         </tr>
@@ -305,7 +305,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>resulting offset contours or error if something goes wrong</dd></dl>
-<p>Generated from function <code><a class="elRef" href="../Cpp/namespaceMR.html#a8964f9c61140cf585633903f71ced4eb">MR::offsetSurfaceLine</a></code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfaceLine</code> can not be null. It is a single object. Parameter <code>offsetAtPoint</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code><a class="el" href="expected__std__vector__std__vector__MR__Vector3f__std__string_8h.html#a6d124afece0aaf292ae595f1fefd51b2" title="Destroys a heap-allocated instance of MR_expected_std_vector_std_vector_MR_Vector3f_std_string....">MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</a></code> to free it when you're done using it. </p>
+<p>Generated from function <code>MR::offsetSurfaceLine</code>. Parameter <code>mesh</code> can not be null. It is a single object. Parameter <code>surfaceLine</code> can not be null. It is a single object. Parameter <code>offsetAtPoint</code> can not be null. It is a single object. Never returns null. Returns an instance allocated on the heap! Must call <code>MR_expected_std_vector_std_vector_MR_Vector3f_std_string_Destroy()</code> to free it when you're done using it. </p>
 
 </div>
 </div>

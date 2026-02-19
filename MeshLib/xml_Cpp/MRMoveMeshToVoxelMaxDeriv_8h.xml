@@ -1,0 +1,643 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMoveMeshToVoxelMaxDeriv_8h" kind="file" language="C++">
+    <compoundname>MRMoveMeshToVoxelMaxDeriv.h</compoundname>
+    <includes local="yes">MRVoxelsFwd.h</includes>
+    <includes refid="MRVoxelsVolumeAccess_8h" local="yes">MRVoxelsVolumeAccess.h</includes>
+    <includes refid="MRVolumeInterpolation_8h" local="yes">MRVolumeInterpolation.h</includes>
+    <includes refid="MRMatrix3_8h" local="yes">MRMesh/MRMatrix3.h</includes>
+    <includes refid="MRAffineXf_8h" local="yes">MRMesh/MRAffineXf.h</includes>
+    <includes refid="MRBestFitParabola_8h" local="yes">MRMesh/MRBestFitParabola.h</includes>
+    <includes refid="MRBestFitPolynomial_8h" local="yes">MRMesh/MRBestFitPolynomial.h</includes>
+    <incdepgraph>
+      <node id="24">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="59">
+        <label>MRMesh/MRBestFitParabola.h</label>
+        <link refid="MRBestFitParabola_8h"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>MRMesh/MRBestFitPolynomial.h</label>
+        <link refid="MRBestFitPolynomial_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>MRMesh/MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="39" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="40" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="41" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRMesh/MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="31">
+        <label>MRMesh/MRExpected.h</label>
+        <link refid="MRExpected_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="32" relation="include">
+        </childnode>
+        <childnode refid="33" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>MRMesh/MRHeapBytes.h</label>
+        <link refid="MRHeapBytes_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="56">
+        <label>MRMesh/MRIsNaN.h</label>
+        <link refid="MRIsNaN_8h"/>
+        <childnode refid="57" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="23">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>MRParabola.h</label>
+        <link refid="MRParabola_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMesh/MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="36" relation="include">
+        </childnode>
+      </node>
+      <node id="61">
+        <label>MRSymMatrix3.h</label>
+        <link refid="MRSymMatrix3_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>MRMesh/MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="35" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRMesh/MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="54">
+        <label>MRMesh/MRVolumeIndexer.h</label>
+        <link refid="MRVolumeIndexer_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="38" relation="include">
+        </childnode>
+        <childnode refid="55" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRFloatGrid.h</label>
+        <link refid="MRFloatGrid_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRMoveMeshToVoxelMaxDeriv.h</label>
+        <link refid="MRMoveMeshToVoxelMaxDeriv_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="58" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="59" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>MROpenVDB.h</label>
+        <link refid="MROpenVDB_8h"/>
+        <childnode refid="44" relation="include">
+        </childnode>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+        <childnode refid="48" relation="include">
+        </childnode>
+        <childnode refid="49" relation="include">
+        </childnode>
+        <childnode refid="50" relation="include">
+        </childnode>
+        <childnode refid="51" relation="include">
+        </childnode>
+        <childnode refid="52" relation="include">
+        </childnode>
+        <childnode refid="53" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>MRVDBFloatGrid.h</label>
+        <link refid="MRVDBFloatGrid_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="58">
+        <label>MRVolumeInterpolation.h</label>
+        <link refid="MRVolumeInterpolation_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRVoxelsVolume.h</label>
+        <link refid="MRVoxelsVolume_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+        <childnode refid="34" relation="include">
+        </childnode>
+        <childnode refid="37" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRVoxelsVolumeAccess.h</label>
+        <link refid="MRVoxelsVolumeAccess_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="54" relation="include">
+        </childnode>
+        <childnode refid="56" relation="include">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>MRMesh/MRMeshFwd.h</label>
+      </node>
+      <node id="7">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="16">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="63">
+        <label>MRPch/MREigenCore.h</label>
+      </node>
+      <node id="32">
+        <label>MRPch/MRExpected.h</label>
+      </node>
+      <node id="44">
+        <label>MRPch/MRSuppressWarning.h</label>
+      </node>
+      <node id="45">
+        <label>MRPch/MRTBB.h</label>
+      </node>
+      <node id="2">
+        <label>MRVoxelsFwd.h</label>
+      </node>
+      <node id="39">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="17">
+        <label>algorithm</label>
+      </node>
+      <node id="55">
+        <label>array</label>
+      </node>
+      <node id="57">
+        <label>bit</label>
+      </node>
+      <node id="8">
+        <label>cassert</label>
+      </node>
+      <node id="9">
+        <label>cmath</label>
+      </node>
+      <node id="36">
+        <label>concepts</label>
+      </node>
+      <node id="13">
+        <label>cstddef</label>
+      </node>
+      <node id="18">
+        <label>cstring</label>
+      </node>
+      <node id="40">
+        <label>functional</label>
+      </node>
+      <node id="19">
+        <label>iosfwd</label>
+      </node>
+      <node id="41">
+        <label>iterator</label>
+      </node>
+      <node id="27">
+        <label>limits</label>
+      </node>
+      <node id="30">
+        <label>memory</label>
+      </node>
+      <node id="47">
+        <label>openvdb/io/Stream.h</label>
+      </node>
+      <node id="46">
+        <label>openvdb/openvdb.h</label>
+      </node>
+      <node id="48">
+        <label>openvdb/tools/Composite.h</label>
+      </node>
+      <node id="52">
+        <label>openvdb/tools/Dense.h</label>
+      </node>
+      <node id="53">
+        <label>openvdb/tools/Filter.h</label>
+      </node>
+      <node id="49">
+        <label>openvdb/tools/GridTransformer.h</label>
+      </node>
+      <node id="50">
+        <label>openvdb/tools/MeshToVolume.h</label>
+      </node>
+      <node id="51">
+        <label>openvdb/tools/VolumeToMesh.h</label>
+      </node>
+      <node id="65">
+        <label>optional</label>
+      </node>
+      <node id="33">
+        <label>string</label>
+      </node>
+      <node id="14">
+        <label>type_traits</label>
+      </node>
+      <node id="20">
+        <label>utility</label>
+      </node>
+      <node id="64">
+        <label>variant</label>
+      </node>
+      <node id="29">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" prot="public">MR::MoveMeshToVoxelMaxDerivSettings</innerclass>
+    <innerclass refid="classMR_1_1MeshOnVoxelsT" prot="public">MR::MeshOnVoxelsT</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;MRVoxelsFwd.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVoxelsVolumeAccess_8h" kindref="compound">MRVoxelsVolumeAccess.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVolumeInterpolation_8h" kindref="compound">MRVolumeInterpolation.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMatrix3_8h" kindref="compound">MRMesh/MRMatrix3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRAffineXf_8h" kindref="compound">MRMesh/MRAffineXf.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBestFitParabola_8h" kindref="compound">MRMesh/MRBestFitParabola.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBestFitPolynomial_8h" kindref="compound">MRMesh/MRBestFitPolynomial.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MoveMeshToVoxelMaxDerivSettings</ref></highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="84" refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b0d4d2ec2b2868f18da16624979032f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b0d4d2ec2b2868f18da16624979032f" kindref="member">iters</ref><sp/>=<sp/>30;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b3c5026793485f6071bb44a681e1461" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a9b3c5026793485f6071bb44a681e1461" kindref="member">samplePoints</ref><sp/>=<sp/>6;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1ad4bdf9eb1e55187c89fd477134219680" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1ad4bdf9eb1e55187c89fd477134219680" kindref="member">degree</ref><sp/>=<sp/>3;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a8e7aa7e5a8d5ad0d936565bfac19539e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a8e7aa7e5a8d5ad0d936565bfac19539e" kindref="member">outlierThreshold</ref><sp/>=<sp/>1.f;</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a13090f3a2bfe03345bd7100d2c634d7f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a13090f3a2bfe03345bd7100d2c634d7f" kindref="member">intermediateSmoothForce</ref><sp/>=<sp/>0.3f;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a33ab7a3bb2d0ed46b1856e4ba276357c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings_1a33ab7a3bb2d0ed46b1856e4ba276357c" kindref="member">preparationSmoothForce</ref><sp/>=<sp/>0.1f;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>VolumeType<sp/>=<sp/>VdbVolume&gt;</highlight></codeline>
+<codeline lineno="111" refid="group__SubvoxelMeshCorrection_1gaaa03e36604e9587df674801bac3a653f" refkind="member"><highlight class="normal">MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/><ref refid="group__SubvoxelMeshCorrection_1gaaa03e36604e9587df674801bac3a653f" kindref="member">moveMeshToVoxelMaxDeriv</ref>(</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>meshXf,</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VolumeType&amp;<sp/><ref refid="group__GeneralGroup_1ga83e40508b3f05b594da19748c1da2d05" kindref="member">volume</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>volumeXf,</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MoveMeshToVoxelMaxDerivSettings</ref>&amp;<sp/>settings,</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ProgressCallback<sp/>callback<sp/>=<sp/>{}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal">);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118" refid="namespaceMR_1a9afd00cdbde3e93a03746e44dbd978ed" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/><ref refid="namespaceMR_1a9afd00cdbde3e93a03746e44dbd978ed" kindref="member">moveMeshToVoxelMaxDeriv&lt;VdbVolume&gt;</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>meshXf,</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VdbVolume&amp;<sp/><ref refid="group__GeneralGroup_1ga83e40508b3f05b594da19748c1da2d05" kindref="member">volume</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>volumeXf,</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MoveMeshToVoxelMaxDerivSettings</ref>&amp;<sp/>settings,</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/>callback<sp/>);</highlight></codeline>
+<codeline lineno="122" refid="namespaceMR_1a1cfc0e26980a5b09a90df0942acbda68" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/><ref refid="namespaceMR_1a1cfc0e26980a5b09a90df0942acbda68" kindref="member">moveMeshToVoxelMaxDeriv&lt;SimpleVolumeMinMax&gt;</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>meshXf,</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>SimpleVolumeMinMax&amp;<sp/><ref refid="group__GeneralGroup_1ga83e40508b3f05b594da19748c1da2d05" kindref="member">volume</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>volumeXf,</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MoveMeshToVoxelMaxDerivSettings</ref>&amp;<sp/>settings,</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/>callback<sp/>);</highlight></codeline>
+<codeline lineno="126" refid="namespaceMR_1a9c984ff67c9b4322aadc1bf4aef6685f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>MRVOXELS_API<sp/><ref refid="group__GeneralGroup_1ga6d7483b6adbc485e9c9b52eb09cb7735" kindref="member">Expected&lt;VertBitSet&gt;</ref><sp/><ref refid="namespaceMR_1a9c984ff67c9b4322aadc1bf4aef6685f" kindref="member">moveMeshToVoxelMaxDeriv&lt;FunctionVolume&gt;</ref>(<sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>meshXf,</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>FunctionVolume&amp;<sp/><ref refid="group__GeneralGroup_1ga83e40508b3f05b594da19748c1da2d05" kindref="member">volume</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>volumeXf,</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1MoveMeshToVoxelMaxDerivSettings" kindref="compound">MoveMeshToVoxelMaxDerivSettings</ref>&amp;<sp/>settings,</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>ProgressCallback<sp/>callback<sp/>);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>MeshType,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>VolumeType&gt;</highlight></codeline>
+<codeline lineno="136" refid="classMR_1_1MeshOnVoxelsT" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">MRVOXELS_CLASS<sp/><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref></highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="139" refid="classMR_1_1MeshOnVoxelsT_1ab7eae2f762b72e60e07cd5db6b8b2ed1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1ab7eae2f762b72e60e07cd5db6b8b2ed1" kindref="member">MeshOnVoxelsT</ref>(<sp/>MeshType&amp;<sp/>mesh,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>meshXf,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VolumeType&amp;<sp/><ref refid="group__GeneralGroup_1ga83e40508b3f05b594da19748c1da2d05" kindref="member">volume</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>AffineXf3f&amp;<sp/>volumeXf<sp/>);</highlight></codeline>
+<codeline lineno="140" refid="classMR_1_1MeshOnVoxelsT_1a1b322982116a13162da2b64a54ffc5c1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a1b322982116a13162da2b64a54ffc5c1" kindref="member">MeshOnVoxelsT</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT</ref>&amp;<sp/><ref refid="group__GeneralGroup_1gga24a027691feb30cad77ca6a162d05c58a795f3202b17cb6bc3d4b771d8c6c9eaf" kindref="member">other</ref><sp/>);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="classMR_1_1MeshOnVoxelsT_1a0ccc7e9cad6df03bf25b347c38523ca0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>MeshType&amp;<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a0ccc7e9cad6df03bf25b347c38523ca0" kindref="member">mesh</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="classMR_1_1MeshOnVoxelsT_1a88f2d28749bdf9bfb0f0ef8a613b240c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VolumeType&amp;<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a88f2d28749bdf9bfb0f0ef8a613b240c" kindref="member">volume</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="classMR_1_1MeshOnVoxelsT_1a12227796564ddc80465829d668777dbd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a12227796564ddc80465829d668777dbd" kindref="member">numVerts</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152" refid="classMR_1_1MeshOnVoxelsT_1a256eaf8e5d728b140dd616866d8516f0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a256eaf8e5d728b140dd616866d8516f0" kindref="member">voxelSize</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="157" refid="classMR_1_1MeshOnVoxelsT_1af0ad76908c340e791ac6be32f5ad272b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>AffineXf3f<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1af0ad76908c340e791ac6be32f5ad272b" kindref="member">xf</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="classMR_1_1MeshOnVoxelsT_1a76a21f869bff0cb1d85a80906e310f10" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>Vector3f<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a76a21f869bff0cb1d85a80906e310f10" kindref="member">xf</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pt<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161" refid="classMR_1_1MeshOnVoxelsT_1aecb9e08f49135604a5f49d18194c20cf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>AffineXf3f<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1aecb9e08f49135604a5f49d18194c20cf" kindref="member">xfInv</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="classMR_1_1MeshOnVoxelsT_1a53f243743c47a840a26a5421adebced0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>Vector3f<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a53f243743c47a840a26a5421adebced0" kindref="member">xfInv</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f<sp/>&amp;pt<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167" refid="classMR_1_1MeshOnVoxelsT_1a1e804485d47771585c930ff0a81a66a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>Vector3f<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a1e804485d47771585c930ff0a81a66a6" kindref="member">point</ref>(<sp/>VertId<sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170" refid="classMR_1_1MeshOnVoxelsT_1a3f6e6954e2e6f3fcd2d0e7ab8457fade" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a3f6e6954e2e6f3fcd2d0e7ab8457fade" kindref="member">getValue</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pos<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="classMR_1_1MeshOnVoxelsT_1a6dd75cbf4661108c487f954a05415b11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/>Vector3f<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a6dd75cbf4661108c487f954a05415b11" kindref="member">getOffsetVector</ref>(<sp/>VertId<sp/>v<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177" refid="classMR_1_1MeshOnVoxelsT_1a2f76915f609b8c542aba9417771526a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a2f76915f609b8c542aba9417771526a1" kindref="member">pseudoIndex</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count<sp/>);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="classMR_1_1MeshOnVoxelsT_1a90497ee87e024abb594efb89847f8190" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a90497ee87e024abb594efb89847f8190" kindref="member">pseudoIndex</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>index,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count<sp/>);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181" refid="classMR_1_1MeshOnVoxelsT_1aeb9d223b5a1d489a0436b404e0f76e80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1aeb9d223b5a1d489a0436b404e0f76e80" kindref="member">indexFromPseudoIndex</ref>(<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>pseudoIndex,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count<sp/>);</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184" refid="classMR_1_1MeshOnVoxelsT_1ab69563c8e51540d8c264e0ee402a355d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1ab69563c8e51540d8c264e0ee402a355d" kindref="member">getPoints</ref>(<sp/>std::vector&lt;Vector3f&gt;&amp;<sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>offset<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="classMR_1_1MeshOnVoxelsT_1a33f94216a2214a0e15f277f63c9b006c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a33f94216a2214a0e15f277f63c9b006c" kindref="member">getValues</ref>(<sp/>std::vector&lt;float&gt;&amp;<sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Vector3f&amp;<sp/>offset<sp/>)<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="classMR_1_1MeshOnVoxelsT_1a4de846d8d930e15bb6fa705a3f1f7a12" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a4de846d8d930e15bb6fa705a3f1f7a12" kindref="member">getDerivatives</ref>(<sp/>std::vector&lt;float&gt;&amp;<sp/>result,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;&amp;<sp/>values<sp/>);</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193" refid="classMR_1_1MeshOnVoxelsT_1ab03c8e85d6fdbd1979958ae95134380e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>Parabolaf<sp/><ref refid="classMR_1_1MeshOnVoxelsT_1ab03c8e85d6fdbd1979958ae95134380e" kindref="member">getBestParabola</ref>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>)</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1BestFitParabola" kindref="compound">BestFitParabola&lt;float&gt;</ref><sp/>bestFitParabola;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>=<sp/>std::distance(<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>,<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref><sp/>);</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>it<sp/>=<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref>;<sp/>it<sp/>!=<sp/><ref refid="group__BasicGroup_1gaa162c3dc2622716a0b52d777abfe137a" kindref="member">end</ref>;<sp/>++it<sp/>)</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bestFitParabola.<ref refid="group__GeneralGroup_1ga8b4c1d8441a656b128c01711395e395b" kindref="member">addPoint</ref>(<sp/>pseudoIndex(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">(<sp/>it<sp/>-<sp/><ref refid="group__BasicGroup_1gac725b280dc514c891e3e533480ca836e" kindref="member">begin</ref><sp/>),<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">(<sp/><ref refid="group__GeneralGroup_1ga306ff1f62992b3eb33c446913b64188a" kindref="member">size</ref><sp/>)<sp/>),<sp/>*it<sp/>);</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>bestFitParabola.<ref refid="group__GeneralGroup_1ga5aa2674186bbd028f31bcc7308f82255" kindref="member">getBestParabola</ref>();</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>degree&gt;</highlight></codeline>
+<codeline lineno="203" refid="classMR_1_1MeshOnVoxelsT_1a83f8e2bd9eba7c5f3d14e26e47be466b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Polynomial" kindref="compound">Polynomialf&lt;degree&gt;</ref><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1a83f8e2bd9eba7c5f3d14e26e47be466b" kindref="member">getBestPolynomial</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;&amp;<sp/>values<sp/>)</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="classMR_1_1BestFitPolynomial" kindref="compound">BestFitPolynomial&lt;double, degree&gt;</ref><sp/>bestFit(<sp/>0.f<sp/>);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/>values.size();<sp/>++i<sp/>)</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bestFit.<ref refid="group__GeneralGroup_1ga131a7e21452f03e4a9613d1d168482c8" kindref="member">addPoint</ref>(<sp/>pseudoIndex(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">(<sp/>i<sp/>),<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal">(<sp/>values.size()<sp/>)<sp/>),<sp/>values[i]<sp/>);</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>poly<sp/>=<sp/>bestFit.<ref refid="group__GeneralGroup_1ga94178932bf3011077ad8a874c0e442ab" kindref="member">getBestPolynomial</ref>().template<sp/>cast&lt;float&gt;();</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>poly;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="classMR_1_1MeshOnVoxelsT_1af6da6c7878b946722d02edfeac307b8a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRVOXELS_API<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PolynomialWrapper" kindref="compound">PolynomialWrapperf</ref><sp/><ref refid="classMR_1_1MeshOnVoxelsT_1af6da6c7878b946722d02edfeac307b8a" kindref="member">getBestPolynomial</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;float&gt;&amp;<sp/>values,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>degree<sp/>);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/>MeshType&amp;<sp/>mesh_;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VolumeType&amp;<sp/>volume_;</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>voxelSize_;</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1VoxelsVolumeAccessor" kindref="compound">VoxelsVolumeAccessor&lt;VolumeType&gt;</ref><sp/>accessor_;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1VoxelsVolumeInterpolatedAccessor" kindref="compound">VoxelsVolumeInterpolatedAccessor&lt;VoxelsVolumeAccessor&lt;VolumeType&gt;</ref>&gt;<sp/>interpolator_;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/>AffineXf3f<sp/>xf_,<sp/>xfInv_;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/>Matrix3f<sp/>xfNormal_;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>noXf_;<sp/></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numVerts_;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"></highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="227" refid="namespaceMR_1a9381161a7388eeabb33982f4df1cf1c3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsVdb</ref><sp/>=<sp/><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT&lt;Mesh, VdbVolume&gt;</ref>;</highlight></codeline>
+<codeline lineno="228" refid="namespaceMR_1a94d7093d57cb27ac9abdfb241ddb6bc0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsVdbC</ref><sp/>=<sp/><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT&lt;const Mesh, VdbVolume&gt;</ref>;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230" refid="namespaceMR_1a93836181db6f59783ce1351a98d59cb8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsSimple</ref><sp/>=<sp/><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT&lt;Mesh, SimpleVolumeMinMax&gt;</ref>;</highlight></codeline>
+<codeline lineno="231" refid="namespaceMR_1a0df0f857bd84e84b19954332c9dcfae5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsSimpleC</ref><sp/>=<sp/><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT&lt;const Mesh, SimpleVolumeMinMax&gt;</ref>;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="namespaceMR_1a03d4bc2fa6d66cfcaa8ed9d0b124e863" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsFunction</ref><sp/>=<sp/><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT&lt;Mesh, FunctionVolume&gt;</ref>;</highlight></codeline>
+<codeline lineno="234" refid="namespaceMR_1a180687f93fbe5cc6216008e26099f5f8" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsFunctionC</ref><sp/>=<sp/><ref refid="classMR_1_1MeshOnVoxelsT" kindref="compound">MeshOnVoxelsT&lt;const Mesh, FunctionVolume&gt;</ref>;</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRMoveMeshToVoxelMaxDeriv.h"/>
+  </compounddef>
+</doxygen>

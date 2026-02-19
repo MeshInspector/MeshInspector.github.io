@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PolylineToVolumeParams" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PolylineToVolumeParams</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineToVolumeParams_1a0af512291413299ad37b090b27d3d8e2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineToVolumeParams::_offsetof_dist</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dist</name>
+        <qualifiedname>mrmeshpy.PolylineToVolumeParams._offsetof_dist</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46968" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46968" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PolylineToVolumeParams_1ace1ab3b25dd973d50d0154e1e77f1eee" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PolylineToVolumeParams::_offsetof_vol</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vol</name>
+        <qualifiedname>mrmeshpy.PolylineToVolumeParams._offsetof_vol</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46969" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToVolumeParams_1a0bbcbf6bf9c0dd1d9494ec2037cdcd5f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToVolumeParams.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineToVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46974" bodyend="46975"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToVolumeParams_1af10d32c78ba3d79a7ad0a5eb9c490166" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineToVolumeParams" kindref="compound">PolylineToVolumeParams</ref></type>
+        <definition> PolylineToVolumeParams mrmeshpy.PolylineToVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineToVolumeParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46978" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46978" bodyend="46979"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToVolumeParams_1af10d32c78ba3d79a7ad0a5eb9c490166" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PolylineToVolumeParams" kindref="compound">PolylineToVolumeParams</ref></type>
+        <definition> PolylineToVolumeParams mrmeshpy.PolylineToVolumeParams.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PolylineToVolumeParams.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46982" bodyend="46983"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToVolumeParams_1a540c3d561e86055d6eef079d828b5b95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToVolumeParams.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineToVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46985" bodyend="46986"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToVolumeParams_1aacbed0ffbc603fff58149ff174aa0998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToVolumeParams.__init__</definition>
+        <argsstring>(self, PolylineToVolumeParams arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineToVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PolylineToVolumeParams" kindref="compound">PolylineToVolumeParams</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46988" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46988" bodyend="46991"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PolylineToVolumeParams_1a24f39f30ea03b71566f8c5d4c2c7ca9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PolylineToVolumeParams.__init__</definition>
+        <argsstring>(self, DistanceVolumeParams vol, DistanceToMeshOptions dist)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PolylineToVolumeParams.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceVolumeParams" kindref="compound">DistanceVolumeParams</ref></type>
+          <declname>vol</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DistanceToMeshOptions" kindref="compound">DistanceToMeshOptions</ref></type>
+          <declname>dist</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46993" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46993" bodyend="46996"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PolylineToVolumeParams
+
+Settings to conversion polyline to volume
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PolylineToVolumeParams</label>
+        <link refid="classmrmeshpy_1_1PolylineToVolumeParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dist</edgelabel>
+          <edgelabel>_offsetof_vol</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="46962" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="46962" bodyend="46996"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PolylineToVolumeParams_1a0bbcbf6bf9c0dd1d9494ec2037cdcd5f" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToVolumeParams_1a540c3d561e86055d6eef079d828b5b95" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToVolumeParams_1aacbed0ffbc603fff58149ff174aa0998" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToVolumeParams_1a24f39f30ea03b71566f8c5d4c2c7ca9d" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToVolumeParams</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToVolumeParams_1a0af512291413299ad37b090b27d3d8e2" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineToVolumeParams</scope><name>_offsetof_dist</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToVolumeParams_1ace1ab3b25dd973d50d0154e1e77f1eee" prot="protected" virt="non-virtual"><scope>mrmeshpy::PolylineToVolumeParams</scope><name>_offsetof_vol</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToVolumeParams_1af10d32c78ba3d79a7ad0a5eb9c490166" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToVolumeParams</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PolylineToVolumeParams_1af10d32c78ba3d79a7ad0a5eb9c490166" prot="public" virt="non-virtual"><scope>mrmeshpy::PolylineToVolumeParams</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

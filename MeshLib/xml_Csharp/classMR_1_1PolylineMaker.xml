@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PolylineMaker" kind="class" language="C#" prot="public">
+    <compoundname>MR::PolylineMaker</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_PolylineMaker</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PolylineMaker_1a6e70487da20a3b420029df7d3bf75e2a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineMaker.PolylineMaker</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>PolylineMaker</name>
+        <qualifiedname>MR.PolylineMaker.PolylineMaker</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="876" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="876" bodyend="880"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PolylineMaker_1a5f2b3eaf22e7022cb177fcbe4764d27c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineMaker.PolylineMaker</definition>
+        <argsstring>(MR.Const_PolylineMaker _other)</argsstring>
+        <name>PolylineMaker</name>
+        <qualifiedname>MR.PolylineMaker.PolylineMaker</qualifiedname>
+        <param>
+          <type>MR.Const_PolylineMaker</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PolylineMaker.PolylineMaker</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="886" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="886" bodyend="893"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineMaker_1ac7b9510f2b1c008792f36fd58e515ba2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PolylineMaker.PolylineMaker</definition>
+        <argsstring>(PolylineMaker _other)</argsstring>
+        <name>PolylineMaker</name>
+        <qualifiedname>MR.PolylineMaker.PolylineMaker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineMaker" kindref="compound">PolylineMaker</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PolylineMaker.PolylineMaker</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="898" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="898" bodyend="898"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineMaker_1a7e6e2e421f520b268a693f34b4b1827e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PolylineMaker.PolylineMaker</definition>
+        <argsstring>(MR.PolylineTopology t)</argsstring>
+        <name>PolylineMaker</name>
+        <qualifiedname>MR.PolylineMaker.PolylineMaker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineTopology" kindref="compound">MR.PolylineTopology</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PolylineMaker.PolylineMaker</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="903" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="903" bodyend="910"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineMaker_1a899133810f9d230cf5ed16a663100780" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.PolylineMaker.start</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>start</name>
+        <qualifiedname>MR.PolylineMaker.start</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>creates first edge of polyline </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>first vertex of the polyline Generated from method <computeroutput><ref refid="classMR_1_1PolylineMaker_1a899133810f9d230cf5ed16a663100780" kindref="member">MR.PolylineMaker.start</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="922" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="922" bodyend="927"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineMaker_1af691a8fb0cf72fff5bfd674a4fbe6c79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="structMR_1_1EdgeId" kindref="compound">MR.EdgeId</ref></type>
+        <definition>unsafe MR.EdgeId MR.PolylineMaker.proceed</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>proceed</name>
+        <qualifiedname>MR.PolylineMaker.proceed</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>makes next edge of polyline </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>v</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>next vertex of the polyline Generated from method <computeroutput><ref refid="classMR_1_1PolylineMaker_1af691a8fb0cf72fff5bfd674a4fbe6c79" kindref="member">MR.PolylineMaker.proceed</ref></computeroutput>. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="934" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="934" bodyend="939"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineMaker_1a3952edf1d75c0a65c17df9a9f478c2c7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PolylineMaker.close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <qualifiedname>MR.PolylineMaker.close</qualifiedname>
+        <briefdescription>
+<para>closes the polyline Generated from method <computeroutput><ref refid="classMR_1_1PolylineMaker_1a3952edf1d75c0a65c17df9a9f478c2c7" kindref="member">MR.PolylineMaker.close</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="945" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="945" bodyend="950"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PolylineMaker_1aed58b71de61751c6337bfdad0e99cdec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.PolylineMaker.finishOpen</definition>
+        <argsstring>(MR.VertId v)</argsstring>
+        <name>finishOpen</name>
+        <qualifiedname>MR.PolylineMaker.finishOpen</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+<para>finishes the polyline adding final vertex in it Generated from method <computeroutput><ref refid="classMR_1_1PolylineMaker_1aed58b71de61751c6337bfdad0e99cdec" kindref="member">MR.PolylineMaker.finishOpen</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="956" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="956" bodyend="961"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1PolylineMaker_1a4ecb70c3e0427effbde5957da9bee29a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.PolylineMaker.operator PolylineMaker</definition>
+        <argsstring>(MR.PolylineTopology t)</argsstring>
+        <name>operator PolylineMaker</name>
+        <qualifiedname>MR.PolylineMaker.operator PolylineMaker</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PolylineTopology" kindref="compound">MR.PolylineTopology</ref></type>
+          <declname>t</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PolylineMaker.PolylineMaker</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="915" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="915" bodyend="915"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>simplifies construction of connected polyline in the topology Generated from class <computeroutput><ref refid="classMR_1_1PolylineMaker" kindref="compound">MR.PolylineMaker</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_PolylineMaker</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PolylineMaker</label>
+        <link refid="classMR_1_1PolylineMaker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PolylineMaker &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_PolylineMaker</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PolylineMaker</label>
+        <link refid="classMR_1_1PolylineMaker"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_PolylineMaker &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" line="872" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRPolylineTopology.cs" bodystart="873" bodyend="962"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PolylineMaker_1a3952edf1d75c0a65c17df9a9f478c2c7" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>close</name></member>
+      <member refid="classMR_1_1PolylineMaker_1aed58b71de61751c6337bfdad0e99cdec" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>finishOpen</name></member>
+      <member refid="classMR_1_1PolylineMaker_1a4ecb70c3e0427effbde5957da9bee29a" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>operator PolylineMaker</name></member>
+      <member refid="classMR_1_1PolylineMaker_1a6e70487da20a3b420029df7d3bf75e2a" prot="package" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>PolylineMaker</name></member>
+      <member refid="classMR_1_1PolylineMaker_1a5f2b3eaf22e7022cb177fcbe4764d27c" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>PolylineMaker</name></member>
+      <member refid="classMR_1_1PolylineMaker_1ac7b9510f2b1c008792f36fd58e515ba2" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>PolylineMaker</name></member>
+      <member refid="classMR_1_1PolylineMaker_1a7e6e2e421f520b268a693f34b4b1827e" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>PolylineMaker</name></member>
+      <member refid="classMR_1_1PolylineMaker_1af691a8fb0cf72fff5bfd674a4fbe6c79" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>proceed</name></member>
+      <member refid="classMR_1_1PolylineMaker_1a899133810f9d230cf5ed16a663100780" prot="public" virt="non-virtual"><scope>MR::PolylineMaker</scope><name>start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,482 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ConstBox__PixelId" kind="class" language="C#" prot="public">
+    <compoundname>MR::ConstBox_PixelId</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR::Misc::Object&lt; ConstBox_PixelId &gt;</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System.IDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">System::IEquatable&lt; MR.PixelId &gt;</basecompoundref>
+    <derivedcompoundref refid="classMR_1_1Box__PixelId" prot="public" virt="non-virtual">MR.Box_PixelId</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ConstBox__PixelId_1a0cabff3b29d4dd0d207a88d2f3af02a8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ref readonly int</type>
+        <definition>ref readonly int MR.ConstBox_PixelId.id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <qualifiedname>MR.ConstBox_PixelId.id</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2107" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2107" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1aa26524b12dedf8035eabc1a3b91cee6b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>unsafe void</type>
+        <definition>virtual unsafe void MR.ConstBox_PixelId.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_PixelId.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2097" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2097" bodyend="2103"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a0b759b58a785c7bb5caa78f588b209d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void MR.ConstBox_PixelId.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>MR.ConstBox_PixelId.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2104" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2104" bodyend="2104"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a1dfefa3552b50ef97c82fe631064f49c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_PixelId.ConstBox_PixelId</definition>
+        <argsstring>(PixelId other)</argsstring>
+        <name>ConstBox_PixelId</name>
+        <qualifiedname>MR.ConstBox_PixelId.ConstBox_PixelId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Make a copy of a struct. (Even though we initially pass <computeroutput>is_owning: false</computeroutput>, we then use the copy constructor to produce an owning instance.) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2112" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2112" bodyend="2112"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a944721791d33bc7322f83df7a140f0a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_PixelId.ConstBox_PixelId</definition>
+        <argsstring>(ConstBox_PixelId _other)</argsstring>
+        <name>ConstBox_PixelId</name>
+        <qualifiedname>MR.ConstBox_PixelId.ConstBox_PixelId</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__PixelId" kindref="compound">ConstBox_PixelId</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2123" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2123" bodyend="2127"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1af6bde4cec7c678b370b9e3925e611df3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_PixelId.ConstBox_PixelId</definition>
+        <argsstring>()</argsstring>
+        <name>ConstBox_PixelId</name>
+        <qualifiedname>MR.ConstBox_PixelId.ConstBox_PixelId</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2132" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2132" bodyend="2138"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a28968eb78949a8b90ec994d7e13763e3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_PixelId.ConstBox_PixelId</definition>
+        <argsstring>(MR.Const_NoInit _1)</argsstring>
+        <name>ConstBox_PixelId</name>
+        <qualifiedname>MR.ConstBox_PixelId.ConstBox_PixelId</qualifiedname>
+        <param>
+          <type>MR.Const_NoInit</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1PixelId_1a05c597e9fe83f0eb67683f1ec85bb566" kindref="member">MR.PixelId.PixelId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2143" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2143" bodyend="2150"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1afa19a392aef0ba2e4469f4c5d9fc1256" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_PixelId.ConstBox_PixelId</definition>
+        <argsstring>(int i)</argsstring>
+        <name>ConstBox_PixelId</name>
+        <qualifiedname>MR.ConstBox_PixelId.ConstBox_PixelId</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput><ref refid="structMR_1_1PixelId_1a05c597e9fe83f0eb67683f1ec85bb566" kindref="member">MR.PixelId.PixelId</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2162" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2162" bodyend="2168"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a1208ac75917ca4fa4974bd1703ebd6e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_PixelId.valid</definition>
+        <argsstring>()</argsstring>
+        <name>valid</name>
+        <qualifiedname>MR.ConstBox_PixelId.valid</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="structMR_1_1PixelId_1ac893455a03b18ac680ec5e6b3ac6d1f1" kindref="member">MR.PixelId.valid</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2193" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2193" bodyend="2198"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a8665f2b55792931dfb4e717ce69dcb79" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ConstBox_PixelId.less</definition>
+        <argsstring>(MR.PixelId b)</argsstring>
+        <name>less</name>
+        <qualifiedname>MR.ConstBox_PixelId.less</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PixelId.operator&lt;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2218" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2218" bodyend="2223"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a5b3b5e8c75a964709f3d3e1349bb1f1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool MR.ConstBox_PixelId.Equals</definition>
+        <argsstring>(MR.PixelId b)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_PixelId.Equals</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2251" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2251" bodyend="2254"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1ae955b460df94403db78067037e43a731" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool MR.ConstBox_PixelId.Equals</definition>
+        <argsstring>(object? other)</argsstring>
+        <name>Equals</name>
+        <qualifiedname>MR.ConstBox_PixelId.Equals</qualifiedname>
+        <param>
+          <type>object?</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2256" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2256" bodyend="2263"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a2e5b4187ab6fd9a8877cf30e9c94c37e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ConstBox_PixelId.~ConstBox_PixelId</definition>
+        <argsstring>()</argsstring>
+        <name>~ConstBox_PixelId</name>
+        <qualifiedname>MR.ConstBox_PixelId.~ConstBox_PixelId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2105" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2105" bodyend="2105"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1ae84b64e5d0e4d63611bdee3ba1676175" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>implicit</type>
+        <definition>static implicit MR.ConstBox_PixelId.operator ConstBox_PixelId</definition>
+        <argsstring>(PixelId other)</argsstring>
+        <name>operator ConstBox_PixelId</name>
+        <qualifiedname>MR.ConstBox_PixelId.operator ConstBox_PixelId</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1PixelId" kindref="compound">PixelId</ref></type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+<para>Convert from a struct by copying it. Note that only <computeroutput><ref refid="classMR_1_1ConstBox__PixelId" kindref="compound">ConstBox_PixelId</ref></computeroutput> has this conversion, <computeroutput><ref refid="classMR_1_1Box__PixelId" kindref="compound">Box_PixelId</ref></computeroutput> intentionally doesn&apos;t. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2116" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2116" bodyend="2116"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a14ec8f4bd1c8694a8eb3d860cc36db85" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ConstBox_PixelId.operator int</definition>
+        <argsstring>(MR.ConstBox_PixelId _this)</argsstring>
+        <name>operator int</name>
+        <qualifiedname>MR.ConstBox_PixelId.operator int</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__PixelId" kindref="compound">MR.ConstBox_PixelId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.PixelId.operator int</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2173" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2173" bodyend="2178"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1ab7012c37751edba465c5d478d67ba9b0" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ConstBox_PixelId.operator bool</definition>
+        <argsstring>(MR.ConstBox_PixelId _this)</argsstring>
+        <name>operator bool</name>
+        <qualifiedname>MR.ConstBox_PixelId.operator bool</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__PixelId" kindref="compound">MR.ConstBox_PixelId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.PixelId.operator bool</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2183" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2183" bodyend="2188"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a9760f23c11ee6dfed747562227f58d96" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_PixelId.operator==</definition>
+        <argsstring>(MR.ConstBox_PixelId _this, MR.PixelId b)</argsstring>
+        <name>operator==</name>
+        <qualifiedname>MR.ConstBox_PixelId.operator==</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__PixelId" kindref="compound">MR.ConstBox_PixelId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PixelId.operator==</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2203" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2203" bodyend="2208"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1ae9c1cfd00ecfde26f9d98f93135cfd39" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>static unsafe bool MR.ConstBox_PixelId.operator!=</definition>
+        <argsstring>(MR.ConstBox_PixelId _this, MR.PixelId b)</argsstring>
+        <name>operator!=</name>
+        <qualifiedname>MR.ConstBox_PixelId.operator!=</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__PixelId" kindref="compound">MR.ConstBox_PixelId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2210" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2210" bodyend="2213"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1aeef40ee2271d0e66c565aeee0cd8fa5e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__PixelId" kindref="compound">Box_PixelId</ref></type>
+        <definition>static unsafe Box_PixelId MR.ConstBox_PixelId.operator--</definition>
+        <argsstring>(MR.ConstBox_PixelId _this)</argsstring>
+        <name>operator--</name>
+        <qualifiedname>MR.ConstBox_PixelId.operator--</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__PixelId" kindref="compound">MR.ConstBox_PixelId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PixelId.operator--</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2228" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2228" bodyend="2235"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a1bddf1d00bb376501cd52813e70fef1c" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1Box__PixelId" kindref="compound">Box_PixelId</ref></type>
+        <definition>static unsafe Box_PixelId MR.ConstBox_PixelId.operator++</definition>
+        <argsstring>(MR.ConstBox_PixelId _this)</argsstring>
+        <name>operator++</name>
+        <qualifiedname>MR.ConstBox_PixelId.operator++</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ConstBox__PixelId" kindref="compound">MR.ConstBox_PixelId</ref></type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PixelId.operator++</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2240" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2240" bodyend="2247"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ConstBox__PixelId_1a4ab58808b22f2d33d4407fc9e2919c6f" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ConstBox_PixelId.ConstBox_PixelId</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ConstBox_PixelId</name>
+        <qualifiedname>MR.ConstBox_PixelId.ConstBox_PixelId</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2118" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2118" bodyend="2118"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref></computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR.NoDefInit&lt;<ref refid="structMR_1_1PixelId" kindref="compound">MR.PixelId</ref>&gt;</computeroutput> This is the const reference to the struct. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR.ConstBox_PixelId</label>
+        <link refid="classMR_1_1ConstBox__PixelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR.Box_PixelId</label>
+        <link refid="classMR_1_1Box__PixelId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Misc::Object&lt; ConstBox_PixelId &gt;</label>
+      </node>
+      <node id="3">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System::IEquatable&lt; MR.PixelId &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR.ConstBox_PixelId</label>
+        <link refid="classMR_1_1ConstBox__PixelId"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Misc::Object&lt; ConstBox_PixelId &gt;</label>
+      </node>
+      <node id="3">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="4">
+        <label>System::IEquatable&lt; MR.PixelId &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" line="2086" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRId.cs" bodystart="2087" bodyend="2264"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ConstBox__PixelId_1a1dfefa3552b50ef97c82fe631064f49c" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>ConstBox_PixelId</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a4ab58808b22f2d33d4407fc9e2919c6f" prot="package" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>ConstBox_PixelId</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a944721791d33bc7322f83df7a140f0a4" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>ConstBox_PixelId</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1af6bde4cec7c678b370b9e3925e611df3" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>ConstBox_PixelId</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a28968eb78949a8b90ec994d7e13763e3" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>ConstBox_PixelId</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1afa19a392aef0ba2e4469f4c5d9fc1256" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>ConstBox_PixelId</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1aa26524b12dedf8035eabc1a3b91cee6b" prot="protected" virt="virtual"><scope>MR::ConstBox_PixelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a0b759b58a785c7bb5caa78f588b209d4" prot="public" virt="virtual"><scope>MR::ConstBox_PixelId</scope><name>Dispose</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a5b3b5e8c75a964709f3d3e1349bb1f1e" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1ae955b460df94403db78067037e43a731" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>Equals</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a0cabff3b29d4dd0d207a88d2f3af02a8" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>id</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a8665f2b55792931dfb4e717ce69dcb79" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>less</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1ab7012c37751edba465c5d478d67ba9b0" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>operator bool</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1ae84b64e5d0e4d63611bdee3ba1676175" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>operator ConstBox_PixelId</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a14ec8f4bd1c8694a8eb3d860cc36db85" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>operator int</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1ae9c1cfd00ecfde26f9d98f93135cfd39" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>operator!=</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a1bddf1d00bb376501cd52813e70fef1c" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>operator++</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1aeef40ee2271d0e66c565aeee0cd8fa5e" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>operator--</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a9760f23c11ee6dfed747562227f58d96" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>operator==</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a1208ac75917ca4fa4974bd1703ebd6e0" prot="public" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>valid</name></member>
+      <member refid="classMR_1_1ConstBox__PixelId_1a2e5b4187ab6fd9a8877cf30e9c94c37e" prot="private" virt="non-virtual"><scope>MR::ConstBox_PixelId</scope><name>~ConstBox_PixelId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

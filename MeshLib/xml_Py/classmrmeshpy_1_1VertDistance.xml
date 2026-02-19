@@ -1,0 +1,294 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1VertDistance" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::VertDistance</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertDistance_1a2644b8500bdbb32d4bafc6a2fc08f85a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertDistance::_offsetof_distance</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_distance</name>
+        <qualifiedname>mrmeshpy.VertDistance._offsetof_distance</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70872" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1VertDistance_1ab3d5e7bc3012b7a719f662b89bd61074" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.VertDistance::_offsetof_vert</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vert</name>
+        <qualifiedname>mrmeshpy.VertDistance._offsetof_vert</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70873" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70873" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1a67c2780eaf27a2413a31bdae76fefbcc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertDistance.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertDistance.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70876" bodyend="70877"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1a3a6cb0d4087af22e3d718ca696e0ac4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertDistance" kindref="compound">VertDistance</ref></type>
+        <definition> VertDistance mrmeshpy.VertDistance.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertDistance.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70880" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70880" bodyend="70881"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1a3a6cb0d4087af22e3d718ca696e0ac4e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertDistance" kindref="compound">VertDistance</ref></type>
+        <definition> VertDistance mrmeshpy.VertDistance.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.VertDistance.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70884" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70884" bodyend="70885"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1ae680eea9ade09fa0561cb6902b337d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertDistance.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertDistance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70887" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70887" bodyend="70888"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1a443e3fa43290e2bebefc5be1349e6f9b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertDistance.__init__</definition>
+        <argsstring>(self, VertId v, float d)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertDistance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70890" bodyend="70891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1a2ef20b7af50a57cf23128b61622fdb9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertDistance.__init__</definition>
+        <argsstring>(self, VertDistance arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.VertDistance.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertDistance" kindref="compound">VertDistance</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70893" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70893" bodyend="70896"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1afe5da08068fe2636ba2fc6f84e797852" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.VertDistance.distance</definition>
+        <argsstring>(self)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.VertDistance.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>best known distance to reach this vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70898" bodyend="70901"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1a88882b686b000a213198ee1ba26485c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertDistance.distance</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>distance</name>
+        <qualifiedname>mrmeshpy.VertDistance.distance</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70903" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70903" bodyend="70904"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1a9d1c1e4b1deecb44f074ec88dcae12ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.VertDistance.vert</definition>
+        <argsstring>(self)</argsstring>
+        <name>vert</name>
+        <qualifiedname>mrmeshpy.VertDistance.vert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>vertex in question
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70906" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70906" bodyend="70909"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1VertDistance_1a30e8c258cb7f73584ad246fe8a8a6ee1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.VertDistance.vert</definition>
+        <argsstring>(self, VertId arg1)</argsstring>
+        <name>vert</name>
+        <qualifiedname>mrmeshpy.VertDistance.vert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70911" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70911" bodyend="70912"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::VertDistance
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.VertDistance</label>
+        <link refid="classmrmeshpy_1_1VertDistance"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_distance</edgelabel>
+          <edgelabel>_offsetof_vert</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="70868" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="70868" bodyend="70912"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1VertDistance_1a67c2780eaf27a2413a31bdae76fefbcc" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1ae680eea9ade09fa0561cb6902b337d4d" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1a443e3fa43290e2bebefc5be1349e6f9b" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1a2ef20b7af50a57cf23128b61622fdb9c" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1a2644b8500bdbb32d4bafc6a2fc08f85a" prot="protected" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>_offsetof_distance</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1ab3d5e7bc3012b7a719f662b89bd61074" prot="protected" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>_offsetof_vert</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1afe5da08068fe2636ba2fc6f84e797852" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1a88882b686b000a213198ee1ba26485c8" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>distance</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1a3a6cb0d4087af22e3d718ca696e0ac4e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1a3a6cb0d4087af22e3d718ca696e0ac4e" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1a9d1c1e4b1deecb44f074ec88dcae12ba" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>vert</name></member>
+      <member refid="classmrmeshpy_1_1VertDistance_1a30e8c258cb7f73584ad246fe8a8a6ee1" prot="public" virt="non-virtual"><scope>mrmeshpy::VertDistance</scope><name>vert</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

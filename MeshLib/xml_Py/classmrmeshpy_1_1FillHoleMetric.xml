@@ -1,0 +1,374 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FillHoleMetric" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FillHoleMetric</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleMetric_1aa0b6a297f5a5c2ff0b3e1575945c40a1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleMetric::_offsetof_combineMetric</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_combineMetric</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric._offsetof_combineMetric</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19154" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleMetric_1a3b5ecb08ddc72cc7cef74837365350d9" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleMetric::_offsetof_edgeMetric</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_edgeMetric</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric._offsetof_edgeMetric</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FillHoleMetric_1a5f972b1c1d4d58b2833d60d7599d8a94" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FillHoleMetric::_offsetof_triangleMetric</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_triangleMetric</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric._offsetof_triangleMetric</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19156" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1a59829cb7a18788ab837cbc7880ed2930" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleMetric.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19159" bodyend="19160"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1ac61d9d0e0a3d8582852d00eed9b622d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+        <definition> FillHoleMetric mrmeshpy.FillHoleMetric.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19163" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19163" bodyend="19164"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1ac61d9d0e0a3d8582852d00eed9b622d4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+        <definition> FillHoleMetric mrmeshpy.FillHoleMetric.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19167" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19167" bodyend="19168"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1a54fc602f240c352bd2a0de1a33f97d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleMetric.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19170" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19170" bodyend="19171"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1a0ec95b1a0ddca5f7705b28274a5c84ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleMetric.__init__</definition>
+        <argsstring>(self, FillHoleMetric arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FillHoleMetric" kindref="compound">FillHoleMetric</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19173" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19173" bodyend="19176"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1ab9ff65193216f127e91f18b0e0d8f1ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleMetric.__init__</definition>
+        <argsstring>(self, func_double_from_Id_VertTag_Id_VertTag_Id_VertTag triangleMetric, func_double_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag edgeMetric, func_double_from_double_double combineMetric)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag" kindref="compound">func_double_from_Id_VertTag_Id_VertTag_Id_VertTag</ref></type>
+          <declname>triangleMetric</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag" kindref="compound">func_double_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag</ref></type>
+          <declname>edgeMetric</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__double__from__double__double" kindref="compound">func_double_from_double_double</ref></type>
+          <declname>combineMetric</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19178" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19178" bodyend="19181"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1a9895681249cef2741f894503b75ced57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__double__from__double__double" kindref="compound">func_double_from_double_double</ref></type>
+        <definition> func_double_from_double_double mrmeshpy.FillHoleMetric.combineMetric</definition>
+        <argsstring>(self)</argsstring>
+        <name>combineMetric</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.combineMetric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>is called to combine metrics from different candidates, if it is not set it just summarizes input
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19183" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19183" bodyend="19186"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1ad972d42c449d134becdb289e4d15f10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleMetric.combineMetric</definition>
+        <argsstring>(self, func_double_from_double_double arg1)</argsstring>
+        <name>combineMetric</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.combineMetric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__double__from__double__double" kindref="compound">func_double_from_double_double</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19188" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19188" bodyend="19189"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1ab6e056f190687f0e014e7f5096c402fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag" kindref="compound">func_double_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag</ref></type>
+        <definition> func_double_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag mrmeshpy.FillHoleMetric.edgeMetric</definition>
+        <argsstring>(self)</argsstring>
+        <name>edgeMetric</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.edgeMetric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>is called for each edge, if it is set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19191" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19191" bodyend="19194"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1a5d32c27c46d4d76093073157f797d7ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleMetric.edgeMetric</definition>
+        <argsstring>(self, func_double_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag arg1)</argsstring>
+        <name>edgeMetric</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.edgeMetric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag__Id__VertTag" kindref="compound">func_double_from_Id_VertTag_Id_VertTag_Id_VertTag_Id_VertTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19196" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19196" bodyend="19197"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1ae8604c7620c9ab3e34e4290f8af32cc0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag" kindref="compound">func_double_from_Id_VertTag_Id_VertTag_Id_VertTag</ref></type>
+        <definition> func_double_from_Id_VertTag_Id_VertTag_Id_VertTag mrmeshpy.FillHoleMetric.triangleMetric</definition>
+        <argsstring>(self)</argsstring>
+        <name>triangleMetric</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.triangleMetric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>is called for each triangle, if it is set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19199" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19199" bodyend="19202"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FillHoleMetric_1a9b6d10a79ee89bd4b8b366cb58f23b35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FillHoleMetric.triangleMetric</definition>
+        <argsstring>(self, func_double_from_Id_VertTag_Id_VertTag_Id_VertTag arg1)</argsstring>
+        <name>triangleMetric</name>
+        <qualifiedname>mrmeshpy.FillHoleMetric.triangleMetric</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__double__from__Id__VertTag__Id__VertTag__Id__VertTag" kindref="compound">func_double_from_Id_VertTag_Id_VertTag_Id_VertTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19204" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19204" bodyend="19205"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::FillHoleMetric
+
+\\struct MR::FillHoleMetric
+\\brief Holds metrics for fillHole and buildCylinderBetweenTwoHoles triangulation\\n
+
+This is struct used as optimization metric of fillHole and buildCylinderBetweenTwoHoles functions\\n
+
+\\sa \\ref getCircumscribedMetric
+\\sa \\ref getPlaneFillMetric
+\\sa \\ref getEdgeLengthFillMetric
+\\sa \\ref getEdgeLengthStitchMetric
+\\sa \\ref getComplexStitchMetric
+\\sa \\ref fillHole
+\\sa \\ref buildCylinderBetweenTwoHoles
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FillHoleMetric</label>
+        <link refid="classmrmeshpy_1_1FillHoleMetric"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_combineMetric</edgelabel>
+          <edgelabel>_offsetof_edgeMetric</edgelabel>
+          <edgelabel>_offsetof_triangleMetric</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19137" bodyend="19205"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1a59829cb7a18788ab837cbc7880ed2930" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1a54fc602f240c352bd2a0de1a33f97d78" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1a0ec95b1a0ddca5f7705b28274a5c84ce" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1ab9ff65193216f127e91f18b0e0d8f1ab" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1aa0b6a297f5a5c2ff0b3e1575945c40a1" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>_offsetof_combineMetric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1a3b5ecb08ddc72cc7cef74837365350d9" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>_offsetof_edgeMetric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1a5f972b1c1d4d58b2833d60d7599d8a94" prot="protected" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>_offsetof_triangleMetric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1a9895681249cef2741f894503b75ced57" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>combineMetric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1ad972d42c449d134becdb289e4d15f10d" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>combineMetric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1ab6e056f190687f0e014e7f5096c402fb" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>edgeMetric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1a5d32c27c46d4d76093073157f797d7ae" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>edgeMetric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1ac61d9d0e0a3d8582852d00eed9b622d4" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1ac61d9d0e0a3d8582852d00eed9b622d4" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1ae8604c7620c9ab3e34e4290f8af32cc0" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>triangleMetric</name></member>
+      <member refid="classmrmeshpy_1_1FillHoleMetric_1a9b6d10a79ee89bd4b8b366cb58f23b35" prot="public" virt="non-virtual"><scope>mrmeshpy::FillHoleMetric</scope><name>triangleMetric</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ParallelProgressReporter_1_1TaskInfo" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ParallelProgressReporter::TaskInfo</compoundname>
+    <includes refid="MRParallelProgressReporter_8h" local="no">MRParallelProgressReporter.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gac403be6e3ac709c662c40970228491b6" kind="variable"><name>progress</name></member>
+      <member refid="group__GeneralGroup_1ga276059ffbe521f7edd753194e8ed98e2" kind="variable"><name>weight</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" line="25" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRParallelProgressReporter.h" bodystart="26" bodyend="29"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac403be6e3ac709c662c40970228491b6" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::TaskInfo</scope><name>progress</name></member>
+      <member refid="group__GeneralGroup_1ga276059ffbe521f7edd753194e8ed98e2" prot="public" virt="non-virtual"><scope>MR::ParallelProgressReporter::TaskInfo</scope><name>weight</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

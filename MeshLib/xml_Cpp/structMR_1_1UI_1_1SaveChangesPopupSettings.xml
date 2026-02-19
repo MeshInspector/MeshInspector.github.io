@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1SaveChangesPopupSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::SaveChangesPopupSettings</compoundname>
+    <includes refid="MRUISaveChangesPopup_8h" local="no">MRUISaveChangesPopup.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga6cd2f6a77d991bb28d74320269e1c849" kind="variable"><name>shortCloseText</name></member>
+      <member refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" kind="variable"><name>dontSaveText</name></member>
+      <member refid="group__GeneralGroup_1ga5fb9895320349dc61434ad43c17fd24a" kind="variable"><name>saveTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga970fa69e216b42f681e9af3c57aee477" kind="variable"><name>dontSaveTooltip</name></member>
+      <member refid="group__GeneralGroup_1gabf35d4bb097cddcc6c3ecb5bb79c1398" kind="variable"><name>cancelTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga229fd015ed069a04dae134c45b2ed91d" kind="variable"><name>header</name></member>
+      <member refid="group__GeneralGroup_1gad890dd1aa255baed72ae0c64e0006c66" kind="variable"><name>onOk</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUISaveChangesPopup.h" bodystart="18" bodyend="31"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gabf35d4bb097cddcc6c3ecb5bb79c1398" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>cancelTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga1ddd1fee272b8d5ab0de85e419cc5c9c" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>dontSaveText</name></member>
+      <member refid="group__GeneralGroup_1ga970fa69e216b42f681e9af3c57aee477" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>dontSaveTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga229fd015ed069a04dae134c45b2ed91d" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>header</name></member>
+      <member refid="group__GeneralGroup_1gad890dd1aa255baed72ae0c64e0006c66" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>onOk</name></member>
+      <member refid="group__GeneralGroup_1ga5fb9895320349dc61434ad43c17fd24a" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>saveTooltip</name></member>
+      <member refid="group__GeneralGroup_1ga6cd2f6a77d991bb28d74320269e1c849" prot="public" virt="non-virtual"><scope>MR::UI::SaveChangesPopupSettings</scope><name>shortCloseText</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

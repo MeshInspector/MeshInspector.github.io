@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AddVisualProperties" kind="class" language="C++" prot="public">
+    <compoundname>MR::AddVisualProperties</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">BaseObjectType</basecompoundref>
+    <includes refid="MRAddVisualPropertiesMixin_8h" local="no">MRAddVisualPropertiesMixin.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename BaseObjectType</type>
+      </param>
+      <param>
+        <type>auto ...</type>
+        <declname>Properties</declname>
+        <defname>Properties</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="protected-attrib">
+      <member refid="group__GeneralGroup_1ga534fe1b7809ccb50abd437a88b6c1412" kind="variable"><name>propertyMasks_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga06796f32f035d58e6a320f35f1845cf1" kind="function"><name>supportsVisualizeProperty</name></member>
+      <member refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554" kind="function"><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1" kind="function"><name>getVisualizePropertyMask</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd" kind="function"><name>setAllVisualizeProperties_</name></member>
+    </sectiondef>
+    <requiresclause>( <ref refid="structMR_1_1IsVisualizeMaskEnum" kindref="compound">IsVisualizeMaskEnum</ref>&lt;decltype(Properties)&gt;::value &amp;&amp; ... )    </requiresclause>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Inherits from a datamodel object, adding some visual property masks to it. <computeroutput>BaseObjectType</computeroutput> is the datamodel type to inherit from. <computeroutput>Properties...</computeroutput> is the list of properties to add. Each must be a value from a enum marked as <computeroutput><ref refid="structMR_1_1IsVisualizeMaskEnum" kindref="compound">IsVisualizeMaskEnum</ref></computeroutput>. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseObjectType</label>
+      </node>
+      <node id="1">
+        <label>MR::AddVisualProperties&lt; BaseObjectType, Properties &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseObjectType</label>
+      </node>
+      <node id="1">
+        <label>MR::AddVisualProperties&lt; BaseObjectType, Properties &gt;</label>
+        <link refid="classMR_1_1AddVisualProperties"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddVisualPropertiesMixin.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAddVisualPropertiesMixin.h" bodystart="17" bodyend="59"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7fc99037212a4beaeec730ca98373554" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties</scope><name>getAllVisualizeProperties</name></member>
+      <member refid="group__GeneralGroup_1gaa7ce9ce8b54a5a131d54334b7ed26fb1" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties</scope><name>getVisualizePropertyMask</name></member>
+      <member refid="group__GeneralGroup_1ga534fe1b7809ccb50abd437a88b6c1412" prot="protected" virt="non-virtual"><scope>MR::AddVisualProperties</scope><name>propertyMasks_</name></member>
+      <member refid="group__GeneralGroup_1ga099d73dfec242eced929d4f4705c90fd" prot="protected" virt="non-virtual"><scope>MR::AddVisualProperties</scope><name>setAllVisualizeProperties_</name></member>
+      <member refid="group__GeneralGroup_1ga06796f32f035d58e6a320f35f1845cf1" prot="public" virt="non-virtual"><scope>MR::AddVisualProperties</scope><name>supportsVisualizeProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

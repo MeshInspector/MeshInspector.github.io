@@ -5,11 +5,10 @@ var group__SurfacePathGroup =
     [ "Group Surface Distance Builder", "group__SurfaceDistanceBuilder.html", "group__SurfaceDistanceBuilder" ],
     [ "Surface Path", "group__SurfacePathSubgroup.html", "group__SurfacePathSubgroup" ],
     [ "Tunnel Detector", "group__TunnelDetectorGroup.html", "group__TunnelDetectorGroup" ],
-    [ "MR::VertPathInfo", "../Csharp/classMR_1_1VertPathInfo.html", [
-      [ "VertPathInfo", "../Csharp/classMR_1_1VertPathInfo.html#a94d80fe6367bb3a99586795a480e1bef", null ],
-      [ "VertPathInfo", "../Csharp/classMR_1_1VertPathInfo.html#af7a066be5ced20b7b5f0e3a72fd15b67", null ],
-      [ "VertPathInfo", "../Csharp/classMR_1_1VertPathInfo.html#ac96d8c5be408135d192cae093b9aee1a", null ],
-      [ "assign", "../Csharp/classMR_1_1VertPathInfo.html#a840312fb2466652448d24f4fe812e795", null ]
+    [ "MR::VertPathInfo", "structMR_1_1VertPathInfo.html", [
+      [ "isStart", "group__GeneralGroup.html#gaac45d884489c1a6b158869ce2fa4e940", null ],
+      [ "back", "group__GeneralGroup.html#ga7a3153da84d3b829b564f595cd7d7a7e", null ],
+      [ "metric", "group__GeneralGroup.html#ga2530c5bd3051baea96398e09ade9e59e", null ]
     ] ],
     [ "MR::addLeftBand", "group__SurfacePathGroup.html#gab0db7342678536825cb6b3bff51d832d", null ],
     [ "MR::buildShortestPath", "group__SurfacePathGroup.html#gadb0985d5186608aa8786111eead3c759", null ],
@@ -38,11 +37,12 @@ var group__SurfacePathGroup =
     [ "MR::discreteAbsMeanCurvatureMetric", "group__SurfacePathGroup.html#gac27bbe944fd04f789f1c1f0ad8455271", null ],
     [ "MR::discreteMinusAbsMeanCurvatureMetric", "group__SurfacePathGroup.html#ga8e15c502056407a36c6d495799f0aa7d", null ],
     [ "MR::discreteMinusAbsMeanCurvatureMetric", "group__SurfacePathGroup.html#gaa47002070e90f43a82f54ead62a1746f", null ],
+    [ "MR::edgeAbsCurvMetric", "group__SurfacePathGroup.html#gad21f6edd94bf386e087fa44863421357", null ],
+    [ "MR::edgeAbsCurvMetric", "group__SurfacePathGroup.html#ga7bcb3a4cdb884f47b198536773f19d73", null ],
     [ "MR::edgeCurvMetric", "group__SurfacePathGroup.html#ga215f966d7ad4e48210e0de178cb43a06", null ],
     [ "MR::edgeCurvMetric", "group__SurfacePathGroup.html#ga003755490808d2d716aa0de3c8f733b5", null ],
     [ "MR::edgeLengthMetric", "group__SurfacePathGroup.html#gab0c6bfd4f01e28a6c034a2195143e410", null ],
     [ "MR::edgeLengthMetric", "group__SurfacePathGroup.html#gad2fc71f60ff8cacbc0318077e2e28051", null ],
-    [ "MR::edgeTableMetric", "group__SurfacePathGroup.html#ga2182b04a7c6e0750621fd0d7de0685f2", null ],
     [ "MR::edgeTableSymMetric", "group__SurfacePathGroup.html#ga04e5ae2dd9a34149d37b4c31364b4b68", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#gab00d0047df6c6bddad2ce44ad87eecb0", null ],
     [ "MR::erodeRegion", "group__SurfacePathGroup.html#ga49b66a35e3e4f02f4034d338471be491", null ],

@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f" kind="class" language="C#" prot="public">
+    <compoundname>MR::AABBTreeTraits_MRFaceTag_MRBox3f</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</basecompoundref>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1adfa83b374fb1e39f5577b4df96dd813d" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreeTraits_MRFaceTag_MRBox3f.AABBTreeTraits_MRFaceTag_MRBox3f</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>AABBTreeTraits_MRFaceTag_MRBox3f</name>
+        <qualifiedname>MR.AABBTreeTraits_MRFaceTag_MRBox3f.AABBTreeTraits_MRFaceTag_MRBox3f</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="60" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1abca6f6675d2124d335ae4357ed4d1dc7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreeTraits_MRFaceTag_MRBox3f.AABBTreeTraits_MRFaceTag_MRBox3f</definition>
+        <argsstring>()</argsstring>
+        <name>AABBTreeTraits_MRFaceTag_MRBox3f</name>
+        <qualifiedname>MR.AABBTreeTraits_MRFaceTag_MRBox3f.AABBTreeTraits_MRFaceTag_MRBox3f</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="65" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="65" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1af2b904e6c5af812aeb080bb9aef8d15b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.AABBTreeTraits_MRFaceTag_MRBox3f.AABBTreeTraits_MRFaceTag_MRBox3f</definition>
+        <argsstring>(MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f _other)</argsstring>
+        <name>AABBTreeTraits_MRFaceTag_MRBox3f</name>
+        <qualifiedname>MR.AABBTreeTraits_MRFaceTag_MRBox3f.AABBTreeTraits_MRFaceTag_MRBox3f</qualifiedname>
+        <param>
+          <type>MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.AABBTreeTraits&lt;MR.FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;::AABBTreeTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="75" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="75" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1a3ba394d412447a4efcef62c9200141d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.AABBTreeTraits_MRFaceTag_MRBox3f.AABBTreeTraits_MRFaceTag_MRBox3f</definition>
+        <argsstring>(AABBTreeTraits_MRFaceTag_MRBox3f _other)</argsstring>
+        <name>AABBTreeTraits_MRFaceTag_MRBox3f</name>
+        <qualifiedname>MR.AABBTreeTraits_MRFaceTag_MRBox3f.AABBTreeTraits_MRFaceTag_MRBox3f</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f" kindref="compound">AABBTreeTraits_MRFaceTag_MRBox3f</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.AABBTreeTraits&lt;MR.FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;::AABBTreeTraits</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="86" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1a54a74dbb7178b5a49b70e26c05cba6b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f" kindref="compound">MR.AABBTreeTraits_MRFaceTag_MRBox3f</ref></type>
+        <definition>unsafe MR.AABBTreeTraits_MRFaceTag_MRBox3f MR.AABBTreeTraits_MRFaceTag_MRBox3f.assign</definition>
+        <argsstring>(MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.AABBTreeTraits_MRFaceTag_MRBox3f.assign</qualifiedname>
+        <param>
+          <type>MR.Const_AABBTreeTraits_MRFaceTag_MRBox3f</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.AABBTreeTraits&lt;MR.FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="91" column="58" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="91" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput>MR.AABBTreeTraits&lt;MR.FaceTag, <ref refid="structMR_1_1Box3f" kindref="compound">MR.Box3f</ref>&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_AABBTreeTraits_MRFaceTag_MRBox3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.AABBTreeTraits_MRFaceTag_MRBox3f</label>
+        <link refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_AABBTreeTraits_MRFaceTag_MRBox3f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_AABBTreeTraits_MRFaceTag_MRBox3f</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.AABBTreeTraits_MRFaceTag_MRBox3f</label>
+        <link refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_AABBTreeTraits_MRFaceTag_MRBox3f &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAABBTreeNode.cs" bodystart="59" bodyend="99"/>
+    <listofallmembers>
+      <member refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1adfa83b374fb1e39f5577b4df96dd813d" prot="package" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
+      <member refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1abca6f6675d2124d335ae4357ed4d1dc7" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
+      <member refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1af2b904e6c5af812aeb080bb9aef8d15b" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
+      <member refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1a3ba394d412447a4efcef62c9200141d6" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>AABBTreeTraits_MRFaceTag_MRBox3f</name></member>
+      <member refid="classMR_1_1AABBTreeTraits__MRFaceTag__MRBox3f_1a54a74dbb7178b5a49b70e26c05cba6b8" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits_MRFaceTag_MRBox3f</scope><name>assign</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

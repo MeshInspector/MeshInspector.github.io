@@ -1,4 +1,0 @@
-var classMR_1_1__InOptConst__Vector__MRWatershedGraphBasinInfo__MRGraphVertId =
-[
-    [ "operator _InOptConst_Vector_MRWatershedGraphBasinInfo_MRGraphVertId", "classMR_1_1__InOptConst__Vector__MRWatershedGraphBasinInfo__MRGraphVertId.html#a27c983e32e1990120bd0d41bdb8aaa05", null ]
-];

@@ -1,0 +1,665 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshTriPoint" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshTriPoint</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshTriPoint_1ab590c6881de28b93f49fcb96327c5eb4" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshTriPoint::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35508" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35508" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshTriPoint_1aabec5fdbec6df37c0ea1dd886f5d52e8" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshTriPoint::_offsetof_bary</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_bary</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint._offsetof_bary</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35509" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35509" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshTriPoint_1ad6510197a42cb59b7cc37536d4edf47e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshTriPoint::_offsetof_e</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_e</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint._offsetof_e</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35510" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a42b8908065afc054a4b850176e6a62f7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTriPoint.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35513" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35513" bodyend="35514"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a42b8908065afc054a4b850176e6a62f7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTriPoint.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35517" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35517" bodyend="35518"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a6d4c4a28364d97a4e7aee5627e0c6ccb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.MeshTriPoint.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35521" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35521" bodyend="35522"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a6d4c4a28364d97a4e7aee5627e0c6ccb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.MeshTriPoint.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35525" bodyend="35526"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a1e9118492d6a637261fa543e1f788998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshTriPoint.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35527" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35527" bodyend="35528"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a4557ddb76336b76905d5d08a60969d16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshTriPoint.__eq__</definition>
+        <argsstring>(self, MeshTriPoint rhs)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>rhs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if two points are equal including equal not-unique representation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35529" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35529" bodyend="35532"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1aea2ba85af506b40602611af68293a47f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTriPoint.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35534" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35534" bodyend="35535"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1adee0c0153b5348626005e82f32eb9567" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTriPoint.__init__</definition>
+        <argsstring>(self, EdgeId e, TriPointf bary)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>e</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+          <declname>bary</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35537" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35537" bodyend="35538"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1abb3bf9a95df1f9a50fbf0e650f080f8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTriPoint.__init__</definition>
+        <argsstring>(self, EdgePoint ep)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+          <declname>ep</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35540" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35540" bodyend="35541"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1ae1febb30e796d34480cbbde051e4afec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTriPoint.__init__</definition>
+        <argsstring>(self, MeshTopology topology, VertId v)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35543" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35543" bodyend="35544"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a7c6e554b532579328641e4e3ce314e7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTriPoint.__init__</definition>
+        <argsstring>(self, MeshTriPoint arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35546" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35546" bodyend="35549"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a7659c7ecd22d8d1fc01ab82e891710dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.MeshTriPoint.canonical</definition>
+        <argsstring>(self, MeshTopology topology)</argsstring>
+        <name>canonical</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.canonical</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>represents the same point relative to the topology.edgeWithLeft( topology.left( e ) )
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35550" bodyend="35553"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a6dc021e7989535c25414494e0c73e925" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshTriPoint.fromTriangle</definition>
+        <argsstring>(self, MeshTopology topology, FaceId f)</argsstring>
+        <name>fromTriangle</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.fromTriangle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceId" kindref="compound">FaceId</ref></type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if the point is inside or on the boundary of given triangular face
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35554" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35554" bodyend="35557"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a67a1eb612f64c173d9b48ddf1ac6e3af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__array__WeightedVertex__3" kindref="compound">std_array_WeightedVertex_3</ref></type>
+        <definition> std_array_WeightedVertex_3 mrmeshpy.MeshTriPoint.getWeightedVerts</definition>
+        <argsstring>(self, MeshTopology topology)</argsstring>
+        <name>getWeightedVerts</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.getWeightedVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns three weighted triangle&apos;s vertices with the sum of not-negative weights equal to 1, and the largest weight in the closest vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35558" bodyend="35561"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a1ccad1803ac48a4521f00c687e616177" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+        <definition> VertId mrmeshpy.MeshTriPoint.inVertex</definition>
+        <argsstring>(self, MeshTopology topology)</argsstring>
+        <name>inVertex</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.inVertex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns valid vertex id if the point is in vertex, otherwise returns invalid id
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35563" bodyend="35566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a34fdd00fd161bf60823d7f6200804aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshTriPoint.inVertex</definition>
+        <argsstring>(self)</argsstring>
+        <name>inVertex</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.inVertex</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if the point is in a vertex
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35568" bodyend="35571"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a5046404c459e7954a6c353a7a3e59423" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshTriPoint.isBd</definition>
+        <argsstring>(self, MeshTopology topology, FaceBitSet region=None)</argsstring>
+        <name>isBd</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.isBd</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+          <defval>None</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if the point is in vertex or on edge, and that location is on the boundary of the region
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35572" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35572" bodyend="35575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a4d95c0fe1edb4aa62f9beb6bbf151ddb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshTriPoint" kindref="compound">MeshTriPoint</ref></type>
+        <definition> MeshTriPoint mrmeshpy.MeshTriPoint.lnext</definition>
+        <argsstring>(self, MeshTopology topology)</argsstring>
+        <name>lnext</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.lnext</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>represents the same point relative to next edge in the same triangle
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35576" bodyend="35579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1ad288a901470e5e07497e02c51371a19e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgePoint" kindref="compound">EdgePoint</ref></type>
+        <definition> EdgePoint mrmeshpy.MeshTriPoint.onEdge</definition>
+        <argsstring>(self, MeshTopology topology)</argsstring>
+        <name>onEdge</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.onEdge</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns valid value if the point is on edge and topology.left(result.e) == topology.left(this-&gt;e),
+otherwise returns invalid MeshEdgePoint
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35580" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35580" bodyend="35584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1ae0d38db68c2fc303a535301e0308182f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshTriPoint.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>consider this valid if the edge ID is valid
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35585" bodyend="35588"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1af5c1e71fc146bcd189ba856c0c46d1f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+        <definition> TriPointf mrmeshpy.MeshTriPoint.bary</definition>
+        <argsstring>(self)</argsstring>
+        <name>bary</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.bary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>barycentric coordinates
+\\details a in [0,1], a=0 =&gt; point is on next( e ) edge, a=1 =&gt; point is in dest( e )
+b in [0,1], b=0 =&gt; point is on e edge, b=1 =&gt; point is in dest( next( e ) )
+a+b in [0,1], a+b=0 =&gt; point is in org( e ), a+b=1 =&gt; point is on prev( e.sym() ) edge
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35590" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35590" bodyend="35596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a176fb7a15fdf75240f985ddb7c122e3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTriPoint.bary</definition>
+        <argsstring>(self, TriPointf arg1)</argsstring>
+        <name>bary</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.bary</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TriPointf" kindref="compound">TriPointf</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35598" bodyend="35599"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1a3bae30d6c00eb499a182c3203eb9708d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+        <definition> EdgeId mrmeshpy.MeshTriPoint.e</definition>
+        <argsstring>(self)</argsstring>
+        <name>e</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.e</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>left face of this edge is considered
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35601" bodyend="35604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshTriPoint_1ad09df1e1a5eb3f28ed29eeabd8d8a81e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MeshTriPoint.e</definition>
+        <argsstring>(self, EdgeId arg1)</argsstring>
+        <name>e</name>
+        <qualifiedname>mrmeshpy.MeshTriPoint.e</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1EdgeId" kindref="compound">EdgeId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35606" bodyend="35607"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MeshTriPoint
+
+encodes a point inside a triangular mesh face using barycentric coordinates
+\\details Notations used below: \\n
+  v0 - the value in org( e ) \\n
+  v1 - the value in dest( e ) \\n
+  v2 - the value in dest( next( e ) )
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshTriPoint</label>
+        <link refid="classmrmeshpy_1_1MeshTriPoint"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_bary</edgelabel>
+          <edgelabel>_offsetof_e</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="35498" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="35498" bodyend="35607"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a1e9118492d6a637261fa543e1f788998" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a4557ddb76336b76905d5d08a60969d16" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1ab590c6881de28b93f49fcb96327c5eb4" prot="private" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a42b8908065afc054a4b850176e6a62f7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a42b8908065afc054a4b850176e6a62f7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1aea2ba85af506b40602611af68293a47f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1adee0c0153b5348626005e82f32eb9567" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1abb3bf9a95df1f9a50fbf0e650f080f8a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1ae1febb30e796d34480cbbde051e4afec" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a7c6e554b532579328641e4e3ce314e7d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1aabec5fdbec6df37c0ea1dd886f5d52e8" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>_offsetof_bary</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1ad6510197a42cb59b7cc37536d4edf47e" prot="protected" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>_offsetof_e</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1af5c1e71fc146bcd189ba856c0c46d1f2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>bary</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a176fb7a15fdf75240f985ddb7c122e3d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>bary</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a7659c7ecd22d8d1fc01ab82e891710dc" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>canonical</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a3bae30d6c00eb499a182c3203eb9708d" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>e</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1ad09df1e1a5eb3f28ed29eeabd8d8a81e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>e</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a6dc021e7989535c25414494e0c73e925" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>fromTriangle</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a67a1eb612f64c173d9b48ddf1ac6e3af" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>getWeightedVerts</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a1ccad1803ac48a4521f00c687e616177" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>inVertex</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a34fdd00fd161bf60823d7f6200804aaa" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>inVertex</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a5046404c459e7954a6c353a7a3e59423" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>isBd</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a4d95c0fe1edb4aa62f9beb6bbf151ddb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>lnext</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1ad288a901470e5e07497e02c51371a19e" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>onEdge</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a6d4c4a28364d97a4e7aee5627e0c6ccb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1a6d4c4a28364d97a4e7aee5627e0c6ccb" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MeshTriPoint_1ae0d38db68c2fc303a535301e0308182f" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshTriPoint</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

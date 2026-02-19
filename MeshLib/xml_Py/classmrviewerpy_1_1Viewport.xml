@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrviewerpy_1_1Viewport" kind="class" language="Python" prot="public">
+    <compoundname>mrviewerpy::Viewport</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewport_1a3e9a16269060d716415e9f05eebc001d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewport.cameraLookAlong</definition>
+        <argsstring>(self, meshlib.mrmeshpy.Vector3f dir, meshlib.mrmeshpy.Vector3f up)</argsstring>
+        <name>cameraLookAlong</name>
+        <qualifiedname>mrviewerpy.Viewport.cameraLookAlong</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3f</type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3f</type>
+          <declname>up</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Set camera look direction and up direction (they should be perpendicular)
+this function changes camera position and do not change camera spot (0,0,0) by default
+to change camera position use setCameraTranslation after this function
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="352" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="352" bodyend="357"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewport_1a26bc06099d4665992ea1549c46a8baf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrviewerpy.Viewport.cameraRotateAround</definition>
+        <argsstring>(self, meshlib.mrmeshpy.Line3f axis, float angle)</argsstring>
+        <name>cameraRotateAround</name>
+        <qualifiedname>mrviewerpy.Viewport.cameraRotateAround</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Line3f</type>
+          <declname>axis</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>angle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Rotates camera around axis +direction applied to axis point
+note: this can make camera clip objects (as far as distance to scene center is not fixed)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="358" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="358" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewport_1a9bb8a06435b96ec49ca4330dd83b025a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.Vector3f</type>
+        <definition> meshlib.mrmeshpy.Vector3f mrviewerpy.Viewport.projectToViewportSpace</definition>
+        <argsstring>(self, meshlib.mrmeshpy.Vector3f arg0)</argsstring>
+        <name>projectToViewportSpace</name>
+        <qualifiedname>mrviewerpy.Viewport.projectToViewportSpace</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>meshlib.mrmeshpy.Vector3f</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Project world space point to viewport coordinates (in pixels), (0,0) will be at the top-left corner of the viewport.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="363" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrviewerpy_1_1Viewport_1a56c33de0b145540735aa656101093d1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>meshlib.mrmeshpy.ViewportId</type>
+        <definition> meshlib.mrmeshpy.ViewportId mrviewerpy.Viewport.id</definition>
+        <argsstring>(self)</argsstring>
+        <name>id</name>
+        <qualifiedname>mrviewerpy.Viewport.id</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="368" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="368" bodyend="369"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Viewport is a rectangular area, in which the objects of interest are going to be rendered.
+An application can have a number of viewports each with its own ID.
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" line="347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrviewerpy.pyi" bodystart="347" bodyend="369"/>
+    <listofallmembers>
+      <member refid="classmrviewerpy_1_1Viewport_1a3e9a16269060d716415e9f05eebc001d" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewport</scope><name>cameraLookAlong</name></member>
+      <member refid="classmrviewerpy_1_1Viewport_1a26bc06099d4665992ea1549c46a8baf5" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewport</scope><name>cameraRotateAround</name></member>
+      <member refid="classmrviewerpy_1_1Viewport_1a56c33de0b145540735aa656101093d1a" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewport</scope><name>id</name></member>
+      <member refid="classmrviewerpy_1_1Viewport_1a9bb8a06435b96ec49ca4330dd83b025a" prot="public" virt="non-virtual"><scope>mrviewerpy::Viewport</scope><name>projectToViewportSpace</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

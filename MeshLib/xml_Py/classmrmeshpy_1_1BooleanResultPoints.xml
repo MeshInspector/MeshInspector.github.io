@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1BooleanResultPoints" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::BooleanResultPoints</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResultPoints_1a65418b98ae94da0747e45158ee95723d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanResultPoints::_offsetof_intersectionPoints</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_intersectionPoints</name>
+        <qualifiedname>mrmeshpy.BooleanResultPoints._offsetof_intersectionPoints</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResultPoints_1aaf6264b92ec284cfadf28677ce6fc51e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanResultPoints::_offsetof_meshAVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_meshAVerts</name>
+        <qualifiedname>mrmeshpy.BooleanResultPoints._offsetof_meshAVerts</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3921" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1BooleanResultPoints_1a1b10f049a8f675de923435c8e27208ee" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.BooleanResultPoints::_offsetof_meshBVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_meshBVerts</name>
+        <qualifiedname>mrmeshpy.BooleanResultPoints._offsetof_meshBVerts</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3922" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3922" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultPoints_1a9277eabbd82fbf4e3113dcfbcab74baf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResultPoints.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResultPoints.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3928" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3928" bodyend="3929"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultPoints_1a76b684ac4c9f8b2fb0164b4ffa3cc2a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanResultPoints" kindref="compound">BooleanResultPoints</ref></type>
+        <definition> BooleanResultPoints mrmeshpy.BooleanResultPoints.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanResultPoints.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3932" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3932" bodyend="3933"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultPoints_1a76b684ac4c9f8b2fb0164b4ffa3cc2a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1BooleanResultPoints" kindref="compound">BooleanResultPoints</ref></type>
+        <definition> BooleanResultPoints mrmeshpy.BooleanResultPoints.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.BooleanResultPoints.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3936" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3936" bodyend="3937"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultPoints_1a4b30864349dcd413bbe9204f70a1acc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResultPoints.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResultPoints.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3939" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3939" bodyend="3940"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultPoints_1a751bf14877277bcf97bdad6a03a776e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResultPoints.__init__</definition>
+        <argsstring>(self, BooleanResultPoints arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResultPoints.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BooleanResultPoints" kindref="compound">BooleanResultPoints</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3942" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3942" bodyend="3945"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1BooleanResultPoints_1ad09aa14f2768c0d4f4d957a63b91316c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.BooleanResultPoints.__init__</definition>
+        <argsstring>(self, VertBitSet meshAVerts, VertBitSet meshBVerts, std_vector_Vector3_float intersectionPoints)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.BooleanResultPoints.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>meshAVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>meshBVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>intersectionPoints</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3947" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3947" bodyend="3950"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::BooleanResultPoints
+
+vertices and points representing mesh intersection result
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.BooleanResultPoints</label>
+        <link refid="classmrmeshpy_1_1BooleanResultPoints"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_intersectionPoints</edgelabel>
+          <edgelabel>_offsetof_meshAVerts</edgelabel>
+          <edgelabel>_offsetof_meshBVerts</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="3914" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="3914" bodyend="3950"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1BooleanResultPoints_1a9277eabbd82fbf4e3113dcfbcab74baf" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultPoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultPoints_1a4b30864349dcd413bbe9204f70a1acc5" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultPoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultPoints_1a751bf14877277bcf97bdad6a03a776e3" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultPoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultPoints_1ad09aa14f2768c0d4f4d957a63b91316c" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultPoints</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultPoints_1a65418b98ae94da0747e45158ee95723d" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResultPoints</scope><name>_offsetof_intersectionPoints</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultPoints_1aaf6264b92ec284cfadf28677ce6fc51e" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResultPoints</scope><name>_offsetof_meshAVerts</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultPoints_1a1b10f049a8f675de923435c8e27208ee" prot="protected" virt="non-virtual"><scope>mrmeshpy::BooleanResultPoints</scope><name>_offsetof_meshBVerts</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultPoints_1a76b684ac4c9f8b2fb0164b4ffa3cc2a9" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultPoints</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1BooleanResultPoints_1a76b684ac4c9f8b2fb0164b4ffa3cc2a9" prot="public" virt="non-virtual"><scope>mrmeshpy::BooleanResultPoints</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

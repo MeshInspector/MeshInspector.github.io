@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRBitSetParallelFor_8h" kind="file" language="C++">
+    <compoundname>MRBitSetParallelFor.h</compoundname>
+    <includes refid="MRBitSet_8h" local="yes">MRBitSet.h</includes>
+    <includes refid="MRFunctional_8h" local="yes">MRFunctional.h</includes>
+    <includes refid="MRParallel_8h" local="yes">MRParallel.h</includes>
+    <includes refid="MRProgressCallback_8h" local="yes">MRProgressCallback.h</includes>
+    <includedby refid="MRProjectionMeshAttribute_8h" local="yes">MRProjectionMeshAttribute.h</includedby>
+    <includedby refid="MRUnionFindParallel_8h" local="yes">MRUnionFindParallel.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>MRBitSet.h</label>
+        <link refid="MRBitSet_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRBitSetParallelFor.h</label>
+        <link refid="MRBitSetParallelFor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRFunctional.h</label>
+        <link refid="MRFunctional_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="19">
+        <label>MRParallel.h</label>
+        <link refid="MRParallel_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>MRProgressCallback.h</label>
+        <link refid="MRProgressCallback_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="14">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="20">
+        <label>MRPch/MRTBB.h</label>
+      </node>
+      <node id="10">
+        <label>MRphmap.h</label>
+      </node>
+      <node id="6">
+        <label>cassert</label>
+      </node>
+      <node id="22">
+        <label>cmath</label>
+      </node>
+      <node id="13">
+        <label>concepts</label>
+      </node>
+      <node id="7">
+        <label>cstddef</label>
+      </node>
+      <node id="15">
+        <label>functional</label>
+      </node>
+      <node id="16">
+        <label>iosfwd</label>
+      </node>
+      <node id="17">
+        <label>iterator</label>
+      </node>
+      <node id="8">
+        <label>type_traits</label>
+      </node>
+      <node id="9">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>MRBitSetParallelFor.h</label>
+        <link refid="MRBitSetParallelFor_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRProjectionMeshAttribute.h</label>
+        <link refid="MRProjectionMeshAttribute_8h"/>
+      </node>
+      <node id="3">
+        <label>MRUnionFindParallel.h</label>
+        <link refid="MRUnionFindParallel_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structMR_1_1IdRange" prot="public">MR::IdRange</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1BitSetParallel">MR::BitSetParallel</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBitSet_8h" kindref="compound">MRBitSet.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRFunctional_8h" kindref="compound">MRFunctional.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRParallel_8h" kindref="compound">MRParallel.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRProgressCallback_8h" kindref="compound">MRProgressCallback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"></codeline>
+<codeline lineno="15"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>Id&gt;</highlight></codeline>
+<codeline lineno="16" refid="structMR_1_1IdRange" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1IdRange" kindref="compound">IdRange</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1IdRange_1a3067ad4ae350fd44c70d1c64edda60c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref><sp/><ref refid="structMR_1_1IdRange_1a3067ad4ae350fd44c70d1c64edda60c0" kindref="member">beg</ref>,<sp/><ref refid="structMR_1_1IdRange_1aff5326f04115631dc2ec0096a162fc58" kindref="member">end</ref>;</highlight></codeline>
+<codeline lineno="19" refid="structMR_1_1IdRange_1a20f9cf39b58e7c10a1c4a32969691d3a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IdRange_1a20f9cf39b58e7c10a1c4a32969691d3a" kindref="member">size</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IdRange_1aff5326f04115631dc2ec0096a162fc58" kindref="member">end</ref><sp/>-<sp/><ref refid="structMR_1_1IdRange_1a3067ad4ae350fd44c70d1c64edda60c0" kindref="member">beg</ref>;<sp/>}</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="namespaceMR_1_1BitSetParallel" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">BitSetParallel</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>IndexType&gt;</highlight></codeline>
+<codeline lineno="26" refid="namespaceMR_1_1BitSetParallel_1a8d363b4768efba11f60c43928c542bf1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8d363b4768efba11f60c43928c542bf1" kindref="member">blockRange</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IdRange" kindref="compound">IdRange&lt;IndexType&gt;</ref><sp/>&amp;<sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref><sp/>)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>beginBlock<sp/>=<sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref>.beg<sp/>/<sp/><ref refid="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" kindref="member">BitSet::bits_per_block</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>endBlock<sp/>=<sp/>(<sp/>size_t(<sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref>.end<sp/>)<sp/>+<sp/><ref refid="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" kindref="member">BitSet::bits_per_block</ref><sp/>-<sp/>1<sp/>)<sp/>/<sp/><ref refid="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" kindref="member">BitSet::bits_per_block</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tbb::blocked_range&lt;size_t&gt;(<sp/>beginBlock,<sp/>endBlock<sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS&gt;</highlight></codeline>
+<codeline lineno="34" refid="namespaceMR_1_1BitSetParallel_1a8f2ddae24bfbab61698167d301e96307" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8d363b4768efba11f60c43928c542bf1" kindref="member">blockRange</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS<sp/>&amp;<sp/>bs<sp/>)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>endBlock<sp/>=<sp/>(<sp/>bs.size()<sp/>+<sp/>BS::bits_per_block<sp/>-<sp/>1<sp/>)<sp/>/<sp/>BS::bits_per_block;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>tbb::blocked_range&lt;size_t&gt;(<sp/>0,<sp/>endBlock<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS&gt;</highlight></codeline>
+<codeline lineno="41" refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS<sp/>&amp;<sp/>bs<sp/>)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IdRange" kindref="compound">IdRange&lt;typename BS::IndexType&gt;</ref>{<sp/>bs.beginId(),<sp/>bs.endId()<sp/>};</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>IndexType&gt;</highlight></codeline>
+<codeline lineno="47" refid="namespaceMR_1_1BitSetParallel_1ac886c0876beae880356ab560e584b63e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1ac886c0876beae880356ab560e584b63e" kindref="member">bitSubRange</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IdRange" kindref="compound">IdRange&lt;IndexType&gt;</ref><sp/>&amp;<sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref>,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>tbb::blocked_range&lt;size_t&gt;<sp/>&amp;<sp/>range,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>tbb::blocked_range&lt;size_t&gt;<sp/>&amp;<sp/>subRange<sp/>)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1IdRange" kindref="compound">IdRange&lt;IndexType&gt;</ref></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.<ref refid="structMR_1_1IdRange_1a3067ad4ae350fd44c70d1c64edda60c0" kindref="member">beg</ref><sp/>=<sp/>subRange.begin()<sp/>&gt;<sp/>range.begin()<sp/>?<sp/>IndexType(<sp/>subRange.begin()<sp/>*<sp/><ref refid="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" kindref="member">BitSet::bits_per_block</ref><sp/>)<sp/>:<sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref>.beg,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.end<sp/>=<sp/>subRange.end()<sp/>&lt;<sp/>range.end()<sp/><sp/><sp/><sp/><sp/>?<sp/>IndexType(<sp/>subRange.end()<sp/><sp/><sp/>*<sp/><ref refid="classMR_1_1BitSet_1a1f620464c1c261bfb83432e57b5312a5" kindref="member">BitSet::bits_per_block</ref><sp/>)<sp/>:<sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref>.end</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref><sp/>=<sp/>tbb::blocked_range&lt;size_t&gt;;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="namespaceMR_1_1BitSetParallel_1a357fb7ee5dcb97530561b61703771f02" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a357fb7ee5dcb97530561b61703771f02" kindref="member">forAllRanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref><sp/>&amp;<sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref>,<sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref><sp/>&amp;<sp/>)&gt;<sp/>f<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="namespaceMR_1_1BitSetParallel_1afd2d97d78925db0934e887b795c0c84f" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a357fb7ee5dcb97530561b61703771f02" kindref="member">forAllRanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref><sp/>&amp;<sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref>,<sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref><sp/>&amp;,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>)&gt;<sp/>f,</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>()&gt;<sp/>ctx<sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63" refid="namespaceMR_1_1BitSetParallel_1a5dc8ec5da5f21c7b1fb5aee09e55b094" refkind="member"><highlight class="normal">MRMESH_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a357fb7ee5dcb97530561b61703771f02" kindref="member">forAllRanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref><sp/>&amp;<sp/><ref refid="namespaceMR_1_1BitSetParallel_1a8c54ac4b7f59d210bf4835cfa5d86a8c" kindref="member">bitRange</ref>,<sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref><sp/>&amp;,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>)&gt;<sp/>f,</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1FunctionRef" kindref="compound">FunctionRef</ref>&lt;</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>()&gt;<sp/>ctx,<sp/>ProgressCallback<sp/>progressCb,<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>reportProgressEveryBit<sp/>=<sp/>1024<sp/>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Cb&gt;</highlight></codeline>
+<codeline lineno="67" refid="namespaceMR_1_1BitSetParallel_1a364f6c3c44118bfca1b525a51dd54626" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a364f6c3c44118bfca1b525a51dd54626" kindref="member">ForAllRanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS<sp/>&amp;<sp/>bs,<sp/>F<sp/>&amp;&amp;<sp/>f,<sp/>Cb<sp/>&amp;&amp;<sp/>...<sp/>cb<sp/>)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/>(<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">...(<sp/>cb<sp/>)<sp/>==<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a357fb7ee5dcb97530561b61703771f02" kindref="member">forAllRanged</ref>(<sp/>{<sp/>(size_t)0,<sp/>bs.size()<sp/>},<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref>&amp;<sp/>range<sp/>)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Id" kindref="compound">Id</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS::IndexType;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)(<sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref>{<sp/>i<sp/>},<sp/><ref refid="structMR_1_1IdRange" kindref="compound">IdRange&lt;Id&gt;</ref>{<sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref>{<sp/>range.begin()<sp/>},<sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref>{<sp/>range.end()<sp/>}<sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a357fb7ee5dcb97530561b61703771f02" kindref="member">forAllRanged</ref>(<sp/>{<sp/>(size_t)0,<sp/>bs.size()<sp/>},<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref>&amp;<sp/>range,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Id" kindref="compound">Id</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS::IndexType;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)(<sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref>{<sp/>i<sp/>},<sp/><ref refid="structMR_1_1IdRange" kindref="compound">IdRange&lt;Id&gt;</ref>{<sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref>{<sp/>range.begin()<sp/>},<sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref>{<sp/>range.end()<sp/>}<sp/>}<sp/>);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},<sp/>[&amp;]</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>},<sp/>std::forward&lt;Cb&gt;(<sp/>cb<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="88"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>L,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Cb&gt;</highlight></codeline>
+<codeline lineno="91" refid="namespaceMR_1_1BitSetParallel_1ab05fc848939177c9fd25511b45bf05c3" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a364f6c3c44118bfca1b525a51dd54626" kindref="member">ForAllRanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS<sp/>&amp;<sp/>bs,<sp/>tbb::enumerable_thread_specific&lt;L&gt;&amp;<sp/>e,<sp/>F<sp/>&amp;&amp;<sp/>f,<sp/>Cb<sp/>&amp;&amp;<sp/>...<sp/>cb<sp/>)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a357fb7ee5dcb97530561b61703771f02" kindref="member">forAllRanged</ref>(<sp/>{<sp/>(size_t)0,<sp/>bs.size()<sp/>},<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a60790ca97df099f162ff79d253be07f1" kindref="member">Range</ref>&amp;<sp/>range,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*<sp/>ctx<sp/>)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Id" kindref="compound">Id</ref><sp/>=<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS::IndexType;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)(<sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref>{<sp/>i<sp/>},<sp/><ref refid="structMR_1_1IdRange" kindref="compound">IdRange&lt;Id&gt;</ref>{<sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref>{<sp/>range.begin()<sp/>},<sp/><ref refid="classMR_1_1Id" kindref="compound">Id</ref>{<sp/>range.end()<sp/>}<sp/>},<sp/>*(L*)ctx<sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>[&amp;]</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">*)&amp;e.local();</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>},<sp/>std::forward&lt;Cb&gt;(<sp/>cb<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}<sp/></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...F&gt;</highlight></codeline>
+<codeline lineno="111" refid="group__BasicGroup_1ga33e26ce0b4711944b757408b0ab339a5" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga33e26ce0b4711944b757408b0ab339a5" kindref="member">BitSetParallelForAllRanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS<sp/>&amp;<sp/>bs,<sp/>F<sp/>&amp;&amp;...<sp/>f<sp/>)</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a364f6c3c44118bfca1b525a51dd54626" kindref="member">BitSetParallel::ForAllRanged</ref>(<sp/>bs,<sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>L,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...F&gt;</highlight></codeline>
+<codeline lineno="123" refid="group__BasicGroup_1ga82bab0dac0d1604747ecff512e8a091a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga33e26ce0b4711944b757408b0ab339a5" kindref="member">BitSetParallelForAllRanged</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS<sp/>&amp;<sp/>bs,<sp/>tbb::enumerable_thread_specific&lt;L&gt;<sp/>&amp;<sp/>e,<sp/>F<sp/>&amp;&amp;...<sp/>f<sp/>)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a364f6c3c44118bfca1b525a51dd54626" kindref="member">BitSetParallel::ForAllRanged</ref>(<sp/>bs,<sp/>e,<sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Cb&gt;</highlight></codeline>
+<codeline lineno="133" refid="group__BasicGroup_1ga13c3e24dbe2feef1f9d56ea427ef4107" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga13c3e24dbe2feef1f9d56ea427ef4107" kindref="member">BitSetParallelForAll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS<sp/>&amp;<sp/>bs,<sp/>F<sp/>&amp;&amp;<sp/>f,<sp/>Cb&amp;&amp;...<sp/>cb<sp/>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a364f6c3c44118bfca1b525a51dd54626" kindref="member">BitSetParallel::ForAllRanged</ref>(<sp/>bs,<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>bit,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;<sp/>)<sp/>{<sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)(<sp/>bit<sp/>);<sp/>},<sp/>std::forward&lt;Cb&gt;(<sp/>cb<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>L,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Cb&gt;</highlight></codeline>
+<codeline lineno="144" refid="group__BasicGroup_1ga473b8a238072b360e13c47d4c255d66f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga13c3e24dbe2feef1f9d56ea427ef4107" kindref="member">BitSetParallelForAll</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS<sp/>&amp;<sp/>bs,<sp/>tbb::enumerable_thread_specific&lt;L&gt;<sp/>&amp;<sp/>e,<sp/>F<sp/>&amp;&amp;<sp/>f,<sp/>Cb&amp;&amp;...<sp/>cb<sp/>)</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="namespaceMR_1_1BitSetParallel_1a364f6c3c44118bfca1b525a51dd54626" kindref="member">BitSetParallel::ForAllRanged</ref>(<sp/>bs,<sp/>e,<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>bit,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;&amp;,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/>tls<sp/>)<sp/>{<sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)(<sp/>bit,<sp/>tls<sp/>);<sp/>},<sp/>std::forward&lt;Cb&gt;(<sp/>cb<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Cb&gt;</highlight></codeline>
+<codeline lineno="154" refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" kindref="member">BitSetParallelFor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS&amp;<sp/>bs,<sp/>F<sp/>&amp;&amp;<sp/>f,<sp/>Cb&amp;&amp;...<sp/>cb<sp/>)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga13c3e24dbe2feef1f9d56ea427ef4107" kindref="member">BitSetParallelForAll</ref>(<sp/>bs,<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>bit<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>bs.test(<sp/>bit<sp/>)<sp/>)<sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)(<sp/>bit<sp/>);<sp/>},<sp/>std::forward&lt;Cb&gt;(<sp/>cb<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="164"><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BS,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>L,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>...Cb&gt;</highlight></codeline>
+<codeline lineno="165" refid="group__BasicGroup_1gaa44fd6dceea20f68975639cc07df31b2" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga6f038e999890735ffdb5f8119eb5650e" kindref="member">BitSetParallelFor</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>BS&amp;<sp/>bs,<sp/>tbb::enumerable_thread_specific&lt;L&gt;<sp/>&amp;<sp/>e,<sp/>F<sp/>&amp;&amp;<sp/>f,<sp/>Cb&amp;&amp;...<sp/>cb<sp/>)</highlight></codeline>
+<codeline lineno="166"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="group__BasicGroup_1ga13c3e24dbe2feef1f9d56ea427ef4107" kindref="member">BitSetParallelForAll</ref>(<sp/>bs,<sp/>e,<sp/>[&amp;]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>bit,<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/>&amp;<sp/>tls<sp/>)<sp/>{<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>bs.test(<sp/>bit<sp/>)<sp/>)<sp/>std::forward&lt;F&gt;(<sp/>f<sp/>)(<sp/>bit,<sp/>tls<sp/>);<sp/>},<sp/>std::forward&lt;Cb&gt;(<sp/>cb<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRBitSetParallelFor.h"/>
+  </compounddef>
+</doxygen>

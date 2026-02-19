@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectTagEventDispatcher" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectTagEventDispatcher</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectTagEventDispatcher_1a6af125b562c6e7a87aa51138cede2f69" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectTagEventDispatcher.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectTagEventDispatcher.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40715" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40715" bodyend="40716"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectTagEventDispatcher_1adc9bdb5fd09304a2a438ef30970369fe" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectTagEventDispatcher" kindref="compound">ObjectTagEventDispatcher</ref></type>
+        <definition> ObjectTagEventDispatcher mrmeshpy.ObjectTagEventDispatcher.instance</definition>
+        <argsstring>()</argsstring>
+        <name>instance</name>
+        <qualifiedname>mrmeshpy.ObjectTagEventDispatcher.instance</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns singleton instance
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40718" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40718" bodyend="40721"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectTagEventDispatcher_1aceff1fa622f18fe3e3afda31232f8ded" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectTagEventDispatcher" kindref="compound">ObjectTagEventDispatcher</ref></type>
+        <definition> ObjectTagEventDispatcher mrmeshpy.ObjectTagEventDispatcher.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectTagEventDispatcher.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40724" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40724" bodyend="40725"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectTagEventDispatcher_1aceff1fa622f18fe3e3afda31232f8ded" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectTagEventDispatcher" kindref="compound">ObjectTagEventDispatcher</ref></type>
+        <definition> ObjectTagEventDispatcher mrmeshpy.ObjectTagEventDispatcher.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectTagEventDispatcher.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40728" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40728" bodyend="40729"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectTagEventDispatcher_1a54ee5facca676a66c7f62acde9ea20cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectTagEventDispatcher.__init__</definition>
+        <argsstring>(self, ObjectTagEventDispatcher arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectTagEventDispatcher.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectTagEventDispatcher" kindref="compound">ObjectTagEventDispatcher</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40731" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40731" bodyend="40734"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectTagEventDispatcher
+
+class for dispatching object tag addition/removal events
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40707" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40707" bodyend="40734"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectTagEventDispatcher_1a6af125b562c6e7a87aa51138cede2f69" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectTagEventDispatcher</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectTagEventDispatcher_1a54ee5facca676a66c7f62acde9ea20cc" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectTagEventDispatcher</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectTagEventDispatcher_1adc9bdb5fd09304a2a438ef30970369fe" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectTagEventDispatcher</scope><name>instance</name></member>
+      <member refid="classmrmeshpy_1_1ObjectTagEventDispatcher_1aceff1fa622f18fe3e3afda31232f8ded" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectTagEventDispatcher</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectTagEventDispatcher_1aceff1fa622f18fe3e3afda31232f8ded" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectTagEventDispatcher</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

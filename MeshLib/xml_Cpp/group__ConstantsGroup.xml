@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__ConstantsGroup" kind="group">
+    <compoundname>ConstantsGroup</compoundname>
+    <title>Constants</title>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="group__ConstantsGroup_1gab118b1b9b6908634203d5df1d5023d48" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double MR::PI</definition>
+        <argsstring></argsstring>
+        <name>PI</name>
+        <qualifiedname>MR::PI</qualifiedname>
+        <initializer>= 3.141592653589793238463</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConstants.h" line="10" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConstants.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__ConstantsGroup_1ga415e7be5800fdfbcd56d4dcb21e6e1f4" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>double</type>
+        <definition>double MR::PI2</definition>
+        <argsstring></argsstring>
+        <name>PI2</name>
+        <qualifiedname>MR::PI2</qualifiedname>
+        <initializer>= PI / 2.</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConstants.h" line="11" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConstants.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__ConstantsGroup_1gae00cfb986e1a28fc4d521d5a0666b31b" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::PI_F</definition>
+        <argsstring></argsstring>
+        <name>PI_F</name>
+        <qualifiedname>MR::PI_F</qualifiedname>
+        <initializer>= 3.14159265358979f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConstants.h" line="12" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConstants.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="group__ConstantsGroup_1gacad362d32c6fa4936e463a6c211583ac" prot="public" static="yes" constexpr="yes" mutable="no">
+        <type>float</type>
+        <definition>float MR::PI2_F</definition>
+        <argsstring></argsstring>
+        <name>PI2_F</name>
+        <qualifiedname>MR::PI2_F</qualifiedname>
+        <initializer>= PI_F / 2.f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConstants.h" line="13" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRConstants.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

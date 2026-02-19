@@ -152,12 +152,12 @@ $(function(){initNavTree('MRViewportGL_8h.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">MRViewportGL.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="MRViewerFwd_8h_source.html">MRViewerFwd.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;MRViewerFwd.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector4_8h_source.html">MRMesh/MRVector4.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRVector2_8h_source.html">MRMesh/MRVector2.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRBox_8h_source.html">MRMesh/MRBox.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRBox_8h_source.html">MRMesh/MRBox.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRPlane3_8h_source.html">MRMesh/MRPlane3.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="MRMesh_2MRColor_8h_source.html">MRMesh/MRColor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MRColor_8h_source.html">MRMesh/MRColor.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRViewportId_8h_source.html">MRMesh/MRViewportId.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="MRIRenderObject_8h_source.html">MRMesh/MRIRenderObject.h</a>&quot;</code><br />
 <code>#include &lt;span&gt;</code><br />
@@ -167,16 +167,21 @@ $(function(){initNavTree('MRViewportGL_8h.html',''); initResizable(true); });
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1SegmEndColors.html">MR::SegmEndColors</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">colors of segment ends  <a href="structMR_1_1SegmEndColors.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportPointsWithColors.html">MR::ViewportPointsWithColors</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores points and corresponding colors (sizes of vectors should be the same)  <a href="structMR_1_1ViewportPointsWithColors.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classMR_1_1ViewportGL.html">MR::ViewportGL</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class holds data needed to render viewport primitives and accumulative picker via OpenGL.  <a href="classMR_1_1ViewportGL.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1PickParameters.html">MR::ViewportGL::PickParameters</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameters of objects picking.  <a href="structMR_1_1ViewportGL_1_1PickParameters.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1BasePickResult.html">MR::ViewportGL::BasePickResult</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1PickResult.html">MR::ViewportGL::PickResult</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Result of object picking.  <a href="structMR_1_1ViewportGL_1_1PickResult.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structMR_1_1ViewportGL_1_1ScaledPickRes.html">MR::ViewportGL::ScaledPickRes</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -184,14 +189,15 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html">MR</a></td></tr>
+<tr class="memdesc:namespaceMR"><td class="mdescLeft">&#160;</td><td class="mdescRight">only for bindings generation <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1d373c7805aa607ceab34f611207120c" id="r_a1d373c7805aa607ceab34f611207120c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a1d373c7805aa607ceab34f611207120c">MR::operator==</a> (const <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &amp;a, const <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &amp;b)</td></tr>
-<tr class="separator:a1d373c7805aa607ceab34f611207120c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a063c104022f7dee6a63efd4b129f4779" id="r_a063c104022f7dee6a63efd4b129f4779"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceMR.html#a063c104022f7dee6a63efd4b129f4779">MR::operator==</a> (const <a class="el" href="structMR_1_1ViewportPointsWithColors.html">ViewportPointsWithColors</a> &amp;a, const <a class="el" href="structMR_1_1ViewportPointsWithColors.html">ViewportPointsWithColors</a> &amp;b)</td></tr>
-<tr class="separator:a063c104022f7dee6a63efd4b129f4779"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1d373c7805aa607ceab34f611207120c" id="r_ga1d373c7805aa607ceab34f611207120c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga1d373c7805aa607ceab34f611207120c">MR::operator==</a> (const <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &amp;a, const <a class="el" href="structMR_1_1SegmEndColors.html">SegmEndColors</a> &amp;b)</td></tr>
+<tr class="separator:ga1d373c7805aa607ceab34f611207120c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga063c104022f7dee6a63efd4b129f4779" id="r_ga063c104022f7dee6a63efd4b129f4779"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__GeneralGroup.html#ga063c104022f7dee6a63efd4b129f4779">MR::operator==</a> (const <a class="el" href="structMR_1_1ViewportPointsWithColors.html">ViewportPointsWithColors</a> &amp;a, const <a class="el" href="structMR_1_1ViewportPointsWithColors.html">ViewportPointsWithColors</a> &amp;b)</td></tr>
+<tr class="separator:ga063c104022f7dee6a63efd4b129f4779"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->

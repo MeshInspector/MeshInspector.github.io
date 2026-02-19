@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1UndirectedEdgeIterator" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::UndirectedEdgeIterator</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1UndirectedEdgeIterator_1a868e5571c5e73797beaa5f010cc8ae0d" prot="public" static="yes" mutable="no">
+        <type></type>
+        <definition>mrmeshpy.UndirectedEdgeIterator::value_type</definition>
+        <argsstring></argsstring>
+        <name>value_type</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.value_type</qualifiedname>
+        <initializer>=  <ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59396" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59396" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1a45a8e4c6351462a9ab4b16c8fcf063a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeIterator.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59399" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59399" bodyend="59400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1a5dd32c9d1b89c1a4a2f3d05ab911af8e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeIterator" kindref="compound">UndirectedEdgeIterator</ref></type>
+        <definition> UndirectedEdgeIterator mrmeshpy.UndirectedEdgeIterator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59403" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59403" bodyend="59404"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1a5dd32c9d1b89c1a4a2f3d05ab911af8e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeIterator" kindref="compound">UndirectedEdgeIterator</ref></type>
+        <definition> UndirectedEdgeIterator mrmeshpy.UndirectedEdgeIterator.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59407" bodyend="59408"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1ae0d1e83d549561f721d84cb43fbaf7a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeIterator.__eq__</definition>
+        <argsstring>(self, UndirectedEdgeIterator b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeIterator" kindref="compound">UndirectedEdgeIterator</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59409" bodyend="59410"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1a126cfa27851a421e7f3a2d2314c7d74d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeIterator.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates end iterator
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59412" bodyend="59415"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1a78bcc8dfd3513445f0e99057189500d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeIterator.__init__</definition>
+        <argsstring>(self, MeshTopology topology)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MeshTopology" kindref="compound">MeshTopology</ref></type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates begin iterator
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59417" bodyend="59420"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1abab4c22712b04bb851e65b3b4e57541b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.UndirectedEdgeIterator.__init__</definition>
+        <argsstring>(self, UndirectedEdgeIterator arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeIterator" kindref="compound">UndirectedEdgeIterator</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59422" bodyend="59425"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1a318dcab06413a776fe8d0958741e31ad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeId" kindref="compound">UndirectedEdgeId</ref></type>
+        <definition> UndirectedEdgeId mrmeshpy.UndirectedEdgeIterator.__mul__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__mul__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.__mul__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59426" bodyend="59427"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1a85d78a1b8fd1ae70ff43863ffedf761d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.UndirectedEdgeIterator.__ne__</definition>
+        <argsstring>(self, UndirectedEdgeIterator b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeIterator" kindref="compound">UndirectedEdgeIterator</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59428" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59428" bodyend="59429"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1UndirectedEdgeIterator_1a4dcf0895fac45b5740125590ee67ef60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeIterator" kindref="compound">UndirectedEdgeIterator</ref></type>
+        <definition> UndirectedEdgeIterator mrmeshpy.UndirectedEdgeIterator.operator</definition>
+        <argsstring>(self)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.UndirectedEdgeIterator.operator</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59431" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59431" bodyend="59432"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::UndirectedEdgeIterator
+
+The iterator to find all not-lone undirected edges in the mesh
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="59390" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="59390" bodyend="59432"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1ae0d1e83d549561f721d84cb43fbaf7a7" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1a45a8e4c6351462a9ab4b16c8fcf063a9" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1a126cfa27851a421e7f3a2d2314c7d74d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1a78bcc8dfd3513445f0e99057189500d4" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1abab4c22712b04bb851e65b3b4e57541b" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1a318dcab06413a776fe8d0958741e31ad" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>__mul__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1a85d78a1b8fd1ae70ff43863ffedf761d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1a5dd32c9d1b89c1a4a2f3d05ab911af8e" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1a5dd32c9d1b89c1a4a2f3d05ab911af8e" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1a4dcf0895fac45b5740125590ee67ef60" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1UndirectedEdgeIterator_1a868e5571c5e73797beaa5f010cc8ae0d" prot="public" virt="non-virtual"><scope>mrmeshpy::UndirectedEdgeIterator</scope><name>value_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

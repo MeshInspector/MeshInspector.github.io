@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1AABBTreeTraits" kind="struct" language="C++" prot="public">
+    <compoundname>MR::AABBTreeTraits</compoundname>
+    <includes refid="MRAABBTreeNode_8h" local="no">MRAABBTreeNode.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename L</type>
+      </param>
+      <param>
+        <type>typename B</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="structMR_1_1AABBTreeTraits_1a0a4c21a59ab274d8edaf4ecf3702bb7a" prot="public" static="no">
+        <type>L</type>
+        <definition>using MR::AABBTreeTraits&lt; L, B &gt;::LeafTag =  L</definition>
+        <argsstring></argsstring>
+        <name>LeafTag</name>
+        <qualifiedname>MR::AABBTreeTraits::LeafTag</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="17" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1AABBTreeTraits_1a50bc8c0ccee7f3a7a6f9292ef97447f9" prot="public" static="no">
+        <type><ref refid="classMR_1_1Id" kindref="compound">Id</ref>&lt; L &gt;</type>
+        <definition>using MR::AABBTreeTraits&lt; L, B &gt;::LeafId =  Id&lt;L&gt;</definition>
+        <argsstring></argsstring>
+        <name>LeafId</name>
+        <qualifiedname>MR::AABBTreeTraits::LeafId</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="18" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="structMR_1_1AABBTreeTraits_1af377f5f1d8b11732a56ec00544ed4c2e" prot="public" static="no">
+        <type>B</type>
+        <definition>using MR::AABBTreeTraits&lt; L, B &gt;::BoxT =  B</definition>
+        <argsstring></argsstring>
+        <name>BoxT</name>
+        <qualifiedname>MR::AABBTreeTraits::BoxT</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="19" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreeNode.h" bodystart="16" bodyend="20"/>
+    <listofallmembers>
+      <member refid="structMR_1_1AABBTreeTraits_1af377f5f1d8b11732a56ec00544ed4c2e" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits</scope><name>BoxT</name></member>
+      <member refid="structMR_1_1AABBTreeTraits_1a50bc8c0ccee7f3a7a6f9292ef97447f9" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits</scope><name>LeafId</name></member>
+      <member refid="structMR_1_1AABBTreeTraits_1a0a4c21a59ab274d8edaf4ecf3702bb7a" prot="public" virt="non-virtual"><scope>MR::AABBTreeTraits</scope><name>LeafTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MultiwayICPSamplingParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MultiwayICPSamplingParameters</compoundname>
+    <includes refid="MRMultiwayICP_8h" local="no">MRMultiwayICP.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga116ec3c17f34bc7480ee09bcd334bd58" kind="enum"><name>CascadeMode</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab9d86e834ec046c7b72c094142d046c6" kind="variable"><name>samplingVoxelSize</name></member>
+      <member refid="group__GeneralGroup_1ga8c84a0ef595c5238df9112eb6c6f3e86" kind="variable"><name>maxGroupSize</name></member>
+      <member refid="group__GeneralGroup_1gae06a2f568227da83fff1138c53d0fc30" kind="variable"><name>AABBTreeBased</name></member>
+      <member refid="group__GeneralGroup_1ga570e9c958781bc09007f518931ca7b74" kind="variable"><name>cb</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters that are used for sampling of the <ref refid="classMR_1_1MultiwayICP" kindref="compound">MultiwayICP</ref> objects. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" line="63" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMultiwayICP.h" bodystart="64" bodyend="82"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae06a2f568227da83fff1138c53d0fc30" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>AABBTreeBased</name></member>
+      <member refid="group__GeneralGroup_1ga116ec3c17f34bc7480ee09bcd334bd58" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>CascadeMode</name></member>
+      <member refid="group__GeneralGroup_1ga570e9c958781bc09007f518931ca7b74" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>cb</name></member>
+      <member refid="group__GeneralGroup_1ga8c84a0ef595c5238df9112eb6c6f3e86" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>maxGroupSize</name></member>
+      <member refid="group__GeneralGroup_1gab9d86e834ec046c7b72c094142d046c6" prot="public" virt="non-virtual"><scope>MR::MultiwayICPSamplingParameters</scope><name>samplingVoxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

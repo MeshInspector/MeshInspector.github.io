@@ -1,0 +1,255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SimpleBinaryVolume" kind="class" language="C#" prot="public">
+    <compoundname>MR::SimpleBinaryVolume</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_SimpleBinaryVolume</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1SimpleBinaryVolume_1a56ce00c275e24b0194eaaee42e9bd579" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1VoxelBitSet" kindref="compound">MR.VoxelBitSet</ref></type>
+        <definition>new unsafe MR.VoxelBitSet MR.SimpleBinaryVolume.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <qualifiedname>MR.SimpleBinaryVolume.data</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2865" column="41" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2865" bodyend="2865"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SimpleBinaryVolume_1a899b1d0bfe3e4d335a183781f8072198" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>new unsafe ref MR.Vector3i MR.SimpleBinaryVolume.dims</definition>
+        <argsstring></argsstring>
+        <name>dims</name>
+        <qualifiedname>MR.SimpleBinaryVolume.dims</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2867" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2867" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1SimpleBinaryVolume_1a8b53816a294f8736c6538086e2265fdb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+        <definition>new unsafe ref MR.Vector3f MR.SimpleBinaryVolume.voxelSize</definition>
+        <argsstring></argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>MR.SimpleBinaryVolume.voxelSize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2869" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2869" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1SimpleBinaryVolume_1aaf85b8ce26aa37f3ff7213fbf6b14bbe" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SimpleBinaryVolume.SimpleBinaryVolume</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>SimpleBinaryVolume</name>
+        <qualifiedname>MR.SimpleBinaryVolume.SimpleBinaryVolume</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2888" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2888" bodyend="2892"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1SimpleBinaryVolume_1a05f27d76f4fad9fe8f27ad36c787cb90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SimpleBinaryVolume.SimpleBinaryVolume</definition>
+        <argsstring>()</argsstring>
+        <name>SimpleBinaryVolume</name>
+        <qualifiedname>MR.SimpleBinaryVolume.SimpleBinaryVolume</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2898" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2898" bodyend="2904"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleBinaryVolume_1ad9e31731391fdffd65fc94baa6316897" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SimpleBinaryVolume.SimpleBinaryVolume</definition>
+        <argsstring>(MR._ByValue_VoxelBitSet data, MR.Vector3i dims, MR.Vector3f voxelSize)</argsstring>
+        <name>SimpleBinaryVolume</name>
+        <qualifiedname>MR.SimpleBinaryVolume.SimpleBinaryVolume</qualifiedname>
+        <param>
+          <type>MR._ByValue_VoxelBitSet</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+          <declname>dims</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1Vector3f" kindref="compound">MR.Vector3f</ref></type>
+          <declname>voxelSize</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1SimpleBinaryVolume" kindref="compound">MR.SimpleBinaryVolume</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2909" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2909" bodyend="2916"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleBinaryVolume_1ad8da19ed4dc59475b012cdc7e05f2da1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.SimpleBinaryVolume.SimpleBinaryVolume</definition>
+        <argsstring>(MR._ByValue_SimpleBinaryVolume _other)</argsstring>
+        <name>SimpleBinaryVolume</name>
+        <qualifiedname>MR.SimpleBinaryVolume.SimpleBinaryVolume</qualifiedname>
+        <param>
+          <type>MR._ByValue_SimpleBinaryVolume</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SimpleBinaryVolume.SimpleBinaryVolume</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2921" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2921" bodyend="2928"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleBinaryVolume_1ab0f4aecf27abefe9f88a5040cba5ca36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SimpleBinaryVolume.SimpleBinaryVolume</definition>
+        <argsstring>(Const_SimpleBinaryVolume _other)</argsstring>
+        <name>SimpleBinaryVolume</name>
+        <qualifiedname>MR.SimpleBinaryVolume.SimpleBinaryVolume</qualifiedname>
+        <param>
+          <type>Const_SimpleBinaryVolume</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SimpleBinaryVolume.SimpleBinaryVolume</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2933" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2933" bodyend="2933"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleBinaryVolume_1af9321f5d2c6f2e7c269d1f45926107d5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.SimpleBinaryVolume.SimpleBinaryVolume</definition>
+        <argsstring>(SimpleBinaryVolume _other)</argsstring>
+        <name>SimpleBinaryVolume</name>
+        <qualifiedname>MR.SimpleBinaryVolume.SimpleBinaryVolume</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1SimpleBinaryVolume" kindref="compound">SimpleBinaryVolume</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.SimpleBinaryVolume.SimpleBinaryVolume</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2938" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2938" bodyend="2938"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1SimpleBinaryVolume_1ac0cb4fb8e1d1cadf0abed66e9f7c8112" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1SimpleBinaryVolume" kindref="compound">MR.SimpleBinaryVolume</ref></type>
+        <definition>unsafe MR.SimpleBinaryVolume MR.SimpleBinaryVolume.assign</definition>
+        <argsstring>(MR._ByValue_SimpleBinaryVolume _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.SimpleBinaryVolume.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_SimpleBinaryVolume</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.SimpleBinaryVolume.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2943" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2943" bodyend="2950"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>represents a box in 3D space subdivided on voxels stored in T Generated from class <computeroutput><ref refid="classMR_1_1SimpleBinaryVolume" kindref="compound">MR.SimpleBinaryVolume</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_SimpleBinaryVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SimpleBinaryVolume</label>
+        <link refid="classMR_1_1SimpleBinaryVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SimpleBinaryVolume &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_SimpleBinaryVolume</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.SimpleBinaryVolume</label>
+        <link refid="classMR_1_1SimpleBinaryVolume"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_SimpleBinaryVolume &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" line="2863" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCVoxels/MRVoxelsVolume.cs" bodystart="2864" bodyend="2951"/>
+    <listofallmembers>
+      <member refid="classMR_1_1SimpleBinaryVolume_1ac0cb4fb8e1d1cadf0abed66e9f7c8112" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>assign</name></member>
+      <member refid="classMR_1_1SimpleBinaryVolume_1a56ce00c275e24b0194eaaee42e9bd579" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>data</name></member>
+      <member refid="classMR_1_1SimpleBinaryVolume_1a899b1d0bfe3e4d335a183781f8072198" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>dims</name></member>
+      <member refid="classMR_1_1SimpleBinaryVolume_1aaf85b8ce26aa37f3ff7213fbf6b14bbe" prot="package" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1SimpleBinaryVolume_1a05f27d76f4fad9fe8f27ad36c787cb90" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1SimpleBinaryVolume_1ad9e31731391fdffd65fc94baa6316897" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1SimpleBinaryVolume_1ad8da19ed4dc59475b012cdc7e05f2da1" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1SimpleBinaryVolume_1ab0f4aecf27abefe9f88a5040cba5ca36" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1SimpleBinaryVolume_1af9321f5d2c6f2e7c269d1f45926107d5" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>SimpleBinaryVolume</name></member>
+      <member refid="classMR_1_1SimpleBinaryVolume_1a8b53816a294f8736c6538086e2265fdb" prot="public" virt="non-virtual"><scope>MR::SimpleBinaryVolume</scope><name>voxelSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,551 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1AngleMeasurementObject" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::AngleMeasurementObject</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1MeasurementObject" prot="public" virt="non-virtual">mrmeshpy.MeasurementObject</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a08d60e51ea7f3165f4c08772d58e0f50" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AngleMeasurementObject.StaticClassName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassName</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.StaticClassName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1ad8847c97a27fc747c8904b3b513cb8ce">StaticClassName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1555" bodyend="1556"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a2d24ec517549cc15f27aa3424855f88e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AngleMeasurementObject.StaticClassNameInPlural</definition>
+        <argsstring>()</argsstring>
+        <name>StaticClassNameInPlural</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.StaticClassNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aceba12f1730883436a963d1206c2fde7">StaticClassNameInPlural</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return human readable name of subclass in plural form
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1558" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1558" bodyend="1559"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a468b1514fcb9d262300ab88175c6de78" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AngleMeasurementObject.StaticTypeName</definition>
+        <argsstring>()</argsstring>
+        <name>StaticTypeName</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.StaticTypeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2fc458fce133a9ff45056ce820e23234">StaticTypeName</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return name of subtype for serialization purposes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1561" bodyend="1562"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a44e5094398c2d722e8f76c60d0457965" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AngleMeasurementObject.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1MeasurementObject_1ad77529d9844325cb9b22a49d3e206617">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The xf encodes the two rays: the origin is the angle point, (1,0,0) is the first ray, (0,1,0) is the second ray.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1563" bodyend="1566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a148d788c52ccf9f86beaf838efb78957" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AngleMeasurementObject.className</definition>
+        <argsstring>(self)</argsstring>
+        <name>className</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.className</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a6c501c1b9481a182be58e284667177d2">className</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1567" bodyend="1568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a23b13a0a863e744cd0334bdb2d49133e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AngleMeasurementObject.classNameInPlural</definition>
+        <argsstring>(self)</argsstring>
+        <name>classNameInPlural</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.classNameInPlural</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a79a6c850c880283962836f4f7c7775ca">classNameInPlural</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1569" bodyend="1570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a12dc6efe8b7d81f30825123b91ac1082" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.AngleMeasurementObject.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.clone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a1aeb8f658d1ec828372eb5f234f696fd">clone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object the owner of all copied resources
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1571" bodyend="1572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a45a177075898ce7073cd3a0e7328abdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.AngleMeasurementObject.computeAngle</definition>
+        <argsstring>(self)</argsstring>
+        <name>computeAngle</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.computeAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Computes the angle value, as if by `acos(dot(...))` from the two normalized `getWorldRay()`s.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1573" bodyend="1576"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a98de414aae00a3243da639cc137b828a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__string" kindref="compound">std_vector_std_string</ref></type>
+        <definition> std_vector_std_string mrmeshpy.AngleMeasurementObject.getInfoLines</definition>
+        <argsstring>(self)</argsstring>
+        <name>getInfoLines</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.getInfoLines</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1aadcc9d10e0b22298e7cfbde120288ed3">getInfoLines</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return several info lines that can better describe the object in the UI
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1577" bodyend="1578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a8086a439134eefb16e126f9b945cecb3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AngleMeasurementObject.getIsConical</definition>
+        <argsstring>(self)</argsstring>
+        <name>getIsConical</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.getIsConical</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Whether this is a conical angle. The middle line between the rays is preserved, but the rays themselves can be rotated.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1579" bodyend="1582"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a9e1456c4c2921726f58da20a91fffee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.AngleMeasurementObject.getLocalPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>getLocalPoint</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.getLocalPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get the angle point in local coordinates.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1583" bodyend="1586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1af6317585adff94b2762a4f8ba04ca286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.AngleMeasurementObject.getLocalRay</definition>
+        <argsstring>(self, bool second)</argsstring>
+        <name>getLocalRay</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.getLocalRay</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Same, but in local coordinates.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1587" bodyend="1590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1ab3f5cf518233a4bc32df8c58c986e52e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.AngleMeasurementObject.getShouldVisualizeRay</definition>
+        <argsstring>(self, bool second)</argsstring>
+        <name>getShouldVisualizeRay</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.getShouldVisualizeRay</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Whether we should draw a ray from the center point to better visualize the angle. Enable this if there isn&apos;t already a line object there.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1591" bodyend="1594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a994751fa19f3ba7ae85ac8bdb882610b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.AngleMeasurementObject.getWorldPoint</definition>
+        <argsstring>(self)</argsstring>
+        <name>getWorldPoint</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.getWorldPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Get the angle point in world coordinates.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1595" bodyend="1598"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1ae62583f8e8b4d989fe0a4a03fdc9bda7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.AngleMeasurementObject.getWorldRay</definition>
+        <argsstring>(self, bool second)</argsstring>
+        <name>getWorldRay</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.getWorldRay</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>second</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>One of the two rays representing the angle, relative to the starting point.
+They can have length != 1 for visualization purposes, it&apos;s probably a good idea to take the smaller of the two lengths.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1599" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1599" bodyend="1603"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a2273530e7a9b3bd3afa65007495f07b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AngleMeasurementObject.setIsConical</definition>
+        <argsstring>(self, bool value)</argsstring>
+        <name>setIsConical</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.setIsConical</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1604" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1604" bodyend="1605"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a7be3ff13d6bc1215d034d2310dbdb534" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AngleMeasurementObject.setLocalPoint</definition>
+        <argsstring>(self, Vector3f point)</argsstring>
+        <name>setLocalPoint</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.setLocalPoint</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>point</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Set the angle point in the local coordinates.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1606" bodyend="1609"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1aca8b9bd9f8ce5672f4daecf15560aa88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AngleMeasurementObject.setLocalRays</definition>
+        <argsstring>(self, Vector3f a, Vector3f b)</argsstring>
+        <name>setLocalRays</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.setLocalRays</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Set the two rays representing the angle in the local coordinates.
+The lengths are preserved.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1610" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1610" bodyend="1614"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a58a2966be7661db6d48a5363616db200" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.AngleMeasurementObject.setShouldVisualizeRay</definition>
+        <argsstring>(self, bool second, bool enable)</argsstring>
+        <name>setShouldVisualizeRay</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.setShouldVisualizeRay</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>second</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>enable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1615" bodyend="1616"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a1d2bfb619159fc0a3c31e5f8e4c5e855" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+        <definition> Object mrmeshpy.AngleMeasurementObject.shallowClone</definition>
+        <argsstring>(self)</argsstring>
+        <name>shallowClone</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.shallowClone</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a2f1849493da5afd051a79175b5f08734">shallowClone</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clones this object only, without its children,
+making new object to share resources with this object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1617" bodyend="1618"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1AngleMeasurementObject_1a880d2862b045f9d6bbcf6ba21311b584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.AngleMeasurementObject.typeName</definition>
+        <argsstring>(self)</argsstring>
+        <name>typeName</name>
+        <qualifiedname>mrmeshpy.AngleMeasurementObject.typeName</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1VisualObject_1a0e188ed95f73756841030840741720e9">typeName</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1619" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1619" bodyend="1620"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::AngleMeasurementObject
+
+Represents an angle measurement.
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.AngleMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1AngleMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeasurementObject</label>
+        <link refid="classmrmeshpy_1_1MeasurementObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.AngleMeasurementObject</label>
+        <link refid="classmrmeshpy_1_1AngleMeasurementObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.MeasurementObject</label>
+        <link refid="classmrmeshpy_1_1MeasurementObject"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>mrmeshpy.Object</label>
+        <link refid="classmrmeshpy_1_1Object"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>mrmeshpy.ObjectChildrenHolder</label>
+        <link refid="classmrmeshpy_1_1ObjectChildrenHolder"/>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.VisualObject</label>
+        <link refid="classmrmeshpy_1_1VisualObject"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="1548" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="1548" bodyend="1620"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a44e5094398c2d722e8f76c60d0457965" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a148d788c52ccf9f86beaf838efb78957" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>className</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a23b13a0a863e744cd0334bdb2d49133e" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>classNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a12dc6efe8b7d81f30825123b91ac1082" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a45a177075898ce7073cd3a0e7328abdc" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>computeAngle</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a98de414aae00a3243da639cc137b828a" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>getInfoLines</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a8086a439134eefb16e126f9b945cecb3" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>getIsConical</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a9e1456c4c2921726f58da20a91fffee0" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>getLocalPoint</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1af6317585adff94b2762a4f8ba04ca286" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>getLocalRay</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1ab3f5cf518233a4bc32df8c58c986e52e" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>getShouldVisualizeRay</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a994751fa19f3ba7ae85ac8bdb882610b" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>getWorldPoint</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1ae62583f8e8b4d989fe0a4a03fdc9bda7" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>getWorldRay</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a2273530e7a9b3bd3afa65007495f07b5" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>setIsConical</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a7be3ff13d6bc1215d034d2310dbdb534" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>setLocalPoint</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1aca8b9bd9f8ce5672f4daecf15560aa88" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>setLocalRays</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a58a2966be7661db6d48a5363616db200" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>setShouldVisualizeRay</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a1d2bfb619159fc0a3c31e5f8e4c5e855" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>shallowClone</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a08d60e51ea7f3165f4c08772d58e0f50" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>StaticClassName</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a2d24ec517549cc15f27aa3424855f88e" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>StaticClassNameInPlural</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a468b1514fcb9d262300ab88175c6de78" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>StaticTypeName</name></member>
+      <member refid="classmrmeshpy_1_1AngleMeasurementObject_1a880d2862b045f9d6bbcf6ba21311b584" prot="public" virt="non-virtual"><scope>mrmeshpy::AngleMeasurementObject</scope><name>typeName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

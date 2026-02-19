@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1TerminalVertex" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::TerminalVertex</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1TerminalVertex_1a5633f692f6dafbf5520d2b9814aac4b7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TerminalVertex::_offsetof_metric</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_metric</name>
+        <qualifiedname>mrmeshpy.TerminalVertex._offsetof_metric</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56139" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1TerminalVertex_1a84f36a20c9ccc7eab75f577a7ab1564a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.TerminalVertex::_offsetof_v</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_v</name>
+        <qualifiedname>mrmeshpy.TerminalVertex._offsetof_v</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56140" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TerminalVertex_1a3393859844a6a9df86c6306aeb7dd935" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TerminalVertex.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TerminalVertex.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56145" bodyend="56146"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TerminalVertex_1a970fc83d46097d0173a974ab86e74336" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TerminalVertex" kindref="compound">TerminalVertex</ref></type>
+        <definition> TerminalVertex mrmeshpy.TerminalVertex.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TerminalVertex.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56149" bodyend="56150"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TerminalVertex_1a970fc83d46097d0173a974ab86e74336" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1TerminalVertex" kindref="compound">TerminalVertex</ref></type>
+        <definition> TerminalVertex mrmeshpy.TerminalVertex.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.TerminalVertex.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56153" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56153" bodyend="56154"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1TerminalVertex_1a4ea8894a52345e056e448a553068e532" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TerminalVertex.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TerminalVertex.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56156" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56156" bodyend="56157"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TerminalVertex_1a1b5f966de1af73ac62702b2d04a1c48c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TerminalVertex.__init__</definition>
+        <argsstring>(self, TerminalVertex arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TerminalVertex.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TerminalVertex" kindref="compound">TerminalVertex</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56159" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56159" bodyend="56162"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1TerminalVertex_1ab251b11bc4284b59fb774d19211ac579" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.TerminalVertex.__init__</definition>
+        <argsstring>(self, VertId v, float metric)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.TerminalVertex.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertId" kindref="compound">VertId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>metric</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56164" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56164" bodyend="56167"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::TerminalVertex
+
+a vertex with associated penalty metric
+to designate a possible start or end of edge path
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.TerminalVertex</label>
+        <link refid="classmrmeshpy_1_1TerminalVertex"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_metric</edgelabel>
+          <edgelabel>_offsetof_v</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="56132" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="56132" bodyend="56167"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1TerminalVertex_1a3393859844a6a9df86c6306aeb7dd935" prot="public" virt="non-virtual"><scope>mrmeshpy::TerminalVertex</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TerminalVertex_1a4ea8894a52345e056e448a553068e532" prot="public" virt="non-virtual"><scope>mrmeshpy::TerminalVertex</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TerminalVertex_1a1b5f966de1af73ac62702b2d04a1c48c" prot="public" virt="non-virtual"><scope>mrmeshpy::TerminalVertex</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TerminalVertex_1ab251b11bc4284b59fb774d19211ac579" prot="public" virt="non-virtual"><scope>mrmeshpy::TerminalVertex</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1TerminalVertex_1a5633f692f6dafbf5520d2b9814aac4b7" prot="protected" virt="non-virtual"><scope>mrmeshpy::TerminalVertex</scope><name>_offsetof_metric</name></member>
+      <member refid="classmrmeshpy_1_1TerminalVertex_1a84f36a20c9ccc7eab75f577a7ab1564a" prot="protected" virt="non-virtual"><scope>mrmeshpy::TerminalVertex</scope><name>_offsetof_v</name></member>
+      <member refid="classmrmeshpy_1_1TerminalVertex_1a970fc83d46097d0173a974ab86e74336" prot="public" virt="non-virtual"><scope>mrmeshpy::TerminalVertex</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1TerminalVertex_1a970fc83d46097d0173a974ab86e74336" prot="public" virt="non-virtual"><scope>mrmeshpy::TerminalVertex</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

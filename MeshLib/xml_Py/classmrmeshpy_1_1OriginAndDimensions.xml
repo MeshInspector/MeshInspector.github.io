@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OriginAndDimensions" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OriginAndDimensions</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OriginAndDimensions_1a626ea69c5ae30ae29ae0659d6556510b" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OriginAndDimensions::_offsetof_dimensions</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dimensions</name>
+        <qualifiedname>mrmeshpy.OriginAndDimensions._offsetof_dimensions</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41804" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41804" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OriginAndDimensions_1ac1749a644ec3b4ed24c52abdcfaeaabb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OriginAndDimensions::_offsetof_origin</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_origin</name>
+        <qualifiedname>mrmeshpy.OriginAndDimensions._offsetof_origin</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41805" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OriginAndDimensions_1ab8bcdf390de0e946c23ced5f8058493c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OriginAndDimensions.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OriginAndDimensions.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41810" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41810" bodyend="41811"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OriginAndDimensions_1a6e995f4be023488aa3efbb7d1cac6c4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OriginAndDimensions" kindref="compound">OriginAndDimensions</ref></type>
+        <definition> OriginAndDimensions mrmeshpy.OriginAndDimensions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OriginAndDimensions.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41814" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41814" bodyend="41815"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OriginAndDimensions_1a6e995f4be023488aa3efbb7d1cac6c4f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1OriginAndDimensions" kindref="compound">OriginAndDimensions</ref></type>
+        <definition> OriginAndDimensions mrmeshpy.OriginAndDimensions.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.OriginAndDimensions.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41818" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41818" bodyend="41819"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OriginAndDimensions_1a2fd1b6fc62d2d65aa9cf92f4bf311e42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OriginAndDimensions.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OriginAndDimensions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41821" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41821" bodyend="41822"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OriginAndDimensions_1af5fa0aef217f582a7af49ad449d1ca6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OriginAndDimensions.__init__</definition>
+        <argsstring>(self, OriginAndDimensions arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OriginAndDimensions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1OriginAndDimensions" kindref="compound">OriginAndDimensions</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41824" bodyend="41827"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OriginAndDimensions_1a4dff56b94ca8d85c5bdfe09d190c8ae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OriginAndDimensions.__init__</definition>
+        <argsstring>(self, Vector3f origin, Vector3i dimensions)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OriginAndDimensions.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>origin</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3i" kindref="compound">Vector3i</ref></type>
+          <declname>dimensions</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41829" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41829" bodyend="41832"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::OriginAndDimensions
+
+shift of zero voxel in 3D space and dimensions of voxel-grid
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OriginAndDimensions</label>
+        <link refid="classmrmeshpy_1_1OriginAndDimensions"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dimensions</edgelabel>
+          <edgelabel>_offsetof_origin</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41798" bodyend="41832"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OriginAndDimensions_1ab8bcdf390de0e946c23ced5f8058493c" prot="public" virt="non-virtual"><scope>mrmeshpy::OriginAndDimensions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OriginAndDimensions_1a2fd1b6fc62d2d65aa9cf92f4bf311e42" prot="public" virt="non-virtual"><scope>mrmeshpy::OriginAndDimensions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OriginAndDimensions_1af5fa0aef217f582a7af49ad449d1ca6a" prot="public" virt="non-virtual"><scope>mrmeshpy::OriginAndDimensions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OriginAndDimensions_1a4dff56b94ca8d85c5bdfe09d190c8ae6" prot="public" virt="non-virtual"><scope>mrmeshpy::OriginAndDimensions</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OriginAndDimensions_1a626ea69c5ae30ae29ae0659d6556510b" prot="protected" virt="non-virtual"><scope>mrmeshpy::OriginAndDimensions</scope><name>_offsetof_dimensions</name></member>
+      <member refid="classmrmeshpy_1_1OriginAndDimensions_1ac1749a644ec3b4ed24c52abdcfaeaabb" prot="protected" virt="non-virtual"><scope>mrmeshpy::OriginAndDimensions</scope><name>_offsetof_origin</name></member>
+      <member refid="classmrmeshpy_1_1OriginAndDimensions_1a6e995f4be023488aa3efbb7d1cac6c4f" prot="public" virt="non-virtual"><scope>mrmeshpy::OriginAndDimensions</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1OriginAndDimensions_1a6e995f4be023488aa3efbb7d1cac6c4f" prot="public" virt="non-virtual"><scope>mrmeshpy::OriginAndDimensions</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneCache" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneCache</compoundname>
+    <includes refid="MRSceneCache_8h" local="no">MRSceneCache.h</includes>
+    <innerclass refid="structMR_1_1SceneCache_1_1BasicVectorHolder" prot="private">MR::SceneCache::BasicVectorHolder</innerclass>
+    <innerclass refid="structMR_1_1SceneCache_1_1VectorHolder" prot="private">MR::SceneCache::VectorHolder</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga9d132145ed6e28c339f8a129698217d6" kind="typedef"><name>ObjectList</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga8dc1a7e0d229b3e79f0bced413a9b2eb" kind="variable"><name>cachedData_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gaba6c0d17104f37a1b2af8967dab219e5" kind="function"><name>invalidateAll</name></member>
+      <member refid="group__GeneralGroup_1gaf66e451d5cc1d0246d98bb3700a0b82c" kind="function"><name>getAllObjects</name></member>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <member refid="group__GeneralGroup_1ga7c719267ad003b1c33152a8724d0655c" kind="function"><name>instance_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gaab04433c59956d678e5cbf5fe5ec657c" kind="function"><name>SceneCache</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class to cached scene objects data </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneCache.h" bodystart="17" bodyend="47"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga8dc1a7e0d229b3e79f0bced413a9b2eb" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>cachedData_</name></member>
+      <member refid="group__GeneralGroup_1gaf66e451d5cc1d0246d98bb3700a0b82c" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>getAllObjects</name></member>
+      <member refid="group__GeneralGroup_1ga7c719267ad003b1c33152a8724d0655c" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>instance_</name></member>
+      <member refid="group__GeneralGroup_1gaba6c0d17104f37a1b2af8967dab219e5" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>invalidateAll</name></member>
+      <member refid="group__GeneralGroup_1ga9d132145ed6e28c339f8a129698217d6" prot="public" virt="non-virtual"><scope>MR::SceneCache</scope><name>ObjectList</name></member>
+      <member refid="group__GeneralGroup_1gaab04433c59956d678e5cbf5fe5ec657c" prot="private" virt="non-virtual"><scope>MR::SceneCache</scope><name>SceneCache</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

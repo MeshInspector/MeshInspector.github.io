@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1EmbeddedStructureParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::EmbeddedStructureParameters</compoundname>
+    <includes refid="MREmbedTerrainStructure_8h" local="no">MREmbedTerrainStructure.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa7558ae5f2adc54f37b0610cb406b7a3" kind="variable"><name>fillAngle</name></member>
+      <member refid="group__GeneralGroup_1ga05c78c11ae3e84bc6ecb2f3ea9baf462" kind="variable"><name>cutAngle</name></member>
+      <member refid="group__GeneralGroup_1gaae10852bdbbce2035519d95bceadd171" kind="variable"><name>minAnglePrecision</name></member>
+      <member refid="group__GeneralGroup_1gaa4c80584b3d08189de287de06a281f18" kind="variable"><name>outStructFaces</name></member>
+      <member refid="group__GeneralGroup_1ga0ecc70b065da6f40026b7325da4135f4" kind="variable"><name>outFillFaces</name></member>
+      <member refid="group__GeneralGroup_1gabaade64848830680e26108a772fd1350" kind="variable"><name>outCutFaces</name></member>
+      <member refid="group__GeneralGroup_1ga4c436c958ad19cd19e927c74c26329f5" kind="variable"><name>new2oldFaces</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Parameters of structure embedding in terrain. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREmbedTerrainStructure.h" line="14" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MREmbedTerrainStructure.h" bodystart="15" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga05c78c11ae3e84bc6ecb2f3ea9baf462" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>cutAngle</name></member>
+      <member refid="group__GeneralGroup_1gaa7558ae5f2adc54f37b0610cb406b7a3" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>fillAngle</name></member>
+      <member refid="group__GeneralGroup_1gaae10852bdbbce2035519d95bceadd171" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>minAnglePrecision</name></member>
+      <member refid="group__GeneralGroup_1ga4c436c958ad19cd19e927c74c26329f5" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>new2oldFaces</name></member>
+      <member refid="group__GeneralGroup_1gabaade64848830680e26108a772fd1350" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>outCutFaces</name></member>
+      <member refid="group__GeneralGroup_1ga0ecc70b065da6f40026b7325da4135f4" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>outFillFaces</name></member>
+      <member refid="group__GeneralGroup_1gaa4c80584b3d08189de287de06a281f18" prot="public" virt="non-virtual"><scope>MR::EmbeddedStructureParameters</scope><name>outStructFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

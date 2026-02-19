@@ -8,6 +8,8 @@ var MREdgeMetric_8h =
     [ "MR_discreteAbsMeanCurvatureMetric_2", "MREdgeMetric_8h.html#a5cb730a8d0c5a9bccf8a95c6eceeb00f", null ],
     [ "MR_discreteMinusAbsMeanCurvatureMetric_1", "MREdgeMetric_8h.html#a7c9f5206546af5a29ec19c92abaccd41", null ],
     [ "MR_discreteMinusAbsMeanCurvatureMetric_2", "MREdgeMetric_8h.html#a7b63db3df66de44f538304b1087511a1", null ],
+    [ "MR_edgeAbsCurvMetric_3", "MREdgeMetric_8h.html#aa4b47a7fa8abdeb7e881ee21548d17f3", null ],
+    [ "MR_edgeAbsCurvMetric_4", "MREdgeMetric_8h.html#a567337961e7274de6d273f739f2b341d", null ],
     [ "MR_edgeCurvMetric_3", "MREdgeMetric_8h.html#a88d08e3351e447c1acf3fc485c50efce", null ],
     [ "MR_edgeCurvMetric_4", "MREdgeMetric_8h.html#a8d41aec1f1b35733b8c9b2c5fe2531cd", null ],
     [ "MR_edgeLengthMetric_1", "MREdgeMetric_8h.html#a1db9374b9ccccdb625fdf80da6ba8cdc", null ],

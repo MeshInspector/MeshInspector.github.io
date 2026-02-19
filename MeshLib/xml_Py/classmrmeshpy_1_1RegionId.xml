@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RegionId" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RegionId</compoundname>
+    <derivedcompoundref refid="classmrmeshpy_1_1NoDefInit__RegionId" prot="public" virt="non-virtual">mrmeshpy.NoDefInit_RegionId</derivedcompoundref>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1RegionId_1a5e2b18d0af7ca7d3e7fdfbae9c5648d4" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.RegionId::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.RegionId.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49805" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49805" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a550ff7d530f12d0a379a1cb8c7d13bd8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49808" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49808" bodyend="49809"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a550ff7d530f12d0a379a1cb8c7d13bd8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionId.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49812" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49812" bodyend="49813"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1ab4c9c77df6fc0701258783137d94db0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RegionId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49816" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49816" bodyend="49817"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1ab4c9c77df6fc0701258783137d94db0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RegionId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49820" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49820" bodyend="49821"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1ab4c9c77df6fc0701258783137d94db0f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionId.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RegionId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49824" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49824" bodyend="49825"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1ab1a58310d0336df42c361b13303542c2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionId.operatorminusminus</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operatorminusminus</name>
+        <qualifiedname>mrmeshpy.RegionId.operatorminusminus</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49828" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49828" bodyend="49829"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a97e5a79aa4ca1128dbbde41a60044570" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionId.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.RegionId.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49830" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49830" bodyend="49831"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1ad0ac42fa0528bed89510407cbf8abc64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionId.__eq__</definition>
+        <argsstring>(self, RegionId b)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.RegionId.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49832" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49832" bodyend="49833"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a0f7861bd1d46de19bb790825242ec589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionId.__iadd__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__iadd__</name>
+        <qualifiedname>mrmeshpy.RegionId.__iadd__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49834" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49834" bodyend="49835"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a412370a0005e6d68c4381cfbde89f5b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionId.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49837" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49837" bodyend="49838"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1aed20cbfa4fa953b057286b65af46df2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionId.__init__</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Allow constructing from `int` and other integral types.
+This constructor is written like this instead of a plain `Id(int)`, because we also wish to disable construction
+  from other unrelated `Id&lt;U&gt;` specializations, which themselves have implicit conversions to `int`.
+We could also achieve that using `template &lt;typename U&gt; Id(Id&lt;U&gt;) = delete;`, but it turns out that that causes issues
+  for the `EdgeId::operator UndirectedEdgeId` below. There, while `UndirectedEdgeId x = EdgeId{};` compiles with this approach,
+  but `UndirectedEdgeId x(EdgeId{});` doesn&apos;t. So to allow both forms, this constructor must be written this way, as a template.
+The `= int` is there only to make the bindings emit this constructor, I don&apos;t think it affects anything else.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49840" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49840" bodyend="49849"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a7e897a6b3d898ff5d8647ceaa20278f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegionId.__init__</definition>
+        <argsstring>(self, RegionId arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegionId.__init__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a079716a23c055cfb9d7c5b2451a5964a">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a3294a03fb2ae6f85f1f18258425e529e">__init__</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1addad5da0f49de05ca13bce935ef91e6b">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49851" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49851" bodyend="49854"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a895d1d9cd2562440c1ce28a7da6b33d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RegionId.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.RegionId.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49855" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49855" bodyend="49856"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a55c86dbda8fd3e1313eafadd7f8fb2c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionId.__isub__</definition>
+        <argsstring>(self, int a)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.RegionId.__isub__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49857" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49857" bodyend="49858"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1afcbcbca7d56e63f4f41ff22a31a283cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionId.__ne__</definition>
+        <argsstring>(self, RegionId b)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.RegionId.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49859" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49859" bodyend="49860"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a65382b9e01ebbb01161090fb64d99dda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.RegionId.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.RegionId.__repr__</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1a48a57255b11d7dc6082617971585000a">__repr__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49861" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49861" bodyend="49862"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a9cf2e6d2bdd7e37823137d92cf297731" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.RegionId.get</definition>
+        <argsstring>(self)</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.RegionId.get</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49863" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49863" bodyend="49864"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a7c9320ac35650219f28484f1eed75eb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionId.operator</definition>
+        <argsstring>(self, RegionId b)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RegionId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49866" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49866" bodyend="49867"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1aa584b0df4b660fd2257a89eacd1f4d99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionId.operator</definition>
+        <argsstring>(self)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RegionId.operator</qualifiedname>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <reimplementedby refid="classmrmeshpy_1_1NoDefInit__RegionId_1ab14cf4ac30da2976a59e603584d69698">operator</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49869" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49869" bodyend="49870"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a4d6a2f4659a9a073fb2ed902358da692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegionId" kindref="compound">RegionId</ref></type>
+        <definition> RegionId mrmeshpy.RegionId.operatorminusminus</definition>
+        <argsstring>(self)</argsstring>
+        <name>operatorminusminus</name>
+        <qualifiedname>mrmeshpy.RegionId.operatorminusminus</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49872" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49872" bodyend="49873"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegionId_1a7d9b5c5096ede265948d880c172b5e53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.RegionId.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.RegionId.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49874" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49874" bodyend="49875"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RegionId
+Aliases:  Vector_RegionId_UndirectedEdgeId_const_reference, TypedBitSet_RegionId_IndexType, Vector_RegionId_VertId_const_reference, Vector_RegionId_RegionId.const_reference, Vector_RegionId_RegionId.value_type, Vector_RegionId_RegionId.reference, Vector_RegionId_UndirectedEdgeId_reference, Vector_RegionId_FaceId_reference, Vector_RegionId_FaceId_const_reference, Vector_RegionId_FaceId_value_type, Vector_RegionId_UndirectedEdgeId_value_type, Vector_RegionId_VertId_value_type, Vector_RegionId_VertId_reference
+
+stores index of some element, it is made as template class to avoid mixing faces, edges and vertices
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.RegionId</label>
+        <link refid="classmrmeshpy_1_1RegionId"/>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.NoDefInit_RegionId</label>
+        <link refid="classmrmeshpy_1_1NoDefInit__RegionId"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49798" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49798" bodyend="49875"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RegionId_1a97e5a79aa4ca1128dbbde41a60044570" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1ad0ac42fa0528bed89510407cbf8abc64" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a5e2b18d0af7ca7d3e7fdfbae9c5648d4" prot="private" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a0f7861bd1d46de19bb790825242ec589" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__iadd__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a550ff7d530f12d0a379a1cb8c7d13bd8" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a550ff7d530f12d0a379a1cb8c7d13bd8" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a412370a0005e6d68c4381cfbde89f5b9" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1aed20cbfa4fa953b057286b65af46df2b" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a7e897a6b3d898ff5d8647ceaa20278f5" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a895d1d9cd2562440c1ce28a7da6b33d0" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a55c86dbda8fd3e1313eafadd7f8fb2c6" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1afcbcbca7d56e63f4f41ff22a31a283cd" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a65382b9e01ebbb01161090fb64d99dda" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a9cf2e6d2bdd7e37823137d92cf297731" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1ab4c9c77df6fc0701258783137d94db0f" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1ab4c9c77df6fc0701258783137d94db0f" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1ab4c9c77df6fc0701258783137d94db0f" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a7c9320ac35650219f28484f1eed75eb4" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1aa584b0df4b660fd2257a89eacd1f4d99" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1ab1a58310d0336df42c361b13303542c2" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a4d6a2f4659a9a073fb2ed902358da692" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>operatorminusminus</name></member>
+      <member refid="classmrmeshpy_1_1RegionId_1a7d9b5c5096ede265948d880c172b5e53" prot="public" virt="non-virtual"><scope>mrmeshpy::RegionId</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

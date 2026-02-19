@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GcodeProcessor::MoveAction</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1abee513ef16882bac3ded028446e06a2d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GcodeProcessor.MoveAction::_offsetof_action</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_action</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction._offsetof_action</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21637" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21637" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1ac4c07e6a7483048dd7b4608875179a2e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GcodeProcessor.MoveAction::_offsetof_feedrate</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_feedrate</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction._offsetof_feedrate</qualifiedname>
+        <initializer>=  84</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21638" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a2da98332fade6a155fe90513cded1f38" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GcodeProcessor.MoveAction::_offsetof_idle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_idle</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction._offsetof_idle</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21639" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21639" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a59e90a8d169d6197dd4768ba8652100a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.GcodeProcessor.MoveAction::_offsetof_toolDirection</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_toolDirection</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction._offsetof_toolDirection</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21640" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21640" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a0fa8344e002259564197ead7d0524600" prot="public" static="yes" mutable="no">
+        <type><ref refid="classmrmeshpy_1_1GcodeProcessor" kindref="compound">GcodeProcessor</ref></type>
+        <definition>GcodeProcessor mrmeshpy.GcodeProcessor.MoveAction::action</definition>
+        <argsstring></argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.action</qualifiedname>
+        <initializer>.<ref refid="classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector3f" kindref="compound">BaseAction_Vector3f</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21641" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a94cccd400f18a3cee5003847d2f35c0a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.MoveAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21646" bodyend="21647"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1aeca7ee65812d75b4ea639dd10055efb5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction" kindref="compound">GcodeProcessor.MoveAction</ref></type>
+        <definition> GcodeProcessor.MoveAction mrmeshpy.GcodeProcessor.MoveAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21650" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21650" bodyend="21651"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1aeca7ee65812d75b4ea639dd10055efb5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction" kindref="compound">GcodeProcessor.MoveAction</ref></type>
+        <definition> GcodeProcessor.MoveAction mrmeshpy.GcodeProcessor.MoveAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21654" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21654" bodyend="21655"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a6b4e33a8f941b215d719888953c4cdac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GcodeProcessor.MoveAction.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21656" bodyend="21657"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a27c264e499ca3d5c336a1cc8c0537db0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.MoveAction.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21659" bodyend="21660"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a96694ce660d041c5fae7aeda20fcd772" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.MoveAction.__init__</definition>
+        <argsstring>(self, GcodeProcessor.MoveAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction" kindref="compound">GcodeProcessor.MoveAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21662" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21662" bodyend="21665"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1ae835c7676f37058c25f61889cfc8770d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.MoveAction.__init__</definition>
+        <argsstring>(self, GcodeProcessor.BaseAction_Vector3f action, std_vector_Vector3_float toolDirection, bool idle, float feedrate)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GcodeProcessor_1_1BaseAction__Vector3f" kindref="compound">GcodeProcessor.BaseAction_Vector3f</ref></type>
+          <declname>action</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>toolDirection</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>idle</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>feedrate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21667" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21667" bodyend="21670"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a346631e8f732fc88f808ccc46663e872" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.GcodeProcessor.MoveAction.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21671" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21671" bodyend="21672"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1aaf3d7ff0134a1e31d940e2135d47fcae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GcodeProcessor.MoveAction.valid</definition>
+        <argsstring>(self)</argsstring>
+        <name>valid</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.valid</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return true if operation was parsed without warnings
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21673" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21673" bodyend="21676"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1ab41b0d7dca9d00b9ce54d3a38ed582b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+        <definition> std_vector_Vector3_float mrmeshpy.GcodeProcessor.MoveAction.toolDirection</definition>
+        <argsstring>(self)</argsstring>
+        <name>toolDirection</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.toolDirection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>tool direction for each point from action.path
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21678" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21678" bodyend="21681"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a527d75ee20e262b552b10d7bae7e75f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GcodeProcessor.MoveAction.toolDirection</definition>
+        <argsstring>(self, std_vector_Vector3_float arg1)</argsstring>
+        <name>toolDirection</name>
+        <qualifiedname>mrmeshpy.GcodeProcessor.MoveAction.toolDirection</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__Vector3__float" kindref="compound">std_vector_Vector3_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21683" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21683" bodyend="21685"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::GcodeProcessor::MoveAction
+
+structure that stores information about the movement of the tool, specified by some string of commands
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.GcodeProcessor.MoveAction</label>
+        <link refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_action</edgelabel>
+          <edgelabel>_offsetof_feedrate</edgelabel>
+          <edgelabel>_offsetof_idle</edgelabel>
+          <edgelabel>_offsetof_toolDirection</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>action</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>mrmeshpy.GcodeProcessor</label>
+        <link refid="classmrmeshpy_1_1GcodeProcessor"/>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21631" bodyend="21684"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a6b4e33a8f941b215d719888953c4cdac" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a94cccd400f18a3cee5003847d2f35c0a" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a27c264e499ca3d5c336a1cc8c0537db0" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a96694ce660d041c5fae7aeda20fcd772" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1ae835c7676f37058c25f61889cfc8770d" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a346631e8f732fc88f808ccc46663e872" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1abee513ef16882bac3ded028446e06a2d" prot="protected" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>_offsetof_action</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1ac4c07e6a7483048dd7b4608875179a2e" prot="protected" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>_offsetof_feedrate</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a2da98332fade6a155fe90513cded1f38" prot="protected" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>_offsetof_idle</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a59e90a8d169d6197dd4768ba8652100a" prot="protected" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>_offsetof_toolDirection</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a0fa8344e002259564197ead7d0524600" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1aeca7ee65812d75b4ea639dd10055efb5" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1aeca7ee65812d75b4ea639dd10055efb5" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1ab41b0d7dca9d00b9ce54d3a38ed582b2" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>toolDirection</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1a527d75ee20e262b552b10d7bae7e75f6" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>toolDirection</name></member>
+      <member refid="classmrmeshpy_1_1GcodeProcessor_1_1MoveAction_1aaf3d7ff0134a1e31d940e2135d47fcae" prot="public" virt="non-virtual"><scope>mrmeshpy::GcodeProcessor::MoveAction</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

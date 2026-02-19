@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangVoxelSelectionAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangVoxelSelectionAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeVoxelSelectionAction_8h" local="no">MRChangeVoxelSelectionAction.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__HistoryGroup_1ga2bc62e359f5e804a60171abdd7939bd7" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__HistoryGroup_1gae1b709f99f76a6e3464071cb56642a42" kind="variable"><name>name_</name></member>
+      <member refid="group__HistoryGroup_1ga46098df8eaeeaa4a63b6718a366f6af4" kind="variable"><name>objVoxels_</name></member>
+      <member refid="group__HistoryGroup_1ga93a11f9143eeb19f2d1692094b89117c" kind="variable"><name>selection_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__HistoryGroup_1gacd0912663f58360180bc863ab572daf4" kind="function"><name>ChangVoxelSelectionAction</name></member>
+      <member refid="group__HistoryGroup_1ga4613d2480c87b60c6d32385f80849bbe" kind="function"><name>name</name></member>
+      <member refid="group__HistoryGroup_1gaebcfdaaba426fea5c32f5ca836a7085f" kind="function"><name>action</name></member>
+      <member refid="group__HistoryGroup_1ga639784e559a258dafd067f1e374d0ae2" kind="function"><name>selection</name></member>
+      <member refid="group__HistoryGroup_1ga970e3207174343bffc6f631586e4f59d" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__HistoryGroup_1ga54f4bbe409819b2a781e9d559f22298e" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref> face selection. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangVoxelSelectionAction</label>
+        <link refid="classMR_1_1ChangVoxelSelectionAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangVoxelSelectionAction</label>
+        <link refid="classMR_1_1ChangVoxelSelectionAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRChangeVoxelSelectionAction.h" bodystart="14" bodyend="60"/>
+    <listofallmembers>
+      <member refid="group__HistoryGroup_1gaebcfdaaba426fea5c32f5ca836a7085f" prot="public" virt="virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>action</name></member>
+      <member refid="group__HistoryGroup_1gacd0912663f58360180bc863ab572daf4" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>ChangVoxelSelectionAction</name></member>
+      <member refid="group__HistoryGroup_1ga970e3207174343bffc6f631586e4f59d" prot="public" virt="virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>heapBytes</name></member>
+      <member refid="group__HistoryGroup_1ga4613d2480c87b60c6d32385f80849bbe" prot="public" virt="virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>name</name></member>
+      <member refid="group__HistoryGroup_1gae1b709f99f76a6e3464071cb56642a42" prot="private" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>name_</name></member>
+      <member refid="group__HistoryGroup_1ga2bc62e359f5e804a60171abdd7939bd7" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Obj</name></member>
+      <member refid="group__HistoryGroup_1ga46098df8eaeeaa4a63b6718a366f6af4" prot="private" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>objVoxels_</name></member>
+      <member refid="group__HistoryGroup_1ga639784e559a258dafd067f1e374d0ae2" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>selection</name></member>
+      <member refid="group__HistoryGroup_1ga93a11f9143eeb19f2d1692094b89117c" prot="private" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>selection_</name></member>
+      <member refid="group__HistoryGroup_1ga54f4bbe409819b2a781e9d559f22298e" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gac16eb31dd26d35cfc18bac8a05983aa7" prot="public" virt="non-virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangVoxelSelectionAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

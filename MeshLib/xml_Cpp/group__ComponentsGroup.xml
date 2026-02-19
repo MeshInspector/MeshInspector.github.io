@@ -1,0 +1,201 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="group__ComponentsGroup" kind="group">
+    <compoundname>ComponentsGroup</compoundname>
+    <title>Components</title>
+    <innergroup refid="group__MeshComponentsGroup">MeshComponents</innergroup>
+    <innergroup refid="group__PointCloudComponentsGroup">PointCloudComponents</innergroup>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="group__ComponentsGroup_1gaf31a9bdb0fcd7f0b1ae5f69a4b83415d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UndirectedEdgeBitSet</type>
+        <definition>MRMESH_API UndirectedEdgeBitSet MR::PolylineComponents::getComponent</definition>
+        <argsstring>(const PolylineTopology &amp;topology, UndirectedEdgeId id)</argsstring>
+        <name>getComponent</name>
+        <qualifiedname>MR::PolylineComponents::getComponent</qualifiedname>
+        <param>
+          <type>const PolylineTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>UndirectedEdgeId</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns one connected component containing given undirected edge id, not effective to call more than once, if several components are needed use getAllComponents </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="20" column="33" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="20" declcolumn="33"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ComponentsGroup_1ga80e95c2ddcd2a35b79f66a0540d4a152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::vector&lt; UndirectedEdgeBitSet &gt;</type>
+        <definition>MRMESH_API std::vector&lt; UndirectedEdgeBitSet &gt; MR::PolylineComponents::getAllComponents</definition>
+        <argsstring>(const PolylineTopology &amp;topology)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR::PolylineComponents::getAllComponents</qualifiedname>
+        <param>
+          <type>const PolylineTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all connected components of polyline topology</para>
+<para><simplesect kind="note"><para>be careful, if mesh is large enough and has many components, the memory overflow will occur </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="26" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="26" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ComponentsGroup_1ga2c677b8145a12d5f3bfba158ff3e719d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API std::pair&lt; std::vector&lt; UndirectedEdgeBitSet &gt;, int &gt;</type>
+        <definition>MRMESH_API std::pair&lt; std::vector&lt; UndirectedEdgeBitSet &gt;, int &gt; MR::PolylineComponents::getAllComponents</definition>
+        <argsstring>(const PolylineTopology &amp;topology, int maxComponentCount)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR::PolylineComponents::getAllComponents</qualifiedname>
+        <param>
+          <type>const PolylineTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxComponentCount</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets all connected components of polyline topology</para>
+<para>\detail if components number more than the maxComponentCount, they will be combined into groups of the same size <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maxComponentCount</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>should be more then 1 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>pair components bitsets vector and number components in one group if components number more than maxComponentCount </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="33" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="33" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ComponentsGroup_1gaff8ff9103faf452503ccfda3a3a8def2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; UndirectedEdgeBitSet &gt;</type>
+        <definition>std::vector&lt; UndirectedEdgeBitSet &gt; MR::PolylineComponents::getNLargeByLengthComponents</definition>
+        <argsstring>(const Polyline&lt; V &gt; &amp;polyline, const LargeByLengthComponentsSettings &amp;settings)</argsstring>
+        <name>getNLargeByLengthComponents</name>
+        <qualifiedname>MR::PolylineComponents::getNLargeByLengthComponents</qualifiedname>
+        <param>
+          <type>const Polyline&lt; V &gt; &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>const LargeByLengthComponentsSettings &amp;</type>
+          <declname>settings</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns requested number of largest by length connected components in descending by length order </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="50" column="13" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="50" declcolumn="13"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ComponentsGroup_1ga4e45c9f9a413927f7c08c3cd1062d8b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRMESH_API UnionFind&lt; UndirectedEdgeId &gt;</type>
+        <definition>MRMESH_API UnionFind&lt; UndirectedEdgeId &gt; MR::PolylineComponents::getUnionFindStructure</definition>
+        <argsstring>(const PolylineTopology &amp;topology)</argsstring>
+        <name>getUnionFindStructure</name>
+        <qualifiedname>MR::PolylineComponents::getUnionFindStructure</qualifiedname>
+        <param>
+          <type>const PolylineTopology &amp;</type>
+          <declname>topology</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gets union-find structure for given polyline </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="57" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="57" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ComponentsGroup_1ga0ab7676eb3ec7a769260f636d14c495c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename V</type>
+          </param>
+        </templateparamlist>
+        <type>UndirectedEdgeBitSet</type>
+        <definition>UndirectedEdgeBitSet MR::PolylineComponents::getLargestComponent</definition>
+        <argsstring>(const Polyline&lt; V &gt; &amp;polyline, float minLength=0, int *numSmallerComponents=nullptr)</argsstring>
+        <name>getLargestComponent</name>
+        <qualifiedname>MR::PolylineComponents::getLargestComponent</qualifiedname>
+        <param>
+          <type>const Polyline&lt; V &gt; &amp;</type>
+          <declname>polyline</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minLength</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>numSmallerComponents</declname>
+          <defval>nullptr</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns largest by length component </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" line="62" column="22" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPolylineComponents.h" declline="62" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="group__ComponentsGroup_1gaf8cb6a4fb4e8de9236165ad0636b9ade" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRVOXELS_API std::vector&lt; VoxelBitSet &gt;</type>
+        <definition>MRVOXELS_API std::vector&lt; VoxelBitSet &gt; MR::FloatGridComponents::getAllComponents</definition>
+        <argsstring>(const FloatGrid &amp;grid, float isoValue=0.0f)</argsstring>
+        <name>getAllComponents</name>
+        <qualifiedname>MR::FloatGridComponents::getAllComponents</qualifiedname>
+        <param>
+          <type>const FloatGrid &amp;</type>
+          <declname>grid</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>isoValue</declname>
+          <defval>0.0f</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>finds separated by iso-value components in grid space (0 voxel id is minimum active voxel in grid) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGridComponents.h" line="18" column="26" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFloatGridComponents.h" declline="18" declcolumn="26"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>This chapter represents documentation about components. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

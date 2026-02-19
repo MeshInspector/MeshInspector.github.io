@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PartMapping" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PartMapping</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PartMapping_1a41f8fa30630df4a30df3b1b93717d4c5" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PartMapping::_offsetof_src2tgtEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_src2tgtEdges</name>
+        <qualifiedname>mrmeshpy.PartMapping._offsetof_src2tgtEdges</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42362" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PartMapping_1aa90d9efa36729b439b9eb9c120608a6f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PartMapping::_offsetof_src2tgtFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_src2tgtFaces</name>
+        <qualifiedname>mrmeshpy.PartMapping._offsetof_src2tgtFaces</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42363" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42363" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PartMapping_1a90e5a64e0dbe062278760f500a472a8f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PartMapping::_offsetof_src2tgtVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_src2tgtVerts</name>
+        <qualifiedname>mrmeshpy.PartMapping._offsetof_src2tgtVerts</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PartMapping_1ab8aefa7469c578efe49d97a674e0796f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PartMapping::_offsetof_tgt2srcEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tgt2srcEdges</name>
+        <qualifiedname>mrmeshpy.PartMapping._offsetof_tgt2srcEdges</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42365" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42365" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PartMapping_1a8b02c01274e8b190ef73aa1da8c155ec" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PartMapping::_offsetof_tgt2srcFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tgt2srcFaces</name>
+        <qualifiedname>mrmeshpy.PartMapping._offsetof_tgt2srcFaces</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42366" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42366" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PartMapping_1a535c24b92c7dc36104c67cb4b3efb2fb" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PartMapping::_offsetof_tgt2srcVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_tgt2srcVerts</name>
+        <qualifiedname>mrmeshpy.PartMapping._offsetof_tgt2srcVerts</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42367" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1ab01a2329d7a341123d7b474bc53d88a3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartMapping.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PartMapping.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42374" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42374" bodyend="42375"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1a3ed0f822569cfe171976e2ad665968b9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+        <definition> PartMapping mrmeshpy.PartMapping.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PartMapping.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42378" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42378" bodyend="42379"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1a3ed0f822569cfe171976e2ad665968b9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+        <definition> PartMapping mrmeshpy.PartMapping.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.PartMapping.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42382" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42382" bodyend="42383"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1a616926f2bcd8beaaaba16966b42e54a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartMapping.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42385" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42385" bodyend="42386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1a4d327dc972f56bd4911785d539bfc3b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartMapping.__init__</definition>
+        <argsstring>(self, PartMapping arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PartMapping" kindref="compound">PartMapping</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42388" bodyend="42391"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1a786eaafdce12d3c285bf70b4ff04ce9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartMapping.__init__</definition>
+        <argsstring>(self, MapOrHashMap_FaceId_FaceId src2tgtFaces, MapOrHashMap_VertId_VertId src2tgtVerts, MapOrHashMap_UndirectedEdgeId_EdgeId src2tgtEdges, MapOrHashMap_FaceId_FaceId tgt2srcFaces, MapOrHashMap_VertId_VertId tgt2srcVerts, MapOrHashMap_UndirectedEdgeId_EdgeId tgt2srcEdges)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PartMapping.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+          <declname>src2tgtFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId" kindref="compound">MapOrHashMap_VertId_VertId</ref></type>
+          <declname>src2tgtVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId" kindref="compound">MapOrHashMap_UndirectedEdgeId_EdgeId</ref></type>
+          <declname>src2tgtEdges</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+          <declname>tgt2srcFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__VertId__VertId" kindref="compound">MapOrHashMap_VertId_VertId</ref></type>
+          <declname>tgt2srcVerts</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__UndirectedEdgeId__EdgeId" kindref="compound">MapOrHashMap_UndirectedEdgeId_EdgeId</ref></type>
+          <declname>tgt2srcEdges</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42393" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42393" bodyend="42396"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1abfb145a1c318ea357fc6dcbe72c3a9e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartMapping.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.PartMapping.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>clears all member maps
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42397" bodyend="42400"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1ab51198ae2919997dd7b50097ac400d01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+        <definition> MapOrHashMap_FaceId_FaceId mrmeshpy.PartMapping.src2tgtFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>src2tgtFaces</name>
+        <qualifiedname>mrmeshpy.PartMapping.src2tgtFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>source.id -&gt; target.id
+each map here can be either dense vector or hash map, the type is set by the user and preserved by mesh copying functions;
+dense maps are better by speed and memory when source mesh is packed and must be copied entirely;
+hash maps minimize memory consumption when only a small portion of source mesh is copied
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42402" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42402" bodyend="42408"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1a2d976b31634cd7218ef61770648552b8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartMapping.src2tgtFaces</definition>
+        <argsstring>(self, MapOrHashMap_FaceId_FaceId arg1)</argsstring>
+        <name>src2tgtFaces</name>
+        <qualifiedname>mrmeshpy.PartMapping.src2tgtFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42410" bodyend="42411"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1aa6132b284874f0356da18b4fd6910b04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+        <definition> MapOrHashMap_FaceId_FaceId mrmeshpy.PartMapping.tgt2srcFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>tgt2srcFaces</name>
+        <qualifiedname>mrmeshpy.PartMapping.tgt2srcFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>target.id -&gt; source.id
+dense vectors are better by speed and memory when target mesh was empty before copying
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42413" bodyend="42417"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PartMapping_1a03f7b4afd31fab37d1012508f025b37e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PartMapping.tgt2srcFaces</definition>
+        <argsstring>(self, MapOrHashMap_FaceId_FaceId arg1)</argsstring>
+        <name>tgt2srcFaces</name>
+        <qualifiedname>mrmeshpy.PartMapping.tgt2srcFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MapOrHashMap__FaceId__FaceId" kindref="compound">MapOrHashMap_FaceId_FaceId</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42419" bodyend="42420"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::PartMapping
+
+mapping among elements of source mesh, from which a part is taken, and target mesh
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PartMapping</label>
+        <link refid="classmrmeshpy_1_1PartMapping"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_src2tgtEdges</edgelabel>
+          <edgelabel>_offsetof_src2tgtFaces</edgelabel>
+          <edgelabel>_offsetof_src2tgtVerts</edgelabel>
+          <edgelabel>_offsetof_tgt2srcEdges</edgelabel>
+          <edgelabel>_offsetof_tgt2srcFaces</edgelabel>
+          <edgelabel>_offsetof_tgt2srcVerts</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42356" bodyend="42420"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PartMapping_1ab01a2329d7a341123d7b474bc53d88a3" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a616926f2bcd8beaaaba16966b42e54a2" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a4d327dc972f56bd4911785d539bfc3b2" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a786eaafdce12d3c285bf70b4ff04ce9a" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a41f8fa30630df4a30df3b1b93717d4c5" prot="protected" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>_offsetof_src2tgtEdges</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1aa90d9efa36729b439b9eb9c120608a6f" prot="protected" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>_offsetof_src2tgtFaces</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a90e5a64e0dbe062278760f500a472a8f" prot="protected" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>_offsetof_src2tgtVerts</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1ab8aefa7469c578efe49d97a674e0796f" prot="protected" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>_offsetof_tgt2srcEdges</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a8b02c01274e8b190ef73aa1da8c155ec" prot="protected" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>_offsetof_tgt2srcFaces</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a535c24b92c7dc36104c67cb4b3efb2fb" prot="protected" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>_offsetof_tgt2srcVerts</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1abfb145a1c318ea357fc6dcbe72c3a9e2" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a3ed0f822569cfe171976e2ad665968b9" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a3ed0f822569cfe171976e2ad665968b9" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1ab51198ae2919997dd7b50097ac400d01" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>src2tgtFaces</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a2d976b31634cd7218ef61770648552b8" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>src2tgtFaces</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1aa6132b284874f0356da18b4fd6910b04" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>tgt2srcFaces</name></member>
+      <member refid="classmrmeshpy_1_1PartMapping_1a03f7b4afd31fab37d1012508f025b37e" prot="public" virt="non-virtual"><scope>mrmeshpy::PartMapping</scope><name>tgt2srcFaces</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

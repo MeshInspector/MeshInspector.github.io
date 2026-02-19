@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CurvePoint" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CurvePoint</compoundname>
+    <includes refid="MRCurve_8h" local="no">MRCurve.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa66dd8795ad06b100b6b27009f406df5" kind="variable"><name>pos</name></member>
+      <member refid="group__GeneralGroup_1gab890d6dbf3c55646c877002d9cdcef86" kind="variable"><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gaa9ddd8b08fe744f50edac9292ae66920" kind="variable"><name>snorm</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRCurve.h" bodystart="13" bodyend="17"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab890d6dbf3c55646c877002d9cdcef86" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>dir</name></member>
+      <member refid="group__GeneralGroup_1gaa66dd8795ad06b100b6b27009f406df5" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>pos</name></member>
+      <member refid="group__GeneralGroup_1gaa9ddd8b08fe744f50edac9292ae66920" prot="public" virt="non-virtual"><scope>MR::CurvePoint</scope><name>snorm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

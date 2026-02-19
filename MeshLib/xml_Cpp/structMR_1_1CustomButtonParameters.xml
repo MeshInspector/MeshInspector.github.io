@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1CustomButtonParameters" kind="struct" language="C++" prot="public">
+    <compoundname>MR::CustomButtonParameters</compoundname>
+    <includes refid="MRRibbonButtonDrawer_8h" local="no">MRRibbonButtonDrawer.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad01797d49f38c7175a5ca759d5064866" kind="variable"><name>pushColorsCb</name></member>
+      <member refid="group__GeneralGroup_1gac4659ddd4f1cc193ad87ef0c017e00eb" kind="variable"><name>iconType</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" line="44" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonButtonDrawer.h" bodystart="45" bodyend="49"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gac4659ddd4f1cc193ad87ef0c017e00eb" prot="public" virt="non-virtual"><scope>MR::CustomButtonParameters</scope><name>iconType</name></member>
+      <member refid="group__GeneralGroup_1gad01797d49f38c7175a5ca759d5064866" prot="public" virt="non-virtual"><scope>MR::CustomButtonParameters</scope><name>pushColorsCb</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

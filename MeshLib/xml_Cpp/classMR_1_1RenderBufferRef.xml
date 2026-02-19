@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderBufferRef" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderBufferRef</compoundname>
+    <includes refid="MRRenderHelpers_8h" local="no">MRRenderHelpers.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gacb3fe9475e447c6066baf1d90e3e65f0" kind="variable"><name>data_</name></member>
+      <member refid="group__GeneralGroup_1ga3500a41c6639f20f7392403f7e53b555" kind="variable"><name>glSize_</name></member>
+      <member refid="group__GeneralGroup_1ga353a5e6c8ff738829be1d24a11b68e98" kind="variable"><name>dirty_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga9e1c48f420c1514b02967cc0d7ef9331" kind="function"><name>RenderBufferRef</name></member>
+      <member refid="group__GeneralGroup_1ga9ef74c7c5c8784c3ba97c00757557b9f" kind="function"><name>RenderBufferRef</name></member>
+      <member refid="group__GeneralGroup_1gafd6a6d54cfc1f72dc7ecca75f9897146" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga83514f8c96c2dd11af082fa0aac85927" kind="function"><name>data</name></member>
+      <member refid="group__GeneralGroup_1ga7a999ec2f9bcbbe78e53db8df8a5adc1" kind="function"><name>size</name></member>
+      <member refid="group__GeneralGroup_1gacebacbff1abf583d126240b1b7ccf6ea" kind="function"><name>glSize</name></member>
+      <member refid="group__GeneralGroup_1gaf2f9934c38612f16da90a865122e6119" kind="function"><name>dirty</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>provides access to shared buffer with type casting </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" line="18" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderHelpers.h" bodystart="19" bodyend="63"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga83514f8c96c2dd11af082fa0aac85927" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>data</name></member>
+      <member refid="group__GeneralGroup_1gacb3fe9475e447c6066baf1d90e3e65f0" prot="private" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>data_</name></member>
+      <member refid="group__GeneralGroup_1gaf2f9934c38612f16da90a865122e6119" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>dirty</name></member>
+      <member refid="group__GeneralGroup_1ga353a5e6c8ff738829be1d24a11b68e98" prot="private" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>dirty_</name></member>
+      <member refid="group__GeneralGroup_1gacebacbff1abf583d126240b1b7ccf6ea" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>glSize</name></member>
+      <member refid="group__GeneralGroup_1ga3500a41c6639f20f7392403f7e53b555" prot="private" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>glSize_</name></member>
+      <member refid="group__GeneralGroup_1gafd6a6d54cfc1f72dc7ecca75f9897146" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1ga9e1c48f420c1514b02967cc0d7ef9331" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>RenderBufferRef</name></member>
+      <member refid="group__GeneralGroup_1ga9ef74c7c5c8784c3ba97c00757557b9f" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>RenderBufferRef</name></member>
+      <member refid="group__GeneralGroup_1ga7a999ec2f9bcbbe78e53db8df8a5adc1" prot="public" virt="non-virtual"><scope>MR::RenderBufferRef</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

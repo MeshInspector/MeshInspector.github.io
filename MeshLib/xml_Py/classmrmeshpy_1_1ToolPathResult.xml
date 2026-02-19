@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ToolPathResult" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ToolPathResult</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathResult_1a37b2e27fdb35b5629ac1115a54bdce82" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathResult::_offsetof_commands</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_commands</name>
+        <qualifiedname>mrmeshpy.ToolPathResult._offsetof_commands</qualifiedname>
+        <initializer>=  304</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57037" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathResult_1ab3fdd4d777cdb4aaf9dc907148b0f8de" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathResult::_offsetof_modifiedMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_modifiedMesh</name>
+        <qualifiedname>mrmeshpy.ToolPathResult._offsetof_modifiedMesh</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57038" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57038" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ToolPathResult_1a187365174560d47be9ad154620e17830" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ToolPathResult::_offsetof_modifiedRegion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_modifiedRegion</name>
+        <qualifiedname>mrmeshpy.ToolPathResult._offsetof_modifiedRegion</qualifiedname>
+        <initializer>=  272</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57039" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57039" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1ab69e22ea4b8f727ebb892c1305cc8df7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathResult.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57042" bodyend="57043"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1a25836299b61a2debf74235adb36c9208" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ToolPathResult" kindref="compound">ToolPathResult</ref></type>
+        <definition> ToolPathResult mrmeshpy.ToolPathResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57046" bodyend="57047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1a25836299b61a2debf74235adb36c9208" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ToolPathResult" kindref="compound">ToolPathResult</ref></type>
+        <definition> ToolPathResult mrmeshpy.ToolPathResult.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57050" bodyend="57051"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1a108e7d551937d9cf63c825ab77f98ed1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathResult.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57053" bodyend="57054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1add87be9b4841f1037a44335ba9b35110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathResult.__init__</definition>
+        <argsstring>(self, ToolPathResult arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ToolPathResult" kindref="compound">ToolPathResult</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57056" bodyend="57059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1a212f90490317f851d514e1af1585e4d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathResult.__init__</definition>
+        <argsstring>(self, Mesh modifiedMesh, FaceBitSet modifiedRegion, std_vector_GCommand commands)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>modifiedMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>modifiedRegion</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__GCommand" kindref="compound">std_vector_GCommand</ref></type>
+          <declname>commands</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57061" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57061" bodyend="57064"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1a7293158e6a04bdb615df1018680c6d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__GCommand" kindref="compound">std_vector_GCommand</ref></type>
+        <definition> std_vector_GCommand mrmeshpy.ToolPathResult.commands</definition>
+        <argsstring>(self)</argsstring>
+        <name>commands</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.commands</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>constains type of movement and its feed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57066" bodyend="57069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1ab25afb8705c7fa2cced67277a84a208b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathResult.commands</definition>
+        <argsstring>(self, std_vector_GCommand arg1)</argsstring>
+        <name>commands</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.commands</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__GCommand" kindref="compound">std_vector_GCommand</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57071" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57071" bodyend="57072"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1a602277cea1b4c57315c1d2ccc92dbf86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.ToolPathResult.modifiedMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>modifiedMesh</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.modifiedMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>mesh after fixing undercuts and offset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57074" bodyend="57077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1a4da74998438962e63e4860c6994c976e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathResult.modifiedMesh</definition>
+        <argsstring>(self, Mesh arg1)</argsstring>
+        <name>modifiedMesh</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.modifiedMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57079" bodyend="57080"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1a59be3b89dc318b6587f5bfc5890d4f6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.ToolPathResult.modifiedRegion</definition>
+        <argsstring>(self)</argsstring>
+        <name>modifiedRegion</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.modifiedRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>selected region projected from the original mesh to the offset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57082" bodyend="57085"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ToolPathResult_1a498c72d3107699ba1d0554fed7941132" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ToolPathResult.modifiedRegion</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>modifiedRegion</name>
+        <qualifiedname>mrmeshpy.ToolPathResult.modifiedRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57087" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57087" bodyend="57088"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ToolPathResult
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ToolPathResult</label>
+        <link refid="classmrmeshpy_1_1ToolPathResult"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_commands</edgelabel>
+          <edgelabel>_offsetof_modifiedMesh</edgelabel>
+          <edgelabel>_offsetof_modifiedRegion</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="57033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="57033" bodyend="57088"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1ab69e22ea4b8f727ebb892c1305cc8df7" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a108e7d551937d9cf63c825ab77f98ed1" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1add87be9b4841f1037a44335ba9b35110" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a212f90490317f851d514e1af1585e4d9" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a37b2e27fdb35b5629ac1115a54bdce82" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>_offsetof_commands</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1ab3fdd4d777cdb4aaf9dc907148b0f8de" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>_offsetof_modifiedMesh</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a187365174560d47be9ad154620e17830" prot="protected" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>_offsetof_modifiedRegion</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a7293158e6a04bdb615df1018680c6d26" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>commands</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1ab25afb8705c7fa2cced67277a84a208b" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>commands</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a602277cea1b4c57315c1d2ccc92dbf86" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>modifiedMesh</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a4da74998438962e63e4860c6994c976e" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>modifiedMesh</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a59be3b89dc318b6587f5bfc5890d4f6e" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>modifiedRegion</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a498c72d3107699ba1d0554fed7941132" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>modifiedRegion</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a25836299b61a2debf74235adb36c9208" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ToolPathResult_1a25836299b61a2debf74235adb36c9208" prot="public" virt="non-virtual"><scope>mrmeshpy::ToolPathResult</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

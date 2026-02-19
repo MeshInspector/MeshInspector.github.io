@@ -1,0 +1,1319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1GraphEdgeBitSet" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::GraphEdgeBitSet</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1BitSet" prot="public" virt="non-virtual">mrmeshpy.BitSet</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a5d07da3efb823706bc1159d37e5e791e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphEdgeBitSet.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22004" bodyend="22005"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a6ebd4c42f25c0584e7a422cc7e3bcfc8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.beginId</definition>
+        <argsstring>()</argsstring>
+        <name>beginId</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.beginId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ae529e168da2a1905ad02819146ae8274">beginId</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>[beginId(), endId()) is the range of all bits in the set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22007" bodyend="22010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22013" bodyend="22014"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7ab42866fcda21519f73a78064f1e881">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22017" bodyend="22018"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a9e3039c123c28da4a58c4735a6deae81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.__and__</definition>
+        <argsstring>(self, GraphEdgeBitSet b)</argsstring>
+        <name>__and__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__and__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a5d5a1bb5839863d7c2b6c396ee4d6ec2">__and__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22019" bodyend="22020"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a4d14181af650fb07af6e56bb5a0763ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.__iand__</definition>
+        <argsstring>(self, GraphEdgeBitSet b)</argsstring>
+        <name>__iand__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__iand__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6c0e67571d2dda445e00a7a3f0b8fa03">__iand__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22021" bodyend="22022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a2852d4b89450251baafdaa456319bdb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphEdgeBitSet.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22024" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22024" bodyend="22025"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a2fcc5e8454987544e5af713aac008bdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphEdgeBitSet.__init__</definition>
+        <argsstring>(self, int numBits, bool fillValue=False)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>numBits</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>fillValue</declname>
+          <defval>False</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>creates bitset of given size filled with given value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22027" bodyend="22030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphEdgeBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>copies all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22032" bodyend="22035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphEdgeBitSet.__init__</definition>
+        <argsstring>(self, BitSet src)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BitSet" kindref="compound">BitSet</ref></type>
+          <declname>src</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>moves all bits from another BitSet (or a descending class, e.g. TypedBitSet&lt;U&gt;)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22037" bodyend="22040"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ad6107e9e27855d31e1cf542e149118f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphEdgeBitSet.__init__</definition>
+        <argsstring>(self, GraphEdgeBitSet arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__init__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aec2d31c5842b18f1ef3a2e3e1de0ddf3">__init__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22042" bodyend="22045"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a7fbbef9415507a11f61e4faff66ec75c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.__ior__</definition>
+        <argsstring>(self, GraphEdgeBitSet b)</argsstring>
+        <name>__ior__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__ior__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7925948c890b93c25339224dac3d62b5">__ior__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22046" bodyend="22047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a44ff67aa07ca09e1f5fa4eec3ccacfd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.__isub__</definition>
+        <argsstring>(self, GraphEdgeBitSet b)</argsstring>
+        <name>__isub__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__isub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a929da8ae8fc04abf1bc5844cec7f2a2f">__isub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22048" bodyend="22049"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a0249c1331438b69bc0f2ad753333e904" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref>]</type>
+        <definition> typing.Iterator[GraphEdgeId] mrmeshpy.GraphEdgeBitSet.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__iter__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ab27310e0d97ac0e5d5d6eb3cf73d5702">__iter__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22050" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22050" bodyend="22051"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a5942ea982bcb72ab797f52165e025668" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.__ixor__</definition>
+        <argsstring>(self, GraphEdgeBitSet b)</argsstring>
+        <name>__ixor__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__ixor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a02b92f6054c36b6fe27b4b8063e999ed">__ixor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22052" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22052" bodyend="22053"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a7326340474e89a0f99b9276107533f23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.__or__</definition>
+        <argsstring>(self, GraphEdgeBitSet b)</argsstring>
+        <name>__or__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__or__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a6080707aa8d309a258a5f70519543e50">__or__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22054" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22054" bodyend="22055"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a2daba4ceae7b15a152705ff963d7a3d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.GraphEdgeBitSet.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__repr__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a04fe2114fcc0ece2af5b884855857feb">__repr__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22056" bodyend="22057"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a0ea5e7892c402e689ce30ff1955d5c57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.__sub__</definition>
+        <argsstring>(self, GraphEdgeBitSet b)</argsstring>
+        <name>__sub__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__sub__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a770c5dfc082a8ca3befff15e617900e7">__sub__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22058" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22058" bodyend="22059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a368340b9d0233f4fc2e86095f4224c8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.__xor__</definition>
+        <argsstring>(self, GraphEdgeBitSet b)</argsstring>
+        <name>__xor__</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.__xor__</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1adda895cc3e159e7135adb63efdc4e5d7">__xor__</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22060" bodyend="22061"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1aa6655b4ee80d071cd8ea06fe7c0778f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphEdgeBitSet.autoResizeSet</definition>
+        <argsstring>(self, GraphEdgeId pos, int len, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22063" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22063" bodyend="22064"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a0fdacaac7bdb6e7381be2185e23b9fa1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.GraphEdgeBitSet.autoResizeSet</definition>
+        <argsstring>(self, GraphEdgeId pos, bool val=True)</argsstring>
+        <name>autoResizeSet</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.autoResizeSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acab8dde45127ba4019a41145736df7e0">autoResizeSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>len</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>sets elements [pos, pos+len) to given value, adjusting the size of the set to include new elements
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22066" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22066" bodyend="22067"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a9744b88febc10db81dd13bd818d98ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphEdgeBitSet.autoResizeTestSet</definition>
+        <argsstring>(self, GraphEdgeId pos, bool val=True)</argsstring>
+        <name>autoResizeTestSet</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.autoResizeTestSet</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad1d43b5793a3dce9511fd445d695aa83">autoResizeTestSet</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>same as \\ref autoResizeSet and returns previous value of pos-bit
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22068" bodyend="22069"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a61d7d9aa166ba062b0c1a58f965268f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.backId</definition>
+        <argsstring>(self)</argsstring>
+        <name>backId</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.backId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a71d144899c501363ec1fc3aa7f745b2d">backId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the identifier of the back() element
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22070" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22070" bodyend="22073"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ad0d399349909eb6b2cd7209aad90bf0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.endId</definition>
+        <argsstring>(self)</argsstring>
+        <name>endId</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.endId</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a9f71200c981f11d2ec5f7c797de269e5">endId</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22074" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22074" bodyend="22075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ab3e725b0f6906abee2f213386ed5055a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.find_first</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.find_first</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aac9c41ec6addef5012e587e850a8d006">find_first</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22076" bodyend="22077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a6f387f17c70ce9a0012596836bc1592b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.find_first_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_first_not_set</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.find_first_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a15e32e17fea4f662f8a0f55fd1bcd0b6">find_first_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22078" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22078" bodyend="22079"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a8edd547225e693382746b0299aef9388" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.find_last</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.find_last</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a4ab474551b7e0e4e7daab1c8b5eefa77">find_last</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22080" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22080" bodyend="22081"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a85ad329887df12196c2ab6e3c0d758e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.find_last_not_set</definition>
+        <argsstring>(self)</argsstring>
+        <name>find_last_not_set</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.find_last_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa50056294318a1e11be2d832bdbd6329">find_last_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the highest index i such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22082" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22082" bodyend="22083"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a9878d6692e41f37978220ed9fa10ef9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.find_next</definition>
+        <argsstring>(self, GraphEdgeId pos)</argsstring>
+        <name>find_next</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.find_next</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1acd501b4c783e055396bf0665ead0566f">find_next</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22084" bodyend="22085"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ae7a682d8744a980d567533397d2b2aaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.find_next_not_set</definition>
+        <argsstring>(self, GraphEdgeId pos)</argsstring>
+        <name>find_next_not_set</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.find_next_not_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aedde9c4ef90198acb1ddb7874ed1d491">find_next_not_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22086" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22086" bodyend="22087"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a9a1d2b585a08fbb876f597d658f37126" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.flip</definition>
+        <argsstring>(self, GraphEdgeId n, int len)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22089" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22089" bodyend="22090"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a7f89675aedf193dc468341b965b6d7f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.flip</definition>
+        <argsstring>(self, GraphEdgeId n)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22092" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22092" bodyend="22093"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ac8b3e38465415b5bb9c6d6b8e51746e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.flip</definition>
+        <argsstring>(self)</argsstring>
+        <name>flip</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.flip</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1aa40c92a91b8d1c7040d794c24ad648f2">flip</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22095" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22095" bodyend="22096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a580a8c1818089d87cf43cba1375b4d55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(self, Vector_GraphEdgeId_GraphEdgeId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId" kindref="compound">Vector_GraphEdgeId_GraphEdgeId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22098" bodyend="22099"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1abdce625404d9cd03da73b4bf1a1c1ba0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(self, BMap_GraphEdgeId_GraphEdgeId map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1BMap__GraphEdgeId__GraphEdgeId" kindref="compound">BMap_GraphEdgeId_GraphEdgeId</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22101" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22101" bodyend="22102"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ae55bce77c01ab51ff370e4a51bb42efb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag map)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag" kindref="compound">phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22104" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22104" bodyend="22105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ac2e79500d3d2076ebf242d437a880c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(self, Vector_GraphEdgeId_GraphEdgeId map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector__GraphEdgeId__GraphEdgeId" kindref="compound">Vector_GraphEdgeId_GraphEdgeId</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22107" bodyend="22108"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a71895041f014a328541c883d476b69c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.getMapping</definition>
+        <argsstring>(self, phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag map, int resSize)</argsstring>
+        <name>getMapping</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.getMapping</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1phmap__flat__hash__map__Id__GraphEdgeTag__Id__GraphEdgeTag" kindref="compound">phmap_flat_hash_map_Id_GraphEdgeTag_Id_GraphEdgeTag</ref></type>
+          <declname>map</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>resSize</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22110" bodyend="22111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a84bd9b4d677aca3f4e720b871ab894d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphEdgeBitSet.intersects</definition>
+        <argsstring>(self, GraphEdgeBitSet a)</argsstring>
+        <name>intersects</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.intersects</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad4b757b117afb3db5c7fca16e82d790a">intersects</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, there is a bit which is set in this bitset, such that the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22112" bodyend="22115"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a4b37819366e4c3ab65824621c4a42586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphEdgeBitSet.is_subset_of</definition>
+        <argsstring>(self, GraphEdgeBitSet a)</argsstring>
+        <name>is_subset_of</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.is_subset_of</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a2be8e340e3ee4b2e1fc14c24833d2a99">is_subset_of</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>a</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if, for every bit that is set in this bitset, the corresponding bit in bitset a is also set. Otherwise this function returns false.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22116" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22116" bodyend="22119"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1abcbe2fadfd69e22a335927a3d44f9112" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+        <definition> GraphEdgeId mrmeshpy.GraphEdgeBitSet.nthSetBit</definition>
+        <argsstring>(self, int n)</argsstring>
+        <name>nthSetBit</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.nthSetBit</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad25bdd5a49f4648994cef1ae56864c3f">nthSetBit</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the location of nth set bit (where the first bit corresponds to n=0) or IndexType(npos) if there are less bit set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22120" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22120" bodyend="22123"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a9a83015d730b71412e72859d31b506d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.reset</definition>
+        <argsstring>(self, GraphEdgeId n, int len)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22125" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22125" bodyend="22126"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1ad8d3bd8085cf1e047f460e25f92257a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.reset</definition>
+        <argsstring>(self, GraphEdgeId n)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22128" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22128" bodyend="22129"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1adab5fa84aab9a8b0501cadd2e5cb7b3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.reset</definition>
+        <argsstring>(self)</argsstring>
+        <name>reset</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.reset</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1af98c3b02672e1af82543a359566a1d78">reset</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22131" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22131" bodyend="22132"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a36805afc1c021045d398a16f13cb4960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.set</definition>
+        <argsstring>(self, GraphEdgeId n, int len, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>len</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22134" bodyend="22135"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a63e252c652585671c4144d40d0741f05" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.set</definition>
+        <argsstring>(self, GraphEdgeId n, bool val)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22137" bodyend="22138"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a47cf69baead5c0b539cbadbf415f77fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.set</definition>
+        <argsstring>(self, GraphEdgeId n)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22140" bodyend="22141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1af40a7ffbd973eebaa9993ebbdb2fd078" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.set</definition>
+        <argsstring>(self)</argsstring>
+        <name>set</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a0f413602e83efc97d701b2c004092fdf">set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22143" bodyend="22144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a0e0cb4d27f653e988f5716c6a4ddb7d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+        <definition> GraphEdgeBitSet mrmeshpy.GraphEdgeBitSet.subtract</definition>
+        <argsstring>(self, GraphEdgeBitSet b, int bShiftInBlocks)</argsstring>
+        <name>subtract</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.subtract</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1a7435650982cc9c6c561ddf84cccd998d">subtract</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeBitSet" kindref="compound">GraphEdgeBitSet</ref></type>
+          <declname>b</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bShiftInBlocks</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>subtracts b from this, considering that bits in b are shifted right on bShiftInBlocks*bits_per_block
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22145" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22145" bodyend="22148"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a1bd4b90eeca6edf2445e2a5068e4976a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphEdgeBitSet.test</definition>
+        <argsstring>(self, GraphEdgeId n)</argsstring>
+        <name>test</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.test</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1afe9b7c78f712014eb7a54b278d4fdc27">test</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>all bits after size() we silently consider as not-set
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22149" bodyend="22150"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1GraphEdgeBitSet_1a84af477dd5fcdf46f75a90c556e316e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.GraphEdgeBitSet.test_set</definition>
+        <argsstring>(self, GraphEdgeId n, bool val=True)</argsstring>
+        <name>test_set</name>
+        <qualifiedname>mrmeshpy.GraphEdgeBitSet.test_set</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1BitSet_1ad708e93308d23ed9afd87e0f31acfda3">test_set</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1GraphEdgeId" kindref="compound">GraphEdgeId</ref></type>
+          <declname>n</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>val</declname>
+          <defval>True</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="22151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="22151" bodyend="22152"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::GraphEdgeBitSet
+Aliases:  Graph.EdgeBitSet
+
+Vector&lt;bool, I&gt; like container (random-access, I - index type, bool - value type)
+with all bits after size() considered off during testing
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.GraphEdgeBitSet</label>
+        <link refid="classmrmeshpy_1_1GraphEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.GraphEdgeBitSet</label>
+        <link refid="classmrmeshpy_1_1GraphEdgeBitSet"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.BitSet</label>
+        <link refid="classmrmeshpy_1_1BitSet"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>bits_per_block</edgelabel>
+          <edgelabel>npos</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="21994" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="21994" bodyend="22152"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9e3039c123c28da4a58c4735a6deae81" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__and__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a4d14181af650fb07af6e56bb5a0763ec" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__iand__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a5d07da3efb823706bc1159d37e5e791e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2852d4b89450251baafdaa456319bdb7" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2fcc5e8454987544e5af713aac008bdc" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7e9409c1a67cb7aaa68feea527942b31" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ad6107e9e27855d31e1cf542e149118f4" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7fbbef9415507a11f61e4faff66ec75c" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__ior__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a44ff67aa07ca09e1f5fa4eec3ccacfd0" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__isub__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0249c1331438b69bc0f2ad753333e904" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a5942ea982bcb72ab797f52165e025668" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__ixor__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7326340474e89a0f99b9276107533f23" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__or__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a2daba4ceae7b15a152705ff963d7a3d8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0ea5e7892c402e689ce30ff1955d5c57" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__sub__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a368340b9d0233f4fc2e86095f4224c8e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>__xor__</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1aa6655b4ee80d071cd8ea06fe7c0778f3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0fdacaac7bdb6e7381be2185e23b9fa1" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>autoResizeSet</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9744b88febc10db81dd13bd818d98ac8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>autoResizeTestSet</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a61d7d9aa166ba062b0c1a58f965268f0" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>backId</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a6ebd4c42f25c0584e7a422cc7e3bcfc8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>beginId</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ad0d399349909eb6b2cd7209aad90bf0e" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>endId</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ab3e725b0f6906abee2f213386ed5055a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>find_first</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a6f387f17c70ce9a0012596836bc1592b" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>find_first_not_set</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a8edd547225e693382746b0299aef9388" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>find_last</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a85ad329887df12196c2ab6e3c0d758e3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>find_last_not_set</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9878d6692e41f37978220ed9fa10ef9f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>find_next</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ae7a682d8744a980d567533397d2b2aaf" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>find_next_not_set</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9a1d2b585a08fbb876f597d658f37126" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a7f89675aedf193dc468341b965b6d7f6" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ac8b3e38465415b5bb9c6d6b8e51746e1" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>flip</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a580a8c1818089d87cf43cba1375b4d55" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1abdce625404d9cd03da73b4bf1a1c1ba0" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ae55bce77c01ab51ff370e4a51bb42efb" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ac2e79500d3d2076ebf242d437a880c21" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a71895041f014a328541c883d476b69c3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>getMapping</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a84bd9b4d677aca3f4e720b871ab894d3" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>intersects</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a4b37819366e4c3ab65824621c4a42586" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>is_subset_of</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1abcbe2fadfd69e22a335927a3d44f9112" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>nthSetBit</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a90ee6054763625140408f132441fec8f" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a9a83015d730b71412e72859d31b506d4" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1ad8d3bd8085cf1e047f460e25f92257a7" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1adab5fa84aab9a8b0501cadd2e5cb7b3c" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>reset</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a36805afc1c021045d398a16f13cb4960" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a63e252c652585671c4144d40d0741f05" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a47cf69baead5c0b539cbadbf415f77fc" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1af40a7ffbd973eebaa9993ebbdb2fd078" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>set</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a0e0cb4d27f653e988f5716c6a4ddb7d0" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>subtract</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a1bd4b90eeca6edf2445e2a5068e4976a" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>test</name></member>
+      <member refid="classmrmeshpy_1_1GraphEdgeBitSet_1a84af477dd5fcdf46f75a90c556e316e8" prot="public" virt="non-virtual"><scope>mrmeshpy::GraphEdgeBitSet</scope><name>test_set</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

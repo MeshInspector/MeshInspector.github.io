@@ -1,0 +1,1465 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SubdivideSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SubdivideSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1abcbf5280e0ffbc745d3e7d7f149d88df" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_beforeEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_beforeEdgeSplit</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_beforeEdgeSplit</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53404" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a79760bfe03bb4da8b68eea77ce5c7ff1" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_criticalAspectRatioFlip</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_criticalAspectRatioFlip</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_criticalAspectRatioFlip</qualifiedname>
+        <initializer>=  20</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53405" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53405" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a1bd49e36a3532be4865fa3fe89f36ea2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_curvaturePriority</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_curvaturePriority</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_curvaturePriority</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53406" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53406" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a8bb3b2d9089cc5be360b512e065bf11f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_maintainRegion</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maintainRegion</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_maintainRegion</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53407" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1ae77ece08724bbbb8de1fc01f7a637bef" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxAngleChangeAfterFlip</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_maxAngleChangeAfterFlip</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53408" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53408" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1aae00d2e044ed7b3baec504779ff4fa84" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_maxDeviationAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxDeviationAfterFlip</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_maxDeviationAfterFlip</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53409" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53409" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a55106090f96ff33eba363e09f594bc41" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_maxEdgeLen</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53410" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a83cf140be40cc61b5d35ed44730e4646" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxEdgeSplits</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_maxEdgeSplits</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53411" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53411" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a98f107a3ce6622b50f4c2fcb8f7b5646" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxSplittableTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_maxSplittableTriAspectRatio</qualifiedname>
+        <initializer>=  64</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53412" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53412" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1aacd65197f4ecc49275a64034af6115a4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_maxTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_maxTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_maxTriAspectRatio</qualifiedname>
+        <initializer>=  60</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53413" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1af01e211809b49b163f5530afda02267a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_minSharpDihedralAngle</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_minSharpDihedralAngle</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_minSharpDihedralAngle</qualifiedname>
+        <initializer>=  72</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53414" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53414" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a4b502dbb9d638d0036f8db25bbb3faa0" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_newVerts</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_newVerts</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_newVerts</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53415" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a810c828dd52abdbbffffc675a1a839b4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_notFlippable</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_notFlippable</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_notFlippable</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53416" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a332a2766d79a43110056899e7fefd956" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onEdgeSplit</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_onEdgeSplit</qualifiedname>
+        <initializer>=  144</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53417" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53417" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1abbb2446434dc5529d892c8963501b9f7" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_onVertCreated</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_onVertCreated</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_onVertCreated</qualifiedname>
+        <initializer>=  112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53418" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53418" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a4b77ad50e492097278a241ac0257fcbd" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_progressCallback</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progressCallback</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_progressCallback</qualifiedname>
+        <initializer>=  176</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53419" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a7bf72106045baa38bf538eebfefa5ded" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_projectOnOriginalMesh</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_projectOnOriginalMesh</qualifiedname>
+        <initializer>=  76</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53420" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53420" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1a647199614fffd914b744dd8a7d7dff97" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_region</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_region</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_region</qualifiedname>
+        <initializer>=  24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53421" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53421" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1affaf6329dc31c02ac59423fb8b1f588d" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_smoothMode</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_smoothMode</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_smoothMode</qualifiedname>
+        <initializer>=  68</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53422" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SubdivideSettings_1af521ef6822495773538011625f745ab6" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SubdivideSettings::_offsetof_subdivideBorder</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_subdivideBorder</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings._offsetof_subdivideBorder</qualifiedname>
+        <initializer>=  56</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53423" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53423" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a18d250e638903bfd44b9e03c23c9a11f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53426" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53426" bodyend="53427"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a7d0b4dfd85f799cc4908447d0a4433a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref></type>
+        <definition> SubdivideSettings mrmeshpy.SubdivideSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53430" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53430" bodyend="53431"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a7d0b4dfd85f799cc4908447d0a4433a0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref></type>
+        <definition> SubdivideSettings mrmeshpy.SubdivideSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53434" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53434" bodyend="53435"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a116a49624c84131bb1311078dd875e8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53437" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53437" bodyend="53438"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a0bdec7f52e1b3067e2b5858957b2d1d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.__init__</definition>
+        <argsstring>(self, SubdivideSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SubdivideSettings" kindref="compound">SubdivideSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53440" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53440" bodyend="53443"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a89492c2898ade0fd5071b7a1d977ab3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.__init__</definition>
+        <argsstring>(self, float maxEdgeLen, float curvaturePriority, int maxEdgeSplits, float maxDeviationAfterFlip, float maxAngleChangeAfterFlip, float criticalAspectRatioFlip, FaceBitSet region, FaceBitSet maintainRegion, UndirectedEdgeBitSet notFlippable, VertBitSet newVerts, bool subdivideBorder, float maxTriAspectRatio, float maxSplittableTriAspectRatio, bool smoothMode, float minSharpDihedralAngle, bool projectOnOriginalMesh, func_bool_from_Id_EdgeTag beforeEdgeSplit, func_void_from_Id_VertTag onVertCreated, func_void_from_Id_EdgeTag_Id_EdgeTag onEdgeSplit, func_bool_from_float progressCallback)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxEdgeLen</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>curvaturePriority</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>maxEdgeSplits</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxDeviationAfterFlip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxAngleChangeAfterFlip</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>criticalAspectRatioFlip</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>region</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>maintainRegion</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>notFlippable</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>newVerts</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>subdivideBorder</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>maxSplittableTriAspectRatio</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>smoothMode</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>minSharpDihedralAngle</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>projectOnOriginalMesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag" kindref="compound">func_bool_from_Id_EdgeTag</ref></type>
+          <declname>beforeEdgeSplit</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__VertTag" kindref="compound">func_void_from_Id_VertTag</ref></type>
+          <declname>onVertCreated</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>onEdgeSplit</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progressCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53445" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53445" bodyend="53448"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a05e725e668c0d998e738738fe206b573" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag" kindref="compound">func_bool_from_Id_EdgeTag</ref></type>
+        <definition> func_bool_from_Id_EdgeTag mrmeshpy.SubdivideSettings.beforeEdgeSplit</definition>
+        <argsstring>(self)</argsstring>
+        <name>beforeEdgeSplit</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.beforeEdgeSplit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53450" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53450" bodyend="53453"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a27c28eb041431a83070e2babba9f2d24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.beforeEdgeSplit</definition>
+        <argsstring>(self, func_bool_from_Id_EdgeTag arg1)</argsstring>
+        <name>beforeEdgeSplit</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.beforeEdgeSplit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__Id__EdgeTag" kindref="compound">func_bool_from_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53455" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53455" bodyend="53456"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a5c6c116f7e90e87b10bab532a9c6f30b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SubdivideSettings.criticalAspectRatioFlip</definition>
+        <argsstring>(self)</argsstring>
+        <name>criticalAspectRatioFlip</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.criticalAspectRatioFlip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If this value is less than FLT_MAX then edge flips will
+ignore dihedral angle check if one of triangles has aspect ratio more than this value
+Unit: rad
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53458" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53458" bodyend="53463"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a82df751d969cc5bf8693139c412858ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.criticalAspectRatioFlip</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>criticalAspectRatioFlip</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.criticalAspectRatioFlip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53465" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53465" bodyend="53466"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a7c362e0341337335a4c8db2eb8698fa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SubdivideSettings.curvaturePriority</definition>
+        <argsstring>(self)</argsstring>
+        <name>curvaturePriority</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.curvaturePriority</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>edge length will be magnified by the squared difference of normals at edge&apos;s ends times this factor,
+thus subdivision will be finer in the regions of high curvature compared to planar regions
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53468" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53468" bodyend="53472"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a9e67e80ce849b895e47403fcaf155ac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.curvaturePriority</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>curvaturePriority</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.curvaturePriority</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53474" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53474" bodyend="53475"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a5d37f221868eef866e57ca7deae2fa96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.SubdivideSettings.maintainRegion</definition>
+        <argsstring>(self)</argsstring>
+        <name>maintainRegion</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maintainRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Additional region to update during subdivision: if a face from here is split, it is replaced with new sub-faces;
+note that Subdivide can split faces even outside of main \\p region, so it might be necessary to update another region
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53477" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53477" bodyend="53481"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a0328c23966ab54c890179f10d7332486" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.maintainRegion</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>maintainRegion</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maintainRegion</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53483" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53483" bodyend="53484"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1ace671f965fc0d3666816b925e0d2da39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SubdivideSettings.maxAngleChangeAfterFlip</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxAngleChangeAfterFlip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53486" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53486" bodyend="53489"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a94ec9f39a65e7550172e76c62438e008" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.maxAngleChangeAfterFlip</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxAngleChangeAfterFlip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53491" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53491" bodyend="53492"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1acb81cc5514d5dc9179f655f07be40694" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SubdivideSettings.maxDeviationAfterFlip</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxDeviationAfterFlip</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxDeviationAfterFlip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53494" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53494" bodyend="53497"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a4c3d5442905b8f6ab343a606ead6c78d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.maxDeviationAfterFlip</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxDeviationAfterFlip</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxDeviationAfterFlip</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53499" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53499" bodyend="53500"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1aa208223b43f5f18cc52ef0f409266162" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SubdivideSettings.maxEdgeLen</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53502" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53502" bodyend="53505"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a134373da68829413710fba241c1a9c64" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.maxEdgeLen</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxEdgeLen</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53507" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53507" bodyend="53508"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1addb566812b27ef260468bd8ea4b78ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.SubdivideSettings.maxEdgeSplits</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxEdgeSplits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Maximum number of edge splits allowed
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53510" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53510" bodyend="53513"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a06cea0acb0033d305371446598ae8fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.maxEdgeSplits</definition>
+        <argsstring>(self, int arg1)</argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxEdgeSplits</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53515" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53515" bodyend="53516"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a2404ecba9679a0851327ec4b016a9e78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SubdivideSettings.maxSplittableTriAspectRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxSplittableTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value.
+So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization.
+Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53518" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53518" bodyend="53523"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a66f53b3a9f9b0abee4485781533ed28d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.maxSplittableTriAspectRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxSplittableTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53525" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53525" bodyend="53526"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a6177cd9c8e04e7c801ad00b7b55d11aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SubdivideSettings.maxTriAspectRatio</definition>
+        <argsstring>(self)</argsstring>
+        <name>maxTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53528" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53528" bodyend="53531"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1aa20f4a509dd15ee7d3509a4c010ff22d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.maxTriAspectRatio</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>maxTriAspectRatio</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.maxTriAspectRatio</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53533" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53533" bodyend="53534"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1af47d33901c93698827a6a9229dfa4998" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SubdivideSettings.minSharpDihedralAngle</definition>
+        <argsstring>(self)</argsstring>
+        <name>minSharpDihedralAngle</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.minSharpDihedralAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>30 degrees
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53536" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53536" bodyend="53539"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a6f6204371628d80a30eb5265aa13eb1a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.minSharpDihedralAngle</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>minSharpDihedralAngle</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.minSharpDihedralAngle</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53541" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53541" bodyend="53542"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a5f296269b1893e63ba25d8980cfd8f86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+        <definition> VertBitSet mrmeshpy.SubdivideSettings.newVerts</definition>
+        <argsstring>(self)</argsstring>
+        <name>newVerts</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.newVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>New vertices appeared during subdivision will be added here
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53544" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53544" bodyend="53547"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a2d2a6b255768accc5b433591b1f15f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.newVerts</definition>
+        <argsstring>(self, VertBitSet arg1)</argsstring>
+        <name>newVerts</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.newVerts</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertBitSet" kindref="compound">VertBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53549" bodyend="53550"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1af5f7e30bd31f1a5159da6777ba82bc14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+        <definition> UndirectedEdgeBitSet mrmeshpy.SubdivideSettings.notFlippable</definition>
+        <argsstring>(self)</argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.notFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53552" bodyend="53555"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1ab74d731d838e42f0873c60e512c245fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.notFlippable</definition>
+        <argsstring>(self, UndirectedEdgeBitSet arg1)</argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.notFlippable</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53557" bodyend="53558"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a9a751973a2c1c546624a23efb854e933" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+        <definition> func_void_from_Id_EdgeTag_Id_EdgeTag mrmeshpy.SubdivideSettings.onEdgeSplit</definition>
+        <argsstring>(self)</argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.onEdgeSplit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53560" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53560" bodyend="53563"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1adc70cc0f879301813477c216e0f4b538" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.onEdgeSplit</definition>
+        <argsstring>(self, func_void_from_Id_EdgeTag_Id_EdgeTag arg1)</argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.onEdgeSplit</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__EdgeTag__Id__EdgeTag" kindref="compound">func_void_from_Id_EdgeTag_Id_EdgeTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53565" bodyend="53566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a4b6e4c34c8e35cc65912a60d49df8c43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__void__from__Id__VertTag" kindref="compound">func_void_from_Id_VertTag</ref></type>
+        <definition> func_void_from_Id_VertTag mrmeshpy.SubdivideSettings.onVertCreated</definition>
+        <argsstring>(self)</argsstring>
+        <name>onVertCreated</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.onVertCreated</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>this function is called each time a new vertex has been created, but before the ring is made Delone
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53568" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53568" bodyend="53571"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1ac6ae09ef9a297e1713bdf82f486456a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.onVertCreated</definition>
+        <argsstring>(self, func_void_from_Id_VertTag arg1)</argsstring>
+        <name>onVertCreated</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.onVertCreated</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__void__from__Id__VertTag" kindref="compound">func_void_from_Id_VertTag</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53573" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53573" bodyend="53574"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a846b8f3fdb199f7756aeccb570ef028c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.SubdivideSettings.progressCallback</definition>
+        <argsstring>(self)</argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.progressCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>callback to report algorithm progress and cancel it by user request
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53576" bodyend="53579"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1ab63e1ee4ddc64937a0796bbdb9429304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.progressCallback</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.progressCallback</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53581" bodyend="53582"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a0edfd38d91ecd3150e15a170949bfcc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SubdivideSettings.projectOnOriginalMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.projectOnOriginalMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>if true, then every new vertex will be projected on the original mesh (before smoothing)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53584" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53584" bodyend="53587"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a9bab85172669eb6c4a51bc21f2d7c4ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.projectOnOriginalMesh</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.projectOnOriginalMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53589" bodyend="53590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a66940e8716933e1f5eb63c66b640b586" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.SubdivideSettings.region</definition>
+        <argsstring>(self)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Region on mesh to be subdivided, it is updated during the operation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53592" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53592" bodyend="53595"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1adbf2bbbe25100d93a64c0e7fb9d041cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.region</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>region</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.region</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53597" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53597" bodyend="53598"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a07f2ddc9bebc439a44072fe1afaa9912" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SubdivideSettings.smoothMode</definition>
+        <argsstring>(self)</argsstring>
+        <name>smoothMode</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.smoothMode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Puts new vertices so that they form a smooth surface together with existing vertices.
+This option works best for natural surfaces without sharp edges in between triangles
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53600" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53600" bodyend="53604"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1aae9ee78b0ced1e8887628f6feabaa90f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.smoothMode</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>smoothMode</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.smoothMode</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53606" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53606" bodyend="53607"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a1da217a46731215b16a731fa6bcce32d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.SubdivideSettings.subdivideBorder</definition>
+        <argsstring>(self)</argsstring>
+        <name>subdivideBorder</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.subdivideBorder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false do not touch border edges (cannot subdivide lone faces)\\n
+use \\ref MR::findRegionOuterFaces to find boundary faces
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53609" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53609" bodyend="53613"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SubdivideSettings_1a97091ccd1de279b3b591584e42779599" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SubdivideSettings.subdivideBorder</definition>
+        <argsstring>(self, bool arg1)</argsstring>
+        <name>subdivideBorder</name>
+        <qualifiedname>mrmeshpy.SubdivideSettings.subdivideBorder</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53615" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53615" bodyend="53616"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SubdivideSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SubdivideSettings</label>
+        <link refid="classmrmeshpy_1_1SubdivideSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_beforeEdgeSplit</edgelabel>
+          <edgelabel>_offsetof_criticalAspectRatioFlip</edgelabel>
+          <edgelabel>_offsetof_curvaturePriority</edgelabel>
+          <edgelabel>_offsetof_maintainRegion</edgelabel>
+          <edgelabel>_offsetof_maxAngleChangeAfterFlip</edgelabel>
+          <edgelabel>_offsetof_maxDeviationAfterFlip</edgelabel>
+          <edgelabel>_offsetof_maxEdgeLen</edgelabel>
+          <edgelabel>_offsetof_maxEdgeSplits</edgelabel>
+          <edgelabel>_offsetof_maxSplittableTriAspectRatio</edgelabel>
+          <edgelabel>_offsetof_maxTriAspectRatio</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="53400" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="53400" bodyend="53616"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a18d250e638903bfd44b9e03c23c9a11f" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a116a49624c84131bb1311078dd875e8e" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a0bdec7f52e1b3067e2b5858957b2d1d3" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a89492c2898ade0fd5071b7a1d977ab3f" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1abcbf5280e0ffbc745d3e7d7f149d88df" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_beforeEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a79760bfe03bb4da8b68eea77ce5c7ff1" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_criticalAspectRatioFlip</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a1bd49e36a3532be4865fa3fe89f36ea2" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_curvaturePriority</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a8bb3b2d9089cc5be360b512e065bf11f" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_maintainRegion</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1ae77ece08724bbbb8de1fc01f7a637bef" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_maxAngleChangeAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1aae00d2e044ed7b3baec504779ff4fa84" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_maxDeviationAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a55106090f96ff33eba363e09f594bc41" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a83cf140be40cc61b5d35ed44730e4646" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_maxEdgeSplits</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a98f107a3ce6622b50f4c2fcb8f7b5646" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_maxSplittableTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1aacd65197f4ecc49275a64034af6115a4" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_maxTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1af01e211809b49b163f5530afda02267a" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_minSharpDihedralAngle</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a4b502dbb9d638d0036f8db25bbb3faa0" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_newVerts</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a810c828dd52abdbbffffc675a1a839b4" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a332a2766d79a43110056899e7fefd956" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1abbb2446434dc5529d892c8963501b9f7" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_onVertCreated</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a4b77ad50e492097278a241ac0257fcbd" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a7bf72106045baa38bf538eebfefa5ded" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_projectOnOriginalMesh</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a647199614fffd914b744dd8a7d7dff97" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_region</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1affaf6329dc31c02ac59423fb8b1f588d" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_smoothMode</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1af521ef6822495773538011625f745ab6" prot="protected" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>_offsetof_subdivideBorder</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a05e725e668c0d998e738738fe206b573" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a27c28eb041431a83070e2babba9f2d24" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a5c6c116f7e90e87b10bab532a9c6f30b" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>criticalAspectRatioFlip</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a82df751d969cc5bf8693139c412858ee" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>criticalAspectRatioFlip</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a7c362e0341337335a4c8db2eb8698fa9" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>curvaturePriority</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a9e67e80ce849b895e47403fcaf155ac8" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>curvaturePriority</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a5d37f221868eef866e57ca7deae2fa96" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maintainRegion</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a0328c23966ab54c890179f10d7332486" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maintainRegion</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1ace671f965fc0d3666816b925e0d2da39" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a94ec9f39a65e7550172e76c62438e008" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1acb81cc5514d5dc9179f655f07be40694" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxDeviationAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a4c3d5442905b8f6ab343a606ead6c78d" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxDeviationAfterFlip</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1aa208223b43f5f18cc52ef0f409266162" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a134373da68829413710fba241c1a9c64" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1addb566812b27ef260468bd8ea4b78ab1" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a06cea0acb0033d305371446598ae8fc6" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a2404ecba9679a0851327ec4b016a9e78" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a66f53b3a9f9b0abee4485781533ed28d" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a6177cd9c8e04e7c801ad00b7b55d11aa" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1aa20f4a509dd15ee7d3509a4c010ff22d" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>maxTriAspectRatio</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1af47d33901c93698827a6a9229dfa4998" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>minSharpDihedralAngle</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a6f6204371628d80a30eb5265aa13eb1a" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>minSharpDihedralAngle</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a5f296269b1893e63ba25d8980cfd8f86" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>newVerts</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a2d2a6b255768accc5b433591b1f15f8e" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>newVerts</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1af5f7e30bd31f1a5159da6777ba82bc14" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1ab74d731d838e42f0873c60e512c245fe" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>notFlippable</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a9a751973a2c1c546624a23efb854e933" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1adc70cc0f879301813477c216e0f4b538" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a4b6e4c34c8e35cc65912a60d49df8c43" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onVertCreated</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1ac6ae09ef9a297e1713bdf82f486456a7" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>onVertCreated</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a7d0b4dfd85f799cc4908447d0a4433a0" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a7d0b4dfd85f799cc4908447d0a4433a0" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a846b8f3fdb199f7756aeccb570ef028c" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1ab63e1ee4ddc64937a0796bbdb9429304" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>progressCallback</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a0edfd38d91ecd3150e15a170949bfcc2" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a9bab85172669eb6c4a51bc21f2d7c4ac" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a66940e8716933e1f5eb63c66b640b586" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1adbf2bbbe25100d93a64c0e7fb9d041cd" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>region</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a07f2ddc9bebc439a44072fe1afaa9912" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>smoothMode</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1aae9ee78b0ced1e8887628f6feabaa90f" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>smoothMode</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a1da217a46731215b16a731fa6bcce32d" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>subdivideBorder</name></member>
+      <member refid="classmrmeshpy_1_1SubdivideSettings_1a97091ccd1de279b3b591584e42779599" prot="public" virt="non-virtual"><scope>mrmeshpy::SubdivideSettings</scope><name>subdivideBorder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

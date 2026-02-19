@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeObjectColorAction" kind="class" language="C++" prot="public">
+    <compoundname>MR::ChangeObjectColorAction</compoundname>
+    <basecompoundref refid="classMR_1_1HistoryAction" prot="public" virt="non-virtual">MR::HistoryAction</basecompoundref>
+    <includes refid="MRChangeColoringActions_8h" local="no">MRChangeColoringActions.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gaadf478d3d29a773bd02b96beae263a51" kind="enum"><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga5474abe2fe0d35caaf558c71cb6847d3" kind="typedef"><name>Obj</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gacc8589e249e872fd671d3e6bda89f90e" kind="variable"><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1ga9ceddbae75615ccd4de4e08c89bc6804" kind="variable"><name>type_</name></member>
+      <member refid="group__GeneralGroup_1gaf535b50d7d5f119801de7487d5185b6f" kind="variable"><name>colors_</name></member>
+      <member refid="group__GeneralGroup_1ga0441f722f407cac7bd2f53829a053bde" kind="variable"><name>name_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga0a70aa0463c05950aea6686ecc817d30" kind="function"><name>ChangeObjectColorAction</name></member>
+      <member refid="group__GeneralGroup_1gada33e7dca54e7e04d9815765bed5fdfe" kind="function"><name>name</name></member>
+      <member refid="group__GeneralGroup_1gafe3b10ca2078780fe08c4e06a3cb8eb3" kind="function"><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga8b2119cba575337b8ff6ef6ed838ddad" kind="function"><name>heapBytes</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gad9d9e4f0637a4624e53532215539aaa9" kind="function"><name>setObjectDirty</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>History action for object color palette change To use with setFrontColorsForAllViewports, setBackColorsForAllViewports, setFrontColor, setBackColor </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::ChangeObjectColorAction</label>
+        <link refid="classMR_1_1ChangeObjectColorAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::ChangeObjectColorAction</label>
+        <link refid="classMR_1_1ChangeObjectColorAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::HistoryAction</label>
+        <link refid="classMR_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRChangeColoringActions.h" bodystart="18" bodyend="73"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafe3b10ca2078780fe08c4e06a3cb8eb3" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>action</name></member>
+      <member refid="group__GeneralGroup_1ga0a70aa0463c05950aea6686ecc817d30" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>ChangeObjectColorAction</name></member>
+      <member refid="group__GeneralGroup_1gaf535b50d7d5f119801de7487d5185b6f" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>colors_</name></member>
+      <member refid="group__GeneralGroup_1ga8b2119cba575337b8ff6ef6ed838ddad" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1gada33e7dca54e7e04d9815765bed5fdfe" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga0441f722f407cac7bd2f53829a053bde" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>name_</name></member>
+      <member refid="group__GeneralGroup_1ga5474abe2fe0d35caaf558c71cb6847d3" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Obj</name></member>
+      <member refid="group__GeneralGroup_1gacc8589e249e872fd671d3e6bda89f90e" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>obj_</name></member>
+      <member refid="group__GeneralGroup_1gad9d9e4f0637a4624e53532215539aaa9" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>setObjectDirty</name></member>
+      <member refid="group__GeneralGroup_1gaadf478d3d29a773bd02b96beae263a51" prot="public" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>Type</name></member>
+      <member refid="group__GeneralGroup_1ga9ceddbae75615ccd4de4e08c89bc6804" prot="private" virt="non-virtual"><scope>MR::ChangeObjectColorAction</scope><name>type_</name></member>
+      <member refid="group__GeneralGroup_1ga97370459d3645a1169ed426ef4896e5c" prot="public" virt="virtual"><scope>MR::ChangeObjectColorAction</scope><name>~HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

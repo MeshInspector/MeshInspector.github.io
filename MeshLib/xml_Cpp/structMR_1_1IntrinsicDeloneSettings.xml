@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1IntrinsicDeloneSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::IntrinsicDeloneSettings</compoundname>
+    <includes refid="MRMeshDelone_8h" local="no">MRMeshDelone.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1IntrinsicDeloneSettings_1a5985046a04f74cccc9f62e82968a5671" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::IntrinsicDeloneSettings::threshold</definition>
+        <argsstring></argsstring>
+        <name>threshold</name>
+        <qualifiedname>MR::IntrinsicDeloneSettings::threshold</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>the edge is considered Delaunay, if cotan(a1) + cotan(a2) &gt;= threshold; passing positive(negative) threshold makes less(more) edges satisfy Delaunay conditions </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="88" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IntrinsicDeloneSettings_1a5fe9566d6f97f752f0d434d75a04ea53" prot="public" static="no" mutable="no">
+        <type>const FaceBitSet *</type>
+        <definition>const FaceBitSet* MR::IntrinsicDeloneSettings::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::IntrinsicDeloneSettings::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Only edges with left and right faces in this set can be flipped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="91" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IntrinsicDeloneSettings_1a826d54dbfadee964e4e8d815e3aeda22" prot="public" static="no" mutable="no">
+        <type>const UndirectedEdgeBitSet *</type>
+        <definition>const UndirectedEdgeBitSet* MR::IntrinsicDeloneSettings::notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR::IntrinsicDeloneSettings::notFlippable</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Edges specified by this bit-set will never be flipped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="94" column="32" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1IntrinsicDeloneSettings_1a8fed3ef49b5eeb2b4c7df0c84bbfad79" prot="public" static="no" mutable="no">
+        <type>const VertBitSet *</type>
+        <definition>const VertBitSet* MR::IntrinsicDeloneSettings::vertRegion</definition>
+        <argsstring></argsstring>
+        <name>vertRegion</name>
+        <qualifiedname>MR::IntrinsicDeloneSettings::vertRegion</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Only edges with origin or destination in this set before or after flip can be flipped. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="97" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" line="84" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshDelone.h" bodystart="85" bodyend="98"/>
+    <listofallmembers>
+      <member refid="structMR_1_1IntrinsicDeloneSettings_1a826d54dbfadee964e4e8d815e3aeda22" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>notFlippable</name></member>
+      <member refid="structMR_1_1IntrinsicDeloneSettings_1a5fe9566d6f97f752f0d434d75a04ea53" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>region</name></member>
+      <member refid="structMR_1_1IntrinsicDeloneSettings_1a5985046a04f74cccc9f62e82968a5671" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>threshold</name></member>
+      <member refid="structMR_1_1IntrinsicDeloneSettings_1a8fed3ef49b5eeb2b4c7df0c84bbfad79" prot="public" virt="non-virtual"><scope>MR::IntrinsicDeloneSettings</scope><name>vertRegion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

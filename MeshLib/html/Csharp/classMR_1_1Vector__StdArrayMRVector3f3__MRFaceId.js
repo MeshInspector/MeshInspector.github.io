@@ -2,6 +2,8 @@ var classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId =
 [
     [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a7c28622d3041bd968639c0cf7c3e981a", null ],
     [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#acfadfb50e50facfe8cfc36dca2a713b3", null ],
+    [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#aca1f476b0b7bc425838c3335bcbded31", null ],
+    [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a4fbb99c7c7429526aca85ce26fc8bc34", null ],
     [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#ac129566db90f5eafe9d6fc8e8ba29254", null ],
     [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#ad30c1a43ed5907244c894179c1cbb5b8", null ],
     [ "Vector_StdArrayMRVector3f3_MRFaceId", "classMR_1_1Vector__StdArrayMRVector3f3__MRFaceId.html#a8db0e8aafeb4c1abf69e9ff7803f5aa6", null ],

@@ -1,0 +1,209 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SceneRoot" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SceneRoot</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1ad461ea94e6a7ba68869a63deac95efc0" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneRoot.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneRoot.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51246" bodyend="51247"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1a61a10e1743125ee13824a2a656445d78" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneRootObject" kindref="compound">SceneRootObject</ref></type>
+        <definition> SceneRootObject mrmeshpy.SceneRoot.constGet</definition>
+        <argsstring>()</argsstring>
+        <name>constGet</name>
+        <qualifiedname>mrmeshpy.SceneRoot.constGet</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51249" bodyend="51250"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1a7176265c7dabca84c32a9e7ab1facf4c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneRootObject" kindref="compound">SceneRootObject</ref></type>
+        <definition> SceneRootObject mrmeshpy.SceneRoot.constGetSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>constGetSharedPtr</name>
+        <qualifiedname>mrmeshpy.SceneRoot.constGetSharedPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51252" bodyend="51253"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1a3ede117a5da1f533a0ba47d5edbc450e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneRootObject" kindref="compound">SceneRootObject</ref></type>
+        <definition> SceneRootObject mrmeshpy.SceneRoot.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>mrmeshpy.SceneRoot.get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51255" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51255" bodyend="51256"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1afa7a598a93c38e9cbf3969897650eced" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>pathlib.Path</type>
+        <definition> pathlib.Path mrmeshpy.SceneRoot.getScenePath</definition>
+        <argsstring>()</argsstring>
+        <name>getScenePath</name>
+        <qualifiedname>mrmeshpy.SceneRoot.getScenePath</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51258" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51258" bodyend="51259"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1aded839f7d1d4bd8a9e610b25ff521871" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneRootObject" kindref="compound">SceneRootObject</ref></type>
+        <definition> SceneRootObject mrmeshpy.SceneRoot.getSharedPtr</definition>
+        <argsstring>()</argsstring>
+        <name>getSharedPtr</name>
+        <qualifiedname>mrmeshpy.SceneRoot.getSharedPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51261" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51261" bodyend="51262"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1ac2d91ec8b5018b1b14f9a97ebef8f635" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneRoot" kindref="compound">SceneRoot</ref></type>
+        <definition> SceneRoot mrmeshpy.SceneRoot.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SceneRoot.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51265" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51265" bodyend="51266"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1ac2d91ec8b5018b1b14f9a97ebef8f635" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SceneRoot" kindref="compound">SceneRoot</ref></type>
+        <definition> SceneRoot mrmeshpy.SceneRoot.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SceneRoot.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51269" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51269" bodyend="51270"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1abe3a6ac00b57cc977ec6cd62eba0d762" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneRoot.setScenePath</definition>
+        <argsstring>(os.PathLike|str|bytes scenePath)</argsstring>
+        <name>setScenePath</name>
+        <qualifiedname>mrmeshpy.SceneRoot.setScenePath</qualifiedname>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>scenePath</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51272" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51272" bodyend="51273"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SceneRoot_1a8f4e480b228068348155d12067641ebf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SceneRoot.__init__</definition>
+        <argsstring>(self, SceneRoot arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SceneRoot.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SceneRoot" kindref="compound">SceneRoot</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51275" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51275" bodyend="51278"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SceneRoot
+
+Singleton to store scene root object
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="51238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="51238" bodyend="51278"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SceneRoot_1ad461ea94e6a7ba68869a63deac95efc0" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneRoot_1a8f4e480b228068348155d12067641ebf" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SceneRoot_1a61a10e1743125ee13824a2a656445d78" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>constGet</name></member>
+      <member refid="classmrmeshpy_1_1SceneRoot_1a7176265c7dabca84c32a9e7ab1facf4c" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>constGetSharedPtr</name></member>
+      <member refid="classmrmeshpy_1_1SceneRoot_1a3ede117a5da1f533a0ba47d5edbc450e" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>get</name></member>
+      <member refid="classmrmeshpy_1_1SceneRoot_1afa7a598a93c38e9cbf3969897650eced" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>getScenePath</name></member>
+      <member refid="classmrmeshpy_1_1SceneRoot_1aded839f7d1d4bd8a9e610b25ff521871" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>getSharedPtr</name></member>
+      <member refid="classmrmeshpy_1_1SceneRoot_1ac2d91ec8b5018b1b14f9a97ebef8f635" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SceneRoot_1ac2d91ec8b5018b1b14f9a97ebef8f635" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SceneRoot_1abe3a6ac00b57cc977ec6cd62eba0d762" prot="public" virt="non-virtual"><scope>mrmeshpy::SceneRoot</scope><name>setScenePath</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

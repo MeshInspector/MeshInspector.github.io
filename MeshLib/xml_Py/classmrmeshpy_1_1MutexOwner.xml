@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MutexOwner" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MutexOwner</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MutexOwner_1ae11b41ebffae779a2c511543dfc8c278" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MutexOwner.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MutexOwner.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36721" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36721" bodyend="36722"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MutexOwner_1aa4e8c3c681e7a0c7c1dbb8ff8605257a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MutexOwner" kindref="compound">MutexOwner</ref></type>
+        <definition> MutexOwner mrmeshpy.MutexOwner.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MutexOwner.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36725" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36725" bodyend="36726"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MutexOwner_1aa4e8c3c681e7a0c7c1dbb8ff8605257a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MutexOwner" kindref="compound">MutexOwner</ref></type>
+        <definition> MutexOwner mrmeshpy.MutexOwner.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.MutexOwner.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36729" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36729" bodyend="36730"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MutexOwner_1a9706ef457792eb01f2f3ba3cbe3ae6e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MutexOwner.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MutexOwner.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36732" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36732" bodyend="36733"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MutexOwner_1ac35fe29bf86e5c566590822194d318af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.MutexOwner.__init__</definition>
+        <argsstring>(self, MutexOwner arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MutexOwner.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1MutexOwner" kindref="compound">MutexOwner</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36735" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36735" bodyend="36738"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::MutexOwner
+
+This class exists to provide copy and move constructors and assignment operations for std::mutex
+which actually does nothing
+</verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="36712" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="36712" bodyend="36738"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MutexOwner_1ae11b41ebffae779a2c511543dfc8c278" prot="public" virt="non-virtual"><scope>mrmeshpy::MutexOwner</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MutexOwner_1a9706ef457792eb01f2f3ba3cbe3ae6e9" prot="public" virt="non-virtual"><scope>mrmeshpy::MutexOwner</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MutexOwner_1ac35fe29bf86e5c566590822194d318af" prot="public" virt="non-virtual"><scope>mrmeshpy::MutexOwner</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MutexOwner_1aa4e8c3c681e7a0c7c1dbb8ff8605257a" prot="public" virt="non-virtual"><scope>mrmeshpy::MutexOwner</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1MutexOwner_1aa4e8c3c681e7a0c7c1dbb8ff8605257a" prot="public" virt="non-virtual"><scope>mrmeshpy::MutexOwner</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

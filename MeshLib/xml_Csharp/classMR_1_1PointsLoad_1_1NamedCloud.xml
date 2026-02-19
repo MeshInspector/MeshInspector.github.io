@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PointsLoad_1_1NamedCloud" kind="class" language="C#" prot="public">
+    <compoundname>MR::PointsLoad::NamedCloud</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.PointsLoad.Const_NamedCloud</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1NamedCloud_1a190866600be21fb36ff2547ed61a092c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe MR.Std.String</type>
+        <definition>new unsafe MR.Std.String MR.PointsLoad.NamedCloud.name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="403" column="43" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="403" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1NamedCloud_1af7e1be1be7727221f0dd22f52c2f27f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1PointCloud" kindref="compound">MR.PointCloud</ref></type>
+        <definition>new unsafe MR.PointCloud MR.PointsLoad.NamedCloud.cloud</definition>
+        <argsstring></argsstring>
+        <name>cloud</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.cloud</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="405" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="405" bodyend="405"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1NamedCloud_1a172e29bec38736290c642abfbe17786a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+        <definition>new unsafe ref MR.AffineXf3f MR.PointsLoad.NamedCloud.xf</definition>
+        <argsstring></argsstring>
+        <name>xf</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.xf</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="407" column="48" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1PointsLoad_1_1NamedCloud_1a7a050d49402551b7022c784bbf2eaacd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1VertColors" kindref="compound">MR.VertColors</ref></type>
+        <definition>new unsafe MR.VertColors MR.PointsLoad.NamedCloud.colors</definition>
+        <argsstring></argsstring>
+        <name>colors</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.colors</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="409" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="409" bodyend="409"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1NamedCloud_1a46b0bbb9452e7357dfdb11fc125a6b81" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.NamedCloud.NamedCloud</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>NamedCloud</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.NamedCloud</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="442" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="442" bodyend="446"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1NamedCloud_1ac0a331cd09c0692bc5cc95635b7f918e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.NamedCloud.NamedCloud</definition>
+        <argsstring>()</argsstring>
+        <name>NamedCloud</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.NamedCloud</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="452" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="452" bodyend="458"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1NamedCloud_1a99f70c9eef3536803b93d29a5a18987d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.NamedCloud.NamedCloud</definition>
+        <argsstring>(string name, MR._ByValue_PointCloud cloud, MR.AffineXf3f xf, MR._ByValue_VertColors colors)</argsstring>
+        <name>NamedCloud</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.NamedCloud</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_PointCloud</type>
+          <declname>cloud</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1AffineXf3f" kindref="compound">MR.AffineXf3f</ref></type>
+          <declname>xf</declname>
+        </param>
+        <param>
+          <type>MR._ByValue_VertColors</type>
+          <declname>colors</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1PointsLoad_1_1NamedCloud" kindref="compound">MR.PointsLoad.NamedCloud</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="463" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="463" bodyend="475"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1NamedCloud_1aa0c228139c2aa45b13e0be0f1079b847" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.PointsLoad.NamedCloud.NamedCloud</definition>
+        <argsstring>(MR.PointsLoad._ByValue_NamedCloud _other)</argsstring>
+        <name>NamedCloud</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.NamedCloud</qualifiedname>
+        <param>
+          <type>MR.PointsLoad._ByValue_NamedCloud</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointsLoad.NamedCloud.NamedCloud</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="480" column="27" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="480" bodyend="487"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1NamedCloud_1abebc748c5a81d837b1ffc3cc7f6080b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsLoad.NamedCloud.NamedCloud</definition>
+        <argsstring>(Const_NamedCloud _other)</argsstring>
+        <name>NamedCloud</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.NamedCloud</qualifiedname>
+        <param>
+          <type>Const_NamedCloud</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointsLoad.NamedCloud.NamedCloud</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="492" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="492" bodyend="492"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1NamedCloud_1a2972fbd3dee3dff8c629f823f224d017" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.PointsLoad.NamedCloud.NamedCloud</definition>
+        <argsstring>(NamedCloud _other)</argsstring>
+        <name>NamedCloud</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.NamedCloud</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1PointsLoad_1_1NamedCloud" kindref="compound">NamedCloud</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.PointsLoad.NamedCloud.NamedCloud</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="497" column="20" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="497" bodyend="497"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1PointsLoad_1_1NamedCloud_1abf8e20334e7331d88813110061642fbc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1PointsLoad_1_1NamedCloud" kindref="compound">MR.PointsLoad.NamedCloud</ref></type>
+        <definition>unsafe MR.PointsLoad.NamedCloud MR.PointsLoad.NamedCloud.assign</definition>
+        <argsstring>(MR.PointsLoad._ByValue_NamedCloud _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.PointsLoad.NamedCloud.assign</qualifiedname>
+        <param>
+          <type>MR.PointsLoad._ByValue_NamedCloud</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.PointsLoad.NamedCloud.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="502" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="502" bodyend="509"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>loads scene from e57 file Generated from class <computeroutput><ref refid="classMR_1_1PointsLoad_1_1NamedCloud" kindref="compound">MR.PointsLoad.NamedCloud</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_NamedCloud</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointsLoad.NamedCloud</label>
+        <link refid="classMR_1_1PointsLoad_1_1NamedCloud"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NamedCloud &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_NamedCloud</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.PointsLoad.NamedCloud</label>
+        <link refid="classMR_1_1PointsLoad_1_1NamedCloud"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_NamedCloud &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" line="401" column="15" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCIOExtras/MRE57.cs" bodystart="402" bodyend="510"/>
+    <listofallmembers>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1abf8e20334e7331d88813110061642fbc" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>assign</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1af7e1be1be7727221f0dd22f52c2f27f7" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>cloud</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1a7a050d49402551b7022c784bbf2eaacd" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>colors</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1a190866600be21fb36ff2547ed61a092c" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>name</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1a46b0bbb9452e7357dfdb11fc125a6b81" prot="package" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>NamedCloud</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1ac0a331cd09c0692bc5cc95635b7f918e" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>NamedCloud</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1a99f70c9eef3536803b93d29a5a18987d" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>NamedCloud</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1aa0c228139c2aa45b13e0be0f1079b847" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>NamedCloud</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1abebc748c5a81d837b1ffc3cc7f6080b4" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>NamedCloud</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1a2972fbd3dee3dff8c629f823f224d017" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>NamedCloud</name></member>
+      <member refid="classMR_1_1PointsLoad_1_1NamedCloud_1a172e29bec38736290c642abfbe17786a" prot="public" virt="non-virtual"><scope>MR::PointsLoad::NamedCloud</scope><name>xf</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

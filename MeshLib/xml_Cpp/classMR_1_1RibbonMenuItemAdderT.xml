@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RibbonMenuItemAdderT" kind="class" language="C++" prot="public">
+    <compoundname>MR::RibbonMenuItemAdderT</compoundname>
+    <basecompoundref refid="classMR_1_1RibbonMenuItemAdder" prot="private" virt="non-virtual">MR::RibbonMenuItemAdder</basecompoundref>
+    <includes refid="MRRibbonRegisterItem_8h" local="no">MRRibbonRegisterItem.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa36f28686fe351fe8a9522c754c08124" kind="function"><name>RibbonMenuItemAdderT</name></member>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <member refid="group__GeneralGroup_1ga58433d43071c60302e398b1b130e5018" kind="function"><name>makeT_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::RibbonMenuItemAdder</label>
+        <link refid="classMR_1_1RibbonMenuItemAdder"/>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenuItemAdderT&lt; T &gt;</label>
+        <link refid="classMR_1_1RibbonMenuItemAdderT"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::RibbonMenuItemAdder</label>
+        <link refid="classMR_1_1RibbonMenuItemAdder"/>
+      </node>
+      <node id="1">
+        <label>MR::RibbonMenuItemAdderT&lt; T &gt;</label>
+        <link refid="classMR_1_1RibbonMenuItemAdderT"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" line="27" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonRegisterItem.h" bodystart="28" bodyend="43"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga58433d43071c60302e398b1b130e5018" prot="private" virt="non-virtual"><scope>MR::RibbonMenuItemAdderT</scope><name>makeT_</name></member>
+      <member refid="group__GeneralGroup_1gaa36f28686fe351fe8a9522c754c08124" prot="public" virt="non-virtual"><scope>MR::RibbonMenuItemAdderT</scope><name>RibbonMenuItemAdderT</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

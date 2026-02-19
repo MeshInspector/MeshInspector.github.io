@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1SkyPatch" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::SkyPatch</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1SkyPatch_1aef8e5241093b003ca06bee9bcdbb026e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SkyPatch::_offsetof_dir</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_dir</name>
+        <qualifiedname>mrmeshpy.SkyPatch._offsetof_dir</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52623" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52623" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1SkyPatch_1a526b3492f3bc466317b4e601b3246fa4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.SkyPatch::_offsetof_radiation</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_radiation</name>
+        <qualifiedname>mrmeshpy.SkyPatch._offsetof_radiation</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52624" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52624" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1a23b2564d29b560b359431053719c00f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SkyPatch.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SkyPatch.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52627" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52627" bodyend="52628"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1a07f27fe23aab03634921c0c05ee3567a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+        <definition> SkyPatch mrmeshpy.SkyPatch.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SkyPatch.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52631" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52631" bodyend="52632"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1a07f27fe23aab03634921c0c05ee3567a" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+        <definition> SkyPatch mrmeshpy.SkyPatch.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.SkyPatch.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52635" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52635" bodyend="52636"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1aaa03cbbc871558ded8afc6e2f3163322" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SkyPatch.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SkyPatch.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52638" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52638" bodyend="52639"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1a023ba46a06a6ddc24d916896a293e375" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SkyPatch.__init__</definition>
+        <argsstring>(self, SkyPatch arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SkyPatch.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1SkyPatch" kindref="compound">SkyPatch</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52641" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52641" bodyend="52644"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1aa4a088c9afe686d8580e953d55e84a79" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SkyPatch.__init__</definition>
+        <argsstring>(self, Vector3f dir, float radiation)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.SkyPatch.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>dir</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52646" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52646" bodyend="52649"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1a66f0f2f892e4cd73af3ad1d35e8c6a92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+        <definition> Vector3f mrmeshpy.SkyPatch.dir</definition>
+        <argsstring>(self)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.SkyPatch.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>direction toward the center of the patch
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52651" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52651" bodyend="52654"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1a090f9fb483c6b5b5fb96459585f2dfb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SkyPatch.dir</definition>
+        <argsstring>(self, Vector3f arg1)</argsstring>
+        <name>dir</name>
+        <qualifiedname>mrmeshpy.SkyPatch.dir</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector3f" kindref="compound">Vector3f</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52656" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52656" bodyend="52657"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1a4ed3fe4aa8891dfe64b14a70d2bda761" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.SkyPatch.radiation</definition>
+        <argsstring>(self)</argsstring>
+        <name>radiation</name>
+        <qualifiedname>mrmeshpy.SkyPatch.radiation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>radiation of the patch depending on Sun&apos;s position, sky clearness and brightness, etc
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52659" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52659" bodyend="52662"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1SkyPatch_1ae8176a05d87301de26289bed281d7a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.SkyPatch.radiation</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>radiation</name>
+        <qualifiedname>mrmeshpy.SkyPatch.radiation</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52664" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52664" bodyend="52665"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::SkyPatch
+
+this class represents a portion of the sky, and its radiation
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.SkyPatch</label>
+        <link refid="classmrmeshpy_1_1SkyPatch"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_dir</edgelabel>
+          <edgelabel>_offsetof_radiation</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="52617" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="52617" bodyend="52665"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1SkyPatch_1a23b2564d29b560b359431053719c00f2" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1aaa03cbbc871558ded8afc6e2f3163322" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1a023ba46a06a6ddc24d916896a293e375" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1aa4a088c9afe686d8580e953d55e84a79" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1aef8e5241093b003ca06bee9bcdbb026e" prot="protected" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>_offsetof_dir</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1a526b3492f3bc466317b4e601b3246fa4" prot="protected" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>_offsetof_radiation</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1a66f0f2f892e4cd73af3ad1d35e8c6a92" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1a090f9fb483c6b5b5fb96459585f2dfb1" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>dir</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1a07f27fe23aab03634921c0c05ee3567a" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1a07f27fe23aab03634921c0c05ee3567a" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1a4ed3fe4aa8891dfe64b14a70d2bda761" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>radiation</name></member>
+      <member refid="classmrmeshpy_1_1SkyPatch_1ae8176a05d87301de26289bed281d7a0e" prot="public" virt="non-virtual"><scope>mrmeshpy::SkyPatch</scope><name>radiation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

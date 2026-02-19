@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1SceneSelectionChangeRestart" kind="class" language="C++" prot="public">
+    <compoundname>MR::SceneSelectionChangeRestart</compoundname>
+    <basecompoundref refid="classMR_1_1ISceneSelectionChange" prot="public" virt="virtual">MR::ISceneSelectionChange</basecompoundref>
+    <includes refid="MRSceneSelectionChange_8h" local="no">MRSceneSelectionChange.h</includes>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gae03b497a188281988804ecd125fd8f7c" kind="function"><name>updateSelection</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>restart on state change </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneSelectionChangeRestart</label>
+        <link refid="classMR_1_1SceneSelectionChangeRestart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::ISceneSelectionChange</label>
+        <link refid="classMR_1_1ISceneSelectionChange"/>
+      </node>
+      <node id="1">
+        <label>MR::SceneSelectionChangeRestart</label>
+        <link refid="classMR_1_1SceneSelectionChangeRestart"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" line="31" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRSceneSelectionChange.h" bodystart="32" bodyend="35"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae03b497a188281988804ecd125fd8f7c" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeRestart</scope><name>updateSelection</name></member>
+      <member refid="group__GeneralGroup_1ga46ed29a0c79bdfb7de53ea802fee042c" prot="public" virt="virtual"><scope>MR::SceneSelectionChangeRestart</scope><name>~ISceneSelectionChange</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

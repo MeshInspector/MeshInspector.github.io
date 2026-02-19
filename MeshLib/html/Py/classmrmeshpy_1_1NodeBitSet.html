@@ -208,10 +208,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a8b77febe8cf5054605ae5446e3d17bf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef593e06f124139ca5aa7059af394b13" id="r_aef593e06f124139ca5aa7059af394b13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef593e06f124139ca5aa7059af394b13">find_first</a> (self)</td></tr>
 <tr class="separator:aef593e06f124139ca5aa7059af394b13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a239889fa52e004bafeeb00089897e834" id="r_a239889fa52e004bafeeb00089897e834"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a239889fa52e004bafeeb00089897e834">find_first_not_set</a> (self)</td></tr>
+<tr class="separator:a239889fa52e004bafeeb00089897e834"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad61a251c87e3505ef479a64eb7717bf1" id="r_ad61a251c87e3505ef479a64eb7717bf1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad61a251c87e3505ef479a64eb7717bf1">find_last</a> (self)</td></tr>
 <tr class="separator:ad61a251c87e3505ef479a64eb7717bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6934eae39416c49bcdd098e92a79fd" id="r_adf6934eae39416c49bcdd098e92a79fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adf6934eae39416c49bcdd098e92a79fd">find_last_not_set</a> (self)</td></tr>
+<tr class="separator:adf6934eae39416c49bcdd098e92a79fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f6bb3ec166a5bcd6456136b07c6b0f8" id="r_a1f6bb3ec166a5bcd6456136b07c6b0f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1f6bb3ec166a5bcd6456136b07c6b0f8">find_next</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> pos)</td></tr>
 <tr class="separator:a1f6bb3ec166a5bcd6456136b07c6b0f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab06219635d165d28fb8cefad351738fb" id="r_ab06219635d165d28fb8cefad351738fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab06219635d165d28fb8cefad351738fb">find_next_not_set</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> pos)</td></tr>
+<tr class="separator:ab06219635d165d28fb8cefad351738fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f5515654a35e51d431d95a122243953" id="r_a5f5515654a35e51d431d95a122243953"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeBitSet.html">NodeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5f5515654a35e51d431d95a122243953">flip</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> n, int len)</td></tr>
 <tr class="separator:a5f5515654a35e51d431d95a122243953"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a50e7481bdc88f87af18ba1bbbfdbc338" id="r_a50e7481bdc88f87af18ba1bbbfdbc338"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classmrmeshpy_1_1NodeBitSet.html">NodeBitSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a50e7481bdc88f87af18ba1bbbfdbc338">flip</a> (self, <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> n)</td></tr>
@@ -884,6 +890,26 @@ with all bits after size() considered off during testing
 
 </div>
 </div>
+<a id="a239889fa52e004bafeeb00089897e834" name="a239889fa52e004bafeeb00089897e834"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a239889fa52e004bafeeb00089897e834">&#9670;&#160;</a></span>find_first_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> mrmeshpy.NodeBitSet.find_first_not_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the smallest index i such that bit i is NOT set, or npos if *this has no off bits.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a15e32e17fea4f662f8a0f55fd1bcd0b6">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
 <a id="ad61a251c87e3505ef479a64eb7717bf1" name="ad61a251c87e3505ef479a64eb7717bf1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad61a251c87e3505ef479a64eb7717bf1">&#9670;&#160;</a></span>find_last()</h2>
 
@@ -901,6 +927,26 @@ with all bits after size() considered off during testing
 <pre class="fragment">return the highest index i such that bit i is set, or npos if *this has no on bits.
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#a4ab474551b7e0e4e7daab1c8b5eefa77">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="adf6934eae39416c49bcdd098e92a79fd" name="adf6934eae39416c49bcdd098e92a79fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6934eae39416c49bcdd098e92a79fd">&#9670;&#160;</a></span>find_last_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> mrmeshpy.NodeBitSet.find_last_not_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the highest index i such that bit i is NOT set, or npos if *this has no off bits.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#aa50056294318a1e11be2d832bdbd6329">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>
@@ -925,6 +971,30 @@ with all bits after size() considered off during testing
 <pre class="fragment">return the smallest index i&gt;n such that bit i is set, or npos if *this has no on bits.
 </pre> 
 <p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#acd501b4c783e055396bf0665ead0566f">mrmeshpy.BitSet</a>.</p>
+
+</div>
+</div>
+<a id="ab06219635d165d28fb8cefad351738fb" name="ab06219635d165d28fb8cefad351738fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab06219635d165d28fb8cefad351738fb">&#9670;&#160;</a></span>find_next_not_set()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"> <a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a> mrmeshpy.NodeBitSet.find_next_not_set </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>self</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classmrmeshpy_1_1NodeId.html">NodeId</a></td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">return the smallest index i&gt;n such that bit i is NOT set, or npos if *this has no off bits.
+</pre> 
+<p>Reimplemented from <a class="el" href="classmrmeshpy_1_1BitSet.html#aedde9c4ef90198acb1ddb7874ed1d491">mrmeshpy.BitSet</a>.</p>
 
 </div>
 </div>

@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRFinally_8h" kind="file" language="C++">
+    <compoundname>MRFinally.h</compoundname>
+    <includes refid="MRMacros_8h" local="yes">MRMacros.h</includes>
+    <includes local="no">utility</includes>
+    <includedby refid="MRGLMacro_8h" local="yes">MRGLMacro.h</includedby>
+    <includedby refid="MRScopedValue_8h" local="yes">MRScopedValue.h</includedby>
+    <includedby refid="MRUIStyle_8h" local="yes">MRUIStyle.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MRFinally.h</label>
+        <link refid="MRFinally_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="3">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="18">
+        <label>MRMoveObjectByMouse.h</label>
+        <link refid="MRMoveObjectByMouse_8h"/>
+      </node>
+      <node id="1">
+        <label>MRFinally.h</label>
+        <link refid="MRFinally_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>MRScopedValue.h</label>
+        <link refid="MRScopedValue_8h"/>
+      </node>
+      <node id="4">
+        <label>MRDepthPeelingGL.h</label>
+        <link refid="MRDepthPeelingGL_8h"/>
+      </node>
+      <node id="2">
+        <label>MRGLMacro.h</label>
+        <link refid="MRGLMacro_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRImGuiImage.h</label>
+        <link refid="MRImGuiImage_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MRMarkedVoxelSlice.h</label>
+        <link refid="MRMarkedVoxelSlice_8h"/>
+      </node>
+      <node id="9">
+        <label>MRRenderFeatureObjects.h</label>
+        <link refid="MRRenderFeatureObjects_8h"/>
+      </node>
+      <node id="3">
+        <label>MRRenderGLHelpers.h</label>
+        <link refid="MRRenderGLHelpers_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRRenderLabelObject.h</label>
+        <link refid="MRRenderLabelObject_8h"/>
+      </node>
+      <node id="8">
+        <label>MRRenderLinesObject.h</label>
+        <link refid="MRRenderLinesObject_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>MRRenderMeshObject.h</label>
+        <link refid="MRRenderMeshObject_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRRenderPointsObject.h</label>
+        <link refid="MRRenderPointsObject_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>MRRenderVolumeObject.h</label>
+        <link refid="MRRenderVolumeObject_8h"/>
+      </node>
+      <node id="13">
+        <label>MRSceneTextureGL.h</label>
+        <link refid="MRSceneTextureGL_8h"/>
+      </node>
+      <node id="14">
+        <label>MRShadowsGL.h</label>
+        <link refid="MRShadowsGL_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>MRUIStyle.h</label>
+        <link refid="MRUIStyle_8h"/>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>MRViewerSettingsPlugin.h</label>
+        <link refid="MRViewerSettingsPlugin_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classMR_1_1detail_1_1ScopeGuard" prot="public">MR::detail::ScopeGuard</innerclass>
+    <innerclass refid="structMR_1_1detail_1_1MakeScopeGuard" prot="public">MR::detail::MakeScopeGuard</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <innernamespace refid="namespaceMR_1_1detail">MR::detail</innernamespace>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MRFinally_8h_1ad10d1a8c04c5722bf0d42b1ddd493aad" prot="public" static="no">
+        <name>MR_FINALLY</name>
+        <initializer><ref refid="MRFinally_8h_1ac22b729a28295f5adeb690ef54729b1c" kindref="member">DETAIL_MR_FINALLY</ref>( ScopeGuard )</initializer>
+        <briefdescription>
+<para>Usage: <computeroutput>MR_FINALLY{...};</computeroutput>. Runs the code in braces when exiting the current scope, either normally or via an exception. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="11" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRFinally_8h_1a72db3a237e531f5d3935a8cd53f533b6" prot="public" static="no">
+        <name>MR_FINALLY_ON_SUCCESS</name>
+        <initializer><ref refid="MRFinally_8h_1ad10d1a8c04c5722bf0d42b1ddd493aad" kindref="member">MR_FINALLY</ref></initializer>
+        <briefdescription>
+<para>If no exceptions. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>When exceptions are disabled, this is equivalent to <computeroutput>MR_FINALLY</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="24" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRFinally_8h_1a40e5af90a48f13bfd508e3019793ad23" prot="public" static="no">
+        <name>MR_FINALLY_ON_THROW</name>
+        <initializer>(void)[&amp;]()</initializer>
+        <briefdescription>
+<para>When exceptions are disabled, this is a noop. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="26" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="MRFinally_8h_1ac22b729a28295f5adeb690ef54729b1c" prot="public" static="no">
+        <name>DETAIL_MR_FINALLY</name>
+        <param><defname>type_</defname></param>
+        <initializer>    auto <ref refid="MRMacros_8h_1a4cb6de717e0b06df733796fec2da272a" kindref="member">MR_CONCAT</ref>( _mrScopeGuard, __COUNTER__ ) = <ref refid="structMR_1_1detail_1_1MakeScopeGuard" kindref="compound">::MR::detail::MakeScopeGuard</ref>&lt;::MR::detail::type_&gt;{} -&gt;* [&amp;]() -&gt; void</initializer>
+        <briefdescription>
+<para>If no exceptions. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" line="30" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h" bodystart="30" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRMacros_8h" kindref="compound">MRMacros.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cpp_exceptions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;exception&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;utility&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRFinally_8h_1ad10d1a8c04c5722bf0d42b1ddd493aad" refkind="member"><highlight class="preprocessor">#define<sp/>MR_FINALLY<sp/>DETAIL_MR_FINALLY(<sp/>ScopeGuard<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cpp_exceptions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_SUCCESS<sp/>DETAIL_MR_FINALLY(<sp/>ExceptionScopeGuard&lt;true&gt;::Type<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_THROW<sp/>DETAIL_MR_FINALLY(<sp/>ExceptionScopeGuard&lt;false&gt;::Type<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#else<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="MRFinally_8h_1a72db3a237e531f5d3935a8cd53f533b6" refkind="member"><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_SUCCESS<sp/>MR_FINALLY</highlight></codeline>
+<codeline lineno="26" refid="MRFinally_8h_1a40e5af90a48f13bfd508e3019793ad23" refkind="member"><highlight class="preprocessor">#define<sp/>MR_FINALLY_ON_THROW<sp/>(void)[&amp;]()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30" refid="MRFinally_8h_1ac22b729a28295f5adeb690ef54729b1c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DETAIL_MR_FINALLY(<sp/>type_<sp/>)<sp/>\</highlight></codeline>
+<codeline lineno="31"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>auto<sp/>MR_CONCAT(<sp/>_mrScopeGuard,<sp/>__COUNTER__<sp/>)<sp/>=<sp/>::MR::detail::MakeScopeGuard&lt;::MR::detail::type_&gt;{}<sp/>-&gt;*<sp/>[&amp;]()<sp/>-&gt;<sp/>void</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="namespaceMR_1_1detail" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR_1_1detail" kindref="compound">MR::detail</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="37" refid="classMR_1_1detail_1_1ScopeGuard" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1detail_1_1ScopeGuard" kindref="compound">ScopeGuard</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>F<sp/>func;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42" refid="classMR_1_1detail_1_1ScopeGuard_1a4bb7973a1780f673131d887ccd7a99a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a4bb7973a1780f673131d887ccd7a99a5" kindref="member">ScopeGuard</ref>(<sp/>F&amp;&amp;<sp/>func<sp/>)<sp/>:<sp/>func(<sp/>std::move(<sp/>func<sp/>)<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="43" refid="classMR_1_1detail_1_1ScopeGuard_1ab72f5f420a40ffb2fdeba77f9cfc3c6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1ab72f5f420a40ffb2fdeba77f9cfc3c6f" kindref="member">ScopeGuard</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard" kindref="compound">ScopeGuard</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="44" refid="classMR_1_1detail_1_1ScopeGuard_1a80a080271e0af15a7e4244bcc72d35a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard" kindref="compound">ScopeGuard</ref>&amp;<sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a80a080271e0af15a7e4244bcc72d35a4" kindref="member">operator=</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard" kindref="compound">ScopeGuard</ref>&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="45" refid="classMR_1_1detail_1_1ScopeGuard_1a2c51cf739e0e06d29590ee4e3d5729b0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1detail_1_1ScopeGuard_1a2c51cf739e0e06d29590ee4e3d5729b0" kindref="member">~ScopeGuard</ref>()<sp/>{<sp/>func();<sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cpp_exceptions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>Success&gt;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">ExceptionScopeGuard</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Type</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>F<sp/>func;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ex<sp/>=<sp/>std::uncaught_exceptions();</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Type(<sp/>F&amp;&amp;<sp/>func<sp/>)<sp/>:<sp/>func(<sp/>std::move(<sp/>func<sp/>)<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Type(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Type&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Type&amp;<sp/>operator=(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>Type&amp;<sp/>)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>~Type()<sp/>noexcept(<sp/>!Success<sp/>)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>(<sp/>ex<sp/>==<sp/>std::uncaught_exceptions()<sp/>)<sp/>==<sp/>Success<sp/>)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>func();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal">&gt;<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>T&gt;</highlight></codeline>
+<codeline lineno="72" refid="structMR_1_1detail_1_1MakeScopeGuard" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1detail_1_1MakeScopeGuard" kindref="compound">MakeScopeGuard</ref></highlight></codeline>
+<codeline lineno="73"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">template</highlight><highlight class="normal"><sp/>&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>F&gt;</highlight></codeline>
+<codeline lineno="75" refid="structMR_1_1detail_1_1MakeScopeGuard_1a7d35fb7fc3a07cf2ff15168afa6381a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>T&lt;F&gt;<sp/><ref refid="structMR_1_1detail_1_1MakeScopeGuard_1a7d35fb7fc3a07cf2ff15168afa6381a0" kindref="member">operator-&gt;*</ref>(<sp/>F&amp;&amp;<sp/>func<sp/>)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>T&lt;F&gt;(<sp/>std::move(<sp/>func<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRFinally.h"/>
+  </compounddef>
+</doxygen>

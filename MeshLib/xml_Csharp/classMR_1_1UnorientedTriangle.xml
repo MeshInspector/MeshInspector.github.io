@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1UnorientedTriangle" kind="class" language="C#" prot="public">
+    <compoundname>MR::UnorientedTriangle</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_UnorientedTriangle</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1UnorientedTriangle_1a4d081de8de31711413d251b036dce7ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref MR.Std.Array_MRVertId_3</type>
+        <definition>new unsafe ref MR.Std.Array_MRVertId_3 MR.UnorientedTriangle.verts</definition>
+        <argsstring></argsstring>
+        <name>verts</name>
+        <qualifiedname>MR.UnorientedTriangle.verts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="166" column="53" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1UnorientedTriangle_1a6f3cd5a63e3662d2ce6acc55c96d5c66" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe new ref <ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref></type>
+        <definition>unsafe new ref MR.VertId MR.UnorientedTriangle.this[ulong i]</definition>
+        <argsstring></argsstring>
+        <name>this[ulong i]</name>
+        <qualifiedname>MR.UnorientedTriangle.this[ulong i]</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UnorientedTriangle.operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="240" column="40" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="241" bodyend="248"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1UnorientedTriangle_1a8852b595c8174ed911e29ac95c382f70" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnorientedTriangle.UnorientedTriangle</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>UnorientedTriangle</name>
+        <qualifiedname>MR.UnorientedTriangle.UnorientedTriangle</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="170" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="170" bodyend="174"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1UnorientedTriangle_1a176fa8ba1591d178ae6b5ab3c495cd31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnorientedTriangle.UnorientedTriangle</definition>
+        <argsstring>(MR.Const_UnorientedTriangle _other)</argsstring>
+        <name>UnorientedTriangle</name>
+        <qualifiedname>MR.UnorientedTriangle.UnorientedTriangle</qualifiedname>
+        <param>
+          <type>MR.Const_UnorientedTriangle</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnorientedTriangle.UnorientedTriangle</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="180" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="180" bodyend="187"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnorientedTriangle_1adb08e44235b3f3b76b543eb11f435b69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.UnorientedTriangle.UnorientedTriangle</definition>
+        <argsstring>(UnorientedTriangle _other)</argsstring>
+        <name>UnorientedTriangle</name>
+        <qualifiedname>MR.UnorientedTriangle.UnorientedTriangle</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1UnorientedTriangle" kindref="compound">UnorientedTriangle</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnorientedTriangle.UnorientedTriangle</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="192" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="192" bodyend="192"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnorientedTriangle_1acc4d47aad933a099f11b9bdaea323d50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.UnorientedTriangle.UnorientedTriangle</definition>
+        <argsstring>(in MR.Std.Array_MRVertId_3 inVs, MR.Misc.InOut&lt; bool &gt;? outFlipped=null)</argsstring>
+        <name>UnorientedTriangle</name>
+        <qualifiedname>MR.UnorientedTriangle.UnorientedTriangle</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVertId_3</type>
+          <declname>inVs</declname>
+        </param>
+        <param>
+          <type>MR.Misc.InOut&lt; bool &gt;?</type>
+          <declname>outFlipped</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnorientedTriangle.UnorientedTriangle</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="197" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="197" bodyend="208"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnorientedTriangle_1a14b2b2728a4ae7574f0ae205adffd5cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe ref MR.Std.Array_MRVertId_3</type>
+        <definition>unsafe ref MR.Std.Array_MRVertId_3 MR.UnorientedTriangle.convertTo_Std_Array_MRVertId_3Ref</definition>
+        <argsstring>()</argsstring>
+        <name>convertTo_Std_Array_MRVertId_3Ref</name>
+        <qualifiedname>MR.UnorientedTriangle.convertTo_Std_Array_MRVertId_3Ref</qualifiedname>
+        <briefdescription>
+<para>Generated from conversion operator <computeroutput>MR.UnorientedTriangle.operator std.array&lt;<ref refid="structMR_1_1VertId" kindref="compound">MR.VertId</ref>, 3&gt; &amp;</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="218" column="49" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="218" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1UnorientedTriangle_1a7b3efe15b67dcb2eed41e8d87784e0a6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1UnorientedTriangle" kindref="compound">MR.UnorientedTriangle</ref></type>
+        <definition>unsafe MR.UnorientedTriangle MR.UnorientedTriangle.assign</definition>
+        <argsstring>(MR.Const_UnorientedTriangle _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.UnorientedTriangle.assign</qualifiedname>
+        <param>
+          <type>MR.Const_UnorientedTriangle</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.UnorientedTriangle.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="228" column="44" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="228" bodyend="235"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1UnorientedTriangle_1aeed58daed0b5191760e8196821155bf8" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.UnorientedTriangle.operator UnorientedTriangle</definition>
+        <argsstring>(in MR.Std.Array_MRVertId_3 inVs)</argsstring>
+        <name>operator UnorientedTriangle</name>
+        <qualifiedname>MR.UnorientedTriangle.operator UnorientedTriangle</qualifiedname>
+        <param>
+          <type>in MR.Std.Array_MRVertId_3</type>
+          <declname>inVs</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.UnorientedTriangle.UnorientedTriangle</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="213" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="213" bodyend="213"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>describes a triangle as three vertex IDs sorted in a way to quickly find same triangles irrespective of vertex order (clockwise or counterclockwise) Generated from class <computeroutput><ref refid="classMR_1_1UnorientedTriangle" kindref="compound">MR.UnorientedTriangle</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_UnorientedTriangle</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UnorientedTriangle</label>
+        <link refid="classMR_1_1UnorientedTriangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UnorientedTriangle &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_UnorientedTriangle &gt;</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_UnorientedTriangle</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.UnorientedTriangle</label>
+        <link refid="classMR_1_1UnorientedTriangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_UnorientedTriangle &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+      <node id="5">
+        <label>System::IEquatable&lt; MR.Const_UnorientedTriangle &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" line="164" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRUnorientedTriangle.cs" bodystart="165" bodyend="249"/>
+    <listofallmembers>
+      <member refid="classMR_1_1UnorientedTriangle_1a7b3efe15b67dcb2eed41e8d87784e0a6" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>assign</name></member>
+      <member refid="classMR_1_1UnorientedTriangle_1a14b2b2728a4ae7574f0ae205adffd5cd" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>convertTo_Std_Array_MRVertId_3Ref</name></member>
+      <member refid="classMR_1_1UnorientedTriangle_1aeed58daed0b5191760e8196821155bf8" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>operator UnorientedTriangle</name></member>
+      <member refid="classMR_1_1UnorientedTriangle_1a6f3cd5a63e3662d2ce6acc55c96d5c66" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>this[ulong i]</name></member>
+      <member refid="classMR_1_1UnorientedTriangle_1a8852b595c8174ed911e29ac95c382f70" prot="package" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>
+      <member refid="classMR_1_1UnorientedTriangle_1a176fa8ba1591d178ae6b5ab3c495cd31" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>
+      <member refid="classMR_1_1UnorientedTriangle_1adb08e44235b3f3b76b543eb11f435b69" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>
+      <member refid="classMR_1_1UnorientedTriangle_1acc4d47aad933a099f11b9bdaea323d50" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>UnorientedTriangle</name></member>
+      <member refid="classMR_1_1UnorientedTriangle_1a4d081de8de31711413d251b036dce7ad" prot="public" virt="non-virtual"><scope>MR::UnorientedTriangle</scope><name>verts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

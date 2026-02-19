@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BindVertexAttribArraySettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::BindVertexAttribArraySettings</compoundname>
+    <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gaa45f4a7fbb301632dd3cce3e70a01bef" kind="variable"><name>program_shader</name></member>
+      <member refid="group__GeneralGroup_1ga58b9782177e88d4d24c156ba056867bb" kind="variable"><name>name</name></member>
+      <member refid="group__GeneralGroup_1ga3ec552b76a650ac289114916c2714188" kind="variable"><name>buf</name></member>
+      <member refid="group__GeneralGroup_1ga1e06765a94d24f632c968c4d04f8280a" kind="variable"><name>arr</name></member>
+      <member refid="group__GeneralGroup_1ga65f898d899c6fff2f308bfd6fd24a129" kind="variable"><name>arrSize</name></member>
+      <member refid="group__GeneralGroup_1gaa0c81d5bd817513cae1dca00c0f1d0e7" kind="variable"><name>baseTypeElementsNumber</name></member>
+      <member refid="group__GeneralGroup_1gac5fc320edee1d79c0c459926f8a80fef" kind="variable"><name>refresh</name></member>
+      <member refid="group__GeneralGroup_1gae5e71ac65ba00245ac2ee44f35f33168" kind="variable"><name>forceUse</name></member>
+      <member refid="group__GeneralGroup_1gae47afc7641f6193b867cc7f5bb42f07d" kind="variable"><name>isColor</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::BindVertexAttribArraySettings</label>
+        <link refid="structMR_1_1BindVertexAttribArraySettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>buf</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::GlBuffer</label>
+        <link refid="classMR_1_1GlBuffer"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="98" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="99" bodyend="109"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga1e06765a94d24f632c968c4d04f8280a" prot="public" virt="non-virtual"><scope>MR::BindVertexAttribArraySettings</scope><name>arr</name></member>
+      <member refid="group__GeneralGroup_1ga65f898d899c6fff2f308bfd6fd24a129" prot="public" virt="non-virtual"><scope>MR::BindVertexAttribArraySettings</scope><name>arrSize</name></member>
+      <member refid="group__GeneralGroup_1gaa0c81d5bd817513cae1dca00c0f1d0e7" prot="public" virt="non-virtual"><scope>MR::BindVertexAttribArraySettings</scope><name>baseTypeElementsNumber</name></member>
+      <member refid="group__GeneralGroup_1ga3ec552b76a650ac289114916c2714188" prot="public" virt="non-virtual"><scope>MR::BindVertexAttribArraySettings</scope><name>buf</name></member>
+      <member refid="group__GeneralGroup_1gae5e71ac65ba00245ac2ee44f35f33168" prot="public" virt="non-virtual"><scope>MR::BindVertexAttribArraySettings</scope><name>forceUse</name></member>
+      <member refid="group__GeneralGroup_1gae47afc7641f6193b867cc7f5bb42f07d" prot="public" virt="non-virtual"><scope>MR::BindVertexAttribArraySettings</scope><name>isColor</name></member>
+      <member refid="group__GeneralGroup_1ga58b9782177e88d4d24c156ba056867bb" prot="public" virt="non-virtual"><scope>MR::BindVertexAttribArraySettings</scope><name>name</name></member>
+      <member refid="group__GeneralGroup_1gaa45f4a7fbb301632dd3cce3e70a01bef" prot="public" virt="non-virtual"><scope>MR::BindVertexAttribArraySettings</scope><name>program_shader</name></member>
+      <member refid="group__GeneralGroup_1gac5fc320edee1d79c0c459926f8a80fef" prot="public" virt="non-virtual"><scope>MR::BindVertexAttribArraySettings</scope><name>refresh</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

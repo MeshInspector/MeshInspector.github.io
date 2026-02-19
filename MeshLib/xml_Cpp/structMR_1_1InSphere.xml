@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1InSphere" kind="struct" language="C++" prot="public">
+    <compoundname>MR::InSphere</compoundname>
+    <includes refid="MRMeshThickness_8h" local="no">MRMeshThickness.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gad8f2efb34f2d4b1e4b866ad31694dd50" kind="variable"><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga55fffe1bc5347e4a6ea79bc6e3479c1f" kind="variable"><name>radius</name></member>
+      <member refid="group__GeneralGroup_1ga9305d6a23336a3bf9ef33323fccc83d2" kind="variable"><name>oppositeTouchPoint</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>found maximal inscribed sphere touching input point with center along given direction </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::InSphere</label>
+        <link refid="structMR_1_1InSphere"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>oppositeTouchPoint</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::MeshProjectionResult</label>
+        <link refid="structMR_1_1MeshProjectionResult"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>proj</edgelabel>
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>mtp</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::MeshTriPoint</label>
+        <link refid="structMR_1_1MeshTriPoint"/>
+      </node>
+      <node id="3">
+        <label>MR::PointOnFace</label>
+        <link refid="structMR_1_1PointOnFace"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" line="64" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshThickness.h" bodystart="65" bodyend="69"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad8f2efb34f2d4b1e4b866ad31694dd50" prot="public" virt="non-virtual"><scope>MR::InSphere</scope><name>center</name></member>
+      <member refid="group__GeneralGroup_1ga9305d6a23336a3bf9ef33323fccc83d2" prot="public" virt="non-virtual"><scope>MR::InSphere</scope><name>oppositeTouchPoint</name></member>
+      <member refid="group__GeneralGroup_1ga55fffe1bc5347e4a6ea79bc6e3479c1f" prot="public" virt="non-virtual"><scope>MR::InSphere</scope><name>radius</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

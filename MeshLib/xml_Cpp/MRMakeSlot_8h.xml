@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRMakeSlot_8h" kind="file" language="C++">
+    <compoundname>MRMakeSlot.h</compoundname>
+    <includes local="no">type_traits</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRMakeSlot.h</label>
+        <link refid="MRMakeSlot_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>type_traits</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="MRMakeSlot_8h_1a2c688df55bdadf35189e97880b6dc592" prot="public" static="no">
+        <name>MAKE_SLOT</name>
+        <param><defname>func</defname></param>
+        <initializer><ref refid="MRMakeSlot_8h_1a4e10ab3e9579ce8ffbd2209497603cbc" kindref="member">bindSlotCallback</ref>(this,func)</initializer>
+        <briefdescription>
+<para>you will not be able to move your struct after using this macro </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMakeSlot.h" line="17" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMakeSlot.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRMakeSlot_8h_1a4e10ab3e9579ce8ffbd2209497603cbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>typename MemberFuncPtr</type>
+          </param>
+          <param>
+            <type>typename BaseClass</type>
+          </param>
+        </templateparamlist>
+        <type>auto</type>
+        <definition>auto bindSlotCallback</definition>
+        <argsstring>(BaseClass *base, MemberFuncPtr func)</argsstring>
+        <name>bindSlotCallback</name>
+        <param>
+          <type>BaseClass *</type>
+          <declname>base</declname>
+        </param>
+        <param>
+          <type>MemberFuncPtr</type>
+          <declname>func</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMakeSlot.h" line="6" column="6" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMakeSlot.h" bodystart="6" bodyend="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;type_traits&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">template</highlight><highlight class="normal">&lt;</highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>MemberFuncPtr,<sp/></highlight><highlight class="keyword">typename</highlight><highlight class="normal"><sp/>BaseClass&gt;</highlight></codeline>
+<codeline lineno="6" refid="MRMakeSlot_8h_1a4e10ab3e9579ce8ffbd2209497603cbc" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">auto</highlight><highlight class="normal"><sp/><ref refid="MRMakeSlot_8h_1a4e10ab3e9579ce8ffbd2209497603cbc" kindref="member">bindSlotCallback</ref>(<sp/>BaseClass*<sp/>base,<sp/>MemberFuncPtr<sp/>func<sp/>)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static_assert</highlight><highlight class="normal">(<sp/>!(<sp/>std::is_move_assignable_v&lt;BaseClass&gt;<sp/>||<sp/>std::is_move_constructible_v&lt;BaseClass&gt;<sp/>),</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="stringliteral">&quot;MAKE_SLOT<sp/>requires<sp/>a<sp/>non-movable<sp/>type&quot;</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal">[base,<sp/>func]<sp/>(<sp/></highlight><highlight class="keyword">auto</highlight><highlight class="normal">&amp;&amp;...<sp/>args<sp/>)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<sp/>base-&gt;*func<sp/>)(<sp/>std::forward&lt;decltype(<sp/>args<sp/>)&gt;(<sp/>args<sp/>)...<sp/>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRMakeSlot_8h_1a2c688df55bdadf35189e97880b6dc592" refkind="member"><highlight class="preprocessor">#define<sp/>MAKE_SLOT(func)<sp/>bindSlotCallback(this,func)</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRMakeSlot.h"/>
+  </compounddef>
+</doxygen>

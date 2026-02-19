@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonMenu_1_1CustomContextMenuCheckbox" kind="struct" language="C++" prot="private">
+    <compoundname>MR::RibbonMenu::CustomContextMenuCheckbox</compoundname>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga53a2c754f44ded0522f1050af556662c" kind="typedef"><name>Setter</name></member>
+      <member refid="group__GeneralGroup_1ga6e59a865a18df121ac0b8e5a44105e56" kind="typedef"><name>Getter</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gacbee94526041dbd1ed69fd63355e95f7" kind="variable"><name>setter</name></member>
+      <member refid="group__GeneralGroup_1ga987c2c2fa357c3d0f1ac7320e72b2bab" kind="variable"><name>getter</name></member>
+      <member refid="group__GeneralGroup_1ga02769e9c0a69fab66f3aaba99d212f57" kind="variable"><name>selectedMask</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" line="28" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonMenu.h" bodystart="29" bodyend="37"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga6e59a865a18df121ac0b8e5a44105e56" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>Getter</name></member>
+      <member refid="group__GeneralGroup_1ga987c2c2fa357c3d0f1ac7320e72b2bab" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>getter</name></member>
+      <member refid="group__GeneralGroup_1ga02769e9c0a69fab66f3aaba99d212f57" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>selectedMask</name></member>
+      <member refid="group__GeneralGroup_1ga53a2c754f44ded0522f1050af556662c" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>Setter</name></member>
+      <member refid="group__GeneralGroup_1gacbee94526041dbd1ed69fd63355e95f7" prot="public" virt="non-virtual"><scope>MR::RibbonMenu::CustomContextMenuCheckbox</scope><name>setter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

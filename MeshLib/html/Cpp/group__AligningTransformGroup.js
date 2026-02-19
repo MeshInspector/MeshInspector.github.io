@@ -1,37 +1,51 @@
 var group__AligningTransformGroup =
 [
-    [ "MR::MultiwayAligningTransform", "../Csharp/classMR_1_1MultiwayAligningTransform.html", [
+    [ "MR::MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html", [
       [ "Stabilizer", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html", [
         [ "rot", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#ad0025a9806d714127a0820f48a343136", null ],
         [ "shift", "structMR_1_1MultiwayAligningTransform_1_1Stabilizer.html#a7145307fcfb6ab1a4ad9426e6d2ac36b", null ]
       ] ],
-      [ "MultiwayAligningTransform", "../Csharp/classMR_1_1MultiwayAligningTransform.html#aa2b99b5d907960b5b34fba8d76149b49", null ],
-      [ "MultiwayAligningTransform", "../Csharp/classMR_1_1MultiwayAligningTransform.html#ab073ab7194d384fdb5a121bc40285553", null ],
-      [ "MultiwayAligningTransform", "../Csharp/classMR_1_1MultiwayAligningTransform.html#a724d243960a8c6a4c37c0b7a6f1a31f2", null ],
-      [ "add", "../Csharp/classMR_1_1MultiwayAligningTransform.html#a9e36e5b4797251ca0103b624ac6da2af", null ],
-      [ "add", "../Csharp/classMR_1_1MultiwayAligningTransform.html#a7c5495d2131d1b7c4b39b1ff6e33b551", null ],
-      [ "add", "../Csharp/classMR_1_1MultiwayAligningTransform.html#ac5973d1e6fcb741d9f8229fbcbf3ff02", null ],
-      [ "add", "../Csharp/classMR_1_1MultiwayAligningTransform.html#ac5c0c090a30d9fdf26aed6cc4cf463e8", null ],
-      [ "add", "../Csharp/classMR_1_1MultiwayAligningTransform.html#affdf594eec081c760ced017d90a355a6", null ],
-      [ "assign", "../Csharp/classMR_1_1MultiwayAligningTransform.html#a5ba0d7c7748b3b4dc9b46c8dfb98044d", null ],
-      [ "reset", "../Csharp/classMR_1_1MultiwayAligningTransform.html#a04e34a18ec037af60d1289048c7b0b04", null ]
+      [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a41247022db4941f568025a641398d0b8", null ],
+      [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a6d91b7804a0259ee9b021e2b87898f83", null ],
+      [ "MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#ae9a3702a5e0dc2a2a5f9665fd886be0a", null ],
+      [ "~MultiwayAligningTransform", "classMR_1_1MultiwayAligningTransform.html#a75f76046bba7a35ce1c2396c72b47aa8", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#a339777c7114ede92149acc8c703508d0", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#a3e485b9e92d58d482847c3dc90afcc8d", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#ae6740604d1fa635862343a99d6cb5d7e", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#a1efd4fe910e9f4f9f64b14d2fd1929d4", null ],
+      [ "add", "classMR_1_1MultiwayAligningTransform.html#ac35d132681b885e39cbfa56ee9f11eb0", null ],
+      [ "operator=", "classMR_1_1MultiwayAligningTransform.html#aa7eedfd31142740a16443cbea7089534", null ],
+      [ "reset", "classMR_1_1MultiwayAligningTransform.html#aa867c2ead76afd490b8d287b98ac0ca4", null ],
+      [ "solve", "classMR_1_1MultiwayAligningTransform.html#a3e5b35fce7e3307e85f2dbf172d70b17", null ],
+      [ "solve", "classMR_1_1MultiwayAligningTransform.html#aff88b77e742b2e4c2aad5013dfa2c4c2", null ]
     ] ],
-    [ "MR::PointToPlaneAligningTransform", "../Csharp/classMR_1_1PointToPlaneAligningTransform.html", [
-      [ "PointToPlaneAligningTransform", "../Csharp/classMR_1_1PointToPlaneAligningTransform.html#adf0ccc5bf8ba4a2664995b8df1966ea4", null ],
-      [ "PointToPlaneAligningTransform", "../Csharp/classMR_1_1PointToPlaneAligningTransform.html#a730675895c20ac0c23a140c0dec5ec7b", null ],
-      [ "add", "../Csharp/classMR_1_1PointToPlaneAligningTransform.html#a5276e64fa3080924e9ce63bfabaa9811", null ],
-      [ "add", "../Csharp/classMR_1_1PointToPlaneAligningTransform.html#a7e9785dfc55f0b60d3174c3092ae862c", null ],
-      [ "assign", "../Csharp/classMR_1_1PointToPlaneAligningTransform.html#ae3f2f0f271badb87ba3ba56bc7217398", null ],
-      [ "clear", "../Csharp/classMR_1_1PointToPlaneAligningTransform.html#a6e09edb9bf03275a105e13189b65dbdd", null ],
-      [ "prepare", "../Csharp/classMR_1_1PointToPlaneAligningTransform.html#aa09d622a0fc5d3f03c2bc307af1f23a4", null ]
+    [ "MR::PointToPlaneAligningTransform", "classMR_1_1PointToPlaneAligningTransform.html", [
+      [ "add", "classMR_1_1PointToPlaneAligningTransform.html#a08230ea255db679fb12588edc3ca5f2e", null ],
+      [ "add", "classMR_1_1PointToPlaneAligningTransform.html#a1cdd6aff2ef7a9e5eecf5624b27a3f3b", null ],
+      [ "calculateAmendment", "classMR_1_1PointToPlaneAligningTransform.html#a8555475cfcfcf18d967f750232989d78", null ],
+      [ "calculateAmendmentWithScale", "classMR_1_1PointToPlaneAligningTransform.html#ad5685f4e41d5b6e952889366f8b118f8", null ],
+      [ "calculateFixedAxisAmendment", "classMR_1_1PointToPlaneAligningTransform.html#ac7f842e0e3e90350579783534790080e", null ],
+      [ "calculateOrthogonalAxisAmendment", "classMR_1_1PointToPlaneAligningTransform.html#a4d07c954a8bbd8984f99644bc4ee2764", null ],
+      [ "clear", "classMR_1_1PointToPlaneAligningTransform.html#aaab037d0039ed961116c7af28bd59347", null ],
+      [ "findBestRigidScaleXf", "classMR_1_1PointToPlaneAligningTransform.html#af8656bfbca5608611a5f78b10ce037b2", null ],
+      [ "findBestRigidXf", "classMR_1_1PointToPlaneAligningTransform.html#a28c394327019054e87403e25b8cda62b", null ],
+      [ "findBestRigidXfFixedRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#a5162299152d3a4f6ae9de54c2a1ccb58", null ],
+      [ "findBestRigidXfOrthogonalRotationAxis", "classMR_1_1PointToPlaneAligningTransform.html#af0c4b1002192d03fcf79ae0df032d66e", null ],
+      [ "findBestTranslation", "classMR_1_1PointToPlaneAligningTransform.html#a85d1216f9a1a5ea606fc155ed9ffcd3c", null ],
+      [ "prepare", "classMR_1_1PointToPlaneAligningTransform.html#ad0ef5fe0bddd87ee28ec85ec049e779f", null ]
     ] ],
-    [ "MR::PointToPointAligningTransform", "../Csharp/classMR_1_1PointToPointAligningTransform.html", [
-      [ "PointToPointAligningTransform", "../Csharp/classMR_1_1PointToPointAligningTransform.html#a840cfc756a8eac90b7b2cb7a1762aa26", null ],
-      [ "PointToPointAligningTransform", "../Csharp/classMR_1_1PointToPointAligningTransform.html#a4d0aee0846a1ff67d4b909d21b58b5c6", null ],
-      [ "add", "../Csharp/classMR_1_1PointToPointAligningTransform.html#a19f353571b95147e0abec848504d8b5c", null ],
-      [ "add", "../Csharp/classMR_1_1PointToPointAligningTransform.html#a5f98e5c1bfa49fe606f20cfa1bd0e2ff", null ],
-      [ "add", "../Csharp/classMR_1_1PointToPointAligningTransform.html#add2355ea9ca400be6dcef98f2d986810", null ],
-      [ "assign", "../Csharp/classMR_1_1PointToPointAligningTransform.html#a65fa8aa57ea6beda283cb2abc0dea8a2", null ],
-      [ "clear", "../Csharp/classMR_1_1PointToPointAligningTransform.html#a6cd372b917426d3ca394461cad10fb24", null ]
+    [ "MR::PointToPointAligningTransform", "classMR_1_1PointToPointAligningTransform.html", [
+      [ "add", "classMR_1_1PointToPointAligningTransform.html#a6b0c81b83591abaea22519d6292ba022", null ],
+      [ "add", "classMR_1_1PointToPointAligningTransform.html#aa7e4554d230ff4113f0eda48c212f0bc", null ],
+      [ "add", "classMR_1_1PointToPointAligningTransform.html#a1f94659f434039a0d815dc1cc7926025", null ],
+      [ "centroid1", "classMR_1_1PointToPointAligningTransform.html#a7c5ce61a849b6f702c6d585049995ef0", null ],
+      [ "centroid2", "classMR_1_1PointToPointAligningTransform.html#a71bc17188dc3fb99ec66eca0caadcb0e", null ],
+      [ "clear", "classMR_1_1PointToPointAligningTransform.html#ac5424746eb81f9bd5747eefad03a184b", null ],
+      [ "findBestRigidScaleXf", "classMR_1_1PointToPointAligningTransform.html#aaee2e3799959a735664c9a514ebf68b4", null ],
+      [ "findBestRigidXf", "classMR_1_1PointToPointAligningTransform.html#a3f69ff2cdbd2209a9e4b5ce12d6b6d23", null ],
+      [ "findBestRigidXfFixedRotationAxis", "classMR_1_1PointToPointAligningTransform.html#af76b9bbf81a2b3e4c6736320d918abf3", null ],
+      [ "findBestRigidXfOrthogonalRotationAxis", "classMR_1_1PointToPointAligningTransform.html#a19aab45c251d7c3e06f40a8e59ec2998", null ],
+      [ "findBestTranslation", "classMR_1_1PointToPointAligningTransform.html#ad5779781042d23e1ded869ab54fc771e", null ],
+      [ "totalWeight", "classMR_1_1PointToPointAligningTransform.html#a36c54b01cd263e2fd5108051a8588576", null ]
     ] ]
 ];

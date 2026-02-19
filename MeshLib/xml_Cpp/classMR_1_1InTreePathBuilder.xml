@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1InTreePathBuilder" kind="class" language="C++" prot="public">
+    <compoundname>MR::InTreePathBuilder</compoundname>
+    <includes refid="MRInTreePathBuilder_8h" local="no">MRInTreePathBuilder.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" kind="variable"><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1gacd9355de874443aa0132991638f1fe2e" kind="variable"><name>treeEdges_</name></member>
+      <member refid="group__GeneralGroup_1gab373c2a1918e12da1f93770318f254c7" kind="variable"><name>vertDistance_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaf25102bdd3972974bc827e8e7eb0b666" kind="function"><name>InTreePathBuilder</name></member>
+      <member refid="group__GeneralGroup_1ga298a5dffe72dcebf92ad6ede0dbf9bd3" kind="function"><name>build</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gaa9116724a3edb217b9ddb61735ecbb7f" kind="function"><name>getEdgeBack_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>given a spanning tree of edges in the mesh (or forest in case of several connected components), prepares to build quickly a path along tree edges between any two vertices </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRInTreePathBuilder.h" bodystart="14" bodyend="30"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga298a5dffe72dcebf92ad6ede0dbf9bd3" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>build</name></member>
+      <member refid="group__GeneralGroup_1gaa9116724a3edb217b9ddb61735ecbb7f" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>getEdgeBack_</name></member>
+      <member refid="group__GeneralGroup_1gaf25102bdd3972974bc827e8e7eb0b666" prot="public" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>InTreePathBuilder</name></member>
+      <member refid="group__GeneralGroup_1gaf0d8c93adfdca3a7b53b48884d7a6f3e" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>topology_</name></member>
+      <member refid="group__GeneralGroup_1gacd9355de874443aa0132991638f1fe2e" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>treeEdges_</name></member>
+      <member refid="group__GeneralGroup_1gab373c2a1918e12da1f93770318f254c7" prot="private" virt="non-virtual"><scope>MR::InTreePathBuilder</scope><name>vertDistance_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

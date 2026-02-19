@@ -1,0 +1,336 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ViewportProperty__MRVector4UnsignedChar" kind="class" language="C#" prot="public">
+    <compoundname>MR::ViewportProperty_MRVector4UnsignedChar</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ViewportProperty_MRVector4UnsignedChar</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a9af26d5e01d103191dd4caa5975ef05f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>unsafe <ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">MR.Vector4_UnsignedChar</ref></type>
+        <definition>unsafe MR.Vector4_UnsignedChar MR.ViewportProperty_MRVector4UnsignedChar.this[MR.ViewportId id]</definition>
+        <argsstring></argsstring>
+        <name>this[MR.ViewportId id]</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.this[MR.ViewportId id]</qualifiedname>
+        <briefdescription>
+<para>returns direct access to value associated with given viewport (or default value if !id) Generated from method <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::operator[]</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1419" column="46" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1420" bodyend="1427"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a0600d8745bf95ed9264241003e9b8a8b" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ViewportProperty_MRVector4UnsignedChar</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1333" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1333" bodyend="1333"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a4fa499129bfbde5a4297916cf4563814" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</definition>
+        <argsstring>()</argsstring>
+        <name>ViewportProperty_MRVector4UnsignedChar</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1338" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1338" bodyend="1343"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1ac11cbceafd29a4f8f86a2a6032f69707" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRVector4UnsignedChar _other)</argsstring>
+        <name>ViewportProperty_MRVector4UnsignedChar</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRVector4UnsignedChar</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::ViewportProperty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1348" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1348" bodyend="1354"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a414247b7d7813b2d994c6530c10042b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</definition>
+        <argsstring>(Const_ViewportProperty_MRVector4UnsignedChar _other)</argsstring>
+        <name>ViewportProperty_MRVector4UnsignedChar</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</qualifiedname>
+        <param>
+          <type>Const_ViewportProperty_MRVector4UnsignedChar</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::ViewportProperty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1359" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1359" bodyend="1359"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1aa7f7ad115cc969b63d41970d270fdb69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</definition>
+        <argsstring>(ViewportProperty_MRVector4UnsignedChar _other)</argsstring>
+        <name>ViewportProperty_MRVector4UnsignedChar</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar" kindref="compound">ViewportProperty_MRVector4UnsignedChar</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::ViewportProperty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1364" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1364" bodyend="1364"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a7d616d707d940ebe5a3f4345b497300c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar def)</argsstring>
+        <name>ViewportProperty_MRVector4UnsignedChar</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.ViewportProperty_MRVector4UnsignedChar</qualifiedname>
+        <param>
+          <type>MR.Const_Vector4_UnsignedChar</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::ViewportProperty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1369" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1369" bodyend="1375"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1aea7f43fee584b29e817d52e04f8f0757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar" kindref="compound">MR.ViewportProperty_MRVector4UnsignedChar</ref></type>
+        <definition>unsafe MR.ViewportProperty_MRVector4UnsignedChar MR.ViewportProperty_MRVector4UnsignedChar.assign</definition>
+        <argsstring>(MR._ByValue_ViewportProperty_MRVector4UnsignedChar _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ViewportProperty_MRVector4UnsignedChar</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1385" column="64" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1385" bodyend="1392"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a58d7b672fdb78d4a67dd946de034a6d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ViewportProperty_MRVector4UnsignedChar.set</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar def)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.set</qualifiedname>
+        <param>
+          <type>MR.Const_Vector4_UnsignedChar</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+<para>sets default property value Generated from method <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::set</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1398" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1398" bodyend="1403"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1af8a714c8ea679555937920699b2a1e1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe new <ref refid="classMR_1_1Vector4__UnsignedChar" kindref="compound">MR.Vector4_UnsignedChar</ref></type>
+        <definition>unsafe new MR.Vector4_UnsignedChar MR.ViewportProperty_MRVector4UnsignedChar.get</definition>
+        <argsstring>()</argsstring>
+        <name>get</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.get</qualifiedname>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::get</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1408" column="50" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1408" bodyend="1413"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a524d4e2ab8220601adc5e7821fc4334d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ViewportProperty_MRVector4UnsignedChar.set</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar v, MR.ViewportId id)</argsstring>
+        <name>set</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.set</qualifiedname>
+        <param>
+          <type>MR.Const_Vector4_UnsignedChar</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>sets specific property value for given viewport (or default value if !id) Generated from method <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::set</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1433" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1433" bodyend="1438"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a478fc0230ca35d6d379ce89aa758efc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ViewportProperty_MRVector4UnsignedChar.reset</definition>
+        <argsstring>(MR.ViewportId id)</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.reset</qualifiedname>
+        <param>
+          <type><ref refid="structMR_1_1ViewportId" kindref="compound">MR.ViewportId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>forgets specific property value for given viewport (or all viewports if !id); returns true if any specific value was removed Generated from method <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::reset</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1445" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1445" bodyend="1450"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a2e9c584e81c649159394ab43229cab11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe bool</type>
+        <definition>unsafe bool MR.ViewportProperty_MRVector4UnsignedChar.reset</definition>
+        <argsstring>()</argsstring>
+        <name>reset</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.reset</qualifiedname>
+        <briefdescription>
+<para>forgets specific property value for all viewports; returns true if any specific value was removed Generated from method <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::reset</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1457" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1457" bodyend="1462"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1aa67aff98331c0e10291c370c6219f16f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ViewportProperty_MRVector4UnsignedChar.operator ViewportProperty_MRVector4UnsignedChar</definition>
+        <argsstring>(MR.Const_Vector4_UnsignedChar def)</argsstring>
+        <name>operator ViewportProperty_MRVector4UnsignedChar</name>
+        <qualifiedname>MR.ViewportProperty_MRVector4UnsignedChar.operator ViewportProperty_MRVector4UnsignedChar</qualifiedname>
+        <param>
+          <type>MR.Const_Vector4_UnsignedChar</type>
+          <declname>def</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;::ViewportProperty</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1380" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1380" bodyend="1380"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>storage of some viewport-dependent property, which has some default value for all viewports and special values for some specific viewports Generated from class <computeroutput>MR.ViewportProperty&lt;MR.Vector4&lt;unsigned char&gt;&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ViewportProperty_MRVector4UnsignedChar</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ViewportProperty_MRVector4UnsignedChar</label>
+        <link refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ViewportProperty_MRVector4UnsignedChar &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ViewportProperty_MRVector4UnsignedChar</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ViewportProperty_MRVector4UnsignedChar</label>
+        <link refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_ViewportProperty_MRVector4UnsignedChar &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" line="1331" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRViewportProperty.cs" bodystart="1332" bodyend="1463"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1aea7f43fee584b29e817d52e04f8f0757" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>assign</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1af8a714c8ea679555937920699b2a1e1e" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>get</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1aa67aff98331c0e10291c370c6219f16f" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>operator ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a478fc0230ca35d6d379ce89aa758efc9" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>reset</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a2e9c584e81c649159394ab43229cab11" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>reset</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a58d7b672fdb78d4a67dd946de034a6d3" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>set</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a524d4e2ab8220601adc5e7821fc4334d" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>set</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a9af26d5e01d103191dd4caa5975ef05f" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>this[MR.ViewportId id]</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a0600d8745bf95ed9264241003e9b8a8b" prot="package" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a4fa499129bfbde5a4297916cf4563814" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1ac11cbceafd29a4f8f86a2a6032f69707" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a414247b7d7813b2d994c6530c10042b6" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1aa7f7ad115cc969b63d41970d270fdb69" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>ViewportProperty_MRVector4UnsignedChar</name></member>
+      <member refid="classMR_1_1ViewportProperty__MRVector4UnsignedChar_1a7d616d707d940ebe5a3f4345b497300c" prot="public" virt="non-virtual"><scope>MR::ViewportProperty_MRVector4UnsignedChar</scope><name>ViewportProperty_MRVector4UnsignedChar</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

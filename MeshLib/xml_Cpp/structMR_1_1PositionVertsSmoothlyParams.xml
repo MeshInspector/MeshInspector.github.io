@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1PositionVertsSmoothlyParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::PositionVertsSmoothlyParams</compoundname>
+    <includes refid="MRPositionVertsSmoothly_8h" local="no">MRPositionVertsSmoothly.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga35aa8fa1280f405afeb9f43189843024" kind="variable"><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga8e96983524e4526167e2bf795ac13686" kind="variable"><name>vertShifts</name></member>
+      <member refid="group__GeneralGroup_1ga5563df5f8c2ef1af7864e5be4bfc7a42" kind="variable"><name>stabilizer</name></member>
+      <member refid="group__GeneralGroup_1ga69d2ed7107a7dd975887edd0da2c8847" kind="variable"><name>vertStabilizers</name></member>
+      <member refid="group__GeneralGroup_1ga7a683cc3d1052af67b00984f50fa920d" kind="variable"><name>edgeWeights</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::PositionVertsSmoothlyParams</label>
+        <link refid="structMR_1_1PositionVertsSmoothlyParams"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>vertShifts</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::Vector&lt; Vector3f, VertId &gt;</label>
+        <link refid="classMR_1_1Vector"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" line="22" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRPositionVertsSmoothly.h" bodystart="23" bodyend="39"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga7a683cc3d1052af67b00984f50fa920d" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>edgeWeights</name></member>
+      <member refid="group__GeneralGroup_1ga35aa8fa1280f405afeb9f43189843024" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>region</name></member>
+      <member refid="group__GeneralGroup_1ga5563df5f8c2ef1af7864e5be4bfc7a42" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>stabilizer</name></member>
+      <member refid="group__GeneralGroup_1ga8e96983524e4526167e2bf795ac13686" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>vertShifts</name></member>
+      <member refid="group__GeneralGroup_1ga69d2ed7107a7dd975887edd0da2c8847" prot="public" virt="non-virtual"><scope>MR::PositionVertsSmoothlyParams</scope><name>vertStabilizers</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PythonExport" kind="class" language="C++" prot="public">
+    <compoundname>MR::PythonExport</compoundname>
+    <includes refid="MRPython_8h" local="no">MRPython.h</includes>
+    <innerclass refid="structMR_1_1PythonExport_1_1ModuleData" prot="public">MR::PythonExport::ModuleData</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga27091fc0ef96636d5c59ff459694a6bf" kind="enum"><name>Priority</name></member>
+      <member refid="group__GeneralGroup_1ga001e362a5ed99ee391fd182df4571f9c" kind="typedef"><name>PythonRegisterFuncton</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga2553f1d2794ce1fdfaa893e69cc64836" kind="variable"><name>moduleData_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1gabfb182152c405649c53c0c632868b0c2" kind="function"><name>instance</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga595ac26b1d2a27a14a95bbc5a1963532" kind="function"><name>addFunc</name></member>
+      <member refid="group__GeneralGroup_1ga1105f4987df7b1b8d9d469115a831880" kind="function"><name>setInitFuncPtr</name></member>
+      <member refid="group__GeneralGroup_1ga1ae0ff73c0d87a6c897bf89610cabb81" kind="function"><name>functions</name></member>
+      <member refid="group__GeneralGroup_1ga67924d9cb7f431bc9894a456c513156f" kind="function"><name>modules</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga2922335b87834109b7fd5dac2da8a898" kind="function"><name>PythonExport</name></member>
+      <member refid="group__GeneralGroup_1gaeec7d003270fdcb4510389e4ac227562" kind="function"><name>~PythonExport</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" line="172" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRPython/MRPython.h" bodystart="173" bodyend="220"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga595ac26b1d2a27a14a95bbc5a1963532" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>addFunc</name></member>
+      <member refid="group__GeneralGroup_1ga1ae0ff73c0d87a6c897bf89610cabb81" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>functions</name></member>
+      <member refid="group__GeneralGroup_1gabfb182152c405649c53c0c632868b0c2" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>instance</name></member>
+      <member refid="group__GeneralGroup_1ga2553f1d2794ce1fdfaa893e69cc64836" prot="private" virt="non-virtual"><scope>MR::PythonExport</scope><name>moduleData_</name></member>
+      <member refid="group__GeneralGroup_1ga67924d9cb7f431bc9894a456c513156f" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>modules</name></member>
+      <member refid="group__GeneralGroup_1ga27091fc0ef96636d5c59ff459694a6bf" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>Priority</name></member>
+      <member refid="group__GeneralGroup_1ga2922335b87834109b7fd5dac2da8a898" prot="private" virt="non-virtual"><scope>MR::PythonExport</scope><name>PythonExport</name></member>
+      <member refid="group__GeneralGroup_1ga001e362a5ed99ee391fd182df4571f9c" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>PythonRegisterFuncton</name></member>
+      <member refid="group__GeneralGroup_1ga1105f4987df7b1b8d9d469115a831880" prot="public" virt="non-virtual"><scope>MR::PythonExport</scope><name>setInitFuncPtr</name></member>
+      <member refid="group__GeneralGroup_1gaeec7d003270fdcb4510389e4ac227562" prot="private" virt="non-virtual"><scope>MR::PythonExport</scope><name>~PythonExport</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

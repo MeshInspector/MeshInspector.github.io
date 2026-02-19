@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ChangeMeshEdgeSelectionAction" kind="class" language="C#" prot="public">
+    <compoundname>MR::ChangeMeshEdgeSelectionAction</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_ChangeMeshEdgeSelectionAction</basecompoundref>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1a315351c36ce4c550ca72315d2bf480e0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.ChangeMeshEdgeSelectionAction.operator MR.HistoryAction</definition>
+        <argsstring>(ChangeMeshEdgeSelectionAction self)</argsstring>
+        <name>operator MR.HistoryAction</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.operator MR.HistoryAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction" kindref="compound">ChangeMeshEdgeSelectionAction</ref></type>
+          <declname>self</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="611" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="611" bodyend="616"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1a618b701faba0c6dfe02f8e101cc16da2" prot="public" static="yes" const="no" explicit="yes" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>static unsafe MR.ChangeMeshEdgeSelectionAction.operator ChangeMeshEdgeSelectionAction?</definition>
+        <argsstring>(MR.HistoryAction parent)</argsstring>
+        <name>operator ChangeMeshEdgeSelectionAction?</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.operator ChangeMeshEdgeSelectionAction?</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></type>
+          <declname>parent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="619" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="619" bodyend="626"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1a30955dd648a332e905fcd06a2f13230a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>ChangeMeshEdgeSelectionAction</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="628" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="628" bodyend="628"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1a533442eafb356c404efb2f9adef57cff" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</definition>
+        <argsstring>(_UnderlyingShared *shared_ptr, bool is_owning)</argsstring>
+        <name>ChangeMeshEdgeSelectionAction</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</qualifiedname>
+        <param>
+          <type>_UnderlyingShared *</type>
+          <declname>shared_ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="630" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="630" bodyend="630"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1a31d359806339041f958510a09537a8da" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</definition>
+        <argsstring>(MR._ByValue_ChangeMeshEdgeSelectionAction _other)</argsstring>
+        <name>ChangeMeshEdgeSelectionAction</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeMeshEdgeSelectionAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="635" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="635" bodyend="641"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1a2abdf5e3dc7864c51b300b36a0d9ddc3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</definition>
+        <argsstring>(Const_ChangeMeshEdgeSelectionAction _other)</argsstring>
+        <name>ChangeMeshEdgeSelectionAction</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</qualifiedname>
+        <param>
+          <type>Const_ChangeMeshEdgeSelectionAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="646" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="646" bodyend="646"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1af7bcc388743a21c455c0964fcf8b5938" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</definition>
+        <argsstring>(ChangeMeshEdgeSelectionAction _other)</argsstring>
+        <name>ChangeMeshEdgeSelectionAction</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction" kindref="compound">ChangeMeshEdgeSelectionAction</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="651" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="651" bodyend="651"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1afbb758792dcd12d2715df0a588c5b796" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</definition>
+        <argsstring>(string name, MR.Const_ObjectMesh objMesh)</argsstring>
+        <name>ChangeMeshEdgeSelectionAction</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectMesh</type>
+          <declname>objMesh</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s edge selection before making any changes in it Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="657" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="657" bodyend="667"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1ae258d1de6d81ace5845d1bf0a61920f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</definition>
+        <argsstring>(string name, MR.Const_ObjectMesh objMesh, MR.Misc._Moved&lt; MR.UndirectedEdgeBitSet &gt; newSelection)</argsstring>
+        <name>ChangeMeshEdgeSelectionAction</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>MR.Const_ObjectMesh</type>
+          <declname>objMesh</declname>
+        </param>
+        <param>
+          <type>MR.Misc._Moved&lt; <ref refid="classMR_1_1UndirectedEdgeBitSet" kindref="compound">MR.UndirectedEdgeBitSet</ref> &gt;</type>
+          <declname>newSelection</declname>
+        </param>
+        <briefdescription>
+<para>use this constructor to remember object&apos;s edge selection and immediate set new selection Generated from constructor <computeroutput>MR.ChangeMeshEdgeSelectionAction.ChangeMeshEdgeSelectionAction</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="673" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="673" bodyend="684"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1abc5e84daad27257241215a9389594b4e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1ChangeMeshEdgeSelectionAction" kindref="compound">MR.ChangeMeshEdgeSelectionAction</ref></type>
+        <definition>unsafe MR.ChangeMeshEdgeSelectionAction MR.ChangeMeshEdgeSelectionAction.assign</definition>
+        <argsstring>(MR._ByValue_ChangeMeshEdgeSelectionAction _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.assign</qualifiedname>
+        <param>
+          <type>MR._ByValue_ChangeMeshEdgeSelectionAction</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.ChangeMeshEdgeSelectionAction.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="689" column="55" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="689" bodyend="696"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1ChangeMeshEdgeSelectionAction_1a4acf78b9d6737bbf5676ab67f78217b7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe void</type>
+        <definition>unsafe void MR.ChangeMeshEdgeSelectionAction.action</definition>
+        <argsstring>(MR.HistoryAction.Type _1)</argsstring>
+        <name>action</name>
+        <qualifiedname>MR.ChangeMeshEdgeSelectionAction.action</qualifiedname>
+        <param>
+          <type>MR.HistoryAction.Type</type>
+          <declname>_1</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a4acf78b9d6737bbf5676ab67f78217b7" kindref="member">MR.ChangeMeshEdgeSelectionAction.action</ref></computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="701" column="28" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="701" bodyend="706"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Undo action for <ref refid="classMR_1_1ObjectMesh" kindref="compound">ObjectMesh</ref> edge selection Generated from class <computeroutput><ref refid="classMR_1_1ChangeMeshEdgeSelectionAction" kindref="compound">MR.ChangeMeshEdgeSelectionAction</ref></computeroutput>. Base classes: Direct: (non-virtual) <computeroutput><ref refid="classMR_1_1HistoryAction" kindref="compound">MR.HistoryAction</ref></computeroutput> This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_ChangeMeshEdgeSelectionAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeMeshEdgeSelectionAction</label>
+        <link refid="classMR_1_1ChangeMeshEdgeSelectionAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshEdgeSelectionAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_ChangeMeshEdgeSelectionAction</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.ChangeMeshEdgeSelectionAction</label>
+        <link refid="classMR_1_1ChangeMeshEdgeSelectionAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::SharedObject&lt; Const_ChangeMeshEdgeSelectionAction &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" line="608" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRChangeSelectionAction.cs" bodystart="609" bodyend="707"/>
+    <listofallmembers>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a4acf78b9d6737bbf5676ab67f78217b7" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>action</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1abc5e84daad27257241215a9389594b4e" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>assign</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a30955dd648a332e905fcd06a2f13230a" prot="package" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a533442eafb356c404efb2f9adef57cff" prot="package" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a31d359806339041f958510a09537a8da" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a2abdf5e3dc7864c51b300b36a0d9ddc3" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1af7bcc388743a21c455c0964fcf8b5938" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1afbb758792dcd12d2715df0a588c5b796" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1ae258d1de6d81ace5845d1bf0a61920f5" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>ChangeMeshEdgeSelectionAction</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a618b701faba0c6dfe02f8e101cc16da2" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>operator ChangeMeshEdgeSelectionAction?</name></member>
+      <member refid="classMR_1_1ChangeMeshEdgeSelectionAction_1a315351c36ce4c550ca72315d2bf480e0" prot="public" virt="non-virtual"><scope>MR::ChangeMeshEdgeSelectionAction</scope><name>operator MR.HistoryAction</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

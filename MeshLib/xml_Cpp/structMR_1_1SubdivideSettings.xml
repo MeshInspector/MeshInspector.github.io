@@ -1,0 +1,354 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SubdivideSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SubdivideSettings</compoundname>
+    <includes refid="MRMeshSubdivide_8h" local="no">MRMeshSubdivide.h</includes>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a36d315cb2aaa92503d1a85c889074250" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SubdivideSettings::maxEdgeLen</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeLen</name>
+        <qualifiedname>MR::SubdivideSettings::maxEdgeLen</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>Subdivision is stopped when all edges inside or on the boundary of the region are not longer than this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="20" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ae48504fe6f54fb67dee57969d77efc43" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SubdivideSettings::curvaturePriority</definition>
+        <argsstring></argsstring>
+        <name>curvaturePriority</name>
+        <qualifiedname>MR::SubdivideSettings::curvaturePriority</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>edge length will be magnified by the squared difference of normals at edge&apos;s ends times this factor, thus subdivision will be finer in the regions of high curvature compared to planar regions </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="24" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1aff0af54aeab721522fe62a3eab94a74d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int MR::SubdivideSettings::maxEdgeSplits</definition>
+        <argsstring></argsstring>
+        <name>maxEdgeSplits</name>
+        <qualifiedname>MR::SubdivideSettings::maxEdgeSplits</qualifiedname>
+        <initializer>= 1000</initializer>
+        <briefdescription>
+<para>Maximum number of edge splits allowed. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="27" column="9" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1adf497f2181525852eaeee09ce71fb476" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SubdivideSettings::maxDeviationAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxDeviationAfterFlip</name>
+        <qualifiedname>MR::SubdivideSettings::maxDeviationAfterFlip</qualifiedname>
+        <initializer>= 1</initializer>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not make too big surface deviation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="30" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ac22dd26860cd94e68e46004cd88fc7ce" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SubdivideSettings::maxAngleChangeAfterFlip</definition>
+        <argsstring></argsstring>
+        <name>maxAngleChangeAfterFlip</name>
+        <qualifiedname>MR::SubdivideSettings::maxAngleChangeAfterFlip</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+<para>Improves local mesh triangulation by doing edge flips if it does not change dihedral angle more than on this value (in radians) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="33" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a772aa28ef31f33140c7b3f6bfbc36d30" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SubdivideSettings::criticalAspectRatioFlip</definition>
+        <argsstring></argsstring>
+        <name>criticalAspectRatioFlip</name>
+        <qualifiedname>MR::SubdivideSettings::criticalAspectRatioFlip</qualifiedname>
+        <initializer>= 1000.0f</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If this value is less than FLT_MAX then edge flips will ignore dihedral angle check if one of triangles has aspect ratio more than this value Unit: rad </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="38" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a5e24bf5e1bf140cdfac3cc68b9a693fa" prot="public" static="no" mutable="no">
+        <type>FaceBitSet *</type>
+        <definition>FaceBitSet* MR::SubdivideSettings::region</definition>
+        <argsstring></argsstring>
+        <name>region</name>
+        <qualifiedname>MR::SubdivideSettings::region</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Region on mesh to be subdivided, it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="41" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1acfa476aa1e7c9c2507f12fde82a81f8f" prot="public" static="no" mutable="no">
+        <type>FaceBitSet *</type>
+        <definition>FaceBitSet* MR::SubdivideSettings::maintainRegion</definition>
+        <argsstring></argsstring>
+        <name>maintainRegion</name>
+        <qualifiedname>MR::SubdivideSettings::maintainRegion</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Additional region to update during subdivision: if a face from here is split, it is replaced with new sub-faces; note that Subdivide can split faces even outside of main <computeroutput>region</computeroutput>, so it might be necessary to update another region </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="45" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1acb648b35ff705d5ee52cdae10e7cb9b5" prot="public" static="no" mutable="no">
+        <type>UndirectedEdgeBitSet *</type>
+        <definition>UndirectedEdgeBitSet* MR::SubdivideSettings::notFlippable</definition>
+        <argsstring></argsstring>
+        <name>notFlippable</name>
+        <qualifiedname>MR::SubdivideSettings::notFlippable</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>Edges specified by this bit-set will never be flipped, but they can be split so it is updated during the operation. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="48" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1af4c50e1143edfb7886c734be3226ff9d" prot="public" static="no" mutable="no">
+        <type>VertBitSet *</type>
+        <definition>VertBitSet* MR::SubdivideSettings::newVerts</definition>
+        <argsstring></argsstring>
+        <name>newVerts</name>
+        <qualifiedname>MR::SubdivideSettings::newVerts</qualifiedname>
+        <initializer>= nullptr</initializer>
+        <briefdescription>
+<para>New vertices appeared during subdivision will be added here. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="51" column="17" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a9288f9c5670484c0f76b53be1311b3cc" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SubdivideSettings::subdivideBorder</definition>
+        <argsstring></argsstring>
+        <name>subdivideBorder</name>
+        <qualifiedname>MR::SubdivideSettings::subdivideBorder</qualifiedname>
+        <initializer>= true</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>If false do not touch border edges (cannot subdivide lone faces)<linebreak/>
+use <ref refid="group__GeneralGroup_1ga14819584da09eac6df2cab459ab80626" kindref="member">MR::findRegionOuterFaces</ref> to find boundary faces </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="55" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a33de3142a2aa3715df6e72e27478d3e1" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SubdivideSettings::maxTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxTriAspectRatio</name>
+        <qualifiedname>MR::SubdivideSettings::maxTriAspectRatio</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+<para>The subdivision stops as soon as all triangles (in the region) have aspect ratio below or equal to this value. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="58" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ad1664c92f743cfb7fc8dd795f7d89d9f" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SubdivideSettings::maxSplittableTriAspectRatio</definition>
+        <argsstring></argsstring>
+        <name>maxSplittableTriAspectRatio</name>
+        <qualifiedname>MR::SubdivideSettings::maxSplittableTriAspectRatio</qualifiedname>
+        <initializer>= FLT_MAX</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>An edge is subdivided only if both its left and right triangles have aspect ratio below or equal to this value. So this is a maximum aspect ratio of a triangle that can be split on two before Delone optimization. Please set it to a smaller value only if subdivideBorder==false, otherwise many narrow triangles can appear near border </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="63" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a757c0278a48bf06117256165bec538c0" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SubdivideSettings::smoothMode</definition>
+        <argsstring></argsstring>
+        <name>smoothMode</name>
+        <qualifiedname>MR::SubdivideSettings::smoothMode</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Puts new vertices so that they form a smooth surface together with existing vertices. This option works best for natural surfaces without sharp edges in between triangles </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="67" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a55b830f7823b4a74b6891945bafa12a5" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float MR::SubdivideSettings::minSharpDihedralAngle</definition>
+        <argsstring></argsstring>
+        <name>minSharpDihedralAngle</name>
+        <qualifiedname>MR::SubdivideSettings::minSharpDihedralAngle</qualifiedname>
+        <initializer>= PI_F / 6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>In case of activated smoothMode, the smoothness is locally deactivated at the edges having dihedral angle at least this value </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="71" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a52aa2a88771ab9ca39f096cae8256c7d" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool MR::SubdivideSettings::projectOnOriginalMesh</definition>
+        <argsstring></argsstring>
+        <name>projectOnOriginalMesh</name>
+        <qualifiedname>MR::SubdivideSettings::projectOnOriginalMesh</qualifiedname>
+        <initializer>= false</initializer>
+        <briefdescription>
+<para>30 degrees </para>
+        </briefdescription>
+        <detaileddescription>
+<para>if true, then every new vertex will be projected on the original mesh (before smoothing) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="74" column="10" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a47209d51dfa333bfbaecd311df98c6b8" prot="public" static="no" mutable="no">
+        <type>std::function&lt; bool(EdgeId e)&gt;</type>
+        <definition>std::function&lt;bool(EdgeId e)&gt; MR::SubdivideSettings::beforeEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>beforeEdgeSplit</name>
+        <qualifiedname>MR::SubdivideSettings::beforeEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>this function is called each time edge (e) is going to split, if it returns false then this split will be skipped </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="77" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1a9e8653d42d8358f40dca297f675d4111" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(VertId)&gt;</type>
+        <definition>std::function&lt;void(VertId)&gt; MR::SubdivideSettings::onVertCreated</definition>
+        <argsstring></argsstring>
+        <name>onVertCreated</name>
+        <qualifiedname>MR::SubdivideSettings::onVertCreated</qualifiedname>
+        <briefdescription>
+<para>this function is called each time a new vertex has been created, but before the ring is made Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="80" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1afcfc1a9eeddefe49c96b100fce1be413" prot="public" static="no" mutable="no">
+        <type>std::function&lt; void(EdgeId e1, EdgeId e)&gt;</type>
+        <definition>std::function&lt;void(EdgeId e1, EdgeId e)&gt; MR::SubdivideSettings::onEdgeSplit</definition>
+        <argsstring></argsstring>
+        <name>onEdgeSplit</name>
+        <qualifiedname>MR::SubdivideSettings::onEdgeSplit</qualifiedname>
+        <briefdescription>
+<para>this function is called each time edge (e) is split into (e1-&gt;e), but before the ring is made Delone </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="83" column="19" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" prot="public" static="no" mutable="no">
+        <type>ProgressCallback</type>
+        <definition>ProgressCallback MR::SubdivideSettings::progressCallback</definition>
+        <argsstring></argsstring>
+        <name>progressCallback</name>
+        <qualifiedname>MR::SubdivideSettings::progressCallback</qualifiedname>
+        <briefdescription>
+<para>callback to report algorithm progress and cancel it by user request </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="86" column="22" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="86" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" line="17" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshSubdivide.h" bodystart="18" bodyend="87"/>
+    <listofallmembers>
+      <member refid="structMR_1_1SubdivideSettings_1a47209d51dfa333bfbaecd311df98c6b8" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>beforeEdgeSplit</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a772aa28ef31f33140c7b3f6bfbc36d30" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>criticalAspectRatioFlip</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1ae48504fe6f54fb67dee57969d77efc43" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>curvaturePriority</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1acfa476aa1e7c9c2507f12fde82a81f8f" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maintainRegion</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1ac22dd26860cd94e68e46004cd88fc7ce" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maxAngleChangeAfterFlip</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1adf497f2181525852eaeee09ce71fb476" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maxDeviationAfterFlip</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a36d315cb2aaa92503d1a85c889074250" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maxEdgeLen</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1aff0af54aeab721522fe62a3eab94a74d" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maxEdgeSplits</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1ad1664c92f743cfb7fc8dd795f7d89d9f" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maxSplittableTriAspectRatio</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a33de3142a2aa3715df6e72e27478d3e1" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>maxTriAspectRatio</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a55b830f7823b4a74b6891945bafa12a5" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>minSharpDihedralAngle</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1af4c50e1143edfb7886c734be3226ff9d" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>newVerts</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1acb648b35ff705d5ee52cdae10e7cb9b5" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>notFlippable</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1afcfc1a9eeddefe49c96b100fce1be413" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>onEdgeSplit</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a9e8653d42d8358f40dca297f675d4111" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>onVertCreated</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1ad044782ba14d1d93d9140190393d28ce" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>progressCallback</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a52aa2a88771ab9ca39f096cae8256c7d" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>projectOnOriginalMesh</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a5e24bf5e1bf140cdfac3cc68b9a693fa" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>region</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a757c0278a48bf06117256165bec538c0" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>smoothMode</name></member>
+      <member refid="structMR_1_1SubdivideSettings_1a9288f9c5670484c0f76b53be1311b3cc" prot="public" virt="non-virtual"><scope>MR::SubdivideSettings</scope><name>subdivideBorder</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

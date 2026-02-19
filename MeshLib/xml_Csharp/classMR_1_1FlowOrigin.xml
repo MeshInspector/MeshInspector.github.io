@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FlowOrigin" kind="class" language="C#" prot="public">
+    <compoundname>MR::FlowOrigin</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_FlowOrigin</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1FlowOrigin_1a3692c42d79ae9584e8cd093ab67d2a03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="yes">
+        <type>new unsafe <ref refid="classMR_1_1MeshTriPoint" kindref="compound">MR.MeshTriPoint</ref></type>
+        <definition>new unsafe MR.MeshTriPoint MR.FlowOrigin.point</definition>
+        <argsstring></argsstring>
+        <name>point</name>
+        <qualifiedname>MR.FlowOrigin.point</qualifiedname>
+        <briefdescription>
+<para>point on the mesh, where this flow starts </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="109" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="109" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1FlowOrigin_1a15fa5600549d1f24c4149b379cae905e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref float</type>
+        <definition>new unsafe ref float MR.FlowOrigin.amount</definition>
+        <argsstring></argsstring>
+        <name>amount</name>
+        <qualifiedname>MR.FlowOrigin.amount</qualifiedname>
+        <briefdescription>
+<para>amount of flow, e.g. can be proportional to the horizontal area associated with the start point </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="112" column="37" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1a8052a00f7ba24a1b3fa3abd2a2b7b544" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FlowOrigin.FlowOrigin</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>FlowOrigin</name>
+        <qualifiedname>MR.FlowOrigin.FlowOrigin</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="131" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="131" bodyend="135"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1a6d8a6bad9cd0cad606d492bf392d73d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FlowOrigin.FlowOrigin</definition>
+        <argsstring>()</argsstring>
+        <name>FlowOrigin</name>
+        <qualifiedname>MR.FlowOrigin.FlowOrigin</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="141" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="141" bodyend="147"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1ab31dffeba06034f54bde6ebd3c7c17b4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FlowOrigin.FlowOrigin</definition>
+        <argsstring>(MR.Const_MeshTriPoint point, float amount)</argsstring>
+        <name>FlowOrigin</name>
+        <qualifiedname>MR.FlowOrigin.FlowOrigin</qualifiedname>
+        <param>
+          <type>MR.Const_MeshTriPoint</type>
+          <declname>point</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>amount</declname>
+        </param>
+        <briefdescription>
+<para>Constructs <computeroutput><ref refid="classMR_1_1FlowOrigin" kindref="compound">MR.FlowOrigin</ref></computeroutput> elementwise. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="152" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="152" bodyend="159"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1a39b511b2c001e12463b2a7948e4c0a31" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.FlowOrigin.FlowOrigin</definition>
+        <argsstring>(MR.Const_FlowOrigin _other)</argsstring>
+        <name>FlowOrigin</name>
+        <qualifiedname>MR.FlowOrigin.FlowOrigin</qualifiedname>
+        <param>
+          <type>MR.Const_FlowOrigin</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FlowOrigin.FlowOrigin</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="164" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="164" bodyend="171"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1aec013d4e8c54c0cb1dc05a72cae98bd7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.FlowOrigin.FlowOrigin</definition>
+        <argsstring>(FlowOrigin _other)</argsstring>
+        <name>FlowOrigin</name>
+        <qualifiedname>MR.FlowOrigin.FlowOrigin</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1FlowOrigin" kindref="compound">FlowOrigin</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.FlowOrigin.FlowOrigin</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="176" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="176" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1FlowOrigin_1aed3b952a7d7f8c75a9723db96cc7f80c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1FlowOrigin" kindref="compound">MR.FlowOrigin</ref></type>
+        <definition>unsafe MR.FlowOrigin MR.FlowOrigin.assign</definition>
+        <argsstring>(MR.Const_FlowOrigin _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.FlowOrigin.assign</qualifiedname>
+        <param>
+          <type>MR.Const_FlowOrigin</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.FlowOrigin.operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="181" column="36" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="181" bodyend="188"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generated from class <computeroutput><ref refid="classMR_1_1FlowOrigin" kindref="compound">MR.FlowOrigin</ref></computeroutput>. This is the non-const half of the class. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_FlowOrigin</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FlowOrigin</label>
+        <link refid="classMR_1_1FlowOrigin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FlowOrigin &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_FlowOrigin</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.FlowOrigin</label>
+        <link refid="classMR_1_1FlowOrigin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_FlowOrigin &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" line="106" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRAggregateFlow.cs" bodystart="107" bodyend="189"/>
+    <listofallmembers>
+      <member refid="classMR_1_1FlowOrigin_1a15fa5600549d1f24c4149b379cae905e" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>amount</name></member>
+      <member refid="classMR_1_1FlowOrigin_1aed3b952a7d7f8c75a9723db96cc7f80c" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>assign</name></member>
+      <member refid="classMR_1_1FlowOrigin_1a8052a00f7ba24a1b3fa3abd2a2b7b544" prot="package" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>FlowOrigin</name></member>
+      <member refid="classMR_1_1FlowOrigin_1a6d8a6bad9cd0cad606d492bf392d73d3" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>FlowOrigin</name></member>
+      <member refid="classMR_1_1FlowOrigin_1ab31dffeba06034f54bde6ebd3c7c17b4" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>FlowOrigin</name></member>
+      <member refid="classMR_1_1FlowOrigin_1a39b511b2c001e12463b2a7948e4c0a31" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>FlowOrigin</name></member>
+      <member refid="classMR_1_1FlowOrigin_1aec013d4e8c54c0cb1dc05a72cae98bd7" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>FlowOrigin</name></member>
+      <member refid="classMR_1_1FlowOrigin_1a3692c42d79ae9584e8cd093ab67d2a03" prot="public" virt="non-virtual"><scope>MR::FlowOrigin</scope><name>point</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1VoxelsVolumeCachingAccessor" kind="class" language="C++" prot="public">
+    <compoundname>MR::VoxelsVolumeCachingAccessor</compoundname>
+    <includes refid="MRVoxelsVolumeCachingAccessor_8h" local="no">MRVoxelsVolumeCachingAccessor.h</includes>
+    <innerclass refid="structMR_1_1VoxelsVolumeCachingAccessor_1_1Parameters" prot="public">MR::VoxelsVolumeCachingAccessor::Parameters</innerclass>
+    <templateparamlist>
+      <param>
+        <type>typename V</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga1f89107f2c482a6e0468ab1cceb602c0" kind="typedef"><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1ga23ed321bc489e14c615ffa842d1b22f7" kind="typedef"><name>ValueType</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga2eafb8ef604986b1b8fc8d79bb424792" kind="variable"><name>accessor_</name></member>
+      <member refid="group__GeneralGroup_1ga95faa08005b023808b291ad3b92a28bc" kind="variable"><name>indexer_</name></member>
+      <member refid="group__GeneralGroup_1gad35a304d738d651ac4dd0ff3ed729d7c" kind="variable"><name>params_</name></member>
+      <member refid="group__GeneralGroup_1ga8fbc9d92c2c15a3a6a9da9eb8767d434" kind="variable"><name>z_</name></member>
+      <member refid="group__GeneralGroup_1ga6d611764dc2be4196da585dfe13bd70c" kind="variable"><name>layers_</name></member>
+      <member refid="group__GeneralGroup_1ga17eff6d44d7ed7c0cd7892ea1b3e7cda" kind="variable"><name>firstLayerVoxelId_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga9cc3638c285a6cd11cf11483bd156ade" kind="function"><name>VoxelsVolumeCachingAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga558587609465a7dd36240569f5891047" kind="function"><name>currentLayer</name></member>
+      <member refid="group__GeneralGroup_1ga6b668c0fa70dea9d3f6f9aee62895883" kind="function"><name>preloadLayer</name></member>
+      <member refid="group__GeneralGroup_1ga6f1b417ab8d9ef79d694b3ef03a5edb8" kind="function"><name>preloadNextLayer</name></member>
+      <member refid="group__GeneralGroup_1ga51881d0d836b595d2b86615cbf6ef336" kind="function"><name>get</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga0c4911db05a5f2db0db3ed24843eeba1" kind="function"><name>toLayerIndex</name></member>
+      <member refid="group__GeneralGroup_1gac3ca93af341ba6c38daae5c5bbfe5b82" kind="function"><name>preloadLayer_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>This accessor first loads data for given number of layers in internal cache, and then returns values from the cache. Direct access to data outside of cache is not allowed. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVoxelsVolumeCachingAccessor.h" bodystart="17" bodyend="120"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga2eafb8ef604986b1b8fc8d79bb424792" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>accessor_</name></member>
+      <member refid="group__GeneralGroup_1ga558587609465a7dd36240569f5891047" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>currentLayer</name></member>
+      <member refid="group__GeneralGroup_1ga17eff6d44d7ed7c0cd7892ea1b3e7cda" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>firstLayerVoxelId_</name></member>
+      <member refid="group__GeneralGroup_1ga51881d0d836b595d2b86615cbf6ef336" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>get</name></member>
+      <member refid="group__GeneralGroup_1ga95faa08005b023808b291ad3b92a28bc" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>indexer_</name></member>
+      <member refid="group__GeneralGroup_1ga6d611764dc2be4196da585dfe13bd70c" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>layers_</name></member>
+      <member refid="group__GeneralGroup_1gad35a304d738d651ac4dd0ff3ed729d7c" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>params_</name></member>
+      <member refid="group__GeneralGroup_1ga6b668c0fa70dea9d3f6f9aee62895883" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>preloadLayer</name></member>
+      <member refid="group__GeneralGroup_1gac3ca93af341ba6c38daae5c5bbfe5b82" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>preloadLayer_</name></member>
+      <member refid="group__GeneralGroup_1ga6f1b417ab8d9ef79d694b3ef03a5edb8" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>preloadNextLayer</name></member>
+      <member refid="group__GeneralGroup_1ga0c4911db05a5f2db0db3ed24843eeba1" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>toLayerIndex</name></member>
+      <member refid="group__GeneralGroup_1ga23ed321bc489e14c615ffa842d1b22f7" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga1f89107f2c482a6e0468ab1cceb602c0" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>VolumeType</name></member>
+      <member refid="group__GeneralGroup_1ga9cc3638c285a6cd11cf11483bd156ade" prot="public" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>VoxelsVolumeCachingAccessor</name></member>
+      <member refid="group__GeneralGroup_1ga8fbc9d92c2c15a3a6a9da9eb8767d434" prot="private" virt="non-virtual"><scope>MR::VoxelsVolumeCachingAccessor</scope><name>z_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

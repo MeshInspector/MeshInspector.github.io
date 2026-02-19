@@ -1,0 +1,275 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1RegularMapMesher" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::RegularMapMesher</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1ab0747179100db59f59b3c6ac0a39cb64" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegularMapMesher.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49890" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49890" bodyend="49891"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1a89a37196f08a56271e6bc5742d820cfd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegularMapMesher" kindref="compound">RegularMapMesher</ref></type>
+        <definition> RegularMapMesher mrmeshpy.RegularMapMesher.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49894" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49894" bodyend="49895"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1a89a37196f08a56271e6bc5742d820cfd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1RegularMapMesher" kindref="compound">RegularMapMesher</ref></type>
+        <definition> RegularMapMesher mrmeshpy.RegularMapMesher.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49898" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49898" bodyend="49899"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1ad45e11cfa3fc90c97fb8e896856ab84e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegularMapMesher.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49901" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49901" bodyend="49902"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1a7ad4580e465fd0cc942b92f4f480640c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegularMapMesher.__init__</definition>
+        <argsstring>(self, RegularMapMesher arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1RegularMapMesher" kindref="compound">RegularMapMesher</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49904" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49904" bodyend="49907"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1ade75d5aca66c6e569f9113e206c9c275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+        <definition> Mesh mrmeshpy.RegularMapMesher.createMesh</definition>
+        <argsstring>(self)</argsstring>
+        <name>createMesh</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.createMesh</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Creates mesh if all components were successfully loaded
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49908" bodyend="49911"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1a363bf0abb35b1f2ee10675eed0316abe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegularMapMesher.loadDistances</definition>
+        <argsstring>(self, int width, int height, os.PathLike|str|bytes path)</argsstring>
+        <name>loadDistances</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.loadDistances</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>os.PathLike|str|bytes</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Loads distances form distances file (1/distance)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49912" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49912" bodyend="49915"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1aba4a81a5d9b6bae07a03180534009d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegularMapMesher.setDirectionsPC</definition>
+        <argsstring>(self, PointCloud directionsPC)</argsstring>
+        <name>setDirectionsPC</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.setDirectionsPC</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>directionsPC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets directions Point Cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49916" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49916" bodyend="49919"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1a22a2a81ac3370a493343abc35f05f10d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegularMapMesher.setDistances</definition>
+        <argsstring>(self, int width, int height, std_vector_float distances)</argsstring>
+        <name>setDistances</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.setDistances</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__float" kindref="compound">std_vector_float</ref></type>
+          <declname>distances</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets distances
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49920" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49920" bodyend="49923"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1RegularMapMesher_1a787de3900c1a8ddf9bd4fee8bdd6697a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.RegularMapMesher.setSurfacePC</definition>
+        <argsstring>(self, PointCloud surfacePC)</argsstring>
+        <name>setSurfacePC</name>
+        <qualifiedname>mrmeshpy.RegularMapMesher.setSurfacePC</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1PointCloud" kindref="compound">PointCloud</ref></type>
+          <declname>surfacePC</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Sets surface Point Cloud
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49924" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49924" bodyend="49927"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::RegularMapMesher
+
+
+ \\brief Class for making mesh from regular distance map
+ \\details distance for each lattice of map is defined as 
+ point on ray from surface point cloud to direction point cloud,
+ with length equal to 1/distance from distances file 
+ (if distance in file == 0 ray had no point) </verbatim> </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="49876" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="49876" bodyend="49927"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1ab0747179100db59f59b3c6ac0a39cb64" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1ad45e11cfa3fc90c97fb8e896856ab84e" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1a7ad4580e465fd0cc942b92f4f480640c" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1ade75d5aca66c6e569f9113e206c9c275" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>createMesh</name></member>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1a363bf0abb35b1f2ee10675eed0316abe" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>loadDistances</name></member>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1a89a37196f08a56271e6bc5742d820cfd" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1a89a37196f08a56271e6bc5742d820cfd" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1aba4a81a5d9b6bae07a03180534009d8d" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>setDirectionsPC</name></member>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1a22a2a81ac3370a493343abc35f05f10d" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>setDistances</name></member>
+      <member refid="classmrmeshpy_1_1RegularMapMesher_1a787de3900c1a8ddf9bd4fee8bdd6697a" prot="public" virt="non-virtual"><scope>mrmeshpy::RegularMapMesher</scope><name>setSurfacePC</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1NoDefInit" kind="struct" language="C++" prot="public">
+    <compoundname>MR::NoDefInit</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">T</basecompoundref>
+    <includes refid="MRNoDefInit_8h" local="no">MRNoDefInit.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" kind="function"><name>NoDefInit</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>this class is similar to T, but does not make default initialization of the fields for best performance </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::NoDefInit&lt; T &gt;</label>
+        <link refid="structMR_1_1NoDefInit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>T</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::NoDefInit&lt; T &gt;</label>
+        <link refid="structMR_1_1NoDefInit"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>T</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" line="13" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRNoDefInit.h" bodystart="14" bodyend="17"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaaa8735508a78c638055d6001174d206a" prot="public" virt="non-virtual"><scope>MR::NoDefInit</scope><name>NoDefInit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

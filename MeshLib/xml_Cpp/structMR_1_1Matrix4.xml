@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1Matrix4" kind="struct" language="C++" prot="public">
+    <compoundname>MR::Matrix4</compoundname>
+    <includes refid="MRMatrix4_8h" local="no">MRMatrix4.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="user-defined">
+      <member refid="group__GeneralGroup_1gab8d2624777be58e7e104a7bf446aee82" kind="function"><name>dot</name></member>
+      <member refid="group__GeneralGroup_1gaff9e2bc787d384454aed9377473bfdc3" kind="function"><name>outer</name></member>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga37b7b5c48f473091b3f1489d1651c4f7" kind="typedef"><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga40a1bbeba85718db9ed906be11c92308" kind="typedef"><name>VectorType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gafefd6af8bdb869e88d5062c6aa38c746" kind="variable"><name>x</name></member>
+      <member refid="group__GeneralGroup_1ga75f9e05ce8b540c5e85bd3f79ba19381" kind="variable"><name>y</name></member>
+      <member refid="group__GeneralGroup_1ga236c71c6a980ce77ee524f2a4b161271" kind="variable"><name>z</name></member>
+      <member refid="group__GeneralGroup_1ga9e0640aaf9b368a204fd42127c9e93e3" kind="variable"><name>w</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gab8f81a0762c30cf1cc35e58fed5fc882" kind="function"><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1gabd46e2cdc867cd289cbc0ec5733fa827" kind="function"><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1ga9a83e20de940378f00e19b33ac4375d7" kind="function"><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1gaa742a4871b2f7f749de9e6c98cc7e59c" kind="function"><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1gaa8b96cc44e4f0586f904a712235af01b" kind="function"><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1ga6c21d25d2c8666791acd9807e6625422" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga02514ec882b0d3be5745825463ffff40" kind="function"><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1gac8c8b8aa3228dcf88a06287eb8fd8a82" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gac7f03fbfef49ca31946e80ec1051e0bc" kind="function"><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gad44d7c3967100d5828818e59d4b57563" kind="function"><name>col</name></member>
+      <member refid="group__GeneralGroup_1ga4107d00647824c81b8988f9c40f24a9d" kind="function"><name>trace</name></member>
+      <member refid="group__GeneralGroup_1ga61d081cbcb96e39fb7279a55c0b57996" kind="function"><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1gaa462857af46ce91cb171db91608a48ab" kind="function"><name>norm</name></member>
+      <member refid="group__GeneralGroup_1ga5408e4a71f68a738707aa7706fd9c81b" kind="function"><name>submatrix3</name></member>
+      <member refid="group__GeneralGroup_1ga9cfc9d9ade4367b39f5eec17c75bdd5d" kind="function"><name>det</name></member>
+      <member refid="group__GeneralGroup_1gaa78aad5791ae63a5f0fafc08c742cc69" kind="function"><name>transposed</name></member>
+      <member refid="group__GeneralGroup_1ga94060d7e07f5c48155555c0bac0194d9" kind="function"><name>getRotation</name></member>
+      <member refid="group__GeneralGroup_1ga8a2bc593ced399beb03969db94ba63af" kind="function"><name>setRotation</name></member>
+      <member refid="group__GeneralGroup_1gafdaea6c4914f797f5028508fc4660a71" kind="function"><name>getTranslation</name></member>
+      <member refid="group__GeneralGroup_1ga46de12be029c280190f995c40660c426" kind="function"><name>setTranslation</name></member>
+      <member refid="group__GeneralGroup_1ga2968fcaeb275c69d69adefdaec46f32c" kind="function"><name>data</name></member>
+      <member refid="group__GeneralGroup_1gae14dd0c11d00774b57b26477176eaf75" kind="function"><name>data</name></member>
+      <member refid="group__GeneralGroup_1ga519d159e9aebbd2a58ed6b78ae96cb4f" kind="function"><name>operator AffineXf3&lt; TT &gt;</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <member refid="group__GeneralGroup_1ga58830bef10087e37b89c0e3e53a796ab" kind="function"><name>zero</name></member>
+      <member refid="group__GeneralGroup_1gae767c7c8330c9975a54782e273f28a7e" kind="function"><name>identity</name></member>
+      <member refid="group__GeneralGroup_1ga870527bae94eb9eaacde9e338b4e9994" kind="function"><name>scale</name></member>
+    </sectiondef>
+    <sectiondef kind="friend">
+      <member refid="group__GeneralGroup_1ga25d9e2ebb1b000582d5943ea7f68732d" kind="friend"><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1ga0edef98e052801b43845aaa81aba98b3" kind="friend"><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1gabc74a392ea4462c9a83060005de3b963" kind="friend"><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1gadcd47d5dea1e6755f88d50b344b5c02f" kind="friend"><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1ga500057cb8377d8e98af21e4e845e4fff" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga05e89ca30e657c7b98b77ecfe2caa0e1" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga9af2e37a79adb3150c1d6ed3bc8f18bf" kind="friend"><name>operator/</name></member>
+      <member refid="group__GeneralGroup_1gacb8f86891afe4249f0265188d68d58f0" kind="friend"><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1gad779b27033e6ec76b48fdfe5aba7b8ae" kind="friend"><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1gad753d6087d9a0227d63d3599bcdcdf31" kind="friend"><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1gaf7bfff1fe6a58060ba43dda0028e7131" kind="friend"><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1ga34fb31ad2f7afa3c87d7658070e08a5e" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga2fd123c699aacfa8e543247f070ae7d8" kind="friend"><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gae2781b7e0b9f531f6814989f678d83f1" kind="friend"><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1gaf0e937b6beb9a2fe2e623155800c119e" kind="friend"><name>operator&gt;&gt;</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>arbitrary 4x4 matrix </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMatrix4.h" bodystart="25" bodyend="176"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad44d7c3967100d5828818e59d4b57563" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>col</name></member>
+      <member refid="group__GeneralGroup_1ga2968fcaeb275c69d69adefdaec46f32c" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>data</name></member>
+      <member refid="group__GeneralGroup_1gae14dd0c11d00774b57b26477176eaf75" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>data</name></member>
+      <member refid="group__GeneralGroup_1ga9cfc9d9ade4367b39f5eec17c75bdd5d" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>det</name></member>
+      <member refid="group__GeneralGroup_1gab8d2624777be58e7e104a7bf446aee82" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>dot</name></member>
+      <member refid="group__GeneralGroup_1ga94060d7e07f5c48155555c0bac0194d9" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>getRotation</name></member>
+      <member refid="group__GeneralGroup_1gafdaea6c4914f797f5028508fc4660a71" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>getTranslation</name></member>
+      <member refid="group__GeneralGroup_1gae767c7c8330c9975a54782e273f28a7e" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>identity</name></member>
+      <member refid="group__GeneralGroup_1gab8f81a0762c30cf1cc35e58fed5fc882" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1gabd46e2cdc867cd289cbc0ec5733fa827" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1ga9a83e20de940378f00e19b33ac4375d7" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1gaa742a4871b2f7f749de9e6c98cc7e59c" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>Matrix4</name></member>
+      <member refid="group__GeneralGroup_1gaa8b96cc44e4f0586f904a712235af01b" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>MR_REQUIRES_IF_SUPPORTED</name></member>
+      <member refid="group__GeneralGroup_1gaa462857af46ce91cb171db91608a48ab" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>norm</name></member>
+      <member refid="group__GeneralGroup_1ga61d081cbcb96e39fb7279a55c0b57996" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>normSq</name></member>
+      <member refid="group__GeneralGroup_1ga519d159e9aebbd2a58ed6b78ae96cb4f" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator AffineXf3&lt; TT &gt;</name></member>
+      <member refid="group__GeneralGroup_1ga0edef98e052801b43845aaa81aba98b3" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator!=</name></member>
+      <member refid="group__GeneralGroup_1ga6c21d25d2c8666791acd9807e6625422" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga02514ec882b0d3be5745825463ffff40" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator()</name></member>
+      <member refid="group__GeneralGroup_1ga500057cb8377d8e98af21e4e845e4fff" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga05e89ca30e657c7b98b77ecfe2caa0e1" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga34fb31ad2f7afa3c87d7658070e08a5e" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1ga2fd123c699aacfa8e543247f070ae7d8" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*</name></member>
+      <member refid="group__GeneralGroup_1gad753d6087d9a0227d63d3599bcdcdf31" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator*=</name></member>
+      <member refid="group__GeneralGroup_1gabc74a392ea4462c9a83060005de3b963" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator+</name></member>
+      <member refid="group__GeneralGroup_1gacb8f86891afe4249f0265188d68d58f0" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator+=</name></member>
+      <member refid="group__GeneralGroup_1gadcd47d5dea1e6755f88d50b344b5c02f" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator-</name></member>
+      <member refid="group__GeneralGroup_1gad779b27033e6ec76b48fdfe5aba7b8ae" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator-=</name></member>
+      <member refid="group__GeneralGroup_1ga9af2e37a79adb3150c1d6ed3bc8f18bf" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator/</name></member>
+      <member refid="group__GeneralGroup_1gaf7bfff1fe6a58060ba43dda0028e7131" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator/=</name></member>
+      <member refid="group__GeneralGroup_1gae2781b7e0b9f531f6814989f678d83f1" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator&lt;&lt;</name></member>
+      <member refid="group__GeneralGroup_1ga25d9e2ebb1b000582d5943ea7f68732d" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator==</name></member>
+      <member refid="group__GeneralGroup_1gaf0e937b6beb9a2fe2e623155800c119e" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator&gt;&gt;</name></member>
+      <member refid="group__GeneralGroup_1gac8c8b8aa3228dcf88a06287eb8fd8a82" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gac7f03fbfef49ca31946e80ec1051e0bc" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>operator[]</name></member>
+      <member refid="group__GeneralGroup_1gaff9e2bc787d384454aed9377473bfdc3" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>outer</name></member>
+      <member refid="group__GeneralGroup_1ga870527bae94eb9eaacde9e338b4e9994" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>scale</name></member>
+      <member refid="group__GeneralGroup_1ga8a2bc593ced399beb03969db94ba63af" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>setRotation</name></member>
+      <member refid="group__GeneralGroup_1ga46de12be029c280190f995c40660c426" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>setTranslation</name></member>
+      <member refid="group__GeneralGroup_1ga5408e4a71f68a738707aa7706fd9c81b" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>submatrix3</name></member>
+      <member refid="group__GeneralGroup_1ga4107d00647824c81b8988f9c40f24a9d" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>trace</name></member>
+      <member refid="group__GeneralGroup_1gaa78aad5791ae63a5f0fafc08c742cc69" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>transposed</name></member>
+      <member refid="group__GeneralGroup_1ga37b7b5c48f473091b3f1489d1651c4f7" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>ValueType</name></member>
+      <member refid="group__GeneralGroup_1ga40a1bbeba85718db9ed906be11c92308" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>VectorType</name></member>
+      <member refid="group__GeneralGroup_1ga9e0640aaf9b368a204fd42127c9e93e3" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>w</name></member>
+      <member refid="group__GeneralGroup_1gafefd6af8bdb869e88d5062c6aa38c746" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>x</name></member>
+      <member refid="group__GeneralGroup_1ga75f9e05ce8b540c5e85bd3f79ba19381" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>y</name></member>
+      <member refid="group__GeneralGroup_1ga236c71c6a980ce77ee524f2a4b161271" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>z</name></member>
+      <member refid="group__GeneralGroup_1ga58830bef10087e37b89c0e3e53a796ab" prot="public" virt="non-virtual"><scope>MR::Matrix4</scope><name>zero</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

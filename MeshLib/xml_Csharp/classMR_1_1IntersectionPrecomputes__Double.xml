@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1IntersectionPrecomputes__Double" kind="class" language="C#" prot="public">
+    <compoundname>MR::IntersectionPrecomputes_Double</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MR.Const_IntersectionPrecomputes_Double</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Double_1aa9974434496c24e4aa27115d2fbe7aa2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+        <definition>new unsafe ref MR.Vector3d MR.IntersectionPrecomputes_Double.invDir</definition>
+        <argsstring></argsstring>
+        <name>invDir</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.invDir</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="485" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="485" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Double_1a34eae8048c5fc73278a113e8dc500b1a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.IntersectionPrecomputes_Double.maxDimIdxZ</definition>
+        <argsstring></argsstring>
+        <name>maxDimIdxZ</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.maxDimIdxZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="489" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="489" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Double_1ac5ba0b8df07a6e7e3b49ab40ecf1c082" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.IntersectionPrecomputes_Double.idxX</definition>
+        <argsstring></argsstring>
+        <name>idxX</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.idxX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="491" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="491" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Double_1a5cba56b9813938f718ec7cd9b945d8ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref int</type>
+        <definition>new unsafe ref int MR.IntersectionPrecomputes_Double.idxY</definition>
+        <argsstring></argsstring>
+        <name>idxY</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.idxY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="493" column="35" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="493" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Double_1aacb1ee3c620b5417388814c2739fcdd7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref <ref refid="structMR_1_1Vector3i" kindref="compound">MR.Vector3i</ref></type>
+        <definition>new unsafe ref MR.Vector3i MR.IntersectionPrecomputes_Double.sign</definition>
+        <argsstring></argsstring>
+        <name>sign</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.sign</qualifiedname>
+        <briefdescription>
+<para>stores signs of direction vector; </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="496" column="42" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="496" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Double_1ad09086857b15bbeb7d423d0770ce9a03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref double</type>
+        <definition>new unsafe ref double MR.IntersectionPrecomputes_Double.sx</definition>
+        <argsstring></argsstring>
+        <name>sx</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.sx</qualifiedname>
+        <briefdescription>
+<para>precomputed factors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="499" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Double_1a755039b85a095b0be7cfa98c886b0fe6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref double</type>
+        <definition>new unsafe ref double MR.IntersectionPrecomputes_Double.sy</definition>
+        <argsstring></argsstring>
+        <name>sy</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.sy</qualifiedname>
+        <briefdescription>
+<para>precomputed factors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="502" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="502" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classMR_1_1IntersectionPrecomputes__Double_1a10229ad8ce226dc30fe4541157af985c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>new unsafe ref double</type>
+        <definition>new unsafe ref double MR.IntersectionPrecomputes_Double.sz</definition>
+        <argsstring></argsstring>
+        <name>sz</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.sz</qualifiedname>
+        <briefdescription>
+<para>precomputed factors </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="505" column="38" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="505" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="classMR_1_1IntersectionPrecomputes__Double_1ace199e9d5517414cba784167f491f164" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</definition>
+        <argsstring>(_Underlying *ptr, bool is_owning)</argsstring>
+        <name>IntersectionPrecomputes_Double</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</qualifiedname>
+        <param>
+          <type>_Underlying *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>is_owning</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="509" column="25" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="509" bodyend="513"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classMR_1_1IntersectionPrecomputes__Double_1afb52eba48d366c332513f1ad166dcffa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</definition>
+        <argsstring>()</argsstring>
+        <name>IntersectionPrecomputes_Double</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</qualifiedname>
+        <briefdescription>
+<para>Constructs an empty (default-constructed) instance. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="519" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="519" bodyend="525"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IntersectionPrecomputes__Double_1a9059abe6dc4eb943c6c81b58686af552" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</definition>
+        <argsstring>(MR.Const_IntersectionPrecomputes_Double _other)</argsstring>
+        <name>IntersectionPrecomputes_Double</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</qualifiedname>
+        <param>
+          <type>MR.Const_IntersectionPrecomputes_Double</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.IntersectionPrecomputes&lt;double&gt;::IntersectionPrecomputes</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="530" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="530" bodyend="537"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IntersectionPrecomputes__Double_1a093337b615f6e8e96a8f0d76bacd9489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</definition>
+        <argsstring>(IntersectionPrecomputes_Double _other)</argsstring>
+        <name>IntersectionPrecomputes_Double</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</qualifiedname>
+        <param>
+          <type><ref refid="classMR_1_1IntersectionPrecomputes__Double" kindref="compound">IntersectionPrecomputes_Double</ref></type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.IntersectionPrecomputes&lt;double&gt;::IntersectionPrecomputes</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="542" column="16" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="542" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IntersectionPrecomputes__Double_1aa82e509a05fb022cf03f702f6c1135eb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe</type>
+        <definition>unsafe MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</definition>
+        <argsstring>(in MR.Vector3d dir)</argsstring>
+        <name>IntersectionPrecomputes_Double</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.IntersectionPrecomputes_Double</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.IntersectionPrecomputes&lt;double&gt;::IntersectionPrecomputes</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="547" column="23" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="547" bodyend="556"/>
+      </memberdef>
+      <memberdef kind="function" id="classMR_1_1IntersectionPrecomputes__Double_1ad228c15c36f03f484e7ee2a165e5bdf9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe <ref refid="classMR_1_1IntersectionPrecomputes__Double" kindref="compound">MR.IntersectionPrecomputes_Double</ref></type>
+        <definition>unsafe MR.IntersectionPrecomputes_Double MR.IntersectionPrecomputes_Double.assign</definition>
+        <argsstring>(MR.Const_IntersectionPrecomputes_Double _other)</argsstring>
+        <name>assign</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.assign</qualifiedname>
+        <param>
+          <type>MR.Const_IntersectionPrecomputes_Double</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+<para>Generated from method <computeroutput>MR.IntersectionPrecomputes&lt;double&gt;::operator=</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="566" column="56" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="566" bodyend="573"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classMR_1_1IntersectionPrecomputes__Double_1a164a0fd4b1d8d51fe2bd2b6bc26edaec" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>unsafe implicit</type>
+        <definition>static unsafe implicit MR.IntersectionPrecomputes_Double.operator IntersectionPrecomputes_Double</definition>
+        <argsstring>(in MR.Vector3d dir)</argsstring>
+        <name>operator IntersectionPrecomputes_Double</name>
+        <qualifiedname>MR.IntersectionPrecomputes_Double.operator IntersectionPrecomputes_Double</qualifiedname>
+        <param>
+          <type>in <ref refid="structMR_1_1Vector3d" kindref="compound">MR.Vector3d</ref></type>
+          <declname>dir</declname>
+        </param>
+        <briefdescription>
+<para>Generated from constructor <computeroutput>MR.IntersectionPrecomputes&lt;double&gt;::IntersectionPrecomputes</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="561" column="39" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="561" bodyend="561"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>stores useful precomputed values for presented direction vector </para>
+    </briefdescription>
+    <detaileddescription>
+<para>allows to avoid repeatable computations during intersection finding Generated from class <computeroutput>MR.IntersectionPrecomputes&lt;double&gt;</computeroutput>. This is the non-const half of the class. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Const_IntersectionPrecomputes_Double</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.IntersectionPrecomputes_Double</label>
+        <link refid="classMR_1_1IntersectionPrecomputes__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_IntersectionPrecomputes_Double &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Const_IntersectionPrecomputes_Double</label>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR.IntersectionPrecomputes_Double</label>
+        <link refid="classMR_1_1IntersectionPrecomputes__Double"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Misc::Object&lt; Const_IntersectionPrecomputes_Double &gt;</label>
+      </node>
+      <node id="4">
+        <label>System::IDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" line="482" column="11" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/CsharpBindings/MRCMesh/MRIntersectionPrecomputes.cs" bodystart="483" bodyend="574"/>
+    <listofallmembers>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1ad228c15c36f03f484e7ee2a165e5bdf9" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>assign</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1ac5ba0b8df07a6e7e3b49ab40ecf1c082" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>idxX</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1a5cba56b9813938f718ec7cd9b945d8ca" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>idxY</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1ace199e9d5517414cba784167f491f164" prot="package" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1afb52eba48d366c332513f1ad166dcffa" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1a9059abe6dc4eb943c6c81b58686af552" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1a093337b615f6e8e96a8f0d76bacd9489" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1aa82e509a05fb022cf03f702f6c1135eb" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1aa9974434496c24e4aa27115d2fbe7aa2" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>invDir</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1a34eae8048c5fc73278a113e8dc500b1a" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>maxDimIdxZ</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1a164a0fd4b1d8d51fe2bd2b6bc26edaec" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>operator IntersectionPrecomputes_Double</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1aacb1ee3c620b5417388814c2739fcdd7" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>sign</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1ad09086857b15bbeb7d423d0770ce9a03" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>sx</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1a755039b85a095b0be7cfa98c886b0fe6" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>sy</name></member>
+      <member refid="classMR_1_1IntersectionPrecomputes__Double_1a10229ad8ce226dc30fe4541157af985c" prot="public" virt="non-virtual"><scope>MR::IntersectionPrecomputes_Double</scope><name>sz</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

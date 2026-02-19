@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::FindDisorientationParams::RayMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a77140303eec3d1d30a9ddf80bebd9c87" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindDisorientationParams.RayMode::Both</definition>
+        <argsstring></argsstring>
+        <name>Both</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.Both</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode" kindref="compound">FindDisorientationParams.RayMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20005" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a6d0e48edca66c24afe5d1210f0b38e4d" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindDisorientationParams.RayMode::Positive</definition>
+        <argsstring></argsstring>
+        <name>Positive</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.Positive</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode" kindref="compound">FindDisorientationParams.RayMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20006" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1af6c9ceb17cabc4cca07c86f5edb741f6" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindDisorientationParams.RayMode::Shallowest</definition>
+        <argsstring></argsstring>
+        <name>Shallowest</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.Shallowest</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode" kindref="compound">FindDisorientationParams.RayMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20007" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20007" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a7a78c2ff9b3ec5414bb89d0554462873" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.FindDisorientationParams.RayMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode" kindref="compound">FindDisorientationParams.RayMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20008" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20008" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1aa000a7e30b7ffe41ed9ef3d12db096f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FindDisorientationParams.RayMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20009" bodyend="20010"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1af2b585cd3cf2cb9dc33f5663655d600a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FindDisorientationParams.RayMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20011" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20011" bodyend="20012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a1962aad90b0b44fc3425fa260b798a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FindDisorientationParams.RayMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20013" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20013" bodyend="20014"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1af0f03677a6555f3668c16f76cdccb13c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FindDisorientationParams.RayMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20015" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20015" bodyend="20016"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1aa5738a44398d8b5ba019907e4abe872d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindDisorientationParams.RayMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20017" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20017" bodyend="20018"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1abefdacf4a041f3d7809bf611b63dbed8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FindDisorientationParams.RayMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20019" bodyend="20020"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1afd1412b2c01984b69d1d904211b61ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.FindDisorientationParams.RayMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20021" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20021" bodyend="20022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a7646d4384282d7964794a7be5a80a8dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FindDisorientationParams.RayMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20023" bodyend="20024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a02463088a41bb706af6ce7f24c297f50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.FindDisorientationParams.RayMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20025" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20025" bodyend="20026"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a9e4e4a6c5bbbeb051cc4a7b2f04e982d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FindDisorientationParams.RayMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20027" bodyend="20028"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a225a5bd16c011f7aa801a54fc9e4b4b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.FindDisorientationParams.RayMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20030" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20030" bodyend="20031"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a4657c7a356d7d5eac881d27fa03b3040" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.FindDisorientationParams.RayMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.FindDisorientationParams.RayMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="20033" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="20033" bodyend="20035"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Positive : positive (normal) direction of face should have even number of intersections
+
+  Shallowest : positive or negative (normal or -normal) direction (the one with lowest number of intersections) should have even/odd number of intersections
+
+  Both : both direction should have correct number of intersections (positive - even; negative - odd)
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.FindDisorientationParams.RayMode</label>
+        <link refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Both</edgelabel>
+          <edgelabel>Positive</edgelabel>
+          <edgelabel>Shallowest</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="19995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="19995" bodyend="20034"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1aa000a7e30b7ffe41ed9ef3d12db096f1" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1af2b585cd3cf2cb9dc33f5663655d600a" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a1962aad90b0b44fc3425fa260b798a86" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1af0f03677a6555f3668c16f76cdccb13c" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1aa5738a44398d8b5ba019907e4abe872d" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1abefdacf4a041f3d7809bf611b63dbed8" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a7a78c2ff9b3ec5414bb89d0554462873" prot="private" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1afd1412b2c01984b69d1d904211b61ff9" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a7646d4384282d7964794a7be5a80a8dc" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a02463088a41bb706af6ce7f24c297f50" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a9e4e4a6c5bbbeb051cc4a7b2f04e982d" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a77140303eec3d1d30a9ddf80bebd9c87" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>Both</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a225a5bd16c011f7aa801a54fc9e4b4b0" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a6d0e48edca66c24afe5d1210f0b38e4d" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>Positive</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1af6c9ceb17cabc4cca07c86f5edb741f6" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>Shallowest</name></member>
+      <member refid="classmrmeshpy_1_1FindDisorientationParams_1_1RayMode_1a4657c7a356d7d5eac881d27fa03b3040" prot="public" virt="non-virtual"><scope>mrmeshpy::FindDisorientationParams::RayMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,510 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ObjectMeshData" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ObjectMeshData</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectMeshData_1af2531e6307088da41e86afff4d4b51b3" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectMeshData::_offsetof_creases</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_creases</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData._offsetof_creases</qualifiedname>
+        <initializer>=  80</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39980" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39980" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectMeshData_1a74316b3bb6658c7f93e1a626e5e8876e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectMeshData::_offsetof_faceColors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_faceColors</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData._offsetof_faceColors</qualifiedname>
+        <initializer>=  136</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39981" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39981" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectMeshData_1aca62ceeaa3dc6ade9568333031bffc5a" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectMeshData::_offsetof_mesh</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_mesh</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData._offsetof_mesh</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39982" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39982" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectMeshData_1a8f61df1ba0f1c42edea41a2e8ac61b5f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectMeshData::_offsetof_selectedEdges</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_selectedEdges</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData._offsetof_selectedEdges</qualifiedname>
+        <initializer>=  48</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39983" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectMeshData_1a4ef95854525c3dd671795068b160e105" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectMeshData::_offsetof_selectedFaces</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_selectedFaces</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData._offsetof_selectedFaces</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39984" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39984" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectMeshData_1a4a24a2020ce8ea6be87d3da1efdf0d4e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectMeshData::_offsetof_texturePerFace</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_texturePerFace</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData._offsetof_texturePerFace</qualifiedname>
+        <initializer>=  184</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39985" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39985" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectMeshData_1a16ea2ecb0bd9f4ece63f90b4903af4db" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectMeshData::_offsetof_uvCoordinates</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_uvCoordinates</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData._offsetof_uvCoordinates</qualifiedname>
+        <initializer>=  160</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39986" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39986" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1ObjectMeshData_1a1e09b893ba0053d3ed73bd8ac0326815" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.ObjectMeshData::_offsetof_vertColors</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_vertColors</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData._offsetof_vertColors</qualifiedname>
+        <initializer>=  112</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39987" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39987" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1a86cf8c400248e03f313cd4252cb4680f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshData.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39995" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39995" bodyend="39996"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1ad00bbed4ef2f398b8049b30dc8dc6bd8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
+        <definition> ObjectMeshData mrmeshpy.ObjectMeshData.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39999" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39999" bodyend="40000"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1ad00bbed4ef2f398b8049b30dc8dc6bd8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
+        <definition> ObjectMeshData mrmeshpy.ObjectMeshData.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40003" bodyend="40004"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1a2f64f96834d21c93fc6dd7d51571fe0d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshData.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40006" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40006" bodyend="40007"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1a85419a1ed940b550fccab416b1a6266d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshData.__init__</definition>
+        <argsstring>(self, ObjectMeshData arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40009" bodyend="40012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1ae026cd7dfb94b12f05ab34a9a63bb9d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshData.__init__</definition>
+        <argsstring>(self, Mesh mesh, FaceBitSet selectedFaces, UndirectedEdgeBitSet selectedEdges, UndirectedEdgeBitSet creases, VertColors vertColors, FaceColors faceColors, VertCoords2 uvCoordinates, TexturePerFace texturePerFace)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Mesh" kindref="compound">Mesh</ref></type>
+          <declname>mesh</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>selectedFaces</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>selectedEdges</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1UndirectedEdgeBitSet" kindref="compound">UndirectedEdgeBitSet</ref></type>
+          <declname>creases</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>vertColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceColors" kindref="compound">FaceColors</ref></type>
+          <declname>faceColors</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>uvCoordinates</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1TexturePerFace" kindref="compound">TexturePerFace</ref></type>
+          <declname>texturePerFace</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40014" bodyend="40017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1a18b81f228d29a747d71f4d76fd88b6d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectMeshData" kindref="compound">ObjectMeshData</ref></type>
+        <definition> ObjectMeshData mrmeshpy.ObjectMeshData.clone</definition>
+        <argsstring>(self)</argsstring>
+        <name>clone</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.clone</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns copy of this object with mesh cloned
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40018" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40018" bodyend="40021"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1a915c152b80a261fce8444ec61a84fe60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ObjectMeshData.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.heapBytes</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40022" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40022" bodyend="40025"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1ac435d64beff1ac98bb65043ac41fb01a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+        <definition> FaceBitSet mrmeshpy.ObjectMeshData.selectedFaces</definition>
+        <argsstring>(self)</argsstring>
+        <name>selectedFaces</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.selectedFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>selection
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40027" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40027" bodyend="40030"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1a95283bbf1b7de3a77ea265466bb1ae6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshData.selectedFaces</definition>
+        <argsstring>(self, FaceBitSet arg1)</argsstring>
+        <name>selectedFaces</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.selectedFaces</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1FaceBitSet" kindref="compound">FaceBitSet</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40032" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40032" bodyend="40033"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1a34bec61c5f9b5a85637037a787f6c9e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+        <definition> VertCoords2 mrmeshpy.ObjectMeshData.uvCoordinates</definition>
+        <argsstring>(self)</argsstring>
+        <name>uvCoordinates</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.uvCoordinates</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>vertices coordinates in texture
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40035" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40035" bodyend="40038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1a38b4cb495f8c36587e7262534e298b32" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshData.uvCoordinates</definition>
+        <argsstring>(self, VertCoords2 arg1)</argsstring>
+        <name>uvCoordinates</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.uvCoordinates</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertCoords2" kindref="compound">VertCoords2</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40040" bodyend="40041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1a1f7aaa821e9d535e535cbdad7de94856" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+        <definition> VertColors mrmeshpy.ObjectMeshData.vertColors</definition>
+        <argsstring>(self)</argsstring>
+        <name>vertColors</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.vertColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>colors
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40043" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40043" bodyend="40046"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ObjectMeshData_1ab60f7cf6dfb2ed45e37fc092ec89d417" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ObjectMeshData.vertColors</definition>
+        <argsstring>(self, VertColors arg1)</argsstring>
+        <name>vertColors</name>
+        <qualifiedname>mrmeshpy.ObjectMeshData.vertColors</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1VertColors" kindref="compound">VertColors</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="40048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="40048" bodyend="40049"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ObjectMeshData
+
+mesh and its per-element attributes for ObjectMeshHolder
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ObjectMeshData</label>
+        <link refid="classmrmeshpy_1_1ObjectMeshData"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_creases</edgelabel>
+          <edgelabel>_offsetof_faceColors</edgelabel>
+          <edgelabel>_offsetof_mesh</edgelabel>
+          <edgelabel>_offsetof_selectedEdges</edgelabel>
+          <edgelabel>_offsetof_selectedFaces</edgelabel>
+          <edgelabel>_offsetof_texturePerFace</edgelabel>
+          <edgelabel>_offsetof_uvCoordinates</edgelabel>
+          <edgelabel>_offsetof_vertColors</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="39974" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="39974" bodyend="40049"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a86cf8c400248e03f313cd4252cb4680f" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a2f64f96834d21c93fc6dd7d51571fe0d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a85419a1ed940b550fccab416b1a6266d" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1ae026cd7dfb94b12f05ab34a9a63bb9d8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1af2531e6307088da41e86afff4d4b51b3" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>_offsetof_creases</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a74316b3bb6658c7f93e1a626e5e8876e" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>_offsetof_faceColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1aca62ceeaa3dc6ade9568333031bffc5a" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>_offsetof_mesh</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a8f61df1ba0f1c42edea41a2e8ac61b5f" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>_offsetof_selectedEdges</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a4ef95854525c3dd671795068b160e105" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>_offsetof_selectedFaces</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a4a24a2020ce8ea6be87d3da1efdf0d4e" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>_offsetof_texturePerFace</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a16ea2ecb0bd9f4ece63f90b4903af4db" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>_offsetof_uvCoordinates</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a1e09b893ba0053d3ed73bd8ac0326815" prot="protected" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>_offsetof_vertColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a18b81f228d29a747d71f4d76fd88b6d1" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>clone</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a915c152b80a261fce8444ec61a84fe60" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1ad00bbed4ef2f398b8049b30dc8dc6bd8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1ad00bbed4ef2f398b8049b30dc8dc6bd8" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1ac435d64beff1ac98bb65043ac41fb01a" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>selectedFaces</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a95283bbf1b7de3a77ea265466bb1ae6c" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>selectedFaces</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a34bec61c5f9b5a85637037a787f6c9e9" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>uvCoordinates</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a38b4cb495f8c36587e7262534e298b32" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>uvCoordinates</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1a1f7aaa821e9d535e535cbdad7de94856" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>vertColors</name></member>
+      <member refid="classmrmeshpy_1_1ObjectMeshData_1ab60f7cf6dfb2ed45e37fc092ec89d417" prot="public" virt="non-virtual"><scope>mrmeshpy::ObjectMeshData</scope><name>vertColors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

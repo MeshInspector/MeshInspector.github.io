@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1PluginUpdateOr" kind="class" language="C++" prot="public">
+    <compoundname>MR::PluginUpdateOr</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Updates...</basecompoundref>
+    <includes refid="MRStatePluginUpdate_8h" local="no">MRStatePluginUpdate.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename ...</type>
+        <declname>Updates</declname>
+        <defname>Updates</defname>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga7a215652b9140f1b495ef8302f2119ae" kind="function"><name>preDrawUpdate</name></member>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <member refid="group__GeneralGroup_1gad916bd3dde1ec66ce4c87b223517fc00" kind="function"><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1gab13e2a281b83e65ad9b1e99315bc173e" kind="function"><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gae8df8724ca459a77b0b3d07ebfbd0f21" kind="function"><name>shouldClose_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Runs all preDrawUpdate and all shouldClose_ checks shouldClose_ returns true if at least on of checks was ture <linebreak/>
+ </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::PluginUpdateOr&lt; Updates &gt;</label>
+        <link refid="classMR_1_1PluginUpdateOr"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Updates...</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>MR::PluginUpdateOr&lt; Updates &gt;</label>
+        <link refid="classMR_1_1PluginUpdateOr"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Updates...</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" line="105" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRStatePluginUpdate.h" bodystart="106" bodyend="127"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab13e2a281b83e65ad9b1e99315bc173e" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>onPluginDisable_</name></member>
+      <member refid="group__GeneralGroup_1gad916bd3dde1ec66ce4c87b223517fc00" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>onPluginEnable_</name></member>
+      <member refid="group__GeneralGroup_1ga7a215652b9140f1b495ef8302f2119ae" prot="public" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>preDrawUpdate</name></member>
+      <member refid="group__GeneralGroup_1gae8df8724ca459a77b0b3d07ebfbd0f21" prot="protected" virt="virtual"><scope>MR::PluginUpdateOr</scope><name>shouldClose_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

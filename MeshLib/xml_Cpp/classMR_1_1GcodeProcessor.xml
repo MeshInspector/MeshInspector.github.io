@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1GcodeProcessor" kind="class" language="C++" prot="public">
+    <compoundname>MR::GcodeProcessor</compoundname>
+    <includes refid="MRGcodeProcessor_8h" local="no">MRGcodeProcessor.h</includes>
+    <innerclass refid="structMR_1_1GcodeProcessor_1_1BaseAction" prot="public">MR::GcodeProcessor::BaseAction</innerclass>
+    <innerclass refid="structMR_1_1GcodeProcessor_1_1Command" prot="public">MR::GcodeProcessor::Command</innerclass>
+    <innerclass refid="structMR_1_1GcodeProcessor_1_1MoveAction" prot="public">MR::GcodeProcessor::MoveAction</innerclass>
+    <sectiondef kind="private-type">
+      <member refid="group__GeneralGroup_1ga7ac2ab8e3d2f27b7cdb22ddb1eda182c" kind="enum"><name>WorkPlane</name></member>
+      <member refid="group__GeneralGroup_1ga709663cb497cc2f837aee1f5ca4100f2" kind="enum"><name>MoveMode</name></member>
+      <member refid="group__GeneralGroup_1ga1e91bcba147c679387fb026d4b8e3585" kind="enum"><name>CoordType</name></member>
+    </sectiondef>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga02000ae4305a16e7aca1e6e09bb7e25a" kind="typedef"><name>BaseAction2f</name></member>
+      <member refid="group__GeneralGroup_1ga88ffeb0a2dcab67b585df870268d537d" kind="typedef"><name>BaseAction3f</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga1305725c82861429c6918a7762b8dd63" kind="variable"><name>coordType_</name></member>
+      <member refid="group__GeneralGroup_1gad5979fbeb95661f7edd243b824fc50ad" kind="variable"><name>moveMode_</name></member>
+      <member refid="group__GeneralGroup_1gafca44e0838624f58bdb381cc8a1b5615" kind="variable"><name>workPlane_</name></member>
+      <member refid="group__GeneralGroup_1ga10fb586ed5cb13178937ee7bcb9ed2a1" kind="variable"><name>toWorkPlaneXf_</name></member>
+      <member refid="group__GeneralGroup_1ga67e936d39fcf18ddf090967c63976c66" kind="variable"><name>translationPos_</name></member>
+      <member refid="group__GeneralGroup_1gabc85c77453e5d3ea6914b727f441482e" kind="variable"><name>rotationAngles_</name></member>
+      <member refid="group__GeneralGroup_1gae0d8f26f57c57239ce8ffc3a746b610e" kind="variable"><name>absoluteCoordinates_</name></member>
+      <member refid="group__GeneralGroup_1gace5d39e8c0f2c0ecaca25d8b51d66734" kind="variable"><name>scaling_</name></member>
+      <member refid="group__GeneralGroup_1ga31962447275ea7a9b03725aec93ad61c" kind="variable"><name>inches_</name></member>
+      <member refid="group__GeneralGroup_1ga4afa2da80a1517114d550bb224cefd58" kind="variable"><name>feedrate_</name></member>
+      <member refid="group__GeneralGroup_1ga57bb2cf433c869f6d733cbe2e1128056" kind="variable"><name>feedrateMax_</name></member>
+      <member refid="group__GeneralGroup_1ga593fc42e8fc59dff3bf125e59972e9ec" kind="variable"><name>cacheRotationMatrix_</name></member>
+      <member refid="group__GeneralGroup_1gab0c2ffb2e31173f88e1a2302605aff7c" kind="variable"><name>inputCoords_</name></member>
+      <member refid="group__GeneralGroup_1ga8f342e3086c4bc66b2a77b43b05e0ebb" kind="variable"><name>inputCoordsReaded_</name></member>
+      <member refid="group__GeneralGroup_1ga6b1c0d967d1fd8f892b2f9c5b9290cd3" kind="variable"><name>radius_</name></member>
+      <member refid="group__GeneralGroup_1gacadc50869f18f493daee8265459f36a9" kind="variable"><name>arcCenter_</name></member>
+      <member refid="group__GeneralGroup_1gac19bcea919fcc7e09ef5e5e8150a1092" kind="variable"><name>inputRotation_</name></member>
+      <member refid="group__GeneralGroup_1gaaba7b9b275d6b262fcd36b03b86f5341" kind="variable"><name>inputRotationReaded_</name></member>
+      <member refid="group__GeneralGroup_1ga583d4a71308dfd2a05ba041466fff415" kind="variable"><name>gcodeSource_</name></member>
+      <member refid="group__GeneralGroup_1gaccf0a47fe2f1443b6d08014952014ce7" kind="variable"><name>accuracy_</name></member>
+      <member refid="group__GeneralGroup_1gafe3c8660cad9376677af01a26204935c" kind="variable"><name>cncSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga6958642231fb6adb71db79f39cbc0d13" kind="variable"><name>rotationAxesOrderMap_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaab85326426858f8da3d65ca24a5e1a6e" kind="function"><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gace829c3782f4685968c82c32de66a4d0" kind="function"><name>setGcodeSource</name></member>
+      <member refid="group__GeneralGroup_1gac70b156fa41443a361dc92797369d6dd" kind="function"><name>processSource</name></member>
+      <member refid="group__GeneralGroup_1ga3330329ae3c98ae35d632ae247a6dd4b" kind="function"><name>processLine</name></member>
+      <member refid="group__GeneralGroup_1gaa7d0067f2ea9fa17e9e56e625539e534" kind="function"><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga3d142a8122850941639d6ac3b62e425c" kind="function"><name>getCNCMachineSettings</name></member>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <member refid="group__GeneralGroup_1ga007e0b93251d35fa9eef521871e5c7c1" kind="function"><name>parseFrame_</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga355dafb47f0b5cd9b32bb190e423fc79" kind="function"><name>applyCommand_</name></member>
+      <member refid="group__GeneralGroup_1ga07bc44967c227c4f8e812bfaab2d255c" kind="function"><name>applyCommandG_</name></member>
+      <member refid="group__GeneralGroup_1ga59ff9abb67d5e6d3fc01e3cfebab73cb" kind="function"><name>generateMoveAction_</name></member>
+      <member refid="group__GeneralGroup_1ga9442aade2416570efe60a28f2c90d8fc" kind="function"><name>generateReturnToHomeAction_</name></member>
+      <member refid="group__GeneralGroup_1gab730b1c37c5541eb84c482a2bf5e7426" kind="function"><name>resetTemporaryStates_</name></member>
+      <member refid="group__GeneralGroup_1ga094dc0d966ff2e332c36958c2ab525b5" kind="function"><name>moveLine_</name></member>
+      <member refid="group__GeneralGroup_1gadd6ea41eb644553f0cb8c0423ae29aff" kind="function"><name>moveArc_</name></member>
+      <member refid="group__GeneralGroup_1ga6a4685dc317fe1d31bb4636252aefd3f" kind="function"><name>updateWorkPlane_</name></member>
+      <member refid="group__GeneralGroup_1ga5c263ec7c02d2b920ee5ca73326bdd9f" kind="function"><name>updateScaling_</name></member>
+      <member refid="group__GeneralGroup_1ga75baf1eff6ca071ba44ea0782928b822" kind="function"><name>getArcPoints2_</name></member>
+      <member refid="group__GeneralGroup_1gaa3b4f69f4e4401fa3f015a17abf161c8" kind="function"><name>getArcPoints3_</name></member>
+      <member refid="group__GeneralGroup_1gad65a896a9c466e65c8d84fc78db5dca7" kind="function"><name>getArcPoints3_</name></member>
+      <member refid="group__GeneralGroup_1ga0ce1edc4b795e556fc3ea8dea806a9e4" kind="function"><name>getToolRotationPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga46b15ed43d1343c027bb27ccd0f2192d" kind="function"><name>calcNewTranslationPos_</name></member>
+      <member refid="group__GeneralGroup_1ga7f65cdebdedc14b5dcc4b9c210998121" kind="function"><name>calcNewRotationAngles_</name></member>
+      <member refid="group__GeneralGroup_1ga07b4d5b3e10c0d3d7b6ade10b4f1955d" kind="function"><name>calcRealCoord_</name></member>
+      <member refid="group__GeneralGroup_1ga1ba5399a492480aad8a37c6f62b9639c" kind="function"><name>updateRotationAngleAndMatrix_</name></member>
+      <member refid="group__GeneralGroup_1ga131a9e75f8189071bad3d88ae703d402" kind="function"><name>calcRealCoordCached_</name></member>
+      <member refid="group__GeneralGroup_1gac7fba68deb0d909e4315dabad0d3e700" kind="function"><name>calcRealCoordCached_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class to process g-code source and generate toolpath </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRGcodeProcessor.h" bodystart="20" bodyend="167"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gae0d8f26f57c57239ce8ffc3a746b610e" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>absoluteCoordinates_</name></member>
+      <member refid="group__GeneralGroup_1gaccf0a47fe2f1443b6d08014952014ce7" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>accuracy_</name></member>
+      <member refid="group__GeneralGroup_1ga355dafb47f0b5cd9b32bb190e423fc79" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>applyCommand_</name></member>
+      <member refid="group__GeneralGroup_1ga07bc44967c227c4f8e812bfaab2d255c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>applyCommandG_</name></member>
+      <member refid="group__GeneralGroup_1gacadc50869f18f493daee8265459f36a9" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>arcCenter_</name></member>
+      <member refid="group__GeneralGroup_1ga02000ae4305a16e7aca1e6e09bb7e25a" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>BaseAction2f</name></member>
+      <member refid="group__GeneralGroup_1ga88ffeb0a2dcab67b585df870268d537d" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>BaseAction3f</name></member>
+      <member refid="group__GeneralGroup_1ga593fc42e8fc59dff3bf125e59972e9ec" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>cacheRotationMatrix_</name></member>
+      <member refid="group__GeneralGroup_1ga7f65cdebdedc14b5dcc4b9c210998121" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcNewRotationAngles_</name></member>
+      <member refid="group__GeneralGroup_1ga46b15ed43d1343c027bb27ccd0f2192d" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcNewTranslationPos_</name></member>
+      <member refid="group__GeneralGroup_1ga07b4d5b3e10c0d3d7b6ade10b4f1955d" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcRealCoord_</name></member>
+      <member refid="group__GeneralGroup_1ga131a9e75f8189071bad3d88ae703d402" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcRealCoordCached_</name></member>
+      <member refid="group__GeneralGroup_1gac7fba68deb0d909e4315dabad0d3e700" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>calcRealCoordCached_</name></member>
+      <member refid="group__GeneralGroup_1gafe3c8660cad9376677af01a26204935c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>cncSettings_</name></member>
+      <member refid="group__GeneralGroup_1ga1e91bcba147c679387fb026d4b8e3585" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>CoordType</name></member>
+      <member refid="group__GeneralGroup_1ga1305725c82861429c6918a7762b8dd63" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>coordType_</name></member>
+      <member refid="group__GeneralGroup_1ga4afa2da80a1517114d550bb224cefd58" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>feedrate_</name></member>
+      <member refid="group__GeneralGroup_1ga57bb2cf433c869f6d733cbe2e1128056" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>feedrateMax_</name></member>
+      <member refid="group__GeneralGroup_1ga583d4a71308dfd2a05ba041466fff415" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>gcodeSource_</name></member>
+      <member refid="group__GeneralGroup_1ga59ff9abb67d5e6d3fc01e3cfebab73cb" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>generateMoveAction_</name></member>
+      <member refid="group__GeneralGroup_1ga9442aade2416570efe60a28f2c90d8fc" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>generateReturnToHomeAction_</name></member>
+      <member refid="group__GeneralGroup_1ga75baf1eff6ca071ba44ea0782928b822" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getArcPoints2_</name></member>
+      <member refid="group__GeneralGroup_1gaa3b4f69f4e4401fa3f015a17abf161c8" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getArcPoints3_</name></member>
+      <member refid="group__GeneralGroup_1gad65a896a9c466e65c8d84fc78db5dca7" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getArcPoints3_</name></member>
+      <member refid="group__GeneralGroup_1ga3d142a8122850941639d6ac3b62e425c" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1ga0ce1edc4b795e556fc3ea8dea806a9e4" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>getToolRotationPoints_</name></member>
+      <member refid="group__GeneralGroup_1ga31962447275ea7a9b03725aec93ad61c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inches_</name></member>
+      <member refid="group__GeneralGroup_1gab0c2ffb2e31173f88e1a2302605aff7c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputCoords_</name></member>
+      <member refid="group__GeneralGroup_1ga8f342e3086c4bc66b2a77b43b05e0ebb" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputCoordsReaded_</name></member>
+      <member refid="group__GeneralGroup_1gac19bcea919fcc7e09ef5e5e8150a1092" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputRotation_</name></member>
+      <member refid="group__GeneralGroup_1gaaba7b9b275d6b262fcd36b03b86f5341" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>inputRotationReaded_</name></member>
+      <member refid="group__GeneralGroup_1gadd6ea41eb644553f0cb8c0423ae29aff" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveArc_</name></member>
+      <member refid="group__GeneralGroup_1ga094dc0d966ff2e332c36958c2ab525b5" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveLine_</name></member>
+      <member refid="group__GeneralGroup_1ga709663cb497cc2f837aee1f5ca4100f2" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>MoveMode</name></member>
+      <member refid="group__GeneralGroup_1gad5979fbeb95661f7edd243b824fc50ad" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>moveMode_</name></member>
+      <member refid="group__GeneralGroup_1ga007e0b93251d35fa9eef521871e5c7c1" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>parseFrame_</name></member>
+      <member refid="group__GeneralGroup_1ga3330329ae3c98ae35d632ae247a6dd4b" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processLine</name></member>
+      <member refid="group__GeneralGroup_1gac70b156fa41443a361dc92797369d6dd" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>processSource</name></member>
+      <member refid="group__GeneralGroup_1ga6b1c0d967d1fd8f892b2f9c5b9290cd3" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>radius_</name></member>
+      <member refid="group__GeneralGroup_1gaab85326426858f8da3d65ca24a5e1a6e" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>reset</name></member>
+      <member refid="group__GeneralGroup_1gab730b1c37c5541eb84c482a2bf5e7426" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>resetTemporaryStates_</name></member>
+      <member refid="group__GeneralGroup_1gabc85c77453e5d3ea6914b727f441482e" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>rotationAngles_</name></member>
+      <member refid="group__GeneralGroup_1ga6958642231fb6adb71db79f39cbc0d13" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>rotationAxesOrderMap_</name></member>
+      <member refid="group__GeneralGroup_1gace5d39e8c0f2c0ecaca25d8b51d66734" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>scaling_</name></member>
+      <member refid="group__GeneralGroup_1gaa7d0067f2ea9fa17e9e56e625539e534" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setCNCMachineSettings</name></member>
+      <member refid="group__GeneralGroup_1gace829c3782f4685968c82c32de66a4d0" prot="public" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>setGcodeSource</name></member>
+      <member refid="group__GeneralGroup_1ga10fb586ed5cb13178937ee7bcb9ed2a1" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>toWorkPlaneXf_</name></member>
+      <member refid="group__GeneralGroup_1ga67e936d39fcf18ddf090967c63976c66" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>translationPos_</name></member>
+      <member refid="group__GeneralGroup_1ga1ba5399a492480aad8a37c6f62b9639c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateRotationAngleAndMatrix_</name></member>
+      <member refid="group__GeneralGroup_1ga5c263ec7c02d2b920ee5ca73326bdd9f" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateScaling_</name></member>
+      <member refid="group__GeneralGroup_1ga6a4685dc317fe1d31bb4636252aefd3f" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>updateWorkPlane_</name></member>
+      <member refid="group__GeneralGroup_1ga7ac2ab8e3d2f27b7cdb22ddb1eda182c" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>WorkPlane</name></member>
+      <member refid="group__GeneralGroup_1gafca44e0838624f58bdb381cc8a1b5615" prot="private" virt="non-virtual"><scope>MR::GcodeProcessor</scope><name>workPlane_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

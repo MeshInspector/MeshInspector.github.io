@@ -2,6 +2,8 @@ var classMR_1_1VertMap =
 [
     [ "VertMap", "classMR_1_1VertMap.html#a15d4aa846fe5bccf1c88bdd674dc508c", null ],
     [ "VertMap", "classMR_1_1VertMap.html#ab41261dace3e349869ac42d2bcde61ba", null ],
+    [ "VertMap", "classMR_1_1VertMap.html#a93296decc058479ee4a913e1f6c8ec97", null ],
+    [ "VertMap", "classMR_1_1VertMap.html#a6c6aa6f68c05017d7d03c9e2201fe3d3", null ],
     [ "VertMap", "classMR_1_1VertMap.html#a527519b7400c88493190e1f941cfc6bb", null ],
     [ "VertMap", "classMR_1_1VertMap.html#a6be7b63dbc26ebf34013dd6d45400bd0", null ],
     [ "VertMap", "classMR_1_1VertMap.html#a44ed9e3b8b9e820ed5b35758214e2c19", null ],

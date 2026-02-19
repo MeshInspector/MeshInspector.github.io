@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a0118336a8022b3b1e4f801c0fad49c80" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression::Lossless</definition>
+        <argsstring></argsstring>
+        <name>Lossless</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.Lossless</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression" kindref="compound">MeshSave.CtmSaveOptions.MeshCompression</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34224" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1ae467a3e07d990d2ca34f629b20c6d65b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression::Lossy</definition>
+        <argsstring></argsstring>
+        <name>Lossy</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.Lossy</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression" kindref="compound">MeshSave.CtmSaveOptions.MeshCompression</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34225" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a8056e958b4c92cfc41df5bcca9419618" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression::None</definition>
+        <argsstring></argsstring>
+        <name>None</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.None</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression" kindref="compound">MeshSave.CtmSaveOptions.MeshCompression</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34226" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34226" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a8f003080f8d8e5a37a76052d838be364" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression" kindref="compound">MeshSave.CtmSaveOptions.MeshCompression</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34227" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34227" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1aafc03f7df588eebe3d79450128912bc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34228" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34228" bodyend="34229"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1ae74c9f10fda291c169dcdb3dfe7196a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34230" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34230" bodyend="34231"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a25e505a9635df74d6cd6d0e33d68d136" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34232" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34232" bodyend="34233"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a71f986b567f624316a47dcdce2cfc3b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34234" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34234" bodyend="34235"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1aa27a6541d05b84ef5c72f13340017c0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a8056e958b4c92cfc41df5bcca9419618" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34236" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34236" bodyend="34237"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a3609ce297b824c49bd4965d5e63be9d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34238" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34238" bodyend="34239"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1ac0f68b0427dcf7df15f90b28fb7aacb2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34240" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34240" bodyend="34241"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a1c407aa473ede435980b119e799bc545" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34242" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34242" bodyend="34243"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a203f1fc28c642ff8b29e22ef26a83d89" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a8056e958b4c92cfc41df5bcca9419618" kindref="member">None</ref></type>
+        <definition> None mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34244" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34244" bodyend="34245"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a54428e9a69a7fcd8b96a4abc890a5b3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34246" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34246" bodyend="34247"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a69b9a9249abf3aa13698efebb6bf3de0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34249" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34249" bodyend="34250"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1ac8a3af4c6d080ad4a6a22112440ed19b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34252" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34252" bodyend="34254"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  None : no compression at all, fast but not effective
+
+  Lossless : compression without any loss in vertex coordinates
+
+  Lossy : compression with loss in vertex coordinates
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.MeshSave.CtmSaveOptions.MeshCompression</label>
+        <link refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Lossless</edgelabel>
+          <edgelabel>Lossy</edgelabel>
+          <edgelabel>None</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="34214" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="34214" bodyend="34253"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1aafc03f7df588eebe3d79450128912bc7" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1ae74c9f10fda291c169dcdb3dfe7196a1" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a25e505a9635df74d6cd6d0e33d68d136" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a71f986b567f624316a47dcdce2cfc3b9" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1aa27a6541d05b84ef5c72f13340017c0b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a3609ce297b824c49bd4965d5e63be9d4" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a8f003080f8d8e5a37a76052d838be364" prot="private" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1ac0f68b0427dcf7df15f90b28fb7aacb2" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a1c407aa473ede435980b119e799bc545" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a203f1fc28c642ff8b29e22ef26a83d89" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a54428e9a69a7fcd8b96a4abc890a5b3a" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a0118336a8022b3b1e4f801c0fad49c80" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>Lossless</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1ae467a3e07d990d2ca34f629b20c6d65b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>Lossy</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a69b9a9249abf3aa13698efebb6bf3de0" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1a8056e958b4c92cfc41df5bcca9419618" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>None</name></member>
+      <member refid="classmrmeshpy_1_1MeshSave_1_1CtmSaveOptions_1_1MeshCompression_1ac8a3af4c6d080ad4a6a22112440ed19b" prot="public" virt="non-virtual"><scope>mrmeshpy::MeshSave::CtmSaveOptions::MeshCompression</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

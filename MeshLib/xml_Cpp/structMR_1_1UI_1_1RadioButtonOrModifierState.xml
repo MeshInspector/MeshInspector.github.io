@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1UI_1_1RadioButtonOrModifierState" kind="struct" language="C++" prot="public">
+    <compoundname>MR::UI::RadioButtonOrModifierState</compoundname>
+    <includes refid="MRUIStyle_8h" local="no">MRUIStyle.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga6f0147734869738bb359e2b4a7a04b0c" kind="variable"><name>value</name></member>
+      <member refid="group__GeneralGroup_1ga9d6a399bbfee336d360bbfc7339c022e" kind="variable"><name>effectiveValue</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaef2b0d98c760a75a666aedd5cf4143c5" kind="function"><name>operator int</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" line="287" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRUIStyle.h" bodystart="288" bodyend="299"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga9d6a399bbfee336d360bbfc7339c022e" prot="public" virt="non-virtual"><scope>MR::UI::RadioButtonOrModifierState</scope><name>effectiveValue</name></member>
+      <member refid="group__GeneralGroup_1gaef2b0d98c760a75a666aedd5cf4143c5" prot="public" virt="non-virtual"><scope>MR::UI::RadioButtonOrModifierState</scope><name>operator int</name></member>
+      <member refid="group__GeneralGroup_1ga6f0147734869738bb359e2b4a7a04b0c" prot="public" virt="non-virtual"><scope>MR::UI::RadioButtonOrModifierState</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

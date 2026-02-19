@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1Ball2d" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::Ball2d</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Ball2d_1ada8e92b901bc21f76bdb2fccd08b8d46" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Ball2d::_offsetof_center</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_center</name>
+        <qualifiedname>mrmeshpy.Ball2d._offsetof_center</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2276" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1Ball2d_1ae0270d20efdd173e35c2db2a2019ed5c" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Ball2d::_offsetof_radiusSq</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_radiusSq</name>
+        <qualifiedname>mrmeshpy.Ball2d._offsetof_radiusSq</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2277" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2277" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1Ball2d_1abe272d75d2a510f8252217f31b8cdd65" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.Ball2d::elements</definition>
+        <argsstring></argsstring>
+        <name>elements</name>
+        <qualifiedname>mrmeshpy.Ball2d.elements</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2278" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2278" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1a4e0f3cd6131931e6c71230aff9fca603" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Ball2d.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Ball2d.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2281" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2281" bodyend="2282"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1a80e095bf90bcb5f7ec464f58b943fe14" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Ball2d" kindref="compound">Ball2d</ref></type>
+        <definition> Ball2d mrmeshpy.Ball2d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Ball2d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2285" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2285" bodyend="2286"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1a80e095bf90bcb5f7ec464f58b943fe14" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Ball2d" kindref="compound">Ball2d</ref></type>
+        <definition> Ball2d mrmeshpy.Ball2d.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.Ball2d.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2289" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2289" bodyend="2290"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1a1a9af573588acdc6cd4880f424d16f20" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Ball2d.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Ball2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2292" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2292" bodyend="2293"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1a24a0b6ea01607a7885683eff33ba98cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Ball2d.__init__</definition>
+        <argsstring>(self, Ball2d arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Ball2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Ball2d" kindref="compound">Ball2d</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2295" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2295" bodyend="2298"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1a68d01e837c364222fbbc826bcdf464a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Ball2d.__init__</definition>
+        <argsstring>(self, Vector2d center, float radiusSq)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.Ball2d.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>radiusSq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2300" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2300" bodyend="2303"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1af9bdaa77d2beb6f74c439a84dc741ed2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Ball2d.inside</definition>
+        <argsstring>(self, Vector2d pt)</argsstring>
+        <name>inside</name>
+        <qualifiedname>mrmeshpy.Ball2d.inside</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given point is strictly inside the ball (not on its spherical surface)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2304" bodyend="2307"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1ad4451123ca9f170550f1f3564fef35fd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.Ball2d.outside</definition>
+        <argsstring>(self, Vector2d pt)</argsstring>
+        <name>outside</name>
+        <qualifiedname>mrmeshpy.Ball2d.outside</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>pt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns true if given point is strictly outside the ball (not on its spherical surface)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2308" bodyend="2311"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1a034df82d79c0c31b0564d20830a1995e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+        <definition> Vector2d mrmeshpy.Ball2d.center</definition>
+        <argsstring>(self)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.Ball2d.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>ball&apos;s center
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2313" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2313" bodyend="2316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1a0764f33f4cbd13b0e885739080a7c4ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Ball2d.center</definition>
+        <argsstring>(self, Vector2d arg1)</argsstring>
+        <name>center</name>
+        <qualifiedname>mrmeshpy.Ball2d.center</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Vector2d" kindref="compound">Vector2d</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2318" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2318" bodyend="2319"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1a1a8f9fb6f3f2e1887b9c53edd3273c21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.Ball2d.radiusSq</definition>
+        <argsstring>(self)</argsstring>
+        <name>radiusSq</name>
+        <qualifiedname>mrmeshpy.Ball2d.radiusSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>ball&apos;s squared radius
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2321" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2321" bodyend="2324"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1Ball2d_1aa9560ba39c4a1c44a0bbeff342311347" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.Ball2d.radiusSq</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>radiusSq</name>
+        <qualifiedname>mrmeshpy.Ball2d.radiusSq</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2326" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2326" bodyend="2327"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::Ball2d
+
+a ball = points surrounded by a sphere in arbitrary space with vector type V
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.Ball2d</label>
+        <link refid="classmrmeshpy_1_1Ball2d"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_center</edgelabel>
+          <edgelabel>_offsetof_radiusSq</edgelabel>
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="2270" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="2270" bodyend="2327"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1Ball2d_1a4e0f3cd6131931e6c71230aff9fca603" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1a1a9af573588acdc6cd4880f424d16f20" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1a24a0b6ea01607a7885683eff33ba98cb" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1a68d01e837c364222fbbc826bcdf464a1" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1ada8e92b901bc21f76bdb2fccd08b8d46" prot="protected" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>_offsetof_center</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1ae0270d20efdd173e35c2db2a2019ed5c" prot="protected" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>_offsetof_radiusSq</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1a034df82d79c0c31b0564d20830a1995e" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1a0764f33f4cbd13b0e885739080a7c4ef" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>center</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1abe272d75d2a510f8252217f31b8cdd65" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>elements</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1af9bdaa77d2beb6f74c439a84dc741ed2" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>inside</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1a80e095bf90bcb5f7ec464f58b943fe14" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1a80e095bf90bcb5f7ec464f58b943fe14" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1ad4451123ca9f170550f1f3564fef35fd" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>outside</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1a1a8f9fb6f3f2e1887b9c53edd3273c21" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>radiusSq</name></member>
+      <member refid="classmrmeshpy_1_1Ball2d_1aa9560ba39c4a1c44a0bbeff342311347" prot="public" virt="non-virtual"><scope>mrmeshpy::Ball2d</scope><name>radiusSq</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1TouchpadController_1_1Handler" kind="class" language="C++" prot="public">
+    <compoundname>MR::TouchpadController::Handler</compoundname>
+    <includes refid="MRTouchpadController_8h" local="no">MRTouchpadController.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga22bc334022e40146fa414493170af7b4" kind="enum"><name>GestureState</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gac01d9ce7a2cd68d9da9c23a5ee93df0b" kind="function"><name>~Handler</name></member>
+      <member refid="group__GeneralGroup_1gaa44961190a75ca4d6cc9dd8281ca367a" kind="function"><name>mouseScroll</name></member>
+      <member refid="group__GeneralGroup_1gaf1d038636cfb202e8e3709fc8518b6f2" kind="function"><name>rotate</name></member>
+      <member refid="group__GeneralGroup_1ga04a8489fbc1241cbf36f1f10194ca21e" kind="function"><name>swipe</name></member>
+      <member refid="group__GeneralGroup_1gaa716478caa8b3f52ec82aff6b328c64e" kind="function"><name>zoom</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Base class for platform-dependent code handling touchpad events</para>
+<para>If you want to add touchpad gesture support on your platform, inherit this class, extend the <computeroutput><ref refid="group__GeneralGroup_1ga7f99ad050f7c266930af4bf9ffc13c37" kindref="member">TouchpadController::initialize</ref></computeroutput> method and call the corresponding methods on the touchpad events. </para>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" line="51" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRTouchpadController.h" bodystart="52" bodyend="76"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga22bc334022e40146fa414493170af7b4" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>GestureState</name></member>
+      <member refid="group__GeneralGroup_1gaa44961190a75ca4d6cc9dd8281ca367a" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>mouseScroll</name></member>
+      <member refid="group__GeneralGroup_1gaf1d038636cfb202e8e3709fc8518b6f2" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>rotate</name></member>
+      <member refid="group__GeneralGroup_1ga04a8489fbc1241cbf36f1f10194ca21e" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>swipe</name></member>
+      <member refid="group__GeneralGroup_1gaa716478caa8b3f52ec82aff6b328c64e" prot="public" virt="non-virtual"><scope>MR::TouchpadController::Handler</scope><name>zoom</name></member>
+      <member refid="group__GeneralGroup_1gac01d9ce7a2cd68d9da9c23a5ee93df0b" prot="public" virt="virtual"><scope>MR::TouchpadController::Handler</scope><name>~Handler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

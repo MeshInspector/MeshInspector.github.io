@@ -1,0 +1,763 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ab13fbebb36de45ad7e9648a5937afadb" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels::__hash__</definition>
+        <argsstring></argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__hash__</qualifiedname>
+        <initializer>=  None</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93003" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93003" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a4a45487c2716f9f6d8c22cf155f9b345" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels::element_type_byte_size</definition>
+        <argsstring></argsstring>
+        <name>element_type_byte_size</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.element_type_byte_size</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93004" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93004" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ab0f39acc641b459a3c62af28dbf0918e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Check whether the list is nonempty
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93005" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93005" bodyend="93008"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1aa7e3c26171320e8d9d9207dd79cce4df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__contains__</definition>
+        <argsstring>(self, ObjectVoxels x)</argsstring>
+        <name>__contains__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__contains__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return true the container contains ``x``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93009" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93009" bodyend="93012"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a227d9e90a370713ed0d00775b2e76ed6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__delitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete the list elements at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93014" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93014" bodyend="93017"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1af6391be4e1318e0e3b533ff3f326ad31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__delitem__</definition>
+        <argsstring>(self, slice arg0)</argsstring>
+        <name>__delitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__delitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Delete list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93019" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93019" bodyend="93022"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a60948dd6e7a1ebc871c925db8f2134fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__eq__</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_ObjectVoxels arg0)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels" kindref="compound">std_vector_std_shared_ptr_ObjectVoxels</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93023" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93023" bodyend="93024"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ada19d8acf09992005a6f2757024f3142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels" kindref="compound">std_vector_std_shared_ptr_ObjectVoxels</ref></type>
+        <definition> std_vector_std_shared_ptr_ObjectVoxels mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__getitem__</definition>
+        <argsstring>(self, slice s)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Retrieve list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93026" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93026" bodyend="93029"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ae76271e582706b0c1b0bfde6239b76c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+        <definition> ObjectVoxels mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__getitem__</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>__getitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__getitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93031" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93031" bodyend="93032"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1adbc9b6dcba4b3297113ff0ba424195a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93034" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93034" bodyend="93035"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a00ffbd1f0d1e579a323a1fcdfe51830b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__init__</definition>
+        <argsstring>(self, typing.Iterable arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93037" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93037" bodyend="93038"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a9f7d00e71b179d3dbe1089c183ce3559" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__init__</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_ObjectVoxels arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels" kindref="compound">std_vector_std_shared_ptr_ObjectVoxels</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93040" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93040" bodyend="93041"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a58e35329a7f47da778242b0968379593" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>typing.Iterator[<ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref>]</type>
+        <definition> typing.Iterator[ObjectVoxels] mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__iter__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__iter__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__iter__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93042" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93042" bodyend="93043"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ae990fe5eb13922d3eda31afcda604ffc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__len__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__len__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__len__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93044" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93044" bodyend="93045"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1aa6bb906b039175211989bb138170d3f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__ne__</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_ObjectVoxels arg0)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels" kindref="compound">std_vector_std_shared_ptr_ObjectVoxels</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93046" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93046" bodyend="93047"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a15611bb55c173fa6ba346add73d50c1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the canonical string representation of this map.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93048" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93048" bodyend="93051"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a3ed755118949ab7210ca441a065196fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__setitem__</definition>
+        <argsstring>(self, int arg0, ObjectVoxels arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93053" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93053" bodyend="93054"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ac165e071e3ccca110f6a3df504cdc81c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__setitem__</definition>
+        <argsstring>(self, slice arg0, std_vector_std_shared_ptr_ObjectVoxels arg1)</argsstring>
+        <name>__setitem__</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.__setitem__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>slice</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels" kindref="compound">std_vector_std_shared_ptr_ObjectVoxels</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Assign list elements using a slice object
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93056" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93056" bodyend="93059"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a7d73e527536c2ab375e5c6d2e7c971df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.append</definition>
+        <argsstring>(self, ObjectVoxels x)</argsstring>
+        <name>append</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.append</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Add an item to the end of the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93060" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93060" bodyend="93063"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a189abf4632531a5ed0483d5a740c6735" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.clear</definition>
+        <argsstring>(self)</argsstring>
+        <name>clear</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.clear</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Clear the contents
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93064" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93064" bodyend="93067"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a305714fafc0e2c3dec7ba04109c30da5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.count</definition>
+        <argsstring>(self, ObjectVoxels x)</argsstring>
+        <name>count</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.count</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Return the number of times ``x`` appears in the list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93068" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93068" bodyend="93071"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a8a4268042fc409d43315b094c4760c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.data_pointer</definition>
+        <argsstring>(self)</argsstring>
+        <name>data_pointer</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.data_pointer</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Returns the pointer to the contiguous vector contents, as an integer.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93072" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93072" bodyend="93075"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ab2e81c05f38851f0c4b2f8ae5bc7bcce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.empty</definition>
+        <argsstring>(self)</argsstring>
+        <name>empty</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.empty</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93076" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93076" bodyend="93077"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a2fc1444728a5acdc333c3877f3a90e83" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.extend</definition>
+        <argsstring>(self, std_vector_std_shared_ptr_ObjectVoxels L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels" kindref="compound">std_vector_std_shared_ptr_ObjectVoxels</ref></type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93079" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93079" bodyend="93082"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1aa513a224c862ff0559f4ef4f0ea50351" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.extend</definition>
+        <argsstring>(self, typing.Iterable L)</argsstring>
+        <name>extend</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.extend</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Iterable</type>
+          <declname>L</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Extend the list by appending all the items in the given list
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93084" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93084" bodyend="93087"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a27173e9f00a49fa486858938027e59f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.insert</definition>
+        <argsstring>(self, int i, ObjectVoxels x)</argsstring>
+        <name>insert</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.insert</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Insert an item at a given position.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93088" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93088" bodyend="93091"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a007fd1feb6b0b324de88f30ddadbb016" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+        <definition> ObjectVoxels mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.pop</definition>
+        <argsstring>(self)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the last item
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93093" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93093" bodyend="93096"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a324a343a86e855b01410dc66e2378c7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+        <definition> ObjectVoxels mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.pop</definition>
+        <argsstring>(self, int i)</argsstring>
+        <name>pop</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.pop</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove and return the item at index ``i``
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93098" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93098" bodyend="93101"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ac4bd60a2a9d8d1c509f4f5219905de99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.remove</definition>
+        <argsstring>(self, ObjectVoxels x)</argsstring>
+        <name>remove</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.remove</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Remove the first item from the list whose value is x. It is an error if there is no such item.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93102" bodyend="93105"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a473e3bee6d82fb40d44ffbe964eb877e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.resize</definition>
+        <argsstring>(self, int arg0)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93107" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93107" bodyend="93108"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a3bf9f69eb3a841b64cc1b43a8ccf96ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.resize</definition>
+        <argsstring>(self, int arg0, ObjectVoxels arg1)</argsstring>
+        <name>resize</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.resize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>arg0</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ObjectVoxels" kindref="compound">ObjectVoxels</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93110" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93110" bodyend="93111"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a55dc7386b17d5f24206cd3f39ad43089" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.size</definition>
+        <argsstring>(self)</argsstring>
+        <name>size</name>
+        <qualifiedname>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels.size</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93112" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93112" bodyend="93113"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.std_vector_std_shared_ptr_ObjectVoxels</label>
+        <link refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>element_type_byte_size</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="93002" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="93002" bodyend="93113"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ab0f39acc641b459a3c62af28dbf0918e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1aa7e3c26171320e8d9d9207dd79cce4df" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__contains__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a227d9e90a370713ed0d00775b2e76ed6" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1af6391be4e1318e0e3b533ff3f326ad31" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__delitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a60948dd6e7a1ebc871c925db8f2134fe" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ada19d8acf09992005a6f2757024f3142" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ae76271e582706b0c1b0bfde6239b76c2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__getitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ab13fbebb36de45ad7e9648a5937afadb" prot="private" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1adbc9b6dcba4b3297113ff0ba424195a8" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a00ffbd1f0d1e579a323a1fcdfe51830b" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a9f7d00e71b179d3dbe1089c183ce3559" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a58e35329a7f47da778242b0968379593" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__iter__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ae990fe5eb13922d3eda31afcda604ffc" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__len__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1aa6bb906b039175211989bb138170d3f4" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a15611bb55c173fa6ba346add73d50c1d" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a3ed755118949ab7210ca441a065196fb" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ac165e071e3ccca110f6a3df504cdc81c" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>__setitem__</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a7d73e527536c2ab375e5c6d2e7c971df" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>append</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a189abf4632531a5ed0483d5a740c6735" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>clear</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a305714fafc0e2c3dec7ba04109c30da5" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>count</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a8a4268042fc409d43315b094c4760c6a" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>data_pointer</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a4a45487c2716f9f6d8c22cf155f9b345" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>element_type_byte_size</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ab2e81c05f38851f0c4b2f8ae5bc7bcce" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>empty</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a2fc1444728a5acdc333c3877f3a90e83" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1aa513a224c862ff0559f4ef4f0ea50351" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>extend</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a27173e9f00a49fa486858938027e59f2" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>insert</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a007fd1feb6b0b324de88f30ddadbb016" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a324a343a86e855b01410dc66e2378c7f" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>pop</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1ac4bd60a2a9d8d1c509f4f5219905de99" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>remove</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a473e3bee6d82fb40d44ffbe964eb877e" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a3bf9f69eb3a841b64cc1b43a8ccf96ed" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>resize</name></member>
+      <member refid="classmrmeshpy_1_1std__vector__std__shared__ptr__ObjectVoxels_1a55dc7386b17d5f24206cd3f39ad43089" prot="public" virt="non-virtual"><scope>mrmeshpy::std_vector_std_shared_ptr_ObjectVoxels</scope><name>size</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1DoubleOffsetSettings" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::DoubleOffsetSettings</compoundname>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1DoubleOffsetSettings_1a0d6de9d3f010c36e3c1d81c3b55dbdf4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DoubleOffsetSettings::_offsetof_adaptivity</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_adaptivity</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings._offsetof_adaptivity</qualifiedname>
+        <initializer>=  12</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14301" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DoubleOffsetSettings_1a0030b37e1864cca139495e96be63e97e" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DoubleOffsetSettings::_offsetof_fwn</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_fwn</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings._offsetof_fwn</qualifiedname>
+        <initializer>=  16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14302" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DoubleOffsetSettings_1ad1de83df06f897b108e72ae58f3207ea" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DoubleOffsetSettings::_offsetof_offsetA</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offsetA</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings._offsetof_offsetA</qualifiedname>
+        <initializer>=  4</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14303" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DoubleOffsetSettings_1a6ac2fbf19a9f902e9c0cfd230caffbcf" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DoubleOffsetSettings::_offsetof_offsetB</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_offsetB</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings._offsetof_offsetB</qualifiedname>
+        <initializer>=  8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14304" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DoubleOffsetSettings_1aad29a6844d57d646df20e1ff3150049f" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DoubleOffsetSettings::_offsetof_progress</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_progress</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings._offsetof_progress</qualifiedname>
+        <initializer>=  40</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14305" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DoubleOffsetSettings_1aff6c04819ffd7cb86991e79a6b2d56b2" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DoubleOffsetSettings::_offsetof_voxelSize</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_voxelSize</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings._offsetof_voxelSize</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14306" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DoubleOffsetSettings_1a9fbdc53aa2ae5681d67cefd78d08ae91" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DoubleOffsetSettings::_offsetof_windingNumberBeta</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings._offsetof_windingNumberBeta</qualifiedname>
+        <initializer>=  36</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14307" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1DoubleOffsetSettings_1ab1f8ad2c4cca1eb4d7f8eb12f2ea69f4" prot="protected" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.DoubleOffsetSettings::_offsetof_windingNumberThreshold</definition>
+        <argsstring></argsstring>
+        <name>_offsetof_windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings._offsetof_windingNumberThreshold</qualifiedname>
+        <initializer>=  32</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14308" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14308" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a20fbbefb966c412b5055bc3eff420e41" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14311" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14311" bodyend="14312"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a3ba7e7ac8ea911ff15301285f1345601" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DoubleOffsetSettings" kindref="compound">DoubleOffsetSettings</ref></type>
+        <definition> DoubleOffsetSettings mrmeshpy.DoubleOffsetSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14315" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14315" bodyend="14316"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a3ba7e7ac8ea911ff15301285f1345601" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1DoubleOffsetSettings" kindref="compound">DoubleOffsetSettings</ref></type>
+        <definition> DoubleOffsetSettings mrmeshpy.DoubleOffsetSettings.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.operator</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14319" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14319" bodyend="14320"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a76247fef0c83c8c76eb6d39d32daf3ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14322" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14322" bodyend="14323"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a962707c719031ba87baf458d14777468" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.__init__</definition>
+        <argsstring>(self, DoubleOffsetSettings arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1DoubleOffsetSettings" kindref="compound">DoubleOffsetSettings</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14325" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14325" bodyend="14328"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a80e49769b4cb06d128e1e47edd23cfdc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.__init__</definition>
+        <argsstring>(self, float voxelSize, float offsetA, float offsetB, float adaptivity, IFastWindingNumber fwn, float windingNumberThreshold, float windingNumberBeta, func_bool_from_float progress)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>voxelSize</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offsetA</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>offsetB</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>adaptivity</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+          <declname>fwn</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberThreshold</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>windingNumberBeta</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>progress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit aggregate constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14330" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14330" bodyend="14333"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a07c2bfdf2a4eb2045f045a4de0989165" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DoubleOffsetSettings.adaptivity</definition>
+        <argsstring>(self)</argsstring>
+        <name>adaptivity</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.adaptivity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>in [0; 1] - ratio of combining small triangles into bigger ones (curvature can be lost on high values)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14335" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14335" bodyend="14338"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1abee1b357c4fd4fec3cd3b3ddcd93b46d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.adaptivity</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>adaptivity</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.adaptivity</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14340" bodyend="14341"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1ac92c61773ac173e3cf5f7b836796a9b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+        <definition> IFastWindingNumber mrmeshpy.DoubleOffsetSettings.fwn</definition>
+        <argsstring>(self)</argsstring>
+        <name>fwn</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.fwn</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>defines particular implementation of IFastWindingNumber interface that will compute windings. If it is not specified, default FastWindingNumber is used
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14343" bodyend="14346"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1ace8032f003d18a887560bf770f6cd4e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.fwn</definition>
+        <argsstring>(self, IFastWindingNumber arg1)</argsstring>
+        <name>fwn</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.fwn</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1IFastWindingNumber" kindref="compound">IFastWindingNumber</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14348" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14348" bodyend="14349"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1aaa04832c28e916e1dfb83e5ec16ce47d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DoubleOffsetSettings.offsetA</definition>
+        <argsstring>(self)</argsstring>
+        <name>offsetA</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.offsetA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the amount of first offset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14351" bodyend="14354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1ab722a4f6023539b76637002a7fae3c8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.offsetA</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>offsetA</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.offsetA</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14356" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14356" bodyend="14357"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a40103cda0d9b5938da3a56c2c45d9c31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DoubleOffsetSettings.offsetB</definition>
+        <argsstring>(self)</argsstring>
+        <name>offsetB</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.offsetB</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the amount of second offset
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14359" bodyend="14362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1ae291bb5cfea2b6907b00339afda6efb7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.offsetB</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>offsetB</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.offsetB</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14364" bodyend="14365"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a53ae29fe65a1dc5172b4407a4933f1b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+        <definition> func_bool_from_float mrmeshpy.DoubleOffsetSettings.progress</definition>
+        <argsstring>(self)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>to report algorithm&apos;s progress and to cancel it
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14367" bodyend="14370"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a4d37e146f735968c7a61d3d025b37b02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.progress</definition>
+        <argsstring>(self, func_bool_from_float arg1)</argsstring>
+        <name>progress</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.progress</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__float" kindref="compound">func_bool_from_float</ref></type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14372" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14372" bodyend="14373"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1aa9840d319979d87496f28a3162824a95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DoubleOffsetSettings.voxelSize</definition>
+        <argsstring>(self)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>the size of voxel in intermediate voxel grid representation
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14375" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14375" bodyend="14378"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1af1887738283ec9e8b12cbc0de87e0c67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.voxelSize</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>voxelSize</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.voxelSize</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14380" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14380" bodyend="14381"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a5ad21e06dfb2b1b3d3d5100094bb7ccb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DoubleOffsetSettings.windingNumberBeta</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>determines the precision of fast approximation: the more the better, minimum value is 1
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14383" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14383" bodyend="14386"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1af0cdb42069232d98fbbbd41dd7f3e1e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.windingNumberBeta</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberBeta</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.windingNumberBeta</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14388" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14388" bodyend="14389"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1ab7a0b4372a0564b8421996cc1409cb7c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition> float mrmeshpy.DoubleOffsetSettings.windingNumberThreshold</definition>
+        <argsstring>(self)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>positive distance if winding number below or equal this threshold;
+ideal threshold: 0.5 for closed meshes; 0.0 for planar meshes
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14391" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14391" bodyend="14395"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1DoubleOffsetSettings_1a5699ae1da4553b1dd3e9278094e3f7a0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.DoubleOffsetSettings.windingNumberThreshold</definition>
+        <argsstring>(self, float arg1)</argsstring>
+        <name>windingNumberThreshold</name>
+        <qualifiedname>mrmeshpy.DoubleOffsetSettings.windingNumberThreshold</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>arg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14397" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14397" bodyend="14398"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::DoubleOffsetSettings
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.DoubleOffsetSettings</label>
+        <link refid="classmrmeshpy_1_1DoubleOffsetSettings"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>_offsetof_adaptivity</edgelabel>
+          <edgelabel>_offsetof_fwn</edgelabel>
+          <edgelabel>_offsetof_offsetA</edgelabel>
+          <edgelabel>_offsetof_offsetB</edgelabel>
+          <edgelabel>_offsetof_progress</edgelabel>
+          <edgelabel>_offsetof_voxelSize</edgelabel>
+          <edgelabel>_offsetof_windingNumberBeta</edgelabel>
+          <edgelabel>_offsetof_windingNumberThreshold</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="14297" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="14297" bodyend="14398"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a20fbbefb966c412b5055bc3eff420e41" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a76247fef0c83c8c76eb6d39d32daf3ec" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a962707c719031ba87baf458d14777468" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a80e49769b4cb06d128e1e47edd23cfdc" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a0d6de9d3f010c36e3c1d81c3b55dbdf4" prot="protected" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>_offsetof_adaptivity</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a0030b37e1864cca139495e96be63e97e" prot="protected" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>_offsetof_fwn</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1ad1de83df06f897b108e72ae58f3207ea" prot="protected" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>_offsetof_offsetA</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a6ac2fbf19a9f902e9c0cfd230caffbcf" prot="protected" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>_offsetof_offsetB</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1aad29a6844d57d646df20e1ff3150049f" prot="protected" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>_offsetof_progress</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1aff6c04819ffd7cb86991e79a6b2d56b2" prot="protected" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>_offsetof_voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a9fbdc53aa2ae5681d67cefd78d08ae91" prot="protected" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>_offsetof_windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1ab1f8ad2c4cca1eb4d7f8eb12f2ea69f4" prot="protected" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>_offsetof_windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a07c2bfdf2a4eb2045f045a4de0989165" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>adaptivity</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1abee1b357c4fd4fec3cd3b3ddcd93b46d" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>adaptivity</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1ac92c61773ac173e3cf5f7b836796a9b7" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>fwn</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1ace8032f003d18a887560bf770f6cd4e9" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>fwn</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1aaa04832c28e916e1dfb83e5ec16ce47d" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>offsetA</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1ab722a4f6023539b76637002a7fae3c8c" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>offsetA</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a40103cda0d9b5938da3a56c2c45d9c31" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>offsetB</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1ae291bb5cfea2b6907b00339afda6efb7" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>offsetB</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a3ba7e7ac8ea911ff15301285f1345601" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a3ba7e7ac8ea911ff15301285f1345601" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a53ae29fe65a1dc5172b4407a4933f1b2" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a4d37e146f735968c7a61d3d025b37b02" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>progress</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1aa9840d319979d87496f28a3162824a95" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1af1887738283ec9e8b12cbc0de87e0c67" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>voxelSize</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a5ad21e06dfb2b1b3d3d5100094bb7ccb" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1af0cdb42069232d98fbbbd41dd7f3e1e4" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1ab7a0b4372a0564b8421996cc1409cb7c" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>windingNumberThreshold</name></member>
+      <member refid="classmrmeshpy_1_1DoubleOffsetSettings_1a5699ae1da4553b1dd3e9278094e3f7a0" prot="public" virt="non-virtual"><scope>mrmeshpy::DoubleOffsetSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

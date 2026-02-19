@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1ViewportGL" kind="class" language="C++" prot="public">
+    <compoundname>MR::ViewportGL</compoundname>
+    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <innerclass refid="structMR_1_1ViewportGL_1_1BasePickResult" prot="public">MR::ViewportGL::BasePickResult</innerclass>
+    <innerclass refid="structMR_1_1ViewportGL_1_1PickColor" prot="private">MR::ViewportGL::PickColor</innerclass>
+    <innerclass refid="structMR_1_1ViewportGL_1_1PickParameters" prot="public">MR::ViewportGL::PickParameters</innerclass>
+    <innerclass refid="structMR_1_1ViewportGL_1_1PickResult" prot="public">MR::ViewportGL::PickResult</innerclass>
+    <innerclass refid="structMR_1_1ViewportGL_1_1PickTextureFrameBuffer" prot="private">MR::ViewportGL::PickTextureFrameBuffer</innerclass>
+    <innerclass refid="structMR_1_1ViewportGL_1_1ScaledPickRes" prot="public">MR::ViewportGL::ScaledPickRes</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga2a8a6c6953f39b7763a83def4e9f8ba5" kind="typedef"><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1ga4324daf005894093aab00d0738fbd422" kind="typedef"><name>GLfloat</name></member>
+      <member refid="group__GeneralGroup_1ga79d22916ef4534d1503a4433e40d44c1" kind="typedef"><name>PickResults</name></member>
+      <member refid="group__GeneralGroup_1ga28aa3f7360b6d73987f11ccc02b6a51e" kind="typedef"><name>BasePickResults</name></member>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga77a98af21b7cb15783ac1ed8b145ee22" kind="variable"><name>pickFBO_</name></member>
+      <member refid="group__GeneralGroup_1ga3ea2173e27ce027283dcbe9567012cf9" kind="variable"><name>inited_</name></member>
+      <member refid="group__GeneralGroup_1ga15363f05b327573c2bc93ddc96b46392" kind="variable"><name>add_line_colors_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga10386b7151d8c096adff2162c92c465b" kind="variable"><name>add_line_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga29ef9c5ceb38273f6742c4e9e8b5c936" kind="variable"><name>add_line_vao</name></member>
+      <member refid="group__GeneralGroup_1gaafb385b637b90ffc6257b66c25bd6fdb" kind="variable"><name>add_point_colors_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga88127abdca1fd1dc6394a0389b60d682" kind="variable"><name>add_point_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga16d28853fd7897e1491a8f103c1f723a" kind="variable"><name>add_point_vao</name></member>
+      <member refid="group__GeneralGroup_1gad4d3acc4bae46e9f0610470a15a2b013" kind="variable"><name>border_line_vbo</name></member>
+      <member refid="group__GeneralGroup_1gad7129328029d1a9d8e0c0e0d11996028" kind="variable"><name>border_line_vao</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" kind="function"><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" kind="function"><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga16c05e1b059689d7bc4ed8d5e6673ac0" kind="function"><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga1540ae57916ae7af3244396a8443ff87" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga33a67bdad47aeacb17a644f0c65f53ec" kind="function"><name>~ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1gac2b114c03f1a2659e1e2eba7421c5aad" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1gaeb0e2182b6dc110fa0c6d0a45b199076" kind="function"><name>free</name></member>
+      <member refid="group__GeneralGroup_1gafccb2d900dfbc38ee4f10461bcc74539" kind="function"><name>drawBorder</name></member>
+      <member refid="group__GeneralGroup_1ga35ccca6814c2d2d405ce84f40381147c" kind="function"><name>fillViewport</name></member>
+      <member refid="group__GeneralGroup_1ga4b2f4b4002b1881eca93bde98fe86979" kind="function"><name>checkInit</name></member>
+      <member refid="group__GeneralGroup_1gabc105ddae2f4b963448775271221ed8f" kind="function"><name>pickObjects</name></member>
+      <member refid="group__GeneralGroup_1gafd079aa214c396ca3db1f0cdc83fb5d0" kind="function"><name>findUniqueObjectsInRect</name></member>
+      <member refid="group__GeneralGroup_1gafd238d185cc770e343e9fd80e4e1095a" kind="function"><name>pickObjectsInRect</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga57c6930ac8225ee8b4bd0727c3fc445c" kind="function"><name>pickObjectsInRect_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>This class holds data needed to render viewport primitives and accumulative picker via OpenGL. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="42" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="43" bodyend="141"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga15363f05b327573c2bc93ddc96b46392" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_colors_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga29ef9c5ceb38273f6742c4e9e8b5c936" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_vao</name></member>
+      <member refid="group__GeneralGroup_1ga10386b7151d8c096adff2162c92c465b" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_line_vbo</name></member>
+      <member refid="group__GeneralGroup_1gaafb385b637b90ffc6257b66c25bd6fdb" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_point_colors_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga16d28853fd7897e1491a8f103c1f723a" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_point_vao</name></member>
+      <member refid="group__GeneralGroup_1ga88127abdca1fd1dc6394a0389b60d682" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>add_point_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga28aa3f7360b6d73987f11ccc02b6a51e" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>BasePickResults</name></member>
+      <member refid="group__GeneralGroup_1gad7129328029d1a9d8e0c0e0d11996028" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>border_line_vao</name></member>
+      <member refid="group__GeneralGroup_1gad4d3acc4bae46e9f0610470a15a2b013" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>border_line_vbo</name></member>
+      <member refid="group__GeneralGroup_1ga4b2f4b4002b1881eca93bde98fe86979" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>checkInit</name></member>
+      <member refid="group__GeneralGroup_1gafccb2d900dfbc38ee4f10461bcc74539" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>drawBorder</name></member>
+      <member refid="group__GeneralGroup_1ga35ccca6814c2d2d405ce84f40381147c" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>fillViewport</name></member>
+      <member refid="group__GeneralGroup_1gafd079aa214c396ca3db1f0cdc83fb5d0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>findUniqueObjectsInRect</name></member>
+      <member refid="group__GeneralGroup_1gaeb0e2182b6dc110fa0c6d0a45b199076" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>free</name></member>
+      <member refid="group__GeneralGroup_1ga4324daf005894093aab00d0738fbd422" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>GLfloat</name></member>
+      <member refid="group__GeneralGroup_1ga2a8a6c6953f39b7763a83def4e9f8ba5" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>GLuint</name></member>
+      <member refid="group__GeneralGroup_1gac2b114c03f1a2659e1e2eba7421c5aad" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga3ea2173e27ce027283dcbe9567012cf9" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>inited_</name></member>
+      <member refid="group__GeneralGroup_1gaf6d0b135cd7ea98a92eac23f1bac3642" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga1540ae57916ae7af3244396a8443ff87" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga77a98af21b7cb15783ac1ed8b145ee22" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickFBO_</name></member>
+      <member refid="group__GeneralGroup_1gabc105ddae2f4b963448775271221ed8f" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickObjects</name></member>
+      <member refid="group__GeneralGroup_1gafd238d185cc770e343e9fd80e4e1095a" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickObjectsInRect</name></member>
+      <member refid="group__GeneralGroup_1ga57c6930ac8225ee8b4bd0727c3fc445c" prot="private" virt="non-virtual"><scope>MR::ViewportGL</scope><name>pickObjectsInRect_</name></member>
+      <member refid="group__GeneralGroup_1ga79d22916ef4534d1503a4433e40d44c1" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>PickResults</name></member>
+      <member refid="group__GeneralGroup_1ga97a437675447882da60c694f40cc9e56" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga376cf69e021d79c6a54e63168253e3c0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga16c05e1b059689d7bc4ed8d5e6673ac0" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>ViewportGL</name></member>
+      <member refid="group__GeneralGroup_1ga33a67bdad47aeacb17a644f0c65f53ec" prot="public" virt="non-virtual"><scope>MR::ViewportGL</scope><name>~ViewportGL</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

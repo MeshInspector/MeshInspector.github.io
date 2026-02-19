@@ -1,6 +1,9 @@
 var classMR_1_1Features =
 [
-    [ "SubfeatureFunc", "../Cpp/namespaceMR_1_1Features.html#a2f919d193c35478d40f28668b8d2d209", null ],
+    [ "MeasureResult", "classMR_1_1Features_1_1MeasureResult.html", "classMR_1_1Features_1_1MeasureResult" ],
+    [ "Primitives", "classMR_1_1Features_1_1Primitives.html", "classMR_1_1Features_1_1Primitives" ],
+    [ "SubfeatureInfo", "classMR_1_1Features_1_1SubfeatureInfo.html", "classMR_1_1Features_1_1SubfeatureInfo" ],
+    [ "Traits", "classMR_1_1Features_1_1Traits.html", "classMR_1_1Features_1_1Traits" ],
     [ "forEachSubfeature", "classMR_1_1Features.html#a1be92964efbd1d5655265f0386f2e126", null ],
     [ "measure", "classMR_1_1Features.html#a211bf0f45c7a84b3e46c4d04a7e6a1c5", null ],
     [ "name", "classMR_1_1Features.html#a249f3499e27b8268016045230e4f09b8", null ],

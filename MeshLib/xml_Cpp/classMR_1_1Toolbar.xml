@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1Toolbar" kind="class" language="C++" prot="public">
+    <compoundname>MR::Toolbar</compoundname>
+    <includes refid="MRToolbar_8h" local="no">MRToolbar.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga8922dc2087ac25c4fc88489926795b32" kind="variable"><name>ribbonMenu_</name></member>
+      <member refid="group__GeneralGroup_1ga796163c4756039c1728067f069c21036" kind="variable"><name>itemsList_</name></member>
+      <member refid="group__GeneralGroup_1gaa6fd7d8dfbf51637203e49ab5e650259" kind="variable"><name>itemsListCustomize_</name></member>
+      <member refid="group__GeneralGroup_1gad096226eb1fe0ef2ff86ecfd6b693954" kind="variable"><name>itemsListVersion_</name></member>
+      <member refid="group__GeneralGroup_1gaa3774f0acfb21257b25fed17a2337291" kind="variable"><name>itemsListMigrations_</name></member>
+      <member refid="group__GeneralGroup_1ga5c1c1d04ebe1a11e93ff0f6533fa62dc" kind="variable"><name>currentWidth_</name></member>
+      <member refid="group__GeneralGroup_1gabaecd9bc810dacfeeb2cf979252ba371" kind="variable"><name>dragDrop_</name></member>
+      <member refid="group__GeneralGroup_1ga300638127cd81c5d099b8a2ad3d3f100" kind="variable"><name>openCustomizeFlag_</name></member>
+      <member refid="group__GeneralGroup_1gaac941d198b6a18a82528912830209687" kind="variable"><name>customizeTabNum_</name></member>
+      <member refid="group__GeneralGroup_1ga10ab85ab716011a39322cbff5afe73ea" kind="variable"><name>searchString_</name></member>
+      <member refid="group__GeneralGroup_1ga8aeb15ed96e1f33eb43cb357dc9010d1" kind="variable"><name>searchResult_</name></member>
+      <member refid="group__GeneralGroup_1ga4b7c269c24aa917897153cc785480df0" kind="variable"><name>maxItemCount_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga3c6f2005020ccba3494b2feba5e534b1" kind="function"><name>setRibbonMenu</name></member>
+      <member refid="group__GeneralGroup_1ga113ff053c064e03de02b489c9b4a6f51" kind="function"><name>drawToolbar</name></member>
+      <member refid="group__GeneralGroup_1gaa2cd5db65529f0df909e6fbaed4df94d" kind="function"><name>getCurrentToolbarWidth</name></member>
+      <member refid="group__GeneralGroup_1ga3be49d3ddff1a47ec672a3509ded6799" kind="function"><name>openCustomize</name></member>
+      <member refid="group__GeneralGroup_1ga6ab437a7e4ad4cc655283f641e12083e" kind="function"><name>drawCustomize</name></member>
+      <member refid="group__GeneralGroup_1ga1030649854f67ba154e958d84f15e7bf" kind="function"><name>readItemsList</name></member>
+      <member refid="group__GeneralGroup_1gae935dc9511065eddce3faff0eb3fb93a" kind="function"><name>resetItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga5fae6ea02d2bff800289cb23d3a58ac7" kind="function"><name>getItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga0e4e8453ab0e559d6d3e4422019110f5" kind="function"><name>getItemsListVersion</name></member>
+      <member refid="group__GeneralGroup_1ga8cd2e212765ca42ea120fff0d4cd9a31" kind="function"><name>setItemsListVersion</name></member>
+      <member refid="group__GeneralGroup_1ga24ece620051dcd552679361dbf55ceeb" kind="function"><name>setItemsListMigrations</name></member>
+      <member refid="group__GeneralGroup_1ga914add34afdb7a807157d39de024b404" kind="function"><name>setMaxItemCount</name></member>
+      <member refid="group__GeneralGroup_1ga0ab66f347a644c7bf99dd4bd405b5489" kind="function"><name>getMaxItemCount</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga1da11cfb0cc507e46f5ef38917c44038" kind="function"><name>drawCustomizeModal_</name></member>
+      <member refid="group__GeneralGroup_1ga9eba4db823d5113cee38d33e4b8894ca" kind="function"><name>drawCustomizeTabsList_</name></member>
+      <member refid="group__GeneralGroup_1ga715c769de2217935d65b608690a95baa" kind="function"><name>drawCustomizeItemsList_</name></member>
+      <member refid="group__GeneralGroup_1ga6b0a49ef59cecbacb4704da6d6bb3e3d" kind="function"><name>dashedLine_</name></member>
+      <member refid="group__GeneralGroup_1ga57a672c47cdcafb5bd7a60d92911f32c" kind="function"><name>dashedRect_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class to draw toolbar and toolbar customize windows </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" line="23" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRToolbar.h" bodystart="24" bodyend="84"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga5c1c1d04ebe1a11e93ff0f6533fa62dc" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>currentWidth_</name></member>
+      <member refid="group__GeneralGroup_1gaac941d198b6a18a82528912830209687" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>customizeTabNum_</name></member>
+      <member refid="group__GeneralGroup_1ga6b0a49ef59cecbacb4704da6d6bb3e3d" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>dashedLine_</name></member>
+      <member refid="group__GeneralGroup_1ga57a672c47cdcafb5bd7a60d92911f32c" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>dashedRect_</name></member>
+      <member refid="group__GeneralGroup_1gabaecd9bc810dacfeeb2cf979252ba371" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>dragDrop_</name></member>
+      <member refid="group__GeneralGroup_1ga6ab437a7e4ad4cc655283f641e12083e" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawCustomize</name></member>
+      <member refid="group__GeneralGroup_1ga715c769de2217935d65b608690a95baa" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawCustomizeItemsList_</name></member>
+      <member refid="group__GeneralGroup_1ga1da11cfb0cc507e46f5ef38917c44038" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawCustomizeModal_</name></member>
+      <member refid="group__GeneralGroup_1ga9eba4db823d5113cee38d33e4b8894ca" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawCustomizeTabsList_</name></member>
+      <member refid="group__GeneralGroup_1ga113ff053c064e03de02b489c9b4a6f51" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>drawToolbar</name></member>
+      <member refid="group__GeneralGroup_1gaa2cd5db65529f0df909e6fbaed4df94d" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>getCurrentToolbarWidth</name></member>
+      <member refid="group__GeneralGroup_1ga5fae6ea02d2bff800289cb23d3a58ac7" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>getItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga0e4e8453ab0e559d6d3e4422019110f5" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>getItemsListVersion</name></member>
+      <member refid="group__GeneralGroup_1ga0ab66f347a644c7bf99dd4bd405b5489" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>getMaxItemCount</name></member>
+      <member refid="group__GeneralGroup_1ga796163c4756039c1728067f069c21036" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>itemsList_</name></member>
+      <member refid="group__GeneralGroup_1gaa6fd7d8dfbf51637203e49ab5e650259" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>itemsListCustomize_</name></member>
+      <member refid="group__GeneralGroup_1gaa3774f0acfb21257b25fed17a2337291" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>itemsListMigrations_</name></member>
+      <member refid="group__GeneralGroup_1gad096226eb1fe0ef2ff86ecfd6b693954" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>itemsListVersion_</name></member>
+      <member refid="group__GeneralGroup_1ga4b7c269c24aa917897153cc785480df0" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>maxItemCount_</name></member>
+      <member refid="group__GeneralGroup_1ga3be49d3ddff1a47ec672a3509ded6799" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>openCustomize</name></member>
+      <member refid="group__GeneralGroup_1ga300638127cd81c5d099b8a2ad3d3f100" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>openCustomizeFlag_</name></member>
+      <member refid="group__GeneralGroup_1ga1030649854f67ba154e958d84f15e7bf" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>readItemsList</name></member>
+      <member refid="group__GeneralGroup_1gae935dc9511065eddce3faff0eb3fb93a" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>resetItemsList</name></member>
+      <member refid="group__GeneralGroup_1ga8922dc2087ac25c4fc88489926795b32" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>ribbonMenu_</name></member>
+      <member refid="group__GeneralGroup_1ga8aeb15ed96e1f33eb43cb357dc9010d1" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>searchResult_</name></member>
+      <member refid="group__GeneralGroup_1ga10ab85ab716011a39322cbff5afe73ea" prot="private" virt="non-virtual"><scope>MR::Toolbar</scope><name>searchString_</name></member>
+      <member refid="group__GeneralGroup_1ga24ece620051dcd552679361dbf55ceeb" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>setItemsListMigrations</name></member>
+      <member refid="group__GeneralGroup_1ga8cd2e212765ca42ea120fff0d4cd9a31" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>setItemsListVersion</name></member>
+      <member refid="group__GeneralGroup_1ga914add34afdb7a807157d39de024b404" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>setMaxItemCount</name></member>
+      <member refid="group__GeneralGroup_1ga3c6f2005020ccba3494b2feba5e534b1" prot="public" virt="non-virtual"><scope>MR::Toolbar</scope><name>setRibbonMenu</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

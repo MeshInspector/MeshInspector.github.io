@@ -1,0 +1,244 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1ChangeSceneAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::ChangeSceneAction</compoundname>
+    <basecompoundref refid="classmrmeshpy_1_1HistoryAction" prot="public" virt="non-virtual">mrmeshpy.HistoryAction</basecompoundref>
+    <innerclass refid="classmrmeshpy_1_1ChangeSceneAction_1_1Type" prot="public">mrmeshpy::ChangeSceneAction::Type</innerclass>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneAction_1a8da73ec9e64e8437218223f733080773" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeSceneAction.__init__</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeSceneAction.__init__</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8953" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8953" bodyend="8954"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneAction_1a9d7ec3f0a2211ab16e93652d3b432d5b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeSceneAction" kindref="compound">ChangeSceneAction</ref></type>
+        <definition> ChangeSceneAction mrmeshpy.ChangeSceneAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeSceneAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8957" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8957" bodyend="8958"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneAction_1a9d7ec3f0a2211ab16e93652d3b432d5b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classmrmeshpy_1_1ChangeSceneAction" kindref="compound">ChangeSceneAction</ref></type>
+        <definition> ChangeSceneAction mrmeshpy.ChangeSceneAction.operator</definition>
+        <argsstring>(*args, **kwargs)</argsstring>
+        <name>operator</name>
+        <qualifiedname>mrmeshpy.ChangeSceneAction.operator</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1aa2253e78e401e2d32e5dd07fd773e0da">operator</reimplements>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8961" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8961" bodyend="8962"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneAction_1addbbe748e02ae2257925309281bfc996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeSceneAction.__init__</definition>
+        <argsstring>(self, str name, Object obj, ChangeSceneAction.Type type)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeSceneAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>str</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1Object" kindref="compound">Object</ref></type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeSceneAction_1_1Type" kindref="compound">ChangeSceneAction.Type</ref></type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Constructed before removal or addition
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8964" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8964" bodyend="8967"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneAction_1a023898fb9e46676c51a82df69a007fd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeSceneAction.__init__</definition>
+        <argsstring>(self, ChangeSceneAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.ChangeSceneAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1ChangeSceneAction" kindref="compound">ChangeSceneAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Implicit copy constructor.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8969" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8969" bodyend="8972"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneAction_1a93077eba908a224c9c36da64dab857ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.ChangeSceneAction.action</definition>
+        <argsstring>(self, HistoryAction.Type actionType)</argsstring>
+        <name>action</name>
+        <qualifiedname>mrmeshpy.ChangeSceneAction.action</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a2199dde1385a22cd938f9112386930a9">action</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1HistoryAction_1_1Type" kindref="compound">HistoryAction.Type</ref></type>
+          <declname>actionType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>This function is called on history action (undo, redo, etc.)
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8973" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8973" bodyend="8974"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneAction_1ac520e382f4f52e8d1e6bf1190a621dd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.ChangeSceneAction.heapBytes</definition>
+        <argsstring>(self)</argsstring>
+        <name>heapBytes</name>
+        <qualifiedname>mrmeshpy.ChangeSceneAction.heapBytes</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1a264e20dd6ab37f662580467faa52b10d">heapBytes</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>returns the amount of memory this object occupies on heap
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8975" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8975" bodyend="8976"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1ChangeSceneAction_1a232e82671c8b4ec80c0d3b401c352ddc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.ChangeSceneAction.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.ChangeSceneAction.name</qualifiedname>
+        <reimplements refid="classmrmeshpy_1_1HistoryAction_1ae7381d8eabc34dc5007f597956d64c2a">name</reimplements>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8977" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8977" bodyend="8978"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Generated from:  MR::ChangeSceneAction
+
+Change scene action
+</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeSceneAction</label>
+        <link refid="classmrmeshpy_1_1ChangeSceneAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.ChangeSceneAction</label>
+        <link refid="classmrmeshpy_1_1ChangeSceneAction"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>mrmeshpy.HistoryAction</label>
+        <link refid="classmrmeshpy_1_1HistoryAction"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="8908" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="8908" bodyend="8978"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1ChangeSceneAction_1a8da73ec9e64e8437218223f733080773" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSceneAction_1addbbe748e02ae2257925309281bfc996" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSceneAction_1a023898fb9e46676c51a82df69a007fd4" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSceneAction_1a93077eba908a224c9c36da64dab857ce" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneAction</scope><name>action</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSceneAction_1ac520e382f4f52e8d1e6bf1190a621dd3" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneAction</scope><name>heapBytes</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSceneAction_1a232e82671c8b4ec80c0d3b401c352ddc" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneAction</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSceneAction_1a9d7ec3f0a2211ab16e93652d3b432d5b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneAction</scope><name>operator</name></member>
+      <member refid="classmrmeshpy_1_1ChangeSceneAction_1a9d7ec3f0a2211ab16e93652d3b432d5b" prot="public" virt="non-virtual"><scope>mrmeshpy::ChangeSceneAction</scope><name>operator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -7,6 +7,10 @@ var classMR_1_1ConstBox__Matrix3d =
     [ "approximateLinearRotationMatrixFromEuler", "classMR_1_1ConstBox__Matrix3d.html#ad058f54e566d1598f2677803d429143b", null ],
     [ "col", "classMR_1_1ConstBox__Matrix3d.html#abba33464a94b0918a7aeaebd0ebfb111", null ],
     [ "det", "classMR_1_1ConstBox__Matrix3d.html#ac059e3699cf8b693ed9277da9e81a8d0", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Matrix3d.html#a4091f5f2b6649f91dec187484b9ba290", null ],
+    [ "Dispose", "classMR_1_1ConstBox__Matrix3d.html#aae20990b7bde4257d774d5bfe80003b9", null ],
+    [ "Equals", "classMR_1_1ConstBox__Matrix3d.html#a87ec3910dada328fd558f393446070a5", null ],
+    [ "Equals", "classMR_1_1ConstBox__Matrix3d.html#adc245a6d2e1d5116fed9154dc02d6349", null ],
     [ "fromColumns", "classMR_1_1ConstBox__Matrix3d.html#a157fe4eae2400b3254b1ee0986871f67", null ],
     [ "fromRows", "classMR_1_1ConstBox__Matrix3d.html#aec9303d2a41169cd7349b8ddbe2d20e9", null ],
     [ "identity", "classMR_1_1ConstBox__Matrix3d.html#a119d99991d36c6dbbdd5fbfe98fbaaf6", null ],
@@ -14,6 +18,7 @@ var classMR_1_1ConstBox__Matrix3d =
     [ "norm", "classMR_1_1ConstBox__Matrix3d.html#a537d552903f359d324e53679d9afa649", null ],
     [ "normSq", "classMR_1_1ConstBox__Matrix3d.html#aede2f9e2d5f5691d214f97b992b4b32a", null ],
     [ "operator ConstBox_Matrix3d", "classMR_1_1ConstBox__Matrix3d.html#a924fd9d50e64f07052f08528289cf8e9", null ],
+    [ "operator!=", "classMR_1_1ConstBox__Matrix3d.html#ad342fc08eef68f5fe673507db9530e9c", null ],
     [ "operator*", "classMR_1_1ConstBox__Matrix3d.html#a820bca35e32871e27adfbe77dc78ac90", null ],
     [ "operator*", "classMR_1_1ConstBox__Matrix3d.html#a4d9de71b14d421c2439808b16eb86557", null ],
     [ "operator*", "classMR_1_1ConstBox__Matrix3d.html#a2fd1b98c0f390dbbf28f245c42d944a8", null ],
@@ -33,7 +38,8 @@ var classMR_1_1ConstBox__Matrix3d =
     [ "trace", "classMR_1_1ConstBox__Matrix3d.html#ac2de6155a12d6e191c99460f0dfc95bb", null ],
     [ "transposed", "classMR_1_1ConstBox__Matrix3d.html#a9060b9f66152086a9bdcbdab62f35b53", null ],
     [ "zero", "classMR_1_1ConstBox__Matrix3d.html#a994fcfc41fa618f97cd334e83b2913ba", null ],
-    [ "_Ref", "classMR_1_1ConstBox__Matrix3d.html#a5878ba5aad89cbb26c3a2b7fb7cc5fec", null ],
     [ "this[int row]", "classMR_1_1ConstBox__Matrix3d.html#a5a97205e7da0a1037ae804b3985cfa1a", null ],
-    [ "x", "classMR_1_1ConstBox__Matrix3d.html#a3ec0a5e2aafd08d15422746b19105d4f", null ]
+    [ "x", "classMR_1_1ConstBox__Matrix3d.html#a3ec0a5e2aafd08d15422746b19105d4f", null ],
+    [ "y", "classMR_1_1ConstBox__Matrix3d.html#a5d1f4a3e2f12d64c7a11fba8f7993aea", null ],
+    [ "z", "classMR_1_1ConstBox__Matrix3d.html#aed581a61d065923e9dd9c2be55e432f6", null ]
 ];

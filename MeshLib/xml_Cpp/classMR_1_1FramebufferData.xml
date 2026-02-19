@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1FramebufferData" kind="class" language="C++" prot="public">
+    <compoundname>MR::FramebufferData</compoundname>
+    <includes refid="MRRenderGLHelpers_8h" local="no">MRRenderGLHelpers.h</includes>
+    <innerclass refid="structMR_1_1FramebufferData_1_1DrawParams" prot="public">MR::FramebufferData::DrawParams</innerclass>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga84328144fb173ad6c742e1664ace86e0" kind="variable"><name>isBound_</name></member>
+      <member refid="group__GeneralGroup_1gae815e5c7212be0705a58067b4025f1c8" kind="variable"><name>highPrecisionDepth_</name></member>
+      <member refid="group__GeneralGroup_1gac4fdc2cab3c10edd51dde7d3bc9b7a2f" kind="variable"><name>mainFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga9dc1e167fb77338d607ed46709e62555" kind="variable"><name>colorRenderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga58ecfd24e2bcd32c9b37ae5e5ddb6d72" kind="variable"><name>depthRenderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8100cc3b647e250786400309a158eb25" kind="variable"><name>copyFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaef8aa95c15c526bae8718e4f43a5f978" kind="variable"><name>resColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga0d98e266fad1e800484b8b462e9a080b" kind="variable"><name>resDepthTexture_</name></member>
+      <member refid="group__GeneralGroup_1gac63083bb4dab9533fb6e0602354cc827" kind="variable"><name>size_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga0e6cc8cca8e2d3918f94804fd7f763da" kind="function"><name>gen</name></member>
+      <member refid="group__GeneralGroup_1gad2726c3c7d077c2aa9ac9dc5944d2f6e" kind="function"><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga3c09cab97e4bdd21875667bbbb9338ce" kind="function"><name>bindDefault</name></member>
+      <member refid="group__GeneralGroup_1ga6d1e7eba4bf0695396f4dc0f846162a4" kind="function"><name>bindTexture</name></member>
+      <member refid="group__GeneralGroup_1ga5e89aff5db92583727297ab9f6f71124" kind="function"><name>copyTextureBindDef</name></member>
+      <member refid="group__GeneralGroup_1gafd64093c7c72fb36807eaf3b9baa59e2" kind="function"><name>del</name></member>
+      <member refid="group__GeneralGroup_1ga4f554722ab0b107b3ec2afa38e43460d" kind="function"><name>getColorTexture</name></member>
+      <member refid="group__GeneralGroup_1ga8079592aa54b067ee0a8c529a5bb8ef3" kind="function"><name>getDepthTexture</name></member>
+      <member refid="group__GeneralGroup_1ga89877d47c22c4dda2ae1bcd9ec9923c5" kind="function"><name>getSize</name></member>
+      <member refid="group__GeneralGroup_1ga69af9841e2e06066fbdea51d15b5d1e6" kind="function"><name>isBound</name></member>
+      <member refid="group__GeneralGroup_1ga3f258c7466ad99ae83795462fbbbf03f" kind="function"><name>draw</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1ga1819ee0a738c09d92cb758253b44ee60" kind="function"><name>resize_</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>class for easier rendering in framebuffer texture </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" line="216" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderGLHelpers.h" bodystart="217" bodyend="267"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gad2726c3c7d077c2aa9ac9dc5944d2f6e" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bind</name></member>
+      <member refid="group__GeneralGroup_1ga3c09cab97e4bdd21875667bbbb9338ce" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bindDefault</name></member>
+      <member refid="group__GeneralGroup_1ga6d1e7eba4bf0695396f4dc0f846162a4" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>bindTexture</name></member>
+      <member refid="group__GeneralGroup_1ga9dc1e167fb77338d607ed46709e62555" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>colorRenderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga8100cc3b647e250786400309a158eb25" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>copyFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga5e89aff5db92583727297ab9f6f71124" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>copyTextureBindDef</name></member>
+      <member refid="group__GeneralGroup_1gafd64093c7c72fb36807eaf3b9baa59e2" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>del</name></member>
+      <member refid="group__GeneralGroup_1ga58ecfd24e2bcd32c9b37ae5e5ddb6d72" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>depthRenderbuffer_</name></member>
+      <member refid="group__GeneralGroup_1ga3f258c7466ad99ae83795462fbbbf03f" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>draw</name></member>
+      <member refid="group__GeneralGroup_1ga0e6cc8cca8e2d3918f94804fd7f763da" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>gen</name></member>
+      <member refid="group__GeneralGroup_1ga4f554722ab0b107b3ec2afa38e43460d" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>getColorTexture</name></member>
+      <member refid="group__GeneralGroup_1ga8079592aa54b067ee0a8c529a5bb8ef3" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>getDepthTexture</name></member>
+      <member refid="group__GeneralGroup_1ga89877d47c22c4dda2ae1bcd9ec9923c5" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>getSize</name></member>
+      <member refid="group__GeneralGroup_1gae815e5c7212be0705a58067b4025f1c8" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>highPrecisionDepth_</name></member>
+      <member refid="group__GeneralGroup_1ga69af9841e2e06066fbdea51d15b5d1e6" prot="public" virt="non-virtual"><scope>MR::FramebufferData</scope><name>isBound</name></member>
+      <member refid="group__GeneralGroup_1ga84328144fb173ad6c742e1664ace86e0" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>isBound_</name></member>
+      <member refid="group__GeneralGroup_1gac4fdc2cab3c10edd51dde7d3bc9b7a2f" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>mainFramebuffer_</name></member>
+      <member refid="group__GeneralGroup_1gaef8aa95c15c526bae8718e4f43a5f978" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>resColorTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga0d98e266fad1e800484b8b462e9a080b" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>resDepthTexture_</name></member>
+      <member refid="group__GeneralGroup_1ga1819ee0a738c09d92cb758253b44ee60" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>resize_</name></member>
+      <member refid="group__GeneralGroup_1gac63083bb4dab9533fb6e0602354cc827" prot="private" virt="non-virtual"><scope>MR::FramebufferData</scope><name>size_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

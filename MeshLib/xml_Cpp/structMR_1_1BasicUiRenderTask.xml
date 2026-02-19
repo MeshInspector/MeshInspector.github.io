@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1BasicUiRenderTask" kind="struct" language="C++" prot="public" abstract="yes">
+    <compoundname>MR::BasicUiRenderTask</compoundname>
+    <derivedcompoundref refid="classMR_1_1BasicClickableRectUiRenderTask" prot="public" virt="non-virtual">MR::BasicClickableRectUiRenderTask</derivedcompoundref>
+    <derivedcompoundref refid="classMR_1_1UI_1_1NonOverlappingLabelTask" prot="public" virt="non-virtual">MR::UI::NonOverlappingLabelTask</derivedcompoundref>
+    <includes refid="MRIRenderObject_8h" local="no">MRIRenderObject.h</includes>
+    <innerclass refid="structMR_1_1BasicUiRenderTask_1_1BackwardPassParams" prot="public">MR::BasicUiRenderTask::BackwardPassParams</innerclass>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" kind="enum"><name>InteractionMask</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga381d7376f63599633389b7ff83ded538" kind="variable"><name>renderTaskDepth</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gaa45e39c8e875d9033360ff63d3f750f4" kind="function"><name>~BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga09fdc1e47a7a92974a945bfcc98be400" kind="function"><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga25c71025ea06023cb9d2007b8d3908a3" kind="function"><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga7a289817074d4a9c546aca337082d21b" kind="function"><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga0f482dbbdc6658514696e4dc9294a58a" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gae03db3414263164b9321a4ed5d41838a" kind="function"><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga269508abb07dd29213d99aada7db6d5e" kind="function"><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1ga0e70a7984fb642613e50942b4f53c724" kind="function"><name>renderPass</name></member>
+    </sectiondef>
+    <briefdescription>
+<para><computeroutput><ref refid="group__GeneralGroup_1ga82fb37eb78d6e11f1b41f3fc2a99c5eb" kindref="member">IRenderObject::renderUi()</ref></computeroutput> can emit zero or more or more of those tasks. They are sorted by depth every frame. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MR::BasicClickableRectUiRenderTask</label>
+        <link refid="classMR_1_1BasicClickableRectUiRenderTask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MR::BasicUiRenderTask</label>
+        <link refid="structMR_1_1BasicUiRenderTask"/>
+      </node>
+      <node id="3">
+        <label>MR::RenderDimensions::AngleTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1AngleTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::RenderDimensions::LengthTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1LengthTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MR::RenderDimensions::PointTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1PointTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>MR::RenderDimensions::RadiusTask</label>
+        <link refid="classMR_1_1RenderDimensions_1_1RadiusTask"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MR::UI::NonOverlappingLabelTask</label>
+        <link refid="classMR_1_1UI_1_1NonOverlappingLabelTask"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" line="63" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRIRenderObject.h" bodystart="64" bodyend="107"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga09fdc1e47a7a92974a945bfcc98be400" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga25c71025ea06023cb9d2007b8d3908a3" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga7a289817074d4a9c546aca337082d21b" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>BasicUiRenderTask</name></member>
+      <member refid="group__GeneralGroup_1ga269508abb07dd29213d99aada7db6d5e" prot="public" virt="virtual"><scope>MR::BasicUiRenderTask</scope><name>earlyBackwardPass</name></member>
+      <member refid="group__GeneralGroup_1gab4d07ed1576fec164c6c0308c3cbbb3d" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>InteractionMask</name></member>
+      <member refid="group__GeneralGroup_1ga0f482dbbdc6658514696e4dc9294a58a" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1gae03db3414263164b9321a4ed5d41838a" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>operator=</name></member>
+      <member refid="group__GeneralGroup_1ga0e70a7984fb642613e50942b4f53c724" prot="public" virt="pure-virtual"><scope>MR::BasicUiRenderTask</scope><name>renderPass</name></member>
+      <member refid="group__GeneralGroup_1ga381d7376f63599633389b7ff83ded538" prot="public" virt="non-virtual"><scope>MR::BasicUiRenderTask</scope><name>renderTaskDepth</name></member>
+      <member refid="group__GeneralGroup_1gaa45e39c8e875d9033360ff63d3f750f4" prot="public" virt="virtual"><scope>MR::BasicUiRenderTask</scope><name>~BasicUiRenderTask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

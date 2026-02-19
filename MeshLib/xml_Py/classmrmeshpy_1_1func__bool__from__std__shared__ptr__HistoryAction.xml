@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</compoundname>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a4437f429b2f11917b1c501661065e1b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__bool__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__bool__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__bool__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76135" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76135" bodyend="76136"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a0724ec516f4500e3135eee2b44956676" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__call__</definition>
+        <argsstring>(self, HistoryAction arg0)</argsstring>
+        <name>__call__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__call__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1HistoryAction" kindref="compound">HistoryAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76137" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76137" bodyend="76138"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a7a73ad74cadc1daa23c4289a8132f9ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76140" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76140" bodyend="76141"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1ac7646eec7c24f4b0ee7d342f044b44eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__init__</definition>
+        <argsstring>(self, None arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>None</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76143" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76143" bodyend="76144"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a6e2b5ee13a879f9671ad0b6dc6e61192" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__init__</definition>
+        <argsstring>(self, func_bool_from_std_shared_ptr_HistoryAction arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type><ref refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction" kindref="compound">func_bool_from_std_shared_ptr_HistoryAction</ref></type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76146" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76146" bodyend="76147"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a9071687b7ea31b99eef1bb4f17fb5b77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__init__</definition>
+        <argsstring>(self, typing.Callable[[HistoryAction], bool] arg0)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.</type>
+          <declname>Callable</declname>
+          <defname>arg0</defname>
+          <array>[[HistoryAction]</array>
+        </param>
+        <param>
+          <type>bool]</type>
+          <declname>arg0</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76149" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76149" bodyend="76150"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a9f33160d742f7c083d0e505a15c6e076" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.can_be_created_from_python</definition>
+        <argsstring>(self)</argsstring>
+        <name>can_be_created_from_python</name>
+        <qualifiedname>mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.can_be_created_from_python</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>If false, this function type can&apos;t hold a Python function, and can only be created from C++.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76151" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76151" bodyend="76154"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1ade4eec3bb53123f2dec23f48591aa9bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.holds_cpp_function</definition>
+        <argsstring>(self)</argsstring>
+        <name>holds_cpp_function</name>
+        <qualifiedname>mrmeshpy.func_bool_from_std_shared_ptr_HistoryAction.holds_cpp_function</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Does this object currentlyhold a C++ function? As opposed to a Python one.
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76155" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76155" bodyend="76158"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="76134" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="76134" bodyend="76158"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a4437f429b2f11917b1c501661065e1b2" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</scope><name>__bool__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a0724ec516f4500e3135eee2b44956676" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</scope><name>__call__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a7a73ad74cadc1daa23c4289a8132f9ca" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1ac7646eec7c24f4b0ee7d342f044b44eb" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a6e2b5ee13a879f9671ad0b6dc6e61192" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a9071687b7ea31b99eef1bb4f17fb5b77" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1a9f33160d742f7c083d0e505a15c6e076" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</scope><name>can_be_created_from_python</name></member>
+      <member refid="classmrmeshpy_1_1func__bool__from__std__shared__ptr__HistoryAction_1ade4eec3bb53123f2dec23f48591aa9bf" prot="public" virt="non-virtual"><scope>mrmeshpy::func_bool_from_std_shared_ptr_HistoryAction</scope><name>holds_cpp_function</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

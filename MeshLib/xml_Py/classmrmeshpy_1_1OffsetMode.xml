@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1OffsetMode" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::OffsetMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetMode_1ad4827c76357d3b7bf1ddf43a82837765" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetMode::Sharpening</definition>
+        <argsstring></argsstring>
+        <name>Sharpening</name>
+        <qualifiedname>mrmeshpy.OffsetMode.Sharpening</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OffsetMode" kindref="compound">OffsetMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41549" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41549" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetMode_1a307e3d6835d19e72643d4cb0d234348b" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetMode::Smooth</definition>
+        <argsstring></argsstring>
+        <name>Smooth</name>
+        <qualifiedname>mrmeshpy.OffsetMode.Smooth</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OffsetMode" kindref="compound">OffsetMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41550" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41550" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetMode_1ace6465681178a9565e9eac4ea51e0b48" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetMode::Standard</definition>
+        <argsstring></argsstring>
+        <name>Standard</name>
+        <qualifiedname>mrmeshpy.OffsetMode.Standard</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1OffsetMode" kindref="compound">OffsetMode</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41551" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41551" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1OffsetMode_1af87b7dd996d052b2f0d76bcb349dab63" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.OffsetMode::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1OffsetMode" kindref="compound">OffsetMode</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41552" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41552" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a2db9779b64e91bfc7a498b33b89091c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OffsetMode.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41553" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41553" bodyend="41554"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1aff9190c69e4b1dda4c3578f1f5fe5a67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetMode.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41555" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41555" bodyend="41556"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a09fcae6346e556b37ef2249db430468d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetMode.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41557" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41557" bodyend="41558"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a65ec406c494f06282eea31dc7c2b8f82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetMode.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41559" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41559" bodyend="41560"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a99bb5fc99e219ef7ca5fcc2e99e111b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetMode.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41561" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41561" bodyend="41562"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a7ccc80947fc4aa3942cf6d2e9a80b7fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetMode.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41563" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41563" bodyend="41564"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a912000b631bb2f789b39ab226c071c37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.OffsetMode.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41565" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41565" bodyend="41566"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a5fc5787ffac2d9a7851628666b57cbf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OffsetMode.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41567" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41567" bodyend="41568"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a530d9a844ca2e57a4883e0bc3e46a84b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.OffsetMode.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41569" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41569" bodyend="41570"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a90aa6777fee4e418a05bece7d5f71fd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OffsetMode.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.OffsetMode.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41571" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41571" bodyend="41572"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1abbe4025099bd45ae1c71c9f377490795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.OffsetMode.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.OffsetMode.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41574" bodyend="41575"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1OffsetMode_1a54c7b853bdf3e9553ff2f8c5718d8dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.OffsetMode.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.OffsetMode.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41577" bodyend="41578"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  Smooth : create mesh using dual marching cubes from OpenVDB library
+
+  Standard : create mesh using standard marching cubes implemented in MeshLib
+
+  Sharpening : create mesh using standard marching cubes with additional sharpening implemented in MeshLib
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.OffsetMode</label>
+        <link refid="classmrmeshpy_1_1OffsetMode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Sharpening</edgelabel>
+          <edgelabel>Smooth</edgelabel>
+          <edgelabel>Standard</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="41539" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="41539" bodyend="41578"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a2db9779b64e91bfc7a498b33b89091c9" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1aff9190c69e4b1dda4c3578f1f5fe5a67" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a09fcae6346e556b37ef2249db430468d" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a65ec406c494f06282eea31dc7c2b8f82" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a99bb5fc99e219ef7ca5fcc2e99e111b9" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a7ccc80947fc4aa3942cf6d2e9a80b7fb" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1af87b7dd996d052b2f0d76bcb349dab63" prot="private" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a912000b631bb2f789b39ab226c071c37" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a5fc5787ffac2d9a7851628666b57cbf6" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a530d9a844ca2e57a4883e0bc3e46a84b" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a90aa6777fee4e418a05bece7d5f71fd3" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1abbe4025099bd45ae1c71c9f377490795" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1ad4827c76357d3b7bf1ddf43a82837765" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>Sharpening</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a307e3d6835d19e72643d4cb0d234348b" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>Smooth</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1ace6465681178a9565e9eac4ea51e0b48" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>Standard</name></member>
+      <member refid="classmrmeshpy_1_1OffsetMode_1a54c7b853bdf3e9553ff2f8c5718d8dbc" prot="public" virt="non-virtual"><scope>mrmeshpy::OffsetMode</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

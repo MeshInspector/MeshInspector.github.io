@@ -1,0 +1,1258 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRUnitInfo_8h" kind="file" language="C++">
+    <compoundname>MRUnitInfo.h</compoundname>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stddef.h</includes>
+    <includedby refid="MRCtm_8h" local="no">MRCtm.h</includedby>
+    <includedby refid="MRLoadedObjects_8h" local="no">MRLoadedObjects.h</includedby>
+    <includedby refid="MRObjectSaveSettings_8h" local="no">MRObjectSaveSettings.h</includedby>
+    <includedby refid="MRSaveSettings_8h" local="no">MRSaveSettings.h</includedby>
+    <includedby refid="MRSceneLoad_8h" local="no">MRSceneLoad.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>MRUnitInfo.h</label>
+        <link refid="MRUnitInfo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="3">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>MRCtm.h</label>
+        <link refid="MRCtm_8h"/>
+      </node>
+      <node id="3">
+        <label>MRLoadedObjects.h</label>
+        <link refid="MRLoadedObjects_8h"/>
+      </node>
+      <node id="4">
+        <label>MRObjectSaveSettings.h</label>
+        <link refid="MRObjectSaveSettings_8h"/>
+      </node>
+      <node id="5">
+        <label>MRSaveSettings.h</label>
+        <link refid="MRSaveSettings_8h"/>
+      </node>
+      <node id="6">
+        <label>MRSceneLoad.h</label>
+        <link refid="MRSceneLoad_8h"/>
+      </node>
+      <node id="1">
+        <label>MRUnitInfo.h</label>
+        <link refid="MRUnitInfo_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MRUnitInfo_8h_1a33f2ca44eae2a7feebc1dd635540e4f1" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_NoUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1a33f2ca44eae2a7feebc1dd635540e4f1aa4b04e4edd2cc7174b2ec611088d0ced" prot="public">
+          <name>MR_NoUnit__count</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="15" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_LengthUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbcea9a3246fb48801481d51632b899f0567a" prot="public">
+          <name>MR_LengthUnit_microns</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbcea8706c9920951b700454c87b4c8167f30" prot="public">
+          <name>MR_LengthUnit_millimeters</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceaaf91930a854a11c53479d1c1d910b8b1" prot="public">
+          <name>MR_LengthUnit_centimeters</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceadac4a58652523c2686dbb2c4556a071f" prot="public">
+          <name>MR_LengthUnit_meters</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceacd2454bb637558c9b92d189bbf8d4498" prot="public">
+          <name>MR_LengthUnit_inches</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceabdaf26b54f04a2807791ab88a0fdbce3" prot="public">
+          <name>MR_LengthUnit_feet</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbcea7ab4dad658e26569616f2e64c8383567" prot="public">
+          <name>MR_LengthUnit__count</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="22" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_AngleUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934af696e0ed15ff128a7c14c14e426e916d" prot="public">
+          <name>MR_AngleUnit_radians</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934a939c158956aff9bbe6032850608bed31" prot="public">
+          <name>MR_AngleUnit_degrees</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934afbec17d8f5ad0e0fbd07cdd4fcb7c540" prot="public">
+          <name>MR_AngleUnit__count</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="33" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_PixelSizeUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71a7182be21ac05dbbbb131b4a8761cd878" prot="public">
+          <name>MR_PixelSizeUnit_pixels</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71a3bd6fa132b509277802ada6bf21223b1" prot="public">
+          <name>MR_PixelSizeUnit__count</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="41" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="42" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653b" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_RatioUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653ba6a08225a702b7b6507700fa2db9b373a" prot="public">
+          <name>MR_RatioUnit_factor</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653ba4fea16f6f416d87f41ff6932403fbece" prot="public">
+          <name>MR_RatioUnit_percents</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653baf8a98eef9dbb49971a64416599eda5b7" prot="public">
+          <name>MR_RatioUnit__count</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="48" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="49" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_TimeUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089aee99186e015c29c268fd0ba784029f72" prot="public">
+          <name>MR_TimeUnit_seconds</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089a1f20dc40384b24ec9b4071a3dfcd3f2a" prot="public">
+          <name>MR_TimeUnit_milliseconds</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089a38c32ccb871ae93194841c10ebab08ba" prot="public">
+          <name>MR_TimeUnit__count</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="58" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="59" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5b" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_MovementSpeedUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5babf713c97b2d3eac1b7af1e389cdf73fe" prot="public">
+          <name>MR_MovementSpeedUnit_micronsPerSecond</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5bae58a5b53d15f237c58c72c64051c36c8" prot="public">
+          <name>MR_MovementSpeedUnit_millimetersPerSecond</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5baed6a97e9adbc43f45f05be24ae796df6" prot="public">
+          <name>MR_MovementSpeedUnit_centimetersPerSecond</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5ba33ca884e79f720172a4363787e6dec22" prot="public">
+          <name>MR_MovementSpeedUnit_metersPerSecond</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5baa5bc72e17e713a11a1ab51bd30df92e7" prot="public">
+          <name>MR_MovementSpeedUnit_inchesPerSecond</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5ba5c05e99633fad54b6262d3efa6b29a49" prot="public">
+          <name>MR_MovementSpeedUnit_feetPerSecond</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5ba97126e0cb8cc458a5fc7b668951f5ec2" prot="public">
+          <name>MR_MovementSpeedUnit__count</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="66" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="67" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_AreaUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a5b90dab5a3ff6c168f40f9cf97666d0c" prot="public">
+          <name>MR_AreaUnit_microns2</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a462f753f4978ee99966a03c7a490646e" prot="public">
+          <name>MR_AreaUnit_millimeters2</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749ad6bf665374939f238b29b81e9b33804a" prot="public">
+          <name>MR_AreaUnit_centimeters2</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a48c9ada65e59c44710f2a00ea0a51f69" prot="public">
+          <name>MR_AreaUnit_meters2</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a2a470f951d1401b9d39e03dac9f5e359" prot="public">
+          <name>MR_AreaUnit_inches2</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a755235179cf348c576fe14a1604ac20c" prot="public">
+          <name>MR_AreaUnit_feet2</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a48bad17e656db0c6b13d0106c5605b14" prot="public">
+          <name>MR_AreaUnit__count</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="78" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="79" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_VolumeUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a191ca0a2da9156f781e839b7511c0830" prot="public">
+          <name>MR_VolumeUnit_microns3</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a9839e0f88690e40fb9367376742ee61d" prot="public">
+          <name>MR_VolumeUnit_millimeters3</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a2750fc96fcb0d901bc28ee67630a59b2" prot="public">
+          <name>MR_VolumeUnit_centimeters3</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a9fd3a6ca2af0337c4431681887854642" prot="public">
+          <name>MR_VolumeUnit_meters3</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289ac625697279b847c806d46f6369ea5f23" prot="public">
+          <name>MR_VolumeUnit_inches3</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a8dcccd0185e2e4d20a3da8cdaa5821fe" prot="public">
+          <name>MR_VolumeUnit_feet3</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a6748e2164bfe9846c6b1ed42c2731c5b" prot="public">
+          <name>MR_VolumeUnit__count</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="90" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="91" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="enum" id="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>MR_InvLengthUnit</name>
+        <enumvalue id="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a2db728a105ed57962f6c7de1bcd5c858" prot="public">
+          <name>MR_InvLengthUnit_inv_microns</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a6d09d36b4a1643dcf6b27d64c6255af2" prot="public">
+          <name>MR_InvLengthUnit_inv_millimeters</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a58803942a6f289f7b23228c4f0478f1a" prot="public">
+          <name>MR_InvLengthUnit_inv_centimeters</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a718eca28eb873cffe2dbbedc07dee94c" prot="public">
+          <name>MR_InvLengthUnit_inv_meters</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a03d1ec0d5cfc208871d36ef7860cabe5" prot="public">
+          <name>MR_InvLengthUnit_inv_inches</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9abd73ec55dd6ec38c8c108f6f011643a3" prot="public">
+          <name>MR_InvLengthUnit_inv_feet</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a01409c68015edda60d1f65d4c0490d4c" prot="public">
+          <name>MR_InvLengthUnit__count</name>
+          <initializer>= 6</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="102" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="103" bodyend="111"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref></type>
+        <definition>typedef struct MR_std_string_view MR_std_string_view</definition>
+        <argsstring></argsstring>
+        <name>MR_std_string_view</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="11" column="33" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a2ac997f72ec53f0e0ab4aec46e5b33d4" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1a33f2ca44eae2a7feebc1dd635540e4f1" kindref="member">MR_NoUnit</ref></type>
+        <definition>typedef enum MR_NoUnit MR_NoUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_NoUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="18" column="11"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a5184c4a1781e0c7356e315b5b3ab599f" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref></type>
+        <definition>typedef enum MR_LengthUnit MR_LengthUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_LengthUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="30" column="15"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a3961d651b57aefac22766185001dc43e" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934" kindref="member">MR_AngleUnit</ref></type>
+        <definition>typedef enum MR_AngleUnit MR_AngleUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_AngleUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="38" column="14"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1ae97dd5994fd2209865ef10d990c10cbd" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71" kindref="member">MR_PixelSizeUnit</ref></type>
+        <definition>typedef enum MR_PixelSizeUnit MR_PixelSizeUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_PixelSizeUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="45" column="18"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a3b4848ed5450da748c7658e6802aa2e8" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653b" kindref="member">MR_RatioUnit</ref></type>
+        <definition>typedef enum MR_RatioUnit MR_RatioUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_RatioUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="55" column="14"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a280579a12a2681bcaab2e73755bf3393" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089" kindref="member">MR_TimeUnit</ref></type>
+        <definition>typedef enum MR_TimeUnit MR_TimeUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_TimeUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="63" column="13"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a6d272d23d17e48633e49085aabf89bcb" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5b" kindref="member">MR_MovementSpeedUnit</ref></type>
+        <definition>typedef enum MR_MovementSpeedUnit MR_MovementSpeedUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_MovementSpeedUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="75" column="22"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a82a322ea6124ccce3110d0ff8dc9e655" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749" kindref="member">MR_AreaUnit</ref></type>
+        <definition>typedef enum MR_AreaUnit MR_AreaUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_AreaUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="87" column="13"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1ac7cf53f4557ea0b9cd073c65b2da4477" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289" kindref="member">MR_VolumeUnit</ref></type>
+        <definition>typedef enum MR_VolumeUnit MR_VolumeUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_VolumeUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="99" column="15"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a480e2a8da7aae16c0ea95d186ff3676d" prot="public" static="no">
+        <type>enum <ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9" kindref="member">MR_InvLengthUnit</ref></type>
+        <definition>typedef enum MR_InvLengthUnit MR_InvLengthUnit</definition>
+        <argsstring></argsstring>
+        <name>MR_InvLengthUnit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="111" column="18"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" prot="public" static="no">
+        <type>struct <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref></type>
+        <definition>typedef struct MR_UnitInfo MR_UnitInfo</definition>
+        <argsstring></argsstring>
+        <name>MR_UnitInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from class <computeroutput>MR::UnitInfo</computeroutput>. Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="116" column="26" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRUnitInfo_8h_1a4b9f96709edc6149c350a58a203eec56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const float *</type>
+        <definition>MRC_API const float * MR_UnitInfo_Get_conversionFactor</definition>
+        <argsstring>(const MR_UnitInfo *_this)</argsstring>
+        <name>MR_UnitInfo_Get_conversionFactor</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>conversionFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="124" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="124" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1a3a86cea8e056f408b842083836126646" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnitInfo_Set_conversionFactor</definition>
+        <argsstring>(MR_UnitInfo *_this, float value)</argsstring>
+        <name>MR_UnitInfo_Set_conversionFactor</name>
+        <param>
+          <type><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>conversionFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. When this function is called, this object will drop object references it had previously in <computeroutput>conversionFactor</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="131" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="131" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1aa7e618eee8ad2a08658850a3fcd3c793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API float *</type>
+        <definition>MRC_API float * MR_UnitInfo_GetMutable_conversionFactor</definition>
+        <argsstring>(MR_UnitInfo *_this)</argsstring>
+        <name>MR_UnitInfo_GetMutable_conversionFactor</name>
+        <param>
+          <type><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>conversionFactor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="139" column="15" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="139" declcolumn="15"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1aaaceefb3bb813ee3dec2e11b720a863d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API const MR_std_string_view * MR_UnitInfo_Get_prettyName</definition>
+        <argsstring>(const MR_UnitInfo *_this)</argsstring>
+        <name>MR_UnitInfo_Get_prettyName</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>prettyName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="145" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="145" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1a472c5df9422848694ebc46129840ce62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnitInfo_Set_prettyName</definition>
+        <argsstring>(MR_UnitInfo *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_UnitInfo_Set_prettyName</name>
+        <param>
+          <type><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>prettyName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>prettyName</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>prettyName</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="153" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="153" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1af8d7f5a51f1668408cec0ab86cef189b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API MR_std_string_view * MR_UnitInfo_GetMutable_prettyName</definition>
+        <argsstring>(MR_UnitInfo *_this)</argsstring>
+        <name>MR_UnitInfo_GetMutable_prettyName</name>
+        <param>
+          <type><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>prettyName</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="159" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="159" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1aad97ea3b90e09f7130a6c6830175dc86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API const MR_std_string_view * MR_UnitInfo_Get_unitSuffix</definition>
+        <argsstring>(const MR_UnitInfo *_this)</argsstring>
+        <name>MR_UnitInfo_Get_unitSuffix</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a pointer to a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>unitSuffix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="167" column="34" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="167" declcolumn="34"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1a1f59cbfb4cf1bf0a9c90332fe992a3af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnitInfo_Set_unitSuffix</definition>
+        <argsstring>(MR_UnitInfo *_this, const char *value, const char *value_end)</argsstring>
+        <name>MR_UnitInfo_Set_unitSuffix</name>
+        <param>
+          <type><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>value_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Modifies a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>unitSuffix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>value</computeroutput> can not be null. If <computeroutput>value_end</computeroutput> is null, then <computeroutput>value</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>value</computeroutput> might be preserved in this object in element <computeroutput>unitSuffix</computeroutput>. When this function is called, this object will drop object references it had previously in <computeroutput>unitSuffix</computeroutput>. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="177" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="177" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1ae233d23e9c0d193187dcb9a1aebbffc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref> *</type>
+        <definition>MRC_API MR_std_string_view * MR_UnitInfo_GetMutable_unitSuffix</definition>
+        <argsstring>(MR_UnitInfo *_this)</argsstring>
+        <name>MR_UnitInfo_GetMutable_unitSuffix</name>
+        <param>
+          <type><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Returns a mutable pointer to a member variable of class <computeroutput>MR::UnitInfo</computeroutput> named <computeroutput>unitSuffix</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. The reference to this object might be preserved as the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="185" column="28" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="185" declcolumn="28"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1aa19f0f32bbe660c6f7de59c24311444d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+        <definition>MRC_API MR_UnitInfo * MR_UnitInfo_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_UnitInfo_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnitInfo_8h_1a39817dd1c870ef238ce0bf4dd8809c31" kindref="member">MR_UnitInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="189" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="189" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1af4227a14dd3b3a9505f669efbd39b782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+        <definition>MRC_API MR_UnitInfo * MR_UnitInfo_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_UnitInfo_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRUnitInfo_8h_1ac4a5a9bc387fbc0cc0962f4002c9b058" kindref="member">MR_UnitInfo_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRUnitInfo_8h_1a4ce5e6e3058d856357751265126bc984" kindref="member">MR_UnitInfo_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRUnitInfo_8h_1a2b1e432b66bc611ada2fe867252d376b" kindref="member">MR_UnitInfo_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="194" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="194" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1ae715a61c35c0025c0507da6cc5b3ff1f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+        <definition>MRC_API MR_UnitInfo * MR_UnitInfo_ConstructFrom</definition>
+        <argsstring>(float conversionFactor, const char *prettyName, const char *prettyName_end, const char *unitSuffix, const char *unitSuffix_end)</argsstring>
+        <name>MR_UnitInfo_ConstructFrom</name>
+        <param>
+          <type>float</type>
+          <declname>conversionFactor</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>prettyName</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>prettyName_end</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>unitSuffix</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>unitSuffix_end</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs <computeroutput>MR::UnitInfo</computeroutput> elementwise. Parameter <computeroutput>prettyName</computeroutput> can not be null. If <computeroutput>prettyName_end</computeroutput> is null, then <computeroutput>prettyName</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>prettyName</computeroutput> might be preserved in the constructed object. Parameter <computeroutput>unitSuffix</computeroutput> can not be null. If <computeroutput>unitSuffix_end</computeroutput> is null, then <computeroutput>unitSuffix</computeroutput> is assumed to be null-terminated. The reference to the parameter <computeroutput>unitSuffix</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnitInfo_8h_1a39817dd1c870ef238ce0bf4dd8809c31" kindref="member">MR_UnitInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="205" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="205" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1a2b1e432b66bc611ada2fe867252d376b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+        <definition>MRC_API const MR_UnitInfo * MR_UnitInfo_OffsetPtr</definition>
+        <argsstring>(const MR_UnitInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UnitInfo_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="209" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="209" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1a4ce5e6e3058d856357751265126bc984" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+        <definition>MRC_API MR_UnitInfo * MR_UnitInfo_OffsetMutablePtr</definition>
+        <argsstring>(MR_UnitInfo *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_UnitInfo_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="213" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="213" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1a781af98e266e00b09a6d94274259ee1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+        <definition>MRC_API MR_UnitInfo * MR_UnitInfo_ConstructFromAnother</definition>
+        <argsstring>(const MR_UnitInfo *_other)</argsstring>
+        <name>MR_UnitInfo_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::UnitInfo::UnitInfo</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRUnitInfo_8h_1a39817dd1c870ef238ce0bf4dd8809c31" kindref="member">MR_UnitInfo_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="219" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="219" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1a39817dd1c870ef238ce0bf4dd8809c31" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnitInfo_Destroy</definition>
+        <argsstring>(const MR_UnitInfo *_this)</argsstring>
+        <name>MR_UnitInfo_Destroy</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_UnitInfo</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="222" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="222" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1ac4a5a9bc387fbc0cc0962f4002c9b058" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_UnitInfo_DestroyArray</definition>
+        <argsstring>(const MR_UnitInfo *_this)</argsstring>
+        <name>MR_UnitInfo_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_UnitInfo</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="225" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="225" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRUnitInfo_8h_1a0118b40b349298b90c828fa619e3c6e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+        <definition>MRC_API MR_UnitInfo * MR_UnitInfo_AssignFromAnother</definition>
+        <argsstring>(MR_UnitInfo *_this, const MR_UnitInfo *_other)</argsstring>
+        <name>MR_UnitInfo_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::UnitInfo::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" line="233" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h" declline="233" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="MRUnitInfo_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMisc/std_string_view.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>A<sp/>stub<sp/>measurement<sp/>unit<sp/>representing<sp/>no<sp/>unit.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRUnitInfo_8h_1a33f2ca44eae2a7feebc1dd635540e4f1" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a33f2ca44eae2a7feebc1dd635540e4f1" kindref="member">MR_NoUnit</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17" refid="MRUnitInfo_8h_1a33f2ca44eae2a7feebc1dd635540e4f1aa4b04e4edd2cc7174b2ec611088d0ced" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a33f2ca44eae2a7feebc1dd635540e4f1aa4b04e4edd2cc7174b2ec611088d0ced" kindref="member">MR_NoUnit__count</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="18" refid="MRUnitInfo_8h_1a2ac997f72ec53f0e0ab4aec46e5b33d4" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1a33f2ca44eae2a7feebc1dd635540e4f1" kindref="member">MR_NoUnit</ref>;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Measurement<sp/>units<sp/>of<sp/>length.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23" refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbcea9a3246fb48801481d51632b899f0567a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbcea9a3246fb48801481d51632b899f0567a" kindref="member">MR_LengthUnit_microns</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="24" refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbcea8706c9920951b700454c87b4c8167f30" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbcea8706c9920951b700454c87b4c8167f30" kindref="member">MR_LengthUnit_millimeters</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="25" refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceaaf91930a854a11c53479d1c1d910b8b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceaaf91930a854a11c53479d1c1d910b8b1" kindref="member">MR_LengthUnit_centimeters</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="26" refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceadac4a58652523c2686dbb2c4556a071f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceadac4a58652523c2686dbb2c4556a071f" kindref="member">MR_LengthUnit_meters</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="27" refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceacd2454bb637558c9b92d189bbf8d4498" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceacd2454bb637558c9b92d189bbf8d4498" kindref="member">MR_LengthUnit_inches</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="28" refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceabdaf26b54f04a2807791ab88a0fdbce3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbceabdaf26b54f04a2807791ab88a0fdbce3" kindref="member">MR_LengthUnit_feet</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="29" refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbcea7ab4dad658e26569616f2e64c8383567" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbcea7ab4dad658e26569616f2e64c8383567" kindref="member">MR_LengthUnit__count</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="30" refid="MRUnitInfo_8h_1a5184c4a1781e0c7356e315b5b3ab599f" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1af88f9579711ed613f04fac0731b1cbce" kindref="member">MR_LengthUnit</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Measurement<sp/>units<sp/>of<sp/>angle.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934" kindref="member">MR_AngleUnit</ref></highlight></codeline>
+<codeline lineno="34"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="35" refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934af696e0ed15ff128a7c14c14e426e916d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934af696e0ed15ff128a7c14c14e426e916d" kindref="member">MR_AngleUnit_radians</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="36" refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934a939c158956aff9bbe6032850608bed31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934a939c158956aff9bbe6032850608bed31" kindref="member">MR_AngleUnit_degrees</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="37" refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934afbec17d8f5ad0e0fbd07cdd4fcb7c540" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934afbec17d8f5ad0e0fbd07cdd4fcb7c540" kindref="member">MR_AngleUnit__count</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="38" refid="MRUnitInfo_8h_1a3961d651b57aefac22766185001dc43e" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1a6c2139a816e35ef83120fde53364b934" kindref="member">MR_AngleUnit</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Measurement<sp/>units<sp/>of<sp/>screen<sp/>sizes.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71" kindref="member">MR_PixelSizeUnit</ref></highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43" refid="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71a7182be21ac05dbbbb131b4a8761cd878" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71a7182be21ac05dbbbb131b4a8761cd878" kindref="member">MR_PixelSizeUnit_pixels</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="44" refid="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71a3bd6fa132b509277802ada6bf21223b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71a3bd6fa132b509277802ada6bf21223b1" kindref="member">MR_PixelSizeUnit__count</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="45" refid="MRUnitInfo_8h_1ae97dd5994fd2209865ef10d990c10cbd" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1a616895c0f73a6f054fe65e6f63e11b71" kindref="member">MR_PixelSizeUnit</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Measurement<sp/>units<sp/>for<sp/>factors<sp/>/<sp/>ratios.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653b" kindref="member">MR_RatioUnit</ref></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>0..1<sp/>x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653ba6a08225a702b7b6507700fa2db9b373a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653ba6a08225a702b7b6507700fa2db9b373a" kindref="member">MR_RatioUnit_factor</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>0..100<sp/>%</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653ba4fea16f6f416d87f41ff6932403fbece" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653ba4fea16f6f416d87f41ff6932403fbece" kindref="member">MR_RatioUnit_percents</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="54" refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653baf8a98eef9dbb49971a64416599eda5b7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653baf8a98eef9dbb49971a64416599eda5b7" kindref="member">MR_RatioUnit__count</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="55" refid="MRUnitInfo_8h_1a3b4848ed5450da748c7658e6802aa2e8" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1a1a685c02cd584325ff72a126586e653b" kindref="member">MR_RatioUnit</ref>;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Measurement<sp/>units<sp/>for<sp/>time.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089" kindref="member">MR_TimeUnit</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60" refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089aee99186e015c29c268fd0ba784029f72" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089aee99186e015c29c268fd0ba784029f72" kindref="member">MR_TimeUnit_seconds</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="61" refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089a1f20dc40384b24ec9b4071a3dfcd3f2a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089a1f20dc40384b24ec9b4071a3dfcd3f2a" kindref="member">MR_TimeUnit_milliseconds</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="62" refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089a38c32ccb871ae93194841c10ebab08ba" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089a38c32ccb871ae93194841c10ebab08ba" kindref="member">MR_TimeUnit__count</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="63" refid="MRUnitInfo_8h_1a280579a12a2681bcaab2e73755bf3393" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1a4e1baceacfcdb27b2ef8f3197970e089" kindref="member">MR_TimeUnit</ref>;</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Measurement<sp/>units<sp/>for<sp/>movement<sp/>speed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5b" kindref="member">MR_MovementSpeedUnit</ref></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="68" refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5babf713c97b2d3eac1b7af1e389cdf73fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5babf713c97b2d3eac1b7af1e389cdf73fe" kindref="member">MR_MovementSpeedUnit_micronsPerSecond</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="69" refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5bae58a5b53d15f237c58c72c64051c36c8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5bae58a5b53d15f237c58c72c64051c36c8" kindref="member">MR_MovementSpeedUnit_millimetersPerSecond</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="70" refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5baed6a97e9adbc43f45f05be24ae796df6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5baed6a97e9adbc43f45f05be24ae796df6" kindref="member">MR_MovementSpeedUnit_centimetersPerSecond</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="71" refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5ba33ca884e79f720172a4363787e6dec22" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5ba33ca884e79f720172a4363787e6dec22" kindref="member">MR_MovementSpeedUnit_metersPerSecond</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="72" refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5baa5bc72e17e713a11a1ab51bd30df92e7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5baa5bc72e17e713a11a1ab51bd30df92e7" kindref="member">MR_MovementSpeedUnit_inchesPerSecond</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="73" refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5ba5c05e99633fad54b6262d3efa6b29a49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5ba5c05e99633fad54b6262d3efa6b29a49" kindref="member">MR_MovementSpeedUnit_feetPerSecond</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="74" refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5ba97126e0cb8cc458a5fc7b668951f5ec2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5ba97126e0cb8cc458a5fc7b668951f5ec2" kindref="member">MR_MovementSpeedUnit__count</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="75" refid="MRUnitInfo_8h_1a6d272d23d17e48633e49085aabf89bcb" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1aa4b3921cef63b9b968da38896cf93d5b" kindref="member">MR_MovementSpeedUnit</ref>;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Measurement<sp/>units<sp/>for<sp/>surface<sp/>area.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749" kindref="member">MR_AreaUnit</ref></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="80" refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a5b90dab5a3ff6c168f40f9cf97666d0c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a5b90dab5a3ff6c168f40f9cf97666d0c" kindref="member">MR_AreaUnit_microns2</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="81" refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a462f753f4978ee99966a03c7a490646e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a462f753f4978ee99966a03c7a490646e" kindref="member">MR_AreaUnit_millimeters2</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="82" refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749ad6bf665374939f238b29b81e9b33804a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749ad6bf665374939f238b29b81e9b33804a" kindref="member">MR_AreaUnit_centimeters2</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="83" refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a48c9ada65e59c44710f2a00ea0a51f69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a48c9ada65e59c44710f2a00ea0a51f69" kindref="member">MR_AreaUnit_meters2</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="84" refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a2a470f951d1401b9d39e03dac9f5e359" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a2a470f951d1401b9d39e03dac9f5e359" kindref="member">MR_AreaUnit_inches2</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="85" refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a755235179cf348c576fe14a1604ac20c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a755235179cf348c576fe14a1604ac20c" kindref="member">MR_AreaUnit_feet2</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="86" refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a48bad17e656db0c6b13d0106c5605b14" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749a48bad17e656db0c6b13d0106c5605b14" kindref="member">MR_AreaUnit__count</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="87" refid="MRUnitInfo_8h_1a82a322ea6124ccce3110d0ff8dc9e655" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1aa8fdba86ccc8ac95d96d3dabe2ba2749" kindref="member">MR_AreaUnit</ref>;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Measurement<sp/>units<sp/>for<sp/>body<sp/>volume.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289" kindref="member">MR_VolumeUnit</ref></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92" refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a191ca0a2da9156f781e839b7511c0830" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a191ca0a2da9156f781e839b7511c0830" kindref="member">MR_VolumeUnit_microns3</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="93" refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a9839e0f88690e40fb9367376742ee61d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a9839e0f88690e40fb9367376742ee61d" kindref="member">MR_VolumeUnit_millimeters3</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="94" refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a2750fc96fcb0d901bc28ee67630a59b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a2750fc96fcb0d901bc28ee67630a59b2" kindref="member">MR_VolumeUnit_centimeters3</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="95" refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a9fd3a6ca2af0337c4431681887854642" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a9fd3a6ca2af0337c4431681887854642" kindref="member">MR_VolumeUnit_meters3</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="96" refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289ac625697279b847c806d46f6369ea5f23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289ac625697279b847c806d46f6369ea5f23" kindref="member">MR_VolumeUnit_inches3</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="97" refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a8dcccd0185e2e4d20a3da8cdaa5821fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a8dcccd0185e2e4d20a3da8cdaa5821fe" kindref="member">MR_VolumeUnit_feet3</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="98" refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a6748e2164bfe9846c6b1ed42c2731c5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289a6748e2164bfe9846c6b1ed42c2731c5b" kindref="member">MR_VolumeUnit__count</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="99" refid="MRUnitInfo_8h_1ac7cf53f4557ea0b9cd073c65b2da4477" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1aaa41adb03a8dcf1fe13581a88cb41289" kindref="member">MR_VolumeUnit</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"></highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Measurement<sp/>units<sp/>for<sp/>1/length.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102" refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9" kindref="member">MR_InvLengthUnit</ref></highlight></codeline>
+<codeline lineno="103"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="104" refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a2db728a105ed57962f6c7de1bcd5c858" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a2db728a105ed57962f6c7de1bcd5c858" kindref="member">MR_InvLengthUnit_inv_microns</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="105" refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a6d09d36b4a1643dcf6b27d64c6255af2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a6d09d36b4a1643dcf6b27d64c6255af2" kindref="member">MR_InvLengthUnit_inv_millimeters</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="106" refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a58803942a6f289f7b23228c4f0478f1a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a58803942a6f289f7b23228c4f0478f1a" kindref="member">MR_InvLengthUnit_inv_centimeters</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="107" refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a718eca28eb873cffe2dbbedc07dee94c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a718eca28eb873cffe2dbbedc07dee94c" kindref="member">MR_InvLengthUnit_inv_meters</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="108" refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a03d1ec0d5cfc208871d36ef7860cabe5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a03d1ec0d5cfc208871d36ef7860cabe5" kindref="member">MR_InvLengthUnit_inv_inches</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="109" refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9abd73ec55dd6ec38c8c108f6f011643a3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9abd73ec55dd6ec38c8c108f6f011643a3" kindref="member">MR_InvLengthUnit_inv_feet</ref><sp/>=<sp/>5,</highlight></codeline>
+<codeline lineno="110" refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a01409c68015edda60d1f65d4c0490d4c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9a01409c68015edda60d1f65d4c0490d4c" kindref="member">MR_InvLengthUnit__count</ref><sp/>=<sp/>6,</highlight></codeline>
+<codeline lineno="111" refid="MRUnitInfo_8h_1a480e2a8da7aae16c0ea95d186ff3676d" refkind="member"><highlight class="normal">}<sp/><ref refid="MRUnitInfo_8h_1a2fe527bfd0ef6c19509abe1f2ce788a9" kindref="member">MR_InvLengthUnit</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Information<sp/>about<sp/>a<sp/>single<sp/>measurement<sp/>unit.</highlight></codeline>
+<codeline lineno="116" refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref>;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>to<sp/>convert<sp/>between<sp/>units.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>convert<sp/>from<sp/>A<sp/>to<sp/>B,<sp/>multiply<sp/>by<sp/>A&apos;s<sp/>factor<sp/>and<sp/>divide<sp/>by<sp/>B&apos;s.</highlight></codeline>
+<codeline lineno="124" refid="MRUnitInfo_8h_1a4b9f96709edc6149c350a58a203eec56" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRUnitInfo_8h_1a4b9f96709edc6149c350a58a203eec56" kindref="member">MR_UnitInfo_Get_conversionFactor</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>to<sp/>convert<sp/>between<sp/>units.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>convert<sp/>from<sp/>A<sp/>to<sp/>B,<sp/>multiply<sp/>by<sp/>A&apos;s<sp/>factor<sp/>and<sp/>divide<sp/>by<sp/>B&apos;s.</highlight></codeline>
+<codeline lineno="131" refid="MRUnitInfo_8h_1a3a86cea8e056f408b842083836126646" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a3a86cea8e056f408b842083836126646" kindref="member">MR_UnitInfo_Set_conversionFactor</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>value);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>is<sp/>used<sp/>to<sp/>convert<sp/>between<sp/>units.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>convert<sp/>from<sp/>A<sp/>to<sp/>B,<sp/>multiply<sp/>by<sp/>A&apos;s<sp/>factor<sp/>and<sp/>divide<sp/>by<sp/>B&apos;s.</highlight></codeline>
+<codeline lineno="139" refid="MRUnitInfo_8h_1aa7e618eee8ad2a08658850a3fcd3c793" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*<ref refid="MRUnitInfo_8h_1aa7e618eee8ad2a08658850a3fcd3c793" kindref="member">MR_UnitInfo_GetMutable_conversionFactor</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145" refid="MRUnitInfo_8h_1aaaceefb3bb813ee3dec2e11b720a863d" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRUnitInfo_8h_1aaaceefb3bb813ee3dec2e11b720a863d" kindref="member">MR_UnitInfo_Get_prettyName</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153" refid="MRUnitInfo_8h_1a472c5df9422848694ebc46129840ce62" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a472c5df9422848694ebc46129840ce62" kindref="member">MR_UnitInfo_Set_prettyName</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRUnitInfo_8h_1af8d7f5a51f1668408cec0ab86cef189b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRUnitInfo_8h_1af8d7f5a51f1668408cec0ab86cef189b" kindref="member">MR_UnitInfo_GetMutable_prettyName</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>short<sp/>unit<sp/>name<sp/>that&apos;s<sp/>placed<sp/>after<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>may<sp/>or<sp/>may<sp/>not<sp/>start<sp/>with<sp/>a<sp/>space.</highlight></codeline>
+<codeline lineno="167" refid="MRUnitInfo_8h_1aad97ea3b90e09f7130a6c6830175dc86" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRUnitInfo_8h_1aad97ea3b90e09f7130a6c6830175dc86" kindref="member">MR_UnitInfo_Get_unitSuffix</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>short<sp/>unit<sp/>name<sp/>that&apos;s<sp/>placed<sp/>after<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>may<sp/>or<sp/>may<sp/>not<sp/>start<sp/>with<sp/>a<sp/>space.</highlight></codeline>
+<codeline lineno="177" refid="MRUnitInfo_8h_1a1f59cbfb4cf1bf0a9c90332fe992a3af" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a1f59cbfb4cf1bf0a9c90332fe992a3af" kindref="member">MR_UnitInfo_Set_unitSuffix</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*value_end);</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>short<sp/>unit<sp/>name<sp/>that&apos;s<sp/>placed<sp/>after<sp/>values.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>may<sp/>or<sp/>may<sp/>not<sp/>start<sp/>with<sp/>a<sp/>space.</highlight></codeline>
+<codeline lineno="185" refid="MRUnitInfo_8h_1ae233d23e9c0d193187dcb9a1aebbffc5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMeasurementObject_8h_1a169b2cb1c4b9a267fdcd4b388a456d37" kindref="member">MR_std_string_view</ref><sp/>*<ref refid="MRUnitInfo_8h_1ae233d23e9c0d193187dcb9a1aebbffc5" kindref="member">MR_UnitInfo_GetMutable_unitSuffix</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189" refid="MRUnitInfo_8h_1aa19f0f32bbe660c6f7de59c24311444d" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*<ref refid="MRUnitInfo_8h_1aa19f0f32bbe660c6f7de59c24311444d" kindref="member">MR_UnitInfo_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194" refid="MRUnitInfo_8h_1af4227a14dd3b3a9505f669efbd39b782" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*<ref refid="MRUnitInfo_8h_1af4227a14dd3b3a9505f669efbd39b782" kindref="member">MR_UnitInfo_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"></highlight></codeline>
+<codeline lineno="205" refid="MRUnitInfo_8h_1ae715a61c35c0025c0507da6cc5b3ff1f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*<ref refid="MRUnitInfo_8h_1ae715a61c35c0025c0507da6cc5b3ff1f" kindref="member">MR_UnitInfo_ConstructFrom</ref>(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>conversionFactor,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*prettyName,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*prettyName_end,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*unitSuffix,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*unitSuffix_end);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"></highlight></codeline>
+<codeline lineno="209" refid="MRUnitInfo_8h_1a2b1e432b66bc611ada2fe867252d376b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*<ref refid="MRUnitInfo_8h_1a2b1e432b66bc611ada2fe867252d376b" kindref="member">MR_UnitInfo_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight></codeline>
+<codeline lineno="213" refid="MRUnitInfo_8h_1a4ce5e6e3058d856357751265126bc984" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*<ref refid="MRUnitInfo_8h_1a4ce5e6e3058d856357751265126bc984" kindref="member">MR_UnitInfo_OffsetMutablePtr</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="MRUnitInfo_8h_1a781af98e266e00b09a6d94274259ee1c" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*<ref refid="MRUnitInfo_8h_1a781af98e266e00b09a6d94274259ee1c" kindref="member">MR_UnitInfo_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight></codeline>
+<codeline lineno="222" refid="MRUnitInfo_8h_1a39817dd1c870ef238ce0bf4dd8809c31" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a39817dd1c870ef238ce0bf4dd8809c31" kindref="member">MR_UnitInfo_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225" refid="MRUnitInfo_8h_1ac4a5a9bc387fbc0cc0962f4002c9b058" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1ac4a5a9bc387fbc0cc0962f4002c9b058" kindref="member">MR_UnitInfo_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233" refid="MRUnitInfo_8h_1a0118b40b349298b90c828fa619e3c6e1" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*<ref refid="MRUnitInfo_8h_1a0118b40b349298b90c828fa619e3c6e1" kindref="member">MR_UnitInfo_AssignFromAnother</ref>(<ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRUnitInfo_8h_1a2f2d4909d05dde8b12c6a0b99d41b98b" kindref="member">MR_UnitInfo</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight></codeline>
+<codeline lineno="235"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="236"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRUnitInfo.h"/>
+  </compounddef>
+</doxygen>

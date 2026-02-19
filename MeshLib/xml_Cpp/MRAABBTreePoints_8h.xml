@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRAABBTreePoints_8h" kind="file" language="C++">
+    <compoundname>MRAABBTreePoints.h</compoundname>
+    <includes refid="MRBox_8h" local="yes">MRBox.h</includes>
+    <includes refid="MRId_8h" local="yes">MRId.h</includes>
+    <includes refid="MRVector_8h" local="yes">MRVector.h</includes>
+    <includes refid="MRVector3_8h" local="yes">MRVector3.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>MRAABBTreePoints.h</label>
+        <link refid="MRAABBTreePoints_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="18">
+        <label>MRAffineXf.h</label>
+        <link refid="MRAffineXf_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>MRAffineXf3.h</label>
+        <link refid="MRAffineXf3_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MRBox.h</label>
+        <link refid="MRBox_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>MRConstants.h</label>
+        <link refid="MRConstants_8h"/>
+      </node>
+      <node id="23">
+        <label>MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRMacros.h</label>
+        <link refid="MRMacros_8h"/>
+      </node>
+      <node id="6">
+        <label>MRMatrix3.h</label>
+        <link refid="MRMatrix3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>MRResizeNoInit.h</label>
+        <link refid="MRResizeNoInit_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>MRMesh/MRUnsigned.h</label>
+        <link refid="MRUnsigned_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>MRVector.h</label>
+        <link refid="MRVector_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRVector3.h</label>
+        <link refid="MRVector3_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>MRVectorTraits.h</label>
+        <link refid="MRMesh_2MRVectorTraits_8h"/>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>MRMesh/MRMeshFwd.h</label>
+      </node>
+      <node id="4">
+        <label>MRMeshFwd.h</label>
+      </node>
+      <node id="12">
+        <label>MRPch/MRBindingMacros.h</label>
+      </node>
+      <node id="13">
+        <label>algorithm</label>
+      </node>
+      <node id="21">
+        <label>cassert</label>
+      </node>
+      <node id="14">
+        <label>cmath</label>
+      </node>
+      <node id="26">
+        <label>concepts</label>
+      </node>
+      <node id="9">
+        <label>cstddef</label>
+      </node>
+      <node id="15">
+        <label>cstring</label>
+      </node>
+      <node id="16">
+        <label>iosfwd</label>
+      </node>
+      <node id="22">
+        <label>limits</label>
+      </node>
+      <node id="10">
+        <label>type_traits</label>
+      </node>
+      <node id="17">
+        <label>utility</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classMR_1_1AABBTreePoints" prot="public">MR::AABBTreePoints</innerclass>
+    <innerclass refid="structMR_1_1AABBTreePoints_1_1Node" prot="public">MR::AABBTreePoints::Node</innerclass>
+    <innerclass refid="structMR_1_1AABBTreePoints_1_1Point" prot="public">MR::AABBTreePoints::Point</innerclass>
+    <innernamespace refid="namespaceMR">MR</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRBox_8h" kindref="compound">MRBox.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRId_8h" kindref="compound">MRId.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector_8h" kindref="compound">MRVector.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="MRVector3_8h" kindref="compound">MRVector3.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceMR" kindref="compound">MR</ref></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"></codeline>
+<codeline lineno="15" refid="classMR_1_1AABBTreePoints" refkind="compound"><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18" refid="structMR_1_1AABBTreePoints_1_1Node" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1AABBTreePoints_1_1Node" kindref="compound">Node</ref></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20" refid="structMR_1_1AABBTreePoints_1_1Node_1a2153d4fd7d12b27618511103c9080df3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Box3f<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1a2153d4fd7d12b27618511103c9080df3" kindref="member">box</ref>;<sp/></highlight></codeline>
+<codeline lineno="21" refid="structMR_1_1AABBTreePoints_1_1Node_1af8f74a9f0dc8b291dca8ff290c8b45a1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NodeId<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1af8f74a9f0dc8b291dca8ff290c8b45a1" kindref="member">l</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="22" refid="structMR_1_1AABBTreePoints_1_1Node_1aa7d207477de6241a5d47a8971c2944aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NodeId<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1aa7d207477de6241a5d47a8971c2944aa" kindref="member">r</ref>;<sp/><sp/></highlight></codeline>
+<codeline lineno="24" refid="structMR_1_1AABBTreePoints_1_1Node_1a56b80dcc65ea72cecfafa260d4f8300a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1a56b80dcc65ea72cecfafa260d4f8300a" kindref="member">leaf</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!<ref refid="structMR_1_1AABBTreePoints_1_1Node_1af8f74a9f0dc8b291dca8ff290c8b45a1" kindref="member">l</ref>.valid();<sp/>}</highlight></codeline>
+<codeline lineno="26" refid="structMR_1_1AABBTreePoints_1_1Node_1a4706c948a08613c970dd47e89dfc42b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>std::pair&lt;int,<sp/>int&gt;<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1a4706c948a08613c970dd47e89dfc42b8" kindref="member">getLeafPointRange</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/>assert(<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1a56b80dcc65ea72cecfafa260d4f8300a" kindref="member">leaf</ref>()<sp/>);<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>{<sp/>-(<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1af8f74a9f0dc8b291dca8ff290c8b45a1" kindref="member">l</ref><sp/>+<sp/>1<sp/>),-(<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1aa7d207477de6241a5d47a8971c2944aa" kindref="member">r</ref><sp/>+<sp/>1<sp/>)<sp/>};<sp/>}</highlight></codeline>
+<codeline lineno="28" refid="structMR_1_1AABBTreePoints_1_1Node_1a0951e423adb41a83132b36c18125f02b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1a0951e423adb41a83132b36c18125f02b" kindref="member">setLeafPointRange</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>first,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>last<sp/>)<sp/>{<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1af8f74a9f0dc8b291dca8ff290c8b45a1" kindref="member">l</ref><sp/>=<sp/>NodeId(<sp/>-(<sp/>first<sp/>+<sp/>1<sp/>)<sp/>);<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node_1aa7d207477de6241a5d47a8971c2944aa" kindref="member">r</ref><sp/>=<sp/>NodeId(<sp/>-(<sp/>last<sp/>+<sp/>1<sp/>)<sp/>);<sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="30" refid="classMR_1_1AABBTreePoints_1a00cc491c7e366a8a33115d69e567c898" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1Vector" kindref="compound">NodeVec</ref><sp/>=<sp/><ref refid="classMR_1_1Vector" kindref="compound">Vector&lt;Node, NodeId&gt;</ref>;</highlight></codeline>
+<codeline lineno="31" refid="classMR_1_1AABBTreePoints_1a2f7aeba60ac6d266e6f4c8994d4f534c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using<sp/></highlight><highlight class="normal"><ref refid="classMR_1_1AABBTreePoints_1a2f7aeba60ac6d266e6f4c8994d4f534c" kindref="member">NodeBitSet</ref><sp/>=<sp/>TaggedBitSet&lt;NodeTag&gt;;</highlight></codeline>
+<codeline lineno="32" refid="classMR_1_1AABBTreePoints_1a6f80276e2b9c2f30d60c17bf896f6137" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1Vector" kindref="compound">NodeVec</ref>&amp;<sp/><ref refid="classMR_1_1AABBTreePoints_1a6f80276e2b9c2f30d60c17bf896f6137" kindref="member">nodes</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nodes_;<sp/>}</highlight></codeline>
+<codeline lineno="33" refid="classMR_1_1AABBTreePoints_1a067a3df7f5d829eb589583ac6cd370b4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1AABBTreePoints_1_1Node" kindref="compound">Node</ref>&amp;<sp/><ref refid="classMR_1_1AABBTreePoints_1a067a3df7f5d829eb589583ac6cd370b4" kindref="member">operator[]</ref>(<sp/>NodeId<sp/>nid<sp/>)</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nodes_[nid];<sp/>}</highlight></codeline>
+<codeline lineno="34" refid="classMR_1_1AABBTreePoints_1ad5101a692a96a2152123f35e2aa38098" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/>NodeId<sp/><ref refid="classMR_1_1AABBTreePoints_1ad5101a692a96a2152123f35e2aa38098" kindref="member">rootNodeId</ref>()<sp/>{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NodeId{0};<sp/>}</highlight></codeline>
+<codeline lineno="36" refid="classMR_1_1AABBTreePoints_1a9326f1fdd5cacabcf51e5eb51f56e53e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>Box3f<sp/><ref refid="classMR_1_1AABBTreePoints_1a9326f1fdd5cacabcf51e5eb51f56e53e" kindref="member">getBoundingBox</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nodes_.<ref refid="group__GeneralGroup_1gac4b153c69fb7b5e1466b10723dd2f35b" kindref="member">empty</ref>()<sp/>?<sp/>Box3f{}<sp/>:<sp/>nodes_[<ref refid="classMR_1_1AABBTreePoints_1ad5101a692a96a2152123f35e2aa38098" kindref="member">rootNodeId</ref>()].box;<sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="structMR_1_1AABBTreePoints_1_1Point" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structMR_1_1AABBTreePoints_1_1Point" kindref="compound">Point</ref></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40" refid="structMR_1_1AABBTreePoints_1_1Point_1a14a9b34e597a6b504acd6c3ee97e12be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Vector3f<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Point_1a14a9b34e597a6b504acd6c3ee97e12be" kindref="member">coord</ref>;</highlight></codeline>
+<codeline lineno="41" refid="structMR_1_1AABBTreePoints_1_1Point_1a75824d74d5ccd55a0440bf75f7d19077" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>VertId<sp/><ref refid="structMR_1_1AABBTreePoints_1_1Point_1a75824d74d5ccd55a0440bf75f7d19077" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="43" refid="classMR_1_1AABBTreePoints_1a41964dab96066d649af6862a0978c4e2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::vector&lt;Point&gt;&amp;<sp/><ref refid="classMR_1_1AABBTreePoints_1a41964dab96066d649af6862a0978c4e2" kindref="member">orderedPoints</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>orderedPoints_;<sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="classMR_1_1AABBTreePoints_1afe5c12db028de0c7152524376a92c38b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="classMR_1_1AABBTreePoints_1afe5c12db028de0c7152524376a92c38b" kindref="member">AABBTreePoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1PointCloud" kindref="compound">PointCloud</ref>&amp;<sp/>pointCloud<sp/>);</highlight></codeline>
+<codeline lineno="48" refid="classMR_1_1AABBTreePoints_1ab159b10db8a36b63387eb1149c826dbd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="classMR_1_1AABBTreePoints_1ab159b10db8a36b63387eb1149c826dbd" kindref="member">AABBTreePoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR_1_1Mesh" kindref="compound">Mesh</ref>&amp;<sp/>mesh<sp/>);</highlight></codeline>
+<codeline lineno="50" refid="classMR_1_1AABBTreePoints_1a976151993a24b9b4ac94b8aff478f69e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/><ref refid="classMR_1_1AABBTreePoints_1a976151993a24b9b4ac94b8aff478f69e" kindref="member">AABBTreePoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>*<sp/>validPoints<sp/>=<sp/></highlight><highlight class="keyword">nullptr</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="classMR_1_1AABBTreePoints_1a8154a2813c0a69767e82f1f67be5161c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="group__GeneralGroup_1gac8d05498d66775361b0d0d2996604348" kindref="member">MR_BIND_IGNORE</ref><sp/><ref refid="classMR_1_1AABBTreePoints_1a8154a2813c0a69767e82f1f67be5161c" kindref="member">AABBTreePoints</ref>(<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertCoords<sp/>&amp;<sp/>points,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>VertBitSet<sp/>&amp;<sp/>validPoints<sp/>)<sp/>:<sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>(<sp/>points,<sp/>&amp;validPoints<sp/>)<sp/>{}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classMR_1_1AABBTreePoints_1a797d5bcdfaacbc53e37b10ddac496527" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">constexpr</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints_1a797d5bcdfaacbc53e37b10ddac496527" kindref="member">MaxNumPointsInLeaf</ref><sp/>=<sp/>16;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="classMR_1_1AABBTreePoints_1a65f478734833e01a7796565862c32038" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTreePoints_1a65f478734833e01a7796565862c32038" kindref="member">AABBTreePoints</ref>(<sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="60" refid="classMR_1_1AABBTreePoints_1a0f0edac8d95fa30b01aeb66950911da9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref><sp/>&amp;&amp;<sp/>)<sp/>noexcept<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="classMR_1_1AABBTreePoints_1afda8c5fe845e055b0d3e838046ee1996" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints_1afda8c5fe845e055b0d3e838046ee1996" kindref="member">getLeafOrder</ref>(<sp/>VertBMap<sp/>&amp;<sp/>vertMap<sp/>)<sp/>const;</highlight></codeline>
+<codeline lineno="68" refid="classMR_1_1AABBTreePoints_1a0423d1153871df30826966748ac710a8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints_1a0423d1153871df30826966748ac710a8" kindref="member">getLeafOrderAndReset</ref>(<sp/>VertBMap<sp/>&amp;<sp/>vertMap<sp/>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="classMR_1_1AABBTreePoints_1a1a8a3bec838147878ea5d896d024d881" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>[[nodiscard]]<sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints_1a1a8a3bec838147878ea5d896d024d881" kindref="member">heapBytes</ref>()<sp/>const;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="classMR_1_1AABBTreePoints_1ab5f64a7b70e62b9965109f36108247e0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>MRMESH_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classMR_1_1AABBTreePoints_1ab5f64a7b70e62b9965109f36108247e0" kindref="member">refit</ref>(<sp/>const<sp/>VertCoords<sp/>&amp;<sp/>newCoords,<sp/>const<sp/>VertBitSet<sp/>&amp;<sp/>changedVerts<sp/>);</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal">private:</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>std::vector&lt;<ref refid="structMR_1_1AABBTreePoints_1_1Point" kindref="compound">Point</ref>&gt;<sp/>orderedPoints_;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1Vector" kindref="compound">NodeVec</ref><sp/>nodes_;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>(<sp/>const<sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref><sp/>&amp;<sp/>)<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="84" refid="classMR_1_1AABBTreePoints_1a35c04a1429847484ecc187e053a7a5d3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref><sp/>&amp;<sp/>operator<sp/>=(<sp/>const<sp/><ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref><sp/>&amp;<sp/>)<sp/>=<sp/>default;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>friend<sp/>class<sp/><ref refid="classMR_1_1UniqueThreadSafeOwner" kindref="compound">UniqueThreadSafeOwner</ref>&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>&gt;;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>friend<sp/>class<sp/><ref refid="classMR_1_1SharedThreadSafeOwner" kindref="compound">SharedThreadSafeOwner</ref>&lt;<ref refid="classMR_1_1AABBTreePoints" kindref="compound">AABBTreePoints</ref>&gt;;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="group__AABBTreeGroup_1ga47032a5f420080191bd8d3600c3c24ef" refkind="member"><highlight class="normal">inline<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="group__AABBTreeGroup_1ga47032a5f420080191bd8d3600c3c24ef" kindref="member">getNumNodesPoints</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>numPoints<sp/>)</highlight></codeline>
+<codeline lineno="91"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>assert(<sp/>numPoints<sp/>&gt;<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>2<sp/>*<sp/>(<sp/>(<sp/>numPoints<sp/>+<sp/><ref refid="classMR_1_1AABBTreePoints_1a797d5bcdfaacbc53e37b10ddac496527" kindref="member">AABBTreePoints::MaxNumPointsInLeaf</ref><sp/>-<sp/>1<sp/>)<sp/>/<sp/><ref refid="classMR_1_1AABBTreePoints_1a797d5bcdfaacbc53e37b10ddac496527" kindref="member">AABBTreePoints::MaxNumPointsInLeaf</ref><sp/>)<sp/>-<sp/>1;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal">}<sp/></highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRAABBTreePoints.h"/>
+  </compounddef>
+</doxygen>

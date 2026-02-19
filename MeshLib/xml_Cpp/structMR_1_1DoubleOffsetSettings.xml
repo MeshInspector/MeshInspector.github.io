@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1DoubleOffsetSettings" kind="struct" language="C++" prot="public">
+    <compoundname>MR::DoubleOffsetSettings</compoundname>
+    <includes refid="MRVDBConversions_8h" local="no">MRVDBConversions.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga2ea174fec10de72e248dbb0a5e1073d8" kind="variable"><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gab41301545b4f7cbc6d8c531442b1965c" kind="variable"><name>offsetA</name></member>
+      <member refid="group__GeneralGroup_1ga53b1276a0dd7d52159b86fe6633c89f4" kind="variable"><name>offsetB</name></member>
+      <member refid="group__GeneralGroup_1gaa5cfa224b05a400e1911699259e1b549" kind="variable"><name>adaptivity</name></member>
+      <member refid="group__GeneralGroup_1ga1cadab99fc35f1301c687dea94206707" kind="variable"><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1ga6efd8487cfb1467ad4247b7cea3fc74c" kind="variable"><name>windingNumberThreshold</name></member>
+      <member refid="group__GeneralGroup_1gaee042c47f37e1c7b083569430a185ce3" kind="variable"><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1ga7338b38b26ada80c399b32ba147f7ac1" kind="variable"><name>progress</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" line="158" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRVDBConversions.h" bodystart="159" bodyend="184"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa5cfa224b05a400e1911699259e1b549" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>adaptivity</name></member>
+      <member refid="group__GeneralGroup_1ga1cadab99fc35f1301c687dea94206707" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>fwn</name></member>
+      <member refid="group__GeneralGroup_1gab41301545b4f7cbc6d8c531442b1965c" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>offsetA</name></member>
+      <member refid="group__GeneralGroup_1ga53b1276a0dd7d52159b86fe6633c89f4" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>offsetB</name></member>
+      <member refid="group__GeneralGroup_1ga7338b38b26ada80c399b32ba147f7ac1" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>progress</name></member>
+      <member refid="group__GeneralGroup_1ga2ea174fec10de72e248dbb0a5e1073d8" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>voxelSize</name></member>
+      <member refid="group__GeneralGroup_1gaee042c47f37e1c7b083569430a185ce3" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>windingNumberBeta</name></member>
+      <member refid="group__GeneralGroup_1ga6efd8487cfb1467ad4247b7cea3fc74c" prot="public" virt="non-virtual"><scope>MR::DoubleOffsetSettings</scope><name>windingNumberThreshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

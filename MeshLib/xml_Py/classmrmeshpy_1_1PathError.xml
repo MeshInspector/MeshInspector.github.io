@@ -1,0 +1,330 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1PathError" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::PathError</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PathError_1a0a0761ab90c0fe197505dbb68fb67f29" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PathError::InternalError</definition>
+        <argsstring></argsstring>
+        <name>InternalError</name>
+        <qualifiedname>mrmeshpy.PathError.InternalError</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PathError" kindref="compound">PathError</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42574" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42574" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1PathError_1ab382a048f424b442e5b39d1a73afc98c" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PathError::StartEndNotConnected</definition>
+        <argsstring></argsstring>
+        <name>StartEndNotConnected</name>
+        <qualifiedname>mrmeshpy.PathError.StartEndNotConnected</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1PathError" kindref="compound">PathError</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42575" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42575" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1PathError_1a5b5b6ddfa6402ff3f738ff126631efdc" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.PathError::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.PathError.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1PathError" kindref="compound">PathError</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42576" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42576" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1a038d46e47e0853a3030b4673d7f1c87f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PathError.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.PathError.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42577" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42577" bodyend="42578"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1ac2be91c14281f962760a61aa13a6471e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PathError.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.PathError.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42579" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42579" bodyend="42580"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1aa3eea6da30dd235626dd34d633d5b4a8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PathError.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.PathError.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42581" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42581" bodyend="42582"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1af00e8ffc27b5b6b63a1152c38ea68591" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PathError.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.PathError.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42583" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42583" bodyend="42584"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1a256bda0e2d4523fffefcd250b8e8fa7d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PathError.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.PathError.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42585" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42585" bodyend="42586"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1a434115b51df82cb8b71b207025a5b53a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PathError.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.PathError.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42587" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42587" bodyend="42588"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1a93bd68f27c8b2246c20d44ca21dd2d12" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.PathError.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.PathError.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42589" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42589" bodyend="42590"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1af2c1b9e9470b01769910cc331a0b4260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PathError.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.PathError.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42591" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42591" bodyend="42592"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1a209924216bb573916b67a913de150d78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.PathError.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.PathError.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42593" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42593" bodyend="42594"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1a3c63ff33a15626e16ee0a72f28eae15f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PathError.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.PathError.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42595" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42595" bodyend="42596"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1abe178273db35410645d13fca7c965235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.PathError.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.PathError.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42598" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42598" bodyend="42599"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1PathError_1afd5fe22c4ff7e85acc949f9419532363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.PathError.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.PathError.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42601" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42601" bodyend="42602"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  StartEndNotConnected : no path can be found from start to end, because they are not from the same connected component
+
+  InternalError : report to developers for investigation
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.PathError</label>
+        <link refid="classmrmeshpy_1_1PathError"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>InternalError</edgelabel>
+          <edgelabel>StartEndNotConnected</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="42566" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="42566" bodyend="42602"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1PathError_1a038d46e47e0853a3030b4673d7f1c87f" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1ac2be91c14281f962760a61aa13a6471e" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1aa3eea6da30dd235626dd34d633d5b4a8" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1af00e8ffc27b5b6b63a1152c38ea68591" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1a256bda0e2d4523fffefcd250b8e8fa7d" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1a434115b51df82cb8b71b207025a5b53a" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1a5b5b6ddfa6402ff3f738ff126631efdc" prot="private" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1a93bd68f27c8b2246c20d44ca21dd2d12" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1af2c1b9e9470b01769910cc331a0b4260" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1a209924216bb573916b67a913de150d78" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1a3c63ff33a15626e16ee0a72f28eae15f" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1a0a0761ab90c0fe197505dbb68fb67f29" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>InternalError</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1abe178273db35410645d13fca7c965235" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1ab382a048f424b442e5b39d1a73afc98c" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>StartEndNotConnected</name></member>
+      <member refid="classmrmeshpy_1_1PathError_1afd5fe22c4ff7e85acc949f9419532363" prot="public" virt="non-virtual"><scope>mrmeshpy::PathError</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1RenderPointObject" kind="class" language="C++" prot="public">
+    <compoundname>MR::RenderPointObject</compoundname>
+    <basecompoundref refid="classMR_1_1RenderObjectCombinator" prot="public" virt="non-virtual">MR::RenderObjectCombinator&lt; RenderDefaultUiObject, RenderResetDirtyComponent &gt;</basecompoundref>
+    <includes refid="MRRenderMeasurementObjects_8h" local="no">MRRenderMeasurementObjects.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1ga2921210c9a5d8e48cc1b6ff186949558" kind="variable"><name>object_</name></member>
+      <member refid="group__GeneralGroup_1ga38fb9508b28a6230ec2a17009a69b2ec" kind="variable"><name>task_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga8db5303f19a2babd3839432a002b0d8a" kind="function"><name>RenderPointObject</name></member>
+      <member refid="group__GeneralGroup_1ga388660fd78bbf541a374d4a5cbc6b27a" kind="function"><name>renderUi</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderPointObject</label>
+        <link refid="classMR_1_1RenderPointObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>Bases...</label>
+      </node>
+      <node id="1">
+        <label>MR::RenderPointObject</label>
+        <link refid="classMR_1_1RenderPointObject"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>RenderDimensionObject</label>
+        <link refid="classMR_1_1RenderObjectCombinator"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRenderMeasurementObjects.h" bodystart="22" bodyend="28"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab4757762c061347ec2412d44c7b7c443" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>forceBindAll</name></member>
+      <member refid="group__GeneralGroup_1ga119987068e72df89faccb9088a8def44" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>glBytes</name></member>
+      <member refid="group__GeneralGroup_1ga2e7fc28637f457e02fe5dafff8f5d614" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>heapBytes</name></member>
+      <member refid="group__GeneralGroup_1ga2921210c9a5d8e48cc1b6ff186949558" prot="private" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>object_</name></member>
+      <member refid="group__GeneralGroup_1ga6c8e2b2a990fbdf14835f953090ef542" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>render</name></member>
+      <member refid="group__GeneralGroup_1gaaf9f364da4dd0710603d3ea88860d423" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>RenderObjectCombinator</name></member>
+      <member refid="group__GeneralGroup_1ga8acfcf58dd21cbe8b8fc889a79b8106d" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>renderPicker</name></member>
+      <member refid="group__GeneralGroup_1ga8db5303f19a2babd3839432a002b0d8a" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>RenderPointObject</name></member>
+      <member refid="group__GeneralGroup_1ga388660fd78bbf541a374d4a5cbc6b27a" prot="public" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>renderUi</name></member>
+      <member refid="group__GeneralGroup_1ga38fb9508b28a6230ec2a17009a69b2ec" prot="private" virt="non-virtual"><scope>MR::RenderPointObject</scope><name>task_</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

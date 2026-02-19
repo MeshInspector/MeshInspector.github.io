@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classMR_1_1DemoPlugin" kind="class" language="C++" prot="public">
+    <compoundname>MR::DemoPlugin</compoundname>
+    <basecompoundref refid="classMR_1_1ViewerPlugin" prot="public" virt="non-virtual">MR::ViewerPlugin</basecompoundref>
+    <basecompoundref refid="structMR_1_1MultiListener" prot="public" virt="non-virtual">MR::MultiListener&lt; PreDrawListener, DrawListener, InterruptCloseListener &gt;</basecompoundref>
+    <includes refid="MRDemoPlugin_8h" local="no">MRDemoPlugin.h</includes>
+    <sectiondef kind="private-attrib">
+      <member refid="group__GeneralGroup_1gace2c158a224cd44af075518041d25968" kind="variable"><name>demoSphere_</name></member>
+      <member refid="group__GeneralGroup_1gae51fa4c57f1323a0d9060f5b84c85b75" kind="variable"><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga913eb7a143a158d0905d25a6d7fd72ae" kind="variable"><name>showCloseModal_</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1ga6be2d6bfd3895d3f759775a2843ed7fe" kind="function"><name>init</name></member>
+      <member refid="group__GeneralGroup_1gafd0d013177b9745090ea82dd3e6321e7" kind="function"><name>shutdown</name></member>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <member refid="group__GeneralGroup_1gab3efc86bb86c30383b1acd8a7402ccb6" kind="function"><name>draw_</name></member>
+      <member refid="group__GeneralGroup_1gaad700650d3fbb94bb4bde49f341107ad" kind="function"><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1ga6f86ebafb6280668b7c4176d7059d2d3" kind="function"><name>interruptClose_</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::DemoPlugin</label>
+        <link refid="classMR_1_1DemoPlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::MultiListener&lt; PreDrawListener, DrawListener, InterruptCloseListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="5">
+        <label>Connectables...</label>
+      </node>
+      <node id="1">
+        <label>MR::DemoPlugin</label>
+        <link refid="classMR_1_1DemoPlugin"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>MR::MultiListener&lt; PreDrawListener, DrawListener, InterruptCloseListener &gt;</label>
+        <link refid="structMR_1_1MultiListener"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MR::Viewer</label>
+        <link refid="classMR_1_1Viewer"/>
+      </node>
+      <node id="2">
+        <label>MR::ViewerPlugin</label>
+        <link refid="classMR_1_1ViewerPlugin"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>viewer</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" line="16" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRDemoPlugin.h" bodystart="17" bodyend="32"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaf3312c12e653a48eaee4680364e72f27" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>connect</name></member>
+      <member refid="group__GeneralGroup_1gace2c158a224cd44af075518041d25968" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>demoSphere_</name></member>
+      <member refid="group__GeneralGroup_1gacfa598489bfbc3b88c84b029213d042c" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>disconnect</name></member>
+      <member refid="group__GeneralGroup_1gab3efc86bb86c30383b1acd8a7402ccb6" prot="private" virt="virtual"><scope>MR::DemoPlugin</scope><name>draw_</name></member>
+      <member refid="group__GeneralGroup_1ga6be2d6bfd3895d3f759775a2843ed7fe" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>init</name></member>
+      <member refid="group__GeneralGroup_1ga6f86ebafb6280668b7c4176d7059d2d3" prot="private" virt="virtual"><scope>MR::DemoPlugin</scope><name>interruptClose_</name></member>
+      <member refid="group__GeneralGroup_1gaad700650d3fbb94bb4bde49f341107ad" prot="private" virt="virtual"><scope>MR::DemoPlugin</scope><name>preDraw_</name></member>
+      <member refid="group__GeneralGroup_1gae51fa4c57f1323a0d9060f5b84c85b75" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>shouldClose_</name></member>
+      <member refid="group__GeneralGroup_1ga913eb7a143a158d0905d25a6d7fd72ae" prot="private" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>showCloseModal_</name></member>
+      <member refid="group__GeneralGroup_1gafd0d013177b9745090ea82dd3e6321e7" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>shutdown</name></member>
+      <member refid="group__GeneralGroup_1gad12538d77ebcf356c03469cbce40abae" prot="protected" virt="non-virtual"><scope>MR::DemoPlugin</scope><name>viewer</name></member>
+      <member refid="group__GeneralGroup_1ga726f5e2601b7f25e31824a0cac630fb2" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>~MultiListener</name></member>
+      <member refid="group__GeneralGroup_1gad7fd0e80e15b5c45837fc005c71c9eab" prot="public" virt="virtual"><scope>MR::DemoPlugin</scope><name>~ViewerPlugin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

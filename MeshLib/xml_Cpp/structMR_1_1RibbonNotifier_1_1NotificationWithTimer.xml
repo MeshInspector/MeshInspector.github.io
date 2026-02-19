@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1RibbonNotifier_1_1NotificationWithTimer" kind="struct" language="C++" prot="private">
+    <compoundname>MR::RibbonNotifier::NotificationWithTimer</compoundname>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gab2fc147b0fc24b68fb7294c37ef23e9e" kind="variable"><name>notification</name></member>
+      <member refid="group__GeneralGroup_1ga159f176371b35f8ce6477406c5eb94be" kind="variable"><name>timer</name></member>
+      <member refid="group__GeneralGroup_1gaf57ef8cdbb28b3ee46983421ca2e8803" kind="variable"><name>sameCounter</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>MR::RibbonNotification</label>
+        <link refid="structMR_1_1RibbonNotification"/>
+      </node>
+      <node id="1">
+        <label>MR::RibbonNotifier::NotificationWithTimer</label>
+        <childnode refid="2" relation="usage">
+          <edgelabel>notification</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" line="89" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRRibbonNotification.h" bodystart="90" bodyend="94"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gab2fc147b0fc24b68fb7294c37ef23e9e" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::NotificationWithTimer</scope><name>notification</name></member>
+      <member refid="group__GeneralGroup_1gaf57ef8cdbb28b3ee46983421ca2e8803" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::NotificationWithTimer</scope><name>sameCounter</name></member>
+      <member refid="group__GeneralGroup_1ga159f176371b35f8ce6477406c5eb94be" prot="public" virt="non-virtual"><scope>MR::RibbonNotifier::NotificationWithTimer</scope><name>timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

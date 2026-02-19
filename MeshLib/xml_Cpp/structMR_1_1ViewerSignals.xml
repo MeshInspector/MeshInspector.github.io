@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1ViewerSignals" kind="struct" language="C++" prot="public">
+    <compoundname>MR::ViewerSignals</compoundname>
+    <includes refid="MRViewerSignals_8h" local="no">MRViewerSignals.h</includes>
+    <sectiondef kind="public-type">
+      <member refid="group__GeneralGroup_1ga1eda89f251264fcd4a837e688fdd8f85" kind="typedef"><name>SignalStopHandler</name></member>
+      <member refid="group__GeneralGroup_1ga3206deabe6f49f8a3acf059b7130a0fb" kind="typedef"><name>MouseUpDownSignal</name></member>
+      <member refid="group__GeneralGroup_1gac0c1bd273bc7918c1c5aaa17ee28185c" kind="typedef"><name>MouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga9f30201f2d7ed3f6180ccf9c332d80cf" kind="typedef"><name>MouseScrollSignal</name></member>
+      <member refid="group__GeneralGroup_1ga635ab18f390475cfdf278794eae44fb6" kind="typedef"><name>CursorEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa74e56ac086d42bf0be931fc3dfb3800" kind="typedef"><name>CharPressedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2c13f3f5f743830b0defe77be75a47f3" kind="typedef"><name>KeySignal</name></member>
+      <member refid="group__GeneralGroup_1ga01a10614f8eeeaabcc8e586facc221c5" kind="typedef"><name>SpaceMouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga9743f62b8bb399b86d0706f5674164f3" kind="typedef"><name>SpaceMouseKeySignal</name></member>
+      <member refid="group__GeneralGroup_1gab4cc13259763aa7b86dd1dca2c8e1c02" kind="typedef"><name>RenderSignal</name></member>
+      <member refid="group__GeneralGroup_1gae6e1c375cf8551f7eb7c8525ac158503" kind="typedef"><name>ObjectsLoadedSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa8b3ccf0007ef43e652abb9506dccb46" kind="typedef"><name>DragDropSignal</name></member>
+      <member refid="group__GeneralGroup_1ga934dc6f064f8166637a2372d0869e8eb" kind="typedef"><name>PostResizeSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa4a87b5c59b1bea08fc9d88c53d837df" kind="typedef"><name>PostRescaleSignal</name></member>
+      <member refid="group__GeneralGroup_1gaab72a2d73997cd31feb9723a2a765448" kind="typedef"><name>InterruptCloseSignal</name></member>
+      <member refid="group__GeneralGroup_1ga6898cbf470bc706c1d83ad845f588934" kind="typedef"><name>TouchSignal</name></member>
+      <member refid="group__GeneralGroup_1ga230e0e88d7c06f2e72b2f9669eeb6020" kind="typedef"><name>TouchpadGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1d051b0e5ed6812a2ffb4ac04ef0ce79" kind="typedef"><name>TouchpadGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1gabb64623892545f3b6274abe20ff451cc" kind="typedef"><name>TouchpadRotateGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1e546ead723024bb7ccf8744881ccbaf" kind="typedef"><name>TouchpadSwipeGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga817c538649e24045057f6bda35940837" kind="typedef"><name>TouchpadZoomGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga6ab96bfc7a502dd6337ed16dcc9566a5" kind="typedef"><name>PostFocusSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2b389ab14929627c8277c7af5a8b16b9" kind="typedef"><name>PreShutdownSignal</name></member>
+    </sectiondef>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga42da6839fe10c9bf9756229bdfed4a9e" kind="variable"><name>mouseDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga28dad40dee518e3fb6708f95a966bdc3" kind="variable"><name>mouseUpSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2458dcd3567d5b4979e0746ad10a4cdd" kind="variable"><name>mouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1gadcfb289fd724ae26e9e419d15291f2b7" kind="variable"><name>mouseScrollSignal</name></member>
+      <member refid="group__GeneralGroup_1ga40ecb888c615946e5aa75801242da0a8" kind="variable"><name>mouseClickSignal</name></member>
+      <member refid="group__GeneralGroup_1gaae56b491f3f0100f3e88b6b2806fb3da" kind="variable"><name>dragStartSignal</name></member>
+      <member refid="group__GeneralGroup_1gac812c2b1b4cd3dfe07c2b48b996ff82d" kind="variable"><name>dragEndSignal</name></member>
+      <member refid="group__GeneralGroup_1gad7a1d691e071128e55fad7beb88ad3a1" kind="variable"><name>dragSignal</name></member>
+      <member refid="group__GeneralGroup_1gac75d41fe5d8cbd28ead59eed7f502398" kind="variable"><name>cursorEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1gae4816cd353f0490019b33704a50e5e91" kind="variable"><name>charPressedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga72619aff4ce9d9898ca8df05c80dbdb2" kind="variable"><name>keyUpSignal</name></member>
+      <member refid="group__GeneralGroup_1gaf7ef8ba2679dfb40731927c1d9146ea5" kind="variable"><name>keyDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga53fb3871363cfdb55790facb59a23b26" kind="variable"><name>keyRepeatSignal</name></member>
+      <member refid="group__GeneralGroup_1ga751a1f7926a8ec7d0af12fc8d936a064" kind="variable"><name>spaceMouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1gac7f7aea2a410e63ed3b923af16182f30" kind="variable"><name>spaceMouseDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga7388c69ef049ea2f7879af3ced31488e" kind="variable"><name>spaceMouseUpSignal</name></member>
+      <member refid="group__GeneralGroup_1ga564f0179111e77451dffcd10d5481bc3" kind="variable"><name>spaceMouseRepeatSignal</name></member>
+      <member refid="group__GeneralGroup_1ga647abf20003f8be5338c1a190a49e445" kind="variable"><name>preSetupViewSignal</name></member>
+      <member refid="group__GeneralGroup_1ga910c00770e5f53a726734075ae156eb9" kind="variable"><name>preDrawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga21ac98263c6771dddfb68cd71dbd62ef" kind="variable"><name>preDrawPostViewportSignal</name></member>
+      <member refid="group__GeneralGroup_1gacb21b4a2803048b1571b4632b7ef1464" kind="variable"><name>drawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga98ff8e1aeea885b5a0b2910a3235b779" kind="variable"><name>postDrawPreViewportSignal</name></member>
+      <member refid="group__GeneralGroup_1ga7a39eb40c765e2285db19bf4a0afce85" kind="variable"><name>postDrawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga79cad3eac5390522405d1fe7aa44e4a0" kind="variable"><name>objectsLoadedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga0b3a8749017cb89a0b69effaf38412aa" kind="variable"><name>dragEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1ga95d0e27f9aab44408c63f601cfe8beff" kind="variable"><name>dragOverSignal</name></member>
+      <member refid="group__GeneralGroup_1ga57fe4d6b8a69e76ac4e8628d3be288d9" kind="variable"><name>dragDropSignal</name></member>
+      <member refid="group__GeneralGroup_1ga5af2323fdea7a481a60381fa74026462" kind="variable"><name>postResizeSignal</name></member>
+      <member refid="group__GeneralGroup_1gac7c8ff367d9f3af5f2d485da5afd76fc" kind="variable"><name>postRescaleSignal</name></member>
+      <member refid="group__GeneralGroup_1ga767b5b53a8c950fb6255cdceef610393" kind="variable"><name>interruptCloseSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2b051842d9d248f0db203a4ba0e45eec" kind="variable"><name>touchStartSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3f2e00637d032a4a824be5f9e6b3c001" kind="variable"><name>touchMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1gaeac13baf9ff456dd4d0fc9845198c2c3" kind="variable"><name>touchEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga8583345bb7229baa1f8c3d5a9f054f1a" kind="variable"><name>touchpadRotateGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1gaf027ab1420e7cbaa85b77fac9fe99b7f" kind="variable"><name>touchpadRotateGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gaec2623361d53a899b2aace77b421aa54" kind="variable"><name>touchpadRotateGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga13abbe486372793642a20e2bf4c20aa8" kind="variable"><name>touchpadSwipeGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1gaffeb572bf3f2bafa409b227a20ae3103" kind="variable"><name>touchpadSwipeGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2ea328f090dacb57609c073866d68237" kind="variable"><name>touchpadSwipeGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1gafed5f65b7deca22eaca1e36ab13d3e07" kind="variable"><name>touchpadZoomGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1754ff1466422c3045747d8dc73627f4" kind="variable"><name>touchpadZoomGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa3e862df8fc3eaf6bfff3caedbed9ddc" kind="variable"><name>touchpadZoomGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3d8fefdf076e60fd7238db07a198409b" kind="variable"><name>postFocusSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1034dba65d2faab3378f7af5fa30b218" kind="variable"><name>preShutdownSignal</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" line="12" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewerSignals.h" bodystart="13" bodyend="96"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gaa74e56ac086d42bf0be931fc3dfb3800" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>CharPressedSignal</name></member>
+      <member refid="group__GeneralGroup_1gae4816cd353f0490019b33704a50e5e91" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>charPressedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga635ab18f390475cfdf278794eae44fb6" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>CursorEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1gac75d41fe5d8cbd28ead59eed7f502398" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>cursorEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa8b3ccf0007ef43e652abb9506dccb46" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>DragDropSignal</name></member>
+      <member refid="group__GeneralGroup_1ga57fe4d6b8a69e76ac4e8628d3be288d9" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragDropSignal</name></member>
+      <member refid="group__GeneralGroup_1gac812c2b1b4cd3dfe07c2b48b996ff82d" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga0b3a8749017cb89a0b69effaf38412aa" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragEntranceSignal</name></member>
+      <member refid="group__GeneralGroup_1ga95d0e27f9aab44408c63f601cfe8beff" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragOverSignal</name></member>
+      <member refid="group__GeneralGroup_1gad7a1d691e071128e55fad7beb88ad3a1" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragSignal</name></member>
+      <member refid="group__GeneralGroup_1gaae56b491f3f0100f3e88b6b2806fb3da" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>dragStartSignal</name></member>
+      <member refid="group__GeneralGroup_1gacb21b4a2803048b1571b4632b7ef1464" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>drawSignal</name></member>
+      <member refid="group__GeneralGroup_1gaab72a2d73997cd31feb9723a2a765448" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>InterruptCloseSignal</name></member>
+      <member refid="group__GeneralGroup_1ga767b5b53a8c950fb6255cdceef610393" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>interruptCloseSignal</name></member>
+      <member refid="group__GeneralGroup_1gaf7ef8ba2679dfb40731927c1d9146ea5" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>keyDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga53fb3871363cfdb55790facb59a23b26" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>keyRepeatSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2c13f3f5f743830b0defe77be75a47f3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>KeySignal</name></member>
+      <member refid="group__GeneralGroup_1ga72619aff4ce9d9898ca8df05c80dbdb2" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>keyUpSignal</name></member>
+      <member refid="group__GeneralGroup_1ga40ecb888c615946e5aa75801242da0a8" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseClickSignal</name></member>
+      <member refid="group__GeneralGroup_1ga42da6839fe10c9bf9756229bdfed4a9e" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseDownSignal</name></member>
+      <member refid="group__GeneralGroup_1gac0c1bd273bc7918c1c5aaa17ee28185c" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>MouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2458dcd3567d5b4979e0746ad10a4cdd" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga9f30201f2d7ed3f6180ccf9c332d80cf" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>MouseScrollSignal</name></member>
+      <member refid="group__GeneralGroup_1gadcfb289fd724ae26e9e419d15291f2b7" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseScrollSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3206deabe6f49f8a3acf059b7130a0fb" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>MouseUpDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga28dad40dee518e3fb6708f95a966bdc3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>mouseUpSignal</name></member>
+      <member refid="group__GeneralGroup_1gae6e1c375cf8551f7eb7c8525ac158503" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>ObjectsLoadedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga79cad3eac5390522405d1fe7aa44e4a0" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>objectsLoadedSignal</name></member>
+      <member refid="group__GeneralGroup_1ga98ff8e1aeea885b5a0b2910a3235b779" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postDrawPreViewportSignal</name></member>
+      <member refid="group__GeneralGroup_1ga7a39eb40c765e2285db19bf4a0afce85" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postDrawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga6ab96bfc7a502dd6337ed16dcc9566a5" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PostFocusSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3d8fefdf076e60fd7238db07a198409b" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postFocusSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa4a87b5c59b1bea08fc9d88c53d837df" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PostRescaleSignal</name></member>
+      <member refid="group__GeneralGroup_1gac7c8ff367d9f3af5f2d485da5afd76fc" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postRescaleSignal</name></member>
+      <member refid="group__GeneralGroup_1ga934dc6f064f8166637a2372d0869e8eb" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PostResizeSignal</name></member>
+      <member refid="group__GeneralGroup_1ga5af2323fdea7a481a60381fa74026462" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>postResizeSignal</name></member>
+      <member refid="group__GeneralGroup_1ga21ac98263c6771dddfb68cd71dbd62ef" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preDrawPostViewportSignal</name></member>
+      <member refid="group__GeneralGroup_1ga910c00770e5f53a726734075ae156eb9" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preDrawSignal</name></member>
+      <member refid="group__GeneralGroup_1ga647abf20003f8be5338c1a190a49e445" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preSetupViewSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2b389ab14929627c8277c7af5a8b16b9" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>PreShutdownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1034dba65d2faab3378f7af5fa30b218" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>preShutdownSignal</name></member>
+      <member refid="group__GeneralGroup_1gab4cc13259763aa7b86dd1dca2c8e1c02" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>RenderSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1eda89f251264fcd4a837e688fdd8f85" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>SignalStopHandler</name></member>
+      <member refid="group__GeneralGroup_1gac7f7aea2a410e63ed3b923af16182f30" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseDownSignal</name></member>
+      <member refid="group__GeneralGroup_1ga9743f62b8bb399b86d0706f5674164f3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>SpaceMouseKeySignal</name></member>
+      <member refid="group__GeneralGroup_1ga01a10614f8eeeaabcc8e586facc221c5" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>SpaceMouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga751a1f7926a8ec7d0af12fc8d936a064" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga564f0179111e77451dffcd10d5481bc3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseRepeatSignal</name></member>
+      <member refid="group__GeneralGroup_1ga7388c69ef049ea2f7879af3ced31488e" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>spaceMouseUpSignal</name></member>
+      <member refid="group__GeneralGroup_1gaeac13baf9ff456dd4d0fc9845198c2c3" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga3f2e00637d032a4a824be5f9e6b3c001" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchMoveSignal</name></member>
+      <member refid="group__GeneralGroup_1ga230e0e88d7c06f2e72b2f9669eeb6020" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1d051b0e5ed6812a2ffb4ac04ef0ce79" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga8583345bb7229baa1f8c3d5a9f054f1a" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadRotateGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1gaec2623361d53a899b2aace77b421aa54" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadRotateGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1gabb64623892545f3b6274abe20ff451cc" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadRotateGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gaf027ab1420e7cbaa85b77fac9fe99b7f" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadRotateGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga13abbe486372793642a20e2bf4c20aa8" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadSwipeGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2ea328f090dacb57609c073866d68237" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadSwipeGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1e546ead723024bb7ccf8744881ccbaf" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadSwipeGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gaffeb572bf3f2bafa409b227a20ae3103" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadSwipeGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1gafed5f65b7deca22eaca1e36ab13d3e07" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadZoomGestureBeginSignal</name></member>
+      <member refid="group__GeneralGroup_1gaa3e862df8fc3eaf6bfff3caedbed9ddc" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadZoomGestureEndSignal</name></member>
+      <member refid="group__GeneralGroup_1ga817c538649e24045057f6bda35940837" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchpadZoomGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga1754ff1466422c3045747d8dc73627f4" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchpadZoomGestureUpdateSignal</name></member>
+      <member refid="group__GeneralGroup_1ga6898cbf470bc706c1d83ad845f588934" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>TouchSignal</name></member>
+      <member refid="group__GeneralGroup_1ga2b051842d9d248f0db203a4ba0e45eec" prot="public" virt="non-virtual"><scope>MR::ViewerSignals</scope><name>touchStartSignal</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

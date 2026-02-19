@@ -1,0 +1,862 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="MRRectIndexer_8h" kind="file" language="C++">
+    <compoundname>MRRectIndexer.h</compoundname>
+    <includes refid="MRId_8h" local="no">MRCMesh/MRId.h</includes>
+    <includes refid="MRVector2_8h" local="no">MRCMesh/MRVector2.h</includes>
+    <includes local="no">MRCMisc/common.h</includes>
+    <includes local="no">MRCMisc/exports.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">stddef.h</includes>
+    <incdepgraph>
+      <node id="2">
+        <label>MRCMesh/MRId.h</label>
+        <link refid="MRId_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>MRRectIndexer.h</label>
+        <link refid="MRRectIndexer_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>MRCMesh/MRVector2.h</label>
+        <link refid="MRVector2_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>MRCMisc/common.h</label>
+      </node>
+      <node id="4">
+        <label>MRCMisc/exports.h</label>
+      </node>
+      <node id="5">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stddef.h</label>
+      </node>
+    </incdepgraph>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600" prot="public" static="no" strong="no">
+        <type></type>
+        <name></name>
+        <enumvalue id="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a01c338df064c4413855124f0514411d1" prot="public">
+          <name>MR_OutEdge2_Invalid</name>
+          <initializer>= -1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600ae3f54bfa8779e765d8d50e936ee91a49" prot="public">
+          <name>MR_OutEdge2_PlusY</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a991106c364e3bafdcd266ba9ad5336fc" prot="public">
+          <name>MR_OutEdge2_MinusY</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a60bf3d6b9aebc056b7125ee50be9a826" prot="public">
+          <name>MR_OutEdge2_PlusX</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a5abb684d4aee49238ec8d8b2d3bde31c" prot="public">
+          <name>MR_OutEdge2_MinusX</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a9a5abc90e31366ee6925939f32ac27fd" prot="public">
+          <name>MR_OutEdge2_Count</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="21" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" bodystart="22" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="MRRectIndexer_8h_1ac5b3176651bd10f11559934b0565b6ee" prot="public" static="no">
+        <type>struct <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref></type>
+        <definition>typedef struct MR_DistanceMap MR_DistanceMap</definition>
+        <argsstring></argsstring>
+        <name>MR_DistanceMap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="15" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRRectIndexer_8h_1a7cdde60e20392324b624c6508b359f95" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref></type>
+        <definition>typedef struct MR_Matrix_float MR_Matrix_float</definition>
+        <argsstring></argsstring>
+        <name>MR_Matrix_float</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="16" column="30" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRRectIndexer_8h_1afa3a86d9b655499ff627de90d4de265e" prot="public" static="no">
+        <type>struct <ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref></type>
+        <definition>typedef struct MR_PixelBitSet MR_PixelBitSet</definition>
+        <argsstring></argsstring>
+        <name>MR_PixelBitSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="17" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" prot="public" static="no">
+        <type>signed char</type>
+        <definition>typedef signed char MR_OutEdge2</definition>
+        <argsstring></argsstring>
+        <name>MR_OutEdge2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="20" column="21" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="MRRectIndexer_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" prot="public" static="no">
+        <type>struct <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref></type>
+        <definition>typedef struct MR_RectIndexer MR_RectIndexer</definition>
+        <argsstring></argsstring>
+        <name>MR_RectIndexer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>a class for converting 2D integer coordinates into 1D linear coordinates and backward Generated from class <computeroutput>MR::RectIndexer</computeroutput>. Derived classes: Direct: (non-virtual) <computeroutput>MR::DistanceMap</computeroutput> <computeroutput>MR::Matrix&lt;float&gt;</computeroutput> Supported <computeroutput>MR_PassBy</computeroutput> modes: <computeroutput>MR_PassBy_DefaultConstruct</computeroutput>, <computeroutput>MR_PassBy_Copy</computeroutput>, <computeroutput>MR_PassBy_Move</computeroutput> (and <computeroutput>MR_PassBy_DefaultArgument</computeroutput> and <computeroutput>MR_PassBy_NoObject</computeroutput> if supported by the callee). </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="38" column="29" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="MRRectIndexer_8h_1abf7b469b8c7ebb19c78aaf18c98bc3b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref></type>
+        <definition>MRC_API MR_OutEdge2 MR_opposite_MR_OutEdge2</definition>
+        <argsstring>(MR_OutEdge2 e)</argsstring>
+        <name>MR_opposite_MR_OutEdge2</name>
+        <param>
+          <type><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+<para>Generated from function <computeroutput>MR::opposite</computeroutput>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="41" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="41" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1ac279c052a0245cdf3c9fa781c5ffb9c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_RectIndexer * MR_RectIndexer_DefaultConstruct</definition>
+        <argsstring>(void)</argsstring>
+        <name>MR_RectIndexer_DefaultConstruct</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an empty (default-constructed) instance. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" kindref="member">MR_RectIndexer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="45" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="45" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1ac976466e49ac5be3b4933a52ddfb6ca9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_RectIndexer * MR_RectIndexer_DefaultConstructArray</definition>
+        <argsstring>(size_t num_elems)</argsstring>
+        <name>MR_RectIndexer_DefaultConstructArray</name>
+        <param>
+          <type>size_t</type>
+          <declname>num_elems</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs an array of empty (default-constructed) instances, of the specified size. Will never return null. The array must be destroyed using <computeroutput><ref refid="MRRectIndexer_8h_1a164ebfe364f69b21f80aa4d209b63801" kindref="member">MR_RectIndexer_DestroyArray()</ref></computeroutput>. Use <computeroutput><ref refid="MRRectIndexer_8h_1a3683479ee7c3662ecc2ddc0ae8970493" kindref="member">MR_RectIndexer_OffsetMutablePtr()</ref></computeroutput> and <computeroutput><ref refid="MRRectIndexer_8h_1af1a1c5b0e0a59ea2f658c3f1c52283ec" kindref="member">MR_RectIndexer_OffsetPtr()</ref></computeroutput> to access the array elements. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="50" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="50" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1af1a1c5b0e0a59ea2f658c3f1c52283ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API const MR_RectIndexer * MR_RectIndexer_OffsetPtr</definition>
+        <argsstring>(const MR_RectIndexer *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RectIndexer_OffsetPtr</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="54" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="54" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a3683479ee7c3662ecc2ddc0ae8970493" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_RectIndexer * MR_RectIndexer_OffsetMutablePtr</definition>
+        <argsstring>(MR_RectIndexer *ptr, ptrdiff_t i)</argsstring>
+        <name>MR_RectIndexer_OffsetMutablePtr</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>ptr</declname>
+        </param>
+        <param>
+          <type>ptrdiff_t</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Offsets a pointer to an array element by <computeroutput>i</computeroutput> positions (not bytes). Use only if you&apos;re certain that the pointer points to an array element. The reference to the parameter <computeroutput>ptr</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="58" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="58" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1ada56d6dda1e1707af2253c1e93e62287" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
+        <definition>MRC_API const MR_DistanceMap * MR_RectIndexer_StaticDowncastTo_MR_DistanceMap</definition>
+        <argsstring>(const MR_RectIndexer *object)</argsstring>
+        <name>MR_RectIndexer_StaticDowncastTo_MR_DistanceMap</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::DistanceMap</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="64" column="30" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="64" declcolumn="30"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1adfc2955bd5916742ab7dd4728978acb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref> *</type>
+        <definition>MRC_API MR_DistanceMap * MR_RectIndexer_MutableStaticDowncastTo_MR_DistanceMap</definition>
+        <argsstring>(MR_RectIndexer *object)</argsstring>
+        <name>MR_RectIndexer_MutableStaticDowncastTo_MR_DistanceMap</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::DistanceMap</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="69" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="69" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a9c4d18935321ef3c5a4a722277791bca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API const MR_Matrix_float * MR_RectIndexer_StaticDowncastTo_MR_Matrix_float</definition>
+        <argsstring>(const MR_RectIndexer *object)</argsstring>
+        <name>MR_RectIndexer_StaticDowncastTo_MR_Matrix_float</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::Matrix&lt;float&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. This version is acting on mutable pointers. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="75" column="31" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="75" declcolumn="31"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a4b652a3d7fe490467290f21780b33987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref> *</type>
+        <definition>MRC_API MR_Matrix_float * MR_RectIndexer_MutableStaticDowncastTo_MR_Matrix_float</definition>
+        <argsstring>(MR_RectIndexer *object)</argsstring>
+        <name>MR_RectIndexer_MutableStaticDowncastTo_MR_Matrix_float</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>object</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Downcasts an instance of <computeroutput>MR::RectIndexer</computeroutput> to a derived class <computeroutput>MR::Matrix&lt;float&gt;</computeroutput>. This is a static downcast, it trusts the programmer that the target type is correct. Results in UB and returns an invalid pointer otherwise. The reference to the parameter <computeroutput>object</computeroutput> might be preserved in the return value. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="80" column="25" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="80" declcolumn="25"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a7741bd754627a153f5219bac95bab589" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_RectIndexer * MR_RectIndexer_ConstructFromAnother</definition>
+        <argsstring>(const MR_RectIndexer *_other)</argsstring>
+        <name>MR_RectIndexer_ConstructFromAnother</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RectIndexer::RectIndexer</computeroutput>. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" kindref="member">MR_RectIndexer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="86" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="86" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1abde9e7fc48fd8d657f7e250ad992023b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_RectIndexer * MR_RectIndexer_Construct</definition>
+        <argsstring>(const MR_Vector2i *dims)</argsstring>
+        <name>MR_RectIndexer_Construct</name>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from constructor <computeroutput>MR::RectIndexer::RectIndexer</computeroutput>. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. The reference to the parameter <computeroutput>dims</computeroutput> might be preserved in the constructed object. Never returns null. Returns an instance allocated on the heap! Must call <computeroutput><ref refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" kindref="member">MR_RectIndexer_Destroy()</ref></computeroutput> to free it when you&apos;re done using it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="92" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="92" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RectIndexer_Destroy</definition>
+        <argsstring>(const MR_RectIndexer *_this)</argsstring>
+        <name>MR_RectIndexer_Destroy</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated instance of <computeroutput>MR_RectIndexer</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="95" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="95" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a164ebfe364f69b21f80aa4d209b63801" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RectIndexer_DestroyArray</definition>
+        <argsstring>(const MR_RectIndexer *_this)</argsstring>
+        <name>MR_RectIndexer_DestroyArray</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+<para>Destroys a heap-allocated array of <computeroutput>MR_RectIndexer</computeroutput>. Does nothing if the pointer is null. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="98" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="98" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1afcb61fc17dfeca6c36baba2a92a8a544" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+        <definition>MRC_API MR_RectIndexer * MR_RectIndexer_AssignFromAnother</definition>
+        <argsstring>(MR_RectIndexer *_this, const MR_RectIndexer *_other)</argsstring>
+        <name>MR_RectIndexer_AssignFromAnother</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::operator=</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>_other</computeroutput> can not be null. It is a single object. The reference to things referred to by the parameter <computeroutput>_other</computeroutput> (if any) might be preserved in this object. The returned pointer will never be null. It is non-owning, do NOT destroy it. When this function is called, this object will drop any object references it had previously. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="106" column="24" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="106" declcolumn="24"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1ad19580d4052f35721c9afdbaf3be74c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_RectIndexer_resize</definition>
+        <argsstring>(MR_RectIndexer *_this, const MR_Vector2i *dims)</argsstring>
+        <name>MR_RectIndexer_resize</name>
+        <param>
+          <type><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>dims</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::resize</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>dims</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="111" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="111" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a4996a06e4713aaabd0add2117f58efb4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+        <definition>MRC_API const MR_Vector2i * MR_RectIndexer_dims</definition>
+        <argsstring>(const MR_RectIndexer *_this)</argsstring>
+        <name>MR_RectIndexer_dims</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::dims</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. The returned pointer will never be null. It is non-owning, do NOT destroy it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="116" column="27" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="116" declcolumn="27"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a1f9095d7c54eb6bd6424b108518d297b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_RectIndexer_size</definition>
+        <argsstring>(const MR_RectIndexer *_this)</argsstring>
+        <name>MR_RectIndexer_size</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::size</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="120" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="120" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1ae823480ba633697b40ac5f71010278f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref></type>
+        <definition>MRC_API MR_Vector2i MR_RectIndexer_toPos_MR_PixelId</definition>
+        <argsstring>(const MR_RectIndexer *_this, MR_PixelId id)</argsstring>
+        <name>MR_RectIndexer_toPos_MR_PixelId</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::toPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="124" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="124" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a2a4fa5ae1c9ee8d3658ced1944aa638f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref></type>
+        <definition>MRC_API MR_Vector2i MR_RectIndexer_toPos_uint64_t</definition>
+        <argsstring>(const MR_RectIndexer *_this, MR_uint64_t id)</argsstring>
+        <name>MR_RectIndexer_toPos_uint64_t</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>MR_uint64_t</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::toPos</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="128" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="128" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a42959ab3aa093eb4b9ed280584f794c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
+        <definition>MRC_API MR_PixelId MR_RectIndexer_toPixelId</definition>
+        <argsstring>(const MR_RectIndexer *_this, const MR_Vector2i *pos)</argsstring>
+        <name>MR_RectIndexer_toPixelId</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::toPixelId</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pos</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="133" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="133" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a656a084921950c88d1d8ba4acd56a83e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API MR_uint64_t</type>
+        <definition>MRC_API MR_uint64_t MR_RectIndexer_toIndex</definition>
+        <argsstring>(const MR_RectIndexer *_this, const MR_Vector2i *pos)</argsstring>
+        <name>MR_RectIndexer_toIndex</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::toIndex</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pos</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="138" column="21" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="138" declcolumn="21"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1acc8314171f38bb63f61e7cfa37c31a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_RectIndexer_areNeigbors_MR_PixelId</definition>
+        <argsstring>(const MR_RectIndexer *_this, MR_PixelId v0, MR_PixelId v1)</argsstring>
+        <name>MR_RectIndexer_areNeigbors_MR_PixelId</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
+          <declname>v0</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
+          <declname>v1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns true if v1 is within at most 4 neighbors of v0 Generated from method <computeroutput>MR::RectIndexer::areNeigbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="143" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="143" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1abc2c9777792225a2964016594ab5bee0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API bool</type>
+        <definition>MRC_API bool MR_RectIndexer_areNeigbors_MR_Vector2i</definition>
+        <argsstring>(const MR_RectIndexer *_this, const MR_Vector2i *pos0, const MR_Vector2i *pos1)</argsstring>
+        <name>MR_RectIndexer_areNeigbors_MR_Vector2i</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>pos0</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>pos1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::areNeigbors</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pos0</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pos1</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="149" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="149" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a431d9a12ae1af635e63d4a62fa68c8e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
+        <definition>MRC_API MR_PixelId MR_RectIndexer_getNeighbor_2</definition>
+        <argsstring>(const MR_RectIndexer *_this, MR_PixelId v, MR_OutEdge2 toNei)</argsstring>
+        <name>MR_RectIndexer_getNeighbor_2</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>returns id of v&apos;s neighbor specified by the edge Generated from method <computeroutput>MR::RectIndexer::getNeighbor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="154" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="154" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a2a3997cec3831f653abd32bedcbd3b02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API <ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
+        <definition>MRC_API MR_PixelId MR_RectIndexer_getNeighbor_3</definition>
+        <argsstring>(const MR_RectIndexer *_this, MR_PixelId v, const MR_Vector2i *pos, MR_OutEdge2 toNei)</argsstring>
+        <name>MR_RectIndexer_getNeighbor_3</name>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>_this</declname>
+        </param>
+        <param>
+          <type><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref></type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type>const <ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref> *</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref></type>
+          <declname>toNei</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Generated from method <computeroutput>MR::RectIndexer::getNeighbor</computeroutput>. Parameter <computeroutput>_this</computeroutput> can not be null. It is a single object. Parameter <computeroutput>pos</computeroutput> can not be null. It is a single object. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="159" column="20" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="159" declcolumn="20"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a96bb28ee56b22338a63ace6eb77fef96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_expandPixelMask</definition>
+        <argsstring>(MR_PixelBitSet *mask, const MR_RectIndexer *indexer, const int *expansion)</argsstring>
+        <name>MR_expandPixelMask</name>
+        <param>
+          <type><ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref> *</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>indexer</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>expansion</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>expands PixelBitSet with given number of steps Generated from function <computeroutput>MR::expandPixelMask</computeroutput>. Parameter <computeroutput>mask</computeroutput> can not be null. It is a single object. Parameter <computeroutput>indexer</computeroutput> can not be null. It is a single object. Parameter <computeroutput>expansion</computeroutput> has a default argument: <computeroutput>1</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="166" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="166" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="MRRectIndexer_8h_1a99bd26041e9f4b810bb537d152a466c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>MRC_API void</type>
+        <definition>MRC_API void MR_shrinkPixelMask</definition>
+        <argsstring>(MR_PixelBitSet *mask, const MR_RectIndexer *indexer, const int *shrinkage)</argsstring>
+        <name>MR_shrinkPixelMask</name>
+        <param>
+          <type><ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref> *</type>
+          <declname>mask</declname>
+        </param>
+        <param>
+          <type>const <ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref> *</type>
+          <declname>indexer</declname>
+        </param>
+        <param>
+          <type>const int *</type>
+          <declname>shrinkage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>shrinks PixelBitSet with given number of steps Generated from function <computeroutput>MR::shrinkPixelMask</computeroutput>. Parameter <computeroutput>mask</computeroutput> can not be null. It is a single object. Parameter <computeroutput>indexer</computeroutput> can not be null. It is a single object. Parameter <computeroutput>shrinkage</computeroutput> has a default argument: <computeroutput>1</computeroutput>, pass a null pointer to use it. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" line="173" column="14" declfile="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h" declline="173" declcolumn="14"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRId_8h" kindref="compound">MRCMesh/MRId.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="MRVector2_8h" kindref="compound">MRCMesh/MRVector2.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/common.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;MRCMisc/exports.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stddef.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="MRRectIndexer_8h_1ac5b3176651bd10f11559934b0565b6ee" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRDistanceMap.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="MRRectIndexer_8h_1a7cdde60e20392324b624c6508b359f95" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRMatrix.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="MRRectIndexer_8h_1afa3a86d9b655499ff627de90d4de265e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref><sp/><ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref>;<sp/></highlight><highlight class="comment">//<sp/>Defined<sp/>in<sp/>`#include<sp/>&lt;MRCMesh/MRBitSet.h&gt;`.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">signed</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">//<sp/>MR_OutEdge2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="23" refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a01c338df064c4413855124f0514411d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a01c338df064c4413855124f0514411d1" kindref="member">MR_OutEdge2_Invalid</ref><sp/>=<sp/>-1,</highlight></codeline>
+<codeline lineno="24" refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600ae3f54bfa8779e765d8d50e936ee91a49" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600ae3f54bfa8779e765d8d50e936ee91a49" kindref="member">MR_OutEdge2_PlusY</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="25" refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a991106c364e3bafdcd266ba9ad5336fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a991106c364e3bafdcd266ba9ad5336fc" kindref="member">MR_OutEdge2_MinusY</ref><sp/>=<sp/>1,</highlight></codeline>
+<codeline lineno="26" refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a60bf3d6b9aebc056b7125ee50be9a826" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a60bf3d6b9aebc056b7125ee50be9a826" kindref="member">MR_OutEdge2_PlusX</ref><sp/>=<sp/>2,</highlight></codeline>
+<codeline lineno="27" refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a5abb684d4aee49238ec8d8b2d3bde31c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a5abb684d4aee49238ec8d8b2d3bde31c" kindref="member">MR_OutEdge2_MinusX</ref><sp/>=<sp/>3,</highlight></codeline>
+<codeline lineno="28" refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a9a5abc90e31366ee6925939f32ac27fd" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="MRRectIndexer_8h_1abed82baf7f470b522273a3e37c24c600a9a5abc90e31366ee6925939f32ac27fd" kindref="member">MR_OutEdge2_Count</ref><sp/>=<sp/>4,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="MRRectIndexer_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref>;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="MRRectIndexer_8h_1abf7b469b8c7ebb19c78aaf18c98bc3b9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref><sp/><ref refid="MRRectIndexer_8h_1abf7b469b8c7ebb19c78aaf18c98bc3b9" kindref="member">MR_opposite_MR_OutEdge2</ref>(<ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref><sp/>e);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="MRRectIndexer_8h_1ac279c052a0245cdf3c9fa781c5ffb9c5" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1ac279c052a0245cdf3c9fa781c5ffb9c5" kindref="member">MR_RectIndexer_DefaultConstruct</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="MRRectIndexer_8h_1ac976466e49ac5be3b4933a52ddfb6ca9" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1ac976466e49ac5be3b4933a52ddfb6ca9" kindref="member">MR_RectIndexer_DefaultConstructArray</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>num_elems);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="MRRectIndexer_8h_1af1a1c5b0e0a59ea2f658c3f1c52283ec" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1af1a1c5b0e0a59ea2f658c3f1c52283ec" kindref="member">MR_RectIndexer_OffsetPtr</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="MRRectIndexer_8h_1a3683479ee7c3662ecc2ddc0ae8970493" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1a3683479ee7c3662ecc2ddc0ae8970493" kindref="member">MR_RectIndexer_OffsetMutablePtr</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*ptr,<sp/>ptrdiff_t<sp/>i);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="MRRectIndexer_8h_1ada56d6dda1e1707af2253c1e93e62287" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRRectIndexer_8h_1ada56d6dda1e1707af2253c1e93e62287" kindref="member">MR_RectIndexer_StaticDowncastTo_MR_DistanceMap</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69" refid="MRRectIndexer_8h_1adfc2955bd5916742ab7dd4728978acb0" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRTiff_8h_1ac5b3176651bd10f11559934b0565b6ee" kindref="member">MR_DistanceMap</ref><sp/>*<ref refid="MRRectIndexer_8h_1adfc2955bd5916742ab7dd4728978acb0" kindref="member">MR_RectIndexer_MutableStaticDowncastTo_MR_DistanceMap</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="MRRectIndexer_8h_1a9c4d18935321ef3c5a4a722277791bca" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRRectIndexer_8h_1a9c4d18935321ef3c5a4a722277791bca" kindref="member">MR_RectIndexer_StaticDowncastTo_MR_Matrix_float</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="MRRectIndexer_8h_1a4b652a3d7fe490467290f21780b33987" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a7cdde60e20392324b624c6508b359f95" kindref="member">MR_Matrix_float</ref><sp/>*<ref refid="MRRectIndexer_8h_1a4b652a3d7fe490467290f21780b33987" kindref="member">MR_RectIndexer_MutableStaticDowncastTo_MR_Matrix_float</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*</highlight><highlight class="keywordtype">object</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="MRRectIndexer_8h_1a7741bd754627a153f5219bac95bab589" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1a7741bd754627a153f5219bac95bab589" kindref="member">MR_RectIndexer_ConstructFromAnother</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="MRRectIndexer_8h_1abde9e7fc48fd8d657f7e250ad992023b" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1abde9e7fc48fd8d657f7e250ad992023b" kindref="member">MR_RectIndexer_Construct</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*dims);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a296cd76770fbf3653eecba832f9ce10c" kindref="member">MR_RectIndexer_Destroy</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="MRRectIndexer_8h_1a164ebfe364f69b21f80aa4d209b63801" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a164ebfe364f69b21f80aa4d209b63801" kindref="member">MR_RectIndexer_DestroyArray</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106" refid="MRRectIndexer_8h_1afcb61fc17dfeca6c36baba2a92a8a544" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*<ref refid="MRRectIndexer_8h_1afcb61fc17dfeca6c36baba2a92a8a544" kindref="member">MR_RectIndexer_AssignFromAnother</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_other);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111" refid="MRRectIndexer_8h_1ad19580d4052f35721c9afdbaf3be74c3" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1ad19580d4052f35721c9afdbaf3be74c3" kindref="member">MR_RectIndexer_resize</ref>(<ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*dims);</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="MRRectIndexer_8h_1a4996a06e4713aaabd0add2117f58efb4" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*<ref refid="MRRectIndexer_8h_1a4996a06e4713aaabd0add2117f58efb4" kindref="member">MR_RectIndexer_dims</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="MRRectIndexer_8h_1a1f9095d7c54eb6bd6424b108518d297b" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRRectIndexer_8h_1a1f9095d7c54eb6bd6424b108518d297b" kindref="member">MR_RectIndexer_size</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124" refid="MRRectIndexer_8h_1ae823480ba633697b40ac5f71010278f6" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="MRRectIndexer_8h_1ae823480ba633697b40ac5f71010278f6" kindref="member">MR_RectIndexer_toPos_MR_PixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="MRRectIndexer_8h_1a2a4fa5ae1c9ee8d3658ced1944aa638f" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/><ref refid="MRRectIndexer_8h_1a2a4fa5ae1c9ee8d3658ced1944aa638f" kindref="member">MR_RectIndexer_toPos_uint64_t</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/>MR_uint64_t<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="MRRectIndexer_8h_1a42959ab3aa093eb4b9ed280584f794c4" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRRectIndexer_8h_1a42959ab3aa093eb4b9ed280584f794c4" kindref="member">MR_RectIndexer_toPixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138" refid="MRRectIndexer_8h_1a656a084921950c88d1d8ba4acd56a83e" refkind="member"><highlight class="normal">MRC_API<sp/>MR_uint64_t<sp/><ref refid="MRRectIndexer_8h_1a656a084921950c88d1d8ba4acd56a83e" kindref="member">MR_RectIndexer_toIndex</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="143" refid="MRRectIndexer_8h_1acc8314171f38bb63f61e7cfa37c31a5b" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1acc8314171f38bb63f61e7cfa37c31a5b" kindref="member">MR_RectIndexer_areNeigbors_MR_PixelId</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v0,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v1);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="MRRectIndexer_8h_1abc2c9777792225a2964016594ab5bee0" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1abc2c9777792225a2964016594ab5bee0" kindref="member">MR_RectIndexer_areNeigbors_MR_Vector2i</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos0,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos1);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="154" refid="MRRectIndexer_8h_1a431d9a12ae1af635e63d4a62fa68c8e8" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRRectIndexer_8h_1a431d9a12ae1af635e63d4a62fa68c8e8" kindref="member">MR_RectIndexer_getNeighbor_2</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v,<sp/><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="MRRectIndexer_8h_1a2a3997cec3831f653abd32bedcbd3b02" refkind="member"><highlight class="normal">MRC_API<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/><ref refid="MRRectIndexer_8h_1a2a3997cec3831f653abd32bedcbd3b02" kindref="member">MR_RectIndexer_getNeighbor_3</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*_this,<sp/><ref refid="structMR__PixelId" kindref="compound">MR_PixelId</ref><sp/>v,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="structMR__Vector2i" kindref="compound">MR_Vector2i</ref><sp/>*pos,<sp/><ref refid="MRRectIndexer_8h_1a9da9bad660b3fc045413d2d5cfe0597b" kindref="member">MR_OutEdge2</ref><sp/>toNei);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166" refid="MRRectIndexer_8h_1a96bb28ee56b22338a63ace6eb77fef96" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a96bb28ee56b22338a63ace6eb77fef96" kindref="member">MR_expandPixelMask</ref>(<ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*expansion);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="MRRectIndexer_8h_1a99bd26041e9f4b810bb537d152a466c1" refkind="member"><highlight class="normal">MRC_API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="MRRectIndexer_8h_1a99bd26041e9f4b810bb537d152a466c1" kindref="member">MR_shrinkPixelMask</ref>(<ref refid="MRBitSet_8h_1afa3a86d9b655499ff627de90d4de265e" kindref="member">MR_PixelBitSet</ref><sp/>*mask,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="MRDistanceMap_8h_1a1a5efdccd2df88c9e6fd685e2f82f57b" kindref="member">MR_RectIndexer</ref><sp/>*indexer,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*shrinkage);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>extern<sp/>&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/Cbindings/MRCMesh/MRRectIndexer.h"/>
+  </compounddef>
+</doxygen>

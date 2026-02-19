@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SymbolMeshParams" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SymbolMeshParams</compoundname>
+    <derivedcompoundref refid="structMR_1_1TextMeshAlignParams" prot="public" virt="non-virtual">MR::TextMeshAlignParams</derivedcompoundref>
+    <includes refid="MRSymbolMesh_8h" local="no">MRSymbolMesh.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1gacb1fbf339bac28e29347e8a59589b28b" kind="variable"><name>text</name></member>
+      <member refid="group__GeneralGroup_1ga862ff23debfa432cd8025d0d39a00868" kind="variable"><name>fontDetalization</name></member>
+      <member refid="group__GeneralGroup_1ga13308560203bfeb849317043fdd1957a" kind="variable"><name>symbolsDistanceAdditionalOffset</name></member>
+      <member refid="group__GeneralGroup_1ga41e3e2a0fe3747d584ee52635c67c307" kind="variable"><name>symbolsThicknessOffsetModifier</name></member>
+      <member refid="group__GeneralGroup_1gafd1a0869903aae7b0b8c5df8492a936b" kind="variable"><name>align</name></member>
+      <member refid="group__GeneralGroup_1ga91479aefd75dc365ef6b39108ea22fcf" kind="variable"><name>pathToFontFile</name></member>
+    </sectiondef>
+    <sectiondef kind="public-static-attrib">
+      <member refid="group__GeneralGroup_1ga06383c90b2966a74b8076c74c310a45f" kind="variable"><name>MaxGeneratedFontHeight</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>MR::SymbolMeshParams</label>
+        <link refid="structMR_1_1SymbolMeshParams"/>
+      </node>
+      <node id="2">
+        <label>MR::TextMeshAlignParams</label>
+        <link refid="structMR_1_1TextMeshAlignParams"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" line="24" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRSymbolMesh/MRSymbolMesh.h" bodystart="25" bodyend="49"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gafd1a0869903aae7b0b8c5df8492a936b" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>align</name></member>
+      <member refid="group__GeneralGroup_1ga862ff23debfa432cd8025d0d39a00868" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>fontDetalization</name></member>
+      <member refid="group__GeneralGroup_1ga06383c90b2966a74b8076c74c310a45f" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>MaxGeneratedFontHeight</name></member>
+      <member refid="group__GeneralGroup_1ga91479aefd75dc365ef6b39108ea22fcf" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>pathToFontFile</name></member>
+      <member refid="group__GeneralGroup_1ga13308560203bfeb849317043fdd1957a" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>symbolsDistanceAdditionalOffset</name></member>
+      <member refid="group__GeneralGroup_1ga41e3e2a0fe3747d584ee52635c67c307" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>symbolsThicknessOffsetModifier</name></member>
+      <member refid="group__GeneralGroup_1gacb1fbf339bac28e29347e8a59589b28b" prot="public" virt="non-virtual"><scope>MR::SymbolMeshParams</scope><name>text</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

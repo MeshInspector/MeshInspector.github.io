@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName" kind="class" language="Python" prot="public">
+    <compoundname>mrmeshpy::CNCMachineSettings::RotationAxisName</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a352b61c2bd7eb01fccae4745d63ee9e9" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CNCMachineSettings.RotationAxisName::A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.A</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName" kindref="compound">CNCMachineSettings.RotationAxisName</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7339" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7339" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a8743dc7bd50c99465e6f20ee9b97a045" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CNCMachineSettings.RotationAxisName::B</definition>
+        <argsstring></argsstring>
+        <name>B</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.B</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName" kindref="compound">CNCMachineSettings.RotationAxisName</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7340" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a6f9818b02dbc52917760d1b667bc0f5f" prot="public" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CNCMachineSettings.RotationAxisName::C</definition>
+        <argsstring></argsstring>
+        <name>C</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.C</qualifiedname>
+        <initializer>.ClassVar[<ref refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName" kindref="compound">CNCMachineSettings.RotationAxisName</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7341" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7341" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a044fadc84ce5ea244f36503f4f27ebea" prot="private" static="yes" mutable="no">
+        <type>typing</type>
+        <definition>typing mrmeshpy.CNCMachineSettings.RotationAxisName::__members__</definition>
+        <argsstring></argsstring>
+        <name>__members__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__members__</qualifiedname>
+        <initializer>.ClassVar[dict[str, <ref refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName" kindref="compound">CNCMachineSettings.RotationAxisName</ref>]]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7342" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7342" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a45a042b6c0083c4c99433aa979ed66d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.CNCMachineSettings.RotationAxisName.__eq__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__eq__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__eq__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7343" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7343" bodyend="7344"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a364ece1dd0875b1858b3af5f676361a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.CNCMachineSettings.RotationAxisName.__getstate__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__getstate__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__getstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7345" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7345" bodyend="7346"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a7bcdae47c9830ff1d97d068c45c88f58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.CNCMachineSettings.RotationAxisName.__hash__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__hash__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__hash__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7347" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7347" bodyend="7348"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a516988d21150f74dc921b26aaa3db924" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.CNCMachineSettings.RotationAxisName.__index__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__index__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__index__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7349" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7349" bodyend="7350"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a36467906c7f7f14e0664f5a756d13a9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CNCMachineSettings.RotationAxisName.__init__</definition>
+        <argsstring>(self, int value)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7351" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7351" bodyend="7352"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1abb7dd559a1d7807ec40eeb5d8aa531bc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.CNCMachineSettings.RotationAxisName.__int__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__int__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__int__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7353" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7353" bodyend="7354"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a1db33c88bf0f399d96ea1e9040245beb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition> bool mrmeshpy.CNCMachineSettings.RotationAxisName.__ne__</definition>
+        <argsstring>(self, typing.Any other)</argsstring>
+        <name>__ne__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__ne__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>typing.Any</type>
+          <declname>other</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7355" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7355" bodyend="7356"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1aba30b3e2e1686afc7d401f22ed5a5c45" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CNCMachineSettings.RotationAxisName.__repr__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__repr__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__repr__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7357" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7357" bodyend="7358"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1aab9877620a9027f88b0e021cd5ab2c6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>None</type>
+        <definition> None mrmeshpy.CNCMachineSettings.RotationAxisName.__setstate__</definition>
+        <argsstring>(self, int state)</argsstring>
+        <name>__setstate__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__setstate__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>state</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7359" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7359" bodyend="7360"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1aec74c98b44196ee9b6f7c442bad80d9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CNCMachineSettings.RotationAxisName.__str__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__str__</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.__str__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7361" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7361" bodyend="7362"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a766383ff7eb00a0aeafe4dc4892161f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>str</type>
+        <definition> str mrmeshpy.CNCMachineSettings.RotationAxisName.name</definition>
+        <argsstring>(self)</argsstring>
+        <name>name</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.name</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7364" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7364" bodyend="7365"/>
+      </memberdef>
+      <memberdef kind="function" id="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1aeded25aa201dac145de09ae2a8c09cc7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition> int mrmeshpy.CNCMachineSettings.RotationAxisName.value</definition>
+        <argsstring>(self)</argsstring>
+        <name>value</name>
+        <qualifiedname>mrmeshpy.CNCMachineSettings.RotationAxisName.value</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7367" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7367" bodyend="7369"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Members:
+
+  A
+
+  B
+
+  C
+</verbatim> </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>mrmeshpy.CNCMachineSettings.RotationAxisName</label>
+        <link refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>A</edgelabel>
+          <edgelabel>B</edgelabel>
+          <edgelabel>C</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>typing</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" line="7329" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/scripts/wheel/meshlib/meshlib/mrmeshpy.pyi" bodystart="7329" bodyend="7368"/>
+    <listofallmembers>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a45a042b6c0083c4c99433aa979ed66d6" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__eq__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a364ece1dd0875b1858b3af5f676361a3" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__getstate__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a7bcdae47c9830ff1d97d068c45c88f58" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__hash__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a516988d21150f74dc921b26aaa3db924" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__index__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a36467906c7f7f14e0664f5a756d13a9e" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__init__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1abb7dd559a1d7807ec40eeb5d8aa531bc" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__int__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a044fadc84ce5ea244f36503f4f27ebea" prot="private" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__members__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a1db33c88bf0f399d96ea1e9040245beb" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__ne__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1aba30b3e2e1686afc7d401f22ed5a5c45" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__repr__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1aab9877620a9027f88b0e021cd5ab2c6a" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__setstate__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1aec74c98b44196ee9b6f7c442bad80d9a" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>__str__</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a352b61c2bd7eb01fccae4745d63ee9e9" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>A</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a8743dc7bd50c99465e6f20ee9b97a045" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>B</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a6f9818b02dbc52917760d1b667bc0f5f" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>C</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1a766383ff7eb00a0aeafe4dc4892161f5" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>name</name></member>
+      <member refid="classmrmeshpy_1_1CNCMachineSettings_1_1RotationAxisName_1aeded25aa201dac145de09ae2a8c09cc7" prot="public" virt="non-virtual"><scope>mrmeshpy::CNCMachineSettings::RotationAxisName</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

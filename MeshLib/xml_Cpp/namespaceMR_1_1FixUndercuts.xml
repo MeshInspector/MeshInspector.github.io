@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="namespaceMR_1_1FixUndercuts" kind="namespace" language="C++">
+    <compoundname>MR::FixUndercuts</compoundname>
+    <innerclass refid="structMR_1_1FixUndercuts_1_1DistMapImproveDirectionParameters" prot="public">MR::FixUndercuts::DistMapImproveDirectionParameters</innerclass>
+    <innerclass refid="structMR_1_1FixUndercuts_1_1FindParams" prot="public">MR::FixUndercuts::FindParams</innerclass>
+    <innerclass refid="structMR_1_1FixUndercuts_1_1FixParams" prot="public">MR::FixUndercuts::FixParams</innerclass>
+    <innerclass refid="structMR_1_1FixUndercuts_1_1ImproveDirectionParameters" prot="public">MR::FixUndercuts::ImproveDirectionParameters</innerclass>
+    <sectiondef kind="typedef">
+      <member refid="group__GeneralGroup_1gafb7dbf2667211aa9d31565ef2d4ad13d" kind="typedef"><name>UndercutMetric</name></member>
+    </sectiondef>
+    <sectiondef kind="func">
+      <member refid="group__GeneralGroup_1gaeadb3059cbb560573bab4cf7842d03e7" kind="function"><name>fixUndercuts</name></member>
+      <member refid="group__GeneralGroup_1ga25cdcfeebb017e6cee1efc67f32d00ff" kind="function"><name>fixUndercuts</name></member>
+      <member refid="group__GeneralGroup_1ga828027410a376eff4887e779d41e2ac7" kind="function"><name>fix</name></member>
+      <member refid="group__GeneralGroup_1ga6103a164b0037795960a4ecc185199cc" kind="function"><name>getUndercutAreaMetric</name></member>
+      <member refid="group__GeneralGroup_1gabe945577bbd648b8f5dfafd9ebd0361e" kind="function"><name>getUndercutAreaProjectionMetric</name></member>
+      <member refid="group__GeneralGroup_1gae4d915cce44fa17e490cd4fcd8c2f873" kind="function"><name>findUndercuts</name></member>
+      <member refid="group__GeneralGroup_1ga1f09ee04e3c1273e01b1976dfdc385ba" kind="function"><name>findUndercuts</name></member>
+      <member refid="group__GeneralGroup_1ga767a353a6dec2e7f7e759a09ca2ca417" kind="function"><name>findUndercuts</name></member>
+      <member refid="group__GeneralGroup_1gaab7f74dcecd9e3401fed6751e0b70e1a" kind="function"><name>find</name></member>
+      <member refid="group__GeneralGroup_1gaecc6cdf126c48d730e18a76748377b81" kind="function"><name>find</name></member>
+      <member refid="group__GeneralGroup_1ga1533cdae8a0918d9ee6e83cf92f56280" kind="function"><name>scoreUndercuts</name></member>
+      <member refid="group__GeneralGroup_1ga6302d9ddaf5ffbcdafa2451367f8b8e6" kind="function"><name>improveDirection</name></member>
+      <member refid="group__GeneralGroup_1ga4ce77d6cc1b654cd81c517870a1c840f" kind="function"><name>distMapImproveDirection</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRVoxels/MRFixUndercuts.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>

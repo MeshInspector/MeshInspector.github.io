@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1SegmEndColors" kind="struct" language="C++" prot="public">
+    <compoundname>MR::SegmEndColors</compoundname>
+    <includes refid="MRViewportGL_8h" local="no">MRViewportGL.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga074d144106e966fd84ea6ac76b9a172b" kind="variable"><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga34ba656028d463bdd70196ca015bdeab" kind="variable"><name>b</name></member>
+    </sectiondef>
+    <briefdescription>
+<para>colors of segment ends </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" line="19" column="1" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRViewer/MRViewportGL.h" bodystart="20" bodyend="22"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1ga074d144106e966fd84ea6ac76b9a172b" prot="public" virt="non-virtual"><scope>MR::SegmEndColors</scope><name>a</name></member>
+      <member refid="group__GeneralGroup_1ga34ba656028d463bdd70196ca015bdeab" prot="public" virt="non-virtual"><scope>MR::SegmEndColors</scope><name>b</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

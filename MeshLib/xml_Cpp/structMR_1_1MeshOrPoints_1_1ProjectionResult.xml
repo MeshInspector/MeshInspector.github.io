@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.11.0" xml:lang="en-US">
+  <compounddef id="structMR_1_1MeshOrPoints_1_1ProjectionResult" kind="struct" language="C++" prot="public">
+    <compoundname>MR::MeshOrPoints::ProjectionResult</compoundname>
+    <includes refid="MRMeshOrPoints_8h" local="no">MRMeshOrPoints.h</includes>
+    <sectiondef kind="public-attrib">
+      <member refid="group__GeneralGroup_1ga975a5de8766c9ee7093fa82c4620f049" kind="variable"><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga1da43d795c49a78d26d63c9f1f90bdae" kind="variable"><name>normal</name></member>
+      <member refid="group__GeneralGroup_1gac1e15a8f200cad28d7b9d7c56757eee4" kind="variable"><name>isBd</name></member>
+      <member refid="group__GeneralGroup_1gab04e26fe4503fb08898aaeccad548f71" kind="variable"><name>distSq</name></member>
+      <member refid="group__GeneralGroup_1gacd151f3c2558f8dc870aa2172d32a00e" kind="variable"><name>closestVert</name></member>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <member refid="group__GeneralGroup_1gad96f5e58f9ab65b5b186ccd7d330c64d" kind="function"><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga799a4d75cde699ab800ef755c3201cf6" kind="function"><name>valid</name></member>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" line="71" column="5" bodyfile="/home/runner/work/MeshLib/MeshLib/MeshLib/source/MRMesh/MRMeshOrPoints.h" bodystart="72" bodyend="92"/>
+    <listofallmembers>
+      <member refid="group__GeneralGroup_1gacd151f3c2558f8dc870aa2172d32a00e" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>closestVert</name></member>
+      <member refid="group__GeneralGroup_1gab04e26fe4503fb08898aaeccad548f71" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>distSq</name></member>
+      <member refid="group__GeneralGroup_1gac1e15a8f200cad28d7b9d7c56757eee4" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>isBd</name></member>
+      <member refid="group__GeneralGroup_1ga1da43d795c49a78d26d63c9f1f90bdae" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>normal</name></member>
+      <member refid="group__GeneralGroup_1gad96f5e58f9ab65b5b186ccd7d330c64d" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>operator bool</name></member>
+      <member refid="group__GeneralGroup_1ga975a5de8766c9ee7093fa82c4620f049" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>point</name></member>
+      <member refid="group__GeneralGroup_1ga799a4d75cde699ab800ef755c3201cf6" prot="public" virt="non-virtual"><scope>MR::MeshOrPoints::ProjectionResult</scope><name>valid</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
